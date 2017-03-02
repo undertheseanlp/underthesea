@@ -9,6 +9,7 @@ def info(version):
     """Show information about underthesea package
 
     :param str version: version of package
+    :type version: str
     """
     print(version)
     print("underthesea is a Vietnamese NLP Toolkit")
