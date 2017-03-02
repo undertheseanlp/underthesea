@@ -8,10 +8,7 @@ __version__ = '1.0.0'
 def info(version):
     """Show underthesea information
 
-    Args:
-        version (str): The first parameter.
-
-    Returns:
-        None
+    :type version: object
+    :rtype None
     """
     print "underthesea is a Vietnamese NLP Toolkit"
