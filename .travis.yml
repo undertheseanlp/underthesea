@@ -25,8 +25,5 @@ deploy:
   distributions: sdist bdist_wheel
   user: magizbox
   password:
-    secure: PLEASE_REPLACE_ME
-  on:
-    tags: true
-    repo: rain1024/underthesea
-    condition: $TOXENV == py27
+    secure: "cQJaNxlsICRFC0PD2MegX3dJ+X5cyU2CR/hI1JwvKBhJj1LTaokF0VVqLvXVZP5k+n4NH0nWlvbl9wlOlSnbysf9Tib2Dr+Uwd+ZdxRNugeOAyUMxoQjPeL5viG56BY2YhcqLaslW1ETt53FGi0gDu7BY8UCM8HQRpR4RmD+AWrZHWv9b3Kv2EVV9meXR5M6NDQdBA8CyKCWjIJOolNv7eTxR4f9YVobdYeYvmVP5iPzc1QbO9GC6zhQK9loZKlymJiiffcpFfdddGygTJNGL7ph02AMCXycQfXrry7vB7nJl6oY3ixiiEGp6bAXZlQLjq/3/08tgkO1LZHWzkoeALlc3349ZbZLHWsRW3p+uU562SrXuixUvhExHmwFF4yj8fSb2xkFW+SEIuKdPsdSp5CT9VfJ0HcllZCEtophDG+8n7qDTUpE2GPQfMUzOMYwUY7x1bs/JsGIScAiPPfdemPSccMLCrBg66oPdNaz/Is7DPgqWLGO1lqPTuqqvrT1yWRoFeEAcEkNFotqm+SIxXyYPboMHvg4RtdS//fcnKzqBVquVvGShBepi13R10rBkqBtRiSP2vTMKJaUByJmJEZwjp3q34xOrESZy0opouS8yRDx+L9w9ND2W0uKxz8IVO88WzYebt3XRjez28ZNgu25P4UOSwum4s157hGwwtI="
+`
