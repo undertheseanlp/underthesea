@@ -22,8 +22,7 @@ Vietnamese NLP Toolkit
 
 
 * Free software: GNU General Public License v3
-* Documentation: [https://underthesea.readthedocs.io.](https://magizbox-underthesea.readthedocs-hosted.com/en/latest/)
-
+* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
 
 Features
 --------
