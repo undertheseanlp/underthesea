@@ -13,8 +13,8 @@ Under The Sea
         :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/rain1024/underthesea/shield.svg
-     :target: https://pyup.io/repos/github/rain1024/underthesea/
+.. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
+     :target: https://pyup.io/repos/github/magizbox/underthesea/
      :alt: Updates
 
 
@@ -22,13 +22,14 @@ Vietnamese NLP Toolkit
 
 
 * Free software: GNU General Public License v3
-* Documentation: https://underthesea.readthedocs.io.
+* Documentation: [https://underthesea.readthedocs.io.](https://magizbox-underthesea.readthedocs-hosted.com/en/latest/)
 
 
 Features
 --------
 
-* TODO
+* Sentiment Analysis
+* Vietnamese Dictionary
 
 Credits
 ---------
