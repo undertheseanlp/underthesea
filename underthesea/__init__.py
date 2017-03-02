@@ -9,6 +9,7 @@ def info(version):
     """Show information about underthesea package
 
     :type version: object
-    :rtype None
+
     """
-    print "underthesea is a Vietnamese NLP Toolkit"
+    print(version)
+    print("underthesea is a Vietnamese NLP Toolkit")
