@@ -15,3 +15,6 @@ API
 .. automodule:: underthesea.animal
     :members:
     :undoc-members:
+.. automodule:: underthesea.testPacket
+    :members:
+    :undoc-members:
