@@ -1,6 +1,6 @@
 Code
 ====
 
-.. automodule:: underthesea
+.. automodule:: underthesea.underthesea
     :members:
     :undoc-members:
