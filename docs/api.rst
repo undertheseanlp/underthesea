@@ -1,4 +1,4 @@
-Code
+API
 ====
 
 :mod:`underthesea` Package

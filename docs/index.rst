@@ -9,8 +9,8 @@ Contents:
    installation
    usage
    contributing
-   code
-   authorshistory
+   api
+   history
 
 Indices and tables
 ==================
