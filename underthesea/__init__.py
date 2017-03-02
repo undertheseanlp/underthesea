@@ -6,7 +6,7 @@ __version__ = '1.0.0'
 
 
 def info(version):
-    """Show underthesea information
+    """Show information about underthesea package
 
     :type version: object
     :rtype None
