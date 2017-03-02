@@ -8,7 +8,8 @@ __version__ = '1.0.0'
 def info(version):
     """Show information about underthesea package
 
-    :type version: object
+    :param str version: version of package
+    :type version: str
 
     """
     print(version)
