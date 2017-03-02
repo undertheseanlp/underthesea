@@ -6,11 +6,11 @@ Under The Sea
 .. image:: https://img.shields.io/pypi/v/underthesea.svg
         :target: https://pypi.python.org/pypi/underthesea
 
-.. image:: https://img.shields.io/travis/rain1024/underthesea.svg
-        :target: https://travis-ci.org/rain1024/underthesea
+.. image:: https://img.shields.io/travis/magizbox/underthesea.svg
+        :target: https://travis-ci.org/magizbox/underthesea
 
-.. image:: https://readthedocs.org/projects/underthesea/badge/?version=latest
-        :target: https://underthesea.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
+        :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/rain1024/underthesea/shield.svg
