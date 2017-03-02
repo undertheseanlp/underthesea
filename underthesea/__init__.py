@@ -8,8 +8,7 @@ __version__ = '1.0.0'
 def info(version):
     """Show information about underthesea package
 
-    :type version: str
-
+    :param str version: version of package
     """
     print(version)
     print("underthesea is a Vietnamese NLP Toolkit")
