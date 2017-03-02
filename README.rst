@@ -1,5 +1,5 @@
 ===============================
-Under The Sea
+Under The Sea - Vietnamese NLP Toolkit
 ===============================
 
 
@@ -17,9 +17,7 @@ Under The Sea
      :target: https://pyup.io/repos/github/magizbox/underthesea/
      :alt: Updates
 
-
-Vietnamese NLP Toolkit
-
+.. image:: logo.jpg
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
@@ -27,14 +25,6 @@ Vietnamese NLP Toolkit
 Features
 --------
 
-* Sentiment Analysis
 * Vietnamese Dictionary
-
-Credits
----------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Sentiment Analysis
 
