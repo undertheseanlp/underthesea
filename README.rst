@@ -14,13 +14,14 @@ Under The Sea - Vietnamese NLP Toolkit
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
-     :target: https://pyup.io/repos/github/magizbox/underthesea/
-     :alt: Updates
+        :target: https://pyup.io/repos/github/magizbox/underthesea/
+        :alt: Updates
 
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
+        :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
 * Free software: GNU General Public License v3
-* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`
+* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
 
 Features
 --------
