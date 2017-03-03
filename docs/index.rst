@@ -6,11 +6,11 @@ Contents:
 .. toctree::
    :maxdepth: 2
 
-   readme
    installation
    usage
    contributing
-   authorshistory
+   api
+   history
 
 Indices and tables
 ==================
