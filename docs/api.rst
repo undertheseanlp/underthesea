@@ -18,3 +18,7 @@ API
 .. automodule:: underthesea.corpus
     :members:
     :undoc-members:
+
+.. automodule:: underthesea.corpus.corpus
+    :members:
+    :undoc-members:
