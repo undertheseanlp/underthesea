@@ -1,7 +1,9 @@
-from underthesea.underthesea import Corpus
+from corpus import Corpus
 
 
 class PlainTextCorpus(Corpus):
+    """corpus for handling plain text
+    """
     def __init__(self):
         self.documents = None
 

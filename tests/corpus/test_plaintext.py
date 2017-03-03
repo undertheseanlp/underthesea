@@ -1,9 +1,10 @@
 from unittest import TestCase
 
-from underthesea.corpus.corpus import Corpus
+from underthesea.corpus import PlainTextCorpus
 
 
 class TestPlainTextCorpus(TestCase):
     def test___init__(self):
-        corpus = Corpus()
+        corpus = PlainTextCorpus()
+        self.assertIsNone(corpus.documents)
 
