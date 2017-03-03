@@ -1,28 +1,34 @@
+import os
 import shutil
 from os import listdir
 from unittest import TestCase
-
+from os.path import join
 from underthesea.corpus import PlainTextCorpus
+
+test_folder = os.path.dirname(__file__)
 
 
 class TestPlainTextCorpus(TestCase):
+    def setUp(self):
+        self.plaintext_folder = join(test_folder, "sample_text_corpus")
+        self.saved_plaintext_folder = join(test_folder, "sample_saved_text_corpus")
+
     def test___init__(self):
         corpus = PlainTextCorpus()
         self.assertIsNone(corpus.documents)
 
     def test_load(self):
         corpus = PlainTextCorpus()
-        corpus.load("sample_text_corpus")
+        corpus.load(self.plaintext_folder)
         self.assertEqual(4, len(corpus.documents))
 
     def test_save(self):
         corpus = PlainTextCorpus()
-        corpus.load("sample_text_corpus")
-        dist = "sample_saved_text_corpus"
-        corpus.save(dist)
-        files = listdir(dist)
+        corpus.load(self.plaintext_folder)
+        corpus.save(self.saved_plaintext_folder)
+        files = listdir(self.saved_plaintext_folder)
         self.assertEqual(4, len(files))
         try:
-            shutil.rmtree(dist)
+            shutil.rmtree(self.saved_plaintext_folder)
         except:
             pass
