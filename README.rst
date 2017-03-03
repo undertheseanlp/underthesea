@@ -1,5 +1,5 @@
 ===============================
-Under The Sea - Vietnamese NLP Toolkit
+Under The Sea: Vietnamese NLP Toolkit
 ===============================
 
 
