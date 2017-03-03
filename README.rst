@@ -17,6 +17,8 @@ Under The Sea
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
 
+.. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
+        :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
 Vietnamese NLP Toolkit
 
