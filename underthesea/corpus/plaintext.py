@@ -30,10 +30,15 @@ class PlainTextCorpus(Corpus):
         self.documents = documents
 
     def save(self, folder):
+        """save corpus to files
+
+        :param str folder: path to directory
+        :type folder: string
+        """
         try:
             mkdir(folder)
         except Exception, e:
             pass
         for document in self.documents:
             f = join(folder, document.id)
-            print 0
+            open(f, "w").write(document.sentences)

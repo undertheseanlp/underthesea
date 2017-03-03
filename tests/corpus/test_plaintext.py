@@ -1,3 +1,4 @@
+import shutil
 from os import listdir
 from unittest import TestCase
 
@@ -21,3 +22,7 @@ class TestPlainTextCorpus(TestCase):
         corpus.save(dist)
         files = listdir(dist)
         self.assertEqual(4, len(files))
+        try:
+            shutil.rmtree(dist)
+        except:
+            pass
