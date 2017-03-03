@@ -1,5 +1,5 @@
 from corpus import Corpus
-from document import Document
+from underthesea.corpus.document import Document
 from os.path import join
 from os import listdir, mkdir
 
