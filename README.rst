@@ -20,7 +20,7 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
 * Free software: GNU General Public License v3
-* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
+* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`
 
 Features
 --------
