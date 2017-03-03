@@ -22,3 +22,7 @@ API
 .. automodule:: underthesea.corpus.corpus
     :members:
     :undoc-members:
+
+.. automodule:: underthesea.corpus.plaintext
+    :members:
+    :undoc-members:
