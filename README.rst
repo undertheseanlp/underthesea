@@ -1,5 +1,5 @@
 ===============================
-Under The Sea
+Under The Sea - Vietnamese NLP Toolkit
 ===============================
 
 
@@ -21,8 +21,6 @@ Under The Sea
 
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
-
-Vietnamese NLP Toolkit
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
