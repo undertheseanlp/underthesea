@@ -12,15 +12,7 @@ API
     :members:
     :undoc-members:
 
-.. automodule:: underthesea.animal
-    :members:
-    :undoc-members:
-
-.. automodule:: underthesea.testPacket
-    :members:
-    :undoc-members:
-
-:mod: `corpus`
+:mod:`corpus` Package
 -------------------
 
 .. automodule:: underthesea.corpus
