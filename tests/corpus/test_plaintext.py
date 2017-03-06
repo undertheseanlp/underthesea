@@ -22,6 +22,11 @@ class TestPlainTextCorpus(TestCase):
         corpus.load(self.plaintext_folder)
         self.assertEqual(4, len(corpus.documents))
 
+    def test_sentences(self):
+        corpus = PlainTextCorpus()
+        corpus.load(self.plaintext_folder)
+        self.assertTrue(type(corpus.documents[0].sentences) == list)
+
     def test_save(self):
         corpus = PlainTextCorpus()
         corpus.load(self.plaintext_folder)

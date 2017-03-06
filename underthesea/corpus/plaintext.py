@@ -25,7 +25,8 @@ class PlainTextCorpus(Corpus):
 
         for id, content in zip(ids, contents):
             document = Document(id)
-            document.set_sentences(content)
+            sentences = content.split("\n")
+            document.set_sentences(sentences)
             documents.append(document)
         self.documents = documents
 
