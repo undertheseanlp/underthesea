@@ -7,10 +7,14 @@ API
 .. automodule:: underthesea
     :members:
     :undoc-members:
+    :inherited-members:
+    :show-inheritance:
 
 .. automodule:: underthesea.underthesea
     :members:
     :undoc-members:
+    :inherited-members:
+    :show-inheritance:
 
 :mod:`corpus` Package
 -------------------
