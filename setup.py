@@ -16,7 +16,7 @@ requirements = [
 
 test_requirements = [
     # TODO: put package test requirements here
-    'nose=1.3.7=py27_1'
+    'nose==1.3.7'
 ]
 
 setup(
