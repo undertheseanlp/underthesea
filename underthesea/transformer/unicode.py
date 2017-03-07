@@ -4,9 +4,10 @@ class UnicodeTransformer:
 
     def transform(self, text):
         """
-        :param text
-        :type text: unicode
+        :param unicode|str text: input text
+        :type text: unicode|str
 
+        :rtype unicode
         """
         if type(text) is not unicode:
             text = unicode(text, 'utf-8')
