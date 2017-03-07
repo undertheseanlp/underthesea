@@ -34,7 +34,7 @@ API
     :undoc-members:
     :show-inheritance:
 
-.. automodule:: underthesea.corpus.corpus.readers.dictionary_loader
+.. automodule:: underthesea.corpus.readers.dictionary_loader
     :members:
     :undoc-members:
     :show-inheritance:
