@@ -1,6 +1,7 @@
 from os.path import join, dirname
 from underthesea.transformer.unicode import UnicodeTransformer
 
+
 class DictionaryLoader:
     def __init__(self, filepath):
         """load words from Ho Ngoc Duc's dictionary
