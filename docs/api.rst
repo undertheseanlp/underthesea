@@ -24,10 +24,14 @@ API
 .. automodule:: underthesea.corpus.corpus
     :members:
     :undoc-members:
+    :inherited-members:
+    :show-inheritance:
 
 .. automodule:: underthesea.corpus.plaintext
     :members:
     :undoc-members:
+    :inherited-members:
+    :show-inheritance:
 
 :mod:`transformer` Package
 -------------------
