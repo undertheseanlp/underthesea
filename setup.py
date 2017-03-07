@@ -16,6 +16,7 @@ requirements = [
 
 test_requirements = [
     # TODO: put package test requirements here
+    'nose=1.3.7=py27_1'
 ]
 
 setup(
@@ -30,7 +31,7 @@ setup(
         'underthesea',
     ],
     package_dir={'underthesea':
-                 'underthesea'},
+                     'underthesea'},
     entry_points={
         'console_scripts': [
             'underthesea=underthesea.cli:main'

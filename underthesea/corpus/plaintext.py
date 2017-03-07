@@ -3,6 +3,8 @@ from underthesea.corpus.document import Document
 from os.path import join
 from os import listdir, mkdir
 
+from underthesea.transformer.unicode import UnicodeTransformer
+
 
 class PlainTextCorpus(Corpus):
     """class for handling plain text corpus
@@ -25,6 +27,8 @@ class PlainTextCorpus(Corpus):
         for id, content in zip(ids, contents):
             document = Document(id)
             sentences = content.split("\n")
+            unicode_transformer = UnicodeTransformer()
+            sentences = [unicode_transformer.transform(sentence) for sentence in sentences]
             document.set_sentences(sentences)
             documents.append(document)
         self.documents = documents
@@ -41,5 +45,6 @@ class PlainTextCorpus(Corpus):
             pass
         for document in self.documents:
             f = join(folder, document.id)
-            content = "\n".join(document.sentences)
+            content = u"\n".join(document.sentences)
+            content = content.encode("utf-8")
             open(f, "w").write(content)
