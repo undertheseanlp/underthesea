@@ -22,31 +22,26 @@ API
 .. automodule:: underthesea.corpus
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 .. automodule:: underthesea.corpus.corpus
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 .. automodule:: underthesea.corpus.corpus.readers
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 .. automodule:: underthesea.corpus.corpus.readers.dictionary_loader
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 .. automodule:: underthesea.corpus.plaintext
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 :mod:`transformer` Package
@@ -55,11 +50,9 @@ API
 .. automodule:: underthesea.transformer.unicode
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
 
 .. automodule:: underthesea.transformer.lowercase
     :members:
     :undoc-members:
-    :inherited-members:
     :show-inheritance:
