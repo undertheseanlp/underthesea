@@ -14,7 +14,7 @@ class PlainTextCorpus(Corpus):
         self.documents = None
 
     def load(self, folder):
-        """load plaintext folder to documents
+        """load plaintext folder to documents and apply unicode transformer
 
         :param str folder: path to directory
         :type folder: string
