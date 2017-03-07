@@ -4,7 +4,6 @@ from os.path import join
 from os import listdir, mkdir
 
 
-
 class PlainTextCorpus(Corpus):
     """class for handling plain text corpus
     """
@@ -42,4 +41,5 @@ class PlainTextCorpus(Corpus):
             pass
         for document in self.documents:
             f = join(folder, document.id)
-            open(f, "w").write(document.sentences)
+            content = "\n".join(document.sentences)
+            open(f, "w").write(content)
