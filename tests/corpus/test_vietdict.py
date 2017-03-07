@@ -10,6 +10,7 @@ class Test_Viet_Dict(TestCase):
     def test_unicode(self):
         word = viet_dict_11K.words[0]
         self.assertEqual(unicode, type(word))
+
     @skip
     def test_viet_dict_22K(self):
         words = viet_dict_22K.words
@@ -24,4 +25,3 @@ class Test_Viet_Dict(TestCase):
     def test_viet_dict_74K(self):
         words = viet_dict_74K.words
         self.assertEqual(73901, len(words))
-

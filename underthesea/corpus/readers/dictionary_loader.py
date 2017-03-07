@@ -3,7 +3,8 @@ from underthesea.transformer.unicode import UnicodeTransformer
 
 class DictionaryLoader:
     def __init__(self, filepath):
-        """
+        """load words from Ho Ngoc Duc's dictionary
+
         :param str filepath: filename of dictionary data
         :type filepath: str
         """
