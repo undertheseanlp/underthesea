@@ -7,6 +7,7 @@ History
 
 * Add Corpus class
 * Add Transformer classes
+* Add Dictionary
 
 1.0.1 (2017-03-02)
 ------------------
