@@ -26,3 +26,14 @@ API
 .. automodule:: underthesea.corpus.plaintext
     :members:
     :undoc-members:
+
+:mod:`transformer` Package
+-------------------
+
+.. automodule:: underthesea.transformer.unicode
+    :members:
+    :undoc-members:
+
+.. automodule:: underthesea.transformer.lowercase
+    :members:
+    :undoc-members:
