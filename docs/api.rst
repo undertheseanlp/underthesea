@@ -31,6 +31,12 @@ API
     :inherited-members:
     :show-inheritance:
 
+.. automodule:: underthesea.corpus.corpus.readers
+    :members:
+    :undoc-members:
+    :inherited-members:
+    :show-inheritance:
+
 .. automodule:: underthesea.corpus.corpus.readers.dictionary_loader
     :members:
     :undoc-members:
