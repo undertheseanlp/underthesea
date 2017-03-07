@@ -7,8 +7,8 @@ class UnicodeTransformer:
         :param unicode|str text: input text
         :type text: unicode|str
 
-        :rtype unicode
         :return transformed text
+        :rtype unicode
         """
         if type(text) is not unicode:
             text = unicode(text, 'utf-8')
