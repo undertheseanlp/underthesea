@@ -44,6 +44,12 @@ API
     :undoc-members:
     :show-inheritance:
 
+.. automodule:: underthesea.corpus.document
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
 :mod:`transformer` Package
 -------------------
 
