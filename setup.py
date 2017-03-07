@@ -16,11 +16,12 @@ requirements = [
 
 test_requirements = [
     # TODO: put package test requirements here
+    'nose==1.3.7'
 ]
 
 setup(
     name='underthesea',
-    version='1.0.8',
+    version='1.0.9',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
@@ -29,8 +30,7 @@ setup(
     packages=[
         'underthesea',
     ],
-    package_dir={'underthesea':
-                 'underthesea'},
+    package_dir={'underthesea': 'underthesea'},
     entry_points={
         'console_scripts': [
             'underthesea=underthesea.cli:main'
@@ -46,13 +46,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     test_suite='tests',
     tests_require=test_requirements

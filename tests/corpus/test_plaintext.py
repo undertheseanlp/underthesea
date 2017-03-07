@@ -22,6 +22,16 @@ class TestPlainTextCorpus(TestCase):
         corpus.load(self.plaintext_folder)
         self.assertEqual(4, len(corpus.documents))
 
+    def test_sentences(self):
+        corpus = PlainTextCorpus()
+        corpus.load(self.plaintext_folder)
+        self.assertEqual(list, type(corpus.documents[0].sentences))
+
+    def test_unicode(self):
+        corpus = PlainTextCorpus()
+        corpus.load(self.plaintext_folder)
+        self.assertEqual(unicode, type(corpus.documents[0].sentences[0]))
+
     def test_save(self):
         corpus = PlainTextCorpus()
         corpus.load(self.plaintext_folder)
