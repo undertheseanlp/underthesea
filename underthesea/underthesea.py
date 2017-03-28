@@ -4,3 +4,9 @@ class Corpus:
     """
     def __init__(self):
         print("Corpus is fundamental resource of NLP")
+
+    def load(self, folder):
+        pass
+
+    def save(self, folder):
+        pass
