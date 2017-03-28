@@ -1,13 +1,14 @@
 from os.path import dirname, join
+
 import pycrfsuite
-# from underthesea.corpus.word_sent.transformer import Transformer
-from underthesea.corpus.word_sent.transformer import Transformer
+
+from underthesea.word_sent.transformer import Transformer
 
 
 class CRFModel:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "crf-model-2")
+        filepath = join(dirname(__file__), "crf-model")
         self.model.open(filepath)
         filepath = join(dirname(__file__), "punctuation.txt")
         self.punctuation = open(filepath, "r").read().split("\n")
