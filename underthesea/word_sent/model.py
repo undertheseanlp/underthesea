@@ -7,6 +7,9 @@ from underthesea.word_sent.transformer import Transformer
 
 class CRFModel:
     def __init__(self):
+        """
+        load trained data from crf-model
+        """
         self.model = pycrfsuite.Tagger()
         filepath = join(dirname(__file__), "crf-model")
         self.model.open(filepath)

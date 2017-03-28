@@ -9,7 +9,8 @@ def word2features(sent, i):
 
     :param unicode|str sent: input sentence
     :param int i: index of word in sentence
-    :return: feature
+    :return: word added feature
+    :rtype: list
     """
     word = sent[i][0]
     features = [
