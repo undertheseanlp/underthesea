@@ -1,3 +1,4 @@
+
 API
 ====
 
@@ -67,22 +68,18 @@ API
 :mod:`word_sent` Package
 -------------------------
 
-.. automodule:: underthesea.word_sent.feature
+.. automodule:: underthesea.word_sent_1
     :members:
     :undoc-members:
+    :inherited-members:
     :show-inheritance:
 
-.. automodule:: underthesea.word_sent.model
-    :members:
-    :undoc-members:
-    :show-inheritance:
+Example for word segmentation:
+    >>> from underthesea import word_sent
+    >>> sentence ="Hồ Chí Minh"
+    >>> sent = word_sent(sentence)
+    >>> sent
+    "Hồ_Chí_Minh"
 
-.. automodule:: underthesea.word_sent.transformer
-    :members:
-    :undoc-members:
-    :show-inheritance:
 
-.. automodule:: underthesea.word_sent.word_sent
-    :members:
-    :undoc-members:
-    :show-inheritance:
+
