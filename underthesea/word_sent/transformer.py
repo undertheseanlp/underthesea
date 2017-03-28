@@ -2,6 +2,11 @@ from underthesea.word_sent.feature import word2features
 
 
 def sent2features(sent):
+    """
+
+    :param unicode|str sent: raw sentence
+    :return: list sentence added
+    """
     return [word2features(sent, i) for i in range(len(sent))]
 
 

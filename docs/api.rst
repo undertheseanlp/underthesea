@@ -2,7 +2,7 @@ API
 ====
 
 :mod:`underthesea` Package
--------------------
+----------------------------
 
 .. automodule:: underthesea
     :members:
@@ -17,7 +17,7 @@ API
     :show-inheritance:
 
 :mod:`corpus` Package
--------------------
+--------------------------
 
 .. automodule:: underthesea.corpus
     :members:
@@ -51,7 +51,7 @@ API
 
 
 :mod:`transformer` Package
--------------------
+----------------------------
 
 .. automodule:: underthesea.transformer.unicode
     :members:
@@ -59,6 +59,30 @@ API
     :show-inheritance:
 
 .. automodule:: underthesea.transformer.lowercase
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+:mod:`word_sent` Package
+-------------------------
+
+.. automodule:: underthesea.word_sent.feature
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: underthesea.word_sent.model
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: underthesea.word_sent.transformer
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+.. automodule:: underthesea.word_sent.word_sent
     :members:
     :undoc-members:
     :show-inheritance:

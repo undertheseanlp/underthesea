@@ -14,6 +14,12 @@ class CRFModel:
         self.punctuation = open(filepath, "r").read().split("\n")
 
     def predict(self, sentence):
+        """
+
+        :param unicode|str sentence: raw sentence
+        :return: segmented sentence
+        :rtype: unicode|str
+        """
         sentence = Transformer.transform(sentence)
         tags = self.model.tag(sentence)
         tokenized_sentence = u''
