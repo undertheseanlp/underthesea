@@ -1,8 +1,4 @@
-from os.path import dirname
-from os.path import join
-
-from underthesea.corpus import PlainTextCorpus
-from underthesea.corpus.word_sent.feature_selection.feature_2 import word2features
+from underthesea.word_sent.feature import word2features
 
 
 def sent2features(sent):

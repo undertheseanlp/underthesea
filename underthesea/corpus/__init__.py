@@ -1,7 +1,6 @@
 from underthesea.corpus.corpus import *
 from underthesea.corpus.plaintext import *
 from underthesea.corpus.readers.dictionary_loader import DictionaryLoader
-from underthesea.corpus.word_sent.word_sent import word_sent
 
 viet_dict_11K = DictionaryLoader('Viet11K.txt')
 viet_dict_22K = DictionaryLoader('Viet22K.txt')

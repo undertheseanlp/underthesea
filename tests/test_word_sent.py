@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 # from underthesea.corpus.word_sent import word_sent
-from underthesea.corpus import word_sent
+from underthesea import word_sent
 
 
 class TestWord_sent(TestCase):
