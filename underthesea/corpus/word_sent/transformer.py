@@ -22,17 +22,6 @@ class Transformer:
     def extract_features(sentence):
         return sent2features(sentence)
 
-    def load_train_sents(self):
-        corpus = PlainTextCorpus()
-        file_path = join(dirname(dirname(dirname(__file__))), "data", "corpus_2", "train", "input")
-        corpus.load(file_path)
-        sentences = []
-        for document in corpus.documents:
-            for sentence in document.sentences:
-                if sentence != "":
-                    sentences.append(sentence)
-        return sentences
-
 
 def sent2labels(sent):
     return [label for token, label in sent]
