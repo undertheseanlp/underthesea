@@ -68,11 +68,14 @@ API
 :mod:`word_sent` Package
 -------------------------
 
-.. automodule:: underthesea.word_sent_1
-    :members:
-    :undoc-members:
-    :inherited-members:
-    :show-inheritance:
+.. py:function:: underthesea.word_sent(sentence)
+
+    segmented sentence
+
+    :param unicode|str sentence: raw sentence
+    :return: segmented sentence
+    :rtype: unicode|str
+
 
 Example for word segmentation:
     >>> from underthesea import word_sent
