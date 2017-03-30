@@ -4,7 +4,7 @@ __author__ = """Vu Anh"""
 __email__ = 'brother.rain.1024@gmail.com'
 __version__ = '1.0.0'
 
-# from word_sent.word_sent import word_sent
+from word_sent.word_sent import word_sent
 
 
 def info(version):
