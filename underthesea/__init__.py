@@ -3,7 +3,9 @@
 __author__ = """Vu Anh"""
 __email__ = 'brother.rain.1024@gmail.com'
 __version__ = '1.0.0'
+
 from word_sent.word_sent import word_sent
+
 
 def info(version):
     """Show information about underthesea package
@@ -13,3 +15,6 @@ def info(version):
     """
     print(version)
     print("underthesea is a Vietnamese NLP Toolkit")
+
+
+

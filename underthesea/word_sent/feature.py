@@ -4,6 +4,14 @@ words = DictionaryLoader('Viet74K.txt').words
 
 
 def word2features(sent, i):
+    """
+    add feature for each word
+
+    :param unicode|str sent: input sentence
+    :param int i: index of word in sentence
+    :return: word added feature
+    :rtype: list
+    """
     word = sent[i][0]
     features = [
         word,

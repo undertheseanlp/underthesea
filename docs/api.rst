@@ -1,8 +1,9 @@
+
 API
 ====
 
 :mod:`underthesea` Package
--------------------
+----------------------------
 
 .. automodule:: underthesea
     :members:
@@ -17,7 +18,7 @@ API
     :show-inheritance:
 
 :mod:`corpus` Package
--------------------
+--------------------------
 
 .. automodule:: underthesea.corpus
     :members:
@@ -51,7 +52,7 @@ API
 
 
 :mod:`transformer` Package
--------------------
+----------------------------
 
 .. automodule:: underthesea.transformer.unicode
     :members:
@@ -62,3 +63,26 @@ API
     :members:
     :undoc-members:
     :show-inheritance:
+
+
+:mod:`word_sent` Package
+-------------------------
+
+.. py:function:: underthesea.word_sent(sentence)
+
+    segmented sentence
+
+    :param unicode|str sentence: raw sentence
+    :return: segmented sentence
+    :rtype: unicode|str
+
+
+Example for word segmentation:
+    >>> from underthesea import word_sent
+    >>> sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+    >>> sent = word_sent(sentence)
+    >>> sent
+    "Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ ."
+
+
+
