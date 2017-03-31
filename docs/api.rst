@@ -79,10 +79,10 @@ API
 
 Example for word segmentation:
     >>> from underthesea import word_sent
-    >>> sentence ="Hồ Chí Minh"
+    >>> sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
     >>> sent = word_sent(sentence)
     >>> sent
-    "Hồ_Chí_Minh"
+    "Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ ."
 
 
 

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-# from underthesea.corpus.word_sent import word_sent
 from underthesea import word_sent
 
 
@@ -24,9 +23,9 @@ class TestWord_sent(TestCase):
         self.assertEqual(actual_sentence, predict_sentence)
 
     def test_word_sent_4(self):
-        sentence = u"Hồ Chí Minh ?"
+        sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
         predict_sentence = word_sent(sentence)
-        actual_sentence = u'Hồ_Chí_Minh ?'
+        actual_sentence = u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
         self.assertEqual(actual_sentence, predict_sentence)
 
     def test_word_sent_5(self):
@@ -35,13 +34,11 @@ class TestWord_sent(TestCase):
         actual_sentence = u'Theo thông_báo kết_luận thanh_tra của UBND tỉnh Thanh_Hoá sáng nay 30/3, giai_đoạn 2010-2015 Sở_Xây_dựng Thanh_Hoá đã bổ_nhiệm một_số trưởng phòng, phó_phòng chưa có trình_độ Trung_cấp lý_luận chính trị, chưa qua lớp bồi_dưỡng nghiệp_vụ quản_lý nhà_nước, không đúng quy_định của UBND tỉnh Thanh_Hoá.'
         self.assertEqual(actual_sentence, predict_sentence)
 
-
     def test_word_sent_6(self):
         sentence = u"Tập thể lãnh đạo Sở Xây dựng không thực hiện nghiêm túc việc đánh giá toàn diện cán bộ trước khi đưa vào quy hoạch, tạo dư luận không tốt. Việc chưa báo cáo về Sở Nội vụ và không công khai việc bà Trần Vũ Quỳnh Anh thôi việc ngày 23/9/2016 thuộc trách nhiệm của Giám đốc Sở Xây dựng tỉnh Thanh Hoá."
         predict_sentence = word_sent(sentence)
         actual_sentence = u'Tập_thể lãnh_đạo Sở_Xây_dựng không thực_hiện nghiêm_túc việc đánh_giá toàn_diện cán_bộ trước khi đưa vào quy hoạch, tạo dư_luận không tốt. Việc chưa báo_cáo về Sở_Nội_vụ và không công_khai việc bà Trần Vũ_Quỳnh Anh thôi_việc ngày 23/9/2016 thuộc trách_nhiệm của Giám_đốc Sở_Xây_dựng tỉnh Thanh_Hoá.'
         self.assertEqual(actual_sentence, predict_sentence)
-
 
     def test_word_sent_7(self):
         sentence = u"Có lẽ không ở đâu trên khắp thế giới bóng đá có giải vô địch quốc gia chịu chơi, chịu chi như giải nhà nghề Trung Quốc."
