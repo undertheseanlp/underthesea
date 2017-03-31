@@ -17,8 +17,6 @@ Under The Sea - Vietnamese NLP Toolkit
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
 
-|
-
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
@@ -28,6 +26,13 @@ Under The Sea - Vietnamese NLP Toolkit
 Features
 --------
 
-* Sentiment Analysis
+* Word Segmentation
 * Vietnamese Dictionary
 
+Up Coming Features
+--------
+
+* POS Tagging
+* Dependency Parsing
+* Named Entity Recognition
+* Sentiment Analysis
