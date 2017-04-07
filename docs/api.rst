@@ -90,8 +90,7 @@ Example for word segmentation:
     :show-inheritance:
 Example for tokenize:
     >>> from underthesea.word_sent.tokenize import tokenize
-    >>> text = "Đám cháy bùng phát trưa nay , 7 / 4 , tại khu nhà tôn ngay gần tòa nhà Keangnam , đường Phạm Hùng . Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian . Giao thông quanh khu vực bị ảnh hưởng , trong đó đường trên cao bị tắc một đoạn khá dài ..."
+    >>> text = "Đám cháy bùng phát trưa nay, 7/4, tại khu nhà tôn ngay gần tòa nhà Keangnam, đường Phạm Hùng. Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian. Giao thông quanh khu vực bị ảnh hưởng, trong đó đường trên cao bị tắc một đoạn khá dài..."
     >>> text = tokenize(text)
     >>> text
-    "Đám cháy bùng phát trưa nay, 7/4, tại khu nhà tôn ngay gần tòa nhà Keangnam, đường Phạm Hùng. Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian. Giao thông quanh khu vực bị ảnh hưởng, trong đó đường trên cao bị tắc một đoạn khá dài..."
-
+    "Đám cháy bùng phát trưa nay , 7 / 4 , tại khu nhà tôn ngay gần tòa nhà Keangnam , đường Phạm Hùng . Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian . Giao thông quanh khu vực bị ảnh hưởng , trong đó đường trên cao bị tắc một đoạn khá dài ..."
