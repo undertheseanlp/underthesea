@@ -84,5 +84,9 @@ Example for word segmentation:
     >>> sent
     "Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ ."
 
+.. automodule:: underthesea.word_sent.tokenize
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 
