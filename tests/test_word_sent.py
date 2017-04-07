@@ -17,7 +17,7 @@ class TestWord_sent(TestCase):
         self.assertEqual(actual, expected)
 
     def test_word_sent_3(self):
-        sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+        sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
         actual = word_sent(sentence)
         expected = u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
         self.assertEqual(actual, expected)
@@ -41,7 +41,7 @@ class TestWord_sent(TestCase):
         self.assertEqual(actual, expected)
 
     def test_word_sent_7(self):
-        sentence = u"Số những ngôi sao về chiều gia nhập giải nhà nghề Trung Quốc có Carlos Tevez (Argentina) , Graziano Pelle (Italia) , Obafemi Martins (Nigeria) ."
+        sentence = u"Số những ngôi sao về chiều gia nhập giải nhà nghề Trung Quốc có Carlos Tevez (Argentina), Graziano Pelle (Italia), Obafemi Martins (Nigeria) ."
         actual = word_sent(sentence)
         expected = u'Số những ngôi_sao về chiều gia_nhập giải nhà_nghề Trung_Quốc có Carlos_Tevez ( Argentina ) , Graziano_Pelle ( Italia ) , Obafemi_Martins ( Nigeria ) .'
         self.assertEqual(actual, expected)
