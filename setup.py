@@ -22,7 +22,7 @@ test_requirements = [
 
 setup(
     name='underthesea',
-    version='1.0.12',
+    version='1.0.11',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
