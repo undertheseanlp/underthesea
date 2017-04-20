@@ -91,35 +91,36 @@ class TestWord_sent(TestCase):
     def test_list_word_sent_1(self):
         sentence = u"Vì vậy, để hiểu thêm về ngôn ngữ của người dân xứ Quảng qua đó hiểu về con người vùng đất này hơn và cũng để bổ sung thêm nguồn tư liệu dạy và học Ngữ văn địa phương, bài viết xin giới thiệu một số từ địa phương so với từ phổ thông (toàn dân) và một số âm địa phương so với âm phổ thông (chuẩn - toàn dân) của người Quảng Nam để các bạn đồng nghiệp và các em học sinh tham khảo"
         actual = word_sent(sentence, False)
-        expected = [u'V\xec v\u1eady', u',', u'\u0111\u1ec3', u'hi\u1ec3u', u'th\xeam', u'v\u1ec1', u'ng\xf4n ng\u1eef',
-                    u'c\u1ee7a', u'ng\u01b0\u1eddi', u'd\xe2n', u'x\u1ee9', u'Qu\u1ea3ng', u'qua', u'\u0111\xf3',
-                    u'hi\u1ec3u', u'v\u1ec1', u'con ng\u01b0\u1eddi', u'v\xf9ng \u0111\u1ea5t', u'n\xe0y', u'h\u01a1n',
-                    u'v\xe0', u'c\u0169ng', u'\u0111\u1ec3', u'b\u1ed5 sung', u'th\xeam', u'ngu\u1ed3n',
-                    u't\u01b0 li\u1ec7u', u'd\u1ea1y', u'v\xe0', u'h\u1ecdc', u'Ng\u1eef v\u0103n',
-                    u'\u0111\u1ecba ph\u01b0\u01a1ng', u',', u'b\xe0i', u'vi\u1ebft', u'xin', u'gi\u1edbi thi\u1ec7u',
-                    u'm\u1ed9t s\u1ed1', u't\u1eeb', u'\u0111\u1ecba ph\u01b0\u01a1ng', u'so', u'v\u1edbi',
-                    u't\u1eeb ph\u1ed5 th\xf4ng', u'(', u'to\xe0n d\xe2n', u')', u'v\xe0', u'm\u1ed9t s\u1ed1',
-                    u'\xe2m', u'\u0111\u1ecba ph\u01b0\u01a1ng', u'so', u'v\u1edbi', u'\xe2m ph\u1ed5 th\xf4ng', u'(',
-                    u'chu\u1ea9n', u'-', u'to\xe0n d\xe2n', u')', u'c\u1ee7a', u'ng\u01b0\u1eddi', u'Qu\u1ea3ng Nam',
-                    u'\u0111\u1ec3', u'c\xe1c', u'b\u1ea1n', u'\u0111\u1ed3ng nghi\u1ec7p', u'v\xe0', u'c\xe1c', u'em',
-                    u'h\u1ecdc sinh', u'tham kh\u1ea3o']
+        # expected = [x.encode('utf-8') for x in actual]
+        expected = [u'Vì vậy', u',', u'để', u'hiểu', u'thêm', u'về', u'ngôn ngữ',
+                    u'của', u'người', u'dân', u'xứ', u'Quảng', u'qua', u'đó',
+                    u'hiểu', u'về', u'con người', u'vùng đất', u'này', u'hơn',
+                    u'và', u'cũng', u'để', u'bổ sung', u'thêm', u'nguồn',
+                    u'tư liệu', u'dạy', u'và', u'học', u'Ngữ văn',
+                    u'địa phương', u',', u'bài', u'viết', u'xin', u'giới thiệu',
+                    u'một số', u'từ', u'địa phương', u'so', u'với',
+                    u'từ phổ thông', u'(', u'toàn dân', u')', u'và', u'một số',
+                    u'âm', u'địa phương', u'so', u'với', u'âm phổ thông', u'(',
+                    u'chuẩn', u'-', u'toàn dân', u')', u'của', u'người', u'Quảng Nam',
+                    u'để', u'các', u'bạn', u'đồng nghiệp', u'và', u'các', u'em',
+                    u'học sinh', u'tham khảo']
         self.assertEqual(actual, expected)
 
     def test_list_word_sent_2(self):
         sentence = u"cộng hòa xã hội chủ nghĩa"
         actual = word_sent(sentence, False)
-        expected = [u'c\u1ed9ng', u'h\xf2a', u'x\xe3 h\u1ed9i ch\u1ee7 ngh\u0129a']
+        expected = [u'cộng', u'hòa', u'xã hội chủ nghĩa']
         self.assertEqual(actual, expected)
 
     def test_list_word_sent_3(self):
         sentence = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3, giai đoạn 2010-2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng, phó phòng chưa có trình độ Trung cấp lý luận chính trị, chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước, không đúng quy định của UBND tỉnh Thanh Hoá."
         actual = word_sent(sentence, False)
-        expected = [u'Theo', u'th\xf4ng b\xe1o', u'k\u1ebft lu\u1eadn', u'thanh tra', u'c\u1ee7a', u'UBND',
-                    u't\u1ec9nh', u'Thanh Ho\xe1', u's\xe1ng', u'nay', u'30', u'/', u'3', u',', u'giai \u0111o\u1ea1n',
-                    u'2010', u'-', u'2015', u'S\u1edf X\xe2y d\u1ef1ng', u'Thanh Ho\xe1', u'\u0111\xe3',
-                    u'b\u1ed5 nhi\u1ec7m', u'm\u1ed9t s\u1ed1', u'tr\u01b0\u1edfng ph\xf2ng', u',', u'ph\xf3 ph\xf2ng',
-                    u'ch\u01b0a', u'c\xf3', u'tr\xecnh \u0111\u1ed9', u'Trung c\u1ea5p', u'l\xfd lu\u1eadn',
-                    u'ch\xednh tr\u1ecb', u',', u'ch\u01b0a', u'qua', u'l\u1edbp', u'b\u1ed3i d\u01b0\u1ee1ng',
-                    u'nghi\u1ec7p v\u1ee5', u'qu\u1ea3n l\xfd', u'nh\xe0 n\u01b0\u1edbc', u',', u'kh\xf4ng',
-                    u'\u0111\xfang', u'quy \u0111\u1ecbnh', u'c\u1ee7a', u'UBND', u't\u1ec9nh', u'Thanh Ho\xe1', u'.']
+        expected = [u'Theo', u'thông báo', u'kết luận', u'thanh tra', u'của', u'UBND',
+                    u'tỉnh', u'Thanh Hoá', u'sáng', u'nay', u'30', u'/', u'3', u',', u'giai đoạn',
+                    u'2010', u'-', u'2015', u'Sở Xây dựng', u'Thanh Hoá', u'đã',
+                    u'bổ nhiệm', u'một số', u'trưởng phòng', u',', u'phó phòng',
+                    u'chưa', u'có', u'trình độ', u'Trung cấp', u'lý luận',
+                    u'chính trị', u',', u'chưa', u'qua', u'lớp', u'bồi dưỡng',
+                    u'nghiệp vụ', u'quản lý', u'nhà nước', u',', u'không',
+                    u'đúng', u'quy định', u'của', u'UBND', u'tỉnh', u'Thanh Hoá', u'.']
         self.assertEqual(actual, expected)
