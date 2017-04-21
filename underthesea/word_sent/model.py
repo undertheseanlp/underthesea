@@ -19,6 +19,7 @@ class CRFModel:
     def predict(self, sentence, option):
         """
 
+        :param option: bool
         :param unicode|str sentence: raw sentence
         :return: segmented sentence
         :rtype: unicode|str

@@ -2,8 +2,7 @@ import pycrfsuite
 from underthesea import word_sent
 from underthesea.pos_tag.transformer import Transformer
 
-model = pycrfsuite.Tagger()
-model.open("crf-model-1")
+
 template = [
     "T[0]", "T[0].lower", "T[-1].lower", "T[1].lower",
     "T[0].istitle", "T[-1].istitle", "T[1].istitle",
@@ -19,7 +18,16 @@ def sentence_to_tupple(sentence):
     return [(token, 'N') for token in sentence.split(' ')]
 
 
-def predict(sentence, option):
+def predict(sentence, text = False):
+
+    """
+    make output for raw sentence
+    :return list tuple if option = true , sentence pos tagged if option = False
+    :type option: bool
+    :type sentence: raw sentence
+    """
+    model = pycrfsuite.Tagger()
+    model.open("crf-model-1")
     sentence = word_sent(sentence, True)
     original_sentence = []
     for word in sentence.split(' '):
@@ -30,7 +38,7 @@ def predict(sentence, option):
     sentence = sentence_to_tupple(sentence)
     sentence = Transformer.extract_features_2(sentence, template)
     y = model.tag(sentence)
-    if option:
+    if text:
         output = [(i + 1, original_sentence[i], y[i]) for i in range(len(sentence))]
         return output
     else:

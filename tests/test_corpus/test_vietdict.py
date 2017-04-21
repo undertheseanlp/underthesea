@@ -21,7 +21,6 @@ class Test_VietDict(TestCase):
         words = viet_dict_39K.words
         self.assertEqual(39071, len(words))
 
-    @skip("")
     def test_viet_dict_74K(self):
         words = viet_dict_74K.words
         self.assertEqual(73901, len(words))
