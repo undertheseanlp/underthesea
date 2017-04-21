@@ -17,6 +17,8 @@ requirements = [
 
 test_requirements = [
     # TODO: put package test requirements here
+    'Click>=6.0',
+    'python-crfsuite==0.9.1'
     'nose==1.3.7'
 ]
 
