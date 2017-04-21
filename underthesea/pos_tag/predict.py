@@ -1,4 +1,6 @@
 import pycrfsuite
+from os.path import dirname, join
+
 from underthesea import word_sent
 from underthesea.pos_tag.transformer import Transformer
 
@@ -27,7 +29,8 @@ def predict(sentence, text = False):
     :type sentence: raw sentence
     """
     model = pycrfsuite.Tagger()
-    model.open("crf-model-1")
+    folder = dirname(__file__)
+    model.open(join(folder, "crf-model-1"))
     sentence = word_sent(sentence, True)
     original_sentence = []
     for word in sentence.split(' '):
