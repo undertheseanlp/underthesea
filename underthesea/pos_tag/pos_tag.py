@@ -1,7 +1,7 @@
 from underthesea.pos_tag.predict import predict
 
 
-def pos_tag(sentence, text = False):
+def pos_tag(sentence, text=False):
     """
 
     :param sentence: raw sentence

@@ -43,10 +43,10 @@ class CRFModel:
             return tokenized_sentence
         else:
             tokenized_sentence = tokenized_sentence.split(' ')
-            final = []
+            output = []
             for token in tokenized_sentence:
                 if '_' in token:
-                    final.append(token.replace('_', ' '))
+                    output.append(token.replace('_', ' '))
                 else:
-                    final.append(token)
-            return final
+                    output.append(token)
+            return output

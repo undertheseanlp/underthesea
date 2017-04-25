@@ -17,11 +17,10 @@ template = [
 
 
 def sentence_to_tupple(sentence):
-    return [(token, 'N') for token in sentence.split(' ')]
+    return [(token, '?') for token in sentence.split(' ')]
 
 
-def predict(sentence, text = False):
-
+def predict(sentence, text=False):
     """
     make output for raw sentence
     :return list tuple if option = true , sentence pos tagged if option = False
@@ -38,9 +37,16 @@ def predict(sentence, text = False):
             original_sentence.append(word.replace('_', ' '))
         else:
             original_sentence.append(word)
+
+    sentence1 = word_sent(sentence)
     sentence = sentence_to_tupple(sentence)
+
+    tokens = [(token, '?') for token in sentence1]
+
     sentence = Transformer.extract_features_2(sentence, template)
     y = model.tag(sentence)
+
+
     if text:
         output = [(i + 1, original_sentence[i], y[i]) for i in range(len(sentence))]
         return output

@@ -124,3 +124,9 @@ class TestWord_sent(TestCase):
                     u'nghiệp vụ', u'quản lý', u'nhà nước', u',', u'không',
                     u'đúng', u'quy định', u'của', u'UBND', u'tỉnh', u'Thanh Hoá', u'.']
         self.assertEqual(actual, expected)
+
+    def test_list_word_sent_4(self):
+        sentence = u'Chủ nhiệm UB Đối ngoại của Quốc hội Nguyễn Văn Giàu phân tích, ở nước ngoài, ông từng chứng kiến việc doanh nghiệp tặng xe, phương tiện cho tổ chức, nhưng ở Việt Nam, việc này dường như có nhiều… lắt léo.'
+        actual = word_sent(sentence)
+        expected = [u'Chủ nhiệm', u'UB', u'Đối ngoại', u'của', u'Quốc hội', u'Nguyễn Văn Giàu', u'phân tích', u',', u'ở', u'nước ngoài', u',', u'ông', u'từng', u'chứng kiến', u'việc', u'doanh nghiệp', u'tặng', u'xe', u',', u'phương tiện', u'cho', u'tổ chức', u',', u'nhưng', u'ở', u'Việt Nam', u',', u'việc', u'này', u'dường như', u'có', u'nhiều', u'…', u'lắt léo', u'.']
+        self.assertEquals(actual, expected)
