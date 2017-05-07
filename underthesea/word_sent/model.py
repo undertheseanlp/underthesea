@@ -16,9 +16,10 @@ class CRFModel:
         filepath = join(dirname(__file__), "punctuation.txt")
         self.punctuation = open(filepath, "r").read().split("\n")
 
-    def predict(self, sentence):
+    def predict(self, sentence, option):
         """
 
+        :param option: bool
         :param unicode|str sentence: raw sentence
         :return: segmented sentence
         :rtype: unicode|str
@@ -38,4 +39,14 @@ class CRFModel:
             if word not in self.punctuation:
                 format_sentence += word[: -1] + "_"
         tokenized_sentence = format_sentence[:-1]
-        return tokenized_sentence
+        if option:
+            return tokenized_sentence
+        else:
+            tokenized_sentence = tokenized_sentence.split(' ')
+            output = []
+            for token in tokenized_sentence:
+                if '_' in token:
+                    output.append(token.replace('_', ' '))
+                else:
+                    output.append(token)
+            return output
