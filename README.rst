@@ -1,6 +1,6 @@
-==========================================
+========================================
 Under The Sea - Vietnamese NLP Toolkit
-==========================================
+========================================
 
 
 .. image:: https://img.shields.io/pypi/v/underthesea.svg
@@ -24,13 +24,13 @@ Under The Sea - Vietnamese NLP Toolkit
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
 
 Features
---------
+----------------------------------------
 
 * Word Segmentation
 * Vietnamese Dictionary
 
 Up Coming Features
---------
+----------------------------------------
 
 * POS Tagging
 * Dependency Parsing

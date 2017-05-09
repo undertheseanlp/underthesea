@@ -76,19 +76,22 @@ API
     :return: segmented sentence
     :rtype: unicode|str
 
-
 Example for word segmentation:
+
     >>> from underthesea import word_sent
     >>> sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
-    >>> sent = word_sent(sentence)
-    >>> sent
-    "Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ ."
+    >>> word_sent(sentence)
+    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    >>> word_sent(sentence, format="text")
+    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 .. automodule:: underthesea.word_sent.tokenize
     :members:
     :undoc-members:
     :show-inheritance:
+
 Example for tokenize:
+
     >>> from underthesea.word_sent.tokenize import tokenize
     >>> text = "Đám cháy bùng phát trưa nay, 7/4, tại khu nhà tôn ngay gần tòa nhà Keangnam, đường Phạm Hùng. Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian. Giao thông quanh khu vực bị ảnh hưởng, trong đó đường trên cao bị tắc một đoạn khá dài..."
     >>> text = tokenize(text)
