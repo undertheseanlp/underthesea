@@ -12,17 +12,15 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=6.0',
     'python-crfsuite==0.9.1'
-    # TODO: put package requirements here
 ]
 
 test_requirements = [
-    # TODO: put package test requirements here
     'nose==1.3.7'
 ]
 
 setup(
     name='underthesea',
-    version='1.0.14',
+    version='1.0.15',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
