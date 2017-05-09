@@ -19,7 +19,8 @@ class TestWord_sent(TestCase):
     def test_word_sent_3(self):
         sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
         actual = word_sent(sentence)
-        expected = [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+        expected = [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt",
+                    u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
         self.assertEqual(actual, expected)
 
     def test_word_sent_3_1(self):
@@ -31,7 +32,12 @@ class TestWord_sent(TestCase):
     def test_word_sent_4(self):
         sentence = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3, giai đoạn 2010-2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng, phó phòng chưa có trình độ Trung cấp lý luận chính trị, chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước, không đúng quy định của UBND tỉnh Thanh Hoá."
         actual = word_sent(sentence)
-        expected = [u"Theo", u"thông báo", u"kết luận", u"thanh tra", u"của", u"UBND", u"tỉnh", u"Thanh Hoá", u"sáng", u"nay", u"30", u"/", u"3", u",", u"giai đoạn", u"2010", u"-", u"2015", u"Sở Xây dựng", u"Thanh Hoá", u"đã", u"bổ nhiệm", u"một số", u"trưởng phòng", u",", u"phó phòng", u"chưa", u"có", u"trình độ", u"Trung cấp", u"lý luận", u"chính trị", u",", u"chưa", u"qua", u"lớp", u"bồi dưỡng", u"nghiệp vụ", u"quản lý", u"nhà nước", u",", u"không", u"đúng", u"quy định", u"của", u"UBND", u"tỉnh", u"Thanh Hoá", u"."]
+        expected = [u"Theo", u"thông báo", u"kết luận", u"thanh tra", u"của", u"UBND", u"tỉnh", u"Thanh Hoá", u"sáng",
+                    u"nay", u"30", u"/", u"3", u",", u"giai đoạn", u"2010", u"-", u"2015", u"Sở Xây dựng", u"Thanh Hoá",
+                    u"đã", u"bổ nhiệm", u"một số", u"trưởng phòng", u",", u"phó phòng", u"chưa", u"có", u"trình độ",
+                    u"Trung cấp", u"lý luận", u"chính trị", u",", u"chưa", u"qua", u"lớp", u"bồi dưỡng", u"nghiệp vụ",
+                    u"quản lý", u"nhà nước", u",", u"không", u"đúng", u"quy định", u"của", u"UBND", u"tỉnh",
+                    u"Thanh Hoá", u"."]
         self.assertEqual(actual, expected)
 
     def test_word_sent_5(self):
@@ -40,9 +46,9 @@ class TestWord_sent(TestCase):
         expected = [u"Tập thể", u"lãnh đạo", u"Sở Xây dựng", u"không", u"thực hiện", u"nghiêm túc", u"việc",
                     u"đánh giá", u"toàn diện", u"cán bộ", u"trước", u"khi", u"đưa", u"vào", u"quy hoạch", u",", u"tạo",
                     u"dư luận", u"không", u"tốt", u".", u"Việc", u"chưa", u"báo cáo", u"về", u"Sở Nội vụ", u"và",
-                    u"không", u"công khai", u"việc", u"bà", u"Trần", u"Vũ Quỳnh", u"Anh", u"thôi việc", u"ngày", u"23",
-                    u"/", u"9", u"/", u"2016", u"thuộc", u"trách nhiệm", u"của", u"Giám đốc", u"Sở Xây dựng", u"tỉnh",
-                    u"Thanh Hoá", u"."
+                    u"không", u"công khai", u"việc", u"bà", u"Trần", u"Vũ Quỳnh", u"Anh", u"thôi việc", u"ngày",
+                    u"23/9/2016", u"thuộc", u"trách nhiệm", u"của", u"Giám đốc", u"Sở Xây dựng", u"tỉnh", u"Thanh Hoá",
+                    u"."
                     ]
         self.assertEqual(actual, expected)
 

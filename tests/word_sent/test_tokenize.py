@@ -37,5 +37,11 @@ class TestWord_sent(TestCase):
     def test_tokenize_6(self):
         text = u"""Ngày 11 tháng 3 là ngày thứ 70 (71 trong năm nhuận) trong lịch Gregory. Còn 295 ngày trong năm."""
         actual = tokenize(text)
-        expected =u'Ngày 11 tháng 3 là ngày thứ 70 ( 71 trong năm nhuận ) trong lịch Gregory . Còn 295 ngày trong năm .'
+        expected = u'Ngày 11 tháng 3 là ngày thứ 70 ( 71 trong năm nhuận ) trong lịch Gregory . Còn 295 ngày trong năm .'
+        self.assertEqual(actual, expected)
+
+    def test_tokenize_7(self):
+        text = u"""Kết quả xổ số điện toán Vietlott ngày 6/2/2017"""
+        actual = tokenize(text)
+        expected = u"Kết quả xổ số điện toán Vietlott ngày 6/2/2017"
         self.assertEqual(actual, expected)
