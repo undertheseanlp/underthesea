@@ -56,8 +56,8 @@ Up Coming Features
 ----------------------------------------
 
 * POS Tagging (API, `Pos Tagging Experiences <https://github.com/magizbox/underthesea.pos_tag>`_)
+* Word Representation (`Word Representation Experiences <https://github.com/magizbox/underthesea.word_representation>`_)
 * Chunking (Experiences)
 * Dependency Parsing (Experiences)
 * Named Entity Recognition
 * Sentiment Analysis
-
