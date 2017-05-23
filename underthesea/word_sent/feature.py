@@ -33,7 +33,6 @@ def word2features(sent, i):
     else:
         features.append('BOS')
 
-    compare_dict_start = time.time()
     if i < len(sent) - 1:
         word = " ".join([sent[i][0].lower(), sent[i + 1][0].lower()])
         features.extend([
