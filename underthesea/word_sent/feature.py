@@ -1,6 +1,8 @@
+import time
+
 from underthesea.corpus.readers.dictionary_loader import DictionaryLoader
 
-words = DictionaryLoader('Viet74K.txt').words
+words = set(DictionaryLoader('Viet74K.txt').words)
 
 
 def word2features(sent, i):

@@ -1,10 +1,10 @@
 from os.path import dirname, join
-
 import pycrfsuite
-
+from underthesea.util.singleton import Singleton
 from underthesea.word_sent.transformer import Transformer
 
 
+@Singleton
 class CRFModel:
     def __init__(self):
         """
@@ -29,9 +29,10 @@ class CRFModel:
         output = []
         for tag, token in zip(tags, tokens):
             if tag == "I_W":
-               output[-1] = output[-1] + u" " + token
+                output[-1] = output[-1] + u" " + token
             else:
                 output.append(token)
         if format == "text":
             output = u" ".join([item.replace(" ", "_") for item in output])
         return output
+
