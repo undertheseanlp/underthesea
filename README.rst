@@ -52,12 +52,14 @@ Vietnamese Word Segmentation using conditional random fields
 * `Word Segmentation API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#word-sent-package>`_
 * `Word Segmentation Experiences <https://github.com/magizbox/underthesea.word_sent>`_
 
-    >>> from underthesea import word_sent
-    >>> sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
-    >>> word_sent(sentence)
-    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
-    >>> word_sent(sentence, format="text")
-    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
+.. code-block:: python
+
+    from underthesea import word_sent
+    sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+    word_sent(sentence)
+    # [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    word_sent(sentence, format="text")
+    # u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 Up Coming Features
 ----------------------------------------
