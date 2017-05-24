@@ -94,7 +94,6 @@ Vietnamese Part of Speeding Tagging using Conditional Random Fields
 Up Coming Features
 ----------------------------------------
 
-* POS Tagging (API, )
 * Word Representation (`Word Representation Experiences <https://github.com/magizbox/underthesea.word_representation>`_)
 * Chunking (Experiences)
 * Dependency Parsing (Experiences)
