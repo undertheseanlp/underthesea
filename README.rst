@@ -19,7 +19,7 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
-**underthesea** -- the Vietnamese NLP -- is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
+**underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
