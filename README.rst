@@ -19,8 +19,11 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
+**underthesea** -- the Vietnamese NLP -- is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
+
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
+
 
 Installation
 ----------------------------------------
@@ -66,7 +69,7 @@ Vietnamese Word Segmentation using conditional random fields
 .. code-block:: python
 
     from underthesea import word_sent
-    sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+    sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
     word_sent(sentence)
     # [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
     # u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
