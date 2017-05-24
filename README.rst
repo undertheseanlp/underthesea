@@ -12,12 +12,10 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
         :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
-|
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
-
-
+|
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
@@ -32,6 +30,7 @@ Features
 ******************************
 
 .. image:: https://img.shields.io/badge/documents-18k-red.svg
+
 .. image:: https://img.shields.io/badge/words-74k-red.svg
 
 Collection of Vietnamese corpus
