@@ -68,7 +68,7 @@ Collection of Vietnamese corpus
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
         :target: #
 
-Vietnamese Word Segmentation using conditional random fields
+Vietnamese Word Segmentation using Conditional Random Fields
 
 * `Word Segmentation API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#word-sent-package>`_
 * `Word Segmentation Experiences <https://github.com/magizbox/underthesea.word_sent>`_
