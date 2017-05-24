@@ -22,7 +22,19 @@ Under The Sea - Vietnamese NLP Toolkit
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
 
-Features
+Installation
+----------------------------------------
+
+To install underthesea, simply:
+
+.. code-block:: bash
+
+    $ pip install underthesea
+    ✨🍰✨
+
+Satisfaction, guaranteed.
+
+Usage
 ----------------------------------------
 
 ******************************
