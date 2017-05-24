@@ -49,8 +49,10 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/documents-18k-red.svg
+        :target: https://pypi.python.org/pypi/underthesea
 
 .. image:: https://img.shields.io/badge/words-74k-red.svg
+        :target: https://pypi.python.org/pypi/underthesea
 
 Collection of Vietnamese corpus
 
