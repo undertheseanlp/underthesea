@@ -40,6 +40,9 @@ Satisfaction, guaranteed.
 Usage
 ----------------------------------------
 
+* `Corpus <#1-corpus>`_
+* `Word Segmentation <#2-word-segmentation>`_
+
 ******************************
 1. Corpus
 ******************************
