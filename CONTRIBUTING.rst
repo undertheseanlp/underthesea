@@ -1,8 +1,6 @@
-.. highlight:: shell
-
-============
-Contributing
-============
+=================================
+Contributing to underthesea
+=================================
 
 Contributions are welcome, and they are greatly appreciated! Every
 little bit helps, and credit will always be given.
