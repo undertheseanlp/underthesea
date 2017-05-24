@@ -42,7 +42,7 @@ Usage
 
 * `1. Corpus <#1-corpus>`_
 * `2. Word Segmentation <#2-word-segmentation>`_
-* `3. POS Tagging<#3-pos-tagging>`_
+* `3. POS Tagging <#3-pos-tagging>`_
 
 ****************************************
 1. Corpus
