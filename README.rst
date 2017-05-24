@@ -12,7 +12,7 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
         :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
-
+|
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
