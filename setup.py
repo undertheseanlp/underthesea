@@ -20,7 +20,7 @@ test_requirements = [
 
 setup(
     name='underthesea',
-    version='1.0.17',
+    version='1.0.18',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
@@ -45,8 +45,7 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 2.7'
     ],
     test_suite='tests',
     tests_require=test_requirements

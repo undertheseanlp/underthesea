@@ -21,6 +21,16 @@ def save_temp(id, output):
 
 
 class TestWord_sent(TestCase):
+    def test_simple_cases(self):
+        sentence = u""
+        actual = word_sent(sentence)
+        expected = []
+        self.assertEqual(actual, expected)
+
+        actual = word_sent(sentence, format="text")
+        expected = u""
+        self.assertEqual(actual, expected)
+
     def test_word_sent(self):
         test_dir = join(dirname(__file__), "samples", "accuracy")
         files = listdir(test_dir)
@@ -35,4 +45,3 @@ class TestWord_sent(TestCase):
                 print("Fail {}".format(id))
                 save_temp(id, actual)
             self.assertEqual(actual, expected)
-
