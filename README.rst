@@ -49,10 +49,10 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/documents-18k-red.svg
-        :target: https://pypi.python.org/pypi/underthesea
+        :target: #
 
 .. image:: https://img.shields.io/badge/words-74k-red.svg
-        :target: https://pypi.python.org/pypi/underthesea
+        :target: #
 
 Collection of Vietnamese corpus
 
@@ -66,6 +66,7 @@ Collection of Vietnamese corpus
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
+        :target: #
 
 Vietnamese Word Segmentation using conditional random fields
 
@@ -87,6 +88,7 @@ Vietnamese Word Segmentation using conditional random fields
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-90.4%25-red.svg
+        :target: #
 
 Vietnamese Part of Speeding Tagging using Conditional Random Fields
 
