@@ -84,6 +84,8 @@ Vietnamese Word Segmentation using conditional random fields
 3. POS Tagging
 ****************************************
 
+.. image:: https://img.shields.io/badge/F1-90%4-red.svg
+
 Vietnamese Part of Speeding Tagging using Conditional Random Fields
 
 * POS Tagging API
