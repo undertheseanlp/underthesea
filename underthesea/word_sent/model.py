@@ -25,7 +25,8 @@ class CRFModel:
         """
         tokens = Transformer.transform(sentence)
         tags = self.model.tag(tokens)
-        tags[0] = "B_W"
+        if len(tags) > 0:
+            tags[0] = "B_W"
         tokens = [item[0] for item in tokens]
         output = []
         for tag, token in zip(tags, tokens):
