@@ -68,7 +68,7 @@ Collection of Vietnamese corpus
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
-.. image:: https://img.shields.io/badge/%E2%98%85-beat%20me%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
 Vietnamese Word Segmentation using Conditional Random Fields
@@ -93,7 +93,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 .. image:: https://img.shields.io/badge/F1-90.4%25-red.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
-.. image:: https://img.shields.io/badge/%E2%98%85-beat%20me%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
 Vietnamese Part of Speeding Tagging using Conditional Random Fields
