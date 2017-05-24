@@ -40,12 +40,13 @@ Satisfaction, guaranteed.
 Usage
 ----------------------------------------
 
-* `Corpus <#1-corpus>`_
-* `Word Segmentation <#2-word-segmentation>`_
+* `1. Corpus <#1-corpus>`_
+* `2. Word Segmentation <#2-word-segmentation>`_
+* `3. POS Tagging<#3-pos-tagging>`_
 
-******************************
+****************************************
 1. Corpus
-******************************
+****************************************
 
 .. image:: https://img.shields.io/badge/documents-18k-red.svg
 
@@ -58,9 +59,9 @@ Collection of Vietnamese corpus
 * `Vietnamese News Corpus (10k documents) <https://github.com/magizbox/corpus.vinews>`_
 * `Vietnamese Wikipedia Corpus (8k documents) <https://github.com/magizbox/corpus.viwiki>`_
 
-******************************
+****************************************
 2. Word Segmentation
-******************************
+****************************************
 
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
 
@@ -79,10 +80,19 @@ Vietnamese Word Segmentation using conditional random fields
     word_sent(sentence, format="text")
     # u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
+****************************************
+3. POS Tagging
+****************************************
+
+Vietnamese Part of Speeding Tagging using Conditional Random Fields
+
+* POS Tagging API
+* `Pos Tagging Experiences <https://github.com/magizbox/underthesea.pos_tag>`_
+
 Up Coming Features
 ----------------------------------------
 
-* POS Tagging (API, `Pos Tagging Experiences <https://github.com/magizbox/underthesea.pos_tag>`_)
+* POS Tagging (API, )
 * Word Representation (`Word Representation Experiences <https://github.com/magizbox/underthesea.word_representation>`_)
 * Chunking (Experiences)
 * Dependency Parsing (Experiences)
