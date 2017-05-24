@@ -103,3 +103,8 @@ Up Coming Features
 * Dependency Parsing (Experiences)
 * Named Entity Recognition
 * Sentiment Analysis
+
+Contributing
+----------------------------------------
+
+Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/magizbox/underthesea/blob/master/CONTRIBUTING.rst>`
