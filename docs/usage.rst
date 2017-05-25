@@ -13,7 +13,7 @@ Word Segmentation
 
     # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
-    >>> sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+    >>> sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
 
     >>> word_sent(sentence)
     [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
