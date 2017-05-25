@@ -1,0 +1,15 @@
+Lầu	N
+Năm	Np
+Góc	Np
+“	CH
+tá	N
+hỏa	N
+”	CH
+vì	E
+vị trí	N
+tàu ngầm	N
+Mỹ	Np
+gần	A
+Triều Tiên	Np
+bị	V
+lộ	V

@@ -20,6 +20,7 @@ class TestPerformance2(TestCase):
         word_sent(self.text)
         end = time.time()
         duration = end - start  # in seconds
-        speed = n_tokens / duration
-        print "Speed: ", speed
-        self.assertGreater(speed, EXPECTED_SPEED)
+        if duration != 0:
+            speed = n_tokens / duration
+            print "Speed: ", speed
+            self.assertGreater(speed, EXPECTED_SPEED)
