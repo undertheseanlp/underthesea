@@ -78,6 +78,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 
 .. code-block:: python
 
+    # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
     >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
 
