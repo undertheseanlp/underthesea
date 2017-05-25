@@ -1,0 +1,12 @@
+Hàng	R
+trăm	M
+lỗ khoan	N
+như	C
+những	L
+cánh tay	N
+dài ngoằng	A
+thọc sâu	V
+xuống	E
+lòng	N
+đất	N
+.	CH
