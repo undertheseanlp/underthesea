@@ -1,0 +1,14 @@
+Hà Nội	Np
+:	CH
+Làm	V
+rõ	A
+thông tin	N
+sân	N
+tenis	N
+,	CH
+nhà sàn	N
+"	CH
+mọc	V
+"	CH
+trong	E
+trường học	N
