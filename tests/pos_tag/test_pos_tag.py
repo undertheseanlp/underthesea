@@ -8,13 +8,13 @@ samples_dir = join(dirname(__file__), "samples")
 
 
 def load_input(input_file):
-    content = [text.split("\t")[0].decode("utf-8") for text in open(input_file, "r").read().split("\n")]
+    content = [text.split("\t")[0].decode("utf-8") for text in open(input_file, "r").read().strip().split("\n")]
     content = u" ".join(content)
     return content
 
 
 def load_output(input_file):
-    lines = [text.split("\t") for text in open(input_file, "r").read().split("\n")]
+    lines = [text.split("\t") for text in open(input_file, "r").read().strip().split("\n")]
     output = []
     for item in lines:
         word, tag = item
