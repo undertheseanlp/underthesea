@@ -90,7 +90,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 3. POS Tagging
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-92.3%25-red.svg
+.. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
 .. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
