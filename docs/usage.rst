@@ -40,3 +40,22 @@ POS Tagging
      (u'bị', 'V'),
      (u'truy quét', 'V')]
 
+Chunking
+-------------------------
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import chunk
+    >>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> chunk(text)
+    [(u'Bác sĩ', 'N', 'B-NP'),
+     (u'bây giờ', 'P', 'I-NP'),
+     (u'có thể', 'R', 'B-VP'),
+     (u'thản nhiên', 'V', 'I-VP'),
+     (u'báo tin', 'N', 'B-NP'),
+     (u'bệnh nhân', 'N', 'I-NP'),
+     (u'bị', 'V', 'B-VP'),
+     (u'ung thư', 'N', 'I-VP'),
+     (u'?', 'CH', 'O')]
+

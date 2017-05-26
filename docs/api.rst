@@ -94,7 +94,7 @@ API
 
 .. code-block:: python
 
-    # -*- coding: utf-8 -*-
+    >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
     >>> sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
 
@@ -118,7 +118,7 @@ API
 
 .. code-block:: python
 
-    # -*- coding: utf-8 -*-
+    >>> # -*- coding: utf-8 -*-
     >>> from underthesea import pos_tag
     >>> text = u"Chợ thịt chó nổi tiếng ở TP Hồ Chí Minh bị truy quét"
     >>> pos_tag(text)
@@ -130,3 +130,30 @@ API
      (u'TP HCM', 'Np'),
      (u'bị', 'V'),
      (u'truy quét', 'V')]
+
+:mod:`chunking` Package
+-------------------------
+
+.. py:function:: underthesea.chunk(sentence)
+
+    chunk a sentence to phrases
+
+    :param unicode sentence: raw sentence
+    :return: list of tuple with word, pos tag, chunking tag
+    :rtype: list
+
+.. code-block:: python
+
+	>>> # -*- coding: utf-8 -*-
+	>>> from underthesea import chunk
+	>>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+	>>> chunk(text)
+	[(u'Bác sĩ', 'N', 'B-NP'),
+	 (u'bây giờ', 'P', 'I-NP'),
+	 (u'có thể', 'R', 'B-VP'),
+	 (u'thản nhiên', 'V', 'I-VP'),
+	 (u'báo tin', 'N', 'B-NP'),
+	 (u'bệnh nhân', 'N', 'I-NP'),
+	 (u'bị', 'V', 'B-VP'),
+	 (u'ung thư', 'N', 'I-VP'),
+	 (u'?', 'CH', 'O')]
