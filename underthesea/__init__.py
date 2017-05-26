@@ -6,6 +6,7 @@ __version__ = '1.0.0'
 
 from word_sent.word_sent import word_sent
 from pos_tag.pos_tag import pos_tag
+from chunking.chunk import chunk
 
 
 def info(version):
