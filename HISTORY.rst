@@ -2,21 +2,16 @@
 History
 ========================================
 
-1.0.18 (2017-05-24)
+1.1.0(2017-05-30)
 ----------------------------------------
 
-* Fix word_sent method
-* Enhance performance
-* Add word_sent package
-
-1.0.9 (2017-03-07)
-----------------------------------------
-
+* Add chunking feature
+* Add pos_tag feature
+* Add word_sent feature, fix performance
 * Add Corpus class
 * Add Transformer classes
 * Integrated with dictionary of Ho Ngoc Duc
-* Add travis-CI
-* Auto build with PyPI
+* Add travis-CI, auto build with PyPI
 
 1.0.0 (2017-03-01)
 ----------------------------------------
