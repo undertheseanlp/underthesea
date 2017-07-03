@@ -1,4 +1,4 @@
-from corpus import Corpus
+from underthesea.corpus import Corpus
 from underthesea.corpus.document import Document
 from os.path import join
 from os import listdir, mkdir

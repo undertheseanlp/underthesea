@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import io
 
 from setuptools import setup
 
-with open('README.rst') as readme_file:
+with io.open('README.rst', encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
