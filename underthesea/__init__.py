@@ -5,6 +5,8 @@ __email__ = 'brother.rain.1024@gmail.com'
 __version__ = '1.0.0'
 
 from underthesea.word_sent.word_sent import word_sent
+from underthesea.pos_tag.pos_tag import pos_tag
+from underthesea.chunking.chunk import chunk
 
 
 def info(version):

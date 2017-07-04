@@ -2,7 +2,8 @@ from underthesea.corpus import Corpus
 from underthesea.corpus.document import Document
 from os.path import join
 from os import listdir, mkdir
-
+import io
+import sys
 from underthesea.transformer.unicode import UnicodeTransformer
 
 
@@ -21,7 +22,7 @@ class PlainTextCorpus(Corpus):
         """
         ids = listdir(folder)
         files = [join(folder, f) for f in ids]
-        contents = [open(f, "r").read() for f in files]
+        contents = [io.open(f, "r", encoding="utf-8").read() for f in files]
         documents = []
 
         for id, content in zip(ids, contents):
@@ -47,4 +48,7 @@ class PlainTextCorpus(Corpus):
             f = join(folder, document.id)
             content = u"\n".join(document.sentences)
             content = content.encode("utf-8")
-            open(f, "w").write(content)
+            if sys.version_info >= (3, 0):
+                io.open(f, "wb").write(content)
+            else:
+                io.open(f, "w", encoding="utf-8").write(content)

@@ -1,5 +1,9 @@
 from unittest import TestCase, skip
 from underthesea.corpus import viet_dict_11K, viet_dict_22K, viet_dict_39K, viet_dict_74K
+import sys
+
+if sys.version_info >= (3, 0):
+    unicode = str
 
 
 class Test_VietDict(TestCase):

@@ -43,6 +43,7 @@ Usage
 * `1. Corpus <#1-corpus>`_
 * `2. Word Segmentation <#2-word-segmentation>`_
 * `3. POS Tagging <#3-pos-tagging>`_
+* `4. Chunking <#4-chunking>`_
 
 ****************************************
 1. Corpus
@@ -78,13 +79,16 @@ Vietnamese Word Segmentation using Conditional Random Fields
 
 .. code-block:: python
 
-    from underthesea import word_sent
-    sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
-    word_sent(sentence)
-    # [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
-    # u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
-    word_sent(sentence, format="text")
-    # u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import word_sent
+    >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
+
+    >>> word_sent(sentence)
+    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
+    u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+
+    >>> word_sent(sentence, format="text")
+    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 ****************************************
 3. POS Tagging
@@ -98,14 +102,59 @@ Vietnamese Word Segmentation using Conditional Random Fields
 
 Vietnamese Part of Speech Tagging using Conditional Random Fields
 
-* POS Tagging API
+* `POS Tagging API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#pos-tag-package>`_
 * `Pos Tagging Experiences <https://github.com/magizbox/underthesea.pos_tag>`_
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import pos_tag
+    >>> text = u"Chợ thịt chó nổi tiếng ở TP Hồ Chí Minh bị truy quét"
+    >>> pos_tag(text)
+    [(u'Chợ', 'N'),
+     (u'thịt', 'N'),
+     (u'chó', 'N'),
+     (u'nổi tiếng', 'A'),
+     (u'ở', 'E'),
+     (u'TP HCM', 'Np'),
+     (u'bị', 'V'),
+     (u'truy quét', 'V')]
+
+****************************************
+4. Chunking
+****************************************
+
+.. image:: https://img.shields.io/badge/F1-85.1%25-red.svg
+		:target: https://github.com/magizbox/underthesea.chunking
+
+.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+		:target: https://github.com/magizbox/underthesea.chunking
+
+Vietnamese Chunking using Conditional Random Fields
+
+* `Chunking API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#chunking-package>`_
+* `Chunking Experiences <https://github.com/magizbox/underthesea.chunking>`_
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import chunk
+    >>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> chunk(text)
+    [(u'Bác sĩ', 'N', 'B-NP'),
+     (u'bây giờ', 'P', 'I-NP'),
+     (u'có thể', 'R', 'B-VP'),
+     (u'thản nhiên', 'V', 'I-VP'),
+     (u'báo tin', 'N', 'B-NP'),
+     (u'bệnh nhân', 'N', 'I-NP'),
+     (u'bị', 'V', 'B-VP'),
+     (u'ung thư', 'N', 'I-VP'),
+     (u'?', 'CH', 'O')]
 
 Up Coming Features
 ----------------------------------------
 
 * Word Representation (`Word Representation Experiences <https://github.com/magizbox/underthesea.word_representation>`_)
-* Chunking (Experiences)
 * Dependency Parsing (Experiences)
 * Named Entity Recognition
 * Sentiment Analysis

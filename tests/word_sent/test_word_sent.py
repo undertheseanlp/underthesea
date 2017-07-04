@@ -1,23 +1,38 @@
 # -*- coding: utf-8 -*-
 from os import listdir
+import io
 from unittest import TestCase
+
+import sys
+
 from underthesea import word_sent
 from os.path import dirname, join
 
 
 def load_input(input_file):
-    return open(input_file, "r").read().split("\n")[0].decode("utf-8")
+    text = io.open(input_file, "r", encoding="utf-8").read().split("\n")[0]
+
+    if sys.version_info >= (3, 0):
+        return text
+    else:
+        return text.decode("utf-8")
 
 
 def load_output(output_file):
-    return [text.decode("utf-8") for text in open(output_file, "r").read().strip().split("\n")]
+    if sys.version_info >= (3, 0):
+        return [text for text in open(output_file, "r").read().strip().split("\n")]
+    else:
+        return [text.decode("utf-8") for text in open(output_file, "r").read().strip().split("\n")]
 
 
 def save_temp(id, output):
     test_dir = join(dirname(__file__), "samples", "accuracy")
     temp_file = join(test_dir, "%s.tmp" % id)
     content = u"\n".join(output)
-    open(temp_file, "w").write(content.encode("utf-8"))
+    if sys.version_info >= (3, 0):
+        open(temp_file, "w", encoding="utf-8").write(content)
+    else:
+        open(temp_file, "w").write(content.encode("utf-8"))
 
 
 class TestWord_sent(TestCase):

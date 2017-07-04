@@ -4,9 +4,7 @@ from os.path import join
 from underthesea.corpus.ws import WSCorpus
 
 
-
 class TestWSCorpus(TestCase):
-
     def setUp(self):
         data_folder = dirname(__file__)
         self.folder = join(data_folder, "sample_ws_corpus")

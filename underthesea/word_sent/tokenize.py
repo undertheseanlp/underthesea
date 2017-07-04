@@ -3,7 +3,7 @@ import re
 
 def tokenize(text):
     """
-    pre-process text for word segment
+    tokenize text for word segmentation
 
     :param text: raw text input
     :return: tokenize text
