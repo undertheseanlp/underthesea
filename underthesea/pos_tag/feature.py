@@ -29,8 +29,6 @@ def text_lower(word):
 def text_istitle(word):
     if len(word) == 0:
         return False
-    if type(word) == str:
-        word = word.decode("utf-8")
     try:
         titles = [s[0] for s in word.split(" ")]
         for token in titles:

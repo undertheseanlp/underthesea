@@ -15,7 +15,8 @@ class CRFModel:
         filepath = join(dirname(__file__), "crf-model")
         self.model.open(filepath)
         filepath = join(dirname(__file__), "punctuation.txt")
-        self.punctuation = io.open(filepath, "r", encoding="utf-8").read().split("\n")
+        with io.open(filepath, "r", encoding="utf-8") as f:
+            self.punctuation = f.read().split("\n")
 
     def predict(self, sentence, format=None):
         """

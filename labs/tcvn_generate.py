@@ -6,7 +6,7 @@ def generate_character(c):
 
 
 s = "\u" + "103"
-print u'\u0103'
+print(u'\u0103')
 df = pd.read_excel("tcvn_6909_2001.xlsx", index=False)
 df["c"] = df.apply(lambda row: generate_character(row["unicode"]), axis=1)
 

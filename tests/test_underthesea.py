@@ -8,7 +8,6 @@ test_underthesea
 Tests for `underthesea` module.
 """
 
-
 import sys
 import unittest
 from contextlib import contextmanager
@@ -18,9 +17,7 @@ from underthesea import underthesea
 from underthesea import cli
 
 
-
 class TestUnderthesea(unittest.TestCase):
-
     def setUp(self):
         pass
 

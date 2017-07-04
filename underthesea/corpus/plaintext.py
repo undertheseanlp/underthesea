@@ -22,7 +22,10 @@ class PlainTextCorpus(Corpus):
         """
         ids = listdir(folder)
         files = [join(folder, f) for f in ids]
-        contents = [io.open(f, "r", encoding="utf-8").read() for f in files]
+        contents = []
+        for file in files:
+            with io.open(file, "r", encoding="utf-8") as f:
+                contents.append(f.read())
         documents = []
 
         for id, content in zip(ids, contents):
@@ -47,8 +50,10 @@ class PlainTextCorpus(Corpus):
         for document in self.documents:
             f = join(folder, document.id)
             content = u"\n".join(document.sentences)
-            content = content.encode("utf-8")
             if sys.version_info >= (3, 0):
-                io.open(f, "wb").write(content)
+                content = content.encode("utf-8")
+                with io.open(f, "wb") as f:
+                    f.write(content)
             else:
-                io.open(f, "w", encoding="utf-8").write(content)
+                with io.open(f, "w", encoding="utf-8") as f:
+                    f.write(content)

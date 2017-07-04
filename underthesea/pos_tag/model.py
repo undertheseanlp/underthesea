@@ -1,8 +1,7 @@
-import re
 from os.path import dirname, join
 import pycrfsuite
-
-from underthesea.chunking.transformer import Transformer
+import sys
+from underthesea.pos_tag.transformer import Transformer
 from underthesea.util.singleton import Singleton
 
 
@@ -16,5 +15,7 @@ class CRFModel:
     def predict(self, sentence, format=None):
         x = Transformer.transform(sentence)
         tags = self.model.tag(x)
-        tokenized_sentence = u''
-        return zip(sentence, tags)
+        if sys.version_info >= (3, 0):
+            return list(zip(sentence, tags))
+        else:
+            return zip(sentence, tags)

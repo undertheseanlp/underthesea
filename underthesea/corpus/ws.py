@@ -39,7 +39,11 @@ class WSCorpus(Corpus):
         """
         ids = listdir(folder)
         files = [join(folder, file) for file in ids]
-        contents = [io.open(f, "r", encoding="utf-8").read().strip() for f in files]
+        contents = []
+        for f in files:
+            with io.open(f, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                contents.append(content)
         documents = []
 
         for id, content in zip(ids, contents):
@@ -70,6 +74,8 @@ class WSCorpus(Corpus):
             content = u"\n".join(document.sentences)
             content = content.encode("utf-8")
             if sys.version_info >= (3, 0):
-                open(f, "wb").write(content)
+                with open(f, "wb") as f:
+                    f.write(content)
             else:
-                open(f, "w").write(content)
+                with open(f, "w") as f:
+                    f.write(content)

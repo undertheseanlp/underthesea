@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from os import listdir
 from unittest import TestCase
+import io
+import sys
 from underthesea import pos_tag
 from os.path import dirname, join
 
@@ -8,24 +10,36 @@ samples_dir = join(dirname(__file__), "samples")
 
 
 def load_input(input_file):
-    content = [text.split("\t")[0].decode("utf-8") for text in open(input_file, "r").read().strip().split("\n")]
-    content = u" ".join(content)
-    return content
+    with io.open(input_file, "r", encoding="utf-8") as f:
+        if sys.version_info >= (3, 0):
+            content = [text.split("\t")[0] for text in f.read().strip().split("\n")]
+            content = " ".join(content)
+        else:
+            content = [text.split("\t")[0] for text in f.read().strip().split("\n")]
+            content = u" ".join(content)
+        return content
 
 
 def load_output(input_file):
-    lines = [text.split("\t") for text in open(input_file, "r").read().strip().split("\n")]
-    output = []
-    for item in lines:
-        word, tag = item
-        output.append((word.decode("utf-8"), tag))
-    return output
+    with io.open(input_file, "r", encoding="utf-8") as f:
+        lines = [text.split("\t") for text in f.read().strip().split("\n")]
+        output = []
+        for item in lines:
+            word, tag = item
+            if sys.version_info >= (3, 0):
+                output.append((word, tag))
+            else:
+                output.append((word, tag))
+        return output
 
 
 def save_temp(id, output):
     temp_file = join(samples_dir, "%s.correct" % id)
     content = u"\n".join([u"\t".join(item) for item in output])
-    open(temp_file, "w").write(content.encode("utf-8"))
+    if sys.version_info >= (3, 0):
+        open(temp_file, "w", encoding="utf-8").write(content)
+    else:
+        open(temp_file, "w").write(content.encode("utf-8"))
 
 
 class TestPosTag(TestCase):

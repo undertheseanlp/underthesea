@@ -2,27 +2,25 @@
 from os import listdir
 import io
 from unittest import TestCase
-
 import sys
-
 from underthesea import word_sent
 from os.path import dirname, join
 
 
 def load_input(input_file):
-    text = io.open(input_file, "r", encoding="utf-8").read().split("\n")[0]
+    with io.open(input_file, "r", encoding="utf-8") as f:
+        text = f.read().split("\n")[0]
 
-    if sys.version_info >= (3, 0):
-        return text
-    else:
-        return text.decode("utf-8")
+        if sys.version_info >= (3, 0):
+            return text
+        else:
+            return text
 
 
 def load_output(output_file):
-    if sys.version_info >= (3, 0):
-        return [text for text in open(output_file, "r").read().strip().split("\n")]
-    else:
-        return [text.decode("utf-8") for text in open(output_file, "r").read().strip().split("\n")]
+    with io.open(output_file, "r", encoding="utf-8") as f:
+        content = f.read().strip()
+        return [text for text in content.split("\n")]
 
 
 def save_temp(id, output):

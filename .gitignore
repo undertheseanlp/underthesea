@@ -63,3 +63,4 @@ target/
 .python-version
 */.ipynb_checkpoints/
 /labs/
+*.actual

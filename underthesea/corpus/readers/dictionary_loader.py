@@ -17,8 +17,9 @@ class DictionaryLoader:
     @property
     def words(self):
         if not self.words_data:
-            words = io.open(self.data_file, "r", encoding="utf-8").read().splitlines()
-            unicode_transformer = UnicodeTransformer()
-            words = [unicode_transformer.transform(word) for word in words]
-            self.words_data = words
+             with io.open(self.data_file, "r", encoding="utf-8") as f:
+                words = f.read().splitlines()
+                unicode_transformer = UnicodeTransformer()
+                words = [unicode_transformer.transform(word) for word in words]
+                self.words_data = words
         return self.words_data
