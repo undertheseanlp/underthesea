@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 from underthesea.transformer.unicode import UnicodeTransformer
+import sys
+if sys.version_info >= (3, 0):
+    unicode = str
 
 
 class TestUnicodeTransformer(TestCase):

@@ -14,7 +14,10 @@ class TestPerformance(TestCase):
         input_folder = join(dirname(__file__), "samples", "4_documents")
         files = listdir(input_folder)
         files = [join(input_folder, file) for file in files]
-        texts = [io.open(file, "r", encoding="utf-8").read().split("\n") for file in files]
+        texts = []
+        for file in files:
+            with io.open(file, "r", encoding="utf-8") as f:
+                texts.append(f.read().split("\n"))
         texts = [text for sublist in texts for text in sublist]
         self.texts = texts
 
@@ -28,6 +31,6 @@ class TestPerformance(TestCase):
         end = time.time()
         duration = end - start  # in seconds
         speed = n_tokens / duration
-        print "Speed: ", speed
+        print("Speed: ", speed)
         self.assertGreater(speed, EXPECTED_SPEED)
 

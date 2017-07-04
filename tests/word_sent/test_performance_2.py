@@ -11,8 +11,9 @@ from underthesea.word_sent.word_sent import word_sent
 class TestPerformance2(TestCase):
     def setUp(self):
         file = join(dirname(__file__), "samples", "sentences", "448_tokens.txt")
-        text = io.open(file, "r", encoding="utf-8").read()
-        self.text = text
+        with io.open(file, "r", encoding="utf-8") as f:
+            text = f.read()
+            self.text = text
 
     def test_1(self):
         n_tokens = len(tokenize(self.text).split(" "))
@@ -22,5 +23,5 @@ class TestPerformance2(TestCase):
         duration = end - start  # in seconds
         if duration != 0:
             speed = n_tokens / duration
-            print "Speed: ", speed
+            print("Speed: ", speed)
             self.assertGreater(speed, EXPECTED_SPEED)

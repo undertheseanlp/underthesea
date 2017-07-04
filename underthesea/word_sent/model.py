@@ -1,3 +1,4 @@
+import io
 from os.path import dirname, join
 import pycrfsuite
 from underthesea.util.singleton import Singleton
@@ -14,7 +15,8 @@ class CRFModel:
         filepath = join(dirname(__file__), "crf-model")
         self.model.open(filepath)
         filepath = join(dirname(__file__), "punctuation.txt")
-        self.punctuation = open(filepath, "r").read().split("\n")
+        with io.open(filepath, "r", encoding="utf-8") as f:
+            self.punctuation = f.read().split("\n")
 
     def predict(self, sentence, format=None):
         """

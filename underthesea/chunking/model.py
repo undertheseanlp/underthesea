@@ -1,6 +1,7 @@
 from os.path import dirname, join
 import pycrfsuite
-from transformer import Transformer
+
+from underthesea.chunking.transformer import Transformer
 from underthesea.util.singleton import Singleton
 
 

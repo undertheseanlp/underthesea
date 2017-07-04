@@ -1,3 +1,9 @@
+import sys
+
+if sys.version_info >= (3, 0):
+    unicode = str
+
+
 class UnicodeTransformer:
     def __init__(self):
         pass
@@ -13,4 +19,3 @@ class UnicodeTransformer:
         if type(text) is not unicode:
             text = unicode(text, 'utf-8')
         return text
-

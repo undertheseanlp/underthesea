@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from underthesea.word_sent.model import CRFModel
-from tokenize import tokenize
+from underthesea.word_sent.tokenize import tokenize
 
 
 def word_sent(sentence, format=None):

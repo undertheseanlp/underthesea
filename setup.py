@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import io
 
 from setuptools import setup
 
-with open('README.rst') as readme_file:
+with io.open('README.rst', encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
 with open('HISTORY.rst') as history_file:
@@ -20,7 +21,7 @@ test_requirements = [
 
 setup(
     name='underthesea',
-    version='1.1.0',
+    version='1.1.1',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
@@ -45,7 +46,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2.7'
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3.4',
     ],
     test_suite='tests',
     tests_require=test_requirements
