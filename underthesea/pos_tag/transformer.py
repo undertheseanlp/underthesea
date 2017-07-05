@@ -1,12 +1,4 @@
-from underthesea.feature_engineering.feature import word2features
-
-
-def sent2features(sent, template):
-    """
-
-    :type sent: list of token, each token is a list of tag
-    """
-    return [word2features(sent, i, template) for i in range(len(sent))]
+from underthesea.feature_engineering.feature import sent2features
 
 
 class Transformer:
@@ -32,5 +24,3 @@ class Transformer:
         return sent2features(sentence, template)
 
 
-def sent2labels(sent):
-    return [label for token, label in sent]
