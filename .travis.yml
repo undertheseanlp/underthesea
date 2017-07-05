@@ -5,7 +5,7 @@ language: python
 python: 3.6
 
 env:
-  - TOXENV=py27
+  - TOXENV=py27,py34
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install: pip install -U tox
