@@ -1,7 +1,4 @@
-from os.path import dirname
-from os.path import join
-
-from underthesea.pos_tag.feature import word2features
+from underthesea.feature_engineering.feature import word2features
 
 
 def sent2features(sent, template):

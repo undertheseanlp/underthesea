@@ -1,10 +1,11 @@
-from os.path import dirname
-from os.path import join
-
-from underthesea.pos_tag.feature import word2features
+from underthesea.feature_engineering.feature import word2features
 
 
 def sent2features(sent, template):
+    """
+
+    :type sent: list of token, each token is a list of tag
+    """
     return [word2features(sent, i, template) for i in range(len(sent))]
 
 

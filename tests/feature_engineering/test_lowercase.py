@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-from underthesea.transformer.lowercase import LowercaseTransformer
+
+from underthesea.feature_engineering.lowercase import LowercaseTransformer
 
 
 class TestUnicodeTransformer(TestCase):

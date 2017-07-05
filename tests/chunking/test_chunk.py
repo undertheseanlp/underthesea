@@ -17,10 +17,7 @@ def load_input(input_file):
 
 def load_output(input_file):
     lines = [text.split("\t") for text in read(input_file).strip().split("\n")]
-    output = []
-    for item in lines:
-        word, pos_tag, chunk_tag = item
-        output.append((word, pos_tag, chunk_tag))
+    output = [tuple(item) for item in lines]
     return output
 
 
@@ -30,7 +27,7 @@ def save_temp(id, output):
     write(temp_file, content)
 
 
-class TestChunking(TestCase):
+class TestChunk(TestCase):
     def test_simple_cases(self):
         sentence = u""
         actual = chunk(sentence)

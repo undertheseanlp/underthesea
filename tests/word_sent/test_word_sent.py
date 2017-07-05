@@ -20,7 +20,7 @@ def save_temp(id, output):
     test_dir = join(dirname(__file__), "samples", "accuracy")
     temp_file = join(test_dir, "%s.tmp" % id)
     content = u"\n".join(output)
-    write(content)
+    write(temp_file, content)
 
 
 class TestWord_sent(TestCase):

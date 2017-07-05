@@ -8,5 +8,5 @@ def read(filename):
 
 
 def write(filename, text):
-    with io.open(filename, "r", encoding="utf-8") as f:
+    with io.open(filename, "w", encoding="utf-8") as f:
         f.write(text)

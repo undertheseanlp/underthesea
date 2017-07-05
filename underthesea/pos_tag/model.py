@@ -15,7 +15,4 @@ class CRFModel:
     def predict(self, sentence, format=None):
         x = Transformer.transform(sentence)
         tags = self.model.tag(x)
-        if sys.version_info >= (3, 0):
-            return list(zip(sentence, tags))
-        else:
-            return zip(sentence, tags)
+        return list(zip(sentence, tags))

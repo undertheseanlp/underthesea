@@ -63,4 +63,7 @@ target/
 .python-version
 */.ipynb_checkpoints/
 /labs/
+
+# ignore test outputs
 *.actual
+*.correct

@@ -5,44 +5,31 @@ import io
 import sys
 from underthesea import pos_tag
 from os.path import dirname, join
+from underthesea.util.file_io import read, write
 
 samples_dir = join(dirname(__file__), "samples")
 
 
 def load_input(input_file):
-    with io.open(input_file, "r", encoding="utf-8") as f:
-        if sys.version_info >= (3, 0):
-            content = [text.split("\t")[0] for text in f.read().strip().split("\n")]
-            content = " ".join(content)
-        else:
-            content = [text.split("\t")[0] for text in f.read().strip().split("\n")]
-            content = u" ".join(content)
-        return content
+    lines = read(input_file).strip().split("\n")
+    content = [line.split("\t")[0] for line in lines]
+    content = u" ".join(content)
+    return content
 
 
-def load_output(input_file):
-    with io.open(input_file, "r", encoding="utf-8") as f:
-        lines = [text.split("\t") for text in f.read().strip().split("\n")]
-        output = []
-        for item in lines:
-            word, tag = item
-            if sys.version_info >= (3, 0):
-                output.append((word, tag))
-            else:
-                output.append((word, tag))
-        return output
+def load_output(filename):
+    lines = [text.split("\t") for text in read(filename).strip().split("\n")]
+    output = [tuple(item) for item in lines]
+    return output
 
 
 def save_temp(id, output):
     temp_file = join(samples_dir, "%s.correct" % id)
     content = u"\n".join([u"\t".join(item) for item in output])
-    if sys.version_info >= (3, 0):
-        open(temp_file, "w", encoding="utf-8").write(content)
-    else:
-        open(temp_file, "w").write(content.encode("utf-8"))
+    write(temp_file, content)
 
 
-class TestPosTag(TestCase):
+class TestPostag(TestCase):
     def test_simple_cases(self):
         sentence = u""
         actual = pos_tag(sentence)

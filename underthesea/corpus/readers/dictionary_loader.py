@@ -1,6 +1,8 @@
 from os.path import join, dirname
-from underthesea.transformer.unicode import UnicodeTransformer
 import io
+
+from underthesea.feature_engineering.unicode import UnicodeTransformer
+
 
 class DictionaryLoader:
     def __init__(self, filepath):

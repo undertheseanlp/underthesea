@@ -2,9 +2,10 @@ from underthesea.corpus import Corpus
 from underthesea.corpus.document import Document
 from os.path import join
 from os import listdir, mkdir
+
+from underthesea.feature_engineering.unicode import UnicodeTransformer
+from underthesea.util.file_io import write
 import io
-import sys
-from underthesea.transformer.unicode import UnicodeTransformer
 
 
 class PlainTextCorpus(Corpus):
@@ -48,12 +49,6 @@ class PlainTextCorpus(Corpus):
         except Exception as e:
             pass
         for document in self.documents:
-            f = join(folder, document.id)
+            filename = join(folder, document.id)
             content = u"\n".join(document.sentences)
-            if sys.version_info >= (3, 0):
-                content = content.encode("utf-8")
-                with io.open(f, "wb") as f:
-                    f.write(content)
-            else:
-                with io.open(f, "w", encoding="utf-8") as f:
-                    f.write(content)
+            write(filename, content)
