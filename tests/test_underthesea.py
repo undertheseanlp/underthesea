@@ -7,13 +7,8 @@ test_underthesea
 
 Tests for `underthesea` module.
 """
-
-import sys
 import unittest
-from contextlib import contextmanager
 from click.testing import CliRunner
-
-from underthesea import underthesea
 from underthesea import cli
 
 

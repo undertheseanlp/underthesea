@@ -1,11 +1,4 @@
-from os.path import dirname
-from os.path import join
-
-from underthesea.pos_tag.feature import word2features
-
-
-def sent2features(sent, template):
-    return [word2features(sent, i, template) for i in range(len(sent))]
+from underthesea.feature_engineering.feature import sent2features
 
 
 class Transformer:
@@ -31,5 +24,3 @@ class Transformer:
         return sent2features(sentence, template)
 
 
-def sent2labels(sent):
-    return [label for token, label in sent]

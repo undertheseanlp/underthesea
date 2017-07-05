@@ -47,7 +47,7 @@ def apply_function(name, word):
     return functions[name](word)
 
 
-def template2features(sent, i, token, debug=True):
+def template2features(sent, i, token):
     """
     :type token: object
     """
@@ -55,7 +55,8 @@ def template2features(sent, i, token, debug=True):
         [t[0] for t in sent],
         [t[1] for t in sent]
     ]
-    matched = re.match("T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?", token)
+    matched = re.match("T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?",
+                       token)
     column = matched.group("column")
     column = int(column) if column else 0
     index1 = int(matched.group("index1"))
@@ -84,3 +85,23 @@ def word2features(sent, i, template):
     for token in template:
         features.extend(template2features(sent, i, token))
     return features
+
+
+def sent2features(sentence, template):
+    """ extract features in a sentence
+
+    :type sentence: list of token, each token is a list of tag
+    """
+    return [word2features(sentence, i, template) for i in range(len(sentence))]
+
+
+def sent2labels(sentence):
+    """ extract labels in a sentence
+
+    :type sentence: list of token, each token is a list of tag
+    :return a list contains labels in sentence
+    
+    Example:
+        sentence = [("Have", "V"), ("a", "D"), ("nice", A"), (day, "N")
+    """
+    return [label for token, label in sentence]

@@ -15,6 +15,5 @@ class ChunkingCRFModel:
     def predict(self, sentence, format=None):
         x = Transformer.transform(sentence)
         tags = self.model.tag(x)
-        tokenized_sentence = u''
         output = [(token[0], token[1], tag) for token, tag in zip(sentence, tags)]
         return output

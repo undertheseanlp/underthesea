@@ -1,5 +1,3 @@
-import time
-
 from underthesea.corpus.readers.dictionary_loader import DictionaryLoader
 
 words = set(DictionaryLoader('Viet74K.txt').words)

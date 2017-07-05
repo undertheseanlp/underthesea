@@ -12,11 +12,8 @@ class CRFModel:
         load trained data from crf-model
         """
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "crf-model")
+        filepath = join(dirname(__file__), "wordsent_crf_v1.model")
         self.model.open(filepath)
-        filepath = join(dirname(__file__), "punctuation.txt")
-        with io.open(filepath, "r", encoding="utf-8") as f:
-            self.punctuation = f.read().split("\n")
 
     def predict(self, sentence, format=None):
         """

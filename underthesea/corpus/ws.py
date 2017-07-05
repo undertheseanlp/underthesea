@@ -7,6 +7,8 @@ from underthesea.underthesea import Corpus
 from os import listdir, mkdir
 from os.path import join
 
+from underthesea.util.file_io import write
+
 
 class WSCorpus(Corpus):
     def __init__(self):
@@ -72,10 +74,4 @@ class WSCorpus(Corpus):
         for document in self.documents:
             f = join(folder, document.id)
             content = u"\n".join(document.sentences)
-            content = content.encode("utf-8")
-            if sys.version_info >= (3, 0):
-                with open(f, "wb") as f:
-                    f.write(content)
-            else:
-                with open(f, "w") as f:
-                    f.write(content)
+            write(f, content)
