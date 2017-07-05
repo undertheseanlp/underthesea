@@ -2,7 +2,7 @@
 # This file will be regenerated if you run travis_pypi_setup.py
 
 language: python
-python: 3.6
+python: 3.4
 
 env:
   - TOXENV=py27,py34
