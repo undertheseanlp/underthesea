@@ -3,15 +3,15 @@ from underthesea.word_sent.model import CRFModel
 from underthesea.word_sent.tokenize import tokenize
 
 
-def word_sent(sentence, format=None):
+def word_sent(text, format=None):
     """
     :param unicode|str sentence: raw sentence
     :return: segmented sentence
     :rtype: unicode|str
     """
-    sentence = tokenize(sentence)
+    text = tokenize(text)
     crf_model = CRFModel.Instance()
-    result = crf_model.predict(sentence, format)
-    return result
+    output = crf_model.predict(text, format)
+    return output
 
 

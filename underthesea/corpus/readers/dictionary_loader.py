@@ -1,7 +1,5 @@
 from os.path import join, dirname
-import io
-
-from underthesea.feature_engineering.unicode import UnicodeTransformer
+from underthesea.util.file_io import read
 
 
 class DictionaryLoader:
@@ -19,9 +17,7 @@ class DictionaryLoader:
     @property
     def words(self):
         if not self.words_data:
-             with io.open(self.data_file, "r", encoding="utf-8") as f:
-                words = f.read().splitlines()
-                unicode_transformer = UnicodeTransformer()
-                words = [unicode_transformer.transform(word) for word in words]
-                self.words_data = words
+            content = read(self.data_file).strip()
+            words = content.split("\n")
+            self.words_data = words
         return self.words_data

@@ -16,12 +16,12 @@ class Transformer:
         pass
 
     @staticmethod
-    def transform(sentence):
+    def transform(text):
         """
-        :param unicode|str sentence: raw sentence
+        :param unicode text: raw sentence
         :return: words of sentence added feature
         :rtype: list
         """
-        sentence = [(token,) for token in sentence.split()]
+        sentence = [(token,) for token in text.split()]
         return sent2features(sentence)
 
