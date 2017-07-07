@@ -15,14 +15,14 @@ class CRFModel:
         filepath = join(dirname(__file__), "wordsent_crf_v1.model")
         self.model.open(filepath)
 
-    def predict(self, sentence, format=None):
+    def predict(self, text, format=None):
         """
 
-        :param unicode|str sentence: raw sentence
-        :return: segmented sentence
+        :param unicode|str text: raw text
+        :return: segmented text
         :rtype: unicode|str
         """
-        tokens = Transformer.transform(sentence)
+        tokens = Transformer.transform(text)
         tags = self.model.tag(tokens)
         if len(tags) > 0:
             tags[0] = "B_W"
