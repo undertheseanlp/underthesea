@@ -10,8 +10,8 @@ class TestDictionary(TestCase):
     def test_1(self):
         dictionary = Dictionary.Instance()
         word = dictionary.lookup(Text("đi"))
-        self.assertEqual("đi", word["text"])
-        self.assertEqual("động từ", word["pos"])
+        self.assertEqual(Text("đi"), word["text"])
+        self.assertEqual(Text("động từ"), word["pos"])
 
     def test_2(self):
         dictionary = Dictionary.Instance()
