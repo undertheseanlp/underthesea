@@ -67,3 +67,4 @@ target/
 # ignore test outputs
 *.actual
 *.correct
+.fuse_hidden*
