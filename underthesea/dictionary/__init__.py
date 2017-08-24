@@ -9,7 +9,8 @@ class Dictionary:
         """ contains 13k words in this version
         """
         filepath = join(dirname(__file__), "dictionary.data")
-        self.words = pickle.load(open(filepath, "rb"))
+        with open(filepath, "rb") as f:
+            self.words = pickle.load(f)
 
     def lookup(self, text):
         if text in self.words:
