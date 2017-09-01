@@ -19,12 +19,12 @@ Under The Sea - Vietnamese NLP Toolkit
         :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-blue.svg
-    :target: https://www.facebook.com/undertheseanlp/
-
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
+
+.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-blue.svg
+    :target: https://www.facebook.com/undertheseanlp/
 |
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
