@@ -21,3 +21,8 @@ class TestText(TestCase):
         output = Text(input)
         self.assertTrue(is_unicode(output))
 
+    def test_text_4(self):
+        # string in byte
+        input = u"đi học".encode("utf-8")
+        output = Text(input)
+        self.assertTrue(is_unicode(output))
