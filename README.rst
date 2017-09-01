@@ -23,7 +23,7 @@ Under The Sea - Vietnamese NLP Toolkit
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
 
-.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-blue.svg
+.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-red.svg
     :target: https://www.facebook.com/undertheseanlp/
 |
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
