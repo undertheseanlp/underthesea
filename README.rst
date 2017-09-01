@@ -15,7 +15,6 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://img.shields.io/travis/magizbox/underthesea.svg
         :target: https://travis-ci.org/magizbox/underthesea
 
-
 .. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
         :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
         :alt: Documentation Status
@@ -23,6 +22,9 @@ Under The Sea - Vietnamese NLP Toolkit
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
+
+.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-red.svg
+    :target: https://www.facebook.com/undertheseanlp/
 |
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
@@ -31,7 +33,7 @@ Under The Sea - Vietnamese NLP Toolkit
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
-
+* Follow us on `Facebook <https://www.facebook.com/undertheseanlp/>`_
 
 Installation
 ----------------------------------------
