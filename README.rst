@@ -86,7 +86,7 @@ Collection of Vietnamese corpus
 Vietnamese Word Segmentation using Conditional Random Fields
 
 * `Word Segmentation API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#word-sent-package>`_
-* `Word Segmentation Experiences <https://github.com/magizbox/underthesea.word_sent>`_
+* `Word Segmentation Experiments <https://github.com/magizbox/underthesea.word_sent>`_
 
 .. code-block:: python
 
@@ -114,7 +114,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 Vietnamese Part of Speech Tagging using Conditional Random Fields
 
 * `POS Tagging API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#pos-tag-package>`_
-* `Pos Tagging Experiences <https://github.com/magizbox/underthesea.pos_tag>`_
+* `Pos Tagging Experiments <https://github.com/magizbox/underthesea.pos_tag>`_
 
 .. code-block:: python
 
@@ -144,7 +144,7 @@ Vietnamese Part of Speech Tagging using Conditional Random Fields
 Vietnamese Chunking using Conditional Random Fields
 
 * `Chunking API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#chunking-package>`_
-* `Chunking Experiences <https://github.com/magizbox/underthesea.chunking>`_
+* `Chunking Experiments <https://github.com/magizbox/underthesea.chunking>`_
 
 .. code-block:: python
 
@@ -165,8 +165,9 @@ Vietnamese Chunking using Conditional Random Fields
 Up Coming Features
 ----------------------------------------
 
-* Word Representation (`Word Representation Experiences <https://github.com/magizbox/underthesea.word_representation>`_)
-* Dependency Parsing (Experiences)
+* Text Classification
+* Word Representation (`Word Representation Experiments <https://github.com/magizbox/underthesea.word_representation>`_)
+* Dependency Parsing
 * Named Entity Recognition
 * Sentiment Analysis
 
