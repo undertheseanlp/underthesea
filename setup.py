@@ -10,13 +10,16 @@ with io.open('README.rst', encoding="utf-8") as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
-requirements = [
+install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.1'
+    'python-crfsuite==0.9.1',
 ]
 
-test_requirements = [
+tests_require = [
     'nose==1.3.7'
+]
+
+setup_requires = [
 ]
 
 setup(
@@ -37,7 +40,7 @@ setup(
         ]
     },
     include_package_data=True,
-    install_requires=requirements,
+    install_requires=install_requires,
     license="GNU General Public License v3",
     zip_safe=False,
     keywords='underthesea',
@@ -50,5 +53,6 @@ setup(
         'Programming Language :: Python :: 3.4',
     ],
     test_suite='tests',
-    tests_require=test_requirements
+    tests_require=tests_require,
+    setup_requires=setup_requires
 )
