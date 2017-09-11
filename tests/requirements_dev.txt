@@ -16,4 +16,4 @@ scipy==0.19.1
 sklearn==0.0
 tox==2.7.0
 virtualenv==15.1.0
-whitenoise==3.2
+whitenoise==3.3.0
