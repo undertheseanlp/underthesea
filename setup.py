@@ -20,7 +20,6 @@ default_components = ["classification.fasttext.model"]
 
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.1',
 ]
 
 tests_require = [

@@ -44,7 +44,7 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install Cython numpy scipy sklearn fasttext
+    $ pip install Cython numpy scipy sklearn fasttext python-crfsuite
 
 To install underthesea, simply:
 
@@ -77,7 +77,6 @@ Usage
 Collection of Vietnamese corpus
 
 * `Vietnamese Dictionary (74k words) <https://github.com/magizbox/underthesea/tree/master/underthesea/corpus/data>`_
-
 * `Vietnamese News Corpus (10k documents) <https://github.com/magizbox/corpus.vinews>`_
 * `Vietnamese Wikipedia Corpus (8k documents) <https://github.com/magizbox/corpus.viwiki>`_
 
