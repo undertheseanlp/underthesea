@@ -33,7 +33,7 @@ Under The Sea - Vietnamese NLP Toolkit
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
-* Live demo: `https://underthesea.herokuapp.com/ <https://underthesea.herokuapp.com/>`_
+* Live demo: `underthesea app <http://magizbox.com:9386/#/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 
 Installation

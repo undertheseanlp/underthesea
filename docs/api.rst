@@ -157,3 +157,25 @@ API
 	 (u'bị', 'V', 'B-VP'),
 	 (u'ung thư', 'N', 'I-VP'),
 	 (u'?', 'CH', 'O')]
+
+:mod:`classify` Package
+-------------------------
+
+.. py:function:: underthesea.classify(text)
+
+    Text classification
+
+    :param unicode sentence: raw text
+        :return: list of labels
+        :rtype: list
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import classify
+    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    ['The thao']
+    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    ['Kinh doanh']
+    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    ['Vi tinh']
