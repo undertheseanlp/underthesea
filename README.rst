@@ -173,11 +173,11 @@ Vietnamese Chunking using Conditional Random Fields
 5. Text Classification
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-85.1%25-red.svg
-    :target: https://github.com/magizbox/underthesea.chunking
+.. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
+    :target: https://github.com/magizbox/underthesea.classification
 
 .. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
-    :target: https://github.com/magizbox/underthesea.chunking
+    :target: https://github.com/magizbox/underthesea.classification
 
 Vietnamese Text Classification using Fasttext
 
