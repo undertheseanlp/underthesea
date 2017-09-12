@@ -61,7 +61,7 @@ class FastTextClassifier(ClassifierMixin, BaseEstimator):
 @Singleton
 class FastTextPredictor:
     def __init__(self):
-        filepath = join(dirname(__file__), "fasttext.model.bin")
+        filepath = join(dirname(__file__), "fasttext.model")
         self.estimator = ft.load_model(filepath)
 
     def tranform_output(self, y):

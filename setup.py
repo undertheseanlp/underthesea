@@ -3,6 +3,10 @@
 import io
 
 from setuptools import setup
+try:
+    from underthesea.util import download_component
+except:
+    from util import download_component
 
 with io.open('README.rst', encoding="utf-8") as readme_file:
     readme = readme_file.read()
@@ -10,9 +14,12 @@ with io.open('README.rst', encoding="utf-8") as readme_file:
 with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
+# download default components
+default_components = ["classification.fasttext.model"]
+[download_component(component) for component in default_components]
+
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.1',
 ]
 
 tests_require = [

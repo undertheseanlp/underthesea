@@ -68,3 +68,4 @@ target/
 *.actual
 *.correct
 .fuse_hidden*
+/underthesea/classification/fasttext.model
