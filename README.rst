@@ -16,7 +16,7 @@ Under The Sea - Vietnamese NLP Toolkit
         :target: https://travis-ci.org/magizbox/underthesea
 
 .. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
-        :target: https://magizbox-underthesea.readthedocs-hosted.com/en/latest/?badge=latest
+        :target: http://underthesea.readthedocs.io/en/latest/
         :alt: Documentation Status
 
 .. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
@@ -32,7 +32,7 @@ Under The Sea - Vietnamese NLP Toolkit
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
 * Free software: GNU General Public License v3
-* Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
+* Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Live demo: `underthesea app <http://magizbox.com:9386/#/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 
