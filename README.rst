@@ -23,7 +23,7 @@ Under The Sea - Vietnamese NLP Toolkit
         :target: https://pyup.io/repos/github/magizbox/underthesea/
         :alt: Updates
 
-.. image:: https://img.shields.io/badge/chat%20%E2%98%BA-on%20facebook-red.svg
+.. image:: https://img.shields.io/badge/chat-on%20facebook-green.svg
     :target: https://www.facebook.com/undertheseanlp/
 |
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
@@ -33,11 +33,18 @@ Under The Sea - Vietnamese NLP Toolkit
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/>`_
-* Live demo: `https://underthesea.herokuapp.com/ <https://underthesea.herokuapp.com/>`_
+* Live demo: `underthesea app <http://magizbox.com:9386/#/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 
 Installation
 ----------------------------------------
+
+Install dependencies
+
+
+.. code-block:: bash
+
+    $ pip install Cython numpy scipy sklearn fasttext
 
 To install underthesea, simply:
 
@@ -55,6 +62,7 @@ Usage
 * `2. Word Segmentation <#2-word-segmentation>`_
 * `3. POS Tagging <#3-pos-tagging>`_
 * `4. Chunking <#4-chunking>`_
+* `5. Text Classification <#5-text-classification>`_
 
 ****************************************
 1. Corpus
@@ -80,7 +88,7 @@ Collection of Vietnamese corpus
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
 Vietnamese Word Segmentation using Conditional Random Fields
@@ -108,7 +116,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
 Vietnamese Part of Speech Tagging using Conditional Random Fields
@@ -138,7 +146,7 @@ Vietnamese Part of Speech Tagging using Conditional Random Fields
 .. image:: https://img.shields.io/badge/F1-85.1%25-red.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
 Vietnamese Chunking using Conditional Random Fields
@@ -162,14 +170,39 @@ Vietnamese Chunking using Conditional Random Fields
      (u'ung thư', 'N', 'I-VP'),
      (u'?', 'CH', 'O')]
 
+****************************************
+5. Text Classification
+****************************************
+
+.. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
+    :target: https://github.com/magizbox/underthesea.classification
+
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
+    :target: https://github.com/magizbox/underthesea.classification
+
+Vietnamese Text Classification using Fasttext
+
+* `Classification API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#chunking-package>`_
+* `Classification Experiments <https://github.com/magizbox/underthesea.classification>`_
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import classify
+    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    ['The thao']
+    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    ['Kinh doanh']
+    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    ['Vi tinh']
+
 Up Coming Features
 ----------------------------------------
 
-* Text Classification
+* Sentiment Analysis
 * Word Representation (`Word Representation Experiments <https://github.com/magizbox/underthesea.word_representation>`_)
 * Dependency Parsing
 * Named Entity Recognition
-* Sentiment Analysis
 
 Contributing
 ----------------------------------------

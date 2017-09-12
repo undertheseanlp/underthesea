@@ -59,3 +59,17 @@ Chunking
      (u'ung thư', 'N', 'I-VP'),
      (u'?', 'CH', 'O')]
 
+Text Classification
+-------------------------
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import classify
+    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    ['The thao']
+    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    ['Kinh doanh']
+    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    ['Vi tinh']
+
