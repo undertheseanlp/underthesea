@@ -166,8 +166,8 @@ API
     Text classification
 
     :param unicode sentence: raw text
-        :return: list of labels
-        :rtype: list
+    :return: list of labels
+    :rtype: list
 
 .. code-block:: python
 
