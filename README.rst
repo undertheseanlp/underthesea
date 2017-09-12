@@ -181,7 +181,7 @@ Vietnamese Chunking using Conditional Random Fields
 
 Vietnamese Text Classification using Fasttext
 
-* `Classification API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#chunking-package>`_
+* `Classification API <http://underthesea.readthedocs.io/en/latest/api.html#classify-package>`_
 * `Classification Experiments <https://github.com/magizbox/underthesea.classification>`_
 
 .. code-block:: python
