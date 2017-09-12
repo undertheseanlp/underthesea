@@ -3,7 +3,11 @@ import shutil
 from os import listdir
 from unittest import TestCase
 from os.path import join
+import sys
 from underthesea.corpus import PlainTextCorpus
+
+if sys.version_info >= (3, 0):
+    unicode = str
 
 test_folder = os.path.dirname(__file__)
 

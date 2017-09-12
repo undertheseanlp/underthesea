@@ -1,4 +1,3 @@
-
 API
 ====
 
@@ -52,7 +51,7 @@ API
 
 
 :mod:`transformer` Package
-----------------------------
+----------------------------------------
 
 .. automodule:: underthesea.transformer.unicode
     :members:
@@ -68,32 +67,115 @@ API
 :mod:`word_sent` Package
 -------------------------
 
+.. py:function:: underthesea.word_sent.tokenize(sentence)
+
+    tokenize a sentence
+
+    :param text: raw text input
+    :return: tokenize text
+    :rtype: unicode|str
+
+.. code-block:: python
+
+	# -*- coding: utf-8 -*-
+	>>> from underthesea.word_sent.tokenize import tokenize
+	>>> text = u"Đám cháy bùng phát trưa nay, 7/4, tại khu nhà tôn ngay gần tòa nhà Keangnam, đường Phạm Hùng. Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian. Giao thông quanh khu vực bị ảnh hưởng, trong đó đường trên cao bị tắc một đoạn khá dài..."
+
+	>>> tokenize(text)
+	u"Đám cháy bùng phát trưa nay , 7 / 4 , tại khu nhà tôn ngay gần tòa nhà Keangnam , đường Phạm Hùng . Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian . Giao thông quanh khu vực bị ảnh hưởng , trong đó đường trên cao bị tắc một đoạn khá dài ..."
+
 .. py:function:: underthesea.word_sent(sentence)
 
-    segmented sentence
+    word segmentation
 
     :param unicode|str sentence: raw sentence
     :return: segmented sentence
     :rtype: unicode|str
 
-Example for word segmentation:
+.. code-block:: python
 
+    >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
-    >>> sentence ="Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+    >>> sentence = u"Chúng ta thường nói đến Rau sạch , Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ ."
+
     >>> word_sent(sentence)
-    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với", u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
+    u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+
     >>> word_sent(sentence, format="text")
     u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
-.. automodule:: underthesea.word_sent.tokenize
-    :members:
-    :undoc-members:
-    :show-inheritance:
+:mod:`pos_tag` Package
+-------------------------
 
-Example for tokenize:
+.. py:function:: underthesea.pos_tag(sentence)
 
-    >>> from underthesea.word_sent.tokenize import tokenize
-    >>> text = "Đám cháy bùng phát trưa nay, 7/4, tại khu nhà tôn ngay gần tòa nhà Keangnam, đường Phạm Hùng. Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian. Giao thông quanh khu vực bị ảnh hưởng, trong đó đường trên cao bị tắc một đoạn khá dài..."
-    >>> text = tokenize(text)
-    >>> text
-    "Đám cháy bùng phát trưa nay , 7 / 4 , tại khu nhà tôn ngay gần tòa nhà Keangnam , đường Phạm Hùng . Ngọn lửa cùng khói đen bốc lên dữ dội làm đen kịt một góc không gian . Giao thông quanh khu vực bị ảnh hưởng , trong đó đường trên cao bị tắc một đoạn khá dài ..."
+    part of speech tagging
+
+    :param unicode|str sentence: raw sentence
+    :return: tagged sentence
+    :rtype: list
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import pos_tag
+    >>> text = u"Chợ thịt chó nổi tiếng ở TP Hồ Chí Minh bị truy quét"
+    >>> pos_tag(text)
+    [(u'Chợ', 'N'),
+     (u'thịt', 'N'),
+     (u'chó', 'N'),
+     (u'nổi tiếng', 'A'),
+     (u'ở', 'E'),
+     (u'TP HCM', 'Np'),
+     (u'bị', 'V'),
+     (u'truy quét', 'V')]
+
+:mod:`chunking` Package
+-------------------------
+
+.. py:function:: underthesea.chunk(sentence)
+
+    chunk a sentence to phrases
+
+    :param unicode sentence: raw sentence
+    :return: list of tuple with word, pos tag, chunking tag
+    :rtype: list
+
+.. code-block:: python
+
+	>>> # -*- coding: utf-8 -*-
+	>>> from underthesea import chunk
+	>>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+	>>> chunk(text)
+	[(u'Bác sĩ', 'N', 'B-NP'),
+	 (u'bây giờ', 'P', 'I-NP'),
+	 (u'có thể', 'R', 'B-VP'),
+	 (u'thản nhiên', 'V', 'I-VP'),
+	 (u'báo tin', 'N', 'B-NP'),
+	 (u'bệnh nhân', 'N', 'I-NP'),
+	 (u'bị', 'V', 'B-VP'),
+	 (u'ung thư', 'N', 'I-VP'),
+	 (u'?', 'CH', 'O')]
+
+:mod:`classify` Package
+-------------------------
+
+.. py:function:: underthesea.classify(text)
+
+    Text classification
+
+    :param unicode sentence: raw text
+        :return: list of labels
+        :rtype: list
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import classify
+    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    ['The thao']
+    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    ['Kinh doanh']
+    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    ['Vi tinh']

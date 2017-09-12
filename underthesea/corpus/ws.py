@@ -1,7 +1,13 @@
+import io
+
+import sys
+
 from underthesea.corpus import Document, UnicodeTransformer
 from underthesea.underthesea import Corpus
 from os import listdir, mkdir
 from os.path import join
+
+from underthesea.util.file_io import write
 
 
 class WSCorpus(Corpus):
@@ -35,11 +41,14 @@ class WSCorpus(Corpus):
         """
         ids = listdir(folder)
         files = [join(folder, file) for file in ids]
-        contents = [open(f, "r").read().strip() for f in files]
+        contents = []
+        for f in files:
+            with io.open(f, "r", encoding="utf-8") as f:
+                content = f.read().strip()
+                contents.append(content)
         documents = []
 
         for id, content in zip(ids, contents):
-            print id
             document = Document(id)
             unicode_transformer = UnicodeTransformer()
             content = unicode_transformer.transform(content)
@@ -65,5 +74,4 @@ class WSCorpus(Corpus):
         for document in self.documents:
             f = join(folder, document.id)
             content = u"\n".join(document.sentences)
-            content = content.encode("utf-8")
-            open(f, "w").write(content)
+            write(f, content)

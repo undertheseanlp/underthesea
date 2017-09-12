@@ -1,3 +1,4 @@
+import io
 from os.path import dirname, join
 import pycrfsuite
 from underthesea.util.singleton import Singleton
@@ -11,19 +12,17 @@ class CRFModel:
         load trained data from crf-model
         """
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "crf-model")
+        filepath = join(dirname(__file__), "wordsent_crf_v1.model")
         self.model.open(filepath)
-        filepath = join(dirname(__file__), "punctuation.txt")
-        self.punctuation = open(filepath, "r").read().split("\n")
 
-    def predict(self, sentence, format=None):
+    def predict(self, text, format=None):
         """
 
-        :param unicode|str sentence: raw sentence
-        :return: segmented sentence
+        :param unicode|str text: raw text
+        :return: segmented text
         :rtype: unicode|str
         """
-        tokens = Transformer.transform(sentence)
+        tokens = Transformer.transform(text)
         tags = self.model.tag(tokens)
         if len(tags) > 0:
             tags[0] = "B_W"

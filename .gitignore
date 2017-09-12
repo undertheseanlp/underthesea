@@ -61,3 +61,11 @@ target/
 
 # pyenv python configuration file
 .python-version
+*/.ipynb_checkpoints/
+/labs/
+
+# ignore test outputs
+*.actual
+*.correct
+.fuse_hidden*
+/underthesea/classification/fasttext.model

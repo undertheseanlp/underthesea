@@ -1,0 +1,8 @@
+Chợ	N
+thịt	N
+chó	N
+nổi tiếng	A
+ở	E
+TP HCM	Np
+bị	V
+truy quét	V

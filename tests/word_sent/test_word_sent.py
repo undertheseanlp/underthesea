@@ -3,21 +3,24 @@ from os import listdir
 from unittest import TestCase
 from underthesea import word_sent
 from os.path import dirname, join
+from underthesea.util.file_io import read, write
 
 
 def load_input(input_file):
-    return open(input_file, "r").read().split("\n")[0].decode("utf-8")
+    text = read(input_file)
+    text = text.split("\n")[0]
+    return text
 
 
 def load_output(output_file):
-    return [text.decode("utf-8") for text in open(output_file, "r").read().strip().split("\n")]
+    return read(output_file).strip().split("\n")
 
 
 def save_temp(id, output):
     test_dir = join(dirname(__file__), "samples", "accuracy")
     temp_file = join(test_dir, "%s.tmp" % id)
     content = u"\n".join(output)
-    open(temp_file, "w").write(content.encode("utf-8"))
+    write(temp_file, content)
 
 
 class TestWord_sent(TestCase):

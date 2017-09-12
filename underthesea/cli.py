@@ -1,14 +1,21 @@
 # -*- coding: utf-8 -*-
-
 import click
+try:
+    from underthesea.util import download_component
+except:
+    from util import download_component
 
 
-@click.command()
+@click.group()
 def main(args=None):
     """Console script for underthesea"""
-    click.echo("Replace this message by putting your code into "
-               "underthesea.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    pass
+
+
+@main.command()
+@click.argument('component')
+def download(component):
+    download_component(component)
 
 
 if __name__ == "__main__":
