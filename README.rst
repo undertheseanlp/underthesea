@@ -88,7 +88,7 @@ Collection of Vietnamese corpus
 .. image:: https://img.shields.io/badge/F1-97%25-red.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
 Vietnamese Word Segmentation using Conditional Random Fields
@@ -116,7 +116,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
 Vietnamese Part of Speech Tagging using Conditional Random Fields
@@ -146,7 +146,7 @@ Vietnamese Part of Speech Tagging using Conditional Random Fields
 .. image:: https://img.shields.io/badge/F1-85.1%25-red.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
 Vietnamese Chunking using Conditional Random Fields
@@ -177,7 +177,7 @@ Vietnamese Chunking using Conditional Random Fields
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
     :target: https://github.com/magizbox/underthesea.classification
 
-.. image:: https://img.shields.io/badge/%E2%98%85-can%20beat%20it%3F-blue.svg
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
     :target: https://github.com/magizbox/underthesea.classification
 
 Vietnamese Text Classification using Fasttext
