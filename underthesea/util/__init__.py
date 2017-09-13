@@ -21,7 +21,8 @@ def download_component(component_name):
             folder = dirname(dirname(__file__))
             file_name = join(folder, join(*component["destination"]))
             if isfile(file_name):
-                print("Component '{}' is already existed.".format(component["name"]))
+                print(
+                "Component '{}' is already existed.".format(component["name"]))
             else:
                 print("Start download component '{}'".format(component["name"]))
                 print(file_name)
@@ -43,8 +44,6 @@ def download_file(url, file_name):
     """
     urlretrieve(url, file_name)
 
-def download_default_data():
-    pass
 
 if __name__ == '__main__':
-    download_default_data()
+    pass

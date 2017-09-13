@@ -53,6 +53,8 @@ To install underthesea, simply:
     $ pip install underthesea
     ✨🍰✨
 
+    $ underthesea data
+
 Satisfaction, guaranteed.
 
 Usage
