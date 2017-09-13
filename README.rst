@@ -51,9 +51,8 @@ To install underthesea, simply:
 .. code-block:: bash
 
     $ pip install underthesea
-    ✨🍰✨
-
     $ underthesea data
+    ✨🍰✨
 
 Satisfaction, guaranteed.
 
