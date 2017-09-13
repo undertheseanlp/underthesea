@@ -25,7 +25,9 @@ Under The Sea - Vietnamese NLP Toolkit
 
 .. image:: https://img.shields.io/badge/chat-on%20facebook-green.svg
     :target: https://www.facebook.com/undertheseanlp/
+
 |
+
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
