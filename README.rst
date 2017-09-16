@@ -46,7 +46,8 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install Cython numpy scipy sklearn fasttext python-crfsuite
+    $ pip install Cython
+    $ pip isntall numpy scipy sklearn fasttext python-crfsuite
 
 To install underthesea, simply:
 
