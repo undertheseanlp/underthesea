@@ -8,8 +8,8 @@ env:
   - TOXENV=py27,py34
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-#install:
-#  - pip install -U tox
+install:
+  - pip install -U tox
 #  - pip install Cython
 #  - pip install -r requirements_dev.txt
 
