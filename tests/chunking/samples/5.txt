@@ -1,8 +1,8 @@
 Dàn	N	B-NP
 sao	P	I-NP
 MU	Np	I-NP
-tưng bừng	A	B-VP
+tưng bừng	V	B-VP
 khoe	V	I-VP
 cúp	N	B-NP
-vô địch	N	I-NP
+vô địch	A	I-NP
 Europa League	Np	O

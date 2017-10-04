@@ -1,7 +1,7 @@
 MU	Np
 lập	V
 chiến tích	N
-lịch sử	N
+lịch sử	A
 sau	E
 khi	N
 vô địch	N
