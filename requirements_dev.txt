@@ -1,5 +1,0 @@
-numpy==1.13.1
-scikit-learn==0.19.0
-scipy==0.19.1
-fasttext==0.8.3
-python-crfsuite==0.9.2
