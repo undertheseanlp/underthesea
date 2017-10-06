@@ -1,23 +1,24 @@
-San Marino	Np	B-NP	B-PER
-được	V	B-VP	O
-biết	V	B-VP	O
-đến	R	O	O
+Bò	N	B-NP	O
+sữa	N	B-NP	O
 là	V	B-VP	O
-đất nước	N	B-NP	O
-có	V	B-VP	O
-diện tích	N	B-NP	O
-chỉ	R	O	O
-61km2	V	B-VP	O
-nhưng	C	O	O
-sở hữu	V	B-VP	O
-một	M	B-NP	B-LOC
-nền	N	I-NP	I-LOC
-văn hóa	N	B-NP	O
-cùng	A	B-AP	O
-cảnh	N	B-NP	O
-đẹp	A	B-AP	O
-vô cùng	R	O	O
-phong phú	A	B-AP	O
-,	CH	O	O
-đa dạng	N	B-NP	O
+vật nuôi	N	B-NP	O
+chủ lực	N	B-NP	O
+trong	E	B-PP	O
+chương trình	N	B-NP	O
+“	CH	O	O
+hai	M	B-NP	O
+cây	N	B-NP	O
+-	CH	O	O
+hai	M	B-NP	O
+con	Nc	B-NP	O
+”	CH	O	O
+mà	C	O	O
+UBND	Ny	B-NP	B-ORG
+TP.	Ny	I-NP	I-ORG
+HCM	Np	I-NP	I-ORG
+cổ động	V	B-VP	O
+từ	E	B-PP	O
+nhiều	A	B-AP	O
+năm	N	B-NP	O
+nay	P	B-NP	O
 .	CH	O	O
