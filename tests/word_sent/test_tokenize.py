@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
+
+from underthesea import word_sent
 from underthesea.word_sent.tokenize import tokenize
 
 
@@ -44,4 +46,16 @@ class TestWord_sent(TestCase):
         text = u"""Kết quả xổ số điện toán Vietlott ngày 6/2/2017"""
         actual = tokenize(text)
         expected = u"Kết quả xổ số điện toán Vietlott ngày 6/2/2017"
+        self.assertEqual(actual, expected)
+
+    def test_datetime_1(self):
+        text = u"""Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014"""
+        actual = tokenize(text)
+        expected = u"Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014"
+        self.assertEqual(actual, expected)
+
+    def test_abbreviations_1(self):
+        text = u"""UBND. HĐND. TP."""
+        actual = tokenize(text)
+        expected = u"UBND. HĐND. TP."
         self.assertEqual(actual, expected)

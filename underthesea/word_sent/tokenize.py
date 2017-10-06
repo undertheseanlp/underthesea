@@ -12,15 +12,26 @@ def tokenize(text):
     digit = "\d+([\.,_]\d+)+"
     email = "(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
     web = "^(http[s]?://)?(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+$"
-    datetime = "\d{,2}\/\d{,2}\/\d{,4}"
+    datetime = [
+        "\d{,2}\/\d{,2}(\/\d+)?",
+        "\d{,2}-\d{,2}(-\d+)?",
+    ]
     word = "\w+"
     non_word = "[^\w\s]"
+    abbreviations = [
+        "[A-ZĐ]+\.",
+        "Tp\.",
+        "Mr\.", "Mrs\.", "Ms\.",
+        "Dr\.", "ThS\."
+    ]
 
     patterns = []
+    patterns.extend(abbreviations)
     patterns.extend(specials)
     patterns.extend([web, email])
-    patterns.extend([datetime])
+    patterns.extend(datetime)
     patterns.extend([digit, non_word, word])
+
 
     patterns = "(" + "|".join(patterns) + ")"
     tokens = re.findall(patterns, text, re.UNICODE)
