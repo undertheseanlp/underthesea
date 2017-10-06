@@ -19,7 +19,7 @@ class Transformer:
             # chunk
             "T[-3][2]", "T[-2][2]", "T[-1][2]",
         ]
-        sentence = [(token[0], token[1], "A") for token in sentence]
+        sentence = [(token[0], token[1], "?") for token in sentence]
         return sent2features(sentence, template)
 
     @staticmethod

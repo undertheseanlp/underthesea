@@ -1,0 +1,28 @@
+Tôi	P	B-NP
+nghĩ	V	B-VP
+lúc	N	B-NP
+đầu	N	I-NP
+họ	P	B-NP
+nhậu	V	B-VP
+rồi	C	O
+rủ	V	B-VP
+nhau	N	I-VP
+đi	V	B-VP
+hát	V	B-VP
+karaoke	N	B-NP
+cũng	R	O
+là	V	B-VP
+chuyện	N	B-NP
+bình thường	A	I-NP
+,	CH	O
+nhưng	C	O
+khi	N	B-NP
+ba	M	B-NP
+người	N	I-NP
+kia	P	I-NP
+vào	V	B-VP
+phòng	N	B-NP
+thì	C	O
+phát sinh	V	B-VP
+...	CH	O
+.	CH	O

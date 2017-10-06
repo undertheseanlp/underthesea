@@ -17,5 +17,5 @@ def ner(text, format=None):
 
 if __name__ == '__main__':
     result = ner("Tổng thống Donald Trump và phu nhân Melania Trump ngày 4/10 đã tới Las Vegas thăm hỏi các nạn nhân vụ xả súng đẫm máu vừa xảy ra tại thành phố này và mời họ tới Nhà Trắng.")
-    result = ner("Sau “lạm phát”, Sở Nội vụ Hà Nội còn 4 Phó Giám đốc")
+    # result = ner("Sau “lạm phát”, Sở Nội vụ Hà Nội còn 4 Phó Giám đốc")
     print(0)

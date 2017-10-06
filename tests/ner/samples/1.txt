@@ -1,0 +1,23 @@
+San Marino	Np	B-NP	B-PER
+được	V	B-VP	O
+biết	V	B-VP	O
+đến	R	O	O
+là	V	B-VP	O
+đất nước	N	B-NP	O
+có	V	B-VP	O
+diện tích	N	B-NP	O
+chỉ	R	O	O
+61km2	V	B-VP	O
+nhưng	C	O	O
+sở hữu	V	B-VP	O
+một	M	B-NP	B-LOC
+nền	N	I-NP	I-LOC
+văn hóa	N	B-NP	O
+cùng	A	B-AP	O
+cảnh	N	B-NP	O
+đẹp	A	B-AP	O
+vô cùng	R	O	O
+phong phú	A	B-AP	O
+,	CH	O	O
+đa dạng	N	B-NP	O
+.	CH	O	O

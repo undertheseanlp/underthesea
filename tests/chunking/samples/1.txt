@@ -1,10 +1,10 @@
 "	CH	O
 Chỗ	N	B-NP
 này	P	B-NP
-xưa	N	B-NP
-là	V	B-VP
+xưa	A	B-AP
+là	C	O
 đồn bót	N	B-NP
-nè	T	B-NP
+nè	T	B-VP
 !	CH	O
 Kia	P	B-NP
 là	V	B-VP

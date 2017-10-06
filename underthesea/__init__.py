@@ -11,11 +11,13 @@ if sys.version_info >= (3, 0):
     from underthesea.pos_tag.pos_tag import pos_tag
     from underthesea.chunking.chunk import chunk
     from underthesea.classification import classify
+    from underthesea.ner import ner
 else:
     from word_sent.word_sent import word_sent
     from pos_tag.pos_tag import pos_tag
     from chunking.chunk import chunk
     from classification import classify
+    from ner import ner
 
 
 def info(version):
