@@ -19,16 +19,16 @@ def tokenize(text):
     word = "\w+"
     non_word = "[^\w\s]"
     abbreviations = [
-        "[A-Z]+\."
+        "[A-ZĐ]+\.",
         "Tp\.",
         "Mr\.", "Mrs\.", "Ms\.",
         "Dr\.", "ThS\."
     ]
 
     patterns = []
+    patterns.extend(abbreviations)
     patterns.extend(specials)
     patterns.extend([web, email])
-    patterns.extend(abbreviations)
     patterns.extend(datetime)
     patterns.extend([digit, non_word, word])
 
