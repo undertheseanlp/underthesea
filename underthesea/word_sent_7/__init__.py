@@ -1,6 +1,6 @@
 from underthesea.word_sent.tokenize import tokenize
 
-from underthesea.word_sent_5.model import CRFModel
+from underthesea.word_sent_7.model import CRFModel
 
 
 def word_sent(sentence, format=None):

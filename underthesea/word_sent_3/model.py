@@ -9,7 +9,7 @@ from underthesea.util.singleton import Singleton
 class CRFModel:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "wordsent_crf_20171009.model")
+        filepath = join(dirname(__file__), "wordsent_crf_3_20171009.model")
         self.model.open(filepath)
 
     def predict(self, sentence, format=None):
