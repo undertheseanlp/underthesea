@@ -1,0 +1,16 @@
+Du khách	N	B-NP	O
+Pháp	Np	B-NP	B-LOC
+đi	V	B-VP	O
+taxi	N	B-NP	O
+“	CH	O	O
+dù	C	O	O
+”	CH	O	O
+từ	E	B-PP	O
+phố	N	B-NP	O
+cổ	A	B-AP	O
+ra	R	O	O
+Nội Bài	Np	B-NP	B-LOC
+hết	T	B-NP	O
+2,1	M	B-NP	O
+triệu	M	B-NP	O
+đồng	Nu	I-NP	O

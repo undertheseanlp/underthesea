@@ -1,6 +1,6 @@
 Cán bộ	N
 xã	N
-và	Cc
+và	C
 những	L
 chiêu	N
 "	CH
@@ -10,5 +10,5 @@ hộ	N
 nghèo	A
 "	CH
 cười	V
-ra	V
+ra	R
 nước mắt	N

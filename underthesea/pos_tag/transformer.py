@@ -8,13 +8,14 @@ class Transformer:
     @staticmethod
     def transform(sentence):
         template = [
-            "T[0].lower", "T[-1].lower", "T[1].lower",
+            "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower", "T[2].lower",
             "T[0].istitle", "T[-1].istitle", "T[1].istitle",
-            "T[-2]", "T[-1]", "T[0]", "T[1]", "T[2]",  # unigram
-            "T[-2,-1]", "T[-1,0]", "T[0,1]", "T[1,2]",  # bigram
-            "T[-1][1]", "T[-2][1]", "T[-3][1]",  # dynamic feature
+            # word unigram and bigram
+            "T[-2]", "T[-1]", "T[0]", "T[1]", "T[2]",
+            "T[-2,-1]", "T[-1,0]", "T[0,1]", "T[1,2]",
+            # pos unigram and bigram
+            "T[-3][1]", "T[-2][1]", "T[-1][1]",
             "T[-3,-2][1]", "T[-2,-1][1]",
-            "T[-3,-1][1]"
         ]
         sentence = [(token, "A") for token in sentence]
         return sent2features(sentence, template)

@@ -1,12 +1,12 @@
 Thủ tướng	N	B-NP
-:	CH	I-NP
-Những	L	I-NP
+:	CH	O
+Những	L	B-NP
 tồn tại	N	I-NP
-đại biểu	N	I-NP
-Quốc hội	N	I-NP
-chỉ	R	B-VP
-ra	V	I-VP
+đại biểu	N	B-NP
+Quốc hội	N	B-NP
+chỉ	R	O
+ra	V	B-VP
 ,	CH	O
 tôi	P	B-NP
-rất	R	B-VP
-thấm thía	A	O
+rất	R	O
+thấm thía	A	B-AP

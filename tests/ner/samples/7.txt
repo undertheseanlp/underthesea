@@ -1,0 +1,11 @@
+Từ	E	B-PP	O
+đó	P	B-NP	O
+chúng tôi	P	B-NP	O
+thuê	V	B-VP	O
+thuyền	N	B-NP	O
+đi	V	B-VP	O
+thị sát	V	B-VP	O
+vùng	N	B-NP	O
+eo biển	N	B-NP	B-LOC
+Malacca	Np	I-NP	I-LOC
+.	CH	O	O
