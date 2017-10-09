@@ -12,6 +12,7 @@ def word_sent(text, format=None):
     text = tokenize(text)
     crf_model = CRFModel.Instance()
     output = crf_model.predict(text, format)
+
     return output
 
 

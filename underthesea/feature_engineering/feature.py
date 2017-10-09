@@ -21,9 +21,26 @@
 
 import re
 
+from os.path import join, dirname
+
+from underthesea.corpus import DictionaryLoader
+
+words = DictionaryLoader(join(dirname(__file__), "Viet74K.txt")).words
+lower_words = set([word.lower() for word in words])
 
 def text_lower(word):
     return word.lower()
+
+
+def text_isdigit(word):
+    return str(word.isdigit())
+
+
+def text_isallcap(word):
+    for letter in word:
+        if not letter.istitle():
+            return False
+    return True
 
 
 def text_istitle(word):
@@ -38,11 +55,15 @@ def text_istitle(word):
     except:
         return False
 
+def text_is_in_dict(word):
+    return str(word.lower() in lower_words)
 
 def apply_function(name, word):
     functions = {
         "lower": text_lower,
-        "istitle": text_istitle
+        "istitle": text_istitle,
+        "isallcap": text_isallcap,
+        "isdigit": text_isdigit,
     }
     return functions[name](word)
 

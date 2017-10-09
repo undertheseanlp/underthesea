@@ -37,7 +37,7 @@ class TestWord_sent(TestCase):
     def test_word_sent(self):
         test_dir = join(dirname(__file__), "samples", "accuracy")
         files = listdir(test_dir)
-        ids = [f.split(".")[0] for f in files if ".in" in f]
+        ids = sorted([int(f.split(".")[0]) for f in files if ".in" in f])
         for id in ids:
             input_file = join(test_dir, "%s.in" % id)
             output_file = join(test_dir, "%s.out" % id)

@@ -48,10 +48,17 @@ class TestWord_sent(TestCase):
         expected = u"Kết quả xổ số điện toán Vietlott ngày 6/2/2017"
         self.assertEqual(actual, expected)
 
-    def test_datetime_1(self):
-        text = u"""Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014"""
+    def test_tokenize_8(self):
+        text = u"""Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3, giai đoạn 2010-2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng, phó phòng chưa có trình độ Trung cấp lý luận chính trị, chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước, không đúng quy định của UBND tỉnh Thanh Hoá.
+"""
         actual = tokenize(text)
-        expected = u"Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014"
+        expected = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3 , giai đoạn 2010 - 2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng , phó phòng chưa có trình độ Trung cấp lý luận chính trị , chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước , không đúng quy định của UBND tỉnh Thanh Hoá ."
+        self.assertEqual(actual, expected)
+
+    def test_datetime_1(self):
+        text = u"""Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010-2015"""
+        actual = tokenize(text)
+        expected = u"Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010 - 2015"
         self.assertEqual(actual, expected)
 
     def test_abbreviations_1(self):
@@ -59,3 +66,4 @@ class TestWord_sent(TestCase):
         actual = tokenize(text)
         expected = u"UBND. HĐND. TP."
         self.assertEqual(actual, expected)
+
