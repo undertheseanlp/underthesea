@@ -6,6 +6,11 @@ import shutil
 
 from underthesea import word_sent
 from underthesea import word_sent_2
+from underthesea import word_sent_3
+from underthesea import word_sent_4
+from underthesea import word_sent_5
+from underthesea import word_sent_6
+from underthesea import word_sent_7
 from os.path import dirname, join, isfile
 from underthesea.util.file_io import read, write
 
@@ -75,17 +80,25 @@ class TestWord_sent(TestCase):
             input_file = join(test_dir, "%s.in" % id)
             output_file = join(test_dir, "%s.out" % id)
             sentence = load_input(input_file)
-            actual = word_sent(sentence)
+            actual = model(sentence)
             expected = load_output(output_file)
             if actual != expected:
                 fails.append(str(id))
                 self._save_tmp_model(model_id, id, actual)
+
         n = len(ids)
         correct = n - len(fails)
         print("Accuracy: {:.2f}% ({}/{})".format(correct * 100.0 / n, correct, n))
         print("Fails   :", ", ".join(fails))
 
     def test_models(self):
-        models = [word_sent, word_sent_2.word_sent]
+        models = [
+            word_sent_7.word_sent,
+            word_sent_6.word_sent,
+            word_sent,
+            word_sent_2.word_sent,
+            word_sent_3.word_sent,
+            word_sent_4.word_sent,
+            word_sent_5.word_sent]
         for i, model in enumerate(models):
             self._test_model(str(i + 1), model)
