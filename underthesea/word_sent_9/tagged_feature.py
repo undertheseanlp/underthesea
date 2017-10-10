@@ -17,16 +17,14 @@
 # a        C
 # sample   D
 # sentence E
-#
+
 
 import re
-
 from os.path import join, dirname
-
 from underthesea.corpus import DictionaryLoader
-
 words = DictionaryLoader(join(dirname(__file__), "Viet74K.txt")).words
 lower_words = set([word.lower() for word in words])
+
 
 def text_lower(word):
     return word.lower()
@@ -55,8 +53,10 @@ def text_istitle(word):
     except:
         return False
 
+
 def text_is_in_dict(word):
     return str(word.lower() in lower_words)
+
 
 def apply_function(name, word):
     functions = {
@@ -108,26 +108,6 @@ def template2features(sent, i, token_syntax, debug=True):
 
 def word2features(sent, i, template):
     features = []
-    for token in template:
-        features.extend(template2features(sent, i, token))
+    for token_syntax in template:
+        features.extend(template2features(sent, i, token_syntax))
     return features
-
-
-def sent2features(sentence, template):
-    """ extract features in a sentence
-
-    :type sentence: list of token, each token is a list of tag
-    """
-    return [word2features(sentence, i, template) for i in range(len(sentence))]
-
-
-def sent2labels(sentence):
-    """ extract labels in a sentence
-
-    :type sentence: list of token, each token is a list of tag
-    :return a list contains labels in sentence
-
-    Example:
-        sentence = [("Have", "V"), ("a", "D"), ("nice", A"), (day, "N")
-    """
-    return [label for token, label in sentence]
