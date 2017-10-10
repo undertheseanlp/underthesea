@@ -9,8 +9,7 @@ from underthesea.util.singleton import Singleton
 class ChunkingCRFModel:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        # filepath = join(dirname(__file__), "chunking_crf_v1.model")
-        filepath = join(dirname(__file__), "chunking_crf_20171006.model")
+        filepath = join(dirname(__file__), "chunking_crf_v1.model")
         self.model.open(filepath)
 
     def predict(self, sentence, format=None):

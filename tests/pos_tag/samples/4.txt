@@ -1,8 +1,8 @@
 Lầu	N
-Năm	N
+Năm	Np
 Góc	Np
 “	CH
-tá	V
+tá	N
 hỏa	N
 ”	CH
 vì	E

@@ -24,7 +24,7 @@ def load_output(filename):
 
 
 def save_temp(id, output):
-    temp_file = join(samples_dir, "%s.actual" % id)
+    temp_file = join(samples_dir, "%s.correct" % id)
     content = u"\n".join([u"\t".join(item) for item in output])
     write(temp_file, content)
 
