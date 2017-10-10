@@ -1,5 +1,14 @@
-from underthesea.feature_engineering.feature import sent2features
-from underthesea.word_sent.tokenize import tokenize
+from underthesea.word_sent.feature import word2features
+
+
+def sent2features(sent):
+    """
+
+    :param unicode|str sent: sentence has been converted to column format
+    :return: words of sentence added feature
+    :rtype: list
+    """
+    return [word2features(sent, i) for i in range(len(sent))]
 
 
 class Transformer:
@@ -7,26 +16,12 @@ class Transformer:
         pass
 
     @staticmethod
-    def transform(sentence):
-        template = [
-            "T[-1].lower", "T[0].lower", "T[1].lower",
-            "T[-1].isdigit", "T[0].isdigit", "T[1].isdigit",
-            "T[-1].istitle", "T[0].istitle", "T[1].istitle",
-            "T[0,1].istitle", "T[0,2].istitle",
-            "T[-1].is_in_dict", "T[0].is_in_dict", "T[1].is_in_dict",
-            "T[0,1].is_in_dict", "T[0,2].is_in_dict",
-            # word unigram and bigram and trigram
-            "T[-2]", "T[-1]", "T[0]", "T[1]", "T[2]",
-            "T[-2,-1]", "T[-1,0]", "T[0,1]", "T[1,2]",
-            "T[-2,0]", "T[-1,1]", "T[0,2]",
-            # BI tag
-            "T[-2][1]", "T[-1][1]"
-        ]
-        sentence = [(token, "X") for token in sentence]
-        return sent2features(sentence, template)
-
-    @staticmethod
-    def extract_features(sentence, template):
-        return sent2features(sentence, template)
-
+    def transform(text):
+        """
+        :param unicode text: raw sentence
+        :return: words of sentence added feature
+        :rtype: list
+        """
+        sentence = [(token,) for token in text.split()]
+        return sent2features(sentence)
 
