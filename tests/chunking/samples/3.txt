@@ -1,9 +1,0 @@
-Bác sĩ	N	B-NP
-bây giờ	P	B-NP
-có thể	R	O
-thản nhiên	V	B-VP
-báo tin	N	B-NP
-bệnh nhân	N	B-NP
-bị	V	B-VP
-ung thư	N	B-NP
-?	CH	O
