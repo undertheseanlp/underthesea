@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from unittest import TestCase
+from unittest import TestCase, skip
 from os import listdir
 from os.path import dirname, join
 import io
@@ -20,7 +20,7 @@ class TestPerformance(TestCase):
                 texts.append(f.read().split("\n"))
         texts = [text for sublist in texts for text in sublist]
         self.texts = texts
-
+    @skip("")
     def test_1(self):
         n_tokens = 0
         for text in self.texts:

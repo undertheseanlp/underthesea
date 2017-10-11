@@ -98,7 +98,7 @@ class TestWord_sent(TestCase):
             "Accuracy: {:.2f}% ({}/{})".format(correct * 100.0 / n, correct, n))
         print("Fails   :", ", ".join(fails))
 
-    @skip
+    @skip("")
     def test_models(self):
         models = [
             word_sent

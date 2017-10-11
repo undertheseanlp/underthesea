@@ -7,7 +7,7 @@ class CustomTransformer(TaggedTransformer):
         return dict([k.split("=") for k in features])
 
     def _convert_features_to_list(self, features):
-        return ["{}={}".format(k, v) for k, v in features.items()]
+        return [u"{}={}".format(k, v) for k, v in features.items()]
         pass
 
     def _word2features(self, s, i, template):

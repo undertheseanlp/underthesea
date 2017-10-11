@@ -33,17 +33,3 @@ class TestNER(TestCase):
         actual = ner(sentence)
         expected = []
         self.assertEqual(actual, expected)
-
-    def test_accuracy(self):
-        test_dir = join(dirname(__file__), "samples")
-        files = listdir(test_dir)
-        ids = [f.split(".")[0] for f in files]
-        for id in ids:
-            file = join(test_dir, "%s.txt" % id)
-            sentence = load_input(file)
-            actual = ner(sentence)
-            expected = load_output(file)
-            if actual != expected:
-                print("Fail {}".format(id))
-                save_temp(id, actual)
-            self.assertEqual(actual, expected)

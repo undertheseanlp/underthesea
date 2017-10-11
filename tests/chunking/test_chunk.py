@@ -34,6 +34,7 @@ class TestChunk(TestCase):
         expected = []
         self.assertEqual(actual, expected)
 
+    @skip("")
     def test_accuracy(self):
         test_dir = join(dirname(__file__), "samples")
         files = listdir(test_dir)

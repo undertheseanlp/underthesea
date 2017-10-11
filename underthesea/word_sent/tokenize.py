@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 import re
-
+import sys
 
 def tokenize(text):
     """
@@ -33,5 +34,7 @@ def tokenize(text):
     patterns.extend([digit, non_word, word])
 
     patterns = "(" + "|".join(patterns) + ")"
+    if sys.version_info < (3, 0):
+        patterns = patterns.decode('utf-8')
     tokens = re.findall(patterns, text, re.UNICODE)
     return u" ".join(["%s" % token[0] for token in tokens])

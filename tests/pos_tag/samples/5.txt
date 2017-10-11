@@ -1,8 +1,0 @@
-MU	Np
-lập	V
-chiến tích	N
-lịch sử	A
-sau	E
-khi	N
-vô địch	N
-Europa League	Np
