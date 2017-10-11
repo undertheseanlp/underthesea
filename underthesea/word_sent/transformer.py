@@ -1,32 +1,35 @@
-from underthesea.feature_engineering.feature import sent2features
-from underthesea.word_sent.tokenize import tokenize
+from underthesea.word_sent.tagged import TaggedTransformer
+from underthesea.word_sent.tagged_feature import word2features
 
 
-class Transformer:
-    def __init__(self):
+class CustomTransformer(TaggedTransformer):
+    def _convert_features_to_dict(self, features):
+        return dict([k.split("=") for k in features])
+
+    def _convert_features_to_list(self, features):
+        return ["{}={}".format(k, v) for k, v in features.items()]
         pass
 
-    @staticmethod
-    def transform(sentence):
-        template = [
-            "T[-1].lower", "T[0].lower", "T[1].lower",
-            "T[-1].isdigit", "T[0].isdigit", "T[1].isdigit",
-            "T[-1].istitle", "T[0].istitle", "T[1].istitle",
-            "T[0,1].istitle", "T[0,2].istitle",
-            "T[-1].is_in_dict", "T[0].is_in_dict", "T[1].is_in_dict",
-            "T[0,1].is_in_dict", "T[0,2].is_in_dict",
-            # word unigram and bigram and trigram
-            "T[-2]", "T[-1]", "T[0]", "T[1]", "T[2]",
-            "T[-2,-1]", "T[-1,0]", "T[0,1]", "T[1,2]",
-            "T[-2,0]", "T[-1,1]", "T[0,2]",
-            # BI tag
-            "T[-2][1]", "T[-1][1]"
-        ]
-        sentence = [(token, "X") for token in sentence]
-        return sent2features(sentence, template)
+    def _word2features(self, s, i, template):
+        features = word2features(s, i, template)
+        features = self._convert_features_to_dict(features)
+        for i in range(-2, 3):
+            t = "T[{}].is_in_dict".format(i)
+            t2 = "T[{}]".format(i)
+            t3 = "T[{}].lower".format(i)
+            if features[t] == 'True':
+                features[t2] = "-"
+                features[t3] = "-"
+        for i in range(-2, 2):
+            t = "T[{},{}].is_in_dict".format(i, i + 1)
+            t2 = "T[{},{}]".format(i, i + 1)
+            if features[t] == 'True':
+                features[t2] = "-"
+        features = self._convert_features_to_list(features)
 
-    @staticmethod
-    def extract_features(sentence, template):
-        return sent2features(sentence, template)
+        return features
 
-
+    def sentence2features(self, s):
+        output = [self._word2features(s, i, self.template) for i in
+                  range(len(s))]
+        return output

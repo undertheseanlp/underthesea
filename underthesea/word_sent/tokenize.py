@@ -32,7 +32,6 @@ def tokenize(text):
     patterns.extend(datetime)
     patterns.extend([digit, non_word, word])
 
-
     patterns = "(" + "|".join(patterns) + ")"
     tokens = re.findall(patterns, text, re.UNICODE)
     return u" ".join(["%s" % token[0] for token in tokens])
