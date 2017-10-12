@@ -43,4 +43,4 @@ new_characters_df.to_excel("new_characters.xlsx", index=False)
 
 print(list(new_characters))
 for c in new_characters:
-    print(c)
+    print c

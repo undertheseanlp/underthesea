@@ -2,6 +2,7 @@
 import re
 import sys
 
+
 def tokenize(text):
     """
     tokenize text for word segmentation

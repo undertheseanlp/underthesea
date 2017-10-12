@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-from os import listdir
 from unittest import TestCase
-import io
-import sys
 from underthesea import classify
 from os.path import dirname, join
 
