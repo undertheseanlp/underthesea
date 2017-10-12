@@ -1,5 +1,4 @@
 from underthesea import word_sent
-
 from .model_crf import CRFPOSTagPredictor
 
 

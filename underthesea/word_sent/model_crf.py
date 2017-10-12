@@ -2,7 +2,7 @@ from os.path import dirname, join
 import pycrfsuite
 import sys
 from underthesea.util.singleton import Singleton
-from underthesea.word_sent.transformer import CustomTransformer
+from .transformer import CustomTransformer
 
 
 @Singleton

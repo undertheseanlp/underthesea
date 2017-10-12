@@ -20,7 +20,6 @@
 
 
 import re
-from os.path import join, dirname
 from underthesea.corpus import DictionaryLoader
 words = DictionaryLoader("Viet74K.txt").words
 lower_words = set([word.lower() for word in words])

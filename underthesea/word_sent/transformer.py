@@ -1,5 +1,5 @@
-from underthesea.word_sent.tagged import TaggedTransformer
-from underthesea.word_sent.tagged_feature import word2features
+from .tagged import TaggedTransformer
+from .tagged_feature import word2features
 
 
 class CustomTransformer(TaggedTransformer):
