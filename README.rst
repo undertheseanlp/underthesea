@@ -41,8 +41,6 @@ Under The Sea - Vietnamese NLP Toolkit
 Installation
 ----------------------------------------
 
-Install dependencies
-
 To install underthesea, simply:
 
 .. code-block:: bash
@@ -181,13 +179,15 @@ Vietnamese Text Classification using Fasttext
 * `Classification API <http://underthesea.readthedocs.io/en/latest/api.html#classify-package>`_
 * `Classification Experiments <https://github.com/magizbox/underthesea.classification>`_
 
-Install dependencies and download model
+Install dependencies and download default model
 
 .. code-block:: bash
 
     $ pip install Cython
     $ pip install numpy scipy sklearn fasttext python-crfsuite
     $ underthesea data
+
+Run classify
 
 .. code-block:: python
 
