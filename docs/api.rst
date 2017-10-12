@@ -173,7 +173,7 @@ API
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import ner
-    >>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> text = u"Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump"
     >>> ner(text)
     [('Chưa', 'R', 'O', 'O'),
      ('tiết lộ', 'V', 'B-VP', 'O'),
