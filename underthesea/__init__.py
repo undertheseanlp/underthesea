@@ -10,6 +10,7 @@ if sys.version_info >= (3, 0):
     from underthesea.word_sent import word_sent
     from underthesea.pos_tag import pos_tag
     from underthesea.chunking import chunk
+    from underthesea.ner import ner
     try:
         from underthesea.classification import classify
     except:
@@ -18,6 +19,7 @@ else:
     from word_sent import word_sent
     from pos_tag import pos_tag
     from chunking import chunk
+    from ner import ner
     try:
         from classification import classify
     except:
