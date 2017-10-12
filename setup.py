@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 install_requires = [
-    'Click>=6.0',
+    'Click>=6.0'
 ]
 
 tests_require = [
@@ -19,6 +19,7 @@ tests_require = [
 ]
 
 setup_requires = [
+    'python-crfsuite==0.9.2'
 ]
 
 setup(

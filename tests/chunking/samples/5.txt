@@ -1,8 +1,0 @@
-Dàn	N	B-NP
-sao	P	I-NP
-MU	Np	I-NP
-tưng bừng	A	B-VP
-khoe	V	I-VP
-cúp	N	B-NP
-vô địch	N	I-NP
-Europa League	Np	O

@@ -7,14 +7,16 @@ __version__ = '1.1.4'
 import sys
 
 if sys.version_info >= (3, 0):
-    from underthesea.word_sent.word_sent import word_sent
-    from underthesea.pos_tag.pos_tag import pos_tag
-    from underthesea.chunking.chunk import chunk
+
+    from underthesea.word_sent import word_sent
+    from underthesea.pos_tag import pos_tag
+    from underthesea.chunking import chunk
+
     from underthesea.classification import classify
 else:
-    from word_sent.word_sent import word_sent
-    from pos_tag.pos_tag import pos_tag
-    from chunking.chunk import chunk
+    from word_sent import word_sent
+    from pos_tag import pos_tag
+    from chunking import chunk
     from classification import classify
 
 
