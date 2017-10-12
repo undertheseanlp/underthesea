@@ -184,7 +184,8 @@ Install dependencies and download default model
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install numpy scipy sklearn fasttext python-crfsuite
+    $ pip install future scipy numpy scikit-learn
+    $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
 Run classify
