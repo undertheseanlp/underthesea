@@ -43,18 +43,11 @@ Installation
 
 Install dependencies
 
-
-.. code-block:: bash
-
-    $ pip install Cython
-    $ pip install numpy scipy sklearn fasttext python-crfsuite
-
 To install underthesea, simply:
 
 .. code-block:: bash
 
     $ pip install underthesea==1.1.4rc2
-    $ underthesea data
     ✨🍰✨
 
 Satisfaction, guaranteed.
@@ -187,6 +180,14 @@ Vietnamese Text Classification using Fasttext
 
 * `Classification API <http://underthesea.readthedocs.io/en/latest/api.html#classify-package>`_
 * `Classification Experiments <https://github.com/magizbox/underthesea.classification>`_
+
+Install dependencies and download model
+
+.. code-block:: bash
+
+    $ pip install Cython
+    $ pip install numpy scipy sklearn fasttext python-crfsuite
+    $ underthesea data
 
 .. code-block:: python
 
