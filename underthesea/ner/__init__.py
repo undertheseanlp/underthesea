@@ -1,16 +1,21 @@
 from underthesea import chunk
+import sys
+
+if sys.version_info >= (3, 0):
+    from .model_crf import CRFNERPredictor
+else:
+    from model_crf import CRFNERPredictor
 
 
-def ner(text, format=None):
+def ner(sentence, format=None):
     """
-    location and classify named entities in text
+    part of speech tagging
 
-    :param text: raw text
-    :param format:
-    :return: list
+    :param unicode|str sentence: raw sentence
+    :return: ner tagged sentence
+    :rtype: list
     """
-    text = chunk(text)
-    # model = NERCRFModel.Instance()
-    model = None
-    result = model.predict(text, format)
+    sentence = chunk(sentence)
+    crf_model = CRFNERPredictor.Instance()
+    result = crf_model.predict(sentence, format)
     return result

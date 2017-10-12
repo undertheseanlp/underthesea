@@ -41,20 +41,11 @@ Under The Sea - Vietnamese NLP Toolkit
 Installation
 ----------------------------------------
 
-Install dependencies
-
-
-.. code-block:: bash
-
-    $ pip install Cython
-    $ pip install numpy scipy sklearn fasttext python-crfsuite
-
 To install underthesea, simply:
 
 .. code-block:: bash
 
     $ pip install underthesea==1.1.4rc2
-    $ underthesea data
     ✨🍰✨
 
 Satisfaction, guaranteed.
@@ -66,7 +57,8 @@ Usage
 * `2. Word Segmentation <#2-word-segmentation>`_
 * `3. POS Tagging <#3-pos-tagging>`_
 * `4. Chunking <#4-chunking>`_
-* `5. Text Classification <#5-text-classification>`_
+* `5. Named Entity Recognition <#5-named-entity-recognition>`_
+* `6. Text Classification <#6-text-classification>`_
 
 ****************************************
 1. Corpus
@@ -88,7 +80,7 @@ Collection of Vietnamese corpus
 2. Word Segmentation
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-97%25-red.svg
+.. image:: https://img.shields.io/badge/F1-94%25-red.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
 .. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
@@ -146,7 +138,7 @@ Vietnamese Part of Speech Tagging using Conditional Random Fields
 4. Chunking
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-85.1%25-red.svg
+.. image:: https://img.shields.io/badge/F1-77%25-red.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
 .. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
@@ -174,7 +166,40 @@ Vietnamese Chunking using Conditional Random Fields
      (u'?', 'CH', 'O')]
 
 ****************************************
-5. Text Classification
+5. Named Entity Recognition
+****************************************
+
+.. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
+		:target: https://github.com/magizbox/underthesea.ner
+
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
+		:target: https://github.com/magizbox/underthesea.ner
+
+Vietnamese Chunking using Conditional Random Fields
+
+* `NER API <https://magizbox-underthesea.readthedocs-hosted.com/en/latest/api.html#ner-package>`_
+* `NER Experiments <https://github.com/magizbox/underthesea.ner>`_
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import ner
+    >>> text = u"Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump"
+    >>> ner(text)
+    [('Chưa', 'R', 'O', 'O'),
+     ('tiết lộ', 'V', 'B-VP', 'O'),
+     ('lịch trình', 'V', 'B-VP', 'O'),
+     ('tới', 'E', 'B-PP', 'O'),
+     ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
+     ('của', 'E', 'B-PP', 'O'),
+     ('Tổng thống', 'N', 'B-NP', 'O'),
+     ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
+     ('Donald', 'Np', 'B-NP', 'B-PER'),
+     ('Trump', 'Np', 'B-NP', 'I-PER')]
+
+
+****************************************
+6. Text Classification
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
@@ -187,6 +212,17 @@ Vietnamese Text Classification using Fasttext
 
 * `Classification API <http://underthesea.readthedocs.io/en/latest/api.html#classify-package>`_
 * `Classification Experiments <https://github.com/magizbox/underthesea.classification>`_
+
+Install dependencies and download default model
+
+.. code-block:: bash
+
+    $ pip install Cython
+    $ pip install future scipy numpy scikit-learn
+    $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
+    $ underthesea data
+
+Run classify
 
 .. code-block:: python
 
@@ -205,7 +241,6 @@ Up Coming Features
 * Sentiment Analysis
 * Word Representation (`Word Representation Experiments <https://github.com/magizbox/underthesea.word_representation>`_)
 * Dependency Parsing
-* Named Entity Recognition
 
 Contributing
 ----------------------------------------

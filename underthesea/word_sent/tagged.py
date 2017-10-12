@@ -1,4 +1,4 @@
-from underthesea.word_sent.tagged_feature import word2features
+from .tagged_feature import word2features
 
 
 class TaggedTransformer:
