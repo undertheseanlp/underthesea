@@ -2,6 +2,8 @@
 import re
 import sys
 
+from underthesea.feature_engineering.text import Text
+
 
 def tokenize(text):
     """
@@ -10,6 +12,7 @@ def tokenize(text):
     :param text: raw text input
     :return: tokenize text
     """
+    text = Text(text)
     specials = ["==>", "->", "\.\.\.", ">>"]
     digit = "\d+([\.,_]\d+)+"
     email = "(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
