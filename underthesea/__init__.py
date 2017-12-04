@@ -13,7 +13,7 @@ if sys.version_info >= (3, 0):
     from underthesea.ner import ner
     try:
         from underthesea.classification import classify
-    except:
+    except Exception as e:
         pass
 else:
     from word_sent import word_sent
@@ -22,7 +22,7 @@ else:
     from ner import ner
     try:
         from classification import classify
-    except:
+    except Exception as e:
         pass
 
 

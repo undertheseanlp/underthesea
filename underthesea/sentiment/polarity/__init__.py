@@ -1,0 +1,2 @@
+def polarity(X):
+    pass
