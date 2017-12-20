@@ -1,8 +1,8 @@
-from underthesea import classify
+from underthesea.sentiment import bank
 
 
-def sentiment(X, domain=""):
-    aspects = classify(X, domain=domain)
-    polarity = polarity(X)
-    s = [] # merge aspects with polarity
-    return s
+def classify(X, domain=None):
+    if X == "":
+        return None
+    if domain == 'bank':
+        return bank.sentiment(X)

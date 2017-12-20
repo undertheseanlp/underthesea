@@ -12,7 +12,7 @@ class TestClassify(TestCase):
         self.assertEqual(actual, expected)
 
     def test_classify_simple_case(self):
-        text = u"HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam 54"
+        text = u"HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
         actual = classify(text)[0]
         expected = Text("The thao")
         self.assertEqual(actual, expected)
