@@ -8,11 +8,10 @@ x_transform = joblib.load(join(dirname(__file__), "count.transformer.bin"))
 estimator = joblib.load(join(dirname(__file__), "model.bin"))
 
 
-def sentiment(X):
+def classify(X):
     if isinstance(X, list):
-        y = y_transform.inverse_transform(
+        return y_transform.inverse_transform(
             estimator.predict(x_transform.transform(X)))
     else:
-        y = y_transform.inverse_transform(
+        return y_transform.inverse_transform(
             estimator.predict(x_transform.transform([X])))[0]
-    return y

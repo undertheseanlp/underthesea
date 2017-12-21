@@ -5,4 +5,4 @@ def classify(X, domain=None):
     if X == "":
         return None
     if domain == 'bank':
-        return bank.sentiment(X)
+        return bank.classify(X)

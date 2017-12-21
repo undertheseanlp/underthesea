@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 from underthesea import classify
+
 from underthesea.feature_engineering.text import Text
 
 
