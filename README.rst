@@ -53,31 +53,15 @@ Satisfaction, guaranteed.
 Usage
 ----------------------------------------
 
-* `1. Corpus <#1-corpus>`_
-* `2. Word Segmentation <#2-word-segmentation>`_
-* `3. POS Tagging <#3-pos-tagging>`_
-* `4. Chunking <#4-chunking>`_
-* `5. Named Entity Recognition <#5-named-entity-recognition>`_
-* `6. Text Classification <#6-text-classification>`_
+* `1. Word Segmentation <#2-word-segmentation>`_
+* `2. POS Tagging <#3-pos-tagging>`_
+* `3. Chunking <#4-chunking>`_
+* `4. Named Entity Recognition <#5-named-entity-recognition>`_
+* `5. Text Classification <#6-text-classification>`_
+
 
 ****************************************
-1. Corpus
-****************************************
-
-.. image:: https://img.shields.io/badge/documents-18k-red.svg
-        :target: #
-
-.. image:: https://img.shields.io/badge/words-74k-red.svg
-        :target: #
-
-Collection of Vietnamese corpus
-
-* `Vietnamese Dictionary (74k words) <https://github.com/magizbox/underthesea/tree/master/underthesea/corpus/data>`_
-* `Vietnamese News Corpus (10k documents) <https://github.com/magizbox/corpus.vinews>`_
-* `Vietnamese Wikipedia Corpus (8k documents) <https://github.com/magizbox/corpus.viwiki>`_
-
-****************************************
-2. Word Segmentation
+1. Word Segmentation
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-94%25-red.svg
@@ -105,7 +89,7 @@ Vietnamese Word Segmentation using Conditional Random Fields
     u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 ****************************************
-3. POS Tagging
+2. POS Tagging
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
@@ -135,7 +119,7 @@ Vietnamese Part of Speech Tagging using Conditional Random Fields
      (u'truy quét', 'V')]
 
 ****************************************
-4. Chunking
+3. Chunking
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-77%25-red.svg
@@ -166,7 +150,7 @@ Vietnamese Chunking using Conditional Random Fields
      (u'?', 'CH', 'O')]
 
 ****************************************
-5. Named Entity Recognition
+4. Named Entity Recognition
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
@@ -199,7 +183,7 @@ Vietnamese Chunking using Conditional Random Fields
 
 
 ****************************************
-6. Text Classification
+5. Text Classification
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
@@ -234,6 +218,21 @@ Run classify
     ['Kinh doanh']
     >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
     ['Vi tinh']
+
+****************************************
+6. Sentiment
+****************************************
+
+.. image:: https://img.shields.io/badge/F1-55.5%25-red.svg
+		:target: https://github.com/undertheseanlp/sentiment
+
+.. image:: https://img.shields.io/badge/%E2%98%85-experiments-blue.svg
+    :target: https://github.com/undertheseanlp/sentiment
+
+Vietnamese Sentiment using SVM
+
+* `Sentiment API <http://underthesea.readthedocs.io/en/latest/api.html#sentiment>`_
+* `Sentiment Experiments <https://github.com/magizbox/underthesea.classification>`_
 
 Up Coming Features
 ----------------------------------------
