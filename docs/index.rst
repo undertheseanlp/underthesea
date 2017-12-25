@@ -8,8 +8,6 @@ Vietnamese NLP Toolkit
    :caption: Notes
 
    readme
-   installation
-   contributing
    authors
    history
 
