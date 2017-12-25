@@ -4,14 +4,20 @@ Welcome to Under The Sea's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Notes
 
+   readme
    installation
-   usage
    contributing
-   api
+   authors
    history
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Package Reference
+
+   package_reference
 Indices and tables
 ==================
 
