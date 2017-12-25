@@ -15,7 +15,7 @@ def pos_tag(sentence, format=None):
 
     Returns
     =======
-    tokens: list of text
+    tokens: list of tuple with word, pos tag
         tagged sentence
     Examples
     --------

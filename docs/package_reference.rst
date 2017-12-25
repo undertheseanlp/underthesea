@@ -29,3 +29,12 @@ ner
 .. automodule:: underthesea.ner
 
 .. autofunction:: underthesea.ner.ner
+
+
+********
+classify
+********
+
+.. automodule:: underthesea.classify
+
+.. autofunction:: underthesea.classification.classify

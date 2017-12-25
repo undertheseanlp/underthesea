@@ -20,7 +20,7 @@ def chunk(sentence, format=None):
 
     Returns
     =======
-    tokens: list of text
+    tokens: 	list of tuple with word, pos tag, chunking tag
         tagged sentence
 
     Examples

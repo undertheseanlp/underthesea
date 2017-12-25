@@ -10,7 +10,7 @@ else:
 
 def ner(sentence, format=None):
     """
-    Vietnamese Named Entity Recognition
+    Location and classify named entities in text
 
     Parameters
     ==========
@@ -20,7 +20,7 @@ def ner(sentence, format=None):
 
     Returns
     =======
-    tokens: list of text
+    tokens: list of tuple with word, pos tag, chunking tag, ner tag
         tagged sentence
 
     Examples
