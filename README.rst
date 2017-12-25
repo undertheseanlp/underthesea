@@ -219,7 +219,7 @@ Usage
     ['Vi tinh']
 
 ****************************************
-6. Sentiment
+6. Sentiment Analysis
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-55.5%25-red.svg
