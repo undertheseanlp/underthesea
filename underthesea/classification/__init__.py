@@ -14,7 +14,7 @@ def classify(X, domain=None):
         raw sentence
     domain: {None, 'bank'}
         domain of text
-            * None: general domain,
+            * None: general domain
             * bank: bank domain
     Returns
     =======
@@ -29,6 +29,7 @@ def classify(X, domain=None):
     >>> sentence = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
     >>> classify(sentence)
     ['The thao']
+
     >>> sentence = "Tôi rất thích cách phục vụ của nhân viên BIDV"
     >>> classify(sentence, domain='bank')
     ('CUSTOMER SUPPORT',)
