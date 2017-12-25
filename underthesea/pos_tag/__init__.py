@@ -21,6 +21,7 @@ def pos_tag(sentence, format=None):
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import pos_tag
     >>> sentence = "Chợ thịt chó nổi tiếng ở TPHCM bị truy quét"
+    >>> pos_tag(sentence)
     [('Chợ', 'N'), ('thịt', 'N'), ('chó', 'N'), ('nổi tiếng', 'A'), ('ở', 'E'), ('TPHCM', 'Np'), ('bị', 'V'), ('truy quét', 'V')]
     """
     sentence = word_sent(sentence)
