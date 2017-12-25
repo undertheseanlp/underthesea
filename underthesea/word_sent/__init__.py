@@ -4,7 +4,7 @@ from .model_crf import CRFModel
 
 def word_sent(sentence, format=None):
     """
-    part of speech tagging
+    word segmentation
 
     :param unicode|str sentence: raw sentence
     :return: tagged sentence
