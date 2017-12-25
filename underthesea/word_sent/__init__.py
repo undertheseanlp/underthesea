@@ -5,7 +5,7 @@ from .model_crf import CRFModel
 
 def word_sent(sentence, format=None):
     """
-    word segmentation
+    Vietnamese word segmentation
 
     Parameters
     ==========
@@ -23,14 +23,13 @@ def word_sent(sentence, format=None):
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
-    >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
+    >>> sentence = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
 
     >>> word_sent(sentence)
-    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
-    u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    [u'Bác sĩ', u'bây giờ', u'có thể', u'thản nhiên', u'báo tin', u'bệnh nhân', u'bị', u'ung thư', '?']
 
     >>> word_sent(sentence, format="text")
-    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
+    u'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư ?'
     """
     sentence = tokenize(sentence).split()
     crf_model = CRFModel.Instance()
