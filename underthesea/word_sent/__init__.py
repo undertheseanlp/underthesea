@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from .regex_tokenize import tokenize
 from .model_crf import CRFModel
 
