@@ -294,7 +294,11 @@ autodoc_mock_imports = [
     "torch.optim",
     "torch.nn.functional",
     "torch.utils.data",
-    "xgboost"
+    "xgboost",
+    "readers",
+    "transformer.unicode",
+    "transformer.lowercase",
+    "fasttext"
 ]
 
 intersphinx_mapping = {
