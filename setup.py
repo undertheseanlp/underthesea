@@ -44,6 +44,7 @@ setup(
     install_requires=install_requires,
     license="GNU General Public License v3",
     zip_safe=False,
+
     keywords='underthesea',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
