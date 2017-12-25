@@ -23,13 +23,13 @@ def word_sent(sentence, format=None):
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_sent
-    >>> sentence = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
 
     >>> word_sent(sentence)
-    [u'Bác sĩ', u'bây giờ', u'có thể', u'thản nhiên', u'báo tin', u'bệnh nhân', u'bị', u'ung thư', '?']
+    ['Bác sĩ', 'bây giờ', 'có thể', 'thản nhiên', 'báo tin', 'bệnh nhân', 'bị', 'ung thư', '?']
 
     >>> word_sent(sentence, format="text")
-    u'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư ?'
+    'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư ?'
     """
     sentence = tokenize(sentence).split()
     crf_model = CRFModel.Instance()
