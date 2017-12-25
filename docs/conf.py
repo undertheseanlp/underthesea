@@ -284,8 +284,6 @@ autodoc_mock_imports = [
     "sklearn.metrics",
     "sklearn.base",
     "sklearn.multiclass",
-    "underthesea",
-    "underthesea.util.file_io",
     "pycrfsuite",
     "joblib",
     "http.server",
