@@ -5,16 +5,15 @@ from underthesea.sentiment import sentiment
 
 class TestSentiment(TestCase):
     def test_sentiment(self):
+        text = ""
+        actual = sentiment(text)
+        expected = None
+        self.assertEqual(actual, expected)
+
+    def test_sentiment_1(self):
         text = "Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ"
         actual = sentiment(text, domain="bank")
         expected = ('CUSTOMER SUPPORT#NEGATIVE',)
-        self.assertEqual(actual, expected)
-
-
-    def test_sentiment_1(self):
-        text = "mình cũng vui vì tiết kệm được thời gian"
-        actual = sentiment(text, domain="bank")
-        expected = ('PAYMENT#POSITIVE',)
         self.assertEqual(actual, expected)
 
     def test_sentiment_2(self):
@@ -39,4 +38,10 @@ class TestSentiment(TestCase):
         text = "Chương trình này của BIDV thật ý nghĩa"
         actual = sentiment(text, domain="bank")
         expected = ('PROMOTION#POSITIVE',)
+        self.assertEqual(actual, expected)
+
+    def test_sentiment_6(self):
+        text = "mình cũng vui vì tiết kệm được thời gian"
+        actual = sentiment(text, domain="bank")
+        expected = ('PAYMENT#POSITIVE',)
         self.assertEqual(actual, expected)
