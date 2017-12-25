@@ -21,3 +21,11 @@ chunking
 .. automodule:: underthesea.chunking
 
 .. autofunction:: underthesea.chunking.chunk
+
+********
+ner
+********
+
+.. automodule:: underthesea.ner
+
+.. autofunction:: underthesea.ner.ner
