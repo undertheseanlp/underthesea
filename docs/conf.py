@@ -38,8 +38,14 @@ sys.path.insert(0, project_root)
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
-
+extensions = [
+    'sphinx.ext.autodoc',
+    # 'sphinx.ext.linkcode',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.napoleon',
+    # 'sphinx_gallery.gen_gallery',
+    'sphinx.ext.viewcode'
+]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -271,3 +277,31 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+autodoc_mock_imports = [
+    "sklearn",
+    "sklearn.preprocessing",
+    "sklearn.model_selection",
+    "sklearn.metrics",
+    "sklearn.base",
+    "sklearn.multiclass",
+    "pycrfsuite",
+    "joblib",
+    "http.server",
+    "numpy",
+    "torch",
+    "torch.nn",
+    "torch.autograd",
+    "torch.optim",
+    "torch.nn.functional",
+    "torch.utils.data",
+    "xgboost",
+    "readers",
+    "transformer.unicode",
+    "transformer.lowercase",
+    "fasttext"
+]
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/', None),
+    'numpy': ('http://docs.scipy.org/doc/numpy/', None),
+}

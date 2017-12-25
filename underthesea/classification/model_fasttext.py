@@ -1,6 +1,4 @@
-import random
 from os.path import join, dirname
-
 import numpy as np
 from sklearn.base import ClassifierMixin, BaseEstimator
 import fasttext

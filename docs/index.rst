@@ -1,16 +1,21 @@
-Welcome to Under The Sea's documentation!
-======================================
+Underthesea documentation
+=========================
 
-Contents:
+Vietnamese NLP Toolkit
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :caption: Notes
 
-   installation
-   usage
-   contributing
-   api
+   readme
+   authors
    history
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Package Reference
+
+   package_reference
 
 Indices and tables
 ==================
