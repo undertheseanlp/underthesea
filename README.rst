@@ -69,7 +69,7 @@ Usage
         :target: https://github.com/magizbox/underthesea.word_sent
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
-        :target: https://github.com/magizbox/underthesea.word_sent
+        :target: https://github.com/undertheseanlp/word_sent
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/api.html#word-sent-package
@@ -97,7 +97,7 @@ Usage
         :target: https://github.com/magizbox/underthesea.pos_tag
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
-        :target: https://github.com/magizbox/underthesea.pos_tag
+        :target: https://github.com/undertheseanlp/pos_tag
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/api.html#pos-tag-package
@@ -127,7 +127,7 @@ Usage
 		:target: https://github.com/magizbox/underthesea.chunking
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
-		:target: https://github.com/magizbox/underthesea.chunking
+		:target: https://github.com/undertheseanlp/chunking
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/api.html#chunking-package
@@ -158,7 +158,7 @@ Usage
 		:target: https://github.com/magizbox/underthesea.ner
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
-		:target: https://github.com/magizbox/underthesea.ner
+		:target: https://github.com/undertheseanlp/ner
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/api.html#ner-package
@@ -191,10 +191,10 @@ Usage
     :target: https://github.com/magizbox/underthesea.classification
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
-    :target: https://github.com/magizbox/underthesea.classification
+    :target: https://github.com/undertheseanlp/classification
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#classification-package
+    :target: http://underthesea.readthedocs.io/en/latest/api.html#classify-package
 
 Install dependencies and download default model
 
@@ -229,7 +229,7 @@ Usage
     :target: https://github.com/undertheseanlp/sentiment
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: https://github.com/undertheseanlp/sentiment
+    :target: http://underthesea.readthedocs.io/en/latest/api.html#sentiment-package
 
 Install dependencies
 
