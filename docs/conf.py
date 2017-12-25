@@ -277,3 +277,29 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+autodoc_mock_imports = [
+    "sklearn",
+    "sklearn.preprocessing",
+    "sklearn.model_selection",
+    "sklearn.metrics",
+    "sklearn.base",
+    "sklearn.multiclass",
+    "underthesea",
+    "underthesea.util.file_io",
+    "pycrfsuite",
+    "joblib",
+    "http.server",
+    "numpy",
+    "torch",
+    "torch.nn",
+    "torch.autograd",
+    "torch.optim",
+    "torch.nn.functional",
+    "torch.utils.data",
+    "xgboost"
+]
+
+intersphinx_mapping = {
+    'python': ('https://docs.python.org/', None),
+    'numpy': ('http://docs.scipy.org/doc/numpy/', None),
+}
