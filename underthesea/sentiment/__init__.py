@@ -12,6 +12,7 @@ def sentiment(X, domain=None):
     X: {unicode, str}
         raw sentence
     domain: {None, 'bank'}
+
         None: general domain
         bank: bank domain
     Returns
