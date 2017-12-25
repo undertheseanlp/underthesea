@@ -1,7 +1,7 @@
-Welcome to Under The Sea's documentation!
-======================================
+Underthesea documentation
+=========================
 
-Contents:
+Vietnamese NLP Toolkit
 
 .. toctree::
    :maxdepth: 1

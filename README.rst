@@ -1,6 +1,6 @@
-========================================
-Under The Sea - Vietnamese NLP Toolkit
-========================================
+====================================
+Underthesea - Vietnamese NLP Toolkit
+====================================
 
 
 .. image:: https://img.shields.io/pypi/v/underthesea.svg
