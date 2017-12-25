@@ -29,7 +29,6 @@ def chunk(sentence, format=None):
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import chunk
     >>> sentence = "Nghi vấn 4 thi thể Triều Tiên trôi dạt bờ biển Nhật Bản"
-
     >>> chunk(sentence)
     [('Nghi vấn', 'N', 'B-NP'),
     ('4', 'M', 'B-NP'),
