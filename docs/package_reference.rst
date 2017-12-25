@@ -22,9 +22,9 @@ chunking
 
 .. autofunction:: underthesea.chunking.chunk
 
-********
+***
 ner
-********
+***
 
 .. automodule:: underthesea.ner
 
@@ -38,3 +38,11 @@ classify
 .. automodule:: underthesea.classify
 
 .. autofunction:: underthesea.classification.classify
+
+*********
+sentiment
+*********
+
+.. automodule:: underthesea.sentiment
+
+.. autofunction:: underthesea.sentiment.sentiment
