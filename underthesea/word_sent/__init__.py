@@ -6,9 +6,15 @@ def word_sent(sentence, format=None):
     """
     word segmentation
 
-    :param unicode|str sentence: raw sentence
-    :return: tagged sentence
-    :rtype: list
+    Parameters
+    ==========
+
+    sentence: raw sentence
+
+    Returns
+    =======
+    tokens: list of text
+        tagged sentence
     """
     sentence = tokenize(sentence).split()
     crf_model = CRFModel.Instance()
