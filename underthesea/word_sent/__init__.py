@@ -1,14 +1,35 @@
+# -*- coding: utf-8 -*-
 from .regex_tokenize import tokenize
 from .model_crf import CRFModel
 
 
 def word_sent(sentence, format=None):
     """
-    part of speech tagging
+    Vietnamese word segmentation
 
-    :param unicode|str sentence: raw sentence
-    :return: tagged sentence
-    :rtype: list
+    Parameters
+    ==========
+
+    sentence: {unicode, str}
+        raw sentence
+
+    Returns
+    =======
+    tokens: list of text
+        tagged sentence
+
+    Examples
+    --------
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import word_sent
+    >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư"
+
+    >>> word_sent(sentence)
+    ['Bác sĩ', 'bây giờ', 'có thể', 'thản nhiên', 'báo tin', 'bệnh nhân', 'bị', 'ung thư']
+
+    >>> word_sent(sentence, format="text")
+    'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
     """
     sentence = tokenize(sentence).split()
     crf_model = CRFModel.Instance()

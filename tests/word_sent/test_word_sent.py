@@ -14,10 +14,16 @@ class TestWord_sent(TestCase):
         expected = u""
         self.assertEqual(actual, expected)
 
-    def test_simple_cases_2(self):
+    def test_special_cases_2(self):
         sentence = u"="
         actual = word_sent(sentence)
         expected = ["="]
+        self.assertEqual(actual, expected)
+
+    def test_special_cases_3(self):
+        sentence = u"=))"
+        actual = word_sent(sentence)
+        expected = ["=))"]
         self.assertEqual(actual, expected)
 
     def test_decomposed_from(self):
