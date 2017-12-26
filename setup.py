@@ -25,7 +25,7 @@ setup_requires = [
 
 setup(
     name='underthesea',
-    version='1.1.6-beta-2',
+    version='1.1.6-rc',
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
