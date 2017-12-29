@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import io
-
 from setuptools import setup
 
 with io.open('README.rst', encoding="utf-8") as readme_file:
@@ -12,7 +11,8 @@ with open('HISTORY.rst') as history_file:
 
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.5'
+    'python-crfsuite==0.9.5',
+    'languageflow==1.1.6a4'
 ]
 
 tests_require = [
