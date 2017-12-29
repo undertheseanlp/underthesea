@@ -222,7 +222,7 @@ Usage
 6. Sentiment Analysis
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-55.5%25-red.svg
+.. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
 		:target: https://github.com/undertheseanlp/sentiment
 
 .. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
