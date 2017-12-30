@@ -45,7 +45,7 @@ To install underthesea, simply:
 
 .. code-block:: bash
 
-    $ pip install underthesea
+    $ pip install underthesea==1.1.6rc2
     ✨🍰✨
 
 Satisfaction, guaranteed.
@@ -72,7 +72,7 @@ Usage
         :target: https://github.com/undertheseanlp/word_sent
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#word-sent-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.word_sent
 
 Usage
 
@@ -100,7 +100,7 @@ Usage
         :target: https://github.com/undertheseanlp/pos_tag
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#pos-tag-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.pos_tag
 
 Usage
 
@@ -130,7 +130,7 @@ Usage
 		:target: https://github.com/undertheseanlp/chunking
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#chunking-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.chunking
 
 Usage
 
@@ -161,7 +161,7 @@ Usage
 		:target: https://github.com/undertheseanlp/ner
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#ner-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.ner
 
 Usage
 
@@ -194,7 +194,7 @@ Usage
     :target: https://github.com/undertheseanlp/classification
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#classify-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#classify
 
 Install dependencies and download default model
 
@@ -229,7 +229,7 @@ Usage
     :target: https://github.com/undertheseanlp/sentiment
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/api.html#sentiment-package
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.sentiment
 
 Install dependencies
 
