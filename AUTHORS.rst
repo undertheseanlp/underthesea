@@ -10,5 +10,6 @@ Development Lead
 Contributors
 ------------
 
+* Bui Nhat Anh <buinhatanh1208@gmail.com>
 * Doan Viet Dung <doanvietdung273@gmail.com>
 
