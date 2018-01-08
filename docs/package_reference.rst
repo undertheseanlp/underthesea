@@ -44,14 +44,10 @@ Make sure dependencies is installed and pretrained model is downloaded
     $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
-.. automodule:: underthesea.classification
-
 .. autofunction:: underthesea.classification.classify
 
 
 sentiment
 =========
-
-.. automodule:: underthesea.sentiment
 
 .. autofunction:: underthesea.sentiment.sentiment
