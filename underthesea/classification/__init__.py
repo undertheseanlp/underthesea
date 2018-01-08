@@ -7,15 +7,6 @@ def classify(X, domain=None):
     """
     Text classification
 
-    Make sure dependencies is installed and pretrained model is downloaded
-
-    .. code-block:: none
-
-        $ pip install Cython
-        $ pip install future scipy numpy scikit-learn
-        $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
-        $ underthesea data
-
     Parameters
     ==========
 
