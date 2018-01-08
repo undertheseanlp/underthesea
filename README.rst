@@ -72,7 +72,7 @@ Usage
         :target: https://github.com/undertheseanlp/word_sent
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.word_sent
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#word_sent
 
 Usage
 
@@ -100,7 +100,7 @@ Usage
         :target: https://github.com/undertheseanlp/pos_tag
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.pos_tag
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#pos_tag
 
 Usage
 
@@ -130,7 +130,7 @@ Usage
 		:target: https://github.com/undertheseanlp/chunking
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.chunking
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#chunking
 
 Usage
 
@@ -161,7 +161,7 @@ Usage
 		:target: https://github.com/undertheseanlp/ner
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.ner
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#ner
 
 Usage
 
@@ -229,7 +229,7 @@ Usage
     :target: https://github.com/undertheseanlp/sentiment
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#module-underthesea.sentiment
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#sentiment
 
 Install dependencies
 

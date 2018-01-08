@@ -2,15 +2,11 @@
 word_sent
 =========
 
-.. automodule:: underthesea.word_sent
-
 .. autofunction:: underthesea.word_sent.word_sent
 
 
 pos_tag
 =======
-
-.. automodule:: underthesea.pos_tag
 
 .. autofunction:: underthesea.pos_tag.pos_tag
 
@@ -18,26 +14,20 @@ pos_tag
 chunking
 ========
 
-.. automodule:: underthesea.chunking
-
 .. autofunction:: underthesea.chunking.chunk
-
 
 ner
 ===
 
-.. automodule:: underthesea.ner
-
 .. autofunction:: underthesea.ner.ner
-
 
 
 classify
 ========
 
-Make sure dependencies is installed and pretrained model is downloaded
+Install dependencies and download default model
 
-.. code-block:: none
+.. code-block:: bash
 
     $ pip install Cython
     $ pip install future scipy numpy scikit-learn
@@ -49,5 +39,11 @@ Make sure dependencies is installed and pretrained model is downloaded
 
 sentiment
 =========
+
+Install dependencies
+
+.. code-block:: bash
+
+    $ pip install future scipy numpy scikit-learn==0.19.0 joblib
 
 .. autofunction:: underthesea.sentiment.sentiment
