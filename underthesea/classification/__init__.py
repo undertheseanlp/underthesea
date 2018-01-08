@@ -7,6 +7,13 @@ def classify(X, domain=None):
     """
     Text classification
 
+    Install dependencies and download pretrained model
+
+        $ pip install Cython
+        $ pip install future scipy numpy scikit-learn
+        $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
+        $ underthesea data
+
     Parameters
     ==========
 
