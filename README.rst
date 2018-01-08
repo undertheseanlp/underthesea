@@ -71,7 +71,7 @@ Usage
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/word_sent
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#word_sent
 
 Usage
@@ -96,10 +96,10 @@ Usage
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
         :target: https://github.com/magizbox/underthesea.pos_tag
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/pos_tag
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#pos_tag
 
 Usage
@@ -126,10 +126,10 @@ Usage
 .. image:: https://img.shields.io/badge/F1-77%25-red.svg
 		:target: https://github.com/magizbox/underthesea.chunking
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/chunking
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#chunking
 
 Usage
@@ -157,10 +157,10 @@ Usage
 .. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
 		:target: https://github.com/magizbox/underthesea.ner
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/ner
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#ner
 
 Usage
@@ -190,10 +190,10 @@ Usage
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
     :target: https://github.com/magizbox/underthesea.classification
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#classify
 
 Install dependencies and download default model
@@ -225,10 +225,10 @@ Usage
 .. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
 		:target: https://github.com/undertheseanlp/sentiment
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/sentiment
 
-.. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
+.. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#sentiment
 
 Install dependencies
