@@ -9,7 +9,8 @@ def classify(X, domain=None):
 
     Install dependencies and download pretrained model
 
-    .. code-block::
+    .. code-block
+
         $ pip install Cython
         $ pip install future scipy numpy scikit-learn
         $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
