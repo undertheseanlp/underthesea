@@ -68,7 +68,7 @@ Usage
 .. image:: https://img.shields.io/badge/F1-94%25-red.svg
         :target: https://github.com/magizbox/underthesea.word_sent
 
-.. image:: https://img.shields.io/badge/%E2%98%85-custom%20models-blue.svg
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/word_sent
 
 .. image:: https://img.shields.io/badge/%E2%8C%AC-api-green.svg
