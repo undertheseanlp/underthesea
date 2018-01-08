@@ -1,26 +1,28 @@
+=========
 word_sent
 =========
 
 .. autofunction:: underthesea.word_sent.word_sent
 
-
+=======
 pos_tag
 =======
 
 .. autofunction:: underthesea.pos_tag.pos_tag
 
-
+========
 chunking
 ========
 
 .. autofunction:: underthesea.chunking.chunk
 
+===
 ner
 ===
 
 .. autofunction:: underthesea.ner.ner
 
-
+========
 classify
 ========
 
@@ -35,7 +37,7 @@ Install dependencies and download default model
 
 .. autofunction:: underthesea.classification.classify
 
-
+=========
 sentiment
 =========
 
