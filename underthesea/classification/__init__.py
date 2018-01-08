@@ -7,9 +7,9 @@ def classify(X, domain=None):
     """
     Text classification
 
-    Install dependencies and download pretrained model
+    Make sure dependencies is installed and pretrained model is downloaded
 
-    .. code-block
+    .. code-block:: none
 
         $ pip install Cython
         $ pip install future scipy numpy scikit-learn
