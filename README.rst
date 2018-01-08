@@ -100,7 +100,7 @@ Usage
         :target: https://github.com/undertheseanlp/pos_tag
 
 .. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#pos_tag
+    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#pos-tag
 
 Usage
 
