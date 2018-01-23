@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Vu Anh <brother.rain.1024@gmail.com>
+* Vu Anh <anhv.ict91@gmail.com>
 
 Contributors
 ------------
