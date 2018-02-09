@@ -28,6 +28,9 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
+`[English] <https://github.com/magizbox/underthesea/>`_ 
+`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_ 
+
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
