@@ -29,7 +29,7 @@ setup(
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
-    author_email='brother.rain.1024@gmail.com',
+    author_email='anhv.ict91@gmail.com',
     url='https://github.com/magizbox/underthesea',
     packages=[
         'underthesea',
