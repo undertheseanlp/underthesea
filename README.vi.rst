@@ -33,7 +33,7 @@ Underthesea - Công cụ xử lý ngôn ngữ tự nhiên tiếng Việt
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
-**underthesea** là tập hợp các dự án, nguồn dữ liệu mở và những hướng dẫn hỗ trợ việc nghiên cứu và phát triển xử lý ngôn ngữ tự nhiên tiếng Việt. 
+**underthesea** là tập hợp các dự án, nguồn dữ liệu mở, tài liệu hướng dẫn với mục đích hỗ trợ việc nghiên cứu và phát triển trong lĩnh vực xử lý ngôn ngữ tự nhiên tiếng Việt. 
 
 * Nguồn mở: GNU General Public License v3
 * Tài liệu: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
