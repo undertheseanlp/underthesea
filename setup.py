@@ -1,12 +1,18 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import io
+import os
 from setuptools import setup
+
+# Use the VERSION file to get version
+version_file = os.path.join(os.path.dirname(__file__), 'underthesea', 'VERSION')
+with open(version_file) as fh:
+    version = fh.read().strip()
 
 with io.open('README.rst', encoding="utf-8") as readme_file:
     readme = readme_file.read()
 
-with open('HISTORY.rst') as history_file:
+with io.open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 install_requires = [
@@ -20,12 +26,11 @@ tests_require = [
 ]
 
 setup_requires = [
-
 ]
 
 setup(
     name='underthesea',
-    version='1.1.7-alpha',
+    version=version,
     description="Vietnamese NLP Toolkit",
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
