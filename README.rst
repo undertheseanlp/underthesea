@@ -15,7 +15,7 @@ Underthesea - Vietnamese NLP Toolkit
 .. image:: https://img.shields.io/travis/magizbox/underthesea.svg
         :target: https://travis-ci.org/magizbox/underthesea
 
-.. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
+.. image:: https://readthedocs.org/projects/underthesea/badge/?version=latest
         :target: http://underthesea.readthedocs.io/en/latest/
         :alt: Documentation Status
 
@@ -28,8 +28,8 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
-`[English] <https://github.com/magizbox/underthesea/>`_ 
-`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_ 
+`[English] <https://github.com/magizbox/underthesea/>`_
+`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_
 
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
