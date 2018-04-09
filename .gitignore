@@ -69,3 +69,4 @@ target/
 *.correct
 .fuse_hidden*
 /underthesea/classification/fasttext.model
+*.swp

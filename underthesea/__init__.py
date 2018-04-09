@@ -2,8 +2,8 @@
 import os
 import sys
 
-__author__ = """Vu Anh"""
-__email__ = 'brother.rain.1024@gmail.com'
+__author_list__ = """Vu Anh, Truong Do"""
+__emails__ = 'brother.rain.1024@gmail.com, truongdo@vais.vn'
 
 ###########################################################
 # Metadata
@@ -29,6 +29,7 @@ if sys.version_info >= (3, 0):
     from underthesea.pos_tag import pos_tag
     from underthesea.chunking import chunk
     from underthesea.ner import ner
+    from underthesea.hts.hts import speak
     try:
         from underthesea.classification import classify
     except Exception as e:
@@ -42,6 +43,7 @@ else:
     from pos_tag import pos_tag
     from chunking import chunk
     from ner import ner
+    from hts.hts import speak
     try:
         from classification import classify
     except Exception as e:
