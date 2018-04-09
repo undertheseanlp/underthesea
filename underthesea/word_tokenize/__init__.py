@@ -3,7 +3,7 @@ from .regex_tokenize import tokenize
 from .model_crf import CRFModel
 
 
-def word_sent(sentence, format=None):
+def word_tokenize(sentence, format=None):
     """
     Vietnamese word segmentation
 
@@ -22,13 +22,13 @@ def word_sent(sentence, format=None):
     --------
 
     >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_sent
+    >>> from underthesea import word_tokenize
     >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư"
 
-    >>> word_sent(sentence)
+    >>> word_tokenize(sentence)
     ['Bác sĩ', 'bây giờ', 'có thể', 'thản nhiên', 'báo tin', 'bệnh nhân', 'bị', 'ung thư']
 
-    >>> word_sent(sentence, format="text")
+    >>> word_tokenize(sentence, format="text")
     'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
     """
     sentence = tokenize(sentence).split()

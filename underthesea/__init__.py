@@ -25,7 +25,7 @@ except IOError as ex:
 # TOP-LEVEL MODULES
 ###########################################################
 if sys.version_info >= (3, 0):
-    from underthesea.word_sent import word_sent
+    from underthesea.word_tokenize import word_tokenize
     from underthesea.pos_tag import pos_tag
     from underthesea.chunking import chunk
     from underthesea.ner import ner
@@ -38,7 +38,7 @@ if sys.version_info >= (3, 0):
     except Exception as e:
         pass
 else:
-    from word_sent import word_sent
+    from word_tokenize import word_tokenize
     from pos_tag import pos_tag
     from chunking import chunk
     from ner import ner

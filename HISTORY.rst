@@ -5,6 +5,7 @@ History
 1.1.7.alpha (2018-03-29)
 --------------------------------------------------------------------------------
 
+* Rename word_sent function to word_tokenize
 * Refactor version control in setup.py file and __init__.py file
 * Update documentation badge url
 
