@@ -27,13 +27,13 @@ Underthesea - Công cụ xử lý ngôn ngữ tự nhiên tiếng Việt
 
 |
 
-`[English] <https://github.com/magizbox/underthesea/>`_ 
-`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_ 
+`[English] <https://github.com/magizbox/underthesea/>`_
+`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_
 
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
-**underthesea** là tập hợp các dự án, nguồn dữ liệu mở, tài liệu hướng dẫn với mục đích hỗ trợ việc nghiên cứu và phát triển trong lĩnh vực xử lý ngôn ngữ tự nhiên tiếng Việt. 
+**underthesea** là tập hợp các dự án, nguồn dữ liệu mở, tài liệu hướng dẫn với mục đích hỗ trợ việc nghiên cứu và phát triển trong lĩnh vực xử lý ngôn ngữ tự nhiên tiếng Việt.
 
 * Nguồn mở: GNU General Public License v3
 * Tài liệu: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
@@ -80,14 +80,14 @@ Sử dụng
 .. code-block:: python
 
     >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_sent
+    >>> from underthesea import word_tokenize
     >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
 
-    >>> word_sent(sentence)
+    >>> word_tokenize(sentence)
     [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
     u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
 
-    >>> word_sent(sentence, format="text")
+    >>> word_tokenize(sentence, format="text")
     u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 ****************************************
@@ -197,7 +197,7 @@ Sử dụng
 .. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#classify
 
-Cài đặt các gói liên quan và tải mô hình 
+Cài đặt các gói liên quan và tải mô hình
 
 .. code-block:: bash
 
@@ -238,7 +238,7 @@ Cài đặt các gói liên quan
 
     $ pip install future scipy numpy scikit-learn==0.19.0 joblib
 
-Sử dụng 
+Sử dụng
 
 
 .. code-block:: python
@@ -256,7 +256,7 @@ Các tính năng sắp tới
 * Tổng hợp tiếng nói
 * Nhận dạng tiếng nói
 * Dịch máy
-* Phân tích cú pháp phụ thuộc 
+* Phân tích cú pháp phụ thuộc
 
 Đóng góp
 ----------------------------------------

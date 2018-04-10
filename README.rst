@@ -69,10 +69,10 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-94%25-red.svg
-        :target: https://github.com/magizbox/underthesea.word_sent
+        :target: https://github.com/undertheseanlp/word_tokenize
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
-        :target: https://github.com/undertheseanlp/word_sent
+        :target: https://github.com/undertheseanlp/word_tokenize
 
 .. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#word_sent
@@ -82,14 +82,14 @@ Usage
 .. code-block:: python
 
     >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_sent
+    >>> from underthesea import word_tokenize
     >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
 
-    >>> word_sent(sentence)
+    >>> word_tokenize(sentence)
     [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
     u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
 
-    >>> word_sent(sentence, format="text")
+    >>> word_tokenize(sentence, format="text")
     u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
 
 ****************************************
@@ -97,7 +97,7 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
-        :target: https://github.com/magizbox/underthesea.pos_tag
+        :target: https://github.com/undertheseanlp/pos_tag
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/pos_tag
@@ -127,7 +127,7 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-77%25-red.svg
-		:target: https://github.com/magizbox/underthesea.chunking
+		:target: https://github.com/undertheseanlp/chunking
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/chunking
@@ -158,7 +158,7 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
-		:target: https://github.com/magizbox/underthesea.ner
+		:target: https://github.com/undertheseanlp/ner
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/ner
@@ -191,7 +191,7 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
-    :target: https://github.com/magizbox/underthesea.classification
+    :target: https://github.com/undertheseanlp/classification
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification

@@ -3,7 +3,7 @@ from unittest import TestCase
 from underthesea import word_tokenize
 
 
-class TestWord_sent(TestCase):
+class TestWordTokenize(TestCase):
     def test_simple_cases(self):
         sentence = u""
         actual = word_tokenize(sentence)
