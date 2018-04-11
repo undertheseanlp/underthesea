@@ -48,7 +48,7 @@ To install underthesea, simply:
 
 .. code-block:: bash
 
-    $ pip install underthesea==1.1.6
+    $ pip install underthesea==1.1.7a2
     ✨🍰✨
 
 Satisfaction, guaranteed.

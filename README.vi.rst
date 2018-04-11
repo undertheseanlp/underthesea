@@ -47,7 +47,7 @@ Việc cài đặt underthesea được thực hiện thông qua pip
 
 .. code-block:: bash
 
-    $ pip install underthesea==1.1.6
+    $ pip install underthesea==1.1.7a2
     ✨🍰✨
 
 
