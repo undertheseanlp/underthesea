@@ -199,7 +199,7 @@ Cài đặt các gói liên quan và tải mô hình
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install future scipy numpy scikit-learn
+    $ pip install joblib future scipy numpy scikit-learn
     $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
