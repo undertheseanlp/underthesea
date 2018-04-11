@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-from underthesea.word_sent.regex_tokenize import tokenize
+from underthesea.word_tokenize.regex_tokenize import tokenize
 
 
 class TestWord_sent(TestCase):

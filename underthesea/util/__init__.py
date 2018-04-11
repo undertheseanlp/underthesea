@@ -27,7 +27,7 @@ def download_component(component_name):
                 print("Start download component '{}'".format(component["name"]))
                 print(file_name)
                 download_file(component["url"], file_name)
-                print("Finish download compoent '{}'".format(component["name"]))
+                print("Finish download component '{}'".format(component["name"]))
         except Exception as e:
             print(e)
             print("Cannot download component '{}'".format(component["name"]))

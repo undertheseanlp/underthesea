@@ -1,13 +1,31 @@
 # -*- coding: utf-8 -*-
+import os
+import sys
 
 __author__ = """Vu Anh"""
 __email__ = 'brother.rain.1024@gmail.com'
-__version__ = '1.1.5'
 
-import sys
+###########################################################
+# Metadata
+###########################################################
 
+# Version
+try:
+    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
+    with open(version_file, 'r') as infile:
+        __version__ = infile.read().strip()
+except NameError:
+    __version__ = 'unknown (running code interactively?)'
+except IOError as ex:
+    __version__ = "unknown (%s)" % ex
+
+
+
+###########################################################
+# TOP-LEVEL MODULES
+###########################################################
 if sys.version_info >= (3, 0):
-    from underthesea.word_sent import word_sent
+    from underthesea.word_tokenize import word_tokenize
     from underthesea.pos_tag import pos_tag
     from underthesea.chunking import chunk
     from underthesea.ner import ner
@@ -20,7 +38,7 @@ if sys.version_info >= (3, 0):
     except Exception as e:
         pass
 else:
-    from word_sent import word_sent
+    from word_tokenize import word_tokenize
     from pos_tag import pos_tag
     from chunking import chunk
     from ner import ner
@@ -33,13 +51,3 @@ else:
         from sentiment import sentiment
     except Exception as e:
         pass
-
-
-def info(version):
-    """Show information about underthesea package
-
-    :param str version: version of package
-    :type version: str
-    """
-    print(version)
-    print("underthesea is a Vietnamese NLP Toolkit")

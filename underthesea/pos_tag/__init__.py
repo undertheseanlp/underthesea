@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from underthesea import word_sent
+from underthesea import word_tokenize
 from .model_crf import CRFPOSTagPredictor
 
 
@@ -32,7 +32,7 @@ def pos_tag(sentence, format=None):
     ('bị', 'V'),
     ('truy quét', 'V')]
     """
-    sentence = word_sent(sentence)
+    sentence = word_tokenize(sentence)
     crf_model = CRFPOSTagPredictor.Instance()
     result = crf_model.predict(sentence, format)
     return result

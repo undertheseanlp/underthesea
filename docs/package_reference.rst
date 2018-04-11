@@ -1,8 +1,8 @@
-=========
-word_sent
-=========
+=============
+word_tokenize
+=============
 
-.. autofunction:: underthesea.word_sent.word_sent
+.. autofunction:: underthesea.word_tokenize.word_tokenize
 
 =======
 pos_tag
