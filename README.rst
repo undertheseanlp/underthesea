@@ -83,14 +83,13 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_tokenize
-    >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
+    >>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
 
     >>> word_tokenize(sentence)
-    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
-    u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    ['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
 
     >>> word_tokenize(sentence, format="text")
-    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
+    'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
 
 ****************************************
 2. POS Tagging
@@ -111,16 +110,15 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import pos_tag
-    >>> text = u"Chợ thịt chó nổi tiếng ở TP Hồ Chí Minh bị truy quét"
-    >>> pos_tag(text)
-    [(u'Chợ', 'N'),
-     (u'thịt', 'N'),
-     (u'chó', 'N'),
-     (u'nổi tiếng', 'A'),
-     (u'ở', 'E'),
-     (u'TP HCM', 'Np'),
-     (u'bị', 'V'),
-     (u'truy quét', 'V')]
+    >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
+    [('Chợ', 'N'),
+     ('thịt', 'N'),
+     ('chó', 'N'),
+     ('nổi tiếng', 'A'),
+     ('ở', 'E'),
+     ('Sài Gòn', 'Np'),
+     ('bị', 'V'),
+     ('truy quét', 'V')]
 
 ****************************************
 3. Chunking
@@ -141,17 +139,17 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import chunk
-    >>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
     >>> chunk(text)
-    [(u'Bác sĩ', 'N', 'B-NP'),
-     (u'bây giờ', 'P', 'I-NP'),
-     (u'có thể', 'R', 'B-VP'),
-     (u'thản nhiên', 'V', 'I-VP'),
-     (u'báo tin', 'N', 'B-NP'),
-     (u'bệnh nhân', 'N', 'I-NP'),
-     (u'bị', 'V', 'B-VP'),
-     (u'ung thư', 'N', 'I-VP'),
-     (u'?', 'CH', 'O')]
+    [('Bác sĩ', 'N', 'B-NP'),
+     ('bây giờ', 'P', 'I-NP'),
+     ('có thể', 'R', 'B-VP'),
+     ('thản nhiên', 'V', 'I-VP'),
+     ('báo tin', 'N', 'B-NP'),
+     ('bệnh nhân', 'N', 'I-NP'),
+     ('bị', 'V', 'B-VP'),
+     ('ung thư', 'N', 'I-VP'),
+     ('?', 'CH', 'O')]
 
 ****************************************
 4. Named Entity Recognition
@@ -172,7 +170,7 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import ner
-    >>> text = u"Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump"
+    >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
     >>> ner(text)
     [('Chưa', 'R', 'O', 'O'),
      ('tiết lộ', 'V', 'B-VP', 'O'),
@@ -184,7 +182,6 @@ Usage
      ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
      ('Donald', 'Np', 'B-NP', 'B-PER'),
      ('Trump', 'Np', 'B-NP', 'I-PER')]
-
 
 ****************************************
 5. Text Classification
@@ -204,7 +201,7 @@ Install dependencies and download default model
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install future scipy numpy scikit-learn
+    $ pip install joblib future scipy numpy scikit-learn
     $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
@@ -214,11 +211,11 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import classify
-    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
     ['The thao']
-    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
     ['Kinh doanh']
-    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    >>> classify('Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750')
     ['Vi tinh']
 
 ****************************************
@@ -247,9 +244,9 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
-    >>> sentiment("Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ")
+    >>> sentiment('Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ', domain='bank')
     ('CUSTOMER SUPPORT#NEGATIVE',)
-    >>> sentiment("bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang")
+    >>> sentiment('bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang', domain='bank')
     ('LOAN#NEGATIVE',)
 
 Up Coming Features
