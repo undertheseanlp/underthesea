@@ -34,6 +34,6 @@ class CustomTransformer(TaggedTransformer):
         return features
 
     def sentence2features(self, s):
-        output = [self._word2features(s, i, self.template) for i in
+        output = [self._word2features(s, i, self.template_function) for i in
                   range(len(s))]
         return output
