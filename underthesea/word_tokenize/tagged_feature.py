@@ -67,14 +67,13 @@ def apply_function(name, word):
     return functions[name](word)
 
 
-def template2features(sent, i, token_function, debug=True):
+def template2features(sent, i, column, index1, index2, func, token_syntax, debug=True):
     """
     :type token: object
     """
     columns = []
     for j in range(len(sent[0])):
         columns.append([t[j] for t in sent])
-    column, index1, index2, func, token_syntax = token_function
     if debug:
         prefix = "%s=" % token_syntax
     else:
@@ -99,5 +98,6 @@ def template2features(sent, i, token_function, debug=True):
 def word2features(sent, i, template_function):
     features = []
     for token_function in template_function:
-        features.extend(template2features(sent, i, token_function))
+        column, index1, index2, func, token_syntax = token_function
+        features.extend(template2features(sent, i, column, index1, index2, func, token_syntax))
     return features
