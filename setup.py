@@ -18,9 +18,8 @@ with io.open('HISTORY.rst') as history_file:
 install_requires = [
     'Click>=6.0',
     'python-crfsuite==0.9.5',
-    'languageflow==1.1.6rc2',
+    'languageflow==1.1.7a3',
     'htsengine==0.2.4'
-
 ]
 
 tests_require = [
@@ -51,7 +50,6 @@ setup(
     install_requires=install_requires,
     license="GNU General Public License v3",
     zip_safe=False,
-
     keywords='underthesea',
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',

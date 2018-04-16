@@ -11,8 +11,6 @@ class CRFModel:
         self.model = pycrfsuite.Tagger()
         filepath = join(dirname(__file__), "model_9.bin")
         self.model.open(filepath)
-
-    def predict(self, sentence, format=None):
         template = [
             "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower",
             "T[2].lower",
@@ -37,8 +35,11 @@ class CRFModel:
             # BI tag
             "T[-2][1]", "T[-1][1]"
         ]
-        transformer = CustomTransformer(template)
+        self.transformer = CustomTransformer(template)
+
+    def predict(self, sentence, format=None):
+
         tokens = [(token, "X") for token in sentence]
-        x = transformer.transform([tokens])[0][0]
+        x = self.transformer.transform([tokens])[0][0]
         tags = self.model.tag(x)
         return list(zip(sentence, tags))

@@ -14,7 +14,7 @@ Underthesea - Công cụ xử lý ngôn ngữ tự nhiên tiếng Việt
 .. image:: https://img.shields.io/travis/magizbox/underthesea.svg
         :target: https://travis-ci.org/magizbox/underthesea
 
-.. image:: https://readthedocs.com/projects/magizbox-underthesea/badge/?version=latest
+.. image:: https://readthedocs.org/projects/underthesea/badge/?version=latest
         :target: http://underthesea.readthedocs.io/en/latest/
         :alt: Documentation Status
 
@@ -27,13 +27,13 @@ Underthesea - Công cụ xử lý ngôn ngữ tự nhiên tiếng Việt
 
 |
 
-`[English] <https://github.com/magizbox/underthesea/>`_ 
-`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_ 
+`[English] <https://github.com/magizbox/underthesea/>`_
+`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_
 
 .. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
 
-**underthesea** là tập hợp các dự án, nguồn dữ liệu mở, tài liệu hướng dẫn với mục đích hỗ trợ việc nghiên cứu và phát triển trong lĩnh vực xử lý ngôn ngữ tự nhiên tiếng Việt. 
+**underthesea** là tập hợp các dự án, nguồn dữ liệu mở, tài liệu hướng dẫn với mục đích hỗ trợ việc nghiên cứu và phát triển trong lĩnh vực xử lý ngôn ngữ tự nhiên tiếng Việt.
 
 * Nguồn mở: GNU General Public License v3
 * Tài liệu: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
@@ -47,7 +47,7 @@ Việc cài đặt underthesea được thực hiện thông qua pip
 
 .. code-block:: bash
 
-    $ pip install underthesea==1.1.6
+    $ pip install underthesea==1.1.7a2
     ✨🍰✨
 
 
@@ -80,15 +80,14 @@ Sử dụng
 .. code-block:: python
 
     >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_sent
-    >>> sentence = u"Chúng ta thường nói đến Rau sạch, Rau an toàn để phân biệt với các rau bình thường bán ngoài chợ."
+    >>> from underthesea import word_tokenize
+    >>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
 
-    >>> word_sent(sentence)
-    [u"Chúng ta", u"thường", u"nói", u"đến", u"Rau sạch", u",", u"Rau", u"an toàn", u"để", u"phân biệt", u"với",
-    u"các", u"rau", u"bình thường", u"bán", u"ngoài", u"chợ", u"."]
+    >>> word_tokenize(sentence)
+    ['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
 
-    >>> word_sent(sentence, format="text")
-    u'Chúng_ta thường nói đến Rau_sạch , Rau an_toàn để phân_biệt với các rau bình_thường bán ngoài chợ .'
+    >>> word_tokenize(sentence, format="text")
+    'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
 
 ****************************************
 2. Gán nhãn từ loại
@@ -109,16 +108,15 @@ Sử dụng
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import pos_tag
-    >>> text = u"Chợ thịt chó nổi tiếng ở TP Hồ Chí Minh bị truy quét"
-    >>> pos_tag(text)
-    [(u'Chợ', 'N'),
-     (u'thịt', 'N'),
-     (u'chó', 'N'),
-     (u'nổi tiếng', 'A'),
-     (u'ở', 'E'),
-     (u'TP HCM', 'Np'),
-     (u'bị', 'V'),
-     (u'truy quét', 'V')]
+    >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
+    [('Chợ', 'N'),
+     ('thịt', 'N'),
+     ('chó', 'N'),
+     ('nổi tiếng', 'A'),
+     ('ở', 'E'),
+     ('Sài Gòn', 'Np'),
+     ('bị', 'V'),
+     ('truy quét', 'V')]
 
 ****************************************
 3. Xác định cụm từ
@@ -139,17 +137,17 @@ Sử dụng
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import chunk
-    >>> text = u"Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?"
+    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
     >>> chunk(text)
-    [(u'Bác sĩ', 'N', 'B-NP'),
-     (u'bây giờ', 'P', 'I-NP'),
-     (u'có thể', 'R', 'B-VP'),
-     (u'thản nhiên', 'V', 'I-VP'),
-     (u'báo tin', 'N', 'B-NP'),
-     (u'bệnh nhân', 'N', 'I-NP'),
-     (u'bị', 'V', 'B-VP'),
-     (u'ung thư', 'N', 'I-VP'),
-     (u'?', 'CH', 'O')]
+    [('Bác sĩ', 'N', 'B-NP'),
+     ('bây giờ', 'P', 'I-NP'),
+     ('có thể', 'R', 'B-VP'),
+     ('thản nhiên', 'V', 'I-VP'),
+     ('báo tin', 'N', 'B-NP'),
+     ('bệnh nhân', 'N', 'I-NP'),
+     ('bị', 'V', 'B-VP'),
+     ('ung thư', 'N', 'I-VP'),
+     ('?', 'CH', 'O')]
 
 ****************************************
 4. Nhận diện thực thể có tên
@@ -170,7 +168,7 @@ Sử dụng
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import ner
-    >>> text = u"Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump"
+    >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
     >>> ner(text)
     [('Chưa', 'R', 'O', 'O'),
      ('tiết lộ', 'V', 'B-VP', 'O'),
@@ -182,7 +180,6 @@ Sử dụng
      ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
      ('Donald', 'Np', 'B-NP', 'B-PER'),
      ('Trump', 'Np', 'B-NP', 'I-PER')]
-
 
 ****************************************
 5. Phân loại văn bản
@@ -197,12 +194,12 @@ Sử dụng
 .. image:: https://img.shields.io/badge/★-api-green.svg
     :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#classify
 
-Cài đặt các gói liên quan và tải mô hình 
+Cài đặt các gói liên quan và tải mô hình
 
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install future scipy numpy scikit-learn
+    $ pip install joblib future scipy numpy scikit-learn
     $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
@@ -212,11 +209,11 @@ Sử dụng
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import classify
-    >>> classify("HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu")
+    >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
     ['The thao']
-    >>> classify("Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế")
+    >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
     ['Kinh doanh']
-    >>> classify("Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750")
+    >>> classify('Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750')
     ['Vi tinh']
 
 ****************************************
@@ -238,16 +235,16 @@ Cài đặt các gói liên quan
 
     $ pip install future scipy numpy scikit-learn==0.19.0 joblib
 
-Sử dụng 
+Sử dụng
 
 
 .. code-block:: python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
-    >>> sentiment("Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ")
+    >>> sentiment('Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ', domain='bank')
     ('CUSTOMER SUPPORT#NEGATIVE',)
-    >>> sentiment("bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang")
+    >>> sentiment('bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang', domain='bank')
     ('LOAN#NEGATIVE',)
 
 Các tính năng sắp tới
@@ -256,7 +253,7 @@ Các tính năng sắp tới
 * Tổng hợp tiếng nói
 * Nhận dạng tiếng nói
 * Dịch máy
-* Phân tích cú pháp phụ thuộc 
+* Phân tích cú pháp phụ thuộc
 
 Đóng góp
 ----------------------------------------

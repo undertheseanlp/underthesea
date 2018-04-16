@@ -19,7 +19,6 @@
 # sentence E
 
 
-import re
 from underthesea.corpus import DictionaryLoader
 words = DictionaryLoader("Viet74K.txt").words
 lower_words = set([word.lower() for word in words])
@@ -68,22 +67,13 @@ def apply_function(name, word):
     return functions[name](word)
 
 
-def template2features(sent, i, token_syntax, debug=True):
+def template2features(sent, i, column, index1, index2, func, token_syntax, debug=True):
     """
     :type token: object
     """
     columns = []
     for j in range(len(sent[0])):
         columns.append([t[j] for t in sent])
-    matched = re.match(
-        "T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?",
-        token_syntax)
-    column = matched.group("column")
-    column = int(column) if column else 0
-    index1 = int(matched.group("index1"))
-    index2 = matched.group("index2")
-    index2 = int(index2) if index2 else None
-    func = matched.group("function")
     if debug:
         prefix = "%s=" % token_syntax
     else:
@@ -105,8 +95,9 @@ def template2features(sent, i, token_syntax, debug=True):
     return ["%s%s" % (prefix, result)]
 
 
-def word2features(sent, i, template):
+def word2features(sent, i, template_function):
     features = []
-    for token_syntax in template:
-        features.extend(template2features(sent, i, token_syntax))
+    for token_function in template_function:
+        column, index1, index2, func, token_syntax = token_function
+        features.extend(template2features(sent, i, column, index1, index2, func, token_syntax))
     return features
