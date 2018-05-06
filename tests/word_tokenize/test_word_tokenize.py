@@ -53,8 +53,8 @@ class TestWordTokenize(TestCase):
             raise (e)
 
     def test_url_1(self):
-        text = "https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia sẻ bài viết của một bác nói về thực trạng của bộ giáo dục bây giờ! mọi người vào đọc và chia sẻ để Phạm Vũ Luận BIẾT!"
+        text = u"https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia sẻ bài viết của một bác nói về thực trạng của bộ giáo dục bây giờ! mọi người vào đọc và chia sẻ để Phạm Vũ Luận BIẾT!"
         actual = word_tokenize(text, format='text')
-        expected = "https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia_sẻ bài viết của một bác nói về thực_trạng của bộ giáo_dục bây_giờ ! mọi người vào đọc và chia_sẻ để Phạm Vũ Luận BIẾT !"
+        expected = u"https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia_sẻ bài viết của một bác nói về thực_trạng của bộ giáo_dục bây_giờ ! mọi người vào đọc và chia_sẻ để Phạm Vũ Luận BIẾT !"
         self.assertEqual(actual, expected)
 
