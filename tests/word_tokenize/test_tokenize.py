@@ -65,3 +65,14 @@ class TestWord_sent(TestCase):
         expected = u"UBND. HĐND. TP."
         self.assertEqual(actual, expected)
 
+    def test_urls(self):
+        urls = [
+            u"google.com",
+            u"https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1"
+        ]
+        for url in urls:
+            actual = tokenize(url)
+            expected = url
+            self.assertEqual(actual, expected)
+
+

@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 from underthesea import word_tokenize
+import signal
+
+
+def timeout_handler(signum, frame):
+    raise Exception("Timeout Exception")
 
 
 class TestWordTokenize(TestCase):
@@ -37,10 +42,8 @@ class TestWordTokenize(TestCase):
         word_tokenize(text)
 
     def test_word_tokenize_2(self):
-        import signal
-        def timeout_handler(signum, frame):
-            raise Exception("Timeout Exception")
-
+        """ Case with special character tab
+        """
         signal.signal(signal.SIGALRM, timeout_handler)
         signal.alarm(1)
         try:
@@ -48,3 +51,10 @@ class TestWordTokenize(TestCase):
             tokens = word_tokenize(text)
         except Exception as e:
             raise (e)
+
+    def test_url_1(self):
+        text = "https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia sẻ bài viết của một bác nói về thực trạng của bộ giáo dục bây giờ! mọi người vào đọc và chia sẻ để Phạm Vũ Luận BIẾT!"
+        actual = word_tokenize(text, format='text')
+        expected = "https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia_sẻ bài viết của một bác nói về thực_trạng của bộ giáo_dục bây_giờ ! mọi người vào đọc và chia_sẻ để Phạm Vũ Luận BIẾT !"
+        self.assertEqual(actual, expected)
+

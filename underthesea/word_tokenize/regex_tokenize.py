@@ -4,15 +4,15 @@ import sys
 
 from underthesea.feature_engineering.text import Text
 
-specials = ["==>", "->", "\.\.\.", ">>", "=\)\)"]
-digit = "\d+([\.,_]\d+)+"
-email = "[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
+specials = [r"==>", r"->", r"\.\.\.", r">>", r"=\)\)"]
+digit = r"\d+([\.,_]\d+)+"
+email = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 
 # urls pattern from nltk
 # https://www.nltk.org/_modules/nltk/tokenize/casual.html
 urls = r"""             # Capture 1: entire matched URL
   (?:
-  https?                # URL protocol and colon
+  https?:               # URL protocol and colon
     (?:
       /{1,3}            # 1-3 slashes
       |                 #   or
@@ -53,16 +53,16 @@ urls = r"""             # Capture 1: entire matched URL
   )
 """
 datetime = [
-    "\d{1,2}\/\d{1,2}(\/\d+)?",
-    "\d{1,2}-\d{1,2}(-\d+)?",
+    r"\d{1,2}\/\d{1,2}(\/\d+)?",
+    r"\d{1,2}-\d{1,2}(-\d+)?",
 ]
-word = "\w+"
-non_word = "[^\w\s]"
+word = r"\w+"
+non_word = r"[^\w\s]"
 abbreviations = [
-    "[A-ZĐ]+\.",
-    "Tp\.",
-    "Mr\.", "Mrs\.", "Ms\.",
-    "Dr\.", "ThS\."
+    r"[A-ZĐ]+\.",
+    r"Tp\.",
+    r"Mr\.", "Mrs\.", "Ms\.",
+    r"Dr\.", "ThS\."
 ]
 patterns = []
 patterns.extend(abbreviations)
@@ -70,12 +70,14 @@ patterns.extend(specials)
 patterns.extend([urls])
 patterns.extend([email])
 patterns.extend(datetime)
-patterns.extend([digit, non_word, word])
-patterns.extend([digit, word])
+patterns.extend([digit])
+patterns.extend([non_word])
+patterns.extend([word])
 
 patterns = "(" + "|".join(patterns) + ")"
 if sys.version_info < (3, 0):
     patterns = patterns.decode('utf-8')
+patterns = re.compile(patterns, re.VERBOSE | re.UNICODE)
 
 
 def tokenize(text):
@@ -87,5 +89,5 @@ def tokenize(text):
     """
     text = Text(text)
     text = text.replace("\t", " ")
-    tokens = re.findall(patterns, text, re.UNICODE)
-    return u" ".join(["%s" % token[0] for token in tokens])
+    tokens = re.findall(patterns, text)
+    return u" ".join([token[0] for token in tokens])
