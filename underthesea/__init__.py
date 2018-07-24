@@ -24,30 +24,15 @@ except IOError as ex:
 ###########################################################
 # TOP-LEVEL MODULES
 ###########################################################
-if sys.version_info >= (3, 0):
-    from underthesea.word_tokenize import word_tokenize
-    from underthesea.pos_tag import pos_tag
-    from underthesea.chunking import chunk
-    from underthesea.ner import ner
-    try:
-        from underthesea.classification import classify
-    except Exception as e:
-        pass
-    try:
-        from underthesea.sentiment import sentiment
-    except Exception as e:
-        pass
-else:
-    from word_tokenize import word_tokenize
-    from pos_tag import pos_tag
-    from chunking import chunk
-    from ner import ner
-    try:
-        from classification import classify
-    except Exception as e:
-        pass
-
-    try:
-        from sentiment import sentiment
-    except Exception as e:
-        pass
+from underthesea.word_tokenize import word_tokenize
+from underthesea.pos_tag import pos_tag
+from underthesea.chunking import chunk
+from underthesea.ner import ner
+try:
+    from underthesea.classification import classify
+except Exception as e:
+    pass
+try:
+    from underthesea.sentiment import sentiment
+except Exception as e:
+    pass
