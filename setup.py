@@ -18,7 +18,7 @@ with io.open('HISTORY.rst') as history_file:
 install_requires = [
     'Click>=6.0',
     'python-crfsuite==0.9.5',
-    'languageflow==1.1.7a3'
+    'languageflow==1.1.8a1'
 ]
 
 tests_require = [
@@ -55,8 +55,8 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Natural Language :: English',
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
     test_suite='tests',
     tests_require=tests_require,
