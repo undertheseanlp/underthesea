@@ -12,4 +12,4 @@ class TestPostag(TestCase):
 
     def test_accuracy(self):
         output = pos_tag(u"Tổng Bí thư: Ai trót để tay nhúng chàm thì hãy sớm tự gột rửa")
-        self.assertEqual(len(output), 14)
+        self.assertEqual(len(output), 13)

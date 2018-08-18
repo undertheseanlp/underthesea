@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from .regex_tokenize import tokenize
-from .model_crf import CRFModel
+from .model import CRFModel
 
 
 def word_tokenize(sentence, format=None):
@@ -32,13 +32,13 @@ def word_tokenize(sentence, format=None):
     'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
     """
     sentence = tokenize(sentence).split()
-    crf_model = CRFModel.Instance()
+    crf_model = CRFModel.instance()
     output = crf_model.predict(sentence, format)
     tokens = [token[0] for token in output]
     tags = [token[1] for token in output]
     output = []
     for tag, token in zip(tags, tokens):
-        if tag == "IW":
+        if tag == "I-W":
             output[-1] = output[-1] + u" " + token
         else:
             output.append(token)
