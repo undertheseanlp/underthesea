@@ -39,6 +39,7 @@ Underthesea - Công cụ xử lý ngôn ngữ tự nhiên tiếng Việt
 * Tài liệu: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Demo: `underthesea app <http://magizbox.com:9386/#/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
+* Youtube: `Kênh Underthesea NLP <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_
 
 Cài đặt
 ----------------------------------------
