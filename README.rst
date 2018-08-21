@@ -40,6 +40,7 @@ Underthesea - Vietnamese NLP Toolkit
 * Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Live demo: `underthesea app <http://magizbox.com:9386/#/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
+* Youtube: `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_
 
 Installation
 ----------------------------------------
