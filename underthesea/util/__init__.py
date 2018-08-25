@@ -27,7 +27,7 @@ def download_component(component_name):
         except Exception as e:
             print(e)
             print("Cannot download component '{}'".format(component["name"]))
-    except:
+    except Exception:
         message = "Error: Component with name '{}' does not exist.".format(
             component_name)
         print(message)

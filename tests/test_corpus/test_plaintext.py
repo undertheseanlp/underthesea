@@ -44,5 +44,5 @@ class TestPlainTextCorpus(TestCase):
         self.assertEqual(4, len(files))
         try:
             shutil.rmtree(self.saved_plaintext_folder)
-        except:
+        except Exception:
             pass

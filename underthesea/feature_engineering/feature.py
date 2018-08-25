@@ -53,7 +53,7 @@ def text_istitle(word):
             if token[0].istitle() is False:
                 return False
         return True
-    except:
+    except Exception:
         return False
 
 
