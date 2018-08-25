@@ -1,12 +1,7 @@
 # -*- coding: utf-8 -*-
 import click
-
-try:
-    from underthesea.util import download_component
-    from underthesea.util.data import download_default_components
-except:
-    from util import download_component
-    from util.data import download_default_components
+from underthesea.util import download_component
+from underthesea.util.data import download_default_components
 
 
 @click.group()

@@ -36,4 +36,3 @@ def pos_tag(sentence, format=None):
     crf_model = CRFPOSTagPredictor.Instance()
     result = crf_model.predict(sentence, format)
     return result
-

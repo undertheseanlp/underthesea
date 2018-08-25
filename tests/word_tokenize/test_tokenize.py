@@ -74,5 +74,3 @@ class TestWord_sent(TestCase):
             actual = tokenize(url)
             expected = url
             self.assertEqual(actual, expected)
-
-

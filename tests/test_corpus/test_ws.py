@@ -1,6 +1,5 @@
 from os.path import dirname, join
 from unittest import TestCase
-from os.path import join
 from underthesea.corpus.ws import WSCorpus
 
 
@@ -15,11 +14,6 @@ class TestWSCorpus(TestCase):
         corpus.load(self.folder, "COLUMN")
         self.assertEqual(1561, len(corpus.documents[0].sentences))
         self.assertGreater(len(corpus.documents[0].sentences[0]), 0)
-
-    def test_save_text_format(self):
-        corpus = WSCorpus()
-        corpus.load(self.folder, "COLUMN")
-        corpus.save(self.saved_ws_folder, "TEXT")
 
     def test_save_text_format(self):
         corpus = WSCorpus()

@@ -5,10 +5,12 @@ from os.path import join
 
 from underthesea.util.file_io import write
 
+
 # -*- coding: utf-8 -*-
 class Corpus:
     """Corpus is fundamental resource of NLP
     """
+
     def __init__(self):
         print("Corpus is fundamental resource of NLP")
 
@@ -17,6 +19,7 @@ class Corpus:
 
     def save(self, folder):
         pass
+
 
 class WSCorpus(Corpus):
     def __init__(self):

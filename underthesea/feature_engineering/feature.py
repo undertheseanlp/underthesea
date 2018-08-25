@@ -28,6 +28,7 @@ from underthesea.corpus import DictionaryLoader
 words = DictionaryLoader(join(dirname(__file__), "Viet74K.txt")).words
 lower_words = set([word.lower() for word in words])
 
+
 def text_lower(word):
     return word.lower()
 
@@ -52,11 +53,13 @@ def text_istitle(word):
             if token[0].istitle() is False:
                 return False
         return True
-    except:
+    except Exception:
         return False
+
 
 def text_is_in_dict(word):
     return str(word.lower() in lower_words)
+
 
 def apply_function(name, word):
     functions = {

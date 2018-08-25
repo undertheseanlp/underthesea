@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-try:
-    from underthesea.util import download_component
-except:
-    from util import download_component
+from underthesea.util import download_component
 
 
 def download_default_components():
