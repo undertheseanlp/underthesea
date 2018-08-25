@@ -1,12 +1,9 @@
-import sys
-
 import unicodedata
 
 
 def Text(text):
     """ provide a wrapper for python string
     map byte to str (python 3)
-    map str to unicode (python 2)
     all string in utf-8 encoding
     normalize string to NFC
     """
@@ -17,8 +14,4 @@ def Text(text):
 
 
 def is_unicode(text):
-    if sys.version_info >= (3, 0):
-        unicode_type = str
-    else:
-        unicode_type = unicode
-    return type(text) == unicode_type
+    return type(text) == str

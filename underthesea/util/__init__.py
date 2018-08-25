@@ -1,7 +1,4 @@
-try:
-    from urllib.request import urlretrieve
-except:
-    from urllib import urlretrieve
+from urllib.request import urlretrieve
 from os.path import dirname, join, isfile
 
 components = [
