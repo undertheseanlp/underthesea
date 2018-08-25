@@ -8,6 +8,7 @@ if sys.version_info >= (3, 0):
 else:
     from tagged_feature import word2features
 
+
 @Singleton
 class CRFChunkingPredictor:
     def __init__(self):

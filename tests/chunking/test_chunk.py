@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from unittest import TestCase, skip
+from unittest import TestCase
 from underthesea import chunk
 
 

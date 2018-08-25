@@ -1,11 +1,8 @@
 from os.path import join, dirname
 from underthesea.util.singleton import Singleton
 import pycrfsuite
+from .tagged_feature import word2features
 
-try:
-    from .tagged_feature import word2features
-except:
-    from tagged_feature import word2features
 
 @Singleton
 class CRFPOSTagPredictor:

@@ -3,6 +3,7 @@ from os.path import join, dirname
 
 from underthesea.util.singleton import Singleton
 
+
 @Singleton
 class Dictionary:
     def __init__(self):

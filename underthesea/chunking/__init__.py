@@ -42,6 +42,3 @@ def chunk(sentence, format=None):
     crf_model = CRFChunkingPredictor.Instance()
     result = crf_model.predict(sentence, format)
     return result
-
-
-

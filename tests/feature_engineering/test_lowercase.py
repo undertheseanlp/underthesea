@@ -10,5 +10,3 @@ class TestUnicodeTransformer(TestCase):
         s = u"ĐI HỌC"
         output = transformer.transform(s)
         self.assertEqual(u"đi học", output)
-
-

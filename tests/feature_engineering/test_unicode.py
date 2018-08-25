@@ -18,4 +18,3 @@ class TestUnicodeTransformer(TestCase):
         transformer = UnicodeTransformer()
         s = u"tôi đi học"
         self.assertEqual(unicode, type(transformer.transform(s)))
-

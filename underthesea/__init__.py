@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import os
-import sys
 
 __author__ = """Vu Anh"""
 __email__ = 'brother.rain.1024@gmail.com'
@@ -19,8 +18,6 @@ except NameError:
 except IOError as ex:
     __version__ = "unknown (%s)" % ex
 
-
-
 ###########################################################
 # TOP-LEVEL MODULES
 ###########################################################
@@ -28,6 +25,7 @@ from underthesea.word_tokenize import word_tokenize
 from underthesea.pos_tag import pos_tag
 from underthesea.chunking import chunk
 from underthesea.ner import ner
+
 try:
     from underthesea.classification import classify
 except Exception as e:
@@ -36,3 +34,5 @@ try:
     from underthesea.sentiment import sentiment
 except Exception as e:
     pass
+
+__all__ = ['word_tokenize', 'pos_tag', 'chunk', 'ner', 'classify', 'sentiment']

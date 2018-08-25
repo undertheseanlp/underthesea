@@ -11,7 +11,7 @@ def Text(text):
     normalize string to NFC
     """
     if not is_unicode(text):
-       text = text.decode("utf-8")
+        text = text.decode("utf-8")
     text = unicodedata.normalize("NFC", text)
     return text
 

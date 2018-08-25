@@ -1,9 +1,11 @@
 import joblib
 from os.path import join, dirname
 import sys
+
 sys.path.insert(0, dirname(__file__))
 
 bank_classification = {}
+
 
 def classify(X):
     global bank_classification
