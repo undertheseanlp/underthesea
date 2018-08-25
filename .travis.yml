@@ -8,10 +8,14 @@ env:
   - TOXENV=py36
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-install: pip install tox-travis
+install:
+  - pip install tox-travis
+  - pip install flake8
 
 # command to run tests, e.g. python setup.py test
-script: tox -e ${TOXENV}
+script:
+  - flake8 --max-complexity 10 --ignore E501 .
+  - tox -e ${TOXENV}
 
 # After you create the Github repo and add it to Travis, run the
 # travis_pypi_setup.py script to finish PyPI deployment setup

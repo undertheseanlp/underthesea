@@ -20,6 +20,5 @@ def download(component):
 def data():
     download_default_components()
 
-
 if __name__ == "__main__":
     main()
