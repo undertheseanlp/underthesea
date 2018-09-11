@@ -19,5 +19,4 @@ Thanks
 Thanks to all the wonderful folks who have contributed to schedule over the years
 
 * Nhu Bao Vu <nhubaovu@gmail.com>
-
-
+* Hoai-Thu Vuong <thuvh87@gmail.com>
