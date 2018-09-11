@@ -45,6 +45,6 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install future scipy numpy scikit-learn==0.19.0 joblib
+    $ pip install future scipy numpy scikit-learn==0.19.2 joblib
 
 .. autofunction:: underthesea.sentiment.sentiment

@@ -4,7 +4,7 @@ from os.path import dirname, join, isfile
 components = [
     {
         "name": "classification.fasttext.model",
-        "url": "https://github.com/magizbox/underthesea.models/raw/master/classification/fasttext.model",
+        "url": "https://github.com/undertheseanlp/underthesea.models/raw/master/classification/fasttext.model",
         "destination": ["classification", "fasttext.model"]
     }
 ]

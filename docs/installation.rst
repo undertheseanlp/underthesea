@@ -32,13 +32,13 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone git://github.com/magizbox/underthesea
+    $ git clone git://github.com/undertheseanlp/underthesea
 
 Or download the `tarball`_:
 
 .. code-block:: console
 
-    $ curl  -OL https://github.com/magizbox/underthesea/tarball/master
+    $ curl  -OL https://github.com/undertheseanlp/underthesea/tarball/master
 
 Once you have a copy of the source, you can install it with:
 
@@ -47,5 +47,5 @@ Once you have a copy of the source, you can install it with:
     $ python setup.py install
 
 
-.. _Github repo: https://github.com/magizbox/underthesea
-.. _tarball: https://github.com/magizbox/underthesea/tarball/master
+.. _Github repo: https://github.com/undertheseanlp/underthesea
+.. _tarball: https://github.com/undertheseanlp/underthesea/tarball/master

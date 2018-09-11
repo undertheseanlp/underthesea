@@ -28,11 +28,11 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
-`[English] <https://github.com/magizbox/underthesea/>`_
-`[Tiếng Việt] <https://github.com/magizbox/underthesea/blob/master/README.vi.rst>`_
+`[English] <https://github.com/undertheseanlp/underthesea/>`_
+`[Tiếng Việt] <https://github.com/undertheseanlp/underthesea/blob/master/README.vi.rst>`_
 
-.. image:: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
-        :target: https://raw.githubusercontent.com/magizbox/underthesea/master/logo.jpg
+.. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
+        :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
@@ -236,7 +236,7 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install future scipy numpy scikit-learn==0.19.0 joblib
+    $ pip install future scipy numpy scikit-learn==0.19.2 joblib
 
 Usage
 
@@ -261,4 +261,4 @@ Up Coming Features
 Contributing
 ----------------------------------------
 
-Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/magizbox/underthesea/blob/master/CONTRIBUTING.rst>`_
+Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst>`_
