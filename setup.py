@@ -35,7 +35,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="Vu Anh",
     author_email='anhv.ict91@gmail.com',
-    url='https://github.com/magizbox/underthesea',
+    url='https://github.com/undertheseanlp/underthesea',
     packages=[
         'underthesea',
     ],

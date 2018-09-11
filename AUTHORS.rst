@@ -2,21 +2,22 @@
 AUTHORS
 =======
 
-Development Lead
-----------------
+Original Authors
+------------------------
 
 * Vu Anh <anhv.ict91@gmail.com>
 
-Contributors
-------------
+Awesome Contributors
+------------------------
 
 * Bui Nhat Anh <buinhatanh1208@gmail.com>
 * Doan Viet Dung <doanvietdung273@gmail.com>
 
-Developer Advocates
--------------------
+Thanks
+------------------------
+
+Thanks to all the wonderful folks who have contributed to schedule over the years
 
 * Nhu Bao Vu <nhubaovu@gmail.com>
-* Doan Viet Dung <doanvietdung273@gmail.com>
 
 
