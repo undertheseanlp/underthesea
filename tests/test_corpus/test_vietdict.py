@@ -15,17 +15,3 @@ class Test_VietDict(TestCase):
         word = viet_dict_11K.words[0]
         self.assertEqual(unicode, type(word))
 
-    @skip("")
-    def test_viet_dict_22K(self):
-        words = viet_dict_22K.words
-        self.assertEqual(22426, len(words))
-
-    @skip("")
-    def test_viet_dict_39K(self):
-        words = viet_dict_39K.words
-        self.assertEqual(39071, len(words))
-
-    @skip("")
-    def test_viet_dict_74K(self):
-        words = viet_dict_74K.words
-        self.assertEqual(73901, len(words))
