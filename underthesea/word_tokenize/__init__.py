@@ -20,7 +20,7 @@ def word_tokenize(sentence, format=None):
 
     Examples
     --------
-
+c
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_tokenize
     >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư"
