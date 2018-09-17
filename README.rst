@@ -24,9 +24,6 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
-`[English] <https://github.com/undertheseanlp/underthesea/>`_
-`[Tiếng Việt] <https://github.com/undertheseanlp/underthesea/blob/master/README.vi.rst>`_
-
 .. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
 
@@ -34,7 +31,7 @@ Underthesea - Vietnamese NLP Toolkit
 
 * Free software: GNU General Public License v3
 * Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
-* Live demo: `underthesea app <http://magizbox.com:9386/#/>`_
+* Live demo: `undertheseanlp.com <http://undertheseanlp.com/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 * Youtube: `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_
 
