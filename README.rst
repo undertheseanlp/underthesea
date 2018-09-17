@@ -9,19 +9,15 @@ Underthesea - Vietnamese NLP Toolkit
 .. image:: https://img.shields.io/pypi/pyversions/underthesea.svg
         :target: https://pypi.python.org/pypi/underthesea
 
-.. image:: https://img.shields.io/pypi/l/underthesea.svg
+.. image:: https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3-brightgreen.svg
         :target: https://pypi.python.org/pypi/underthesea
 
-.. image:: https://img.shields.io/travis/magizbox/underthesea.svg
-        :target: https://travis-ci.org/magizbox/underthesea
+.. image:: https://img.shields.io/travis/undertheseanlp/underthesea.svg
+        :target: https://travis-ci.org/undertheseanlp/underthesea
 
 .. image:: https://readthedocs.org/projects/underthesea/badge/?version=latest
         :target: http://underthesea.readthedocs.io/en/latest/
         :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/magizbox/underthesea/shield.svg
-        :target: https://pyup.io/repos/github/magizbox/underthesea/
-        :alt: Updates
 
 .. image:: https://img.shields.io/badge/chat-on%20facebook-green.svg
     :target: https://www.facebook.com/undertheseanlp/
