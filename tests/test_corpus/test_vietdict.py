@@ -1,5 +1,5 @@
-from unittest import TestCase, skip
-from underthesea.corpus import viet_dict_11K, viet_dict_22K, viet_dict_39K, viet_dict_74K
+from unittest import TestCase
+from underthesea.corpus import viet_dict_11K
 import sys
 
 if sys.version_info >= (3, 0):
@@ -14,4 +14,3 @@ class Test_VietDict(TestCase):
     def test_unicode(self):
         word = viet_dict_11K.words[0]
         self.assertEqual(unicode, type(word))
-
