@@ -40,7 +40,6 @@ class CRFModel:
         object = cls.objects[model_path]
         return object
 
-
     def predict(self, sentence, format=None):
         tokens = [(token, "X") for token in sentence]
         x = transformer.transform([tokens])[0]
