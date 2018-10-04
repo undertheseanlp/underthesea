@@ -17,7 +17,7 @@ with io.open('HISTORY.rst') as history_file:
 
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.5',
+    'python-crfsuite==0.9.6',
     'languageflow==1.1.9a1'
 ]
 
