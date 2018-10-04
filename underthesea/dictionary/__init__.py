@@ -1,4 +1,7 @@
-import pickle
+try:
+    import _pickle as pickle
+except ImportError:
+    import pickle
 from os.path import join, dirname
 
 from underthesea.util.singleton import Singleton
