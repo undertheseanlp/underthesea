@@ -10,9 +10,10 @@ email = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 
 # urls pattern from nltk
 # https://www.nltk.org/_modules/nltk/tokenize/casual.html
+# with Vu Anh's modified to match fpt protocol
 urls = r"""             # Capture 1: entire matched URL
   (?:
-  https?:               # URL protocol and colon
+  (ftp|http)s?:               # URL protocol and colon
     (?:
       /{1,3}            # 1-3 slashes
       |                 #   or
