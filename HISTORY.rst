@@ -6,6 +6,8 @@ History
 --------------------------------------------------------------------------------
 
 * Improve speed of word_tokenize function
+* Only support python 3.6+
+* Use flake8 for style guide enforcement
 
 1.1.8 (2018-06-20)
 --------------------------------------------------------------------------------
