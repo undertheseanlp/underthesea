@@ -46,7 +46,7 @@ class PlainTextCorpus(Corpus):
         """
         try:
             mkdir(folder)
-        except Exception as e:
+        except Exception:
             pass
         for document in self.documents:
             filename = join(folder, document.id)

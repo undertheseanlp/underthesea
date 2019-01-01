@@ -80,7 +80,7 @@ class WSCorpus(Corpus):
         """
         try:
             mkdir(folder)
-        except Exception as e:
+        except Exception:
             pass
         for document in self.documents:
             f = join(folder, document.id)
