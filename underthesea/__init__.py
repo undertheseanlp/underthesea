@@ -28,11 +28,11 @@ from underthesea.ner import ner
 
 try:
     from underthesea.classification import classify
-except Exception as e:
+except Exception:
     pass
 try:
     from underthesea.sentiment import sentiment
-except Exception as e:
+except Exception:
     pass
 
 __all__ = ['word_tokenize', 'pos_tag', 'chunk', 'ner', 'classify', 'sentiment']
