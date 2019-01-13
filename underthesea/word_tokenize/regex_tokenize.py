@@ -81,7 +81,7 @@ if sys.version_info < (3, 0):
 patterns = re.compile(patterns, re.VERBOSE | re.UNICODE)
 
 
-def tokenize(text):
+def tokenize(text, format=None):
     """
     tokenize text for word segmentation
 
@@ -91,4 +91,8 @@ def tokenize(text):
     text = Text(text)
     text = text.replace("\t", " ")
     tokens = re.findall(patterns, text)
-    return u" ".join([token[0] for token in tokens])
+    tokens = [token[0] for token in tokens]
+    if format == "text":
+        return " ".join(tokens)
+    else:
+        return tokens
