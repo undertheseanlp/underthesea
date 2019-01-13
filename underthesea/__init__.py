@@ -21,6 +21,7 @@ except IOError as ex:
 ###########################################################
 # TOP-LEVEL MODULES
 ###########################################################
+from underthesea.sent_tokenize import sent_tokenize
 from underthesea.word_tokenize import word_tokenize
 from underthesea.pos_tag import pos_tag
 from underthesea.chunking import chunk
@@ -35,4 +36,8 @@ try:
 except Exception:
     pass
 
-__all__ = ['word_tokenize', 'pos_tag', 'chunk', 'ner', 'classify', 'sentiment']
+__all__ = [
+    'sent_tokenize',
+    'word_tokenize', 'pos_tag', 'chunk', 'ner',
+    'classify', 'sentiment'
+]
