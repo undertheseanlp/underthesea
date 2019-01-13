@@ -31,9 +31,9 @@ def word_tokenize(sentence, format=None):
     >>> word_tokenize(sentence, format="text")
     'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
     """
-    sentence = tokenize(sentence).split()
+    tokens = tokenize(sentence)
     crf_model = CRFModel.instance()
-    output = crf_model.predict(sentence, format)
+    output = crf_model.predict(tokens, format)
     tokens = [token[0] for token in output]
     tags = [token[1] for token in output]
     output = []
