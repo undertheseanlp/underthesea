@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import os
+
 import click
 import platform
 from underthesea.util import download_component
@@ -24,10 +26,10 @@ def data():
 
 @main.command()
 def info():
-    underthesea_version = open("VERSION").read().strip()
+    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
+    underthesea_version = open(version_file).read().strip()
     python_version = platform.python_version()
-    # system_info = f"{platform.system()}{platform.release()}"
-    system_info = ""
+    system_info = f"{platform.system()}{platform.release()}"
     print("")
     print("ENVIRONMENT")
     print(f" underthesea version : {underthesea_version}")
