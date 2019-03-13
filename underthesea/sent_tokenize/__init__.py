@@ -7,7 +7,7 @@ from nltk import PunktSentenceTokenizer
 
 
 def sent_tokenize(text):
-    model_path = join(dirname(__file__), 'sent_tokenize_model_v1.0.pkl')
+    model_path = join(dirname(__file__), 'st_kiss-strunk-2006_2019_01_13.pkl')
     with open(model_path, 'rb') as fs:
         punkt_param = pickle.load(fs)
 

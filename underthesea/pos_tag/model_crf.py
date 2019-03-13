@@ -8,7 +8,7 @@ from .tagged_feature import word2features
 class CRFPOSTagPredictor:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "model.bin")
+        filepath = join(dirname(__file__), "pos_crf_2017_10_11.bin")
         self.model.open(filepath)
 
         template = [
