@@ -62,7 +62,7 @@ Usage
 1. Sentence Segmentation
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-98%-red.svg
+.. image:: https://img.shields.io/badge/F1-98%00-red.svg
         :target: https://github.com/undertheseanlp/sent_tokenize
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
