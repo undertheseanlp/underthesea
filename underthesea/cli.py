@@ -21,11 +21,13 @@ def download(component):
 def data():
     download_default_components()
 
+
 @main.command()
 def info():
     underthesea_version = open("VERSION").read().strip()
     python_version = platform.python_version()
-    system_info = f"{platform.system()}-{platform.release()}"
+    # system_info = f"{platform.system()}{platform.release()}"
+    system_info = ""
     print("")
     print("ENVIRONMENT")
     print(f" underthesea version : {underthesea_version}")
