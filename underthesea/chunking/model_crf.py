@@ -13,7 +13,7 @@ else:
 class CRFChunkingPredictor:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "model.bin")
+        filepath = join(dirname(__file__), "chunk_crf_2017_10_12.bin")
         self.model.open(filepath)
 
         template = [

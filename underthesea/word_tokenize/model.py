@@ -28,7 +28,7 @@ class CRFModel:
 
     def __init__(self, model_path=None):
         if not model_path:
-            model_path = join(dirname(__file__), "model_vlsp2013.bin")
+            model_path = join(dirname(__file__), "wt_crf_2018_09_13.bin")
         estimator = pycrfsuite.Tagger()
         estimator.open(model_path)
         self.estimator = estimator

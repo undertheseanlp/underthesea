@@ -13,7 +13,7 @@ else:
 class CRFNERPredictor:
     def __init__(self):
         self.model = pycrfsuite.Tagger()
-        filepath = join(dirname(__file__), "model.bin")
+        filepath = join(dirname(__file__), "ner_crf_2017_10_12.bin")
         self.model.open(filepath)
 
         template = [
