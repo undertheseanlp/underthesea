@@ -42,7 +42,7 @@ To install underthesea, simply:
 
 .. code-block:: bash
 
-    $ pip install underthesea==1.1.9
+    $ pip install underthesea
     ✨🍰✨
 
 Satisfaction, guaranteed.
@@ -50,16 +50,40 @@ Satisfaction, guaranteed.
 Usage
 ----------------------------------------
 
-* `1. Word Segmentation <#1-word-segmentation>`_
-* `2. POS Tagging <#2-pos-tagging>`_
-* `3. Chunking <#3-chunking>`_
-* `4. Named Entity Recognition <#4-named-entity-recognition>`_
-* `5. Text Classification <#5-text-classification>`_
-* `6. Sentiment Analysis <#6-sentiment-analysis>`_
-
+* `1. Sentence Segmentation <#1-sentence-segmentation>`_
+* `2. Word Segmentation <#2-word-segmentation>`_
+* `3. POS Tagging <#3-pos-tagging>`_
+* `4. Chunking <#4-chunking>`_
+* `5. Named Entity Recognition <#5-named-entity-recognition>`_
+* `6. Text Classification <#6-text-classification>`_
+* `7. Sentiment Analysis <#7-sentiment-analysis>`_
 
 ****************************************
-1. Word Segmentation
+1. Sentence Segmentation
+****************************************
+
+.. image:: https://img.shields.io/badge/F1-98%25-red.svg
+        :target: https://github.com/undertheseanlp/sent_tokenize
+
+.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
+        :target: https://github.com/undertheseanlp/sent_tokenize
+
+Usage
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import word_tokenize
+    >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
+
+    >>> sent_tokenize(text)
+    [
+        "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
+        "Amanda cũng thoải mái với mối quan hệ này."
+    ]
+
+****************************************
+2. Word Segmentation
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-94%25-red.svg
@@ -67,9 +91,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/word_tokenize
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#word_sent
 
 Usage
 
@@ -86,7 +107,7 @@ Usage
     'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
 
 ****************************************
-2. POS Tagging
+3. POS Tagging
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
@@ -94,9 +115,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/pos_tag
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#pos-tag
 
 Usage
 
@@ -115,7 +133,7 @@ Usage
      ('truy quét', 'V')]
 
 ****************************************
-3. Chunking
+4. Chunking
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-77%25-red.svg
@@ -123,9 +141,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/chunking
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#chunking
 
 Usage
 
@@ -146,7 +161,7 @@ Usage
      ('?', 'CH', 'O')]
 
 ****************************************
-4. Named Entity Recognition
+5. Named Entity Recognition
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
@@ -154,9 +169,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/ner
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#ner
 
 Usage
 
@@ -178,7 +190,7 @@ Usage
      ('Trump', 'Np', 'B-NP', 'I-PER')]
 
 ****************************************
-5. Text Classification
+6. Text Classification
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
@@ -186,9 +198,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#classify
 
 Install dependencies and download default model
 
@@ -213,7 +222,7 @@ Usage
     ['Vi tinh']
 
 ****************************************
-6. Sentiment Analysis
+7. Sentiment Analysis
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
@@ -221,9 +230,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/sentiment
-
-.. image:: https://img.shields.io/badge/★-api-green.svg
-    :target: http://underthesea.readthedocs.io/en/latest/package_reference.html#sentiment
 
 Install dependencies
 
