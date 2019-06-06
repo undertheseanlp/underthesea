@@ -1,7 +1,7 @@
 from os.path import join, dirname
 import numpy as np
 from sklearn.base import ClassifierMixin, BaseEstimator
-import fasttext
+import fastText
 from underthesea.util.file_io import write
 import os
 
@@ -31,9 +31,9 @@ class FastTextClassifier(ClassifierMixin, BaseEstimator):
         content = "\n".join(lines)
         write(train_file, content)
         if model_filename:
-            self.estimator = fasttext.supervised(train_file, model_filename)
+            self.estimator = fastText.supervised(train_file, model_filename)
         else:
-            self.estimator = fasttext.supervised(train_file)
+            self.estimator = fastText.supervised(train_file)
         os.remove(train_file)
 
     def predict(self, X):
@@ -60,7 +60,7 @@ class FastTextClassifier(ClassifierMixin, BaseEstimator):
 class FastTextPredictor:
     def __init__(self):
         filepath = join(dirname(__file__), "fasttext.model")
-        self.estimator = fasttext.load_model(filepath)
+        self.estimator = fastText.load_model(filepath)
 
     def tranform_output(self, y):
         y = y[0].replace("__label__", "")
