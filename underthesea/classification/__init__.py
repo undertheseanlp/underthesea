@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from underthesea.classification.model_fasttext import FastTextPredictor
 from underthesea.classification import bank
 
 
@@ -39,5 +38,5 @@ def classify(X, domain=None):
     if domain == 'bank':
         return bank.classify(X)
     # domain is general
-    clf = FastTextPredictor.Instance()
-    return clf.predict(X)
+    # clf = FastTextPredictor.Instance()
+    # return clf.predict(X)

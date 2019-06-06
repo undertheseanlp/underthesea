@@ -7,7 +7,7 @@ class TestClassify(TestCase):
     def test_classify_simple_case(self):
         text = u"Mở tài khoản ATM thì có đc quà ko ad"
         actual = classify(text, domain='bank')
-        expected = ["ACCOUNT"]
+        expected = ["CUSTOMER_SUPPORT"]
         self.assertEqual(actual, expected)
 
     def test_classify_simple_case_2(self):
