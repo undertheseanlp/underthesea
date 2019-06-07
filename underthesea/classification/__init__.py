@@ -25,4 +25,3 @@ def classify(X, domain=None):
         return None
     if domain == 'bank':
         return bank.classify(X)
-
