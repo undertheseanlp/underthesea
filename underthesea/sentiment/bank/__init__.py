@@ -10,8 +10,7 @@ classifier = TextClassifier.load(join(dirname(__file__), model_folder))
 
 
 def sentiment(text):
-    print(f"\nText: {text}")
     sentence = Sentence(text)
     classifier.predict(sentence)
     labels = sentence.labels
-    print(f"Labels: {labels[0]}")
+    return labels
