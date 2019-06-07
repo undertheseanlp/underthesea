@@ -37,6 +37,3 @@ def classify(X, domain=None):
         return None
     if domain == 'bank':
         return bank.classify(X)
-    # domain is general
-    # clf = FastTextPredictor.Instance()
-    # return clf.predict(X)
