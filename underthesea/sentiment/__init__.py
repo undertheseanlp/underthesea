@@ -24,11 +24,10 @@ def sentiment(X, domain=None):
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
-    >>> sentence = "Vừa smartbidv, vừa bidv online mà lại k dùng chung 1 tài khoản đăng nhập, rắc rối!"
+    >>> sentence = "Chuyen tiền k nhận Dc tiên"
     >>> sentiment(sentence, domain='bank')
 
-    Text: Vừa smartbidv, vừa bidv online mà lại k dùng chung 1 tài khoản đăng nhập, rắc rối!
-    Labels: INTERNET_BANKING#negative
+    [MONEY_TRANSFER#negative (1.0)]
     """
     if X == "":
         return None
