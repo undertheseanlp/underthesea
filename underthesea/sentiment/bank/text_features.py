@@ -61,7 +61,7 @@ class RemoveDuplicate(BaseEstimator, TransformerMixin):
             result.append(s)
         return result
 
-    def fit(self,x, y=None):
+    def fit(self, x, y=None):
         return self
 
 
