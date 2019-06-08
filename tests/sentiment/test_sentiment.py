@@ -29,8 +29,8 @@ class TestSentiment(TestCase):
         self.assertEqual(sorted(actual), sorted(expected))
 
     def test_multi_label_2(self):
-        text = '''TUI cũng bó tay với BIDV Cần Thơ. 
-                Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền. 
+        text = '''TUI cũng bó tay với BIDV Cần Thơ.
+                Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
                 Chán ko buồn nói. Qd có khác '''
         actual = [str(label) for label in sentiment(text, domain="bank")]
         expected = ['CARD#negative (1.0)', 'CUSTOMER_SUPPORT#negative (1.0)']
