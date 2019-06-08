@@ -16,8 +16,7 @@ def sentiment(X, domain=None):
             * bank: bank domain
     Returns
     =======
-    Text: Text of input sentence
-    Labels: Sentiment of sentence
+    List of labels that be sentiment of text
 
     Examples
     --------
