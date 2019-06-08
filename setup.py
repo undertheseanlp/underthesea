@@ -19,7 +19,7 @@ install_requires = [
     'Click>=6.0',
     'python-crfsuite==0.9.6',
     'nltk==3.4',
-    'languageflow==1.1.9a1'
+    'languageflow==1.1.13a1'
 ]
 
 tests_require = [
