@@ -11,9 +11,9 @@ class TestClassify(TestCase):
         self.assertEqual(actual, expected)
 
     def test_classify_simple_case_2(self):
-        text = u"Tôi rất thích cách phục vụ của nhân viên BIDV"
+        text = u"Dkm t chuyển vẫn bị mất phí"
         actual = classify(text, domain='bank')
-        expected = ['CUSTOMER_SUPPORT']
+        expected = ['INTEREST_RATE', 'MONEY_TRANSFER']
         self.assertEqual(actual, expected)
 
     def test_classify_simple_case_3(self):
