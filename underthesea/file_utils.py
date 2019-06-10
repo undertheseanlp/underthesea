@@ -1,6 +1,3 @@
-"""
-Utilities for working with the local dataset cache. Copied from flair
-"""
 from pathlib import Path
 import os
 import logging
