@@ -13,7 +13,7 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 
 
 class UTSModel(Enum):
-    tc_svm_uts2017_bank = "tc_svm_uts2017_bank_20190607"
+    tc_svm_uts2017_bank_20190607 = "tc_svm_uts2017_bank_20190607"
 
 
 class ModelFetcher:
@@ -76,6 +76,6 @@ class ModelFetcher:
 
     @staticmethod
     def load_model(model):
-        if model == UTSModel.tc_svm_uts2017_bank:
+        if model == UTSModel.tc_svm_uts2017_bank_20190607:
             model_folder = Path(CACHE_ROOT) / "models" / "tc_svm_uts2017_bank_20190607"
             return model_folder
