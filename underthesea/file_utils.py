@@ -1,3 +1,6 @@
+"""
+Utilities for working with the local dataset cache. Copied from flair
+"""
 from pathlib import Path
 import os
 import logging
@@ -5,6 +8,8 @@ import shutil
 import tempfile
 import re
 from urllib.parse import urlparse
+from tqdm import tqdm as _tqdm
+
 
 import requests
 
@@ -91,9 +96,6 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
         os.remove(temp_filename)
 
     return cache_path
-
-
-from tqdm import tqdm as _tqdm
 
 
 class Tqdm:
