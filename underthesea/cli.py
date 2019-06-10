@@ -5,8 +5,6 @@ import click
 import platform
 
 from underthesea.model_fetcher import ModelFetcher
-from underthesea.util import download_component
-from underthesea.util.data import download_default_components
 
 
 @click.group()
