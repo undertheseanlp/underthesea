@@ -5,20 +5,12 @@ import click
 import platform
 
 from underthesea.model_fetcher import ModelFetcher
-from underthesea.util import download_component
-from underthesea.util.data import download_default_components
 
 
 @click.group()
 def main(args=None):
     """Console script for underthesea"""
     pass
-
-
-# @main.command()
-# @click.argument('component')
-# def download(component):
-#     download_component(component)
 
 
 @main.command()

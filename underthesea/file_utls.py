@@ -10,6 +10,7 @@ import shutil
 import tempfile
 import re
 from urllib.parse import urlparse
+from tqdm import tqdm as _tqdm
 
 import mmap
 import requests
@@ -136,7 +137,7 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
         progress = Tqdm.tqdm(unit="B", total=total)
         with open(temp_filename, 'wb') as temp_file:
             for chunk in req.iter_content(chunk_size=1024):
-                if chunk: # filter out keep-alive new chunks
+                if chunk:  # filter out keep-alive new chunks
                     progress.update(len(chunk))
                     temp_file.write(chunk)
 
@@ -151,7 +152,6 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
     return cache_path
 
 
-from tqdm import tqdm as _tqdm
 
 
 class Tqdm:

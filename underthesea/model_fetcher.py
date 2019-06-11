@@ -40,7 +40,6 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.remove(model_path)
 
-
     @staticmethod
     def list(all):
         datasets = []
