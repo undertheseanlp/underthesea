@@ -3,8 +3,8 @@ import os
 
 import click
 import platform
-from underthesea.util import download_component
-from underthesea.util.data import download_default_components
+
+from underthesea.model_fetcher import ModelFetcher
 
 
 @click.group()
@@ -13,15 +13,28 @@ def main(args=None):
     pass
 
 
-@main.command()
-@click.argument('component')
-def download(component):
-    download_component(component)
+# @main.command()
+# @click.argument('component')
+# def download(component):
+#     download_component(component)
 
 
 @main.command()
-def data():
-    download_default_components()
+@click.argument('model', required=True)
+def download(model):
+    ModelFetcher.download_model(model)
+
+
+@main.command()
+@click.option('-a', '--all', is_flag=True, required=False)
+def list(all):
+    ModelFetcher.list(all)
+
+
+@main.command()
+@click.argument('model', required=True)
+def remove(model):
+    ModelFetcher.remove(model)
 
 
 @main.command()
