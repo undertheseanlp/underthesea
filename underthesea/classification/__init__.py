@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from underthesea.classification import bank, vntc
+from underthesea.classification import vntc, bank
 
 
 def classify(X, domain=None):

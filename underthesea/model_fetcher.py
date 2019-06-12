@@ -85,11 +85,10 @@ class ModelFetcher:
         print(f"Model {model_name} is removed.")
 
     @staticmethod
-    def load_model(model):
+    def get_model_path(model):
         if model == UTSModel.tc_svm_uts2017_bank_20190607:
             model_folder = Path(CACHE_ROOT) / "models" / "tc_svm_uts2017_bank_20190607"
             return model_folder
 
         if model == UTSModel.tc_svm_vntc_20190607:
-            model_folder = Path(CACHE_ROOT) / "models" / "tc_svm_vntc_20190607"
-            return model_folder
+            return Path(CACHE_ROOT) / "models" / "tc_svm_vntc_20190607"
