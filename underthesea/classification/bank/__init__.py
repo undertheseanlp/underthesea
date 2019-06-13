@@ -1,3 +1,6 @@
+import logging
+import os
+import sys
 from os.path import join, dirname
 
 from languageflow.data import Sentence
@@ -5,13 +8,29 @@ from languageflow.models.text_classifier import TextClassifier
 
 from underthesea.model_fetcher import ModelFetcher, UTSModel
 
+FORMAT = '%(message)s'
+logging.basicConfig(format=FORMAT)
+logger = logging.getLogger('underthesea')
+
+sys.path.insert(0, dirname(dirname(__file__)))
 model_path = ModelFetcher.get_model_path(UTSModel.tc_svm_uts2017_bank_20190607)
-classifer = TextClassifier.load(join(dirname(__file__), model_path))
+classifier = None
 
 
 def classify(X):
+    global classifier
+
+    if not classifier:
+        if os.path.exists(model_path):
+            classifier = TextClassifier.load(model_path)
+        else:
+            logger.error(
+                f"Could not load model at {model_path}.\n"
+                f"Download model with \"underthesea download {UTSModel.tc_svm_uts2017_bank_20190607.value}\".")
+            sys.exit(1)
     sentence = Sentence(X)
-    classifer.predict(sentence)
+    classifier.predict(sentence)
     labels = sentence.labels
-    label_values = [label.value for label in labels]
-    return label_values
+    if not labels:
+        return None
+    return [label.value for label in labels]
