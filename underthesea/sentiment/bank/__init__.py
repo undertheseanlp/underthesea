@@ -1,6 +1,6 @@
 import logging
 import os
-from os.path import join, dirname
+from os.path import dirname
 import sys
 from languageflow.data import Sentence
 from languageflow.models.text_classifier import TextClassifier
