@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-from underthesea.classification import vntc, bank
 
 
 def classify(X, domain=None):
@@ -24,5 +23,7 @@ def classify(X, domain=None):
     if X == "":
         return None
     if domain == 'bank':
+        from underthesea.classification import bank
         return bank.classify(X)
+    from underthesea.classification import vntc
     return vntc.classify(X)
