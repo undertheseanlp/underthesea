@@ -33,6 +33,3 @@ def classify(X):
     classifier.predict(sentence)
     labels = sentence.labels
     return labels
-
-
-classify("A")
