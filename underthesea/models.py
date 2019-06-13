@@ -13,4 +13,11 @@ REPO = {
         "year": "2019",
         "model_path": "tc_svm_vntc_20190607"
     },
+    "sa_svm_uts2017_bank_20190611": {
+        "cache_dir": "models",
+        "type": "Sentiment",
+        "license": "Open",
+        "year": "2019",
+        "model_path": "sa_svm_uts2017_bank_20190611"
+    },
 }

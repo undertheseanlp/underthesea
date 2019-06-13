@@ -15,6 +15,7 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 class UTSModel(Enum):
     tc_svm_uts2017_bank_20190607 = "tc_svm_uts2017_bank_20190607"
     tc_svm_vntc_20190607 = "tc_svm_vntc_20190607"
+    sa_svm_uts2017_bank_20190611 = "sa_svm_uts2017_bank_20190611"
 
 
 class ModelFetcher:
@@ -45,6 +46,15 @@ class ModelFetcher:
             url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.remove(model_path)
+
+        if model == "sa_svm_uts2017_bank_20190611":
+            url = "https://www.dropbox.com/s/yo6sf6ofpdb3hlh/sa_svm_uts2017_bank_20190611.zip?dl=1"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
             cache_folder = Path(CACHE_ROOT) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
@@ -87,8 +97,10 @@ class ModelFetcher:
     @staticmethod
     def get_model_path(model):
         if model == UTSModel.tc_svm_uts2017_bank_20190607:
-            model_folder = Path(CACHE_ROOT) / "models" / "tc_svm_uts2017_bank_20190607"
-            return model_folder
+            return Path(CACHE_ROOT) / "models" / "tc_svm_uts2017_bank_20190607"
 
         if model == UTSModel.tc_svm_vntc_20190607:
             return Path(CACHE_ROOT) / "models" / "tc_svm_vntc_20190607"
+
+        if model == UTSModel.sa_svm_uts2017_bank_20190611:
+            return Path(CACHE_ROOT) / "models" / "sa_svm_uts2017_bank_20190611"
