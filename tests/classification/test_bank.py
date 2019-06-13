@@ -3,7 +3,6 @@ from unittest import TestCase, skip
 from underthesea import classify
 
 
-@skip
 class TestClassify(TestCase):
     def test_classify_simple_case(self):
         text = u"Mở tài khoản ATM thì có đc quà ko ad"
