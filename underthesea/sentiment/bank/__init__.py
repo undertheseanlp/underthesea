@@ -1,26 +1,33 @@
-import joblib
+import logging
+import os
 from os.path import join, dirname
 import sys
+from languageflow.data import Sentence
+from languageflow.models.text_classifier import TextClassifier
+from underthesea.model_fetcher import ModelFetcher, UTSModel
 
-sys.path.insert(0, dirname(__file__))
 
-bank_sentiment = {}
+FORMAT = '%(message)s'
+logging.basicConfig(format=FORMAT)
+logger = logging.getLogger('underthesea')
+
+sys.path.insert(0, dirname(dirname(__file__)))
+model_path = ModelFetcher.get_model_path(UTSModel.sa_svm_uts2017_bank_20190611)
+classifier = None
 
 
-def sentiment(X):
-    global bank_sentiment
-    if "x_transform" not in bank_sentiment:
-        bank_sentiment["x_transform"] = joblib.load(join(dirname(__file__), "count.transformer.bin"))
-    if "y_transform" not in bank_sentiment:
-        bank_sentiment["y_transform"] = joblib.load(join(dirname(__file__), "label.transformer.bin"))
-    if "estimator" not in bank_sentiment:
-        bank_sentiment["estimator"] = joblib.load(join(dirname(__file__), "model.bin"))
-    x_transform = bank_sentiment["x_transform"]
-    y_transform = bank_sentiment["y_transform"]
-    estimator = bank_sentiment["estimator"]
-    if isinstance(X, list):
-        return y_transform.inverse_transform(
-            estimator.predict(x_transform.transform(X)))
-    else:
-        return y_transform.inverse_transform(
-            estimator.predict(x_transform.transform([X])))[0]
+def sentiment(text):
+    global classifier
+
+    if not classifier:
+        if os.path.exists(model_path):
+            classifier = TextClassifier.load(model_path)
+        else:
+            logger.error(
+                f"Could not load model at {model_path}.\n"
+                f"Download model with \"underthesea download {UTSModel.tc_svm_uts2017_bank_20190607.value}\".")
+            sys.exit(1)
+    sentence = Sentence(text)
+    classifier.predict(sentence)
+    labels = sentence.labels
+    return labels
