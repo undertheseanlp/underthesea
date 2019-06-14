@@ -204,9 +204,10 @@ Install dependencies and download default model
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install joblib future scipy numpy scikit-learn
-    $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
-    $ underthesea data
+    $ pip install git+https://github.com/facebookresearch/fastText.git
+    $ pip install unidecode
+    $ underthesea download tc_general
+    $ underthesea download tc_bank
 
 Usage
 
@@ -220,7 +221,8 @@ Usage
     ['Kinh doanh']
     >>> classify('Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750')
     ['Vi tinh']
-
+    >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
+    ['INTEREST_RATE']
 ****************************************
 7. Sentiment Analysis
 ****************************************

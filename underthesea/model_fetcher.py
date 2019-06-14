@@ -13,41 +13,49 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 
 
 class UTSModel(Enum):
-    tc_svm_uts2017_bank_20190607 = "tc_svm_uts2017_bank_20190607"
-    tc_svm_vntc_20190607 = "tc_svm_vntc_20190607"
+    tc_bank = "tc_bank"
+    tc_general = "tc_general"
 
 
 class ModelFetcher:
 
     @staticmethod
-    def download_model(model):
-        if model not in REPO:
-            print(f"No matching distribution found for '{model}'")
+    def download_model(model_name):
+        if model_name not in REPO:
+            print(f"No matching distribution found for '{model_name}'")
             return
 
-        model_path = REPO[model]["model_path"]
-        cache_dir = REPO[model]["cache_dir"]
+        model_path = REPO[model_name]["model_path"]
+        cache_dir = REPO[model_name]["cache_dir"]
         model_path = Path(CACHE_ROOT) / cache_dir / model_path
         if Path(model_path).exists():
-            print(f"Model is already existed: '{model}' in {model_path}")
+            print(f"Model is already existed: '{model_name}' in {model_path}")
             return
 
-        if model == "tc_svm_uts2017_bank_20190607":
+        if model_name == "tc_bank":
             url = "https://www.dropbox.com/s/prrjlypbrr6ze6p/tc_svm_uts2017_bank_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607.zip?dl=1"
             cache_folder = Path(CACHE_ROOT) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607",
+                Path(CACHE_ROOT) / cache_dir / "tc_bank",
+            )
             os.remove(model_path)
 
-        if model == "tc_svm_vntc_20190607":
+        if model_name == "tc_general":
             url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
             cache_folder = Path(CACHE_ROOT) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
+                Path(CACHE_ROOT) / cache_dir / "tc_general",
+            )
             os.remove(model_path)
 
     @staticmethod
@@ -86,8 +94,9 @@ class ModelFetcher:
 
     @staticmethod
     def get_model_path(model):
-        if model == UTSModel.tc_svm_uts2017_bank_20190607:
-            return Path(CACHE_ROOT) / "models" / "tc_svm_uts2017_bank_20190607"
+        if model == UTSModel.tc_bank:
+            model_folder = Path(CACHE_ROOT) / "models" / "tc_bank"
+            return model_folder
 
-        if model == UTSModel.tc_svm_vntc_20190607:
-            return Path(CACHE_ROOT) / "models" / "tc_svm_vntc_20190607"
+        if model == UTSModel.tc_general:
+            return Path(CACHE_ROOT) / "models" / "tc_general"
