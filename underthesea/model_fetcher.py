@@ -21,6 +21,8 @@ class ModelFetcher:
 
     @staticmethod
     def download_model(model):
+        if model == "tc_general":
+            model = "tc_svm_vntc_20190607"
         if model not in REPO:
             print(f"No matching distribution found for '{model}'")
             return
