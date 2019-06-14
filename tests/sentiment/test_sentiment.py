@@ -13,19 +13,19 @@ class TestSentiment(TestCase):
     def test_one_label_1(self):
         text = "Xem lại vẫn thấy xúc động và tự hào về BIDV của mình!"
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['TRADEMARK#positive (1.0)']
+        expected = ['TRADEMARK#positive']
         self.assertEqual(actual, expected)
 
     def test_one_label_2(self):
         text = "Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết"
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['CUSTOMER_SUPPORT#negative (1.0)']
+        expected = ['CUSTOMER_SUPPORT#negative']
         self.assertEqual(actual, expected)
 
     def test_multi_label_1(self):
         text = "Dkm t chuyển vẫn bị mất phí"
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['INTEREST_RATE#negative (1.0)', 'MONEY_TRANSFER#negative (1.0)']
+        expected = ['INTEREST_RATE#negative', 'MONEY_TRANSFER#negative']
         self.assertEqual(sorted(actual), sorted(expected))
 
     def test_multi_label_2(self):
@@ -33,5 +33,5 @@ class TestSentiment(TestCase):
                 Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
                 Chán ko buồn nói. Qd có khác '''
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['CARD#negative (1.0)', 'CUSTOMER_SUPPORT#negative (1.0)']
+        expected = ['CARD#negative', 'CUSTOMER_SUPPORT#negative']
         self.assertEqual(sorted(actual), sorted(expected))

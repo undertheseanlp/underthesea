@@ -1,23 +1,23 @@
 REPO = {
-    "tc_svm_uts2017_bank_20190607": {
+    "tc_bank": {
         "cache_dir": "models",
         "type": "Classification",
         "license": "Open",
         "year": "2019",
-        "model_path": "tc_svm_uts2017_bank_20190607"
+        "model_path": "tc_bank"
     },
-    "tc_svm_vntc_20190607": {
+    "tc_general": {
         "cache_dir": "models",
         "type": "Classification",
         "license": "Open",
         "year": "2019",
-        "model_path": "tc_svm_vntc_20190607"
+        "model_path": "tc_general"
     },
-    "sa_svm_uts2017_bank_20190611": {
+    "sa_bank": {
         "cache_dir": "models",
         "type": "Sentiment",
         "license": "Open",
         "year": "2019",
-        "model_path": "sa_svm_uts2017_bank_20190611"
+        "model_path": "sa_bank"
     },
 }
