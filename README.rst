@@ -204,9 +204,9 @@ Install dependencies and download default model
 .. code-block:: bash
 
     $ pip install Cython
-    $ pip install joblib future scipy numpy scikit-learn
-    $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
-    $ underthesea data
+    $ pip install git+https://github.com/facebookresearch/fastText.git
+    $ pip install unidecode
+    $ underthesea download tc_general
 
 Usage
 
