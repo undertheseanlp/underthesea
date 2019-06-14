@@ -34,5 +34,3 @@ def classify(X):
     if not labels:
         return None
     return [label.value for label in labels]
-
-classify("bank")
