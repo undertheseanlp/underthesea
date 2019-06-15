@@ -64,7 +64,7 @@ class RemoveDuplicate(BaseEstimator, TransformerMixin):
         return self
 
 
-class Tokenrize(BaseEstimator, TransformerMixin):
+class Tokenize(BaseEstimator, TransformerMixin):
     def pun_num(self, s):
         for token in s.split():
             if token in string.punctuation:

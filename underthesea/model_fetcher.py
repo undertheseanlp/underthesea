@@ -62,7 +62,7 @@ class ModelFetcher:
             os.remove(model_path)
 
         if model_name == "sa_general":
-            url = "https://www.dropbox.com/s/h28tiltyjiq7m9b/sa_svm_aivivn2019_20190615.zip?dl=1"
+            url = "https://www.dropbox.com/s/xfj1ity3egabv77/sa_svm_aivivn2019_20190615.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
             cache_folder = Path(CACHE_ROOT) / cache_dir
