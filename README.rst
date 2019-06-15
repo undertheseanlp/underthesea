@@ -222,6 +222,7 @@ Usage
     ['Vi tinh']
     >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
     ['INTEREST_RATE']
+
 ****************************************
 7. Sentiment Analysis
 ****************************************
