@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-from underthesea.classification.model_fasttext import FastTextPredictor
-from underthesea.classification import bank
 
 
 def classify(X, domain=None):
@@ -21,23 +19,11 @@ def classify(X, domain=None):
     tokens: list
         categories of sentence
 
-    Examples
-    --------
-
-    >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import classify
-    >>> sentence = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
-    >>> classify(sentence)
-    ['The thao']
-
-    >>> sentence = "Tôi rất thích cách phục vụ của nhân viên BIDV"
-    >>> classify(sentence, domain='bank')
-    ('CUSTOMER SUPPORT',)
     """
     if X == "":
         return None
     if domain == 'bank':
+        from underthesea.classification import bank
         return bank.classify(X)
-    # domain is general
-    clf = FastTextPredictor.Instance()
-    return clf.predict(X)
+    from underthesea.classification import vntc
+    return vntc.classify(X)

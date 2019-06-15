@@ -16,17 +16,18 @@ def sentiment(X, domain=None):
             * bank: bank domain
     Returns
     =======
-    tokens: list
-        sentiment of sentence
+    Text: Text of input sentence
+    Labels: Sentiment of sentence
 
     Examples
     --------
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
-    >>> sentence = "Vừa smartbidv, vừa bidv online mà lại k dùng chung 1 tài khoản đăng nhập, rắc rối!"
+    >>> sentence = "Chuyen tiền k nhận Dc tiên"
     >>> sentiment(sentence, domain='bank')
-    ('INTERNET BANKING#NEGATIVE',)
+
+    [MONEY_TRANSFER#negative (1.0)]
     """
     if X == "":
         return None

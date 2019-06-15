@@ -4,44 +4,34 @@ from underthesea.sentiment import sentiment
 
 
 class TestSentiment(TestCase):
-    def test_sentiment(self):
+    def test_no_text(self):
         text = ""
         actual = sentiment(text)
         expected = None
         self.assertEqual(actual, expected)
 
-    def test_sentiment_1(self):
-        text = "Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ"
-        actual = sentiment(text, domain="bank")
-        expected = ('CUSTOMER SUPPORT#NEGATIVE',)
+    def test_one_label_1(self):
+        text = "Xem lại vẫn thấy xúc động và tự hào về BIDV của mình!"
+        actual = [str(label) for label in sentiment(text, domain="bank")]
+        expected = ['TRADEMARK#positive']
         self.assertEqual(actual, expected)
 
-    def test_sentiment_2(self):
-        text = "bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang"
-        actual = sentiment(text, domain="bank")
-        expected = ('LOAN#NEGATIVE',)
+    def test_one_label_2(self):
+        text = "Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết"
+        actual = [str(label) for label in sentiment(text, domain="bank")]
+        expected = ['CUSTOMER_SUPPORT#negative']
         self.assertEqual(actual, expected)
 
-    def test_sentiment_3(self):
-        text = "Vừa smartbidv, vừa bidv online mà lại k dùng chung 1 tài khoản đăng nhập, rắc rối!"
-        actual = sentiment(text, domain="bank")
-        expected = ('INTERNET BANKING#NEGATIVE',)
-        self.assertEqual(actual, expected)
+    def test_multi_label_1(self):
+        text = "Dkm t chuyển vẫn bị mất phí"
+        actual = [str(label) for label in sentiment(text, domain="bank")]
+        expected = ['INTEREST_RATE#negative', 'MONEY_TRANSFER#negative']
+        self.assertEqual(sorted(actual), sorted(expected))
 
-    def test_sentiment_4(self):
-        text = "Không tin tưởng vào ngân hàng BIDV"
-        actual = sentiment(text, domain="bank")
-        expected = ('TRADEMARK#NEGATIVE',)
-        self.assertEqual(actual, expected)
-
-    def test_sentiment_5(self):
-        text = "Chương trình này của BIDV thật ý nghĩa"
-        actual = sentiment(text, domain="bank")
-        expected = ('PROMOTION#POSITIVE',)
-        self.assertEqual(actual, expected)
-
-    def test_sentiment_6(self):
-        text = "mình cũng vui vì tiết kệm được thời gian"
-        actual = sentiment(text, domain="bank")
-        expected = ('PAYMENT#POSITIVE',)
-        self.assertEqual(actual, expected)
+    def test_multi_label_2(self):
+        text = '''TUI cũng bó tay với BIDV Cần Thơ.
+                Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
+                Chán ko buồn nói. Qd có khác '''
+        actual = [str(label) for label in sentiment(text, domain="bank")]
+        expected = ['CARD#negative', 'CUSTOMER_SUPPORT#negative']
+        self.assertEqual(sorted(actual), sorted(expected))

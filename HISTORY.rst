@@ -2,6 +2,18 @@
 History
 ================================================================================
 
+1.1.16 (2019-06-15)
+--------------------------------------------------------------------------------
+
+* Bumping up version of the languageflow dependency (GH-231)
+* Update phiên bản scikit-learn 0.20.2 (GH-229)
+* Cập nhật lại các dependencies (GH-241)
+* Cập nhật mô hình trên bộ dữ liệu VNTC (GH-246)
+* Cập nhật mô hình trên bộ dữ liệu UTS2017_BANK_TC (GH-243)
+* Cập nhật mô hình trên bộ dữ liệu UTS2017_BANK_SA (GH-244)
+* Lỗi với các câu sentiment ở demo (GH-236)
+* Thống nhất cách đặt tên và quản lý model (GH-225)
+
 1.1.12 (2019-03-13)
 --------------------------------------------------------------------------------
 
