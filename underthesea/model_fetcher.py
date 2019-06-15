@@ -95,8 +95,7 @@ class ModelFetcher:
     @staticmethod
     def get_model_path(model):
         if model == UTSModel.tc_bank:
-            model_folder = Path(CACHE_ROOT) / "models" / "tc_bank"
-            return model_folder
+            return Path(CACHE_ROOT) / "models" / "tc_bank"
 
         if model == UTSModel.tc_general:
             return Path(CACHE_ROOT) / "models" / "tc_general"
