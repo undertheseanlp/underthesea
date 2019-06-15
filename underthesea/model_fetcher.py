@@ -15,6 +15,7 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 class UTSModel(Enum):
     tc_bank = "tc_bank"
     tc_general = "tc_general"
+    sa_bank = "sa_bank"
 
 
 class ModelFetcher:
@@ -55,6 +56,19 @@ class ModelFetcher:
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
                 Path(CACHE_ROOT) / cache_dir / "tc_general",
+            )
+            os.remove(model_path)
+
+        if model_name == "sa_bank":
+            url = "https://www.dropbox.com/s/yo6sf6ofpdb3hlh/sa_svm_uts2017_bank_20190611.zip?dl=1"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611",
+                Path(CACHE_ROOT) / cache_dir / "sa_bank",
             )
             os.remove(model_path)
 
@@ -99,3 +113,6 @@ class ModelFetcher:
 
         if model == UTSModel.tc_general:
             return Path(CACHE_ROOT) / "models" / "tc_general"
+
+        if model == UTSModel.sa_bank:
+            return Path(CACHE_ROOT) / "models" / "sa_bank"

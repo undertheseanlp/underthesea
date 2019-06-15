@@ -236,7 +236,10 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install future scipy numpy scikit-learn==0.19.2 joblib
+    $ pip install git+https://github.com/facebookresearch/fastText.git
+    $ pip install unidecode
+    $ underthesea download sa_general
+
 
 Usage
 
@@ -245,10 +248,10 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
-    >>> sentiment('Gọi mấy lần mà lúc nào cũng là các chuyên viên đang bận hết ạ', domain='bank')
-    ('CUSTOMER SUPPORT#NEGATIVE',)
-    >>> sentiment('bidv cho vay hay ko phu thuoc y thich cua thang tham dinh, ko co quy dinh ro rang', domain='bank')
-    ('LOAN#NEGATIVE',)
+    >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
+    ['CUSTOMER_SUPPORT#negative']
+    >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
+    ['TRADEMARK#positive']
 
 Up Coming Features
 ----------------------------------------

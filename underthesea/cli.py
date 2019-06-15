@@ -13,12 +13,6 @@ def main(args=None):
     pass
 
 
-# @main.command()
-# @click.argument('component')
-# def download(component):
-#     download_component(component)
-
-
 @main.command()
 @click.argument('model', required=True)
 def download(model):
