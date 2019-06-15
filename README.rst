@@ -237,7 +237,6 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install Cython
     $ pip install git+https://github.com/facebookresearch/fastText.git
     $ pip install unidecode
     $ underthesea download sa_general
