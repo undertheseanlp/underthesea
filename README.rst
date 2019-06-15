@@ -253,7 +253,7 @@ Usage
 
     >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
     negative
-    >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.)
+    >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
     positive
 
     >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
