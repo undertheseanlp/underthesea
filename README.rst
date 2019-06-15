@@ -203,7 +203,6 @@ Install dependencies and download default model
 
 .. code-block:: bash
 
-    $ pip install Cython
     $ pip install git+https://github.com/facebookresearch/fastText.git
     $ pip install unidecode
     $ underthesea download tc_general
