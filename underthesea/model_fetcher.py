@@ -13,8 +13,10 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 
 
 class UTSModel(Enum):
-    tc_bank = "tc_bank"
     tc_general = "tc_general"
+    tc_bank = "tc_bank"
+
+    sa_general = "sa_general"
     sa_bank = "sa_bank"
 
 
@@ -33,6 +35,19 @@ class ModelFetcher:
             print(f"Model is already existed: '{model_name}' in {model_path}")
             return
 
+        if model_name == "tc_general":
+            url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
+                Path(CACHE_ROOT) / cache_dir / "tc_general",
+            )
+            os.remove(model_path)
+
         if model_name == "tc_bank":
             url = "https://www.dropbox.com/s/prrjlypbrr6ze6p/tc_svm_uts2017_bank_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
@@ -46,16 +61,16 @@ class ModelFetcher:
             )
             os.remove(model_path)
 
-        if model_name == "tc_general":
-            url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
+        if model_name == "sa_general":
+            url = "https://www.dropbox.com/s/xfj1ity3egabv77/sa_svm_aivivn2019_20190615.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
+            model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
             cache_folder = Path(CACHE_ROOT) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
-                Path(CACHE_ROOT) / cache_dir / "tc_general",
+                Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615",
+                Path(CACHE_ROOT) / cache_dir / "sa_general",
             )
             os.remove(model_path)
 
@@ -113,6 +128,9 @@ class ModelFetcher:
 
         if model == UTSModel.tc_general:
             return Path(CACHE_ROOT) / "models" / "tc_general"
+
+        if model == UTSModel.sa_general:
+            return Path(CACHE_ROOT) / "models" / "sa_general"
 
         if model == UTSModel.sa_bank:
             return Path(CACHE_ROOT) / "models" / "sa_bank"
