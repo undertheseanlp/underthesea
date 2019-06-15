@@ -11,8 +11,8 @@ FORMAT = '%(message)s'
 logging.basicConfig(format=FORMAT)
 logger = logging.getLogger('underthesea')
 
-sys.path.insert(0, dirname(__file__))
-model_path = ModelFetcher.get_model_path(UTSModel.sa_bank)
+sys.path.insert(0, (dirname(__file__)))
+model_path = ModelFetcher.get_model_path(UTSModel.sa_general)
 classifier = None
 
 
@@ -25,9 +25,13 @@ def sentiment(text):
         else:
             logger.error(
                 f"Could not load model at {model_path}.\n"
-                f"Download model with \"underthesea download {UTSModel.sa_bank.value}\".")
+                f"Download model with \"underthesea download {UTSModel.sa_general.value}\".")
             sys.exit(1)
     sentence = Sentence(text)
     classifier.predict(sentence)
-    labels = sentence.labels
-    return [label.value for label in labels]
+    label = sentence.labels[0]
+    if label == "1":
+        label = "negative"
+    if label == "0":
+        label = "positive"
+    return label

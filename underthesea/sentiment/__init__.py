@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
-from underthesea.sentiment import bank
 
 
-def sentiment(X, domain=None):
+def sentiment(X, domain='general'):
     """
     Sentiment Analysis
 
@@ -31,5 +30,9 @@ def sentiment(X, domain=None):
     """
     if X == "":
         return None
+    if domain == 'general':
+        from underthesea.sentiment.general import sentiment
+        return sentiment(X)
     if domain == 'bank':
-        return bank.sentiment(X)
+        from underthesea.sentiment.bank import sentiment
+        return sentiment(X)
