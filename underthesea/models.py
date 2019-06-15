@@ -1,4 +1,11 @@
 REPO = {
+    "tc_general": {
+        "cache_dir": "models",
+        "type": "Classification",
+        "license": "Open",
+        "year": "2019",
+        "model_path": "tc_general"
+    },
     "tc_bank": {
         "cache_dir": "models",
         "type": "Classification",
@@ -6,12 +13,12 @@ REPO = {
         "year": "2019",
         "model_path": "tc_bank"
     },
-    "tc_general": {
+    "sa_general": {
         "cache_dir": "models",
-        "type": "Classification",
+        "type": "Sentiment",
         "license": "Open",
         "year": "2019",
-        "model_path": "tc_general"
+        "model_path": "sa_general"
     },
     "sa_bank": {
         "cache_dir": "models",

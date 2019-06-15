@@ -239,6 +239,7 @@ Install dependencies
 
     $ pip install git+https://github.com/facebookresearch/fastText.git
     $ pip install unidecode
+    $ underthesea download sa_general
     $ underthesea download sa_bank
 
 
@@ -249,6 +250,12 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
+
+    >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
+    negative
+    >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.)
+    positive
+
     >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
