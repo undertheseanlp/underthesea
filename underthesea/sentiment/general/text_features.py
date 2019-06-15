@@ -4,7 +4,6 @@ import string
 import re
 from underthesea.word_tokenize.regex_tokenize import tokenize
 
-
 negative_emoticons = {':(', '☹', '❌', '👎', '👹', '💀', '🔥', '🤔', '😏', '😐', '😑', '😒', '😓', '😔', '😕', '😖',
                       '😞', '😟', '😠', '😡', '😢', '😣', '😤', '😥', '😧', '😨', '😩', '😪', '😫', '😭', '😰', '😱',
                       '😳', '😵', '😶', '😾', '🙁', '🙏', '🚫', '>:[', ':-(', ':(', ':-c', ':c', ':-<', ':っC', ':<',
@@ -61,7 +60,7 @@ class RemoveDuplicate(BaseEstimator, TransformerMixin):
             result.append(s)
         return result
 
-    def fit(self,x, y=None):
+    def fit(self, x, y=None):
         return self
 
 
