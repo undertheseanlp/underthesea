@@ -73,7 +73,7 @@ Usage
 .. code-block:: python
 
     >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_tokenize
+    >>> from underthesea import sent_tokenize
     >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
 
     >>> sent_tokenize(text)
@@ -214,12 +214,12 @@ Usage
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import classify
+
     >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
     ['The thao']
     >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
     ['Kinh doanh']
-    >>> classify('Đánh giá “rạp hát tại gia” Samsung Soundbar Sound+ MS750')
-    ['Vi tinh']
+
     >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
     ['INTEREST_RATE']
 
@@ -239,7 +239,7 @@ Install dependencies
 
     $ pip install git+https://github.com/facebookresearch/fastText.git
     $ pip install unidecode
-    $ underthesea download sa_general
+    $ underthesea download sa_bank
 
 
 Usage
