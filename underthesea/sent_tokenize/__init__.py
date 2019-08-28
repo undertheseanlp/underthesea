@@ -5,8 +5,10 @@ from os.path import join, dirname
 
 from nltk import PunktSentenceTokenizer
 
+MODEL = None
 
-def sent_tokenize(text):
+def _load_model():
+    global MODEL
     model_path = join(dirname(__file__), 'st_kiss-strunk-2006_2019_01_13.pkl')
     with open(model_path, 'rb') as fs:
         punkt_param = pickle.load(fs)
@@ -25,5 +27,11 @@ def sent_tokenize(text):
     for abbrev_type in string.ascii_lowercase:
         punkt_param.abbrev_types.add(abbrev_type)
     tokenizer = PunktSentenceTokenizer(punkt_param)
-    sentences = tokenizer.sentences_from_text(text)
+    MODEL = tokenizer
+
+def sent_tokenize(text):
+    if MODEL is None:
+        _load_model()
+    
+    sentences = MODEL.sentences_from_text(text)
     return sentences
