@@ -5,7 +5,9 @@ from os.path import join, dirname
 
 from nltk import PunktSentenceTokenizer
 
+
 MODEL = None
+
 
 def _load_model():
     global MODEL
@@ -28,6 +30,7 @@ def _load_model():
         punkt_param.abbrev_types.add(abbrev_type)
     tokenizer = PunktSentenceTokenizer(punkt_param)
     MODEL = tokenizer
+
 
 def sent_tokenize(text):
     if MODEL is None:
