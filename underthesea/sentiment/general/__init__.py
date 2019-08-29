@@ -1,24 +1,22 @@
 import logging
 import os
-from os.path import dirname
 import sys
 from languageflow.data import Sentence
 from languageflow.models.text_classifier import TextClassifier
 from underthesea.model_fetcher import ModelFetcher, UTSModel
-
+from . import text_features
 
 FORMAT = '%(message)s'
 logging.basicConfig(format=FORMAT)
 logger = logging.getLogger('underthesea')
 
-sys.path.insert(0, (dirname(__file__)))
+sys.modules['text_features'] = text_features
 model_path = ModelFetcher.get_model_path(UTSModel.sa_general)
 classifier = None
 
 
 def sentiment(text):
     global classifier
-
     if not classifier:
         if os.path.exists(model_path):
             classifier = TextClassifier.load(model_path)
