@@ -3,7 +3,7 @@ import os
 import sys
 from os.path import dirname
 
-from languageflow.data import Sentence
+from underthesea.data import Sentence
 from languageflow.models.text_classifier import TextClassifier
 
 from underthesea.model_fetcher import ModelFetcher, UTSModel
