@@ -75,11 +75,11 @@ class TaggedCorpus:
         if auto_remove:
             try:
                 shutil.rmtree(output_folder)
-            except:
+            except Exception:
                 pass
         try:
             mkdir(output_folder)
-        except:
+        except Exception:
             pass
         tokens = [token for sublist in self.sentences for token in sublist]
         df = pd.DataFrame(tokens)

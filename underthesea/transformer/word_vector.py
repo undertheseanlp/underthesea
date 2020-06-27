@@ -34,8 +34,7 @@ class WordVectorTransformer(Transformer):
         return len(self.vocab) + self.ns
 
     def _doc2index(self, document):
-        output = [self.word2index[token]
-                    if token in self.vocab else self.unknown_value for
+        output = [self.word2index[token] if token in self.vocab else self.unknown_value for
                   token in document]
         if self.padding == 'max':
             if len(output) < self.max_length:

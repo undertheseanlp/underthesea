@@ -49,7 +49,7 @@ class TaggedTransformer:
                 else:
                     try:
                         word = s[i + index1][column]
-                    except:
+                    except Exception:
                         pass
                 if func is not None:
                     result = functions[func](word)

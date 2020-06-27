@@ -1,5 +1,6 @@
 import sys
 
+
 class NumberRemover:
     """
     Remove numbers in documents
