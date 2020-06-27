@@ -25,12 +25,9 @@ class TaggedTransformer:
         for i, token in enumerate(s):
             tmp = []
             for template in self.templates:
-                debug = True
                 index1, index2, column, func, token_syntax = template
-                if debug:
-                    prefix = "%s=" % token_syntax
-                else:
-                    prefix = ""
+                prefix = "%s=" % token_syntax
+
                 if i + index1 < 0:
                     result = "%sBOS" % prefix
                     tmp.append(result)
