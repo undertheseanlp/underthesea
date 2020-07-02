@@ -4,7 +4,7 @@ import sys
 from os.path import dirname
 
 from underthesea.data import Sentence
-from languageflow.models.text_classifier import TextClassifier
+from underthesea.models_lf.text_classifier import TextClassifier
 
 from underthesea.model_fetcher import ModelFetcher, UTSModel
 
