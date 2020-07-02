@@ -3,8 +3,8 @@ import sys
 from os.path import dirname
 import logging
 from underthesea.data import Sentence
-from languageflow.models.text_classifier import TextClassifier
 from underthesea.model_fetcher import UTSModel, ModelFetcher
+from underthesea.models_lf.text_classifier import TextClassifier
 
 FORMAT = '%(message)s'
 logging.basicConfig(format=FORMAT)

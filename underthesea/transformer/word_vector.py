@@ -1,6 +1,6 @@
 from functools import reduce
 
-from languageflow.transformer import Transformer
+from underthesea.transformer import Transformer
 
 
 class WordVectorTransformer(Transformer):

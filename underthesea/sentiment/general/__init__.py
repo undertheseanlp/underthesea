@@ -2,8 +2,8 @@ import logging
 import os
 import sys
 from underthesea.data import Sentence
-from languageflow.models.text_classifier import TextClassifier
 from underthesea.model_fetcher import ModelFetcher, UTSModel
+from underthesea.models_lf.text_classifier import TextClassifier
 from . import text_features
 
 FORMAT = '%(message)s'

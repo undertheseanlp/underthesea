@@ -1,7 +1,7 @@
 from sklearn import feature_extraction
 import numpy as np
 
-from languageflow.transformer.count import CountVectorizer
+from underthesea.transformer.count import CountVectorizer
 
 
 class TfidfVectorizer(feature_extraction.text.TfidfVectorizer):
