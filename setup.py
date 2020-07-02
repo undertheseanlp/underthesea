@@ -19,7 +19,11 @@ install_requires = [
     'Click>=6.0',
     'python-crfsuite==0.9.6',
     'nltk>=3.4,<3.5',
-    'languageflow==1.1.13a1'
+    'tabulate',
+    'tqdm',
+    'requests',
+    'joblib==0.13.2',
+    'scikit-learn==0.20.3'
 ]
 
 tests_require = [

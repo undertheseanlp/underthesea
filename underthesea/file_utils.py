@@ -1,5 +1,5 @@
 """
-Utilities for working with the local dataset cache. Copied from flair
+Utilities for working with the local data set cache. Copied from flair
 """
 from pathlib import Path
 import os

@@ -1,4 +1,4 @@
-from languageflow.transformer.tagged import TaggedTransformer
+from underthesea.transformer.tagged import TaggedTransformer
 from os.path import join, dirname
 import pycrfsuite
 
