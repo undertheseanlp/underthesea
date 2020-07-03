@@ -203,8 +203,6 @@ Install dependencies and download default model
 
 .. code-block:: bash
 
-    $ pip install git+https://github.com/facebookresearch/fastText.git@v0.2.0
-    $ pip install unidecode
     $ underthesea download tc_general
     $ underthesea download tc_bank
 
@@ -237,8 +235,6 @@ Install dependencies
 
 .. code-block:: bash
 
-    $ pip install git+https://github.com/facebookresearch/fastText.git@v0.2.0
-    $ pip install unidecode
     $ underthesea download sa_general
     $ underthesea download sa_bank
 

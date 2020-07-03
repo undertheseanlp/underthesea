@@ -1,7 +1,7 @@
 from enum import Enum
 from os.path import join
 import json
-import fastText
+# import fastText
 import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
 
@@ -47,11 +47,12 @@ class TextClassifier(Model):
         if metadata['estimator'] == 'PIPELINE':
             estimator = TEXT_CLASSIFIER_ESTIMATOR.PIPELINE
 
-        if estimator == TEXT_CLASSIFIER_ESTIMATOR.FAST_TEXT:
-            model_file = join(model_folder, "model.bin")
-            classifier = TextClassifier(estimator=TEXT_CLASSIFIER_ESTIMATOR.FAST_TEXT)
-            classifier.ft = fastText.load_model(model_file)
-            return classifier
+        # GH-304: remove fasttext
+        # if estimator == TEXT_CLASSIFIER_ESTIMATOR.FAST_TEXT:
+        #     model_file = join(model_folder, "model.bin")
+        #     classifier = TextClassifier(estimator=TEXT_CLASSIFIER_ESTIMATOR.FAST_TEXT)
+        #     classifier.ft = fastText.load_model(model_file)
+        #     return classifier
 
         if estimator == TEXT_CLASSIFIER_ESTIMATOR.SVC:
             classifier = TextClassifier(estimator=TEXT_CLASSIFIER_ESTIMATOR.SVC)
