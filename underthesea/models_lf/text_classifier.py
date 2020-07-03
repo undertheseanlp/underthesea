@@ -1,7 +1,7 @@
 from enum import Enum
 from os.path import join
 import json
-import fastText
+# import fastText
 import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
 

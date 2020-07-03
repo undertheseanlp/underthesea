@@ -23,7 +23,8 @@ install_requires = [
     'tqdm',
     'requests',
     'joblib==0.13.2',
-    'scikit-learn==0.20.3'
+    'scikit-learn==0.20.3',
+    'unidecode'
 ]
 
 tests_require = [
