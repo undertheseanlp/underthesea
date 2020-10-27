@@ -6,15 +6,20 @@ from underthesea.cli import download_data, list_data, remove_data
 
 class TestCliData(TestCase):
     @skip
-    def test_download_data(self):
+    def test_download_data_raw_file(self):
         runner = CliRunner()
-        result = runner.invoke(download_data, ['VNTQ_SMALL'])
+        # data_name = "VNTQ_BIG"
+        # data_name = "VNTQ_SMALL"
+        data_name = "VNESES"
+        result = runner.invoke(download_data, [data_name])
         print(result.output)
 
-    # @skip
-    def test_download_data_2(self):
+    @skip
+    def test_download_data_zip_file(self):
         runner = CliRunner()
-        result = runner.invoke(download_data, ['VNESES'])
+        data_name = "UTS2017-BANK"
+        # url = ""
+        result = runner.invoke(download_data, [data_name])
         print(result.output)
 
     @skip

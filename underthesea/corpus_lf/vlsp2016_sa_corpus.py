@@ -26,7 +26,7 @@ class VLSP2016SACorpus:
     def reset_folder():
         try:
             shutil.rmtree(VLSP2016SACorpus.data_folder)
-        except:
+        except Exception:
             pass
         os.makedirs(VLSP2016SACorpus.data_folder)
 

@@ -52,12 +52,6 @@ class DisplayablePath(object):
     def _default_criteria(cls, path):
         return True
 
-    @property
-    def displayname(self):
-        if self.path.is_dir():
-            return self.path.name + '/'
-        return self.path.name
-
     def displayable(self):
         if self.parent is None:
             return self.displayname
@@ -104,14 +98,14 @@ class FolderStructure:
 
     @staticmethod
     def check_structure(sample_path, current_path, root_sample_path=None, root_current_path=None):
-        if root_sample_path == None:
+        if root_sample_path is None:
             root_sample_path = sample_path
 
-        if root_current_path == None:
+        if root_current_path is None:
             root_current_path = current_path
 
-        if (Path(sample_path).is_file() != Path(current_path).is_file()) or (
-            Path(sample_path).is_dir() != Path(current_path).is_dir()):
+        if (Path(sample_path).is_file() != Path(current_path).is_file()) or \
+           (Path(sample_path).is_dir() != Path(current_path).is_dir()):
             FolderStructure.show_folder_structure_incorrect(sample_path, current_path, root_sample_path,
                                                             root_current_path)
 

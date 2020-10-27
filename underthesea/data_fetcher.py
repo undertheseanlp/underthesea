@@ -29,11 +29,34 @@ class NLPData(Enum):
 class DataFetcher:
 
     @staticmethod
+    def download_raw_file_to_cache(repo_data):
+        url = repo_data["url"]
+        url_filename = repo_data["url_filename"]
+        cache_dir = repo_data["cache_dir"]
+        filepath = repo_data["filepath"]
+        cached_path(url, cache_dir=cache_dir)
+        shutil.move(Path(CACHE_ROOT) / cache_dir / url_filename,
+                    Path(CACHE_ROOT) / cache_dir / filepath)
+
+    @staticmethod
+    def download_zip_file_to_cache(repo_data):
+        url = repo_data["url"]
+        cache_dir = repo_data["cache_dir"]
+        url_filename = repo_data["url_filename"]
+        cached_path(url, cache_dir=cache_dir)
+        filepath = Path(CACHE_ROOT) / cache_dir / url_filename
+        cache_folder = Path(CACHE_ROOT) / cache_dir
+        zip = zipfile.ZipFile(filepath)
+        zip.extractall(cache_folder)
+        os.remove(filepath)
+
+    @staticmethod
     def download_data(data, url):
         if data not in REPO:
             print(f"No matching distribution found for '{data}'")
             return
 
+        repo_data = REPO[data]
         filepath = REPO[data]["filepath"]
         cache_dir = REPO[data]["cache_dir"]
         filepath = Path(CACHE_ROOT) / cache_dir / filepath
@@ -41,129 +64,21 @@ class DataFetcher:
             print(f"Data is already existed: '{data}' in {filepath}")
             return
 
-        if data == "VNESES":
-            url = "https://www.dropbox.com/s/m4agkrbjuvnq4el/VNESEcorpus.txt?dl=1"
-            cached_path(url, cache_dir=cache_dir)
-            shutil.move(Path(CACHE_ROOT) / cache_dir / "VNESEcorpus.txt?dl=1",
-                        Path(CACHE_ROOT) / cache_dir / filepath)
+        if data in set(["VNESES", "VNTQ_SMALL", "VNTQ_BIG"]):
+            DataFetcher.download_raw_file_to_cache(repo_data)
 
-        if data == "VNTQ_SMALL":
-            url = "https://www.dropbox.com/s/b0z17fa8hm6u1rr/VNTQcorpus-small.txt?dl=1"
-            cached_path(url, cache_dir=cache_dir)
-            shutil.move(Path(CACHE_ROOT) / cache_dir / "VNTQcorpus-small.txt?dl=1",
-                        Path(CACHE_ROOT) / cache_dir / filepath)
-
-        if data == "VNTQ_BIG":
-            url = "https://www.dropbox.com/s/t4z90vs3qhpq9wg/VNTQcorpus-big.txt?dl=1"
-            cached_path(url, cache_dir=cache_dir)
-            shutil.move(Path(CACHE_ROOT) / cache_dir / "VNTQcorpus-big.txt?dl=1",
-                        Path(CACHE_ROOT) / cache_dir / filepath)
-
-        if data == "VNTC":
-            url = "https://www.dropbox.com/s/4iw3xtnkd74h3pj/VNTC.zip?dl=1"
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VNTC.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2013-WTK":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2013-WTK.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2013-POS":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2013-POS.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VTB-CHUNK":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VTB-CHUNK.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2016-NER":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2016-NER.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2018-NER":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2018-NER.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "AIVIVN2019_SA":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "AIVIVN2019_SA.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2016_SA":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2016_SA.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "VLSP2018_SA":
-            if not url:
-                print(f"\n{MISS_URL_ERROR}")
-                return
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "VLSP2018_SA.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
-
-        if data == "UTS2017_BANK":
-            url = "https://www.dropbox.com/s/xl8sof2i1c35n62/UTS2017_BANK.zip?dl=1"
-            cached_path(url, cache_dir=cache_dir)
-            filepath = Path(CACHE_ROOT) / cache_dir / "UTS2017_BANK.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
-            zip = zipfile.ZipFile(filepath)
-            zip.extractall(cache_folder)
-            os.remove(filepath)
+        zip_datasets = [
+            "VNTC", "VLSP2013-WTK", "VLSP2013-POS", "VTB-CHUNK",
+            "VLSP2016-NER", "VLSP2018-NER", "AIVIVN2019-SA",
+            "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK"
+        ]
+        if data in set(zip_datasets):
+            if repo_data["license"] == "Close":
+                if not url:
+                    print(f"\n{MISS_URL_ERROR}")
+                    return
+                repo_data["url"] = url
+            DataFetcher.download_zip_file_to_cache(repo_data)
 
     @staticmethod
     def list(all):

@@ -57,6 +57,7 @@ Usage
 * `5. Named Entity Recognition <#5-named-entity-recognition>`_
 * `6. Text Classification <#6-text-classification>`_
 * `7. Sentiment Analysis <#7-sentiment-analysis>`_
+* `8. Vietnamese NLP Resources <#8-vietnamese-nlp-resources>`_
 
 ****************************************
 1. Sentence Segmentation
@@ -199,7 +200,7 @@ Usage
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification
 
-Install dependencies and download default model
+Download models
 
 .. code-block:: bash
 
@@ -231,7 +232,7 @@ Usage
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/sentiment
 
-Install dependencies
+Download models
 
 .. code-block:: bash
 
@@ -256,6 +257,17 @@ Usage
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
     ['TRADEMARK#positive']
+
+****************************************
+8. Vietnamese NLP Resources
+****************************************
+
+List resources
+
+.. code-block:: bash
+
+    $ underthesea list_data
+    $ underthesea list_data --all
 
 Up Coming Features
 ----------------------------------------
