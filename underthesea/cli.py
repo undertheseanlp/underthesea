@@ -4,6 +4,7 @@ import os
 import click
 import platform
 
+from underthesea.data_fetcher import DataFetcher
 from underthesea.model_fetcher import ModelFetcher
 
 
@@ -11,6 +12,25 @@ from underthesea.model_fetcher import ModelFetcher
 def main(args=None):
     """Console script for underthesea"""
     pass
+
+
+@main.command()
+@click.option('-a', '--all', is_flag=True, required=False)
+def list_data(all):
+    DataFetcher.list(all)
+
+
+@main.command()
+@click.argument('dataset', required=True)
+@click.argument('url', required=False)
+def download_data(dataset, url):
+    DataFetcher.download_data(dataset, url)
+
+
+@main.command()
+@click.argument('data', required=True)
+def remove_data(data):
+    DataFetcher.remove(data)
 
 
 @main.command()
