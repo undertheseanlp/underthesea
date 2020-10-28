@@ -1,11 +1,20 @@
 # -*- coding: utf-8 -*-
 import os
+import sys
 
 __author__ = """Vu Anh"""
-__email__ = 'brother.rain.1024@gmail.com'
+__email__ = 'anhv.ict91@gmail.com'
+
+# Check python version
+try:
+    version_info = sys.version_info
+    if version_info < (3, 6, 0):
+        raise RuntimeError("underthesea requires Python 3.6 or later")
+except Exception:
+    pass
 
 ###########################################################
-# Metadata
+# METADATA
 ###########################################################
 
 # Version
