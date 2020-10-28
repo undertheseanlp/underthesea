@@ -22,7 +22,7 @@ install_requires = [
     'tabulate',
     'tqdm',
     'requests',
-    'joblib==0.13.2',
+    'joblib',
     'scikit-learn==0.20.3',
     'unidecode'
 ]
