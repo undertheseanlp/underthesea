@@ -1,12 +1,12 @@
 from enum import Enum
 from os.path import join
 import json
-# import fastText
 import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
-import warnings
-warnings.filterwarnings("ignore", ".*", UserWarning)
 from underthesea.data_lf import Sentence, Label
+import warnings
+
+warnings.filterwarnings("ignore", ".*", UserWarning)
 
 
 class Model:
