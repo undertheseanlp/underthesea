@@ -4,7 +4,8 @@ import json
 # import fastText
 import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
-
+import warnings
+warnings.filterwarnings("ignore", ".*", UserWarning)
 from underthesea.data_lf import Sentence, Label
 
 
