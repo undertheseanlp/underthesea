@@ -29,21 +29,21 @@ Underthesea - Vietnamese NLP Toolkit
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Free software   | GNU General Public License v3                                                                                       |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Live demo       | `undertheseanlp.com <http://undertheseanlp.com/>`_                                                                  |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Colab notebooks | stable: `v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_                      |
-|                 | ,                                                                                                                   |
-|                 | latest: `v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_                       |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Documentation   | `Underthesea Documentation <http://underthesea.readthedocs.io/en/latest/>`_                                         |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Facebook        | `Underthesea Page <https://www.facebook.com/undertheseanlp/>`_                                                      |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
-| Youtube         | `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_                               |
-+-----------------+---------------------------------------------------------------------------------------------------------------------+
++-----------------+------------------------------------------------------------------------------------------------+
+| Free software   | GNU General Public License v3                                                                  |
++-----------------+------------------------------------------------------------------------------------------------+
+| Live demo       | `undertheseanlp.com <http://undertheseanlp.com/>`_                                             |
++-----------------+------------------------------------------------------------------------------------------------+
+| Colab notebooks | stable: `v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_ |
+|                 | ,                                                                                              |
+|                 | latest: `v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_  |
++-----------------+------------------------------------------------------------------------------------------------+
+| Documentation   | `Underthesea Documentation <http://underthesea.readthedocs.io/en/latest/>`_                    |
++-----------------+------------------------------------------------------------------------------------------------+
+| Facebook        | `Underthesea Page <https://www.facebook.com/undertheseanlp/>`_                                 |
++-----------------+------------------------------------------------------------------------------------------------+
+| Youtube         | `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_          |
++-----------------+------------------------------------------------------------------------------------------------+
 
 * Free software: GNU General Public License v3
 * Live demo: `undertheseanlp.com <http://undertheseanlp.com/>`_
