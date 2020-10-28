@@ -17,13 +17,13 @@ with io.open('HISTORY.rst') as history_file:
 
 install_requires = [
     'Click>=6.0',
-    'python-crfsuite==0.9.6',
+    'python-crfsuite>=0.9.6',
     'nltk>=3.4,<3.5',
     'tabulate',
     'tqdm',
     'requests',
-    'joblib==0.13.2',
-    'scikit-learn==0.20.3',
+    'joblib',
+    'scikit-learn>=0.20,<0.22',
     'unidecode'
 ]
 
