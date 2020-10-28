@@ -1,26 +1,26 @@
 REPO = {
-    "tc_general": {
+    "TC_GENERAL": {
         "cache_dir": "models",
         "type": "Classification",
         "license": "Open",
         "year": "2019",
         "model_path": "tc_general"
     },
-    "tc_bank": {
+    "TC_BANK": {
         "cache_dir": "models",
         "type": "Classification",
         "license": "Open",
         "year": "2019",
         "model_path": "tc_bank"
     },
-    "sa_general": {
+    "SA_GENERAL": {
         "cache_dir": "models",
         "type": "Sentiment",
         "license": "Open",
         "year": "2019",
         "model_path": "sa_general"
     },
-    "sa_bank": {
+    "SA_BANK": {
         "cache_dir": "models",
         "type": "Sentiment",
         "license": "Open",
