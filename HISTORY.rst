@@ -2,9 +2,11 @@
 History
 ================================================================================
 
-1.2.0 (2020-10-28)
+1.2.1 (2020-10-28)
 --------------------------------------------------------------------------------
 
+* Sanity check python version (GH-320)
+* Handle exception case in sentiment module (GH-321)
 * Cập nhật quản lý resources từ languageflow (GH-295)
 * Loại bỏ languageflow trong quá trình cài đặt (GH-295)
 * Cập nhật phiên bản fasttext (GH-304)
