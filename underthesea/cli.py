@@ -70,6 +70,7 @@ def info():
     print("                 ner : OK")
     print("            classify : OK")
     print("           sentiment : OK")
+    print("           resources : OK")
 
 
 if __name__ == "__main__":
