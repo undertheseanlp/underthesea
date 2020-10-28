@@ -29,9 +29,26 @@ Underthesea - Vietnamese NLP Toolkit
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
++-----------------+------------------------------------------------------------------------------------------------+
+| Free software   | GNU General Public License v3                                                                  |
++-----------------+------------------------------------------------------------------------------------------------+
+| Live demo       | `undertheseanlp.com <http://undertheseanlp.com/>`_                                             |
++-----------------+------------------------------------------------------------------------------------------------+
+| Colab notebooks | stable: `v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_ |
+|                 | ,                                                                                              |
+|                 | latest: `v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_  |
++-----------------+------------------------------------------------------------------------------------------------+
+| Documentation   | `Underthesea Documentation <http://underthesea.readthedocs.io/en/latest/>`_                    |
++-----------------+------------------------------------------------------------------------------------------------+
+| Facebook        | `Underthesea Page <https://www.facebook.com/undertheseanlp/>`_                                 |
++-----------------+------------------------------------------------------------------------------------------------+
+| Youtube         | `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_          |
++-----------------+------------------------------------------------------------------------------------------------+
+
 * Free software: GNU General Public License v3
-* Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Live demo: `undertheseanlp.com <http://undertheseanlp.com/>`_
+* Colab Notebooks: `stable: v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_, `latest: v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2#scrollTo=qFOO2WqcKgYr>`_
+* Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 * Youtube: `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_
 
@@ -42,7 +59,7 @@ To install underthesea, simply:
 
 .. code-block:: bash
 
-    $ pip install underthesea
+    $ pip install underthesea
     ✨🍰✨
 
 Satisfaction, guaranteed.
@@ -57,6 +74,7 @@ Usage
 * `5. Named Entity Recognition <#5-named-entity-recognition>`_
 * `6. Text Classification <#6-text-classification>`_
 * `7. Sentiment Analysis <#7-sentiment-analysis>`_
+* `8. Vietnamese NLP Resources <#8-vietnamese-nlp-resources>`_
 
 ****************************************
 1. Sentence Segmentation
@@ -199,12 +217,12 @@ Usage
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification
 
-Install dependencies and download default model
+Download models
 
 .. code-block:: bash
 
-    $ underthesea download tc_general
-    $ underthesea download tc_bank
+    $ underthesea download-model TC_GENERAL
+    $ underthesea download-model TC_BANK
 
 Usage
 
@@ -231,12 +249,12 @@ Usage
 .. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/sentiment
 
-Install dependencies
+Download models
 
 .. code-block:: bash
 
-    $ underthesea download sa_general
-    $ underthesea download sa_bank
+    $ underthesea download-model SA_GENERAL
+    $ underthesea download-model SA_BANK
 
 
 Usage
@@ -256,6 +274,33 @@ Usage
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
     ['TRADEMARK#positive']
+
+****************************************
+8. Vietnamese NLP Resources
+****************************************
+
+List resources
+
+.. code-block:: bash
+
+    $ underthesea list-data
+    | Name         | Type        | License   |   Year | Directory             |
+    |--------------+-------------+-----------+--------+-----------------------|
+    | UTS2017-BANK | Categorized | Open      |   2017 | datasets/UTS2017-BANK |
+    | VNESES       | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTQ_BIG     | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTQ_SMALL   | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTC         | Categorized | Open      |   2007 | datasets/VNTC         |
+
+    $ underthesea list-data --all
+
+Download resources
+
+.. code-block:: bash
+
+    $ underthesea download-data VNTC
+    100%|██████████| 74846806/74846806 [00:09<00:00, 8243779.16B/s]
+    Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 
 Up Coming Features
 ----------------------------------------

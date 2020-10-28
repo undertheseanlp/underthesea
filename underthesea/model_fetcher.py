@@ -13,17 +13,17 @@ MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to
 
 
 class UTSModel(Enum):
-    tc_general = "tc_general"
-    tc_bank = "tc_bank"
+    tc_general = "TC_GENERAL"
+    tc_bank = "TC_BANK"
 
-    sa_general = "sa_general"
-    sa_bank = "sa_bank"
+    sa_general = "SA_GENERAL"
+    sa_bank = "SA_BANK"
 
 
 class ModelFetcher:
 
     @staticmethod
-    def download_model(model_name):
+    def download(model_name):
         if model_name not in REPO:
             print(f"No matching distribution found for '{model_name}'")
             return
@@ -35,7 +35,7 @@ class ModelFetcher:
             print(f"Model is already existed: '{model_name}' in {model_path}")
             return
 
-        if model_name == "tc_general":
+        if model_name == "TC_GENERAL":
             url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
@@ -44,11 +44,11 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
-                Path(CACHE_ROOT) / cache_dir / "tc_general",
+                Path(CACHE_ROOT) / cache_dir / "TC_GENERAL",
             )
             os.remove(model_path)
 
-        if model_name == "tc_bank":
+        if model_name == "TC_BANK":
             url = "https://www.dropbox.com/s/prrjlypbrr6ze6p/tc_svm_uts2017_bank_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607.zip?dl=1"
@@ -57,11 +57,11 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607",
-                Path(CACHE_ROOT) / cache_dir / "tc_bank",
+                Path(CACHE_ROOT) / cache_dir / "TC_BANK",
             )
             os.remove(model_path)
 
-        if model_name == "sa_general":
+        if model_name == "SA_GENERAL":
             url = "https://www.dropbox.com/s/xfj1ity3egabv77/sa_svm_aivivn2019_20190615.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
@@ -70,11 +70,11 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615",
-                Path(CACHE_ROOT) / cache_dir / "sa_general",
+                Path(CACHE_ROOT) / cache_dir / "SA_GENERAL",
             )
             os.remove(model_path)
 
-        if model_name == "sa_bank":
+        if model_name == "SA_BANK":
             url = "https://www.dropbox.com/s/yo6sf6ofpdb3hlh/sa_svm_uts2017_bank_20190611.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
@@ -83,7 +83,7 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611",
-                Path(CACHE_ROOT) / cache_dir / "sa_bank",
+                Path(CACHE_ROOT) / cache_dir / "SA_BANK",
             )
             os.remove(model_path)
 
@@ -124,13 +124,13 @@ class ModelFetcher:
     @staticmethod
     def get_model_path(model):
         if model == UTSModel.tc_bank:
-            return Path(CACHE_ROOT) / "models" / "tc_bank"
+            return Path(CACHE_ROOT) / "models" / "TC_BANK"
 
         if model == UTSModel.tc_general:
-            return Path(CACHE_ROOT) / "models" / "tc_general"
+            return Path(CACHE_ROOT) / "models" / "TC_GENERAL"
 
         if model == UTSModel.sa_general:
-            return Path(CACHE_ROOT) / "models" / "sa_general"
+            return Path(CACHE_ROOT) / "models" / "SA_GENERAL"
 
         if model == UTSModel.sa_bank:
-            return Path(CACHE_ROOT) / "models" / "sa_bank"
+            return Path(CACHE_ROOT) / "models" / "SA_BANK"
