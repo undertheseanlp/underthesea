@@ -30,9 +30,9 @@ Underthesea - Vietnamese NLP Toolkit
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
 * Free software: GNU General Public License v3
-* Colab Notebooks: `Stable: v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_, `Latest: v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2#scrollTo=qFOO2WqcKgYr>`_
-* Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Live demo: `undertheseanlp.com <http://undertheseanlp.com/>`_
+* Colab Notebooks: `stable: v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_, `latest: v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2#scrollTo=qFOO2WqcKgYr>`_
+* Documentation: `https://underthesea.readthedocs.io <http://underthesea.readthedocs.io/en/latest/>`_
 * Facebook Page: `https://www.facebook.com/undertheseanlp/ <https://www.facebook.com/undertheseanlp/>`_
 * Youtube: `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_
 
@@ -43,7 +43,7 @@ To install underthesea, simply:
 
 .. code-block:: bash
 
-    $ pip install underthesea
+    $ pip install underthesea
     ✨🍰✨
 
 Satisfaction, guaranteed.
