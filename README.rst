@@ -204,8 +204,8 @@ Download models
 
 .. code-block:: bash
 
-    $ underthesea download tc_general
-    $ underthesea download tc_bank
+    $ underthesea download_model TC_GENERAL
+    $ underthesea download_model TC_BANK
 
 Usage
 
@@ -236,8 +236,8 @@ Download models
 
 .. code-block:: bash
 
-    $ underthesea download sa_general
-    $ underthesea download sa_bank
+    $ underthesea download SA_GENERAL
+    $ underthesea download SA_BANK
 
 
 Usage
@@ -266,8 +266,23 @@ List resources
 
 .. code-block:: bash
 
-    $ underthesea list_data
+    $ underthesea list-data
+    | Name         | Type        | License   |   Year | Directory             |
+    |--------------+-------------+-----------+--------+-----------------------|
+    | UTS2017-BANK | Categorized | Open      |   2017 | datasets/UTS2017-BANK |
+    | VNESES       | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTQ_BIG     | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTQ_SMALL   | Plaintext   | Open      |   2012 | datasets/LTA          |
+    | VNTC         | Categorized | Open      |   2007 | datasets/VNTC         |
+
     $ underthesea list_data --all
+
+Download resources
+
+.. code-block:: bash
+
+    $ underthesea download-data VNTC
+    Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 
 Up Coming Features
 ----------------------------------------

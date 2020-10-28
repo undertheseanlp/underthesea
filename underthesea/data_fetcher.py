@@ -61,7 +61,7 @@ class DataFetcher:
         cache_dir = REPO[data]["cache_dir"]
         filepath = Path(CACHE_ROOT) / cache_dir / filepath
         if Path(filepath).exists():
-            print(f"Data is already existed: '{data}' in {filepath}")
+            print(f"Resource {data} is already existed in: {filepath}")
             return
 
         if data in set(["VNESES", "VNTQ_SMALL", "VNTQ_BIG"]):
@@ -79,6 +79,7 @@ class DataFetcher:
                     return
                 repo_data["url"] = url
             DataFetcher.download_zip_file_to_cache(repo_data)
+        print(f"Resource {data} is downloaded in {filepath} folder")
 
     @staticmethod
     def list(all):

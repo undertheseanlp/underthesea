@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
-
 import click
 import platform
-
 from underthesea.data_fetcher import DataFetcher
 from underthesea.model_fetcher import ModelFetcher
 
@@ -12,6 +10,24 @@ from underthesea.model_fetcher import ModelFetcher
 def main(args=None):
     """Console script for underthesea"""
     pass
+
+
+@main.command()
+@click.option('-a', '--all', is_flag=True, required=False)
+def list_model(all):
+    ModelFetcher.list(all)
+
+
+@main.command()
+@click.argument('model', required=True)
+def download_model(model):
+    ModelFetcher.download(model)
+
+
+@main.command()
+@click.argument('model', required=True)
+def remove_model(model):
+    ModelFetcher.remove(model)
 
 
 @main.command()
@@ -31,24 +47,6 @@ def download_data(dataset, url):
 @click.argument('data', required=True)
 def remove_data(data):
     DataFetcher.remove(data)
-
-
-@main.command()
-@click.argument('model', required=True)
-def download(model):
-    ModelFetcher.download_model(model)
-
-
-@main.command()
-@click.option('-a', '--all', is_flag=True, required=False)
-def list(all):
-    ModelFetcher.list(all)
-
-
-@main.command()
-@click.argument('model', required=True)
-def remove(model):
-    ModelFetcher.remove(model)
 
 
 @main.command()
