@@ -29,4 +29,6 @@ def sentiment(text):
     sentence = Sentence(text)
     classifier.predict(sentence)
     labels = sentence.labels
+    if labels is None:
+        return None
     return [label.value for label in labels]
