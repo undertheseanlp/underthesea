@@ -3,19 +3,25 @@ import re
 import sys
 from underthesea.feature_engineering.text import Text
 
+UPPER = "[A-ZƯỌƠÔÂẨẬÁẢÀĐÊỦŨÌ]"
+LOWER = UPPER.lower()
+W = "[" + UPPER[1:-1] + LOWER[1:-1] + "]"   # upper and lower
 #################################################
 # PRIORITY 1                                    #
 #################################################
 abbreviations = [
-    # & at middle of word (e.g. H&M)
-    r"[A-ZĐ]+&[A-ZĐ]+",
-    # dot at middle of word
-    r"T\.Ư",
-    # dot at the end of word
-    r"[A-ZĐ]+\.(?!$)",
+    r"[A-ZĐ]+&[A-ZĐ]+",               # & at middle of word (e.g. H&M)
+    r"T\.Ư",                          # dot at middle of word
+    f"{UPPER}+(?:\.{W}+)+\.?",
+    f"{W}+'{W}+",                     # ' at middle of word
+                                      # case: H'Mông
+    r"[A-ZĐ]+\.(?!$)",                # dot at the end of word
     r"Tp\.",
     r"Mr\.", "Mrs\.", "Ms\.",
-    r"Dr\.", "ThS\."
+    r"Dr\.", "ThS\.",
+    r"LĐ-TB",                          # - at middle of word
+    r"\d+[A-Z]+-\d+",                  # vehicle plates
+    r"NĐ-CP"
 ]
 abbreviations = "(?P<abbr>(" + "|".join(abbreviations) + "))"
 
@@ -23,7 +29,8 @@ specials = [
     r"=\>",
     r"==>",
     r"->",
-    r"\.\.\.",
+    r"\.{2,}",
+    r"-{2,}",
     r">>",
 ]
 specials = "(?P<special>(" + "|".join(specials) + "))"
@@ -83,14 +90,20 @@ email = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 email = "(?P<email>" + email + ")"
 
 datetime = [
-    r"\d{1,2}\/\d{1,2}(\/\d+)?",
-    r"\d{1,2}-\d{1,2}(-\d+)?",
-    r"\d{1,2}\.\d{1,2}\.\d+",
+    # date
+    r"\d{1,2}\/\d{1,2}\/\d+",  # 02/05/2014
+    r"\d{1,2}\/\d{1,4}",  # 02/2014
+    r"\d{1,2}-\d{1,2}-\d+",  # 02-03-2014
+    r"\d{1,2}-\d{1,4}",  # 08-2014
+    r"\d{1,2}\.\d{1,2}\.\d+",  # 20.08.2014
+    r"\d{4}\/\d{1,2}\/\d{1,2}",  # 2014/08/20
+    # time
+    r"\d{2}:\d{2}:\d{2}"
 ]
 datetime = "(?P<datetime>(" + "|".join(datetime) + "))"
 
 name = [
-
+    r"\d+[A-Z]+\d+",
     r"\d+[A-Z]+"    # case
                     # 4K
     # r"\w+\-\w+"   # [WIP] deprecated
@@ -103,16 +116,20 @@ name = [
 ]
 name = "(?P<name>(" + "|".join(name) + "))"
 
-number = r"\d+([\.,_]\d+)?"
-number = "(?P<number>" + number + ")"
+number = [
+    r"\d+(?:\.\d+)+",  # case: 60.542.000
+    r"\d+(?:,\d+)+",  # case: 100,000,000
+    r"\d+(?:[\.,_]\d+)?",
+]
+number = "(?P<number>(" + "|".join(number) + "))"
 
 emoji = [
     r":\)\)*",
     r"=\)\)+",
     r"♥‿♥",
     r":D+(?=\s)",  # :D
-    r":D+(?=$)",   # special case: Đạo diễn :Dương Tuấn Anh
-    r"<3"          # heart
+    r":D+(?=$)",  # special case: Đạo diễn :Dương Tuấn Anh
+    r"<3"  # heart
 ]
 emoji = "(?P<emoji>(" + "|".join(emoji) + "))"
 
@@ -151,17 +168,17 @@ non_word = r"(?P<non_word>[^\w\s])"
 
 # Caution: order is very important for regex
 patterns = [
-    abbreviations,      # Priority 1
+    abbreviations,  # Priority 1
     specials,
-    url,                # Priority 2
-    email,              # datetime must be before number
+    url,  # Priority 2
+    email,  # datetime must be before number
     datetime,
     name,
     number,
     emoji,
     symbols,
-    word,               # Priority 3
-    punct,              # word and non_word must be last
+    word,  # Priority 3
+    punct,  # word and non_word must be last
     non_word
 ]
 

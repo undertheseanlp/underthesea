@@ -65,6 +65,18 @@ class TestTokenize(TestCase):
         expected = 'Toàn cảnh lễ ký kết giữa công ty Tân Thạnh A và công ty Lotte E&C'
         self.assertEqual(expected, actual)
 
+    def test_abbreviation_3(self):
+        text = 'L.ANH N.ẨN Chị T.T.M.'
+        actual = tokenize(text, format="text")
+        expected = 'L.ANH N.ẨN Chị T.T.M.'
+        self.assertEqual(expected, actual)
+
+    def test_abbreviation_4(self):
+        text = 'một ở làng H\'Lũ H\'Mông'
+        actual = tokenize(text, format="text")
+        expected = 'một ở làng H\'Lũ H\'Mông'
+        self.assertEqual(expected, actual)
+
     def test_url(self):
         urls = [
             "google.com",
@@ -82,9 +94,27 @@ class TestTokenize(TestCase):
         self.assertEqual(expected, actual)
 
     def test_datetime_1(self):
-        text = u"""Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010-2015"""
+        text = "Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010-2015 2004/09/15 08:41:40"
         actual = tokenize(text, format="text")
-        expected = u"Ngày 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010 - 2015"
+        expected = "Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010 - 2015 2004/09/15 08:41:40"
+        self.assertEqual(expected, actual)
+
+    def test_datetime_2(self):
+        text = "vào tháng 5-2002 , 11-2003 và 8-3-2004"
+        actual = tokenize(text, format="text")
+        expected = "vào tháng 5-2002 , 11-2003 và 8-3-2004"
+        self.assertEqual(expected, actual)
+
+    def test_name(self):
+        text = "Xe gắn máy số 53S5 - 3720"
+        actual = tokenize(text, format="text")
+        expected = "Xe gắn máy số 53S5 - 3720"
+        self.assertEqual(expected, actual)
+
+    def test_number(self):
+        text = "tổng cộng 60.542.000 đồng 100,000,000"
+        actual = tokenize(text, format="text")
+        expected = "tổng cộng 60.542.000 đồng 100,000,000"
         self.assertEqual(expected, actual)
 
     def test_emoji(self):
