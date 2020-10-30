@@ -177,7 +177,7 @@ def extract_match(m):
             return v, k
 
 
-def tokenize(text, format=None):
+def tokenize(text, format=None, tag=False):
     """
     tokenize text for word segmentation
 
@@ -188,8 +188,12 @@ def tokenize(text, format=None):
     text = text.replace("\t", " ")
     matches = [m for m in re.finditer(patterns, text)]
     tokens = [extract_match(m) for m in matches]
+
+    if tag:
+        return tokens
+
     tokens = [token[0] for token in tokens]
     if format == "text":
         return " ".join(tokens)
-    else:
-        return tokens
+
+    return tokens
