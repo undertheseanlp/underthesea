@@ -11,6 +11,7 @@ Awesome Contributors
 ------------------------
 
 * Bui Nhat Anh <buinhatanh1208@gmail.com>
+* Vuong Quoc Binh <binh@haui.vn>
 * Doan Viet Dung <doanvietdung273@gmail.com>
 
 Thanks

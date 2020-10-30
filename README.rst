@@ -34,9 +34,9 @@ Underthesea - Vietnamese NLP Toolkit
 +-----------------+------------------------------------------------------------------------------------------------+
 | Live demo       | `undertheseanlp.com <http://undertheseanlp.com/>`_                                             |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Colab notebooks | latest: `v1.2.0 <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_  |
+| Colab notebooks | `latest <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_  |
 |                 | ,                                                                                              |
-|                 | stable: `v1.1.17 <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_ |
+|                 | `stable <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_ |
 +-----------------+------------------------------------------------------------------------------------------------+
 | Documentation   | `Underthesea Documentation <http://underthesea.readthedocs.io/en/latest/>`_                    |
 +-----------------+------------------------------------------------------------------------------------------------+
