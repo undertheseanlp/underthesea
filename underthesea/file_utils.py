@@ -29,6 +29,7 @@ def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
 
     parsed = urlparse(url_or_filename)
 
+
     if parsed.scheme in ('http', 'https'):
         # URL, so get it from the cache (downloading if necessary)
         return get_from_cache(url_or_filename, dataset_cache)

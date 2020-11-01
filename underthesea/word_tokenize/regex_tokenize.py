@@ -3,28 +3,28 @@ import re
 import sys
 from underthesea.feature_engineering.text import Text
 
-UPPER = "[A-ZƯỌƠÔÂẨẬÁẢÀĐÊỦŨÌ]"
+UPPER = "[" + "".join([
+    "A-Z",
+    "ÀÁẢÃẠ",
+    "ĂẰẮẲẴẶ",
+    "ÂẦẤẨẪẬ",
+    "Đ",
+    "ÈÉẺẼẸ",
+    "ÊỀẾỂỄỆ",
+    "ÌÍỈĨỊ",
+    "ÒÓỎÕỌ",
+    "ÔỒỐỔỖỘ",
+    "ƠỜỚỞỠỢ",
+    "ÙÚỦŨỤ",
+    "ƯỪỨỬỮỰ",
+    "ỲÝỶỸỴ"
+]) + "]"
 LOWER = UPPER.lower()
-W = "[" + UPPER[1:-1] + LOWER[1:-1] + "]"   # upper and lower
+W = "[" + UPPER[1:-1] + LOWER[1:-1] + "]"  # upper and lower
+
 #################################################
 # PRIORITY 1                                    #
 #################################################
-abbreviations = [
-    r"[A-ZĐ]+&[A-ZĐ]+",               # & at middle of word (e.g. H&M)
-    r"T\.Ư",                          # dot at middle of word
-    f"{UPPER}+(?:\.{W}+)+\.?",
-    f"{W}+'{W}+",                     # ' at middle of word
-                                      # case: H'Mông
-    r"[A-ZĐ]+\.(?!$)",                # dot at the end of word
-    r"Tp\.",
-    r"Mr\.", "Mrs\.", "Ms\.",
-    r"Dr\.", "ThS\.",
-    r"LĐ-TB",                          # - at middle of word
-    r"\d+[A-Z]+-\d+",                  # vehicle plates
-    r"NĐ-CP"
-]
-abbreviations = "(?P<abbr>(" + "|".join(abbreviations) + "))"
-
 specials = [
     r"=\>",
     r"==>",
@@ -32,8 +32,30 @@ specials = [
     r"\.{2,}",
     r"-{2,}",
     r">>",
+    r"\d+x\d+",  # dimension: 3x4
+    r"v\.v\.\.\.",
+    r"v\.v\.",
+    r"v\.v",
+    r"°[CF]"
 ]
 specials = "(?P<special>(" + "|".join(specials) + "))"
+
+abbreviations = [
+    r"[A-ZĐ]+&[A-ZĐ]+",  # & at middle of word (e.g. H&M)
+    r"T\.Ư",  # dot at middle of word
+    f"{UPPER}+(?:\.{W}+)+\.?",
+    f"{W}+['’]{W}+",  # ' ’ at middle of word
+    # e.g. H'Mông, xã N’Thôn Hạ
+    r"[A-ZĐ]+\.(?!$)",  # dot at the end of word
+    r"Tp\.",
+    r"Mr\.", "Mrs\.", "Ms\.",
+    r"Dr\.", "ThS\.", "Th.S", "Th.s",
+    r"e-mail",            # - at middle of word
+    r"\d+[A-Z]+\d*-\d+",  # vehicle plates
+    # e.g. 43H-0530
+    r"NĐ-CP"
+]
+abbreviations = "(?P<abbr>(" + "|".join(abbreviations) + "))"
 
 #################################################
 # PRIORITY 2                                    #
@@ -89,37 +111,46 @@ url = "(?P<url>" + url + ")"
 email = r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+"
 email = "(?P<email>" + email + ")"
 
+phone = [
+    r"\d{2,}-\d{3,}-\d{3,}"       # e.g. 03-5730-2357
+                                  # very careful, it's easy to conflict with datetime
+]
+phone = "(?P<phone>(" + "|".join(phone) + "))"
+
 datetime = [
     # date
-    r"\d{1,2}\/\d{1,2}\/\d+",  # 02/05/2014
-    r"\d{1,2}\/\d{1,4}",  # 02/2014
-    r"\d{1,2}-\d{1,2}-\d+",  # 02-03-2014
-    r"\d{1,2}-\d{1,4}",  # 08-2014
-    r"\d{1,2}\.\d{1,2}\.\d+",  # 20.08.2014
-    r"\d{4}\/\d{1,2}\/\d{1,2}",  # 2014/08/20
-    # time
-    r"\d{2}:\d{2}:\d{2}"
+    r"\d{1,2}\/\d{1,2}\/\d+",     # e.g. 02/05/2014
+    r"\d{1,2}\/\d{1,4}",          # e.g. 02/2014
+                                  #   [WIP] conflict with number 1/2 (a half)
+    r"\d{1,2}-\d{1,2}-\d+",       # e.g. 02-03-2014
+    r"\d{1,2}-\d{1,4}",           # e.g. 08-2014
+                                  #   [WIP] conflict with range 5-10 (from 5 to 10)
+    r"\d{1,2}\.\d{1,2}\.\d+",     # e.g. 20.08.2014
+    r"\d{4}\/\d{1,2}\/\d{1,2}",   # e.g. 2014/08/20
+    r"\d{2}:\d{2}:\d{2}"          # time
+                                  # e.g. 10:20:50 (10 hours, 20 minutes, 50 seconds)
 ]
 datetime = "(?P<datetime>(" + "|".join(datetime) + "))"
 
 name = [
     r"\d+[A-Z]+\d+",
-    r"\d+[A-Z]+"    # case
-                    # 4K
+    r"\d+[A-Z]+"  # e.g. 4K
+
     # r"\w+\-\w+"   # [WIP] deprecated
-                    # case
-                    #   F-16, Su-34, Rolls-Royce
-                    # conflict with
-                    #   2010-2015
-                    #   Moscow-Washington
-                    # issue #290
+    # case
+    #   F-16, Su-34, Rolls-Royce
+    # conflict with
+    #   2010-2015
+    #   Moscow-Washington
+    # issue #290
 ]
 name = "(?P<name>(" + "|".join(name) + "))"
 
 number = [
-    r"\d+(?:\.\d+)+",  # case: 60.542.000
-    r"\d+(?:,\d+)+",  # case: 100,000,000
-    r"\d+(?:[\.,_]\d+)?",
+    r"\d+(?:\.\d+)+,\d+",     # e.g. 4.123,2
+    r"\d+(?:\.\d+)+",         # e.g. 60.542.000
+    r"\d+(?:,\d+)+",          # e.g. 100,000,000
+    r"\d+(?:[\.,_]\d+)?",     # 123
 ]
 number = "(?P<number>(" + "|".join(number) + "))"
 
@@ -128,15 +159,26 @@ emoji = [
     r"=\)\)+",
     r"♥‿♥",
     r":D+(?=\s)",  # :D
-    r":D+(?=$)",  # special case: Đạo diễn :Dương Tuấn Anh
+    r":D+(?=$)",  # special e.g. Đạo diễn :Dương Tuấn Anh
     r"<3"  # heart
 ]
 emoji = "(?P<emoji>(" + "|".join(emoji) + "))"
 
-symbols = [
+#################################################
+# PRIORITY 3                                    #
+#################################################
+word = r"(?P<word>\w+)"
+
+word_hyphen = [
+    r"(?<=\b)\w+\-[\w+-]*\w+"        # before word_hyphen must be word boundary
+                                     # case to notice: 1.600m-2.000m
+]
+word_hyphen = "(?P<word_hyphen>(" + "|".join(word_hyphen) + "))"
+
+symbol = [
     r"\+",
-    r"-",
     r"×",
+    r"-",
     r"÷",
     r":+",
     r"%",
@@ -149,12 +191,7 @@ symbols = [
     r"_",
     r":+"
 ]
-symbols = "(?P<sym>(" + "|".join(symbols) + "))"
-
-#################################################
-# PRIORITY 3                                    #
-#################################################
-word = r"(?P<word>\w+)"
+symbol = "(?P<sym>(" + "|".join(symbol) + "))"
 
 punct = [
     r"\.",
@@ -168,18 +205,20 @@ non_word = r"(?P<non_word>[^\w\s])"
 
 # Caution: order is very important for regex
 patterns = [
-    abbreviations,  # Priority 1
-    specials,
-    url,  # Priority 2
-    email,  # datetime must be before number
-    datetime,
+    specials,          # Priority 1
+    abbreviations,
+    url,               # Priority 2
+    email,
+    phone,
+    datetime,          # datetime must be before number
     name,
     number,
     emoji,
-    symbols,
-    word,  # Priority 3
-    punct,  # word and non_word must be last
-    non_word
+    word_hyphen,       # Priority 3
+    word,
+    symbol,
+    punct,
+    non_word           # non_word must be last
 ]
 
 patterns = r"(" + "|".join(patterns) + ")"

@@ -7,7 +7,7 @@ class TestTokenize(TestCase):
     def test_tokenize(self):
         text = u"""Tổng thống Nga coi việc Mỹ không kích căn cứ quân sự của Syria là "sự gây hấn nhằm vào một quốc gia có chủ quyền", gây tổn hại đến quan hệ Moscow-Washington."""
         actual = tokenize(text, format="text")
-        expected = u'Tổng thống Nga coi việc Mỹ không kích căn cứ quân sự của Syria là " sự gây hấn nhằm vào một quốc gia có chủ quyền " , gây tổn hại đến quan hệ Moscow - Washington .'
+        expected = u'Tổng thống Nga coi việc Mỹ không kích căn cứ quân sự của Syria là " sự gây hấn nhằm vào một quốc gia có chủ quyền " , gây tổn hại đến quan hệ Moscow-Washington .'
         self.assertEqual(expected, actual)
 
     def test_tokenize_2(self):
@@ -31,7 +31,7 @@ class TestTokenize(TestCase):
     def test_tokenize_5(self):
         text = u"""Tuyên bố của Điện Kremlin cũng nhấn mạnh, vụ tấn công sẽ “hủy hoại nghiêm trọng quan hệ Nga-Mỹ” và tạo ra “trở ngại cực lớn” cho việc tạo lập một liên minh quốc tế chống Tổ chức Nhà nước Hồi giáo tự xưng (IS)."""
         actual = tokenize(text, format="text")
-        expected = u'Tuyên bố của Điện Kremlin cũng nhấn mạnh , vụ tấn công sẽ “ hủy hoại nghiêm trọng quan hệ Nga - Mỹ ” và tạo ra “ trở ngại cực lớn ” cho việc tạo lập một liên minh quốc tế chống Tổ chức Nhà nước Hồi giáo tự xưng ( IS ) .'
+        expected = u'Tuyên bố của Điện Kremlin cũng nhấn mạnh , vụ tấn công sẽ “ hủy hoại nghiêm trọng quan hệ Nga-Mỹ ” và tạo ra “ trở ngại cực lớn ” cho việc tạo lập một liên minh quốc tế chống Tổ chức Nhà nước Hồi giáo tự xưng ( IS ) .'
         self.assertEqual(expected, actual)
 
     def test_tokenize_6(self):
@@ -51,6 +51,12 @@ class TestTokenize(TestCase):
 """
         actual = tokenize(text, format="text")
         expected = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3 , giai đoạn 2010 - 2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng , phó phòng chưa có trình độ Trung cấp lý luận chính trị , chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước , không đúng quy định của UBND tỉnh Thanh Hoá ."
+        self.assertEqual(expected, actual)
+
+    def test_special(self):
+        text = 'v.v...'
+        actual = tokenize(text, format="text")
+        expected = 'v.v...'
         self.assertEqual(expected, actual)
 
     def test_abbreviation_1(self):
@@ -94,9 +100,9 @@ class TestTokenize(TestCase):
         self.assertEqual(expected, actual)
 
     def test_datetime_1(self):
-        text = "Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010-2015 2004/09/15 08:41:40"
+        text = "29-10-2004 Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010-2015 2004/09/15 08:41:40"
         actual = tokenize(text, format="text")
-        expected = "Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010 - 2015 2004/09/15 08:41:40"
+        expected = "29-10-2004 Ngày 2/2014 6/2 6/2/2014 6-2 6-2-99 6.2 7.3.2014 2010 - 2015 2004/09/15 08:41:40"
         self.assertEqual(expected, actual)
 
     def test_datetime_2(self):
@@ -115,6 +121,12 @@ class TestTokenize(TestCase):
         text = "tổng cộng 60.542.000 đồng 100,000,000"
         actual = tokenize(text, format="text")
         expected = "tổng cộng 60.542.000 đồng 100,000,000"
+        self.assertEqual(expected, actual)
+
+    def test_number_2(self):
+        text = "1.600m-2.000m Nó chỉ có mặt ở vùng đất độ cao 1.600m-2.000m so với mặt biển."
+        actual = tokenize(text, format="text")
+        expected = "1.600 m - 2.000 m Nó chỉ có mặt ở vùng đất độ cao 1.600 m - 2.000 m so với mặt biển ."
         self.assertEqual(expected, actual)
 
     def test_emoji(self):
