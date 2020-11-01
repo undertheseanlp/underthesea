@@ -135,6 +135,12 @@ class TestTokenize(TestCase):
         expected = 'Tầm giá quá rẻ để mua 1 cục bực tức để trên người :)) <3'
         self.assertEqual(expected, actual)
 
+    def test_word_hyphen(self):
+        text = 'Tiêm kích F-16 Bỉ kích bom Su-34 Nga Tàu Apolo-2 Đoàn tàu SE-4 kiểm soát 49X-6666 Rolls-Royce'
+        actual = tokenize(text, format="text")
+        expected = 'Tiêm kích F-16 Bỉ kích bom Su-34 Nga Tàu Apolo-2 Đoàn tàu SE-4 kiểm soát 49X-6666 Rolls-Royce'
+        self.assertEqual(expected, actual)
+
     def test_punct(self):
         text = '(baodautu.vn) Trao đổi với báo chí chiều 27/5, ông Lê Quốc Bình, TGĐ Công ty cổ phần đầu tư hạ tầng kỹ thuật TP. HCM (CII) chính thức thông tin: UBND TP vừa có quyết định cho phép CII được thu phí hoàn vốn đầu tư dự án xây dựng cầu Rạch Chiếc mới trên xa lộ Hà Nội kể từ ngày 1/6/2013.'
         actual = tokenize(text, format="text")
