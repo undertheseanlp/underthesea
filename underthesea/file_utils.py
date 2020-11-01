@@ -9,8 +9,6 @@ import tempfile
 import re
 from urllib.parse import urlparse
 from tqdm import tqdm as _tqdm
-
-
 import requests
 
 logger = logging.getLogger('underthesea')
@@ -100,7 +98,7 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
 
 class Tqdm:
     # These defaults are the same as the argument defaults in tqdm.
-    default_mininterval: float = 0.1
+    default_mininterval = 0.1
 
     @staticmethod
     def set_default_mininterval(value: float) -> None:
