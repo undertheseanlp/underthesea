@@ -135,14 +135,6 @@ datetime = "(?P<datetime>(" + "|".join(datetime) + "))"
 name = [
     r"\d+[A-Z]+\d+",
     r"\d+[A-Z]+"  # e.g. 4K
-
-    # r"\w+\-\w+"   # [WIP] deprecated
-                    # case
-                    #   F-16, Su-34, Rolls-Royce
-                    # conflict with
-                    #   2010-2015
-                    #   Moscow-Washington
-                    # issue #290
 ]
 name = "(?P<name>(" + "|".join(name) + "))"
 
