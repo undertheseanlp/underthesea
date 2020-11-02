@@ -3,6 +3,7 @@ import os
 import click
 import platform
 
+from underthesea.corpus.revise_corpus import revise_corpus
 from underthesea.corpus.validate_corpus import validate_corpus
 from underthesea.data_fetcher import DataFetcher
 from underthesea.model_fetcher import ModelFetcher
@@ -50,11 +51,19 @@ def download_data(dataset, url):
 def remove_data(data):
     DataFetcher.remove(data)
 
+
 @main.command()
 @click.option('-t', '--type', required=True)
 @click.option('-c', '--corpus', required=True)
 def validate(type, corpus):
     validate_corpus(type, corpus)
+
+
+@main.command()
+@click.option('-c', '--corpus', required=True)
+def revise(corpus):
+    revise_corpus(corpus)
+
 
 @main.command()
 def info():
