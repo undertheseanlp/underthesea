@@ -66,8 +66,22 @@ def validate_sentence(file):
     base_name = basename(file)
     # sent_id should be valid
     f = open(file)
-    sentences = f.read().split("\n\n")
-    for sentence in sentences:
+    sentence = ""
+    stop_reading = False
+    previous_line = None
+    for i, line in enumerate(f):
+        if line == "\n":
+            if previous_line is None:
+                previous_line = "\n"
+            elif previous_line == "\n":
+                stop_reading = True
+                previous_line = None
+            sentence += line
+        else:
+            sentence += line
+        if not stop_reading:
+            continue
+        stop_reading = False
         nodes = sentence.split("\n")
         comment_nodes = [node for node in nodes if node.startswith("#")]
         has_sent_id = False
@@ -82,7 +96,7 @@ def validate_sentence(file):
             warn(message="Sentence must has sent_id", file=base_name, error_type="Format no-sent_id")
         if not has_text:
             error_count += 1
-            warn(message="Sentence must has text", file=base_name,  error_type="Format no-text")
+            warn(message="Sentence must has text", file=base_name, error_type="Format no-text")
     f.close()
 
 
