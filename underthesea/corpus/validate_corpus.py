@@ -2,18 +2,21 @@ import sys
 from os import listdir
 from os.path import join, basename
 from chardet import UniversalDetector
-
 from underthesea.file_utils import DATASETS_FOLDER
 
 SUPPORTED_CORPUS_TYPE = set(["TOKENIZE"])
 
 error_count = 0
+MAX_ERROR = 10
 
 
-def warn(message, level=1, file=None, error_type=None):
+def warn(message, level=1, file=None, line_number=None, error_type=None):
     text = ""
     if file:
-        text += f"[(in {file})]: "
+        text += f"[(in {file})"
+    if line_number:
+        text += f" Line {line_number} "
+    text += "]: "
     text += f"[L{level}"
     if error_type:
         text += f" {error_type}"
@@ -21,7 +24,8 @@ def warn(message, level=1, file=None, error_type=None):
     text += message
     print(text)
     global error_count
-    if error_count > 100:
+    global MAX_ERROR
+    if error_count > MAX_ERROR:
         print("MAX_ERROR_EXCEEDED. Stop")
         sys.exit(1)
 
@@ -61,28 +65,23 @@ def validate_utf8(file):
 # LEVEL 2
 # TODO: Validate tokenize
 # ======================================================================================================================
+def fetch_sentence(file):
+    sentence = ""
+    with open(file) as f:
+        for i, line in enumerate(f):
+            if line == "\n":
+                yield i, sentence
+                sentence = ""
+            else:
+                sentence += line
+
+
 def validate_sentence(file):
     global error_count
     base_name = basename(file)
-    # sent_id should be valid
-    f = open(file)
-    sentence = ""
-    stop_reading = False
-    previous_line = None
-    for i, line in enumerate(f):
-        if line == "\n":
-            if previous_line is None:
-                previous_line = "\n"
-            elif previous_line == "\n":
-                stop_reading = True
-                previous_line = None
-            sentence += line
-        else:
-            sentence += line
-        if not stop_reading:
-            continue
-        stop_reading = False
-        nodes = sentence.split("\n")
+    for i, sentence in fetch_sentence(file):
+        nodes = sentence.strip().split("\n")
+        i_start = i - len(nodes) + 1
         comment_nodes = [node for node in nodes if node.startswith("#")]
         has_sent_id = False
         has_text = False
@@ -93,11 +92,11 @@ def validate_sentence(file):
                 has_text = True
         if not has_sent_id:
             error_count += 1
-            warn(message="Sentence must has sent_id", file=base_name, error_type="Format no-sent_id")
+            warn(message="Sentence must has sent_id", file=base_name, line_number=i_start,
+                 error_type="Format no-sent_id")
         if not has_text:
             error_count += 1
-            warn(message="Sentence must has text", file=base_name, error_type="Format no-text")
-    f.close()
+            warn(message="Sentence must has text", file=base_name, line_number=i_start, error_type="Format no-text")
 
 
 def validate_corpus_content(corpus_name):

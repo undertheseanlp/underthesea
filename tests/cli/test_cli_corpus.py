@@ -7,7 +7,6 @@ class TestCliCorpus(TestCase):
     def test_validate(self):
         runner = CliRunner()
         result = runner.invoke(validate, ['--type=TOKENIZE', '--corpus=VLSP2013-WTK-R1'])
-        print(result)
         print(result.output)
         actual = result.exit_code
         expected = 0

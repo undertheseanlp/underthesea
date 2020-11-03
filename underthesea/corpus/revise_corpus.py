@@ -9,20 +9,25 @@ from underthesea.corpus.validate_corpus import validate_corpus_exist
 SUPPORTED_CORPUS = set(["VLSP2013-WTK"])
 
 
+def revise_vlsp2013_wtk_dataset(source_file, dest_file):
+    copyfile(source_file, dest_file)
+
+
 def revise_corpus_vlsp2013_wtk():
     source_corpus = "VLSP2013-WTK"
     validate_corpus_exist(source_corpus)
-    version = 1
-    dest_corpus = f"{source_corpus}-R{version}"
+    revise_version = 1
+    dest_corpus = f"{source_corpus}-R{revise_version}"
     source_folder = join(DATASETS_FOLDER, source_corpus)
     dest_folder = join(DATASETS_FOLDER, dest_corpus)
     try:
         rmtree(dest_folder)
-    except Exception as e:
+    except Exception:
         pass
     makedirs(dest_folder)
-    copyfile(join(source_folder, "train.txt"), join(dest_folder, "train.txt"))
-    copyfile(join(source_folder, "test.txt"), join(dest_folder, "test.txt"))
+    files = ["train.txt", "test.txt"]
+    for file in files:
+        revise_vlsp2013_wtk_dataset(join(source_folder, file), join(dest_folder, file))
 
 
 def revise_corpus(corpus_name):
