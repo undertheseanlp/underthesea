@@ -1,4 +1,4 @@
-from unittest import TestCase
+from unittest import TestCase, skip
 from underthesea.corpus.revise_corpus import revise_corpus
 
 

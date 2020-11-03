@@ -2,6 +2,8 @@ import sys
 from os import makedirs
 from os.path import join, basename, exists
 from shutil import rmtree, copyfile
+
+from underthesea.feature_engineering.text import Text
 from underthesea.file_utils import DATASETS_FOLDER
 
 from underthesea.corpus.validate_corpus import validate_corpus_exist
@@ -12,7 +14,8 @@ SUPPORTED_CORPUS = set(["VLSP2013-WTK"])
 def revise_vlsp2013_wtk_dataset(source_file, dest_file):
     copyfile(source_file, dest_file)
     with open(source_file) as f:
-        sentences = f.read().split("\n\n")
+        content = Text(f.read())
+        sentences = content.split("\n\n")
     if basename(source_file) == "train.txt":
         corpus_id = "train"
     else:

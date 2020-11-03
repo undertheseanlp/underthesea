@@ -153,6 +153,10 @@ def validate_token(sentence, i_end, file):
             message = "tokenized error for text: " + text[:50] + "..."
         else:
             message = "tokenized error for text: " + text
+        message += '\n'
+        message += '  Actual:' + str(content_tokens)
+        message += '\n'
+        message += 'Expected:' + str(tokenized_tokens)
         warn(message=message,
              error_type="Format tokenize-error",
              file=base_name, line_number=i_start, level=3, sent_id=sent_id)
