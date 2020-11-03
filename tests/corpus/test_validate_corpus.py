@@ -3,7 +3,7 @@ from underthesea.corpus.validate_corpus import validate_corpus
 
 
 class TestValidateCorpus(TestCase):
-    @skip
+    # @skip
     def test(self):
         corpus_name = "VLSP2013-WTK-R1"
         corpus_type = "TOKENIZE"
