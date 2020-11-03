@@ -3,7 +3,7 @@ from os import listdir
 from os.path import join, basename
 from chardet import UniversalDetector
 
-from build.lib.underthesea.word_tokenize import tokenize
+from underthesea.word_tokenize import tokenize
 from underthesea.feature_engineering.text import Text
 from underthesea.file_utils import DATASETS_FOLDER
 
