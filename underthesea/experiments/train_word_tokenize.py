@@ -31,7 +31,7 @@ trainer = ModelTrainer(tagger, corpus)
 params = {
     'c1': 1.0,  # coefficient for L1 penalty
     'c2': 1e-3,  # coefficient for L2 penalty
-    'max_iterations': 10,  #
+    'max_iterations': 10000,  #
     # include transitions that are possible, but not observed
     'feature.possible_transitions': True,
     'feature.possible_states': True,

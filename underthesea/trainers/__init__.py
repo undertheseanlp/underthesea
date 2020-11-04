@@ -29,7 +29,7 @@ class ModelTrainer:
         transformer = TaggedTransformer(features)
         logger.info("Start feature extraction")
         X_train, y_train = transformer.transform(self.corpus.train, contain_labels=True)
-        X_train, y_train = X_train[:10000], y_train[:10000]
+        # X_train, y_train = X_train[:10000], y_train[:10000]
         X_test, y_test = transformer.transform(self.corpus.test, contain_labels=True)
         logger.info("Finish feature extraction")
 
