@@ -10,15 +10,17 @@ from underthesea.file_utils import DATASETS_FOLDER
 SUPPORTED_CORPUS_TYPE = set(["TOKENIZE"])
 
 error_count = 0
-MAX_ERROR = 30
+DEFAULT_MAX_ERROR = 30
+MAX_ERROR = DEFAULT_MAX_ERROR
 
 
 def warn(message, level=1, file=None, line_number=None, error_type=None, sent_id=None, node_number=None):
     global error_count
     global MAX_ERROR
     error_count += 1
-    if error_count > MAX_ERROR:
+    if error_count >= MAX_ERROR:
         print("MAX_ERROR_EXCEEDED. Stop")
+        print(f"*** FAILED *** with {error_count} errors")
         sys.exit(1)
 
     text = ""
@@ -185,7 +187,7 @@ def validate_corpus_content(corpus_name):
         validate_content(file)
 
 
-def validate_corpus(corpus_type, corpus_name, max_error=30):
+def validate_corpus(corpus_type, corpus_name, max_error=DEFAULT_MAX_ERROR):
     global error_count
     global MAX_ERROR
     MAX_ERROR = max_error
