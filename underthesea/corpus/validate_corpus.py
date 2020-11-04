@@ -185,8 +185,10 @@ def validate_corpus_content(corpus_name):
         validate_content(file)
 
 
-def validate_corpus(corpus_type, corpus_name):
+def validate_corpus(corpus_type, corpus_name, max_error=30):
     global error_count
+    global MAX_ERROR
+    MAX_ERROR = max_error
     error_count = 0
     print(f"Validate {corpus_type} corpus: {corpus_name}")
     validate_corpus_type(corpus_type)
