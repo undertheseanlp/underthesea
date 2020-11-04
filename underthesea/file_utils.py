@@ -1,6 +1,7 @@
 """
 Utilities for working with the local data set cache. Copied from flair
 """
+from os.path import join
 from pathlib import Path
 import os
 import logging
@@ -14,6 +15,7 @@ import requests
 logger = logging.getLogger('underthesea')
 
 CACHE_ROOT = os.path.expanduser(os.path.join('~', '.underthesea'))
+DATASETS_FOLDER = join(CACHE_ROOT, "datasets")
 
 
 def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
