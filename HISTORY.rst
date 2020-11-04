@@ -2,15 +2,11 @@
 History
 ================================================================================
 
-Current
+1.2.2 (2020-11-04)
 --------------------------------------------------------------------------------
 
 * Remove nltk strict version (GH-308)
 * Add word_hyphen rule (GH-290)
-
-1.2.1 (2020-10-28)
---------------------------------------------------------------------------------
-
 * Sanity check python version (GH-320)
 * Handle exception case in sentiment module (GH-321)
 * Cập nhật quản lý resources từ languageflow (GH-295)
