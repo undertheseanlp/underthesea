@@ -100,9 +100,6 @@ Usage
 .. image:: https://img.shields.io/badge/F1-94%25-red.svg
         :target: https://github.com/undertheseanlp/word_tokenize
 
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
-        :target: https://github.com/undertheseanlp/word_tokenize
-
 Usage
 
 .. code-block:: python
@@ -122,9 +119,6 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
-        :target: https://github.com/undertheseanlp/pos_tag
-
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
         :target: https://github.com/undertheseanlp/pos_tag
 
 Usage
@@ -148,9 +142,6 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-77%25-red.svg
-		:target: https://github.com/undertheseanlp/chunking
-
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
 		:target: https://github.com/undertheseanlp/chunking
 
 Usage
@@ -178,9 +169,6 @@ Usage
 .. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
 		:target: https://github.com/undertheseanlp/ner
 
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
-		:target: https://github.com/undertheseanlp/ner
-
 Usage
 
 .. code-block:: python
@@ -205,9 +193,6 @@ Usage
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
-    :target: https://github.com/undertheseanlp/classification
-
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
     :target: https://github.com/undertheseanlp/classification
 
 Download models
@@ -238,9 +223,6 @@ Usage
 
 .. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
 		:target: https://github.com/undertheseanlp/sentiment
-
-.. image:: https://img.shields.io/badge/✎-custom%20models-blue.svg
-    :target: https://github.com/undertheseanlp/sentiment
 
 Download models
 
