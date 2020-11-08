@@ -60,4 +60,3 @@ class ModelTrainer:
         open(join(base_path, "output.txt"), "w").write(text)
         evaluate_(join(base_path, "output.txt"))
         logger.info("Finish tagger")
-
