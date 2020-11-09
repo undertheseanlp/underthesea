@@ -1,6 +1,7 @@
 import sys
 from underthesea.corpus.vlsp2013_wtk.revise_2 import revise_corpus_vlsp2013_wtk
 
+
 SUPPORTED_CORPUS = set(["VLSP2013-WTK"])
 
 

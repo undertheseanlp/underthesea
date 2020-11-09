@@ -141,11 +141,6 @@ def validate_token(sentence, i_end, file):
                  error_type="Format token-error",
                  file=base_name, line_number=line_number, level=3)
 
-        if token == "Lima":
-            warn(message=f"token should not empty",
-                 error_type="Format token-empty",
-                 file=base_name, line_number=line_number, level=3)
-
         if tag not in ["B-W", "I-W"]:
             warn(message=f"Tag must be B-W or I-W, found {tag}",
                  error_type="Format tag-error",
