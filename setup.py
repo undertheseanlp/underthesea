@@ -24,7 +24,8 @@ install_requires = [
     'requests',
     'joblib',
     'scikit-learn>=0.20,<0.22',
-    'unidecode'
+    'unidecode',
+    'seqeval'
 ]
 
 tests_require = [

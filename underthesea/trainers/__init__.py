@@ -2,8 +2,9 @@ from os import makedirs
 from os.path import join, exists
 from shutil import rmtree
 
+from seqeval.metrics import classification_report, accuracy_score
+
 from underthesea.file_utils import CACHE_ROOT
-from underthesea.trainers.conlleval import evaluate_
 from underthesea.transformer.tagged import TaggedTransformer
 import pycrfsuite
 import logging
@@ -28,9 +29,10 @@ class ModelTrainer:
         print(features)
         transformer = TaggedTransformer(features)
         logger.info("Start feature extraction")
-        X_train, y_train = transformer.transform(self.corpus.train, contain_labels=True)
-        # X_train, y_train = X_train[:10000], y_train[:10000]
-        X_test, y_test = transformer.transform(self.corpus.test, contain_labels=True)
+        train_samples = self.corpus.train
+        test_samples = self.corpus.test
+        X_train, y_train = transformer.transform(train_samples, contain_labels=True)
+        X_test, y_test = transformer.transform(test_samples, contain_labels=True)
         logger.info("Finish feature extraction")
 
         # Train
@@ -48,6 +50,9 @@ class ModelTrainer:
         tagger = pycrfsuite.Tagger()
         tagger.open(filename)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
+        y_true = y_test
+        print(classification_report(y_true, y_pred, digits=4))
+        print(f'Accuracy: {accuracy_score(y_true, y_pred):.4f}')
         sentences = [[item[0] for item in sentence] for sentence in self.corpus.test]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
@@ -58,5 +63,5 @@ class ModelTrainer:
             texts.append(text)
         text = "\n\n".join(texts)
         open(join(base_path, "output.txt"), "w").write(text)
-        evaluate_(join(base_path, "output.txt"))
+
         logger.info("Finish tagger")
