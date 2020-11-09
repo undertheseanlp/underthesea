@@ -14,7 +14,7 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-  - flake8 --max-complexity 10 --ignore E501,W605 .
+  - flake8 --max-complexity 10 --ignore E501,W504,W605 .
   - tox -e ${TOXENV}
 
 # After you create the Github repo and add it to Travis, run the
