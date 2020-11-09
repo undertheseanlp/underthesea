@@ -2,6 +2,9 @@
 import os
 import click
 import platform
+
+from underthesea.corpus.revise_corpus import revise_corpus
+from underthesea.corpus.validate_corpus import validate_corpus, DEFAULT_MAX_ERROR
 from underthesea.data_fetcher import DataFetcher
 from underthesea.model_fetcher import ModelFetcher
 
@@ -47,6 +50,20 @@ def download_data(dataset, url):
 @click.argument('data', required=True)
 def remove_data(data):
     DataFetcher.remove(data)
+
+
+@main.command()
+@click.option('-t', '--type', required=True)
+@click.option('-c', '--corpus', required=True)
+@click.option('--max-error', default=DEFAULT_MAX_ERROR, type=int)
+def validate(type, corpus, max_error):
+    validate_corpus(type, corpus, max_error)
+
+
+@main.command()
+@click.option('-c', '--corpus', required=True)
+def revise(corpus):
+    revise_corpus(corpus)
 
 
 @main.command()

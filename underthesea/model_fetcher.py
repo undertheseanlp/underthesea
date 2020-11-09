@@ -7,7 +7,7 @@ from pathlib import Path
 from tabulate import tabulate
 
 from underthesea.file_utils import cached_path, CACHE_ROOT
-from underthesea.models import REPO
+from underthesea.models_ import REPO
 
 MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to download"
 
