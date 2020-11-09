@@ -21,6 +21,7 @@ script:
 # travis_pypi_setup.py script to finish PyPI deployment setup
 deploy:
   provider: pypi
+  edge: true
   distributions: sdist bdist_wheel
   user: magizbox
   password:
