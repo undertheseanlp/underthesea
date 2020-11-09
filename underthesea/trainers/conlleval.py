@@ -1,16 +1,14 @@
 #!/usr/bin/python
-#### Original script
+# Original script
 # author  : sighsmile.github.io
 # version : 2017-05-18
 # url     : https://github.com/sighsmile/conlleval
-#### Modified by Vu Anh
+# Modified by Vu Anh
 # author: Vu Anh <anhv.ict91@gmail.com>
 # version: 2018-08-09
 
 from __future__ import division, print_function, unicode_literals
 import argparse
-import sys
-import re
 from collections import defaultdict
 
 
@@ -167,7 +165,7 @@ def countChunks(fileIterator, args):
     tokenCounter = 0  # token counter (ignores sentence breaks)
     correctTags = 0  # number of correct chunk tags
 
-    lastType = None  # temporary storage for detecting duplicates
+    # lastType = None  # temporary storage for detecting duplicates
     inCorrect = False  # currently processed chunk is correct until now
     lastCorrect, lastCorrectType = "O", None  # previous chunk tag in corpus
     lastGuessed, lastGuessedType = "O", None  # previously identified chunk tag
