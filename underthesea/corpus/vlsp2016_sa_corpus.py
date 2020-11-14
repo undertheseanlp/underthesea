@@ -2,7 +2,7 @@ import os
 import shutil
 from os.path import dirname, join
 
-from underthesea.corpus_lf.util import FolderStructure
+from underthesea.corpus.util import FolderStructure
 from underthesea.file_utils import CACHE_ROOT
 from pathlib import Path
 
