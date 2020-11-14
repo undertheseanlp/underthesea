@@ -3,10 +3,11 @@ import re
 import shutil
 from enum import Enum
 from typing import Union, List
-
 from tabulate import tabulate
 
-from underthesea.data_lf import CategorizedCorpus, Sentence, Corpus, Label
+from underthesea.corpus import Corpus
+from underthesea.corpus.categorized_corpus import CategorizedCorpus
+from underthesea.corpus.data import Sentence, Label
 from underthesea.datasets_lf import REPO
 from underthesea.file_utils import cached_path, CACHE_ROOT
 from pathlib import Path

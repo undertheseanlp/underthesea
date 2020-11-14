@@ -3,8 +3,9 @@ from os.path import join
 import json
 import joblib
 from sklearn.preprocessing import MultiLabelBinarizer
-from underthesea.data_lf import Sentence, Label
 import warnings
+
+from underthesea.corpus.data import Sentence, Label
 
 warnings.filterwarnings("ignore", ".*", UserWarning)
 
