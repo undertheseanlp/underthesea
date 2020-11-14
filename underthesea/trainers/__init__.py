@@ -25,14 +25,9 @@ class ModelTrainer:
         if exists(base_path):
             rmtree(base_path)
         makedirs(base_path)
-        features = self.tagger.features
-        print(features)
-        transformer = TaggedTransformer(features)
         logger.info("Start feature extraction")
-        train_samples = self.corpus.train
-        test_samples = self.corpus.test
-        X_train, y_train = transformer.transform(train_samples, contain_labels=True)
-        X_test, y_test = transformer.transform(test_samples, contain_labels=True)
+        X_train, y_train = self.tagger.forward(self.corpus.train, contains_labels=True)
+        X_test, y_test = self.tagger.forward(self.corpus.test, contains_labels=True)
         logger.info("Finish feature extraction")
 
         # Train
@@ -41,7 +36,7 @@ class ModelTrainer:
         for xseq, yseq in zip(X_train, y_train):
             trainer.append(xseq, yseq)
         trainer.set_params(params)
-        filename = join(base_path, 'model.tmp')
+        filename = join(base_path, 'model.bin')
         trainer.train(filename)
         logger.info("Finish train")
 
@@ -63,5 +58,7 @@ class ModelTrainer:
             texts.append(text)
         text = "\n\n".join(texts)
         open(join(base_path, "output.txt"), "w").write(text)
+
+        self.tagger.save(join(base_path, "features.bin"))
 
         logger.info("Finish tagger")
