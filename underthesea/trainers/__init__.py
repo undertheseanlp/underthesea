@@ -1,11 +1,8 @@
 from os import makedirs
 from os.path import join, exists
 from shutil import rmtree
-
 from seqeval.metrics import classification_report, accuracy_score
-
 from underthesea.file_utils import CACHE_ROOT
-from underthesea.transformer.tagged import TaggedTransformer
 import pycrfsuite
 import logging
 
@@ -58,7 +55,8 @@ class ModelTrainer:
             texts.append(text)
         text = "\n\n".join(texts)
         open(join(base_path, "output.txt"), "w").write(text)
-
+        with open(join(base_path, "model.metadata"), "w") as f:
+            f.write("model: CRFSequenceTagger")
         self.tagger.save(join(base_path, "features.bin"))
 
         logger.info("Finish tagger")
