@@ -5,6 +5,7 @@ History
 Current
 --------------------------------------------------------------------------------
 
+* Refactor config for resources (GH-300)
 * Thêm API xử lý dữ liệu (GH-299)
 
 
