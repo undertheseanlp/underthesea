@@ -2,18 +2,23 @@ import os
 import re
 import shutil
 from enum import Enum
+from os.path import dirname, join
 from typing import Union, List
-
+import yaml
 from tabulate import tabulate
-
-from underthesea.data_lf import CategorizedCorpus, Sentence, Corpus, Label
-from underthesea.datasets_lf import REPO
+from underthesea.corpus import Corpus
+from underthesea.corpus.categorized_corpus import CategorizedCorpus
+from underthesea.corpus.data import Sentence, Label
 from underthesea.file_utils import cached_path, CACHE_ROOT
 from pathlib import Path
 import zipfile
 
 MISS_URL_ERROR = "Caution:\n  With closed license dataset, you must provide URL to download"
 SAMPLE_CACHE_ROOT = Path(__file__).parent.absolute() / "data"
+
+CD = dirname(__file__)
+with open(join(CD, "datasets.yaml")) as f:
+    REPO = yaml.safe_load(f)
 
 
 class NLPData(Enum):
@@ -210,5 +215,5 @@ class DataFetcher:
             print(f"No matching distribution found for '{corpus_id}'")
             return
         if corpus_id == "VLSP2016_SA":
-            from underthesea.corpus_lf.vlsp2016_sa_corpus import VLSP2016SACorpus
+            from underthesea.corpus.vlsp2016_sa_corpus import VLSP2016SACorpus
             VLSP2016SACorpus.import_data(input_data_path)
