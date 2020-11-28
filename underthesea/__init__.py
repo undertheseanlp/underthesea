@@ -14,6 +14,41 @@ except Exception:
     pass
 
 ###########################################################
+# Initialize
+###########################################################
+import torch
+
+# global variable: device
+device = None
+if torch.cuda.is_available():
+    device = torch.device("cuda:0")
+else:
+    device = torch.device("cpu")
+
+import logging.config
+
+logging.config.dictConfig(
+    {
+        "version": 1,
+        "disable_existing_loggers": False,
+        "formatters": {"standard": {"format": "%(asctime)-15s %(message)s"}},
+        "handlers": {
+            "console": {
+                "level": "INFO",
+                "class": "logging.StreamHandler",
+                "formatter": "standard",
+                "stream": "ext://sys.stdout",
+            }
+        },
+        "loggers": {
+            "underthesea": {"handlers": ["console"], "level": "INFO", "propagate": False}
+        },
+    }
+)
+
+logger = logging.getLogger("underthesea")
+
+###########################################################
 # METADATA
 ###########################################################
 
