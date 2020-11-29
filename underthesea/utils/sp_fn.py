@@ -63,7 +63,7 @@ def stripe(x, n, w, offset=(0, 0), dim=1):
     stride[1] = (1 if dim == 1 else seq_len) * numel
     return x.as_strided(size=(n, w, *x.shape[2:]),
                         stride=stride,
-                        storage_offset=(offset[0]*seq_len+offset[1])*numel)
+                        storage_offset=(offset[0] * seq_len + offset[1]) * numel)
 
 
 def pad(tensors, padding_value=0, total_length=None):

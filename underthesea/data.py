@@ -2,7 +2,7 @@
 from collections.abc import Iterable
 import nltk
 from tqdm import tqdm
-from underthesea.utils.s_parallel import is_master
+from underthesea.utils.sp_parallel import is_master
 
 
 def progress_bar(iterator,
@@ -300,7 +300,7 @@ class CoNLL(Transform):
             False
         """
 
-        from underthesea.utils.s_alg import tarjan
+        from underthesea.utils.sp_alg import tarjan
         if proj and not cls.isprojective(sequence):
             return False
         n_roots = sum(head == 0 for head in sequence)

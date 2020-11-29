@@ -1,18 +1,17 @@
 """
 Utilities for working with the local data set cache. Copied from flair
 """
+import mmap
 from os.path import join
 from pathlib import Path
 import os
-import logging
 import shutil
 import tempfile
 import re
 from urllib.parse import urlparse
 from tqdm import tqdm as _tqdm
 import requests
-
-logger = logging.getLogger('underthesea')
+from underthesea import logger
 
 CACHE_ROOT = os.path.expanduser(os.path.join('~', '.underthesea'))
 DATASETS_FOLDER = join(CACHE_ROOT, "datasets")
@@ -127,3 +126,16 @@ class Tqdm:
         }
 
         return _tqdm(*args, **new_kwargs)
+
+
+def load_big_file(f: str) -> mmap.mmap:
+    r"""
+    Workaround for loading a big pickle file. Files over 2GB cause pickle errors on certin Mac and Windows distributions.
+    Source: flairNLP
+    """
+    logger.info(f"loading file {f}")
+    with open(f, "rb") as f_in:
+        # mmap seems to be much more memory efficient
+        bf = mmap.mmap(f_in.fileno(), 0, access=mmap.ACCESS_READ)
+        f_in.close()
+    return bf

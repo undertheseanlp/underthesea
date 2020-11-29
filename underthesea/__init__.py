@@ -82,5 +82,6 @@ logger = logging.getLogger("underthesea")
 __all__ = [
     'sent_tokenize',
     'word_tokenize', 'pos_tag', 'chunk', 'ner',
-    'classify', 'sentiment'
+    'classify', 'sentiment',
+    'logger', 'device'
 ]

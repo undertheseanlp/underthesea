@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import torch
-from underthesea.utils.s_fn import pad, stripe
+from underthesea.utils.sp_fn import pad, stripe
 
 
 def kmeans(x, k, max_it=32):
@@ -77,6 +77,7 @@ def kmeans(x, k, max_it=32):
     return centroids, clusters
 
 
+# flake8: noqa: C901
 def tarjan(sequence):
     r"""
     Tarjan algorithm for finding Strongly Connected Components (SCCs) of a graph.
@@ -272,7 +273,7 @@ def mst(scores, mask, multiroot=False):
 
     preds = []
     for i, length in enumerate(mask.sum(1).tolist()):
-        s = scores[i][:length+1, :length+1]
+        s = scores[i][:length + 1, :length + 1]
         tree = chuliu_edmonds(s)
         roots = torch.where(tree[1:].eq(0))[0] + 1
         if not multiroot and len(roots) > 1:
@@ -461,7 +462,7 @@ def eisner2o(scores, mask):
         #           + s(j->i)
         # [n, w, batch_size]
         il = stripe(s_i, n, w, (w, 1)) + stripe(s_s, n, w, (1, 0), 0)
-        il += stripe(s_sib[range(w, n+w), range(n)], n, w, (0, 1))
+        il += stripe(s_sib[range(w, n + w), range(n)], n, w, (0, 1))
         # [n, 1, batch_size]
         il0 = stripe(s_c, n, 1, (w, w)) + stripe(s_c, n, 1, (0, w - 1))
         # il0[0] are set to zeros since the scores of the complete spans starting from 0 are always -inf
@@ -474,7 +475,7 @@ def eisner2o(scores, mask):
         #           + s(i->j)
         # [n, w, batch_size]
         ir = stripe(s_i, n, w) + stripe(s_s, n, w, (0, w), 0)
-        ir += stripe(s_sib[range(n), range(w, n+w)], n, w)
+        ir += stripe(s_sib[range(n), range(w, n + w)], n, w)
         ir[0] = float('-inf')
         # [n, 1, batch_size]
         ir0 = stripe(s_c, n, 1) + stripe(s_c, n, 1, (w, 1))
@@ -589,7 +590,7 @@ def cky(scores, mask):
             s.diagonal(w).copy_(scores.diagonal(w))
             continue
         # [n, w, batch_size]
-        s_span = stripe(s, n, w-1, (0, 1)) + stripe(s, n, w-1, (1, w), 0)
+        s_span = stripe(s, n, w - 1, (0, 1)) + stripe(s, n, w - 1, (1, w), 0)
         # [batch_size, n, w]
         s_span = s_span.permute(2, 0, 1)
         # [batch_size, n]
