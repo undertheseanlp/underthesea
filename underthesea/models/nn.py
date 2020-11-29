@@ -3,7 +3,9 @@ from abc import abstractmethod
 from pathlib import Path
 from typing import Union
 import torch.nn
-from underthesea import device, file_utils
+
+from underthesea import file_utils
+from underthesea.utils import device
 
 
 class Model(torch.nn.Module):
