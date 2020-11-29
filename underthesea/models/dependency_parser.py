@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 from datetime import datetime
-from underthesea import logger, device
+from underthesea.utils import logger, device
 from underthesea.data import progress_bar
 import torch
 import torch.nn as nn

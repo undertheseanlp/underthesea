@@ -11,7 +11,7 @@ import re
 from urllib.parse import urlparse
 from tqdm import tqdm as _tqdm
 import requests
-from underthesea import logger
+from underthesea.utils import logger
 
 CACHE_ROOT = os.path.expanduser(os.path.join('~', '.underthesea'))
 DATASETS_FOLDER = join(CACHE_ROOT, "datasets")

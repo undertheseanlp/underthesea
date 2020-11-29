@@ -35,6 +35,7 @@ from underthesea.word_tokenize import word_tokenize
 from underthesea.pos_tag import pos_tag
 from underthesea.chunking import chunk
 from underthesea.ner import ner
+from underthesea.dependency_parse import dependency_parse
 
 try:
     from underthesea.classification import classify
@@ -45,43 +46,10 @@ try:
 except Exception:
     pass
 
-###########################################################
-# Initialize
-###########################################################
-import torch
-import logging.config
-
-# global variable: device for torch
-device = None
-if torch.cuda.is_available():
-    device = torch.device("cuda:0")
-else:
-    device = torch.device("cpu")
-
-logging.config.dictConfig(
-    {
-        "version": 1,
-        "disable_existing_loggers": False,
-        "formatters": {"standard": {"format": "%(asctime)-15s %(message)s"}},
-        "handlers": {
-            "console": {
-                "level": "INFO",
-                "class": "logging.StreamHandler",
-                "formatter": "standard",
-                "stream": "ext://sys.stdout",
-            }
-        },
-        "loggers": {
-            "underthesea": {"handlers": ["console"], "level": "INFO", "propagate": False}
-        },
-    }
-)
-
-logger = logging.getLogger("underthesea")
-
 __all__ = [
     'sent_tokenize',
-    'word_tokenize', 'pos_tag', 'chunk', 'ner',
+    'word_tokenize', 'pos_tag', 'chunk',
+    'dependency_parse',
+    'ner',
     'classify', 'sentiment',
-    'logger', 'device'
 ]
