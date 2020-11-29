@@ -29,7 +29,7 @@ Underthesea - Vietnamese NLP Toolkit
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
-💫 **Version 1.3.0a0 out now!** `Underthesea meet deep learning! <https://github.com/undertheseanlp/underthesea/issues/359>`_
+💫 **Version 1.3.0a1 out now!** `Underthesea meet deep learning! <https://github.com/undertheseanlp/underthesea/issues/359>`_
 
 +-----------------+------------------------------------------------------------------------------------------------+
 | Free software   | GNU General Public License v3                                                                  |
@@ -66,17 +66,15 @@ Usage
 * `2. Word Segmentation <#2-word-segmentation>`_
 * `3. POS Tagging <#3-pos-tagging>`_
 * `4. Chunking <#4-chunking>`_
-* `5. Named Entity Recognition <#5-named-entity-recognition>`_
-* `6. Text Classification <#6-text-classification>`_
-* `7. Sentiment Analysis <#7-sentiment-analysis>`_
-* `8. Vietnamese NLP Resources <#8-vietnamese-nlp-resources>`_
+* `5. Dependency Parsing <#5-dependency-parsing>`_
+* `6. Named Entity Recognition <#6-named-entity-recognition>`_
+* `7. Text Classification <#7-text-classification>`_
+* `8. Sentiment Analysis <#8-sentiment-analysis>`_
+* `9. Vietnamese NLP Resources <#9-vietnamese-nlp-resources>`_
 
 ****************************************
 1. Sentence Segmentation
 ****************************************
-
-.. image:: https://img.shields.io/badge/F1-98%25-red.svg
-        :target: https://github.com/undertheseanlp/sent_tokenize
 
 Usage
 
@@ -96,9 +94,6 @@ Usage
 2. Word Segmentation
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-94%25-red.svg
-        :target: https://github.com/undertheseanlp/word_tokenize
-
 Usage
 
 .. code-block:: python
@@ -116,9 +111,6 @@ Usage
 ****************************************
 3. POS Tagging
 ****************************************
-
-.. image:: https://img.shields.io/badge/accuracy-92.3%25-red.svg
-        :target: https://github.com/undertheseanlp/pos_tag
 
 Usage
 
@@ -140,9 +132,6 @@ Usage
 4. Chunking
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-77%25-red.svg
-		:target: https://github.com/undertheseanlp/chunking
-
 Usage
 
 .. code-block:: python
@@ -162,11 +151,30 @@ Usage
      ('?', 'CH', 'O')]
 
 ****************************************
-5. Named Entity Recognition
+5. Dependency Parsing
 ****************************************
 
-.. image:: https://img.shields.io/badge/F1-86.6%25-red.svg
-		:target: https://github.com/undertheseanlp/ner
+Usage
+
+.. code-block:: python
+
+    >>> # -*- coding: utf-8 -*-
+    >>> from underthesea import dependency_parse
+    >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
+    >>> dependency_parse(text)
+    [('Tối', 5, 'obl:tmod'),
+     ('29/11', 1, 'flat:date'),
+     (',', 1, 'punct'),
+     ('Việt Nam', 5, 'nsubj'),
+     ('thêm', 0, 'root'),
+     ('2', 7, 'nummod'),
+     ('ca', 5, 'obj'),
+     ('mắc', 7, 'nmod'),
+     ('Covid-19', 8, 'nummod')]
+
+****************************************
+6. Named Entity Recognition
+****************************************
 
 Usage
 
@@ -188,7 +196,7 @@ Usage
      ('Trump', 'Np', 'B-NP', 'I-PER')]
 
 ****************************************
-6. Text Classification
+7. Text Classification
 ****************************************
 
 .. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
@@ -217,7 +225,7 @@ Usage
     ['INTEREST_RATE']
 
 ****************************************
-7. Sentiment Analysis
+8. Sentiment Analysis
 ****************************************
 
 .. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
@@ -250,7 +258,7 @@ Usage
     ['TRADEMARK#positive']
 
 ****************************************
-8. Vietnamese NLP Resources
+9. Vietnamese NLP Resources
 ****************************************
 
 List resources
@@ -279,10 +287,9 @@ Download resources
 Up Coming Features
 ----------------------------------------
 
+* Machine Translation
 * Text to Speech
 * Automatic Speech Recognition
-* Machine Translation
-* Dependency Parsing
 
 Contributing
 ----------------------------------------
