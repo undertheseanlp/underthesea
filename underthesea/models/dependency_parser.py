@@ -38,10 +38,8 @@ class DependencyParser(object):
         self.transform = transform
         try:
             feat = self.args.feat
-            device = self.args.device
         except Exception:
             feat = self.args['feat']
-            device = self.args['device']
         if feat in ('char', 'bert'):
             self.WORD, self.FEAT = self.transform.FORM
         else:
@@ -133,31 +131,6 @@ class DependencyParser(object):
 
         return dataset
 
-    def _train(self, loader):
-        self.model.train()
-
-        bar, metric = progress_bar(loader), AttachmentMetric()
-
-        for words, feats, arcs, rels in bar:
-            self.optimizer.zero_grad()
-
-            mask = words.ne(self.WORD.pad_index)
-            # ignore the first token of each sentence
-            mask[:, 0] = 0
-            s_arc, s_rel = self.model(words, feats)
-            loss = self.model.loss(s_arc, s_rel, arcs, rels, mask)
-            loss.backward()
-            nn.utils.clip_grad_norm_(self.model.parameters(), self.args.clip)
-            self.optimizer.step()
-            self.scheduler.step()
-
-            arc_preds, rel_preds = self.model.decode(s_arc, s_rel, mask)
-            # ignore all punctuation if not specified
-            if not self.args.punct:
-                mask &= words.unsqueeze(-1).ne(self.puncts).all(-1)
-            metric(arc_preds, rel_preds, arcs, rels, mask)
-            bar.set_postfix_str(f"lr: {self.scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}")
-
     @torch.no_grad()
     def _evaluate(self, loader):
         self.model.eval()
@@ -203,7 +176,6 @@ class DependencyParser(object):
         """
 
         args = Config(**locals())
-        args.device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
         if os.path.exists(path):
             state = torch.load(path)

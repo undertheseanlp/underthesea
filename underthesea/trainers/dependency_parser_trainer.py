@@ -5,7 +5,7 @@ from typing import Union
 import torch.distributed as dist
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from underthesea.data import CoNLL
+from underthesea.data import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.modules.model import BiaffineDependencyModel
 from underthesea.utils import device, logger
@@ -14,8 +14,9 @@ from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
-from underthesea.utils.sp_metric import Metric
+from underthesea.utils.sp_metric import Metric, AttachmentMetric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
+import torch.nn as nn
 
 
 class DependencyParserTrainer:
@@ -158,11 +159,11 @@ class DependencyParserTrainer:
             parser_supar.model = DDP(parser_supar.model,
                                      device_ids=[dist.get_rank()],
                                      find_unused_parameters=True)
-        parser_supar.optimizer = Adam(parser_supar.model.parameters(),
+        optimizer = Adam(parser_supar.model.parameters(),
                                       lr,
                                       (mu, nu),
                                       epsilon)
-        parser_supar.scheduler = ExponentialLR(parser_supar.optimizer, decay ** (1 / decay_steps))
+        scheduler = ExponentialLR(optimizer, decay ** (1 / decay_steps))
 
         elapsed = timedelta()
         best_e, best_metric = 1, Metric()
@@ -171,7 +172,31 @@ class DependencyParserTrainer:
             start = datetime.now()
 
             logger.info(f"Epoch {epoch} / {max_epochs}:")
-            parser_supar._train(train.loader)
+
+            parser_supar.model.train()
+
+            loader = train.loader
+            bar, metric = progress_bar(loader), AttachmentMetric()
+            for words, feats, arcs, rels in bar:
+                optimizer.zero_grad()
+
+                mask = words.ne(parser_supar.WORD.pad_index)
+                # ignore the first token of each sentence
+                mask[:, 0] = 0
+                s_arc, s_rel = parser_supar.model(words, feats)
+                loss = parser_supar.model.loss(s_arc, s_rel, arcs, rels, mask)
+                loss.backward()
+                nn.utils.clip_grad_norm_(parser_supar.model.parameters(), parser_supar.args.clip)
+                optimizer.step()
+                scheduler.step()
+
+                arc_preds, rel_preds = parser_supar.model.decode(s_arc, s_rel, mask)
+                # ignore all punctuation if not specified
+                if not parser_supar.args.punct:
+                    mask &= words.unsqueeze(-1).ne(parser_supar.puncts).all(-1)
+                metric(arc_preds, rel_preds, arcs, rels, mask)
+                bar.set_postfix_str(f"lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}")
+
             loss, dev_metric = parser_supar._evaluate(dev.loader)
             logger.info(f"{'dev:':6} - loss: {loss:.4f} - {dev_metric}")
             loss, test_metric = parser_supar._evaluate(test.loader)
