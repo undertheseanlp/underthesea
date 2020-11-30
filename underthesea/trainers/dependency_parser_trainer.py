@@ -6,7 +6,7 @@ import torch.distributed as dist
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
 from underthesea.data import CoNLL
-from underthesea.models.dependency_parser import BiaffineDependencyParserSupar
+from underthesea.models.dependency_parser import DependencyParser
 from underthesea.modules.model import BiaffineDependencyModel
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
@@ -125,7 +125,8 @@ class DependencyParserTrainer:
         })
         model = BiaffineDependencyModel(**args)
         model.load_pretrained(WORD.embed).to(device)
-        parser_supar = BiaffineDependencyParserSupar(args, model, transform)
+        parser_supar = DependencyParser()
+        parser_supar.init_model(args, model, transform)
 
         ################################################################################################################
         # TRAIN
