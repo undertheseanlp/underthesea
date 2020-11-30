@@ -51,8 +51,19 @@ class DependencyParser(object):
                                     for s, i in self.WORD.vocab.stoi.items()
                                     if ispunct(s)]).to(device)
 
-    def predict(self, data, pred=None, buckets=8, batch_size=5000,
-                prob=False, tree=True, proj=False, verbose=True, **kwargs):
+    @torch.no_grad()
+    def predict(
+        self,
+        data,
+        buckets=8,
+        batch_size=5000,
+        pred=None,
+        prob=False,
+        tree=True,
+        proj=False,
+        verbose=True,
+        **kwargs
+    ):
         r"""
         Args:
             data (list[list] or str):
@@ -77,36 +88,48 @@ class DependencyParser(object):
         Returns:
             A :class:`~underthesea.utils.Dataset` object that stores the predicted results.
         """
-
-        return self.__predict(**Config().update(locals()))
-
-    def __predict(self, data, pred=None, buckets=8, batch_size=5000, prob=False, **kwargs):
-        args = self.args.update(locals())
-        if not args:
-            args = locals()
-            args.update(kwargs)
-            args = type('Args', (object,), locals())
-
         self.transform.eval()
-        if args.prob:
+        if prob:
             self.transform.append(Field('probs'))
 
-        logger.info("Loading the data")
+        logger.info('Loading the data')
         dataset = Dataset(self.transform, data)
-        dataset.build(args.batch_size, args.buckets)
-        logger.info(f"\n{dataset}")
+        dataset.build(batch_size, buckets)
+        logger.info(f'\n{dataset}')
 
-        logger.info("Making predictions on the dataset")
+        logger.info('Making predictions on the dataset')
         start = datetime.now()
-        preds = self._predict(dataset.loader)
+        loader = dataset.loader
+        self.model.eval()
+
+        arcs, rels, probs = [], [], []
+        for words, feats in progress_bar(loader):
+            mask = words.ne(self.WORD.pad_index)
+            # ignore the first token of each sentence
+            mask[:, 0] = 0
+            lens = mask.sum(1).tolist()
+            s_arc, s_rel = self.model(words, feats)
+            arc_preds, rel_preds = self.model.decode(s_arc, s_rel, mask,
+                                                     tree, proj)
+            arcs.extend(arc_preds[mask].split(lens))
+            rels.extend(rel_preds[mask].split(lens))
+            if prob:
+                arc_probs = s_arc.softmax(-1)
+                probs.extend([prob[1:i + 1, :i + 1].cpu() for i, prob in zip(lens, arc_probs.unbind())])
+        arcs = [seq.tolist() for seq in arcs]
+        rels = [self.REL.vocab[seq.tolist()] for seq in rels]
+        preds = {'arcs': arcs, 'rels': rels}
+        if prob:
+            preds['probs'] = probs
+
         elapsed = datetime.now() - start
 
         for name, value in preds.items():
             setattr(dataset, name, value)
         if pred is not None:
-            logger.info(f"Saving predicted results to {pred}")
+            logger.info(f'Saving predicted results to {pred}')
             self.transform.save(pred, dataset.sentences)
-        logger.info(f"{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s")
+        logger.info(f'{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s')
 
         return dataset
 
@@ -159,39 +182,6 @@ class DependencyParser(object):
         total_loss /= len(loader)
 
         return total_loss, metric
-
-    @torch.no_grad()
-    def _predict(self, loader):
-        self.model.eval()
-        try:
-            tree = self.args.tree
-            proj = self.args.proj
-            prob = self.args.prob
-        except Exception:
-            tree = self.args['tree']
-            proj = self.args['proj']
-            prob = self.args['prob']
-        arcs, rels, probs = [], [], []
-        for words, feats in progress_bar(loader):
-            mask = words.ne(self.WORD.pad_index)
-            # ignore the first token of each sentence
-            mask[:, 0] = 0
-            lens = mask.sum(1).tolist()
-            s_arc, s_rel = self.model(words, feats)
-            arc_preds, rel_preds = self.model.decode(s_arc, s_rel, mask,
-                                                     tree, proj)
-            arcs.extend(arc_preds[mask].split(lens))
-            rels.extend(rel_preds[mask].split(lens))
-            if prob:
-                arc_probs = s_arc.softmax(-1)
-                probs.extend([prob[1:i + 1, :i + 1].cpu() for i, prob in zip(lens, arc_probs.unbind())])
-        arcs = [seq.tolist() for seq in arcs]
-        rels = [self.REL.vocab[seq.tolist()] for seq in rels]
-        preds = {'arcs': arcs, 'rels': rels}
-        if prob:
-            preds['probs'] = probs
-
-        return preds
 
     @classmethod
     def load(cls, path, **kwargs):

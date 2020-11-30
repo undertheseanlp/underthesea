@@ -1,6 +1,5 @@
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.models.dependency_parser import DependencyParser
-
 from underthesea.trainers.dependency_parser_trainer import DependencyParserTrainer
 
 
