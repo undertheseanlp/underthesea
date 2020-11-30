@@ -1,6 +1,7 @@
 from underthesea.file_utils import DATASETS_FOLDER
-from underthesea.models.dependency_parser import BiaffineDependencyParser
-from underthesea.trainers.parser_trainer import ParserTrainer
+from underthesea.models.dependency_parser import DependencyParser
+
+from underthesea.trainers.dependency_parser_trainer import DependencyParserTrainer
 
 
 class Corpus:
@@ -43,10 +44,10 @@ corpus: Corpus = VLSP2020_DP_R1()
 
 embeddings = 'char'
 embed = False
-parser = BiaffineDependencyParser(embeddings, embed=False)
-trainer = ParserTrainer(parser, corpus)
+parser = DependencyParser(embeddings, embed=False)
+trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
     base_path='tmp/resources/parsers/dp',
-    max_epochs=1,
+    max_epochs=10,
     mu=0  # optimizer parameters
 )

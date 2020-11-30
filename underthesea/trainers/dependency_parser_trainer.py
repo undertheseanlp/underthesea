@@ -18,7 +18,7 @@ from underthesea.utils.sp_metric import Metric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
 
 
-class ParserTrainer:
+class DependencyParserTrainer:
     def __init__(self, parser, corpus):
         self.parser = parser
         self.corpus = corpus

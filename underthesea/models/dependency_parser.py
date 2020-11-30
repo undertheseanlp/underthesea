@@ -5,7 +5,6 @@ from underthesea.utils import logger, device
 from underthesea.data import progress_bar
 import torch
 import torch.nn as nn
-from underthesea.models.nn import Model
 from underthesea.modules.model import BiaffineDependencyModel
 from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
@@ -19,7 +18,11 @@ class DependencyParser(object):
     NAME = None
     MODEL = None
 
-    def __init__(self, args, model, transform):
+    def __init__(self, embeddings='char', embed=False):
+        self.embeddings = embeddings
+        self.embed = embed
+
+    def init_model(self, args, model, transform):
         self.args = args
         self.model = model
         self.transform = transform
@@ -101,9 +104,9 @@ class DependencyParser(object):
                 A dict holding the unconsumed arguments that can be used to update the configurations and initiate the model.
 
         Examples:
-            >>> # from supar import Parser
-            >>> # parser = Parser.load('biaffine-dep-en')
-            >>> # parser = Parser.load('./ptb.biaffine.dependency.char')
+            >>> # from underthesea.models.dependency_parser import DependencyParser
+            >>> # parser = DependencyParser.load('vi-dp-v1')
+            >>> # parser = DependencyParser.load('./tmp/resources/parsers/dp')
         """
 
         args = Config(**locals())
@@ -114,18 +117,17 @@ class DependencyParser(object):
         else:
             path = PRETRAINED[path] if path in PRETRAINED else path
             state = torch.hub.load_state_dict_from_url(path)
-        try:
-            cls = BiaffineDependencyParserSupar
-        except Exception as e:
-            print(e)
+        cls = BiaffineDependencyParserSupar
 
         state['args'].update(args)
         args = state['args']
+
         model = cls.MODEL(**args)
         model.load_pretrained(state['pretrained'])
         model.load_state_dict(state['state_dict'], False)
         model.to(device)
         transform = state['transform']
+
         return cls(args, model, transform)
 
     def save(self, path):
@@ -145,12 +147,6 @@ class DependencyParser(object):
         torch.save(state, path)
 
 
-class BiaffineDependencyParser(Model):
-    def __init__(self, embeddings='char', embed=False):
-        self.embeddings = embeddings
-        self.embed = embed
-
-
 class BiaffineDependencyParserSupar(DependencyParser):
     r"""
     The implementation of Biaffine Dependency Parser.
@@ -167,7 +163,7 @@ class BiaffineDependencyParserSupar(DependencyParser):
     MODEL = BiaffineDependencyModel
 
     def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
+        super().init_model(*args, **kwargs)
         try:
             feat = self.args.feat
             device = self.args.device
