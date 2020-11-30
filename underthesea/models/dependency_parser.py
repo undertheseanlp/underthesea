@@ -4,7 +4,6 @@ from datetime import datetime
 from underthesea.utils import logger, device
 from underthesea.data import progress_bar
 import torch
-import torch.nn as nn
 from underthesea.modules.model import BiaffineDependencyModel
 from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
@@ -132,7 +131,7 @@ class DependencyParser(object):
         return dataset
 
     @torch.no_grad()
-    def _evaluate(self, loader):
+    def evaluate(self, loader):
         self.model.eval()
 
         total_loss, metric = 0, AttachmentMetric()

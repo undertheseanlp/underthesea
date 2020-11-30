@@ -24,6 +24,7 @@ class DependencyParserTrainer:
         self.parser = parser
         self.corpus = corpus
 
+    # flake8: noqa: C901
     def train(
         self, base_path: Union[Path, str],
         fix_len=20,
@@ -126,8 +127,8 @@ class DependencyParserTrainer:
         })
         model = BiaffineDependencyModel(**args)
         model.load_pretrained(WORD.embed).to(device)
-        parser_supar = DependencyParser()
-        parser_supar.init_model(args, model, transform)
+        parser = DependencyParser()
+        parser.init_model(args, model, transform)
 
         ################################################################################################################
         # TRAIN
@@ -138,31 +139,26 @@ class DependencyParserTrainer:
             'dev': self.corpus.dev,
             'test': self.corpus.test
         })
-        parser_supar.transform.train()
-        parser_supar.args.clip = clip
-        parser_supar.args.punct = punct
-        parser_supar.args.tree = tree
-        parser_supar.args.proj = proj
+        parser.transform.train()
+        parser.args.clip = clip
+        parser.args.punct = punct
+        parser.args.tree = tree
+        parser.args.proj = proj
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
-        logger.info("Loading the data")
-        train = Dataset(parser_supar.transform, self.corpus.train, **args)
-        dev = Dataset(parser_supar.transform, self.corpus.dev)
-        test = Dataset(parser_supar.transform, self.corpus.test)
+        logger.info('Loading the data')
+        train = Dataset(parser.transform, self.corpus.train, **args)
+        dev = Dataset(parser.transform, self.corpus.dev)
+        test = Dataset(parser.transform, self.corpus.test)
         train.build(batch_size, buckets, True, dist.is_initialized())
         dev.build(batch_size, buckets)
         test.build(batch_size, buckets)
         logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
 
-        logger.info(f"{parser_supar.model}\n")
+        logger.info(f'{parser.model}\n')
         if dist.is_initialized():
-            parser_supar.model = DDP(parser_supar.model,
-                                     device_ids=[dist.get_rank()],
-                                     find_unused_parameters=True)
-        optimizer = Adam(parser_supar.model.parameters(),
-                                      lr,
-                                      (mu, nu),
-                                      epsilon)
+            parser.model = DDP(parser.model, device_ids=[dist.get_rank()], find_unused_parameters=True)
+        optimizer = Adam(parser.model.parameters(), lr, (mu, nu), epsilon)
         scheduler = ExponentialLR(optimizer, decay ** (1 / decay_steps))
 
         elapsed = timedelta()
@@ -171,35 +167,35 @@ class DependencyParserTrainer:
         for epoch in range(1, max_epochs + 1):
             start = datetime.now()
 
-            logger.info(f"Epoch {epoch} / {max_epochs}:")
+            logger.info(f'Epoch {epoch} / {max_epochs}:')
 
-            parser_supar.model.train()
+            parser.model.train()
 
             loader = train.loader
             bar, metric = progress_bar(loader), AttachmentMetric()
             for words, feats, arcs, rels in bar:
                 optimizer.zero_grad()
 
-                mask = words.ne(parser_supar.WORD.pad_index)
+                mask = words.ne(parser.WORD.pad_index)
                 # ignore the first token of each sentence
                 mask[:, 0] = 0
-                s_arc, s_rel = parser_supar.model(words, feats)
-                loss = parser_supar.model.loss(s_arc, s_rel, arcs, rels, mask)
+                s_arc, s_rel = parser.model(words, feats)
+                loss = parser.model.loss(s_arc, s_rel, arcs, rels, mask)
                 loss.backward()
-                nn.utils.clip_grad_norm_(parser_supar.model.parameters(), parser_supar.args.clip)
+                nn.utils.clip_grad_norm_(parser.model.parameters(), parser.args.clip)
                 optimizer.step()
                 scheduler.step()
 
-                arc_preds, rel_preds = parser_supar.model.decode(s_arc, s_rel, mask)
+                arc_preds, rel_preds = parser.model.decode(s_arc, s_rel, mask)
                 # ignore all punctuation if not specified
-                if not parser_supar.args.punct:
-                    mask &= words.unsqueeze(-1).ne(parser_supar.puncts).all(-1)
+                if not parser.args.punct:
+                    mask &= words.unsqueeze(-1).ne(parser.puncts).all(-1)
                 metric(arc_preds, rel_preds, arcs, rels, mask)
-                bar.set_postfix_str(f"lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}")
+                bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
 
-            loss, dev_metric = parser_supar._evaluate(dev.loader)
+            loss, dev_metric = parser.evaluate(dev.loader)
             logger.info(f"{'dev:':6} - loss: {loss:.4f} - {dev_metric}")
-            loss, test_metric = parser_supar._evaluate(test.loader)
+            loss, test_metric = parser.evaluate(test.loader)
             logger.info(f"{'test:':6} - loss: {loss:.4f} - {test_metric}")
 
             t = datetime.now() - start
@@ -207,16 +203,16 @@ class DependencyParserTrainer:
             if dev_metric > best_metric:
                 best_e, best_metric = epoch, dev_metric
                 if is_master():
-                    parser_supar.save(base_path)
-                logger.info(f"{t}s elapsed (saved)\n")
+                    parser.save(base_path)
+                logger.info(f'{t}s elapsed (saved)\n')
             else:
-                logger.info(f"{t}s elapsed\n")
+                logger.info(f'{t}s elapsed\n')
             elapsed += t
             if epoch - best_e >= patience:
                 break
-        loss, metric = parser_supar.load(base_path)._evaluate(test.loader)
+        loss, metric = parser.load(base_path).evaluate(test.loader)
 
-        logger.info(f"Epoch {best_e} saved")
+        logger.info(f'Epoch {best_e} saved')
         logger.info(f"{'dev:':6} - {best_metric}")
         logger.info(f"{'test:':6} - {metric}")
-        logger.info(f"{elapsed}s elapsed, {elapsed / epoch}s/epoch")
+        logger.info(f'{elapsed}s elapsed, {elapsed / epoch}s/epoch')
