@@ -56,6 +56,6 @@ parser = DependencyParser(embeddings, embed=False)
 trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
     base_path='tmp/resources/parsers/dp-3',
-    max_epochs=2,
+    max_epochs=3,
     mu=0  # optimizer parameters
 )
