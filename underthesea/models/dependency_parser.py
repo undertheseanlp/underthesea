@@ -17,7 +17,8 @@ from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, Share
 from underthesea.modules.bert import BertEmbedding
 from underthesea.utils.sp_alg import eisner, mst
 
-class BiaffineDependencyModel(nn.Module):
+
+class DependencyParser(nn.Module):
     r"""
     The implementation of Biaffine Dependency Parser.
 
@@ -25,89 +26,40 @@ class BiaffineDependencyModel(nn.Module):
         - Timothy Dozat and Christopher D. Manning. 2017.
           `Deep Biaffine Attention for Neural Dependency Parsing`_.
 
-    Args:
-        n_words (int):
-            The size of the word vocabulary.
-        n_feats (int):
-            The size of the feat vocabulary.
-        n_rels (int):
-            The number of labels in the treebank.
-        feat (str):
-            Specifies which type of additional feature to use: ``'char'`` | ``'bert'`` | ``'tag'``.
-            ``'char'``: Character-level representations extracted by CharLSTM.
-            ``'bert'``: BERT representations, other pretrained langugae models like XLNet are also feasible.
-            ``'tag'``: POS tag embeddings.
-            Default: ``'char'``.
-        n_embed (int):
-            The size of word embeddings. Default: 100.
-        n_feat_embed (int):
-            The size of feature representations. Default: 100.
-        n_char_embed (int):
-            The size of character embeddings serving as inputs of CharLSTM, required if ``feat='char'``. Default: 50.
-        bert (str):
-            Specifies which kind of language model to use, e.g., ``'bert-base-cased'`` and ``'xlnet-base-cased'``.
-            This is required if ``feat='bert'``. The full list can be found in `transformers`_.
-            Default: ``None``.
-        n_bert_layers (int):
-            Specifies how many last layers to use. Required if ``feat='bert'``.
-            The final outputs would be the weight sum of the hidden states of these layers.
-            Default: 4.
-        max_len (int):
-            Sequences should not exceed the specfied max length. Default: ``None``.
-        mix_dropout (float):
-            The dropout ratio of BERT layers. Required if ``feat='bert'``. Default: .0.
-        embed_dropout (float):
-            The dropout ratio of input embeddings. Default: .33.
-        n_lstm_hidden (int):
-            The size of LSTM hidden states. Default: 400.
-        n_lstm_layers (int):
-            The number of LSTM layers. Default: 3.
-        lstm_dropout (float):
-            The dropout ratio of LSTM. Default: .33.
-        n_mlp_arc (int):
-            Arc MLP size. Default: 500.
-        n_mlp_rel  (int):
-            Label MLP size. Default: 100.
-        mlp_dropout (float):
-            The dropout ratio of MLP layers. Default: .33.
-        feat_pad_index (int):
-            The index of the padding token in the feat vocabulary. Default: 0.
-        pad_index (int):
-            The index of the padding token in the word vocabulary. Default: 0.
-        unk_index (int):
-            The index of the unknown token in the word vocabulary. Default: 1.
-
     .. _Deep Biaffine Attention for Neural Dependency Parsing:
         https://openreview.net/forum?id=Hk95PK9le
-    .. _transformers:
-        https://github.com/huggingface/transformers
     """
+    NAME = 'biaffine-dependency'
 
-    def __init__(self,
-                 n_words,
-                 n_feats,
-                 n_rels,
-                 feat='char',
-                 n_embed=100,
-                 n_feat_embed=100,
-                 n_char_embed=50,
-                 bert=None,
-                 n_bert_layers=4,
-                 max_len=None,
-                 mix_dropout=.0,
-                 embed_dropout=.33,
-                 n_lstm_hidden=400,
-                 n_lstm_layers=3,
-                 lstm_dropout=.33,
-                 n_mlp_arc=500,
-                 n_mlp_rel=100,
-                 mlp_dropout=.33,
-                 feat_pad_index=0,
-                 pad_index=0,
-                 unk_index=1,
-                 **kwargs):
+    def __init__(self, embeddings='char', embed=False):
         super().__init__()
+        self.embeddings = embeddings
+        self.embed = embed
 
+    def init_module(self,
+                    n_words,
+                    n_feats,
+                    n_rels,
+                    feat='char',
+                    n_embed=100,
+                    n_feat_embed=100,
+                    n_char_embed=50,
+                    bert=None,
+                    n_bert_layers=4,
+                    max_len=None,
+                    mix_dropout=.0,
+                    embed_dropout=.33,
+                    n_lstm_hidden=400,
+                    n_lstm_layers=3,
+                    lstm_dropout=.33,
+                    n_mlp_arc=500,
+                    n_mlp_rel=100,
+                    mlp_dropout=.33,
+                    feat_pad_index=0,
+                    pad_index=0,
+                    unk_index=1,
+                    **kwargs
+                    ):
         self.args = {
             "n_words": n_words,
             "n_feats": n_feats,
@@ -173,6 +125,185 @@ class BiaffineDependencyModel(nn.Module):
         self.criterion = nn.CrossEntropyLoss()
         self.pad_index = pad_index
         self.unk_index = unk_index
+
+    def init_model(self, args, transform):
+        self.args = args
+        self.transform = transform
+        try:
+            feat = self.args.feat
+        except Exception:
+            feat = self.args['feat']
+        if feat in ('char', 'bert'):
+            self.WORD, self.FEAT = self.transform.FORM
+        else:
+            self.WORD, self.FEAT = self.transform.FORM, self.transform.CPOS
+        self.ARC, self.REL = self.transform.HEAD, self.transform.DEPREL
+        self.puncts = torch.tensor([i
+                                    for s, i in self.WORD.vocab.stoi.items()
+                                    if ispunct(s)]).to(device)
+
+    @torch.no_grad()
+    def predict(
+        self,
+        data,
+        buckets=8,
+        batch_size=5000,
+        pred=None,
+        prob=False,
+        tree=True,
+        proj=False,
+        verbose=True,
+        **kwargs
+    ):
+        r"""
+        Args:
+            data (list[list] or str):
+                The data for prediction, both a list of instances and filename are allowed.
+            pred (str):
+                If specified, the predicted results will be saved to the file. Default: ``None``.
+            buckets (int):
+                The number of buckets that sentences are assigned to. Default: 32.
+            batch_size (int):
+                The number of tokens in each batch. Default: 5000.
+            prob (bool):
+                If ``True``, outputs the probabilities. Default: ``False``.
+            tree (bool):
+                If ``True``, ensures to output well-formed trees. Default: ``False``.
+            proj (bool):
+                If ``True``, ensures to output projective trees. Default: ``False``.
+            verbose (bool):
+                If ``True``, increases the output verbosity. Default: ``True``.
+            kwargs (dict):
+                A dict holding the unconsumed arguments that can be used to update the configurations for prediction.
+
+        Returns:
+            A :class:`~underthesea.utils.Dataset` object that stores the predicted results.
+        """
+        self.transform.eval()
+        if prob:
+            self.transform.append(Field('probs'))
+
+        logger.info('Loading the data')
+        dataset = Dataset(self.transform, data)
+        dataset.build(batch_size, buckets)
+        logger.info(f'\n{dataset}')
+
+        logger.info('Making predictions on the dataset')
+        start = datetime.now()
+        loader = dataset.loader
+        self.eval()
+
+        arcs, rels, probs = [], [], []
+        for words, feats in progress_bar(loader):
+            mask = words.ne(self.WORD.pad_index)
+            # ignore the first token of each sentence
+            mask[:, 0] = 0
+            lens = mask.sum(1).tolist()
+            s_arc, s_rel = self.forward(words, feats)
+            arc_preds, rel_preds = self.decode(s_arc, s_rel, mask,
+                                                     tree, proj)
+            arcs.extend(arc_preds[mask].split(lens))
+            rels.extend(rel_preds[mask].split(lens))
+            if prob:
+                arc_probs = s_arc.softmax(-1)
+                probs.extend([prob[1:i + 1, :i + 1].cpu() for i, prob in zip(lens, arc_probs.unbind())])
+        arcs = [seq.tolist() for seq in arcs]
+        rels = [self.REL.vocab[seq.tolist()] for seq in rels]
+        preds = {'arcs': arcs, 'rels': rels}
+        if prob:
+            preds['probs'] = probs
+
+        elapsed = datetime.now() - start
+
+        for name, value in preds.items():
+            setattr(dataset, name, value)
+        if pred is not None:
+            logger.info(f'Saving predicted results to {pred}')
+            self.transform.save(pred, dataset.sentences)
+        logger.info(f'{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s')
+
+        return dataset
+
+    @torch.no_grad()
+    def evaluate(self, loader):
+        self.eval()
+
+        total_loss, metric = 0, AttachmentMetric()
+
+        tree = self.args['tree']
+        proj = self.args['proj']
+
+        for words, feats, arcs, rels in loader:
+            mask = words.ne(self.WORD.pad_index)
+            # ignore the first token of each sentence
+            mask[:, 0] = 0
+            s_arc, s_rel = self.forward(words, feats)
+            loss = self.loss(s_arc, s_rel, arcs, rels, mask)
+            arc_preds, rel_preds = self.decode(s_arc, s_rel, mask, tree, proj)
+            # ignore all punctuation if not specified
+            if not self.args['punct']:
+                mask &= words.unsqueeze(-1).ne(self.puncts).all(-1)
+            total_loss += loss.item()
+            metric(arc_preds, rel_preds, arcs, rels, mask)
+        total_loss /= len(loader)
+
+        return total_loss, metric
+
+    @classmethod
+    def load(cls, path, **kwargs):
+        r"""
+        Loads a parser with data fields and pretrained model parameters.
+
+        Args:
+            path (str):
+                - a string with the shortcut name of a pretrained parser defined in ``underthesea.PRETRAINED``
+                  to load from cache or download, e.g., ``'crf-dep-en'``.
+                - a path to a directory containing a pre-trained parser, e.g., `./<path>/model`.
+            kwargs (dict):
+                A dict holding the unconsumed arguments that can be used to update the configurations and initiate the model.
+
+        Examples:
+            >>> # from underthesea.models.dependency_parser import DependencyParser
+            >>> # parser = DependencyParser.load('vi-dp-v1')
+            >>> # parser = DependencyParser.load('./tmp/resources/parsers/dp')
+        """
+
+        args = Config(**locals())
+
+        if os.path.exists(path):
+            state = torch.load(path)
+        else:
+            path = PRETRAINED[path] if path in PRETRAINED else path
+            state = torch.hub.load_state_dict_from_url(path)
+
+        state['args'].update(args)
+        args = state['args']
+
+        transform = state['transform']
+
+        parser = cls()
+        parser.init_module(**args)
+        parser.load_pretrained(state['pretrained'])
+        parser.load_state_dict(state['state_dict'], False)
+        parser.to(device)
+        parser.init_model(args, transform)
+        return parser
+
+    def save(self, path):
+        model = self
+        if hasattr(self, 'module'):
+            model = self.module
+
+        args = self.args
+
+        state_dict = {k: v.cpu() for k, v in model.state_dict().items()}
+        pretrained = state_dict.pop('pretrained.weight', None)
+        state = {'name': self.NAME,
+                 'args': args,
+                 'state_dict': state_dict,
+                 'pretrained': pretrained,
+                 'transform': self.transform}
+        torch.save(state, path)
 
     def load_pretrained(self, embed=None):
         if embed is not None:
@@ -292,201 +423,3 @@ class BiaffineDependencyModel(nn.Module):
 
         return arc_preds, rel_preds
 
-
-class DependencyParser(object):
-    r"""
-    The implementation of Biaffine Dependency Parser.
-
-    References:
-        - Timothy Dozat and Christopher D. Manning. 2017.
-          `Deep Biaffine Attention for Neural Dependency Parsing`_.
-
-    .. _Deep Biaffine Attention for Neural Dependency Parsing:
-        https://openreview.net/forum?id=Hk95PK9le
-    """
-    NAME = 'biaffine-dependency'
-    MODEL = BiaffineDependencyModel
-
-    def __init__(self, embeddings='char', embed=False):
-        self.embeddings = embeddings
-        self.embed = embed
-
-    def init_model(self, args, model, transform):
-        self.args = args
-        self.model = model
-        self.transform = transform
-        try:
-            feat = self.args.feat
-        except Exception:
-            feat = self.args['feat']
-        if feat in ('char', 'bert'):
-            self.WORD, self.FEAT = self.transform.FORM
-        else:
-            self.WORD, self.FEAT = self.transform.FORM, self.transform.CPOS
-        self.ARC, self.REL = self.transform.HEAD, self.transform.DEPREL
-        self.puncts = torch.tensor([i
-                                    for s, i in self.WORD.vocab.stoi.items()
-                                    if ispunct(s)]).to(device)
-
-    @torch.no_grad()
-    def predict(
-        self,
-        data,
-        buckets=8,
-        batch_size=5000,
-        pred=None,
-        prob=False,
-        tree=True,
-        proj=False,
-        verbose=True,
-        **kwargs
-    ):
-        r"""
-        Args:
-            data (list[list] or str):
-                The data for prediction, both a list of instances and filename are allowed.
-            pred (str):
-                If specified, the predicted results will be saved to the file. Default: ``None``.
-            buckets (int):
-                The number of buckets that sentences are assigned to. Default: 32.
-            batch_size (int):
-                The number of tokens in each batch. Default: 5000.
-            prob (bool):
-                If ``True``, outputs the probabilities. Default: ``False``.
-            tree (bool):
-                If ``True``, ensures to output well-formed trees. Default: ``False``.
-            proj (bool):
-                If ``True``, ensures to output projective trees. Default: ``False``.
-            verbose (bool):
-                If ``True``, increases the output verbosity. Default: ``True``.
-            kwargs (dict):
-                A dict holding the unconsumed arguments that can be used to update the configurations for prediction.
-
-        Returns:
-            A :class:`~underthesea.utils.Dataset` object that stores the predicted results.
-        """
-        self.transform.eval()
-        if prob:
-            self.transform.append(Field('probs'))
-
-        logger.info('Loading the data')
-        dataset = Dataset(self.transform, data)
-        dataset.build(batch_size, buckets)
-        logger.info(f'\n{dataset}')
-
-        logger.info('Making predictions on the dataset')
-        start = datetime.now()
-        loader = dataset.loader
-        self.model.eval()
-
-        arcs, rels, probs = [], [], []
-        for words, feats in progress_bar(loader):
-            mask = words.ne(self.WORD.pad_index)
-            # ignore the first token of each sentence
-            mask[:, 0] = 0
-            lens = mask.sum(1).tolist()
-            s_arc, s_rel = self.model(words, feats)
-            arc_preds, rel_preds = self.model.decode(s_arc, s_rel, mask,
-                                                     tree, proj)
-            arcs.extend(arc_preds[mask].split(lens))
-            rels.extend(rel_preds[mask].split(lens))
-            if prob:
-                arc_probs = s_arc.softmax(-1)
-                probs.extend([prob[1:i + 1, :i + 1].cpu() for i, prob in zip(lens, arc_probs.unbind())])
-        arcs = [seq.tolist() for seq in arcs]
-        rels = [self.REL.vocab[seq.tolist()] for seq in rels]
-        preds = {'arcs': arcs, 'rels': rels}
-        if prob:
-            preds['probs'] = probs
-
-        elapsed = datetime.now() - start
-
-        for name, value in preds.items():
-            setattr(dataset, name, value)
-        if pred is not None:
-            logger.info(f'Saving predicted results to {pred}')
-            self.transform.save(pred, dataset.sentences)
-        logger.info(f'{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s')
-
-        return dataset
-
-    @torch.no_grad()
-    def evaluate(self, loader):
-        self.model.eval()
-
-        total_loss, metric = 0, AttachmentMetric()
-
-        tree = self.args['tree']
-        proj = self.args['proj']
-
-        for words, feats, arcs, rels in loader:
-            mask = words.ne(self.WORD.pad_index)
-            # ignore the first token of each sentence
-            mask[:, 0] = 0
-            s_arc, s_rel = self.model(words, feats)
-            loss = self.model.loss(s_arc, s_rel, arcs, rels, mask)
-            arc_preds, rel_preds = self.model.decode(s_arc, s_rel, mask, tree, proj)
-            # ignore all punctuation if not specified
-            if not self.args['punct']:
-                mask &= words.unsqueeze(-1).ne(self.puncts).all(-1)
-            total_loss += loss.item()
-            metric(arc_preds, rel_preds, arcs, rels, mask)
-        total_loss /= len(loader)
-
-        return total_loss, metric
-
-    @classmethod
-    def load(cls, path, **kwargs):
-        r"""
-        Loads a parser with data fields and pretrained model parameters.
-
-        Args:
-            path (str):
-                - a string with the shortcut name of a pretrained parser defined in ``underthesea.PRETRAINED``
-                  to load from cache or download, e.g., ``'crf-dep-en'``.
-                - a path to a directory containing a pre-trained parser, e.g., `./<path>/model`.
-            kwargs (dict):
-                A dict holding the unconsumed arguments that can be used to update the configurations and initiate the model.
-
-        Examples:
-            >>> # from underthesea.models.dependency_parser import DependencyParser
-            >>> # parser = DependencyParser.load('vi-dp-v1')
-            >>> # parser = DependencyParser.load('./tmp/resources/parsers/dp')
-        """
-
-        args = Config(**locals())
-
-        if os.path.exists(path):
-            state = torch.load(path)
-        else:
-            path = PRETRAINED[path] if path in PRETRAINED else path
-            state = torch.hub.load_state_dict_from_url(path)
-
-        state['args'].update(args)
-        args = state['args']
-
-        model = cls().MODEL(**args)
-        model.load_pretrained(state['pretrained'])
-        model.load_state_dict(state['state_dict'], False)
-        model.to(device)
-        transform = state['transform']
-
-        parser = cls()
-        parser.init_model(args, model, transform)
-        return parser
-
-    def save(self, path):
-        model = self.model
-        if hasattr(model, 'module'):
-            model = self.model.module
-
-        args = model.args
-
-        state_dict = {k: v.cpu() for k, v in model.state_dict().items()}
-        pretrained = state_dict.pop('pretrained.weight', None)
-        state = {'name': self.NAME,
-                 'args': args,
-                 'state_dict': state_dict,
-                 'pretrained': pretrained,
-                 'transform': self.transform}
-        torch.save(state, path)

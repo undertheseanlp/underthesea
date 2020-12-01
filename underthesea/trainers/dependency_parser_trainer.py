@@ -8,7 +8,7 @@ from torch.optim.lr_scheduler import ExponentialLR
 from torch.utils.data import Subset
 
 from underthesea.data import CoNLL, progress_bar
-from underthesea.models.dependency_parser import DependencyParser, BiaffineDependencyModel
+from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
 from underthesea.utils.sp_config import Config
@@ -126,10 +126,10 @@ class DependencyParserTrainer:
             'device': device,
             'path': base_path
         })
-        model = BiaffineDependencyModel(**args)
-        model.load_pretrained(WORD.embed).to(device)
         parser = DependencyParser()
-        parser.init_model(args, model, transform)
+        parser.init_module(**args)
+        parser.load_pretrained(WORD.embed).to(device)
+        parser.init_model(args, transform)
 
         ################################################################################################################
         # TRAIN
@@ -156,10 +156,9 @@ class DependencyParserTrainer:
         test.build(batch_size, buckets)
         logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
 
-        logger.info(f'{parser.model}\n')
         if dist.is_initialized():
-            parser.model = DDP(parser.model, device_ids=[dist.get_rank()], find_unused_parameters=True)
-        optimizer = Adam(parser.model.parameters(), lr, (mu, nu), epsilon)
+            parser = DDP(parser, device_ids=[dist.get_rank()], find_unused_parameters=True)
+        optimizer = Adam(parser.parameters(), lr, (mu, nu), epsilon)
         scheduler = ExponentialLR(optimizer, decay ** (1 / decay_steps))
 
         elapsed = timedelta()
@@ -170,7 +169,7 @@ class DependencyParserTrainer:
 
             logger.info(f'Epoch {epoch} / {max_epochs}:')
 
-            parser.model.train()
+            parser.train()
 
             loader = train.loader
             bar, metric = progress_bar(loader), AttachmentMetric()
@@ -180,14 +179,14 @@ class DependencyParserTrainer:
                 mask = words.ne(parser.WORD.pad_index)
                 # ignore the first token of each sentence
                 mask[:, 0] = 0
-                s_arc, s_rel = parser.model(words, feats)
-                loss = parser.model.loss(s_arc, s_rel, arcs, rels, mask)
+                s_arc, s_rel = parser.forward(words, feats)
+                loss = parser.loss(s_arc, s_rel, arcs, rels, mask)
                 loss.backward()
-                nn.utils.clip_grad_norm_(parser.model.parameters(), parser.args.clip)
+                nn.utils.clip_grad_norm_(parser.parameters(), parser.args.clip)
                 optimizer.step()
                 scheduler.step()
 
-                arc_preds, rel_preds = parser.model.decode(s_arc, s_rel, mask)
+                arc_preds, rel_preds = parser.decode(s_arc, s_rel, mask)
                 # ignore all punctuation if not specified
                 if not parser.args.punct:
                     mask &= words.unsqueeze(-1).ne(parser.puncts).all(-1)
