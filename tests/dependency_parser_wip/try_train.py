@@ -38,6 +38,7 @@ class VLSP2020_DP_R1(Corpus):
         test_file = f'{VLSP2020_DP_FOLDER}/test.txt'
         super().__init__(train=train_file, test=test_file, dev=test_file)
 
+
 class VLSP2020_DP_V1_0_0_A0(Corpus):
     def __init__(self):
         FOLDER = f'{DATASETS_FOLDER}/VLSP2020-DP-v1.0.0-a0'
@@ -45,6 +46,7 @@ class VLSP2020_DP_V1_0_0_A0(Corpus):
         dev_file = f'{FOLDER}/dev.txt'
         test_file = f'{FOLDER}/test.txt'
         super().__init__(train=train_file, test=test_file, dev=dev_file)
+
 
 corpus: Corpus = VLSP2020_DP_V1_0_0_A0()
 

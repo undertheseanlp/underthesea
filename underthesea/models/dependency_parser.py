@@ -200,8 +200,7 @@ class DependencyParser(nn.Module):
             mask[:, 0] = 0
             lens = mask.sum(1).tolist()
             s_arc, s_rel = self.forward(words, feats)
-            arc_preds, rel_preds = self.decode(s_arc, s_rel, mask,
-                                                     tree, proj)
+            arc_preds, rel_preds = self.decode(s_arc, s_rel, mask, tree, proj)
             arcs.extend(arc_preds[mask].split(lens))
             rels.extend(rel_preds[mask].split(lens))
             if prob:
@@ -422,4 +421,3 @@ class DependencyParser(nn.Module):
         rel_preds = s_rel.argmax(-1).gather(-1, arc_preds.unsqueeze(-1)).squeeze(-1)
 
         return arc_preds, rel_preds
-
