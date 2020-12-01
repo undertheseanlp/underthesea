@@ -38,8 +38,15 @@ class VLSP2020_DP_R1(Corpus):
         test_file = f'{VLSP2020_DP_FOLDER}/test.txt'
         super().__init__(train=train_file, test=test_file, dev=test_file)
 
+class VLSP2020_DP_V1_0_0_A0(Corpus):
+    def __init__(self):
+        FOLDER = f'{DATASETS_FOLDER}/VLSP2020-DP-v1.0.0-a0'
+        train_file = f'{FOLDER}/train.txt'
+        dev_file = f'{FOLDER}/dev.txt'
+        test_file = f'{FOLDER}/test.txt'
+        super().__init__(train=train_file, test=test_file, dev=dev_file)
 
-corpus: Corpus = VLSP2020_DP_R1()
+corpus: Corpus = VLSP2020_DP_V1_0_0_A0()
 
 embeddings = 'char'
 embed = False
@@ -47,6 +54,6 @@ parser = DependencyParser(embeddings, embed=False)
 trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
     base_path='tmp/resources/parsers/dp-3',
-    max_epochs=3,
+    max_epochs=1,
     mu=0  # optimizer parameters
 )

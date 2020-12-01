@@ -5,9 +5,10 @@ from typing import Union
 import torch.distributed as dist
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
+from torch.utils.data import Subset
+
 from underthesea.data import CoNLL, progress_bar
-from underthesea.models.dependency_parser import DependencyParser
-from underthesea.modules.model import BiaffineDependencyModel
+from underthesea.models.dependency_parser import DependencyParser, BiaffineDependencyModel
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
 from underthesea.utils.sp_config import Config
