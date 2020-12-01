@@ -3,7 +3,6 @@ import os
 from datetime import datetime
 from underthesea.utils import logger, device
 from underthesea.data import progress_bar
-from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_field import Field
 from underthesea.utils.sp_fn import ispunct
@@ -251,11 +250,19 @@ class DependencyParser(nn.Module):
 
         return total_loss, metric
 
-    def _init_model_with_state_dict(self):
-        pass
+    @staticmethod
+    def _init_model_with_state_dict(state):
+        model = DependencyParser()
+        args = state['args']
+        transform = state['transform']
+        model.init_model(args, transform)
+        model.init_module(**args)
+        model.load_pretrained(state['pretrained'])
+        model.load_state_dict(state['state_dict'], False)
+        return model
 
     @classmethod
-    def load(cls, path, **kwargs):
+    def load(cls, path):
         r"""
         Loads a parser with data fields and pretrained model parameters.
 
@@ -278,16 +285,10 @@ class DependencyParser(nn.Module):
             path = PRETRAINED[path] if path in PRETRAINED else path
             state = torch.hub.load_state_dict_from_url(path)
 
-        args = state['args']
-        transform = state['transform']
-
-        parser = cls()
-        parser.init_module(**args)
-        parser.load_pretrained(state['pretrained'])
-        parser.load_state_dict(state['state_dict'], False)
-        parser.to(device)
-        parser.init_model(args, transform)
-        return parser
+        model = cls._init_model_with_state_dict(state)
+        model.eval()
+        model.to(device)
+        return model
 
     def save(self, path):
         model = self
