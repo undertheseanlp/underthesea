@@ -15,7 +15,6 @@ class Model(torch.nn.Module):
         functionality."""
         pass
 
-
     @classmethod
     def load(cls, model):
         """
