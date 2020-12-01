@@ -3,10 +3,9 @@ from datetime import timedelta, datetime
 from pathlib import Path
 from typing import Union
 import torch.distributed as dist
+import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from torch.utils.data import Subset
-
 from underthesea.data import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
@@ -17,7 +16,6 @@ from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
 from underthesea.utils.sp_metric import Metric, AttachmentMetric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
-import torch.nn as nn
 
 
 class DependencyParserTrainer:
@@ -180,7 +178,7 @@ class DependencyParserTrainer:
                 # ignore the first token of each sentence
                 mask[:, 0] = 0
                 s_arc, s_rel = parser.forward(words, feats)
-                loss = parser.loss(s_arc, s_rel, arcs, rels, mask)
+                loss = parser.forward_loss(s_arc, s_rel, arcs, rels, mask)
                 loss.backward()
                 nn.utils.clip_grad_norm_(parser.parameters(), parser.args.clip)
                 optimizer.step()

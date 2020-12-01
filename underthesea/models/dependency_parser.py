@@ -126,6 +126,9 @@ class DependencyParser(nn.Module):
         self.pad_index = pad_index
         self.unk_index = unk_index
 
+    def _get_state_dict(self):
+        pass
+
     def init_model(self, args, transform):
         self.args = args
         self.transform = transform
@@ -237,7 +240,7 @@ class DependencyParser(nn.Module):
             # ignore the first token of each sentence
             mask[:, 0] = 0
             s_arc, s_rel = self.forward(words, feats)
-            loss = self.loss(s_arc, s_rel, arcs, rels, mask)
+            loss = self.forward_loss(s_arc, s_rel, arcs, rels, mask)
             arc_preds, rel_preds = self.decode(s_arc, s_rel, mask, tree, proj)
             # ignore all punctuation if not specified
             if not self.args['punct']:
@@ -247,6 +250,9 @@ class DependencyParser(nn.Module):
         total_loss /= len(loader)
 
         return total_loss, metric
+
+    def _init_model_with_state_dict(self):
+        pass
 
     @classmethod
     def load(cls, path, **kwargs):
@@ -266,18 +272,13 @@ class DependencyParser(nn.Module):
             >>> # parser = DependencyParser.load('vi-dp-v1')
             >>> # parser = DependencyParser.load('./tmp/resources/parsers/dp')
         """
-
-        args = Config(**locals())
-
         if os.path.exists(path):
             state = torch.load(path)
         else:
             path = PRETRAINED[path] if path in PRETRAINED else path
             state = torch.hub.load_state_dict_from_url(path)
 
-        state['args'].update(args)
         args = state['args']
-
         transform = state['transform']
 
         parser = cls()
@@ -365,7 +366,7 @@ class DependencyParser(nn.Module):
 
         return s_arc, s_rel
 
-    def loss(self, s_arc, s_rel, arcs, rels, mask):
+    def forward_loss(self, s_arc, s_rel, arcs, rels, mask):
         r"""
         Args:
             s_arc (~torch.Tensor): ``[batch_size, seq_len, seq_len]``.
