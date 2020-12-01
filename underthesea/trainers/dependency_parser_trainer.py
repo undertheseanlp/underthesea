@@ -153,7 +153,7 @@ class DependencyParserTrainer:
         dev.build(batch_size, buckets)
         test.build(batch_size, buckets)
         logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
-
+        logger.info(f'{parser}')
         if dist.is_initialized():
             parser = DDP(parser, device_ids=[dist.get_rank()], find_unused_parameters=True)
         optimizer = Adam(parser.parameters(), lr, (mu, nu), epsilon)
