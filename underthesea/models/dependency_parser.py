@@ -15,9 +15,10 @@ from underthesea.data import CoNLL
 from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, SharedDropout, MLP, Biaffine
 from underthesea.modules.bert import BertEmbedding
 from underthesea.utils.sp_alg import eisner, mst
+import underthesea.nn
 
 
-class DependencyParser(nn.Module):
+class DependencyParser(underthesea.nn.Model):
     r"""
     The implementation of Biaffine Dependency Parser.
 
@@ -31,7 +32,7 @@ class DependencyParser(nn.Module):
     NAME = 'biaffine-dependency'
 
     def __init__(self, embeddings='char', embed=False):
-        super().__init__()
+        super(DependencyParser, self).__init__()
         self.embeddings = embeddings
         self.embed = embed
 
