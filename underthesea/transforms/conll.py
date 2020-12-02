@@ -503,7 +503,7 @@ class Tree(Transform):
                                                 (NP (_ She))
                                                 (VP (_ enjoys) (S (VP (_ playing) (NP (_ tennis)))))
                                                 (_ .)))
-                                            ''')
+                                            )'''
             >>> print(Tree.binarize(tree))
             (TOP
               (S

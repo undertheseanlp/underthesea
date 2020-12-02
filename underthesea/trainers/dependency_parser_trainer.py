@@ -6,7 +6,7 @@ import torch.distributed as dist
 import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from underthesea.data import CoNLL, progress_bar
+from underthesea.transforms.conll import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos

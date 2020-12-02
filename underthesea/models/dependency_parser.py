@@ -2,7 +2,7 @@
 import os
 from datetime import datetime
 from underthesea.utils import logger, device
-from underthesea.data import progress_bar
+from underthesea.transforms.conll import progress_bar
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_field import Field
 from underthesea.utils.sp_fn import ispunct
@@ -11,7 +11,7 @@ from underthesea.utils.sp_metric import AttachmentMetric
 import torch
 import torch.nn as nn
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
-from underthesea.data import CoNLL
+from underthesea.transforms.conll import CoNLL
 from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, SharedDropout, MLP, Biaffine
 from underthesea.modules.bert import BertEmbedding
 from underthesea.utils.sp_alg import eisner, mst
