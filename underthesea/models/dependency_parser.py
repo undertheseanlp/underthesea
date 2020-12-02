@@ -31,35 +31,36 @@ class DependencyParser(underthesea.nn.Model):
     """
     NAME = 'biaffine-dependency'
 
-    def __init__(self, embeddings='char', embed=False):
+    def __init__(
+        self,
+        n_words=None,
+        n_feats=None,
+        n_rels=None,
+        feat='char',
+        n_embed=50,
+        n_feat_embed=100,
+        n_char_embed=50,
+        bert=None,
+        n_bert_layers=4,
+        max_len=None,
+        mix_dropout=.0,
+        embed_dropout=.33,
+        n_lstm_hidden=400,
+        n_lstm_layers=3,
+        lstm_dropout=.33,
+        n_mlp_arc=500,
+        n_mlp_rel=100,
+        mlp_dropout=.33,
+        feat_pad_index=0,
+        pad_index=0,
+        unk_index=1,
+        embeddings='char',
+        embed=False
+    ):
         super(DependencyParser, self).__init__()
         self.embeddings = embeddings
         self.embed = embed
 
-    def init_module(self,
-                    n_words,
-                    n_feats,
-                    n_rels,
-                    feat='char',
-                    n_embed=100,
-                    n_feat_embed=100,
-                    n_char_embed=50,
-                    bert=None,
-                    n_bert_layers=4,
-                    max_len=None,
-                    mix_dropout=.0,
-                    embed_dropout=.33,
-                    n_lstm_hidden=400,
-                    n_lstm_layers=3,
-                    lstm_dropout=.33,
-                    n_mlp_arc=500,
-                    n_mlp_rel=100,
-                    mlp_dropout=.33,
-                    feat_pad_index=0,
-                    pad_index=0,
-                    unk_index=1,
-                    **kwargs
-                    ):
         self.args = {
             "n_words": n_words,
             "n_feats": n_feats,
@@ -70,61 +71,62 @@ class DependencyParser(underthesea.nn.Model):
             'punct': False
         }
 
-        # the embedding layer
-        self.word_embed = nn.Embedding(num_embeddings=n_words,
-                                       embedding_dim=n_embed)
-        if feat == 'char':
-            self.feat_embed = CharLSTM(n_chars=n_feats,
-                                       n_embed=n_char_embed,
-                                       n_out=n_feat_embed,
-                                       pad_index=feat_pad_index)
-        elif feat == 'bert':
-            self.feat_embed = BertEmbedding(model=bert,
-                                            n_layers=n_bert_layers,
-                                            n_out=n_feat_embed,
-                                            pad_index=feat_pad_index,
-                                            max_len=max_len,
-                                            dropout=mix_dropout)
-            self.n_feat_embed = self.feat_embed.n_out
-        elif feat == 'tag':
-            self.feat_embed = nn.Embedding(num_embeddings=n_feats,
-                                           embedding_dim=n_feat_embed)
-        else:
-            raise RuntimeError("The feat type should be in ['char', 'bert', 'tag'].")
-        self.embed_dropout = IndependentDropout(p=embed_dropout)
+        if n_words is not None:
+            # the embedding layer
+            self.word_embed = nn.Embedding(num_embeddings=n_words,
+                                           embedding_dim=n_embed)
+            if feat == 'char':
+                self.feat_embed = CharLSTM(n_chars=n_feats,
+                                           n_embed=n_char_embed,
+                                           n_out=n_feat_embed,
+                                           pad_index=feat_pad_index)
+            elif feat == 'bert':
+                self.feat_embed = BertEmbedding(model=bert,
+                                                n_layers=n_bert_layers,
+                                                n_out=n_feat_embed,
+                                                pad_index=feat_pad_index,
+                                                max_len=max_len,
+                                                dropout=mix_dropout)
+                self.n_feat_embed = self.feat_embed.n_out
+            elif feat == 'tag':
+                self.feat_embed = nn.Embedding(num_embeddings=n_feats,
+                                               embedding_dim=n_feat_embed)
+            else:
+                raise RuntimeError("The feat type should be in ['char', 'bert', 'tag'].")
+            self.embed_dropout = IndependentDropout(p=embed_dropout)
 
-        # the lstm layer
-        self.lstm = BiLSTM(input_size=n_embed + n_feat_embed,
-                           hidden_size=n_lstm_hidden,
-                           num_layers=n_lstm_layers,
-                           dropout=lstm_dropout)
-        self.lstm_dropout = SharedDropout(p=lstm_dropout)
+            # the lstm layer
+            self.lstm = BiLSTM(input_size=n_embed + n_feat_embed,
+                               hidden_size=n_lstm_hidden,
+                               num_layers=n_lstm_layers,
+                               dropout=lstm_dropout)
+            self.lstm_dropout = SharedDropout(p=lstm_dropout)
 
-        # the MLP layers
-        self.mlp_arc_d = MLP(n_in=n_lstm_hidden * 2,
-                             n_out=n_mlp_arc,
-                             dropout=mlp_dropout)
-        self.mlp_arc_h = MLP(n_in=n_lstm_hidden * 2,
-                             n_out=n_mlp_arc,
-                             dropout=mlp_dropout)
-        self.mlp_rel_d = MLP(n_in=n_lstm_hidden * 2,
-                             n_out=n_mlp_rel,
-                             dropout=mlp_dropout)
-        self.mlp_rel_h = MLP(n_in=n_lstm_hidden * 2,
-                             n_out=n_mlp_rel,
-                             dropout=mlp_dropout)
+            # the MLP layers
+            self.mlp_arc_d = MLP(n_in=n_lstm_hidden * 2,
+                                 n_out=n_mlp_arc,
+                                 dropout=mlp_dropout)
+            self.mlp_arc_h = MLP(n_in=n_lstm_hidden * 2,
+                                 n_out=n_mlp_arc,
+                                 dropout=mlp_dropout)
+            self.mlp_rel_d = MLP(n_in=n_lstm_hidden * 2,
+                                 n_out=n_mlp_rel,
+                                 dropout=mlp_dropout)
+            self.mlp_rel_h = MLP(n_in=n_lstm_hidden * 2,
+                                 n_out=n_mlp_rel,
+                                 dropout=mlp_dropout)
 
-        # the Biaffine layers
-        self.arc_attn = Biaffine(n_in=n_mlp_arc,
-                                 bias_x=True,
-                                 bias_y=False)
-        self.rel_attn = Biaffine(n_in=n_mlp_rel,
-                                 n_out=n_rels,
-                                 bias_x=True,
-                                 bias_y=True)
-        self.criterion = nn.CrossEntropyLoss()
-        self.pad_index = pad_index
-        self.unk_index = unk_index
+            # the Biaffine layers
+            self.arc_attn = Biaffine(n_in=n_mlp_arc,
+                                     bias_x=True,
+                                     bias_y=False)
+            self.rel_attn = Biaffine(n_in=n_mlp_rel,
+                                     n_out=n_rels,
+                                     bias_x=True,
+                                     bias_y=True)
+            self.criterion = nn.CrossEntropyLoss()
+            self.pad_index = pad_index
+            self.unk_index = unk_index
 
     def _get_state_dict(self):
         pass
@@ -253,11 +255,18 @@ class DependencyParser(underthesea.nn.Model):
 
     @staticmethod
     def _init_model_with_state_dict(state):
-        model = DependencyParser()
         args = state['args']
         transform = state['transform']
+        model = DependencyParser(
+            n_words=args.n_words,
+            n_feats=args.n_feats,
+            n_rels=args.n_feats,
+            pad_index=args.pad_index,
+            unk_index=args.unk_index,
+            # bos_index=args.bos_index,
+            feat_pad_index=args.feat_pad_index
+        )
         model.init_model(args, transform)
-        model.init_module(**args)
         model.load_pretrained(state['pretrained'])
         model.load_state_dict(state['state_dict'], False)
         return model

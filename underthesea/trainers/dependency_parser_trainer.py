@@ -6,6 +6,8 @@ import torch.distributed as dist
 import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
+
+
 from underthesea.transforms.conll import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
@@ -121,11 +123,16 @@ class DependencyParserTrainer:
             'unk_index': WORD.unk_index,
             'bos_index': WORD.bos_index,
             'feat_pad_index': FEAT.pad_index,
-            'device': device,
-            'path': base_path
         })
-        parser = DependencyParser()
-        parser.init_module(**args)
+        parser = DependencyParser(
+            n_words=args.n_words,
+            n_feats=args.n_feats,
+            n_rels=args.n_feats,
+            pad_index=args.pad_index,
+            unk_index=args.unk_index,
+            # bos_index=args.bos_index,
+            feat_pad_index=args.feat_pad_index
+        )
         parser.load_pretrained(WORD.embed).to(device)
         parser.init_model(args, transform)
 
