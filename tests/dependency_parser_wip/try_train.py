@@ -1,5 +1,6 @@
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.models.dependency_parser import DependencyParser
+from underthesea.modules.embeddings import WordEmbedding, CharacterEmbedding
 from underthesea.trainers.dependency_parser_trainer import DependencyParserTrainer
 
 
@@ -48,14 +49,17 @@ class VLSP2020_DP_V1_0_0_A0(Corpus):
         super().__init__(train=train_file, test=test_file, dev=dev_file)
 
 
-# corpus: Corpus = VLSP2020_DP_V1_0_0_A0()
-corpus: Corpus = VLSP2020_DP_R1()
+corpus: Corpus = VLSP2020_DP_V1_0_0_A0()
+# corpus: Corpus = VLSP2020_DP_R1()
 
-embeddings = 'char'
+embeddings = [
+    WordEmbedding(),
+    CharacterEmbedding()
+]
 parser = DependencyParser(embeddings=embeddings)
 trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
-    base_path='tmp/resources/parsers/dp-full-v1a0',
-    max_epochs=1000,
+    base_path='tmp/resources/parsers/dp-v1a0',
+    max_epochs=2,
     mu=0  # optimizer parameters
 )

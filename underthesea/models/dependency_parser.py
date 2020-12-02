@@ -42,9 +42,12 @@ class DependencyParser(underthesea.nn.Model):
         n_char_embed=50,
         bert=None,
         n_bert_layers=4,
+        embed_dropout=.33,
         max_len=None,
         mix_dropout=.0,
-        embed_dropout=.33,
+        embeddings=[],
+        embed=False,
+
         n_lstm_hidden=400,
         n_lstm_layers=3,
         lstm_dropout=.33,
@@ -53,13 +56,12 @@ class DependencyParser(underthesea.nn.Model):
         mlp_dropout=.33,
         feat_pad_index=0,
         pad_index=0,
-        unk_index=1,
-        embeddings='char',
-        embed=False
+        unk_index=1
     ):
         super(DependencyParser, self).__init__()
         self.embeddings = embeddings
         self.embed = embed
+        self.feat = feat
 
         self.args = {
             "n_words": n_words,
@@ -146,6 +148,7 @@ class DependencyParser(underthesea.nn.Model):
         self.puncts = torch.tensor([i
                                     for s, i in self.WORD.vocab.stoi.items()
                                     if ispunct(s)]).to(device)
+        print(0)
 
     @torch.no_grad()
     def predict(

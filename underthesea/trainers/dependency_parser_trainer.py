@@ -82,7 +82,7 @@ class DependencyParserTrainer:
             'max_epochs': max_epochs
         }
         args = Config(**locals_args)
-        args.feat = self.parser.embeddings
+        args.feat = self.parser.feat
         args.embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
 
