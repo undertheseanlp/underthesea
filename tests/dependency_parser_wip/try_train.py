@@ -55,7 +55,7 @@ embeddings = 'char'
 parser = DependencyParser(embeddings=embeddings)
 trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
-    base_path='tmp/resources/parsers/dp-full-2',
-    max_epochs=10,
+    base_path='tmp/resources/parsers/dp-full-v1a0',
+    max_epochs=1000,
     mu=0  # optimizer parameters
 )

@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from collections.abc import Iterable
 import nltk
 from tqdm import tqdm

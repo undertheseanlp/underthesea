@@ -7,7 +7,7 @@ uts_parser = None
 def init_parser():
     global uts_parser
     if not uts_parser:
-        uts_parser = DependencyParser.load('vi-dp-v1')
+        uts_parser = DependencyParser.load('vi-dp-v1a0')
     return uts_parser
 
 
