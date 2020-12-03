@@ -49,8 +49,7 @@ class VLSP2020_DP_V1_0_0_A0(Corpus):
         super().__init__(train=train_file, test=test_file, dev=dev_file)
 
 
-corpus: Corpus = VLSP2020_DP_V1_0_0_A0()
-# corpus: Corpus = VLSP2020_DP_R1()
+corpus: Corpus = VLSP2020_DP_R1()
 
 embeddings = [
     WordEmbedding(),
@@ -59,7 +58,7 @@ embeddings = [
 parser = DependencyParser(embeddings=embeddings, init_pre_train=True)
 trainer = DependencyParserTrainer(parser, corpus)
 trainer.train(
-    base_path='tmp/resources/parsers/dp-v1a0',
+    base_path='tmp/resources/parsers/dp-v1a1',
     max_epochs=2,
     mu=0  # optimizer parameters
 )

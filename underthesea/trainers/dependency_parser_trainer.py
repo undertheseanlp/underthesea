@@ -77,11 +77,10 @@ class DependencyParserTrainer:
         ################################################################################################################
         locals_args = {
             'base_path': base_path,
-            'fix_len': fix_len,
             'min_freq': min_freq,
             'max_epochs': max_epochs
         }
-        args = Config(**locals_args)
+        args = Config()
         args.feat = self.parser.feat
         args.embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
@@ -89,7 +88,7 @@ class DependencyParserTrainer:
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
         if args.feat == 'char':
-            FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=args.fix_len)
+            FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=fix_len)
         elif args.feat == 'bert':
             from transformers import AutoTokenizer
             tokenizer = AutoTokenizer.from_pretrained(args.bert)
@@ -98,7 +97,7 @@ class DependencyParserTrainer:
                                 pad=tokenizer.pad_token,
                                 unk=tokenizer.unk_token,
                                 bos=tokenizer.bos_token or tokenizer.cls_token,
-                                fix_len=args.fix_len,
+                                fix_len=fix_len,
                                 tokenize=tokenizer.tokenize)
             FEAT.vocab = tokenizer.get_vocab()
         else:
@@ -131,10 +130,10 @@ class DependencyParserTrainer:
             pad_index=args.pad_index,
             unk_index=args.unk_index,
             # bos_index=args.bos_index,
-            feat_pad_index=args.feat_pad_index
+            feat_pad_index=args.feat_pad_index,
+            transform=transform
         )
         parser.load_pretrained(WORD.embed).to(device)
-        parser.init_model(args, transform)
 
         ################################################################################################################
         # TRAIN
@@ -146,10 +145,10 @@ class DependencyParserTrainer:
             'test': self.corpus.test
         })
         parser.transform.train()
-        parser.args.clip = clip
-        parser.args.punct = punct
-        parser.args.tree = tree
-        parser.args.proj = proj
+        # parser.args.clip = clip
+        # parser.args.punct = punct
+        # parser.args.tree = tree
+        # parser.args.proj = proj
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
         logger.info('Loading the data')
@@ -187,13 +186,13 @@ class DependencyParserTrainer:
                 s_arc, s_rel = parser.forward(words, feats)
                 loss = parser.forward_loss(s_arc, s_rel, arcs, rels, mask)
                 loss.backward()
-                nn.utils.clip_grad_norm_(parser.parameters(), parser.args.clip)
+                nn.utils.clip_grad_norm_(parser.parameters(), clip)
                 optimizer.step()
                 scheduler.step()
 
                 arc_preds, rel_preds = parser.decode(s_arc, s_rel, mask)
                 # ignore all punctuation if not specified
-                if not parser.args.punct:
+                if not punct:
                     mask &= words.unsqueeze(-1).ne(parser.puncts).all(-1)
                 metric(arc_preds, rel_preds, arcs, rels, mask)
                 bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
