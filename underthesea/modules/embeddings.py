@@ -1,14 +1,22 @@
 class WordEmbedding:
-    def __init__(self):
-        pass
+    def __init__(
+        self,
+        n_word: int
+    ):
+        self.n_word = n_word
 
-    def fit(self, sentences):
-        pass
+    @classmethod
+    def fit(cls, sentences):
+        n_word = 100
+        embed = cls(
+            n_word=n_word
+        )
+        return embed
 
 
 class CharacterEmbedding:
     def __init__(self):
         pass
 
-    def embed(self, sentences):
+    def fit(self, sentences):
         pass

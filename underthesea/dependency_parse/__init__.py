@@ -14,7 +14,7 @@ def init_parser():
 def dependency_parse(text):
     sentence = word_tokenize(text)
     parser = init_parser()
-    dataset = parser.predict([sentence], verbose=False)
+    dataset = parser.predict([sentence])
     results = dataset.sentences[0].values
     results = list(zip(results[1], results[6], results[7]))
     return results

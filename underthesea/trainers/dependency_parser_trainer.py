@@ -75,7 +75,7 @@ class DependencyParserTrainer:
         args.feat = self.parser.feat
         args.embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
-
+        word_embed = self.parser.embeddings[0]
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
         if args.feat == 'char':
