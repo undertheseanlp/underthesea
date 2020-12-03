@@ -1,8 +1,11 @@
 class WordEmbedding:
     def __init__(
         self,
-        n_word: int
+        n_word: int = 10,
+        learn=False
     ):
+        if learn:
+            return
         self.n_word = n_word
 
     @classmethod

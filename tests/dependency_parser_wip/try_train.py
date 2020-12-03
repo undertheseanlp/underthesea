@@ -26,7 +26,7 @@ corpus: CONLLCorpus = VLSP2020_DP_V1_0_0_A0()
 # corpus: Corpus = VLSP2020_DP_R1()
 
 embeddings = [
-    WordEmbedding(),
+    WordEmbedding(learn=True),
     CharacterEmbedding()
 ]
 parser = DependencyParser(embeddings=embeddings, init_pre_train=True)
