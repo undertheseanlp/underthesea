@@ -75,11 +75,6 @@ class DependencyParserTrainer:
         ################################################################################################################
         # BUILD
         ################################################################################################################
-        locals_args = {
-            'base_path': base_path,
-            'min_freq': min_freq,
-            'max_epochs': max_epochs
-        }
         args = Config()
         args.feat = self.parser.feat
         args.embed = self.parser.embed

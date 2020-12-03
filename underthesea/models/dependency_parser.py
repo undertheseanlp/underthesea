@@ -69,6 +69,9 @@ class DependencyParser(underthesea.nn.Model):
             "n_words": n_words,
             "n_feats": n_feats,
             "n_rels": n_rels,
+            'pad_index': pad_index,
+            'unk_index': unk_index,
+            'feat_pad_index': feat_pad_index,
             "feat": feat,
             'tree': False,
             'proj': False,
@@ -259,13 +262,13 @@ class DependencyParser(underthesea.nn.Model):
         args = state['args']
         transform = state['transform']
         model = DependencyParser(
-            n_words=args.n_words,
-            n_feats=args.n_feats,
-            n_rels=args.n_feats,
-            pad_index=args.pad_index,
-            unk_index=args.unk_index,
+            n_words=args['n_words'],
+            n_feats=args['n_feats'],
+            n_rels=args['n_feats'],
+            pad_index=args['pad_index'],
+            unk_index=args['unk_index'],
             # bos_index=args.bos_index,
-            feat_pad_index=args.feat_pad_index,
+            feat_pad_index=args['feat_pad_index'],
             transform=transform
         )
         model.load_pretrained(state['pretrained'])
@@ -306,15 +309,15 @@ class DependencyParser(underthesea.nn.Model):
         if hasattr(self, 'module'):
             model = self.module
 
-        args = self.args
-
         state_dict = {k: v.cpu() for k, v in model.state_dict().items()}
         pretrained = state_dict.pop('pretrained.weight', None)
-        state = {'name': self.NAME,
-                 'args': args,
-                 'state_dict': state_dict,
-                 'pretrained': pretrained,
-                 'transform': self.transform}
+        state = {
+            'name': self.NAME,
+            'args': self.args,
+            'state_dict': state_dict,
+            'pretrained': pretrained,
+            'transform': self.transform
+        }
         torch.save(state, path)
 
     def load_pretrained(self, embed=None):
