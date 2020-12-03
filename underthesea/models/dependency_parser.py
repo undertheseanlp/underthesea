@@ -161,8 +161,6 @@ class DependencyParser(underthesea.nn.Model):
         prob=False,
         tree=True,
         proj=False,
-        verbose=True,
-        **kwargs
     ):
         r"""
         Args:

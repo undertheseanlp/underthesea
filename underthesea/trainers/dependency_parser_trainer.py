@@ -32,9 +32,6 @@ class DependencyParserTrainer:
         min_freq=2,
         buckets=32,
         batch_size=5000,
-        punct=False,
-        tree=False,
-        proj=False,
         lr=2e-3,
         mu=.9,
         nu=.9,
@@ -64,7 +61,6 @@ class DependencyParserTrainer:
             lr:
             proj:
             tree:
-            punct:
             batch_size:
             buckets:
             min_freq:
@@ -134,16 +130,7 @@ class DependencyParserTrainer:
         # TRAIN
         ################################################################################################################
         args = Config()
-        args.update({
-            'train': self.corpus.train,
-            'dev': self.corpus.dev,
-            'test': self.corpus.test
-        })
         parser.transform.train()
-        # parser.args.clip = clip
-        # parser.args.punct = punct
-        # parser.args.tree = tree
-        # parser.args.proj = proj
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
         logger.info('Loading the data')
@@ -157,6 +144,7 @@ class DependencyParserTrainer:
         logger.info(f'{parser}')
         if dist.is_initialized():
             parser = DDP(parser, device_ids=[dist.get_rank()], find_unused_parameters=True)
+
         optimizer = Adam(parser.parameters(), lr, (mu, nu), epsilon)
         scheduler = ExponentialLR(optimizer, decay ** (1 / decay_steps))
 
@@ -165,7 +153,6 @@ class DependencyParserTrainer:
 
         for epoch in range(1, max_epochs + 1):
             start = datetime.now()
-
             logger.info(f'Epoch {epoch} / {max_epochs}:')
 
             parser.train()
@@ -187,7 +174,7 @@ class DependencyParserTrainer:
 
                 arc_preds, rel_preds = parser.decode(s_arc, s_rel, mask)
                 # ignore all punctuation if not specified
-                if not punct:
+                if not self.parser.args['punct']:
                     mask &= words.unsqueeze(-1).ne(parser.puncts).all(-1)
                 metric(arc_preds, rel_preds, arcs, rels, mask)
                 bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
