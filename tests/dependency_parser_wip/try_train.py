@@ -1,7 +1,7 @@
 from underthesea.corpus.conll_corpus import CONLLCorpus
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.models.dependency_parser import DependencyParser
-from underthesea.modules.embeddings import WordEmbedding, CharacterEmbedding
+from underthesea.modules.embeddings import FieldEmbeddings, CharacterEmbeddings
 from underthesea.trainers.dependency_parser_trainer import DependencyParserTrainer
 
 
@@ -26,8 +26,8 @@ corpus: CONLLCorpus = VLSP2020_DP_V1_0_0_A0()
 # corpus: Corpus = VLSP2020_DP_R1()
 
 embeddings = [
-    WordEmbedding(learn=True),
-    CharacterEmbedding()
+    FieldEmbeddings(),
+    CharacterEmbeddings()
 ]
 parser = DependencyParser(embeddings=embeddings, init_pre_train=True)
 trainer: DependencyParserTrainer = DependencyParserTrainer(parser, corpus)

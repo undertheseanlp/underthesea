@@ -34,6 +34,8 @@ class DependencyParser(underthesea.nn.Model):
     def __init__(
         self,
         n_words=None,
+        pad_index=0,
+        unk_index=1,
         n_feats=None,
         n_rels=None,
         feat='char',
@@ -55,22 +57,21 @@ class DependencyParser(underthesea.nn.Model):
         n_mlp_rel=100,
         mlp_dropout=.33,
         feat_pad_index=0,
-        pad_index=0,
-        unk_index=1,
         init_pre_train=False,
         transform=None
     ):
         super(DependencyParser, self).__init__()
-        self.embeddings = embeddings
         self.embed = embed
         self.feat = feat
-
+        self.embeddings = embeddings
+        if len(self.embeddings) > 0:
+            print(self.embeddings[0])
         self.args = {
             "n_words": n_words,
-            "n_feats": n_feats,
-            "n_rels": n_rels,
             'pad_index': pad_index,
             'unk_index': unk_index,
+            "n_feats": n_feats,
+            "n_rels": n_rels,
             'feat_pad_index': feat_pad_index,
             "feat": feat,
             'tree': False,
@@ -259,6 +260,7 @@ class DependencyParser(underthesea.nn.Model):
     def _init_model_with_state_dict(state):
         args = state['args']
         transform = state['transform']
+        embeddings = state['embeddings']
         model = DependencyParser(
             n_words=args['n_words'],
             n_feats=args['n_feats'],
@@ -267,7 +269,8 @@ class DependencyParser(underthesea.nn.Model):
             unk_index=args['unk_index'],
             # bos_index=args.bos_index,
             feat_pad_index=args['feat_pad_index'],
-            transform=transform
+            transform=transform,
+            embeddings=embeddings
         )
         model.load_pretrained(state['pretrained'])
         model.load_state_dict(state['state_dict'], False)
@@ -314,7 +317,8 @@ class DependencyParser(underthesea.nn.Model):
             'args': self.args,
             'state_dict': state_dict,
             'pretrained': pretrained,
-            'transform': self.transform
+            'transform': self.transform,
+            'embeddings': self.embeddings
         }
         torch.save(state, path)
 

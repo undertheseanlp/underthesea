@@ -73,7 +73,6 @@ class DependencyParserTrainer:
         args.feat = self.parser.feat
         args.embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
-        word_embed = self.parser.embeddings[0]
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
         if args.feat == 'char':
@@ -122,6 +121,10 @@ class DependencyParserTrainer:
             feat_pad_index=args.feat_pad_index,
             transform=transform
         )
+        word_field_embeddings = self.parser.embeddings[0]
+        word_field_embeddings.n_vocab = 1000
+        parser.embeddings = self.parser.embeddings
+        parser.embeddings[0] = word_field_embeddings
         parser.load_pretrained(WORD.embed).to(device)
 
         ################################################################################################################
