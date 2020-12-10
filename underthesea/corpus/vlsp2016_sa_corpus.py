@@ -66,4 +66,4 @@ class VLSP2016SACorpus:
             content = "\n".join(test_sentences)
             f.write(content + "\n")
 
-        print(f"[LanguageFlow] Corpus `VLSP2016_SA` is imported in {VLSP2016SACorpus.data_folder}")
+        print(f"[Underthesea] Corpus `VLSP2016_SA` is imported in {VLSP2016SACorpus.data_folder}")
