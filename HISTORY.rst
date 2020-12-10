@@ -5,6 +5,10 @@ History
 Current
 --------------------------------------------------------------------------------
 
+* Remove languageflow dependency (GH-364)
+* Remove tabulate dependency (GH-364)
+* Remove scores in text classification and sentiment section (GH-351)
+* Add information of dependency_parse module in info function (GH-351)
 * Try to use Github Actions (GH-353)
 * Dependency Parsing (GH-157)
 
