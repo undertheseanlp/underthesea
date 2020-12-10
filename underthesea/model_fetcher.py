@@ -5,8 +5,8 @@ from enum import Enum
 from os.path import dirname, join
 from pathlib import Path
 import yaml
-from tabulate import tabulate
 from underthesea.file_utils import cached_path, CACHE_ROOT
+from underthesea.utils import print_table
 
 MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to download"
 
@@ -106,9 +106,7 @@ class ModelFetcher:
                 license = "Close*"
             models.append([name, type, license, year, directory])
 
-        print(tabulate(models,
-                       headers=["Name", "Type", "License", "Year", "Directory"],
-                       tablefmt='orgtbl'))
+        print_table(models, headers=["Name", "Type", "License", "Year", "Directory"])
 
         if all:
             print(f"\n{MISS_URL_ERROR}")
