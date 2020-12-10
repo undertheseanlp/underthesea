@@ -19,7 +19,6 @@ install_requires = [
     'Click>=6.0',
     'python-crfsuite>=0.9.6',
     'nltk',
-    'tabulate',
     'tqdm',
     'requests',
     'joblib',

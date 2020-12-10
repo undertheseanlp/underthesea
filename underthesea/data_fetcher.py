@@ -5,13 +5,14 @@ from enum import Enum
 from os.path import dirname, join
 from typing import Union, List
 import yaml
-from tabulate import tabulate
 from underthesea.corpus import Corpus
 from underthesea.corpus.categorized_corpus import CategorizedCorpus
 from underthesea.corpus.data import Sentence, Label
 from underthesea.file_utils import cached_path, CACHE_ROOT
 from pathlib import Path
 import zipfile
+
+from underthesea.utils import print_table
 
 MISS_URL_ERROR = "Caution:\n  With closed license dataset, you must provide URL to download"
 SAMPLE_CACHE_ROOT = Path(__file__).parent.absolute() / "data"
@@ -102,9 +103,7 @@ class DataFetcher:
                 license = "Close*"
             datasets.append([name, type, license, year, directory])
 
-        print(tabulate(datasets,
-                       headers=["Name", "Type", "License", "Year", "Directory"],
-                       tablefmt='orgtbl'))
+        print_table(datasets, headers=["Name", "Type", "License", "Year", "Directory"])
 
         if all:
             print(f"\n{MISS_URL_ERROR}")
