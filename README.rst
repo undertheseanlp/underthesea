@@ -199,9 +199,6 @@ Usage
 7. Text Classification
 ****************************************
 
-.. image:: https://img.shields.io/badge/accuracy-86.7%25-red.svg
-    :target: https://github.com/undertheseanlp/classification
-
 Download models
 
 .. code-block:: bash
@@ -227,9 +224,6 @@ Usage
 ****************************************
 8. Sentiment Analysis
 ****************************************
-
-.. image:: https://img.shields.io/badge/F1-59.5%25-red.svg
-		:target: https://github.com/undertheseanlp/sentiment
 
 Download models
 
