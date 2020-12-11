@@ -87,7 +87,7 @@ def info():
     print("                 ner : OK")
     print("            classify : OK")
     print("           sentiment : OK")
-    print("          dependency : OK")
+    print("    dependency_parse : OK")
     print("           resources : OK")
 
 
