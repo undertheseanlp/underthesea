@@ -1,10 +1,7 @@
-
 <p align="center">
-
   <br>
   <img src="logo.png"/>
   <br/>
-
 </p>
 
 <p align="center">
@@ -44,17 +41,17 @@ Vietnamese Natural Language Process Toolkit
 +-----------------+------------------------------------------------------------------------------------------------+
 | Free software   | GNU General Public License v3                                                                  |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Live demo       | `undertheseanlp.com <http://undertheseanlp.com/>`_                                             |
+| Live demo       | [undertheseanlp.com](http://undertheseanlp.com/)                                               |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Colab notebooks | `latest <https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2>`_          |
+| Colab notebooks | [latest](https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2)            |
 |                 | /                                                                                              |
-|                 | `stable <https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>`_          |
+|                 | [stable](https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>)           |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Documentation   | `Underthesea Documentation <http://underthesea.readthedocs.io/en/latest/>`_                    |
+| Documentation   | [Underthesea Documentation](http://underthesea.readthedocs.io/en/latest/)                      |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Facebook        | `Underthesea Page <https://www.facebook.com/undertheseanlp/>`_                                 |
+| Facebook        | [Underthesea Page](https://www.facebook.com/undertheseanlp/)                                   |
 +-----------------+------------------------------------------------------------------------------------------------+
-| Youtube         | `Underthesea NLP Channel <https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A>`_          |
+| Youtube         | [Underthesea NLP Channel](https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A)            |
 +-----------------+------------------------------------------------------------------------------------------------+
 
 ### Installation
