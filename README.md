@@ -21,10 +21,10 @@
     <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
   </a>
   <a href="https://www.facebook.com/undertheseanlp/">
-    <img src="https://img.shields.io/badge/chat-on%20facebook-green.svg">
-  </a>
-  <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="19px">
+  </a>
+  <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="19px">
   </a>
 </p>
 
@@ -46,12 +46,6 @@ Underthesea is:
 <table>
 <tbody>
   <tr>
-    <td>Free software</td>
-    <td>
-      <a href="https://github.com/undertheseanlp/underthesea/blob/master/LICENSE">GNU General Public License v3</a>
-    </td>
-  </tr>
-  <tr>
     <td>Live demo</td>
     <td>
       <a href="http://undertheseanlp.com">undertheseanlp.com</a>
@@ -64,23 +58,6 @@ Underthesea is:
         / 
         <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">stable</a>
     </td>
-  </tr>
-  <tr>
-    <td>Documentation</td>
-    <td>
-      <a href="http://underthesea.readthedocs.io/en/latest/">Underthesea Documentation</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Facebook</td>
-    <td>
-      <a href="https://www.facebook.com/undertheseanlp/">Underthesea Documentation</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Youtube</td>
-    <td>
-      <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">Underthesea NLP Channel</a></td>
   </tr>
 </tbody>
 </table>
