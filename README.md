@@ -21,7 +21,7 @@
     <img src="https://img.shields.io/badge/colab-stable-brightgreen">
   </a>
   <a href="">
-    <img src="https://img.shields.io/badge/website-demo-brightgreen">
+    <img src="https://img.shields.io/badge/website-online-E65FA2">
   </a>
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
