@@ -24,6 +24,8 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
+![](logo.png)
+
 .. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
         :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
 
