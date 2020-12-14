@@ -32,7 +32,7 @@
 </p>
 
 <h3 align="center">
-Open Vietnamese Natural Language Process Toolkit
+Open-source Vietnamese Natural Language Process Toolkit
 </h3>
 
 Underthesea is: 
