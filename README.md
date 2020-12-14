@@ -38,21 +38,48 @@ Vietnamese Natural Language Process Toolkit
 
 💫 **Version 1.3.0 out now!** [Underthesea meet deep learning!](https://github.com/undertheseanlp/underthesea/issues/359)
 
-+-----------------+------------------------------------------------------------------------------------------------+
-| Free software   | GNU General Public License v3                                                                  |
-+-----------------+------------------------------------------------------------------------------------------------+
-| Live demo       | [undertheseanlp.com](http://undertheseanlp.com/)                                               |
-+-----------------+------------------------------------------------------------------------------------------------+
-| Colab notebooks | [latest](https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2)            |
-|                 | /                                                                                              |
-|                 | [stable](https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo>)           |
-+-----------------+------------------------------------------------------------------------------------------------+
-| Documentation   | [Underthesea Documentation](http://underthesea.readthedocs.io/en/latest/)                      |
-+-----------------+------------------------------------------------------------------------------------------------+
-| Facebook        | [Underthesea Page](https://www.facebook.com/undertheseanlp/)                                   |
-+-----------------+------------------------------------------------------------------------------------------------+
-| Youtube         | [Underthesea NLP Channel](https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A)            |
-+-----------------+------------------------------------------------------------------------------------------------+
+
+<table>
+<tbody>
+  <tr>
+    <td>Free software</td>
+    <td>
+      <a href="https://github.com/undertheseanlp/underthesea/blob/master/LICENSE">GNU General Public License v3</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Live demo</td>
+    <td>
+      <a href="http://undertheseanlp.com">undertheseanlp.com</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Colab notebooks</td>
+    <td>
+        <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">latest</a>
+        / 
+        <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">stable</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Documentation</td>
+    <td>
+      <a href="http://underthesea.readthedocs.io/en/latest/">Underthesea Documentation</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Facebook</td>
+    <td>
+      <a href="https://www.facebook.com/undertheseanlp/">Underthesea Documentation</a>
+    </td>
+  </tr>
+  <tr>
+    <td>Youtube</td>
+    <td>
+      <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">Underthesea NLP Channel</a></td>
+  </tr>
+</tbody>
+</table>
 
 ### Installation
 
