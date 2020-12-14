@@ -29,12 +29,11 @@
 Vietnamese Natural Language Process Toolkit
 </h3>
 
-🌊 Underthesea is a suite of open source Python modules 
+🌊 Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
-🌊 Underthesea is a suite of open source Python modules
+🌊 Underthesea provides extremely easy API to quickly download and use those pretrained models 
 
-
-**underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
+🌊 Underthesa is backed by one of most popular deep learning libraries, [Pytorch](https://pytorch.org/), with a seamless integration between them, allowing you to train your models with one then load it for inference with the other.
 
 💫 **Version 1.3.0 out now!** [Underthesea meet deep learning!](https://github.com/undertheseanlp/underthesea/issues/359)
 
