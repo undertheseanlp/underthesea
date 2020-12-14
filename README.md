@@ -110,14 +110,14 @@ Usage
 ```python
 >>> from underthesea import pos_tag
 >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
-   [('Chợ', 'N'),
-    ('thịt', 'N'),
-    ('chó', 'N'),
-    ('nổi tiếng', 'A'),
-    ('ở', 'E'),
-    ('Sài Gòn', 'Np'),
-    ('bị', 'V'),
-    ('truy quét', 'V')]
+[('Chợ', 'N'),
+ ('thịt', 'N'),
+ ('chó', 'N'),
+ ('nổi tiếng', 'A'),
+ ('ở', 'E'),
+ ('Sài Gòn', 'Np'),
+ ('bị', 'V'),
+ ('truy quét', 'V')]
 ```
 
 
@@ -130,15 +130,15 @@ Usage
 >>> from underthesea import chunk
 >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
 >>> chunk(text)
-    [('Bác sĩ', 'N', 'B-NP'),
-     ('bây giờ', 'P', 'I-NP'),
-     ('có thể', 'R', 'B-VP'),
-     ('thản nhiên', 'V', 'I-VP'),
-     ('báo tin', 'N', 'B-NP'),
-     ('bệnh nhân', 'N', 'I-NP'),
-     ('bị', 'V', 'B-VP'),
-     ('ung thư', 'N', 'I-VP'),
-     ('?', 'CH', 'O')]
+[('Bác sĩ', 'N', 'B-NP'),
+ ('bây giờ', 'P', 'I-NP'),
+ ('có thể', 'R', 'B-VP'),
+ ('thản nhiên', 'V', 'I-VP'),
+ ('báo tin', 'N', 'B-NP'),
+ ('bệnh nhân', 'N', 'I-NP'),
+ ('bị', 'V', 'B-VP'),
+ ('ung thư', 'N', 'I-VP'),
+ ('?', 'CH', 'O')]
 ```
 
 
@@ -151,15 +151,15 @@ Usage
 >>> from underthesea import dependency_parse
 >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
 >>> dependency_parse(text)
-    [('Tối', 5, 'obl:tmod'),
-     ('29/11', 1, 'flat:date'),
-     (',', 1, 'punct'),
-     ('Việt Nam', 5, 'nsubj'),
-     ('thêm', 0, 'root'),
-     ('2', 7, 'nummod'),
-     ('ca', 5, 'obj'),
-     ('mắc', 7, 'nmod'),
-     ('Covid-19', 8, 'nummod')]
+[('Tối', 5, 'obl:tmod'),
+ ('29/11', 1, 'flat:date'),
+ (',', 1, 'punct'),
+ ('Việt Nam', 5, 'nsubj'),
+ ('thêm', 0, 'root'),
+ ('2', 7, 'nummod'),
+ ('ca', 5, 'obj'),
+ ('mắc', 7, 'nmod'),
+ ('Covid-19', 8, 'nummod')]
 ```
 
 
@@ -172,16 +172,16 @@ Usage
 >>> from underthesea import ner
 >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
 >>> ner(text)
-    [('Chưa', 'R', 'O', 'O'),
-     ('tiết lộ', 'V', 'B-VP', 'O'),
-     ('lịch trình', 'V', 'B-VP', 'O'),
-     ('tới', 'E', 'B-PP', 'O'),
-     ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
-     ('của', 'E', 'B-PP', 'O'),
-     ('Tổng thống', 'N', 'B-NP', 'O'),
-     ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
-     ('Donald', 'Np', 'B-NP', 'B-PER'),
-     ('Trump', 'Np', 'B-NP', 'I-PER')]
+[('Chưa', 'R', 'O', 'O'),
+ ('tiết lộ', 'V', 'B-VP', 'O'),
+ ('lịch trình', 'V', 'B-VP', 'O'),
+ ('tới', 'E', 'B-PP', 'O'),
+ ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
+ ('của', 'E', 'B-PP', 'O'),
+ ('Tổng thống', 'N', 'B-NP', 'O'),
+ ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
+ ('Donald', 'Np', 'B-NP', 'B-PER'),
+ ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
 ### 7. Text Classification
@@ -200,9 +200,10 @@ Usage
 >>> from underthesea import classify
 
 >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
-    ['The thao']
+['The thao']
+
 >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
-    ['Kinh doanh']
+['Kinh doanh']
 
 >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
 ['INTEREST_RATE']
