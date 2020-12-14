@@ -101,7 +101,6 @@ Usage
 Usage
 
 ```python
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import word_tokenize
 >>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
 
@@ -118,8 +117,6 @@ Usage
 Usage
 
 ```python
-
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import pos_tag
 >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
    [('Chợ', 'N'),
@@ -139,7 +136,6 @@ Usage
 Usage
 
 ```python
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import chunk
 >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
 >>> chunk(text)
@@ -161,8 +157,6 @@ Usage
 Usage
 
 ```python
-
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import dependency_parse
 >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
 >>> dependency_parse(text)
@@ -184,7 +178,6 @@ Usage
 Usage
 
 ```python
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import ner
 >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
 >>> ner(text)
@@ -213,7 +206,6 @@ $ underthesea download-model TC_BANK
 Usage
 
 ```python
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import classify
 
 >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
@@ -239,8 +231,6 @@ Usage
 
 
 ```python
-
->>> # -*- coding: utf-8 -*-
 >>> from underthesea import sentiment
 
 >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
@@ -254,21 +244,19 @@ positive
 ['TRADEMARK#positive']
 ```
 
-****************************************
-9. Vietnamese NLP Resources
-****************************************
+### 9. Vietnamese NLP Resources
 
 List resources
 
 ```bash
 $ underthesea list-data
-    | Name         | Type        | License   |   Year | Directory             |
-    |--------------+-------------+-----------+--------+-----------------------|
-    | UTS2017-BANK | Categorized | Open      |   2017 | datasets/UTS2017-BANK |
-    | VNESES       | Plaintext   | Open      |   2012 | datasets/LTA          |
-    | VNTQ_BIG     | Plaintext   | Open      |   2012 | datasets/LTA          |
-    | VNTQ_SMALL   | Plaintext   | Open      |   2012 | datasets/LTA          |
-    | VNTC         | Categorized | Open      |   2007 | datasets/VNTC         |
+| Name         | Type        | License   |   Year | Directory             |
+|--------------+-------------+-----------+--------+-----------------------|
+| UTS2017-BANK | Categorized | Open      |   2017 | datasets/UTS2017-BANK |
+| VNESES       | Plaintext   | Open      |   2012 | datasets/LTA          |
+| VNTQ_BIG     | Plaintext   | Open      |   2012 | datasets/LTA          |
+| VNTQ_SMALL   | Plaintext   | Open      |   2012 | datasets/LTA          |
+| VNTC         | Categorized | Open      |   2007 | datasets/VNTC         |
 
 $ underthesea list-data --all
 ```
