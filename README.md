@@ -93,7 +93,7 @@ $ pip install underthesea
 
 Satisfaction, guaranteed.
 
-### Usage
+### Tutorials
 
 * [1. Sentence Segmentation](#1-sentence-segmentation)
 * [2. Word Segmentation](#2-word-segmentation)
