@@ -85,7 +85,7 @@ Underthesea is:
 </tbody>
 </table>
 
-### Installation
+## Installation
 
 
 To install underthesea, simply:
@@ -97,7 +97,7 @@ $ pip install underthesea
 
 Satisfaction, guaranteed.
 
-### Tutorials
+## Tutorials
 
 * [1. Sentence Segmentation](#1-sentence-segmentation)
 * [2. Word Segmentation](#2-word-segmentation)
