@@ -1,33 +1,41 @@
-====================================
-Underthesea - Vietnamese NLP Toolkit
-====================================
 
+<p align="center">
 
-.. image:: https://img.shields.io/pypi/v/underthesea.svg
-        :target: https://pypi.python.org/pypi/underthesea
+  <br>
+  <img src="logo.png"/>
+  <br/>
 
-.. image:: https://img.shields.io/pypi/pyversions/underthesea.svg
-        :target: https://pypi.python.org/pypi/underthesea
+</p>
 
-.. image:: https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3-brightgreen.svg
-        :target: https://pypi.python.org/pypi/underthesea
+<p align="center">
+  <a href="https://pypi.python.org/pypi/underthesea">
+    <img src="https://img.shields.io/pypi/v/underthesea.svg">
+  </a>
+  <a href="https://pypi.python.org/pypi/underthesea">
+    <img src="https://img.shields.io/pypi/pyversions/underthesea.svg">
+  </a>
+  <a href="https://pypi.python.org/pypi/underthesea">
+    <img src="https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3-brightgreen.svg">
+  </a>
+  <a href="https://travis-ci.org/undertheseanlp/underthesea">
+    <img src="https://img.shields.io/travis/undertheseanlp/underthesea.svg">
+  </a>
+  <a href="http://underthesea.readthedocs.io/en/latest/">
+    <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
+  </a>
+  <a href="https://www.facebook.com/undertheseanlp/">
+    <img src="https://img.shields.io/badge/chat-on%20facebook-green.svg">
+  </a>
+</p>
 
-.. image:: https://img.shields.io/travis/undertheseanlp/underthesea.svg
-        :target: https://travis-ci.org/undertheseanlp/underthesea
+<h3 align="center">
+Vietnamese Natural Language Process Toolkit
+</h3>
 
-.. image:: https://readthedocs.org/projects/underthesea/badge/?version=latest
-        :target: http://underthesea.readthedocs.io/en/latest/
-        :alt: Documentation Status
+🌊 Underthesea is a suite of open source Python modules 
 
-.. image:: https://img.shields.io/badge/chat-on%20facebook-green.svg
-    :target: https://www.facebook.com/undertheseanlp/
+🌊 Underthesea is a suite of open source Python modules
 
-|
-
-![](logo.png)
-
-.. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
-        :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
@@ -74,32 +82,26 @@ Usage
 * `8. Sentiment Analysis <#8-sentiment-analysis>`_
 * `9. Vietnamese NLP Resources <#9-vietnamese-nlp-resources>`_
 
-****************************************
-1. Sentence Segmentation
-****************************************
+### 1. Sentence Segmentation
 
 Usage
 
-.. code-block:: python
+```python
+>>> from underthesea import sent_tokenize
+>>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
 
-    >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import sent_tokenize
-    >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
-
-    >>> sent_tokenize(text)
-    [
-        "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
-        "Amanda cũng thoải mái với mối quan hệ này."
-    ]
-
-****************************************
-2. Word Segmentation
-****************************************
+>>> sent_tokenize(text)
+[
+  "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
+  "Amanda cũng thoải mái với mối quan hệ này."
+]
+```
+   
+### 2. Word Segmentation
 
 Usage
 
-.. code-block:: python
-
+```python
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import word_tokenize
     >>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
@@ -109,14 +111,14 @@ Usage
 
     >>> word_tokenize(sentence, format="text")
     'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
+``` 
 
-****************************************
-3. POS Tagging
-****************************************
+### 3. POS Tagging
+
 
 Usage
 
-.. code-block:: python
+```python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import pos_tag
@@ -129,14 +131,15 @@ Usage
      ('Sài Gòn', 'Np'),
      ('bị', 'V'),
      ('truy quét', 'V')]
+```
 
-****************************************
-4. Chunking
-****************************************
+
+### 4. Chunking
+
 
 Usage
 
-.. code-block:: python
+```python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import chunk
@@ -151,14 +154,15 @@ Usage
      ('bị', 'V', 'B-VP'),
      ('ung thư', 'N', 'I-VP'),
      ('?', 'CH', 'O')]
+```
 
-****************************************
-5. Dependency Parsing
-****************************************
+
+### 5. Dependency Parsing
+
 
 Usage
 
-.. code-block:: python
+```python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import dependency_parse
@@ -173,15 +177,15 @@ Usage
      ('ca', 5, 'obj'),
      ('mắc', 7, 'nmod'),
      ('Covid-19', 8, 'nummod')]
+```
 
-****************************************
-6. Named Entity Recognition
-****************************************
+
+### 6. Named Entity Recognition
+
 
 Usage
 
-.. code-block:: python
-
+```python
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import ner
     >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
@@ -196,21 +200,22 @@ Usage
      ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
      ('Donald', 'Np', 'B-NP', 'B-PER'),
      ('Trump', 'Np', 'B-NP', 'I-PER')]
+```
 
-****************************************
-7. Text Classification
-****************************************
+### 7. Text Classification
+
 
 Download models
 
-.. code-block:: bash
+```
 
     $ underthesea download-model TC_GENERAL
     $ underthesea download-model TC_BANK
+```
 
 Usage
 
-.. code-block:: python
+```python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import classify
@@ -222,23 +227,23 @@ Usage
 
     >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
     ['INTEREST_RATE']
+```
 
-****************************************
-8. Sentiment Analysis
-****************************************
+
+### 8. Sentiment Analysis
 
 Download models
 
-.. code-block:: bash
+```bash
 
     $ underthesea download-model SA_GENERAL
     $ underthesea download-model SA_BANK
-
+```
 
 Usage
 
 
-.. code-block:: python
+```python
 
     >>> # -*- coding: utf-8 -*-
     >>> from underthesea import sentiment
@@ -252,6 +257,7 @@ Usage
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
     ['TRADEMARK#positive']
+```
 
 ****************************************
 9. Vietnamese NLP Resources
@@ -259,7 +265,7 @@ Usage
 
 List resources
 
-.. code-block:: bash
+```bash
 
     $ underthesea list-data
     | Name         | Type        | License   |   Year | Directory             |
@@ -271,23 +277,23 @@ List resources
     | VNTC         | Categorized | Open      |   2007 | datasets/VNTC         |
 
     $ underthesea list-data --all
+```
 
 Download resources
 
-.. code-block:: bash
+```bash
 
     $ underthesea download-data VNTC
     100%|██████████| 74846806/74846806 [00:09<00:00, 8243779.16B/s]
     Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
+```
 
-Up Coming Features
-----------------------------------------
+### Up Coming Features
 
 * Machine Translation
 * Text to Speech
 * Automatic Speech Recognition
 
-Contributing
-----------------------------------------
+### Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst>`_
+Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
