@@ -23,13 +23,18 @@
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/chat-on%20facebook-green.svg">
   </a>
+  <a href="https://www.facebook.com/undertheseanlp/">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+  </a>
 </p>
 
 <h3 align="center">
 Open Vietnamese Natural Language Process Toolkit
 </h3>
 
-🌊 Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
+Underthesea is: 
+
+🌊 **A Vietnamese NLP library.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
 🌊 Underthesea provides extremely easy API to quickly download and use those pretrained models 
 
