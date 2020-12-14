@@ -18,10 +18,10 @@
     <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
-    <img src="https://img.shields.io/badge/colab-latest-E65FA2">
+    <img src="https://img.shields.io/badge/colab-latest-D6AE22">
   </a>
   <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">
-    <img src="https://img.shields.io/badge/colab-stable-E65FA2">
+    <img src="https://img.shields.io/badge/colab-stable-D6AE22">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/website-online-E65FA2">
@@ -38,7 +38,7 @@
 Open-source Vietnamese Natural Language Process Toolkit
 </h3>
 
-Underthesea is: 
+Underthesea is:
 
 🌊 **A Vietnamese NLP toolkit.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing. We provides extremely easy API to quickly download and apply pretrained models to your text, such as word segmentation, part-of-speech tagging (PoS), named entity recognition (NER), text classification and dependency parsing.
 
@@ -86,7 +86,7 @@ Usage
   "Amanda cũng thoải mái với mối quan hệ này."
 ]
 ```
-   
+
 ### 2. Word Segmentation
 
 Usage
@@ -100,7 +100,7 @@ Usage
 
 >>> word_tokenize(sentence, format="text")
 'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
-``` 
+```
 
 ### 3. POS Tagging
 
