@@ -21,7 +21,7 @@
     <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
   </a>
     <a href="https://www.facebook.com/undertheseanlp/">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white" height="24px">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
   </a>
   <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
     <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white">
