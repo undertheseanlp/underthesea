@@ -11,9 +11,6 @@
   <a href="https://pypi.python.org/pypi/underthesea">
     <img src="https://img.shields.io/pypi/pyversions/underthesea.svg">
   </a>
-  <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/license-GNU%20General%20Public%20License%20v3-brightgreen.svg">
-  </a>
   <a href="https://travis-ci.org/undertheseanlp/underthesea">
     <img src="https://img.shields.io/travis/undertheseanlp/underthesea.svg">
   </a>
@@ -36,12 +33,11 @@ Underthesea is:
 
 🌊 **A Vietnamese NLP library.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing. Underthesea provides extremely easy API to quickly download and use those pretrained models 
 
-🌊 **A free, open-source software.** 
+🌊 **A free, open-source software.** The library is published under the [GNU GENERAL PUBLIC LICENSE version 3](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE)
 
 🌊 Underthesa is backed by one of most popular deep learning libraries, [Pytorch](https://pytorch.org/), with a seamless integration between them, allowing you to train your models with one then load it for inference with the other.
 
 💫 **Version 1.3.0 out now!** [Underthesea meet deep learning!](https://github.com/undertheseanlp/underthesea/issues/359)
-
 
 <table>
 <tbody>
