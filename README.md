@@ -17,7 +17,16 @@
   <a href="http://underthesea.readthedocs.io/en/latest/">
     <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
   </a>
-    <a href="https://www.facebook.com/undertheseanlp/">
+  <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
+    <img src="https://img.shields.io/badge/colab-latest-brightgreen">
+  </a>
+  <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">
+    <img src="https://img.shields.io/badge/colab-stable-brightgreen">
+  </a>
+  <a href="">
+    <img src="https://img.shields.io/badge/website-demo-brightgreen">
+  </a>
+  <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
   </a>
   <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
@@ -38,25 +47,6 @@ Underthesea is:
 🌊 Underthesa is backed by one of most popular deep learning libraries, [Pytorch](https://pytorch.org/), with a seamless integration between them, allowing you to train your models with one then load it for inference with the other.
 
 💫 **Version 1.3.0 out now!** [Underthesea meet deep learning!](https://github.com/undertheseanlp/underthesea/issues/359)
-
-<table>
-<tbody>
-  <tr>
-    <td>Live demo</td>
-    <td>
-      <a href="http://undertheseanlp.com">undertheseanlp.com</a>
-    </td>
-  </tr>
-  <tr>
-    <td>Colab notebooks</td>
-    <td>
-        <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">latest</a>
-        / 
-        <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">stable</a>
-    </td>
-  </tr>
-</tbody>
-</table>
 
 ## Installation
 
