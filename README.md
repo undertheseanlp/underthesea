@@ -26,7 +26,7 @@
 </p>
 
 <h3 align="center">
-Vietnamese Natural Language Process Toolkit
+Open Vietnamese Natural Language Process Toolkit
 </h3>
 
 🌊 Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
