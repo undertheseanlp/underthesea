@@ -8,6 +8,9 @@
   <a href="https://pypi.python.org/pypi/underthesea">
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
+  <a href="https://pypi.python.org/pypi/underthesea">
+    <img src="https://img.shields.io/pypi/pyversions/underthesea.svg">
+  </a>
   <a href="https://travis-ci.org/undertheseanlp/underthesea">
     <img src="https://img.shields.io/travis/undertheseanlp/underthesea.svg">
   </a>
