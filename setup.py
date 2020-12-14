@@ -9,11 +9,8 @@ version_file = os.path.join(os.path.dirname(__file__), 'underthesea', 'VERSION')
 with open(version_file) as fh:
     version = fh.read().strip()
 
-with io.open('README.rst', encoding="utf-8") as readme_file:
+with io.open('README.md', encoding="utf-8") as readme_file:
     readme = readme_file.read()
-
-with io.open('HISTORY.rst') as history_file:
-    history = history_file.read()
 
 install_requires = [
     'Click>=6.0',
@@ -41,7 +38,7 @@ setup(
     name='underthesea',
     version=version,
     description="Vietnamese NLP Toolkit",
-    long_description=readme + '\n\n' + history,
+    long_description=readme,
     author="Vu Anh",
     author_email='anhv.ict91@gmail.com',
     url='https://github.com/undertheseanlp/underthesea',
