@@ -42,7 +42,7 @@ Underthesea is:
 
 🌊 **A Vietnamese NLP library.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in Vietnamese Natural Language Processing. We provides extremely easy API to quickly download and use those pretrained models 
 
-🌊 **An open-source software.** Underthesea is published under the [GNU GPL v3](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. 
+🌊 **An open-source software.** Underthesea is published under the [GNU GPL v3](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
 🌊 **A Pytorch NLP framework.** Underthesea is backed by one of most popular deep learning libraries, [Pytorch](https://pytorch.org/), with a seamless integration between them, allowing you to train your models with one then load it for inference with the other.
 
