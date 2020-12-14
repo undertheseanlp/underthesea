@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="24px">
   </a>
   <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" height="24px">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?style=flat&logo=youtube&logoColor=white" height="24px">
   </a>
 </p>
 
