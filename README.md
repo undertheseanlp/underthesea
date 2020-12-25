@@ -21,10 +21,10 @@
     <img src="https://img.shields.io/badge/website-online-brightgreen">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
-    <img src="https://img.shields.io/badge/colab-latest-critical">
+    <img src="https://img.shields.io/badge/colab-latest-ff9f01">
   </a>
   <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">
-    <img src="https://img.shields.io/badge/colab-stable-important">
+    <img src="https://img.shields.io/badge/colab-stable-ff9f01">
   </a>
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
