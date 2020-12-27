@@ -76,7 +76,8 @@ class DataFetcher:
         zip_datasets = [
             "VNTC", "VLSP2013-WTK", "VLSP2013-POS", "VTB-CHUNK",
             "VLSP2016-NER", "VLSP2018-NER", "AIVIVN2019-SA",
-            "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK"
+            "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK",
+            "DI_Vietnamese-UVD", "CP_Vietnamese-UNC", "SE_Vietnamese-UBS"
         ]
         if data in set(zip_datasets):
             if repo_data["license"] == "Close":
