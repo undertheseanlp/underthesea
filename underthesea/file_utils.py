@@ -59,7 +59,8 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
     # make HEAD request to check ETag
     response = requests.head(url)
 
-    if response.status_code != 200:
+    # (anhv: 27/12/2020) github release assets return 302
+    if response.status_code not in [200, 302]:
         if "www.dropbox.com" in url:
             # dropbox return code 301, so we ignore this error
             pass
