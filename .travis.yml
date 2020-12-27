@@ -2,15 +2,16 @@
 # This file will be regenerated if you run travis_pypi_setup.py
 
 language: python
-python: 3.7
+python: 3.6
 
 env:
-  - TOXENV=py37
+  - TOXENV=py36
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
   - pip install tox-travis
   - pip install flake8
+  - pip install --upgrade pip
 
 # command to run tests, e.g. python setup.py test
 script:

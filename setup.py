@@ -13,7 +13,7 @@ install_requires = [
     'tqdm',
     'requests',
     'joblib',
-    'scikit-learn>=0.23',
+    'scikit-learn',
     'unidecode',
     'seqeval',
     'PyYAML',
