@@ -5,6 +5,7 @@ History
 Current
 --------------------------------------------------------------------------------
 
+* Add 3 new datasets (GH-351)
 * [Funny Update] Change underthesea's avatar (GH-371)
 
 1.3.0 (2020-12-11)
