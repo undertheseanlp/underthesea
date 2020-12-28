@@ -18,7 +18,7 @@ with open(join(CD, "models.yaml")) as f:
 class UTSModel(Enum):
     tc_general = "TC_GENERAL"
     tc_bank = "TC_BANK"
-
+    tc_general_v131 = "TC_GENERAL_V131"
     sa_general = "SA_GENERAL"
     sa_bank = "SA_BANK"
 
@@ -48,6 +48,19 @@ class ModelFetcher:
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
                 Path(CACHE_ROOT) / cache_dir / "TC_GENERAL",
+            )
+            os.remove(model_path)
+
+        if model_name == "TC_GENERAL_V131":
+            url = "https://github.com/undertheseanlp/playground/releases/download/1.3.x/tc_svm_vntc_20201228.zip"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20201228.zip"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20201228",
+                Path(CACHE_ROOT) / cache_dir / "TC_GENERAL_V131",
             )
             os.remove(model_path)
 
@@ -135,3 +148,4 @@ class ModelFetcher:
 
         if model == UTSModel.sa_bank:
             return Path(CACHE_ROOT) / "models" / "SA_BANK"
+        return Path(CACHE_ROOT) / "models" / model

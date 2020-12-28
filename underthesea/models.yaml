@@ -1,9 +1,9 @@
-TC_GENERAL:
+TC_GENERAL_V131:
   cache_dir: models
   type: Classification
   license: Open
   year: 2019
-  model_path: TC_GENERAL
+  model_path: TC_GENERAL_V131
 TC_BANK:
   cache_dir: models
   type: Classification
