@@ -12,7 +12,6 @@ install:
   - pip install tox-travis
   - pip install flake8
 
-
 # command to run tests, e.g. python setup.py test
 script:
   - flake8 --max-complexity 10 --ignore E501,W504,W605 .
