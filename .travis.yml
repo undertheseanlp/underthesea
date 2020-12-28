@@ -8,11 +8,8 @@ env:
   - TOXENV=py36
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
-before_install:
-  - python -m pip install --upgrade pip
-
 install:
-  - pip install tox
+  - pip install tox-travis
   - pip install flake8
 
 
