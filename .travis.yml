@@ -12,7 +12,7 @@ before_install:
   - python -m pip install --upgrade pip
 
 install:
-  - pip install tox-travis
+  - pip install tox
   - pip install flake8
 
 
