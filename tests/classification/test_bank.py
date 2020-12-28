@@ -3,7 +3,7 @@ from unittest import TestCase
 from underthesea import classify
 
 
-class TestClassify(TestCase):
+class TestBankClassify(TestCase):
     def test_classify_simple_case(self):
         text = u"Mở tài khoản ATM thì có đc quà ko ad"
         actual = classify(text, domain='bank')
