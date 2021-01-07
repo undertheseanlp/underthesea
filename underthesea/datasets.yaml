@@ -112,7 +112,7 @@ DI_Vietnamese-UVD:
   url_filename: DI_Vietnamese-UVD.zip
 SE_Vietnamese-UBS:
   cache_dir: datasets/SE_Vietnamese-UBS
-  type: Dictionary
+  type: Sentiment
   license: Open
   year: 2020
   filepath: ''
