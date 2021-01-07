@@ -22,6 +22,7 @@ class UTSModel(Enum):
     tc_bank_v131 = "TC_BANK_V131"
     sa_general = "SA_GENERAL"
     sa_bank = "SA_BANK"
+    sa_bank_v131 = "SA_BANK_V131"
 
 
 class ModelFetcher:
@@ -75,7 +76,7 @@ class ModelFetcher:
             zip.extractall(cache_folder)
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / model_id,
-                Path(CACHE_ROOT) / cache_dir / "TC_BANK_V131",
+                Path(CACHE_ROOT) / cache_dir / model_name,
             )
             os.remove(model_path)
 
@@ -115,6 +116,20 @@ class ModelFetcher:
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611",
                 Path(CACHE_ROOT) / cache_dir / "SA_BANK",
+            )
+            os.remove(model_path)
+
+        if model_name == "SA_BANK_V131":
+            model_id = "sa_svm_ubs-1_20210107"
+            url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / model_id,
+                Path(CACHE_ROOT) / cache_dir / model_name,
             )
             os.remove(model_path)
 
