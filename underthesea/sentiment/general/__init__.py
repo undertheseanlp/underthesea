@@ -1,35 +1,30 @@
-import logging
 import os
 import sys
 from underthesea.corpus.data import Sentence
-from underthesea.model_fetcher import ModelFetcher, UTSModel
+from underthesea.model_fetcher import ModelFetcher
 from underthesea.models.text_classifier import TextClassifier
-from . import text_features
+from os.path import dirname
 
-FORMAT = '%(message)s'
-logging.basicConfig(format=FORMAT)
-logger = logging.getLogger('underthesea')
-
-sys.modules['text_features'] = text_features
-model_path = ModelFetcher.get_model_path(UTSModel.sa_general)
+sys.path.insert(0, dirname(dirname(__file__)))
 classifier = None
 
 
-def sentiment(text):
+def sentiment(X):
     global classifier
+    model_name = 'SA_GENERAL_V131'
+    model_path = ModelFetcher.get_model_path(model_name)
+
     if not classifier:
-        if os.path.exists(model_path):
-            classifier = TextClassifier.load(model_path)
-        else:
-            logger.error(
-                f"Could not load model at {model_path}.\n"
-                f"Download model with \"underthesea download {UTSModel.sa_general.value}\".")
-            sys.exit(1)
-    sentence = Sentence(text)
+        if not os.path.exists(model_path):
+            ModelFetcher.download(model_name)
+        classifier = TextClassifier.load(model_path)
+
+    sentence = Sentence(X)
     classifier.predict(sentence)
-    label = sentence.labels[0]
-    if label == "1":
-        label = "negative"
-    if label == "0":
-        label = "positive"
-    return label
+    labels = sentence.labels
+    try:
+        label_map = {'POS': 'positive', 'NEG': 'negative'}
+        label = label_map[labels[0]]
+        return label
+    except Exception:
+        return None

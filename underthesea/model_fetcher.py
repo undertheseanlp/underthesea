@@ -24,7 +24,7 @@ class UTSModel(Enum):
     sa_bank = "SA_BANK"
     sa_bank_v131 = "SA_BANK_V131"
 
-
+# flake8: noqa: C901
 class ModelFetcher:
 
     @staticmethod
@@ -103,6 +103,20 @@ class ModelFetcher:
             os.rename(
                 Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615",
                 Path(CACHE_ROOT) / cache_dir / "SA_GENERAL",
+            )
+            os.remove(model_path)
+
+        if model_name == "SA_GENERAL_V131":
+            model_id = "sa_svm_vlsp2016-sa_20210107"
+            url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
+            cached_path(url, cache_dir=cache_dir)
+            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
+            cache_folder = Path(CACHE_ROOT) / cache_dir
+            zip = zipfile.ZipFile(model_path)
+            zip.extractall(cache_folder)
+            os.rename(
+                Path(CACHE_ROOT) / cache_dir / model_id,
+                Path(CACHE_ROOT) / cache_dir / model_name,
             )
             os.remove(model_path)
 
