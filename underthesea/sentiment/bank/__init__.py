@@ -1,34 +1,37 @@
 import logging
 import os
 import sys
+from os.path import dirname
 from underthesea.corpus.data import Sentence
-from underthesea.model_fetcher import ModelFetcher, UTSModel
 from underthesea.models.text_classifier import TextClassifier
-from . import text_features
+from underthesea.model_fetcher import ModelFetcher, UTSModel
 
 FORMAT = '%(message)s'
 logging.basicConfig(format=FORMAT)
 logger = logging.getLogger('underthesea')
 
-sys.modules['text_features'] = text_features
-model_path = ModelFetcher.get_model_path(UTSModel.sa_bank)
+sys.path.insert(0, dirname(dirname(__file__)))
+model_path = ModelFetcher.get_model_path(UTSModel.tc_bank)
+classifier = None
+
+sys.path.insert(0, dirname(dirname(__file__)))
 classifier = None
 
 
-def sentiment(text):
+def sentiment(X):
     global classifier
+    model_name = 'SA_BANK_V131'
+    model_path = ModelFetcher.get_model_path(model_name)
 
     if not classifier:
-        if os.path.exists(model_path):
-            classifier = TextClassifier.load(model_path)
-        else:
-            logger.error(
-                f"Could not load model at {model_path}.\n"
-                f"Download model with \"underthesea download {UTSModel.sa_bank.value}\".")
-            sys.exit(1)
-    sentence = Sentence(text)
+        if not os.path.exists(model_path):
+            ModelFetcher.download(model_name)
+        classifier = TextClassifier.load(model_path)
+
+    sentence = Sentence(X)
     classifier.predict(sentence)
     labels = sentence.labels
-    if labels is None:
+    if not labels:
         return None
-    return [label.value for label in labels]
+    labels = [label.value for label in labels]
+    return labels
