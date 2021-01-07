@@ -104,7 +104,6 @@ Usage
 
 ### 3. POS Tagging
 
-
 Usage
 
 ```python
@@ -122,7 +121,6 @@ Usage
 
 
 ### 4. Chunking
-
 
 Usage
 
@@ -144,7 +142,6 @@ Usage
 
 ### 5. Dependency Parsing
 
-
 Usage
 
 ```python
@@ -162,9 +159,7 @@ Usage
  ('Covid-19', 8, 'nummod')]
 ```
 
-
 ### 6. Named Entity Recognition
-
 
 Usage
 
@@ -186,14 +181,6 @@ Usage
 
 ### 7. Text Classification
 
-
-Download models
-
-```bash
-$ underthesea download-model TC_GENERAL
-$ underthesea download-model TC_BANK
-```
-
 Usage
 
 ```python
@@ -209,7 +196,6 @@ Usage
 ['INTEREST_RATE']
 ```
 
-
 ### 8. Sentiment Analysis
 
 Download models
@@ -220,7 +206,6 @@ $ underthesea download-model SA_BANK
 ```
 
 Usage
-
 
 ```python
 >>> from underthesea import sentiment
