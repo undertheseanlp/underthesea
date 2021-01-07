@@ -66,14 +66,15 @@ class ModelFetcher:
             os.remove(model_path)
 
         if model_name == "TC_BANK_V131":
-            url = "https://github.com/undertheseanlp/playground/releases/download/1.3.x/tc_svm_ubc-1_20210701.zip"
+            model_id = "tc_svm_ubc-1_20210107"
+            url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_ubc-1_20210701.zip"
+            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
             cache_folder = Path(CACHE_ROOT) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "tc_svm_ubc-1_20210701",
+                Path(CACHE_ROOT) / cache_dir / model_id,
                 Path(CACHE_ROOT) / cache_dir / "TC_BANK_V131",
             )
             os.remove(model_path)
