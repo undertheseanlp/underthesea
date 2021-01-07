@@ -28,3 +28,9 @@ SA_BANK:
   license: Open
   year: 2019
   model_path: SA_BANK
+SA_BANK_V131:
+  cache_dir: models
+  type: Sentiment
+  license: Open
+  year: 2021
+  model_path: SA_BANK_V131
