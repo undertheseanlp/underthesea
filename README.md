@@ -198,13 +198,6 @@ Usage
 
 ### 8. Sentiment Analysis
 
-Download models
-
-```bash
-$ underthesea download-model SA_GENERAL
-$ underthesea download-model SA_BANK
-```
-
 Usage
 
 ```python
