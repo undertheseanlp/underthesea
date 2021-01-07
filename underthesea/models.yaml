@@ -1,9 +1,15 @@
-TC_GENERAL:
+TC_BANK_V131:
+  cache_dir: models
+  type: Sentiment
+  license: Open
+  year: 2021
+  model_path: TC_BANK_V131
+TC_GENERAL_V131:
   cache_dir: models
   type: Classification
   license: Open
   year: 2019
-  model_path: TC_GENERAL
+  model_path: TC_GENERAL_V131
 TC_BANK:
   cache_dir: models
   type: Classification
@@ -16,9 +22,21 @@ SA_GENERAL:
   license: Open
   year: 2019
   model_path: SA_GENERAL
+SA_GENERAL_V131:
+  cache_dir: models
+  type: Sentiment
+  license: Open
+  year: 2021
+  model_path: SA_GENERAL_V131
 SA_BANK:
   cache_dir: models
   type: Sentiment
   license: Open
   year: 2019
   model_path: SA_BANK
+SA_BANK_V131:
+  cache_dir: models
+  type: Sentiment
+  license: Open
+  year: 2021
+  model_path: SA_BANK_V131
