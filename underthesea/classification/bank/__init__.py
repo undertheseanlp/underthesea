@@ -16,21 +16,24 @@ sys.path.insert(0, dirname(dirname(__file__)))
 model_path = ModelFetcher.get_model_path(UTSModel.tc_bank)
 classifier = None
 
+sys.path.insert(0, dirname(dirname(__file__)))
+classifier = None
+
 
 def classify(X):
     global classifier
+    model_name = 'TC_BANK_V131'
+    model_path = ModelFetcher.get_model_path(model_name)
 
     if not classifier:
-        if os.path.exists(model_path):
-            classifier = TextClassifier.load(model_path)
-        else:
-            logger.error(
-                f"Could not load model at {model_path}.\n"
-                f"Download model with \"underthesea download {UTSModel.tc_bank.value}\".")
-            sys.exit(1)
+        if not os.path.exists(model_path):
+            ModelFetcher.download(model_name)
+        classifier = TextClassifier.load(model_path)
+
     sentence = Sentence(X)
     classifier.predict(sentence)
     labels = sentence.labels
     if not labels:
         return None
-    return [label.value for label in labels]
+    labels = [label.value for label in labels]
+    return labels

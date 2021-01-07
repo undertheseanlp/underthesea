@@ -1,3 +1,9 @@
+TC_BANK_V131:
+  cache_dir: models
+  type: Sentiment
+  license: Open
+  year: 2021
+  model_path: TC_BANK_V131
 TC_GENERAL_V131:
   cache_dir: models
   type: Classification
