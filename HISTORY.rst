@@ -2,7 +2,7 @@
 History
 ================================================================================
 
-Current
+1.3.1 (2021-01-11)
 --------------------------------------------------------------------------------
 
 * Compatible with newer version of scikit-learn (GH-313)
@@ -10,7 +10,7 @@ Current
 * Add ClassifierTrainer (from languageflow) (GH-381)
 * Add 3 new datasets (GH-351)
 * [Funny Update] Change underthesea's avatar (GH-371)
-* [CI] Add Stale App: Automatically close stale Issues and Pull Requests that tend to accumulate during a project
+* [CI] Add Stale App: Automatically close stale Issues and Pull Requests that tend to accumulate during a project (GH-351)
 
 1.3.0 (2020-12-11)
 --------------------------------------------------------------------------------

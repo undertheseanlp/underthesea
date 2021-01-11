@@ -21,10 +21,10 @@
     <img src="https://img.shields.io/badge/website-online-brightgreen">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
-    <img src="https://img.shields.io/badge/colab-latest-ff9f01">
+    <img src="https://img.shields.io/badge/latest-ff9f01?logo=google-colab&logoColor=white">
   </a>
   <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">
-    <img src="https://img.shields.io/badge/colab-stable-ff9f01">
+    <img src="https://img.shields.io/badge/stable-ff9f01?logo=google-colab&logoColor=white">
   </a>
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
@@ -46,7 +46,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
-💫 **Version 1.3.0 out now!** [Underthesea meet deep learning!](https://github.com/undertheseanlp/underthesea/issues/359)
+💫 [**Version 1.3.1 out now!**](https://github.com/undertheseanlp/underthesea/releases)
 
 ## Installation
 
