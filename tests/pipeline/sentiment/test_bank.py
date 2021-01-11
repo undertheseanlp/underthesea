@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-from underthesea.sentiment import sentiment
+from underthesea.pipeline.sentiment import sentiment
 
 
 class TestSentiment(TestCase):

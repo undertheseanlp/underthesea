@@ -23,7 +23,7 @@ def classify(X, domain=None):
     if X == "":
         return None
     if domain == 'bank':
-        from underthesea.classification import bank
+        from underthesea.pipeline.classification import bank
         return bank.classify(X)
-    from underthesea.classification import vntc
+    from underthesea.pipeline.classification import vntc
     return vntc.classify(X)

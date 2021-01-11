@@ -1,7 +1,7 @@
 import unidecode
 from sklearn.base import BaseEstimator, TransformerMixin
 import string
-from underthesea.word_tokenize.regex_tokenize import tokenize
+from underthesea.pipeline.word_tokenize import tokenize
 
 
 negative_emoticons = {':(', '☹', '❌', '👎', '👹', '💀', '🔥', '🤔', '😏', '😐', '😑', '😒', '😓', '😔', '😕', '😖',
