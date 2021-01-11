@@ -30,19 +30,19 @@ except IOError as ex:
 ###########################################################
 # TOP-LEVEL MODULES
 ###########################################################
-from underthesea.sent_tokenize import sent_tokenize
-from underthesea.word_tokenize import word_tokenize
+from underthesea.pipeline.sent_tokenize import sent_tokenize
+from underthesea.pipeline.word_tokenize import word_tokenize
 from underthesea.pos_tag import pos_tag
 from underthesea.chunking import chunk
 from underthesea.ner import ner
 from underthesea.dependency_parse import dependency_parse
 
 try:
-    from underthesea.classification import classify
+    from underthesea.pipeline.classification import classify
 except Exception:
     pass
 try:
-    from underthesea.sentiment import sentiment
+    from underthesea.pipeline.sentiment import sentiment
 except Exception:
     pass
 

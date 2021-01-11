@@ -31,8 +31,8 @@ def sentiment(X, domain='general'):
     if X == "":
         return None
     if domain == 'general':
-        from underthesea.sentiment.general import sentiment
+        from underthesea.pipeline.sentiment.general import sentiment
         return sentiment(X)
     if domain == 'bank':
-        from underthesea.sentiment.bank import sentiment
+        from underthesea.pipeline.sentiment.bank import sentiment
         return sentiment(X)
