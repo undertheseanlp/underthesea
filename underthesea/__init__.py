@@ -32,10 +32,10 @@ except IOError as ex:
 ###########################################################
 from underthesea.pipeline.sent_tokenize import sent_tokenize
 from underthesea.pipeline.word_tokenize import word_tokenize
-from underthesea.pos_tag import pos_tag
-from underthesea.chunking import chunk
-from underthesea.ner import ner
-from underthesea.dependency_parse import dependency_parse
+from underthesea.pipeline.pos_tag import pos_tag
+from underthesea.pipeline.chunking import chunk
+from underthesea.pipeline.ner import ner
+from underthesea.pipeline.dependency_parse import dependency_parse
 
 try:
     from underthesea.pipeline.classification import classify
