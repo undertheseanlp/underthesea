@@ -3,7 +3,7 @@ import shutil
 from os.path import dirname, join
 
 from underthesea.corpus.util import FolderStructure
-from underthesea.file_utils import CACHE_ROOT
+from underthesea.file_utils import UNDERTHESEA_FOLDER
 from pathlib import Path
 
 
@@ -18,7 +18,7 @@ def process_train_data(train_data_file, output_file, label):
 
 
 class VLSP2016SACorpus:
-    data_folder = Path(CACHE_ROOT) / "datasets" / "vlsp2016_sa"
+    data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "vlsp2016_sa"
     required_folder = True
     required_file = False
 

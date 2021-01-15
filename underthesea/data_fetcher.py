@@ -8,7 +8,7 @@ import yaml
 from underthesea.corpus import Corpus
 from underthesea.corpus.categorized_corpus import CategorizedCorpus
 from underthesea.corpus.data import Sentence, Label
-from underthesea.file_utils import cached_path, CACHE_ROOT
+from underthesea.file_utils import cached_path, UNDERTHESEA_FOLDER
 from pathlib import Path
 import zipfile
 
@@ -41,8 +41,8 @@ class DataFetcher:
         cache_dir = repo_data["cache_dir"]
         filepath = repo_data["filepath"]
         cached_path(url, cache_dir=cache_dir)
-        shutil.move(Path(CACHE_ROOT) / cache_dir / url_filename,
-                    Path(CACHE_ROOT) / cache_dir / filepath)
+        shutil.move(Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename,
+                    Path(UNDERTHESEA_FOLDER) / cache_dir / filepath)
 
     @staticmethod
     def download_zip_file_to_cache(repo_data):
@@ -50,8 +50,8 @@ class DataFetcher:
         cache_dir = repo_data["cache_dir"]
         url_filename = repo_data["url_filename"]
         cached_path(url, cache_dir=cache_dir)
-        filepath = Path(CACHE_ROOT) / cache_dir / url_filename
-        cache_folder = Path(CACHE_ROOT) / cache_dir
+        filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename
+        cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
         zip = zipfile.ZipFile(filepath)
         zip.extractall(cache_folder)
         os.remove(filepath)
@@ -65,7 +65,7 @@ class DataFetcher:
         repo_data = REPO[data]
         filepath = REPO[data]["filepath"]
         cache_dir = REPO[data]["cache_dir"]
-        filepath = Path(CACHE_ROOT) / cache_dir / filepath
+        filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / filepath
         if Path(filepath).exists():
             print(f"Resource {data} is already existed in: {filepath}")
             return
@@ -115,7 +115,7 @@ class DataFetcher:
             print(f"No matching distribution found for '{data}'")
             return
         dataset = REPO[data]
-        cache_dir = Path(CACHE_ROOT) / dataset["cache_dir"]
+        cache_dir = Path(UNDERTHESEA_FOLDER) / dataset["cache_dir"]
         if cache_dir.is_dir():
             shutil.rmtree(cache_dir)
         print(f"Dataset {data} is removed.")
@@ -123,7 +123,7 @@ class DataFetcher:
     @staticmethod
     def load_corpus(corpus_id: Union[NLPData, str]) -> Corpus:
         if corpus_id == NLPData.AIVIVN2019_SA:
-            data_folder = Path(CACHE_ROOT) / "datasets" / "aivivn2019_sa"
+            data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "aivivn2019_sa"
             return DataFetcher.load_classification_corpus(data_folder)
 
         if corpus_id == NLPData.AIVIVN2019_SA_SAMPLE:
@@ -131,7 +131,7 @@ class DataFetcher:
             return DataFetcher.load_classification_corpus(data_folder)
 
         if corpus_id == NLPData.UTS2017_BANK_SA:
-            data_folder = Path(CACHE_ROOT) / "datasets" / "uts2017_bank"
+            data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "uts2017_bank"
             return DataFetcher.load_classification_corpus(data_folder)
 
         if corpus_id == NLPData.UTS2017_BANK_SA_SAMPLE:
@@ -139,17 +139,17 @@ class DataFetcher:
             return DataFetcher.load_classification_corpus(data_folder)
 
         if corpus_id == NLPData.UTS2017_BANK_TC:
-            data_folder = Path(CACHE_ROOT) / "datasets" / "uts2017_bank"
+            data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "uts2017_bank"
             corpus = DataFetcher.load_classification_corpus(data_folder)
             return DataFetcher.__exact_aspect_labels(corpus)
 
         if corpus_id == NLPData.VLSP2016_SA:
-            data_folder = Path(CACHE_ROOT) / "datasets" / "vlsp2016_sa"
+            data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "vlsp2016_sa"
             corpus = DataFetcher.load_classification_corpus(data_folder)
             return DataFetcher.__exact_aspect_labels(corpus)
 
         if corpus_id == NLPData.VNTC:
-            data_folder = Path(CACHE_ROOT) / "datasets" / "VNTC"
+            data_folder = Path(UNDERTHESEA_FOLDER) / "datasets" / "VNTC"
             corpus = DataFetcher.load_classification_corpus(data_folder)
             return DataFetcher.__exact_aspect_labels(corpus)
 

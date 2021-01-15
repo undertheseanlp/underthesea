@@ -2,7 +2,7 @@ from os import makedirs
 from os.path import join, exists
 from shutil import rmtree
 from seqeval.metrics import classification_report, accuracy_score
-from underthesea.file_utils import CACHE_ROOT
+from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.transformer.tagged import TaggedTransformer
 import pycrfsuite
 
@@ -15,7 +15,7 @@ class ModelTrainer:
         self.corpus = corpus
 
     def train(self, base_path, params):
-        base_path = join(CACHE_ROOT, base_path)
+        base_path = join(UNDERTHESEA_FOLDER, base_path)
         if exists(base_path):
             rmtree(base_path)
         makedirs(base_path)
