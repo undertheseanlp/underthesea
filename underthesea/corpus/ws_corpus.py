@@ -1,24 +1,9 @@
 import io
-from underthesea.corpus import Document, UnicodeTransformer
+from underthesea.corpus import Document, UnicodeTransformer, Corpus
 from os import listdir, mkdir
 from os.path import join
 
 from underthesea.util.file_io import write
-
-
-# -*- coding: utf-8 -*-
-class Corpus:
-    """Corpus is fundamental resource of NLP
-    """
-
-    def __init__(self):
-        print("Corpus is fundamental resource of NLP")
-
-    def load(self, folder):
-        pass
-
-    def save(self, folder):
-        pass
 
 
 class WSCorpus(Corpus):

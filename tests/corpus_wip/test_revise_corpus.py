@@ -1,5 +1,5 @@
 from unittest import TestCase
-from underthesea.corpus.revise_corpus import revise_corpus
+from underthesea.datasets.vlsp2013_wtk.revise_corpus import revise_corpus
 
 
 class TestReviseCorpus(TestCase):

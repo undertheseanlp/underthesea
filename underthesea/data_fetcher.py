@@ -215,5 +215,5 @@ class DataFetcher:
             print(f"No matching distribution found for '{corpus_id}'")
             return
         if corpus_id == "VLSP2016_SA":
-            from underthesea.corpus.vlsp2016_sa_corpus import VLSP2016SACorpus
+            from underthesea.datasets.vlsp2016_sa.vlsp2016_sa_corpus import VLSP2016SACorpus
             VLSP2016SACorpus.import_data(input_data_path)
