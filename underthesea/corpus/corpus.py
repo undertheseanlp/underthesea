@@ -7,7 +7,9 @@ class Corpus:
     """
 
     def __init__(self):
-        pass
+        self._train = None
+        self._dev = None
+        self._test = None
 
     def load(self, folder):
         pass
@@ -26,3 +28,24 @@ class Corpus:
     @property
     def test(self):
         return self._test
+
+    def downsample(self, percentage: float = 0.1, downsample_train=True, downsample_dev=True, downsample_test=True):
+        """ TODO: implement this
+        Ref: Flair
+
+        :param percentage:
+        :param downsample_train:
+        :param downsample_dev:
+        :param downsample_test:
+        :return:
+        """
+        if downsample_train:
+            self._train = self._downsample_to_proportion(self.train, percentage)
+
+        if downsample_dev:
+            self._dev = self._downsample_to_proportion(self.dev, percentage)
+
+        if downsample_test:
+            self._test = self._downsample_to_proportion(self.test, percentage)
+
+        return self
