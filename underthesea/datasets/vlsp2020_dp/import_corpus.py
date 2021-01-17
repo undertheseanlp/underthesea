@@ -18,7 +18,6 @@
 import os
 import shutil
 from os.path import join
-from zipfile import ZipFile
 
 from underthesea.file_utils import DATASETS_FOLDER
 
