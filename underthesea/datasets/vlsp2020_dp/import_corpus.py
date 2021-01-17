@@ -41,7 +41,9 @@ class CONLLReader:
 
     @staticmethod
     def save(sentences, file):
+        n = len(sentences)
         content = '\n\n'.join(sentences) + '\n'
+        print(f'Save {n} sentences in {file}')
         with open(file, 'w') as f:
             f.write(content)
 
@@ -53,3 +55,7 @@ sentences = []
 for file in files:
     sentences += CONLLReader.load(file)
 CONLLReader.save(sentences, join(DEST_FOLDER, 'train.txt'))
+
+file = join(ORIGINAL_FOLDER, 'DataTestGoldDP2020', 'total-gold.txt')
+sentences = CONLLReader.load(file)
+CONLLReader.save(sentences, join(DEST_FOLDER, 'test.txt'))
