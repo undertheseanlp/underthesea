@@ -1,11 +1,11 @@
 from os.path import join
 
-from underthesea.datasets import VLSP2020_DP_R1
+from underthesea.datasets.vlsp2020_dp import VLSP2020_DP
 from underthesea.file_utils import MODELS_FOLDER
 from underthesea.models.dependency_parser import BiaffineDependencyParser
 from underthesea.trainers.parser_trainer import ParserTrainer
 
-corpus = VLSP2020_DP_R1()
+corpus = VLSP2020_DP()
 
 embeddings = 'char'
 embed = False

@@ -18,3 +18,11 @@ class Corpus:
     @property
     def train(self):
         return self._train
+
+    @property
+    def dev(self):
+        return self._dev
+
+    @property
+    def test(self):
+        return self._test

@@ -36,7 +36,7 @@ class CONLLReader:
     @staticmethod
     def load(file):
         sentences = open(file).read().split('\n\n')
-        sentences = [s for s in sentences if len(s) > 10]
+        sentences = [s.strip() for s in sentences if len(s) > 10]
         return sentences
 
     @staticmethod
