@@ -5,7 +5,7 @@ from enum import Enum
 from os.path import dirname, join
 from pathlib import Path
 import yaml
-from underthesea.file_utils import cached_path, CACHE_ROOT
+from underthesea.file_utils import cached_path, UNDERTHESEA_FOLDER
 from underthesea.utils import print_table
 
 MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to download"
@@ -35,7 +35,7 @@ class ModelFetcher:
 
         model_path = REPO[model_name]["model_path"]
         cache_dir = REPO[model_name]["cache_dir"]
-        model_path = Path(CACHE_ROOT) / cache_dir / model_path
+        model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / model_path
         if Path(model_path).exists():
             print(f"Model is already existed: '{model_name}' in {model_path}")
             return
@@ -43,26 +43,26 @@ class ModelFetcher:
         if model_name == "TC_GENERAL":
             url = "https://www.dropbox.com/s/866offu8wglrcej/tc_svm_vntc_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20190607",
-                Path(CACHE_ROOT) / cache_dir / "TC_GENERAL",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20190607",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_GENERAL",
             )
             os.remove(model_path)
 
         if model_name == "TC_GENERAL_V131":
             url = "https://github.com/undertheseanlp/playground/releases/download/1.3.x/tc_svm_vntc_20201228.zip"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20201228.zip"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20201228.zip"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "tc_svm_vntc_20201228",
-                Path(CACHE_ROOT) / cache_dir / "TC_GENERAL_V131",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20201228",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_GENERAL_V131",
             )
             os.remove(model_path)
 
@@ -70,39 +70,39 @@ class ModelFetcher:
             model_id = "tc_svm_ubc-1_20210107"
             url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / model_id,
-                Path(CACHE_ROOT) / cache_dir / model_name,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
             )
             os.remove(model_path)
 
         if model_name == "TC_BANK":
             url = "https://www.dropbox.com/s/prrjlypbrr6ze6p/tc_svm_uts2017_bank_20190607.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_uts2017_bank_20190607.zip?dl=1"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "tc_svm_uts2017_bank_20190607",
-                Path(CACHE_ROOT) / cache_dir / "TC_BANK",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_uts2017_bank_20190607",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_BANK",
             )
             os.remove(model_path)
 
         if model_name == "SA_GENERAL":
             url = "https://www.dropbox.com/s/xfj1ity3egabv77/sa_svm_aivivn2019_20190615.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "sa_svm_aivivn2019_20190615",
-                Path(CACHE_ROOT) / cache_dir / "SA_GENERAL",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_aivivn2019_20190615",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "SA_GENERAL",
             )
             os.remove(model_path)
 
@@ -110,26 +110,26 @@ class ModelFetcher:
             model_id = "sa_svm_vlsp2016-sa_20210107"
             url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / model_id,
-                Path(CACHE_ROOT) / cache_dir / model_name,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
             )
             os.remove(model_path)
 
         if model_name == "SA_BANK":
             url = "https://www.dropbox.com/s/yo6sf6ofpdb3hlh/sa_svm_uts2017_bank_20190611.zip?dl=1"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / "sa_svm_uts2017_bank_20190611",
-                Path(CACHE_ROOT) / cache_dir / "SA_BANK",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_uts2017_bank_20190611",
+                Path(UNDERTHESEA_FOLDER) / cache_dir / "SA_BANK",
             )
             os.remove(model_path)
 
@@ -137,13 +137,13 @@ class ModelFetcher:
             model_id = "sa_svm_ubs-1_20210107"
             url = f"https://github.com/undertheseanlp/playground/releases/download/1.3.x/{model_id}.zip"
             cached_path(url, cache_dir=cache_dir)
-            model_path = Path(CACHE_ROOT) / cache_dir / f"{model_id}.zip"
-            cache_folder = Path(CACHE_ROOT) / cache_dir
+            model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
+            cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
             zip = zipfile.ZipFile(model_path)
             zip.extractall(cache_folder)
             os.rename(
-                Path(CACHE_ROOT) / cache_dir / model_id,
-                Path(CACHE_ROOT) / cache_dir / model_name,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
+                Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
             )
             os.remove(model_path)
 
@@ -174,7 +174,7 @@ class ModelFetcher:
             print(f"No matching distribution found for '{model_name}'")
             return
         model = REPO[model_name]
-        cache_dir = Path(CACHE_ROOT) / model["cache_dir"] / model["model_path"]
+        cache_dir = Path(UNDERTHESEA_FOLDER) / model["cache_dir"] / model["model_path"]
         if cache_dir.is_dir():
             shutil.rmtree(cache_dir)
         print(f"Model {model_name} is removed.")
@@ -182,14 +182,14 @@ class ModelFetcher:
     @staticmethod
     def get_model_path(model):
         if model == UTSModel.tc_bank:
-            return Path(CACHE_ROOT) / "models" / "TC_BANK"
+            return Path(UNDERTHESEA_FOLDER) / "models" / "TC_BANK"
 
         if model == UTSModel.tc_general:
-            return Path(CACHE_ROOT) / "models" / "TC_GENERAL"
+            return Path(UNDERTHESEA_FOLDER) / "models" / "TC_GENERAL"
 
         if model == UTSModel.sa_general:
-            return Path(CACHE_ROOT) / "models" / "SA_GENERAL"
+            return Path(UNDERTHESEA_FOLDER) / "models" / "SA_GENERAL"
 
         if model == UTSModel.sa_bank:
-            return Path(CACHE_ROOT) / "models" / "SA_BANK"
-        return Path(CACHE_ROOT) / "models" / model
+            return Path(UNDERTHESEA_FOLDER) / "models" / "SA_BANK"
+        return Path(UNDERTHESEA_FOLDER) / "models" / model

@@ -5,10 +5,10 @@ from typing import Union
 import torch.distributed as dist
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from underthesea import logger, device
 from underthesea.data import CoNLL
 from underthesea.models.dependency_parser import BiaffineDependencyParserSupar
 from underthesea.modules.model import BiaffineDependencyModel
+from underthesea.utils import logger, device
 from underthesea.utils.sp_common import pad, unk, bos
 from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
@@ -40,9 +40,7 @@ class ParserTrainer:
         decay=.75,
         decay_steps=5000,
         patience=100,
-        verbose=True,
-        max_epochs=10,
-        **kwargs
+        max_epochs=10
     ):
         r"""
         Train any class that implement model interface
@@ -50,7 +48,6 @@ class ParserTrainer:
         Args:
             base_path (object): Main path to which all output during training is logged and models are saved
             max_epochs: Maximum number of epochs to train. Terminates training if this number is surpassed.
-            verbose:
             patience:
             decay_steps:
             decay:

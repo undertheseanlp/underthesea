@@ -3,7 +3,7 @@ import os
 import click
 import platform
 
-from underthesea.corpus.revise_corpus import revise_corpus
+from underthesea.datasets.vlsp2013_wtk.revise_corpus import revise_corpus
 from underthesea.corpus.validate_corpus import validate_corpus, DEFAULT_MAX_ERROR
 from underthesea.data_fetcher import DataFetcher
 from underthesea.model_fetcher import ModelFetcher
