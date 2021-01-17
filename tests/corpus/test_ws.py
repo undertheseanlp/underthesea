@@ -1,6 +1,7 @@
 from os.path import dirname, join
 from unittest import TestCase
-from underthesea.corpus.ws import WSCorpus
+
+from underthesea.corpus.ws_corpus import WSCorpus
 
 
 class TestWSCorpus(TestCase):

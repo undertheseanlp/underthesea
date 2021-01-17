@@ -13,8 +13,9 @@ from tqdm import tqdm as _tqdm
 import requests
 from underthesea.utils import logger
 
-CACHE_ROOT = os.path.expanduser(os.path.join('~', '.underthesea'))
-DATASETS_FOLDER = join(CACHE_ROOT, "datasets")
+UNDERTHESEA_FOLDER = os.path.expanduser(os.path.join('~', '.underthesea'))
+DATASETS_FOLDER = join(UNDERTHESEA_FOLDER, "datasets")
+MODELS_FOLDER = join(UNDERTHESEA_FOLDER, "models")
 
 
 def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
@@ -24,7 +25,7 @@ def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
     return the path to the cached file. If it's already a local path,
     make sure the file exists and then return the path.
     """
-    dataset_cache = Path(CACHE_ROOT) / cache_dir
+    dataset_cache = Path(UNDERTHESEA_FOLDER) / cache_dir
 
     parsed = urlparse(url_or_filename)
 
