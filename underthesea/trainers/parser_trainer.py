@@ -40,9 +40,7 @@ class ParserTrainer:
         decay=.75,
         decay_steps=5000,
         patience=100,
-        verbose=True,
-        max_epochs=10,
-        **kwargs
+        max_epochs=10
     ):
         r"""
         Train any class that implement model interface
