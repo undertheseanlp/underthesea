@@ -7,9 +7,7 @@ class Corpus:
     """
 
     def __init__(self):
-        self._train = None
-        self._dev = None
-        self._test = None
+        super().__init__()
 
     def load(self, folder):
         pass

@@ -1,5 +1,6 @@
 PRETRAINED = {
     'vi-dp-v1': 'https://github.com/undertheseanlp/underthesea/releases/download/v1.3-resources/vi-dp-v1.zip',
+    'vi-dp-v1a0': 'https://github.com/undertheseanlp/underthesea/releases/download/v1.3-resources/vi-dp-v1a0.zip',
     'biaffine-dep-en': 'https://github.com/yzhangcs/parser/releases/download/v1.0.0/ptb.biaffine.dependency.char.zip',
     'biaffine-dep-zh': 'https://github.com/yzhangcs/parser/releases/download/v1.0.0/ctb7.biaffine.dependency.char.zip',
     'biaffine-dep-bert-en': 'https://github.com/yzhangcs/parser/releases/download/v1.0.0/ptb.biaffine.dependency.bert.zip',
