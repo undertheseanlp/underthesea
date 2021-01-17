@@ -48,7 +48,6 @@ class ParserTrainer:
         Args:
             base_path (object): Main path to which all output during training is logged and models are saved
             max_epochs: Maximum number of epochs to train. Terminates training if this number is surpassed.
-            verbose:
             patience:
             decay_steps:
             decay:
