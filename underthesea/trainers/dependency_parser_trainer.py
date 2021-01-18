@@ -3,35 +3,33 @@ from datetime import timedelta, datetime
 from pathlib import Path
 from typing import Union
 import torch.distributed as dist
+import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from underthesea.data import CoNLL
-from underthesea.models.dependency_parser import BiaffineDependencyParserSupar
-from underthesea.modules.model import BiaffineDependencyModel
-from underthesea.utils import logger, device
+from underthesea.transforms.conll import CoNLL, progress_bar
+from underthesea.models.dependency_parser import DependencyParser
+from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
 from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
-from underthesea.utils.sp_metric import Metric
+from underthesea.utils.sp_metric import Metric, AttachmentMetric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
 
 
-class ParserTrainer:
+class DependencyParserTrainer:
     def __init__(self, parser, corpus):
         self.parser = parser
         self.corpus = corpus
 
+    # flake8: noqa: C901
     def train(
         self, base_path: Union[Path, str],
         fix_len=20,
         min_freq=2,
         buckets=32,
         batch_size=5000,
-        punct=False,
-        tree=False,
-        proj=False,
         lr=2e-3,
         mu=.9,
         nu=.9,
@@ -58,7 +56,6 @@ class ParserTrainer:
             lr:
             proj:
             tree:
-            punct:
             batch_size:
             buckets:
             min_freq:
@@ -69,21 +66,14 @@ class ParserTrainer:
         ################################################################################################################
         # BUILD
         ################################################################################################################
-        locals_args = {
-            'base_path': base_path,
-            'fix_len': fix_len,
-            'min_freq': min_freq,
-            'max_epochs': max_epochs
-        }
-        args = Config(**locals_args)
-        args.feat = self.parser.embeddings
+        args = Config()
+        args.feat = self.parser.feat
         args.embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
-
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
         if args.feat == 'char':
-            FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=args.fix_len)
+            FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=fix_len)
         elif args.feat == 'bert':
             from transformers import AutoTokenizer
             tokenizer = AutoTokenizer.from_pretrained(args.bert)
@@ -92,7 +82,7 @@ class ParserTrainer:
                                 pad=tokenizer.pad_token,
                                 unk=tokenizer.unk_token,
                                 bos=tokenizer.bos_token or tokenizer.cls_token,
-                                fix_len=args.fix_len,
+                                fix_len=fix_len,
                                 tokenize=tokenizer.tokenize)
             FEAT.vocab = tokenizer.get_vocab()
         else:
@@ -117,60 +107,79 @@ class ParserTrainer:
             'unk_index': WORD.unk_index,
             'bos_index': WORD.bos_index,
             'feat_pad_index': FEAT.pad_index,
-            'device': device,
-            'path': base_path
         })
-        model = BiaffineDependencyModel(**args)
-        model.load_pretrained(WORD.embed).to(device)
-        parser_supar = BiaffineDependencyParserSupar(args, model, transform)
+        parser = DependencyParser(
+            n_words=args.n_words,
+            n_feats=args.n_feats,
+            n_rels=args.n_feats,
+            pad_index=args.pad_index,
+            unk_index=args.unk_index,
+            # bos_index=args.bos_index,
+            feat_pad_index=args.feat_pad_index,
+            transform=transform
+        )
+        word_field_embeddings = self.parser.embeddings[0]
+        word_field_embeddings.n_vocab = 1000
+        parser.embeddings = self.parser.embeddings
+        parser.embeddings[0] = word_field_embeddings
+        parser.load_pretrained(WORD.embed).to(device)
 
         ################################################################################################################
         # TRAIN
         ################################################################################################################
         args = Config()
-        args.update({
-            'train': self.corpus.train,
-            'dev': self.corpus.dev,
-            'test': self.corpus.test
-        })
-        parser_supar.transform.train()
-        parser_supar.args.clip = clip
-        parser_supar.args.punct = punct
-        parser_supar.args.tree = tree
-        parser_supar.args.proj = proj
+        parser.transform.train()
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
-        logger.info("Loading the data")
-        train = Dataset(parser_supar.transform, self.corpus.train, **args)
-        dev = Dataset(parser_supar.transform, self.corpus.dev)
-        test = Dataset(parser_supar.transform, self.corpus.test)
+        logger.info('Loading the data')
+        train = Dataset(parser.transform, self.corpus.train, **args)
+        dev = Dataset(parser.transform, self.corpus.dev)
+        test = Dataset(parser.transform, self.corpus.test)
         train.build(batch_size, buckets, True, dist.is_initialized())
         dev.build(batch_size, buckets)
         test.build(batch_size, buckets)
         logger.info(f"\n{'train:':6} {train}\n{'dev:':6} {dev}\n{'test:':6} {test}\n")
-
-        logger.info(f"{parser_supar.model}\n")
+        logger.info(f'{parser}')
         if dist.is_initialized():
-            parser_supar.model = DDP(parser_supar.model,
-                                     device_ids=[dist.get_rank()],
-                                     find_unused_parameters=True)
-        parser_supar.optimizer = Adam(parser_supar.model.parameters(),
-                                      lr,
-                                      (mu, nu),
-                                      epsilon)
-        parser_supar.scheduler = ExponentialLR(parser_supar.optimizer, decay ** (1 / decay_steps))
+            parser = DDP(parser, device_ids=[dist.get_rank()], find_unused_parameters=True)
+
+        optimizer = Adam(parser.parameters(), lr, (mu, nu), epsilon)
+        scheduler = ExponentialLR(optimizer, decay ** (1 / decay_steps))
 
         elapsed = timedelta()
         best_e, best_metric = 1, Metric()
 
         for epoch in range(1, max_epochs + 1):
             start = datetime.now()
+            logger.info(f'Epoch {epoch} / {max_epochs}:')
 
-            logger.info(f"Epoch {epoch} / {max_epochs}:")
-            parser_supar._train(train.loader)
-            loss, dev_metric = parser_supar._evaluate(dev.loader)
+            parser.train()
+
+            loader = train.loader
+            bar, metric = progress_bar(loader), AttachmentMetric()
+            for words, feats, arcs, rels in bar:
+                optimizer.zero_grad()
+
+                mask = words.ne(parser.WORD.pad_index)
+                # ignore the first token of each sentence
+                mask[:, 0] = 0
+                s_arc, s_rel = parser.forward(words, feats)
+                loss = parser.forward_loss(s_arc, s_rel, arcs, rels, mask)
+                loss.backward()
+                nn.utils.clip_grad_norm_(parser.parameters(), clip)
+                optimizer.step()
+                scheduler.step()
+
+                arc_preds, rel_preds = parser.decode(s_arc, s_rel, mask)
+                # ignore all punctuation if not specified
+                if not self.parser.args['punct']:
+                    mask &= words.unsqueeze(-1).ne(parser.puncts).all(-1)
+                metric(arc_preds, rel_preds, arcs, rels, mask)
+                bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
+
+            loss, dev_metric = parser.evaluate(dev.loader)
             logger.info(f"{'dev:':6} - loss: {loss:.4f} - {dev_metric}")
-            loss, test_metric = parser_supar._evaluate(test.loader)
+            loss, test_metric = parser.evaluate(test.loader)
             logger.info(f"{'test:':6} - loss: {loss:.4f} - {test_metric}")
 
             t = datetime.now() - start
@@ -178,16 +187,16 @@ class ParserTrainer:
             if dev_metric > best_metric:
                 best_e, best_metric = epoch, dev_metric
                 if is_master():
-                    parser_supar.save(base_path)
-                logger.info(f"{t}s elapsed (saved)\n")
+                    parser.save(base_path)
+                logger.info(f'{t}s elapsed (saved)\n')
             else:
-                logger.info(f"{t}s elapsed\n")
+                logger.info(f'{t}s elapsed\n')
             elapsed += t
             if epoch - best_e >= patience:
                 break
-        loss, metric = parser_supar.load(base_path)._evaluate(test.loader)
+        loss, metric = parser.load(base_path).evaluate(test.loader)
 
-        logger.info(f"Epoch {best_e} saved")
+        logger.info(f'Epoch {best_e} saved')
         logger.info(f"{'dev:':6} - {best_metric}")
         logger.info(f"{'test:':6} - {metric}")
-        logger.info(f"{elapsed}s elapsed, {elapsed / epoch}s/epoch")
+        logger.info(f'{elapsed}s elapsed, {elapsed / epoch}s/epoch')
