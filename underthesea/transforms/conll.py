@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from collections.abc import Iterable
 import nltk
 from tqdm import tqdm
@@ -503,7 +504,7 @@ class Tree(Transform):
                                                 (NP (_ She))
                                                 (VP (_ enjoys) (S (VP (_ playing) (NP (_ tennis)))))
                                                 (_ .)))
-                                            ''')
+                                            )'''
             >>> print(Tree.binarize(tree))
             (TOP
               (S

@@ -9,12 +9,12 @@ class TestDependencyParse(TestCase):
         actual = dependency_parse(text)
         expected = [
             ('Tối', 5, 'obl:tmod'),
-            ('29/11', 1, 'flat:date'),
-            (',', 1, 'punct'),
+            ('29/11', 1, 'flat:time'),
+            (',', 5, 'punct'),
             ('Việt Nam', 5, 'nsubj'),
             ('thêm', 0, 'root'),
             ('2', 7, 'nummod'),
             ('ca', 5, 'obj'),
-            ('mắc', 7, 'nmod'),
-            ('Covid-19', 8, 'nummod')]
-        self.assertEqual(actual, expected)
+            ('mắc', 7, 'acl:subj'),
+            ('Covid-19', 8, 'obj')]
+        self.assertEqual(expected, actual)
