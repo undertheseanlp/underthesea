@@ -16,10 +16,10 @@ from underthesea.transforms.conll import CoNLL
 from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, SharedDropout, MLP, Biaffine
 from underthesea.modules.bert import BertEmbedding
 from underthesea.utils.sp_alg import eisner, mst
-import underthesea.nn
+import underthesea.modules.nn
 
 
-class DependencyParser(underthesea.nn.Model):
+class DependencyParser(underthesea.modules.nn.Model):
     r"""
     The implementation of Biaffine Dependency Parser.
 
