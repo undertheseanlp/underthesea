@@ -19,7 +19,7 @@ from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_mas
 
 
 class DependencyParserTrainer:
-    def __init__(self, parser, corpus):
+    def     __init__(self, parser, corpus):
         self.parser = parser
         self.corpus = corpus
 
