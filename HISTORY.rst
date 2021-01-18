@@ -5,6 +5,7 @@ History
 Current
 --------------------------------------------------------------------------------
 
+* Update ParserTrainer (GH-392)
 * Add pipeline folder (GH-351)
 
 1.3.1 (2021-01-11)
