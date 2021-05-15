@@ -1,0 +1,7 @@
+version: develop
+year: 2021
+task: corpus
+domain: news
+description: Dictionary of Vietnamese Forks, Proverbs, Idioms
+authors:
+  - Vu Anh <anhv.ict91@gmail.com>
