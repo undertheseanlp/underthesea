@@ -16,6 +16,9 @@ from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
 from underthesea.utils.sp_metric import Metric, AttachmentMetric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
+import wandb
+
+wandb.init(project='vlsp2020-dp', entity='rain1024')
 
 
 class DependencyParserTrainer:
@@ -28,7 +31,7 @@ class DependencyParserTrainer:
         self, base_path: Union[Path, str],
         fix_len=20,
         min_freq=2,
-        buckets=32,
+        buckets=1000,
         batch_size=5000,
         lr=2e-3,
         mu=.9,
@@ -69,6 +72,7 @@ class DependencyParserTrainer:
         args = Config()
         args.feat = self.parser.feat
         args.embed = self.parser.embed
+        args.n_feat_embed = self.parser.n_feat_embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
@@ -76,8 +80,8 @@ class DependencyParserTrainer:
             FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=fix_len)
         elif args.feat == 'bert':
             from transformers import AutoTokenizer
-            tokenizer = AutoTokenizer.from_pretrained(args.bert)
-            args.max_len = min(args.max_len or tokenizer.max_len, tokenizer.max_len)
+            tokenizer = AutoTokenizer.from_pretrained(self.parser.bert)
+            args.max_len = tokenizer.model_max_length
             FEAT = SubwordField('bert',
                                 pad=tokenizer.pad_token,
                                 unk=tokenizer.unk_token,
@@ -99,6 +103,7 @@ class DependencyParserTrainer:
         WORD.build(train, min_freq, (Embedding.load(args.embed, unk) if self.parser.embed else None))
         FEAT.build(train)
         REL.build(train)
+        n_rels = len(REL.vocab)
         args.update({
             'n_words': WORD.vocab.n_init,
             'n_feats': len(FEAT.vocab),
@@ -106,20 +111,23 @@ class DependencyParserTrainer:
             'pad_index': WORD.pad_index,
             'unk_index': WORD.unk_index,
             'bos_index': WORD.bos_index,
-            'feat_pad_index': FEAT.pad_index,
+            'feat_pad_index': FEAT.pad_index
         })
         parser = DependencyParser(
             n_words=args.n_words,
             n_feats=args.n_feats,
-            n_rels=args.n_feats,
+            n_rels=n_rels,
             pad_index=args.pad_index,
             unk_index=args.unk_index,
             # bos_index=args.bos_index,
             feat_pad_index=args.feat_pad_index,
-            transform=transform
+            transform=transform,
+            feat=self.parser.feat,
+            bert=self.parser.bert,
+            n_feat_embed=args.n_feat_embed
         )
         word_field_embeddings = self.parser.embeddings[0]
-        word_field_embeddings.n_vocab = 1000
+        word_field_embeddings.n_vocab = 100
         parser.embeddings = self.parser.embeddings
         parser.embeddings[0] = word_field_embeddings
         parser.load_pretrained(WORD.embed).to(device)
@@ -128,6 +136,7 @@ class DependencyParserTrainer:
         # TRAIN
         ################################################################################################################
         args = Config()
+        wandb.watch(parser)
         parser.transform.train()
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
@@ -177,10 +186,13 @@ class DependencyParserTrainer:
                 metric(arc_preds, rel_preds, arcs, rels, mask)
                 bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
 
-            loss, dev_metric = parser.evaluate(dev.loader)
-            logger.info(f"{'dev:':6} - loss: {loss:.4f} - {dev_metric}")
-            loss, test_metric = parser.evaluate(test.loader)
-            logger.info(f"{'test:':6} - loss: {loss:.4f} - {test_metric}")
+            dev_loss, dev_metric = parser.evaluate(dev.loader)
+            logger.info(f"{'dev:':6} - loss: {dev_loss:.4f} - {dev_metric}")
+            test_loss, test_metric = parser.evaluate(test.loader)
+            logger.info(f"{'test:':6} - loss: {test_loss:.4f} - {test_metric}")
+            wandb.log({"test_loss": test_loss})
+            wandb.log({"test_metric_uas": test_metric.uas})
+            wandb.log({"test_metric_las": test_metric.las})
 
             t = datetime.now() - start
             # save the model if it is the best so far

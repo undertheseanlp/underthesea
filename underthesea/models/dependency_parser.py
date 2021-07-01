@@ -40,8 +40,8 @@ class DependencyParser(underthesea.modules.nn.Model):
         n_feats=None,
         n_rels=None,
         feat='char',
-        n_embed=50,
-        n_feat_embed=100,
+        n_embed=200,
+        n_feat_embed=300,
         n_char_embed=50,
         bert=None,
         n_bert_layers=4,
@@ -54,7 +54,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         n_lstm_hidden=400,
         n_lstm_layers=3,
         lstm_dropout=.33,
-        n_mlp_arc=500,
+        n_mlp_arc=200,
         n_mlp_rel=100,
         mlp_dropout=.33,
         feat_pad_index=0,
@@ -64,6 +64,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         super(DependencyParser, self).__init__()
         self.embed = embed
         self.feat = feat
+        self.bert = bert
         self.embeddings = embeddings
         if len(self.embeddings) > 0:
             print(self.embeddings[0])
@@ -80,6 +81,7 @@ class DependencyParser(underthesea.modules.nn.Model):
             'punct': False
         }
 
+        self.n_feat_embed = n_feat_embed
         if init_pre_train:
             return
 
@@ -141,6 +143,7 @@ class DependencyParser(underthesea.modules.nn.Model):
 
         self.transform = transform
         feat = self.feat
+
         if feat in ('char', 'bert'):
             self.WORD, self.FEAT = self.transform.FORM
         else:
