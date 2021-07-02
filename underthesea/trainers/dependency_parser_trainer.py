@@ -16,9 +16,6 @@ from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
 from underthesea.utils.sp_metric import Metric, AttachmentMetric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
-import wandb
-
-wandb.init(project='vlsp2020-dp', entity='rain1024')
 
 
 class DependencyParserTrainer:
@@ -41,7 +38,8 @@ class DependencyParserTrainer:
         decay=.75,
         decay_steps=5000,
         patience=100,
-        max_epochs=10
+        max_epochs=10,
+        wandb=None
     ):
         r"""
         Train any class that implement model interface
@@ -69,19 +67,16 @@ class DependencyParserTrainer:
         ################################################################################################################
         # BUILD
         ################################################################################################################
-        args = Config()
-        args.feat = self.parser.feat
-        args.embed = self.parser.embed
-        args.n_feat_embed = self.parser.n_feat_embed
+        feat = self.parser.feat
+        embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
-        if args.feat == 'char':
+        if feat == 'char':
             FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=fix_len)
-        elif args.feat == 'bert':
+        elif feat == 'bert':
             from transformers import AutoTokenizer
             tokenizer = AutoTokenizer.from_pretrained(self.parser.bert)
-            args.max_len = tokenizer.model_max_length
             FEAT = SubwordField('bert',
                                 pad=tokenizer.pad_token,
                                 unk=tokenizer.unk_token,
@@ -94,37 +89,31 @@ class DependencyParserTrainer:
 
         ARC = Field('arcs', bos=bos, use_vocab=False, fn=CoNLL.get_arcs)
         REL = Field('rels', bos=bos)
-        if args.feat in ('char', 'bert'):
+        if feat in ('char', 'bert'):
             transform = CoNLL(FORM=(WORD, FEAT), HEAD=ARC, DEPREL=REL)
         else:
             transform = CoNLL(FORM=WORD, CPOS=FEAT, HEAD=ARC, DEPREL=REL)
 
         train = Dataset(transform, self.corpus.train)
-        WORD.build(train, min_freq, (Embedding.load(args.embed, unk) if self.parser.embed else None))
+        WORD.build(train, min_freq, (Embedding.load(embed, unk) if self.parser.embed else None))
         FEAT.build(train)
         REL.build(train)
+        n_words = WORD.vocab.n_init
+        n_feats = len(FEAT.vocab)
         n_rels = len(REL.vocab)
-        args.update({
-            'n_words': WORD.vocab.n_init,
-            'n_feats': len(FEAT.vocab),
-            'n_rels': len(REL.vocab),
-            'pad_index': WORD.pad_index,
-            'unk_index': WORD.unk_index,
-            'bos_index': WORD.bos_index,
-            'feat_pad_index': FEAT.pad_index
-        })
+        pad_index = WORD.pad_index
+        unk_index = WORD.unk_index
+        feat_pad_index = FEAT.pad_index
         parser = DependencyParser(
-            n_words=args.n_words,
-            n_feats=args.n_feats,
+            n_words=n_words,
+            n_feats=n_feats,
             n_rels=n_rels,
-            pad_index=args.pad_index,
-            unk_index=args.unk_index,
-            # bos_index=args.bos_index,
-            feat_pad_index=args.feat_pad_index,
+            pad_index=pad_index,
+            unk_index=unk_index,
+            feat_pad_index=feat_pad_index,
             transform=transform,
             feat=self.parser.feat,
-            bert=self.parser.bert,
-            n_feat_embed=args.n_feat_embed
+            bert=self.parser.bert
         )
         word_field_embeddings = self.parser.embeddings[0]
         word_field_embeddings.n_vocab = 100
@@ -135,13 +124,13 @@ class DependencyParserTrainer:
         ################################################################################################################
         # TRAIN
         ################################################################################################################
-        args = Config()
-        wandb.watch(parser)
+        if wandb:
+            wandb.watch(parser)
         parser.transform.train()
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
         logger.info('Loading the data')
-        train = Dataset(parser.transform, self.corpus.train, **args)
+        train = Dataset(parser.transform, self.corpus.train)
         dev = Dataset(parser.transform, self.corpus.dev)
         test = Dataset(parser.transform, self.corpus.test)
         train.build(batch_size, buckets, True, dist.is_initialized())
@@ -190,9 +179,10 @@ class DependencyParserTrainer:
             logger.info(f"{'dev:':6} - loss: {dev_loss:.4f} - {dev_metric}")
             test_loss, test_metric = parser.evaluate(test.loader)
             logger.info(f"{'test:':6} - loss: {test_loss:.4f} - {test_metric}")
-            wandb.log({"test_loss": test_loss})
-            wandb.log({"test_metric_uas": test_metric.uas})
-            wandb.log({"test_metric_las": test_metric.las})
+            if wandb:
+                wandb.log({"test_loss": test_loss})
+                wandb.log({"test_metric_uas": test_metric.uas})
+                wandb.log({"test_metric_las": test_metric.las})
 
             t = datetime.now() - start
             # save the model if it is the best so far

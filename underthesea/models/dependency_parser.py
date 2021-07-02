@@ -1,4 +1,4 @@
-# # Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dependency.py
+# # Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dep.py
 # -*- coding: utf-8 -*-
 import os
 from datetime import datetime
@@ -81,7 +81,6 @@ class DependencyParser(underthesea.modules.nn.Model):
             'punct': False
         }
 
-        self.n_feat_embed = n_feat_embed
         if init_pre_train:
             return
 
@@ -268,7 +267,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         model = DependencyParser(
             n_words=args['n_words'],
             n_feats=args['n_feats'],
-            n_rels=args['n_feats'],
+            n_rels=args['n_rels'],
             pad_index=args['pad_index'],
             unk_index=args['unk_index'],
             # bos_index=args.bos_index,
