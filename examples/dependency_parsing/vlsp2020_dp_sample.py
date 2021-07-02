@@ -1,6 +1,4 @@
-import time
 from os.path import join
-
 from underthesea.datasets.vlsp2020_dp import VLSP2020_DP_SAMPLE
 from underthesea.file_utils import MODELS_FOLDER
 from underthesea.models.dependency_parser import DependencyParser
