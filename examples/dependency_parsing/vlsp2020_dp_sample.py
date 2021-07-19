@@ -2,7 +2,7 @@ from os.path import join
 from underthesea.datasets.vlsp2020_dp import VLSP2020_DP_SAMPLE
 from underthesea.file_utils import MODELS_FOLDER
 from underthesea.models.dependency_parser import DependencyParser
-from underthesea.modules.embeddings import FieldEmbeddings, CharacterEmbeddings, WordEmbeddings
+from underthesea.modules.embeddings import FieldEmbeddings, CharacterEmbeddings
 from underthesea.trainers.dependency_parser_trainer import DependencyParserTrainer
 
 corpus = VLSP2020_DP_SAMPLE()
