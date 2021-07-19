@@ -1,4 +1,4 @@
-# # Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dep.py
+# Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dep.py
 # -*- coding: utf-8 -*-
 import os
 from datetime import datetime
@@ -270,7 +270,6 @@ class DependencyParser(underthesea.modules.nn.Model):
             n_rels=args['n_rels'],
             pad_index=args['pad_index'],
             unk_index=args['unk_index'],
-            # bos_index=args.bos_index,
             feat_pad_index=args['feat_pad_index'],
             transform=transform,
             embeddings=embeddings

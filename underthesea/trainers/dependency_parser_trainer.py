@@ -10,7 +10,6 @@ from underthesea.transforms.conll import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
-from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
@@ -115,10 +114,10 @@ class DependencyParserTrainer:
             feat=self.parser.feat,
             bert=self.parser.bert
         )
-        word_field_embeddings = self.parser.embeddings[0]
-        word_field_embeddings.n_vocab = 100
+        # word_field_embeddings = self.parser.embeddings[0]
+        # word_field_embeddings.n_vocab = 100
         parser.embeddings = self.parser.embeddings
-        parser.embeddings[0] = word_field_embeddings
+        # parser.embeddings[0] = word_field_embeddings
         parser.load_pretrained(WORD.embed).to(device)
 
         ################################################################################################################
@@ -153,8 +152,8 @@ class DependencyParserTrainer:
 
             parser.train()
 
-            loader = train.loader
-            bar, metric = progress_bar(loader), AttachmentMetric()
+            bar = progress_bar(train.loader)
+            metric = AttachmentMetric()
             for words, feats, arcs, rels in bar:
                 optimizer.zero_grad()
 
