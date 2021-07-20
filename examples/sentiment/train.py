@@ -26,9 +26,8 @@ class ABSentimentData(str):
         tones = []
         for i in range(1, len(lines), 4):
             sentence = lines[i].replace("\n", "")
-            label_pattern = r"([\w#&]+)"  # keep aspect like DESIGN&FEATURES together
-            labels = re.findall(label_pattern,
-                                lines[i + 1].replace("\n", ""))  # array of 'ASPECT#SUBASPECT', 'tone',... for sentence
+            label_pattern = r"([\w#&]+)"  # keep joint aspects together ie. DESIGN&FEATURES
+            labels = re.findall(label_pattern, lines[i + 1].replace("\n", ""))  # array of 'ASPECT#SUBASPECT', 'tone',... for sentence
 
             aspect = []
             subaspect = []
@@ -37,21 +36,29 @@ class ABSentimentData(str):
                 aspect.append(labels[j].split("#")[0])
                 subaspect.append(labels[j].split("#")[1])
                 tone.append(labels[j + 1])
+                assert labels[j + 1] in ['positive', 'negative', 'neutral'], "Unexpected tone format:\n{}".format(labels[j + 1])
+
             aspects.append(aspect)
             subaspects.append(subaspect)
             tones.append(tone)
             sentences.append(sentence)
 
         assert len(sentences) == len(aspects) == len(subaspects) == len(tones), \
-            "Mismatched data while splitting:\n{0}, {1}, {2}, {3}".format(len(sentences), len(aspects), len(subaspects),
-                                                                          len(tones))
+            "Mismatched data while splitting:\n{0}, {1}, {2}, {3}".format(len(sentences), len(aspects), len(subaspects), len(tones))
 
         self.sentences = sentences
         self.aspects = aspects
         self.subaspects = subaspects
         self.tones = tones
 
-        print(self.sentences[1], self.aspects[1], self.subaspects[1], self.tones[1])
+    def __getitem__(self, index):
+        datum = {}
+        datum['sentence'] = self.sentences[index]
+        datum['aspects'] = self.aspects[index]
+        datum['subaspects'] = self.subaspects[index]
+        datum['tone'] = self.tones[index]
+        return datum
+
 
 
 class Tokenizer(object):
@@ -60,4 +67,5 @@ class Tokenizer(object):
         self.max_seq_len = max_seq_len
 
 
-ABSentimentData(fnames[0])
+a = ABSentimentData(fnames[0])
+print(a[30])
