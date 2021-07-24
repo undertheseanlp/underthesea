@@ -5,13 +5,18 @@ from torch.nn import functional as F
 import torch.nn as nn
 
 
+class VLSP2016NERDataModule(pl.LightningDataModule):
+    def __init__(self):
+        super().__init__()
+
+
 class SequenceTokenClassifier(pl.LightningModule):
 
     def __init__(self):
         super().__init__()
         self.lstm = nn.LSTM(3, 3)
 
-    def train_dataloader(self) -> DataLoader:
+    def dataloader(self):
         pass
 
     def training_step(self, batch, batch_idx):
@@ -32,6 +37,7 @@ if __name__ == '__main__':
     model = SequenceTokenClassifier()
 
     trainer = pl.Trainer(gpus=1)
-    trainer.fit(model=model, train_dataloader=train_loader, val_dataloaders=val_loader)
+    vlsp2016_ner = VLSP2016NERDataModule()
+    trainer.fit(model=model, datamodule=vlsp2016_ner)
 
     result = trainer.test(test_dataloaders=test_loader)
