@@ -24,7 +24,6 @@ from transformers import (
 from transformers.trainer_utils import is_main_process
 from utils_ner import Split, TokenClassificationDataset, TokenClassificationTask
 
-
 logger = logging.getLogger(__name__)
 
 
@@ -72,14 +71,14 @@ class DataTrainingArguments:
         default=128,
         metadata={
             "help": "The maximum total input sequence length after tokenization. Sequences longer "
-            "than this will be truncated, sequences shorter will be padded."
+                    "than this will be truncated, sequences shorter will be padded."
         },
     )
     overwrite_cache: bool = field(
         default=False, metadata={"help": "Overwrite the cached training and evaluation sets"}
     )
 
-
+# flake8: noqa: C901
 def main():
     # See all possible arguments in src/transformers/training_args.py
     # or by passing the --help flag to this script.

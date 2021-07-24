@@ -54,6 +54,7 @@ class TokenClassificationTask:
     def get_labels(path: str) -> List[str]:
         raise NotImplementedError
 
+    # flake8: noqa: C901
     @staticmethod
     def convert_examples_to_features(
         examples: List[InputExample],
@@ -188,7 +189,6 @@ if is_torch_available():
     from torch import nn
     from torch.utils.data.dataset import Dataset
 
-
     class TokenClassificationDataset(Dataset):
         """
         This will be superseded by a framework-agnostic approach
@@ -258,7 +258,6 @@ if is_torch_available():
 
 if is_tf_available():
     import tensorflow as tf
-
 
     class TFTokenClassificationDataset:
         """
