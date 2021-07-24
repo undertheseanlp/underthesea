@@ -1,0 +1,5 @@
+pandas==1.2.4
+vncorenlp==1.0.3
+torch==1.8.1
+seqeval==1.2.2
+numpy==1.19.5
