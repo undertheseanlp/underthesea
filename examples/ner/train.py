@@ -1,5 +1,4 @@
 import torch
-from torch.utils.data import DataLoader
 import pytorch_lightning as pl
 from torch.nn import functional as F
 import torch.nn as nn
