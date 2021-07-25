@@ -1,71 +1,37 @@
-# Txt format:
-# #1
-# Mà không biết phải nhân viên cũ hay mới nữa nhưng cảm giác thân thiện hơn.
-# {SERVICE#GENERAL, positive}
-#
-# #2
-# Nay đi uống mới biết giá thành hơi cao nhưng thật sự đi đôi với chất lượng.
-# {RESTAURANT#PRICES, negative}, {RESTAURANT#GENERAL, positive}
-#
-
-import re
-
-fnames = ["/Users/taidnguyen/Desktop/Sentence-level-Restaurant/Dev.txt",
-          "/Users/taidnguyen/Desktop/Sentence-level-Hotel/Dev_Hotel.txt"]
+import torch
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
+from tqdm import tqdm
+import argparse
+from preprocessing import ABSentimentData, Tokenizer4Bert
 
 
-class ABSentimentData(str):
-    def __init__(self, fname):
-        fin = open(fname, mode="r", encoding="utf-8", errors="ignore")
-        lines = fin.readlines()
-        fin.close()
+fnames = dict(
+    restaurant=dict(
+        train="/Users/taidnguyen/Desktop/Sentence-level-Restaurant/Train.txt",
+        test="/Users/taidnguyen/Desktop/Sentence-level-Restaurant/Test.txt",
+        dev="/Users/taidnguyen/Desktop/Sentence-level-Restaurant/Dev.txt"
+    ),
+    hotel=dict(
+        train="/Users/taidnguyen/Desktop/Sentence-level-Hotel/Train_Hotel.txt",
+        test="/Users/taidnguyen/Desktop/Sentence-level-Hotel/Test_Hotel.txt",
+        dev="/Users/taidnguyen/Desktop/Sentence-level-Hotel/Dev_Hotel.txt"
+    )
+)
 
-        sentences = []
-        aspects = []
-        subaspects = []
-        tones = []
-        for i in range(1, len(lines), 4):
-            sentence = lines[i].replace("\n", "")
-            label_pattern = r"([\w#&]+)"  # keep joint aspects together ie. DESIGN&FEATURES
-            labels = re.findall(label_pattern, lines[i + 1].replace("\n", ""))  # array of 'ASPECT#SUBASPECT', 'tone',... for sentence
-
-            aspect = []
-            subaspect = []
-            tone = []
-            for j in range(0, len(labels), 2):
-                aspect.append(labels[j].split("#")[0])
-                subaspect.append(labels[j].split("#")[1])
-                tone.append(labels[j + 1])
-                assert labels[j + 1] in ['positive', 'negative', 'neutral'], "Unexpected tone format:\n{}".format(labels[j + 1])
-
-            aspects.append(aspect)
-            subaspects.append(subaspect)
-            tones.append(tone)
-            sentences.append(sentence)
-
-        assert len(sentences) == len(aspects) == len(subaspects) == len(tones), \
-            "Mismatched data while splitting:\n{0}, {1}, {2}, {3}".format(len(sentences), len(aspects), len(subaspects), len(tones))
-
-        self.sentences = sentences
-        self.aspects = aspects
-        self.subaspects = subaspects
-        self.tones = tones
-
-    def __getitem__(self, index):
-        datum = {}
-        datum['sentence'] = self.sentences[index]
-        datum['aspects'] = self.aspects[index]
-        datum['subaspects'] = self.subaspects[index]
-        datum['tone'] = self.tones[index]
-        return datum
+# args
+parser = argparse.ArgumentParser(description="Process some steps")
+parser.add_argument("--train_path", type=str, default=fnames['restaurant']['test'])
+parser.add_argument("--pretrained_bert_name", type=str, default="vinai/phobert-base")
+parser.add_argument("--max_sequence_len", type=int, default=256)
+parser.add_argument("--epochs", type=int, default=5)
+parser.add_argument("--seed", type=int, default=69)
+args = parser.parse_args()
 
 
-
-class Tokenizer(object):
-    def __init__(self, max_seq_len, lower=True):
-        self.lower = lower
-        self.max_seq_len = max_seq_len
-
-
-a = ABSentimentData(fnames[0])
-print(a[30])
+# load
+data = ABSentimentData(args.train_path)
+tokens = Tokenizer4Bert(args.max_sequence_len, args.pretrained_bert_name, data.sentences)
+y = data.tones
+X_train = tokens.get_features()
+print(tokens)
+print(X_train[0])
