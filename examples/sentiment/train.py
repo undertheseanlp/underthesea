@@ -1,9 +1,11 @@
 import torch
-from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score, roc_auc_score
-from tqdm import tqdm
+from torch.utils.data import TensorDataset, DataLoader
 import argparse
-from preprocessing import ABSentimentData, Tokenizer4Bert
-
+from tqdm import tqdm
+from sklearn.svm import SVC
+from sklearn.model_selection import StratifiedKFold
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+from preprocessing import *
 
 fnames = dict(
     restaurant=dict(
@@ -18,20 +20,33 @@ fnames = dict(
     )
 )
 
-# args
-parser = argparse.ArgumentParser(description="Process some steps")
-parser.add_argument("--train_path", type=str, default=fnames['restaurant']['test'])
-parser.add_argument("--pretrained_bert_name", type=str, default="vinai/phobert-base")
-parser.add_argument("--max_sequence_len", type=int, default=256)
-parser.add_argument("--epochs", type=int, default=5)
-parser.add_argument("--seed", type=int, default=69)
-args = parser.parse_args()
+
+def main():
+    entity = "restaurant"
+
+    # Args
+    parser = argparse.ArgumentParser(description="Process some steps")
+    parser.add_argument("--dev_path", type=str, default=fnames[entity]["dev"])
+    parser.add_argument("--train_path", type=str, default=fnames[entity]["train"])
+    parser.add_argument("--test_path", type=str, default=fnames[entity]["test"])
+    parser.add_argument("--pretrained_bert_name", type=str, default="vinai/phobert-base")
+    parser.add_argument("--max_sequence_len", type=int, default=256)
+    parser.add_argument("--epochs", type=int, default=5)
+    parser.add_argument("--seed", type=int, default=69)
+    args = parser.parse_args()
+
+    seed_everything(args.seed)
+
+    # Load train
+    train_raw = RawDataParser(args.train_path)
+    tokenizer = Tokenizer4Bert(args.max_sequence_len, args.pretrained_bert_name)
 
 
-# load
-data = ABSentimentData(args.train_path)
-tokens = Tokenizer4Bert(args.max_sequence_len, args.pretrained_bert_name, data.sentences)
-y = data.tones
-X_train = tokens.get_features()
-print(tokens)
-print(X_train[0])
+if __name__ == '__main__':
+    main()
+
+
+
+
+
+
