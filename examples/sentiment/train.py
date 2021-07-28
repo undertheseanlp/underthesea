@@ -22,7 +22,7 @@ fnames = dict(
 
 
 def main():
-    entity = "restaurant"
+    entity = "hotel"
 
     # Args
     parser = argparse.ArgumentParser(description="Process some steps")
@@ -36,10 +36,15 @@ def main():
     args = parser.parse_args()
 
     seed_everything(args.seed)
-
-    # Load train
-    train_raw = RawDataParser(args.train_path)
     tokenizer = Tokenizer4Bert(args.max_sequence_len, args.pretrained_bert_name)
+
+    # Train
+    train = ABSADataset(args.dev_path, tokenizer)
+    train_X, train_y = train.sentence_input_ids, train.aspect_input_ids
+    # print(torch.tensor(train_X, dtype=torch.long))
+    # print(torch.tensor(train_X, dtype=torch.long).shape)
+    # print(torch.tensor(train_y, dtype=torch.long))
+    # print(torch.tensor(train_y, dtype=torch.long).shape)
 
 
 if __name__ == '__main__':
