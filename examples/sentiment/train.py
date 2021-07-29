@@ -41,17 +41,10 @@ def main():
     # Train
     train = ABSADataset(args.dev_path, tokenizer)
     train_X, train_y = train.sentence_input_ids, train.aspect_input_ids
-    # print(torch.tensor(train_X, dtype=torch.long))
-    # print(torch.tensor(train_X, dtype=torch.long).shape)
-    # print(torch.tensor(train_y, dtype=torch.long))
-    # print(torch.tensor(train_y, dtype=torch.long).shape)
+    attention_mask = torch.tensor(train.attention_masks)
+    train_dataset = TensorDataset(torch.tensor(train_X, dtype=torch.long), torch.tensor(train_y, dtype=torch.long))
+    print(train_dataset)
 
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
