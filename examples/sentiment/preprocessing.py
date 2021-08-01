@@ -18,7 +18,7 @@ from transformers import AutoTokenizer, AutoModel
 aspect2ids = {
     'restaurant': {'SERVICE#GENERAL': 0, 'RESTAURANT#PRICES': 1, 'RESTAURANT#GENERAL': 2, 'FOOD#STYLE&OPTIONS': 3,
                    'FOOD#QUALITY': 4, 'AMBIENCE#GENERAL': 5, 'RESTAURANT#MISCELLANEOUS': 6, 'LOCATION#GENERAL': 7,
-                   'DRINKS#QUALITY': 8, 'FOOD#PRICES': 9, 'DRINKS#PRICES': 10, 'DRINKS#STYLE&OPTIONS': 11},
+                   'DRINKS#QUALITY': 8, 'FOOD#PRICES': 9, 'DRINKS#PRICES': 10, 'DRINKS#STYLE&OPTIONS': 11, 'OTHER_ASPECTS': 12},
     'hotel': {'ROOMS#DESIGN&FEATURES': 0, 'ROOMS#CLEANLINESS': 1, 'FOOD&DRINKS#STYLE&OPTIONS': 2, 'LOCATION#GENERAL': 3,
               'SERVICE#GENERAL': 4, 'ROOMS#QUALITY': 5, 'FOOD&DRINKS#QUALITY': 6, 'HOTEL#GENERAL': 7, 'ROOMS#PRICES': 8,
               'ROOM_AMENITIES#GENERAL': 9, 'ROOMS#COMFORT': 10, 'FACILITIES#GENERAL': 11,
@@ -28,12 +28,12 @@ aspect2ids = {
               'ROOM_AMENITIES#MISCELLANEOUS': 22, 'ROOM_AMENITIES#CLEANLINESS': 23, 'FACILITIES#QUALITY': 24,
               'FACILITIES#DESIGN&FEATURES': 25, 'FOOD&DRINKS#MISCELLANEOUS': 26, 'FACILITIES#CLEANLINESS': 27,
               'FACILITIES#COMFORT': 28, 'FACILITIES#MISCELLANEOUS': 29, 'FOOD&DRINKS#PRICES': 30,
-              'FACILITIES#PRICES': 31, 'ROOMS#MISCELLANEOUS': 32}
+              'FACILITIES#PRICES': 31, 'ROOMS#MISCELLANEOUS': 32, 'OTHER_ASPECTS': 33}
 }
 id2aspects = {
     'restaurant': {0: 'SERVICE#GENERAL', 1: 'RESTAURANT#PRICES', 2: 'RESTAURANT#GENERAL', 3: 'FOOD#STYLE&OPTIONS',
                    4: 'FOOD#QUALITY', 5: 'AMBIENCE#GENERAL', 6: 'RESTAURANT#MISCELLANEOUS', 7: 'LOCATION#GENERAL',
-                   8: 'DRINKS#QUALITY', 9: 'FOOD#PRICES', 10: 'DRINKS#PRICES', 11: 'DRINKS#STYLE&OPTIONS'},
+                   8: 'DRINKS#QUALITY', 9: 'FOOD#PRICES', 10: 'DRINKS#PRICES', 11: 'DRINKS#STYLE&OPTIONS', 12: 'OTHER_ASPECTS'},
     'hotel': {0: 'ROOMS#DESIGN&FEATURES', 1: 'ROOMS#CLEANLINESS', 2: 'FOOD&DRINKS#STYLE&OPTIONS', 3: 'LOCATION#GENERAL',
               4: 'SERVICE#GENERAL', 5: 'ROOMS#QUALITY', 6: 'FOOD&DRINKS#QUALITY', 7: 'HOTEL#GENERAL', 8: 'ROOMS#PRICES',
               9: 'ROOM_AMENITIES#GENERAL', 10: 'ROOMS#COMFORT', 11: 'FACILITIES#GENERAL',
@@ -43,7 +43,7 @@ id2aspects = {
               22: 'ROOM_AMENITIES#MISCELLANEOUS', 23: 'ROOM_AMENITIES#CLEANLINESS', 24: 'FACILITIES#QUALITY',
               25: 'FACILITIES#DESIGN&FEATURES', 26: 'FOOD&DRINKS#MISCELLANEOUS', 27: 'FACILITIES#CLEANLINESS',
               28: 'FACILITIES#COMFORT', 29: 'FACILITIES#MISCELLANEOUS', 30: 'FOOD&DRINKS#PRICES',
-              31: 'FACILITIES#PRICES', 32: 'ROOMS#MISCELLANEOUS'}
+              31: 'FACILITIES#PRICES', 32: 'ROOMS#MISCELLANEOUS', 33: 'OTHER_ASPECTS'}
 }
 polarity2id = {"positive": 0, "negative": 1, "neutral": 2}
 id2polarity = {0: "positive", 1: "negative", 2: "neutral"}
@@ -52,8 +52,8 @@ id2polarity = {0: "positive", 1: "negative", 2: "neutral"}
 def seed_everything(SEED):
     np.random.seed(SEED)
     torch.manual_seed(SEED)
-    torch.cuda.manual_seed(SEED)
-    torch.backends.cudnn.deterministic = True
+    # torch.cuda.manual_seed(SEED)
+    # torch.backends.cudnn.deterministic = True
 
 
 # def pad_and_truncate(sequence, max_len=256, dtype="int64", eos_id=2):
@@ -103,6 +103,7 @@ class ABSADataset:
 
         self.sentences = []
         self.aspects = []
+        self.unique_asp_lists = []
         self.polarities = []
         self.sentence_input_ids = []
         self.polarity_input_ids = []
@@ -118,7 +119,8 @@ class ABSADataset:
             for j in range(0, len(labels), 2):
                 aspect.append(labels[j])
                 polarity.append(labels[j + 1])
-
+            if aspect not in self.unique_asp_lists:
+                self.unique_asp_lists.append(aspect)
             sentence = lines[i].replace("\n", "").replace(".", "")
             word_segmented = word_tokenize(sentence, "text")  # PhoBert requires word_segmented text
             sentence_input_id, attention_mask = tokenizer.text_to_sequence_and_mask(word_segmented)
@@ -126,7 +128,7 @@ class ABSADataset:
             polarity_input_id = np.zeros(len(polarity2id))
             polarity_input_id[[polarity2id[x] for x in polarity]] = 1
             aspect_input_id = np.zeros(len(aspect2id))
-            aspect_input_id[[aspect2id[x] for x in aspect]] = 1
+            aspect_input_id[[aspect2id[x] if x in aspect2id.keys() else aspect2id["OTHER_ASPECTS"] for x in aspect]] = 1
 
             self.sentences.append(sentence)
             self.aspects.append(aspect)
