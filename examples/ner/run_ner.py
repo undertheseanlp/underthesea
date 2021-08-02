@@ -302,5 +302,14 @@ def _mp_fn(index):
     main()
 
 
+def clean_environment():
+    folder = 'phobert-ner'
+    try:
+        shutil.rmtree(folder)
+    except:
+        pass
+
+
 if __name__ == "__main__":
+    clean_environment()
     main()
