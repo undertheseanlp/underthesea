@@ -1,4 +1,4 @@
-# Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dep.py
+# # Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dependency.py
 # -*- coding: utf-8 -*-
 import os
 from datetime import datetime
@@ -40,8 +40,8 @@ class DependencyParser(underthesea.modules.nn.Model):
         n_feats=None,
         n_rels=None,
         feat='char',
-        n_embed=200,
-        n_feat_embed=300,
+        n_embed=50,
+        n_feat_embed=100,
         n_char_embed=50,
         bert=None,
         n_bert_layers=4,
@@ -54,7 +54,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         n_lstm_hidden=400,
         n_lstm_layers=3,
         lstm_dropout=.33,
-        n_mlp_arc=200,
+        n_mlp_arc=500,
         n_mlp_rel=100,
         mlp_dropout=.33,
         feat_pad_index=0,
@@ -64,7 +64,6 @@ class DependencyParser(underthesea.modules.nn.Model):
         super(DependencyParser, self).__init__()
         self.embed = embed
         self.feat = feat
-        self.bert = bert
         self.embeddings = embeddings
         if len(self.embeddings) > 0:
             print(self.embeddings[0])
@@ -142,7 +141,6 @@ class DependencyParser(underthesea.modules.nn.Model):
 
         self.transform = transform
         feat = self.feat
-
         if feat in ('char', 'bert'):
             self.WORD, self.FEAT = self.transform.FORM
         else:
@@ -267,9 +265,10 @@ class DependencyParser(underthesea.modules.nn.Model):
         model = DependencyParser(
             n_words=args['n_words'],
             n_feats=args['n_feats'],
-            n_rels=args['n_rels'],
+            n_rels=args['n_feats'],
             pad_index=args['pad_index'],
             unk_index=args['unk_index'],
+            # bos_index=args.bos_index,
             feat_pad_index=args['feat_pad_index'],
             transform=transform,
             embeddings=embeddings
