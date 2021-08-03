@@ -27,10 +27,6 @@ class CharacterEmbeddings(torch.nn.Module):
     def fit(self, sentences):
         pass
 
-    def __repr__(self):
-        s = f"{self.__class__.__name__}()"
-        return s
-
 
 class FieldEmbeddings:
     def __init__(self):

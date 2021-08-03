@@ -54,7 +54,7 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
         return DataLoader(self.dataset, batch_size=2, shuffle=True, num_workers=2)
 
 
-class DEHClassification(pl.LightningModule):
+class GPT2TextClassification(pl.LightningModule):
     def __init__(self, gpt2):
         super().__init__()
         self.gpt2 = gpt2
@@ -93,7 +93,7 @@ if __name__ == '__main__':
     gpt2.resize_token_embeddings(len(tokenizer))
     gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
-    model = DEHClassification(gpt2)
+    model = GPT2TextClassification(gpt2)
     dataset = MultiLabelClassificationDataset(tokenizer=tokenizer)
     data = MultiLabelClassificationDatamodule(dataset)
     logger = WandbLogger(project='draft-sentiment-2')
