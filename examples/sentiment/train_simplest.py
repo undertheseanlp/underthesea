@@ -35,17 +35,17 @@ class MyModel(pl.LightningModule):
         loss = 0
         if labels is not None:
             loss = self.criterion(outputs, labels)
-            self.log('mse_loss', loss)
         return loss, outputs
 
     def train_dataloader(self):
         dataset = SimpleDataset()
-        return DataLoader(dataset, batch_size=1000, num_workers=12)
+        return DataLoader(dataset, batch_size=1000)
 
     def training_step(self, batch, batch_idx):
         input_ids = batch["X"]
         labels = batch["y"]
         loss, outputs = self(input_ids, labels)
+        self.log('mse_loss', loss)
         return {"loss": loss}
 
     def configure_optimizers(self):
