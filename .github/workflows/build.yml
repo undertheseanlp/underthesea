@@ -2,7 +2,7 @@ on: [ push ]
 
 jobs:
   tests:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Set up Python 3.6
         uses: actions/setup-python@v2
