@@ -5,6 +5,7 @@ History
 Current
 --------------------------------------------------------------------------------
 
+* Publish two ABSA open datasets (GH-417)
 * Migrate from travis-ci to github actions (GH-410)
 * Update ParserTrainer (GH-392)
 * Add pipeline folder (GH-351)
