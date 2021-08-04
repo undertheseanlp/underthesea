@@ -13,4 +13,4 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest tox
       - name: Lint with falke8
-        run: flake8 --max-complexity 10 --ignore E501,W504,W605 .
+        run: flake8 .  --max-complexity 10 --ignore E501,W504,W605
