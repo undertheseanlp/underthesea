@@ -18,6 +18,7 @@ install_requires = [
     'unidecode',
     'seqeval',
     'PyYAML',
+    'chardet',
     'torch>=1.1.0,<=1.5.1',
     'transformers>=3.5.0,<=3.5.1'
 ]
