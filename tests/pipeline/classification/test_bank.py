@@ -16,6 +16,7 @@ class TestBankClassify(TestCase):
         expected = ['INTEREST_RATE', 'MONEY_TRANSFER']
         self.assertEqual(expected, actual)
 
+
     def test_classify_simple_case_3(self):
         text = u"Lãi suất từ BIDV rất ưu đãi"
         actual = classify(text, domain='bank')
