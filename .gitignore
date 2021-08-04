@@ -69,3 +69,4 @@ target/
 *.correct
 .fuse_hidden*
 /underthesea/pipeline/classification/fasttext.model
+wandb

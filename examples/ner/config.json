@@ -1,0 +1,14 @@
+{
+    "data_dir": "bert-ner/data",
+    "model_name_or_path": "vinai/phobert-base",
+    "output_dir": "phobert-ner",
+    "max_seq_length": 256,
+    "num_train_epochs": 5,
+    "per_device_train_batch_size": 16,
+    "save_steps": 750,
+    "seed": 1,
+    "do_train": true,
+    "do_eval": true,
+    "do_predict": true,
+    "overwrite_output_dir": true
+}

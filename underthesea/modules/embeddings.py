@@ -43,3 +43,25 @@ class FieldEmbeddings:
     def __repr__(self):
         s = f"{self.__class__.__name__}(n_vocab={self._n_vocab})"
         return s
+
+
+class TokenEmbeddings(torch.nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.n_words = None
+        self.pad_index = None
+
+    def build(self, sentences):
+        pass
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}({self.n_words})"
+
+
+class StackEmbeddings(torch.nn.Module):
+    def __init__(self, embeddings=[]):
+        super().__init__()
+        self.embeddings = embeddings
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}()"

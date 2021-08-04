@@ -10,7 +10,6 @@ from underthesea.transforms.conll import CoNLL, progress_bar
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.utils import device, logger
 from underthesea.utils.sp_common import pad, unk, bos
-from underthesea.utils.sp_config import Config
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
@@ -28,7 +27,7 @@ class DependencyParserTrainer:
         self, base_path: Union[Path, str],
         fix_len=20,
         min_freq=2,
-        buckets=32,
+        buckets=1000,
         batch_size=5000,
         lr=2e-3,
         mu=.9,
@@ -38,7 +37,8 @@ class DependencyParserTrainer:
         decay=.75,
         decay_steps=5000,
         patience=100,
-        max_epochs=10
+        max_epochs=10,
+        wandb=None
     ):
         r"""
         Train any class that implement model interface
@@ -66,18 +66,16 @@ class DependencyParserTrainer:
         ################################################################################################################
         # BUILD
         ################################################################################################################
-        args = Config()
-        args.feat = self.parser.feat
-        args.embed = self.parser.embed
+        feat = self.parser.feat
+        embed = self.parser.embed
         os.makedirs(os.path.dirname(base_path), exist_ok=True)
         logger.info("Building the fields")
         WORD = Field('words', pad=pad, unk=unk, bos=bos, lower=True)
-        if args.feat == 'char':
+        if feat == 'char':
             FEAT = SubwordField('chars', pad=pad, unk=unk, bos=bos, fix_len=fix_len)
-        elif args.feat == 'bert':
+        elif feat == 'bert':
             from transformers import AutoTokenizer
-            tokenizer = AutoTokenizer.from_pretrained(args.bert)
-            args.max_len = min(args.max_len or tokenizer.max_len, tokenizer.max_len)
+            tokenizer = AutoTokenizer.from_pretrained(self.parser.bert)
             FEAT = SubwordField('bert',
                                 pad=tokenizer.pad_token,
                                 unk=tokenizer.unk_token,
@@ -90,49 +88,48 @@ class DependencyParserTrainer:
 
         ARC = Field('arcs', bos=bos, use_vocab=False, fn=CoNLL.get_arcs)
         REL = Field('rels', bos=bos)
-        if args.feat in ('char', 'bert'):
+        if feat in ('char', 'bert'):
             transform = CoNLL(FORM=(WORD, FEAT), HEAD=ARC, DEPREL=REL)
         else:
             transform = CoNLL(FORM=WORD, CPOS=FEAT, HEAD=ARC, DEPREL=REL)
 
         train = Dataset(transform, self.corpus.train)
-        WORD.build(train, min_freq, (Embedding.load(args.embed, unk) if self.parser.embed else None))
+        WORD.build(train, min_freq, (Embedding.load(embed, unk) if self.parser.embed else None))
         FEAT.build(train)
         REL.build(train)
-        args.update({
-            'n_words': WORD.vocab.n_init,
-            'n_feats': len(FEAT.vocab),
-            'n_rels': len(REL.vocab),
-            'pad_index': WORD.pad_index,
-            'unk_index': WORD.unk_index,
-            'bos_index': WORD.bos_index,
-            'feat_pad_index': FEAT.pad_index,
-        })
+        n_words = WORD.vocab.n_init
+        n_feats = len(FEAT.vocab)
+        n_rels = len(REL.vocab)
+        pad_index = WORD.pad_index
+        unk_index = WORD.unk_index
+        feat_pad_index = FEAT.pad_index
         parser = DependencyParser(
-            n_words=args.n_words,
-            n_feats=args.n_feats,
-            n_rels=args.n_feats,
-            pad_index=args.pad_index,
-            unk_index=args.unk_index,
-            # bos_index=args.bos_index,
-            feat_pad_index=args.feat_pad_index,
-            transform=transform
+            n_words=n_words,
+            n_feats=n_feats,
+            n_rels=n_rels,
+            pad_index=pad_index,
+            unk_index=unk_index,
+            feat_pad_index=feat_pad_index,
+            transform=transform,
+            feat=self.parser.feat,
+            bert=self.parser.bert
         )
-        word_field_embeddings = self.parser.embeddings[0]
-        word_field_embeddings.n_vocab = 1000
+        # word_field_embeddings = self.parser.embeddings[0]
+        # word_field_embeddings.n_vocab = 100
         parser.embeddings = self.parser.embeddings
-        parser.embeddings[0] = word_field_embeddings
+        # parser.embeddings[0] = word_field_embeddings
         parser.load_pretrained(WORD.embed).to(device)
 
         ################################################################################################################
         # TRAIN
         ################################################################################################################
-        args = Config()
+        if wandb:
+            wandb.watch(parser)
         parser.transform.train()
         if dist.is_initialized():
             batch_size = batch_size // dist.get_world_size()
         logger.info('Loading the data')
-        train = Dataset(parser.transform, self.corpus.train, **args)
+        train = Dataset(parser.transform, self.corpus.train)
         dev = Dataset(parser.transform, self.corpus.dev)
         test = Dataset(parser.transform, self.corpus.test)
         train.build(batch_size, buckets, True, dist.is_initialized())
@@ -155,8 +152,8 @@ class DependencyParserTrainer:
 
             parser.train()
 
-            loader = train.loader
-            bar, metric = progress_bar(loader), AttachmentMetric()
+            bar = progress_bar(train.loader)
+            metric = AttachmentMetric()
             for words, feats, arcs, rels in bar:
                 optimizer.zero_grad()
 
@@ -177,10 +174,14 @@ class DependencyParserTrainer:
                 metric(arc_preds, rel_preds, arcs, rels, mask)
                 bar.set_postfix_str(f'lr: {scheduler.get_last_lr()[0]:.4e} - loss: {loss:.4f} - {metric}')
 
-            loss, dev_metric = parser.evaluate(dev.loader)
-            logger.info(f"{'dev:':6} - loss: {loss:.4f} - {dev_metric}")
-            loss, test_metric = parser.evaluate(test.loader)
-            logger.info(f"{'test:':6} - loss: {loss:.4f} - {test_metric}")
+            dev_loss, dev_metric = parser.evaluate(dev.loader)
+            logger.info(f"{'dev:':6} - loss: {dev_loss:.4f} - {dev_metric}")
+            test_loss, test_metric = parser.evaluate(test.loader)
+            logger.info(f"{'test:':6} - loss: {test_loss:.4f} - {test_metric}")
+            if wandb:
+                wandb.log({"test_loss": test_loss})
+                wandb.log({"test_metric_uas": test_metric.uas})
+                wandb.log({"test_metric_las": test_metric.las})
 
             t = datetime.now() - start
             # save the model if it is the best so far

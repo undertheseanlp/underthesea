@@ -13,6 +13,7 @@ install_requires = [
     'tqdm',
     'requests',
     'joblib',
+    'chardet',
     'scikit-learn',
     'unidecode',
     'seqeval',
