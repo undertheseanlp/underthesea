@@ -1,8 +1,6 @@
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build_and_package_pypi:
@@ -19,8 +17,9 @@ jobs:
             pip install
             build
             --user
-        - name:  Build a binary wheel and a source tarball
+        - name: Build a binary wheel and a source tarball
           run: >-
+            python -m
             build
             --sdist
             --wheel
