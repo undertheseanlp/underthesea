@@ -118,3 +118,19 @@ SE_Vietnamese-UBS:
   filepath: ''
   url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/SE_Vietnamese-UBS.zip
   url_filename: SE_Vietnamese-UBS.zip
+UIT_ABSA_HOTEL:
+  cache_dir: datasets/UIT_ABSA_HOTEL
+  type: Sentiment
+  license: Open
+  year: 2021
+  filepath: ''
+  url: https://github.com/undertheseanlp/underthesea/releases/download/open-data/UIT_ABSA_HOTEL.zip
+  url_filename: UIT_ABSA_HOTEL.zip
+UIT_ABSA_RESTAURANT:
+  cache_dir: datasets/UIT_ABSA_RESTAURANT
+  type: Sentiment
+  license: Open
+  year: 2021
+  filepath: ''
+  url: https://github.com/undertheseanlp/underthesea/releases/download/open-data/UIT_ABSA_RESTAURANT.zip
+  url_filename: UIT_ABSA_RESTAURANT.zip

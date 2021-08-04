@@ -77,7 +77,8 @@ class DataFetcher:
             "VNTC", "VLSP2013-WTK", "VLSP2013-POS", "VTB-CHUNK",
             "VLSP2016-NER", "VLSP2018-NER", "AIVIVN2019-SA",
             "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK",
-            "DI_Vietnamese-UVD", "CP_Vietnamese-UNC", "SE_Vietnamese-UBS"
+            "DI_Vietnamese-UVD", "CP_Vietnamese-UNC", "SE_Vietnamese-UBS",
+            "UIT_ABSA_RESTAURANT", "UIT_ABSA_HOTEL"
         ]
         if data in set(zip_datasets):
             if repo_data["license"] == "Close":
@@ -103,7 +104,7 @@ class DataFetcher:
             if license == "Close":
                 license = "Close*"
             datasets.append([name, type, license, year, directory])
-
+        datasets = list(sorted(datasets, key=lambda x: (x[3], x[1], x[0]), reverse=True))
         print_table(datasets, headers=["Name", "Type", "License", "Year", "Directory"])
 
         if all:
