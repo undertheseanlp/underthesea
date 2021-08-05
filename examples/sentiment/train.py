@@ -6,26 +6,15 @@ from transformers import AutoTokenizer, AutoModelWithLMHead
 import torch
 from pytorch_lightning.loggers import WandbLogger
 
+from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
+
 
 class MultiLabelClassificationDataset(Dataset):
-    def __init__(self, tokenizer, max_token_length: int = 50):
+    def __init__(self, data, tokenizer, max_token_length: int = 50):
         super().__init__()
-        self.texts = [
-            "Tôi đi học",
-            "tôi đi chơi",
-            "tôi đi ăn",
-            "Tuy nhiên buffet sáng ở đây không được ngon và chưa đa dạng lắm.",
-            "Vừa qua tôi có dùng dịch vụ tại Khách Sạn TTC Hotel Premium Ngọc Lan Ngọc Lan Đà Lạt.",
-            "Vừa qua tôi có dùng dịch vụ tại Khách Sạn TTC Hotel Premium Ngọc Lan Ngọc Lan Đà Lạt.",
-        ]
-        self.labels = torch.FloatTensor([
-            0,
-            0,
-            0,
-            1,
-            1,
-            1
-        ])
+        self.texts = [item[1] for item in data]  # text
+        labels = [item[3][0] for item in data]  # label ids
+        self.labels = torch.FloatTensor(labels)
         self.tokenizer = tokenizer
         self.max_token_length = max_token_length
 
@@ -46,12 +35,25 @@ class MultiLabelClassificationDataset(Dataset):
 
 
 class MultiLabelClassificationDatamodule(pl.LightningDataModule):
-    def __init__(self, dataset):
+
+    def __init__(self, corpus, tokenizer):
         super().__init__()
-        self.dataset = dataset
+        self.corpus = corpus
+        self.tokenizer = tokenizer
+        self.max_token_length = 300
+        self.batch_size = 4
 
     def train_dataloader(self):
-        return DataLoader(self.dataset, batch_size=2, shuffle=True, num_workers=2)
+        dataset = MultiLabelClassificationDataset(corpus.train, tokenizer, max_token_length=self.max_token_length)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
+
+    def val_dataloader(self):
+        dataset = MultiLabelClassificationDataset(corpus.dev, tokenizer, max_token_length=self.max_token_length)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
+
+    def test_dataloader(self):
+        dataset = MultiLabelClassificationDataset(corpus.test, tokenizer, max_token_length=self.max_token_length)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
 
 
 class GPT2TextClassification(pl.LightningModule):
@@ -77,7 +79,14 @@ class GPT2TextClassification(pl.LightningModule):
         input_ids = batch["input_ids"]
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
-        self.log('mse_loss', loss)
+        self.log('train_loss', loss)
+        return {"loss": loss}
+
+    def validation_step(self, batch, batch_idx):
+        input_ids = batch["input_ids"]
+        labels = batch["label"]
+        loss, outputs = self(input_ids, labels)
+        self.log('test_loss', loss)
         return {"loss": loss}
 
     def configure_optimizers(self):
@@ -94,11 +103,11 @@ if __name__ == '__main__':
     gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
     model = GPT2TextClassification(gpt2)
-    dataset = MultiLabelClassificationDataset(tokenizer=tokenizer)
-    data = MultiLabelClassificationDatamodule(dataset)
+    corpus = UITABSAHotel()
+    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer)
     logger = WandbLogger(project='draft-sentiment-2')
     trainer = pl.Trainer(
         gpus=1,
         max_epochs=100,
         logger=logger)
-    trainer.fit(model, data)
+    trainer.fit(model, datamodule=datamodule)
