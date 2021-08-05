@@ -11,6 +11,7 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 class MultiLabelClassificationDataset(Dataset):
     def __init__(self, data, tokenizer, max_token_length: int = 50):
+        print("== init")
         super().__init__()
         self.texts = [item[1] for item in data]  # text
         labels = [item[3][0] for item in data]  # label ids
@@ -22,6 +23,7 @@ class MultiLabelClassificationDataset(Dataset):
         return len(self.texts)
 
     def __getitem__(self, item):
+        print("== getitem")
         text = self.texts[item]
 
         encoding = self.tokenizer(text, return_tensors='pt', padding="max_length", max_length=self.max_token_length)
@@ -37,23 +39,28 @@ class MultiLabelClassificationDataset(Dataset):
 class MultiLabelClassificationDatamodule(pl.LightningDataModule):
 
     def __init__(self, corpus, tokenizer):
+        print("MLCDatamodule pre init")
         super().__init__()
+        print("MLCDatamodule post init")
         self.corpus = corpus
         self.tokenizer = tokenizer
         self.max_token_length = 300
-        self.batch_size = 4
+        self.batch_size = 1
+        self.num_workers = 16
+        print("MLCDatamodule fisnish init")
 
     def train_dataloader(self):
+        print("==== train_dataloader")
         dataset = MultiLabelClassificationDataset(corpus.train, tokenizer, max_token_length=self.max_token_length)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
     def val_dataloader(self):
         dataset = MultiLabelClassificationDataset(corpus.dev, tokenizer, max_token_length=self.max_token_length)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
     def test_dataloader(self):
         dataset = MultiLabelClassificationDataset(corpus.test, tokenizer, max_token_length=self.max_token_length)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=1)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=2)
 
 
 class GPT2TextClassification(pl.LightningModule):
@@ -95,6 +102,7 @@ class GPT2TextClassification(pl.LightningModule):
 
 
 if __name__ == '__main__':
+    print('====== main')
     tokenizer = AutoTokenizer.from_pretrained("imthanhlv/gpt2news")
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
@@ -105,9 +113,13 @@ if __name__ == '__main__':
     model = GPT2TextClassification(gpt2)
     corpus = UITABSAHotel()
     datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer)
+    print('===== log')
     logger = WandbLogger(project='draft-sentiment-2')
+    print('===== Trainer')
     trainer = pl.Trainer(
-        gpus=1,
+        gpus=-1,
+        accelerator='ddp',
         max_epochs=100,
         logger=logger)
+    print('===== Fit')
     trainer.fit(model, datamodule=datamodule)
