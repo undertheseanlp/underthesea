@@ -49,8 +49,8 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
         self.num_labels = corpus.num_labels
         self.tokenizer = tokenizer
         self.max_token_length = 300
-        self.batch_size = 2
-        self.num_workers = 1
+        self.batch_size = 16
+        self.num_workers = 16
 
     def train_dataloader(self):
         dataset = MultiLabelClassificationDataset(
@@ -58,8 +58,8 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
             num_labels=self.num_labels,
             max_token_length=self.max_token_length
         )
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
     def val_dataloader(self):
         dataset = MultiLabelClassificationDataset(
@@ -67,16 +67,16 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
             num_labels=self.num_labels,
             max_token_length=self.max_token_length
         )
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
     def test_dataloader(self):
         dataset = MultiLabelClassificationDataset(
             corpus.test, tokenizer,
             num_labels=self.num_labels,
             max_token_length=self.max_token_length)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
 
 
 class GPT2TextClassification(pl.LightningModule):
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     logger = WandbLogger(project='draft-sentiment-2')
     trainer = pl.Trainer(
         gpus=-1,
-        # accelerator='ddp',
+        accelerator='ddp',
         # precision=16,
         max_epochs=100,
         logger=logger)
