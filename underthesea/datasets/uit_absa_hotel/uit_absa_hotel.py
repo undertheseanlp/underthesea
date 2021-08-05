@@ -47,6 +47,7 @@ class UITABSAHotel:
         self.train = self._extract_sentences(train_file)
         self.dev = self._extract_sentences(dev_file)
         self.test = self._extract_sentences(test_file)
+        self.num_labels = self.label_encoder.vocab_size
 
     def _join_labels(self, label):
         return "#".join(label)
