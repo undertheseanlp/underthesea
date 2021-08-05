@@ -1,5 +1,5 @@
 import pytorch_lightning as pl
-from torch.optim import Adam
+from torch.optim import Adam, SGD
 from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModelWithLMHead
@@ -115,6 +115,7 @@ class GPT2TextClassification(pl.LightningModule):
 
     def configure_optimizers(self):
         optimizer = Adam(self.parameters())
+        optimizer = SGD(self.parameters(), lr=1e-6)
         return optimizer
 
 
