@@ -23,7 +23,6 @@ class MultiLabelClassificationDataset(Dataset):
         return len(self.texts)
 
     def __getitem__(self, item):
-        print("== getitem")
         text = self.texts[item]
 
         encoding = self.tokenizer(text, return_tensors='pt', padding="max_length", max_length=self.max_token_length)
@@ -45,8 +44,8 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
         self.corpus = corpus
         self.tokenizer = tokenizer
         self.max_token_length = 300
-        self.batch_size = 1
-        self.num_workers = 16
+        self.batch_size = 16
+        self.num_workers = 32
         print("MLCDatamodule fisnish init")
 
     def train_dataloader(self):
@@ -119,6 +118,7 @@ if __name__ == '__main__':
     trainer = pl.Trainer(
         gpus=-1,
         accelerator='ddp',
+        precision=16,
         max_epochs=100,
         logger=logger)
     print('===== Fit')
