@@ -1,11 +1,12 @@
 import pytorch_lightning as pl
+from sklearn.metrics import f1_score
 from torch.optim import Adam, SGD
 from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModelWithLMHead
 import torch
 from pytorch_lightning.loggers import WandbLogger
-
+import numpy as np
 from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
@@ -19,7 +20,9 @@ class MultiLabelClassificationDataset(Dataset):
         self.max_token_length = max_token_length
 
     def __len__(self):
-        return len(self.texts)
+        # length = len(self.texts)
+        length = min(9, len(self.texts))
+        return length
 
     def __getitem__(self, item):
         text = self.texts[item]
@@ -49,7 +52,7 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
         self.num_labels = corpus.num_labels
         self.tokenizer = tokenizer
         self.max_token_length = 300
-        self.batch_size = 16
+        self.batch_size = 2
         self.num_workers = 16
 
     def train_dataloader(self):
@@ -94,6 +97,13 @@ class GPT2TextClassification(pl.LightningModule):
         hidden_states = gpt2_outputs[0].squeeze()
         logits = self.logit(self.linear(hidden_states))
         batch_size, sequence_length = input_ids.shape[:2]
+        try:
+            K, N, M = logits.size()
+        except:
+            N, M = logits.size()
+            K = 1
+        logits = logits.reshape(K, N, M)
+
         logits = logits[range(batch_size), sequence_length]
         if labels is not None:
             loss = self.criterion(logits, labels)
@@ -111,10 +121,17 @@ class GPT2TextClassification(pl.LightningModule):
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
         self.log('test_loss', loss)
-        return {"loss": loss}
+        return {"loss": loss, "labels": labels, "outputs": outputs}
+
+    def validation_epoch_end(self, validation_step_outputs):
+        all_labels = torch.cat([output["labels"] for output in validation_step_outputs], dim=0).cpu().numpy()
+        all_outputs = torch.cat([output["outputs"] for output in validation_step_outputs], dim=0).cpu().numpy()
+        all_outputs = np.where(all_outputs > 0.5, 1, 0)
+        score = f1_score(all_outputs, all_labels, average='macro')
+        self.log("f1_score", score)
+        return {"f1_score": score}
 
     def configure_optimizers(self):
-        optimizer = Adam(self.parameters())
         optimizer = SGD(self.parameters(), lr=1e-6)
         return optimizer
 
@@ -134,7 +151,7 @@ if __name__ == '__main__':
     logger = WandbLogger(project='draft-sentiment-2')
     trainer = pl.Trainer(
         gpus=-1,
-        accelerator='ddp',
+        # accelerator='ddp',
         # precision=16,
         max_epochs=100,
         logger=logger)
