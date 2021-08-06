@@ -1,6 +1,6 @@
 import pytorch_lightning as pl
 from sklearn.metrics import f1_score
-from torch.optim import Adam, SGD
+from torch.optim import SGD
 from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModelWithLMHead
@@ -13,15 +13,15 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 class MultiLabelClassificationDataset(Dataset):
     def __init__(self, data, tokenizer, num_labels, max_token_length: int = 50):
         super().__init__()
-        self.texts = [item[1] for item in data]  # text
-        self.labels = [item[3] for item in data]  # label ids
+        self.texts = [item["text"] for item in data]  # text
+        self.labels = [item["aspect_label_ids"] for item in data]  # label ids
         self.tokenizer = tokenizer
         self.num_labels = num_labels
         self.max_token_length = max_token_length
 
     def __len__(self):
         # length = len(self.texts)
-        length = min(9, len(self.texts))
+        length = min(5, len(self.texts))
         return length
 
     def __getitem__(self, item):
@@ -49,7 +49,8 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
     def __init__(self, corpus, tokenizer):
         super().__init__()
         self.corpus = corpus
-        self.num_labels = corpus.num_labels
+        # self.num_labels = corpus.num_labels
+        self.num_labels = corpus.num_aspect_labels
         self.tokenizer = tokenizer
         self.max_token_length = 300
         self.batch_size = 2
@@ -62,7 +63,7 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
             max_token_length=self.max_token_length
         )
         # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
 
     def val_dataloader(self):
         dataset = MultiLabelClassificationDataset(
@@ -71,7 +72,7 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
             max_token_length=self.max_token_length
         )
         # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
 
     def test_dataloader(self):
         dataset = MultiLabelClassificationDataset(
@@ -79,7 +80,7 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
             num_labels=self.num_labels,
             max_token_length=self.max_token_length)
         # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers)
+        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
 
 
 class GPT2TextClassification(pl.LightningModule):
@@ -97,13 +98,6 @@ class GPT2TextClassification(pl.LightningModule):
         hidden_states = gpt2_outputs[0].squeeze()
         logits = self.logit(self.linear(hidden_states))
         batch_size, sequence_length = input_ids.shape[:2]
-        try:
-            K, N, M = logits.size()
-        except:
-            N, M = logits.size()
-            K = 1
-        logits = logits.reshape(K, N, M)
-
         logits = logits[range(batch_size), sequence_length]
         if labels is not None:
             loss = self.criterion(logits, labels)
@@ -146,9 +140,10 @@ if __name__ == '__main__':
 
     corpus = UITABSAHotel()
     num_labels = corpus.num_labels
-    model = GPT2TextClassification(gpt2, num_labels)
+    num_aspect_labels = corpus.num_aspect_labels
+    model = GPT2TextClassification(gpt2, num_aspect_labels)
     datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer)
-    logger = WandbLogger(project='draft-sentiment-2')
+    logger = WandbLogger(project='draft-sentiment-4')
     trainer = pl.Trainer(
         gpus=-1,
         # accelerator='ddp',
