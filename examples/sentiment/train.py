@@ -49,7 +49,6 @@ class MultiLabelClassificationDataset(Dataset):
 
 
 class MultiLabelClassificationDatamodule(pl.LightningDataModule):
-
     def __init__(self, corpus, tokenizer, **kwargs):
         super().__init__()
         self.corpus = corpus
