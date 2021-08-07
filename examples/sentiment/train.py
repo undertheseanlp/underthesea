@@ -13,17 +13,19 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
 class MultiLabelClassificationDataset(Dataset):
-    def __init__(self, data, tokenizer, num_labels, max_token_length: int = 50):
+    def __init__(self, data, tokenizer, num_labels, max_token_length: int = 50, samples=None):
         super().__init__()
         self.texts = [item["text"] for item in data]  # text
         self.labels = [item["aspect_label_ids"] for item in data]  # label ids
         self.tokenizer = tokenizer
         self.num_labels = num_labels
         self.max_token_length = max_token_length
+        self.samples = samples
 
     def __len__(self):
-        # length = len(self.texts)
-        length = min(5, len(self.texts))
+        length = len(self.texts)
+        if self.samples is not None:
+            length = min(self.samples, length)
         return length
 
     def __getitem__(self, item):
@@ -53,10 +55,15 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
         self.corpus = corpus
         # num_labels = corpus.num_labels
         num_labels = corpus.num_aspect_labels
+        samples = None
+        if "samples" in kwargs:
+            samples = kwargs["samples"]
+        del kwargs["samples"]
         self.dataset_kwargs = {
             "tokenizer": tokenizer,
             "num_labels": num_labels,
-            "max_token_length": 300
+            "max_token_length": 300,
+            "samples": samples
         }
         self.kwargs = kwargs
 

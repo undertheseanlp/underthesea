@@ -6,7 +6,9 @@ trainer:
 data:
   batch_size: 16
   shuffle: True
-  num_workers: 1
+#  num_workers: None
+  samples: None
+  drop_last: True
 logger:
   project: draft-sentiment-5
 
