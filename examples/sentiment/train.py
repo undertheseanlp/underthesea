@@ -1,4 +1,6 @@
+import hydra
 import pytorch_lightning as pl
+from omegaconf import DictConfig
 from sklearn.metrics import f1_score
 from torch.optim import SGD
 from torch.utils.data import Dataset, DataLoader
@@ -46,41 +48,29 @@ class MultiLabelClassificationDataset(Dataset):
 
 class MultiLabelClassificationDatamodule(pl.LightningDataModule):
 
-    def __init__(self, corpus, tokenizer):
+    def __init__(self, corpus, tokenizer, **kwargs):
         super().__init__()
         self.corpus = corpus
-        # self.num_labels = corpus.num_labels
-        self.num_labels = corpus.num_aspect_labels
-        self.tokenizer = tokenizer
-        self.max_token_length = 300
-        self.batch_size = 2
-        self.num_workers = 16
+        # num_labels = corpus.num_labels
+        num_labels = corpus.num_aspect_labels
+        self.dataset_kwargs = {
+            "tokenizer": tokenizer,
+            "num_labels": num_labels,
+            "max_token_length": 300
+        }
+        self.kwargs = kwargs
 
     def train_dataloader(self):
-        dataset = MultiLabelClassificationDataset(
-            corpus.train, tokenizer,
-            num_labels=self.num_labels,
-            max_token_length=self.max_token_length
-        )
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
+        dataset = MultiLabelClassificationDataset(self.corpus.train, **self.dataset_kwargs)
+        return DataLoader(dataset, **self.kwargs)
 
     def val_dataloader(self):
-        dataset = MultiLabelClassificationDataset(
-            corpus.dev, tokenizer,
-            num_labels=self.num_labels,
-            max_token_length=self.max_token_length
-        )
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
+        dataset = MultiLabelClassificationDataset(self.corpus.dev, **self.dataset_kwargs)
+        return DataLoader(dataset, **self.kwargs)
 
     def test_dataloader(self):
-        dataset = MultiLabelClassificationDataset(
-            corpus.test, tokenizer,
-            num_labels=self.num_labels,
-            max_token_length=self.max_token_length)
-        # return DataLoader(dataset, batch_size=self.batch_size, shuffle=True)
-        return DataLoader(dataset, batch_size=self.batch_size, shuffle=True, num_workers=self.num_workers, drop_last=True)
+        dataset = MultiLabelClassificationDataset(self.corpus.test, **self.dataset_kwargs)
+        return DataLoader(dataset, **self.kwargs)
 
 
 class GPT2TextClassification(pl.LightningModule):
@@ -130,7 +120,9 @@ class GPT2TextClassification(pl.LightningModule):
         return optimizer
 
 
-if __name__ == '__main__':
+@hydra.main(config_path="configs/", config_name="config.yaml")
+def main(config: DictConfig) -> None:
+    print(config)
     tokenizer = AutoTokenizer.from_pretrained("imthanhlv/gpt2news")
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
@@ -139,15 +131,17 @@ if __name__ == '__main__':
     gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
     corpus = UITABSAHotel()
-    num_labels = corpus.num_labels
-    num_aspect_labels = corpus.num_aspect_labels
-    model = GPT2TextClassification(gpt2, num_aspect_labels)
-    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer)
-    logger = WandbLogger(project='draft-sentiment-4')
+    # num_labels = corpus.num_labels
+    num_labels = corpus.num_aspect_labels
+    model = GPT2TextClassification(gpt2, num_labels)
+    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
+    logger = WandbLogger(**config.logger)
     trainer = pl.Trainer(
-        gpus=-1,
-        # accelerator='ddp',
-        # precision=16,
-        max_epochs=100,
-        logger=logger)
+        logger=logger,
+        **config.trainer
+    )
     trainer.fit(model, datamodule=datamodule)
+
+
+if __name__ == "__main__":
+    main()
