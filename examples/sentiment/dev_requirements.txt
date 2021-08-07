@@ -2,3 +2,4 @@ torch==1.9.0
 transformers==4.9.1
 hydra-core
 omegaconf
+pytorch-lightning
