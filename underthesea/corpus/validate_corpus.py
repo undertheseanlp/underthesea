@@ -1,7 +1,7 @@
 import sys
 from os import listdir
 from os.path import join, basename
-from chardet import UniversalDetector
+import charset_normalizer
 
 from underthesea.feature_engineering.text import Text
 from underthesea.file_utils import DATASETS_FOLDER
@@ -57,16 +57,15 @@ def validate_corpus_type(corpus_type):
 # ======================================================================================================================
 def validate_utf8(file):
     base_name = basename(file)
-    detector = UniversalDetector()
-    detector.reset()
+    text = b''
     with open(file, "rb") as f:
         for i, line in enumerate(f):
-            detector.feed(line)
-            if detector.done or i > 1000:
+            if i < 1000:
+                text += line
+            else:
                 break
-    detector.close()
-    result = detector.result
-    if not (result["encoding"] == "utf-8" and result["confidence"] >= 0.99):
+    results = charset_normalizer.from_bytes(text).best()
+    if not (results.encoding == "utf-8" and results.coherence >= 0.99):
         warn(message=f"File {file} should encoding with UTF-8", level=1)
         sys.exit(1)
     with open(file, "r") as f:
