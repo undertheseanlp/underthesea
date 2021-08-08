@@ -9,14 +9,16 @@
 #
 
 import re
-import numpy as np
 import torch
+import torch.nn as nn
 import pytorch_lightning as pl
+from pytorch_lightning.metrics.functional import accuracy, f1, auroc
+
 from tqdm import tqdm
 from underthesea import word_tokenize
-from torch.utils.data import Dataset
-from transformers import AutoTokenizer
-from sklearn.preprocessing import MultiLabelBinarizer
+from torch.utils.data import Dataset, DataLoader
+from transformers import AutoTokenizer, BertConfig, BertModel, BertForSequenceClassification, AdamW, get_linear_schedule_with_warmup
+
 
 fnames = dict(
     restaurant=dict(
@@ -30,6 +32,7 @@ fnames = dict(
         dev="/Users/taidnguyen/Desktop/Sentence-level-Hotel/Dev_Hotel.txt"
     )
 )
+
 
 aspect2ids = {
     'restaurant': {'SERVICE#GENERAL': 0, 'RESTAURANT#PRICES': 1, 'RESTAURANT#GENERAL': 2, 'FOOD#STYLE&OPTIONS': 3,
@@ -137,63 +140,119 @@ class UITABSADataset(Dataset):
             word_segmented=word_segmented,
             input_ids=encoded["input_ids"],
             attention_mask=encoded["attention_mask"],
-            aspect_labels=binarizer(aspects, self.aspect2id),
+            # aspect_labels=binarizer(aspects, self.aspect2id),
+            labels=binarizer(aspects, self.aspect2id),
             polarity_labels=binarizer(polarities, self.polarity2id),
         )
 
 
-class ToxicCommentDataModule(pl.LightningDataModule):
+class UITABSADataModule(pl.LightningDataModule):
+    def __init__(self, train_dataset, test_dataset, batch_size=24):
+        super().__init__()
+        self.train_dataset  = train_dataset
+        self.test_dataset = test_dataset
+        self.batch_size = batch_size
 
-  def __init__(self, train_df, test_df, tokenizer, batch_size=8, max_token_len=128):
-    super().__init__()
-    self.batch_size = batch_size
-    self.train_df = train_df
-    self.test_df = test_df
-    self.tokenizer = tokenizer
-    self.max_token_len = max_token_len
+    def train_dataloader(self):
+        return DataLoader(self.train_dataset, self.batch_size, shuffle=True)
 
-  def setup(self, stage=None):
-    self.train_dataset = ToxicCommentsDataset(
-      self.train_df,
-      self.tokenizer,
-      self.max_token_len
-    )
+    def test_dataloader(self):
+        return DataLoader(self.test_dataset, self.batch_size, shuffle=False)
 
-    self.test_dataset = ToxicCommentsDataset(
-      self.test_df,
-      self.tokenizer,
-      self.max_token_len
 
-    )
+class BertForMultilabelClassification(pl.LightningModule):
+    def __init__(self, config, training_steps=None, warmup_steps=None):
+    # def __init__(self, training_steps=None, warmup_steps=None):
+        super().__init__()
+        self.bert = BertForSequenceClassification(config)
+        # self.bert = BertModel.from_pretrained('bert-base-cased', return_dict=True)
+        self.classifier = nn.Linear(self.bert.config.hidden_size, self.bert.config.num_labels)
+        self.logit = nn.Sigmoid()
+        self.dropout = nn.Dropout(self.bert.config.hidden_dropout_prob)
+        self.criterion = nn.BCELoss()
+        self.training_steps = training_steps
+        self.warmup_steps = warmup_steps
 
-  def train_dataloader(self):
-    return DataLoader(
-      self.train_dataset,
-      batch_size=self.batch_size,
-      shuffle=True,
-      num_workers=2
-    )
 
-  def val_dataloader(self):
-    return DataLoader(
-      self.test_dataset,
-      batch_size=self.batch_size,
-      num_workers=2
-    )
+    def forward(self, input_ids, attention_mask, labels=None):
+        output = self.bert(input_ids, attention_mask=attention_mask, labels=labels)
+        pooled_output = output.logits
+        pooled_output = self.dropout(pooled_output)
+        logits = self.logit(self.classifier(pooled_output))
+        output = self.classifier(output.logits)
+        loss = 0
+        if labels is not None:
+            loss = self.criterion(output, labels)
+        return loss, output
 
-  def test_dataloader(self):
-    return DataLoader(
-      self.test_dataset,
-      batch_size=self.batch_size,
-      num_workers=2
-    )
+    def training_step(self, batch, batch_idx):
+        input_ids = batch["input_ids"]
+        attention_mask = batch["attention_mask"]
+        labels = batch["labels"]
+        loss, outputs = self(input_ids, attention_mask, labels)
+        self.log("train_loss", loss, prog_bar=True, logger=True)
+        return {"loss": loss, "predictions": outputs, "labels": labels}
+
+    def test_step(self, batch, batch_idx):
+        input_ids = batch["input_ids"]
+        attention_mask = batch["attention_mask"]
+        labels = batch["labels"]
+        loss, outputs = self(input_ids, attention_mask, labels)
+        self.log("train_loss", loss, prog_bar=True, logger=True)
+        return {"loss": loss, "predictions": outputs, "labels": labels}
+
+    def training_epoch_end(self, outputs):
+        labels = []
+        predictions = []
+        for output in outputs:
+            for out_labels in output["labels"].detach().cpu():
+                labels.append(out_labels)
+            for out_predictions in output["predictions"].detach().cpu():
+                predictions.append(out_predictions)
+        labels = torch.stack(labels).int()
+        predictions = torch.stack(predictions)
+        for i, name in enumerate(self.bert.config.num_labels):
+            class_roc_auc = auroc(predictions[:, i], labels[:, i])
+            self.logger.experiment.add_scalar(f"{name}_roc_auc/Train", class_roc_auc, self.current_epoch)
+
+    def configure_optimizers(self):
+        optimizer = AdamW(self.parameters(), lr=2e-5)
+        return optimizer
 
 
 def main():
     entity = "hotel"
-    model = BertModel.from_pretrained(BERT_MODEL_NAME, return_dict=True)
+    epochs = 5
+    batch_size = 24
+    num_labels = len(aspect2ids[entity])
+
     tokenizer = AutoTokenizer.from_pretrained("vinai/phobert-base", use_fast=False)
     train_dataset = UITABSADataset(fname=fnames[entity]["dev"], max_sequence_len=100, tokenizer=tokenizer)
+    test_dataset = UITABSADataset(fname=fnames[entity]["dev"], max_sequence_len=100, tokenizer=tokenizer)
+
+    # Config
+    config = BertConfig.from_pretrained(
+        'bert-base-uncased',
+        architectures=['BertForSequenceClassification'],
+        hidden_size=768,
+        num_hidden_layers=12,
+        num_attention_heads=12,
+        hidden_dropout_prob=0.1,
+        num_labels=num_labels,
+        pad_token_id=1,
+        vocab_size= tokenizer.vocab_size
+    )
+    model = BertForMultilabelClassification(config, batch_size)
+    # model.resize_token_embeddings(len(tokenizer))
+    data_module = UITABSADataModule(train_dataset, test_dataset, batch_size)
+
+    trainer = pl.Trainer(
+        gpus=0,
+        max_epochs=5,
+        progress_bar_refresh_rate=30
+    )
+    trainer.fit(model, data_module)
+
 
 if __name__ == '__main__':
     main()
