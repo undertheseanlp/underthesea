@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="logo.png"/>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.png"/>
   <br/>
 </p>
 
