@@ -1,7 +1,6 @@
 import hydra
 import pytorch_lightning as pl
 from omegaconf import DictConfig
-from sklearn.metrics import f1_score
 from torch.optim import SGD
 from torch.utils.data import Dataset, DataLoader
 import torch.nn as nn
@@ -9,7 +8,6 @@ from torchmetrics import F1
 from transformers import AutoTokenizer, AutoModelWithLMHead
 import torch
 from pytorch_lightning.loggers import WandbLogger
-import numpy as np
 from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
@@ -25,8 +23,6 @@ class MultiLabelClassificationDataset(Dataset):
 
     def __len__(self):
         length = len(self.texts)
-        if self.samples == 'None':
-            return length
         if self.samples is not None:
             length = min(self.samples, length)
         return length
@@ -90,6 +86,8 @@ class GPT2TextClassification(pl.LightningModule):
         self.linear = nn.Linear(vocab_size, num_labels)
         self.logit = nn.Sigmoid()
         self.criterion = nn.BCELoss()
+        self.train_f1 = F1(mdmc_average='global')
+        self.valid_f1 = F1(mdmc_average='global')
 
     def forward(self, input_ids, labels=None):
         loss = 0
@@ -106,8 +104,8 @@ class GPT2TextClassification(pl.LightningModule):
         input_ids = batch["input_ids"]
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
-        f1 = F1(mdmc_average='global')
-        self.log('f1_score', f1(outputs.cpu(), labels.int().cpu()))
+        self.train_f1(outputs, labels.int())
+        self.log('train_f1', self.train_f1, on_step=True, on_epoch=True)
         self.log('train_loss', loss)
         return {"loss": loss}
 
@@ -116,15 +114,8 @@ class GPT2TextClassification(pl.LightningModule):
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
         self.log('test_loss', loss)
-        return {"loss": loss, "labels": labels, "outputs": outputs}
-
-    def validation_epoch_end(self, validation_step_outputs):
-        all_labels = torch.cat([output["labels"] for output in validation_step_outputs], dim=0).cpu().numpy()
-        all_outputs = torch.cat([output["outputs"] for output in validation_step_outputs], dim=0).cpu().numpy()
-        all_outputs = np.where(all_outputs > 0.5, 1, 0)
-        score = f1_score(all_outputs, all_labels, average='macro')
-        self.log("f1_score", score)
-        return {"f1_score": score}
+        self.valid_f1(outputs, labels.int())
+        self.log('valid_f1', self.valid_f1, on_step=True, on_epoch=True)
 
     def configure_optimizers(self):
         optimizer = SGD(self.parameters(), lr=1e-6)
@@ -147,10 +138,7 @@ def main(config: DictConfig) -> None:
     model = GPT2TextClassification(gpt2, num_labels)
     datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
     logger = WandbLogger(**config.logger)
-    trainer = pl.Trainer(
-        logger=logger,
-        **config.trainer
-    )
+    trainer = pl.Trainer(logger=logger, **config.trainer)
     trainer.fit(model, datamodule=datamodule)
 
 
