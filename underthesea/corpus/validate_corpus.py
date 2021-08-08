@@ -65,7 +65,7 @@ def validate_utf8(file):
             else:
                 break
     results = charset_normalizer.from_bytes(text).best()
-    if not (results.encoding == "utf-8" and result.coherence >= 0.99):
+    if not (results.encoding == "utf-8" and results.coherence >= 0.99):
         warn(message=f"File {file} should encoding with UTF-8", level=1)
         sys.exit(1)
     with open(file, "r") as f:
