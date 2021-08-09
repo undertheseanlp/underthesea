@@ -13,12 +13,10 @@ install_requires = [
     'tqdm',
     'requests',
     'joblib',
-    'chardet',
     'scikit-learn',
     'unidecode',
     'seqeval',
     'PyYAML',
-    'chardet',
     'torch>=1.1.0',
     'transformers>=3.5.0'
 ]
