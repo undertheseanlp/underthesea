@@ -1,0 +1,15 @@
+trainer:
+  gpus: -1
+  accelerator: 'ddp'
+#  fast_dev_run: 5
+  # precision: 16
+data:
+  batch_size: 16
+  shuffle: True
+#  num_workers: None
+  samples: null
+  drop_last: True
+logger:
+  project: draft-sentiment-5
+
+
