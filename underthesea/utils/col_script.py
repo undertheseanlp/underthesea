@@ -41,7 +41,7 @@ class RawToUDDataset(Dataset):
         super().__init__()
         self.len = 1
         with open(raw_file) as f:
-            sentences = f.read().split("\n\n")
+            sentences = f.read().strip().split("\n\n")
         sentences = [Sentence(s) for s in sentences]
         self.sentences = [s.to_ud() for s in sentences]
         self.len = len(self.sentences)

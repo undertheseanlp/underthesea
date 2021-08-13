@@ -23,3 +23,33 @@ Thế nhưng, với những diễn biến xấu của chấn thương, Ramos c�
 # date = 20210812
 # sent_id = 5
 Điều này sẽ gây thất vọng với số đông fan PSG, bởi họ rất nóng lòng được xem Sergio Ramos cùng Messi thi đấu chung màu cờ sắc áo.
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 6
+Quang Liêm thắng kỳ thủ số sáu thế giới
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 6
+Kỳ thủ Lê Quang Liêm đạt 3 trên 6 điểm ở ngày đầu giải cờ nhanh chớp St Louis sáng 12/8, trong đó có chiến thắng trước Shakhriyar Mamedyarov.
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 7
+Ván cuối cầm quân đen gặp Mamedyarov, Quang Liêm chơi hay và đạt tỷ lệ sai lầm chỉ 5%.
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 8
+Ở ngày thi thứ hai, sáng 13/8, giờ Hà Nội, Quang Liêm cầm quân trắng gặp Nakamura lúc 3h.
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 9
+Giải nhanh chớp St Louis diễn ra từ 12/8 đến 16/8 tại thành phố St Louis, bang Missouri, Mỹ, là chặng thứ tư của hệ thống Grand Chess Tour 2021, và là lần đầu Quang Liêm được mời.
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 10
+Trong 10 kỳ thủ dự giải, Quang Liêm đứng vị trí thấp nhất theo Elo cờ tiêu chuẩn tháng 8/2021 với 2.709 Elo.
