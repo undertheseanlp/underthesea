@@ -1,0 +1,150 @@
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 1
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Rất nhiều fan PSG ngóng đợi cựu trung vệ của Real Madrid thi đấu cùng Lionel Messi, bởi trước đây 2 người luôn là đối thủ của nhau ở La Liga.
+Rất	R	3	advmod
+nhiều	A	3	advmod:adj
+fan	N	21	nsubj
+PSG	Np	3	nmod
+ngóng đợi	V	3	nmod
+cựu	A	5	nmod
+trung vệ	N	6	compound
+của	E	9	case
+Real Madrid	Np	3	nmod:poss
+thi đấu	V	9	compound
+cùng	A	12	case
+Lionel Messi	Np	10	obj
+,	CH	21	punct
+bởi	E	21	mark
+trước	N	21	obl
+đây	P	15	det:pmod
+2	M	18	nummod
+người	N	21	nsubj
+luôn	R	21	advmod
+là	V	21	cop
+đối thủ	N	0	root
+của	E	23	case
+nhau	N	21	nmod:poss
+ở	E	25	case
+La Liga	Np	21	obl
+.	CH	21	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 2
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước đó, trung vệ 35 tuổi đã đặt bút ký vào bản hợp đồng có thời hạn 2 năm với đội chủ sân Công viên các Hoàng tử.
+Trước	N	8	obl:tmod
+đó	P	8	obl:tmod
+,	CH	8	punct
+trung vệ	N	6	advmod
+35	M	6	nummod
+tuổi	N	8	nsubj
+đã	R	8	advmod
+đặt	V	0	root
+bút	N	8	obj
+ký	V	8	xcomp
+vào	E	13	case
+bản	Nc	13	det:clf
+hợp đồng	N	10	obl:comp
+có	V	13	acl:subj
+thời hạn	N	17	advmod:adj
+2	M	17	nummod
+năm	N	14	obj
+với	E	19	case
+đội	N	10	obl
+chủ	N	19	nmod
+sân	N	20	nmod
+Công viên	V	21	compound
+các	L	24	det
+Hoàng tử	N	19	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 3
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với tổn thương bắp đùi khá nghiêm trọng, Sergio Ramos nhiều khả năng phải ngồi ngoài hai tháng đầu mùa.
+Với	E	2	case
+tổn thương	N	11	obl
+bắp đùi	N	2	nmod
+khá	R	5	advmod
+nghiêm trọng	A	2	amod
+,	CH	11	punct
+Sergio Ramos	Np	11	nsubj
+nhiều	A	9	advmod:adj
+khả năng	N	11	nsubj
+phải	V	11	aux
+ngồi	V	0	root
+ngoài	E	14	case
+hai	M	14	nummod
+tháng	N	11	obl
+đầu mùa	M	14	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 4
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nhưng, với những diễn biến xấu của chấn thương, Ramos cần chờ đến tháng 10 mới có thể xuất trận cùng các đồng đội mới.
+Thế	P	13	cc
+nhưng	C	1	compound
+,	CH	1	punct
+với	E	6	case
+những	L	6	det
+diễn biến	N	13	obl
+xấu	A	6	amod
+của	E	9	case
+chấn thương	N	6	nmod:poss
+,	CH	6	punct
+Ramos	Np	13	nsubj
+cần	V	13	aux
+chờ	V	0	root
+đến	E	15	case
+tháng	N	13	obl:comp
+10	M	15	nummod
+mới	R	19	advmod
+có thể	R	19	aux
+xuất trận	V	13	conj
+cùng	C	22	case
+các	L	22	det
+đồng đội	N	19	obl:with
+mới	A	22	amod
+.	CH	13	punct
+
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều này sẽ gây thất vọng với số đông fan PSG, bởi họ rất nóng lòng được xem Sergio Ramos cùng Messi thi đấu chung màu cờ sắc áo.
+Điều	N	4	nsubj
+này	P	1	det:pmod
+sẽ	R	4	advmod
+gây	V	0	root
+thất vọng	V	4	xcomp
+với	E	7	case
+số	N	5	obl:with
+đông	N	7	compound
+fan	FW	8	compound
+PSG	Np	7	nmod
+,	CH	4	punct
+bởi	E	15	mark
+họ	P	15	nsubj
+rất	R	15	advmod
+nóng lòng	V	4	advcl
+được	V	17	aux:pass
+xem	V	4	parataxis
+Sergio Ramos	Np	17	obj
+cùng	C	20	case
+Messi	Np	17	obl
+thi đấu	V	20	compound
+chung	A	21	amod
+màu cờ	V	24	case
+sắc áo	N	21	nmod
+.	CH	4	punct

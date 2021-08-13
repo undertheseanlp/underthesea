@@ -4,4 +4,5 @@ task: corpus
 domain: news
 description: COL
 authors:
-  - Vu Anh <anhv.ict91@gmail.com>
+  - anhv.ict91 <anhv.ict91@gmail.com>
+  - underthesea.v1.3.2 <underthesea>
