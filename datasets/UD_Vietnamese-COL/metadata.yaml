@@ -1,0 +1,7 @@
+version: 202108
+year: 2021
+task: corpus
+domain: news
+description: COL
+authors:
+  - Vu Anh <anhv.ict91@gmail.com>
