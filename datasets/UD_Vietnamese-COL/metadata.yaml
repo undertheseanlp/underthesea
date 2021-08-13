@@ -1,0 +1,8 @@
+version: 202108
+year: 2021
+task: corpus
+domain: news
+description: COL
+authors:
+  - anhv.ict91 <anhv.ict91@gmail.com>
+  - underthesea.v1.3.2 <underthesea>

@@ -1,0 +1,323 @@
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 1
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Rất nhiều fan PSG ngóng đợi cựu trung vệ của Real Madrid thi đấu cùng Lionel Messi, bởi trước đây 2 người luôn là đối thủ của nhau ở La Liga.
+Rất	R	3	advmod
+nhiều	A	3	advmod:adj
+fan	N	21	nsubj
+PSG	Np	3	nmod
+ngóng đợi	V	3	nmod
+cựu	A	5	nmod
+trung vệ	N	6	compound
+của	E	9	case
+Real Madrid	Np	3	nmod:poss
+thi đấu	V	9	compound
+cùng	A	12	case
+Lionel Messi	Np	10	obj
+,	CH	21	punct
+bởi	E	21	mark
+trước	N	21	obl
+đây	P	15	det:pmod
+2	M	18	nummod
+người	N	21	nsubj
+luôn	R	21	advmod
+là	V	21	cop
+đối thủ	N	0	root
+của	E	23	case
+nhau	N	21	nmod:poss
+ở	E	25	case
+La Liga	Np	21	obl
+.	CH	21	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 2
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước đó, trung vệ 35 tuổi đã đặt bút ký vào bản hợp đồng có thời hạn 2 năm với đội chủ sân Công viên các Hoàng tử.
+Trước	N	8	obl:tmod
+đó	P	8	obl:tmod
+,	CH	8	punct
+trung vệ	N	6	advmod
+35	M	6	nummod
+tuổi	N	8	nsubj
+đã	R	8	advmod
+đặt	V	0	root
+bút	N	8	obj
+ký	V	8	xcomp
+vào	E	13	case
+bản	Nc	13	det:clf
+hợp đồng	N	10	obl:comp
+có	V	13	acl:subj
+thời hạn	N	17	advmod:adj
+2	M	17	nummod
+năm	N	14	obj
+với	E	19	case
+đội	N	10	obl
+chủ	N	19	nmod
+sân	N	20	nmod
+Công viên	V	21	compound
+các	L	24	det
+Hoàng tử	N	19	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 3
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với tổn thương bắp đùi khá nghiêm trọng, Sergio Ramos nhiều khả năng phải ngồi ngoài hai tháng đầu mùa.
+Với	E	2	case
+tổn thương	N	11	obl
+bắp đùi	N	2	nmod
+khá	R	5	advmod
+nghiêm trọng	A	2	amod
+,	CH	11	punct
+Sergio Ramos	Np	11	nsubj
+nhiều	A	9	advmod:adj
+khả năng	N	11	nsubj
+phải	V	11	aux
+ngồi	V	0	root
+ngoài	E	14	case
+hai	M	14	nummod
+tháng	N	11	obl
+đầu mùa	M	14	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# sent_id = 4
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nhưng, với những diễn biến xấu của chấn thương, Ramos cần chờ đến tháng 10 mới có thể xuất trận cùng các đồng đội mới.
+Thế	P	13	cc
+nhưng	C	1	compound
+,	CH	1	punct
+với	E	6	case
+những	L	6	det
+diễn biến	N	13	obl
+xấu	A	6	amod
+của	E	9	case
+chấn thương	N	6	nmod:poss
+,	CH	6	punct
+Ramos	Np	13	nsubj
+cần	V	13	aux
+chờ	V	0	root
+đến	E	15	case
+tháng	N	13	obl:comp
+10	M	15	nummod
+mới	R	19	advmod
+có thể	R	19	aux
+xuất trận	V	13	conj
+cùng	C	22	case
+các	L	22	det
+đồng đội	N	19	obl:with
+mới	A	22	amod
+.	CH	13	punct
+
+
+# doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
+# date = 20210812
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều này sẽ gây thất vọng với số đông fan PSG, bởi họ rất nóng lòng được xem Sergio Ramos cùng Messi thi đấu chung màu cờ sắc áo.
+Điều	N	4	nsubj
+này	P	1	det:pmod
+sẽ	R	4	advmod
+gây	V	0	root
+thất vọng	V	4	xcomp
+với	E	7	case
+số	N	5	obl:with
+đông	N	7	compound
+fan	FW	8	compound
+PSG	Np	7	nmod
+,	CH	4	punct
+bởi	E	15	mark
+họ	P	15	nsubj
+rất	R	15	advmod
+nóng lòng	V	4	advcl
+được	V	17	aux:pass
+xem	V	4	parataxis
+Sergio Ramos	Np	17	obj
+cùng	C	20	case
+Messi	Np	17	obl
+thi đấu	V	20	compound
+chung	A	21	amod
+màu cờ	V	24	case
+sắc áo	N	21	nmod
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 6
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quang Liêm thắng kỳ thủ số sáu thế giới
+Quang	Np	2	nsubj
+Liêm	Np	0	root
+thắng	V	2	obj
+kỳ thủ	V	2	obj
+số	N	2	obj
+sáu	M	7	nummod
+thế giới	N	2	nmod
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 6
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kỳ thủ Lê Quang Liêm đạt 3 trên 6 điểm ở ngày đầu giải cờ nhanh chớp St Louis sáng 12/8, trong đó có chiến thắng trước Shakhriyar Mamedyarov.
+Kỳ	N	8	nsubj:nn
+thủ	N	1	nmod
+Lê Quang Liêm	Np	2	compound
+đạt	V	1	nmod
+3	M	8	nummod
+trên	N	7	advmod:adj
+6	M	8	nummod
+điểm	N	0	root
+ở	E	10	case
+ngày	N	8	obl
+đầu	N	10	compound
+giải	N	10	nmod
+cờ	N	12	compound
+nhanh	A	12	acl:subj
+chớp	N	14	obl:adj
+St Louis	Np	14	obl:adj
+sáng	N	16	nmod
+12/8	M	17	compound
+,	CH	22	punct
+trong	E	21	case
+đó	P	22	obl
+có	V	14	conj
+chiến thắng	N	22	obj
+trước	N	25	case
+Shakhriyar Mamedyarov	Np	22	obl
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 7
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ván cuối cầm quân đen gặp Mamedyarov, Quang Liêm chơi hay và đạt tỷ lệ sai lầm chỉ 5%.
+Ván	N	2	det:clf
+cuối	N	5	nsubj
+cầm quân	N	2	nmod
+đen	A	3	amod
+gặp	V	0	root
+Mamedyarov	Np	5	obj
+,	CH	9	punct
+Quang	Np	9	nsubj
+Liêm	Np	5	conj
+chơi	V	9	obj
+hay	C	10	obj
+và	C	13	cc
+đạt	V	10	conj
+tỷ lệ	N	13	obj
+sai lầm	N	14	compound
+chỉ	R	17	advmod
+5	M	15	nummod
+%	N	17	flat:number
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 8
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ở ngày thi thứ hai, sáng 13/8, giờ Hà Nội, Quang Liêm cầm quân trắng gặp Nakamura lúc 3h.
+Ở	E	2	case
+ngày	N	16	obl
+thi	V	2	compound
+thứ	N	2	nmod
+hai	M	4	nummod
+,	CH	7	punct
+sáng	N	2	list
+13/8	M	7	nmod
+,	CH	10	punct
+giờ	N	2	list
+Hà Nội	Np	10	nmod
+,	CH	13	punct
+Quang Liêm	Np	2	conj
+cầm quân	V	13	nmod
+trắng	A	14	compound
+gặp	V	0	root
+Nakamura	Np	16	obj
+lúc	N	16	obl:tmod
+3	M	20	nummod
+h	N	18	nmod
+.	CH	16	punct
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 9
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giải nhanh chớp St Louis diễn ra từ 12/8 đến 16/8 tại thành phố St Louis, bang Missouri, Mỹ, là chặng thứ tư của hệ thống Grand Chess Tour 2021, và là lần đầu Quang Liêm được mời.
+Giải	N	5	nsubj
+nhanh	A	1	amod
+chớp	N	1	nmod
+St Louis	Np	3	compound
+diễn	V	0	root
+ra	V	5	compound:dir
+từ	E	8	case
+12/8	N	5	obl:comp
+đến	E	10	case
+16/8	V	8	nmod
+tại	E	12	case
+thành phố	N	8	nmod
+St Louis	Np	12	compound
+,	CH	15	punct
+bang	N	12	list
+Missouri	Np	15	compound
+,	CH	18	punct
+Mỹ	Np	12	list
+,	CH	22	punct
+là	V	21	cop
+chặng	N	35	csubj
+thứ	N	21	nmod
+tư	M	22	nummod
+của	E	25	case
+hệ thống	N	22	nmod:poss
+Grand Chess Tour	Np	25	nmod
+2021	V	26	compound
+,	CH	35	punct
+và	C	31	cc
+là	V	31	cop
+lần	N	35	csubj
+đầu	N	31	nmod
+Quang Liêm	Np	31	nmod
+được	R	35	aux:pass
+mời	V	5	conj
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
+# date = 20210812
+# sent_id = 10
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong 10 kỳ thủ dự giải, Quang Liêm đứng vị trí thấp nhất theo Elo cờ tiêu chuẩn tháng 8/2021 với 2.709 Elo.
+Trong	E	3	case
+10	M	3	nummod
+kỳ	N	9	obl:tmod
+thủ	V	3	compound
+dự	V	3	acl:subj
+giải	N	5	obj
+,	CH	9	punct
+Quang Liêm	Np	9	nsubj
+đứng	V	0	root
+vị trí	N	9	obj
+thấp	A	9	xcomp
+nhất	R	11	advmod
+theo	V	15	case
+Elo	Np	15	nummod
+cờ	N	11	obl
+tiêu chuẩn	N	15	nmod
+tháng	N	16	nmod
+8/2021	M	17	compound
+với	E	20	case
+2.709	N	15	obl
+Elo	Np	20	compound
+.	CH	9	punct
