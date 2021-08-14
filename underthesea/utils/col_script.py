@@ -2,6 +2,7 @@ from os.path import dirname, join
 from torch.utils.data import Dataset
 from underthesea import pos_tag
 from underthesea import dependency_parse
+from underthesea.utils.col_analyzer import UDAnalyzer
 
 BOT_VERSION = "underthesea.v1.3.2"
 PROJECT_FOLDER = dirname(dirname(dirname(__file__)))
@@ -25,8 +26,8 @@ class Sentence(object):
     def get_tags(self):
         pos_tags = pos_tag(self.text)
         dp_tags = dependency_parse(self.text)
-        tags = [(item[0][0], item[0][1], str(item[1][1]), item[1][2]) for item in zip(pos_tags, dp_tags)]
-        return tags
+        self.tags = [(item[0][0], item[0][1], str(item[1][1]), item[1][2]) for item in zip(pos_tags, dp_tags)]
+        return self.tags
 
     def to_ud(self):
         tags = self.get_tags()
@@ -52,12 +53,18 @@ class RawToUDDataset(Dataset):
     def __len__(self):
         return self.len
 
+    def write(self, filepath):
+        with open(filepath, "w") as f:
+            content = "\n\n".join([s.ud_content for s in self])
+            f.write(content)
+
 
 if __name__ == '__main__':
     raw_file = join(COL_FOLDER, "corpus", "raw", "202108.txt")
     dataset = RawToUDDataset(raw_file)
 
     ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
-    with open(ud_file, "w") as f:
-        content = "\n\n".join([s.ud_content for s in dataset])
-        f.write(content)
+    dataset.write(ud_file)
+
+    analyzer = UDAnalyzer()
+    analyzer.analyze(dataset)
