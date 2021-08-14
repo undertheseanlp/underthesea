@@ -117,9 +117,9 @@ các	L	22	det
 mới	A	22	amod
 .	CH	13	punct
 
-
 # doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
 # date = 20210812
+# sent_id = 5
 # type = bronze
 # authors = underthesea.v1.3.2
 # text = Điều này sẽ gây thất vọng với số đông fan PSG, bởi họ rất nóng lòng được xem Sergio Ramos cùng Messi thi đấu chung màu cờ sắc áo.
@@ -162,39 +162,6 @@ kỳ thủ	V	2	obj
 số	N	2	obj
 sáu	M	7	nummod
 thế giới	N	2	nmod
-
-# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
-# date = 20210812
-# sent_id = 6
-# type = bronze
-# authors = underthesea.v1.3.2
-# text = Kỳ thủ Lê Quang Liêm đạt 3 trên 6 điểm ở ngày đầu giải cờ nhanh chớp St Louis sáng 12/8, trong đó có chiến thắng trước Shakhriyar Mamedyarov.
-Kỳ	N	8	nsubj:nn
-thủ	N	1	nmod
-Lê Quang Liêm	Np	2	compound
-đạt	V	1	nmod
-3	M	8	nummod
-trên	N	7	advmod:adj
-6	M	8	nummod
-điểm	N	0	root
-ở	E	10	case
-ngày	N	8	obl
-đầu	N	10	compound
-giải	N	10	nmod
-cờ	N	12	compound
-nhanh	A	12	acl:subj
-chớp	N	14	obl:adj
-St Louis	Np	14	obl:adj
-sáng	N	16	nmod
-12/8	M	17	compound
-,	CH	22	punct
-trong	E	21	case
-đó	P	22	obl
-có	V	14	conj
-chiến thắng	N	22	obj
-trước	N	25	case
-Shakhriyar Mamedyarov	Np	22	obl
-.	CH	14	punct
 
 # doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
 # date = 20210812
@@ -321,3 +288,461 @@ với	E	20	case
 2.709	N	15	obl
 Elo	Np	20	compound
 .	CH	9	punct
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 11
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Taliban tiến như vũ bão, phó tổng thống Afghanistan bị đồn đã 'bỏ trốn'
+Taliban	Np	2	nsubj
+tiến	V	12	advcl
+như	C	4	case
+vũ bão	N	2	obl
+,	CH	6	punct
+phó tổng thống	N	4	conj
+Afghanistan	Np	6	nmod
+bị	V	12	aux:pass
+đồn	V	11	obl:agent
+đã	R	11	advmod
+'	V	12	aux:pass
+bỏ	V	0	root
+trốn	V	12	compound:svc
+'	M	12	punct
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 12
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lực lượng Taliban đã chiếm thêm 4 tỉnh lị trong ngày 13-8 và đang tiến nhanh về thủ đô Kabul, trong bối cảnh có thông tin Phó tổng thống Amrullah Saleh đã bí mật bay sang Tajikistan lánh nạn.
+Lực lượng	N	4	nsubj
+Taliban	Np	1	compound
+đã	R	4	advmod
+chiếm	V	0	root
+thêm	V	4	compound:svc
+4	M	7	nummod
+tỉnh lị	N	4	obj
+trong	E	9	case
+ngày	N	4	obl:tmod
+13-8	M	9	nmod
+và	C	13	cc
+đang	R	13	advmod
+tiến	V	4	conj
+nhanh	A	13	acomp
+về	E	16	case
+thủ đô	N	13	obl:comp
+Kabul	Np	16	compound
+,	CH	27	punct
+trong	E	20	case
+bối cảnh	N	21	obl
+có	V	4	conj
+thông tin	N	21	obj
+Phó tổng thống	N	22	nmod
+Amrullah Saleh	Np	23	nmod
+đã	R	27	advmod
+bí mật	V	27	advmod:adj
+bay	V	4	conj
+sang	V	27	compound:dir
+Tajikistan	Np	27	obl:comp
+lánh nạn	V	29	compound
+.	CH	4	punct
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 13
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo báo The Guardian, Taliban đã tiếp tục cuộc tiến công không thể ngăn cản trong ngày 13-8 và thu về thêm ít nhất 4 tỉnh lị, kéo dài danh sách các tỉnh lị lực lượng này đang kiểm soát.
+Theo	V	7	advcl
+báo	N	1	obj
+The Guardian	Np	2	compound
+,	CH	7	punct
+Taliban	Np	7	nsubj
+đã	R	7	advmod
+tiếp tục	V	0	root
+cuộc	N	11	nsubj
+tiến công	V	8	compound:vmod
+không thể	R	11	advmod:neg
+ngăn cản	V	7	ccomp
+trong	E	13	case
+ngày	N	11	obl
+13-8	M	13	nmod
+và	C	17	cc
+thu	V	17	nsubj
+về	V	11	conj
+thêm	V	17	compound:svc
+ít nhất	X	21	advmod
+4	M	21	nummod
+tỉnh lị	N	17	obj
+,	CH	23	punct
+kéo dài	V	30	nsubj
+danh sách	N	23	obj
+các	L	27	det
+tỉnh lị	N	25	clf
+lực lượng	N	23	obl
+này	P	27	det:pmod
+đang	R	30	advmod
+kiểm soát	V	7	conj
+.	CH	7	punct
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 14
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tiếng súng liên tục nổ chát chúa khi Hasibullah Stanikzai, người đứng đầu hội đồng tỉnh Logar, nói chuyện với Hãng thông tấn AP qua điện thoại.
+Tiếng	N	4	nsubj
+súng	N	1	compound
+liên tục	A	1	amod
+nổ	V	0	root
+chát chúa	A	4	obj
+khi	N	4	obl:tmod
+Hasibullah Stanikzai	Np	6	nmod
+,	CH	10	punct
+người	N	10	nsubj
+đứng	V	5	conj
+đầu	N	10	obj
+hội đồng	N	11	nmod
+tỉnh	N	12	nmod
+Logar	Np	13	compound
+,	CH	16	punct
+nói chuyện	V	4	conj
+với	E	18	case
+Hãng	N	16	obl:comp
+thông tấn	N	18	compound
+AP	Ny	18	compound
+qua	E	22	case
+điện thoại	N	16	obl
+.	CH	4	punct
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 15
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, trong một thông báo ngày 14-8, Văn phòng phó tổng thống bác bỏ việc ông Saleh đã chạy sang Tajikistan và bỏ rơi đất nước.
+Tuy nhiên	C	16	mark
+,	CH	16	punct
+trong	E	5	case
+một	M	5	nummod
+thông báo	N	16	obl:tmod
+ngày	N	16	obl:tmod
+14-8	M	6	nmod
+,	CH	5	punct
+Văn phòng	N	16	nsubj
+phó tổng thống	N	9	nmod
+bác bỏ	V	12	case
+việc	N	9	nmod
+ông	Nc	14	det:clf
+Saleh	Np	16	nsubj
+đã	R	16	advmod
+chạy	V	0	root
+sang	V	16	compound:dir
+Tajikistan	Np	16	obj
+và	C	20	cc
+bỏ rơi	V	18	conj
+đất nước	N	20	compound
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 16
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sáng 14/8, Hà Nội ghi nhận 2 ca Covid-19 ở Ba Đình và Long Biên
+Sáng	N	5	obl:tmod
+14/8	M	1	flat:date
+,	CH	5	punct
+Hà Nội	Np	5	nsubj
+ghi nhận	N	0	root
+2	M	7	nummod
+ca	N	5	obj
+Covid-19	Np	7	compound
+ở	E	10	case
+Ba Đình	Np	7	nmod
+và	C	10	cc
+Long Biên	Np	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 17
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = CDC Hà Nội cho biết, cả 2 trường hợp mới ghi nhận đều đã được cách ly tập trung từ trước.
+CDC	Np	3	nsubj
+Hà Nội	Np	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	3	punct
+cả	T	8	det
+2	M	8	nummod
+trường hợp	N	14	nsubj:pass
+mới	R	10	advmod
+ghi nhận	V	8	nmod
+đều	R	14	advmod
+đã	R	14	advmod
+được	V	15	aux:pass
+cách ly	V	15	obl:agent
+tập trung	V	3	ccomp
+từ	E	17	case
+trước	N	15	obl:tmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 18
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 10/8 BN xuất hiện sốt ho, đau họng được lấy mẫu lần 3 kết quả dương tính do Bệnh viện Thanh Nhàn thực hiện.
+Ngày	N	10	obl:tmod
+10/8	M	1	nmod
+BN	Np	2	compound
+xuất hiện	V	1	acl:subj
+sốt ho	N	4	obj
+,	CH	10	punct
+đau	V	10	nsubj
+họng	N	7	nmod
+được	V	10	aux:pass
+lấy	V	0	root
+mẫu	N	10	obj
+lần	N	10	obl:tmod
+3	M	14	nummod
+kết quả	N	10	obj
+dương tính	A	14	compound
+do	E	19	case
+Bệnh viện	N	19	nsubj
+Thanh Nhàn	Np	17	compound
+thực hiện	V	10	advcl
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 19
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường hợp thứ hai là P.Q.A, nam, 15 tuổi, ở Ngọc Lâm, Long Biên, F1 của bệnh nhân Mai X.B., được lấy mẫu lần 1 âm tính và chuyển cách ly tập trung từ 7/8.
+Trường hợp	N	5	nsubj:nn
+thứ	N	1	nmod
+hai	M	2	nummod
+là	V	5	cop
+P.Q.A	Np	0	root
+,	CH	7	punct
+nam	N	5	conj
+,	CH	10	punct
+15	M	10	nummod
+tuổi	N	5	conj
+,	CH	12	punct
+ở	E	5	conj
+Ngọc Lâm	Np	12	obl:comp
+,	CH	15	punct
+Long Biên	Np	13	conj
+,	CH	17	punct
+F1	Np	5	conj
+của	E	19	case
+bệnh nhân	N	17	nmod:poss
+Mai X.B.	Np	19	compound
+,	CH	23	punct
+được	V	23	aux:pass
+lấy	V	5	conj
+mẫu	N	23	obj
+lần	N	23	obl:tmod
+1	M	25	nummod
+âm tính	N	25	nmod
+và	C	29	cc
+chuyển	V	23	conj
+cách ly	V	29	compound
+tập trung	V	29	acl:subj
+từ	E	33	case
+7/8	N	31	obl
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 20
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy tính từ ngày 27/4 đến nay, Hà Nội đã ghi nhận 2.128 ca dương tính, trong đó số mắc ghi nhận ngoài cộng đồng 1.178 ca.
+Như vậy	X	2	nsubj
+tính	V	11	advcl
+từ	E	4	case
+ngày	N	2	obl:tmod
+27/4	M	4	nmod
+đến	E	7	case
+nay	P	4	nmod
+,	CH	11	punct
+Hà Nội	Np	11	nsubj
+đã	R	11	advmod
+ghi nhận	V	0	root
+2.128	V	13	nummod
+ca	N	11	obj
+dương tính	V	13	compound
+,	CH	18	punct
+trong	E	17	case
+đó	P	20	obl
+số	N	11	conj
+mắc	M	18	compound
+ghi nhận	N	18	acl:subj
+ngoài	E	22	case
+cộng đồng	N	20	obl
+1.178	V	22	nmod
+ca	N	22	nmod
+.	CH	11	punct
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 21
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nổ súng khống chế người nghiện ma túy test dương tính, trốn khỏi khu phong tỏa
+Nổ súng	N	2	nsubj
+khống chế	V	0	root
+người	N	2	compound
+nghiện	V	2	nmod
+ma túy	N	4	obj
+test	V	5	nmod
+dương tính	N	6	obj
+,	CH	9	punct
+trốn	V	2	conj
+khỏi	V	9	compound:svc
+khu	N	9	obj
+phong tỏa	M	2	punct
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 22
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tối 13-8, lãnh đạo UBND xã Vĩnh Thạnh, TP Nha Trang (Khánh Hòa) cho biết chính quyền đã phối hợp với Trung tâm Kiểm soát bệnh tật tỉnh Khánh Hòa đưa đối tượng nghiện ma túy mắc COVID-19 vào khu vực cách ly tập trung.
+Tối	N	14	obl:tmod
+13-8	M	14	nsubj
+,	CH	4	punct
+lãnh đạo	N	14	nsubj
+UBND	Ny	4	nmod
+xã	N	5	nmod
+Vĩnh Thạnh	Np	6	compound
+,	CH	9	punct
+TP	Ny	6	appos:nmod
+Nha Trang	Np	9	compound
+(	CH	12	punct
+Khánh Hòa	Ny	9	appos:nmod
+)	CH	12	punct
+cho	V	0	root
+biết	V	14	compound:svc
+chính quyền	N	18	nsubj
+đã	R	18	advmod
+phối hợp	V	14	ccomp
+với	E	20	case
+Trung tâm	N	18	obl:comp
+Kiểm soát	V	20	compound
+bệnh tật	N	21	compound
+tỉnh	N	20	nmod
+Khánh Hòa	Np	23	compound
+đưa	V	18	advcl:objective
+đối tượng	N	25	obj
+nghiện	V	26	acl:subj
+ma túy	N	27	obj
+mắc	V	26	acl:subj
+COVID-19	Np	29	obj
+vào	E	32	case
+khu vực	N	29	obl:comp
+cách ly	V	32	nmod
+tập trung	V	33	compound
+.	CH	14	punct
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 23
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó vào ngày 12-8, ngành y tế phối hợp với UBND xã Vĩnh Thạnh tổ chức test nhanh COVID-19 đối với 7 người nghiện ma túy ở thôn Phú Bình.
+Theo	V	9	advcl
+đó	P	1	obj
+vào	E	4	case
+ngày	N	1	obl:tmod
+12-8	M	4	nmod
+,	CH	9	punct
+ngành	N	9	nsubj
+y tế	N	7	compound
+phối hợp	V	0	root
+với	E	11	case
+UBND	Ny	9	obl
+xã	N	11	nmod
+Vĩnh Thạnh	Np	12	compound
+tổ chức	V	11	nmod
+test	V	14	compound
+nhanh	A	14	acomp
+COVID-19	Np	16	obl:adj
+đối với	E	20	case
+7	M	20	nummod
+người	N	9	obl
+nghiện	V	20	acl:subj
+ma túy	N	21	obj
+ở	E	24	case
+thôn	N	21	obl
+Phú Bình	Np	24	compound
+.	CH	9	punct
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 24
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong thời gian này, xã Vĩnh Thạnh tiến hành phong tỏa khu vực thuộc thôn Phú Bình, nơi người nghiện này sinh sống, đồng thời yêu cầu ở trong nhà, không ra ngoài lây lan dịch bệnh.
+Trong	E	2	case
+thời gian	N	7	obl:tmod
+này	P	2	det:pmod
+,	CH	7	punct
+xã	N	7	nsubj
+Vĩnh Thạnh	Np	5	compound
+tiến hành	V	0	root
+phong tỏa	V	9	nummod
+khu vực	N	7	obj
+thuộc	V	9	acl:subj
+thôn	N	10	obj
+Phú Bình	Np	11	compound
+,	CH	14	punct
+nơi	N	11	conj
+người	N	14	nmod
+nghiện	V	15	nmod
+này	P	14	det:pmod
+sinh sống	V	14	acl
+,	CH	21	punct
+đồng thời	C	21	advmod
+yêu cầu	V	18	conj
+ở	E	21	xcomp
+trong	E	24	case
+nhà	N	22	obl:comp
+,	CH	27	punct
+không	R	27	advmod:neg
+ra	V	7	conj
+ngoài	N	27	obl:comp
+lây lan	V	27	obl:comp
+dịch bệnh	N	29	compound
+.	CH	7	punct
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 25
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, trong khi chờ kết quả xét nghiệm RT-PCR, người nghiện ma túy này bỏ trốn khỏi khu phong tỏa.
+Tuy nhiên	C	14	mark
+,	CH	14	punct
+trong	E	4	case
+khi	N	14	obl:tmod
+chờ	V	4	acl:tmod
+kết quả	N	5	obj
+xét nghiệm	V	6	nmod
+RT-PCR	Np	6	nmod
+,	CH	4	punct
+người	N	14	nsubj
+nghiện	V	10	nmod
+ma túy	N	11	obj
+này	P	10	det:pmod
+bỏ	V	0	root
+trốn	V	14	xcomp
+khỏi	V	15	compound:svc
+khu	N	15	obj
+phong tỏa	N	17	compound
+.	CH	14	punct

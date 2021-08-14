@@ -18,7 +18,6 @@ Với tổn thương bắp đùi khá nghiêm trọng, Sergio Ramos nhiều kh�
 # sent_id = 4
 Thế nhưng, với những diễn biến xấu của chấn thương, Ramos cần chờ đến tháng 10 mới có thể xuất trận cùng các đồng đội mới.
 
-
 # doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/vua-chieu-mo-messi-tai-hoa-lien-ap-xuong-psg-765116.html
 # date = 20210812
 # sent_id = 5
@@ -28,11 +27,6 @@ Thế nhưng, với những diễn biến xấu của chấn thương, Ramos c�
 # date = 20210812
 # sent_id = 6
 Quang Liêm thắng kỳ thủ số sáu thế giới
-
-# doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
-# date = 20210812
-# sent_id = 6
-Kỳ thủ Lê Quang Liêm đạt 3 trên 6 điểm ở ngày đầu giải cờ nhanh chớp St Louis sáng 12/8, trong đó có chiến thắng trước Shakhriyar Mamedyarov.
 
 # doc_url = https://vnexpress.net/quang-liem-thang-ky-thu-so-sau-the-gioi-4339394.html
 # date = 20210812
@@ -53,3 +47,79 @@ Giải nhanh chớp St Louis diễn ra từ 12/8 đến 16/8 tại thành phố 
 # date = 20210812
 # sent_id = 10
 Trong 10 kỳ thủ dự giải, Quang Liêm đứng vị trí thấp nhất theo Elo cờ tiêu chuẩn tháng 8/2021 với 2.709 Elo.
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 11
+Taliban tiến như vũ bão, phó tổng thống Afghanistan bị đồn đã 'bỏ trốn'
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 12
+Lực lượng Taliban đã chiếm thêm 4 tỉnh lị trong ngày 13-8 và đang tiến nhanh về thủ đô Kabul, trong bối cảnh có thông tin Phó tổng thống Amrullah Saleh đã bí mật bay sang Tajikistan lánh nạn.
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 13
+Theo báo The Guardian, Taliban đã tiếp tục cuộc tiến công không thể ngăn cản trong ngày 13-8 và thu về thêm ít nhất 4 tỉnh lị, kéo dài danh sách các tỉnh lị lực lượng này đang kiểm soát.
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 14
+Tiếng súng liên tục nổ chát chúa khi Hasibullah Stanikzai, người đứng đầu hội đồng tỉnh Logar, nói chuyện với Hãng thông tấn AP qua điện thoại.
+
+# doc_url = https://tuoitre.vn/taliban-tien-nhu-vu-bao-pho-tong-thong-afghanistan-bi-don-da-bo-tron-20210814052336155.htm
+# date = 20210813
+# sent_id = 15
+Tuy nhiên, trong một thông báo ngày 14-8, Văn phòng phó tổng thống bác bỏ việc ông Saleh đã chạy sang Tajikistan và bỏ rơi đất nước.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 16
+Sáng 14/8, Hà Nội ghi nhận 2 ca Covid-19 ở Ba Đình và Long Biên
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 17
+CDC Hà Nội cho biết, cả 2 trường hợp mới ghi nhận đều đã được cách ly tập trung từ trước.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 18
+Ngày 10/8 BN xuất hiện sốt ho, đau họng được lấy mẫu lần 3 kết quả dương tính do Bệnh viện Thanh Nhàn thực hiện.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 19
+Trường hợp thứ hai là P.Q.A, nam, 15 tuổi, ở Ngọc Lâm, Long Biên, F1 của bệnh nhân Mai X.B., được lấy mẫu lần 1 âm tính và chuyển cách ly tập trung từ 7/8.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/sang-14-8-ha-noi-ghi-nhan-2-ca-covid-19-o-ba-dinh-va-long-bien-765747.html
+# date = 20210813
+# sent_id = 20
+Như vậy tính từ ngày 27/4 đến nay, Hà Nội đã ghi nhận 2.128 ca dương tính, trong đó số mắc ghi nhận ngoài cộng đồng 1.178 ca.
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 21
+Nổ súng khống chế người nghiện ma túy test dương tính, trốn khỏi khu phong tỏa
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 22
+Tối 13-8, lãnh đạo UBND xã Vĩnh Thạnh, TP Nha Trang (Khánh Hòa) cho biết chính quyền đã phối hợp với Trung tâm Kiểm soát bệnh tật tỉnh Khánh Hòa đưa đối tượng nghiện ma túy mắc COVID-19 vào khu vực cách ly tập trung.
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 23
+Theo đó vào ngày 12-8, ngành y tế phối hợp với UBND xã Vĩnh Thạnh tổ chức test nhanh COVID-19 đối với 7 người nghiện ma túy ở thôn Phú Bình.
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 24
+Trong thời gian này, xã Vĩnh Thạnh tiến hành phong tỏa khu vực thuộc thôn Phú Bình, nơi người nghiện này sinh sống, đồng thời yêu cầu ở trong nhà, không ra ngoài lây lan dịch bệnh.
+
+# doc_url = https://tuoitre.vn/no-sung-khong-che-nguoi-nghien-ma-tuy-test-duong-tinh-tron-khoi-khu-phong-toa-20210813201912519.htm
+# date = 20210813
+# sent_id = 25
+Tuy nhiên, trong khi chờ kết quả xét nghiệm RT-PCR, người nghiện ma túy này bỏ trốn khỏi khu phong tỏa.
+
