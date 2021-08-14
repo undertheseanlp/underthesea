@@ -167,6 +167,7 @@ def main():
         config=config,
         cache_dir=model_args.cache_dir,
     )
+    print(0)
 
     # Get datasets
     train_dataset = (
