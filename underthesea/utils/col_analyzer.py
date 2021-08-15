@@ -25,6 +25,7 @@ class UDAnalyzer:
         oov = corpus_words - dictionary_words
         print("OOV words")
         print(oov)
+        return counter
 
     def analyze_sent_ids(self, dataset):
         """Get sent_id of all sentences
