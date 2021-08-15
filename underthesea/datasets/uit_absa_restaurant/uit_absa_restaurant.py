@@ -32,15 +32,15 @@ class LabelEncoder:
             return self.label2index[label]
 
 
-class UITABSAHotel:
-    NAME = "UIT_ABSA_HOTEL"
+class UITABSARestaurant:
+    NAME = "UIT_ABSA_RESTAURANT"
     VERSION = "1.0"
 
     def __init__(self, training="aspect"):
-        DataFetcher.download_data(UITABSAHotel.NAME, None)
-        train_file = join(DATASETS_FOLDER, UITABSAHotel.NAME, "Train_Hotel.txt")
-        dev_file = join(DATASETS_FOLDER, UITABSAHotel.NAME, "Dev_Hotel.txt")
-        test_file = join(DATASETS_FOLDER, UITABSAHotel.NAME, "Test_Hotel.txt")
+        DataFetcher.download_data(UITABSARestaurant.NAME, None)
+        train_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Train.txt")
+        dev_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Dev.txt")
+        test_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Test.txt")
         print("Currently training: %s (aspect or polarity)" % training)
 
         self.training = training  # aspect or polarity
@@ -82,4 +82,4 @@ class UITABSAHotel:
 
 
 if __name__ == '__main__':
-    dataset = UITABSAHotel(training="aspect")
+    dataset = UITABSARestaurant(training="aspect")
