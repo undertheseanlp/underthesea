@@ -12,7 +12,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import AutoTokenizer, AdamW, RobertaModel, BertPreTrainedModel, RobertaConfig
 from underthesea import word_tokenize
 
-DATASET_FOLDER = "/Users/taidnguyen/Desktop/Sentence-level-Hotel"
+DATASET_FOLDER = "/home/anhv/.underthesea/datasets/UIT_ABSA_HOTEL"
 BERT_MODEL_NAME = "vinai/phobert-base"
 fnames = dict(
     restaurant=dict(
