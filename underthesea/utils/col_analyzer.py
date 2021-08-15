@@ -32,8 +32,11 @@ class UDAnalyzer:
         [s.sent_id for s in dataset]
         logger.debug("send_ids is valid.")
 
-    def analyze(self, dataset):
+    def analyze_dataset_len(self, dataset):
         print("Number of sentences", len(dataset))
+
+    def analyze(self, dataset):
+        self.analyze_dataset_len(dataset)
         self.analyze_sent_ids(dataset)
         self.analyze_words(dataset)
 

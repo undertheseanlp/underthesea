@@ -3,7 +3,6 @@
 import os
 from datetime import datetime
 from underthesea.utils import logger, device
-from underthesea.transforms.conll import progress_bar
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_field import Field
 from underthesea.utils.sp_fn import ispunct
@@ -33,33 +32,33 @@ class DependencyParser(underthesea.modules.nn.Model):
     NAME = 'biaffine-dependency'
 
     def __init__(
-        self,
-        n_words=None,
-        pad_index=0,
-        unk_index=1,
-        n_feats=None,
-        n_rels=None,
-        feat='char',
-        n_embed=50,
-        n_feat_embed=100,
-        n_char_embed=50,
-        bert=None,
-        n_bert_layers=4,
-        embed_dropout=.33,
-        max_len=None,
-        mix_dropout=.0,
-        embeddings=[],
-        embed=False,
+            self,
+            n_words=None,
+            pad_index=0,
+            unk_index=1,
+            n_feats=None,
+            n_rels=None,
+            feat='char',
+            n_embed=50,
+            n_feat_embed=100,
+            n_char_embed=50,
+            bert=None,
+            n_bert_layers=4,
+            embed_dropout=.33,
+            max_len=None,
+            mix_dropout=.0,
+            embeddings=[],
+            embed=False,
 
-        n_lstm_hidden=400,
-        n_lstm_layers=3,
-        lstm_dropout=.33,
-        n_mlp_arc=500,
-        n_mlp_rel=100,
-        mlp_dropout=.33,
-        feat_pad_index=0,
-        init_pre_train=False,
-        transform=None
+            n_lstm_hidden=400,
+            n_lstm_layers=3,
+            lstm_dropout=.33,
+            n_mlp_arc=500,
+            n_mlp_rel=100,
+            mlp_dropout=.33,
+            feat_pad_index=0,
+            init_pre_train=False,
+            transform=None
     ):
         super(DependencyParser, self).__init__()
         self.embed = embed
@@ -155,14 +154,14 @@ class DependencyParser(underthesea.modules.nn.Model):
 
     @torch.no_grad()
     def predict(
-        self,
-        data,
-        buckets=8,
-        batch_size=5000,
-        pred=None,
-        prob=False,
-        tree=True,
-        proj=False,
+            self,
+            data,
+            buckets=8,
+            batch_size=5000,
+            pred=None,
+            prob=False,
+            tree=True,
+            proj=False,
     ):
         r"""
         Args:
@@ -192,18 +191,18 @@ class DependencyParser(underthesea.modules.nn.Model):
         if prob:
             self.transform.append(Field('probs'))
 
-        logger.info('Loading the data')
+        logger.debug('Loading the data')
         dataset = Dataset(self.transform, data)
         dataset.build(batch_size, buckets)
-        logger.info(f'\n{dataset}')
+        logger.debug(f'\n{dataset}')
 
-        logger.info('Making predictions on the dataset')
+        logger.debug('Making predictions on the dataset')
         start = datetime.now()
         loader = dataset.loader
         self.eval()
 
         arcs, rels, probs = [], [], []
-        for words, feats in progress_bar(loader):
+        for words, feats in loader:
             mask = words.ne(self.WORD.pad_index)
             # ignore the first token of each sentence
             mask[:, 0] = 0
@@ -226,9 +225,9 @@ class DependencyParser(underthesea.modules.nn.Model):
         for name, value in preds.items():
             setattr(dataset, name, value)
         if pred is not None:
-            logger.info(f'Saving predicted results to {pred}')
+            logger.debug(f'Saving predicted results to {pred}')
             self.transform.save(pred, dataset.sentences)
-        logger.info(f'{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s')
+        logger.debug(f'{elapsed}s elapsed, {len(dataset) / elapsed.total_seconds():.2f} Sents/s')
 
         return dataset
 
