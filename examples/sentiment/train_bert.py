@@ -11,7 +11,7 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
 class UITABSADataset(Dataset):
-    def __init__(self, data, tokenizer: AutoTokenizer, num_labels, max_sequence_len: int=100):
+    def __init__(self, data, tokenizer: AutoTokenizer, num_labels, max_sequence_len: int = 100):
         super().__init__()
         self.data = data
         self.tokenizer = tokenizer
