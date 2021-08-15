@@ -123,3 +123,127 @@ Trong thời gian này, xã Vĩnh Thạnh tiến hành phong tỏa khu vực thu
 # sent_id = 25
 Tuy nhiên, trong khi chờ kết quả xét nghiệm RT-PCR, người nghiện ma túy này bỏ trốn khỏi khu phong tỏa.
 
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 26
+Bị bố chồng sàm sỡ nhưng nói không ai tin, con dâu đặt camera quay lén khiến cả nhà chồng 'đứng hình'
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 27
+Tại Ấn Độ, nơi mà nhiều định kiến về phụ nữ vẫn còn tồn tại, người ta thường khuyên phụ nữ hãy ăn mặc giản dị và kín đáo, không đi ra khỏi nhà vào buổi tối muộn để tránh bị quấy rối tình dục.
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 28
+Thế nhưng, có 1 thực tế là hầu hết các vụ quấy rối, thậm chí là cưỡng bức phụ nữ đều xảy ra ở trong ngôi nhà mà họ sinh sống và thủ phạm lại là những người mà họ quen biết, thậm chí là người thân của họ.
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 29
+Theo đó, 1 cô gái đã về làm dâu 1 gia đình ở thành phố Jalandhar, bang Punjab của Ấn Độ từ cách đây 5 năm.
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 30
+Mặc dù là người có công ăn việc làm và thu nhập hẳn hoi, nhưng cô không hề nhận được sự tôn trọng của nhà chồng - những người luôn lấy màu da của cô ra để chê bai, sỉ nhục.
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 31
+Vàng lên 60 triệu đồng/lượng, những cảnh báo mức giá kỷ lục mới
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 32
+Trong phiên giao dịch 6/8, giá vàng giao ngay lao dốc mất hơn 100 USD và xuống dưới ngưỡng 1.700 USD/ounce.
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 33
+Giá vàng giao tháng 10 có lúc xuống tới ngưỡng 1.677 USD/ounce.
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 34
+Giá vàng giảm mạnh và hiện mới chỉ hồi phục lên khoảng 1.750 USD/ounce trong bối cảnh giới đầu tư bắt đầu cảm nhận được ảnh hưởng tiêu cực của làn sóng lây nhiễm mới của đại dịch Covid-19.
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 35
+Mỹ và nhiều nước châu Á chứng kiến tình trạng lây nhiễm rất nhanh. Số người thiệt mạng tăng nhanh.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 36
+Đặc sản cá nướng vùng cao, ngày bán trăm con làm mồi đổi vị
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 37
+Cá ướp gia vị nướng sẵn, cho vào túi hút chân không được chuyển từ Điện Biên về Hà Nội có vị thơm ngon, các bà nội trợ thi nhau đặt mua nên tiểu thương bán được cả trăm con mỗi ngày.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 38
+Đợi một tuần mới nhận được món cá nướng Điện Biên đặt mua trên chợ mạng, tới bữa chị Hương (Ba Đình, Hà Nội) cẩn thận bọc cá vào giấy bạc nướng lại cho nóng rồi bày ra đĩa để cả nhà thưởng thức.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 39
+Vừa rồi thấy trên mạng rao bán cá nướng Điện Biên, mình đặt mua hai con về ăn thử, thấy hương vị rất ngon, đúng với vị quê hương nên sau đó mình đặt thêm 3 con bỏ tủ ăn dần, đang mùa dịch đỡ phải đi chợ nghĩ món
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 40
+Chị Bảo Quỳnh (Đê La Thành, Hà Nội) - một tiểu thương bán món cá nướng đặc biệt này, cho biết chị mới bán cá nướng Điện Biên hơn một tháng nay, khách hàng mua rất nhiều.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 41
+Rao 2 năm không ai hỏi, đại hạ giá 280 tỷ bán nhà máy bị xiết nợ
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 42
+Sau gần 2 năm không ai hỏi mua, Vietcombank thông báo hạ giá tài sản là nhà máy sản xuất trứng gà sạch của Công ty TNHH ĐTK Phú Thọ từ 554 tỷ đồng xuống gần 273 tỷ đồng, để thu hồi nợ gốc.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 43
+Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) - chi nhánh Hà Nội mới đây đã có thông báo về việc tổ chức đấu giá bán tài sản liên quan khoản nợ xấu để thu hồi nợ gốc.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 44
+Đây là tài sản thế chấp của ĐTK để đảm bảo cho các khoản vay tại Vietcombank.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 45
+Đáng chú ý, đây không phải lần đầu tiên Vietcombank rao bán 2 tài sản liên quan nhà máy sản xuất trứng gà sạch tại tỉnh Phú Thọ.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 46
+Cúng Rằm tháng 7 thời Covid-19, sắm đồ mã cho ông bà qua online
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 47
+Thay vì trực tiếp ra chợ để mua vàng mã cúng Rằm tháng 7 Âm lịch, nhiều gia đình ngay từ thời điểm này đã đi "chợ mạng" đặt mua vàng mã nhang nến rao tận nhà.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 48
+Tranh thủ ngày cuối tuần, chị Nguyễn Minh Hằng (Yên Nghĩa, Hà Đông, Hà Nội) thay vì ra chợ mua vàng mã để cúng Rằm tháng 7, chị vào các group chợ mạng bán đồ vàng mã online để chọn mua.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 49
+Chị Hằng cho biết, từ ngày dịch bệnh diễn biến phức tạp, gia đình chị thường ở yên trong nhà.
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 50
+Bà nội trợ này nói thêm, chỉ cần từ 150.000-300.000 đồng là có thể đặt được những sản phẩm vàng mã thiết yếu như bộ quần áo, tiền vàng, hương nến,... để chuẩn bị cúng Rằm, tùy chất liệu giấy mã đẹp hay xấu.

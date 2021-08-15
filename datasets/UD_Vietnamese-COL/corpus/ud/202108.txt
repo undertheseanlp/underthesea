@@ -746,3 +746,890 @@ khỏi	V	15	compound:svc
 khu	N	15	obj
 phong tỏa	N	17	compound
 .	CH	14	punct
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 26
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bị bố chồng sàm sỡ nhưng nói không ai tin, con dâu đặt camera quay lén khiến cả nhà chồng 'đứng hình'
+Bị	V	2	aux:pass
+bố chồng	V	16	advcl
+sàm sỡ	V	2	obj
+nhưng	C	5	mark
+nói	V	2	conj
+không	R	7	advmod:neg
+ai	P	8	nsubj
+tin	V	5	ccomp
+,	CH	12	punct
+con	Nc	11	det:clf
+dâu	N	12	nsubj
+đặt	V	0	root
+camera	N	12	obj
+quay	V	12	xcomp
+lén	V	14	obj
+khiến	V	14	xcomp
+cả	T	18	det
+nhà	N	16	obj
+chồng	N	18	nmod
+'	V	19	compound
+đứng	V	16	xcomp
+hình	N	21	obj
+'	M	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 27
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại Ấn Độ, nơi mà nhiều định kiến về phụ nữ vẫn còn tồn tại, người ta thường khuyên phụ nữ hãy ăn mặc giản dị và kín đáo, không đi ra khỏi nhà vào buổi tối muộn để tránh bị quấy rối tình dục.
+Tại	E	2	case
+Ấn Độ	Np	12	obl
+,	CH	12	punct
+nơi	N	12	nsubj
+mà	C	12	mark
+nhiều	A	7	advmod:adj
+định kiến	N	12	nsubj
+về	E	9	case
+phụ nữ	N	7	nmod
+vẫn	R	12	advmod
+còn	R	12	advmod
+tồn tại	V	0	root
+,	CH	16	punct
+người ta	P	16	nsubj
+thường	R	16	advmod
+khuyên	V	12	conj
+phụ nữ	N	16	obj
+hãy	R	19	advmod
+ăn mặc	V	16	conj
+giản dị	A	19	obj
+và	C	22	cc
+kín đáo	A	20	conj
+,	CH	25	punct
+không	R	25	advmod:neg
+đi	V	16	conj
+ra	V	25	compound:dir
+khỏi	V	25	xcomp
+nhà	N	27	obj
+vào	E	30	case
+buổi	N	31	det:clf
+tối	N	27	obl
+muộn	A	31	amod
+để	E	34	mark:pcomp
+tránh	V	25	advcl:objective
+bị	V	36	aux:pass
+quấy rối	V	34	xcomp
+tình dục	N	36	obj
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 28
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nhưng, có 1 thực tế là hầu hết các vụ quấy rối, thậm chí là cưỡng bức phụ nữ đều xảy ra ở trong ngôi nhà mà họ sinh sống và thủ phạm lại là những người mà họ quen biết, thậm chí là người thân của họ.
+Thế	P	18	discourse
+nhưng	C	1	compound
+,	CH	1	punct
+có	V	10	advmod
+1	M	6	nummod
+thực tế	N	4	obj
+là	V	10	cop
+hầu hết	X	10	advmod
+các	L	10	det
+vụ	N	0	root
+quấy rối	V	10	compound
+,	CH	16	punct
+thậm chí	R	14	advmod
+là	V	16	cop
+cưỡng bức	N	16	nummod
+phụ nữ	N	10	conj
+đều	R	18	advmod
+xảy	V	16	acl:subj
+ra	V	18	compound:svc
+ở	E	23	case
+trong	E	23	case
+ngôi	Nc	23	det:clf
+nhà	N	18	obl:comp
+mà	C	26	mark
+họ	P	26	nsubj
+sinh sống	V	23	acl:relcl
+và	C	32	cc
+thủ phạm	N	32	nsubj
+lại	R	32	advmod
+là	V	32	cop
+những	L	32	det
+người	Nc	18	conj
+mà	C	35	mark
+họ	P	35	nsubj
+quen biết	V	32	ccomp
+,	CH	39	punct
+thậm chí	R	39	advmod
+là	V	39	cop
+người thân	N	32	conj
+của	E	41	case
+họ	P	39	nmod:poss
+.	CH	18	punct
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 29
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó, 1 cô gái đã về làm dâu 1 gia đình ở thành phố Jalandhar, bang Punjab của Ấn Độ từ cách đây 5 năm.
+Theo	V	8	advcl
+đó	P	1	obj
+,	CH	8	punct
+1	M	6	nummod
+cô	Nc	4	clf
+gái	N	8	nsubj
+đã	R	8	advmod
+về	V	0	root
+làm	V	8	xcomp
+dâu	N	9	obj
+1	M	12	nummod
+gia đình	N	9	obj
+ở	E	14	case
+thành phố	N	9	obl
+Jalandhar	Np	14	compound
+,	CH	17	punct
+bang	N	14	conj
+Punjab	Np	17	compound
+của	E	20	case
+Ấn Độ	Np	17	nmod:poss
+từ	E	22	case
+cách	V	8	obl
+đây	P	22	nmod
+5	M	25	nummod
+năm	N	22	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/doi-song/gia-dinh/bi-bo-chong-sam-so-nhung-noi-khong-ai-tin-con-dau-dat-camera-quay-len-khien-ca-nha-chong-dung-hinh-765859.html
+# date = 20210814
+# sent_id = 30
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mặc dù là người có công ăn việc làm và thu nhập hẳn hoi, nhưng cô không hề nhận được sự tôn trọng của nhà chồng - những người luôn lấy màu da của cô ra để chê bai, sỉ nhục.
+Mặc dù	C	3	mark
+là	V	3	cop
+người	N	14	advcl
+có	V	3	acl:subj
+công ăn việc làm	N	4	obj
+và	C	7	cc
+thu nhập	N	5	conj
+hẳn hoi	A	7	amod
+,	CH	14	punct
+nhưng	C	14	mark
+cô	Nc	14	nsubj
+không	R	14	advmod:neg
+hề	T	14	advmod
+nhận	V	0	root
+được	R	14	advmod
+sự	N	14	obj
+tôn trọng	V	16	compound:vmod
+của	E	19	case
+nhà chồng	N	16	nmod:poss
+-	CH	24	punct
+những	L	22	det
+người	Nc	16	nmod:poss
+luôn	R	24	advmod
+lấy	V	22	acl:subj
+màu da	N	24	obj
+của	E	27	case
+cô	Nc	25	nmod:poss
+ra	V	27	acl:subj
+để	E	30	mark:pcomp
+chê bai	V	24	advcl:objective
+,	CH	32	punct
+sỉ nhục	N	30	conj
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 31
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vàng lên 60 triệu đồng/lượng, những cảnh báo mức giá kỷ lục mới
+Vàng	V	2	nsubj
+lên	V	0	root
+60	M	5	nummod
+triệu	M	5	nummod
+đồng	Nu	2	obj
+/	CH	5	punct
+lượng	N	5	nmod
+,	CH	10	punct
+những	L	10	det
+cảnh báo	N	5	conj
+mức	N	10	nmod
+giá	N	11	nmod
+kỷ lục	N	12	nmod
+mới	R	12	amod
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 32
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong phiên giao dịch 6/8, giá vàng giao ngay lao dốc mất hơn 100 USD và xuống dưới ngưỡng 1.700 USD/ounce.
+Trong	E	2	case
+phiên	N	8	obl
+giao dịch	V	2	nmod
+6/8	N	2	nmod
+,	CH	8	punct
+giá	N	8	nsubj
+vàng	N	6	compound
+giao	V	0	root
+ngay	T	8	advmod
+lao	N	11	nummod
+dốc	N	8	obj
+mất	V	10	acl:subj
+hơn	A	14	advmod:adj
+100	M	15	nummod
+USD	Nu	12	obj
+và	C	17	cc
+xuống	V	8	conj
+dưới	E	17	obl:comp
+ngưỡng	N	17	obl:comp
+1.700	M	21	nummod
+USD	Nu	17	obj
+/	CH	23	punct
+ounce	N	21	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 33
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giá vàng giao tháng 10 có lúc xuống tới ngưỡng 1.677 USD/ounce.
+Giá	N	6	nsubj
+vàng	N	1	nmod
+giao	V	1	acl:subj
+tháng	N	1	nmod
+10	M	4	nummod
+có	V	0	root
+lúc	N	6	obj
+xuống	V	7	acl:subj
+tới	E	8	compound:svc
+ngưỡng	N	8	obj
+1.677	M	12	nummod
+USD	Nu	8	obj
+/	CH	14	punct
+ounce	N	12	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 34
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giá vàng giảm mạnh và hiện mới chỉ hồi phục lên khoảng 1.750 USD/ounce trong bối cảnh giới đầu tư bắt đầu cảm nhận được ảnh hưởng tiêu cực của làn sóng lây nhiễm mới của đại dịch Covid-19.
+Giá	N	3	nsubj
+vàng	N	1	nmod
+giảm	V	0	root
+mạnh	A	3	acomp
+và	C	6	cc
+hiện	N	9	obl:tmod
+mới	R	9	advmod
+chỉ	R	9	advmod
+hồi phục	V	3	conj
+lên	V	9	compound:dir
+khoảng	A	9	obj
+1.750	M	13	nummod
+USD	Nu	11	nmod
+/	CH	13	punct
+ounce	N	13	nmod
+trong	E	17	case
+bối cảnh giới	N	13	nmod
+đầu tư	V	17	compound
+bắt đầu	V	9	xcomp
+cảm nhận	V	19	xcomp
+được	R	20	advmod
+ảnh hưởng	V	20	obj
+tiêu cực	N	22	compound
+của	E	25	case
+làn sóng	N	22	nmod:poss
+lây nhiễm	V	25	compound
+mới	A	25	amod
+của	E	29	case
+đại dịch	N	26	nmod:poss
+Covid-19	Np	29	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/tai-chinh/hai-ly-do-khien-vang-se-lap-ky-luc-moi-trong-2021-765308.html
+# date = 20210814
+# sent_id = 35
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỹ và nhiều nước châu Á chứng kiến tình trạng lây nhiễm rất nhanh. Số người thiệt mạng tăng nhanh.
+Mỹ	Np	6	nsubj
+và	C	4	cc
+nhiều	A	4	advmod:adj
+nước	N	1	conj
+châu Á	N	4	nmod
+chứng kiến	V	0	root
+tình trạng	N	6	obj
+lây nhiễm	V	7	nmod
+rất	R	10	advmod
+nhanh	A	8	acomp
+.	CH	15	punct
+Số	N	15	nsubj
+người	N	12	nmod
+thiệt mạng	V	13	compound
+tăng	V	8	conj
+nhanh	A	15	acomp
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 36
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đặc sản cá nướng vùng cao, ngày bán trăm con làm mồi đổi vị
+Đặc sản	N	2	nummod
+cá	N	10	nsubj
+nướng	V	4	case
+vùng cao	N	2	nmod
+,	CH	6	punct
+ngày	N	10	nsubj
+bán	V	6	acl:subj
+trăm	M	9	nummod
+con	N	7	obj
+làm	V	0	root
+mồi	N	10	obj
+đổi	V	10	xcomp
+vị	N	10	obj
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 37
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cá ướp gia vị nướng sẵn, cho vào túi hút chân không được chuyển từ Điện Biên về Hà Nội có vị thơm ngon, các bà nội trợ thi nhau đặt mua nên tiểu thương bán được cả trăm con mỗi ngày.
+Cá	N	4	nsubj
+ướp	V	1	compound
+gia vị	N	2	compound
+nướng	V	0	root
+sẵn	A	4	amod
+,	CH	7	punct
+cho	V	1	conj
+vào	E	9	case
+túi	N	7	obl:comp
+hút	V	9	compound
+chân	N	10	compound
+không	R	13	advmod:neg
+được	V	14	aux:pass
+chuyển	V	7	conj
+từ Điện Biên	V	14	obj
+về	E	17	case
+Hà Nội	Np	14	obl:comp
+có	V	17	acl:subj
+vị	N	18	obj
+thơm	A	19	compound
+ngon	A	20	amod
+,	CH	26	punct
+các	L	25	det
+bà	Nc	23	clf
+nội trợ	V	26	nsubj
+thi	V	14	conj
+nhau	N	26	obj
+đặt	V	26	xcomp
+mua	V	28	xcomp
+nên	C	32	mark
+tiểu thương	N	32	nsubj
+bán	V	28	conj
+được	R	32	advmod
+cả	T	35	det
+trăm	M	36	nummod
+con	N	32	obj
+mỗi	L	38	det
+ngày	N	36	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 38
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đợi một tuần mới nhận được món cá nướng Điện Biên đặt mua trên chợ mạng, tới bữa chị Hương (Ba Đình, Hà Nội) cẩn thận bọc cá vào giấy bạc nướng lại cho nóng rồi bày ra đĩa để cả nhà thưởng thức.
+Đợi	V	3	case
+một	M	3	nummod
+tuần	N	5	obl:tmod
+mới	R	5	advmod
+nhận	V	0	root
+được	R	5	advmod
+món	N	8	det:clf
+cá	N	5	obj
+nướng	V	8	nmod
+Điện Biên	Np	9	compound
+đặt	V	8	acl:subj
+mua	V	11	acomp
+trên	E	14	case
+chợ	N	11	obl
+mạng	N	14	compound
+,	CH	17	punct
+tới	E	5	conj
+bữa	N	17	obj
+chị	Nc	18	nmod
+Hương	Np	19	compound
+(	CH	22	punct
+Ba Đình	Np	20	appos:nmod
+,	CH	24	punct
+Hà Nội	Np	22	conj
+)	CH	22	punct
+cẩn thận	A	33	advcl
+bọc	V	5	obj
+cá	N	27	compound
+vào	E	27	acl:subj
+giấy bạc	N	29	obl:comp
+nướng	V	33	punct
+lại	V	33	advmod
+cho	E	5	conj
+nóng	A	33	obl:comp
+rồi	C	36	cc
+bày	V	33	conj
+ra	V	36	compound:dir
+đĩa	N	36	obj
+để	E	36	xcomp
+cả	T	41	det
+nhà	N	39	obj
+thưởng thức	V	41	compound
+.	CH	33	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 39
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vừa rồi thấy trên mạng rao bán cá nướng Điện Biên, mình đặt mua hai con về ăn thử, thấy hương vị rất ngon, đúng với vị quê hương nên sau đó mình đặt thêm 3 con bỏ tủ ăn dần, đang mùa dịch đỡ phải đi chợ nghĩ món
+Vừa rồi	X	2	advmod
+thấy	V	12	advcl
+trên	E	4	case
+mạng	N	2	obl
+rao	V	4	compound
+bán	V	5	acl:subj
+cá	N	6	obj
+nướng	V	9	case
+Điện Biên	Np	6	obl
+,	CH	12	punct
+mình	P	12	nsubj
+đặt	V	0	root
+mua	V	12	xcomp
+hai	M	15	nummod
+con	N	13	obj
+về	V	12	xcomp
+ăn	V	16	xcomp
+thử	V	17	amod
+,	CH	20	punct
+thấy	V	12	conj
+hương vị	V	20	obj
+rất	R	23	advmod
+ngon	A	21	acl:subj
+,	CH	25	punct
+đúng	A	33	advcl
+với	E	28	case
+vị	Nc	28	det:clf
+quê hương	N	25	obl:with
+nên	C	33	mark
+sau	N	33	obl:tmod
+đó	P	30	det:pmod
+mình	P	33	nsubj
+đặt	V	12	conj
+thêm	V	33	compound:svc
+3	M	37	nummod
+con	N	35	clf
+bỏ	V	33	obj
+tủ	N	37	compound
+ăn	V	37	acl:subj
+dần	R	39	advmod
+,	CH	45	punct
+đang	R	43	advmod
+mùa	N	47	nsubj
+dịch	N	43	nmod
+đỡ	V	47	advmod
+phải	V	47	aux
+đi	V	33	conj
+chợ	N	47	obj
+nghĩ	V	47	xcomp
+món	N	49	obj
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/dac-san-ca-nuong-vung-cao-ngay-ban-tram-con-lam-moi-doi-vi-765543.html
+# date = 20210814
+# sent_id = 40
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị Bảo Quỳnh (Đê La Thành, Hà Nội) - một tiểu thương bán món cá nướng đặc biệt này, cho biết chị mới bán cá nướng Điện Biên hơn một tháng nay, khách hàng mua rất nhiều.
+Chị	Nc	2	det:clf
+Bảo Quỳnh	Np	18	nsubj
+(	CH	4	punct
+Đê La Thành	Np	2	appos:nmod
+,	CH	6	punct
+Hà Nội	Np	4	conj
+)	CH	4	punct
+-	CH	11	punct
+một	M	10	nummod
+tiểu thương	N	2	appos:nmod
+bán	V	10	acl:subj
+món	N	13	det:clf
+cá	N	11	obj
+nướng	V	13	compound
+đặc biệt	A	13	amod
+này	P	15	det:pmod
+,	CH	11	punct
+cho	V	0	root
+biết	V	18	compound:svc
+chị	Nc	22	nsubj
+mới	R	22	advmod
+bán	V	18	ccomp
+cá	N	22	obj
+nướng	V	23	nmod
+Điện Biên	Np	24	compound
+hơn	A	28	advmod:adj
+một	M	28	nummod
+tháng	N	24	obl:tmod
+nay	P	28	det:pmod
+,	CH	32	punct
+khách hàng	N	32	nsubj
+mua	V	18	parataxis
+rất	R	34	advmod
+nhiều	A	32	acomp
+.	CH	18	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 41
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Rao 2 năm không ai hỏi, đại hạ giá 280 tỷ bán nhà máy bị xiết nợ
+Rao	Np	6	advcl
+2	M	3	nummod
+năm	N	6	obl:tmod
+không	R	5	advmod:neg
+ai	P	6	nsubj
+hỏi	V	0	root
+,	CH	9	punct
+đại	Z	9	nummod
+hạ giá	N	6	conj
+280	V	9	nmod
+tỷ	N	10	compound
+bán	V	11	acl:subj
+nhà máy	N	12	obj
+bị	V	15	aux:pass
+xiết	V	12	obj
+nợ	N	6	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 42
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau gần 2 năm không ai hỏi mua, Vietcombank thông báo hạ giá tài sản là nhà máy sản xuất trứng gà sạch của Công ty TNHH ĐTK Phú Thọ từ 554 tỷ đồng xuống gần 273 tỷ đồng, để thu hồi nợ gốc.
+Sau	N	7	obl:tmod
+gần	A	4	advmod:adj
+2	M	4	nummod
+năm	N	1	nmod
+không	R	6	advmod:neg
+ai	P	7	nsubj
+hỏi	V	0	root
+mua	V	7	xcomp
+,	CH	11	punct
+Vietcombank	Np	11	nsubj
+thông báo	V	7	conj
+hạ giá	V	13	nummod
+tài sản	N	15	nsubj:nn
+là	V	15	cop
+nhà máy	N	11	ccomp
+sản xuất	V	15	compound
+trứng gà	N	16	compound
+sạch	A	17	amod
+của	E	20	case
+Công ty	N	15	nmod:poss
+TNHH	Ny	20	compound
+ĐTK	Np	20	compound
+Phú Thọ	Np	20	compound
+từ	E	27	case
+554	N	27	nummod
+tỷ	M	25	compound
+đồng	Nu	20	nmod
+xuống	V	27	acl:subj
+gần	A	32	advmod:adj
+273	M	32	nummod
+tỷ	M	30	flat:number
+đồng	Nu	28	obj
+,	CH	35	punct
+để	E	35	mark:pcomp
+thu hồi	V	7	advcl:objective
+nợ	N	35	obj
+gốc	N	36	compound
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 43
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank) - chi nhánh Hà Nội mới đây đã có thông báo về việc tổ chức đấu giá bán tài sản liên quan khoản nợ xấu để thu hồi nợ gốc.
+Ngân hàng	N	13	nsubj
+TMCP	Np	1	compound
+Ngoại thương	N	2	compound
+Việt Nam	Np	1	compound
+(	CH	6	punct
+Vietcombank	Ny	1	appos:nmod
+)	CH	6	punct
+-	CH	9	punct
+chi nhánh	N	1	appos:nmod
+Hà Nội	Np	9	compound
+mới đây	X	9	compound
+đã	R	13	advmod
+có	V	0	root
+thông báo	V	13	obj
+về	E	16	case
+việc	N	14	obl:comp
+tổ chức	V	16	acl:subj
+đấu giá	N	17	compound
+bán	V	17	acl:subj
+tài sản	N	19	obj
+liên quan	V	19	xcomp
+khoản	N	21	obj
+nợ	N	22	nmod
+xấu	A	23	amod
+để	E	26	mark:pcomp
+thu hồi	V	19	advcl:objective
+nợ	N	26	obj
+gốc	N	27	compound
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 44
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây là tài sản thế chấp của ĐTK để đảm bảo cho các khoản vay tại Vietcombank.
+Đây	P	3	nsubj
+là	V	3	cop
+tài sản	N	0	root
+thế chấp	V	3	compound:vmod
+của	E	6	case
+ĐTK	Np	3	nmod:poss
+để	E	8	mark:pcomp
+đảm bảo	V	3	advcl:objective
+cho	E	11	case
+các	L	11	det
+khoản	N	8	obl:iobj
+vay	V	11	compound:vmod
+tại	E	14	case
+Vietcombank	Np	11	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/vietcombank-rao-ban-nha-may-san-xuat-trung-ga-tai-phu-tho-de-thu-hoi-no-765772.html
+# date = 20210814
+# sent_id = 45
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đáng chú ý, đây không phải lần đầu tiên Vietcombank rao bán 2 tài sản liên quan nhà máy sản xuất trứng gà sạch tại tỉnh Phú Thọ.
+Đáng	V	10	advcl
+chú ý	V	1	obj
+,	CH	7	punct
+đây	P	7	nsubj
+không	R	6	advmod:neg
+phải	V	7	aux
+lần	N	10	obl:tmod
+đầu tiên	A	7	amod
+Vietcombank	Np	7	nmod
+rao	V	0	root
+bán	V	10	xcomp
+2	M	13	nummod
+tài sản	N	11	obj
+liên quan	V	13	acl:subj
+nhà máy	N	14	obj
+sản xuất	V	15	nmod
+trứng gà	N	16	compound
+sạch	A	16	amod
+tại	E	20	case
+tỉnh	N	16	obl
+Phú Thọ	Np	20	compound
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 46
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cúng Rằm tháng 7 thời Covid-19, sắm đồ mã cho ông bà qua online
+Cúng	Np	8	nsubj
+Rằm	Np	1	nmod
+tháng	N	1	nmod
+7	M	3	nummod
+thời	N	1	nmod
+Covid-19	Np	5	compound
+,	CH	8	punct
+sắm	V	0	root
+đồ mã	V	8	obj
+cho	E	11	case
+ông bà	N	8	obl:iobj
+qua	V	13	case
+online	M	8	obl
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 47
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thay vì trực tiếp ra chợ để mua vàng mã cúng Rằm tháng 7 Âm lịch, nhiều gia đình ngay từ thời điểm này đã đi "chợ mạng" đặt mua vàng mã nhang nến rao tận nhà.
+Thay vì	X	21	advcl
+trực tiếp	A	3	advmod:adj
+ra	V	1	acl:subj
+chợ	N	3	obj
+để	E	6	mark:pcomp
+mua	V	3	advcl:objective
+vàng mã	N	6	obj
+cúng	N	6	obj
+Rằm	Np	8	nmod
+tháng	N	9	nmod
+7	M	10	nummod
+Âm lịch	N	10	nmod
+,	CH	21	punct
+nhiều	A	15	det
+gia đình	N	21	nsubj
+ngay	T	18	discourse
+từ	E	18	case
+thời điểm	N	21	obl:tmod
+này	P	18	det:pmod
+đã	R	21	advmod
+đi	V	0	root
+"	CH	23	punct
+chợ	N	21	obj
+mạng	N	23	compound
+"	CH	23	punct
+đặt	V	21	xcomp
+mua	V	26	xcomp
+vàng mã	N	29	nummod
+nhang	N	27	obj
+nến	N	29	compound
+rao	V	29	acl:subj
+tận	E	33	case
+nhà	N	31	obl:comp
+.	CH	21	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 48
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tranh thủ ngày cuối tuần, chị Nguyễn Minh Hằng (Yên Nghĩa, Hà Đông, Hà Nội) thay vì ra chợ mua vàng mã để cúng Rằm tháng 7, chị vào các group chợ mạng bán đồ vàng mã online để chọn mua.
+Tranh thủ	V	15	advcl
+ngày	N	1	obj
+cuối	N	2	nmod
+tuần	N	3	compound
+,	CH	15	punct
+chị	Nc	7	det:clf
+Nguyễn Minh Hằng	Np	15	nsubj
+(	CH	9	punct
+Yên Nghĩa	Np	7	appos:nmod
+,	CH	11	punct
+Hà Đông	Np	9	conj
+,	CH	13	punct
+Hà Nội	Np	9	conj
+)	CH	9	punct
+thay vì	X	0	root
+ra	V	15	compound:dir
+chợ	N	16	obj
+mua	V	16	xcomp
+vàng mã	N	18	obj
+để	E	21	mark:pcomp
+cúng	V	18	advcl:objective
+Rằm	Np	21	obj
+tháng	N	22	nmod
+7	M	23	flat:date
+,	CH	27	punct
+chị	Nc	27	nsubj
+vào	E	15	parataxis
+các	L	29	det
+group	N	27	obj
+chợ	N	29	nmod
+mạng	N	30	compound
+bán	V	29	acl:subj
+đồ	N	32	obj
+vàng mã	V	33	nmod
+online	N	34	compound
+để	E	37	mark:pcomp
+chọn	V	27	advcl:objective
+mua	V	37	compound:svc
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 49
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị Hằng cho biết, từ ngày dịch bệnh diễn biến phức tạp, gia đình chị thường ở yên trong nhà.
+Chị Hằng	Np	2	nsubj
+cho	V	0	root
+biết	V	2	xcomp
+,	CH	14	punct
+từ	E	6	case
+ngày	N	14	obl:tmod
+dịch bệnh	M	6	nmod
+diễn biến	N	9	nsubj
+phức tạp	A	2	conj
+,	CH	14	punct
+gia đình	N	14	nsubj
+chị	Nc	11	nmod
+thường	R	14	advmod
+ở	E	2	parataxis
+yên	N	14	advmod:adj
+trong	E	17	case
+nhà	N	14	obl
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/kinh-doanh/thi-truong/cung-ram-thang-7-thoi-covid-cho-truyen-thong-im-ang-vang-ma-online-dat-hang-765887.html
+# date = 20210814
+# sent_id = 50
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bà nội trợ này nói thêm, chỉ cần từ 150.000-300.000 đồng là có thể đặt được những sản phẩm vàng mã thiết yếu như bộ quần áo, tiền vàng, hương nến,... để chuẩn bị cúng Rằm, tùy chất liệu giấy mã đẹp hay xấu.
+Bà	Nc	2	det:clf
+nội trợ	N	4	nsubj
+này	P	2	det:pmod
+nói	V	0	root
+thêm	R	4	compound:svc
+,	CH	16	punct
+chỉ	R	8	advmod
+cần	V	16	advcl
+từ	E	10	case
+150.000	M	13	nummod
+-	CH	10	flat:number
+300.000	M	10	flat:number
+đồng	Nu	16	obl
+là	V	16	mark
+có thể	R	16	advmod
+đặt	V	4	conj
+được	R	16	advmod
+những	L	19	det
+sản phẩm	N	16	obj
+vàng mã	N	19	compound
+thiết yếu	A	20	compound
+như	C	24	case
+bộ	N	24	det:clf
+quần áo	N	20	nmod
+,	CH	26	punct
+tiền	N	23	conj
+vàng	N	26	compound
+,	CH	29	punct
+hương	N	23	conj
+nến	N	29	compound
+,	CH	33	punct
+...	CH	23	punct
+để	E	34	mark:pcomp
+chuẩn bị	V	16	advcl:objective
+cúng	V	34	obj
+Rằm	Np	35	nmod
+,	CH	38	punct
+tùy	N	34	conj
+chất liệu	V	38	obj
+giấy	N	38	obj
+mã	V	40	nmod
+đẹp	A	41	amod
+hay	C	44	cc
+xấu	A	42	conj
+.	CH	4	punct
