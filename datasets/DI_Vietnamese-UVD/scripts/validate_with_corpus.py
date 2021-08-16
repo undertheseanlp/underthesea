@@ -75,4 +75,4 @@ if __name__ == '__main__':
     if total_errors > 0:
         print(colored(f"\n[x] VALIDATE ERRORS: {total_errors} errors", 'red'))
     else:
-        print(f"\n[+] VALIDATE SUCCESS")
+        print("\n[+] VALIDATE SUCCESS")
