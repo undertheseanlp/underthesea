@@ -2871,3 +2871,1600 @@ ra	V	10	advmod
 ở	E	13	case
 Puerto Rico	Np	10	obl
 .	CH	3	punct
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 101
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một lọ vaccine Astrazeneca chứa 10 liều còn một lọ vaccine Sinopharm chứa chỉ 1-2 liều, nên nó chiếm không gian nhiều hơn, tốc độ kiểm đếm cũng chậm hơn các loại khác.
+Một	M	3	nummod
+lọ	N	1	clf
+vaccine	N	13	nsubj
+Astrazeneca	Np	3	nmod
+chứa	V	3	nmod
+10	M	7	nummod
+liều	N	5	obj
+còn	V	13	csubj
+một	M	11	nummod
+lọ	N	9	clf
+vaccine	N	13	nsubj
+Sinopharm	Np	13	advmod
+chứa	V	0	root
+chỉ	R	16	advmod
+1-2	V	16	nummod
+liều	N	13	obj
+,	CH	20	punct
+nên	C	20	mark
+nó	P	20	nsubj
+chiếm	V	13	conj
+không gian	N	20	obj
+nhiều	A	20	acomp
+hơn	A	22	advmod
+,	CH	26	punct
+tốc độ	N	26	nsubj
+kiểm	V	20	conj
+đếm	V	26	compound:svc
+cũng	R	29	advmod
+chậm	A	27	acomp
+hơn	A	29	advmod:adj
+các	L	32	det
+loại	N	29	obl:adj
+khác	A	32	amod
+.	CH	20	punct
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 102
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Đức cho rằng, các chuyên gia đều khẳng định "vaccine tốt nhất là vaccine được tiêm sớm nhất".
+Ông	Nc	2	det:clf
+Đức	Np	3	nsubj
+cho	V	0	root
+rằng	C	3	compound
+,	CH	3	punct
+các	L	7	det
+chuyên gia	N	9	nsubj
+đều	R	9	advmod
+khẳng định	V	3	ccomp
+"	CH	11	punct
+vaccine	N	15	nsubj
+tốt	A	11	amod
+nhất	R	11	advmod
+là	V	15	cop
+vaccine	N	9	ccomp
+được	R	17	aux:pass
+tiêm	V	15	acl:subj
+sớm	A	17	acomp
+nhất	R	18	advmod
+"	CH	15	punct
+.	CH	3	punct
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 103
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì vậy, thành phố quán triệt tinh thần phải tổ chức khoa học và tiêm nhanh cho người dân; tập trung tiêm cho nhóm nguy cơ cao, lớn tuổi, bệnh nền...
+Vì vậy	C	4	mark
+,	CH	4	punct
+thành phố	N	4	nsubj
+quán triệt	V	0	root
+tinh thần	N	4	obj
+phải	V	7	aux
+tổ chức	V	4	xcomp
+khoa học	N	7	obj
+và	C	10	cc
+tiêm	V	7	conj
+nhanh	A	10	acomp
+cho	E	13	case
+người	N	10	obl:iobj
+dân	N	13	compound
+;	CH	16	punct
+tập trung	V	7	conj
+tiêm	V	16	obj
+cho	E	20	case
+nhóm	N	20	det:clf
+nguy cơ	N	16	obl:comp
+cao	A	20	amod
+,	CH	23	punct
+lớn tuổi	A	21	conj
+,	CH	25	punct
+bệnh	N	21	conj
+nền	N	25	compound
+...	CH	4	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 104
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tổng thống Afghanistan Ashraf Ghani bị chỉ trích vô trách nhiệm, không yêu nước và lừa dối người dân vì chọn rời khỏi đất nước sau khi Taliban chiếm Kabul.
+Tổng thống	N	5	nsubj:pass
+Afghanistan Ashraf Ghani	Np	1	compound
+bị	V	5	aux:pass
+chỉ	R	5	advmod
+trích	V	0	root
+vô trách nhiệm	N	5	obj
+,	CH	9	punct
+không	R	9	advmod:neg
+yêu	V	5	conj
+nước	N	9	obj
+và	C	13	cc
+lừa dối	V	13	nummod
+người	N	9	conj
+dân	N	13	compound
+vì	E	16	mark
+chọn	V	5	conj
+rời	V	16	xcomp
+khỏi	V	17	compound:svc
+đất nước	N	17	obj
+sau	N	21	case
+khi	N	17	obl:tmod
+Taliban	Np	23	nsubj
+chiếm	V	21	acl:tmod
+Kabul	Np	23	obj
+.	CH	5	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 105
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sự ra đi của Tổng thống khiến nhiều người dân Afghanistan tức giận và rối trí.
+Sự	N	6	nsubj
+ra	V	1	acl:tonp
+đi	V	2	compound:svc
+của	E	5	case
+Tổng thống	N	1	nmod:poss
+khiến	V	0	root
+nhiều	A	8	advmod:adj
+người	Nc	6	obj
+dân	N	8	nmod
+Afghanistan	Np	9	compound
+tức giận	V	10	compound
+và	C	13	cc
+rối trí	V	9	conj
+.	CH	6	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 106
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả hai lần Ghani thắng cử năm 2014 và 2019 đều sa vào tranh cãi và bị cáo buộc gian lận, dàn xếp.
+Cả	P	3	det
+hai	M	3	nummod
+lần	N	11	obl:tmod
+Ghani	Np	3	nmod
+thắng cử	V	6	nummod
+năm	N	4	nmod
+2014	M	6	compound
+và	C	9	cc
+2019	N	7	conj
+đều	R	11	advmod
+sa	V	0	root
+vào	E	13	case
+tranh cãi	N	11	obl:comp
+và	C	15	cc
+bị cáo buộc	V	13	conj
+gian lận	N	15	nmod
+,	CH	18	punct
+dàn xếp	N	16	conj
+.	CH	11	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 107
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một nhà hoạt động nữ quyền nói rằng Ghani và sự ra đi của ông không nên là tâm điểm trong tương lai.
+Một	M	2	nummod
+nhà	N	5	nsubj
+hoạt động	V	2	nmod
+nữ quyền	V	3	compound
+nói	V	0	root
+rằng	C	17	mark
+Ghani	Np	17	nsubj
+và	C	9	cc
+sự	N	7	conj
+ra	V	9	acl:subj
+đi	V	10	compound:svc
+của	E	13	case
+ông	Nc	9	nmod:poss
+không	R	15	advmod:neg
+nên	V	17	aux
+là	V	17	cop
+tâm điểm	N	5	ccomp
+trong	E	19	case
+tương lai	N	17	obl
+.	CH	5	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 108
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Ghani đã ra đi, nhưng vẫn còn 38 triệu người Afghanistan", nhà hoạt động nói.
+"	CH	4	punct
+Ghani	Np	4	nsubj
+đã	R	4	advmod
+ra	V	0	root
+đi	V	4	compound:svc
+,	CH	9	punct
+nhưng	C	9	mark
+vẫn	R	9	advmod
+còn	R	4	conj
+38	M	12	nummod
+triệu	M	12	nummod
+người	N	9	obj
+Afghanistan	Np	12	nmod
+"	CH	4	punct
+,	CH	18	punct
+nhà	N	18	nsubj
+hoạt động	V	16	nmod
+nói	V	4	parataxis
+.	CH	4	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 109
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong thời gian cầm quyền từ 1996 đến 2001, Taliban áp đặt những hạn chế hà khắc, bao gồm phụ nữ (ngoại trừ bác sĩ) không được phép làm việc hoặc học tập.
+Trong	E	2	case
+thời gian	N	22	obl
+cầm quyền	V	2	compound
+từ	E	5	case
+1996	M	2	nmod
+đến	E	7	case
+2001	M	5	nmod
+,	CH	9	punct
+Taliban	Np	10	nsubj
+áp đặt	V	12	punct
+những	L	12	det
+hạn chế	N	2	conj
+hà khắc	A	12	compound
+,	CH	15	punct
+bao gồm	V	10	conj
+phụ nữ	N	15	compound
+(	CH	19	punct
+ngoại trừ	V	16	appos:nmod
+bác sĩ	N	18	nmod
+)	CH	19	punct
+không	R	22	advmod:neg
+được	V	0	root
+phép	N	22	obj
+làm việc	V	23	acl:subj
+hoặc	C	26	cc
+học tập	V	24	conj
+.	CH	22	punct
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 110
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nam giới cũng bị giám sát nghiêm ngặt về trang phục, cầu nguyện cũng như đời sống cá nhân.
+Nam giới	N	4	nsubj:pass
+cũng	R	4	advmod
+bị	V	4	aux:pass
+giám sát	V	0	root
+nghiêm ngặt	A	4	advmod:adj
+về	E	7	case
+trang phục	N	4	obl:comp
+,	CH	9	punct
+cầu nguyện	N	7	conj
+cũng	R	12	advmod
+như	C	12	case
+đời sống	N	13	det:clf
+cá nhân	N	7	conj
+.	CH	4	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 111
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sự thiếu liên thông và thống nhất giữa các ứng dụng công nghệ trong công tác phòng chống dịch COVID-19 đang khiến nhiều người dân bối rối và khó khăn.
+Sự	N	15	nsubj
+thiếu	V	1	amod
+liên thông	N	2	obj
+và	C	5	cc
+thống nhất	V	1	conj
+giữa	E	8	case
+các	L	8	det
+ứng dụng	N	5	obl
+công nghệ	N	8	compound
+trong	E	11	case
+công tác	N	8	nmod
+phòng chống	V	11	compound
+dịch COVID-19	N	11	nmod
+đang	R	15	advmod
+khiến	V	0	root
+nhiều	A	17	advmod:adj
+người	Nc	15	obj
+dân	N	17	compound
+bối rối	A	18	amod
+và	C	21	cc
+khó khăn	A	19	conj
+.	CH	15	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 112
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ứng dụng Bluezone thì cho phép ghi nhận các tiếp xúc gần giữa các điện thoại thông minh, cũng cho phép người dân khai báo y tế toàn dân, ghi nhận người đến, người đi tại các địa điểm công cộng.
+Ứng dụng	N	2	det:clf
+Bluezone	Np	4	nsubj
+thì	C	4	mark
+cho phép	V	0	root
+ghi nhận	V	4	xcomp
+các	L	7	det
+tiếp xúc	N	5	obj
+gần	A	7	acl:subj
+giữa	E	11	case
+các	L	11	det
+điện thoại	N	7	nmod
+thông minh	A	11	amod
+,	CH	15	punct
+cũng	R	15	advmod
+cho phép	V	4	conj
+người	N	17	det:clf
+dân	N	15	obj
+khai báo	N	19	punct
+y tế	N	17	conj
+toàn dân	N	19	compound
+,	CH	22	punct
+ghi nhận	V	17	conj
+người	N	22	obj
+đến	V	23	acl:subj
+,	CH	26	punct
+người	N	17	conj
+đi	V	26	acl:subj
+tại	E	30	case
+các	L	30	det
+địa điểm	N	27	obl:comp
+công cộng	A	30	compound
+.	CH	4	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 113
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ứng dụng NCOVI cũng cho phép người dân khai báo y tế toàn dân, cập nhật tình hình sức khỏe hằng ngày (tự nguyện) và ghi nhận người đến, người đi tại các địa điểm công cộng.
+Ứng dụng	N	2	det:clf
+NCOVI	Np	4	nsubj
+cũng	R	4	advmod
+cho phép	V	0	root
+người	N	6	det:clf
+dân	N	4	obj
+khai báo	N	6	nmod
+y tế	N	6	nmod
+toàn dân	N	8	compound
+,	CH	12	punct
+cập nhật	V	6	conj
+tình hình	N	11	obj
+sức khỏe	V	12	nmod
+hằng	R	15	advmod
+ngày	N	12	nmod
+(	CH	17	punct
+tự nguyện	V	15	appos:nmod
+)	CH	17	punct
+và	C	20	cc
+ghi nhận	V	6	conj
+người	N	20	nmod
+đến	V	21	acl:subj
+,	CH	24	punct
+người	N	6	conj
+đi	V	24	acl:subj
+tại	E	28	case
+các	L	28	det
+địa điểm	N	25	obl:comp
+công cộng	A	28	compound
+.	CH	4	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 114
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thay vì sử dụng một tên miền ngắn gọn để người dân dễ nhập và trở về tên miền chính thì cơ quan quản lý lại đặt một tên miền dài, do vậy họ phải sử dụng cả QR Code để việc truy cập vào tên miền dễ hơn.
+Thay vì	X	21	advcl
+sử dụng	V	1	acl:subj
+một	M	4	nummod
+tên	N	1	obj
+miền	N	4	nmod
+ngắn gọn	A	5	compound
+để	E	21	advcl
+người	Nc	9	det:clf
+dân	N	7	obj
+dễ	A	11	advmod:adj
+nhập	V	9	acl:subj
+và	C	13	cc
+trở về	V	11	conj
+tên	N	13	obj
+miền	N	14	nmod
+chính	T	15	amod
+thì	C	21	mark
+cơ quan	N	21	nsubj
+quản lý	V	18	compound
+lại	R	21	advmod
+đặt	V	0	root
+một	M	23	nummod
+tên	N	21	obj
+miền	N	23	nmod
+dài	A	24	compound
+,	CH	30	punct
+do vậy	C	30	cc
+họ	P	30	nsubj
+phải	V	30	aux
+sử dụng	V	21	conj
+cả	T	32	det
+QR Code	Np	30	obj
+để	E	34	mark:pcomp
+việc	N	30	advcl:objective
+truy cập	V	34	acl:subj
+vào	E	37	case
+tên	N	35	obl:comp
+miền	N	37	nmod
+dễ	A	37	acl:subj
+hơn	A	39	advmod
+.	CH	21	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 115
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ đó, nhiều chuyên gia công nghệ cho rằng Việt Nam cần thống nhất sử dụng ứng dụng duy nhất và liên thông dữ liệu, thay vì tạo ra nhiều app như hiện nay.
+Từ	E	2	case
+đó	P	7	obl
+,	CH	7	punct
+nhiều	A	5	det
+chuyên gia	N	7	nsubj
+công nghệ	N	5	compound
+cho	V	0	root
+rằng	C	11	mark
+Việt Nam	Np	10	nsubj
+cần	V	11	aux
+thống nhất	V	7	ccomp
+sử dụng	V	11	acl:subj
+ứng dụng	N	12	obj
+duy nhất	A	13	amod
+và	C	16	cc
+liên thông dữ liệu	V	13	conj
+,	CH	19	punct
+thay vì	X	19	advmod
+tạo	V	7	conj
+ra	V	19	compound:dir
+nhiều	A	22	advmod:adj
+app	N	19	obj
+như	C	24	case
+hiện nay	N	22	nmod
+.	CH	7	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 116
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại chốt kiểm soát giao thông trên đường Nguyễn Thái Sơn (quận Gò Vấp) hầu như tất cả xe đi qua đây đều phải dừng để khai báo khiến số người tập trung đông.
+Tại	E	2	case
+chốt	N	20	obl
+kiểm soát	V	2	compound
+giao thông	N	3	compound
+trên	E	6	case
+đường	N	2	nmod
+Nguyễn Thái Sơn	Np	6	compound
+(	CH	9	punct
+quận	N	6	appos:nmod
+Gò Vấp	Np	9	compound
+)	CH	9	punct
+hầu như	R	20	advmod
+tất cả	P	14	det
+xe	N	20	nsubj
+đi	V	14	acl:subj
+qua	V	17	case
+đây	P	15	obl:comp
+đều	R	20	advmod
+phải	V	20	aux
+dừng	V	0	root
+để	E	23	mark:pcomp
+khai báo	V	23	nsubj
+khiến	V	20	advcl:objective
+số	N	23	obj
+người	N	24	nmod
+tập trung	V	24	acl:subj
+đông	A	26	obj
+.	CH	20	punct
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 117
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Phan Thanh Giản cho rằng một sản phẩm công nghệ giúp thay cho việc tiếp xúc trực tiếp, nếu khâu triển khai tạo ra ùn tắc đã đi ngược lại mục đích phòng chống lây lan bệnh.
+Ông	Nc	2	det:clf
+Phan Thanh Giản	Np	3	nsubj
+cho	V	0	root
+rằng	C	8	mark
+một	M	6	nummod
+sản phẩm	N	8	nsubj
+công nghệ	N	6	nmod
+giúp	V	3	ccomp
+thay	V	8	xcomp
+cho	E	11	case
+việc	N	9	obl:comp
+tiếp xúc	V	11	acl:subj
+trực tiếp	A	12	acomp
+,	CH	22	punct
+nếu	C	18	mark
+khâu	V	18	nsubj
+triển khai	V	16	compound
+tạo	V	22	advcl
+ra	V	18	compound:dir
+ùn tắc	N	18	obj
+đã	R	22	advmod
+đi	V	3	ccomp
+ngược lại	X	22	advmod
+mục đích	N	22	obj
+phòng chống	V	24	nmod
+lây lan	V	27	case
+bệnh	N	24	nmod
+.	CH	3	punct
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 118
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Câu tiếng Anh được nhập vào (sai ngữ pháp) là: "What doing you now".
+Câu	Nc	5	nsubj:pass
+tiếng	N	1	nmod
+Anh	Np	2	compound
+được	V	5	aux:pass
+nhập	V	0	root
+vào	E	5	advmod
+(	CH	8	punct
+sai	A	5	appos:nmod
+ngữ pháp	N	8	compound
+)	CH	8	punct
+là	V	5	advmod
+:	CH	14	punct
+"	CH	14	punct
+What	Np	11	parataxis
+doing	V	14	flat:number
+you	N	17	nummod
+now	N	14	nmod
+"	CH	14	punct
+.	CH	11	punct
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 119
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cộng đồng mạng Việt Nam sau đó lan truyền nhanh chóng bức ảnh này với mục đích "mua vui" cho bạn bè là chính.
+Cộng đồng	N	6	nsubj
+mạng	N	1	nmod
+Việt Nam	Np	2	compound
+sau	N	1	nmod
+đó	P	4	det:pmod
+lan truyền	V	0	root
+nhanh chóng	A	9	det
+bức	Nc	9	det:clf
+ảnh	N	6	obj
+này	P	9	det:pmod
+với	E	12	case
+mục đích	N	6	obl:comp
+"	CH	14	punct
+mua vui	V	12	nmod
+"	CH	14	punct
+cho	E	17	case
+bạn bè	N	14	obl
+là	V	19	cop
+chính	A	6	ccomp
+.	CH	6	punct
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 120
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó, Google có tính năng "mở" cho mọi người dùng có thể đóng góp vào việc dịch các từ, cụm từ, câu từ một ngôn ngữ này sang một ngôn ngữ khác.
+Theo	V	5	advcl
+đó	P	1	obj
+,	CH	5	punct
+Google	Np	5	nsubj
+có	V	0	root
+tính năng	N	5	obj
+"	CH	8	punct
+mở	V	6	acl:subj
+"	CH	8	punct
+cho	E	12	case
+mọi	L	12	det
+người	N	8	obl:comp
+dùng	V	12	acl:subj
+có thể	R	15	aux
+đóng góp	V	13	xcomp
+vào	E	17	case
+việc	N	15	obl:comp
+dịch	V	17	acl:subj
+các	L	20	det
+từ	N	17	nmod
+,	CH	22	punct
+cụm	N	20	conj
+từ	E	22	compound
+,	CH	25	punct
+câu	N	17	conj
+từ	E	28	case
+một	M	28	nummod
+ngôn ngữ	N	25	obl
+này	P	28	det:pmod
+sang	V	28	acl:subj
+một	M	32	nummod
+ngôn ngữ	N	30	obl:comp
+khác	A	32	amod
+.	CH	5	punct
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 121
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lợi dụng điều đó, một người dùng có ý đồ không tốt hoặc chỉ đơn giản muốn "chọc phá" có thể tạo kết quả dịch thuật mới (như kết quả nêu trên).
+Lợi dụng	V	7	advcl
+điều	N	1	obj
+đó	P	2	det:pmod
+,	CH	7	punct
+một	M	6	nummod
+người	N	7	nsubj
+dùng	V	0	root
+có	V	7	xcomp
+ý đồ	N	8	obj
+không	R	11	advmod:neg
+tốt	A	9	amod
+hoặc	C	14	cc
+chỉ	R	14	advmod
+đơn giản	A	11	conj
+muốn	V	14	aux
+"	CH	17	punct
+chọc	V	15	xcomp
+phá	V	17	obj
+"	CH	17	punct
+có thể	R	21	advmod
+tạo	V	15	xcomp
+kết quả	N	21	obj
+dịch thuật	A	22	compound
+mới	R	22	amod
+(	CH	27	punct
+như	C	27	case
+kết quả	N	21	obl
+nêu	V	27	nmod
+trên	E	28	nmod
+)	CH	27	punct
+.	CH	7	punct
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 122
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây không phải lần đầu tiên Google dịch xuất hiện những kết quả dịch thuật theo kiểu câu nhập một đường, lời dịch một nẻo như trên.
+Đây	P	4	nsubj
+không	R	3	advmod:neg
+phải	A	4	aux
+lần	N	8	obl:tmod
+đầu tiên	A	4	amod
+Google	Np	7	nummod
+dịch	V	8	nsubj
+xuất hiện	V	0	root
+những	L	10	det
+kết quả	N	8	obj
+dịch thuật	V	10	amod
+theo	V	13	case
+kiểu	N	10	nmod
+câu	N	13	nmod
+nhập	V	14	acl:subj
+một	M	17	nummod
+đường	N	15	obj
+,	CH	19	punct
+lời	N	13	conj
+dịch	V	19	nmod
+một	M	22	nummod
+nẻo	N	19	nmod
+như	C	24	case
+trên	N	22	nmod
+.	CH	8	punct
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 123
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chuyến bay Inspiration4 dự kiến vào ngày 15/9, đánh dấu lần đầu tiên SpaceX phóng tàu chở toàn du khách vào không gian mà không có phi hành gia chuyên nghiệp.
+Chuyến	N	2	det:clf
+bay	V	4	nsubj
+Inspiration4	Np	2	compound
+dự kiến	V	0	root
+vào	E	6	case
+ngày	N	4	obl:comp
+15/9	M	6	compound
+,	CH	13	punct
+đánh dấu	V	13	nsubj
+lần	N	9	obj
+đầu tiên	A	10	amod
+SpaceX	Np	10	nummod
+phóng	V	4	conj
+tàu	N	13	obj
+chở	V	13	xcomp
+toàn	R	17	det
+du khách	N	15	obj
+vào	E	19	case
+không gian	N	15	obl:comp
+mà	C	22	mark
+không	R	22	advmod:neg
+có	V	15	conj
+phi hành gia	N	22	obj
+chuyên nghiệp	A	23	amod
+.	CH	4	punct
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 124
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong chuyến bay, các phi hành gia tương lai sẽ phóng lên quỹ đạo bằng tên lửa Falcon 9 của SpaceX, bay vòng quanh Trái Đất trong 3 ngày, sau đó hạ cánh.
+Trong	E	2	case
+chuyến	N	9	obl
+bay	V	2	compound:vmod
+,	CH	9	punct
+các	L	6	det
+phi hành gia	N	9	nsubj
+tương lai	N	6	nmod
+sẽ	R	9	advmod
+phóng	V	0	root
+lên	V	9	compound:dir
+quỹ đạo	N	9	obj
+bằng	E	13	case
+tên	N	9	obl
+lửa	N	13	compound
+Falcon	Np	14	nmod
+9	M	15	nummod
+của	E	18	case
+SpaceX	Np	13	nmod:poss
+,	CH	20	punct
+bay	V	13	conj
+vòng quanh	N	22	nummod
+Trái Đất	Np	20	obj
+trong	E	25	case
+3	M	25	nummod
+ngày	N	20	nmod
+,	CH	29	punct
+sau	N	29	obl:tmod
+đó	P	27	det:pmod
+hạ cánh	V	9	conj
+.	CH	9	punct
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 125
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để thực hiện điều đó, họ đã tập huấn suốt nhiều tháng, bao gồm chuyến leo núi Rainier ở Washington để gắn kết cả đội.
+Để	E	2	mark:pcomp
+thực hiện	V	8	advcl:objective
+điều	N	2	obj
+đó	P	3	det:pmod
+,	CH	2	punct
+họ	P	8	nsubj
+đã	R	8	advmod
+tập huấn	V	0	root
+suốt	A	11	advmod:adj
+nhiều	A	11	advmod:adj
+tháng	N	8	obl:tmod
+,	CH	13	punct
+bao gồm	V	8	conj
+chuyến	N	13	obj
+leo	V	14	acl:subj
+núi	N	15	obj
+Rainier	Np	16	compound
+ở	E	19	case
+Washington	Np	15	obl
+để	E	21	mark:pcomp
+gắn kết	V	13	advcl:objective
+cả	P	23	det
+đội	N	21	obj
+.	CH	8	punct
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 126
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Arcenaux sẽ gọi cho trẻ em tại viện từ không gian, đồng thời trở thành người mang bộ phận giả đầu tiên trong lịch sử bay vào vũ trụ.
+Arcenaux	Np	3	nsubj
+sẽ	R	3	advmod
+gọi	V	0	root
+cho	E	5	case
+trẻ em	N	3	obl:comp
+tại	E	7	case
+viện	N	5	nmod
+từ	E	9	case
+không gian	N	7	nmod
+,	CH	12	punct
+đồng thời	R	12	advmod
+trở thành	V	3	conj
+người	N	12	obj
+mang	V	13	acl:subj
+bộ phận	N	14	obj
+giả	A	15	amod
+đầu tiên	A	15	amod
+trong	E	19	case
+lịch sử	N	14	obl
+bay	V	14	obl
+vào	E	22	case
+vũ trụ	N	20	obl:comp
+.	CH	3	punct
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 127
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những người còn lại trong phi hành đoàn có lý lịch khác nhau, nhưng tất cả họ đều vô cùng hào hứng và phấn khởi với chuyến bay đầu tiên ở trong không gian.
+Những	L	2	det
+người	Nc	7	nsubj
+còn	V	2	acl:subj
+lại	V	3	advmod
+trong	E	6	case
+phi hành đoàn	N	3	obl
+có	V	0	root
+lý lịch	N	7	obj
+khác	A	8	amod
+nhau	N	9	obj
+,	CH	7	punct
+nhưng	C	17	mark
+tất cả	P	14	det
+họ	P	17	nsubj
+đều	R	17	advmod
+vô cùng	R	17	advmod
+hào hứng	A	7	conj
+và	C	19	cc
+phấn khởi	V	17	conj
+với	E	22	case
+chuyến	N	22	det:clf
+bay	V	19	obl
+đầu tiên	A	22	amod
+ở	E	26	case
+trong	E	26	case
+không gian	N	22	nmod
+.	CH	7	punct
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 128
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hàng nghìn người chết và bị thương do động đất hôm 14/8 được các nhà địa chất lý giải do Haiti nằm ở vùng đứt gãy và thiết kế nhà chịu rung lắc kém.
+Hàng	R	2	advmod
+nghìn	M	3	nummod
+người	N	15	nsubj
+chết	V	3	acl:subj
+và	C	6	cc
+bị thương	V	4	conj
+do	E	9	case
+động đất	N	9	nummod
+hôm	N	15	obl:tmod
+14/8	V	15	punct
+được	V	15	aux:pass
+các	L	13	det
+nhà	N	15	obl:agent
+địa chất	N	13	compound
+lý giải	V	0	root
+do	E	18	mark
+Haiti	Np	18	nsubj
+nằm	V	15	advcl
+ở	E	20	case
+vùng	N	18	obl:comp
+đứt gãy	N	20	compound
+và	C	25	cc
+thiết kế	V	25	nsubj
+nhà	N	23	compound
+chịu	V	18	conj
+rung	V	25	xcomp
+lắc	V	26	obj
+kém	A	27	amod
+.	CH	15	punct
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 129
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trận động đất 7,2 độ hôm 14/8 nhiều khả năng xảy ra dọc vùng đứt gãy Enriquillo-Plantain Garden, cắt ngang qua bán đảo Tiburon ở tây nam Haiti, theo USGS.
+Trận	N	9	nsubj
+động đất	N	1	compound
+7,2	V	1	compound
+độ	N	1	nmod
+hôm	N	1	nmod
+14/8	V	4	compound
+nhiều	A	8	advmod:adj
+khả năng	N	9	nsubj
+xảy	V	0	root
+ra	V	9	compound:dir
+dọc	A	9	acomp
+vùng	N	11	obj
+đứt gãy	N	12	compound
+Enriquillo-Plantain Garden	Np	13	compound
+,	CH	16	punct
+cắt	V	9	conj
+ngang	A	16	advmod:adj
+qua	E	19	case
+bán đảo	N	16	obl:comp
+Tiburon	Np	19	compound
+ở	E	22	case
+tây	N	19	nmod
+nam	N	22	compound
+Haiti	Np	22	compound
+,	CH	26	punct
+theo	V	9	conj
+USGS	Np	26	obj
+.	CH	9	punct
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 130
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây cũng chính là vùng đứt gãy nơi xảy ra trận động đất năm 2010.
+Đây	P	5	nsubj
+cũng	R	5	advmod
+chính	T	5	discourse
+là	V	5	cop
+vùng	N	0	root
+đứt gãy	N	5	nmod
+nơi	N	5	nmod
+xảy	V	5	acl:subj
+ra	V	8	compound:dir
+trận	N	8	obl:comp
+động đất	V	10	nmod
+năm	N	10	nmod
+2010	M	12	compound
+.	CH	5	punct
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 131
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Động đất ở Haiti gây hậu quả nặng nề do nhiều yếu tố kết hợp, bao gồm khu vực thường xuyên xảy ra địa chấn, mật độ dân số cao (11 triệu dân) và các công trình thường được thiết kế để chịu sóng thần thay vì động đất.
+Động đất	N	4	nsubj
+ở	E	3	case
+Haiti	Np	4	obl
+gây	V	0	root
+hậu quả	N	4	obj
+nặng nề	A	5	amod
+do	E	9	case
+nhiều	A	9	advmod:adj
+yếu tố	N	4	obl
+kết hợp	V	9	nmod
+,	CH	15	punct
+bao gồm	V	13	nummod
+khu vực	N	15	nsubj
+thường xuyên	A	15	advmod
+xảy	V	4	conj
+ra	V	15	compound:dir
+địa chấn	N	15	obj
+,	CH	20	punct
+mật độ	N	20	nummod
+dân số	N	17	conj
+cao	A	20	compound
+(	CH	25	punct
+11	M	25	nummod
+triệu	M	25	nummod
+dân	N	20	appos:nmod
+)	CH	25	punct
+và	C	29	cc
+các	L	29	det
+công trình	N	32	nsubj:pass
+thường	R	32	advmod
+được	V	32	aux:pass
+thiết kế	V	4	conj
+để	E	34	mark:pcomp
+chịu	V	32	advcl:objective
+sóng thần	V	34	obj
+thay vì	X	34	xcomp
+động đất	V	36	obj
+.	CH	4	punct
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 132
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tổng thống Haiti mới bị ám sát vào tháng trước, khiến đất nước rơi vào bất ổn chính trị.
+Tổng thống	N	5	nsubj:pass
+Haiti	Np	1	compound
+mới	R	5	advmod
+bị	V	5	aux:pass
+ám sát	V	0	root
+vào	E	7	case
+tháng	N	5	obl:tmod
+trước	N	7	compound
+,	CH	10	punct
+khiến	V	5	conj
+đất nước	N	10	obj
+rơi	V	11	acl:subj
+vào	E	14	case
+bất ổn	N	12	obl:comp
+chính trị	N	14	compound
+.	CH	5	punct
+
+# https://tuoitre.vn/shipper-da-duoc-giao-hang-lien-quan-o-tp-hcm-du-con-gap-kho-trong-ngay-dau-20210816140750204.htm
+# date = 20210816
+# sent_id = 133
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các nền tảng đa ứng dụng như Grab, Gojek... đã khởi động trở lại dịch vụ giao hàng liên quận ngay khi TP.HCM hướng dẫn, cho phép shipper giao hàng thiết yếu được di chuyển liên quận thay vì hạn chế trên một địa bàn như thời gian qua.
+Các	L	2	det
+nền tảng	N	11	nsubj
+đa	V	2	nmod
+ứng dụng	A	2	nmod
+như	C	6	case
+Grab	Np	2	appos:nmod
+,	CH	8	punct
+Gojek	Np	6	conj
+...	CH	6	punct
+đã	R	11	advmod
+khởi động	V	0	root
+trở lại	V	11	xcomp
+dịch vụ	N	12	obj
+giao	V	13	acl:subj
+hàng	N	14	obj
+liên	Z	15	nmod
+quận	N	16	nmod
+ngay	T	19	discourse
+khi	N	14	obl:tmod
+TP.HCM	Np	21	nsubj
+hướng dẫn	V	19	acl:tmod
+,	CH	29	punct
+cho phép	V	21	conj
+shipper	N	23	obj
+giao	V	24	acl:subj
+hàng	N	25	obj
+thiết yếu	V	26	nmod
+được	R	29	aux:pass
+di chuyển	V	14	conj
+liên	Z	29	obj
+quận	N	30	nmod
+thay vì	X	29	xcomp
+hạn chế	V	32	acomp
+trên	E	36	case
+một	M	36	nummod
+địa bàn	N	32	obl
+như	C	38	case
+thời gian	N	36	nmod
+qua	V	38	compound
+.	CH	11	punct
+
+# https://tuoitre.vn/shipper-da-duoc-giao-hang-lien-quan-o-tp-hcm-du-con-gap-kho-trong-ngay-dau-20210816140750204.htm
+# date = 20210816
+# sent_id = 134
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các tài xế hoạt động phải tuân thủ các biện pháp phòng, chống dịch, cũng như đảm bảo các tài xế tuân thủ trang bị và các đặc điểm nhận diện như giấy thông hành, mã QR, thẻ đeo, băng tay, mẫu đăng ký nhận diện shipper theo quy định.
+Các	L	2	det
+tài xế	N	5	nsubj
+hoạt động	V	2	nmod
+phải	V	5	aux
+tuân thủ	V	0	root
+các	L	7	det
+biện pháp	N	5	obj
+phòng	N	7	compound
+,	CH	10	punct
+chống	V	7	conj
+dịch	N	10	obj
+,	CH	15	punct
+cũng	R	15	advmod
+như	C	15	case
+đảm bảo	V	7	conj
+các	L	17	det
+tài xế	N	15	obj
+tuân thủ	V	17	acl:subj
+trang bị	V	18	obj
+và	C	22	cc
+các	L	22	det
+đặc điểm	N	7	conj
+nhận diện	A	22	compound
+như	C	25	case
+giấy thông hành	N	22	nmod
+,	CH	27	punct
+mã QR	N	25	conj
+,	CH	29	punct
+thẻ	N	25	conj
+đeo	V	29	compound
+,	CH	32	punct
+băng tay	N	25	conj
+,	CH	34	punct
+mẫu	N	25	conj
+đăng ký	V	34	acl:subj
+nhận diện	N	37	punct
+shipper	V	25	conj
+theo	V	39	case
+quy định	N	37	nmod
+.	CH	5	punct
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 135
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thí sinh trúng tuyển vào nhiều trường đại học ở TP.HCM tiếp tục phản ảnh hiện vẫn không thể nộp hồ sơ xác nhận nhập học qua bưu điện.
+Thí sinh	N	2	det:clf
+trúng tuyển	V	9	nsubj
+vào	E	5	case
+nhiều	A	5	advmod:adj
+trường	N	9	nsubj
+đại học	N	5	compound
+ở	E	8	case
+TP.HCM	Np	5	nmod
+tiếp tục	V	0	root
+phản ảnh	V	9	obj
+hiện	N	14	obl:tmod
+vẫn	R	14	advmod
+không thể	R	14	advmod:neg
+nộp	V	9	conj
+hồ sơ	N	14	obj
+xác nhận	V	15	acl:subj
+nhập học	V	16	obj
+qua	V	19	case
+bưu điện	N	16	obl:comp
+.	CH	9	punct
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 136
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lưu lượng học sinh gửi hồ sơ đến các trường học chiếm tỉ lệ rất nhỏ, lại không có cơ quan chức năng nào kêu gọi hỗ trợ nên doanh nghiệp bưu chính khó có thể nhận biết.
+Lưu lượng	N	2	nummod
+học sinh	N	3	nsubj
+gửi	V	0	root
+hồ sơ	N	3	obj
+đến	E	7	case
+các	L	7	det
+trường học	N	3	obl:comp
+chiếm	V	7	acl:subj
+tỉ lệ	N	8	obj
+rất	R	11	advmod
+nhỏ	A	3	acomp
+,	CH	15	punct
+lại	R	15	advmod
+không	R	15	advmod:neg
+có	V	3	parataxis
+cơ quan chức năng	N	15	obj
+nào	P	16	det:pmod
+kêu gọi	V	16	acl:subj
+hỗ trợ	V	18	obj
+nên	C	25	mark
+doanh nghiệp	N	23	nsubj
+bưu chính	N	21	nmod
+khó	A	3	parataxis
+có thể	R	25	advmod
+nhận biết	V	23	xcomp:adj
+.	CH	3	punct
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 137
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đại diện này cũng cho biết sẵn sàng "mở một luồng ưu tiên" cho học sinh gửi thư báo liên quan đến việc xét tuyển, nhập học nếu có lời kêu gọi từ cơ quan chức năng như Bộ GD-ĐT.
+Đại diện	N	4	nsubj
+này	P	1	det:pmod
+cũng	R	4	advmod
+cho	V	0	root
+biết	V	4	compound:svc
+sẵn sàng	A	4	obj
+"	CH	8	punct
+mở	V	6	acl:subj
+một	M	10	nummod
+luồng	N	8	punct
+ưu tiên	V	8	obj
+"	CH	8	punct
+cho	E	14	case
+học sinh	N	8	obl:iobj
+gửi	V	14	acl:subj
+thư	N	15	obj
+báo	N	14	nmod
+liên quan	V	17	compound
+đến	E	20	case
+việc	N	14	nmod
+xét	V	20	acl:subj
+tuyển	N	21	obj
+,	CH	24	punct
+nhập học	V	20	conj
+nếu	C	26	mark
+có	V	4	advcl
+lời	N	26	obj
+kêu gọi	V	27	acl:subj
+từ	E	30	case
+cơ quan chức năng	N	27	nmod
+như	C	32	case
+Bộ GD-ĐT	Np	30	nmod
+.	CH	4	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 138
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đêm đến trên cánh đồng, bóng áo xanh thanh niên lúi húi soi đèn, thoăn thoắt cắt từng mớ rau muống đặc sản.
+Đêm	N	2	nsubj
+đến	V	0	root
+trên	E	4	case
+cánh	N	2	obl:comp
+đồng	N	4	compound
+,	CH	7	punct
+bóng	N	4	conj
+áo	N	7	nmod
+xanh	A	7	amod
+thanh niên	N	7	nmod
+lúi húi	V	2	conj
+soi	V	11	obj
+đèn	N	12	obj
+,	CH	16	punct
+thoăn thoắt	A	16	nsubj
+cắt	V	2	conj
+từng	R	19	det
+mớ	Nc	16	obj
+rau muống	N	16	obj
+đặc sản	N	19	nmod
+.	CH	2	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 139
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mồ hôi ướt đẫm lưng áo nhưng ai cũng ráng cắt thật nhanh, thật nhiều cho kịp giờ tiêu thụ ngày mai.
+Mồ hôi	N	8	nsubj
+ướt đẫm	A	1	amod
+lưng	N	2	obj
+áo	N	3	nmod
+nhưng	C	8	mark
+ai	P	8	nsubj
+cũng	R	8	advmod
+ráng	V	0	root
+cắt	V	8	xcomp
+thật	T	11	advmod
+nhanh	A	9	acomp
+,	CH	14	punct
+thật	T	14	advmod
+nhiều	A	17	advmod:adj
+cho	E	17	case
+kịp	A	17	advmod:adj
+giờ	N	11	obl
+tiêu thụ	V	17	nmod
+ngày mai	N	18	nmod
+.	CH	8	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 140
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bà con gặp khó khăn vì dịch, đang nghỉ hè rảnh rỗi nên em tham gia hái rau giúp", cô học trò lớp 8 vui vẻ trả lời.
+Bà con	N	2	nsubj
+gặp	V	0	root
+khó khăn	A	2	obj
+vì	E	5	case
+dịch	V	2	obl
+,	CH	8	punct
+đang	R	8	advmod
+nghỉ hè	V	2	conj
+rảnh rỗi	A	8	obj
+nên	C	12	mark
+em	N	12	nsubj
+tham gia	V	2	conj
+hái	V	12	xcomp
+rau	N	13	obj
+giúp	V	14	nmod
+"	CH	12	punct
+,	CH	23	punct
+cô	Nc	19	det:clf
+học trò	N	23	nsubj
+lớp	N	19	nmod
+8	M	20	compound
+vui vẻ	A	23	advmod
+trả lời	V	2	parataxis
+.	CH	2	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 141
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cách đó chừng 5km, một tốp thanh niên xã Tích Giang (huyện Phúc Thọ) cũng rải khắp cánh đồng thu hoạch rau ngót, rau muống giúp nông dân.
+Cách	N	17	advcl
+đó	P	1	obj
+chừng	N	1	obj
+5	M	5	nummod
+km	Nu	1	obl:tmod
+,	CH	17	punct
+một	M	9	nummod
+tốp	Nc	7	clf
+thanh niên	N	17	nsubj
+xã	N	8	nmod
+Tích Giang	Np	10	compound
+(	CH	13	punct
+huyện	N	10	appos:nmod
+Phúc Thọ	Np	13	compound
+)	CH	13	punct
+cũng	R	17	advmod
+rải	V	0	root
+khắp	A	19	advmod:adj
+cánh	N	17	obj
+đồng	N	19	compound
+thu hoạch	V	19	acl:subj
+rau ngót	N	21	obj
+,	CH	24	punct
+rau muống	N	19	conj
+giúp	V	24	acl:subj
+nông dân	N	25	obj
+.	CH	17	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 142
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Huyện đoàn Phúc Thọ đã phối hợp với các đơn vị để xây dựng phương án kịp thời giúp nông dân tiêu thụ nông sản thông qua mạng xã hội.
+Huyện đoàn	N	5	nsubj
+Phúc	Np	5	nsubj
+Thọ	Np	2	nmod
+đã	R	5	advmod
+phối hợp	V	0	root
+với	E	8	case
+các	L	8	det
+đơn vị	N	5	obl:with
+để	E	10	mark:pcomp
+xây dựng	V	5	advcl:objective
+phương án	N	10	obj
+kịp thời	A	11	amod
+giúp	V	11	acl:subj
+nông dân	N	13	obj
+tiêu thụ	V	14	acl:subj
+nông sản	N	15	obj
+thông qua	V	14	acl:subj
+mạng	N	17	obj
+xã hội	N	18	nmod
+.	CH	5	punct
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 143
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Chúng tôi rà soát nhu cầu của người dân ở địa bàn thông qua các hội nhóm trên mạng xã hội, Zalo, Facebook, tổng hợp đơn và chốt đơn rồi kiêm luôn "shipper" vận chuyển đến từng nhà.
+"	CH	3	punct
+Chúng tôi	P	3	nsubj
+rà soát	V	0	root
+nhu cầu	N	3	obj
+của	E	6	case
+người dân	N	4	nmod:poss
+ở	E	8	case
+địa bàn	N	4	nmod
+thông qua	V	3	xcomp
+các	L	11	det
+hội	N	9	obj
+nhóm	N	11	compound
+trên	E	14	case
+mạng	N	11	nmod
+xã hội	N	14	compound
+,	CH	17	punct
+Zalo	Np	14	conj
+,	CH	19	punct
+Facebook	Np	14	conj
+,	CH	21	punct
+tổng hợp	V	14	conj
+đơn	N	21	nmod
+và	C	25	cc
+chốt	V	25	det:clf
+đơn	N	21	nmod
+rồi	C	27	advmod
+kiêm	V	30	nsubj
+luôn	R	32	advmod
+"	CH	30	punct
+shipper	N	9	conj
+"	CH	30	punct
+vận chuyển	V	30	acl:subj
+đến	E	35	case
+từng	P	35	det
+nhà	N	32	obl:comp
+.	CH	9	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 144
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi chỉ biết nấu cơm cà ri Nhật, taco của Mexico và bánh quy macaroon.
+Tôi	P	3	nsubj
+chỉ	R	3	advmod
+biết	V	0	root
+nấu	V	3	xcomp
+cơm	N	4	obj
+cà ri	N	7	case
+Nhật	Np	5	nmod
+,	CH	9	punct
+taco	N	5	conj
+của	E	11	case
+Mexico	Np	9	nmod:poss
+và	C	13	cc
+bánh quy	V	11	conj
+macaroon	N	13	compound
+.	CH	3	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 145
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ở Việt Nam, tôi thấy rất thú vị khi mình có thể ăn ở ngoài hàng quán mỗi ngày.
+Ở	E	2	case
+Việt Nam	Np	5	obl
+,	CH	2	punct
+tôi	P	5	nsubj
+thấy	V	0	root
+rất	R	7	advmod
+thú vị	A	5	acomp
+khi	N	7	obl:tmod
+mình	P	11	nsubj
+có thể	R	11	aux
+ăn ở	V	8	acl:tmod
+ngoài	E	13	case
+hàng quán	N	11	obl:comp
+mỗi	L	15	det
+ngày	N	11	obl:tmod
+.	CH	5	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 146
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sài Gòn tự hào có món cơm tấm Sà bì chưởng ngon nhức nách.
+Sài Gòn	Np	3	nsubj
+tự hào	A	1	compound
+có	V	0	root
+món	N	5	det:clf
+cơm tấm	N	3	obj
+Sà	Np	5	nmod
+bì	V	6	compound
+chưởng	N	7	compound
+ngon	A	8	amod
+nhức	V	11	case
+nách	N	8	nmod
+.	CH	3	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 147
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đôi khi, tôi cảm thấy mình không đủ khả năng giải thích tại sao nó ngon.
+Đôi khi	N	4	discourse
+,	CH	4	punct
+tôi	P	4	nsubj
+cảm thấy	V	0	root
+mình	P	7	nsubj
+không	R	7	advmod:neg
+đủ	A	4	ccomp
+khả năng	N	7	obj
+giải thích	V	8	acl:subj
+tại sao	X	12	mark
+nó	P	12	nsubj
+ngon	A	7	conj
+.	CH	4	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 148
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những hàng quán vỉa hè ở Việt Nam, những quán cơm tấm lề đường Sài Gòn đại diện cho một nền ẩm thực.
+Những	L	2	det
+hàng quán	N	12	nsubj
+vỉa hè	N	2	nmod
+ở	E	5	case
+Việt Nam	Np	2	nmod
+,	CH	8	punct
+những	L	8	det
+quán	N	2	conj
+cơm tấm	N	8	compound
+lề đường	N	9	nmod
+Sài Gòn	Np	10	compound
+đại diện	V	0	root
+cho	E	15	case
+một	M	15	nummod
+nền	N	12	obl:comp
+ẩm thực	A	15	nmod
+.	CH	12	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 149
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đĩa cơm được đặt trước mặt tôi kèm chén canh và chén nước mắm màu vàng nâu.
+Đĩa	N	2	det:clf
+cơm	N	4	nsubj:pass
+được	V	4	aux:pass
+đặt	V	0	root
+trước	E	6	case
+mặt	N	4	obl:comp
+tôi	P	6	nmod
+kèm	V	4	xcomp
+chén	N	8	obj
+canh	N	9	nmod
+và	C	12	cc
+chén	N	9	conj
+nước mắm	N	12	compound
+màu	N	12	nmod
+vàng	N	14	compound
+nâu	A	14	nmod
+.	CH	4	punct
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 150
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với tôi, Việt Nam rất tuyệt vời vì ở Canada hay những nước khác tôi từng sống, bạn chỉ có thể ăn bên ngoài nếu đó là dịp đi chơi cuối tuần hoặc những ngày đặc biệt như sinh nhật, ngày kỷ niệm...
+Với	E	2	case
+tôi	P	6	obl
+,	CH	6	punct
+Việt Nam	Np	6	nsubj
+rất	R	6	advmod
+tuyệt vời	A	0	root
+vì	E	16	mark
+ở	E	9	case
+Canada	Np	16	obl
+hay	C	16	punct
+những	L	12	det
+nước	N	16	nsubj
+khác	A	12	amod
+tôi	P	16	nsubj
+từng	R	16	advmod
+sống	V	6	ccomp
+,	CH	21	punct
+bạn	N	21	nsubj
+chỉ	R	21	advmod
+có thể	R	21	aux
+ăn	V	6	parataxis
+bên	N	23	case
+ngoài	N	21	obl
+nếu	C	27	mark
+đó	P	27	nsubj
+là	V	27	cop
+dịp	N	21	advcl
+đi	V	21	advcl
+chơi	V	28	compound:svc
+cuối	N	29	obj
+tuần	N	30	nmod
+hoặc	C	34	cc
+những	L	34	det
+ngày	N	30	conj
+đặc biệt	A	34	amod
+như	C	37	case
+sinh nhật	N	34	nmod
+,	CH	39	punct
+ngày	N	37	conj
+kỷ niệm	M	39	nmod
+...	CH	6	punct

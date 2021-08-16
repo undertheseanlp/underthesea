@@ -1,10 +1,10 @@
 # Vietnamese NLP Dataset for Continual Learning
 
-A challenge for Vietnamese NLP Continual Learning 
+A challenge for Vietnamese NLP Continual Learning.
 
-In the past, underthesea team is only focused on tuning model. In this project, we create a simple challenge for ourselves to build a continuous learning NLP system.
+In the past, Underthesea has mainly focused on tuning model. With this project, we create a simple challenge for ourselves to build a continuous learning NLP system.
 
-The August 2021 Challenges are [part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [dependency parsing](https://universaldependencies.org/). 
+The August 2021 Challenges include [part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging) and [dependency parsing](https://universaldependencies.org/).
 
 Three levels of sentence:
 
