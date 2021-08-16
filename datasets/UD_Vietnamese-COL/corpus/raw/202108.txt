@@ -497,3 +497,253 @@ Chiến thắng của Andrea được đánh giá là xứng đáng và nằm tr
 # date = 20210815
 # sent_id = 100
 Andrea Aguilera sẽ đại diện Colombia tại cuộc thi Hoa hậu thế giới 2021 diễn ra ở Puerto Rico.
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 101
+Một lọ vaccine Astrazeneca chứa 10 liều còn một lọ vaccine Sinopharm chứa chỉ 1-2 liều, nên nó chiếm không gian nhiều hơn, tốc độ kiểm đếm cũng chậm hơn các loại khác.
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 102
+Ông Đức cho rằng, các chuyên gia đều khẳng định "vaccine tốt nhất là vaccine được tiêm sớm nhất".
+
+# https://vnexpress.net/tp-hcm-da-tiem-200-000-lieu-vaccine-sinopharm-4341314.html
+# date = 20210816
+# sent_id = 103
+Vì vậy, thành phố quán triệt tinh thần phải tổ chức khoa học và tiêm nhanh cho người dân; tập trung tiêm cho nhóm nguy cơ cao, lớn tuổi, bệnh nền...
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 104
+Tổng thống Afghanistan Ashraf Ghani bị chỉ trích vô trách nhiệm, không yêu nước và lừa dối người dân vì chọn rời khỏi đất nước sau khi Taliban chiếm Kabul.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 105
+Sự ra đi của Tổng thống khiến nhiều người dân Afghanistan tức giận và rối trí.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 106
+Cả hai lần Ghani thắng cử năm 2014 và 2019 đều sa vào tranh cãi và bị cáo buộc gian lận, dàn xếp.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 107
+Một nhà hoạt động nữ quyền nói rằng Ghani và sự ra đi của ông không nên là tâm điểm trong tương lai.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 108
+"Ghani đã ra đi, nhưng vẫn còn 38 triệu người Afghanistan", nhà hoạt động nói.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 109
+Trong thời gian cầm quyền từ 1996 đến 2001, Taliban áp đặt những hạn chế hà khắc, bao gồm phụ nữ (ngoại trừ bác sĩ) không được phép làm việc hoặc học tập.
+
+# https://vnexpress.net/tong-thong-afghanistan-hung-chi-trich-vi-roi-khoi-dat-nuoc-4341270.html
+# date = 20210816
+# sent_id = 110
+Nam giới cũng bị giám sát nghiêm ngặt về trang phục, cầu nguyện cũng như đời sống cá nhân.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 111
+Sự thiếu liên thông và thống nhất giữa các ứng dụng công nghệ trong công tác phòng chống dịch COVID-19 đang khiến nhiều người dân bối rối và khó khăn.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 112
+Ứng dụng Bluezone thì cho phép ghi nhận các tiếp xúc gần giữa các điện thoại thông minh, cũng cho phép người dân khai báo y tế toàn dân, ghi nhận người đến, người đi tại các địa điểm công cộng.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 113
+Ứng dụng NCOVI cũng cho phép người dân khai báo y tế toàn dân, cập nhật tình hình sức khỏe hằng ngày (tự nguyện) và ghi nhận người đến, người đi tại các địa điểm công cộng.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 114
+Thay vì sử dụng một tên miền ngắn gọn để người dân dễ nhập và trở về tên miền chính thì cơ quan quản lý lại đặt một tên miền dài, do vậy họ phải sử dụng cả QR Code để việc truy cập vào tên miền dễ hơn.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 115
+Từ đó, nhiều chuyên gia công nghệ cho rằng Việt Nam cần thống nhất sử dụng ứng dụng duy nhất và liên thông dữ liệu, thay vì tạo ra nhiều app như hiện nay.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 116
+Tại chốt kiểm soát giao thông trên đường Nguyễn Thái Sơn (quận Gò Vấp) hầu như tất cả xe đi qua đây đều phải dừng để khai báo khiến số người tập trung đông.
+
+# https://congnghe.tuoitre.vn/40-ho-tro-chong-dich-mot-nguoi-dan-gan-chuc-cai-app-20210816082709152.htm
+# date = 20210816
+# sent_id = 117
+Ông Phan Thanh Giản cho rằng một sản phẩm công nghệ giúp thay cho việc tiếp xúc trực tiếp, nếu khâu triển khai tạo ra ùn tắc đã đi ngược lại mục đích phòng chống lây lan bệnh.
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 118
+Câu tiếng Anh được nhập vào (sai ngữ pháp) là: "What doing you now".
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 119
+Cộng đồng mạng Việt Nam sau đó lan truyền nhanh chóng bức ảnh này với mục đích "mua vui" cho bạn bè là chính.
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 120
+Theo đó, Google có tính năng "mở" cho mọi người dùng có thể đóng góp vào việc dịch các từ, cụm từ, câu từ một ngôn ngữ này sang một ngôn ngữ khác.
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 121
+Lợi dụng điều đó, một người dùng có ý đồ không tốt hoặc chỉ đơn giản muốn "chọc phá" có thể tạo kết quả dịch thuật mới (như kết quả nêu trên).
+
+# https://congnghe.tuoitre.vn/go-what-doing-you-now-google-dich-hien-ra-sai-roi-dm-phai-la-what-are-you-doing-now-vi-sao-20210816145103826.htm
+# date = 20210816
+# sent_id = 122
+Đây không phải lần đầu tiên Google dịch xuất hiện những kết quả dịch thuật theo kiểu câu nhập một đường, lời dịch một nẻo như trên.
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 123
+Chuyến bay Inspiration4 dự kiến vào ngày 15/9, đánh dấu lần đầu tiên SpaceX phóng tàu chở toàn du khách vào không gian mà không có phi hành gia chuyên nghiệp.
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 124
+Trong chuyến bay, các phi hành gia tương lai sẽ phóng lên quỹ đạo bằng tên lửa Falcon 9 của SpaceX, bay vòng quanh Trái Đất trong 3 ngày, sau đó hạ cánh.
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 125
+Để thực hiện điều đó, họ đã tập huấn suốt nhiều tháng, bao gồm chuyến leo núi Rainier ở Washington để gắn kết cả đội.
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 126
+Arcenaux sẽ gọi cho trẻ em tại viện từ không gian, đồng thời trở thành người mang bộ phận giả đầu tiên trong lịch sử bay vào vũ trụ.
+
+# https://vnexpress.net/spacex-sap-phong-tau-cho-khach-hang-tu-nhan-len-quy-dao-4341157.html
+# date = 20210816
+# sent_id = 127
+Những người còn lại trong phi hành đoàn có lý lịch khác nhau, nhưng tất cả họ đều vô cùng hào hứng và phấn khởi với chuyến bay đầu tiên ở trong không gian.
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 128
+Hàng nghìn người chết và bị thương do động đất hôm 14/8 được các nhà địa chất lý giải do Haiti nằm ở vùng đứt gãy và thiết kế nhà chịu rung lắc kém.
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 129
+Trận động đất 7,2 độ hôm 14/8 nhiều khả năng xảy ra dọc vùng đứt gãy Enriquillo-Plantain Garden, cắt ngang qua bán đảo Tiburon ở tây nam Haiti, theo USGS.
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 130
+Đây cũng chính là vùng đứt gãy nơi xảy ra trận động đất năm 2010.
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 131
+Động đất ở Haiti gây hậu quả nặng nề do nhiều yếu tố kết hợp, bao gồm khu vực thường xuyên xảy ra địa chấn, mật độ dân số cao (11 triệu dân) và các công trình thường được thiết kế để chịu sóng thần thay vì động đất.
+
+# https://vnexpress.net/ly-do-haiti-bi-tan-pha-vi-dong-dat-4341178.html
+# date = 20210816
+# sent_id = 132
+Tổng thống Haiti mới bị ám sát vào tháng trước, khiến đất nước rơi vào bất ổn chính trị.
+
+# https://tuoitre.vn/shipper-da-duoc-giao-hang-lien-quan-o-tp-hcm-du-con-gap-kho-trong-ngay-dau-20210816140750204.htm
+# date = 20210816
+# sent_id = 133
+Các nền tảng đa ứng dụng như Grab, Gojek... đã khởi động trở lại dịch vụ giao hàng liên quận ngay khi TP.HCM hướng dẫn, cho phép shipper giao hàng thiết yếu được di chuyển liên quận thay vì hạn chế trên một địa bàn như thời gian qua.
+
+# https://tuoitre.vn/shipper-da-duoc-giao-hang-lien-quan-o-tp-hcm-du-con-gap-kho-trong-ngay-dau-20210816140750204.htm
+# date = 20210816
+# sent_id = 134
+Các tài xế hoạt động phải tuân thủ các biện pháp phòng, chống dịch, cũng như đảm bảo các tài xế tuân thủ trang bị và các đặc điểm nhận diện như giấy thông hành, mã QR, thẻ đeo, băng tay, mẫu đăng ký nhận diện shipper theo quy định.
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 135
+Thí sinh trúng tuyển vào nhiều trường đại học ở TP.HCM tiếp tục phản ảnh hiện vẫn không thể nộp hồ sơ xác nhận nhập học qua bưu điện.
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 136
+Lưu lượng học sinh gửi hồ sơ đến các trường học chiếm tỉ lệ rất nhỏ, lại không có cơ quan chức năng nào kêu gọi hỗ trợ nên doanh nghiệp bưu chính khó có thể nhận biết.
+
+# https://tuoitre.vn/nhieu-thi-sinh-khong-the-goi-ho-so-nhap-hoc-dai-hoc-qua-buu-dien-20210816122204464.htm
+# date = 20210816
+# sent_id = 137
+Đại diện này cũng cho biết sẵn sàng "mở một luồng ưu tiên" cho học sinh gửi thư báo liên quan đến việc xét tuyển, nhập học nếu có lời kêu gọi từ cơ quan chức năng như Bộ GD-ĐT.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 138
+Đêm đến trên cánh đồng, bóng áo xanh thanh niên lúi húi soi đèn, thoăn thoắt cắt từng mớ rau muống đặc sản.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 139
+Mồ hôi ướt đẫm lưng áo nhưng ai cũng ráng cắt thật nhanh, thật nhiều cho kịp giờ tiêu thụ ngày mai.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 140
+Bà con gặp khó khăn vì dịch, đang nghỉ hè rảnh rỗi nên em tham gia hái rau giúp", cô học trò lớp 8 vui vẻ trả lời.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 141
+Cách đó chừng 5km, một tốp thanh niên xã Tích Giang (huyện Phúc Thọ) cũng rải khắp cánh đồng thu hoạch rau ngót, rau muống giúp nông dân.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 142
+Huyện đoàn Phúc Thọ đã phối hợp với các đơn vị để xây dựng phương án kịp thời giúp nông dân tiêu thụ nông sản thông qua mạng xã hội.
+
+# https://tuoitre.vn/giup-nong-dan-hai-rau-mua-dich-20210814205653469.htm
+# date = 20210815
+# sent_id = 143
+"Chúng tôi rà soát nhu cầu của người dân ở địa bàn thông qua các hội nhóm trên mạng xã hội, Zalo, Facebook, tổng hợp đơn và chốt đơn rồi kiêm luôn "shipper" vận chuyển đến từng nhà.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 144
+Tôi chỉ biết nấu cơm cà ri Nhật, taco của Mexico và bánh quy macaroon.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 145
+Ở Việt Nam, tôi thấy rất thú vị khi mình có thể ăn ở ngoài hàng quán mỗi ngày.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 146
+Sài Gòn tự hào có món cơm tấm Sà bì chưởng ngon nhức nách.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 147
+Đôi khi, tôi cảm thấy mình không đủ khả năng giải thích tại sao nó ngon.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 148
+Những hàng quán vỉa hè ở Việt Nam, những quán cơm tấm lề đường Sài Gòn đại diện cho một nền ẩm thực.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 149
+Đĩa cơm được đặt trước mặt tôi kèm chén canh và chén nước mắm màu vàng nâu.
+
+# https://vnexpress.net/com-tam-sai-gon-4340571.html
+# date = 20210814
+# sent_id = 150
+Với tôi, Việt Nam rất tuyệt vời vì ở Canada hay những nước khác tôi từng sống, bạn chỉ có thể ăn bên ngoài nếu đó là dịp đi chơi cuối tuần hoặc những ngày đặc biệt như sinh nhật, ngày kỷ niệm...
