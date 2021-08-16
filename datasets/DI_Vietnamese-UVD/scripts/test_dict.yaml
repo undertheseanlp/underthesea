@@ -1,0 +1,8 @@
+a: ''
+b:
+- tag: Noun
+  defs:
+  - def: abcdf
+    examples:
+    - '1'
+    - '2'

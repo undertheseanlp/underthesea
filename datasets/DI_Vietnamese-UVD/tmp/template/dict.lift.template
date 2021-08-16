@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- See https://github.com/sillsdev/lift-standard for more information on the format used here. -->
+<lift producer="SIL.FLEx 9.0.15.44253" version="0.13">
+<header>
+<ranges>
+<range id="dialect" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="etymology" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="grammatical-info" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="lexical-relation" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="note-type" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="paradigm" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="reversal-type" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="semantic-domain-ddp4" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="status" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="users" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="location" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<!-- The following ranges are produced by FieldWorks Language Explorer, and are not part of the LIFT standard. -->
+<range id="anthro-code" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="translation-type" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<!-- The parts of speech are duplicated in another range because derivational affixes require a "From" PartOfSpeech as well as a "To" PartOfSpeech. -->
+<range id="from-part-of-speech" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="morph-type" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="exception-feature" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="inflection-feature" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="inflection-feature-type" href="file:///home/anhv/dict/dict.lift-ranges"/>
+<range id="do-not-publish-in" href="file:///home/anhv/dict/dict.lift-ranges"/>
+</ranges>
+<fields>
+<field tag="cv-pattern">
+<form lang="en"><text>This records the syllable pattern for a LexPronunciation in FieldWorks.</text></form>
+</field>
+<field tag="tone">
+<form lang="en"><text>This records the tone information for a LexPronunciation in FieldWorks.</text></form>
+</field>
+<field tag="comment">
+<form lang="en"><text>This records a comment (note) in a LexEtymology in FieldWorks.</text></form>
+</field>
+<field tag="import-residue">
+<form lang="en"><text>This records residue left over from importing a standard format file into FieldWorks (or LinguaLinks).</text></form>
+</field>
+<field tag="literal-meaning">
+<form lang="en"><text>This field is used to store a literal meaning of the entry.  Typically, this field is necessary only for a compound or an idiom where the meaning of the whole is different from the sum of its parts.</text></form>
+</field>
+<field tag="summary-definition">
+<form lang="en"><text>A summary definition (located at the entry level in the Entry pane) is a general definition summarizing all the senses of a primary entry. It has no theoretical value; its use is solely pragmatic.</text></form>
+</field>
+<field tag="scientific-name">
+<form lang="en"><text>This field stores the scientific name pertinent to the current sense.</text></form>
+</field>
+</fields>
+</header>
+<entry dateCreated="2021-03-09T14:47:45Z" dateModified="2021-03-09T14:47:45Z" id="anh_7c2f9c6d-f7ef-4ec9-9cf9-2cf47bb04eda" guid="7c2f9c6d-f7ef-4ec9-9cf9-2cf47bb04eda">
+<lexical-unit>
+<form lang="vi"><text>anh</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="phrase"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<sense id="081bc286-e839-4950-8261-2deb7178f6ff">
+<grammatical-info value="Classifier">
+</grammatical-info>
+</sense>
+</entry>
+<entry dateCreated="2021-03-09T14:44:31Z" dateModified="2021-03-09T14:57:54Z" id="chị_97799186-624b-4073-97a9-2022d3c24d55" guid="97799186-624b-4073-97a9-2022d3c24d55">
+<lexical-unit>
+<form lang="vi"><text>chị</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<sense id="d9cc4008-702b-49ed-ba3d-295eaefebd25" order="0">
+<grammatical-info value="Classifier">
+</grammatical-info>
+</sense>
+<sense id="600e92ba-1e87-4329-a1da-805f5a7309db" order="1">
+<grammatical-info value="Noun">
+</grammatical-info>
+<example>
+<form lang="vi"><text>Chị</text></form>
+<translation type="Free translation">
+<form lang="vi"><text>abc</text></form>
+</translation>
+<translation type="Free translation">
+<form lang="en"><text>def</text></form>
+<form lang="vi"><text>abc</text></form>
+</translation>
+</example>
+</sense>
+</entry>
+</lift>

@@ -1,0 +1,7 @@
+version: 1.0-alpha.1
+year: 2020
+task: dictionary
+domain: general
+description: Underthesea Vietnamese Dictionary
+authors:
+  - Vu Anh <anhv.ict91@gmail.com>
