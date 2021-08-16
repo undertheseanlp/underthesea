@@ -1,0 +1,45 @@
+DANH TỪ;https://vi.wikipedia.org/wiki/Ngữ_pháp_tiếng_Việt;;
+ĐỘNG TỪ;https://vi.wikipedia.org/wiki/Ngữ_pháp_tiếng_Việt;;
+TÍNH TỪ;https://vi.wikipedia.org/wiki/Ngữ_pháp_tiếng_Việt;;
+ĐẠI TỪ;https://vi.wikipedia.org/wiki/Ngữ_pháp_tiếng_Việt;;
+SỐ TỪ;;;
+- định nghĩa ;Số từ được định nghĩa trong bài “Ngữ pháp tiếng Việt” ở Wiki;https://vi.wikipedia.org/wiki/Ngữ_pháp_tiếng_Việt;
+;Trong kết quả phân loại của TS. Nguyễn Hồng Cổn (Ngôn ngữ.Số 02/2003), không có số từ;;
+- ví dụ;“bốn” trong vi.wiktionary;https://vi.wiktionary.org/wiki/bốn#Tiếng_Việt;
+;“bốn” trong soha chỉ là danh từ;http://tratu.soha.vn/dict/vn_vn/Bốn;
+;Từ “mười”;;
+;- “mười” -> số từ (YES: VLSP);https://vlsp.hpda.vn/demo/?page=vcl;
+;- "mười" -> số từ (YES: vi.wiktionary);https://vi.wiktionary.org/wiki/mười#Tiếng_Việt;
+;- "mười" -> số từ (NO: soha);http://tratu.soha.vn/dict/vn_vn/Mười;
+;- "mười" -> số từ (NO: HVĐ);https://www.informatik.uni-leipzig.de/~duc/Dict/;
+;- "mười" -> số từ (NO: vdict);https://vdict.com/mười,3,0,0.html;
+;- "mười" -> số từ (NO: tudientv.com);http://tudientv.com/?t=mười;
+;Từ “trăm”;;
+;- "trăm” -> số từ (YES: VLSP);https://vlsp.hpda.vn/demo/?page=vcl;
+;- "trăm" -> số từ (YES: vi.wiktionary);https://vi.wiktionary.org/wiki/trăm#Tiếng_Việt;
+;- "trăm" -> số từ (NO: soha);http://tratu.soha.vn/dict/vn_vn/Trăm;
+;- "trăm" -> số từ (NO: HVĐ);https://www.informatik.uni-leipzig.de/~duc/Dict/;
+;- "trăm" -> số từ (NO: vdict);https://vdict.com/mười,3,0,0.html;
+;- "trăm" -> số từ (NO: tudientv.com);http://tudientv.com/?t=mười;
+;Từ “hăm”;;
+;- "hăm” -> số từ (YES: VLSP);https://vlsp.hpda.vn/demo/?page=vcl;
+;- "hăm" -> số từ (NO: vi.wiktionary);https://vi.wiktionary.org/wiki/hăm#Tiếng_Việt;
+;- "hăm" -> số từ (NO: soha);http://tratu.soha.vn/dict/vn_vn/hăm;
+;- "hăm" -> số từ (NO: HVĐ);https://www.informatik.uni-leipzig.de/~duc/Dict/;
+;- "hăm" -> số từ (NO: vdict);https://vdict.com/hăm,3,0,0.html;
+;- "hăm" -> số từ (NO: tudientv.com);http://tudientv.com/?t=hăm;
+ĐỊNH TỪ;;;
+- định nghĩa ;;;
+;- YES (VLSP);;
+;- YES (Nguyễn Hồng Cổn 2003);Định từ gồm Lượng từ và Chỉ từ;https://ngonngu.net/tuloai_nhc/163
+;- NO ("Ngữ pháp tiếng Việt" Wiki);Trong trang ngữ pháp tiếng Việt, không nói có loại từ “Định từ”, nhưng có 2 mục “Lượng từ” và “Chỉ từ”;
+- ví dụ;;;
+;Từ “những”;;
+;- "những” -> số từ (YES: VLSP);Từ dùng để chỉ một số lượng nhiều, không xác định. Ví dụ: “những ngày thơ ấu” ~ “nhớ lại những kỉ niệm xưa”;https://vlsp.hpda.vn/demo/?page=vcl
+;- "những" -> số từ (NO: vi.wiktionary);giống HVĐ;https://vi.wiktionary.org/wiki/những#Tiếng_Việt
+;- "những" -> số từ (NO: soha);DANH TỪ (?) Từ dùng để chỉ một số lượng nhiều, không xác định. Ví dụ: những vì sao đêm ~ những ngày thơ ấu ~ nhớ lại những kỉ niệm xưa;http://tratu.soha.vn/dict/vn_vn/những
+;- "những" -> số từ (NO: HVĐ);Không thấy có định nghĩa tương ứng;https://www.informatik.uni-leipzig.de/~duc/Dict/
+;- "những" -> số từ (NO: vdict);giống HVĐ;https://vdict.com/hăm,3,0,0.html
+;- "những" -> số từ (NO: tudientv.com);DANH TỪ (?) Từ dùng để chỉ một số lượng nhiều, không xác định. Ví dụ: những vì sao đêm ~ những ngày thơ ấu ~ nhớ lại những kỉ niệm xưa;http://tudientv.com/?t=những
+phụ từ;http://tratu.soha.vn/dict/vn_vn/Bỗng_chốc;soha;bỗng chốc
+- phụ từ gồm có định từ và phó từ;https://ngnnghc.wordpress.com/2011/03/25/phụ-từ-tiếng-việt/;;
