@@ -1633,3 +1633,1241 @@ mã	V	40	nmod
 hay	C	44	cc
 xấu	A	42	conj
 .	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 51
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bà Dần mắng Long chậm chạp trong việc chinh phục Nam, thậm chí bày cách cho cháu lấy được cả trâu lẫn nghé trong 'Hương vị tình thân' tập 85.
+Bà	Nc	3	nsubj
+Dần	Np	3	advmod
+mắng	V	0	root
+Long	Np	5	nsubj
+chậm chạp	A	3	obj
+trong	E	7	case
+việc	N	5	obl
+chinh phục	V	7	acl:subj
+Nam	Np	8	obj
+,	CH	12	punct
+thậm chí	R	12	advmod
+bày	V	3	conj
+cách	V	12	obj
+cho	E	13	acl:subj
+cháu	Nc	14	obj
+lấy	V	14	xcomp
+được	R	16	advmod
+cả	T	19	det
+trâu	N	16	obj
+lẫn	C	21	punct
+nghé	N	19	conj
+trong	E	23	case
+'	N	19	nmod
+Hương vị	N	23	compound
+tình thân	V	23	nmod
+' tập 85	N	25	compound
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 52
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cháu làm ăn kinh doanh nhanh nhạy đến như thế mà trong chuyện này cháu chậm chạp thế nhỉ?
+Cháu	N	5	nsubj
+làm ăn	V	1	nmod
+kinh doanh	V	2	obj
+nhanh nhạy	A	3	compound
+đến	E	0	root
+như	C	7	case
+thế	P	5	obl
+mà	C	13	mark
+trong	E	10	case
+chuyện	N	13	obl
+này	P	10	det:pmod
+cháu	Nc	13	nsubj
+chậm chạp	A	14	cop
+thế	P	5	discourse
+nhỉ	T	14	discourse
+?	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 53
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cùng lắm thì làm như thằng Huy với con Thi, cưới cả trâu lẫn nghé luôn.
+Cùng	A	4	advcl
+lắm	R	1	advmod
+thì	C	4	mark
+làm	V	0	root
+như	C	7	case
+thằng	Nc	7	det:clf
+Huy	Np	4	obj
+với	E	9	case
+con	Nc	7	det:clf
+Thi	Np	9	nmod
+,	CH	14	punct
+cưới	V	14	advmod
+cả	T	14	det
+trâu	N	9	conj
+lẫn	C	16	cc
+nghé	N	14	nmod
+luôn	R	16	advmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 54
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cũng trong tập này, Diệp (Bích Ngọc) thừa nhận với chị gái dù có cố gắng như thế nào thì vẫn chưa bao giờ quên được Dũng (Sỹ Hưng).
+Cũng	R	3	advmod
+trong	E	3	case
+tập	N	10	obl
+này	P	3	det:pmod
+,	CH	10	punct
+Diệp	Np	10	nsubj
+(	CH	8	punct
+Bích Ngọc	Np	6	appos
+)	CH	8	punct
+thừa nhận	V	0	root
+với	E	12	case
+chị gái	N	10	obl:with
+dù	C	14	mark
+có	V	10	advcl
+cố gắng	V	14	obj
+như	C	17	case
+thế nào	P	15	obl
+thì	C	22	mark
+vẫn	R	22	advmod
+chưa	R	21	advmod:neg
+bao giờ	P	22	obl:tmod
+quên	V	10	conj
+được	R	22	advmod
+Dũng	Np	22	obj
+(	CH	26	punct
+Sỹ Hưng	Np	24	appos
+)	CH	26	punct
+.	CH	22	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 55
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bây giờ em chỉ cần yêu người khác là sẽ quên được người cũ ngay.
+Bây giờ	P	4	obl:tmod
+em	N	4	nsubj
+chỉ	R	4	advmod
+cần	V	0	root
+yêu người	V	4	obj
+khác	A	5	amod
+là	C	9	mark
+sẽ	R	9	advmod
+quên	V	4	conj
+được	V	9	advmod
+người	N	9	obj
+cũ	A	11	amod
+ngay	R	9	advmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 56
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị có làm được như chị nói không? Hay chị vẫn yêu anh Long?
+Chị	Nc	3	nsubj
+có	V	3	advmod
+làm	V	0	root
+được	R	3	advmod
+như	C	7	mark
+chị	Nc	7	nsubj
+nói	V	3	advcl
+không	R	7	advmod
+?	CH	3	punct
+Hay	C	13	punct
+chị	Nc	13	nsubj
+vẫn	R	13	advmod
+yêu	V	3	parataxis
+anh	Nc	13	obj
+Long	Np	13	obj
+?	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 57
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Còn bà Sa (Thu Hạnh) tranh cãi với ông Tấn (Hồ Phong) về chuyện kết hôn và con cái.
+Còn	C	0	root
+bà	Nc	3	det:clf
+Sa	Np	1	obj
+(	CH	5	punct
+Thu Hạnh	Np	3	appos
+)	CH	5	punct
+tranh cãi	V	3	punct
+với	E	10	case
+ông	Nc	10	det:clf
+Tấn	Np	7	obl:with
+(	CH	12	punct
+Hồ Phong	Np	10	appos:nmod
+)	CH	12	punct
+về	E	15	case
+chuyện	N	7	obl
+kết hôn	V	15	nmod
+và	C	18	cc
+con cái	N	16	conj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 58
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Em không bắt anh giữ lời hứa, cuộc sống đổi thay, ai rồi cũng khác, không chỉ vì 1 lời hứa mà từ bỏ quãng đời còn lại được.
+Em	N	3	nsubj
+không	R	3	advmod:neg
+bắt	V	0	root
+anh	Nc	3	obj
+giữ	V	3	xcomp
+lời	N	5	obj
+hứa	V	6	nmod
+,	CH	9	punct
+cuộc sống	N	6	conj
+đổi thay	V	9	nmod
+,	CH	15	punct
+ai	P	15	nsubj
+rồi	C	15	advmod
+cũng	R	15	advmod
+khác	A	3	conj
+,	CH	21	punct
+không	R	19	advmod:neg
+chỉ	R	19	advmod
+vì	E	21	case
+1	M	21	nummod
+lời	N	15	obl
+hứa	V	21	compound:vmod
+mà	C	27	mark
+từ bỏ	V	25	det
+quãng	N	27	nsubj
+đời	N	25	compound
+còn	V	21	acl:subj
+lại	V	27	advmod
+được	R	27	advmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 59
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh bây giờ đã giàu có, có điều kiện, có danh phận, tại sao anh không lập gia đình đi?
+Anh	Nc	2	det:clf
+bây giờ	P	4	nsubj
+đã	R	4	advmod
+giàu có	A	0	root
+,	CH	6	punct
+có	V	4	conj
+điều kiện	N	6	obj
+,	CH	9	punct
+có	V	4	conj
+danh phận	N	9	obj
+,	CH	15	punct
+tại sao	X	15	obl
+anh	Nc	15	nsubj
+không	R	15	advmod:neg
+lập	V	4	conj
+gia đình	N	15	obj
+đi	V	15	advmod
+?	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 60
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuổi anh có thể đẻ thêm được mà, 1 đứa hay 10 đứa cũng được.
+Tuổi	N	4	nsubj
+anh	Nc	1	nmod
+có thể	R	4	advmod
+đẻ	V	0	root
+thêm	V	4	compound:svc
+được	R	4	advmod
+mà	T	4	obl
+,	CH	15	punct
+1	M	10	nummod
+đứa	Nc	15	nsubj
+hay	C	12	cc
+10	M	13	nummod
+đứa	Nc	10	conj
+cũng	R	15	advmod
+được	R	4	conj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 61
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuấn Dương, BTV thời sự chính luận được rất nhiều khán giả yêu thích chia sẻ anh vốn kín tiếng chuyện công việc và gia đình chứ không phải dạng chảnh.
+Tuấn Dương	Np	6	nsubj
+,	CH	6	punct
+BTV	Np	1	conj
+thời sự	V	3	nmod
+chính luận	N	4	nmod
+được	V	0	root
+rất	R	9	advmod
+nhiều	A	9	advmod:adj
+khán giả	N	11	obj
+yêu thích	V	9	nmod
+chia sẻ	V	6	xcomp
+anh	Nc	11	obj
+vốn	R	11	obj
+kín tiếng	V	15	punct
+chuyện	N	11	obj
+công việc	N	15	nmod
+và	C	18	cc
+gia đình	N	16	conj
+chứ	C	22	cc
+không	R	21	advmod:neg
+phải	V	11	conj
+dạng	N	21	obj
+chảnh	V	22	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 62
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuấn Dương là một trong những MC nổi bật nhất của ban Thời sự VTV hiện tại.
+Tuấn Dương	Np	6	nsubj
+là	V	6	cop
+một	M	6	nummod
+trong	E	5	case
+những	L	3	nmod
+MC	Ny	0	root
+nổi bật	A	6	amod
+nhất	R	7	advmod
+của	E	10	case
+ban	N	6	nmod:poss
+Thời sự	N	10	nmod
+VTV	Np	11	nmod
+hiện tại	N	10	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 63
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không chỉ tạo dấu ấn với chương trình Việt Nam hôm nay với lối dẫn tự nhiên, phóng khoáng và cuốn hút, Tuấn Dương hiện cũng là MC chủ chốt của các bản tin Thời sự, trong đó có Thời sự 19h.
+Không	R	3	advmod:neg
+chỉ	R	3	advmod
+tạo	V	0	root
+dấu ấn	N	3	obj
+với	E	6	case
+chương trình	N	3	obl:with
+Việt Nam	Np	6	compound
+hôm nay	N	6	nmod
+với	E	10	case
+lối	N	3	obl
+dẫn	V	10	nmod
+tự nhiên	A	11	amod
+,	CH	14	punct
+phóng khoáng	N	12	conj
+và	C	16	cc
+cuốn hút	V	12	conj
+,	CH	18	punct
+Tuấn Dương	Np	22	nsubj
+hiện	N	22	obl:tmod
+cũng	R	21	advmod
+là	V	22	cop
+MC	Ny	3	conj
+chủ chốt	A	22	amod
+của	E	26	case
+các	L	26	det
+bản tin	N	22	nmod:poss
+Thời sự	V	26	nmod
+,	CH	31	punct
+trong	E	30	case
+đó	P	31	obl
+có	V	3	conj
+Thời sự	N	34	nummod
+19	M	34	nummod
+h	N	31	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 64
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 14/8, cái tên Tuấn Dương xuất hiện đầu danh sách top 5 đề cử Người dẫn chương trình ấn tượng giải VTV Awards năm nay.
+Ngày	N	7	obl:tmod
+14/8	M	1	flat:date
+,	CH	7	punct
+cái	Nc	5	det:clf
+tên	N	7	nsubj
+Tuấn Dương	Np	5	nmod
+xuất hiện	V	0	root
+đầu	N	7	obj
+danh sách	N	8	nmod
+top	N	9	nmod
+5	M	10	nummod
+đề cử	N	11	flat:number
+Người	Nc	7	obl
+dẫn chương trình	V	13	nmod
+ấn tượng	N	14	nmod
+giải	N	15	nmod
+VTV Awards	Np	16	nummod
+năm	N	14	nmod
+nay	P	18	det:pmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 65
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cực kỳ hạn chế nhận lời trả lời phỏng vấn của anh chị em đồng nghiệp, bởi tôi nghĩ cuộc sống của mình cũng giống như bao người, có khác chăng chỉ là tôi được nhiều người biết hơn chút (chứ tuyệt nhiên tôi không phải dạng chảnh)
+Cực	A	2	det
+kỳ hạn chế	V	3	nummod
+nhận lời	N	4	nsubj
+trả lời	V	0	root
+phỏng vấn	V	4	compound:adj
+của	E	7	case
+anh chị em	N	4	nmod:poss
+đồng nghiệp	N	7	compound
+,	CH	12	punct
+bởi	E	12	mark
+tôi	P	12	nsubj
+nghĩ	V	2	ccomp
+cuộc sống	N	12	obj
+của	E	15	case
+mình	P	13	nmod:poss
+cũng	R	17	advmod
+giống	A	12	advcl
+như	C	20	case
+bao	P	20	det:clf
+người	N	17	obl
+,	CH	22	punct
+có	V	17	conj
+khác	A	22	acomp
+chăng	R	27	advmod
+chỉ	R	26	advmod
+là	V	27	cop
+tôi	P	31	nsubj
+được	V	31	aux:pass
+nhiều	A	30	advmod:adj
+người	Nc	31	nsubj
+biết	V	17	conj
+hơn	A	33	advmod
+chút	L	31	obj
+(	CH	39	punct
+chứ	C	36	det
+tuyệt nhiên	N	39	nsubj
+tôi	P	36	nmod
+không	R	39	advmod:neg
+phải	V	31	parataxis
+dạng	N	39	obj
+chảnh	N	40	nmod
+)	CH	39	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 66
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây hình như là lần thứ 3 tôi lọt vào đề cử dẫn chương trình ấn tượng.
+Đây	P	5	nsubj
+hình	N	9	nsubj
+như	C	5	case
+là	C	5	cop
+lần	N	9	obl:tmod
+thứ	N	5	nmod
+3	M	6	nummod
+tôi	P	9	nsubj
+lọt	V	0	root
+vào	E	9	compound:dir
+đề cử	N	9	obl:comp
+dẫn chương trình	V	9	obl:comp
+ấn tượng	N	12	compound
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 67
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những lần trước, thực tình tôi không quan tâm lắm đến việc lọt vào vòng trong hay không, bởi tôi không có mục tiêu ganh đua danh hiệu này.
+Những	L	2	det
+lần	N	8	obl:tmod
+trước	N	2	amod
+,	CH	8	punct
+thực tình	N	8	nsubj
+tôi	P	5	nmod
+không	R	8	advmod:neg
+quan tâm	V	0	root
+lắm	R	8	advmod
+đến	E	11	case
+việc	N	8	obl:comp
+lọt	V	11	acl:subj
+vào	E	14	case
+vòng	N	12	obl:comp
+trong	E	14	compound
+hay	C	17	advmod
+không	R	12	advmod
+,	CH	22	punct
+bởi	E	22	mark
+tôi	P	22	nsubj
+không	R	22	advmod:neg
+có	V	8	advcl
+mục tiêu	N	22	obj
+ganh đua	V	23	acl:subj
+danh hiệu	N	24	obj
+này	P	25	det:pmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 68
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi chắc chắn chưa mất một xu nào để tự nhắn tin hoặc bình chọn cho mình.
+Tôi	P	4	nsubj
+chắc chắn	A	4	advmod
+chưa	R	4	advmod:neg
+mất	V	0	root
+một	M	6	nummod
+xu	N	4	obj
+nào	P	6	det:pmod
+để	E	10	mark:pcomp
+tự	P	10	det:pmod
+nhắn tin	V	4	advcl:objective
+hoặc	C	12	cc
+bình chọn	V	10	conj
+cho	E	14	case
+mình	P	10	obl:comp
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 69
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, lần này là ngoại lệ với Tuấn Dương và anh lý giải rất rõ lý do mình muốn đoạt giải nhưng không vì mục đích danh lợi cho bản thân.
+Tuy nhiên	C	6	mark
+,	CH	6	punct
+lần	N	6	nsubj
+này	P	3	det:pmod
+là	V	6	cop
+ngoại lệ	N	0	root
+với	E	8	case
+Tuấn Dương	Np	6	obl:with
+và	C	11	cc
+anh	Nc	11	nsubj
+lý giải	V	6	conj
+rất	R	13	advmod
+rõ	A	11	acomp
+lý do	N	13	obj
+mình	P	17	nsubj
+muốn	V	17	aux
+đoạt	V	14	acl
+giải	N	17	obj
+nhưng	C	23	mark
+không	R	21	advmod:neg
+vì	E	22	case
+mục đích	N	17	conj
+danh lợi	V	22	nmod
+cho	E	25	case
+bản thân	N	23	obl:comp
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 70
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm nay khác một chút, tôi được đề cử giải thưởng có lẽ đa phần là do xuất phát từ chương trình Mưa lũ lịch sử miền Trung.
+Năm	N	8	obl:tmod
+nay	P	1	det:pmod
+khác	A	1	amod
+một chút	L	3	compound
+,	CH	8	punct
+tôi	P	8	nsubj:pass
+được	V	8	aux:pass
+đề cử	V	0	root
+giải thưởng	N	8	obj
+có lẽ	X	11	advmod
+đa phần	A	8	obj
+là	C	14	mark
+do	E	14	mark
+xuất phát	V	8	conj
+từ	E	16	case
+chương trình	N	14	obl:comp
+Mưa lũ	N	16	compound
+lịch sử	N	16	nmod
+miền	N	16	nmod
+Trung	Np	19	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 71
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngỡ ngàng với nhan sắc tuổi 32 của diễn viên Quỳnh Nga
+Ngỡ ngàng	A	0	root
+với	E	4	case
+nhan sắc	M	1	obl:with
+tuổi	N	1	obl
+32	M	4	nummod
+của	E	7	case
+diễn viên	N	3	nmod:poss
+Quỳnh Nga	Np	1	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 72
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quỳnh Nga là nghệ sĩ chăm chỉ luyện tập thể thao nên giữ được vóc dáng rất đẹp và gợi cảm.
+Quỳnh Nga	Np	3	nsubj
+là	V	3	cop
+nghệ sĩ	N	8	csubj
+chăm chỉ	A	3	amod
+luyện tập	V	3	acl:subj
+thể thao	N	5	obj
+nên	C	8	mark
+giữ	V	0	root
+được	R	8	advmod
+vóc dáng	V	8	obj
+rất	R	12	advmod
+đẹp	A	10	acl:subj
+và	C	14	cc
+gợi cảm	V	12	conj
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 73
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mới đây cô khoe bức anh khi ngẫu hứng chụp bên những đóa hoa cẩm tú cầu và nhận nhiều lời khen từ người hâm mộ.
+Mới đây	X	3	obl:tmod
+cô	Nc	3	nsubj
+khoe	V	0	root
+bức	Nc	5	det:clf
+anh	Nc	3	obj
+khi	N	3	obl:tmod
+ngẫu hứng	V	8	nsubj
+chụp	V	3	ccomp
+bên	N	11	case
+những	L	12	det
+đóa	Nc	10	clf
+hoa	N	8	obl
+cẩm	V	12	nmod
+tú cầu	N	13	compound
+và	C	16	cc
+nhận	V	8	conj
+nhiều	A	18	advmod:adj
+lời	N	16	obj
+khen	V	18	amod
+từ	E	21	case
+người	N	18	nmod
+hâm mộ	V	21	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 74
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vợ chồng Khánh Thi - Phan Hiển đăng ảnh tình tứ những ngày sinh hoạt tại nhà.
+Vợ chồng	N	5	nsubj
+Khánh Thi	Np	1	nmod
+-	CH	4	punct
+Phan Hiển	Np	2	conj
+đăng	V	0	root
+ảnh	N	5	obj
+tình tứ	V	9	case
+những	L	9	det
+ngày sinh hoạt	N	5	obl
+tại	E	11	case
+nhà	N	9	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 75
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Quay qua quay lại lại hết một tuần", nữ vũ công viết.
+"	CH	4	punct
+Quay	V	4	nsubj
+qua	R	2	punct
+quay	V	0	root
+lại	V	4	compound:svc
+lại	V	7	advmod
+hết	V	4	xcomp
+một	M	9	nummod
+tuần	N	7	obj
+"	CH	4	punct
+,	CH	14	punct
+nữ	N	13	det:clf
+vũ công	N	14	nsubj
+viết	V	4	parataxis
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 76
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả hai dành thời gian chăm sóc con nhỏ, mở lớp dạy vũ đạo online nhưng vẫn không quên dành thời gian riêng tư cho nhau.
+Cả	P	2	det
+hai	M	3	nsubj
+dành	V	0	root
+thời gian	N	3	obj
+chăm sóc	V	3	xcomp
+con	N	5	obj
+nhỏ	A	5	obj
+,	CH	9	punct
+mở	V	3	conj
+lớp	N	9	obj
+dạy	V	10	compound
+vũ đạo	N	11	obj
+online	V	11	obj
+nhưng	C	17	mark
+vẫn	R	17	advmod
+không	R	17	advmod:neg
+quên	V	3	conj
+dành	V	17	xcomp
+thời gian	N	18	obj
+riêng tư	A	19	nmod
+cho	E	22	case
+nhau	N	18	obl:comp
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 77
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ghen tỵ với người khác là tự chứng tỏ sự hèn kém của mình.
+Ghen	Np	8	nsubj
+tỵ	V	1	compound
+với	E	4	case
+người	N	1	obl:with
+khác	A	4	amod
+là	C	8	cop
+tự	P	8	advmod
+chứng tỏ	V	0	root
+sự	N	8	obj
+hèn kém	V	9	amod
+của	E	12	case
+mình	P	10	nmod:poss
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 78
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cao Thái Sơn đăng ảnh mới, tự khen mình trông như mới dậy thì.
+Cao	Np	10	advcl
+Thái Sơn	Np	1	obj
+đăng	V	1	obj
+ảnh	N	3	nmod
+mới	A	4	amod
+,	CH	10	punct
+tự	P	8	advmod
+khen	V	10	nsubj
+mình	P	10	nsubj
+trông	V	0	root
+như	C	12	case
+mới	R	13	advmod
+dậy	V	10	obl
+thì	T	13	discourse
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 79
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hoa hậu Khánh Vân vui vẻ chụp ảnh cùng những cư dân trong khu vực bị phong tỏa.
+Hoa hậu	N	2	det:clf
+Khánh Vân	Np	4	nsubj
+vui vẻ	A	4	advmod
+chụp	V	0	root
+ảnh	N	4	obj
+cùng	A	8	case
+những	L	8	det
+cư dân	N	4	obl:with
+trong	E	10	case
+khu vực	N	8	obl
+bị	V	12	aux:pass
+phong tỏa	V	10	acl:subj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 80
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nàng Hậu những ngày qua hết mình cho công tác thiện nguyện.
+Nàng	N	5	nsubj
+Hậu	Np	0	root
+những	L	4	det
+ngày	N	2	obj
+qua	V	4	acl:subj
+hết mình	X	5	obj
+cho	E	8	case
+công tác	N	5	obl:comp
+thiện	A	10	advmod:adj
+nguyện	V	8	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 81
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đàn ông hay phụ nữ đều cần nỗ lực dù bất kể giai đoạn nào trong cuộc sống.
+Đàn ông	N	5	nsubj
+hay	C	3	cc
+phụ nữ	N	1	conj
+đều	R	5	advmod
+cần	V	0	root
+nỗ lực	V	5	obj
+dù	C	9	case
+bất kể	R	9	advmod
+giai đoạn	N	5	obl
+nào	P	9	det:pmod
+trong	E	12	case
+cuộc sống	N	5	obl
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 82
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi cho rằng, công việc và tuổi tác không nên gộp lại nói chung với nhau.
+Tôi	P	2	nsubj
+cho	V	0	root
+rằng	C	2	compound:prt
+,	CH	2	punct
+công việc	N	10	nsubj
+và	C	7	cc
+tuổi tác	N	5	conj
+không	R	9	advmod:neg
+nên	V	10	aux
+gộp	V	2	conj
+lại	R	10	advmod
+nói chung	X	10	advmod:adj
+với	E	14	case
+nhau	N	12	obl:with
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 83
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi đã có 30 năm hoạt động nghệ thuật.
+Tôi	P	3	nsubj
+đã	R	3	advmod
+có	V	0	root
+30	M	5	nummod
+năm	N	3	obj
+hoạt động	V	3	obj
+nghệ thuật	N	6	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 84
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Suốt ngần ấy thời gian, tôi nỗ lực từng chút một ở từng giai đoạn sự nghiệp.
+Suốt	A	2	advmod:adj
+ngần	N	7	obl:tmod
+ấy	P	2	det:pmod
+thời gian	N	2	nmod
+,	CH	7	punct
+tôi	P	7	nsubj
+nỗ lực	V	0	root
+từng	R	9	advmod
+chút	L	7	obj
+một	M	9	nummod
+ở	E	13	case
+từng	P	13	det
+giai đoạn	N	7	obl
+sự nghiệp	N	13	compound
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 85
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều khổ sở nhất của một người nghệ sĩ chính là đánh mất đi lửa nghề.
+Điều	N	10	nsubj
+khổ sở	A	1	amod
+nhất	R	2	advmod
+của	E	6	case
+một	M	7	nummod
+người	N	1	nmod:poss
+nghệ sĩ	N	6	nmod
+chính	T	10	discourse
+là	V	10	cop
+đánh	V	0	root
+mất	V	10	acomp
+đi	V	13	case
+lửa	N	10	obl
+nghề	N	13	nmod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 86
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi may mắn vì từng này tuổi vẫn còn sung sức và thỏa mãn với khát vọng nghệ thuật trong mình.
+Tôi	P	2	nsubj
+may mắn	A	0	root
+vì	E	8	mark
+từng	R	8	obl
+này	P	4	det:pmod
+tuổi	N	8	nsubj
+vẫn	R	8	advmod
+còn	R	2	ccomp
+sung sức	V	8	obj
+và	C	11	cc
+thỏa mãn	V	9	conj
+với	E	13	case
+khát vọng	N	9	obl
+nghệ thuật	N	13	nmod
+trong	E	16	case
+mình	P	13	obl
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 87
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Showbiz Hoa ngữ trước nay luôn có sự đào thải khắc nghiệt, thị hiếu khán giả liên tục thay đổi.
+Showbiz	Np	2	det
+Hoa ngữ	V	5	nsubj
+trước nay	N	2	compound
+luôn	R	5	advmod
+có	V	0	root
+sự	N	5	obj
+đào thải	V	6	nmod
+khắc nghiệt	A	7	amod
+,	CH	10	punct
+thị hiếu	V	13	nsubj
+khán giả	N	10	compound
+liên tục	A	13	advmod:adj
+thay đổi	V	5	conj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 88
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một nữ diễn viên như chị khi đứng giữa guồng quay ấy hẳn cũng gặp không ít áp lực?
+Một	M	2	nummod
+nữ	N	14	nsubj
+diễn viên	N	2	nmod
+như	C	5	case
+chị	Nc	2	nmod
+khi	N	14	obl:tmod
+đứng	V	6	acl:tmod
+giữa	E	9	case
+guồng	N	7	obl:comp
+quay	V	7	obl:comp
+ấy	P	9	det:pmod
+hẳn	R	14	advmod
+cũng	R	14	advmod
+gặp	V	0	root
+không	R	16	advmod:neg
+ít	A	17	advmod:adj
+áp lực	N	14	obj
+?	CH	14	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 89
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế hệ nghệ sĩ như tôi muốn tồn tại làm việc phải chấp nhận thích nghi.
+Thế hệ	N	6	nsubj
+nghệ sĩ	N	1	nmod
+như	C	4	case
+tôi	P	1	obl
+muốn	V	6	aux
+tồn tại	V	9	advcl
+làm việc	V	9	nsubj
+phải	V	9	aux
+chấp nhận	V	0	root
+thích nghi	V	9	obj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 90
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều quan trọng tôi biết mình ở đâu và muốn gì vào thời điểm này.
+Điều	N	4	dislocated
+quan trọng	A	1	amod
+tôi	P	4	nsubj
+biết	V	0	root
+mình	P	6	nsubj
+ở	E	4	ccomp
+đâu	P	6	obj
+và	C	9	cc
+muốn	V	6	conj
+gì	P	9	obj
+vào	E	12	case
+thời điểm	N	9	obl
+này	P	12	det:pmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 91
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vượt qua các đối thủ đáng gờm, Andrea Aguilera đến từ Antioquia chính thức đăng quang Hoa hậu Thế giới Colombia 2021.
+Vượt	V	9	advcl
+qua	V	1	compound:svc
+các	L	4	det
+đối thủ	N	1	obj
+đáng	V	4	acl:subj
+gờm	V	5	obj
+,	CH	8	punct
+Andrea Aguilera	Np	9	nsubj
+đến	V	0	root
+từ	E	11	case
+Antioquia	Np	9	obl:comp
+chính thức	A	11	acl:subj
+đăng quang	V	12	obj
+Hoa hậu Thế giới	N	13	compound
+Colombia	Np	14	nmod
+2021	V	15	compound
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 92
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tối 14/8, Hoa hậu thế giới Colombia 2021 đã tìm được chủ nhân xứng đáng là người đẹp đại diện đến từ Antioquia - Andrea Aguilera.
+Tối	N	8	obl:tmod
+14/8	M	1	flat:time
+,	CH	8	punct
+Hoa hậu thế giới	N	8	nsubj
+Colombia	Np	4	nmod
+2021	V	4	nmod
+đã	R	8	advmod
+tìm	V	0	root
+được	R	8	advmod
+chủ nhân	N	8	obj
+xứng đáng	A	10	nmod
+là	V	13	cop
+người	N	8	ccomp
+đẹp	A	13	acl:subj
+đại diện	V	13	acl:subj
+đến	V	15	compound:dir
+từ	E	18	case
+Antioquia	Np	15	obl:comp
+-	CH	20	punct
+Andrea Aguilera	Np	18	conj
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 93
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô giành chiến thắng thuyết phục trước 17 thí sinh khác tại đêm chung kết.
+Cô	Nc	2	nsubj
+giành	V	0	root
+chiến thắng	N	2	obj
+thuyết phục	V	2	obj
+trước	E	7	case
+17	M	7	nummod
+thí sinh	N	2	obl
+khác	A	7	amod
+tại	E	10	case
+đêm	N	7	obl
+chung kết	N	10	compound
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 94
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người đẹp Natalia Garizabal sẽ tham dự Miss Model of the World 2021.
+Người	Nc	5	nsubj
+đẹp	A	1	amod
+Natalia Garizabal	Np	1	nmod
+sẽ	R	5	advmod
+tham dự	V	0	root
+Miss Model	Np	5	obj
+of	V	5	obj
+the	N	7	nmod
+World	Np	8	nmod
+2021	V	9	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 95
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Andrea Aguilera năm nay 23 tuổi, hiện đang theo đuổi ngành Quan hệ công chúng.
+Andrea	Np	3	case
+Aguilera	Np	3	nummod
+năm	N	10	obl:tmod
+nay	P	3	nmod
+23	M	6	nummod
+tuổi	N	10	nsubj
+,	CH	10	punct
+hiện	N	10	obl:tmod
+đang	R	10	advmod
+theo đuổi	V	0	root
+ngành	N	10	obj
+Quan hệ	N	11	nmod
+công chúng	V	12	compound
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 96
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người đẹp mang vẻ đẹp nóng bỏng đặc trưng của phụ nữ latin với gương mặt sắc sảo cùng cơ thể cân đối và khỏe khoắn.
+Người	Nc	3	nsubj
+đẹp	A	1	amod
+mang	V	0	root
+vẻ	N	3	obj
+đẹp	A	4	compound:amod
+nóng bỏng	A	5	nmod
+đặc trưng	N	6	amod
+của	E	9	case
+phụ nữ	N	4	nmod:poss
+latin	V	9	compound
+với	E	12	case
+gương mặt	N	3	obl
+sắc sảo	A	12	compound
+cùng	C	15	case
+cơ thể	N	12	nmod
+cân đối	N	15	compound
+và	C	18	cc
+khỏe khoắn	V	15	conj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 97
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài chiến thắng chung cuộc, Andrea Aguilera còn đạt các giải phụ Hoa hậu Ảnh, Hình thể đẹp, Gương mặt đẹp nhất, Nụ cười đẹp nhất.
+Ngoài	E	2	case
+chiến thắng	N	7	obl
+chung cuộc	V	2	compound
+,	CH	7	punct
+Andrea Aguilera	Np	7	nsubj
+còn	R	7	advmod
+đạt	V	0	root
+các	L	9	det
+giải	N	7	obj
+phụ	V	9	nmod
+Hoa hậu	N	12	punct
+Ảnh	Np	9	nmod
+,	CH	14	punct
+Hình thể	N	10	conj
+đẹp	A	14	nmod
+,	CH	17	punct
+Gương mặt	N	9	conj
+đẹp	A	17	amod
+nhất	A	18	advmod
+,	CH	21	punct
+Nụ cười	N	10	conj
+đẹp	A	21	amod
+nhất	R	22	advmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 98
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong suốt quá trình thi, người đẹp luôn là ứng cử viên hàng đầu cho vương miện.
+Trong	E	3	case
+suốt	A	3	advmod:adj
+quá trình	N	9	obl
+thi	V	3	compound:vmod
+,	CH	3	punct
+người đẹp	N	9	nsubj
+luôn	R	9	advmod
+là	V	9	cop
+ứng cử viên	N	0	root
+hàng đầu	N	9	compound
+cho	E	12	case
+vương miện	N	9	obl:comp
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 99
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiến thắng của Andrea được đánh giá là xứng đáng và nằm trong dự đoán của số đông.
+Chiến thắng	N	5	nsubj:pass
+của	E	3	case
+Andrea	Np	1	nmod:poss
+được	R	5	aux:pass
+đánh giá	V	0	root
+là	C	7	cop
+xứng đáng	A	5	acl:subj
+và	C	9	cc
+nằm	V	7	conj
+trong	E	11	case
+dự đoán	N	9	obl:comp
+của	E	13	case
+số	N	11	nmod:poss
+đông	A	13	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 100
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Andrea Aguilera sẽ đại diện Colombia tại cuộc thi Hoa hậu thế giới 2021 diễn ra ở Puerto Rico.
+Andrea Aguilera	Np	3	nsubj
+sẽ	R	3	advmod
+đại diện	V	0	root
+Colombia	Np	3	obj
+tại	E	6	case
+cuộc	N	3	obl
+thi	V	6	compound
+Hoa hậu thế giới	V	7	nmod
+2021	N	10	nsubj
+diễn	V	3	conj
+ra	V	10	advmod
+ở	E	13	case
+Puerto Rico	Np	10	obl
+.	CH	3	punct

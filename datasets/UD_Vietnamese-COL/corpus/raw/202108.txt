@@ -247,3 +247,253 @@ Chị Hằng cho biết, từ ngày dịch bệnh diễn biến phức tạp, gi
 # date = 20210814
 # sent_id = 50
 Bà nội trợ này nói thêm, chỉ cần từ 150.000-300.000 đồng là có thể đặt được những sản phẩm vàng mã thiết yếu như bộ quần áo, tiền vàng, hương nến,... để chuẩn bị cúng Rằm, tùy chất liệu giấy mã đẹp hay xấu.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 51
+Bà Dần mắng Long chậm chạp trong việc chinh phục Nam, thậm chí bày cách cho cháu lấy được cả trâu lẫn nghé trong 'Hương vị tình thân' tập 85.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 52
+Cháu làm ăn kinh doanh nhanh nhạy đến như thế mà trong chuyện này cháu chậm chạp thế nhỉ?
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 53
+Cùng lắm thì làm như thằng Huy với con Thi, cưới cả trâu lẫn nghé luôn.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 54
+Cũng trong tập này, Diệp (Bích Ngọc) thừa nhận với chị gái dù có cố gắng như thế nào thì vẫn chưa bao giờ quên được Dũng (Sỹ Hưng).
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 55
+Bây giờ em chỉ cần yêu người khác là sẽ quên được người cũ ngay.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 56
+Chị có làm được như chị nói không? Hay chị vẫn yêu anh Long?
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 57
+Còn bà Sa (Thu Hạnh) tranh cãi với ông Tấn (Hồ Phong) về chuyện kết hôn và con cái.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 58
+Em không bắt anh giữ lời hứa, cuộc sống đổi thay, ai rồi cũng khác, không chỉ vì 1 lời hứa mà từ bỏ quãng đời còn lại được.
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 59
+Anh bây giờ đã giàu có, có điều kiện, có danh phận, tại sao anh không lập gia đình đi?
+
+# https://vietnamnet.vn/vn/giai-tri/phim/huong-vi-tinh-than-tap-85-ba-dan-bay-muu-cho-long-nhanh-cuoi-nam-766137.html
+# date = 20210815
+# sent_id = 60
+Tuổi anh có thể đẻ thêm được mà, 1 đứa hay 10 đứa cũng được.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 61
+Tuấn Dương, BTV thời sự chính luận được rất nhiều khán giả yêu thích chia sẻ anh vốn kín tiếng chuyện công việc và gia đình chứ không phải dạng chảnh.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 62
+Tuấn Dương là một trong những MC nổi bật nhất của ban Thời sự VTV hiện tại.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 63
+Không chỉ tạo dấu ấn với chương trình Việt Nam hôm nay với lối dẫn tự nhiên, phóng khoáng và cuốn hút, Tuấn Dương hiện cũng là MC chủ chốt của các bản tin Thời sự, trong đó có Thời sự 19h.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 64
+Ngày 14/8, cái tên Tuấn Dương xuất hiện đầu danh sách top 5 đề cử Người dẫn chương trình ấn tượng giải VTV Awards năm nay.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 65
+Cực kỳ hạn chế nhận lời trả lời phỏng vấn của anh chị em đồng nghiệp, bởi tôi nghĩ cuộc sống của mình cũng giống như bao người, có khác chăng chỉ là tôi được nhiều người biết hơn chút (chứ tuyệt nhiên tôi không phải dạng chảnh)
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 66
+Đây hình như là lần thứ 3 tôi lọt vào đề cử dẫn chương trình ấn tượng.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 67
+Những lần trước, thực tình tôi không quan tâm lắm đến việc lọt vào vòng trong hay không, bởi tôi không có mục tiêu ganh đua danh hiệu này.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 68
+Tôi chắc chắn chưa mất một xu nào để tự nhắn tin hoặc bình chọn cho mình.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 69
+Tuy nhiên, lần này là ngoại lệ với Tuấn Dương và anh lý giải rất rõ lý do mình muốn đoạt giải nhưng không vì mục đích danh lợi cho bản thân.
+
+# https://vietnamnet.vn/vn/giai-tri/truyen-hinh/mc-tuan-duong-vtv-toi-khong-phai-dang-chanh-766184.html
+# date = 20210815
+# sent_id = 70
+Năm nay khác một chút, tôi được đề cử giải thưởng có lẽ đa phần là do xuất phát từ chương trình Mưa lũ lịch sử miền Trung.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 71
+Ngỡ ngàng với nhan sắc tuổi 32 của diễn viên Quỳnh Nga
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 72
+Quỳnh Nga là nghệ sĩ chăm chỉ luyện tập thể thao nên giữ được vóc dáng rất đẹp và gợi cảm.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 73
+Mới đây cô khoe bức anh khi ngẫu hứng chụp bên những đóa hoa cẩm tú cầu và nhận nhiều lời khen từ người hâm mộ.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 74
+Vợ chồng Khánh Thi - Phan Hiển đăng ảnh tình tứ những ngày sinh hoạt tại nhà.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 75
+"Quay qua quay lại lại hết một tuần", nữ vũ công viết.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 76
+Cả hai dành thời gian chăm sóc con nhỏ, mở lớp dạy vũ đạo online nhưng vẫn không quên dành thời gian riêng tư cho nhau.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 77
+Ghen tỵ với người khác là tự chứng tỏ sự hèn kém của mình.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 78
+Cao Thái Sơn đăng ảnh mới, tự khen mình trông như mới dậy thì.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 79
+Hoa hậu Khánh Vân vui vẻ chụp ảnh cùng những cư dân trong khu vực bị phong tỏa.
+
+# https://vietnamnet.vn/vn/giai-tri/the-gioi-sao/sao-viet-hom-nay-13-8-ngo-ngang-voi-nhan-sac-tuoi-32-cua-dien-vien-quynh-nga-765971.html
+# date = 20210815
+# sent_id = 80
+Nàng Hậu những ngày qua hết mình cho công tác thiện nguyện.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 81
+Đàn ông hay phụ nữ đều cần nỗ lực dù bất kể giai đoạn nào trong cuộc sống.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 82
+Tôi cho rằng, công việc và tuổi tác không nên gộp lại nói chung với nhau.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 83
+Tôi đã có 30 năm hoạt động nghệ thuật.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 84
+Suốt ngần ấy thời gian, tôi nỗ lực từng chút một ở từng giai đoạn sự nghiệp.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 85
+Điều khổ sở nhất của một người nghệ sĩ chính là đánh mất đi lửa nghề.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 86
+Tôi may mắn vì từng này tuổi vẫn còn sung sức và thỏa mãn với khát vọng nghệ thuật trong mình.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 87
+Showbiz Hoa ngữ trước nay luôn có sự đào thải khắc nghiệt, thị hiếu khán giả liên tục thay đổi.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 88
+Một nữ diễn viên như chị khi đứng giữa guồng quay ấy hẳn cũng gặp không ít áp lực?
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 89
+Thế hệ nghệ sĩ như tôi muốn tồn tại làm việc phải chấp nhận thích nghi.
+
+# https://vietnamnet.vn/vn/giai-tri/media/55-tuoi-tieu-long-nu-ly-nhuoc-dong-noi-ve-noi-tiec-nuoi-nhat-doi-764938.html
+# date = 20210815
+# sent_id = 90
+Điều quan trọng tôi biết mình ở đâu và muốn gì vào thời điểm này.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 91
+Vượt qua các đối thủ đáng gờm, Andrea Aguilera đến từ Antioquia chính thức đăng quang Hoa hậu Thế giới Colombia 2021.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 92
+Tối 14/8, Hoa hậu thế giới Colombia 2021 đã tìm được chủ nhân xứng đáng là người đẹp đại diện đến từ Antioquia - Andrea Aguilera.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 93
+Cô giành chiến thắng thuyết phục trước 17 thí sinh khác tại đêm chung kết.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 94
+Người đẹp Natalia Garizabal sẽ tham dự Miss Model of the World 2021.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 95
+Andrea Aguilera năm nay 23 tuổi, hiện đang theo đuổi ngành Quan hệ công chúng.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 96
+Người đẹp mang vẻ đẹp nóng bỏng đặc trưng của phụ nữ latin với gương mặt sắc sảo cùng cơ thể cân đối và khỏe khoắn.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 97
+Ngoài chiến thắng chung cuộc, Andrea Aguilera còn đạt các giải phụ Hoa hậu Ảnh, Hình thể đẹp, Gương mặt đẹp nhất, Nụ cười đẹp nhất.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 98
+Trong suốt quá trình thi, người đẹp luôn là ứng cử viên hàng đầu cho vương miện.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 99
+Chiến thắng của Andrea được đánh giá là xứng đáng và nằm trong dự đoán của số đông.
+
+# https://vietnamnet.vn/vn/giai-tri/thoi-trang/nhan-sac-tua-nu-than-cua-tan-hoa-hau-the-gioi-colombia-766203.html
+# date = 20210815
+# sent_id = 100
+Andrea Aguilera sẽ đại diện Colombia tại cuộc thi Hoa hậu thế giới 2021 diễn ra ở Puerto Rico.
