@@ -13,10 +13,11 @@ COL_FOLDER = join(DATASETS_FOLDER, "UD_Vietnamese-COL")
 class Sentence(object):
     def __init__(self, content):
         sentences = content.split("\n")
+        doc_label_len = len("# doc_url = ")  # only first 30 sentences
         self.headers = sentences[:3]
         self.headers.append("# type = bronze")
         self.headers.append(f"# authors = {BOT_VERSION}")
-        self.url = sentences[0][len("# doc_url = "):]
+        self.url = sentences[0][doc_label_len:] if sentences[0][:doc_label_len] == "# doc_url = " else sentences[0][2:]
         self.date = sentences[1][len("# date = "):]
         self.sent_id = sentences[2][len("# sent_id = "):]
         self.text = sentences[-1]
@@ -69,3 +70,4 @@ if __name__ == '__main__':
     analyzer = UDAnalyzer()
     analyzer.analyze(dataset)
     analyzer.analyze_today_words(dataset)
+
