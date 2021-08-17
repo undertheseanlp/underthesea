@@ -747,3 +747,753 @@ Những hàng quán vỉa hè ở Việt Nam, những quán cơm tấm lề đư
 # date = 20210814
 # sent_id = 150
 Với tôi, Việt Nam rất tuyệt vời vì ở Canada hay những nước khác tôi từng sống, bạn chỉ có thể ăn bên ngoài nếu đó là dịp đi chơi cuối tuần hoặc những ngày đặc biệt như sinh nhật, ngày kỷ niệm...
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 151
+Gần 40 tỉnh, thành công bố lịch tựu trường năm học mới
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 152
+Các địa phương sẽ cho học sinh tựu trường sớm nhất vào ngày 1/9.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 153
+Riêng đối với lớp 1, thời gian tựu trường sớm nhất từ ngày 23/8.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 154
+Đây là khung thời gian do Bộ GD-ĐT ban hành áp dụng chung trên toàn quốc.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 155
+Căn cứ vào khung này, Chủ tịch UBND các tỉnh, thành phố sẽ quy định cụ thể kế hoạch thời gian năm học sao cho phù hợp với tình hình thực tế của địa phương.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 156
+Trong đó, thời gian nghỉ học, thời gian tựu trường sớm và thời gian kéo dài năm học không vượt quá 15 ngày so với khung chung do Bộ GD-ĐT ban hành.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 157
+Hiện nhiều địa phương đã công bố thời gian tựu trường năm học 2021 – 2022.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 158
+Sơn La đang là địa phương cho học sinh tựu trường sớm nhất, từ ngày 16/8 (riêng với mầm non từ 1/9), Long An cho học sinh tựu trường muộn nhất - ngày 17/9.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 159
+Hầu hết các tỉnh, thành cho học sinh tựu trường từ 1/9 (lớp 1 từ 23/8) theo khung năm học của Bộ GD-ĐT.
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 160
+Tại TP.HCM, nơi dịch Covid-19 đang diễn biến phức tạp, ông Nguyễn Văn Hiếu, Phó Giám đốc phụ trách Sở GD-ĐT TP.HCM cho biết đề xuất UBND phương án khai giảng vào giữa tháng 9.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 161
+Phụ huynh 'kêu cứu' vì học phí online, Trường phổ thông FPT nói gì?
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 162
+Ban đại diện cha mẹ học sinh Trường THPT FPT cơ sở Hà Nội gửi 'Đơn kêu cứu' vì không đồng tình mức giảm của nhà trường đối với một số khoản phí khi học online do tác động của dịch Covid-19.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 163
+Những phụ huynh này cho hay, vừa qua, họ nhận được thông báo của Trường THPT FPT cơ sở Hà Nội về việc hoàn các khoản phí do ảnh hưởng của dịch Covid-19 cuối năm học 2020-2021 và đóng các khoản phí học kỳ 1 năm học mới 2021-2022.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 164
+Sau khi xem xét, các phụ huynh cho rằng việc hoàn trả này chưa thỏa đáng.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 165
+Chẳng hạn, tại văn bản hoàn phí ngày 29/7/2021, nhà trường đã ghép 2 mục Học phí và Phí hoạt động ngoại khóa thành một mục để hoàn trả, mức hoàn trả là 25%.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 166
+Theo những phụ huynh này, 2 khoản phí này được tách riêng khi thu đầu năm.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 167
+Hơn nữa, 2 khoản phí có tính chất khác nhau nên cần phải hoàn trả theo các tỷ lệ khác nhau.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 168
+Cụ thể, tỷ lệ hoàn trả học phí thời gian học online từ 66,66% (năm học 2019-2020) xuống chỉ còn 25% năm học 2020-2021 là "khó chấp nhận".
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 169
+Việc hoàn trả phí Hoạt động ngoại khóa 25% là chưa hợp lý vì các hoạt động này gần như không tổ chức được do một nửa thời gian học online.
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 170
+Do đó, theo họ, trường cần hoàn trả phí khoản này ở mức 50% của học kỳ 2.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 171
+Phổ điểm khối A thế nào sau khi có điểm thi tốt nghiệp đợt 2?
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 172
+Bộ GD-ĐT vừa công bố điểm thi tốt nghiệp THPT đợt 2.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 173
+VietNamNet đã phân tích và đăng tải phổ điểm khối A (cả hai đợt thi) để phụ huynh và thí sinh tham khảo nhằm giúp việc điều chỉnh đăng kí nguyện vọng xét tuyển đại học thuận lợi hơn.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 174
+Thủ khoa khối A năm 2021 đạt 29,55 điểm là thí sinh đến từ Hải Phòng với 10 điểm môn Hóa.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 175
+Các thí sinh khác trong top 10 đều đạt trên 29 điểm.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 176
+Á khoa khối A năm 2021 đạt 29,35 điểm, trong đó Toán 9,6; Lý 10 và Hoá 9,75.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 177
+Thí sinh có điểm thi khối A cao nhất đợt 2 đạt 28,6 điểm, lọt vào top 50 thí sinh có điểm thi khối A cao nhất toàn quốc sau cả 2 đợt thi.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 178
+Theo quy định của Bộ GD-ĐT, thời gian điều chỉnh nguyện vọng xét tuyển đại học, từ ngày 29/8 đến 17h ngày 5/9 (được điều chỉnh 3 lần bằng hình thức trực tuyến); điều chỉnh sai sót liên quan đến ưu tiên đối tượng, khu vực (thực hiện bằng phiếu và nộp tại điểm thu nhận hồ sơ).
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 179
+Trước 17h ngày 16/9, các trường đại học sẽ công bố điểm chuẩn, kết quả trúng tuyển đợt 1.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 180
+Trước 17h ngày 26/9 (tính theo dấu bưu điện), thí sinh làm thủ tục xác nhận nhập học đợt 1
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 181
+ĐH Giao thông vận tải lấy điểm sàn từ 16 - 22 điểm
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 182
+Trường ĐH Giao thông vận tải vừa công bố ngưỡng điểm nhận đăng ký xét tuyển đầu vào (điểm sàn) đại học hệ chính quy theo phương thức xét tuyển bằng điểm thi tốt nghiệp THPT năm 2021.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 183
+Năm 2021, Trường ĐH Giao thông vận tải sẽ tuyển 5.700 chỉ tiêu cho 27 ngành học.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 184
+Thí sinh lưu ý, năm nay, trường có tuyển sinh thêm 2 ngành mới là Kỹ thuật Robot và Trí tuệ nhân tạo; Tài chính - Ngân hàng.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 185
+Trường ĐH Giao thông Vận tải vẫn chủ yếu tuyển sinh bằng 2 phương thức là sử dụng kết quả kỳ thi tốt nghiệp THPT và sử dụng kết quả học tập THPT (học bạ).
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 186
+Phổ điểm khối B sau 2 đợt thi tốt nghiệp năm 2021
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 187
+Sau khi Bộ GD-ĐT công bố điểm thi tốt nghiệp THPT của cả 2 đợt, VietNamNet đã phân tích phổ điểm khối B của cả nước để thí sinh tham khảo nhằm thuận lợi hơn cho điều chỉnh đăng ký nguyện vọng xét tuyển đại học.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 188
+Kết quả phân tích điểm thi của thí sinh theo tổ hợp 3 môn xét tuyển theo khối B cho thấy, mức điểm trung bình của khối này sau cả 2 đợt thi là 19,89 điểm.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 189
+Thí sinh có tổng điểm khối B cao nhất của đợt 2 đến từ An Giang với 29,75 điểm (trong đó Toán 10, Sinh học 10, Hóa học 9,75).
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 190
+Đây cũng là thí sinh có tổng điểm cao nhất của đợt 2 nếu tính theo các tổ hợp xét tuyển.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 191
+Phổ điểm khối D cả 2 đợt thi tốt nghiệp THPT năm 2021
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 192
+Sau khi Bộ GD-ĐT công bố điểm thi tốt nghiệp THPT của cả 2 đợt, VietNamNet đã phân tích phổ điểm khối D của cả nước để phụ huynh và thí sinh tham khảo nhằm thuận lợi hơn cho việc xét tuyển đại học.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 193
+Kết quả phân tích điểm thi theo tổ hợp 3 môn xét tuyển của khối D cho thấy, điểm trung bình của khối này sau cả 2 đợt thi là 19,17 điểm.
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 194
+Thủ khoa khối D toàn quốc năm nay là Bùi Thị Ngọc Quỳnh (học sinh lớp 12 Văn, Trường THPT Chuyên Nguyễn Tất Thành, tỉnh Kon Tum).
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 195
+Quỳnh đạt tổng điểm là 29,15 với Toán 9,4; Ngữ văn 9,75 và Tiếng Anh 10. Đây cũng là lần đầu tiên trong lịch sử, Kon Tum có thủ khoa thi tốt nghiệp THPT toàn quốc.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 196
+Trường ĐH Công nghệ thông tin lấy điểm sàn từ 22 điểm
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 197
+Trường ĐH Công nghệ thông tin TP.HCM đã công bố điểm sàn xét tuyển từ điểm thi tốt nghiệp THPT năm 2021.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 198
+Năm nay, Trường ĐH Công nghệ thông tin TP.HCM tuyển sinh theo 7 phương thức.
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 199
+Trước đó trường đã công bố điểm chuẩn các phương thức xét kết quả thi đánh giá năng lực ĐH Quốc gia TP.HCM, ưu tiên xét tuyển, xét tuyển thẳng…
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 200
+Phương án xét tuyển điểm thi tốt nghiệp THPT vẫn là chủ đạo. Tổ hợp môn xét tuyển các ngành gồm: A00, A01, D01, D07.
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 201
+Danh sách trúng tuyển lớp 10 Chuyên Lê Hồng Phong TP.HCM
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 202
+Trường THPT Chuyên Lê Hồng Phong (TP.HCM) vừa công bố danh sách trúng tuyển lớp 10 năm 2021-2022.
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 203
+Theo đó, Điểm xét tuyển lớp 10 chuyên = Tổng điểm trung bình môn cả năm lớp 9 của môn Văn, Toán, Ngoại ngữ + Điểm trung bình môn cả năm lớp 9 của môn đăng ký thi chuyên nhân 2 + Điểm khuyến khích (nếu có).
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 204
+Trường THPT Chuyên Lê Hồng Phong có điểm chuẩn cao nhất. Trong đó, ở nguyện vọng 1 vào lớp 10 chuyên Sinh có điểm chuẩn là 49,4 điểm; Chuyên Toán và Hoá xếp thứ 2 với mức điểm chuẩn là 49,1 điểm.
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 205
+Còn ở nguyện vọng 2, lớp chuyên Toán có điểm chuẩn là 50 điểm.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 206
+Chàng trai chiến thắng Covid-19 'nhờ' cụ bà 84 tuổi
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 207
+Ngày phát hiện nhiễm bệnh, Thắng hoang mang, sợ chết nhưng khi chứng kiến F0 84 tuổi lạc quan, vui sống, anh vững tâm điều trị để vượt qua Covid-19.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 208
+Trở về sau 24 ngày điều trị Covid-19, anh Phạm Quyết Thắng (30 tuổi, ngụ TP.HCM) giật mình khi nhớ lại khoảng thời gian nhiễm bệnh.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 209
+Thắng cho biết, anh nhiễm Covid-19 trong lần đi thu tiền phòng trọ tại dãy trọ của gia đình.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 210
+Ngày 10/7, Thắng đến dãy trọ thu tiền phòng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 211
+Thường ngày, khi ra đường, Thắng đều đeo khẩu trang, tuân thủ quy tắc 5K.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 212
+Thế nhưng hôm ấy, anh chủ quan, không chú ý phòng bệnh vì nghĩ rằng đang đến gặp những người thân quen.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 213
+Thắng quên đeo khẩu trang và tiếp xúc với người nhiễm bệnh chỉ trong khoảng nửa phút rồi rời đi.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 214
+Vì người anh tiếp xúc không biết bản thân nhiễm Covid-19 nên Thắng cũng không ngờ mình bị lây bệnh.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 215
+Nghĩ mình chỉ bị cảm lạnh vì hay nằm gần quạt, Thắng không thông báo với nhân viên y tế.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 216
+Tra thông tin trên mạng, tôi thấy các triệu chứng này giống cảm cúm thông thường nên yên tâm và uống thêm 1 viên Panadol rồi ngủ tiếp.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 217
+Ngày 16/7, tôi bàng hoàng khi được nhân viên y tế phường gọi điện thông báo dãy trọ của tôi có người dương tính với Sars-Cov-2.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 218
+"Lúc này, tôi mới xác định mình đã nhiễm Covid-19 chứ không phải cảm cúm thông thường", anh kể thêm.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 219
+Nghe thông báo, Thắng hoang mang tột độ, thậm chí nghĩ đến việc mình sẽ chết.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 220
+Anh nhanh chóng đến bệnh viện, tiến hành xét nghiệm và nhận kết quả dương tính. Thắng được đưa vào khu cách ly tạm thời để điều trị bệnh.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 221
+Bốn ngày sau, bệnh trở nặng, Thắng không chỉ sốt mà còn ho, đau rát họng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 222
+Anh nói, cổ họng đau đến nỗi việc ăn uống cũng trở thành cực hình.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 223
+Khi nuốt bất cứ thứ gì, anh luôn có cảm giác cổ họng như bị gai nhọn đâm, xé rách toang.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 224
+Khi Thắng không còn cảm nhận được mùi vị, nhai ớt cũng không còn cảm giác cay, nhét dầu gió vào mũi cũng không bị sặc, anh được chuyển đến Bệnh viện Đa khoa khu vực Hóc Môn (TP.HCM) điều trị.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 225
+Tại đây, anh bắt đầu hành trình đối đầu với Covid-19 để giành giật sự sống.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 226
+Tôi vẫn nhớ các ngày 19, 20, 21/7 bởi đây là những ngày quyết định.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 227
+Những ngày này, cảm giác khó thở, tức ngực bắt đầu xuất hiện.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 228
+Khi ngủ, tôi liên tục bị giật mình thức giấc vì không thở được.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 229
+Mỗi khi hít thật sâu, tôi lại có cảm giác đau tức ngực.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 230
+Tôi sợ lắm vì chỉ cần ngủ một chút là khó thở.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 231
+Tôi uống mật ong gừng để giảm đau họng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 232
+Mỗi ngày, bác sĩ phát cho tôi 1 viên Vitamin C để uống.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 233
+Thắng nói rằng, những ngày đau tức ngực, anh không thể ngủ.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 234
+Anh lo nghĩ rồi sợ.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 235
+Đặc biệt, khi chứng kiến những bệnh nhân có tuổi chuyển nặng và có người gục ngã, anh càng thêm lo lắng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 236
+Thế rồi giữa những phút giây tưởng chừng tuyệt vọng, anh nhìn thấy hình ảnh lạc quan của cụ bà đang được điều trị cùng phòng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 237
+Cụ 84 tuổi rồi và cũng là F0 đang được điều trị như tôi.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 238
+Thế nhưng, cụ không bao giờ tỏ ra mệt mỏi mà lúc nào cũng tươi vui, lạc quan.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 239
+Điều này đã truyền cảm hứng cho rất nhiều bệnh nhân trong đó có tôi.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 240
+Tôi nghĩ rằng, cụ đã 84 tuổi mà vẫn yêu đời, vững tin vượt qua bệnh tật, những người trẻ như mình phải học tập và cố gắng để sớm khỏi bệnh.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 241
+Từ đó, tôi luôn tin vào bản thân, tin vào các y bác sĩ và quyết tâm vượt qua bệnh tật.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 242
+Sau đó, mỗi khi khó thở, Thắng cố gắng ngồi dậy, đứng lên, vẫy tay, hít thở để lấy oxy.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 243
+Anh nghe theo lời bác sĩ cố gắng ăn dù lúc này không hề có cảm giác thèm ăn, mũi, miệng cũng không cảm nhận được mùi vị thức ăn.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 244
+Thắng “cắt nhỏ” ngày dài lê thê ngập tràn nỗi sợ trong bệnh viện bằng cách gọi điện cho người thân, xem hài.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 245
+Anh tự khiến mình bận rộn bằng những suy nghĩ tích cực, đọc sách qua mạng hoặc lên nhiều kế hoạch và hứa sẽ thực hiện sau ngày xuất viện.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 246
+Đêm đáng nhớ của cô gái ở TP.HCM phải đưa bạn đi cấp cứu trong dịch
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 247
+Đang trong thời gian giãn cách xã hội, H.T. chỉ có thẻ ngân hàng, không cầm tiền mặt.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 248
+Do đi vội, chiếc điện thoại của cô cũng gần hết pin.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 249
+5 ngày đã qua, H.T. (TP Thủ Đức, TP.HCM) vẫn chưa thể quên cảm giác lo lắng và rối ren khi đưa bạn cùng nhà nhập viện cấp cứu lúc nửa đêm.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 250
+Theo T., bạn cô xuất hiện một số triệu chứng nghiêm trọng như khó thở, tim đập nhanh trong đêm 10/8 sau khi tiêm vaccine Covid-19 vào buổi sáng cùng ngày.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 251
+Sự cố xảy ra đột ngột, T. loay hoay tìm mọi cách đưa bạn đến bệnh viện và những vấn đề phát sinh không thể lường trước bắt đầu xảy đến.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 252
+T. cho biết ngay sau khi xác định tình trạng nguy hiểm của bạn mình, cô đã gọi điện đến số điện thoại được in trên giấy chứng nhận tiêm chủng để xin hỗ trợ hoặc hướng dẫn, tuy nhiên không thể liên lạc.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 253
+T. cũng gọi điện đến các đường dây nóng y tế khác nhưng những số điện thoại này luôn trong tình trạng bận.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 254
+Thậm chí, khi quyết định tự đưa bạn mình đến bệnh viện cấp cứu, T. còn không thể gọi được taxi.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 255
+Cô phải liên hệ và nhờ những người hàng xóm cùng chung cư của mình giúp đỡ, được đưa đến bệnh viện gần nhất.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 256
+Mình lo sợ quá, lên nhóm chat mạng xã hội của chung cư để cầu cứu.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 257
+May mắn, chúng mình được một anh hàng xóm có ôtô xung phong đưa đến bệnh viện.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 258
+Từ nhà đến Bệnh viện Lê Văn Thịnh không xa nhưng nhiều cung đường đã bị lập hàng rào dây thép gai.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 259
+"Anh hàng xóm phải đi vòng nhiều đường khác mới đến được bệnh viện", T. kể lại.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 260
+Tại bệnh viện, bạn của T. được sơ cứu và xét nghiệm nhanh Covid-19 tại phòng chờ ngoài cổng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 261
+Khi có kết quả âm tính nCoV, cô gái được chuyển đến Khoa Cấp cứu và sau đó tiếp tục lên Khoa Tim mạch với kết quả xét nghiệm PCR âm tính.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 262
+Khi bạn đã nhập viện, các sự cố khác lại xảy đến với T.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 263
+Trước đó khi rời nhà, do quá vội vàng, T. chỉ kịp mang theo một chiếc điện thoại còn 26% pin, đã hết dung lượng 3G, một khẩu trang và một chiếc ví không có tiền mặt ngoài thẻ ngân hàng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 264
+Không có tiền mặt, T. không thể chi trả các chi phí trong bệnh viện bởi hầu hết dịch vụ tại đây không chấp nhận thanh toán trực tuyến.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 265
+"Mình không mua được cháo cho bạn vì hàng ăn ở bệnh viện không nhận thanh toán qua thẻ hoặc chuyển khoản, cây ATM ngoài cổng bệnh viện cũng không rút được tiền.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 266
+Thậm chí, mình còn không có đủ 50.000 đồng tiền mặt để đặt cọc thẻ ra vào dành cho người nhà bệnh nhân.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 267
+Mình đã phải vay tiền của một chị là người nhà bệnh nhân, sau đó chuyển khoản trả chị.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 268
+Ngoài ra, chiếc điện thoại iPhone của mình thông thường đi đâu cũng mượn được sạc, thế nhưng ở viện, ai cũng lắc đầu không có.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 269
+"Đến 3h rạng sáng, chị y tá mới tìm khắp nơi cho mình được chiếc sạc", T. chia sẻ.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 270
+Khi tình trạng bạn đã trở nên ổn định hơn, T. xin phép y ta được về nhà lấy đồ.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 271
+Tuy nhiên, cô được khuyên là không nên về bởi mỗi lần ra vào bệnh viện đều phải xét nghiệm Covid-19 2 lần, quá trình di chuyển cũng khá phức tạp do không có sẵn phương tiện công cộng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 272
+Trong phòng bệnh, T. và bạn mình đều nóng bức nhưng không có quần áo thay, khăn lau mồ hôi và xà bông rửa mặt.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 273
+Cô gái cho biết đã thật sự thấy bất tiện, tuy nhiên vẫn phải giữ bình tĩnh, sẵn sàng tâm lý để ở lại bệnh viện nhiều ngày.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 274
+May mắn, sức khỏe của bạn T. sau đó đã tiến triển tốt.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 275
+Cả 2 cô gái được ra về sau 20 tiếng nhập viện.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 276
+Một ngày đưa bạn đi cấp cứu giữa giai đoạn dịch bệnh căng thẳng tại TP.HCM là trải nghiệm không thể nào quên đối với T.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 277
+Theo cô, những sự cố đến với mình phần lớn là do tâm lý rối ren, vội vàng, dẫn đến không thể chuẩn bị kỹ lưỡng.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 278
+T. cho rằng tình huống mình gặp phải có lẽ sẽ xảy đến với khá nhiều người khác.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 279
+Do vậy, cô muốn chia sẻ kinh nghiệm của mình để mọi người có thể tránh được bị động.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 280
+Các bạn cần chuẩn bị một hành trang hoặc ít nhất là danh sách những đồ cần thiết phòng cho tình huống phải nhập viện bất ngờ.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 281
+Hành trang này bao gồm: tiền mặt, bảo hiểm y tế, 1-2 bộ quần áo sạch, sạc dự phòng, nhiều khẩu trang, kính chống giọt bắn, khăn mặt, khăn ướt có cồn, giấy vệ sinh, giấy tờ tùy thân, ít đồ ăn nhanh…
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 282
+Chúng mình đã phải thanh toán toàn bộ viện phí khá tốn kém bởi không mang theo bảo hiểm y tế.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 283
+Tiếp đến, bạn cần phải xác định được cơ sở y tế gần nhất và phương tiện có thể giúp bạn di chuyển trong trường hợp cần cấp cứu.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 284
+Đừng để đến lúc gặp chuyện mới tìm kiếm những thông tin này.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 285
+Mình tìm bệnh viện và người đưa đi bệnh viện chỉ trong khoảng 5-7 phút.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 286
+"Nhưng với một người đang khó thở như bạn mình, 5-7 phút này thực sự thử thách giới hạn chịu đựng", T. cho hay.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 287
+T. cũng cho rằng những người sau khi tiêm vaccine Covid-19 không nên ở nhà một mình, đặc biệt trong bối cảnh dịch bệnh hiện tại.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 288
+Ngoài ra, mỗi người đều cần phải kết nối với hàng xóm hoặc tổ dân phố để có thể được hỗ trợ nhanh nhất khi nguy cấp.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 289
+Giai đoạn này, đa số chúng ta sống bằng tình làng nghĩa xóm.
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 290
+Chúng ta cần giữ một thái độ bình tĩnh và tích cực trong mọi việc.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 291
+Đi chợ mùa giãn cách: Bí quyết sắm đủ vẫn an toàn
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 292
+Lên danh sách đồ cần mua, dùng app mua sắm, chọn giờ thấp điểm là những mẹo giúp người nội trợ sắm đủ cho cả nhà nhưng vẫn an toàn trước dịch bệnh.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 293
+Dịch bệnh diễn biến phức tạp khiến cuộc sống của người dân thay đổi rất nhiều.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 294
+Nhiều thói quen, sở thích phải tạm gạt sang một bên.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 295
+Chuyện đi chợ cũng không ngoại lệ.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 296
+Nhiều tỉnh thành phát phiếu đi chợ trong mùa giãn cách.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 297
+Có khu chợ lại chăng dây, che nylon... để đảm bảo khoảng cách tối thiểu giữa người mua và người bán.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 298
+Tuy nhiên, mỗi bà nội trợ lại có một mẹo đi chợ riêng trong mùa dịch bệnh để vừa mua sắm đủ theo yêu cầu vừa giữ cho bản thân được an toàn.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 299
+Dù được phát phiếu đi chợ hay nằm trong "vùng xanh", bạn vẫn nên lập danh sách kỹ lưỡng, chỉn chu những mặt hàng cần mua.
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 300
+Ở thời điểm này, càng hạn chế ra ngoài, tiếp xúc với nhiều người càng tốt cho chính bạn và gia đình!

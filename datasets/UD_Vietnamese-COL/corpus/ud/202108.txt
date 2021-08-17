@@ -4468,3 +4468,4177 @@ sinh nhật	N	34	nmod
 ngày	N	37	conj
 kỷ niệm	M	39	nmod
 ...	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 151
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gần 40 tỉnh, thành công bố lịch tựu trường năm học mới
+Gần	A	3	advmod:adj
+40	M	3	nummod
+tỉnh	N	5	nmod
+,	CH	6	punct
+thành công	V	0	root
+bố	N	5	nmod
+lịch	N	6	nmod
+tựu trường	V	6	nmod
+năm học	N	8	compound
+mới	R	9	amod
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 152
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các địa phương sẽ cho học sinh tựu trường sớm nhất vào ngày 1/9.
+Các	L	2	det
+địa phương	N	4	nsubj
+sẽ	R	4	advmod
+cho	V	0	root
+học sinh	N	4	obj
+tựu trường	N	5	nmod
+sớm	A	4	acomp
+nhất	R	7	advmod
+vào	E	10	case
+ngày	N	4	obl:tmod
+1/9	M	10	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 153
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Riêng đối với lớp 1, thời gian tựu trường sớm nhất từ ngày 23/8.
+Riêng	T	3	discourse
+đối với	E	3	case
+lớp	N	8	obl
+1	M	3	nummod
+,	CH	6	punct
+thời gian	N	0	root
+tựu trường	V	6	compound
+sớm	A	6	acl:subj
+nhất	R	8	advmod
+từ	E	11	case
+ngày	N	8	obl:tmod
+23/8	M	11	flat:date
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 154
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây là khung thời gian do Bộ GD-ĐT ban hành áp dụng chung trên toàn quốc.
+Đây	P	3	nsubj
+là	V	3	cop
+khung	N	0	root
+thời gian	N	3	nmod
+do	E	8	mark
+Bộ GD-ĐT	Np	7	nummod
+ban hành	V	8	nsubj
+áp dụng	V	3	acl
+chung	A	8	acomp
+trên	E	11	case
+toàn quốc	N	8	obl
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 155
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Căn cứ vào khung này, Chủ tịch UBND các tỉnh, thành phố sẽ quy định cụ thể kế hoạch thời gian năm học sao cho phù hợp với tình hình thực tế của địa phương.
+Căn cứ	V	14	advcl
+vào	E	3	case
+khung	N	1	obl
+này	P	3	det:pmod
+,	CH	6	punct
+Chủ tịch	N	14	nsubj
+UBND	Ny	6	nmod
+các	L	9	det
+tỉnh	N	6	nmod
+,	CH	11	punct
+thành phố	N	6	conj
+sẽ	R	14	advmod
+quy định	V	14	advmod
+cụ thể	A	0	root
+kế hoạch	N	14	obj
+thời gian	N	15	nmod
+năm học	V	16	nmod
+sao	T	16	nmod
+cho	E	20	case
+phù hợp	V	14	obl:comp
+với	E	22	case
+tình hình	N	20	obl:comp
+thực tế	N	22	compound
+của	E	25	case
+địa phương	N	22	nmod:poss
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 156
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, thời gian nghỉ học, thời gian tựu trường sớm và thời gian kéo dài năm học không vượt quá 15 ngày so với khung chung do Bộ GD-ĐT ban hành.
+Trong	E	2	case
+đó	P	17	obl
+,	CH	2	punct
+thời gian	N	17	nsubj
+nghỉ	V	4	nmod
+học	V	5	obj
+,	CH	8	punct
+thời gian	N	5	conj
+tựu trường	V	8	nmod
+sớm	A	9	amod
+và	C	12	cc
+thời gian	N	9	conj
+kéo dài	V	12	acl:subj
+năm	N	15	nummod
+học	V	17	nsubj
+không	R	17	advmod:neg
+vượt	V	0	root
+quá	R	20	advmod
+15	M	20	nummod
+ngày	N	17	obj
+so	V	20	acl:subj
+với	E	23	case
+khung	N	17	obl
+chung	A	23	amod
+do	E	26	case
+Bộ GD-ĐT	Np	23	obl
+ban hành	V	26	nmod
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 157
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện nhiều địa phương đã công bố thời gian tựu trường năm học 2021 – 2022.
+Hiện	N	5	obl:tmod
+nhiều	A	3	amod
+địa phương	N	5	nsubj
+đã	R	5	advmod
+công bố	V	0	root
+thời gian	N	5	obj
+tựu trường	V	6	nmod
+năm học	V	7	flat:number
+2021	N	7	flat:number
+–	CH	11	punct
+2022	N	7	conj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 158
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sơn La đang là địa phương cho học sinh tựu trường sớm nhất, từ ngày 16/8 (riêng với mầm non từ 1/9), Long An cho học sinh tựu trường muộn nhất - ngày 17/9.
+Sơn La	Np	4	nsubj
+đang	R	3	advmod
+là	V	4	cop
+địa phương	N	0	root
+cho	E	6	case
+học sinh	N	4	obl:comp
+tựu trường	N	6	compound
+sớm	A	6	acl:subj
+nhất	A	8	advmod
+,	CH	12	punct
+từ	E	12	case
+ngày	N	4	conj
+16/8	M	12	nmod
+(	CH	15	punct
+riêng	A	17	advmod
+với	E	17	case
+mầm non	N	12	nmod
+từ	E	19	case
+1/9	M	17	nmod
+)	CH	15	punct
+,	CH	22	punct
+Long An	Np	6	conj
+cho	E	22	acl:subj
+học sinh	N	23	obj
+tựu trường	V	24	compound
+muộn	A	24	acl:subj
+nhất	R	26	nummod
+-	CH	27	flat:number
+ngày	N	27	flat:number
+17/9	M	29	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 159
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hầu hết các tỉnh, thành cho học sinh tựu trường từ 1/9 (lớp 1 từ 23/8) theo khung năm học của Bộ GD-ĐT.
+Hầu hết	X	3	det
+các	L	3	det
+tỉnh	N	6	nsubj
+,	CH	5	punct
+thành	V	3	conj
+cho	E	0	root
+học sinh	N	6	obj
+tựu trường	V	7	compound
+từ	E	10	case
+1/9	N	7	nmod
+(	CH	12	punct
+lớp	N	7	appos:nmod
+1	M	12	nummod
+từ	E	15	case
+23/8	M	12	nmod
+)	CH	12	punct
+theo	V	18	case
+khung	N	6	obl
+năm học	N	18	compound
+của	E	21	case
+Bộ GD-ĐT	Np	18	nmod:poss
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lich-khai-giang-nam-hoc-2021-2022-cua-cac-tinh-thanh-trong-ca-nuoc-764630.html
+# date = 20210816
+# sent_id = 160
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại TP.HCM, nơi dịch Covid-19 đang diễn biến phức tạp, ông Nguyễn Văn Hiếu, Phó Giám đốc phụ trách Sở GD-ĐT TP.HCM cho biết đề xuất UBND phương án khai giảng vào giữa tháng 9.
+Tại	E	2	case
+TP.HCM	Np	18	obl
+,	CH	18	punct
+nơi	N	18	nsubj
+dịch Covid-19	N	4	nmod
+đang	R	7	advmod
+diễn biến	V	8	advmod
+phức tạp	A	4	acl:subj
+,	CH	18	punct
+ông	Nc	11	det:clf
+Nguyễn Văn Hiếu	Np	18	nsubj
+,	CH	14	punct
+Phó	Z	14	det:clf
+Giám đốc	N	11	conj
+phụ trách	V	14	acl:subj
+Sở	N	15	obj
+GD-ĐT TP.HCM	Np	16	compound
+cho	V	0	root
+biết	V	18	compound:svc
+đề xuất	V	18	obj
+UBND	Ny	20	nmod
+phương án	N	21	nmod
+khai giảng	V	22	compound
+vào	E	21	acl:subj
+giữa	N	24	obl:comp
+tháng	N	25	nmod
+9	M	26	nummod
+.	CH	18	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 161
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phụ huynh 'kêu cứu' vì học phí online, Trường phổ thông FPT nói gì?
+Phụ huynh	N	2	det
+'	N	4	nsubj
+kêu	V	0	root
+cứu	V	3	xcomp
+'	A	4	obj
+vì	E	7	case
+học phí	N	4	obl
+online	V	7	nmod
+,	CH	10	punct
+Trường	N	7	conj
+phổ thông	N	10	nmod
+FPT	Np	13	advmod
+nói	V	3	parataxis
+gì	P	13	obj
+?	CH	13	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 162
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ban đại diện cha mẹ học sinh Trường THPT FPT cơ sở Hà Nội gửi 'Đơn kêu cứu' vì không đồng tình mức giảm của nhà trường đối với một số khoản phí khi học online do tác động của dịch Covid-19.
+Ban	N	9	nsubj
+đại diện	V	1	nmod
+cha mẹ	N	2	compound
+học sinh	N	2	nmod
+Trường	N	4	nmod
+THPT FPT	Np	5	compound
+cơ sở	N	5	compound
+Hà Nội	Np	5	compound
+gửi	V	0	root
+'	N	11	nummod
+Đơn	N	9	obj
+kêu	V	11	compound
+cứu	V	12	obj
+'	A	13	obj
+vì	E	17	mark
+không	R	17	advmod:neg
+đồng tình	V	9	advcl
+mức	N	17	obj
+giảm	V	18	compound:vmod
+của	E	21	case
+nhà trường	N	18	nmod:poss
+đối với	E	24	case
+một số	L	24	det
+khoản	N	17	obl
+phí	N	24	compound
+khi	N	24	nmod
+học	V	26	acl:tmod
+online	N	27	obj
+do	E	30	case
+tác động	N	27	obl
+của	E	32	case
+dịch	N	30	nmod:poss
+Covid-19	Np	32	compound
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 163
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những phụ huynh này cho hay, vừa qua, họ nhận được thông báo của Trường THPT FPT cơ sở Hà Nội về việc hoàn các khoản phí do ảnh hưởng của dịch Covid-19 cuối năm học 2020-2021 và đóng các khoản phí học kỳ 1 năm học mới 2021-2022.
+Những	L	2	det
+phụ huynh	N	10	nsubj
+này	P	2	det:pmod
+cho	V	5	case
+hay	V	2	nmod
+,	CH	7	punct
+vừa qua	X	5	conj
+,	CH	10	punct
+họ	P	10	nsubj
+nhận	V	0	root
+được	R	10	advmod
+thông báo	N	10	obj
+của	E	14	case
+Trường	N	12	nmod:poss
+THPT FPT	Np	14	compound
+cơ sở	N	14	compound
+Hà Nội	Np	14	compound
+về	E	19	case
+việc	N	10	obl:about
+hoàn	V	19	acl:subj
+các	L	22	det
+khoản	N	20	obj
+phí	N	22	compound
+do	E	25	case
+ảnh hưởng	V	20	obl
+của	E	27	case
+dịch	N	25	nmod:poss
+Covid-19	Np	27	compound
+cuối	N	27	nmod
+năm học	N	29	compound
+2020	M	29	compound
+-	CH	31	flat:name
+2021	N	31	compound
+và	C	35	cc
+đóng	V	10	conj
+các	L	37	det
+khoản	N	35	obj
+phí	N	37	compound
+học kỳ	N	37	nmod
+1	M	39	nummod
+năm học	N	39	nmod
+mới	R	43	advmod
+2021	V	37	nmod
+-	CH	43	punct
+2022	N	43	conj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 164
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi xem xét, các phụ huynh cho rằng việc hoàn trả này chưa thỏa đáng.
+Sau	N	7	obl:tmod
+khi	N	1	compound
+xem xét	V	2	acl:tmod
+,	CH	1	punct
+các	L	6	det
+phụ huynh	N	7	nsubj
+cho	V	0	root
+rằng	C	13	mark
+việc	N	13	nsubj
+hoàn trả	N	9	compound:vmod
+này	P	9	det:pmod
+chưa	R	13	advmod
+thỏa đáng	V	7	ccomp
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 165
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chẳng hạn, tại văn bản hoàn phí ngày 29/7/2021, nhà trường đã ghép 2 mục Học phí và Phí hoạt động ngoại khóa thành một mục để hoàn trả, mức hoàn trả là 25%.
+Chẳng hạn	X	12	mark
+,	CH	12	punct
+tại	E	4	case
+văn bản	N	12	obl
+hoàn	V	4	acl:subj
+phí	N	5	obj
+ngày	N	5	obl:tmod
+29/7/2021	M	7	nmod
+,	CH	12	punct
+nhà trường	N	12	nsubj
+đã	R	12	advmod
+ghép	V	0	root
+2	M	14	nummod
+mục	N	12	obj
+Học phí	N	14	nmod
+và	C	17	cc
+Phí	Np	14	conj
+hoạt động	V	17	nmod
+ngoại khóa	V	18	compound
+thành	V	18	xcomp
+một	M	22	nummod
+mục	N	20	obj
+để	E	24	mark:pcomp
+hoàn trả	V	12	advcl:objective
+,	CH	29	punct
+mức	N	29	nsubj
+hoàn trả	N	26	nmod
+là	V	29	cop
+25	M	12	parataxis
+%	N	29	flat:number
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 166
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo những phụ huynh này, 2 khoản phí này được tách riêng khi thu đầu năm.
+Theo	V	3	case
+những	L	3	det
+phụ huynh	N	11	obl
+này	P	3	det:pmod
+,	CH	3	punct
+2	M	8	nummod
+khoản	N	6	clf
+phí	N	11	nsubj:pass
+này	P	7	det:pmod
+được	V	11	aux:pass
+tách	V	0	root
+riêng	A	11	acomp
+khi	N	11	obl:tmod
+thu	V	13	nmod
+đầu	N	14	nmod
+năm	N	15	nmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 167
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hơn nữa, 2 khoản phí có tính chất khác nhau nên cần phải hoàn trả theo các tỷ lệ khác nhau.
+Hơn nữa	C	13	mark
+,	CH	13	punct
+2	M	4	nummod
+khoản	N	13	nsubj
+phí	N	4	compound
+có	V	4	acl:subj
+tính chất	N	6	obj
+khác	A	7	amod
+nhau	N	8	obj
+nên	C	13	mark
+cần	V	13	aux
+phải	V	13	aux
+hoàn trả	V	0	root
+theo	V	16	case
+các	L	16	det
+tỷ lệ	N	13	obl:comp
+khác	A	16	amod
+nhau	N	17	obl:adj
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 168
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, tỷ lệ hoàn trả học phí thời gian học online từ 66,66% (năm học 2019-2020) xuống chỉ còn 25% năm học 2020-2021 là "khó chấp nhận".
+Cụ thể	A	4	advcl
+,	CH	4	punct
+tỷ lệ	N	4	nsubj
+hoàn trả	V	0	root
+học phí	N	4	obj
+thời gian	N	4	obj
+học	V	6	acl:subj
+online	V	7	obj
+từ	E	10	case
+66,66	N	7	obl
+%	N	10	compound
+(	CH	13	punct
+năm học	N	10	appos:nmod
+2019	M	13	compound
+-	CH	16	punct
+2020	N	13	list
+)	CH	13	punct
+xuống	V	20	punct
+chỉ	R	20	advmod
+còn	V	4	parataxis
+25	M	23	nummod
+%	V	21	flat:number
+năm học	N	20	obj
+2020	M	23	nmod
+-	CH	26	punct
+2021	N	24	conj
+là	C	29	cop
+"	CH	29	punct
+khó	A	20	ccomp
+chấp nhận	V	29	obj
+"	CH	29	punct
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 169
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việc hoàn trả phí Hoạt động ngoại khóa 25% là chưa hợp lý vì các hoạt động này gần như không tổ chức được do một nửa thời gian học online.
+Việc	N	10	nsubj
+hoàn trả	V	1	acl:subj
+phí	N	2	obj
+Hoạt động	N	1	nmod
+ngoại khóa	N	4	nummod
+25	M	5	flat:number
+%	N	5	flat:number
+là	V	10	cop
+chưa	R	10	advmod:neg
+hợp lý	A	0	root
+vì	E	18	mark
+các	L	13	det
+hoạt động	N	18	nsubj
+này	P	13	det:pmod
+gần	A	18	advmod:adj
+như	C	15	fixed
+không	R	18	advmod:neg
+tổ chức	V	10	advcl
+được	R	18	advmod
+do	E	22	case
+một nửa	L	22	nummod
+thời gian	N	18	obl
+học	V	22	nmod
+online	N	23	nmod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giao-duc/phu-huynh-va-truong-thpt-fpt-bat-dong-ve-hoc-phi-online-766227.html
+# date = 20210816
+# sent_id = 170
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Do đó, theo họ, trường cần hoàn trả phí khoản này ở mức 50% của học kỳ 2.
+Do đó	C	8	mark
+,	CH	8	punct
+theo	V	8	advcl
+họ	P	3	obj
+,	CH	3	punct
+trường	N	8	nsubj
+cần	V	8	aux
+hoàn trả	V	0	root
+phí	N	8	obj
+khoản	N	8	obj
+này	P	10	det:pmod
+ở	E	13	case
+mức	N	8	obl
+50	M	13	compound
+%	N	13	nmod
+của	E	17	case
+học kỳ	N	13	nmod:poss
+2	M	17	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 171
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phổ điểm khối A thế nào sau khi có điểm thi tốt nghiệp đợt 2?
+Phổ	M	0	root
+điểm	N	1	nmod
+khối	V	2	compound
+A	Ny	3	compound
+thế nào	P	2	nmod
+sau	N	5	obl:tmod
+khi	N	6	compound
+có	V	7	acl:tmod
+điểm	N	8	obj
+thi	V	9	nmod
+tốt nghiệp	V	10	obj
+đợt	N	11	obj
+2	M	12	nummod
+?	CH	1	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 172
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ GD-ĐT vừa công bố điểm thi tốt nghiệp THPT đợt 2.
+Bộ	N	2	det:clf
+GD-ĐT	Np	4	nsubj
+vừa	R	4	advmod
+công bố	V	0	root
+điểm	N	4	obj
+thi	V	5	nmod
+tốt nghiệp	V	6	acl:subj
+THPT	Ny	7	obj
+đợt	N	7	obj
+2	M	9	nummod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 173
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = VietNamNet đã phân tích và đăng tải phổ điểm khối A (cả hai đợt thi) để phụ huynh và thí sinh tham khảo nhằm giúp việc điều chỉnh đăng kí nguyện vọng xét tuyển đại học thuận lợi hơn.
+VietNamNet	Np	3	nsubj
+đã	R	3	advmod
+phân tích	V	0	root
+và	C	5	cc
+đăng tải	N	3	conj
+phổ	M	5	nmod
+điểm	N	6	nmod
+khối	N	7	nmod
+A	Np	8	compound
+(	CH	14	punct
+cả	P	13	det
+hai	M	13	nummod
+đợt	N	5	appos:nmod
+thi	V	13	nmod
+)	CH	14	punct
+để	E	3	advcl:objective
+phụ huynh	V	16	obj
+và	C	19	cc
+thí sinh	N	17	conj
+tham khảo	N	19	compound
+nhằm	V	22	punct
+giúp việc	V	3	conj
+điều chỉnh	V	22	obj
+đăng kí	V	25	nummod
+nguyện vọng	N	22	obj
+xét	V	25	compound
+tuyển	V	25	nmod
+đại học	N	27	nmod
+thuận lợi	A	28	acl:subj
+hơn	A	29	advmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 174
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thủ khoa khối A năm 2021 đạt 29,55 điểm là thí sinh đến từ Hải Phòng với 10 điểm môn Hóa.
+Thủ khoa	N	2	nummod
+khối	N	10	nsubj
+A	Np	2	compound
+năm	N	5	nummod
+2021	M	2	nmod
+đạt	V	10	csubj
+29,55	M	6	obj
+điểm	N	6	obj
+là	V	10	cop
+thí sinh	N	0	root
+đến	V	10	acl:subj
+từ	E	13	case
+Hải Phòng	Np	11	obl:comp
+với	E	16	case
+10	M	16	nummod
+điểm	N	13	nmod
+môn	N	16	nmod
+Hóa	Np	17	nmod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 175
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các thí sinh khác trong top 10 đều đạt trên 29 điểm.
+Các	L	2	det
+thí sinh	N	8	nsubj
+khác	A	2	amod
+trong	E	5	case
+top	N	2	nmod
+10	M	5	nummod
+đều	R	8	advmod
+đạt	V	0	root
+trên	E	11	case
+29	M	11	det:clf
+điểm	N	8	obl
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 176
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Á khoa khối A năm 2021 đạt 29,35 điểm, trong đó Toán 9,6; Lý 10 và Hoá 9,75.
+Á	N	7	nsubj
+khoa	N	7	nsubj
+khối	N	2	compound
+A	Ny	3	compound
+năm	N	6	nummod
+2021	M	7	nummod
+đạt	V	0	root
+29,35	M	7	obj
+điểm	N	7	obj
+,	CH	7	punct
+trong	E	12	case
+đó	P	7	obl
+Toán	Np	7	conj
+9,6	V	13	nmod
+;	CH	16	punct
+Lý 10	N	13	appos:nmod
+và	C	18	cc
+Hoá	Np	16	conj
+9,75	V	18	compound
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 177
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thí sinh có điểm thi khối A cao nhất đợt 2 đạt 28,6 điểm, lọt vào top 50 thí sinh có điểm thi khối A cao nhất toàn quốc sau cả 2 đợt thi.
+Thí sinh	N	2	nsubj
+có	V	0	root
+điểm	N	2	obj
+thi	V	3	compound
+khối	N	4	nmod
+A	Ny	5	compound
+cao	A	3	acl:subj
+nhất	R	7	advmod
+đợt	N	7	obj
+2	M	9	nummod
+đạt	V	7	obl:adj
+28,6	M	11	nummod
+điểm	N	11	nmod
+,	CH	15	punct
+lọt	V	2	conj
+vào	E	15	compound:dir
+top	N	15	obl:comp
+50	M	19	nummod
+thí sinh	N	15	obl:comp
+có	V	2	conj
+điểm	N	20	obj
+thi	V	21	nmod
+khối	N	22	nmod
+A	Ny	23	compound
+cao	A	21	acl:subj
+nhất	R	27	advmod
+toàn quốc	N	25	obl
+sau	N	31	case
+cả	T	31	det
+2	M	31	nummod
+đợt	N	25	obl
+thi	V	31	acl:subj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 178
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo quy định của Bộ GD-ĐT, thời gian điều chỉnh nguyện vọng xét tuyển đại học, từ ngày 29/8 đến 17h ngày 5/9 (được điều chỉnh 3 lần bằng hình thức trực tuyến); điều chỉnh sai sót liên quan đến ưu tiên đối tượng, khu vực (thực hiện bằng phiếu và nộp tại điểm thu nhận hồ sơ).
+Theo	V	7	advcl
+quy định	N	1	obj
+của	E	4	case
+Bộ GD-ĐT	Np	2	nmod:poss
+,	CH	6	punct
+thời gian	N	7	nsubj
+điều chỉnh	V	8	case
+nguyện vọng	N	0	root
+xét	V	8	compound
+tuyển	V	9	compound
+đại học	N	10	compound
+,	CH	14	punct
+từ	E	14	case
+ngày	N	33	obl:tmod
+29/8	M	14	acl:subj
+đến	E	18	case
+17	M	18	nummod
+h	Nu	14	nmod
+ngày	N	18	nmod
+5/9	M	19	nmod
+(	CH	22	punct
+được	R	19	acl:subj
+điều chỉnh	V	25	punct
+3	M	25	nummod
+lần	N	22	obj
+bằng	E	27	case
+hình thức	N	25	obl
+trực tuyến	A	27	nmod
+)	CH	22	punct
+;	CH	33	punct
+điều chỉnh	V	33	nsubj
+sai sót	N	31	compound
+liên quan	V	8	acl:subj
+đến	E	35	case
+ưu tiên	M	33	obl:comp
+đối tượng	N	35	compound
+,	CH	38	punct
+khu vực	N	35	conj
+(	CH	40	punct
+thực hiện	V	38	acl:subj
+bằng	E	42	case
+phiếu	N	40	obl
+và	C	44	cc
+nộp	V	40	conj
+tại	E	46	case
+điểm	N	44	obl
+thu nhận	V	46	compound
+hồ sơ	N	46	compound
+)	CH	40	punct
+.	CH	33	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 179
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước 17h ngày 16/9, các trường đại học sẽ công bố điểm chuẩn, kết quả trúng tuyển đợt 1.
+Trước	E	3	case
+17	M	3	nummod
+h	N	11	obl
+ngày	N	3	nmod
+16/9	M	4	nmod
+,	CH	11	punct
+các	L	8	det
+trường	N	11	nsubj
+đại học	N	8	compound
+sẽ	R	11	advmod
+công bố	V	0	root
+điểm	N	11	obj
+chuẩn	A	12	nmod
+,	CH	15	punct
+kết quả	N	12	conj
+trúng tuyển	V	15	nmod
+đợt	N	15	nmod
+1	M	17	nummod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-a-bien-dong-the-nao-sau-khi-cong-bo-diem-thi-tot-nghiep-thpt-dot-2-766402.html
+# date = 20210816
+# sent_id = 180
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước 17h ngày 26/9 (tính theo dấu bưu điện), thí sinh làm thủ tục xác nhận nhập học đợt 1
+Trước	E	3	case
+17	M	3	nummod
+h	N	14	obl
+ngày	N	3	nmod
+26/9	M	4	nmod
+(	CH	7	punct
+tính	V	4	appos:nmod
+theo	V	7	compound:svc
+dấu	N	7	obj
+bưu điện	N	9	nmod
+)	CH	7	punct
+,	CH	14	punct
+thí sinh	N	14	nsubj
+làm	V	0	root
+thủ tục	N	14	obj
+xác nhận	V	14	xcomp
+nhập học	V	16	obj
+đợt	N	14	obl
+1	M	18	nummod
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 181
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = ĐH Giao thông vận tải lấy điểm sàn từ 16 - 22 điểm
+ĐH	Ny	4	nsubj
+Giao thông	N	1	compound
+vận tải	V	1	compound
+lấy	V	0	root
+điểm	N	4	obj
+sàn	N	5	compound
+từ	E	8	case
+16	M	4	obl:tmod
+-	CH	8	flat:number
+22	M	8	flat:number
+điểm	N	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 182
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường ĐH Giao thông vận tải vừa công bố ngưỡng điểm nhận đăng ký xét tuyển đầu vào (điểm sàn) đại học hệ chính quy theo phương thức xét tuyển bằng điểm thi tốt nghiệp THPT năm 2021.
+Trường	N	6	nsubj
+ĐH	Ny	1	compound
+Giao thông	N	2	compound
+vận tải	N	1	compound
+vừa	R	6	advmod
+công bố	V	0	root
+ngưỡng	V	6	obj
+điểm	N	6	obj
+nhận	V	8	nmod
+đăng ký	V	9	compound
+xét	V	10	obj
+tuyển	N	11	compound
+đầu vào	N	12	compound
+(	CH	15	punct
+điểm	N	9	appos
+sàn	N	15	compound
+)	CH	15	punct
+đại học	N	8	nmod
+hệ	N	18	nmod
+chính quy	V	19	compound
+theo	V	19	acl:subj
+phương thức	N	21	obj
+xét	V	22	compound
+tuyển	V	23	obj
+bằng	E	26	case
+điểm	N	21	obl:comp
+thi	V	26	compound
+tốt nghiệp	V	26	acl:subj
+THPT	Ny	28	obl:adj
+năm	N	28	obj
+2021	M	30	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 183
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm 2021, Trường ĐH Giao thông vận tải sẽ tuyển 5.700 chỉ tiêu cho 27 ngành học.
+Năm	N	9	obl:tmod
+2021	M	1	flat:time
+,	CH	9	punct
+Trường	N	9	nsubj
+ĐH	Ny	4	compound
+Giao thông	N	4	compound
+vận tải	V	4	flat:name
+sẽ	R	9	advmod
+tuyển	V	0	root
+5.700	N	9	obj
+chỉ tiêu	V	9	obj
+cho	E	14	case
+27	N	14	nummod
+ngành	N	9	obl:iobj
+học	V	14	compound
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 184
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thí sinh lưu ý, năm nay, trường có tuyển sinh thêm 2 ngành mới là Kỹ thuật Robot và Trí tuệ nhân tạo; Tài chính - Ngân hàng.
+Thí sinh	N	2	nummod
+lưu ý	V	9	nsubj
+,	CH	2	punct
+năm	N	2	appos:nmod
+nay	P	4	det:pmod
+,	CH	9	punct
+trường	N	9	nsubj
+có	V	9	advmod
+tuyển sinh	V	0	root
+thêm	R	9	compound:svc
+2	M	12	nummod
+ngành	N	9	obj
+mới	R	12	amod
+là	V	15	cop
+Kỹ thuật	N	12	appos:nmod
+Robot	Np	15	compound
+và	C	18	cc
+Trí tuệ	V	15	conj
+nhân tạo	A	18	compound
+;	CH	21	punct
+Tài chính	N	15	conj
+-	CH	23	punct
+Ngân hàng	N	21	conj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-dai-hoc-giao-thong-van-tai-nam-2021-766414.html
+# date = 20210816
+# sent_id = 185
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường ĐH Giao thông Vận tải vẫn chủ yếu tuyển sinh bằng 2 phương thức là sử dụng kết quả kỳ thi tốt nghiệp THPT và sử dụng kết quả học tập THPT (học bạ).
+Trường	N	6	nsubj
+ĐH	Ny	1	compound
+Giao thông	N	2	compound
+Vận tải	N	1	compound
+vẫn	R	6	advmod
+chủ yếu	A	0	root
+tuyển sinh	V	6	obj
+bằng	E	10	case
+2	M	10	nummod
+phương thức	N	7	nmod
+là	V	12	cop
+sử dụng	V	10	acl:subj
+kết quả	N	12	obj
+kỳ	N	13	nmod
+thi	V	14	compound
+tốt nghiệp	V	14	compound
+THPT	Ny	16	compound
+và	C	19	cc
+sử dụng	V	12	conj
+kết quả	N	19	obj
+học tập	V	20	nmod
+THPT	Ny	21	compound
+(	CH	24	punct
+học bạ	M	21	appos:nmod
+)	CH	24	punct
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 186
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phổ điểm khối B sau 2 đợt thi tốt nghiệp năm 2021
+Phổ	M	0	root
+điểm	N	1	nmod
+khối	V	2	nmod
+B	Np	3	compound
+sau	N	2	nmod
+2	M	7	nummod
+đợt	N	1	nmod
+thi	V	7	acl:subj
+tốt nghiệp	V	8	xcomp
+năm	N	9	obj
+2021	M	1	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 187
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi Bộ GD-ĐT công bố điểm thi tốt nghiệp THPT của cả 2 đợt, VietNamNet đã phân tích phổ điểm khối B của cả nước để thí sinh tham khảo nhằm thuận lợi hơn cho điều chỉnh đăng ký nguyện vọng xét tuyển đại học.
+Sau	N	2	case
+khi	N	17	obl:tmod
+Bộ	N	4	det:clf
+GD-ĐT	Ny	5	nsubj
+công bố	V	2	acl:tmod
+điểm	N	5	obj
+thi	V	6	compound
+tốt nghiệp	V	7	acl:subj
+THPT	Ny	8	obj
+của	E	13	case
+cả	T	13	discourse
+2	M	13	nummod
+đợt	N	8	obl
+,	CH	17	punct
+VietNamNet	Np	17	nsubj
+đã	R	17	advmod
+phân tích	V	0	root
+phổ	M	19	nummod
+điểm	N	17	obj
+khối	N	19	nmod
+B	Np	20	compound
+của	E	24	case
+cả	P	24	det
+nước	N	19	nmod:poss
+để	E	26	mark:pcomp
+thí sinh	V	17	advcl:objective
+tham khảo	N	26	obj
+nhằm	V	29	punct
+thuận lợi	A	17	advcl:objective
+hơn	A	29	advmod:adj
+cho	E	32	case
+điều chỉnh	V	29	obl:comp
+đăng ký	V	32	acl:subj
+nguyện vọng	N	33	obj
+xét	V	34	compound
+tuyển	V	35	obj
+đại học	N	36	nmod
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 188
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kết quả phân tích điểm thi của thí sinh theo tổ hợp 3 môn xét tuyển theo khối B cho thấy, mức điểm trung bình của khối này sau cả 2 đợt thi là 19,89 điểm.
+Kết quả	N	16	nsubj
+phân tích	V	1	acl:subj
+điểm	N	2	obj
+thi	V	3	compound
+của	E	6	case
+thí sinh	N	3	nmod:poss
+theo	V	6	acl:subj
+tổ hợp	N	10	advmod:adj
+3	M	10	nummod
+môn	N	7	obj
+xét	V	10	compound
+tuyển	V	11	compound
+theo	V	14	case
+khối	N	10	nmod
+B	Np	14	compound
+cho	V	0	root
+thấy	V	16	compound:svc
+,	CH	31	punct
+mức	N	31	nsubj
+điểm	N	19	nmod
+trung bình	A	20	amod
+của	E	23	case
+khối	N	19	nmod:poss
+này	P	23	det:pmod
+sau	N	28	case
+cả	T	28	det
+2	M	28	nummod
+đợt	N	31	nsubj
+thi	V	31	advmod
+là	V	31	cop
+19,89	M	16	conj
+điểm	N	31	nmod
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 189
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thí sinh có tổng điểm khối B cao nhất của đợt 2 đến từ An Giang với 29,75 điểm (trong đó Toán 10, Sinh học 10, Hóa học 9,75).
+Thí sinh	N	2	nsubj
+có	V	0	root
+tổng	N	2	obj
+điểm	N	3	compound
+khối	N	4	nmod
+B	Np	5	compound
+cao	A	4	acl:subj
+nhất	R	7	advmod
+của	E	10	case
+đợt	N	3	nmod:poss
+2	M	10	compound
+đến	V	3	acl:subj
+từ	E	14	case
+An Giang	Np	7	obl
+với	E	16	case
+29,75	M	14	nmod
+điểm	N	16	compound
+(	CH	21	punct
+trong	E	20	case
+đó	P	16	obl
+Toán	Np	16	list
+10	M	21	compound
+,	CH	24	punct
+Sinh học	N	21	list
+10	M	24	compound
+,	CH	27	punct
+Hóa học	V	21	list
+9,75	N	27	compound
+)	CH	27	punct
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-b-sau-2-dot-thi-tot-nghiep-thpt-nam-2021-766403.html
+# date = 20210816
+# sent_id = 190
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây cũng là thí sinh có tổng điểm cao nhất của đợt 2 nếu tính theo các tổ hợp xét tuyển.
+Đây	P	4	nsubj
+cũng	R	3	advmod
+là	V	4	cop
+thí sinh	N	0	root
+có	V	4	acl:subj
+tổng	N	5	obj
+điểm	N	6	nmod
+cao	A	7	amod
+nhất	A	8	advmod
+của	E	11	case
+đợt	N	6	nmod:poss
+2	M	11	nummod
+nếu	C	14	mark
+tính	V	5	advcl
+theo	V	17	case
+các	L	17	det
+tổ hợp	N	14	obl:comp
+xét	V	17	nmod
+tuyển	N	18	compound
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 191
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phổ điểm khối D cả 2 đợt thi tốt nghiệp THPT năm 2021
+Phổ	M	2	nummod
+điểm	N	8	nsubj
+khối	V	2	nmod
+D	Np	3	compound
+cả	T	7	det
+2	M	7	nummod
+đợt	N	1	nmod
+thi	V	0	root
+tốt nghiệp	V	8	xcomp
+THPT	Ny	11	nummod
+năm	N	9	obj
+2021	M	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 192
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi Bộ GD-ĐT công bố điểm thi tốt nghiệp THPT của cả 2 đợt, VietNamNet đã phân tích phổ điểm khối D của cả nước để phụ huynh và thí sinh tham khảo nhằm thuận lợi hơn cho việc xét tuyển đại học.
+Sau	N	2	case
+khi	N	17	obl:tmod
+Bộ	N	4	det:clf
+GD-ĐT	Ny	5	nsubj
+công bố	V	2	acl:tmod
+điểm	N	5	obj
+thi	V	6	compound
+tốt nghiệp	V	7	acl:subj
+THPT	Ny	8	obj
+của	E	13	case
+cả	T	13	discourse
+2	M	13	nummod
+đợt	N	8	obl
+,	CH	17	punct
+VietNamNet	Np	17	nsubj
+đã	R	17	advmod
+phân tích	V	0	root
+phổ	M	17	obj
+điểm	N	17	obj
+khối	N	19	nmod
+D	Np	20	compound
+của	E	24	case
+cả	P	24	det
+nước	N	20	nmod:poss
+để	E	26	mark:pcomp
+phụ huynh	V	17	advcl:objective
+và	C	28	cc
+thí sinh	N	26	conj
+tham khảo	N	28	compound
+nhằm	V	31	punct
+thuận lợi	A	26	conj
+hơn	A	31	advmod:adj
+cho	E	34	case
+việc	N	31	obl:comp
+xét	V	34	acl:subj
+tuyển	V	35	obj
+đại học	N	36	compound
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 193
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kết quả phân tích điểm thi theo tổ hợp 3 môn xét tuyển của khối D cho thấy, điểm trung bình của khối này sau cả 2 đợt thi là 19,17 điểm.
+Kết quả	N	14	nsubj
+phân tích	V	1	acl:subj
+điểm	N	2	obj
+thi	V	3	compound
+theo	V	8	case
+tổ hợp	N	8	advmod:adj
+3	M	8	nummod
+môn	N	4	obj
+xét	V	8	nmod
+tuyển	N	9	compound
+của	E	12	case
+khối	N	8	nmod:poss
+D	Np	12	compound
+cho	V	0	root
+thấy	V	14	compound:svc
+,	CH	28	punct
+điểm	N	28	nsubj
+trung bình	A	17	amod
+của	E	20	case
+khối	N	17	nmod:poss
+này	P	20	det:pmod
+sau	N	25	case
+cả	T	25	det
+2	M	25	nummod
+đợt	N	28	nsubj
+thi	V	28	nsubj
+là	V	28	cop
+19,17	M	14	conj
+điểm	N	28	nmod
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 194
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thủ khoa khối D toàn quốc năm nay là Bùi Thị Ngọc Quỳnh (học sinh lớp 12 Văn, Trường THPT Chuyên Nguyễn Tất Thành, tỉnh Kon Tum).
+Thủ khoa	N	2	nummod
+khối	N	8	nsubj:nn
+D	Np	2	compound
+toàn quốc	M	3	compound
+năm	N	2	nmod
+nay	P	5	det:pmod
+là	V	8	cop
+Bùi Thị Ngọc Quỳnh	Np	0	root
+(	CH	10	punct
+học sinh	N	8	appos
+lớp	N	10	nmod
+12	M	13	nummod
+Văn	Np	10	nmod
+,	CH	15	punct
+Trường	N	10	list
+THPT	Ny	15	compound
+Chuyên	Np	18	punct
+Nguyễn Tất Thành	Np	16	compound
+,	CH	20	punct
+tỉnh	N	10	list
+Kon Tum	Np	20	compound
+)	CH	10	punct
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/pho-diem-khoi-d-ca-2-dot-thi-tot-nghiep-thpt-nam-2021-766389.html
+# date = 20210816
+# sent_id = 195
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quỳnh đạt tổng điểm là 29,15 với Toán 9,4; Ngữ văn 9,75 và Tiếng Anh 10. Đây cũng là lần đầu tiên trong lịch sử, Kon Tum có thủ khoa thi tốt nghiệp THPT toàn quốc.
+Quỳnh	Np	2	nsubj
+đạt	V	6	nsubj
+tổng	N	2	obj
+điểm	N	3	nmod
+là	V	6	cop
+29,15	V	0	root
+với	E	8	case
+Toán	Np	6	obl
+9,4	V	8	compound
+;	CH	11	punct
+Ngữ văn	N	8	appos:nmod
+9,75	V	11	compound
+và	C	14	cc
+Tiếng	N	8	conj
+Anh	N	14	nmod
+10	M	14	compound
+.	CH	21	punct
+Đây	P	21	nsubj
+cũng	R	21	advmod
+là	V	21	cop
+lần	N	6	conj
+đầu tiên	A	21	amod
+trong	E	24	case
+lịch sử	N	21	obl
+,	CH	27	punct
+Kon Tum	Np	27	nsubj
+có	V	21	conj
+thủ khoa	N	27	obj
+thi	V	28	acl:subj
+tốt nghiệp	V	29	acl:subj
+THPT	Ny	30	obj
+toàn quốc	N	31	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 196
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường ĐH Công nghệ thông tin lấy điểm sàn từ 22 điểm
+Trường	N	4	nsubj
+ĐH	Ny	1	compound
+Công nghệ thông tin	N	2	compound
+lấy	V	0	root
+điểm	N	4	obj
+sàn	N	5	nmod
+từ	E	8	case
+22	M	4	obl:tmod
+điểm	N	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 197
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường ĐH Công nghệ thông tin TP.HCM đã công bố điểm sàn xét tuyển từ điểm thi tốt nghiệp THPT năm 2021.
+Trường	N	6	nsubj
+ĐH	Ny	1	compound
+Công nghệ thông tin	N	2	compound
+TP.HCM	Np	1	flat:name
+đã	R	6	advmod
+công bố	V	0	root
+điểm	N	6	obj
+sàn	N	7	compound
+xét	V	7	acl:subj
+tuyển	V	9	obj
+từ	E	12	case
+điểm	N	6	obl
+thi	V	12	compound
+tốt nghiệp	V	12	nmod
+THPT	Ny	14	obj
+năm	N	14	obj
+2021	M	16	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 198
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm nay, Trường ĐH Công nghệ thông tin TP.HCM tuyển sinh theo 7 phương thức.
+Năm	N	8	obl:tmod
+nay	P	1	flat:date
+,	CH	9	punct
+Trường	N	9	nsubj
+ĐH	Ny	4	compound
+Công nghệ thông tin	N	4	compound
+TP.HCM	Np	4	compound
+tuyển sinh	V	0	root
+theo	V	11	case
+7	M	11	nummod
+phương thức	N	8	obl
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 199
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước đó trường đã công bố điểm chuẩn các phương thức xét kết quả thi đánh giá năng lực ĐH Quốc gia TP.HCM, ưu tiên xét tuyển, xét tuyển thẳng…
+Trước	N	5	obl:tmod
+đó	P	1	det:pmod
+trường	N	5	nsubj
+đã	R	5	advmod
+công bố	V	0	root
+điểm	N	5	obj
+chuẩn	A	9	case
+các	L	9	det
+phương thức	N	6	nmod
+xét	V	9	acl:subj
+kết quả	N	10	obj
+thi	V	11	nmod
+đánh giá	V	12	obj
+năng lực	N	13	nmod
+ĐH	Ny	14	compound
+Quốc gia	N	14	compound
+TP.HCM	Np	16	compound
+,	CH	19	punct
+ưu tiên	A	5	conj
+xét	V	19	xcomp
+tuyển	N	20	obj
+,	CH	23	punct
+xét	V	5	conj
+tuyển	V	23	obj
+thẳng	A	24	amod
+…	CH	5	punct
+
+# https://vietnamnet.vn/vn/giao-duc/diem-san-truong-dai-hoc-cong-nghe-thong-tin-2021-tat-ca-cac-nganh-la-22-diem-766384.html
+# date = 20210816
+# sent_id = 200
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phương án xét tuyển điểm thi tốt nghiệp THPT vẫn là chủ đạo. Tổ hợp môn xét tuyển các ngành gồm: A00, A01, D01, D07.
+Phương án	N	10	nsubj
+xét	V	1	acl:subj
+tuyển	V	4	case
+điểm	N	1	nmod
+thi	V	4	compound
+tốt nghiệp	V	4	acl:subj
+THPT	Ny	6	obj
+vẫn	R	10	advmod
+là	V	10	cop
+chủ đạo	N	0	root
+.	CH	10	punct
+Tổ hợp	N	10	punct
+môn	N	10	nmod
+xét	V	13	compound
+tuyển	V	13	case
+các	L	17	det
+ngành	N	14	obj
+gồm	V	17	compound
+:	CH	20	punct
+A00	Np	18	obj
+,	CH	22	punct
+A01	Np	20	conj
+,	CH	24	punct
+D01	Np	20	conj
+,	CH	26	punct
+D07	Np	20	conj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 201
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Danh sách trúng tuyển lớp 10 Chuyên Lê Hồng Phong TP.HCM
+Danh sách	N	0	root
+trúng tuyển	V	1	nmod
+lớp	N	1	nmod
+10	M	3	nummod
+Chuyên	Np	1	nmod
+Lê Hồng Phong	Np	5	compound
+TP.HCM	Np	1	punct
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 202
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường THPT Chuyên Lê Hồng Phong (TP.HCM) vừa công bố danh sách trúng tuyển lớp 10 năm 2021-2022.
+Trường	N	9	nsubj
+THPT	Ny	1	compound
+Chuyên	Np	1	compound
+Lê Hồng Phong	Np	1	flat:name
+(	CH	6	punct
+TP.HCM	Np	1	appos:nmod
+)	CH	6	punct
+vừa	R	9	advmod
+công bố	V	0	root
+danh sách	N	9	obj
+trúng tuyển	V	10	compound
+lớp	N	10	nmod
+10	M	14	nummod
+năm	N	10	nmod
+2021	M	14	flat:date
+-	CH	17	punct
+2022	N	15	conj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 203
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó, Điểm xét tuyển lớp 10 chuyên = Tổng điểm trung bình môn cả năm lớp 9 của môn Văn, Toán, Ngoại ngữ + Điểm trung bình môn cả năm lớp 9 của môn đăng ký thi chuyên nhân 2 + Điểm khuyến khích (nếu có).
+Theo	V	12	advcl
+đó	P	1	obj
+,	CH	4	punct
+Điểm	Np	0	root
+xét	V	4	nmod
+tuyển	V	5	obj
+lớp	N	4	nmod
+10	M	7	nummod
+chuyên	A	4	nmod
+=	V	4	nmod
+Tổng điểm	N	10	nmod
+trung bình	A	11	acl:subj
+môn	N	12	obj
+cả	T	15	det
+năm	N	12	obl:tmod
+lớp	N	11	nmod
+9	M	16	compound
+của	E	19	case
+môn Văn	N	4	nmod:poss
+,	CH	21	punct
+Toán	Np	19	conj
+,	CH	23	punct
+Ngoại ngữ	N	19	conj
++	N	25	punct
+Điểm	Np	19	conj
+trung bình	A	25	acl:subj
+môn	N	26	obj
+cả	T	29	det
+năm	N	27	nmod
+lớp	N	29	nmod
+9	M	30	nummod
+của	E	33	case
+môn	N	4	nmod:poss
+đăng ký	V	33	nmod
+thi	V	34	obj
+chuyên	A	35	compound
+nhân	N	35	list
+2	M	37	compound
++	N	40	punct
+Điểm	Np	19	conj
+khuyến khích	V	40	compound
+(	CH	44	punct
+nếu	C	44	mark
+có	V	40	appos:nmod
+)	CH	44	punct
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 204
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường THPT Chuyên Lê Hồng Phong có điểm chuẩn cao nhất. Trong đó, ở nguyện vọng 1 vào lớp 10 chuyên Sinh có điểm chuẩn là 49,4 điểm; Chuyên Toán và Hoá xếp thứ 2 với mức điểm chuẩn là 49,1 điểm.
+Trường	N	5	nsubj
+THPT	Ny	1	compound
+Chuyên	Np	1	compound
+Lê Hồng Phong	Np	1	compound
+có	V	0	root
+điểm chuẩn	N	5	obj
+cao	A	6	amod
+nhất	R	7	advmod
+.	CH	7	punct
+Trong	E	11	case
+đó	P	5	obl
+,	CH	14	punct
+ở	E	14	case
+nguyện vọng	N	21	obl
+1	M	14	compound
+vào	E	14	case
+lớp	N	14	nmod
+10	M	17	nummod
+chuyên	A	17	compound
+Sinh	Np	21	nsubj
+có	V	5	parataxis
+điểm chuẩn	N	21	obj
+là	C	24	cop
+49,4	M	22	acl:subj
+điểm	N	24	compound
+;	CH	27	punct
+Chuyên Toán	Np	24	conj
+và	C	29	cc
+Hoá	Np	27	conj
+xếp	V	29	nmod
+thứ	N	30	nmod
+2	M	31	nummod
+với	E	34	case
+mức	N	27	conj
+điểm chuẩn	N	34	compound
+là	V	37	cop
+49,1	M	5	conj
+điểm	N	37	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giao-duc/danh-sach-trung-tuyen-lop-10-truong-thpt-chuyen-le-hong-phong-766383.html
+# date = 20210816
+# sent_id = 205
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Còn ở nguyện vọng 2, lớp chuyên Toán có điểm chuẩn là 50 điểm.
+Còn	C	3	advmod
+ở	E	3	case
+nguyện vọng	N	9	obl
+2	M	3	nummod
+,	CH	9	punct
+lớp	N	3	appos:nmod
+chuyên	A	6	compound
+Toán	Np	6	nmod
+có	V	0	root
+điểm chuẩn	N	9	obj
+là	C	13	cop
+50	M	13	nummod
+điểm	N	10	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 206
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chàng trai chiến thắng Covid-19 'nhờ' cụ bà 84 tuổi
+Chàng	Nc	2	det:clf
+trai	N	5	nsubj
+chiến thắng	V	2	nmod
+Covid-19 '	A	2	nmod
+nhờ	V	0	root
+'	V	7	nummod
+cụ	N	5	obj
+bà	Nc	5	iobj
+84	M	10	nummod
+tuổi	N	5	obj
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 207
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày phát hiện nhiễm bệnh, Thắng hoang mang, sợ chết nhưng khi chứng kiến F0 84 tuổi lạc quan, vui sống, anh vững tâm điều trị để vượt qua Covid-19.
+Ngày	N	8	obl:tmod
+phát hiện	V	1	nmod
+nhiễm bệnh	N	2	obj
+,	CH	6	punct
+Thắng	Np	6	nsubj
+hoang mang	V	2	conj
+,	CH	8	punct
+sợ	V	0	root
+chết	V	8	xcomp
+nhưng	C	11	mark
+khi	N	8	obl:tmod
+chứng kiến	V	11	acl:tmod
+F0	Np	12	obj
+84	M	15	nummod
+tuổi	N	12	obj
+lạc quan	A	15	compound
+,	CH	18	punct
+vui	A	16	conj
+sống	V	18	compound:svc
+,	CH	22	punct
+anh	Nc	22	det:clf
+vững tâm	V	15	conj
+điều trị	V	22	nmod
+để	E	25	mark:pcomp
+vượt	V	12	advcl:objective
+qua	V	27	case
+Covid-19	Np	25	obl:comp
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 208
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trở về sau 24 ngày điều trị Covid-19, anh Phạm Quyết Thắng (30 tuổi, ngụ TP.HCM) giật mình khi nhớ lại khoảng thời gian nhiễm bệnh.
+Trở	V	18	advcl
+về	R	1	compound:dir
+sau	N	1	obl
+24	M	5	nummod
+ngày	N	3	nmod
+điều trị	V	5	nmod
+Covid-19	Np	6	compound
+,	CH	10	punct
+anh	Nc	10	det:clf
+Phạm Quyết Thắng	Np	18	nsubj
+(	CH	13	punct
+30	M	13	nummod
+tuổi	N	10	appos
+,	CH	15	punct
+ngụ	V	13	conj
+TP.HCM	Np	15	nmod
+)	CH	13	punct
+giật mình	V	0	root
+khi	N	18	obl:tmod
+nhớ	V	19	acl:tmod
+lại	V	20	compound:svc
+khoảng	N	20	obj
+thời gian	N	22	nmod
+nhiễm bệnh	A	23	nmod
+.	CH	18	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 209
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thắng cho biết, anh nhiễm Covid-19 trong lần đi thu tiền phòng trọ tại dãy trọ của gia đình.
+Thắng	Np	2	nsubj
+cho	V	0	root
+biết	V	2	xcomp
+,	CH	6	punct
+anh	Nc	6	nsubj
+nhiễm	V	2	parataxis
+Covid-19	Np	6	obj
+trong	E	9	case
+lần	N	6	obl
+đi	V	9	acl:subj
+thu	V	10	obj
+tiền phòng	N	10	obj
+trọ	V	12	amod
+tại	E	15	case
+dãy	N	10	obl
+trọ	V	15	compound:vmod
+của	E	18	case
+gia đình	N	15	nmod:poss
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 210
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 10/7, Thắng đến dãy trọ thu tiền phòng.
+Ngày	N	5	obl:tmod
+10/7	M	1	nummod
+,	CH	5	punct
+Thắng	Np	5	nsubj
+đến	V	0	root
+dãy	N	5	obj
+trọ	V	5	xcomp
+thu	V	5	obl
+tiền phòng	N	8	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 211
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thường ngày, khi ra đường, Thắng đều đeo khẩu trang, tuân thủ quy tắc 5K.
+Thường ngày	A	9	obl:tmod
+,	CH	9	punct
+khi	N	9	obl:tmod
+ra	V	3	acl:tmod
+đường	N	4	obj
+,	CH	3	punct
+Thắng	Np	9	nsubj
+đều	R	9	advmod
+đeo	V	0	root
+khẩu trang	N	9	obj
+,	CH	12	punct
+tuân thủ	V	9	conj
+quy tắc	N	12	obj
+5K	V	13	obj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 212
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nhưng hôm ấy, anh chủ quan, không chú ý phòng bệnh vì nghĩ rằng đang đến gặp những người thân quen.
+Thế	P	10	discourse
+nhưng	C	1	compound
+hôm	N	10	obl:tmod
+ấy	P	3	det:pmod
+,	CH	1	punct
+anh	Nc	7	det:clf
+chủ quan	A	10	nsubj
+,	CH	10	punct
+không	R	10	advmod:neg
+chú ý	V	0	root
+phòng bệnh	N	10	obj
+vì	E	13	mark
+nghĩ	V	10	advcl
+rằng	C	16	mark
+đang	R	16	advmod
+đến	V	13	ccomp
+gặp	V	16	xcomp
+những	L	19	det
+người	Nc	17	obj
+thân quen	A	19	nmod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 213
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thắng quên đeo khẩu trang và tiếp xúc với người nhiễm bệnh chỉ trong khoảng nửa phút rồi rời đi.
+Thắng	Np	2	nsubj
+quên	V	0	root
+đeo	V	2	xcomp
+khẩu trang	N	3	obj
+và	C	6	cc
+tiếp xúc	V	3	conj
+với	E	8	case
+người	N	9	det:clf
+nhiễm bệnh	V	6	obl:with
+chỉ	R	14	advmod
+trong	E	14	case
+khoảng	A	14	advmod:adj
+nửa	L	14	nummod
+phút	Nu	16	obl:tmod
+rồi	C	16	cc
+rời	V	2	conj
+đi	V	16	compound:svc
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 214
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì người anh tiếp xúc không biết bản thân nhiễm Covid-19 nên Thắng cũng không ngờ mình bị lây bệnh.
+Vì	E	6	mark
+người	N	6	nsubj
+anh	Nc	4	det:clf
+tiếp xúc	V	2	nmod
+không	R	6	advmod:neg
+biết	V	14	advcl
+bản thân	N	6	obj
+nhiễm	V	7	acl:subj
+Covid-19	Np	8	obj
+nên	C	14	mark
+Thắng	Np	14	nsubj
+cũng	R	14	advmod
+không	R	14	advmod:neg
+ngờ	V	0	root
+mình	P	17	nsubj
+bị	V	17	aux:pass
+lây	V	14	ccomp
+bệnh	N	17	obj
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 215
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nghĩ mình chỉ bị cảm lạnh vì hay nằm gần quạt, Thắng không thông báo với nhân viên y tế.
+Nghĩ	V	5	csubj:vsubj
+mình	P	5	nsubj:pass
+chỉ	R	5	advmod
+bị	V	5	aux:pass
+cảm lạnh	V	0	root
+vì	E	8	mark
+hay	C	8	nsubj
+nằm	V	5	advcl
+gần	A	10	advmod:adj
+quạt	M	8	obj
+,	CH	14	punct
+Thắng	Np	14	nsubj
+không	R	14	advmod:neg
+thông báo	V	5	conj
+với	E	16	case
+nhân viên	N	14	obl:with
+y tế	N	16	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 216
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tra thông tin trên mạng, tôi thấy các triệu chứng này giống cảm cúm thông thường nên yên tâm và uống thêm 1 viên Panadol rồi ngủ tiếp.
+Tra	V	7	advcl
+thông tin	N	1	obj
+trên	E	4	case
+mạng	N	1	obl
+,	CH	7	punct
+tôi	P	7	nsubj
+thấy	V	0	root
+các	L	9	det
+triệu chứng	N	11	nsubj
+này	P	9	det:pmod
+giống	N	7	ccomp
+cảm	V	11	obj
+cúm thông thường	N	12	obj
+nên	C	15	mark
+yên tâm	A	7	ccomp
+và	C	17	cc
+uống	V	11	conj
+thêm	V	17	compound:svc
+1	M	21	nummod
+viên	Nc	19	clf
+Panadol	Np	17	obj
+rồi	C	23	cc
+ngủ	V	17	conj
+tiếp	V	23	compound:svc
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 217
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 16/7, tôi bàng hoàng khi được nhân viên y tế phường gọi điện thông báo dãy trọ của tôi có người dương tính với Sars-Cov-2.
+Ngày	N	5	obl:tmod
+16/7	M	1	compound
+,	CH	1	punct
+tôi	P	5	nsubj
+bàng hoàng	A	0	root
+khi	N	5	obl:tmod
+được	V	11	aux:pass
+nhân viên	N	11	nsubj
+y tế	N	8	nmod
+phường	N	9	compound
+gọi	V	6	acl:tmod
+điện thông báo	V	13	case
+dãy	N	11	obj
+trọ	V	13	compound
+của	E	16	case
+tôi	P	13	nmod:poss
+có	V	11	xcomp
+người	N	17	obj
+dương tính	V	18	amod
+với	E	21	case
+Sars-Cov-2	Np	18	obl
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 218
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Lúc này, tôi mới xác định mình đã nhiễm Covid-19 chứ không phải cảm cúm thông thường", anh kể thêm.
+"	CH	7	punct
+Lúc	N	7	obl:tmod
+này	P	2	det:pmod
+,	CH	2	punct
+tôi	P	7	nsubj
+mới	R	7	advmod
+xác định	V	0	root
+mình	P	10	nsubj
+đã	R	10	advmod
+nhiễm	V	7	ccomp
+Covid-19	Np	10	obj
+chứ	C	15	mark
+không	R	14	advmod:neg
+phải	V	15	aux
+cảm	V	10	conj
+cúm thông thường	N	15	obj
+"	CH	7	punct
+,	CH	20	punct
+anh	Nc	20	nsubj
+kể	V	7	parataxis
+thêm	V	20	compound:svc
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 219
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nghe thông báo, Thắng hoang mang tột độ, thậm chí nghĩ đến việc mình sẽ chết.
+Nghe	V	9	advcl
+thông báo	V	1	obj
+,	CH	1	punct
+Thắng	Np	5	nsubj
+hoang mang	V	9	advcl
+tột độ	N	5	obj
+,	CH	9	punct
+thậm chí	R	9	advmod
+nghĩ	V	0	root
+đến	E	11	case
+việc	N	9	obl:comp
+mình	P	14	nsubj
+sẽ	R	14	advmod
+chết	V	11	acl
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 220
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh nhanh chóng đến bệnh viện, tiến hành xét nghiệm và nhận kết quả dương tính. Thắng được đưa vào khu cách ly tạm thời để điều trị bệnh.
+Anh	Nc	3	nsubj
+nhanh chóng	A	3	advmod
+đến	V	0	root
+bệnh viện	N	3	obj
+,	CH	6	punct
+tiến hành	V	3	conj
+xét nghiệm	V	6	obj
+và	C	9	cc
+nhận	V	3	conj
+kết quả	N	9	obj
+dương tính	A	10	nmod
+. Thắng	A	11	compound
+được	V	14	aux:pass
+đưa	V	3	conj
+vào	E	16	case
+khu	N	14	obl:comp
+cách ly	V	16	compound
+tạm thời	A	16	amod
+để	E	20	mark:pcomp
+điều trị	V	14	advcl:objective
+bệnh	N	20	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 221
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bốn ngày sau, bệnh trở nặng, Thắng không chỉ sốt mà còn ho, đau rát họng.
+Bốn	M	2	nummod
+ngày	N	12	obl:tmod
+sau	N	2	nmod
+,	CH	6	punct
+bệnh	N	6	nsubj
+trở	V	12	parataxis
+nặng	A	6	amod
+,	CH	12	punct
+Thắng	Np	12	nsubj
+không	R	12	advmod:neg
+chỉ	R	12	advmod
+sốt	V	0	root
+mà còn	C	14	case
+ho	V	12	conj
+,	CH	16	punct
+đau	V	14	conj
+rát	A	16	obj
+họng	N	17	nmod
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 222
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh nói, cổ họng đau đến nỗi việc ăn uống cũng trở thành cực hình.
+Anh	Nc	2	nsubj
+nói	V	0	root
+,	CH	5	punct
+cổ họng	V	5	nsubj
+đau	V	2	parataxis
+đến nỗi	X	5	compound:adj
+việc	N	5	obj
+ăn uống	V	7	compound:vmod
+cũng	R	10	advmod
+trở thành	V	2	conj
+cực hình	N	10	obj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 223
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi nuốt bất cứ thứ gì, anh luôn có cảm giác cổ họng như bị gai nhọn đâm, xé rách toang.
+Khi	N	9	obl:tmod
+nuốt	V	1	acl:tmod
+bất cứ	R	4	advmod
+thứ	N	2	obj
+gì	T	4	nmod
+,	CH	1	punct
+anh	Nc	9	nsubj
+luôn	R	9	advmod
+có	V	0	root
+cảm giác	N	9	obj
+cổ họng	A	10	nmod
+như	C	15	mark
+bị	V	15	aux:pass
+gai	V	15	obl:agent
+nhọn	A	9	advcl
+đâm	V	15	xcomp
+,	CH	18	punct
+xé	V	15	conj
+rách	A	18	obj
+toang	V	19	nmod
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 224
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi Thắng không còn cảm nhận được mùi vị, nhai ớt cũng không còn cảm giác cay, nhét dầu gió vào mũi cũng không bị sặc, anh được chuyển đến Bệnh viện Đa khoa khu vực Hóc Môn (TP.HCM) điều trị.
+Khi	N	28	obl:tmod
+Thắng	Np	5	nsubj
+không	R	5	advmod:neg
+còn	R	5	advmod
+cảm nhận	V	1	acl:tmod
+được	R	5	advmod
+mùi vị	V	5	obj
+,	CH	13	punct
+nhai	V	13	nsubj
+ớt	N	13	nsubj
+cũng	R	13	advmod
+không	R	13	advmod:neg
+còn	V	5	conj
+cảm giác	N	13	obj
+cay	A	14	amod
+,	CH	17	punct
+nhét	V	13	conj
+dầu gió	V	17	obj
+vào	E	20	case
+mũi	N	17	obl:comp
+cũng	R	24	advmod
+không	R	24	advmod:neg
+bị	V	24	aux
+sặc	V	13	conj
+,	CH	28	punct
+anh	Nc	28	nsubj:pass
+được	V	28	aux:pass
+chuyển	V	0	root
+đến	E	30	case
+Bệnh viện	N	28	obl:comp
+Đa khoa	N	30	compound
+khu vực	N	30	nmod
+Hóc Môn	Np	32	compound
+(	CH	35	punct
+TP.HCM	Np	32	appos:nmod
+)	CH	35	punct
+điều trị	V	35	punct
+.	CH	28	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 225
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại đây, anh bắt đầu hành trình đối đầu với Covid-19 để giành giật sự sống.
+Tại	E	2	case
+đây	P	5	obl
+,	CH	5	punct
+anh	Nc	5	nsubj
+bắt đầu	V	0	root
+hành trình	N	5	obj
+đối đầu	V	6	compound
+với	E	9	case
+Covid-19	Np	6	obl:with
+để	E	11	mark:pcomp
+giành giật	V	5	advcl:objective
+sự	N	11	obj
+sống	V	12	compound:vmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 226
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi vẫn nhớ các ngày 19, 20, 21/7 bởi đây là những ngày quyết định.
+Tôi	P	3	nsubj
+vẫn	R	3	advmod
+nhớ	V	0	root
+các	L	5	det
+ngày	N	3	obj
+19	M	5	nummod
+,	CH	8	punct
+20	M	6	conj
+,	CH	10	punct
+21/7	N	6	conj
+bởi	E	12	case
+đây	P	15	nsubj
+là	V	15	cop
+những	L	15	det
+ngày	N	3	ccomp
+quyết định	V	15	amod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 227
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những ngày này, cảm giác khó thở, tức ngực bắt đầu xuất hiện.
+Những	L	2	det
+ngày	N	7	obl:tmod
+này	P	2	det:pmod
+,	CH	2	punct
+cảm giác	N	7	nsubj
+khó	A	7	advmod:adj
+thở	V	0	root
+,	CH	11	punct
+tức	C	10	det:clf
+ngực	N	11	nsubj
+bắt đầu	V	7	conj
+xuất hiện	V	11	xcomp
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 228
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi ngủ, tôi liên tục bị giật mình thức giấc vì không thở được.
+Khi	N	7	obl:tmod
+ngủ	V	1	acl:tmod
+,	CH	1	punct
+tôi	P	7	nsubj
+liên tục	A	7	advmod
+bị	V	7	aux
+giật mình	V	0	root
+thức giấc	V	7	obj
+vì	E	11	mark
+không	R	11	advmod:neg
+thở	V	7	advcl
+được	R	11	advmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 229
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỗi khi hít thật sâu, tôi lại có cảm giác đau tức ngực.
+Mỗi	M	2	det
+khi	N	9	obl:tmod
+hít	V	2	acl:tmod
+thật	T	5	advmod
+sâu	A	3	acomp
+,	CH	2	punct
+tôi	P	9	nsubj
+lại	R	9	advmod
+có	V	0	root
+cảm giác	N	9	obj
+đau tức	V	10	acl:subj
+ngực	N	11	obj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 230
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi sợ lắm vì chỉ cần ngủ một chút là khó thở.
+Tôi	P	2	nsubj
+sợ	V	0	root
+lắm	R	2	advmod
+vì	E	7	mark
+chỉ	R	6	advmod
+cần	V	7	aux
+ngủ	V	2	advcl
+một chút	L	7	obj
+là	C	10	cop
+khó	A	2	conj
+thở	V	10	xcomp:adj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 231
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi uống mật ong gừng để giảm đau họng.
+Tôi	P	2	nsubj
+uống	V	0	root
+mật ong	N	2	obj
+gừng	N	3	compound
+để	E	6	mark:pcomp
+giảm	V	2	advcl:objective
+đau	V	6	obj
+họng	N	7	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 232
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỗi ngày, bác sĩ phát cho tôi 1 viên Vitamin C để uống.
+Mỗi	M	2	det
+ngày	N	5	obl:tmod
+,	CH	5	punct
+bác sĩ	N	5	nsubj
+phát	V	0	root
+cho	E	7	case
+tôi	P	5	obl:iobj
+1	M	10	nummod
+viên	Nc	8	clf
+Vitamin C	Np	5	obj
+để	E	12	mark:pcomp
+uống	V	5	advcl:objective
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 233
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thắng nói rằng, những ngày đau tức ngực, anh không thể ngủ.
+Thắng	Np	2	nsubj
+nói	V	0	root
+rằng	C	2	obj
+,	CH	12	punct
+những	L	6	det
+ngày	N	12	obl:tmod
+đau tức	M	6	nmod
+ngực	N	7	obj
+,	CH	12	punct
+anh	Nc	12	nsubj
+không thể	R	12	advmod:neg
+ngủ	V	2	parataxis
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 234
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh lo nghĩ rồi sợ.
+Anh	Nc	2	nsubj
+lo nghĩ	V	0	root
+rồi	C	4	advmod
+sợ	V	2	xcomp
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 235
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đặc biệt, khi chứng kiến những bệnh nhân có tuổi chuyển nặng và có người gục ngã, anh càng thêm lo lắng.
+Đặc biệt	A	19	advcl
+,	CH	19	punct
+khi	N	19	obl:tmod
+chứng kiến	V	3	acl:tmod
+những	L	6	det
+bệnh nhân	N	4	obj
+có	V	6	acl:subj
+tuổi	N	7	obj
+chuyển	V	8	acl:subj
+nặng	A	9	acomp
+và	C	12	cc
+có	V	7	conj
+người	N	12	obj
+gục	V	13	acl:subj
+ngã	V	14	obj
+,	CH	19	punct
+anh	Nc	19	nsubj
+càng	R	19	advmod
+thêm	V	0	root
+lo lắng	V	19	obj
+.	CH	19	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 236
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế rồi giữa những phút giây tưởng chừng tuyệt vọng, anh nhìn thấy hình ảnh lạc quan của cụ bà đang được điều trị cùng phòng.
+Thế	P	10	mark
+rồi	C	1	fixed
+giữa	E	5	case
+những	L	5	det
+phút giây	N	10	obl
+tưởng chừng	V	5	nmod
+tuyệt vọng	V	6	obj
+,	CH	5	punct
+anh	Nc	10	nsubj
+nhìn	V	0	root
+thấy	V	10	compound:svc
+hình ảnh	N	19	nsubj:pass
+lạc quan	A	12	nmod
+của	E	15	case
+cụ	N	12	nmod:poss
+bà	Nc	15	compound
+đang	R	19	advmod
+được	V	19	aux:pass
+điều trị	V	10	ccomp
+cùng	C	21	case
+phòng	N	19	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 237
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ 84 tuổi rồi và cũng là F0 đang được điều trị như tôi.
+Cụ	N	2	nsubj
+84	M	0	root
+tuổi	N	2	obj
+rồi	C	3	advmod
+và	C	8	cc
+cũng	R	8	advmod
+là	V	8	cop
+F0	Np	2	conj
+đang	R	11	advmod
+được	V	11	aux:pass
+điều trị	V	8	acl:subj
+như	C	13	case
+tôi	P	11	obl
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 238
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nhưng, cụ không bao giờ tỏ ra mệt mỏi mà lúc nào cũng tươi vui, lạc quan.
+Thế	P	7	mark
+nhưng	C	7	mark
+,	CH	7	punct
+cụ	N	7	nsubj
+không	R	6	advmod:neg
+bao giờ	P	7	obl:tmod
+tỏ	V	0	root
+ra	V	7	compound:dir
+mệt mỏi	A	7	obj
+mà	C	13	mark
+lúc nào	P	13	nsubj
+cũng	R	13	advmod
+tươi vui	V	7	conj
+,	CH	15	punct
+lạc quan	A	13	conj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 239
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều này đã truyền cảm hứng cho rất nhiều bệnh nhân trong đó có tôi.
+Điều	N	4	nsubj
+này	P	1	det:pmod
+đã	R	4	advmod
+truyền cảm hứng	V	0	root
+cho	E	8	case
+rất	R	7	advmod
+nhiều	A	8	advmod:adj
+bệnh nhân	N	4	obj
+trong	E	10	case
+đó	P	8	obl
+có	V	4	advcl:objective
+tôi	P	11	obj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 240
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi nghĩ rằng, cụ đã 84 tuổi mà vẫn yêu đời, vững tin vượt qua bệnh tật, những người trẻ như mình phải học tập và cố gắng để sớm khỏi bệnh.
+Tôi	P	2	nsubj
+nghĩ	V	0	root
+rằng	C	2	mark
+,	CH	7	punct
+cụ	N	7	nsubj
+đã	R	7	advmod
+84	M	8	nummod
+tuổi	N	11	obj
+mà	C	11	mark
+vẫn	R	11	advmod
+yêu đời	V	2	conj
+,	CH	14	punct
+vững tin	N	14	nsubj
+vượt	V	2	conj
+qua	V	16	case
+bệnh tật	N	14	obl:comp
+,	CH	24	punct
+những	L	19	det
+người	Nc	24	nsubj
+trẻ	A	19	compound
+như	C	22	case
+mình	P	19	nmod
+phải	V	24	aux
+học tập	V	14	conj
+và	C	26	cc
+cố gắng	V	24	conj
+để	E	24	conj
+sớm	V	27	acomp
+khỏi	V	28	xcomp:adj
+bệnh	N	29	obj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 241
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ đó, tôi luôn tin vào bản thân, tin vào các y bác sĩ và quyết tâm vượt qua bệnh tật.
+Từ	E	2	case
+đó	P	6	obl
+,	CH	6	punct
+tôi	P	6	nsubj
+luôn	R	6	advmod
+tin	V	0	root
+vào	E	8	case
+bản thân	N	6	obl:comp
+,	CH	10	punct
+tin	V	6	conj
+vào	E	13	case
+các	L	13	det
+y bác sĩ	N	10	obl:comp
+và	C	15	cc
+quyết tâm	V	13	conj
+vượt	V	15	xcomp
+qua	V	18	case
+bệnh tật	N	16	obl:comp
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 242
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau đó, mỗi khi khó thở, Thắng cố gắng ngồi dậy, đứng lên, vẫy tay, hít thở để lấy oxy.
+Sau	N	10	obl:tmod
+đó	P	1	det:pmod
+,	CH	1	punct
+mỗi	L	5	det
+khi	N	11	obl:tmod
+khó	A	7	nsubj
+thở	V	5	acl:tmod
+,	CH	5	punct
+Thắng	Np	10	nsubj
+cố gắng	V	11	advmod:adj
+ngồi	V	0	root
+dậy	V	11	compound:dir
+,	CH	14	punct
+đứng	V	11	conj
+lên	V	14	compound:dir
+,	CH	17	punct
+vẫy tay	N	11	conj
+,	CH	19	punct
+hít	V	11	conj
+thở	V	19	compound
+để	E	22	mark:pcomp
+lấy	V	11	advcl:objective
+oxy	FW	22	obj
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 243
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh nghe theo lời bác sĩ cố gắng ăn dù lúc này không hề có cảm giác thèm ăn, mũi, miệng cũng không cảm nhận được mùi vị thức ăn.
+Anh	N	2	nsubj
+nghe	V	0	root
+theo	V	4	case
+lời	N	2	obl:comp
+bác sĩ	N	4	compound
+cố gắng	V	4	nmod
+ăn	V	6	xcomp:adj
+dù	E	13	mark
+lúc	N	13	obl:tmod
+này	P	9	det:pmod
+không	R	13	advmod:neg
+hề	T	13	advmod
+có	V	2	parataxis
+cảm giác	N	13	obj
+thèm	V	14	acl:subj
+ăn	V	15	obj
+,	CH	18	punct
+mũi	N	16	conj
+,	CH	20	punct
+miệng	N	16	conj
+cũng	R	23	advmod
+không	R	23	advmod:neg
+cảm nhận	V	2	conj
+được	R	23	advmod
+mùi vị	V	23	obj
+thức ăn	N	25	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 244
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thắng “cắt nhỏ” ngày dài lê thê ngập tràn nỗi sợ trong bệnh viện bằng cách gọi điện cho người thân, xem hài.
+Thắng	Np	3	nsubj
+“	CH	3	nsubj
+cắt	V	0	root
+nhỏ	A	3	amod
+”	CH	6	nummod
+ngày	N	3	obl:tmod
+dài	A	6	amod
+lê thê	N	7	compound:adj
+ngập	V	3	conj
+tràn	V	11	nummod
+nỗi	N	9	obj
+sợ	V	11	acl:subj
+trong	E	14	case
+bệnh viện	N	12	obl
+bằng	E	16	case
+cách	N	12	obl
+gọi	V	16	acl:subj
+điện	N	17	obj
+cho	E	20	case
+người thân	N	17	obl:iobj
+,	CH	22	punct
+xem	V	17	conj
+hài	A	22	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
+# date = 20210816
+# sent_id = 245
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh tự khiến mình bận rộn bằng những suy nghĩ tích cực, đọc sách qua mạng hoặc lên nhiều kế hoạch và hứa sẽ thực hiện sau ngày xuất viện.
+Anh	Nc	3	nsubj
+tự	P	3	advmod
+khiến	V	0	root
+mình	P	5	nsubj
+bận rộn	A	3	ccomp
+bằng	E	8	case
+những	L	8	det
+suy nghĩ	N	5	obl
+tích cực	A	8	amod
+,	CH	11	punct
+đọc	V	3	conj
+sách	N	11	obj
+qua	E	14	case
+mạng	N	11	obl:comp
+hoặc	C	16	cc
+lên	V	3	conj
+nhiều	A	18	advmod:adj
+kế hoạch	N	16	obj
+và	C	20	cc
+hứa	V	18	conj
+sẽ	R	22	advmod
+thực hiện	V	20	xcomp
+sau	N	24	case
+ngày	N	22	obl:tmod
+xuất viện	V	24	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 246
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đêm đáng nhớ của cô gái ở TP.HCM phải đưa bạn đi cấp cứu trong dịch
+Đêm	N	10	nsubj
+đáng	V	1	acl:subj
+nhớ	V	2	xcomp
+của	E	6	case
+cô	Nc	6	det:clf
+gái	N	1	nmod:poss
+ở	E	8	case
+TP.HCM	Np	6	obl
+phải	V	10	aux
+đưa	V	0	root
+bạn	N	10	obj
+đi	V	11	acl:subj
+cấp cứu	V	12	compound:svc
+trong	E	15	case
+dịch	N	10	obl
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 247
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đang trong thời gian giãn cách xã hội, H.T. chỉ có thẻ ngân hàng, không cầm tiền mặt.
+Đang	R	3	advmod
+trong	E	3	case
+thời gian	N	10	obl
+giãn	V	5	nummod
+cách	N	3	nmod
+xã hội	N	5	nmod
+,	CH	10	punct
+H.T.	Np	10	nsubj
+chỉ	R	10	advmod
+có	V	0	root
+thẻ	N	10	obj
+ngân hàng	N	11	nmod
+,	CH	15	punct
+không	R	15	advmod:neg
+cầm	V	10	conj
+tiền mặt	N	15	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 248
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Do đi vội, chiếc điện thoại của cô cũng gần hết pin.
+Do	C	2	mark
+đi	V	10	advcl
+vội	A	2	obj
+,	CH	10	punct
+chiếc	Nc	6	det:clf
+điện thoại	N	10	nsubj
+của	E	8	case
+cô	Nc	6	nmod:poss
+cũng	R	10	advmod
+gần	A	0	root
+hết	V	10	advmod
+pin	N	10	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 249
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 5 ngày đã qua, H.T. (TP Thủ Đức, TP.HCM) vẫn chưa thể quên cảm giác lo lắng và rối ren khi đưa bạn cùng nhà nhập viện cấp cứu lúc nửa đêm.
+5	M	2	nummod
+ngày	N	15	obl:tmod
+đã	R	4	advmod
+qua	V	2	acl:subj
+,	CH	15	punct
+H.T.	Np	15	nsubj
+(	CH	8	punct
+TP	Ny	6	appos:nmod
+Thủ Đức	Np	8	compound
+,	CH	11	punct
+TP.HCM	Np	8	appos:nmod
+)	CH	8	punct
+vẫn	R	15	advmod
+chưa thể	R	15	advmod
+quên	V	0	root
+cảm giác	N	15	obj
+lo lắng	V	16	amod
+và	C	19	cc
+rối ren	V	17	conj
+khi	N	19	obl:tmod
+đưa	V	20	acl:tmod
+bạn	N	21	obj
+cùng	A	24	case
+nhà	N	21	obl:with
+nhập viện	N	24	compound
+cấp cứu	V	24	compound
+lúc	N	21	obl:tmod
+nửa đêm	N	27	nmod
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 250
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo T., bạn cô xuất hiện một số triệu chứng nghiêm trọng như khó thở, tim đập nhanh trong đêm 10/8 sau khi tiêm vaccine Covid-19 vào buổi sáng cùng ngày.
+Theo	V	6	advcl
+T.	Np	1	obj
+,	CH	6	punct
+bạn	N	6	nsubj
+cô	Nc	4	nmod
+xuất hiện	V	0	root
+một số	L	8	det
+triệu chứng	N	6	obj
+nghiêm trọng	A	8	amod
+như	C	11	case
+khó	A	8	obl
+thở	V	11	compound
+,	CH	14	punct
+tim	N	6	conj
+đập	V	14	compound
+nhanh	A	14	amod
+trong	E	18	case
+đêm	N	14	obl
+10/8	V	18	compound
+sau	N	21	case
+khi	N	16	obl:tmod
+tiêm	V	21	acl:tmod
+vaccine	N	22	obj
+Covid-19	Np	23	nmod
+vào	E	26	case
+buổi	N	22	obl:comp
+sáng	N	26	compound
+cùng	A	29	advmod:adj
+ngày	N	26	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 251
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sự cố xảy ra đột ngột, T. loay hoay tìm mọi cách đưa bạn đến bệnh viện và những vấn đề phát sinh không thể lường trước bắt đầu xảy đến.
+Sự cố	N	2	nsubj
+xảy	V	8	advcl
+ra	V	2	compound:dir
+đột ngột	A	2	acomp
+,	CH	8	punct
+T.	Ny	7	nsubj
+loay hoay	V	8	nsubj
+tìm	V	0	root
+mọi	L	10	det
+cách	N	8	obj
+đưa	V	10	acl:subj
+bạn	N	11	obj
+đến	E	14	case
+bệnh viện	N	11	obl:comp
+và	C	17	cc
+những	L	17	det
+vấn đề	N	20	nsubj
+phát sinh	V	17	compound:vmod
+không thể	R	20	advmod:neg
+lường	V	11	conj
+trước	N	22	case
+bắt đầu	V	20	obl:comp
+xảy	V	22	acl:subj
+đến	V	23	compound:dir
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 252
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = T. cho biết ngay sau khi xác định tình trạng nguy hiểm của bạn mình, cô đã gọi điện đến số điện thoại được in trên giấy chứng nhận tiêm chủng để xin hỗ trợ hoặc hướng dẫn, tuy nhiên không thể liên lạc.
+T.	Np	2	nsubj
+cho	V	0	root
+biết	V	2	compound:svc
+ngay	T	5	discourse
+sau	N	16	obl:tmod
+khi	N	16	obl:tmod
+xác định	V	5	acl:tmod
+tình trạng	N	7	obj
+nguy hiểm	A	8	amod
+của	E	11	case
+bạn	N	8	nmod:poss
+mình	P	11	det:pmod
+,	CH	16	punct
+cô	Nc	16	nsubj
+đã	R	16	advmod
+gọi	V	2	parataxis
+điện	V	16	obj
+đến	E	19	case
+số	N	16	obl:comp
+điện thoại	N	19	nmod
+được	R	22	aux:pass
+in	V	19	acl:subj
+trên	E	24	case
+giấy	N	22	obl:comp
+chứng nhận	V	24	nmod
+tiêm chủng	N	25	compound
+để	E	28	mark:pcomp
+xin	V	16	advcl:objective
+hỗ trợ	V	28	xcomp
+hoặc	C	31	cc
+hướng dẫn	V	28	conj
+,	CH	35	punct
+tuy nhiên	C	35	mark
+không thể	R	35	advmod:neg
+liên lạc	V	2	conj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 253
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = T. cũng gọi điện đến các đường dây nóng y tế khác nhưng những số điện thoại này luôn trong tình trạng bận.
+T.	Np	3	nsubj
+cũng	R	3	advmod
+gọi	V	0	root
+điện	N	3	obj
+đến	E	7	case
+các	L	7	det
+đường dây nóng	N	3	obl:comp
+y tế	N	7	compound
+khác	A	7	amod
+nhưng	C	16	mark
+những	L	12	det
+số	N	16	nsubj
+điện thoại	N	12	nmod
+này	P	12	det:pmod
+luôn	R	17	advmod
+trong	E	17	case
+tình trạng	N	3	obl
+bận	A	17	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 254
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thậm chí, khi quyết định tự đưa bạn mình đến bệnh viện cấp cứu, T. còn không thể gọi được taxi.
+Thậm chí	R	16	advcl
+,	CH	16	punct
+khi	N	16	obl:tmod
+quyết định	V	6	nsubj
+tự	P	6	advmod
+đưa	V	3	acl:tmod
+bạn	N	6	obj
+mình	P	7	nmod
+đến	V	10	case
+bệnh viện	N	6	obl:comp
+cấp cứu	V	10	compound
+,	CH	16	punct
+T.	Ny	16	nsubj
+còn	R	16	advmod
+không thể	R	16	advmod:neg
+gọi	V	0	root
+được	R	16	advmod
+taxi	FW	16	obj
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 255
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô phải liên hệ và nhờ những người hàng xóm cùng chung cư của mình giúp đỡ, được đưa đến bệnh viện gần nhất.
+Cô	N	3	nsubj
+phải	V	3	aux
+liên hệ	V	0	root
+và	C	5	cc
+nhờ	V	3	conj
+những	L	8	det
+người	Nc	6	clf
+hàng xóm	N	5	obj
+cùng	A	8	acl:subj
+chung cư	N	9	obj
+của	E	12	case
+mình	P	8	nmod:poss
+giúp đỡ	V	12	acl:subj
+,	CH	16	punct
+được	V	16	aux:pass
+đưa	V	3	conj
+đến	E	18	case
+bệnh viện	N	16	obl:comp
+gần	A	18	acl:subj
+nhất	A	19	compound:adj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 256
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mình lo sợ quá, lên nhóm chat mạng xã hội của chung cư để cầu cứu.
+Mình	P	2	nsubj
+lo sợ	V	0	root
+quá	R	2	advmod
+,	CH	5	punct
+lên	V	2	conj
+nhóm	N	7	det:clf
+chat	V	5	obj
+mạng	N	7	nmod
+xã hội	N	8	compound
+của	E	11	case
+chung cư	N	7	nmod:poss
+để	E	13	mark:pcomp
+cầu cứu	V	2	advcl:objective
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 257
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = May mắn, chúng mình được một anh hàng xóm có ôtô xung phong đưa đến bệnh viện.
+May mắn	A	8	obl
+,	CH	1	punct
+chúng mình	P	1	conj
+được	R	11	aux:pass
+một	M	7	nummod
+anh	Nc	5	clf
+hàng xóm	N	8	obl:agent
+có	V	0	root
+ôtô	N	8	obj
+xung phong	V	9	acl:subj
+đưa	V	8	xcomp
+đến	E	13	case
+bệnh viện	N	11	obl:comp
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 258
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ nhà đến Bệnh viện Lê Văn Thịnh không xa nhưng nhiều cung đường đã bị lập hàng rào dây thép gai.
+Từ	E	2	case
+nhà	N	7	obl
+đến	E	4	case
+Bệnh viện	N	2	nmod
+Lê Văn Thịnh	Np	4	compound
+không	R	7	advmod:neg
+xa	A	0	root
+nhưng	C	14	mark
+nhiều	A	10	det
+cung	N	14	nsubj
+đường	N	10	compound
+đã	R	14	advmod
+bị	V	14	aux:pass
+lập	V	7	conj
+hàng rào	N	14	obj
+dây thép gai	N	15	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 259
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Anh hàng xóm phải đi vòng nhiều đường khác mới đến được bệnh viện", T. kể lại.
+"	CH	5	punct
+Anh	Nc	3	det:clf
+hàng xóm	N	5	nsubj
+phải	V	5	aux
+đi	V	0	root
+vòng	V	5	obj
+nhiều	A	8	det:clf
+đường	N	5	obj
+khác	A	8	amod
+mới	R	11	advmod
+đến	V	5	conj
+được	R	11	advmod
+bệnh viện	N	11	obj
+"	CH	5	punct
+,	CH	17	punct
+T.	Np	17	nsubj
+kể	V	5	parataxis
+lại	V	17	compound:svc
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 260
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại bệnh viện, bạn của T. được sơ cứu và xét nghiệm nhanh Covid-19 tại phòng chờ ngoài cổng.
+Tại	E	2	case
+bệnh viện	N	8	obl
+,	CH	8	punct
+bạn	N	8	nsubj
+của	E	6	case
+T.	Np	4	nmod:poss
+được	R	8	aux:pass
+sơ cứu	V	0	root
+và	C	10	cc
+xét nghiệm	V	8	conj
+nhanh	A	10	amod
+Covid-19	Np	11	obj
+tại	E	14	case
+phòng	N	10	obl
+chờ	V	14	acl:subj
+ngoài	E	17	case
+cổng	N	14	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 261
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi có kết quả âm tính nCoV, cô gái được chuyển đến Khoa Cấp cứu và sau đó tiếp tục lên Khoa Tim mạch với kết quả xét nghiệm PCR âm tính.
+Khi	N	10	obl:tmod
+có	V	1	acl:tmod
+kết quả	N	2	obj
+âm tính	V	3	nmod
+nCoV	A	3	nmod
+,	CH	10	punct
+cô	Nc	8	det:clf
+gái	N	10	nsubj:pass
+được	V	10	aux:pass
+chuyển	V	0	root
+đến	E	12	case
+Khoa	Np	10	obl:comp
+Cấp cứu	V	12	compound
+và	C	17	cc
+sau	N	17	obl:tmod
+đó	P	15	det:pmod
+tiếp tục	V	10	conj
+lên	V	17	compound:dir
+Khoa	Np	17	obj
+Tim mạch	V	19	compound
+với	E	22	case
+kết quả	N	17	obl:comp
+xét nghiệm	V	22	compound
+PCR	Np	23	compound
+âm tính	V	24	compound
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 262
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi bạn đã nhập viện, các sự cố khác lại xảy đến với T.
+Khi	N	10	obl:tmod
+bạn	N	4	nsubj
+đã	R	4	advmod
+nhập viện	V	1	acl:tmod
+,	CH	10	punct
+các	L	7	det
+sự cố	N	10	nsubj
+khác	A	7	amod
+lại	R	10	advmod
+xảy	V	0	root
+đến	V	10	compound:dir
+với	E	13	case
+T	Np	10	obl:comp
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 263
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước đó khi rời nhà, do quá vội vàng, T. chỉ kịp mang theo một chiếc điện thoại còn 26% pin, đã hết dung lượng 3G, một khẩu trang và một chiếc ví không có tiền mặt ngoài thẻ ngân hàng.
+Trước	N	2	case
+đó	P	14	obl:tmod
+khi	N	14	obl:tmod
+rời	V	3	acl:tmod
+nhà	N	4	obj
+,	CH	9	punct
+do	E	9	mark
+quá	R	9	advmod
+vội vàng	A	14	advcl
+,	CH	14	punct
+T.	Ny	14	nsubj
+chỉ	R	13	advmod
+kịp	A	14	advmod:adj
+mang	V	0	root
+theo	V	18	case
+một	M	18	nummod
+chiếc	Nc	16	clf
+điện thoại	N	14	obl:comp
+còn	R	22	advmod
+26	V	22	nummod
+%	V	22	nummod
+pin	N	18	conj
+,	CH	25	punct
+đã	R	25	advmod
+hết	V	14	conj
+dung lượng	N	27	nummod
+3G	A	25	obj
+,	CH	30	punct
+một	M	30	nummod
+khẩu trang	N	27	conj
+và	C	34	cc
+một	M	34	nummod
+chiếc	Nc	32	clf
+ví	N	27	conj
+không	R	36	advmod:neg
+có	V	34	acl:subj
+tiền mặt	N	36	obj
+ngoài	E	39	case
+thẻ	N	36	obl:comp
+ngân hàng	N	39	nmod
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 264
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không có tiền mặt, T. không thể chi trả các chi phí trong bệnh viện bởi hầu hết dịch vụ tại đây không chấp nhận thanh toán trực tuyến.
+Không	R	2	advmod:neg
+có	V	7	advcl
+tiền mặt	N	2	obj
+,	CH	7	punct
+T.	Ny	7	nsubj
+không thể	R	7	advmod
+chi trả	V	0	root
+các	L	9	det
+chi phí	N	7	obj
+trong	E	11	case
+bệnh viện	N	9	obl
+bởi	E	18	mark
+hầu hết	X	14	det
+dịch vụ	N	18	nsubj
+tại	E	16	case
+đây	P	14	obl
+không	R	18	advmod:neg
+chấp nhận	V	7	advcl
+thanh toán	V	18	obj
+trực tuyến	A	19	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 265
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Mình không mua được cháo cho bạn vì hàng ăn ở bệnh viện không nhận thanh toán qua thẻ hoặc chuyển khoản, cây ATM ngoài cổng bệnh viện cũng không rút được tiền.
+"	CH	4	punct
+Mình	P	4	nsubj
+không	R	4	advmod:neg
+mua	V	0	root
+được	R	4	advmod
+cháo	N	4	obj
+cho	E	8	case
+bạn	N	4	obl:comp
+vì	E	15	mark
+hàng	N	15	nsubj
+ăn	V	10	compound
+ở	E	13	case
+bệnh viện	N	11	obl:comp
+không	R	15	advmod:neg
+nhận	V	4	advcl
+thanh toán	V	15	obj
+qua	V	18	case
+thẻ	N	16	obl:comp
+hoặc	C	20	cc
+chuyển khoản	V	18	conj
+,	CH	29	punct
+cây	Nc	29	nsubj
+ATM	Np	22	nmod
+ngoài	E	25	case
+cổng	N	22	nmod
+bệnh viện	N	25	compound
+cũng	R	29	advmod
+không	R	29	advmod:neg
+rút	V	4	conj
+được	V	29	advmod
+tiền	N	29	obj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 266
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thậm chí, mình còn không có đủ 50.000 đồng tiền mặt để đặt cọc thẻ ra vào dành cho người nhà bệnh nhân.
+Thậm chí	R	6	cc
+,	CH	6	punct
+mình	P	6	nsubj
+còn	R	6	advmod
+không	R	6	advmod:neg
+có	V	0	root
+đủ	A	8	advmod:adj
+50.000	M	9	nummod
+đồng	Nu	6	obj
+tiền mặt	N	9	nmod
+để	E	12	mark:pcomp
+đặt cọc	V	6	advcl:objective
+thẻ	V	12	obj
+ra	V	12	advmod:dir
+vào	V	14	compound:dir
+dành	V	12	conj
+cho	E	18	case
+người nhà	N	16	obl:iobj
+bệnh nhân	N	18	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 267
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mình đã phải vay tiền của một chị là người nhà bệnh nhân, sau đó chuyển khoản trả chị.
+Mình	P	4	nsubj
+đã	R	4	advmod
+phải	V	4	aux
+vay	V	0	root
+tiền	N	4	obj
+của	E	8	case
+một	M	8	nummod
+chị	Nc	5	nmod:poss
+là	V	10	cop
+người nhà	N	8	acl:subj
+bệnh nhân	N	10	compound
+,	CH	16	punct
+sau	N	16	obl:tmod
+đó	P	13	det:pmod
+chuyển khoản	N	16	nsubj
+trả	V	4	conj
+chị	Nc	16	obj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 268
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, chiếc điện thoại iPhone của mình thông thường đi đâu cũng mượn được sạc, thế nhưng ở viện, ai cũng lắc đầu không có.
+Ngoài ra	C	12	mark
+,	CH	12	punct
+chiếc	Nc	4	det:clf
+điện thoại	N	12	nsubj
+iPhone	N	4	amod
+của	E	7	case
+mình	P	4	nmod:poss
+thông thường	A	9	advmod
+đi	V	12	advcl
+đâu	P	9	obj
+cũng	R	12	advmod
+mượn	V	0	root
+được	R	12	advmod
+sạc	V	12	obj
+,	CH	16	punct
+thế	P	23	cc
+nhưng	C	23	mark
+ở	E	19	case
+viện	N	23	obl
+,	CH	23	punct
+ai	P	23	nsubj
+cũng	R	23	advmod
+lắc đầu	V	12	conj
+không	R	25	advmod:neg
+có	V	23	xcomp
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 269
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Đến 3h rạng sáng, chị y tá mới tìm khắp nơi cho mình được chiếc sạc", T. chia sẻ.
+"	CH	11	punct
+Đến	V	4	case
+3	M	4	nummod
+h	N	11	obl:tmod
+rạng	A	6	nummod
+sáng	N	4	nmod
+,	CH	11	punct
+chị	Nc	9	det:clf
+y tá	N	11	nsubj
+mới	R	11	advmod
+tìm	V	0	root
+khắp	A	13	advmod:adj
+nơi	N	11	obj
+cho	E	15	case
+mình	P	11	obl:iobj
+được	V	18	aux
+chiếc	Nc	18	det:clf
+sạc	N	11	obj
+"	CH	11	punct
+,	CH	22	punct
+T.	Ny	22	nsubj
+chia sẻ	V	11	parataxis
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 270
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi tình trạng bạn đã trở nên ổn định hơn, T. xin phép y ta được về nhà lấy đồ.
+Khi	N	10	obl:tmod
+tình trạng	N	5	nsubj
+bạn	N	2	nmod
+đã	R	5	advmod
+trở nên	V	1	acl:tmod
+ổn định	A	5	acomp
+hơn	A	6	advmod
+,	CH	14	punct
+T.	Ny	10	nsubj
+xin phép	V	0	root
+y	P	14	nsubj
+ta	P	11	compound:pron
+được	R	14	aux:pass
+về	V	10	ccomp
+nhà	N	14	obj
+lấy	V	14	xcomp
+đồ	N	16	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 271
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, cô được khuyên là không nên về bởi mỗi lần ra vào bệnh viện đều phải xét nghiệm Covid-19 2 lần, quá trình di chuyển cũng khá phức tạp do không có sẵn phương tiện công cộng.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+cô	Nc	5	nsubj:pass
+được	R	5	aux:pass
+khuyên	V	0	root
+là	C	5	fixed
+không	R	5	advmod:neg
+nên	V	9	advmod
+về	V	5	ccomp
+bởi	E	12	case
+mỗi	L	12	det
+lần	N	17	obl
+ra vào	V	12	nmod
+bệnh viện	N	13	nmod
+đều	R	16	advmod
+phải	V	17	aux
+xét nghiệm	V	5	conj
+Covid-19	Np	17	flat:number
+2	M	20	nummod
+lần	N	17	nmod
+,	CH	26	punct
+quá trình	N	26	nsubj
+di chuyển	V	22	nmod
+cũng	R	26	advmod
+khá	R	26	advmod
+phức tạp	A	5	conj
+do	E	29	mark
+không	R	29	advmod:neg
+có	V	26	advcl
+sẵn	A	29	advmod:adj
+phương tiện	N	29	obj
+công cộng	A	31	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 272
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong phòng bệnh, T. và bạn mình đều nóng bức nhưng không có quần áo thay, khăn lau mồ hôi và xà bông rửa mặt.
+Trong	E	2	case
+phòng bệnh	N	9	obl
+,	CH	2	punct
+T.	Np	9	nsubj
+và	C	6	cc
+bạn	N	4	conj
+mình	P	6	nmod
+đều	R	9	advmod
+nóng bức	A	0	root
+nhưng	C	12	mark
+không	R	12	advmod:neg
+có	V	9	conj
+quần áo	N	12	obj
+thay	V	13	acl:subj
+,	CH	16	punct
+khăn lau	V	14	conj
+mồ hôi	N	16	nmod
+và	C	19	cc
+xà bông	V	13	conj
+rửa	V	19	acl:subj
+mặt	N	20	obj
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 273
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô gái cho biết đã thật sự thấy bất tiện, tuy nhiên vẫn phải giữ bình tĩnh, sẵn sàng tâm lý để ở lại bệnh viện nhiều ngày.
+Cô	Nc	2	det:clf
+gái	N	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+đã	R	7	advmod
+thật sự	R	7	advmod
+thấy	V	3	ccomp
+bất tiện	A	7	obj
+,	CH	13	punct
+tuy nhiên	C	13	mark
+vẫn	R	13	advmod
+phải	V	13	aux
+giữ	V	3	conj
+bình tĩnh	A	13	acomp
+,	CH	16	punct
+sẵn sàng	A	13	conj
+tâm lý	N	16	obj
+để	E	19	mark:pcomp
+ở	V	13	advcl:objective
+lại	V	19	advmod
+bệnh viện	N	19	obl:comp
+nhiều	A	23	det
+ngày	N	21	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 274
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = May mắn, sức khỏe của bạn T. sau đó đã tiến triển tốt.
+May mắn	A	10	nsubj
+,	CH	3	punct
+sức khỏe	N	1	conj
+của	E	5	case
+bạn	N	1	nmod:poss
+T.	Np	5	nmod
+sau	N	10	obl:tmod
+đó	P	7	det:pmod
+đã	R	10	advmod
+tiến triển	V	0	root
+tốt	A	10	acomp
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 275
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả 2 cô gái được ra về sau 20 tiếng nhập viện.
+Cả	P	4	det
+2	M	4	nummod
+cô	Nc	2	clf
+gái	N	6	nsubj:pass
+được	V	6	aux:pass
+ra	V	0	root
+về	E	6	compound:dir
+sau	N	10	case
+20	M	10	nummod
+tiếng	N	6	obl
+nhập viện	V	10	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 276
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một ngày đưa bạn đi cấp cứu giữa giai đoạn dịch bệnh căng thẳng tại TP.HCM là trải nghiệm không thể nào quên đối với T.
+Một	M	2	nummod
+ngày	N	14	nsubj:nn
+đưa	V	2	acl:subj
+bạn	N	3	obj
+đi	V	4	acl:subj
+cấp cứu	V	5	obj
+giữa	E	8	case
+giai đoạn	N	5	obl
+dịch bệnh	V	8	compound
+căng thẳng	A	8	compound
+tại	E	12	case
+TP.HCM	Np	5	obl
+là	V	14	cop
+trải nghiệm	N	0	root
+không thể nào	V	16	nummod
+quên	V	14	acl:subj
+đối với	E	18	case
+T	Np	16	obl
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 277
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo cô, những sự cố đến với mình phần lớn là do tâm lý rối ren, vội vàng, dẫn đến không thể chuẩn bị kỹ lưỡng.
+Theo	V	20	advcl
+cô	Nc	1	obj
+,	CH	1	punct
+những	L	5	det
+sự cố	N	6	nsubj
+đến	V	12	csubj
+với	E	8	case
+mình	P	6	obl:with
+phần lớn	L	12	advmod
+là	C	12	cop
+do	E	12	case
+tâm lý	N	20	nsubj
+rối ren	N	12	nmod
+,	CH	15	punct
+vội vàng	A	13	conj
+,	CH	17	punct
+dẫn	V	13	conj
+đến	E	17	xcomp
+không thể	R	20	advmod:neg
+chuẩn bị	V	0	root
+kỹ lưỡng	A	20	obj
+.	CH	20	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 278
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = T. cho rằng tình huống mình gặp phải có lẽ sẽ xảy đến với khá nhiều người khác.
+T.	Np	2	nsubj
+cho	V	0	root
+rằng	C	10	mark
+tình huống	N	6	nsubj
+mình	P	4	det:pmod
+gặp	V	2	ccomp
+phải	V	6	aux
+có lẽ	X	10	advmod
+sẽ	R	10	advmod
+xảy	V	2	ccomp
+đến	V	10	compound:dir
+với	E	15	case
+khá	R	15	advmod
+nhiều	A	15	advmod:adj
+người	Nc	10	obl
+khác	A	15	amod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 279
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Do vậy, cô muốn chia sẻ kinh nghiệm của mình để mọi người có thể tránh được bị động.
+Do vậy	C	5	mark
+,	CH	5	punct
+cô	Nc	5	nsubj
+muốn	V	5	aux
+chia sẻ	V	0	root
+kinh nghiệm	N	5	obj
+của	E	8	case
+mình	P	6	nmod:poss
+để	E	13	mark:pcomp
+mọi	L	11	det
+người	N	13	nsubj
+có thể	R	13	aux
+tránh	V	5	advcl:objective
+được	R	13	advmod
+bị động	V	13	obj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 280
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các bạn cần chuẩn bị một hành trang hoặc ít nhất là danh sách những đồ cần thiết phòng cho tình huống phải nhập viện bất ngờ.
+Các	L	2	det
+bạn	N	4	nsubj
+cần	V	4	aux
+chuẩn bị	V	0	root
+một	M	6	nummod
+hành trang	N	4	obj
+hoặc	C	10	cc
+ít nhất	X	10	advmod
+là	C	10	cop
+danh sách	N	6	conj
+những	L	12	det
+đồ	N	10	nmod
+cần thiết	A	12	nmod
+phòng	N	13	obj
+cho	E	16	case
+tình huống	N	12	obl
+phải	V	18	aux
+nhập viện	V	16	acl:subj
+bất ngờ	A	18	compound:adj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 281
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hành trang này bao gồm: tiền mặt, bảo hiểm y tế, 1-2 bộ quần áo sạch, sạc dự phòng, nhiều khẩu trang, kính chống giọt bắn, khăn mặt, khăn ướt có cồn, giấy vệ sinh, giấy tờ tùy thân, ít đồ ăn nhanh…
+Hành trang	N	3	nsubj
+này	P	1	det:pmod
+bao gồm	V	0	root
+:	CH	5	punct
+tiền mặt	N	3	parataxis
+,	CH	7	punct
+bảo hiểm	N	5	conj
+y tế	N	7	nmod
+,	CH	10	punct
+1-2	V	5	conj
+bộ	N	5	conj
+quần áo	N	5	conj
+sạch	A	12	amod
+,	CH	15	punct
+sạc	N	5	conj
+dự phòng	V	15	nmod
+,	CH	19	punct
+nhiều	A	19	det
+khẩu trang	N	5	conj
+,	CH	21	punct
+kính	N	5	conj
+chống	V	21	acl:subj
+giọt	N	24	punct
+bắn	V	5	conj
+,	CH	26	punct
+khăn mặt	N	5	conj
+,	CH	28	punct
+khăn	N	5	conj
+ướt	A	28	nmod
+có	V	5	conj
+cồn	N	30	obj
+,	CH	33	punct
+giấy vệ sinh	N	5	conj
+,	CH	35	punct
+giấy tờ	N	5	conj
+tùy thân	V	35	nmod
+,	CH	39	punct
+ít	A	39	advmod:adj
+đồ ăn	V	5	conj
+nhanh	A	39	amod
+…	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 282
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng mình đã phải thanh toán toàn bộ viện phí khá tốn kém bởi không mang theo bảo hiểm y tế.
+Chúng mình	P	4	nsubj
+đã	R	4	advmod
+phải	V	4	aux
+thanh toán	V	0	root
+toàn bộ	L	6	det
+viện phí	N	4	obj
+khá	R	8	advmod
+tốn kém	V	6	amod
+bởi	E	11	mark
+không	R	11	advmod:neg
+mang	V	4	advcl
+theo	V	11	compound:dir
+bảo hiểm	N	11	obj
+y tế	N	13	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 283
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tiếp đến, bạn cần phải xác định được cơ sở y tế gần nhất và phương tiện có thể giúp bạn di chuyển trong trường hợp cần cấp cứu.
+Tiếp	V	2	advmod
+đến	V	7	advcl
+,	CH	7	punct
+bạn	N	7	nsubj
+cần	V	7	aux
+phải	V	7	aux
+xác định	V	0	root
+được	R	7	advmod
+cơ sở	N	7	obj
+y tế	N	9	nmod
+gần	A	9	acl:subj
+nhất	A	11	advmod
+và	C	16	cc
+phương tiện	N	16	nsubj
+có thể	R	16	advmod
+giúp	V	7	conj
+bạn	N	16	obj
+di chuyển	V	17	nmod
+trong	E	20	case
+trường hợp	N	16	obl
+cần	V	22	aux
+cấp cứu	V	20	acl:subj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 284
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đừng để đến lúc gặp chuyện mới tìm kiếm những thông tin này.
+Đừng	R	2	advmod
+để	V	8	mark:pcomp
+đến	E	4	case
+lúc	N	2	obj
+gặp	V	4	acl
+chuyện	N	5	obj
+mới	R	6	amod
+tìm kiếm	V	0	root
+những	L	10	det
+thông tin	N	8	obj
+này	P	10	det:pmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 285
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mình tìm bệnh viện và người đưa đi bệnh viện chỉ trong khoảng 5-7 phút.
+Mình	P	2	nsubj
+tìm	V	0	root
+bệnh viện	N	2	obj
+và	C	5	cc
+người	N	6	nsubj
+đưa	V	2	conj
+đi	V	6	compound:dir
+bệnh viện	N	6	obj
+chỉ	R	13	advmod
+trong	E	13	case
+khoảng	N	13	advmod:adj
+5-7	M	13	nummod
+phút	Nu	6	obl
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 286
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Nhưng với một người đang khó thở như bạn mình, 5-7 phút này thực sự thử thách giới hạn chịu đựng", T. cho hay.
+"	CH	16	punct
+Nhưng	C	8	mark
+với	E	5	case
+một	M	5	nummod
+người	N	16	obl
+đang	R	7	advmod
+khó	A	5	acl:subj
+thở	V	7	xcomp
+như	C	10	case
+bạn	N	8	obl
+mình	P	10	nmod
+,	CH	19	punct
+5-7	N	14	nummod
+phút	N	16	nsubj
+này	P	14	det:pmod
+thực sự	A	0	root
+thử thách	V	16	obj
+giới hạn	N	19	nsubj
+chịu đựng	V	16	parataxis
+"	CH	16	punct
+,	CH	23	punct
+T.	Np	23	nsubj
+cho	V	19	parataxis
+hay	V	23	obj
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 287
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = T. cũng cho rằng những người sau khi tiêm vaccine Covid-19 không nên ở nhà một mình, đặc biệt trong bối cảnh dịch bệnh hiện tại.
+T.	Np	3	nsubj
+cũng	R	3	advmod
+cho	V	0	root
+rằng	C	14	mark
+những	L	6	det
+người	Nc	14	nsubj
+sau	N	8	case
+khi	N	6	obl:tmod
+tiêm	V	8	acl:tmod
+vaccine	N	9	obj
+Covid-19	Np	9	obj
+không	R	13	advmod:neg
+nên	V	14	aux
+ở	V	3	ccomp
+nhà	N	14	obl:comp
+một mình	X	15	compound
+,	CH	18	punct
+đặc biệt	A	3	conj
+trong	E	20	case
+bối cảnh	N	18	obl
+dịch bệnh	V	20	nmod
+hiện tại	N	21	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 288
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, mỗi người đều cần phải kết nối với hàng xóm hoặc tổ dân phố để có thể được hỗ trợ nhanh nhất khi nguy cấp.
+Ngoài ra	C	8	mark
+,	CH	1	punct
+mỗi	L	4	det
+người	N	8	nsubj
+đều	R	8	advmod
+cần	V	8	aux
+phải	V	8	aux
+kết nối	V	0	root
+với	E	10	case
+hàng xóm	N	8	obl:with
+hoặc	C	12	cc
+tổ dân phố	V	10	conj
+để	E	16	mark:pcomp
+có thể	R	16	aux
+được	V	16	aux:pass
+hỗ trợ	V	8	advcl:objective
+nhanh	A	16	acomp
+nhất	A	19	advmod
+khi	N	16	obl:tmod
+nguy cấp	V	19	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 289
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giai đoạn này, đa số chúng ta sống bằng tình làng nghĩa xóm.
+Giai đoạn	N	6	obl:tmod
+này	P	1	det:pmod
+,	CH	6	punct
+đa số	L	5	det
+chúng ta	P	6	nsubj
+sống	V	0	root
+bằng	E	8	case
+tình	N	6	obl
+làng	N	8	nmod
+nghĩa	N	9	nmod
+xóm	N	10	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gioi-tre/dem-dang-nho-cua-co-gai-o-tp-hcm-phai-dua-ban-di-cap-cuu-trong-dich-covid-19-766264.html
+# date = 20210816
+# sent_id = 290
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta cần giữ một thái độ bình tĩnh và tích cực trong mọi việc.
+Chúng ta	P	3	nsubj
+cần	V	3	aux
+giữ	V	0	root
+một	M	5	nummod
+thái độ	N	3	obj
+bình tĩnh	A	5	amod
+và	C	11	cc
+tích cực	A	11	advmod
+trong	E	11	case
+mọi	L	11	det
+việc	N	5	obl
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 291
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đi chợ mùa giãn cách: Bí quyết sắm đủ vẫn an toàn
+Đi	V	5	nsubj
+chợ	N	1	compound
+mùa	N	2	compound
+giãn	N	3	compound
+cách	V	0	root
+:	CH	11	punct
+Bí quyết	N	8	nsubj
+sắm	V	5	parataxis
+đủ	A	8	acomp
+vẫn	R	11	advmod
+an toàn	A	5	parataxis
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 292
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lên danh sách đồ cần mua, dùng app mua sắm, chọn giờ thấp điểm là những mẹo giúp người nội trợ sắm đủ cho cả nhà nhưng vẫn an toàn trước dịch bệnh.
+Lên	V	5	advcl
+danh sách	N	1	obj
+đồ	N	2	nmod
+cần	V	5	aux
+mua	V	0	root
+,	CH	7	punct
+dùng	V	5	conj
+app	N	7	obj
+mua sắm	V	8	amod
+,	CH	11	punct
+chọn	V	5	conj
+giờ	N	11	obj
+thấp	A	12	nmod
+điểm	N	13	obj
+là	V	18	cop
+những	L	17	det
+mẹo	N	11	obj
+giúp	V	17	acl:subj
+người	N	18	obj
+nội trợ	V	19	compound
+sắm	V	18	acl:subj
+đủ	A	21	acomp
+cho	E	25	case
+cả	P	25	discourse
+nhà	N	21	obl:comp
+nhưng	C	28	cc
+vẫn	R	28	advmod
+an toàn	A	21	conj
+trước	E	30	case
+dịch bệnh	N	28	obl
+.	CH	18	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 293
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dịch bệnh diễn biến phức tạp khiến cuộc sống của người dân thay đổi rất nhiều.
+Dịch bệnh	N	2	det:clf
+diễn biến	N	4	nsubj
+phức tạp	A	4	advmod:adj
+khiến	V	0	root
+cuộc sống	N	4	obj
+của	E	8	case
+người	Nc	8	det:clf
+dân	N	5	nmod:poss
+thay đổi	V	4	ccomp
+rất	R	11	advmod
+nhiều	A	9	acomp
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 294
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều thói quen, sở thích phải tạm gạt sang một bên.
+Nhiều	A	2	amod
+thói quen	N	6	nsubj
+,	CH	4	punct
+sở thích	N	6	nsubj
+phải	V	6	aux
+tạm	A	0	root
+gạt	V	6	obj
+sang	V	10	case
+một	M	10	nummod
+bên	N	6	obl
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 295
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chuyện đi chợ cũng không ngoại lệ.
+Chuyện	N	6	nsubj
+đi	V	1	acl:subj
+chợ	N	2	obj
+cũng	R	6	advmod
+không	R	6	advmod:neg
+ngoại lệ	N	0	root
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 296
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều tỉnh thành phát phiếu đi chợ trong mùa giãn cách.
+Nhiều	A	2	advmod:adj
+tỉnh thành	N	3	nsubj
+phát	V	0	root
+phiếu	N	3	obj
+đi	V	3	xcomp
+chợ	N	5	obj
+trong	E	8	case
+mùa	N	5	obl
+giãn	V	8	compound
+cách	N	8	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 297
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có khu chợ lại chăng dây, che nylon... để đảm bảo khoảng cách tối thiểu giữa người mua và người bán.
+Có	V	0	root
+khu	N	1	obj
+chợ	N	2	compound
+lại	R	5	advmod
+chăng dây	V	2	amod
+,	CH	7	punct
+che	V	5	conj
+nylon	N	7	obj
+...	CH	2	punct
+để	E	11	mark:pcomp
+đảm bảo	V	1	advcl:objective
+khoảng cách	N	11	obj
+tối thiểu	A	12	nmod
+giữa	E	15	case
+người	N	11	obl
+mua	V	15	compound:vmod
+và	C	18	cc
+người	N	15	conj
+bán	V	18	compound:vmod
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 298
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, mỗi bà nội trợ lại có một mẹo đi chợ riêng trong mùa dịch bệnh để vừa mua sắm đủ theo yêu cầu vừa giữ cho bản thân được an toàn.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+mỗi	L	5	det
+bà	Nc	3	clf
+nội trợ	V	7	nsubj
+lại	R	7	advmod
+có	V	0	root
+một	M	9	nummod
+mẹo	N	7	obj
+đi	V	9	acl:subj
+chợ	N	10	obj
+riêng	A	11	amod
+trong	E	14	case
+mùa	N	10	obl
+dịch bệnh	N	14	compound
+để	E	18	mark:pcomp
+vừa	R	18	advmod
+mua sắm	V	7	advcl:objective
+đủ	A	18	acomp
+theo	V	21	case
+yêu cầu	N	18	obl:comp
+vừa	R	23	advmod
+giữ	V	21	acl:subj
+cho	E	25	case
+bản thân	N	23	obl:comp
+được	V	27	aux
+an toàn	A	25	acl:subj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 299
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dù được phát phiếu đi chợ hay nằm trong "vùng xanh", bạn vẫn nên lập danh sách kỹ lưỡng, chỉn chu những mặt hàng cần mua.
+Dù	C	3	mark
+được	V	3	aux:pass
+phát	V	8	advcl
+phiếu	N	3	obj
+đi	V	3	xcomp
+chợ	N	5	obj
+hay	C	8	advmod
+nằm	V	0	root
+trong	E	11	case
+"	CH	11	punct
+vùng	N	8	obl
+xanh	A	11	amod
+"	CH	11	punct
+,	CH	18	punct
+bạn	N	18	nsubj
+vẫn	R	18	advmod
+nên	C	18	aux
+lập	V	8	conj
+danh sách	N	18	obj
+kỹ lưỡng	A	19	nmod
+,	CH	22	punct
+chỉn chu	V	18	conj
+những	L	24	det
+mặt hàng	N	22	obj
+cần	V	26	aux
+mua	V	24	acl:subj
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/doi-song/gia-dinh/di-cho-mua-gian-cach-bi-quyet-sam-du-van-an-toan-766181.html
+# date = 20210816
+# sent_id = 300
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ở thời điểm này, càng hạn chế ra ngoài, tiếp xúc với nhiều người càng tốt cho chính bạn và gia đình!
+Ở	E	2	case
+thời điểm	N	6	obl
+này	P	2	det:pmod
+,	CH	2	punct
+càng	R	6	advmod
+hạn chế	V	7	nsubj
+ra	V	0	root
+ngoài	N	7	obj
+,	CH	10	punct
+tiếp xúc	V	7	conj
+với	E	13	case
+nhiều	A	13	advmod:adj
+người	Nc	10	obl:with
+càng	R	15	advmod
+tốt	A	13	acl:subj
+cho	E	18	case
+chính	T	18	discourse
+bạn	N	15	obl:comp
+và	C	20	cc
+gia đình	N	18	conj
+!	CH	6	punct
