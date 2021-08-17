@@ -6325,34 +6325,6 @@ rời	V	2	conj
 
 # https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
 # date = 20210816
-# sent_id = 213
-# type = bronze
-# authors = underthesea.v1.3.2
-# text = Ba ngày sau, anh thấy đầu đau như búa bổ, sốt cao 38,5 - 39 độ và ngủ li bì.
-Ba	M	2	nummod
-ngày	N	6	obl:tmod
-sau	N	2	nmod
-,	CH	6	punct
-anh	Nc	6	nsubj
-thấy	V	0	root
-đầu	N	6	obj
-đau	V	7	amod
-như	C	10	case
-búa bổ	N	7	nmod
-,	CH	12	punct
-sốt	V	6	conj
-cao	A	12	obj
-38,5	N	17	nummod
--	CH	16	punct
-39	M	14	flat:number
-độ	N	12	nmod
-và	C	19	cc
-ngủ	V	6	conj
-li bì	V	19	compound
-.	CH	6	punct
-
-# https://vietnamnet.vn/vn/doi-song/gioi-tre/chang-trai-chien-thang-covid-19-nho-cu-ba-84-tuoi-765795.html
-# date = 20210816
 # sent_id = 214
 # type = bronze
 # authors = underthesea.v1.3.2
