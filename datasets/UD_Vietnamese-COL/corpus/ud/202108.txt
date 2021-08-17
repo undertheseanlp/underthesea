@@ -8642,3 +8642,2016 @@ bạn	N	15	obl:comp
 và	C	20	cc
 gia đình	N	18	conj
 !	CH	6	punct
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 301
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ca sĩ Phan Cẩm Vân - 41 tuổi, vợ nghệ sĩ Lê Hay - đột ngột qua đời tại nhà sau thời gian suy giảm sức khỏe, sáng 17/8.
+Ca sĩ	N	2	advmod
+Phan Cẩm Vân	Np	12	nummod
+-	CH	2	flat:number
+41	M	2	flat:number
+tuổi	N	2	appos:nmod
+,	CH	7	punct
+vợ	N	12	nsubj
+nghệ sĩ	N	7	nmod
+Lê Hay	Np	8	compound
+-	CH	11	punct
+đột ngột	A	9	compound
+qua đời	V	0	root
+tại	E	14	case
+nhà	N	11	obl
+sau	N	14	compound
+thời gian	N	12	obl
+suy giảm	V	16	compound
+sức khỏe	N	16	nmod
+,	CH	20	punct
+sáng	N	16	conj
+17/8	M	20	nmod
+.	CH	12	punct
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 302
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh đưa vợ lên trạm y tế phường nơi anh sống, xét nghiệm âm tính với nCoV, được chẩn đoán suy nhược và truyền nước biển.
+Anh	N	2	nsubj
+đưa	V	0	root
+vợ	N	2	obj
+lên	V	2	xcomp
+trạm	N	2	obl:comp
+y tế	N	5	compound
+phường	N	5	nmod
+nơi	N	7	nmod
+anh	Nc	10	nsubj
+sống	V	8	acl
+,	CH	12	punct
+xét nghiệm	V	2	conj
+âm tính	V	12	nmod
+với	E	15	case
+nCoV	N	13	obl:with
+,	CH	18	punct
+được	V	18	aux:pass
+chẩn đoán	V	2	conj
+suy nhược	N	18	nmod
+và	C	21	cc
+truyền	V	18	conj
+nước biển	N	21	obj
+.	CH	2	punct
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 303
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có giọng hát dày, kỹ thuật thanh nhạc tốt, chị từng theo đuổi dòng nhạc rock, là ca sĩ nhóm nhạc rock Wishband, từng biểu diễn ở một số tụ điểm.
+Có	V	0	root
+giọng	N	1	obj
+hát	V	2	nmod
+dày	A	3	amod
+,	CH	7	punct
+kỹ thuật	N	7	nsubj
+thanh nhạc	V	1	conj
+tốt	A	7	amod
+,	CH	12	punct
+chị	Nc	12	nsubj
+từng	R	12	advmod
+theo đuổi	V	1	conj
+dòng	N	12	nmod
+nhạc	N	13	nmod
+rock	A	14	compound
+,	CH	19	punct
+là	V	19	cop
+ca sĩ	N	19	nummod
+nhóm	N	12	conj
+nhạc	N	19	nmod
+rock	N	22	punct
+Wishband	Np	20	compound
+,	CH	25	punct
+từng	R	25	advmod
+biểu diễn	V	19	acl:subj
+ở	E	28	case
+một số	L	28	det
+tụ điểm	N	25	obl:comp
+.	CH	1	punct
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 304
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các ông Nguyễn Văn Tứ, Nguyễn Thành Tài, Trần Vĩnh Tuyến, Trần Trọng Tuấn bị Ban Bí thư kỷ luật bằng hình thức khai trừ Đảng, ngày 17/8.
+Các	L	2	det
+ông	Nc	11	nsubj
+Nguyễn Văn Tứ	Np	11	nsubj
+,	CH	5	punct
+Nguyễn Thành Tài	Np	3	conj
+,	CH	7	punct
+Trần Vĩnh Tuyến	Np	3	conj
+,	CH	9	punct
+Trần Trọng Tuấn	Np	3	conj
+bị	V	11	aux
+Ban Bí thư	V	0	root
+kỷ luật	N	11	obj
+bằng	E	14	case
+hình thức	N	11	obl
+khai trừ	N	14	nmod
+Đảng	Np	15	nmod
+,	CH	18	punct
+ngày	N	14	conj
+17/8	M	18	nmod
+.	CH	11	punct
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 305
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ban Bí thư xác định, Ban cán sự đảng UBND TP Hà Nội nhiệm kỳ 2016-2021 đã vi phạm nguyên tắc tổ chức và hoạt động của Đảng.
+Ban Bí thư	N	2	det:clf
+xác định	V	15	obl
+,	CH	15	punct
+Ban	N	15	nsubj
+cán sự	V	4	nmod
+đảng	N	5	nmod
+UBND	Ny	6	nmod
+TP	Ny	6	nmod
+Hà Nội	Np	8	compound
+nhiệm kỳ	N	8	compound
+2016	M	10	compound
+-	CH	13	punct
+2021	N	11	conj
+đã	R	15	advmod
+vi phạm	V	0	root
+nguyên tắc	N	15	obj
+tổ chức	V	16	nmod
+và	C	19	cc
+hoạt động	V	16	conj
+của	E	21	case
+Đảng	Np	19	nmod:poss
+.	CH	15	punct
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 306
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Tứ được xác định đã vi phạm quy định của Đảng về chức năng, nhiệm vụ của Đảng bộ, vi phạm Quy chế làm việc của Đảng uỷ cơ quan và của Sở Kế hoạch và Đầu tư; làm trái quy định về đấu thầu; nhận tiền biếu của nhà thầu; thiếu kiểm tra, giám sát, để các nhà thầu liên quan vi phạm Luật Đấu thầu.
+Ông	Nc	2	det:clf
+Tứ	Np	4	nsubj:pass
+được	V	4	aux:pass
+xác định	V	0	root
+đã	R	6	advmod
+vi phạm	V	4	xcomp
+quy định	N	6	obj
+của	E	9	case
+Đảng	Np	7	nmod:poss
+về	E	11	case
+chức năng	N	9	nmod
+,	CH	13	punct
+nhiệm vụ	N	9	conj
+của	E	15	case
+Đảng bộ	N	13	nmod:poss
+,	CH	18	punct
+vi phạm	V	18	nummod
+Quy chế	N	13	conj
+làm việc	V	18	compound:vmod
+của	E	22	case
+Đảng uỷ	N	22	det:clf
+cơ quan	N	18	nmod:poss
+và	C	25	cc
+của	E	25	case
+Sở	N	9	conj
+Kế hoạch	N	25	nmod
+và	C	28	cc
+Đầu tư	V	26	conj
+;	CH	30	punct
+làm	V	4	conj
+trái	N	30	obj
+quy định	N	31	compound
+về	V	34	case
+đấu thầu	V	30	obl:comp
+;	CH	36	punct
+nhận	V	30	conj
+tiền	N	36	obj
+biếu	V	37	compound:vmod
+của	E	40	case
+nhà thầu	N	37	nmod:poss
+;	CH	42	punct
+thiếu	V	30	conj
+kiểm tra	V	42	obj
+,	CH	45	punct
+giám sát	V	42	conj
+,	CH	47	punct
+để	E	4	conj
+các	L	49	det
+nhà thầu	N	47	obj
+liên quan	V	49	acl:subj
+vi phạm Luật	V	50	obj
+Đấu thầu	V	51	compound
+.	CH	4	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 307
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việt Nam thành thị trường tiêu thụ mỳ ăn liền lớn thứ ba thế giới còn các doanh nghiệp sản xuất liên tục có kết quả kinh doanh tích cực.
+Việt Nam	Np	3	nsubj
+thành thị trường	V	1	compound
+tiêu thụ	V	0	root
+mỳ	N	3	obj
+ăn liền	N	3	obj
+lớn	A	5	amod
+thứ	N	6	nmod
+ba	M	7	nummod
+thế giới	N	7	nmod
+còn	R	15	cc
+các	L	12	det
+doanh nghiệp	N	15	nsubj
+sản xuất	V	12	nmod
+liên tục	A	15	advmod:adj
+có	V	3	conj
+kết quả	N	15	obj
+kinh doanh	V	16	acl:subj
+tích cực	A	17	obj
+.	CH	3	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 308
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo số liệu của Hiệp hội mỳ ăn liền Thế giới (WINA), Việt Nam trở thành thị trường tiêu thụ mỳ gói lớn thứ ba toàn cầu với hơn 7 tỷ gói mỳ ăn liền trong năm 2020.
+Theo	V	2	case
+số liệu	N	13	obl
+của	E	4	case
+Hiệp hội	N	2	nmod:poss
+mỳ	N	4	compound
+ăn liền	N	5	compound
+Thế giới	N	4	compound
+(	CH	9	punct
+WINA	Np	5	appos:nmod
+)	CH	9	punct
+,	CH	13	punct
+Việt Nam	Np	13	nsubj
+trở thành	V	0	root
+thị trường	N	13	obj
+tiêu thụ	V	14	compound
+mỳ	N	15	compound
+gói	N	15	compound
+lớn	A	17	amod
+thứ	N	18	obj
+ba	M	19	nummod
+toàn cầu	N	19	nmod
+với	E	25	case
+hơn	A	24	advmod:adj
+7	M	25	nummod
+tỷ	N	13	obl
+gói	V	25	nmod
+mỳ	N	26	nmod
+ăn liền	V	27	compound
+trong	E	30	case
+năm	N	25	nmod
+2020	M	30	compound
+.	CH	13	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 309
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mức trung bình trên cao gấp rưỡi Thái Lan, Nhật Bản, Indonesia, Philippines và gấp đôi Trung Quốc, gấp ba so với Mỹ.
+Mức	N	5	nsubj
+trung bình	A	1	amod
+trên	E	1	nmod
+cao	A	1	nmod
+gấp	V	0	root
+rưỡi	N	7	nummod
+Thái Lan	Np	5	obj
+,	CH	9	punct
+Nhật Bản	Np	7	conj
+,	CH	11	punct
+Indonesia	Np	7	conj
+,	CH	13	punct
+Philippines	Np	7	conj
+và	C	15	cc
+gấp	V	5	conj
+đôi	M	17	nummod
+Trung Quốc	Np	15	obj
+,	CH	19	punct
+gấp	V	5	conj
+ba	M	21	nummod
+so	V	19	obj
+với	E	23	case
+Mỹ	Np	21	nmod
+.	CH	5	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 310
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việt Nam hiện có khoảng 50 công ty sản xuất mỳ ăn liền, bao gồm các doanh nghiệp trong và ngoài nước.
+Việt Nam	N	3	nsubj
+hiện	N	3	obl:tmod
+có	V	0	root
+khoảng	N	6	advmod:adj
+50	M	6	nummod
+công ty	N	3	obj
+sản xuất	V	6	nmod
+mỳ	N	6	nmod
+ăn liền	N	6	nmod
+,	CH	11	punct
+bao gồm	V	3	conj
+các	L	13	det
+doanh nghiệp	N	11	obj
+trong	N	17	case
+và	C	16	cc
+ngoài	E	13	conj
+nước	N	16	nmod
+.	CH	3	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 311
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện nay, phở ăn liền và mỳ ăn liền sản xuất tại Việt Nam có mặt tại hơn 40 thị trường.
+Hiện nay	N	11	obl:tmod
+,	CH	11	punct
+phở	N	11	nsubj
+ăn liền	V	3	nmod
+và	C	6	cc
+mỳ	V	4	conj
+ăn liền	N	6	compound
+sản xuất	V	7	compound
+tại	E	10	case
+Việt Nam	Np	7	obl
+có mặt	V	0	root
+tại	E	15	case
+hơn	A	15	advmod:adj
+40	M	15	nummod
+thị trường	N	11	obl
+.	CH	11	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 312
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, doanh số mỳ Omachi tăng 32% so với năm 2019, chiếm lĩnh phân khúc cao cấp với 45% thị phần.
+Trong	E	2	case
+đó	P	7	obl
+,	CH	7	punct
+doanh số	N	7	nsubj
+mỳ	N	7	nsubj
+Omachi	Np	5	compound
+tăng	V	0	root
+32	M	10	nummod
+%	N	8	flat:number
+so	V	7	obj
+với	E	12	case
+năm	N	10	obl
+2019	M	12	compound
+,	CH	15	punct
+chiếm lĩnh	V	7	conj
+phân	N	15	nmod
+khúc	N	16	compound
+cao cấp	A	16	compound
+với	E	20	case
+45	M	16	nmod
+%	N	22	nummod
+thị phần	V	20	nmod
+.	CH	7	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 313
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dòng mỳ ăn liền này cũng trở thành nhãn hiệu bán chạy nhất tại kênh siêu thị và mỳ tô bán chạy nhất cả nước.
+Dòng	N	6	nsubj
+mỳ	N	1	compound
+ăn liền	N	1	nmod
+này	P	1	det:pmod
+cũng	R	6	advmod
+trở thành	V	0	root
+nhãn hiệu	N	6	obj
+bán chạy	A	7	acl:subj
+nhất	R	8	advmod
+tại	E	11	case
+kênh	N	8	obl
+siêu thị	N	11	nmod
+và	C	15	cc
+mỳ	V	15	det
+tô	N	11	conj
+bán chạy	A	15	acl:subj
+nhất	R	16	advmod
+cả	P	19	det
+nước	N	16	obj
+.	CH	6	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 314
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kết quả kinh doanh tích cực chủ yếu được thúc đẩy bởi nhu cầu cao hơn từ người tiêu dùng gia tăng dữ trự thực phẩm trước bối cảnh dịch bệnh trong tháng 6, kéo dài sang tháng 7.
+Kết quả	N	6	nsubj:pass
+kinh doanh	V	1	nmod
+tích cực	A	2	compound
+chủ yếu	A	6	advmod:adj
+được	V	6	aux:pass
+thúc đẩy	V	0	root
+bởi	E	8	case
+nhu cầu	N	6	obl
+cao	A	8	amod
+hơn	A	9	advmod:adj
+từ	E	12	case
+người	N	9	obl
+tiêu dùng	V	12	compound
+gia tăng	V	12	acl:subj
+dữ	A	14	obj
+trự	V	14	obj
+thực phẩm	N	14	obj
+trước	E	19	case
+bối cảnh	N	14	obl
+dịch bệnh	V	19	compound
+trong	E	22	case
+tháng	N	19	nmod
+6	M	22	nummod
+,	CH	25	punct
+kéo dài	V	19	conj
+sang	V	25	acl:subj
+tháng	N	25	nmod
+7	M	27	nummod
+.	CH	6	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 315
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thị trường mỳ ăn liền Việt Nam còn có Acecook, "ông lớn" đến từ Nhật Bản.
+Thị trường	N	6	nsubj
+mỳ	V	1	compound
+ăn liền	N	2	nmod
+Việt Nam	Np	1	nmod
+còn	R	6	advmod
+có	V	0	root
+Acecook	Np	6	obj
+,	CH	13	punct
+"	CH	10	punct
+ông	Nc	13	nsubj
+lớn	A	10	nmod
+"	CH	10	punct
+đến	V	6	parataxis
+từ	E	15	case
+Nhật Bản	Np	13	obl:comp
+.	CH	6	punct
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 316
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Acecook tuyên bố trên website rằng đang chiếm khoảng một nửa thị phần Việt Nam sau gần 30 năm gia nhập.
+Acecook	Np	2	nsubj
+tuyên bố	V	0	root
+trên	E	4	case
+website	FW	2	obl
+rằng	C	7	mark
+đang	R	7	advmod
+chiếm	V	2	conj
+khoảng	A	7	obj
+một nửa	L	10	nummod
+thị phần	N	7	obj
+Việt Nam	Np	10	compound
+sau	N	15	case
+gần	A	15	advmod:adj
+30	M	15	nummod
+năm	N	7	obl:tmod
+gia nhập	M	15	nmod
+.	CH	7	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 317
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kinh tế trưởng VinaCapital cho rằng chứng khoán vốn không phải ưu tiên của người Việt, nhưng đã lên ngôi khi không có giải pháp đầu tư hấp dẫn hơn.
+Kinh tế	N	4	nsubj
+trưởng	N	1	compound
+VinaCapital	Np	1	compound
+cho	V	0	root
+rằng	C	9	mark
+chứng khoán	N	9	nsubj
+vốn	R	9	nsubj
+không	R	9	advmod:neg
+phải	A	4	ccomp
+ưu tiên	V	9	acomp
+của	E	12	case
+người	Nc	9	obl:comp
+Việt	Np	12	compound
+,	CH	17	punct
+nhưng	C	17	mark
+đã	R	17	advmod
+lên ngôi	V	4	conj
+khi	N	17	obl:tmod
+không	R	20	advmod:neg
+có	V	18	acl:tmod
+giải pháp	N	20	obj
+đầu tư	V	21	nmod
+hấp dẫn	V	21	acl:subj
+hơn	A	23	advmod
+.	CH	4	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 318
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Michael Kokalari, Chuyên gia Kinh tế trưởng của quỹ đầu tư VinaCapital, trong báo cáo mới công bố nhận định sự sôi động của thị trường chứng khoán Việt Nam đã phát triển vượt bậc trong những năm gần đây.
+Ông	Nc	2	det:clf
+Michael Kokalari	Np	15	nsubj
+,	CH	4	punct
+Chuyên gia	N	2	appos
+Kinh tế	N	4	nmod
+trưởng	N	5	compound
+của	E	8	case
+quỹ	N	5	nmod:poss
+đầu tư	V	8	nmod
+VinaCapital	Np	9	compound
+,	CH	13	punct
+trong	E	13	case
+báo cáo	V	15	obl
+mới	R	15	advmod
+công bố	V	0	root
+nhận định	V	15	obj
+sự	N	16	nmod
+sôi động	V	17	compound:vmod
+của	E	20	case
+thị trường chứng khoán	N	17	nmod:poss
+Việt Nam	Np	20	compound
+đã	R	23	advmod
+phát triển	V	21	acl:subj
+vượt bậc	V	23	obj
+trong	E	27	case
+những	L	27	det
+năm	N	23	obl:tmod
+gần	A	27	amod
+đây	P	27	nmod
+.	CH	15	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 319
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Số lượng nhà đầu tư tham gia thị trường cũng biến động mạnh từ năm ngoái đến nay.
+Số lượng	N	6	nsubj
+nhà đầu tư	N	1	nmod
+tham gia	V	1	acl:subj
+thị trường	N	3	obj
+cũng	R	6	advmod
+biến động	V	0	root
+mạnh	A	6	advmod:adj
+từ	E	9	case
+năm ngoái	N	6	obl:tmod
+đến	E	11	case
+nay	P	9	nmod
+.	CH	6	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 320
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện tượng này có một phần nguyên nhân từ việc giảm khoảng 1,5% lãi suất tiền gửi ngân hàng kỳ hạn một năm, dẫn đến người dân phải tìm kiếm các kênh đầu tư thay thế khi tiền gửi đáo hạn.
+Hiện tượng	N	3	nsubj
+này	P	1	det:pmod
+có	V	0	root
+một	M	6	nummod
+phần	N	4	clf
+nguyên nhân	N	3	obj
+từ	E	8	case
+việc	N	6	nmod
+giảm	V	8	acl:subj
+khoảng	N	9	obj
+1,5	M	13	nummod
+%	N	11	flat:number
+lãi suất	V	10	nmod
+tiền	N	13	nmod
+gửi	V	13	acl:subj
+ngân hàng	N	15	obj
+kỳ hạn	V	15	xcomp
+một	M	19	nummod
+năm	N	17	nmod
+,	CH	21	punct
+dẫn	V	3	conj
+đến	E	23	case
+người	N	21	obl:comp
+dân	N	23	compound
+phải	V	26	aux
+tìm kiếm	V	21	xcomp
+các	L	28	det
+kênh	N	26	obj
+đầu tư	V	28	compound
+thay thế	V	28	nmod
+khi	N	26	obl:tmod
+tiền	N	31	nmod
+gửi	V	32	acl:subj
+đáo	N	33	obj
+hạn	N	33	obj
+.	CH	3	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 321
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo chuyên gia này, nhà đầu tư Việt Nam vốn ưu tiên đầu tư vào bất động sản, vàng rồi mới đến chứng khoán.
+Theo	V	2	case
+chuyên gia	N	9	obl
+này	P	2	det:pmod
+,	CH	9	punct
+nhà đầu tư	N	9	nsubj
+Việt Nam	Np	5	nmod
+vốn	R	9	advmod
+ưu tiên	V	9	advmod
+đầu tư	V	0	root
+vào	E	11	case
+bất động sản	N	9	obl:comp
+,	CH	13	punct
+vàng	N	11	conj
+rồi	C	16	cc
+mới	R	16	advmod
+đến	V	9	conj
+chứng khoán	V	16	obj
+.	CH	9	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 322
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chuyên gia này cho rằng, tỷ lệ tham gia của nhà đầu tư cá nhân còn rất thấp so với quy mô dân số nhưng sự hưng phấn của họ là tín hiệu tích cực về xu hướng phát triển của thị trường chứng khoán Việt Nam.
+Chuyên gia	N	3	nsubj
+này	P	1	det:pmod
+cho	V	0	root
+rằng	C	3	compound
+,	CH	13	punct
+tỷ lệ	N	13	nsubj
+tham gia	V	6	amod
+của	E	9	case
+nhà đầu tư	N	6	nmod:poss
+cá nhân	N	9	compound
+còn	R	13	advmod
+rất	R	13	advmod
+thấp	A	3	conj
+so	V	13	xcomp
+với	E	17	case
+quy mô	M	17	nummod
+dân số	N	14	obl:with
+nhưng	C	24	mark
+sự	N	24	nsubj
+hưng phấn	V	19	acl:tonp
+của	E	22	case
+họ	P	19	nmod:poss
+là	V	24	cop
+tín hiệu	N	3	conj
+tích cực	A	24	amod
+về	E	27	case
+xu hướng	N	24	obl:comp
+phát triển	V	27	amod
+của	E	30	case
+thị trường chứng khoán	N	27	nmod:poss
+Việt Nam	Np	30	compound
+.	CH	3	punct
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 323
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông dự đoán làn sóng nhà đầu tư cá nhân vào thị trường chứng khoán còn tiếp diễn trong những thập kỷ tới.
+Ông	Nc	2	det:clf
+dự đoán	V	3	nsubj
+làn sóng	N	0	root
+nhà đầu tư	V	2	nmod
+cá nhân	N	4	nmod
+vào	E	7	case
+thị trường chứng khoán	N	5	obl
+còn	R	7	acl:subj
+tiếp diễn	V	8	obj
+trong	E	12	case
+những	L	12	det
+thập kỷ	N	9	obl
+tới	V	12	amod
+.	CH	3	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 324
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỹ đã chi hơn 8 tỷ USD trong hơn 15 năm để chặn Taliban kiếm lời từ buôn thuốc phiện và heroin nhưng chiến lược đó đã thất bại.
+Mỹ	Np	3	nsubj
+đã	R	3	advmod
+chi	V	0	root
+hơn	A	7	advmod:adj
+8	M	7	nummod
+tỷ	M	7	nummod
+USD	Nu	3	obj
+trong	E	11	case
+hơn	A	11	advmod:adj
+15	M	11	nummod
+năm	N	3	obl:tmod
+để	E	13	mark:pcomp
+chặn	V	3	advcl:objective
+Taliban	Np	13	obj
+kiếm	V	14	acl:subj
+lời	N	15	obj
+từ	E	18	case
+buôn	V	15	obl
+thuốc phiện	N	18	nmod
+và	C	21	cc
+heroin	FW	18	conj
+nhưng	C	26	mark
+chiến lược	N	26	nsubj
+đó	P	23	det:pmod
+đã	R	26	advmod
+thất bại	V	3	conj
+.	CH	3	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 325
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi Mỹ kết thúc cuộc chiến dài nhất của họ, Afghanistan vẫn là nhà cung cấp thuốc phiện bất hợp pháp lớn nhất thế giới và có thể vẫn duy trì như vậy khi Taliban kiểm soát đất nước.
+Khi	N	13	obl:tmod
+Mỹ	Np	3	nsubj
+kết thúc	V	1	acl:tmod
+cuộc chiến	N	3	obj
+dài	A	4	acl:subj
+nhất	R	5	advmod
+của	E	8	case
+họ	P	4	nmod:poss
+,	CH	13	punct
+Afghanistan	Np	13	nsubj
+vẫn	R	12	advmod
+là	V	13	cop
+nhà	N	0	root
+cung cấp	V	13	acl:subj
+thuốc phiện	N	14	obj
+bất hợp pháp	A	15	amod
+lớn	A	16	amod
+nhất	A	17	advmod
+thế giới	N	17	obl:adj
+và	C	23	cc
+có thể	R	23	advmod
+vẫn	R	23	advmod
+duy trì	V	14	conj
+như vậy	X	23	obj
+khi	N	23	obl:tmod
+Taliban	Np	25	nmod
+kiểm soát	V	26	nmod
+đất nước	N	27	nmod
+.	CH	13	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 326
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một số quan chức Liên Hợp Quốc và Mỹ lo ngại việc Afghanistan rơi vào hỗn loạn sẽ tạo điều kiện để việc xuất thuốc phiện phát triển hơn, trở thành lợi ích tiềm năng cho Taliban.
+Một số	L	2	det
+quan chức	N	13	nsubj
+Liên Hợp Quốc	Np	2	nmod
+và	C	5	cc
+Mỹ	Np	2	conj
+lo ngại	V	7	case
+việc	N	2	conj
+Afghanistan	Np	7	nmod
+rơi	V	7	acl:subj
+vào	E	9	compound:dir
+hỗn loạn	N	9	obl:comp
+sẽ	R	13	advmod
+tạo	V	0	root
+điều kiện	N	13	obj
+để	E	16	mark:pcomp
+việc	N	13	advcl:objective
+xuất	V	16	acl:subj
+thuốc phiện	N	17	obj
+phát triển	V	17	acomp
+hơn	A	19	advmod
+,	CH	22	punct
+trở thành	V	17	conj
+lợi ích	N	22	obj
+tiềm năng	N	23	compound
+cho	E	26	case
+Taliban	Np	22	obl:iobj
+.	CH	13	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 327
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các chuyên gia cho biết bất chấp những mối đe dọa từ hoạt động kinh doanh ma túy của Afghanistan, Mỹ và các quốc gia khác hiếm khi đề cập công khai vấn đề này.
+Các	L	2	det
+chuyên gia	N	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+bất chấp	V	7	case
+những	L	7	det
+mối	N	3	obj
+đe dọa	V	7	compound:vmod
+từ	E	10	case
+hoạt động	V	7	nmod
+kinh doanh	V	10	nmod
+ma túy	N	11	compound
+của	E	14	case
+Afghanistan	Np	10	nmod:poss
+,	CH	16	punct
+Mỹ	Np	14	conj
+và	C	19	cc
+các	L	19	det
+quốc gia	N	14	conj
+khác	A	19	amod
+hiếm	A	19	amod
+khi	N	21	obl:tmod
+đề cập	V	22	acl:subj
+công khai	A	23	acomp
+vấn đề	N	23	obj
+này	P	25	det:pmod
+.	CH	3	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 328
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo ước tính của UNODC, Afghanistan chiếm hơn 80% nguồn cung thuốc phiện và heroin toàn cầu.
+Theo	V	7	advcl
+ước tính	V	1	obj
+của	E	4	case
+UNODC	Np	2	nmod:poss
+,	CH	7	punct
+Afghanistan	Np	7	nsubj
+chiếm	V	0	root
+hơn	A	10	advmod:adj
+80	M	11	nummod
+%	N	9	flat:number
+nguồn	N	7	obj
+cung	N	11	nmod
+thuốc phiện	V	12	compound
+và	C	15	cc
+heroin	FW	12	conj
+toàn cầu	N	15	compound
+.	CH	7	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 329
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, ngay cả trong thời kỳ hạn hán và thiếu lúa mì, khi giá lúa mì tăng vọt, nông dân Afghanistan vẫn trồng cây thuốc phiện và chiết xuất nhựa cây để tinh chế thành morphin và heroin.
+Tuy nhiên	C	20	mark
+,	CH	20	punct
+ngay	T	6	discourse
+cả	P	6	discourse
+trong	E	6	case
+thời kỳ hạn hán	N	20	obl
+và	C	8	cc
+thiếu	V	6	conj
+lúa mì	N	8	compound
+,	CH	11	punct
+khi	N	20	obl:tmod
+giá	N	14	nsubj
+lúa mì	N	12	compound
+tăng	V	11	acl:tmod
+vọt	V	14	obj
+,	CH	20	punct
+nông dân	N	20	nsubj
+Afghanistan	Np	17	compound
+vẫn	R	20	advmod
+trồng	V	0	root
+cây thuốc phiện	N	20	obj
+và	C	23	cc
+chiết xuất	V	20	conj
+nhựa	N	23	obj
+cây	N	24	nmod
+để	E	27	mark:pcomp
+tinh chế	V	20	advcl:objective
+thành	V	27	obj
+morphin	N	28	compound
+và	C	31	cc
+heroin	FW	29	conj
+.	CH	20	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 330
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong những năm gần đây, nhiều người đã lắp đặt các tấm pin mặt trời để cung cấp năng lượng cho các giếng nước sâu.
+Trong	E	3	case
+những	L	3	det
+năm	N	10	obl:tmod
+gần	A	3	amod
+đây	P	4	det:pmod
+,	CH	10	punct
+nhiều	A	8	det
+người	N	10	nsubj
+đã	R	10	advmod
+lắp đặt	V	0	root
+các	L	13	det
+tấm	Nc	11	clf
+pin	N	10	obj
+mặt trời	N	13	nmod
+để	E	16	mark:pcomp
+cung cấp	V	10	advcl:objective
+năng lượng	N	16	obj
+cho	E	20	case
+các	L	20	det
+giếng	N	16	obl:comp
+nước	N	20	nmod
+sâu	A	21	amod
+.	CH	10	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 331
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Liên Hợp Quốc và Washington cho rằng Taliban liên quan đến tất cả các khía cạnh, từ trồng cây thuốc phiện, chiết xuất và buôn bán cho đến các khoản "thuế" từ người trồng trọt và phòng thí nghiệm bào chế.
+Liên Hợp Quốc	Np	4	nsubj
+và	C	3	cc
+Washington	Np	1	conj
+cho	V	0	root
+rằng	C	7	mark
+Taliban	Np	7	nsubj
+liên quan	V	4	ccomp
+đến	E	11	case
+tất cả	P	11	det
+các	L	11	det
+khía cạnh	N	7	obl:comp
+,	CH	14	punct
+từ	E	14	case
+trồng	V	11	conj
+cây thuốc phiện	N	14	compound
+,	CH	17	punct
+chiết xuất	N	14	conj
+và	C	19	cc
+buôn bán	V	14	conj
+cho	E	4	ccomp
+đến	E	20	compound
+các	L	23	det
+khoản	N	20	obj
+"	CH	25	punct
+thuế	N	23	nmod
+"	CH	25	punct
+từ	E	28	case
+người	N	23	nmod
+trồng trọt	V	28	compound
+và	C	31	cc
+phòng thí nghiệm	V	28	conj
+bào chế	N	31	compound
+.	CH	4	punct
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 332
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông cho biết Taliban kiếm được nhiều tiền hơn nhờ thu phí xuất nhập khẩu hợp pháp tại các trạm kiểm soát ven đường.
+Ông	Nc	2	nsubj
+cho	V	0	root
+biết	V	2	compound:svc
+Taliban	Np	5	nsubj
+kiếm	V	2	ccomp
+được	R	5	advmod
+nhiều	A	8	advmod:adj
+tiền	N	5	obj
+hơn	A	8	amod
+nhờ	V	8	acl:subj
+thu	V	8	obl
+phí	N	11	compound
+xuất nhập khẩu	V	11	compound
+hợp pháp	A	13	amod
+tại	E	17	case
+các	L	17	det
+trạm	N	11	obl
+kiểm soát	V	17	nmod
+ven	N	18	nmod
+đường	N	19	nmod
+.	CH	2	punct
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 333
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mạng lưới do bộ Khoa học và Công nghệ khởi xướng nhằm hiện thực hóa Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng AI đến năm 2030 được Thủ tướng ký ban hành đầu năm 2021.
+Mạng lưới	N	7	nsubj
+do	E	7	mark
+bộ	Nc	4	det:clf
+Khoa học và Công nghệ	N	7	nsubj
+khởi xướng	N	4	compound
+nhằm	V	7	advmod
+hiện thực hóa	V	0	root
+Chiến lược	N	7	obj
+quốc gia	N	8	nmod
+về	E	11	case
+nghiên cứu	V	8	nmod
+,	CH	13	punct
+phát triển	V	11	conj
+và	C	15	cc
+ứng dụng	N	11	conj
+AI	P	15	obj
+đến	V	7	xcomp
+năm	N	19	nummod
+2030	M	17	obj
+được	V	21	aux:pass
+Thủ tướng	N	17	obj
+ký	V	21	acl:subj
+ban hành	V	21	nmod
+đầu	N	23	nmod
+năm	N	24	nmod
+2021	M	25	flat:date
+.	CH	7	punct
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 334
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khởi động mạng lưới này, Bộ Khoa học và Công nghệ cùng các đối tác kêu gọi mọi cá nhân và tổ chức đang hoạt động về Trí tuệ nhân tạo tại Việt Nam ghi danh tham gia.
+Khởi động	V	2	case
+mạng lưới	N	9	obl:tmod
+này	P	2	det:pmod
+,	CH	2	punct
+Bộ Khoa học và Công nghệ	N	9	nsubj
+cùng	A	8	cc
+các	L	8	det
+đối tác	N	5	conj
+kêu gọi	V	0	root
+mọi	L	11	det
+cá nhân	N	9	obj
+và	C	13	cc
+tổ chức	V	11	conj
+đang	R	15	advmod
+hoạt động	V	9	ccomp
+về	E	17	case
+Trí tuệ	N	15	obl:comp
+nhân tạo	A	17	compound
+tại	E	20	case
+Việt Nam	Np	17	nmod
+ghi danh	V	20	compound
+tham gia	V	20	nmod
+.	CH	9	punct
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 335
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đại dịch Covid-19 buộc chúng ta phải thay đổi cách làm việc và hoạch định tương lai. "Chúng tôi tin rằng Trí tuệ nhân tạo sẽ đóng một vai trò thiết yếu trong xã hội và nền kinh tế của chúng ta trong tương lai không xa", ông Tom Wood nói.
+Đại dịch	N	2	det:clf
+Covid-19	Np	3	nsubj
+buộc	V	0	root
+chúng ta	P	6	nsubj
+phải	V	6	aux
+thay đổi	V	3	ccomp
+cách	N	6	obj
+làm việc	V	7	compound:vmod
+và	C	10	cc
+hoạch định	V	8	conj
+tương lai	N	10	nmod
+.	CH	15	punct
+"	CH	15	punct
+Chúng tôi	P	15	nsubj
+tin	V	3	parataxis
+rằng	C	20	mark
+Trí tuệ	N	20	nsubj
+nhân tạo	A	20	nsubj
+sẽ	R	20	advmod
+đóng	V	15	ccomp
+một	M	22	nummod
+vai trò	N	20	obj
+thiết yếu	N	22	nmod
+trong	E	25	case
+xã hội	N	20	obl:comp
+và	C	27	cc
+nền	N	25	conj
+kinh tế	N	27	compound
+của	E	30	case
+chúng ta	P	27	nmod:poss
+trong	E	32	case
+tương lai	N	27	nmod
+không	R	34	advmod:neg
+xa	A	20	advcl
+"	CH	15	punct
+,	CH	39	punct
+ông	Nc	38	det:clf
+Tom Wood	Np	39	nsubj
+nói	V	3	parataxis
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 336
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tổ tuần tra yêu cầu người này dừng xe để kiểm tra, sau đó lập biên bản vi phạm hành chính do vi phạm quy định phòng chống dịch bệnh đối với Thanh.
+Tổ	N	2	nsubj
+tuần tra	V	0	root
+yêu cầu	V	2	obj
+người	N	6	nsubj
+này	P	4	det:pmod
+dừng	V	3	ccomp
+xe	N	6	obj
+để	E	9	mark:pcomp
+kiểm tra	V	6	advcl:objective
+,	CH	13	punct
+sau	N	13	obl:tmod
+đó	P	13	obl
+lập	V	2	parataxis
+biên bản	N	13	obj
+vi phạm	V	14	nmod
+hành chính	N	15	nmod
+do	E	18	case
+vi phạm	V	13	obl
+quy định	N	18	nmod
+phòng chống	V	13	advcl:objective
+dịch bệnh	N	20	obj
+đối với	E	23	case
+Thanh	Np	20	obl
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 337
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đáng nói, khi lực lượng chức năng yêu cầu người vi phạm xuất trình giấy tờ xe, người này không xuất trình, bất ngờ châm lửa đốt cháy rụi chiếc xe của mình.
+Đáng	V	17	advcl
+nói	V	1	xcomp
+,	CH	7	punct
+khi	N	17	obl:tmod
+lực lượng	N	7	nsubj
+chức năng	N	5	nmod
+yêu cầu	V	4	acl:tmod
+người	N	7	obj
+vi phạm	V	7	obj
+xuất trình	V	11	case
+giấy tờ	N	9	obj
+xe	N	11	nmod
+,	CH	17	punct
+người	N	17	nsubj
+này	P	14	det:pmod
+không	R	17	advmod:neg
+xuất trình	V	0	root
+,	CH	20	punct
+bất ngờ	A	20	advmod
+châm	V	21	det:clf
+lửa	N	17	conj
+đốt	V	21	acl:subj
+cháy	V	22	xcomp
+rụi	V	26	nummod
+chiếc	Nc	26	det:clf
+xe	N	23	obj
+của	E	28	case
+mình	P	26	nmod:poss
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 338
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bên cạnh đó, cơ quan công an cũng đang xem xét dấu hiệu hủy hoại tài sản đối với người này để xử lý theo quy định.
+Bên cạnh	N	8	obl
+đó	P	1	det:pmod
+,	CH	1	punct
+cơ quan	N	8	nsubj
+công an	N	4	nmod
+cũng	R	8	advmod
+đang	R	8	advmod
+xem xét	V	0	root
+dấu hiệu	N	8	obj
+hủy hoại	V	9	nmod
+tài sản	N	10	obj
+đối với	E	13	case
+người	N	10	obl
+này	P	13	det:pmod
+để	E	16	mark:pcomp
+xử lý	V	8	advcl:objective
+theo	V	18	case
+quy định	N	16	obl:comp
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 339
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với bộ SGK nhà trường chọn dạy là Kết nối tri thức với cuộc sống, một số văn bản được đưa từ các lớp trên xuống như chùm ca dao về quê hương đất nước ở lớp 7 cũ, truyện Cô bé bán diêm ở lớp 8 cũ, bài thơ Mây và sóng ở lớp 9 cũ.
+Với	E	3	case
+bộ	Nc	8	obl
+SGK	Np	2	compound
+nhà trường	N	3	compound
+chọn	V	3	acl:subj
+dạy	V	5	compound:svc
+là	V	8	cop
+Kết nối	N	0	root
+tri thức	V	8	nmod
+với	E	11	case
+cuộc sống	N	8	obl
+,	CH	14	punct
+một số	L	14	det
+văn bản	N	16	nsubj:pass
+được	V	16	aux:pass
+đưa	V	8	conj
+từ	E	19	case
+các	L	19	det
+lớp	N	16	obl
+trên	E	19	nmod
+xuống	V	19	acl:subj
+như	C	23	case
+chùm	Nc	19	nmod
+ca dao	N	23	compound
+về	E	26	case
+quê hương	N	24	nmod
+đất nước	N	26	compound
+ở	E	29	case
+lớp	N	26	nmod
+7	M	29	compound
+cũ	A	29	compound
+,	CH	33	punct
+truyện	N	16	conj
+Cô	Nc	33	nmod
+bé	N	34	compound
+bán	V	35	acl:subj
+diêm	N	36	obj
+ở	E	39	case
+lớp	N	36	obl
+8	M	39	compound
+cũ	A	39	compound
+,	CH	43	punct
+bài	N	36	conj
+thơ	N	43	compound
+Mây	Np	44	compound
+và	C	47	cc
+sóng	N	43	conj
+ở	E	49	case
+lớp	N	47	nmod
+9	M	49	compound
+cũ	A	49	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 340
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đánh giá của cô giáo này, các tác giả SGK đã lựa chọn những văn bản có nội dung gần gũi, dễ hiểu, phù hợp với từng chủ đề và nhận thức của học sinh đầu cấp.
+Theo	V	11	advcl
+đánh giá	N	1	obj
+của	E	4	case
+cô giáo	N	2	nmod:poss
+này	P	4	det:pmod
+,	CH	11	punct
+các	L	8	det
+tác giả	N	11	nsubj
+SGK	Np	8	compound
+đã	R	11	advmod
+lựa chọn	V	0	root
+những	L	13	det
+văn bản	N	11	obj
+có	V	13	acl:subj
+nội dung	N	14	obj
+gần gũi	A	15	nmod
+,	CH	18	punct
+dễ	A	16	conj
+hiểu	V	18	xcomp:adj
+,	CH	21	punct
+phù hợp	V	11	conj
+với	E	24	case
+từng	P	24	advmod
+chủ đề	N	21	obl
+và	C	26	cc
+nhận thức	V	24	conj
+của	E	28	case
+học sinh	N	26	nmod:poss
+đầu	N	28	nmod
+cấp	N	29	compound
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 341
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ sách năm học tới mới được đưa vào dạy học nhưng đã có văn bản vấp phải sự phản ứng của dư luận như bài thơ “Bắt nạt”.
+Bộ	N	2	det:clf
+sách	N	8	nsubj:pass
+năm	N	4	nummod
+học	V	2	nmod
+tới	T	4	amod
+mới	R	8	advmod
+được	V	8	aux:pass
+đưa	V	0	root
+vào	E	10	case
+dạy học	V	8	obl:comp
+nhưng	C	13	mark
+đã	R	13	advmod
+có	V	8	conj
+văn bản	N	13	obj
+vấp	V	14	compound
+phải	V	17	aux
+sự	N	14	acl:subj
+phản ứng	V	17	compound
+của	E	20	case
+dư luận	N	17	nmod:poss
+như	C	22	case
+bài	N	17	obl
+thơ	N	22	compound
+“	CH	22	compound
+Bắt nạt	V	22	nmod
+”	CH	25	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 342
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cậu con trai hớn hở mang bài tập về nhà nhờ bố làm và cha đẻ của "Mùa lạc" cũng trịnh trọng ngồi cả tối để làm bài.
+Cậu	Nc	2	det:clf
+con trai	N	4	nsubj
+hớn hở	N	2	compound
+mang	V	0	root
+bài tập	N	4	obj
+về	V	7	case
+nhà	N	4	obl:comp
+nhờ	V	4	xcomp
+bố	N	8	obj
+làm	V	4	xcomp
+và	C	20	cc
+cha đẻ	N	20	nsubj
+của	E	15	case
+"	CH	15	punct
+Mùa	N	12	nmod:poss
+lạc	V	15	compound
+"	CH	15	punct
+cũng	R	20	advmod
+trịnh trọng	V	20	advmod
+ngồi	V	4	conj
+cả	T	22	det
+tối	N	20	obj
+để	E	24	mark:pcomp
+làm	V	20	advcl:objective
+bài	N	24	obj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 343
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ấy vậy mà, con trai lại chỉ nhận về 2 điểm với lời bình "Lạc đề. Em không hiểu ý tác giả".
+Ấy	I	7	cc
+vậy mà	C	1	compound
+,	CH	7	punct
+con trai	N	7	nsubj
+lại	R	7	advmod
+chỉ	R	7	advmod
+nhận	V	0	root
+về	E	10	case
+2	M	10	nummod
+điểm	N	7	obj
+với	E	12	case
+lời	N	7	obl
+bình	N	12	compound
+"	CH	15	punct
+Lạc đề	N	12	nmod
+.	CH	15	punct
+Em	N	19	nsubj
+không	R	19	advmod:neg
+hiểu	V	7	conj
+ý	N	19	obj
+tác giả	N	20	nmod
+"	CH	19	punct
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 344
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô Nhin cho rằng đối với tác phẩm văn học, việc cảm thụ là do khả năng của bản thân, nên cũng sẽ có những trường hợp giáo viên không hiểu ý tác giả.
+Cô	Nc	2	det:clf
+Nhin	Np	3	nsubj
+cho	V	0	root
+rằng	C	20	mark
+đối với	E	6	case
+tác phẩm	N	20	obl
+văn học	N	6	nmod
+,	CH	6	punct
+việc	N	13	nsubj
+cảm thụ	V	9	amod
+là	C	13	cop
+do	E	13	case
+khả năng	N	20	obl
+của	E	15	case
+bản thân	N	13	nmod:poss
+,	CH	20	punct
+nên	C	20	mark
+cũng	R	20	advmod
+sẽ	R	20	advmod
+có	V	3	ccomp
+những	L	22	det
+trường hợp	N	20	obj
+giáo viên	N	22	nmod
+không	R	25	advmod:neg
+hiểu	V	22	acl:subj
+ý	N	25	obj
+tác giả	N	26	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 345
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu có sự giao lưu trực tiếp, giáo viên sẽ hiểu ý hơn.
+Nếu	C	2	mark
+có	V	9	advcl
+sự	N	2	obj
+giao lưu	V	3	nmod
+trực tiếp	A	3	amod
+,	CH	2	punct
+giáo viên	N	9	nsubj
+sẽ	R	9	advmod
+hiểu	V	0	root
+ý	N	9	obj
+hơn	A	10	advmod
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 346
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để tạo được sự thống nhất, tác giả của bộ sách phải kết nối tốt với tác giả của tác phẩm, để từ đó, tác giả bộ sách chính là sợi dây liên kết tư tưởng, tình cảm, tri thức của tác giả văn bản với người dạy/người học, theo đúng định hướng phẩm chất, năng lực mong muốn.
+Để	E	2	mark:pcomp
+tạo	V	12	advcl:objective
+được	R	2	advmod
+sự	N	2	obj
+thống nhất	V	4	nmod
+,	CH	12	punct
+tác giả	N	12	nsubj
+của	E	10	case
+bộ	N	10	det:clf
+sách	N	7	nmod:poss
+phải	V	12	aux
+kết nối	V	0	root
+tốt	A	12	acomp
+với	E	15	case
+tác giả	N	12	obl
+của	E	17	case
+tác phẩm	N	15	nmod:poss
+,	CH	12	punct
+để	E	29	advcl
+từ	E	21	case
+đó	P	19	obl:comp
+,	CH	23	punct
+tác giả	N	29	nsubj:nn
+bộ	N	23	nmod
+sách	N	24	compound
+chính	T	27	discourse
+là	V	29	cop
+sợi	N	29	det:clf
+dây	N	12	conj
+liên kết	V	29	nmod
+tư tưởng	N	30	compound
+,	CH	33	punct
+tình cảm	N	30	conj
+,	CH	35	punct
+tri thức	N	30	conj
+của	E	37	case
+tác giả	N	35	nmod:poss
+văn bản	N	37	compound
+với	E	40	case
+người	N	29	nmod
+dạy	V	40	compound
+/	CH	43	punct
+người	N	41	nmod
+học	V	40	nmod
+,	CH	46	punct
+theo	V	29	advcl
+đúng	A	46	acomp
+định hướng	N	47	nmod
+phẩm chất	N	48	compound
+,	CH	51	punct
+năng lực	N	48	conj
+mong muốn	V	51	compound
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 347
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, điều các giáo viên phải làm là truyền tải lại tác phẩm đó cho học sinh. Nếu có định kiến về tác phẩm, liệu người giáo viên sẽ làm tròn vai với học sinh?” – giáo viên này đặt câu hỏi.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+điều	N	7	nsubj
+các	L	5	det
+giáo viên	N	7	nsubj
+phải	V	7	aux
+làm	V	0	root
+là	C	9	discourse
+truyền tải	V	7	obj
+lại	R	9	advmod
+tác phẩm	N	9	obj
+đó	P	11	det:pmod
+cho	E	14	case
+học sinh	N	11	obl:comp
+.	CH	7	punct
+Nếu	C	17	mark
+có	V	7	advcl
+định kiến	V	17	obj
+về	E	20	case
+tác phẩm	N	18	obl:comp
+,	CH	22	punct
+liệu	V	7	conj
+người	N	24	det:clf
+giáo viên	N	26	nsubj
+sẽ	R	26	advmod
+làm	V	22	ccomp
+tròn	A	28	advmod:adj
+vai	N	26	obj
+với	E	30	case
+học sinh	N	26	obl:with
+?	CH	7	punct
+”	CH	36	punct
+–	CH	36	punct
+giáo viên	N	36	nsubj
+này	P	34	det:pmod
+đặt	V	7	parataxis
+câu	N	36	obj
+hỏi	V	37	compound:vmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 348
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để chuẩn bị cho vòng sơ loại cuối World Cup 2022, HLV Park Hang Seo chỉ gọi lên 31 cầu thủ thay vì nhiều hơn như dự kiến.
+Để	E	2	mark:pcomp
+chuẩn bị	V	15	advcl:objective
+cho	E	4	case
+vòng	N	2	obl:comp
+sơ	A	7	nummod
+loại	N	5	clf
+cuối	N	4	nmod
+World Cup	Np	7	nmod
+2022	V	7	nmod
+,	CH	15	punct
+HLV	Ny	15	nsubj
+Park Hang	Np	11	nmod
+Seo	Np	12	compound
+chỉ	R	15	advmod
+gọi	V	0	root
+lên	V	15	compound:dir
+31	N	18	nummod
+cầu thủ	N	15	obj
+thay vì	X	18	acl:subj
+nhiều	A	19	acomp
+hơn	A	20	compound:adj
+như	C	23	case
+dự kiến	V	19	obl
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 349
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dù chỉ gọi số lượng vừa phải, nhưng những ngày qua thuyền trưởng người Hàn Quốc đang khiến tất cả ngạc nhiên bằng những thử nghiệm mới với cơ sở là các cầu thủ cũ đã theo mình trong thời gian rất dài.
+Dù	C	3	mark
+chỉ	R	3	advmod
+gọi	V	15	advcl
+số lượng	N	3	obj
+vừa phải	V	4	nmod
+,	CH	15	punct
+nhưng	C	15	mark
+những	L	9	det
+ngày	N	15	obl:tmod
+qua	V	9	acl:subj
+thuyền trưởng	N	10	obj
+người	N	11	nmod
+Hàn Quốc	Np	12	compound
+đang	R	15	advmod
+khiến	V	0	root
+tất cả	P	17	det
+ngạc nhiên	V	15	obj
+bằng	E	20	case
+những	L	20	det
+thử nghiệm	N	17	nmod
+mới	R	20	amod
+với	E	23	case
+cơ sở	N	20	nmod
+là	V	29	mark
+các	L	26	det
+cầu thủ	N	29	nsubj
+cũ	A	26	amod
+đã	R	29	advmod
+theo	V	15	ccomp
+mình	P	29	obj
+trong	E	32	case
+thời gian	N	29	obl:comp
+rất	R	34	advmod
+dài	A	32	acl:subj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 350
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = HLV Park Hang Seo đã xới tung đội hình có trong tay để thử nghiệm vị trí thi đấu mới đến lối chơi... và mang đến cho tuyển Việt Nam một bầu không khí khác nhiều so với trước, đặc biệt động lực ở các buổi tập.
+HLV	Ny	2	det
+Park	Np	6	nsubj
+Hang	Np	2	compound
+Seo	Np	3	compound
+đã	R	6	advmod
+xới	V	0	root
+tung	V	6	obj
+đội hình	N	9	nummod
+có	V	6	xcomp
+trong	E	11	case
+tay	N	9	obl
+để	E	13	mark:pcomp
+thử nghiệm	V	6	advcl:objective
+vị trí	N	13	obj
+thi đấu	V	14	nmod
+mới	R	17	advmod
+đến	V	18	case
+lối	N	13	obl:comp
+chơi	V	18	compound:vmod
+...	CH	6	punct
+và	C	22	cc
+mang	V	6	conj
+đến	E	22	compound:dir
+cho	E	25	case
+tuyển	N	22	obl:comp
+Việt Nam	Np	25	compound
+một	M	28	nummod
+bầu không khí	N	22	obj
+khác	A	28	amod
+nhiều	A	28	acl:subj
+so	V	30	obl:adj
+với	E	33	case
+trước	N	31	nmod
+,	CH	35	punct
+đặc biệt	A	28	acl:subj
+động lực	N	35	obl:adj
+ở	E	39	case
+các	L	39	det
+buổi	N	35	obl
+tập	V	39	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 351
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Âu lo là đương nhiên, bởi những thay đổi của HLV Park Hang Seo đang tiến hành dường như khá gấp gáp, đặt trong một bối cảnh mà thời gian để hoàn thiện tương đối hạn hẹp.
+Âu lo	N	3	nsubj
+là	V	3	cop
+đương nhiên	N	0	root
+,	CH	3	punct
+bởi	E	7	case
+những	L	7	det
+thay đổi	N	14	nsubj
+của	E	9	case
+HLV	Ny	7	nmod:poss
+Park	Np	9	compound
+Hang	Np	7	nmod:poss
+Seo	Np	11	compound
+đang	R	14	advmod
+tiến hành	V	3	parataxis
+dường như	X	17	advmod
+khá	R	17	advmod
+gấp gáp	A	14	conj
+,	CH	19	punct
+đặt	V	17	conj
+trong	E	22	case
+một	M	22	nummod
+bối cảnh	N	19	obl
+mà	C	25	mark
+thời gian	N	25	nsubj
+để	E	27	mark:pcomp
+hoàn thiện	V	25	obj
+tương đối	A	19	advcl:objective
+hạn hẹp	V	27	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 352
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như đã nói bộ khung đến các vị trí thi đấu trước đây đã mang đến rất nhiều thành công cho tuyển Việt Nam giờ xem ra cần phải thay đổi như điều tất yếu phải làm nếu muốn tiếp tục gặt hái vinh quang.
+Như	C	3	mark
+đã	R	3	advmod
+nói bộ	V	12	advcl
+khung	N	3	obj
+đến	E	7	case
+các	L	7	det
+vị trí	N	12	obl
+thi đấu	V	7	nmod
+trước	N	10	case
+đây	P	7	nmod
+đã	R	12	advmod
+mang	V	0	root
+đến	E	16	case
+rất	R	16	advmod
+nhiều	A	16	advmod:adj
+thành công	V	12	obj
+cho	E	18	case
+tuyển	N	16	nmod
+Việt Nam	Np	18	compound
+giờ	N	24	obl:tmod
+xem ra	X	24	nsubj
+cần	V	24	aux
+phải	V	24	aux
+thay đổi	V	12	conj
+như	C	26	case
+điều	N	24	obl
+tất yếu	V	26	compound
+phải	V	29	aux
+làm	V	26	acl:subj
+nếu	C	32	mark
+muốn	V	32	aux
+tiếp tục	V	29	advcl
+gặt hái	V	32	xcomp
+vinh quang	A	33	obj
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 353
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, tuyển Việt Nam đến với vòng sơ loại thứ 3 World Cup 2022 dù không thiếu khát vọng, nhưng thực tế vẫn là người đi học việc trước tiên thay vì chinh phục.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+tuyển	N	5	nsubj
+Việt Nam	Np	5	nsubj
+đến	V	0	root
+với	E	7	case
+vòng	N	5	obl:comp
+sơ	N	7	compound
+loại	N	7	nmod
+thứ	N	7	nmod
+3	M	10	nummod
+World Cup	Np	13	punct
+2022	V	5	conj
+dù	C	16	mark
+không	R	16	advmod:neg
+thiếu	V	5	conj
+khát vọng	N	16	obj
+,	CH	23	punct
+nhưng	C	23	mark
+thực tế	N	23	nsubj
+vẫn	R	23	advmod
+là	V	23	cop
+người	N	5	conj
+đi	V	23	acl:subj
+học việc	V	24	obj
+trước tiên	N	24	obj
+thay vì	X	24	xcomp
+chinh phục	V	27	obj
+.	CH	5	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 354
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mong muốn chia sẻ bí quyết làm những món ăn này với nhiều người, cô gái 9X quê ở tỉnh Bến Tre đăng tải những video hướng dẫn trên tài khoản TikTok cá nhân với gần 500.000 lượt theo dõi và 11 triệu lượt yêu thích.
+Mong muốn	V	4	nsubj
+chia sẻ	V	1	acl:subj
+bí quyết	N	2	obj
+làm	V	0	root
+những	L	7	det
+món	N	5	clf
+ăn	V	4	obj
+này	P	7	det:pmod
+với	E	11	case
+nhiều	A	11	advmod:adj
+người	Nc	4	obl:with
+,	CH	14	punct
+cô	Nc	14	det:clf
+gái	N	11	conj
+9X	V	14	nmod
+quê	N	15	obj
+ở	E	18	case
+tỉnh	N	14	nmod
+Bến Tre	Np	18	compound
+đăng tải	V	22	punct
+những	L	22	det
+video	N	14	conj
+hướng dẫn	V	22	acl:subj
+trên	E	25	case
+tài khoản	N	23	obl
+TikTok	Np	25	compound
+cá nhân	V	26	compound
+với	E	31	case
+gần	A	31	advmod:adj
+500.000	M	31	nummod
+lượt	N	23	obl
+theo dõi	V	31	acl:subj
+và	C	36	cc
+11	M	36	nummod
+triệu	M	34	flat:number
+lượt	N	31	conj
+yêu thích	V	36	compound
+.	CH	4	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 355
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những đoạn video chia sẻ công thức nấu ăn của cô thu hút hàng trăm ngàn đến vài triệu lượt xem.
+Những	L	3	det
+đoạn	N	1	clf
+video	N	4	nsubj
+chia sẻ	V	0	root
+công thức	N	4	obj
+nấu ăn	V	5	compound:vmod
+của	E	8	case
+cô	Nc	5	nmod:poss
+thu hút	V	8	nmod
+hàng	N	4	obl
+trăm ngàn	V	10	compound
+đến	V	15	case
+vài	L	15	det
+triệu	M	13	flat:number
+lượt	N	9	obj
+xem	V	15	compound:vmod
+.	CH	11	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 356
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các video làm đồ ăn từ cơm nguội nhận được sự yêu thích nhiều nhất.
+Các	L	2	det
+video	FW	7	nsubj
+làm	V	2	acl:subj
+đồ ăn	N	3	obj
+từ	E	6	case
+cơm nguội	N	3	obl
+nhận	V	0	root
+được	R	7	advmod
+sự	N	7	obj
+yêu thích	V	9	amod
+nhiều	A	9	amod
+nhất	R	11	advmod
+.	CH	9	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 357
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chẳng hạn, video làm cốm bằng cơm nguội thu hút 2,5 triệu lượt xem.
+Chẳng hạn	X	4	nsubj
+,	CH	4	punct
+video	FW	4	nsubj
+làm	V	0	root
+cốm	N	4	obj
+bằng	E	7	case
+cơm nguội	N	4	obl
+thu hút	V	7	nmod
+2,5	M	11	nummod
+triệu	M	9	flat:number
+lượt	N	7	nmod
+xem	V	11	compound:vmod
+.	CH	4	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 358
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ý tưởng chế biến món ăn từ cơm nguội là để chiều lòng em gái của Tú.
+Ý tưởng	N	8	nsubj
+chế biến	V	1	acl:subj
+món	N	2	obj
+ăn	V	3	compound:vmod
+từ	E	6	case
+cơm nguội	N	2	obl
+là	V	8	discourse
+để	E	9	mark:pcomp
+chiều	N	0	root
+lòng	N	9	obj
+em gái	N	10	compound
+của	E	13	case
+Tú	Np	9	nmod:poss
+.	CH	8	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 359
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài làm cơm cháy, Tú còn tận dụng cơm nguội còn thừa sau bữa cơm gia đình để sáng tạo thêm các món lạ khác như bánh phồng, bánh gạo trân châu đen, cơm cháy chiên nước mắm...
+Ngoài	N	2	nsubj
+làm	V	11	advcl
+cơm	N	2	obj
+cháy	V	3	nmod
+,	CH	11	punct
+Tú	Np	7	nsubj
+còn	R	0	root
+tận dụng	V	7	obj
+cơm nguội	N	8	compound
+còn	R	11	advmod
+thừa	V	7	conj
+sau	N	14	case
+bữa	N	14	det:clf
+cơm	N	11	obl
+gia đình	N	14	nmod
+để	E	17	mark:pcomp
+sáng tạo	V	11	advcl:objective
+thêm	V	17	compound:svc
+các	L	20	det
+món	N	17	obj
+lạ	A	20	amod
+khác	A	20	amod
+như	C	24	case
+bánh phồng	N	17	obl
+,	CH	26	punct
+bánh	N	24	conj
+gạo	N	26	nmod
+trân châu	N	27	compound
+đen	A	28	compound
+,	CH	31	punct
+cơm	N	24	conj
+cháy	V	31	compound
+chiên	V	32	obj
+nước mắm	N	31	nmod
+...	CH	7	punct
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 360
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tú cho chia sẻ cô thường mất khoảng 2 giờ đồng hồ để hoàn thành các loại bánh làm từ cơm nguội và nên chọn cơm dẻo để làm thì sẽ bánh sẽ ngon hơn.
+Tú	Np	6	nsubj
+cho	V	1	acl:subj
+chia sẻ	V	2	obj
+cô	Nc	3	nmod
+thường	R	6	advmod
+mất	V	0	root
+khoảng	N	6	obj
+2	M	9	nummod
+giờ	Nu	6	obl:tmod
+đồng hồ	N	9	nmod
+để	E	12	mark:pcomp
+hoàn thành	V	6	advcl:objective
+các	L	15	det
+loại	N	13	clf
+bánh	N	12	obj
+làm	V	15	acl:subj
+từ	E	18	case
+cơm nguội	N	16	obl:comp
+và	C	21	cc
+nên	C	21	mark
+chọn	V	12	conj
+cơm dẻo	N	21	obj
+để	E	24	mark:pcomp
+làm	V	21	advcl:objective
+thì	C	29	mark
+sẽ	R	29	advmod
+bánh	V	29	nsubj
+sẽ	R	29	advmod
+ngon	A	21	conj
+hơn	A	29	advmod:adj
+.	CH	29	punct
