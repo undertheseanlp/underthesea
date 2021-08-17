@@ -8,6 +8,7 @@ dictionary = Dictionary.Instance()
 n_words = len(dictionary.words)
 print(f"Load dictionary with {n_words} words.")
 
+
 def computeIDF(docCounters):
     """Get Inverse Document Frequency value for each word"""
     n = len(docCounters)
@@ -20,6 +21,7 @@ def computeIDF(docCounters):
     for word, val in idfDict.items():
         idfDict[word] = math.log10(n / float(val))
     return idfDict
+
 
 class UDAnalyzer:
     def __init__(self):

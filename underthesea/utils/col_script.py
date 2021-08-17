@@ -70,4 +70,3 @@ if __name__ == '__main__':
     analyzer = UDAnalyzer()
     analyzer.analyze(dataset)
     analyzer.analyze_today_words(dataset)
-
