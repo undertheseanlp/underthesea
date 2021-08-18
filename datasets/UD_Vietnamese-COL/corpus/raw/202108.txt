@@ -1497,3 +1497,303 @@ Dù được phát phiếu đi chợ hay nằm trong "vùng xanh", bạn vẫn n
 # date = 20210816
 # sent_id = 300
 Ở thời điểm này, càng hạn chế ra ngoài, tiếp xúc với nhiều người càng tốt cho chính bạn và gia đình!
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 301
+Ca sĩ Phan Cẩm Vân - 41 tuổi, vợ nghệ sĩ Lê Hay - đột ngột qua đời tại nhà sau thời gian suy giảm sức khỏe, sáng 17/8.
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 302
+Anh đưa vợ lên trạm y tế phường nơi anh sống, xét nghiệm âm tính với nCoV, được chẩn đoán suy nhược và truyền nước biển.
+
+# https://vnexpress.net/ca-si-phan-cam-van-qua-doi-4342143.html
+# date = 20210817
+# sent_id = 303
+Có giọng hát dày, kỹ thuật thanh nhạc tốt, chị từng theo đuổi dòng nhạc rock, là ca sĩ nhóm nhạc rock Wishband, từng biểu diễn ở một số tụ điểm.
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 304
+Các ông Nguyễn Văn Tứ, Nguyễn Thành Tài, Trần Vĩnh Tuyến, Trần Trọng Tuấn bị Ban Bí thư kỷ luật bằng hình thức khai trừ Đảng, ngày 17/8.
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 305
+Ban Bí thư xác định, Ban cán sự đảng UBND TP Hà Nội nhiệm kỳ 2016-2021 đã vi phạm nguyên tắc tổ chức và hoạt động của Đảng.
+
+# https://vnexpress.net/khai-tru-dang-4-cuu-lanh-dao-tp-hcm-ha-noi-4342150.html
+# date = 20210817
+# sent_id = 306
+Ông Tứ được xác định đã vi phạm quy định của Đảng về chức năng, nhiệm vụ của Đảng bộ, vi phạm Quy chế làm việc của Đảng uỷ cơ quan và của Sở Kế hoạch và Đầu tư; làm trái quy định về đấu thầu; nhận tiền biếu của nhà thầu; thiếu kiểm tra, giám sát, để các nhà thầu liên quan vi phạm Luật Đấu thầu.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 307
+Việt Nam thành thị trường tiêu thụ mỳ ăn liền lớn thứ ba thế giới còn các doanh nghiệp sản xuất liên tục có kết quả kinh doanh tích cực.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 308
+Theo số liệu của Hiệp hội mỳ ăn liền Thế giới (WINA), Việt Nam trở thành thị trường tiêu thụ mỳ gói lớn thứ ba toàn cầu với hơn 7 tỷ gói mỳ ăn liền trong năm 2020.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 309
+Mức trung bình trên cao gấp rưỡi Thái Lan, Nhật Bản, Indonesia, Philippines và gấp đôi Trung Quốc, gấp ba so với Mỹ.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 310
+Việt Nam hiện có khoảng 50 công ty sản xuất mỳ ăn liền, bao gồm các doanh nghiệp trong và ngoài nước.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 311
+Hiện nay, phở ăn liền và mỳ ăn liền sản xuất tại Việt Nam có mặt tại hơn 40 thị trường.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 312
+Trong đó, doanh số mỳ Omachi tăng 32% so với năm 2019, chiếm lĩnh phân khúc cao cấp với 45% thị phần.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 313
+Dòng mỳ ăn liền này cũng trở thành nhãn hiệu bán chạy nhất tại kênh siêu thị và mỳ tô bán chạy nhất cả nước.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 314
+Kết quả kinh doanh tích cực chủ yếu được thúc đẩy bởi nhu cầu cao hơn từ người tiêu dùng gia tăng dữ trự thực phẩm trước bối cảnh dịch bệnh trong tháng 6, kéo dài sang tháng 7.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 315
+Thị trường mỳ ăn liền Việt Nam còn có Acecook, "ông lớn" đến từ Nhật Bản.
+
+# https://vnexpress.net/doanh-nghiep-boi-thu-khi-nguoi-viet-an-my-nhieu-thu-ba-the-gioi-4340523.html
+# date = 20210817
+# sent_id = 316
+Acecook tuyên bố trên website rằng đang chiếm khoảng một nửa thị phần Việt Nam sau gần 30 năm gia nhập.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 317
+Kinh tế trưởng VinaCapital cho rằng chứng khoán vốn không phải ưu tiên của người Việt, nhưng đã lên ngôi khi không có giải pháp đầu tư hấp dẫn hơn.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 318
+Ông Michael Kokalari, Chuyên gia Kinh tế trưởng của quỹ đầu tư VinaCapital, trong báo cáo mới công bố nhận định sự sôi động của thị trường chứng khoán Việt Nam đã phát triển vượt bậc trong những năm gần đây.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 319
+Số lượng nhà đầu tư tham gia thị trường cũng biến động mạnh từ năm ngoái đến nay.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 320
+Hiện tượng này có một phần nguyên nhân từ việc giảm khoảng 1,5% lãi suất tiền gửi ngân hàng kỳ hạn một năm, dẫn đến người dân phải tìm kiếm các kênh đầu tư thay thế khi tiền gửi đáo hạn.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 321
+Theo chuyên gia này, nhà đầu tư Việt Nam vốn ưu tiên đầu tư vào bất động sản, vàng rồi mới đến chứng khoán.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 322
+Chuyên gia này cho rằng, tỷ lệ tham gia của nhà đầu tư cá nhân còn rất thấp so với quy mô dân số nhưng sự hưng phấn của họ là tín hiệu tích cực về xu hướng phát triển của thị trường chứng khoán Việt Nam.
+
+# https://vnexpress.net/nguoi-viet-uu-tien-bat-dong-san-vang-moi-den-chung-khoan-4341996.html
+# date = 20210817
+# sent_id = 323
+Ông dự đoán làn sóng nhà đầu tư cá nhân vào thị trường chứng khoán còn tiếp diễn trong những thập kỷ tới.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 324
+Mỹ đã chi hơn 8 tỷ USD trong hơn 15 năm để chặn Taliban kiếm lời từ buôn thuốc phiện và heroin nhưng chiến lược đó đã thất bại.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 325
+Khi Mỹ kết thúc cuộc chiến dài nhất của họ, Afghanistan vẫn là nhà cung cấp thuốc phiện bất hợp pháp lớn nhất thế giới và có thể vẫn duy trì như vậy khi Taliban kiểm soát đất nước.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 326
+Một số quan chức Liên Hợp Quốc và Mỹ lo ngại việc Afghanistan rơi vào hỗn loạn sẽ tạo điều kiện để việc xuất thuốc phiện phát triển hơn, trở thành lợi ích tiềm năng cho Taliban.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 327
+Các chuyên gia cho biết bất chấp những mối đe dọa từ hoạt động kinh doanh ma túy của Afghanistan, Mỹ và các quốc gia khác hiếm khi đề cập công khai vấn đề này.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 328
+Theo ước tính của UNODC, Afghanistan chiếm hơn 80% nguồn cung thuốc phiện và heroin toàn cầu.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 329
+Tuy nhiên, ngay cả trong thời kỳ hạn hán và thiếu lúa mì, khi giá lúa mì tăng vọt, nông dân Afghanistan vẫn trồng cây thuốc phiện và chiết xuất nhựa cây để tinh chế thành morphin và heroin.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 330
+Trong những năm gần đây, nhiều người đã lắp đặt các tấm pin mặt trời để cung cấp năng lượng cho các giếng nước sâu.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 331
+Liên Hợp Quốc và Washington cho rằng Taliban liên quan đến tất cả các khía cạnh, từ trồng cây thuốc phiện, chiết xuất và buôn bán cho đến các khoản "thuế" từ người trồng trọt và phòng thí nghiệm bào chế.
+
+# https://vnexpress.net/taliban-kiem-loi-tu-ma-tuy-nhu-the-nao-4341719.html
+# date = 20210817
+# sent_id = 332
+Ông cho biết Taliban kiếm được nhiều tiền hơn nhờ thu phí xuất nhập khẩu hợp pháp tại các trạm kiểm soát ven đường.
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 333
+Mạng lưới do bộ Khoa học và Công nghệ khởi xướng nhằm hiện thực hóa Chiến lược quốc gia về nghiên cứu, phát triển và ứng dụng AI đến năm 2030 được Thủ tướng ký ban hành đầu năm 2021.
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 334
+Khởi động mạng lưới này, Bộ Khoa học và Công nghệ cùng các đối tác kêu gọi mọi cá nhân và tổ chức đang hoạt động về Trí tuệ nhân tạo tại Việt Nam ghi danh tham gia.
+
+# https://vnexpress.net/ket-noi-nguoi-viet-lam-tri-tue-nhan-tao-voi-quoc-te-4341807.html
+# date = 20210817
+# sent_id = 335
+Đại dịch Covid-19 buộc chúng ta phải thay đổi cách làm việc và hoạch định tương lai. "Chúng tôi tin rằng Trí tuệ nhân tạo sẽ đóng một vai trò thiết yếu trong xã hội và nền kinh tế của chúng ta trong tương lai không xa", ông Tom Wood nói.
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 336
+Tổ tuần tra yêu cầu người này dừng xe để kiểm tra, sau đó lập biên bản vi phạm hành chính do vi phạm quy định phòng chống dịch bệnh đối với Thanh.
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 337
+Đáng nói, khi lực lượng chức năng yêu cầu người vi phạm xuất trình giấy tờ xe, người này không xuất trình, bất ngờ châm lửa đốt cháy rụi chiếc xe của mình.
+
+# https://vietnamnet.vn/vn/thoi-su/clip-nong/xem-xet-xu-ly-thanh-nien-dot-chay-xe-may-khi-bi-lap-bien-ban-vi-pham-766607.html
+# date = 20210817
+# sent_id = 338
+Bên cạnh đó, cơ quan công an cũng đang xem xét dấu hiệu hủy hoại tài sản đối với người này để xử lý theo quy định.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 339
+Với bộ SGK nhà trường chọn dạy là Kết nối tri thức với cuộc sống, một số văn bản được đưa từ các lớp trên xuống như chùm ca dao về quê hương đất nước ở lớp 7 cũ, truyện Cô bé bán diêm ở lớp 8 cũ, bài thơ Mây và sóng ở lớp 9 cũ.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 340
+Theo đánh giá của cô giáo này, các tác giả SGK đã lựa chọn những văn bản có nội dung gần gũi, dễ hiểu, phù hợp với từng chủ đề và nhận thức của học sinh đầu cấp.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 341
+Bộ sách năm học tới mới được đưa vào dạy học nhưng đã có văn bản vấp phải sự phản ứng của dư luận như bài thơ “Bắt nạt”.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 342
+Cậu con trai hớn hở mang bài tập về nhà nhờ bố làm và cha đẻ của "Mùa lạc" cũng trịnh trọng ngồi cả tối để làm bài.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 343
+Ấy vậy mà, con trai lại chỉ nhận về 2 điểm với lời bình "Lạc đề. Em không hiểu ý tác giả".
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 344
+Cô Nhin cho rằng đối với tác phẩm văn học, việc cảm thụ là do khả năng của bản thân, nên cũng sẽ có những trường hợp giáo viên không hiểu ý tác giả.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 345
+Nếu có sự giao lưu trực tiếp, giáo viên sẽ hiểu ý hơn.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 346
+Để tạo được sự thống nhất, tác giả của bộ sách phải kết nối tốt với tác giả của tác phẩm, để từ đó, tác giả bộ sách chính là sợi dây liên kết tư tưởng, tình cảm, tri thức của tác giả văn bản với người dạy/người học, theo đúng định hướng phẩm chất, năng lực mong muốn.
+
+# https://vietnamnet.vn/vn/giao-duc/lam-the-nao-de-giao-vien-day-tot-tac-pham-moi-dua-vao-chuong-trinh-ngu-van-lop-6-766547.html
+# date = 20210817
+# sent_id = 347
+Tuy nhiên, điều các giáo viên phải làm là truyền tải lại tác phẩm đó cho học sinh. Nếu có định kiến về tác phẩm, liệu người giáo viên sẽ làm tròn vai với học sinh?” – giáo viên này đặt câu hỏi.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 348
+Để chuẩn bị cho vòng sơ loại cuối World Cup 2022, HLV Park Hang Seo chỉ gọi lên 31 cầu thủ thay vì nhiều hơn như dự kiến.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 349
+Dù chỉ gọi số lượng vừa phải, nhưng những ngày qua thuyền trưởng người Hàn Quốc đang khiến tất cả ngạc nhiên bằng những thử nghiệm mới với cơ sở là các cầu thủ cũ đã theo mình trong thời gian rất dài.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 350
+HLV Park Hang Seo đã xới tung đội hình có trong tay để thử nghiệm vị trí thi đấu mới đến lối chơi... và mang đến cho tuyển Việt Nam một bầu không khí khác nhiều so với trước, đặc biệt động lực ở các buổi tập.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 351
+Âu lo là đương nhiên, bởi những thay đổi của HLV Park Hang Seo đang tiến hành dường như khá gấp gáp, đặt trong một bối cảnh mà thời gian để hoàn thiện tương đối hạn hẹp.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 352
+Như đã nói bộ khung đến các vị trí thi đấu trước đây đã mang đến rất nhiều thành công cho tuyển Việt Nam giờ xem ra cần phải thay đổi như điều tất yếu phải làm nếu muốn tiếp tục gặt hái vinh quang.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 353
+Tuy nhiên, tuyển Việt Nam đến với vòng sơ loại thứ 3 World Cup 2022 dù không thiếu khát vọng, nhưng thực tế vẫn là người đi học việc trước tiên thay vì chinh phục.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 354
+Mong muốn chia sẻ bí quyết làm những món ăn này với nhiều người, cô gái 9X quê ở tỉnh Bến Tre đăng tải những video hướng dẫn trên tài khoản TikTok cá nhân với gần 500.000 lượt theo dõi và 11 triệu lượt yêu thích.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 355
+Những đoạn video chia sẻ công thức nấu ăn của cô thu hút hàng trăm ngàn đến vài triệu lượt xem.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 356
+Các video làm đồ ăn từ cơm nguội nhận được sự yêu thích nhiều nhất.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 357
+Chẳng hạn, video làm cốm bằng cơm nguội thu hút 2,5 triệu lượt xem.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 358
+Ý tưởng chế biến món ăn từ cơm nguội là để chiều lòng em gái của Tú.
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 359
+Ngoài làm cơm cháy, Tú còn tận dụng cơm nguội còn thừa sau bữa cơm gia đình để sáng tạo thêm các món lạ khác như bánh phồng, bánh gạo trân châu đen, cơm cháy chiên nước mắm...
+
+# https://thanhnien.vn/gioi-tre/com-nguoi-tro-thanh-hot-trend-gay-sot-gioi-tre-1431862.html
+# date = 20210817
+# sent_id = 360
+Tú cho chia sẻ cô thường mất khoảng 2 giờ đồng hồ để hoàn thành các loại bánh làm từ cơm nguội và nên chọn cơm dẻo để làm thì sẽ bánh sẽ ngon hơn.

@@ -1,5 +1,6 @@
+import math
 from underthesea.dictionary import Dictionary
-from collections import Counter
+from collections import Counter, defaultdict
 from underthesea.utils import logger
 from datetime import date, timedelta
 import pandas as pd
@@ -20,6 +21,20 @@ print(f"Load dictionary with {n_words} words.")
 words_pos = get_words_pos(dictionary)
 
 
+def computeIDF(docCounters):
+    """Get Inverse Document Frequency value for each word"""
+    n = len(docCounters)
+    idfDict = defaultdict(int)
+    for doc in docCounters:
+        for word, freq in doc.items():
+            if freq > 0:
+                idfDict[word] += 1
+
+    for word, val in idfDict.items():
+        idfDict[word] = math.log10(n / float(val))
+    return idfDict
+
+
 class UDAnalyzer:
     def __init__(self):
         self.total_errors = 0
@@ -30,11 +45,31 @@ class UDAnalyzer:
         words = [t[0].lower() for t in tags]
         return words
 
+    def _get_doc_sents(self, dataset):
+        """Return doc as key and doc sentence array as value"""
+        doc_sents = defaultdict(list)
+        for s in dataset:
+            doc = s.url
+            doc_sents[doc].append(s)
+        return doc_sents
+
+    def get_doc_word_freq(self, dataset):
+        """Get word count by doc url"""
+        data = self._get_doc_sents(dataset)
+        doc_word_counts = {}
+        for doc, sents in data.items():
+            tags = [s.tags for s in sents]
+            tags = [t for sublist in tags for t in sublist]
+            words = [t[0].lower() for t in tags]
+            doc_word_counts[doc] = Counter(words)
+        return doc_word_counts
+
     def analyze_words_pos(self, sentences):
         tags = [s.tags for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         df = pd.DataFrame(tags, columns=["word", "pos", "order", "dep"])
         return df
+
 
     def analyze_words(self, sentences):
         tags = [s.tags for s in sentences]
@@ -65,8 +100,7 @@ class UDAnalyzer:
         return self.analyze_words(sentences)
 
     def analyze_sent_ids(self, dataset):
-        """Get sent_id of all sentences
-        """
+        """Get sent_id of all sentences"""
         sent_ids = [s.sent_id for s in dataset]
         counter = Counter(sent_ids)
 
@@ -74,8 +108,15 @@ class UDAnalyzer:
         if len(duplicate_ids) > 0:
             logger.error('[ERROR] duplicate_ids' + str(duplicate_ids))
         else:
-            logger.debug("send_ids is valid.")
+            logger.debug("sent_ids is valid.")
         return sent_ids
+
+    def analyze_doc_sent_freq(self, dataset):
+        """Get sentence count by doc url"""
+        data = self._get_doc_sents(dataset)
+        print("Number of doc URLs %s" % len(data))
+        doc_sent_counts = [(doc, len(sents)) for doc, sents in data.items()]
+        return doc_sent_counts
 
     def analyze_dataset_len(self, dataset):
         print("Number of sentences", len(dataset))
@@ -84,3 +125,5 @@ class UDAnalyzer:
         self.analyze_dataset_len(dataset)
         self.analyze_sent_ids(dataset)
         self.analyze_words(dataset)
+        self.analyze_doc_sent_freq(dataset)
+        self.get_doc_word_freq(dataset)
