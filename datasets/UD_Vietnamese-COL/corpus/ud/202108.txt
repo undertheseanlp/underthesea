@@ -10655,3 +10655,3977 @@ sẽ	R	29	advmod
 ngon	A	21	conj
 hơn	A	29	advmod:adj
 .	CH	29	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 361
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gerd Muller: Dị nhân sân cỏ và góc khuất cuộc đời
+Gerd	Np	2	nsubj
+Muller	Np	0	root
+:	CH	4	punct
+Dị nhân	V	2	parataxis
+sân cỏ	N	4	compound
+và	C	7	cc
+góc	N	4	conj
+khuất	V	7	nmod
+cuộc đời	N	7	compound
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 362
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gerd Muller là một dị nhân trên sân cỏ, cỗ máy ghi bàn hàng đầu thế giới trong thế kỷ 20, nhưng cuối đời ông gắn với bệnh tật bởi chứng nghiện rượu.
+Gerd	Np	5	nsubj:nn
+Muller	Np	5	nsubj:nn
+là	V	5	cop
+một	M	5	nummod
+dị nhân	N	22	advcl
+trên	E	7	case
+sân cỏ	N	5	nmod
+,	CH	9	punct
+cỗ	V	7	conj
+máy	N	9	nmod
+ghi bàn	V	10	compound
+hàng đầu	N	10	nmod
+thế giới	N	12	compound
+trong	E	15	case
+thế kỷ	N	12	nmod
+20	M	15	compound
+,	CH	22	punct
+nhưng	C	22	mark
+cuối	N	22	obl:tmod
+đời	N	22	nsubj
+ông	Nc	22	nsubj
+gắn	V	0	root
+với	E	24	case
+bệnh tật	N	22	obl:with
+bởi	E	26	case
+chứng	N	22	obl
+nghiện	V	26	nmod
+rượu	N	26	nmod
+.	CH	22	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 363
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong sự nghiệp cầu thủ, Gerd Muller xứng đáng với những khen ngợi về mặt tài năng.
+Trong	E	2	case
+sự nghiệp	N	6	obl
+cầu thủ	N	2	compound
+,	CH	6	punct
+Gerd Muller	Np	6	nsubj
+xứng đáng	A	0	root
+với	E	9	case
+những	L	9	det
+khen ngợi	N	6	obl:with
+về	E	11	case
+mặt	N	9	obl
+tài năng	N	11	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 364
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông để lại di sản to lớn không chỉ với bóng đá Đức mà cả thế giới, đặc biệt là các kỳ World Cup.
+Ông	Nc	2	nsubj
+để	V	0	root
+lại	V	2	compound:prt
+di sản	N	2	obj
+to lớn	A	4	amod
+không	R	7	advmod:neg
+chỉ	R	9	advmod
+với	E	9	case
+bóng đá	N	2	obl:with
+Đức	Np	9	compound
+mà	C	13	cc
+cả	T	13	det
+thế giới	N	9	conj
+,	CH	18	punct
+đặc biệt	A	18	advmod
+là	C	18	cop
+các	L	18	det
+kỳ	N	2	conj
+World Cup	Np	18	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 365
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với đôi chân ngắn, cặp đùi rộng, cặp mông thấp, thân hình đầy đặn và tâm trí đặc biệt của ông là có mặt đúng chỗ vào đúng thời điểm, những cú sút và bàn thắng không có gì là bí mật đối với Muller. Kỷ lục của ông, một số trong số đó vẫn còn tồn tại, xác định tầm vóc của ông như một tiền đạo phổ quát.
+Với	E	3	case
+đôi	M	3	nummod
+chân	N	22	obl
+ngắn	A	3	amod
+,	CH	7	punct
+cặp	M	7	nummod
+đùi	N	22	nsubj
+rộng	A	7	amod
+,	CH	11	punct
+cặp	M	11	nummod
+mông	N	7	conj
+thấp	A	11	nmod
+,	CH	14	punct
+thân hình	N	15	det:clf
+đầy đặn	A	22	nsubj
+và	C	17	cc
+tâm trí	N	15	conj
+đặc biệt	A	17	amod
+của	E	20	case
+ông	Nc	17	nmod:poss
+là	V	22	cop
+có mặt	V	0	root
+đúng	A	22	acomp
+chỗ	N	23	obl:adj
+vào	E	26	case
+đúng	A	24	acl:subj
+thời điểm	N	26	obl:adj
+,	CH	30	punct
+những	L	31	det
+cú	N	29	clf
+sút	V	22	conj
+và	C	33	cc
+bàn	N	31	conj
+thắng	V	36	nsubj
+không	R	36	advmod:neg
+có	V	22	conj
+gì	P	36	obj
+là	C	39	cop
+bí mật	A	36	ccomp
+đối với	E	41	case
+Muller	Np	39	obl
+.	CH	41	punct
+Kỷ lục	N	41	conj
+của	E	45	case
+ông	Nc	43	nmod:poss
+,	CH	53	punct
+một số	L	49	det
+trong	E	49	case
+số	N	53	nsubj
+đó	P	49	det:pmod
+vẫn	R	52	advmod
+còn	R	53	advmod
+tồn tại	V	36	ccomp
+,	CH	55	punct
+xác định	V	53	conj
+tầm vóc	N	55	obj
+của	E	58	case
+ông	Nc	56	nmod:poss
+như	C	61	case
+một	M	61	nummod
+tiền đạo	N	55	obl
+phổ quát	A	61	nmod
+.	CH	22	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 366
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng "Der Bomber der nation" (máy bay ném bom quốc gia), như cách mà ông được biết đến, còn nhiều hơn những con số thống kê tồn tại cho đến nay.
+Nhưng	C	19	mark
+"	CH	3	punct
+Der Bomber	Np	19	nsubj
+der	V	3	compound
+nation	N	3	compound
+"	CH	3	punct
+(	CH	8	punct
+máy bay	N	3	appos:nmod
+ném	V	8	nmod
+bom	N	9	compound
+quốc gia	N	10	compound
+)	CH	8	punct
+,	CH	15	punct
+như	C	15	case
+cách	N	19	obl
+mà	C	19	mark
+ông	Nc	19	nsubj
+được	V	19	advmod
+biết	V	0	root
+đến	V	19	advmod
+,	CH	23	punct
+còn	C	23	cc
+nhiều	A	26	advmod:adj
+hơn	A	23	advmod:adj
+những	L	26	det
+con số	N	19	nsubj
+thống kê	V	26	nmod
+tồn tại	V	26	acl:subj
+cho	E	31	case
+đến	E	31	case
+nay	P	28	obl:comp
+.	CH	19	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 367
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc đua đến đỉnh cao của Muller không hề dễ dàng.
+Cuộc đua	V	8	nsubj
+đến	E	3	case
+đỉnh cao	N	8	nsubj
+của	E	5	case
+Muller	Np	3	nmod:poss
+không	R	8	advmod:neg
+hề	T	8	advmod
+dễ dàng	A	0	root
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 368
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vóc dáng của ông luôn là một trở ngại.
+Vóc dáng	N	7	nsubj
+của	E	3	case
+ông	Nc	1	nmod:poss
+luôn	R	7	advmod
+là	V	7	cop
+một	M	7	nummod
+trở ngại	N	0	root
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 369
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi gia nhập Bayern vào năm 1964, hồ sơ của Gerd ghi rằng trong một trận đấu với đội bóng quê hương ông đã ghi được 22 bàn, và cùng mùa giải đó ông đạt mốc 180 bàn.
+Khi	N	23	obl:tmod
+gia nhập	V	1	acl:tmod
+Bayern	Np	2	obj
+vào	E	5	case
+năm	N	2	obl:comp
+1964	M	5	compound
+,	CH	11	punct
+hồ sơ	N	11	nsubj
+của	E	10	case
+Gerd	Np	8	nmod:poss
+ghi	V	0	root
+rằng	C	23	mark
+trong	E	15	case
+một	M	15	nummod
+trận	N	23	obl
+đấu	V	15	amod
+với	E	18	case
+đội	N	15	nmod
+bóng	N	18	nmod
+quê hương	N	18	nmod
+ông	Nc	23	nsubj
+đã	R	23	advmod
+ghi	V	11	ccomp
+được	R	23	advmod
+22	M	26	nummod
+bàn	N	23	obj
+,	CH	34	punct
+và	C	34	cc
+cùng	A	30	case
+mùa	N	34	obl
+giải	N	30	nmod
+đó	P	30	det:pmod
+ông	Nc	34	nsubj
+đạt	V	23	conj
+mốc	N	34	obj
+180	V	37	case
+bàn	N	34	obj
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 370
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, huấn luyện viên của Bayern lúc bấy giờ, Zlatko Cajkovski, đã nhìn ông với ánh mắt khó hiểu.
+Tuy nhiên	C	12	mark
+,	CH	12	punct
+huấn luyện viên	N	12	nsubj
+của	E	6	case
+Bayern	Np	6	nummod
+lúc	N	3	obl
+bấy giờ	P	6	det:pmod
+,	CH	9	punct
+Zlatko Cajkovski	Np	6	conj
+,	CH	12	punct
+đã	R	12	advmod
+nhìn	V	0	root
+ông	Nc	12	obj
+với	E	16	case
+ánh	N	16	det:clf
+mắt	N	12	obl
+khó hiểu	V	16	nmod
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 371
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông được đặt biệt danh là "chàng trai mũm mĩm".
+Ông	Nc	3	nsubj:pass
+được	V	3	aux:pass
+đặt	V	0	root
+biệt danh	N	3	obj
+là	C	8	cop
+"	CH	8	punct
+chàng	N	8	det:clf
+trai	N	3	obl
+mũm mĩm	A	8	nmod
+"	CH	8	punct
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 372
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Làm thế nào tôi có thể đưa một con voi vào trong số những con thuần chủng của tôi.
+Làm	V	5	advcl
+thế nào	P	1	obj
+tôi	P	5	nsubj
+có thể	R	5	aux
+đưa	V	0	root
+một	M	8	nummod
+con	Nc	6	clf
+voi	N	5	obj
+vào	V	8	acl:subj
+trong	E	11	case
+số	N	5	obl:comp
+những	L	14	det
+con	Nc	12	clf
+thuần chủng	N	11	nmod
+của	E	16	case
+tôi	P	14	nmod:poss
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 373
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta có phải là đội cử tạ không?
+Chúng ta	P	5	nsubj
+có	V	3	advmod
+phải	A	5	aux
+là	C	5	cop
+đội	N	0	root
+cử tạ	N	5	compound
+không	R	5	advmod
+?	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 374
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông đã giảm từ 93 xuống 73kg và tiếp nhận một vị trí đá chính mà ông không bao giờ đánh mất cho đến khi nghỉ hưu.
+Ông	Nc	3	nsubj
+đã	R	3	advmod
+giảm	V	0	root
+từ	E	5	case
+93	M	3	obl:comp
+xuống	V	3	xcomp
+73	M	8	nummod
+kg	Nu	3	obl:comp
+và	C	10	cc
+tiếp nhận	V	3	conj
+một	M	12	nummod
+vị trí	N	10	nmod
+đá	N	12	nmod
+chính	T	12	amod
+mà	C	19	mark
+ông	Nc	19	nsubj
+không	R	18	advmod:neg
+bao giờ	P	19	obl:tmod
+đánh	V	3	conj
+mất	V	19	xcomp
+cho	E	23	case
+đến	E	23	case
+khi	N	19	obl:tmod
+nghỉ	V	23	acl:tmod
+hưu	V	24	compound:svc
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 375
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khu vực cấm địa đối phương được ví là phòng khách của nhà Gerd.
+Khu vực	N	5	nsubj:pass
+cấm địa	N	1	nmod
+đối phương	N	1	nmod
+được	V	5	aux:pass
+ví	V	0	root
+là	C	7	case
+phòng	N	5	obl:comp
+khách	N	7	compound
+của	E	10	case
+nhà Gerd	N	7	nmod:poss
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 376
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc đời Muller là cuộc đấu giá bàn thắng.
+Cuộc đời	N	4	nsubj
+Muller	Np	1	nmod
+là	V	4	cop
+cuộc	N	0	root
+đấu giá	V	4	compound
+bàn	N	4	nmod
+thắng	V	6	compound
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 377
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông ghi bàn bằng phải, chân trái, bằng đầu, bằng bắp chân, bằng gót chân...
+Ông	Nc	2	det:clf
+ghi bàn	V	0	root
+bằng	E	4	case
+phải	V	2	obl
+,	CH	6	punct
+chân	N	4	conj
+trái	A	6	nmod
+,	CH	10	punct
+bằng	E	10	case
+đầu	N	4	conj
+,	CH	13	punct
+bằng	E	13	case
+bắp chân	N	4	conj
+,	CH	16	punct
+bằng	E	16	case
+gót chân	N	4	conj
+...	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 378
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nói chung, ông có thể mang về bàn thắng bằng bất cứ điều gì.
+Nói chung	X	5	mark
+,	CH	5	punct
+ông	Nc	5	nsubj
+có thể	R	5	aux
+mang	V	0	root
+về	R	7	case
+bàn	V	5	obl:comp
+thắng	V	7	nmod
+bằng	E	11	case
+bất cứ	R	11	advmod
+điều	N	5	obl
+gì	P	11	det:pmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 379
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc hẹn quốc tế tuyệt vời đầu tiên của Muller là Mexico 70.
+Cuộc	N	10	nsubj
+hẹn	V	1	acl:tonp
+quốc tế	N	1	amod
+tuyệt vời	A	1	amod
+đầu tiên	A	1	amod
+của	E	7	case
+Muller	Np	1	nmod:poss
+là	V	10	cop
+Mexico	Np	0	root
+70	M	9	flat:number
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 380
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông không đến với tư cách là người khởi đầu không thể tranh cãi.
+Ông	Nc	3	nsubj
+không	R	3	advmod:neg
+đến	V	0	root
+với	E	5	case
+tư cách	N	3	obl:comp
+là	V	10	mark
+người	N	8	det:clf
+khởi đầu	V	10	nsubj
+không thể	R	10	advmod:neg
+tranh cãi	V	3	conj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 381
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông sống dưới cái bóng Uwe Seeler, người hơn ông 9 tuổi.
+Ông	Nc	2	nsubj
+sống	V	0	root
+dưới	E	5	case
+cái	T	5	det:clf
+bóng	N	2	obl:comp
+Uwe Seeler	Np	5	nmod
+,	CH	8	punct
+người	N	5	conj
+hơn	A	8	compound:amod
+ông	Nc	8	nmod
+9	M	12	nummod
+tuổi	N	8	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 382
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tất nhiên, dựa trên bàn thắng, họ đã chia sẻ vai trò và thậm chí cùng một phòng.
+Tất nhiên	R	10	advcl
+,	CH	3	punct
+dựa	V	1	conj
+trên	E	5	case
+bàn	N	3	obl:comp
+thắng	V	5	nmod
+,	CH	10	punct
+họ	P	10	nsubj
+đã	R	10	advmod
+chia sẻ	V	0	root
+vai trò	N	10	obj
+và	C	16	cc
+thậm chí	R	16	advmod
+cùng	A	16	advmod:adj
+một	M	16	nummod
+phòng	N	10	conj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 383
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Muller ghi tới 10 bàn.
+Muller	Np	2	nsubj
+ghi	V	0	root
+tới	E	5	advmod:adj
+10	M	5	nummod
+bàn	N	2	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 384
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không ai ghi được nhiều bàn như vậy ở một kỳ World Cup kể từ đó.
+Không	R	2	advmod:neg
+ai	P	3	nsubj
+ghi	V	0	root
+được	R	3	advmod
+nhiều	A	6	advmod:adj
+bàn	N	3	obj
+như	C	8	case
+vậy	P	3	obl
+ở	E	11	case
+một	M	11	nummod
+kỳ	N	3	obl
+World Cup	Np	11	compound
+kể	V	11	acl:subj
+từ	E	15	case
+đó	P	13	obl:comp
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 385
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 4 trong đó từ đánh đầu, 1 bàn phạt đền, 3 bàn khác trong vòng cấm và hai bên ngoài khu 16m50.
+4	M	3	nummod
+trong	E	3	case
+đó	P	0	root
+từ	E	5	case
+đánh đầu	N	3	nmod
+,	CH	7	punct
+1	M	8	nummod
+bàn	N	5	conj
+phạt đền	N	8	compound
+,	CH	12	punct
+3	M	12	nummod
+bàn	N	5	conj
+khác	A	12	amod
+trong	E	15	case
+vòng	N	12	nmod
+cấm	V	15	compound
+và	C	19	cc
+hai	M	19	nummod
+bên	N	5	conj
+ngoài	N	19	compound
+khu	N	19	nmod
+16	M	21	compound
+m50	N	21	nmod
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 386
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dettmar Cramer, một trong những HLV của ông, khen ngợi: "Cậu ấy kết thúc nhanh hơn tôi có thể nghĩ".
+Dettmar Cramer	Np	10	nsubj
+,	CH	6	punct
+một	M	6	nummod
+trong	E	5	case
+những	L	3	nmod
+HLV	Ny	1	appos:nmod
+của	E	8	case
+ông	Nc	6	nmod:poss
+,	CH	6	punct
+khen ngợi	V	0	root
+:	CH	15	punct
+"	CH	15	punct
+Cậu	N	15	nsubj
+ấy	P	13	det:pmod
+kết thúc	V	10	parataxis
+nhanh	A	15	acomp
+hơn	A	16	advmod
+tôi	P	20	nsubj
+có thể	R	20	advmod
+nghĩ	V	15	conj
+"	CH	15	punct
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 387
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm 1970, Muller được bầu Quả bóng vàng, cùng với danh hiệu Chiếc giày vàng (38 bàn), và được đảm bảo rằng ông ký hợp đồng với Barcelona.
+Năm	N	5	obl:tmod
+1970	M	1	flat:time
+,	CH	1	punct
+Muller	Np	5	nsubj
+được	V	0	root
+bầu	V	5	obj
+Quả bóng vàng	N	6	nmod
+,	CH	9	punct
+cùng	C	6	conj
+với	E	11	case
+danh hiệu	N	9	obl:with
+Chiếc	Nc	13	det:clf
+giày	N	9	obj
+vàng	N	13	compound
+(	CH	17	punct
+38	M	17	nummod
+bàn	N	13	appos
+)	CH	17	punct
+,	CH	22	punct
+và	C	22	cc
+được	V	22	aux:pass
+đảm bảo	V	9	conj
+rằng	C	25	mark
+ông	Nc	25	nsubj
+ký	V	22	ccomp
+hợp đồng	N	25	obj
+với	E	28	case
+Barcelona	Np	25	obl:with
+.	CH	22	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 388
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hợp đồng cuối cùng không được thực hiện vì vợ ông không muốn rời Munich.
+Hợp đồng	N	5	nsubj
+cuối cùng	A	1	amod
+không	R	5	advmod:neg
+được	V	5	aux:pass
+thực hiện	V	0	root
+vì	E	11	mark
+vợ	N	11	nsubj
+ông	Nc	7	nmod:poss
+không	R	10	advmod:neg
+muốn	V	11	aux
+rời	V	5	ccomp
+Munich	Np	11	obj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 389
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đội bóng xứ Catalunya đã chuyển hướng chiêu mộ Johan Cruyff.
+Đội	N	6	nsubj
+bóng	N	1	compound
+xứ	N	1	nmod
+Catalunya	Np	3	compound
+đã	R	6	advmod
+chuyển hướng	V	0	root
+chiêu mộ	N	6	obj
+Johan Cruyff	Np	6	obj
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 390
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cho đến nay, người ta không hiểu rõ vì sao Muller rời đội tuyển Đức sau chức vô địch World Cup 74 - giải đấu mà ông ghi bàn trong trận chung kết thắng Hà Lan 2-1 - khi mới 29 tuổi.
+Cho đến	N	6	obl:tmod
+nay	P	6	obl:tmod
+,	CH	6	punct
+người ta	P	6	nsubj
+không	R	6	advmod:neg
+hiểu	V	0	root
+rõ	A	6	acomp
+vì sao	X	9	det:clf
+Muller	Np	10	nsubj
+rời	V	6	ccomp
+đội tuyển	N	10	obj
+Đức	Np	11	nmod
+sau	N	14	case
+chức	N	10	obl
+vô địch	N	14	compound
+World Cup	Np	15	compound
+74	M	16	compound
+-	CH	19	punct
+giải	N	14	conj
+đấu	V	19	compound
+mà	C	23	mark
+ông	Nc	23	det:clf
+ghi bàn	V	20	nsubj
+trong	E	25	case
+trận	N	23	obl
+chung kết	N	25	compound
+thắng	V	26	compound
+Hà Lan	Np	27	compound
+2-1	M	27	compound
+-	CH	31	punct
+khi	N	27	conj
+mới	R	31	advmod
+29	M	34	nummod
+tuổi	N	31	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 391
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việc ông rời Bayern năm 1979 thậm chí có vẻ không hợp lý.
+Việc	N	10	nsubj
+ông	Nc	3	nsubj
+rời	V	1	acl
+Bayern	Np	5	nummod
+năm	N	3	obj
+1979	M	3	obj
+thậm chí	R	10	advmod
+có vẻ	X	10	advmod
+không	R	10	advmod:neg
+hợp lý	A	0	root
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 392
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cùng với những di sản trên sân cỏ, Gerd Muller có vấn đề với rượu.
+Cùng với	V	8	advcl
+những	L	3	det
+di sản	N	8	nsubj
+trên	E	5	case
+sân cỏ	N	3	nmod
+,	CH	8	punct
+Gerd Muller	Np	8	nsubj
+có	V	0	root
+vấn đề	N	8	obj
+với	E	11	case
+rượu	N	8	obl:with
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 393
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông từng hồi phục sau khi nhập viện cai nghiện vào năm 1991.
+Ông	Nc	3	nsubj
+từng	R	3	advmod
+hồi phục	N	0	root
+sau	N	5	case
+khi	N	3	obl:tmod
+nhập viện	V	7	nsubj
+cai nghiện	V	5	acl:tmod
+vào	E	9	case
+năm	N	7	obl:tmod
+1991	M	9	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 394
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ đó, sức khỏe của ông bị tổn hại.
+Từ	E	2	case
+đó	P	8	obl
+,	CH	8	punct
+sức khỏe	N	8	nsubj:pass
+của	E	6	case
+ông	Nc	4	nmod:poss
+bị	V	8	aux:pass
+tổn hại	V	0	root
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 395
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những khó khăn ập đến, khi ông gặp các triệu chứng về thị lực và mất trí nhớ, liên quan đến căn bệnh Alzheimer.
+Những	L	2	det
+khó khăn	N	4	nsubj
+ập	V	2	nmod
+đến	V	0	root
+,	CH	6	punct
+khi	N	2	obl:tmod
+ông	Nc	8	nsubj
+gặp	V	6	acl:tmod
+các	L	10	det
+triệu chứng	N	8	obj
+về	E	12	case
+thị lực	N	10	obl
+và	C	14	cc
+mất trí nhớ	V	12	conj
+,	CH	16	punct
+liên quan	V	12	conj
+đến	E	18	case
+căn bệnh	N	16	obl:comp
+Alzheimer	Np	18	compound
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 396
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vào ngày 3/11/2020, ngày sinh nhật thứ 75 của ông, những tuyên bố của vợ ông, Uschi, với nhật báo Bild đã báo trước điều tồi tệ nhất.
+Vào	E	2	case
+ngày	N	23	obl:tmod
+3/11/2020	M	2	nmod
+,	CH	6	punct
+ngày sinh nhật	N	6	nummod
+thứ	N	2	conj
+75	N	6	compound
+của	E	9	case
+ông	Nc	6	nmod:poss
+,	CH	12	punct
+những	L	12	det
+tuyên bố	N	2	conj
+của	E	14	case
+vợ	N	12	nmod:poss
+ông	Nc	14	nmod
+,	CH	17	punct
+Uschi	Np	14	conj
+,	CH	20	punct
+với	E	20	case
+nhật báo	N	12	nmod
+Bild	Np	20	compound
+đã	R	23	advmod
+báo	V	0	root
+trước	E	25	case
+điều	N	23	obl
+tồi tệ	A	25	nmod
+nhất	R	26	nmod
+.	CH	23	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 397
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Anh ấy dành gần 24 giờ trên giường, anh ấy chỉ thức dậy trong giây lát, anh ấy đi từ từ về thế giới bên kia trong khi ngủ", bà Uschi tâm sự.
+"	CH	4	punct
+Anh	Nc	4	nsubj
+ấy	P	2	det:pmod
+dành	V	0	root
+gần	A	7	advmod:adj
+24	M	7	nummod
+giờ	N	4	obl:tmod
+trên	E	9	case
+giường	N	4	obl
+,	CH	14	punct
+anh	Nc	14	nsubj
+ấy	P	11	det:pmod
+chỉ	R	14	advmod
+thức	V	4	parataxis
+dậy	V	14	compound:svc
+trong	E	17	case
+giây lát	N	14	obl:comp
+,	CH	21	punct
+anh	Nc	21	nsubj
+ấy	P	19	det:pmod
+đi	V	4	parataxis
+từ từ	A	21	advmod:adj
+về	E	24	case
+thế giới	N	21	obl:comp
+bên	N	24	nmod
+kia	P	25	det:pmod
+trong	E	28	case
+khi	N	21	obl:tmod
+ngủ	V	28	compound:vmod
+"	CH	4	punct
+,	CH	34	punct
+bà	Nc	33	det:clf
+Uschi	Np	34	nsubj
+tâm sự	V	4	parataxis
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 398
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thật đẹp khi anh ấy mở to mắt một chút và cố gắng nói có hoặc không bằng cách chớp lông mi.
+Thật	R	2	advmod
+đẹp	A	0	root
+khi	N	2	obl:tmod
+anh	Nc	6	nsubj
+ấy	P	4	det:pmod
+mở	V	3	acl:tmod
+to	A	6	acomp
+mắt	N	7	obj
+một chút	L	8	nmod
+và	C	11	cc
+cố gắng	V	6	conj
+nói	V	6	conj
+có	V	12	xcomp
+hoặc	C	17	cc
+không	R	16	advmod:neg
+bằng	E	17	case
+cách	N	12	obl
+chớp	V	17	nmod
+lông mi	N	18	compound
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 399
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gerd bình tĩnh và bình yên, tôi nghĩ anh ấy không đau.
+Gerd	Np	2	nsubj
+bình tĩnh	A	7	advcl
+và	C	4	cc
+bình yên	A	2	conj
+,	CH	7	punct
+tôi	P	7	nsubj
+nghĩ	V	0	root
+anh	Nc	11	nsubj
+ấy	P	8	det:pmod
+không	R	11	advmod:neg
+đau	V	7	ccomp
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 400
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh ấy thực tế không ăn gì, chỉ nuốt một chút bột nhuyễn.
+Anh	Nc	5	nsubj
+ấy	P	1	det:pmod
+thực tế	N	5	nsubj
+không	R	5	advmod:neg
+ăn	V	0	root
+gì	T	5	obj
+,	CH	9	punct
+chỉ	R	9	advmod
+nuốt	V	5	conj
+một chút	L	11	det
+bột	N	9	obj
+nhuyễn	A	11	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 401
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đôi khi chúng tôi xem tivi cùng nhau, mặc dù anh ấy không còn hiểu gì nữa.
+Đôi khi	N	3	advmod
+chúng tôi	P	3	nsubj
+xem	V	0	root
+tivi	FW	3	obj
+cùng	A	6	case
+nhau	N	3	obl
+,	CH	3	punct
+mặc dù	C	13	cc
+anh	Nc	13	nsubj
+ấy	P	9	det:pmod
+không	R	13	advmod:neg
+còn	R	13	advmod
+hiểu	V	3	conj
+gì	P	13	obj
+nữa	R	13	advmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 402
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Uschi và Gerd gặp nhau trong một quán bar khi bà 16 tuổi còn ông 20 tuổi.
+Uschi	Np	4	nsubj
+và	C	3	cc
+Gerd	Np	1	conj
+gặp	V	0	root
+nhau	N	4	obj
+trong	E	8	case
+một	M	8	nummod
+quán	N	4	obl
+bar	FW	8	compound
+khi	N	4	obl:tmod
+bà	N	13	nsubj
+16	M	13	nummod
+tuổi	N	10	acl:tmod
+còn	R	17	cc
+ông	Nc	17	det:clf
+20	M	17	nummod
+tuổi	N	10	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 403
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Họ kết hôn vào năm 1967.
+Họ	P	2	nsubj
+kết hôn	V	0	root
+vào	E	4	case
+năm	N	2	obl:tmod
+1967	M	4	flat:date
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 404
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong những lời nói chân thành của mình, Uschi kể lại rằng trước đại dịch Covid-19, bà đến thăm Gerd mỗi ngày tại phòng khám nơi ông đã nằm viện hơn 5 năm.
+Trong	E	3	case
+những	L	3	det
+lời nói	N	9	obl
+chân thành	A	3	amod
+của	E	6	case
+mình	P	3	nmod:poss
+,	CH	9	punct
+Uschi	Np	9	nsubj
+kể	V	0	root
+lại	V	9	advmod
+rằng	C	17	mark
+trước	E	13	case
+đại dịch	N	17	obl
+Covid-19	Np	13	compound
+,	CH	17	punct
+bà	Nc	17	nsubj
+đến	V	9	parataxis
+thăm	V	17	xcomp
+Gerd	Np	18	obj
+mỗi	L	21	det
+ngày	N	18	obl:tmod
+tại	E	23	case
+phòng khám	N	21	nmod
+nơi	N	23	nmod
+ông	Nc	27	nsubj
+đã	R	27	advmod
+nằm	V	24	acl
+viện	N	27	obj
+hơn	A	31	advmod:adj
+5	M	31	nummod
+năm	N	27	obl:tmod
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 405
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng trong những tháng gần đây, sự hiện diện của bà không còn nữa.
+Nhưng	C	13	mark
+trong	E	4	case
+những	L	4	det
+tháng	N	13	obl:tmod
+gần	A	4	amod
+đây	P	5	det:pmod
+,	CH	4	punct
+sự	N	13	nsubj
+hiện diện	V	8	compound:vmod
+của	E	11	case
+bà	Nc	8	nmod:poss
+không	R	13	advmod:neg
+còn	V	0	root
+nữa	R	13	advmod
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 406
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chỉ một năm trước, mọi thứ đã khác.
+Chỉ	R	3	advmod
+một	M	3	nummod
+năm	N	9	obl:tmod
+trước	N	3	amod
+,	CH	3	punct
+mọi	L	7	det
+thứ	N	9	nsubj
+đã	R	9	advmod
+khác	A	0	root
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 407
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi cũng có thể đưa anh ấy đến tiệm kem, nhưng vì quá đông nên tôi không thể đến thăm anh ấy.
+Tôi	P	4	nsubj
+cũng	R	4	advmod
+có thể	R	4	aux
+đưa	V	0	root
+anh	Nc	4	obj
+ấy	P	5	det:pmod
+đến	E	4	xcomp
+tiệm	N	7	obj
+kem	N	8	compound
+,	CH	18	punct
+nhưng	C	18	mark
+vì	E	14	mark
+quá	R	14	advmod
+đông	A	18	advcl
+nên	C	18	mark
+tôi	P	18	nsubj
+không thể	R	18	advmod:neg
+đến	V	4	conj
+thăm	V	18	xcomp
+anh	Nc	19	obj
+ấy	P	20	det:pmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 408
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi không nghĩ anh ấy đau khổ.
+Tôi	P	3	nsubj
+không	R	3	advmod:neg
+nghĩ	V	0	root
+anh	Nc	3	obj
+ấy	P	4	det:pmod
+đau khổ	A	3	discourse
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 409
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi chỉ hy vọng rằng anh ấy không thể suy nghĩ về số phận của mình và điều kiện hiện tại của mình.
+Tôi	P	3	nsubj
+chỉ	R	3	advmod
+hy vọng	V	0	root
+rằng	C	8	mark
+anh	Nc	8	nsubj
+ấy	P	5	det:pmod
+không thể	R	8	advmod:neg
+suy nghĩ	V	3	ccomp
+về	E	10	case
+số phận	N	8	obl:comp
+của	E	12	case
+mình	P	10	nmod:poss
+và	C	14	cc
+điều kiện	N	10	conj
+hiện tại	N	14	nmod
+của	E	17	case
+mình	P	10	nmod:poss
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 410
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gerd đi về thế giới khác, để lại di sản khổng lồ cho bóng đá thế giới.
+Gerd	Np	2	nsubj
+đi	V	0	root
+về	V	4	case
+thế giới	N	2	obl:comp
+khác	A	4	amod
+,	CH	7	punct
+để	V	2	conj
+lại	V	7	advmod
+di sản	N	7	obj
+khổng lồ	A	9	amod
+cho	E	12	case
+bóng đá	N	7	obl:comp
+thế giới	N	12	compound
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 411
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuyển Việt Nam: Hé lộ cái tên mất vé giờ chót
+Tuyển	N	2	nsubj
+Việt Nam	Np	4	obl
+:	CH	4	punct
+Hé	Np	0	root
+lộ	V	4	obj
+cái	Nc	7	det:clf
+tên	N	4	obj
+mất	V	7	acl:subj
+vé	N	8	obj
+giờ chót	M	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 412
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Văn Hậu, Tiến Anh... đối diện nguy cơ mất suất khi HLV Park Hang Seo rút gọn danh sách tuyển Việt Nam đi Saudi Arabia.
+Văn Hậu	Np	5	nsubj
+,	CH	3	punct
+Tiến Anh	Np	1	conj
+...	CH	1	punct
+đối diện	V	0	root
+nguy cơ	N	5	obj
+mất	V	5	xcomp
+suất	N	7	obj
+khi	N	5	obl:tmod
+HLV	Ny	9	acl:tmod
+Park	Np	10	obj
+Hang	Np	11	nmod
+Seo	Np	12	compound
+rút gọn	V	12	nmod
+danh sách	N	12	nmod
+tuyển	N	15	nmod
+Việt Nam	Np	16	compound
+đi	V	17	acl:subj
+Saudi Arabia	Np	18	obj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 413
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với 31 cầu thủ trong tay, HLV Park Hang Seo sẽ rút gọn còn 23 - 25 cầu thủ mang sang Saudi Arabia chuẩn bị cho trận mở màn vòng loại cuối World Cup 2022 khu vực châu Á.
+Với	E	3	case
+31	N	3	nummod
+cầu thủ	N	12	obl
+trong	E	5	case
+tay	N	3	nmod
+,	CH	12	punct
+HLV	Ny	8	det:clf
+Park	Np	12	nsubj
+Hang	Np	8	nmod
+Seo	Np	9	compound
+sẽ	R	12	advmod
+rút	V	0	root
+gọn	A	12	obj
+còn	R	22	advmod
+23	M	18	nummod
+-	CH	15	flat:number
+25	M	15	flat:number
+cầu thủ	N	19	nsubj
+mang	V	12	conj
+sang	V	19	compound:dir
+Saudi Arabia	Np	19	obj
+chuẩn bị	V	12	conj
+cho	E	24	case
+trận	N	22	obl:comp
+mở màn	V	24	compound
+vòng	N	24	nmod
+loại	N	28	det:clf
+cuối	N	24	nmod
+World Cup	Np	28	compound
+2022	V	31	case
+khu vực	N	28	nmod
+châu Á	N	31	compound
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 414
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện tại, HLV Park Hang Seo vẫn giữ nguyên quân số phục vụ cho việc tập luyện, tuy nhiên nhiều cái tên sớm được đánh giá khó có suất ở lại tuyển Việt Nam.
+Hiện tại	N	7	mark
+,	CH	7	punct
+HLV	Ny	4	det:clf
+Park Hang	Np	7	nsubj
+Seo	Np	4	compound
+vẫn	R	7	advmod
+giữ	V	0	root
+nguyên	A	9	det
+quân số	N	7	obj
+phục vụ	V	7	xcomp
+cho	E	12	case
+việc	N	10	obl:comp
+tập luyện	V	12	nmod
+,	CH	23	punct
+tuy nhiên	C	21	mark
+nhiều	A	18	advmod:adj
+cái	Nc	16	clf
+tên	N	21	nsubj:pass
+sớm	A	18	amod
+được	R	21	aux:pass
+đánh giá	V	7	conj
+khó	A	21	acomp
+có	V	21	xcomp
+suất	N	23	obj
+ở	V	24	acl:subj
+lại	V	25	advmod
+tuyển	V	25	obl:comp
+Việt Nam	Np	27	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 415
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đáng chú ý, trên trang cá nhân, tiền vệ Tiến Anh đăng một dòng trạng thái đầy ẩn ý: "Những ngày cuối cùng đẹp nhất".
+Đáng	V	10	advcl
+chú ý	V	1	obj
+,	CH	1	punct
+trên	E	5	case
+trang	N	10	obl
+cá nhân	N	5	nmod
+,	CH	5	punct
+tiền vệ	N	9	det:clf
+Tiến Anh	Np	10	nsubj
+đăng	V	0	root
+một	M	12	nummod
+dòng	N	10	obj
+trạng thái	N	12	nmod
+đầy	A	13	amod
+ẩn ý	V	14	compound:adj
+:	CH	21	punct
+"	CH	21	punct
+Những	L	19	det
+ngày	N	21	nsubj
+cuối cùng	A	19	amod
+đẹp	A	15	parataxis
+nhất	R	21	advmod
+"	CH	21	punct
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 416
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thực tế, cơ hội với một tân binh như Tiến Anh không nhiều, chưa kể anh đang gặp phải vấn đề chấn thương phải nghỉ tập những ngày qua.
+Thực tế	N	10	nsubj
+,	CH	3	punct
+cơ hội	N	1	conj
+với	E	6	case
+một	M	6	nummod
+tân binh	N	3	nmod
+như	C	8	case
+Tiến Anh	Np	6	nmod
+không	R	10	advmod:neg
+nhiều	A	0	root
+,	CH	13	punct
+chưa	R	13	advmod:neg
+kể	V	10	conj
+anh	Nc	16	nsubj
+đang	R	16	advmod
+gặp	V	13	ccomp
+phải	V	16	advmod
+vấn đề	N	16	obj
+chấn thương	V	18	nmod
+phải	V	21	aux
+nghỉ	V	16	xcomp
+tập	V	21	xcomp
+những	L	24	det
+ngày	N	21	obj
+qua	V	24	amod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 417
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài Tiến Anh, hai tân binh còn lại của tuyển Việt Nam là Trương Văn Thiết và Phạm Tuấn Hải cũng bị hoài nghi về khả năng tranh suất đi Saudi Arabia.
+Ngoài	N	2	case
+Tiến Anh	Np	17	obl
+,	CH	2	punct
+hai	M	5	nummod
+tân binh	N	12	nsubj:nn
+còn	V	5	acl:subj
+lại	V	6	compound:svc
+của	E	9	case
+tuyển	N	5	nmod:poss
+Việt Nam	Np	9	nmod
+là	V	12	cop
+Trương Văn Thiết	Np	0	root
+và	C	14	cc
+Phạm Tuấn Hải	Np	12	conj
+cũng	R	17	advmod
+bị	V	17	aux:pass
+hoài nghi	V	12	conj
+về	E	19	case
+khả năng	N	17	obl:comp
+tranh	M	19	nmod
+suất	N	20	nmod
+đi	V	20	acl:subj
+Saudi Arabia	Np	22	obj
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 418
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dưới thời HLV Park Hang Seo, các gương mặt mới nếu không thể hiện năng lực đặc biệt vượt trội thì rất khó được trọng dụng.
+Dưới	E	2	case
+thời	N	17	obl
+HLV	Ny	2	nmod
+Park Hang Seo	Np	2	nmod
+,	CH	2	punct
+các	L	7	det
+gương mặt	N	11	nsubj
+mới	R	7	amod
+nếu	C	11	mark
+không	R	11	advmod:neg
+thể hiện	V	17	advcl
+năng lực	N	11	obj
+đặc biệt	A	12	amod
+vượt trội	V	13	obj
+thì	C	17	mark
+rất	R	17	advmod
+khó	A	0	root
+được	V	17	advmod
+trọng dụng	V	17	obj
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 419
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, thầy Park cũng loại những trường hợp chấn thương, trong đó đáng chú ý nhất là hậu vệ Đoàn Văn Hậu.
+Ngoài ra	C	6	mark
+,	CH	6	punct
+thầy	N	6	nsubj
+Park	Np	3	nmod
+cũng	R	6	advmod
+loại	N	0	root
+những	L	8	det
+trường hợp	N	6	obj
+chấn thương	A	8	amod
+,	CH	13	punct
+trong	E	12	case
+đó	P	13	obl
+đáng	V	6	conj
+chú ý	V	13	xcomp
+nhất	R	14	advmod
+là	V	17	cop
+hậu vệ	N	14	obj
+Đoàn Văn Hậu	Np	17	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 420
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kể từ ngày lên đội tuyển tập trung, cầu thủ người Thái Bình vẫn chưa thể ra sân tập chung cùng toàn đội.
+Kể	V	13	advcl
+từ	E	3	case
+ngày	N	13	obl:tmod
+lên	V	3	acl
+đội tuyển	N	4	obj
+tập trung	V	5	compound
+,	CH	13	punct
+cầu thủ	N	9	det:clf
+người	N	13	nsubj
+Thái Bình	Np	9	nmod
+vẫn	R	13	advmod
+chưa thể	R	13	advmod
+ra	V	0	root
+sân	N	13	obj
+tập	V	13	obj
+chung	A	15	amod
+cùng	C	19	case
+toàn	R	19	det
+đội	N	15	obl
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 421
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việc HLV Park Hang Seo dùng Văn Hậu ở thời điểm này là quá mạo hiểm, và hậu vệ cánh trái số 1 Việt Nam sẽ là "của để dành", một khi chấn thương sụn chêm đầu gối hoàn toàn bình phục.
+Việc	N	12	nsubj
+HLV	Ny	1	nmod
+Park Hang	Np	5	nsubj
+Seo	Np	5	advmod
+dùng	V	1	acl:subj
+Văn Hậu	Np	5	obj
+ở	E	8	case
+thời điểm	N	5	obl
+này	P	8	det:pmod
+là	V	12	cop
+quá	R	12	advmod
+mạo hiểm	A	0	root
+,	CH	12	punct
+và	C	22	cc
+hậu vệ	V	16	nummod
+cánh	N	22	nsubj
+trái	N	16	compound
+số	N	16	nmod
+1	M	18	nummod
+Việt Nam	Np	18	nmod
+sẽ	R	22	advmod
+là	V	12	cop
+"	CH	25	punct
+của	E	25	case
+để dành	N	22	obj
+"	CH	25	punct
+,	CH	29	punct
+một khi	X	29	det
+chấn thương	V	22	nsubj
+sụn	N	29	nmod
+chêm	V	32	case
+đầu gối	N	29	nmod
+hoàn toàn	A	34	advmod
+bình phục	V	32	nmod
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 422
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tiêu chí chọn cầu thủ của HLV Park Hang Seo luôn dựa vào phong độ, sự phù hợp với lối chơi.
+Tiêu chí	V	2	nsubj
+chọn	V	10	nsubj
+cầu thủ	N	2	obj
+của	E	5	case
+HLV	Ny	3	nmod:poss
+Park	Np	5	compound
+Hang	Np	5	nmod
+Seo	Np	7	compound
+luôn	R	10	advmod
+dựa	V	0	root
+vào	E	12	case
+phong độ	N	10	obl:comp
+,	CH	14	punct
+sự	N	10	conj
+phù hợp	V	14	amod
+với	E	17	case
+lối	N	14	obl
+chơi	V	17	compound:vmod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 423
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì thế, những gương mặt như Hồ Tuấn Tài, Lý Công Hoàng Anh, Văn Xuân... cũng đối mặt với nguy cơ vắng mặt giờ chót.
+Vì thế	C	14	mark
+,	CH	14	punct
+những	L	4	det
+gương mặt	N	14	nsubj
+như	C	6	case
+Hồ Tuấn Tài	Np	4	nmod
+,	CH	8	punct
+Lý Công	Np	6	conj
+Hoàng Anh	Np	6	conj
+,	CH	11	punct
+Văn Xuân	Np	6	conj
+...	CH	6	punct
+cũng	R	14	advmod
+đối mặt	V	0	root
+với	E	16	case
+nguy cơ	N	14	obl:with
+vắng mặt	V	14	obl
+giờ chót	N	17	compound
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 424
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Loại gần 10 cầu thủ, HLV Park Hang Seo có thể bổ sung Công Phượng và Văn Lâm vào phút cuối.
+Loại	N	9	obl:tmod
+gần	A	3	advmod:adj
+10	M	4	nummod
+cầu thủ	N	1	nmod
+,	CH	9	punct
+HLV	Ny	9	nsubj
+Park Hang Seo	Np	6	nmod
+có thể	R	9	advmod
+bổ sung Công	V	0	root
+Phượng	Np	9	obj
+và	C	12	cc
+Văn Lâm	Np	9	conj
+vào	E	14	case
+phút	N	12	obl:tmod
+cuối	N	14	nmod
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 425
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông thầy người Hàn sẽ cân nhắc, vì Công Phượng không có tên trong danh sách 31 người tập trung vì bận việc gia đình, còn Văn Lâm không được CLB chủ quản nhả về nước sớm.
+Ông	Nc	2	det:clf
+thầy	N	6	nsubj
+người	Nc	4	det:clf
+Hàn	Np	2	nmod
+sẽ	R	6	advmod
+cân nhắc	V	0	root
+,	CH	11	punct
+vì	E	11	mark
+Công Phượng	Np	11	nsubj
+không	R	11	advmod:neg
+có	V	6	advcl
+tên	N	11	obj
+trong	E	14	case
+danh sách	N	11	obl
+31	M	16	nummod
+người	N	14	nmod
+tập trung	V	16	acl:subj
+vì	E	19	case
+bận	V	17	obl
+việc	N	19	nmod
+gia đình	N	20	nmod
+,	CH	27	punct
+còn	C	27	cc
+Văn Lâm	Np	26	nsubj
+không	R	26	advmod:neg
+được	V	27	aux:pass
+CLB	Ny	6	conj
+chủ quản	V	27	nmod
+nhả	N	28	amod
+về	V	31	case
+nước	N	27	obl
+sớm	A	31	amod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 426
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = HLV Solskjaer đang ra sức thuyết phục BLĐ Quỷ đỏ sớm gia hạn hợp đồng với 5 cầu thủ quan trọng của MU.
+HLV	Ny	2	det:clf
+Solskjaer	Np	4	nsubj
+đang	R	4	advmod
+ra sức	V	0	root
+thuyết phục	V	4	obj
+BLĐ Quỷ	Np	5	nmod
+đỏ	A	5	amod
+sớm	A	7	advmod:adj
+gia hạn	V	10	nummod
+hợp đồng	N	7	obj
+với	E	13	case
+5	M	13	nummod
+cầu thủ	N	7	obl
+quan trọng	A	13	amod
+của	E	16	case
+MU	Np	13	nmod:poss
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 427
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đội bóng thành Manchester khởi đầu mùa giải mới tưng bừng với chiến thắng 5-1 trước Leeds United, với cú hat-trick của Bruno Fernandes.
+Đội	N	9	nsubj
+bóng	N	1	nmod
+thành	V	2	compound
+Manchester	Np	1	nmod
+khởi đầu	V	4	compound
+mùa	N	1	nmod
+giải	N	6	compound
+mới	R	9	advmod
+tưng bừng	A	0	root
+với	E	11	case
+chiến thắng	N	9	obl
+5-1	V	11	compound
+trước	N	14	case
+Leeds United	Np	11	nmod
+,	CH	18	punct
+với	E	18	case
+cú	N	18	det:clf
+hat-trick	V	11	conj
+của	E	20	case
+Bruno Fernandes	Np	18	nmod:poss
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 428
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tiền vệ người Bồ Đào Nha chuyển đến Old Trafford đầu năm 2020 với mức phí 47 triệu bảng và ngay lập tức trở thành hạt nhân chính trong lối chơi của Quỷ đỏ.
+Tiền vệ	N	2	nummod
+người	N	5	nsubj
+Bồ Đào	Np	2	compound
+Nha	Np	3	punct
+chuyển	V	0	root
+đến	E	7	case
+Old Trafford	Np	5	obl:comp
+đầu	N	7	compound
+năm	N	8	nmod
+2020	M	9	compound
+với	E	12	case
+mức	N	5	obl
+phí	N	12	compound
+47	M	16	nummod
+triệu	M	16	nummod
+bảng	N	12	nmod
+và	C	19	cc
+ngay lập tức	R	19	advmod
+trở thành	V	5	conj
+hạt	N	19	obj
+nhân	N	19	obj
+chính	T	21	amod
+trong	E	24	case
+lối	N	19	obl
+chơi	V	24	compound:vmod
+của	E	27	case
+Quỷ	Np	24	nmod:poss
+đỏ	A	27	amod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 429
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mặc dù vậy, Bruno Fernandes đang nhận mức lương 100.000 bảng/tuần, khoản thù lao kém xa so với nhiều đồng đội khác, đặc biệt David De Gea (375.000 bảng/tuần).
+Mặc dù	C	6	cc
+vậy	P	6	obl
+,	CH	6	punct
+Bruno Fernandes	Np	6	nsubj
+đang	R	6	advmod
+nhận	V	0	root
+mức	N	6	obj
+lương	N	7	nmod
+100.000	M	10	nummod
+bảng	N	7	nmod
+/	CH	12	punct
+tuần	N	10	nmod
+,	CH	17	punct
+khoản	N	6	nsubj
+thù lao	V	14	nmod
+kém	A	15	amod
+xa	A	15	amod
+so	V	17	advmod:adj
+với	E	21	case
+nhiều	A	21	det
+đồng đội	N	18	obl
+khác	A	21	amod
+,	CH	24	punct
+đặc biệt	A	21	conj
+David De Gea	Np	24	nmod
+(	CH	28	punct
+375.000	V	28	nummod
+bảng	N	24	appos:nmod
+/	CH	30	punct
+tuần	N	28	nmod
+)	CH	28	punct
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 430
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Solskjaer muốn các bản hợp đồng phải phản ánh đúng giá trị của cầu thủ.
+Solskjaer	Np	2	nsubj
+muốn	V	0	root
+các	L	5	det
+bản	Nc	3	clf
+hợp đồng	N	7	nsubj
+phải	V	7	aux
+phản ánh	V	2	ccomp
+đúng	A	9	advmod:adj
+giá trị	N	7	obj
+của	E	11	case
+cầu thủ	N	9	nmod:poss
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 431
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nên, ông mong lãnh đạo MU sớm trọng thưởng Bruno Fernandes và 4 nhân tố khác bằng những giao kèo mới hậu hĩnh.
+Thế	P	2	discourse
+nên	C	5	obl:tmod
+,	CH	5	punct
+ông	Nc	5	nsubj
+mong	V	0	root
+lãnh đạo	N	5	obj
+MU	Np	6	nmod
+sớm	A	7	advmod:adj
+trọng thưởng	N	10	nummod
+Bruno Fernandes	Np	7	nmod
+và	C	13	cc
+4	M	13	nummod
+nhân tố	N	9	conj
+khác	A	13	amod
+bằng	E	17	case
+những	L	17	det
+giao kèo	N	13	nmod
+mới	R	19	advmod
+hậu hĩnh	V	17	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 432
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo The Sun, đội trưởng Harry Maguire, Marcus Rashford và Luke Shaw cũng sẽ nhận được hợp đồng kèm mức lương mới.
+Theo	V	12	advcl
+The Sun	Np	1	obj
+,	CH	1	punct
+đội trưởng	N	2	conj
+Harry Maguire	Np	4	nmod
+,	CH	7	punct
+Marcus Rashford	Np	2	conj
+và	C	9	cc
+Luke Shaw	Np	4	conj
+cũng	R	12	advmod
+sẽ	R	12	advmod
+nhận	V	0	root
+được	R	12	advmod
+hợp đồng	N	12	obj
+kèm	V	14	acl:subj
+mức	N	15	obj
+lương	N	16	nmod
+mới	A	17	amod
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 433
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong khi các cuộc đàm phán gia hạn Paul Pogba vẫn đang diễn ra.
+Trong	E	2	case
+khi	N	10	obl:tmod
+các	L	4	det
+cuộc	N	10	nsubj
+đàm phán	V	4	nmod
+gia hạn	N	4	nmod
+Paul Pogba	Np	4	nmod
+vẫn	R	10	advmod
+đang	R	10	advmod
+diễn	V	0	root
+ra	V	10	compound:svc
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 434
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện bộ ba Maguire, Rashford cùng Shaw đều kiếm dưới 200.000 bảng mỗi tuần.
+Hiện bộ ba	N	8	nsubj
+Maguire	Np	8	nsubj
+,	CH	4	punct
+Rashford	Np	2	conj
+cùng	C	6	cc
+Shaw	Np	4	conj
+đều	R	8	advmod
+kiếm	V	0	root
+dưới	E	11	case
+200.000	M	8	obl
+bảng	N	8	obl:comp
+mỗi	L	13	det
+tuần	N	10	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 435
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Solskjaer hy vọng, họ cùng Bruno sẽ được nâng lương lên từ 250.000 bảng đến 300.000 bảng/tuần.
+Solskjaer	Np	2	nummod
+hy vọng	V	9	nsubj
+,	CH	2	punct
+họ	P	9	nsubj
+cùng	A	6	cc
+Bruno	Np	4	conj
+sẽ	R	9	advmod
+được	V	9	aux:pass
+nâng	V	0	root
+lương	N	9	obj
+lên	V	9	xcomp
+từ	E	13	case
+250.000	N	9	obl
+bảng	N	13	compound
+đến	E	17	discourse
+300.000	M	17	nummod
+bảng	N	13	nmod
+/	CH	19	punct
+tuần	N	17	nmod
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 436
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giao kèo hiện tại của thủ quân Maguire còn thời hạn đến 2025.
+Giao kèo	N	7	nsubj
+hiện tại	N	1	nmod
+của	E	4	case
+thủ quân	N	1	nmod:poss
+Maguire	Np	4	compound
+còn	R	7	advmod
+thời hạn	V	0	root
+đến	V	9	case
+2025	V	7	obl:comp
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 437
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong khi đó, hợp đồng giữa Rashford và Luke Shaw với MU sẽ kết thúc vào hè 2023, kèm theo điều khoản gia hạn thêm 1 năm khác.
+Trong	E	2	case
+khi	N	13	obl:tmod
+đó	P	2	det:pmod
+,	CH	13	punct
+hợp đồng	N	13	nsubj
+giữa	E	7	case
+Rashford	Np	5	nmod
+và	C	9	cc
+Luke Shaw	Np	7	conj
+với	E	11	case
+MU	Np	7	conj
+sẽ	R	13	advmod
+kết thúc	V	0	root
+vào	E	15	case
+hè	N	13	obl:comp
+2023	N	15	compound
+,	CH	18	punct
+kèm	V	13	conj
+theo	V	20	case
+điều khoản	N	18	obl:comp
+gia hạn	V	20	compound
+thêm	V	21	acl:subj
+1	M	24	nummod
+năm	N	22	obj
+khác	A	24	amod
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 438
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường hợp Pogba tạo sức ép nhiều hơn lên ban lãnh đạo bởi tiền vệ người Pháp chỉ còn thời hạn 11 tháng hợp đồng.
+Trường hợp	N	3	nsubj
+Pogba	Np	3	nsubj
+tạo	V	0	root
+sức ép	N	3	obj
+nhiều	A	3	acomp
+hơn	A	5	advmod
+lên	V	8	case
+ban	N	5	obl:comp
+lãnh đạo	N	8	compound
+bởi	E	15	mark
+tiền vệ	N	12	det
+người	N	15	nsubj
+Pháp	Np	12	compound
+chỉ	R	15	advmod
+còn	V	3	parataxis
+thời hạn	N	15	obj
+11	M	18	nummod
+tháng	N	15	obj
+hợp đồng	M	18	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 439
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Paul Pogba được phép tự do đàm phán với các đội bóng ngoài nước Anh kể từ đầu năm 2022.
+Paul	Np	2	det:clf
+Pogba	Np	4	nsubj:pass
+được	V	4	aux:pass
+phép	N	0	root
+tự do	A	4	compound
+đàm phán	V	4	amod
+với	E	9	case
+các	L	9	det
+đội	N	4	obl
+bóng	N	9	nmod
+ngoài	E	12	case
+nước	N	9	nmod
+Anh	Np	12	nmod
+kể	V	12	nmod
+từ	E	16	case
+đầu	N	14	obl
+năm	N	16	nmod
+2022	M	17	compound
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 440
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu không thể thuyết phục cầu thủ 28 tuổi này ký tiếp, MU sẽ đối diện nguy cơ mất trắng Pogba.
+Nếu	C	3	mark
+không thể	R	3	advmod:neg
+thuyết phục	V	13	advcl
+cầu thủ	N	3	obj
+28	M	6	nummod
+tuổi	N	8	nsubj
+này	P	6	det:pmod
+ký	V	3	ccomp
+tiếp	V	8	advmod
+,	CH	13	punct
+MU	Np	13	nsubj
+sẽ	R	13	advmod
+đối diện	V	0	root
+nguy cơ	N	13	obj
+mất trắng	V	13	obj
+Pogba	Np	15	compound
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 441
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một Messi ‘siêu phàm’ sẽ không giải quyết được vấn đề trên sân của PSG, chưa kể những rắc rối có thể xảy ra ở phòng thay đồ Parc des Princes.
+Một	M	2	nummod
+Messi	Np	8	nsubj
+‘	V	4	punct
+siêu phàm	N	2	nmod
+’	V	4	punct
+sẽ	R	8	advmod
+không	R	8	advmod:neg
+giải quyết	V	0	root
+được	V	8	advmod
+vấn đề	N	8	obj
+trên	E	12	case
+sân	N	10	nmod
+của	E	14	case
+PSG	Np	12	nmod:poss
+,	CH	17	punct
+chưa	R	17	advmod
+kể	V	8	conj
+những	L	19	det
+rắc rối	N	21	nsubj
+có thể	R	21	advmod
+xảy	V	17	ccomp
+ra	V	21	compound:svc
+ở	E	24	case
+phòng	N	21	obl:comp
+thay	V	24	compound
+đồ	N	24	nmod
+Parc	Np	26	compound
+des	V	27	compound
+Princes	Np	28	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 442
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = PSG trải qua mùa hè mua sắm rầm rộ với Wijnaldum (Liverpool), Hakimi (Inter Milan), Donnarumma (AC Milan), Sergio Ramos (Real Madrid) và đặc biệt là Messi từ Barca, tất cả đều theo dạng chuyển nhượng tự do.
+PSG	Np	2	nsubj
+trải	V	37	advcl
+qua	V	2	compound:dir
+mùa	N	2	obl:comp
+hè	N	4	compound
+mua sắm	V	5	compound
+rầm rộ	A	6	compound
+với	E	9	case
+Wijnaldum	Np	2	obl
+(	CH	11	punct
+Liverpool	Np	9	appos:nmod
+)	CH	11	punct
+,	CH	14	punct
+Hakimi	Np	9	conj
+(	CH	16	punct
+Inter Milan	Np	14	appos:nmod
+)	CH	16	punct
+,	CH	19	punct
+Donnarumma	Np	2	conj
+(	CH	21	punct
+AC Milan	Np	19	appos:nmod
+)	CH	21	punct
+,	CH	24	punct
+Sergio Ramos	Np	2	conj
+(	CH	26	punct
+Real Madrid	Np	24	appos:nmod
+)	CH	26	punct
+và	C	31	cc
+đặc biệt	A	31	advmod
+là	C	31	cop
+Messi	Np	37	advcl
+từ	E	33	case
+Barca	Np	31	obl:comp
+,	CH	37	punct
+tất cả	P	37	nsubj
+đều	R	37	advmod
+theo	V	0	root
+dạng	N	37	obj
+chuyển nhượng	V	38	acl:subj
+tự do	A	39	compound
+.	CH	37	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 443
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thierry Henry từng là đồng đội với Messi ở Barca, họ cùng nhau trải qua năm 2009 với cú ăn 6 thần thánh thời Pep Guardiola
+Thierry	Np	2	det:clf
+Henry	Np	14	nsubj
+từng	R	5	advmod
+là	V	5	cop
+đồng đội	N	14	csubj
+với	E	7	case
+Messi	Np	5	obl:with
+ở	E	9	case
+Barca	Np	7	nmod
+,	CH	14	punct
+họ	P	14	nsubj
+cùng	A	13	cc
+nhau	N	14	obj
+trải	V	0	root
+qua	V	16	case
+năm	N	14	obj
+2009	M	16	compound
+với	E	19	case
+cú	N	14	obl
+ăn	V	19	compound
+6	M	23	nummod
+thần thánh	N	21	flat:number
+thời	N	19	nmod
+Pep	Np	23	nmod
+Guardiola	Np	14	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 444
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cùng với lực lượng sẵn có, HLV Pochettinothực sự sở hữu siêu đội hình trong tay, khiến người ta phải ghen tị.
+Cùng	C	5	advcl
+với	E	3	case
+lực lượng	N	5	obl
+sẵn	A	3	amod
+có	V	16	advcl
+,	CH	8	punct
+HLV	Ny	8	nsubj
+Pochettinothực	Np	16	csubj
+sự	N	8	obj
+sở hữu	V	9	nmod
+siêu	Z	10	obj
+đội hình	N	11	compound
+trong	E	14	case
+tay	N	11	nmod
+,	CH	16	punct
+khiến	V	0	root
+người ta	P	16	obj
+phải	V	19	aux
+ghen tị	V	16	ccomp
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 445
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng đó cũng sẽ là sức ép cho cựu thuyền trưởng Tottenham, bởi chỉ có danh hiệu Champions League mới được xem là tương xứng với sức mạnh PSG.
+Nhưng	C	6	mark
+đó	P	6	nsubj
+cũng	R	6	advmod
+sẽ	R	6	advmod
+là	V	6	cop
+sức ép	N	0	root
+cho	E	8	case
+cựu	A	6	obl:comp
+thuyền trưởng	N	8	compound
+Tottenham	Np	9	compound
+,	CH	19	punct
+bởi	E	14	mark
+chỉ	R	14	advmod
+có	V	19	advcl
+danh hiệu	N	14	obj
+Champions League	Np	15	nmod
+mới	R	19	advmod
+được	V	19	aux:pass
+xem	V	6	conj
+là	C	21	cop
+tương xứng	N	19	obl:comp
+với	E	23	case
+sức mạnh	N	21	obl
+PSG	Np	23	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 446
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, cựu tiền đạo Thierry Henry vừa đưa ra cảnh báo lớn cho PSG và HLV Pochettino, cho thấy vấn đề của đội bóng nước Pháp mà Messi siêu phàm cũng chẳng thể giúp.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+cựu	A	4	det:clf
+tiền đạo	N	7	nsubj
+Thierry Henry	Np	7	nsubj
+vừa	R	7	advmod
+đưa	V	0	root
+ra	V	7	compound:dir
+cảnh báo	N	7	obj
+lớn	A	9	amod
+cho	E	12	case
+PSG	Np	7	obl:comp
+và	C	14	cc
+HLV	Ny	12	conj
+Pochettino	Np	14	compound
+,	CH	17	punct
+cho	V	7	conj
+thấy	V	17	compound:svc
+vấn đề	N	18	obj
+của	E	21	case
+đội	N	19	nmod:poss
+bóng	N	21	nmod
+nước	N	21	nmod
+Pháp	Np	23	compound
+mà	C	30	mark
+Messi	Np	30	nsubj
+siêu phàm	V	26	nmod
+cũng	R	29	advmod
+chẳng thể	R	30	advmod
+giúp	V	17	conj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 447
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sự cân bằng là quan trọng nhất.
+Sự	N	4	nsubj
+cân bằng	V	1	amod
+là	V	4	cop
+quan trọng	A	0	root
+nhất	R	4	advmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 448
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta luôn nói về những cầu thủ xuất sắc và khả năng tấn công, nhưng chúng ta cũng cần sự cân bằng.
+Chúng ta	P	3	nsubj
+luôn	R	3	advmod
+nói	V	0	root
+về	E	6	case
+những	L	6	det
+cầu thủ	N	3	obl:comp
+xuất sắc	A	6	amod
+và	C	9	cc
+khả năng	N	6	conj
+tấn công	V	9	compound:vmod
+,	CH	15	punct
+nhưng	C	15	mark
+chúng ta	P	15	nsubj
+cũng	R	15	advmod
+cần	V	3	conj
+sự	N	15	obj
+cân bằng	V	16	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 449
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta bàn về đội bóng mà tôi đã chơi ở Barca (với cú ăn 6 mùa trong năm 2009), nhưng mọi người quên rằng chúng tôi không để thủng lưới nhiều.
+Chúng ta	P	2	det:clf
+bàn	V	26	nsubj
+về	E	4	case
+đội	N	2	nmod
+bóng	N	4	compound
+mà	C	9	mark
+tôi	P	9	nsubj
+đã	R	9	advmod
+chơi	V	4	ccomp
+ở	E	11	case
+Barca	Np	9	obl:comp
+(	CH	14	punct
+với	E	14	case
+cú	N	11	appos:nmod
+ăn	V	14	compound
+6	M	17	nummod
+mùa	N	14	nmod
+trong	E	19	case
+năm	N	17	nmod
+2009	M	19	compound
+)	CH	14	punct
+,	CH	26	punct
+nhưng	C	26	mark
+mọi	L	25	det
+người	N	26	nsubj
+quên	V	0	root
+rằng	C	30	mark
+chúng tôi	P	30	nsubj
+không	R	30	advmod:neg
+để	V	26	ccomp
+thủng lưới	V	30	obj
+nhiều	A	31	amod
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 450
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhìn chung, những đội không để lọt lưới nhiều thường không cách xa danh hiệu, thậm chí là Champions League.
+Nhìn chung	N	6	nsubj
+,	CH	6	punct
+những	L	4	det
+đội	N	6	nsubj
+không	R	6	advmod:neg
+để	V	0	root
+lọt lưới	V	6	obj
+nhiều	A	6	advmod:adj
+thường	R	11	advmod
+không	R	11	advmod:neg
+cách	V	6	conj
+xa	A	11	acomp
+danh hiệu	N	12	obj
+,	CH	17	punct
+thậm chí	R	17	advmod
+là	V	17	cop
+Champions League	Np	11	conj
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 451
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi bạn có những cầu thủ siêu phàm, điều đó dễ dàng hơn một chút.
+Khi	N	10	obl:tmod
+bạn	N	3	nsubj
+có	V	1	acl:tmod
+những	L	5	det
+cầu thủ	N	3	obj
+siêu phàm	A	5	nmod
+,	CH	10	punct
+điều	N	10	nsubj
+đó	P	8	det:pmod
+dễ dàng	A	0	root
+hơn	A	10	advmod:adj
+một chút	L	10	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 452
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng tôi thấy PSG hiện tại đang để thủng lưới quá nhiều.
+Nhưng	C	3	mark
+tôi	P	3	nsubj
+thấy	V	0	root
+PSG	Np	3	obj
+hiện tại	N	7	nsubj
+đang	R	7	advmod
+để	E	3	ccomp
+thủng lưới	V	7	obj
+quá	R	10	advmod
+nhiều	A	7	acomp
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 453
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nên nhớ, sự cân bằng là điều quan trọng nhất đối với một đội bóng.
+Nên	V	2	mark
+nhớ	V	7	advcl
+,	CH	7	punct
+sự	N	7	nsubj
+cân bằng	V	4	amod
+là	V	7	cop
+điều	N	0	root
+quan trọng	A	7	amod
+nhất	A	8	advmod
+đối với	E	12	case
+một	M	12	nummod
+đội	N	7	obl
+bóng	N	12	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 454
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện Ligue 1 đi qua 2 vòng đấu, PSG thắng cả 2, ghi 6 bàn nhưng cũng để thủng lưới tới 3 bàn, cho dù toàn đối thủ kém hơn hẳn: tân binh thăng hạng Troyes (2-1) và Strasbourg (4-2) - đối thủ kết thúc hạng 15 ở mùa giải trước.
+Hiện	N	4	obl:tmod
+Ligue	Np	1	nmod
+1	M	2	flat:date
+đi	V	0	root
+qua	R	4	case
+2	M	7	nummod
+vòng	N	4	obl:comp
+đấu	V	7	compound
+,	CH	10	punct
+PSG	Np	7	conj
+thắng	V	10	nmod
+cả	T	13	det
+2	M	10	nmod
+,	CH	15	punct
+ghi	V	7	conj
+6	M	17	nummod
+bàn	N	15	nmod
+nhưng	C	20	mark
+cũng	R	20	advmod
+để	E	21	mark:pcomp
+thủng lưới	V	4	conj
+tới	E	24	discourse
+3	M	24	nummod
+bàn	N	21	obj
+,	CH	29	punct
+cho dù	C	21	mark
+toàn	R	28	det
+đối thủ	N	26	nmod
+kém	A	28	amod
+hơn	A	29	acomp
+hẳn	R	30	compound:adj
+:	CH	33	punct
+tân binh	V	28	appos:nmod
+thăng	N	33	compound
+hạng	N	33	nmod
+Troyes	Np	35	compound
+(	CH	38	punct
+2-1	M	35	appos:nmod
+)	CH	38	punct
+và	C	41	cc
+Strasbourg	Np	33	conj
+(	CH	43	punct
+4-2	M	41	appos:nmod
+)	CH	43	punct
+-	CH	47	punct
+đối thủ	N	33	conj
+kết thúc	V	26	parataxis
+hạng	N	47	obj
+15	M	48	compound
+ở	E	51	case
+mùa	N	47	obl
+giải	N	51	compound
+trước	N	51	compound
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 455
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Rõ ràng, cảnh báo của Henry cho PSG là vấn đề đáng ngại mà HLV Pochettino cần giải quyết triệt để, mới hy vọng chiến thắng các danh hiệu.
+Rõ ràng	A	9	nsubj
+,	CH	9	punct
+cảnh báo	N	9	nsubj
+của	E	5	case
+Henry	Np	3	nmod:poss
+cho	E	7	case
+PSG	Np	5	nmod
+là	V	9	cop
+vấn đề	N	0	root
+đáng	V	9	acl:subj
+ngại	V	10	obj
+mà	C	16	mark
+HLV	Ny	16	nsubj
+Pochettino	Np	16	nsubj
+cần	V	16	aux
+giải quyết	V	9	conj
+triệt để	A	16	acomp
+,	CH	20	punct
+mới	R	20	advmod
+hy vọng	V	16	conj
+chiến thắng	V	23	case
+các	L	23	det
+danh hiệu	N	20	obl
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 456
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = MU theo đuổi Bissouma, Atletico quan tâm Bellerin, Real Madrid có ý mua lại Cristiano Ronaldo là những tin bóng đá chính hôm nay, 17/8.
+MU	Np	2	nummod
+theo đuổi	V	10	nsubj
+Bissouma	Np	2	nmod
+,	CH	6	punct
+Atletico	Np	6	nsubj
+quan tâm	V	2	conj
+Bellerin	Np	6	obj
+,	CH	10	punct
+Real Madrid	Np	10	nsubj
+có	V	0	root
+ý	N	10	obj
+mua	V	11	acl:subj
+lại	V	12	compound:svc
+Cristiano Ronaldo	Np	12	obj
+là	V	17	cop
+những	L	17	det
+tin	N	12	obj
+bóng đá	N	17	compound
+chính	T	17	amod
+hôm nay	N	17	nmod
+,	CH	22	punct
+17/8	N	20	conj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 457
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong trường hợp buộc phải để Paul Pogba ra đi, MU xem xét chiêu mộ Yves Bissouma để bổ sung cho hàng tiền vệ.
+Trong	E	2	case
+trường hợp	N	11	obl
+buộc	V	2	compound:vmod
+phải	V	5	aux
+để	E	3	xcomp
+Paul Pogba	Np	5	obj
+ra	V	6	acl:subj
+đi	V	7	compound:svc
+,	CH	11	punct
+MU	Np	11	nsubj
+xem xét	V	0	root
+chiêu mộ	N	11	obj
+Yves Bissouma	Np	12	nmod
+để	E	15	mark:pcomp
+bổ sung	V	11	advcl:objective
+cho	E	17	case
+hàng	N	15	obl:iobj
+tiền vệ	N	17	compound
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 458
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các quan chức phụ trách thể thao của MU đang phân tích kỹ về năng lực của Bissouma.
+Các	L	2	det
+quan chức	N	8	nsubj
+phụ trách	V	2	nmod
+thể thao	N	3	obj
+của	E	6	case
+MU	Np	2	nmod:poss
+đang	R	8	advmod
+phân tích	V	0	root
+kỹ	A	8	advmod:adj
+về	E	11	case
+năng lực	N	8	obl:comp
+của	E	13	case
+Bissouma	Np	11	nmod:poss
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 459
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bissouma vừa thi đấu nổi bật, là điểm tựa để Brighton ngược dòng thắng 2-1 trên sân Burnley ở vòng 1 Premier League 2021-22.
+Bissouma	Np	3	nsubj
+vừa	R	3	advmod
+thi đấu	V	0	root
+nổi bật	A	3	obj
+,	CH	7	punct
+là	V	7	cop
+điểm tựa	N	3	conj
+để	E	7	acl:subj
+Brighton	Np	8	xcomp
+ngược	A	11	advmod:adj
+dòng	N	12	det:clf
+thắng	V	9	obj
+2-1	V	12	amod
+trên	E	15	case
+sân	N	9	obl
+Burnley	Np	15	compound
+ở	E	18	case
+vòng	N	15	nmod
+1	M	18	compound
+Premier League	Np	21	punct
+2021	M	18	flat:date
+-	CH	23	punct
+22	M	19	flat:number
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 460
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = The Sun đưa tin, MU bị thuyết phục bởi kỹ năng của Bissouma, đặc biệt là khả năng đánh chặn và che chắn từ xa cho hàng phòng ngự.
+The	Np	3	nsubj
+Sun	Np	3	nsubj
+đưa	V	0	root
+tin	N	3	obj
+,	CH	8	punct
+MU	Np	8	nsubj:pass
+bị	V	8	aux:pass
+thuyết phục	V	3	conj
+bởi	E	10	case
+kỹ năng	N	8	obl:comp
+của	E	12	case
+Bissouma	Np	10	nmod:poss
+,	CH	16	punct
+đặc biệt	A	16	csubj:asubj
+là	C	16	cop
+khả năng	N	3	conj
+đánh	V	16	acl:subj
+chặn	V	17	obj
+và	C	20	cc
+che chắn	V	18	conj
+từ	E	22	case
+xa	A	20	obl
+cho	E	24	case
+hàng	N	22	nmod
+phòng ngự	V	24	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 461
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tiền vệ 24 tuổi người Mali có giá không quá cao (khoảng 30 triệu bảng).
+Tiền vệ	N	3	nummod
+24	M	3	nummod
+tuổi	N	6	nsubj
+người	N	3	nmod
+Mali	Np	4	compound
+có	V	0	root
+giá	N	6	obj
+không	R	10	advmod:neg
+quá	R	10	advmod
+cao	A	7	acl:subj
+(	CH	12	punct
+khoảng	N	10	appos:nmod
+30	M	15	nummod
+triệu	M	13	flat:number
+bảng	N	12	nmod
+)	CH	12	punct
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 462
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hơn nữa, anh không có vấn đề về thị thực nên có thể ra mắt MU ngay lập tức.
+Hơn nữa	C	11	cc
+,	CH	11	punct
+anh	Nc	5	nsubj
+không	R	5	advmod:neg
+có	V	11	advcl
+vấn đề	N	5	obj
+về	V	6	acl:subj
+thị thực	V	7	obj
+nên	C	11	mark
+có thể	R	11	aux
+ra mắt	V	0	root
+MU	Np	11	obj
+ngay lập tức	R	11	advmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 463
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo báo chí Tây Ban Nha, Atletico đang theo dõi Hector Bellerin như một giải pháp thay thế Kieran Trippier.
+Theo	V	8	advcl
+báo chí	N	1	obj
+Tây	Np	2	compound
+Ban Nha	Np	2	nmod
+,	CH	1	punct
+Atletico	Np	8	nsubj
+đang	R	8	advmod
+theo dõi	V	0	root
+Hector Bellerin	Np	8	obj
+như	C	12	case
+một	M	12	nummod
+giải pháp	N	8	obl
+thay thế	V	12	nmod
+Kieran Trippier	Np	13	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 464
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Atletico không có ý định bán Trippier.
+Atletico	Np	3	nsubj
+không	R	3	advmod:neg
+có	V	0	root
+ý định	N	3	obj
+bán	V	4	acl:subj
+Trippier	Np	5	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 465
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mặc dù vậy, cầu thủ người Anh một mực muốn được trở lại Premier League khoác áo MU.
+Mặc dù	C	10	cc
+vậy	P	10	obl
+,	CH	10	punct
+cầu thủ	N	5	det:clf
+người	N	10	nsubj
+Anh	Np	7	det:clf
+một mực	R	5	nmod
+muốn	V	10	aux
+được	R	10	aux:pass
+trở lại	V	0	root
+Premier League	Np	12	nummod
+khoác	V	10	obj
+áo	N	12	nmod
+MU	Np	13	compound
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 466
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu không thể thuyết phục Trippier ở lại, Atletico phải có người thay thế trong thời gian sớm nhất, khi La Liga đã khởi tranh từ cuối tuần qua.
+Nếu	C	3	mark
+không thể	R	3	advmod:neg
+thuyết phục	V	10	advcl
+Trippier	Np	3	obj
+ở	V	6	case
+lại	V	3	obl
+,	CH	10	punct
+Atletico	Np	10	nsubj
+phải	V	10	aux
+có	V	0	root
+người	N	10	obj
+thay thế	V	11	acl:subj
+trong	E	14	case
+thời gian	N	12	obl
+sớm	A	14	amod
+nhất	A	15	nummod
+,	CH	18	punct
+khi	N	14	obl:tmod
+La Liga	Np	21	nsubj
+đã	R	21	advmod
+khởi tranh	V	18	acl:tmod
+từ	E	23	case
+cuối	N	21	obl:tmod
+tuần	N	23	nmod
+qua	V	24	amod
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 467
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bellerin công khai kế hoạch rời Arsenal để làm lại sự nghiệp, khi Pháo thủ sa sút và bản thân anh cũng gặp nhiều khó khăn.
+Bellerin	Np	2	nsubj
+công khai	V	0	root
+kế hoạch	N	2	obj
+rời	V	3	acl:subj
+Arsenal	Np	4	obj
+để	E	7	mark:pcomp
+làm	V	4	advcl:objective
+lại	V	7	compound:svc
+sự nghiệp	N	7	obj
+,	CH	18	punct
+khi	N	18	obl:tmod
+Pháo thủ	V	11	nmod
+sa sút	N	12	compound
+và	C	15	cc
+bản thân	N	13	conj
+anh	Nc	15	nmod
+cũng	R	18	advmod
+gặp	V	2	conj
+nhiều	A	20	advmod:adj
+khó khăn	N	18	obj
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 468
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Atletico dự định đàm phán Bellerin trong mức giá khoảng 20 triệu euro.
+Atletico	Np	2	nummod
+dự định	V	0	root
+đàm phán	N	2	nmod
+Bellerin	Np	3	compound
+trong	E	6	case
+mức	N	2	obl
+giá	N	6	compound
+khoảng	A	6	nmod
+20	M	11	nummod
+triệu	M	9	flat:number
+euro	Nu	8	nmod
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 469
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bên cạnh diễn biến liên quan đến Man City, Real Madrid cũng đang có ý định mua lại Cristiano Ronaldo.
+Bên	N	4	obl
+cạnh	N	1	compound
+diễn biến	N	1	nmod
+liên quan	V	0	root
+đến	E	6	case
+Man City	Np	4	obl:comp
+,	CH	11	punct
+Real Madrid	Np	11	nsubj
+cũng	R	11	advmod
+đang	R	11	advmod
+có	V	4	conj
+ý định	N	11	obj
+mua	V	12	acl:subj
+lại	V	13	advmod
+Cristiano Ronaldo	Np	13	obj
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 470
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhà báo Edu Aguirre của chương trình El Chiringuito tiết lộ, HLV Carlo Ancelotti đã thảo luận với Chủ tịch Florentino Perez về việc đưa Ronaldo trở lại sân Bernabeu.
+Nhà báo	N	11	nsubj
+Edu Aguirre	Np	11	nsubj
+của	E	4	case
+chương trình	N	2	nmod:poss
+El Chiringuito	Np	4	compound
+tiết lộ	V	4	nmod
+,	CH	8	punct
+HLV	Ny	4	conj
+Carlo Ancelotti	Np	8	compound
+đã	R	11	advmod
+thảo luận	V	0	root
+với	E	13	case
+Chủ tịch	N	11	obl:with
+Florentino Perez	Np	13	compound
+về	E	16	case
+việc	N	11	obl
+đưa	V	16	acl:subj
+Ronaldo	Np	17	obj
+trở lại	V	17	xcomp
+sân	N	17	obj
+Bernabeu	Np	20	compound
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 471
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ronaldo vẫn còn nhiều người bạn ở Real Madrid.
+Ronaldo	Np	3	nsubj
+vẫn	R	3	advmod
+còn	V	0	root
+nhiều	A	5	advmod:adj
+người	Nc	3	obj
+bạn	N	5	compound
+ở	E	8	case
+Real Madrid	Np	3	obl:comp
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 472
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đặc biệt, mối quan hệ giữa anh với HLV Ancelotti rất tốt đẹp.
+Đặc biệt	A	11	cc
+,	CH	11	punct
+mối	N	11	nsubj
+quan hệ	N	3	nmod
+giữa	E	6	case
+anh	Nc	3	nmod
+với	E	8	case
+HLV	Ny	6	conj
+Ancelotti	Np	8	compound
+rất	R	11	advmod
+tốt đẹp	A	0	root
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 473
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngôi sao người Bồ Đào Nha không thoải mái với cuộc sống cũng như chính sách thể thao của Juventus.
+Ngôi sao	N	2	nummod
+người	Nc	6	nsubj
+Bồ Đào	Np	2	compound
+Nha	Np	2	punct
+không	R	6	advmod:neg
+thoải mái	A	0	root
+với	E	8	case
+cuộc sống	N	6	obl:with
+cũng	R	11	advmod
+như	C	11	case
+chính sách	N	8	obl
+thể thao	N	11	compound
+của	E	14	case
+Juventus	Np	11	nmod:poss
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 474
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Real Madrid không loại trừ khả năng chiêu mộ cả Ronaldo lẫn Kylian Mbappe.
+Real	Np	4	nsubj
+Madrid	Np	4	nsubj
+không	R	4	advmod:neg
+loại trừ	V	0	root
+khả năng	N	4	obj
+chiêu mộ	V	5	amod
+cả	T	8	det
+Ronaldo	Np	5	nmod
+lẫn	C	10	case
+Kylian Mbappe	Np	8	nmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 475
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi ấy, Gareth Bale và Luka Jovic phải ra đi để cân bằng tài chính.
+Khi	N	8	obl:tmod
+ấy	P	1	det:pmod
+,	CH	1	punct
+Gareth Bale	Np	8	nsubj
+và	C	6	cc
+Luka Jovic	Np	4	conj
+phải	V	8	aux
+ra	V	0	root
+đi	V	8	obj
+để	E	11	mark:pcomp
+cân bằng	V	8	advcl:objective
+tài chính	N	11	obj
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 476
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = HLV Park Hang Seo đang mang đến rất nhiều sự mới lạ cho tuyển Việt Nam dù không có nhiều tân binh trong đội hình nhằm hướng đến chiến thắng tại vòng loại thứ 3 World Cup 2022.
+HLV	Ny	2	nummod
+Park	Np	6	nsubj
+Hang	Np	2	compound
+Seo	Np	2	nmod
+đang	R	6	advmod
+mang	V	0	root
+đến	E	10	case
+rất	R	9	advmod
+nhiều	A	10	advmod:adj
+sự	N	6	obj
+mới lạ	V	10	compound
+cho	E	13	case
+tuyển	N	10	nmod
+Việt Nam	Np	13	compound
+dù	C	17	mark
+không	R	17	advmod:neg
+có	V	6	conj
+nhiều	A	19	advmod:adj
+tân binh	N	17	obj
+trong	E	21	case
+đội hình	N	19	nmod
+nhằm	V	23	punct
+hướng	V	17	obj
+đến	E	23	acl:subj
+chiến thắng	V	23	nmod
+tại	E	27	case
+vòng	N	25	obl
+loại	N	27	nmod
+thứ	N	27	nmod
+3	M	29	nummod
+World Cup	Np	32	case
+2022	V	29	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 477
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 1. Để chuẩn bị cho vòng sơ loại cuối World Cup 2022, HLV Park Hang Seo chỉ gọi lên 31 cầu thủ thay vì nhiều hơn như dự kiến.
+1	M	17	parataxis
+.	CH	17	punct
+Để	E	4	mark:pcomp
+chuẩn bị	V	17	advcl:objective
+cho	E	6	case
+vòng	N	4	obl:comp
+sơ	A	6	nummod
+loại	N	7	clf
+cuối	N	4	obj
+World Cup	Np	9	nmod
+2022	V	9	nmod
+,	CH	17	punct
+HLV	Ny	17	nsubj
+Park Hang	Np	13	compound
+Seo	Np	14	compound
+chỉ	R	17	advmod
+gọi	V	0	root
+lên	V	17	compound:dir
+31	N	20	nummod
+cầu thủ	N	17	obj
+thay vì	X	20	acl:subj
+nhiều	A	21	acomp
+hơn	A	22	compound:adj
+như	C	25	case
+dự kiến	V	21	obl
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 478
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dù chỉ gọi số lượng vừa phải, nhưng những ngày qua thuyền trưởng người Hàn Quốc đang khiến tất cả ngạc nhiên bằng những thử nghiệm mới với cơ sở là các cầu thủ cũ đã theo mình trong thời gian rất dài.
+Dù	C	3	mark
+chỉ	R	3	advmod
+gọi	V	15	advcl
+số lượng	N	3	obj
+vừa phải	V	4	nmod
+,	CH	15	punct
+nhưng	C	15	mark
+những	L	9	det
+ngày	N	15	obl:tmod
+qua	V	9	acl:subj
+thuyền trưởng	N	10	obj
+người	N	11	nmod
+Hàn Quốc	Np	12	compound
+đang	R	15	advmod
+khiến	V	0	root
+tất cả	P	17	det
+ngạc nhiên	V	15	obj
+bằng	E	20	case
+những	L	20	det
+thử nghiệm	N	17	nmod
+mới	R	20	amod
+với	E	23	case
+cơ sở	N	20	nmod
+là	V	29	mark
+các	L	26	det
+cầu thủ	N	29	nsubj
+cũ	A	26	amod
+đã	R	29	advmod
+theo	V	15	ccomp
+mình	P	29	obj
+trong	E	32	case
+thời gian	N	29	obl:comp
+rất	R	34	advmod
+dài	A	32	acl:subj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 479
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = HLV Park Hang Seo đã xới tung đội hình có trong tay để thử nghiệm vị trí thi đấu mới đến lối chơi... và mang đến cho tuyển Việt Nam một bầu không khí khác nhiều so với trước, đặc biệt động lực ở các buổi tập.
+HLV	Ny	2	det
+Park	Np	6	nsubj
+Hang	Np	2	compound
+Seo	Np	3	compound
+đã	R	6	advmod
+xới	V	0	root
+tung	V	6	obj
+đội hình	N	9	nummod
+có	V	6	xcomp
+trong	E	11	case
+tay	N	9	obl
+để	E	13	mark:pcomp
+thử nghiệm	V	6	advcl:objective
+vị trí	N	13	obj
+thi đấu	V	14	nmod
+mới	R	17	advmod
+đến	V	18	case
+lối	N	13	obl:comp
+chơi	V	18	compound:vmod
+...	CH	6	punct
+và	C	22	cc
+mang	V	6	conj
+đến	E	22	compound:dir
+cho	E	25	case
+tuyển	N	22	obl:comp
+Việt Nam	Np	25	compound
+một	M	28	nummod
+bầu không khí	N	22	obj
+khác	A	28	amod
+nhiều	A	28	acl:subj
+so	V	30	obl:adj
+với	E	33	case
+trước	N	31	nmod
+,	CH	35	punct
+đặc biệt	A	28	acl:subj
+động lực	N	35	obl:adj
+ở	E	39	case
+các	L	39	det
+buổi	N	35	obl
+tập	V	39	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 480
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhìn vào những thay đổi của HLV Park Hang Seo thì gần như chắc chắn ở vòng loại thứ 3 World Cup 2022 tới, tuyển Việt Nam sẽ xuất hiện với một diện mạo mới từ cách chơi đến những vị trí trên sân.
+Nhìn	V	26	advcl
+vào	E	4	case
+những	L	4	det
+thay đổi	N	1	obj
+của	E	6	case
+HLV	Ny	4	nmod:poss
+Park	Np	6	compound
+Hang	Np	6	nmod
+Seo	Np	8	compound
+thì	C	26	mark
+gần	A	26	advcl
+như	C	11	case
+chắc chắn	A	26	advcl
+ở	E	15	case
+vòng	N	13	obl
+loại	N	15	compound
+thứ	N	15	nmod
+3	M	17	nummod
+World Cup	Np	17	nmod
+2022	V	17	nmod
+tới	T	20	compound
+,	CH	26	punct
+tuyển	N	26	nsubj
+Việt Nam	Np	23	compound
+sẽ	R	26	advmod
+xuất hiện	V	0	root
+với	E	29	case
+một	M	29	nummod
+diện mạo	N	26	obl
+mới	R	29	amod
+từ	E	32	case
+cách	N	26	obl
+chơi	V	32	acl:subj
+đến	E	36	case
+những	L	36	det
+vị trí	N	33	obl:comp
+trên	E	38	case
+sân	N	36	nmod
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 481
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 2. Những thay đổi mạnh mẽ của chiến lược gia người Hàn Quốc rõ ràng đang khiến nhiều người cảm giác âu lo cho tuyển Việt Nam tại vòng sơ loại thứ 3 World Cup 2022 tới đây.
+2	M	13	obl:tmod
+.	CH	13	punct
+Những	L	4	det
+thay đổi	V	13	nsubj
+mạnh mẽ	A	4	amod
+của	E	7	case
+chiến lược	N	4	nmod:poss
+gia	N	7	compound
+người	N	7	nmod
+Hàn Quốc	Np	7	compound
+rõ ràng	A	9	amod
+đang	R	13	advmod
+khiến	V	0	root
+nhiều	A	16	advmod:adj
+người	Nc	16	det:clf
+cảm giác	N	13	obj
+âu lo	V	16	compound
+cho	E	16	acl:subj
+tuyển	N	16	nmod
+Việt Nam	Np	19	compound
+tại	E	22	case
+vòng	N	16	obl
+sơ	N	22	compound
+loại	N	22	nmod
+thứ	N	22	nmod
+3	M	25	nummod
+World Cup	Np	28	punct
+2022	V	24	nmod
+tới	E	30	case
+đây	P	28	nmod
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 482
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Âu lo là đương nhiên, bởi những thay đổi của HLV Park Hang Seo đang tiến hành dường như khá gấp gáp, đặt trong một bối cảnh mà thời gian để hoàn thiện tương đối hạn hẹp.
+Âu lo	N	3	nsubj
+là	V	3	cop
+đương nhiên	N	0	root
+,	CH	3	punct
+bởi	E	7	case
+những	L	7	det
+thay đổi	N	14	nsubj
+của	E	9	case
+HLV	Ny	7	nmod:poss
+Park	Np	9	compound
+Hang	Np	7	nmod:poss
+Seo	Np	11	compound
+đang	R	14	advmod
+tiến hành	V	3	parataxis
+dường như	X	17	advmod
+khá	R	17	advmod
+gấp gáp	A	14	conj
+,	CH	19	punct
+đặt	V	17	conj
+trong	E	22	case
+một	M	22	nummod
+bối cảnh	N	19	obl
+mà	C	25	mark
+thời gian	N	25	nsubj
+để	E	27	mark:pcomp
+hoàn thiện	V	25	obj
+tương đối	A	19	advcl:objective
+hạn hẹp	V	27	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 483
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bởi tính từ thời điểm tập trung cho đến trận ra quân gặp Saudi Arabia, tuyển Việt Nam chỉ có chưa đầy 1 tháng, trong khi thực tế thuyền trưởng người Hàn Quốc và các cộng sự phải xử lý quá nhiều vấn đề như nền tảng thể lực, chiến thuật cho đến sự thích nghi từ các vị trí mới đang thử nghiệm.
+Bởi	C	2	mark
+tính	V	16	nsubj
+từ	E	4	case
+thời điểm	N	2	nmod
+tập trung	V	2	acl:subj
+cho	E	8	case
+đến	E	8	case
+trận	N	5	obl:comp
+ra quân	V	8	compound
+gặp	V	8	acl:subj
+Saudi Arabia	Np	10	obj
+,	CH	16	punct
+tuyển	N	16	nsubj
+Việt Nam	Np	13	compound
+chỉ	R	16	advmod
+có	V	0	root
+chưa	R	18	advmod
+đầy	A	20	advmod:adj
+1	M	20	nummod
+tháng	N	16	obl:tmod
+,	CH	23	punct
+trong	E	23	case
+khi	N	16	obl:tmod
+thực tế	N	23	acl:tmod
+thuyền trưởng	N	24	nmod
+người	N	25	nmod
+Hàn Quốc	Np	26	compound
+và	C	30	cc
+các	L	30	det
+cộng sự	N	24	conj
+phải	V	32	aux
+xử lý	V	23	acl:tmod
+quá	R	34	advmod
+nhiều	A	35	advmod:adj
+vấn đề	N	32	obj
+như	C	37	case
+nền tảng	N	35	nmod
+thể lực	N	37	compound
+,	CH	40	punct
+chiến thuật	V	32	conj
+cho	E	43	case
+đến	E	41	compound
+sự	N	40	obl:comp
+thích nghi	V	43	compound
+từ	E	47	case
+các	L	47	det
+vị trí	N	43	nmod
+mới	R	50	advmod
+đang	R	50	advmod
+thử nghiệm	V	43	acl:subj
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 484
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì những khó khăn đó nên chẳng ai dám chắc HLV Park Hang Seo có thể thành công hay không, dù niềm tin đối với tuyển Việt Nam và chiến lược gia người Hàn Quốc vẫn rất... tuyệt đối.
+Vì	E	3	mark
+những	L	3	det
+khó khăn	N	8	obl
+đó	P	3	det:pmod
+nên	C	8	mark
+chẳng	R	7	advmod:neg
+ai	P	8	nsubj
+dám	V	0	root
+chắc	V	8	acomp
+HLV	Ny	13	nsubj
+Park Hang Seo	Np	13	nsubj
+có thể	R	13	advmod
+thành công	V	8	ccomp
+hay	C	15	cc
+không	R	13	conj
+,	CH	31	punct
+dù	C	18	mark
+niềm	N	31	nsubj
+tin	V	18	nmod
+đối với	E	21	case
+tuyển	N	18	nmod
+Việt Nam	Np	21	nmod
+và	C	26	cc
+chiến lược	V	22	conj
+gia	V	26	nummod
+người	N	24	nmod
+Hàn Quốc	Np	26	compound
+vẫn	R	31	advmod
+rất	R	31	advmod
+...	CH	31	punct
+tuyệt đối	A	8	conj
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 485
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 3. Công bằng mà nói, việc HLV Park Hang Seo quyết định làm mới đội nhà vào lúc này là vô cùng cần thiết, sau quãng thời gian quá dài thực sự cũ kỹ cả về cách chơi, hay tới con người sử dụng trên sân.
+3	M	22	nummod
+.	CH	1	punct
+Công bằng	A	1	flat:number
+mà	C	5	mark
+nói	V	1	conj
+,	CH	5	punct
+việc	N	5	nsubj
+HLV	Ny	7	amod
+Park	Np	10	nummod
+Hang	Np	7	nmod
+Seo	Np	10	compound
+quyết định	V	7	conj
+làm	V	12	acl:subj
+mới	R	15	advmod
+đội	V	13	obj
+nhà	N	15	compound
+vào	E	18	case
+lúc	N	13	obl:tmod
+này	P	18	det:pmod
+là	V	22	cop
+vô cùng	R	22	advmod
+cần thiết	A	0	root
+,	CH	28	punct
+sau	N	28	obl:tmod
+quãng	N	24	nmod
+thời gian	N	28	nsubj
+quá	R	28	advmod
+dài	A	22	conj
+thực sự	A	28	advmod:adj
+cũ kỹ	A	28	obj
+cả	T	33	discourse
+về	E	33	case
+cách	N	28	obl
+chơi	V	33	compound:vmod
+,	CH	37	punct
+hay	C	37	advmod:neg
+tới	E	38	case
+con người	N	39	nsubj
+sử dụng	V	33	acl:subj
+trên	E	41	case
+sân	N	39	obl:comp
+.	CH	22	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 486
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như đã nói bộ khung đến các vị trí thi đấu trước đây đã mang đến rất nhiều thành công cho tuyển Việt Nam giờ xem ra cần phải thay đổi như điều tất yếu phải làm nếu muốn tiếp tục gặt hái vinh quang.
+Như	C	3	mark
+đã	R	3	advmod
+nói bộ	V	12	advcl
+khung	N	3	obj
+đến	E	7	case
+các	L	7	det
+vị trí	N	12	obl
+thi đấu	V	7	nmod
+trước	N	10	case
+đây	P	7	nmod
+đã	R	12	advmod
+mang	V	0	root
+đến	E	16	case
+rất	R	16	advmod
+nhiều	A	16	advmod:adj
+thành công	V	12	obj
+cho	E	18	case
+tuyển	N	16	nmod
+Việt Nam	Np	18	compound
+giờ	N	24	obl:tmod
+xem ra	X	24	nsubj
+cần	V	24	aux
+phải	V	24	aux
+thay đổi	V	12	conj
+như	C	26	case
+điều	N	24	obl
+tất yếu	V	26	compound
+phải	V	29	aux
+làm	V	26	acl:subj
+nếu	C	32	mark
+muốn	V	32	aux
+tiếp tục	V	29	advcl
+gặt hái	V	32	xcomp
+vinh quang	A	33	obj
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 487
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế nên việc thay đổi là quá cần thiết, nhưng chắc chắn rằng khó mà ổn ngay trong giai đoạn đầu tiên tại vòng loại World Cup 2022, thậm chí đối mặt với cả viễn cảnh thất bại một cách nặng nề ở các trận gặp Saudi Arabia, Australia...
+Thế	P	7	discourse
+nên	C	1	compound
+việc	N	7	nsubj
+thay đổi	V	3	acl:subj
+là	C	7	cop
+quá	R	7	advmod
+cần thiết	A	0	root
+,	CH	7	punct
+nhưng	C	10	mark
+chắc chắn	V	26	advcl
+rằng	C	14	mark
+khó	A	10	advmod
+mà	C	14	mark
+ổn	A	12	advmod
+ngay	T	17	discourse
+trong	E	17	case
+giai đoạn	N	14	obl
+đầu tiên	A	17	amod
+tại	E	20	case
+vòng	N	17	nmod
+loại	N	20	nmod
+World Cup	Np	20	nmod
+2022	V	22	compound
+,	CH	26	punct
+thậm chí	R	26	advmod
+đối mặt	V	7	conj
+với	E	29	case
+cả	T	29	det
+viễn cảnh	N	26	obl:comp
+thất bại	V	26	obl:comp
+một cách	N	30	nmod
+nặng nề	A	31	amod
+ở	E	35	case
+các	L	35	det
+trận	N	30	obl
+gặp	V	35	acl:subj
+Saudi Arabia	Np	36	obj
+,	CH	39	punct
+Australia	Np	37	conj
+...	CH	7	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 488
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, tuyển Việt Nam đến với vòng sơ loại thứ 3 World Cup 2022 dù không thiếu khát vọng, nhưng thực tế vẫn là người đi học việc trước tiên thay vì chinh phục.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+tuyển	N	5	nsubj
+Việt Nam	Np	5	nsubj
+đến	V	0	root
+với	E	7	case
+vòng	N	5	obl:comp
+sơ	N	7	compound
+loại	N	7	nmod
+thứ	N	7	nmod
+3	M	10	nummod
+World Cup	Np	13	punct
+2022	V	5	conj
+dù	C	16	mark
+không	R	16	advmod:neg
+thiếu	V	5	conj
+khát vọng	N	16	obj
+,	CH	23	punct
+nhưng	C	23	mark
+thực tế	N	23	nsubj
+vẫn	R	23	advmod
+là	V	23	cop
+người	N	5	conj
+đi	V	23	acl:subj
+học việc	V	24	obj
+trước tiên	N	24	obj
+thay vì	X	24	xcomp
+chinh phục	V	27	obj
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 489
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vậy nên không có gì phải lo lắng hay nặng nề nếu tuyển Việt Nam chưa được như kỳ vọng, vì thực tế muốn thành đường thì bao giờ cũng vậy cần những bước đi đầu tiên.
+Vậy nên	N	3	nsubj
+không	R	3	advmod:neg
+có	V	6	advcl
+gì	P	3	obj
+phải	V	6	aux
+lo lắng	V	0	root
+hay	C	8	cc
+nặng nề	A	6	conj
+nếu	C	13	mark
+tuyển	N	13	nsubj
+Việt Nam	Np	10	nmod
+chưa	R	13	advmod:neg
+được	V	6	advcl
+như	C	15	case
+kỳ vọng	N	13	obl
+,	CH	26	punct
+vì	E	20	mark
+thực tế	N	20	nsubj
+muốn	V	20	aux
+thành	V	26	advcl
+đường	N	20	obj
+thì	C	26	mark
+bao giờ	P	26	obl:tmod
+cũng	R	26	advmod
+vậy	P	26	advmod
+cần	V	6	conj
+những	L	28	det
+bước	N	26	obj
+đi	V	28	acl:subj
+đầu tiên	A	28	amod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 490
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thế thì cứ cải tổ, làm cách mạng cho đội nhà đi thầy Park.
+Thế	P	4	discourse
+thì	C	4	mark
+cứ	R	4	advmod
+cải tổ	V	0	root
+,	CH	6	punct
+làm	V	4	conj
+cách mạng	N	6	obj
+cho	E	9	case
+đội	N	6	obl:iobj
+nhà	N	9	compound
+đi	V	6	xcomp
+thầy	N	11	obj
+Park	Np	12	compound
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 491
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự báo một cuộc đua khốc liệt giữa các ông lớn vào hè sau, khi điều khoản giải phóng 67,3 triệu bảng của Haaland với Dortmund có hiệu lực.
+Dự báo	V	0	root
+một	M	3	nummod
+cuộc	N	1	obj
+đua	V	3	compound
+khốc liệt	A	3	amod
+giữa	E	9	case
+các	L	8	det
+ông	Nc	3	nmod
+lớn	A	3	nmod
+vào	E	11	case
+hè	N	9	obl
+sau	N	11	compound
+,	CH	14	punct
+khi	N	11	appos:nmod
+điều khoản	N	14	acl:tmod
+giải phóng	V	14	acl:tmod
+67,3	M	19	nummod
+triệu	M	19	nummod
+bảng	N	16	obj
+của	E	21	case
+Haaland	Np	19	nmod:poss
+với	E	23	case
+Dortmund	Np	19	nmod
+có	V	23	acl:subj
+hiệu lực	N	24	obj
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 492
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = MU được cho có lợi thế ký Erling Haaland vào hè sau, so với các đối thủ bởi mối quan hệ tốt giữa HLV Solskjaer và học trò cũ, và cả Jadon Sancho với chân sút Na Uy tại Dortmund.
+MU	Np	3	nsubj:pass
+được	V	3	aux:pass
+cho	E	0	root
+có	V	3	xcomp
+lợi thế	N	6	nummod
+ký	V	4	obj
+Erling Haaland	Np	6	nmod
+vào	E	9	case
+hè	N	6	obl
+sau	N	9	compound
+,	CH	12	punct
+so	V	3	conj
+với	E	15	case
+các	L	15	det
+đối thủ	N	12	obl:with
+bởi	E	17	case
+mối	N	15	obl
+quan hệ	N	17	compound
+tốt	A	17	amod
+giữa	E	21	case
+HLV	Ny	15	obl
+Solskjaer	Np	21	compound
+và	C	24	cc
+học trò	N	21	conj
+cũ	A	24	amod
+,	CH	29	punct
+và	C	29	cc
+cả	T	29	det
+Jadon Sancho	Np	21	conj
+với	E	31	case
+chân	N	29	nmod
+sút	N	31	compound
+Na Uy	Np	31	compound
+tại	E	35	case
+Dortmund	Np	31	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 493
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, chuyên gia Bundesliga Raphael Hoigstein mang đến tin xấu cho MU, khi tin rằng người đại diện Mino Raiola sẽ tìm cách để kiếm nhiều tiền nhất có thể từ Haaland.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+chuyên gia	N	5	nsubj
+Bundesliga Raphael Hoigstein	Np	3	compound
+mang	V	0	root
+đến	E	7	case
+tin	N	5	obl:comp
+xấu	A	7	compound
+cho	E	10	case
+MU	Np	5	obl:comp
+,	CH	5	punct
+khi	N	19	obl:tmod
+tin	V	12	acl:tmod
+rằng	C	19	mark
+người	N	16	det:clf
+đại diện	V	19	nsubj
+Mino Raiola	Np	16	nmod
+sẽ	R	19	advmod
+tìm	V	5	conj
+cách	N	19	obj
+để	E	22	mark:pcomp
+kiếm	V	19	advcl:objective
+nhiều	A	24	advmod:adj
+tiền	N	22	obj
+nhất	R	24	amod
+có thể	R	27	advmod
+từ	E	28	case
+Haaland	Np	22	obl:comp
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 494
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu Mino Raiola đưa Haaland đến Premier League vào năm tới, thì rất khó để chứng kiến MU hoặc Man City bán tài năng này cho La Liga một năm sau đó, hoặc cho PSG trong vài năm.
+Nếu	C	3	mark
+Mino Raiola	Np	3	nsubj
+đưa	V	13	advcl
+Haaland	Np	3	obj
+đến	E	6	case
+Premier League	Np	3	obl:comp
+vào	E	8	case
+năm	N	3	obl:tmod
+tới	T	8	compound
+,	CH	13	punct
+thì	C	13	mark
+rất	R	13	advmod
+khó	A	0	root
+để	E	15	mark:pcomp
+chứng kiến	V	13	advcl:objective
+MU	Np	15	obj
+hoặc	C	18	cc
+Man City bán	V	16	conj
+tài năng	N	18	nmod
+này	P	19	det:pmod
+cho	E	22	case
+La Liga	Np	24	advmod:adj
+một	M	24	nummod
+năm	N	15	obl:tmod
+sau	N	24	nmod
+đó	P	25	det:pmod
+,	CH	29	punct
+hoặc	C	29	cc
+cho	E	15	conj
+PSG	Np	29	obj
+trong	E	33	case
+vài	L	33	det
+năm	N	29	obl:tmod
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 495
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng nếu để Haaland chuyển đến một ‘CLB trung lập hơn’, thì hợp đồng lớn tiếp theo, động thái lớn tiếp theo sẽ dễ dàng hơn….
+Nhưng	C	5	mark
+nếu	C	5	mark
+để	E	5	mark:pcomp
+Haaland	Np	5	nsubj
+chuyển	V	23	advcl
+đến	E	9	case
+một	M	9	nummod
+‘	N	7	flat:number
+CLB	Ny	5	obl:comp
+trung lập	V	9	nmod
+hơn	A	12	advmod:adj
+’	M	9	nmod
+,	CH	17	punct
+thì	C	17	mark
+hợp đồng	N	23	nsubj
+lớn	A	15	amod
+tiếp theo	V	16	xcomp:adj
+,	CH	23	punct
+động thái	N	23	nsubj
+lớn	A	19	amod
+tiếp theo	V	23	nsubj
+sẽ	R	23	advmod
+dễ dàng	A	0	root
+hơn	A	23	advmod:adj
+…	CH	23	obl
+.	CH	23	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 496
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Haaland tiếp tục gây ấn tượng mạnh tại Đức khi bước vào mùa giải mới: hat-trick ở vòng 1 Cúp QG Đức, liên quan cả 5 bàn thắng của Dortmund ở ra quân Bundesglia thắng Frankfurt 5-2.
+Haaland	Np	2	nsubj
+tiếp tục	V	0	root
+gây	V	2	xcomp
+ấn tượng	N	3	obj
+mạnh	A	4	amod
+tại	E	7	case
+Đức	Np	3	obl
+khi	N	7	nmod
+bước	V	8	acl:subj
+vào	E	11	case
+mùa	N	9	obl:comp
+giải	N	11	compound
+mới	R	12	amod
+:	CH	15	punct
+hat-trick	N	3	parataxis
+ở	E	17	case
+vòng	N	15	nmod
+1	M	17	nummod
+Cúp	Np	17	nmod
+QG Đức	Np	19	compound
+,	CH	22	punct
+liên quan	V	2	conj
+cả	T	25	det
+5	M	25	nummod
+bàn	N	22	obj
+thắng	V	25	compound
+của	E	28	case
+Dortmund	Np	25	nmod:poss
+ở	E	30	case
+ra quân	N	28	nmod
+Bundesglia	Np	30	compound
+thắng	V	30	compound
+Frankfurt	Np	30	compound
+5-2	V	33	compound
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 497
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chủ tịch Real Madrid, Perez chờ 'giờ vàng' là đưa ra đề nghị ký Mbappe với PSG
+Chủ tịch	N	11	nsubj
+Real Madrid	Np	1	nmod
+,	CH	4	punct
+Perez	Np	1	conj
+chờ	V	4	acl:subj
+'	M	7	nummod
+giờ	Nu	5	obj
+vàng	N	7	nmod
+'	A	8	compound
+là	C	11	cop
+đưa	V	0	root
+ra	V	11	compound:svc
+đề nghị	V	11	xcomp
+ký	V	13	acl:subj
+Mbappe	Np	14	obj
+với	E	17	case
+PSG	Np	11	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 498
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây là tuần được cho là quyết định rõ ràng tương lai Kylian Mbappe.
+Đây	P	3	nsubj
+là	V	3	cop
+tuần	N	0	root
+được	V	5	aux:pass
+cho	V	3	acl
+là	C	7	cop
+quyết định	V	5	obl:comp
+rõ ràng	A	7	amod
+tương lai	N	7	obl
+Kylian Mbappe	Np	9	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 499
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo El Chiringuito, Mbappe yêu cầu được gặp Chủ tịch PSG, Al Khelaifi và đề nghị CLB đàm phán chuyển nhượng với Real Madrid.
+Theo	V	5	advcl
+El Chiringuito	Np	1	obj
+,	CH	5	punct
+Mbappe	Np	5	nsubj
+yêu cầu	V	0	root
+được	V	7	aux:pass
+gặp	V	5	xcomp
+Chủ tịch	N	7	obj
+PSG	Np	8	nmod
+,	CH	11	punct
+Al Khelaifi	Np	8	conj
+và	C	13	cc
+đề nghị	V	7	conj
+CLB	Ny	13	obj
+đàm phán	V	14	compound
+chuyển nhượng	V	15	compound
+với	E	18	case
+Real Madrid	Np	16	obl:with
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 500
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trái với tuyên bố của người đứng đầu PSG, với việc CLB có Messi, Mbappe không còn lựa chọn nào khác ngoài việc… ở lại, chân sút tuyển Pháp được cho không thay đổi ý định rời Paris.
+Trái	N	18	nsubj
+với	E	3	case
+tuyên bố	V	1	obl
+của	E	5	case
+người	N	3	nmod:poss
+đứng	V	5	acl:subj
+đầu	N	6	obj
+PSG	Np	7	compound
+,	CH	11	punct
+với	E	11	case
+việc	N	3	conj
+CLB	Ny	11	nmod
+có	V	11	acl:subj
+Messi	Np	13	obj
+,	CH	18	punct
+Mbappe	Np	18	nsubj
+không	R	18	advmod:neg
+còn	R	0	root
+lựa chọn	V	18	obj
+nào	P	19	det:pmod
+khác	A	19	acl:subj
+ngoài	E	23	case
+việc	N	21	obl:comp
+…	CH	23	nmod
+ở	V	26	case
+lại	V	23	nmod
+,	CH	33	punct
+chân	N	33	nsubj
+sút	V	28	nmod
+tuyển	N	29	nmod
+Pháp	Np	30	nmod
+được	V	33	aux:pass
+cho	E	23	case
+không	R	35	advmod:neg
+thay đổi	V	33	xcomp
+ý định	N	35	obj
+rời	V	36	acl:subj
+Paris	Np	37	obj
+.	CH	18	punct
