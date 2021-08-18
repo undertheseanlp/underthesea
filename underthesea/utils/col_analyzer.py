@@ -3,10 +3,22 @@ from underthesea.dictionary import Dictionary
 from collections import Counter, defaultdict
 from underthesea.utils import logger
 from datetime import date, timedelta
+import pandas as pd
+
+
+def get_words_pos(dictionary):
+    output = {}
+    for word in dictionary.words:
+        data = dictionary.words[word]
+        pos = list(set([_['pos'] for _ in data]))
+        output[word] = pos
+    return output
+
 
 dictionary = Dictionary.Instance()
 n_words = len(dictionary.words)
 print(f"Load dictionary with {n_words} words.")
+words_pos = get_words_pos(dictionary)
 
 
 def computeIDF(docCounters):
@@ -52,6 +64,13 @@ class UDAnalyzer:
             doc_word_counts[doc] = Counter(words)
         return doc_word_counts
 
+    def analyze_words_pos(self, sentences):
+        tags = [s.tags for s in sentences]
+        tags = [t for sublist in tags for t in sublist]
+        df = pd.DataFrame(tags, columns=["word", "pos", "order", "dep"])
+        return df
+
+
     def analyze_words(self, sentences):
         tags = [s.tags for s in sentences]
         tags = [t for sublist in tags for t in sublist]
@@ -65,14 +84,19 @@ class UDAnalyzer:
         oov = corpus_words - dictionary_words
         print("OOV words")
         print(oov)
+
         return counter
 
     def analyze_all_words(self, dataset):
         return self.analyze_words(dataset)
 
-    def analyze_today_words(self, dataset):
+    def get_today_sentences(self, dataset):
         yesterday = (date.today() - timedelta(days=1)).strftime('%Y%m%d')
         sentences = [s for s in dataset if s.date == yesterday]
+        return sentences
+
+    def analyze_today_words(self, dataset):
+        sentences = self.get_today_sentences(dataset)
         return self.analyze_words(sentences)
 
     def analyze_sent_ids(self, dataset):
