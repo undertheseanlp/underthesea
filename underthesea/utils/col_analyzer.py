@@ -70,7 +70,6 @@ class UDAnalyzer:
         df = pd.DataFrame(tags, columns=["word", "pos", "order", "dep"])
         return df
 
-
     def analyze_words(self, sentences):
         tags = [s.tags for s in sentences]
         tags = [t for sublist in tags for t in sublist]
@@ -109,6 +108,10 @@ class UDAnalyzer:
             logger.error('[ERROR] duplicate_ids' + str(duplicate_ids))
         else:
             logger.debug("sent_ids is valid.")
+
+        missing_ids = [str(i + 1) for i in range(len(sent_ids)) if str(i + 1) not in sent_ids]
+        if len(missing_ids) > 0:
+            logger.error('[ERROR] missing_ids' + str(missing_ids))
         return sent_ids
 
     def analyze_doc_sent_freq(self, dataset):

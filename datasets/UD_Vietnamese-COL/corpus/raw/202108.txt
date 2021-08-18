@@ -1797,3 +1797,703 @@ Ngoài làm cơm cháy, Tú còn tận dụng cơm nguội còn thừa sau bữa
 # date = 20210817
 # sent_id = 360
 Tú cho chia sẻ cô thường mất khoảng 2 giờ đồng hồ để hoàn thành các loại bánh làm từ cơm nguội và nên chọn cơm dẻo để làm thì sẽ bánh sẽ ngon hơn.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 361
+Gerd Muller: Dị nhân sân cỏ và góc khuất cuộc đời
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 362
+Gerd Muller là một dị nhân trên sân cỏ, cỗ máy ghi bàn hàng đầu thế giới trong thế kỷ 20, nhưng cuối đời ông gắn với bệnh tật bởi chứng nghiện rượu.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 363
+Trong sự nghiệp cầu thủ, Gerd Muller xứng đáng với những khen ngợi về mặt tài năng.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 364
+Ông để lại di sản to lớn không chỉ với bóng đá Đức mà cả thế giới, đặc biệt là các kỳ World Cup.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 365
+Với đôi chân ngắn, cặp đùi rộng, cặp mông thấp, thân hình đầy đặn và tâm trí đặc biệt của ông là có mặt đúng chỗ vào đúng thời điểm, những cú sút và bàn thắng không có gì là bí mật đối với Muller. Kỷ lục của ông, một số trong số đó vẫn còn tồn tại, xác định tầm vóc của ông như một tiền đạo phổ quát.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 366
+Nhưng "Der Bomber der nation" (máy bay ném bom quốc gia), như cách mà ông được biết đến, còn nhiều hơn những con số thống kê tồn tại cho đến nay.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 367
+Cuộc đua đến đỉnh cao của Muller không hề dễ dàng.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 368
+Vóc dáng của ông luôn là một trở ngại.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 369
+Khi gia nhập Bayern vào năm 1964, hồ sơ của Gerd ghi rằng trong một trận đấu với đội bóng quê hương ông đã ghi được 22 bàn, và cùng mùa giải đó ông đạt mốc 180 bàn.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 370
+Tuy nhiên, huấn luyện viên của Bayern lúc bấy giờ, Zlatko Cajkovski, đã nhìn ông với ánh mắt khó hiểu.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 371
+Ông được đặt biệt danh là "chàng trai mũm mĩm".
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 372
+Làm thế nào tôi có thể đưa một con voi vào trong số những con thuần chủng của tôi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 373
+Chúng ta có phải là đội cử tạ không?
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 374
+Ông đã giảm từ 93 xuống 73kg và tiếp nhận một vị trí đá chính mà ông không bao giờ đánh mất cho đến khi nghỉ hưu.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 375
+Khu vực cấm địa đối phương được ví là phòng khách của nhà Gerd.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 376
+Cuộc đời Muller là cuộc đấu giá bàn thắng.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 377
+Ông ghi bàn bằng phải, chân trái, bằng đầu, bằng bắp chân, bằng gót chân...
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 378
+Nói chung, ông có thể mang về bàn thắng bằng bất cứ điều gì.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 379
+Cuộc hẹn quốc tế tuyệt vời đầu tiên của Muller là Mexico 70.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 380
+Ông không đến với tư cách là người khởi đầu không thể tranh cãi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 381
+Ông sống dưới cái bóng Uwe Seeler, người hơn ông 9 tuổi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 382
+Tất nhiên, dựa trên bàn thắng, họ đã chia sẻ vai trò và thậm chí cùng một phòng.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 383
+Muller ghi tới 10 bàn.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 384
+Không ai ghi được nhiều bàn như vậy ở một kỳ World Cup kể từ đó.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 385
+4 trong đó từ đánh đầu, 1 bàn phạt đền, 3 bàn khác trong vòng cấm và hai bên ngoài khu 16m50.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 386
+Dettmar Cramer, một trong những HLV của ông, khen ngợi: "Cậu ấy kết thúc nhanh hơn tôi có thể nghĩ".
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 387
+Năm 1970, Muller được bầu Quả bóng vàng, cùng với danh hiệu Chiếc giày vàng (38 bàn), và được đảm bảo rằng ông ký hợp đồng với Barcelona.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 388
+Hợp đồng cuối cùng không được thực hiện vì vợ ông không muốn rời Munich.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 389
+Đội bóng xứ Catalunya đã chuyển hướng chiêu mộ Johan Cruyff.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 390
+Cho đến nay, người ta không hiểu rõ vì sao Muller rời đội tuyển Đức sau chức vô địch World Cup 74 - giải đấu mà ông ghi bàn trong trận chung kết thắng Hà Lan 2-1 - khi mới 29 tuổi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 391
+Việc ông rời Bayern năm 1979 thậm chí có vẻ không hợp lý.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 392
+Cùng với những di sản trên sân cỏ, Gerd Muller có vấn đề với rượu.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 393
+Ông từng hồi phục sau khi nhập viện cai nghiện vào năm 1991.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 394
+Từ đó, sức khỏe của ông bị tổn hại.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 395
+Những khó khăn ập đến, khi ông gặp các triệu chứng về thị lực và mất trí nhớ, liên quan đến căn bệnh Alzheimer.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 396
+Vào ngày 3/11/2020, ngày sinh nhật thứ 75 của ông, những tuyên bố của vợ ông, Uschi, với nhật báo Bild đã báo trước điều tồi tệ nhất.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 397
+"Anh ấy dành gần 24 giờ trên giường, anh ấy chỉ thức dậy trong giây lát, anh ấy đi từ từ về thế giới bên kia trong khi ngủ", bà Uschi tâm sự.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 398
+Thật đẹp khi anh ấy mở to mắt một chút và cố gắng nói có hoặc không bằng cách chớp lông mi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 399
+Gerd bình tĩnh và bình yên, tôi nghĩ anh ấy không đau.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 400
+Anh ấy thực tế không ăn gì, chỉ nuốt một chút bột nhuyễn.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 401
+Đôi khi chúng tôi xem tivi cùng nhau, mặc dù anh ấy không còn hiểu gì nữa.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 402
+Uschi và Gerd gặp nhau trong một quán bar khi bà 16 tuổi còn ông 20 tuổi.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 403
+Họ kết hôn vào năm 1967.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 404
+Trong những lời nói chân thành của mình, Uschi kể lại rằng trước đại dịch Covid-19, bà đến thăm Gerd mỗi ngày tại phòng khám nơi ông đã nằm viện hơn 5 năm.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 405
+Nhưng trong những tháng gần đây, sự hiện diện của bà không còn nữa.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 406
+Chỉ một năm trước, mọi thứ đã khác.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 407
+Tôi cũng có thể đưa anh ấy đến tiệm kem, nhưng vì quá đông nên tôi không thể đến thăm anh ấy.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 408
+Tôi không nghĩ anh ấy đau khổ.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 409
+Tôi chỉ hy vọng rằng anh ấy không thể suy nghĩ về số phận của mình và điều kiện hiện tại của mình.
+
+# https://vietnamnet.vn/vn/the-thao/gerd-muller-di-nhan-san-co-va-goc-khuat-cuoc-doi-766787.html
+# date = 20210817
+# sent_id = 410
+Gerd đi về thế giới khác, để lại di sản khổng lồ cho bóng đá thế giới.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 411
+Tuyển Việt Nam: Hé lộ cái tên mất vé giờ chót
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 412
+Văn Hậu, Tiến Anh... đối diện nguy cơ mất suất khi HLV Park Hang Seo rút gọn danh sách tuyển Việt Nam đi Saudi Arabia.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 413
+Với 31 cầu thủ trong tay, HLV Park Hang Seo sẽ rút gọn còn 23 - 25 cầu thủ mang sang Saudi Arabia chuẩn bị cho trận mở màn vòng loại cuối World Cup 2022 khu vực châu Á.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 414
+Hiện tại, HLV Park Hang Seo vẫn giữ nguyên quân số phục vụ cho việc tập luyện, tuy nhiên nhiều cái tên sớm được đánh giá khó có suất ở lại tuyển Việt Nam.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 415
+Đáng chú ý, trên trang cá nhân, tiền vệ Tiến Anh đăng một dòng trạng thái đầy ẩn ý: "Những ngày cuối cùng đẹp nhất".
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 416
+Thực tế, cơ hội với một tân binh như Tiến Anh không nhiều, chưa kể anh đang gặp phải vấn đề chấn thương phải nghỉ tập những ngày qua.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 417
+Ngoài Tiến Anh, hai tân binh còn lại của tuyển Việt Nam là Trương Văn Thiết và Phạm Tuấn Hải cũng bị hoài nghi về khả năng tranh suất đi Saudi Arabia.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 418
+Dưới thời HLV Park Hang Seo, các gương mặt mới nếu không thể hiện năng lực đặc biệt vượt trội thì rất khó được trọng dụng.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 419
+Ngoài ra, thầy Park cũng loại những trường hợp chấn thương, trong đó đáng chú ý nhất là hậu vệ Đoàn Văn Hậu.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 420
+Kể từ ngày lên đội tuyển tập trung, cầu thủ người Thái Bình vẫn chưa thể ra sân tập chung cùng toàn đội.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 421
+Việc HLV Park Hang Seo dùng Văn Hậu ở thời điểm này là quá mạo hiểm, và hậu vệ cánh trái số 1 Việt Nam sẽ là "của để dành", một khi chấn thương sụn chêm đầu gối hoàn toàn bình phục.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 422
+Tiêu chí chọn cầu thủ của HLV Park Hang Seo luôn dựa vào phong độ, sự phù hợp với lối chơi.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 423
+Vì thế, những gương mặt như Hồ Tuấn Tài, Lý Công Hoàng Anh, Văn Xuân... cũng đối mặt với nguy cơ vắng mặt giờ chót.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 424
+Loại gần 10 cầu thủ, HLV Park Hang Seo có thể bổ sung Công Phượng và Văn Lâm vào phút cuối.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
+# date = 20210817
+# sent_id = 425
+Ông thầy người Hàn sẽ cân nhắc, vì Công Phượng không có tên trong danh sách 31 người tập trung vì bận việc gia đình, còn Văn Lâm không được CLB chủ quản nhả về nước sớm.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 426
+HLV Solskjaer đang ra sức thuyết phục BLĐ Quỷ đỏ sớm gia hạn hợp đồng với 5 cầu thủ quan trọng của MU.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 427
+Đội bóng thành Manchester khởi đầu mùa giải mới tưng bừng với chiến thắng 5-1 trước Leeds United, với cú hat-trick của Bruno Fernandes.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 428
+Tiền vệ người Bồ Đào Nha chuyển đến Old Trafford đầu năm 2020 với mức phí 47 triệu bảng và ngay lập tức trở thành hạt nhân chính trong lối chơi của Quỷ đỏ.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 429
+Mặc dù vậy, Bruno Fernandes đang nhận mức lương 100.000 bảng/tuần, khoản thù lao kém xa so với nhiều đồng đội khác, đặc biệt David De Gea (375.000 bảng/tuần).
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 430
+Solskjaer muốn các bản hợp đồng phải phản ánh đúng giá trị của cầu thủ.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 431
+Thế nên, ông mong lãnh đạo MU sớm trọng thưởng Bruno Fernandes và 4 nhân tố khác bằng những giao kèo mới hậu hĩnh.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 432
+Theo The Sun, đội trưởng Harry Maguire, Marcus Rashford và Luke Shaw cũng sẽ nhận được hợp đồng kèm mức lương mới.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 433
+Trong khi các cuộc đàm phán gia hạn Paul Pogba vẫn đang diễn ra.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 434
+Hiện bộ ba Maguire, Rashford cùng Shaw đều kiếm dưới 200.000 bảng mỗi tuần.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 435
+Solskjaer hy vọng, họ cùng Bruno sẽ được nâng lương lên từ 250.000 bảng đến 300.000 bảng/tuần.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 436
+Giao kèo hiện tại của thủ quân Maguire còn thời hạn đến 2025.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 437
+Trong khi đó, hợp đồng giữa Rashford và Luke Shaw với MU sẽ kết thúc vào hè 2023, kèm theo điều khoản gia hạn thêm 1 năm khác.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 438
+Trường hợp Pogba tạo sức ép nhiều hơn lên ban lãnh đạo bởi tiền vệ người Pháp chỉ còn thời hạn 11 tháng hợp đồng.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 439
+Paul Pogba được phép tự do đàm phán với các đội bóng ngoài nước Anh kể từ đầu năm 2022.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-quoc-te/loat-sao-mu-sap-duoc-thuong-lon-766802.html
+# date = 20210817
+# sent_id = 440
+Nếu không thể thuyết phục cầu thủ 28 tuổi này ký tiếp, MU sẽ đối diện nguy cơ mất trắng Pogba.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 441
+Một Messi ‘siêu phàm’ sẽ không giải quyết được vấn đề trên sân của PSG, chưa kể những rắc rối có thể xảy ra ở phòng thay đồ Parc des Princes.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 442
+PSG trải qua mùa hè mua sắm rầm rộ với Wijnaldum (Liverpool), Hakimi (Inter Milan), Donnarumma (AC Milan), Sergio Ramos (Real Madrid) và đặc biệt là Messi từ Barca, tất cả đều theo dạng chuyển nhượng tự do.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 443
+Thierry Henry từng là đồng đội với Messi ở Barca, họ cùng nhau trải qua năm 2009 với cú ăn 6 thần thánh thời Pep Guardiola
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 444
+Cùng với lực lượng sẵn có, HLV Pochettinothực sự sở hữu siêu đội hình trong tay, khiến người ta phải ghen tị.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 445
+Nhưng đó cũng sẽ là sức ép cho cựu thuyền trưởng Tottenham, bởi chỉ có danh hiệu Champions League mới được xem là tương xứng với sức mạnh PSG.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 446
+Tuy nhiên, cựu tiền đạo Thierry Henry vừa đưa ra cảnh báo lớn cho PSG và HLV Pochettino, cho thấy vấn đề của đội bóng nước Pháp mà Messi siêu phàm cũng chẳng thể giúp.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 447
+Sự cân bằng là quan trọng nhất.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 448
+Chúng ta luôn nói về những cầu thủ xuất sắc và khả năng tấn công, nhưng chúng ta cũng cần sự cân bằng.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 449
+Chúng ta bàn về đội bóng mà tôi đã chơi ở Barca (với cú ăn 6 mùa trong năm 2009), nhưng mọi người quên rằng chúng tôi không để thủng lưới nhiều.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 450
+Nhìn chung, những đội không để lọt lưới nhiều thường không cách xa danh hiệu, thậm chí là Champions League.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 451
+Khi bạn có những cầu thủ siêu phàm, điều đó dễ dàng hơn một chút.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 452
+Nhưng tôi thấy PSG hiện tại đang để thủng lưới quá nhiều.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 453
+Nên nhớ, sự cân bằng là điều quan trọng nhất đối với một đội bóng.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 454
+Hiện Ligue 1 đi qua 2 vòng đấu, PSG thắng cả 2, ghi 6 bàn nhưng cũng để thủng lưới tới 3 bàn, cho dù toàn đối thủ kém hơn hẳn: tân binh thăng hạng Troyes (2-1) và Strasbourg (4-2) - đối thủ kết thúc hạng 15 ở mùa giải trước.
+
+# https://vietnamnet.vn/vn/the-thao/psg-nhan-canh-bao-dang-lo-sau-khi-ky-messi-tin-bong-da-moi-nhat-766778.html
+# date = 20210817
+# sent_id = 455
+Rõ ràng, cảnh báo của Henry cho PSG là vấn đề đáng ngại mà HLV Pochettino cần giải quyết triệt để, mới hy vọng chiến thắng các danh hiệu.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 456
+MU theo đuổi Bissouma, Atletico quan tâm Bellerin, Real Madrid có ý mua lại Cristiano Ronaldo là những tin bóng đá chính hôm nay, 17/8.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 457
+Trong trường hợp buộc phải để Paul Pogba ra đi, MU xem xét chiêu mộ Yves Bissouma để bổ sung cho hàng tiền vệ.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 458
+Các quan chức phụ trách thể thao của MU đang phân tích kỹ về năng lực của Bissouma.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 459
+Bissouma vừa thi đấu nổi bật, là điểm tựa để Brighton ngược dòng thắng 2-1 trên sân Burnley ở vòng 1 Premier League 2021-22.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 460
+The Sun đưa tin, MU bị thuyết phục bởi kỹ năng của Bissouma, đặc biệt là khả năng đánh chặn và che chắn từ xa cho hàng phòng ngự.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 461
+Tiền vệ 24 tuổi người Mali có giá không quá cao (khoảng 30 triệu bảng).
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 462
+Hơn nữa, anh không có vấn đề về thị thực nên có thể ra mắt MU ngay lập tức.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 463
+Theo báo chí Tây Ban Nha, Atletico đang theo dõi Hector Bellerin như một giải pháp thay thế Kieran Trippier.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 464
+Atletico không có ý định bán Trippier.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 465
+Mặc dù vậy, cầu thủ người Anh một mực muốn được trở lại Premier League khoác áo MU.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 466
+Nếu không thể thuyết phục Trippier ở lại, Atletico phải có người thay thế trong thời gian sớm nhất, khi La Liga đã khởi tranh từ cuối tuần qua.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 467
+Bellerin công khai kế hoạch rời Arsenal để làm lại sự nghiệp, khi Pháo thủ sa sút và bản thân anh cũng gặp nhiều khó khăn.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 468
+Atletico dự định đàm phán Bellerin trong mức giá khoảng 20 triệu euro.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 469
+Bên cạnh diễn biến liên quan đến Man City, Real Madrid cũng đang có ý định mua lại Cristiano Ronaldo.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 470
+Nhà báo Edu Aguirre của chương trình El Chiringuito tiết lộ, HLV Carlo Ancelotti đã thảo luận với Chủ tịch Florentino Perez về việc đưa Ronaldo trở lại sân Bernabeu.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 471
+Ronaldo vẫn còn nhiều người bạn ở Real Madrid.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 472
+Đặc biệt, mối quan hệ giữa anh với HLV Ancelotti rất tốt đẹp.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 473
+Ngôi sao người Bồ Đào Nha không thoải mái với cuộc sống cũng như chính sách thể thao của Juventus.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 474
+Real Madrid không loại trừ khả năng chiêu mộ cả Ronaldo lẫn Kylian Mbappe.
+
+# https://vietnamnet.vn/vn/the-thao/tin-bong-da-17-8-mu-ky-bissouma-real-madrid-mua-ronaldo-766716.html
+# date = 20210817
+# sent_id = 475
+Khi ấy, Gareth Bale và Luka Jovic phải ra đi để cân bằng tài chính.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 476
+HLV Park Hang Seo đang mang đến rất nhiều sự mới lạ cho tuyển Việt Nam dù không có nhiều tân binh trong đội hình nhằm hướng đến chiến thắng tại vòng loại thứ 3 World Cup 2022.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 477
+1. Để chuẩn bị cho vòng sơ loại cuối World Cup 2022, HLV Park Hang Seo chỉ gọi lên 31 cầu thủ thay vì nhiều hơn như dự kiến.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 478
+Dù chỉ gọi số lượng vừa phải, nhưng những ngày qua thuyền trưởng người Hàn Quốc đang khiến tất cả ngạc nhiên bằng những thử nghiệm mới với cơ sở là các cầu thủ cũ đã theo mình trong thời gian rất dài.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 479
+HLV Park Hang Seo đã xới tung đội hình có trong tay để thử nghiệm vị trí thi đấu mới đến lối chơi... và mang đến cho tuyển Việt Nam một bầu không khí khác nhiều so với trước, đặc biệt động lực ở các buổi tập.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 480
+Nhìn vào những thay đổi của HLV Park Hang Seo thì gần như chắc chắn ở vòng loại thứ 3 World Cup 2022 tới, tuyển Việt Nam sẽ xuất hiện với một diện mạo mới từ cách chơi đến những vị trí trên sân.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 481
+2. Những thay đổi mạnh mẽ của chiến lược gia người Hàn Quốc rõ ràng đang khiến nhiều người cảm giác âu lo cho tuyển Việt Nam tại vòng sơ loại thứ 3 World Cup 2022 tới đây.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 482
+Âu lo là đương nhiên, bởi những thay đổi của HLV Park Hang Seo đang tiến hành dường như khá gấp gáp, đặt trong một bối cảnh mà thời gian để hoàn thiện tương đối hạn hẹp.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 483
+Bởi tính từ thời điểm tập trung cho đến trận ra quân gặp Saudi Arabia, tuyển Việt Nam chỉ có chưa đầy 1 tháng, trong khi thực tế thuyền trưởng người Hàn Quốc và các cộng sự phải xử lý quá nhiều vấn đề như nền tảng thể lực, chiến thuật cho đến sự thích nghi từ các vị trí mới đang thử nghiệm.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 484
+Vì những khó khăn đó nên chẳng ai dám chắc HLV Park Hang Seo có thể thành công hay không, dù niềm tin đối với tuyển Việt Nam và chiến lược gia người Hàn Quốc vẫn rất... tuyệt đối.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 485
+3. Công bằng mà nói, việc HLV Park Hang Seo quyết định làm mới đội nhà vào lúc này là vô cùng cần thiết, sau quãng thời gian quá dài thực sự cũ kỹ cả về cách chơi, hay tới con người sử dụng trên sân.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 486
+Như đã nói bộ khung đến các vị trí thi đấu trước đây đã mang đến rất nhiều thành công cho tuyển Việt Nam giờ xem ra cần phải thay đổi như điều tất yếu phải làm nếu muốn tiếp tục gặt hái vinh quang.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 487
+Thế nên việc thay đổi là quá cần thiết, nhưng chắc chắn rằng khó mà ổn ngay trong giai đoạn đầu tiên tại vòng loại World Cup 2022, thậm chí đối mặt với cả viễn cảnh thất bại một cách nặng nề ở các trận gặp Saudi Arabia, Australia...
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 488
+Tuy nhiên, tuyển Việt Nam đến với vòng sơ loại thứ 3 World Cup 2022 dù không thiếu khát vọng, nhưng thực tế vẫn là người đi học việc trước tiên thay vì chinh phục.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 489
+Vậy nên không có gì phải lo lắng hay nặng nề nếu tuyển Việt Nam chưa được như kỳ vọng, vì thực tế muốn thành đường thì bao giờ cũng vậy cần những bước đi đầu tiên.
+
+# https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/tuyen-viet-nam-lam-cach-mang-mao-hiem-nhung-can-thiet-766499.html
+# date = 20210817
+# sent_id = 490
+Thế thì cứ cải tổ, làm cách mạng cho đội nhà đi thầy Park.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 491
+Dự báo một cuộc đua khốc liệt giữa các ông lớn vào hè sau, khi điều khoản giải phóng 67,3 triệu bảng của Haaland với Dortmund có hiệu lực.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 492
+MU được cho có lợi thế ký Erling Haaland vào hè sau, so với các đối thủ bởi mối quan hệ tốt giữa HLV Solskjaer và học trò cũ, và cả Jadon Sancho với chân sút Na Uy tại Dortmund.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 493
+Tuy nhiên, chuyên gia Bundesliga Raphael Hoigstein mang đến tin xấu cho MU, khi tin rằng người đại diện Mino Raiola sẽ tìm cách để kiếm nhiều tiền nhất có thể từ Haaland.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 494
+Nếu Mino Raiola đưa Haaland đến Premier League vào năm tới, thì rất khó để chứng kiến MU hoặc Man City bán tài năng này cho La Liga một năm sau đó, hoặc cho PSG trong vài năm.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 495
+Nhưng nếu để Haaland chuyển đến một ‘CLB trung lập hơn’, thì hợp đồng lớn tiếp theo, động thái lớn tiếp theo sẽ dễ dàng hơn….
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 496
+Haaland tiếp tục gây ấn tượng mạnh tại Đức khi bước vào mùa giải mới: hat-trick ở vòng 1 Cúp QG Đức, liên quan cả 5 bàn thắng của Dortmund ở ra quân Bundesglia thắng Frankfurt 5-2.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 497
+Chủ tịch Real Madrid, Perez chờ 'giờ vàng' là đưa ra đề nghị ký Mbappe với PSG
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 498
+Đây là tuần được cho là quyết định rõ ràng tương lai Kylian Mbappe.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 499
+Theo El Chiringuito, Mbappe yêu cầu được gặp Chủ tịch PSG, Al Khelaifi và đề nghị CLB đàm phán chuyển nhượng với Real Madrid.
+
+# https://vietnamnet.vn/vn/the-thao/tin-chuyen-nhuong-17-8-mu-nhan-tin-xau-haaland-chelsea-xu-bo-ba-766516.html
+# date = 20210817
+# sent_id = 500
+Trái với tuyên bố của người đứng đầu PSG, với việc CLB có Messi, Mbappe không còn lựa chọn nào khác ngoài việc… ở lại, chân sút tuyển Pháp được cho không thay đổi ý định rời Paris.
