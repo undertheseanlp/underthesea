@@ -40,7 +40,7 @@ class UDAnalyzer:
         self.total_errors = 0
 
     def _get_words(self, sentences):
-        tags = [s.tags for s in sentences]
+        tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         words = [t[0].lower() for t in tags]
         return words
@@ -65,7 +65,7 @@ class UDAnalyzer:
         return doc_word_counts
 
     def analyze_words_pos(self, sentences):
-        tags = [s.tags for s in sentences]
+        tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         df = pd.DataFrame(tags, columns=["word", "pos", "order", "dep"])
         return df
@@ -82,8 +82,10 @@ class UDAnalyzer:
         dictionary_words = set(dictionary.words)
         oov = corpus_words - dictionary_words
         print("OOV words")
-        print(oov)
-
+        print("Short OOV words")
+        print(sorted([item for item in oov if len(item.split(" ")) < 3]))
+        print("Long OOV words")
+        print(sorted([item for item in oov if len(item.split(" ")) >= 3]))
         return counter
 
     def analyze_all_words(self, dataset):

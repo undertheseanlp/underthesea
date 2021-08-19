@@ -12283,8 +12283,8 @@ giờ chót	N	17	compound
 # doc_url = https://vietnamnet.vn/vn/the-thao/bong-da-viet-nam/doi-tuyen-viet-nam/danh-sach-tuyen-viet-nam-di-saudi-arabia-thay-park-loai-van-hau-766745.html
 # date = 20210817
 # sent_id = 424
-# type = bronze
-# authors = underthesea.v1.3.2
+# type = silver
+# authors = underthesea.v1.3.2, anhv.ict91
 # text = Loại gần 10 cầu thủ, HLV Park Hang Seo có thể bổ sung Công Phượng và Văn Lâm vào phút cuối.
 Loại	N	9	obl:tmod
 gần	A	3	advmod:adj
@@ -12294,8 +12294,8 @@ cầu thủ	N	1	nmod
 HLV	Ny	9	nsubj
 Park Hang Seo	Np	6	nmod
 có thể	R	9	advmod
-bổ sung Công	V	0	root
-Phượng	Np	9	obj
+bổ sung	V	0	root
+Công Phượng	Np	9	obj
 và	C	12	cc
 Văn Lâm	Np	9	conj
 vào	E	14	case
@@ -20172,8 +20172,8 @@ nhấn mạnh	V	30	punct
 # doc_url = https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
 # date = 20210819
 # sent_id = 647
-# type = bronze
-# authors = underthesea.v1.3.2
+# type = silver
+# authors = underthesea.v1.3.2, anhv.ict91
 # text = Eanes, giống nhiều học khu khác trên toàn quốc, đang vướng vào cuộc chiến pháp lý giữa chính quyền địa phương và bang về quy định đeo khẩu trang trong trường học.
 Eanes	Np	12	nsubj
 ,	CH	12	punct
@@ -20188,8 +20188,8 @@ toàn quốc	N	6	nmod
 đang	R	12	advmod
 vướng	V	0	root
 vào	E	14	case
-cuộc	N	12	obl:comp
-chiến pháp lý	V	14	nmod
+cuộc chiến	N	12	obl:comp
+pháp lý	N	14	nmod
 giữa	E	17	case
 chính quyền	N	14	nmod
 địa phương	N	17	compound
@@ -20632,8 +20632,8 @@ hỗ trợ	V	23	obj
 # doc_url = https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
 # date = 20210819
 # sent_id = 660
-# type = bronze
-# authors = underthesea.v1.3.2
+# type = silver
+# authors = underthesea.v1.3.2, anhv.ict91
 # text = Để nhận hỗ trợ, người dân cần liên hệ tổ trưởng dân phố, khu phố hoặc cảnh sát khu vực nơi mình sống, kê khai thông tin yêu cầu hỗ trợ theo mẫu.
 Để	E	2	mark:pcomp
 nhận	V	8	advcl:objective
@@ -20654,8 +20654,8 @@ nơi	N	14	nmod
 mình	P	16	nmod
 sống	V	16	acl
 ,	CH	20	punct
-kê	N	22	nsubj
-khai thông tin	N	20	obj
+kê khai	N	22	nsubj
+thông tin	N	20	obj
 yêu cầu	V	8	conj
 hỗ trợ	V	22	xcomp
 theo	V	25	case
