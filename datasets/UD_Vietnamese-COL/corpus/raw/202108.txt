@@ -2997,3 +2997,428 @@ Tuy nhiên, liên doanh nước ngoài lớn nhất của TSMC cho đến nay l�
 # date = 20210818
 # sent_id = 600
 Trong một nỗ lực để theo kịp cuộc đua công nghệ, chính phủ của Thủ tướng Yoshihide Suga vào tháng 6 đã phê duyệt một chiến lược do nhóm của Nishikawa tại METI đưa ra nhằm đảm bảo Nhật Bản có đủ nguồn chip bán dẫn để cạnh tranh trong các công nghệ sẽ thúc đẩy tăng trưởng kinh tế trong tương lai, bao gồm cả trí tuệ nhân tạo, kết nối 5G và xe tự lái.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 601
+2 tháng nay, anh Nguyên ngồi trên lửa vì chậm nộp 400 triệu đồng đợt 3 căn hộ tại Thủ Đức, nguy cơ bị hủy hợp đồng tiền tỷ.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 602
+Anh Nguyên, một nhà đầu tư tại TP HCM cho biết, đặt mua căn hộ cao cấp 2 phòng ngủ tại quận Thủ Đức từ năm 2020 vì chung cư đang xây có vị trí gần đường lớn, sát cụm trường, chợ, bệnh viện, thuận tiện cho cuộc sống của gia đình vốn quen với địa bàn khu Đông TP HCM.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 603
+Đợt thanh toán thứ ba, khoản tiền cần đóng cho chủ đầu tư hơn 400 triệu đồng, thư thông báo được gửi lần một từ đầu tháng 6, thư nhắc đòi nợ cũng đã gửi lần hai và lần ba từ đầu tháng 7 và 8.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 604
+Nhà đầu tư này tâm sự, đợt dịch bùng phát lần thứ tư để lại hậu quả nặng nề ngoài dự liệu khiến dòng vốn từ đối tác làm ăn của anh bị tắc nghẽn.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 605
+Do phong tỏa, giãn cách kéo dài, dòng tiền lưu động từ việc kinh doanh của anh Nguyên cũng bị hao hụt trầm trọng.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 606
+"Hiện tôi mất khả năng thanh toán theo tiến độ. Theo hợp đồng nếu chậm nộp tiền tôi sẽ mất hàng trăm triệu đồng tiền phạt vi phạm và thanh lý hợp đồng. Tôi đã gửi đơn xin giãn tiến độ đóng tiền, hy vọng chủ đầu tư cho khoanh nợ", anh Nguyên bộc bạch.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 607
+Nhà đầu tư này thừa nhận bị chủ đầu tư gửi trát đòi nợ dồn dập nên đã gọi điện xin giãn tiến độ thanh toán vì dịch bệnh khiến kinh tế khó khăn.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 608
+Nhiều trường hợp khách hàng chủ động thanh lý hợp đồng, chấp nhận chịu phạt, cấn trừ chi phí môi giới vì lo ngại dịch bệnh còn kéo dài, thu nhập bấp bênh không đủ khả năng về đích cùng dự án.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 609
+Trao đổi với VnExpress, ông Nguyễn Lộc Hạnh, Tổng giám đốc Công ty cổ phần Đầu tư Bất động sản Ngọc Châu Á xác nhận, từ tháng 6 đến nay, thị trường bất động sản sơ cấp đang xuất hiện làn sóng nhà đầu tư, khách hàng bị mất khả năng thanh toán tiền nhà theo tiến độ các dự án.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 610
+Ông Hạnh phân tích, làn sóng mất khả năng thanh toán này cho thấy giới đầu tư bất động sản đang chịu nhiều thách thức hơn so với các đợt dịch trước.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 611
+Trên thị trường xuất hiện 3 nhóm giải pháp cho trường hợp nhà đầu tư bất động sản mất khả năng thanh toán.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 612
+Nhóm thứ hai vẫn đòi nợ và dọa thanh lý hợp đồng, nếu khách hàng mất khả năng thanh toán quá lâu, có thể bị phạt thanh lý hợp đồng, có những trường hợp mức phạt lên đến 20-30% giá trị hợp đồng.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 613
+Nhóm thứ ba, chủ đầu tư bán lại bất động sản trên thị trường thứ cấp, khi thu hồi được dòng tiền mới cho phép khách hàng nhận lại tiền, trừ đi phí môi giới.
+
+# https://vnexpress.net/nhieu-nguoi-mua-nha-mat-kha-nang-thanh-toan-4342847.html
+# date = 20210819
+# sent_id = 614
+CEO Ngọc Châu Á cho rằng, giải pháp hợp tình hợp lý nhất cho tình huống khách hàng mất khả năng thanh toán do dịch bệnh vừa qua là cho phép người mua nhà khoanh nợ không chịu phạt.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 615
+Các doanh nghiệp giao vận hoạt động hết công suất khi ghi nhận nhu cầu tăng cao, nhưng nhiều đơn hàng vẫn "nằm yên một chỗ" do ảnh hưởng dịch.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 616
+Một số chủ cửa hàng kinh doanh online phản ánh gặp tình trạng đơn hàng liên tục bị lưu kho hoặc giao lâu, một số bị hoàn trả bất ngờ.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 617
+Tình trạng diễn ra tại nhiều đơn vị như Giao Hàng Tiết Kiệm, Giao Hàng Nhanh, J&T Express, Nhất Tín Logistic, Viettel Post...
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 618
+Chị Huệ, một chủ shop bán hàng online cho biết, chị bán 2 kg khô gà lá chanh, giao từ Hoàng Mai (Hà Nội) đến Hà Nam.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 619
+Chờ mãi đến ngày 12/8, chị Huệ bất ngờ nhận được thông báo đơn hàng bị hoàn trả.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 620
+Khách hàng của chị cũng liên tục nhắn tin bày tỏ sự bức xúc khi chờ lâu nhưng lại không nhận được sản phẩm.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 621
+Hệ thống tự hoàn trả lại người bán và thu phí hoàn đơn hàng, phí lưu kho với giá cao.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 622
+Không ít chủ shop cũng gặp tình cảnh trớ trêu khi đơn hàng cứ "nằm yên một chỗ" tại các bưu cục.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 623
+Trao đổi với VnExpress liên quan tình trạng trên, đại diện Giao Hàng Tiết Kiệm cho biết, do ảnh hưởng dịch bệnh khiến nhiều tỉnh, thành và khu vực bị phong tỏa nên chưa đảm bảo thông suốt trong khâu vận hành, khiến hàng hóa tồn đọng nhiều.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 624
+Đơn vị này không cung cấp số liệu cụ thể về lượng đơn hàng tăng lên hay tình trạng quá tải ra sao, nhưng thừa nhận điều này đã mang lại những trải nghiệm không tốt cho các chủ cửa hàng kinh doanh online.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 625
+Với những đơn bị hoàn trả, nguyên nhân là khu vực người nhận bị phong tỏa, shipper không thể tiếp cận nên đơn hàng sẽ được gửi ngược lại người bán.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 626
+Thời gian tới, trong bối cảnh TP HCM tiếp tục kéo dài giãn cách xã hội và Hà Nội siết chặt thêm nhiều quy định, đại diện Giao Hàng Tiết Kiệm khẳng định đã đưa ra nhiều phương án để đảm bảo kinh doanh không bị gián đoạn.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 627
+Đơn vị này đã phối hợp với các cơ quan chức năng để triển khai tiêm vaccine phòng Covid-19 cho nhân viên trên diện rộng toàn quốc.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 628
+Đặc biệt, những đối tượng nhân viên làm việc ở vị trí "tiền tuyến", nhân viên khối vận hành, nhân viên giao nhận hàng hóa và nhân viên làm việc tại kho, bưu cục tiếp xúc thường xuyên với khách hàng được ưu tiên tiêm chủng trong những đợt đầu tiên.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 629
+Về phía Giao Hàng Nhanh, CEO Lương Duy Hoài cũng cho biết, mỗi ngày nhận hàng nghìn cuộc gọi phản ánh hoặc ý kiến từ các nhà bán hàng.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 630
+Chẳng hạn, việc một khu vực hôm nay có thể giao nhận bình thường, ngay ngày hôm sau phát hiện F0, phong tỏa, toàn bộ hàng hóa sẽ không ra vào được.
+
+# https://vnexpress.net/doanh-nghiep-logistics-bi-un-u-don-hang-4342218.html
+# date = 20210819
+# sent_id = 631
+Ông Hoài nói thêm, các chính sách, hướng dẫn được đưa ra liên tục và khâu thực thi còn nhiều cách hiểu khác nhau, dẫn đến việc áp dụng còn hạn chế.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 632
+Loài Chun trước đây chỉ phát hiện ở đảo Hải Nam (Trung Quốc), nay tìm thấy ở Việt Nam giúp bổ sung cây gỗ bản địa vào hệ thực vật trong nước.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 633
+Đây là loài duy nhất trong chi Chunia (Exbucklandioideae, Hamamelidaceae), thân cây gỗ nhỡ có thể cao đến 20 m.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 634
+Đến nay, chỉ có một quần thể của loài "Chun lá chắp tay" dưới tán rừng thứ sinh phục hồi sau khai thác ở khu vực vùng đệm của Khu Bảo tồn Thiên nhiên Hoàng Liên-Văn Bàn được ghi nhận với kích thước nhỏ, mọc phân tán.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 635
+Loài này được tổ chức IUCN xếp ở mức nguy cấp.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 636
+Nghiên cứu không chỉ bổ sung thêm một chi thực vật mới (chi Chunia) mà còn bổ sung thêm một nguồn gene cây gỗ tiềm năng cho khu hệ thực vật Việt Nam.
+
+# https://vnexpress.net/phat-hien-loai-chun-la-chap-tay-ban-dia-cua-viet-nam-4341341.html
+# date = 20210819
+# sent_id = 637
+Theo TS Trường, đây là nguồn gene cây gỗ quý cần được quan tâm nghiên cứu thêm về đặc điểm sinh học, sinh thái học và giá trị sử dụng (cung cấp gỗ, nguyên liệu sản xuất...), làm cơ sở khoa học để phát triển nguồn gene này ở Việt Nam.
+
+# https://vnexpress.net/dua-dan-xe-tai-trom-cat-trong-khu-du-lich-o-phu-quoc-4343057.html
+# date = 20210819
+# sent_id = 638
+15 người bị phát hiện đưa 10 xe tải, 5 xe cuốc, máy xúc vào đào đất đỏ, cát tại bãi biển thuộc một dự án du lịch ở thành phố Phú Quốc.
+
+# https://vnexpress.net/dua-dan-xe-tai-trom-cat-trong-khu-du-lich-o-phu-quoc-4343057.html
+# date = 20210819
+# sent_id = 639
+Lực lượng chức năng bắt được 9 người, tạm giữ toàn bộ phương tiện.
+
+# https://vnexpress.net/dua-dan-xe-tai-trom-cat-trong-khu-du-lich-o-phu-quoc-4343057.html
+# date = 20210819
+# sent_id = 640
+6 người khác đã bỏ trốn, đang bị truy tìm.
+
+# https://vnexpress.net/dua-dan-xe-tai-trom-cat-trong-khu-du-lich-o-phu-quoc-4343057.html
+# date = 20210819
+# sent_id = 641
+Tại hiện trường, hàng ngàn m2 đất, cát trong khu dự án bị đào xới, để lại nhiều vũng nước lớn nham nhở.
+
+# https://vnexpress.net/dua-dan-xe-tai-trom-cat-trong-khu-du-lich-o-phu-quoc-4343057.html
+# date = 20210819
+# sent_id = 642
+Những người bị bắt khai lợi dụng tình hình Phú Quốc đang thực hiện giãn cách xã hội, cơ quan chức năng ít tuần tra nên đã đưa phương tiện vào khu vực dự án đào trộm cát, đất đỏ bán cho một số người có nhu cầu san lấp công trình.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 643
+Một phụ huynh ở Texas xô xát với giáo viên, giật khẩu trang khỏi mặt cô giáo khi trường học bắt đầu mở cửa trở lại.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 644
+Tuy nhiên, một vài "khoảnh khắc buồn" liên quan đến quy định đeo khẩu trang đã xảy ra trong những ngày chuẩn bị khai giảng, Tom Leonard, giám đốc học khu cho biết trong email gửi giáo viên và phụ huynh trong cộng đồng hôm 17/8.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 645
+"Một số phụ huynh đã hành hung, lăng mạ giáo viên vì chiếc khẩu trang. Một người giật khẩu trang khỏi mặt cô giáo, những người khác mắng mỏ giáo viên, yêu cầu cô cởi khẩu trang vì cho rằng họ không nghe được cô đang nói gì", Leonard cho biết.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 646
+"Hành vi nay không được chấp nhận ở Eanes. Nhân viên của chúng tôi làm việc trong tuyến đầu của đại dịch. Hãy dành cho họ sự tôn trọng và không gian riêng. Tôi yêu cầu mọi người hãy tỏ ra tôn trọng. Đừng gây chiến tranh khẩu trang trong trường học", quan chức giáo dục này nhấn mạnh.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 647
+Eanes, giống nhiều học khu khác trên toàn quốc, đang vướng vào cuộc chiến pháp lý giữa chính quyền địa phương và bang về quy định đeo khẩu trang trong trường học.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 648
+Ban đầu, học khu tuyên bố không yêu cầu mà chỉ khuyến khích giáo viên, học sinh đeo khẩu trang trong khuôn viên trường, phù hợp với sắc lệnh cấm ra quy định đeo khẩu trang bắt buộc trong trường học của Thống đốc Texas Greg Abbott.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 649
+Quy định của hạt cho phép các học khu quyết định khi nào thì học sinh, nhân viên và khách tới thăm phải đeo khẩu trang trong khuôn viên trường.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 650
+Việc phụ huynh giật khẩu trang ở Texas không phải vụ hành hung giáo viên duy nhất ở Mỹ do quy định khẩu trang.
+
+# https://vnexpress.net/phu-huynh-my-giat-khau-trang-khoi-mat-co-giao-4343085.html
+# date = 20210819
+# sent_id = 651
+Một người bố ở California hồi đầu tháng bị cáo buộc đã đấm vào mặt giáo viên sau khi đối chất với nhân viên nhà trường về việc con gái phải đeo khẩu trang trong sân trường.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 652
+Rùa mẹ đẻ bên mép sóng bán đảo Nhơn Hải, ổ 98 trứng được người dân di dời đến nơi an toàn, 53 rùa con nở thành công.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 653
+Ngày 19/8, Chi cục Thủy sản Bình Định cho biết, Tổ cộng đồng bảo vệ nguồn lợi thủy sản ở xã Nhơn Hải, TP Quy Nhơn vừa "đỡ đẻ" và thả 53 rùa con về biển.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 654
+Trước đó, đêm 29/6, con rùa xanh dài 1,2 m, hơn 80 kg đã bò lên bãi biển Mũi Cồn đẻ 98 trứng.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 655
+Rùa con nở sau 50 ngày đạt tỷ lệ thành công 54%, 14 cá thể bị chết ngạt trong quá trình ngoi lên mặt đất, 31 quả trứng bị thối.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 656
+Chuyên gia Bùi Thu Hiền, điều phối viên Liên minh Bảo tồn thiên nhiên quốc tế (IUCN) tại Việt Nam cho biết, trứng rùa sau khi đẻ nếu di dời ngay trong 6 giờ thì tỷ lệ thành công sẽ cao vì sau thời gian này dây chằng cổ rùa đã được hình thành và dễ bị đứt khi xoay chuyển.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 657
+Ổ trứng này được đưa đi sau một ngày đẻ, nhưng vẫn đạt kết quả tốt nhờ sự khéo léo của người dân và hướng dẫn của chuyên gia.
+
+# https://vnexpress.net/do-de-53-rua-con-o-ban-dao-4342916.html
+# date = 20210819
+# sent_id = 658
+Sau đó, Chi cục Thủy sản Bình Định cũng lập tổ cộng đồng bảo vệ nguồn lợi thủy sản với 60 thành viên là người dân trong xã.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 659
+Trưởng khu phố, tổ dân phố rà soát người khó khăn, lập danh sách để xét duyệt; chủ doanh nghiệp phải thống kê số lao động gửi chính quyền để sớm được hỗ trợ.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 660
+Để nhận hỗ trợ, người dân cần liên hệ tổ trưởng dân phố, khu phố hoặc cảnh sát khu vực nơi mình sống, kê khai thông tin yêu cầu hỗ trợ theo mẫu.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 661
+Với lao động làm việc tại các cơ sở kinh doanh, doanh nghiệp bị hoãn việc, nghỉ không lương, người chủ phải lập danh sách theo mẫu, gửi tới cơ quan bảo hiểm xã hội để đối chiếu, xác nhận đã đóng bảo hiểm đến thời điểm được hỗ trợ.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 662
+Lao động bị chấm dứt hợp đồng nhưng không đủ điều kiện hưởng trợ cấp thất nghiệp cần làm tờ khai, photo sổ bảo hiểm xã hội, quyết định chấm dứt hợp đồng lao động, gửi cơ quan bảo hiểm xã hội nơi mình thường trú.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 663
+UBND thành phố yêu cầu việc thẩm định hồ sơ không quá 7 ngày.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 664
+Để đẩy nhanh tiến độ thực hiện, chính quyền thành phố yêu cầu các phường, xã , ấp, khu phố... chủ động đến từng nhà dân, khu trọ để lập danh sách, trao triền hỗ trợ, không phân biệt người thường trú hay tạm trú.
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 665
+Với doanh nghiệp, hợp tác xã, trường dân lập, để nhận hỗ trợ, chủ cơ sở phải lập danh sách lao động kèm bản sao tạm hoãn hợp đồng; bản sao văn bản tạm dừng hoạt động theo yêu cầu chính quyền; bản sao công chứng kèm bản gốc một trong các loại giấy tờ tương ứng với nhóm thụ hưởng...
+
+# https://vnexpress.net/nguoi-dan-tp-hcm-lam-gi-de-nhan-cac-goi-ho-tro-4343051.html
+# date = 20210819
+# sent_id = 666
+Đến nay, TP HCM trải qua hơn 80 ngày giãn cách theo nhiều cấp độ Chỉ thị 10, 12, 15, 16 và 16 tăng cường.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 667
+Việc xây dựng các đập thủy điện tràn lan và thiếu quy hoạch đang khiến Trung Quốc loay hoay nâng cấp hoặc tháo dỡ nhiều đập trở nên thiếu hiệu quả.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 668
+Trung Quốc muốn nền kinh tế khổng lồ của nước này giảm lệ thuộc vào than và nhiên liệu hóa thạch nhằm đạt mục tiêu không phát thải carbon vào năm 2060, nhưng vẫn tìm cách bỏ đến 40.000 nhà máy thủy điện.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 669
+Theo Bloomberg, câu trả lời nằm trong lịch sử của việc cố gắng kiểm soát các con sông.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 670
+Từ khi cựu Chủ tịch Mao Trạch Đông cổ vũ cho việc “chinh phục thiên nhiên” vào thập niên 1950, Trung Quốc đã ồ ạt xây các đập thủy điện lớn để phát điện, kiểm soát lũ và cấp nước tưới tiêu, sinh hoạt.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 671
+Nhiều con đập quá nhỏ để phát công suất đáng kể, một số thì dư thừa do sông cạn khô, hồ có nhiều chất trầm tích hoặc bị các đập khác xây trên thượng nguồn thay thế.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 672
+Đập Mô Thức Khẩu chưa từng chính thức dừng vận hành mà giảm phát điện dần, hậu quả của việc khô hạn ở miền bắc và nhu cầu nước gia tăng ở thượng nguồn.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 673
+Ít nhất 930 đập được xây mà không có đánh giá tác động môi trường.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 674
+Nhiều con đập cũ là mối đe dọa nghiêm trọng, đặc biệt vào mùa lũ.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 675
+Các đập lớn ngày càng bị chỉ trích vì tác động môi trường do thay đổi dòng chảy, nhấn chìm môi trường sống và cản trở sự di cư, sinh sản của cá.
+
+# https://thanhnien.vn/the-gioi/vi-sao-trung-quoc-tinh-chuyen-bo-40000-dap-thuy-dien-1432731.html
+# date = 20210819
+# sent_id = 676
+Giờ đây, tháo dỡ các đập thủy điện là việc nguy hiểm, tốn kém và là dự án lớn.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 677
+Hãng Boston Dynamics vừa tung ra hai video phô diễn khả năng parkour của robot Atlas.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 678
+Video đầu tiên cho thấy Atlas dùng parkour để vượt qua các chướng ngại vật, nhào lộn trên không.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 679
+Đây là lần đầu tiên Atlas hoàn thành chặng đường vượt chướng ngại vật mà không gặp trục trặc gì nên công ty muốn kỷ niệm sự kiện này.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 680
+Trong video hậu trường, Benjamin Stephens - người phụ trách điều khiển Atlas cho biết các robot không phải lúc nào cũng hoàn thành nhiệm vụ trong lần thử đầu tiên.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 681
+Cuối đoạn video đầu tiên, hai robot đối mặt với nhau, cùng thực hiện động tác nhào lộn.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 682
+Họ cho biết: "Mọi cử động đều có xác suất thất bại. Đoạn video gần 90 giây toàn những động tác nhảy, chạy bộ, xoay người, lộn nhào nên xác suất thất bại càng cao hơn".
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 683
+Theo PCMag, cần có một nhóm phần cứng, nhóm phần mềm, kỹ thuật viên và nhân viên vận hành để triển khai toàn bộ hoạt động của robot.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 684
+Ba máy tính bên trong sẽ xử lý dữ liệu cảm biến và chạy thuật toán giúp robot có thể di chuyển với 28 bậc tự do mà không bị ngã.
+
+# https://thanhnien.vn/cong-nghe/boston-dynamics-trinh-dien-robot-atlas-nhao-lon-dieu-luyen-1432807.html
+# date = 20210819
+# sent_id = 685
+Scott Kuindersma giải thích: "Robot không có xương sống và xương bả vai nên không thể di chuyển như con người. Thân robot nặng, các khớp tay tương đối yếu. Chúng tôi phải mở rộng công cụ để tìm giải pháp cho các hạn chế này, đây là điều khiến thử thách trở nên thú vị".
