@@ -10,63 +10,122 @@ DATASETS_FOLDER = join(PROJECT_FOLDER, "datasets")
 COL_FOLDER = join(DATASETS_FOLDER, "UD_Vietnamese-COL")
 
 
-class Sentence(object):
-    def __init__(self, content):
-        sentences = content.split("\n")
-        doc_label_len = len("# doc_url = ")  # only first 30 sentences
-        self.headers = sentences[:3]
-        self.headers.append("# type = bronze")
-        self.headers.append(f"# authors = {BOT_VERSION}")
-        self.url = sentences[0][doc_label_len:] if sentences[0][:doc_label_len] == "# doc_url = " else sentences[0][2:]
-        self.date = sentences[1][len("# date = "):]
-        self.sent_id = sentences[2][len("# sent_id = "):]
-        self.text = sentences[-1]
-        self.headers.append("# text = " + self.text)
-        self.ud_content = ""
+class UDSentence:
+    def __init__(self, rows, headers=None):
+        self.rows = rows
+        self.key_orders = ["doc_url", "date", "sent_id", "type", "authors", "text"]
+        self.headers = headers
 
-    def get_tags(self):
-        pos_tags = pos_tag(self.text)
-        dp_tags = dependency_parse(self.text)
-        self.tags = [(item[0][0], item[0][1], str(item[1][1]), item[1][2]) for item in zip(pos_tags, dp_tags)]
-        return self.tags
+    def __str__(self):
+        content = ""
+        for key in self.key_orders:
+            value = self.headers[key]
+            content += f"# {key} = {value}\n"
+        content += "\n".join(["\t".join(row) for row in self.rows])
+        return content
 
-    def to_ud(self):
-        tags = self.get_tags()
-        ud_content = "\n".join(["\t".join(tag) for tag in tags])
-        self.ud_content = "\n".join(self.headers) + "\n"
-        self.ud_content += ud_content
-        return self
+    @staticmethod
+    def _extract_header(content):
+        content = content[2:].strip()
+        index = content.find("=")
+        key = content[:index].strip()
+        value = content[index + 2:].strip()
+        return [key, value]
+
+    @staticmethod
+    def load(content):
+        data = content.split("\n")
+        headers = [row for row in data if row.startswith("# ")]
+        headers = dict([UDSentence._extract_header(content) for content in headers])
+        rows = [row for row in data if not row.startswith("# ")]
+        rows = [r.split("\t") for r in rows]
+        s = UDSentence(rows=rows, headers=headers)
+        return s
+
+    @staticmethod
+    def load_from_raw_content(raw_content):
+        sentences = raw_content.split("\n")
+        headers = sentences[:3]
+        headers = dict([UDSentence._extract_header(_) for _ in headers])
+        text = sentences[-1]
+        headers["text"] = text
+        headers["type"] = "bronze"
+        headers["authors"] = BOT_VERSION
+        pos_tags = pos_tag(text)
+        dp_tags = dependency_parse(text)
+        rows = [(item[0][0], item[0][1], str(item[1][1]), item[1][2]) for item in zip(pos_tags, dp_tags)]
+        s = UDSentence(rows=rows, headers=headers)
+        return s
 
 
-class RawToUDDataset(Dataset):
-    def __init__(self, raw_file):
+class UDDataset(Dataset):
+
+    def __init__(self, sentences):
         super().__init__()
-        self.len = 1
-        with open(raw_file) as f:
-            sentences = f.read().strip().split("\n\n")
-        sentences = [Sentence(s) for s in sentences]
-        self.sentences = [s.to_ud() for s in sentences]
-        self.len = len(self.sentences)
+        self.sentences = sentences
+        self.generate_indices()
+
+    def generate_indices(self):
+        self.sent_id_sent_index_map = dict([[s.headers["sent_id"], key] for key, s in enumerate(self.sentences)])
+
+    def get_by_sent_id(self, sent_id):
+        if sent_id in self.sent_id_sent_index_map:
+            index = self.sent_id_sent_index_map[sent_id]
+            return self.sentences[index]
+        return None
 
     def __getitem__(self, index):
         return self.sentences[index]
 
     def __len__(self):
-        return self.len
+        return len(self.sentences)
 
-    def write(self, filepath):
-        with open(filepath, "w") as f:
-            content = "\n\n".join([s.ud_content for s in self])
+    @staticmethod
+    def load(ud_file):
+        sentences = open(ud_file).read().split("\n\n")
+        sentences = [UDSentence.load(s) for s in sentences]
+        sentences = sentences
+        dataset = UDDataset(sentences)
+        return dataset
+
+    @staticmethod
+    def load_from_raw_file(raw_file):
+        with open(raw_file) as f:
+            rows = f.read().strip().split("\n\n")
+        sentences = [UDSentence.load_from_raw_content(content) for content in rows]
+        dataset = UDDataset(sentences)
+        return dataset
+
+    def merge_sentence(self, s1, dataset):
+        sent_id = s1.headers['sent_id']
+        target_sentence = dataset.get_by_sent_id(sent_id)
+        if target_sentence is None:
+            return s1
+        if target_sentence.headers['type'] == 'silver':
+            return target_sentence
+        return s1
+
+    def merge(self, dataset):
+        self.sentences = [self.merge_sentence(s, dataset) for s in self.sentences]
+
+    def write(self, target_file):
+        content = "\n\n".join([str(s) for s in self.sentences])
+        with open(target_file, "w") as f:
             f.write(content)
 
 
 if __name__ == '__main__':
     raw_file = join(COL_FOLDER, "corpus", "raw", "202108.txt")
-    dataset = RawToUDDataset(raw_file)
+    generated_dataset = UDDataset.load_from_raw_file(raw_file)
 
-    ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
-    dataset.write(ud_file)
+    current_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
+    current_dataset = UDDataset.load(current_file)
+
+    generated_dataset.merge(current_dataset)
+
+    target_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
+    generated_dataset.write(target_file)
 
     analyzer = UDAnalyzer()
-    analyzer.analyze(dataset)
-    analyzer.analyze_today_words(dataset)
+    analyzer.analyze(generated_dataset)
+    analyzer.analyze_today_words(generated_dataset)
