@@ -14629,3 +14629,3865 @@ thay đổi	V	33	xcomp
 rời	V	36	acl:subj
 Paris	Np	37	obj
 .	CH	18	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 501
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cảnh giác với dịch vụ lấy lại tài khoản Facebook bị khóa vì chia sẻ clip nhạy cảm
+Cảnh giác	V	9	nsubj
+với	E	3	case
+dịch vụ	N	1	obl:with
+lấy	V	3	acl:subj
+lại	V	4	compound:svc
+tài khoản	N	4	obj
+Facebook	Np	6	nmod
+bị	V	9	aux:pass
+khóa	V	0	root
+vì	E	11	case
+chia sẻ	V	9	obl
+clip	N	11	compound
+nhạy cảm	A	9	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 502
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vào đêm qua, không ít tài khoản của người dùng Facebook Việt Nam đã bị bay màu.
+Vào	E	2	case
+đêm	N	15	obl:tmod
+qua	V	2	amod
+,	CH	2	punct
+không	R	6	advmod:neg
+ít	A	7	advmod:adj
+tài khoản	N	15	nsubj
+của	E	9	case
+người	N	7	nmod:poss
+dùng	V	9	acl:subj
+Facebook	Np	10	obj
+Việt Nam	Np	11	compound
+đã	R	15	advmod
+bị	V	15	aux:pass
+bay màu	V	0	root
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 503
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điểm chung của những tài khoản này đều liên quan đến việc chia sẻ một clip nhạy cảm.
+Điểm	N	8	nsubj
+chung	A	1	amod
+của	E	5	case
+những	L	5	det
+tài khoản	N	1	nmod:poss
+này	P	5	det:pmod
+đều	R	8	advmod
+liên quan	V	0	root
+đến	E	10	case
+việc	N	8	obl:comp
+chia sẻ	V	10	acl:subj
+một	M	13	nummod
+clip	N	11	obj
+nhạy cảm	A	13	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 504
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tối 16/8, trên mạng xã hội Facebook lan truyền thông tin liên quan đến clip nhạy cảm được cho là của một cặp đôi trẻ vị thành niên.
+Tối	N	14	obl:tmod
+16/8	M	1	compound
+,	CH	14	punct
+trên	E	5	case
+mạng	N	14	obl
+xã hội	N	5	compound
+Facebook	Np	6	compound
+lan truyền thông tin	N	5	compound
+liên quan	V	5	acl:subj
+đến	E	11	case
+clip	N	9	obl:comp
+nhạy cảm	V	11	compound
+được	V	14	aux:pass
+cho	V	0	root
+là	C	14	discourse
+của	E	18	case
+một	M	18	nummod
+cặp đôi	N	14	obl:comp
+trẻ	A	18	nmod
+vị thành niên	A	19	compound
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 505
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi thông tin này xuất hiện, trên nhiều group tâm sự, các bài viết về chủ đề này liên tục được chia sẻ và thu hút sự quan tâm chú ý lớn từ phía người dùng mạng với hàng nghìn lượt comment (bình luận).
+Sau	N	2	case
+khi	N	20	obl:tmod
+thông tin	N	5	nsubj
+này	P	3	det:pmod
+xuất hiện	V	2	acl:tmod
+,	CH	10	punct
+trên	E	9	case
+nhiều	A	9	advmod:adj
+group	N	10	nsubj
+tâm sự	V	2	acl:tmod
+,	CH	20	punct
+các	L	13	det
+bài	N	20	nsubj:pass
+viết	V	13	compound
+về	E	16	case
+chủ đề	N	13	nmod
+này	P	16	det:pmod
+liên tục	A	20	advmod
+được	V	20	aux:pass
+chia sẻ	V	0	root
+và	C	22	cc
+thu hút	V	23	det
+sự	N	20	conj
+quan tâm	V	23	compound
+chú ý	V	24	acl:subj
+lớn	A	25	advmod:adj
+từ	E	28	case
+phía	N	25	obl
+người	N	28	nmod
+dùng	V	29	acl:subj
+mạng	N	30	obj
+với	E	33	case
+hàng	R	35	det
+nghìn	M	35	nummod
+lượt	N	28	nmod
+comment	N	35	compound
+(	CH	38	punct
+bình luận	M	35	appos:nmod
+)	CH	38	punct
+.	CH	20	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 506
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong lúc nhiều người không hiểu chuyện gì xảy ra, để thu hút lượt like, follow, không ít tài khoản Facebook đã để lại commnet với nội dung yêu cầu các tài khoản khác like page để có link hoăc inbox để nhận về clip nóng.
+Trong	E	2	case
+lúc	N	24	obl:tmod
+nhiều	A	4	advmod:adj
+người	Nc	6	nsubj
+không	R	6	advmod:neg
+hiểu	V	2	acl:tmod
+chuyện	N	6	obj
+gì	P	7	det:pmod
+xảy	V	7	acl:subj
+ra	V	9	compound:svc
+,	CH	12	punct
+để	E	6	conj
+thu hút	V	12	obj
+lượt	N	12	obj
+like	N	14	nmod
+,	CH	17	punct
+follow	N	15	conj
+,	CH	24	punct
+không	R	20	advmod:neg
+ít	A	21	advmod:adj
+tài khoản	N	24	nsubj
+Facebook	Np	21	compound
+đã	R	24	advmod
+để	V	0	root
+lại	V	24	advmod
+commnet	A	24	obj
+với	E	28	case
+nội dung	N	26	obl:comp
+yêu cầu	V	28	acl:subj
+các	L	31	det
+tài khoản	N	29	obj
+khác	A	31	amod
+like	V	31	nmod
+page	N	31	nmod
+để	E	36	mark:pcomp
+có	V	24	advcl:objective
+link	N	36	obj
+hoăc	V	37	compound
+inbox	N	38	nmod
+để	E	41	mark:pcomp
+nhận	V	36	advcl:objective
+về	E	41	compound:dir
+clip	N	41	obl:comp
+nóng	A	43	amod
+.	CH	24	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 507
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đáng chú ý, có không ít tài khoản còn chia sẻ link và hình ảnh được cắt ra từ clip này.
+Đáng	V	4	advcl
+chú ý	V	1	obj
+,	CH	4	punct
+có	V	0	root
+không	R	6	advmod:neg
+ít	A	7	advmod:adj
+tài khoản	N	9	nsubj
+còn	R	9	advmod
+chia sẻ	V	4	conj
+link	N	9	obj
+và	C	12	cc
+hình ảnh	N	10	conj
+được	V	14	aux:pass
+cắt	V	9	conj
+ra	V	14	compound:dir
+từ	E	17	case
+clip	N	14	obl:comp
+này	P	17	det:pmod
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 508
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy vậy, chỉ ngay sáng hôm sau, phần lớn các tài khoản này đã bị rơi vào trạng thái ngừng hoạt động.
+Tuy vậy	C	15	mark
+,	CH	15	punct
+chỉ	R	5	advmod
+ngay	T	5	discourse
+sáng	N	15	obl:tmod
+hôm	N	5	nmod
+sau	N	6	nmod
+,	CH	5	punct
+phần lớn	N	11	det
+các	L	11	det
+tài khoản	N	15	nsubj:pass
+này	P	11	det:pmod
+đã	R	15	advmod
+bị	V	15	aux:pass
+rơi	V	0	root
+vào	E	17	case
+trạng thái	N	15	obl:comp
+ngừng	V	15	xcomp
+hoạt động	V	18	obj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 509
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không những vậy, nhiều người còn cho biết, không chỉ những tài khoản đã chia sẻ clip mà cả những người ở cùng chung group chat có đường link đó cũng bị “bay màu”.
+Không những	C	2	advmod
+vậy	P	7	obl
+,	CH	7	punct
+nhiều	A	5	det
+người	N	7	nsubj
+còn	R	7	advmod
+cho	V	0	root
+biết	V	7	compound:svc
+,	CH	14	punct
+không chỉ	C	12	advmod
+những	L	12	det
+tài khoản	N	14	nsubj
+đã	R	14	advmod
+chia sẻ	V	7	parataxis
+clip	A	14	obj
+mà	C	24	mark
+cả	T	19	det
+những	L	19	det
+người	Nc	24	nsubj
+ở	E	21	case
+cùng chung	N	19	nmod
+group	N	23	nummod
+chat	V	24	nsubj
+có	V	30	csubj
+đường	N	24	obj
+link	N	25	nmod
+đó	P	25	det:pmod
+cũng	R	29	advmod
+bị	V	30	aux:pass
+“	CH	7	parataxis
+bay màu	V	30	obj
+”	CH	31	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 510
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều tài khoản người dùng Facebook Việt Nam đã nhận được thông báo "bay màu" sau khi chia sẻ đường link chứa clip nhạy cảm.
+Nhiều	A	2	advmod:adj
+tài khoản	N	3	nummod
+người	N	8	nsubj
+dùng	V	3	acl:subj
+Facebook	Np	4	obj
+Việt Nam	Np	4	obj
+đã	R	8	advmod
+nhận	V	0	root
+được	R	8	advmod
+thông báo	N	8	obj
+"	CH	12	punct
+bay màu	N	10	nmod
+"	CH	12	punct
+sau	N	15	case
+khi	N	8	obl:tmod
+chia sẻ	V	15	acl:tmod
+đường	N	16	obj
+link	N	17	compound
+chứa	V	18	compound
+clip	N	19	obj
+nhạy cảm	A	20	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 511
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo ghi nhận của VietNamNet, các trường hợp nói trên đều nhận được thông báo “Chúng tôi đã tạm ngừng tài khoản của bạn” từ Facebook.
+Theo	V	11	advcl
+ghi nhận	N	1	obj
+của	E	4	case
+VietNamNet	Np	2	nmod:poss
+,	CH	1	punct
+các	L	7	det
+trường hợp	N	11	nsubj
+nói	V	7	acl:subj
+trên	N	8	compound:verbnoun
+đều	R	11	advmod
+nhận	V	0	root
+được	R	11	advmod
+thông báo	N	11	obj
+“	CH	13	nmod
+Chúng tôi	P	18	nsubj
+đã	R	18	advmod
+tạm	A	18	advmod:adj
+ngừng	V	11	conj
+tài khoản	N	18	obj
+của	E	21	case
+bạn	N	19	nmod:poss
+”	CH	21	compound
+từ	E	24	case
+Facebook	Np	21	nmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 512
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lý giải hành động trên, Facebook cho biết tài khoản bị tạm ngừng bởi tài khoản hoặc hoạt động trên tài khoản đã vi phạm tiêu chuẩn cộng đồng của mạng xã hội này.
+Lý giải	N	6	advcl
+hành động	V	1	obj
+trên	N	2	compound
+,	CH	6	punct
+Facebook	Np	6	nsubj
+cho	V	0	root
+biết	V	6	compound:svc
+tài khoản	N	10	nsubj
+bị	V	10	aux:pass
+tạm	A	6	ccomp
+ngừng	V	6	ccomp
+bởi	E	13	case
+tài khoản	N	11	obl
+hoặc	C	15	cc
+hoạt động	V	13	conj
+trên	E	17	case
+tài khoản	N	13	nmod
+đã	R	19	advmod
+vi phạm	V	6	ccomp
+tiêu chuẩn	N	19	obj
+cộng đồng	N	20	nmod
+của	E	23	case
+mạng	N	20	nmod:poss
+xã hội	N	23	compound
+này	P	23	det:pmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 513
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người dùng cũng được cho biết họ có 30 ngày để phản đối quyết định này.
+Người	Nc	2	det:clf
+dùng	V	5	nsubj
+cũng	R	5	advmod
+được	V	5	aux:pass
+cho	V	0	root
+biết	V	5	compound:svc
+họ	P	8	nsubj
+có	V	5	ccomp
+30	M	10	nummod
+ngày	N	8	obj
+để	E	12	mark:pcomp
+phản đối	V	8	advcl:objective
+quyết định	V	12	obj
+này	P	13	det:pmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 514
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong trường hợp cho rằng việc tạm ngừng tài khoản là nhầm lẫn, người dùng có thể khiếu nại.
+Trong	E	2	case
+trường hợp	N	3	nsubj
+cho	V	0	root
+rằng	C	10	mark
+việc	N	10	nsubj
+tạm	A	5	amod
+ngừng	V	5	acl
+tài khoản	N	7	obj
+là	V	10	cop
+nhầm lẫn	N	3	ccomp
+,	CH	13	punct
+người	N	13	nsubj
+dùng	V	10	conj
+có thể	R	15	advmod
+khiếu nại	V	13	obj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 515
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu sau 30 ngày không phản đối quyết định trên, tài khoản của họ sẽ bị vô hiệu hóa vĩnh viễn.
+Nếu	C	6	mark
+sau	N	4	case
+30	M	4	nummod
+ngày	N	6	obl:tmod
+không	R	6	advmod:neg
+phản đối	V	15	advcl
+quyết định	V	6	obj
+trên	N	7	nmod
+,	CH	15	punct
+tài khoản	N	15	nsubj
+của	E	12	case
+họ	P	10	nmod:poss
+sẽ	R	15	advmod
+bị	V	15	aux:pass
+vô hiệu hóa	V	0	root
+vĩnh viễn	A	15	obj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 516
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước thông tin trên, PV VietNamNet đã có liên hệ tới Facebook Việt Nam để hỏi về vụ việc, tuy nhiên hiện vẫn chưa nhận được câu trả lời.
+Trước	E	2	case
+thông tin	N	8	obl
+trên	N	2	amod
+,	CH	2	punct
+PV VietNamNet	Np	8	nsubj
+đã	R	8	advmod
+có	V	0	root
+liên hệ	V	7	xcomp
+tới	E	10	case
+Facebook	Np	8	obl
+Việt Nam	Np	10	nmod
+để	E	13	mark:pcomp
+hỏi	V	8	advcl:objective
+về	E	15	case
+vụ việc	N	13	obl:comp
+,	CH	21	punct
+tuy nhiên	C	21	mark
+hiện	N	21	obl:tmod
+vẫn	R	21	advmod
+chưa	R	21	advmod:neg
+nhận	V	7	conj
+được	R	21	advmod
+câu	N	21	obj
+trả lời	V	23	compound:vmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 517
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đáng chú ý, sau khi vụ việc này xảy ra, trên Facebook xuất hiện không ít các bài đăng quảng cáo liên quan đến dịch vụ lấy lại tài khoản Facebook.
+Đáng	V	13	advcl
+chú ý	V	1	obj
+,	CH	1	punct
+sau	N	5	case
+khi	N	13	obl:tmod
+vụ việc	N	8	nsubj
+này	P	6	det:pmod
+xảy	V	5	acl:tmod
+ra	V	8	compound:dir
+,	CH	5	punct
+trên	E	12	case
+Facebook	Np	13	obl
+xuất hiện	V	0	root
+không	R	15	advmod:neg
+ít	A	17	advmod:adj
+các	L	17	det
+bài	N	13	obj
+đăng	V	17	compound
+quảng cáo	V	18	obj
+liên quan	V	18	acl:subj
+đến	E	22	case
+dịch vụ	N	20	obl:comp
+lấy	V	22	acl:subj
+lại	V	23	compound:prt
+tài khoản	N	23	obj
+Facebook	Np	25	nmod
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 518
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người dùng mạng xã hội đang bị "khủng bố" vì nhiều bài đăng "spam" về dịch vụ lấy lại tài khoản Facebook.
+Người	Nc	8	nsubj:pass
+dùng	V	1	acl:subj
+mạng	N	2	obj
+xã hội	N	3	nmod
+đang	R	8	advmod
+bị	V	8	aux:pass
+"	CH	8	punct
+khủng bố	V	0	root
+"	CH	8	punct
+vì	E	12	case
+nhiều	A	12	det
+bài	N	8	obl
+đăng	V	12	compound
+"	CH	15	punct
+spam	V	12	nmod
+"	CH	15	punct
+về	E	18	case
+dịch vụ	N	12	nmod
+lấy	V	18	acl:subj
+lại	V	19	compound:prt
+tài khoản	N	19	obj
+Facebook	Np	21	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 519
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Liên hệ với một đơn vị cung cấp dịch vụ lấy lại tài khoản Facebook, Pv VietNamNet được biết, sau sự việc tối qua, lượng người có nhu cầu đối với dịch vụ lấy lại tài khoản tăng đột biến so với bình thường.
+Liên hệ	V	0	root
+với	E	4	case
+một	M	4	nummod
+đơn vị	N	1	obl:with
+cung cấp	V	4	acl:subj
+dịch vụ	N	5	obj
+lấy	V	5	xcomp
+lại	V	7	compound:prt
+tài khoản	N	7	obj
+Facebook	Np	9	nmod
+,	CH	12	punct
+Pv VietNamNet	Np	10	conj
+được	R	14	aux:pass
+biết	V	1	conj
+,	CH	17	punct
+sau	N	17	case
+sự việc	N	14	obl
+tối qua	N	17	nmod
+,	CH	26	punct
+lượng	N	17	conj
+người	N	20	nmod
+có	V	21	acl:subj
+nhu cầu	N	22	obj
+đối với	E	25	case
+dịch vụ	N	22	obl
+lấy	V	25	acl:subj
+lại	V	26	advmod
+tài khoản	N	26	obj
+tăng	V	28	acl:subj
+đột biến	N	29	obj
+so	V	29	xcomp
+với	E	33	case
+bình thường	A	31	obl:comp
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 520
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi được hỏi về chi phí lấy lại tài khoản bị khóa, nhà cung cấp dịch vụ này cho biết, người dùng phải trả 500.000 đồng để mở khóa đối với mỗi tài khoản.
+Khi	N	15	obl:tmod
+được	V	3	aux:pass
+hỏi	V	1	acl:tmod
+về	E	5	case
+chi phí	N	3	obl:comp
+lấy	V	5	acl:subj
+lại	V	6	compound:svc
+tài khoản	N	10	nsubj
+bị	V	10	aux:pass
+khóa	V	6	obj
+,	CH	15	punct
+nhà cung cấp	N	13	nummod
+dịch vụ	N	15	nsubj
+này	P	13	det:pmod
+cho	V	0	root
+biết	V	15	compound:svc
+,	CH	21	punct
+người	N	19	nsubj
+dùng	V	15	parataxis
+phải	V	21	aux
+trả	V	15	parataxis
+500.000	M	23	nummod
+đồng	Nu	21	obj
+để	E	25	mark:pcomp
+mở	V	21	advcl:objective
+khóa	N	25	obj
+đối với	E	29	case
+mỗi	L	29	det
+tài khoản	N	25	obl
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 521
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu đăng ký theo nhóm từ 3-4 thành viên, mức phí mở khóa sẽ dao động trong khoảng từ 300.000-400.000 đồng.
+Nếu	C	2	mark
+đăng ký	V	14	advcl
+theo	V	2	advmod
+nhóm	N	2	obl:comp
+từ	E	7	case
+3-4	N	7	nummod
+thành viên	N	2	obl
+,	CH	14	punct
+mức	N	14	nsubj
+phí	N	9	nmod
+mở	V	9	acl:subj
+khóa	N	11	obj
+sẽ	R	14	advmod
+dao động	V	0	root
+trong	E	16	case
+khoảng	N	14	obl
+từ	E	18	case
+300.000	M	21	nummod
+-	CH	18	flat:number
+400.000	M	18	flat:number
+đồng	Nu	14	obj
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 522
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy vậy, ngoài mức phí sử dụng dịch vụ là 500.000 đồng, ngươi dùng được yêu cầu phải cung cấp cả đường link và mật khẩu Facebook.
+Tuy vậy	C	13	mark
+,	CH	13	punct
+ngoài	E	4	case
+mức	N	13	obl
+phí	N	4	compound
+sử dụng	V	4	acl:subj
+dịch vụ	N	6	obj
+là	V	10	cop
+500.000	M	10	nummod
+đồng	Nu	13	obj
+,	CH	13	punct
+ngươi	N	13	nsubj
+dùng	V	0	root
+được	R	13	advmod
+yêu cầu	V	13	obj
+phải	V	17	aux
+cung cấp	V	15	acl:subj
+cả	T	19	det
+đường	N	17	obj
+link	V	19	compound
+và	C	22	cc
+mật khẩu	N	19	conj
+Facebook	Np	22	compound
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 523
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo tìm hiểu của VietNamNet, chi phí lấy lại tài khoản Facebook bị khóa là khoảng 500.000 đồng.
+Theo	V	7	advcl
+tìm hiểu	V	1	obj
+của	E	4	case
+VietNamNet	Np	2	nmod:poss
+,	CH	1	punct
+chi phí	N	7	nsubj
+lấy	V	0	root
+lại	V	7	compound:svc
+tài khoản	N	7	obj
+Facebook	Np	9	compound
+bị	V	12	aux:pass
+khóa	V	7	ccomp
+là	V	16	cop
+khoảng	N	16	advmod:adj
+500.000	M	16	nummod
+đồng	Nu	12	obj
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 524
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thấy khách hàng còn phân vân, để trấn an người dùng, nhà cung cấp dịch vụ này khẳng định: “Anh có thể yên tâm bởi mức giá 500.000 đồng đưa ra đã bao gồm cả chi phí bảo mật thông tin liên quan đến tài khoản.”.
+Thấy	V	14	advcl
+khách hàng	N	1	obj
+còn	R	4	advmod
+phân vân	A	1	ccomp
+,	CH	6	punct
+để	E	1	conj
+trấn an	V	6	obj
+người	N	9	nsubj
+dùng	V	7	acl:subj
+,	CH	14	punct
+nhà cung cấp	N	12	det:clf
+dịch vụ	N	14	nsubj
+này	P	12	det:pmod
+khẳng định	V	0	root
+:	CH	19	punct
+“	CH	19	punct
+Anh	N	19	nsubj
+có thể	R	19	aux
+yên tâm	A	14	parataxis
+bởi	E	21	case
+mức	N	19	obl
+giá	N	21	nmod
+500.000	M	24	nummod
+đồng	Nu	22	nmod
+đưa	V	21	acl:subj
+ra	V	25	compound:dir
+đã	R	28	advmod
+bao gồm	V	19	conj
+cả	T	30	det
+chi phí	N	28	obj
+bảo mật	V	30	compound
+thông tin	N	31	obj
+liên quan	V	30	acl:subj
+đến	E	35	case
+tài khoản	N	33	obl:comp
+.	CH	35	punct
+”	CH	35	nmod
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/bao-mat/canh-giac-voi-cac-dich-vu-lay-lai-tai-khoan-facebook-767087.html
+# date = 20210818
+# sent_id = 525
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người này còn cam kết sẽ mở khóa tài khoản Facebook chỉ sau 30 phút.
+Người	Nc	6	nsubj
+này	P	1	det:pmod
+còn	R	6	advmod
+cam kết	V	6	nsubj
+sẽ	R	6	advmod
+mở	V	0	root
+khóa	N	6	obj
+tài khoản	N	7	nmod
+Facebook	Np	7	nmod
+chỉ	R	13	advmod
+sau	N	13	advmod:adj
+30	M	13	nummod
+phút	Nu	6	obl:tmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 526
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Triển khai các giải pháp bảo đảm an toàn thông tin cá nhân, thông tin về tài khoản, mật khẩu tin nhắn, lịch sử giao dịch của người dùng dịch vụ nền tảng số là việc Bộ TT&TT yêu cầu các doanh nghiệp chủ quản nền tảng số thực hiện.
+Triển khai	V	26	advcl
+các	L	3	det
+giải pháp	N	1	obj
+bảo đảm	V	3	acl:subj
+an toàn	A	6	det
+thông tin	N	4	obj
+cá nhân	N	6	nmod
+,	CH	9	punct
+thông tin	N	7	conj
+về	E	11	case
+tài khoản	N	9	nmod
+,	CH	13	punct
+mật khẩu	V	14	nummod
+tin	N	17	nmod
+nhắn	V	14	compound
+,	CH	17	punct
+lịch sử	N	3	conj
+giao dịch	V	17	compound:vmod
+của	E	20	case
+người	N	17	nmod:poss
+dùng	V	20	acl:subj
+dịch vụ	N	21	obj
+nền tảng	V	22	nmod
+số	N	23	obj
+là	V	26	cop
+việc	N	0	root
+Bộ TT&TT	Np	26	acl:subj
+yêu cầu	V	27	xcomp
+các	L	30	det
+doanh nghiệp	N	28	obj
+chủ quản	V	30	compound
+nền tảng	N	33	case
+số	N	30	nmod
+thực hiện	V	33	compound:vmod
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 527
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Yêu cầu trên là một nội dung trong Chỉ thị 49 về thúc đẩy phát triển và sử dụng nền tảng số an toàn, lành mạnh được Bộ trưởng Bộ TT&TT ký ban hành ngày 18/8.
+Yêu cầu	N	5	nsubj:nn
+trên	N	1	amod
+là	V	5	cop
+một	M	5	nummod
+nội dung	N	0	root
+trong	E	7	case
+Chỉ thị	N	5	nmod
+49	V	7	compound
+về	E	7	acl:subj
+thúc đẩy	N	9	obl:comp
+phát triển	V	10	compound
+và	C	13	cc
+sử dụng	V	10	conj
+nền tảng	N	15	nummod
+số	N	13	obj
+an toàn	A	15	compound
+,	CH	18	punct
+lành mạnh	V	10	conj
+được	R	23	aux:pass
+Bộ trưởng	N	23	obl:agent
+Bộ	N	20	nmod
+TT&TT	Np	21	compound
+ký	V	5	conj
+ban hành	V	23	obj
+ngày	N	23	obl
+18/8	M	25	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 528
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ TT&TT cho biết, thời gian qua, các nền tảng số đã đóng góp quan trọng cho quá trình chuyển đổi số quốc gia, phát triển nền kinh tế số và xã hội số.
+Bộ	N	2	det:clf
+TT&TT	Np	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	3	punct
+thời gian	N	13	obl:tmod
+qua	V	6	amod
+,	CH	13	punct
+các	L	10	det
+nền tảng	N	13	nsubj
+số	N	10	nmod
+đã	R	13	advmod
+đóng góp	V	3	conj
+quan trọng	A	13	acomp
+cho	E	16	case
+quá trình	N	13	obl:comp
+chuyển đổi	V	16	nmod
+số	N	16	nmod
+quốc gia	N	18	compound
+,	CH	21	punct
+phát triển	V	16	conj
+nền	N	21	obj
+kinh tế	N	22	nmod
+số	N	23	compound
+và	C	26	cc
+xã hội	N	24	conj
+số	N	26	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 529
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, hiện tượng lộ lọt thông tin, dữ liệu trên các nền tảng số vẫn diễn ra với quy mô ngày càng lớn.
+Tuy nhiên	C	14	mark
+,	CH	14	punct
+hiện tượng	N	14	nsubj
+lộ	V	3	nmod
+lọt	V	4	nmod
+thông tin	N	5	obj
+,	CH	8	punct
+dữ liệu	N	4	conj
+trên	E	11	case
+các	L	11	det
+nền tảng	N	8	obl
+số	N	11	nmod
+vẫn	R	14	advmod
+diễn	V	0	root
+ra	V	14	compound:dir
+với	E	17	case
+quy mô	N	14	obl
+ngày càng	X	19	advmod
+lớn	A	17	amod
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 530
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện tượng phát tán tin nhắn giả, thông tin vi phạm pháp luật, đặc biệt là trên các nền tảng số xuyên biên giới vẫn diễn ra nhiều, gây ảnh hưởng tiêu cực đến kinh tế, văn hóa và hoang mang, lo lắng trong xã hội.
+Hiện tượng	N	20	nsubj
+phát tán	V	1	amod
+tin	N	4	case
+nhắn	V	2	obj
+giả	A	4	amod
+,	CH	7	punct
+thông tin	N	4	conj
+vi phạm	V	7	nmod
+pháp luật	N	8	compound
+,	CH	11	punct
+đặc biệt	A	20	advmod
+là	C	15	cop
+trên	E	15	case
+các	L	15	det
+nền tảng	N	20	obl
+số	N	15	nmod
+xuyên	V	16	acl:subj
+biên giới	N	17	compound
+vẫn	R	20	advmod
+diễn	V	0	root
+ra	V	20	compound:dir
+nhiều	A	20	acomp
+,	CH	24	punct
+gây	V	20	conj
+ảnh hưởng	V	24	obj
+tiêu cực	N	25	nmod
+đến	E	28	case
+kinh tế	N	24	obl:comp
+,	CH	30	punct
+văn hóa	N	28	conj
+và	C	32	cc
+hoang mang	V	28	conj
+,	CH	34	punct
+lo lắng	V	28	conj
+trong	E	36	case
+xã hội	N	34	obl
+.	CH	20	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 531
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì thế, để thúc đẩy phát triển và sử dụng nền tảng số an toàn, lành mạnh, tạo lập niềm tin số và bảo đảm an toàn không gian mạng Việt Nam, Bộ trưởng Bộ TT&TT yêu cầu các doanh nghiệp chủ quản nền tảng số, các doanh nghiệp viễn thông, các tổ chức và cá nhân sử dụng dịch vụ nền tảng số, Cục An toàn thông tin, Thanh tra Bộ, Cục Phát thanh truyền hình và thông tin điện tử cùng Sở TT&TT các tỉnh, thành phố thực hiện một số nội dung công việc.
+Vì thế	C	28	mark
+,	CH	28	punct
+để	E	28	advcl
+thúc đẩy	V	3	obj
+phát triển	V	4	acl:subj
+và	C	7	cc
+sử dụng	V	5	conj
+nền tảng	N	9	det
+số	N	7	obj
+an toàn	A	9	compound
+,	CH	12	punct
+lành mạnh	A	10	conj
+,	CH	14	punct
+tạo lập	V	5	conj
+niềm	N	14	obj
+tin	V	15	nmod
+số	N	16	nmod
+và	C	19	cc
+bảo đảm	V	5	conj
+an toàn	A	21	nummod
+không gian	N	19	obj
+mạng	N	19	nmod
+Việt Nam	Np	22	compound
+,	CH	25	punct
+Bộ trưởng	N	5	conj
+Bộ	N	25	nmod
+TT&TT	Np	26	compound
+yêu cầu	V	0	root
+các	L	30	det
+doanh nghiệp	N	28	obj
+chủ quản	V	30	compound
+nền tảng	N	33	punct
+số	N	30	nmod
+,	CH	36	punct
+các	L	36	det
+doanh nghiệp	N	30	conj
+viễn thông	N	36	compound
+,	CH	40	punct
+các	L	40	det
+tổ chức	N	30	conj
+và	C	42	cc
+cá nhân	N	40	conj
+sử dụng	V	42	acl:subj
+dịch vụ	N	43	obj
+nền tảng	V	46	punct
+số	N	30	conj
+,	CH	48	punct
+Cục	N	30	conj
+An toàn	A	48	clf
+thông tin	N	49	compound
+,	CH	52	punct
+Thanh tra	N	30	conj
+Bộ	N	52	compound
+,	CH	55	punct
+Cục	N	5	conj
+Phát thanh truyền hình	V	55	compound
+và	C	58	cc
+thông tin	N	5	conj
+điện tử	N	58	compound
+cùng	A	61	case
+Sở	N	58	nmod
+TT&TT	Np	61	compound
+các	L	64	det
+tỉnh	N	61	nmod
+,	CH	66	punct
+thành phố	N	61	conj
+thực hiện	V	66	acl:subj
+một số	L	69	det
+nội dung	N	67	obj
+công việc	N	69	nmod
+.	CH	28	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 532
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, với các doanh nghiệp chủ quản nền tảng số, Bộ TT&TT yêu cầu phát triển nền tảng số có khả năng tự bảo vệ; có các công cụ xử lý, gỡ bỏ thông tin vi phạm pháp luật trên nền tảng số và tuân thủ các quy định của pháp luật về đảm bảo an toàn thông tin.
+Cụ thể	A	11	advcl
+,	CH	1	punct
+với	E	5	case
+các	L	5	det
+doanh nghiệp	N	1	obl:with
+chủ quản	V	5	amod
+nền tảng	N	8	nummod
+số	N	5	conj
+,	CH	11	punct
+Bộ TT&TT	Np	11	nsubj
+yêu cầu	V	0	root
+phát triển	V	11	acl:subj
+nền tảng	N	14	nummod
+số	N	12	obj
+có	V	11	acl:subj
+khả năng	N	15	obj
+tự	P	18	advmod
+bảo vệ	V	16	acl:subj
+;	CH	20	punct
+có	V	11	conj
+các	L	22	det
+công cụ	N	20	obj
+xử lý	V	22	acl:subj
+,	CH	25	punct
+gỡ	V	11	conj
+bỏ	V	25	acl:subj
+thông tin	N	26	obj
+vi phạm	V	27	acl:subj
+pháp luật	N	28	obj
+trên	E	31	case
+nền tảng	N	32	nummod
+số	N	28	nmod
+và	C	34	cc
+tuân thủ	V	26	conj
+các	L	36	det
+quy định	N	34	obj
+của	E	38	case
+pháp luật	N	36	nmod:poss
+về	E	36	acl:subj
+đảm bảo	V	39	xcomp
+an toàn	A	42	det:clf
+thông tin	N	40	obj
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 533
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Công khai biện pháp xử lý, bảo vệ thông tin cá nhân.
+Công khai	V	0	root
+biện pháp	N	1	obj
+xử lý	V	2	nmod
+,	CH	5	punct
+bảo vệ	V	2	conj
+thông tin	N	5	obj
+cá nhân	N	6	nmod
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 534
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chỉ tiến hành thu thập thông tin cá nhân khi có sự đồng ý của chủ thể thông tin cá nhân về phạm vi, mục đích của việc thu thập và sử dụng thông tin cá nhân đó.
+Chỉ	R	2	advmod
+tiến hành	V	0	root
+thu thập	V	2	obj
+thông tin	N	3	nmod
+cá nhân	N	4	nmod
+khi	N	2	obl:tmod
+có	V	6	acl:tmod
+sự	N	7	obj
+đồng ý	V	8	acl:tonp
+của	E	12	case
+chủ thể	N	12	nummod
+thông tin	N	8	nmod:poss
+cá nhân	N	12	compound
+về	E	15	case
+phạm vi	N	12	nmod
+,	CH	17	punct
+mục đích	N	12	conj
+của	E	19	case
+việc	N	17	nmod:poss
+thu thập	V	19	nmod
+và	C	22	cc
+sử dụng	V	19	conj
+thông tin	N	22	obj
+cá nhân	N	23	nmod
+đó	P	24	det:pmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 535
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không được cung cấp, chia sẻ, phát tán thông tin cá nhân của người sử dụng đã thu thập cho bên thứ ba, trừ trường hợp có hợp đồng của chủ thể thông tin cá nhân hoặc theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+Không	R	3	advmod:neg
+được	V	3	aux:pass
+cung cấp	V	0	root
+,	CH	5	punct
+chia sẻ	V	3	conj
+,	CH	7	punct
+phát tán	V	3	conj
+thông tin	N	7	nmod
+cá nhân	N	8	nmod
+của	E	11	case
+người	N	8	nmod:poss
+sử dụng	V	11	compound
+đã	R	14	advmod
+thu thập	V	3	conj
+cho	E	16	case
+bên	N	14	obl:comp
+thứ	N	16	nmod
+ba	M	17	nummod
+,	CH	20	punct
+trừ	V	14	conj
+trường hợp	N	20	obj
+có	V	21	acl:subj
+hợp đồng	N	22	obj
+của	E	26	case
+chủ thể	N	26	det
+thông tin	N	21	nmod:poss
+cá nhân	N	26	nmod
+hoặc	C	29	cc
+theo	V	22	conj
+yêu cầu	N	29	obj
+của	E	32	case
+cơ quan	N	30	nmod:poss
+nhà nước	N	32	compound
+có	V	32	acl:subj
+thẩm quyền	N	34	obj
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 536
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chỉ thị về thúc đẩy phát triển và sử dụng nền tảng số an toàn, lành mạnh mới được Bộ TT&TT ban hành nhằm góp phần tạo lập niềm tin số và bảo đảm an toàn không gian mạng Việt Nam.
+Chỉ thị	N	13	nsubj
+về	V	3	case
+thúc đẩy	V	1	obl
+phát triển	V	3	compound
+và	C	6	cc
+sử dụng	V	4	conj
+nền tảng	N	8	nummod
+số	N	6	obj
+an toàn	A	8	compound
+,	CH	13	punct
+lành mạnh	V	13	nsubj
+mới	R	13	advmod
+được	V	0	root
+Bộ TT&TT	Np	17	obl:agent
+ban hành	V	14	nmod
+nhằm	V	15	compound
+góp phần	V	13	conj
+tạo lập	V	17	xcomp
+niềm	N	18	obj
+tin	V	19	nmod
+số	N	20	nmod
+và	C	23	cc
+bảo đảm	V	18	conj
+an toàn	A	25	det
+không gian	N	23	obj
+mạng	N	25	nmod
+Việt Nam	Np	26	compound
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 537
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các doanh nghiệp chủ quản nền tảng số cũng được yêu cầu phải chủ động phát hiện, ngăn chặn, xử lý tổ chức, cá nhân có hành vi vi phạm pháp luật theo thỏa thuận, hợp đồng, chính sách cung cấp dịch vụ nền tảng số; không cung cấp hoặc ngừng cung cấp dịch vụ nền tảng số cho tổ chức, cá nhân đăng tải trên không gian mạng thông tin có nội dung vi phạm quy định pháp luật.
+Các	L	2	det
+doanh nghiệp	N	8	nsubj:pass
+chủ quản	V	2	amod
+nền tảng	N	5	nummod
+số	N	2	nmod
+cũng	R	8	advmod
+được	V	8	aux:pass
+yêu cầu	V	0	root
+phải	V	10	aux
+chủ động	V	8	obj
+phát hiện	V	8	obj
+,	CH	13	punct
+ngăn chặn	V	11	conj
+,	CH	15	punct
+xử lý	V	11	conj
+tổ chức	V	15	obj
+,	CH	19	punct
+cá nhân	N	19	nsubj
+có	V	8	conj
+hành vi	N	19	obj
+vi phạm	V	20	acl:subj
+pháp luật	N	21	obj
+theo	V	24	case
+thỏa thuận	N	21	obl
+,	CH	26	punct
+hợp đồng	N	24	conj
+,	CH	28	punct
+chính sách	N	24	conj
+cung cấp	V	28	acl:subj
+dịch vụ	N	29	obj
+nền tảng	V	32	case
+số	N	30	nmod
+;	CH	35	punct
+không	R	35	advmod:neg
+cung cấp	V	11	conj
+hoặc	C	37	cc
+ngừng	V	35	conj
+cung cấp	V	37	xcomp
+dịch vụ	N	38	obj
+nền tảng	V	39	acl:subj
+số	N	40	obj
+cho	E	43	case
+tổ chức	V	38	obl:comp
+,	CH	45	punct
+cá nhân	N	51	nsubj
+đăng tải	V	45	nmod
+trên	E	48	case
+không gian	N	46	obl
+mạng	N	48	nmod
+thông tin	N	49	nmod
+có	V	8	conj
+nội dung	N	51	obj
+vi phạm	V	52	acl:subj
+quy định	N	53	obj
+pháp luật	N	54	nmod
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 538
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đồng thời, cung cấp cơ chế cho phép người sử dụng phản ánh, khiếu nại tin giả, thông tin xúc phạm danh dự, xâm phạm đời tư cá nhân và thông tin vi phạm pháp luật khác; công khai chính sách và quy trình hỗ trợ người sử dụng dịch vụ nền tảng số xử lý các vấn đề an toàn thông tin rõ ràng, dễ hiểu trên nền tảng số.
+Đồng thời	R	3	advmod
+,	CH	3	punct
+cung cấp	V	0	root
+cơ chế	N	3	obj
+cho phép	V	4	acl:subj
+người	N	5	obj
+sử dụng	V	6	acl:subj
+phản ánh	V	7	obj
+,	CH	11	punct
+khiếu nại	V	11	nummod
+tin	N	8	conj
+giả	A	11	amod
+,	CH	19	punct
+thông tin	N	11	conj
+xúc phạm	V	14	nmod
+danh dự	N	15	nmod
+,	CH	19	punct
+xâm phạm	N	11	conj
+đời tư	V	18	nmod
+cá nhân	N	19	nmod
+và	C	22	cc
+thông tin	N	19	conj
+vi phạm	V	22	nmod
+pháp luật	N	23	obj
+khác	A	24	amod
+;	CH	27	punct
+công khai	V	4	conj
+chính sách	N	27	nmod
+và	C	30	cc
+quy trình	V	28	conj
+hỗ trợ	V	30	acl:subj
+người	N	31	obj
+sử dụng	V	32	acl:subj
+dịch vụ	N	33	obj
+nền tảng	V	36	punct
+số	N	33	obj
+xử lý	V	36	acl:subj
+các	L	39	det
+vấn đề	N	37	obj
+an toàn	A	39	compound
+thông tin	N	39	compound
+rõ ràng	A	41	amod
+,	CH	44	punct
+dễ	A	39	conj
+hiểu	V	44	xcomp
+trên	E	47	case
+nền tảng	N	45	obl:comp
+số	N	47	compound
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 539
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ TT&TT yêu cầu các doanh nghiệp viễn thông thiết lập hoặc nâng cấp hệ thống giám sát và điều hành an toàn, an ninh mạng (SOC) kết nối, chia sẻ thông tin, dữ liệu với Trung tâm giám sát an toàn không gian mạng quốc gia, Cục An toàn thông tin.
+Bộ	N	3	nsubj
+TT&TT	Np	3	nsubj
+yêu cầu	V	0	root
+các	L	5	det
+doanh nghiệp	N	3	obj
+viễn thông	N	5	nmod
+thiết lập	V	6	compound
+hoặc	C	9	cc
+nâng cấp	V	6	conj
+hệ thống	N	9	obj
+giám sát	V	10	compound
+và	C	13	cc
+điều hành	V	10	conj
+an toàn	A	13	compound
+,	CH	16	punct
+an ninh	N	10	conj
+mạng	N	16	compound
+(	CH	19	punct
+SOC	Np	16	appos:nmod
+)	CH	19	punct
+kết nối	V	16	compound
+,	CH	23	punct
+chia sẻ	V	3	conj
+thông tin	N	23	obj
+,	CH	26	punct
+dữ liệu	N	10	conj
+với	E	28	case
+Trung tâm	N	26	nmod
+giám sát	V	28	acl:subj
+an toàn	A	31	nummod
+không gian	N	29	obj
+mạng	N	31	nmod
+quốc gia	N	32	compound
+,	CH	35	punct
+Cục	N	29	conj
+An toàn	A	35	nmod
+thông tin	N	35	nmod
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 540
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Doanh nghiệp viễn thông phải quản lý, phối hợp ngăn chặn sự cố, nguy cơ mất an toàn thông tin mạng xuất phát từ Internet, từ người sử dụng; cảnh báo, khuyến cáo xử lý khi phát hiện thiết bị của người sử dụng bị lây nhiễm, phát tán mã độc, gặp sự cố lộ, lọt thông tin, dữ liệu cá nhân thông qua các kênh như gọi điện, tin nhắn, thư điện tử, thông báo trực tiếp khi thu cước dịch vụ...
+Doanh nghiệp	N	4	nsubj
+viễn thông	V	1	compound
+phải	V	4	aux
+quản lý	V	0	root
+,	CH	6	punct
+phối hợp	V	4	conj
+ngăn chặn	V	6	obj
+sự cố	N	7	obj
+,	CH	11	punct
+nguy cơ	N	11	nsubj
+mất	V	4	conj
+an toàn	A	13	det
+thông tin	N	11	obj
+mạng	N	13	nmod
+xuất phát	V	13	acl:subj
+từ	E	17	case
+Internet	FW	15	obl
+,	CH	20	punct
+từ	E	20	case
+người	N	17	conj
+sử dụng	V	20	acl:subj
+;	CH	23	punct
+cảnh báo	V	21	conj
+,	CH	25	punct
+khuyến cáo	N	26	nsubj
+xử lý	V	4	conj
+khi	N	26	obl:tmod
+phát hiện	V	27	acl:tmod
+thiết bị	N	28	obj
+của	E	31	case
+người	N	29	nmod:poss
+sử dụng	V	31	compound
+bị	V	34	aux:pass
+lây nhiễm	V	32	acl:subj
+,	CH	36	punct
+phát tán	V	41	conj
+mã	N	36	obj
+độc	A	37	amod
+,	CH	40	punct
+gặp	V	26	conj
+sự cố	N	40	obj
+lộ	N	41	compound
+,	CH	44	punct
+lọt	V	41	conj
+thông tin	N	44	compound
+,	CH	47	punct
+dữ liệu	N	41	conj
+cá nhân	N	47	compound
+thông qua	V	47	acl:subj
+các	L	51	det
+kênh	N	49	obj
+như	C	53	case
+gọi	V	51	nmod
+điện	N	53	compound
+,	CH	56	punct
+tin	N	53	conj
+nhắn	V	56	nmod
+,	CH	59	punct
+thư điện tử	N	53	conj
+,	CH	61	punct
+thông báo	V	53	conj
+trực tiếp	A	61	acl:subj
+khi	N	61	obl:tmod
+thu	V	63	acl:tmod
+cước	N	64	obj
+dịch vụ	N	65	compound
+...	CH	4	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 541
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hệ thống SOC của doanh nghiệp viễn thông phải kết nối, chia sẻ thông tin, dữ liệu với Trung tâm giám sát an toàn không gian mạng quốc gia.
+Hệ thống	N	7	nsubj
+SOC	Np	1	compound
+của	E	4	case
+doanh nghiệp	N	1	nmod:poss
+viễn thông	N	4	compound
+phải	V	7	aux
+kết nối	V	0	root
+,	CH	9	punct
+chia sẻ	V	7	conj
+thông tin	N	9	obj
+,	CH	12	punct
+dữ liệu	N	7	conj
+với	E	14	case
+Trung tâm	N	12	nmod
+giám sát	V	14	nmod
+an toàn	A	17	nummod
+không gian	N	14	nmod
+mạng	N	17	nmod
+quốc gia	N	18	compound
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 542
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với các tổ chức, cá nhân sử dụng dịch vụ nền tảng số, Bộ TT&TT khuyến khích sử dụng các nền tảng số an toàn, lành mạnh, có công khai chính sách, công cụ quản lý và xử lý tin giả, thông tin vi phạm pháp luật khi thiết lập các trang thông tin điện tử, tài khoản trên nền tảng số.
+Với	E	3	case
+các	L	3	det
+tổ chức	N	6	obl
+,	CH	3	punct
+cá nhân	N	6	nsubj
+sử dụng	V	0	root
+dịch vụ	N	6	obj
+nền tảng	V	9	case
+số	N	6	obj
+,	CH	12	punct
+Bộ TT&TT	Np	12	nsubj
+khuyến khích	V	6	conj
+sử dụng	V	12	xcomp
+các	L	16	det
+nền tảng	N	14	clf
+số	N	13	obj
+an toàn	A	16	compound
+,	CH	19	punct
+lành mạnh	A	17	conj
+,	CH	21	punct
+có	V	6	conj
+công khai	V	21	acomp
+chính sách	N	22	obl:adj
+,	CH	26	punct
+công cụ	N	12	conj
+quản lý	V	25	nmod
+và	C	28	cc
+xử lý	V	12	conj
+tin	N	28	obj
+giả	A	29	amod
+,	CH	32	punct
+thông tin	N	26	conj
+vi phạm	V	32	nmod
+pháp luật	N	33	obj
+khi	N	33	obl:tmod
+thiết lập	V	35	acl:tmod
+các	L	38	det
+trang	N	36	obj
+thông tin	N	38	compound
+điện tử	N	39	compound
+,	CH	42	punct
+tài khoản	N	39	conj
+trên	E	44	case
+nền tảng	N	42	nmod
+số	N	44	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 543
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thận trọng khi cung cấp thông tin, dữ liệu cá nhân của mình và của tổ chức, cá nhân khác trên các nền tảng số.
+Thận trọng	N	2	case
+khi	N	0	root
+cung cấp	V	2	acl:tmod
+thông tin	N	3	obj
+,	CH	6	punct
+dữ liệu	N	3	conj
+cá nhân	N	6	nmod
+của	E	9	case
+mình	P	6	nmod:poss
+và	C	12	cc
+của	E	12	case
+tổ chức	N	9	conj
+,	CH	14	punct
+cá nhân	N	9	conj
+khác	A	14	amod
+trên	E	18	case
+các	L	18	det
+nền tảng	N	14	nmod
+số	N	18	nmod
+.	CH	1	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 544
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người dùng dịch vụ nền tảng số cần nâng cao nhận thức, kỹ năng an toàn thông tin để sử dụng không gian mạng an toàn, biết cách phòng, tránh việc chia sẻ thông tin, truy cập đường dẫn hoặc tải, mở các tài liệu đính kèm từ người lạ hoặc đáng nghi ngờ để không bị lây nhiễm mã độc, hay bị thu thập thông tin, dữ liệu cá nhân bất hợp pháp.
+Người	Nc	2	nsubj
+dùng	V	7	csubj
+dịch vụ	N	2	obj
+nền tảng	V	5	nummod
+số	N	2	obl
+cần	V	7	aux
+nâng	V	0	root
+cao	A	7	acomp
+nhận thức	N	8	obl:adj
+,	CH	11	punct
+kỹ năng	N	9	conj
+an toàn	A	11	nmod
+thông tin	N	11	nmod
+để	E	15	mark:pcomp
+sử dụng	V	7	advcl:objective
+không gian	N	15	obj
+mạng	N	16	nmod
+an toàn	A	17	compound
+,	CH	20	punct
+biết	V	15	conj
+cách	V	20	obj
+phòng	N	21	obj
+,	CH	24	punct
+tránh	V	15	conj
+việc	N	24	obj
+chia sẻ	V	25	acl:subj
+thông tin	N	26	obj
+,	CH	29	punct
+truy cập	N	26	conj
+đường dẫn	V	29	obj
+hoặc	C	32	cc
+tải	V	30	conj
+,	CH	34	punct
+mở	V	7	conj
+các	L	36	det
+tài liệu	N	34	obj
+đính	V	36	acl:subj
+kèm	V	36	acl:subj
+từ	E	40	case
+người	N	38	obl:comp
+lạ	A	40	amod
+hoặc	C	43	cc
+đáng	V	38	conj
+nghi ngờ	V	43	obj
+để	E	48	mark:pcomp
+không	R	48	advmod:neg
+bị	V	48	aux
+lây nhiễm	V	38	advcl:objective
+mã	V	48	compound
+độc	A	49	amod
+,	CH	54	punct
+hay	C	54	advmod:neg
+bị	V	54	aux:pass
+thu thập	V	48	conj
+thông tin	N	54	obj
+,	CH	57	punct
+dữ liệu	N	54	conj
+cá nhân	N	57	nmod
+bất hợp pháp	A	58	amod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/doanh-nghiep-chu-quan-nen-tang-so-phai-trien-khai-cac-giai-phap-bao-mat-thong-tin-nguoi-dung-767130.html
+# date = 20210818
+# sent_id = 545
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đồng thời, không chia sẻ, bình luận hoặc tương tác với các trang thông tin, tài khoản trên nền tảng số có dấu hiệu đăng tin giả, thông tin vi phạm pháp luật; bảo mật tài khoản, mật khẩu của mình trên các nền tảng số…
+Đồng thời	R	18	advcl
+,	CH	4	punct
+không	R	4	advmod:neg
+chia sẻ	V	18	advcl
+,	CH	6	punct
+bình luận	V	4	conj
+hoặc	C	8	cc
+tương tác	V	4	conj
+với	E	11	case
+các	L	11	det
+trang	N	8	obl:with
+thông tin	N	11	nmod
+,	CH	14	punct
+tài khoản	N	18	conj
+trên	E	16	case
+nền tảng	N	17	nummod
+số	N	14	nmod
+có	V	0	root
+dấu hiệu	N	18	obj
+đăng	V	19	acl:subj
+tin	N	20	obj
+giả	A	21	amod
+,	CH	24	punct
+thông tin	N	19	conj
+vi phạm	V	24	nmod
+pháp luật	N	25	obj
+;	CH	28	punct
+bảo mật	V	18	conj
+tài khoản	N	28	obj
+,	CH	31	punct
+mật khẩu	N	21	conj
+của	E	33	case
+mình	P	31	nmod:poss
+trên	E	36	case
+các	L	36	det
+nền tảng	N	31	nmod
+số	N	36	nmod
+…	CH	18	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 546
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo những người làm trong ngành dịch vụ liên quan đến Facebook, những tài khoản bị khoá do liên quan đến hình ảnh “nhạy cảm” về trẻ em rất khó để khôi phục lại.
+Theo	V	3	case
+những	L	3	det
+người	Nc	26	obl
+làm	V	3	acl:subj
+trong	E	6	case
+ngành	N	4	obl
+dịch vụ	N	6	nmod
+liên quan	V	6	acl:subj
+đến	E	10	case
+Facebook	Np	8	obl
+,	CH	15	punct
+những	L	13	det
+tài khoản	N	15	nsubj:pass
+bị	V	15	aux:pass
+khoá	V	8	conj
+do	E	17	case
+liên quan	V	15	advcl
+đến	E	19	case
+hình ảnh	N	17	obl:comp
+“	CH	19	compound
+nhạy cảm	A	20	compound
+”	CH	21	compound
+về	E	24	case
+trẻ em	N	21	nmod
+rất	R	26	advmod
+khó	A	0	root
+để	E	28	mark:pcomp
+khôi phục	V	26	advcl:objective
+lại	V	28	compound:svc
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 547
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vào tối ngày 17/8, Facebook đã tạm ngưng tài khoản của rất nhiều người dùng tại Việt Nam, với lí do họ đã chia sẻ một clip có nội dung “nhạy cảm” liên quan đến trẻ em.
+Vào	V	2	case
+tối ngày	N	7	obl
+17/8	N	2	nmod
+,	CH	7	punct
+Facebook	Np	7	nsubj
+đã	R	7	advmod
+tạm	A	0	root
+ngưng	V	7	xcomp:adj
+tài khoản	N	8	obj
+của	E	13	case
+rất	R	12	advmod
+nhiều	A	13	advmod:adj
+người	N	8	nmod:poss
+dùng	V	13	acl:subj
+tại	E	16	case
+Việt Nam	Np	14	obl:comp
+,	CH	22	punct
+với	E	19	case
+lí do	N	22	obl
+họ	P	22	nsubj
+đã	R	22	advmod
+chia sẻ	V	7	conj
+một	M	24	nummod
+clip	N	22	obj
+có	V	24	acl:subj
+nội dung	N	25	obj
+“	CH	26	nmod
+nhạy cảm	A	27	nmod
+”	CH	28	compound
+liên quan	V	26	acl:subj
+đến	E	32	case
+trẻ em	N	30	obl:comp
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 548
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với việc làm này người dùng đã vi phạm các quy định về tiêu chuẩn cộng đồng của Facebook, mà ở đây là điều 7, theo đó Facebook nghiêm cấm việc chia sẻ các nội dung lạm dụng tình dục, hình ảnh khoả thân liên quan đến trẻ em.
+Với	E	2	case
+việc làm	N	7	obl
+này	P	2	det:pmod
+người	N	5	nsubj
+dùng	V	0	root
+đã	R	7	advmod
+vi phạm	V	5	xcomp
+các	L	9	det
+quy định	N	7	obj
+về	E	11	case
+tiêu chuẩn	N	9	nmod
+cộng đồng	N	11	compound
+của	E	14	case
+Facebook	Np	11	nmod:poss
+,	CH	20	punct
+mà	C	20	mark
+ở	E	18	case
+đây	P	20	obl
+là	V	20	cop
+điều	N	7	conj
+7	M	20	nmod
+,	CH	25	punct
+theo	V	20	advcl
+đó	P	23	obj
+Facebook	Np	24	acl:subj
+nghiêm cấm	V	27	det
+việc	N	25	obj
+chia sẻ	V	27	acl:subj
+các	L	30	det
+nội dung	N	28	obj
+lạm dụng	V	30	nmod
+tình dục	N	31	compound
+,	CH	34	punct
+hình ảnh	N	30	conj
+khoả thân	N	34	compound
+liên quan	V	34	acl:subj
+đến	E	38	case
+trẻ em	N	36	obl:comp
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 549
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo những người làm các dịch vụ trên Facebook tại Việt Nam, sáng hôm nay (18/8) họ đã nhận được rất nhiều lời “cầu cứu” từ những người dùng Facebook, nhờ hỗ trợ mở lại tài khoản bị khoá của mình. Tuy nhiên, theo họ, để mở lại các tài khoản này là điều rất khó, nếu dùng các thủ thuật thì khả năng khôi phục lại được các tài khoản này cao nhất cũng chỉ 80%.
+Theo	V	3	case
+những	L	3	det
+người	Nc	19	obl
+làm	V	3	acl:subj
+các	L	6	det
+dịch vụ	N	4	obj
+trên	E	10	case
+Facebook	Np	4	obl
+tại	E	10	case
+Việt Nam	Np	8	nmod
+,	CH	12	punct
+sáng	N	19	obl:tmod
+hôm nay	N	12	flat:date
+(	CH	15	punct
+18/8	M	12	appos
+)	CH	15	punct
+họ	P	19	nsubj
+đã	R	19	advmod
+nhận	V	0	root
+được	R	19	advmod
+rất	R	23	advmod
+nhiều	A	23	advmod:adj
+lời	N	19	obj
+“	CH	23	compound
+cầu cứu	V	23	nmod
+”	CH	25	compound
+từ	E	29	case
+những	L	29	det
+người	Nc	23	nmod
+dùng	V	29	acl:subj
+Facebook	Np	30	obj
+,	CH	33	punct
+nhờ	V	19	conj
+hỗ trợ	V	33	obj
+mở	V	34	acl:subj
+lại	R	35	compound:svc
+tài khoản	V	35	obj
+bị	V	39	aux:pass
+khoá	N	35	obj
+của	E	41	case
+mình	P	39	nmod:poss
+.	CH	19	punct
+Tuy nhiên	C	19	mark
+,	CH	45	punct
+theo	V	49	advcl
+họ	P	45	obj
+,	CH	49	punct
+để	E	49	mark:pcomp
+mở	V	33	advcl:objective
+lại	V	49	compound:prt
+các	L	52	det
+tài khoản	N	49	obj
+này	P	52	det:pmod
+là	V	55	cop
+điều	N	19	conj
+rất	R	57	advmod
+khó	A	55	acl:subj
+,	CH	71	punct
+nếu	C	60	mark
+dùng	V	55	advcl
+các	L	62	det
+thủ thuật	N	60	obj
+thì	C	71	mark
+khả năng	N	62	conj
+khôi phục	V	64	acl:subj
+lại	R	65	compound:svc
+được	V	65	advmod
+các	L	69	det
+tài khoản	N	65	obj
+này	P	69	det:pmod
+cao	A	69	acl:subj
+nhất	A	71	advmod
+cũng	R	75	advmod
+chỉ	R	75	advmod
+80	M	57	conj
+%	N	75	flat:number
+.	CH	19	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 550
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, theo những người làm dịch vụ trên Facebook cho biết, hành vi vi phạm những điều khoản liên quan đến trẻ em được Facebook xếp vào tội rất nặng và có thể sẽ khoá vĩnh viễn tài khoản của người dùng.
+Cụ thể	A	10	advcl
+,	CH	10	punct
+theo	V	5	case
+những	L	5	det
+người	Nc	10	nsubj
+làm	V	5	acl:subj
+dịch vụ	N	6	obj
+trên	E	9	case
+Facebook	Np	6	obl:comp
+cho	V	0	root
+biết	V	10	compound:svc
+,	CH	14	punct
+hành vi	N	21	nsubj
+vi phạm	V	13	acl:subj
+những	L	16	det
+điều khoản	N	14	obj
+liên quan	V	16	acl:subj
+đến	E	19	case
+trẻ em	N	17	obl:comp
+được	V	22	aux:pass
+Facebook	Np	10	nsubj
+xếp	V	21	xcomp
+vào	E	24	case
+tội	N	22	obl:comp
+rất	R	26	advmod
+nặng	A	22	acomp
+và	C	30	cc
+có thể	R	30	aux
+sẽ	R	30	advmod
+khoá	V	26	conj
+vĩnh viễn	A	30	obj
+tài khoản	N	30	obj
+của	E	34	case
+người	N	32	nmod:poss
+dùng	V	34	acl:subj
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 551
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thực tế trong thời gian qua Facebook đã kiểm soát các nội dung “nhạy cảm” đến trẻ em chặt chẽ, chứ không phải riêng sự việc tối qua.
+Thực tế	N	7	nsubj
+trong	E	3	case
+thời gian	N	7	obl
+qua	V	3	compound
+Facebook	Np	7	nsubj
+đã	R	7	advmod
+kiểm soát	V	0	root
+các	L	9	det
+nội dung	N	7	obj
+“	CH	9	nmod
+nhạy cảm	A	10	compound
+”	CH	11	compound
+đến	E	14	case
+trẻ em	N	12	obl
+chặt chẽ	A	14	compound
+,	CH	21	punct
+chứ	C	21	mark
+không	R	19	advmod:neg
+phải	V	21	aux
+riêng	A	21	advmod:adj
+sự việc	N	7	conj
+tối qua	N	21	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 552
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thậm chí người dùng chỉ cần chia sẻ nhau trong tin nhắn bức ảnh một em bé sơ sinh không mặc đồ, là đã bị Facebook cảnh báo và khoá tài khoản ngay lập tức”, một người đang làm dịch vụ Facebook tại TP.HCM cho biết.
+Thậm chí	R	2	advmod
+người	N	6	nsubj
+dùng	V	2	compound:vmod
+chỉ	R	5	advmod
+cần	V	6	aux
+chia sẻ	V	0	root
+nhau	N	6	obj
+trong	E	9	case
+tin	N	6	obl
+nhắn	V	9	compound
+bức	Nc	10	det:clf
+ảnh	N	9	nmod
+một	M	14	nummod
+em	N	12	nmod
+bé	N	14	compound
+sơ sinh	V	18	advmod
+không	R	18	advmod:neg
+mặc	V	6	conj
+đồ	N	18	obj
+,	CH	24	punct
+là	V	24	cc
+đã	R	23	advmod
+bị	V	24	aux:pass
+Facebook	Np	18	conj
+cảnh báo	V	24	obj
+và	C	28	cc
+khoá	N	28	nummod
+tài khoản	V	25	conj
+ngay lập tức	R	30	advmod
+”	CH	28	appos:nmod
+,	CH	35	punct
+một	M	33	nummod
+người	N	35	nsubj
+đang	R	35	advmod
+làm	V	28	acl:subj
+dịch vụ	N	35	obj
+Facebook	Np	36	nmod
+tại	E	39	case
+TP.HCM	Np	35	obl
+cho	V	39	acl:subj
+biết	V	40	compound:svc
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 553
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, rất nhiều người nghĩ rằng chỉ chia sẻ lên tường mới bị Facebook khoá tài khoản là không chính xác.
+Ngoài ra	C	6	mark
+,	CH	6	punct
+rất	R	4	advmod
+nhiều	A	5	amod
+người	Nc	6	nsubj
+nghĩ	V	0	root
+rằng	C	9	mark
+chỉ	R	9	advmod
+chia sẻ	V	19	advcl
+lên	V	9	compound:dir
+tường	N	9	obj
+mới	R	11	amod
+bị	V	14	aux:pass
+Facebook	Np	19	csubj
+khoá	V	14	obj
+tài khoản	N	19	nsubj
+là	C	19	cop
+không	R	19	advmod:neg
+chính xác	A	6	conj
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 554
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo những người làm dịch vụ Facebook, trong thời gian qua Facebook đã tiến hành quét cả tin nhắn tài khoản của người dùng, để kiểm soát và phân tích các nội dung vi phạm.
+Theo	V	13	advcl
+những	L	3	det
+người	Nc	13	obl
+làm	V	3	acl:subj
+dịch vụ	N	4	obj
+Facebook	Np	5	compound
+,	CH	13	punct
+trong	E	9	case
+thời gian	N	13	obl
+qua	V	9	compound:vmod
+Facebook	Np	9	nmod
+đã	R	13	advmod
+tiến hành	V	0	root
+quét	V	13	acomp
+cả	T	16	det
+tin	N	13	obj
+nhắn	V	16	compound
+tài khoản	N	17	compound
+của	E	21	case
+người	N	21	det:clf
+dùng	V	16	nmod:poss
+,	CH	24	punct
+để	E	24	mark:pcomp
+kiểm soát	V	13	advcl:objective
+và	C	26	cc
+phân tích	V	24	conj
+các	L	28	det
+nội dung	N	26	obj
+vi phạm	V	28	compound
+.	CH	13	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 555
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chính vì vậy, việc chia sẻ các hình ảnh “nhạy cảm” qua tin nhắn cũng sẽ bị Facebook tiến hành khoá tài khoản ngay lập tức.
+Chính	T	2	discourse
+vì vậy	C	17	obl
+,	CH	17	punct
+việc	N	17	nsubj
+chia sẻ	V	4	acl:subj
+các	L	7	det
+hình ảnh	N	5	obj
+“	CH	7	nmod
+nhạy cảm	A	8	nmod
+”	CH	9	compound
+qua	V	12	case
+tin	N	5	obl
+nhắn	V	12	compound
+cũng	R	16	advmod
+sẽ	R	16	advmod
+bị	V	17	aux
+Facebook	V	0	root
+tiến hành	V	17	xcomp
+khoá	N	20	case
+tài khoản	V	17	obl
+ngay lập tức	R	20	compound
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 556
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trường hợp lần này đa số người dùng bị khoá là do chia sẻ nội dung “nhạy cảm” qua tin nhắn clip trẻ em vi phạm ở trên.
+Trường hợp	N	11	nsubj
+lần	N	1	nmod
+này	P	2	det:pmod
+đa số	L	5	nummod
+người	N	6	nsubj
+dùng	V	11	csubj
+bị	V	8	aux:pass
+khoá	V	6	obj
+là	C	11	cop
+do	E	11	case
+chia sẻ	V	0	root
+nội dung	N	11	obj
+“	CH	12	nmod
+nhạy cảm	A	12	nmod
+”	CH	12	nmod
+qua	V	17	case
+tin	N	11	obl
+nhắn	V	17	compound
+clip	N	18	compound
+trẻ em	N	17	nmod
+vi phạm	V	20	compound
+ở	E	23	case
+trên	N	20	nmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 557
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để bảo vệ tài khoản của mình theo những người làm dịch vụ Facebook, người dùng cần tránh xa các clip “nhạy cảm”, hay nhấp vào các đường link lạ được gửi tới tài khoản của mình.
+Để	E	2	mark:pcomp
+bảo vệ	V	14	advcl:objective
+tài khoản	N	2	obj
+của	E	5	case
+mình	P	3	nmod:poss
+theo	V	8	case
+những	L	8	det
+người	Nc	2	nmod
+làm	V	8	acl:subj
+dịch vụ	N	9	obj
+Facebook	Np	10	nmod
+,	CH	14	punct
+người	N	16	nsubj
+dùng	V	13	acl:subj
+cần	V	16	aux
+tránh	V	0	root
+xa	A	16	acomp
+các	L	19	det
+clip	N	16	obj
+“	CH	19	compound
+nhạy cảm	A	22	case
+”	CH	19	nmod
+,	CH	25	punct
+hay	C	25	advmod
+nhấp	V	16	conj
+vào	E	28	case
+các	L	28	det
+đường	N	25	obl:comp
+link	N	28	nmod
+lạ	A	29	amod
+được	V	32	aux:pass
+gửi	V	16	conj
+tới	E	34	case
+tài khoản	N	32	obl:comp
+của	E	36	case
+mình	P	34	nmod:poss
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 558
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Không chia sẻ các hình ảnh hay nội dung đồi truỵ.
+Không	R	2	advmod:neg
+chia sẻ	V	0	root
+các	L	4	det
+hình ảnh	N	2	obj
+hay	C	6	cc
+nội dung	N	4	conj
+đồi truỵ	V	6	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 559
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tài khoản cần bật xác thực 2 yếu tố khi đăng nhập, bật cảnh báo đăng nhập, thiết lập mật khẩu mạnh và thêm liên hệ tin cậy khi có sự cố xảy ra.
+Tài khoản	N	3	nsubj
+cần	V	3	aux
+bật	V	0	root
+xác thực	N	3	obj
+2	M	6	nummod
+yếu tố	N	3	obj
+khi	N	3	obl:tmod
+đăng	V	7	acl:subj
+nhập	V	8	obj
+,	CH	11	punct
+bật	V	3	conj
+cảnh báo	V	11	obj
+đăng	V	12	nmod
+nhập	V	13	amod
+,	CH	17	punct
+thiết lập	V	17	nsubj
+mật khẩu	N	11	conj
+mạnh	A	17	amod
+và	C	20	cc
+thêm	V	3	conj
+liên hệ	V	20	obj
+tin cậy	V	21	amod
+khi	N	20	obl:tmod
+có	V	23	acl:tmod
+sự cố	N	24	obj
+xảy	V	25	acl:subj
+ra	V	26	compound:svc
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/cong-dong-mang/kho-khoi-phuc-lai-tai-khoan-facebook-bi-khoa-lien-quan-den-hinh-anh-nhay-cam-ve-tre-em-767049.html
+# date = 20210818
+# sent_id = 560
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, không nên chia sẻ mật khẩu hay hình ảnh chứng minh nhân dân cho người không đáng tin cậy, khi nhờ họ hỗ trợ về các vấn đề của Facebook.
+Ngoài ra	C	5	mark
+,	CH	5	punct
+không	R	4	advmod:neg
+nên	V	5	aux
+chia sẻ	V	0	root
+mật khẩu	N	5	obj
+hay	C	8	cc
+hình ảnh	N	6	conj
+chứng minh	V	8	nmod
+nhân dân	N	9	compound
+cho	E	12	case
+người	N	5	obl:comp
+không	R	14	advmod:neg
+đáng	V	12	acl:subj
+tin cậy	V	14	acomp
+,	CH	20	punct
+khi	N	20	obl:tmod
+nhờ	V	17	acl:tmod
+họ	P	18	obj
+hỗ trợ	V	5	conj
+về	E	23	case
+các	L	23	det
+vấn đề	N	20	obl:comp
+của	E	25	case
+Facebook	Np	23	nmod:poss
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 561
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bưu chính điều chỉnh luồng vận chuyển để duy trì lưu thông hàng hóa Bắc-Nam
+Bưu chính	N	4	nsubj
+điều chỉnh	V	1	nmod
+luồng	N	2	compound
+vận chuyển	V	0	root
+để	E	6	mark:pcomp
+duy trì	V	4	advcl:objective
+lưu thông	V	6	obj
+hàng hóa Bắc-Nam	M	4	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 562
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong 7 ngày Đà Nẵng ngừng hầu hết các hoạt động phục vụ chống dịch, để đảm bảo duy trì ổn định luồng vận chuyển hàng hóa giữa 2 đầu đất nước, các doanh nghiệp bưu chính đã điều chỉnh các tuyến vận chuyển sang những tỉnh lân cận.
+Trong	E	3	case
+7	M	3	nummod
+ngày	N	5	obl:tmod
+Đà Nẵng	Np	5	nsubj
+ngừng	V	0	root
+hầu hết	X	8	det
+các	L	8	det
+hoạt động	N	5	obj
+phục vụ	V	8	acl:subj
+chống	V	9	xcomp
+dịch	N	10	obj
+,	CH	14	punct
+để	E	14	mark:pcomp
+đảm bảo	V	5	advcl:objective
+duy trì	V	14	xcomp
+ổn định	A	15	obj
+luồng	N	16	obj
+vận chuyển	V	17	acl:subj
+hàng hóa	N	18	nmod
+giữa	E	22	case
+2	M	22	nummod
+đầu	N	18	obl
+đất nước	N	22	compound
+,	CH	29	punct
+các	L	26	det
+doanh nghiệp	N	29	nsubj
+bưu chính	N	26	compound
+đã	R	29	advmod
+điều chỉnh	V	5	parataxis
+các	L	31	det
+tuyến	N	29	obj
+vận chuyển	V	31	compound
+sang	V	35	case
+những	L	35	det
+tỉnh	N	29	obl
+lân cận	A	35	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 563
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để tập trung ngăn chặn, tiến tới kiểm soát tốt dịch bệnh Covid-19, lãnh đạo thành phố Đà Nẵng đã quyết định từ 8h ngày 16/8 đến 8h ngày 23/8 dừng tất cả các hoạt động trên địa bàn, thực hiện nguyên tắc “ai ở đâu ở đó”.
+Để	E	2	mark:pcomp
+tập trung	V	16	advcl:objective
+ngăn chặn	V	2	obj
+,	CH	5	punct
+tiến	V	3	conj
+tới	E	7	case
+kiểm soát	V	5	obj
+tốt	A	7	amod
+dịch bệnh	N	10	nummod
+Covid-19	Np	8	obj
+,	CH	16	punct
+lãnh đạo	N	16	nsubj
+thành phố	N	12	nmod
+Đà Nẵng	Np	13	compound
+đã	R	16	advmod
+quyết định	V	0	root
+từ	E	18	case
+8	M	16	obl:tmod
+h	N	16	obl:comp
+ngày	N	19	nmod
+16/8	M	20	flat:date
+đến	E	24	case
+8	M	24	nummod
+h	N	16	obl
+ngày	N	20	nmod
+23/8	M	27	nsubj
+dừng	V	16	conj
+tất cả	P	30	det
+các	L	30	det
+hoạt động	N	27	obj
+trên	E	32	case
+địa bàn	N	30	nmod
+,	CH	34	punct
+thực hiện	V	16	conj
+nguyên tắc	N	34	obj
+“	CH	35	nmod
+ai	P	36	nmod
+ở	V	39	case
+đâu	P	36	obl:comp
+ở	E	41	case
+đó	P	39	nmod
+”	CH	41	compound
+.	CH	16	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 564
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo quy định của UBND thành phố, các doanh nghiệp bưu chính, viễn thông chỉ được bố trí cho nhân sự ra ngoài để thực hiện các nhiệm vụ: xử lý sự cố thông tin, viễn thông; tham gia vận chuyển, cung ứng dược phẩm, vật tư y tế, hóa chất cho cơ sở y tế, vận chuyển và phân phối lương thực, thực phẩm, hàng thiết yếu cho người dân hay vận chuyển giao nhận hàng hóa xuất nhập khẩu từ cảng đến địa điểm giao hàng và ngược lại; thực hiện hoạt động bưu chính nhà nước.
+Theo	V	14	advcl
+quy định	N	1	obj
+của	E	4	case
+UBND	Ny	2	nmod:poss
+thành phố	N	4	nmod
+,	CH	8	punct
+các	L	8	det
+doanh nghiệp	N	2	conj
+bưu chính	N	8	compound
+,	CH	11	punct
+viễn thông	N	9	conj
+chỉ	R	14	advmod
+được	V	14	aux:pass
+bố trí	V	0	root
+cho	E	16	case
+nhân sự	V	14	obl:iobj
+ra	V	16	compound
+ngoài	N	17	obj
+để	E	20	mark:pcomp
+thực hiện	V	14	advcl:objective
+các	L	22	det
+nhiệm vụ	N	20	obj
+:	CH	25	punct
+xử lý sự cố	V	25	nummod
+thông tin	N	22	appos
+,	CH	27	punct
+viễn thông	N	25	conj
+;	CH	29	punct
+tham gia	V	25	conj
+vận chuyển	V	29	nmod
+,	CH	32	punct
+cung ứng	V	25	conj
+dược phẩm	N	32	compound
+,	CH	35	punct
+vật tư	N	25	conj
+y tế	N	35	compound
+,	CH	38	punct
+hóa chất	V	25	conj
+cho	E	40	case
+cơ sở	N	29	obl:iobj
+y tế	N	40	compound
+,	CH	43	punct
+vận chuyển	V	25	conj
+và	C	45	cc
+phân phối	V	25	conj
+lương thực	N	45	compound
+,	CH	48	punct
+thực phẩm	N	25	conj
+,	CH	50	punct
+hàng	N	25	conj
+thiết yếu	N	50	compound
+cho	E	54	case
+người	Nc	54	det:clf
+dân	N	50	nmod
+hay	C	56	punct
+vận chuyển	V	54	conj
+giao nhận	N	58	nummod
+hàng hóa	V	56	obj
+xuất nhập khẩu	V	58	compound
+từ	E	61	case
+cảng	N	58	nmod
+đến	E	63	case
+địa điểm	N	61	nmod
+giao	V	63	acl:subj
+hàng	N	64	obj
+và	C	67	cc
+ngược lại	X	65	conj
+;	CH	69	punct
+thực hiện	V	56	conj
+hoạt động	V	69	obj
+bưu chính	V	70	nmod
+nhà nước	N	71	compound
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 565
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thông tin với ICTnews, đại diện Sở TT&TT Đà Nẵng cho biết, Sở đã có hướng dẫn cụ thể cho các doanh nghiệp bưu chính, viễn thông về hoạt động trong thời gian từ sáng ngày 16/8 đến sáng 23/8.
+Thông tin	N	8	nsubj
+với	E	3	case
+ICTnews	Np	1	nmod
+,	CH	5	punct
+đại diện	N	8	nsubj
+Sở	N	5	nmod
+TT&TT Đà Nẵng	Np	5	nmod
+cho	V	0	root
+biết	V	8	compound:svc
+,	CH	13	punct
+Sở	N	13	nsubj
+đã	R	13	advmod
+có	V	8	parataxis
+hướng dẫn	V	8	xcomp
+cụ thể	A	14	acomp
+cho	E	18	case
+các	L	18	det
+doanh nghiệp	N	14	obl:comp
+bưu chính	N	18	compound
+,	CH	21	punct
+viễn thông	V	19	conj
+về	E	21	acl:subj
+hoạt động	V	22	obj
+trong	E	25	case
+thời gian	N	22	obl
+từ	E	27	case
+sáng	N	25	nmod
+ngày	N	27	nmod
+16/8	M	28	acl:subj
+đến	E	31	case
+sáng	N	29	obl:comp
+23/8	M	31	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 566
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trên địa bàn Đà Nẵng, thẻ nhận diện để hoạt động trong thời gian 7 ngày đã được cấp cho 155 nhân viên bưu chính, viễn thông.
+Trên	E	2	case
+địa bàn	N	15	obl
+Đà Nẵng	Np	2	nmod
+,	CH	7	punct
+thẻ	N	15	nsubj:pass
+nhận diện	V	5	compound
+để	E	5	acl:subj
+hoạt động	V	7	obj
+trong	E	10	case
+thời gian	N	8	obl
+7	M	12	nummod
+ngày	N	10	nmod
+đã	R	14	advmod
+được	V	15	aux:pass
+cấp	V	0	root
+cho	E	18	case
+155	V	18	nummod
+nhân viên	N	15	obl:comp
+bưu chính	N	18	nmod
+,	CH	21	punct
+viễn thông	N	19	conj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 567
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngay trong 2 ngày cuối tuần vừa qua, Sở TT&TT Đà Nẵng đã tập hợp danh sách lao động, phương tiện của các doanh nghiệp bưu chính, viễn thông được phép hoạt động để gửi Công an Thành phố cấp thẻ nhận diện.
+Ngay	T	4	discourse
+trong	E	4	case
+2	M	4	nummod
+ngày	N	12	obl:tmod
+cuối	N	4	nmod
+tuần	N	4	nmod
+vừa qua	X	6	nmod
+,	CH	12	punct
+Sở	N	12	nsubj
+TT&TT Đà Nẵng	Np	9	compound
+đã	R	12	advmod
+tập hợp	V	0	root
+danh sách	N	12	obj
+lao động	N	13	nmod
+,	CH	16	punct
+phương tiện	N	14	conj
+của	E	19	case
+các	L	19	det
+doanh nghiệp	N	16	nmod:poss
+bưu chính	N	19	compound
+,	CH	22	punct
+viễn thông	N	19	conj
+được	V	24	aux:pass
+phép	N	22	acl:subj
+hoạt động	V	24	nmod
+để	E	27	mark:pcomp
+gửi	V	12	advcl:objective
+Công an Thành phố	N	29	nummod
+cấp	V	27	obj
+thẻ	N	29	nmod
+nhận diện	V	30	compound
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 568
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó, đã cấp thẻ nhận diện cho 90 nhân viên bưu chính và 65 nhân viên viễn thông.
+Theo	V	5	advcl
+đó	P	1	obj
+,	CH	5	punct
+đã	R	5	advmod
+cấp	V	0	root
+thẻ	N	5	obj
+nhận diện	V	6	nmod
+cho	E	10	case
+90	M	10	det:clf
+nhân viên	N	5	obl:comp
+bưu chính	V	10	nmod
+và	C	14	cc
+65	V	14	nummod
+nhân viên	N	10	conj
+viễn thông	V	14	compound
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 569
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các doanh nghiệp viễn thông tại Đà Nẵng cũng xây dựng và gửi về Sở TT&TT phương án bảo đảm thông tin liên lạc trong mọi tình huống nhằm cung cấp chất lượng dịch vụ tốt nhất cho các tổ chức, cá nhân trên địa bàn.
+Các	L	2	det
+doanh nghiệp	N	7	nsubj
+viễn thông	V	2	compound
+tại	E	5	case
+Đà Nẵng	Np	2	nmod
+cũng	R	7	advmod
+xây dựng	V	0	root
+và	C	9	cc
+gửi	V	7	conj
+về	E	11	case
+Sở	N	9	obl:comp
+TT&TT	Np	13	nummod
+phương án	N	9	obj
+bảo đảm	V	13	compound
+thông tin	N	14	obj
+liên lạc	V	15	compound
+trong	E	19	case
+mọi	L	19	det
+tình huống	N	13	nmod
+nhằm	V	21	mark:pcomp
+cung cấp	V	7	conj
+chất lượng	N	21	obj
+dịch vụ	N	22	nmod
+tốt	A	22	acl:subj
+nhất	R	24	advmod
+cho	E	28	case
+các	L	28	det
+tổ chức	N	24	obl:comp
+,	CH	30	punct
+cá nhân	N	28	conj
+trên	E	32	case
+địa bàn	N	30	nmod
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 570
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, Sở TT&TT đã phối hợp với các đơn vị chuẩn bị trước nội dung công việc cho trường hợp làm nhiệm vụ trong 7 ngày, bao gồm cả việc nâng cấp mạng lưới để phục vụ người dân yên tâm ở nhà chống dịch.
+Ngoài ra	C	6	mark
+,	CH	6	punct
+Sở	N	6	nsubj
+TT&TT	Np	3	nmod
+đã	R	6	advmod
+phối hợp	V	0	root
+với	E	9	case
+các	L	9	det
+đơn vị	N	6	obl:with
+chuẩn bị	V	9	acl:subj
+trước	E	12	case
+nội dung	N	10	obl
+công việc	N	12	nmod
+cho	E	12	case
+trường hợp	N	14	obj
+làm	V	15	acl:subj
+nhiệm vụ	N	16	obj
+trong	E	20	case
+7	M	20	nummod
+ngày	N	16	obl:tmod
+,	CH	22	punct
+bao gồm	V	6	conj
+cả	T	24	det
+việc	N	22	obj
+nâng cấp	V	24	acl:subj
+mạng lưới	N	25	obj
+để	E	28	mark:pcomp
+phục vụ	V	22	advcl:objective
+người	N	30	det:clf
+dân	N	28	obj
+yên tâm	A	30	amod
+ở	E	33	case
+nhà	N	30	nmod
+chống	V	33	nmod
+dịch	N	34	obj
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 571
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Chúng tôi phối hợp, cập nhật thông tin 24/7 bằng điện thoại và các group với doanh nghiệp bưu chính, viễn thông để có thể hỗ trợ kịp thời”, đại diện Sở TT&TT cho hay.
+“	CH	2	det
+Chúng tôi	P	3	nsubj
+phối hợp	V	0	root
+,	CH	6	punct
+cập nhật	V	6	nummod
+thông tin	N	3	conj
+24/7	V	6	nmod
+bằng	E	9	case
+điện thoại	N	6	nmod
+và	C	12	cc
+các	L	12	det
+group	N	9	conj
+với	E	14	case
+doanh nghiệp	N	12	nmod
+bưu chính	N	14	compound
+,	CH	17	punct
+viễn thông	N	14	conj
+để	E	20	mark:pcomp
+có thể	R	20	aux
+hỗ trợ	V	3	advcl:objective
+kịp thời	A	20	acomp
+”	CH	20	obj
+,	CH	24	punct
+đại diện	N	20	conj
+Sở	N	24	nmod
+TT&TT	Np	25	compound
+cho	V	28	case
+hay	V	26	obl:comp
+.	CH	3	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 572
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thống kê của Sở TT&TT Đà Nẵng cho thấy, từ 8h đến ngày 16/8 đến 8h ngày 17/8, các doanh nghiệp viễn thông trên địa bàn đã xử lý 11 trường hợp ứng cứu trạm di động và xử lý cáp viễn thông để bảo đảm thông tin liên lạc và dịch vụ cho tổ chức, cá nhân.
+Thống kê	N	5	nsubj
+của	E	3	case
+Sở	N	1	nmod:poss
+TT&TT Đà Nẵng	Np	5	advmod
+cho	V	0	root
+thấy	V	5	compound:svc
+,	CH	26	punct
+từ	E	9	case
+8	M	26	obl:tmod
+h	N	9	flat:number
+đến	E	12	case
+ngày	N	9	nmod
+16/8	M	12	compound
+đến	E	15	case
+8	M	13	flat:number
+h	N	12	nmod
+ngày	N	12	nmod
+17/8	M	17	flat:date
+,	CH	26	punct
+các	L	21	det
+doanh nghiệp	N	26	nsubj
+viễn thông	V	21	compound
+trên	E	24	case
+địa bàn	N	21	nmod
+đã	R	26	advmod
+xử lý	V	5	conj
+11	M	28	nummod
+trường hợp	N	26	obj
+ứng cứu	V	28	nmod
+trạm	N	29	nmod
+di động	V	30	compound
+và	C	33	cc
+xử lý	V	30	conj
+cáp	N	33	obj
+viễn thông	N	34	compound
+để	E	37	mark:pcomp
+bảo đảm	V	26	advcl:objective
+thông tin	N	37	obj
+liên lạc	V	38	nmod
+và	C	41	cc
+dịch vụ	N	38	conj
+cho	E	43	case
+tổ chức	V	41	nmod
+,	CH	45	punct
+cá nhân	N	43	conj
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 573
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Là đơn vị được giao nhiệm vụ quản lý và chuyển phát Mạng bưu chính phục vụ cơ quan Đảng, Nhà nước trên địa bàn Đà Nẵng, từ nay đến sáng ngày 23/8, một nhiệm vụ quan trọng của Bưu điện thành phố là chấp nhận, vận chuyển và phát bưu gửi KT1 của các cấp chính quyền, từ Trung ương đến cấp quận huyện, Công an, Quân đội.
+Là	V	2	cop
+đơn vị	N	4	nsubj:pass
+được	V	4	aux:pass
+giao	V	0	root
+nhiệm vụ	N	4	obj
+quản lý	V	5	compound:vmod
+và	C	8	cc
+chuyển	V	6	conj
+phát	V	8	obj
+Mạng	Np	9	obj
+bưu chính	V	10	compound
+phục vụ	V	10	acl:subj
+cơ quan	N	12	obj
+Đảng	Np	13	nmod
+,	CH	16	punct
+Nhà nước	N	13	conj
+trên	E	18	case
+địa bàn	N	16	nmod
+Đà Nẵng	Np	18	compound
+,	CH	35	punct
+từ	E	22	case
+nay	P	35	obl:tmod
+đến	E	24	case
+sáng	N	22	nmod
+ngày	N	22	nmod
+23/8	M	25	flat:date
+,	CH	35	punct
+một	M	29	nummod
+nhiệm vụ	N	35	nsubj:nn
+quan trọng	A	29	amod
+của	E	32	case
+Bưu điện	N	29	nmod:poss
+thành phố	N	32	nmod
+là	V	35	cop
+chấp nhận	V	4	conj
+,	CH	37	punct
+vận chuyển	V	35	conj
+và	C	39	cc
+phát	V	37	conj
+bưu	N	39	obj
+gửi	V	40	acl:subj
+KT1	Np	41	obj
+của	E	45	case
+các	L	45	det
+cấp	N	42	nmod:poss
+chính quyền	N	45	compound
+,	CH	49	punct
+từ	E	49	case
+Trung ương	N	45	conj
+đến	E	51	case
+cấp	N	49	nmod
+quận huyện	N	51	compound
+,	CH	54	punct
+Công an	N	51	list
+,	CH	56	punct
+Quân đội	N	51	list
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 574
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, có các loại đặc biệt gồm hoả tốc, hoả tốc hẹn giờ, mật A, B và C.
+Trong	E	2	case
+đó	P	4	obl
+,	CH	4	punct
+có	V	0	root
+các	L	6	det
+loại	N	4	obj
+đặc biệt	A	6	amod
+gồm	V	6	acl:subj
+hoả tốc	N	8	obj
+,	CH	11	punct
+hoả tốc	N	9	conj
+hẹn	V	11	nmod
+giờ	N	12	compound
+,	CH	15	punct
+mật	N	9	conj
+A	Np	15	nmod
+,	CH	18	punct
+B	Np	9	conj
+và	C	20	cc
+C	Np	9	conj
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 575
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những ngày này, Bưu điện Đà Nẵng 3 đang tổ chức sản xuất “3 tại chỗ”, với 31 người và được bố trí ở 2 tòa nhà thuộc phường An Hải Tây.
+Những	L	2	det
+ngày	N	9	obl:tmod
+này	P	2	det:pmod
+,	CH	9	punct
+Bưu điện	N	9	nsubj
+Đà Nẵng	Np	5	nmod
+3	M	5	nmod
+đang	R	9	advmod
+tổ chức	V	0	root
+sản xuất	V	9	obj
+“	CH	10	nmod
+3	M	13	nummod
+tại chỗ	A	10	nmod
+”	CH	13	compound
+,	CH	18	punct
+với	E	18	case
+31	M	18	nummod
+người	N	9	obl:with
+và	C	21	cc
+được	V	21	aux:pass
+bố trí	V	9	conj
+ở	E	24	case
+2	M	24	nummod
+tòa	N	21	obl
+nhà	N	24	compound
+thuộc	V	24	acl:subj
+phường	N	26	obj
+An Hải Tây	Np	27	compound
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 576
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các biện pháp phòng chống dịch bệnh được đơn vị tuân thủ nghiêm ngặt. Đội ngũ nhân viên đều được trang bị những dụng cụ phòng chống dịch như khẩu trang chống giọt bắn, găng tay, nước sát khuẩn.
+Các	L	2	det
+biện pháp	N	7	nsubj:pass
+phòng chống	V	2	nmod
+dịch bệnh	N	3	obj
+được	V	7	aux:pass
+đơn vị	N	7	det:clf
+tuân thủ	V	14	csubj
+nghiêm ngặt	A	7	acomp
+.	CH	8	punct
+Đội ngũ	N	8	nsubj
+nhân viên	N	10	nmod
+đều	R	13	advmod
+được	V	14	aux:pass
+trang bị	V	0	root
+những	L	16	det
+dụng cụ	N	14	obj
+phòng chống	V	16	nmod
+dịch	N	17	compound
+như	C	20	case
+khẩu trang	N	16	obl
+chống	V	20	acl:subj
+giọt	N	21	obj
+bắn	V	22	nmod
+,	CH	25	punct
+găng tay	N	23	conj
+,	CH	27	punct
+nước	N	20	conj
+sát khuẩn	A	27	compound
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 577
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cùng với đó, trong thời gian 7 ngày Đà Nẵng dừng nhiều hoạt động để phục vụ công tác chống dịch, các doanh nghiệp bưu chính còn tham gia vận chuyển, cung ứng lương thực, thực phẩm, hàng nhu yếu phẩm thiết yếu.
+Cùng	C	3	advmod
+với	E	3	case
+đó	P	23	obl
+,	CH	10	punct
+trong	E	6	case
+thời gian	N	10	obl:tmod
+7	M	8	nummod
+ngày	N	6	nmod
+Đà Nẵng	Np	10	nsubj
+dừng	V	0	root
+nhiều	A	12	advmod:adj
+hoạt động	V	10	obj
+để	E	14	mark:pcomp
+phục vụ	V	10	advcl:objective
+công tác	N	14	obj
+chống	V	15	acl:subj
+dịch	N	16	obj
+,	CH	23	punct
+các	L	20	det
+doanh nghiệp	N	23	nsubj
+bưu chính	N	20	compound
+còn	R	23	advmod
+tham gia	V	10	conj
+vận chuyển	V	23	obj
+,	CH	26	punct
+cung ứng	V	24	conj
+lương thực	N	26	nmod
+,	CH	29	punct
+thực phẩm	N	27	conj
+,	CH	31	punct
+hàng	N	24	conj
+nhu yếu phẩm	V	33	nummod
+thiết yếu	N	31	nmod
+.	CH	23	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 578
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhân viên Bưu điện Đà Nẵng vệ sinh thùng hàng trước và sau khi vận chuyển đến các quận.
+Nhân viên	N	4	nsubj
+Bưu điện	N	1	compound
+Đà Nẵng	Np	1	compound
+vệ sinh	V	0	root
+thùng	N	4	nmod
+hàng	N	5	nmod
+trước	N	6	compound
+và	C	9	cc
+sau	N	4	obl:tmod
+khi	N	9	compound
+vận chuyển	V	10	acl:tmod
+đến	E	14	case
+các	L	14	det
+quận	N	11	obl:comp
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 579
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, Bưu điện Đà Nẵng đã đăng ký 8 xe chuyên vận chuyển hàng hóa từ nhà cung cấp đến Bưu điện Trung tâm 3, góp phần cung cấp đủ thực phẩm cho người dân ở những quận bị phong tỏa.
+Cụ thể	A	6	advcl
+,	CH	6	punct
+Bưu điện	N	4	det:clf
+Đà Nẵng	Np	6	nsubj
+đã	R	6	advmod
+đăng ký	V	0	root
+8	M	8	nummod
+xe	N	6	obj
+chuyên	A	8	acl:subj
+vận chuyển	V	8	acl:subj
+hàng hóa	N	10	nmod
+từ	E	13	case
+nhà	N	10	nmod
+cung cấp	V	10	xcomp
+đến	E	16	case
+Bưu điện	N	14	obl:comp
+Trung tâm	N	16	nmod
+3	M	17	compound
+,	CH	20	punct
+góp phần	V	6	conj
+cung cấp	V	20	xcomp
+đủ	A	21	acomp
+thực phẩm	N	22	obl:adj
+cho	E	26	case
+người	N	26	det:clf
+dân	N	21	obl:iobj
+ở	E	29	case
+những	L	29	det
+quận	N	26	nmod
+bị	V	31	aux:pass
+phong tỏa	V	29	acl:subj
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 580
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bưu điện Trung tâm 3 sẽ nhận các đơn hàng tại 2 quận đang bị phong tỏa là Ngũ Hành Sơn và Sơn Trà thông qua Tổ Covid cộng đồng.
+Bưu điện	N	5	nsubj
+Trung tâm	N	1	nmod
+3	M	2	nummod
+sẽ	R	5	advmod
+nhận	V	0	root
+các	L	7	det
+đơn	N	5	obj
+hàng	N	7	nmod
+tại	E	11	case
+2	M	11	nummod
+quận	N	7	nmod
+đang	R	13	advmod
+bị	V	14	aux:pass
+phong tỏa	V	11	acl:subj
+là	V	16	cop
+Ngũ Hành Sơn	Np	19	nsubj
+và	C	18	cc
+Sơn Trà	Np	16	conj
+thông qua	V	5	ccomp
+Tổ Covid	Np	19	obj
+cộng đồng	N	20	nmod
+.	CH	5	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 581
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau đó, hàng hóa được đóng gói và vận chuyển đến các Tổ covid cộng đồng để tổ này phát đến người dân”, đại diện Bưu điện Đà Nẵng thông tin thêm.
+Sau	N	6	obl:tmod
+đó	P	1	det:pmod
+,	CH	1	punct
+hàng hóa	N	6	nsubj
+được	V	6	advmod
+đóng gói	V	0	root
+và	C	8	cc
+vận chuyển	V	6	conj
+đến	E	11	case
+các	L	11	det
+Tổ	N	8	obl:comp
+covid	V	11	nmod
+cộng đồng	N	12	compound
+để	E	17	mark:pcomp
+tổ	N	17	nsubj
+này	P	15	det:pmod
+phát	V	6	advcl:objective
+đến	E	20	case
+người	N	20	det:clf
+dân	N	17	obl:comp
+”	CH	20	compound
+,	CH	26	punct
+đại diện	N	20	conj
+Bưu điện	N	23	nmod
+Đà Nẵng	Np	24	nmod
+thông tin	V	25	nmod
+thêm	V	26	compound:svc
+.	CH	26	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 582
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo chia sẻ của các doanh nghiệp bưu chính, việc Đà Nẵng “đóng băng” hoạt động trong 7 ngày đưa đến một số khó khăn nhất định đối với luồng vận chuyển, thông suốt hàng hóa trục Bắc – Nam.
+Theo	V	2	case
+chia sẻ	V	17	obl
+của	E	5	case
+các	L	5	det
+doanh nghiệp	N	2	nmod:poss
+bưu chính	V	5	compound
+,	CH	17	punct
+việc	N	17	nsubj
+Đà Nẵng	Np	8	nmod
+“	CH	8	nmod
+đóng băng	V	8	nmod
+”	CH	13	punct
+hoạt động	V	8	nmod
+trong	E	16	case
+7	M	16	nummod
+ngày	N	13	nmod
+đưa	V	0	root
+đến	E	20	case
+một số	L	20	det
+khó khăn	N	17	obl:comp
+nhất định	R	20	amod
+đối với	E	23	case
+luồng	N	20	obl
+vận chuyển	V	23	compound
+,	CH	26	punct
+thông suốt	N	23	list
+hàng hóa trục	Np	26	compound
+Bắc	Np	27	compound
+–	CH	28	punct
+Nam	Np	28	compound
+.	CH	17	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 583
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, đại diện các doanh nghiệp đều khẳng định ưu tiên hàng đầu là chặn đứng tối đa sự lây lan của dịch bệnh.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+đại diện	N	7	nsubj
+các	L	5	det
+doanh nghiệp	N	3	nmod
+đều	R	7	advmod
+khẳng định	V	0	root
+ưu tiên	V	7	advmod:adj
+hàng đầu	N	11	nsubj
+là	V	11	cop
+chặn đứng	N	7	ccomp
+tối đa sự	N	11	compound
+lây lan	N	12	compound
+của	E	15	case
+dịch bệnh	N	11	nmod:poss
+.	CH	7	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 584
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì thế, các hoạt động của doanh nghiệp giai đoạn này được tuân thủ tuyệt đối theo quy định của lãnh đạo thành phố Đà Nẵng và hướng dẫn của Sở TT&TT.
+Vì thế	C	10	cc
+,	CH	10	punct
+các	L	4	det
+hoạt động	N	10	nsubj:pass
+của	E	6	case
+doanh nghiệp	N	4	nmod:poss
+giai đoạn	N	4	nmod:poss
+này	P	7	det:pmod
+được	V	10	aux:pass
+tuân thủ	V	0	root
+tuyệt đối	A	10	acomp
+theo	V	13	case
+quy định	N	10	obl
+của	E	15	case
+lãnh đạo	N	13	nmod:poss
+thành phố	N	15	nmod
+Đà Nẵng	Np	16	compound
+và	C	19	cc
+hướng dẫn	V	16	conj
+của	E	21	case
+Sở	N	19	nmod:poss
+TT&TT	Np	21	compound
+.	CH	10	punct
+
+# https://vietnamnet.vn/vn/thong-tin-truyen-thong/buu-chinh-dieu-chinh-luong-van-chuyen-de-duy-tri-luu-thong-hang-hoa-bac-nam-767035.html
+# date = 20210818
+# sent_id = 585
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả Vietnam Post và Viettel Post đều xây dựng và triển khai các phương án đảm bảo duy trì ổn định luồng vận chuyển hàng hóa giữa 2 đầu đất nước.
+Cả	P	2	det
+Vietnam Post	Np	6	nsubj
+và	C	4	cc
+Viettel Post	Np	2	conj
+đều	R	6	advmod
+xây dựng	V	0	root
+và	C	8	cc
+triển khai	V	6	conj
+các	L	10	det
+phương án	N	8	obj
+đảm bảo	V	10	acl:subj
+duy trì	V	11	xcomp
+ổn định	A	12	obj
+luồng	N	13	obj
+vận chuyển	V	14	acl:subj
+hàng hóa	N	15	obj
+giữa	E	19	case
+2	M	19	nummod
+đầu	N	15	obl
+đất nước	N	19	nmod
+.	CH	6	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 586
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhật Bản lo ngại rằng kế hoạch của Mỹ rót hàng tỷ USD vào sản xuất chip bán dẫn để chống lại Trung Quốc có thể kết liễu ngành công nghiệp bán dẫn Nhật Bản.
+Nhật Bản	Np	2	nsubj
+lo ngại	V	0	root
+rằng	C	7	mark
+kế hoạch	N	7	nsubj
+của	E	6	case
+Mỹ	Np	4	nmod:poss
+rót	V	2	ccomp
+hàng	N	10	advmod
+tỷ	M	10	nummod
+USD	Nu	7	obj
+vào	E	7	xcomp
+sản xuất	V	7	obl:comp
+chip	N	12	compound
+bán dẫn	N	12	compound
+để	E	16	mark:pcomp
+chống	V	7	advcl:objective
+lại	V	16	compound:svc
+Trung Quốc	Np	16	obj
+có thể	R	20	advmod
+kết liễu	V	16	xcomp
+ngành	N	20	obj
+công nghiệp	N	21	compound
+bán dẫn	N	21	nmod
+Nhật Bản	Np	23	nmod
+.	CH	2	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 587
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Bộ Công nghiệp Nhật Bản, thị phần sản xuất chip bán dẫn của nước này đã giảm từ một nửa xuống còn một phần mười trong 3 thập kỷ qua do họ để mất khách hàng vào tay các đối thủ khác và không duy trì được vị trí dẫn đầu toàn cầu trong việc sản xuất các sản phẩm bán dẫn tiên tiến.
+Theo	V	14	advcl
+Bộ	N	1	obj
+Công nghiệp	N	2	nmod
+Nhật Bản	Np	3	compound
+,	CH	14	punct
+thị phần	N	14	nsubj
+sản xuất	V	6	nmod
+chip	N	7	compound
+bán dẫn	N	7	compound
+của	E	11	case
+nước	N	6	nmod:poss
+này	P	11	det:pmod
+đã	R	14	advmod
+giảm	V	0	root
+từ	E	17	case
+một	M	17	nummod
+nửa	N	14	obl:comp
+xuống	V	14	compound:dir
+còn	V	25	advmod
+một	M	21	nummod
+phần	N	14	obl
+mười	M	25	nummod
+trong	E	24	advmod:adj
+3	M	22	nmod
+thập kỷ	V	21	nmod
+qua	E	25	nmod
+do	E	30	mark
+họ	P	30	nsubj
+để	E	30	mark:pcomp
+mất	V	14	advcl:objective
+khách hàng	N	30	obj
+vào	E	33	case
+tay	N	30	obl:comp
+các	L	35	det
+đối thủ	N	33	nmod
+khác	A	35	amod
+và	C	39	cc
+không	R	39	advmod:neg
+duy trì	V	30	conj
+được	V	39	advmod
+vị trí	N	39	obj
+dẫn đầu	V	41	acl:subj
+toàn cầu	N	42	obj
+trong	E	45	case
+việc	N	39	obl
+sản xuất	V	45	acl:subj
+các	L	48	det
+sản phẩm	N	46	obj
+bán dẫn	N	48	compound
+tiên tiến	A	48	amod
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 588
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong khi Trung Quốc và Mỹ, bị thúc đẩy bởi chiến tranh thương mại và những lo ngại về an ninh quốc gia đã tăng cường hỗ trợ sản xuất chip bán dẫn để sử dụng trong các thiết bị từ điện thoại thông minh đến tên lửa, các quan chức lo ngại Nhật Bản sẽ bị vắt kiệt sức lực hoàn toàn.
+Trong	E	2	case
+khi	N	19	obl:tmod
+Trung Quốc	Np	2	nmod
+và	C	5	cc
+Mỹ	Np	3	conj
+,	CH	8	punct
+bị	V	8	aux:pass
+thúc đẩy	V	2	conj
+bởi	E	10	case
+chiến tranh	N	8	obl
+thương mại	N	10	compound
+và	C	14	cc
+những	L	14	det
+lo ngại	N	19	nsubj
+về	E	16	case
+an ninh	N	14	nmod
+quốc gia	N	16	compound
+đã	R	19	advmod
+tăng cường	V	0	root
+hỗ trợ sản xuất	V	19	obj
+chip	N	20	nmod
+bán dẫn	N	21	compound
+để	E	24	mark:pcomp
+sử dụng	V	19	advcl:objective
+trong	E	27	case
+các	L	27	det
+thiết bị	N	24	obl:comp
+từ	E	29	case
+điện thoại	N	27	nmod
+thông minh	A	29	amod
+đến	E	32	case
+tên	N	29	nmod
+lửa	N	32	compound
+,	CH	41	punct
+các	L	36	det
+quan chức	N	41	nsubj
+lo ngại	N	36	nmod
+Nhật Bản	Np	37	nmod
+sẽ	R	41	advmod
+bị	V	41	aux
+vắt	V	19	conj
+kiệt	V	41	obj
+sức lực	N	41	obj
+hoàn toàn	A	43	acomp
+.	CH	19	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 589
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong một cuộc họp đầu tiên của đảng LDP cầm quyền nhằm thảo luận về cách để đất nước có thể phát triển một nền kinh tế kỹ thuật số hàng đầu vào tháng 5 vừa qua, cựu Thủ tướng Nhật Bản, ông Shinzo Abe nói: “Chúng ta không thể tiếp tục những gì chúng ta đã làm, chúng ta phải làm điều gì đó ở một cấp độ hoàn toàn khác”.
+Trong	E	3	case
+một	M	3	nummod
+cuộc	N	33	obl
+họp	V	3	compound:vmod
+đầu tiên	A	3	amod
+của	E	7	case
+đảng LDP	N	3	nmod:poss
+cầm quyền	N	7	compound
+nhằm	V	10	advmod
+thảo luận	V	7	compound
+về	E	12	case
+cách	N	10	obl:about
+để	E	12	acl:subj
+đất nước	N	13	obj
+có thể	R	16	aux
+phát triển	V	10	conj
+một	M	18	nummod
+nền	N	16	obj
+kinh tế	N	18	compound
+kỹ thuật số	N	18	nmod
+hàng đầu	N	20	compound
+vào	E	23	case
+tháng	N	20	nmod
+5	M	23	compound
+vừa qua	X	23	nmod
+,	CH	27	punct
+cựu	A	23	list
+Thủ tướng	N	27	nmod
+Nhật Bản	Np	28	compound
+,	CH	33	punct
+ông	Nc	32	det:clf
+Shinzo Abe	Np	33	nsubj
+nói	V	0	root
+:	CH	38	punct
+“	CH	38	punct
+Chúng ta	P	38	nsubj
+không thể	R	38	advmod:neg
+tiếp tục	V	33	parataxis
+những	L	40	det
+gì	P	38	obj
+chúng ta	P	43	nsubj
+đã	R	43	advmod
+làm	V	40	acl
+,	CH	47	punct
+chúng ta	P	47	nsubj
+phải	V	47	aux
+làm	V	38	conj
+điều	N	47	obj
+gì	P	48	nmod
+đó	P	49	det:pmod
+ở	E	53	case
+một	M	53	nummod
+cấp độ	N	47	obl:comp
+hoàn toàn	A	55	advmod
+khác	A	53	acl:subj
+”	CH	55	compound:adj
+.	CH	33	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 590
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các tài liệu do Bộ Kinh tế Thương mại và Công nghiệp Nhật Bản (METI) phát hành vào đầu năm nay cho thấy, Nhật Bản đang đứng trước nguy cơ bị gạt ra khỏi trật tự thế giới trong công nghệ mới, trong đó khả năng thị phần chip bán dẫn sẽ bằng 0 vào năm 2030.
+Các	L	2	det
+tài liệu	N	11	nsubj
+do	E	4	case
+Bộ	N	2	nmod
+Kinh tế	N	4	compound
+Thương mại và Công nghiệp	N	5	compound
+Nhật Bản	Np	5	compound
+(	CH	9	punct
+METI	Np	7	appos:nmod
+)	CH	9	punct
+phát hành	V	0	root
+vào	E	13	case
+đầu	N	11	obl:comp
+năm	N	11	obl:tmod
+nay	P	14	nmod
+cho	V	11	xcomp
+thấy	V	16	compound:svc
+,	CH	21	punct
+Nhật Bản	Np	21	nsubj
+đang	R	21	advmod
+đứng	V	16	conj
+trước	E	21	obl
+nguy cơ	N	21	obl:comp
+bị	V	25	aux:pass
+gạt	V	16	conj
+ra	V	25	compound:dir
+khỏi	V	26	compound:svc
+trật tự	N	27	obj
+thế giới	N	28	compound
+trong	E	31	case
+công nghệ	N	28	nmod
+mới	A	31	amod
+,	CH	41	punct
+trong	E	35	case
+đó	P	41	obl
+khả năng	N	25	nsubj
+thị phần	V	36	nmod
+chip	N	36	nmod
+bán dẫn	V	36	nmod
+sẽ	R	41	advmod
+bằng	E	36	nmod
+0	N	41	flat:number
+vào	E	44	case
+năm	N	42	nmod
+2030	M	44	nmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 591
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bên cạnh đó, tương lai của các công ty hàng đầu thế giới của Nhật Bản liên quan đến việc cung cấp các sản phẩm như tấm silicon, màng hóa chất và máy móc sản xuất cho các nhà sản xuất chip bán dẫn cũng đang là mối quan tâm của các quan chức Nhật Bản.
+Bên cạnh	N	12	nsubj
+đó	P	1	det:pmod
+,	CH	4	punct
+tương lai	N	1	conj
+của	E	7	case
+các	L	7	det
+công ty	N	4	nmod:poss
+hàng đầu	N	7	compound
+thế giới	N	7	amod
+của	E	11	case
+Nhật Bản	Np	4	nmod:poss
+liên quan	V	0	root
+đến	E	14	case
+việc	N	12	obl:comp
+cung cấp	V	14	acl:subj
+các	L	17	det
+sản phẩm	N	15	obj
+như	C	19	case
+tấm	Nc	17	nmod
+silicon	N	19	nmod
+,	CH	22	punct
+màng	N	20	conj
+hóa chất	V	22	nmod
+và	C	25	cc
+máy móc	N	20	conj
+sản xuất	V	25	amod
+cho	E	29	case
+các	L	29	det
+nhà sản xuất	N	25	nmod
+chip	V	29	compound
+bán dẫn	N	30	compound
+cũng	R	35	advmod
+đang	R	35	advmod
+là	V	35	cop
+mối	N	15	conj
+quan tâm	V	35	amod
+của	E	39	case
+các	L	39	det
+quan chức	N	35	nmod:poss
+Nhật Bản	Np	39	compound
+.	CH	12	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 592
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các quan chức Nhật Bản lo ngại rằng, bằng cách thu hút các công ty sản xuất chip lớn của châu Á như TSMC của Đài Loan vào đất của mình, Mỹ có thể cám dỗ các công ty lớn của Nhật Bản làm theo.
+Các	L	2	det
+quan chức	N	28	nsubj
+Nhật Bản	Np	2	compound
+lo ngại	V	2	nmod
+rằng	C	4	compound
+,	CH	8	punct
+bằng	E	8	case
+cách	N	28	obl
+thu hút	V	8	acl:subj
+các	L	11	det
+công ty	N	9	obj
+sản xuất	V	11	nmod
+chip	N	12	obj
+lớn	A	13	amod
+của	E	16	case
+châu Á	N	11	nmod:poss
+như	C	18	case
+TSMC	Np	11	obl
+của	E	20	case
+Đài Loan	Np	18	nmod:poss
+vào	E	22	case
+đất	N	18	nmod
+của	E	24	case
+mình	P	22	nmod:poss
+,	CH	8	punct
+Mỹ	Np	28	nsubj
+có thể	R	28	aux
+cám dỗ	V	0	root
+các	L	30	det
+công ty	N	28	obj
+lớn	A	30	amod
+của	E	33	case
+Nhật Bản	Np	30	nmod:poss
+làm	V	33	acl:subj
+theo	V	34	compound:svc
+.	CH	28	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 593
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo ông Kazumi Nishikawa, Giám đốc CNTT tại METI thì các công ty mà ông đang lo ngại bao gồm các nhà sản xuất tấm wafer Shin-Etsu Chemical và Sumco Corp; nhà cung cấp chất quang điện quang JSR Corp và các nhà chế tạo máy móc sản xuất Screen Holdings và Tokyo Electron.
+Theo	V	15	advcl
+ông	Nc	3	det:clf
+Kazumi Nishikawa	Np	1	obj
+,	CH	5	punct
+Giám đốc	N	3	appos
+CNTT	Np	5	nmod
+tại	E	8	case
+METI	Np	5	nmod
+thì	C	11	mark
+các	L	11	det
+công ty	N	15	nsubj
+mà	C	15	mark
+ông	Nc	15	nsubj
+đang	R	15	advmod
+lo ngại	V	0	root
+bao gồm	V	15	xcomp
+các	L	18	det
+nhà sản xuất	N	16	obj
+tấm	Nc	18	clf
+wafer	N	19	compound
+Shin-Etsu Chemical	Np	20	compound
+và	C	23	cc
+Sumco Corp	Np	21	conj
+;	CH	25	punct
+nhà	N	20	conj
+cung cấp	V	25	acl:subj
+chất	N	26	obj
+quang điện quang	N	27	nmod
+JSR Corp	Np	28	compound
+và	C	32	cc
+các	L	32	det
+nhà	N	20	conj
+chế tạo	V	32	acl:subj
+máy móc	N	33	obj
+sản xuất	V	34	nmod
+Screen Holdings	Np	35	compound
+và	C	38	cc
+Tokyo Electron	Np	36	conj
+.	CH	15	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 594
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Người phát ngôn của nhà cung cấp chất quang điện quang JSR cho biết: “Chúng tôi luôn chuẩn bị sẵn sàng để đối phó với những thay đổi chính sách ở mỗi quốc gia”.
+Người	Nc	8	nsubj
+phát ngôn	N	1	compound
+của	E	4	case
+nhà cung cấp	N	1	nmod:poss
+chất	N	4	compound
+quang điện quang	N	5	compound
+JSR	Np	5	compound
+cho	V	0	root
+biết	V	8	compound:svc
+:	CH	14	punct
+“	CH	14	punct
+Chúng tôi	P	14	nsubj
+luôn	R	14	advmod
+chuẩn bị	V	8	parataxis
+sẵn sàng	A	14	xcomp
+để	E	17	mark:pcomp
+đối phó	V	14	advcl:objective
+với	E	20	case
+những	L	20	det
+thay đổi	V	17	obl:comp
+chính sách	N	20	nmod
+ở	E	24	case
+mỗi	L	24	det
+quốc gia	N	20	obl
+”	CH	24	compound
+.	CH	8	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 595
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi được Reuters hỏi, không công ty nào cho biết họ hiện có kế hoạch chuyển hoạt động sản xuất sang Mỹ.
+Khi	N	9	obl:tmod
+được	V	4	aux:pass
+Reuters	Np	4	obl:agent
+hỏi	V	1	acl:tmod
+,	CH	9	punct
+không	R	7	det
+công ty	N	9	nsubj
+nào	P	7	det:pmod
+cho	V	0	root
+biết	V	9	compound:svc
+họ	P	13	nsubj
+hiện	N	13	advmod
+có	V	9	ccomp
+kế hoạch	N	13	obj
+chuyển	V	14	acl:subj
+hoạt động	V	15	obj
+sản xuất	V	16	nmod
+sang	V	19	case
+Mỹ	Np	15	obl
+.	CH	9	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 596
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để giữ chân các công ty của mình, Nhật Bản cần có các công ty đúc chip bán dẫn để tiêu thụ các sản phẩm mà các công ty này làm ra như thiết bị máy móc và hóa chất, đồng thời đảm bảo nguồn cung cấp chất bán dẫn ổn định cho các công ty sản xuất xe hơi và thiết bị điện tử của nước này.
+Để	E	2	mark:pcomp
+giữ	V	11	advcl:objective
+chân	N	2	obj
+các	L	5	det
+công ty	N	3	nmod
+của	E	7	case
+mình	P	5	nmod:poss
+,	CH	11	punct
+Nhật Bản	Np	11	nsubj
+cần	V	11	aux
+có	V	0	root
+các	L	13	det
+công ty	N	11	obj
+đúc	V	13	compound
+chip	N	14	compound
+bán dẫn	N	15	compound
+để	E	18	mark:pcomp
+tiêu thụ	V	11	advcl:objective
+các	L	20	det
+sản phẩm	N	18	obj
+mà	C	25	mark
+các	L	23	det
+công ty	N	25	nsubj
+này	P	23	det:pmod
+làm	V	20	acl:relcl
+ra	V	25	compound:dir
+như	C	28	case
+thiết bị	N	25	obl
+máy móc	N	28	compound
+và	C	31	cc
+hóa chất	V	29	conj
+,	CH	34	punct
+đồng thời	R	34	advmod
+đảm bảo	V	11	conj
+nguồn	N	34	obj
+cung cấp	V	35	acl:subj
+chất bán dẫn	N	36	obj
+ổn định	A	36	acomp
+cho	E	41	case
+các	L	41	det
+công ty	N	36	obl:comp
+sản xuất	V	41	nmod
+xe hơi	N	42	compound
+và	C	45	cc
+thiết bị	N	41	conj
+điện tử	N	45	compound
+của	E	48	case
+nước	N	45	nmod:poss
+này	P	48	det:pmod
+.	CH	11	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 597
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = TSMC, đang tìm cách mở rộng ra nước ngoài trong bối cảnh lo ngại về ảnh hưởng từ tham vọng của Trung Quốc, theo đó họ đã thành lập một trung tâm nghiên cứu và phát triển gần thủ đô Tokyo.
+TSMC	Np	4	nsubj
+,	CH	4	punct
+đang	R	4	advmod
+tìm	V	0	root
+cách	N	4	obj
+mở rộng	V	5	acl:subj
+ra	V	6	compound:dir
+nước ngoài	N	6	obl:comp
+trong	E	10	case
+bối cảnh	N	6	obl
+lo ngại	V	10	compound
+về	V	13	case
+ảnh hưởng	V	10	acl:subj
+từ	E	15	case
+tham vọng	N	13	obl
+của	E	17	case
+Trung Quốc	Np	15	nmod:poss
+,	CH	23	punct
+theo	V	23	advcl
+đó	P	19	det:pmod
+họ	P	23	nsubj
+đã	R	23	advmod
+thành lập	V	4	conj
+một	M	25	nummod
+trung tâm	N	23	obj
+nghiên cứu	V	25	acl:subj
+và	C	28	cc
+phát triển	V	26	conj
+gần	A	30	advmod:adj
+thủ đô	N	28	obj
+Tokyo	Np	30	compound
+.	CH	23	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 598
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đồng thời cũng đang xem xét kế hoạch xây dựng một nhà máy chế tạo ở Nhật Bản.
+Đồng thời	R	4	advmod
+cũng	R	4	advmod
+đang	R	4	advmod
+xem xét	V	0	root
+kế hoạch	N	4	obj
+xây dựng	V	5	acl:subj
+một	M	8	nummod
+nhà máy	N	6	obj
+chế tạo	V	8	nmod
+ở	E	11	case
+Nhật Bản	Np	8	obl
+.	CH	4	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 599
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, liên doanh nước ngoài lớn nhất của TSMC cho đến nay là một nhà máy bán dẫn trị giá 12 tỷ USD mà công ty này đang xây dựng ở bang Arizona của Mỹ.
+Tuy nhiên	C	14	mark
+,	CH	14	punct
+liên doanh	N	4	det:clf
+nước ngoài	N	14	nsubj:nn
+lớn	A	4	amod
+nhất	R	5	advmod
+của	E	8	case
+TSMC	Np	4	nmod:poss
+cho	E	10	compound
+đến	E	11	case
+nay	P	8	nmod
+là	V	14	cop
+một	M	14	nummod
+nhà máy	N	0	root
+bán dẫn	N	14	compound
+trị giá	V	14	acl:subj
+12	M	19	nummod
+tỷ	M	17	flat:number
+USD	Nu	16	obj
+mà	C	24	mark
+công ty	N	24	nsubj
+này	P	21	det:pmod
+đang	R	24	advmod
+xây dựng	V	16	conj
+ở	E	26	case
+bang	N	24	obl:comp
+Arizona	Np	26	compound
+của	E	29	case
+Mỹ	Np	26	nmod:poss
+.	CH	14	punct
+
+# https://vietnamnet.vn/vn/cong-nghe/my-rot-ty-usd-vao-chip-ban-dan-doi-dau-trung-quoc-nhat-ban-co-the-kiet-suc-767033.html
+# date = 20210818
+# sent_id = 600
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong một nỗ lực để theo kịp cuộc đua công nghệ, chính phủ của Thủ tướng Yoshihide Suga vào tháng 6 đã phê duyệt một chiến lược do nhóm của Nishikawa tại METI đưa ra nhằm đảm bảo Nhật Bản có đủ nguồn chip bán dẫn để cạnh tranh trong các công nghệ sẽ thúc đẩy tăng trưởng kinh tế trong tương lai, bao gồm cả trí tuệ nhân tạo, kết nối 5G và xe tự lái.
+Trong	E	3	case
+một	M	3	nummod
+nỗ lực	N	19	obl
+để	E	3	acl:subj
+theo	V	19	advcl:objective
+kịp	A	7	det
+cuộc	N	5	obj
+đua	V	7	nmod
+công nghệ	N	8	nmod
+,	CH	19	punct
+chính phủ	N	19	nsubj
+của	E	13	case
+Thủ tướng	N	11	nmod:poss
+Yoshihide Suga	Np	13	compound
+vào	E	16	case
+tháng	N	13	nmod
+6	M	16	compound
+đã	R	19	advmod
+phê duyệt	V	0	root
+một	M	21	nummod
+chiến lược	N	19	obj
+do	E	23	case
+nhóm	N	21	nmod
+của	E	25	case
+Nishikawa	Np	23	nmod:poss
+tại	E	27	case
+METI	Np	25	nmod
+đưa	V	27	acl:subj
+ra	V	28	compound:dir
+nhằm	V	28	punct
+đảm bảo	V	28	conj
+Nhật Bản	Np	31	obj
+có	V	31	acl:subj
+đủ	A	35	advmod:adj
+nguồn	N	33	obj
+chip	N	35	nmod
+bán dẫn	V	36	compound
+để	E	39	mark:pcomp
+cạnh tranh	V	33	advcl:objective
+trong	E	42	case
+các	L	42	det
+công nghệ	N	39	obl:comp
+sẽ	R	44	advmod
+thúc đẩy	V	45	aux:pass
+tăng trưởng	V	42	acl:subj
+kinh tế	N	45	obj
+trong	E	48	case
+tương lai	N	45	obl
+,	CH	50	punct
+bao gồm	V	45	conj
+cả	T	52	det
+trí tuệ	N	50	obj
+nhân tạo	A	52	compound
+,	CH	55	punct
+kết nối	N	52	conj
+5G	V	55	compound
+và	C	58	cc
+xe	N	52	conj
+tự	P	60	advmod
+lái	V	58	acl:subj
+.	CH	19	punct
