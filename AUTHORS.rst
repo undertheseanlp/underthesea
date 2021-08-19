@@ -10,6 +10,7 @@ Original Authors
 Awesome Contributors
 ------------------------
 
+* Nguyen Dang Duc Tai <tainguyen7595@gmail.com>
 * Bui Nhat Anh <buinhatanh1208@gmail.com>
 * Vuong Quoc Binh <binh@haui.vn>
 * Doan Viet Dung <doanvietdung273@gmail.com>

@@ -40,7 +40,7 @@ class UDAnalyzer:
         self.total_errors = 0
 
     def _get_words(self, sentences):
-        tags = [s.tags for s in sentences]
+        tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         words = [t[0].lower() for t in tags]
         return words
@@ -49,7 +49,7 @@ class UDAnalyzer:
         """Return doc as key and doc sentence array as value"""
         doc_sents = defaultdict(list)
         for s in dataset:
-            doc = s.url
+            doc = s.headers['doc_url']
             doc_sents[doc].append(s)
         return doc_sents
 
@@ -58,20 +58,20 @@ class UDAnalyzer:
         data = self._get_doc_sents(dataset)
         doc_word_counts = {}
         for doc, sents in data.items():
-            tags = [s.tags for s in sents]
+            tags = [s.rows for s in sents]
             tags = [t for sublist in tags for t in sublist]
             words = [t[0].lower() for t in tags]
             doc_word_counts[doc] = Counter(words)
         return doc_word_counts
 
     def analyze_words_pos(self, sentences):
-        tags = [s.tags for s in sentences]
+        tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         df = pd.DataFrame(tags, columns=["word", "pos", "order", "dep"])
         return df
 
     def analyze_words(self, sentences):
-        tags = [s.tags for s in sentences]
+        tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
         words = [t[0].lower() for t in tags]
         counter = Counter(words)
@@ -82,8 +82,10 @@ class UDAnalyzer:
         dictionary_words = set(dictionary.words)
         oov = corpus_words - dictionary_words
         print("OOV words")
-        print(oov)
-
+        print("Short OOV words")
+        print(sorted([item for item in oov if len(item.split(" ")) < 3]))
+        print("Long OOV words")
+        print(sorted([item for item in oov if len(item.split(" ")) >= 3]))
         return counter
 
     def analyze_all_words(self, dataset):
@@ -91,7 +93,7 @@ class UDAnalyzer:
 
     def get_today_sentences(self, dataset):
         yesterday = (date.today() - timedelta(days=1)).strftime('%Y%m%d')
-        sentences = [s for s in dataset if s.date == yesterday]
+        sentences = [s for s in dataset if s.headers['date'] == yesterday]
         return sentences
 
     def analyze_today_words(self, dataset):
@@ -100,7 +102,7 @@ class UDAnalyzer:
 
     def analyze_sent_ids(self, dataset):
         """Get sent_id of all sentences"""
-        sent_ids = [s.sent_id for s in dataset]
+        sent_ids = [s.headers['sent_id'] for s in dataset]
         counter = Counter(sent_ids)
 
         duplicate_ids = [key for key in counter if counter[key] > 1]
