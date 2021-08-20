@@ -3422,3 +3422,553 @@ Ba máy tính bên trong sẽ xử lý dữ liệu cảm biến và chạy thu�
 # date = 20210819
 # sent_id = 685
 Scott Kuindersma giải thích: "Robot không có xương sống và xương bả vai nên không thể di chuyển như con người. Thân robot nặng, các khớp tay tương đối yếu. Chúng tôi phải mở rộng công cụ để tìm giải pháp cho các hạn chế này, đây là điều khiến thử thách trở nên thú vị".
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 686
+Số ca F0 trong cộng đồng ở TP.HCM những ngày qua tăng do việc xét nghiệm được đẩy mạnh, một số nơi thực hiện giãn cách chưa nghiêm.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 687
+Trung tâm Kiểm soát dịch bệnh TP.HCM (HCDC) cho biết, trong ngày 19/8, TP có 4.371 ca mắc Covid-19 được Bộ Y tế công bố, trong đó 3.603 trường hợp phát hiện trong cộng đồng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 688
+Như vậy, số ca F0 trong cộng đồng hôm nay tăng hơn so với ngày 18/8 là 888 ca.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 689
+Tại cuộc họp về tình hình dịch bệnh Covid-19 trên địa bàn TP chiều 19/8, bác sĩ Nguyễn Hồng Tâm, Phó giám đốc HCDC giải thích, số F0 trong cộng đồng những ngày qua tăng do ba nguyên nhân.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 690
+Thứ nhất, để kiểm soát F0 tốt hơn nhằm xanh hóa các vùng đỏ, vùng cam, vùng vàng, TP thực hiện việc xét nghiệm quyết liệt hơn trước, có trọng tâm, trọng điểm.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 691
+Thứ hai, người dân cũng tự tìm đến nguồn test nhanh, sau đó báo lên hệ thống y tế phường, xã.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 692
+Thứ ba, thời gian qua, một số nơi thực hiện giãn cách chưa nghiêm cũng là một phần khiến F0 trong cộng đồng tăng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 693
+Tuy nhiên, bác sĩ Tâm nhận định: “Đây là việc tích cực bởi chúng ta sẽ đảm bảo các F0 không lây lan ra cộng đồng, sớm kiểm soát được tình hình dịch bệnh”.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 694
+Phó giám đốc HCDC khuyên người dân không nên quá lo lắng mà hãy tuân thủ nghiêm quy tắc 5K và tiêm vắc xin khi được mời.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 695
+Về việc các F0 tử vong tại nhà, bác sĩ Tâm cho biết, người dân có thể báo với các đội y tế và trạm y tế lưu động.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 696
+Theo bác sĩ Tâm, vài ngày qua, hệ thống y tế TP đã có sự đầu tư lớn vào việc quản lý, chăm sóc F0, sẽ giảm tỷ lệ F0 tử vong tại nhà.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 697
+Trước mắt, các trạm y tế lưu động sẽ có chức năng quản lý, tư vấn, điều trị và hỗ trợ bệnh nhân đi cấp cứu kịp thời.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 698
+Mỗi trạm sẽ quản lý từ 50-100 F0 với sự hỗ trợ của một bác sĩ, 2 điều dưỡng và 3 nhân viên.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 699
+Tại các trạm này sẽ được trang bị tối thiểu 2 bình oxy, máy thở, máy đo SpO2 (máy đo nồng độ oxy trong máu).
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 700
+Ngoài ra, còn có túi thuốc gồm một số thuốc cơ bản như thuốc hạ sốt, kháng đông, kháng viêm và điều trị virus.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 701
+Bộ Y tế cho biết, ngày 19/8, nước ta có thêm 10.654 ca Covid-19, nâng tổng số người mắc trong cả nước lên trên 312.000 trường hợp.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 702
+24h qua, Hệ thống Quốc gia quản lý ca bệnh Covid-19 có thêm 10.654 ca, gồm 10.639 bệnh nhân do lây nhiễm trong nước và 15 trường hợp nhập cảnh.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 703
+Tổng số mắc trong ngày tăng 1.995 ca so với hôm qua.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 704
+37 tỉnh, thành có người mắc Covid-19 mới, gồm TP.HCM (4.425), Bình Dương (3.255), Đồng Nai (657), Long An (545), Tiền Giang (478), Đồng Tháp (185), Đà Nẵng (164), Khánh Hòa (151), Cần Thơ (134), Tây Ninh (102), An Giang (70), Vĩnh Long (60), Hà Nội (53), Trà Vinh (51), Nghệ An (45), Phú Yên (44), Bình Thuận (43); Sơn La (26), Quảng Nam (24), Bình Định (24)...
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 705
+So với ngày 18/8, các địa phương tâm dịch đều tăng số ca nhiễm, trong đó TP.HCM tăng 694 ca, Bình Dương tăng 742 ca, Đồng Nai tăng 214 ca, Long An tăng 117 ca và Tiền Giang tăng 196 ca.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 706
+Như vậy, đến nay, nước ta đã phát hiện tổng 312.611 bệnh nhân Covid-19, đứng thứ 72/222 quốc gia và vùng lãnh thổ.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 707
+Riêng đợt dịch thứ tư (từ ngày 27/4), Việt Nam có thêm 308.559 ca do lây nhiễm trong nước.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 708
+6/62 tỉnh, thành phố đã qua 14 ngày không ghi nhận ca mới trong nước, gồm Quảng Ninh, Bắc Kạn, Tuyên Quang, Lai Châu, Hoà Bình, Hải Phòng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 709
+4 tỉnh, thành phố không xuất hiện lây nhiễm thứ phát trên địa bàn trong 14 ngày qua, gồm Kon Tum, Hà Giang, Yên Bái, Thái Bình.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 710
+5 tỉnh, thành phố ghi nhận số mắc cao nhất trong đợt dịch này là TP.HCM (164.542), Bình Dương (55.601), Long An (16.552), Đồng Nai (15.602), Bắc Giang (5.802).
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 711
+Về tình hình điều trị, ngày 19/8, thêm 5.000 bệnh nhân Covid-19 được công bố khỏi bệnh, nâng tổng số đã chữa khỏi lên 120.059 trường hợp.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 712
+Cả nước hiện có 660 ca nặng, đang điều trị ICU và 27 ca nguy kịch, phải can thiệp ECMO.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 713
+Chiều nay, Tiểu ban điều trị, Ban Chỉ đạo Quốc gia phòng chống dịch Covid-19 thông báo, Hệ thống Thông tin thu dung điều trị bệnh nhân Covid-19 ghi nhận thêm 380 ca Covid-19 tử vong tại 8 địa phương.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 714
+Cụ thể: TP.HCM (307), Bình Dương (45), Long An (17), Cần Thơ (3), Bến Tre (2), Bình Thuận (2), Tiền Giang (2), Vĩnh Long (2).
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 715
+Như vậy, nước ta hiện có 7.150 người mắc Covid-19 tử vong, chiếm tỷ lệ 2,3% trên tổng ca nhiễm.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 716
+Trong 24 giờ qua, các địa phương thực hiện 201.443 xét nghiệm mẫu đơn và mẫu gộp cho 643.418 lượt người.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 717
+Số xét nghiệm đã thực hiện từ 27/4 đến nay là 8.878.290 mẫu cho 25.762.113 lượt người.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 718
+Về tình hình tiêm chủng, theo số liệu thống kê từ Chương trình Tiêm chủng mở rộng quốc gia, nước ta có thêm 398.031 người được tiêm vắc xin Covid-19.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 719
+Như vậy, cả nước đã thực hiện tiêm tổng cộng 15.922.537 liều vắc xin.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 720
+Trong đó, có 14.359.868 liều tiêm mũi 1 và 1.562.669 liều tiêm mũi 2.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 721
+Chiều 19/8, Thứ trưởng Bộ Y tế Trần Văn Thuấn đã tới kiểm tra công tác thử nghiệm lâm sàng giai đoạn 2 vắc xin phòng Covid-19 Covivac tại Trung tâm y tế huyện Vũ Thư, tỉnh Thái Bình.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 722
+Thứ trưởng đánh giá cao kết quả thử nghiệm giai đoạn 1, đề nghị quá trình nghiên cứu giai đoạn 2 cần nghiêm túc thực hiện đúng quy trình, kỹ thuật thử nghiệm lâm sàng vắc xin và theo dõi chặt chẽ sau tiêm đối với các tình nguyện viên tham gia.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 723
+Dự kiến tháng 11, nhóm nghiên cứu sẽ có kết quả giữa kỳ của thử nghiệm lâm sàng giai đoạn 2.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 724
+Thứ trưởng cho biết hy vọng 75% dân số được bao phủ vắc xin Covid-19 vào cuối năm 2021, đầu năm 2022.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 725
+Liên quan tới vụ việc Bệnh viện Đa khoa Bình Tân (TP.HCM) yêu cầu gia đình bệnh nhân Covid-19 tử vong nộp 36 triệu đồng, tại cuộc họp cung cấp thông tin tình hình dịch bệnh chiều 19/8, bác sĩ Võ Tuấn Trường, Giám đốc Bệnh viện cho rằng, việc thu phí bệnh nhân Covid-19 là sai.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 726
+Theo quy định, người mắc Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 727
+Bác sĩ Trường thông tin, bệnh viện đã liên hệ với người nhà bệnh nhân để xin lỗi, chia sẻ với mất mát của gia đình và trả lại toàn bộ số tiền đã thu.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 728
+“Gia đình cũng đã chấp nhận lời xin lỗi và nhận lại tiền”, bác sĩ Trường thông tin.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 729
+Phó Chủ tịch UBND TP.HCM Dương Anh Đức đánh giá, việc Bệnh viện Đa khoa Bình Tân thu tiền viện phí của bệnh nhân Covid-19 đã vi phạm chủ trương của thành phố.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 730
+Các bệnh viện, cơ sở y tế trên địa bàn cần có sự nghiêm túc trong công tác tiếp nhận, điều trị F0.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 731
+Bệnh nhân Covid-19 xin lỗi vì khiến 87 người liên lụy sau đám tang mẹ
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 732
+Anh C. tổ chức tang lễ cho mẹ, tiếp xúc nhiều người đến phúng viếng, đưa tiễn.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 733
+Chưa kịp cảm ơn tấm lòng của mọi người, giờ con lại phải cúi đầu xin lỗi vì đã gây ra sự phiền toái và khó khăn này.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 734
+Cầu mong mọi người bình an.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 735
+"Con chắp tay ngàn lần xin lỗi mọi người”, anh P.T.C, bệnh nhân mắc Covid-19 ở Đắk Lắk, chia sẻ dòng trạng thái trên mạng xã hội.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 736
+Anh P.T.C, 30 tuổi, trú tại buôn Ea Kruế, xã Ea Bông, huyện Krông Ana, Đắk Lắk.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 737
+Ngày 19/8, anh được chuyển đến Bệnh viện Dã chiến số 1 tỉnh Đắk Lắk để điều trị Covid-19.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 738
+Tôi buồn lắm khi bà con, làng xóm, người quen… trở thành F1.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 739
+"Giờ đây tôi chỉ biết cúi đầu xin lỗi mọi người rất nhiều và cầu mong đừng có thêm trường hợp nào mắc bệnh”, anh C. tâm sự.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 740
+Ngày 23/7, anh C. đưa mẹ đi điều trị ung thư phổi tại Bệnh viện Ung bướu ở TP.HCM.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 741
+Tại đây, anh C. và mẹ được lấy mẫu xét nghiệm khẳng định bằng kỹ thuật PCR và đều có kết quả âm tính.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 742
+Chiều 6/8, mẹ mất, anh C. thuê xe cấp cứu, cùng em gái đưa thi thể mẹ về Đắk Lắk mai táng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 743
+Trước khi lên xe, cả hai đều làm xét nghiệm test nhanh SARS-CoV-2 và có kết quả âm tính.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 744
+Tang lễ của mẹ anh C. được tổ chức trong một ngày ở buôn Ea Kruế.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 745
+Thời gian này, anh C. đã tiếp xúc nhiều người đến cúng viếng, đưa tiễn mẹ.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 746
+Lo xong việc hậu sự, anh C. tới Trạm y tế xã Ea Bông khai báo.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 747
+Ngày 16/8, anh C. thấy người mệt mỏi và ra Trạm y tế xã Ea Bông làm xét nghiệm test nhanh kháng nguyên SARS-CoV-2, kết quả dương tính.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 748
+Xét nghiệm tại Viện vệ sinh dịch tễ Tây Nguyên cũng cho kết quả tương tự.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 749
+Cơ quan chức năng đã đưa anh C. đi điều trị, ngành y tế đã truy vết và xác định có 87 trường hợp F1.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 750
+Ngay sau khi ghi nhận ca bệnh, Ban chỉ đạo phòng chống dịch bệnh Covid-19 huyện Krông Ana đã phong tỏa, cách ly y tế khu vực buôn Ea Kruế có 297 hộ với 1.286 nhân khẩu từ 0h ngày 18/8.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 751
+Hôm nay 19/8, AstraZeneca đã chuyển thêm 1.209.400 liều vắc xin Covid-19 cho Việt Nam.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 752
+Như vậy tới nay, Việt Nam đã nhận tổng cộng 14,3 triệu liều vắc xin phòng Covid-19 của AstraZeneca từ nhiều nguồn.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 753
+Đây là lần giao vắc xin thứ 9 thuộc hợp đồng đặt mua trước giữa AstraZeneca Việt Nam và Công ty Cổ phần Vacxin Việt Nam VNVC, dưới sự hỗ trợ của Bộ Y tế.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 754
+Như vậy tới nay, thỏa thuận này mang về cho Việt Nam hơn 6,7 triệu liều vắc xin Covid-19 của AstraZeneca.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 755
+Tính cả số vắc xin qua hợp đồng với VNVC, Cơ chế COVAX và viện trợ giữa các Chính phủ, Việt Nam đã nhận tổng cộng 14,3 triệu liều vắc xin AstraZeneca, chiếm 62% nguồn cung vắc xin Covid-19 trên cả nước hiện nay.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 756
+Chiều 19/8, Thủ tướng Chính phủ Phạm Minh Chính có cuộc điện đàm trao đổi với Giám đốc Điều hành tập đoàn AstraZeneca.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 757
+Đại diện tập đoàn cho hay sẽ tiếp tục hợp tác với Bộ Y tế, WHO, UNICEF, VNVC để đưa vắc xin về Việt Nam nhanh chóng, an toàn nhất có thể, giúp người dân sớm đoàn tụ với gia đình và trở lại cuộc sống bình thường.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 758
+Bên cạnh những nội dung xoay quanh việc tiếp cận vắc xin, hai bên cũng thảo luận về tiến độ chương trình phát triển bền vững và sức khỏe cộng đồng của AstraZeneca tại Việt Nam nhằm giảm thiểu các bệnh truyền nhiễm và bệnh không lây nhiễm, đóng góp toàn diện cho đất nước.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 759
+Cho đến nay, AstraZeneca đã cung ứng hơn 1 tỷ liều vắc xin Covid-19 đến hơn 170 quốc gia trên tinh thần phi lợi nhuận.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 760
+Theo các báo cáo, vắc xin của AstraZeneca có hiệu quả 80-90% trong việc giảm tỷ lệ bệnh nặng và các trường hợp nhập viện do mắc Covid-19.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 761
+Khoảng 20 triệu liều vắc xin Covid-19 về Việt Nam trong tháng 8 và 9
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 762
+Thứ trưởng Bộ Y tế Trần Văn Thuấn cho biết, trong tháng 8-9, mỗi tháng có thể về khoảng 10-12 triệu liều vắc xin Covid-19 về Việt Nam.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 763
+Chiều ngày 19/8, Thứ trưởng Bộ Y tế Trần Văn Thuấn đã tới kiểm tra công tác thử nghiệm lâm sàng (TNLS) giai đoạn 2 vắc xin Covivac tại Trung tâm y tế huyện Vũ Thư, tỉnh Thái Bình.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 764
+Theo Thứ trưởng, trong tháng 8-9, mỗi tháng có thể về khoảng 10-12 triệu liều vắc xin hoặc hơn.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 765
+Sang quý 4, lượng vắc xin sẽ về nhiều hơn, cố gắng bao phủ vắc xin 75% dân số vào cuối năm 2021, đầu năm 2022.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 766
+Tại buổi làm việc, Thứ trưởng Thuấn đánh giá cao kết quả của giai đoạn 1 của vắc xin Covivac.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 767
+Ông Thuấn nhấn mạnh, việc nghiên cứu, phát triển và sản xuất vắc xin trong là một trong những chiến lược quan trọng trong phòng, chống dịch bệnh của Việt Nam.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 768
+“Việc nghiên cứu và sản xuất thành công vắc xin phòng Covid-19 “made in Vietnam” an toàn, hiệu quả được xác định là một nhiệm vụ khoa học quan trọng giúp Việt Nam sớm tự chủ nguồn vắc xin và được quốc tế công nhận, sử dụng”, ông Thuấn nói.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 769
+Dự án nghiên cứu thử nghiệm vắc xin Covivac bắt đầu từ tháng 5/2020. Ngày 3/8, Hội đồng đạo đức Quốc gia nhận được báo cáo giữa kỳ giai đoạn 1 của thử nghiệm lâm sàng vắc xin Covivac.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 770
+Kết quả cho thấy vắc xin này an toàn và có tính sinh miễn dịch, đủ điều kiện để chuyển sang giai đoạn 2.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 771
+Ngày 7/8, Hội đồng đạo đức Quốc gia đã họp thông qua đề cương nghiên cứu giai đoạn 2 vắc xin Covivac.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 772
+Mục tiêu của giai đoạn 2 là đánh giá công thức và liều lượng vắc xin Covivac nào là tối ưu cho giai đoạn nghiên cứu TNLS tiếp theo.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 773
+Tính an toàn và đáp ứng miễn dịch cũng sẽ tiếp tục được đánh giá. Dự kiến tháng 11 sẽ có kết quả giữa kỳ của giai đoạn 2 thử nghiệm lâm sàng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 774
+Cơ quan chức năng sẽ tiếp tục đánh giá ngay, nếu kết quả tốt, chọn được liều phù hợp và khẳng định được tính sinh miễn dịch bước đầu sẽ cho triển khai ngay pha 3.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 775
+Nếu đánh giá tốt, tháng 12 sẽ có kết quả ban đầu của giai đoạn 3.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 776
+"Vắc xin chứng minh được độ an toàn, tính sinh miễn dịch cao, bước đầu thể hiện rõ hiệu quả thì có thể đề xuất Hội đồng đạo đức, Hội đồng cấp phép để xem xét, cấp phép trong điều kiện khẩn cấp." – Thứ trưởng cho hay.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 777
+GS.TS. Đặng Đức Anh, Viện trưởng Viện Vệ sinh Dịch tễ Trung ương cũng cho biết: "Kết quả của nghiên cứu giai đoạn 1 cho thấy tất cả các mức liều trong giai đoạn 1 đều an toàn và chúng tôi đã lựa chọn 2 mức liều để chuyển sang giai đoạn 2".
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 778
+Giai đoạn 2 rất quan trọng để lựa chọn mức liều thích hợp nhất, có đủ đáp ứng miễn dịch mạnh mẽ và an toàn, để tiến hành thử nghiệm ở giai đoạn 3.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 779
+Một ưu điểm của vắc xin Covivac là được sản xuất bằng công nghệ trứng gà có phôi, đây là công nghệ sản xuất vắc xin cúm truyền thống đang được sử dụng rộng rãi.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 780
+Điều này có nghĩa là Việt Nam đã có đủ năng lực sản xuất vắc xin ở quy mô lớn với giá cả hợp lý để phòng chống đại dịch.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 781
+Bệnh viện quận Bình Tân xin lỗi vì thu 36 triệu đồng viện phí của F0
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 782
+Giám đốc Bệnh viện quận Bình Tân cho biết, thu viện phí của người đến điều trị do mắc Covid-19 là sai.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 783
+Theo quy định, bệnh nhân Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 784
+Chị N.T.N, cư trú tại quận 12, cho biết, ngày 3/8, mẹ chị mắc Covid-19, được đưa đến Bệnh viện Đa khoa Bình Tân (TP.HCM) điều trị.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 785
+Tại đây, mẹ chị nằm trong Khoa Nội của bệnh viện.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 786
+Bệnh viện yêu cầu nộp tạm ứng viện phí nhiều lần.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 787
+Tổng số tiền hơn 8 triệu đồng gồm phí xét nghiệm, phẫu thuật, thuốc dịch truyền, vật tư y tế, điện tim… và tiền giường nằm (226.500 đồng/ngày).
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 788
+Sau khi bệnh trở nặng, mẹ chị N. được chuyển vào phòng Hồi sức, tiền giường 427.000 đồng/ngày.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 789
+Ngày 16/8, bệnh viện thông báo mẹ chị N. đã tử vong và yêu cầu gia đình nộp thêm 28 triệu đồng viện phí để nhận giấy báo tử và thi thể an táng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 790
+Như vậy tổng cộng, chị N. phải đóng cho bệnh viện là 36 triệu đồng.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 791
+Chị N. cho biết, chị phải vay người quen 28 triệu đồng mang đến đóng phần còn thiếu cho bệnh viện.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 792
+Tại cuộc họp cung cấp thông tin về tình hình dịch bệnh Covid-19 trên địa bàn TP chiều 19/8, bác sĩ Võ Tuấn Trường, Giám đốc Bệnh viện Đa khoa quận Bình Tân cho rằng, việc bệnh viện thu phí người bệnh đến điều trị do mắc Covid-19 là sai.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 793
+Theo quy định, người mắc Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 794
+Bác sĩ Trường cho biết, bệnh viện đã liên hệ với người nhà bệnh nhân để xin lỗi, chia sẻ với mất mát của gia đình và trả lại toàn bộ số tiền đã thu.
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 795
+“Gia đình chị N. cũng đã chấp nhận lời xin lỗi và nhận lại tiền”, bác sĩ Trường thông tin.

@@ -21500,3 +21500,3416 @@ trở nên	V	44	ccomp
 thú vị	A	46	acomp
 "	CH	8	punct
 .	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 686
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Số ca F0 trong cộng đồng ở TP.HCM những ngày qua tăng do việc xét nghiệm được đẩy mạnh, một số nơi thực hiện giãn cách chưa nghiêm.
+Số	N	11	nsubj
+ca	N	1	compound
+F0	Np	2	compound
+trong	E	5	case
+cộng đồng	N	1	nmod
+ở	E	7	case
+TP.HCM	Np	5	nmod
+những	L	9	det
+ngày	N	1	nmod
+qua	V	9	acl:subj
+tăng	V	0	root
+do	E	16	mark
+việc	N	16	nsubj
+xét nghiệm	V	16	nsubj
+được	R	16	aux:pass
+đẩy mạnh	V	11	ccomp
+,	CH	22	punct
+một số	L	19	det
+nơi	N	22	nsubj
+thực hiện	V	19	acl:subj
+giãn	N	20	obj
+cách	V	16	conj
+chưa	R	24	advmod
+nghiêm	A	22	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 687
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trung tâm Kiểm soát dịch bệnh TP.HCM (HCDC) cho biết, trong ngày 19/8, TP có 4.371 ca mắc Covid-19 được Bộ Y tế công bố, trong đó 3.603 trường hợp phát hiện trong cộng đồng.
+Trung tâm	N	8	nsubj
+Kiểm soát	V	1	compound
+dịch bệnh	N	1	compound
+TP.HCM	Np	1	compound
+(	CH	6	punct
+HCDC	Ny	1	appos:nmod
+)	CH	6	punct
+cho	V	0	root
+biết	V	8	compound:svc
+,	CH	8	punct
+trong	E	12	case
+ngày	N	16	obl:tmod
+19/8	M	12	nmod
+,	CH	16	punct
+TP	Ny	16	nsubj
+có	V	8	parataxis
+4.371	N	18	nummod
+ca	N	16	obj
+mắc	V	16	obj
+Covid-19	Np	19	obj
+được	V	24	aux:pass
+Bộ	N	23	det:clf
+Y tế	N	24	nsubj
+công bố	V	19	conj
+,	CH	30	punct
+trong	E	27	case
+đó	P	30	obl
+3.603	M	29	nummod
+trường hợp	N	30	nsubj
+phát hiện	V	19	conj
+trong	E	32	case
+cộng đồng	N	30	obl
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 688
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy, số ca F0 trong cộng đồng hôm nay tăng hơn so với ngày 18/8 là 888 ca.
+Như vậy	X	9	obl
+,	CH	9	punct
+số	N	9	nsubj
+ca	N	3	nmod
+F0	Np	4	compound
+trong	E	7	case
+cộng đồng	N	3	nmod
+hôm nay	N	7	compound
+tăng	V	0	root
+hơn	A	9	advmod:adj
+so	V	9	obj
+với	E	13	case
+ngày	N	9	obl
+18/8	M	13	amod
+là	C	16	cop
+888	V	9	conj
+ca	N	16	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 689
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại cuộc họp về tình hình dịch bệnh Covid-19 trên địa bàn TP chiều 19/8, bác sĩ Nguyễn Hồng Tâm, Phó giám đốc HCDC giải thích, số F0 trong cộng đồng những ngày qua tăng do ba nguyên nhân.
+Tại	E	2	case
+cuộc	N	29	obl
+họp	V	2	compound:vmod
+về	E	5	case
+tình hình	N	2	nmod
+dịch bệnh	N	5	compound
+Covid-19	Np	6	compound
+trên	E	9	case
+địa bàn	N	2	nmod
+TP	Ny	9	nmod
+chiều	N	9	nmod
+19/8	M	11	compound
+,	CH	14	punct
+bác sĩ	N	9	conj
+Nguyễn Hồng Tâm	Np	14	nmod
+,	CH	17	punct
+Phó	Z	9	conj
+giám đốc	N	17	nmod
+HCDC	Np	20	punct
+giải thích	V	14	nmod
+,	CH	22	punct
+số	N	29	nsubj
+F0	Np	22	compound
+trong	E	25	case
+cộng đồng	N	22	obl
+những	L	27	det
+ngày	N	25	nmod
+qua	V	29	advmod
+tăng	V	0	root
+do	E	32	case
+ba	M	32	nummod
+nguyên nhân	N	29	obl
+.	CH	29	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 690
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ nhất, để kiểm soát F0 tốt hơn nhằm xanh hóa các vùng đỏ, vùng cam, vùng vàng, TP thực hiện việc xét nghiệm quyết liệt hơn trước, có trọng tâm, trọng điểm.
+Thứ	N	10	obl
+nhất	A	1	nummod
+,	CH	4	punct
+để	E	10	mark:pcomp
+kiểm soát	V	4	obj
+F0	Np	5	obj
+tốt	A	5	acl:subj
+hơn	A	7	advmod:adj
+nhằm	E	10	punct
+xanh	A	0	root
+hóa	A	13	case
+các	L	13	det
+vùng	N	10	obj
+đỏ	A	13	compound
+,	CH	16	punct
+vùng	N	13	conj
+cam	N	16	nmod
+,	CH	19	punct
+vùng	N	13	conj
+vàng	N	19	compound
+,	CH	22	punct
+TP	Ny	13	conj
+thực hiện	V	22	acl:subj
+việc	N	23	obj
+xét nghiệm	V	24	nmod
+quyết liệt	A	25	obj
+hơn	A	26	advmod:adj
+trước	N	27	obl:adj
+,	CH	30	punct
+có	V	10	conj
+trọng tâm	N	30	obj
+,	CH	33	punct
+trọng điểm	N	31	conj
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 691
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ hai, người dân cũng tự tìm đến nguồn test nhanh, sau đó báo lên hệ thống y tế phường, xã.
+Thứ	N	8	obl
+hai	M	1	nummod
+,	CH	8	punct
+người	Nc	5	det:clf
+dân	N	8	nsubj
+cũng	R	8	advmod
+tự	P	8	advmod
+tìm	V	0	root
+đến	E	10	case
+nguồn	N	8	obl:comp
+test	V	10	compound
+nhanh	A	10	amod
+,	CH	16	punct
+sau	N	16	obl:tmod
+đó	P	14	det:pmod
+báo	V	8	conj
+lên	V	16	compound:dir
+hệ thống	N	16	obj
+y tế	N	18	compound
+phường	N	18	nmod
+,	CH	22	punct
+xã	N	20	conj
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 692
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ ba, thời gian qua, một số nơi thực hiện giãn cách chưa nghiêm cũng là một phần khiến F0 trong cộng đồng tăng.
+Thứ	N	17	obl
+ba	M	1	nummod
+,	CH	1	punct
+thời gian	N	1	conj
+qua	V	4	amod
+,	CH	8	punct
+một số	L	8	det
+nơi	N	1	conj
+thực hiện	V	8	acl:subj
+giãn	N	9	obj
+cách	V	8	nmod
+chưa	R	13	advmod:neg
+nghiêm	A	11	obj
+cũng	R	15	advmod
+là	V	17	cop
+một	M	17	nummod
+phần	N	0	root
+khiến	V	17	acl:subj
+F0	Np	18	obj
+trong	E	21	case
+cộng đồng	N	18	obl
+tăng	V	21	compound:vmod
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 693
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, bác sĩ Tâm nhận định: “Đây là việc tích cực bởi chúng ta sẽ đảm bảo các F0 không lây lan ra cộng đồng, sớm kiểm soát được tình hình dịch bệnh”.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+bác sĩ	N	5	nsubj
+Tâm	Np	5	nsubj
+nhận định	V	0	root
+:	CH	10	punct
+“	CH	10	punct
+Đây	P	10	nsubj
+là	V	10	cop
+việc	N	5	parataxis
+tích cực	A	10	amod
+bởi	E	15	mark
+chúng ta	P	15	nsubj
+sẽ	R	15	advmod
+đảm bảo	V	5	parataxis
+các	L	17	det
+F0	Np	15	obj
+không	R	19	advmod:neg
+lây lan	V	17	acl:subj
+ra	V	19	compound:dir
+cộng đồng	N	19	obl:comp
+,	CH	24	punct
+sớm	A	24	compound:adj
+kiểm soát	V	15	conj
+được	V	24	advmod
+tình hình	N	24	obj
+dịch bệnh	V	26	nmod
+”	CH	27	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 694
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phó giám đốc HCDC khuyên người dân không nên quá lo lắng mà hãy tuân thủ nghiêm quy tắc 5K và tiêm vắc xin khi được mời.
+Phó	Z	2	det:clf
+giám đốc	N	4	nsubj
+HCDC	Np	2	compound
+khuyên	V	0	root
+người dân	N	4	obj
+không	R	7	advmod:neg
+nên	V	9	cc
+quá	R	9	advmod
+lo lắng	V	5	acomp
+mà	C	12	mark
+hãy	R	12	advmod
+tuân thủ	V	9	conj
+nghiêm	A	12	obj
+quy tắc	V	13	obj
+5K	N	14	nmod
+và	C	17	cc
+tiêm	V	12	conj
+vắc xin	N	17	obj
+khi	N	17	obl:tmod
+được	V	21	aux:pass
+mời	V	19	acl:tmod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 695
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Về việc các F0 tử vong tại nhà, bác sĩ Tâm cho biết, người dân có thể báo với các đội y tế và trạm y tế lưu động.
+Về	E	2	case
+việc	N	11	obl
+các	L	4	det
+F0	Np	2	nmod
+tử vong	V	4	nmod
+tại	E	7	case
+nhà	N	4	nmod
+,	CH	11	punct
+bác sĩ	N	11	nsubj
+Tâm	Np	9	nmod
+cho	V	0	root
+biết	V	11	compound:svc
+,	CH	16	punct
+người dân	N	16	nsubj
+có thể	R	16	aux
+báo	V	11	parataxis
+với	E	19	case
+các	L	19	det
+đội	N	16	obl:with
+y tế	N	19	compound
+và	C	22	cc
+trạm	N	19	conj
+y tế	N	22	compound
+lưu động	V	22	compound
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 696
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo bác sĩ Tâm, vài ngày qua, hệ thống y tế TP đã có sự đầu tư lớn vào việc quản lý, chăm sóc F0, sẽ giảm tỷ lệ F0 tử vong tại nhà.
+Theo	V	13	advcl
+bác sĩ	N	1	obj
+Tâm	Np	2	nmod
+,	CH	6	punct
+vài	L	6	det
+ngày	N	13	obl:tmod
+qua	V	6	amod
+,	CH	13	punct
+hệ thống	N	13	nsubj
+y tế	N	9	compound
+TP	Ny	9	nmod
+đã	R	13	advmod
+có	V	0	root
+sự	N	13	obj
+đầu tư	V	14	acl:tonp
+lớn	A	15	amod
+vào	E	18	case
+việc	N	13	obl:comp
+quản lý	V	18	nmod
+,	CH	21	punct
+chăm sóc	V	18	conj
+F0	Np	21	obj
+,	CH	25	punct
+sẽ	R	25	advmod
+giảm	V	13	conj
+tỷ lệ	N	25	obj
+F0	Np	25	obj
+tử vong	V	27	compound
+tại	E	30	case
+nhà	N	25	obl
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 697
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước mắt, các trạm y tế lưu động sẽ có chức năng quản lý, tư vấn, điều trị và hỗ trợ bệnh nhân đi cấp cứu kịp thời.
+Trước mắt	N	8	obl:tmod
+,	CH	8	punct
+các	L	4	det
+trạm	N	8	nsubj
+y tế	N	4	compound
+lưu động	V	4	nmod
+sẽ	R	8	advmod
+có	V	0	root
+chức năng	N	8	obj
+quản lý	V	9	compound:vmod
+,	CH	12	punct
+tư vấn	V	9	conj
+,	CH	14	punct
+điều trị	V	9	conj
+và	C	16	cc
+hỗ trợ	V	10	conj
+bệnh nhân	N	16	obj
+đi	V	17	acl:subj
+cấp cứu	V	18	obj
+kịp thời	A	19	acomp
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 698
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỗi trạm sẽ quản lý từ 50-100 F0 với sự hỗ trợ của một bác sĩ, 2 điều dưỡng và 3 nhân viên.
+Mỗi	L	2	det
+trạm	N	4	nsubj
+sẽ	R	4	advmod
+quản lý	V	0	root
+từ	E	6	case
+50-100	N	4	obl
+F0	Np	6	compound
+với	E	9	case
+sự	N	4	obl
+hỗ trợ	V	9	compound:vmod
+của	E	13	case
+một	M	13	nummod
+bác sĩ	N	9	nmod:poss
+,	CH	16	punct
+2	M	16	nummod
+điều dưỡng	N	13	conj
+và	C	18	cc
+3	M	19	nummod
+nhân viên	N	13	conj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 699
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại các trạm này sẽ được trang bị tối thiểu 2 bình oxy, máy thở, máy đo SpO2 (máy đo nồng độ oxy trong máu).
+Tại	E	3	case
+các	L	3	det
+trạm	N	7	obl
+này	P	3	det:pmod
+sẽ	R	7	advmod
+được	V	7	aux:pass
+trang bị	V	0	root
+tối thiểu	A	7	obj
+2	M	10	nummod
+bình	N	7	obj
+oxy	FW	10	nmod
+,	CH	13	punct
+máy	N	10	conj
+thở	V	13	compound
+,	CH	16	punct
+máy	N	10	conj
+đo	V	16	compound
+SpO2	Np	17	obj
+(	CH	20	punct
+máy	N	10	appos:nmod
+đo	V	20	compound
+nồng độ	N	21	obj
+oxy	FW	20	compound
+trong	E	25	case
+máu	N	20	nmod
+)	CH	20	punct
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/ba-ly-do-khien-so-ca-mac-covid-19-trong-cong-dong-o-tp-hcm-tiep-tuc-tang-767422.html
+# date = 20210819
+# sent_id = 700
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, còn có túi thuốc gồm một số thuốc cơ bản như thuốc hạ sốt, kháng đông, kháng viêm và điều trị virus.
+Ngoài ra	C	4	mark
+,	CH	4	punct
+còn	C	4	advmod
+có	V	0	root
+túi	N	4	obj
+thuốc	N	5	compound
+gồm	V	5	acl:subj
+một số	L	9	det
+thuốc	N	7	obj
+cơ bản	A	9	amod
+như	C	12	case
+thuốc	N	9	obl
+hạ	V	12	acl:subj
+sốt	V	13	compound
+,	CH	16	punct
+kháng	N	12	conj
+đông	A	16	nmod
+,	CH	19	punct
+kháng viêm	V	12	conj
+và	C	21	cc
+điều trị	V	12	conj
+virus	FW	21	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 701
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ Y tế cho biết, ngày 19/8, nước ta có thêm 10.654 ca Covid-19, nâng tổng số người mắc trong cả nước lên trên 312.000 trường hợp.
+Bộ	N	2	det:clf
+Y tế	N	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	3	punct
+ngày	N	11	obl:tmod
+19/8	M	6	nmod
+,	CH	11	punct
+nước	N	11	nsubj
+ta	P	9	compound:pron
+có	V	3	parataxis
+thêm	V	11	xcomp
+10.654	N	14	nummod
+ca	N	12	obj
+Covid-19	Np	14	nmod
+,	CH	17	punct
+nâng	V	3	conj
+tổng số	N	17	obj
+người	N	18	nmod
+mắc	V	19	acl:subj
+trong	E	23	case
+cả	P	23	det
+nước	N	17	obl
+lên	V	23	acl:subj
+trên	N	27	advmod:adj
+312.000	M	27	nummod
+trường hợp	N	24	obl:comp
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 702
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 24h qua, Hệ thống Quốc gia quản lý ca bệnh Covid-19 có thêm 10.654 ca, gồm 10.639 bệnh nhân do lây nhiễm trong nước và 15 trường hợp nhập cảnh.
+24	M	2	nummod
+h	N	11	obl
+qua	V	2	amod
+,	CH	11	punct
+Hệ thống	N	11	nsubj
+Quốc gia	N	5	nmod
+quản lý	V	6	compound
+ca	N	7	nmod
+bệnh	N	6	nmod
+Covid-19	Np	9	compound
+có	V	0	root
+thêm	V	11	compound:svc
+10.654	N	14	nummod
+ca	N	12	obj
+,	CH	16	punct
+gồm	V	11	conj
+10.639	M	18	nummod
+bệnh nhân	N	16	obj
+do	E	20	case
+lây nhiễm	V	16	obl
+trong	E	22	case
+nước	N	20	obl
+và	C	25	cc
+15	M	25	nummod
+trường hợp	N	22	conj
+nhập cảnh	N	25	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 703
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tổng số mắc trong ngày tăng 1.995 ca so với hôm qua.
+Tổng số	N	5	nsubj
+mắc	V	1	nmod
+trong	E	4	case
+ngày	N	1	obl
+tăng	V	0	root
+1.995	M	7	nummod
+ca	N	5	obj
+so	V	7	nmod
+với	E	10	case
+hôm qua	N	8	obl
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 704
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 37 tỉnh, thành có người mắc Covid-19 mới, gồm TP.HCM (4.425), Bình Dương (3.255), Đồng Nai (657), Long An (545), Tiền Giang (478), Đồng Tháp (185), Đà Nẵng (164), Khánh Hòa (151), Cần Thơ (134), Tây Ninh (102), An Giang (70), Vĩnh Long (60), Hà Nội (53), Trà Vinh (51), Nghệ An (45), Phú Yên (44), Bình Thuận (43); Sơn La (26), Quảng Nam (24), Bình Định (24)...
+37	M	2	det:clf
+tỉnh	N	5	nsubj
+,	CH	5	punct
+thành	V	5	nsubj
+có	V	0	root
+người	N	5	obj
+mắc	V	6	acl:subj
+Covid-19	Np	7	obj
+mới	A	8	compound
+,	CH	11	punct
+gồm	V	6	conj
+TP.HCM	Np	11	obj
+(	CH	14	punct
+4.425	M	12	appos:nmod
+)	CH	14	punct
+,	CH	17	punct
+Bình Dương	Np	8	conj
+(	CH	14	punct
+3.255	M	17	appos:nmod
+)	CH	14	punct
+,	CH	22	punct
+Đồng Nai	Np	8	conj
+(	CH	14	punct
+657	M	17	appos:nmod
+)	CH	14	punct
+,	CH	62	punct
+Long An	Np	8	conj
+(	CH	14	punct
+545	M	17	appos:nmod
+)	CH	19	punct
+,	CH	62	punct
+Tiền Giang	Np	5	conj
+(	CH	14	punct
+478	M	17	appos:nmod
+)	CH	19	punct
+,	CH	62	punct
+Đồng Tháp	Np	5	conj
+(	CH	29	punct
+185	M	27	appos:nmod
+)	CH	19	punct
+,	CH	62	punct
+Đà Nẵng	Np	5	conj
+(	CH	49	punct
+164	M	32	appos:nmod
+)	CH	19	punct
+,	CH	92	punct
+Khánh Hòa	Np	5	conj
+(	CH	69	punct
+151	M	32	appos:nmod
+)	CH	19	punct
+,	CH	92	punct
+Cần Thơ	Np	2	conj
+(	CH	69	punct
+134	M	32	appos:nmod
+)	CH	29	punct
+,	CH	92	punct
+Tây Ninh	Np	5	conj
+(	CH	69	punct
+102	M	32	appos:nmod
+)	CH	29	punct
+,	CH	92	punct
+An Giang	Np	2	conj
+(	CH	69	punct
+70	M	32	appos:nmod
+)	CH	39	punct
+,	CH	92	punct
+Vĩnh Long	Np	5	conj
+(	CH	69	punct
+60	M	67	appos:nmod
+)	CH	49	punct
+,	CH	92	punct
+Hà Nội	Np	5	conj
+(	CH	69	punct
+53	M	67	appos:nmod
+)	CH	69	punct
+,	CH	97	punct
+Trà Vinh	Np	2	conj
+(	CH	69	punct
+51	M	67	appos:nmod
+)	CH	69	punct
+,	CH	97	punct
+Nghệ An	Np	2	conj
+(	CH	69	punct
+45	M	67	appos:nmod
+)	CH	94	punct
+,	CH	97	punct
+Phú Yên	Np	2	conj
+(	CH	94	punct
+44	M	67	appos:nmod
+)	CH	94	punct
+,	CH	97	punct
+Bình Thuận	Np	2	conj
+(	CH	94	punct
+43	M	67	appos:nmod
+)	CH	94	punct
+;	CH	97	punct
+Sơn La	Np	5	conj
+(	CH	99	punct
+26	M	97	appos:nmod
+)	CH	99	punct
+,	CH	102	punct
+Quảng Nam	Np	2	conj
+(	CH	104	punct
+24	M	102	appos:nmod
+)	CH	104	punct
+,	CH	107	punct
+Bình Định	Np	2	conj
+(	CH	109	punct
+24	M	107	appos:nmod
+)	CH	109	punct
+...	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 705
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = So với ngày 18/8, các địa phương tâm dịch đều tăng số ca nhiễm, trong đó TP.HCM tăng 694 ca, Bình Dương tăng 742 ca, Đồng Nai tăng 214 ca, Long An tăng 117 ca và Tiền Giang tăng 196 ca.
+So	V	11	advcl
+với	E	3	case
+ngày	N	1	obl
+18/8	M	3	compound
+,	CH	11	punct
+các	L	7	det
+địa phương	N	11	nsubj
+tâm	V	7	nmod
+dịch	N	7	nmod
+đều	R	11	advmod
+tăng	V	0	root
+số	N	11	obj
+ca	N	12	nmod
+nhiễm	V	13	compound
+,	CH	19	punct
+trong	E	17	case
+đó	P	19	obl
+TP.HCM	Np	19	nsubj
+tăng	V	11	conj
+694	N	19	obj
+ca	N	20	nmod
+,	CH	24	punct
+Bình Dương	Np	24	nsubj
+tăng	V	11	conj
+742	N	24	obj
+ca	N	25	nmod
+,	CH	29	punct
+Đồng Nai	Np	29	nsubj
+tăng	V	11	conj
+214	N	31	nummod
+ca	N	29	obj
+,	CH	34	punct
+Long An	Np	34	nsubj
+tăng	V	11	parataxis
+117	N	34	obj
+ca	N	35	nmod
+và	C	38	cc
+Tiền Giang	Np	34	nsubj
+tăng	V	38	acl:subj
+196	V	39	obj
+ca	N	39	obj
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 706
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy, đến nay, nước ta đã phát hiện tổng 312.611 bệnh nhân Covid-19, đứng thứ 72/222 quốc gia và vùng lãnh thổ.
+Như vậy	X	9	mark
+,	CH	9	punct
+đến	E	4	case
+nay	P	9	obl
+,	CH	9	punct
+nước	N	9	nsubj
+ta	P	6	nmod
+đã	R	9	advmod
+phát hiện	V	0	root
+tổng	N	9	obj
+312.611	N	10	nmod
+bệnh nhân	N	10	nmod
+Covid-19	Np	12	compound
+,	CH	15	punct
+đứng	V	9	conj
+thứ	N	15	obj
+72/222	M	16	compound
+quốc gia	N	16	nmod
+và	C	20	cc
+vùng	N	16	conj
+lãnh thổ	N	20	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 707
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Riêng đợt dịch thứ tư (từ ngày 27/4), Việt Nam có thêm 308.559 ca do lây nhiễm trong nước.
+Riêng	T	2	discourse
+đợt	N	13	obl
+dịch	V	2	nmod
+thứ	N	3	nmod
+tư	M	4	nummod
+(	CH	8	punct
+từ	E	8	case
+ngày	N	2	appos:nmod
+27/4	M	8	compound
+)	CH	8	punct
+,	CH	13	punct
+Việt Nam	Np	13	nsubj
+có	V	0	root
+thêm	V	13	xcomp
+308.559	N	14	obj
+ca	N	14	obj
+do	E	18	case
+lây nhiễm	V	15	obl
+trong	E	20	case
+nước	N	18	obl
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 708
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 6/62 tỉnh, thành phố đã qua 14 ngày không ghi nhận ca mới trong nước, gồm Quảng Ninh, Bắc Kạn, Tuyên Quang, Lai Châu, Hoà Bình, Hải Phòng.
+6/62	N	6	nsubj
+tỉnh	N	1	nmod
+,	CH	6	punct
+thành phố	N	6	nsubj
+đã	R	6	advmod
+qua	V	0	root
+14	M	8	nummod
+ngày	N	6	obl:tmod
+không	R	10	advmod:neg
+ghi nhận	V	8	acl:subj
+ca	N	10	obj
+mới	R	11	amod
+trong	E	14	case
+nước	N	10	obl
+,	CH	16	punct
+gồm	V	14	list
+Quảng Ninh	Np	16	nmod
+,	CH	19	punct
+Bắc Kạn	Np	14	conj
+,	CH	21	punct
+Tuyên Quang	Np	14	conj
+,	CH	23	punct
+Lai Châu	Np	14	conj
+,	CH	25	punct
+Hoà Bình	Np	14	conj
+,	CH	27	punct
+Hải Phòng	Np	14	conj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 709
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 4 tỉnh, thành phố không xuất hiện lây nhiễm thứ phát trên địa bàn trong 14 ngày qua, gồm Kon Tum, Hà Giang, Yên Bái, Thái Bình.
+4	M	2	nummod
+tỉnh	N	6	nsubj
+,	CH	6	punct
+thành phố	N	6	nsubj
+không	R	6	advmod:neg
+xuất hiện	V	0	root
+lây nhiễm	V	6	obj
+thứ phát	N	7	nmod
+trên	E	10	case
+địa bàn	N	6	obl
+trong	E	13	case
+14	M	13	nummod
+ngày	N	10	nmod
+qua	V	13	nmod
+,	CH	16	punct
+gồm	V	13	conj
+Kon Tum	Np	16	nmod
+,	CH	19	punct
+Hà Giang	Np	17	list
+,	CH	21	punct
+Yên Bái	Np	17	list
+,	CH	23	punct
+Thái Bình	Np	17	conj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 710
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 5 tỉnh, thành phố ghi nhận số mắc cao nhất trong đợt dịch này là TP.HCM (164.542), Bình Dương (55.601), Long An (16.552), Đồng Nai (15.602), Bắc Giang (5.802).
+5	M	2	nummod
+tỉnh	N	5	nsubj
+,	CH	5	punct
+thành phố	N	5	nsubj
+ghi nhận	V	0	root
+số	N	5	obj
+mắc	N	6	compound
+cao	A	6	acl:subj
+nhất	A	8	advmod
+trong	E	11	case
+đợt	N	8	obl
+dịch	V	11	nmod
+này	P	12	det:pmod
+là	V	15	cop
+TP.HCM	Np	5	appos:nmod
+(	CH	17	punct
+164.542	M	15	appos:nmod
+)	CH	17	punct
+,	CH	20	punct
+Bình Dương	Np	15	conj
+(	CH	22	punct
+55.601	M	20	appos:nmod
+)	CH	22	punct
+,	CH	25	punct
+Long An	Np	15	conj
+(	CH	27	punct
+16.552	M	20	appos:nmod
+)	CH	27	punct
+,	CH	30	punct
+Đồng Nai	Np	15	conj
+(	CH	32	punct
+15.602	M	30	appos:nmod
+)	CH	32	punct
+,	CH	35	punct
+Bắc Giang	Np	15	conj
+(	CH	37	punct
+5.802	M	35	appos:nmod
+)	CH	37	punct
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 711
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Về tình hình điều trị, ngày 19/8, thêm 5.000 bệnh nhân Covid-19 được công bố khỏi bệnh, nâng tổng số đã chữa khỏi lên 120.059 trường hợp.
+Về	E	2	case
+tình hình	N	20	obl
+điều trị	V	2	nmod
+,	CH	5	punct
+ngày	N	2	conj
+19/8	M	5	nmod
+,	CH	8	punct
+thêm	V	20	advcl
+5.000	M	10	nummod
+bệnh nhân	N	8	obj
+Covid-19	Np	10	nmod
+được	V	13	aux:pass
+công bố	V	8	ccomp
+khỏi	V	13	compound:svc
+bệnh	N	14	obj
+,	CH	17	punct
+nâng	V	20	advcl
+tổng số	N	17	obj
+đã	R	20	advmod
+chữa	V	0	root
+khỏi	V	20	compound:svc
+lên	V	24	case
+120.059	M	24	nummod
+trường hợp	N	20	obl:comp
+.	CH	20	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 712
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả nước hiện có 660 ca nặng, đang điều trị ICU và 27 ca nguy kịch, phải can thiệp ECMO.
+Cả	P	2	det
+nước	N	4	nsubj
+hiện	N	4	advmod
+có	V	0	root
+660	N	6	nummod
+ca	N	4	obj
+nặng	A	6	amod
+,	CH	10	punct
+đang	R	10	advmod
+điều trị	V	4	conj
+ICU	Np	10	obj
+và	C	14	cc
+27	V	14	nummod
+ca	N	11	conj
+nguy kịch	A	14	nmod
+,	CH	18	punct
+phải	V	18	aux
+can thiệp	V	4	conj
+ECMO	Np	18	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 713
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiều nay, Tiểu ban điều trị, Ban Chỉ đạo Quốc gia phòng chống dịch Covid-19 thông báo, Hệ thống Thông tin thu dung điều trị bệnh nhân Covid-19 ghi nhận thêm 380 ca Covid-19 tử vong tại 8 địa phương.
+Chiều	N	18	obl:tmod
+nay	P	1	flat:time
+,	CH	18	punct
+Tiểu ban	N	5	det:clf
+điều trị	V	18	nsubj
+,	CH	7	punct
+Ban Chỉ đạo Quốc gia	N	5	conj
+phòng chống	V	7	nmod
+dịch Covid-19	N	8	compound
+thông báo	V	8	compound
+,	CH	18	punct
+Hệ thống	N	18	nsubj
+Thông tin	N	12	nmod
+thu dung	N	13	nmod
+điều trị	V	14	compound
+bệnh nhân	N	12	nmod
+Covid-19	Np	16	compound
+ghi nhận	V	0	root
+thêm	V	18	compound:svc
+380	N	18	obj
+ca	N	20	nmod
+Covid-19	Np	21	compound
+tử vong	V	22	compound
+tại	E	25	case
+8	M	21	nmod
+địa phương	N	25	compound
+.	CH	18	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 714
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể: TP.HCM (307), Bình Dương (45), Long An (17), Cần Thơ (3), Bến Tre (2), Bình Thuận (2), Tiền Giang (2), Vĩnh Long (2).
+Cụ thể	A	0	root
+:	CH	1	punct
+TP.HCM	Np	1	appos:nmod
+(	CH	5	punct
+307	M	3	appos:nmod
+)	CH	5	punct
+,	CH	8	punct
+Bình Dương	Np	3	conj
+(	CH	10	punct
+45	M	8	appos:nmod
+)	CH	10	punct
+,	CH	18	punct
+Long An	Np	3	conj
+(	CH	15	punct
+17	M	8	appos:nmod
+)	CH	10	punct
+,	CH	23	punct
+Cần Thơ	Np	3	conj
+(	CH	25	punct
+3	M	18	appos:nmod
+)	CH	15	punct
+,	CH	28	punct
+Bến Tre	Np	3	conj
+(	CH	25	punct
+2	M	23	appos:nmod
+)	CH	25	punct
+,	CH	28	punct
+Bình Thuận	Np	3	conj
+(	CH	30	punct
+2	M	23	appos:nmod
+)	CH	30	punct
+,	CH	33	punct
+Tiền Giang	Np	3	conj
+(	CH	35	punct
+2	M	33	appos:nmod
+)	CH	35	punct
+,	CH	38	punct
+Vĩnh Long	Np	3	conj
+(	CH	40	punct
+2	M	38	appos:nmod
+)	CH	40	punct
+.	CH	1	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 715
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy, nước ta hiện có 7.150 người mắc Covid-19 tử vong, chiếm tỷ lệ 2,3% trên tổng ca nhiễm.
+Như vậy	X	6	mark
+,	CH	6	punct
+nước	N	6	nsubj
+ta	P	3	compound:pron
+hiện	N	6	obl:tmod
+có	V	0	root
+7.150	M	8	nummod
+người	N	6	obj
+mắc	V	6	obj
+Covid-19	Np	9	obj
+tử vong	V	9	obj
+,	CH	13	punct
+chiếm	V	9	conj
+tỷ lệ	N	13	obj
+2,3	V	14	nmod
+%	N	15	nummod
+trên	E	18	case
+tổng	N	13	obl
+ca	N	18	compound
+nhiễm	V	18	acl:subj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 716
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong 24 giờ qua, các địa phương thực hiện 201.443 xét nghiệm mẫu đơn và mẫu gộp cho 643.418 lượt người.
+Trong	E	3	case
+24	M	3	nummod
+giờ	Nu	8	obl:tmod
+qua	V	3	amod
+,	CH	3	punct
+các	L	7	det
+địa phương	N	8	nsubj
+thực hiện	V	0	root
+201.443	N	8	obj
+xét nghiệm	V	9	nmod
+mẫu đơn	N	10	compound
+và	C	13	cc
+mẫu	N	11	conj
+gộp	V	13	compound
+cho	E	17	case
+643.418	N	17	nummod
+lượt	N	14	obl:comp
+người	N	17	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 717
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Số xét nghiệm đã thực hiện từ 27/4 đến nay là 8.878.290 mẫu cho 25.762.113 lượt người.
+Số	N	4	nsubj
+xét nghiệm	N	1	compound
+đã	R	4	advmod
+thực hiện	V	10	csubj
+từ	E	6	case
+27/4	M	4	obl:comp
+đến	E	8	case
+nay	P	6	nmod
+là	C	10	cop
+8.878.290	M	0	root
+mẫu	Nu	10	compound
+cho	E	14	case
+25.762.113	N	14	nummod
+lượt	N	10	obl
+người	N	14	compound
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 718
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Về tình hình tiêm chủng, theo số liệu thống kê từ Chương trình Tiêm chủng mở rộng quốc gia, nước ta có thêm 398.031 người được tiêm vắc xin Covid-19.
+Về	E	2	case
+tình hình	N	16	obl
+tiêm chủng	N	2	compound
+,	CH	5	punct
+theo	V	6	case
+số liệu	N	16	obl
+thống kê	V	6	nmod
+từ	E	9	case
+Chương trình	N	6	nmod
+Tiêm chủng	N	9	nmod
+mở rộng	V	9	nmod
+quốc gia	N	11	nmod
+,	CH	16	punct
+nước	N	16	nsubj
+ta	P	14	compound:pron
+có	V	0	root
+thêm	V	16	compound:svc
+398.031	M	19	nummod
+người	N	16	obj
+được	V	21	aux:pass
+tiêm	V	19	acl:subj
+vắc xin	N	21	obj
+Covid-19	Np	22	nmod
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 719
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy, cả nước đã thực hiện tiêm tổng cộng 15.922.537 liều vắc xin.
+Như vậy	X	6	obl
+,	CH	6	punct
+cả	P	4	det
+nước	N	6	nsubj
+đã	R	6	advmod
+thực hiện	V	0	root
+tiêm	N	6	xcomp
+tổng cộng	V	7	obj
+15.922.537	N	11	case
+liều	V	11	det:clf
+vắc xin	N	6	obl
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 720
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, có 14.359.868 liều tiêm mũi 1 và 1.562.669 liều tiêm mũi 2.
+Trong	E	2	case
+đó	P	4	obl
+,	CH	4	punct
+có	V	0	root
+14.359.868	N	6	nummod
+liều	V	4	obj
+tiêm	V	4	obj
+mũi	N	7	nmod
+1	M	8	nummod
+và	C	11	cc
+1.562.669	V	7	conj
+liều	V	11	compound
+tiêm	V	11	nmod
+mũi	N	13	nmod
+2	M	14	nummod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 721
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiều 19/8, Thứ trưởng Bộ Y tế Trần Văn Thuấn đã tới kiểm tra công tác thử nghiệm lâm sàng giai đoạn 2 vắc xin phòng Covid-19 Covivac tại Trung tâm y tế huyện Vũ Thư, tỉnh Thái Bình.
+Chiều	N	9	obl:tmod
+19/8	M	1	flat:date
+,	CH	9	punct
+Thứ trưởng	N	9	nsubj
+Bộ	N	4	nmod
+Y tế	N	5	compound
+Trần Văn Thuấn	Np	4	appos
+đã	R	9	advmod
+tới	V	0	root
+kiểm tra	V	9	obj
+công tác	N	10	nmod
+thử nghiệm	V	11	compound
+lâm sàng	N	12	compound
+giai đoạn	N	13	nmod
+2	M	14	nummod
+vắc xin	N	13	nmod
+phòng	N	13	nmod
+Covid-19 Covivac	Np	17	compound
+tại	E	20	case
+Trung tâm	N	16	obl
+y tế	N	20	compound
+huyện	N	20	list
+Vũ Thư	Np	22	compound
+,	CH	25	punct
+tỉnh	N	20	list
+Thái Bình	Np	25	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 722
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ trưởng đánh giá cao kết quả thử nghiệm giai đoạn 1, đề nghị quá trình nghiên cứu giai đoạn 2 cần nghiêm túc thực hiện đúng quy trình, kỹ thuật thử nghiệm lâm sàng vắc xin và theo dõi chặt chẽ sau tiêm đối với các tình nguyện viên tham gia.
+Thứ trưởng	N	9	nsubj
+đánh giá	V	1	nmod
+cao	A	1	acl:subj
+kết quả	N	1	nmod
+thử nghiệm	V	4	nmod
+giai đoạn	N	5	nmod
+1	M	6	compound
+,	CH	9	punct
+đề nghị	V	0	root
+quá trình	N	9	obj
+nghiên cứu	V	10	acl:subj
+giai đoạn	N	11	obj
+2	M	12	nummod
+cần	V	15	aux:pass
+nghiêm túc	V	9	ccomp
+thực hiện	V	15	xcomp:adj
+đúng	A	16	acomp
+quy trình	N	17	obl:adj
+,	CH	20	punct
+kỹ thuật	N	21	nsubj
+thử nghiệm	V	9	conj
+lâm sàng	N	21	obj
+vắc xin	V	22	compound
+và	C	25	cc
+theo dõi	V	21	conj
+chặt chẽ	A	25	obj
+sau	N	25	obl
+tiêm	N	27	nmod
+đối với	E	31	case
+các	L	31	det
+tình nguyện viên	N	25	obl
+tham gia	V	31	amod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 723
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự kiến tháng 11, nhóm nghiên cứu sẽ có kết quả giữa kỳ của thử nghiệm lâm sàng giai đoạn 2.
+Dự kiến	V	8	advcl
+tháng	N	1	nmod
+11	M	2	nummod
+,	CH	8	punct
+nhóm	N	8	nsubj
+nghiên cứu	V	5	compound:vmod
+sẽ	R	8	advmod
+có	V	0	root
+kết quả	N	8	obj
+giữa	E	11	case
+kỳ	N	9	nmod
+của	E	13	case
+thử nghiệm	V	11	nmod:poss
+lâm sàng	N	13	compound
+giai đoạn	N	13	compound
+2	M	15	nummod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 724
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ trưởng cho biết hy vọng 75% dân số được bao phủ vắc xin Covid-19 vào cuối năm 2021, đầu năm 2022.
+Thứ trưởng	N	2	nsubj
+cho	V	0	root
+biết	V	2	compound:svc
+hy vọng	N	9	nsubj
+75	N	7	advmod
+%	M	7	nummod
+dân số	N	4	nmod
+được	V	9	aux:pass
+bao phủ	V	2	ccomp
+vắc xin	N	9	obj
+Covid-19	Np	10	compound
+vào	E	13	case
+cuối	N	11	obl:tmod
+năm	N	13	nmod
+2021	M	14	flat:date
+,	CH	17	punct
+đầu	N	13	conj
+năm	N	17	nmod
+2022	M	18	nummod
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 725
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Liên quan tới vụ việc Bệnh viện Đa khoa Bình Tân (TP.HCM) yêu cầu gia đình bệnh nhân Covid-19 tử vong nộp 36 triệu đồng, tại cuộc họp cung cấp thông tin tình hình dịch bệnh chiều 19/8, bác sĩ Võ Tuấn Trường, Giám đốc Bệnh viện cho rằng, việc thu phí bệnh nhân Covid-19 là sai.
+Liên quan	V	36	advcl
+tới	E	3	case
+vụ việc	N	1	obl:comp
+Bệnh viện	N	3	compound
+Đa khoa	N	4	compound
+Bình Tân	Np	4	compound
+(	CH	8	punct
+TP.HCM	Np	6	appos:nmod
+)	CH	8	punct
+yêu cầu	V	1	xcomp
+gia đình	N	10	obj
+bệnh nhân	N	11	nmod
+Covid-19	Np	12	compound
+tử vong	V	12	compound
+nộp	V	10	conj
+36	M	18	nummod
+triệu	M	18	nummod
+đồng	Nu	15	obj
+,	CH	21	punct
+tại	E	21	case
+cuộc	N	36	obl
+họp	V	21	compound
+cung cấp	V	21	acl:subj
+thông tin	N	23	obj
+tình hình	N	24	nmod
+dịch bệnh	N	25	compound
+chiều	N	25	nmod
+19/8	M	27	compound
+,	CH	30	punct
+bác sĩ	N	25	conj
+Võ Tuấn	Np	30	nmod
+Trường	N	31	compound
+,	CH	34	punct
+Giám đốc	N	25	conj
+Bệnh viện	N	34	nmod
+cho	V	0	root
+rằng	C	36	compound:svc
+,	CH	45	punct
+việc	N	45	nsubj
+thu	V	39	nmod
+phí	N	40	obj
+bệnh nhân	N	41	nmod
+Covid-19	Np	42	compound
+là	V	45	cop
+sai	A	36	parataxis
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 726
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo quy định, người mắc Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+Theo	V	9	advcl
+quy định	N	1	obj
+,	CH	9	punct
+người	N	9	nsubj:pass
+mắc	V	4	nmod
+Covid-19	Np	5	obj
+sẽ	R	9	advmod
+được	V	9	aux:pass
+điều trị	V	0	root
+hoàn toàn	A	11	advmod
+miễn phí	V	9	punct
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 727
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bác sĩ Trường thông tin, bệnh viện đã liên hệ với người nhà bệnh nhân để xin lỗi, chia sẻ với mất mát của gia đình và trả lại toàn bộ số tiền đã thu.
+Bác sĩ	N	2	det:clf
+Trường	N	7	obl
+thông tin	N	2	compound
+,	CH	5	punct
+bệnh viện	N	7	nsubj
+đã	R	7	advmod
+liên hệ	V	0	root
+với	E	9	case
+người nhà	N	7	obl:comp
+bệnh nhân	N	9	compound
+để	E	12	mark:pcomp
+xin lỗi	V	7	advcl:objective
+,	CH	14	punct
+chia sẻ	V	12	conj
+với	E	16	case
+mất mát	N	14	obl
+của	E	18	case
+gia đình	N	16	nmod:poss
+và	C	20	cc
+trả	V	7	conj
+lại	V	20	compound:svc
+toàn bộ	L	23	det
+số	N	20	obj
+tiền	N	23	compound
+đã	R	26	advmod
+thu	V	23	acl:subj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 728
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Gia đình cũng đã chấp nhận lời xin lỗi và nhận lại tiền”, bác sĩ Trường thông tin.
+“	CH	2	det
+Gia đình	N	5	nsubj
+cũng	R	5	advmod
+đã	R	5	advmod
+chấp nhận	V	0	root
+lời	V	5	obj
+xin lỗi	V	6	compound:vmod
+và	C	9	cc
+nhận	V	5	conj
+lại	V	9	advmod
+tiền	N	9	obj
+”	CH	11	compound
+,	CH	14	punct
+bác sĩ	N	11	conj
+Trường	N	14	nmod
+thông tin	N	15	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 729
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phó Chủ tịch UBND TP.HCM Dương Anh Đức đánh giá, việc Bệnh viện Đa khoa Bình Tân thu tiền viện phí của bệnh nhân Covid-19 đã vi phạm chủ trương của thành phố.
+Phó	Z	2	det:clf
+Chủ tịch	N	19	nsubj
+UBND	Ny	2	nmod
+TP.HCM Dương Anh	Np	3	compound
+Đức	Np	2	nmod
+đánh giá	V	5	compound
+,	CH	8	punct
+việc	N	19	nsubj
+Bệnh viện	N	8	nmod
+Đa khoa	N	9	nmod
+Bình Tân	Np	8	nmod
+thu	V	8	nmod
+tiền	N	12	nmod
+viện phí	N	13	compound
+của	E	16	case
+bệnh nhân	N	8	nmod:poss
+Covid-19	Np	16	compound
+đã	R	19	advmod
+vi phạm	V	0	root
+chủ trương	N	19	obj
+của	E	22	case
+thành phố	N	20	nmod:poss
+.	CH	19	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/tin-tuc-covid-19-hom-nay-19-8-viet-nam-ghi-nhan-10-654-ca-mac-moi-5-000-nguoi-khoi-benh-767413.html
+# date = 20210819
+# sent_id = 730
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các bệnh viện, cơ sở y tế trên địa bàn cần có sự nghiêm túc trong công tác tiếp nhận, điều trị F0.
+Các	L	2	det
+bệnh viện	N	9	nsubj
+,	CH	4	punct
+cơ sở	N	2	conj
+y tế	N	4	compound
+trên	E	7	case
+địa bàn	N	4	nmod
+cần	V	9	aux
+có	V	0	root
+sự	N	9	obj
+nghiêm túc	A	10	amod
+trong	E	13	case
+công tác	N	10	obl
+tiếp nhận	V	13	compound
+,	CH	16	punct
+điều trị	V	13	conj
+F0	Np	16	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 731
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bệnh nhân Covid-19 xin lỗi vì khiến 87 người liên lụy sau đám tang mẹ
+Bệnh nhân	N	3	nsubj
+Covid-19	Np	1	compound
+xin lỗi	V	0	root
+vì	E	5	mark
+khiến	V	3	advcl
+87	V	7	nummod
+người	N	5	obj
+liên	Z	7	nmod
+lụy	N	8	compound
+sau	N	5	obl:tmod
+đám tang	N	12	det:clf
+mẹ	N	5	obj
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 732
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh C. tổ chức tang lễ cho mẹ, tiếp xúc nhiều người đến phúng viếng, đưa tiễn.
+Anh	Nc	2	det:clf
+C.	Np	3	nsubj
+tổ chức	V	0	root
+tang lễ	V	3	obj
+cho	E	6	case
+mẹ	N	3	obl:comp
+,	CH	8	punct
+tiếp xúc	V	3	conj
+nhiều	A	10	advmod:adj
+người	Nc	8	obj
+đến	V	10	acl:subj
+phúng viếng	V	11	obj
+,	CH	14	punct
+đưa tiễn	N	12	conj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 733
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chưa kịp cảm ơn tấm lòng của mọi người, giờ con lại phải cúi đầu xin lỗi vì đã gây ra sự phiền toái và khó khăn này.
+Chưa	R	2	advmod:neg
+kịp	A	14	advcl
+cảm ơn	V	2	xcomp:adj
+tấm	Nc	5	det:clf
+lòng	N	3	obj
+của	E	8	case
+mọi	L	8	det
+người	N	5	nmod:poss
+,	CH	14	punct
+giờ	N	14	nsubj
+con	N	14	nsubj
+lại	R	14	advmod
+phải	V	14	aux
+cúi	V	0	root
+đầu	N	14	obj
+xin lỗi	V	14	xcomp
+vì	C	19	mark
+đã	R	19	advmod
+gây	V	14	advcl
+ra	V	19	compound:dir
+sự	N	19	obj
+phiền toái	V	21	amod
+và	C	24	cc
+khó khăn	A	21	conj
+này	P	24	det:pmod
+.	CH	14	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 734
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cầu mong mọi người bình an.
+Cầu mong	V	0	root
+mọi	L	3	det
+người	N	1	obj
+bình an	A	3	amod
+.	CH	1	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 735
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Con chắp tay ngàn lần xin lỗi mọi người”, anh P.T.C, bệnh nhân mắc Covid-19 ở Đắk Lắk, chia sẻ dòng trạng thái trên mạng xã hội.
+"	CH	7	punct
+Con	Nc	3	det:clf
+chắp	N	7	nsubj
+tay	N	3	compound
+ngàn	M	6	nummod
+lần	N	3	nmod
+xin lỗi	V	0	root
+mọi	L	9	det
+người	N	7	obj
+”	CH	9	nmod
+,	CH	13	punct
+anh	Nc	13	det:clf
+P.T.C	Np	9	conj
+,	CH	15	punct
+bệnh nhân	N	13	appos
+mắc	V	15	nmod
+Covid-19	Np	16	obj
+ở	E	19	case
+Đắk Lắk	Np	16	obl
+,	CH	21	punct
+chia sẻ	V	7	conj
+dòng	N	21	obj
+trạng thái	N	22	compound
+trên	E	25	case
+mạng	N	21	obl
+xã hội	N	25	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 736
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh P.T.C, 30 tuổi, trú tại buôn Ea Kruế, xã Ea Bông, huyện Krông Ana, Đắk Lắk.
+Anh	Nc	2	det:clf
+P.T.C	Np	7	nsubj
+,	CH	5	punct
+30	M	5	nummod
+tuổi	N	2	appos:nmod
+,	CH	7	punct
+trú	V	0	root
+tại	E	9	case
+buôn	N	7	obl:comp
+Ea Kruế	Np	9	compound
+,	CH	12	punct
+xã	N	9	list
+Ea Bông	Np	12	compound
+,	CH	15	punct
+huyện	N	9	list
+Krông Ana	Np	15	compound
+,	CH	18	punct
+Đắk Lắk	Np	9	list
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 737
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 19/8, anh được chuyển đến Bệnh viện Dã chiến số 1 tỉnh Đắk Lắk để điều trị Covid-19.
+Ngày	N	6	obl:tmod
+19/8	M	1	nummod
+,	CH	1	punct
+anh	Nc	6	nsubj:pass
+được	V	6	aux:pass
+chuyển	V	0	root
+đến	E	8	case
+Bệnh viện	N	6	obl:comp
+Dã chiến	N	8	compound
+số	N	8	nmod
+1	M	10	nummod
+tỉnh	N	8	nmod
+Đắk Lắk	Np	12	compound
+để	E	15	mark:pcomp
+điều trị	V	6	advcl:objective
+Covid-19	Np	15	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 738
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi buồn lắm khi bà con, làng xóm, người quen… trở thành F1.
+Tôi	P	2	nsubj
+buồn	A	0	root
+lắm	R	2	advmod
+khi	N	2	obl:tmod
+bà con	N	12	nsubj
+,	CH	7	punct
+làng xóm	V	5	conj
+,	CH	9	punct
+người	N	5	conj
+quen	A	9	amod
+…	CH	12	advmod
+trở thành	V	2	conj
+F1	Np	12	obj
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 739
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Giờ đây tôi chỉ biết cúi đầu xin lỗi mọi người rất nhiều và cầu mong đừng có thêm trường hợp nào mắc bệnh”, anh C. tâm sự.
+"	CH	5	punct
+Giờ đây	P	5	obl:tmod
+tôi	P	5	nsubj
+chỉ	R	5	advmod
+biết	V	0	root
+cúi	V	5	xcomp
+đầu	N	6	obj
+xin lỗi	V	5	xcomp
+mọi	L	10	det
+người	N	8	obj
+rất	R	12	advmod
+nhiều	A	5	acomp
+và	C	16	cc
+cầu mong	V	16	nsubj
+đừng	R	16	advmod:neg
+có	V	5	conj
+thêm	V	16	compound:svc
+trường hợp	N	16	obj
+nào	P	18	det:pmod
+mắc	V	18	acl:subj
+bệnh	N	20	obj
+”	CH	21	nmod
+,	CH	26	punct
+anh	Nc	25	det:clf
+C.	Np	26	nsubj
+tâm sự	V	5	parataxis
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 740
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 23/7, anh C. đưa mẹ đi điều trị ung thư phổi tại Bệnh viện Ung bướu ở TP.HCM.
+Ngày	N	6	obl:tmod
+23/7	M	1	nummod
+,	CH	6	punct
+anh	Nc	5	det:clf
+C.	Np	6	nsubj
+đưa	V	0	root
+mẹ	N	6	obj
+đi	V	6	xcomp
+điều trị	V	10	nummod
+ung thư	N	8	obj
+phổi	N	10	compound
+tại	E	13	case
+Bệnh viện	N	8	obl
+Ung bướu	N	13	compound
+ở	E	16	case
+TP.HCM.	Np	6	obl
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 741
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại đây, anh C. và mẹ được lấy mẫu xét nghiệm khẳng định bằng kỹ thuật PCR và đều có kết quả âm tính.
+Tại	E	2	case
+đây	P	9	obl
+,	CH	9	punct
+anh	Nc	5	det:clf
+C.	Np	9	nsubj
+và	C	7	cc
+mẹ	N	5	conj
+được	V	9	aux:pass
+lấy	V	0	root
+mẫu	N	9	obj
+xét nghiệm	V	10	compound
+khẳng định	V	9	xcomp
+bằng	E	14	case
+kỹ thuật	N	12	obl
+PCR	Np	14	compound
+và	C	18	cc
+đều	R	18	advmod
+có	V	12	conj
+kết quả	N	18	obj
+âm tính	A	19	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 742
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiều 6/8, mẹ mất, anh C. thuê xe cấp cứu, cùng em gái đưa thi thể mẹ về Đắk Lắk mai táng.
+Chiều	N	9	obl:tmod
+6/8	M	1	nmod
+,	CH	5	punct
+mẹ	N	5	nsubj
+mất	V	1	conj
+,	CH	8	punct
+anh	Nc	8	det:clf
+C.	Np	9	nsubj
+thuê	V	0	root
+xe	N	9	obj
+cấp cứu	V	10	compound
+,	CH	15	punct
+cùng	A	14	case
+em gái	N	15	nsubj
+đưa	V	9	conj
+thi thể	N	15	obj
+mẹ	N	15	obj
+về	E	19	case
+Đắk Lắk	Np	15	obl
+mai táng	V	19	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 743
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước khi lên xe, cả hai đều làm xét nghiệm test nhanh SARS-CoV-2 và có kết quả âm tính.
+Trước	N	2	case
+khi	N	9	obl:tmod
+lên	V	2	acl:tmod
+xe	N	3	obj
+,	CH	2	punct
+cả	P	7	det
+hai	M	9	nsubj
+đều	R	9	advmod
+làm	V	0	root
+xét nghiệm	V	9	obj
+test	V	9	obj
+nhanh	A	11	amod
+SARS-CoV-2	Np	12	obj
+và	C	15	cc
+có	V	9	conj
+kết quả	N	15	obj
+âm tính	A	16	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 744
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tang lễ của mẹ anh C. được tổ chức trong một ngày ở buôn Ea Kruế.
+Tang lễ	N	7	nsubj:pass
+của	E	3	case
+mẹ	N	1	nmod:poss
+anh	Nc	3	compound
+C.	Np	3	nmod
+được	V	7	aux:pass
+tổ chức	V	0	root
+trong	E	10	case
+một	M	10	nummod
+ngày	N	7	obl:tmod
+ở	E	12	case
+buôn	N	10	nmod
+Ea Kruế	Np	12	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 745
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thời gian này, anh C. đã tiếp xúc nhiều người đến cúng viếng, đưa tiễn mẹ.
+Thời gian	N	7	obl:tmod
+này	P	1	det:pmod
+,	CH	7	punct
+anh	Nc	5	det:clf
+C.	Np	7	nsubj
+đã	R	7	advmod
+tiếp xúc	V	0	root
+nhiều	A	9	advmod:adj
+người	Nc	7	obj
+đến	V	9	acl:subj
+cúng	V	10	obj
+viếng	N	11	compound
+,	CH	14	punct
+đưa	V	7	conj
+tiễn	V	14	obj
+mẹ	N	14	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 746
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lo xong việc hậu sự, anh C. tới Trạm y tế xã Ea Bông khai báo.
+Lo	V	8	advcl
+xong	V	1	advmod
+việc	N	1	obj
+hậu sự	V	3	nmod
+,	CH	7	punct
+anh	Nc	7	det:clf
+C.	Np	0	root
+tới	E	9	case
+Trạm	N	7	obl
+y tế	N	9	compound
+xã	N	9	nmod
+Ea Bông	Np	11	compound
+khai báo	V	11	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 747
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 16/8, anh C. thấy người mệt mỏi và ra Trạm y tế xã Ea Bông làm xét nghiệm test nhanh kháng nguyên SARS-CoV-2, kết quả dương tính.
+Ngày	N	6	obl:tmod
+16/8	M	1	compound
+,	CH	6	punct
+anh	Nc	5	det:clf
+C.	Np	6	nsubj
+thấy	V	0	root
+người	N	6	obj
+mệt mỏi	A	7	amod
+và	C	10	cc
+ra	V	6	conj
+Trạm	N	10	obj
+y tế	N	11	compound
+xã	N	11	nmod
+Ea Bông	Np	13	compound
+làm	V	6	ccomp
+xét nghiệm	V	15	obj
+test	V	16	nmod
+nhanh	A	17	amod
+kháng nguyên	N	17	nmod
+SARS-CoV-2	Np	19	compound
+,	CH	22	punct
+kết quả	N	16	conj
+dương tính	A	22	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 748
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Xét nghiệm tại Viện vệ sinh dịch tễ Tây Nguyên cũng cho kết quả tương tự.
+Xét nghiệm	V	8	nsubj
+tại	E	3	case
+Viện	Np	1	obl
+vệ sinh	V	3	compound
+dịch tễ	N	4	compound
+Tây Nguyên	Np	3	nmod
+cũng	R	8	advmod
+cho	V	0	root
+kết quả	N	8	obj
+tương tự	A	9	amod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 749
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cơ quan chức năng đã đưa anh C. đi điều trị, ngành y tế đã truy vết và xác định có 87 trường hợp F1.
+Cơ quan chức năng	N	3	nsubj
+đã	R	3	advmod
+đưa	V	0	root
+anh	Nc	5	det:clf
+C.	Np	3	obj
+đi	V	5	acl:subj
+điều trị	V	6	obj
+,	CH	12	punct
+ngành	N	12	nsubj
+y tế	N	9	compound
+đã	R	12	advmod
+truy	V	3	parataxis
+vết	N	12	obj
+và	C	15	cc
+xác định	V	12	conj
+có	V	15	xcomp
+87	M	18	nummod
+trường hợp	N	16	obj
+F1	Np	18	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/benh-nhan-covid-19-tai-dak-lak-xin-loi-vi-khien-87-nguoi-lien-luy-sau-dam-tang-me-767412.html
+# date = 20210819
+# sent_id = 750
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngay sau khi ghi nhận ca bệnh, Ban chỉ đạo phòng chống dịch bệnh Covid-19 huyện Krông Ana đã phong tỏa, cách ly y tế khu vực buôn Ea Kruế có 297 hộ với 1.286 nhân khẩu từ 0h ngày 18/8.
+Ngay	T	2	discourse
+sau	N	23	obl:tmod
+khi	N	2	compound
+ghi nhận	V	2	acl:tmod
+ca	N	4	obj
+bệnh	N	5	nmod
+,	CH	2	punct
+Ban	N	16	nsubj
+chỉ đạo	V	8	nmod
+phòng chống	V	9	obj
+dịch bệnh	N	10	obj
+Covid-19	Np	13	punct
+huyện	N	10	nmod
+Krông Ana	Np	13	compound
+đã	R	16	advmod
+phong tỏa	V	0	root
+,	CH	18	punct
+cách ly	V	16	conj
+y tế	N	18	obj
+khu vực	N	18	nmod
+buôn	V	20	nmod
+Ea Kruế	Np	21	compound
+có	V	18	acl:subj
+297	M	25	nummod
+hộ	N	23	obj
+với	E	27	case
+1.286	N	25	nmod
+nhân khẩu	N	27	compound
+từ	E	30	case
+0	M	31	nummod
+h	N	27	nmod
+ngày	N	31	nmod
+18/8	M	32	compound
+.	CH	23	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 751
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hôm nay 19/8, AstraZeneca đã chuyển thêm 1.209.400 liều vắc xin Covid-19 cho Việt Nam.
+Hôm nay	N	6	obl:tmod
+19/8	N	1	flat:time
+,	CH	1	punct
+AstraZeneca	Np	6	nsubj
+đã	R	6	advmod
+chuyển	V	0	root
+thêm	V	6	compound:svc
+1.209.400	N	10	nummod
+liều	V	10	det:clf
+vắc xin	N	6	obj
+Covid-19	Np	10	amod
+cho	E	13	case
+Việt Nam	Np	6	obl:comp
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 752
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy tới nay, Việt Nam đã nhận tổng cộng 14,3 triệu liều vắc xin phòng Covid-19 của AstraZeneca từ nhiều nguồn.
+Như vậy	X	7	cc
+tới	E	7	obl:tmod
+nay	P	2	obj
+,	CH	7	punct
+Việt Nam	Np	7	nsubj
+đã	R	7	advmod
+nhận	V	0	root
+tổng cộng	V	7	obj
+14,3	M	11	det
+triệu	M	11	nummod
+liều	N	8	obj
+vắc xin	V	11	nmod
+phòng	N	12	nmod
+Covid-19	Np	13	compound
+của	E	16	case
+AstraZeneca	Np	12	nmod:poss
+từ	E	19	case
+nhiều	A	19	advmod:adj
+nguồn	N	7	obl
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 753
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây là lần giao vắc xin thứ 9 thuộc hợp đồng đặt mua trước giữa AstraZeneca Việt Nam và Công ty Cổ phần Vacxin Việt Nam VNVC, dưới sự hỗ trợ của Bộ Y tế.
+Đây	P	3	nsubj
+là	V	3	cop
+lần	N	0	root
+giao	V	3	acl:subj
+vắc xin	N	4	obj
+thứ	N	4	nmod
+9	M	6	nummod
+thuộc	V	3	acl:subj
+hợp đồng	N	8	obj
+đặt	V	9	acl:subj
+mua	V	10	xcomp
+trước	E	14	case
+giữa	N	14	case
+AstraZeneca	Np	10	obl
+Việt Nam	Np	14	compound
+và	C	17	cc
+Công ty	N	14	conj
+Cổ phần	N	17	nmod
+Vacxin	Np	20	punct
+Việt Nam	Np	17	compound
+VNVC	Np	20	compound
+,	CH	24	punct
+dưới	E	24	case
+sự	N	14	conj
+hỗ trợ	V	24	compound:vmod
+của	E	27	case
+Bộ	N	24	nmod:poss
+Y tế	N	27	compound
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 754
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy tới nay, thỏa thuận này mang về cho Việt Nam hơn 6,7 triệu liều vắc xin Covid-19 của AstraZeneca.
+Như vậy	X	7	cc
+tới	E	7	advcl
+nay	P	2	obj
+,	CH	7	punct
+thỏa thuận	N	7	nsubj
+này	P	5	det:pmod
+mang	V	0	root
+về	R	7	compound:dir
+cho	E	10	case
+Việt Nam	Np	7	obl:comp
+hơn	A	14	advmod:adj
+6,7	M	14	nummod
+triệu	M	12	flat:number
+liều	N	7	obj
+vắc xin	N	14	nmod
+Covid-19	Np	15	compound
+của	E	18	case
+AstraZeneca	Np	15	nmod:poss
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 755
+# type = silver
+# authors = underthesea.v1.3.2, anhv.ict91
+# text = Tính cả số vắc xin qua hợp đồng với VNVC, Cơ chế COVAX và viện trợ giữa các Chính phủ, Việt Nam đã nhận tổng cộng 14,3 triệu liều vắc xin AstraZeneca, chiếm 62% nguồn cung vắc xin Covid-19 trên cả nước hiện nay.
+Tính	V	20	advcl
+cả	P	3	det
+số	N	1	obj
+vắc xin	N	3	nmod
+qua	V	3	acl:subj
+hợp đồng	N	5	obj
+với	E	8	case
+VNVC	Np	6	nmod
+,	CH	10	punct
+Cơ chế	N	8	conj
+COVAX	Np	10	nmod
+và	C	13	cc
+viện trợ	V	6	conj
+giữa	E	16	case
+các	L	16	det
+Chính phủ	N	13	nmod
+,	CH	20	punct
+Việt Nam	Np	20	nsubj
+đã	R	20	advmod
+nhận	V	0	root
+tổng cộng	V	20	obj
+14,3	M	24	nummod
+triệu	M	24	nummod
+liều	N	21	obj
+vắc xin	N	24	nmod
+AstraZeneca	Np	25	compound
+,	CH	28	punct
+chiếm	V	20	conj
+62	N	31	nummod
+%	V	29	flat:number
+nguồn cung	N	28	obj
+vắc xin	N	31	compound
+Covid-19	Np	32	compound
+trên	E	36	case
+cả	P	36	det
+nước	N	28	obl
+hiện nay	N	36	compound
+.	CH	20	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 756
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiều 19/8, Thủ tướng Chính phủ Phạm Minh Chính có cuộc điện đàm trao đổi với Giám đốc Điều hành tập đoàn AstraZeneca.
+Chiều	N	7	obl:tmod
+19/8	M	1	nmod
+,	CH	7	punct
+Thủ tướng	N	7	nsubj
+Chính phủ	N	4	nmod
+Phạm Minh Chính	Np	4	nmod
+có	V	0	root
+cuộc	N	7	obj
+điện đàm	V	8	nmod
+trao đổi	V	9	acl:subj
+với	E	12	case
+Giám đốc	N	10	obl:comp
+Điều hành	V	12	compound
+tập đoàn	N	12	nmod
+AstraZeneca	Np	14	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 757
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đại diện tập đoàn cho hay sẽ tiếp tục hợp tác với Bộ Y tế, WHO, UNICEF, VNVC để đưa vắc xin về Việt Nam nhanh chóng, an toàn nhất có thể, giúp người dân sớm đoàn tụ với gia đình và trở lại cuộc sống bình thường.
+Đại diện	N	6	nsubj
+tập đoàn	N	1	nmod
+cho	V	1	acl:subj
+hay	V	6	advmod
+sẽ	R	6	advmod
+tiếp tục	V	0	root
+hợp tác	V	6	xcomp
+với	E	9	case
+Bộ	N	7	obl:with
+Y tế	N	9	compound
+,	CH	12	punct
+WHO	Np	10	conj
+,	CH	14	punct
+UNICEF	Np	10	conj
+,	CH	16	punct
+VNVC	Np	10	conj
+để	E	18	mark:pcomp
+đưa	V	7	advcl:objective
+vắc xin	N	18	obj
+về	E	21	case
+Việt Nam	Np	18	obl:comp
+nhanh chóng	A	21	amod
+,	CH	24	punct
+an toàn	A	10	conj
+nhất	R	24	advmod
+có thể	A	18	acomp
+,	CH	28	punct
+giúp	V	6	conj
+người	Nc	28	obj
+dân	N	29	nmod
+sớm	A	32	advmod:adj
+đoàn tụ	V	30	acl:subj
+với	E	34	case
+gia đình	N	32	obl:with
+và	C	36	cc
+trở lại	V	32	conj
+cuộc sống	N	36	obj
+bình thường	A	37	amod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 758
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bên cạnh những nội dung xoay quanh việc tiếp cận vắc xin, hai bên cũng thảo luận về tiến độ chương trình phát triển bền vững và sức khỏe cộng đồng của AstraZeneca tại Việt Nam nhằm giảm thiểu các bệnh truyền nhiễm và bệnh không lây nhiễm, đóng góp toàn diện cho đất nước.
+Bên cạnh	V	4	nsubj
+những	L	3	det
+nội dung	N	13	nsubj
+xoay	V	3	acl:subj
+quanh	N	4	obj
+việc	N	5	nmod
+tiếp cận	V	6	acl:subj
+vắc xin	N	7	obj
+,	CH	13	punct
+hai	M	11	nummod
+bên	N	13	nsubj
+cũng	R	13	advmod
+thảo luận	V	0	root
+về	E	15	case
+tiến độ	N	13	obl:comp
+chương trình	N	13	obj
+phát triển	V	16	acl:subj
+bền vững	A	17	compound
+và	C	20	cc
+sức khỏe	V	16	conj
+cộng đồng	N	20	compound
+của	E	23	case
+AstraZeneca	Np	20	nmod:poss
+tại	E	25	case
+Việt Nam	Np	23	nmod
+nhằm	V	25	compound
+giảm thiểu	V	13	advcl:objective
+các	L	29	det
+bệnh	N	27	obj
+truyền nhiễm	V	29	compound
+và	C	32	cc
+bệnh	N	30	conj
+không	R	34	advmod:neg
+lây nhiễm	V	29	nmod
+,	CH	36	punct
+đóng góp	V	34	conj
+toàn diện	A	36	obj
+cho	E	39	case
+đất nước	N	36	obl:comp
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 759
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cho đến nay, AstraZeneca đã cung ứng hơn 1 tỷ liều vắc xin Covid-19 đến hơn 170 quốc gia trên tinh thần phi lợi nhuận.
+Cho đến	N	6	obl:tmod
+nay	P	6	obl:tmod
+,	CH	6	punct
+AstraZeneca	Np	6	nsubj
+đã	R	6	advmod
+cung ứng	V	0	root
+hơn	A	9	advmod:adj
+1	M	9	flat:number
+tỷ	M	11	nummod
+liều	N	6	obj
+vắc xin	N	6	obj
+Covid-19	Np	11	compound
+đến	E	11	acl:subj
+hơn	A	15	advmod:adj
+170	N	16	nummod
+quốc gia	N	13	obl:comp
+trên	E	18	case
+tinh thần	N	16	nmod
+phi	Z	18	compound
+lợi nhuận	N	18	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/them-hon-1-2-trieu-lieu-vac-xin-covid-19-astrazeneca-ve-viet-nam-767429.html
+# date = 20210819
+# sent_id = 760
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo các báo cáo, vắc xin của AstraZeneca có hiệu quả 80-90% trong việc giảm tỷ lệ bệnh nặng và các trường hợp nhập viện do mắc Covid-19.
+Theo	V	8	advcl
+các	L	3	det
+báo cáo	N	1	obj
+,	CH	8	punct
+vắc xin	N	8	nsubj
+của	E	7	case
+AstraZeneca	Np	5	nmod:poss
+có	V	0	root
+hiệu quả	N	8	obj
+80-90	N	9	nmod
+%	V	10	nummod
+trong	E	13	case
+việc	N	8	obl
+giảm	V	13	acl:subj
+tỷ lệ	N	14	obj
+bệnh	N	14	obj
+nặng	A	16	amod
+và	C	20	cc
+các	L	20	det
+trường hợp	N	16	conj
+nhập viện	N	20	nmod
+do	E	23	case
+mắc	V	14	conj
+Covid-19	Np	23	obj
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 761
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khoảng 20 triệu liều vắc xin Covid-19 về Việt Nam trong tháng 8 và 9
+Khoảng	N	4	advmod
+20	M	4	nummod
+triệu	M	2	flat:number
+liều	N	7	nsubj
+vắc xin	N	4	nmod
+Covid-19	Np	7	advmod
+về	E	0	root
+Việt Nam	Np	7	obj
+trong	E	10	case
+tháng	N	7	obl:tmod
+8	M	10	flat:date
+và	C	13	punct
+9	M	10	flat:date
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 762
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thứ trưởng Bộ Y tế Trần Văn Thuấn cho biết, trong tháng 8-9, mỗi tháng có thể về khoảng 10-12 triệu liều vắc xin Covid-19 về Việt Nam.
+Thứ trưởng	N	5	nsubj
+Bộ	N	1	nmod
+Y tế	N	2	compound
+Trần Văn Thuấn	Np	5	advmod
+cho	V	0	root
+biết	V	5	compound:svc
+,	CH	15	punct
+trong	E	9	case
+tháng	N	15	obl:tmod
+8-9	M	9	compound
+,	CH	15	punct
+mỗi	L	13	nummod
+tháng	N	15	obl:tmod
+có thể	R	15	advmod
+về	V	5	conj
+khoảng	N	15	obj
+10-12	M	19	nummod
+triệu	M	17	flat:number
+liều	N	15	obj
+vắc xin	N	15	obj
+Covid-19	Np	20	nmod
+về	E	23	case
+Việt Nam	Np	21	obl:comp
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 763
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiều ngày 19/8, Thứ trưởng Bộ Y tế Trần Văn Thuấn đã tới kiểm tra công tác thử nghiệm lâm sàng (TNLS) giai đoạn 2 vắc xin Covivac tại Trung tâm y tế huyện Vũ Thư, tỉnh Thái Bình.
+Chiều	N	2	nummod
+ngày	N	10	obl:tmod
+19/8	M	2	compound
+,	CH	10	punct
+Thứ trưởng	N	10	nsubj
+Bộ	N	5	nmod
+Y tế	N	6	compound
+Trần Văn Thuấn	Np	5	appos
+đã	R	10	advmod
+tới	V	0	root
+kiểm tra	V	10	obj
+công tác	N	11	nmod
+thử nghiệm	V	12	compound
+lâm sàng	N	13	compound
+(	CH	16	punct
+TNLS	Np	14	appos:nmod
+)	CH	16	punct
+giai đoạn	N	12	nmod
+2	M	18	nummod
+vắc xin	N	12	compound
+Covivac	Np	20	compound
+tại	E	23	case
+Trung tâm	N	20	nmod
+y tế	N	23	compound
+huyện	N	23	list
+Vũ Thư	Np	25	compound
+,	CH	28	punct
+tỉnh	N	23	list
+Thái Bình	Np	28	compound
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 764
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Thứ trưởng, trong tháng 8-9, mỗi tháng có thể về khoảng 10-12 triệu liều vắc xin hoặc hơn.
+Theo	V	11	advcl
+Thứ trưởng	N	11	obl
+,	CH	1	punct
+trong	E	5	case
+tháng	N	11	obl:tmod
+8-9	M	5	compound
+,	CH	11	punct
+mỗi	L	9	nummod
+tháng	N	11	obl:tmod
+có thể	R	11	advmod
+về	V	0	root
+khoảng	N	11	obj
+10-12	M	15	nummod
+triệu	M	13	flat:number
+liều	N	11	obj
+vắc xin	V	15	amod
+hoặc	C	18	cc
+hơn	A	16	advmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 765
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sang quý 4, lượng vắc xin sẽ về nhiều hơn, cố gắng bao phủ vắc xin 75% dân số vào cuối năm 2021, đầu năm 2022.
+Sang	V	8	obl:tmod
+quý	N	1	nmod
+4	M	2	nummod
+,	CH	8	punct
+lượng	N	8	nsubj
+vắc xin	N	5	nmod
+sẽ	R	8	advmod
+về	V	0	root
+nhiều	A	8	acomp
+hơn	A	8	advmod
+,	CH	12	punct
+cố gắng	V	8	conj
+bao phủ	V	12	obj
+vắc xin	N	13	nmod
+75	N	14	nmod
+%	V	15	nummod
+dân số	N	12	obj
+vào	E	19	case
+cuối	N	17	obl
+năm	N	19	nmod
+2021	M	20	flat:date
+,	CH	23	punct
+đầu	N	19	conj
+năm	N	23	nmod
+2022	M	24	flat:date
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 766
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại buổi làm việc, Thứ trưởng Thuấn đánh giá cao kết quả của giai đoạn 1 của vắc xin Covivac.
+Tại	E	2	case
+buổi	N	7	obl
+làm việc	V	2	compound
+,	CH	7	punct
+Thứ trưởng	N	7	nsubj
+Thuấn	Np	5	nmod
+đánh giá	V	0	root
+cao	A	7	amod
+kết quả	N	8	obl:adj
+của	E	11	case
+giai đoạn	N	7	nmod:poss
+1	M	11	nummod
+của	E	14	case
+vắc xin	N	11	nmod:poss
+Covivac	Np	14	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 767
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Thuấn nhấn mạnh, việc nghiên cứu, phát triển và sản xuất vắc xin trong là một trong những chiến lược quan trọng trong phòng, chống dịch bệnh của Việt Nam.
+Ông	Nc	2	det:clf
+Thuấn	Np	3	nsubj
+nhấn mạnh	V	17	nmod
+,	CH	5	punct
+việc	N	3	conj
+nghiên cứu	V	5	amod
+,	CH	8	punct
+phát triển	V	6	conj
+và	C	10	cc
+sản xuất	V	6	conj
+vắc xin	V	10	nmod
+trong	E	11	compound
+là	V	17	cop
+một	M	17	nummod
+trong	E	16	case
+những	L	14	nmod
+chiến lược	N	0	root
+quan trọng	A	17	amod
+trong	E	20	case
+phòng	N	17	nmod
+,	CH	22	punct
+chống	V	17	conj
+dịch bệnh	N	22	obj
+của	E	25	case
+Việt Nam	Np	23	nmod:poss
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 768
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Việc nghiên cứu và sản xuất thành công vắc xin phòng Covid-19 “made in Vietnam” an toàn, hiệu quả được xác định là một nhiệm vụ khoa học quan trọng giúp Việt Nam sớm tự chủ nguồn vắc xin và được quốc tế công nhận, sử dụng”, ông Thuấn nói.
+“	CH	2	det
+Việc	N	19	nsubj:pass
+nghiên cứu	V	2	acl:subj
+và	C	5	cc
+sản xuất	V	3	conj
+thành công	V	5	nmod
+vắc xin	N	8	case
+phòng	N	5	nmod
+Covid-19	Np	8	compound
+“	CH	8	nmod
+made	N	8	compound
+in	V	8	nmod
+Vietnam	Np	12	compound
+”	CH	13	compound
+an toàn	A	14	compound
+,	CH	19	punct
+hiệu quả	N	19	nsubj:pass
+được	V	19	aux:pass
+xác định	V	0	root
+là	V	22	case
+một	M	22	nummod
+nhiệm vụ	N	19	obl:comp
+khoa học quan trọng	V	22	compound
+giúp	V	22	acl:subj
+Việt Nam	Np	24	obj
+sớm	A	24	acomp
+tự chủ	V	26	obj
+nguồn	N	27	nmod
+vắc xin	N	28	nmod
+và	C	32	cc
+được	V	32	aux:pass
+quốc tế	N	26	conj
+công nhận	V	32	nmod
+,	CH	35	punct
+sử dụng	V	32	conj
+”	CH	35	obj
+,	CH	40	punct
+ông	Nc	39	det:clf
+Thuấn	Np	40	nsubj
+nói	V	19	conj
+.	CH	19	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 769
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự án nghiên cứu thử nghiệm vắc xin Covivac bắt đầu từ tháng 5/2020. Ngày 3/8, Hội đồng đạo đức Quốc gia nhận được báo cáo giữa kỳ giai đoạn 1 của thử nghiệm lâm sàng vắc xin Covivac.
+Dự án	N	6	nsubj
+nghiên cứu	V	1	acl:subj
+thử nghiệm	V	2	obj
+vắc xin	N	2	obj
+Covivac	Np	4	compound
+bắt đầu	V	0	root
+từ	E	8	case
+tháng	N	6	obl:tmod
+5/2020	M	8	compound
+.	CH	8	punct
+Ngày	N	8	nmod
+3/8	M	11	flat:date
+,	CH	16	punct
+Hội đồng đạo đức	N	16	nsubj
+Quốc gia	N	14	compound
+nhận	V	6	conj
+được	R	16	advmod
+báo cáo	V	16	obj
+giữa	E	20	case
+kỳ	N	18	obl
+giai đoạn	N	20	compound
+1	M	21	nummod
+của	E	24	case
+thử nghiệm	V	20	nmod:poss
+lâm sàng	N	24	compound
+vắc xin	N	25	compound
+Covivac	Np	26	compound
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 770
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kết quả cho thấy vắc xin này an toàn và có tính sinh miễn dịch, đủ điều kiện để chuyển sang giai đoạn 2.
+Kết quả	N	2	nsubj
+cho	V	0	root
+thấy	V	2	compound:svc
+vắc xin	N	6	nsubj
+này	P	4	det:pmod
+an toàn	A	2	ccomp
+và	C	8	cc
+có	V	6	conj
+tính	N	8	obj
+sinh	V	9	acl:subj
+miễn dịch	N	10	obj
+,	CH	13	punct
+đủ	A	6	conj
+điều kiện	N	13	obj
+để	E	16	mark:pcomp
+chuyển	V	13	advcl:objective
+sang	V	16	compound:dir
+giai đoạn	N	16	obj
+2	M	18	nummod
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 771
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 7/8, Hội đồng đạo đức Quốc gia đã họp thông qua đề cương nghiên cứu giai đoạn 2 vắc xin Covivac.
+Ngày	N	7	obl:tmod
+7/8	M	1	flat:date
+,	CH	1	punct
+Hội đồng đạo đức	N	7	nsubj
+Quốc gia	N	4	nmod
+đã	R	7	advmod
+họp	V	0	root
+thông qua	V	7	xcomp
+đề cương	N	8	obj
+nghiên cứu	V	9	acl:subj
+giai đoạn	N	10	obj
+2	M	11	nummod
+vắc xin	N	10	nmod
+Covivac	Np	13	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 772
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mục tiêu của giai đoạn 2 là đánh giá công thức và liều lượng vắc xin Covivac nào là tối ưu cho giai đoạn nghiên cứu TNLS tiếp theo.
+Mục tiêu	N	6	nsubj
+của	E	3	case
+giai đoạn	N	1	nmod:poss
+2	M	3	nummod
+là	C	6	cop
+đánh giá	V	0	root
+công thức	N	6	nmod
+và	C	9	cc
+liều lượng	V	6	conj
+vắc xin	N	9	compound
+Covivac	Np	9	nmod
+nào	P	9	det:pmod
+là	V	14	cop
+tối ưu	N	6	conj
+cho	E	16	case
+giai đoạn	N	14	obl:iobj
+nghiên cứu	V	16	compound
+TNLS	Np	17	obj
+tiếp theo	V	16	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 773
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tính an toàn và đáp ứng miễn dịch cũng sẽ tiếp tục được đánh giá. Dự kiến tháng 11 sẽ có kết quả giữa kỳ của giai đoạn 2 thử nghiệm lâm sàng.
+Tính	V	8	nsubj
+an toàn	A	1	amod
+và	C	4	cc
+đáp ứng	V	1	conj
+miễn dịch	N	4	compound
+cũng	R	8	advmod
+sẽ	R	8	advmod
+tiếp tục	V	0	root
+được	V	8	advmod
+đánh giá	V	8	obj
+.	CH	8	punct
+Dự kiến	V	16	nsubj
+tháng	N	12	nmod
+11	M	13	nummod
+sẽ	R	16	advmod
+có	V	8	conj
+kết quả	N	16	obj
+giữa	E	19	case
+kỳ	N	17	nmod
+của	E	21	case
+giai đoạn	N	19	nmod:poss
+2	M	21	compound
+thử nghiệm	V	19	nmod
+lâm sàng	N	23	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 774
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cơ quan chức năng sẽ tiếp tục đánh giá ngay, nếu kết quả tốt, chọn được liều phù hợp và khẳng định được tính sinh miễn dịch bước đầu sẽ cho triển khai ngay pha 3.
+Cơ quan chức năng	N	3	nsubj
+sẽ	R	3	advmod
+tiếp tục	V	0	root
+đánh giá	V	3	obj
+ngay	R	4	advmod
+,	CH	3	punct
+nếu	C	9	mark
+kết quả	N	3	obl
+tốt	A	8	amod
+,	CH	11	punct
+chọn	V	3	conj
+được	R	11	advmod
+liều	V	11	obj
+phù hợp	V	13	nmod
+và	C	16	cc
+khẳng định	V	3	conj
+được	R	16	advmod
+tính	V	16	obj
+sinh	V	18	nmod
+miễn dịch	V	19	nmod
+bước đầu	N	20	compound
+sẽ	R	23	advmod
+cho	V	3	parataxis
+triển khai	V	23	xcomp
+ngay	T	26	discourse
+pha	V	23	obl:tmod
+3	M	26	nummod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 775
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu đánh giá tốt, tháng 12 sẽ có kết quả ban đầu của giai đoạn 3.
+Nếu	C	2	mark
+đánh giá	V	8	advcl
+tốt	A	2	amod
+,	CH	8	punct
+tháng	N	8	nsubj
+12	M	5	nummod
+sẽ	R	8	advmod
+có	V	0	root
+kết quả	N	8	obj
+ban đầu	N	9	nmod
+của	E	12	case
+giai đoạn	N	9	nmod:poss
+3	M	12	nummod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 776
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Vắc xin chứng minh được độ an toàn, tính sinh miễn dịch cao, bước đầu thể hiện rõ hiệu quả thì có thể đề xuất Hội đồng đạo đức, Hội đồng cấp phép để xem xét, cấp phép trong điều kiện khẩn cấp." – Thứ trưởng cho hay.
+"	CH	3	punct
+Vắc xin	N	3	nsubj
+chứng minh	V	0	root
+được	V	3	advmod
+độ	N	3	obj
+an toàn	A	5	compound
+,	CH	8	punct
+tính	V	5	conj
+sinh	V	8	nmod
+miễn dịch	N	9	compound
+cao	A	10	amod
+,	CH	14	punct
+bước đầu	N	14	nsubj
+thể hiện	V	19	advcl
+rõ	A	14	acomp
+hiệu quả	N	15	obl:adj
+thì	C	19	mark
+có thể	R	19	advmod
+đề xuất	V	3	conj
+Hội đồng đạo đức	N	19	obj
+,	CH	22	punct
+Hội đồng cấp	V	19	conj
+phép	N	22	nmod
+để	E	25	mark:pcomp
+xem xét	V	19	advcl:objective
+,	CH	27	punct
+cấp	V	25	conj
+phép	N	27	obj
+trong	E	30	case
+điều kiện	N	27	obl
+khẩn cấp	A	30	nmod
+.	CH	19	punct
+"	CH	3	punct
+–	CH	36	punct
+Thứ trưởng	N	36	nsubj
+cho	V	3	parataxis
+hay	V	36	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 777
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = GS.TS. Đặng Đức Anh, Viện trưởng Viện Vệ sinh Dịch tễ Trung ương cũng cho biết: "Kết quả của nghiên cứu giai đoạn 1 cho thấy tất cả các mức liều trong giai đoạn 1 đều an toàn và chúng tôi đã lựa chọn 2 mức liều để chuyển sang giai đoạn 2".
+GS.TS.	Np	10	nsubj
+Đặng Đức Anh	Np	10	nsubj
+,	CH	4	punct
+Viện trưởng	N	2	appos
+Viện	Np	4	nmod
+Vệ sinh	V	5	compound
+Dịch tễ	N	6	compound
+Trung ương	N	6	compound
+cũng	R	10	advmod
+cho	V	0	root
+biết	V	10	compound:svc
+:	CH	19	punct
+"	CH	19	punct
+Kết quả	N	19	nsubj
+của	E	16	case
+nghiên cứu	V	14	nmod:poss
+giai đoạn	N	16	nmod
+1	M	17	compound
+cho	V	10	parataxis
+thấy	V	19	compound:svc
+tất cả	P	23	det
+các	L	23	det
+mức	N	19	obj
+liều	N	23	nmod
+trong	E	26	case
+giai đoạn	N	23	nmod
+1	M	26	compound
+đều	R	29	advmod
+an toàn	A	19	ccomp
+và	C	33	cc
+chúng tôi	P	33	nsubj
+đã	R	33	advmod
+lựa chọn	V	19	conj
+2	M	35	nummod
+mức	N	33	obj
+liều	N	35	nmod
+để	E	38	mark:pcomp
+chuyển	V	33	advcl:objective
+sang	V	38	compound:dir
+giai đoạn	N	38	obj
+2	M	40	compound
+"	CH	19	punct
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 778
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giai đoạn 2 rất quan trọng để lựa chọn mức liều thích hợp nhất, có đủ đáp ứng miễn dịch mạnh mẽ và an toàn, để tiến hành thử nghiệm ở giai đoạn 3.
+Giai đoạn	N	4	nsubj
+2	M	1	compound
+rất	R	4	advmod
+quan trọng	A	0	root
+để	E	4	xcomp
+lựa chọn	V	4	advcl:objective
+mức	N	6	obj
+liều	N	7	nmod
+thích hợp	A	7	nmod
+nhất	A	9	nummod
+,	CH	12	punct
+có	V	4	conj
+đủ	A	14	advmod:adj
+đáp ứng	V	12	obj
+miễn dịch	N	14	nmod
+mạnh mẽ	A	15	compound
+và	C	18	cc
+an toàn	A	15	conj
+,	CH	21	punct
+để	E	21	mark:pcomp
+tiến hành	V	4	advcl:objective
+thử nghiệm	V	21	obj
+ở	E	24	case
+giai đoạn	N	21	obl
+3	M	24	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 779
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một ưu điểm của vắc xin Covivac là được sản xuất bằng công nghệ trứng gà có phôi, đây là công nghệ sản xuất vắc xin cúm truyền thống đang được sử dụng rộng rãi.
+Một	M	2	nummod
+ưu điểm	N	8	nsubj:pass
+của	E	4	case
+vắc xin	N	2	nmod:poss
+Covivac	Np	2	nmod:poss
+là	V	8	cop
+được	V	8	aux:pass
+sản xuất	V	0	root
+bằng	E	10	case
+công nghệ	N	8	obl
+trứng gà	N	10	compound
+có	V	10	acl:subj
+phôi	N	12	obj
+,	CH	17	punct
+đây	P	17	nsubj
+là	V	17	cop
+công nghệ	N	24	csubj
+sản xuất	V	17	nmod
+vắc xin	N	20	nummod
+cúm	N	17	nmod
+truyền thống	A	20	compound
+đang	R	24	advmod
+được	V	24	aux:pass
+sử dụng	V	8	conj
+rộng rãi	A	24	obj
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/khoang-20-trieu-lieu-vac-xin-covid-19-ve-viet-nam-trong-thang-8-va-9-767418.html
+# date = 20210819
+# sent_id = 780
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Điều này có nghĩa là Việt Nam đã có đủ năng lực sản xuất vắc xin ở quy mô lớn với giá cả hợp lý để phòng chống đại dịch.
+Điều	N	3	nsubj
+này	P	1	det:pmod
+có	V	0	root
+nghĩa	N	3	obj
+là	C	6	cop
+Việt Nam	Np	3	ccomp
+đã	R	8	advmod
+có	V	6	acl:subj
+đủ	A	10	advmod:adj
+năng lực	N	8	obj
+sản xuất	V	10	acl:subj
+vắc xin	N	11	obj
+ở	E	14	case
+quy mô	N	10	obl
+lớn	A	14	amod
+với	E	17	case
+giá cả	N	10	obl
+hợp lý	A	17	amod
+để	E	20	mark:pcomp
+phòng chống	V	8	advcl:objective
+đại dịch	N	20	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 781
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bệnh viện quận Bình Tân xin lỗi vì thu 36 triệu đồng viện phí của F0
+Bệnh viện	N	4	nsubj
+quận	N	1	nmod
+Bình Tân	Np	4	advmod
+xin lỗi	V	0	root
+vì	E	9	case
+thu	V	9	nsubj
+36	M	9	nummod
+triệu	M	7	flat:number
+đồng	Nu	4	obl
+viện phí	N	9	nmod
+của	E	9	case
+F0	Np	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 782
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giám đốc Bệnh viện quận Bình Tân cho biết, thu viện phí của người đến điều trị do mắc Covid-19 là sai.
+Giám đốc	N	5	nsubj
+Bệnh viện	N	1	compound
+quận	N	2	compound
+Bình Tân	Np	5	advmod
+cho	V	0	root
+biết	V	5	compound:svc
+,	CH	18	punct
+thu	V	12	nsubj
+viện phí	N	8	nmod
+của	E	11	case
+người	N	9	nmod:poss
+đến	V	5	ccomp
+điều trị	V	12	obj
+do	E	15	mark
+mắc	V	18	nsubj
+Covid-19	Np	15	compound
+là	V	18	cop
+sai	A	5	ccomp
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 783
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo quy định, bệnh nhân Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+Theo	V	8	advcl
+quy định	N	1	obj
+,	CH	8	punct
+bệnh nhân	N	8	nsubj:pass
+Covid-19	Np	4	nmod
+sẽ	R	8	advmod
+được	V	8	aux:pass
+điều trị	V	0	root
+hoàn toàn	A	10	advmod
+miễn phí	V	8	punct
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 784
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị N.T.N, cư trú tại quận 12, cho biết, ngày 3/8, mẹ chị mắc Covid-19, được đưa đến Bệnh viện Đa khoa Bình Tân (TP.HCM) điều trị.
+Chị	Nc	2	det:clf
+N.T.N	Np	9	nsubj
+,	CH	4	punct
+cư trú	V	2	appos
+tại	E	6	case
+quận	N	4	obl
+12	M	6	compound
+,	CH	9	punct
+cho	V	0	root
+biết	V	9	obj
+,	CH	17	punct
+ngày	N	17	obl:tmod
+3/8	M	12	flat:date
+,	CH	15	punct
+mẹ	N	17	nsubj
+chị	Nc	15	nmod
+mắc	V	9	conj
+Covid-19	Np	17	obj
+,	CH	21	punct
+được	V	21	aux:pass
+đưa	V	9	conj
+đến	E	23	case
+Bệnh viện	N	21	obl:comp
+Đa khoa	N	23	compound
+Bình Tân	Np	24	compound
+(	CH	27	punct
+TP.HCM	Np	23	appos:nmod
+)	CH	27	punct
+điều trị	V	27	punct
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 785
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại đây, mẹ chị nằm trong Khoa Nội của bệnh viện.
+Tại	E	2	case
+đây	P	6	obl
+,	CH	6	punct
+mẹ	N	6	nsubj
+chị	Nc	4	nmod
+nằm	V	0	root
+trong	E	8	case
+Khoa Nội	Np	6	obl:comp
+của	E	10	case
+bệnh viện	N	8	nmod:poss
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 786
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bệnh viện yêu cầu nộp tạm ứng viện phí nhiều lần.
+Bệnh viện	N	2	nsubj
+yêu cầu	V	0	root
+nộp	V	2	xcomp
+tạm ứng	V	3	obj
+viện phí	V	4	nmod
+nhiều	A	7	advmod:adj
+lần	N	3	obl
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 787
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tổng số tiền hơn 8 triệu đồng gồm phí xét nghiệm, phẫu thuật, thuốc dịch truyền, vật tư y tế, điện tim… và tiền giường nằm (226.500 đồng/ngày).
+Tổng số	N	7	nsubj
+tiền	N	1	nmod
+hơn	A	4	advmod:adj
+8	M	6	nummod
+triệu	M	4	flat:number
+đồng	Nu	7	obj
+gồm	V	0	root
+phí	N	7	obj
+xét nghiệm	V	8	compound
+,	CH	11	punct
+phẫu thuật	V	8	conj
+,	CH	13	punct
+thuốc	N	8	conj
+dịch	V	15	punct
+truyền	V	8	conj
+,	CH	17	punct
+vật tư	N	8	conj
+y tế	N	17	compound
+,	CH	20	punct
+điện	N	8	conj
+tim	N	20	nmod
+…	CH	21	compound
+và	C	24	cc
+tiền	N	8	conj
+giường	N	24	nmod
+nằm	V	25	nmod
+(	CH	29	punct
+226.500	M	29	nummod
+đồng	Nu	26	appos
+/	CH	31	punct
+ngày	N	29	nmod
+)	CH	29	punct
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 788
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi bệnh trở nặng, mẹ chị N. được chuyển vào phòng Hồi sức, tiền giường 427.000 đồng/ngày.
+Sau	N	11	obl:tmod
+khi	N	11	obl:tmod
+bệnh	N	4	nsubj
+trở	V	2	acl:tmod
+nặng	A	4	obj
+,	CH	11	punct
+mẹ	N	11	nsubj
+chị	Nc	9	det:clf
+N.	Np	7	nmod
+được	V	11	aux:pass
+chuyển	V	0	root
+vào	E	13	case
+phòng	N	11	obl:comp
+Hồi sức	V	13	compound
+,	CH	16	punct
+tiền	N	13	conj
+giường	N	16	nmod
+427.000	M	19	nummod
+đồng	Nu	16	nmod
+/	CH	21	punct
+ngày	N	19	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 789
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 16/8, bệnh viện thông báo mẹ chị N. đã tử vong và yêu cầu gia đình nộp thêm 28 triệu đồng viện phí để nhận giấy báo tử và thi thể an táng.
+Ngày	N	5	obl:tmod
+16/8	M	1	compound
+,	CH	5	punct
+bệnh viện	N	5	nsubj
+thông báo	V	0	root
+mẹ	N	5	obj
+chị	Nc	8	det:clf
+N.	Np	6	nmod
+đã	R	10	advmod
+tử vong	V	5	ccomp
+và	C	12	cc
+yêu cầu	V	10	conj
+gia đình	N	12	obj
+nộp	V	12	xcomp
+thêm	V	14	compound:svc
+28	M	18	nummod
+triệu	M	16	flat:number
+đồng	Nu	14	obj
+viện phí	N	18	nmod
+để	E	21	mark:pcomp
+nhận	V	14	advcl:objective
+giấy	N	21	obj
+báo tử	V	22	nmod
+và	C	25	cc
+thi thể	V	22	conj
+an táng	V	25	compound:vmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 790
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như vậy tổng cộng, chị N. phải đóng cho bệnh viện là 36 triệu đồng.
+Như vậy	X	7	obl
+tổng cộng	V	7	obl
+,	CH	7	punct
+chị	Nc	5	det:clf
+N.	Np	7	nsubj
+phải	V	7	aux
+đóng	V	0	root
+cho	E	9	case
+bệnh viện	N	7	obl:comp
+là	V	13	cop
+36	M	13	nummod
+triệu	M	11	flat:number
+đồng	Nu	7	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 791
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị N. cho biết, chị phải vay người quen 28 triệu đồng mang đến đóng phần còn thiếu cho bệnh viện.
+Chị	Nc	2	det:clf
+N.	Np	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	8	punct
+chị	Nc	8	nsubj
+phải	V	8	aux
+vay	V	3	parataxis
+người	N	8	obj
+quen	V	9	amod
+28	M	13	nummod
+triệu	M	13	nummod
+đồng	Nu	10	obj
+mang	V	8	xcomp
+đến	E	14	compound:dir
+đóng	V	14	xcomp
+phần	N	16	obj
+còn	R	19	advmod
+thiếu	V	16	conj
+cho	E	21	case
+bệnh viện	N	19	obl:comp
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 792
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại cuộc họp cung cấp thông tin về tình hình dịch bệnh Covid-19 trên địa bàn TP chiều 19/8, bác sĩ Võ Tuấn Trường, Giám đốc Bệnh viện Đa khoa quận Bình Tân cho rằng, việc bệnh viện thu phí người bệnh đến điều trị do mắc Covid-19 là sai.
+Tại	E	2	case
+cuộc	N	25	obl
+họp	V	2	compound
+cung cấp	V	2	acl:subj
+thông tin	N	4	obj
+về	E	7	case
+tình hình	N	4	obl:comp
+dịch bệnh	N	7	nmod
+Covid-19	Np	8	compound
+trên	E	11	case
+địa bàn	N	7	nmod
+TP	Ny	11	nmod
+chiều	N	12	compound
+19/8	M	13	compound
+,	CH	16	punct
+bác sĩ	N	11	conj
+Võ Tuấn	Np	16	nmod
+Trường	N	17	compound
+,	CH	20	punct
+Giám đốc	N	11	conj
+Bệnh viện	N	20	nmod
+Đa khoa	N	23	punct
+quận	N	21	compound
+Bình Tân	Np	20	compound
+cho	V	0	root
+rằng	C	25	compound:svc
+,	CH	32	punct
+việc	N	39	nsubj
+bệnh viện	N	28	nmod
+thu	V	29	nmod
+phí	N	30	obj
+người bệnh	N	25	conj
+đến	E	34	case
+điều trị	V	32	obl:comp
+do	E	36	mark
+mắc	V	32	advcl
+Covid-19	Np	36	compound
+là	V	39	cop
+sai	A	25	parataxis
+.	CH	25	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 793
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo quy định, người mắc Covid-19 sẽ được điều trị hoàn toàn miễn phí.
+Theo	V	9	advcl
+quy định	N	1	obj
+,	CH	9	punct
+người	N	9	nsubj:pass
+mắc	V	4	nmod
+Covid-19	Np	5	obj
+sẽ	R	9	advmod
+được	V	9	aux:pass
+điều trị	V	0	root
+hoàn toàn	A	11	advmod
+miễn phí	V	9	punct
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 794
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bác sĩ Trường cho biết, bệnh viện đã liên hệ với người nhà bệnh nhân để xin lỗi, chia sẻ với mất mát của gia đình và trả lại toàn bộ số tiền đã thu.
+Bác sĩ	N	3	nsubj
+Trường	N	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	8	punct
+bệnh viện	N	8	nsubj
+đã	R	8	advmod
+liên hệ	V	3	parataxis
+với	E	10	case
+người nhà	N	8	obl:with
+bệnh nhân	N	10	compound
+để	E	13	mark:pcomp
+xin lỗi	V	8	advcl:objective
+,	CH	15	punct
+chia sẻ	V	13	conj
+với	E	17	case
+mất mát	N	15	obl
+của	E	19	case
+gia đình	N	17	nmod:poss
+và	C	21	cc
+trả	V	8	conj
+lại	V	21	compound:svc
+toàn bộ	L	24	det
+số	N	21	obj
+tiền	N	24	compound
+đã	R	27	advmod
+thu	V	24	acl:subj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/suc-khoe/giam-doc-benh-vien-binh-tan-xin-loi-vi-da-thu-36-trieu-dong-tien-vien-phi-cua-f0-767389.html
+# date = 20210819
+# sent_id = 795
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Gia đình chị N. cũng đã chấp nhận lời xin lỗi và nhận lại tiền”, bác sĩ Trường thông tin.
+“	CH	2	det:clf
+Gia đình	N	7	nsubj
+chị	Nc	4	det:clf
+N.	Np	2	nmod
+cũng	R	7	advmod
+đã	R	7	advmod
+chấp nhận	V	0	root
+lời	V	7	obj
+xin lỗi	V	8	compound:vmod
+và	C	11	cc
+nhận	V	7	conj
+lại	V	11	advmod
+tiền	N	11	obj
+”	CH	13	compound
+,	CH	16	punct
+bác sĩ	N	13	conj
+Trường	N	16	nmod
+thông tin	N	17	compound
+.	CH	7	punct
