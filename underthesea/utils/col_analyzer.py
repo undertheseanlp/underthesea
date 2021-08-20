@@ -73,7 +73,7 @@ class UDAnalyzer:
     def analyze_words(self, sentences):
         tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
-        words = [t[0].lower() for t in tags if t[1] not in["Np", "CH"]]
+        words = [t[0].lower() for t in tags if t[1] not in ["Np", "CH"]]
         noun_phrases = [t[0] for t in tags if t[1] == "Np"]
         counter = Counter(words)
         corpus_words = set(counter.keys())
