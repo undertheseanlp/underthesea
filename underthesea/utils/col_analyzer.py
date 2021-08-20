@@ -53,16 +53,16 @@ class UDAnalyzer:
             doc_sents[doc].append(s)
         return doc_sents
 
-    def get_doc_word_freq(self, dataset):
+    def get_doc_word_counters(self, dataset):
         """Get word count by doc url"""
         data = self._get_doc_sents(dataset)
-        doc_word_counts = {}
+        doc_word_counters = {}
         for doc, sents in data.items():
             tags = [s.rows for s in sents]
             tags = [t for sublist in tags for t in sublist]
             words = [t[0].lower() for t in tags]
-            doc_word_counts[doc] = Counter(words)
-        return doc_word_counts
+            doc_word_counters[doc] = Counter(words)
+        return doc_word_counters
 
     def analyze_words_pos(self, sentences):
         tags = [s.rows for s in sentences]
@@ -73,19 +73,18 @@ class UDAnalyzer:
     def analyze_words(self, sentences):
         tags = [s.rows for s in sentences]
         tags = [t for sublist in tags for t in sublist]
-        words = [t[0].lower() for t in tags]
+        words = [t[0].lower() for t in tags if t[1] not in ["Np", "CH"]]
+        noun_phrases = [t[0] for t in tags if t[1] == "Np"]
         counter = Counter(words)
-        print("Most common words")
-        print(counter.most_common(50))
         corpus_words = set(counter.keys())
-        print("Corpus words: ", len(corpus_words))
         dictionary_words = set(dictionary.words)
         oov = corpus_words - dictionary_words
-        print("OOV words")
-        print("Short OOV words")
-        print(sorted([item for item in oov if len(item.split(" ")) < 3]))
-        print("Long OOV words")
-        print(sorted([item for item in oov if len(item.split(" ")) >= 3]))
+
+        print("Most common words:\n", counter.most_common(50))
+        print("Corpus words: ", len(corpus_words))
+        print("Noun phrases:\n", set(noun_phrases))
+        print("Short OOV words:\n", sorted([item for item in oov if len(item.split(" ")) < 3]))
+        print("Long OOV words:\n", sorted([item for item in oov if len(item.split(" ")) >= 3]))
         return counter
 
     def analyze_all_words(self, dataset):
@@ -131,4 +130,4 @@ class UDAnalyzer:
         self.analyze_sent_ids(dataset)
         self.analyze_words(dataset)
         self.analyze_doc_sent_freq(dataset)
-        self.get_doc_word_freq(dataset)
+        self.get_doc_word_counters(dataset)
