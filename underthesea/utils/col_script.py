@@ -21,8 +21,11 @@ class UDSentence:
         for key in self.key_orders:
             value = self.headers[key]
             content += f"# {key} = {value}\n"
-        content += "\n".join(["\t".join(row) for row in self.rows])
+        content += self.get_ud_str()
         return content
+
+    def get_ud_str(self):
+        return "\n".join(["\t".join(row) for row in self.rows])
 
     @staticmethod
     def _extract_header(content):
