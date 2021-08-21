@@ -97,10 +97,10 @@ if __name__ == "__main__":
     for i, s in enumerate(all_data):
         doc_url = "# doc_url = " + s["doc_url"]
         date = "# date = " + s["date"]
-        sent_id = "# sent_id = " + str(i+1)
+        sent_id = "# sent_id = " + str(i + 1)
         sent = s["sentence"]
         content += "\n".join([doc_url, date, sent_id, sent, "\n"])
 
-    target_file = join(COL_FOLDER, "corpus", "raw", "../../../../../backupABSA/lyrics.txt")
+    target_file = join(COL_FOLDER, "corpus", "raw", "lyrics.txt")
     with open(target_file, "w") as f:
         f.write(content)
