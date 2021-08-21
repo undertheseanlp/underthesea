@@ -24913,3 +24913,2868 @@ bác sĩ	N	13	conj
 Trường	N	16	nmod
 thông tin	N	17	compound
 .	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 796
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ trưởng Quốc phòng Nga lái xe tăng ở thao trường Tank Biathlon
+Bộ trưởng	N	0	root
+Quốc phòng	N	1	nmod
+Nga	Np	1	compound
+lái	V	3	compound
+xe tăng	N	4	obj
+ở	E	7	case
+thao trường	N	1	nmod
+Tank Biathlon	Np	1	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 797
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ trưởng Quốc phòng Nga Sergey Shoygu đã đến thao trường Alabino gần thủ đô Moscow, để kiểm tra công tác chuẩn bị cho cuộc thi Tank Biathlon.
+Bộ trưởng	N	5	nsubj
+Quốc phòng	N	1	compound
+Nga Sergey Shoygu	Np	1	compound
+đã	R	5	advmod
+đến	V	0	root
+thao trường	V	5	obj
+Alabino	Np	5	obj
+gần	A	7	advmod:adj
+thủ đô	N	8	obl:adj
+Moscow	Np	9	compound
+,	CH	12	punct
+để	E	13	mark:pcomp
+kiểm tra	V	5	advcl:objective
+công tác	N	13	obj
+chuẩn bị	V	13	xcomp
+cho	E	17	case
+cuộc	N	15	obl:comp
+thi	V	17	nmod
+Tank Biathlon	Np	18	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 798
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Video được Bộ Quốc phòng Nga đăng tải hôm 19/8 cho thấy, ông Shoygu mặc quân phục của binh chủng tăng-thiết giáp Nga và lái chiếc xe tăng T-80BVM đi khoảng 4km, để kiểm tra chất lượng đường đua thao trường Alabino, nơi sẽ diễn ra cuộc thi Xe tăng hành tiến – Tank Biathlon thuộc khuôn khổ hội thao quân sự Army Games 2021.
+Video	Np	8	nsubj:pass
+được	V	8	aux:pass
+Bộ Quốc phòng	N	8	obl:agent
+Nga	Np	3	nmod
+đăng tải	V	6	nummod
+hôm	N	4	nmod
+19/8	V	6	compound
+cho	V	0	root
+thấy	V	8	compound:svc
+,	CH	13	punct
+ông	Nc	12	det:clf
+Shoygu	Np	13	nsubj
+mặc	V	8	parataxis
+quân phục	N	13	obj
+của	E	16	case
+binh chủng	N	12	nmod:poss
+tăng-thiết	N	16	compound
+giáp	N	17	nmod
+Nga	Np	18	nmod
+và	C	23	cc
+lái	V	23	nummod
+chiếc	Nc	23	det:clf
+xe tăng	N	18	conj
+T-80BVM	Np	23	compound
+đi	V	23	acl:subj
+khoảng	A	25	obj
+4	M	28	nummod
+km	Nu	26	nmod
+,	CH	31	punct
+để	E	31	mark:pcomp
+kiểm tra	V	25	conj
+chất lượng	N	31	obj
+đường	N	32	nmod
+đua	V	33	compound
+thao trường	N	34	compound
+Alabino	Np	35	compound
+,	CH	40	punct
+nơi	N	40	nsubj
+sẽ	R	40	advmod
+diễn	V	8	conj
+ra	V	40	compound:dir
+cuộc	N	40	obj
+thi	V	42	compound
+Xe tăng	V	43	compound
+hành tiến	N	44	compound
+–	CH	45	flat:number
+Tank	Np	45	flat:name
+Biathlon	Np	44	compound
+thuộc	V	42	acl:subj
+khuôn khổ	N	49	obj
+hội thao	V	49	obj
+quân sự	N	51	nmod
+Army Games	Np	52	compound
+2021	V	53	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 799
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Shoygu sau đó đã đánh giá cao sự sẵn sàng về cơ sở vật chất của thao trường Alabino, đồng thời chúc các đội tham gia Tank Biathlon sẽ thi đấu thành công.
+Ông	Nc	2	det:clf
+Shoygu	Np	6	nsubj
+sau	N	6	obl:tmod
+đó	P	3	det:pmod
+đã	R	6	advmod
+đánh giá	V	0	root
+cao	A	8	advmod:adj
+sự	N	6	obj
+sẵn sàng	A	8	acl:tonp
+về	E	11	case
+cơ sở vật chất	N	8	nmod
+của	E	13	case
+thao trường	N	11	nmod:poss
+Alabino	Np	13	compound
+,	CH	17	punct
+đồng thời	R	17	advmod
+chúc	V	6	conj
+các	L	19	det
+đội	N	17	obj
+tham gia	V	19	acl:subj
+Tank Biathlon	Np	20	obj
+sẽ	R	23	advmod
+thi đấu	V	6	conj
+thành công	V	23	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 800
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự kiến, trận đấu đầu tiên tại vòng loại Tank Biathlon của đội tuyển xe tăng Việt Nam sẽ diễn ra lúc 16h ngày 23/8 (giờ Nga), sau lễ khai mạc Army Games 2021.
+Dự kiến	V	15	nsubj
+,	CH	15	punct
+trận	N	15	nsubj
+đấu	V	3	acl:subj
+đầu tiên	A	4	amod
+tại	E	7	case
+vòng	N	4	obl
+loại	N	7	nmod
+Tank Biathlon	Np	8	compound
+của	E	11	case
+đội tuyển	N	8	nmod:poss
+xe tăng	N	11	compound
+Việt Nam	Np	11	compound
+sẽ	R	15	advmod
+diễn	V	0	root
+ra	V	15	compound:dir
+lúc	N	15	obl:tmod
+16	M	17	nmod
+h	N	17	nmod
+ngày	N	19	nmod
+23/8	M	20	compound
+(	CH	23	punct
+giờ	N	20	appos:nmod
+Nga	Np	23	nmod
+)	CH	23	punct
+,	CH	27	punct
+sau	N	17	conj
+lễ	N	27	nmod
+khai mạc	V	28	compound
+Army Games	Np	29	compound
+2021	V	30	compound
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 801
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Biểu tình chống Taliban lan rộng ở Afghanistan
+Biểu tình	V	5	nsubj
+chống	V	1	acl:subj
+Taliban	Np	1	obj
+lan	V	3	nmod
+rộng	A	0	root
+ở	E	5	xcomp
+Afghanistan	Np	5	obl
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 802
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hôm nay (19/8) biểu tình chống Taliban đã diễn ra ở nhiều thành phố của Afghanistan hơn, khi sự phản đối của người dân với lực lượng này lan rộng.
+Hôm nay	N	9	obl:tmod
+(	CH	3	punct
+19/8	N	1	appos:nmod
+)	CH	3	punct
+biểu tình	V	9	nsubj
+chống	V	5	nmod
+Taliban	Np	6	compound
+đã	R	9	advmod
+diễn	V	0	root
+ra	V	9	compound:svc
+ở	E	13	case
+nhiều	A	13	advmod:adj
+thành phố	N	9	obl:comp
+của	E	15	case
+Afghanistan	Np	13	nmod:poss
+hơn	A	15	advmod:adj
+,	CH	18	punct
+khi	N	28	obl:tmod
+sự	N	28	nsubj
+phản đối	V	19	compound:vmod
+của	E	23	case
+người	Nc	23	det:clf
+dân	N	19	nmod:poss
+với	E	25	case
+lực lượng	N	23	obl
+này	P	25	det:pmod
+lan	V	28	nsubj
+rộng	A	9	conj
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 803
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Taliban thâu tóm Afghanistan, Tajikistan - Trung Quốc gấp rút tập trận chung
+Taliban	N	0	root
+thâu tóm	N	1	nmod
+Afghanistan	Np	2	compound
+,	CH	5	punct
+Tajikistan	Np	2	conj
+-	CH	7	punct
+Trung Quốc	Np	5	conj
+gấp rút	V	7	compound
+tập trận	N	8	compound
+chung	A	9	compound
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 804
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo hãng tin Reuters, một video được đăng trên mạng xã hội cho thấy, một đám đông gồm cả nam lẫn nữ vẫy quốc kỳ tại thủ đô Kabul và hô vang khẩu hiệu “Cờ của chúng ta, bản sắc của chúng ta” vào đúng thời điểm Afghanistan mừng Ngày Độc lập.
+Theo	V	13	advcl
+hãng	N	1	obj
+tin	N	2	compound
+Reuters	Np	2	nmod
+,	CH	9	punct
+một	M	7	nummod
+video	FW	13	nsubj
+được	V	9	aux:pass
+đăng	V	7	acl:subj
+trên	E	11	case
+mạng	N	9	obl
+xã hội	N	11	compound
+cho	V	0	root
+thấy	V	13	compound:svc
+,	CH	19	punct
+một	M	7	nummod
+đám	N	16	clf
+đông	A	17	compound
+gồm	V	17	acl:subj
+cả	T	21	det
+nam	N	19	obj
+lẫn	C	23	punct
+nữ	N	21	conj
+vẫy	V	23	acl:subj
+quốc kỳ	V	24	compound
+tại	E	27	case
+thủ đô	N	19	obl
+Kabul	Np	27	compound
+và	C	30	cc
+hô	V	19	conj
+vang	V	30	acl:subj
+khẩu hiệu	N	30	obj
+“	CH	32	compound
+Cờ	N	33	compound
+của	E	36	case
+chúng ta	P	34	nmod:poss
+,	CH	38	punct
+bản sắc	N	32	conj
+của	E	40	case
+chúng ta	P	38	nmod:poss
+”	CH	40	compound
+vào	E	41	compound:dir
+đúng	A	41	acomp
+thời điểm	N	43	obj
+Afghanistan	Np	44	acl:subj
+mừng	V	45	acomp
+Ngày	N	45	obj
+Độc lập	M	47	nmod
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 805
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một nhân chứng cho biết, có tiếng súng vang lên gần khu vực biểu tình nhưng dường như là các tay súng Taliban chỉ bắn chỉ thiên.
+Một	M	2	nummod
+nhân chứng	N	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	6	punct
+có	V	3	conj
+tiếng	N	6	obj
+súng	N	7	nmod
+vang	V	7	acl:subj
+lên	V	9	compound:dir
+gần	A	12	advmod:adj
+khu vực	N	9	obl:comp
+biểu tình	V	12	nmod
+nhưng	C	22	mark
+dường như	X	22	advmod
+là	V	22	cop
+các	L	18	det
+tay	N	22	nsubj
+súng	N	18	nmod
+Taliban	Np	18	nmod
+chỉ	R	22	advmod
+bắn	V	3	conj
+chỉ thiên	N	22	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 806
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một số cuộc biểu tình có quy mô nhỏ nhưng kết hợp với hàng nghìn người đang tìm cách tới sân bay Kabul để rời đất nước, nên nó đã nhấn mạnh thách thức mà Taliban phải đối mặt trong việc cai quản Afghanistan.
+Một số	L	3	det
+cuộc	N	26	nsubj
+biểu tình	V	2	compound
+có	V	2	acl:subj
+quy mô	N	4	obj
+nhỏ	A	5	amod
+nhưng	C	8	cc
+kết hợp	V	4	conj
+với	E	12	case
+hàng	R	12	advmod
+nghìn	M	12	nummod
+người	N	8	obl:with
+đang	R	14	advmod
+tìm	V	12	acl:subj
+cách	N	14	obj
+tới	V	17	case
+sân bay	N	14	obl:comp
+Kabul	Np	17	compound
+để	E	20	mark:pcomp
+rời	V	14	advcl:objective
+đất nước	N	20	obj
+,	CH	26	punct
+nên	C	26	mark
+nó	P	26	nsubj
+đã	R	26	advmod
+nhấn mạnh	V	0	root
+thách thức	V	26	obj
+mà	C	31	mark
+Taliban	Np	31	nsubj
+phải	V	31	aux
+đối mặt	V	26	conj
+trong	E	33	case
+việc	N	31	obl:comp
+cai quản	V	33	nmod
+Afghanistan	Np	33	nmod
+.	CH	26	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 807
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kể từ khi chiếm được Kabul vào cuối tuần trước, Taliban thể hiện bộ mặt ôn hoà hơn với thế giới.
+Kể	V	13	advcl
+từ	E	3	case
+khi	N	13	obl:tmod
+chiếm	V	3	acl:tmod
+được	V	4	advmod
+Kabul	Np	4	obj
+vào	E	8	case
+cuối	N	6	obl:tmod
+tuần	N	8	nmod
+trước	N	9	nmod
+,	CH	13	punct
+Taliban	Np	13	nsubj
+thể hiện	V	0	root
+bộ	Nc	13	obj
+mặt	N	14	compound
+ôn hoà	A	14	acl:subj
+hơn	A	16	advmod:adj
+với	E	19	case
+thế giới	N	16	obl:comp
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 808
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lực lượng này tuyên bố, họ muốn hoà bình và sẽ không trả thù những kẻ thù cũ, tôn trọng quyền của phụ nữ trong khuôn khổ luật Hồi giáo.
+Lực lượng	N	3	nsubj
+này	P	1	det:pmod
+tuyên bố	V	0	root
+,	CH	3	punct
+họ	P	6	nsubj
+muốn	V	3	conj
+hoà bình	V	3	conj
+và	C	11	cc
+sẽ	R	11	advmod
+không	R	11	advmod:neg
+trả thù	V	3	conj
+những	L	13	det
+kẻ thù	N	11	obj
+cũ	A	13	amod
+,	CH	17	punct
+tôn trọng	V	17	advmod
+quyền	N	13	conj
+của	E	19	case
+phụ nữ	N	17	nmod:poss
+trong	E	21	case
+khuôn khổ	N	22	det:clf
+luật	N	17	obl
+Hồi giáo	V	22	compound
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 809
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại Asadabad, thủ phủ tỉnh miền đông Kunar, một số người đã thiệt mạng khi tham gia biểu tình.
+Tại	E	2	case
+Asadabad	Np	13	obl
+,	CH	2	punct
+thủ phủ	N	2	appos:nmod
+tỉnh	N	4	nmod
+miền	N	5	compound
+đông	N	6	compound
+Kunar	Np	6	compound
+,	CH	13	punct
+một số	L	11	det
+người	N	13	nsubj
+đã	R	13	advmod
+thiệt mạng	V	0	root
+khi	N	13	obl:tmod
+tham gia	V	14	acl
+biểu tình	V	15	obj
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 810
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, hiện chưa rõ thương vong này là do lực lượng Taliban nổ súng hay do dẫm đạp gây ra, nhân chứng Mohammed Salim nói.
+Tuy nhiên	C	5	mark
+,	CH	5	punct
+hiện	N	5	nsubj
+chưa	R	5	advmod
+rõ	A	0	root
+thương vong	N	5	obj
+này	P	6	det:pmod
+là	C	10	cop
+do	E	10	case
+lực lượng	N	17	nsubj
+Taliban	Np	10	nmod
+nổ	V	13	case
+súng	N	10	nmod
+hay	C	17	punct
+do	E	17	mark
+dẫm đạp	N	17	nsubj
+gây	V	5	advcl
+ra	V	17	compound:dir
+,	CH	22	punct
+nhân chứng	N	22	nsubj
+Mohammed Salim	Np	20	compound
+nói	V	17	conj
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 811
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Malaysia có tân Thủ tướng
+Malaysia	Np	2	nsubj
+có	V	0	root
+tân	A	2	obj
+Thủ tướng	N	2	obj
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 812
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quốc vương Malaysia Al-Sultan Abdullah chiều nay (20/8) đã công bố quyết định bổ nhiệm ông Ismail Sabri Yaakob trở thành tân Thủ tướng của nước này.
+Quốc vương	N	9	nsubj
+Malaysia Al-Sultan Abdullah	Np	1	nmod
+chiều	N	1	nmod
+nay	P	3	compound
+(	CH	6	punct
+20/8	M	3	appos:nmod
+)	CH	6	punct
+đã	R	9	advmod
+công bố	V	0	root
+quyết định	V	9	obj
+bổ nhiệm	V	10	acl:subj
+ông	Nc	11	obj
+Ismail Sabri Yaakob	Np	10	obj
+trở thành tân	V	13	nmod
+Thủ tướng	N	14	compound
+của	E	17	case
+nước	N	13	nmod:poss
+này	P	17	det:pmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 813
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo CNBC, quyết định trên được đưa ra sau khi quy trình xác nhận Thủ tướng mới của Quốc hội Malaysia được hoàn tất.
+Theo	V	7	advcl
+CNBC	Np	1	obj
+,	CH	7	punct
+quyết định	V	7	nsubj:pass
+trên	E	4	amod
+được	V	7	aux:pass
+đưa	V	0	root
+ra	V	7	compound:dir
+sau	N	10	case
+khi	N	7	obl:tmod
+quy trình	V	12	nsubj
+xác nhận	V	19	nsubj
+Thủ tướng	N	12	obj
+mới	A	13	amod
+của	E	16	case
+Quốc hội	N	12	nmod:poss
+Malaysia	Np	16	compound
+được	R	19	aux:pass
+hoàn tất	V	10	acl:tmod
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 814
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo đó, ông Ismail Sabri Yaakob, Phó Chủ tịch đảng Tổ chức Dân tộc Mã Lai thống nhất (UMNO) nhận được sự ủng hộ của 114 trong tổng số 220 nhà lập pháp, vượt mức ủng hộ tối thiểu theo luật định để trở thành người đầu đứng đầu Chính phủ Malaysia.
+Theo	V	17	advcl
+đó	P	1	obj
+,	CH	17	punct
+ông	Nc	5	det:clf
+Ismail Sabri Yaakob	Np	17	nsubj
+,	CH	8	punct
+Phó	Z	8	det:clf
+Chủ tịch	N	5	appos
+đảng	N	8	nmod
+Tổ chức	N	8	nmod
+Dân tộc	N	10	compound
+Mã Lai	Np	13	punct
+thống nhất	V	10	compound
+(	CH	15	punct
+UMNO	Np	13	appos:nmod
+)	CH	15	punct
+nhận	V	0	root
+được	R	17	advmod
+sự	N	17	obj
+ủng hộ	V	19	acl:tonp
+của	E	22	case
+114	N	19	nmod:poss
+trong	E	24	case
+tổng số	N	19	nmod
+220	V	24	nmod
+nhà	N	24	nmod
+lập pháp	N	26	compound
+,	CH	29	punct
+vượt	V	17	conj
+mức	N	29	obj
+ủng hộ	V	30	nmod
+tối thiểu	A	31	obj
+theo	V	34	case
+luật định	N	29	obl:comp
+để	E	36	mark:pcomp
+trở thành	V	29	advcl:objective
+người	N	36	obj
+đầu	N	37	compound
+đứng	V	38	acl:subj
+đầu	N	39	obj
+Chính phủ	N	40	nmod
+Malaysia	Np	41	compound
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 815
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Ismail Sabri Yaakob trở thành Thủ tướng thứ 9, và là Thủ tướng thứ 3 được bổ nhiệm chỉ trong vòng hơn 3 năm của Malaysia, kể từ sau chiến thắng đầy bất ngờ của cựu Thủ tướng Mahathir Mohamad hồi năm 2018.
+Ông	Nc	2	det:clf
+Ismail Sabri Yaakob	Np	3	nsubj
+trở thành	V	0	root
+Thủ tướng	N	3	obj
+thứ	N	4	nmod
+9	M	5	nummod
+,	CH	10	punct
+và	C	10	cc
+là	V	10	cop
+Thủ tướng	N	3	conj
+thứ	N	10	nmod
+3	M	11	nummod
+được	R	14	aux:pass
+bổ nhiệm	V	3	conj
+chỉ	R	17	advmod
+trong	E	17	case
+vòng	N	14	obl:tmod
+hơn	A	20	advmod:adj
+3	M	20	nummod
+năm	N	17	nmod
+của	E	22	case
+Malaysia	Np	17	nmod:poss
+,	CH	24	punct
+kể	V	3	conj
+từ	E	26	case
+sau	N	24	obl
+chiến thắng	V	24	obl
+đầy	A	27	amod
+bất ngờ	A	28	compound:adj
+của	E	32	case
+cựu	A	32	det
+Thủ tướng	N	27	nmod
+Mahathir Mohamad	Np	32	compound
+hồi	N	32	nmod
+năm	N	34	nmod
+2018	M	35	compound
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 816
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Ismail Sabri Yaakob chính thức được bổ nhiệm làm tân Thủ tướng Malaysia.
+Ông	Nc	2	det:clf
+Ismail Sabri Yaakob	Np	6	nsubj:pass
+chính thức	A	5	advmod:adj
+được	V	5	aux:pass
+bổ nhiệm	V	0	root
+làm	V	5	acl:subj
+tân	A	8	compound:Z
+Thủ tướng	N	6	obj
+Malaysia	Np	8	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 817
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tân Thủ tướng Yaakob dự kiến sẽ tuyên thệ nhậm chức vào ngày 21/8 với một nghi lễ truyền thống do Quốc vương chủ trì tại Hoàng cung Malaysia.
+Tân	N	2	det:clf
+Thủ tướng	N	6	nsubj
+Yaakob	Np	2	compound
+dự kiến	V	2	nmod
+sẽ	R	6	advmod
+tuyên thệ	V	0	root
+nhậm chức	V	6	obj
+vào	E	9	case
+ngày	N	6	obl
+21/8	V	9	compound
+với	E	13	case
+một	M	13	nummod
+nghi lễ	N	6	obl
+truyền thống	N	13	nmod
+do	E	16	case
+Quốc vương	N	13	obl
+chủ trì	V	16	nmod
+tại	E	19	case
+Hoàng cung	N	17	obl
+Malaysia	Np	19	compound
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 818
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông Ismail Sabri Yaakob, năm nay 61 tuổi, là một chính khách kỳ cựu của UMNO, chính đảng lâu đời và lớn nhất tại Malaysia.
+Ông	Nc	2	det:clf
+Ismail Sabri Yaakob	Np	11	nsubj
+,	CH	2	punct
+năm	N	7	nummod
+nay	P	4	nmod
+61	M	7	nummod
+tuổi	N	2	appos:nmod
+,	CH	11	punct
+là	V	11	cop
+một	M	11	nummod
+chính khách	N	0	root
+kỳ cựu	N	11	nmod
+của	E	14	case
+UMNO	Np	11	nmod:poss
+,	CH	16	punct
+chính đảng	N	12	conj
+lâu đời	A	16	nmod
+và	C	19	cc
+lớn	A	17	conj
+nhất	R	19	advmod
+tại	E	22	case
+Malaysia	Np	19	obl
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 819
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ông xuất thân là luật sư, sau đó tham gia chính trường và trải qua nhiều cương vị trong Chính phủ Malaysia thuộc các lĩnh vực từ thanh niên, thể thao, cho đến thương mại và nông nghiệp...
+Ông	Nc	2	det:clf
+xuất thân	V	4	nsubj
+là	V	4	cop
+luật sư	N	0	root
+,	CH	4	punct
+sau	N	8	obl:tmod
+đó	P	6	det:pmod
+tham gia	V	4	conj
+chính trường	N	8	obj
+và	C	11	cc
+trải	V	8	conj
+qua	V	14	case
+nhiều	A	14	advmod:adj
+cương vị	N	11	obj
+trong	E	16	case
+Chính phủ	N	14	nmod
+Malaysia	Np	16	compound
+thuộc	V	14	acl:subj
+các	L	20	det
+lĩnh vực	N	18	obj
+từ	E	22	case
+thanh niên	N	20	nmod
+,	CH	24	punct
+thể thao	N	22	conj
+,	CH	26	punct
+cho	E	22	case
+đến	E	28	case
+thương mại	N	22	conj
+và	C	30	cc
+nông nghiệp	N	28	conj
+...	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 820
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chức vụ gần đây nhất mà ông Yaakob đảm nhiệm là Phó Thủ tướng.
+Chức vụ	N	10	nsubj
+gần	A	1	acl:subj
+đây	P	2	obj
+nhất	A	2	advmod
+mà	C	8	mark
+ông	Nc	7	det:clf
+Yaakob	Np	10	nsubj
+đảm nhiệm	V	10	advmod
+là	V	10	cop
+Phó Thủ tướng	N	0	root
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 821
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc trốn chạy khỏi Taliban của những người trong chính quyền cũ Afghanistan
+Cuộc	N	3	nsubj
+trốn	V	1	compound:vmod
+chạy	V	0	root
+khỏi	V	3	compound:svc
+Taliban	Np	3	obj
+của	E	8	case
+những	L	8	det
+người	Nc	5	nmod:poss
+trong	E	10	case
+chính quyền	N	8	obl
+cũ	A	10	amod
+Afghanistan	Np	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 822
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngay sau khi giành quyền kiểm soát Afghanistan, Taliban bắt đầu truy tìm hàng ngàn binh lính, quan chức an ninh làm việc cho chính quyền cũ cũng như những người từng cộng tác với Mỹ và liên quân.
+Ngay	T	2	discourse
+sau	N	10	obl:tmod
+khi	N	2	compound
+giành	V	2	acl:tmod
+quyền	N	4	obj
+kiểm soát	V	5	nmod
+Afghanistan	Np	6	obj
+,	CH	10	punct
+Taliban	Np	10	nsubj
+bắt đầu	V	0	root
+truy tìm	V	10	xcomp
+hàng	R	14	advmod
+ngàn	M	14	nummod
+binh lính	N	11	obj
+,	CH	16	punct
+quan chức	N	10	nsubj
+an ninh	N	16	compound
+làm việc	V	17	amod
+cho	E	20	case
+chính quyền	N	18	obl
+cũ	A	20	amod
+cũng	R	25	advmod
+như	C	25	case
+những	L	25	det
+người	Nc	18	obl
+từng	R	27	advmod
+cộng tác	V	25	acl:subj
+với	E	29	case
+Mỹ	Np	27	obl
+và	C	31	cc
+liên quân	V	29	conj
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 823
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo báo New York Times, hàng đoàn xe bọc thép và xe bán tải chở binh lính Afghanistan đã chạy trốn xuyên qua sa mạc tới Iran.
+Theo	V	16	advcl
+báo	N	1	obj
+New York Times	Np	2	compound
+,	CH	16	punct
+hàng	N	6	advmod
+đoàn	N	7	det:clf
+xe bọc thép	V	16	nsubj
+và	C	9	cc
+xe	N	7	conj
+bán	V	9	acl:subj
+tải	N	10	obj
+chở	V	9	acl:subj
+binh lính	N	12	obj
+Afghanistan	Np	13	compound
+đã	R	16	advmod
+chạy	V	0	root
+trốn	V	16	compound:svc
+xuyên	V	16	xcomp
+qua	E	20	case
+sa mạc	N	16	obl:comp
+tới	E	22	case
+Iran	Np	20	nmod
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 824
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các phi công quân đội tìm cách cho máy bay di chuyển hết tốc lực ở tầm thấp tới nơi trú ẩn an toàn ở các dãy núi của Uzbekistan.
+Các	L	2	det
+phi công	N	4	nsubj
+quân đội	N	2	compound
+tìm	V	0	root
+cách	N	4	obj
+cho	E	7	case
+máy bay	N	4	obl:iobj
+di chuyển	V	7	compound
+hết	V	8	acl:subj
+tốc lực	N	9	obj
+ở	E	12	case
+tầm	N	8	obl
+thấp	A	12	compound
+tới	E	8	acl:subj
+nơi	N	14	obj
+trú ẩn	V	15	acl:subj
+an toàn	A	16	obj
+ở	E	20	case
+các	L	20	det
+dãy	N	16	obl
+núi	N	20	compound
+của	E	23	case
+Uzbekistan	Np	20	nmod:poss
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 825
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các binh sĩ Afghanistan vứt bỏ vũ khí, mặc thường phục trà trộn vào đám đông dân thường đang tìm cách chạy trốn khỏi Kabul khi Taliban tràn vào thủ đô ngày 15/8.
+Các	L	2	det
+binh sĩ	N	15	nsubj
+Afghanistan	Np	2	compound
+vứt bỏ	V	3	compound
+vũ khí	N	4	compound
+,	CH	7	punct
+mặc	V	4	conj
+thường phục	N	7	obj
+trà trộn	V	7	xcomp
+vào	E	12	case
+đám	N	12	det:clf
+đông	A	9	obl:comp
+dân thường	N	12	compound
+đang	R	15	advmod
+tìm	V	0	root
+cách	N	15	obj
+chạy	V	16	acl:subj
+trốn	V	17	xcomp
+khỏi	V	17	xcomp
+Kabul	Np	18	obj
+khi	N	17	obl:tmod
+Taliban	Np	23	nsubj
+tràn	V	21	acl:tmod
+vào	E	23	compound:dir
+thủ đô	N	23	obl:comp
+ngày	N	23	obl:tmod
+15/8	M	26	compound
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 826
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong vài tuần trở lại đây, hàng nghìn thành viên lực lượng an ninh chính phủ Afghanistan đã đào tẩu ra nước ngoài, trong bối cảnh Taliban xúc tiến chiến dịch tổng tiến công thần tốc trên khắp toàn quốc.
+Trong	E	3	case
+vài	L	3	det
+tuần	N	15	obl:tmod
+trở lại	V	3	acl
+đây	P	4	obj
+,	CH	15	punct
+hàng	R	9	advmod
+nghìn	M	9	nummod
+thành viên	N	15	nsubj
+lực lượng	N	9	nmod
+an ninh	N	9	nmod
+chính phủ	N	11	compound
+Afghanistan	Np	11	compound
+đã	R	15	advmod
+đào tẩu	V	0	root
+ra	V	17	case
+nước ngoài	N	15	obl:comp
+,	CH	21	punct
+trong	E	20	case
+bối cảnh	N	21	obl
+Taliban	Np	15	conj
+xúc tiến	V	21	nummod
+chiến dịch	N	21	nmod
+tổng tiến công thần tốc	V	23	compound
+trên	E	27	case
+khắp	A	27	advmod:adj
+toàn quốc	X	23	nmod
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 827
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một vài trong số họ đã thương lượng để đầu hàng và trở về nhà.
+Một vài	L	3	det
+trong	E	3	case
+số	N	6	obl
+họ	P	3	nmod
+đã	R	6	advmod
+thương lượng	V	0	root
+để	E	8	mark:pcomp
+đầu hàng	V	6	advcl:objective
+và	C	10	cc
+trở về	V	8	conj
+nhà	N	10	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 828
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một số khác tiếp tục cầm vũ khí và gia nhập phe thắng trận.
+Một số	L	2	det
+khác	A	3	nsubj
+tiếp tục	V	0	root
+cầm	V	3	xcomp
+vũ khí	N	4	obj
+và	C	7	cc
+gia nhập	V	4	conj
+phe	N	7	obj
+thắng	V	8	nmod
+trận	N	9	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 829
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, vẫn còn hàng nghìn binh sĩ, lính biệt kích, phi công và điệp viên từng chiến đấu tới giây phút cuối bất chấp chính quyền Kabul đã sớm bỏ cuộc.
+Tuy nhiên	C	24	mark
+,	CH	24	punct
+vẫn	R	4	advmod
+còn	V	24	advcl
+hàng	R	6	advmod
+nghìn	M	7	nummod
+binh sĩ	N	24	nsubj
+,	CH	9	punct
+lính	N	7	conj
+biệt kích	N	9	nmod
+,	CH	12	punct
+phi công	N	7	conj
+và	C	14	cc
+điệp viên	V	7	conj
+từng	R	16	advmod
+chiến đấu	V	14	acl:subj
+tới	E	18	case
+giây phút	N	16	obl:comp
+cuối	N	18	nmod
+bất chấp	N	21	nummod
+chính quyền	N	18	nmod
+Kabul	Np	21	compound
+đã	R	24	advmod
+sớm	A	0	root
+bỏ cuộc	V	24	compound:adj
+.	CH	24	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 830
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Họ bị bỏ rơi và hiện phải lẩn trốn trước sự săn đuổi của Taliban.
+Họ	P	3	nsubj
+bị	V	3	aux
+bỏ rơi	V	0	root
+và	C	7	cc
+hiện	N	7	obl:tmod
+phải	V	7	aux
+lẩn	V	3	conj
+trốn	V	7	xcomp
+trước	E	10	case
+sự	N	7	obl
+săn đuổi	V	10	compound
+của	E	13	case
+Taliban	Np	10	nmod:poss
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 831
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các báo cáo nhỏ giọt cho thấy, Taliban đang truy tìm những người mà họ tin đã sát cánh chiến đấu cùng binh lính Mỹ và NATO, bất chấp việc đại diện phong trào Hồi giáo tuyên bố sẽ ân xá cho người của chính quyền cũ.
+Các	L	2	det
+báo cáo	N	4	nsubj
+nhỏ giọt	V	4	nsubj
+cho	V	0	root
+thấy	V	4	compound:svc
+,	CH	9	punct
+Taliban	Np	9	nsubj
+đang	R	9	advmod
+truy tìm	V	4	parataxis
+những	L	11	det
+người	Nc	9	obj
+mà	C	14	mark
+họ	P	14	nsubj
+tin	V	11	acl:relcl
+đã	R	16	advmod
+sát cánh	V	11	acl:subj
+chiến đấu	V	16	obj
+cùng	A	19	case
+binh lính	N	17	obj
+Mỹ	Np	19	nmod
+và	C	22	cc
+NATO	Np	19	conj
+,	CH	25	punct
+bất chấp	V	25	det
+việc	N	29	nsubj
+đại diện	V	25	acl:subj
+phong trào	N	26	obj
+Hồi giáo	N	27	compound
+tuyên bố	V	4	parataxis
+sẽ	R	31	advmod
+ân xá	V	29	acomp
+cho	E	33	case
+người	N	31	obl:comp
+của	E	35	case
+chính quyền	N	33	nmod:poss
+cũ	A	35	amod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 832
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những người đàn ông đang đi bộ trên đất Thổ Nhĩ Kỳ này tiết lộ họ là lính Afghanistan đào ngũ, đang tìm đường đến Iran.
+Những	L	3	det
+người	Nc	1	clf
+đàn ông	N	13	nsubj
+đang	R	5	advmod
+đi	V	3	acl:subj
+bộ	N	5	obj
+trên	E	8	case
+đất	N	5	obl
+Thổ	Np	8	nmod
+Nhĩ	Np	9	nmod
+Kỳ	Np	8	nmod
+này	P	11	det:pmod
+tiết lộ	V	0	root
+họ	P	16	nsubj
+là	V	16	cop
+lính	N	13	ccomp
+Afghanistan	Np	16	compound
+đào ngũ	V	17	compound
+,	CH	21	punct
+đang	R	21	advmod
+tìm	V	16	conj
+đường	N	21	obj
+đến	E	24	case
+Iran	Np	21	obl:comp
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 833
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo các cựu quan chức trong chính quyền Afghanistan trước đây và một báo cáo tối mật gửi Liên Hợp Quốc, các tay súng Taliban đang đe dọa bắt giữ hoặc trừng phạt thân nhân trong gia đình của người bị truy nã nếu không thể tìm thấy họ.
+Theo	V	3	case
+các	L	3	det
+cựu	A	22	obl
+quan chức	N	3	nmod
+trong	E	6	case
+chính quyền	N	3	nmod
+Afghanistan	Np	6	compound
+trước	N	9	case
+đây	P	6	nmod
+và	C	12	cc
+một	M	12	nummod
+báo cáo	N	3	conj
+tối mật	N	12	compound
+gửi	V	12	acl:subj
+Liên Hợp Quốc	Np	14	obj
+,	CH	22	punct
+các	L	18	det
+tay	N	22	nsubj
+súng	N	18	nmod
+Taliban	Np	19	nmod
+đang	R	22	advmod
+đe dọa	V	0	root
+bắt giữ	V	22	obj
+hoặc	C	25	cc
+trừng phạt	V	26	nummod
+thân nhân	N	22	conj
+trong	E	28	case
+gia đình	N	26	obl
+của	E	30	case
+người	N	28	nmod:poss
+bị	V	32	aux:pass
+truy nã	V	30	acl:subj
+nếu	C	35	mark
+không thể	R	35	advmod:neg
+tìm	V	22	advcl
+thấy	V	35	compound:svc
+họ	P	35	obj
+.	CH	22	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 834
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các cựu binh Mỹ nhận được lời cầu cứu từ những người dân địa phương từng hợp tác với họ cũng xác nhận điều này.
+Các	L	2	det
+cựu binh	N	4	nsubj
+Mỹ	Np	2	nmod
+nhận	V	0	root
+được	R	4	advmod
+lời	N	4	obj
+cầu cứu	V	6	nmod
+từ	E	11	case
+những	L	11	det
+người	Nc	9	clf
+dân	N	6	obl
+địa phương	N	11	nmod
+từng	R	14	advmod
+hợp tác	V	11	acl:subj
+với	E	16	case
+họ	P	14	obl:with
+cũng	R	18	advmod
+xác nhận	V	4	conj
+điều	N	18	obj
+này	P	19	det:pmod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 835
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện không rõ có bao nhiêu người đang chạy trốn, ngoài gần 600 người đã được 22 máy bay và 24 trực thăng chở tới Uzbekistan cuối tuần trước cũng như những người đã đào thoát sang Iran.
+Hiện	N	3	obl:tmod
+không	R	3	advmod:neg
+rõ	A	0	root
+có	V	3	xcomp
+bao nhiêu	P	6	det
+người	N	4	obj
+đang	R	8	advmod
+chạy	V	6	acl:subj
+trốn	V	8	obj
+,	CH	16	punct
+ngoài	E	22	obl
+gần	A	13	advmod:adj
+600	M	14	nummod
+người	N	11	nmod
+đã	R	16	advmod
+được	V	8	conj
+22	M	18	nummod
+máy bay	N	16	obj
+và	C	22	cc
+24	M	21	nummod
+trực thăng	N	22	nsubj
+chở	V	8	conj
+tới	E	22	compound:svc
+Uzbekistan	Np	25	nummod
+cuối	N	22	obl:tmod
+tuần	N	25	nmod
+trước	N	26	nmod
+cũng	R	31	advmod
+như	C	31	case
+những	L	31	det
+người	Nc	22	obl
+đã	R	33	advmod
+đào thoát	V	31	acl:subj
+sang	V	33	xcomp
+Iran	Np	33	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 836
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trên giấy tờ, lực lượng an ninh Afghanistan có khoảng 300.000 thành viên.
+Trên	E	2	case
+giấy tờ	N	7	obl
+,	CH	7	punct
+lực lượng	N	7	nsubj
+an ninh	N	4	nmod
+Afghanistan	Np	5	compound
+có	V	0	root
+khoảng	N	7	obj
+300.000	M	10	nummod
+thành viên	N	8	nmod
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 837
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Song, các quan chức Mỹ nói, do tham nhũng, đào ngũ và thương vong, chỉ có 1/6 số lượng này, tương đương 50.000 người thực tế đã chiến đấu chống Taliban trong năm 2021.
+Song	C	6	mark
+,	CH	6	punct
+các	L	4	det
+quan chức	N	6	nsubj
+Mỹ	Np	4	nmod
+nói	V	0	root
+,	CH	9	punct
+do	E	9	case
+tham nhũng	N	16	obl
+,	CH	11	punct
+đào ngũ	N	9	conj
+và	C	13	cc
+thương vong	V	9	conj
+,	CH	16	punct
+chỉ	R	16	advmod
+có	V	6	conj
+1/6	N	18	nummod
+số lượng	N	16	obj
+này	P	18	det:pmod
+,	CH	26	punct
+tương đương	A	24	det
+50.000	M	24	nummod
+người	N	22	clf
+thực tế	N	26	nsubj
+đã	R	26	advmod
+chiến đấu	V	6	parataxis
+chống	V	26	xcomp
+Taliban	Np	27	obj
+trong	E	30	case
+năm	N	26	obl:tmod
+2021	M	30	nmod
+.	CH	26	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 838
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo các cựu quan chức Afghanistan, Taliban đã lục soát hồ sơ tại các Bộ Quốc phòng, Bộ Nội vụ và Tổng cục tình báo quốc gia để lập danh sách các đối tượng cần săn lùng.
+Theo	V	9	advcl
+các	L	3	det
+cựu	A	1	obj
+quan chức	N	3	nmod
+Afghanistan	Np	4	nmod
+,	CH	9	punct
+Taliban	Np	9	nsubj
+đã	R	9	advmod
+lục soát	V	0	root
+hồ sơ	N	9	obj
+tại	E	13	case
+các	L	13	det
+Bộ Quốc phòng	N	9	obl
+,	CH	15	punct
+Bộ	N	13	conj
+Nội vụ	N	15	compound
+và	C	18	cc
+Tổng cục	V	13	conj
+tình báo	N	18	compound
+quốc gia	N	18	compound
+để	E	22	mark:pcomp
+lập	V	9	advcl:objective
+danh sách	N	22	obj
+các	L	25	det
+đối tượng	N	22	obj
+cần	V	27	aux
+săn lùng	V	25	acl:subj
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 839
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhóm đang hướng sự tập trung vào lực lượng biệt kích tinh nhuệ gồm 18.000 người của chính phủ cũ, với phần lớn số này đã không đầu hàng.
+Nhóm	N	3	nsubj
+đang	R	3	advmod
+hướng	V	0	root
+sự	N	3	obj
+tập trung	V	4	acl:subj
+vào	E	7	case
+lực lượng	N	5	obl:comp
+biệt kích	N	7	nmod
+tinh nhuệ	N	8	compound
+gồm	V	3	conj
+18.000	M	12	nummod
+người	N	10	obj
+của	E	14	case
+chính phủ	N	12	nmod:poss
+cũ	A	14	amod
+,	CH	23	punct
+với	E	19	case
+phần lớn	N	19	det:clf
+số	N	23	obl
+này	P	19	det:pmod
+đã	R	23	advmod
+không	R	23	advmod:neg
+đầu hàng	V	3	conj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 840
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một phần trong số họ đã tới ẩn náu ở thung lũng Panjshir, một vùng lòng chảo chiến lược ở phía Bắc Kabul, nơi các lãnh đạo chính phủ cũ đang tìm cách tái lập lực lượng kháng cự Taliban.
+Một	M	2	nummod
+phần	N	7	nsubj
+trong	E	4	case
+số	N	2	nmod
+họ	P	4	compound
+đã	R	7	advmod
+tới	V	0	root
+ẩn náu	V	7	obj
+ở	E	10	case
+thung lũng	N	7	obl
+Panjshir	Np	10	compound
+,	CH	14	punct
+một	M	14	nummod
+vùng	N	10	appos
+lòng chảo	N	14	nmod
+chiến lược	V	15	compound
+ở	E	18	case
+phía	N	14	nmod
+Bắc Kabul	Np	18	compound
+,	CH	21	punct
+nơi	N	18	appos:nmod
+các	L	23	det
+lãnh đạo	N	21	nmod
+chính phủ	N	23	nmod
+cũ	A	23	amod
+đang	R	27	advmod
+tìm	V	7	conj
+cách	N	27	obj
+tái lập	V	28	acl:subj
+lực lượng	N	29	nmod
+kháng cự	N	30	nmod
+Taliban	Np	31	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 841
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhóm này được tin có khoảng 2.000 - 2.500 người.
+Nhóm	N	4	nsubj:pass
+này	P	1	det:pmod
+được	V	4	aux:pass
+tin	N	0	root
+có	V	4	xcomp
+khoảng	N	5	obj
+2.000	M	10	nummod
+-	CH	9	punct
+2.500	M	7	flat:number
+người	N	5	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 842
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một trực thăng quân sự Afghanistan ở tỉnh Panjshir ngày 16/8.
+Một	M	2	nummod
+trực thăng	N	0	root
+quân sự	N	2	nmod
+Afghanistan	Np	3	compound
+ở	E	6	case
+tỉnh	N	2	nmod
+Panjshir	Np	8	nummod
+ngày	N	6	nmod
+16/8	M	8	compound
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 843
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hơn 20 năm trước, lãnh đạo người Panjshir là Ahmed Shah Massoud đã tập hợp lực lượng ở thung lũng để chống lại Taliban suốt nhiều năm.
+Hơn	A	3	advmod
+20	M	3	nummod
+năm	N	12	obl:tmod
+trước	N	3	nmod
+,	CH	3	punct
+lãnh đạo	N	10	nsubj:nn
+người	N	6	nmod
+Panjshir	Np	7	compound
+là	V	10	cop
+Ahmed Shah Massoud	Np	0	root
+đã	R	12	advmod
+tập hợp	V	10	acl:subj
+lực lượng	N	12	obj
+ở	E	15	case
+thung lũng	N	12	obl:comp
+để	E	17	mark:pcomp
+chống	V	12	advcl:objective
+lại	V	17	compound:svc
+Taliban	Np	17	obj
+suốt	A	22	advmod:adj
+nhiều	A	22	advmod:adj
+năm	N	17	obl:tmod
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 844
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Họ về sau đã nhận được sự hỗ trợ của Mỹ và các đồng minh trong chiến dịch lật đổ Taliban năm 2001.
+Họ	P	2	nsubj
+về	V	5	csubj
+sau	N	2	obj
+đã	R	5	advmod
+nhận	V	0	root
+được	R	5	advmod
+sự	N	5	obj
+hỗ trợ	V	7	compound:vmod
+của	E	10	case
+Mỹ	Np	7	nmod:poss
+và	C	13	cc
+các	L	13	det
+đồng minh	N	10	conj
+trong	E	15	case
+chiến dịch	N	13	obl
+lật đổ	N	15	compound
+Taliban	Np	18	nummod
+năm	N	15	nmod
+2001	M	18	nummod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 845
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, người Panjshir hiện thiếu vũ khí hạng nặng, sự trợ giúp đáng kể của cộng đồng quốc tế cũng như một lãnh đạo có khả năng đoàn kết như ông Massoud.
+Tuy nhiên	C	6	mark
+,	CH	6	punct
+người	N	4	det:clf
+Panjshir	Np	6	nsubj
+hiện	V	6	advmod
+thiếu	V	0	root
+vũ khí	N	6	obj
+hạng	N	7	nmod
+nặng	A	8	amod
+,	CH	11	punct
+sự	N	6	conj
+trợ giúp	V	11	nmod
+đáng kể	A	12	amod
+của	E	15	case
+cộng đồng	N	11	nmod:poss
+quốc tế	A	15	compound
+cũng	R	20	advmod
+như	C	20	case
+một	M	20	nummod
+lãnh đạo	N	11	obl
+có	V	20	acl:subj
+khả năng	N	21	obj
+đoàn kết	V	22	acl:subj
+như	C	26	case
+ông	Nc	26	det:clf
+Massoud	Np	23	obl
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 846
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày càng có nhiều báo cáo hé lộ Taliban đã có hành động trả thù nhanh chóng và tàn khốc đối với những người trong danh sách truy nã bị bắt.
+Ngày càng	X	2	advmod
+có	V	0	root
+nhiều	A	4	advmod:adj
+báo cáo	N	9	nsubj
+hé	V	4	nmod
+lộ	N	5	nmod
+Taliban	Np	6	compound
+đã	R	9	advmod
+có	V	2	ccomp
+hành động	V	9	obj
+trả thù	V	10	acl:subj
+nhanh chóng	A	11	acomp
+và	C	14	cc
+tàn khốc	V	12	conj
+đối với	E	17	case
+những	L	17	det
+người	Nc	22	nsubj
+trong	E	19	case
+danh sách	N	17	obl
+truy nã	N	19	compound
+bị	V	22	aux:pass
+bắt	V	11	conj
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 847
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một cựu thông dịch viên cho Lực lượng đặc nhiệm Mỹ ở Afghanistan kể, anh đã chứng kiến Taliban bắn chết một người tình nghi từng cộng tác với quân đội nước ngoài.
+Một	M	2	nummod
+cựu	A	14	nsubj
+thông dịch viên	N	2	nmod
+cho	E	5	case
+Lực lượng	N	2	nmod
+đặc nhiệm	N	5	compound
+Mỹ	Np	6	compound
+ở	E	9	case
+Afghanistan	Np	5	nmod
+kể	V	9	compound
+,	CH	14	punct
+anh	Nc	14	nsubj
+đã	R	14	advmod
+chứng kiến	V	0	root
+Taliban	Np	14	obj
+bắn	V	14	xcomp
+chết	V	16	xcomp
+một	M	20	nummod
+người	N	18	clf
+tình nghi	V	16	obj
+từng	R	22	advmod
+cộng tác	N	20	acl:subj
+với	E	24	case
+quân đội	N	22	obl
+nước ngoài	N	24	nmod
+.	CH	14	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 848
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một đoạn ghi hình tuần trước, được hãng tin RTA đăng tải cho thấy, hàng chục thi thể nằm la liệt trên đường ở thành phố miền nam Kandahar.
+Một	M	2	nummod
+đoạn	N	12	nsubj:pass
+ghi hình	N	12	obl:tmod
+tuần	N	2	nmod
+trước	N	4	amod
+,	CH	8	punct
+được	V	12	aux:pass
+hãng	N	12	obl:agent
+tin	N	8	nmod
+RTA	Np	9	compound
+đăng tải	V	12	advmod
+cho	V	0	root
+thấy	V	12	compound:svc
+,	CH	18	punct
+hàng	R	16	advmod
+chục	M	17	nummod
+thi thể	N	18	nsubj
+nằm	V	12	conj
+la liệt	A	18	obj
+trên	E	21	case
+đường	N	18	obl:comp
+ở	E	23	case
+thành phố	N	21	nmod
+miền	N	23	compound
+nam	N	24	compound
+Kandahar	Np	24	compound
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 849
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều thi thể là binh sĩ và quan chức trong chính quyền cũ bị Taliban xử tử.
+Nhiều	A	2	amod
+thi thể	N	4	nsubj
+là	V	4	cop
+binh sĩ	N	0	root
+và	C	6	cc
+quan chức	N	4	conj
+trong	E	8	case
+chính quyền	N	6	obl
+cũ	A	8	amod
+bị	V	11	aux:pass
+Taliban	Np	4	conj
+xử tử	V	11	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 850
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Taliban hiện đã thâu tóm quyền kiểm soát RTA.
+Taliban	N	4	nsubj
+hiện	N	4	obl:tmod
+đã	R	4	advmod
+thâu tóm	V	0	root
+quyền	N	4	obj
+kiểm soát	V	5	nmod
+RTA	Np	6	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 851
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ảnh máy bay vận tải trống không rời Kabul gây 'bão mạng'
+Ảnh	N	2	det:clf
+máy bay	N	5	nsubj
+vận tải	V	2	nmod
+trống không	N	2	nmod
+rời	V	0	root
+Kabul	Np	5	obj
+gây	V	5	xcomp
+'	V	7	obj
+bão	N	7	obj
+mạng	N	9	nmod
+'	M	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 852
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong lúc đám đông người Afghanistan tuyệt vọng chờ cơ hội được đi sơ tán bên ngoài sân bay Kabul, bức ảnh do một người di tản chụp máy bay vận tải gần như trống không khiến cộng đồng mạng dậy sóng.
+Trong	E	2	case
+lúc	N	11	obl:tmod
+đám	Nc	4	det:clf
+đông	A	11	nsubj
+người	N	4	nmod
+Afghanistan	Np	7	nmod
+tuyệt vọng	V	4	nmod
+chờ	V	7	acl:subj
+cơ hội	N	8	obj
+được	V	11	aux:pass
+đi	V	0	root
+sơ tán	V	13	case
+bên	N	11	obl:comp
+ngoài	N	13	compound
+sân bay	N	13	nmod
+Kabul	Np	15	compound
+,	CH	30	punct
+bức	Nc	19	det:clf
+ảnh	N	15	conj
+do	E	23	case
+một	M	23	nummod
+người	N	21	clf
+di tản	V	18	nmod
+chụp	V	23	acl:subj
+máy bay	N	24	obj
+vận tải	V	25	nmod
+gần	A	29	advmod:adj
+như	C	29	case
+trống không	V	24	obl
+khiến	V	11	conj
+cộng đồng	N	30	obj
+mạng	V	31	nmod
+dậy	V	31	acl:subj
+sóng	N	33	obj
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 853
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Paul ‘Pen’ Farthing, một cựu lính biệt kích thuộc Thủy quân lục chiến Hoàng gia Anh đang điều hành một trại cứu hộ động vật ở Kabul, đã chia sẻ bức ảnh do vợ anh - Kaisa chụp trong lúc cô được sơ tán khỏi thủ đô Afghanistan.
+Paul	N	26	obl:tmod
+‘	N	1	flat:date
+Pen	Np	1	flat:date
+’	N	1	flat:date
+Farthing	Np	1	flat:date
+,	CH	17	punct
+một	M	8	nummod
+cựu	A	1	appos
+lính	N	8	nmod
+biệt kích	N	8	nmod
+thuộc	V	8	acl:subj
+Thủy quân	N	11	obj
+lục chiến	V	12	compound
+Hoàng gia	N	11	punct
+Anh	Np	11	nsubj
+đang	R	17	advmod
+điều hành	V	8	acl:subj
+một	M	19	nummod
+trại	N	17	obj
+cứu hộ	V	19	nmod
+động vật	N	20	compound
+ở	E	23	case
+Kabul	Np	19	nmod
+,	CH	26	punct
+đã	R	26	advmod
+chia sẻ	V	0	root
+bức	Nc	28	det:clf
+ảnh	N	26	obj
+do	E	30	case
+vợ	N	28	obl
+anh	Nc	30	nmod
+-	CH	33	punct
+Kaisa	Np	31	conj
+chụp	V	30	nmod
+trong	E	36	case
+lúc	N	34	obl:tmod
+cô	Nc	39	nsubj
+được	V	39	aux:pass
+sơ tán	V	36	acl:tmod
+khỏi	V	39	xcomp
+thủ đô	N	39	obj
+Afghanistan	Np	41	compound
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 854
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bức ảnh do vợ chụp được anh Farthing chia sẻ trên trang Twitter cá nhân.
+Bức	Nc	2	det:clf
+ảnh	N	9	nsubj:pass
+do	E	5	mark
+vợ	N	5	nsubj
+chụp	V	9	advcl
+được	R	5	advmod
+anh	Nc	8	det:clf
+Farthing	Np	9	obl:agent
+chia sẻ	V	0	root
+trên	E	11	case
+trang Twitter	N	9	obl
+cá nhân	N	11	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 855
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong ảnh là cảnh tượng thiếu sáng bên trong chiếc máy bay vận tải quân sự bị bỏ trống hầu hết các ghế.
+Trong	E	2	case
+ảnh	N	4	obl
+là	V	4	cop
+cảnh tượng	N	14	nsubj
+thiếu	A	4	acl:subj
+sáng	N	5	amod
+bên	N	5	nmod
+trong	E	10	case
+chiếc	Nc	10	det:clf
+máy bay	N	14	obl
+vận tải	V	10	nmod
+quân sự	N	11	compound
+bị	V	14	aux:pass
+bỏ	V	0	root
+trống	A	14	acomp
+hầu hết	X	18	det
+các	L	18	det
+ghế	N	14	obl
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 856
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kaisa đang trên đường về nhà.
+Kaisa	Np	3	nsubj
+đang	R	3	advmod
+trên	E	0	root
+đường	N	3	obj
+về	V	3	xcomp
+nhà	N	5	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 857
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, máy bay trống không ... thật tai tiếng khi hàng nghìn người chờ đợi bên ngoài sân bay Kabul bị ngã quỵ vì họ không thể lên máy bay.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+máy bay	N	7	nsubj
+trống không	V	3	nmod
+...	CH	4	punct
+thật	T	7	advmod
+tai tiếng	A	0	root
+khi	N	7	obl:tmod
+hàng	R	10	advmod
+nghìn	M	11	nummod
+người	N	18	nsubj:pass
+chờ đợi	V	18	nsubj
+bên	N	11	nmod
+ngoài	N	13	compound
+sân bay	N	13	nmod
+Kabul	Np	15	compound
+bị	V	18	aux:pass
+ngã	V	8	acl:tmod
+quỵ	V	18	obj
+vì	E	23	mark
+họ	P	23	nsubj
+không thể	R	23	advmod:neg
+lên	V	18	advcl
+máy bay	N	23	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 858
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Đáng buồn thay, mọi người sẽ bị bỏ lại phía sau khi sứ mệnh này kết thúc, vì chúng ta không thể làm nó một cách đúng đắn", Farthing viết trên Twitter hôm 19/8.
+"	CH	10	punct
+Đáng	V	10	advcl
+buồn	V	2	obj
+thay	V	3	discourse
+,	CH	10	punct
+mọi	L	7	det
+người	N	10	nsubj:pass
+sẽ	R	10	advmod
+bị	V	10	aux:pass
+bỏ	V	0	root
+lại	V	10	compound:svc
+phía	N	10	obl
+sau	N	12	compound
+khi	N	10	obl:tmod
+sứ mệnh	N	17	nsubj
+này	P	15	det:pmod
+kết thúc	V	14	acl:tmod
+,	CH	22	punct
+vì	E	22	mark
+chúng ta	P	22	nsubj
+không thể	R	22	advmod:neg
+làm	V	10	advcl
+nó	P	22	obj
+một cách	N	22	obj
+đúng đắn	A	24	amod
+"	CH	10	punct
+,	CH	29	punct
+Farthing	Np	29	nsubj
+viết	V	10	parataxis
+trên	E	29	nmod
+Twitter	Np	32	nummod
+hôm	N	29	obl
+19/8	M	32	compound
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 859
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Farthing sau đó chia sẻ với hãng thông tấn Sky News rằng, anh và người vợ mang quốc tịch Na Uy của mình đã đến sân bay vào ban đêm để tránh đám đông đang tụ tập trước sân bay kể từ khi Kabul lọt vào tay Taliban ngày 15/8.
+Farthing	N	4	nsubj
+sau	N	4	obl:tmod
+đó	P	2	det:pmod
+chia sẻ	V	0	root
+với	E	6	case
+hãng	N	4	obl:with
+thông tấn	N	6	compound
+Sky	Np	6	compound
+News	Np	6	compound
+rằng	C	9	compound
+,	CH	22	punct
+anh	Nc	22	nsubj
+và	C	15	cc
+người	Nc	15	det:clf
+vợ	N	12	conj
+mang	V	15	acl:subj
+quốc tịch	N	16	obj
+Na Uy	Np	17	nmod
+của	E	20	case
+mình	P	12	nmod:poss
+đã	R	22	advmod
+đến	V	4	conj
+sân bay	N	22	obj
+vào	E	25	case
+ban đêm	N	22	obl:tmod
+để	E	27	mark:pcomp
+tránh	V	22	advcl:objective
+đám	N	29	det:clf
+đông	A	27	obj
+đang	R	31	advmod
+tụ tập	V	29	acl:subj
+trước	E	33	case
+sân bay	N	31	obl
+kể	V	36	punct
+từ	E	36	case
+khi	N	31	obl:tmod
+Kabul	Np	38	nsubj
+lọt	V	36	acl:tmod
+vào	E	40	case
+tay	N	38	obl:comp
+Taliban	Np	42	nummod
+ngày	N	40	nmod
+15/8	M	42	flat:date
+.	CH	22	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 860
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vợ Farthing đã quyết định rời Afghanistan để về quê hương Na Uy.
+Vợ	N	4	nsubj
+Farthing	Np	1	nmod
+đã	R	4	advmod
+quyết định	V	0	root
+rời	V	4	xcomp
+Afghanistan	Np	5	obj
+để	E	8	mark:pcomp
+về	V	5	advcl:objective
+quê hương	N	8	obj
+Na Uy	Np	9	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 861
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Song, anh chọn ở lại, quả quyết sẽ chỉ rời đi khi tất cả 71 nhân viên người Afghanistan của mình được sơ tán cùng gia đình họ.
+Song	C	5	mark
+,	CH	5	punct
+anh	Nc	4	det:clf
+chọn	V	5	nsubj
+ở	V	0	root
+lại	V	5	compound:svc
+,	CH	11	punct
+quả quyết	V	11	nsubj
+sẽ	R	11	advmod
+chỉ	R	11	advmod
+rời	V	5	conj
+đi	V	11	compound:dir
+khi	N	11	obl:tmod
+tất cả	P	16	det
+71	N	16	nummod
+nhân viên	N	22	nsubj:pass
+người	N	18	det:clf
+Afghanistan	Np	16	nmod
+của	E	20	case
+mình	P	16	nmod:poss
+được	R	22	aux:pass
+sơ tán	V	13	acl:tmod
+cùng	C	24	case
+gia đình	N	22	obj
+họ	P	24	nmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 862
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kaisa đã may mắn có được một chỗ ngồi trên một chuyến bay di tản khỏi quốc gia Nam Á, nhưng rõ ràng cô rất ngạc nhiên khi mình là một trong những hành khách ít ỏi trên đó.
+Kaisa	Np	3	nsubj
+đã	R	3	advmod
+may mắn	A	0	root
+có	V	3	xcomp
+được	R	4	advmod
+một	M	7	nummod
+chỗ	N	4	obj
+ngồi	V	7	acl:subj
+trên	E	11	case
+một	M	11	nummod
+chuyến	N	8	obl
+bay	V	11	nmod
+di tản	V	12	nmod
+khỏi	V	13	compound
+quốc gia	N	13	nmod
+Nam Á	Np	15	compound
+,	CH	22	punct
+nhưng	C	22	mark
+rõ ràng	A	20	advmod:adj
+cô	Nc	22	nsubj
+rất	R	22	advmod
+ngạc nhiên	V	4	conj
+khi	N	22	obl:tmod
+mình	P	29	nsubj
+là	V	29	cop
+một	M	28	nummod
+trong	E	28	case
+những	L	29	det
+hành khách	N	22	obl
+ít ỏi	A	29	amod
+trên	E	32	case
+đó	P	29	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 863
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Farthing, các máy bay đang cất cánh từ Kabul mỗi giờ "bất kể đầy hay vơi khách".
+Theo	V	7	advcl
+Farthing	Np	1	obj
+,	CH	7	punct
+các	L	5	det
+máy bay	N	7	nsubj
+đang	R	7	advmod
+cất cánh	V	0	root
+từ	E	9	case
+Kabul	Np	7	obl:comp
+mỗi	L	11	det
+giờ	N	7	obl
+"	CH	14	punct
+bất kể	R	14	advmod
+đầy	A	7	conj
+hay	C	16	cc
+vơi	V	14	obj
+khách	N	16	obj
+"	CH	14	punct
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 864
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong khi, nhiều người đang không thể tiếp cận sân bay do Taliban tăng cường tuần tra và thiết lập các trạm kiểm soát khắp thành phố.
+Trong	E	2	case
+khi	N	8	obl:tmod
+,	CH	2	punct
+nhiều	A	5	det
+người	Nc	8	nsubj
+đang	R	8	advmod
+không thể	R	8	advmod:neg
+tiếp cận	V	0	root
+sân bay	N	8	obj
+do	E	12	mark
+Taliban	Np	12	nsubj
+tăng cường	V	8	advcl
+tuần tra	V	12	obj
+và	C	15	cc
+thiết lập	V	12	conj
+các	L	17	det
+trạm	N	15	obj
+kiểm soát	V	17	compound
+khắp	A	20	advmod:adj
+thành phố	N	17	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 865
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta sẽ bỏ mọi người lại phía sau.
+Chúng ta	P	3	nsubj
+sẽ	R	3	advmod
+bỏ	V	0	root
+mọi	L	5	det
+người	N	3	obj
+lại	R	7	advmod
+phía	N	3	obl
+sau	N	7	compound
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 866
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Đó là một thực tế", cựu lính biệt kích nói, đồng thời mô tả tình cảnh "đau lòng" ở thủ đô Afghanistan.
+"	CH	5	punct
+Đó	P	5	nsubj
+là	V	5	cop
+một	M	5	nummod
+thực tế	N	0	root
+"	CH	5	punct
+,	CH	11	punct
+cựu	A	9	nummod
+lính	N	11	nsubj
+biệt kích	N	9	nmod
+nói	V	5	parataxis
+,	CH	15	punct
+đồng thời	C	15	advmod
+mô	P	15	nsubj
+tả	V	5	conj
+tình cảnh	N	15	obj
+"	CH	18	punct
+đau lòng	A	16	amod
+"	CH	18	punct
+ở	E	21	case
+thủ đô	N	18	obl
+Afghanistan	Np	21	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 867
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Anh tiết lộ, bản thân hiện thấy rất sợ khi phải quay lại sân bay Kabul vì không biết làm cách nào để có thể đảm bảo việc đi lại an toàn cho bản thân và các nhân viên.
+Anh	Nc	2	det:clf
+tiết lộ	V	6	nsubj
+,	CH	4	punct
+bản thân	N	2	appos
+hiện	N	4	nmod
+thấy	V	0	root
+rất	R	8	advmod
+sợ	V	6	acomp
+khi	N	8	obl:tmod
+phải	V	11	aux
+quay	V	9	acl:tmod
+lại	V	11	compound:svc
+sân bay	N	11	obj
+Kabul	Np	13	compound
+vì	E	17	mark
+không	R	17	advmod:neg
+biết	V	6	advcl
+làm	V	17	xcomp
+cách	N	18	obj
+nào	P	19	det:pmod
+để	E	23	mark:pcomp
+có thể	R	23	aux
+đảm bảo	V	17	advcl:objective
+việc	N	23	obj
+đi lại	V	24	acl:subj
+an toàn	A	25	obj
+cho	E	28	case
+bản thân	N	25	obl:comp
+và	C	31	cc
+các	L	31	det
+nhân viên	N	28	conj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 868
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ Quốc phòng Anh đã lên tiếng phủ nhận chiếc máy bay vận tải gần như trống trơn nói trên là của đất nước họ.
+Bộ	N	2	det:clf
+Quốc phòng	N	5	nsubj
+Anh	Np	2	nmod
+đã	R	5	advmod
+lên tiếng	V	0	root
+phủ nhận	V	8	nummod
+chiếc	Nc	6	clf
+máy bay	N	5	obj
+vận tải	V	8	nmod
+gần	A	13	advmod:adj
+như	C	13	case
+trống trơn	A	13	nsubj
+nói	V	8	acl:subj
+trên	N	13	case
+là	V	17	cop
+của	E	17	case
+đất nước	N	13	obl
+họ	P	17	nmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 869
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giống như các đồng minh phương Tây, Chính phủ Anh đã hứng chịu vô số chỉ trích vì không hành động sớm hơn để sơ tán công dân và những người tị nạn, khi Taliban khép chặt vòng vây Kabul.
+Giống	A	11	advcl
+như	C	4	case
+các	L	4	det
+đồng minh	N	1	obl
+phương	N	4	nmod
+Tây	Np	5	nmod
+,	CH	11	punct
+Chính phủ	N	11	nsubj
+Anh	Np	8	nmod
+đã	R	11	advmod
+hứng chịu	V	0	root
+vô số	L	13	nummod
+chỉ trích	N	11	obj
+vì	E	16	mark
+không	R	16	advmod:neg
+hành động	V	11	advcl
+sớm	A	16	acomp
+hơn	A	17	advmod:adj
+để	E	20	mark:pcomp
+sơ tán	V	16	advcl:objective
+công dân	N	20	obj
+và	C	24	cc
+những	L	24	det
+người	Nc	21	conj
+tị nạn	V	24	nmod
+,	CH	27	punct
+khi	N	25	conj
+Taliban	Np	27	nmod
+khép	V	27	acl:tmod
+chặt	A	29	acomp
+vòng vây	N	32	case
+Kabul	Np	29	obj
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 870
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ trưởng Quốc phòng Anh James Heappey cam kết, quân đội nước này sẽ làm mọi cách để di tản được càng nhiều người càng tốt, nhưng thú nhận không thể sơ tán tất cả.
+Bộ trưởng	N	11	nsubj
+Quốc phòng	N	1	compound
+Anh	Nc	4	det:clf
+James Heappey	Np	1	nmod
+cam kết	V	4	compound
+,	CH	11	punct
+quân đội	N	11	nsubj
+nước	N	7	compound
+này	P	7	det:pmod
+sẽ	R	11	advmod
+làm	V	0	root
+mọi	L	13	det
+cách	N	11	obj
+để	E	15	mark:pcomp
+di tản	V	11	advcl:objective
+được	V	15	advmod
+càng	R	19	advmod
+nhiều	A	19	advmod:adj
+người	Nc	15	obj
+càng	R	21	advmod
+tốt	A	19	acl:subj
+,	CH	26	punct
+nhưng	C	26	mark
+thú nhận	V	26	advmod
+không thể	R	26	advmod:neg
+sơ tán	V	21	conj
+tất cả	P	26	obj
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 871
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỹ từng nhận cảnh báo về khủng hoảng ở Afghanistan
+Mỹ	Np	3	nsubj
+từng	R	3	advmod
+nhận	V	0	root
+cảnh báo	N	3	obj
+về	E	6	case
+khủng hoảng	N	3	obl:comp
+ở	E	8	case
+Afghanistan	Np	3	obl
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 872
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hàng chục nhà ngoại giao làm việc tại Đại sứ quán Mỹ ở Afghanistan từng cảnh báo Ngoại trưởng Antony Blinken từ hồi tháng 7 rằng Kabul có nguy cơ rơi vào tay Taliban ngay sau khi Mỹ rút quân.
+Hàng	R	2	advmod
+chục	M	3	nummod
+nhà	N	21	nsubj
+ngoại giao	N	3	compound
+làm việc	V	3	acl:subj
+tại	E	7	case
+Đại sứ quán	N	5	obl
+Mỹ	Np	7	compound
+ở	E	10	case
+Afghanistan	Np	7	nmod
+từng	R	12	advmod
+cảnh báo	N	5	obl
+Ngoại trưởng	N	12	compound
+Antony Blinken	Np	12	nmod
+từ	E	16	case
+hồi	N	5	obl:tmod
+tháng	N	16	compound
+7	M	17	flat:date
+rằng	C	21	mark
+Kabul	Np	21	nsubj
+có	V	0	root
+nguy cơ	N	21	obj
+rơi	V	22	acl:subj
+vào	E	25	case
+tay	N	23	obl:comp
+Taliban	Np	25	compound
+ngay	T	29	discourse
+sau	N	29	case
+khi	N	23	obl:tmod
+Mỹ	Np	31	nsubj
+rút	V	29	acl:tmod
+quân	N	31	obj
+.	CH	21	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 873
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Wall Street Journal, đây là thông tin có trong một bức điện mật gửi đến Bộ Ngoại giao Mỹ thông qua một qua kênh bất đồng chính kiến bí mật.
+Theo	V	6	advcl
+Wall Street Journal	Np	1	obj
+,	CH	6	punct
+đây	P	6	nsubj
+là	V	6	cop
+thông tin	N	0	root
+có	V	6	acl:subj
+trong	E	10	case
+một	M	10	nummod
+bức điện	N	7	obj
+mật	N	10	compound
+gửi	V	10	acl:subj
+đến	E	14	case
+Bộ	N	12	obl:comp
+Ngoại giao	N	12	obl:comp
+Mỹ	Np	15	compound
+thông qua	V	12	xcomp
+một	M	20	nummod
+qua	E	18	clf
+kênh	N	17	obj
+bất đồng	N	20	nmod
+chính kiến	V	21	compound
+bí mật	A	22	amod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 874
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, các nhà ngoại giao đã nêu chi tiết sự trỗi dậy mạnh mẽ của Taliban trên khắp Afghanistan, sự sụp đổ nhanh chóng của các lực lượng vũ trang của chính phủ Kabul, đồng thời đưa ra những khuyến nghị đẩy nhanh các nỗ lực di tản.
+Trong	E	2	case
+đó	P	8	obl
+,	CH	8	punct
+các	L	5	det
+nhà	N	8	nsubj
+ngoại giao	N	5	compound
+đã	R	8	advmod
+nêu	V	0	root
+chi tiết	N	10	advmod:adj
+sự	N	8	obj
+trỗi	V	10	nmod
+dậy	V	11	acl:subj
+mạnh mẽ	A	12	obj
+của	E	15	case
+Taliban	Np	11	nmod:poss
+trên	E	17	case
+khắp	A	18	advmod:adj
+Afghanistan	Np	12	obl
+,	CH	20	punct
+sự	N	17	conj
+sụp đổ	V	20	acl:tonp
+nhanh chóng	A	21	amod
+của	E	25	case
+các	L	25	det
+lực lượng vũ trang	N	20	nmod:poss
+của	E	27	case
+chính phủ	N	20	nmod:poss
+Kabul	Np	27	compound
+,	CH	31	punct
+đồng thời	C	31	advmod
+đưa	V	8	conj
+ra	V	31	compound:dir
+những	L	34	det
+khuyến nghị	N	31	obj
+đẩy	V	34	acl:subj
+nhanh	A	35	advmod:adj
+các	L	38	det
+nỗ lực	N	35	obj
+di tản	V	38	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 875
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bức điện được cho là gửi đi từ ngày 13/7, sử dụng các ngôn từ gay gắt hơn mô tả những hành động Taliban đang thực hiện, và nhấn mạnh các quan chức trên thực địa từng đưa ra những cảnh báo rõ ràng tới chính phủ Mỹ về sự phát triển của lực lượng này.
+Bức điện	N	3	nsubj:pass
+được	V	3	aux:pass
+cho	V	0	root
+là	C	5	mark
+gửi	V	3	ccomp
+đi	V	5	compound:svc
+từ	E	8	case
+ngày	N	5	obl:tmod
+13/7	M	8	compound
+,	CH	11	punct
+sử dụng	V	8	conj
+các	L	13	det
+ngôn từ	N	11	obj
+gay gắt	A	13	compound
+hơn	A	5	conj
+mô tả	V	15	obl:adj
+những	L	18	det
+hành động	N	16	obj
+Taliban	Np	18	compound
+đang	R	21	advmod
+thực hiện	V	18	acl:subj
+,	CH	30	punct
+và	C	30	cc
+nhấn mạnh	V	30	nsubj
+các	L	26	det
+quan chức	N	30	nsubj
+trên	E	28	case
+thực địa	N	26	nmod
+từng	R	30	advmod
+đưa	V	5	conj
+ra	V	30	compound:dir
+những	L	33	det
+cảnh báo	N	30	obj
+rõ ràng	A	33	amod
+tới	E	36	case
+chính phủ	N	30	obl:comp
+Mỹ	Np	36	compound
+về	E	39	case
+sự	N	30	obl:comp
+phát triển	V	39	compound:vmod
+của	E	42	case
+lực lượng	N	39	nmod:poss
+này	P	42	det:pmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 876
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thông tin được Wall Street Journal đưa ra trong bối cảnh Mỹ đang tìm cách di tản từ 10.000 đến 15.000 công dân vẫn còn kẹt lại Afghanistan, cùng hơn 80.000 người Afghanistan có đủ điều kiện tị nạn dựa trên công việc của họ với quân đội và chính phủ Mỹ.
+Thông tin	N	4	nsubj:pass
+được	V	4	aux:pass
+Wall Street Journal	Np	4	obl:agent
+đưa	V	0	root
+ra	V	4	compound:dir
+trong	E	7	case
+bối cảnh	N	4	obl
+Mỹ	Np	7	compound
+đang	R	10	advmod
+tìm	V	7	acl:subj
+cách	N	10	obj
+di tản	V	11	nmod
+từ	E	14	case
+10.000	M	11	nmod
+đến	E	16	case
+15.000	M	14	nmod
+công dân	N	16	compound
+vẫn	R	20	advmod
+còn	R	20	advmod
+kẹt	V	4	conj
+lại	V	20	compound:svc
+Afghanistan	Np	20	obj
+,	CH	29	punct
+cùng	A	20	conj
+hơn	A	26	advmod:adj
+80.000	M	27	nummod
+người	N	29	nsubj
+Afghanistan	Np	29	nsubj
+có	V	20	conj
+đủ	A	31	advmod:adj
+điều kiện	N	29	obj
+tị nạn	V	31	nmod
+dựa	V	31	acl:subj
+trên	E	35	case
+công việc	N	33	obl:comp
+của	E	37	case
+họ	P	35	nmod:poss
+với	E	39	case
+quân đội	N	33	obl:comp
+và	C	41	cc
+chính phủ	N	39	conj
+Mỹ	Np	41	nmod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 877
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lính Mỹ di tản một số người dân Afghanistan tại sân bay Hamid Karzai ở Kabul.
+Lính	N	3	nsubj
+Mỹ	Np	1	compound
+di tản	V	0	root
+một số	L	5	det
+người	N	1	conj
+dân	N	5	compound
+Afghanistan	Np	6	compound
+tại	E	9	case
+sân bay	N	6	obl
+Hamid Karzai	Np	9	compound
+ở	E	12	case
+Kabul	Np	9	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 878
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bức điện cũng kêu gọi Bộ Ngoại giao Mỹ sớm triển khai đăng ký và thu thập dữ liệu cá nhân của các thông dịch viên Afghanistan và những người đủ điều kiện xin thị thực nhập cư đặc biệt để rời khỏi quốc gia này, đồng thời cho biết Mỹ nên khởi động các chuyến bay di tản trong thời gian muộn nhất là ngày 1/8.
+Bức điện	N	3	nsubj
+cũng	R	3	advmod
+kêu gọi	V	0	root
+Bộ	N	5	det:clf
+Ngoại giao	N	3	obj
+Mỹ	Np	5	compound
+sớm	A	8	advmod:adj
+triển khai	V	3	ccomp
+đăng ký	V	8	acl:subj
+và	C	11	cc
+thu thập dữ liệu	N	9	conj
+cá nhân	N	11	nmod
+của	E	15	case
+các	L	15	det
+thông dịch viên	N	11	nmod:poss
+Afghanistan	Np	15	compound
+và	C	19	cc
+những	L	19	det
+người	Nc	11	conj
+đủ	A	19	acl:subj
+điều kiện	N	20	obj
+xin	V	19	acl:subj
+thị thực	V	22	obj
+nhập cư	V	22	obj
+đặc biệt	A	22	acomp
+để	E	27	mark:pcomp
+rời	V	22	advcl:objective
+khỏi	V	27	compound:svc
+quốc gia	N	27	obj
+này	P	29	det:pmod
+,	CH	33	punct
+đồng thời	C	33	cc
+cho	V	27	conj
+biết	V	33	xcomp
+Mỹ	Np	34	obj
+nên	C	37	mark
+khởi động	V	33	xcomp
+các	L	39	det
+chuyến	N	37	obj
+bay	V	39	nmod
+di tản	A	40	nmod
+trong	E	43	case
+thời gian	N	37	obl
+muộn	A	43	amod
+nhất	R	44	advmod
+là	V	47	cop
+ngày	N	33	ccomp
+1/8	M	47	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 879
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kênh bất đồng chính kiến, mỗi năm chỉ được sử dụng một vài lần, cho phép các quan chức Bộ Ngoại giao Mỹ bày tỏ quan ngại với các quyết định của chính phủ nước này.
+Kênh	N	9	nsubj:pass
+bất đồng	V	1	nmod
+chính kiến	N	1	nmod
+,	CH	9	punct
+mỗi	L	6	det
+năm	N	9	obl:tmod
+chỉ	R	9	advmod
+được	V	9	aux:pass
+sử dụng	V	0	root
+một vài	L	11	nummod
+lần	N	9	obj
+,	CH	19	punct
+cho phép	V	9	conj
+các	L	15	det
+quan chức	N	19	nsubj
+Bộ	N	15	nmod
+Ngoại giao	N	16	compound
+Mỹ	Np	16	compound
+bày tỏ	V	13	ccomp
+quan ngại	V	19	obj
+với	E	23	case
+các	L	23	det
+quyết định	N	19	obl:comp
+của	E	25	case
+chính phủ	N	23	nmod:poss
+nước	N	23	nmod:poss
+này	P	26	det:pmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 880
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Wall Street Journal, tổng cộng 23 nhân viên ngoại giao đã ký vào bức điện được gửi hôm 13/7 đến Ngoại trưởng Antony Blinken và Salman Ahmed, Giám đốc hoạch định chính sách của Bộ Ngoại giao Mỹ.
+Theo	V	9	advcl
+Wall Street Journal	Np	1	obj
+,	CH	9	punct
+tổng cộng	V	6	advmod
+23	M	6	nummod
+nhân viên	N	9	nsubj
+ngoại giao	N	6	nmod
+đã	R	9	advmod
+ký	V	0	root
+vào	E	11	case
+bức điện	N	9	obl:comp
+được	V	13	aux:pass
+gửi	V	11	acl:subj
+hôm	N	13	obj
+13/7	V	14	compound
+đến	E	17	case
+Ngoại trưởng	N	13	obl:comp
+Antony Blinken	Np	17	compound
+và	C	20	cc
+Salman Ahmed	Np	17	conj
+,	CH	22	punct
+Giám đốc	N	17	conj
+hoạch định	V	22	nmod
+chính sách	N	23	compound
+của	E	26	case
+Bộ	N	24	nmod:poss
+Ngoại giao	N	26	compound
+Mỹ	Np	27	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 881
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phản ứng trước thông tin trên, Ủy ban Đối ngoại của Hạ viện Mỹ đã yêu cầu Ngoại trưởng Blinken trình diện trước các nhà lập pháp để thảo luận về kế hoạch rút quân của chính phủ Mỹ.
+Phản ứng	V	12	advcl
+trước	E	3	case
+thông tin	N	1	obl
+trên	N	3	compound
+,	CH	12	punct
+Ủy ban	N	12	nsubj
+Đối ngoại	N	6	compound
+của	E	9	case
+Hạ viện	N	6	nmod:poss
+Mỹ	Np	9	compound
+đã	R	12	advmod
+yêu cầu	V	0	root
+Ngoại trưởng	N	12	obj
+Blinken	Np	12	obj
+trình diện	V	14	compound
+trước	E	18	case
+các	L	18	det
+nhà	N	12	obl
+lập pháp	N	18	compound
+để	E	21	mark:pcomp
+thảo luận	V	12	advcl:objective
+về	E	23	case
+kế hoạch	N	21	obl:comp
+rút	V	23	acl:subj
+quân	N	24	obj
+của	E	27	case
+chính phủ	N	23	nmod:poss
+Mỹ	Np	27	compound
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 882
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nghị sĩ Michael McCaul, một thành viên cấp cao của ủy ban, cho biết ông muốn có thông tin đầy đủ về bức điện này và bất kỳ cảnh báo nào khác từng được gửi tới chính quyền Tổng thống Joe Biden.
+Nghị sĩ	N	2	det:clf
+Michael McCaul	Np	11	nsubj
+,	CH	5	punct
+một	M	5	nummod
+thành viên	N	2	appos
+cấp	N	5	nmod
+cao	A	6	amod
+của	E	9	case
+ủy ban	N	5	nmod:poss
+,	CH	5	punct
+cho	V	0	root
+biết	V	11	compound:svc
+ông	Nc	15	nsubj
+muốn	V	15	aux
+có	V	11	ccomp
+thông tin	N	15	obj
+đầy đủ	A	16	acl:subj
+về	E	19	case
+bức điện	N	17	obl:comp
+này	P	19	det:pmod
+và	C	28	cc
+bất kỳ	R	23	det
+cảnh báo	N	28	nsubj:pass
+nào	P	23	det:pmod
+khác	A	28	advmod:adj
+từng	R	28	advmod
+được	V	28	aux:pass
+gửi	V	15	conj
+tới	E	30	case
+chính quyền	N	28	obl:comp
+Tổng thống	N	30	nmod
+Joe Biden	Np	31	compound
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 883
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong nhiều tháng, các đồng nghiệp của tôi đã thỉnh cầu chính quyền Tổng thống Biden di tản càng nhiều đối tác người Afghanistan của chúng ta càng tốt trước khi họ bị Taliban tìm thấy và sát hại.
+Trong	E	3	case
+nhiều	A	3	advmod:adj
+tháng	N	10	obl:tmod
+,	CH	10	punct
+các	L	6	det
+đồng nghiệp	N	10	nsubj
+của	E	8	case
+tôi	P	6	nmod:poss
+đã	R	10	advmod
+thỉnh cầu	V	0	root
+chính quyền	N	10	obj
+Tổng thống	N	11	nmod
+Biden	Np	12	compound
+di tản	V	12	compound
+càng	R	17	advmod
+nhiều	A	17	advmod:adj
+đối tác	N	23	nsubj
+người	N	17	nmod
+Afghanistan	Np	18	compound
+của	E	21	case
+chúng ta	P	17	nmod:poss
+càng	R	23	advmod
+tốt	A	10	conj
+trước	E	25	case
+khi	N	23	obl:tmod
+họ	P	28	nsubj:pass
+bị	V	29	aux:pass
+Taliban	Np	25	acl:tmod
+tìm	V	28	xcomp
+thấy	V	29	compound:svc
+và	C	32	cc
+sát hại	V	29	conj
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 884
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Tuy nhiên, chính phủ đã phớt lờ những lời kêu gọi này", nghị sĩ Michael McCaul nói trong một tuyên bố.
+"	CH	6	punct
+Tuy nhiên	C	6	cc
+,	CH	6	punct
+chính phủ	N	6	nsubj
+đã	R	6	advmod
+phớt lờ	V	0	root
+những	L	8	det
+lời	N	6	obj
+kêu gọi	V	8	nmod
+này	P	8	det:pmod
+"	CH	6	punct
+,	CH	15	punct
+nghị sĩ	N	15	nsubj
+Michael McCaul	Np	15	nsubj
+nói	V	6	parataxis
+trong	E	18	case
+một	M	18	nummod
+tuyên bố	N	15	obl
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 885
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu những báo cáo trên là đúng sự thật, điều này đồng nghĩa với việc chính phủ đang cố tình phớt lờ những lời khẩn cầu từ chính người dân của mình ở Kabul và những cảnh báo của họ về việc tình hình ở đây đang thực sự tồi tệ như thế nào.
+Nếu	C	6	mark
+những	L	3	det
+báo cáo	N	6	nsubj
+trên	N	3	amod
+là	V	6	cop
+đúng	A	16	advcl
+sự thật	N	6	obj
+,	CH	11	punct
+điều	N	11	nsubj
+này	P	9	det:pmod
+đồng nghĩa	A	6	conj
+với	E	13	case
+việc	N	11	obl:comp
+chính phủ	N	16	nsubj
+đang	R	16	advmod
+cố tình	V	0	root
+phớt lờ	V	16	xcomp
+những	L	19	det
+lời	N	17	obj
+khẩn cầu	V	19	compound
+từ	E	23	case
+chính	T	23	discourse
+người	N	19	nmod
+dân	N	23	compound
+của	E	26	case
+mình	P	23	nmod:poss
+ở	E	28	case
+Kabul	Np	23	nmod
+và	C	31	cc
+những	L	31	det
+cảnh báo	N	19	conj
+của	E	33	case
+họ	P	31	nmod:poss
+về	E	35	case
+việc	N	31	nmod
+tình hình	N	40	nsubj
+ở	E	38	case
+đây	P	36	obl
+đang	R	40	advmod
+thực sự	A	35	acl:subj
+tồi tệ	A	40	compound:adj
+như	C	43	case
+thế nào	P	40	obl
+.	CH	16	punct
