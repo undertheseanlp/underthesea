@@ -1,4 +1,4 @@
-from os.path import dirname, join
+from os.path import dirname, join, exists
 from torch.utils.data import Dataset
 from underthesea import pos_tag
 from underthesea import dependency_parse
@@ -118,15 +118,17 @@ class UDDataset(Dataset):
 
 
 if __name__ == '__main__':
-    raw_file = join(COL_FOLDER, "corpus", "raw", "202108.txt")
+    file = "lyrics.txt"  # lyrics.txt or 202108.txt
+    raw_file = join(COL_FOLDER, "corpus", "raw", file)
     generated_dataset = UDDataset.load_from_raw_file(raw_file)
 
-    current_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
-    current_dataset = UDDataset.load(current_file)
+    current_file = join(COL_FOLDER, "corpus", "ud", file)
+    if exists(current_file):
+        current_dataset = UDDataset.load(current_file)
 
-    generated_dataset.merge(current_dataset)
+        generated_dataset.merge(current_dataset)
 
-    target_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
+    target_file = join(COL_FOLDER, "corpus", "ud", file)
     generated_dataset.write(target_file)
 
     analyzer = UDAnalyzer()
