@@ -3972,3 +3972,453 @@ Bác sĩ Trường cho biết, bệnh viện đã liên hệ với người nhà
 # date = 20210819
 # sent_id = 795
 “Gia đình chị N. cũng đã chấp nhận lời xin lỗi và nhận lại tiền”, bác sĩ Trường thông tin.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 796
+Bộ trưởng Quốc phòng Nga lái xe tăng ở thao trường Tank Biathlon
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 797
+Bộ trưởng Quốc phòng Nga Sergey Shoygu đã đến thao trường Alabino gần thủ đô Moscow, để kiểm tra công tác chuẩn bị cho cuộc thi Tank Biathlon.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 798
+Video được Bộ Quốc phòng Nga đăng tải hôm 19/8 cho thấy, ông Shoygu mặc quân phục của binh chủng tăng-thiết giáp Nga và lái chiếc xe tăng T-80BVM đi khoảng 4km, để kiểm tra chất lượng đường đua thao trường Alabino, nơi sẽ diễn ra cuộc thi Xe tăng hành tiến – Tank Biathlon thuộc khuôn khổ hội thao quân sự Army Games 2021.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 799
+Ông Shoygu sau đó đã đánh giá cao sự sẵn sàng về cơ sở vật chất của thao trường Alabino, đồng thời chúc các đội tham gia Tank Biathlon sẽ thi đấu thành công.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/quan-su/bo-truong-quoc-phong-nga-lai-xe-tang-o-thao-truong-tank-biathlon-767507.html
+# date = 20210820
+# sent_id = 800
+Dự kiến, trận đấu đầu tiên tại vòng loại Tank Biathlon của đội tuyển xe tăng Việt Nam sẽ diễn ra lúc 16h ngày 23/8 (giờ Nga), sau lễ khai mạc Army Games 2021.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 801
+Biểu tình chống Taliban lan rộng ở Afghanistan
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 802
+Hôm nay (19/8) biểu tình chống Taliban đã diễn ra ở nhiều thành phố của Afghanistan hơn, khi sự phản đối của người dân với lực lượng này lan rộng.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 803
+Taliban thâu tóm Afghanistan, Tajikistan - Trung Quốc gấp rút tập trận chung
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 804
+Theo hãng tin Reuters, một video được đăng trên mạng xã hội cho thấy, một đám đông gồm cả nam lẫn nữ vẫy quốc kỳ tại thủ đô Kabul và hô vang khẩu hiệu “Cờ của chúng ta, bản sắc của chúng ta” vào đúng thời điểm Afghanistan mừng Ngày Độc lập.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 805
+Một nhân chứng cho biết, có tiếng súng vang lên gần khu vực biểu tình nhưng dường như là các tay súng Taliban chỉ bắn chỉ thiên.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 806
+Một số cuộc biểu tình có quy mô nhỏ nhưng kết hợp với hàng nghìn người đang tìm cách tới sân bay Kabul để rời đất nước, nên nó đã nhấn mạnh thách thức mà Taliban phải đối mặt trong việc cai quản Afghanistan.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 807
+Kể từ khi chiếm được Kabul vào cuối tuần trước, Taliban thể hiện bộ mặt ôn hoà hơn với thế giới.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 808
+Lực lượng này tuyên bố, họ muốn hoà bình và sẽ không trả thù những kẻ thù cũ, tôn trọng quyền của phụ nữ trong khuôn khổ luật Hồi giáo.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 809
+Tại Asadabad, thủ phủ tỉnh miền đông Kunar, một số người đã thiệt mạng khi tham gia biểu tình.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/bieu-tinh-chong-taliban-lan-rong-o-afghanistan-767432.html
+# date = 20210820
+# sent_id = 810
+Tuy nhiên, hiện chưa rõ thương vong này là do lực lượng Taliban nổ súng hay do dẫm đạp gây ra, nhân chứng Mohammed Salim nói.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 811
+Malaysia có tân Thủ tướng
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 812
+Quốc vương Malaysia Al-Sultan Abdullah chiều nay (20/8) đã công bố quyết định bổ nhiệm ông Ismail Sabri Yaakob trở thành tân Thủ tướng của nước này.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 813
+Theo CNBC, quyết định trên được đưa ra sau khi quy trình xác nhận Thủ tướng mới của Quốc hội Malaysia được hoàn tất.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 814
+Theo đó, ông Ismail Sabri Yaakob, Phó Chủ tịch đảng Tổ chức Dân tộc Mã Lai thống nhất (UMNO) nhận được sự ủng hộ của 114 trong tổng số 220 nhà lập pháp, vượt mức ủng hộ tối thiểu theo luật định để trở thành người đầu đứng đầu Chính phủ Malaysia.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 815
+Ông Ismail Sabri Yaakob trở thành Thủ tướng thứ 9, và là Thủ tướng thứ 3 được bổ nhiệm chỉ trong vòng hơn 3 năm của Malaysia, kể từ sau chiến thắng đầy bất ngờ của cựu Thủ tướng Mahathir Mohamad hồi năm 2018.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 816
+Ông Ismail Sabri Yaakob chính thức được bổ nhiệm làm tân Thủ tướng Malaysia.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 817
+Tân Thủ tướng Yaakob dự kiến sẽ tuyên thệ nhậm chức vào ngày 21/8 với một nghi lễ truyền thống do Quốc vương chủ trì tại Hoàng cung Malaysia.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 818
+Ông Ismail Sabri Yaakob, năm nay 61 tuổi, là một chính khách kỳ cựu của UMNO, chính đảng lâu đời và lớn nhất tại Malaysia.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 819
+Ông xuất thân là luật sư, sau đó tham gia chính trường và trải qua nhiều cương vị trong Chính phủ Malaysia thuộc các lĩnh vực từ thanh niên, thể thao, cho đến thương mại và nông nghiệp...
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/malaysia-co-tan-thu-tuong-767685.html
+# date = 20210820
+# sent_id = 820
+Chức vụ gần đây nhất mà ông Yaakob đảm nhiệm là Phó Thủ tướng.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 821
+Cuộc trốn chạy khỏi Taliban của những người trong chính quyền cũ Afghanistan
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 822
+Ngay sau khi giành quyền kiểm soát Afghanistan, Taliban bắt đầu truy tìm hàng ngàn binh lính, quan chức an ninh làm việc cho chính quyền cũ cũng như những người từng cộng tác với Mỹ và liên quân.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 823
+Theo báo New York Times, hàng đoàn xe bọc thép và xe bán tải chở binh lính Afghanistan đã chạy trốn xuyên qua sa mạc tới Iran.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 824
+Các phi công quân đội tìm cách cho máy bay di chuyển hết tốc lực ở tầm thấp tới nơi trú ẩn an toàn ở các dãy núi của Uzbekistan.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 825
+Các binh sĩ Afghanistan vứt bỏ vũ khí, mặc thường phục trà trộn vào đám đông dân thường đang tìm cách chạy trốn khỏi Kabul khi Taliban tràn vào thủ đô ngày 15/8.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 826
+Trong vài tuần trở lại đây, hàng nghìn thành viên lực lượng an ninh chính phủ Afghanistan đã đào tẩu ra nước ngoài, trong bối cảnh Taliban xúc tiến chiến dịch tổng tiến công thần tốc trên khắp toàn quốc.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 827
+Một vài trong số họ đã thương lượng để đầu hàng và trở về nhà.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 828
+Một số khác tiếp tục cầm vũ khí và gia nhập phe thắng trận.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 829
+Tuy nhiên, vẫn còn hàng nghìn binh sĩ, lính biệt kích, phi công và điệp viên từng chiến đấu tới giây phút cuối bất chấp chính quyền Kabul đã sớm bỏ cuộc.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 830
+Họ bị bỏ rơi và hiện phải lẩn trốn trước sự săn đuổi của Taliban.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 831
+Các báo cáo nhỏ giọt cho thấy, Taliban đang truy tìm những người mà họ tin đã sát cánh chiến đấu cùng binh lính Mỹ và NATO, bất chấp việc đại diện phong trào Hồi giáo tuyên bố sẽ ân xá cho người của chính quyền cũ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 832
+Những người đàn ông đang đi bộ trên đất Thổ Nhĩ Kỳ này tiết lộ họ là lính Afghanistan đào ngũ, đang tìm đường đến Iran.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 833
+Theo các cựu quan chức trong chính quyền Afghanistan trước đây và một báo cáo tối mật gửi Liên Hợp Quốc, các tay súng Taliban đang đe dọa bắt giữ hoặc trừng phạt thân nhân trong gia đình của người bị truy nã nếu không thể tìm thấy họ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 834
+Các cựu binh Mỹ nhận được lời cầu cứu từ những người dân địa phương từng hợp tác với họ cũng xác nhận điều này.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 835
+Hiện không rõ có bao nhiêu người đang chạy trốn, ngoài gần 600 người đã được 22 máy bay và 24 trực thăng chở tới Uzbekistan cuối tuần trước cũng như những người đã đào thoát sang Iran.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 836
+Trên giấy tờ, lực lượng an ninh Afghanistan có khoảng 300.000 thành viên.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 837
+Song, các quan chức Mỹ nói, do tham nhũng, đào ngũ và thương vong, chỉ có 1/6 số lượng này, tương đương 50.000 người thực tế đã chiến đấu chống Taliban trong năm 2021.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 838
+Theo các cựu quan chức Afghanistan, Taliban đã lục soát hồ sơ tại các Bộ Quốc phòng, Bộ Nội vụ và Tổng cục tình báo quốc gia để lập danh sách các đối tượng cần săn lùng.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 839
+Nhóm đang hướng sự tập trung vào lực lượng biệt kích tinh nhuệ gồm 18.000 người của chính phủ cũ, với phần lớn số này đã không đầu hàng.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 840
+Một phần trong số họ đã tới ẩn náu ở thung lũng Panjshir, một vùng lòng chảo chiến lược ở phía Bắc Kabul, nơi các lãnh đạo chính phủ cũ đang tìm cách tái lập lực lượng kháng cự Taliban.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 841
+Nhóm này được tin có khoảng 2.000 - 2.500 người.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 842
+Một trực thăng quân sự Afghanistan ở tỉnh Panjshir ngày 16/8.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 843
+Hơn 20 năm trước, lãnh đạo người Panjshir là Ahmed Shah Massoud đã tập hợp lực lượng ở thung lũng để chống lại Taliban suốt nhiều năm.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 844
+Họ về sau đã nhận được sự hỗ trợ của Mỹ và các đồng minh trong chiến dịch lật đổ Taliban năm 2001.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 845
+Tuy nhiên, người Panjshir hiện thiếu vũ khí hạng nặng, sự trợ giúp đáng kể của cộng đồng quốc tế cũng như một lãnh đạo có khả năng đoàn kết như ông Massoud.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 846
+Ngày càng có nhiều báo cáo hé lộ Taliban đã có hành động trả thù nhanh chóng và tàn khốc đối với những người trong danh sách truy nã bị bắt.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 847
+Một cựu thông dịch viên cho Lực lượng đặc nhiệm Mỹ ở Afghanistan kể, anh đã chứng kiến Taliban bắn chết một người tình nghi từng cộng tác với quân đội nước ngoài.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 848
+Một đoạn ghi hình tuần trước, được hãng tin RTA đăng tải cho thấy, hàng chục thi thể nằm la liệt trên đường ở thành phố miền nam Kandahar.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 849
+Nhiều thi thể là binh sĩ và quan chức trong chính quyền cũ bị Taliban xử tử.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/ho-so/taliban-bat-dau-san-lung-nguoi-chinh-quyen-cu-o-afghanistan-cuong-cuong-chay-tron-767729.html
+# date = 20210820
+# sent_id = 850
+Taliban hiện đã thâu tóm quyền kiểm soát RTA.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 851
+Ảnh máy bay vận tải trống không rời Kabul gây 'bão mạng'
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 852
+Trong lúc đám đông người Afghanistan tuyệt vọng chờ cơ hội được đi sơ tán bên ngoài sân bay Kabul, bức ảnh do một người di tản chụp máy bay vận tải gần như trống không khiến cộng đồng mạng dậy sóng.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 853
+Paul ‘Pen’ Farthing, một cựu lính biệt kích thuộc Thủy quân lục chiến Hoàng gia Anh đang điều hành một trại cứu hộ động vật ở Kabul, đã chia sẻ bức ảnh do vợ anh - Kaisa chụp trong lúc cô được sơ tán khỏi thủ đô Afghanistan.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 854
+Bức ảnh do vợ chụp được anh Farthing chia sẻ trên trang Twitter cá nhân.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 855
+Trong ảnh là cảnh tượng thiếu sáng bên trong chiếc máy bay vận tải quân sự bị bỏ trống hầu hết các ghế.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 856
+Kaisa đang trên đường về nhà.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 857
+Tuy nhiên, máy bay trống không ... thật tai tiếng khi hàng nghìn người chờ đợi bên ngoài sân bay Kabul bị ngã quỵ vì họ không thể lên máy bay.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 858
+"Đáng buồn thay, mọi người sẽ bị bỏ lại phía sau khi sứ mệnh này kết thúc, vì chúng ta không thể làm nó một cách đúng đắn", Farthing viết trên Twitter hôm 19/8.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 859
+Farthing sau đó chia sẻ với hãng thông tấn Sky News rằng, anh và người vợ mang quốc tịch Na Uy của mình đã đến sân bay vào ban đêm để tránh đám đông đang tụ tập trước sân bay kể từ khi Kabul lọt vào tay Taliban ngày 15/8.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 860
+Vợ Farthing đã quyết định rời Afghanistan để về quê hương Na Uy.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 861
+Song, anh chọn ở lại, quả quyết sẽ chỉ rời đi khi tất cả 71 nhân viên người Afghanistan của mình được sơ tán cùng gia đình họ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 862
+Kaisa đã may mắn có được một chỗ ngồi trên một chuyến bay di tản khỏi quốc gia Nam Á, nhưng rõ ràng cô rất ngạc nhiên khi mình là một trong những hành khách ít ỏi trên đó.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 863
+Theo Farthing, các máy bay đang cất cánh từ Kabul mỗi giờ "bất kể đầy hay vơi khách".
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 864
+Trong khi, nhiều người đang không thể tiếp cận sân bay do Taliban tăng cường tuần tra và thiết lập các trạm kiểm soát khắp thành phố.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 865
+Chúng ta sẽ bỏ mọi người lại phía sau.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 866
+"Đó là một thực tế", cựu lính biệt kích nói, đồng thời mô tả tình cảnh "đau lòng" ở thủ đô Afghanistan.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 867
+Anh tiết lộ, bản thân hiện thấy rất sợ khi phải quay lại sân bay Kabul vì không biết làm cách nào để có thể đảm bảo việc đi lại an toàn cho bản thân và các nhân viên.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 868
+Bộ Quốc phòng Anh đã lên tiếng phủ nhận chiếc máy bay vận tải gần như trống trơn nói trên là của đất nước họ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 869
+Giống như các đồng minh phương Tây, Chính phủ Anh đã hứng chịu vô số chỉ trích vì không hành động sớm hơn để sơ tán công dân và những người tị nạn, khi Taliban khép chặt vòng vây Kabul.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/anh-may-bay-van-tai-trong-khong-roi-kabul-gay-bao-mang-767747.html
+# date = 20210820
+# sent_id = 870
+Bộ trưởng Quốc phòng Anh James Heappey cam kết, quân đội nước này sẽ làm mọi cách để di tản được càng nhiều người càng tốt, nhưng thú nhận không thể sơ tán tất cả.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 871
+Mỹ từng nhận cảnh báo về khủng hoảng ở Afghanistan
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 872
+Hàng chục nhà ngoại giao làm việc tại Đại sứ quán Mỹ ở Afghanistan từng cảnh báo Ngoại trưởng Antony Blinken từ hồi tháng 7 rằng Kabul có nguy cơ rơi vào tay Taliban ngay sau khi Mỹ rút quân.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 873
+Theo Wall Street Journal, đây là thông tin có trong một bức điện mật gửi đến Bộ Ngoại giao Mỹ thông qua một qua kênh bất đồng chính kiến bí mật.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 874
+Trong đó, các nhà ngoại giao đã nêu chi tiết sự trỗi dậy mạnh mẽ của Taliban trên khắp Afghanistan, sự sụp đổ nhanh chóng của các lực lượng vũ trang của chính phủ Kabul, đồng thời đưa ra những khuyến nghị đẩy nhanh các nỗ lực di tản.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 875
+Bức điện được cho là gửi đi từ ngày 13/7, sử dụng các ngôn từ gay gắt hơn mô tả những hành động Taliban đang thực hiện, và nhấn mạnh các quan chức trên thực địa từng đưa ra những cảnh báo rõ ràng tới chính phủ Mỹ về sự phát triển của lực lượng này.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 876
+Thông tin được Wall Street Journal đưa ra trong bối cảnh Mỹ đang tìm cách di tản từ 10.000 đến 15.000 công dân vẫn còn kẹt lại Afghanistan, cùng hơn 80.000 người Afghanistan có đủ điều kiện tị nạn dựa trên công việc của họ với quân đội và chính phủ Mỹ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 877
+Lính Mỹ di tản một số người dân Afghanistan tại sân bay Hamid Karzai ở Kabul.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 878
+Bức điện cũng kêu gọi Bộ Ngoại giao Mỹ sớm triển khai đăng ký và thu thập dữ liệu cá nhân của các thông dịch viên Afghanistan và những người đủ điều kiện xin thị thực nhập cư đặc biệt để rời khỏi quốc gia này, đồng thời cho biết Mỹ nên khởi động các chuyến bay di tản trong thời gian muộn nhất là ngày 1/8.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 879
+Kênh bất đồng chính kiến, mỗi năm chỉ được sử dụng một vài lần, cho phép các quan chức Bộ Ngoại giao Mỹ bày tỏ quan ngại với các quyết định của chính phủ nước này.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 880
+Theo Wall Street Journal, tổng cộng 23 nhân viên ngoại giao đã ký vào bức điện được gửi hôm 13/7 đến Ngoại trưởng Antony Blinken và Salman Ahmed, Giám đốc hoạch định chính sách của Bộ Ngoại giao Mỹ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 881
+Phản ứng trước thông tin trên, Ủy ban Đối ngoại của Hạ viện Mỹ đã yêu cầu Ngoại trưởng Blinken trình diện trước các nhà lập pháp để thảo luận về kế hoạch rút quân của chính phủ Mỹ.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 882
+Nghị sĩ Michael McCaul, một thành viên cấp cao của ủy ban, cho biết ông muốn có thông tin đầy đủ về bức điện này và bất kỳ cảnh báo nào khác từng được gửi tới chính quyền Tổng thống Joe Biden.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 883
+Trong nhiều tháng, các đồng nghiệp của tôi đã thỉnh cầu chính quyền Tổng thống Biden di tản càng nhiều đối tác người Afghanistan của chúng ta càng tốt trước khi họ bị Taliban tìm thấy và sát hại.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 884
+"Tuy nhiên, chính phủ đã phớt lờ những lời kêu gọi này", nghị sĩ Michael McCaul nói trong một tuyên bố.
+
+# doc_url = https://vietnamnet.vn/vn/the-gioi/my-tung-nhan-duoc-canh-bao-ve-khung-hoang-o-afghanistan-tu-thang-7-767537.html
+# date = 20210820
+# sent_id = 885
+Nếu những báo cáo trên là đúng sự thật, điều này đồng nghĩa với việc chính phủ đang cố tình phớt lờ những lời khẩn cầu từ chính người dân của mình ở Kabul và những cảnh báo của họ về việc tình hình ở đây đang thực sự tồi tệ như thế nào.
