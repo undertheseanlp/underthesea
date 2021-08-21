@@ -52,69 +52,22 @@ ngày	N	33	ccomp
 
 
 def generate_svg_script(text):
-    output = """
-    var BrowserText = (function () {
-    var canvas = document.createElement('canvas'),
-        context = canvas.getContext('2d');
-
-    /**
-     * Measures the rendered width of arbitrary text given the font size and font face
-     * @param {string} text The text to measure
-     * @param {number} fontSize The font size in pixels
-     * @param {string} fontFace The font face ("Arial", "Helvetica", etc.)
-     * @returns {number} The width of the text
-     **/
-    function getWidth(text, fontSize, fontFace) {
-        context.font = fontSize + 'px ' + fontFace;
-        return context.measureText(text).width;
-    }
-
-    return {
-        getWidth: getWidth
-    };
-    })();
-    var svg = d3.select(element)
-  .append("svg")
-  .attr("width", 680)
-  .attr("height", 200);
-
-  var box = svg.append("rect")
-  .attr("width", "100%")
-  .attr("height", "100%")
-  .attr("fill", "#424242");
-
-    function displayText(tokens) {
-        var text = tokens.join(" ");
-        var BOX_WIDTH = 600;
-        var x = 10;
-        var y = 50;
-        var space_width = 5;
-        for (var token of tokens) {
-            var node = svg.append("text")
-                .attr("x", x)
-                .attr("y", y)
-                .text(token)
-                .attr("fill", "#c4c4c4")
-                .attr("font-family", "Time News Roman")
-                .attr("font-size", 16)
-            var w = BrowserText.getWidth(token, 16, "Time News Roman");
-            if (x + space_width > BOX_WIDTH) {
-                x = 10;
-                y += 30;
-            } else {
-                x += w + space_width;
-            }
-            console.log(0);
-        }
-    }
-    """
+    with open("ui.js") as f:
+        js_content = f.read()
+    output = js_content
     output += "var text2 =`"
     output += text
     output += '`'
+    # output += """
+    # var tokens = $.map($.trim(text2).split("\\n"), function(val, i) {
+    #     return $.trim(val).split("\\t")[0];
+    # });
+    # displayText(tokens);
+    # """
     output += """
-    var tokens = $.map($.trim(text2).split("\\n"), function(val, i) {
-        return $.trim(val).split("\\t")[0];
-    });
-    displayText(tokens);
-    """
+        var rows = $.map($.trim(text2).split("\\n"), function(val, i) {
+            return [$.trim(val).split("\\t")];
+        });
+        displayText(rows);
+        """
     return output
