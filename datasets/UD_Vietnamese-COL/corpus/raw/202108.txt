@@ -4422,3 +4422,628 @@ Trong nhiều tháng, các đồng nghiệp của tôi đã thỉnh cầu chính
 # date = 20210820
 # sent_id = 885
 Nếu những báo cáo trên là đúng sự thật, điều này đồng nghĩa với việc chính phủ đang cố tình phớt lờ những lời khẩn cầu từ chính người dân của mình ở Kabul và những cảnh báo của họ về việc tình hình ở đây đang thực sự tồi tệ như thế nào.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 886
+Các bạn tôi hay bảo, nhìn bố con anh em thèm quá, bố con em chẳng bao giờ nói chuyện với nhau được quá năm phút.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 887
+Cha tôi là một nghệ nhân trà.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 888
+Với tôi, ông vừa là cha, vừa là thầy, cũng là tri kỷ.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 889
+Giống như mẹ, tình thương của cha dành cho tôi thật lớn.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 890
+Năm 22 tuổi, tôi mắc bệnh đại tràng, người ốm yếu.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 891
+Cha đi tìm thầy thuốc khắp nơi, cặm cụi sắc thuốc, nấu ăn cho tôi hàng ngày.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 892
+Uống thuốc ròng rã mấy tháng, tôi sợ, nhìn bát thuốc là muốn ói.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 893
+Cha dỗ dành, động viên tôi uống từng ngụm như dỗ đứa trẻ.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 894
+Khi hết bệnh, thấy tôi khỏe mạnh, mọi người khen, ông chỉ mỉm cười.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 895
+Những lần tôi cấp cứu ở Bệnh viện Saint Paul Hà Nội lúc nửa đêm, cha đã 74 tuổi nhưng vẫn đưa tôi đến viện, chăm chút thâu đêm khiến các y bác sĩ và bệnh nhân cùng phòng, ai cũng cảm động.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 896
+Năm 18 tuổi, tôi theo cha lên Hà Giang nghiên cứu những cánh rừng trà cổ thụ.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 897
+Tận mắt chứng kiến cuộc sống cực khổ của người Mông, Dao nơi đây, đêm nằm, tôi thao thức không ngủ được, "con thương họ quá".
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 898
+Cha tôi giải thích, "Nội yên tri phúc", nghĩa là, tâm yên ổn thì mới hưởng phúc lộc.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 899
+Hạnh phúc hay đau khổ, sung sướng hay bất hạnh là ở cái tâm.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 900
+Đó là bài học đầu tiên của tôi về hạnh phúc.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 901
+Có lần, thừa cơm nguội, tôi đổ đi.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 902
+Chính lời nói ấy giúp tôi biết chắt chiu để giúp người kém may mắn hơn mình.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 903
+Cha tôi thường bảo: Thiên hạ nhân, thiên hạ tài.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 904
+Từ người đạp xích lô, bác nông dân, chị quét rác, đến ngay cả giới giang hồ, nếu quan sát kỹ, ta sẽ học ở họ nhiều điều tuyệt vời.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 905
+Mấy chục năm, mọi buồn vui trong đời, hai cha con tôi đều san sẻ.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 906
+Ngày cha mẹ còn sống, tôi vẫn tâm sự với bạn thân rằng, nỗi sợ duy nhất trong đời tôi là ngày vĩnh viễn mất cha mẹ mặc dầu tôi hiểu mọi thứ đều vô thường, không sinh không diệt.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 907
+Tôi biết, cha mẹ ra đi sẽ để lại khoảng trống vô cùng lớn trong tâm hồn tôi mà không ai có thể khỏa lấp.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 908
+Và rồi, nỗi sợ hãi ấy đã đến, dồn dập.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 909
+Nhờ pháp môn của Thiền sư Thích Nhất Hạnh trao truyền nên tôi mới vượt qua được nỗi đau khủng khiếp đó.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 910
+Có những giọt nước mắt buồn đau, thương tiếc, song cũng có cả những giọt nước mắt ân hận, day dứt vì người con từng có những lời nói, việc làm khiến cha mẹ buồn lòng.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 911
+Chỉ đến khi trải qua cái chết đột ngột của đấng sinh thành, nhiều người đã ngộ ra rằng bất cứ giây phút nào, mình có thể không còn cha mẹ nữa.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 912
+Bởi vậy, nếu ta không nói lời yêu thương, không làm điều gì tốt đẹp hiến tặng cha mẹ ngay bây giờ thì lúc nào?
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 913
+Có khi cả một đời, rất nhiều cha mẹ chưa một ngày thực sự sống cho riêng mình.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 914
+Có lẽ một phần do văn hóa Á đông, không quen nói lời yêu thương nên rất ít người làm được.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 915
+Song một phần bởi rất nhiều gia đình bây giờ bị mất kết nối, mất truyền thống.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 916
+Có lẽ một phần do văn hóa Á đông, không quen nói lời yêu thương nên rất ít người làm được.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 917
+Cuộc sống bận rộn trong guồng quay gạo tiền khiến các thành viên ít có mặt cho nhau, ít trò chuyện, ít lắng nghe nhau.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 918
+Hiểu là nền tảng của thương yêu.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 919
+Cha mẹ thương mà không hiểu con thì tình thương ấy chỉ mang lại ngột ngạt, bức bí, khổ đau cho con.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 920
+Ngược lại, con không hiểu cha mẹ thì mỗi khi nghĩ về cha mẹ chỉ thấy oán trách, giận hờn, bực bội.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 921
+Để rồi, không ít cha mẹ tuyên bố từ mặt con.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 922
+Nếu còn ngượng nghịu, ta có thể tập những lời gần như vậy, những cử chỉ thân thương.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 923
+Đã bao lâu rồi bạn không ôm cha mẹ mình?
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 924
+Đức Phật từng dạy: Cha mẹ là Phật, xin đừng tìm Phật ở đâu.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 925
+Hiếu thảo với cha mẹ chính là tu, xin đừng mất công loay hoay tìm kiếm phép tu cao siêu nào.
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 926
+Cuộc sống vô thường.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 927
+Khởi công từ năm 2010 song đến nay thủy điện Hồi Xuân vẫn thi công dở dang, ảnh hưởng đến đời sống nhiều người dân địa phương.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 928
+Dãy nhà điều hành, nhà ở dành cho kỹ sư, công nhân hầu hết đóng cửa.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 929
+Chủ đầu tư và nhà thầu chỉ bố trí số ít nhân viên làm nhiệm vụ bảo trì những hạng mục đã lắp đặt và trông coi bảo vệ tài sản.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 930
+Để dự án đi vào vận hành, chủ đầu tư cần hoàn thành các phần việc như: Bồi thường giải phóng mặt bằng, thi công một số hạng mục và công trình dân sinh, đấu nối vào lưới điện quốc gia...
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 931
+Vùng lòng hồ dự án thuỷ điện Hồi Xuân có hơn 655 ha đất bị ảnh hưởng, thuộc hai huyện Mai Châu (Hòa Bình) và huyện Quan Hoá (Thanh Hoá).
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 932
+Gần 1.900 hộ dân ở hai địa phương này bị tác động, trong đó khoảng 500 hộ phải tái định cư đến nơi ở mới.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 933
+Đến nay gần một trăm hộ chưa nhận được tiền đền bù hoặc chưa có khu tái định cư để chuyển đến khiến cuộc sống bấp bênh, tạm bợ.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 934
+Ngoài ra các chính sách hỗ trợ ổn định sản xuất, chuyển đổi nghề nghiệp cho người dân bị tác động bởi dự án chưa được thực hiện triệt để.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 935
+Tại khu tái định cư bản Sa Lắng, xã Phú Xuân, nhiều người dân bức xúc vì chủ đầu tư thủy điện Hồi Xuân chưa hoàn thành cam kết xây nhà văn hóa, đường từ bến đò lên bản, mái kè taluy dương chống sạt lở, sân bóng chuyền...
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 936
+Trước thực trạng trên, UBND tỉnh Thanh Hóa đã nhiều lần đề xuất các bộ ngành sớm có giải pháp tháo gỡ.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 937
+Theo Sở Công thương Thanh Hóa, để dự án tái khởi động cần điều chỉnh phương án tính giá điện phù hợp thực tế nhằm đáp ứng điều kiện thế chấp của các ngân hàng.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 938
+Đại diện chủ đầu tư cho hay vừa qua cấp có thẩm quyền đã đồng ý cho dự án được điều chỉnh giá điện lên mức 1.778,4 kWh (mức giá để dự án thu hồi vốn).
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 939
+Hiện chủ đầu tư đang chờ ngân hàng thẩm định hồ sơ vay vốn, dự kiến có thể giải ngân trong cuối năm 2021.
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 940
+Đại diện chủ đầu tư cho hay vừa qua cấp có thẩm quyền đã đồng ý cho dự án được điều chỉnh giá điện lên mức 1.778,4 kWh (mức giá để dự án thu hồi vốn).
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 941
+Từ một tổ chức bị chỉ trích "thiên vị" Trung Quốc, WHO mất kiên nhẫn với Bắc Kinh sau báo cáo điều tra nguồn gốc Covid-19 khiến họ bị sốc.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 942
+Cựu tổng thống Mỹ Donald Trump năm ngoái cáo buộc WHO thúc đẩy "thông tin sai lệch của Trung Quốc về Covid-19" khi đe dọa rút tài trợ của Mỹ cho tổ chức này.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 943
+Theo hai tác giả, ông Tedros ban đầu công khai ca ngợi Trung Quốc một cách thận trọng, nhưng đồng thời cũng âm thầm gây áp lực với nước này.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 944
+Tuy nhiên, Tổng giám đốc WHO đã thực sự mất kiên nhẫn với Bắc Kinh sau cuộc điều tra nguồn gốc Covid-19 hồi đầu năm nay.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 945
+Trong một cuộc phỏng vấn gần đây, Wright nói trong quá trình tìm tư liệu cho cuốn sách, ông nhận thấy cách tiếp cận thận trọng của WHO đối với Trung Quốc trái ngược với phong cách gay gắt của chính quyền Trump, dù cả hai đều có những lo ngại đối với Bắc Kinh.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 946
+Khi đại dịch diễn biến nghiêm trọng hơn, con đường này rõ ràng trở nên rất khó khăn.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 947
+Trump ban đầu ca ngợi cách Trung Quốc xử lý dịch ở Vũ Hán, nhưng khi virus lan tới Mỹ, ông đã nhận ra mối nguy hiểm chính trị mà đại dịch gây ra và quay sang chỉ trích Trung Quốc.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 948
+Mặc dù một số nhà khoa học nói virus có thể đã truyền từ dơi sang người thông qua động vật trung gian, nhiều quan chức trong chính quyền Trump đã thúc đẩy ý tưởng virus có thể vô tình bị rò rỉ từ một phòng thí nghiệm ở Vũ Hán, với ngụ ý đổ lỗi cho Trung Quốc.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 949
+Sau bốn tuần ở Vũ Hán, trong đó có hai tuần cách ly, Ben Embarek nói trong cuộc họp báo hôm 9/2 rằng nhóm kết luận con đường lây lan qua động vật là "có khả năng" và giải thuyết virus rò rỉ từ phòng thí nghiệm là "cực kỳ khó xảy ra" và không đáng điều tra thêm.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 950
+Họ không tin rằng nhóm điều tra đã được tiếp cận thông tin một cách toàn diện để có thể loại bỏ giả thuyết này.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 951
+Quan chức Trung Quốc hồi tháng 7 nói họ không chấp nhận bất kỳ cuộc điều tra thêm nào về nguồn gốc Covid-19 tại nước này và cáo buộc Mỹ gây áp lực với giới khoa học.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 952
+Nhưng có rất ít bằng chứng cho thấy cách tiếp cận cứng rắn với Trung Quốc có thể mang lại hiệu quả.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 953
+Là một tổ chức quốc tế với quyền lực hạn chế, WHO phải phụ thuộc vào các nước thành viên.
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 954
+Trung Quốc tuần trước nói với các nhà ngoại giao nước ngoài rằng thế giới nên tôn trọng báo cáo của nhóm điều tra nguồn gốc Covid-19 được công bố hồi tháng 3.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 955
+Trang trại chuối tại Đức Huệ có 200 công nhân được tiêm vaccine, ở lại tại các phòng trọ xây sẵn miễn phí nhằm duy trì sản xuất mùa dịch.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 956
+Quy trình sản xuất tại đây hoàn toàn khép kín từ khâu giống, chăm sóc cho đến thu hoạch, đóng gói và có kho bảo quản riêng.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 957
+Cả trang trại được tưới nước bằng hệ thống tự động với đường ống dài 50 km.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 958
+Giữa tháng 8, chị Nguyễn Thị Hiệp (21 tuổi, sinh viên thực tập) bắc thang xoa nụ chuối.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 959
+Phần hoa thừa ở chóp trái được ngắt bỏ, nải chuối cũng được che lại bằng lá để tránh rám nắng.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 960
+Cả trang trại được tưới nước bằng hệ thống tự động với đường ống dài 50 km.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 961
+Công nhân dùng bình xịt thuốc trừ rệp cho buồng chuối 3 tuần tuổi.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 962
+Cần phun được thiết kế đặc biệt hình chữ U, thuốc được phun đều hơn, tiết kiệm chi phí, thời gian.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 963
+Buồng chuối sau đó sẽ được bao bọc bằng túi nylon để hạn chế sâu bệnh, đảm bảo trái ngon và thẩm mỹ.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 964
+Giống chuối này sinh trưởng tốt trên nhiều loại đất kể cả đất phèn, kháng bệnh, ít đổ ngã, có mùi thơm nên cho hiệu quả kinh tế cao.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 965
+Hệ thống cáp treo dài hơn 30 km, tổng kinh phí 6 tỷ đồng được trang trại đầu tư hơn 3 năm trước, dễ dàng vượt qua kênh, mương, tiết kiệm nhân công lao động.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 966
+Sau khi móc buồng vào hệ thống cáp, công nhân vận hành một đầu máy chạy xăng đưa chuối đến xưởng chế biến.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 967
+Hệ thống cáp treo một lần vận chuyển 50 buồng, mất 45 phút đến xưởng đóng gói.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 968
+Tại đây, công nhân sẽ tháo bỏ túi nylon, dùng dao chuyên dụng tách chuối ra thành từng nải, loại bỏ phần cùi.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 969
+Công nhân dùng vòi phun áp lực nước rửa sạch bụi bẩn trên các nải chuối.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 970
+Ngoài khai báo y tế, giữ khoảng cách, không tụ tập đông người, trang trại có chế tài riêng về phòng dịch, dán ngay khu vực ra vào.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 971
+Công nhân làm việc ngoài đồng, vác nặng lẫn trong nhà xưởng đều phải đeo khẩu trang, ai vi phạm bị phạt 100.000-300.000 đồng mỗi lần, các vi phạm khác phạt 500.000-1.000.000 đồng, vi phạm lần hai đình chỉ công việc.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 972
+Chuối sau khi tách nải sẽ được thả vào hồ nước có chứa dung dịch sát khuẩn, làm sạch các vết mủ.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 973
+Sau đó công nhân sẽ dùng dao cắt tỉa phần cùi nải gọn gàng.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 974
+Sau khi rửa sạch lần 2, các nải chuối được xếp lên khai, hệ thống quạt máy phía trên sẽ giúp trái nhanh ráo nước.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 975
+Phần lớn công nhân tại xưởng đóng gói là nữ, dễ phù hợp với các công đoạn đòi hỏi sự tỉ mỉ.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 976
+Chủ trang trại cho biết, do đang mùa dịch, nhiều tình huống như nhân viên kỹ thuật đến trễ vì thủ tục giấy tờ phòng dịch, hoặc nhân viên hai xã giáp ranh qua lại vài chục mét cũng phải test nhanh tốn kém, khiến sản xuất phần nào bị ảnh hưởng.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 977
+Để duy trì sản xuất mùa dịch, trang trại thực hiện phương án "3 tại chỗ".
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 978
+Trang trại có 70 phòng trọ miễn phí, chia làm 3 khu dành cho công nhân lưu trú.
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 979
+Ngoại trừ những người được phân công ra ngoài có test nhanh âm tính không quá 3 ngày, người lạ không được vào khu vực trang trại.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 980
+Hàng nghìn chiến sĩ, bác sĩ, sinh viên y khoa...  lên đường vào miền Nam, chi viện cho cuộc chiến chống dịch Covid-19 với quyết tâm chiến thắng dịch bệnh cao độ.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 981
+Gần 300 y bác sĩ, học viên Học viện Quân y đã lên đường vào miền Nam chi viện cho cuộc chiến chống dịch Covid-19.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 982
+Những cán bộ, bác sĩ, học viên lên đường vừa là những chiến sĩ xung kích, vừa là học viên Quân y mang phẩm chất của Bộ đội Cụ Hồ, có y đức.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 983
+Giao nhiệm vụ cho đoàn, Giám đốc Học viện Quân y lưu ý, cán bộ, y bác sĩ, học viên cần chấp hành đủ tất cả các quy định, điều lệnh, điều lệ của quân đội, thực hiện đúng chức năng, nhiệm vụ.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 984
+Đối với các học viên, Trung tướng Đỗ Quyết cho biết, lần này nhiệm vụ sẽ không chỉ lấy mẫu mà sẽ xuống chăm sóc bệnh nhân tại nhà, tại khu phố và làm bất cứ nhiệm vụ gì người dân yêu cầu.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 985
+Vì vậy, ông yêu cầu phải phát huy tinh thần trách nhiệm, kiến thức đã được học để phục vụ người dân.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 986
+Lãnh đạo Học viện Quân y cũng cho rằng tính kỷ luật và tình thương yêu người dân, người bệnh, là hai điều kiện để hoàn thành tốt nhiệm vụ.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 987
+Đồng thời gửi lời chúc các y bác sĩ, học viên có nhiều sức khỏe, vững niềm tin, ý chí và an toàn trở về.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 988
+Để thể hiện lòng quyết tâm, trước khi lên đường, gần 300 y bác sĩ, học viên đã đồng lòng hô to khẩu hiệu 3 lần “xin hứa”, 3 lần “quyết tâm”.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 989
+Lực lượng CSCĐ của Bộ sẽ là lực lượng chính, phối hợp với Công an TP.HCM và Cục Cảnh sát hình sự làm nhiệm vụ tại 12 chốt cửa ngõ.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 990
+Bộ Quốc Phòng sẽ phối hợp với các bộ ngành làm việc trực tiếp, cụ thể với từng địa phương để tính toán phương án chi tiết cung ứng hàng hóa cho người dân.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 991
+Cố gắng cao nhất để đáp ứng các yêu cầu "muôn hình vạn trạng" trong thực tiễn.
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 992
+Trước đó, Bộ Quốc phòng đã chỉ đạo thành lập 7 bệnh viện dã chiến truyền nhiễm để tiếp nhận, điều trị bệnh nhân mắc Covid-19 trên địa bàn phía Nam.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 993
+Thay vì “công cụ” chủ lực là điểm số, theo thông tư 22 (năm 2021) được Bộ GD-ĐT ban hành áp dụng cho học sinh trung học, sẽ sử dụng cả hình thức nói, viết để đánh giá sự tiến bộ trong học tập và rèn luyện của học sinh.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 994
+Cụ thể, theo Thông tư 22, sẽ có những môn học đánh giá chỉ bằng nhận xét như Giáo dục thể chất, Nghệ thuật, Âm nhạc, Mỹ thuật, Nội dung giáo dục địa phương, Hoạt động trải nghiệm, hướng nghiệp.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 995
+Các môn học còn lại sẽ được đánh giá bằng nhận xét kết hợp điểm số.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 996
+Theo tinh thần của thông tư này, giáo viên sẽ dùng hình thức nói, viết để đánh giá, nhận xét sự tiến bộ, những ưu điểm nổi bật, hạn chế chủ yếu của học sinh ngay trong quá trình học tập.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 997
+Trong một thời gian dài, giáo dục Việt Nam vốn tập trung chủ yếu vào hình thức kiểm tra đánh giá qua các bài đánh giá tổng kết.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 998
+Hình thức kiểm tra này thường được chuẩn hóa bằng cách chấm điểm cho học sinh theo một thang điểm cụ thể.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 999
+Trong khi đó, mảng đánh giá thường xuyên - thường được biểu lộ qua các hoạt động phản hồi, động viên, gợi ý – lại là hình thức chưa được chú trọng đầy đủ.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1000
+Về mặt bản chất, việc đánh giá thường xuyên phải xuất phát từ nguyện vọng và mong muốn của giáo viên trong việc thấu hiểu học sinh, từ đó mới có thể có can thiệp đặc biệt hoặc dạy học phân hóa.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1001
+Việc nhận xét nếu chung chung, không có định hướng không thể coi là đánh giá thường xuyên.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1002
+Cho nên, nếu giáo viên thực sự muốn đánh giá học trò thì phải thực sự theo sát, trao đổi, quan tâm tới từng em học sinh.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1003
+Bên cạnh đó, đánh giá thường xuyên có rất nhiều hình thức.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1004
+Chúng ta không nên cố gắng chuẩn hóa cứng nhắc nghiệp vụ này, vì nếu không sẽ tạo thành đánh giá tổng kết, đánh mất sự linh hoạt vốn là điểm mạnh của đánh giá thường xuyên.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1005
+Do đó, nghiệp vụ đánh giá thường xuyên vừa cần được đào tạo, vừa cần được truyền cảm hứng cho các thầy cô thì mới có thể phát huy hiệu quả thực chất.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1006
+Tôi cho rằng, để đánh giá tổng thể một học sinh, ngoài đánh giá thường xuyên vẫn cần phải có đánh giá tổng kết.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1007
+Đây là hai hoạt động đánh giá bổ trợ cho nhau chứ không phải thay thế, phủ định nhau.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1008
+Tất nhiên, trong giáo dục hiện đại, điểm số cũng chỉ được coi như là một trong nhiều dữ liệu học tập.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1009
+Có một điều đáng mừng, khi dạy học online, tôi có quan sát được một bộ phận thầy cô đã thực hiện đánh giá thường xuyên qua các app công nghệ.
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1010
+Các thầy cô đã khuyến khích sự học tập của học sinh bằng các sticker, các điểm sao cho các hành vi học tập tích cực,…
