@@ -27778,3 +27778,3611 @@ tồi tệ	A	40	compound:adj
 như	C	43	case
 thế nào	P	40	obl
 .	CH	16	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 886
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các bạn tôi hay bảo, nhìn bố con anh em thèm quá, bố con em chẳng bao giờ nói chuyện với nhau được quá năm phút.
+Các	L	2	det
+bạn	N	5	nsubj
+tôi	P	2	nmod
+hay	C	5	advmod
+bảo	V	0	root
+,	CH	7	punct
+nhìn	V	5	conj
+bố	N	7	obj
+con	Nc	10	det:clf
+anh em	N	11	nsubj
+thèm	V	7	ccomp
+quá	R	11	advmod
+,	CH	18	punct
+bố	N	18	nsubj
+con em	N	14	nmod
+chẳng	R	17	advmod:neg
+bao giờ	P	18	obl:tmod
+nói chuyện	V	5	parataxis
+với	E	20	case
+nhau	N	18	obl:with
+được	V	24	advmod
+quá	R	24	advmod
+năm	M	24	nummod
+phút	Nu	18	obj
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 887
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha tôi là một nghệ nhân trà.
+Cha	N	5	nsubj
+tôi	P	1	nmod
+là	V	5	cop
+một	M	5	nummod
+nghệ nhân	N	0	root
+trà	N	5	compound
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 888
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với tôi, ông vừa là cha, vừa là thầy, cũng là tri kỷ.
+Với	E	2	case
+tôi	P	7	obl
+,	CH	2	punct
+ông	Nc	7	nsubj
+vừa	R	7	advmod
+là	V	7	cop
+cha	N	0	root
+,	CH	11	punct
+vừa	R	11	advmod
+là	V	11	cop
+thầy	N	7	conj
+,	CH	15	punct
+cũng	R	15	advmod
+là	V	15	cop
+tri kỷ	N	7	conj
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 889
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giống như mẹ, tình thương của cha dành cho tôi thật lớn.
+Giống	A	8	nsubj
+như	C	3	case
+mẹ	N	1	obl
+,	CH	8	punct
+tình thương	N	8	nsubj
+của	E	7	case
+cha	N	5	nmod:poss
+dành	V	0	root
+cho	E	10	case
+tôi	P	8	obl:comp
+thật	T	12	advmod
+lớn	A	8	acomp
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 890
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm 22 tuổi, tôi mắc bệnh đại tràng, người ốm yếu.
+Năm	N	6	obl:tmod
+22	M	1	nummod
+tuổi	N	1	nmod
+,	CH	6	punct
+tôi	P	6	nsubj
+mắc	V	0	root
+bệnh	N	6	obj
+đại tràng	N	7	nmod
+,	CH	10	punct
+người	N	6	conj
+ốm yếu	A	10	nmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 891
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha đi tìm thầy thuốc khắp nơi, cặm cụi sắc thuốc, nấu ăn cho tôi hàng ngày.
+Cha	N	2	nsubj
+đi	V	0	root
+tìm	V	2	xcomp
+thầy thuốc	N	3	obj
+khắp	A	6	advmod:adj
+nơi	N	3	obl
+,	CH	8	punct
+cặm cụi	N	2	conj
+sắc	V	8	obj
+thuốc	N	9	nmod
+,	CH	12	punct
+nấu ăn	V	2	conj
+cho	E	14	case
+tôi	P	12	obl:iobj
+hàng	N	16	nummod
+ngày	N	12	obj
+.	CH	2	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 892
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Uống thuốc ròng rã mấy tháng, tôi sợ, nhìn bát thuốc là muốn ói.
+Uống	V	8	advcl
+thuốc	N	1	obj
+ròng rã	A	1	advmod:adj
+mấy	L	5	det
+tháng	N	1	obl:tmod
+,	CH	8	punct
+tôi	P	8	nsubj
+sợ	V	0	root
+,	CH	10	punct
+nhìn	V	8	conj
+bát	N	12	det:clf
+thuốc	N	10	obj
+là	C	14	mark
+muốn	V	10	ccomp
+ói	V	14	xcomp
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 893
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha dỗ dành, động viên tôi uống từng ngụm như dỗ đứa trẻ.
+Cha	N	4	nsubj
+dỗ dành	N	1	nmod
+,	CH	4	punct
+động viên	V	0	root
+tôi	P	4	obj
+uống	V	4	xcomp
+từng	R	8	advmod
+ngụm	N	6	obj
+như	C	12	case
+dỗ	V	12	nummod
+đứa	Nc	10	clf
+trẻ	N	6	obj
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 894
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi hết bệnh, thấy tôi khỏe mạnh, mọi người khen, ông chỉ mỉm cười.
+Khi	N	15	obl:tmod
+hết	V	1	acl:tmod
+bệnh	N	2	obj
+,	CH	1	punct
+thấy	V	15	advcl
+tôi	P	7	nsubj
+khỏe mạnh	V	5	ccomp
+,	CH	11	punct
+mọi	L	10	det
+người	N	11	nsubj
+khen	V	5	conj
+,	CH	15	punct
+ông	Nc	15	nsubj
+chỉ	R	15	advmod
+mỉm	V	0	root
+cười	V	15	compound:svc
+.	CH	15	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 895
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những lần tôi cấp cứu ở Bệnh viện Saint Paul Hà Nội lúc nửa đêm, cha đã 74 tuổi nhưng vẫn đưa tôi đến viện, chăm chút thâu đêm khiến các y bác sĩ và bệnh nhân cùng phòng, ai cũng cảm động.
+Những	L	2	det
+lần	N	14	obl:tmod
+tôi	P	4	nsubj
+cấp cứu	V	2	acl:subj
+ở	E	6	case
+Bệnh viện	N	4	obl:comp
+Saint Paul	Np	6	compound
+Hà Nội	Np	6	compound
+lúc	N	4	obl:tmod
+nửa đêm	N	9	nmod
+,	CH	14	punct
+cha	N	14	nsubj
+đã	R	14	advmod
+74	V	0	root
+tuổi	N	14	obj
+nhưng	C	18	mark
+vẫn	R	18	advmod
+đưa	V	14	conj
+tôi	P	18	obj
+đến	V	21	case
+viện	N	18	obl:comp
+,	CH	23	punct
+chăm chút	V	18	conj
+thâu	N	23	obj
+đêm	N	23	obj
+khiến	V	18	conj
+các	L	28	det
+y bác sĩ	N	26	obj
+và	C	30	cc
+bệnh nhân	N	28	conj
+cùng	A	32	case
+phòng	N	30	nmod
+,	CH	36	punct
+ai	P	36	nsubj
+cũng	R	36	advmod
+cảm động	V	26	conj
+.	CH	18	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 896
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Năm 18 tuổi, tôi theo cha lên Hà Giang nghiên cứu những cánh rừng trà cổ thụ.
+Năm	N	6	obl:tmod
+18	M	1	nummod
+tuổi	N	1	nmod
+,	CH	6	punct
+tôi	P	6	nsubj
+theo	V	0	root
+cha	N	6	obj
+lên	V	6	xcomp
+Hà Giang	Np	8	obj
+nghiên cứu	V	8	xcomp
+những	L	12	det
+cánh	N	10	obj
+rừng	N	12	nmod
+trà cổ thụ	N	13	compound
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 897
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tận mắt chứng kiến cuộc sống cực khổ của người Mông, Dao nơi đây, đêm nằm, tôi thao thức không ngủ được, "con thương họ quá".
+Tận mắt	A	17	advcl
+chứng kiến	V	3	case
+cuộc sống	N	1	obj
+cực khổ	A	3	nmod
+của	E	6	case
+người	Nc	7	det:clf
+Mông	Np	3	nmod:poss
+,	CH	9	punct
+Dao	Np	3	conj
+nơi	N	9	flat
+đây	P	10	nmod
+,	CH	14	punct
+đêm	N	14	obl:tmod
+nằm	V	1	conj
+,	CH	17	punct
+tôi	P	17	nsubj
+thao thức	V	0	root
+không	R	19	advmod:neg
+ngủ	V	17	xcomp
+được	R	19	advmod
+,	CH	24	punct
+"	CH	24	punct
+con	N	24	nsubj
+thương	V	19	parataxis
+họ	P	24	obj
+quá	R	24	advmod
+"	CH	24	punct
+.	CH	17	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 898
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha tôi giải thích, "Nội yên tri phúc", nghĩa là, tâm yên ổn thì mới hưởng phúc lộc.
+Cha	N	3	nsubj
+tôi	P	1	nmod
+giải thích	V	0	root
+,	CH	6	punct
+"	CH	6	punct
+Nội	N	3	parataxis
+yên tri phúc	V	6	nmod
+"	CH	6	punct
+,	CH	10	punct
+nghĩa là	V	6	conj
+,	CH	16	punct
+tâm	N	16	nsubj
+yên ổn	A	12	nmod
+thì	C	16	mark
+mới	R	16	advmod
+hưởng	V	3	parataxis
+phúc lộc	N	16	obj
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 899
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hạnh phúc hay đau khổ, sung sướng hay bất hạnh là ở cái tâm.
+Hạnh phúc	N	3	nsubj
+hay	C	3	advmod
+đau khổ	A	0	root
+,	CH	5	punct
+sung sướng	A	3	conj
+hay	C	7	cc
+bất hạnh	A	3	conj
+là	C	11	cop
+ở	E	11	case
+cái	Nc	11	det:clf
+tâm	N	3	obl
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 900
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đó là bài học đầu tiên của tôi về hạnh phúc.
+Đó	P	3	nsubj
+là	V	3	cop
+bài học	N	0	root
+đầu tiên	A	3	amod
+của	E	6	case
+tôi	P	3	nmod:poss
+về	E	8	case
+hạnh phúc	N	3	obl:about
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 901
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có lần, thừa cơm nguội, tôi đổ đi.
+Có	V	0	root
+lần	N	1	obj
+,	CH	4	punct
+thừa	V	1	conj
+cơm nguội	N	1	conj
+,	CH	8	punct
+tôi	P	8	nsubj
+đổ đi	V	1	parataxis
+.	CH	1	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 902
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chính lời nói ấy giúp tôi biết chắt chiu để giúp người kém may mắn hơn mình.
+Chính	T	2	discourse
+lời nói	N	4	nsubj
+ấy	P	2	det:pmod
+giúp	V	0	root
+tôi	P	4	obj
+biết	V	4	ccomp
+chắt chiu	V	6	obj
+để	E	9	mark:pcomp
+giúp	V	6	advcl:objective
+người	N	9	obj
+kém	A	10	amod
+may mắn	A	10	amod
+hơn	A	12	advmod
+mình	P	12	obj
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 903
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha tôi thường bảo: Thiên hạ nhân, thiên hạ tài.
+Cha	N	4	nsubj
+tôi	P	1	nmod
+thường	R	4	advmod
+bảo	V	0	root
+:	CH	7	punct
+Thiên hạ	N	7	nsubj
+nhân	N	4	parataxis
+,	CH	9	punct
+thiên hạ	N	6	conj
+tài	N	9	nmod
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 904
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ người đạp xích lô, bác nông dân, chị quét rác, đến ngay cả giới giang hồ, nếu quan sát kỹ, ta sẽ học ở họ nhiều điều tuyệt vời.
+Từ	E	2	case
+người	N	25	obl
+đạp	V	4	det:clf
+xích lô	N	2	compound
+,	CH	7	punct
+bác	Nc	7	det:clf
+nông dân	N	2	conj
+,	CH	10	punct
+chị	Nc	10	det:clf
+quét	V	7	conj
+rác	N	10	compound
+,	CH	13	punct
+đến	V	25	advcl
+ngay	T	16	discourse
+cả	P	17	det
+giới	N	15	clf
+giang hồ	N	13	obj
+,	CH	20	punct
+nếu	C	21	mark
+quan sát	V	25	advcl
+kỹ	A	20	acomp
+,	CH	25	punct
+ta	P	25	nsubj
+sẽ	R	25	advmod
+học	V	0	root
+ở	E	27	case
+họ	P	25	obl:comp
+nhiều	A	29	advmod:adj
+điều	N	25	obj
+tuyệt vời	A	29	amod
+.	CH	25	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 905
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mấy chục năm, mọi buồn vui trong đời, hai cha con tôi đều san sẻ.
+Mấy	L	3	det
+chục	M	3	nummod
+năm	N	16	obl:tmod
+,	CH	3	punct
+mọi	L	6	det
+buồn	V	16	nsubj
+vui	A	6	amod
+trong	E	9	case
+đời	N	6	nmod
+,	CH	12	punct
+hai	M	12	nummod
+cha	N	16	nsubj
+con	N	14	det:clf
+tôi	P	12	nmod:poss
+đều	R	16	advmod
+san sẻ	V	0	root
+.	CH	16	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 906
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày cha mẹ còn sống, tôi vẫn tâm sự với bạn thân rằng, nỗi sợ duy nhất trong đời tôi là ngày vĩnh viễn mất cha mẹ mặc dầu tôi hiểu mọi thứ đều vô thường, không sinh không diệt.
+Ngày	N	4	obl:tmod
+cha mẹ	N	4	nsubj
+còn	R	4	advmod
+sống	V	0	root
+,	CH	8	punct
+tôi	P	8	nsubj
+vẫn	R	8	advmod
+tâm sự	V	4	conj
+với	E	10	case
+bạn	N	8	obl:with
+thân	A	10	compound
+rằng	C	10	amod
+,	CH	21	punct
+nỗi	N	21	nsubj
+sợ	V	14	acl:tonp
+duy nhất	A	15	amod
+trong	E	18	case
+đời	N	14	obl
+tôi	P	18	nmod
+là	V	21	cop
+ngày	N	8	obl:tmod
+vĩnh viễn	A	21	punct
+mất	V	21	acl:subj
+cha mẹ	N	23	obj
+mặc dầu	N	27	punct
+tôi	P	27	nsubj
+hiểu	V	8	conj
+mọi	L	29	det
+thứ	N	27	obj
+đều	R	31	advmod
+vô thường	V	29	acl:subj
+,	CH	34	punct
+không	R	34	advmod:neg
+sinh	V	36	nsubj
+không	R	36	advmod:neg
+diệt	V	27	conj
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 907
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi biết, cha mẹ ra đi sẽ để lại khoảng trống vô cùng lớn trong tâm hồn tôi mà không ai có thể khỏa lấp.
+Tôi	P	2	nsubj
+biết	V	0	root
+,	CH	8	punct
+cha mẹ	N	5	nsubj
+ra	V	2	parataxis
+đi	V	5	obj
+sẽ	R	8	advmod
+để	V	2	conj
+lại	V	8	advmod
+khoảng trống	N	8	obj
+vô cùng	R	12	advmod
+lớn	A	8	acomp
+trong	E	14	case
+tâm hồn	N	12	obl
+tôi	P	14	nmod
+mà	C	20	mark
+không	R	18	advmod:neg
+ai	P	20	nsubj
+có thể	R	20	aux
+khỏa lấp	V	8	conj
+.	CH	2	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 908
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Và rồi, nỗi sợ hãi ấy đã đến, dồn dập.
+Và	C	8	cc
+rồi	R	8	cc
+,	CH	8	punct
+nỗi	N	8	nsubj
+sợ hãi	A	4	amod
+ấy	P	4	det:pmod
+đã	R	8	advmod
+đến	V	0	root
+,	CH	10	punct
+dồn dập	N	8	conj
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 909
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhờ pháp môn của Thiền sư Thích Nhất Hạnh trao truyền nên tôi mới vượt qua được nỗi đau khủng khiếp đó.
+Nhờ	E	11	advcl
+pháp môn	N	1	obj
+của	E	4	case
+Thiền sư	N	2	nmod:poss
+Thích Nhất Hạnh	Np	2	nmod:poss
+trao	V	2	acl:subj
+truyền	V	6	acomp
+nên	C	11	mark
+tôi	P	11	nsubj
+mới	R	11	advmod
+vượt	V	0	root
+qua	R	11	compound:svc
+được	R	11	advmod
+nỗi	N	11	obj
+đau	V	14	amod
+khủng khiếp	A	14	amod
+đó	P	14	det:pmod
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 910
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có những giọt nước mắt buồn đau, thương tiếc, song cũng có cả những giọt nước mắt ân hận, day dứt vì người con từng có những lời nói, việc làm khiến cha mẹ buồn lòng.
+Có	V	12	advcl
+những	L	4	det
+giọt	N	2	clf
+nước mắt	N	1	obj
+buồn	V	4	acl:subj
+đau	V	5	compound:adj
+,	CH	8	punct
+thương tiếc	N	6	conj
+,	CH	12	punct
+song	C	12	advmod
+cũng	R	12	advmod
+có	V	0	root
+cả	T	16	det
+những	L	16	det
+giọt	N	14	clf
+nước mắt	N	12	obj
+ân hận	V	16	amod
+,	CH	19	punct
+day dứt	V	16	conj
+vì	E	21	case
+người	N	16	conj
+con	N	21	nmod
+từng	R	24	advmod
+có	V	16	acl:subj
+những	L	26	det
+lời nói	N	24	obj
+,	CH	29	punct
+việc làm	N	29	nsubj
+khiến	V	12	conj
+cha mẹ	N	29	obj
+buồn lòng	V	30	nmod
+.	CH	12	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 911
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chỉ đến khi trải qua cái chết đột ngột của đấng sinh thành, nhiều người đã ngộ ra rằng bất cứ giây phút nào, mình có thể không còn cha mẹ nữa.
+Chỉ	R	3	advmod
+đến	E	3	case
+khi	N	16	obl:tmod
+trải	V	3	acl:tmod
+qua	V	7	case
+cái	Nc	4	obl:comp
+chết	V	6	acl:tonp
+đột ngột	A	7	amod
+của	E	10	case
+đấng	N	6	nmod:poss
+sinh thành	N	10	nmod
+,	CH	16	punct
+nhiều	A	14	det
+người	N	16	nsubj
+đã	R	16	advmod
+ngộ	V	0	root
+ra	V	16	compound:svc
+rằng	C	26	mark
+bất cứ	R	20	advmod
+giây phút	N	26	obl
+nào	P	20	det:pmod
+,	CH	26	punct
+mình	P	26	nsubj
+có thể	R	26	advmod
+không	R	26	advmod:neg
+còn	V	16	parataxis
+cha mẹ	N	26	obj
+nữa	R	26	advmod
+.	CH	16	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 912
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bởi vậy, nếu ta không nói lời yêu thương, không làm điều gì tốt đẹp hiến tặng cha mẹ ngay bây giờ thì lúc nào?
+Bởi vậy	C	6	mark
+,	CH	6	punct
+nếu	C	6	mark
+ta	P	6	nsubj
+không	R	6	advmod:neg
+nói	V	21	advcl
+lời	N	6	obj
+yêu thương	V	7	nmod
+,	CH	11	punct
+không	R	11	advmod:neg
+làm	V	0	root
+điều	N	11	obj
+gì	P	12	det:pmod
+tốt đẹp	A	15	advmod
+hiến	V	12	acl:subj
+tặng	V	15	xcomp
+cha mẹ	N	16	obj
+ngay	T	19	discourse
+bây giờ	P	15	obl:tmod
+thì	C	21	mark
+lúc nào	P	15	obl
+?	CH	21	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 913
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có khi cả một đời, rất nhiều cha mẹ chưa một ngày thực sự sống cho riêng mình.
+Có	V	14	advcl
+khi	N	1	obl:tmod
+cả	T	5	det
+một	M	5	nummod
+đời	N	2	nmod
+,	CH	14	punct
+rất	R	9	advmod
+nhiều	A	9	advmod:adj
+cha mẹ	N	14	nsubj
+chưa	R	12	advmod
+một	M	12	nummod
+ngày	N	14	obl:tmod
+thực sự	A	14	advmod:adj
+sống	V	0	root
+cho	E	17	case
+riêng	T	17	discourse
+mình	P	14	obl:comp
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 914
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có lẽ một phần do văn hóa Á đông, không quen nói lời yêu thương nên rất ít người làm được.
+Có lẽ	X	3	advmod
+một	M	3	nummod
+phần	N	17	obl
+do	E	5	case
+văn hóa	V	3	nmod
+Á đông	N	5	compound
+,	CH	10	punct
+không	R	9	advmod:neg
+quen	V	10	advmod:adj
+nói	V	17	advcl
+lời	N	10	obj
+yêu thương	V	11	nmod
+nên	C	17	mark
+rất	R	15	advmod
+ít	A	16	advmod:adj
+người	N	17	nsubj
+làm	V	0	root
+được	R	17	advmod
+.	CH	17	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 915
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Song một phần bởi rất nhiều gia đình bây giờ bị mất kết nối, mất truyền thống.
+Song	C	10	cc
+một	M	3	nummod
+phần	N	10	nsubj
+bởi	E	7	case
+rất	R	7	advmod
+nhiều	A	7	advmod:adj
+gia đình	N	10	nsubj:pass
+bây giờ	P	7	nmod
+bị	V	10	aux:pass
+mất	V	0	root
+kết nối	N	10	obj
+,	CH	13	punct
+mất	V	10	conj
+truyền thống	N	13	obj
+.	CH	10	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 916
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có lẽ một phần do văn hóa Á đông, không quen nói lời yêu thương nên rất ít người làm được.
+Có lẽ	X	3	advmod
+một	M	3	nummod
+phần	N	17	obl
+do	E	5	case
+văn hóa	V	3	nmod
+Á đông	N	5	compound
+,	CH	10	punct
+không	R	9	advmod:neg
+quen	V	10	advmod:adj
+nói	V	17	advcl
+lời	N	10	obj
+yêu thương	V	11	nmod
+nên	C	17	mark
+rất	R	15	advmod
+ít	A	16	advmod:adj
+người	N	17	nsubj
+làm	V	0	root
+được	R	17	advmod
+.	CH	17	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 917
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc sống bận rộn trong guồng quay gạo tiền khiến các thành viên ít có mặt cho nhau, ít trò chuyện, ít lắng nghe nhau.
+Cuộc sống	N	2	nsubj
+bận rộn	A	8	nsubj
+trong	E	4	case
+guồng	N	5	det
+quay	V	8	csubj
+gạo	N	5	nmod
+tiền	N	6	compound
+khiến	V	0	root
+các	L	10	det
+thành viên	N	8	obj
+ít	A	10	amod
+có mặt	V	11	obl:adj
+cho	E	14	case
+nhau	N	12	obl:iobj
+,	CH	17	punct
+ít	A	17	advmod:adj
+trò chuyện	V	12	conj
+,	CH	20	punct
+ít	A	17	conj
+lắng nghe	V	8	conj
+nhau	N	20	obj
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 918
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiểu là nền tảng của thương yêu.
+Hiểu	Np	0	root
+là	V	3	cop
+nền tảng	N	1	obj
+của	E	5	case
+thương yêu	N	3	nmod:poss
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 919
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cha mẹ thương mà không hiểu con thì tình thương ấy chỉ mang lại ngột ngạt, bức bí, khổ đau cho con.
+Cha mẹ	N	2	nsubj
+thương	V	11	advcl
+mà	C	5	mark
+không	R	5	advmod:neg
+hiểu	V	11	advcl
+con	N	5	obj
+thì	C	11	mark
+tình thương	N	11	nsubj
+ấy	P	8	det:pmod
+chỉ	R	11	advmod
+mang	V	0	root
+lại	V	11	advmod
+ngột ngạt	N	11	obj
+,	CH	16	punct
+bức	N	13	conj
+bí	A	15	nmod
+,	CH	18	punct
+khổ đau	V	13	conj
+cho	E	20	case
+con	N	18	obl:comp
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 920
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngược lại, con không hiểu cha mẹ thì mỗi khi nghĩ về cha mẹ chỉ thấy oán trách, giận hờn, bực bội.
+Ngược lại	X	5	mark
+,	CH	5	punct
+con	N	5	nsubj
+không	R	5	advmod:neg
+hiểu	V	14	advcl
+cha mẹ	N	5	obj
+thì	C	14	mark
+mỗi	L	9	det
+khi	N	14	obl:tmod
+nghĩ	V	9	acl:tmod
+về	E	12	case
+cha mẹ	N	10	obl:comp
+chỉ	R	14	advmod
+thấy	V	0	root
+oán trách	N	14	obj
+,	CH	17	punct
+giận hờn	V	15	conj
+,	CH	19	punct
+bực bội	V	15	conj
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 921
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để rồi, không ít cha mẹ tuyên bố từ mặt con.
+Để	E	7	advcl
+rồi	T	1	fixed
+,	CH	7	punct
+không	R	5	advmod:neg
+ít	A	6	advmod:adj
+cha mẹ	N	7	nsubj
+tuyên bố	V	0	root
+từ	E	9	case
+mặt	N	7	obl
+con	N	9	nmod
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 922
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nếu còn ngượng nghịu, ta có thể tập những lời gần như vậy, những cử chỉ thân thương.
+Nếu	C	3	mark
+còn	R	3	advmod
+ngượng nghịu	A	7	advcl
+,	CH	3	punct
+ta	P	7	nsubj
+có thể	R	7	aux
+tập	V	0	root
+những	L	9	det
+lời	N	7	obj
+gần	A	9	amod
+như	C	12	case
+vậy	P	9	obl
+,	CH	15	punct
+những	L	15	det
+cử chỉ	N	9	conj
+thân thương	A	15	nmod
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 923
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đã bao lâu rồi bạn không ôm cha mẹ mình?
+Đã	R	2	advmod
+bao lâu	P	6	advcl
+rồi	R	2	advmod
+bạn	N	6	nsubj
+không	R	6	advmod:neg
+ôm	V	0	root
+cha mẹ	N	6	obj
+mình	P	7	nmod
+?	CH	6	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 924
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đức Phật từng dạy: Cha mẹ là Phật, xin đừng tìm Phật ở đâu.
+Đức	Np	4	nsubj
+Phật	Np	1	compound
+từng	R	4	advmod
+dạy	V	0	root
+:	CH	8	punct
+Cha mẹ	N	8	nsubj
+là	V	8	cop
+Phật	Np	4	parataxis
+,	CH	10	punct
+xin	V	8	conj
+đừng	R	12	advmod
+tìm	V	10	xcomp
+Phật	Np	12	obj
+ở	E	15	case
+đâu	P	12	obl
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 925
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiếu thảo với cha mẹ chính là tu, xin đừng mất công loay hoay tìm kiếm phép tu cao siêu nào.
+Hiếu thảo	V	6	nsubj
+với	E	3	case
+cha mẹ	N	1	obl
+chính	T	6	discourse
+là	V	6	cop
+tu	N	0	root
+,	CH	8	punct
+xin	V	6	conj
+đừng	R	8	obj
+mất công	V	8	obj
+loay hoay	V	10	compound
+tìm kiếm	V	8	xcomp
+phép	N	12	obj
+tu	V	13	compound
+cao siêu	N	13	nmod
+nào	T	15	det:pmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/ngay-con-cha-me-4344148.html
+# date = 20210821
+# sent_id = 926
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc sống vô thường.
+Cuộc sống	N	0	root
+vô thường	V	1	compound
+.	CH	1	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 927
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khởi công từ năm 2010 song đến nay thủy điện Hồi Xuân vẫn thi công dở dang, ảnh hưởng đến đời sống nhiều người dân địa phương.
+Khởi công	V	3	discourse
+từ	E	3	case
+năm	N	11	obl:tmod
+2010	M	3	flat:date
+song	C	11	mark
+đến	E	7	case
+nay	P	11	obl:tmod
+thủy điện	N	11	nsubj
+Hồi Xuân	Np	8	compound
+vẫn	R	11	advmod
+thi công	V	0	root
+dở dang	A	11	obj
+,	CH	14	punct
+ảnh hưởng	V	11	conj
+đến	E	16	case
+đời sống	N	14	obl:comp
+nhiều	A	19	advmod:adj
+người	Nc	17	clf
+dân	N	14	obl
+địa phương	N	19	nmod
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 928
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dãy nhà điều hành, nhà ở dành cho kỹ sư, công nhân hầu hết đóng cửa.
+Dãy	Nc	2	det:clf
+nhà	N	13	nsubj
+điều hành	V	2	compound
+,	CH	5	punct
+nhà	N	2	conj
+ở	E	7	case
+dành	V	5	nmod
+cho	E	9	case
+kỹ sư	N	6	obl:comp
+,	CH	11	punct
+công nhân	N	13	nsubj
+hầu hết	R	13	advmod
+đóng	V	0	root
+cửa	N	13	obj
+.	CH	13	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 929
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chủ đầu tư và nhà thầu chỉ bố trí số ít nhân viên làm nhiệm vụ bảo trì những hạng mục đã lắp đặt và trông coi bảo vệ tài sản.
+Chủ	N	6	nsubj
+đầu tư	V	1	compound
+và	C	4	cc
+nhà thầu	N	1	conj
+chỉ	R	6	advmod
+bố trí	V	0	root
+số ít	V	8	nummod
+nhân viên	N	6	obj
+làm	V	8	acl:subj
+nhiệm vụ	N	9	obj
+bảo trì	V	13	case
+những	L	13	det
+hạng mục	N	9	obl
+đã	R	15	advmod
+lắp đặt	V	13	acl:subj
+và	C	17	cc
+trông coi	N	18	nummod
+bảo vệ	V	15	conj
+tài sản	N	18	nmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 930
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để dự án đi vào vận hành, chủ đầu tư cần hoàn thành các phần việc như: Bồi thường giải phóng mặt bằng, thi công một số hạng mục và công trình dân sinh, đấu nối vào lưới điện quốc gia...
+Để	E	10	advcl
+dự án	N	1	obj
+đi	V	2	acl:subj
+vào	E	5	case
+vận hành	V	3	obl:comp
+,	CH	10	punct
+chủ	N	10	nsubj
+đầu tư	V	7	compound
+cần	V	10	aux
+hoàn thành	V	0	root
+các	L	12	det
+phần việc	N	10	obj
+như	C	15	case
+:	CH	15	punct
+Bồi thường	V	12	appos:nmod
+giải phóng	V	15	nmod
+mặt bằng	N	15	compound
+,	CH	19	punct
+thi công	V	15	conj
+một số	L	21	det
+hạng mục	N	19	obj
+và	C	23	cc
+công trình	N	15	conj
+dân sinh	N	23	compound
+,	CH	26	punct
+đấu	V	15	conj
+nối	V	26	acl:subj
+vào	E	29	case
+lưới	N	27	obl:comp
+điện	N	29	nmod
+quốc gia	N	30	nmod
+...	CH	10	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 931
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vùng lòng hồ dự án thuỷ điện Hồi Xuân có hơn 655 ha đất bị ảnh hưởng, thuộc hai huyện Mai Châu (Hòa Bình) và huyện Quan Hoá (Thanh Hoá).
+Vùng	N	7	nsubj
+lòng	N	1	nmod
+hồ	N	2	compound
+dự án	N	2	nmod
+thuỷ điện	N	4	nmod
+Hồi Xuân	Np	5	compound
+có	V	0	root
+hơn	A	9	advmod:adj
+655	M	10	nummod
+ha	Nu	7	obj
+đất	N	10	nmod
+bị	V	13	aux:pass
+ảnh hưởng	V	7	ccomp
+,	CH	15	punct
+thuộc	V	7	conj
+hai	M	17	nummod
+huyện	N	15	obj
+Mai Châu	Np	17	compound
+(	CH	20	punct
+Hòa Bình	Np	17	appos:nmod
+)	CH	20	punct
+và	C	23	cc
+huyện	N	17	conj
+Quan Hoá	Np	23	compound
+(	CH	26	punct
+Thanh Hoá	Np	23	appos:nmod
+)	CH	26	punct
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 932
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gần 1.900 hộ dân ở hai địa phương này bị tác động, trong đó khoảng 500 hộ phải tái định cư đến nơi ở mới.
+Gần	A	2	advmod:adj
+1.900	M	3	nummod
+hộ	N	10	nsubj
+dân	N	3	compound
+ở	E	7	case
+hai	M	7	nummod
+địa phương	N	3	nmod
+này	P	7	det:pmod
+bị	V	10	aux:pass
+tác động	V	0	root
+,	CH	18	punct
+trong	E	13	case
+đó	P	18	obl
+khoảng	A	16	advmod
+500	M	16	nummod
+hộ	N	18	nsubj
+phải	V	18	aux
+tái định cư	V	10	conj
+đến	V	20	case
+nơi	N	18	obl:comp
+ở	V	22	case
+mới	A	20	nmod
+.	CH	18	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 933
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đến nay gần một trăm hộ chưa nhận được tiền đền bù hoặc chưa có khu tái định cư để chuyển đến khiến cuộc sống bấp bênh, tạm bợ.
+Đến	E	2	case
+nay	P	7	obl:tmod
+gần	A	4	advmod:adj
+một trăm	M	5	nummod
+hộ	N	7	nsubj
+chưa	R	7	advmod
+nhận	V	0	root
+được	R	7	advmod
+tiền	N	7	obj
+đền bù	V	9	compound:vmod
+hoặc	C	13	cc
+chưa	R	13	advmod:neg
+có	V	7	conj
+khu	N	13	obj
+tái định cư	N	14	nmod
+để	E	17	mark:pcomp
+chuyển	V	13	advcl:objective
+đến	E	17	compound:dir
+khiến	V	17	xcomp
+cuộc sống	N	19	obj
+bấp bênh	A	20	nmod
+,	CH	23	punct
+tạm bợ	A	21	conj
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 934
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra các chính sách hỗ trợ ổn định sản xuất, chuyển đổi nghề nghiệp cho người dân bị tác động bởi dự án chưa được thực hiện triệt để.
+Ngoài ra	C	4	mark
+các	L	3	det
+chính sách	N	4	nsubj
+hỗ trợ	V	0	root
+ổn định	A	6	advmod:adj
+sản xuất	V	4	obj
+,	CH	8	punct
+chuyển đổi	N	4	conj
+nghề nghiệp	N	8	compound
+cho	E	12	case
+người	Nc	12	det:clf
+dân	N	14	nsubj:pass
+bị	V	14	aux:pass
+tác động	V	4	conj
+bởi	E	16	case
+dự án	N	14	obl
+chưa	R	19	advmod:neg
+được	V	19	aux:pass
+thực hiện	V	14	conj
+triệt để	A	19	obj
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 935
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại khu tái định cư bản Sa Lắng, xã Phú Xuân, nhiều người dân bức xúc vì chủ đầu tư thủy điện Hồi Xuân chưa hoàn thành cam kết xây nhà văn hóa, đường từ bến đò lên bản, mái kè taluy dương chống sạt lở, sân bóng chuyền...
+Tại	E	2	case
+khu	N	20	obl
+tái định cư	V	2	compound
+bản	Nc	2	nmod
+Sa Lắng	Np	2	nmod
+,	CH	7	punct
+xã	N	2	conj
+Phú Xuân	Np	7	compound
+,	CH	11	punct
+nhiều	A	11	advmod:adj
+người	Nc	20	nsubj
+dân	N	11	compound
+bức xúc	A	11	amod
+vì	E	15	case
+chủ	N	11	nmod
+đầu tư	V	15	nmod
+thủy điện	N	16	nmod
+Hồi Xuân	Np	17	compound
+chưa	R	20	advmod
+hoàn thành	V	0	root
+cam kết	V	20	obj
+xây	V	21	acl:subj
+nhà văn hóa	A	22	obj
+,	CH	25	punct
+đường	N	23	conj
+từ	E	27	case
+bến	N	25	nmod
+đò	N	27	compound
+lên	V	25	acl:subj
+bản	N	29	obl:comp
+,	CH	32	punct
+mái	N	30	conj
+kè	N	32	nmod
+taluy	V	32	nmod
+dương	N	34	compound
+chống	V	35	acl:subj
+sạt lở	V	36	obj
+,	CH	39	punct
+sân	N	36	conj
+bóng chuyền	N	39	compound
+...	CH	20	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 936
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước thực trạng trên, UBND tỉnh Thanh Hóa đã nhiều lần đề xuất các bộ ngành sớm có giải pháp tháo gỡ.
+Trước	E	2	case
+thực trạng	N	9	obl
+trên	N	2	compound
+,	CH	2	punct
+UBND	Ny	9	nsubj
+tỉnh	N	5	nmod
+Thanh Hóa	Np	6	compound
+đã	R	9	advmod
+nhiều	A	0	root
+lần	N	9	obl:adj
+đề xuất	V	10	nmod
+các	L	13	det
+bộ	N	11	obj
+ngành	N	13	compound
+sớm	A	13	amod
+có	V	14	acl:subj
+giải pháp	N	16	obj
+tháo gỡ	V	17	compound:vmod
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 937
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Sở Công thương Thanh Hóa, để dự án tái khởi động cần điều chỉnh phương án tính giá điện phù hợp thực tế nhằm đáp ứng điều kiện thế chấp của các ngân hàng.
+Theo	V	11	advcl
+Sở	N	1	obj
+Công thương	N	2	nmod
+Thanh Hóa	Np	2	nmod
+,	CH	1	punct
+để	E	11	advcl
+dự án	N	6	obj
+tái	Z	7	nmod
+khởi động	V	7	nmod
+cần	V	11	aux
+điều chỉnh	V	0	root
+phương án	N	11	obj
+tính	V	12	nmod
+giá	N	13	obj
+điện	N	14	nmod
+phù hợp	V	15	nmod
+thực tế	N	14	nmod
+nhằm	V	19	mark:pcomp
+đáp ứng	V	11	conj
+điều kiện	N	19	obj
+thế chấp	V	20	amod
+của	E	24	case
+các	L	24	det
+ngân hàng	N	20	nmod:poss
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 938
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đại diện chủ đầu tư cho hay vừa qua cấp có thẩm quyền đã đồng ý cho dự án được điều chỉnh giá điện lên mức 1.778,4 kWh (mức giá để dự án thu hồi vốn).
+Đại diện	N	4	nsubj
+chủ	N	1	nmod
+đầu tư	V	2	compound
+cho	V	0	root
+hay	V	7	det
+vừa qua	X	7	nummod
+cấp	N	11	nsubj
+có	V	7	acl:subj
+thẩm quyền	N	8	obj
+đã	R	11	advmod
+đồng ý	V	4	ccomp
+cho	E	13	case
+dự án	N	11	obl:iobj
+được	V	11	advmod
+điều chỉnh	V	13	acl:subj
+giá	N	15	obj
+điện	N	16	compound
+lên	V	19	case
+mức	N	15	obl:comp
+1.778,4	N	19	nmod
+kWh	N	19	nmod
+(	CH	23	punct
+mức	N	19	appos:nmod
+giá	N	23	compound
+để	E	23	acl:subj
+dự án	N	25	obj
+thu hồi	V	26	compound
+vốn	N	27	obj
+)	CH	23	punct
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 939
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hiện chủ đầu tư đang chờ ngân hàng thẩm định hồ sơ vay vốn, dự kiến có thể giải ngân trong cuối năm 2021.
+Hiện	N	5	obl:tmod
+chủ	N	5	nsubj
+đầu tư	V	2	compound
+đang	R	5	advmod
+chờ	V	0	root
+ngân hàng	N	5	obj
+thẩm định	V	6	acl:subj
+hồ sơ	N	7	obj
+vay	V	8	acl:subj
+vốn	N	9	obj
+,	CH	12	punct
+dự kiến	V	14	nsubj
+có thể	R	14	advmod
+giải ngân	V	5	conj
+trong	E	16	case
+cuối	N	14	obl:tmod
+năm	N	16	nmod
+2021	M	17	nmod
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/du-an-thuy-dien-hon-3-000-ty-dong-thi-cong-do-dang-4343706.html
+# date = 20210822
+# sent_id = 940
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đại diện chủ đầu tư cho hay vừa qua cấp có thẩm quyền đã đồng ý cho dự án được điều chỉnh giá điện lên mức 1.778,4 kWh (mức giá để dự án thu hồi vốn).
+Đại diện	N	4	nsubj
+chủ	N	1	nmod
+đầu tư	V	2	compound
+cho	V	0	root
+hay	V	7	det
+vừa qua	X	7	nummod
+cấp	N	11	nsubj
+có	V	7	acl:subj
+thẩm quyền	N	8	obj
+đã	R	11	advmod
+đồng ý	V	4	ccomp
+cho	E	13	case
+dự án	N	11	obl:iobj
+được	V	11	advmod
+điều chỉnh	V	13	acl:subj
+giá	N	15	obj
+điện	N	16	compound
+lên	V	19	case
+mức	N	15	obl:comp
+1.778,4	N	19	nmod
+kWh	N	19	nmod
+(	CH	23	punct
+mức	N	19	appos:nmod
+giá	N	23	compound
+để	E	23	acl:subj
+dự án	N	25	obj
+thu hồi	V	26	compound
+vốn	N	27	obj
+)	CH	23	punct
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 941
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Từ một tổ chức bị chỉ trích "thiên vị" Trung Quốc, WHO mất kiên nhẫn với Bắc Kinh sau báo cáo điều tra nguồn gốc Covid-19 khiến họ bị sốc.
+Từ	E	3	case
+một	M	3	nummod
+tổ chức	N	21	obl
+bị	V	5	aux:pass
+chỉ trích	V	3	acl:subj
+"	CH	7	punct
+thiên vị	V	5	obj
+"	CH	7	punct
+Trung Quốc	Np	7	nmod
+,	CH	12	punct
+WHO	Np	12	nsubj
+mất	V	21	csubj
+kiên nhẫn	A	12	advmod:adj
+với	E	15	case
+Bắc Kinh	Np	12	obl
+sau	N	15	compound
+báo cáo	V	15	nmod
+điều tra	V	17	compound
+nguồn gốc	N	17	nmod
+Covid-19	Np	19	compound
+khiến	V	0	root
+họ	P	24	nsubj
+bị	V	24	aux:pass
+sốc	V	21	ccomp
+.	CH	21	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 942
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cựu tổng thống Mỹ Donald Trump năm ngoái cáo buộc WHO thúc đẩy "thông tin sai lệch của Trung Quốc về Covid-19" khi đe dọa rút tài trợ của Mỹ cho tổ chức này.
+Cựu	A	2	det:clf
+tổng thống	N	6	nsubj
+Mỹ	Np	2	compound
+Donald Trump	Np	2	nmod
+năm ngoái	N	4	compound
+cáo buộc	N	0	root
+WHO	Np	6	compound
+thúc đẩy	V	10	nmod
+"	CH	10	punct
+thông tin	N	6	compound
+sai lệch	A	10	punct
+của	E	13	case
+Trung Quốc	Np	10	nmod:poss
+về	E	10	acl:subj
+Covid-19	Np	14	obj
+"	CH	10	punct
+khi	N	8	obl:tmod
+đe dọa	V	17	acl:tmod
+rút	V	17	acl:tmod
+tài trợ	V	19	obj
+của	E	22	case
+Mỹ	Np	20	nmod:poss
+cho	E	24	case
+tổ chức	V	19	obl
+này	P	24	det:pmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 943
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo hai tác giả, ông Tedros ban đầu công khai ca ngợi Trung Quốc một cách thận trọng, nhưng đồng thời cũng âm thầm gây áp lực với nước này.
+Theo	V	3	case
+hai	M	3	nummod
+tác giả	N	9	obl
+,	CH	9	punct
+ông	Nc	6	det:clf
+Tedros	Np	9	nsubj
+ban đầu	N	6	nmod
+công khai	A	9	advmod
+ca ngợi	V	0	root
+Trung Quốc	Np	9	obj
+một cách	N	9	obl
+thận trọng	A	11	amod
+,	CH	18	punct
+nhưng	C	18	mark
+đồng thời	R	18	advmod
+cũng	R	18	advmod
+âm thầm	A	18	advmod:adj
+gây	V	9	conj
+áp lực	N	18	obj
+với	E	21	case
+nước	N	18	obl:with
+này	P	21	det:pmod
+.	CH	9	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 944
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, Tổng giám đốc WHO đã thực sự mất kiên nhẫn với Bắc Kinh sau cuộc điều tra nguồn gốc Covid-19 hồi đầu năm nay.
+Tuy nhiên	C	7	mark
+,	CH	7	punct
+Tổng giám đốc	N	4	det:clf
+WHO	Np	7	nsubj
+đã	R	7	advmod
+thực sự	A	7	advmod:adj
+mất	V	0	root
+kiên nhẫn	A	7	obj
+với	E	10	case
+Bắc Kinh	Np	7	obl
+sau	N	10	nmod
+cuộc	N	11	nmod
+điều tra	V	12	compound
+nguồn gốc	N	12	nmod
+Covid-19	Np	16	nummod
+hồi	N	12	nmod
+đầu	N	16	nmod
+năm	N	17	nmod
+nay	P	18	det:pmod
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 945
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong một cuộc phỏng vấn gần đây, Wright nói trong quá trình tìm tư liệu cho cuốn sách, ông nhận thấy cách tiếp cận thận trọng của WHO đối với Trung Quốc trái ngược với phong cách gay gắt của chính quyền Trump, dù cả hai đều có những lo ngại đối với Bắc Kinh.
+Trong	E	3	case
+một	M	3	nummod
+cuộc	N	19	obl
+phỏng vấn	V	3	compound:vmod
+gần	A	3	acl:subj
+đây	P	3	det:pmod
+,	CH	9	punct
+Wright	Np	9	nsubj
+nói	V	19	advcl
+trong	E	11	case
+quá trình	N	9	obl
+tìm	V	11	acl:subj
+tư liệu	N	12	obj
+cho	E	16	case
+cuốn	Nc	16	det:clf
+sách	N	12	obl:comp
+,	CH	19	punct
+ông	Nc	19	nsubj
+nhận	V	0	root
+thấy	V	19	compound:svc
+cách	N	20	obj
+tiếp cận	V	21	acl:subj
+thận trọng	N	22	obj
+của	E	25	case
+WHO	Np	23	nmod:poss
+đối với	E	27	case
+Trung Quốc	Np	21	obl
+trái ngược	A	27	compound
+với	E	30	case
+phong cách	N	22	obl
+gay gắt	A	30	compound
+của	E	33	case
+chính quyền	N	30	nmod:poss
+Trump	Np	33	compound
+,	CH	40	punct
+dù	C	40	mark
+cả	P	38	det
+hai	M	40	nsubj
+đều	R	40	advmod
+có	V	19	conj
+những	L	42	det
+lo ngại	N	40	obj
+đối với	E	44	case
+Bắc Kinh	Np	42	nmod
+.	CH	19	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 946
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi đại dịch diễn biến nghiêm trọng hơn, con đường này rõ ràng trở nên rất khó khăn.
+Khi	N	11	obl:tmod
+đại dịch	V	1	acl:tmod
+diễn biến	N	2	nmod
+nghiêm trọng	A	1	acl:tmod
+hơn	A	4	advmod
+,	CH	11	punct
+con	Nc	8	det:clf
+đường	N	11	nsubj
+này	P	8	det:pmod
+rõ ràng	A	11	advmod:adj
+trở nên	V	0	root
+rất	R	13	advmod
+khó khăn	A	11	acomp
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 947
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trump ban đầu ca ngợi cách Trung Quốc xử lý dịch ở Vũ Hán, nhưng khi virus lan tới Mỹ, ông đã nhận ra mối nguy hiểm chính trị mà đại dịch gây ra và quay sang chỉ trích Trung Quốc.
+Trump	N	2	det:clf
+ban đầu	N	3	nsubj
+ca ngợi	V	19	advcl
+cách	N	3	obj
+Trung Quốc	Np	4	nmod
+xử lý dịch	V	5	compound
+ở	E	8	case
+Vũ Hán	Np	4	obl
+,	CH	19	punct
+nhưng	C	19	mark
+khi	N	19	obl:tmod
+virus	FW	14	nsubj
+lan	V	12	nmod
+tới	E	11	acl:tmod
+Mỹ	Np	14	obj
+,	CH	11	punct
+ông	Nc	19	nsubj
+đã	R	19	advmod
+nhận	V	0	root
+ra	V	19	compound:dir
+mối	N	19	obj
+nguy hiểm	N	21	compound
+chính trị	N	22	compound
+mà	C	26	mark
+đại dịch	N	26	nsubj
+gây	V	21	acl:relcl
+ra	V	26	compound:dir
+và	C	29	cc
+quay	V	26	conj
+sang	V	29	compound:dir
+chỉ	R	32	advmod
+trích	V	29	xcomp
+Trung Quốc	Np	32	obj
+.	CH	19	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 948
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mặc dù một số nhà khoa học nói virus có thể đã truyền từ dơi sang người thông qua động vật trung gian, nhiều quan chức trong chính quyền Trump đã thúc đẩy ý tưởng virus có thể vô tình bị rò rỉ từ một phòng thí nghiệm ở Vũ Hán, với ngụ ý đổ lỗi cho Trung Quốc.
+Mặc dù	C	8	mark
+một số	L	3	det
+nhà khoa học	N	8	nsubj
+nói	V	3	acl:subj
+virus	FW	4	obj
+có thể	R	8	advmod
+đã	R	8	advmod
+truyền	V	0	root
+từ	E	10	case
+dơi	N	8	obl:comp
+sang	V	12	case
+người	N	10	nmod
+thông qua	V	12	acl:subj
+động vật	N	13	obj
+trung gian	A	14	compound
+,	CH	23	punct
+nhiều	A	18	det
+quan chức	N	23	nsubj
+trong	E	20	case
+chính quyền	N	18	nmod
+Trump	Np	20	compound
+đã	R	23	advmod
+thúc đẩy	V	8	conj
+ý tưởng	N	23	obj
+virus	FW	24	nmod
+có thể	R	29	advmod
+vô tình	A	29	advmod
+bị	V	29	aux:pass
+rò rỉ	V	23	ccomp
+từ	E	32	case
+một	M	32	nummod
+phòng thí nghiệm	N	29	obl:comp
+ở	E	34	case
+Vũ Hán	Np	32	nmod
+,	CH	37	punct
+với	E	37	case
+ngụ ý	N	29	obl
+đổ lỗi	V	37	compound
+cho	E	40	case
+Trung Quốc	Np	37	nmod
+.	CH	23	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 949
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau bốn tuần ở Vũ Hán, trong đó có hai tuần cách ly, Ben Embarek nói trong cuộc họp báo hôm 9/2 rằng nhóm kết luận con đường lây lan qua động vật là "có khả năng" và giải thuyết virus rò rỉ từ phòng thí nghiệm là "cực kỳ khó xảy ra" và không đáng điều tra thêm.
+Sau	N	15	obl:tmod
+bốn	M	3	nummod
+tuần	N	1	nmod
+ở	E	5	case
+Vũ Hán	Np	3	nmod
+,	CH	9	punct
+trong	E	8	case
+đó	P	9	obl
+có	V	15	advcl
+hai	M	11	nummod
+tuần	N	9	obj
+cách ly	V	11	acl:subj
+,	CH	15	punct
+Ben Embarek	Np	15	nsubj
+nói	V	0	root
+trong	E	17	case
+cuộc	N	15	obl
+họp báo	V	17	compound
+hôm	N	17	nmod
+9/2	V	19	compound
+rằng	C	31	mark
+nhóm	N	23	det:clf
+kết luận	V	31	nsubj
+con	Nc	25	det:clf
+đường	N	23	nmod
+lây lan	V	25	compound
+qua	E	25	acl:subj
+động vật	N	27	obl:comp
+là	C	31	mark
+"	CH	31	punct
+có	V	15	parataxis
+khả năng	N	31	obj
+"	CH	31	punct
+và	C	36	cc
+giải thuyết	V	36	nummod
+virus	FW	31	conj
+rò rỉ	V	36	compound
+từ	E	39	case
+phòng thí nghiệm	N	36	nmod
+là	C	43	mark
+"	CH	42	punct
+cực kỳ	R	43	advmod
+khó	A	31	conj
+xảy	V	31	parataxis
+ra	V	44	compound:svc
+"	CH	42	punct
+và	C	49	cc
+không	R	49	advmod:neg
+đáng	V	31	conj
+điều tra	V	49	obj
+thêm	V	50	compound:dir
+.	CH	15	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 950
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Họ không tin rằng nhóm điều tra đã được tiếp cận thông tin một cách toàn diện để có thể loại bỏ giả thuyết này.
+Họ	P	3	nsubj
+không	R	3	advmod:neg
+tin	V	0	root
+rằng	C	9	mark
+nhóm	N	6	det:clf
+điều tra	V	9	nsubj:pass
+đã	R	9	advmod
+được	V	9	aux:pass
+tiếp cận	V	3	ccomp
+thông tin	N	9	obj
+một cách	N	9	obl
+toàn diện	A	11	amod
+để	E	15	mark:pcomp
+có thể	R	15	aux
+loại bỏ	V	9	advcl:objective
+giả thuyết	N	15	obj
+này	P	16	det:pmod
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 951
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quan chức Trung Quốc hồi tháng 7 nói họ không chấp nhận bất kỳ cuộc điều tra thêm nào về nguồn gốc Covid-19 tại nước này và cáo buộc Mỹ gây áp lực với giới khoa học.
+Quan chức	N	9	nsubj
+Trung Quốc	Np	1	compound
+hồi	N	1	nmod
+tháng	N	3	nmod
+7	M	4	nummod
+nói	V	9	advcl
+họ	P	9	nsubj
+không	R	9	advmod:neg
+chấp nhận	V	0	root
+bất kỳ	A	11	det
+cuộc	N	9	obj
+điều tra	V	11	compound:vmod
+thêm	V	11	acl:subj
+nào	P	13	obj
+về	E	16	case
+nguồn gốc	N	12	obl
+Covid-19	Np	16	compound
+tại	E	19	case
+nước	N	16	obl
+này	P	19	det:pmod
+và	C	24	cc
+cáo buộc	N	24	nsubj
+Mỹ	Np	22	nmod
+gây	V	9	conj
+áp lực	N	24	obj
+với	E	28	case
+giới	Nc	28	det:clf
+khoa học	N	24	obl:comp
+.	CH	9	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 952
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng có rất ít bằng chứng cho thấy cách tiếp cận cứng rắn với Trung Quốc có thể mang lại hiệu quả.
+Nhưng	C	6	mark
+có	V	6	csubj:vsubj
+rất	R	4	advmod
+ít	A	5	advmod:adj
+bằng chứng	N	6	nsubj
+cho	V	0	root
+thấy	V	6	compound:svc
+cách	N	14	nsubj
+tiếp cận	V	8	acl:subj
+cứng rắn	V	9	obj
+với	E	12	case
+Trung Quốc	Np	9	obl:with
+có thể	R	14	aux
+mang	V	6	ccomp
+lại	V	14	compound:prt
+hiệu quả	N	14	obj
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 953
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Là một tổ chức quốc tế với quyền lực hạn chế, WHO phải phụ thuộc vào các nước thành viên.
+Là	V	3	cop
+một	M	3	nummod
+tổ chức	N	11	advcl
+quốc tế	A	3	amod
+với	E	6	case
+quyền lực	N	3	nmod
+hạn chế	V	6	nmod
+,	CH	3	punct
+WHO	Np	11	nsubj
+phải	V	11	aux
+phụ thuộc	V	0	root
+vào	E	14	case
+các	L	14	det
+nước	N	11	obl:comp
+thành viên	N	14	nmod
+.	CH	11	punct
+
+# doc_url = https://vnexpress.net/bao-cao-dieu-tra-khien-who-mat-kien-nhan-voi-trung-quoc-4343951.html
+# date = 20210821
+# sent_id = 954
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trung Quốc tuần trước nói với các nhà ngoại giao nước ngoài rằng thế giới nên tôn trọng báo cáo của nhóm điều tra nguồn gốc Covid-19 được công bố hồi tháng 3.
+Trung Quốc	Np	4	nsubj
+tuần	N	4	obl:tmod
+trước	N	2	compound
+nói	V	0	root
+với	E	7	case
+các	L	7	det
+nhà	N	4	obl:with
+ngoại giao	N	7	nmod
+nước ngoài	N	8	nmod
+rằng	C	21	mark
+thế giới	N	21	nsubj:pass
+nên	C	21	mark
+tôn trọng	V	14	det:clf
+báo cáo	V	21	nsubj:pass
+của	E	16	case
+nhóm	N	14	nmod:poss
+điều tra	V	16	compound
+nguồn gốc	N	17	nmod
+Covid-19	Np	18	compound
+được	V	21	aux:pass
+công bố	V	4	conj
+hồi	N	21	obl:tmod
+tháng	N	22	nmod
+3	M	23	flat:date
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 955
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trang trại chuối tại Đức Huệ có 200 công nhân được tiêm vaccine, ở lại tại các phòng trọ xây sẵn miễn phí nhằm duy trì sản xuất mùa dịch.
+Trang trại	N	5	nsubj
+chuối	N	1	compound
+tại	E	4	case
+Đức Huệ	Np	1	nmod
+có	V	0	root
+200	M	7	nummod
+công nhân	N	5	obj
+được	V	9	aux:pass
+tiêm	V	7	acl:subj
+vaccine	N	9	obj
+,	CH	12	punct
+ở	V	5	conj
+lại	V	12	compound:svc
+tại	E	16	case
+các	L	16	det
+phòng	N	12	obl
+trọ	V	16	compound
+xây	V	16	acl:subj
+sẵn	A	18	acomp
+miễn phí	V	18	obj
+nhằm	V	22	punct
+duy trì	V	18	conj
+sản xuất	V	22	obj
+mùa	N	22	obj
+dịch	N	24	compound
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 956
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quy trình sản xuất tại đây hoàn toàn khép kín từ khâu giống, chăm sóc cho đến thu hoạch, đóng gói và có kho bảo quản riêng.
+Quy trình	N	6	nsubj
+sản xuất	V	1	nmod
+tại	E	4	case
+đây	P	2	obl
+hoàn toàn	A	6	advmod
+khép kín	A	0	root
+từ	E	8	case
+khâu	N	6	obl:comp
+giống	A	8	compound
+,	CH	11	punct
+chăm sóc	V	8	conj
+cho	E	14	case
+đến	E	14	case
+thu hoạch	V	8	conj
+,	CH	16	punct
+đóng gói	N	8	conj
+và	C	18	cc
+có	V	6	conj
+kho	N	18	obj
+bảo quản	V	19	nmod
+riêng	A	19	amod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 957
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả trang trại được tưới nước bằng hệ thống tự động với đường ống dài 50 km.
+Cả	P	2	det
+trang trại	N	4	nsubj
+được	R	4	aux:pass
+tưới	V	0	root
+nước	N	4	obj
+bằng	E	7	case
+hệ thống	N	4	obl
+tự động	A	7	amod
+với	E	10	case
+đường ống	N	4	obl
+dài	A	10	compound
+50	M	13	nummod
+km	Nu	10	nmod
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 958
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giữa tháng 8, chị Nguyễn Thị Hiệp (21 tuổi, sinh viên thực tập) bắc thang xoa nụ chuối.
+Giữa	E	2	case
+tháng	N	14	obl:tmod
+8	M	2	flat:date
+,	CH	2	punct
+chị	Nc	6	det:clf
+Nguyễn Thị Hiệp	Np	14	nsubj
+(	CH	9	punct
+21	M	9	nummod
+tuổi	N	6	appos:nmod
+,	CH	11	punct
+sinh viên	N	9	conj
+thực tập	N	11	nmod
+)	CH	9	punct
+bắc thang	V	15	case
+xoa	V	0	root
+nụ	Nc	15	nmod
+chuối	N	16	compound
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 959
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phần hoa thừa ở chóp trái được ngắt bỏ, nải chuối cũng được che lại bằng lá để tránh rám nắng.
+Phần	N	2	det:clf
+hoa	N	8	nsubj
+thừa	A	2	amod
+ở	E	5	case
+chóp	N	2	nmod
+trái	A	5	compound
+được	R	8	aux:pass
+ngắt	V	0	root
+bỏ	V	8	xcomp
+,	CH	15	punct
+nải	N	15	nsubj
+chuối	N	11	nmod
+cũng	R	15	advmod
+được	V	15	aux:pass
+che	V	8	conj
+lại	V	15	advmod
+bằng	E	18	case
+lá	N	15	obl:comp
+để	E	20	mark:pcomp
+tránh	V	15	advcl:objective
+rám	V	20	obj
+nắng	N	21	nmod
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 960
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cả trang trại được tưới nước bằng hệ thống tự động với đường ống dài 50 km.
+Cả	P	2	det
+trang trại	N	4	nsubj
+được	R	4	aux:pass
+tưới	V	0	root
+nước	N	4	obj
+bằng	E	7	case
+hệ thống	N	4	obl
+tự động	A	7	amod
+với	E	10	case
+đường ống	N	4	obl
+dài	A	10	compound
+50	M	13	nummod
+km	Nu	10	nmod
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 961
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Công nhân dùng bình xịt thuốc trừ rệp cho buồng chuối 3 tuần tuổi.
+Công nhân	N	5	nsubj
+dùng	V	1	acl:subj
+bình xịt	N	2	obj
+thuốc	N	3	nmod
+trừ	V	0	root
+rệp	V	5	obj
+cho	E	8	case
+buồng	N	5	obl
+chuối	N	8	compound
+3	M	11	nummod
+tuần	N	8	nmod
+tuổi	N	11	nmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 962
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cần phun được thiết kế đặc biệt hình chữ U, thuốc được phun đều hơn, tiết kiệm chi phí, thời gian.
+Cần	V	4	nsubj:pass
+phun	V	1	obj
+được	V	4	aux:pass
+thiết kế	V	0	root
+đặc biệt	A	4	acomp
+hình	N	4	obj
+chữ	N	6	nmod
+U	N	7	compound
+,	CH	10	punct
+thuốc	N	6	conj
+được	R	12	aux:pass
+phun	V	10	acl:subj
+đều	R	14	advmod
+hơn	A	12	acomp
+,	CH	16	punct
+tiết kiệm	V	14	conj
+chi phí	N	16	nmod
+,	CH	19	punct
+thời gian	N	17	conj
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 963
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Buồng chuối sau đó sẽ được bao bọc bằng túi nylon để hạn chế sâu bệnh, đảm bảo trái ngon và thẩm mỹ.
+Buồng	N	7	nsubj:pass
+chuối	N	1	compound
+sau	N	1	nmod
+đó	P	3	det:pmod
+sẽ	R	7	advmod
+được	V	7	aux:pass
+bao bọc	V	0	root
+bằng	E	9	case
+túi	N	7	obl
+nylon	N	9	compound
+để	E	12	mark:pcomp
+hạn chế	V	7	advcl:objective
+sâu bệnh	N	12	obj
+,	CH	15	punct
+đảm bảo	V	12	conj
+trái	N	15	obj
+ngon	A	16	amod
+và	C	19	cc
+thẩm mỹ	V	16	conj
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 964
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giống chuối này sinh trưởng tốt trên nhiều loại đất kể cả đất phèn, kháng bệnh, ít đổ ngã, có mùi thơm nên cho hiệu quả kinh tế cao.
+Giống	A	2	det:clf
+chuối	N	4	nsubj
+này	P	2	det:pmod
+sinh trưởng	V	0	root
+tốt	A	4	acomp
+trên	E	9	case
+nhiều	A	9	advmod:adj
+loại	N	7	clf
+đất	N	4	obl:comp
+kể cả	X	11	case
+đất	N	9	nmod
+phèn	N	11	compound
+,	CH	14	punct
+kháng	V	9	conj
+bệnh	N	14	nmod
+,	CH	17	punct
+ít	A	9	conj
+đổ	V	17	obj
+ngã	V	18	obj
+,	CH	21	punct
+có	V	4	conj
+mùi	N	21	obj
+thơm	A	22	amod
+nên	C	25	mark
+cho	E	26	case
+hiệu quả	N	21	obl:comp
+kinh tế	N	26	nmod
+cao	A	27	amod
+.	CH	4	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 965
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hệ thống cáp treo dài hơn 30 km, tổng kinh phí 6 tỷ đồng được trang trại đầu tư hơn 3 năm trước, dễ dàng vượt qua kênh, mương, tiết kiệm nhân công lao động.
+Hệ thống	N	3	nsubj
+cáp treo	N	1	nmod
+dài	A	0	root
+hơn	A	6	advmod:adj
+30	M	6	nummod
+km	Nu	3	obj
+,	CH	8	punct
+tổng	N	3	conj
+kinh phí	N	8	nmod
+6	M	12	nummod
+tỷ	M	10	flat:number
+đồng	Nu	8	nmod
+được	V	8	acl:subj
+trang trại	N	13	obj
+đầu tư	V	14	acl:subj
+hơn	A	18	advmod:adj
+3	M	18	nummod
+năm	N	15	obl:tmod
+trước	N	18	nmod
+,	CH	22	punct
+dễ dàng	A	22	nsubj
+vượt	V	3	conj
+qua	V	24	case
+kênh	N	22	obl:comp
+,	CH	26	punct
+mương	N	24	conj
+,	CH	28	punct
+tiết kiệm	V	24	conj
+nhân công	N	28	compound
+lao động	N	29	compound
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 966
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi móc buồng vào hệ thống cáp, công nhân vận hành một đầu máy chạy xăng đưa chuối đến xưởng chế biến.
+Sau	N	2	case
+khi	N	10	obl:tmod
+móc	V	2	acl:tmod
+buồng	N	3	obj
+vào	E	6	case
+hệ thống	N	3	obl:comp
+cáp	N	6	nmod
+,	CH	2	punct
+công nhân	N	10	nsubj
+vận hành	V	0	root
+một	M	12	nummod
+đầu máy	N	10	obj
+chạy	V	12	nmod
+xăng	N	13	obj
+đưa	V	12	acl:subj
+chuối	N	15	obj
+đến	E	18	case
+xưởng	N	15	obl:comp
+chế biến	V	18	compound
+.	CH	10	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 967
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hệ thống cáp treo một lần vận chuyển 50 buồng, mất 45 phút đến xưởng đóng gói.
+Hệ thống	N	5	nsubj
+cáp treo	N	1	amod
+một	M	4	nummod
+lần	N	1	nmod
+vận chuyển	V	0	root
+50	M	7	nummod
+buồng	N	5	obj
+,	CH	9	punct
+mất	V	5	conj
+45	M	11	nummod
+phút	Nu	9	obj
+đến	E	13	case
+xưởng	N	9	obl
+đóng gói	V	13	compound
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 968
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại đây, công nhân sẽ tháo bỏ túi nylon, dùng dao chuyên dụng tách chuối ra thành từng nải, loại bỏ phần cùi.
+Tại	E	2	case
+đây	P	6	obl
+,	CH	6	punct
+công nhân	N	6	nsubj
+sẽ	R	6	advmod
+tháo	V	0	root
+bỏ túi	V	6	obj
+nylon	N	6	obj
+,	CH	10	punct
+dùng	V	6	conj
+dao	N	10	obj
+chuyên dụng	A	11	compound
+tách	V	11	nmod
+chuối	N	13	obj
+ra	V	13	xcomp
+thành	V	15	xcomp
+từng	R	18	advmod
+nải	N	16	obj
+,	CH	20	punct
+loại bỏ	V	6	conj
+phần	N	20	obj
+cùi	V	21	nmod
+.	CH	6	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 969
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Công nhân dùng vòi phun áp lực nước rửa sạch bụi bẩn trên các nải chuối.
+Công nhân	N	7	nsubj
+dùng	V	1	acl:subj
+vòi	N	2	obj
+phun	V	3	nmod
+áp lực	N	4	nmod
+nước	N	5	nmod
+rửa	V	0	root
+sạch	A	7	acomp
+bụi	N	7	obj
+bẩn	A	9	amod
+trên	E	13	case
+các	L	13	det
+nải	N	7	obl
+chuối	N	13	nmod
+.	CH	7	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 970
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài khai báo y tế, giữ khoảng cách, không tụ tập đông người, trang trại có chế tài riêng về phòng dịch, dán ngay khu vực ra vào.
+Ngoài	E	2	case
+khai báo	N	14	obl
+y tế	N	2	compound
+,	CH	5	punct
+giữ	V	2	conj
+khoảng cách	N	5	obj
+,	CH	9	punct
+không	R	9	advmod:neg
+tụ tập	V	2	conj
+đông	A	9	nmod
+người	N	10	nmod
+,	CH	14	punct
+trang trại	N	14	nsubj
+có	V	0	root
+chế tài	N	14	obj
+riêng	A	15	amod
+về	E	18	case
+phòng dịch	N	15	nmod
+,	CH	20	punct
+dán	V	14	conj
+ngay	T	22	discourse
+khu vực	N	20	obj
+ra vào	V	22	nmod
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 971
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Công nhân làm việc ngoài đồng, vác nặng lẫn trong nhà xưởng đều phải đeo khẩu trang, ai vi phạm bị phạt 100.000-300.000 đồng mỗi lần, các vi phạm khác phạt 500.000-1.000.000 đồng, vi phạm lần hai đình chỉ công việc.
+Công nhân	N	13	nsubj
+làm việc	V	1	nmod
+ngoài	E	4	case
+đồng	N	2	nmod
+,	CH	6	punct
+vác	V	4	conj
+nặng	A	6	amod
+lẫn	C	6	amod
+trong	E	10	case
+nhà xưởng	N	6	nmod
+đều	R	13	advmod
+phải	V	13	aux
+đeo	V	0	root
+khẩu trang	N	13	obj
+,	CH	17	punct
+ai	P	17	nsubj
+vi phạm	V	13	conj
+bị	V	19	aux:pass
+phạt	V	17	xcomp
+100.000	M	23	nummod
+-	CH	20	flat:number
+300.000	M	20	flat:number
+đồng	Nu	19	obj
+mỗi	L	25	punct
+lần	N	23	nmod
+,	CH	28	punct
+các	L	28	det
+vi phạm	N	19	nsubj
+khác	A	28	amod
+phạt	V	29	advmod
+500.000	M	34	nummod
+-	CH	31	flat:number
+1.000.000	M	31	flat:number
+đồng	Nu	30	obj
+,	CH	36	punct
+vi phạm	V	13	conj
+lần	N	36	nmod
+hai	M	39	nummod
+đình chỉ	N	40	nummod
+công việc	N	36	nmod
+.	CH	13	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 972
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chuối sau khi tách nải sẽ được thả vào hồ nước có chứa dung dịch sát khuẩn, làm sạch các vết mủ.
+Chuối	N	8	mark
+sau	N	8	obl:tmod
+khi	N	8	obl:tmod
+tách	V	3	acl:tmod
+nải	N	4	obj
+sẽ	R	8	advmod
+được	V	8	aux:pass
+thả	V	0	root
+vào	E	10	case
+hồ	N	8	obl:comp
+nước	N	10	compound
+có	V	10	acl:subj
+chứa	V	12	xcomp
+dung dịch	N	13	obj
+sát khuẩn	N	14	nmod
+,	CH	17	punct
+làm	V	12	conj
+sạch	A	17	acomp
+các	L	20	det
+vết	N	17	obj
+mủ	V	20	nmod
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 973
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau đó công nhân sẽ dùng dao cắt tỉa phần cùi nải gọn gàng.
+Sau	N	5	obl:tmod
+đó	P	1	det:pmod
+công nhân	N	5	nsubj
+sẽ	R	5	advmod
+dùng	V	0	root
+dao	N	5	obj
+cắt	V	5	xcomp
+tỉa	V	7	xcomp
+phần	N	7	obj
+cùi	N	9	nmod
+nải	V	10	nmod
+gọn gàng	A	11	amod
+.	CH	5	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 974
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi rửa sạch lần 2, các nải chuối được xếp lên khai, hệ thống quạt máy phía trên sẽ giúp trái nhanh ráo nước.
+Sau	N	2	case
+khi	N	12	obl:tmod
+rửa	V	2	acl:tmod
+sạch	A	3	acomp
+lần	N	3	obj
+2	M	5	nummod
+,	CH	12	punct
+các	L	9	det
+nải	N	12	nsubj:pass
+chuối	N	9	nmod
+được	V	12	aux:pass
+xếp	V	0	root
+lên	V	12	compound:dir
+khai	V	12	obl:comp
+,	CH	21	punct
+hệ thống	N	21	nsubj
+quạt máy	N	16	nmod
+phía	N	16	nmod
+trên	N	18	compound
+sẽ	R	21	advmod
+giúp	V	12	conj
+trái	A	21	obj
+nhanh	A	24	advmod:adj
+ráo	V	25	det:clf
+nước	N	21	obl
+.	CH	12	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 975
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phần lớn công nhân tại xưởng đóng gói là nữ, dễ phù hợp với các công đoạn đòi hỏi sự tỉ mỉ.
+Phần lớn	L	2	det:clf
+công nhân	N	7	nsubj
+tại	E	4	case
+xưởng	N	2	obl
+đóng gói	N	4	compound
+là	V	7	cop
+nữ	N	0	root
+,	CH	9	punct
+dễ	A	7	conj
+phù hợp	V	9	compound
+với	E	13	case
+các	L	13	det
+công đoạn	N	10	obl:with
+đòi hỏi	V	13	acl:subj
+sự	N	14	obj
+tỉ mỉ	A	15	amod
+.	CH	14	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 976
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chủ trang trại cho biết, do đang mùa dịch, nhiều tình huống như nhân viên kỹ thuật đến trễ vì thủ tục giấy tờ phòng dịch, hoặc nhân viên hai xã giáp ranh qua lại vài chục mét cũng phải test nhanh tốn kém, khiến sản xuất phần nào bị ảnh hưởng.
+Chủ	N	3	nsubj
+trang trại	N	1	nmod
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	3	punct
+do	E	8	mark
+đang	R	8	advmod
+mùa	N	3	conj
+dịch	N	8	nmod
+,	CH	12	punct
+nhiều	A	12	advmod:adj
+tình huống	N	8	conj
+như	C	14	case
+nhân viên	N	12	nmod
+kỹ thuật	N	14	compound
+đến	E	12	acl:subj
+trễ	A	16	obl:comp
+vì	E	19	case
+thủ tục	N	16	obl
+giấy tờ	N	19	nmod
+phòng dịch	V	20	compound
+,	CH	34	punct
+hoặc	C	24	cc
+nhân viên	N	34	nsubj
+hai	M	26	nummod
+xã	N	24	nmod
+giáp ranh	V	26	compound
+qua lại	V	26	nmod
+vài	L	31	det
+chục	M	29	flat:number
+mét	Nu	28	obj
+cũng	R	33	advmod
+phải	V	34	aux
+test	V	3	conj
+nhanh	A	36	advmod:adj
+tốn kém	V	34	obj
+,	CH	38	punct
+khiến	V	34	conj
+sản xuất	V	38	obj
+phần nào	N	39	nmod
+bị	V	42	aux:pass
+ảnh hưởng	V	38	ccomp
+.	CH	3	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 977
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để duy trì sản xuất mùa dịch, trang trại thực hiện phương án "3 tại chỗ".
+Để	E	2	mark:pcomp
+duy trì	V	8	advcl:objective
+sản xuất	V	2	obj
+mùa	N	3	nmod
+dịch	N	4	nmod
+,	CH	2	punct
+trang trại	N	8	nsubj
+thực hiện	V	0	root
+phương án	N	8	obj
+"	CH	12	punct
+3	M	12	nummod
+tại chỗ	A	9	nmod
+"	CH	12	punct
+.	CH	8	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 978
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trang trại có 70 phòng trọ miễn phí, chia làm 3 khu dành cho công nhân lưu trú.
+Trang trại	N	2	nsubj
+có	V	0	root
+70	M	4	nummod
+phòng	N	2	obj
+trọ	V	4	acl:subj
+miễn phí	V	2	obj
+,	CH	8	punct
+chia	V	2	conj
+làm	V	8	xcomp
+3	M	11	nummod
+khu	N	9	obj
+dành	V	11	acl:subj
+cho	E	14	case
+công nhân	N	12	obl:comp
+lưu trú	V	14	compound
+.	CH	2	punct
+
+# doc_url = https://vnexpress.net/thu-hoach-chuoi-o-trang-trai-120-ha-4340367.html
+# date = 20210822
+# sent_id = 979
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoại trừ những người được phân công ra ngoài có test nhanh âm tính không quá 3 ngày, người lạ không được vào khu vực trang trại.
+Ngoại trừ	V	3	det
+những	L	3	det
+người	Nc	8	nsubj
+được	V	5	aux:pass
+phân công	V	3	acl:subj
+ra	V	5	compound:dir
+ngoài	N	5	obl:comp
+có	V	0	root
+test	N	8	obj
+nhanh	A	9	amod
+âm tính	N	10	advmod
+không	R	13	advmod:neg
+quá	R	15	advmod
+3	M	15	nummod
+ngày	N	10	obl:adj
+,	CH	21	punct
+người	N	21	nsubj
+lạ	A	17	amod
+không	R	20	advmod:neg
+được	V	21	aux:pass
+vào	V	8	conj
+khu vực	N	21	obj
+trang trại	N	22	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 980
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hàng nghìn chiến sĩ, bác sĩ, sinh viên y khoa...  lên đường vào miền Nam, chi viện cho cuộc chiến chống dịch Covid-19 với quyết tâm chiến thắng dịch bệnh cao độ.
+Hàng	R	3	advmod
+nghìn	M	3	nummod
+chiến sĩ	N	10	nsubj
+,	CH	5	punct
+bác sĩ	N	3	conj
+,	CH	7	punct
+sinh viên	N	3	conj
+y khoa	N	7	nmod
+...	CH	3	punct
+lên đường	V	0	root
+vào	V	10	xcomp
+miền	N	10	obl:comp
+Nam	Np	12	compound
+,	CH	15	punct
+chi viện	V	16	nsubj
+cho	E	10	conj
+cuộc chiến	N	16	obj
+chống	V	17	acl:subj
+dịch Covid-19	N	18	obj
+với	E	21	case
+quyết tâm	N	18	obl
+chiến thắng	V	21	nmod
+dịch bệnh	V	22	compound
+cao độ	N	23	compound
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 981
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Gần 300 y bác sĩ, học viên Học viện Quân y đã lên đường vào miền Nam chi viện cho cuộc chiến chống dịch Covid-19.
+Gần	A	3	advmod:adj
+300	M	3	nummod
+y bác sĩ	N	8	obl:tmod
+,	CH	8	punct
+học viên	N	8	nsubj
+Học viện Quân y	N	5	nmod
+đã	R	8	advmod
+lên đường	V	0	root
+vào	V	10	case
+miền	N	8	obl:comp
+Nam	Np	10	compound
+chi viện	V	10	compound
+cho	E	14	case
+cuộc chiến	N	8	obl:comp
+chống	V	14	acl:subj
+dịch Covid-19	N	15	obj
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 982
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những cán bộ, bác sĩ, học viên lên đường vừa là những chiến sĩ xung kích, vừa là học viên Quân y mang phẩm chất của Bộ đội Cụ Hồ, có y đức.
+Những	L	2	det
+cán bộ	N	11	nsubj
+,	CH	4	punct
+bác sĩ	N	2	conj
+,	CH	6	punct
+học viên	N	2	conj
+lên đường	V	2	conj
+vừa	R	9	advmod
+là	V	11	cop
+những	L	11	det
+chiến sĩ	N	0	root
+xung kích	A	11	compound
+,	CH	17	punct
+vừa	R	17	advmod
+là	V	17	cop
+học viên	N	17	det:clf
+Quân y	N	11	conj
+mang	V	17	acl:subj
+phẩm chất	N	18	obj
+của	E	21	case
+Bộ đội	N	19	nmod:poss
+Cụ	Np	21	nmod
+Hồ	Np	22	nmod
+,	CH	25	punct
+có	V	18	conj
+y đức	N	25	obj
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 983
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Giao nhiệm vụ cho đoàn, Giám đốc Học viện Quân y lưu ý, cán bộ, y bác sĩ, học viên cần chấp hành đủ tất cả các quy định, điều lệnh, điều lệ của quân đội, thực hiện đúng chức năng, nhiệm vụ.
+Giao	V	16	advcl
+nhiệm vụ	N	1	obj
+cho	E	4	case
+đoàn	N	1	obl:comp
+,	CH	6	punct
+Giám đốc	N	7	nsubj
+Học viện Quân y	V	8	punct
+lưu ý	N	1	conj
+,	CH	10	punct
+cán bộ	N	8	conj
+,	CH	12	punct
+y bác sĩ	N	8	conj
+,	CH	14	punct
+học viên	N	1	conj
+cần	V	16	aux
+chấp hành	V	0	root
+đủ	A	16	acomp
+tất cả	P	20	det
+các	L	20	det
+quy định	N	16	obl:with
+,	CH	22	punct
+điều lệnh	N	20	conj
+,	CH	24	punct
+điều lệ	N	20	conj
+của	E	26	case
+quân đội	N	20	nmod:poss
+,	CH	28	punct
+thực hiện	V	20	conj
+đúng	A	28	acomp
+chức năng	N	29	obl:adj
+,	CH	32	punct
+nhiệm vụ	N	30	conj
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 984
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đối với các học viên, Trung tướng Đỗ Quyết cho biết, lần này nhiệm vụ sẽ không chỉ lấy mẫu mà sẽ xuống chăm sóc bệnh nhân tại nhà, tại khu phố và làm bất cứ nhiệm vụ gì người dân yêu cầu.
+Đối với	E	3	case
+các	L	3	det
+học viên	N	7	obl
+,	CH	7	punct
+Trung tướng	N	6	det:clf
+Đỗ Quyết	Np	7	nsubj
+cho	V	0	root
+biết	V	7	compound:svc
+,	CH	16	punct
+lần	N	16	obl:tmod
+này	P	10	det:pmod
+nhiệm vụ	N	16	nsubj
+sẽ	R	16	advmod
+không	R	15	advmod:neg
+chỉ	R	16	advmod
+lấy	V	7	parataxis
+mẫu	N	16	obj
+mà	C	20	mark
+sẽ	R	20	advmod
+xuống	V	16	conj
+chăm sóc	V	20	xcomp
+bệnh nhân	N	21	obj
+tại	E	24	case
+nhà	N	21	obl
+,	CH	27	punct
+tại	E	27	case
+khu phố	N	24	conj
+và	C	29	cc
+làm	V	16	conj
+bất cứ	R	31	advmod
+nhiệm vụ	N	29	obj
+gì	P	31	compound
+người	N	34	det:clf
+dân	N	31	nmod
+yêu cầu	V	34	acl:subj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 985
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Vì vậy, ông yêu cầu phải phát huy tinh thần trách nhiệm, kiến thức đã được học để phục vụ người dân.
+Vì vậy	X	4	mark
+,	CH	4	punct
+ông	Nc	4	nsubj
+yêu cầu	V	0	root
+phải	V	6	aux
+phát huy	V	4	xcomp
+tinh thần	N	6	obj
+trách nhiệm	N	7	nmod
+,	CH	10	punct
+kiến thức	N	13	nsubj:pass
+đã	R	13	advmod
+được	V	13	aux:pass
+học	V	6	conj
+để	E	15	mark:pcomp
+phục vụ	V	13	advcl:objective
+người	N	17	det:clf
+dân	N	15	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 986
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lãnh đạo Học viện Quân y cũng cho rằng tính kỷ luật và tình thương yêu người dân, người bệnh, là hai điều kiện để hoàn thành tốt nhiệm vụ.
+Lãnh đạo	N	4	nsubj
+Học viện Quân y	N	1	nmod
+cũng	R	4	advmod
+cho	V	0	root
+rằng	C	4	compound:prt
+tính	N	4	obj
+kỷ luật	N	6	nmod
+và	C	11	cc
+tình thương yêu	N	11	nummod
+người	N	9	clf
+dân	N	6	nmod
+,	CH	13	punct
+người bệnh	N	11	conj
+,	CH	17	punct
+là	V	17	cop
+hai	M	17	nummod
+điều kiện	N	6	conj
+để	E	19	mark:pcomp
+hoàn thành	V	17	advcl:objective
+tốt	A	19	acomp
+nhiệm vụ	N	19	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 987
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đồng thời gửi lời chúc các y bác sĩ, học viên có nhiều sức khỏe, vững niềm tin, ý chí và an toàn trở về.
+Đồng thời	R	2	advmod
+gửi	V	0	root
+lời	N	2	obj
+chúc	V	3	compound:vmod
+các	L	6	det
+y bác sĩ	N	3	nmod
+,	CH	9	punct
+học viên	N	9	nsubj
+có	V	2	parataxis
+nhiều	A	11	advmod:adj
+sức khỏe	N	9	obj
+,	CH	14	punct
+vững	A	14	nummod
+niềm	N	11	conj
+tin	V	14	nmod
+,	CH	17	punct
+ý chí	N	15	conj
+và	C	19	cc
+an toàn	A	15	conj
+trở về	V	19	compound:vmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 988
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để thể hiện lòng quyết tâm, trước khi lên đường, gần 300 y bác sĩ, học viên đã đồng lòng hô to khẩu hiệu 3 lần “xin hứa”, 3 lần “quyết tâm”.
+Để	E	2	mark:pcomp
+thể hiện	V	16	advcl:objective
+lòng	N	2	obj
+quyết tâm	V	3	nmod
+,	CH	2	punct
+trước	E	7	case
+khi	N	16	obl:tmod
+lên đường	V	7	acl:tmod
+,	CH	12	punct
+gần	A	12	advmod:adj
+300	M	12	nummod
+y bác sĩ	N	8	conj
+,	CH	16	punct
+học viên	N	16	nsubj
+đã	R	16	advmod
+đồng lòng	V	0	root
+hô	V	16	obj
+to	A	17	acomp
+khẩu hiệu	N	18	obj
+3	M	21	nummod
+lần	N	18	obj
+“	CH	23	punct
+xin	V	16	conj
+hứa	V	23	xcomp
+”	CH	24	obj
+,	CH	28	punct
+3	M	28	nummod
+lần	N	23	obl
+“	CH	30	punct
+quyết tâm	V	23	obl
+”	CH	30	nmod
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 989
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lực lượng CSCĐ của Bộ sẽ là lực lượng chính, phối hợp với Công an TP.HCM và Cục Cảnh sát hình sự làm nhiệm vụ tại 12 chốt cửa ngõ.
+Lực lượng	N	7	nsubj:nn
+CSCĐ	N	1	compound
+của	E	4	case
+Bộ	N	1	nmod:poss
+sẽ	R	7	advmod
+là	V	7	cop
+lực lượng	N	0	root
+chính	T	7	amod
+,	CH	10	punct
+phối hợp	V	7	conj
+với	E	12	case
+Công an	N	10	obl:comp
+TP.HCM	Np	12	compound
+và	C	15	cc
+Cục	N	12	conj
+Cảnh sát	N	15	nmod
+hình sự	N	16	compound
+làm	V	15	acl:subj
+nhiệm vụ	N	18	obj
+tại	E	22	case
+12	M	22	nummod
+chốt	N	18	obl
+cửa ngõ	N	22	nmod
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 990
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ Quốc Phòng sẽ phối hợp với các bộ ngành làm việc trực tiếp, cụ thể với từng địa phương để tính toán phương án chi tiết cung ứng hàng hóa cho người dân.
+Bộ	N	4	nsubj
+Quốc Phòng	Np	1	compound
+sẽ	R	4	advmod
+phối hợp	V	0	root
+với	E	7	case
+các	L	7	det
+bộ	N	4	obl:with
+ngành	N	7	compound
+làm việc	V	8	acl:subj
+trực tiếp	A	9	acomp
+,	CH	12	punct
+cụ thể	A	4	conj
+với	E	15	case
+từng	P	15	det
+địa phương	N	12	obl:with
+để	E	17	mark:pcomp
+tính toán	V	12	advcl:objective
+phương án	N	17	obj
+chi tiết	N	18	compound
+cung ứng	V	19	acl:subj
+hàng hóa	N	20	obj
+cho	E	24	case
+người	N	24	det:clf
+dân	N	17	obl:iobj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 991
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cố gắng cao nhất để đáp ứng các yêu cầu "muôn hình vạn trạng" trong thực tiễn.
+Cố gắng	V	4	nsubj
+cao	A	1	amod
+nhất	A	2	advmod
+để	E	5	mark:pcomp
+đáp ứng	V	0	root
+các	L	7	det
+yêu cầu	N	5	obj
+"	CH	9	punct
+muôn	L	7	nmod
+hình vạn trạng	N	9	compound
+"	CH	9	punct
+trong	E	13	case
+thực tiễn	N	7	obl
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/thoi-su/hoi-ha-len-duong-chi-vien-mien-nam-chong-dich-767993.html
+# date = 20210822
+# sent_id = 992
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước đó, Bộ Quốc phòng đã chỉ đạo thành lập 7 bệnh viện dã chiến truyền nhiễm để tiếp nhận, điều trị bệnh nhân mắc Covid-19 trên địa bàn phía Nam.
+Trước	N	6	obl:tmod
+đó	P	6	obl
+,	CH	6	punct
+Bộ Quốc phòng	N	6	nsubj
+đã	R	6	advmod
+chỉ đạo	V	0	root
+thành lập	V	6	obj
+7	M	9	nummod
+bệnh viện	N	7	nmod
+dã chiến	N	9	nmod
+truyền nhiễm	N	10	compound
+để	E	13	mark:pcomp
+tiếp nhận	V	6	advcl:objective
+,	CH	17	punct
+điều trị	V	6	conj
+bệnh nhân	N	15	nmod
+mắc	V	6	parataxis
+Covid-19	Np	17	obj
+trên	E	20	case
+địa bàn	N	17	obl
+phía	N	20	nmod
+Nam	Np	21	compound
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 993
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thay vì “công cụ” chủ lực là điểm số, theo thông tư 22 (năm 2021) được Bộ GD-ĐT ban hành áp dụng cho học sinh trung học, sẽ sử dụng cả hình thức nói, viết để đánh giá sự tiến bộ trong học tập và rèn luyện của học sinh.
+Thay vì	X	19	nsubj
+“	CH	1	nmod
+công cụ	N	1	nmod
+”	CH	3	compound
+chủ lực	N	7	advmod
+là	V	7	cop
+điểm số	N	1	appos:nmod
+,	CH	9	punct
+theo	V	7	conj
+thông tư	N	9	obj
+22	M	10	compound
+(	CH	13	punct
+năm	N	10	appos:nmod
+2021	M	13	compound
+)	CH	13	punct
+được	V	19	aux:pass
+Bộ GD-ĐT	Np	18	nummod
+ban hành	V	19	obl:agent
+áp dụng	V	0	root
+cho	E	21	case
+học sinh	N	19	obl:iobj
+trung học	N	21	compound
+,	CH	25	punct
+sẽ	R	25	advmod
+sử dụng	V	19	conj
+cả	T	27	det
+hình thức	N	25	obj
+nói	V	27	acl:subj
+,	CH	30	punct
+viết	V	28	conj
+để	E	25	xcomp
+đánh giá	V	31	xcomp
+sự	N	32	obj
+tiến bộ	V	33	compound
+trong	E	36	case
+học tập	V	33	nmod
+và	C	38	cc
+rèn luyện	N	33	conj
+của	E	40	case
+học sinh	N	38	nmod:poss
+.	CH	19	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 994
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, theo Thông tư 22, sẽ có những môn học đánh giá chỉ bằng nhận xét như Giáo dục thể chất, Nghệ thuật, Âm nhạc, Mỹ thuật, Nội dung giáo dục địa phương, Hoạt động trải nghiệm, hướng nghiệp.
+Cụ thể	A	8	advcl
+,	CH	8	punct
+theo	V	8	advcl
+Thông tư	N	8	obl
+22	M	4	nmod
+,	CH	8	punct
+sẽ	R	8	advmod
+có	V	0	root
+những	L	10	det
+môn học	N	8	obj
+đánh giá	V	8	obj
+chỉ	R	14	advmod
+bằng	E	14	case
+nhận xét	N	10	nmod
+như	C	16	case
+Giáo dục	N	14	nmod
+thể chất	N	16	compound
+,	CH	19	punct
+Nghệ thuật	N	16	conj
+,	CH	21	punct
+Âm nhạc	N	16	conj
+,	CH	23	punct
+Mỹ thuật	N	16	conj
+,	CH	25	punct
+Nội dung	N	16	conj
+giáo dục	N	25	nmod
+địa phương	N	26	compound
+,	CH	29	punct
+Hoạt động	N	16	conj
+trải nghiệm	V	29	nmod
+,	CH	32	punct
+hướng nghiệp	N	16	list
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 995
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các môn học còn lại sẽ được đánh giá bằng nhận xét kết hợp điểm số.
+Các	L	2	det
+môn học	N	7	nsubj:pass
+còn	V	2	acl:subj
+lại	V	3	compound:svc
+sẽ	R	7	advmod
+được	V	7	aux:pass
+đánh giá	V	0	root
+bằng	E	9	case
+nhận xét	N	7	obl
+kết hợp	V	9	nmod
+điểm số	N	10	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 996
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo tinh thần của thông tư này, giáo viên sẽ dùng hình thức nói, viết để đánh giá, nhận xét sự tiến bộ, những ưu điểm nổi bật, hạn chế chủ yếu của học sinh ngay trong quá trình học tập.
+Theo	V	9	advcl
+tinh thần	N	1	obj
+của	E	4	case
+thông tư	N	2	nmod:poss
+này	P	4	det:pmod
+,	CH	9	punct
+giáo viên	N	9	nsubj
+sẽ	R	9	advmod
+dùng	V	0	root
+hình thức	N	9	obj
+nói	V	10	acl:subj
+,	CH	13	punct
+viết	V	11	conj
+để	E	15	mark:pcomp
+đánh giá	V	11	conj
+,	CH	17	punct
+nhận xét	V	11	conj
+sự	N	17	obj
+tiến bộ	V	18	nmod
+,	CH	22	punct
+những	L	22	det
+ưu điểm	N	18	conj
+nổi bật	A	22	nmod
+,	CH	25	punct
+hạn chế	V	11	conj
+chủ yếu	A	25	amod
+của	E	28	case
+học sinh	N	25	nmod:poss
+ngay	T	31	discourse
+trong	E	31	case
+quá trình	N	25	obl
+học tập	V	31	compound:vmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 997
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong một thời gian dài, giáo dục Việt Nam vốn tập trung chủ yếu vào hình thức kiểm tra đánh giá qua các bài đánh giá tổng kết.
+Trong	E	3	case
+một	M	3	nummod
+thời gian	N	9	obl:tmod
+dài	A	3	amod
+,	CH	3	punct
+giáo dục	N	9	nsubj
+Việt Nam	Np	6	nmod
+vốn	R	9	advmod
+tập trung	V	0	root
+chủ yếu	A	9	acomp
+vào	E	12	case
+hình thức	N	9	obl:comp
+kiểm tra	V	12	acl:subj
+đánh giá	V	13	obj
+qua	E	17	case
+các	L	17	det
+bài	N	13	obl
+đánh giá	V	17	nmod
+tổng kết	A	18	compound:vmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 998
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hình thức kiểm tra này thường được chuẩn hóa bằng cách chấm điểm cho học sinh theo một thang điểm cụ thể.
+Hình thức	N	6	nsubj:pass
+kiểm tra	V	1	compound:vmod
+này	P	1	det:pmod
+thường	R	6	advmod
+được	V	6	aux:pass
+chuẩn hóa	V	0	root
+bằng	E	8	case
+cách	N	6	obl
+chấm	V	8	acl:subj
+điểm	N	9	obj
+cho	E	12	case
+học sinh	N	9	obl:iobj
+theo	V	15	case
+một	M	15	nummod
+thang	N	9	obl
+điểm	N	15	nmod
+cụ thể	A	15	amod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 999
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong khi đó, mảng đánh giá thường xuyên - thường được biểu lộ qua các hoạt động phản hồi, động viên, gợi ý – lại là hình thức chưa được chú trọng đầy đủ.
+Trong	E	2	case
+khi	N	11	obl:tmod
+đó	P	2	det:pmod
+,	CH	11	punct
+mảng	V	6	det:clf
+đánh giá	V	11	nsubj:pass
+thường xuyên	A	6	nmod
+-	CH	11	punct
+thường	R	11	advmod
+được	V	11	aux:pass
+biểu lộ	V	23	csubj
+qua	E	14	case
+các	L	14	det
+hoạt động	N	11	obl:comp
+phản hồi	V	14	appos
+,	CH	17	punct
+động viên	V	15	conj
+,	CH	19	punct
+gợi ý	V	15	conj
+–	CH	19	punct
+lại	R	23	advmod
+là	V	23	cop
+hình thức	N	0	root
+chưa	R	26	advmod:neg
+được	V	26	aux:pass
+chú trọng	V	23	acl:subj
+đầy đủ	A	26	obj
+.	CH	23	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1000
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Về mặt bản chất, việc đánh giá thường xuyên phải xuất phát từ nguyện vọng và mong muốn của giáo viên trong việc thấu hiểu học sinh, từ đó mới có thể có can thiệp đặc biệt hoặc dạy học phân hóa.
+Về	E	2	case
+mặt	N	9	obl
+bản chất	N	2	nmod
+,	CH	9	punct
+việc	N	9	nsubj
+đánh giá	V	5	nmod
+thường xuyên	A	9	advmod
+phải	V	9	aux
+xuất phát	V	0	root
+từ	E	11	case
+nguyện vọng	N	9	obl:comp
+và	C	13	cc
+mong muốn	V	11	conj
+của	E	15	case
+giáo viên	N	11	nmod:poss
+trong	E	17	case
+việc	N	11	nmod
+thấu hiểu	V	17	nmod
+học sinh	N	18	nmod
+,	CH	25	punct
+từ	E	22	case
+đó	P	25	obl
+mới	R	25	advmod
+có thể	R	25	aux
+có	V	9	conj
+can thiệp	V	25	acomp
+đặc biệt	A	26	compound:adj
+hoặc	C	30	cc
+dạy học	V	27	conj
+phân hóa	N	29	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1001
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việc nhận xét nếu chung chung, không có định hướng không thể coi là đánh giá thường xuyên.
+Việc	N	4	nsubj
+nhận xét	N	1	nmod
+nếu	C	4	mark
+chung chung	V	10	advcl
+,	CH	7	punct
+không	R	7	advmod:neg
+có	V	4	conj
+định hướng	N	7	obj
+không thể	R	10	advmod:neg
+coi	V	0	root
+là	C	12	cop
+đánh giá	V	10	obj
+thường xuyên	A	12	amod
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1002
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cho nên, nếu giáo viên thực sự muốn đánh giá học trò thì phải thực sự theo sát, trao đổi, quan tâm tới từng em học sinh.
+Cho nên	C	12	mark
+,	CH	12	punct
+nếu	C	7	mark
+giáo viên	N	7	nsubj
+thực sự	A	6	advmod
+muốn	V	7	aux
+đánh giá	V	11	advcl
+học trò	N	7	obj
+thì	C	11	mark
+phải	V	11	aux
+thực sự	A	12	advmod:adj
+theo	V	0	root
+sát	A	12	acomp
+,	CH	15	punct
+trao đổi	V	13	conj
+,	CH	17	punct
+quan tâm	V	13	conj
+tới	E	17	compound:dir
+từng	R	20	det
+em	N	17	obl:comp
+học sinh	N	20	nmod
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1003
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bên cạnh đó, đánh giá thường xuyên có rất nhiều hình thức.
+Bên cạnh	N	6	nsubj
+đó	P	1	det:pmod
+,	CH	4	punct
+đánh giá	V	6	nsubj
+thường xuyên	A	6	advmod
+có	V	0	root
+rất	R	9	advmod
+nhiều	A	9	advmod:adj
+hình thức	N	6	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1004
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chúng ta không nên cố gắng chuẩn hóa cứng nhắc nghiệp vụ này, vì nếu không sẽ tạo thành đánh giá tổng kết, đánh mất sự linh hoạt vốn là điểm mạnh của đánh giá thường xuyên.
+Chúng ta	P	4	nsubj
+không	R	3	advmod:neg
+nên	V	4	aux
+cố gắng	V	0	root
+chuẩn	N	4	obj
+hóa	V	4	obj
+cứng nhắc	N	6	obj
+nghiệp vụ	N	6	nmod
+này	P	8	det:pmod
+,	CH	4	punct
+vì	E	15	mark
+nếu	C	15	mark
+không	R	15	advmod:neg
+sẽ	R	15	advmod
+tạo	V	4	advcl
+thành	V	15	obj
+đánh giá	V	15	obj
+tổng kết	N	17	nmod
+,	CH	20	punct
+đánh	V	15	conj
+mất	V	20	compound:svc
+sự	N	20	obj
+linh hoạt	V	22	acl:tonp
+vốn	R	26	advmod
+là	V	26	cop
+điểm	N	4	parataxis
+mạnh	A	26	amod
+của	E	29	case
+đánh giá	V	26	nmod:poss
+thường xuyên	A	29	amod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1005
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Do đó, nghiệp vụ đánh giá thường xuyên vừa cần được đào tạo, vừa cần được truyền cảm hứng cho các thầy cô thì mới có thể phát huy hiệu quả thực chất.
+Do đó	C	9	mark
+,	CH	9	punct
+nghiệp vụ	N	4	det:clf
+đánh giá	V	9	nsubj
+thường xuyên	A	7	advmod
+vừa	R	7	advmod
+cần	V	9	aux
+được	V	9	aux:pass
+đào tạo	V	0	root
+,	CH	14	punct
+vừa	R	12	advmod
+cần	V	14	aux
+được	V	14	aux:pass
+truyền cảm hứng	V	21	advcl
+cho	E	17	case
+các	L	17	det
+thầy cô	Nc	14	obl:comp
+thì	C	21	mark
+mới	R	21	advmod
+có thể	R	21	aux
+phát huy hiệu quả	V	9	conj
+thực chất	N	21	obj
+.	CH	21	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1006
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tôi cho rằng, để đánh giá tổng thể một học sinh, ngoài đánh giá thường xuyên vẫn cần phải có đánh giá tổng kết.
+Tôi	P	2	nsubj
+cho	V	0	root
+rằng	C	2	compound:prt
+,	CH	2	punct
+để	E	6	mark:pcomp
+đánh giá	V	2	advcl:objective
+tổng thể	V	6	obj
+một	M	9	nummod
+học sinh	N	6	obj
+,	CH	12	punct
+ngoài	E	12	case
+đánh giá	V	17	obl
+thường xuyên	A	12	amod
+vẫn	R	15	advmod
+cần	V	17	aux
+phải	V	17	aux
+có	V	2	conj
+đánh giá	V	17	obj
+tổng kết	N	18	acl:subj
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1007
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây là hai hoạt động đánh giá bổ trợ cho nhau chứ không phải thay thế, phủ định nhau.
+Đây	P	4	nsubj
+là	V	4	cop
+hai	M	4	nummod
+hoạt động	V	0	root
+đánh giá	V	4	nmod
+bổ trợ	N	5	amod
+cho	E	8	case
+nhau	N	6	obl:comp
+chứ	C	12	cc
+không	R	11	advmod:neg
+phải	V	12	aux
+thay thế	V	4	conj
+,	CH	14	punct
+phủ định	V	12	conj
+nhau	N	14	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1008
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tất nhiên, trong giáo dục hiện đại, điểm số cũng chỉ được coi như là một trong nhiều dữ liệu học tập.
+Tất nhiên	R	11	advcl
+,	CH	1	punct
+trong	E	4	case
+giáo dục	N	11	obl
+hiện đại	A	4	amod
+,	CH	4	punct
+điểm số	N	11	nsubj:pass
+cũng	R	11	advmod
+chỉ	R	11	advmod
+được	V	11	aux:pass
+coi	V	0	root
+như	C	17	case
+là	V	17	cop
+một	M	17	nummod
+trong	E	16	case
+nhiều	A	17	advmod:adj
+dữ liệu	N	11	obl
+học tập	V	17	compound:vmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1009
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có một điều đáng mừng, khi dạy học online, tôi có quan sát được một bộ phận thầy cô đã thực hiện đánh giá thường xuyên qua các app công nghệ.
+Có	V	13	advcl
+một	M	3	nummod
+điều	N	1	obj
+đáng	V	3	acl:subj
+mừng	V	4	compound:svc
+,	CH	7	punct
+khi	N	13	obl:tmod
+dạy học	V	7	nmod
+online	N	8	nmod
+,	CH	7	punct
+tôi	P	12	nsubj
+có	V	13	advmod
+quan sát	V	0	root
+được	R	13	advmod
+một	M	16	nummod
+bộ phận	N	13	obj
+thầy cô	Nc	16	nmod
+đã	R	19	advmod
+thực hiện	V	16	acl:subj
+đánh giá	V	19	obj
+thường xuyên	A	20	amod
+qua	V	24	case
+các	L	24	det
+app	N	19	obl
+công nghệ	N	24	nmod
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/giao-duc/lam-sao-de-danh-gia-nhan-xet-hoc-sinh-theo-thong-tu-22-767998.html
+# date = 20210822
+# sent_id = 1010
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các thầy cô đã khuyến khích sự học tập của học sinh bằng các sticker, các điểm sao cho các hành vi học tập tích cực,…
+Các	L	2	det
+thầy cô	Nc	4	nsubj
+đã	R	4	advmod
+khuyến khích	V	0	root
+sự	N	4	obj
+học tập	V	5	compound:vmod
+của	E	8	case
+học sinh	N	5	nmod:poss
+bằng	E	11	case
+các	L	11	det
+sticker	N	5	nmod
+,	CH	14	punct
+các	L	14	det
+điểm	N	11	conj
+sao	T	14	compound
+cho	E	18	case
+các	L	18	det
+hành vi	N	4	obl:comp
+học tập	V	18	acl:subj
+tích cực	A	19	obj
+,	CH	4	punct
+…	CH	4	punct

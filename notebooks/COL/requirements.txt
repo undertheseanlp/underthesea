@@ -1,2 +1,2 @@
-jupyterlab>=3.0git
+jupyterlab>=3.0
 wordcloud

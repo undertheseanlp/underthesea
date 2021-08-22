@@ -118,7 +118,7 @@ class UDDataset(Dataset):
 
 
 if __name__ == '__main__':
-    file = "lyrics.txt"  # lyrics.txt or 202108.txt
+    file = "202108.txt"  # lyrics.txt or 202108.txt
     raw_file = join(COL_FOLDER, "corpus", "raw", file)
     generated_dataset = UDDataset.load_from_raw_file(raw_file)
 
