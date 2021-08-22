@@ -1,0 +1,157 @@
+biên giới:
+- tag: N
+biển:
+- tag: N
+biện pháp:
+- tag: N
+biệt danh:
+- tag: N
+biệt kích:
+- tag: N
+bom:
+- tag: N
+buôn:
+- tag: N
+buồng:
+- tag: N
+buổi:
+- tag: N
+bà:
+- tag: N
+bà con:
+- tag: N
+bài học:
+- tag: N
+bài tập:
+- tag: N
+bàn:
+- tag: N
+bác sĩ:
+- tag: N
+bán đảo:
+- tag: N
+bánh:
+- tag: N
+bánh phồng:
+- tag: N
+báo:
+- tag: N
+báo chí:
+- tag: N
+bát:
+- tag: N
+bãi:
+- tag: N
+bão:
+- tag: N
+bên:
+- tag: N
+bình:
+- tag: N
+bí quyết:
+- tag: N
+bóng:
+- tag: N
+bóng chuyền:
+- tag: N
+bóng đá:
+- tag: N
+bút:
+- tag: N
+bưu chính:
+- tag: N
+bưu cục:
+- tag: N
+bưu điện:
+- tag: N
+bạn:
+- tag: N
+bạn bè:
+- tag: N
+bả vai:
+- tag: N
+bản:
+- tag: N
+bản chất:
+- tag: N
+bản sao:
+- tag: N
+bản sắc:
+- tag: N
+bản thân:
+- tag: N
+bản tin:
+- tag: N
+bản địa:
+- tag: N
+bảng:
+- tag: N
+bất động sản:
+- tag: N
+bậc:
+- tag: N
+bắc:
+- tag: N
+bắp chân:
+- tag: N
+bắp đùi:
+- tag: N
+bằng chứng:
+- tag: N
+bến:
+- tag: N
+bệnh:
+- tag: N
+bệnh nhân:
+- tag: N
+bệnh viện:
+- tag: N
+bố:
+- tag: N
+bối cảnh:
+- tag: N
+bộ:
+- tag: N
+bộ phận:
+- tag: N
+bộ trưởng:
+- tag: N
+bộ đội:
+- tag: N
+bột:
+- tag: N
+bụi:
+- tag: N
+bức:
+- tag: N
+bữa:
+- tag: N
+ca dao:
+- tag: N
+ca sĩ:
+- tag: N
+cam:
+- tag: N
+cha:
+- tag: N
+cha mẹ:
+- tag: N
+chi cục:
+- tag: N
+chi nhánh:
+- tag: N
+chi tiết:
+- tag: N
+chiến dịch:
+- tag: N
+chiến lược:
+- tag: N
+chiến sĩ:
+- tag: N
+chiến tranh:
+- tag: N
+quan sát:
+- defs:
+  - def: Quan sát là việc thu lại hoạt động của các thông tin từ một nguồn chính.
+    examples: null
+  tag: V
