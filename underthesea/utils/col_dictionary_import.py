@@ -11,6 +11,7 @@ DICTIONARY_FILE = join(DICTIONARY_FOLDER, "202108.yaml")
 if __name__ == '__main__':
     dictionary = Dictionary.load(DICTIONARY_FILE)
     dictionary.describe()
-    dictionary.import_words(join(DICTIONARY_FOLDER, "words_noun_candidates.xlsx"))
+    for pos in ["verb", "noun", "adjective"]:
+        dictionary.import_words(join(DICTIONARY_FOLDER, f"words_{pos}_candidates.xlsx"))
     dictionary.describe()
-    dictionary.save(join(DICTIONARY_FOLDER, "202108_1.yaml"))
+    dictionary.save(join(DICTIONARY_FOLDER, "202108.yaml"))
