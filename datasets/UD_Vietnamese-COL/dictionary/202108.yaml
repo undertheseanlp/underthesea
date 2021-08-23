@@ -1,7 +1,31 @@
+an táng:
+- tag: V
+ban hành:
+- tag: V
+bao bọc:
+- tag: V
+bao gồm:
+- tag: V
+bao phủ:
+- tag: V
+bay:
+- tag: V
 biên giới:
 - tag: N
+biến động:
+- tag: V
+biết:
+- tag: V
+biếu:
+- tag: V
 biển:
 - tag: N
+biểu diễn:
+- tag: V
+biểu lộ:
+- tag: V
+biểu tình:
+- tag: V
 biện pháp:
 - tag: N
 biệt danh:
@@ -12,22 +36,37 @@ bom:
 - tag: N
 buôn:
 - tag: N
+- tag: V
+buôn bán:
+- tag: V
 buồng:
 - tag: N
 buổi:
 - tag: N
+buộc:
+- tag: V
 bà:
 - tag: N
 bà con:
 - tag: N
 bài học:
 - tag: N
+bài trí:
+- tag: V
 bài tập:
 - tag: N
 bàn:
 - tag: N
+bày:
+- tag: V
+bày tỏ:
+- tag: V
+bác bỏ:
+- tag: V
 bác sĩ:
 - tag: N
+bán:
+- tag: V
 bán đảo:
 - tag: N
 bánh:
@@ -38,6 +77,10 @@ báo:
 - tag: N
 báo chí:
 - tag: N
+báo cáo:
+- tag: V
+báo tử:
+- tag: V
 bát:
 - tag: N
 bãi:
@@ -48,6 +91,10 @@ bên:
 - tag: N
 bình:
 - tag: N
+bình luận:
+- tag: V
+bình phục:
+- tag: V
 bí quyết:
 - tag: N
 bóng:
@@ -86,6 +133,12 @@ bản địa:
 - tag: N
 bảng:
 - tag: N
+bảo tồn:
+- tag: V
+bảo vệ:
+- tag: V
+bảo đảm:
+- tag: V
 bất động sản:
 - tag: N
 bậc:
@@ -96,6 +149,12 @@ bắp chân:
 - tag: N
 bắp đùi:
 - tag: N
+bắt buộc:
+- tag: V
+bắt nạt:
+- tag: V
+bắt đầu:
+- tag: V
 bằng chứng:
 - tag: N
 bến:
@@ -106,10 +165,24 @@ bệnh nhân:
 - tag: N
 bệnh viện:
 - tag: N
+bị:
+- tag: V
+bỏ:
+- tag: V
+bỏ rơi:
+- tag: V
 bố:
 - tag: N
+bố trí:
+- tag: V
 bối cảnh:
 - tag: N
+bồi thường:
+- tag: V
+bổ nhiệm:
+- tag: V
+bổ sung:
+- tag: V
 bộ:
 - tag: N
 bộ phận:
@@ -118,6 +191,10 @@ bộ trưởng:
 - tag: N
 bộ đội:
 - tag: N
+bộc bạch:
+- tag: V
+bộc lộ:
+- tag: V
 bột:
 - tag: N
 bụi:
@@ -126,24 +203,52 @@ bức:
 - tag: N
 bữa:
 - tag: N
+bực bội:
+- tag: V
 ca dao:
 - tag: N
+ca ngợi:
+- tag: V
 ca sĩ:
 - tag: N
+cai quản:
+- tag: V
 cam:
 - tag: N
+cam kết:
+- tag: V
+can thiệp:
+- tag: V
 cao độ:
 - tag: N
 cha:
 - tag: N
 cha mẹ:
 - tag: N
+che:
+- tag: V
+chi:
+- tag: V
 chi cục:
 - tag: N
 chi nhánh:
 - tag: N
 chi tiết:
 - tag: N
+chi viện:
+- tag: V
+chia:
+- tag: V
+chia sẻ:
+- tag: V
+chinh phục:
+- tag: V
+chiêu mộ:
+- tag: V
+chiếm:
+- tag: V
+chiếm lĩnh:
+- tag: V
 chiến dịch:
 - tag: N
 chiến lược:
@@ -152,6 +257,20 @@ chiến sĩ:
 - tag: N
 chiến tranh:
 - tag: N
+cho:
+- tag: V
+cho biết:
+- tag: V
+cho phép:
+- tag: V
+chuyên nghiệp:
+- tag: A
+chuyển:
+- tag: V
+chuyển hướng:
+- tag: V
+chuẩn:
+- tag: A
 chuối:
 - tag: N
 chàng:
@@ -160,22 +279,42 @@ cháo:
 - tag: N
 cháu:
 - tag: N
+cháy:
+- tag: V
 chén:
 - tag: N
+chính:
+- tag: A
 chính phủ:
 - tag: N
 chính quyền:
 - tag: N
 chính sách:
 - tag: N
+chính thức:
+- tag: A
 chính trị:
 - tag: N
+chăm chút:
+- tag: V
+chăm chỉ:
+- tag: A
+chăm sóc:
+- tag: V
+chơi:
+- tag: V
 chương trình:
 - tag: N
 chướng ngại vật:
 - tag: N
 chưởng:
 - tag: N
+chạy:
+- tag: V
+chảy:
+- tag: V
+chấm dứt:
+- tag: V
 chấn thương:
 - tag: N
 chất:
@@ -186,20 +325,40 @@ chất liệu:
 - tag: N
 chất lượng:
 - tag: N
+chậm:
+- tag: A
+chậm chạp:
+- tag: A
+chắc chắn:
+- tag: A
 chắp:
 - tag: N
 chặng:
 - tag: N
+chặt:
+- tag: A
+chặt chẽ:
+- tag: A
+chết:
+- tag: V
 chỉ thị:
 - tag: N
+chỉ trích:
+- tag: V
+chỉ đạo:
+- tag: V
 chỗ:
 - tag: N
 chợ:
 - tag: N
+chủ chốt:
+- tag: A
 chủ lực:
 - tag: N
 chủ nhân:
 - tag: N
+chủ quan:
+- tag: A
 chủ sở hữu:
 - tag: N
 chủ thể:
@@ -208,6 +367,8 @@ chủ trương:
 - tag: N
 chủ tịch:
 - tag: N
+chủ yếu:
+- tag: A
 chứng khoán:
 - tag: N
 chữ:
@@ -252,8 +413,100 @@ công nghiệp:
 - tag: N
 công nghệ:
 - tag: N
+cũ:
+- tag: A
+cổ điển:
+- tag: A
+cụ thể:
+- tag: A
+cực:
+- tag: A
+giàu có:
+- tag: A
+giản dị:
+- tag: A
+gần gũi:
+- tag: A
+hiếm:
+- tag: A
+khó chịu:
+- tag: A
+khó khăn:
+- tag: A
+khốc liệt:
+- tag: A
+khổ sở:
+- tag: A
+khổng lồ:
+- tag: A
+khủng khiếp:
+- tag: A
+kiên nhẫn:
+- tag: A
+kém:
+- tag: A
+kỹ:
+- tag: A
+kỹ lưỡng:
+- tag: A
+la liệt:
+- tag: A
+lâu:
+- tag: A
+lâu đời:
+- tag: A
+lớn:
+- tag: A
+may mắn:
+- tag: A
+muộn:
+- tag: A
+mạnh:
+- tag: A
+mệt mỏi:
+- tag: A
+mới:
+- tag: A
+nguy hiểm:
+- tag: A
+ngắn:
+- tag: A
+nhỏ:
+- tag: A
+nặng nề:
+- tag: A
 quan sát:
 - defs:
   - def: Quan sát là việc thu lại hoạt động của các thông tin từ một nguồn chính.
     examples: null
   tag: V
+quen:
+- tag: A
+quyết liệt:
+- tag: A
+thuận tiện:
+- tag: A
+thông minh:
+- tag: A
+tinh tế:
+- tag: A
+to:
+- tag: A
+trống:
+- tag: A
+tuyệt vời:
+- tag: A
+tuyệt đối:
+- tag: A
+tích cực:
+- tag: A
+đầy đủ:
+- tag: A
+đặc biệt:
+- tag: A
+ưu tiên:
+- tag: A
+ổn:
+- tag: A
+ổn định:
+- tag: A

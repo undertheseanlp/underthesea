@@ -29,7 +29,13 @@ class Dictionary:
         for key, row in df.iterrows():
             token = row[0]
             pos = row[1]
-            self.data[token] = [{'tag': pos}]
+            if token in self.data:
+                senses = self.data[token]
+                exist_pos = [s['tag'] for s in senses]
+                if pos not in exist_pos:
+                    self.data[token].append({'tag': pos})
+            else:
+                self.data[token] = [{'tag': pos}]
 
     def to_df(self):
         output = []
@@ -62,12 +68,19 @@ if __name__ == '__main__':
     ud_dataset = UDDataset.load(ud_file)
     rows = [s.rows for s in ud_dataset]
     rows = [[row[0].lower(), row[1]] for sublist in rows for row in sublist]
-    df = pd.DataFrame(rows, columns=['token', 'pos'])
-    df = df[df["pos"].isin(["N"])]
-    ud_df = df.sort_values(["token", "pos"]).drop_duplicates().sort_values(["token", "pos"])
+    ud_df = pd.DataFrame(rows, columns=['token', 'pos'])
+    print("List pos:", sorted(set(ud_df["pos"])))
+    pos = [
+        ["V", "verb"],
+        ["N", "noun"],
+        ["A", "adjective"]
+    ]
+    for pos_label, pos_full_name in pos:
+        ud_df_sub = ud_df[ud_df["pos"].isin([pos_label])]
+        ud_df_sub = ud_df_sub.sort_values(["token", "pos"]).drop_duplicates().sort_values(["token", "pos"])
 
-    df = pd.merge(ud_df, current_df, on=['token', 'pos'], how='outer', indicator=True)
-    df = df[df['_merge'] == 'left_only']
-    df = df[['token', 'pos']]
-    df['verify'] = ''
-    df.to_excel(join(DICTIONARY_FOLDER, "words_noun_candidates.xlsx"), index=False)
+        df = pd.merge(ud_df_sub, current_df, on=['token', 'pos'], how='outer', indicator=True)
+        df = df[df['_merge'] == 'left_only']
+        df = df[['token', 'pos']]
+        df['verify'] = ''
+        df.to_excel(join(DICTIONARY_FOLDER, f"words_{pos_full_name}_candidates.xlsx"), index=False)
