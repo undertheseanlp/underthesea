@@ -413,68 +413,428 @@ công nghiệp:
 - tag: N
 công nghệ:
 - tag: N
+công nhân:
+- tag: N
+công thương:
+- tag: N
+công thức:
+- tag: N
+công ty:
+- tag: N
+công tác:
+- tag: N
 cũ:
 - tag: A
+cơ quan:
+- tag: N
 cổ điển:
 - tag: A
 cụ thể:
 - tag: A
 cực:
 - tag: A
+gia đình:
+- tag: N
+giai đoạn:
+- tag: N
 giàu có:
 - tag: A
+giá:
+- tag: N
+giá cả:
+- tag: N
+giám đốc:
+- tag: N
+giáo dục:
+- tag: N
+giáo viên:
+- tag: N
+giả thuyết:
+- tag: N
+giải pháp:
+- tag: N
+giải thưởng:
+- tag: N
 giản dị:
 - tag: A
+giấy:
+- tag: N
 gần gũi:
 - tag: A
 hiếm:
 - tag: A
+hoàng gia:
+- tag: N
+hoàng tử:
+- tag: N
+hoạt động:
+- tag: N
+huyện:
+- tag: N
+hàng rào:
+- tag: N
+hàng xóm:
+- tag: N
+hậu quả:
+- tag: N
+học trò:
+- tag: N
+học viên:
+- tag: N
+hồ sơ:
+- tag: N
+hội đồng:
+- tag: N
+hợp đồng:
+- tag: N
+khoa học:
+- tag: N
+khoảng cách:
+- tag: N
+khu phố:
+- tag: N
+khu vực:
+- tag: N
+khuôn khổ:
+- tag: N
+khuôn viên:
+- tag: N
+khách:
+- tag: N
+khách hàng:
+- tag: N
+khán giả:
+- tag: N
+khía cạnh:
+- tag: N
 khó chịu:
 - tag: A
 khó khăn:
 - tag: A
+không gian:
+- tag: N
+khăn:
+- tag: N
+khẩu hiệu:
+- tag: N
+khẩu trang:
+- tag: N
 khốc liệt:
 - tag: A
 khổ sở:
 - tag: A
 khổng lồ:
 - tag: A
+khủng hoảng:
+- tag: N
 khủng khiếp:
 - tag: A
+kinh nghiệm:
+- tag: N
+kinh phí:
+- tag: N
+kinh tế:
+- tag: N
 kiên nhẫn:
 - tag: A
+kiến thức:
+- tag: N
+kiến trúc sư:
+- tag: N
 kém:
 - tag: A
+kích thước:
+- tag: N
+kế hoạch:
+- tag: N
+kết quả:
+- tag: N
 kỹ:
 - tag: A
 kỹ lưỡng:
 - tag: A
+kỹ thuật viên:
+- tag: N
 la liệt:
 - tag: A
+lao động:
+- tag: N
+làn sóng:
+- tag: N
 lâu:
 - tag: A
 lâu đời:
 - tag: A
+lưu lượng:
+- tag: N
+lương thực:
+- tag: N
+lưới:
+- tag: N
+lịch sử:
+- tag: N
+lọ:
+- tag: N
+lối:
+- tag: N
+lộ:
+- tag: N
 lớn:
 - tag: A
+lớp:
+- tag: N
+lời:
+- tag: N
+lời nói:
+- tag: N
+lợi nhuận:
+- tag: N
+lợi thế:
+- tag: N
+lợi ích:
+- tag: N
+lửa:
+- tag: N
+lực lượng:
+- tag: N
 may mắn:
 - tag: A
+miệng:
+- tag: N
 muộn:
 - tag: A
+màu da:
+- tag: N
+màu sắc:
+- tag: N
+máu:
+- tag: N
+máy bay:
+- tag: N
+máy móc:
+- tag: N
+máy tính:
+- tag: N
+môi trường:
+- tag: N
+môn:
+- tag: N
+môn học:
+- tag: N
+mưa lũ:
+- tag: N
+mương:
+- tag: N
+mạng:
+- tag: N
+mạng lưới:
+- tag: N
 mạnh:
 - tag: A
+mạt chược:
+- tag: N
+mầm non:
+- tag: N
+mẫu:
+- tag: N
+mẫu đơn:
+- tag: N
+mật:
+- tag: N
+mật khẩu:
+- tag: N
+mật ong:
+- tag: N
+mật độ:
+- tag: N
+mắt:
+- tag: N
+mặt bằng:
+- tag: N
+mặt hàng:
+- tag: N
+mặt trời:
+- tag: N
+mặt đất:
+- tag: N
+mẹ:
+- tag: N
+mẹo:
+- tag: N
 mệt mỏi:
 - tag: A
+mốc:
+- tag: N
+mối:
+- tag: N
+mồ hôi:
+- tag: N
+mồi:
+- tag: N
 mới:
 - tag: A
+mục tiêu:
+- tag: N
+mục đích:
+- tag: N
+mỹ thuật:
+- tag: N
+nam:
+- tag: N
+nam giới:
+- tag: N
+nghề nghiệp:
+- tag: N
+nghệ nhân:
+- tag: N
+nghệ sĩ:
+- tag: N
+nghệ thuật:
+- tag: N
+nghị sĩ:
+- tag: N
+ngoại giao:
+- tag: N
+ngoại lệ:
+- tag: N
+ngoại ngữ:
+- tag: N
+ngoại thương:
+- tag: N
+ngoại trưởng:
+- tag: N
+nguy cơ:
+- tag: N
 nguy hiểm:
 - tag: A
+nguyên liệu:
+- tag: N
+nguyên nhân:
+- tag: N
+nguyên tắc:
+- tag: N
+nguyện vọng:
+- tag: N
+nguồn:
+- tag: N
+nguồn gốc:
+- tag: N
+ngành:
+- tag: N
+ngóc ngách:
+- tag: N
+ngôi sao:
+- tag: N
+ngôn ngữ:
+- tag: N
+ngôn từ:
+- tag: N
+ngăn kéo:
+- tag: N
+người:
+- tag: N
+người bệnh:
+- tag: N
 ngắn:
 - tag: A
+nhân dân:
+- tag: N
+nhân khẩu:
+- tag: N
+nhân tố:
+- tag: N
+nhân viên:
+- tag: N
+nhãn hiệu:
+- tag: N
+nhạc:
+- tag: N
+nhận thức:
+- tag: N
 nhỏ:
 - tag: A
+nhựa:
+- tag: N
+nông dân:
+- tag: N
+nông nghiệp:
+- tag: N
+nông sản:
+- tag: N
+năng lượng:
+- tag: N
+năng lực:
+- tag: N
+nước mắm:
+- tag: N
 nặng nề:
 - tag: A
+nền tảng:
+- tag: N
+nồng độ:
+- tag: N
+nỗ lực:
+- tag: N
+nội dung:
+- tag: N
+nội thất:
+- tag: N
+nội vụ:
+- tag: N
+nợ:
+- tag: N
+phi công:
+- tag: N
+phi hành gia:
+- tag: N
+phi hành đoàn:
+- tag: N
+phiên:
+- tag: N
+phong cách:
+- tag: N
+phong trào:
+- tag: N
+phát ngôn:
+- tag: N
+phân:
+- tag: N
+phôi:
+- tag: N
+phút:
+- tag: N
+phút giây:
+- tag: N
+phương:
+- tag: N
+phương thức:
+- tag: N
+phương tiện:
+- tag: N
+phần:
+- tag: N
+phần cứng:
+- tag: N
+phần mềm:
+- tag: N
+phần nào:
+- tag: N
+phẩm chất:
+- tag: N
+phổ thông:
+- tag: N
+phổi:
+- tag: N
+phở:
+- tag: N
+phụ huynh:
+- tag: N
+phụ nữ:
+- tag: N
+quan chức:
+- tag: N
+quan hệ:
+- tag: N
 quan sát:
 - defs:
   - def: Quan sát là việc thu lại hoạt động của các thông tin từ một nguồn chính.
@@ -482,24 +842,492 @@ quan sát:
   tag: V
 quen:
 - tag: A
+quy chế:
+- tag: N
+quy mô:
+- tag: N
+quy trình:
+- tag: N
+quy tắc:
+- tag: N
 quyết liệt:
 - tag: A
+quá trình:
+- tag: N
+quán:
+- tag: N
+quân:
+- tag: N
+quân phục:
+- tag: N
+quân số:
+- tag: N
+quân sự:
+- tag: N
+quân y:
+- tag: N
+quân đội:
+- tag: N
+quãng:
+- tag: N
+quê:
+- tag: N
+quê hương:
+- tag: N
+quý:
+- tag: N
+quạt máy:
+- tag: N
+quả:
+- tag: N
+quần thể:
+- tag: N
+quần áo:
+- tag: N
+quốc gia:
+- tag: N
+quốc hội:
+- tag: N
+quốc phòng:
+- tag: N
+quốc tế:
+- tag: N
+quốc tịch:
+- tag: N
+quốc vương:
+- tag: N
+quỹ:
+- tag: N
+quỹ đạo:
+- tag: N
+rau:
+- tag: N
+rau muống:
+- tag: N
+rau ngót:
+- tag: N
+rùa:
+- tag: N
+rượu:
+- tag: N
+rừng:
+- tag: N
+sa mạc:
+- tag: N
+sai lầm:
+- tag: N
+sai sót:
+- tag: N
+sinh học:
+- tag: N
+sinh nhật:
+- tag: N
+sinh thái:
+- tag: N
+sinh viên:
+- tag: N
+siêu thị:
+- tag: N
+sân thượng:
+- tag: N
+sâu bệnh:
+- tag: N
+sóng:
+- tag: N
+sông:
+- tag: N
+súng:
+- tag: N
+sản phẩm:
+- tag: N
+số:
+- tag: N
+số liệu:
+- tag: N
+số lượng:
+- tag: N
+số phận:
+- tag: N
+sổ:
+- tag: N
+sở:
+- tag: N
+sở thích:
+- tag: N
+sợi:
+- tag: N
+sụn:
+- tag: N
+sứ mệnh:
+- tag: N
+sức lực:
+- tag: N
+sức mạnh:
+- tag: N
+sức ép:
+- tag: N
+sự:
+- tag: N
+sự cố:
+- tag: N
+sự kiện:
+- tag: N
+sự nghiệp:
+- tag: N
+sự thật:
+- tag: N
+tang lễ:
+- tag: N
+tham vọng:
+- tag: N
+than:
+- tag: N
+thanh niên:
+- tag: N
+thanh tra:
+- tag: N
+thao trường:
+- tag: N
+thiên nhiên:
+- tag: N
+thiết bị:
+- tag: N
+thiền sư:
+- tag: N
+thu nhập:
+- tag: N
+thung lũng:
+- tag: N
+thuyền trưởng:
+- tag: N
 thuận tiện:
 - tag: A
+thuế:
+- tag: N
+thuốc:
+- tag: N
+thuốc phiện:
+- tag: N
+thuỷ điện:
+- tag: N
+thành phố:
+- tag: N
+thành viên:
+- tag: N
+thí sinh:
+- tag: N
+thói quen:
+- tag: N
+thôn:
+- tag: N
+thông báo:
+- tag: N
 thông minh:
 - tag: A
+thông tin:
+- tag: N
+thông tư:
+- tag: N
+thùng:
+- tag: N
+thư:
+- tag: N
+thương mại:
+- tag: N
+thất bại:
+- tag: N
+thầy:
+- tag: N
+thầy thuốc:
+- tag: N
+thẩm quyền:
+- tag: N
+thế giới:
+- tag: N
+thế hệ:
+- tag: N
+thế kỷ:
+- tag: N
+thể chất:
+- tag: N
+thể lực:
+- tag: N
+thể thao:
+- tag: N
+thị lực:
+- tag: N
+thị phần:
+- tag: N
+thị trường:
+- tag: N
+thống kê:
+- tag: N
+thống đốc:
+- tag: N
+thời:
+- tag: N
+thời gian:
+- tag: N
+thời hạn:
+- tag: N
+thời kỳ:
+- tag: N
+thời sự:
+- tag: N
+thời trang:
+- tag: N
+thời điểm:
+- tag: N
+thủ khoa:
+- tag: N
+thủ phạm:
+- tag: N
+thủ quân:
+- tag: N
+thủ thuật:
+- tag: N
+thủ tướng:
+- tag: N
+thủ tục:
+- tag: N
+thủ đô:
+- tag: N
+thực tiễn:
+- tag: N
+thực trạng:
+- tag: N
+thực tế:
+- tag: N
+thực vật:
+- tag: N
+thực địa:
+- tag: N
+tinh thần:
+- tag: N
 tinh tế:
 - tag: A
+tiêu chuẩn:
+- tag: N
+tiêu cực:
+- tag: N
+tiến sĩ:
+- tag: N
+tiến độ:
+- tag: N
+tiếng:
+- tag: N
+tiềm năng:
+- tag: N
+tiền:
+- tag: N
+tiền mặt:
+- tag: N
+tiền vệ:
+- tag: N
+tiền đạo:
+- tag: N
+tiểu ban:
+- tag: N
+tiểu thương:
+- tag: N
 to:
 - tag: A
+toàn cầu:
+- tag: N
+trang phục:
+- tag: N
+trang trại:
+- tag: N
+tri kỷ:
+- tag: N
+tri thức:
+- tag: N
+triệu chứng:
+- tag: N
+trung học:
+- tag: N
+trung tâm:
+- tag: N
+trung tướng:
+- tag: N
+trung vệ:
+- tag: N
+trung ương:
+- tag: N
+truyện:
+- tag: N
+trà:
+- tag: N
+trái:
+- tag: N
+trước:
+- tag: N
+trước mắt:
+- tag: N
+trước nay:
+- tag: N
+trước tiên:
+- tag: N
+trường:
+- tag: N
+trường học:
+- tag: N
+trường hợp:
+- tag: N
+trưởng:
+- tag: N
+trại:
+- tag: N
+trạng thái:
+- tag: N
+trọng tâm:
+- tag: N
+trọng điểm:
+- tag: N
 trống:
 - tag: A
+trực thăng:
+- tag: N
+tuyên bố:
+- tag: N
 tuyệt vời:
 - tag: A
 tuyệt đối:
 - tag: A
+tuần:
+- tag: N
+tuổi:
+- tag: N
+tuổi tác:
+- tag: N
+tài chính:
+- tag: N
+tài khoản:
+- tag: N
+tài liệu:
+- tag: N
+tài sản:
+- tag: N
+tác giả:
+- tag: N
+tác phẩm:
+- tag: N
+tâm:
+- tag: N
+tâm hồn:
+- tag: N
+tâm lý:
+- tag: N
+tâm trí:
+- tag: N
+tâm điểm:
+- tag: N
+tân binh:
+- tag: N
+tây:
+- tag: N
+tên:
+- tag: N
+tình:
+- tag: N
+tình báo:
+- tag: N
+tình cảm:
+- tag: N
+tình cảnh:
+- tag: N
+tình dục:
+- tag: N
+tình huống:
+- tag: N
+tình thương:
+- tag: N
+tình trạng:
+- tag: N
 tích cực:
 - tag: A
+tín hiệu:
+- tag: N
+tính năng:
+- tag: N
+tư tưởng:
+- tag: N
+tương lai:
+- tag: N
+tường:
+- tag: N
+tải:
+- tag: N
+tầm:
+- tag: N
+tầm vóc:
+- tag: N
+tập đoàn:
+- tag: N
+tỉ lệ:
+- tag: N
+tỉnh:
+- tag: N
+tỉnh lị:
+- tag: N
+tỉnh thành:
+- tag: N
+tốc độ:
+- tag: N
+tổng giám đốc:
+- tag: N
+tổng số:
+- tag: N
+tổng thống:
+- tag: N
+tờ trình:
+- tag: N
+tụ điểm:
+- tag: N
+ung thư:
+- tag: N
+vai trò:
+- tag: N
+viễn cảnh:
+- tag: N
+viễn thông:
+- tag: N
+việc làm:
+- tag: N
+viện:
+- tag: N
+viện trưởng:
+- tag: N
+voi:
+- tag: N
+vàng:
+- tag: N
+vàng mã:
+- tag: N
+ván:
+- tag: N
+vé:
+- tag: N
+văn bản:
+- tag: N
+văn học:
+- tag: N
+văn phòng:
+- tag: N
+vũ khí:
+- tag: N
+vũ trụ:
+- tag: N
+vũ đạo:
+- tag: N
+vương miện:
+- tag: N
+vấn đề:
+- tag: N
+vết:
+- tag: N
+vỉa hè:
+- tag: N
 đầy đủ:
 - tag: A
 đặc biệt:
