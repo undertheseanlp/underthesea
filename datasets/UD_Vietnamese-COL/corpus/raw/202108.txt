@@ -5047,3 +5047,378 @@ Có một điều đáng mừng, khi dạy học online, tôi có quan sát đư
 # date = 20210822
 # sent_id = 1010
 Các thầy cô đã khuyến khích sự học tập của học sinh bằng các sticker, các điểm sao cho các hành vi học tập tích cực,…
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1011
+24 gia đình góp 500 tỷ mua 8.000m2 đất hoang xây làng ‘biệt phủ’
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1012
+Mười năm qua ở ngôi làng này không xảy vụ trộm, cư dân không phải khoá cửa, họ sống hoà thuận bên nhau.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1013
+Tại vùng núi phía bắc Đài Loan, Trung Quốc có một ngôi làng đẹp như tiên cảnh. Đây là nơi sinh sống của 24 gia đình trung lưu.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1014
+Họ cùng nhau góp 150 triệu nhân dân tệ (hơn 500 tỷ đồng) mua 8.000m2 đất hoang để lập ra làng Oa.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1015
+Trong đó, một nửa diện tích dùng làm đường và trang trại.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1016
+Cây xanh, bãi cỏ trong làng phát triển một cách tự nhiên
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1017
+Cư dân tại làng đều là doanh nhân, bác sĩ, giáo viên, kiến trúc sư...  trong đó có 1/3 là tiến sĩ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1018
+Mặc dù vậy, họ thích quay về với cuộc sống điền viên như: nấu ăn cùng nhau, chơi mạt chược, uống trà.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1019
+Cuộc sống ở đây an toàn, 10 năm không xảy ra vụ trộm nào.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1020
+Cư dân không so bì chuyện giàu có, họ sống hoà thuận
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1021
+Kiến trúc sư He Chuanxin là người thiết kế nên làng Oa.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1022
+Trước khi thiết kế, ông đã đến Ôn Châu, Trung Quốc để xem một làng cổ được xây dựng cách đây hàng thế kỷ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1023
+Kiến trúc sư này xây dựng nên làng Oa như khu định cư sinh thái - nơi môi trường và con người cùng tồn tại bên nhau
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1024
+Kiến trúc sư thiết kế mái nhà để nước mưa được thu gom rồi chảy vào hệ thống thoát nước.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1025
+Nước mưa sau đó được dùng tưới cây xanh trong làng
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1026
+Làng được xây dựng trong 4 năm.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1027
+Mỗi nhà đều có sân thượng, xung quanh là cây cối.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1028
+Các nhà được bố trí so le theo địa hình cao - thấp.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1029
+24 ngôi nhà được phân thành 4 dãy, trong đó dãy trên cùng có thể ngắm cả làng, còn 2 dãy và 3 ở giữa xung quanh có nhà hàng xóm, dãy 4 có view rộng nhất nhìn ra cả nông trại
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1030
+24 ngôi nhà tương ứng với 24 tiết khí trong năm...
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1031
+Tại mỗi nhà có cây đặc trưng từng mùa giúp cư dân cảm nhận được sự chuyển đổi của thời gian trong 4 mùa.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1032
+Trong làng có một con suối chảy qua phân chia nơi ở của cư dân và nông trại
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1033
+Ngôi làng này không có đèn đường, chỉ có một số đèn nhỏ ở các bãi cỏ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1034
+Cư dân cầm đèn lồng điện đi ra ngoài vào buổi tối.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1035
+Cây xanh và hồ nước có thể giúp cho nhiệt độ trong làng mát mẻ, thấp hơn 2-3 độ C so với bên ngoài.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1036
+60 gốc cây cổ thụ được cư dân giữ lại trong quá trình xây dựng và trồng thêm nhiều cây mới mang lại không gian xanh
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1037
+Mọi người có thể nói chuyện, cùng đi du lịch, nấu ăn...
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1038
+"Dân làng thường nói với tôi, họ đã sống một thời gian và cảm nhận được tình cảm hàng xóm hoà thuận", kiến trúc sư He Chuanxin chia sẻ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1039
+Trẻ con gia đình trong làng đều biết nhau, chúng cùng nô đùa khắp nơi
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1040
+Kevin là người đầu tiên chuyển tới làng Oa này cho hay, các gia đình đều tin tưởng nhau, đi vắng mấy ngày cũng không cần khoá cửa.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1041
+Dừng giao dịch chuyển nhượng 3 dự án bất động sản tại Bình Thuận
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1042
+Theo yêu cầu của cơ quan Cảnh sát điều tra Bộ Công an và chỉ đạo của UBND tỉnh, Sở Tư Pháp tỉnh Bình Thuận đã cập nhật thông tin tạm dừng giao dịch đối với 4 doanh nghiệp tại 3 dự án bất động sản.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1043
+Sở Tư pháp tỉnh Bình Thuận vừa có văn bản hướng dẫn Phòng Công chứng số 1 và 8 văn phòng công chứng khác tạm dừng giao dịch, mua bán, chuyển nhượng nhà, đất của 4 doanh nghiệp liên quan đến 3 dự án bất động sản theo yêu cầu của Bộ Công an.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1044
+Cụ thể, 4 doanh nghiệp gồm: Công ty CP Rạng Đông, Công ty TNHH Khu đô thị du lịch biển Phan Thiết, Công ty CP Tân Việt Phát, và Công ty TNHH Đầu tư xây dựng Trường Phúc Hải.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1045
+Việc tạm dừng giao dịch, mua bán, chuyển nhượng nhà đất của các doanh nghiệp nói trên liên quan đến 3 dự án bất động sản.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1046
+Đó là dự án Khu đô thị du lịch biển Phan Thiết; dự án Khu thương mại dịch vụ và dân cư Tân Việt Phát 2; và dự án lấn biển, bố trí sắp xếp lại dân cư và chỉnh trang đô thị phường Đức Long (tên thương mại là Hamubay).
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1047
+Một góc dự án lấn biển Hamubay.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1048
+Theo Sở Tư pháp tỉnh Bình Thuận, đối với các hồ sơ giao dịch nhà, đất tại 3 dự án trên mà đứng tên chủ sở hữu trên giấy chứng nhận quyền sử dụng đất là hộ gia đình, cá nhân thì vẫn được thực hiện giao dịch theo quy định.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1049
+Sở Tư pháp tỉnh Bình Thuận đề nghị các tổ chức hành nghề công chứng phải tra cứu hệ thống cơ sở dữ liệu công chứng - chứng thực, xem xét kỷ nội dung cập nhật trên hệ thống, chú ý đến đối tượng bị tạm dừng giao dịch tài sản để tạo điều kiện cho tổ chức, cá nhân khi thực hiện giao dịch dân sự liên quan đến 3 dự án nêu trên.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1050
+Như VietNamNet đã thông tin, cuối tháng 7/2021, Cơ quan Cảnh sát điều tra Bộ Công an có văn bản đề nghị UBND TP.Phan Thiết, tỉnh Bình Thuận cung cấp hồ sơ, tài liệu liên quan đến việc thực hiện 9 dự án trên địa bàn.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1051
+9 dự án này gồm: Dự án Khu đô thị du lịch biển Phan Thiết; dự án Khu du lịch dã ngoại, P.Mũi Né; dự án Khu du lịch Xuân Quỳnh; dự án Sea Link Mũi Né; dự án Hamubay;
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1052
+Dự án đất ở thương mại 92.600,9m2 gồm các lô đất 18, 19, 20 P.Phú Hài, TP.Phan Thiết; dự án Khu liên hợp hồ điều hoà, chỉnh trang đô thị và dịch vụ thương mại Hưng Long, P.Hưng Long, TP.Phan Thiết;
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1053
+Dự án trường mầm non Lê Quý Đôn, P.Phú Thuỷ, TP.Phan Thiết; và dự án xây dựng kè chống xâm thực biển P.Đức Long, TP.Phan Thiết.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1054
+Ngoài hồ sơ các dự án, Bộ Công an còn đề nghị UBND TP.Phan Thiết cung cấp các tài liệu khác, như: Chức năng, quyền hạn của UBND Thành phố; lý lịch trích ngang, phân công chức năng, quyền hạn của lãnh đạo UBND Thành phố và cán bộ qua các thời kỳ trong việc chỉ đạo, tham mưu thực hiện các dự án;
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1055
+Hồ sơ, tài liệu tham gia phối hợp với các sở ngành tỉnh Bình Thuận khi thực hiện các dự án; các tờ trình của UBND TP.Phan Thiết và quyết định của UBND tỉnh Bình Thuận về phê duyệt quy hoạch, kế hoạch sử dụng đất TP.Phan Thiết từ năm 2011 đến nay.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1056
+Căn hộ của quý cô thời trang, tinh tế đến từng đường nét
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1057
+Căn hộ của một quý cô yêu thời trang không những bộc lộ cá tính riêng mà còn giúp gia chủ cân bằng lại tinh thần, khơi gợi cảm hứng sáng tạo trong công việc.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1058
+Những căn hộ chung cư được bài trí, thiết kế sang trọng không còn xa lạ trong cuộc sống hiện đại ngày nay.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1059
+Mỗi người đều có một sở thích, đam mê và phong cách chủ đạo để đeo đuổi.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1060
+Với Lương Quỳnh (TP.HCM) đang hoạt động trong lĩnh vực thời trang, nhà ngoài việc để ở, bộc lộ cá tính riêng mà còn giúp cô cân bằng lại tinh thần, khơi gợi cảm hứng sáng tạo trong công việc.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1061
+Cô sử dụng gu thẩm mỹ về thời trang của mình để thiết kế một căn hộ đơn giản, nhẹ nhàng nhưng mỗi góc đều toát lên được chất riêng.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1062
+Nội thất căn hộ sử dụng 2 gam màu là trắng và gỗ ấm.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1063
+Bàn trà hình tròn có chân uốn lượn khá lạ mắt, làm mềm đi các nét góc cạnh của không gian.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1064
+Thời gian này, Quỳnh chỉ ở nhà, thực hiện giãn cách xã hội phòng chống dịch.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1065
+Mọi công việc tạm gác lại, cô thay đổi, sắp xếp lại vị trí của nội thất, làm tươi mới căn hộ bằng sự tinh tế của mình.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1066
+Cô dành thời gian ngắm nhìn từng ngóc ngách trong nhà lâu hơn một chút, chăm sóc cho không gian sống nhiều hơn.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1067
+“Đây là những việc mà bình thường mình không có thời gian để làm, giờ lại nghiễm nhiên thành hoạt động thường nhật”, Quỳnh chia sẻ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1068
+Chiếc piano phủ bụi không ai động đến; bộ sưu tập đĩa than, đĩa CD nằm gọn trong góc một thời gian dài nên nhân dịp này, cô mang ra thưởng thức.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1069
+Nơi Quỳnh yêu thích nhất sau một ngày vất vả vì công việc, ngả lưng xuống nhìn ánh đèn vàng là dịu lòng đi.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1070
+“Tự khám phá ra nhiều niềm vui khác trong chính căn nhà quen thuộc và dành thời gian cho chính mình nhiều hơn, sống tích cực và tôi tin rằng sẽ sớm thôi, mọi thứ sẽ trở về bình thường”, Quỳnh nói.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1071
+Chiếc máy nghe nhạc là linh hồn của phòng khách và bộ sưu tập đĩa quý giá của gia chủ xinh đẹp.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1072
+Góc thư giãn, tận hưởng cảm giác bình yên khi ở nhà.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1073
+Quỳnh khá quan tâm đến vấn đề bố trí ánh sáng cho căn hộ, đảm bảo ánh sáng tốt cho mắt, độ sáng vừa phải để không bị cảm giác khó chịu khi phải bật đèn quá nhiều.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1074
+Ghế sofa gỗ với lớp đệm có thể lột ra vệ sinh dễ dàng, nhờ vậy vấn đề giải quyết lông mèo rụng không còn nan giải nữa.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1075
+Chiếc piano trong phòng khách, vừa tăng tính thẩm mỹ, tạo điểm nhấn và giúp nhà sinh động hơn.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1076
+Đây cũng là góc chụp ảnh yêu thích của cô chủ yêu thời trang.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1077
+Nhà chỉ có 2 mẹ con nên gia chủ không làm bộ bàn ăn lớn mà dùng bộ tròn, với tông màu nâu cổ điển, phối phía sau là bức tường gạch đỏ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1078
+Hai chi tiết này giúp căn hộ màu trắng không bị đơn điệu.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1079
+Hoa tươi cũng là cách giúp Quỳnh giải tỏa căng thẳng trong cuộc sống.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1080
+Phòng ngủ không kiểu cách, không quá cầu kỳ nhưng vẫn toát lên được nét đẹp.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1081
+Lối đi vào phòng ngủ được Quỳnh thiết kế thành nơi đặt tủ quần áo. Cách bố trí như vậy giúp tiết kiệm được không gian, lại thuận tiện cho việc sử dụng, sinh hoạt hàng ngày.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1082
+Góc đọc sách, decor của phòng ngủ.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1083
+Phía dưới là hệ tủ ngăn kéo cất đồ cho ngăn nắp.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1084
+Chiếc tủ kệ trưng bày nước hoa bằng chất liệu thép, chia ngăn.
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1085
+Đặc biệt màu sắc rất hợp tông với nhà.
