@@ -31386,3 +31386,2109 @@ học tập	V	18	acl:subj
 tích cực	A	19	obj
 ,	CH	4	punct
 …	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1011
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 24 gia đình góp 500 tỷ mua 8.000m2 đất hoang xây làng ‘biệt phủ’
+24	M	2	nummod
+gia đình	N	3	nsubj
+góp	V	0	root
+500	M	5	nummod
+tỷ	N	3	obj
+mua	V	5	acl:subj
+8.000	N	8	nummod
+m2	N	6	obj
+đất hoang	N	8	nmod
+xây	V	3	conj
+làng	N	10	obj
+‘	V	11	compound
+biệt	N	11	compound
+phủ	V	13	compound
+’	M	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1012
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mười năm qua ở ngôi làng này không xảy vụ trộm, cư dân không phải khoá cửa, họ sống hoà thuận bên nhau.
+Mười	M	2	nummod
+năm	N	9	obl:tmod
+qua	V	2	amod
+ở	E	6	case
+ngôi	Nc	6	det:clf
+làng	N	9	obl:comp
+này	P	6	det:pmod
+không	R	9	advmod:neg
+xảy	V	0	root
+vụ	N	9	obj
+trộm	V	10	compound:vmod
+,	CH	16	punct
+cư dân	N	16	nsubj
+không	R	15	advmod:neg
+phải	V	9	conj
+khoá	V	9	conj
+cửa	N	16	obj
+,	CH	20	punct
+họ	P	20	nsubj
+sống	V	9	conj
+hoà thuận	V	20	advmod:adj
+bên	N	20	obl
+nhau	N	22	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1013
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại vùng núi phía bắc Đài Loan, Trung Quốc có một ngôi làng đẹp như tiên cảnh. Đây là nơi sinh sống của 24 gia đình trung lưu.
+Tại	E	2	case
+vùng	N	9	obl
+núi	N	2	compound
+phía	N	2	nmod
+bắc	N	4	compound
+Đài Loan	Np	4	nmod
+,	CH	9	punct
+Trung Quốc	Np	9	nsubj
+có	V	0	root
+một	M	12	nummod
+ngôi	Nc	10	clf
+làng	N	9	obj
+đẹp	A	12	amod
+như	C	15	case
+tiên cảnh	N	12	obl
+.	CH	9	punct
+Đây	P	19	nsubj
+là	V	19	cop
+nơi	N	12	appos:nmod
+sinh sống	V	19	amod
+của	E	23	case
+24	M	23	det
+gia đình	N	19	nmod:poss
+trung lưu	V	23	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1014
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Họ cùng nhau góp 150 triệu nhân dân tệ (hơn 500 tỷ đồng) mua 8.000m2 đất hoang để lập ra làng Oa.
+Họ	P	4	nsubj
+cùng	A	1	acl:subj
+nhau	N	2	obj
+góp	V	0	root
+150	M	7	nummod
+triệu	M	7	nummod
+nhân dân tệ	N	4	obj
+(	CH	12	punct
+hơn	A	12	advmod:adj
+500	M	12	nummod
+tỷ	M	10	flat:number
+đồng	Nu	7	appos:nmod
+)	CH	12	punct
+mua	V	4	xcomp
+8.000	N	16	nummod
+m2	V	14	obj
+đất hoang	N	16	nmod
+để	E	19	mark:pcomp
+lập	V	4	advcl:objective
+ra	V	19	compound:dir
+làng	N	19	obj
+Oa	Np	21	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1015
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, một nửa diện tích dùng làm đường và trang trại.
+Trong	E	2	case
+đó	P	7	obl
+,	CH	2	punct
+một	M	6	nummod
+nửa	N	4	clf
+diện tích	N	7	nsubj
+dùng	V	0	root
+làm	V	7	xcomp
+đường	N	8	obj
+và	C	11	cc
+trang trại	N	9	conj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1016
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cây xanh, bãi cỏ trong làng phát triển một cách tự nhiên
+Cây xanh	N	0	root
+,	CH	3	punct
+bãi cỏ	N	1	conj
+trong	E	5	case
+làng	N	1	obl
+phát triển	V	5	compound
+một cách	N	6	obj
+tự nhiên	A	6	advmod
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1017
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cư dân tại làng đều là doanh nhân, bác sĩ, giáo viên, kiến trúc sư...  trong đó có 1/3 là tiến sĩ.
+Cư dân	N	6	nsubj
+tại	E	3	case
+làng	N	1	obl
+đều	R	6	advmod
+là	V	6	cop
+doanh nhân	N	0	root
+,	CH	8	punct
+bác sĩ	N	6	conj
+,	CH	10	punct
+giáo viên	N	6	conj
+,	CH	12	punct
+kiến trúc sư	N	6	conj
+...	CH	6	punct
+trong	E	15	case
+đó	P	16	obl
+có	V	6	conj
+1/3	N	16	obj
+là	V	19	cop
+tiến sĩ	N	16	ccomp
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1018
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mặc dù vậy, họ thích quay về với cuộc sống điền viên như: nấu ăn cùng nhau, chơi mạt chược, uống trà.
+Mặc dù	C	5	cc
+vậy	P	1	fixed
+,	CH	5	punct
+họ	P	5	nsubj
+thích	V	0	root
+quay	V	5	xcomp
+về	R	6	compound:dir
+với	E	9	case
+cuộc sống	N	6	obl:with
+điền viên	A	9	compound
+như	C	13	mark
+:	CH	13	punct
+nấu ăn	V	6	parataxis
+cùng	A	13	acomp
+nhau	N	14	obj
+,	CH	17	punct
+chơi	V	13	conj
+mạt chược	N	17	obj
+,	CH	20	punct
+uống	V	13	conj
+trà	N	20	obj
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1019
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cuộc sống ở đây an toàn, 10 năm không xảy ra vụ trộm nào.
+Cuộc sống	N	4	nsubj
+ở	E	3	case
+đây	P	4	obl
+an toàn	A	0	root
+,	CH	9	punct
+10	M	7	nummod
+năm	N	9	obl:tmod
+không	R	9	advmod:neg
+xảy	V	4	parataxis
+ra	V	9	compound:dir
+vụ	N	9	obj
+trộm	V	11	amod
+nào	T	11	det:pmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1020
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cư dân không so bì chuyện giàu có, họ sống hoà thuận
+Cư dân	N	3	nsubj
+không	R	3	advmod:neg
+so bì	V	0	root
+chuyện	N	3	obj
+giàu có	A	4	amod
+,	CH	8	punct
+họ	P	8	nsubj
+sống	V	3	conj
+hoà thuận	M	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1021
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kiến trúc sư He Chuanxin là người thiết kế nên làng Oa.
+Kiến trúc sư	N	5	nsubj
+He Chuanxin	Np	1	nmod
+là	V	5	cop
+người	N	5	det:clf
+thiết kế	V	0	root
+nên	C	5	mark
+làng	N	5	obj
+Oa	Np	7	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1022
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trước khi thiết kế, ông đã đến Ôn Châu, Trung Quốc để xem một làng cổ được xây dựng cách đây hàng thế kỷ.
+Trước	N	2	case
+khi	N	7	obl:tmod
+thiết kế	V	2	det:pmod
+,	CH	2	punct
+ông	Nc	7	nsubj
+đã	R	7	advmod
+đến	V	0	root
+Ôn Châu	Np	7	obj
+,	CH	10	punct
+Trung Quốc	Np	8	conj
+để	E	12	mark:pcomp
+xem	V	7	advcl:objective
+một	M	14	nummod
+làng	N	12	obj
+cổ	N	14	nmod
+được	V	17	aux:pass
+xây dựng	V	14	acl:subj
+cách	V	17	xcomp
+đây	P	18	obj
+hàng	N	18	obl
+thế kỷ	N	20	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1023
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kiến trúc sư này xây dựng nên làng Oa như khu định cư sinh thái - nơi môi trường và con người cùng tồn tại bên nhau
+Kiến trúc sư	N	3	nsubj
+này	P	1	det:pmod
+xây dựng	V	0	root
+nên	C	3	compound:svc
+làng	N	3	obj
+Oa	Np	5	nmod
+như	C	8	case
+khu	N	5	nmod
+định cư	V	8	compound
+sinh thái	N	8	nmod
+-	CH	12	punct
+nơi	N	8	conj
+môi trường	N	12	compound
+và	C	15	cc
+con người	N	8	conj
+cùng	A	17	advmod:adj
+tồn tại	V	3	conj
+bên	N	17	obl
+nhau	N	18	nmod
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1024
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kiến trúc sư thiết kế mái nhà để nước mưa được thu gom rồi chảy vào hệ thống thoát nước.
+Kiến trúc sư	N	2	det
+thiết kế	V	3	det:clf
+mái	N	9	nsubj
+nhà	N	3	nmod
+để	E	9	mark:pcomp
+nước	N	5	obj
+mưa	V	6	compound
+được	R	9	aux:pass
+thu gom	V	0	root
+rồi	C	11	cc
+chảy	V	9	conj
+vào	E	13	case
+hệ thống	N	11	obl:comp
+thoát	V	13	nmod
+nước	N	14	compound
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1025
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nước mưa sau đó được dùng tưới cây xanh trong làng
+Nước mưa	N	5	nsubj:pass
+sau	N	5	obl:tmod
+đó	P	2	det:pmod
+được	V	5	aux:pass
+dùng	V	0	root
+tưới	N	7	case
+cây	N	5	obl:comp
+xanh	A	7	amod
+trong	E	10	case
+làng	N	5	obl
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1026
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Làng được xây dựng trong 4 năm.
+Làng	N	3	nsubj:pass
+được	V	3	aux:pass
+xây dựng	V	0	root
+trong	E	6	case
+4	M	6	nummod
+năm	N	3	obl:tmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1027
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỗi nhà đều có sân thượng, xung quanh là cây cối.
+Mỗi	L	2	det
+nhà	N	4	nsubj
+đều	R	4	advmod
+có	V	0	root
+sân thượng	N	4	obj
+,	CH	9	punct
+xung quanh	N	9	nsubj
+là	V	9	cop
+cây cối	N	4	parataxis
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1028
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các nhà được bố trí so le theo địa hình cao - thấp.
+Các	L	2	det
+nhà	N	4	nsubj:pass
+được	V	4	aux:pass
+bố trí	V	0	root
+so le	V	4	obj
+theo	V	7	case
+địa hình	N	4	obl
+cao	A	7	nmod
+-	CH	10	punct
+thấp	A	8	conj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1029
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 24 ngôi nhà được phân thành 4 dãy, trong đó dãy trên cùng có thể ngắm cả làng, còn 2 dãy và 3 ở giữa xung quanh có nhà hàng xóm, dãy 4 có view rộng nhất nhìn ra cả nông trại
+24	M	3	nummod
+ngôi	Nc	1	clf
+nhà	N	5	nsubj:pass
+được	V	5	aux:pass
+phân	V	0	root
+thành	V	5	obj
+4	M	8	nummod
+dãy	N	5	obj
+,	CH	16	punct
+trong	E	11	case
+đó	P	16	obl
+dãy	N	16	nsubj
+trên	E	12	nmod
+cùng	A	13	amod
+có thể	R	16	aux
+ngắm	V	5	conj
+cả	P	18	det
+làng	N	16	obj
+,	CH	28	punct
+còn	C	28	advcl
+2	M	22	nummod
+dãy	N	28	nsubj
+và	C	24	cc
+3	M	22	nummod
+ở	E	26	case
+giữa	N	22	nmod
+xung quanh	N	26	nmod
+có	V	16	conj
+nhà	N	28	obj
+hàng xóm	N	29	nmod
+,	CH	38	punct
+dãy	N	38	nsubj
+4	M	32	compound
+có	V	38	csubj
+view	N	34	obj
+rộng	A	35	acl:subj
+nhất	R	36	advmod
+nhìn	V	28	conj
+ra	V	38	compound:dir
+cả	T	38	discourse
+nông trại	M	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1030
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 24 ngôi nhà tương ứng với 24 tiết khí trong năm...
+24	M	3	nummod
+ngôi	Nc	1	clf
+nhà	N	4	nsubj
+tương ứng	V	0	root
+với	E	8	case
+24	M	8	nummod
+tiết	N	6	clf
+khí	N	4	obl
+trong	E	10	case
+năm	N	8	nmod
+...	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1031
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tại mỗi nhà có cây đặc trưng từng mùa giúp cư dân cảm nhận được sự chuyển đổi của thời gian trong 4 mùa.
+Tại	E	3	case
+mỗi	L	3	det
+nhà	N	11	obl
+có	V	11	advcl
+cây	N	6	det:clf
+đặc trưng	N	4	obj
+từng	R	8	det
+mùa	N	6	nmod
+giúp	V	8	acl:subj
+cư dân	N	9	obj
+cảm nhận	V	0	root
+được	R	11	advmod
+sự	N	11	obj
+chuyển đổi	V	13	amod
+của	E	16	case
+thời gian	N	13	nmod:poss
+trong	E	18	case
+4	M	19	nummod
+mùa	N	16	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1032
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong làng có một con suối chảy qua phân chia nơi ở của cư dân và nông trại
+Trong	E	2	case
+làng	N	3	obl
+có	V	0	root
+một	M	6	nummod
+con	Nc	4	clf
+suối	N	3	obj
+chảy	V	6	amod
+qua	R	6	acl:subj
+phân chia	V	10	nummod
+nơi	N	8	obj
+ở	V	13	case
+của	E	13	case
+cư dân	N	10	nmod:poss
+và	C	13	cc
+nông trại	M	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1033
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngôi làng này không có đèn đường, chỉ có một số đèn nhỏ ở các bãi cỏ.
+Ngôi	Nc	2	det:clf
+làng	N	5	nsubj
+này	P	2	det:pmod
+không	R	5	advmod:neg
+có	V	0	root
+đèn	N	5	obj
+đường	N	6	nmod
+,	CH	10	punct
+chỉ	R	10	advmod
+có	V	5	conj
+một số	L	12	det
+đèn	N	10	obj
+nhỏ	A	12	amod
+ở	E	16	case
+các	L	16	det
+bãi cỏ	N	10	obl
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1034
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cư dân cầm đèn lồng điện đi ra ngoài vào buổi tối.
+Cư dân	N	5	nsubj
+cầm	V	1	acl:subj
+đèn lồng	N	2	obj
+điện	N	2	obj
+đi	V	0	root
+ra	V	5	compound:dir
+ngoài	N	5	obl:comp
+vào	E	9	case
+buổi	N	5	obl:tmod
+tối	N	9	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1035
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cây xanh và hồ nước có thể giúp cho nhiệt độ trong làng mát mẻ, thấp hơn 2-3 độ C so với bên ngoài.
+Cây xanh	N	6	nsubj
+và	C	3	cc
+hồ	N	1	conj
+nước	N	3	nmod
+có thể	R	6	advmod
+giúp	V	0	root
+cho	E	8	case
+nhiệt độ	N	6	obl:comp
+trong	E	10	case
+làng	N	8	nmod
+mát mẻ	N	10	compound
+,	CH	13	punct
+thấp	A	6	conj
+hơn	A	15	advmod:adj
+2-3	M	16	nummod
+độ	N	13	obj
+C	Np	16	compound
+so	V	16	acl:subj
+với	E	20	case
+bên	N	18	obl
+ngoài	N	20	compound
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1036
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 60 gốc cây cổ thụ được cư dân giữ lại trong quá trình xây dựng và trồng thêm nhiều cây mới mang lại không gian xanh
+60	M	2	nummod
+gốc	N	7	nsubj:pass
+cây	N	2	nmod
+cổ thụ	N	2	nmod
+được	V	7	aux:pass
+cư dân	N	7	obl:agent
+giữ	V	0	root
+lại	V	7	advmod
+trong	E	10	case
+quá trình	N	7	obl
+xây dựng	V	10	compound:vmod
+và	C	13	cc
+trồng	V	7	conj
+thêm	V	13	compound:svc
+nhiều	A	16	advmod:adj
+cây	N	13	obj
+mới	R	18	advmod
+mang	V	16	acl:subj
+lại	V	18	compound:prt
+không gian	N	18	obj
+xanh	A	20	amod
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1037
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mọi người có thể nói chuyện, cùng đi du lịch, nấu ăn...
+Mọi	L	2	det
+người	N	4	nsubj
+có thể	R	4	advmod
+nói chuyện	V	0	root
+,	CH	7	punct
+cùng	A	7	advmod
+đi	V	4	conj
+du lịch	V	7	obj
+,	CH	10	punct
+nấu ăn	V	4	conj
+...	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1038
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Dân làng thường nói với tôi, họ đã sống một thời gian và cảm nhận được tình cảm hàng xóm hoà thuận", kiến trúc sư He Chuanxin chia sẻ.
+"	CH	4	punct
+Dân làng	N	4	nsubj
+thường	R	4	advmod
+nói	V	0	root
+với	E	6	case
+tôi	P	4	obl:with
+,	CH	10	punct
+họ	P	10	nsubj
+đã	R	10	advmod
+sống	V	4	conj
+một	M	12	nummod
+thời gian	N	10	obj
+và	C	14	cc
+cảm nhận	V	10	conj
+được	R	14	advmod
+tình cảm	N	14	obj
+hàng xóm	N	16	nmod
+hoà thuận	N	17	nmod
+"	CH	4	punct
+,	CH	23	punct
+kiến trúc sư	N	22	det:clf
+He Chuanxin	Np	23	nsubj
+chia sẻ	V	4	parataxis
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1039
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trẻ con gia đình trong làng đều biết nhau, chúng cùng nô đùa khắp nơi
+Trẻ con	N	2	det:clf
+gia đình	N	6	nsubj
+trong	E	4	case
+làng	N	2	nmod
+đều	R	6	advmod
+biết	V	0	root
+nhau	N	6	obj
+,	CH	10	punct
+chúng	P	10	nsubj
+cùng	A	6	conj
+nô đùa	V	10	obj
+khắp	A	10	acomp
+nơi	N	10	obl:adj
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/24-gia-dinh-gop-500-ty-mua-8-000m2-dat-hoang-xay-lang-biet-phu-768135.html
+# date = 20210822
+# sent_id = 1040
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Kevin là người đầu tiên chuyển tới làng Oa này cho hay, các gia đình đều tin tưởng nhau, đi vắng mấy ngày cũng không cần khoá cửa.
+Kevin	Np	3	nsubj
+là	V	3	cop
+người	N	16	advcl
+đầu tiên	A	3	amod
+chuyển	V	3	acl:subj
+tới	E	7	case
+làng	N	5	obl:comp
+Oa	Np	7	nmod
+này	P	7	det:pmod
+cho	V	11	case
+hay	V	5	obl:comp
+,	CH	16	punct
+các	L	14	det
+gia đình	N	16	nsubj
+đều	R	16	advmod
+tin tưởng	V	0	root
+nhau	N	16	obj
+,	CH	19	punct
+đi	V	16	conj
+vắng	V	19	obj
+mấy	L	22	det
+ngày	N	19	obl:tmod
+cũng	R	25	advmod
+không	R	25	advmod:neg
+cần	V	16	conj
+khoá	V	25	obj
+cửa	N	26	nmod
+.	CH	16	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1041
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dừng giao dịch chuyển nhượng 3 dự án bất động sản tại Bình Thuận
+Dừng	V	0	root
+giao dịch chuyển nhượng	V	4	advmod:adj
+3	M	4	nummod
+dự án	N	1	obj
+bất động sản	V	4	nmod
+tại	E	7	case
+Bình Thuận	Np	1	obl
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1042
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo yêu cầu của cơ quan Cảnh sát điều tra Bộ Công an và chỉ đạo của UBND tỉnh, Sở Tư Pháp tỉnh Bình Thuận đã cập nhật thông tin tạm dừng giao dịch đối với 4 doanh nghiệp tại 3 dự án bất động sản.
+Theo	V	2	case
+yêu cầu	N	20	obl
+của	E	4	case
+cơ quan	N	2	nmod:poss
+Cảnh sát	N	4	nmod
+điều tra	V	5	acl:subj
+Bộ	N	5	nmod
+Công an	N	7	compound
+và	C	10	cc
+chỉ đạo	V	8	conj
+của	E	12	case
+UBND	Ny	2	nmod:poss
+tỉnh	N	12	compound
+,	CH	20	punct
+Sở	N	20	nsubj
+Tư Pháp	Np	15	compound
+tỉnh	N	15	nmod
+Bình Thuận	Np	17	compound
+đã	R	20	advmod
+cập nhật	V	0	root
+thông tin	N	20	obj
+tạm	A	21	amod
+dừng	V	20	xcomp
+giao dịch	V	23	obj
+đối với	E	27	case
+4	M	27	nummod
+doanh nghiệp	N	23	obl
+tại	E	30	case
+3	M	30	nummod
+dự án	N	27	nmod
+bất động sản	V	30	compound
+.	CH	20	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1043
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sở Tư pháp tỉnh Bình Thuận vừa có văn bản hướng dẫn Phòng Công chứng số 1 và 8 văn phòng công chứng khác tạm dừng giao dịch, mua bán, chuyển nhượng nhà, đất của 4 doanh nghiệp liên quan đến 3 dự án bất động sản theo yêu cầu của Bộ Công an.
+Sở	N	6	nsubj
+Tư pháp	N	1	compound
+tỉnh	N	1	nmod
+Bình Thuận	Np	3	compound
+vừa	R	6	advmod
+có	V	0	root
+văn bản	N	6	obj
+hướng dẫn	V	7	acl:subj
+Phòng	N	8	obj
+Công chứng	V	9	nmod
+số	N	9	nmod
+1	M	11	nummod
+và	C	14	cc
+8	M	12	conj
+văn phòng	N	9	conj
+công chứng	N	15	compound
+khác	A	15	amod
+tạm	A	17	compound:adj
+dừng	V	15	acl:subj
+giao dịch	V	19	obj
+,	CH	22	punct
+mua bán	V	20	conj
+,	CH	24	punct
+chuyển nhượng	V	8	conj
+nhà	N	24	obj
+,	CH	27	punct
+đất	N	9	conj
+của	E	30	case
+4	M	30	nummod
+doanh nghiệp	N	27	nmod:poss
+liên quan	V	30	acl:subj
+đến	E	34	discourse
+3	M	34	nummod
+dự án	N	31	obj
+bất động sản	V	34	nmod
+theo	V	37	case
+yêu cầu	N	34	nmod
+của	E	39	case
+Bộ	N	37	nmod:poss
+Công an	N	39	compound
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1044
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, 4 doanh nghiệp gồm: Công ty CP Rạng Đông, Công ty TNHH Khu đô thị du lịch biển Phan Thiết, Công ty CP Tân Việt Phát, và Công ty TNHH Đầu tư xây dựng Trường Phúc Hải.
+Cụ thể	A	5	advcl
+,	CH	5	punct
+4	M	4	nummod
+doanh nghiệp	N	5	nsubj
+gồm	V	0	root
+:	CH	7	punct
+Công ty	N	5	parataxis
+CP	Np	7	nmod
+Rạng Đông	Np	8	compound
+,	CH	11	punct
+Công ty	N	7	conj
+TNHH Khu	Np	11	nmod
+đô thị	N	12	compound
+du lịch	V	12	compound
+biển	N	12	nmod
+Phan Thiết	Np	15	compound
+,	CH	18	punct
+Công ty	N	7	conj
+CP	Np	18	nmod
+Tân Việt	Np	18	compound
+Phát	Np	18	compound
+,	CH	24	punct
+và	C	24	cc
+Công ty	N	7	conj
+TNHH	Ny	24	compound
+Đầu tư	V	24	nmod
+xây dựng	V	24	acl:subj
+Trường	N	24	nmod
+Phúc	Np	28	compound
+Hải	Np	28	nmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1045
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Việc tạm dừng giao dịch, mua bán, chuyển nhượng nhà đất của các doanh nghiệp nói trên liên quan đến 3 dự án bất động sản.
+Việc	N	3	nsubj
+tạm	A	1	amod
+dừng	V	0	root
+giao dịch	V	3	obj
+,	CH	6	punct
+mua bán	V	4	conj
+,	CH	8	punct
+chuyển nhượng	V	4	conj
+nhà đất	N	8	obj
+của	E	12	case
+các	L	12	det
+doanh nghiệp	N	8	nmod:poss
+nói	V	12	acl:subj
+trên	N	13	obj
+liên quan	V	13	xcomp
+đến	E	18	case
+3	M	18	nummod
+dự án	N	15	obj
+bất động sản	V	18	nmod
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1046
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đó là dự án Khu đô thị du lịch biển Phan Thiết; dự án Khu thương mại dịch vụ và dân cư Tân Việt Phát 2; và dự án lấn biển, bố trí sắp xếp lại dân cư và chỉnh trang đô thị phường Đức Long (tên thương mại là Hamubay).
+Đó	P	3	nsubj
+là	V	3	cop
+dự án	N	0	root
+Khu	N	3	nmod
+đô thị	N	4	nmod
+du lịch	V	5	compound
+biển	N	4	nmod
+Phan Thiết	Np	7	compound
+;	CH	10	punct
+dự án	N	4	conj
+Khu	N	10	nmod
+thương mại	N	11	compound
+dịch vụ	N	11	nmod
+và	C	15	cc
+dân cư	N	11	conj
+Tân Việt	Np	15	compound
+Phát	Np	15	nmod
+2	M	17	compound
+;	CH	21	punct
+và	C	21	cc
+dự án	N	10	conj
+lấn	V	21	nmod
+biển	N	22	compound
+,	CH	25	punct
+bố trí	V	3	conj
+sắp xếp	V	25	compound:svc
+lại	V	26	advmod
+dân cư	N	25	obj
+và	C	30	cc
+chỉnh trang	V	28	conj
+đô thị	N	30	compound
+phường	N	30	nmod
+Đức Long	Np	32	compound
+(	CH	35	punct
+tên	N	32	appos:nmod
+thương mại	N	35	compound
+là	V	38	cop
+Hamubay	Np	35	appos:nmod
+)	CH	35	punct
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1047
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Một góc dự án lấn biển Hamubay.
+Một	M	2	nummod
+góc	N	0	root
+dự án	N	2	nmod
+lấn	V	3	compound
+biển	N	2	nmod
+Hamubay	Np	5	compound
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1048
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Theo Sở Tư pháp tỉnh Bình Thuận, đối với các hồ sơ giao dịch nhà, đất tại 3 dự án trên mà đứng tên chủ sở hữu trên giấy chứng nhận quyền sử dụng đất là hộ gia đình, cá nhân thì vẫn được thực hiện giao dịch theo quy định.
+Theo	V	2	case
+Sở	N	35	obl
+Tư pháp	N	2	compound
+tỉnh	N	2	nmod
+Bình Thuận	Np	4	compound
+,	CH	9	punct
+đối với	E	9	case
+các	L	9	det
+hồ sơ	N	35	obl
+giao dịch	V	9	nmod
+nhà	N	10	obj
+,	CH	13	punct
+đất	N	2	conj
+tại	E	16	case
+3	M	16	nummod
+dự án	N	13	nmod
+trên	N	16	compound
+mà	C	19	mark
+đứng tên	V	28	nsubj:nn
+chủ sở hữu	N	19	compound
+trên	E	22	case
+giấy	N	19	obl
+chứng nhận	V	22	acl:subj
+quyền	N	23	obj
+sử dụng	V	24	acl:subj
+đất	N	25	obj
+là	C	28	cop
+hộ	N	35	csubj
+gia đình	N	28	compound
+,	CH	35	punct
+cá nhân	N	35	nsubj
+thì	C	35	mark
+vẫn	R	35	advmod
+được	V	35	aux:pass
+thực hiện	V	0	root
+giao dịch	V	35	obj
+theo	V	38	case
+quy định	N	35	obl
+.	CH	35	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1049
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sở Tư pháp tỉnh Bình Thuận đề nghị các tổ chức hành nghề công chứng phải tra cứu hệ thống cơ sở dữ liệu công chứng - chứng thực, xem xét kỷ nội dung cập nhật trên hệ thống, chú ý đến đối tượng bị tạm dừng giao dịch tài sản để tạo điều kiện cho tổ chức, cá nhân khi thực hiện giao dịch dân sự liên quan đến 3 dự án nêu trên.
+Sở	N	5	nsubj
+Tư pháp	N	1	compound
+tỉnh	N	1	nmod
+Bình Thuận	Np	3	compound
+đề nghị	V	0	root
+các	L	7	det
+tổ chức	N	5	obj
+hành nghề	V	7	acl:subj
+công chứng	N	8	obj
+phải	V	5	aux
+tra cứu	V	7	acl:subj
+hệ thống	N	11	obj
+cơ sở	N	12	nmod
+dữ liệu	N	12	nmod
+công chứng	M	14	nmod
+-	CH	17	punct
+chứng thực	N	15	conj
+,	CH	19	punct
+xem xét	V	5	conj
+kỷ	N	21	det
+nội dung	N	19	obj
+cập nhật	V	21	amod
+trên	E	24	case
+hệ thống	N	21	nmod
+,	CH	26	punct
+chú ý	V	30	conj
+đến	E	28	case
+đối tượng	N	26	obl:comp
+bị	V	30	aux:pass
+tạm	A	19	conj
+dừng	V	30	xcomp
+giao dịch	V	33	nummod
+tài sản	N	31	obj
+để	E	35	mark:pcomp
+tạo	V	30	advcl:objective
+điều kiện	N	35	obj
+cho	E	38	case
+tổ chức	V	35	obl:comp
+,	CH	41	punct
+cá nhân	N	41	case
+khi	N	30	obl:tmod
+thực hiện	V	41	acl:tmod
+giao dịch	V	42	obj
+dân sự	N	43	nmod
+liên quan	V	44	acl:subj
+đến	E	48	discourse
+3	M	48	nummod
+dự án	N	45	obj
+nêu	V	48	nmod
+trên	N	49	nmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1050
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như VietNamNet đã thông tin, cuối tháng 7/2021, Cơ quan Cảnh sát điều tra Bộ Công an có văn bản đề nghị UBND TP.Phan Thiết, tỉnh Bình Thuận cung cấp hồ sơ, tài liệu liên quan đến việc thực hiện 9 dự án trên địa bàn.
+Như	C	4	mark
+VietNamNet	Np	15	obl
+đã	R	4	advmod
+thông tin	V	15	advcl
+,	CH	15	punct
+cuối	N	15	obl:tmod
+tháng	N	6	nmod
+7/2021	M	7	compound
+,	CH	15	punct
+Cơ quan	N	15	nsubj
+Cảnh sát	N	10	nmod
+điều tra	V	11	compound
+Bộ	N	11	nmod
+Công an	N	13	compound
+có	V	0	root
+văn bản	N	15	obj
+đề nghị	V	16	acl:subj
+UBND	Ny	17	obj
+TP.Phan Thiết	Np	18	compound
+,	CH	21	punct
+tỉnh	N	18	conj
+Bình Thuận	Np	21	compound
+cung cấp	V	17	conj
+hồ sơ	N	23	obj
+,	CH	26	punct
+tài liệu	N	18	conj
+liên quan	V	26	acl:subj
+đến	E	29	case
+việc	N	27	obl:comp
+thực hiện	V	29	acl:subj
+9	M	32	nummod
+dự án	N	30	obj
+trên	E	34	case
+địa bàn	N	32	nmod
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1051
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = 9 dự án này gồm: Dự án Khu đô thị du lịch biển Phan Thiết; dự án Khu du lịch dã ngoại, P.Mũi Né; dự án Khu du lịch Xuân Quỳnh; dự án Sea Link Mũi Né; dự án Hamubay;
+9	M	2	nummod
+dự án	N	4	nsubj
+này	P	2	det:pmod
+gồm	V	0	root
+:	CH	6	punct
+Dự án	N	4	parataxis
+Khu	N	6	nmod
+đô thị	N	7	compound
+du lịch	V	7	compound
+biển	N	9	nmod
+Phan Thiết	Np	10	compound
+;	CH	13	punct
+dự án	N	6	conj
+Khu	N	13	nmod
+du lịch	V	14	compound
+dã ngoại	A	14	compound
+,	CH	18	punct
+P.Mũi Né	Np	14	conj
+;	CH	20	punct
+dự án	N	13	conj
+Khu	N	20	nmod
+du lịch	V	21	compound
+Xuân Quỳnh	Np	22	compound
+;	CH	25	punct
+dự án	N	13	conj
+Sea Link Mũi Né	Np	25	nmod
+;	CH	28	punct
+dự án	N	13	conj
+Hamubay	Np	28	nmod
+;	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1052
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự án đất ở thương mại 92.600,9m2 gồm các lô đất 18, 19, 20 P.Phú Hài, TP.Phan Thiết; dự án Khu liên hợp hồ điều hoà, chỉnh trang đô thị và dịch vụ thương mại Hưng Long, P.Hưng Long, TP.Phan Thiết;
+Dự án	N	7	nsubj
+đất	N	1	compound
+ở	E	4	case
+thương mại	N	1	nmod
+92.600,9	N	4	compound
+m2	N	4	compound
+gồm	V	0	root
+các	L	9	det
+lô	N	7	obj
+đất	N	9	nmod
+18	M	10	nummod
+,	CH	13	punct
+19	M	11	conj
+,	CH	15	punct
+20	M	11	conj
+P.Phú Hài	Np	9	conj
+,	CH	18	punct
+TP.Phan Thiết	Np	11	conj
+;	CH	20	punct
+dự án	N	9	conj
+Khu	N	20	nmod
+liên hợp	V	21	compound
+hồ	N	21	nmod
+điều hoà	N	23	compound
+,	CH	26	punct
+chỉnh trang	V	21	list
+đô thị	N	26	compound
+và	C	29	cc
+dịch vụ	N	21	conj
+thương mại	N	29	compound
+Hưng Long	Np	29	compound
+,	CH	33	punct
+P.Hưng Long	Np	31	conj
+,	CH	35	punct
+TP.Phan Thiết	Np	31	conj
+;	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1053
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự án trường mầm non Lê Quý Đôn, P.Phú Thuỷ, TP.Phan Thiết; và dự án xây dựng kè chống xâm thực biển P.Đức Long, TP.Phan Thiết.
+Dự án	N	4	nsubj
+trường	N	1	nmod
+mầm non	N	4	punct
+Lê Quý Đôn	Np	0	root
+,	CH	6	punct
+P.Phú Thuỷ	Np	2	conj
+,	CH	8	punct
+TP.Phan Thiết	Np	2	conj
+;	CH	11	punct
+và	C	11	cc
+dự án	N	1	conj
+xây dựng	V	11	acl:subj
+kè	N	12	obj
+chống	V	11	acl:subj
+xâm thực	N	14	obj
+biển	N	14	obj
+P.Đức Long	Np	16	compound
+,	CH	19	punct
+TP.Phan Thiết	Np	17	conj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1054
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài hồ sơ các dự án, Bộ Công an còn đề nghị UBND TP.Phan Thiết cung cấp các tài liệu khác, như: Chức năng, quyền hạn của UBND Thành phố; lý lịch trích ngang, phân công chức năng, quyền hạn của lãnh đạo UBND Thành phố và cán bộ qua các thời kỳ trong việc chỉ đạo, tham mưu thực hiện các dự án;
+Ngoài	E	2	case
+hồ sơ	N	9	obl
+các	L	4	det
+dự án	N	2	nmod
+,	CH	9	punct
+Bộ	N	7	det:clf
+Công an	N	9	nsubj
+còn	R	9	advmod
+đề nghị	V	0	root
+UBND	Ny	9	obj
+TP.Phan Thiết	Np	10	compound
+cung cấp	V	9	xcomp
+các	L	14	det
+tài liệu	N	12	obj
+khác	A	14	amod
+,	CH	17	punct
+như	C	19	conj
+:	CH	19	punct
+Chức năng	N	14	appos
+,	CH	21	punct
+quyền hạn	N	19	conj
+của	E	23	case
+UBND	Ny	19	nmod:poss
+Thành phố	N	23	nmod
+;	CH	26	punct
+lý lịch	N	19	conj
+trích ngang	N	26	nmod
+,	CH	29	punct
+phân công chức năng	N	19	conj
+,	CH	31	punct
+quyền hạn	N	19	conj
+của	E	33	case
+lãnh đạo	N	31	nmod:poss
+UBND	Ny	33	nmod
+Thành phố	N	34	nmod
+và	C	37	cc
+cán bộ	N	19	conj
+qua	V	40	case
+các	L	40	det
+thời kỳ	N	37	nmod
+trong	E	42	case
+việc	N	40	nmod
+chỉ đạo	V	42	compound:vmod
+,	CH	45	punct
+tham mưu	V	19	conj
+thực hiện	V	45	xcomp
+các	L	48	det
+dự án	N	46	obj
+;	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/thi-truong/dung-giao-dich-chuyen-nhuong-3-du-an-bat-dong-san-tai-binh-thuan-767883.html
+# date = 20210822
+# sent_id = 1055
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hồ sơ, tài liệu tham gia phối hợp với các sở ngành tỉnh Bình Thuận khi thực hiện các dự án; các tờ trình của UBND TP.Phan Thiết và quyết định của UBND tỉnh Bình Thuận về phê duyệt quy hoạch, kế hoạch sử dụng đất TP.Phan Thiết từ năm 2011 đến nay.
+Hồ sơ	N	5	nsubj
+,	CH	3	punct
+tài liệu	N	1	conj
+tham gia	V	3	acl:subj
+phối hợp	V	0	root
+với	E	8	case
+các	L	8	det
+sở	N	5	obl:with
+ngành	N	8	compound
+tỉnh	N	8	nmod
+Bình Thuận	Np	10	compound
+khi	N	5	obl:tmod
+thực hiện	V	12	acl:tmod
+các	L	15	det
+dự án	N	13	obj
+;	CH	18	punct
+các	L	18	det
+tờ trình	N	15	conj
+của	E	20	case
+UBND	Ny	18	nmod:poss
+TP.Phan Thiết	Np	20	nmod
+và	C	23	cc
+quyết định	V	18	conj
+của	E	25	case
+UBND	Ny	18	nmod:poss
+tỉnh	N	25	nmod
+Bình Thuận	Np	26	compound
+về	V	29	case
+phê duyệt	V	25	nmod
+quy hoạch	N	29	compound
+,	CH	32	punct
+kế hoạch	N	29	conj
+sử dụng	V	32	acl:subj
+đất	N	33	obj
+TP.Phan Thiết	Np	34	compound
+từ	E	37	case
+năm	N	32	obl:tmod
+2011	M	37	compound
+đến	E	40	case
+nay	P	37	nmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1056
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Căn hộ của quý cô thời trang, tinh tế đến từng đường nét
+Căn hộ	N	5	nsubj
+của	E	4	case
+quý	N	4	nummod
+cô	Nc	1	nmod:poss
+thời trang	N	0	root
+,	CH	7	punct
+tinh tế	V	5	conj
+đến	E	10	case
+từng	P	7	obl:comp
+đường nét	N	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1057
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Căn hộ của một quý cô yêu thời trang không những bộc lộ cá tính riêng mà còn giúp gia chủ cân bằng lại tinh thần, khơi gợi cảm hứng sáng tạo trong công việc.
+Căn hộ	N	9	nsubj
+của	E	4	case
+một	M	4	nummod
+quý	N	1	nmod:poss
+cô	Nc	1	nmod:poss
+yêu	V	5	acl:subj
+thời trang	N	6	obj
+không những	C	9	advmod
+bộc lộ	V	0	root
+cá tính	N	9	compound
+riêng	A	9	amod
+mà còn	C	13	cc
+giúp	V	6	conj
+gia chủ	N	13	obj
+cân bằng	V	14	acl:subj
+lại	R	15	compound:prt
+tinh thần	N	15	obj
+,	CH	19	punct
+khơi	N	13	conj
+gợi	V	19	nmod
+cảm hứng	N	22	nummod
+sáng tạo	V	19	nmod
+trong	E	24	case
+công việc	N	19	obl
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1058
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những căn hộ chung cư được bài trí, thiết kế sang trọng không còn xa lạ trong cuộc sống hiện đại ngày nay.
+Những	L	2	det
+căn hộ	N	5	nsubj:pass
+chung cư	N	2	nmod
+được	V	5	aux:pass
+bài trí	V	0	root
+,	CH	10	punct
+thiết kế	V	10	nsubj
+sang trọng	A	7	amod
+không	R	10	advmod:neg
+còn	R	5	conj
+xa lạ	A	10	obj
+trong	E	13	case
+cuộc sống	N	10	obl
+hiện đại	A	13	amod
+ngày nay	N	14	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1059
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mỗi người đều có một sở thích, đam mê và phong cách chủ đạo để đeo đuổi.
+Mỗi	M	2	det
+người	N	4	nsubj
+đều	R	4	advmod
+có	V	0	root
+một	M	6	nummod
+sở thích	N	4	obj
+,	CH	8	punct
+đam mê	V	4	conj
+và	C	10	cc
+phong cách	V	8	conj
+chủ đạo	N	10	nmod
+để	E	13	mark:pcomp
+đeo đuổi	V	4	advcl:objective
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1060
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với Lương Quỳnh (TP.HCM) đang hoạt động trong lĩnh vực thời trang, nhà ngoài việc để ở, bộc lộ cá tính riêng mà còn giúp cô cân bằng lại tinh thần, khơi gợi cảm hứng sáng tạo trong công việc.
+Với	E	2	case
+Lương Quỳnh	Np	7	obl
+(	CH	4	punct
+TP.HCM	Np	2	appos:nmod
+)	CH	4	punct
+đang	R	7	advmod
+hoạt động	V	0	root
+trong	E	9	case
+lĩnh vực	N	7	obl
+thời trang	N	9	nmod
+,	CH	12	punct
+nhà ngoài	V	7	conj
+việc	N	12	obj
+để	E	15	mark:pcomp
+ở	V	7	advcl:objective
+,	CH	17	punct
+bộc lộ	V	21	nsubj
+cá tính	N	17	obj
+riêng	A	18	amod
+mà còn	C	21	mark
+giúp	V	7	conj
+cô	Nc	21	obj
+cân bằng	V	22	acl:subj
+lại	R	23	advmod
+tinh thần	N	23	obj
+,	CH	27	punct
+khơi	N	23	conj
+gợi	V	27	nmod
+cảm hứng	N	30	nummod
+sáng tạo	V	27	nmod
+trong	E	32	case
+công việc	N	30	nmod
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1061
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô sử dụng gu thẩm mỹ về thời trang của mình để thiết kế một căn hộ đơn giản, nhẹ nhàng nhưng mỗi góc đều toát lên được chất riêng.
+Cô	Nc	2	nsubj
+sử dụng	V	0	root
+gu	N	2	obj
+thẩm mỹ	V	3	compound
+về	E	6	case
+thời trang	N	2	obl:comp
+của	E	8	case
+mình	P	6	nmod:poss
+để	E	10	mark:pcomp
+thiết kế	V	2	advcl:objective
+một	M	12	nummod
+căn hộ	N	10	obj
+đơn giản	A	12	amod
+,	CH	15	punct
+nhẹ nhàng	A	20	nsubj
+nhưng	C	20	mark
+mỗi	L	18	det
+góc	N	20	nsubj
+đều	R	20	advmod
+toát	V	2	conj
+lên	V	20	compound:dir
+được	R	20	advmod
+chất	V	20	obj
+riêng	T	23	amod
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1062
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nội thất căn hộ sử dụng 2 gam màu là trắng và gỗ ấm.
+Nội thất	N	2	det:clf
+căn hộ	N	8	nsubj
+sử dụng	V	2	acl:subj
+2	M	5	nummod
+gam	N	6	nummod
+màu	N	2	nmod
+là	V	8	cop
+trắng	A	0	root
+và	C	10	cc
+gỗ	N	8	conj
+ấm	A	10	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1063
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bàn trà hình tròn có chân uốn lượn khá lạ mắt, làm mềm đi các nét góc cạnh của không gian.
+Bàn	N	4	nsubj
+trà	N	1	nmod
+hình tròn	N	2	compound
+có	V	0	root
+chân	N	4	obj
+uốn lượn	V	5	nmod
+khá	R	8	advmod
+lạ mắt	A	5	nmod
+,	CH	10	punct
+làm	V	4	conj
+mềm	A	10	obj
+đi	V	11	xcomp
+các	L	14	det
+nét	N	10	obj
+góc cạnh	N	14	compound
+của	E	17	case
+không gian	N	14	nmod:poss
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1064
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thời gian này, Quỳnh chỉ ở nhà, thực hiện giãn cách xã hội phòng chống dịch.
+Thời gian	N	6	obl:tmod
+này	P	1	det:pmod
+,	CH	1	punct
+Quỳnh	Np	6	nsubj
+chỉ	R	6	advmod
+ở	V	0	root
+nhà	N	6	obj
+,	CH	9	punct
+thực hiện	V	6	conj
+giãn	N	11	det
+cách	N	9	obj
+xã hội	N	11	nmod
+phòng chống	V	11	nmod
+dịch	N	13	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1065
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mọi công việc tạm gác lại, cô thay đổi, sắp xếp lại vị trí của nội thất, làm tươi mới căn hộ bằng sự tinh tế của mình.
+Mọi	L	2	det
+công việc	N	4	nsubj
+tạm	A	0	root
+gác	V	3	obj
+lại	V	4	advmod
+,	CH	8	punct
+cô	Nc	8	nsubj
+thay đổi	V	4	parataxis
+,	CH	10	punct
+sắp xếp	V	8	conj
+lại	R	10	advmod
+vị trí	N	10	obj
+của	E	14	case
+nội thất	N	12	nmod:poss
+,	CH	16	punct
+làm	V	8	conj
+tươi	A	16	acomp
+mới	R	19	advmod
+căn hộ	V	16	acomp
+bằng	E	21	case
+sự	N	19	obl
+tinh tế	A	21	compound:vmod
+của	E	24	case
+mình	P	21	nmod:poss
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1066
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cô dành thời gian ngắm nhìn từng ngóc ngách trong nhà lâu hơn một chút, chăm sóc cho không gian sống nhiều hơn.
+Cô	Nc	2	nsubj
+dành	V	0	root
+thời gian	N	2	obj
+ngắm	V	2	obj
+nhìn	V	2	xcomp
+từng	R	7	advmod
+ngóc ngách	N	5	obj
+trong	E	9	case
+nhà	N	7	nmod
+lâu	A	9	amod
+hơn	A	12	advmod:adj
+một chút	L	10	obj
+,	CH	14	punct
+chăm sóc	V	5	conj
+cho	E	16	case
+không gian	N	14	obl:comp
+sống	V	14	xcomp
+nhiều	A	17	advmod:adj
+hơn	A	18	compound:adj
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1067
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Đây là những việc mà bình thường mình không có thời gian để làm, giờ lại nghiễm nhiên thành hoạt động thường nhật”, Quỳnh chia sẻ.
+“	CH	5	mark
+Đây	P	5	nsubj
+là	V	5	cop
+những	L	5	det
+việc	N	17	advcl
+mà	C	10	mark
+bình thường	A	10	advmod:adj
+mình	P	10	nsubj
+không	R	10	advmod:neg
+có	V	5	ccomp
+thời gian	N	10	obj
+để	E	13	mark:pcomp
+làm	V	10	advcl:objective
+,	CH	17	punct
+giờ	N	17	nsubj
+lại	V	17	advmod
+nghiễm nhiên	V	0	root
+thành	V	17	obj
+hoạt động	V	18	obj
+thường nhật	N	19	nmod
+”	CH	20	compound
+,	CH	23	punct
+Quỳnh	Np	19	conj
+chia sẻ	V	23	compound
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1068
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiếc piano phủ bụi không ai động đến; bộ sưu tập đĩa than, đĩa CD nằm gọn trong góc một thời gian dài nên nhân dịp này, cô mang ra thưởng thức.
+Chiếc	Nc	2	det:clf
+piano	N	7	nsubj
+phủ	V	4	case
+bụi	N	2	nmod
+không	R	6	advmod:neg
+ai	P	7	nsubj
+động	V	0	root
+đến	E	7	compound:dir
+;	CH	17	punct
+bộ	N	11	det:clf
+sưu tập	V	7	conj
+đĩa	N	13	det:clf
+than	N	11	nmod
+,	CH	17	punct
+đĩa	N	17	nsubj
+CD	Ny	15	compound
+nằm	V	7	conj
+gọn	A	17	advmod:adj
+trong	E	20	case
+góc	N	17	obl
+một	M	22	nummod
+thời gian	N	20	nmod
+dài	A	22	acl:subj
+nên	C	23	mark
+nhân dịp	N	22	nmod
+này	P	25	det:pmod
+,	CH	29	punct
+cô	Nc	29	nsubj
+mang	V	7	parataxis
+ra	V	29	compound:dir
+thưởng thức	V	29	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1069
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nơi Quỳnh yêu thích nhất sau một ngày vất vả vì công việc, ngả lưng xuống nhìn ánh đèn vàng là dịu lòng đi.
+Nơi	N	14	nsubj
+Quỳnh	Np	1	nmod
+yêu thích	V	1	nmod
+nhất	A	3	advmod
+sau	N	7	case
+một	M	7	nummod
+ngày	N	1	nmod
+vất vả	A	7	amod
+vì	E	10	case
+công việc	N	8	obl
+,	CH	12	punct
+ngả	P	14	nsubj
+lưng	N	12	nmod
+xuống	V	0	root
+nhìn	V	14	xcomp
+ánh	N	17	det:clf
+đèn	N	15	obj
+vàng	N	17	nmod
+là	V	20	cop
+dịu	A	17	acl:subj
+lòng	N	20	obj
+đi	V	21	compound:vmod
+.	CH	14	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1070
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = “Tự khám phá ra nhiều niềm vui khác trong chính căn nhà quen thuộc và dành thời gian cho chính mình nhiều hơn, sống tích cực và tôi tin rằng sẽ sớm thôi, mọi thứ sẽ trở về bình thường”, Quỳnh nói.
+“	CH	3	nsubj
+Tự	P	3	advmod
+khám phá	V	0	root
+ra	V	3	compound:dir
+nhiều	A	6	advmod:adj
+niềm	N	3	obj
+vui	A	6	compound
+khác	A	6	amod
+trong	E	12	case
+chính	T	12	discourse
+căn	Nc	12	det:clf
+nhà	N	6	nmod
+quen thuộc	A	12	amod
+và	C	15	cc
+dành	V	3	conj
+thời gian	N	15	obj
+cho	E	19	case
+chính	T	19	discourse
+mình	P	15	obl:comp
+nhiều	A	19	acl:subj
+hơn	A	20	advmod
+,	CH	23	punct
+sống	V	20	conj
+tích cực	A	23	acomp
+và	C	27	cc
+tôi	P	27	nsubj
+tin	V	3	conj
+rằng	C	30	mark
+sẽ	R	30	advmod
+sớm	A	27	ccomp
+thôi	T	30	discourse
+,	CH	36	punct
+mọi	L	34	det
+thứ	N	36	nsubj
+sẽ	R	36	advmod
+trở về	V	27	ccomp
+bình thường	A	36	acomp
+”	CH	36	obj
+,	CH	41	punct
+Quỳnh	Np	41	nsubj
+nói	V	36	conj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1071
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiếc máy nghe nhạc là linh hồn của phòng khách và bộ sưu tập đĩa quý giá của gia chủ xinh đẹp.
+Chiếc	Nc	2	det:clf
+máy nghe	N	5	nsubj
+nhạc	N	2	nmod
+là	V	5	cop
+linh hồn	N	0	root
+của	E	7	case
+phòng	N	5	nmod:poss
+khách	N	7	nmod
+và	C	11	cc
+bộ	N	11	det:clf
+sưu tập	V	7	conj
+đĩa	N	11	nmod
+quý giá	N	12	compound
+của	E	15	case
+gia chủ	N	11	nmod:poss
+xinh đẹp	A	15	compound
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1072
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Góc thư giãn, tận hưởng cảm giác bình yên khi ở nhà.
+Góc	N	2	nsubj
+thư giãn	V	0	root
+,	CH	4	punct
+tận hưởng	V	2	conj
+cảm giác	N	4	nmod
+bình yên	A	5	compound
+khi	N	5	nmod
+ở	V	7	acl:tmod
+nhà	N	8	obj
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1073
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Quỳnh khá quan tâm đến vấn đề bố trí ánh sáng cho căn hộ, đảm bảo ánh sáng tốt cho mắt, độ sáng vừa phải để không bị cảm giác khó chịu khi phải bật đèn quá nhiều.
+Quỳnh	Np	3	nsubj
+khá	R	3	advmod
+quan tâm	V	0	root
+đến	E	5	case
+vấn đề	N	3	obl:comp
+bố trí	V	5	acl:subj
+ánh sáng	N	6	obj
+cho	E	9	case
+căn hộ	N	6	obl:comp
+,	CH	11	punct
+đảm bảo	V	3	conj
+ánh sáng	N	11	obj
+tốt	A	12	amod
+cho	E	15	case
+mắt	N	11	obl:comp
+,	CH	17	punct
+độ	N	21	nsubj
+sáng	N	17	nmod
+vừa	R	21	advmod
+phải	V	21	aux
+để	E	3	parataxis
+không	R	23	advmod:neg
+bị	V	25	aux:pass
+cảm giác	N	21	obj
+khó chịu	A	24	amod
+khi	N	25	obl:tmod
+phải	V	28	aux
+bật	V	26	acl:tmod
+đèn	N	28	obj
+quá	R	31	advmod
+nhiều	A	28	acomp
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1074
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ghế sofa gỗ với lớp đệm có thể lột ra vệ sinh dễ dàng, nhờ vậy vấn đề giải quyết lông mèo rụng không còn nan giải nữa.
+Ghế	N	8	nsubj
+sofa	N	1	nmod
+gỗ	N	2	compound
+với	E	5	case
+lớp	N	1	nmod
+đệm	N	5	compound
+có thể	R	8	advmod
+lột	V	0	root
+ra	V	8	compound:dir
+vệ sinh	V	8	obj
+dễ dàng	A	10	amod
+,	CH	21	punct
+nhờ	V	21	advcl
+vậy	P	13	obj
+vấn đề	N	21	nsubj
+giải quyết	V	15	acl:subj
+lông	N	16	obj
+mèo	V	17	compound
+rụng	N	21	nsubj
+không	R	21	advmod:neg
+còn	V	8	conj
+nan giải	N	21	obj
+nữa	R	22	advmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1075
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiếc piano trong phòng khách, vừa tăng tính thẩm mỹ, tạo điểm nhấn và giúp nhà sinh động hơn.
+Chiếc	Nc	2	det:clf
+piano	N	8	nsubj
+trong	E	4	case
+phòng	N	2	obl
+khách	N	4	compound
+,	CH	8	punct
+vừa	R	8	advmod
+tăng	V	0	root
+tính	V	8	obj
+thẩm mỹ	N	9	nmod
+,	CH	12	punct
+tạo	V	8	conj
+điểm	N	12	obj
+nhấn	V	13	nmod
+và	C	16	cc
+giúp	V	8	conj
+nhà	N	16	obj
+sinh động	A	16	xcomp
+hơn	A	18	compound:adj
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1076
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đây cũng là góc chụp ảnh yêu thích của cô chủ yêu thời trang.
+Đây	P	4	nsubj
+cũng	R	4	advmod
+là	V	4	cop
+góc	N	0	root
+chụp	V	4	compound:vmod
+ảnh	N	5	obj
+yêu thích	V	6	compound
+của	E	10	case
+cô	Nc	10	det:clf
+chủ	N	6	nmod:poss
+yêu	V	10	nmod
+thời trang	N	11	obj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1077
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhà chỉ có 2 mẹ con nên gia chủ không làm bộ bàn ăn lớn mà dùng bộ tròn, với tông màu nâu cổ điển, phối phía sau là bức tường gạch đỏ.
+Nhà	N	3	nsubj
+chỉ	R	3	advmod
+có	V	9	advcl
+2	M	5	nummod
+mẹ con	N	3	obj
+nên	C	9	mark
+gia chủ	V	9	nsubj
+không	R	9	advmod:neg
+làm bộ	V	0	root
+bàn	N	9	obj
+ăn	V	10	acl:subj
+lớn	A	11	acomp
+mà	C	14	mark
+dùng	V	11	conj
+bộ	N	14	obj
+tròn	A	15	compound
+,	CH	20	punct
+với	E	20	case
+tông	N	20	det:clf
+màu	N	14	obl
+nâu	A	20	nmod
+cổ điển	A	20	nmod
+,	CH	24	punct
+phối	V	29	nsubj
+phía	N	24	nmod
+sau	N	25	compound
+là	V	29	cop
+bức	Nc	29	det:clf
+tường	N	11	conj
+gạch	N	29	nmod
+đỏ	A	30	amod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1078
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hai chi tiết này giúp căn hộ màu trắng không bị đơn điệu.
+Hai	M	2	nummod
+chi tiết	N	4	nsubj
+này	P	2	det:pmod
+giúp	V	0	root
+căn hộ	N	4	obj
+màu	N	5	nmod
+trắng	A	6	amod
+không	R	9	advmod:neg
+bị	V	10	aux:pass
+đơn điệu	V	4	ccomp
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1079
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hoa tươi cũng là cách giúp Quỳnh giải tỏa căng thẳng trong cuộc sống.
+Hoa	N	5	nsubj
+tươi	A	1	amod
+cũng	R	5	advmod
+là	V	5	cop
+cách	N	0	root
+giúp	V	5	acl:subj
+Quỳnh	Np	6	obj
+giải tỏa	V	7	nmod
+căng thẳng	A	8	amod
+trong	E	11	case
+cuộc sống	N	6	obl
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1080
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phòng ngủ không kiểu cách, không quá cầu kỳ nhưng vẫn toát lên được nét đẹp.
+Phòng ngủ	N	3	nsubj
+không	R	3	advmod:neg
+kiểu cách	V	0	root
+,	CH	7	punct
+không	R	7	advmod:neg
+quá	R	7	advmod
+cầu kỳ	A	3	conj
+nhưng	C	10	mark
+vẫn	R	10	advmod
+toát	V	3	conj
+lên	V	10	xcomp
+được	R	11	advmod
+nét	N	11	obj
+đẹp	A	13	amod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1081
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lối đi vào phòng ngủ được Quỳnh thiết kế thành nơi đặt tủ quần áo. Cách bố trí như vậy giúp tiết kiệm được không gian, lại thuận tiện cho việc sử dụng, sinh hoạt hàng ngày.
+Lối	N	6	nsubj:pass
+đi	V	1	acl:subj
+vào	E	2	compound:dir
+phòng ngủ	N	2	obj
+được	V	6	aux:pass
+Quỳnh	Np	0	root
+thiết kế	V	6	obj
+thành	V	7	nmod
+nơi	N	7	nmod
+đặt	V	9	acl:subj
+tủ	N	10	obj
+quần áo	N	11	nmod
+.	CH	14	punct
+Cách	V	7	conj
+bố trí	V	14	acl:subj
+như	C	17	case
+vậy	P	15	obl
+giúp	V	7	acl:subj
+tiết kiệm	V	18	obj
+được	V	18	advmod
+không gian	N	18	obj
+,	CH	24	punct
+lại	R	24	advmod
+thuận tiện	A	18	conj
+cho	E	26	case
+việc	N	24	obl:comp
+sử dụng	V	26	compound:vmod
+,	CH	29	punct
+sinh hoạt	V	26	conj
+hàng	N	31	advmod
+ngày	N	29	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1082
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Góc đọc sách, decor của phòng ngủ.
+Góc	N	2	nsubj
+đọc	V	0	root
+sách	N	2	obj
+,	CH	5	punct
+decor	N	2	conj
+của	E	7	case
+phòng ngủ	N	3	nmod:poss
+.	CH	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1083
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Phía dưới là hệ tủ ngăn kéo cất đồ cho ngăn nắp.
+Phía	N	5	nsubj
+dưới	N	1	compound
+là	V	5	cop
+hệ	N	5	det:clf
+tủ	N	0	root
+ngăn kéo	N	5	nmod
+cất	V	5	acl:subj
+đồ	N	7	obj
+cho	E	10	case
+ngăn nắp	N	7	obl
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1084
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chiếc tủ kệ trưng bày nước hoa bằng chất liệu thép, chia ngăn.
+Chiếc	Nc	2	det:clf
+tủ	N	0	root
+kệ	N	2	nmod
+trưng bày	V	2	nmod
+nước hoa	N	2	nmod
+bằng	E	7	case
+chất liệu	N	2	nmod
+thép	N	7	compound
+,	CH	10	punct
+chia	V	7	conj
+ngăn	V	10	obj
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/bat-dong-san/nha-dep/can-ho-cua-quy-co-thoi-trang-tinh-te-den-tung-duong-net-767302.html
+# date = 20210822
+# sent_id = 1085
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đặc biệt màu sắc rất hợp tông với nhà.
+Đặc biệt	A	4	nsubj
+màu sắc	N	4	nsubj
+rất	R	4	advmod
+hợp	A	0	root
+tông	N	4	obj
+với	E	7	case
+nhà	N	4	obl:with
+.	CH	4	punct
