@@ -33492,3 +33492,1770 @@ tông	N	4	obj
 với	E	7	case
 nhà	N	4	obl:with
 .	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1086
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đề xuất tăng lương hưu từ đầu năm 2022
+Đề xuất	N	2	nsubj
+tăng	V	0	root
+lương	N	2	obj
+hưu	V	2	xcomp
+từ	E	6	case
+đầu	N	2	obl:tmod
+năm	N	6	nmod
+2022	M	2	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1087
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau khi ghi nhận góp ý của các bộ ngành liên quan, Bộ LĐ-TB&XH đã giảm mức đề xuất tăng lương hưu, trợ cấp hàng tháng xuống còn 11%, thay vì mức đề xuất trước đó là 15%, do ảnh hưởng của dịch Covid-19...
+Sau	N	2	case
+khi	N	15	obl:tmod
+ghi nhận	V	2	acl:tmod
+góp ý	N	3	xcomp
+của	E	7	case
+các	L	7	det
+bộ	N	3	nmod:poss
+ngành	N	7	nmod
+liên quan	V	8	compound
+,	CH	15	punct
+Bộ LĐ-TB	Ny	9	conj
+&	CH	11	compound
+XH	Ny	11	compound
+đã	R	15	advmod
+giảm	V	0	root
+mức	N	15	obj
+đề xuất	V	16	compound
+tăng	V	15	xcomp
+lương	N	18	obj
+hưu	V	19	compound
+,	CH	22	punct
+trợ cấp	V	15	conj
+hàng	N	22	obj
+tháng	N	23	nmod
+xuống	V	23	acl:subj
+còn	R	25	advmod
+11	M	28	nummod
+%	N	26	flat:number
+,	CH	30	punct
+thay vì	X	15	conj
+mức	N	30	obj
+đề xuất	V	31	nmod
+trước	N	34	case
+đó	P	30	obl
+là	V	37	cop
+15	M	37	nummod
+%	N	27	flat:number
+,	CH	40	punct
+do	E	40	case
+ảnh hưởng	V	37	conj
+của	E	42	case
+dịch Covid-19	N	40	nmod:poss
+...	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1088
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngày 20/8, Bộ LĐ-TB&XH đã có tờ trình Chính phủ về điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội và trợ cấp hàng tháng.
+Ngày	N	8	obl:tmod
+20/8	M	1	flat:date
+,	CH	8	punct
+Bộ LĐ-TB	Ny	8	nsubj
+&	CH	4	flat:name
+XH	Ny	4	flat:name
+đã	R	8	advmod
+có	V	0	root
+tờ trình	M	8	obj
+Chính phủ	N	9	nmod
+về	V	8	ccomp
+điều chỉnh	V	11	obj
+lương	N	12	nmod
+hưu	V	13	compound
+,	CH	16	punct
+trợ cấp	V	13	conj
+bảo hiểm	N	16	obj
+xã hội	N	17	nmod
+và	C	20	cc
+trợ cấp	V	17	conj
+hàng	N	20	nmod
+tháng	N	21	compound
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1089
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ này đề xuất thời điểm điều chỉnh tăng từ ngày 1/1/2022.
+Bộ	N	6	nsubj
+này	P	1	det:pmod
+đề xuất	V	4	nummod
+thời điểm	N	6	nsubj
+điều chỉnh	V	6	advmod
+tăng	V	0	root
+từ	E	8	case
+ngày	N	6	obl:tmod
+1/1/2022	M	8	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1090
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bộ LĐ-TB&XH đề xuất mức tăng là 11% với hưu và trợ cấp hàng tháng.
+Bộ	N	7	nsubj
+LĐ-TB	Ny	1	compound
+&	CH	4	punct
+XH	Ny	1	flat:name
+đề xuất	V	6	case
+mức	N	1	nmod
+tăng	V	0	root
+là	C	7	compound:prt
+11	M	7	obj
+%	N	9	flat:number
+với	E	12	case
+hưu	V	7	obl
+và	C	14	cc
+trợ cấp	V	12	conj
+hàng	N	14	nmod
+tháng	N	15	compound
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1091
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Mức đề xuất trình Chính phủ lần này giảm 4% so với tờ trình trước đó (trước trình tăng 15%).
+Mức	N	6	nsubj
+đề xuất trình	V	1	nmod
+Chính phủ	N	2	compound
+lần	N	1	nmod
+này	P	4	det:pmod
+giảm	V	0	root
+4	M	9	nummod
+%	N	7	flat:number
+so	V	6	obj
+với	E	11	case
+tờ trình	N	9	obl
+trước	N	11	nmod
+đó	P	12	det:pmod
+(	CH	15	punct
+trước	E	9	obl:tmod
+trình	N	15	compound
+tăng	V	16	nmod
+15	M	17	nummod
+%	N	17	flat:number
+)	CH	17	punct
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1092
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cơ quan đề xuất lý giải, lần gần nhất tăng lương hưu là năm 2019, từ đó tới nay (3 năm) chỉ số giá tiêu dùng tăng 10,3%, GDP bình quân tăng 5,5%/năm, tổng mức tăng khoảng 15%.
+Cơ quan	N	3	nsubj
+đề xuất	V	1	compound
+lý giải	N	0	root
+,	CH	8	punct
+lần	N	8	obl:tmod
+gần	A	5	acl:subj
+nhất	R	6	advmod
+tăng	V	3	conj
+lương	N	8	obj
+hưu	V	9	acl:subj
+là	V	12	cop
+năm	N	3	appos:nmod
+2019	M	12	compound
+,	CH	26	punct
+từ	E	16	case
+đó	P	32	obl
+tới	E	18	case
+nay	P	16	nmod
+(	CH	21	punct
+3	M	21	nummod
+năm	N	18	appos:nmod
+)	CH	21	punct
+chỉ số	V	24	det
+giá	N	26	nsubj
+tiêu dùng	V	24	compound
+tăng	V	3	conj
+10,3	N	26	obj
+%	N	27	nummod
+,	CH	32	punct
+GDP	Np	32	nsubj
+bình quân	A	30	compound
+tăng	V	3	conj
+5,5	M	34	nummod
+%	N	32	obj
+/	CH	34	punct
+năm	N	34	nmod
+,	CH	38	punct
+tổng	N	32	nsubj
+mức	N	38	nmod
+tăng	V	39	acl:subj
+khoảng	A	40	obj
+15	M	41	nmod
+%	N	41	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1093
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên, trong bối cảnh dịch COVID-19, Chính phủ cần ưu tiên nguồn lực tài chính cho phòng chống dịch, nên Bộ LĐ-TB&XH đề xuất chỉ tăng lương hưu 11%.
+Tuy nhiên	C	23	mark
+,	CH	23	punct
+trong	E	4	case
+bối cảnh	N	23	obl
+dịch COVID-19	N	4	nmod
+,	CH	4	punct
+Chính phủ	N	8	nsubj
+cần	V	23	advcl
+ưu tiên	V	8	acomp
+nguồn lực	V	8	obj
+tài chính	N	10	compound
+cho	E	13	case
+phòng chống	V	8	obl:comp
+dịch	N	13	compound
+,	CH	23	punct
+nên	C	23	mark
+Bộ	N	23	nsubj
+LĐ-TB	Ny	17	compound
+&	CH	20	punct
+XH	Ny	17	compound
+đề xuất	V	17	compound
+chỉ	R	23	advmod
+tăng	V	0	root
+lương	N	23	obj
+hưu	V	24	compound
+11	M	25	obj
+%	N	26	nummod
+.	CH	23	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1094
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Lần điều chỉnh lương hưu và trợ cấp hàng tháng này chia thành 2 nhóm.
+Lần	N	10	nsubj
+điều chỉnh	V	1	amod
+lương	N	2	obj
+hưu	V	3	compound:vmod
+và	C	6	cc
+trợ cấp	V	10	nsubj
+hàng	N	6	nmod
+tháng	N	7	nmod
+này	P	8	det:pmod
+chia	V	0	root
+thành	V	10	obj
+2	M	13	nummod
+nhóm	N	10	obj
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1095
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cụ thể, tăng 11% mức lương hưu, trợ cấp bảo hiểm xã hội và trợ cấp hàng tháng với người nhận lương hưu trước ngày 1/1/2022.
+Cụ thể	A	3	advcl
+,	CH	3	punct
+tăng	V	0	root
+11	M	6	nummod
+%	N	4	flat:number
+mức	N	3	obj
+lương	N	6	nmod
+hưu	V	7	compound
+,	CH	10	punct
+trợ cấp	V	6	conj
+bảo hiểm	N	10	obj
+xã hội	N	11	compound
+và	C	14	cc
+trợ cấp	V	11	conj
+hàng	N	14	obj
+tháng	N	15	nmod
+với	E	18	case
+người	N	14	obl
+nhận	V	18	acl:subj
+lương	N	19	obj
+hưu	V	19	xcomp
+trước	E	23	case
+ngày	N	19	obl:tmod
+1/1/2022	M	23	compound
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1096
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với người hưởng lương hưu, trợ cấp hàng tháng trước ngày 1/1/1995, sau tăng thêm 11%, nếu mức lương, trợ cấp vẫn dưới 2,5 triệu đồng/tháng sẽ được tăng thêm.
+Với	E	2	case
+người	N	34	obl
+hưởng	V	2	nmod
+lương	N	3	nmod
+hưu	V	2	acl:subj
+,	CH	7	punct
+trợ cấp	V	3	conj
+hàng	N	7	obj
+tháng	N	8	nmod
+trước	E	11	case
+ngày	N	8	nmod
+1/1/1995	M	11	nmod
+,	CH	15	punct
+sau	N	15	obl:tmod
+tăng	V	7	conj
+thêm	V	15	compound:svc
+11	M	15	nummod
+%	N	17	flat:number
+,	CH	21	punct
+nếu	C	21	mark
+mức	N	34	nsubj
+lương	N	21	nmod
+,	CH	24	punct
+trợ cấp	V	34	nsubj:pass
+vẫn	R	26	advmod
+dưới	N	29	advmod:adj
+2,5	M	29	nummod
+triệu	M	27	flat:number
+đồng	Nu	24	nmod
+/	CH	31	punct
+tháng	N	29	nmod
+sẽ	R	34	advmod
+được	V	34	aux:pass
+tăng	V	0	root
+thêm	V	34	compound:svc
+.	CH	34	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1097
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Với người có lương hưu, trợ cấp từ 2,3 triệu đồng/tháng trở xuống sẽ được tăng bù thêm 200 nghìn đồng/người/tháng; với người có lương hưu, trợ cấp hàng tháng từ 2,3 đến dưới 2,5 triệu đồng/tháng sẽ được tăng thêm để đạt mức 2,5 triệu đồng/tháng.
+Với	E	2	case
+người	N	17	obl
+có	V	2	acl:subj
+lương	N	3	obj
+hưu	V	4	compound:vmod
+,	CH	17	punct
+trợ cấp	V	17	nsubj:pass
+từ	E	11	case
+2,3	M	11	nummod
+triệu	M	9	nummod
+đồng	Nu	7	nmod
+/	CH	13	punct
+tháng	N	11	nmod
+trở xuống	V	13	compound
+sẽ	R	17	advmod
+được	V	17	aux:pass
+tăng	V	0	root
+bù	V	17	obj
+thêm	V	18	compound:svc
+200	M	22	nummod
+nghìn	M	20	flat:number
+đồng	Nu	18	obj
+/	CH	24	punct
+người	N	22	nmod
+/	CH	24	punct
+tháng	N	22	nmod
+;	CH	17	punct
+với	E	29	case
+người	N	17	obl
+có	V	29	acl:subj
+lương	N	30	obj
+hưu	V	31	compound
+,	CH	48	punct
+trợ cấp	V	48	nsubj:pass
+hàng	N	34	nmod
+tháng	N	35	nmod
+từ	E	38	case
+2,3	N	48	obl:tmod
+đến	E	40	case
+dưới	N	43	advmod:adj
+2,5	M	43	nummod
+triệu	M	41	flat:number
+đồng	Nu	38	nmod
+/	CH	45	punct
+tháng	N	43	nmod
+sẽ	R	48	advmod
+được	V	48	aux:pass
+tăng	V	17	conj
+thêm	V	48	compound:svc
+để	E	51	mark:pcomp
+đạt	V	48	advcl:objective
+mức	N	51	obj
+2,5	M	55	nummod
+triệu	M	55	nummod
+đồng	Nu	51	obj
+/	CH	57	punct
+tháng	N	55	nmod
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1098
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dự kiến sẽ có khoảng 318.000 người thuộc diện điều chỉnh tăng bổ sung, kinh phí trong năm 2022 khoảng 573 tỷ đồng.
+Dự kiến	V	3	nsubj
+sẽ	R	3	advmod
+có	V	0	root
+khoảng	A	3	obj
+318.000	M	6	nummod
+người	N	4	nmod
+thuộc	V	6	acl:subj
+diện	N	7	obj
+điều chỉnh	V	10	punct
+tăng	V	7	conj
+bổ sung	V	10	obj
+,	CH	13	punct
+kinh phí	N	16	nsubj
+trong	E	15	case
+năm	N	16	nummod
+2022	M	3	conj
+khoảng	N	16	nmod
+573	M	20	nummod
+tỷ	M	18	flat:number
+đồng	Nu	17	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1099
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thực hiện theo phương án trên, dự kiến sẽ có khoảng 868.000 người điều chỉnh tăng lương hưu, trợ cấp hàng tháng do ngân sách nhà nước đảm bảo, với tổng kinh phí trong năm 2022 khoảng 4.625 tỷ đồng;
+Thực hiện	V	8	advcl
+theo	V	3	case
+phương án	N	1	obl:comp
+trên	N	3	nmod
+,	CH	8	punct
+dự kiến	V	8	nsubj
+sẽ	R	8	advmod
+có	V	0	root
+khoảng	A	8	obj
+868.000	M	11	nummod
+người	N	9	nmod
+điều chỉnh	V	13	punct
+tăng	V	11	acl:subj
+lương	N	13	obj
+hưu	V	14	compound
+,	CH	17	punct
+trợ cấp	V	8	conj
+hàng	N	17	obj
+tháng	N	18	nmod
+do	E	23	mark
+ngân sách	N	23	nsubj
+nhà nước	N	21	nmod
+đảm bảo	V	18	acl:subj
+,	CH	26	punct
+với	E	26	case
+tổng	N	23	obl
+kinh phí	N	26	nmod
+trong	E	29	case
+năm	N	30	nummod
+2022	M	26	nmod
+khoảng	N	30	nmod
+4.625	M	34	nummod
+tỷ	M	32	flat:number
+đồng	Nu	31	nmod
+;	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1100
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Có khoảng 2,13 triệu người điều chỉnh tăng lương hưu, trợ cấp hàng tháng từ Quỹ bảo hiểm xã hội chi trả, với kinh phí tăng thêm trong năm 2022 khoảng 14.700 tỷ đồng.
+Có	V	0	root
+khoảng	N	1	obj
+2,13	M	5	advmod
+triệu	M	5	nummod
+người	N	2	nmod
+điều chỉnh	V	7	advmod
+tăng	V	1	conj
+lương	N	7	obj
+hưu	V	8	compound
+,	CH	11	punct
+trợ cấp	V	12	nummod
+hàng	N	7	obj
+tháng	N	12	compound
+từ	E	15	case
+Quỹ	Np	12	nmod
+bảo hiểm	N	15	compound
+xã hội	N	16	compound
+chi trả	V	17	compound
+,	CH	22	punct
+với	E	21	case
+kinh phí	N	22	obl
+tăng	V	1	conj
+thêm	V	22	compound:svc
+trong	E	26	case
+năm	N	22	obl:tmod
+2022	M	25	compound
+khoảng	N	26	nmod
+14.700	M	30	nummod
+tỷ	M	28	flat:number
+đồng	Nu	27	nmod
+.	CH	1	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1101
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ở nhà rỗi quá, chị em Hà thành mở lò bánh mỳ tại gia
+Ở	E	2	case
+nhà	N	8	obl
+rỗi	A	2	nmod
+quá	R	3	advmod
+,	CH	8	punct
+chị em	N	8	nsubj
+Hà thành	N	6	compound
+mở	V	0	root
+lò	N	8	obj
+bánh	N	9	nmod
+mỳ	V	10	compound
+tại gia	M	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1102
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Dịch bệnh ập đến khiến nhiều bà nội trợ phải cân đối chi tiêu, nhất là tiền mua thực phẩm thiết yếu, để có quỹ dự phòng chống dịch.
+Dịch bệnh	N	2	det:clf
+ập	V	3	nsubj
+đến	E	0	root
+khiến	V	3	xcomp
+nhiều	A	7	advmod:adj
+bà	Nc	9	nsubj
+nội trợ	V	9	nsubj
+phải	V	9	aux
+cân đối	V	4	ccomp
+chi tiêu	V	9	obj
+,	CH	13	punct
+nhất là	X	13	det
+tiền	N	9	conj
+mua	V	13	acl:subj
+thực phẩm	N	14	obj
+thiết yếu	A	15	nmod
+,	CH	19	punct
+để	E	19	mark:pcomp
+có	V	4	advcl:objective
+quỹ	N	19	obj
+dự phòng chống	V	22	nummod
+dịch	N	20	nmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1103
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều chị em đua nhau hết làm giá đỗ lại chuyển sang làm bánh mì để tiết kiệm.
+Nhiều	A	2	det
+chị em	N	7	nsubj
+đua	V	2	nmod
+nhau	N	3	obj
+hết	V	2	acl:subj
+làm giá	N	5	obj
+đỗ	V	9	csubj
+lại	R	9	advmod
+chuyển	V	0	root
+sang	V	9	compound:dir
+làm	V	9	xcomp
+bánh mì	N	11	obj
+để	E	14	mark:pcomp
+tiết kiệm	V	11	advcl:objective
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1104
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hà Nội cùng một số địa phương đang trong thời gian thực hiện giãn cách xã hội.
+Hà Nội	Np	8	nsubj
+cùng	A	4	cc
+một số	L	4	det
+địa phương	N	1	conj
+đang	R	7	advmod
+trong	E	7	case
+thời gian	N	1	obl
+thực hiện	V	0	root
+giãn	N	10	case
+cách	V	8	obj
+xã hội	N	10	nmod
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1105
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều người lao động buộc phải làm online hoặc tạm nghỉ việc, thời gian ở nhà nhiều hơn.
+Nhiều	A	2	advmod:adj
+người	Nc	4	nsubj
+lao động	N	2	compound
+buộc	V	0	root
+phải	V	6	aux
+làm	V	4	xcomp
+online	A	6	obj
+hoặc	C	9	cc
+tạm	A	6	conj
+nghỉ việc	V	9	obj
+,	CH	15	punct
+thời gian	N	15	nsubj
+ở	V	14	case
+nhà	N	12	nmod
+nhiều	A	6	conj
+hơn	A	15	compound:adj
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1106
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để hạn chế ra chợ hay ra đường mua thực phẩm, nhiều bà nội trợ đã chia sẻ cho nhau cách làm bánh mỳ đơn giản, tạo nguồn thực phẩm sẵn, sạch cho cả gia đình, vừa tiện lợi mà lại tiết kiệm.
+Để	E	2	mark:pcomp
+hạn chế	V	15	advcl:objective
+ra	V	2	compound:dir
+chợ	N	3	obj
+hay	C	6	advmod
+ra	V	2	conj
+đường	N	6	obj
+mua	V	7	nmod
+thực phẩm	N	8	obj
+,	CH	15	punct
+nhiều	A	13	det
+bà	N	11	clf
+nội trợ	V	15	nsubj
+đã	R	15	advmod
+chia sẻ	V	0	root
+cho	E	17	case
+nhau	N	15	obl:iobj
+cách	N	15	obj
+làm	V	18	acl:subj
+bánh	N	19	obj
+mỳ	N	20	nmod
+đơn giản	A	21	amod
+,	CH	24	punct
+tạo	V	19	conj
+nguồn	N	24	obj
+thực phẩm	N	25	nmod
+sẵn	A	26	amod
+,	CH	29	punct
+sạch	A	19	conj
+cho	E	32	case
+cả	P	32	det
+gia đình	N	29	obl:comp
+,	CH	35	punct
+vừa	R	35	advmod
+tiện lợi	A	15	conj
+mà	C	38	mark
+lại	R	38	advmod
+tiết kiệm	V	35	conj
+.	CH	15	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1107
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hai tuần trước, chị Phạm Thị Trang ở Gia Lâm, Hà Nội, khi đi siêu thị mua thực phẩm thiết yếu, nhìn thấy túi bột mì nên chị nghĩ ngay tới chuyện tự mày mò làm thử bánh mì ở nhà xem sao.
+Hai	M	2	nummod
+tuần	N	26	obl:tmod
+trước	N	2	nmod
+,	CH	2	punct
+chị	Nc	6	det:clf
+Phạm Thị Trang	Np	2	appos
+ở	E	8	case
+Gia Lâm	Np	6	nmod
+,	CH	10	punct
+Hà Nội	Np	8	appos:nmod
+,	CH	12	punct
+khi	N	26	obl:tmod
+đi	V	12	acl:tmod
+siêu thị	N	13	obj
+mua	V	12	acl:tmod
+thực phẩm	N	15	obj
+thiết yếu	N	15	obj
+,	CH	19	punct
+nhìn	V	13	conj
+thấy	V	19	compound:svc
+túi	N	19	obj
+bột	N	21	nmod
+mì	N	22	nmod
+nên	C	26	mark
+chị	Nc	26	nsubj
+nghĩ	V	0	root
+ngay	T	26	advmod
+tới	E	29	case
+chuyện	N	26	obl:comp
+tự	P	31	advmod
+mày mò	V	29	acl:subj
+làm	V	26	xcomp
+thử	V	32	xcomp
+bánh mì	N	33	obj
+ở	E	36	case
+nhà	N	33	obl
+xem	V	32	xcomp
+sao	P	37	obj
+.	CH	26	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1108
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị Trang cho biết, trước đây khi chưa học làm bánh mì, chị thấy rất khó và phức tạp.
+Chị	Nc	2	det:clf
+Trang	Np	3	nsubj
+cho	V	0	root
+biết	V	3	compound:svc
+,	CH	14	punct
+trước đây	N	14	obl:tmod
+khi	N	6	compound
+chưa	R	9	advmod:neg
+học	V	7	acl:tmod
+làm	V	9	xcomp
+bánh mì	N	10	obj
+,	CH	7	punct
+chị	Nc	14	nsubj
+thấy	V	3	parataxis
+rất	R	16	advmod
+khó	A	14	acomp
+và	C	18	cc
+phức tạp	A	16	conj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1109
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuy nhiên khi thử vài lần, chị thấy làm bánh mỳ rất dễ.
+Tuy nhiên	C	8	mark
+khi	N	8	obl:tmod
+thử	V	2	acl:tmod
+vài	L	5	det
+lần	N	3	obj
+,	CH	2	punct
+chị	Nc	8	nsubj
+thấy	V	0	root
+làm	V	8	xcomp
+bánh	N	9	obj
+mỳ	V	10	nmod
+rất	R	13	advmod
+dễ	A	9	acomp
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1110
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chưa kể, nguyên liệu làm loại bánh này đơn giản, dễ mua, dễ tìm và không hề tốn kém.
+Chưa	R	2	advmod
+kể	V	5	advcl
+,	CH	2	punct
+nguyên liệu	N	5	nsubj
+làm	V	0	root
+loại	N	7	det:clf
+bánh	N	5	obj
+này	P	7	det:pmod
+đơn giản	A	5	ccomp
+,	CH	12	punct
+dễ	A	12	nsubj
+mua	V	9	conj
+,	CH	14	punct
+dễ	A	12	conj
+tìm	V	14	xcomp:adj
+và	C	19	cc
+không	R	19	advmod:neg
+hề	T	19	advmod
+tốn kém	V	9	conj
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1111
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhiều chị em đua nhau làm bánh mỳ để tiết kiệm tiền ăn.
+Nhiều	A	2	det
+chị em	N	5	nsubj
+đua	V	2	nmod
+nhau	N	3	obj
+làm	V	0	root
+bánh	N	5	obj
+mỳ	V	6	nmod
+để	E	9	mark:pcomp
+tiết kiệm	V	5	advcl:objective
+tiền	N	9	obj
+ăn	V	10	compound:vmod
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1112
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Thực tế, nguyên liệu để làm bánh mì vỏ giòn kiểu Việt Nam không cần nhiều, chỉ cần bột, nước lã, muối, đường, men nở.
+Thực tế	N	4	nsubj
+,	CH	3	punct
+nguyên liệu	N	1	conj
+để	E	0	root
+làm	V	4	xcomp
+bánh mì	N	7	det:clf
+vỏ	N	5	obj
+giòn	N	9	case
+kiểu	N	7	nmod
+Việt Nam	Np	9	nmod
+không	R	12	advmod:neg
+cần	V	5	conj
+nhiều	A	12	acomp
+,	CH	16	punct
+chỉ	R	16	advmod
+cần	V	5	conj
+bột	N	16	obj
+,	CH	19	punct
+nước lã	N	17	conj
+,	CH	21	punct
+muối	N	17	conj
+,	CH	23	punct
+đường	N	17	conj
+,	CH	25	punct
+men	N	17	conj
+nở	V	25	compound:vmod
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1113
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Trong đó, bột mì số 13 hay 11 và men nở có thể mua tại các cửa hàng bán đồ khô ở chợ, cửa hàng tạp hóa, siêu thị hoặc đặt mua từ các cửa hàng bán nguyên liệu làm bánh.
+Trong	E	2	case
+đó	P	13	obl
+,	CH	13	punct
+bột mì	N	5	det:clf
+số	N	13	nsubj
+13	M	5	nmod
+hay	C	8	punct
+11	M	6	conj
+và	C	10	cc
+men	V	6	conj
+nở	V	10	compound
+có thể	R	13	advmod
+mua	V	0	root
+tại	E	16	case
+các	L	16	det
+cửa hàng	N	13	obl:comp
+bán	V	16	acl:subj
+đồ	N	17	obj
+khô	A	18	amod
+ở	E	21	case
+chợ	N	17	obl:comp
+,	CH	23	punct
+cửa hàng	N	21	conj
+tạp hóa	N	23	nmod
+,	CH	26	punct
+siêu thị	N	21	conj
+hoặc	C	28	cc
+đặt	V	13	conj
+mua	V	28	compound:svc
+từ	E	32	case
+các	L	32	det
+cửa hàng	N	28	obl
+bán	V	32	acl:subj
+nguyên liệu	N	33	obj
+làm	V	33	acl:subj
+bánh	N	35	obj
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1114
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Còn men dùng nhãn đỏ hay nhãn vàng đều được, chỉ cần chú ý mua men chứ không phải bột nở hay muối nở.
+Còn	C	3	mark
+men	N	10	nsubj
+dùng	V	2	acl:subj
+nhãn	N	3	obj
+đỏ	A	4	amod
+hay	C	7	cc
+nhãn	V	5	conj
+vàng	N	7	compound
+đều	R	10	advmod
+được	V	0	root
+,	CH	14	punct
+chỉ	R	13	advmod
+cần	V	14	aux
+chú ý	V	10	conj
+mua	V	14	xcomp
+men	N	15	obj
+chứ	C	21	mark
+không	R	19	advmod:neg
+phải	V	21	aux
+bột	N	21	nsubj
+nở	V	14	conj
+hay	C	23	cc
+muối	N	21	obj
+nở	V	23	compound:vmod
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1115
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Còn dấm hay chanh có cho cũng được, không có không sao.
+Còn	C	2	advmod
+dấm	V	6	nsubj
+hay	C	4	cc
+chanh	V	2	conj
+có	R	6	advmod
+cho	V	0	root
+cũng	R	8	advmod
+được	V	6	advmod
+,	CH	11	punct
+không	R	11	advmod:neg
+có	V	6	conj
+không	R	13	advmod:neg
+sao	T	11	obj
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1116
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Các thứ khác như trứng, sữa, mật ong... đều không cần thiết"”", chị Trang cho hay.
+"	CH	14	punct
+Các	L	3	det
+thứ	N	14	nsubj
+khác	A	3	amod
+như	C	6	case
+trứng	N	3	appos:nmod
+,	CH	8	punct
+sữa	N	6	conj
+,	CH	10	punct
+mật ong	N	6	conj
+...	CH	6	punct
+đều	R	14	advmod
+không	R	14	advmod:neg
+cần thiết	A	0	root
+"	CH	16	punct
+”	CH	14	obj
+"	CH	16	punct
+,	CH	21	punct
+chị	Nc	20	det:clf
+Trang	Np	21	nsubj
+cho	V	14	parataxis
+hay	V	21	obj
+.	CH	14	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1117
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bà nội trợ này chia sẻ, để làm bánh mì, chị mua một túi bột mì số 13 với giá 25.000 đồng/kg.
+Bà	Nc	2	det:clf
+nội trợ	N	4	nsubj
+này	P	2	det:pmod
+chia sẻ	V	11	advcl
+,	CH	7	punct
+để	E	7	mark:pcomp
+làm	V	4	advcl:objective
+bánh mì	N	7	obj
+,	CH	11	punct
+chị	Nc	11	nsubj
+mua	V	0	root
+một	M	13	nummod
+túi	N	11	obj
+bột mì	N	13	nmod
+số	N	14	nmod
+13	M	15	compound
+với	E	18	case
+giá	N	11	obl
+25.000	M	20	nummod
+đồng	Nu	18	nmod
+/	CH	22	punct
+kg	Nu	20	nmod
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1118
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau đó, tranh thủ thời gian đang ở nhà giãn cách, chị nhồi và ủ bột.
+Sau	N	7	obl:tmod
+đó	P	1	det:pmod
+,	CH	1	punct
+tranh thủ	V	7	nsubj
+thời gian	N	7	nsubj
+đang	R	7	advmod
+ở	V	0	root
+nhà	N	7	obj
+giãn	V	10	case
+cách	N	7	obj
+,	CH	13	punct
+chị	Nc	13	det:clf
+nhồi	V	10	conj
+và	C	15	cc
+ủ	V	13	conj
+bột	N	15	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1119
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi đủ thời gian ủ, chị sẽ tạo hình bánh rồi ủ lần hai xong mới bắt đầu nướng bánh.
+Khi	N	8	obl:tmod
+đủ	A	3	advmod:adj
+thời gian	N	1	nmod
+ủ	V	3	compound:vmod
+,	CH	1	punct
+chị	Nc	8	nsubj
+sẽ	R	8	advmod
+tạo hình	V	0	root
+bánh	N	8	obj
+rồi	C	11	cc
+ủ	V	8	conj
+lần	N	11	obj
+hai	M	12	nummod
+xong	V	16	advmod
+mới	R	16	advmod
+bắt đầu	V	8	conj
+nướng	V	16	xcomp
+bánh	N	16	obl:comp
+.	CH	8	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1120
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Các công đoạn nhồi và ủ bột hai lần, tạo hình bánh mì khá đơn giản.
+Các	L	2	det
+công đoạn	N	13	nsubj
+nhồi	V	2	nmod
+và	C	5	cc
+ủ	V	3	conj
+bột	N	5	obj
+hai	M	8	nummod
+lần	N	5	obl
+,	CH	11	punct
+tạo hình	V	11	case
+bánh mì	N	13	nsubj
+khá	R	13	advmod
+đơn giản	A	0	root
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1121
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chỉ cần làm đúng theo như sách hướng dẫn là được.
+Chỉ	R	3	advmod
+cần	V	3	aux
+làm	V	0	root
+đúng	A	3	advmod:adj
+theo	V	3	xcomp
+như	C	7	case
+sách	N	3	obl
+hướng dẫn	V	7	compound:vmod
+là	V	10	mark
+được	R	3	advmod
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1122
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Làm bánh mì quan trọng nhất là khâu nướng bánh.
+Làm	V	6	csubj:vsubj
+bánh mì	N	1	obj
+quan trọng	A	2	amod
+nhất	R	3	advmod
+là	V	6	cop
+khâu	N	0	root
+nướng	V	6	nmod
+bánh	N	7	nmod
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1123
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bởi muốn vỏ giòn, khi nướng phải có nhiều hơi nước và nhiệt phải cao.
+Bởi	C	2	mark
+muốn	V	9	advcl
+vỏ	N	9	obl
+giòn	N	3	nmod
+,	CH	9	punct
+khi	N	9	obl:tmod
+nướng	V	6	det:pmod
+phải	V	9	aux
+có	V	0	root
+nhiều	A	11	advmod:adj
+hơi nước	N	9	obj
+và	C	15	cc
+nhiệt	N	15	nsubj
+phải	V	15	aux
+cao	A	11	conj
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1124
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Như nhà mình dùng lò nướng Trung Quốc, nhiệt chỉ đến được 230oC và tụt rất nhiều khi mở cửa lò.
+Như	C	4	mark
+nhà	N	11	obl
+mình	P	2	nmod
+dùng	V	11	advcl
+lò	N	4	obj
+nướng	V	7	case
+Trung Quốc	Np	5	nmod
+,	CH	11	punct
+nhiệt	N	11	nsubj
+chỉ	R	11	advmod
+đến	V	0	root
+được	R	11	advmod
+230	V	14	nummod
+oC	N	11	obj
+và	C	16	cc
+tụt	V	14	conj
+rất	R	18	advmod
+nhiều	A	19	advmod:adj
+khi	N	11	obl:tmod
+mở	V	19	acl:subj
+cửa lò	N	20	obj
+.	CH	11	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1125
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Mình phải làm nóng lò trước khoảng 45-60 phút rồi mới đưa bánh vào", chị nói.
+"	CH	4	punct
+Mình	P	4	nsubj
+phải	V	4	aux
+làm	V	0	root
+nóng	A	4	acomp
+lò	N	4	obj
+trước	E	8	case
+khoảng	N	4	obl
+45-60	M	10	nummod
+phút	Nu	8	nmod
+rồi	C	13	cc
+mới	R	13	advmod
+đưa	V	4	conj
+bánh	N	13	obj
+vào	E	13	advmod:dir
+"	CH	4	punct
+,	CH	19	punct
+chị	Nc	19	nsubj
+nói	V	4	parataxis
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1126
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Những chiếc bánh mì không khác gì nhà hàng
+Những	L	3	det
+chiếc	Nc	1	clf
+bánh mì	N	5	nsubj
+không	R	5	advmod:neg
+khác	A	0	root
+gì	P	5	advmod
+nhà hàng	N	5	obj
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1127
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Làm bánh mỳ rất dễ dàng.
+Làm	V	5	csubj:vsubj
+bánh	N	1	obj
+mỳ	N	2	nmod
+rất	R	5	advmod
+dễ dàng	A	0	root
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1128
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Ngoài ra, nên giảm bới lượng nước sôi đổ vào khay nướng.
+Ngoài ra	C	9	cc
+,	CH	9	punct
+nên	C	4	mark
+giảm	V	9	nsubj
+bới	N	4	xcomp
+lượng	N	5	obj
+nước	N	6	nmod
+sôi	V	7	amod
+đổ	V	0	root
+vào	E	11	case
+khay	N	9	obl:comp
+nướng	V	11	compound
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1129
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Đặc biệt, cần phải nướng ở nhiệt cao trong thời gian đầu, khi bánh cứng và bắt đàu ngả vàng mới hạ nhiệt nướng cho vỏ giòn”, chị Trang tiết lộ bí quyết nướng bánh.
+"	CH	5	punct
+Đặc biệt	A	6	mark
+,	CH	2	punct
+cần	V	6	aux
+phải	V	6	aux
+nướng	V	0	root
+ở	E	8	case
+nhiệt	N	6	obl
+cao	A	8	amod
+trong	E	11	case
+thời gian	N	6	obl
+đầu	N	11	nmod
+,	CH	14	punct
+khi	N	33	obl:tmod
+bánh	N	14	nmod
+cứng	A	15	compound
+và	C	18	cc
+bắt	V	14	conj
+đàu	N	18	obj
+ngả	P	18	obj
+vàng	N	20	compound
+mới	R	23	advmod
+hạ	V	14	acl:tmod
+nhiệt	N	23	obj
+nướng	V	24	nmod
+cho	E	27	case
+vỏ	N	23	obl:comp
+giòn	N	27	nmod
+”	CH	28	compound
+,	CH	33	punct
+chị	Nc	32	det:clf
+Trang	Np	33	nsubj
+tiết lộ	V	4	parataxis
+bí quyết	N	33	obj
+nướng	V	36	case
+bánh	N	33	obl
+.	CH	33	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1130
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Để có những mẻ bánh mì nướng tại gia thơm ngon chẳng kém ngoài hàng, bà nội trợ này lưu ý: “Khi bánh nướng xong để nguội là phải cho vào túi luôn”.
+Để	E	2	mark:pcomp
+có	V	18	advcl:objective
+những	L	4	det
+mẻ	N	2	obj
+bánh mì	N	4	nmod
+nướng	V	4	nmod
+tại gia	N	5	nmod
+thơm	A	7	compound
+ngon	A	8	amod
+chẳng	R	11	advmod:neg
+kém	A	8	conj
+ngoài	E	13	case
+hàng	N	11	obl
+,	CH	18	punct
+bà	Nc	16	det:clf
+nội trợ	N	18	nsubj
+này	P	16	det:pmod
+lưu ý	V	0	root
+:	CH	28	punct
+“	CH	28	punct
+Khi	N	28	obl:tmod
+bánh nướng	V	21	acl:tmod
+xong	V	22	amod
+để	E	28	mark:pcomp
+nguội	V	24	obj
+là	C	28	mark
+phải	V	28	aux
+cho	V	18	parataxis
+vào	E	30	case
+túi	N	28	obl:comp
+luôn	R	32	advmod
+”	CH	28	xcomp
+.	CH	18	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1131
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tuyệt đối không để bên ngoài quá lâu vì không khí tác động sẽ khiến bánh khô nhanh”.
+Tuyệt đối	A	3	advmod
+không	R	3	advmod:neg
+để	V	0	root
+bên	N	5	case
+ngoài	A	3	obl:comp
+quá	R	7	advmod
+lâu	A	3	advmod:adj
+vì	E	12	mark
+không khí	N	12	nsubj
+tác động	A	9	nmod
+sẽ	R	12	advmod
+khiến	V	3	advcl
+bánh	N	12	obj
+khô	A	13	amod
+nhanh	A	13	amod
+”	CH	15	obj
+.	CH	3	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1132
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Chị Trang nhẩm tính, 1 kg bột mì chị làm được 15-17 cái bánh mì, loại giá 5.000 đồng/chiếc đang bán trên thị trường.
+Chị	Nc	2	det:clf
+Trang	Np	10	nsubj
+nhẩm	V	4	nummod
+tính	N	0	root
+,	CH	10	punct
+1	M	7	nummod
+kg	Nu	10	nsubj
+bột mì	N	10	punct
+chị	Nc	10	nsubj
+làm	V	4	parataxis
+được	R	10	advmod
+15-17	V	14	nummod
+cái	Nc	12	clf
+bánh mì	N	10	obj
+,	CH	17	punct
+loại	N	17	det:clf
+giá	N	14	conj
+5.000	M	19	nummod
+đồng	Nu	17	nmod
+/	CH	21	punct
+chiếc	Nc	19	nmod
+đang	R	23	advmod
+bán	V	17	acl:subj
+trên	E	25	case
+thị trường	N	23	obl:comp
+.	CH	4	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1133
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Tính ra, nếu nhà có 4 người sẽ ăn đủ trong 4 bữa sáng.
+Tính	V	10	advcl
+ra	V	1	advmod
+,	CH	10	punct
+nếu	C	6	mark
+nhà	N	10	nsubj
+có	V	10	advcl
+4	M	8	nummod
+người	N	6	obj
+sẽ	R	10	advmod
+ăn	V	0	root
+đủ	A	10	advmod:adj
+trong	E	14	case
+4	M	14	nummod
+bữa	N	10	obl
+sáng	N	14	nmod
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1134
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Khi ăn, chỉ cần kẹp bánh với trứng, xúc xích, thịt ba chỉ nướng hoặc chấm sữa đặc có đường là đã có bữa sáng chất lượng, giá thành quá rẻ so với mua bên ngoài.
+Khi	N	23	obl:tmod
+ăn	V	1	acl:tmod
+,	CH	1	punct
+chỉ	R	5	advmod
+cần	V	23	advcl
+kẹp	V	7	nummod
+bánh	N	5	obj
+với	E	9	case
+trứng	N	7	nmod
+,	CH	11	punct
+xúc xích	N	9	conj
+,	CH	13	punct
+thịt	N	9	conj
+ba chỉ	N	13	nmod
+nướng	V	9	conj
+hoặc	C	17	cc
+chấm	V	9	conj
+sữa đặc	N	17	compound
+có	V	17	acl:subj
+đường	N	19	obj
+là	C	23	mark
+đã	R	23	advmod
+có	V	0	root
+bữa	N	23	obj
+sáng	N	24	nmod
+chất lượng	N	25	nmod
+,	CH	30	punct
+giá thành	N	30	nsubj
+quá	R	30	advmod
+rẻ	A	23	conj
+so	V	30	xcomp
+với	E	33	case
+mua	V	30	obl
+bên	N	33	nmod
+ngoài	N	34	compound
+.	CH	23	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1135
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cứ một tuần mình làm một mẻ bánh mì để cả nhà ăn dần trong 4-5 ngày.
+Cứ	R	3	advmod
+một	M	3	nummod
+tuần	N	5	obl:tmod
+mình	P	5	nsubj
+làm	V	0	root
+một mẻ	V	7	det:clf
+bánh mì	N	5	obj
+để	E	5	xcomp
+cả	T	10	det
+nhà ăn	N	8	obj
+dần	R	10	advmod
+trong	E	14	case
+4-5	N	14	nummod
+ngày	N	8	obj
+.	CH	5	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1136
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Khi ăn, chỉ cần làm nóng lại trong lò hay nồi chiên không dầu, nhiệt 180 độ C khoảng 3-4 phút hoặc đến khi vỏ bánh giòn là được", chị Trang nói.
+"	CH	7	punct
+Khi	N	7	obl:tmod
+ăn	V	2	det:pmod
+,	CH	7	punct
+chỉ	R	6	advmod
+cần	V	7	aux
+làm	V	0	root
+nóng	A	7	acomp
+lại	V	8	advmod
+trong	E	11	case
+lò	N	8	obl
+hay	C	13	punct
+nồi	N	11	conj
+chiên	V	13	nmod
+không	R	16	advmod:neg
+dầu	N	13	nmod
+,	CH	22	punct
+nhiệt	N	22	nsubj:nn
+180	V	18	nmod
+độ	N	19	nmod
+C	Np	20	compound
+khoảng	A	7	conj
+3-4	M	24	nummod
+phút	Nu	22	nmod
+hoặc	C	27	cc
+đến	E	27	case
+khi	N	22	obl:tmod
+vỏ	N	32	nsubj
+bánh	N	28	nmod
+giòn	V	29	nmod
+là	V	32	cop
+được	V	27	acl:tmod
+"	CH	7	punct
+,	CH	37	punct
+chị	Nc	36	det:clf
+Trang	Np	37	nsubj
+nói	V	6	parataxis
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1137
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bánh mỳ ăn thay cơm trong mùa dịch vừa đổi món dễ ăn cho cả gia đình.
+Bánh	N	3	nsubj
+mỳ	N	1	nmod
+ăn	V	10	csubj
+thay	V	3	xcomp
+cơm	N	4	obj
+trong	E	7	case
+mùa	N	3	obl
+dịch	N	7	compound
+vừa	R	10	advmod
+đổi	V	0	root
+món	N	12	det:clf
+dễ ăn	V	10	obj
+cho	E	15	case
+cả	P	15	det
+gia đình	N	10	obl:comp
+.	CH	10	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1138
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Cũng là một bà nội trợ vụng về, trước dịch Covid-19 chị Lê Thị Yến ở Hà Đông, chẳng biết làm bất cứ một món bánh nào.
+Cũng	R	5	advmod
+là	V	5	cop
+một	M	5	nummod
+bà	Nc	3	clf
+nội trợ	V	17	advcl
+vụng về	A	5	nmod
+,	CH	9	punct
+trước	E	9	case
+dịch	N	17	obl
+Covid-19	Np	9	compound
+chị	Nc	9	nmod
+Lê Thị Yến	Np	11	compound
+ở	E	14	case
+Hà Đông	Np	12	nmod
+,	CH	17	punct
+chẳng	R	17	advmod:neg
+biết	V	0	root
+làm	V	17	xcomp
+bất cứ	R	18	advmod
+một	M	22	nummod
+món	Nc	20	clf
+bánh	N	18	obj
+nào	T	22	det:pmod
+.	CH	17	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1139
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Nhưng từ khi thất nghiệp ở nhà, chị Yến tập tành tự làm giá đỗ, tự muối dưa, cà và làm cả bánh mì cho mọi người ăn.
+Nhưng	C	12	mark
+từ	E	3	case
+khi	N	12	obl:tmod
+thất nghiệp	V	3	acl:tmod
+ở	E	6	case
+nhà	N	4	obl
+,	CH	12	punct
+chị	Nc	9	det:clf
+Yến	Np	12	nsubj
+tập tành	V	12	nsubj
+tự	P	12	advmod
+làm giá	V	0	root
+đỗ	V	12	obj
+,	CH	16	punct
+tự	P	16	advmod
+muối dưa	V	12	conj
+,	CH	18	punct
+cà	N	12	conj
+và	C	20	cc
+làm	V	12	conj
+cả	T	22	det
+bánh mì	N	20	obj
+cho	E	25	case
+mọi	L	25	det
+người	N	20	obl:iobj
+ăn	V	25	acl:subj
+.	CH	12	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1140
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Đang giãn cách nên mình hạn chế ra ngoài.
+Đang	R	2	advmod
+giãn	V	7	advcl
+cách	N	7	advcl
+nên	C	7	mark
+mình	P	7	nsubj
+hạn chế	V	7	advmod
+ra	V	0	root
+ngoài	N	7	obj
+.	CH	7	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1141
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hơn nữa, các hàng bán đồ ăn sáng cũng không mở cửa nên buộc mình phải tự nấu nướng.
+Hơn nữa	C	11	mark
+,	CH	1	punct
+các	L	4	det
+hàng	N	5	nsubj
+bán	V	11	csubj
+đồ	N	5	obj
+ăn	V	5	xcomp
+sáng	N	7	obj
+cũng	R	11	advmod
+không	R	11	advmod:neg
+mở cửa	V	0	root
+nên	C	13	mark
+buộc	V	11	conj
+mình	P	13	obj
+phải	V	17	aux
+tự	P	17	advmod
+nấu nướng	V	13	ccomp
+.	CH	13	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1142
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Hôm trước con trai nói chán bún, phở, xôi và thèm bánh mì mà không biết mua ở đâu, mình lên mạng tra Google và vào các hội nhóm dạy làm bánh để xin công thức, tự làm.
+Hôm	N	4	obl:tmod
+trước	N	1	compound
+con trai	N	4	nsubj
+nói	V	0	root
+chán	V	4	obj
+bún	N	5	nmod
+,	CH	8	punct
+phở	N	6	conj
+,	CH	10	punct
+xôi	N	6	conj
+và	C	12	cc
+thèm	V	4	conj
+bánh mì	N	12	obj
+mà	C	16	mark
+không	R	16	advmod:neg
+biết	V	4	conj
+mua	V	16	xcomp
+ở	E	19	case
+đâu	P	17	obl:comp
+,	CH	22	punct
+mình	P	22	nsubj
+lên	V	4	parataxis
+mạng tra	N	22	obj
+Google	Np	23	compound
+và	C	26	cc
+vào	E	22	conj
+các	L	28	det
+hội	N	26	obj
+nhóm	N	28	compound
+dạy	V	29	compound
+làm	V	30	xcomp
+bánh	N	31	obj
+để	E	34	mark:pcomp
+xin	V	26	advcl:objective
+công thức	V	34	obj
+,	CH	38	punct
+tự	P	38	advmod
+làm	V	34	conj
+.	CH	22	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1143
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = "Được nhiều chị em chỉ bảo tận tình, chẳng ngờ mình thành công ngay từ mẻ bánh đầu tiên", chị Yến khoe.
+"	CH	6	punct
+Được	V	6	advmod
+nhiều	A	4	advmod:adj
+chị em	N	6	nsubj
+chỉ	R	6	advmod
+bảo	V	0	root
+tận tình	A	6	advmod
+,	CH	11	punct
+chẳng ngờ	N	11	nsubj
+mình	P	11	nsubj
+thành công	V	6	parataxis
+ngay	T	11	advmod
+từ	E	14	case
+mẻ	N	11	obl:comp
+bánh	N	14	nmod
+đầu tiên	A	15	amod
+"	CH	6	punct
+,	CH	21	punct
+chị	Nc	20	det:clf
+Yến	Np	21	nsubj
+khoe	V	6	parataxis
+.	CH	6	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1144
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Sau mỗi lần làm bánh mì, chị thường để trong túi giấy và dùng được khoảng 4-5 bữa.
+Sau	N	3	case
+mỗi	L	3	det
+lần	N	9	obl:tmod
+làm	V	3	acl
+bánh mì	N	4	obj
+,	CH	9	punct
+chị	Nc	9	nsubj
+thường	R	9	advmod
+để	E	0	root
+trong	E	11	case
+túi	N	9	obl:comp
+giấy	N	11	nmod
+và	C	14	cc
+dùng	V	9	conj
+được	V	14	advmod
+khoảng	N	14	obj
+4-5	M	18	nummod
+bữa	N	16	nmod
+.	CH	9	punct
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1145
+# type = bronze
+# authors = underthesea.v1.3.2
+# text = Bánh ăn thay cơm trong mùa dịch, vừa đổi món dễ ăn cho cả gia đình.
+Bánh	N	10	nsubj
+ăn	V	1	acl:subj
+thay	V	2	xcomp
+cơm	N	3	obj
+trong	E	6	case
+mùa	N	3	obl
+dịch	N	6	compound
+,	CH	10	punct
+vừa	R	10	advmod
+đổi	V	0	root
+món	N	10	obj
+dễ ăn	V	10	obj
+cho	E	15	case
+cả	P	15	det
+gia đình	N	10	obl:comp
+.	CH	10	punct
