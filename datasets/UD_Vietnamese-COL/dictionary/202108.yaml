@@ -475,25 +475,67 @@ hàng rào:
 - tag: N
 hàng xóm:
 - tag: N
+hạ viện:
+- tag: N
+hạnh phúc:
+- tag: N
+hạt:
+- tag: N
 hậu quả:
+- tag: N
+hậu vệ:
+- tag: N
+hệ thống:
+- tag: N
+học kỳ:
+- tag: N
+học phí:
+- tag: N
+học sinh:
 - tag: N
 học trò:
 - tag: N
 học viên:
 - tag: N
+họng:
+- tag: N
+hồ:
+- tag: N
 hồ sơ:
+- tag: N
+hồi:
+- tag: N
+hồi giáo:
+- tag: N
+hộ:
+- tag: N
+hội:
 - tag: N
 hội đồng:
 - tag: N
 hợp đồng:
 - tag: N
+kem:
+- tag: N
+kho:
+- tag: N
+khoa:
+- tag: N
 khoa học:
 - tag: N
+khoản:
+- tag: N
+khoảng:
+- tag: N
 khoảng cách:
+- tag: N
+khu:
 - tag: N
 khu phố:
 - tag: N
 khu vực:
+- tag: N
+khung:
 - tag: N
 khuôn khổ:
 - tag: N
@@ -505,6 +547,10 @@ khách hàng:
 - tag: N
 khán giả:
 - tag: N
+kháng nguyên:
+- tag: N
+khâu:
+- tag: N
 khía cạnh:
 - tag: N
 khó chịu:
@@ -515,16 +561,22 @@ không gian:
 - tag: N
 khăn:
 - tag: N
+khả năng:
+- tag: N
 khẩu hiệu:
 - tag: N
 khẩu trang:
 - tag: N
 khốc liệt:
 - tag: A
+khối:
+- tag: N
 khổ sở:
 - tag: A
 khổng lồ:
 - tag: A
+khớp:
+- tag: N
 khủng hoảng:
 - tag: N
 khủng khiếp:
@@ -541,35 +593,107 @@ kiến thức:
 - tag: N
 kiến trúc sư:
 - tag: N
+kiểu:
+- tag: N
 kém:
 - tag: A
 kích thước:
+- tag: N
+kính:
 - tag: N
 kế hoạch:
 - tag: N
 kết quả:
 - tag: N
+kệ:
+- tag: N
 kỹ:
 - tag: A
 kỹ lưỡng:
 - tag: A
+kỹ năng:
+- tag: N
+kỹ sư:
+- tag: N
+kỹ thuật:
+- tag: N
 kỹ thuật viên:
 - tag: N
 la liệt:
 - tag: A
 lao động:
 - tag: N
+linh hồn:
+- tag: N
+loài:
+- tag: N
+loại:
+- tag: N
+luật:
+- tag: N
+luật sư:
+- tag: N
+luồng:
+- tag: N
 làn sóng:
+- tag: N
+làng:
+- tag: N
+lá:
 - tag: N
 lâu:
 - tag: A
 lâu đời:
 - tag: A
+lãnh thổ:
+- tag: N
+lãnh đạo:
+- tag: N
+lí do:
+- tag: N
+lính:
+- tag: N
+lòng:
+- tag: N
+lòng chảo:
+- tag: N
+lông mi:
+- tag: N
+lúa mì:
+- tag: N
+lúc:
+- tag: N
+lý do:
+- tag: N
+lý giải:
+- tag: N
+lý lịch:
+- tag: N
+lĩnh vực:
+- tag: N
+lũ:
+- tag: N
+lưng:
+- tag: N
 lưu lượng:
+- tag: N
+lương:
 - tag: N
 lương thực:
 - tag: N
 lưới:
+- tag: N
+lượng:
+- tag: N
+lượt:
+- tag: N
+lần:
+- tag: N
+lề đường:
+- tag: N
+lễ:
+- tag: N
+lịch:
 - tag: N
 lịch sử:
 - tag: N
@@ -587,6 +711,8 @@ lời:
 - tag: N
 lời nói:
 - tag: N
+lợi:
+- tag: N
 lợi nhuận:
 - tag: N
 lợi thế:
@@ -603,11 +729,19 @@ miệng:
 - tag: N
 muộn:
 - tag: A
+màng:
+- tag: N
+màu:
+- tag: N
 màu da:
 - tag: N
 màu sắc:
 - tag: N
+mái:
+- tag: N
 máu:
+- tag: N
+máy:
 - tag: N
 máy bay:
 - tag: N
@@ -615,11 +749,25 @@ máy móc:
 - tag: N
 máy tính:
 - tag: N
+mã:
+- tag: N
+mép:
+- tag: N
+món:
+- tag: N
 môi trường:
 - tag: N
 môn:
 - tag: N
 môn học:
+- tag: N
+mông:
+- tag: N
+mùa:
+- tag: N
+mùi:
+- tag: N
+mũi:
 - tag: N
 mưa lũ:
 - tag: N
@@ -671,17 +819,29 @@ mồ hôi:
 - tag: N
 mồi:
 - tag: N
+một cách:
+- tag: N
 mới:
 - tag: A
+mục:
+- tag: N
 mục tiêu:
 - tag: N
 mục đích:
+- tag: N
+mức:
 - tag: N
 mỹ thuật:
 - tag: N
 nam:
 - tag: N
 nam giới:
+- tag: N
+nghi lễ:
+- tag: N
+nghiệp vụ:
+- tag: N
+nghề:
 - tag: N
 nghề nghiệp:
 - tag: N
@@ -707,6 +867,7 @@ nguy cơ:
 - tag: N
 nguy hiểm:
 - tag: A
+- tag: N
 nguyên liệu:
 - tag: N
 nguyên nhân:
@@ -720,6 +881,14 @@ nguồn:
 nguồn gốc:
 - tag: N
 ngành:
+- tag: N
+ngày:
+- tag: N
+ngày mai:
+- tag: N
+ngày nay:
+- tag: N
+ngân hàng:
 - tag: N
 ngóc ngách:
 - tag: N
@@ -735,8 +904,40 @@ người:
 - tag: N
 người bệnh:
 - tag: N
+ngưỡng:
+- tag: N
 ngắn:
 - tag: A
+ngữ pháp:
+- tag: N
+ngữ văn:
+- tag: N
+ngực:
+- tag: N
+nhang:
+- tag: N
+nhau:
+- tag: N
+nhiên liệu:
+- tag: N
+nhiệm kỳ:
+- tag: N
+nhiệm vụ:
+- tag: N
+nhiệt độ:
+- tag: N
+nhu cầu:
+- tag: N
+nhà:
+- tag: N
+nhà nước:
+- tag: N
+nhà thầu:
+- tag: N
+nhà trường:
+- tag: N
+nhà xưởng:
+- tag: N
 nhân dân:
 - tag: N
 nhân khẩu:
