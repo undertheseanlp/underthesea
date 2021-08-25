@@ -1,3 +1,4 @@
+from os import listdir
 from os.path import dirname, join
 import pandas as pd
 import yaml
@@ -66,8 +67,13 @@ if __name__ == '__main__':
     current_df = dictionary.to_df()
 
     # ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
-    ud_file = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA", "wiki_00")
-    ud_dataset = UDDataset.load(ud_file)
+    ud_folder = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA")
+    sentences = []
+    for file in listdir(ud_folder)[:20]:
+        ud_file = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA", file)
+        ud_dataset = UDDataset.load(ud_file)
+        sentences += ud_dataset.sentences
+    ud_dataset = UDDataset(sentences)
     rows = [s.rows for s in ud_dataset]
     rows = [[row[0].lower(), row[1]] for sublist in rows for row in sublist]
     ud_df = pd.DataFrame(rows, columns=['token', 'pos'])
