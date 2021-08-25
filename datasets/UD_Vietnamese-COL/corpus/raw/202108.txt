@@ -5422,3 +5422,303 @@ Chiếc tủ kệ trưng bày nước hoa bằng chất liệu thép, chia ngăn
 # date = 20210822
 # sent_id = 1085
 Đặc biệt màu sắc rất hợp tông với nhà.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1086
+Đề xuất tăng lương hưu từ đầu năm 2022
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1087
+Sau khi ghi nhận góp ý của các bộ ngành liên quan, Bộ LĐ-TB&XH đã giảm mức đề xuất tăng lương hưu, trợ cấp hàng tháng xuống còn 11%, thay vì mức đề xuất trước đó là 15%, do ảnh hưởng của dịch Covid-19...
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1088
+Ngày 20/8, Bộ LĐ-TB&XH đã có tờ trình Chính phủ về điều chỉnh lương hưu, trợ cấp bảo hiểm xã hội và trợ cấp hàng tháng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1089
+Bộ này đề xuất thời điểm điều chỉnh tăng từ ngày 1/1/2022.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1090
+Bộ LĐ-TB&XH đề xuất mức tăng là 11% với hưu và trợ cấp hàng tháng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1091
+Mức đề xuất trình Chính phủ lần này giảm 4% so với tờ trình trước đó (trước trình tăng 15%).
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1092
+Cơ quan đề xuất lý giải, lần gần nhất tăng lương hưu là năm 2019, từ đó tới nay (3 năm) chỉ số giá tiêu dùng tăng 10,3%, GDP bình quân tăng 5,5%/năm, tổng mức tăng khoảng 15%.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1093
+Tuy nhiên, trong bối cảnh dịch COVID-19, Chính phủ cần ưu tiên nguồn lực tài chính cho phòng chống dịch, nên Bộ LĐ-TB&XH đề xuất chỉ tăng lương hưu 11%.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1094
+Lần điều chỉnh lương hưu và trợ cấp hàng tháng này chia thành 2 nhóm.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1095
+Cụ thể, tăng 11% mức lương hưu, trợ cấp bảo hiểm xã hội và trợ cấp hàng tháng với người nhận lương hưu trước ngày 1/1/2022.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1096
+Với người hưởng lương hưu, trợ cấp hàng tháng trước ngày 1/1/1995, sau tăng thêm 11%, nếu mức lương, trợ cấp vẫn dưới 2,5 triệu đồng/tháng sẽ được tăng thêm.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1097
+Với người có lương hưu, trợ cấp từ 2,3 triệu đồng/tháng trở xuống sẽ được tăng bù thêm 200 nghìn đồng/người/tháng; với người có lương hưu, trợ cấp hàng tháng từ 2,3 đến dưới 2,5 triệu đồng/tháng sẽ được tăng thêm để đạt mức 2,5 triệu đồng/tháng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1098
+Dự kiến sẽ có khoảng 318.000 người thuộc diện điều chỉnh tăng bổ sung, kinh phí trong năm 2022 khoảng 573 tỷ đồng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1099
+Thực hiện theo phương án trên, dự kiến sẽ có khoảng 868.000 người điều chỉnh tăng lương hưu, trợ cấp hàng tháng do ngân sách nhà nước đảm bảo, với tổng kinh phí trong năm 2022 khoảng 4.625 tỷ đồng;
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/tu-van-tai-chinh/de-xuat-tang-luong-huu-tu-2022-768427.html
+# date = 20210823
+# sent_id = 1100
+Có khoảng 2,13 triệu người điều chỉnh tăng lương hưu, trợ cấp hàng tháng từ Quỹ bảo hiểm xã hội chi trả, với kinh phí tăng thêm trong năm 2022 khoảng 14.700 tỷ đồng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1101
+Ở nhà rỗi quá, chị em Hà thành mở lò bánh mỳ tại gia
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1102
+Dịch bệnh ập đến khiến nhiều bà nội trợ phải cân đối chi tiêu, nhất là tiền mua thực phẩm thiết yếu, để có quỹ dự phòng chống dịch.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1103
+Nhiều chị em đua nhau hết làm giá đỗ lại chuyển sang làm bánh mì để tiết kiệm.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1104
+Hà Nội cùng một số địa phương đang trong thời gian thực hiện giãn cách xã hội.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1105
+Nhiều người lao động buộc phải làm online hoặc tạm nghỉ việc, thời gian ở nhà nhiều hơn.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1106
+Để hạn chế ra chợ hay ra đường mua thực phẩm, nhiều bà nội trợ đã chia sẻ cho nhau cách làm bánh mỳ đơn giản, tạo nguồn thực phẩm sẵn, sạch cho cả gia đình, vừa tiện lợi mà lại tiết kiệm.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1107
+Hai tuần trước, chị Phạm Thị Trang ở Gia Lâm, Hà Nội, khi đi siêu thị mua thực phẩm thiết yếu, nhìn thấy túi bột mì nên chị nghĩ ngay tới chuyện tự mày mò làm thử bánh mì ở nhà xem sao.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1108
+Chị Trang cho biết, trước đây khi chưa học làm bánh mì, chị thấy rất khó và phức tạp.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1109
+Tuy nhiên khi thử vài lần, chị thấy làm bánh mỳ rất dễ.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1110
+Chưa kể, nguyên liệu làm loại bánh này đơn giản, dễ mua, dễ tìm và không hề tốn kém.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1111
+Nhiều chị em đua nhau làm bánh mỳ để tiết kiệm tiền ăn.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1112
+Thực tế, nguyên liệu để làm bánh mì vỏ giòn kiểu Việt Nam không cần nhiều, chỉ cần bột, nước lã, muối, đường, men nở.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1113
+Trong đó, bột mì số 13 hay 11 và men nở có thể mua tại các cửa hàng bán đồ khô ở chợ, cửa hàng tạp hóa, siêu thị hoặc đặt mua từ các cửa hàng bán nguyên liệu làm bánh.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1114
+Còn men dùng nhãn đỏ hay nhãn vàng đều được, chỉ cần chú ý mua men chứ không phải bột nở hay muối nở.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1115
+Còn dấm hay chanh có cho cũng được, không có không sao.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1116
+"Các thứ khác như trứng, sữa, mật ong... đều không cần thiết"”", chị Trang cho hay.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1117
+Bà nội trợ này chia sẻ, để làm bánh mì, chị mua một túi bột mì số 13 với giá 25.000 đồng/kg.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1118
+Sau đó, tranh thủ thời gian đang ở nhà giãn cách, chị nhồi và ủ bột.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1119
+Khi đủ thời gian ủ, chị sẽ tạo hình bánh rồi ủ lần hai xong mới bắt đầu nướng bánh.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1120
+Các công đoạn nhồi và ủ bột hai lần, tạo hình bánh mì khá đơn giản.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1121
+Chỉ cần làm đúng theo như sách hướng dẫn là được.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1122
+Làm bánh mì quan trọng nhất là khâu nướng bánh.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1123
+Bởi muốn vỏ giòn, khi nướng phải có nhiều hơi nước và nhiệt phải cao.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1124
+Như nhà mình dùng lò nướng Trung Quốc, nhiệt chỉ đến được 230oC và tụt rất nhiều khi mở cửa lò.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1125
+"Mình phải làm nóng lò trước khoảng 45-60 phút rồi mới đưa bánh vào", chị nói.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1126
+Những chiếc bánh mì không khác gì nhà hàng
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1127
+Làm bánh mỳ rất dễ dàng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1128
+Ngoài ra, nên giảm bới lượng nước sôi đổ vào khay nướng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1129
+"Đặc biệt, cần phải nướng ở nhiệt cao trong thời gian đầu, khi bánh cứng và bắt đàu ngả vàng mới hạ nhiệt nướng cho vỏ giòn”, chị Trang tiết lộ bí quyết nướng bánh.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1130
+Để có những mẻ bánh mì nướng tại gia thơm ngon chẳng kém ngoài hàng, bà nội trợ này lưu ý: “Khi bánh nướng xong để nguội là phải cho vào túi luôn”.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1131
+Tuyệt đối không để bên ngoài quá lâu vì không khí tác động sẽ khiến bánh khô nhanh”.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1132
+Chị Trang nhẩm tính, 1 kg bột mì chị làm được 15-17 cái bánh mì, loại giá 5.000 đồng/chiếc đang bán trên thị trường.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1133
+Tính ra, nếu nhà có 4 người sẽ ăn đủ trong 4 bữa sáng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1134
+Khi ăn, chỉ cần kẹp bánh với trứng, xúc xích, thịt ba chỉ nướng hoặc chấm sữa đặc có đường là đã có bữa sáng chất lượng, giá thành quá rẻ so với mua bên ngoài.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1135
+Cứ một tuần mình làm một mẻ bánh mì để cả nhà ăn dần trong 4-5 ngày.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1136
+"Khi ăn, chỉ cần làm nóng lại trong lò hay nồi chiên không dầu, nhiệt 180 độ C khoảng 3-4 phút hoặc đến khi vỏ bánh giòn là được", chị Trang nói.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1137
+Bánh mỳ ăn thay cơm trong mùa dịch vừa đổi món dễ ăn cho cả gia đình.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1138
+Cũng là một bà nội trợ vụng về, trước dịch Covid-19 chị Lê Thị Yến ở Hà Đông, chẳng biết làm bất cứ một món bánh nào.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1139
+Nhưng từ khi thất nghiệp ở nhà, chị Yến tập tành tự làm giá đỗ, tự muối dưa, cà và làm cả bánh mì cho mọi người ăn.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1140
+Đang giãn cách nên mình hạn chế ra ngoài.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1141
+Hơn nữa, các hàng bán đồ ăn sáng cũng không mở cửa nên buộc mình phải tự nấu nướng.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1142
+Hôm trước con trai nói chán bún, phở, xôi và thèm bánh mì mà không biết mua ở đâu, mình lên mạng tra Google và vào các hội nhóm dạy làm bánh để xin công thức, tự làm.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1143
+"Được nhiều chị em chỉ bảo tận tình, chẳng ngờ mình thành công ngay từ mẻ bánh đầu tiên", chị Yến khoe.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1144
+Sau mỗi lần làm bánh mì, chị thường để trong túi giấy và dùng được khoảng 4-5 bữa.
+
+# doc_url = https://vietnamnet.vn/vn/kinh-doanh/thi-truong/ba-noi-tro-dua-nhau-lam-banh-my-de-tiet-kiem-ngay-gian-cach-767904.html
+# date = 20210823
+# sent_id = 1145
+Bánh ăn thay cơm trong mùa dịch, vừa đổi món dễ ăn cho cả gia đình.
