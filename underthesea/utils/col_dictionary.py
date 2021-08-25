@@ -1,8 +1,8 @@
 from os.path import dirname, join
 import pandas as pd
 import yaml
-
 from underthesea.file_utils import UNDERTHESEA_FOLDER
+from underthesea.utils.col_external_dictionary import Cache, VLSPDictionary
 from underthesea.utils.col_script import UDDataset
 
 PROJECT_FOLDER = dirname(dirname(dirname(__file__)))
@@ -77,12 +77,42 @@ if __name__ == '__main__':
         ["N", "noun"],
         ["A", "adjective"]
     ]
+    vlsp_cache_file = join(DICTIONARY_FOLDER, "data", "vlsp_cache.bin")
+    vlsp_cache = Cache.load(vlsp_cache_file)
+
     for pos_label, pos_full_name in pos:
         ud_df_sub = ud_df[ud_df["pos"].isin([pos_label])]
-        ud_df_sub = ud_df_sub.groupby(["token", "pos"]).size().reset_index(name='count').sort_values("count", ascending=False)
+        ud_df_sub = ud_df_sub.groupby(["token", "pos"]).size().reset_index(name='count').sort_values("count",
+                                                                                                     ascending=False)
 
         df = pd.merge(ud_df_sub, current_df, on=['token', 'pos'], how='outer', indicator=True)
         df = df[df['_merge'] == 'left_only']
         df = df[['token', 'pos', 'count']]
         df['verify'] = ''
-        df.to_excel(join(DICTIONARY_FOLDER, "data", f"words_{pos_full_name}_candidates.xlsx"), index=False)
+        all_tokens = [item['token'] for i, item in df.iterrows()]
+
+        tokens = [token for token in all_tokens if not vlsp_cache.contains(token)]
+        MAX_ITEMS = 20
+        words_data = VLSPDictionary.lookups(tokens[:MAX_ITEMS], n_workers=5)
+        for token, word in zip(tokens, words_data):
+            vlsp_cache.add(token, word)
+
+        words = [vlsp_cache.get(token) for token in all_tokens]
+
+        def check_has_tag(data):
+            word, items = data
+            tag = items[1]['pos']
+            if word is None:
+                return '', ''
+            for sense in word.senses:
+                if sense.tag == tag:
+                    return 'x', sense.description
+            return '', ''
+
+        vlsp_data = [check_has_tag(data) for data in zip(words, df.iterrows())]
+        votes, descriptions = zip(*vlsp_data)
+        df['vlsp_votes'] = votes
+        df['vlsp_description'] = descriptions
+        file = join(DICTIONARY_FOLDER, "data", f"words_{pos_full_name}_candidates.xlsx")
+        df.to_excel(file, index=False)
+    vlsp_cache.save(vlsp_cache_file)
