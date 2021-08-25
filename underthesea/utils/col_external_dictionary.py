@@ -113,20 +113,20 @@ class VLSPDictionary:
 if __name__ == '__main__':
     vlsp_cache_file = join(DICTIONARY_FOLDER, "data", "vlsp_cache.bin")
     vlsp_cache = Cache.load(vlsp_cache_file)
-    word = VLSPDictionary.lookup("hành tinh", vlsp_cache)
+    word = VLSPDictionary.lookup("tàu", vlsp_cache)
     print(word)
 
-    words = [
-        "đông đúc",
-        "đậm",
-        "tiêu biểu",
-        "cận",
-        "hữu ích",
-        "vô hạn",
-        "rẻ"
-    ]
-    for word in words:
-        word = VLSPDictionary.lookup(word, vlsp_cache)
-        print(word)
-
-    vlsp_cache.save(vlsp_cache_file)
+    # words = [
+    #     "đông đúc",
+    #     "đậm",
+    #     "tiêu biểu",
+    #     "cận",
+    #     "hữu ích",
+    #     "vô hạn",
+    #     "rẻ"
+    # ]
+    # for word in words:
+    #     word = VLSPDictionary.lookup(word, vlsp_cache)
+    #     print(word)
+    #
+    # vlsp_cache.save(vlsp_cache_file)
