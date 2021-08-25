@@ -106,10 +106,16 @@ bình luận:
 - tag: V
 bình phục:
 - tag: V
+bình quân:
+- tag: A
 bình thường:
 - tag: A
 bình xịt:
 - tag: N
+bình đẳng:
+- tag: A
+bí mật:
+- tag: A
 bí quyết:
 - tag: N
 bóng:
@@ -162,7 +168,13 @@ bảo vệ:
 - tag: V
 bảo đảm:
 - tag: V
+bất hợp pháp:
+- tag: A
+bất kỳ:
+- tag: A
 bất ngờ:
+- tag: A
+bất thường:
 - tag: A
 bất động sản:
 - tag: N
@@ -182,10 +194,16 @@ bắt nạt:
 - tag: V
 bắt đầu:
 - tag: V
+bằng:
+- tag: A
 bằng chứng:
 - tag: N
 bến:
 - tag: N
+bền:
+- tag: A
+bền vững:
+- tag: A
 bệnh:
 - tag: N
 bệnh nhân:
@@ -248,6 +266,8 @@ can thiệp:
 - tag: V
 cao:
 - tag: A
+cao cấp:
+- tag: A
 cao độ:
 - tag: N
 cha:
@@ -264,6 +284,7 @@ chi nhánh:
 - tag: N
 chi tiết:
 - tag: N
+- tag: A
 chi viện:
 - tag: V
 chia:
@@ -316,6 +337,8 @@ cháy:
 - tag: V
 chén:
 - tag: N
+chênh lệch:
+- tag: A
 chính:
 - tag: A
 chính phủ:
@@ -328,6 +351,8 @@ chính thức:
 - tag: A
 chính trị:
 - tag: N
+chính xác:
+- tag: A
 chăm chút:
 - tag: V
 chăm chỉ:
@@ -420,12 +445,16 @@ con người:
 - tag: N
 con trai:
 - tag: N
+cong:
+- tag: A
 cung:
 - tag: N
 cung cấp:
 - tag: V
 cuốc:
 - tag: N
+cuối cùng:
+- tag: A
 cuộc:
 - tag: N
 cuộc đời:
@@ -456,8 +485,14 @@ cô:
 - tag: N
 công an:
 - tag: N
+công bằng:
+- tag: A
+công cộng:
+- tag: A
 công dân:
 - tag: N
+công khai:
+- tag: A
 công nghiệp:
 - tag: N
 công nghệ:
@@ -476,7 +511,11 @@ công tác:
 - tag: N
 cùng:
 - tag: A
+căng thẳng:
+- tag: A
 cũ:
+- tag: A
+cơ bản:
 - tag: A
 cơ quan:
 - tag: N
@@ -484,9 +523,19 @@ cần:
 - tag: V
 cần thiết:
 - tag: A
+cận:
+- tag: A
+cố định:
+- tag: A
+cổ:
+- tag: A
 cổ điển:
 - tag: A
+cộng sản:
+- tag: A
 cụ thể:
+- tag: A
+cứng:
 - tag: A
 cực:
 - tag: A
@@ -502,6 +551,10 @@ dài:
 - tag: A
 dành:
 - tag: V
+dày:
+- tag: A
+dày đặc:
+- tag: A
 dùng:
 - tag: V
 dẫn:
@@ -509,6 +562,10 @@ dẫn:
 dễ:
 - tag: A
 dễ dàng:
+- tag: A
+dọc:
+- tag: A
+dồi dào:
 - tag: A
 dựa:
 - tag: V
@@ -518,8 +575,12 @@ gia đình:
 - tag: N
 giai đoạn:
 - tag: N
+già:
+- tag: A
 giành:
 - tag: V
+giàu:
+- tag: A
 giàu có:
 - tag: A
 giá:
@@ -554,6 +615,8 @@ giấy:
 - tag: N
 giết:
 - tag: V
+giỏi:
+- tag: A
 giống:
 - tag: A
 giữ:
@@ -574,6 +637,10 @@ gửi:
 - tag: V
 hiếm:
 - tag: A
+hiện đại:
+- tag: A
+hoàn chỉnh:
+- tag: A
 hoàn toàn:
 - tag: A
 hoàng gia:
@@ -585,6 +652,8 @@ hoạt động:
 - tag: V
 huyện:
 - tag: N
+hài:
+- tag: A
 hàng rào:
 - tag: N
 hàng xóm:
@@ -605,6 +674,8 @@ hậu quả:
 - tag: N
 hậu vệ:
 - tag: N
+hẹp:
+- tag: A
 hệ thống:
 - tag: N
 học:
@@ -639,8 +710,14 @@ hội đồng:
 - tag: N
 hợp lý:
 - tag: A
+hợp pháp:
+- tag: A
 hợp đồng:
 - tag: N
+hữu cơ:
+- tag: A
+hữu ích:
+- tag: A
 in:
 - tag: V
 kem:
@@ -674,6 +751,8 @@ khuôn khổ:
 khuôn viên:
 - tag: N
 khác:
+- tag: A
+khác biệt:
 - tag: A
 khách:
 - tag: N
@@ -747,6 +826,8 @@ kính:
 - tag: N
 ký:
 - tag: V
+kế:
+- tag: A
 kế hoạch:
 - tag: N
 kết hợp:
@@ -783,6 +864,8 @@ liên kết:
 - tag: V
 liên quan:
 - tag: V
+liên tiếp:
+- tag: A
 liên tục:
 - tag: A
 loài:
@@ -805,9 +888,17 @@ làng:
 - tag: N
 lá:
 - tag: N
+lâm thời:
+- tag: A
+lân cận:
+- tag: A
 lâu:
 - tag: A
+lâu dài:
+- tag: A
 lâu đời:
+- tag: A
+lãng mạn:
 - tag: A
 lãnh thổ:
 - tag: N
@@ -857,6 +948,8 @@ lạ:
 - tag: A
 lại:
 - tag: V
+lạnh:
+- tag: A
 lấy:
 - tag: V
 lần:
@@ -871,6 +964,7 @@ lịch:
 - tag: N
 lịch sử:
 - tag: N
+- tag: A
 lọ:
 - tag: N
 lối:
@@ -957,6 +1051,8 @@ mạng lưới:
 - tag: N
 mạnh:
 - tag: A
+mạnh mẽ:
+- tag: A
 mạt chược:
 - tag: N
 mất:
@@ -991,6 +1087,8 @@ mẹo:
 - tag: N
 mệt mỏi:
 - tag: A
+mỏng:
+- tag: A
 mốc:
 - tag: N
 mối:
@@ -1002,6 +1100,8 @@ mồi:
 một cách:
 - tag: N
 mới:
+- tag: A
+mờ:
 - tag: A
 mở:
 - tag: V
@@ -1021,14 +1121,22 @@ nam:
 - tag: N
 nam giới:
 - tag: N
+ngang:
+- tag: A
 nghi lễ:
 - tag: N
+nghiêm ngặt:
+- tag: A
 nghiêm trọng:
 - tag: A
 nghiên cứu:
 - tag: V
+nghiêng:
+- tag: A
 nghiệp vụ:
 - tag: N
+nghèo:
+- tag: A
 nghề:
 - tag: N
 nghề nghiệp:
@@ -1042,6 +1150,8 @@ nghệ thuật:
 nghị sĩ:
 - tag: N
 ngon:
+- tag: A
+ngoại:
 - tag: A
 ngoại giao:
 - tag: N
@@ -1058,6 +1168,8 @@ nguy cơ:
 nguy hiểm:
 - tag: A
 - tag: N
+nguyên:
+- tag: A
 nguyên liệu:
 - tag: N
 nguyên nhân:
@@ -1096,6 +1208,12 @@ người bệnh:
 - tag: N
 ngưỡng:
 - tag: N
+ngược:
+- tag: A
+ngầm:
+- tag: A
+ngẫu nhiên:
+- tag: A
 ngắn:
 - tag: A
 ngữ pháp:
@@ -1152,18 +1270,24 @@ nhạc:
 - tag: N
 nhạy cảm:
 - tag: A
+nhất định:
+- tag: A
 nhận:
 - tag: V
 nhận thức:
 - tag: N
 nhằm:
 - tag: V
+nhẹ:
+- tag: A
 nhỏ:
 - tag: A
 nhờ:
 - tag: V
 nhựa:
 - tag: N
+nâu:
+- tag: A
 nói:
 - tag: V
 nóng:
@@ -1190,6 +1314,10 @@ nền tảng:
 - tag: N
 nồng độ:
 - tag: N
+nổi bật:
+- tag: A
+nổi tiếng:
+- tag: A
 nỗ lực:
 - tag: N
 nội dung:
@@ -1210,6 +1338,8 @@ phiên:
 - tag: N
 phong cách:
 - tag: N
+phong phú:
+- tag: A
 phong trào:
 - tag: N
 phát hiện:
@@ -1249,6 +1379,7 @@ phẩm chất:
 - tag: N
 phổ biến:
 - tag: V
+- tag: A
 phổ thông:
 - tag: N
 phổi:
@@ -1279,6 +1410,8 @@ quan trọng:
 quay:
 - tag: V
 quen:
+- tag: A
+quen thuộc:
 - tag: A
 quy chế:
 - tag: N
@@ -1334,6 +1467,7 @@ quốc phòng:
 - tag: N
 quốc tế:
 - tag: N
+- tag: A
 quốc tịch:
 - tag: N
 quốc vương:
@@ -1352,9 +1486,13 @@ rau ngót:
 - tag: N
 riêng:
 - tag: A
+riêng biệt:
+- tag: A
 rõ:
 - tag: A
 rõ ràng:
+- tag: A
+rõ rệt:
 - tag: A
 rùa:
 - tag: N
@@ -1362,7 +1500,15 @@ rút:
 - tag: V
 rượu:
 - tag: N
+rải rác:
+- tag: A
+rẻ:
+- tag: A
 rộng:
+- tag: A
+rộng lớn:
+- tag: A
+rộng rãi:
 - tag: A
 rừng:
 - tag: N
@@ -1390,18 +1536,30 @@ siêu thị:
 - tag: N
 so:
 - tag: V
+song song:
+- tag: A
 suốt:
+- tag: A
+sáng:
+- tag: A
+sát:
 - tag: A
 sân thượng:
 - tag: N
+sâu:
+- tag: A
 sâu bệnh:
 - tag: N
+sâu sắc:
+- tag: A
 sóng:
 - tag: N
 sông:
 - tag: N
 súng:
 - tag: N
+sơ:
+- tag: A
 sạch:
 - tag: A
 sản phẩm:
@@ -1480,6 +1638,8 @@ thiết bị:
 - tag: N
 thiết kế:
 - tag: V
+thiếu:
+- tag: A
 thiền sư:
 - tag: N
 thu:
@@ -1490,6 +1650,8 @@ thung lũng:
 - tag: N
 thuyền trưởng:
 - tag: N
+thuận lợi:
+- tag: A
 thuận tiện:
 - tag: A
 thuế:
@@ -1516,8 +1678,12 @@ thêm:
 - tag: V
 thí sinh:
 - tag: N
+thích hợp:
+- tag: A
 thói quen:
 - tag: N
+thô:
+- tag: A
 thôn:
 - tag: N
 thông báo:
@@ -1526,12 +1692,16 @@ thông minh:
 - tag: A
 thông qua:
 - tag: V
+thông thường:
+- tag: A
 thông tin:
 - tag: N
 thông tư:
 - tag: N
 thùng:
 - tag: N
+thơm:
+- tag: A
 thư:
 - tag: N
 thương mại:
@@ -1550,6 +1720,10 @@ thầy thuốc:
 - tag: N
 thẩm quyền:
 - tag: N
+thật sự:
+- tag: A
+thẳng:
+- tag: A
 thế giới:
 - tag: N
 thế hệ:
@@ -1604,6 +1778,8 @@ thủ tục:
 - tag: N
 thủ đô:
 - tag: N
+thực:
+- tag: A
 thực hiện:
 - tag: V
 thực sự:
@@ -1620,6 +1796,8 @@ thực địa:
 - tag: N
 tin:
 - tag: V
+tinh khiết:
+- tag: A
 tinh thần:
 - tag: N
 tinh tế:
@@ -1656,8 +1834,12 @@ tiểu thương:
 - tag: N
 to:
 - tag: A
+to lớn:
+- tag: A
 toàn cầu:
 - tag: N
+toàn diện:
+- tag: A
 trang phục:
 - tag: N
 trang trại:
@@ -1668,7 +1850,13 @@ tri thức:
 - tag: N
 triệu chứng:
 - tag: N
+trong:
+- tag: A
+trung:
+- tag: A
 trung bình:
+- tag: A
+trung gian:
 - tag: A
 trung học:
 - tag: N
@@ -1682,12 +1870,19 @@ trung ương:
 - tag: N
 truyền:
 - tag: V
+truyền thống:
+- tag: A
 truyện:
 - tag: N
 trà:
 - tag: N
 trái:
 - tag: N
+- tag: A
+trái ngược:
+- tag: A
+tròn:
+- tag: A
 trước:
 - tag: N
 trước mắt:
@@ -1708,6 +1903,10 @@ trại:
 - tag: N
 trạng thái:
 - tag: N
+trắng:
+- tag: A
+trẻ:
+- tag: A
 trọng tâm:
 - tag: N
 trọng điểm:
@@ -1721,6 +1920,8 @@ trở thành:
 trực thăng:
 - tag: N
 trực tiếp:
+- tag: A
+trực tuyến:
 - tag: A
 tuyên bố:
 - tag: N
@@ -1757,6 +1958,8 @@ tâm trí:
 - tag: N
 tâm điểm:
 - tag: N
+tân:
+- tag: A
 tân binh:
 - tag: N
 tây:
@@ -1795,9 +1998,17 @@ tư tưởng:
 - tag: N
 tương lai:
 - tag: N
+tương tự:
+- tag: A
+tương đương:
+- tag: A
+tương đối:
+- tag: A
 tường:
 - tag: N
 tạm:
+- tag: A
+tạm thời:
 - tag: A
 tạo:
 - tag: V
@@ -1823,6 +2034,12 @@ tỉnh thành:
 - tag: N
 tốc độ:
 - tag: N
+tối cao:
+- tag: A
+tối thiểu:
+- tag: A
+tối đa:
+- tag: A
 tốt:
 - tag: A
 tồn tại:
@@ -1831,6 +2048,8 @@ tổ chức:
 - tag: V
 tổng giám đốc:
 - tag: N
+tổng hợp:
+- tag: A
 tổng số:
 - tag: N
 tổng thống:
@@ -1841,6 +2060,14 @@ tờ trình:
 - tag: N
 tụ điểm:
 - tag: N
+từ từ:
+- tag: A
+tự do:
+- tag: A
+tự nhiên:
+- tag: A
+tự động:
+- tag: A
 ung thư:
 - tag: N
 vai trò:
@@ -1859,6 +2086,8 @@ viện trưởng:
 - tag: N
 voi:
 - tag: N
+vuông:
+- tag: A
 vàng:
 - tag: N
 vàng mã:
@@ -1869,12 +2098,16 @@ ván:
 - tag: N
 vé:
 - tag: N
+vô hạn:
+- tag: A
 văn bản:
 - tag: N
 văn học:
 - tag: N
 văn phòng:
 - tag: N
+vĩ đại:
+- tag: A
 vũ khí:
 - tag: N
 vũ trụ:
@@ -1893,6 +2126,8 @@ về:
 - tag: V
 vỉa hè:
 - tag: N
+vững:
+- tag: A
 xa:
 - tag: A
 xanh:
@@ -1903,26 +2138,46 @@ xuất bản:
 - tag: V
 xuất hiện:
 - tag: V
+xuất sắc:
+- tag: A
 xuống:
 - tag: V
 xác định:
 - tag: V
+xám:
+- tag: A
 xây dựng:
 - tag: V
+xưa:
+- tag: A
 xảy:
 - tag: V
+xấp xỉ:
+- tag: A
 xấu:
+- tag: A
+xứng đáng:
 - tag: A
 yêu cầu:
 - tag: V
+yếu:
+- tag: A
 áp dụng:
 - tag: V
 ít:
 - tag: A
+đa dạng:
+- tag: A
+đen:
+- tag: A
 đi:
 - tag: V
+điển hình:
+- tag: A
 đo:
 - tag: V
+đáng kể:
+- tag: A
 đánh:
 - tag: V
 đóng:
@@ -1930,6 +2185,10 @@ yêu cầu:
 đóng góp:
 - tag: V
 đông:
+- tag: A
+đông đúc:
+- tag: A
+đông đảo:
 - tag: A
 đúng:
 - tag: A
@@ -1939,6 +2198,8 @@ yêu cầu:
 - tag: V
 được:
 - tag: V
+đại:
+- tag: A
 đạt:
 - tag: V
 đầu tiên:
@@ -1949,7 +2210,13 @@ yêu cầu:
 - tag: A
 đầy đủ:
 - tag: A
+đậm:
+- tag: A
+đặc:
+- tag: A
 đặc biệt:
+- tag: A
+đặc trưng:
 - tag: A
 đặt:
 - tag: V
@@ -1961,8 +2228,20 @@ yêu cầu:
 - tag: V
 đỏ:
 - tag: A
+đồng bộ:
+- tag: A
 đổi:
 - tag: V
+độc lập:
+- tag: A
+độc quyền:
+- tag: A
+độc tài:
+- tag: A
+độc đáo:
+- tag: A
+đột ngột:
+- tag: A
 đủ:
 - tag: A
 đứng:
@@ -1971,6 +2250,8 @@ yêu cầu:
 - tag: A
 ảnh hưởng:
 - tag: V
+ấm:
+- tag: A
 ổn:
 - tag: A
 ổn định:
