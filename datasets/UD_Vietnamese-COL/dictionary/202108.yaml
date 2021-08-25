@@ -387,6 +387,8 @@ chậm:
 - tag: A
 chậm chạp:
 - tag: A
+chắc:
+- tag: A
 chắc chắn:
 - tag: A
 chắp:
@@ -566,6 +568,8 @@ dễ dàng:
 dọc:
 - tag: A
 dồi dào:
+- tag: A
+dữ dội:
 - tag: A
 dựa:
 - tag: V
@@ -822,6 +826,8 @@ kém:
 - tag: A
 kích thước:
 - tag: N
+kín:
+- tag: A
 kính:
 - tag: N
 ký:
@@ -867,6 +873,8 @@ liên quan:
 liên tiếp:
 - tag: A
 liên tục:
+- tag: A
+liệt:
 - tag: A
 loài:
 - tag: N
@@ -1011,6 +1019,8 @@ màu sắc:
 - tag: N
 mái:
 - tag: N
+mát:
+- tag: A
 máu:
 - tag: N
 máy:
@@ -1035,6 +1045,8 @@ môn học:
 - tag: N
 mông:
 - tag: N
+mù chữ:
+- tag: A
 mùa:
 - tag: N
 mùi:
@@ -1085,6 +1097,8 @@ mẹ:
 - tag: N
 mẹo:
 - tag: N
+mềm:
+- tag: A
 mệt mỏi:
 - tag: A
 mỏng:
@@ -1488,6 +1502,8 @@ riêng:
 - tag: A
 riêng biệt:
 - tag: A
+ruột:
+- tag: A
 rõ:
 - tag: A
 rõ ràng:
@@ -1559,6 +1575,8 @@ sông:
 súng:
 - tag: N
 sơ:
+- tag: A
+sơ khai:
 - tag: A
 sạch:
 - tag: A
@@ -1650,6 +1668,8 @@ thung lũng:
 - tag: N
 thuyền trưởng:
 - tag: N
+thuận:
+- tag: A
 thuận lợi:
 - tag: A
 thuận tiện:
@@ -1907,6 +1927,8 @@ trắng:
 - tag: A
 trẻ:
 - tag: A
+trọn:
+- tag: A
 trọng tâm:
 - tag: N
 trọng điểm:
@@ -2128,6 +2150,8 @@ vỉa hè:
 - tag: N
 vững:
 - tag: A
+vững chắc:
+- tag: A
 xa:
 - tag: A
 xanh:
@@ -2161,6 +2185,8 @@ xứng đáng:
 yêu cầu:
 - tag: V
 yếu:
+- tag: A
+ác liệt:
 - tag: A
 áp dụng:
 - tag: V
@@ -2232,6 +2258,8 @@ yếu:
 - tag: A
 đổi:
 - tag: V
+độc:
+- tag: A
 độc lập:
 - tag: A
 độc quyền:
