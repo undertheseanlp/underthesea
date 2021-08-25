@@ -2,6 +2,7 @@ from os.path import dirname, join
 import pandas as pd
 import yaml
 
+from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.utils.col_script import UDDataset
 
 PROJECT_FOLDER = dirname(dirname(dirname(__file__)))
@@ -64,7 +65,8 @@ if __name__ == '__main__':
     dictionary.describe()
     current_df = dictionary.to_df()
 
-    ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
+    # ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
+    ud_file = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA", "wiki_00")
     ud_dataset = UDDataset.load(ud_file)
     rows = [s.rows for s in ud_dataset]
     rows = [[row[0].lower(), row[1]] for sublist in rows for row in sublist]
@@ -83,4 +85,4 @@ if __name__ == '__main__':
         df = df[df['_merge'] == 'left_only']
         df = df[['token', 'pos', 'count']]
         df['verify'] = ''
-        df.to_excel(join(DICTIONARY_FOLDER, f"words_{pos_full_name}_candidates.xlsx"), index=False)
+        df.to_excel(join(DICTIONARY_FOLDER, "data", f"words_{pos_full_name}_candidates.xlsx"), index=False)
