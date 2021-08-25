@@ -77,10 +77,10 @@ if __name__ == '__main__':
     ]
     for pos_label, pos_full_name in pos:
         ud_df_sub = ud_df[ud_df["pos"].isin([pos_label])]
-        ud_df_sub = ud_df_sub.sort_values(["token", "pos"]).drop_duplicates().sort_values(["token", "pos"])
+        ud_df_sub = ud_df_sub.groupby(["token", "pos"]).size().reset_index(name='count').sort_values("count", ascending=False)
 
         df = pd.merge(ud_df_sub, current_df, on=['token', 'pos'], how='outer', indicator=True)
         df = df[df['_merge'] == 'left_only']
-        df = df[['token', 'pos']]
+        df = df[['token', 'pos', 'count']]
         df['verify'] = ''
         df.to_excel(join(DICTIONARY_FOLDER, f"words_{pos_full_name}_candidates.xlsx"), index=False)
