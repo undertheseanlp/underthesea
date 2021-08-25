@@ -60,6 +60,15 @@ class UDSentence:
         s = UDSentence(rows=rows, headers=headers)
         return s
 
+    @staticmethod
+    def load_from_raw_text(text):
+        raw_content = ''
+        raw_content += "# doc_url = DOC_URL\n"
+        raw_content += "# date = DATE\n"
+        raw_content += "# sent_id = 0\n"
+        raw_content += text.strip()
+        return UDSentence.load_from_raw_content(raw_content)
+
 
 class UDDataset(Dataset):
 
