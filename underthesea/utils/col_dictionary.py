@@ -69,7 +69,7 @@ if __name__ == '__main__':
     # ud_file = join(COL_FOLDER, "corpus", "ud", "202108.txt")
     ud_folder = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA")
     sentences = []
-    for file in listdir(ud_folder)[:20]:
+    for file in listdir(ud_folder)[:2]:
         ud_file = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720", "ud", "AA", file)
         ud_dataset = UDDataset.load(ud_file)
         sentences += ud_dataset.sentences
@@ -81,7 +81,8 @@ if __name__ == '__main__':
     pos = [
         ["V", "verb"],
         ["N", "noun"],
-        ["A", "adjective"]
+        ["A", "adjective"],
+        ["P", "pronoun"]
     ]
     vlsp_cache_file = join(DICTIONARY_FOLDER, "data", "vlsp_cache.bin")
     vlsp_cache = Cache.load(vlsp_cache_file)
