@@ -99,7 +99,7 @@ if __name__ == '__main__':
         all_tokens = [item['token'] for i, item in df.iterrows()]
 
         tokens = [token for token in all_tokens if not vlsp_cache.contains(token)]
-        MAX_ITEMS = 300
+        MAX_ITEMS = 500
         words_data = VLSPDictionary.lookups(tokens[:MAX_ITEMS], n_workers=30)
         for token, word in zip(tokens, words_data):
             vlsp_cache.add(token, word)
