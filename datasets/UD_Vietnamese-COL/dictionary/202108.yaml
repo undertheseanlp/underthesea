@@ -312,6 +312,7 @@ bành trướng:
 - tag: V
 bào:
 - tag: N
+- tag: V
 bày:
 - tag: V
 bày tỏ:
@@ -767,6 +768,7 @@ bắt đầu:
 bằng:
 - tag: A
 - tag: N
+- tag: E
 bằng chứng:
 - tag: N
 bằng sáng chế:
@@ -903,6 +905,7 @@ bụi:
 - tag: N
 bức:
 - tag: N
+- tag: V
 bức xúc:
 - tag: A
 bức xạ:
@@ -963,6 +966,7 @@ canh tác:
 - tag: V
 cao:
 - tag: A
+- tag: N
 cao cường:
 - tag: A
 cao cả:
@@ -1126,6 +1130,7 @@ chiều:
 - tag: N
 cho:
 - tag: V
+- tag: E
 cho biết:
 - tag: V
 cho phép:
@@ -1391,6 +1396,7 @@ chăm sóc:
 - tag: V
 chăn:
 - tag: N
+- tag: V
 chăn nuôi:
 - tag: V
 chơi:
@@ -1836,6 +1842,7 @@ cánh tay:
 - tag: N
 cáo:
 - tag: N
+- tag: V
 cáo buộc:
 - tag: V
 cáp:
@@ -2389,6 +2396,7 @@ cộng sản:
 - tag: N
 cộng sự:
 - tag: N
+- tag: V
 cộng tác:
 - tag: V
 cộng đồng:
@@ -2535,6 +2543,7 @@ di chuyển:
 - tag: V
 di chúc:
 - tag: N
+- tag: V
 di chỉ:
 - tag: N
 di cư:
@@ -2756,6 +2765,7 @@ dương vật:
 - tag: N
 dưới:
 - tag: N
+- tag: E
 dược:
 - tag: N
 dược phẩm:
@@ -3293,6 +3303,7 @@ giữ gìn:
 - tag: V
 giữa:
 - tag: N
+- tag: E
 gom:
 - tag: V
 guitar:
@@ -4355,6 +4366,7 @@ khánh thành:
 - tag: V
 khâu:
 - tag: N
+- tag: V
 khéo:
 - tag: A
 khéo léo:
@@ -4527,6 +4539,7 @@ khủng hoảng:
 - tag: V
 khủng khiếp:
 - tag: A
+- tag: V
 khủng long:
 - tag: N
 khử:
@@ -4660,6 +4673,7 @@ kêu gọi:
 - tag: V
 kì:
 - tag: N
+- tag: V
 kì lạ:
 - tag: A
 kìa:
@@ -4696,6 +4710,7 @@ kíp:
 - tag: N
 ký:
 - tag: V
+- tag: N
 ký hiệu:
 - tag: V
 ký kết:
@@ -4780,6 +4795,7 @@ kể:
 - tag: V
 kệ:
 - tag: N
+- tag: V
 kỉ:
 - tag: N
 kỉ lục:
@@ -5149,6 +5165,7 @@ lòng chảo:
 - tag: N
 lót:
 - tag: N
+- tag: V
 lô:
 - tag: N
 lôi:
@@ -6028,6 +6045,7 @@ nghiền:
 - tag: V
 nghiệm:
 - tag: N
+- tag: V
 nghiện:
 - tag: V
 nghiệp:
@@ -6108,6 +6126,7 @@ ngon lành:
 - tag: A
 ngoài:
 - tag: N
+- tag: E
 ngoại:
 - tag: A
 ngoại giao:
@@ -6773,6 +6792,7 @@ nâng cấp:
 - tag: V
 nâu:
 - tag: A
+- tag: N
 nã:
 - tag: V
 não:
@@ -7422,6 +7442,7 @@ phẳng:
 - tag: A
 phế:
 - tag: N
+- tag: V
 phế truất:
 - tag: V
 phỏng:
@@ -7515,6 +7536,7 @@ pô:
 - tag: N
 qua:
 - tag: V
+- tag: E
 qua lại:
 - tag: V
 qua đời:
@@ -7884,6 +7906,7 @@ rót:
 - tag: V
 rõ:
 - tag: A
+- tag: V
 rõ ràng:
 - tag: A
 rõ rệt:
@@ -8174,6 +8197,7 @@ sáp nhập:
 - tag: V
 sát:
 - tag: A
+- tag: V
 sát hại:
 - tag: V
 sát thương:
@@ -9379,6 +9403,7 @@ thỏ:
 - tag: N
 thối:
 - tag: A
+- tag: V
 thối nát:
 - tag: A
 thống:
@@ -10081,6 +10106,7 @@ trèo:
 - tag: V
 trên:
 - tag: N
+- tag: E
 trì hoãn:
 - tag: V
 trì trệ:
@@ -10344,6 +10370,7 @@ trở lại:
 - tag: V
 trở ngại:
 - tag: N
+- tag: V
 trở nên:
 - tag: V
 trở thành:
@@ -10834,6 +10861,7 @@ tươi sống:
 - tag: A
 tương:
 - tag: N
+- tag: V
 tương lai:
 - tag: N
 tương phản:
@@ -11046,6 +11074,7 @@ tố cáo:
 - tag: V
 tốc:
 - tag: N
+- tag: V
 tốc độ:
 - tag: N
 tối:
@@ -11157,6 +11186,7 @@ tớ:
 - tag: P
 tới:
 - tag: V
+- tag: E
 tới tấp:
 - tag: A
 tờ:
@@ -11410,6 +11440,7 @@ vành đai:
 - tag: N
 vào:
 - tag: V
+- tag: E
 vá:
 - tag: V
 vác:
@@ -11420,6 +11451,7 @@ ván:
 - tag: N
 váy:
 - tag: N
+- tag: V
 vây:
 - tag: V
 vây hãm:
@@ -11689,6 +11721,7 @@ vết thương:
 - tag: N
 về:
 - tag: V
+- tag: E
 vệ binh:
 - tag: N
 vệ quốc:
@@ -11772,6 +11805,7 @@ x:
 - tag: V
 xa:
 - tag: A
+- tag: V
 xa hoa:
 - tag: A
 xa lánh:
@@ -13065,6 +13099,7 @@ z:
 - tag: V
 đến:
 - tag: V
+- tag: E
 đề:
 - tag: V
 - tag: N
@@ -13316,6 +13351,7 @@ z:
 - tag: A
 độc quyền:
 - tag: A
+- tag: N
 độc thân:
 - tag: A
 độc tài:
@@ -13465,6 +13501,7 @@ z:
 - tag: A
 ấn:
 - tag: N
+- tag: V
 ấn bản:
 - tag: N
 ấn hành:
@@ -13544,6 +13581,7 @@ z:
 - tag: N
 ở:
 - tag: V
+- tag: E
 ủ:
 - tag: V
 ủng hộ:
@@ -13585,6 +13623,7 @@ thài lài:
 - tag: N
 vực:
 - tag: N
+- tag: V
 phụ tùng:
 - tag: N
 gia cầm:
@@ -13607,6 +13646,7 @@ hài kịch:
 - tag: N
 du:
 - tag: N
+- tag: V
 yêu sách:
 - tag: N
 nôi:
@@ -13765,6 +13805,7 @@ vệt:
 - tag: N
 lãi:
 - tag: N
+- tag: V
 kì quan:
 - tag: N
 rác:
@@ -13807,6 +13848,7 @@ gia quyến:
 - tag: N
 đột biến:
 - tag: N
+- tag: V
 ngà voi:
 - tag: N
 thơ văn:
@@ -13899,6 +13941,7 @@ diềm:
 - tag: N
 đặc tả:
 - tag: N
+- tag: V
 tiểu vùng:
 - tag: N
 cao học:
@@ -14107,6 +14150,7 @@ tệp:
 - tag: N
 be:
 - tag: N
+- tag: V
 chi lưu:
 - tag: N
 phân khối:
@@ -14191,6 +14235,7 @@ nứa:
 - tag: N
 bình phương:
 - tag: N
+- tag: V
 gò:
 - tag: N
 hoạt hình:
@@ -14255,6 +14300,7 @@ xôi:
 - tag: N
 từ:
 - tag: N
+- tag: E
 bầu không khí:
 - tag: N
 tục lệ:
@@ -14441,6 +14487,7 @@ nhà nghỉ:
 - tag: N
 phao:
 - tag: N
+- tag: V
 dây dẫn:
 - tag: N
 séc:
@@ -14485,6 +14532,7 @@ silica:
 - tag: N
 kì vọng:
 - tag: N
+- tag: V
 kì thủ:
 - tag: N
 tương ớt:
@@ -14535,6 +14583,7 @@ xe lăn:
 - tag: N
 sĩ:
 - tag: N
+- tag: V
 bảo vật:
 - tag: N
 chất rắn:
@@ -14605,3 +14654,1992 @@ lá chét:
 - tag: N
 lòng sông:
 - tag: N
+hấp hối:
+- tag: V
+khiếu nại:
+- tag: V
+giật mình:
+- tag: V
+can ngăn:
+- tag: V
+tàn:
+- tag: V
+kìm hãm:
+- tag: V
+có thai:
+- tag: V
+tôn thờ:
+- tag: V
+kiêm nhiệm:
+- tag: V
+ra tay:
+- tag: V
+nhại:
+- tag: V
+đổ xô:
+- tag: V
+giải ngũ:
+- tag: V
+chiết xuất:
+- tag: V
+chiếu xạ:
+- tag: V
+mòn:
+- tag: V
+nguyền rủa:
+- tag: V
+phản quốc:
+- tag: V
+khoét:
+- tag: V
+chiến bại:
+- tag: V
+ngoại tình:
+- tag: V
+thẩm định:
+- tag: V
+khám nghiệm:
+- tag: V
+sụt giảm:
+- tag: V
+cai nghiện:
+- tag: V
+dàn dựng:
+- tag: V
+bỏ mạng:
+- tag: V
+do dự:
+- tag: V
+hồi tưởng:
+- tag: V
+nhịn:
+- tag: V
+lợp:
+- tag: V
+xuất quân:
+- tag: V
+hồi hương:
+- tag: V
+cai:
+- tag: V
+đóng gói:
+- tag: V
+bế mạc:
+- tag: V
+biểu dương:
+- tag: V
+xoay xở:
+- tag: V
+sụp:
+- tag: V
+khát khao:
+- tag: V
+bịt:
+- tag: V
+biểu đạt:
+- tag: V
+hái:
+- tag: V
+luồn:
+- tag: V
+khởi tố:
+- tag: V
+hội kiến:
+- tag: V
+thuyết giảng:
+- tag: V
+đánh cắp:
+- tag: V
+gặm:
+- tag: V
+giám định:
+- tag: V
+chu cấp:
+- tag: V
+viết tay:
+- tag: V
+đánh thức:
+- tag: V
+viện dẫn:
+- tag: V
+đả kích:
+- tag: V
+gập:
+- tag: V
+dịch thuật:
+- tag: V
+thỉnh:
+- tag: V
+đập tan:
+- tag: V
+phát nổ:
+- tag: V
+ninh:
+- tag: V
+giảng giải:
+- tag: V
+thỉnh cầu:
+- tag: V
+vùi:
+- tag: V
+mắng:
+- tag: V
+niệm:
+- tag: V
+giao phối:
+- tag: V
+hấp thu:
+- tag: V
+đền bù:
+- tag: V
+công diễn:
+- tag: V
+đụng:
+- tag: V
+trị liệu:
+- tag: V
+truy nã:
+- tag: V
+ngất:
+- tag: V
+ngấm:
+- tag: V
+điểm danh:
+- tag: V
+tường trình:
+- tag: V
+rọi:
+- tag: V
+ganh đua:
+- tag: V
+ngụ:
+- tag: V
+tình nghi:
+- tag: V
+cải biên:
+- tag: V
+kẹp:
+- tag: V
+copy:
+- tag: V
+tu bổ:
+- tag: V
+đổ máu:
+- tag: V
+trừng trị:
+- tag: V
+tuần tiễu:
+- tag: V
+lắng đọng:
+- tag: V
+tán dương:
+- tag: V
+sỉ nhục:
+- tag: V
+cấm đoán:
+- tag: V
+nghiêm cấm:
+- tag: V
+cấp nước:
+- tag: V
+tổng kết:
+- tag: V
+chế áp:
+- tag: V
+chuyên trách:
+- tag: V
+bái:
+- tag: V
+chuyển tải:
+- tag: V
+đối địch:
+- tag: V
+vượt biên:
+- tag: V
+thôi:
+- tag: V
+nhúng:
+- tag: V
+trông nom:
+- tag: V
+bào mòn:
+- tag: V
+vật lộn:
+- tag: V
+phát giác:
+- tag: V
+giải vây:
+- tag: V
+vặn:
+- tag: V
+tuôn:
+- tag: V
+tô điểm:
+- tag: V
+lây:
+- tag: V
+rủ:
+- tag: V
+ban phát:
+- tag: V
+chào mừng:
+- tag: V
+tiếp vận:
+- tag: V
+cổ động:
+- tag: V
+xén:
+- tag: V
+lấn át:
+- tag: V
+hội họp:
+- tag: V
+thừa cơ:
+- tag: V
+xúi giục:
+- tag: V
+bóp méo:
+- tag: V
+thu hình:
+- tag: V
+án ngữ:
+- tag: V
+tuỳ thuộc:
+- tag: V
+thành hôn:
+- tag: V
+nếm:
+- tag: V
+phụ trợ:
+- tag: V
+giả mạo:
+- tag: V
+hiệu chỉnh:
+- tag: V
+ập:
+- tag: V
+giải giáp:
+- tag: V
+thành đạt:
+- tag: V
+suy ngẫm:
+- tag: V
+cứu quốc:
+- tag: V
+thổ lộ:
+- tag: V
+giơ:
+- tag: V
+thốt:
+- tag: V
+chết đuối:
+- tag: V
+triệt tiêu:
+- tag: V
+trào:
+- tag: V
+mưu sát:
+- tag: V
+hất:
+- tag: V
+tàng trữ:
+- tag: V
+mơ ước:
+- tag: V
+lẻn:
+- tag: V
+chăm lo:
+- tag: V
+triệt hạ:
+- tag: V
+trang hoàng:
+- tag: V
+kháng:
+- tag: V
+tống:
+- tag: V
+chết chóc:
+- tag: V
+truyền đạo:
+- tag: V
+tống giam:
+- tag: V
+pha chế:
+- tag: V
+xay:
+- tag: V
+mưu cầu:
+- tag: V
+cắp:
+- tag: V
+ưu ái:
+- tag: V
+trang điểm:
+- tag: V
+tha bổng:
+- tag: V
+hạ sát:
+- tag: V
+hợp lực:
+- tag: V
+xuất gia:
+- tag: V
+kinh qua:
+- tag: V
+trình làng:
+- tag: V
+để dành:
+- tag: V
+sống còn:
+- tag: V
+cầm tù:
+- tag: V
+diệt trừ:
+- tag: V
+hốt hoảng:
+- tag: V
+trân trọng:
+- tag: V
+thú tội:
+- tag: V
+lánh:
+- tag: V
+ướp:
+- tag: V
+ra quân:
+- tag: V
+hấp:
+- tag: V
+tiễn:
+- tag: V
+rút gọn:
+- tag: V
+xem lại:
+- tag: V
+say xỉn:
+- tag: V
+thuê mướn:
+- tag: V
+ngần ngại:
+- tag: V
+hoàn trả:
+- tag: V
+cá độ:
+- tag: V
+đồng cảm:
+- tag: V
+an nghỉ:
+- tag: V
+bịa:
+- tag: V
+tuột:
+- tag: V
+thu gom:
+- tag: V
+duyệt binh:
+- tag: V
+băm:
+- tag: V
+- tag: N
+say đắm:
+- tag: V
+tán thưởng:
+- tag: V
+mến:
+- tag: V
+am hiểu:
+- tag: V
+tương hợp:
+- tag: V
+tái vũ trang:
+- tag: V
+thưởng phạt:
+- tag: V
+trục vớt:
+- tag: V
+nhảy vọt:
+- tag: V
+thâm hụt:
+- tag: V
+mất mạng:
+- tag: V
+rụi:
+- tag: V
+tháo gỡ:
+- tag: V
+mạo:
+- tag: V
+nện:
+- tag: V
+lìa:
+- tag: V
+ra mặt:
+- tag: V
+ngập ngừng:
+- tag: V
+nhiễm khuẩn:
+- tag: V
+thôi thúc:
+- tag: V
+vỗ tay:
+- tag: V
+thắng thế:
+- tag: V
+hòng:
+- tag: V
+giải đáp:
+- tag: V
+thâu tóm:
+- tag: V
+bế:
+- tag: V
+ức chế:
+- tag: V
+ẩn nấp:
+- tag: V
+đánh đổi:
+- tag: V
+hít:
+- tag: V
+cãi vã:
+- tag: V
+ngắt:
+- tag: V
+phình:
+- tag: V
+khai giảng:
+- tag: V
+cày:
+- tag: V
+thương tiếc:
+- tag: V
+san:
+- tag: V
+xa cách:
+- tag: V
+rèn:
+- tag: V
+ngộ độc:
+- tag: V
+tác:
+- tag: V
+lưu trú:
+- tag: V
+chê trách:
+- tag: V
+chăn thả:
+- tag: V
+biện luận:
+- tag: V
+bán độ:
+- tag: V
+nghịch:
+- tag: V
+lây lan:
+- tag: V
+trương:
+- tag: V
+tập quyền:
+- tag: V
+kết liễu:
+- tag: V
+lở:
+- tag: V
+cận kề:
+- tag: V
+xếp hàng:
+- tag: V
+lắc:
+- tag: V
+né tránh:
+- tag: V
+lủi:
+- tag: V
+va:
+- tag: V
+hoảng loạn:
+- tag: V
+toạ lạc:
+- tag: V
+uất:
+- tag: V
+chuộng:
+- tag: V
+chỉnh lý:
+- tag: V
+ghen tị:
+- tag: V
+bong:
+- tag: V
+phụng sự:
+- tag: V
+khám xét:
+- tag: V
+cạo:
+- tag: V
+tỉa:
+- tag: V
+họp mặt:
+- tag: V
+sung:
+- tag: V
+- tag: N
+luân chuyển:
+- tag: V
+giao thiệp:
+- tag: V
+nghi binh:
+- tag: V
+tưới tiêu:
+- tag: V
+cống nạp:
+- tag: V
+tham chiếu:
+- tag: V
+bú:
+- tag: V
+giao nộp:
+- tag: V
+đề bạt:
+- tag: V
+mỉm:
+- tag: V
+phản tác dụng:
+- tag: V
+sẵn lòng:
+- tag: V
+chạm trổ:
+- tag: V
+giao hảo:
+- tag: V
+từ giã:
+- tag: V
+cầu viện:
+- tag: V
+gửi gắm:
+- tag: V
+giáng sinh:
+- tag: V
+nôn:
+- tag: V
+truy quét:
+- tag: V
+cuốn hút:
+- tag: V
+săn lùng:
+- tag: V
+săn bắt:
+- tag: V
+săn đuổi:
+- tag: V
+thúc:
+- tag: V
+gia hạn:
+- tag: V
+cầu hôn:
+- tag: V
+quyết chiến:
+- tag: V
+đề kháng:
+- tag: V
+riềng:
+- tag: V
+- tag: N
+đặt cược:
+- tag: V
+khát:
+- tag: V
+quy đổi:
+- tag: V
+cưỡng:
+- tag: V
+cưỡng chế:
+- tag: V
+nỡ:
+- tag: V
+rao giảng:
+- tag: V
+đặc cách:
+- tag: V
+qua mặt:
+- tag: V
+chơi đùa:
+- tag: V
+thương nhớ:
+- tag: V
+cải táng:
+- tag: V
+giúp ích:
+- tag: V
+phớt lờ:
+- tag: V
+phô:
+- tag: V
+phô diễn:
+- tag: V
+chan:
+- tag: V
+nguôi:
+- tag: V
+khởi nghiệp:
+- tag: V
+ngồi tù:
+- tag: V
+phân quyền:
+- tag: V
+cứu giúp:
+- tag: V
+suy vong:
+- tag: V
+thành danh:
+- tag: V
+phồng:
+- tag: V
+định lượng:
+- tag: V
+- tag: N
+phơi bày:
+- tag: V
+chiêu đãi:
+- tag: V
+phản chiến:
+- tag: V
+phản biện:
+- tag: V
+nhất quyết:
+- tag: V
+chiêm ngưỡng:
+- tag: V
+chiết:
+- tag: V
+dẫn độ:
+- tag: V
+khởi nguồn:
+- tag: V
+canh giữ:
+- tag: V
+khuấy động:
+- tag: V
+nâng đỡ:
+- tag: V
+khen thưởng:
+- tag: V
+chủ mưu:
+- tag: V
+giao phó:
+- tag: V
+giấu giếm:
+- tag: V
+phá hại:
+- tag: V
+đầu cơ:
+- tag: V
+dạt:
+- tag: V
+nói thẳng:
+- tag: V
+cưa:
+- tag: V
+sát nhân:
+- tag: V
+sát cánh:
+- tag: V
+chủ quản:
+- tag: V
+đấu giá:
+- tag: V
+chuẩn y:
+- tag: V
+khuyến nghị:
+- tag: V
+khuyến cáo:
+- tag: V
+chuyện trò:
+- tag: V
+tụt hậu:
+- tag: V
+vuốt:
+- tag: V
+trổ:
+- tag: V
+thế chấp:
+- tag: V
+trốn tránh:
+- tag: V
+đè nén:
+- tag: V
+hái lượm:
+- tag: V
+lo liệu:
+- tag: V
+hối thúc:
+- tag: V
+đan xen:
+- tag: V
+lập công:
+- tag: V
+li dị:
+- tag: V
+hiệp đồng:
+- tag: V
+hãm:
+- tag: V
+búng:
+- tag: V
+toàn thắng:
+- tag: V
+lừa gạt:
+- tag: V
+tra:
+- tag: V
+tự dưỡng:
+- tag: V
+hiệu triệu:
+- tag: V
+bao cấp:
+- tag: V
+xây cất:
+- tag: V
+ban tặng:
+- tag: V
+hàn gắn:
+- tag: V
+điều đình:
+- tag: V
+tránh né:
+- tag: V
+truất:
+- tag: V
+tráng:
+- tag: V
+trông chờ:
+- tag: V
+hành hung:
+- tag: V
+lộn:
+- tag: V
+tự túc:
+- tag: V
+biến điệu:
+- tag: V
+gáy:
+- tag: V
+gây rối:
+- tag: V
+xâu:
+- tag: V
+thụ hưởng:
+- tag: V
+hận:
+- tag: V
+uỷ thác:
+- tag: V
+tịnh tiến:
+- tag: V
+tẩu thoát:
+- tag: V
+tước đoạt:
+- tag: V
+xuất huyết:
+- tag: V
+tát:
+- tag: V
+xác minh:
+- tag: V
+đóng đô:
+- tag: V
+lường:
+- tag: V
+bán buôn:
+- tag: V
+tân trang:
+- tag: V
+tạ:
+- tag: V
+lướt:
+- tag: V
+bào chữa:
+- tag: V
+hầu hạ:
+- tag: V
+tin dùng:
+- tag: V
+táng:
+- tag: V
+mê mẩn:
+- tag: V
+lan tràn:
+- tag: V
+hiệu đính:
+- tag: V
+lênh đênh:
+- tag: V
+vơi:
+- tag: V
+gõ cửa:
+- tag: V
+bố phòng:
+- tag: V
+tái phát:
+- tag: V
+tắc:
+- tag: V
+bênh vực:
+- tag: V
+hồi hộp:
+- tag: V
+nấu nướng:
+- tag: V
+ghép nối:
+- tag: V
+cứu tế:
+- tag: V
+tiếc nuối:
+- tag: V
+gờm:
+- tag: V
+ấp ủ:
+- tag: V
+đảm đương:
+- tag: V
+chung chạ:
+- tag: V
+xóc:
+- tag: V
+chịu thua:
+- tag: V
+chắn bóng:
+- tag: V
+viết lách:
+- tag: V
+ghi điểm:
+- tag: V
+chế ngự:
+- tag: V
+gối:
+- tag: V
+- tag: N
+chuyên tâm:
+- tag: V
+dụ dỗ:
+- tag: V
+lựa:
+- tag: V
+tham vấn:
+- tag: V
+vãn:
+- tag: V
+đàm thoại:
+- tag: V
+hao:
+- tag: V
+tham:
+- tag: V
+giao kết:
+- tag: V
+giao hợp:
+- tag: V
+thanh lý:
+- tag: V
+phỉ báng:
+- tag: V
+chĩa:
+- tag: V
+vu cáo:
+- tag: V
+đấu loại:
+- tag: V
+dẫn chứng:
+- tag: V
+nương:
+- tag: V
+hao mòn:
+- tag: V
+hao tổn:
+- tag: V
+bài tiết:
+- tag: V
+bài trừ:
+- tag: V
+yểm hộ:
+- tag: V
+ăn kiêng:
+- tag: V
+cưỡng hiếp:
+- tag: V
+tắc nghẽn:
+- tag: V
+ăn chơi:
+- tag: V
+cưu mang:
+- tag: V
+rít:
+- tag: V
+hoành hành:
+- tag: V
+nhập viện:
+- tag: V
+nhắm mắt:
+- tag: V
+trục lợi:
+- tag: V
+cảnh giới:
+- tag: V
+se:
+- tag: V
+trừ bỏ:
+- tag: V
+ngất xỉu:
+- tag: V
+trữ:
+- tag: V
+ngụ cư:
+- tag: V
+ngập tràn:
+- tag: V
+tung hoành:
+- tag: V
+hận thù:
+- tag: V
+đối đáp:
+- tag: V
+ngợi ca:
+- tag: V
+tái chế:
+- tag: V
+quấy nhiễu:
+- tag: V
+quấy phá:
+- tag: V
+tích luỹ:
+- tag: V
+lùi bước:
+- tag: V
+ân hận:
+- tag: V
+tăng giá:
+- tag: V
+quỵ:
+- tag: V
+nhạo báng:
+- tag: V
+rung chuyển:
+- tag: V
+tái hợp:
+- tag: V
+khía:
+- tag: V
+- tag: N
+tán sắc:
+- tag: V
+cách nhiệt:
+- tag: V
+cám dỗ:
+- tag: V
+quả quyết:
+- tag: V
+tâm sự:
+- tag: V
+luyện kim:
+- tag: V
+trúng tuyển:
+- tag: V
+nghị sự:
+- tag: V
+nom:
+- tag: V
+hiếp dâm:
+- tag: V
+suy tính:
+- tag: V
+e dè:
+- tag: V
+trông đợi:
+- tag: V
+nghiệm thu:
+- tag: V
+chối cãi:
+- tag: V
+uỷ nhiệm:
+- tag: V
+uốn lượn:
+- tag: V
+điểm huyệt:
+- tag: V
+trêu chọc:
+- tag: V
+chồng chéo:
+- tag: V
+trì:
+- tag: V
+khuếch tán:
+- tag: V
+lui tới:
+- tag: V
+tróc:
+- tag: V
+trói buộc:
+- tag: V
+trốn thuế:
+- tag: V
+qui:
+- tag: V
+trọng vọng:
+- tag: V
+quy kết:
+- tag: V
+sinh tử:
+- tag: V
+đối chiếu:
+- tag: V
+cất tiếng:
+- tag: V
+yên nghỉ:
+- tag: V
+siết:
+- tag: V
+tự cường:
+- tag: V
+định đô:
+- tag: V
+co giãn:
+- tag: V
+quan ngại:
+- tag: V
+làm bạn:
+- tag: V
+khảo cứu:
+- tag: V
+hoà giải:
+- tag: V
+mướn:
+- tag: V
+lau:
+- tag: V
+đánh đồng:
+- tag: V
+hỏi han:
+- tag: V
+vẫy:
+- tag: V
+giải khát:
+- tag: V
+đại tu:
+- tag: V
+diễn nghĩa:
+- tag: V
+canh phòng:
+- tag: V
+xài:
+- tag: V
+hối tiếc:
+- tag: V
+đút lót:
+- tag: V
+bôi:
+- tag: V
+bóc:
+- tag: V
+thôi việc:
+- tag: V
+thuyết giáo:
+- tag: V
+gièm pha:
+- tag: V
+thụ tinh:
+- tag: V
+bồi tụ:
+- tag: V
+vỗ:
+- tag: V
+kiếm ăn:
+- tag: V
+mong ước:
+- tag: V
+- tag: N
+nối kết:
+- tag: V
+hô hào:
+- tag: V
+khai triển:
+- tag: V
+khai thông:
+- tag: V
+giảm phát:
+- tag: V
+đón chào:
+- tag: V
+khinh:
+- tag: V
+vọng:
+- tag: V
+thịnh nộ:
+- tag: V
+thêu:
+- tag: V
+đãi:
+- tag: V
+bổ nhào:
+- tag: V
+đâm đơn:
+- tag: V
+thám thính:
+- tag: V
+bưng:
+- tag: V
+xuất cảnh:
+- tag: V
+dung nạp:
+- tag: V
+phát bóng:
+- tag: V
+nể:
+- tag: V
+nới:
+- tag: V
+thương tổn:
+- tag: V
+vỡ nợ:
+- tag: V
+ứng nghiệm:
+- tag: V
+xen lẫn:
+- tag: V
+thực tập:
+- tag: V
+bận:
+- tag: V
+xiết:
+- tag: V
+xâm hại:
+- tag: V
+giúp sức:
+- tag: V
+thổ:
+- tag: V
+bằng lòng:
+- tag: V
+xoay chuyển:
+- tag: V
+thúc ép:
+- tag: V
+phai:
+- tag: V
+thiên vị:
+- tag: V
+hùng biện:
+- tag: V
+.nan:
+- tag: N
+hoa quả:
+- tag: N
+pháp sư:
+- tag: N
+bánh quy:
+- tag: N
+vế:
+- tag: N
+động cơ nhiệt:
+- tag: N
+tạng:
+- tag: N
+đại thừa:
+- tag: N
+lưỡi lê:
+- tag: N
+người đời:
+- tag: N
+bán nguyệt:
+- tag: N
+lá lốt:
+- tag: N
+mốt:
+- tag: N
+động lực học:
+- tag: N
+rêu:
+- tag: N
+đường sông:
+- tag: N
+vườn ươm:
+- tag: N
+kết tủa:
+- tag: N
+chiến tích:
+- tag: N
+lợi tức:
+- tag: N
+hình nón:
+- tag: N
+hộp số:
+- tag: N
+dung lượng:
+- tag: N
+ngỗng:
+- tag: N
+chủ nghĩa nhân văn:
+- tag: N
+thương thuyền:
+- tag: N
+mỏm:
+- tag: N
+dông:
+- tag: N
+chuyên luận:
+- tag: N
+binh pháp:
+- tag: N
+phương sách:
+- tag: N
+hoàng thất:
+- tag: N
+cơ quan hành chính:
+- tag: N
+quê quán:
+- tag: N
+ngai:
+- tag: N
+vàng bạc:
+- tag: N
+đĩa mềm:
+- tag: N
+biên cương:
+- tag: N
+lề:
+- tag: N
+tháng chạp:
+- tag: N
+cơ số:
+- tag: N
+festival:
+- tag: N
+quân dân:
+- tag: N
+dã sử:
+- tag: N
+phật đản:
+- tag: N
+biển cả:
+- tag: N
+bàn chải:
+- tag: N
+fan:
+- tag: N
+lan can:
+- tag: N
+ụ tàu:
+- tag: N
+biến thế:
+- tag: N
+byte:
+- tag: N
+mật vụ:
+- tag: N
+chà:
+- tag: N
+lộc:
+- tag: N
+ngoại vi:
+- tag: N
+mái tóc:
+- tag: N
+trung học cơ sở:
+- tag: N
+bệnh tâm thần:
+- tag: N
+địa tầng học:
+- tag: N
+bổn phận:
+- tag: N
+triết:
+- tag: N
+nhân sinh quan:
+- tag: N
+nhân mạng:
+- tag: N
+truyện cổ tích:
+- tag: N
+giun:
+- tag: N
+múi giờ:
+- tag: N
+cụm từ:
+- tag: N
+củ nâu:
+- tag: N
+trạng:
+- tag: N
+sàng:
+- tag: N
+hiện giờ:
+- tag: N
+trường ca:
+- tag: N
+pc:
+- tag: N
+đốc:
+- tag: N
+bóng bàn:
+- tag: N
+loa:
+- tag: N
+bẹ:
+- tag: N
+khách thể:
+- tag: N
+thủ thư:
+- tag: N
+cầu cảng:
+- tag: N
+tiết mục:
+- tag: N
+bạn đọc:
+- tag: N
+cẩm chướng:
+- tag: N
+tim mạch:
+- tag: N
+tinh hoàn:
+- tag: N
+thợ săn:
+- tag: N
+đầm phá:
+- tag: N
+thời giá:
+- tag: N
+băng video:
+- tag: N
+cổ tích:
+- tag: N
+sữa chua:
+- tag: N
+băng hình:
+- tag: N
+entropy:
+- tag: N
+thuỷ:
+- tag: N
+máy in:
+- tag: N
+cao trình:
+- tag: N
+ä:
+- tag: N
+hydrocarbon:
+- tag: N
+gia tài:
+- tag: N
+nhà giam:
+- tag: N
+phim nhựa:
+- tag: N
+bánh đậu xanh:
+- tag: N
+thang máy:
+- tag: N
+ký lục:
+- tag: N
+nhiệt hạch:
+- tag: N
+bát quái:
+- tag: N
+hạ tầng cơ sở:
+- tag: N
+công nương:
+- tag: N
+công năng:
+- tag: N
+thạch cao:
+- tag: N
+sol:
+- tag: N
+bình nguyên:
+- tag: N
+cử chỉ:
+- tag: N
+gia sản:
+- tag: N
+độ ph:
+- tag: N
+lựu pháo:
+- tag: N
+đại bộ phận:
+- tag: N
+bạc hà:
+- tag: N
+la bàn:
+- tag: N
+bánh chưng:
+- tag: N
+kiện tướng:
+- tag: N
+ký giả:
+- tag: N
+hạ sĩ:
+- tag: N
+bản thể luận:
+- tag: N
+phím:
+- tag: N
+bắp:
+- tag: N
+giàn:
+- tag: N
+quai:
+- tag: N
+lưu manh:
+- tag: N
+thiên chúa:
+- tag: N
+sex:
+- tag: N
+đồng tác giả:
+- tag: N
+kẹo:
+- tag: N
+chứng bệnh:
+- tag: N
+số dương:
+- tag: N
+sau cùng:
+- tag: N
+cây viết:
+- tag: N
+thanh danh:
+- tag: N
+câu lệnh:
+- tag: N
+pháp lệnh:
+- tag: N
+hạt trần:
+- tag: N
+thuốc mê:
+- tag: N
+bảng nhãn:
+- tag: N
+chủ nghĩa quân phiệt:
+- tag: N
+rượu đế:
+- tag: N
+bất đẳng thức:
+- tag: N
+đối số:
+- tag: N
+đẳng thức:
+- tag: N
+bom đạn:
+- tag: N
+thang độ:
+- tag: N
+bá:
+- tag: N
+liên bộ:
+- tag: N
+quân lương:
+- tag: N
+sách đỏ:
+- tag: N
+bồi thẩm:
+- tag: N
+tai ương:
+- tag: N
+chóp:
+- tag: N
+bệnh tình:
+- tag: N
+tam quan:
+- tag: N
+ž:
+- tag: N
+găng tay:
+- tag: N
+siêu sao:
+- tag: N
+kim ngạch:
+- tag: N
+buôn làng:
+- tag: N
+gốc rễ:
+- tag: N
+gián:
+- tag: N
+lô cốt:
+- tag: N
+ten:
+- tag: N
+kiều dân:
+- tag: N
+chiến cuộc:
+- tag: N
+băng chuyền:
+- tag: N
+cám:
+- tag: N
+clo:
+- tag: N
+ống khói:
+- tag: N
+ống nhòm:
+- tag: N
+gờ:
+- tag: N
+kè:
+- tag: N
+ống xả:
+- tag: N
+chất hữu cơ:
+- tag: N
+me:
+- tag: N
+giọng điệu:
+- tag: N
+ảo tưởng:
+- tag: N
+chân đế:
+- tag: N
+sinh kế:
+- tag: N
+quyền uy:
+- tag: N
+thiếu sinh quân:
+- tag: N
+hành tây:
+- tag: N
+cao trào:
+- tag: N
+sông nước:
+- tag: N
+cá cóc:
+- tag: N
+tửu:
+- tag: N
+ngũ hành:
+- tag: N
+cần cẩu:
+- tag: N
+yến:
+- tag: N
+mùi vị:
+- tag: N
+xung lượng:
+- tag: N
+tấn:
+- tag: N
+nhậy:
+- tag: N
+viện sĩ:
+- tag: N
+thú vui:
+- tag: N
+mét:
+- tag: N
+thư tín:
+- tag: N
+ngôn ngữ máy:
+- tag: N
+thời khắc:
+- tag: N
+khoáng:
+- tag: N
+dẫn xuất:
+- tag: N
+violon:
+- tag: N
+binh lực:
+- tag: N
+gene:
+- tag: N
+thân củ:
+- tag: N
+đoàn viên:
+- tag: N
+trường quay:
+- tag: N
+dưa:
+- tag: N
+nhà trẻ:
+- tag: N
+liều lượng:
+- tag: N
+vàng son:
+- tag: N
+cơ điện:
+- tag: N
+thứ hai:
+- tag: N
+č:
+- tag: N
+hiên:
+- tag: N
+audio:
+- tag: N
+tổng đài:
+- tag: N
+thảm hoạ:
+- tag: N
+nguyên do:
+- tag: N
+xạ:
+- tag: N
+trực hệ:
+- tag: N
+tổng cục trưởng:
+- tag: N
+thẻ vàng:
+- tag: N
+trinh nữ:
+- tag: N
+tời:
+- tag: N
+tờ rơi:
+- tag: N
+cứu thương:
+- tag: N
+thằn lằn:
+- tag: N
+dạng thức:
+- tag: N
+xã luận:
+- tag: N
+đa nhiệm:
+- tag: N
+tố:
+- tag: N
+bao bì:
+- tag: N
+vi mô:
+- tag: N
+vi phân:
+- tag: N
+thương cảng:
+- tag: N
+trọng lực:
+- tag: N
+nhà kho:
+- tag: N
+hormone:
+- tag: N
+hoàng hôn:
+- tag: N
+uy thế:
+- tag: N
+nhím:
+- tag: N
+mê cung:
+- tag: N
+hội chứng:
+- tag: N
+tháng giêng:
+- tag: N
+đường hàng không:
+- tag: N
+đường dẫn:
+- tag: N
+thành đồng:
+- tag: N
+lá chắn:
+- tag: N
+na:
+- tag: N
+tàu bè:
+- tag: N
+cơ quan chức năng:
+- tag: N
+vĩ:
+- tag: N
+tiền đồ:
+- tag: N
+đường nét:
+- tag: N
+điện trở suất:
+- tag: N
+nước bọt:
+- tag: N
+điện tín:
+- tag: N
+điển:
+- tag: N
+tiền giấy:
+- tag: N
+tiếng động:
+- tag: N
+thành phẩm:
+- tag: N
+hội đồng quản trị:
+- tag: N
+trí óc:
+- tag: N
+làn:
+- tag: N
+võ đường:
+- tag: N
+nhà trọ:
+- tag: N
+ngữ nghĩa:
+- tag: N
+trướng:
+- tag: N
+tính tình:
+- tag: N
+võ sư:
+- tag: N
+chung cuộc:
+- tag: N
+tiểu đường:
+- tag: N
+mũi đất:
+- tag: N
+tiếng địa phương:
+- tag: N
+kí tự:
+- tag: N
+rợ:
+- tag: N
+răng cưa:
+- tag: N
+ť:
+- tag: N
+sản:
+- tag: N
+cây thuốc:
+- tag: N
+sổ tay:
+- tag: N
+rơm:
+- tag: N
+tối hậu thư:
+- tag: N
+sếu:
+- tag: N
+nhiệt huyết:
+- tag: N
+đồng ruộng:
+- tag: N
+hình thái học:
+- tag: N
+thẻ đỏ:
+- tag: N
+cầy:
+- tag: N
+luận điểm:
+- tag: N
+tục ngữ:
+- tag: N
+sở trường:
+- tag: N
+chi bộ:
+- tag: N
+bóng ném:
+- tag: N
+mũi tên:
+- tag: N
+chuyên đề:
+- tag: N
+dụng ý:
+- tag: N
+tổng tham mưu trưởng:
+- tag: N
+thế trận:
+- tag: N
+còi:
+- tag: N
+xương rồng:
+- tag: N
+sản vật:
+- tag: N
+tiểu đoàn trưởng:
+- tag: N
+thực khách:
+- tag: N
+thế giới quan:
+- tag: N
+âm điệu:
+- tag: N
+š:
+- tag: N
+cau:
+- tag: N
+concerto:
+- tag: N
+rác thải:
+- tag: N
+thứ ba:
+- tag: N
+phân số:
+- tag: N
+nhịp điệu:
+- tag: N
+sinh lý:
+- tag: N
+nội đô:
+- tag: N
+nhịp độ:
+- tag: N
+phim trường:
+- tag: N
+cây ăn trái:
+- tag: N
+tiểu khu:
+- tag: N
+hình khối:
+- tag: N
+tuất:
+- tag: N
+hậu trường:
+- tag: N
+nha khoa:
+- tag: N
+kẽ:
+- tag: N
+dĩ vãng:
+- tag: N
+cổ sinh vật học:
+- tag: N
+ngọc trai:
+- tag: N
+người hùng:
+- tag: N
+thứ bậc:
+- tag: N
+phân đoạn:
+- tag: N
+thớ:
+- tag: N
+đàn ống:
+- tag: N
+tệ nạn:
+- tag: N
+ľ:
+- tag: N
+mầm mống:
+- tag: N
+ŕ:
+- tag: N
+hạc:
+- tag: N
+đặc vụ:
+- tag: N
+tia vũ trụ:
+- tag: N
+tiêu chảy:
+- tag: N
+sự tích:
+- tag: N
+khí thế:
+- tag: N
+đức tính:
+- tag: N
+âm phủ:
+- tag: N
+điếu:
+- tag: N
+hoạt chất:
+- tag: N
+ổ đĩa:
+- tag: N
+hòm:
+- tag: N
+quan tiền:
+- tag: N
+khối u:
+- tag: N
+lí thuyết:
+- tag: N
+nghiên:
+- tag: N
+văn võ:
+- tag: N
+sáp:
+- tag: N
+chỗ đứng:
+- tag: N
+cúm:
+- tag: N
+version:
+- tag: N
+bão táp:
+- tag: N
+quả phụ:
+- tag: N
+tự thân:
+- tag: N
+trần gian:
+- tag: N
+chính tả:
+- tag: N
+mặt cầu:
+- tag: N
+phim truyện:
+- tag: N
+mùa màng:
+- tag: N
+parabol:
+- tag: N
+trọng trường:
+- tag: N
+trọng tội:
+- tag: N
+cua:
+- tag: N
+ả:
+- tag: N
+uất hận:
+- tag: N
+phúc:
+- tag: N
+vận mệnh:
+- tag: N
+hồng xiêm:
+- tag: N
+pháp nhân:
+- tag: N
+nhiệt lượng:
+- tag: N
+áo khoác:
+- tag: N
+sao băng:
+- tag: N
+kỳ công:
+- tag: N
+kịch nói:
+- tag: N
+thân mềm:
+- tag: N
+công xưởng:
+- tag: N
+khuyết:
+- tag: N
+eo:
+- tag: N
+hạt dẻ:
+- tag: N
+giang sơn:
+- tag: N
+cầu vượt:
+- tag: N
+methane:
+- tag: N
+o:
+- tag: N
+công tắc:
+- tag: N
+nấm men:
+- tag: N
+trung đại:
+- tag: N
+sân chơi:
+- tag: N
+đá hoa cương:
+- tag: N
+nước khoáng:
+- tag: N
+hải dương:
+- tag: N
+cúc vạn thọ:
+- tag: N
+nhật thực:
+- tag: N
+của:
+- tag: E
+tại:
+- tag: E

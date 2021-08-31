@@ -82,7 +82,8 @@ if __name__ == '__main__':
         ["V", "verb"],
         ["N", "noun"],
         ["A", "adjective"],
-        ["P", "pronoun"]
+        ["P", "pronoun"],
+        ["E", "preposition"]
     ]
     vlsp_cache_file = join(DICTIONARY_FOLDER, "data", "vlsp_cache.bin")
     vlsp_cache = Cache.load(vlsp_cache_file)
