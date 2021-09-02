@@ -43,7 +43,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
-💫 [**Version 1.3.2 out now!**](https://github.com/undertheseanlp/underthesea/releases)
+💫 [**Version 1.3.3 out now!**](https://github.com/undertheseanlp/underthesea/releases)
 
 ## Installation
 
