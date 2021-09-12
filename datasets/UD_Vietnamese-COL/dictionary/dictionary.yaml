@@ -659,8 +659,20 @@ bít:
 bít bùng:
 - tag: A
 bò:
-- tag: N
-- tag: V
+- description: Động vật to, chân cao có hai móng, sừng tròn và ngắn, lông thường màu
+    vàng, nuôi để kéo cày, kéo xe, lấy sữa, ăn thịt.
+  examples:
+  - Nuôi bò.
+  - Chăn bò.
+  - Yếu trâu còn hơn khoẻ bò. (tục ngữ)
+  - Ngày đông tháng giá bò dò làm sao. (ca dao)
+  tag: N
+- description: (Động vật học) Di chuyển thân thể áp xuống bề mặt, bằng cử động toàn
+    thân hoặc chân rất nhỏ.
+  examples:
+  - Rắn bò.
+  - Lổm ngổm như cua bò.
+  tag: V
 bò sát:
 - tag: N
 bó:
@@ -5104,7 +5116,31 @@ guốc:
 guồng máy:
 - tag: N
 gà:
-- tag: N
+- description: (Động vật học) Loài chim nuôi (gia cầm) để lấy thịt và trứng, bay kém,
+    mỏ cứng, con trống có cựa và biết gáy.
+  examples:
+  - Bán gà ngày gió, bán chó ngày mưa. (tục ngữ)
+  - Gà người gáy, gà nhà ta sáng. (tục ngữ)
+  tag: N
+- description: Đánh cuộc riêng trong một ván bài tổ tôm hay tài bàn ngoài số tiền
+    góp chính.
+  examples:
+  - Gà lần nào cũng thua thì đánh làm gì.
+  tag: V
+- description: Làm hộ bài.
+  examples:
+  - Để em nó tự làm toán, anh đừng gà cho nó
+  tag: V
+- description: Mách nước.
+  examples:
+  - Cờ đương bí, ông ấy chỉ gà cho một nước mà thành thắng.
+  tag: V
+- description: Chỉ một người làm việc còn chưa thành thạo (thường để chỉ giai đoạn
+    đầu)
+  examples:
+  - Mày chơi gà lắm.
+  - Thằng gà!
+  tag: A
 gà chọi:
 - tag: N
 gài:
@@ -8568,7 +8604,12 @@ lợi ích:
 lợi điểm:
 - tag: N
 lợn:
-- tag: N
+- description: Loài động vật có guốc, thuộc bộ ngẫu đề, da dày, có nhiều mỡ, nuôi
+    để ăn thịt.
+  examples:
+  - Thịt heo là một loại thực phẩm rất phổ biến trên thế giới, tiêu thụ thịt lợn của
+    người Việt chiếm tới 73,3%
+  tag: N
 lợp:
 - tag: V
 lụa:
@@ -8869,7 +8910,12 @@ mãn tính:
 mãnh liệt:
 - tag: A
 mèo:
-- tag: N
+- description: động vật có vú, nhỏ nhắn và chuyên ăn thịt, sống chung với loài người,
+    được nuôi để săn vật gây hại hoặc làm thú nuôi cùng với chó nhà
+  examples:
+  - Con mèo mà trèo cây cau. Hỏi thăm chú chuột đi đâu vắng nhà.
+  - Chúng ta hiểu về hành vi và tính cách của mèo ít hơn so với của chó
+  tag: N
 méo:
 - tag: A
 méo mó:
@@ -9962,7 +10008,10 @@ ngồi tù:
 ngổn ngang:
 - tag: A
 ngỗng:
-- tag: N
+- description: Loài chim cùng họ với vịt nhưng cổ dài.
+  examples:
+  - Em bé chăn đàn ngỗng ra bãi cỏ.
+  tag: N
 ngộ:
 - tag: A
 ngộ nhận:
@@ -9972,7 +10021,11 @@ ngộ độc:
 ngột ngạt:
 - tag: A
 ngớ ngẩn:
-- tag: A
+- description: Thờ thẫn như mất trí khôn.
+  examples:
+  - Những sai lầm ngớ ngẩn từng được vẽ trên bản đồ thế giới
+  - 9 lý do kỳ lạ và ngớ ngẩn khiến các cặp đôi quyết định ly hôn
+  tag: A
 ngờ:
 - tag: V
 ngỡ ngàng:
@@ -9990,7 +10043,13 @@ ngụ ngôn:
 ngụ ý:
 - tag: N
 ngủ:
-- tag: V
+- description: Ngủ là trạng thái không có ý thức tự nhiên, trong đó, hoạt động não
+    không thấy rõ, ngoài việc tiếp tục duy trì các chức năng cơ thể căn bản như hô
+    hấp, tuần hoàn.
+  examples:
+  - Vì sao người Nhật thích ngủ trên sàn nhà?
+  - Ngủ ít hơn 6 giờ một đêm có nguy cơ mắc chứng sa sút trí tuệ cao
+  tag: V
 ngừng:
 - tag: V
 ngừng bắn:
@@ -15621,7 +15680,12 @@ trân châu:
 trân trọng:
 - tag: V
 trâu:
-- tag: N
+- description: Động vật nhai lại, sừng rỗng và cong, lông thưa và thường đen, ưa đầm
+    nước, nuôi để lấy sức kéo, ăn thịt hay lấy sữa.
+  examples:
+  - Khoẻ như trâu.
+  - Bờm rằng Bờm chẳng lấy trâu (ca dao)
+  tag: N
 trâu bò:
 - tag: N
 trèo:
@@ -18958,11 +19022,19 @@ z:
 ý đồ:
 - tag: N
 ăn:
-- tag: V
+- description: Cho vào cơ thể qua miệng.
+  examples:
+  - Ăn có nhai, nói có nghĩ. (tục ngữ)
+  tag: V
 ăn bám:
 - tag: V
 ăn chay:
-- tag: V
+- description: Ăn cơm chay để tu hành, theo đạo Phật và một số tôn giáo khác.
+  examples:
+  - Ăn chay niệm Phật.
+  - Ăn chay ngày rằm và mồng một.
+  - Ăn mặn nói ngay còn hơn ăn chay nói dối (tục ngữ)
+  tag: V
 ăn chơi:
 - tag: V
 ăn cướp:
