@@ -8,15 +8,16 @@ Step 1: Install dependencies
 pip install streamlit
 ```
 
-Step 2: Download Elasticsearch
+Step 2: Run Elasticsearch
 
 ```
-docker run elasticsearch:7.14.1
+cd components/elasticsearch
+docker-compose up
 ```
 
-Run application
+Step 3: Run application
 
 ```
-streamlit run col_streamlit.py 
+streamlit run col_dictionary.py 
 ```
 
