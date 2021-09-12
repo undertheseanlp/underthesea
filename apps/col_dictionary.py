@@ -24,6 +24,7 @@ init_word = 'a'
 def switch_word(word):
     st.session_state['current_word'] = word
     st.session_state['current_word_data'] = dictionary.get_word(word)
+    st.session_state['current_next_words'] = dictionary.get_next_words(word)
 
 
 if __name__ == '__main__':
@@ -41,10 +42,10 @@ if __name__ == '__main__':
     placeholder = st.sidebar.empty()
     search_text_box = placeholder.text_input('Word', value=st.session_state['current_word'], key='sidebar_text_input')
     if search_text_box:
-        st.session_state['current_word'] = search_text_box
+        switch_word(search_text_box)
 
     buttons = {}
-    for word in dictionary.words[:15]:
+    for word in st.session_state['current_next_words']:
         buttons[word] = st.sidebar.button(label=word, key=word)
         if buttons[word]:
             switch_word(word)

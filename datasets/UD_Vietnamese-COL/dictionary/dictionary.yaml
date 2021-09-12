@@ -2603,7 +2603,11 @@ chữ ký:
 chữ nho:
 - tag: N
 chữ quốc ngữ:
-- tag: N
+- description: Loại chữ ghi âm tiếng Việt dựa trên bảng chữ cái La-tinh, hiện là chữ
+    viết chính thức của Việt Nam.
+  examples:
+  - Là một người Việt Nam, phải đọc thông, viết thạo chữ Quốc ngữ
+  tag: N
 chữ thập:
 - tag: N
 chữ thập đỏ:

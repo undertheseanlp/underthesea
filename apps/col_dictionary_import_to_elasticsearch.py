@@ -16,6 +16,6 @@ if __name__ == '__main__':
             "headword": word_key,
             "senses": value
         }
-        es.index(index='dictionary', body=data, id=word_key)
+        # es.index(index='dictionary', body=data, id=word_key)
         if i % 1000 == 0 and i > 0:
             print(i)

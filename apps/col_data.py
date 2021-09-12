@@ -10,6 +10,15 @@ class Dictionary:
         ids = [h.meta.id for h in s.scan()]
         words = sorted(ids)
         self.words = words
+        self.i2w = {}
+        self.w2i = {}
+        for i, word in enumerate(self.words):
+            self.i2w[i] = word
+            self.w2i[word] = i
+
+    def get_next_words(self, word, n=15):
+        index = self.w2i[word]
+        return self.words[index:index + n]
 
     def get_word(self, word):
         if word not in self.words:
