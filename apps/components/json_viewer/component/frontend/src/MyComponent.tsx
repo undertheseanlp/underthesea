@@ -46,6 +46,8 @@ class JsonViewer extends StreamlitComponentBase<State> {
         onEdit={this.onChanged}
         onDelete={this.onChanged}
         onAdd={this.onChanged}
+        name={null}
+        displayDataTypes={false}
       />
     )
   }
