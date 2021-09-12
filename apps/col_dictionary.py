@@ -1,14 +1,14 @@
 import os
 from os.path import join
-
 import streamlit as st
 import streamlit.components.v1 as components
+
+from apps.col_data import Dictionary
 
 st.set_page_config(
     page_title="Dictionary App",
     layout="wide",
 )
-
 json_viewer_build_dir = join(
     os.path.dirname(os.path.abspath(__file__)),
     "components", "json_viewer", "component", "frontend", "build"
@@ -17,29 +17,44 @@ json_viewer = components.declare_component(
     "json_viewer",
     path=json_viewer_build_dir
 )
+dictionary = Dictionary()
+init_word = 'a'
 
-# SIDEBAR
-add_selectbox = st.sidebar.text_input('Word', value="gà")
 
-# MAIN
-st.write('# Dictionary')
-st.text_input('Word', key=1, value="gà")
-data = [
-    {
-        "description": "(Động vật học) Loài chim nuôi (gia cầm) để lấy thịt và trứng, bay kém, mỏ cứng, con trống có cựa và biết gáy.",
-        "tag": "noun",
-        "examples": [
-            "Bán gà ngày gió, bán chó ngày mưa. (tục ngữ)",
-            "Gà người gáy, gà nhà ta sáng. (tục ngữ)"
-        ]
-    },
-    {
-        "description": "Đánh cuộc riêng trong một ván bài tổ tôm hay tài bàn ngoài số tiền góp chính",
-        "tag": "verb",
-        "examples": [
-            "Gà lần nào cũng thua thì đánh làm gì."
-        ]
+def switch_word(word):
+    st.session_state['current_word'] = word
+    st.session_state['current_word_data'] = dictionary.get_word(word)
+    st.session_state['current_next_words'] = dictionary.get_next_words(word)
+
+
+if __name__ == '__main__':
+    if 'current_word' not in st.session_state:
+        switch_word(init_word)
+
+    # SIDEBAR
+    m = st.markdown("""
+    <style>
+    div.stButton > button {
+        width: 100%;
     }
-]
+    </style>""", unsafe_allow_html=True)
 
-output_data = json_viewer(json_object=data, label=0)
+    placeholder = st.sidebar.empty()
+    search_text_box = placeholder.text_input('Word', value=st.session_state['current_word'], key='sidebar_text_input')
+    if search_text_box:
+        switch_word(search_text_box)
+
+    buttons = {}
+    for word in st.session_state['current_next_words']:
+        buttons[word] = st.sidebar.button(label=word, key=word)
+        if buttons[word]:
+            switch_word(word)
+
+    st.write('# Dictionary')
+    data = st.session_state['current_word_data']
+
+    output_data = json_viewer(json_object=data, label=0)
+
+    save_button = st.button('Save')
+    if save_button:
+        dictionary.save(st.session_state['current_word'], output_data)
