@@ -1,7 +1,10 @@
 ..:
 - tag: N
 a:
-- tag: N
+- description: Con chữ thứ nhất của bảng chữ cái chữ quốc ngữ (dạng viết thường);
+  examples:
+  - chữ cái a
+  tag: N
 acid:
 - tag: N
 ai:
@@ -17,7 +20,11 @@ alpha:
 am:
 - tag: N
 am hiểu:
-- tag: V
+- description: Hiểu biết rành rõ, tường tận
+  examples:
+  - Am hiểu âm nhạc.
+  - Am hiểu vấn đề.
+  tag: V
 an cư:
 - tag: V
 an nghỉ:
@@ -81,7 +88,10 @@ ban hành:
 ban ngành:
 - tag: N
 ban ngày:
-- tag: N
+- description: Khoảng thời gian trong ngày, trước lúc trời tối.
+  examples:
+  - Ở đây ban ngày thì nóng, ban đêm thì lại lạnh.
+  tag: N
 ban phát:
 - tag: V
 ban tặng:
@@ -106,7 +116,10 @@ bao cấp:
 bao giờ:
 - tag: P
 bao gồm:
-- tag: V
+- description: Chứa tất cả ở trong.
+  examples:
+  - Bao gồm đủ các tầng lớp trong xã hội (Hồ Chí Minh)
+  tag: V
 bao hoa:
 - tag: N
 bao hàm:
