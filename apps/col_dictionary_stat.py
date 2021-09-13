@@ -8,13 +8,13 @@ if __name__ == '__main__':
     words = yaml.safe_load(content)
     n_words = len(words)
     print('Head words:', len(words))
-    n_descriptions = 0
+    n_senses = 0
     n_examples = 0
     for word in words:
         for sense in words[word]:
             if "description" in sense:
-                n_descriptions += 1
+                n_senses += 1
             if "examples" in sense:
                 n_examples += len(sense["examples"])
-    print("Descriptions:", n_descriptions)
+    print("Senses:", n_senses)
     print("Examples:", n_examples)
