@@ -5382,7 +5382,21 @@ hen suyễn:
 heo:
 - tag: N
 hi sinh:
-- tag: V
+- description: Chết để người khác được sống.
+  examples:
+  - Mẹ hi sinh cứu con trong trận động đất.
+  tag: V
+- description: Chết khi đang làm nhiệm vụ (lính, công an, cảnh sát, quân đội (bộ đội))
+  examples:
+  - Anh đã hi sinh trong trận cuối.
+  - Chị công an hi sinh khi bắt tội phạm.
+  tag: V
+- description: Tự nguyện nhận thiệt thòi về phần mình để nhường lại ưu đãi cho người
+    khác.
+  examples:
+  - Mẹ đã hi sinh cả đời cho các con.
+  - Hôm nay tao hi sinh nửa tháng lương chiêu đãi tụi bây.
+  tag: V
 hi vọng:
 - tag: V
 - tag: N
@@ -5415,7 +5429,10 @@ hiền:
 hiền hậu:
 - tag: A
 hiền lành:
-- tag: A
+- description: là tính từ chỉ một người nào đó rất tốt bụng, hay giúp người
+  examples:
+  - cô gái quàng khăn đỏ rất hiền lành.
+  tag: A
 hiểm:
 - tag: A
 hiểm nghèo:
@@ -5429,7 +5446,11 @@ hiểm yếu:
 hiển hách:
 - tag: A
 hiển nhiên:
-- tag: A
+- description: Quá rõ ràng, không còn nghi ngờ, chối cãi được.
+  examples:
+  - Sự thật hiển nhiên.
+  - Một việc hiển nhiên.
+  tag: A
 hiển thị:
 - tag: V
 hiểu:
@@ -5480,7 +5501,14 @@ hiệp định:
 hiệp đồng:
 - tag: V
 hiệp ước:
-- tag: N
+- description: Điều ước loại quan trọng nhất do hai hay nhiều nước kí kết, trong đó
+    ghi rõ những điều cam kết của các bên về những vấn đề chính trị, quân sự, kinh
+    tế, văn hoá.
+  examples:
+  - Hiệp ước hữu nghị và hợp tác giữa hai nước.
+  - Hiệp ước quân sự.
+  - Hiệp ước quốc tế
+  tag: N
 hiệu:
 - tag: N
 hiệu chỉnh:
@@ -5509,9 +5537,18 @@ hiệu ứng:
 hiệu ứng nhà kính:
 - tag: N
 hoa:
-- tag: N
+- description: Cơ quan sinh sản hữu tính của cây hạt kín, thường có màu sắc và hương
+    thơm, được phân loại vào nhóm Magnoliophyta.
+  examples:
+  - đẹp như hoa
+  - hoa cỏ
+  - hoa lá
+  tag: N
 hoa hậu:
-- tag: N
+- description: Người đoạt giải nhất cuộc thi nhan sắc.
+  examples:
+  - Họ lợi dụng một hoa hậu để quảng cáo cho một thứ nước hoa.
+  tag: N
 hoa hồng:
 - tag: N
 hoa lệ:
@@ -5529,7 +5566,10 @@ hoa tiêu:
 hoa văn:
 - tag: N
 hoan hô:
-- tag: V
+- description: Reo mừng để tỏ lòng hoan nghênh hoặc tán thưởng.
+  examples:
+  - Hoan hô anh giải phóng quân, kính chào anh, con người đẹp nhất (Tố Hữu)
+  tag: V
 hoan hỉ:
 - tag: A
 hoan nghênh:
@@ -5543,7 +5583,10 @@ hoang mang:
 hoang mạc:
 - tag: N
 hoang phế:
-- tag: A
+- description: Ở tình trạng bỏ hoang lâu ngày, không có ai trông nom đến.
+  examples:
+  - Đất đai, vườn tược hoang phế.
+  tag: A
 hoang sơ:
 - tag: A
 hoang tàn:
@@ -5555,15 +5598,25 @@ hoang vu:
 hoang vắng:
 - tag: A
 hoang đường:
-- tag: A
+- description: Viển vông, không có thực.
+  examples:
+  - Câu chuyện hoang đường.
+  tag: A
 hormone:
 - tag: N
 hoà:
 - tag: A
 - tag: V
 hoà bình:
-- tag: N
-- tag: A
+- description: Trạng thái yên bình, không có chiến tranh.
+  examples:
+  - đấu tranh vì hoà bình
+  - bảo vệ hoà bình
+  tag: N
+- description: Không dùng đến vũ lực, không gây chiến tranh hoặc chuyện khó chịu.
+  examples:
+  - giải quyết mâu thuẫn bằng phương pháp hoà bình
+  tag: A
 hoà giải:
 - tag: V
 hoà hợp:
@@ -5609,9 +5662,17 @@ hoàng cung:
 hoàng gia:
 - tag: N
 hoàng hôn:
-- tag: N
+- description: Khoảng thời gian mặt trời mới lặn, ánh sáng yếu ớt và mờ dần.
+  examples:
+  - Bóng hoàng hôn.
+  - Hoàng hôn vừa xuống.
+  - Buổi hoàng hôn của cuộc đời.
+  tag: N
 hoàng hậu:
-- tag: N
+- description: Vợ ở bậc cao nhất của nhà vua.
+  examples:
+  - Hoàng hậu Nam Phương là vị hoàng hậu cuối cùng trong lịch sử Việt Nam.
+  tag: N
 hoàng kim:
 - tag: N
 hoàng thành:
@@ -5623,7 +5684,10 @@ hoàng thất:
 hoàng tộc:
 - tag: N
 hoàng tử:
-- tag: N
+- description: Con trai vua.
+  examples:
+  - Công chúa Elizabeth kết hôn với Hoàng tử Philip vào năm 1947
+  tag: N
 hoành hành:
 - tag: V
 hoành phi:
@@ -5635,7 +5699,12 @@ hoá:
 hoá chất:
 - tag: N
 hoá học:
-- tag: N
+- description: Bộ môn khoa học tự nhiên nghiên cứu về thành phần cấu tạo, tính chất,
+    và sự biến hóa của các chất.
+  examples:
+  - nhà hóa học
+  - cô gái đoạt Huy chương vàng Olympic hóa học quốc tế
+  tag: N
 hoá đơn:
 - tag: N
 hoán vị:
@@ -6377,8 +6446,26 @@ hồn:
 hồn nhiên:
 - tag: A
 hồng:
-- tag: N
-- tag: A
+- description: Loài cây cùng họ với cây thị, quả khi xanh thì có vị chát, khi chín
+    thì ngọt.
+  examples:
+  - Để ta mua cốm, mua hồng sang sêu. (ca dao)
+  - Thà rằng ăn nửa quả hồng, còn hơn ăn cả chùm sung chát lè. (ca dao)
+  tag: N
+- description: Loài cây nhỏ cùng họ với đào, mận, thân có gai, lá có răng cưa, hoa
+    gồm nhiều cánh hoặc trắng hoặc đỏ và có hương thơm.
+  examples:
+  - Tặng bạn một bó hoa hồng nhân dịp sinh nhật.
+  tag: N
+- description: Ngỗng trời có lông tơ rất mịn, bay cao.
+  examples:
+  - Đường mây chưa bổng cánh hồng (Tản Đà)
+  - Nhẹ như lông hồng. (tục ngữ)
+  tag: N
+- description: màu đỏ nhạt
+  examples:
+  - Trời xanh quen thói má hồng đánh ghen (Truyện Kiều)
+  tag: A
 hồng hào:
 - tag: A
 hồng ngoại:
@@ -17690,8 +17777,16 @@ vuông góc:
 vuốt:
 - tag: V
 vàng:
-- tag: N
-- tag: A
+- description: nguyên tố hoá học có kí hiệu Au và số nguyên tử 79 trong bảng tuần
+    hoàn, một của kim loại quý
+  examples:
+  - Vàng là nguyên tố hóa học có ký hiệu Au
+  tag: N
+- description: màu sắc của ánh sáng tác động đều lên hai loại tế bào cảm thụ màu đỏ
+    và tế bào cảm thụ màu lục và rất yếu lên tế bào cảm thụ màu lam của mắt người
+  examples:
+  - màu vàng
+  tag: A
 vàng bạc:
 - tag: N
 vàng mã:
@@ -18288,7 +18383,24 @@ xa xưa:
 xa xỉ:
 - tag: A
 xanh:
-- tag: A
+- description: 'Chỉ màu sắc: màu lá cây hoặc màu nước biển hay có màu như da trời
+    không vẩn mây.'
+  examples:
+  - cây xanh thì lá cũng xanh, cha mẹ hiền lành để đức cho con (ca dao)
+  tag: A
+- description: 'Chỉ màu sắc: nói nước da người ốm lâu.'
+  examples:
+  - Mới ốm dậy, da còn xanh
+  tag: A
+- description: 'Chỉ sự chưa trưởng thành: hoa quả chưa chín.'
+  examples:
+  - Quả vẫn còn xanh.
+  - Không nên ăn ổi xanh.
+  tag: A
+- description: 'Chỉ sự chưa trưởng thành: còn trẻ.'
+  examples:
+  - Tuổi xanh.
+  tag: A
 xanh lam:
 - tag: A
 xay:
@@ -20278,6 +20390,20 @@ z:
 - tag: V
 đỏ:
 - tag: A
+- description: Có màu như máu, như son.
+  examples:
+  - Cờ đỏ sao vàng.
+  - Khăn quàng đỏ
+  tag: A
+- description: Đã cháy.
+  examples:
+  - Than còn đỏ.
+  - null
+  tag: A
+- description: May mắn.
+  examples:
+  - Vận đỏ
+  tag: A
 đỏ rực:
 - tag: A
 đốc:
