@@ -356,8 +356,34 @@ buốt:
 buồm:
 - tag: N
 buồn:
-- tag: A
-- tag: V
+- description: Có tâm trạng tiêu cực, không thích thú của người đang gặp việc đau
+    thương hoặc đang có điều không được như ý; mất hứng thú.
+  examples:
+  - Mẹ buồn vì con hư.
+  - Điện chia buồn.
+  tag: A
+- description: Có tác dụng làm cho buồn.
+  examples:
+  - Tin buồn.
+  - Cảnh buồn.
+  tag: A
+- description: (Dùng trước danh từ) Có cảm giác bứt rứt khó chịu trong cơ thể, muốn
+    có cử chỉ, hành động nào đó.
+  examples:
+  - Buồn chân buồn tay.
+  - Buồn miệng hát nghêu ngao.
+  tag: A
+- description: Có tâm trạng tiêu cực, không thích thú của người đang gặp việc đau
+    thương hoặc đang có điều không được như ý.
+  examples:
+  - Mẹ buồn vì con hư.
+  tag: V
+- description: (Dùng có kèm ý phủ định) Cảm thấy muốn; thiết.
+  examples:
+  - Mệt mỏi, chân tay không buồn nhúc nhích.
+  - Chán chẳng buồn làm.
+  - Không ai buồn nhắc đến nữa!
+  tag: V
 buồn bã:
 - tag: A
 buồn cười:
@@ -538,8 +564,29 @@ bánh đa:
 bánh đậu xanh:
 - tag: N
 báo:
-- tag: N
-- tag: V
+- description: (Động vật học) Loài thú cùng họ với hổ, lông có những đốm nhỏ màu sẫm.
+  examples:
+  - Báo chết để da, người ta chết để tiếng. (tục ngữ).
+  tag: N
+- description: Xuất bản phẩm có định kì đăng tin tức, bài viết, tranh ảnh để thông
+    tin, tuyên truyền, vận động, nghiên cứu, nghị luận, đấu tranh tư tưởng.
+  examples:
+  - Báo hằng ngày.
+  - Báo hằng tuần.
+  - Báo khoa học.
+  tag: N
+- description: Nói cho biết.
+  examples:
+  - Báo tin mừng
+  tag: V
+- description: Cho nhà chức trách biết một việc đã xảy ra.
+  examples:
+  - Báo công an về một vụ trộm.
+  tag: V
+- description: Làm phiền, làm hại.
+  examples:
+  - Chẳng làm ăn gì, chỉ báo cha mẹ.
+  tag: V
 báo chí:
 - tag: N
 báo cáo:
@@ -2091,7 +2138,15 @@ chính đảng:
 chòm sao:
 - tag: N
 chó:
-- tag: N
+- description: động vật họ chồn được thuần hóa và sử dụng như vật nuôi trong nhà.
+  examples:
+  - Chó là động vật rất trung thành và đáng tin cậy.
+  tag: N
+- description: Có thể dùng để chửi thề. (từ thô tục)
+  examples:
+  - thằng chó
+  - đồ chó
+  tag: N
 chó sói:
 - tag: N
 chóng:
@@ -5302,7 +5357,23 @@ gặt hái:
 gỉ:
 - tag: V
 gọi:
-- tag: V
+- description: Kêu tên, phát tín hiệu để người nghe đáp lại.
+  examples:
+  - Gọi bố về ăn cơm.
+  - Gọi điện thoại.
+  tag: V
+- description: Phát lệnh, yêu cầu đi đến nơi nào.
+  examples:
+  - Gọi lính. giấy gọi nhập ngũ.
+  tag: V
+- description: Đặt tên.
+  examples:
+  - Hà Nội xưa gọi là Thăng Long
+  tag: V
+- description: Nêu rõ mối quan hệ.
+  examples:
+  - Anh ấy gọi ông giám đốc là bác ruột.
+  tag: V
 gọn:
 - tag: A
 gọn gàng:
@@ -5357,7 +5428,10 @@ halogen:
 ham:
 - tag: V
 ham muốn:
-- tag: V
+- description: Mong muốn thiết tha.
+  examples:
+  - Ham muốn học hỏi.
+  tag: V
 ham mê:
 - tag: V
 hang:
@@ -6475,7 +6549,16 @@ hồng quân:
 hồng xiêm:
 - tag: N
 hổ:
-- tag: N
+- description: Loài thú dữ cùng họ với mèo, ăn thịt, lông màu vàng có vằn đen.
+  examples:
+  - Họ bắn hổ để lấy xương nấu cao.
+  - Tránh hùm mắc hổ. (tục ngữ).
+  tag: N
+- description: Tủi thẹn
+  examples:
+  - Nghĩ mình chẳng hổ mình sao, dám đem trần cấu dự vào bố kinh (Truyện Kiều)
+  - Xấu chàng hổ ai. (tục ngữ)
+  tag: A
 hổ thẹn:
 - tag: A
 hổn hển:
@@ -14278,7 +14361,12 @@ thông báo:
 thông cáo:
 - tag: N
 thông cảm:
-- tag: V
+- description: Hiểu thấu khó khăn riêng và chia sẻ tâm tư, tình cảm.
+  examples:
+  - Thông cảm với hoàn cảnh khó khăn của nhau.
+  - Người cùng cảnh ngộ nên dễ thông cảm.
+  - Vì ốm nên tôi đã thất hứa, mong anh thông cảm.
+  tag: V
 thông dâm:
 - tag: V
 thông dịch:
@@ -14817,10 +14905,41 @@ thọ:
 - tag: V
 - tag: N
 thỏ:
-- tag: N
+- description: Loài động vật gặm nhấm, tai to, nuôi để ăn thịt và lấy lông (làm bút
+    nho...).
+  examples:
+  - con thỏ
+  tag: N
+- description: Ngọc thỏ (nói tắt), từ dùng trong văn học cũ chỉ Mặt Trăng.
+  examples:
+  - Ngoài hiên thỏ đã non đoài ngậm gương (Truyện Kiều)
+  tag: N
 thối:
-- tag: A
-- tag: V
+- description: Có mùi khó ngửi, lợm tởm như mùi phân tươi hoặc mùi xác chết lâu ngày.
+  examples:
+  - Thối như cóc chết.
+  tag: A
+- description: (Địa phương) Thoái.
+  examples:
+  - Lúc tiến lúc thối.
+  - Thối chí.
+  - Thối lui.
+  tag: V
+- description: (Địa phương) Trả lại tiền thừa.
+  examples:
+  - Thối tiền cho khách.
+  - Không có tiền lẻ để thối lại.
+  tag: V
+- description: Bị rữa nát, trở nên có mùi khó ngửi.
+  examples:
+  - Trứng thối.
+  - Cây cối ngập nước thối hết.
+  tag: V
+- description: (Bom đạn) bị hỏng, không thể nổ được
+  examples:
+  - Đạn thối.
+  - Bom thối.
+  tag: V
 thối nát:
 - tag: A
 thống:
@@ -19749,7 +19868,10 @@ z:
 đơn giá:
 - tag: N
 đơn giản:
-- tag: A
+- description: không phức tạp; dễ hiểu hoặc dễ làm
+  examples:
+  - 10 cách chữa trị đơn giản tại nhà cho người bị chóng mặt
+  tag: A
 đơn lập:
 - tag: A
 đơn lẻ:
@@ -20246,8 +20368,17 @@ z:
 đề kháng:
 - tag: V
 đề nghị:
-- tag: V
 - tag: N
+- description: Nêu lên để thảo luận hay nhận xét.
+  examples:
+  - Đề nghị bàn đến một vấn đề
+  tag: V
+- description: Đưa ra một ý và yêu cầu người khác làm theo.
+  examples:
+  - Tôi đề nghị các anh quan tâm hơn đến công việc của mình (Cách nói của người cấp
+    trên với cấp dưới trong công việc hoặc thứ bậc xã hội thể hiện sự quan trọng của
+    việc được nói tới)
+  tag: V
 đề phòng:
 - tag: V
 đề tài:
