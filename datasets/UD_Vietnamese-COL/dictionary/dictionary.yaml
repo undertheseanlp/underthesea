@@ -59,7 +59,11 @@ anh hùng ca:
 anh trai:
 - tag: N
 ao:
-- tag: N
+- description: Chỗ đào sâu xuống đất để giữ nước nuôi cá, thả bèo, trồng rau, v.v.
+  examples:
+  - Ao rau muống.
+  - Ao sâu tốt cá (tục ngữ).
+  tag: N
 are:
 - tag: N
 as:
@@ -80,11 +84,18 @@ ban:
 ban bí thư:
 - tag: N
 ban bố:
-- tag: V
+- description: Công bố để mọi người biết và thực hiện.
+  examples:
+  - Ban bố quyền tự do dân chủ.
+  - Ban bố lệnh giới nghiêm.
+  tag: V
 ban chấp hành:
 - tag: N
 ban hành:
-- tag: V
+- description: Công bố và cho thi hành.
+  examples:
+  - Ban hành những luật đem lại quyền lợi cấp bách nhất (Phạm Văn Đồng)
+  tag: V
 ban ngành:
 - tag: N
 ban ngày:
