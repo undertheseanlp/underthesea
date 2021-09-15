@@ -1,5 +1,7 @@
 from elasticsearch import Elasticsearch
 from elasticsearch_dsl import Search
+import requests
+from bs4 import BeautifulSoup
 
 
 class Dictionary:
@@ -30,6 +32,21 @@ class Dictionary:
 
     def save(self, word, data):
         self.es.index(index=self.es_index, id=word, body=data)
+
+
+class VietnameseWiktionary:
+    """ Get data from Vietnamese Wiktionary
+    url: https://vi.wiktionary.org/
+    """
+
+    @staticmethod
+    def get(word):
+        url = "https://vi.wiktionary.org/wiki/ban_%C4%91%E1%BA%A7u#Ti%E1%BA%BFng_Vi%E1%BB%87t"
+        r = requests.get(url)
+        soup = BeautifulSoup(r.content, "html.parser")
+        print(soup)
+        # senses = []
+        # main_body = soup.select_one("#mw-content-text .mw-parser-output")
 
 
 if __name__ == '__main__':
