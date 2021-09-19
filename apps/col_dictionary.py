@@ -3,7 +3,7 @@ from os.path import join
 import streamlit as st
 import streamlit.components.v1 as components
 
-from apps.col_data import Dictionary
+from col_data import Dictionary
 
 st.set_page_config(
     page_title="Dictionary App",
