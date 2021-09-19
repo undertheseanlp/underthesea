@@ -1,27 +1,32 @@
 # Developer Guides
 
-Step 1: Download wikipedia dump 
+Step 1: Download Wikipedia dump
 
 ```
 export TS=20210720
 mkdir -p ~/.underthesea/data/viwiki-$TS
-cd ~/.underthesea/data/viwiki-TS
-wget https://dumps.wikimedia.org/viwiki/20210820/viwiki-20210820-pages-articles.xml.bz2
+cd ~/.underthesea/data/viwiki-$TS
+wget https://dumps.wikimedia.org/viwiki/$TS/viwiki-$TS-pages-articles.xml.bz2
 wget https://raw.githubusercontent.com/NTT123/viwik18/master/WikiExtractor.py
-bzip2 -d viwiki-20210820-pages-articles.xml.bz2
-python WikiExtractor.py -s --lists viwiki-20210820-pages-articles.xml -q -o - | perl -CSAD -Mutf8 cleaner.pl > viwik18.txt
+bzip2 -d viwiki-$TS-pages-articles.xml.bz2
+python WikiExtractor.py --no-templates -b 10M -s --lists viwiki-$TS-pages-articles.xml
 ```
 
-Step 2: Run 
+Step 2: Clean data
 
 ```
-python utils/col_wiki_clean.py
-python utils/col_wiki_ud.py
+python underthesea/utils/col_wiki_clean.py
+python underthesea/utils/col_wiki_ud.py
 ```
 
-Step 3: Run 
+Step 3: Run
 
 ```
-python utils/col_dictionary.py
-python utils/col_dictionary_import.py 
+python underthesea/utils/col_dictionary.py
+python underthesea/utils/col_dictionary_import.py
+```
+For Mac OS >= Mojave, alternatively run
+```
+OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES python underthesea/utils/col_dictionary.py
+python underthesea/utils/col_dictionary_import.py
 ```
