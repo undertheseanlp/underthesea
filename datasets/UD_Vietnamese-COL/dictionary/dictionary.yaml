@@ -10927,7 +10927,12 @@ nòng cốt:
 nòng nọc:
 - tag: N
 nó:
-- tag: P
+- description: Đại từ ngôi thứ ba số ít chỉ người ở cấp dưới hoặc chỉ một vật gì vừa
+    nói đến.
+  examples:
+  - Thằng cháu nó ngoan, dễ bảo.
+  - Một chè, một rượu, một đàn bà, ba cái lăng nhăng nó quấy ta (Trần Tế Xương)
+  tag: P
 nóc:
 - tag: N
 nói:
@@ -19403,7 +19408,17 @@ z:
 đeo đuổi:
 - tag: V
 đi:
-- tag: V
+- description: Di chuyển từ chỗ này đến chỗ khác bằng những bước chân.
+  examples:
+  - Trẻ tập đi đi từng bước một.
+  - đi bách bộ
+  tag: V
+- description: Di chuyển đến chỗ khác bằng các phương tiện.
+  examples:
+  - đi tàu hỏa
+  - đi máy bay
+  - đi ô tô
+  tag: V
 đi lại:
 - tag: V
 đi đôi:
