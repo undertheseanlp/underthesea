@@ -96,7 +96,6 @@ class UDDataset(Dataset):
     def load(ud_file):
         sentences = open(ud_file).read().split("\n\n")
         sentences = [UDSentence.load(s) for s in sentences]
-        sentences = sentences
         dataset = UDDataset(sentences)
         return dataset
 
