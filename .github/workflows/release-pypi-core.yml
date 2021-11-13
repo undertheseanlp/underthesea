@@ -50,3 +50,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install poetry
           poetry install
+      - name: Build Python package
+        run: poetry run maturin build --release --no-sdist --strip --interpreter python3.6
