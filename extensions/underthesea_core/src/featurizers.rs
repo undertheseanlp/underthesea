@@ -9,13 +9,13 @@ mod tests {
     #[test]
     fn test_featurizer() {
         let input = vec![
-            vec!["A".to_string(), "b".to_string()],
-            vec!["a".to_string(), "BC".to_string()],
+            vec!["Cải cách".to_string(), "bóng".to_string(), "đá".to_string()],
+            vec!["Việt".to_string(), "Nam".to_string()],
         ];
         let output = super::featurizer(input);
         let expected: Vec<Vec<String>> = vec![
-            vec!["a".to_string(), "b".to_string()],
-            vec!["a".to_string(), "bc".to_string()],
+            vec!["cải cách".to_string(), "bóng".to_string(), "đá".to_string()],
+            vec!["việt".to_string(), "nam".to_string()],
         ];
         assert_eq!(output, expected);
     }
