@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "underthesea_core"
-version = "0.0.1"
+version = "0.0.2"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core (fast & fun)"
 license = "GPL-3.0"
@@ -11,3 +11,7 @@ python = "^3.5"
 
 [tool.poetry.dev-dependencies]
 maturin = "==0.9.4"
+
+[build-system]
+requires = ["==0.9.4"]
+build-backend = "maturin"

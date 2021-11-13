@@ -62,5 +62,5 @@ jobs:
       - name: PyPi publish
         working-directory: ./extensions/underthesea_core
         env:
-          MATURIN_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: poetry run maturin publish --username __token__
