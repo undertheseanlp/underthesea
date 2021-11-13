@@ -5,6 +5,8 @@ authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core (fast & fun)"
 license = "GPL-3.0"
 readme = "README.md"
+repository = "https://github.com/undertheseanlp/underthesea/"
+homepage = "https://github.com/undertheseanlp/underthesea/"
 
 [tool.poetry.dependencies]
 python = "^3.5"
