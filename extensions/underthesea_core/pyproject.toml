@@ -3,3 +3,6 @@ name = "underthesea_core"
 version = "0.0.1"
 description = "Underthesea Core (fast & fun)"
 authors = ["Underthesea Team"]
+
+[tool.poetry.dev-dependencies]
+maturin = "==0.9.4"
