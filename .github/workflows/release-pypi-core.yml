@@ -61,9 +61,8 @@ jobs:
         run: pip install target/wheels/underthesea_core*.whl
       - name: Release
         uses: softprops/action-gh-release@v1
-        working-directory: ./extensions/underthesea_core
         with:
-          files: target/wheels/underthesea_core*.whl
+          files: ./extensions/underthesea_core/target/wheels/underthesea_core*.whl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: PyPi publish
