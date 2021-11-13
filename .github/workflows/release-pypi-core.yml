@@ -22,5 +22,6 @@ jobs:
       - name: Add poetry to path
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
       - name: Install package deps
+        working-directory: ./extensions/underthesea_core
         run: |
           poetry install
