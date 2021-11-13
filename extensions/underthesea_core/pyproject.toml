@@ -1,0 +1,5 @@
+[tool.poetry]
+name = "underthesea_core"
+version = "0.0.1"
+description = "Underthesea Core (fast & fun)"
+authors = ["Underthesea Team"]
