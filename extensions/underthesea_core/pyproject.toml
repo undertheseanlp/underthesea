@@ -4,7 +4,6 @@ version = "0.0.1"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core (fast & fun)"
 license = "GPL-3.0"
-edition = "2021"
 readme = "README.md"
 
 [tool.poetry.dependencies]
