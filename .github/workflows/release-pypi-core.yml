@@ -59,3 +59,9 @@ jobs:
       - name: Install wheels
         working-directory: ./extensions/underthesea_core
         run: pip install target/wheels/underthesea_core*.whl
+      - name: PyPi publish
+        working-directory: ./extensions/underthesea_core
+        if: github.event_name == 'release' && github.event.action == 'created'
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+        run: poetry run maturin publish --username __token__
