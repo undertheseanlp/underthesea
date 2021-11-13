@@ -136,9 +136,9 @@ mod tests {
             ]
         ];
         let features = vec![
-            "T[-3].lower".to_string(),
-            "T[-2].lower".to_string(),
-            "T[-1].lower".to_string(),
+            "T[-3]".to_string(),
+            "T[-2]".to_string(),
+            "T[-1]".to_string(),
             "T[0].lower".to_string(),
             "T[1].lower".to_string(),
             "T[2].lower".to_string(),
