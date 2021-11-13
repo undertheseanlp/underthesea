@@ -2,7 +2,7 @@ use pyo3::prelude::*;
 mod featurizers;
 
 #[pyfunction]
-fn featurizer(input: Vec<String>) -> PyResult<Vec<String>> {
+fn featurizer(input: Vec<Vec<String>>) -> PyResult<Vec<Vec<String>>> {
     let output = featurizers::featurizer(input);
     Ok(output)
 }
