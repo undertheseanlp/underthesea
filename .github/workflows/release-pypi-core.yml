@@ -31,4 +31,5 @@ jobs:
           toolchain: nightly
           override: true
       - name: Build Python package
+        working-directory: ./extensions/underthesea_core
         run: poetry run maturin develop --release
