@@ -63,6 +63,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: ./extensions/underthesea_core/target/wheels/underthesea_core*.whl
+          tag: v1.3.4a0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: PyPi publish
