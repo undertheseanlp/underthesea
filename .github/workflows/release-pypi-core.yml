@@ -58,4 +58,4 @@ jobs:
         run: find ./target/wheels/
       - name: Install wheels
         working-directory: ./extensions/underthesea_core
-        run: pip install target/wheels/hyperjson*.whl
+        run: pip install target/wheels/underthesea_core*.whl
