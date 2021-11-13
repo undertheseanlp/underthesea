@@ -30,3 +30,5 @@ jobs:
         with:
           toolchain: nightly
           override: true
+      - name: Build Python package
+          run: poetry run maturin develop --release
