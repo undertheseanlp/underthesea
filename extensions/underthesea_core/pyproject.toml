@@ -1,8 +1,11 @@
 [tool.poetry]
 name = "underthesea_core"
 version = "0.0.1"
+authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core (fast & fun)"
-authors = ["Underthesea Team"]
+license = "GPL-3.0"
+edition = "2021"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.5"
