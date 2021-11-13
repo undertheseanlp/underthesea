@@ -33,12 +33,17 @@ jobs:
         run: poetry run maturin develop --release
   pypi-publish:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.6, 3.7]
+        os: [ubuntu-latest, macos-latest]
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-python@v1
         with:
-          python-version: 3.6
+          python-version: ${{ matrix.python-version }}
       - name: Install latest nightly
         uses: actions-rs/toolchain@v1
         with:
@@ -52,7 +57,7 @@ jobs:
           poetry install
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
-        run: poetry run maturin build --release --no-sdist --strip --interpreter python3.6
+        run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
       - name: List wheels
         working-directory: ./extensions/underthesea_core
         run: find ./target/wheels/
