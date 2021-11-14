@@ -1,4 +1,5 @@
 use regex::{Regex};
+use std::collections::HashSet;
 
 /// Struct for FeatureTemplate
 ///
@@ -36,7 +37,7 @@ pub struct FeatureTemplate {
 /// Messi   X
 /// giành   X
 /// quả     X
-pub fn generate_token_features(sentence: &Vec<Vec<String>>, position: usize, feature_templates: &Vec<FeatureTemplate>) -> Vec<String> {
+pub fn generate_token_features(sentence: &Vec<Vec<String>>, position: usize, feature_templates: &Vec<FeatureTemplate>, dictionary: &HashSet<String>) -> Vec<String> {
     let mut features = Vec::new();
     for feature_template in feature_templates {
         let index1 = position as isize + feature_template.offset1;
@@ -99,6 +100,13 @@ pub fn generate_token_features(sentence: &Vec<Vec<String>>, position: usize, fea
                         }
                         text = String::from(is_title);
                     }
+                    "is_in_dict" => {
+                        if dictionary.contains(text.to_lowercase().as_str()){
+                           text = String::from("True");
+                        } else {
+                            text = String::from("False");
+                        }
+                    }
                     _ => {}
                 }
             }
@@ -110,7 +118,7 @@ pub fn generate_token_features(sentence: &Vec<Vec<String>>, position: usize, fea
 }
 
 
-pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>) -> Vec<Vec<Vec<String>>> {
+pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>, dictionary: HashSet<String>) -> Vec<Vec<Vec<String>>> {
     // Step 1: Parse FeatureTemplates
     let re = Regex::new(
         r"T\[(?P<index1>-?\d+)(,(?P<index2>-?\d+))?](\[(?P<column>.*)])?(\.(?P<function>.*))?"
@@ -164,7 +172,7 @@ pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>
         // generate features for each sentence
         let mut sentence_features = Vec::new();
         for position in 0..sentence.len() {
-            let token_features = generate_token_features(&sentence, position, &feature_templates);
+            let token_features = generate_token_features(&sentence, position, &feature_templates, &dictionary);
             sentence_features.push(token_features);
         }
         sentences_features.push(sentence_features);
@@ -174,6 +182,8 @@ pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>
 
 #[cfg(test)]
 mod tests {
+    use std::collections::HashSet;
+
     #[test]
     fn test_featurizer() {
         let sentences = vec![
@@ -187,17 +197,24 @@ mod tests {
             ]
         ];
         let features = vec![
-            "T[0]".to_string()
+            "T[0]".to_string(),
+            "T[0].is_in_dict".to_string()
         ];
-        let output = super::featurizer(sentences, features);
+
+        let mut dictionary = HashSet::new();
+        dictionary.insert("giành".to_string());
+        dictionary.insert("quả".to_string());
+        dictionary.insert("bóng".to_string());
+
+        let output = super::featurizer(sentences, features, dictionary);
         let expected: Vec<Vec<Vec<String>>> = vec![
             vec![
-                vec!["T[0]=Messi".to_string()],
-                vec!["T[0]=giành".to_string()],
-                vec!["T[0]=quả".to_string()],
-                vec!["T[0]=Bóng".to_string()],
-                vec!["T[0]=Đá".to_string()],
-                vec!["T[0]=1".to_string()]
+                vec!["T[0]=Messi".to_string(), "T[0].is_in_dict=False".to_string()],
+                vec!["T[0]=giành".to_string(), "T[0].is_in_dict=True".to_string()],
+                vec!["T[0]=quả".to_string(), "T[0].is_in_dict=True".to_string()],
+                vec!["T[0]=Bóng".to_string(), "T[0].is_in_dict=True".to_string()],
+                vec!["T[0]=Đá".to_string(), "T[0].is_in_dict=False".to_string()],
+                vec!["T[0]=1".to_string(), "T[0].is_in_dict=False".to_string()]
             ],
         ];
         assert_eq!(output, expected);

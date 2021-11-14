@@ -2,11 +2,13 @@ extern crate regex;
 extern crate pyo3;
 
 use pyo3::prelude::*;
+use std::collections::HashSet;
+
 mod featurizers;
 
 #[pyfunction]
-fn featurizer(sentences: Vec<Vec<Vec<String>>>, features: Vec<String>) -> PyResult<Vec<Vec<Vec<String>>>> {
-    let output = featurizers::featurizer(sentences, features);
+fn featurizer(sentences: Vec<Vec<Vec<String>>>, features: Vec<String>, dictionary: HashSet<String>) -> PyResult<Vec<Vec<Vec<String>>>> {
+    let output = featurizers::featurizer(sentences, features, dictionary);
     Ok(output)
 }
 

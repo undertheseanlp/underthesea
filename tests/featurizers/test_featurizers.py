@@ -2,6 +2,7 @@
 from unittest import TestCase
 
 from underthesea.transformer.tagged import TaggedTransformer
+from underthesea_core import featurizer
 
 
 class TestFeaturizers(TestCase):
@@ -19,4 +20,7 @@ class TestFeaturizers(TestCase):
             [['T[0]=Messi', 'T[1]=giành'], ['T[0]=giành', 'T[1]=quả'], ['T[0]=quả', 'T[1]=EOS']],
             [['T[0]=bóng', 'T[1]=vàng'], ['T[0]=vàng', 'T[1]=EOS']]
         ]
+
+        output2 = featurizer(sentences, templates)
+        self.assertEqual(output, output2)
         self.assertEqual(output, expected)
