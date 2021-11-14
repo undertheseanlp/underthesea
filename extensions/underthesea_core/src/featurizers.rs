@@ -1,9 +1,33 @@
 use regex::{Regex};
 
+/// Struct for FeatureTemplate
+///
+/// Token syntax
+/// ===========================
+///          _ offset 1
+///         /  _ offset 2
+///        /  /  _ column
+///       /  /  /
+///     T[0,2][0].is_digit
+///                \_ function
+///
+/// ===========================
+/// Sample tagged sentence
+/// ===========================
+/// this     A
+/// is       B
+/// a        C
+/// sample   D
+/// sentence E
+/// ===========================
+/// offset1, offset2 and column may contains negative value (for offset value)
+/// Supported functions: lower, isdigit, istitle
+///
 pub struct FeatureTemplate {
-    index1: i32,
-    index2: Option<i32>,
-    column: usize,
+    syntax: String,
+    offset1: isize,
+    offset2: Option<isize>,
+    column: isize,
     function: Option<String>,
 }
 
@@ -15,46 +39,72 @@ pub struct FeatureTemplate {
 pub fn generate_token_features(sentence: &Vec<Vec<String>>, position: usize, feature_templates: &Vec<FeatureTemplate>) -> Vec<String> {
     let mut features = Vec::new();
     for feature_template in feature_templates {
-        let index1 = feature_template.index1;
+        let index1 = position as isize + feature_template.offset1;
+        let bos_value = String::from(&feature_template.syntax) + "=" + "BOS";
+        let eos_value = String::from(&feature_template.syntax) + "=" + "EOS";
         let column = feature_template.column;
-        let index: i32 = position as i32 + index1;
-        let n = sentence.len() as i32;
-        let mut text: String = "".to_string();
-        if index < 0 {
-            features.push("BOS".to_string());
-        } else if index >= n {
-            features.push("EOS".to_string());
+        let n = sentence.len() as isize;
+        let mut text: String;
+        if index1 < 0 {
+            features.push(bos_value);
+            continue;
+        } else if index1 >= n {
+            features.push(eos_value);
+            continue;
+        } else {
+            text = String::from(&sentence[index1 as usize][column as usize]);
         }
-        else {
-            match sentence.get(index as usize) {
-                None => {}
-                Some(s) => {
-                    match s.get(column) {
-                        None => {}
-                        Some(current_text) => {
-                            text = current_text.to_string();
 
-                        }
+        match feature_template.offset2 {
+            None => {}
+            Some(offset2) => {
+                let index2 = position as isize + offset2;
+                if index2 < 0 {
+                    features.push(bos_value);
+                    continue;
+                } else if index2 >= n {
+                    features.push(eos_value);
+                    continue;
+                } else {
+                    for i in index1 + 1..index2 + 1 {
+                        text = text + " " + &sentence[i as usize][column as usize];
                     }
                 }
             }
-
-            // apply function
-            match feature_template.function.as_ref() {
-                None => {}
-                Some(function_name) => {
-                    match function_name.as_ref() {
-                        "lower" => {
-                            text = text.to_lowercase();
-                        }
-                        _ => {}
-                    }
-                }
-            }
-            features.push(text.to_string());
         }
 
-
+        // apply function
+        match feature_template.function.as_ref() {
+            None => {}
+            Some(function_name) => {
+                match function_name.as_ref() {
+                    "lower" => {
+                        text = text.to_lowercase();
+                    }
+                    "isdigit" => {
+                        let is_digit = text.parse::<i32>();
+                        match is_digit {
+                            Ok(_) => { text = String::from("True") }
+                            Err(_) => { text = String::from("False") }
+                        }
+                    }
+                    "istitle" => {
+                        let mut is_title = "True";
+                        for part in text.split(" "){
+                            let first_char = String::from(part.chars().nth(0).unwrap());
+                            if first_char != first_char.to_uppercase() {
+                                is_title = "False";
+                                break
+                            }
+                        }
+                        text = String::from(is_title);
+                    }
+                    _ => {}
+                }
+            }
+        }
+        let value = String::from(&feature_template.syntax) + "=" + text.as_str();
+        features.push(value);
     }
     return features;
 }
@@ -68,22 +118,24 @@ pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>
     let mut feature_templates: Vec<FeatureTemplate> = Vec::new();
     for feature_config in feature_configs {
         let mut feature_template = FeatureTemplate {
-            index1: 0,
-            index2: None,
+            syntax: String::from(""),
+            offset1: 0,
+            offset2: None,
             column: 0,
             function: None,
         };
+        feature_template.syntax = String::from(&feature_config);
 
         for cap in re.captures_iter(feature_config.as_str()) {
             match cap.name("index1") {
                 Some(s) => {
-                    feature_template.index1 = s.as_str().parse::<i32>().unwrap();
+                    feature_template.offset1 = s.as_str().parse::<isize>().unwrap();
                 }
                 _ => ()
             }
             match cap.name("index2") {
                 Some(s) => {
-                    feature_template.index2 = Option::from(s.as_str().parse::<i32>().unwrap());
+                    feature_template.offset2 = Option::from(s.as_str().parse::<isize>().unwrap());
                 }
                 _ => ()
             }
@@ -97,7 +149,7 @@ pub fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>
 
             match cap.name("function") {
                 Some(s) => {
-                    feature_template.function = Option::from(s.as_str().parse::<String>().unwrap());
+                    feature_template.function = Option::from(String::from(s.as_str()));
                 }
                 _ => ()
             }
@@ -129,31 +181,23 @@ mod tests {
                 vec!["Messi".to_string(), "X".to_string()],
                 vec!["giành".to_string(), "X".to_string()],
                 vec!["quả".to_string(), "X".to_string()],
-            ],
-            vec![
                 vec!["Bóng".to_string(), "X".to_string()],
-                vec!["Vàng".to_string(), "X".to_string()]
+                vec!["Đá".to_string(), "X".to_string()],
+                vec!["1".to_string(), "X".to_string()],
             ]
         ];
         let features = vec![
-            "T[-3]".to_string(),
-            "T[-2]".to_string(),
-            "T[-1]".to_string(),
-            "T[0].lower".to_string(),
-            "T[1].lower".to_string(),
-            "T[2].lower".to_string(),
-            "T[3].lower".to_string()
+            "T[0]".to_string()
         ];
         let output = super::featurizer(sentences, features);
         let expected: Vec<Vec<Vec<String>>> = vec![
             vec![
-                vec!["messi".to_string(), "x".to_string()],
-                vec!["giành".to_string(), "x".to_string()],
-                vec!["quả".to_string(), "x".to_string()]
-            ],
-            vec![
-                vec!["bóng".to_string(), "x".to_string()],
-                vec!["vàng".to_string(), "x".to_string()],
+                vec!["T[0]=Messi".to_string()],
+                vec!["T[0]=giành".to_string()],
+                vec!["T[0]=quả".to_string()],
+                vec!["T[0]=Bóng".to_string()],
+                vec!["T[0]=Đá".to_string()],
+                vec!["T[0]=1".to_string()]
             ],
         ];
         assert_eq!(output, expected);
