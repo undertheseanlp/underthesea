@@ -1,6 +1,6 @@
 [package]
 name = "underthesea_core"
-version = "0.0.4-alpha.5"
+version = "0.0.4-alpha.6"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core (fast & fun)"
 license = "GPL-3.0"
@@ -12,6 +12,7 @@ homepage = "https://github.com/undertheseanlp/underthesea/"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+serde = { version = "1.0", features = [ "derive" ] }
 regex = "1"
 
 [dependencies.pyo3]
