@@ -1,0 +1,71 @@
+on:
+  push:
+    branches: [ GH-185 ]
+
+jobs:
+  build:
+    name: Build rust
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v1
+      - name: Set up Python 3.6
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.6
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+      - name: Add poetry to path
+        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+      - name: Install package deps
+        working-directory: ./extensions/underthesea_core
+        run: |
+          poetry install
+      - name: Install latest nightly
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          override: true
+      - name: Build Python package
+        working-directory: ./extensions/underthesea_core
+        run: poetry run maturin develop --release
+  pypi-publish:
+    needs: build
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.6, 3.7]
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-python@v1
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install latest nightly
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          override: true
+      - name: Install dependencies
+        working-directory: ./extensions/underthesea_core
+        run: |
+          python -m pip install --upgrade pip
+          pip install poetry
+          poetry install
+      - name: Build Python package
+        working-directory: ./extensions/underthesea_core
+        run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+      - name: List wheels
+        working-directory: ./extensions/underthesea_core
+        run: find ./target/wheels/
+      - name: Install wheels
+        working-directory: ./extensions/underthesea_core
+        run: pip install target/wheels/underthesea_core*.whl
+      - name: PyPi publish
+        working-directory: ./extensions/underthesea_core
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+        run: poetry run maturin publish --username __token__
