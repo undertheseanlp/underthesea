@@ -139,6 +139,12 @@ Usage
 
 ### 5. Dependency Parsing
 
+Install dependencies for deep learning 
+
+```bash
+$ pip install underthesea[deep]
+```
+
 Usage
 
 ```python
