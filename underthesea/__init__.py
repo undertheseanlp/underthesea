@@ -35,7 +35,6 @@ from underthesea.pipeline.word_tokenize import word_tokenize
 from underthesea.pipeline.pos_tag import pos_tag
 from underthesea.pipeline.chunking import chunk
 from underthesea.pipeline.ner import ner
-from underthesea.pipeline.dependency_parse import dependency_parse
 
 try:
     from underthesea.pipeline.classification import classify
@@ -46,10 +45,17 @@ try:
 except Exception:
     pass
 
+
+# lazy loading
+def dependency_parse(*args, **kwargs):
+    from underthesea.pipeline.dependency_parse import dependency_parse
+    return dependency_parse(*args, **kwargs)
+
+
 __all__ = [
     'sent_tokenize',
     'word_tokenize', 'pos_tag', 'chunk',
-    'dependency_parse',
     'ner',
     'classify', 'sentiment',
+    'dependency_parse'
 ]
