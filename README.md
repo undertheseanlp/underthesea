@@ -11,9 +11,6 @@
   <a href="https://pypi.python.org/pypi/underthesea">
     <img src="https://img.shields.io/pypi/pyversions/underthesea.svg">
   </a>
-  <a href="http://underthesea.readthedocs.io/en/latest/">
-    <img src="https://readthedocs.org/projects/underthesea/badge/?version=latest">
-  </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/website-online-brightgreen">
   </a>
