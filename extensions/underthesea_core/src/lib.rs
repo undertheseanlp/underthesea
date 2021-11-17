@@ -4,7 +4,8 @@ extern crate pyo3;
 use pyo3::prelude::*;
 use std::collections::HashSet;
 
-mod featurizers;
+#[macro_use]
+pub mod featurizers;
 
 #[pyclass]
 pub struct CRFFeaturizer {
