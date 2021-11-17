@@ -54,16 +54,26 @@ def word_tokenize_new():
         word_tokenize_nightly(s)
 
 
-profiler = cProfile.Profile()
-profiler.enable()
+old_profiler = cProfile.Profile()
+old_profiler.enable()
 word_tokenize_old()
-profiler.disable()
-stats = pstats.Stats(profiler).sort_stats('tottime')
-stats.print_stats()
+old_profiler.disable()
+old_stats = pstats.Stats(old_profiler).sort_stats('tottime')
+old_stats.print_stats()
 
-run_time = stats.total_tt
+new_profiler = cProfile.Profile()
+new_profiler.enable()
+word_tokenize_new()
+new_profiler.disable()
+new_stats = pstats.Stats(new_profiler).sort_stats('tottime')
+new_stats.print_stats()
+
+old_time = old_stats.total_tt
+new_time = new_stats.total_tt
+print('Ratio', old_time / new_time, "(", old_time, '->', new_time, ")")
+
 print('Current Speed')
-sentences_per_sec = total_sentence / run_time
-tokens_per_sec = total_tokens / run_time
+sentences_per_sec = total_sentence / new_time
+tokens_per_sec = total_tokens / new_time
 print(f'{sentences_per_sec:06.2f} sentences/sec')
 print(f'{tokens_per_sec:06.2f} tokens/sec')
