@@ -4,12 +4,8 @@ extern crate pyo3;
 use pyo3::prelude::*;
 use std::collections::HashSet;
 
-mod featurizers;
-
-#[pyfunction]
-fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>, dictionary: HashSet<String>) -> PyResult<Vec<Vec<Vec<String>>>> {
-    Ok(featurizers::featurizer(sentences, feature_configs, dictionary))
-}
+#[macro_use]
+pub mod featurizers;
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -38,7 +34,6 @@ impl CRFFeaturizer {
 
 #[pymodule]
 fn underthesea_core(_py: Python, m: &PyModule) -> PyResult<()> {
-    m.add_function(wrap_pyfunction!(featurizer, m)?)?;
     m.add_class::<CRFFeaturizer>()?;
     Ok(())
 }
