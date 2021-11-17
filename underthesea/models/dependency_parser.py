@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 import os
 from datetime import datetime
-from underthesea.utils import logger, device
+
+from underthesea.utils import logger
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_field import Field
 from underthesea.utils.sp_fn import ispunct
@@ -16,6 +17,7 @@ from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, Share
 from underthesea.modules.bert import BertEmbedding
 from underthesea.utils.sp_alg import eisner, mst
 import underthesea.modules.nn
+from underthesea.utils.util_deep_learning import device
 
 
 class DependencyParser(underthesea.modules.nn.Model):

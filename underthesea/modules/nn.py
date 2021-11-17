@@ -4,7 +4,7 @@ from abc import abstractmethod
 import torch.nn
 
 from underthesea import file_utils
-from underthesea.utils import device
+from underthesea.utils.util_deep_learning import device
 
 
 class Model(torch.nn.Module):

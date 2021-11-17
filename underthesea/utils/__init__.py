@@ -1,15 +1,4 @@
-###########################################################
-# Initialize
-###########################################################
-import torch
 import logging.config
-
-# global variable: device for torch
-device = None
-if torch.cuda.is_available():
-    device = torch.device("cuda:0")
-else:
-    device = torch.device("cpu")
 
 logging.config.dictConfig(
     {

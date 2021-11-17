@@ -15,10 +15,7 @@ install_requires = [
     'joblib',
     'scikit-learn',
     'unidecode',
-    'seqeval',
     'PyYAML',
-    'torch>=1.1.0',
-    'transformers>=3.5.0'
 ]
 
 tests_require = [
@@ -28,6 +25,15 @@ tests_require = [
 setup_requires = [
 ]
 
+extras_require = {
+    'train': [
+        'seqeval'
+    ],
+    'deep': [
+        'torch>=1.1.0',
+        'transformers>=3.5.0'
+    ]
+}
 setup(
     name='underthesea',
     version=version,
@@ -60,5 +66,6 @@ setup(
     ],
     test_suite='tests',
     tests_require=tests_require,
+    extras_require=extras_require,
     setup_requires=setup_requires
 )
