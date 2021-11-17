@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [ GH-185 ]
+    branches: [ core ]
 
 jobs:
   build:
