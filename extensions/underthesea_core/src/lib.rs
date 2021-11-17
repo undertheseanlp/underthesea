@@ -6,11 +6,6 @@ use std::collections::HashSet;
 
 mod featurizers;
 
-#[pyfunction]
-fn featurizer(sentences: Vec<Vec<Vec<String>>>, feature_configs: Vec<String>, dictionary: HashSet<String>) -> PyResult<Vec<Vec<Vec<String>>>> {
-    Ok(featurizers::featurizer(sentences, feature_configs, dictionary))
-}
-
 #[pyclass]
 pub struct CRFFeaturizer {
     pub object: featurizers::CRFFeaturizer
@@ -38,7 +33,6 @@ impl CRFFeaturizer {
 
 #[pymodule]
 fn underthesea_core(_py: Python, m: &PyModule) -> PyResult<()> {
-    m.add_function(wrap_pyfunction!(featurizer, m)?)?;
     m.add_class::<CRFFeaturizer>()?;
     Ok(())
 }
