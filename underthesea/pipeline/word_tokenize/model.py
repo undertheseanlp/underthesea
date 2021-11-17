@@ -1,6 +1,9 @@
 from underthesea.transformer.tagged import TaggedTransformer
 from os.path import join, dirname
 import pycrfsuite
+from underthesea_core import CRFFeaturizer
+
+from underthesea.transformer.tagged_feature import lower_words
 
 template = [
     "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower", "T[2].lower",
@@ -22,6 +25,8 @@ template = [
 
 transformer = TaggedTransformer(template)
 
+crf_featurizer = CRFFeaturizer(template, lower_words)
+
 
 class CRFModel:
     objects = {}
@@ -42,6 +47,6 @@ class CRFModel:
 
     def predict(self, sentence, format=None):
         tokens = [(token, "X") for token in sentence]
-        x = transformer.transform([tokens])[0]
+        x = crf_featurizer.process([tokens])[0]
         tags = self.estimator.tag(x)
         return list(zip(sentence, tags))
