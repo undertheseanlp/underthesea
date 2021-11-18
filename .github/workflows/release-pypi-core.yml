@@ -94,10 +94,10 @@ jobs:
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: poetry run maturin publish --username __token__ --interpreter python${{ matrix.python-version }}
+        run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
       - name: PyPi publish
         if: matrix.os == 'windows-latest'
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: poetry run maturin publish --username __token__ --interpreter python
+        run: poetry run maturin publish --username __token__ --no-sdist --interpreter python

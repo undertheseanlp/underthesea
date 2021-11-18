@@ -1,6 +1,6 @@
 [package]
 name = "underthesea_core"
-version = "0.0.4-alpha.8"
+version = "0.0.4-alpha.9"
 homepage = "https://github.com/undertheseanlp/underthesea/"
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
