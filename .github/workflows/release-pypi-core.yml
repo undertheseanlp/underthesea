@@ -69,9 +69,9 @@ jobs:
       - name: Build Python package
         if:  matrix.os == 'windows-latest'
         working-directory: ./extensions/underthesea_core
-        run: poetry run maturin build --release --no-sdist --strip
+        run: poetry run maturin build --release --no-sdist --strip --tnterpreter python
       - name: Build Python package
-        if:  matrix.os == 'windows-latest'
+        if:  matrix.os != 'windows-latest'
         working-directory: ./extensions/underthesea_core
         run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
 
