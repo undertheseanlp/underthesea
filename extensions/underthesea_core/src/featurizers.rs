@@ -1,7 +1,8 @@
 use regex::{Regex};
 use std::collections::HashSet;
 
-/// Struct for FeatureTemplate
+
+/* Struct for FeatureTemplate
 ///
 /// Token syntax
 /// ===========================
@@ -10,7 +11,7 @@ use std::collections::HashSet;
 ///        /  /  _ column
 ///       /  /  /
 ///     T[0,2][0].is_digit
-///                \_ function
+///               /__ function
 ///
 /// ===========================
 /// Sample tagged sentence
@@ -22,8 +23,8 @@ use std::collections::HashSet;
 /// sentence E
 /// ===========================
 /// offset1, offset2 and column may contains negative value (for offset value)
-/// Supported functions: lower, isdigit, istitle
-///
+/// Supported functions: lower, isdigit, istitle, is_in_dict
+*/
 #[derive(Debug)]
 pub struct FeatureTemplate {
     syntax: String,
@@ -186,43 +187,3 @@ impl CRFFeaturizer {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use std::collections::HashSet;
-
-    #[test]
-    fn test_crf_featurizer() {
-        let sentences = vec![
-            vec![
-                vec!["Messi".to_string(), "X".to_string()],
-                vec!["giành".to_string(), "X".to_string()],
-                vec!["quả".to_string(), "X".to_string()],
-                vec!["Bóng".to_string(), "X".to_string()],
-                vec!["Đá".to_string(), "X".to_string()],
-                vec!["1".to_string(), "X".to_string()],
-            ]
-        ];
-        let feature_configs = vec![
-            "T[0]".to_string(),
-            "T[0].is_in_dict".to_string()
-        ];
-        let mut dictionary = HashSet::new();
-        dictionary.insert("giành".to_string());
-        dictionary.insert("quả".to_string());
-        dictionary.insert("bóng".to_string());
-        let new_featurizer = super::CRFFeaturizer::new(feature_configs, dictionary);
-        assert_eq!(new_featurizer.feature_configs[0], "T[0]");
-        let expected: Vec<Vec<Vec<String>>> = vec![
-            vec![
-                vec!["T[0]=Messi".to_string(), "T[0].is_in_dict=False".to_string()],
-                vec!["T[0]=giành".to_string(), "T[0].is_in_dict=True".to_string()],
-                vec!["T[0]=quả".to_string(), "T[0].is_in_dict=True".to_string()],
-                vec!["T[0]=Bóng".to_string(), "T[0].is_in_dict=True".to_string()],
-                vec!["T[0]=Đá".to_string(), "T[0].is_in_dict=False".to_string()],
-                vec!["T[0]=1".to_string(), "T[0].is_in_dict=False".to_string()]
-            ],
-        ];
-        let output = new_featurizer.process(sentences);
-        assert_eq!(output, expected);
-    }
-}

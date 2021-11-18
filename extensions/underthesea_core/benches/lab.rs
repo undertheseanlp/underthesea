@@ -4,6 +4,7 @@ extern crate criterion;
 use std::time::Duration;
 use rayon::prelude::*;
 use criterion::*;
+use underthesea_core;
 
 fn fibonacci(n: u32) -> u32 {
     match n {
@@ -25,16 +26,22 @@ fn f2() {
     return;
 }
 
+fn f3() {
+    let a = 1 + 2;
+    return;
+}
+
 
 fn criterion_benchmark(c: &mut Criterion){
     let mut group = c.benchmark_group("abc");
-    group.bench_function("my-function", |b| b.iter(|| f1()));
+    group.bench_function("my-function", |b| b.iter(|| f3()));
+    group.bench_function("my-function-2", |b| b.iter(|| f2()));
     group.finish();
 }
 
 criterion_group! {
     name = benches;
-    config = Criterion::default().sample_size(10);
+    config = Criterion::default().sample_size(10).measurement_time(Duration::from_secs(5));
     targets = criterion_benchmark
 }
 
