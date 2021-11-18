@@ -91,7 +91,7 @@ jobs:
       - name: Install wheels
         if:  matrix.os == 'windows-latest'
         working-directory: ./extensions/underthesea_core
-        run: pip install target\wheels\underthesea_core*.whl underthesea_core
+        run: pip install --find-links=target\wheels\underthesea_core*.whl underthesea_core
 
       - name: PyPi publish
         if:  matrix.os != 'windows-latest'
