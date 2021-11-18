@@ -15,4 +15,5 @@ python = "^3.5"
 maturin = "==0.9.4"
 
 [build-system]
+requires = ["setuptools"]
 build-backend = "maturin"
