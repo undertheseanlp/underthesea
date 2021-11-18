@@ -4,7 +4,6 @@ extern crate pyo3;
 use pyo3::prelude::*;
 use std::collections::HashSet;
 
-#[macro_use]
 pub mod featurizers;
 
 #[pyclass]
