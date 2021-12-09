@@ -19,12 +19,12 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   <tr>
     <td>Top Up</td>
     <td>Domain, Intent, Slots</td>
-    <td></td>
+    <td>2 intents, 1 slots</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>Order Pizza</td>
+    <td>Form</td>
     <td></td>
     <td></td>
   </tr>
@@ -51,9 +51,10 @@ Setup Environment
 ```
 conda create -n chatbot python=3.8
 conda activate chatbot
-pip install --upgrade pip==20.2 # more detail https://forum.rasa.com/t/pip-takes-long-time/39274
+pip install --upgrade pip==20.2    # more detail https://forum.rasa.com/t/pip-takes-long-time/39274/3
 pip install rasa==2.8.2
 pip install rasa-x==0.42.0 --extra-index-url https://pypi.rasa.com/simple
+pip install sanic-jwt==1.6.0       # more detail https://forum.rasa.com/t/pip-install-rasa-x-not-working-local-mode-still-takes-to-long/48247/5
 ```
 
 Run Rasa X
