@@ -33,7 +33,7 @@ Script 2
 Script 3
 
 ``` 
-🗣️: tôi muốn mua pizza hải sản cỡ to
+🗣️: tôi muốn mua pizza hải sản to
 🤖: Bạn vừa đặt một pizza hải sản cỡ to.
 ```
 
