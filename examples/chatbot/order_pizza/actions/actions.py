@@ -25,3 +25,29 @@
 #         dispatcher.utter_message(text="Hello World!")
 #
 #         return []
+from typing import Text, Dict, Any
+
+from rasa_sdk import FormValidationAction, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from rasa_sdk.types import DomainDict
+
+
+class ValidationSimplePizzaForm(FormValidationAction):
+    def name(self) -> Text:
+        return "validate_simple_pizza_form"
+
+    def validate_pizza_s1_type(
+            self,
+            slot_value: Any,
+            dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: DomainDict
+    ) -> Dict[Text, Any]:
+        """Validate `pizza_s1_type` value."""
+        ALLOWED_PIZZA_TYPES = ["hải sản", "phô mai", "gà nướng"]
+        if slot_value.lower() not in ALLOWED_PIZZA_TYPES:
+            n = len(ALLOWED_PIZZA_TYPES)
+            text = f"Nhà hàng hiện tại có {n} loại: " + ", ".join(ALLOWED_PIZZA_TYPES).lower()
+            dispatcher.utter_message(text)
+            return {"pizza_s1_type": None}
+        return {"pizza_s1_type": slot_value}

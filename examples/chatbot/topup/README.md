@@ -1,9 +1,11 @@
-# Top Up Example Vietnamese Chatbot
+# Top Up Vietnamese Chatbot Example
 
 ### Usage
 
 ``` 
 cd underthesea/examples/chatbot/topup
+rasa run actions 
+rasa train
 rasa x 
 ```
 
@@ -12,15 +14,15 @@ rasa x
 Script 1
 
 ``` 
-U: tôi muốn nạp thẻ điện thoại
-B: Bạn muốn nạp bao nhiêu tiền
-U: 100.000
-B: Bạn đã nạp 100.000 thành công
+🗣️: tôi muốn nạp thẻ điện thoại
+🤖: Bạn muốn nạp bao nhiêu tiền
+🗣️: 100.000
+🤖: Bạn đã nạp 100.000 thành công
 ```
 
-Script 2:
+Script 2
 
 ``` 
-U: tôi muốn nạp 500.000
-B: Bạn đã nạp 500.000 thành công
+🗣️: tôi muốn nạp 500.000
+🤖: Bạn đã nạp 500.000 thành công
 ```
