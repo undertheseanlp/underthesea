@@ -25,14 +25,18 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
     <td></td>
   </tr>
   <tr>
-    <td>Order Pizza Simple</td>
+    <td>
+      <a href="order_pizza_simple">Order Pizza Simple</a>
+    </td>
     <td>Forms, Validating Form Input, Actions</td>
     <td>1 form, 2 intents, 2 slots</td>
     <td></td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
+    <td>
+      <a href="order_pizza">Order Pizza</a>
+    </td>
+    <td>Unhappy Form Paths, Rules, Stories</td>
     <td></td>
     <td></td>
   </tr>
