@@ -18,7 +18,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
 <tbody>
   <tr>
     <td>
-        <a href="chatbot/top_up">Top Up</a>
+      <a href="top_up">Top Up</a>
     </td>
     <td>Domains, Intents, Slots</td>
     <td>2 intents, 1 slots</td>
