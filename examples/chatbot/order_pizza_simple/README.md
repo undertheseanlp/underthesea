@@ -3,7 +3,7 @@
 ### Usage
 
 ``` 
-cd underthesea/examples/chatbot/order_pizza
+cd underthesea/examples/chatbot/order_pizza_simple
 rasa train
 rasa x 
 ```

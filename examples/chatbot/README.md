@@ -17,13 +17,15 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
 </thead>
 <tbody>
   <tr>
-    <td>Top Up</td>
+    <td>
+        <a href="/top_up">Top Up</a>
+    </td>
     <td>Domains, Intents, Slots</td>
     <td>2 intents, 1 slots</td>
     <td></td>
   </tr>
   <tr>
-    <td>Order Pizza</td>
+    <td>Order Pizza Simple</td>
     <td>Forms, Validating Form Input, Actions</td>
     <td>1 form, 2 intents, 2 slots</td>
     <td></td>
