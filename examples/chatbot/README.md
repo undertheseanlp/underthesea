@@ -27,7 +27,8 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
-      <a href="top_up">Top Up</a>
+      <a href="top_up">Top Up</a><br/>
+      <sub>Intermediate</sub>
     </td>
     <td>Domains, Intents, Slots</td>
     <td>2 intents, 1 slots</td>
@@ -35,7 +36,8 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
-      <a href="order_pizza_simple">Order Pizza Simple</a>
+      <a href="order_pizza_simple">Order Pizza Simple</a><br/>
+      <sub>Intermediate</sub>
     </td>
     <td>Forms, Validating Form Input, Actions</td>
     <td>1 form, 2 intents, 2 slots</td>
@@ -43,7 +45,8 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
-      <a href="order_pizza">Order Pizza</a>
+      <a href="order_pizza">Order Pizza</a><br/>
+      <sub>Intermediate</sub>
     </td>
     <td>Unhappy Form Paths, Rules, Stories</td>
     <td></td>
