@@ -31,6 +31,8 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - tạm biệt nhé
+    - hẹn gặp lại
 
 - intent: affirm
   examples: |
