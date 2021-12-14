@@ -21,13 +21,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
       <a href="greetings">Greetings</a><br/>
       <small>Beginner</small>
     </td>
-    <td>
-      <ul>
-        <li>Domains</li>
-        <li>Intents</li>
-      </ul>
-      Stories, Rules
-    </td>
+    <td>Domains, Intents, Stories, Rules</td>
     <td>7 intents, 3 stories, 2 rules</td>
     <td></td>
   </tr>
