@@ -19,7 +19,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   <tr>
     <td>
       <a href="greetings">Greetings</a><br/>
-      <i>Beginner</i>
+      <sub>Beginner</sub>
     </td>
     <td>Domains, Intents, Stories, Rules</td>
     <td>7 intents, 3 stories, 2 rules</td>
