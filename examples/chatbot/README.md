@@ -27,6 +27,15 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
+      <a href="small_talk">Small Talk</a><br/>
+      <sub>Beginner</sub>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>
       <a href="top_up">Top Up</a><br/>
       <sub>Intermediate</sub>
     </td>
