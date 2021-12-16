@@ -23,7 +23,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
     </td>
     <td>Domains, Intents, Stories, Rules</td>
     <td>7 intents, 3 stories, 2 rules</td>
-    <td>Customize and personalize your agent with simple questions and responses.</td>
+    <td></td>
   </tr>
   <tr>
     <td>
