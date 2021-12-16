@@ -19,6 +19,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   <tr>
     <td>
       <a href="greetings">Greetings</a><br/>
+      <sub>Chitchat</sub><br/>
       <sub>Beginner</sub>
     </td>
     <td>Domains, Intents, Stories, Rules</td>
@@ -28,6 +29,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   <tr>
     <td>
       <a href="small_talk">Small Talk</a><br/>
+      <sub>Chitchat</sub><br/>
       <sub>Beginner</sub>
     </td>
     <td>Fallback and Human Handoff</td>
@@ -39,8 +41,8 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   <tr>
     <td>
       <a href="small_talk">Baggage claim</a><br/>
-      <sub>Beginner</sub><br/>
       <sub>Travel</sub><br/>
+      <sub>Beginner</sub>
     </td>
     <td></td>
     <td></td>
