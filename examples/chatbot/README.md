@@ -29,8 +29,9 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
     <td>
       <a href="small_talk">Small Talk</a><br/>
       <sub>Beginner</sub>
+      <sub>Intermediate</sub>
     </td>
-    <td></td>
+    <td>Fallback and Human Handoff</td>
     <td></td>
     <td></td>
   </tr>

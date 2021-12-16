@@ -1,30 +1,32 @@
 version: "2.0"
-
 stories:
-
-- story: happy path
+- story: interactive_story_1
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
-
-- story: sad path 1
+  - intent: default_welcome_intent
+  - action: utter_welcome
+- story: Story from Conversation ID c01edfee9269454ebd09bd7ad1b80e3d
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - intent: out_of_scope
+  - action: utter_out_of_scope
 
-- story: sad path 2
+- story: Request > small_talk
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - intent: small_talk.appraisal.thank_you
+  - action: utter_small_talk.appraisal.thank_you
+
+- story: Request > small_talk.greetings.bye
+  steps:
+  - intent: small_talk.appraisal.bye
+  - action: utter_small_talk.appraisal.bye
+
+- story: Start > small_talk.greetings.good_morning
+  steps:
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning
+
+- story: Start > small_talk.greetings.good_morning
+  steps:
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning_again

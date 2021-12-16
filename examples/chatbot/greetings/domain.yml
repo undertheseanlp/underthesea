@@ -25,7 +25,7 @@ responses:
   utter_greet:
   - text: Chào bạn! Bạn thế nào?
   utter_cheer_up:
-  - text: 'Đừng buồn nhé bạn hỡi'
+  - text: Đừng buồn nhé bạn hỡi
   utter_did_that_help:
   - text: Bạn đã đỡ buồn chưa
   utter_happy:
