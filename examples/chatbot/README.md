@@ -32,7 +32,7 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
       <sub>Intermediate</sub>
     </td>
     <td>Fallback and Human Handoff</td>
-    <td></td>
+    <td>19 intents, 6 stories, 11 rules</td>
     <td></td>
   </tr>
   <tr>

@@ -65,51 +65,50 @@ responses:
   utter_small_talk.appraisal.thank_you:
   - text: Cảm ơn bạn
   utter_small_talk.appraisal.bye:
-    - text: Tạm biệt bạn!
-    - text: Cảm ơn vì đã nói chuyện với mình. Hẹn gặp lại!
+  - text: Tạm biệt bạn!
+  - text: Cảm ơn vì đã nói chuyện với mình. Hẹn gặp lại!
   utter_small_talk.greetings.good_morning:
-    - text: |-
-        Chào buổi sáng
-        Mình là một trợ lý ảo. Mình có thể kể cho bạn nghe một câu chuyện cười, nói về bản thân mình hoặc trả lời các câu hỏi. Bạn cũng có thể cho mình biết về bản thân bạn hoặc cho mình phản hồi. Mình có thể giúp gì cho bạn?
+  - text: |-
+      Chào buổi sáng
+      Mình là một trợ lý ảo. Mình có thể kể cho bạn nghe một câu chuyện cười, nói về bản thân mình hoặc trả lời các câu hỏi. Bạn cũng có thể cho mình biết về bản thân bạn hoặc cho mình phản hồi. Mình có thể giúp gì cho bạn?
   utter_small_talk.greetings.good_morning_again:
-    - text: |-
-        Buổi sáng vui vẻ
+  - text: Buổi sáng vui vẻ
   utter_small_talk.greetings.good_evening:
-    - text: Chào buổi tối! Mọi việc hôm nay thế nào?
-    - text: Chào buổi tối! Ngày của bạn thế nào?
+  - text: Chào buổi tối! Mọi việc hôm nay thế nào?
+  - text: Chào buổi tối! Ngày của bạn thế nào?
   utter_small_talk.greetings.good_night:
-    - text: Ngủ ngon!
-    - text: Chúc bạn ngủ ngon
-    - text: Ngủ ngon nhé
+  - text: Ngủ ngon!
+  - text: Chúc bạn ngủ ngon
+  - text: Ngủ ngon nhé
   utter_small_talk.greetings.how_are_you:
-    - text: Mình ổn. Cảm ơn bạn
-    - text: Mình đang rất vui. Cảm ơn bạn!
-    - text: Cảm thấy tuyệt vời
-    - text: Tuyệt vời! Cảm ơn đã quan tâm đến mình.
+  - text: Mình ổn. Cảm ơn bạn
+  - text: Mình đang rất vui. Cảm ơn bạn!
+  - text: Cảm thấy tuyệt vời
+  - text: Tuyệt vời! Cảm ơn đã quan tâm đến mình.
   utter_small_talk.greetings.nice_to_meet_you:
-    - text: Rất vui được gặp bạn
-    - text: Mình cũng vậy. Hi vọng mình đã giúp đỡ được bạn
-    - text: Đó là niềm vinh hạnh của mình
+  - text: Rất vui được gặp bạn
+  - text: Mình cũng vậy. Hi vọng mình đã giúp đỡ được bạn
+  - text: Đó là niềm vinh hạnh của mình
   utter_small_talk.greetings.nice_to_see_you:
-    - text: Mình cũng vậy
-    - text: Thật vui khi chúng mình gặp lại
-    - text: Mình cũng thế. Mình bắt đầu nhớ bạn rồi nè
+  - text: Mình cũng vậy
+  - text: Thật vui khi chúng mình gặp lại
+  - text: Mình cũng thế. Mình bắt đầu nhớ bạn rồi nè
   utter_small_talk.greetings.nice_to_talk_to_you:
-    - text: Chắc chắn rồi. Chúng mình có thể nói chuyện bất cứ lúc nào
-    - text: Mình cũng thích nói chuyện với bạn lắm
-    - text: Mình ở đây để nói chuyện với bạn bất cứ lúc nào
+  - text: Chắc chắn rồi. Chúng mình có thể nói chuyện bất cứ lúc nào
+  - text: Mình cũng thích nói chuyện với bạn lắm
+  - text: Mình ở đây để nói chuyện với bạn bất cứ lúc nào
   utter_small_talk.greetings.whats_up:
-    - text: Mình ở đây để giúp đỡ mọi người
-    - text: Mình ở đây để nói chuyện với mọi người
+  - text: Mình ở đây để giúp đỡ mọi người
+  - text: Mình ở đây để nói chuyện với mọi người
   utter_small_talk.agent.tell_a_joke:
-    - text: Nếu mỗi lần nhớ tới em anh được 500 đồng chắc giờ này anh đã vượt xa Bill Gates.
-    - text: Giá anh mở tiệm cầm đồ. Để em đây đến giả vờ cầm tay.
-    - text: Tết anh đã có hoa đào, còn em chưa có anh nào rước đi.
-    - text: Để yêu một người đã khó, để đá nó càng khó hơn.
-    - text: Tình bạn sau tình yêu là phát đạn ân huệ cuả kẻ tử tù.
-    - text: Có một thứ tiền không thể mua được. Đó là sự nghèo khó.
-    - text: Sống trên đời sống, cần có một đống tiền.
-    - text: Có tiền hô mưa gợi gió, không tiền gọi chó cũng không trả lời.
+  - text: Nếu mỗi lần nhớ tới em anh được 500 đồng chắc giờ này anh đã vượt xa Bill Gates.
+  - text: Giá anh mở tiệm cầm đồ. Để em đây đến giả vờ cầm tay.
+  - text: Tết anh đã có hoa đào, còn em chưa có anh nào rước đi.
+  - text: Để yêu một người đã khó, để đá nó càng khó hơn.
+  - text: Tình bạn sau tình yêu là phát đạn ân huệ cuả kẻ tử tù.
+  - text: Có một thứ tiền không thể mua được. Đó là sự nghèo khó.
+  - text: Sống trên đời sống, cần có một đống tiền.
+  - text: Có tiền hô mưa gợi gió, không tiền gọi chó cũng không trả lời.
 actions:
 - utter_welcome
 forms: {}

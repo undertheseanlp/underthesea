@@ -32,6 +32,7 @@ nlu:
     - see you later
     - tạm biệt nhé
     - hẹn gặp lại
+    - tạm biệt
 - intent: affirm
   examples: |
     - yes
@@ -158,5 +159,7 @@ nlu:
 - intent: small_talk.agent.tell_a_joke
   examples: |
     - kể cho mình một truyện cười
+    - đang buồn, kể cho mình một câu chuyện cười
+    - chuyện cười
     - truyện cười
     - làm mình vui đi
