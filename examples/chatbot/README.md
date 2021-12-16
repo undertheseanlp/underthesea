@@ -23,17 +23,29 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
     </td>
     <td>Domains, Intents, Stories, Rules</td>
     <td>7 intents, 3 stories, 2 rules</td>
-    <td></td>
+    <td>Customize and personalize your agent with simple questions and responses.</td>
   </tr>
   <tr>
     <td>
       <a href="small_talk">Small Talk</a><br/>
       <sub>Beginner</sub>
-      <sub>Intermediate</sub>
     </td>
     <td>Fallback and Human Handoff</td>
     <td>19 intents, 6 stories, 11 rules</td>
-    <td></td>
+    <td>
+        Customize and personalize your agent with simple questions and responses.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="small_talk">Travel: baggage claim</a><br/>
+      <sub>Beginner</sub>
+    </td>
+    <td>Fallback and Human Handoff</td>
+    <td>19 intents, 6 stories, 11 rules</td>
+    <td>
+        Create or check the status of a claim related to lost, delayed, or damage baggage.<br/>
+    </td>
   </tr>
   <tr>
     <td>
