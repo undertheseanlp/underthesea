@@ -42,8 +42,8 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
       <sub>Beginner</sub><br/>
       <sub>Travel</sub><br/>
     </td>
-    <td>Fallback and Human Handoff</td>
-    <td>19 intents, 6 stories, 11 rules</td>
+    <td></td>
+    <td></td>
     <td>
         Create or check the status of a claim related to lost, delayed, or damage baggage.<br/>
     </td>
