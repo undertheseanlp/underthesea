@@ -38,10 +38,9 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
+      <a href="small_talk">Baggage claim</a><br/>
+      <sub>Beginner</sub><br/>
       <code>Travel</code><br/>
-      <a href="small_talk">
-      Baggage claim</a><br/>
-      <sub>Beginner</sub>
     </td>
     <td>Fallback and Human Handoff</td>
     <td>19 intents, 6 stories, 11 rules</td>
