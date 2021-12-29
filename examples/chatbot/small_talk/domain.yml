@@ -100,15 +100,6 @@ responses:
   utter_small_talk.greetings.whats_up:
   - text: Mình ở đây để giúp đỡ mọi người
   - text: Mình ở đây để nói chuyện với mọi người
-  utter_small_talk.agent.tell_a_joke:
-  - text: Nếu mỗi lần nhớ tới em anh được 500 đồng chắc giờ này anh đã vượt xa Bill Gates.
-  - text: Giá anh mở tiệm cầm đồ. Để em đây đến giả vờ cầm tay.
-  - text: Tết anh đã có hoa đào, còn em chưa có anh nào rước đi.
-  - text: Để yêu một người đã khó, để đá nó càng khó hơn.
-  - text: Tình bạn sau tình yêu là phát đạn ân huệ cuả kẻ tử tù.
-  - text: Có một thứ tiền không thể mua được. Đó là sự nghèo khó.
-  - text: Sống trên đời sống, cần có một đống tiền.
-  - text: Có tiền hô mưa gợi gió, không tiền gọi chó cũng không trả lời.
 actions:
 - utter_welcome
 forms: {}
