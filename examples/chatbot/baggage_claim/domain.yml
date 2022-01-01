@@ -41,7 +41,12 @@ responses:
   utter_default_welcome_intent:
   - text: Chào bạn. Tôi là trợ lý ảo về hành lý. Tôi có thể giúp bạn gửi yêu cầu mới hoặc kiểm tra trạng thái yêu cầu hiện có của bạn. Tôi có thể giúp gì bạn hôm nay?
   utter_claims.start_claim:
-  - text: Tuyệt vời, tôi có thể giúp bạn gửi một yêu cầu mới. Hành lý của bạn có bị thất lạc, hư hỏng hoặc bị chậm trễ không?
+  - text: Tuyệt vời, tôi có thể giúp bạn gửi một yêu cầu mới. Hành lý của bạn bị thất lạc, hư hỏng hay bị chậm trễ?
 actions: []
-forms: {}
+forms:
+  claim_type_form:
+    required_slots:
+      claim_type:
+        - type: from_intent
+          intent: claims.state_claim_type
 e2e_actions: []

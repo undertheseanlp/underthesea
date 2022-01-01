@@ -18,7 +18,6 @@ def test_nlu():
 
 
 class RasaServer:
-
     def __init__(self):
         self.p = None
 
@@ -35,7 +34,7 @@ class RasaServer:
         os.killpg(os.getpgid(self.p.pid), signal.SIGTERM)
 
 
-class Sender:
+class ChatUser:
     def __init__(self, id="test"):
         self.id = id
 
@@ -52,7 +51,7 @@ if __name__ == '__main__':
     # read test story
     rasa_server = RasaServer()
     rasa_server.start()
-    wait_seconds = 25
+    wait_seconds = 20
     print(f'Wait {wait_seconds} seconds for server start...')
     sleep(wait_seconds)
 
@@ -60,7 +59,7 @@ if __name__ == '__main__':
         data = yaml.safe_load(f)
     for story in data["stories"]:
         sender_id = str(uuid.uuid4())
-        sender = Sender(sender_id)
+        chat_user = ChatUser(sender_id)
         story_name = story['story']
         print(story_name)
         print()
@@ -69,7 +68,7 @@ if __name__ == '__main__':
             if 'user' in step:
                 user_message = step['user'].strip()
                 print(f'🗣️: {user_message}')
-                r = sender.send(user_message)
+                r = chat_user.send(user_message)
                 if r is None:
                     print(f'🤖: ')
                 else:
