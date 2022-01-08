@@ -1,0 +1,14 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+stories:
+- story: Happy path 1 - File a New Claim
+  steps:
+  - user: |
+      chào bạn
+    intent: default_welcome_intent
+  - action: utter_default_welcome_intent
+  - user: |
+      tôi có một yêu cầu về hành lý
+    intent: claims.start_claim
+  - action: utter_claims.start_claim

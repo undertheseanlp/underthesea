@@ -1,0 +1,61 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- order_pizza:
+    use_entities: true
+- topup:
+    use_entities: true
+- answer_topup_amount:
+    use_entities: true
+entities:
+- TOPUP_AMOUNT
+slots:
+  TOPUP_AMOUNT:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_order_pizza:
+  - text: Bạn muốn mua pizza nào
+  utter_topup_ask_amount:
+  - text: Bạn muốn nạp bao nhiêu tiền
+  utter_topup_confirm:
+  - text: Bạn đã nạp {TOPUP_AMOUNT} thành công
+actions:
+- utter_order_pizza
+- utter_ask_top_up_amount
+- utter_topup_confirm
+forms: {}
+e2e_actions: []

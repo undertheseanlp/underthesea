@@ -1,0 +1,39 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Chào bạn! Bạn thế nào?
+  utter_cheer_up:
+  - text: Đừng buồn nhé bạn hỡi
+  utter_did_that_help:
+  - text: Bạn đã đỡ buồn chưa
+  utter_happy:
+  - text: Tuyệt vời!
+  utter_goodbye:
+  - text: Tạm biệt bạn!
+  utter_iamabot:
+  - text: Mình là bot nhé.
+actions: []
+forms: {}
+e2e_actions: []

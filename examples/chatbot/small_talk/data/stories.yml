@@ -1,0 +1,32 @@
+version: "2.0"
+stories:
+- story: interactive_story_1
+  steps:
+  - intent: default_welcome_intent
+  - action: utter_welcome
+- story: Story from Conversation ID c01edfee9269454ebd09bd7ad1b80e3d
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- story: Request > small_talk
+  steps:
+  - intent: small_talk.appraisal.thank_you
+  - action: utter_small_talk.appraisal.thank_you
+
+- story: Request > small_talk.greetings.bye
+  steps:
+  - intent: small_talk.appraisal.bye
+  - action: utter_small_talk.appraisal.bye
+
+- story: Start > small_talk.greetings.good_morning
+  steps:
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning
+
+- story: Start > small_talk.greetings.good_morning
+  steps:
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning
+  - intent: small_talk.greetings.good_morning
+  - action: utter_small_talk.greetings.good_morning_again

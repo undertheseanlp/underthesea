@@ -1,0 +1,118 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: buy_pizza
+  examples: |
+    - tôi muốn mua pizza
+- intent: inform_pizza
+  examples: |
+    - i'd like a [large](pizza_s2_size) pizza
+    - i want to order a [xl](pizza_s2_size) [hawai](pizza_s1_type) pizza
+    - [medium](pizza_s2_size) pizza
+    - [xl](pizza_s2_size)
+    - [small](pizza_s2_size)
+    - [s](pizza_s2_size)
+    - [pepperoni](pizza_s1_type)
+    - [hải sản](pizza_s1_type)
+    - [Phô mai](pizza_s1_type)
+    - [Gà nướng](pizza_s1_type)
+    - [Bò xốt tiêu đen](pizza_s1_type)
+    - give me a [mozerella](pizza_s1_type) pizza
+    - [hawaii](pizza_s1_type) pizza
+    - [smol](pizza_s2_size)
+    - [hawaii](pizza_s1_type)
+    - tôi muốn mua loại [to](pizza_s2_size)
+    - cỡ [to](pizza_s2_size) nhé
+    - cỡ [lớn](pizza_s2_size) nhé
+    - cỡ [vừa](pizza_s2_size) nhé
+    - cỡ [nhỏ](pizza_s2_size) nhé
+    - cỡ [bé](pizza_s2_size) nhé
+    - tôi muốn mua một pizza [gà](pizza_s1_type) cỡ [to](pizza_s2_size)
+    - [hawai](pizza_s1_type)
+    - [veggie](pizza_s1_type)
+    - [fungi](pizza_s1_type)
+    - i want a [large](pizza_s2_size) pizza
+    - [vegggie](pizza_s1_type)
+    - [veggie](pizza_s1_type)

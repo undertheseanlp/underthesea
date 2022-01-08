@@ -1,0 +1,165 @@
+version: "2.0"
+nlu:
+- intent: default_welcome_intent
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - chào bạn
+    - chào cậu
+- intent: small_talk.appraisal.bye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - tạm biệt nhé
+    - hẹn gặp lại
+    - tạm biệt
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - rồi
+    - tớ đã rồi
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - không
+    - chẳng đỡ gì cả
+    - chưa
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+    - tôi khỏe
+    - tôi vui
+    - tớ vui lắm
+    - t vời
+    - tớ hạnh phúc lắm
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+    - chán lắm
+    - buồn
+    - tớ đang buồn
+    - tớ đang không vui
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - đây là người hay chatbot?
+    - đây là người hay bot?
+    - đây là người hay máy?
+- intent: out_of_scope
+  examples: |
+    - dở hơi
+    - điên
+    - dơ hơi
+- intent: small_talk.greetings.good_morning
+  examples: |
+    - chào buổi sáng
+    - buổi sáng tốt lành
+    - buổi sáng vui vẻ
+- intent: small_talk.greetings.good_evening
+  examples: |
+    - buổi tối
+    - chào buổi tối
+- intent: small_talk.appraisal.thank_you
+  examples: |
+    - cảm ơn
+    - cảm ơn nhé
+    - bạn đã giúp tôi nhiều lắm
+- intent: small_talk.greetings.good_night
+  examples: |
+    - chúc ngủ ngon
+    - ngủ ngon nhé
+    - tạm biệt. ngủ ngon nhé
+    - chúc bạn ngủ ngon
+- intent: small_talk.greetings.how_are_you
+  examples: |
+    - bạn khỏe không?
+    - bạn ổn không?
+    - bạn thấy thế nào?
+    - mọi chuyện ổn chứ
+- intent: small_talk.greetings.nice_to_meet_you
+  examples: |
+    - rất vui khi gặp bạn
+    - gặp bạn mình vui quá
+- intent: small_talk.greetings.nice_to_see_you
+  examples: |
+    - gặp bạn thật tuyệt vời
+    - bạn đáng yêu quá
+    - gặp bạn tôi vui rất nhiều
+- intent: small_talk.greetings.nice_to_talk_to_you
+  examples: |
+    - nói chuyện với bạn rất vui
+    - thật vui khi được nói chuyện với bạn
+- intent: small_talk.greetings.whats_up
+  examples: |
+    - hey
+    - này
+    - làm sao
+    - bạn đang nghĩ gì
+
+- intent: small_talk.agent.tell_a_joke
+  examples: |
+    - kể cho mình một truyện cười
+    - đang buồn, kể cho mình một câu chuyện cười
+    - chuyện cười
+    - truyện cười
+    - làm mình vui đi

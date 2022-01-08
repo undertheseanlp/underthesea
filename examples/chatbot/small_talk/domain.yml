@@ -1,0 +1,106 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- default_welcome_intent:
+    use_entities: true
+- greet:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+- small_talk.appraisal.thank_you:
+    use_entities: true
+- small_talk.greetings.good_morning:
+    use_entities: true
+- small_talk.greetings.good_evening:
+    use_entities: true
+- small_talk.greetings.good_night:
+    use_entities: true
+- small_talk.appraisal.bye:
+    use_entities: true
+- small_talk.greetings.how_are_you:
+    use_entities: true
+- small_talk.greetings.nice_to_meet_you:
+    use_entities: true
+- small_talk.greetings.nice_to_see_you:
+    use_entities: true
+- small_talk.greetings.nice_to_talk_to_you:
+    use_entities: true
+- small_talk.greetings.whats_up:
+    use_entities: true
+- small_talk.agent.tell_a_joke:
+    use_entities: true
+entities: []
+slots: {}
+responses:
+  utter_greet:
+  - text: Chào bạn! Bạn thế nào?
+  utter_cheer_up:
+  - text: Đừng buồn nhé bạn hỡi
+  utter_did_that_help:
+  - text: Bạn đã đỡ buồn chưa
+  utter_happy:
+  - text: Tuyệt vời!
+  utter_iamabot:
+  - text: Mình là bot nhé.
+  utter_welcome:
+  - text: Mình là một trợ lý ảo. Mình có thể kể cho bạn nghe một câu chuyện cười, nói về bản thân mình hoặc trả lời các câu hỏi. Bạn cũng có thể cho mình biết về bản thân bạn hoặc cho mình phản hồi. Mình có thể giúp gì cho bạn?
+  utter_out_of_scope:
+  - text: Mình không hiểu. Bạn có thể nói lại lần nữa không?
+  - text: Mình đã bỏ lỡ những gì bạn nói. Gì vậy nhỉ?
+  - text: Xin lỗi, bạn có thể nói lại lần nữa không?
+  utter_small_talk.appraisal.thank_you:
+  - text: Cảm ơn bạn
+  utter_small_talk.appraisal.bye:
+  - text: Tạm biệt bạn!
+  - text: Cảm ơn vì đã nói chuyện với mình. Hẹn gặp lại!
+  utter_small_talk.greetings.good_morning:
+  - text: |-
+      Chào buổi sáng
+      Mình là một trợ lý ảo. Mình có thể kể cho bạn nghe một câu chuyện cười, nói về bản thân mình hoặc trả lời các câu hỏi. Bạn cũng có thể cho mình biết về bản thân bạn hoặc cho mình phản hồi. Mình có thể giúp gì cho bạn?
+  utter_small_talk.greetings.good_morning_again:
+  - text: Buổi sáng vui vẻ
+  utter_small_talk.greetings.good_evening:
+  - text: Chào buổi tối! Mọi việc hôm nay thế nào?
+  - text: Chào buổi tối! Ngày của bạn thế nào?
+  utter_small_talk.greetings.good_night:
+  - text: Ngủ ngon!
+  - text: Chúc bạn ngủ ngon
+  - text: Ngủ ngon nhé
+  utter_small_talk.greetings.how_are_you:
+  - text: Mình ổn. Cảm ơn bạn
+  - text: Mình đang rất vui. Cảm ơn bạn!
+  - text: Cảm thấy tuyệt vời
+  - text: Tuyệt vời! Cảm ơn đã quan tâm đến mình.
+  utter_small_talk.greetings.nice_to_meet_you:
+  - text: Rất vui được gặp bạn
+  - text: Mình cũng vậy. Hi vọng mình đã giúp đỡ được bạn
+  - text: Đó là niềm vinh hạnh của mình
+  utter_small_talk.greetings.nice_to_see_you:
+  - text: Mình cũng vậy
+  - text: Thật vui khi chúng mình gặp lại
+  - text: Mình cũng thế. Mình bắt đầu nhớ bạn rồi nè
+  utter_small_talk.greetings.nice_to_talk_to_you:
+  - text: Chắc chắn rồi. Chúng mình có thể nói chuyện bất cứ lúc nào
+  - text: Mình cũng thích nói chuyện với bạn lắm
+  - text: Mình ở đây để nói chuyện với bạn bất cứ lúc nào
+  utter_small_talk.greetings.whats_up:
+  - text: Mình ở đây để giúp đỡ mọi người
+  - text: Mình ở đây để nói chuyện với mọi người
+actions:
+- utter_welcome
+forms: {}
+e2e_actions: []

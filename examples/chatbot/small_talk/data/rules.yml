@@ -1,0 +1,58 @@
+version: "2.0"
+
+rules:
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Handle default_welcome_intent
+  steps:
+  - intent: default_welcome_intent
+  - action: utter_welcome
+
+- rule: Handle out_of_scope
+  steps:
+  - intent: out_of_scope
+  - action: utter_out_of_scope
+
+- rule: Handle good_evening
+  steps:
+  - intent: small_talk.greetings.good_evening
+  - action: utter_small_talk.greetings.good_evening
+
+- rule: Handle small_talk.greetings.good_night
+  steps:
+  - intent: small_talk.greetings.good_night
+  - action: utter_small_talk.greetings.good_night
+
+- rule: Handle small_talk.greetings.how_are_you
+  steps:
+  - intent: small_talk.greetings.how_are_you
+  - action: utter_small_talk.greetings.how_are_you
+
+- rule: Handle small_talk.greetings.nice_to_meet_you
+  steps:
+  - intent: small_talk.greetings.nice_to_meet_you
+  - action: utter_small_talk.greetings.nice_to_meet_you
+
+- rule: Handle small_talk.greetings.nice_to_see_you
+  steps:
+  - intent: small_talk.greetings.nice_to_see_you
+  - action: utter_small_talk.greetings.nice_to_see_you
+
+- rule: Handle small_talk.greetings.nice_to_see_you
+  steps:
+  - intent: small_talk.greetings.nice_to_talk_to_you
+  - action: utter_small_talk.greetings.nice_to_talk_to_you
+
+- rule: Handle small_talk.greetings.nice_to_see_you
+  steps:
+  - intent: small_talk.greetings.whats_up
+  - action: utter_small_talk.greetings.whats_up
+
+- rule: Handle small_talk.agent.tell_a_joke
+  steps:
+  - intent: small_talk.agent.tell_a_joke
+  - action: utter_small_talk.agent.tell_a_joke

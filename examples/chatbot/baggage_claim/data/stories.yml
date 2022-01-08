@@ -1,0 +1,11 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: default_welcome_intent
+  - action: utter_default_welcome_intent
+  - intent: claims.start_claim
+  - action: claim_type_form
+  - action_loop: claim_type_form

@@ -1,0 +1,30 @@
+version: "2.0"
+rules:
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Activate Pizza Form with buy_pizza
+  steps:
+  - intent: buy_pizza
+  - action: simple_pizza_form
+  - active_loop: simple_pizza_form
+
+- rule: Activate Pizza Form from inform_pizza
+  steps:
+  - intent: inform_pizza
+  - action: simple_pizza_form
+  - active_loop: simple_pizza_form
+
+- rule: Submit Pizza Form
+  steps:
+  - action: simple_pizza_form
+  - active_loop: null
+  - slot_was_set:
+    - requested_slot: null
+  - action: utter_pizza_slots

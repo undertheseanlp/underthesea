@@ -1,0 +1,80 @@
+version: '2.0'
+config:
+  store_entities_as_slots: true
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- affirm:
+    use_entities: true
+- deny:
+    use_entities: true
+- mood_great:
+    use_entities: true
+- mood_unhappy:
+    use_entities: true
+- bot_challenge:
+    use_entities: true
+- buy_pizza:
+    use_entities: true
+- inform_pizza:
+    use_entities: true
+entities:
+- pizza_s1_type
+- pizza_s2_size
+slots:
+  pizza_s1_type:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  pizza_s2_size:
+    type: rasa.shared.core.slots.TextSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: true
+  requested_slot:
+    type: rasa.shared.core.slots.UnfeaturizedSlot
+    initial_value: null
+    auto_fill: true
+    influence_conversation: false
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_pizza_slots:
+  - text: Bạn vừa đặt một pizza {pizza_s1_type} cỡ {pizza_s2_size}.
+  utter_ask_continue:
+  - text: Are you sure you want to stop the form?
+  utter_ask_pizza_s1_type:
+  - text: Bạn muốn mua loại pizza nào?
+  utter_ask_pizza_s2_size:
+  - text: Bạn chọn cỡ gì?
+actions:
+- utter_ask_continue
+- utter_pizza_slots
+- validate_simple_pizza_form
+forms:
+  simple_pizza_form:
+    required_slots:
+      pizza_s1_type:
+      - entity: pizza_s1_type
+        type: from_entity
+      pizza_s2_size:
+      - entity: pizza_s2_size
+        type: from_entity
+e2e_actions: []

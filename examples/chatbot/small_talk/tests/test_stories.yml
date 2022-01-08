@@ -1,0 +1,129 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+
+version: "2.0"
+stories:
+
+- story: Story from Conversation ID 7c93be24deed4481a999ecd660747d9e
+  steps:
+  - intent: default_welcome_intent
+    user: |-
+      chào cậu
+  - action: utter_welcome
+
+- story: Test Story
+  steps:
+  - intent: out_of_scope
+    user: |-
+      dở hơi
+  - action: utter_out_of_scope
+
+- story: Test Story
+  steps:
+  - intent: small_talk.appraisal.thank_you
+    user: |-
+      cảm ơn
+  - action: utter_small_talk.appraisal.thank_you
+
+- story: Test Story
+  steps:
+  - intent: small_talk.greetings.good_morning
+    user: |-
+      chào buổi sáng
+  - action: utter_small_talk.greetings.good_morning
+
+- story: Test Story
+  steps:
+  - intent: small_talk.appraisal.bye
+    user: |-
+      tạm biệt nhé
+  - action: utter_small_talk.appraisal.bye
+
+- story: Test Story, talk good_morning 2 times
+  steps:
+  - intent: small_talk.greetings.good_morning
+    user: |-
+      chào buổi sáng
+  - action: utter_small_talk.greetings.good_morning
+  - intent: small_talk.greetings.good_morning
+    user: |-
+      chào buổi sáng
+  - action: utter_small_talk.greetings.good_morning_again
+
+#- story: Test Story, talk good_morning 3 times
+#  steps:
+#  - intent: small_talk.greetings.good_morning
+#    user: |-
+#      chào buổi sáng
+#  - action: utter_small_talk.greetings.good_morning
+#  - intent: small_talk.greetings.good_morning
+#    user: |-
+#      chào buổi sáng
+#  - action: utter_small_talk.greetings.good_morning_again
+#  - intent: small_talk.greetings.good_morning
+#    user: |-
+#      chào buổi sáng
+#  - action: utter_small_talk.greetings.good_morning_again
+
+- story: Test Story, small_talk.greetings.good_evening
+  steps:
+  - intent: small_talk.greetings.good_evening
+    user: |-
+      chào buổi tối
+  - action: utter_small_talk.greetings.good_evening
+
+- story: Test Story, small_talk.greetings.good_night
+  steps:
+  - intent: small_talk.greetings.good_night
+    user: |-
+      chúc ngủ ngon
+  - action: utter_small_talk.greetings.good_night
+
+- story: Test Story, small_talk.greetings.how_are_you
+  steps:
+  - intent: small_talk.greetings.how_are_you
+    user: |-
+      bạn khỏe không?
+  - action: utter_small_talk.greetings.how_are_you
+
+- story: Test Story, small_talk.greetings.nice_to_meet_you
+  steps:
+  - intent: small_talk.greetings.nice_to_meet_you
+    user: |-
+      rất vui khi gặp bạn
+  - action: utter_small_talk.greetings.nice_to_meet_you
+
+- story: Test Story, small_talk.greetings.nice_to_see_you
+  steps:
+  - intent: small_talk.greetings.nice_to_see_you
+    user: |-
+      gặp bạn mình rất vui
+  - action: utter_small_talk.greetings.nice_to_see_you
+
+- story: Test Story, small_talk.greetings.nice_to_talk_to_you
+  steps:
+  - intent: small_talk.greetings.nice_to_talk_to_you
+    user: |-
+      thật vui khi được nói chuyện với bạn
+  - action: utter_small_talk.greetings.nice_to_talk_to_you
+
+- story: Test Story, small_talk.greetings.whats_up
+  steps:
+  - intent: small_talk.greetings.whats_up
+    user: |-
+      hey
+  - action: utter_small_talk.greetings.whats_up
+
+- story: Test Story, small_talk.greetings.whats_up
+  steps:
+  - intent: small_talk.greetings.whats_up
+    user: |-
+      hey
+  - action: utter_small_talk.greetings.whats_up
+
+- story: Test Story, small_talk.agent.tell_a_joke
+  steps:
+  - intent: small_talk.agent.tell_a_joke
+    user: |-
+      làm mình vui đi
+  - action: utter_small_talk.greetings.whats_up
