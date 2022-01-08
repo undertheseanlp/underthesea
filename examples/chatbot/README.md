@@ -40,18 +40,6 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
   </tr>
   <tr>
     <td>
-      <a href="small_talk">Baggage claim</a><br/>
-      <b><sub>Travel</sub></b><br/>
-      <sub>Beginner</sub>
-    </td>
-    <td></td>
-    <td></td>
-    <td>
-        Create or check the status of a claim related to lost, delayed, or damage baggage.<br/>
-    </td>
-  </tr>
-  <tr>
-    <td>
       <a href="top_up">Top Up</a><br/>
       <sub>Intermediate</sub>
     </td>
@@ -76,6 +64,18 @@ In this example, we will create some simple demo for Vietnamese Chatbot with Ras
     <td>Unhappy Form Paths, Rules, Stories</td>
     <td></td>
     <td></td>
+  </tr>
+  <tr>
+    <td>
+      <a href="small_talk">Baggage claim (WIP)</a><br/>
+      <b><sub>Travel</sub></b><br/>
+      <sub>Beginner</sub>
+    </td>
+    <td></td>
+    <td></td>
+    <td>
+        Create or check the status of a claim related to lost, delayed, or damage baggage.<br/>
+    </td>
   </tr>
 </tbody>
 </table>
