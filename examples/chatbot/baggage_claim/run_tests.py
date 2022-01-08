@@ -70,7 +70,7 @@ if __name__ == '__main__':
                 print(f'🗣️: {user_message}')
                 r = chat_user.send(user_message)
                 if r is None:
-                    print(f'🤖: ')
+                    print('🤖: ')
                 else:
                     for bot_response in r:
                         bot_response_message = bot_response['text']
