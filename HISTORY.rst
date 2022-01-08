@@ -5,8 +5,10 @@ History
 1.3.4-alpha.1 (2021-11-18)
 --------------------------------------------------------------------------------
 
+* Demo chatbot with  rasa (513)
+* Lite version of underthesea (GH-505)
+* Increase word_tokenize speed 1.5 times (GH-185)
 * Add build for windows (GH-185)
-* Improve word_tokenize performance (GH-185)
 
 1.3.3 (2021-09-02)
 --------------------------------------------------------------------------------
