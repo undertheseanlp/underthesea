@@ -1,4 +1,4 @@
-from apps.utils import DICTIONARY_FILE
+from apps.streamlit_dictionary.utils import DICTIONARY_FILE
 import yaml
 
 if __name__ == '__main__':

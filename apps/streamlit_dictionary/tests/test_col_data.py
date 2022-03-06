@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
 
-from apps.col_data import VietnameseWiktionary
+from apps.streamlit_dictionary.col_data import VietnameseWiktionary
 
 
 class TestColData(TestCase):

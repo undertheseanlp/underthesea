@@ -1,5 +1,5 @@
 from elasticsearch import Elasticsearch
-from apps.utils import DICTIONARY_FILE
+from apps.streamlit_dictionary.utils import DICTIONARY_FILE
 import yaml
 
 
