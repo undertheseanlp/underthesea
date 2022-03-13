@@ -28,4 +28,4 @@ jobs:
         with:
           context: apps/dictionary/
           push: true
-          tags: ghcr.io/undertheseanlp/underthesea/app:0.2
+          tags: ghcr.io/undertheseanlp/underthesea/dictionary:0.1
