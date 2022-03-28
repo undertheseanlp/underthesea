@@ -44,7 +44,6 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 ## Installation
 
-
 To install underthesea, simply:
 
 ```bash
@@ -136,7 +135,7 @@ Usage
 
 ### 5. Dependency Parsing
 
-Install dependencies for deep learning 
+Install dependencies for deep learning
 
 ```bash
 $ pip install underthesea[deep]
