@@ -89,3 +89,11 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: small_talk.agent_redirect
+  examples: |
+    - tôi muốn nói chuyện với CSKH
+
+- intent: car_rental.reservation_create
+  examples: |
+    - tôi muốn đặt một xe 4 chỗ

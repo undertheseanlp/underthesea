@@ -8,6 +8,18 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - small_talk.agent_redirect
+  - car_rental.reservation_create
+
+entities:
+  - pickup_location
+
+slots:
+  pickup_location:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: pickup_location
 
 responses:
   utter_greet:
@@ -28,6 +40,12 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_agent_redirect:
+  - text: "Bạn đang được kết nối đến bộ phận CSKH"
+
+  utter_reservation_create:
+  - text: "Cảm ơn bạn đã đặt chỗ"
 
 session_config:
   session_expiration_time: 60

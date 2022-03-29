@@ -28,3 +28,13 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: handoff
+  steps:
+  - intent: small_talk.agent_redirect
+  - action: utter_agent_redirect
+
+- story: Reservation 1
+  steps:
+  - intent: car_rental.reservation_create
+  - action: utter_reservation_create
