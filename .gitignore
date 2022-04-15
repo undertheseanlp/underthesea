@@ -62,7 +62,6 @@ target/
 # pyenv python configuration file
 .python-version
 */.ipynb_checkpoints/
-/examples/dictionary/dev/
 
 # ignore test outputs
 *.actual
