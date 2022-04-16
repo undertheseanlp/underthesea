@@ -32,6 +32,11 @@ if not os.path.exists(raw_folder):
 
 # Download wiki dump
 wiki_raw_file = join(raw_folder, f"viwiki-{TS}-pages-articles.xml.bz2")
+wiki_extracted_raw_file = join(raw_folder, f"viwiki-{TS}-pages-articles.xml")
 url = f"https://dumps.wikimedia.org/viwiki/{TS}/viwiki-{TS}-pages-articles.xml.bz2"
-if not os.path.exists(wiki_raw_file):
+if not os.path.exists(wiki_raw_file) and not wiki_extracted_raw_file:
     download_file(url, wiki_raw_file)
+
+if not wiki_extracted_raw_file:
+    # TBD: call bzip2 function
+    pass
