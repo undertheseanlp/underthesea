@@ -3,6 +3,7 @@ from os.path import join
 import requests
 from tqdm import tqdm
 from underthesea.file_utils import UNDERTHESEA_FOLDER
+import subprocess
 
 
 def download_file(url, dest_file):
@@ -10,11 +11,11 @@ def download_file(url, dest_file):
     resp = requests.get(url, stream=True)
     total = int(resp.headers.get('content-length', 0))
     with open(dest_file, 'wb') as file, tqdm(
-        desc=dest_file,
-        total=total,
-        unit='iB',
-        unit_scale=True,
-        unit_divisor=1024,
+            desc=dest_file,
+            total=total,
+            unit='iB',
+            unit_scale=True,
+            unit_divisor=1024,
     ) as bar:
         for data in resp.iter_content(chunk_size=1024):
             size = file.write(data)
@@ -39,4 +40,14 @@ if not os.path.exists(wiki_raw_file) and not wiki_extracted_raw_file:
 
 if not wiki_extracted_raw_file:
     # TBD: call bzip2 function
-    pass
+    subprocess.run(["ls", "-l"])
+
+wiki_text_folder = join(wiki_folder, "text")
+if not os.path.exists(wiki_text_folder):
+    subprocess.run(["python", "WikiExtractor.py", "--no-templates",
+                    "-b", "10M",
+                    "-s",
+                    "--lists",
+                    "-o", wiki_text_folder,
+                    wiki_extracted_raw_file
+                    ])

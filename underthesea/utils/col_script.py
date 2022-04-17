@@ -1,5 +1,4 @@
 from os.path import dirname, join, exists
-from torch.utils.data import Dataset
 from underthesea import pos_tag
 from underthesea import dependency_parse
 from underthesea.utils.col_analyzer import UDAnalyzer
@@ -70,7 +69,7 @@ class UDSentence:
         return UDSentence.load_from_raw_content(raw_content)
 
 
-class UDDataset(Dataset):
+class UDDataset():
 
     def __init__(self, sentences):
         super().__init__()
