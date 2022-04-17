@@ -1,4 +1,5 @@
 import os
+from multiprocessing import Pool
 from os import listdir
 from os.path import join
 
@@ -38,11 +39,11 @@ def make_ud_file(file):
 if __name__ == '__main__':
     files = sorted(listdir(CLEANED_FOLDER))
 
-    # with Pool(5) as p:
-    #     p.map(make_ud_file, files)
+    with Pool(5) as p:
+        p.map(make_ud_file, files)
     #
     # # file = files[0]
     # # make_ud_file(file)
 
-    for file in files:
-        make_ud_file(file)
+    # for file in files:
+    #     make_ud_file(file)

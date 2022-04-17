@@ -51,3 +51,5 @@ if not os.path.exists(wiki_text_folder):
                     "-o", wiki_text_folder,
                     wiki_extracted_raw_file
                     ])
+
+# TODO Call col_wiki_ud script
