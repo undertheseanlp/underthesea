@@ -16,7 +16,7 @@ Step 2: Clean data
 
 ```
 python underthesea/utils/col_wiki_clean.py
-python underthesea/utils/col_wiki_ud.py
+cd data
 ```
 
 Step 3: Run
@@ -27,6 +27,7 @@ python underthesea/utils/col_dictionary_import.py
 ```
 For Mac OS >= Mojave, alternatively run
 ```
-OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES python underthesea/utils/col_dictionary.py
+OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+python underthesea/utils/col_dictionary.py
 python underthesea/utils/col_dictionary_import.py
 ```
