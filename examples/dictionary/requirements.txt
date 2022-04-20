@@ -1,3 +1,4 @@
 requests
 tqdm
 underthesea
+torch==1.7.0
