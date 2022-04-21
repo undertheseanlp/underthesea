@@ -1,7 +1,13 @@
+from os.path import dirname, join
+
 import pandas as pd
 import yaml
 
-from examples.dictionary.col_dictionary import DICTIONARY_FILE
+PROJECT_FOLDER = dirname(dirname(dirname(__file__)))
+DATASETS_FOLDER = join(PROJECT_FOLDER, "datasets")
+COL_FOLDER = join(DATASETS_FOLDER, "UD_Vietnamese-COL")
+DICTIONARY_FOLDER = join(DATASETS_FOLDER, "UD_Vietnamese-COL", "dictionary")
+DICTIONARY_FILE = join(DICTIONARY_FOLDER, "202108.yaml")
 
 
 class Dictionary:
@@ -46,3 +52,42 @@ class Dictionary:
             content = f.read()
         data = yaml.safe_load(content)
         return Dictionary(data)
+
+
+class DictionarySense:
+    def __init__(self):
+        pass
+
+
+class DictionaryWord:
+    def __init__(self, text, senses=[]):
+        self.text = text
+        self.senses = senses
+
+
+class CoreDictionary:
+    def __init__(self):
+        self.words = {}
+
+    def add_word(self, word):
+        self.words[word] = word
+
+    def to_yaml(self, save_file):
+        content = ""
+        i = 0
+        for word in self.words:
+            i += 1
+            if i > 100:
+                continue
+            content += f"{word.text}\n"
+            for sense in word.senses:
+                content += f"- description: {sense['definition']}\n"
+                content += f"  examples:\n"
+                content += f"  - {sense['example']}\n"
+                content += f"  tag: {sense['pos']}\n"
+        with open(save_file, "w") as f:
+            f.write(content)
+
+    @classmethod
+    def load_yaml(cls, save_file):
+        pass
