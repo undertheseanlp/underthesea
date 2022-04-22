@@ -17,6 +17,8 @@ for text in sorted(dictionary.words):
     word = DictionaryWord(text)
     word.senses = dictionary.words[text]
     core_dictionary.add_word(word)
-
 file = join(DICTIONARY_PROJECT_FOLDER, "vlsp_dictionary.yaml")
 core_dictionary.to_yaml(file)
+
+file = join(DICTIONARY_PROJECT_FOLDER, "vlsp_dictionary_cp.yaml")
+c1 = CoreDictionary.load_yaml(file)

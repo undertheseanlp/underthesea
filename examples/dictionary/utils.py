@@ -79,15 +79,22 @@ class CoreDictionary:
             i += 1
             if i > 100:
                 continue
-            content += f"{word.text}\n"
+            content += f"{word.text}:\n"
             for sense in word.senses:
                 content += f"- description: {sense['definition']}\n"
                 content += f"  examples:\n"
-                content += f"  - {sense['example']}\n"
+                if sense['example']:
+                    content += f"  - {sense['example']}\n"
                 content += f"  tag: {sense['pos']}\n"
         with open(save_file, "w") as f:
             f.write(content)
 
-    @classmethod
-    def load_yaml(cls, save_file):
-        pass
+    @staticmethod
+    def load_yaml(save_file):
+        with open(save_file) as f:
+            data = yaml.safe_load(f)
+        dictionary = CoreDictionary()
+        for text in data:
+            word = DictionaryWord(text, senses=[])
+            dictionary.add_word(word)
+        return dictionary
