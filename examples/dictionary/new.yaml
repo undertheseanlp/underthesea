@@ -1,24 +1,28 @@
 văn hóa:
-- defs:
-  - def: Trình độ cao trong sinh hoạt xã hội, biểu hiện của văn minh
-    examples:
-    - Sống có văn hoá. Ăn nói thiếu văn hoá
-    tag: N
+- def: Trình độ cao trong sinh hoạt xã hội, biểu hiện của văn minh
+  examples:
+  - Sống có văn hoá. Ăn nói thiếu văn hoá
+  tag: N
 phần lớn:
-- defs:
-  - def: Số tương đối lớn trong một số người hay vật
-    examples: Phần lớn cán bộ cơ quan đang đi công tác xa
-    tag: D
+- def: Số tương đối lớn trong một số người hay vật
+  examples: Phần lớn cán bộ cơ quan đang đi công tác xa
+  tag: D
 hoàng đế:
-- defs:
-  - def: Vua một nước có chư hầu; vua một nước lớn đối với các nước nhỏ.
+- def: Vua một nước có chư hầu; vua một nước lớn đối với các nước nhỏ.
 liên minh:
-  - def: Sự kết hợp giữa hai hay nhiều lực lượng để cùng chiến đấu cho một mục đích chung.
-    examples: khối liên minh công nông
-    tag: N
+- def: Sự kết hợp giữa hai hay nhiều lực lượng để cùng chiến đấu cho một mục đích chung.
+  examples: khối liên minh công nông
+  tag: N
 ủy ban:
-  - def: Tổ chức được bầu ra để làm nhiệm vụ nào đó.
-    examples:
-      - Uỷ ban khởi nghĩa.
-      - Uỷ ban dự thảo hiến pháp.
-    tag: N
+- def: Tổ chức được bầu ra để làm nhiệm vụ nào đó.
+  examples:
+    - Uỷ ban khởi nghĩa.
+    - Uỷ ban dự thảo hiến pháp.
+  tag: N
+lĩnh vực:
+- def: Toàn thể nội dung bao gồm trong một ngành hoạt động và, nói riêng, một ngành khoa học, nghệ thuật...
+  examples:
+    - Lĩnh vực kinh tế
+    - Lĩnh vực kỹ thuật
+    - Lĩnh vực sử học
+  tag: N
