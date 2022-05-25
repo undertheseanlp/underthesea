@@ -5,30 +5,32 @@ văn hóa:
   tag: N
 phần lớn:
 - def: Số tương đối lớn trong một số người hay vật
-  examples: Phần lớn cán bộ cơ quan đang đi công tác xa
+  examples:
+  - Phần lớn cán bộ cơ quan đang đi công tác xa
   tag: D
 hoàng đế:
 - def: Vua một nước có chư hầu; vua một nước lớn đối với các nước nhỏ.
 liên minh:
 - def: Sự kết hợp giữa hai hay nhiều lực lượng để cùng chiến đấu cho một mục đích chung.
-  examples: khối liên minh công nông
+  examples:
+  - khối liên minh công nông
   tag: N
 ủy ban:
 - def: Tổ chức được bầu ra để làm nhiệm vụ nào đó.
   examples:
-    - Uỷ ban khởi nghĩa.
-    - Uỷ ban dự thảo hiến pháp.
+  - Uỷ ban khởi nghĩa.
+  - Uỷ ban dự thảo hiến pháp.
   tag: N
 lĩnh vực:
 - def: Toàn thể nội dung bao gồm trong một ngành hoạt động và, nói riêng, một ngành khoa học, nghệ thuật...
   examples:
-    - Lĩnh vực kinh tế
-    - Lĩnh vực kỹ thuật
-    - Lĩnh vực sử học
+  - Lĩnh vực kinh tế
+  - Lĩnh vực kỹ thuật
+  - Lĩnh vực sử học
   tag: N
 tiểu học:
 - def: cấp học thấp nhất trong bậc học giáo dục phổ thông, từ lớp một đến lớp năm
   examples:
-    - phổ cập tiểu học
-    - giáo viên tiểu học
+  - phổ cập tiểu học
+  - giáo viên tiểu học
   tag: N

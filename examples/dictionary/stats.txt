@@ -1,4 +1,4 @@
       Words: 7
 Definitions: 7
-   Examples: 2
-Data points: 16
+   Examples: 10
+Data points: 24

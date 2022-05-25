@@ -8,7 +8,7 @@ num_definitions = 0
 num_examples = 0
 for word in content:
     num_definitions += len(content[word])
-    num_examples = sum([len(item['examples']) if 'examples' in item else 0 for item in content[word]])
+    num_examples += sum([len(item['examples']) if 'examples' in item else 0 for item in content[word]])
 total_data_points = num_words + num_definitions + num_examples
 
 print(f'Total data points: {total_data_points}')
