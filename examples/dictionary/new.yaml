@@ -26,3 +26,9 @@ lĩnh vực:
     - Lĩnh vực kỹ thuật
     - Lĩnh vực sử học
   tag: N
+tiểu học:
+- def: cấp học thấp nhất trong bậc học giáo dục phổ thông, từ lớp một đến lớp năm
+  examples:
+    - phổ cập tiểu học
+    - giáo viên tiểu học
+  tag: N

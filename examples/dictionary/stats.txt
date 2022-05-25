@@ -1,2 +1,4 @@
-      Words: 6
-Definitions: 6
+      Words: 7
+Definitions: 7
+   Examples: 2
+Data points: 16
