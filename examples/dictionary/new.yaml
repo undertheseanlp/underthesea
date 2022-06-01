@@ -34,3 +34,20 @@ tiểu học:
   - phổ cập tiểu học
   - giáo viên tiểu học
   tag: N
+tương lai:
+- def: Đời sống, cuộc sống sau này
+  examples:
+  - Lo cho tương lai của các con.
+  - Xây dựng tương lai.
+  tag: N
+nguyện vọng:
+- def: Điều mong muốn.
+  examples:
+  - Giải quyết theo nguyện vọng quần chúng
+  - Nguyện vọng chính đáng
+  tag: N
+bóng đá:
+- def: Môn thể thao bắt nguồn từ Anh gồm có hai đội, mỗi đội có mười một cầu thủ cố gắng đưa bóng vào khung thành đội bạn bằng cách sút vào bóng. Trong tập luyện hay chơi nghiệp dư,..., mỗi đội thường có thể có khoảng năm, sáu, bảy,... hay bất kỳ số lượng cầu thủ như thế nào.
+  examples:
+  - Bóng đá là môn thể thao được nhiều người yêu thích.
+  tag: N
