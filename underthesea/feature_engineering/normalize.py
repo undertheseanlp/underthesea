@@ -85,6 +85,7 @@ def normalize(s):
         "choè": "chòe", "khoè": "khòe", "ngoè": "ngòe", "nhoè": "nhòe",
         "Choè": "Chòe", "Khoè": "Khòe", "Ngoè": "Ngòe", "Nhoè": "Nhòe",
         "oé": "óe",
+        "loé": "lóe", "toé": "tóe", "voé": "vóe", "xoé": "xóe",
         "Loé": "Lóe", "Toé": "Tóe", "Voé": "Vóe", "Xoé": "Xóe",
         "choé": "chóe", "khoé": "khóe", "ngoé": "ngóe", "nghoé": "nghóe", "nhoé": "nhóe", "phoé": "phóe",
         "Choé": "Chóe", "Khoé": "Khóe", "Ngoé": "Ngóe", "Nghoé": "Nghóe", "Nhoé": "Nhóe", "Phoé": "Phóe",
