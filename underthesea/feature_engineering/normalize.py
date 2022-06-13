@@ -8,6 +8,7 @@ CORPUS_FOLDER = join(UNDERTHESEA_FOLDER, "datasets", "LTA")
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
 SYMBOLS_ANALYSE_FILE = join(CORPUS_FOLDER, "symbols_analyze.txt")
 
+
 def analyze_token_and_symbol():
     count_token_dict = {}
     count_symbol_dict = {}
@@ -49,6 +50,7 @@ def write_analyzes():
             print(s)
             f.write(s + "\n")
 
+
 def normalize(s):
     # b, c, d, đ, g, h, k, l, m, n, p, q, r, s, t, v, x
     # phụ âm ghép: ch, gh, gi, kh, ng, ngh, nh, ph, th, tr, qu,
@@ -56,18 +58,33 @@ def normalize(s):
         "oà": "òa",
         "đoà": "đòa", "hoà": "hòa", "goà": "gòa", "lòa": "loà", "nòa": "noà", "toà": "tòa", "voà": "vòa", "xoà": "xòa",
         "Đoà": "Đòa", "Hoà": "Hòa", "Goà": "Gòa", "Lòa": "Loà", "Nòa": "Noà", "Toà": "Tòa", "Voà": "Vòa", "Xoà": "Xòa",
-        "hoá": "hóa", "loá": "lóa", "toá": "tóa", "xoá": "xóa",
-        "Hoá": "Hóa", "Loá": "Lóa", "Toá": "Tóa", "Xoá": "Xóa",
-        "hoả": "hỏa", "loả": "lỏa", "toả": "tỏa", "xoả": "xỏa",
-        "Hoả": "Hỏa", "Loả": "Lỏa", "Toả": "Tỏa", "Xoả": "Xỏa",
+        "ngoà": "ngòa", "nhoà": "nhòa",
+        "Ngoà": "Ngòa", "Nhoà": "Nhòa",
+        "oá": "óa",
+        "đoá": "đóa", "hoá": "hóa", "goá": "góa", "loá": "lóa", "toá": "tóa", "xoá": "xóa",
+        "Đoá": "Đóa", "Hoá": "Hóa", "Goá": "Góa", "Loá": "Lóa", "Toá": "Tóa", "Xoá": "Xóa",
+        "khoá": "khóa", "thoá": "thóa",
+        "Khoá": "Khóa", "Thoá": "Thóa",
+        "oả": "ỏa",
+        "hoả": "hỏa", "loả": "lỏa", "toả": "tỏa", "soả": "sỏa", "xoả": "xỏa",
+        "Hoả": "Hỏa", "Loả": "Lỏa", "Toả": "Tỏa", "Soả": "Sỏa", "Xoả": "Xỏa",
+        "khoả": "khỏa", "thoả": "thỏa", "troả": "trỏa",
+        "Khoả": "Khỏa", "Thoả": "Thỏa", "Troả": "Trỏa",
+        "oã": "õa",
         "hoã": "hõa", "loã": "lõa", "toã": "tõa", "xoã": "xõa",
         "Hoã": "Hõa", "Loã": "Lõa", "Toã": "Tõa", "Xoã": "Xõa",
-        "hoạ": "họa", "loạ": "lọa", "toạ": "tọa", "xoạ": "xọa",
-        "Hoạ": "Họa", "Loạ": "Lọa", "Toạ": "Tọa", "Xoạ": "Xọa",
+        "thoã": "thõa", "ngoã": "ngõa",
+        "Thoã": "Thõa", "Ngoã": "Ngõa",
+        "doạ": "dọa", "đoạ": "đọa", "hoạ": "họa", "loạ": "lọa", "toạ": "tọa", "xoạ": "xọa",
+        "Doạ": "Dọa", "Đoạ": "Đọa", "Hoạ": "Họa", "Loạ": "Lọa", "Toạ": "Tọa", "Xoạ": "Xọa",
+        "khoạ": "khọa", "ngoạ": "ngọa", "thoạ": "thọa",
+        "Khoạ": "Khọa", "Ngoạ": "Ngọa", "Thoạ": "Thọa",
+        "oè": "òe",
         "hoè": "hòe", "loè": "lòe", "toè": "tòe", "xoè": "xòe",
         "Hoè": "Hòe", "Loè": "Lòe", "Toè": "Tòe", "Xoè": "Xòe",
+        "choè": "chòe", "khoè": "khòe", "ngoè": "ngòe", "nhoè": "nhòe",
+        "Choè": "Chòe", "Khoè": "Khòe", "Ngoè": "Ngòe", "Nhoè": "Nhòe",
         "oé": "óe",
-        "loé": "lóe", "toé": "tóe", "voé": "vóe", "xoé": "xóe",
         "Loé": "Lóe", "Toé": "Tóe", "Voé": "Vóe", "Xoé": "Xóe",
         "choé": "chóe", "khoé": "khóe", "ngoé": "ngóe", "nghoé": "nghóe", "nhoé": "nhóe", "phoé": "phóe",
         "Choé": "Chóe", "Khoé": "Khóe", "Ngoé": "Ngóe", "Nghoé": "Nghóe", "Nhoé": "Nhóe", "Phoé": "Phóe",
@@ -97,5 +114,5 @@ def count_normalize():
 
 
 if __name__ == '__main__':
-    write_analyzes()
-    # count_normalize()
+    # write_analyzes()
+    count_normalize()
