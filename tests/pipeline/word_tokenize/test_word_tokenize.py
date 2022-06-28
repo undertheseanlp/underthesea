@@ -57,3 +57,11 @@ class TestWordTokenize(TestCase):
         actual = word_tokenize(text, format='text')
         expected = u"https://www.facebook.com/photo.php?fbid=1627680357512432&set=a.1406713109609159.1073741826.100008114498358&type=1 mình muốn chia_sẻ bài viết của một bác nói về thực_trạng của bộ giáo_dục bây_giờ ! mọi người vào đọc và chia_sẻ để Phạm_Vũ_Luận BIẾT !"
         self.assertEqual(actual, expected)
+
+    # from issue 528
+    # link: https://github.com/undertheseanlp/underthesea/issues/528
+    def test_exception(self):
+        text = "000 85 ."
+        actual = word_tokenize(text, format='text')
+        expected = "000 85 ."
+        self.assertEqual(actual, expected)

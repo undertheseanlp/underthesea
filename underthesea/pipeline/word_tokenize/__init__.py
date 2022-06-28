@@ -37,11 +37,13 @@ def word_tokenize(sentence, format=None):
     tokens = [token[0] for token in output]
     tags = [token[1] for token in output]
     output = []
+    num_words = 0
     for tag, token in zip(tags, tokens):
-        if tag == "I-W":
+        if tag == "I-W" and num_words > 0:
             output[-1] = output[-1] + u" " + token
         else:
             output.append(token)
+        num_words += 1
     if format == "text":
         output = u" ".join([item.replace(" ", "_") for item in output])
     return output
