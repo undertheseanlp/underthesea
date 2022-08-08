@@ -1,9 +1,11 @@
-from crf_sequence_tagger import CRFSequenceTagger
+from os.path import join
+
+from trainer import CRFSequenceTagger
 from data import WordTokenizeCorpusReader, DataReader
-
 from trainer import Trainer
+from underthesea.file_utils import UNDERTHESEA_FOLDER
 
-corpus = DataReader.load_tagged_corpus("/home/anhv/.languageflow/datasets/VLSP2013-WTK/",
+corpus = DataReader.load_tagged_corpus(join(UNDERTHESEA_FOLDER, "datasets", "VLSP2013-WTK"),
                                        train_file="train.txt", test_file="test.txt")
 
 features = [

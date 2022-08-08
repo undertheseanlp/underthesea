@@ -1,11 +1,9 @@
-import os
-
 import pycrfsuite
 import logging
 
-from conlleval import evaluate_
+from conlleval import evaluate
 
-from .features import TaggedTransformer
+from features import TaggedTransformer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
@@ -53,5 +51,9 @@ class Trainer:
             texts.append(text)
         text = "\n\n".join(texts)
         open("tmp/output.txt", "w").write(text)
-        evaluate_("tmp/output.txt")
+        evaluate("tmp/output.txt")
         logger.info("Finish tagger")
+
+class CRFSequenceTagger():
+    def __init__(self, features=None):
+        self.features = features
