@@ -1,6 +1,6 @@
 from datetime import datetime
 from os.path import join
-
+from viet_text_tools import normalize_diacritics
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.pipeline.word_tokenize import tokenize
 
@@ -68,6 +68,9 @@ base_norm_dict = {
     # ================================
     # AI
     # ================================
+    "aì": "ài",
+    "daì": "dài", "đaì": "đài", "haì": "hài", "taì": "tài", "vaì": "vài",
+    "ngaì": "ngài",
     "aỉ": "ải",
     "aị": "ại",
     "điạ": "địa", "laị": "lại",
@@ -275,10 +278,9 @@ def normalize(s):
 
 
 def count_normalize():
-    filename = join(CORPUS_FOLDER, 'token_analyze.txt')
     total_count = 0
     normalized_count = 0
-    with open(filename) as f:
+    with open(TOKENS_ANALYSE_FILE) as f:
         for line in f:
             total_count += 1
             word, freq = line.split("\t\t")
@@ -292,16 +294,12 @@ def count_normalize():
     print("Normalized words: ", normalized_count)
 
 
-from viet_text_tools import normalize_diacritics
-
-
 def compare_with_lab_viet_text_tools():
-    filename = join(CORPUS_FOLDER, 'token_analyze.txt')
     n_diff = 0
     ignores = set([
         "loà", "đưọc", "Gassée"
     ])
-    with open(filename) as f:
+    with open(TOKENS_ANALYSE_FILE) as f:
         for line in f:
             word, freq = line.split("\t\t")
             vtt_words = normalize_diacritics(word)
