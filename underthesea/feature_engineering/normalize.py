@@ -3,6 +3,7 @@ from os.path import join
 from viet_text_tools import normalize_diacritics
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.pipeline.word_tokenize import tokenize
+import pandas as pd
 
 CORPUS_FOLDER = join(UNDERTHESEA_FOLDER, "datasets", "LTA")
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
@@ -72,14 +73,25 @@ base_norm_dict = {
     "daì": "dài", "đaì": "đài", "haì": "hài", "taì": "tài", "vaì": "vài",
     "ngaì": "ngài",
     "aỉ": "ải",
+    "haỉ": "hải", "taỉ": "tải",
+    "nhaỉ": "nhải", "phaỉ": "phải", "traỉ": "trải",
+    "aĩ": "ãi",
+    "baĩ": "bãi",
+    "aí": "ái",
+    "caí": "cái", "gaí": "gái", "maí": "mái",
+    "phaí": "phái", "thaí": "thái", "traí": "trái",
     "aị": "ại",
-    "điạ": "địa", "laị": "lại",
+    "điạ": "địa", "haị": "hại", "laị": "lại", "maị": "mại", "saị": "sại", "taị": "tại",
+    "khaị": "khại", "traị": "trại",
+    "vaị": "vại", "đaị": "đại",
     # ================================
     # AO
     # ================================
+    "aò": "ào",
     "vaò": "vào",
     "aỏ": "ảo",
     "saỏ": "sảo",
+    "aó": "áo",
     # ================================
     # AU
     # ================================
@@ -245,11 +257,14 @@ base_norm_dict = {
     # UOC
     # ================================
     "úơc": "ước",
+    "bưóc": "bước",
     "trưóc": "trước",
+    "trứơc": "trước",
+    "trưóc": "trước",
+    "chưóc": "chước",
     "đưọc": "được",
     "đựơc": "được",
     "đựợc": "đượ̣c",
-    "trứơc": "trước",
     # ================================
     # UON - UONG
     # ================================
@@ -263,6 +278,13 @@ base_norm_dict = {
     # ================================
     "khủyu": "khuỷu"
 }
+# load base_norm_dict from rules.xlsx file
+base_norm_dict = {}
+rules_df = pd.read_excel("rules.xlsx")
+for key, item in rules_df.iterrows():
+    word = item[0]
+    normalize = item[1]
+    base_norm_dict[word] = normalize
 norm_dict = base_norm_dict.copy()
 # add capitalize rules
 for key in base_norm_dict:
@@ -294,12 +316,74 @@ def count_normalize():
     print("Normalized words: ", normalized_count)
 
 
+syllable_map_r = {
+    "a": "ảáăâàấẵầằáắậââạạăãảạẩâ",
+    "e": "èêẽếềếẻẹééé",
+    "o": "ơợốốốớớồôõòóỏọởỡỗổỡởởộ",
+    "i": "ỉíìịĩĩ",
+    "u": "ûửúủụựưừũùùứùưữ",
+    "y": "ỷỳỵỵỹý"
+}
+syllable_map = {}
+for key in syllable_map_r:
+    items = syllable_map_r[key]
+    for item in items:
+        syllable_map[item] = key
+NONE_DIACRITIC_SINGLE_VOWELS = set(["a", "e", "i", "o", "u", "y"])
+NONE_DIACRITIC_DOUBLE_VOWELS = set([
+    "ai", "ao", "au", "ay",
+    "eo", "eu", "ia", "ie", "iu", "oa", "oe", "oi", "oo",
+    "ua", "ui", "uo", "uu", "uy", "ye"
+])
+NONE_DIACRITIC_TRIPLE_VOWELS = set([
+    "ieu", "oai", "oao", "oay", "oeo",
+    "uao", "uay", "uoi", "uou", "uya", "uye", "uyu",
+    "yeu"
+])
+NONE_DIACRITIC_VOWELS = NONE_DIACRITIC_SINGLE_VOWELS | NONE_DIACRITIC_DOUBLE_VOWELS | NONE_DIACRITIC_TRIPLE_VOWELS
+
+
+class AnalysableWord:
+    def __init__(self, word):
+        self.word = word
+        group = ""
+        for syllable in self.word:
+            syllable = syllable.lower()
+            if syllable in syllable_map:
+                normalize_syllable = syllable_map[syllable]
+            else:
+                normalize_syllable = syllable
+            if normalize_syllable in NONE_DIACRITIC_SINGLE_VOWELS:
+                group += normalize_syllable
+        if group in NONE_DIACRITIC_VOWELS:
+            miss_spell = False
+        else:
+            miss_spell = True
+        self.group = group
+        self.miss_spell = miss_spell
+
+
+base_norm_data = []
+for key in base_norm_dict:
+    word = AnalysableWord(base_norm_dict[key])
+    base_norm_data.append({
+        "word": key,
+        "normalize": base_norm_dict[key],
+        "group": word.group
+    })
+dict_df = pd.DataFrame(base_norm_data)
+dict_df = dict_df.sort_values(by=["group", "normalize", "word"])
+dict_df.to_excel("rules.xlsx", index=False)
+
+
 def compare_with_lab_viet_text_tools():
     n_diff = 0
     ignores = set([
         "loà", "đưọc", "Gassée"
     ])
+    df = pd.DataFrame(columns=["word", "lower", "vtt", "uts", "group", "miss_spell"])
     with open(TOKENS_ANALYSE_FILE) as f:
+        data = {}
         for line in f:
             word, freq = line.split("\t\t")
             vtt_words = normalize_diacritics(word)
@@ -309,9 +393,27 @@ def compare_with_lab_viet_text_tools():
             if word in ignores:
                 continue
             if vtt_words != word and vtt_words != uts_words:
-                print(f"{word} -> {vtt_words} | {uts_words}")
+                analysable_word = AnalysableWord(word)
+                data[analysable_word] = {
+                    "vtt": vtt_words,
+                    "uts": uts_words
+                }
+                item = pd.DataFrame([{
+                    "word": analysable_word.word,
+                    "lower": analysable_word.word.lower(),
+                    "group": analysable_word.group,
+                    "miss_spell": analysable_word.miss_spell,
+                    "vtt": vtt_words,
+                    "uts": uts_words
+                }])
+                df = pd.concat([df, item], ignore_index=True)
                 n_diff += 1
-    print(f"Differents: {n_diff}")
+        df = df.sort_values(by=["miss_spell", "group", "lower"], ascending=True)
+        df.to_excel("data.xlsx", index=False)
+        for analysable_word in data:
+            item = data[analysable_word]
+            print(f"{analysable_word.word} -> {item['vtt']} | {item['uts']}")
+    print(f"Differences: {n_diff}")
 
 
 if __name__ == '__main__':

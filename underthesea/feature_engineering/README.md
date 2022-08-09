@@ -1,6 +1,6 @@
 # Vietnamese Text Normalize
 
-Dấu thanh tiếng Việt
+Dấu thanh tiếng Việt (Diacritic)
 
 * Ngang (ví dụ: ta)
 * Huyền (ví dụ: tà)
@@ -11,11 +11,13 @@ Dấu thanh tiếng Việt
 
 Nguyên âm và phụ âm tiếng Việt
 
-Nguyên âm đơn
+Nguyên âm (Vowel)
+
+Nguyên âm đơn (Single Vowel)
 
 * A, Ă, Â, E, Ê, I, O, Ô, Ơ, U, Ư, Y
 
-Nguyên âm đôi
+Nguyên âm đôi (Double Vowel)
 
 * AI, AO, AU, ÂU, AY, ÂY
 * EO, ÊU
@@ -24,7 +26,7 @@ Nguyên âm đôi
 * UA, UĂ, UÂ, ƯA, UÊ, UI, ƯI,UO, UÔ, UƠ, ƯƠ, ƯU, UY
 * YÊ
 
-Nguyên âm ba
+Nguyên âm ba (Triple Vowel)
 
 * IÊU
 * OAI, OAO, OAY, OEO
@@ -49,3 +51,7 @@ Phụ âm đơn
 * TH, TR
 * QU
 
+
+References
+
+* https://vietnamesetypography.com/diacritical-details/
