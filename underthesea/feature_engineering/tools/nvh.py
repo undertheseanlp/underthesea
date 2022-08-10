@@ -87,13 +87,14 @@ def vn_sentence_to_telex_type(sentence):
     Xem tại đây: https://vi.wikipedia.org/wiki/Quy_t%E1%BA%AFc_%C4%91%E1%BA%B7t_d%E1%BA%A5u_thanh_trong_ch%E1%BB%AF_qu%E1%BB%91c_ng%E1%BB%AF
 """
 
+
 # flake8: noqa: C901
 def chuan_hoa_dau_tu_tieng_viet(word):
     if not is_valid_vietnam_word(word):
         return word
 
     chars = list(word)
-    dau_cau = 0
+    dau_cau = 0`
     nguyen_am_index = []
     qu_or_gi = False
     for index, char in enumerate(chars):
