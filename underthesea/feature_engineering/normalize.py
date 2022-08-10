@@ -152,18 +152,14 @@ class AnalysableWord:
         self.miss_spell = miss_spell
 
 
-base_norm_data = []
-for key in base_norm_dict:
-    word = AnalysableWord(base_norm_dict[key])
-    base_norm_data.append({
-        "word": key,
-        "normalize": base_norm_dict[key],
-        "group": word.group
-    })
-dict_df = pd.DataFrame(base_norm_data)
-dict_df = dict_df.sort_values(by=["group", "normalize", "word"])
-dict_df.to_excel("rules.xlsx", index=False)
-
 if __name__ == '__main__':
     # write_analyzes()
-    count_normalize()
+    # count_normalize()
+    texts = ["Ðạt", "Ðả", "Ðảm", "Đảm", "Ðảm"]
+    print("Raw")
+    for text in texts:
+        print([ord(_) for _ in text])
+    print("Normalize")
+    normalize_texts = [normalize(_) for _ in texts]
+    for text in normalize_texts:
+        print([ord(_) for _ in text])

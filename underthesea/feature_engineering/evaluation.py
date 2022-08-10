@@ -10,7 +10,7 @@ TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
 Normalizer = vtm
 
 
-def compare_with_lab_viet_text_tools():
+def compare_two_tools():
     n_diff = 0
     ignores = set([
         "loà", "đưọc", "Gassée"
@@ -22,6 +22,10 @@ def compare_with_lab_viet_text_tools():
             word, freq = line.split("\t\t")
             vtt_words = Normalizer.normalize(word)
             uts_words = normalize(word)
+            if word != uts_words:
+                ords = [ord(_) for _ in word]
+                if 208 in ords:
+                    print(f"{word} -> {uts_words}")
             if word != "nghiêng" and len(word) > 6:
                 continue
             if word in ignores:
@@ -51,4 +55,4 @@ def compare_with_lab_viet_text_tools():
 
 
 if __name__ == '__main__':
-    compare_with_lab_viet_text_tools()
+    compare_two_tools()
