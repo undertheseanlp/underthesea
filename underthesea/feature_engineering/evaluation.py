@@ -1,11 +1,13 @@
 # Script for evaluation Vietnamese normalizers
 from os.path import join
 import pandas as pd
-from viet_text_tools import normalize_diacritics
+from tools import vtm
 
 from underthesea.feature_engineering.normalize import CORPUS_FOLDER, normalize, AnalysableWord
 
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
+
+Normalizer = vtm
 
 
 def compare_with_lab_viet_text_tools():
@@ -18,7 +20,7 @@ def compare_with_lab_viet_text_tools():
         data = {}
         for line in f:
             word, freq = line.split("\t\t")
-            vtt_words = normalize_diacritics(word)
+            vtt_words = Normalizer.normalize(word)
             uts_words = normalize(word)
             if word != "nghiêng" and len(word) > 6:
                 continue
