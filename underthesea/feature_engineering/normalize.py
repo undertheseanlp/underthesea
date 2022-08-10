@@ -125,7 +125,7 @@ NONE_DIACRITIC_DOUBLE_VOWELS = set([
     "ua", "ue", "ui", "uo", "uu", "uy", "ye"
 ])
 NONE_DIACRITIC_TRIPLE_VOWELS = set([
-    "ieu", "iua", "oai", "oao", "oay", "oeo",
+    "iai", "ieu", "iua", "oai", "oao", "oay", "oeo",
     "uao", "uai", "uay", "uoi", "uou", "uya", "uye", "uyu",
     "yeu"
 ])
