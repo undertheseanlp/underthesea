@@ -2,8 +2,8 @@
 from os.path import join
 import pandas as pd
 from tools import vtm
-from tools import vtt
-from tools import nvh
+# from tools import vtt
+# from tools import nvh
 from underthesea.feature_engineering.normalize import CORPUS_FOLDER, normalize, AnalysableWord
 
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
