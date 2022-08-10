@@ -58,8 +58,8 @@ for key, item in rules_df.iterrows():
     word = item[0]
     normalize = item[1]
     base_norm_dict[word] = normalize
-norm_dict = base_norm_dict.copy()
 
+norm_dict = base_norm_dict.copy()
 for key in base_norm_dict:
     # add capitalize rules
     new_key = key.capitalize()
@@ -72,7 +72,6 @@ for key in base_norm_dict:
 
 
 def normalize(s):
-    # app upper case rules
     if s in norm_dict:
         return norm_dict[s]
     return s
