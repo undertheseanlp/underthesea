@@ -2,29 +2,31 @@
 from os.path import join
 import pandas as pd
 from tools import vtm
-# from tools import vtt
+from tools import vtt
+from tools import nvh
 from underthesea.feature_engineering.normalize import CORPUS_FOLDER, normalize, AnalysableWord
 
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
 
 Normalizer = vtm
 # Normalizer = vtt
+# Normalizer = nvh
 
 
 def compare_two_tools():
-    df = pd.DataFrame(columns=["word", "lower", "vtt", "uts", "group", "miss_spell"])
+    df = pd.DataFrame(columns=["word", "lower", "other", "uts", "group", "miss_spell"])
     with open(TOKENS_ANALYSE_FILE) as f:
         data = {}
-        for line in f:
+        for i, line in enumerate(f):
             word, freq = line.split("\t\t")
-            vtt_words = Normalizer.normalize(word)
+            other_words = Normalizer.normalize(word)
             uts_words = normalize(word)
             if word != "nghiêng" and len(word) > 6:
                 continue
-            if vtt_words != word and vtt_words != uts_words:
+            if other_words != word and other_words != uts_words:
                 analysable_word = AnalysableWord(word)
                 data[analysable_word] = {
-                    "vtt": vtt_words,
+                    "other": other_words,
                     "uts": uts_words
                 }
                 item = pd.DataFrame([{
@@ -32,7 +34,7 @@ def compare_two_tools():
                     "lower": analysable_word.word.lower(),
                     "group": analysable_word.group,
                     "miss_spell": analysable_word.miss_spell,
-                    "vtt": vtt_words,
+                    "other": other_words,
                     "uts": uts_words
                 }])
                 df = pd.concat([df, item], ignore_index=True)
