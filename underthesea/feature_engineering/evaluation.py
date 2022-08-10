@@ -43,7 +43,7 @@ def compare_with_lab_viet_text_tools():
                 df = pd.concat([df, item], ignore_index=True)
                 n_diff += 1
         df = df.sort_values(by=["miss_spell", "group", "lower"], ascending=True)
-        df.to_excel("results.xlsx", index=False)
+        df.to_excel("data/results.xlsx", index=False)
     total = df.shape[0]
     non_miss_spell = df[df["miss_spell"] == 0].shape[0]
     miss_spell = df[df["miss_spell"] == 1].shape[0]

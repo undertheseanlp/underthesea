@@ -70,8 +70,18 @@ for key in base_norm_dict:
     new_value = base_norm_dict[key].upper()
     norm_dict[new_key] = new_value
 
+character_rules_df = pd.read_excel("character_rules.xlsx", engine='openpyxl')
+character_map = {}
+for id, row in character_rules_df.iterrows():
+    non_standard = row[0]
+    standard = row[1]
+    character_map[non_standard] = standard
 
 def normalize(s):
+    # character normalize
+    for character_non_standard in character_map:
+        character_standard = character_map[character_non_standard]
+        s = s.replace(character_non_standard, character_standard)
     if s in norm_dict:
         return norm_dict[s]
     return s
