@@ -77,6 +77,7 @@ for id, row in character_rules_df.iterrows():
     standard = row[1]
     character_map[non_standard] = standard
 
+
 def normalize(s):
     # character normalize
     for character_non_standard in character_map:
