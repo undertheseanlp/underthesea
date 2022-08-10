@@ -1,5 +1,7 @@
 # Vietnamese Text Normalize
 
+* [Technical Report](techinical_report.pdf)
+
 Dấu thanh tiếng Việt (Diacritic)
 
 * Ngang (ví dụ: ta)
