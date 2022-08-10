@@ -122,11 +122,11 @@ NONE_DIACRITIC_SINGLE_VOWELS = set(["a", "e", "i", "o", "u", "y"])
 NONE_DIACRITIC_DOUBLE_VOWELS = set([
     "ai", "ao", "au", "ay",
     "eo", "eu", "ia", "ie", "iu", "oa", "oe", "oi", "oo",
-    "ua", "ui", "uo", "uu", "uy", "ye"
+    "ua", "ue", "ui", "uo", "uu", "uy", "ye"
 ])
 NONE_DIACRITIC_TRIPLE_VOWELS = set([
-    "ieu", "oai", "oao", "oay", "oeo",
-    "uao", "uay", "uoi", "uou", "uya", "uye", "uyu",
+    "ieu", "iua", "oai", "oao", "oay", "oeo",
+    "uao", "uai", "uay", "uoi", "uou", "uya", "uye", "uyu",
     "yeu"
 ])
 NONE_DIACRITIC_VOWELS = NONE_DIACRITIC_SINGLE_VOWELS | NONE_DIACRITIC_DOUBLE_VOWELS | NONE_DIACRITIC_TRIPLE_VOWELS
