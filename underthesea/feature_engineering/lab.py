@@ -1,3 +1,0 @@
-from tools import VietnameseTextNormalizer
-
-VietnameseTextNormalizer
