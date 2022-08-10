@@ -1,3 +1,3 @@
-from .tools import VietnameseTextNormalizer
+from tools import VietnameseTextNormalizer
 
 VietnameseTextNormalizer
