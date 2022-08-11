@@ -4,7 +4,6 @@ from os.path import join
 from underthesea import text_normalize
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.pipeline.word_tokenize import tokenize
-import pandas as pd
 
 CORPUS_FOLDER = join(UNDERTHESEA_FOLDER, "datasets", "LTA")
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
@@ -51,7 +50,6 @@ def write_analyzes():
             s = f"{item[0]}\t\t{item[1]}"
             print(s)
             f.write(s + "\n")
-
 
 
 def count_normalize():
