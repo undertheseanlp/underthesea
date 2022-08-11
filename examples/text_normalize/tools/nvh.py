@@ -94,7 +94,7 @@ def chuan_hoa_dau_tu_tieng_viet(word):
         return word
 
     chars = list(word)
-    dau_cau = 0`
+    dau_cau = 0
     nguyen_am_index = []
     qu_or_gi = False
     for index, char in enumerate(chars):

@@ -1,51 +1,96 @@
-# Script for evaluation Vietnamese normalizers
 from os.path import join
-import pandas as pd
-# from tools import vtm
 from tools import vtt
-# from tools import nvh
-from examples.text_normalize.normalize import CORPUS_FOLDER, AnalysableWord
-from underthesea import text_normalize
+from tools import nvh
 
-TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
-
-# Normalizer = vtm
-Normalizer = vtt
-# Normalizer = nvh
+from underthesea.file_utils import DATASETS_FOLDER
 
 
-def compare_two_tools():
-    df = pd.DataFrame(columns=["word", "lower", "other", "uts", "group", "miss_spell"])
-    with open(TOKENS_ANALYSE_FILE) as f:
-        data = {}
-        for i, line in enumerate(f):
-            word, freq = line.split("\t\t")
-            other_words = Normalizer.normalize(word)
-            uts_words = text_normalize(word)
-            if word != "nghiêng" and len(word) > 6:
+def vtt_predict():
+    def vtt_predict_sentence(s):
+        rows = s.split("\n")
+        result = []
+        for row in rows:
+            if row.startswith("# "):
+                result.append(row)
+            else:
+                tokens = row.split("\t")
+                tokens[1] = vtt.normalize(tokens[0])
+                if tokens[1] != tokens[0]:
+                    print(f"{tokens[0]} -> {tokens[1]}")
+                new_row = "\t".join(tokens)
+                result.append(new_row)
+        new_s = "\n".join(result)
+        return new_s
+
+    corpus = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "all.txt")
+    predict_file = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "predict.txt")
+    with open(corpus) as f:
+        text = f.read()
+    sentences = text.split("\n\n")
+    sentences = [vtt_predict_sentence(s) for s in sentences]
+    new_text = "\n\n".join(sentences)
+    with open(predict_file, "w") as f:
+        f.write(new_text)
+    print("Predict done")
+
+
+def nvh_predict():
+    def nvh_predict_sentence(s):
+        rows = s.split("\n")
+        result = []
+        for row in rows:
+            if row.startswith("# "):
+                result.append(row)
+            else:
+                tokens = row.split("\t")
+                tokens[1] = nvh.normalize(tokens[0])
+                if tokens[1] != tokens[0]:
+                    print(f"{tokens[0]} -> {tokens[1]}")
+                new_row = "\t".join(tokens)
+                result.append(new_row)
+        new_s = "\n".join(result)
+        return new_s
+
+    corpus = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "all.txt")
+    predict_file = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "predict.txt")
+    with open(corpus) as f:
+        text = f.read()
+    sentences = text.split("\n\n")
+    sentences = [nvh_predict_sentence(s) for s in sentences]
+    new_text = "\n\n".join(sentences)
+    with open(predict_file, "w") as f:
+        f.write(new_text)
+    print("Predict done")
+
+
+def evaluate():
+    corpus = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "all.txt")
+    predict_file = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "predict.txt")
+    with open(corpus) as f:
+        text_true = f.read()
+    with open(predict_file) as f:
+        text_predict = f.read()
+    sentences_true = text_true.split("\n\n")
+    sentences_predict = text_predict.split("\n\n")
+    total = 0.0
+    correct = 0.0
+    for i in range(len(sentences_true)):
+        rows_true = sentences_true[i].split("\n")
+        rows_predict = sentences_predict[i].split("\n")
+        for j in range(len(rows_true)):
+            if rows_true[j].startswith("#"):
                 continue
-            if other_words != word and other_words != uts_words:
-                analysable_word = AnalysableWord(word)
-                data[analysable_word] = {
-                    "other": other_words,
-                    "uts": uts_words
-                }
-                item = pd.DataFrame([{
-                    "word": analysable_word.word,
-                    "lower": analysable_word.word.lower(),
-                    "group": analysable_word.group,
-                    "miss_spell": analysable_word.miss_spell,
-                    "other": other_words,
-                    "uts": uts_words
-                }])
-                df = pd.concat([df, item], ignore_index=True)
-        df = df.sort_values(by=["miss_spell", "group", "lower"], ascending=True)
-        df.to_excel("data/results.xlsx", index=False)
-    total = df.shape[0]
-    non_miss_spell = df[df["miss_spell"] == 0].shape[0]
-    miss_spell = df[df["miss_spell"] == 1].shape[0]
-    print(f"Total differences: {total} (non_miss_spell: {non_miss_spell}, miss_spell: {miss_spell})")
+            lemma_true = rows_true[j].split("\t")[1]
+            lemma_predict = rows_predict[j].split("\t")[1]
+            total += 1.0
+            if lemma_true == lemma_predict:
+                correct += 1.0
+    accuracy = correct / total
+    print("Evaluation done")
+    print(f"Accuracy: {accuracy}")
 
 
 if __name__ == '__main__':
-    compare_two_tools()
+    # vtt_predict()
+    nvh_predict()
+    evaluate()

@@ -60,7 +60,7 @@ def build_binary_file():
         "token": norm_dict
     }
     timestamp = datetime.now().strftime("%Y_%m_%d")
-    joblib.dump(normalize_map, join(dirname(__file__), "data", f"tn_rules_{timestamp}.bin"))
+    joblib.dump(normalize_map, join(dirname(__file__), "tmp", f"tn_rules_{timestamp}.bin"))
 
 
 if __name__ == '__main__':
