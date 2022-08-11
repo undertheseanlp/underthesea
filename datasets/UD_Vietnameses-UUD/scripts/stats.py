@@ -1,5 +1,4 @@
 from os.path import dirname, join
-from underthesea import text_normalize
 
 filepath = join(dirname(dirname(__file__)), "corpus", "ud", "UUD_1.0.1-alpha.txt")
 text = open(filepath).read()
