@@ -2,15 +2,6 @@
 
 * [Technical Report](techinical_report.pdf)
 
-Dấu thanh tiếng Việt (Diacritic)
-
-* Ngang (ví dụ: ta)
-* Huyền (ví dụ: tà)
-* Hỏi (ví dụ: tả)
-* Ngã (ví dụ: tã)
-* Sắc (ví dụ: tá)
-* Nặng (ví dụ: tạ)
-
 Nguyên âm và phụ âm tiếng Việt
 
 Nguyên âm (Vowel)
