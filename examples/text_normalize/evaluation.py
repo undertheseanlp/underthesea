@@ -4,7 +4,8 @@ import pandas as pd
 # from tools import vtm
 from tools import vtt
 # from tools import nvh
-from examples.text_normalize.normalize import CORPUS_FOLDER, normalize, AnalysableWord
+from examples.text_normalize.normalize import CORPUS_FOLDER, AnalysableWord
+from underthesea import text_normalize
 
 TOKENS_ANALYSE_FILE = join(CORPUS_FOLDER, "tokens_analyze.txt")
 
@@ -20,7 +21,7 @@ def compare_two_tools():
         for i, line in enumerate(f):
             word, freq = line.split("\t\t")
             other_words = Normalizer.normalize(word)
-            uts_words = normalize(word)
+            uts_words = text_normalize(word)
             if word != "nghiêng" and len(word) > 6:
                 continue
             if other_words != word and other_words != uts_words:

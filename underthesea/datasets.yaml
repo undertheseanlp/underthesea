@@ -100,15 +100,15 @@ CP_Vietnamese-UNC:
   license: Open
   year: 2020
   filepath: ''
-  url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/P_Vietnamese-UNC-1.0.zip
+  url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/CP_Vietnamese-UNC-2.0-alpha.zip
   url_filename: CP_Vietnamese-UNC.zip
 DI_Vietnamese-UVD:
   cache_dir: datasets/DI_Vietnamese-UVD
   type: Dictionary
   license: Open
-  year: 2020
+  year: 2021
   filepath: ''
-  url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/DI_Vietnamese-UVD.zip
+  url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/DI_Vietnamese-UVD-1.0-alpha.1.zip
   url_filename: DI_Vietnamese-UVD.zip
 SE_Vietnamese-UBS:
   cache_dir: datasets/SE_Vietnamese-UBS

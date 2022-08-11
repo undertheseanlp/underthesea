@@ -88,10 +88,10 @@ Usage
 
 ```python
 >>> from underthesea import text_normalize
->>> text = 'Ðảm baỏ chất lựơng'
+>>> text = 'Ðảm baỏ chất lựơng phòng thí nghịêm hoá học'
 
 >>> text_normalize(text)
-'Đảm bảo chất lượng'
+'Đảm bảo chất lượng phòng thí nghiệm hóa học'
 ```
 
 ### 3. Word Segmentation

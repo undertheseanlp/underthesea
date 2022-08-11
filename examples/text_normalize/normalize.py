@@ -1,5 +1,7 @@
 from datetime import datetime
 from os.path import join
+
+from underthesea import text_normalize
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.pipeline.word_tokenize import tokenize
 import pandas as pd
@@ -51,42 +53,6 @@ def write_analyzes():
             f.write(s + "\n")
 
 
-# load base_norm_dict from rules.xlsx file
-base_norm_dict = {}
-rules_df = pd.read_excel("rules.xlsx", engine='openpyxl')
-for key, item in rules_df.iterrows():
-    word = item[0]
-    normalize = item[1]
-    base_norm_dict[word] = normalize
-
-norm_dict = base_norm_dict.copy()
-for key in base_norm_dict:
-    # add capitalize rules
-    new_key = key.capitalize()
-    new_value = base_norm_dict[key].capitalize()
-    norm_dict[new_key] = new_value
-    # add uppercase rules
-    new_key = key.upper()
-    new_value = base_norm_dict[key].upper()
-    norm_dict[new_key] = new_value
-
-character_rules_df = pd.read_excel("character_rules.xlsx", engine='openpyxl')
-character_map = {}
-for id, row in character_rules_df.iterrows():
-    non_standard = row[0]
-    standard = row[1]
-    character_map[non_standard] = standard
-
-
-def normalize(s):
-    # character normalize
-    for character_non_standard in character_map:
-        character_standard = character_map[character_non_standard]
-        s = s.replace(character_non_standard, character_standard)
-    if s in norm_dict:
-        return norm_dict[s]
-    return s
-
 
 def count_normalize():
     total_count = 0
@@ -97,7 +63,7 @@ def count_normalize():
             word, freq = line.split("\t\t")
             freq = freq.strip()
             print(word, ":", freq)
-            if normalize(word) == word:
+            if text_normalize(word) == word:
                 normalized_count += 1
             else:
                 print("NORMALIZE")
@@ -160,6 +126,6 @@ if __name__ == '__main__':
     for text in texts:
         print([ord(_) for _ in text])
     print("Normalize")
-    normalize_texts = [normalize(_) for _ in texts]
+    normalize_texts = [text_normalize(_) for _ in texts]
     for text in normalize_texts:
         print([ord(_) for _ in text])
