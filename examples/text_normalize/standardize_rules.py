@@ -1,6 +1,6 @@
 import pandas as pd
 
-from underthesea.feature_engineering.normalize import AnalysableWord
+from examples.text_normalize.normalize import AnalysableWord
 
 base_norm_dict = {}
 rules_df = pd.read_excel("rules.xlsx", engine='openpyxl')
