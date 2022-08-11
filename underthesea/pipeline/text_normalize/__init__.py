@@ -29,7 +29,7 @@ def token_normalize(token, use_character_normalize=True):
         return token
     # character normalize
     if use_character_normalize:
-        token = character_map(token)
+        token = character_normalize(token)
     if token in token_map:
         return token_map[token]
     return token
