@@ -49,7 +49,7 @@ class TestTokenize(TestCase):
     def test_tokenize_8(self):
         text = u"""Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3, giai đoạn 2010-2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng, phó phòng chưa có trình độ Trung cấp lý luận chính trị, chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước, không đúng quy định của UBND tỉnh Thanh Hoá.
 """
-        actual = tokenize(text, format="text")
+        actual = tokenize(text, format="text", use_token_normalize=False)
         expected = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3 , giai đoạn 2010 - 2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng , phó phòng chưa có trình độ Trung cấp lý luận chính trị , chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước , không đúng quy định của UBND tỉnh Thanh Hoá ."
         self.assertEqual(expected, actual)
 
@@ -57,6 +57,17 @@ class TestTokenize(TestCase):
         text = 'v.v...'
         actual = tokenize(text, format="text")
         expected = 'v.v...'
+        self.assertEqual(expected, actual)
+
+    def test_special_character(self):
+        text = '\t'
+        actual = tokenize(text, format="text")
+        expected = ''
+        self.assertEqual(expected, actual)
+
+        text = 'a\tb'
+        actual = tokenize(text, format="text")
+        expected = 'a b'
         self.assertEqual(expected, actual)
 
     def test_abbreviation_1(self):

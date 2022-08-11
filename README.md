@@ -57,14 +57,15 @@ Satisfaction, guaranteed.
 ## Tutorials
 
 * [1. Sentence Segmentation](#1-sentence-segmentation)
-* [2. Word Segmentation](#2-word-segmentation)
-* [3. POS Tagging](#3-pos-tagging)
-* [4. Chunking](#4-chunking)
-* [5. Dependency Parsing](#5-dependency-parsing)
-* [6. Named Entity Recognition](#6-named-entity-recognition)
-* [7. Text Classification](#7-text-classification)
-* [8. Sentiment Analysis](#8-sentiment-analysis)
-* [9. Vietnamese NLP Resources](#9-vietnamese-nlp-resources)
+* [2. Text Normalization](#2-text-normalization)
+* [3. Word Segmentation](#2-word-segmentation)
+* [4. POS Tagging](#3-pos-tagging)
+* [5. Chunking](#4-chunking)
+* [6. Dependency Parsing](#5-dependency-parsing)
+* [7. Named Entity Recognition](#6-named-entity-recognition)
+* [8. Text Classification](#7-text-classification)
+* [9. Sentiment Analysis](#8-sentiment-analysis)
+* [10. Vietnamese NLP Resources](#9-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
 
@@ -81,7 +82,19 @@ Usage
 ]
 ```
 
-### 2. Word Segmentation
+### 2. Text Normalization
+
+Usage
+
+```python
+>>> from underthesea import text_normalize
+>>> text = 'Ðảm baỏ chất lựơng'
+
+>>> text_normalize(text)
+'Đảm bảo chất lượng'
+```
+
+### 3. Word Segmentation
 
 Usage
 
@@ -96,7 +109,7 @@ Usage
 'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
 ```
 
-### 3. POS Tagging
+### 4. POS Tagging
 
 Usage
 
@@ -114,7 +127,7 @@ Usage
 ```
 
 
-### 4. Chunking
+### 5. Chunking
 
 Usage
 
@@ -134,9 +147,9 @@ Usage
 ```
 
 
-### 5. Dependency Parsing
+### 6. Dependency Parsing
 
-Install dependencies for deep learning 
+Install dependencies for deep learning
 
 ```bash
 $ pip install underthesea[deep]
@@ -159,7 +172,7 @@ Usage
  ('Covid-19', 8, 'nummod')]
 ```
 
-### 6. Named Entity Recognition
+### 7. Named Entity Recognition
 
 Usage
 
@@ -179,7 +192,7 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
-### 7. Text Classification
+### 8. Text Classification
 
 Usage
 
@@ -196,7 +209,7 @@ Usage
 ['INTEREST_RATE']
 ```
 
-### 8. Sentiment Analysis
+### 9. Sentiment Analysis
 
 Usage
 
@@ -204,9 +217,9 @@ Usage
 >>> from underthesea import sentiment
 
 >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
-negative
+'negative'
 >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
-positive
+'positive'
 
 >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
 ['CUSTOMER_SUPPORT#negative']
@@ -214,7 +227,7 @@ positive
 ['TRADEMARK#positive']
 ```
 
-### 9. Vietnamese NLP Resources
+### 10. Vietnamese NLP Resources
 
 List resources
 

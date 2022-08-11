@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 import re
 import sys
-from underthesea.feature_engineering.text import Text
+
+from underthesea.pipeline.text_normalize import token_normalize
+from underthesea.pipeline.text_normalize.character_normalize import normalize_characters_in_text
 
 UPPER = "[" + "".join([
     "A-Z",
@@ -226,15 +228,18 @@ def extract_match(m):
             return v, k
 
 
-def tokenize(text, format=None, tag=False):
+def tokenize(text, format=None, tag=False, use_character_normalize=True, use_token_normalize=True):
     """
     tokenize text for word segmentation
 
-    :param text: raw text input
-    :return: tokenize text
+    Args:
+        use_token_normalize:
+        use_character_normalize:
+        tag:
+        format:
     """
-    text = Text(text)
-    text = text.replace("\t", " ")
+    if use_character_normalize:
+        text = normalize_characters_in_text(text)
     matches = [m for m in re.finditer(patterns, text)]
     tokens = [extract_match(m) for m in matches]
 
@@ -242,6 +247,9 @@ def tokenize(text, format=None, tag=False):
         return tokens
 
     tokens = [token[0] for token in tokens]
+    if use_token_normalize:
+        tokens = [token_normalize(_, use_character_normalize=use_character_normalize) for _ in tokens]
+
     if format == "text":
         return " ".join(tokens)
 
