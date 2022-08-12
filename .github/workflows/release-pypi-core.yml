@@ -34,6 +34,7 @@ jobs:
   pypi-publish:
     needs: build
     runs-on: ${{ matrix.os }}
+    container: quay.io/pypa/manylinux2014_x86_64
     strategy:
       fail-fast: false
       matrix:
