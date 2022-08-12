@@ -49,7 +49,7 @@ class TestTokenize(TestCase):
     def test_tokenize_8(self):
         text = u"""Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3, giai đoạn 2010-2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng, phó phòng chưa có trình độ Trung cấp lý luận chính trị, chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước, không đúng quy định của UBND tỉnh Thanh Hoá.
 """
-        actual = tokenize(text, format="text")
+        actual = tokenize(text, format="text", use_token_normalize=False)
         expected = u"Theo thông báo kết luận thanh tra của UBND tỉnh Thanh Hoá sáng nay 30/3 , giai đoạn 2010 - 2015 Sở Xây dựng Thanh Hoá đã bổ nhiệm một số trưởng phòng , phó phòng chưa có trình độ Trung cấp lý luận chính trị , chưa qua lớp bồi dưỡng nghiệp vụ quản lý nhà nước , không đúng quy định của UBND tỉnh Thanh Hoá ."
         self.assertEqual(expected, actual)
 
@@ -57,6 +57,17 @@ class TestTokenize(TestCase):
         text = 'v.v...'
         actual = tokenize(text, format="text")
         expected = 'v.v...'
+        self.assertEqual(expected, actual)
+
+    def test_special_character(self):
+        text = '\t'
+        actual = tokenize(text, format="text")
+        expected = ''
+        self.assertEqual(expected, actual)
+
+        text = 'a\tb'
+        actual = tokenize(text, format="text")
+        expected = 'a b'
         self.assertEqual(expected, actual)
 
     def test_abbreviation_1(self):
@@ -145,6 +156,18 @@ class TestTokenize(TestCase):
         text = '(baodautu.vn) Trao đổi với báo chí chiều 27/5, ông Lê Quốc Bình, TGĐ Công ty cổ phần đầu tư hạ tầng kỹ thuật TP. HCM (CII) chính thức thông tin: UBND TP vừa có quyết định cho phép CII được thu phí hoàn vốn đầu tư dự án xây dựng cầu Rạch Chiếc mới trên xa lộ Hà Nội kể từ ngày 1/6/2013.'
         actual = tokenize(text, format="text")
         expected = '( baodautu.vn ) Trao đổi với báo chí chiều 27/5 , ông Lê Quốc Bình , TGĐ Công ty cổ phần đầu tư hạ tầng kỹ thuật TP. HCM ( CII ) chính thức thông tin : UBND TP vừa có quyết định cho phép CII được thu phí hoàn vốn đầu tư dự án xây dựng cầu Rạch Chiếc mới trên xa lộ Hà Nội kể từ ngày 1/6/2013 .'
+        self.assertEqual(expected, actual)
+
+    def test_punct_2(self):
+        text = 'ʺ1'  # Modifier Letter Double Prime symbol U+02BA
+        actual = tokenize(text, format="text")
+        expected = 'ʺ 1'
+        self.assertEqual(expected, actual)
+
+    def test_punct_3(self):
+        text = '"1'
+        actual = tokenize(text, format="text")
+        expected = '" 1'
         self.assertEqual(expected, actual)
 
     def test_tokenize_tag(self):

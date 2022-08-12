@@ -31,6 +31,7 @@ except IOError as ex:
 # TOP-LEVEL MODULES
 ###########################################################
 from underthesea.pipeline.sent_tokenize import sent_tokenize
+from underthesea.pipeline.text_normalize import text_normalize
 from underthesea.pipeline.word_tokenize import word_tokenize
 from underthesea.pipeline.pos_tag import pos_tag
 from underthesea.pipeline.chunking import chunk
@@ -54,6 +55,7 @@ def dependency_parse(*args, **kwargs):
 
 __all__ = [
     'sent_tokenize',
+    'text_normalize',
     'word_tokenize', 'pos_tag', 'chunk',
     'ner',
     'classify', 'sentiment',

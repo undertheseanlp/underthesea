@@ -3,7 +3,7 @@ from .regex_tokenize import tokenize
 from .model import CRFModel
 
 
-def word_tokenize(sentence, format=None):
+def word_tokenize(sentence, format=None, use_token_normalize=True):
     """
     Vietnamese word segmentation
 
@@ -31,7 +31,7 @@ def word_tokenize(sentence, format=None):
     >>> word_tokenize(sentence, format="text")
     'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
     """
-    tokens = tokenize(sentence)
+    tokens = tokenize(sentence, use_token_normalize=use_token_normalize)
     crf_model = CRFModel.instance()
     output = crf_model.predict(tokens, format)
     tokens = [token[0] for token in output]
