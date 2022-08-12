@@ -50,6 +50,8 @@ jobs:
       - name: Install rust
         run: |
           curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain nightly --profile minimal -y
+      - name: Test rust lib
+        run: cargo test
       - name: Install dependencies
         working-directory: ./extensions/underthesea_core
         run: |
