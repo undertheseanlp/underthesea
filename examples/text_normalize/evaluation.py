@@ -78,7 +78,6 @@ def evaluate():
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 def my_app(cfg: DictConfig) -> None:
     print(OmegaConf.to_yaml(cfg))
-    model_name = cfg["model"]
     predict(cfg)
     evaluate()
 
