@@ -76,7 +76,7 @@ jobs:
         run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-windows-build-pypi-publish:
     needs: build
-    runs-on: { matrix.os }
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
