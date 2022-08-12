@@ -25,7 +25,7 @@ python build.py
 
 ## Technical Report
 
-* [Underthesea 1.3.5 - Text Normalization - WIP](reports/Underthesea_1_3_5___Text_Normalization__WIP__)
+* [Underthesea 1.3.5 - Text Normalization - WIP](reports/Underthesea_1_3_5___Text_Normalization__WIP.pdf)
 
 ## Appendix
 
