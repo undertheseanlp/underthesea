@@ -16,7 +16,7 @@ install_requires = [
     'scikit-learn',
     'unidecode',
     'PyYAML',
-    'underthesea_core==0.0.4_alpha.10'
+    'underthesea_core==0.0.4'
 ]
 
 tests_require = [
