@@ -1,30 +1,32 @@
 # Text Normalization Module
 
+## Usage
+
+Install requirements
+
+```
+$ pip install -r requirements
+```
+
+Evaluation
+
+```
+$ python evaluation.py
+$ python evaluation.py model=vtt
+$ python evaluation.py model=nvh
+$ python evaluation.py model=vtm
+```
+
 Make binary map files
 
 ```
 python build.py
 ```
 
-# Vietnamese Text Normalize
+## Appendix
 
-* [Technical Report](techinical_report.pdf)
-
-
-References
-
-* https://vietnamesetypography.com/diacritical-details/
-
-
-# Tutorials
-
-Install requirements
+Build VietnameseTextNormalizer
 
 ```
-$ pip install openpyxl
-```
-To install `viet_text_tools`
-
-```
-$ pip install viet_text_tools
+cp VietnameseTextNormalizer/ReleasePython3 underthesea/examples/text_normalize/tools/module
 ```

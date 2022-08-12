@@ -1,62 +1,47 @@
 from os.path import join
 from tools import vtt
 from tools import nvh
+from tools import vtm
+import hydra
+from omegaconf import DictConfig, OmegaConf
 
+from underthesea import text_normalize
 from underthesea.file_utils import DATASETS_FOLDER
 
 
-def vtt_predict():
-    def vtt_predict_sentence(s):
-        rows = s.split("\n")
-        result = []
-        for row in rows:
-            if row.startswith("# "):
-                result.append(row)
-            else:
-                tokens = row.split("\t")
+def predict_sentence(s, conf):
+    model_name = conf["model"]
+    rows = s.split("\n")
+    result = []
+    for row in rows:
+        if row.startswith("# "):
+            result.append(row)
+        else:
+            tokens = row.split("\t")
+            if model_name == "vtt":
                 tokens[1] = vtt.normalize(tokens[0])
-                if tokens[1] != tokens[0]:
-                    print(f"{tokens[0]} -> {tokens[1]}")
-                new_row = "\t".join(tokens)
-                result.append(new_row)
-        new_s = "\n".join(result)
-        return new_s
-
-    corpus = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "all.txt")
-    predict_file = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "predict.txt")
-    with open(corpus) as f:
-        text = f.read()
-    sentences = text.split("\n\n")
-    sentences = [vtt_predict_sentence(s) for s in sentences]
-    new_text = "\n\n".join(sentences)
-    with open(predict_file, "w") as f:
-        f.write(new_text)
-    print("Predict done")
-
-
-def nvh_predict():
-    def nvh_predict_sentence(s):
-        rows = s.split("\n")
-        result = []
-        for row in rows:
-            if row.startswith("# "):
-                result.append(row)
-            else:
-                tokens = row.split("\t")
+            elif model_name == "nvh":
                 tokens[1] = nvh.normalize(tokens[0])
-                if tokens[1] != tokens[0]:
-                    print(f"{tokens[0]} -> {tokens[1]}")
-                new_row = "\t".join(tokens)
-                result.append(new_row)
-        new_s = "\n".join(result)
-        return new_s
+            elif model_name == "uts":
+                tokens[1] = text_normalize(tokens[0], tokenizer='space')
+            elif model_name == "vtm":
+                tokens[1] = vtm.normalize(tokens[0])
+            if tokens[1] != tokens[0]:
+                print(f"{tokens[0]} -> {tokens[1]}")
+            new_row = "\t".join(tokens)
+            result.append(new_row)
+    new_s = "\n".join(result)
+    return new_s
 
+
+def predict(cfg):
     corpus = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "all.txt")
     predict_file = join(DATASETS_FOLDER, "UD_Vietnamese-UUD-1.0.1-alpha", "predict.txt")
     with open(corpus) as f:
         text = f.read()
     sentences = text.split("\n\n")
-    sentences = [nvh_predict_sentence(s) for s in sentences]
+
+    sentences = [predict_sentence(s, cfg) for s in sentences]
     new_text = "\n\n".join(sentences)
     with open(predict_file, "w") as f:
         f.write(new_text)
@@ -90,7 +75,14 @@ def evaluate():
     print(f"Accuracy: {accuracy}")
 
 
+@hydra.main(version_base=None, config_path="conf", config_name="config")
+def my_app(cfg: DictConfig) -> None:
+    print(OmegaConf.to_yaml(cfg))
+    model_name = cfg["model"]
+    predict(cfg)
+    evaluate()
+
+
 if __name__ == '__main__':
     # vtt_predict()
-    nvh_predict()
-    evaluate()
+    my_app()
