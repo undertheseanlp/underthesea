@@ -56,8 +56,9 @@ jobs:
       - name: Install dependencies
         working-directory: ./extensions/underthesea_core
         run: |
-          python3.7 -m pip install --upgrade pip
-          curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.7
+           python3.7 --version
+#          python3.7 -m pip install --upgrade pip
+#          curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python3.7
       - name: Add poetry to path
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
       - name: Install package deps
