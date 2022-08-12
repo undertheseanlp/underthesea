@@ -1,11 +1,11 @@
 [package]
 name = "underthesea_core"
-version = "0.0.4-alpha.10"
+version = "0.0.4"
 homepage = "https://github.com/undertheseanlp/underthesea/"
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 license = "GPL-3.0"
-edition = "2021"
+edition = "2022"
 readme = "README.md"
 description = "Underthesea Core (fast & fun)"
 
