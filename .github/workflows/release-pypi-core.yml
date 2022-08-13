@@ -33,6 +33,7 @@ jobs:
 #        run: poetry run maturin develop --release
   manylinux-build-pypi-publish:
 #    needs: build
+    if: "!contains(github.event.head_commit.message, 'build docker')"
     runs-on: ubuntu-latest
     container:
       image: quay.io/pypa/manylinux2014_x86_64
