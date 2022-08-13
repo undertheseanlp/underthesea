@@ -1,5 +1,3 @@
-FROM ubuntu:12.04
-RUN apt-get update
-RUN apt-get install -y wget
+FROM centos:7
 
 RUN mkdir underthesea
