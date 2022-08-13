@@ -36,7 +36,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'build docker')"
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a9
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a10
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
@@ -55,10 +55,10 @@ jobs:
         working-directory: ./extensions/underthesea_core
         run: |
           $PYTHON -m poetry install
-          $PYTHON -m poetry run which python
+          $PYTHON -m poetry show
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
-        run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+        run: $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
       - name: List wheels
         working-directory: ./extensions/underthesea_core
         run: find ./target/wheels/
@@ -66,7 +66,7 @@ jobs:
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+        run: $PTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
 #  macos-windows-build-pypi-publish:
 #    needs: build
 #    runs-on: ${{ matrix.os }}

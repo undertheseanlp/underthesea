@@ -22,7 +22,7 @@ RUN mkdir -p "$CARGO_HOME" && mkdir -p "$RUSTUP_HOME" && \
 RUN cargo --version
 
 # Funny stuff !!!
-RUN mkdir underthesea
+RUN mkdir fun
 
 RUN conda update conda
 ENV PATH /opt/conda/envs/python3.7/bin:$PATH
