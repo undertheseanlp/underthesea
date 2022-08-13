@@ -64,9 +64,11 @@ jobs:
           $PYTHON -m pip install --upgrade pip
           $PYTHON -m venv .venv
       - name: install poetry & maturin
+        working-directory: ./extensions/underthesea_core
         run: |
           $PYTHON -m pip install poetry maturin
       - name: poetry install
+        working-directory: ./extensions/underthesea_core
         run: |
           poetry install
           poetry run which python
