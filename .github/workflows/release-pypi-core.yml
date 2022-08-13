@@ -56,10 +56,14 @@ jobs:
           override: true
       - name: Test rust lib
         run: cargo --version
+      - name: Set up GCC
+        uses: egor-tensin/setup-gcc@v1
+        with:
+          version: latest
+          platform: x64
       - name: Install dependencies
         working-directory: ./extensions/underthesea_core
         run: |
-          yum install -y gcc
           $PYTHON -m pip install --upgrade pip
           $PYTHON -m venv .venv
           $PYTHON -m pip install poetry maturin
