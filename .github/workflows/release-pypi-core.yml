@@ -63,7 +63,11 @@ jobs:
         run: |
           $PYTHON -m pip install --upgrade pip
           $PYTHON -m venv .venv
+      - name: install poetry & maturin
+        run: |
           $PYTHON -m pip install poetry maturin
+      - name: poetry install
+        run: |
           poetry install
           poetry run which python
       - name: Build Python package
