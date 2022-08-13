@@ -11,4 +11,6 @@ RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
 
 ENV PATH /opt/conda/bin:$PATH
 
+RUN curl https://sh.rustup.rs -sSf | sh
+
 RUN mkdir underthesea

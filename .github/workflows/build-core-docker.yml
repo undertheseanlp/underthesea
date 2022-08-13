@@ -6,7 +6,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}/build_rust
-  VERSION: 0.0.1a3
+  VERSION: 0.0.1a4
 
 jobs:
   docker:

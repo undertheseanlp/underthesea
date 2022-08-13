@@ -1,3 +1,9 @@
 # Docker Image for Build Rust
 
-Base from quay.io/pypa/manylinux2014_x86_64
+Base from CentOS:7
+
+Environments:
+
+* gcc
+* glibc 2.17
+* Cargo
