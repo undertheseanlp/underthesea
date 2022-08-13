@@ -64,8 +64,10 @@ jobs:
           $PYTHON -m pip install poetry maturin
           poetry install
           poetry run which python
-      - name: check gcc
-        run: gcc --version
+      - name: Gcc
+        run: |
+          yum install -y gcc
+          gcc --version
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
         run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
