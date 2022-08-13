@@ -49,9 +49,8 @@ jobs:
         python-version: ["3.7"]
     steps:
       - uses: actions/checkout@v1
-      - name: Install rust
-        run: |
-          curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain nightly --profile minimal -y
+      - name: Install nightly toolchain
+        uses: actions-rs/toolchain@v1
       - name: Test rust lib
         run: cargo --version
       - name: Install dependencies
