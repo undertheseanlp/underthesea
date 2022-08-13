@@ -2,7 +2,7 @@ FROM centos:7
 
 RUN yum install -y wget bzip2 ca-certificates \
     libglib2.0-0 libxext6 libsm6 libxrender1 \
-    git mercurial subversion
+    git mercurial subversion openssl-devel
 
 # Install Anaconda & Python
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
@@ -25,5 +25,11 @@ RUN cargo --version
 RUN mkdir underthesea
 
 RUN conda update conda
+ENV PATH /opt/conda/envs/python3.7/bin:$PATH
 RUN conda create -f -y -n python3.7 python=3.7
 RUN ln -s /opt/conda/envs/python3.7/bin/python3.7 /usr/bin/python3.7
+RUN python3.7 -m ensurepip --upgrade
+
+# RUN conda create -f -y -n python3.8 python=3.8
+# RUN ln -s /opt/conda/envs/python3.8/bin/python3.8 /usr/bin/python3.8
+# RUN python3.8 -m ensurepip --upgrade
