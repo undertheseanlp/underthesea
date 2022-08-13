@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
+    <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
@@ -88,9 +88,7 @@ Usage
 
 ```python
 >>> from underthesea import text_normalize
->>> text = 'Ðảm baỏ chất lựơng phòng thí nghịêm hoá học'
-
->>> text_normalize(text)
+>>> text_normalize('Ðảm baỏ chất lựơng phòng thí nghịêm hoá học')
 'Đảm bảo chất lượng phòng thí nghiệm hóa học'
 ```
 
