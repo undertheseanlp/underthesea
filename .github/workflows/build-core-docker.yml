@@ -25,4 +25,4 @@ jobs:
           context: .
           file: ./extensions/docker/Dockerfile
           push: true
-          tags: underthesea/rust_build:0.0.1
+          tags: undertheseanlp/underthesea/rust_build:0.0.1
