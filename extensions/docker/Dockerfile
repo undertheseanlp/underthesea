@@ -28,7 +28,7 @@ RUN conda update conda
 ENV PATH /opt/conda/envs/python3.7/bin:$PATH
 RUN conda create -f -y -n python3.7 python=3.7
 RUN ln -s /opt/conda/envs/python3.7/bin/python3.7 /usr/bin/python3.7
-RUN python3.7 -m ensurepip --upgrade
+RUN conda run --no-capture-output -n python3.7 conda install pip
 
 # RUN conda create -f -y -n python3.8 python=3.8
 # RUN ln -s /opt/conda/envs/python3.8/bin/python3.8 /usr/bin/python3.8
