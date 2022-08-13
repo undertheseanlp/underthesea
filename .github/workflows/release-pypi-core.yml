@@ -47,7 +47,7 @@ jobs:
         python-version: ["3.7"]
     steps:
       - uses: actions/checkout@v1
-      - name: Test rust lib
+      - name: Test rust environment
         run: |
           cargo --version
           poetry --version

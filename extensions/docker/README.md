@@ -7,3 +7,16 @@ Environments:
 * gcc
 * glibc 2.17
 * Cargo
+
+# Usage
+
+Update Dockerfile & Push to github registry
+
+```
+$ git checkout origin/core
+$ git checkout -B core
+$ git commit -m 'build docker'
+$ git push origin core
+```
+
+**Note**: The commit message 'build docker' will trigger `build-core-docker` action.
