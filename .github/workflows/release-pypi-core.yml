@@ -66,6 +66,7 @@ jobs:
           poetry run which python
       - name: Gcc
         run: |
+          pwd
           yum install -y gcc
           gcc --version
       - name: Build Python package
