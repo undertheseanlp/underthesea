@@ -36,10 +36,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'build docker')"
     runs-on: ubuntu-latest
     container:
-      image: quay.io/pypa/manylinux2014_x86_64
-      env:
-        PATH: /root/.cargo/bin:/root/.local/bin:/opt/python/cp36-cp36m/bin:/opt/python/cp37-cp37m/bin:/opt/python/cp38-cp38/bin:/opt/rh/devtoolset-2/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/python/cp35-cp35m/bin:/opt/python/cp36-cp36m/bin:/opt/python/cp37-cp37m/bin:/opt/python/cp38-cp38/bin
-      options: --user root
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a4
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
@@ -47,29 +44,13 @@ jobs:
       fail-fast: false
       matrix:
 #        python-version: ["3.7", "3.8", "3.9", "3.10"]
-        python-version: ["3.9"]
+        python-version: ["3.7"]
     steps:
       - uses: actions/checkout@v1
-      - name: Install nightly toolchain
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          override: true
       - name: Test rust lib
-        run: cargo --version
-      - name: Set up GCC
-        run: yum install -y gcc
-      - name: Install dependencies
-        working-directory: ./extensions/underthesea_core
         run: |
-          $PYTHON -m pip install --upgrade pip
-          $PYTHON -m venv .venv
-      - name: install poetry & maturin
-        working-directory: ./extensions/underthesea_core
-        run: |
-          $PYTHON -m pip install poetry maturin
-      - name: Add poetry to path
-        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+          cargo --version
+          poetry --version
       - name: poetry install
         working-directory: ./extensions/underthesea_core
         run: |
