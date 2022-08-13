@@ -10,7 +10,7 @@ jobs:
       - name: Checkout master
         uses: actions/checkout@v1
         with:
-            python-version: 3.6
+            python-version: 3.7
       - name: Install pypa/build
         run: >-
           python -m

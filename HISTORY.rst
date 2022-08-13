@@ -7,6 +7,7 @@ History
 
 * Add Text Normalization module (GH-534)
 * Release underthesea_core version 0.0.4 (GH-550)
+* Only support python 3.7+
 
 1.3.5-alpha.1 (2022-08-08)
 --------------------------------------------------------------------------------

@@ -3,101 +3,110 @@ on:
     branches: [ core ]
 
 jobs:
-  build:
-    name: Build rust
+  manylinux-build-pypi-publish:
+    if: "!contains(github.event.head_commit.message, 'build docker')"
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a13
+    env:
+      HOME: /root
+      PYTHON: python${{ matrix.python-version }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
+#        python-version: ["3.6"]
     steps:
-      - name: Checkout master
-        uses: actions/checkout@v1
-      - name: Set up Python 3.6
-        uses: actions/setup-python@v1
-        with:
-          python-version: 3.6
-      - name: Install dependencies
+      - uses: actions/checkout@v1
+      - name: Show environments
         run: |
-          python -m pip install --upgrade pip
-          curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-      - name: Add poetry to path
-        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
-      - name: Install package deps
+          cargo --version
+          $PYTHON -m poetry --version
+      - name: poetry install dependencies
         working-directory: ./extensions/underthesea_core
+        env:
+          LC_ALL: en_US.UTF-8  # known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
         run: |
-          poetry install
-      - name: Install latest nightly
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          override: true
+          $PYTHON -m poetry install
+          $PYTHON -m poetry show
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
-        run: poetry run maturin develop --release
-  pypi-publish:
-    needs: build
+        run: $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+      - name: List wheels
+        working-directory: ./extensions/underthesea_core
+        run: find ./target/wheels/
+      - name: PyPi publish
+        working-directory: ./extensions/underthesea_core
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+        run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+  macos-windows-build-pypi-publish:
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
-        os: [ubuntu-latest, macos-latest, windows-latest]
+#        python-version: ["3.7"]
+        os: [macos-latest, windows-latest]
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install latest nightly
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          override: true
-      - name: Install dependencies
-        working-directory: ./extensions/underthesea_core
-        run: |
-          python -m pip install --upgrade pip
-          curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-      - name: Add poetry to path
-        if:  matrix.os != 'windows-latest'
-        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
-      - name: Add poetry to path
-        if:  matrix.os == 'windows-latest'
-        run: echo "${HOME}/.poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install latest nightly
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly
+        override: true
+    - name: Install dependencies
+      working-directory: ./extensions/underthesea_core
+      run: |
+        python -m pip install --upgrade pip
+        curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+    - name: Add poetry to path
+      if:  matrix.os != 'windows-latest'
+      run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+    - name: Add poetry to path
+      if:  matrix.os == 'windows-latest'
+      run: echo "${HOME}/.poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
-      - name: Install package deps
-        working-directory: ./extensions/underthesea_core
-        run: |
-          poetry install
+    - name: Install package deps
+      working-directory: ./extensions/underthesea_core
+      run: |
+        poetry install
 
-      - name: Build Python package
-        if:  matrix.os == 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        run: poetry run maturin build --release --no-sdist --strip --interpreter python
-      - name: Build Python package
-        if:  matrix.os != 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+    - name: Build Python package
+      if:  matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: poetry run maturin build --release --no-sdist --strip --interpreter python
+    - name: Build Python package
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
 
-      - name: List wheels
-        if:  matrix.os != 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        run: find ./target/wheels/
-      - name: List wheels
-        if:  matrix.os == 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        run: dir target\wheels\
+    - name: List wheels
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: find ./target/wheels/
+    - name: List wheels
+      if:  matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: dir target\wheels\
 
-      - name: Install wheels
-        if:  matrix.os != 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        run: pip install target/wheels/underthesea_core*.whl
+    - name: Install wheels
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: pip install target/wheels/underthesea_core*.whl
 
-      - name: PyPi publish
-        if:  matrix.os != 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        env:
-          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
-      - name: PyPi publish
-        if: matrix.os == 'windows-latest'
-        working-directory: ./extensions/underthesea_core
-        env:
-          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: poetry run maturin publish --username __token__ --no-sdist --interpreter python
+    - name: PyPi publish
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      env:
+        MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+    - name: PyPi publish
+      if: matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      env:
+        MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python
