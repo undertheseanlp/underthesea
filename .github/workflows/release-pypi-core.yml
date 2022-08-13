@@ -25,13 +25,13 @@ jobs:
       - name: poetry install dependencies
         working-directory: ./extensions/underthesea_core
         env:
-          LC_ALL: C.UTF-8
+          LC_ALL: en_US.UTF-8
         run: |
           $PYTHON -m poetry install
       - name: poetry show
         working-directory: ./extensions/underthesea_core
         env:
-          LC_ALL: C.UTF-8
+          LC_ALL: en_US.UTF-8
         run: |
           $PYTHON -m poetry show
       - name: Build Python package
