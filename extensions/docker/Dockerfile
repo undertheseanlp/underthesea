@@ -19,5 +19,7 @@ RUN mkdir -p "$CARGO_HOME" && mkdir -p "$RUSTUP_HOME" && \
     curl https://sh.rustup.rs -sSf | sh -s -- -y --default-toolchain stable && \
     chmod -R a=rwX $CARGO_HOME
 
+RUN cargo --version
+
 # Funny stuff !!!
 RUN mkdir underthesea
