@@ -25,7 +25,7 @@ content-hash = "4947493d3ee32946c9b36d5dc1705bd469b5ca5aed2e073a3d84034be45dd23d
 [metadata.files]
 maturin = [
     {file = "maturin-0.9.4-py3-none-macosx_10_7_x86_64.whl", hash = "sha256:79ea854e014e8a601fc1b71eb3bb82bf4d81b62890dee69e4a083cba1f738ce9"},
-    {file = "maturin-0.9.4-py3-none-manylinux2014_x86_64.whl", hash = "sha256:e52dfb6bc6f1c1062883fd785466e246d733f9c7eb90a3cd00ff2d4c659d23ca"},
+    {file = "maturin-0.9.4-py3-none-manylinux2010_x86_64.whl", hash = "sha256:e52dfb6bc6f1c1062883fd785466e246d733f9c7eb90a3cd00ff2d4c659d23ca"},
     {file = "maturin-0.9.4-py3-none-manylinux2014_aarch64.whl", hash = "sha256:ea08990ba22b76da8f83e5cd1a75f0ec08c045fa0149901343eba1fccfc2a406"},
     {file = "maturin-0.9.4-py3-none-manylinux2014_armv7l.whl", hash = "sha256:213a69ed4976d078439d2bad148f41f82c919ab98fa85d3d54ebc3ba211a5895"},
     {file = "maturin-0.9.4-py3-none-win32.whl", hash = "sha256:981330c9c46c2e5c6a648ef54809f573fa9bc257151c119089ccf9d3fe9bfb82"},
