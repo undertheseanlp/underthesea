@@ -6,9 +6,9 @@ RUN yum install -y wget bzip2 ca-certificates \
 
 # Install Anaconda & Python
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
-    wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh && \
+    wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh -O ~/miniconda.sh && \
     /bin/bash ~/miniconda.sh -b -p /opt/conda && \
-    rm ~/anaconda.sh
+    rm ~/miniconda.sh
 ENV PATH /opt/conda/bin:$PATH
 
 # Install Rust
