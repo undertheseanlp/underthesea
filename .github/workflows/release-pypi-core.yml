@@ -24,10 +24,14 @@ jobs:
           $PYTHON -m poetry --version
       - name: poetry install dependencies
         working-directory: ./extensions/underthesea_core
+        env:
+          LC_ALL: C.UTF-8
         run: |
-          $PYTHON -m poetry install --no-interaction
+          $PYTHON -m poetry install
       - name: poetry show
         working-directory: ./extensions/underthesea_core
+        env:
+          LC_ALL: C.UTF-8
         run: |
           $PYTHON -m poetry show
       - name: Build Python package
