@@ -62,6 +62,7 @@ jobs:
           $PYTHON -m pip install --upgrade pip
           $PYTHON -m venv .venv
           $PYTHON -m pip install poetry maturin
+          yum install gcc
           poetry install
           poetry run which python
       - name: Build Python package
