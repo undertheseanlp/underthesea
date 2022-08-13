@@ -1,4 +1,3 @@
-# FROM quay.io/pypa/manylinux2014_x86_64
-FROM ubuntu:18.04
+FROM quay.io/pypa/manylinux2014_x86_64
 
 RUN mkdir underthesea
