@@ -5,7 +5,8 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: ${{ github.repository }}/build_rust@0.0.1
+  IMAGE_NAME: ${{ github.repository }}/build_rust
+  VERION: 0.0.1
 
 jobs:
   docker:
@@ -29,6 +30,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          labels: |
+            org.opencontainers.image.version=${{ env.VERSION }}
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
