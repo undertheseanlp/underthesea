@@ -7,6 +7,7 @@ Environments:
 * gcc
 * glibc 2.17
 * Cargo
+* Python: 3.6, 3.7, 3.8, 3.9, 3.10
 
 # Usage
 
@@ -19,4 +20,4 @@ $ git commit -m 'build docker'
 $ git push origin core
 ```
 
-**Note**: The commit message 'build docker' will trigger `build-core-docker` action.
+**Note**: Commit messages contains 'build docker' will trigger `build-core-docker` actions.

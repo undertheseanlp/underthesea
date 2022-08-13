@@ -4,18 +4,18 @@ This part of the tutorial shows how you can train your own Vietnamese Dependency
 
 ### Training a model
 
-Install requirements 
+Install requirements
 
-``` 
+```
 cd plays/dependency_parsing
-conda create -n playground python=3.6
+conda create -n playground python=3.8
 pip install -r requirements.txt
 ```
 
-Train sample model 
+Train sample model
 
 ```
-python vlsp2020_dp_sample.py 
+python vlsp2020_dp_sample.py
 ```
 
 Train full model
