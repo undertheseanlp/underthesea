@@ -22,6 +22,7 @@ jobs:
       - name: Build and push
         uses: docker/build-push-action@v3
         with:
-          context: ./extensions/docker
+          context: .
+          file: ./extensions/docker/Dockerfile
           push: true
           tags: underthesea/rust_build:latest
