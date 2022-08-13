@@ -45,8 +45,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-#        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
-        python-version: ["3.7"]
+        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
     steps:
       - uses: actions/checkout@v1
       - name: Install nightly toolchain
@@ -62,12 +61,9 @@ jobs:
           $PYTHON -m pip install --upgrade pip
           $PYTHON -m venv .venv
           $PYTHON -m pip install poetry maturin
+          yum install -y gcc
           poetry install
           poetry run which python
-      - name: Gcc
-        run: |
-          yum install -y gcc
-          gcc --version
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
         run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
