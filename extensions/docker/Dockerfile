@@ -30,7 +30,7 @@ ENV PATH /opt/conda/envs/python3.8/bin:$PATH
 ENV PATH /opt/conda/envs/python3.9/bin:$PATH
 ENV PATH /opt/conda/envs/python3.10/bin:$PATH
 
-# python 3.7
+# python 3.6
 RUN conda create -f -y -n python3.6 python=3.6
 RUN ln -s /opt/conda/envs/python3.6/bin/python3.6 /usr/bin/python3.6
 RUN source activate python3.6 && conda install -y pip
