@@ -32,7 +32,7 @@ jobs:
 #        working-directory: ./extensions/underthesea_core
 #        run: poetry run maturin develop --release
   manylinux-build-pypi-publish:
-    needs: build
+#    needs: build
     runs-on: ubuntu-latest
     container:
       image: quay.io/pypa/manylinux2014_x86_64
