@@ -36,7 +36,7 @@ jobs:
     if: "!contains(github.event.head_commit.message, 'build docker')"
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a8
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a9
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}

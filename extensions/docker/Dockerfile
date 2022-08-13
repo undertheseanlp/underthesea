@@ -29,7 +29,7 @@ ENV PATH /opt/conda/envs/python3.7/bin:$PATH
 RUN conda create -f -y -n python3.7 python=3.7
 RUN ln -s /opt/conda/envs/python3.7/bin/python3.7 /usr/bin/python3.7
 RUN source activate python3.7 && conda install -y pip
-RUN python3.7 -m install poetry
+RUN python3.7 -m pip install poetry
 # RUN conda run --no-capture-output -n python3.7 conda install pip
 
 # RUN conda create -f -y -n python3.8 python=3.8
