@@ -24,5 +24,6 @@ RUN cargo --version
 # Funny stuff !!!
 RUN mkdir underthesea
 
+RUN conda update conda
 RUN conda create -f -y -n python3.7 python=3.7
 RUN ln -s /opt/conda/envs/python3.7/bin/python3.7 /usr/bin/python3.7
