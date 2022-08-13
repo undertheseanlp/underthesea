@@ -32,6 +32,8 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           labels: |
             org.opencontainers.image.version=${{ env.VERSION }}
+          tags: |
+            type=raw,value=${{ env.VERSION }}
       - name: Build and push
         uses: docker/build-push-action@v2
         with:
