@@ -2,7 +2,7 @@ FROM centos:7
 
 RUN yum install -y wget bzip2 ca-certificates \
     libglib2.0-0 libxext6 libsm6 libxrender1 \
-    git mercurial subversion openssl-devel
+    git mercurial subversion openssl-devel gcc
 
 # Install Rust
 ENV RUSTUP_HOME=/usr/local/rustup CARGO_HOME=/usr/local/cargo
