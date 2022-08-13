@@ -1,3 +1,5 @@
-FROM quay.io/pypa/manylinux2014_x86_64
+FROM ubuntu:12.04
+RUN apt-get update
+RUN apt-get install -y wget
 
 RUN mkdir underthesea
