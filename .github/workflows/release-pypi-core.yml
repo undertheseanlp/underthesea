@@ -67,6 +67,8 @@ jobs:
         working-directory: ./extensions/underthesea_core
         run: |
           $PYTHON -m pip install poetry maturin
+      - name: Add poetry to path
+        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
       - name: poetry install
         working-directory: ./extensions/underthesea_core
         run: |
