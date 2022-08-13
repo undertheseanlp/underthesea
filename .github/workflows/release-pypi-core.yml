@@ -66,7 +66,6 @@ jobs:
           poetry run which python
       - name: Gcc
         run: |
-          pwd
           yum install -y gcc
           gcc --version
       - name: Build Python package
@@ -75,9 +74,6 @@ jobs:
       - name: List wheels
         working-directory: ./extensions/underthesea_core
         run: find ./target/wheels/
-      - name: Install wheels
-        working-directory: ./extensions/underthesea_core
-        run: pip install target/wheels/underthesea_core*.whl
       - name: PyPi publish
         working-directory: ./extensions/underthesea_core
         env:
