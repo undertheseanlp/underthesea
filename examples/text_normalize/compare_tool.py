@@ -22,7 +22,7 @@ def compare_two_tools():
             word, freq = line.split("\t\t")
             other_words = Normalizer.normalize(word)
             uts_words = text_normalize(word)
-            if word != "nghiêng" and len(word) > 6:
+            if word != "nghiêng" and len(word) >= 7:
                 continue
             if other_words != word and other_words != uts_words:
                 analysable_word = AnalysableWord(word)

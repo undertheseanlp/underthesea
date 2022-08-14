@@ -81,6 +81,7 @@ def info():
     print("")
     print("MODULES")
     print("       sent_tokenize : OK")
+    print("      text_normalize : OK")
     print("       word_tokenize : OK")
     print("             pos_tag : OK")
     print("               chunk : OK")
