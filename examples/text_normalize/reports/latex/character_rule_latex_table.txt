@@ -1,0 +1,18 @@
+\begin{table}
+\centering
+\begin{tabular}{c c c}
+\hline
+\textbf{ID} & \textbf{None Standard} & \textbf{Standard} \\
+\hline
+1 & 
+\begin{tabular}{@{}c@{}}ð\\ \small\verb|00F0|\end{tabular} & 
+\begin{tabular}{@{}c@{}}đ\\ \small\verb|0111|\end{tabular} \\
+\hline
+2 & 
+\begin{tabular}{@{}c@{}}Ð\\ \small\verb|00D0|\end{tabular} & 
+\begin{tabular}{@{}c@{}}Đ\\ \small\verb|0110|\end{tabular} \\
+\hline
+\end{tabular}
+\caption{Character standardization rules}
+\label{table:character_rules}
+\end{table}
