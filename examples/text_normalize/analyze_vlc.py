@@ -7,9 +7,9 @@ counter = {}
 CORPUS_FILE = join(DATASETS_FOLDER, "CP_Vietnamese-VLC-1.0.0-alpha.1", "corpus.txt")
 with open(CORPUS_FILE) as f:
     text = f.read()
-    tokens = text.split()
+    tokens = text.lower().split()
     for token in tokens:
-        for punct in [",", "\"", ".", ";", ":", "(", ")", "%", "+", "-"]:
+        for punct in [",", "\"", ".", ";", ":", "(", ")", "%", "+", "-", "“", "”"]:
             token = token.replace(punct, "")
         if token not in counter:
             counter[token] = 0
