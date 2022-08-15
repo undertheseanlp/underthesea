@@ -1,0 +1,1123 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Luật số: 07/2017/QH14
+
+Hà Nội, ngày 19 tháng 6 năm 2017
+
+
+
+LUẬT
+
+CHUYỂN GIAO CÔNG NGHỆ
+
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+
+Quốc hội ban hành Luật Chuyển giao công nghệ.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về hoạt động chuyển giao công nghệ tại Việt Nam, từ nước ngoài vào Việt Nam, từ Việt Nam ra nước ngoài; quyền và nghĩa vụ của tổ chức, cá nhân tham gia hoạt động chuyển giao công nghệ; thẩm định công nghệ dự án đầu tư; hợp đồng chuyển giao công nghệ; biện pháp khuyến khích chuyển giao công nghệ, phát triển thị trường khoa học và công nghệ; quản lý nhà nước về chuyển giao công nghệ.
+
+Điều 2. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Bí quyết là thông tin được tích lũy, khám phá trong quá trình nghiên cứu, sản xuất, kinh doanh có ý nghĩa quyết định chất lượng, khả năng cạnh tranh của công nghệ, sản phẩm công nghệ. Bí quyết bao gồm bí quyết kỹ thuật, bí quyết công nghệ.
+
+2. Công nghệ là giải pháp, quy trình, bí quyết có kèm hoặc không kèm công cụ, phương tiện dùng để biến đổi nguồn lực thành sản phẩm.
+
+3. Công nghệ tiên tiến là công nghệ có trình độ công nghệ cao hơn trình độ công nghệ cùng loại hiện có tại Việt Nam, đã được ứng dụng trong thực tiễn, nâng cao năng suất, chất lượng sản phẩm vượt trội và thân thiện với môi trường.
+
+4. Công nghệ mới là công nghệ lần đầu tiên được tạo ra hoặc ứng dụng tại Việt Nam hoặc trên thế giới, có trình độ cao hơn trình độ công nghệ cùng loại hiện có tại Việt Nam, thân thiện với môi trường, có tính ứng dụng trong thực tiễn và khả năng nâng cao năng suất, chất lượng sản phẩm.
+
+5. Công nghệ sạch là công nghệ phát thải ở mức thấp chất gây ô nhiễm môi trường theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật, sử dụng ít tài nguyên không tái tạo hơn so với công nghệ hiện có.
+
+6. Công nghệ cao là công nghệ có hàm lượng cao về nghiên cứu khoa học và phát triển công nghệ; được tích hợp từ thành tựu khoa học và công nghệ hiện đại; tạo ra sản phẩm có chất lượng, tính năng vượt trội, giá trị gia tăng cao, thân thiện với môi trường; có vai trò quan trọng đối với việc hình thành ngành sản xuất, dịch vụ mới hoặc hiện đại hóa ngành sản xuất, dịch vụ hiện có.
+
+7. Chuyển giao công nghệ là chuyển nhượng quyền sở hữu công nghệ hoặc chuyển giao quyền sử dụng công nghệ từ bên có quyền chuyển giao công nghệ sang bên nhận công nghệ.
+
+8. Chuyển giao công nghệ trong nước là việc chuyển giao công nghệ được thực hiện trong lãnh thổ Việt Nam.
+
+9. Chuyển giao công nghệ từ nước ngoài vào Việt Nam là việc chuyển giao công nghệ qua biên giới vào lãnh thổ Việt Nam.
+
+10. Chuyển giao công nghệ từ Việt Nam ra nước ngoài là việc chuyển giao công nghệ từ lãnh thổ Việt Nam qua biên giới ra nước ngoài.
+
+11. Thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ là hoạt động khai thác, hoàn thiện, ứng dụng, chuyển giao, hoạt động khác có liên quan đến kết quả nghiên cứu khoa học và phát triển công nghệ nhằm mục đích thu lợi nhuận.
+
+12. Ươm tạo công nghệ là quá trình nhằm tạo ra, hoàn thiện, thương mại hóa công nghệ từ ý tưởng công nghệ, kết quả nghiên cứu khoa học và phát triển công nghệ hoặc từ công nghệ chưa hoàn thiện thông qua các hoạt động trợ giúp về hạ tầng kỹ thuật, nguồn lực và dịch vụ cần thiết.
+
+13. Ươm tạo doanh nghiệp khoa học và công nghệ là quá trình hình thành, phát triển doanh nghiệp khoa học và công nghệ thông qua các hoạt động trợ giúp về hạ tầng kỹ thuật, nguồn lực và dịch vụ cần thiết.
+
+14. Cơ sở ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ là cơ sở cung cấp các điều kiện theo quy định của pháp luật về hạ tầng kỹ thuật, nguồn lực và dịch vụ cần thiết phục vụ việc ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ.
+
+15. Đổi mới công nghệ là hoạt động thay thế một phần hoặc toàn bộ công nghệ đang sử dụng bằng một phần hoặc toàn bộ công nghệ khác nhằm nâng cao năng suất, chất lượng và khả năng cạnh tranh của sản phẩm.
+
+16. Giải mã công nghệ là quá trình tìm nguyên lý công nghệ thông qua nghiên cứu, phân tích cấu trúc, thiết kế, chức năng và hoạt động của một thiết bị, đối tượng, hệ thống cần giải mã nhằm bảo trì, khai thác, cải tiến hoặc tạo ra thiết bị, đối tượng, hệ thống mới có tính năng tương đương hoặc đáp ứng yêu cầu về tiêu chuẩn, quy chuẩn kỹ thuật quốc gia.
+
+17. Đánh giá công nghệ là hoạt động xác định trình độ, hiệu quả kinh tế, tác động của công nghệ đến môi trường, kinh tế - xã hội.
+
+18. Thẩm định giá công nghệ là việc cơ quan, tổ chức có chức năng thẩm định giá công nghệ xác định giá trị bằng tiền của công nghệ phù hợp với giá thị trường tại một địa điểm, thời điểm nhất định, phục vụ cho mục đích nhất định theo tiêu chuẩn thẩm định giá.
+
+19. Giám định công nghệ là hoạt động xác định các chỉ tiêu của công nghệ đạt được trong quá trình ứng dụng so với các chỉ tiêu đã được các bên thỏa thuận.
+
+20. Môi giới chuyển giao công nghệ là hoạt động hỗ trợ tìm kiếm đối tác để thực hiện chuyển giao công nghệ.
+
+21. Tư vấn chuyển giao công nghệ là hoạt động hỗ trợ lựa chọn, ứng dụng công nghệ; khai thác thông tin công nghệ, thông tin sáng chế, kết quả nghiên cứu khoa học và phát triển công nghệ; đàm phán, ký kết và thực hiện chuyển giao công nghệ.
+
+22. Xúc tiến chuyển giao công nghệ là hoạt động thúc đẩy cơ hội chuyển giao công nghệ; cung ứng dịch vụ quảng cáo, trưng bày, giới thiệu công nghệ; tổ chức chợ, hội chợ, triển lãm công nghệ, điểm kết nối cung cầu công nghệ, trung tâm giao dịch công nghệ.
+
+Điều 3. Chính sách của Nhà nước đối với hoạt động chuyển giao công nghệ
+
+1. Bảo đảm quyền và lợi ích hợp pháp, điều kiện thuận lợi cho tổ chức, cá nhân hoạt động chuyển giao công nghệ; phát triển thị trường khoa học và công nghệ, hệ thống đổi mới sáng tạo quốc gia với doanh nghiệp là trung tâm; nâng cao trình độ, tiềm lực công nghệ quốc gia nhằm bảo đảm quốc phòng, an ninh, phát triển nhanh và bền vững kinh tế - xã hội.
+
+2. Đa dạng hóa hình thức, phương thức chuyển giao công nghệ; khuyến khích chuyển giao công nghệ từ nhiều nguồn khác nhau.
+
+3. Ưu tiên chuyển giao công nghệ cao, công nghệ tiên tiến, công nghệ mới, công nghệ sạch, công nghệ phục vụ phát triển sản phẩm quốc gia, trọng điểm, chủ lực, công nghệ phục vụ quốc phòng, an ninh từ nước ngoài vào Việt Nam và chuyển giao trong nước; bố trí nguồn lực đầu tư cho hoạt động chuyển giao công nghệ trong nông nghiệp, nông thôn; chú trọng hoạt động chuyển giao công nghệ cho địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn.
+
+4. Hỗ trợ ý tưởng công nghệ, khởi nghiệp sáng tạo, ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ; hoạt động ứng dụng, đổi mới công nghệ, liên kết giữa tổ chức nghiên cứu khoa học và phát triển công nghệ với cơ sở đào tạo, cơ sở sản xuất; chú trọng thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ được tạo ra trong nước; phát triển tổ chức trung gian của thị trường khoa học và công nghệ.
+
+5. Đẩy mạnh chuyển giao công nghệ tiên tiến, công nghệ cao từ nước ngoài vào Việt Nam; khuyến khích chuyển giao công nghệ từ Việt Nam ra nước ngoài; thúc đẩy chuyển giao công nghệ trong nước; chú trọng lan tỏa công nghệ tiên tiến, công nghệ cao từ doanh nghiệp có vốn đầu tư nước ngoài sang doanh nghiệp trong nước; thúc đẩy phong trào đổi mới sáng tạo của tổ chức, cá nhân.
+
+6. Ngăn chặn, loại bỏ công nghệ lạc hậu, công nghệ ảnh hưởng xấu đến kinh tế - xã hội, quốc phòng, an ninh, môi trường, sức khỏe con người.
+
+Điều 4. Đối tượng công nghệ được chuyển giao
+
+1. Công nghệ được chuyển giao là một hoặc các đối tượng sau đây:
+
+a) Bí quyết kỹ thuật, bí quyết công nghệ;
+
+b) Phương án, quy trình công nghệ; giải pháp, thông số, bản vẽ, sơ đồ kỹ thuật; công thức, phần mềm máy tính, thông tin dữ liệu;
+
+c) Giải pháp hợp lý hóa sản xuất, đổi mới công nghệ;
+
+d) Máy móc, thiết bị đi kèm một trong các đối tượng quy định tại các điểm a, b và c khoản này.
+
+2. Trường hợp đối tượng công nghệ quy định tại khoản 1 Điều này được bảo hộ quyền sở hữu trí tuệ thì việc chuyển giao quyền sở hữu trí tuệ được thực hiện theo quy định của pháp luật về sở hữu trí tuệ.
+
+Điều 5. Hình thức chuyển giao công nghệ
+
+1. Chuyển giao công nghệ độc lập.
+
+2. Phần chuyển giao công nghệ trong trường hợp sau đây:
+
+a) Dự án đầu tư;
+
+b) Góp vốn bằng công nghệ;
+
+c) Nhượng quyền thương mại;
+
+d) Chuyển giao quyền sở hữu trí tuệ;
+
+đ) Mua, bán máy móc, thiết bị quy định tại điểm d khoản 1 Điều 4 của Luật này.
+
+3. Chuyển giao công nghệ bằng hình thức khác theo quy định của pháp luật.
+
+4. Việc chuyển giao công nghệ quy định tại khoản 1 và điểm b khoản 2 Điều này phải được lập thành hợp đồng; việc chuyển giao công nghệ tại các điểm a, c, d và đ khoản 2 và khoản 3 Điều này được thể hiện dưới hình thức hợp đồng hoặc điều, khoản, phụ lục của hợp đồng hoặc của hồ sơ dự án đầu tư có các nội dung quy định tại Điều 23 của Luật này.
+
+Điều 6. Phương thức chuyển giao công nghệ
+
+1. Chuyển giao tài liệu về công nghệ.
+
+2. Đào tạo cho bên nhận công nghệ nắm vững và làm chủ công nghệ trong thời hạn thỏa thuận.
+
+3. Cử chuyên gia tư vấn kỹ thuật cho bên nhận công nghệ đưa công nghệ vào ứng dụng, vận hành để đạt được các chỉ tiêu về chất lượng sản phẩm, tiến độ theo thỏa thuận.
+
+4. Chuyển giao máy móc, thiết bị kèm theo công nghệ quy định tại điểm d khoản 1 Điều 4 của Luật này kèm theo các phương thức quy định tại Điều này.
+
+5. Phương thức chuyển giao khác do các bên thỏa thuận.
+
+Điều 7. Quyền chuyển giao công nghệ
+
+1. Chủ sở hữu công nghệ có quyền chuyển nhượng quyền sở hữu, chuyển giao quyền sử dụng công nghệ.
+
+2. Tổ chức, cá nhân có quyền sử dụng công nghệ được chuyển giao quyền sử dụng công nghệ đó cho tổ chức, cá nhân khác khi chủ sở hữu công nghệ đồng ý.
+
+3. Phạm vi chuyển giao quyền sử dụng công nghệ do các bên thỏa thuận bao gồm:
+
+a) Độc quyền hoặc không độc quyền sử dụng công nghệ;
+
+b) Quyền chuyển giao tiếp quyền sử dụng công nghệ của bên nhận chuyển giao cho bên thứ ba.
+
+Điều 8. Góp vốn bằng công nghệ vào dự án đầu tư
+
+Tổ chức, cá nhân có quyền chuyển giao công nghệ quy định tại Điều 7 của Luật này được quyền góp vốn bằng công nghệ vào dự án đầu tư; trường hợp dự án đầu tư có sử dụng vốn nhà nước thì công nghệ đưa vào góp vốn phải được thẩm định giá theo quy định của pháp luật.
+
+Điều 9. Công nghệ khuyến khích chuyển giao
+
+1. Công nghệ cao; máy móc, thiết bị đi kèm công nghệ cao được khuyến khích chuyển giao theo pháp luật về công nghệ cao.
+
+2. Công nghệ tiên tiến, công nghệ mới, công nghệ sạch phù hợp với điều kiện kinh tế - xã hội của Việt Nam được khuyến khích chuyển giao từ nước ngoài vào Việt Nam, chuyển giao trong nước khi đáp ứng một trong các yêu cầu sau đây:
+
+a) Tạo ra sản phẩm có chất lượng, có khả năng cạnh tranh cao hơn so với sản phẩm được tạo ra từ công nghệ cùng loại hiện có;
+
+b) Tạo ra sản phẩm quốc gia, trọng điểm, chủ lực từ kết quả nghiên cứu khoa học và phát triển công nghệ trong nước;
+
+c) Tạo ra dịch vụ, ngành, nghề sản xuất, chế tạo, chế biến sản phẩm mới; nuôi, trồng giống mới đã qua kiểm nghiệm;
+
+d) Tiết kiệm tài nguyên, năng lượng, nguyên liệu so với công nghệ cùng loại hiện có ở Việt Nam;
+
+đ) Sản xuất, sử dụng năng lượng mới, năng lượng tái tạo; lưu trữ năng lượng hiệu suất cao;
+
+e) Tạo ra máy móc, thiết bị nâng cao chất lượng giáo dục, đào tạo; máy móc, thiết bị y tế, dược phẩm phục vụ khám, điều trị, bảo vệ sức khỏe con người, nâng cao chất lượng thể chất người Việt Nam;
+
+g) Phát hiện, xử lý, dự báo để phòng chống thiên tai, dịch bệnh; cứu hộ, cứu nạn; bảo vệ môi trường, thích ứng với biến đổi khí hậu, giảm phát thải khí nhà kính;
+
+h) Sản xuất đồng bộ theo chuỗi có hiệu quả kinh tế - xã hội cao;
+
+i) Tạo ra sản phẩm sử dụng đồng thời cho quốc phòng, an ninh và dân dụng;
+
+k) Phát triển, hiện đại hóa nghề thủ công truyền thống.
+
+3. Công nghệ; máy móc, thiết bị kèm theo công nghệ quy định tại điểm d khoản 1 Điều 4 của Luật này hiện có ở Việt Nam trừ công nghệ quy định tại khoản 1 và khoản 2 Điều này, khoản 2 Điều 10 của Luật này; công nghệ sử dụng nguyên liệu là sản phẩm, bán sản phẩm, vật tư sản xuất trong nước được khuyến khích chuyển giao ra nước ngoài.
+
+4. Chính phủ ban hành Danh mục công nghệ khuyến khích chuyển giao.
+
+Điều 10. Công nghệ hạn chế chuyển giao
+
+1. Hạn chế chuyển giao công nghệ từ nước ngoài vào Việt Nam và chuyển giao công nghệ trong nước trong trường hợp sau đây:
+
+a) Công nghệ; máy móc, thiết bị kèm theo công nghệ không còn sử dụng phổ biến ở các quốc gia công nghiệp phát triển;
+
+b) Sử dụng hóa chất độc hại hoặc phát sinh chất thải nguy hại đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật quốc gia;
+
+c) Tạo ra sản phẩm bằng phương pháp biến đổi gen;
+
+d) Sử dụng chất phóng xạ, tạo ra chất phóng xạ mà đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật quốc gia;
+
+đ) Sử dụng tài nguyên, khoáng sản hạn chế khai thác trong nước;
+
+e) Công nghệ nhân giống, nuôi, trồng giống mới chưa được kiểm nghiệm;
+
+g) Tạo ra sản phẩm có ảnh hưởng xấu đến phong tục, tập quán, truyền thống và đạo đức xã hội.
+
+2. Hạn chế chuyển giao công nghệ từ Việt Nam ra nước ngoài trong trường hợp sau đây:
+
+a) Tạo ra các sản phẩm truyền thống, sản xuất theo bí quyết truyền thống hoặc sử dụng, tạo ra chủng, loại giống trong nông nghiệp, khoáng chất, vật liệu quý hiếm đặc trưng của Việt Nam;
+
+b) Tạo ra sản phẩm xuất khẩu vào thị trường cạnh tranh với mặt hàng xuất khẩu chủ lực quốc gia của Việt Nam.
+
+3. Chính phủ ban hành Danh mục công nghệ hạn chế chuyển giao.
+
+Điều 11. Công nghệ cấm chuyển giao
+
+1. Cấm chuyển giao từ nước ngoài vào Việt Nam và chuyển giao trong nước công nghệ sau đây:
+
+a) Không đáp ứng quy định của pháp luật về an toàn lao động, vệ sinh lao động, bảo đảm sức khỏe con người, bảo vệ tài nguyên, môi trường và đa dạng sinh học;
+
+b) Tạo ra sản phẩm gây hậu quả xấu đến phát triển kinh tế - xã hội; ảnh hưởng xấu đến quốc phòng, an ninh, trật tự và an toàn xã hội;
+
+c) Công nghệ; máy móc, thiết bị kèm theo công nghệ không còn sử dụng phổ biến và chuyển giao ở các quốc gia đang phát triển và không đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật quốc gia;
+
+d) Công nghệ sử dụng hóa chất độc hại hoặc phát sinh chất thải không đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật quốc gia về môi trường;
+
+đ) Sử dụng chất phóng xạ, tạo ra chất phóng xạ không đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật quốc gia.
+
+2. Cấm chuyển giao từ Việt Nam ra nước ngoài công nghệ thuộc Danh mục bí mật nhà nước, trừ trường hợp luật khác cho phép chuyển giao.
+
+3. Chính phủ ban hành Danh mục công nghệ cấm chuyển giao.
+
+Điều 12. Những hành vi bị nghiêm cấm trong hoạt động chuyển giao công nghệ
+
+1. Lợi dụng chuyển giao công nghệ làm ảnh hưởng xấu đến quốc phòng, an ninh, lợi ích quốc gia, sức khỏe con người, môi trường, đạo đức, thuần phong mỹ tục của dân tộc; xâm phạm quyền và lợi ích hợp pháp của tổ chức, cá nhân; hủy hoại tài nguyên thiên nhiên, đa dạng sinh học.
+
+2. Chuyển giao công nghệ cấm chuyển giao; chuyển giao trái phép công nghệ hạn chế chuyển giao.
+
+3. Vi phạm quy định về quyền chuyển giao công nghệ.
+
+4. Lừa dối, giả tạo trong việc lập, thực hiện hợp đồng chuyển giao công nghệ, hợp đồng dịch vụ chuyển giao công nghệ, nội dung công nghệ trong hợp đồng, hồ sơ dự án đầu tư.
+
+5. Cản trở, từ chối cung cấp thông tin về hoạt động chuyển giao công nghệ theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+
+6. Tiết lộ bí mật công nghệ trái quy định của pháp luật, cản trở hoạt động chuyển giao công nghệ.
+
+7. Sử dụng công nghệ không đúng với công nghệ đã được cơ quan quản lý nhà nước có thẩm quyền phê duyệt, cấp phép.
+
+Chương II
+
+THẨM ĐỊNH CÔNG NGHỆ DỰ ÁN ĐẦU TƯ
+
+Điều 13. Thẩm định hoặc có ý kiến về công nghệ dự án đầu tư
+
+1. Trong giai đoạn quyết định chủ trương đầu tư, việc thẩm định công nghệ dự án đầu tư sử dụng vốn đầu tư công thực hiện theo quy định của pháp luật về đầu tư công.
+
+2. Trong giai đoạn quyết định chủ trương đầu tư theo quy định của Luật Đầu tư, dự án đầu tư sau đây phải được cơ quan quản lý nhà nước có thẩm quyền thẩm định hoặc có ý kiến về công nghệ:
+
+a) Dự án đầu tư sử dụng công nghệ hạn chế chuyển giao;
+
+b) Dự án đầu tư có nguy cơ tác động xấu đến môi trường theo quy định của pháp luật về bảo vệ môi trường có sử dụng công nghệ.
+
+3. Trong giai đoạn quyết định đầu tư, việc thẩm định hoặc có ý kiến về công nghệ được thực hiện như sau:
+
+a) Dự án đầu tư xây dựng sử dụng công nghệ hạn chế chuyển giao hoặc dự án đầu tư xây dựng có nguy cơ tác động xấu đến môi trường theo quy định của pháp luật về bảo vệ môi trường có sử dụng công nghệ phải được thẩm định hoặc có ý kiến về công nghệ theo quy định của Luật này;
+
+b) Dự án đầu tư xây dựng có công nghệ không thuộc trường hợp quy định tại điểm a khoản này được thẩm định về công nghệ theo quy định của pháp luật về xây dựng;
+
+c) Dự án đầu tư sử dụng vốn đầu tư công không có cấu phần xây dựng được thẩm định về công nghệ theo quy định của pháp luật về đầu tư công.
+
+4. Trường hợp triển khai thực hiện dự án đầu tư đã được phê duyệt, nếu có điều chỉnh, thay đổi nội dung công nghệ đã được thẩm định hoặc có ý kiến thì chủ đầu tư phải báo cáo cơ quan đã thẩm định hoặc có ý kiến về công nghệ để tiến hành thủ tục thẩm định hoặc có ý kiến về việc điều chỉnh, thay đổi công nghệ.
+
+Điều 14. Thẩm quyền thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định chủ trương đầu tư
+
+1. Thẩm quyền thẩm định công nghệ đối với dự án đầu tư có sử dụng vốn đầu tư công thực hiện theo quy định của pháp luật về đầu tư công.
+
+2. Thẩm quyền thẩm định hoặc có ý kiến về công nghệ đối với dự án quy định tại điểm a khoản 2 Điều 13 của Luật này, dự án đầu tư có nguy cơ tác động xấu đến môi trường có sử dụng công nghệ hạn chế chuyển giao được thực hiện như sau:
+
+a) Hội đồng thẩm định nhà nước thẩm định công nghệ đối với dự án đầu tư thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội;
+
+b) Bộ Khoa học và Công nghệ chủ trì, phối hợp với cơ quan, tổ chức liên quan có ý kiến về công nghệ đối với dự án đầu tư thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ;
+
+c) Cơ quan chuyên môn về khoa học và công nghệ thuộc Ủy ban nhân dân cấp tỉnh chủ trì, phối hợp với cơ quan, tổ chức liên quan có ý kiến về công nghệ đối với dự án thuộc trường hợp phải quyết định chủ trương đầu tư và không thuộc trường hợp quy định tại điểm a và điểm b khoản này.
+
+3. Thẩm quyền thẩm định hoặc có ý kiến về công nghệ đối với dự án quy định tại điểm b khoản 2 Điều 13 của Luật này được thực hiện như sau:
+
+a) Hội đồng thẩm định nhà nước thẩm định công nghệ đối với dự án đầu tư thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội;
+
+b) Bộ quản lý ngành, lĩnh vực chủ trì, phối hợp với Bộ Khoa học và Công nghệ, cơ quan, tổ chức liên quan có ý kiến về công nghệ đối với dự án đầu tư thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ;
+
+c) Cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh chủ trì, phối hợp với cơ quan, tổ chức liên quan có ý kiến về công nghệ đối với dự án thuộc trường hợp phải quyết định chủ trương đầu tư và không thuộc trường hợp quy định tại điểm a và điểm b khoản này.
+
+Điều 15. Thẩm quyền thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định đầu tư
+
+1. Thẩm quyền thẩm định hoặc có ý kiến về công nghệ của dự án quy định tại điểm a khoản 3 Điều 13 của Luật này được thực hiện như sau:
+
+a) Hội đồng thẩm định nhà nước thẩm định về công nghệ đối với dự án quan trọng quốc gia;
+
+b) Cơ quan chuyên môn về xây dựng theo quy định của pháp luật về xây dựng chủ trì, phối hợp với cơ quan thực hiện chức năng quản lý nhà nước về ngành, lĩnh vực cùng cấp thẩm định về công nghệ đối với dự án nhóm A, B, C sử dụng vốn ngân sách nhà nước;
+
+c) Cơ quan thực hiện chức năng quản lý nhà nước về ngành, lĩnh vực thẩm định hoặc có ý kiến về công nghệ đối với dự án nhóm A, B, C sử dụng vốn nhà nước ngoài ngân sách và vốn khác.
+
+2. Thẩm quyền thẩm định công nghệ đối với dự án đầu tư quy định tại điểm b khoản 3 Điều 13 của Luật này được thực hiện theo quy định của pháp luật về xây dựng.
+
+3. Thẩm quyền thẩm định công nghệ đối với dự án đầu tư quy định tại điểm c khoản 3 Điều 13 của Luật này được thực hiện theo quy định của pháp luật về đầu tư công.
+
+Điều 16. Nội dung giải trình về sử dụng công nghệ trong hồ sơ dự án đầu tư
+
+1. Trong giai đoạn quyết định chủ trương đầu tư, nội dung giải trình về sử dụng công nghệ trong hồ sơ dự án đầu tư bao gồm:
+
+a) Phân tích và lựa chọn phương án công nghệ;
+
+b) Tên, xuất xứ, sơ đồ quy trình công nghệ; dự kiến danh mục, tình trạng, thông số kỹ thuật của máy móc, thiết bị chính trong dây chuyền công nghệ thuộc phương án công nghệ lựa chọn;
+
+c) Tài liệu chứng minh công nghệ đã được kiểm chứng (nếu có);
+
+d) Dự kiến kế hoạch đào tạo, hỗ trợ kỹ thuật để vận hành dây chuyền công nghệ (nếu có);
+
+đ) Điều kiện sử dụng công nghệ;
+
+e) Đánh giá sơ bộ tác động của công nghệ đến môi trường (nếu có);
+
+g) Dự thảo hợp đồng chuyển giao công nghệ trong trường hợp góp vốn bằng công nghệ.
+
+2. Trong giai đoạn quyết định đầu tư, nội dung giải trình về sử dụng công nghệ trong hồ sơ dự án đầu tư bao gồm:
+
+a) Tên, xuất xứ, sơ đồ quy trình công nghệ; danh mục, tình trạng, thông số kỹ thuật của máy móc, thiết bị trong dây chuyền công nghệ;
+
+b) Sản phẩm, tiêu chuẩn, chất lượng sản phẩm;
+
+c) Khả năng đáp ứng nguyên liệu, nhiên liệu, vật liệu cho dây chuyền công nghệ;
+
+d) Chương trình đào tạo, hỗ trợ kỹ thuật để vận hành dây chuyền công nghệ;
+
+đ) Chi phí đầu tư cho công nghệ, máy móc, thiết bị, đào tạo, hỗ trợ kỹ thuật.
+
+Điều 17. Trình tự thẩm định hoặc có ý kiến về công nghệ dự án đầu tư trong giai đoạn quyết định chủ trương đầu tư
+
+Trình tự thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định chủ trương đầu tư thực hiện như sau:
+
+1. Đối với dự án đầu tư có sử dụng vốn đầu tư công, trình tự thẩm định công nghệ được thực hiện theo quy định của pháp luật về đầu tư công;
+
+2. Đối với dự án đầu tư quy định tại khoản 2 Điều 13 của Luật này thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, trình tự thẩm định công nghệ thực hiện theo quy định của pháp luật về đầu tư;
+
+3. Đối với dự án đầu tư quy định tại điểm a khoản 2 Điều 13 của Luật này thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ dự án đầu tư, cơ quan đăng ký đầu tư có trách nhiệm gửi hồ sơ dự án đầu tư đến Bộ Khoa học và Công nghệ để có ý kiến về công nghệ;
+
+4. Đối với dự án đầu tư quy định tại điểm a khoản 2 Điều 13 của Luật này không thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội hoặc Thủ tướng Chính phủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ dự án đầu tư, cơ quan đăng ký đầu tư có trách nhiệm gửi hồ sơ dự án đầu tư đến cơ quan chuyên môn về khoa học và công nghệ thuộc Ủy ban nhân cấp tỉnh để có ý kiến về công nghệ;
+
+5. Đối với dự án đầu tư quy định tại điểm b khoản 2 Điều 13 của Luật này thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ dự án đầu tư, cơ quan đăng ký đầu tư có trách nhiệm gửi hồ sơ dự án đầu tư đến Bộ quản lý ngành, lĩnh vực để có ý kiến về công nghệ;
+
+6. Đối với dự án đầu tư quy định tại điểm b khoản 2 Điều 13 của Luật này không thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội hoặc Thủ tướng Chính phủ, trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ dự án đầu tư, cơ quan đăng ký đầu tư có trách nhiệm gửi hồ sơ dự án đầu tư đến cơ quan chuyên môn thuộc Ủy ban nhân cấp tỉnh để có ý kiến về công nghệ;
+
+7. Thời hạn có ý kiến về công nghệ quy định tại Điều này là 15 ngày làm việc kể từ ngày nhận đủ hồ sơ.
+
+Điều 18. Trình tự thẩm định hoặc có ý kiến về công nghệ dự án đầu tư trong giai đoạn quyết định đầu tư
+
+1. Trình tự thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định đầu tư đối với dự án quy định tại điểm a khoản 3 Điều 13 của Luật này thực hiện như sau:
+
+a) Đối với dự án quan trọng quốc gia, trình tự thẩm định về công nghệ thực hiện theo quy định của pháp luật về đầu tư và đầu tư công;
+
+b) Đối với dự án nhóm A, B, C sử dụng vốn ngân sách nhà nước, trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ dự án, cơ quan chuyên môn về xây dựng theo quy định của pháp luật về xây dựng có trách nhiệm gửi văn bản kèm theo trích lục hồ sơ có liên quan đến cơ quan thực hiện chức năng quản lý nhà nước cùng cấp về ngành, lĩnh vực để có ý kiến về công nghệ;
+
+c) Đối với dự án nhóm A, B, C sử dụng vốn nhà nước ngoài ngân sách và vốn khác, chủ đầu tư gửi hồ sơ thiết kế cơ sở của dự án tới cơ quan chuyên môn về xây dựng theo quy định của pháp luật về xây dựng để thẩm định thiết kế cơ sở, trừ việc thẩm định phần thiết kế công nghệ; đồng thời gửi tới cơ quan thực hiện chức năng quản lý nhà nước cùng cấp về ngành, lĩnh vực với cơ quan chuyên môn về xây dựng để có ý kiến về thiết kế công nghệ.
+
+Trường hợp cơ quan chuyên môn về xây dựng đồng thời là cơ quan thực hiện chức năng quản lý nhà nước về ngành, lĩnh vực thì cơ quan chuyên môn về xây dựng thẩm định về thiết kế cơ sở bao gồm cả thiết kế công nghệ;
+
+d) Thời gian có ý kiến về công nghệ là 20 ngày đối với dự án nhóm A, 15 ngày đối với dự án nhóm B, 10 ngày đối với dự án nhóm C kể từ ngày nhận đủ hồ sơ; trường hợp cần gia hạn thời gian có ý kiến về công nghệ thì thời gian gia hạn không quá thời hạn tương ứng quy định tại điểm này. Cơ quan có thẩm quyền có trách nhiệm thông báo cho cơ quan chuyên môn về xây dựng hoặc chủ đầu tư về việc gia hạn bằng văn bản và nêu rõ lý do.
+
+Trường hợp cơ quan chuyên môn về xây dựng đồng thời là cơ quan thực hiện chức năng quản lý nhà nước về ngành, lĩnh vực thì thời hạn thẩm định thiết kế công nghệ được tính trong thời hạn thẩm định thiết kế cơ sở theo quy định của pháp luật về xây dựng.
+
+2. Trình tự thẩm định công nghệ đối với dự án đầu tư quy định tại điểm b khoản 3 Điều 13 của Luật này được thực hiện theo quy định của pháp luật về xây dựng.
+
+3. Trình tự thẩm định công nghệ đối với dự án đầu tư quy định tại điểm c khoản 3 Điều 13 của Luật này được thực hiện theo quy định của pháp luật về đầu tư công.
+
+Điều 19. Nội dung thẩm định hoặc có ý kiến về công nghệ dự án đầu tư
+
+1. Nội dung thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định chủ trương đầu tư được quy định như sau:
+
+a) Sự phù hợp của phương án công nghệ được lựa chọn;
+
+b) Việc kiểm chứng sử dụng công nghệ tại các quốc gia phát triển (nếu có);
+
+c) Việc đào tạo, hỗ trợ kỹ thuật cho vận hành dây chuyền công nghệ của dự án đầu tư (nếu có);
+
+d) Việc đáp ứng các điều kiện sử dụng công nghệ;
+
+đ) Sơ bộ tác động ảnh hưởng của công nghệ đến môi trường;
+
+e) Dự thảo hợp đồng chuyển giao công nghệ (nếu có);
+
+g) Đối với dự án đầu tư trong khu công nghệ cao, nội dung thẩm định hoặc có ý kiến về công nghệ thực hiện theo quy định tại khoản này và đáp ứng các tiêu chí, tiêu chuẩn theo quy định của pháp luật về công nghệ cao.
+
+2. Nội dung thẩm định hoặc có ý kiến về công nghệ trong giai đoạn quyết định đầu tư được quy định như sau:
+
+a) Sự phù hợp của công nghệ, máy móc, thiết bị với phương án được lựa chọn trong giai đoạn quyết định chủ trương đầu tư; tiêu chuẩn, quy chuẩn kỹ thuật và quy định khác của pháp luật có liên quan;
+
+b) Sản phẩm, tiêu chuẩn, chất lượng sản phẩm;
+
+c) Sự phù hợp, khả năng đáp ứng nguyên liệu, nhiên liệu, vật liệu cho việc vận hành công nghệ, máy móc, thiết bị;
+
+d) Chương trình đào tạo, hỗ trợ kỹ thuật để vận hành dây chuyền công nghệ, máy móc, thiết bị;
+
+đ) Chi phí đầu tư cho công nghệ, máy móc, thiết bị, đào tạo, hỗ trợ kỹ thuật.
+
+Điều 20. Thực hiện thẩm định hoặc lấy ý kiến về công nghệ dự án đầu tư
+
+1. Cơ quan có thẩm quyền thẩm định hoặc có ý kiến về công nghệ dự án đầu tư thực hiện thẩm định hoặc có ý kiến về công nghệ dự án đầu tư; trường hợp cần tham vấn chuyên môn thì thực hiện thông qua các hình thức sau đây:
+
+a) Hội đồng tư vấn khoa học và công nghệ;
+
+b) Lấy ý kiến tổ chức, chuyên gia tư vấn độc lập.
+
+2. Hội đồng tư vấn do cơ quan chủ trì có ý kiến về công nghệ quyết định thành lập. Hội đồng làm việc theo nguyên tắc dân chủ, khách quan, trung thực, tuân thủ pháp luật và đạo đức nghề nghiệp. Hội đồng tư vấn chịu trách nhiệm về kết luận và kiến nghị trước cơ quan thành lập hội đồng. Kết luận và kiến nghị của hội đồng phải được lập thành văn bản.
+
+3. Thành viên hội đồng tư vấn chịu trách nhiệm trước pháp luật về ý kiến của mình và giữ bí mật thông tin liên quan đến dự án đầu tư. Ý kiến của các thành viên hội đồng phải được lập thành văn bản.
+
+4. Kinh phí tổ chức lấy ý kiến về công nghệ trong dự án đầu tư được thực hiện như sau:
+
+a) Trong giai đoạn quyết định chủ trương đầu tư được bảo đảm bằng ngân sách nhà nước;
+
+b) Trong giai đoạn quyết định đầu tư do chủ đầu tư chịu trách nhiệm và được tính trong tổng mức đầu tư.
+
+Điều 21. Kiểm tra, giám sát công nghệ trong dự án đầu tư và chuyển giao công nghệ
+
+1. Việc ứng dụng và chuyển giao công nghệ trong dự án đầu tư theo quy định tại Điều 13 của Luật này phải được kiểm tra, giám sát trong quá trình triển khai, thực hiện.
+
+2. Cơ quan quản lý nhà nước về đầu tư có trách nhiệm chủ trì, phối hợp với cơ quan quản lý nhà nước chuyên ngành để kiểm tra, giám sát công nghệ trong dự án đầu tư cùng với việc kiểm tra, giám sát đầu tư theo quy định của pháp luật.
+
+3. Cơ quan quản lý nhà nước về khoa học và công nghệ có trách nhiệm chủ trì, phối hợp với các cơ quan có liên quan kiểm tra hoạt động chuyển giao công nghệ trong các trường hợp sau đây:
+
+a) Theo kế hoạch;
+
+b) Khi có dấu hiệu vi phạm về ứng dụng, chuyển giao công nghệ trong quá trình triển khai, thực hiện dự án đầu tư và hoạt động chuyển giao công nghệ.
+
+Chương III
+
+HỢP ĐỒNG CHUYỂN GIAO CÔNG NGHỆ
+
+Điều 22. Giao kết và thực hiện hợp đồng chuyển giao công nghệ
+
+1. Việc giao kết hợp đồng chuyển giao công nghệ phải được lập thành văn bản hoặc hình thức khác được coi là giao dịch bằng văn bản theo quy định của Bộ luật Dân sự. Văn bản hợp đồng phải được các bên ký, đóng dấu (nếu có); ký, đóng dấu giáp lai (nếu có) vào các trang của hợp đồng, phụ lục hợp đồng.
+
+2. Ngôn ngữ trong hợp đồng chuyển giao công nghệ do các bên thỏa thuận.
+
+3. Hợp đồng chuyển giao công nghệ được giao kết và thực hiện theo quy định của Luật này, Bộ luật Dân sự, Luật Thương mại, Luật Sở hữu trí tuệ, Luật Cạnh tranh và quy định khác của pháp luật có liên quan.
+
+Điều 23. Nội dung hợp đồng chuyển giao công nghệ
+
+1. Tên công nghệ được chuyển giao.
+
+2. Đối tượng công nghệ được chuyển giao, sản phẩm do công nghệ tạo ra, tiêu chuẩn, chất lượng sản phẩm.
+
+3. Chuyển nhượng quyền sở hữu, chuyển giao quyền sử dụng công nghệ.
+
+4. Phương thức chuyển giao công nghệ.
+
+5. Quyền và nghĩa vụ của các bên.
+
+6. Giá, phương thức thanh toán.
+
+7. Thời hạn, thời điểm có hiệu lực của hợp đồng.
+
+8. Khái niệm, thuật ngữ sử dụng trong hợp đồng (nếu có).
+
+9. Kế hoạch, tiến độ chuyển giao công nghệ, địa điểm thực hiện chuyển giao công nghệ.
+
+10. Trách nhiệm bảo hành công nghệ được chuyển giao.
+
+11. Phạt vi phạm hợp đồng.
+
+12. Trách nhiệm do vi phạm hợp đồng.
+
+13. Cơ quan giải quyết tranh chấp.
+
+14. Nội dung khác do các bên thỏa thuận.
+
+Điều 24. Thời hạn thực hiện và thời điểm có hiệu lực của hợp đồng chuyển giao công nghệ
+
+1. Thời hạn thực hiện hợp đồng chuyển giao công nghệ do các bên thỏa thuận.
+
+2. Thời điểm có hiệu lực của hợp đồng chuyển giao công nghệ do các bên thỏa thuận; trường hợp các bên không thỏa thuận về thời điểm có hiệu lực của hợp đồng thì thời điểm có hiệu lực của hợp đồng là thời điểm giao kết, trừ trường hợp quy định tại khoản 3 Điều này.
+
+3. Hợp đồng chuyển giao công nghệ hạn chế chuyển giao có hiệu lực từ thời điểm được cấp Giấy phép chuyển giao công nghệ.
+
+Hợp đồng chuyển giao công nghệ thuộc trường hợp đăng ký theo quy định tại khoản 1 và khoản 2 Điều 31 của Luật này có hiệu lực từ thời điểm được cấp Giấy chứng nhận đăng ký chuyển giao công nghệ; trường hợp gia hạn, sửa đổi, bổ sung thì hợp đồng gia hạn, sửa đổi, bổ sung có hiệu lực từ thời điểm cơ quan nhà nước có thẩm quyền cấp Giấy chứng nhận đăng ký gia hạn, sửa đổi, bổ sung chuyển giao công nghệ.
+
+Điều 25. Quyền và nghĩa vụ của bên giao công nghệ
+
+1. Bên giao công nghệ có quyền sau đây:
+
+a) Yêu cầu bên nhận công nghệ thực hiện đúng cam kết trong hợp đồng;
+
+b) Được thanh toán đầy đủ và hưởng quyền, lợi ích khác theo thỏa thuận trong hợp đồng;
+
+c) Được thuê tổ chức, cá nhân thực hiện dịch vụ chuyển giao công nghệ theo quy định của pháp luật;
+
+d) Yêu cầu cơ quan có thẩm quyền bảo vệ quyền, lợi ích hợp pháp liên quan đến công nghệ được chuyển giao;
+
+đ) Yêu cầu bên nhận công nghệ áp dụng biện pháp khắc phục, bồi thường thiệt hại trong trường hợp bên nhận công nghệ không thực hiện đúng nghĩa vụ quy định trong hợp đồng, trừ trường hợp các bên có thỏa thuận khác;
+
+e) Các quyền khác theo quy định của pháp luật.
+
+2. Bên giao công nghệ có nghĩa vụ sau đây:
+
+a) Bảo đảm quyền chuyển giao công nghệ là hợp pháp và không bị hạn chế bởi bên thứ ba, trừ trường hợp các bên có thỏa thuận khác;
+
+b) Thực hiện đúng cam kết trong hợp đồng; bồi thường thiệt hại cho bên nhận công nghệ, bên thứ ba do vi phạm hợp đồng;
+
+c) Giữ bí mật thông tin về công nghệ và thông tin khác trong quá trình đàm phán, ký kết, thực hiện hợp đồng chuyển giao công nghệ theo thỏa thuận;
+
+d) Thông báo cho bên nhận công nghệ và thực hiện các biện pháp thích hợp khi phát hiện có khó khăn về kỹ thuật của công nghệ được chuyển giao làm cho kết quả chuyển giao công nghệ có khả năng không đúng cam kết trong hợp đồng;
+
+đ) Đề nghị cấp Giấy phép chuyển giao công nghệ trong trường hợp chuyển giao công nghệ hạn chế chuyển giao từ Việt Nam ra nước ngoài, trừ trường hợp các bên có thỏa thuận khác;
+
+e) Thực hiện nghĩa vụ về tài chính, nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 26. Quyền và nghĩa vụ của bên nhận công nghệ
+
+1. Bên nhận công nghệ có quyền sau đây:
+
+a) Yêu cầu bên giao công nghệ thực hiện đúng cam kết trong hợp đồng;
+
+b) Yêu cầu cơ quan có thẩm quyền bảo vệ quyền, lợi ích hợp pháp liên quan đến công nghệ được chuyển giao;
+
+c) Được thuê tổ chức, cá nhân thực hiện dịch vụ chuyển giao công nghệ theo quy định của pháp luật;
+
+d) Yêu cầu bên giao công nghệ áp dụng biện pháp khắc phục, bồi thường thiệt hại trong trường hợp bên giao công nghệ không thực hiện đúng nghĩa vụ quy định trong hợp đồng, trừ trường hợp các bên có thỏa thuận khác;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Bên nhận công nghệ có nghĩa vụ sau đây:
+
+a) Thực hiện đúng cam kết trong hợp đồng; bồi thường thiệt hại cho bên giao công nghệ, bên thứ ba do vi phạm hợp đồng;
+
+b) Giữ bí mật thông tin về công nghệ và thông tin khác trong quá trình đàm phán, ký kết, thực hiện hợp đồng chuyển giao công nghệ theo thỏa thuận;
+
+c) Đề nghị cấp Giấy phép chuyển giao công nghệ trong trường hợp chuyển giao công nghệ hạn chế chuyển giao từ nước ngoài vào Việt Nam, trừ trường hợp các bên có thỏa thuận khác;
+
+d) Thực hiện nghĩa vụ về tài chính, nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 27. Giá, phương thức thanh toán chuyển giao công nghệ
+
+1. Giá công nghệ chuyển giao do các bên thỏa thuận.
+
+2. Việc thanh toán được thực hiện bằng phương thức sau đây:
+
+a) Trả một lần hoặc nhiều lần bằng tiền hoặc hàng hóa;
+
+b) Chuyển giá trị công nghệ thành vốn góp vào dự án đầu tư hoặc vào vốn của doanh nghiệp theo quy định của pháp luật;
+
+c) Trả theo phần trăm (%) giá bán tịnh;
+
+d) Trả theo phần trăm (%) doanh thu thuần;
+
+đ) Trả theo phần trăm (%) lợi nhuận trước thuế của bên nhận;
+
+e) Phương thức thanh toán khác do các bên thỏa thuận.
+
+3. Giá công nghệ chuyển giao phải được kiểm toán và thực hiện theo quy định của pháp luật về thuế và giá trong trường hợp sau đây:
+
+a) Giữa các bên mà một hoặc nhiều bên có vốn nhà nước;
+
+b) Giữa các bên có quan hệ theo mô hình công ty mẹ - công ty con;
+
+c) Giữa các bên có quan hệ liên kết theo quy định của pháp luật về thuế.
+
+4. Chính phủ quy định chi tiết Điều này.
+
+Điều 28. Chuyển giao công nghệ hạn chế chuyển giao
+
+1. Tổ chức, cá nhân chuyển giao công nghệ hạn chế chuyển giao quy định tại Điều 10 của Luật này phải thực hiện thủ tục đề nghị cấp Giấy phép chuyển giao công nghệ.
+
+2. Việc cấp Giấy phép chuyển giao công nghệ được thực hiện theo trình tự sau đây:
+
+a) Chấp thuận chuyển giao công nghệ.
+
+Đối với chuyển giao công nghệ của dự án đầu tư đã được thẩm định, lấy ý kiến công nghệ trong giai đoạn quyết định chủ trương đầu tư hoặc quyết định đầu tư thì không phải chấp thuận chuyển giao công nghệ;
+
+b) Cấp Giấy phép chuyển giao công nghệ.
+
+3. Hằng năm, bên nhận công nghệ trong trường hợp chuyển giao công nghệ từ nước ngoài vào Việt Nam, chuyển giao công nghệ trong nước; bên giao công nghệ trong trường hợp chuyển giao công nghệ từ Việt Nam ra nước ngoài phải thực hiện báo cáo việc thực hiện hợp đồng chuyển giao công nghệ theo quy định của Bộ Khoa học và Công nghệ.
+
+Điều 29. Hồ sơ, trình tự, thủ tục chấp thuận chuyển giao công nghệ
+
+1. Hồ sơ đề nghị chấp thuận chuyển giao công nghệ bao gồm:
+
+a) Văn bản đề nghị chấp thuận chuyển giao công nghệ;
+
+b) Văn bản về tư cách pháp lý của bên đề nghị;
+
+c) Tài liệu giải trình về công nghệ;
+
+d) Tài liệu giải trình về điều kiện sử dụng công nghệ theo quy định của pháp luật;
+
+đ) Tài liệu giải trình về việc phù hợp với quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật.
+
+2. Tổ chức, cá nhân chuyển giao công nghệ hạn chế chuyển giao gửi hồ sơ đến Bộ Khoa học và Công nghệ để đề nghị chấp thuận chuyển giao công nghệ.
+
+3. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ, Bộ Khoa học và Công nghệ có trách nhiệm xem xét hồ sơ; trường hợp hồ sơ không đầy đủ thì có văn bản đề nghị tổ chức, cá nhân bổ sung hồ sơ theo quy định.
+
+4. Trong thời hạn 30 ngày kể từ ngày nhận được hồ sơ đầy đủ, Bộ Khoa học và Công nghệ chủ trì phối hợp với Bộ, ngành có liên quan ra văn bản chấp thuận chuyển giao công nghệ; trường hợp không chấp thuận thì phải trả lời bằng văn bản và nêu rõ lý do.
+
+5. Bộ trưởng Bộ Khoa học và Công nghệ ban hành mẫu văn bản đề nghị chấp thuận chuyển giao công nghệ, mẫu tài liệu giải trình về công nghệ.
+
+Điều 30. Hồ sơ, trình tự, thủ tục cấp Giấy phép chuyển giao công nghệ
+
+1. Hồ sơ đề nghị cấp Giấy phép chuyển giao công nghệ bao gồm:
+
+a) Văn bản đề nghị cấp Giấy phép chuyển giao công nghệ, trong đó ghi rõ cam kết trách nhiệm của các bên bảo đảm nội dung hợp đồng tuân thủ các quy định của pháp luật có liên quan;
+
+b) Văn bản về tư cách pháp lý của các bên trong hợp đồng chuyển giao công nghệ;
+
+c) Bản gốc bằng tiếng Việt hoặc bản sao có chứng thực hợp đồng chuyển giao công nghệ; trường hợp không có hợp đồng bằng tiếng Việt thì phải có bản dịch sang tiếng Việt và được công chứng hoặc chứng thực;
+
+d) Danh mục tài liệu công nghệ, máy móc, thiết bị (nếu có) kèm theo hợp đồng chuyển giao công nghệ;
+
+đ) Bản sao có chứng thực văn bằng bảo hộ các đối tượng sở hữu trí tuệ (nếu có);
+
+e) Tiêu chuẩn, chất lượng sản phẩm, dịch vụ do ứng dụng công nghệ chuyển giao;
+
+g) Giải trình về điều kiện sử dụng công nghệ;
+
+h) Văn bản thẩm định giá công nghệ được chuyển giao trong trường hợp bên nhận chuyển giao công nghệ sử dụng vốn nhà nước.
+
+2. Sau khi nhận được văn bản chấp thuận của Bộ Khoa học và Công nghệ, tổ chức, cá nhân chuyển giao công nghệ tiến hành ký kết hợp đồng chuyển giao công nghệ.
+
+3. Trong thời hạn 60 ngày kể từ ngày ký kết hợp đồng chuyển giao công nghệ, bên có nghĩa vụ thực hiện việc đề nghị cấp Giấy phép chuyển giao công nghệ gửi 01 bộ hồ sơ đề nghị cấp Giấy phép chuyển giao công nghệ đến Bộ Khoa học và Công nghệ.
+
+4. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ, Bộ Khoa học và Công nghệ có trách nhiệm xem xét hồ sơ; trường hợp hồ sơ không đầy đủ thì có văn bản đề nghị tổ chức, cá nhân sửa đổi, bổ sung hồ sơ theo quy định.
+
+Trong thời hạn 60 ngày kể từ ngày có văn bản yêu cầu sửa đổi, bổ sung, các bên sửa đổi, bổ sung hồ sơ theo yêu cầu hoặc có văn bản đề nghị gia hạn thời gian việc sửa đổi, bổ sung. Thời gian gia hạn không quá 60 ngày, hết thời hạn này, nếu các bên không sửa đổi, bổ sung hồ sơ theo yêu cầu thì Bộ Khoa học và Công nghệ ra thông báo từ chối cấp Giấy phép chuyển giao công nghệ và trả lại hồ sơ nếu có yêu cầu.
+
+5. Trong thời hạn 15 ngày làm việc kể từ ngày nhận đủ hồ sơ, Bộ Khoa học và Công nghệ có trách nhiệm thẩm định và cấp Giấy phép chuyển giao công nghệ; trường hợp từ chối cấp Giấy phép thì phải trả lời bằng văn bản và nêu rõ lý do.
+
+6. Trường hợp cần thay đổi nội dung ghi trong Giấy phép chuyển giao công nghệ thì phải đề nghị cấp Giấy phép mới.
+
+7. Bộ trưởng Bộ Khoa học và Công nghệ ban hành mẫu văn bản đề nghị cấp Giấy phép chuyển giao công nghệ, mẫu Giấy phép chuyển giao công nghệ.
+
+Điều 31. Đăng ký chuyển giao công nghệ
+
+1. Hợp đồng chuyển giao công nghệ và phần chuyển giao công nghệ quy định tại khoản 2 Điều 5 của Luật này thuộc một trong những trường hợp sau đây phải đăng ký với cơ quan quản lý nhà nước về khoa học và công nghệ, trừ công nghệ hạn chế chuyển giao đã được cấp Giấy phép chuyển giao công nghệ:
+
+a) Chuyển giao công nghệ từ nước ngoài vào Việt Nam;
+
+b) Chuyển giao công nghệ từ Việt Nam ra nước ngoài;
+
+c) Chuyển giao công nghệ trong nước có sử dụng vốn nhà nước hoặc ngân sách nhà nước, trừ trường hợp đã được cấp Giấy chứng nhận đăng ký kết quả thực hiện nhiệm vụ khoa học và công nghệ.
+
+2. Nhà nước khuyến khích tổ chức, cá nhân đăng ký hợp đồng chuyển giao công nghệ không thuộc trường hợp phải đăng ký quy định tại khoản 1 Điều này.
+
+3. Hồ sơ đăng ký chuyển giao công nghệ bao gồm:
+
+a) Văn bản đề nghị đăng ký chuyển giao công nghệ, trong đó ghi rõ cam kết trách nhiệm của các bên bảo đảm nội dung hợp đồng tuân thủ các quy định của pháp luật có liên quan;
+
+b) Bản gốc hoặc bản sao có chứng thực văn bản giao kết chuyển giao công nghệ thể hiện nội dung theo quy định tại Điều 23 của Luật này; trường hợp không có văn bản giao kết bằng tiếng Việt thì phải có bản dịch sang tiếng Việt và được công chứng hoặc chứng thực.
+
+4. Trong thời hạn 90 ngày kể từ ngày ký văn bản giao kết chuyển giao công nghệ, bên có nghĩa vụ thực hiện việc đăng ký chuyển giao công nghệ gửi 01 bộ hồ sơ đến cơ quan thực hiện chức năng quản lý nhà nước về khoa học và công nghệ đề nghị cấp Giấy chứng nhận đăng ký chuyển giao công nghệ.
+
+5. Trong thời hạn 05 ngày làm việc kể từ ngày nhận được hồ sơ đầy đủ, cơ quan thực hiện chức năng quản lý nhà nước về khoa học và công nghệ có thẩm quyền xem xét, cấp Giấy chứng nhận đăng ký chuyển giao công nghệ; trường hợp từ chối phải trả lời bằng văn bản và nêu rõ lý do.
+
+6. Cơ quan thực hiện chức năng quản lý nhà nước về khoa học và công nghệ từ chối cấp Giấy chứng nhận đăng ký chuyển giao công nghệ trong trường hợp sau đây:
+
+a) Hợp đồng chuyển giao công nghệ hạn chế chuyển giao;
+
+b) Hợp đồng không có đối tượng công nghệ, nội dung chuyển giao công nghệ;
+
+c) Nội dung hợp đồng trái với quy định của Luật này.
+
+7. Chính phủ quy định chi tiết Điều này.
+
+Điều 32. Hiệu lực Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ
+
+1. Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ có hiệu lực kể từ ngày cấp.
+
+2. Cơ quan cấp Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ có thẩm quyền hủy bỏ hiệu lực Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ trong trường hợp sau đây:
+
+a) Vi phạm nội dung trong Giấy phép chuyển giao công nghệ hoặc Giấy chứng nhận đăng ký chuyển giao công nghệ;
+
+b) Giả mạo hồ sơ đề nghị cấp Giấy phép chuyển giao công nghệ hoặc đăng ký chuyển giao công nghệ;
+
+c) Theo đề nghị của cơ quan nhà nước có thẩm quyền trong trường hợp vi phạm pháp luật có liên quan.
+
+3. Trường hợp tổ chức, cá nhân đã được cấp Giấy chứng nhận đăng ký chuyển giao công nghệ và được hưởng hỗ trợ, ưu đãi theo quy định của pháp luật mà Giấy chứng nhận đăng ký chuyển giao công nghệ bị hủy bỏ hiệu lực thì phải hoàn trả Nhà nước các khoản hỗ trợ, ưu đãi đã được nhận theo quy định của Chính phủ.
+
+Điều 33. Gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ
+
+1. Các bên có thỏa thuận gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ đã được cấp Giấy chứng nhận đăng ký thì phải gửi hồ sơ quy định tại khoản 2 Điều này đến cơ quan đã cấp Giấy chứng nhận đăng ký chuyển giao công nghệ để được cấp Giấy chứng nhận đăng ký gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ.
+
+2. Hồ sơ đăng ký gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ bao gồm:
+
+a) Văn bản đề nghị đăng ký gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ;
+
+b) Bản gốc bằng tiếng Việt hoặc bản sao có chứng thực văn bản gia hạn, sửa đổi, bổ sung; trường hợp không có văn bản bằng tiếng Việt thì phải có bản dịch sang tiếng Việt và được công chứng hoặc chứng thực.
+
+3. Trình tự, thủ tục gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ được thực hiện theo quy định tại các khoản 4, 5 và 6 Điều 31 của Luật này.
+
+4. Bộ trưởng Bộ Khoa học và Công nghệ ban hành mẫu văn bản đề nghị gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ, mẫu Giấy chứng nhận đăng ký gia hạn, sửa đổi, bổ sung nội dung chuyển giao công nghệ.
+
+Điều 34. Nghĩa vụ bảo mật trong việc cấp Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ
+
+Cơ quan, cá nhân có trách nhiệm trong việc cấp Giấy phép chuyển giao công nghệ, Giấy chứng nhận đăng ký chuyển giao công nghệ có trách nhiệm giữ bí mật thông tin hồ sơ.
+
+Chương IV
+
+BIỆN PHÁP KHUYẾN KHÍCH CHUYỂN GIAO CÔNG NGHỆ, PHÁT TRIỂN THỊ TRƯỜNG KHOA HỌC VÀ CÔNG NGHỆ
+
+Mục 1. THÚC ĐẨY ỨNG DỤNG, ĐỔI MỚI CÔNG NGHỆ
+
+Điều 35. Hỗ trợ, khuyến khích doanh nghiệp ứng dụng, đổi mới công nghệ
+
+1. Nhà nước hỗ trợ doanh nghiệp có dự án thuộc địa bàn, lĩnh vực ưu đãi đầu tư thực hiện hoạt động chuyển giao công nghệ với tổ chức khoa học và công nghệ.
+
+2. Doanh nghiệp được sử dụng quỹ phát triển khoa học và công nghệ của doanh nghiệp để đầu tư, đối ứng vốn, nhận vốn đối ứng đầu tư cho đổi mới công nghệ, ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ, khởi nghiệp sáng tạo, thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ của mình và thực hiện nội dung chi khác theo quy định của pháp luật về khoa học và công nghệ.
+
+3. Quyền sở hữu, quyền sử dụng, quyền khác phát sinh từ kết quả nghiên cứu khoa học và phát triển công nghệ, đối tượng sở hữu trí tuệ có thể xác định được giá trị là quyền tài sản.
+
+Quỹ phát triển khoa học và công nghệ, Quỹ Đổi mới công nghệ quốc gia, tổ chức tín dụng được nhận quyền tài sản quy định tại khoản này để bảo đảm cho giao dịch vay vốn đầu tư cho các dự án khoa học và công nghệ, khởi nghiệp sáng tạo, phát triển sản xuất, kinh doanh từ kết quả nghiên cứu khoa học và phát triển công nghệ.
+
+4. Nhà nước khuyến khích các hình thức hợp tác giữa doanh nghiệp với cơ quan, tổ chức, cá nhân để triển khai các dự án đầu tư đổi mới công nghệ, khởi nghiệp sáng tạo, phát triển kết cấu hạ tầng phục vụ phát triển khoa học và công nghệ, hoạt động nghiên cứu chung.
+
+5. Doanh nghiệp đầu tư cho cơ sở vật chất - kỹ thuật hoạt động giải mã công nghệ, tổ chức, cá nhân thực hiện việc giải mã công nghệ được hưởng các ưu đãi sau đây:
+
+a) Hỗ trợ vốn, bảo lãnh vay vốn, hỗ trợ lãi suất vay vốn từ Quỹ Đổi mới công nghệ quốc gia, tổ chức tín dụng;
+
+b) Các hỗ trợ, ưu đãi khác theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+
+6. Tổ chức chính trị - xã hội, tổ chức xã hội, tổ chức xã hội - nghề nghiệp theo chức năng nhiệm vụ của mình tạo điều kiện thuận lợi cho việc chuyển giao công nghệ cho tổ chức, cá nhân, doanh nghiệp.
+
+7. Chính phủ quy định chi tiết Điều này.
+
+Điều 36. Thúc đẩy thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ
+
+1. Kết quả nghiên cứu khoa học và phát triển công nghệ thuộc tài sản công được quản lý, sử dụng theo quy định của pháp luật về quản lý, sử dụng tài sản công.
+
+2. Kết quả nghiên cứu khoa học và phát triển công nghệ được Nhà nước hỗ trợ kinh phí thì việc giao quyền sở hữu được thực hiện như sau:
+
+a) Trường hợp Nhà nước hỗ trợ kinh phí thực hiện nhiệm vụ nghiên cứu khoa học và phát triển công nghệ cho tổ chức đầu tư cơ sở vật chất - kỹ thuật, tài chính, đồng thời là tổ chức chủ trì thực hiện nhiệm vụ nghiên cứu khoa học và phát triển công nghệ thì Nhà nước giao quyền sở hữu kết quả nghiên cứu khoa học và phát triển công nghệ cho tổ chức đó;
+
+b) Trường hợp Nhà nước hỗ trợ kinh phí thực hiện nhiệm vụ nghiên cứu khoa học và phát triển công nghệ trên cơ sở hợp tác giữa tổ chức đầu tư cơ sở vật chất - kỹ thuật, tài chính và tổ chức chủ trì thực hiện nhiệm vụ thì Nhà nước giao quyền sở hữu kết quả nghiên cứu khoa học và phát triển công nghệ theo thỏa thuận giữa các bên.
+
+3. Việc phân chia lợi nhuận thu được từ thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ được tạo ra bằng ngân sách nhà nước phải bảo đảm lợi ích của chủ sở hữu, tác giả, tổ chức chủ trì, tổ chức trung gian, tổ chức, cá nhân tham gia thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ theo quy định của pháp luật có liên quan.
+
+4. Tổ chức, cá nhân tự đầu tư nghiên cứu khoa học và phát triển công nghệ sau khi có kết quả được chuyển giao, ứng dụng hiệu quả trong thực tiễn, được cơ quan quản lý nhà nước về khoa học và công nghệ công nhận thì được hỗ trợ kinh phí từ ngân sách nhà nước; trường hợp kết quả có ý nghĩa quan trọng đối với sự phát triển kinh tế - xã hội và quốc phòng, an ninh thì Nhà nước sẽ xem xét mua kết quả đó.
+
+Cơ quan quản lý nhà nước về khoa học và công nghệ có trách nhiệm tổ chức thu thập, đánh giá, lựa chọn, công nhận, công bố kết quả nghiên cứu khoa học và phát triển công nghệ phục vụ nhu cầu đổi mới sáng tạo của tổ chức, cá nhân trong các ngành, nghề, lĩnh vực theo phân cấp quản lý.
+
+5. Tổ chức khoa học và công nghệ sở hữu kết quả nghiên cứu khoa học và phát triển công nghệ có hoạt động liên kết với tổ chức ứng dụng, chuyển giao công nghệ địa phương được hỗ trợ từ ngân sách nhà nước dành cho khoa học và công nghệ để hoàn thiện kết quả nghiên cứu khoa học và phát triển công nghệ phù hợp đặc thù của địa phương.
+
+6. Cá nhân thuộc các cơ sở nghiên cứu, cơ sở giáo dục đại học thực hiện hoạt động nghiên cứu chuyển giao, ứng dụng, đổi mới công nghệ tại các cơ sở sản xuất, kinh doanh được hỗ trợ từ ngân sách nhà nước dành cho khoa học và công nghệ, từ nguồn hợp pháp khác.
+
+7. Việc quản lý và sử dụng tài sản trang bị để thực hiện nhiệm vụ khoa học và công nghệ sau khi kết thúc nhiệm vụ được xử lý theo quy định của pháp luật về quản lý tài sản công.
+
+8. Nhà nước tạo điều kiện thuận lợi trong việc xác lập quyền sở hữu công nghiệp, công nhận, đăng ký lưu hành sản phẩm mới, công nghệ mới cho tổ chức, cá nhân thực hiện thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ, chuyển giao công nghệ.
+
+9. Chính phủ quy định chi tiết Điều này.
+
+Điều 37. Chương trình Đổi mới công nghệ quốc gia
+
+1. Chương trình Đổi mới công nghệ quốc gia nhằm thực hiện mục tiêu sau đây:
+
+a) Nâng cao năng lực công nghệ quốc gia, hiệu quả hoạt động chuyển giao công nghệ;
+
+b) Phục vụ phát triển sản phẩm quốc gia, trọng điểm, chủ lực;
+
+c) Tạo điều kiện thuận lợi cho doanh nghiệp nhỏ và vừa ứng dụng công nghệ, thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ, đổi mới công nghệ;
+
+d) Tăng cường nguồn lực công nghệ tại vùng nông thôn, miền núi, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn.
+
+2. Căn cứ vào nhiệm vụ phát triển kinh tế - xã hội của đất nước trong từng thời kỳ, Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ có liên quan xây dựng, trình Thủ tướng Chính phủ phê duyệt Chương trình Đổi mới công nghệ quốc gia.
+
+Điều 38. Quỹ Đổi mới công nghệ quốc gia
+
+1. Quỹ Đổi mới công nghệ quốc gia được thành lập nhằm thực hiện mục đích sau đây:
+
+a) Hỗ trợ doanh nghiệp chuyển giao, đổi mới, hoàn thiện công nghệ được khuyến khích chuyển giao quy định tại Điều 9 của Luật này;
+
+b) Thúc đẩy việc chuyển giao công nghệ phục vụ phát triển nông nghiệp ở vùng nông thôn, miền núi, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn;
+
+c) Hỗ trợ ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ, giải mã công nghệ;
+
+d) Hỗ trợ đào tạo nhân lực khoa học và công nghệ phục vụ việc chuyển giao, đổi mới, hoàn thiện công nghệ.
+
+2. Quỹ Đổi mới công nghệ quốc gia hỗ trợ thông qua các hình thức sau đây:
+
+a) Cho vay ưu đãi;
+
+b) Hỗ trợ lãi suất vay;
+
+c) Bảo lãnh để vay vốn;
+
+d) Hỗ trợ vốn.
+
+3. Quỹ Đổi mới công nghệ quốc gia được hình thành từ các nguồn sau đây:
+
+a) Đóng góp tự nguyện của tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài;
+
+b) Lãi của vốn vay;
+
+c) Hỗ trợ vốn điều lệ từ ngân sách nhà nước;
+
+d) Các nguồn hợp pháp khác.
+
+4. Thủ tướng Chính phủ quyết định việc thành lập, quản lý, sử dụng Quỹ Đổi mới công nghệ quốc gia.
+
+Điều 39. Chính sách thuế để thúc đẩy hoạt động chuyển giao, ứng dụng, đổi mới công nghệ
+
+Những đối tượng sau đây được hưởng ưu đãi theo quy định của pháp luật về thuế:
+
+1. Máy móc, thiết bị, phụ tùng, vật tư, vật mẫu, công nghệ trong nước chưa tạo ra được nhập khẩu để sử dụng trực tiếp vào hoạt động nghiên cứu và phát triển, giải mã, đổi mới công nghệ, chuyển giao công nghệ; tài liệu, sách báo khoa học phục vụ hoạt động khởi nghiệp sáng tạo, phát triển doanh nghiệp khoa học và công nghệ;
+
+2. Cơ sở ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ, tổ chức, cá nhân đầu tư và hỗ trợ khởi nghiệp sáng tạo; tổ chức trung gian của thị trường khoa học và công nghệ có thu nhập từ hoạt động cung ứng dịch vụ chuyển giao công nghệ;
+
+3. Tổ chức, cá nhân chuyển giao công nghệ từ Việt Nam ra nước ngoài; tổ chức, cá nhân thực hiện hoạt động nghiên cứu khoa học và phát triển công nghệ, chuyển giao công nghệ, giải mã công nghệ tại doanh nghiệp;
+
+4. Tổ chức, cá nhân chuyển giao công nghệ khuyến khích chuyển giao.
+
+Điều 40. Phát triển công nghệ tạo ra và hoàn thiện các sản phẩm quốc gia, trọng điểm, chủ lực
+
+1. Ưu tiên chuyển giao công nghệ để tạo ra các sản phẩm quốc gia, trọng điểm, chủ lực từ kết quả nghiên cứu khoa học và phát triển công nghệ trong nước.
+
+2. Khuyến khích phát triển các công nghệ tạo ra và hoàn thiện sản phẩm quốc gia, trọng điểm, chủ lực có khả năng cạnh tranh trên thị trường trong nước và ngoài nước.
+
+3. Nhà nước có chính sách và biện pháp đẩy mạnh việc hoàn thiện thiết kế, chế tạo máy móc, thiết bị do Việt Nam tạo ra đủ sức cạnh tranh trên thị trường.
+
+4. Doanh nghiệp, tổ chức chuyển giao, ứng dụng và hoàn thiện công nghệ tạo ra sản phẩm quốc gia, trọng điểm, chủ lực được hưởng ưu đãi theo quy định của pháp luật.
+
+5. Chính phủ quy định chi tiết Điều này.
+
+Mục 2. PHÁT TRIỂN THỊ TRƯỜNG KHOA HỌC VÀ CÔNG NGHỆ
+
+Điều 41. Biện pháp phát triển thị trường khoa học và công nghệ
+
+1. Nhà nước có chính sách và biện pháp hỗ trợ, đầu tư từ ngân sách nhà nước dành cho khoa học và công nghệ và huy động các nguồn vốn hợp pháp khác để phát triển thị trường khoa học và công nghệ thông qua các hoạt động phát triển nguồn cung, nguồn cầu công nghệ và tổ chức trung gian của thị trường khoa học và công nghệ quy định tại Điều 42 và Điều 43 của Luật này.
+
+2. Căn cứ vào nhiệm vụ phát triển kinh tế - xã hội của đất nước trong từng thời kỳ, Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ, cơ quan ngang Bộ có liên quan xây dựng, trình Thủ tướng Chính phủ phê duyệt chương trình để phát triển thị trường khoa học và công nghệ quốc gia.
+
+Điều 42. Phát triển nguồn cung, nguồn cầu của thị trường khoa học và công nghệ
+
+Phát triển nguồn cung, nguồn cầu của thị trường khoa học và công nghệ thông qua các hoạt động sau đây:
+
+1. Nhập khẩu, giải mã, làm chủ công nghệ cao, công nghệ tiên tiến, công nghệ sạch phục vụ mục tiêu chiến lược, quy hoạch, kế hoạch phát triển kinh tế - xã hội của quốc gia, ngành, vùng, địa phương;
+
+2. Mua, nghiên cứu hoàn thiện sáng chế, sáng kiến đã được áp dụng hiệu quả ở quy mô nhỏ để chuyển giao cho doanh nghiệp áp dụng, phổ biến cho công chúng;
+
+3. Thúc đẩy việc khai thác, sử dụng kết quả nghiên cứu khoa học và phát triển công nghệ, ý tưởng công nghệ phục vụ doanh nghiệp khoa học và công nghệ, doanh nghiệp công nghệ cao, cá nhân, nhóm cá nhân khởi nghiệp sáng tạo, tổ chức hỗ trợ đổi mới sáng tạo, hỗ trợ khởi nghiệp sáng tạo, cơ sở ươm tạo công nghệ, ươm tạo doanh nghiệp khoa học và công nghệ, ươm tạo doanh nghiệp công nghệ cao;
+
+4. Đánh giá, thẩm định công nghệ mới, sản phẩm mới tạo ra tại Việt Nam từ kết quả nghiên cứu khoa học và phát triển công nghệ có giá, chất lượng tương đương với công nghệ, sản phẩm nhập khẩu để khuyến khích sử dụng trong dự án đầu tư có sử dụng ngân sách nhà nước, ưu tiên trong đấu thầu mua sắm, cung cấp sản phẩm, dịch vụ công;
+
+5. Đào tạo, bồi dưỡng nâng cao năng lực hấp thụ, làm chủ công nghệ của doanh nghiệp; thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ; liên kết, hợp tác trao đổi nhân lực khoa học và công nghệ giữa cơ sở nghiên cứu, cơ sở đào tạo với cơ sở sản xuất, kinh doanh;
+
+6. Khai thác, cung cấp thông tin công nghệ cho doanh nghiệp, tổ chức hiệp hội của doanh nghiệp, tổ chức hiệp hội ngành nghề, hợp tác xã, tổ chức dịch vụ sở hữu trí tuệ, xúc tiến đầu tư, xúc tiến thương mại;
+
+7. Chính phủ quy định chi tiết Điều này.
+
+Điều 43. Phát triển tổ chức trung gian của thị trường khoa học và công nghệ
+
+1. Tổ chức trung gian của thị trường khoa học và công nghệ là tổ chức cung cấp dịch vụ môi giới, tư vấn, xúc tiến chuyển giao công nghệ, đánh giá, thẩm định giá, giám định công nghệ, dịch vụ kết nối, hỗ trợ bên cung, bên cầu và các bên khác trong giao dịch liên quan đến công nghệ.
+
+2. Nhà nước thực hiện biện pháp sau đây để phát triển tổ chức trung gian của thị trường khoa học và công nghệ:
+
+a) Xây dựng hạ tầng kỹ thuật và hỗ trợ hoạt động của sàn giao dịch công nghệ quốc gia, trung tâm hỗ trợ khởi nghiệp công nghệ quốc gia trong giai đoạn 05 năm đầu hoạt động;
+
+b) Hỗ trợ đào tạo nguồn nhân lực cho tổ chức trung gian;
+
+c) Hỗ trợ, nâng cao năng lực khai thác thông tin về công nghệ, sở hữu trí tuệ, kết quả nghiên cứu khoa học và phát triển công nghệ trong nước và ngoài nước cho tổ chức, cá nhân thực hiện dịch vụ tư vấn, môi giới, xúc tiến chuyển giao công nghệ, đánh giá, thẩm định giá và giám định công nghệ.
+
+3. Khuyến khích tổ chức, cá nhân thực hiện hoạt động môi giới, tư vấn và xúc tiến chuyển giao công nghệ trong các cơ sở nghiên cứu, cơ sở đào tạo; hình thành mạng lưới liên kết hoạt động tư vấn, chuyển giao công nghệ trong và ngoài nước.
+
+4. Chính phủ quy định chi tiết Điều này.
+
+Điều 44. Công bố, trình diễn, giới thiệu công nghệ
+
+1. Chợ công nghệ, hội chợ công nghệ, triển lãm công nghệ, điểm kết nối cung cầu công nghệ, sàn giao dịch công nghệ, trung tâm giao dịch công nghệ là nơi trưng bày, giới thiệu, mua, bán công nghệ, xúc tiến chuyển giao công nghệ.
+
+2. Trong việc công bố, trình diễn, giới thiệu công nghệ, cơ quan quản lý nhà nước về khoa học và công nghệ có thẩm quyền có trách nhiệm sau đây:
+
+a) Hằng năm, công bố danh mục công nghệ được tạo ra bằng ngân sách nhà nước trên Cổng thông tin điện tử của cơ quan quản lý nhà nước về khoa học và công nghệ, trừ trường hợp pháp luật có quy định khác;
+
+b) Khuyến khích, hỗ trợ doanh nghiệp, tổ chức, cá nhân công bố công nghệ mới do mình tạo ra.
+
+3. Nhà nước có biện pháp hỗ trợ doanh nghiệp, tổ chức, cá nhân có công nghệ mới được tạo ra trong nước công bố, trình diễn, giới thiệu công nghệ, tham gia chợ, hội chợ công nghệ trong nước, ngoài nước.
+
+Mục 3. DỊCH VỤ CHUYỂN GIAO CÔNG NGHỆ
+
+Điều 45. Các loại hình dịch vụ chuyển giao công nghệ
+
+1. Môi giới chuyển giao công nghệ.
+
+2. Tư vấn chuyển giao công nghệ.
+
+3. Đánh giá công nghệ.
+
+4. Thẩm định giá công nghệ.
+
+5. Giám định công nghệ.
+
+6. Xúc tiến chuyển giao công nghệ.
+
+Điều 46. Quyền của tổ chức, cá nhân kinh doanh dịch vụ chuyển giao công nghệ
+
+1. Tổ chức, cá nhân kinh doanh dịch vụ chuyển giao công nghệ có các quyền sau đây:
+
+a) Yêu cầu người sử dụng dịch vụ cung cấp thông tin, tài liệu cần thiết cho việc cung ứng dịch vụ chuyển giao công nghệ;
+
+b) Hưởng thu nhập từ kinh doanh dịch vụ và lợi ích khác từ việc cung ứng dịch vụ chuyển giao công nghệ theo thỏa thuận;
+
+c) Sử dụng cộng tác viên, chuyên gia phục vụ hoạt động dịch vụ chuyển giao công nghệ;
+
+d) Hưởng quyền sử dụng cơ sở dữ liệu về công nghệ theo quy định của pháp luật;
+
+đ) Yêu cầu người sử dụng dịch vụ bồi thường thiệt hại do lỗi của người sử dụng dịch vụ gây ra;
+
+e) Hợp tác, liên doanh với tổ chức, cá nhân để tiến hành hoạt động dịch vụ chuyển giao công nghệ;
+
+g) Tham gia hội nghề nghiệp trong nước, quốc tế theo quy định của pháp luật;
+
+h) Các quyền khác theo quy định của Luật này và pháp luật có liên quan.
+
+2. Tổ chức, cá nhân thực hiện hoạt động môi giới, tư vấn, xúc tiến chuyển giao công nghệ có các quyền quy định tại khoản 1 Điều này và được hưởng lợi nhuận từ việc sử dụng, chuyển giao quyền sử dụng, chuyển nhượng, góp vốn bằng kết quả nghiên cứu khoa học và phát triển công nghệ sử dụng ngân sách nhà nước.
+
+Điều 47. Nghĩa vụ của tổ chức, cá nhân kinh doanh dịch vụ chuyển giao công nghệ
+
+1. Tổ chức, cá nhân kinh doanh dịch vụ chuyển giao công nghệ có nghĩa vụ sau đây:
+
+a) Thực hiện hợp đồng dịch vụ chuyển giao công nghệ đã giao kết;
+
+b) Chịu trách nhiệm về kết quả thực hiện dịch vụ chuyển giao công nghệ của mình;
+
+c) Bồi thường thiệt hại do lỗi của mình gây ra cho bên sử dụng dịch vụ chuyển giao công nghệ;
+
+d) Bảo quản, giao lại cho bên sử dụng dịch vụ tài liệu, phương tiện được giao sau khi hoàn thành dịch vụ theo thỏa thuận;
+
+đ) Thông báo kịp thời cho bên sử dụng dịch vụ về thông tin, tài liệu không đủ để hoàn thành dịch vụ;
+
+e) Giữ bí mật thông tin theo thỏa thuận trong hợp đồng dịch vụ chuyển giao công nghệ;
+
+g) Thực hiện nghĩa vụ về tài chính, nghĩa vụ khác theo quy định của pháp luật.
+
+2. Tổ chức đánh giá, thẩm định giá, giám định công nghệ, ngoài nghĩa vụ quy định tại khoản 1 Điều này còn có nghĩa vụ sau đây:
+
+a) Đăng ký đáp ứng điều kiện hoạt động dịch vụ đánh giá, thẩm định giá, giám định công nghệ theo quy định của pháp luật;
+
+b) Hằng năm, gửi báo cáo kết quả hoạt động đánh giá, thẩm định giá, giám định công nghệ tới cơ quan quản lý nhà nước về khoa học và công nghệ.
+
+Điều 48. Tổ chức thực hiện hoạt động đánh giá, thẩm định giá, giám định công nghệ
+
+1. Tổ chức thực hiện hoạt động đánh giá, thẩm định giá, giám định công nghệ là tổ chức khoa học và công nghệ hoặc doanh nghiệp hoạt động trong lĩnh vực đánh giá, thẩm định giá, giám định công nghệ.
+
+2. Tổ chức thực hiện hoạt động thẩm định giá công nghệ phải đáp ứng điều kiện được quy định tại pháp luật về giá và quy định điều kiện đặc thù về nhân lực, cơ sở vật chất - kỹ thuật.
+
+3. Chính phủ quy định cụ thể thẩm quyền, trình tự, thủ tục, điều kiện cấp Giấy chứng nhận đủ điều kiện hoạt động dịch vụ đánh giá, giám định công nghệ; điều kiện đặc thù về nhân lực, cơ sở vật chất - kỹ thuật đối với tổ chức thực hiện hoạt động thẩm định giá công nghệ.
+
+Mục 4. CHUYỂN GIAO CÔNG NGHỆ CHO VÙNG NÔNG THÔN, MIỀN NÚI, HẢI ĐẢO, ĐỊA BÀN CÓ ĐIỀU KIỆN KINH TẾ - XÃ HỘI KHÓ KHĂN, ĐẶC BIỆT KHÓ KHĂN
+
+Điều 49. Công nghệ khuyến khích chuyển giao cho vùng nông thôn, miền núi, hải đảo, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn
+
+Công nghệ quy định tại Điều 9 của Luật này và công nghệ sau đây được khuyến khích chuyển giao cho vùng nông thôn, miền núi, hải đảo, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn:
+
+1. Công nghệ trong lĩnh vực bảo tồn và phát triển nguồn gen; chọn tạo, nâng cao giá trị kinh tế của giống cây trồng, giống vật nuôi;
+
+2. Công nghệ nuôi trồng, bảo quản, chế biến sản phẩm nông nghiệp, lâm nghiệp, diêm nghiệp, cây dược liệu, nấm, vi sinh vật nông nghiệp, thủy sản;
+
+3. Công nghệ phòng, chống dịch bệnh cho giống cây trồng, giống vật nuôi, cây dược liệu;
+
+4. Công nghệ tạo ra, khai thác và sử dụng tiết kiệm nguồn nước sạch; công nghệ xử lý nước trong nuôi trồng thủy sản;
+
+5. Công nghệ nâng cao năng suất, chất lượng, hiệu quả sản phẩm truyền thống của làng nghề, địa phương.
+
+Điều 50. Trách nhiệm của tổ chức, cá nhân trong hoạt động chuyển giao công nghệ cho vùng nông thôn, miền núi, hải đảo, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn
+
+1. Chương trình, dự án phổ biến giống cây trồng, giống vật nuôi hoặc công nghệ nuôi trồng, bảo quản, chế biến sản phẩm nông nghiệp, lâm nghiệp, thủy sản, diêm nghiệp phải có nội dung chuyển giao công nghệ.
+
+2. Tổ chức, cá nhân khi phổ biến, chuyển giao công nghệ nuôi trồng, bảo quản, chế biến sản phẩm nông nghiệp, lâm nghiệp, thủy sản, diêm nghiệp phải báo cáo cơ quan quản lý nhà nước về khoa học và công nghệ tại địa phương nơi thực hiện chuyển giao công nghệ.
+
+3. Tổ chức, cá nhân cung cấp giống cây trồng, giống vật nuôi, chuyển giao công nghệ nuôi trồng, bảo quản, chế biến sản phẩm nông nghiệp, lâm nghiệp, thủy sản, diêm nghiệp có trách nhiệm hướng dẫn công nghệ nuôi trồng, bảo quản, chế biến cho người sử dụng và phải bồi thường thiệt hại phát sinh do việc cung cấp giống cây trồng, giống vật nuôi, chuyển giao công nghệ gây ra.
+
+4. Trách nhiệm khác theo quy định của pháp luật.
+
+Điều 51. Trách nhiệm của cơ quan quản lý nhà nước trong hoạt động chuyển giao công nghệ cho vùng nông thôn, miền núi, hải đảo, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn
+
+1. Cơ quan quản lý nhà nước về khoa học và công nghệ ở địa phương có trách nhiệm hướng dẫn, tạo điều kiện thuận lợi cho hoạt động phổ biến, chuyển giao giống cây trồng, giống vật nuôi hoặc công nghệ nuôi trồng, bảo quản, chế biến sản phẩm nông nghiệp, lâm nghiệp, thủy sản, diêm nghiệp; thúc đẩy hoạt động chuyển giao công nghệ tại địa phương; kiểm tra, phát hiện, ngăn chặn kịp thời việc phổ biến, cung cấp giống cây trồng, giống vật nuôi, công nghệ gây thiệt hại cho người sử dụng.
+
+2. Hằng năm, Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ có liên quan đánh giá hoạt động chuyển giao công nghệ ở vùng nông thôn, miền núi, hải đảo, địa bàn có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn.
+
+Điều 52. Chuyển giao công nghệ trong nông nghiệp
+
+1. Khuyến khích chuyển giao tiến bộ kỹ thuật về giống, sản phẩm, quy trình sản xuất, giải pháp kỹ thuật, giải pháp quản lý trong nông nghiệp.
+
+2. Chuyển giao công nghệ trong nông nghiệp được thực hiện theo hình thức quy định tại Luật này hoặc theo hình thức đặc thù bao gồm chương trình, kế hoạch khuyến nông; chương trình, kế hoạch chuyển giao công nghệ khác được cơ quan nhà nước có thẩm quyền phê duyệt.
+
+3. Chuyển giao công nghệ trong nông nghiệp được thực hiện theo phương thức quy định tại Luật này hoặc theo phương thức đặc thù bao gồm đào tạo, tập huấn, bồi dưỡng, mô hình trình diễn, thông tin tuyên truyền.
+
+4. Chính phủ quy định chi tiết hình thức, phương thức đặc thù quy định tại khoản 2 và khoản 3 Điều này; đối tượng nhận chuyển giao, đối tượng thực hiện chuyển giao theo hình thức, phương thức đặc thù theo quy định tại khoản 2 và khoản 3 Điều này; chính sách chuyển giao công nghệ trong nông nghiệp.
+
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành Danh mục tiến bộ kỹ thuật về giống, sản phẩm, quy trình sản xuất, giải pháp kỹ thuật, giải pháp quản lý khuyến khích chuyển giao trong nông nghiệp; tiêu chí, trình tự, thủ tục công nhận tiến bộ kỹ thuật.
+
+Chương V
+
+QUẢN LÝ NHÀ NƯỚC VỀ CHUYỂN GIAO CÔNG NGHỆ
+
+Điều 53. Trách nhiệm của Chính phủ
+
+1. Thống nhất quản lý nhà nước về hoạt động chuyển giao công nghệ.
+
+2. Chỉ đạo, ban hành và tổ chức thực hiện văn bản quy phạm pháp luật, chiến lược, kế hoạch, cơ chế, chính sách, biện pháp thúc đẩy hoạt động chuyển giao công nghệ, đổi mới công nghệ phù hợp với từng giai đoạn phát triển kinh tế - xã hội của đất nước.
+
+3. Phân công, phân cấp thực hiện chức năng quản lý nhà nước về hoạt động chuyển giao công nghệ.
+
+4. Ban hành Danh mục công nghệ khuyến khích chuyển giao, Danh mục công nghệ hạn chế chuyển giao và Danh mục công nghệ cấm chuyển giao.
+
+Điều 54. Trách nhiệm của Bộ Khoa học và Công nghệ
+
+1. Là cơ quan đầu mối giúp Chính phủ thống nhất quản lý nhà nước về chuyển giao công nghệ.
+
+2. Chủ trì xây dựng chương trình, đề án, chính sách về nhập khẩu công nghệ, phát triển thị trường khoa học và công nghệ, thúc đẩy hoạt động chuyển giao, ứng dụng, đổi mới công nghệ trình Thủ tướng Chính phủ quyết định.
+
+3. Xây dựng Danh mục công nghệ khuyến khích chuyển giao, Danh mục công nghệ hạn chế chuyển giao, Danh mục công nghệ cấm chuyển giao trình Chính phủ ban hành.
+
+4. Cấp, thu hồi Giấy phép chuyển giao công nghệ đối với công nghệ thuộc Danh mục công nghệ hạn chế chuyển giao.
+
+5. Thẩm định, có ý kiến, kiểm tra, giám sát về công nghệ của dự án đầu tư theo thẩm quyền.
+
+6. Hướng dẫn việc đánh giá trình độ công nghệ, năng lực công nghệ trong các ngành, lĩnh vực theo nhu cầu phát triển kinh tế - xã hội và hội nhập kinh tế quốc tế của từng thời kỳ.
+
+7. Tổ chức đánh giá, lựa chọn, công bố công nghệ tạo ra từ kết quả nghiên cứu khoa học và phát triển công nghệ.
+
+8. Tổ chức đào tạo, tập huấn, nâng cao trình độ, nghiệp vụ trong hoạt động chuyển giao, thương mại hóa kết quả nghiên cứu khoa học và phát triển công nghệ, ứng dụng và đổi mới công nghệ.
+
+9. Tổ chức thực hiện công tác thống kê về chuyển giao công nghệ, ứng dụng và đổi mới công nghệ theo quy định của pháp luật, xây dựng cơ sở dữ liệu về công nghệ.
+
+10. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về chuyển giao công nghệ.
+
+11. Hợp tác quốc tế về hoạt động chuyển giao công nghệ theo thẩm quyền.
+
+12. Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật về chuyển giao công nghệ.
+
+13. Lập báo cáo Chính phủ về hoạt động chuyển giao công nghệ và định kỳ 05 năm lập báo cáo về đổi mới công nghệ trên cả nước.
+
+14. Thực hiện nhiệm vụ khác theo quy định của pháp luật.
+
+Điều 55. Trách nhiệm của các Bộ, cơ quan ngang Bộ
+
+1. Bộ, cơ quan ngang Bộ trong lĩnh vực quản lý theo thẩm quyền có trách nhiệm phối hợp với Bộ Khoa học và Công nghệ trong việc thực hiện quản lý nhà nước về hoạt động chuyển giao công nghệ như sau:
+
+a) Đề xuất công nghệ để xây dựng Danh mục công nghệ khuyến khích chuyển giao, Danh mục công nghệ hạn chế chuyển giao, Danh mục công nghệ cấm chuyển giao;
+
+b) Xây dựng kế hoạch, đề án, chương trình, biện pháp, cơ chế, chính sách thúc đẩy hoạt động chuyển giao, ứng dụng, đổi mới công nghệ;
+
+c) Kiểm tra, giám sát công nghệ, chất lượng sản phẩm, hàng hóa, dịch vụ tạo ra từ việc chuyển giao, ứng dụng, đổi mới công nghệ.
+
+2. Tổ chức đánh giá, lựa chọn, công bố công nghệ tạo ra từ kết quả nghiên cứu khoa học và phát triển công nghệ và tạo điều kiện thuận lợi cho doanh nghiệp tiếp nhận chuyển giao công nghệ đó trong lĩnh vực quản lý theo thẩm quyền.
+
+3. Tạo điều kiện cho hoạt động chuyển giao công nghệ, đặc biệt là công nghệ được khuyến khích chuyển giao và việc chuyển giao công nghệ ở các địa bàn được khuyến khích chuyển giao công nghệ.
+
+4. Tổ chức thẩm định, có ý kiến, kiểm tra, giám sát về công nghệ của dự án đầu tư và chuyển giao công nghệ theo quy định của pháp luật.
+
+5. Hợp tác quốc tế về hoạt động chuyển giao công nghệ theo thẩm quyền.
+
+6. Hằng năm, thống kê về tình hình chuyển giao, ứng dụng, đổi mới công nghệ và gửi Bộ Khoa học và Công nghệ.
+
+Điều 56. Trách nhiệm của Ủy ban nhân dân cấp tỉnh
+
+Trong phạm vi chức năng, quyền hạn của mình, Ủy ban nhân dân cấp tỉnh thực hiện quản lý nhà nước về hoạt động chuyển giao công nghệ có trách nhiệm sau đây:
+
+1. Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành, tổ chức thực hiện văn bản quy phạm pháp luật, cơ chế, chính sách, chiến lược, đề án, chương trình, kế hoạch về chuyển giao, ứng dụng, đổi mới công nghệ tại địa phương;
+
+2. Tổ chức thẩm định, có ý kiến về công nghệ của dự án đầu tư theo quy định của pháp luật;
+
+3. Tạo điều kiện cho tổ chức, cá nhân trong hoạt động chuyển giao, ứng dụng, đổi mới công nghệ tại địa phương;
+
+4. Ngăn chặn kịp thời việc chuyển giao giống cây trồng, giống vật nuôi chưa được công nhận tiến bộ kỹ thuật; vật tư nông nghiệp chưa được phép sản xuất, kinh doanh, sử dụng, lưu hành theo quy định của pháp luật;
+
+5. Tổ chức kiểm tra, đánh giá hoạt động chuyển giao công nghệ tại địa phương; xây dựng và quản lý hệ thống cơ sở dữ liệu, thông tin, thống kê về chuyển giao, ứng dụng, đổi mới công nghệ; báo cáo số liệu thống kê chuyển giao, ứng dụng, đổi mới công nghệ cho cơ quan quản lý nhà nước về khoa học và công nghệ có thẩm quyền;
+
+6. Tuyên truyền, phổ biến, giáo dục và hướng dẫn thực hiện pháp luật về chuyển giao công nghệ;
+
+7. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về chuyển giao công nghệ theo thẩm quyền.
+
+Điều 57. Thống kê chuyển giao, ứng dụng, đổi mới công nghệ
+
+Việc thống kê chuyển giao, ứng dụng, đổi mới công nghệ được thực hiện theo quy định của pháp luật về thống kê và các quy định sau đây:
+
+1. Thống kê chuyển giao, ứng dụng, đổi mới công nghệ là một nội dung trong báo cáo thống kê hàng năm của cơ quan quản lý nhà nước về khoa học và công nghệ.
+
+Hằng năm, Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ, cơ quan ngang Bộ thống kê chuyển giao, ứng dụng, đổi mới công nghệ trong phạm vi cả nước;
+
+2. Bộ Khoa học và Công nghệ phối hợp với cơ quan thống kê trung ương trực thuộc Bộ Kế hoạch và Đầu tư xây dựng hệ thống chỉ tiêu thống kê và tổ chức thu thập thông tin thống kê về chuyển giao, ứng dụng, đổi mới công nghệ của doanh nghiệp; phối hợp với cơ quan quản lý thuế và hải quan ở trung ương trực thuộc Bộ Tài chính thực hiện việc kết nối và chia sẻ dữ liệu thống kê về chuyển giao, ứng dụng, đổi mới công nghệ;
+
+3. Ủy ban nhân dân cấp tỉnh có trách nhiệm thực hiện thống kê chuyển giao, ứng dụng, đổi mới công nghệ thuộc địa bàn quản lý;
+
+4. Tổ chức, cá nhân được yêu cầu cung cấp thông tin về chuyển giao, ứng dụng, đổi mới công nghệ có trách nhiệm cung cấp thông tin trung thực, chính xác, đầy đủ và đúng thời hạn theo yêu cầu của cơ quan thực hiện thống kê;
+
+5. Bộ Khoa học và Công nghệ quy định cụ thể việc triển khai thu thập số liệu thống kê về chuyển giao, ứng dụng, đổi mới công nghệ.
+
+Điều 58. Trách nhiệm của cơ quan đại diện ngoại giao Việt Nam ở nước ngoài đối với hoạt động chuyển giao công nghệ
+
+Cơ quan đại diện ngoại giao Việt Nam ở nước ngoài có trách nhiệm tìm kiếm công nghệ, hỗ trợ, thúc đẩy hoạt động chuyển giao công nghệ, tạo điều kiện thuận lợi cho tổ chức, cá nhân thực hiện hoạt động xúc tiến chuyển giao công nghệ từ nước ngoài vào Việt Nam và từ Việt Nam ra nước ngoài.
+
+Chương VI
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 59. Hiệu lực thi hành
+
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2018.
+
+2. Luật Chuyển giao công nghệ số 80/2006/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+
+Điều 60. Quy định chuyển tiếp
+
+1. Thỏa thuận chuyển giao công nghệ được các bên ký kết trước ngày Luật này có hiệu lực, trường hợp có nhu cầu gia hạn thỏa thuận đó sau ngày Luật này có hiệu lực thì thực hiện thủ tục đăng ký, gia hạn theo quy định của Luật này.
+
+2. Hồ sơ đề nghị đăng ký hợp đồng chuyển giao công nghệ được thụ lý trước ngày Luật này có hiệu lực mà chưa được giải quyết thì áp dụng theo quy định của Luật Chuyển giao công nghệ số 80/2006/QH11.
+
+3. Tổ chức thực hiện dịch vụ đánh giá, thẩm định giá, giám định công nghệ được thành lập và hoạt động trước ngày Luật này có hiệu lực, trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực, phải tiến hành đăng ký đủ điều kiện hoạt động tại cơ quan quản lý nhà nước có thẩm quyền.
+
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 3 thông qua ngày 19 tháng 6 năm 2017.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Thị Kim Ngân

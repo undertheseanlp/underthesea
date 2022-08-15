@@ -1,0 +1,7 @@
+version: 1.0-alpha.1
+year: 2021
+task: corpus
+domain: legal
+description: Vietnamese Law Corpus
+authors:
+  - Vu Anh <anhv.ict91@gmail.com>

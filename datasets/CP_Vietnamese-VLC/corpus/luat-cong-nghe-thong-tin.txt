@@ -1,0 +1,1037 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Luật số: 67/2006/QH11
+
+Hà Nội, ngày 29 tháng 6 năm 2006
+
+
+
+QUỐC HỘI NƯỚC CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Khóa XI, kỳ họp thứ 9
+(Từ ngày 16 tháng 5 đến ngày 29 tháng 6 năm 2006)
+
+LUẬT
+
+CÔNG NGHỆ THÔNG TIN
+
+Căn cứ vào Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung theo Nghị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10;
+
+Luật này quy định về công nghệ thông tin.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về hoạt động ứng dụng và phát triển công nghệ thông tin, các biện pháp bảo đảm ứng dụng và phát triển công nghệ thông tin, quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân (sau đây gọi chung là tổ chức, cá nhân) tham gia hoạt động ứng dụng và phát triển công nghệ thông tin.
+
+Điều 2.Đối tượng áp dụng
+
+Luật này áp dụng đối với tổ chức, cá nhân Việt Nam, tổ chức, cá nhân nước ngoài tham gia hoạt động ứng dụng và phát triển công nghệ thông tin tại Việt Nam.
+
+Điều 3. Áp dụng Luật công nghệ thông tin
+
+1. Trường hợp có sự khác nhau giữa quy định của Luật công nghệ thông tin với quy định của luật khác về cùng một vấn đề liên quan đến hoạt động ứng dụng và phát triển công nghệ thông tin thì áp dụng quy định của Luật công nghệ thông tin.
+
+2. Trường hợp điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác với quy định của Luật này thì áp dụng quy định của điều ước quốc tế đó.
+
+Điều 4. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1.Công nghệ thông tin là tập hợp các phương pháp khoa học, công nghệ và công cụ kỹ thuật hiện đại để sản xuất, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số.
+
+2..Thông tin số là thông tin được tạo lập bằng phương pháp dùng tín hiệu số.
+
+3..Môi trường mạng là môi trường trong đó thông tin được cung cấp, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông qua cơ sở hạ tầng thông tin.
+
+4.. Cơ sở hạ tầng thông tin là hệ thống trang thiết bị phục vụ cho việc sản xuất, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số, bao gồm mạng viễn thông, mạng Internet, mạng máy tính và cơ sở dữ liệu.
+
+5.Ứng dụng công nghệ thông tin là việc sử dụng công nghệ thông tin vào các hoạt động thuộc lĩnh vực kinh tế - xã hội, đối ngoại, quốc phòng, an ninh và các hoạt động khác nhằm nâng cao năng suất, chất lượng, hiệu quả của các hoạt động này.
+
+6. Phát triển công nghệ thông tin là hoạt động nghiên cứu - phát triển liên quan đến quá trình sản xuất, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số; phát triển nguồn nhân lực công nghệ thông tin; phát triển công nghiệp công nghệ thông tin và phát triển dịch vụ công nghệ thông tin.
+
+7. Khoảng cách số là sự chênh lệch về điều kiện, khả năng sử dụng máy tính và cơ sở hạ tầng thông tin để truy nhập các nguồn thông tin, tri thức.
+
+8. Đầu tư mạo hiểm trong lĩnh vực công nghệ thông tin là đầu tư cho doanh nghiệp hoạt động trong lĩnh vực đó có triển vọng đem lại lợi nhuận lớn nhưng có rủi ro cao.
+
+9. Công nghiệp công nghệ thông tin là ngành kinh tế - kỹ thuật công nghệ cao sản xuất và cung cấp sản phẩm công nghệ thông tin, bao gồm sản phẩm phần cứng, phần mềm và nội dung thông tin số.
+
+10.Phần cứng là sản phẩm thiết bị số hoàn chỉnh; cụm linh kiện; linh kiện; bộ phận của thiết bị số, cụm linh kiện, linh kiện.
+
+11. Thiết bị số là thiết bị điện tử, máy tính, viễn thông, truyền dẫn, thu phát sóng vô tuyến điện và thiết bị tích hợp khác được sử dụng để sản xuất, truyền đưa, thu thập, xử lý, lưu trữ và trao đổi thông tin số.
+
+12. Phần mềm là chương trình máy tính đ­ược mô tả bằng hệ thống ký hiệu, mã hoặc ngôn ngữ để điều khiển thiết bị số thực hiện chức năng nhất định.
+
+13. Mã nguồn là sản phẩm trước biên dịch của một phần mềm, chưa có khả năng điều khiển thiết bị số.
+
+14.Mã máy là sản phẩm sau biên dịch của một phần mềm, có khả năng điều khiển thiết bị số.
+
+15. Thư rác là thư điện tử, tin nhắn được gửi đến người nhận mà người nhận đó không mong muốn hoặc không có trách nhiệm phải tiếp nhận theo quy định của pháp luật.
+
+16. Vi rút máy tính là chương trình máy tính có khả năng lây lan, gây ra hoạt động không bình thường cho thiết bị số hoặc sao chép, sửa đổi, xóa bỏ thông tin lưu trữ trong thiết bị số.
+
+17. Trang thông tin điện tử (Website) là trang thông tin hoặc một tập hợp trang thông tin trên môi trường mạng phục vụ cho việc cung cấp, trao đổi thông tin.
+
+18. Số hóa là việc biến đổi các loại hình thông tin sang thông tin số.
+
+Điều 5 Chính sách của Nhà nước về ứng dụng và phát triển công nghệ thông tin
+
+1. Ưu tiên ứng dụng và phát triển công nghệ thông tin trong chiến lược phát triển kinh tế - xã hội và sự nghiệp công nghiệp hóa, hiện đại hóa đất nước.
+
+2. Tạo điều kiện để tổ chức, cá nhân hoạt động ứng dụng và phát triển công nghệ thông tin đáp ứng yêu cầu phát triển kinh tế - xã hội, đối ngoại, quốc phòng, an ninh; thúc đẩy công nghiệp công nghệ thông tin phát triển thành ngành kinh tế trọng điểm, đáp ứng nhu cầu thị trường nội địa và xuất khẩu.
+
+3. Khuyến khích đầu tư cho lĩnh vực công nghệ thông tin.
+
+4. Ưu tiên dành một khoản ngân sách nhà nước để ứng dụng công nghệ thông tin trong một số lĩnh vực thiết yếu, tạo lập nền công nghiệp công nghệ thông tin và phát triển nguồn nhân lực công nghệ thông tin.
+
+5. Tạo điều kiện thuận lợi để phát triển cơ sở hạ tầng thông tin quốc gia.
+
+6. Có chính sách ưu đãi để tổ chức, cá nhân có hoạt động ứng dụng và phát triển công nghệ thông tin đối với nông nghiệp; nông thôn, vùng sâu, vùng xa, biên giới, hải đảo; người dân tộc thiểu số, người tàn tật, người có hoàn cảnh khó khăn.
+
+7. Bảo đảm quyền và lợi ích hợp pháp của tổ chức, cá nhân ứng dụng và phát triển công nghệ thông tin.
+
+8. Tăng cường giao lưu và hợp tác quốc tế; khuyến khích hợp tác với tổ chức, cá nhân Việt Nam ở nước ngoài trong lĩnh vực công nghệ thông tin.
+
+Điều 6. Nội dung quản lý nhà nước về công nghệ thông tin
+
+1. Xây dựng, tổ chức thực hiện chiến lược, quy hoạch, kế hoạch, chính sách ứng dụng và phát triển công nghệ thông tin.
+
+2. Xây dựng, ban hành, tuyên truyền, phổ biến, tổ chức thực hiện văn bản quy phạm pháp luật, tiêu chuẩn quốc gia, quy chuẩn kỹ thuật trong lĩnh vực công nghệ thông tin.
+
+3. Quản lý an toàn, an ninh thông tin trong hoạt động ứng dụng công nghệ thông tin.
+
+4. Tổ chức quản lý và sử dụng tài nguyên thông tin, cơ sở dữ liệu quốc gia.
+
+5. Quản lý và tạo điều kiện thúc đẩy công tác hợp tác quốc tế về công nghệ thông tin.
+
+6.Quản lý, đào tạo, bồi dưỡng và phát triển nguồn nhân lực công nghệ thông tin.
+
+7. Xây dựng cơ chế, chính sách và các quy định liên quan đến sản phẩm, dịch vụ công ích trong lĩnh vực công nghệ thông tin.
+
+8. Xây dựng cơ chế, chính sách và các quy định về việc huy động nguồn lực công nghệ thông tin phục vụ quốc phòng, an ninh và các trường hợp khẩn cấp quy định tại Điều 14 của Luật này.
+
+9.Quản lý thống kê về công nghệ thông tin.
+
+10. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm trong lĩnh vực công nghệ thông tin.
+
+Điều 7. Trách nhiệm quản lý nhà nước về công nghệ thông tin
+
+1. Chính phủ thống nhất quản lý nhà nước về công nghệ thông tin.
+
+2. Bộ Bưu chính, Viễn thông chịu trách nhiệm trước Chính phủ trong việc chủ trì, phối hợp với bộ, cơ quan ngang bộ có liên quan thực hiện quản lý nhà nước về công nghệ thông tin.
+
+3.Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm chủ trì, phối hợp với Bộ Bưu chính, Viễn thông thực hiện quản lý nhà nước về công nghệ thông tin theo phân công của Chính phủ.
+
+4.Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về công nghệ thông tin tại địa phương.
+
+5.Việc tổ chức thực hiện ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước do Chính phủ quy định.
+
+Điều 8. Quyền của tổ chức, cá nhân tham gia hoạt động ứng dụng và phát triển công nghệ thông tin
+
+1. Tổ chức, cá nhân tham gia hoạt động ứng dụng công nghệ thông tin có các quyền sau đây:
+
+a) Tìm kiếm, trao đổi, sử dụng thông tin trên môi trường mạng, trừ thông tin có nội dung quy định tại khoản 2 Điều 12 của Luật này;
+
+b) Yêu cầu khôi phục thông tin của mình hoặc khôi phục khả năng truy nhập đến nguồn thông tin của mình trong trường hợp nội dung thông tin đó không vi phạm quy định tại khoản 2 Điều 12 của Luật này;
+
+c) Yêu cầu cơ quan nhà nước có thẩm quyền giải quyết theo quy định của pháp luật trong trường hợp bị từ chối việc khôi phục thông tin hoặc khôi phục khả năng truy nhập đến nguồn thông tin đó;
+
+d) Phân phát các địa chỉ liên lạc có trên môi trường mạng khi có sự đồng ý của chủ sở hữu địa chỉ liên lạc đó;
+
+đ) Từ chối cung cấp hoặc nhận trên môi trường mạng sản phẩm, dịch vụ trái với quy định của pháp luật và phải chịu trách nhiệm về việc đó.
+
+2. Tổ chức, cá nhân tham gia phát triển công nghệ thông tin có các quyền sau đây:
+
+a) Nghiên cứu và phát triển sản phẩm công nghệ thông tin;
+
+b) Sản xuất sản phẩm công nghệ thông tin; số hóa, duy trì và làm tăng giá trị các nguồn tài nguyên thông tin.
+
+3. Cơ quan nhà nước có quyền từ chối nhận thông tin trên môi trường mạng nếu độ tin cậy và bí mật của thông tin đó được truyền đưa qua môi trường mạng không được bảo đảm.
+
+Điều 9. Trách nhiệm của tổ chức, cá nhân tham gia hoạt động ứng dụng và phát triển công nghệ thông tin
+
+1.Tổ chức, cá nhân tham gia hoạt động ứng dụng công nghệ thông tin phải chịu trách nhiệm về nội dung thông tin số của mình trên môi trường mạng.
+
+2. Tổ chức, cá nhân khi hoạt động kinh doanh trên môi trường mạng phải thông báo công khai trên môi trường mạng những thông tin có liên quan, bao gồm:
+
+a) Tên, địa chỉ địa lý, số điện thoại, địa chỉ thư điện tử;
+
+b) Thông tin về quyết định thành lập, giấy phép hoạt động hoặc giấy chứng nhận đăng ký kinh doanh (nếu có);
+
+c) Tên cơ quan quản lý nhà cung cấp (nếu có);
+
+d) Thông tin về giá, thuế, chi phí vận chuyển (nếu có) của hàng hóa, dịch vụ.
+
+3. Tổ chức, cá nhân tham gia phát triển công nghệ thông tin có trách nhiệm sau đây:
+
+a) Bảo đảm tính trung thực của kết quả nghiên cứu - phát triển;
+
+b) Bảo đảm quyền và lợi ích hợp pháp của chủ sở hữu cơ sở dữ liệu và không gây cản trở cho việc sử dụng cơ sở dữ liệu đó khi thực hiện hành vi tái sản xuất, phân phối, quảng bá, truyền đưa, cung cấp nội dung hợp thành cơ sở dữ liệu đó.
+
+4. Khi hoạt động trên môi trường mạng, cơ quan nhà nước có trách nhiệm sau đây:
+
+a) Thông báo trên phương tiện thông tin đại chúng về các hoạt động thực hiện trên môi trường mạng theo quy định tại khoản 1 Điều 27 của Luật này;
+
+b) Thông báo cho tổ chức, cá nhân có liên quan địa chỉ liên hệ của cơ quan đó trên môi trường mạng;
+
+c) Trả lời theo thẩm quyền văn bản của tổ chức, cá nhân gửi đến cơ quan nhà nước thông qua môi trường mạng;
+
+d) Cung cấp trên môi trường mạng thông tin phục vụ lợi ích công cộng, thủ tục hành chính;
+
+đ) Sử dụng chữ ký điện tử theo quy định của pháp luật về giao dịch điện tử;
+
+e) Bảo đảm độ tin cậy và bí mật của nội dung thông tin trong việc gửi, nhận văn bản trên môi trường mạng;
+
+g) Bảo đảm tính chính xác, đầy đủ, kịp thời của thông tin, văn bản được trao đổi, cung cấp và lấy ý kiến trên môi trường mạng;
+
+h) Bảo đảm hệ thống thiết bị cung cấp thông tin, lấy ý kiến trên môi trường mạng hoạt động cả trong giờ và ngoài giờ làm việc, trừ trường hợp bất khả kháng;
+
+i) Thực hiện việc cung cấp thông tin và lấy ý kiến qua trang thông tin điện tử phải tuân thủ quy định tại Điều 28 của Luật này.
+
+Điều 10 Thanh tra về công nghệ thông tin
+
+1. Thanh tra Bộ Bưu chính, Viễn thông thực hiện chức năng thanh tra chuyên ngành về công nghệ thông tin.
+
+2. Tổ chức và hoạt động của thanh tra về công nghệ thông tin thực hiện theo quy định của pháp luật về thanh tra.
+
+Điều 11. Hội, hiệp hội về công nghệ thông tin
+
+1. Hội, hiệp hội về công nghệ thông tin có trách nhiệm bảo vệ quyền và lợi ích hợp pháp của tổ chức, cá nhân tham gia hoạt động ứng dụng và phát triển công nghệ thông tin.
+
+2. Hội, hiệp hội về công nghệ thông tin được tổ chức và hoạt động theo quy định của pháp luật về hội.
+
+Điều 12. Các hành vi bị nghiêm cấm
+
+1. Cản trở hoạt động hợp pháp hoặc hỗ trợ hoạt động bất hợp pháp về ứng dụng và phát triển công nghệ thông tin; cản trở bất hợp pháp hoạt động của hệ thống máy chủ tên miền quốc gia; phá hoại cơ sở hạ tầng thông tin, phá hoại thông tin trên môi trường mạng.
+
+2. Cung cấp, trao đổi, truyền đưa, lưu trữ, sử dụng thông tin số nhằm mục đích sau đây:
+
+a) Chống Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam, phá hoại khối đoàn kết toàn dân;
+
+b) Kích động bạo lực, tuyên truyền chiến tranh xâm lược, gây hận thù giữa các dân tộc và nhân dân các nước, kích động dâm ô, đồi trụy, tội ác, tệ nạn xã hội, mê tín dị đoan, phá hoại thuần phong mỹ tục của dân tộc;
+
+c) Tiết lộ bí mật nhà nước, bí mật quân sự, an ninh, kinh tế, đối ngoại và những bí mật khác đã được pháp luật quy định;
+
+d) Xuyên tạc, vu khống, xúc phạm uy tín của tổ chức, danh dự, nhân phẩm, uy tín của công dân;
+
+đ) Quảng cáo, tuyên truyền hàng hoá, dịch vụ thuộc danh mục cấm đã được pháp luật quy định.
+
+3. Xâm phạm quyền sở hữu trí tuệ trong hoạt động công nghệ thông tin; sản xuất, lưu hành sản phẩm công nghệ thông tin trái pháp luật; giả mạo trang thông tin điện tử của tổ chức, cá nhân khác; tạo đường dẫn trái phép đối với tên miền của tổ chức, cá nhân sử dụng hợp pháp tên miền đó.
+
+Chương II
+
+ỨNG DỤNG CÔNG NGHỆ THÔNG TIN
+
+Mục 1: QUY ĐỊNH CHUNG VỀ ỨNG DỤNG CÔNG NGHỆ THÔNG TIN
+
+Điều 13. Nguyên tắc chung về hoạt động ứng dụng công nghệ thông tin
+
+1. Tổ chức, cá nhân có quyền tiến hành các hoạt động ứng dụng công nghệ thông tin theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+
+2. Việc ứng dụng công nghệ thông tin vào các hoạt động thuộc lĩnh vực kinh tế - xã hội, đối ngoại, quốc phòng, an ninh; hoạt động phòng, chống lụt, bão, thiên tai, thảm họa khác, cứu hộ, cứu nạn và các hoạt động khác được Nhà nước khuyến khích.
+
+3.Tổ chức, cá nhân tiến hành hoạt động viễn thông, hoạt động phát thanh, truyền hình trên môi trường mạng phải thực hiện các quy định của pháp luật về viễn thông, báo chí và các quy định của Luật này.
+
+Điều 14. Ưu tiên ứng dụng công nghệ thông tin trong trường hợp khẩn cấp
+
+1. Cơ quan nhà nước có thẩm quyền quyết định huy động một phần hoặc toàn bộ cơ sở hạ tầng thông tin để ưu tiên phục vụ cho việc ứng dụng công nghệ thông tin khi có một trong các trường hợp khẩn cấp sau đây:
+
+a) Phục vụ phòng, chống lụt, bão, hỏa hoạn, thiên tai, thảm họa khác;
+
+b) Phục vụ cấp cứu và phòng, chống dịch bệnh;
+
+c) Phục vụ cứu nạn, cứu hộ;
+
+d) Phục vụ quốc phòng, an ninh, bảo đảm trật tự, an toàn xã hội, phòng, chống tội phạm.
+
+2. Chính phủ quy định cụ thể việc ưu tiên ứng dụng công nghệ thông tin trong các trường hợp khẩn cấp.
+
+Điều 15. Quản lý và sử dụng thông tin số
+
+1. Tổ chức, cá nhân có quyền tự do sử dụng thông tin số vào mục đích chính đáng, phù hợp với quy định của pháp luật.
+
+2. Cơ quan nhà nước có thẩm quyền chịu trách nhiệm thực hiện các biện pháp bảo đảm việc truy nhập và sử dụng thuận lợi thông tin số.
+
+3. Việc cung cấp, trao đổi, truyền đưa, lưu trữ, sử dụng thông tin số phải bảo đảm không vi phạm quy định tại khoản 2 Điều 12 của Luật này và các quy định khác của pháp luật có liên quan.
+
+4. Tổ chức, cá nhân không được trích dẫn nội dung thông tin số của tổ chức, cá nhân khác trong trường hợp chủ sở hữu thông tin số đã có cảnh báo hoặc pháp luật quy định việc trích dẫn thông tin là không được phép.
+
+5. Trường hợp được phép trích dẫn thông tin số, tổ chức, cá nhân có trách nhiệm nêu rõ nguồn của thông tin đó.
+
+Điều 16. Truyền đưa thông tin số
+
+1. Tổ chức, cá nhân có quyền truyền đưa thông tin số của tổ chức, cá nhân khác phù hợp với quy định của Luật này.
+
+2. Tổ chức, cá nhân truyền đưa thông tin số của tổ chức, cá nhân khác không phải chịu trách nhiệm về nội dung thông tin được lưu trữ tự động, trung gian, tạm thời do yêu cầu kỹ thuật nếu hoạt động lưu trữ tạm thời nhằm mục đích phục vụ cho việc truyền đưa thông tin và thông tin được lưu trữ trong khoảng thời gian đủ để thực hiện việc truyền đưa.
+
+3. Tổ chức, cá nhân truyền đưa thông tin số có trách nhiệm tiến hành kịp thời các biện pháp cần thiết để ngăn chặn việc truy nhập thông tin hoặc loại bỏ thông tin trái pháp luật theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+
+4. Tổ chức, cá nhân truyền đưa thông tin số của tổ chức, cá nhân khác không phải chịu trách nhiệm về nội dung thông tin đó, trừ trường hợp thực hiện một trong các hành vi sau đây:
+
+a) Chính mình bắt đầu việc truyền đưa thông tin;
+
+b) Lựa chọn người nhận thông tin được truyền đưa;
+
+c) Lựa chọn và sửa đổi nội dung thông tin được truyền đưa.
+
+Điều 17 Lưu trữ tạm thời thông tin số
+
+1. Tổ chức, cá nhân có quyền lưu trữ tạm thời thông tin số của tổ chức, cá nhân khác.
+
+2. Tổ chức, cá nhân lưu trữ tạm thời thông tin số của tổ chức, cá nhân khác không phải chịu trách nhiệm về nội dung thông tin đó, trừ trường hợp thực hiện một trong các hành vi sau đây:
+
+a) Sửa đổi nội dung thông tin;
+
+b) Không tuân thủ quy định về truy nhập hoặc cập nhật nội dung thông tin;
+
+c) Thu thập dữ liệu bất hợp pháp thông qua việc lưu trữ thông tin tạm thời;
+
+d) Tiết lộ bí mật thông tin.
+
+Điều 18. Cho thuê chỗ lưu trữ thông tin số
+
+1. Cho thuê chỗ lưu trữ thông tin số là dịch vụ cho thuê dung lượng thiết bị lưu trữ để lưu trữ thông tin trên môi trường mạng.
+
+2. Nội dung thông tin số lưu trữ không được vi phạm quy định tại khoản 2 Điều 12 của Luật này.
+
+3.Tổ chức, cá nhân cho thuê chỗ lưu trữ thông tin số có trách nhiệm sau đây:
+
+a) Thực hiện yêu cầu của cơ quan nhà nước có thẩm quyền về việc xác định danh sách chủ sở hữu thuê chỗ lưu trữ thông tin số để thiết lập trang thông tin điện tử và danh sách chủ sở hữu thông tin số được lưu trữ bởi tổ chức, cá nhân đó;
+
+b) Tiến hành kịp thời các biện pháp cần thiết để ngăn chặn việc truy nhập thông tin số hoặc loại bỏ thông tin số trái pháp luật theo yêu cầu của cơ quan nhà nước có thẩm quyền;
+
+c) Ngừng cho tổ chức, cá nhân khác thuê chỗ lưu trữ thông tin số trong trường hợp tự mình phát hiện hoặc được cơ quan nhà nước có thẩm quyền thông báo cho biết thông tin đang được lưu trữ là trái pháp luật;
+
+d) Bảo đảm bí mật thông tin của tổ chức, cá nhân thuê chỗ lưu trữ thông tin.
+
+Điều 19. Công cụ tìm kiếm thông tin số
+
+1. Công cụ tìm kiếm thông tin số là chương trình máy tính tiếp nhận yêu cầu tìm kiếm thông tin số, thực hiện việc tìm kiếm thông tin số và gửi lại thông tin số tìm kiếm được.
+
+2. Nhà nước có chính sách khuyến khích tổ chức, cá nhân phát triển, cung cấp công cụ tìm kiếm thông tin số.
+
+3. Tổ chức, cá nhân có trách nhiệm ngừng cung cấp cho tổ chức, cá nhân khác công cụ tìm kiếm đến các nguồn thông tin số trong trường hợp tự mình phát hiện hoặc được cơ quan nhà nước có thẩm quyền thông báo cho biết thông tin đó là trái pháp luật.
+
+Điều 20. Theo dõi, giám sát nội dung thông tin số
+
+1. Cơ quan nhà nước có thẩm quyền chịu trách nhiệm theo dõi, giám sát thông tin số; điều tra các hành vi vi phạm pháp luật xảy ra trong quá trình truyền đưa hoặc lưu trữ thông tin số.
+
+2. Tổ chức, cá nhân tham gia ứng dụng công nghệ thông tin không phải chịu trách nhiệm theo dõi, giám sát thông tin số của tổ chức, cá nhân khác, điều tra các hành vi vi phạm pháp luật xảy ra trong quá trình truyền đưa hoặc lưu trữ thông tin số của tổ chức, cá nhân khác, trừ trường hợp cơ quan nhà nước có thẩm quyền yêu cầu.
+
+Điều 21. Thu thập, xử lý và sử dụng thông tin cá nhân trên môi trường mạng
+
+1. Tổ chức, cá nhân thu thập, xử lý và sử dụng thông tin cá nhân của người khác trên môi trường mạng phải được người đó đồng ý, trừ trường hợp pháp luật có quy định khác.
+
+2. Tổ chức, cá nhân thu thập, xử lý và sử dụng thông tin cá nhân của người khác có trách nhiệm sau đây:
+
+a) Thông báo cho người đó biết về hình thức, phạm vi, địa điểm và mục đích của việc thu thập, xử lý và sử dụng thông tin cá nhân của người đó;
+
+b) Sử dụng đúng mục đích thông tin cá nhân thu thập được và chỉ lưu trữ những thông tin đó trong một khoảng thời gian nhất định theo quy định của pháp luật hoặc theo thoả thuận giữa hai bên;
+
+c) Tiến hành các biện pháp quản lý, kỹ thuật cần thiết để bảo đảm thông tin cá nhân không bị mất, đánh cắp, tiết lộ, thay đổi hoặc phá huỷ;
+
+d) Tiến hành ngay các biện pháp cần thiết khi nhận được yêu cầu kiểm tra lại, đính chính hoặc hủy bỏ theo quy định tại khoản 1 Điều 22 của Luật này; không được cung cấp hoặc sử dụng thông tin cá nhân liên quan cho đến khi thông tin đó được đính chính lại.
+
+3. Tổ chức, cá nhân có quyền thu thập, xử lý và sử dụng thông tin cá nhân của người khác mà không cần sự đồng ý của người đó trong trường hợp thông tin cá nhân đó được sử dụng cho mục đích sau đây:
+
+a) Ký kết, sửa đổi hoặc thực hiện hợp đồng sử dụng thông tin, sản phẩm, dịch vụ trên môi trường mạng;
+
+b) Tính giá, cước sử dụng thông tin, sản phẩm, dịch vụ trên môi trường mạng;
+
+c) Thực hiện nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 22 Lưu trữ, cung cấp thông tin cá nhân trên môi trường mạng
+
+1 Cá nhân có quyền yêu cầu tổ chức, cá nhân lưu trữ thông tin cá nhân của mình trên môi trường mạng thực hiện việc kiểm tra, đính chính hoặc hủy bỏ thông tin đó.
+
+2. Tổ chức, cá nhân không được cung cấp thông tin cá nhân của người khác cho bên thứ ba, trừ trường hợp pháp luật có quy định khác hoặc có sự đồng ý của người đó.
+
+3. Cá nhân có quyền yêu cầu bồi thường thiệt hại do hành vi vi phạm trong việc cung cấp thông tin cá nhân.
+
+Điều 23 Thiết lập trang thông tin điện tử
+
+1. Tổ chức, cá nhân có quyền thiết lập trang thông tin điện tử theo quy định của pháp luật và chịu trách nhiệm quản lý nội dung và hoạt động trang thông tin điện tử của mình.
+
+2. Tổ chức, cá nhân sử dụng tên miền quốc gia Việt Nam “.vn” khi thiết lập trang thông tin điện tử không cần thông báo với Bộ Bưu chính, Viễn thông. Tổ chức, cá nhân khi thiết lập trang thông tin điện tử không sử dụng tên miền quốc gia Việt Nam “.vn” phải thông báo trên môi trường mạng với Bộ Bưu chính, Viễn thông những thông tin sau đây:
+
+a) Tên tổ chức ghi trong quyết định thành lập, giấy phép hoạt động, giấy chứng nhận đăng ký kinh doanh hoặc giấy phép mở văn phòng đại diện; tên cá nhân;
+
+b) Số, ngày cấp, nơi cấp chứng minh thư nhân dân hoặc số, ngày cấp, nơi cấp hộ chiếu của cá nhân;
+
+c) Địa chỉ trụ sở chính của tổ chức hoặc nơi thường trú của cá nhân;
+
+d) Số điện thoại, số fax, địa chỉ thư điện tử;
+
+đ) Các tên miền đã đăng ký.
+
+3.Tổ chức, cá nhân phải chịu trách nhiệm trước pháp luật về tính chính xác của các thông tin quy định tại khoản 2 Điều này, khi thay đổi thông tin thì phải thông báo về sự thay đổi đó.
+
+4. Trang thông tin điện tử được sử dụng cho hoạt động báo chí phải thực hiện quy định của Luật này, pháp luật về báo chí và các quy định khác của pháp luật có liên quan.
+
+5. Trang thông tin điện tử được sử dụng cho hoạt động kinh tế - xã hội, đối ngoại, quốc phòng, an ninh phải thực hiện quy định của Luật này và các quy định khác của pháp luật có liên quan.
+
+Mục 2: ỨNG DỤNG CÔNG NGHỆ THÔNG TIN TRONG HOẠT ĐỘNG CỦA CƠ QUAN NHÀ NƯỚC
+
+Điều 24:Nguyên tắc ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước
+
+1. Việc ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước phải được ưu tiên, bảo đảm tính công khai, minh bạch nhằm nâng cao hiệu lực, hiệu quả hoạt động của cơ quan nhà nước; tạo điều kiện để nhân dân thực hiện tốt quyền và nghĩa vụ công dân.
+
+2. Việc ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước phải thúc đẩy chương trình đổi mới hoạt động của cơ quan nhà nước và chương trình cải cách hành chính.
+
+3. Việc cung cấp, trao đổi thông tin phải bảo đảm chính xác và phù hợp với mục đích sử dụng.
+
+4.Quy trình, thủ tục hoạt động phải công khai, minh bạch.
+
+5. Sử dụng thống nhất tiêu chuẩn, bảo đảm tính tương thích về công nghệ trong toàn bộ hệ thống thông tin của các cơ quan nhà nước.
+
+6. Bảo đảm an ninh, an toàn, tiết kiệm và có hiệu quả.
+
+7. Người đứng đầu cơ quan nhà nước phải chịu trách nhiệm về việc ứng dụng công nghệ thông tin thuộc thẩm quyền quản lý của mình.
+
+Điều 25.Điều kiện để triển khai ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước
+
+1. Cơ quan nhà nước có trách nhiệm chuẩn bị các điều kiện để triển khai ứng dụng công nghệ thông tin trong hoạt động của cơ quan mình.
+
+2. Chính phủ quy định cụ thể các điều kiện bảo đảm cho ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước; xây dựng và tổ chức thực hiện chương trình quốc gia về ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước với các nội dung chủ yếu sau đây:
+
+a) Lộ trình thực hiện các hoạt động trên môi trường mạng của các cơ quan nhà nước;
+
+b) Các ngành, lĩnh vực có tác động lớn đến phát triển kinh tế - xã hội cần ưu tiên ứng dụng công nghệ thông tin;
+
+c) Việc chia sẻ, sử dụng chung thông tin số;
+
+d) Lĩnh vực được ưu tiên, khuyến khích nghiên cứu - phát triển, hợp tác quốc tế, phát triển nguồn nhân lực và xây dựng cơ sở hạ tầng thông tin đáp ứng yêu cầu ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước trong từng giai đoạn;
+
+đ) Nguồn tài chính bảo đảm cho ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước;
+
+e) Các chương trình, đề án, dự án trọng điểm về ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước.
+
+Điều 26. Nội dung ứng dụng công nghệ thông tin trong hoạt động của cơ quan nhà nước
+
+1 Xây dựng và sử dụng cơ sở hạ tầng thông tin phục vụ cho hoạt động của cơ quan nhà nước và hoạt động trao đổi, cung cấp thông tin giữa cơ quan nhà nước với tổ chức, cá nhân.
+
+2. Xây dựng, thu thập và duy trì cơ sở dữ liệu phục vụ cho hoạt động của cơ quan và phục vụ lợi ích công cộng.
+
+3.Xây dựng các biểu mẫu phục vụ cho việc trao đổi, cung cấp thông tin và lấy ý kiến góp ý của tổ chức, cá nhân trên môi trường mạng.
+
+4.Thiết lập trang thông tin điện tử phù hợp với quy định tại Điều 23 và Điều 28 của Luật này.
+
+5.Cung cấp, chia sẻ thông tin với cơ quan khác của Nhà nước.
+
+6.Thực hiện việc cung cấp dịch vụ công trên môi trường mạng.
+
+7. Xây dựng, thực hiện kế hoạch đào tạo, nâng cao nhận thức và trình độ ứng dụng công nghệ thông tin của cán bộ, công chức.
+
+8. Thực hiện hoạt động trên môi trường mạng theo quy định tại Điều 27 của Luật này.
+
+Điều 27. Hoạt động của cơ quan nhà nước trên môi trường mạng
+
+1. Hoạt động của cơ quan nhà nước trên môi trường mạng bao gồm:
+
+a) Cung cấp, trao đổi, thu thập thông tin với tổ chức, cá nhân;
+
+b) Chia sẻ thông tin trong nội bộ và với cơ quan khác của Nhà nước;
+
+c) Cung cấp các dịch vụ công;
+
+d) Các hoạt động khác theo quy định của Chính phủ.
+
+2. Thời điểm và địa điểm gửi, nhận thông tin trên môi trường mạng thực hiện theo quy định của pháp luật về giao dịch điện tử.
+
+Điều 28. Trang thông tin điện tử của cơ quan nhà nước
+
+1. Trang thông tin điện tử của cơ quan nhà nước phải đáp ứng các yêu cầu sau đây:
+
+a) Bảo đảm cho tổ chức, cá nhân truy nhập thuận tiện;
+
+b) Hỗ trợ tổ chức, cá nhân truy nhập và sử dụng các biểu mẫu trên trang thông tin điện tử (nếu có);
+
+c) Bảo đảm tính chính xác và sự thống nhất về nội dung của thông tin trên trang thông tin điện tử;
+
+d) Cập nhật thường xuyên và kịp thời thông tin trên trang thông tin điện tử;
+
+đ) Thực hiện quy định của pháp luật về bảo vệ bí mật nhà nước.
+
+2. Trang thông tin điện tử của cơ quan nhà nước phải có những thông tin chủ yếu sau đây:
+
+a) Tổ chức, chức năng, nhiệm vụ, quyền hạn của cơ quan đó và của từng đơn vị trực thuộc;
+
+b) Hệ thống văn bản quy phạm pháp luật chuyên ngành và văn bản pháp luật có liên quan;
+
+c) Quy trình, thủ tục hành chính được thực hiện bởi các đơn vị trực thuộc, tên của người chịu trách nhiệm trong từng khâu thực hiện quy trình, thủ tục hành chính, thời hạn giải quyết các thủ tục hành chính;
+
+d) Thông tin tuyên truyền, phổ biến, hướng dẫn thực hiện pháp luật, chế độ, chính sách, chiến lược, quy hoạch chuyên ngành;
+
+đ) Danh mục địa chỉ thư điện tử chính thức của từng đơn vị trực thuộc và cán bộ, công chức có thẩm quyền;
+
+e) Thông tin về dự án, hạng mục đầu tư, đấu thầu, mua sắm công;
+
+g) Danh mục các hoạt động trên môi trường mạng đang được cơ quan đó thực hiện theo quy định tại khoản 1 Điều 27 của Luật này;
+
+h) Mục lấy ý kiến góp ý của tổ chức, cá nhân.
+
+3. Cơ quan nhà nước cung cấp miễn phí thông tin quy định tại khoản 2 Điều này.
+
+Mục 3: ỨNG DỤNG CÔNG NGHỆ THÔNG TIN TRONG THƯƠNG MẠI
+
+Điều 29. Nguyên tắc ứng dụng công nghệ thông tin trong thương mại
+
+1.Tổ chức, cá nhân có quyền ứng dụng công nghệ thông tin trong thương mại.
+
+2. Hoạt động thương mại trên môi trường mạng phải tuân thủ quy định của Luật này, pháp luật về thương mại và pháp luật về giao dịch điện tử.
+
+Điều 30. Trang thông tin điện tử bán hàng
+
+1. Tổ chức, cá nhân có quyền thiết lập trang thông tin điện tử bán hàng theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+
+2. Trang thông tin điện tử bán hàng phải bảo đảm các yêu cầu chủ yếu sau đây:
+
+a) Cung cấp đầy đủ, chính xác thông tin về hàng hóa, dịch vụ, điều kiện giao dịch, thủ tục giải quyết tranh chấp và bồi thường thiệt hại;
+
+b) Cung cấp cho người tiêu dùng thông tin về phương thức thanh toán an toàn và tiện lợi trên môi trường mạng;
+
+c) Công bố các trường hợp người tiêu dùng có quyền hủy bỏ, sửa đổi thỏa thuận trên môi trường mạng.
+
+3. Tổ chức, cá nhân sở hữu trang thông tin điện tử bán hàng chịu trách nhiệm về nội dung thông tin cung cấp trên trang thông tin điện tử, thực hiện quy định của Luật này và các quy định khác của pháp luật có liên quan về giao kết hợp đồng, đặt hàng, thanh toán, quảng cáo, khuyến mại.
+
+Điều 31 Cung cấp thông tin cho việc giao kết hợp đồng trên môi trường mạng
+
+1. Trừ trường hợp các bên liên quan có thoả thuận khác, tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ phải cung cấp các thông tin sau đây cho việc giao kết hợp đồng:
+
+a) Trình tự thực hiện để tiến tới giao kết hợp đồng trên môi trường mạng;
+
+b) Biện pháp kỹ thuật xác định và sửa đổi thông tin nhập sai;
+
+c) Việc lưu trữ hồ sơ hợp đồng và cho phép truy nhập hồ sơ đó.
+
+2. Khi đưa ra các thông tin về điều kiện hợp đồng cho người tiêu dùng, tổ chức, cá nhân phải bảo đảm cho người tiêu dùng khả năng lưu trữ và tái tạo được các thông tin đó.
+
+Điều 32. Giải quyết hậu quả do lỗi nhập sai thông tin thương mại trên môi trường mạng
+
+Trường hợp người mua nhập sai thông tin gửi vào trang thông tin điện tử bán hàng mà hệ thống nhập tin không cung cấp khả năng sửa đổi thông tin, người mua có quyền đơn phương chấm dứt hợp đồng nếu đã thực hiện các biện pháp sau đây:
+
+1. Thông báo kịp thời cho người bán biết về thông tin nhập sai của mình và người bán cũng đã xác nhận việc nhận được thông báo đó;
+
+2. Trả lại hàng hoá đã nhận nhưng chưa sử dụng hoặc hưởng bất kỳ lợi ích nào từ hàng hóa đó.
+
+Điều 33. Thanh toán trên môi trường mạng
+
+1. Nhà nước khuyến khích tổ chức, cá nhân thực hiện thanh toán trên môi trường mạng theo quy định của pháp luật.
+
+2. Điều kiện, quy trình, thủ tục thanh toán trên môi trường mạng do cơ quan nhà nước có thẩm quyền quy định.
+
+Mục 4: ỨNG DỤNG CÔNG NGHỆ THÔNG TIN TRONG MỘT SỐ LĨNH VỰC
+
+Điều 34.Ứng dụng công nghệ thông tin trong lĩnh vực giáo dục và đào tạo
+
+1. Nhà nước có chính sách khuyến khích ứng dụng công nghệ thông tin trong việc dạy, học, tuyển sinh, đào tạo và các hoạt động khác trong lĩnh vực giáo dục và đào tạo trên môi trường mạng.
+
+2. Tổ chức, cá nhân tiến hành hoạt động giáo dục và đào tạo trên môi trường mạng phải tuân thủ quy định của Luật này và quy định của pháp luật về giáo dục.
+
+3. Cơ quan nhà nước có thẩm quyền chịu trách nhiệm xây dựng, triển khai thực hiện chương trình hỗ trợ tổ chức, cá nhân nhằm thúc đẩy ứng dụng công nghệ thông tin trong giáo dục và đào tạo.
+
+4. Bộ Giáo dục và Đào tạo quy định điều kiện hoạt động giáo dục và đào tạo, công nhận giá trị pháp lý của văn bằng, chứng chỉ trong hoạt động giáo dục và đào tạo trên môi trường mạng và thực hiện kiểm định chất lượng giáo dục và đào tạo trên môi trường mạng.
+
+Điều 35. Ứng dụng công nghệ thông tin trong lĩnh vực y tế
+
+1. Nhà nước có chính sách khuyến khích ứng dụng công nghệ thông tin trong lĩnh vực y tế.
+
+2. Tổ chức, cá nhân tiến hành hoạt động y tế trên môi trường mạng phải tuân thủ quy định của Luật này, pháp luật về y, dược và các quy định khác của pháp luật có liên quan.
+
+3.Bộ Y tế quy định cụ thể điều kiện hoạt động y tế trên môi trường mạng.
+
+Điều 36. Ứng dụng công nghệ thông tin trong lĩnh vực văn hóa-thông tin
+
+1. Nhà nước có chính sách khuyến khích ứng dụng công nghệ thông tin trong việc số hóa sản phẩm văn hóa, lưu trữ, quảng bá sản phẩm văn hóa đã được số hóa và các hoạt động khác trong lĩnh vực văn hóa.
+
+2. Tổ chức, cá nhân tiến hành hoạt động văn hóa, báo chí trên môi trường mạng phải tuân thủ quy định của Luật này và các quy định của pháp luật về báo chí, văn hóa - thông tin.
+
+3. Tổ chức, cá nhân được Nhà nước hỗ trợ kinh phí để thực hiện số hóa các sản phẩm văn hóa có giá trị bảo tồn phải tuân thủ quy định của Chính phủ về điều kiện thực hiện số hóa các sản phẩm văn hóa có giá trị bảo tồn.
+
+4. Chính phủ quy định việc quản lý hoạt động giải trí trên môi trường mạng nhằm bảo đảm yêu cầu sau đây:
+
+a) Nội dung giải trí phải lành mạnh, có tính giáo dục, tính văn hóa, không trái thuần phong mỹ tục của dân tộc;
+
+b) Gắn trách nhiệm và quyền lợi của các đối tượng tham gia hoạt động giải trí trên môi trường mạng với lợi ích chung của xã hội, cộng đồng;
+
+c) Bảo đảm an toàn kỹ thuật và chất lượng dịch vụ;
+
+d) Bảo đảm an ninh chính trị, trật tự, an toàn xã hội và ngăn chặn các loại tội phạm phát sinh từ hoạt động này.
+
+Điều 37. Ứng dụng công nghệ thông tin trong quốc phòng, an ninh và một số lĩnh vực khác
+
+Hoạt động ứng dụng công nghệ thông tin phục vụ quốc phòng, an ninh và một số lĩnh vực khác được thực hiện theo quy định của Chính phủ.
+
+Chương III
+
+PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+
+Mục 1: NGHIÊN CỨU - PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+
+Điều 38. Khuyến khích nghiên cứu - phát triển công nghệ thông tin
+
+1. Nhà nước khuyến khích tổ chức, cá nhân nghiên cứu - phát triển công nghệ, sản phẩm công nghệ thông tin nhằm phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh, nâng cao đời sống vật chất, tinh thần của nhân dân.
+
+2. Tổ chức, cá nhân nghiên cứu - phát triển công nghệ, sản phẩm công nghệ thông tin để đổi mới quản lý kinh tế - xã hội, đổi mới công nghệ được hưởng ưu đãi về thuế, tín dụng và các ưu đãi khác theo quy định của pháp luật.
+
+3. Nhà nước tạo điều kiện để tổ chức, cá nhân hoạt động khoa học và công nghệ chuyển giao kết quả nghiên cứu - phát triển công nghệ, sản phẩm công nghệ thông tin để ứng dụng rộng rãi vào sản xuất và đời sống.
+
+Điều 39. Cơ sở vật chất, kỹ thuật phục vụ cho hoạt động nghiên cứu - phát triển công nghệ thông tin
+
+Nhà nước huy động các nguồn vốn để đầu tư xây dựng cơ sở vật chất, kỹ thuật của các tổ chức nghiên cứu - phát triển công nghệ thông tin; khuyến khích tổ chức, cá nhân đầu tư xây dựng cơ sở vật chất, kỹ thuật phục vụ nghiên cứu - phát triển công nghệ thông tin; đầu tư một số phòng thí nghiệm trọng điểm về công nghệ thông tin đạt tiêu chuẩn quốc tế; ban hành quy chế sử dụng phòng thí nghiệm trọng điểm về công nghệ thông tin.
+
+Điều 40. Nghiên cứu - phát triển công nghệ, sản phẩm công nghệ thông tin
+
+1 Nhà nước khuyến khích tổ chức, cá nhân tham gia nghiên cứu - phát triển công nghệ, sản phẩm công nghệ thông tin.
+
+2. Nhà nước ưu tiên dành một khoản từ ngân sách nhà nước cho các chương trình, đề tài nghiên cứu - phát triển phần mềm; ưu tiên hoạt động nghiên cứu - phát triển công nghệ thông tin ở trường đại học, viện nghiên cứu; phát triển các mô hình gắn kết nghiên cứu, đào tạo với sản xuất về công nghệ thông tin.
+
+3. Cơ quan quản lý nhà nước về công nghệ thông tin chủ trì, phối hợp với cơ quan quản lý nhà nước về khoa học và công nghệ tổ chức tuyển chọn cơ sở nghiên cứu, đào tạo, doanh nghiệp thực hiện nhiệm vụ nghiên cứu - phát triển sản phẩm công nghệ thông tin trọng điểm.
+
+Điều 41. Tiêu chuẩn, chất lượng trong hoạt động ứng dụng và phát triển công nghệ thông tin
+
+1. Việc quản lý tiêu chuẩn, chất lượng sản phẩm, dịch vụ công nghệ thông tin được thực hiện theo quy định của pháp luật về tiêu chuẩn, chất lượng.
+
+2. Khuyến khích tổ chức, cá nhân tham gia sản xuất, cung cấp sản phẩm, dịch vụ công nghệ thông tin, công bố tiêu chuẩn cơ sở và phải bảo đảm sản phẩm, dịch vụ của mình phù hợp với tiêu chuẩn đã công bố.
+
+3. Chất lượng sản phẩm, dịch vụ công nghệ thông tin được quản lý thông qua các hình thức sau đây:
+
+a) Chứng nhận phù hợp tiêu chuẩn, quy chuẩn kỹ thuật;
+
+b) Công bố phù hợp tiêu chuẩn, quy chuẩn kỹ thuật;
+
+c)Kiểm định chất lượng.
+
+4. Bộ Bưu chính, Viễn thông công bố sản phẩm, dịch vụ công nghệ thông tin cần áp dụng tiêu chuẩn quốc gia hoặc tiêu chuẩn quốc tế; ban hành và công bố áp dụng quy chuẩn kỹ thuật; quy định cụ thể về quản lý chất lượng sản phẩm, dịch vụ công nghệ thông tin; quy định các điều kiện đối với cơ quan đo kiểm trong nước và nước ngoài để phục vụ cho việc quản lý chất lượng sản phẩm, dịch vụ công nghệ thông tin và công bố cơ quan đo kiểm về công nghệ thông tin có thẩm quyền.
+
+5. Việc thừa nhận lẫn nhau về đánh giá phù hợp tiêu chuẩn đối với sản phẩm công nghệ thông tin giữa Cộng hòa xã hội chủ nghĩa Việt Nam với nước ngoài và với tổ chức quốc tế được thực hiện theo quy định của điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+Mục 2:  PHÁT TRIỂN NGUỒN NHÂN LỰC CÔNG NGHỆ THÔNG TIN
+
+Điều 42. Chính sách phát triển nguồn nhân lực công nghệ thông tin
+
+1.Nhà nước có chính sách phát triển quy mô và tăng cường chất lượng đào tạo nguồn nhân lực công nghệ thông tin.
+
+2. Chương trình, dự án ưu tiên, trọng điểm của Nhà nước về ứng dụng và phát triển công nghệ thông tin phải có hạng mục đào tạo nhân lực công nghệ thông tin.
+
+3. Tổ chức, cá nhân được khuyến khích thành lập cơ sở đào tạo nhân lực công nghệ thông tin theo quy định của pháp luật.
+
+4. Cơ sở đào tạo được hưởng ưu đãi trong hoạt động đào tạo về công nghệ thông tin tương đương với doanh nghiệp sản xuất phần mềm.
+
+5.Nhà nước có chính sách hỗ trợ giáo viên, sinh viên và học sinh trong hệ thống giáo dục quốc dân truy nhập Internet tại các cơ sở giáo dục.
+
+Điều 43. Chứng chỉ công nghệ thông tin
+
+Bộ Bưu chính, Viễn thông chủ trì, phối hợp với Bộ Giáo dục và Đào tạo, Bộ Lao động - Thương binh và Xã hội quy định điều kiện hoạt động đào tạo công nghệ thông tin và cấp chứng chỉ công nghệ thông tin, việc công nhận chứng chỉ công nghệ thông tin của tổ chức nước ngoài sử dụng ở Việt Nam.
+
+Điều 44. Sử dụng nhân lực công nghệ thông tin
+
+1. Người hoạt động chuyên trách về ứng dụng và phát triển công nghệ thông tin trong các cơ quan nhà nước được hưởng chế độ ưu đãi về điều kiện làm việc.
+
+2. Tiêu chuẩn ngành nghề, chức danh về công nghệ thông tin do cơ quan nhà nước có thẩm quyền ban hành.
+
+Điều 45. Người Việt Nam làm việc tại nước ngoài
+
+1 Nhà nước khuyến khích tổ chức, cá nhân tìm kiếm và mở rộng thị trường lao động nhằm tạo việc làm ở nước ngoài cho người lao động Việt Nam tham gia các hoạt động về công nghệ thông tin theo quy định của pháp luật Việt Nam, phù hợp với pháp luật của nước sở tại và điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+2. Nhà nước có chính sách ưu đãi cho tổ chức, cá nhân nước ngoài, người Việt Nam định cư ở nước ngoài tuyển dụng lao động trong nước để phát triển, sản xuất, gia công sản phẩm công nghệ thông tin.
+
+Điều 46. Phổ cập kiến thức công nghệ thông tin
+
+1. Nhà nước có chính sách khuyến khích phổ cập kiến thức công nghệ thông tin trong phạm vi cả nước.
+
+2. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương có trách nhiệm xây dựng và triển khai các hoạt động phổ cập kiến thức công nghệ thông tin cho tổ chức, cá nhân trong địa phương mình.
+
+3.Bộ Giáo dục và Đào tạo có trách nhiệm xây dựng chương trình và tổ chức thực hiện phổ cập kiến thức công nghệ thông tin trong hệ thống giáo dục quốc dân.
+
+4. Nhà nước có chính sách hỗ trợ việc học tập, phổ cập kiến thức công nghệ thông tin đối với người tàn tật, người nghèo, người dân tộc thiểu số và các đối tượng ưu tiên khác phù hợp với yêu cầu phát triển trong từng thời kỳ theo quy định của Chính phủ.
+
+Mục 3: PHÁT TRIỂN CÔNG NGHIỆP CÔNG NGHỆ THÔNG TIN
+
+Điều 47. Loại hình công nghiệp công nghệ thông tin
+
+1. Công nghiệp phần cứng là công nghiệp sản xuất các sản phẩm phần cứng, bao gồm phụ tùng, linh kiện, thiết bị số.
+
+2. Công nghiệp phần mềm là công nghiệp sản xuất các sản phẩm phần mềm, bao gồm phần mềm hệ thống, phần mềm ứng dụng, phần mềm điều khiển, tự động hóa và các sản phẩm tương tự khác; cung cấp các giải pháp cài đặt, bảo trì, hướng dẫn sử dụng.
+
+3. Công nghiệp nội dung là công nghiệp sản xuất các sản phẩm thông tin số, bao gồm thông tin kinh tế - xã hội, thông tin khoa học - giáo dục, thông tin văn hóa - giải trí trên môi trường mạng và các sản phẩm tương tự khác.
+
+Điều 48. Chính sách phát triển công nghiệp công nghệ thông tin
+
+1. Nhà nước có chính sách ưu đãi, ưu tiên đầu tư phát triển công nghiệp công nghệ thông tin, đặc biệt chú trọng công nghiệp phần mềm và công nghiệp nội dung để trở thành một ngành kinh tế trọng điểm trong nền kinh tế quốc dân.
+
+2. Nhà nước khuyến khích các nhà đầu tư tham gia hoạt động đầu tư mạo hiểm vào lĩnh vực công nghiệp công nghệ thông tin, đầu tư phát triển và cung cấp thiết bị số giá rẻ.
+
+3. Chính phủ quy định cụ thể mức ưu đãi, ưu tiên và các điều kiện khác cho phát triển công nghiệp công nghệ thông tin.
+
+Điều 49. Phát triển thị trường công nghiệp công nghệ thông tin
+
+Cơ quan nhà nước có thẩm quyền ban hành quy định và tổ chức thực hiện các hoạt động phát triển thị trường công nghiệp công nghệ thông tin, bao gồm:
+
+1 Thúc đẩy ứng dụng công nghệ thông tin; ưu tiên sử dụng nguồn vốn ngân sách nhà nước để mua sắm, sử dụng các sản phẩm công nghệ thông tin được sản xuất trong nước;
+
+2 Xúc tiến thương mại, tổ chức triển lãm, hội chợ trong nước, hỗ trợ các doanh nghiệp tham gia triển lãm, hội chợ quốc tế, quảng bá, tiếp thị hình ảnh công nghiệp công nghệ thông tin của Việt Nam trên thế giới;
+
+3. Phương pháp định giá phần mềm phục vụ cho việc quản lý các dự án ứng dụng và phát triển công nghệ thông tin.
+
+Điều 50. Sản phẩm công nghệ thông tin trọng điểm
+
+1. Sản phẩm công nghệ thông tin trọng điểm là sản phẩm công nghệ thông tin bảo đảm được một trong những yêu cầu sau đây:
+
+a) Thị trường trong nước có nhu cầu lớn và tạo giá trị gia tăng cao;
+
+b) Có tiềm năng xuất khẩu;
+
+c) Có tác động tích cực về đổi mới công nghệ và hiệu quả kinh tế đối với các ngành kinh tế khác;
+
+d) Đáp ứng được yêu cầu về quốc phòng, an ninh.
+
+2. Bộ Bưu chính, Viễn thông công bố danh mục và xây dựng chương trình phát triển các sản phẩm công nghệ thông tin trọng điểm trong từng thời kỳ phù hợp với quy hoạch phát triển công nghiệp công nghệ thông tin.
+
+3. Các sản phẩm công nghệ thông tin thuộc danh mục sản phẩm công nghệ thông tin trọng điểm quy định tại khoản 2 Điều này được Nhà nước ưu tiên đầu tư nghiên cứu - phát triển, sản xuất.
+
+4. Tổ chức, cá nhân tham gia nghiên cứu - phát triển, sản xuất sản phẩm công nghệ thông tin trọng điểm được hưởng ưu đãi theo quy định của Chính phủ; được Nhà nước ưu tiên đầu tư và được hưởng một phần tiền bản quyền đối với sản phẩm công nghệ thông tin trọng điểm do Nhà nước đầu tư.
+
+5. Tổ chức, cá nhân tham gia nghiên cứu - phát triển, sản xuất sản phẩm công nghệ thông tin trọng điểm do Nhà nước đầu tư phải đáp ứng các điều kiện do cơ quan nhà nước có thẩm quyền quy định; không được chuyển giao, chuyển nhượng công nghệ, giải pháp phát triển sản phẩm công nghệ thông tin trọng điểm do Nhà nước đầu tư khi chưa có sự đồng ý của cơ quan nhà nước có thẩm quyền; chịu sự kiểm tra, kiểm soát, tuân thủ chế độ báo cáo theo quy định của cơ quan nhà nước có thẩm quyền về hoạt động nghiên cứu - phát triển, sản xuất và xúc tiến thương mại các sản phẩm công nghệ thông tin trọng điểm.
+
+Điều 51. Khu công nghệ thông tin tập trung
+
+1. Khu công nghệ thông tin tập trung là loại hình khu công nghệ cao, tập trung hoặc liên kết cơ sở nghiên cứu - phát triển, sản xuất, kinh doanh, đào tạo về công nghệ thông tin. Tổ chức, cá nhân đầu tư và hoạt động trong khu công nghệ thông tin tập trung được hưởng các chính sách ưu đãi của Nhà nước áp dụng đối với khu công nghệ cao.
+
+2. Khuyến khích tổ chức, cá nhân trong nước và nước ngoài đầu tư, xây dựng khu công nghệ thông tin tập trung theo quy hoạch của Chính phủ.
+
+Mục 4: PHÁT TRIỂN DỊCH VỤ CÔNG NGHỆ THÔNG TIN
+
+Điều 52. Loại hình dịch vụ công nghệ thông tin
+
+1. Điều tra, khảo sát, nghiên cứu thị trường về công nghệ thông tin.
+
+2. Tư vấn, phân tích, lập kế hoạch, phân loại, thiết kế trong lĩnh vực công nghệ thông tin.
+
+3. Tích hợp hệ thống, chạy thử, dịch vụ quản lý ứng dụng, cập nhật, bảo mật.
+
+4. Thiết kế, lưu trữ, duy trì trang thông tin điện tử.
+
+5. Bảo hành, bảo trì, bảo đảm an toàn mạng và thông tin.
+
+6. Cập nhật, tìm kiếm, lưu trữ, xử lý dữ liệu và khai thác cơ sở dữ liệu.
+
+7. Phân phối sản phẩm công nghệ thông tin.
+
+8. Đào tạo công nghệ thông tin.
+
+9. Chứng thực chữ ký điện tử.
+
+10. Dịch vụ khác.
+
+Điều 53. Chính sách phát triển dịch vụ công nghệ thông tin
+
+1. Nhà nước có chính sách khuyến khích phát triển dịch vụ công nghệ thông tin.
+
+2. Chính phủ quy định cụ thể chế độ ưu đãi và các điều kiện khác cho một số loại hình dịch vụ công nghệ thông tin.
+
+Chương IV
+
+BIỆN PHÁP BẢO ĐẢM ỨNG DỤNG VÀ PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+
+Mục 1: CƠ SỞ HẠ TẦNG THÔNG TIN PHỤC VỤ ỨNG DỤNG VÀ PHÁT TRIỂN CÔNG NGHỆ THÔNG TIN
+
+Điều 54. Nguyên tắc phát triển cơ sở hạ tầng thông tin
+
+1. Cơ sở hạ tầng thông tin phải được phát triển để bảo đảm chất lượng và đa dạng các loại hình dịch vụ nhằm đáp ứng yêu cầu ứng dụng và phát triển công nghệ thông tin.
+
+2. Cơ quan nhà nước có thẩm quyền chịu trách nhiệm bảo đảm sự phát triển cơ sở hạ tầng thông tin phù hợp với yêu cầu phát triển kinh tế - xã hội; tạo điều kiện để các thành phần kinh tế sử dụng cơ sở hạ tầng thông tin trong môi trường cạnh tranh lành mạnh, bình đẳng, minh bạch; có biện pháp đồng bộ để ngăn chặn những hành vi lợi dụng cơ sở hạ tầng thông tin vi phạm quy định Điều 12 của Luật này.
+
+Điều 55. Bảo đảm cơ sở hạ tầng thông tin phục vụ việc ứng dụng và phát triển công nghệ thông tin
+
+1. Nhà nước có chính sách phát triển cơ sở hạ tầng thông tin quốc gia rộng khắp, có thông lượng lớn, tốc độ và chất lượng cao, giá cước cạnh tranh so với các nước trong khu vực; khuyến khích tổ chức, cá nhân cùng đầu tư, sử dụng chung cơ sở hạ tầng thông tin.
+
+2. Điểm truy nhập Internet công cộng được ưu tiên đặt tại bưu cục, điểm bưu điện văn hóa xã, nhà ga, bến xe, cảng biển, cảng hàng không, cửa khẩu, khu dân cư, bệnh viện, trường học, siêu thị, trung tâm văn hóa, thể thao để phục vụ nhu cầu của tổ chức, cá nhân.
+
+Điều 56. Cơ sở hạ tầng thông tin phục vụ cơ quan nhà nước
+
+1. Cơ sở hạ tầng thông tin phục vụ cơ quan nhà nước từ trung ương đến địa phương được thống nhất xây dựng và quản lý theo quy định của Chính phủ.
+
+2. Kinh phí đầu tư, xây dựng, khai thác, bảo trì cơ sở hạ tầng thông tin phục vụ cơ quan nhà nước lấy từ ngân sách nhà nước và các nguồn khác.
+
+Điều 57. Cơ sở hạ tầng thông tin phục vụ công ích
+
+1.Nhà nước có chính sách ưu tiên vốn đầu tư và có cơ chế hỗ trợ tài chính cho việc xây dựng và sử dụng cơ sở hạ tầng thông tin phục vụ công ích và thu hẹp khoảng cách số.
+
+2. Cơ quan quản lý nhà nước về công nghệ thông tin các cấp chịu trách nhiệm tổ chức thực hiện các chương trình, dự án thu hẹp khoảng cách số, bao gồm:
+
+a)Lắp đặt hệ thống máy tính và truy nhập Internet tại trường học, điểm công cộng trên phạm vi toàn quốc;
+
+b) Phát triển đội ngũ hướng dẫn sử dụng máy tính và truy nhập Internet;
+
+c) Thu hẹp khoảng cách số giữa các vùng, miền.
+
+Điều 58. Cơ sở dữ liệu quốc gia
+
+1. Cơ sở dữ liệu quốc gia là tập hợp thông tin của một hoặc một số lĩnh vực kinh tế - xã hội được xây dựng, cập nhật và duy trì đáp ứng yêu cầu truy nhập và sử dụng thông tin của các ngành kinh tế và phục vụ lợi ích công cộng.
+
+2. Tổ chức, cá nhân có quyền truy nhập và sử dụng thông tin trong cơ sở dữ liệu quốc gia, trừ trường hợp pháp luật có quy định khác.
+
+3.Nhà nước bảo đảm một phần hoặc toàn bộ kinh phí xây dựng và duy trì cơ sở dữ liệu quốc gia.
+
+4. Chính phủ quy định danh mục cơ sở dữ liệu quốc gia; xây dựng, cập nhật và duy trì cơ sở dữ liệu quốc gia; ban hành quy chế khai thác, sử dụng cơ sở dữ liệu quốc gia.
+
+Điều 59. Cơ sở dữ liệu của bộ, ngành, địa phương
+
+1. Cơ sở dữ liệu của bộ, ngành, địa phương là tập hợp thông tin được xây dựng, cập nhật và duy trì đáp ứng yêu cầu truy nhập, sử dụng thông tin của mình và phục vụ lợi ích công cộng.
+
+2. Tổ chức, cá nhân có quyền truy nhập và sử dụng thông tin trong cơ sở dữ liệu của bộ, ngành, địa phương, trừ trường hợp pháp luật có quy định khác.
+
+3. Nhà nước bảo đảm một phần hoặc toàn bộ kinh phí xây dựng và duy trì cơ sở dữ liệu của bộ, ngành, địa phương.
+
+4. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương quy định danh mục cơ sở dữ liệu; xây dựng, cập nhật và duy trì cơ sở dữ liệu; ban hành quy chế khai thác, sử dụng cơ sở dữ liệu của bộ, ngành, địa phương mình.
+
+Điều 60. Bảo vệ cơ sở hạ tầng thông tin
+
+1. Cơ sở hạ tầng thông tin quốc gia phải được bảo vệ. Ủy ban nhân dân các cấp, lực lượng vũ trang nhân dân và tổ chức, cá nhân quản lý, khai thác cơ sở hạ tầng thông tin có trách nhiệm phối hợp bảo vệ an toàn cơ sở hạ tầng thông tin quốc gia.
+
+2. Tổ chức, cá nhân có trách nhiệm bảo đảm an toàn cơ sở hạ tầng thông tin thuộc thẩm quyền quản lý; chịu sự quản lý, thanh tra, kiểm tra và thực hiện các yêu cầu về bảo đảm an toàn cơ sở hạ tầng thông tin và an ninh thông tin của các cơ quan nhà nước có thẩm quyền.
+
+3. Tổ chức, cá nhân quản lý, khai thác cơ sở hạ tầng thông tin có trách nhiệm tạo điều kiện làm việc, kỹ thuật, nghiệp vụ cần thiết để các cơ quan nhà nước có thẩm quyền thực hiện nhiệm vụ kiểm soát và bảo đảm an ninh thông tin khi có yêu cầu.
+
+Mục 2: ĐẦU TƯ CHO CÔNG NGHỆ THÔNG TIN
+
+Điều 61. Đầu tư của tổ chức, cá nhân cho công nghệ thông tin
+
+1. Nhà nước khuyến khích tổ chức, cá nhân đầu tư cho hoạt động ứng dụng công nghệ thông tin để đổi mới quản lý kinh tế - xã hội, đổi mới công nghệ và nâng cao sức cạnh tranh của sản phẩm.
+
+2. Nhà nước khuyến khích và bảo vệ quyền, lợi ích hợp pháp của tổ chức, cá nhân trong nước, người Việt Nam định cư ở nước ngoài, tổ chức, cá nhân nước ngoài đầu tư cho công nghệ thông tin.
+
+3.Các khoản đầu tư của doanh nghiệp cho ứng dụng và phát triển công nghệ thông tin và các chi phí sau đây của doanh nghiệp được trừ khi tính thu nhập chịu thuế theo Luật thuế thu nhập doanh nghiệp:
+
+a)Mở trường, lớp đào tạo công nghệ thông tin tại doanh nghiệp;
+
+b) Cử người đi đào tạo, tiếp thu công nghệ mới phục vụ cho nhu cầu ứng dụng và phát triển công nghệ thông tin của doanh nghiệp.
+
+Điều 62. Đầu tư của Nhà nước cho công nghệ thông tin
+
+1. Đầu tư cho công nghệ thông tin là đầu tư phát triển.
+
+2. Nhà nước ưu tiên bố trí ngân sách cho công nghệ thông tin, bảo đảm tỷ lệ tăng chi ngân sách cho công nghệ thông tin hằng năm cao hơn tỷ lệ tăng chi ngân sách nhà nước. Ngân sách cho công nghệ thông tin phải được quản lý, sử dụng có hiệu quả.
+
+3. Chính phủ ban hành quy chế quản lý đầu tư phù hợp đối với các dự án ứng dụng công nghệ thông tin sử dụng vốn đầu tư có nguồn gốc từ ngân sách nhà nước.
+
+4.Trong Mục lục ngân sách nhà nước có loại chi riêng về công nghệ thông tin.
+
+Điều 63. Đầu tư cho sự nghiệp ứng dụng và phát triển công nghệ thông tin
+
+1. Ngân sách nhà nước chi cho sự nghiệp ứng dụng và phát triển công nghệ thông tin được sử dụng vào các mục đích sau đây:
+
+a) Phổ cập ứng dụng công nghệ thông tin, hỗ trợ dự án ứng dụng công nghệ thông tin có hiệu quả;
+
+b) Phát triển nguồn thông tin số;
+
+c) Xây dựng cơ sở dữ liệu quốc gia, cơ sở dữ liệu của bộ, ngành, địa phương;
+
+d) Xây dựng cơ sở hạ tầng thông tin phục vụ công ích và cơ quan nhà nước;
+
+đ) Điều tra, nghiên cứu, xây dựng, thử nghiệm, áp dụng tiến bộ khoa học - kỹ thuật về công nghệ thông tin, cơ chế, chính sách, chiến lược, quy hoạch, kế hoạch, tiêu chuẩn, quy chuẩn kỹ thuật, định mức kinh tế - kỹ thuật, mô hình ứng dụng và phát triển công nghệ thông tin;
+
+e) Phát triển nguồn nhân lực công nghệ thông tin;
+
+g) Tuyên truyền, phổ biến, giáo dục pháp luật về công nghệ thông tin, đào tạo, tập huấn chuyên môn, quản lý về công nghệ thông tin;
+
+h) Trao giải thưởng công nghệ thông tin;
+
+i) Các hoạt động khác cho sự nghiệp ứng dụng và phát triển công nghệ thông tin.
+
+2. Hằng năm, Bộ Bưu chính, Viễn thông chịu trách nhiệm tổng hợp dự toán kinh phí chi cho sự nghiệp ứng dụng và phát triển công nghệ thông tin quy định tại khoản 1 Điều này của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và của tỉnh, thành phố trực thuộc trung ương để Chính phủ trình Quốc hội.
+
+Điều 64. Đầu tư và phát triển công nghệ thông tin phục vụ nông nghiệp và nông thôn
+
+1. Thu hút mọi nguồn lực để đầu tư xây dựng cơ sở hạ tầng thông tin, đẩy nhanh quá trình hiện đại hoá nông thôn, miền núi, hải đảo.
+
+2. Tạo điều kiện thuận lợi cho nhân dân ở vùng sâu, vùng xa, vùng có đồng bào dân tộc thiểu số, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn ứng dụng công nghệ thông tin để phục vụ sản xuất và đời sống.
+
+3. Tổ chức, cá nhân hoạt động ứng dụng và phát triển công nghệ thông tin tại vùng sâu, vùng xa, vùng có đồng bào dân tộc thiểu số, vùng có điều kiện kinh tế - xã hội khó khăn, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được hưởng các chính sách ưu đãi về đầu tư, tài chính và các ưu đãi khác theo quy định của pháp luật.
+
+4. Hoạt động ứng dụng và cung cấp dịch vụ công nghệ thông tin phục vụ mục tiêu khuyến nông, khuyến lâm, khuyến ngư, đánh bắt xa bờ được Nhà nước hỗ trợ một phần kinh phí.
+
+Mục 3: HỢP TÁC QUỐC TẾ VỀ CÔNG NGHỆ THÔNG TIN
+
+Điều 65. Nguyên tắc hợp tác quốc tế về công nghệ thông tin
+
+Tổ chức, cá nhân Việt Nam hợp tác về công nghệ thông tin với tổ chức, cá nhân nước ngoài, tổ chức quốc tế theo nguyên tắc tôn trọng độc lập, chủ quyền quốc gia, không can thiệp vào công việc nội bộ của nhau, bình đẳng và cùng có lợi.
+
+Điều 66. Nội dung hợp tác quốc tế về công nghệ thông tin
+
+1. Phân tích xu hướng quốc tế về công nghệ thông tin, quy mô và triển vọng phát triển thị trường nước ngoài và xây dựng chiến lược phát triển thị trường công nghệ thông tin ở nước ngoài.
+
+2. Quảng bá thông tin về định hướng, chính sách ứng dụng và phát triển công nghệ thông tin của Việt Nam và của các nước trên thế giới.
+
+3.Xây dựng cơ chế, chính sách đẩy mạnh hợp tác giữa tổ chức, cá nhân Việt Nam với tổ chức, cá nhân nước ngoài, tổ chức quốc tế hoạt động trong lĩnh vực công nghệ thông tin.
+
+4. Thực hiện chương trình, dự án hợp tác quốc tế về công nghệ thông tin.
+
+5. Phát triển thị trường công nghệ thông tin ở nước ngoài, giới thiệu sản phẩm công nghệ thông tin Việt Nam qua các triển lãm quốc tế, tiếp cận với khách hàng tiềm năng.
+
+6. Tổ chức hội thảo, hội nghị và diễn đàn quốc tế về công nghệ thông tin.
+
+7. Ký kết, gia nhập và thực hiện các điều ước quốc tế song phương, đa phương và tham gia tổ chức khu vực, tổ chức quốc tế về công nghệ thông tin.
+
+8. Tiếp thu công nghệ của nước ngoài chuyển giao vào Việt Nam.
+
+Mục 4: BẢO VỆ QUYỀN, LỢI ÍCH HỢP PHÁP VÀ HỖ TRỢ NGƯỜI SỬ DỤNG SẢN PHẨM, DỊCH VỤ CÔNG NGHỆ THÔNG TIN
+
+Điều 67. Trách nhiệm bảo vệ quyền, lợi ích hợp pháp của người sử dụng sản phẩm, dịch vụ công nghệ thông tin
+
+Nhà nước và xã hội thực hiện các biện pháp phòng, chống các hành vi xâm hại quyền, lợi ích hợp pháp của người sử dụng sản phẩm, dịch vụ công nghệ thông tin. Quyền, lợi ích hợp pháp của người sử dụng sản phẩm, dịch vụ công nghệ thông tin được bảo vệ theo quy định của pháp luật.
+
+Điều 68. Bảo vệ tên miền quốc gia Việt Nam “.vn”
+
+1. Tên miền quốc gia Việt Nam “.vn” và tên miền cấp dưới của tên miền quốc gia Việt Nam “.vn” là một phần của tài nguyên thông tin quốc gia, có giá trị sử dụng như nhau và phải được quản lý, khai thác, sử dụng đúng mục đích, có hiệu quả.
+
+Nhà nước khuyến khích tổ chức, cá nhân đăng ký và sử dụng tên miền quốc gia Việt Nam “.vn”. Tên miền đăng ký phải thể hiện tính nghiêm túc để tránh gây sự hiểu nhầm hoặc xuyên tạc do tính đa âm, đa nghĩa hoặc khi không dùng dấu trong tiếng Việt.
+
+2. Tên miền quốc gia Việt Nam “.vn” dành cho tổ chức Đảng, cơ quan nhà nước phải được bảo vệ và không được xâm phạm.
+
+3. Tổ chức, cá nhân đăng ký sử dụng tên miền quốc gia Việt Nam “.vn” phải chịu trách nhiệm trước pháp luật về mục đích sử dụng và tính chính xác của các thông tin đăng ký và bảo đảm việc đăng ký, sử dụng tên miền quốc gia Việt Nam “.vn” không xâm phạm các quyền, lợi ích hợp pháp của tổ chức, cá nhân khác có trước ngày đăng ký.
+
+4. Bộ Bưu chính, Viễn thông quy định việc đăng ký, quản lý, sử dụng và giải quyết tranh chấp tên miền quốc gia Việt Nam “.vn”.
+
+Điều 69. Bảo vệ quyền sở hữu trí tuệ trong lĩnh vực công nghệ thông tin
+
+Việc bảo vệ quyền sở hữu trí tuệ trong lĩnh vực công nghệ thông tin phải thực hiện theo quy định của pháp luật về sở hữu trí tuệ và các quy định sau đây:
+
+1. Tổ chức, cá nhân truyền đưa thông tin trên môi trường mạng có quyền tạo ra bản sao tạm thời một tác phẩm được bảo hộ do yêu cầu kỹ thuật của hoạt động truyền đưa thông tin và bản sao tạm thời được lưu trữ trong khoảng thời gian đủ để thực hiện việc truyền đưa thông tin;
+
+2. Người sử dụng hợp pháp phần mềm được bảo hộ có quyền sao chép phần mềm đó để lưu trữ dự phòng và thay thế phần mềm bị phá hỏng mà không phải xin phép, không phải trả tiền bản quyền.
+
+Điều 70. Chống thư rác
+
+1. Tổ chức, cá nhân không được che giấu tên của mình hoặc giả mạo tên của tổ chức, cá nhân khác khi gửi thông tin trên môi trường mạng.
+
+2. Tổ chức, cá nhân gửi thông tin quảng cáo trên môi trường mạng phải bảo đảm cho người tiêu dùng khả năng từ chối nhận thông tin quảng cáo.
+
+3. Tổ chức, cá nhân không được tiếp tục gửi thông tin quảng cáo trên môi trường mạng đến người tiêu dùng nếu người tiêu dùng đó thông báo không đồng ý nhận thông tin quảng cáo.
+
+Điều 71. Chống vi rút máy tính và phần mềm gây hại
+
+Tổ chức, cá nhân không được tạo ra, cài đặt, phát tán vi rút máy tính, phần mềm gây hại vào thiết bị số của người khác để thực hiện một trong những hành vi sau đây:
+
+1. Thay đổi các tham số cài đặt của thiết bị số;
+
+2. Thu thập thông tin của người khác;
+
+3. Xóa bỏ, làm mất tác dụng của các phần mềm bảo đảm an toàn, an ninh thông tin được cài đặt trên thiết bị số;
+
+4. Ngăn chặn khả năng của người sử dụng xóa bỏ hoặc hạn chế sử dụng những phần mềm không cần thiết;
+
+5. Chiếm đoạt quyền điều khiển thiết bị số;
+
+6. Thay đổi, xóa bỏ thông tin lưu trữ trên thiết bị số;
+
+7. Các hành vi khác xâm hại quyền, lợi ích hợp pháp của người sử dụng.
+
+Điều 72. Bảo đảm an toàn, bí mật thông tin
+
+1. Thông tin riêng hợp pháp của tổ chức, cá nhân trao đổi, truyền đưa, lưu trữ trên môi trường mạng được bảo đảm bí mật theo quy định của pháp luật.
+
+2. Tổ chức, cá nhân không được thực hiện một trong những hành vi sau đây:
+
+a) Xâm nhập, sửa đổi, xóa bỏ nội dung thông tin của tổ chức, cá nhân khác trên môi trường mạng;
+
+b) Cản trở hoạt động cung cấp dịch vụ của hệ thống thông tin;
+
+c) Ngăn chặn việc truy nhập đến thông tin của tổ chức, cá nhân khác trên môi trường mạng, trừ trường hợp pháp luật cho phép;
+
+d) Bẻ khóa, trộm cắp, sử dụng mật khẩu, khóa mật mã và thông tin của tổ chức, cá nhân khác trên môi trường mạng;
+
+đ) Hành vi khác làm mất an toàn, bí mật thông tin của tổ chức, cá nhân khác được trao đổi, truyền đưa, lưu trữ trên môi trường mạng.
+
+Điều 73. Trách nhiệm bảo vệ trẻ em
+
+1. Nhà nước, xã hội và nhà trường có trách nhiệm sau đây:
+
+a) Bảo vệ trẻ em không bị tác động tiêu cực của thông tin trên môi trường mạng;
+
+b) Tiến hành các biện pháp phòng, chống các ứng dụng công nghệ thông tin có nội dung kích động bạo lực và khiêu dâm.
+
+2. Gia đình có trách nhiệm ngăn chặn trẻ em truy nhập thông tin không có lợi cho trẻ em.
+
+3. Cơ quan nhà nước có thẩm quyền tiến hành những biện pháp sau đây để ngăn ngừa trẻ em truy nhập thông tin không có lợi trên môi trường mạng:
+
+a) Tổ chức xây dựng và phổ biến sử dụng phần mềm lọc nội dung;
+
+b) Tổ chức xây dựng và phổ biến công cụ ngăn chặn trẻ em truy nhập thông tin không có lợi cho trẻ em;
+
+c) Hướng dẫn thiết lập và quản lý trang thông tin điện tử dành cho trẻ em nhằm mục đích thúc đẩy việc thiết lập các trang thông tin điện tử có nội dung thông tin phù hợp với trẻ em, không gây hại cho trẻ em; tăng cường khả năng quản lý nội dung thông tin trên môi trường mạng phù hợp với trẻ em, không gây hại cho trẻ em.
+
+4. Nhà cung cấp dịch vụ có biện pháp ngăn ngừa trẻ em truy nhập trên môi trường mạng thông tin không có lợi đối với trẻ em.
+
+5. Sản phẩm, dịch vụ công nghệ thông tin mang nội dung không có lợi cho trẻ em phải có dấu hiệu cảnh báo.
+
+Điều 74. Hỗ trợ người tàn tật
+
+1. Nhà nước khuyến khích và tạo điều kiện thuận lợi cho người tàn tật tham gia hoạt động ứng dụng và phát triển công nghệ thông tin, phát triển năng lực làm việc của người tàn tật thông qua ứng dụng và phát triển công nghệ thông tin; có chính sách ưu tiên cho người tàn tật tham gia các chương trình giáo dục và đào tạo về công nghệ thông tin.
+
+2. Chiến lược, kế hoạch, chính sách phát triển công nghệ thông tin quốc gia phải có nội dung hỗ trợ, bảo đảm cho người tàn tật hòa nhập với cộng đồng.
+
+3. Nhà nước có chính sách ưu đãi về thuế, tín dụng và ưu đãi khác cho hoạt động sau đây:
+
+a) Nghiên cứu - phát triển các công cụ và ứng dụng nhằm nâng cao khả năng của người tàn tật trong việc truy nhập, sử dụng các nguồn thông tin và tri thức thông qua sử dụng máy tính và cơ sở hạ tầng thông tin;
+
+b) Sản xuất, cung cấp công nghệ, thiết bị, dịch vụ, ứng dụng công nghệ thông tin và nội dung thông tin số đáp ứng nhu cầu đặc biệt của người tàn tật.
+
+Chương V
+
+GIẢI QUYẾT TRANH CHẤP VÀ XỬ LÝ VI PHẠM
+
+Điều 75. Giải quyết tranh chấp về công nghệ thông tin
+
+1. Tranh chấp về công nghệ thông tin là tranh chấp phát sinh trong hoạt động ứng dụng và phát triển công nghệ thông tin.
+
+2. Khuyến khích các bên giải quyết tranh chấp về công nghệ thông tin thông qua hòa giải; trong trường hợp các bên không hòa giải được thì giải quyết theo quy định của pháp luật.
+
+Điều 76 Hình thức giải quyết tranh chấp về đăng ký, sử dụng tên miền quốc gia Việt Nam “.vn”
+
+Tranh chấp về đăng ký, sử dụng tên miền quốc gia Việt Nam “.vn” được giải quyết theo các hình thức sau đây:
+
+1. Thông qua thương lượng, hòa giải;
+
+2. Thông qua trọng tài;
+
+3. Khởi kiện tại Tòa án.
+
+Điều 77. Xử lý vi phạm pháp luật về công nghệ thông tin
+
+1. Cá nhân có hành vi vi phạm pháp luật về công nghệ thông tin thì tùy theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật, xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+2. Tổ chức có hành vi vi phạm pháp luật về công nghệ thông tin thì tùy theo tính chất, mức độ vi phạm mà bị xử phạt hành chính, đình chỉ hoạt động, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+Chương VI
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 78. Hiệu lực thi hành
+
+Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2007.
+
+Điều 79. Hướng dẫn thi hành
+
+Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này.
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XI, kỳ họp thứ 9 thông qua ngày 29 tháng 6 năm 2006.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+ Nguyễn Phú Trọng
