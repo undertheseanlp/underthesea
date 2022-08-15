@@ -1,0 +1,2313 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Luật số: 105/2016/QH13
+
+Hà Nội, ngày 06 tháng 4 năm 2016
+
+
+
+LUẬT
+
+DƯỢC
+
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+
+Quốc hội ban hành Luật dược.
+
+Chương I
+
+NHỮNG QUY ÐỊNH CHUNG
+
+Điều 1. Phạm vi Điều chỉnh và đối tượng áp dụng
+
+1. Luật này quy định về chính sách của Nhà nước về dược và phát triển công nghiệp dược; hành nghề dược; kinh doanh dược; đăng ký, lưu hành, thu hồi thuốc và nguyên liệu làm thuốc; dược liệu và thuốc cổ truyền; đơn thuốc và sử dụng thuốc; thông tin thuốc, cảnh giác dược và quảng cáo thuốc; dược lâm sàng; quản lý thuốc trong cơ sở khám bệnh, chữa bệnh; thử thuốc trên lâm sàng và thử tương đương sinh học của thuốc; quản lý chất lượng thuốc, nguyên liệu làm thuốc và quản lý giá thuốc.
+
+2. Luật này áp dụng đối với cơ quan, tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có liên quan đến hoạt động dược tại Việt Nam.
+
+Điều 2. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Dược là thuốc và nguyên liệu làm thuốc.
+
+2. Thuốc là chế phẩm có chứa dược chất hoặc dược liệu dùng cho người nhằm Mục đích phòng bệnh, chẩn đoán bệnh, chữa bệnh, Điều trị bệnh, giảm nhẹ bệnh, Điều chỉnh chức năng sinh lý cơ thể người bao gồm thuốc hóa dược, thuốc dược liệu, thuốc cổ truyền, vắc xin và sinh phẩm.
+
+3. Nguyên liệu làm thuốc là thành phần tham gia vào cấu tạo của thuốc bao gồm dược chất, dược liệu, tá dược, vỏ nang được sử dụng trong quá trình sản xuất thuốc.
+
+4. Dược chất (còn gọi là hoạt chất) là chất hoặc hỗn hợp các chất dùng để sản xuất thuốc, có tác dụng dược lý hoặc có tác dụng trực tiếp trong phòng bệnh, chẩn đoán bệnh, chữa bệnh, Điều trị bệnh, giảm nhẹ bệnh, Điều chỉnh chức năng sinh lý cơ thể người.
+
+5. Dược liệu là nguyên liệu làm thuốc có nguồn gốc tự nhiên từ thực vật, động vật, khoáng vật và đạt tiêu chuẩn làm thuốc.
+
+6. Thuốc hóa dược là thuốc có chứa dược chất đã được xác định thành phần, công thức, độ tinh khiết và đạt tiêu chuẩn làm thuốc bao gồm cả thuốc tiêm được chiết xuất từ dược liệu, thuốc có kết hợp dược chất với các dược liệu đã được chứng minh về tính an toàn và hiệu quả.
+
+7. Thuốc dược liệu là thuốc có thành phần từ dược liệu và có tác dụng dựa trên bằng chứng khoa học, trừ thuốc cổ truyền quy định tại Khoản 8 Điều này.
+
+8. Thuốc cổ truyền (bao gồm cả vị thuốc cổ truyền) là thuốc có thành phần dược liệu được chế biến, bào chế hoặc phối ngũ theo lý luận và phương pháp của y học cổ truyền hoặc theo kinh nghiệm dân gian thành chế phẩm có dạng bào chế truyền thống hoặc hiện đại.
+
+9. Vị thuốc cổ truyền là dược liệu được chế biến theo lý luận và phương pháp của y học cổ truyền dùng để sản xuất thuốc cổ truyền hoặc dùng để phòng bệnh, chữa bệnh.
+
+10. Sinh phẩm (còn gọi là thuốc sinh học) là thuốc được sản xuất bằng công nghệ hoặc quá trình sinh học từ chất hoặc hỗn hợp các chất cao phân tử có nguồn gốc sinh học bao gồm cả dẫn xuất của máu và huyết tương người.
+
+Sinh phẩm không bao gồm kháng sinh, chất có nguồn gốc sinh học có phân tử lượng thấp có thể phân lập thành những chất tinh khiết và sinh phẩm chẩn đoán in vitro.
+
+11. Sinh phẩm tham chiếu (còn gọi là thuốc sinh học tham chiếu) là sinh phẩm được cấp phép lưu hành tại Việt Nam trên cơ sở có đầy đủ dữ liệu về chất lượng, an toàn, hiệu quả.
+
+12. Sinh phẩm tương tự (còn gọi là thuốc sinh học tương tự) là sinh phẩm có sự tương tự về chất lượng, an toàn, hiệu quả so với một thuốc sinh học tham chiếu.
+
+13. Vắc xin là thuốc chứa kháng nguyên tạo cho cơ thể khả năng đáp ứng miễn dịch được dùng với Mục đích phòng bệnh, chữa bệnh.
+
+14. Thuốc mới là thuốc có chứa dược chất mới, dược liệu lần đầu tiên được sử dụng làm thuốc tại Việt Nam; thuốc có sự kết hợp mới của các dược chất đã lưu hành hoặc các dược liệu đã từng sử dụng làm thuốc tại Việt Nam.
+
+15. Thuốc generic là thuốc có cùng dược chất, hàm lượng, dạng bào chế với biệt dược gốc và thường được sử dụng thay thế biệt dược gốc.
+
+16. Biệt dược gốc là thuốc đầu tiên được cấp phép lưu hành trên cơ sở có đầy đủ dữ liệu về chất lượng, an toàn, hiệu quả.
+
+17. Thuốc gây nghiện là thuốc có chứa dược chất kích thích hoặc ức chế thần kinh dễ gây ra tình trạng nghiện đối với người sử dụng thuộc Danh Mục dược chất gây nghiện do Bộ trưởng Bộ Y tế ban hành.
+
+18. Thuốc hướng thần là thuốc có chứa dược chất kích thích hoặc ức chế thần kinh hoặc gây ảo giác, nếu sử dụng nhiều lần có thể dẫn tới tình trạng nghiện đối với người sử dụng thuộc Danh Mục dược chất hướng thần do Bộ trưởng Bộ Y tế ban hành.
+
+19. Thuốc tiền chất là thuốc có chứa tiền chất thuộc Danh Mục tiền chất dùng làm thuốc do Bộ trưởng Bộ Y tế ban hành.
+
+20. Thuốc dạng phối hợp có chứa dược chất gây nghiện là thuốc có nhiều hoạt chất trong đó có hoạt chất gây nghiện với nồng độ, hàm lượng theo quy định của Bộ trưởng Bộ Y tế.
+
+21. Thuốc dạng phối hợp có chứa dược chất hướng thần là thuốc có nhiều hoạt chất trong đó có hoạt chất hướng thần với nồng độ, hàm lượng theo quy định của Bộ trưởng Bộ Y tế.
+
+22. Thuốc dạng phối hợp có chứa tiền chất là thuốc có nhiều dược chất trong đó có dược chất là tiền chất với nồng độ, hàm lượng theo quy định của Bộ trưởng Bộ Y tế.
+
+23. Thuốc phóng xạ là thuốc có chứa thành phần hạt nhân phóng xạ dùng cho người để chẩn đoán, Điều trị bệnh, nghiên cứu y sinh học bao gồm đồng vị phóng xạ hoặc đồng vị phóng xạ gắn kết với chất đánh dấu.
+
+24. Đồng vị phóng xạ là đồng vị của một nguyên tố hóa học mà hạt nhân nguyên tử của nguyên tố đó ở trạng thái không ổn định và phát ra bức xạ ion hóa trong quá trình phân rã để trở thành trạng thái ổn định.
+
+25. Chất đánh dấu (còn gọi là chất dẫn, chất mang) là chất hoặc hợp chất dùng để pha chế, gắn kết với đồng vị phóng xạ tạo thành thuốc phóng xạ.
+
+26. Thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt (sau đây gọi tắt là thuốc phải kiểm soát đặc biệt) bao gồm:
+
+a) Thuốc quy định tại các Khoản 17, 18, 19, 20, 21, 22, 23 và 24 Điều này;
+
+b) Nguyên liệu làm thuốc là dược chất hướng thần, chất gây nghiện, tiền chất dùng làm thuốc hoặc chất phóng xạ để sản xuất thuốc quy định tại các Khoản 17, 18, 19, 20, 21, 22, 23 và 24 Điều này;
+
+c) Thuốc độc, nguyên liệu độc làm thuốc thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành;
+
+d) Thuốc, dược chất thuộc danh Mục chất bị cấm sử dụng trong một số ngành, lĩnh vực cụ thể theo quy định của Chính phủ.
+
+27. Thuốc không kê đơn là thuốc khi cấp phát, bán lẻ và sử dụng không cần đơn thuốc thuộc Danh Mục thuốc không kê đơn do Bộ trưởng Bộ Y tế ban hành.
+
+28. Thuốc kê đơn là thuốc khi cấp phát, bán lẻ và sử dụng phải có đơn thuốc, nếu sử dụng không theo đúng chỉ định của người kê đơn thì có thể nguy hiểm tới tính mạng, sức khỏe.
+
+29. Thuốc thiết yếu là thuốc đáp ứng nhu cầu chăm sóc sức khỏe của đa số Nhân dân thuộc Danh Mục thuốc thiết yếu do Bộ trưởng Bộ Y tế ban hành.
+
+30. Thuốc hiếm là thuốc để phòng, chẩn đoán, Điều trị bệnh hiếm gặp hoặc thuốc không sẵn có theo quy định của Bộ trưởng Bộ Y tế.
+
+31. Hạn dùng của thuốc là thời gian sử dụng ấn định cho thuốc mà sau thời hạn này thuốc không được phép sử dụng.
+
+Hạn dùng của thuốc được thể hiện bằng Khoảng thời gian tính từ ngày sản xuất đến ngày hết hạn hoặc thể hiện bằng ngày, tháng, năm hết hạn. Trường hợp hạn dùng chỉ thể hiện tháng, năm thì hạn dùng được tính đến ngày cuối cùng của tháng hết hạn.
+
+32. Thuốc không đạt tiêu chuẩn chất lượng là thuốc không đạt tiêu chuẩn chất lượng đã đăng ký với cơ quan nhà nước có thẩm quyền.
+
+33. Thuốc giả là thuốc được sản xuất thuộc một trong các trường hợp sau đây:
+
+a) Không có dược chất, dược liệu;
+
+b) Có dược chất không đúng với dược chất ghi trên nhãn hoặc theo tiêu chuẩn đã đăng ký lưu hành hoặc ghi trong giấy phép nhập khẩu;
+
+c) Có dược chất, dược liệu nhưng không đúng hàm lượng, nồng độ hoặc khối lượng đã đăng ký lưu hành hoặc ghi trong giấy phép nhập khẩu, trừ thuốc không đạt tiêu chuẩn chất lượng quy định tại Khoản 32 Điều này trong quá trình bảo quản, lưu thông phân phối;
+
+d) Được sản xuất, trình bày hoặc dán nhãn nhằm mạo danh nhà sản xuất, nước sản xuất hoặc nước xuất xứ.
+
+34. Dược liệu giả là dược liệu thuộc một trong các trường hợp sau đây:
+
+a) Không đúng loài, bộ phận hoặc nguồn gốc được cơ sở kinh doanh cố ý ghi trên nhãn hoặc ghi trong tài liệu kèm theo;
+
+b) Bị cố ý trộn lẫn hoặc thay thế bằng thành phần không phải là dược liệu ghi trên nhãn; dược liệu bị cố ý chiết xuất hoạt chất;
+
+c) Được sản xuất, trình bày hoặc dán nhãn nhằm mạo danh nhà sản xuất, nước sản xuất hoặc nước xuất xứ.
+
+35. Phản ứng có hại của thuốc là phản ứng không mong muốn, có hại đến sức khỏe, có thể xảy ra ở liều dùng bình thường.
+
+36. Hành nghề dược là việc sử dụng trình độ chuyên môn của cá nhân để kinh doanh dược và hoạt động dược lâm sàng.
+
+37. Thực hành tốt là bộ nguyên tắc, tiêu chuẩn về sản xuất, bảo quản, kiểm nghiệm, lưu thông thuốc, kê đơn thuốc, thử thuốc trên lâm sàng, nuôi trồng, thu hái dược liệu và các bộ nguyên tắc, tiêu chuẩn khác do Bộ trưởng Bộ Y tế ban hành hoặc công bố áp dụng trên cơ sở hướng dẫn của Tổ chức Y tế Thế giới hoặc của các tổ chức quốc tế khác mà Việt Nam là thành viên hoặc công nhận.
+
+38. Sinh khả dụng là đặc tính biểu thị tốc độ và mức độ hấp thu của dược chất hoặc chất có tác dụng từ một thuốc vào cơ thể để dược chất hoặc chất có tác dụng đó xuất hiện tại nơi có tác dụng trong cơ thể.
+
+39. Tương đương sinh học là sự tương tự nhau về sinh khả dụng giữa hai thuốc khi được so sánh trong cùng một Điều kiện thử nghiệm.
+
+40. Dược lâm sàng là hoạt động nghiên cứu khoa học và thực hành dược về tư vấn sử dụng thuốc hợp lý, an toàn, hiệu quả nhằm tối ưu hóa việc sử dụng thuốc.
+
+41. Cảnh giác dược là việc phát hiện, đánh giá và phòng tránh các bất lợi liên quan đến quá trình sử dụng thuốc.
+
+42. Bao bì tiếp xúc trực tiếp với thuốc là bao bì chứa đựng thuốc, tiếp xúc trực tiếp với thuốc, tạo ra hình khối hoặc bọc kín theo hình khối của thuốc.
+
+43. Kinh doanh dược là việc thực hiện một, một số hoặc tất cả các công đoạn của quá trình đầu tư, từ sản xuất đến tiêu thụ sản phẩm hoặc cung ứng dịch vụ liên quan đến thuốc và nguyên liệu làm thuốc trên thị trường nhằm Mục đích sinh lời.
+
+Điều 3. Dự trữ quốc gia về thuốc, nguyên liệu làm thuốc
+
+1. Nhà nước thực hiện dự trữ quốc gia về thuốc và nguyên liệu làm thuốc để sử dụng trong trường hợp sau đây:
+
+a) Phòng, chống dịch bệnh và khắc phục hậu quả thiên tai, thảm họa;
+
+b) Bảo đảm quốc phòng, an ninh;
+
+c) Phòng, chẩn đoán và Điều trị các bệnh hiếm gặp;
+
+d) Thuốc không sẵn có.
+
+2. Việc xây dựng, tổ chức, quản lý, Điều hành và sử dụng thuốc, nguyên liệu làm thuốc dự trữ quốc gia thực hiện theo quy định của pháp luật về dự trữ quốc gia.
+
+Điều 4. Cơ quan quản lý nhà nước về dược
+
+1. Chính phủ thống nhất quản lý nhà nước về dược.
+
+2. Bộ Y tế chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về dược.
+
+3. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về dược và phối hợp với Bộ Y tế trong việc thực hiện quản lý nhà nước về dược theo phân công của Chính phủ.
+
+4. Ủy ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về dược tại địa phương.
+
+Điều 5. Hội về dược
+
+1. Hội về dược là tổ chức xã hội - nghề nghiệp hoạt động trong lĩnh vực dược.
+
+2. Tổ chức, cá nhân hoạt động trong lĩnh vực dược có quyền tham gia và thành lập hội về dược.
+
+3. Tổ chức và hoạt động của hội về dược được thực hiện theo quy định của Luật này và pháp luật về hội.
+
+4. Hội về dược có các trách nhiệm và quyền hạn sau đây:
+
+a) Ban hành quy tắc đạo đức nghề nghiệp trong hành nghề dược trên cơ sở nguyên tắc đạo đức hành nghề dược do Bộ trưởng Bộ Y tế ban hành;
+
+b) Tham gia xây dựng, tổ chức triển khai, giám sát thi hành văn bản quy phạm pháp luật về dược;
+
+c) Tham gia giám sát việc hành nghề dược, thực hiện đạo đức hành nghề dược và phản biện xã hội hoạt động liên quan đến dược;
+
+d) Tham gia đào tạo, cập nhật kiến thức chuyên môn về dược;
+
+đ) Tham gia Hội đồng tư vấn cấp Chứng chỉ hành nghề dược.
+
+Điều 6. Những hành vi bị nghiêm cấm
+
+1. Kinh doanh dược mà không có Giấy chứng nhận đủ Điều kiện kinh doanh dược hoặc trong thời gian bị đình chỉ hoạt động hoặc trong thời gian bị tước quyền sử dụng Giấy chứng nhận đủ Điều kiện kinh doanh dược.
+
+2. Kinh doanh dược tại nơi không phải là địa Điểm kinh doanh dược đã đăng ký.
+
+3. Kinh doanh thuốc, nguyên liệu làm thuốc quy định tại Khoản 26 Điều 2 của Luật này và thuốc, nguyên liệu làm thuốc khác không đúng Mục đích hoặc cung cấp không đúng đối tượng mà cơ quan quản lý nhà nước có thẩm quyền cho phép.
+
+4. Kinh doanh dược không thuộc phạm vi chuyên môn được ghi trong Giấy chứng nhận đủ Điều kiện kinh doanh dược.
+
+5. Kinh doanh dược thuộc một trong các trường hợp sau đây:
+
+a) Thuốc giả, nguyên liệu làm thuốc giả;
+
+b) Thuốc, nguyên liệu làm thuốc không đạt tiêu chuẩn chất lượng; thuốc, nguyên liệu làm thuốc đã có thông báo thu hồi của cơ quan nhà nước có thẩm quyền; thuốc, nguyên liệu làm thuốc không rõ nguồn gốc, xuất xứ; thuốc, nguyên liệu làm thuốc đã hết hạn dùng;
+
+c) Thuốc, nguyên liệu làm thuốc thuộc danh Mục thuốc, nguyên liệu làm thuốc cấm nhập khẩu, cấm sản xuất;
+
+d) Thuốc thử lâm sàng;
+
+đ) Thuốc, nguyên liệu làm thuốc làm mẫu để đăng ký, kiểm nghiệm, nghiên cứu khoa học, tham gia trưng bày tại triển lãm, hội chợ;
+
+e) Thuốc, nguyên liệu làm thuốc chưa được phép lưu hành;
+
+g) Thuốc thuộc chương trình Mục tiêu quốc gia, thuốc viện trợ và thuốc khác có quy định không được bán;
+
+h) Bán lẻ thuốc kê đơn mà không có đơn thuốc; bán lẻ vắc xin;
+
+i) Bán thuốc cao hơn giá kê khai, giá niêm yết.
+
+6. Làm giả, sửa chữa hồ sơ, giấy tờ, tài liệu, giấy chứng nhận của cơ quan, tổ chức có thẩm quyền và tổ chức, cá nhân trong các hoạt động về dược.
+
+7. Thay đổi, sửa chữa hạn dùng của thuốc, trừ trường hợp thay đổi hạn dùng của thuốc quy định tại Khoản 3 Điều 61 của Luật này.
+
+8. Hành nghề mà không có Chứng chỉ hành nghề dược hoặc trong thời gian bị tước quyền sử dụng Chứng chỉ hành nghề dược tại vị trí công việc quy định tại Điều 11 của Luật này.
+
+9. Thuê, mượn, cho thuê, cho mượn hoặc cho người khác sử dụng Chứng chỉ hành nghề dược, Giấy chứng nhận đủ Điều kiện kinh doanh dược để hành nghề hoặc kinh doanh dược.
+
+10. Quảng cáo trong trường hợp sau đây:
+
+a) Quảng cáo thuốc khi chưa được cơ quan quản lý nhà nước có thẩm quyền xác nhận nội dung hoặc không đúng với nội dung đã được xác nhận;
+
+b) Sử dụng chứng nhận chưa được Bộ Y tế công nhận, sử dụng lợi ích vật chất, lợi dụng danh nghĩa của tổ chức, cá nhân, các loại biểu tượng, hình ảnh, địa vị, uy tín, thư tín, thư cảm ơn để quảng cáo thuốc;
+
+c) Sử dụng kết quả nghiên cứu lâm sàng, kết quả nghiên cứu tiền lâm sàng, kết quả kiểm nghiệm, kết quả thử tương đương sinh học chưa được Bộ Y tế công nhận để quảng cáo thuốc.
+
+11. Khuyến mại thuốc trái quy định của pháp luật.
+
+12. Lợi dụng việc kê đơn thuốc để trục lợi.
+
+13. Sản xuất, pha chế, bán thuốc cổ truyền có kết hợp với dược chất khi chưa được phép của cơ quan quản lý nhà nước có thẩm quyền.
+
+14. Cấp phát, bán thuốc đã hết hạn dùng, thuốc bảo quản không đúng quy định ghi trên nhãn thuốc, thuốc đã có thông báo thu hồi của cơ quan nhà nước có thẩm quyền, thuốc không rõ nguồn gốc, xuất xứ cho người sử dụng.
+
+15. Thông tin, quảng cáo, tiếp thị, kê đơn, tư vấn, ghi nhãn, hướng dẫn sử dụng có nội dung dùng để phòng bệnh, chữa bệnh, chẩn đoán bệnh, Điều trị bệnh, giảm nhẹ bệnh, Điều chỉnh chức năng sinh lý cơ thể người đối với sản phẩm không phải là thuốc, trừ trang thiết bị y tế.
+
+16. Xuất khẩu dược liệu thuộc danh Mục loài, chủng loại dược liệu quý, hiếm, đặc hữu phải kiểm soát khi chưa được phép của cơ quan quản lý nhà nước có thẩm quyền.
+
+Chương II
+
+CHÍNH SÁCH CỦA NHÀ NƯỚC VỀ DƯỢC VÀ PHÁT TRIỂN CÔNG NGHIỆP DƯỢC
+
+Điều 7. Chính sách của Nhà nước về dược
+
+1. Bảo đảm cung ứng đủ, kịp thời thuốc có chất lượng, giá hợp lý cho nhu cầu phòng bệnh, chữa bệnh của Nhân dân, phù hợp với cơ cấu bệnh tật và yêu cầu quốc phòng, an ninh, phòng, chống dịch bệnh, khắc phục hậu quả thiên tai, thảm họa và thuốc hiếm.
+
+2. Bảo đảm sử dụng thuốc hợp lý, an toàn, hiệu quả; ưu tiên phát triển hoạt động dược lâm sàng và cảnh giác dược.
+
+3. Ưu đãi đầu tư sản xuất thuốc, nguyên liệu làm thuốc, thuốc thiết yếu, thuốc phòng, chống bệnh xã hội, vắc xin, sinh phẩm, thuốc dược liệu, thuốc cổ truyền, thuốc hiếm; ưu đãi nghiên cứu khoa học về công nghệ bào chế, công nghệ sinh học để sản xuất các loại thuốc mới.
+
+4. Đối với thuốc mua từ nguồn vốn ngân sách nhà nước, quỹ bảo hiểm y tế, nguồn thu từ dịch vụ khám bệnh, chữa bệnh và các nguồn thu hợp pháp khác của cơ sở y tế công lập thực hiện như sau:
+
+a) Không chào thầu thuốc nhập khẩu thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành trên cơ sở nhóm tiêu chí kỹ thuật khi thuốc sản xuất trong nước đáp ứng yêu cầu về Điều trị, giá thuốc và khả năng cung cấp.
+
+Ưu tiên mua thuốc generic, sinh phẩm tương tự đầu tiên sản xuất trong nước được cấp giấy đăng ký lưu hành tại Việt Nam; thuốc dược liệu, thuốc cổ truyền được sản xuất từ nguồn dược liệu trong nước; thuốc có sử dụng dược chất, tá dược, vỏ nang hoặc bao bì tiếp xúc trực tiếp với thuốc được sản xuất bởi cơ sở trong nước đáp ứng Thực hành tốt sản xuất; dược liệu tươi; thuốc dược liệu, thuốc cổ truyền được sản xuất trên cơ sở nhiệm vụ khoa học và công nghệ cấp quốc gia, cấp bộ hoặc cấp tỉnh;
+
+b) Không chào thầu dược liệu nhập khẩu thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành khi dược liệu được nuôi trồng, thu hái trong nước đáp ứng yêu cầu về Điều trị và khả năng cung cấp, giá hợp lý.
+
+Chính phủ quy định về giá hợp lý tại Điểm này;
+
+c) Ưu tiên mua thuốc thuộc Danh Mục sản phẩm quốc gia.
+
+5. Tạo Điều kiện thuận lợi về trình tự, thủ tục nộp đơn đăng ký lưu hành thuốc generic sắp hết hạn bằng sáng chế hoặc độc quyền có liên quan, sinh phẩm tương tự đầu tiên; ưu tiên về trình tự, thủ tục đăng ký lưu hành, cấp phép nhập khẩu thuốc hiếm, vắc xin đã được Tổ chức Y tế Thế giới tiền thẩm định.
+
+6. Kết hợp đầu tư ngân sách nhà nước với huy động các nguồn lực khác cho phát triển công nghiệp sản xuất vắc xin, sinh phẩm, thuốc dược liệu, thuốc cổ truyền, thuốc sắp hết hạn bằng sáng chế hoặc độc quyền có liên quan; nuôi trồng, sản xuất dược liệu; phát hiện, bảo tồn và ứng dụng khoa học, công nghệ trong nghiên cứu, phát triển nguồn gen dược liệu quý, hiếm, đặc hữu.
+
+7. Hỗ trợ, tạo Điều kiện phát hiện, thử lâm sàng, đăng ký bảo hộ quyền sở hữu trí tuệ có liên quan, đăng ký lưu hành và kế thừa đối với thuốc cổ truyền, thuốc dược liệu có đề tài khoa học và công nghệ cấp quốc gia, cấp bộ hoặc cấp tỉnh đã được nghiệm thu; tìm kiếm, khai thác, sử dụng dược liệu mới; xuất khẩu dược liệu nuôi trồng; di thực dược liệu; khai thác dược liệu thiên nhiên hợp lý; nghiên cứu, khảo sát, Điều tra loài dược liệu phù hợp để nuôi trồng tại địa phương; phát triển các vùng nuôi trồng dược liệu; hiện đại hóa sản xuất dược liệu, thuốc dược liệu, thuốc cổ truyền.
+
+8. Có chính sách bảo vệ bí mật trong bào chế, chế biến và dữ liệu thử nghiệm lâm sàng thuốc cổ truyền; đãi ngộ hợp lý đối với người hiến tặng cho Nhà nước bài thuốc cổ truyền quý; tạo Điều kiện để cấp chứng chỉ hành nghề y, dược cổ truyền cho người sở hữu bài thuốc gia truyền được Bộ Y tế công nhận.
+
+9. Khuyến khích chuyển giao công nghệ trong sản xuất thuốc; phát triển mạng lưới lưu thông phân phối, chuỗi nhà thuốc, bảo quản và cung ứng thuốc theo hướng chuyên nghiệp, hiện đại và hiệu quả, bảo đảm cung ứng kịp thời, đầy đủ thuốc có chất lượng, đáp ứng nhu cầu sử dụng thuốc của Nhân dân; khuyến khích nhà thuốc, quầy thuốc hoạt động 24/24 giờ.
+
+Ưu đãi đầu tư, hỗ trợ phát triển hệ thống cung ứng thuốc, cơ sở bán lẻ thuốc lưu động cho đồng bào dân tộc thiểu số, đồng bào ở miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn.
+
+10. Huy động cơ sở y tế thuộc lực lượng vũ trang nhân dân tham gia cung ứng thuốc và nuôi trồng dược liệu nhằm đáp ứng nhu cầu phòng bệnh, chữa bệnh của Nhân dân tại vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn.
+
+11. Có chính sách nâng cao chất lượng nguồn nhân lực dược; ưu tiên trong hành nghề dược đối với người được cấp Chứng chỉ hành nghề dược theo hình thức thi theo quy định của Chính phủ.
+
+Điều 8. Lĩnh vực ưu tiên trong phát triển công nghiệp dược
+
+1. Nghiên cứu sản xuất nguyên liệu làm thuốc từ nguồn dược liệu sẵn có tại Việt Nam để phục vụ công nghiệp bào chế, sản xuất thuốc dược liệu, thuốc cổ truyền.
+
+2. Sản xuất thuốc ngay khi hết hạn bằng sáng chế hoặc các độc quyền có liên quan, vắc xin, sinh phẩm, dược liệu, thuốc dược liệu, thuốc cổ truyền, thuốc hiếm.
+
+3. Phát triển nguồn dược liệu, vùng nuôi trồng dược liệu; bảo tồn nguồn gen và phát triển những loài, chủng loại dược liệu quý, hiếm, đặc hữu.
+
+4. Các hình thức ưu đãi đầu tư và hỗ trợ đầu tư cho lĩnh vực ưu tiên phát triển công nghiệp dược được thực hiện theo quy định của pháp luật về đầu tư.
+
+Điều 9. Quy hoạch phát triển công nghiệp dược
+
+1. Quy hoạch phát triển công nghiệp dược bao gồm các quy hoạch về sản xuất, phân phối, bảo quản, kiểm nghiệm thuốc, nguyên liệu làm thuốc, phát triển nguồn dược liệu làm thuốc và vùng nuôi trồng dược liệu.
+
+2. Quy hoạch phát triển công nghiệp dược phải đáp ứng các yêu cầu sau đây:
+
+a) Phù hợp với quy định của Luật này và quy định khác của pháp luật có liên quan;
+
+b) Phù hợp với chiến lược phát triển kinh tế - xã hội của đất nước trong từng thời kỳ; bảo vệ môi trường và phát triển bền vững;
+
+c) Định hướng tập trung, hiện đại hóa và chuyên môn hóa;
+
+d) Dự báo khoa học, đáp ứng được yêu cầu thực tế và phù hợp với xu thế phát triển, hội nhập quốc tế.
+
+3. Đối với quy hoạch phát triển sản xuất dược liệu, thuốc dược liệu, thuốc cổ truyền, quy hoạch phát triển nguồn dược liệu làm thuốc và vùng nuôi trồng dược liệu, ngoài quy định tại Khoản 2 Điều này còn phải đáp ứng các yêu cầu sau đây:
+
+a) Khai thác và sử dụng hợp lý nguồn tài nguyên thiên nhiên; phù hợp với Điều kiện thổ nhưỡng, khí hậu, sinh thái và Điều kiện tự nhiên, xã hội của từng địa phương;
+
+b) Định hướng sản xuất, bào chế dược liệu quy mô công nghiệp, phát triển vùng nuôi trồng dược liệu, bảo tồn nguồn gen và phát triển những loài, chủng loại dược liệu quý, hiếm, đặc hữu trên cơ sở tăng cường đầu tư kỹ thuật, công nghệ tiên tiến, kết hợp với kinh nghiệm truyền thống.
+
+4. Việc lập, phê duyệt, quản lý quy hoạch phát triển công nghiệp dược được thực hiện theo quy định của pháp luật.
+
+Điều 10. Trách nhiệm trong phát triển công nghiệp dược
+
+1. Bộ Y tế có các trách nhiệm sau đây:
+
+a) Chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành và tổ chức triển khai thực hiện văn bản quy phạm pháp luật, chiến lược, chính sách, quy hoạch, kế hoạch phát triển công nghiệp dược;
+
+b) Chủ trì, phối hợp với Bộ Giáo dục và Đào tạo xây dựng kế hoạch đào tạo, sử dụng nhân lực đối với hoạt động nghiên cứu, sản xuất thuốc generic, vắc xin, sinh phẩm, thuốc dược liệu, thuốc cổ truyền, thuốc hiếm;
+
+c) Chủ trì, phối hợp với Bộ Tài nguyên và Môi trường, Bộ Nông nghiệp và Phát triển nông thôn và các cơ quan có liên quan trong việc quy hoạch phát triển vùng nuôi trồng dược liệu, tổ chức triển khai các biện pháp bảo tồn, khai thác, sử dụng hợp lý và bền vững nguồn dược liệu;
+
+d) Chủ trì, phối hợp với Bộ Nông nghiệp và Phát triển nông thôn và bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan ban hành danh Mục loài, chủng loại dược liệu quý, hiếm, đặc hữu phải kiểm soát.
+
+2. Bộ Công thương có trách nhiệm chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành và tổ chức triển khai thực hiện văn bản quy phạm pháp luật, quy hoạch, kế hoạch về phát triển công nghiệp hóa dược.
+
+3. Bộ Nông nghiệp và Phát triển nông thôn có các trách nhiệm sau đây:
+
+a) Chủ trì, phối hợp với Bộ Y tế, Bộ Khoa học và Công nghệ trong việc nghiên cứu khoa học trong chọn, tạo giống, nuôi trồng và thu hái dược liệu; nghiên cứu và phổ biến kỹ thuật nuôi trồng, phòng, chống bệnh hại trên cây thuốc, động vật làm thuốc;
+
+b) Chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan trình Chính phủ ban hành chính sách đặc thù về giống, vốn và công nghệ trong phát triển nuôi trồng, khai thác dược liệu.
+
+4. Bộ Tài nguyên và Môi trường có trách nhiệm chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan trình Chính phủ ban hành chính sách về tiếp cận nguồn gen dược liệu và chia sẻ lợi ích từ việc sử dụng nguồn gen dược liệu.
+
+5. Bộ Kế hoạch và Đầu tư có các trách nhiệm sau đây:
+
+a) Bố trí và cân đối các nguồn lực đầu tư cho phát triển công nghiệp dược, vận động các nguồn vốn nước ngoài ưu tiên dành cho phát triển công nghiệp dược;
+
+b) Chủ trì, phối hợp với Bộ Tài chính và bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan xây dựng và trình cấp có thẩm quyền ban hành các quy định cụ thể chính sách ưu đãi đầu tư, hỗ trợ đầu tư trong lĩnh vực dược quy định tại Điều 8 của Luật này.
+
+6. Bộ Tài chính có các trách nhiệm sau đây:
+
+a) Chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan xây dựng cơ chế tài chính, huy động và bảo đảm nguồn lực để thực hiện quy hoạch, kế hoạch phát triển công nghiệp dược trình cấp có thẩm quyền phê duyệt;
+
+b) Chủ trì, phối hợp với Bộ Công Thương, Bộ Quốc phòng, Bộ Y tế, Ủy ban nhân dân cấp tỉnh nơi có cửa khẩu và biên giới trong việc quản lý, kiểm soát nhập khẩu thuốc, nguyên liệu làm thuốc chưa được phép lưu hành, nhập khẩu dược liệu chưa được phép của cơ quan nhà nước có thẩm quyền, xuất khẩu dược liệu thuộc danh Mục loài, chủng loại dược liệu quý, hiếm, đặc hữu phải kiểm soát.
+
+7. Bộ Khoa học và Công nghệ có các trách nhiệm sau đây:
+
+a) Trình cấp có thẩm quyền hoặc bố trí theo thẩm quyền kinh phí từ ngân sách nhà nước hằng năm cho hoạt động khoa học và công nghệ để triển khai nghiên cứu và đưa vào ứng dụng kết quả nghiên cứu trong sản xuất thuốc, đặc biệt đối với thuốc thuộc Danh Mục sản phẩm quốc gia;
+
+b) Chủ trì, phối hợp với Bộ Nông nghiệp và Phát triển nông thôn, Bộ Y tế tổ chức nghiên cứu, bảo tồn nguồn gen và phát triển nguồn dược liệu quý, hiếm, đặc hữu;
+
+c) Chủ trì, phối hợp với Bộ Y tế xây dựng cơ chế, chính sách bảo hộ sở hữu trí tuệ đối với thuốc cổ truyền.
+
+8. Ủy ban nhân dân cấp tỉnh có các trách nhiệm sau đây:
+
+a) Lập, phê duyệt quy hoạch, kế hoạch phát triển công nghiệp dược, phát triển dược liệu (bao gồm cả việc khai thác và bảo tồn nguồn dược liệu tự nhiên) của địa phương phù hợp với quy hoạch, kế hoạch phát triển công nghiệp dược cấp quốc gia, Mục tiêu phát triển kinh tế - xã hội và lợi thế của địa phương;
+
+b) Bố trí quỹ đất cho xây dựng nhà máy, khu công nghiệp dược; ưu tiên bố trí giao đất cho dự án phát triển nguồn dược liệu làm thuốc, vùng nuôi trồng dược liệu theo quy định của pháp luật về đất đai.
+
+Chương III
+
+HÀNH NGHỀ DƯỢC
+
+Mục 1. CHỨNG CHỈ HÀNH NGHỀ DƯỢC
+
+Điều 11. Vị trí công việc phải có Chứng chỉ hành nghề dược
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dược.
+
+2. Người phụ trách về bảo đảm chất lượng của cơ sở sản xuất thuốc, nguyên liệu làm thuốc.
+
+3. Người phụ trách công tác dược lâm sàng của cơ sở khám bệnh, chữa bệnh.
+
+Điều 12. Cấp, cấp lại, Điều chỉnh nội dung Chứng chỉ hành nghề dược
+
+1. Cấp Chứng chỉ hành nghề dược được thực hiện theo hình thức xét duyệt cho người đề nghị hoặc hình thức thi cho người có nhu cầu và áp dụng đối với trường hợp sau đây:
+
+a) Người đề nghị cấp Chứng chỉ hành nghề dược lần đầu;
+
+b) Người đã được cấp Chứng chỉ hành nghề dược nhưng Chứng chỉ hành nghề dược bị thu hồi theo quy định tại Điều 28 của Luật này.
+
+Trường hợp bị thu hồi Chứng chỉ hành nghề dược theo quy định tại Khoản 4, 6, 10 hoặc 11 Điều 28 của Luật này thì Chứng chỉ hành nghề dược chỉ được cấp sau 12 tháng kể từ ngày bị thu hồi.
+
+2. Cấp lại Chứng chỉ hành nghề dược áp dụng đối với trường hợp bị mất hoặc hư hỏng.
+
+3. Điều chỉnh nội dung Chứng chỉ hành nghề dược áp dụng đối với trường hợp người đã được cấp Chứng chỉ hành nghề dược nhưng có thay đổi phạm vi hành nghề, hình thức cấp Chứng chỉ hành nghề dược hoặc thông tin của người được cấp Chứng chỉ hành nghề dược.
+
+Điều 13. Điều kiện cấp Chứng chỉ hành nghề dược
+
+1. Có văn bằng, chứng chỉ, giấy chứng nhận chuyên môn (sau đây gọi chung là văn bằng chuyên môn) được cấp hoặc công nhận tại Việt Nam phù hợp với vị trí công việc và cơ sở kinh doanh dược bao gồm:
+
+a) Bằng tốt nghiệp đại học ngành dược (sau đây gọi là Bằng dược sỹ);
+
+b) Bằng tốt nghiệp đại học ngành y đa khoa;
+
+c) Bằng tốt nghiệp đại học ngành y học cổ truyền hoặc đại học ngành dược cổ truyền;
+
+d) Bằng tốt nghiệp đại học ngành sinh học;
+
+đ) Bằng tốt nghiệp đại học ngành hóa học;
+
+e) Bằng tốt nghiệp cao đẳng ngành dược;
+
+g) Bằng tốt nghiệp trung cấp ngành dược;
+
+h) Bằng tốt nghiệp cao đẳng, trung cấp ngành y;
+
+i) Bằng tốt nghiệp trung cấp y học cổ truyền hoặc dược cổ truyền;
+
+k) Văn bằng, chứng chỉ sơ cấp dược;
+
+l) Giấy chứng nhận về lương y, giấy chứng nhận về lương dược, giấy chứng nhận bài thuốc gia truyền hoặc văn bằng, chứng chỉ, giấy chứng nhận khác về y dược cổ truyền được cấp trước ngày Luật này có hiệu lực.
+
+Việc áp dụng Điều kiện về văn bằng, chứng chỉ, giấy chứng nhận quy định tại Điểm l Khoản này do Bộ trưởng Bộ Y tế quy định phù hợp với Điều kiện phát triển kinh tế - xã hội và nhu cầu khám bệnh, chữa bệnh của Nhân dân ở từng địa phương trong từng thời kỳ.
+
+2. Có thời gian thực hành tại cơ sở kinh doanh dược, bộ phận dược của cơ sở khám bệnh, chữa bệnh, trường đào tạo chuyên ngành dược, cơ sở nghiên cứu dược, cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc, cơ quan quản lý về dược hoặc văn phòng đại diện của thương nhân nước ngoài hoạt động trong lĩnh vực dược tại Việt Nam (sau đây gọi chung là cơ sở dược); cơ sở khám bệnh, chữa bệnh phù hợp với chuyên môn của người hành nghề theo quy định sau đây:
+
+a) Đối với người bị thu hồi Chứng chỉ hành nghề dược theo quy định tại Khoản 9 Điều 28 của Luật này thì không yêu cầu thời gian thực hành nhưng phải cập nhật kiến thức chuyên môn về dược;
+
+b) Đối với người có trình độ chuyên khoa sau đại học phù hợp với phạm vi hành nghề thì được giảm thời gian thực hành theo quy định của Chính phủ;
+
+c) Đối với người có văn bằng chuyên môn quy định tại Điểm l Khoản 1 Điều 13 của Luật này thì thời gian thực hành theo quy định của Bộ trưởng Bộ Y tế.
+
+3. Có giấy chứng nhận đủ sức khỏe để hành nghề dược do cơ sở y tế có thẩm quyền cấp.
+
+4. Không thuộc một trong các trường hợp sau đây:
+
+a) Đang bị truy cứu trách nhiệm hình sự, đang chấp hành bản án, quyết định của Tòa án; trong thời gian bị cấm hành nghề, cấm làm công việc liên quan đến hoạt động dược theo bản án, quyết định của Tòa án;
+
+b) Bị hạn chế năng lực hành vi dân sự.
+
+5. Đối với người tự nguyện xin cấp Chứng chỉ hành nghề dược theo hình thức thi, phải đáp ứng đủ Điều kiện theo quy định tại Điều này.
+
+Điều 14. Điều kiện cấp Chứng chỉ hành nghề dược tại Việt Nam đối với người nước ngoài và người Việt Nam định cư ở nước ngoài
+
+1. Có đủ Điều kiện theo quy định tại Điều 13 của Luật này.
+
+2. Đáp ứng yêu cầu về sử dụng ngôn ngữ trong hành nghề dược theo quy định của Bộ trưởng Bộ Y tế.
+
+Điều 15. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược và người phụ trách về bảo đảm chất lượng của cơ sở sản xuất thuốc, nguyên liệu làm thuốc
+
+1. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở sản xuất thuốc, nguyên liệu làm thuốc là dược chất, tá dược, vỏ nang được quy định như sau:
+
+a) Người chịu trách nhiệm chuyên môn về dược của cơ sở sản xuất thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 05 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Điểm c Khoản này;
+
+b) Người chịu trách nhiệm chuyên môn về dược của cơ sở sản xuất nguyên liệu làm thuốc là dược chất, tá dược, vỏ nang phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm đ Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở dược phù hợp;
+
+c) Người chịu trách nhiệm chuyên môn về dược của cơ sở sản xuất vắc xin, sinh phẩm và nguyên liệu sản xuất vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 05 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+2. Điều kiện đối với người phụ trách về bảo đảm chất lượng của cơ sở sản xuất thuốc, nguyên liệu làm thuốc là dược chất, tá dược, vỏ nang được quy định như sau:
+
+a) Người phụ trách về bảo đảm chất lượng của cơ sở sản xuất thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 05 năm thực hành chuyên môn tại cơ sở sản xuất thuốc hoặc cơ sở kiểm nghiệm thuốc, trừ trường hợp quy định tại Điểm b và Điểm c Khoản này;
+
+b) Người phụ trách về bảo đảm chất lượng của cơ sở sản xuất vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 05 năm thực hành chuyên môn tại cơ sở sản xuất hoặc kiểm nghiệm vắc xin, sinh phẩm y tế;
+
+c) Người phụ trách về bảo đảm chất lượng của cơ sở sản xuất nguyên liệu làm thuốc là dược chất, tá dược, vỏ nang phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm đ Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở sản xuất thuốc, nguyên liệu làm thuốc hoặc cơ sở kiểm nghiệm thuốc.
+
+3. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược và người phụ trách về bảo đảm chất lượng của cơ sở sản xuất dược liệu được quy định như sau:
+
+a) Người chịu trách nhiệm chuyên môn về dược, người phụ trách về bảo đảm chất lượng của cơ sở sản xuất dược liệu phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm c Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Điểm b Khoản này;
+
+b) Người chịu trách nhiệm chuyên môn về dược, người phụ trách về bảo đảm chất lượng của hộ kinh doanh, hợp tác xã sản xuất dược liệu phải có một trong các văn bằng chuyên môn quy định tại Điểm a, c, e, g, i hoặc l Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Điểm c Khoản 2 Điều 13 của Luật này;
+
+c) Người chịu trách nhiệm chuyên môn về dược có thể đồng thời là người phụ trách về bảo đảm chất lượng của cơ sở sản xuất dược liệu.
+
+Điều 16. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở bán buôn thuốc, nguyên liệu làm thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở bán buôn thuốc, nguyên liệu làm thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Khoản 2 và Khoản 3 Điều này.
+
+2. Người chịu trách nhiệm chuyên môn về dược của cơ sở bán buôn vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+3. Người chịu trách nhiệm chuyên môn về dược của cơ sở bán buôn dược liệu, thuốc dược liệu, thuốc cổ truyền phải có một trong các văn bằng chuyên môn quy định tại Điểm a, c, i hoặc l Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Điểm c Khoản 2 Điều 13 của Luật này.
+
+Điều 17. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Khoản 2 và Khoản 3 Điều này.
+
+2. Người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+3. Người chịu trách nhiệm chuyên môn về dược của cơ sở xuất khẩu, nhập khẩu dược liệu, thuốc dược liệu, thuốc cổ truyền phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm c Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+Điều 18. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở bán lẻ thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của nhà thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp. Người chịu trách nhiệm chuyên môn về dược của nhà thuốc có thể đồng thời là người làm công tác dược lâm sàng tại nhà thuốc.
+
+2. Người chịu trách nhiệm chuyên môn về dược của quầy thuốc phải có một trong các văn bằng chuyên môn quy định tại Điểm a, e hoặc g Khoản 1 Điều 13 của Luật này và có 18 tháng thực hành chuyên môn tại cơ sở dược phù hợp.
+
+3. Người chịu trách nhiệm chuyên môn về dược của tủ thuốc trạm y tế xã phải có một trong các văn bằng chuyên môn quy định tại Điểm a, e, g hoặc k Khoản 1 Điều 13 của Luật này và có 01 năm thực hành chuyên môn tại cơ sở dược phù hợp hoặc cơ sở khám bệnh, chữa bệnh; trường hợp trạm y tế xã ở vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn mà chưa có người đáp ứng một trong các văn bằng chuyên môn quy định tại Điểm a, e, g hoặc k Khoản 1 Điều 13 của Luật này thì phải có văn bằng chuyên môn quy định tại Điểm b hoặc Điểm h Khoản 1 Điều 13 của Luật này và có 01 năm thực hành chuyên môn tại cơ sở khám bệnh, chữa bệnh.
+
+4. Người chịu trách nhiệm chuyên môn về dược của cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền phải có một trong các văn bằng chuyên môn quy định tại Điểm a, c, e, g, i hoặc l Khoản 1 Điều 13 của Luật này và có 01 năm thực hành chuyên môn tại cơ sở dược hoặc cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền, trừ trường hợp quy định tại Điểm c Khoản 2 Điều 13 của Luật này.
+
+Điều 19. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Khoản 2 Điều này.
+
+2. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ kiểm nghiệm vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+Điều 20. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng, thử tương đương sinh học của thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng, thử tương đương sinh học của thuốc phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm b Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở dược phù hợp hoặc bệnh viện, viện có giường bệnh, trừ trường hợp quy định tại Khoản 2 Điều này.
+
+2. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng, thử tương đương sinh học của thuốc dược liệu, thuốc cổ truyền phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc c Khoản 1 Điều 13 của Luật này và có 03 năm thực hành chuyên môn tại cơ sở dược phù hợp hoặc bệnh viện, viện có giường bệnh.
+
+Điều 21. Điều kiện đối với người phụ trách công tác dược lâm sàng của cơ sở khám bệnh, chữa bệnh
+
+1. Người phụ trách công tác dược lâm sàng của cơ sở khám bệnh, chữa bệnh phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp hoặc bệnh viện, viện có giường bệnh, trừ trường hợp quy định tại Khoản 2 Điều này.
+
+2. Người phụ trách công tác dược lâm sàng của cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền phải có văn bằng chuyên môn quy định tại Điểm c Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại bệnh viện, viện có giường bệnh có hoạt động y học cổ truyền.
+
+Điều 22. Điều kiện đối với người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc
+
+1. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc phải có văn bằng chuyên môn quy định tại Điểm a Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp, trừ trường hợp quy định tại Khoản 2 Điều này.
+
+2. Người chịu trách nhiệm chuyên môn về dược của cơ sở kinh doanh dịch vụ bảo quản vắc xin, sinh phẩm phải có một trong các văn bằng chuyên môn quy định tại Điểm a, b hoặc d Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp.
+
+Điều 23. Thẩm quyền cấp, cấp lại, Điều chỉnh nội dung, thu hồi Chứng chỉ hành nghề dược
+
+1. Giám đốc Sở Y tế cấp, cấp lại, Điều chỉnh nội dung, thu hồi Chứng chỉ hành nghề dược theo hình thức xét duyệt.
+
+Giám đốc Sở Y tế thành lập Hội đồng tư vấn cấp Chứng chỉ hành nghề dược có sự tham gia của đại diện hội về dược để tư vấn cho Giám đốc Sở Y tế trong việc cấp, cấp lại, thu hồi Chứng chỉ hành nghề dược.
+
+2. Bộ Y tế cấp Chứng chỉ hành nghề dược theo hình thức thi.
+
+Điều 24. Hồ sơ đề nghị cấp Chứng chỉ hành nghề dược
+
+1. Đơn đề nghị cấp Chứng chỉ hành nghề dược có ảnh chân dung của người đề nghị được chụp trong thời gian không quá 06 tháng.
+
+2. Bản sao có chứng thực văn bằng chuyên môn.
+
+3. Giấy chứng nhận đủ sức khỏe để hành nghề dược do cơ sở y tế có thẩm quyền cấp.
+
+4. Giấy xác nhận về thời gian thực hành chuyên môn do người đứng đầu cơ sở nơi người đó thực hành cấp.
+
+5. Giấy xác nhận hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược đối với trường hợp đã bị thu hồi Chứng chỉ hành nghề dược quy định tại Khoản 9 Điều 28 của Luật này.
+
+6. Bản sao có chứng thực căn cước công dân, giấy chứng minh nhân dân hoặc hộ chiếu.
+
+7. Phiếu lý lịch tư pháp. Trường hợp là người nước ngoài, người Việt Nam định cư ở nước ngoài phải có lý lịch tư pháp hoặc văn bản xác nhận hiện không phải là người phạm tội hoặc bị truy cứu trách nhiệm hình sự, không thuộc trường hợp bị cấm hành nghề, cấm làm công việc liên quan đến hoạt động dược theo bản án, quyết định của Tòa án do cơ quan có thẩm quyền của nước ngoài cấp.
+
+8. Trường hợp cấp Chứng chỉ hành nghề dược do bị thu hồi theo quy định tại Khoản 3 Điều 28 của Luật này thì người đề nghị cấp Chứng chỉ hành nghề dược chỉ cần nộp đơn theo quy định tại Khoản 1 Điều này.
+
+Điều 25. Hồ sơ đề nghị cấp lại Chứng chỉ hành nghề dược
+
+1. Đơn đề nghị cấp lại Chứng chỉ hành nghề dược có ảnh chân dung của người đề nghị được chụp trong thời gian không quá 06 tháng.
+
+2. Bản sao Chứng chỉ hành nghề dược đã được cấp, trường hợp bị mất phải có cam kết của người đề nghị cấp lại.
+
+Điều 26. Hồ sơ đề nghị Điều chỉnh nội dung Chứng chỉ hành nghề dược
+
+1. Đơn đề nghị Điều chỉnh nội dung Chứng chỉ hành nghề dược có ảnh chân dung của người đề nghị được chụp trong thời gian không quá 06 tháng.
+
+2. Bản sao các giấy tờ chứng minh nội dung thay đổi.
+
+3. Bản sao Chứng chỉ hành nghề dược đã cấp.
+
+Điều 27. Thủ tục cấp, cấp lại, Điều chỉnh nội dung Chứng chỉ hành nghề dược
+
+1. Người đề nghị cấp Chứng chỉ hành nghề dược nộp hồ sơ đến cơ quan cấp Chứng chỉ hành nghề dược.
+
+Trong thời hạn 20 ngày kể từ ngày nhận đủ hồ sơ đề nghị cấp; 10 ngày kể từ ngày nhận đủ hồ sơ đề nghị cấp lại, Điều chỉnh nội dung Chứng chỉ hành nghề dược, người đứng đầu cơ quan cấp Chứng chỉ hành nghề dược cấp Chứng chỉ hành nghề dược; trường hợp không cấp, phải trả lời bằng văn bản và nêu rõ lý do.
+
+2. Thời hạn cấp Chứng chỉ hành nghề dược theo quy định tại Khoản 8 Điều 24 của Luật này là 05 ngày làm việc kể từ ngày nhận được đơn đề nghị.
+
+Điều 28. Các trường hợp thu hồi Chứng chỉ hành nghề dược
+
+1. Chứng chỉ hành nghề dược được cấp không đúng thẩm quyền.
+
+2. Người được cấp Chứng chỉ hành nghề dược đề nghị thu hồi Chứng chỉ hành nghề dược của mình.
+
+3. Chứng chỉ hành nghề dược bị ghi sai do lỗi của cơ quan cấp Chứng chỉ hành nghề dược.
+
+4. Giả mạo giấy tờ trong hồ sơ đề nghị cấp Chứng chỉ hành nghề dược.
+
+5. Cá nhân có từ 02 Chứng chỉ hành nghề dược trở lên.
+
+6. Người có chứng chỉ hành nghề cho thuê, cho mượn, thuê, mượn hoặc cho người khác sử dụng Chứng chỉ hành nghề dược.
+
+7. Người đã được cấp Chứng chỉ hành nghề dược không đáp ứng một trong các Điều kiện được cấp Chứng chỉ hành nghề dược quy định tại Điều 13 hoặc Khoản 2 Điều 14 của Luật này.
+
+8. Người đã được cấp Chứng chỉ hành nghề dược mà không hành nghề trong thời gian 12 tháng liên tục.
+
+9. Người hành nghề dược không có giấy xác nhận hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược trong thời hạn 03 năm kể từ ngày được cấp Chứng chỉ hành nghề dược hoặc kể từ ngày có giấy xác nhận hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược gần nhất.
+
+10. Vi phạm đạo đức nghề nghiệp trong hành nghề dược gây hậu quả đến tính mạng hoặc ảnh hưởng nghiêm trọng đến sức khỏe con người.
+
+11. Đã bị xử phạt vi phạm hành chính bằng hình thức tước Chứng chỉ hành nghề dược từ 02 lần trở lên đối với một hành vi vi phạm.
+
+Điều 29. Quản lý Chứng chỉ hành nghề dược
+
+1. Mỗi cá nhân chỉ được cấp một Chứng chỉ hành nghề dược. Trên Chứng chỉ hành nghề dược ghi đầy đủ phạm vi hành nghề mà người có Chứng chỉ hành nghề dược đáp ứng Điều kiện và được phép hành nghề. Chứng chỉ hành nghề dược không quy định thời hạn hiệu lực và có giá trị trong phạm vi cả nước.
+
+Chứng chỉ hành nghề dược hết hiệu lực khi người hành nghề chết hoặc mất tích theo quyết định, bản án của Tòa án hoặc không có giấy xác nhận hoàn thành đào tạo, cập nhật kiến thức chuyên môn về dược trong thời hạn 03 năm kể từ ngày được cấp Chứng chỉ hành nghề dược hoặc kể từ ngày có giấy xác nhận hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược gần nhất.
+
+2. Việc thừa nhận Chứng chỉ hành nghề dược giữa các nước được thực hiện theo quy định của thỏa thuận quốc tế mà Việt Nam là một bên, Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+3. Nội dung cơ bản của Chứng chỉ hành nghề dược bao gồm:
+
+a) Thông tin cá nhân của người hành nghề dược;
+
+b) Văn bằng chuyên môn;
+
+c) Hình thức hành nghề;
+
+d) Phạm vi hoạt động chuyên môn;
+
+đ) Hình thức cấp Chứng chỉ hành nghề dược theo hình thức xét duyệt hoặc hình thức thi; thời gian thi trong trường hợp cấp theo hình thức thi;
+
+e) Ngày cấp, cơ quan cấp, ngày có hiệu lực.
+
+4. Chính phủ quy định chi Tiết hồ sơ; thủ tục cấp, cấp lại, Điều chỉnh nội dung, thu hồi và mẫu Chứng chỉ hành nghề dược; cơ sở đào tạo, chương trình, nội dung, thời gian đào tạo, cập nhật kiến thức chuyên môn về dược; chuẩn hóa văn bằng chuyên môn và các chức danh nghề nghiệp; mẫu giấy xác nhận hoàn thành đào tạo, cập nhật kiến thức chuyên môn về dược; mẫu giấy xác nhận về thời gian thực hành và cơ sở thực hành chuyên môn phù hợp; thời gian thực hành đối với người có trình độ chuyên khoa sau đại học; việc cấp Chứng chỉ hành nghề dược theo hình thức thi.
+
+Mục 2. QUYỀN VÀ NGHĨA VỤ CỦA NGƯỜI HÀNH NGHỀ DƯỢC
+
+Điều 30. Quyền của người hành nghề dược
+
+1. Được đào tạo, cập nhật kiến thức, trao đổi thông tin chuyên môn, pháp luật về dược.
+
+2. Được cấp Chứng chỉ hành nghề dược khi đáp ứng đủ Điều kiện quy định tại Luật này.
+
+3. Người chịu trách nhiệm chuyên môn của cơ sở kinh doanh dược được ủy quyền cho người có Chứng chỉ hành nghề dược phù hợp khi vắng mặt để chịu trách nhiệm chuyên môn theo quy định.
+
+4. Người chịu trách nhiệm chuyên môn về dược của nhà thuốc được thay thế thuốc đã kê trong đơn thuốc bằng một thuốc khác có cùng hoạt chất, cách dùng, liều lượng khi có sự đồng ý của người mua và phải chịu trách nhiệm về việc thay đổi thuốc.
+
+5. Từ chối thực hiện hoạt động chuyên môn trái với quy định của pháp luật hoặc đạo đức nghề nghiệp.
+
+Điều 31. Nghĩa vụ của người hành nghề dược
+
+1. Tuân thủ đạo đức nghề nghiệp trong hành nghề dược.
+
+2. Người chịu trách nhiệm chuyên môn của cơ sở bán lẻ thuốc phải có mặt trong toàn bộ thời gian hoạt động của cơ sở dược, trừ trường hợp ủy quyền khi vắng mặt theo quy định tại Khoản 3 Điều 30 của Luật này.
+
+3. Chỉ chịu trách nhiệm chuyên môn đối với một cơ sở kinh doanh dược và tại một địa Điểm kinh doanh dược.
+
+4. Hành nghề dược theo đúng phạm vi hoạt động chuyên môn ghi trong Chứng chỉ hành nghề dược và quy định chuyên môn kỹ thuật.
+
+5. Chấp hành quyết định của cơ quan nhà nước có thẩm quyền trong trường hợp có dịch bệnh nguy hiểm, thiên tai, thảm họa.
+
+6. Hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược trong thời hạn 03 năm kể từ ngày được cấp Chứng chỉ hành nghề dược hoặc kể từ ngày có giấy xác nhận hoàn thành chương trình đào tạo, cập nhật kiến thức chuyên môn về dược gần nhất.
+
+7. Thông báo với cơ quan, người có thẩm quyền về hành vi vi phạm pháp luật, đạo đức hành nghề dược của người hành nghề dược khác và phải chịu trách nhiệm về những thông tin đã thông báo.
+
+Chương IV
+
+KINH DOANH DƯỢC
+
+Mục 1. CƠ SỞ KINH DOANH DƯỢC VÀ ĐIỀU KIỆN KINH DOANH DƯỢC
+
+Điều 32. Hoạt động kinh doanh dược và cơ sở kinh doanh dược
+
+1. Hoạt động kinh doanh dược bao gồm:
+
+a) Kinh doanh thuốc, nguyên liệu làm thuốc;
+
+b) Kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc;
+
+c) Kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc;
+
+d) Kinh doanh dịch vụ thử thuốc trên lâm sàng;
+
+đ) Kinh doanh dịch vụ thử tương đương sinh học của thuốc.
+
+2. Cơ sở kinh doanh dược bao gồm:
+
+a) Cơ sở sản xuất thuốc, nguyên liệu làm thuốc;
+
+b) Cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc;
+
+c) Cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc;
+
+d) Cơ sở bán buôn thuốc, nguyên liệu làm thuốc;
+
+đ) Cơ sở bán lẻ thuốc bao gồm nhà thuốc, quầy thuốc, tủ thuốc trạm y tế xã, cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền;
+
+e) Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc;
+
+g) Cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng;
+
+h) Cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc.
+
+Điều 33. Điều kiện cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Điều kiện về cơ sở vật chất, kỹ thuật và nhân sự được quy định như sau:
+
+a) Cơ sở sản xuất thuốc, nguyên liệu làm thuốc phải có địa Điểm, nhà xưởng sản xuất, phòng kiểm nghiệm, kho bảo quản thuốc, nguyên liệu làm thuốc, hệ thống phụ trợ, trang thiết bị, máy móc sản xuất, kiểm nghiệm, bảo quản thuốc, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc;
+
+b) Cơ sở nhập khẩu thuốc, nguyên liệu làm thuốc, cơ sở xuất khẩu thuốc, nguyên liệu làm thuốc, cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc phải có địa Điểm, kho bảo quản thuốc, trang thiết bị bảo quản, phương tiện vận chuyển, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt bảo quản thuốc, nguyên liệu làm thuốc;
+
+c) Cơ sở bán buôn thuốc, nguyên liệu làm thuốc phải có địa Điểm, kho bảo quản thuốc, trang thiết bị bảo quản, phương tiện vận chuyển, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt phân phối thuốc, nguyên liệu làm thuốc;
+
+d) Cơ sở bán lẻ thuốc phải có địa Điểm, khu vực bảo quản, trang thiết bị bảo quản, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt cơ sở bán lẻ thuốc; đối với cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền thực hiện theo quy định tại Điểm b Khoản 2 Điều 69 của Luật này;
+
+đ) Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc phải có địa Điểm, phòng kiểm nghiệm hóa học, vi sinh hoặc sinh học, hệ thống phụ trợ, trang thiết bị kiểm nghiệm, hóa chất, thuốc thử, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt phòng thí nghiệm đối với kiểm tra chất lượng thuốc;
+
+e) Cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng phải có địa Điểm, phòng thử nghiệm lâm sàng, phòng xét nghiệm, thiết bị xét nghiệm sinh hóa, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt thử thuốc trên lâm sàng;
+
+g) Cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc phải có địa Điểm, phòng thí nghiệm phân tích dịch sinh học, trang thiết bị thí nghiệm dùng trong phân tích dịch sinh học, khu vực lưu trú và theo dõi người sử dụng thuốc phục vụ cho việc đánh giá tương đương sinh học, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự đáp ứng Thực hành tốt phòng thí nghiệm đối với giai đoạn phân tích dịch sinh học và Thực hành tốt thử thuốc trên lâm sàng đối với giai đoạn nghiên cứu trên lâm sàng.
+
+Trường hợp cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc chỉ đáp ứng Thực hành tốt phòng thí nghiệm đối với phân tích dịch sinh học thì phải ký hợp đồng hoặc liên kết với cơ sở thử thuốc trên lâm sàng đáp ứng Thực hành tốt thử thuốc trên lâm sàng để thực hiện giai đoạn nghiên cứu trên lâm sàng trong thử tương đương sinh học của thuốc.
+
+2. Người chịu trách nhiệm chuyên môn về dược và vị trí công việc quy định tại Điều 11 của Luật này phải có Chứng chỉ hành nghề dược phù hợp với cơ sở kinh doanh dược quy định tại Khoản 2 Điều 32 của Luật này.
+
+3. Việc đánh giá đủ Điều kiện về cơ sở vật chất, kỹ thuật và nhân sự quy định tại Khoản 1 Điều này được thực hiện 03 năm một lần hoặc đột xuất theo quy định của Bộ trưởng Bộ Y tế hoặc Điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+Điều 34. Điều kiện kinh doanh đối với thuốc phải kiểm soát đặc biệt và thuốc thuộc danh Mục hạn chế bán lẻ
+
+1. Cơ sở kinh doanh thuốc phải kiểm soát đặc biệt phải được cơ quan quản lý nhà nước có thẩm quyền về dược chấp thuận bằng văn bản. Việc chấp thuận được căn cứ trên cơ sở các Điều kiện sau đây:
+
+a) Có đủ Điều kiện quy định tại Điều 33 của Luật này phù hợp với Điều kiện của từng cơ sở kinh doanh;
+
+b) Có các biện pháp về an ninh, bảo đảm không thất thoát thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt;
+
+c) Trường hợp kinh doanh thuốc phóng xạ phải đáp ứng các điều kiện theo quy định của Luật năng lượng nguyên tử và các văn bản quy phạm pháp luật khác có liên quan.
+
+2. Cơ sở bán lẻ thuốc có bán thuốc thuộc danh Mục thuốc hạn chế bán lẻ do Bộ trưởng Bộ Y tế ban hành phải có đủ các Điều kiện quy định tại Điểm d Khoản 1 Điều 33 của Luật này và được Sở Y tế chấp thuận bằng văn bản. Việc chấp thuận được căn cứ vào cơ cấu bệnh tật và khả năng cung ứng thuốc trên địa bàn tỉnh, thành phố trực thuộc trung ương theo hướng dẫn của Bộ trưởng Bộ Y tế.
+
+3. Chính phủ quy định trình tự, thủ tục cho phép kinh doanh thuốc phải kiểm soát đặc biệt và thuốc thuộc danh Mục thuốc hạn chế bán lẻ; biện pháp về an ninh, bảo đảm không thất thoát thuốc, nguyên liệu làm thuốc phải kiểm soát đặc biệt.
+
+Điều 35. Cơ sở có hoạt động dược không thuộc diện cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Cơ sở có hoạt động dược không thuộc diện cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược bao gồm:
+
+a) Cơ sở có hoạt động dược nhưng không vì Mục đích thương mại;
+
+b) Cơ sở kinh doanh có tổ chức kệ thuốc;
+
+c) Cơ sở nuôi trồng, thu hái dược liệu;
+
+d) Cơ sở y tế thuộc lực lượng vũ trang nhân dân có hoạt động cung ứng thuốc tại vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn.
+
+2. Điều kiện hoạt động của các cơ sở tại Khoản 1 Điều này được quy định như sau:
+
+a) Cơ sở quy định tại Điểm a Khoản 1 Điều này phải tuân thủ Điều kiện kinh doanh quy định tại Khoản 1 Ðiều 33 của Luật này;
+
+b) Cơ sở quy định tại Điểm b Khoản 1 Điều này phải là cơ sở có đăng ký kinh doanh, có Điều kiện bảo quản thuốc phù hợp với Điều kiện bảo quản ghi trên nhãn thuốc, có người chịu trách nhiệm chuyên môn có văn bằng chuyên môn sơ cấp dược trở lên và chỉ được bán thuốc thuộc Danh Mục thuốc được bán tại kệ thuốc do Bộ trưởng Bộ Y tế quy định;
+
+c) Cơ sở nuôi trồng, thu hái dược liệu phải tuân thủ Thực hành tốt nuôi trồng, thu hái dược liệu;
+
+d) Cơ sở quy định tại Điểm d Khoản 1 Điều này phải có Điều kiện bảo quản thuốc phù hợp với Điều kiện bảo quản ghi trên nhãn thuốc và có người chịu trách nhiệm chuyên môn có văn bằng chuyên môn sơ cấp dược trở lên.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết Điều này.
+
+Mục 2. GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN KINH DOANH DƯỢC
+
+Điều 36. Cấp, cấp lại, Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược trong trường hợp sau đây:
+
+a) Cơ sở đề nghị cấp lần đầu;
+
+b) Cơ sở đã được cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược nhưng thay đổi loại hình cơ sở kinh doanh dược hoặc thay đổi phạm vi kinh doanh dược mà làm thay đổi Điều kiện kinh doanh; thay đổi địa Điểm kinh doanh dược;
+
+c) Cơ sở đã được cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược nhưng bị thu hồi theo quy định tại Điều 40 của Luật này.
+
+2. Cấp lại Giấy chứng nhận đủ Điều kiện kinh doanh dược trong trường hợp sau đây:
+
+a) Giấy chứng nhận đủ Điều kiện kinh doanh dược bị mất, hư hỏng;
+
+b) Thông tin ghi trên Giấy chứng nhận đủ điều kiện kinh doanh dược bị ghi sai do lỗi của cơ quan cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược.
+
+3. Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược trong trường hợp có sự thay đổi về tên cơ sở, địa chỉ kinh doanh, người quản lý chuyên môn, thay đổi phạm vi kinh doanh dược mà không thay đổi điều kiện kinh doanh dược.
+
+Điều 37. Thẩm quyền cấp, cấp lại, điều chỉnh và thu hồi Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Bộ trưởng Bộ Y tế cấp, cấp lại, điều chỉnh và thu hồi Giấy chứng nhận đủ Điều kiện kinh doanh dược đối với cơ sở kinh doanh dược quy định tại các Điểm a, b, c, e, g và h Khoản 2 Điều 32 của Luật này.
+
+2. Giám đốc Sở Y tế cấp, cấp lại, Điều chỉnh và thu hồi Giấy chứng nhận đủ Điều kiện kinh doanh dược đối với cơ sở kinh doanh dược quy định tại Điểm d và Điểm đ Khoản 2 Điều 32 của Luật này.
+
+Điều 38. Hồ sơ đề nghị cấp, cấp lại, Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Hồ sơ đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược đối với trường hợp quy định tại Điểm a và Điểm c Khoản 1 Điều 36 của Luật này bao gồm:
+
+a) Đơn đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Tài liệu kỹ thuật tương ứng với cơ sở kinh doanh dược quy định tại Khoản 2 Điều 32 của Luật này;
+
+c) Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc tài liệu pháp lý chứng minh việc thành lập cơ sở;
+
+d) Bản sao có chứng thực Chứng chỉ hành nghề dược.
+
+2. Hồ sơ đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược đối với trường hợp quy định tại Điểm b Khoản 1 Điều 36 của Luật này bao gồm:
+
+a) Đơn đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Tài liệu kỹ thuật tương ứng với Điều kiện kinh doanh thay đổi;
+
+c) Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc tài liệu pháp lý chứng minh việc thành lập cơ sở;
+
+d) Bản sao có chứng thực Chứng chỉ hành nghề dược.
+
+3. Hồ sơ đề nghị cấp lại Giấy chứng nhận đủ Điều kiện kinh doanh dược bao gồm:
+
+a) Đơn đề nghị cấp lại Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Giấy chứng nhận đủ Điều kiện kinh doanh dược bị ghi sai do lỗi của cơ quan cấp đối với trường hợp quy định tại Điểm b Khoản 2 Điều 36 của Luật này.
+
+4. Hồ sơ đề nghị Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược bao gồm:
+
+a) Đơn đề nghị Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Bản sao có chứng thực Chứng chỉ hành nghề dược đối với các trường hợp thay đổi vị trí công việc yêu cầu phải có Chứng chỉ hành nghề dược;
+
+c) Bản sao có chứng thực Giấy chứng nhận đăng ký doanh nghiệp hoặc tài liệu pháp lý chứng minh việc thay đổi trong trường hợp thay đổi tên, địa chỉ của cơ sở.
+
+5. Chính phủ quy định chi Tiết Điều này.
+
+Điều 39. Thủ tục cấp, cấp lại, Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Hồ sơ đề nghị cấp, cấp lại, Điều chỉnh Giấy chứng nhận đủ Điều kiện kinh doanh dược nộp đến cơ quan có thẩm quyền quy định tại Điều 37 của Luật này.
+
+2. Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ đề nghị cấp; 20 ngày kể từ ngày nhận đủ hồ sơ đề nghị cấp lại, Điều chỉnh, Bộ trưởng Bộ Y tế hoặc Giám đốc Sở Y tế tổ chức đánh giá và cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược theo thẩm quyền; trường hợp không cấp, phải trả lời bằng văn bản và nêu rõ lý do.
+
+Trường hợp cấp lại do lỗi của cơ quan cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược thì người đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược nộp hồ sơ theo quy định tại Khoản 3 Điều 38 của Luật này. Thời hạn cấp lại Giấy chứng nhận đủ Điều kiện kinh doanh dược là 07 ngày làm việc kể từ ngày nhận đủ hồ sơ.
+
+Điều 40. Các trường hợp thu hồi Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Chấm dứt hoạt động kinh doanh dược.
+
+2. Không đáp ứng một trong các Điều kiện cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược quy định tại Điều 33 và Điều 34 của Luật này.
+
+3. Giấy chứng nhận đủ Điều kiện kinh doanh dược được cấp nhưng không đúng thẩm quyền hoặc có nội dung trái pháp luật.
+
+4. Không hoạt động trong thời gian 12 tháng liên tục mà không thông báo với cơ quan quản lý nhà nước về dược.
+
+Điều 41. Quản lý Giấy chứng nhận đủ Điều kiện kinh doanh dược
+
+1. Giấy chứng nhận đủ Điều kiện kinh doanh dược không quy định thời hạn hiệu lực.
+
+2. Chính phủ quy định chi Tiết các nội dung sau đây:
+
+a) Hồ sơ, thủ tục cấp, cấp lại, Điều chỉnh, thu hồi Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Địa bàn và phạm vi kinh doanh đối với cơ sở bán lẻ là quầy thuốc, tủ thuốc trạm y tế xã;
+
+c) Lộ trình thực hiện Thực hành tốt đối với loại hình cơ sở kinh doanh dược.
+
+Mục 3. QUYỀN VÀ TRÁCH NHIỆM CỦA CƠ SỞ KINH DOANH DƯỢC
+
+Điều 42. Quyền và trách nhiệm của cơ sở kinh doanh dược
+
+1. Cơ sở kinh doanh dược có các quyền sau đây:
+
+a) Thực hiện một, một số hoặc tất cả hoạt động kinh doanh dược nếu đáp ứng đủ Điều kiện tương ứng với từng loại hình cơ sở kinh doanh theo quy định của Luật này;
+
+b) Hưởng chính sách ưu đãi khi thực hiện hoạt động kinh doanh dược theo quy định của pháp luật;
+
+c) Được thông tin, quảng cáo thuốc theo quy định của pháp luật;
+
+d) Thực hiện chương trình hỗ trợ thuốc miễn phí cho cơ sở khám bệnh, chữa bệnh để Điều trị cho bệnh nhân theo quy định của Bộ trưởng Bộ Y tế;
+
+đ) Tổ chức cơ sở bán lẻ thuốc lưu động tại vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn theo quy định của Chính phủ.
+
+2. Cơ sở kinh doanh dược có các trách nhiệm sau đây:
+
+a) Phải có Giấy chứng nhận đủ Điều kiện kinh doanh dược và chỉ được kinh doanh đúng loại hình cơ sở kinh doanh, phạm vi và địa Điểm kinh doanh ghi trong Giấy chứng nhận đủ Điều kiện kinh doanh dược;
+
+b) Bảo đảm duy trì các Điều kiện kinh doanh dược trong quá trình hoạt động kinh doanh theo quy định của Luật này;
+
+c) Thu hồi thuốc, nguyên liệu làm thuốc theo quy định tại Điều 62 của Luật này;
+
+d) Bồi thường thiệt hại cho tổ chức, cá nhân bị thiệt hại do lỗi của cơ sở theo quy định của pháp luật;
+
+đ) Chấp hành quyết định của cơ quan nhà nước có thẩm quyền trong trường hợp bảo đảm cung ứng thuốc, nguyên liệu làm thuốc khi xảy ra dịch bệnh nguy hiểm, thiên tai, thảm họa;
+
+e) Báo cáo Bộ Y tế hoặc Sở Y tế và thực hiện các nghĩa vụ theo quy định của pháp luật trong trường hợp tạm dừng hoạt động từ 06 tháng trở lên hoặc chấm dứt hoạt động;
+
+g) Thông báo, cập nhật danh sách người có Chứng chỉ hành nghề dược đang hành nghề tại cơ sở đến cơ quan có thẩm quyền theo quy định của Bộ trưởng Bộ Y tế;
+
+h) Niêm yết công khai Chứng chỉ hành nghề dược và Giấy chứng nhận đủ Điều kiện kinh doanh dược tại cơ sở kinh doanh;
+
+i) Báo cáo hằng năm và báo cáo theo yêu cầu của cơ quan quản lý về dược có thẩm quyền;
+
+k) Tuân thủ quy định của Bộ Y tế trong việc mua, bán thuốc thuộc Danh Mục thuốc hạn chế bán lẻ;
+
+l) Niêm yết giá bán buôn, bán lẻ bằng đồng Việt Nam tại nơi giao dịch hoặc nơi bán thuốc của cơ sở kinh doanh dược để thuận tiện cho việc quan sát, nhận biết của khách hàng, cơ quan quản lý có thẩm quyền và tuân thủ các quy định khác về quản lý giá thuốc;
+
+m) Lưu giữ chứng từ, tài liệu có liên quan đến từng lô thuốc, nguyên liệu làm thuốc trong thời gian ít nhất là 01 năm kể từ ngày thuốc, nguyên liệu làm thuốc hết hạn dùng;
+
+n) Bảo quản thuốc, nguyên liệu làm thuốc theo đúng Điều kiện ghi trên nhãn;
+
+o) Ghi rõ tên thuốc, hàm lượng, hạn dùng cho người sử dụng trong trường hợp bán lẻ thuốc không đựng trong bao bì ngoài của thuốc; trường hợp không có đơn thuốc đi kèm, phải ghi thêm liều dùng, số lần dùng và cách dùng;
+
+p) Chỉ được bán thuốc kê đơn tại cơ sở bán lẻ thuốc khi có đơn thuốc.
+
+3. Ngoài các trách nhiệm quy định tại khoản 2 Điều này, cơ sở kinh doanh dược khi kinh doanh thuốc phải kiểm soát đặc biệt có các trách nhiệm sau đây:
+
+a) Báo cáo định kỳ; báo cáo xuất khẩu, nhập khẩu; báo cáo theo yêu cầu của cơ quan quản lý có thẩm quyền;
+
+b) Lập hồ sơ, lưu giữ chứng từ, tài liệu có liên quan cho từng loại thuốc, nguyên liệu làm thuốc theo quy định của Bộ Y tế.
+
+Điều 43. Quyền và trách nhiệm của cơ sở sản xuất thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở sản xuất thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Quyền quy định tại Khoản 1 Điều 42 của Luật này;
+
+b) Nghiên cứu, sản xuất thử; sản xuất thuốc, nguyên liệu làm thuốc; nhượng quyền và nhận nhượng quyền sản xuất; gia công và nhận gia công thuốc, nguyên liệu làm thuốc;
+
+c) Đăng ký lưu hành thuốc, nguyên liệu làm thuốc; chuyển sở hữu giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; đề nghị thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc mà cơ sở đó sản xuất; đề nghị thu hồi thuốc, nguyên liệu làm thuốc theo quy định của Luật này;
+
+d) Nhập khẩu, mua nguyên liệu làm thuốc để phục vụ sản xuất; nhập khẩu thuốc, nguyên liệu làm thuốc để phục vụ nghiên cứu, kiểm nghiệm, sử dụng làm mẫu đăng ký lưu hành thuốc của cơ sở;
+
+đ) Bán nguyên liệu làm thuốc đã nhập khẩu để phục vụ sản xuất thuốc của cơ sở đó cho cơ sở sản xuất thuốc khác;
+
+e) Bán buôn thuốc, nguyên liệu làm thuốc cho cơ sở bán buôn, bán lẻ thuốc và cơ sở khám bệnh, chữa bệnh;
+
+g) Xuất khẩu thuốc, nguyên liệu làm thuốc quy định tại Khoản 4 và Khoản 5 Điều 60 của Luật này.
+
+2. Cơ sở sản xuất thuốc, nguyên liệu làm thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm có liên quan quy định tại các Điểm a, b, c, d, đ, e, g, h, i, k, l, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Sản xuất thuốc, nguyên liệu làm thuốc theo đúng quy trình sản xuất và tiêu chuẩn chất lượng đã đăng ký hoặc công bố;
+
+c) Chịu trách nhiệm về nguồn gốc, chất lượng thuốc, nguyên liệu làm thuốc do cơ sở sản xuất và chỉ được phép xuất xưởng thuốc, nguyên liệu làm thuốc đạt tiêu chuẩn chất lượng đã đăng ký;
+
+d) Theo dõi chất lượng, an toàn, hiệu quả của thuốc, nguyên liệu làm thuốc do cơ sở sản xuất trong thời gian lưu hành trên thị trường và thu hồi thuốc, nguyên liệu làm thuốc theo quy định của Luật này;
+
+đ) Chịu trách nhiệm về số lượng thuốc, nguyên liệu làm thuốc đã nhập khẩu, mua, bán, sử dụng và báo cáo theo quy định của Bộ trưởng Bộ Y tế.
+
+Điều 44. Quyền và trách nhiệm của cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b, c và d Khoản 1 Điều 42 của Luật này;
+
+b) Nhập khẩu thuốc, nguyên liệu làm thuốc quy định tại Điều 60 của Luật này;
+
+c) Đăng ký lưu hành thuốc, nguyên liệu làm thuốc; chuyển sở hữu giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; đề nghị thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; đề nghị thu hồi thuốc, nguyên liệu làm thuốc theo quy định của Luật này;
+
+d) Bán thuốc, nguyên liệu làm thuốc nhập khẩu cho cơ sở bán buôn, cơ sở bán lẻ thuốc, cơ sở sản xuất thuốc và cơ sở khám bệnh, chữa bệnh. Trường hợp không được thực hiện quyền phân phối thuốc tại Việt Nam, cơ sở xuất khẩu, nhập khẩu được bán thuốc, nguyên liệu làm thuốc nhập khẩu theo quy định của Bộ trưởng Bộ Y tế;
+
+đ) Xuất khẩu thuốc, nguyên liệu làm thuốc quy định tại Khoản 4 và Khoản 5 Điều 60 của Luật này.
+
+2. Cơ sở xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại các Điểm a, b, c, d, đ, e, g, h, i, k, l, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Chịu trách nhiệm về số lượng, chất lượng thuốc, nguyên liệu làm thuốc do cơ sở xuất khẩu, nhập khẩu và báo cáo theo quy định của Bộ trưởng Bộ Y tế.
+
+Điều 45. Quyền và trách nhiệm của cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b và c Khoản 1 Điều 42 của Luật này;
+
+b) Bảo quản thuốc, nguyên liệu làm thuốc cho tổ chức, cá nhân;
+
+c) Xuất khẩu thuốc, nguyên liệu làm thuốc quy định tại Khoản 4 và Khoản 5 Điều 60 của Luật này.
+
+2. Cơ sở kinh doanh dịch vụ bảo quản thuốc, nguyên liệu làm thuốc có trách nhiệm quy định tại các Điểm a, b, c, d, đ, e, g, h, i, m và n Khoản 2 Điều 42 của Luật này.
+
+Điều 46. Quyền và trách nhiệm của cơ sở bán buôn thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở bán buôn thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Quyền quy định tại Khoản 1 Điều 42 của Luật này;
+
+b) Bán buôn thuốc, nguyên liệu làm thuốc;
+
+c) Mua thuốc, nguyên liệu làm thuốc;
+
+d) Đăng ký lưu hành thuốc, nguyên liệu làm thuốc; chuyển sở hữu giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; đề nghị thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; đề nghị thu hồi thuốc, nguyên liệu làm thuốc theo quy định của Luật này;
+
+đ) Xuất khẩu thuốc, nguyên liệu làm thuốc quy định tại Khoản 4 và Khoản 5 Điều 60 của Luật này.
+
+2. Cơ sở bán buôn thuốc, nguyên liệu làm thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại các Điểm a, b, c, d, đ, e, g, h, i, k, l, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Bảo đảm việc giao, nhận, bảo quản thuốc, nguyên liệu làm thuốc phải do người có trình độ chuyên môn đảm nhận.
+
+Điều 47. Quyền và trách nhiệm của cơ sở bán lẻ là nhà thuốc
+
+1. Cơ sở bán lẻ là nhà thuốc có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b, c và đ Khoản 1 Điều 42 của Luật này;
+
+b) Mua nguyên liệu làm thuốc để pha chế thuốc theo đơn và bán thuốc này tại cơ sở. Người quản lý chuyên môn về dược của nhà thuốc chịu trách nhiệm quản lý trực tiếp việc pha chế thuốc tại cơ sở;
+
+c) Mua thuốc để bán lẻ, trừ vắc xin; trường hợp mua, bán thuốc phải kiểm soát đặc biệt và thuốc thuộc Danh Mục thuốc hạn chế bán lẻ thực hiện theo quy định tại Điều 34 của Luật này;
+
+d) Tham gia cấp phát thuốc của bảo hiểm, chương trình, dự án y tế khi đáp ứng yêu cầu và Điều kiện của bảo hiểm, chương trình, dự án đó;
+
+đ) Người có Bằng dược sỹ được thay thế thuốc đã kê trong đơn thuốc bằng một thuốc khác có cùng hoạt chất, đường dùng, liều lượng khi có sự đồng ý của người mua và phải chịu trách nhiệm về việc thay đổi thuốc.
+
+2. Cơ sở bán lẻ là nhà thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại Khoản 2 Điều 42 và Khoản 2 Điều 81 của Luật này;
+
+b) Bảo đảm Điều kiện pha chế thuốc theo quy định của Bộ trưởng Bộ Y tế;
+
+c) Không được bán nguyên liệu làm thuốc, trừ dược liệu.
+
+Điều 48. Quyền và trách nhiệm của cơ sở bán lẻ là quầy thuốc
+
+1. Cơ sở bán lẻ là quầy thuốc có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b, c và đ Khoản 1 Điều 42 của Luật này;
+
+b) Mua và bán lẻ thuốc thuộc Danh Mục thuốc thiết yếu và Danh mục thuốc không kê đơn, trừ vắc xin; trường hợp mua, bán thuốc thuộc Danh Mục thuốc phải kiểm soát đặc biệt và Danh Mục thuốc hạn chế bán lẻ thực hiện theo quy định tại Điều 34 của Luật này. Đối với quầy thuốc ở vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có Điều kiện kinh tế - xã hội đặc biệt khó khăn thì được bán thêm một số loại thuốc khác theo quy định của Bộ trưởng Bộ Y tế;
+
+c) Tham gia cấp phát thuốc của bảo hiểm, chương trình, dự án y tế khi đáp ứng yêu cầu và Điều kiện của bảo hiểm, chương trình, dự án đó.
+
+2. Cơ sở bán lẻ là quầy thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại Khoản 2 Điều 42 của Luật này;
+
+b) Không được bán nguyên liệu làm thuốc, trừ dược liệu.
+
+Điều 49. Quyền và trách nhiệm của cơ sở bán lẻ là tủ thuốc trạm y tế xã
+
+1. Cơ sở bán lẻ là tủ thuốc trạm y tế xã có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b, c và đ Khoản 1 Điều 42 của Luật này;
+
+b) Mua và bán lẻ thuốc thuộc Danh Mục thuốc thiết yếu phù hợp với phân tuyến chuyên môn kỹ thuật; trường hợp mua, bán thuốc thuộc Danh Mục thuốc phải kiểm soát đặc biệt và Danh Mục thuốc hạn chế bán lẻ thực hiện theo quy định tại Điều 34 của Luật này;
+
+c) Tham gia cấp phát thuốc của bảo hiểm, chương trình, dự án y tế khi đáp ứng yêu cầu và Điều kiện của bảo hiểm, chương trình, dự án đó.
+
+2. Cơ sở bán lẻ là tủ thuốc trạm y tế xã có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại Khoản 2 Điều 42 của Luật này;
+
+b) Không được bán nguyên liệu làm thuốc, trừ dược liệu.
+
+Điều 50. Quyền và trách nhiệm của cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền
+
+1. Cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền có các quyền sau đây:
+
+a) Quyền quy định tại các Điểm a, b, c và đ Khoản 1 Điều 42 của Luật này;
+
+b) Bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền;
+
+c) Mua dược liệu, thuốc dược liệu, thuốc cổ truyền để bán lẻ;
+
+d) Tham gia cấp phát thuốc của bảo hiểm, chương trình, dự án y tế khi đáp ứng yêu cầu và Điều kiện của bảo hiểm, chương trình, dự án đó.
+
+2. Cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại Khoản 2 Điều 42 của Luật này;
+
+b) Không được bán thuốc hóa dược, vắc xin, sinh phẩm và nguyên liệu làm thuốc là dược chất, tá dược, vỏ nang.
+
+Điều 51. Quyền và trách nhiệm của cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Quyền quy định tại Điểm a và Điểm b Khoản 1 Điều 42 của Luật này;
+
+b) Tiến hành kiểm nghiệm thuốc, nguyên liệu làm thuốc theo quy định;
+
+c) Chứng nhận kết quả kiểm nghiệm đối với mẫu thuốc, nguyên liệu làm thuốc đã kiểm nghiệm;
+
+d) Nhập khẩu, mua hóa chất, chất chuẩn, mẫu thuốc, mẫu nguyên liệu làm thuốc phục vụ cho hoạt động kiểm nghiệm thuốc, nguyên liệu làm thuốc của cơ sở.
+
+2. Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại các Điểm a, b, d, đ, e, g, h, i, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Bảo đảm trung thực, khách quan trong kiểm nghiệm thuốc, nguyên liệu làm thuốc;
+
+c) Chịu trách nhiệm về kết quả kiểm nghiệm đối với mẫu thuốc, mẫu nguyên liệu làm thuốc đã kiểm nghiệm.
+
+Điều 52. Quyền và trách nhiệm của cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng
+
+1. Cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng có các quyền sau đây:
+
+a) Quyền quy định tại Điểm a và Điểm b Khoản 1 Điều 42 của Luật này;
+
+b) Tiến hành hoạt động thử thuốc trên lâm sàng theo quy định;
+
+c) Nhập khẩu, mua hóa chất, chất chuẩn, mẫu thuốc phục vụ cho hoạt động thử thuốc trên lâm sàng;
+
+d) Sử dụng kết quả nghiên cứu thử thuốc trên lâm sàng theo thỏa thuận với cơ quan, tổ chức, cá nhân có thuốc thử lâm sàng.
+
+2. Cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại các Điểm a, b, c, d, e, g, h, i, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Chịu trách nhiệm về kết quả nghiên cứu thử thuốc trên lâm sàng;
+
+c) Chịu trách nhiệm về sự an toàn của người tham gia thử thuốc trên lâm sàng và bồi thường thiệt hại cho người tham gia thử thuốc trên lâm sàng nếu rủi ro xảy ra do lỗi của cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng theo quy định của pháp luật;
+
+d) Bảo đảm trung thực, khách quan trong thử thuốc trên lâm sàng;
+
+đ) Độc lập về kinh tế, tổ chức nhân sự đối với cơ quan, tổ chức, cá nhân có thuốc thử trên lâm sàng.
+
+Điều 53. Quyền và trách nhiệm của cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc
+
+1. Cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc có các quyền sau đây:
+
+a) Quyền quy định tại Điểm a và Điểm b Khoản 1 Điều 42 của Luật này;
+
+b) Tiến hành giai đoạn nghiên cứu trên lâm sàng và giai đoạn phân tích dịch sinh học trong thử tương đương sinh học của thuốc.
+
+Trường hợp chỉ tiến hành giai đoạn phân tích dịch sinh học thì được ký hợp đồng hoặc liên kết với cơ sở thử thuốc trên lâm sàng đáp ứng Thực hành tốt thử thuốc trên lâm sàng để thực hiện giai đoạn nghiên cứu trên lâm sàng trong thử tương đương sinh học của thuốc;
+
+c) Tiến hành hoạt động nghiên cứu thử tương đương sinh học của thuốc theo quy định;
+
+d) Nhập khẩu, mua hóa chất, chất chuẩn, mẫu thuốc phục vụ cho hoạt động thử tương đương sinh học của thuốc;
+
+đ) Sử dụng kết quả nghiên cứu thử tương đương sinh học của thuốc theo thỏa thuận với cơ quan, tổ chức, cá nhân có thuốc thử tương đương sinh học.
+
+2. Cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc có các trách nhiệm sau đây:
+
+a) Trách nhiệm quy định tại các Điểm a, b, c, d, e, g, h, i, m và n Khoản 2 Điều 42 của Luật này;
+
+b) Chịu trách nhiệm về kết quả nghiên cứu thử tương đương sinh học của thuốc đối với mẫu thuốc đã thử;
+
+c) Chịu trách nhiệm về sự an toàn của người tham gia thử tương đương sinh học và bồi thường thiệt hại cho người tham gia thử tương đương sinh học nếu rủi ro xảy ra do lỗi của cơ sở kinh doanh dịch vụ thử tương đương sinh học của thuốc theo quy định của pháp luật;
+
+d) Bảo đảm trung thực, khách quan trong thử tương đương sinh học của thuốc;
+
+đ) Độc lập về kinh tế, tổ chức nhân sự đối với cơ quan, tổ chức, cá nhân có thuốc thử tương đương sinh học.
+
+Chương V
+
+ĐĂNG KÝ, LƯU HÀNH, THU HỒI THUỐC VÀ NGUYÊN LIỆU LÀM THUỐC
+
+Mục 1. ĐĂNG KÝ THUỐC, NGUYÊN LIỆU LÀM THUỐC
+
+Điều 54. Đối tượng và yêu cầu đăng ký thuốc, nguyên liệu làm thuốc
+
+1. Thuốc phải đăng ký trước khi lưu hành tại Việt Nam, trừ trường hợp sau đây:
+
+a) Thuốc pha chế theo đơn tại nhà thuốc quy định tại Điểm b Khoản 1 Điều 47; thuốc sản xuất, pha chế tại cơ sở khám bệnh, chữa bệnh quy định tại Điều 85 của Luật này;
+
+b) Thuốc được nhập khẩu quy định tại Khoản 2 Điều 60 của Luật này;
+
+c) Thuốc cổ truyền theo quy định tại Khoản 1 và Khoản 2 Điều 70 của Luật này.
+
+2. Nguyên liệu làm thuốc phải đăng ký trước khi lưu hành tại Việt Nam, trừ trường hợp sau đây:
+
+a) Nguyên liệu làm thuốc là dược chất để sản xuất thuốc theo hồ sơ đăng ký thuốc đã có giấy đăng ký lưu hành tại Việt Nam;
+
+b) Nguyên liệu làm thuốc được nhập khẩu theo quy định tại Khoản 3 Điều 60 của Luật này.
+
+3. Cơ sở được đứng tên đăng ký thuốc, nguyên liệu làm thuốc trong trường hợp sau đây:
+
+a) Cơ sở có hoạt động sản xuất, bán buôn, xuất khẩu, nhập khẩu thuốc, nguyên liệu làm thuốc tại Việt Nam;
+
+b) Cơ sở kinh doanh thuốc, nguyên liệu làm thuốc của nước ngoài có văn phòng đại diện tại Việt Nam.
+
+4. Thuốc, nguyên liệu làm thuốc được cấp giấy đăng ký lưu hành tại Việt Nam khi đáp ứng các yêu cầu sau đây:
+
+a) Bảo đảm yêu cầu về an toàn, hiệu quả;
+
+b) Được sản xuất tại cơ sở sản xuất thuốc, nguyên liệu làm thuốc đáp ứng Điều kiện theo quy định của Luật này;
+
+c) Được sản xuất theo quy trình sản xuất thuốc, nguyên liệu làm thuốc và đạt tiêu chuẩn chất lượng theo quy định tại Điều 102 và Điều 103 của Luật này.
+
+5. Đối với thuốc, nguyên liệu làm thuốc nhập khẩu khi đăng ký lưu hành tại Việt Nam, cơ sở sản xuất thuốc, nguyên liệu làm thuốc tại nước ngoài phải được đánh giá việc đáp ứng Thực hành tốt sản xuất theo một trong các hình thức sau đây:
+
+a) Thẩm định hồ sơ liên quan đến Điều kiện sản xuất;
+
+b) Công nhận, thừa nhận lẫn nhau về kết quả thanh tra, kiểm tra của cơ quan quản lý nhà nước về dược đối với yêu cầu đáp ứng Thực hành tốt sản xuất thuốc, nguyên liệu làm thuốc;
+
+c) Kiểm tra tại cơ sở sản xuất thuốc, nguyên liệu làm thuốc.
+
+6. Chính phủ quy định chi Tiết việc đăng ký lưu hành đối với dược liệu, tá dược, vỏ nang và Khoản 5 Điều này.
+
+Điều 55. Hình thức đăng ký thuốc, nguyên liệu làm thuốc
+
+1. Thuốc, nguyên liệu làm thuốc được đăng ký theo một trong các hình thức sau đây:
+
+a) Cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+b) Gia hạn giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+c) Thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.
+
+2. Cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc trong trường hợp sau đây:
+
+a) Thuốc, nguyên liệu làm thuốc chưa được cấp giấy đăng ký lưu hành tại Việt Nam;
+
+b) Thuốc đã được cấp giấy đăng ký lưu hành nhưng có thay đổi về thành phần dược chất, dược liệu; hàm lượng, nồng độ hoặc khối lượng các thành phần dược chất, dược liệu có tác dụng; dạng bào chế; đường dùng; cơ sở sản xuất, trừ trường hợp thay đổi cơ sở đóng gói thứ cấp, cơ sở xuất xưởng, địa Điểm xuất xưởng;
+
+c) Nguyên liệu làm thuốc đã được cấp giấy đăng ký lưu hành nhưng có thay đổi về cơ sở sản xuất, trừ trường hợp thay đổi cơ sở đóng gói thứ cấp, cơ sở xuất xưởng, địa Điểm xuất xưởng.
+
+3. Thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc đã được cấp tại Việt Nam có các thay đổi trong thời hạn hiệu lực, trừ trường hợp quy định tại Điểm b và Điểm c Khoản 2 Điều này.
+
+4. Gia hạn giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc khi giấy đăng ký lưu hành hết thời hạn hiệu lực bao gồm cả thuốc, nguyên liệu làm thuốc có thay đổi về hồ sơ hành chính tại thời Điểm đăng ký gia hạn.
+
+Điều 56. Thẩm quyền, hồ sơ, thủ tục, thời hạn cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc
+
+1. Bộ trưởng Bộ Y tế cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc trên cơ sở thẩm định hồ sơ, tư vấn của Hội đồng tư vấn cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.
+
+Hồ sơ đề nghị cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc nộp tại Bộ Y tế.
+
+2. Hồ sơ đề nghị cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc bao gồm:
+
+a) Hồ sơ hành chính bao gồm đơn đề nghị cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc; bản sao có chứng thực Giấy phép thành lập văn phòng đại diện còn thời hạn hiệu lực đối với cơ sở kinh doanh thuốc, nguyên liệu làm thuốc của nước ngoài hoặc Giấy chứng nhận đủ điều kiện kinh doanh dược còn thời hạn hiệu lực đối với cơ sở kinh doanh thuốc, nguyên liệu làm thuốc của Việt Nam; bản gốc hoặc bản sao có chứng thực Giấy chứng nhận sản phẩm dược phẩm đối với thuốc nhập khẩu còn thời hạn hiệu lực; mẫu nhãn thuốc, nguyên liệu làm thuốc; thông tin về thuốc và các tài liệu khác về kinh doanh và lưu hành thuốc, nguyên liệu làm thuốc;
+
+b) Hồ sơ kỹ thuật chứng minh thuốc, nguyên liệu làm thuốc đáp ứng các yêu cầu quy định tại Khoản 4 Điều 54 của Luật này; đối với thuốc mới, sinh phẩm tham chiếu, vắc xin, thuốc dược liệu có chỉ định đối với các bệnh thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành phải có thêm hồ sơ lâm sàng chứng minh đạt an toàn, hiệu quả; đối với sinh phẩm tương tự phải có thêm hồ sơ chứng minh tương tự về chất lượng, an toàn, hiệu quả so với một sinh phẩm tham chiếu; đối với thuốc có yêu cầu thử tương đương sinh học phải có thêm báo cáo số liệu nghiên cứu tương đương sinh học của thuốc;
+
+c) Mẫu nhãn thực tế của thuốc, nguyên liệu làm thuốc lưu hành tại nước sở tại hoặc nước tham chiếu đối với thuốc nhập khẩu.
+
+3. Hồ sơ đề nghị gia hạn giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc bao gồm:
+
+a) Đơn đề nghị gia hạn giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+b) Bản sao có chứng thực Giấy phép thành lập văn phòng đại diện còn thời hạn hiệu lực đối với cơ sở kinh doanh thuốc, nguyên liệu làm thuốc của nước ngoài hoặc Giấy chứng nhận đủ điều kiện kinh doanh dược còn thời hạn hiệu lực đối với cơ sở kinh doanh thuốc, nguyên liệu làm thuốc của Việt Nam;
+
+c) Bản gốc hoặc bản sao có chứng thực Giấy chứng nhận sản phẩm dược phẩm còn thời hạn hiệu lực đối với thuốc nhập khẩu;
+
+d) Báo cáo lưu hành thuốc, nguyên liệu làm thuốc;
+
+đ) Báo cáo an toàn, hiệu quả đối với thuốc có yêu cầu tiếp tục theo dõi an toàn, hiệu quả;
+
+e) Bản sao giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc tại Việt Nam.
+
+4. Hồ sơ đề nghị thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc bao gồm:
+
+a) Đơn đề nghị thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+b) Hồ sơ kỹ thuật đối với nội dung thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+c) Bản sao giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc tại Việt Nam còn hiệu lực.
+
+5. Thời hạn cấp, gia hạn hoặc thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc:
+
+a) Không quá 12 tháng kể từ ngày nhận đủ hồ sơ đối với việc cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc hoặc kể từ ngày nhận đủ hồ sơ đối với thuốc mới, sinh phẩm tham chiếu, sinh phẩm tương tự, vắc xin, thuốc dược liệu có chỉ định đối với các bệnh thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành trong đó có hồ sơ lâm sàng đã chứng minh đạt an toàn, hiệu quả;
+
+b) Không quá 03 tháng kể từ ngày nhận đủ hồ sơ đối với việc gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc;
+
+c) Trường hợp không cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc hoặc chưa đáp ứng đủ Điều kiện cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc phải có văn bản trả lời và nêu rõ lý do.
+
+6. Thời hạn hiệu lực của giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc là 05 năm kể từ ngày cấp hoặc gia hạn.
+
+Thời hạn hiệu lực của giấy đăng ký lưu hành thuốc là 03 năm kể từ ngày cấp đối với thuốc có yêu cầu tiếp tục theo dõi an toàn, hiệu quả.
+
+7. Bộ trưởng Bộ Y tế quy định chi tiết hồ sơ, thủ tục cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.
+
+Điều 57. Quyền và trách nhiệm của cơ sở đăng ký thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở đăng ký thuốc, nguyên liệu làm thuốc có các quyền sau đây:
+
+a) Được hướng dẫn về đăng ký thuốc, nguyên liệu làm thuốc; được biết tình trạng xử lý hồ sơ đăng ký thuốc, nguyên liệu làm thuốc và các thông tin khác liên quan đến thuốc, nguyên liệu làm thuốc sau khi được cấp giấy đăng ký lưu hành;
+
+b) Đề nghị thu hồi giấy đăng ký lưu hành của thuốc, nguyên liệu làm thuốc do cơ sở đăng ký.
+
+2. Cơ sở đăng ký thuốc, nguyên liệu làm thuốc có các trách nhiệm sau đây:
+
+a) Thông báo cho cơ quan quản lý trong trường hợp thuốc, nguyên liệu làm thuốc đã được cấp giấy đăng ký lưu hành tại Việt Nam bị thu hồi ở bất kỳ nước nào trên thế giới; ngừng sản xuất, ngừng cung cấp hoặc nguy cơ và tình trạng thiếu thuốc, nguyên liệu làm thuốc; thay đổi cơ sở đăng ký thuốc, nguyên liệu làm thuốc trong thời gian giấy đăng ký lưu hành còn thời hạn hiệu lực;
+
+b) Lưu trữ đủ hồ sơ đăng ký thuốc, nguyên liệu làm thuốc và cung cấp hồ sơ cho cơ quan quản lý có thẩm quyền khi có yêu cầu;
+
+c) Thực hiện các yêu cầu về kiểm tra, đánh giá cơ sở sản xuất khi có yêu cầu của cơ quan quản lý có thẩm quyền.
+
+Điều 58. Thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc
+
+1. Giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc bị thu hồi trong trường hợp sau đây:
+
+a) Thuốc bị thu hồi do vi phạm ở mức độ 1;
+
+b) Trong thời hạn 60 tháng có 02 lô thuốc bị thu hồi bắt buộc do vi phạm ở mức độ 2 hoặc 03 lô thuốc trở lên vi phạm chất lượng;
+
+c) Thuốc nhập khẩu bị cơ quan có thẩm quyền của nước ngoài thu hồi Giấy chứng nhận sản phẩm dược phẩm mà giấy đó là căn cứ để Bộ Y tế cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc tại Việt Nam;
+
+d) Giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc được cấp dựa trên hồ sơ giả mạo;
+
+đ) Thuốc, nguyên liệu làm thuốc được sản xuất không đúng địa chỉ theo hồ sơ đăng ký;
+
+e) Dược chất, dược liệu hoặc thuốc có chứa dược chất, dược liệu được Tổ chức Y tế Thế giới, cơ quan quản lý có thẩm quyền của Việt Nam hoặc nước xuất xứ của thuốc khuyến cáo không an toàn, hiệu quả cho người sử dụng;
+
+g) Cơ sở sản xuất hoặc cơ sở đăng ký thuốc, nguyên liệu làm thuốc đề nghị thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc tại Việt Nam.
+
+2. Bộ trưởng Bộ Y tế quy định chi tiết hồ sơ, thủ tục thu hồi giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.
+
+Mục 2. LƯU HÀNH THUỐC, NGUYÊN LIỆU LÀM THUỐC
+
+Điều 59. Quy định về lưu hành thuốc, nguyên liệu làm thuốc
+
+1. Các loại thuốc, nguyên liệu làm thuốc lưu hành trên thị trường bao gồm:
+
+a) Thuốc, nguyên liệu làm thuốc đã được cấp giấy đăng ký lưu hành;
+
+b) Thuốc, nguyên liệu làm thuốc nhập khẩu quy định tại các Khoản 1, 2, 3 và 4 Điều 60 của Luật này;
+
+c) Thuốc quy định tại Điểm b Khoản 1 Điều 47, Khoản 1 và Khoản 2 Điều 70, Khoản 3 Điều 85 của Luật này;
+
+d) Thuốc, nguyên liệu làm thuốc sản xuất trong nước được phép tiếp tục lưu hành đến hết hạn dùng trong trường hợp được sản xuất trước ngày giấy đăng ký lưu hành hết thời hạn hiệu lực;
+
+đ) Thuốc, nguyên liệu làm thuốc nhập khẩu được phép tiếp tục lưu hành đến hết hạn dùng trong trường hợp được giao hàng tại cảng đi của nước xuất khẩu trước ngày giấy đăng ký lưu hành hết thời hạn hiệu lực;
+
+e) Thuốc, nguyên liệu làm thuốc sản xuất trong nước hoặc thuốc nhập khẩu trước ngày giấy đăng ký lưu hành bị thu hồi theo quy định tại Điều 58 của Luật này, trừ trường hợp thuốc, nguyên liệu làm thuốc bị thu hồi theo quy định tại Điều 62 của Luật này.
+
+2. Thuốc lưu hành trên thị trường phải đáp ứng các yêu cầu sau đây:
+
+a) Đạt tiêu chuẩn chất lượng và bảo đảm về an toàn, hiệu quả;
+
+b) Đáp ứng yêu cầu về nhãn thuốc quy định tại Điều 61 của Luật này và các quy định khác của pháp luật có liên quan;
+
+c) Vật liệu bao bì và dạng đóng gói phải đáp ứng yêu cầu bảo đảm chất lượng thuốc.
+
+3. Nguyên liệu làm thuốc lưu hành trên thị trường phải đáp ứng các yêu cầu sau đây:
+
+a) Đạt tiêu chuẩn chất lượng để sản xuất thuốc và bảo đảm về an toàn, hiệu quả;
+
+b) Đáp ứng yêu cầu về nhãn thuốc theo quy định tại Điều 61 của Luật này và các quy định khác của pháp luật có liên quan;
+
+c) Vật liệu bao bì và dạng đóng gói phải đáp ứng yêu cầu bảo đảm chất lượng nguyên liệu làm thuốc.
+
+Điều 60. Thuốc, nguyên liệu làm thuốc được nhập khẩu, xuất khẩu
+
+1. Thuốc, nguyên liệu làm thuốc là dược chất đã có giấy đăng ký lưu hành tại Việt Nam, nguyên liệu làm thuốc là dược chất để sản xuất thuốc theo hồ sơ đăng ký thuốc đã có giấy đăng ký lưu hành thuốc tại Việt Nam được nhập khẩu mà không phải thực hiện việc cấp phép nhập khẩu, trừ thuốc, nguyên liệu làm thuốc quy định tại Khoản 4 Điều này.
+
+2. Thuốc chưa có giấy đăng ký lưu hành thuốc tại Việt Nam được cấp phép nhập khẩu và chỉ được nhập khẩu không quá số lượng ghi trong giấy phép nhập khẩu trong trường hợp sau đây:
+
+a) Có chứa dược chất chưa có giấy đăng ký lưu hành thuốc hoặc đã có giấy đăng ký lưu hành thuốc nhưng thuốc chưa đáp ứng đủ cho nhu cầu Điều trị;
+
+b) Có chứa dược liệu lần đầu sử dụng làm thuốc tại Việt Nam hoặc đã từng sử dụng làm thuốc tại Việt Nam nhưng thuốc chưa đáp ứng đủ cho nhu cầu Điều trị;
+
+c) Đáp ứng nhu cầu cấp bách cho quốc phòng, an ninh, phòng, chống dịch bệnh, khắc phục hậu quả thiên tai, thảm họa, nhu cầu Điều trị đặc biệt;
+
+d) Thuốc hiếm;
+
+đ) Thuốc có cùng tên thương mại, thành phần hoạt chất, hàm lượng hoặc nồng độ, dạng bào chế với biệt dược gốc có giấy đăng ký lưu hành thuốc tại Việt Nam, được sản xuất bởi chính nhà sản xuất biệt dược gốc hoặc bởi nhà sản xuất được ủy quyền, có giá thấp hơn so với thuốc biệt dược gốc lưu hành tại Việt Nam theo yêu cầu của Bộ trưởng Bộ Y tế;
+
+e) Phục vụ cho chương trình y tế của Nhà nước;
+
+g) Viện trợ, viện trợ nhân đạo;
+
+h) Thử thuốc trên lâm sàng, thử tương đương sinh học, đánh giá sinh khả dụng, làm mẫu đăng ký, mẫu kiểm nghiệm, nghiên cứu khoa học, tham gia trưng bày tại triển lãm, hội chợ;
+
+i) Trường hợp khác không vì Mục đích thương mại.
+
+3. Nguyên liệu làm thuốc là dược chất chưa có giấy đăng ký lưu hành tại Việt Nam được cấp phép nhập khẩu và chỉ được nhập khẩu không quá số lượng ghi trong giấy phép nhập khẩu trong trường hợp sau đây:
+
+a) Để làm mẫu đăng ký, mẫu kiểm nghiệm, nghiên cứu thuốc, tham gia trưng bày tại triển lãm, hội chợ;
+
+b) Để sản xuất thuốc xuất khẩu, thuốc phục vụ yêu cầu quốc phòng, an ninh, phòng, chống dịch bệnh, khắc phục hậu quả thiên tai, thảm họa.
+
+4. Thuốc phải kiểm soát đặc biệt phải thực hiện việc cấp phép xuất khẩu, nhập khẩu và chỉ được xuất khẩu, nhập khẩu không quá số lượng được ghi trong giấy phép.
+
+Tùy từng thời kỳ phát triển kinh tế - xã hội, Chính phủ quy định các loại thuốc, nguyên liệu làm thuốc phải kiểm soát nhập khẩu.
+
+5. Thuốc, nguyên liệu làm thuốc được phép xuất khẩu không cần giấy phép của Bộ Y tế, trừ dược liệu thuộc danh Mục loài, chủng loại dược liệu quý, hiếm, đặc hữu phải kiểm soát, thuốc phải kiểm soát đặc biệt, nguyên liệu làm thuốc là dược chất hướng thần, dược chất gây nghiện, tiền chất dùng làm thuốc do Bộ trưởng Bộ Y tế ban hành hoặc chất phóng xạ theo danh Mục do Chính phủ ban hành.
+
+6. Bộ Y tế có trách nhiệm công bố thông tin liên quan đến thuốc được cấp phép nhập khẩu theo quy định tại các Điểm a, b, c và d Khoản 2 Điều này bao gồm nhà nhập khẩu, nhà sản xuất, số lượng, tên thuốc và số giấy phép nhập khẩu; số lượng giấy đăng ký lưu hành thuốc đối với mỗi hoạt chất.
+
+7. Chính phủ quy định chi Tiết các nội dung sau đây:
+
+a) Tiêu chí, hồ sơ, thủ tục, thời gian cấp phép xuất khẩu, nhập khẩu đối với thuốc quy định tại các Khoản 2, 3, 4 và 5 Điều này và danh Mục thuốc, nguyên liệu làm thuốc cấm nhập khẩu, cấm sản xuất;
+
+b) Nhập khẩu dược liệu, tá dược, vỏ nang, bao bì tiếp xúc trực tiếp với thuốc.
+
+Điều 61. Nhãn thuốc, nguyên liệu làm thuốc lưu hành trên thị trường
+
+1. Nhãn thuốc, nguyên liệu làm thuốc lưu hành trên thị trường phải thể hiện các nội dung sau đây:
+
+a) Tên thuốc, nguyên liệu làm thuốc;
+
+b) Dạng bào chế, trừ nguyên liệu làm thuốc;
+
+c) Thành phần, hàm lượng, nồng độ hoặc khối lượng dược chất, dược liệu của thuốc, nguyên liệu làm thuốc; nhãn của thuốc cổ truyền thuộc Danh Mục bí mật của Nhà nước và của thuốc gia truyền được phép không thể hiện một số thành phần dược liệu, hàm lượng, khối lượng dược liệu và phải có dòng chữ “Công thức sản xuất thuốc là bí mật nhà nước” hoặc “Công thức sản xuất thuốc là bí mật gia truyền”;
+
+d) Quy cách đóng gói;
+
+đ) Tên, địa chỉ của cơ sở sản xuất;
+
+e) Tên, địa chỉ của cơ sở nhập khẩu đối với thuốc, nguyên liệu làm thuốc nhập khẩu;
+
+g) Số giấy đăng ký lưu hành hoặc số giấy phép nhập khẩu, số lô sản xuất, ngày sản xuất;
+
+h) Hạn dùng của thuốc, nguyên liệu làm thuốc;
+
+i) Điều kiện bảo quản và thông tin cần thiết khác theo quy định.
+
+2. Tờ hướng dẫn sử dụng thuốc là một phần không thể tách rời của nhãn thuốc và có đầy đủ thông tin quy định tại các Điểm a, b, c, d, đ, h và i Khoản 1 Điều này và được thể hiện bằng tiếng Việt, trừ trường hợp thông tin không thể dịch ra tiếng Việt hoặc dịch ra tiếng Việt không có nghĩa.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết việc ghi nhãn thuốc, nguyên liệu làm thuốc, tờ hướng dẫn sử dụng thuốc; quyết định việc thay đổi hạn dùng của thuốc đã ghi trên nhãn thuốc trong trường hợp vì lý do quốc phòng, an ninh, phòng, chống dịch bệnh, khắc phục hậu quả thiên tai, thảm họa.
+
+Mục 3. THU HỒI THUỐC, NGUYÊN LIỆU LÀM THUỐC
+
+Điều 62. Các trường hợp thu hồi thuốc, nguyên liệu làm thuốc
+
+1. Thuốc bị thu hồi trong trường hợp sau đây:
+
+a) Không thuộc trường hợp được phép lưu hành quy định tại Khoản 1 Điều 59 của Luật này;
+
+b) Giấy đăng ký lưu hành thuốc bị thu hồi trong trường hợp quy định tại các Điểm a, b, d, đ và e Khoản 1 Điều 58 của Luật này;
+
+c) Không đáp ứng yêu cầu quy định tại Khoản 4 Điều 54 hoặc Khoản 2 Điều 59 của Luật này;
+
+d) Thuốc không đạt tiêu chuẩn chất lượng, thuốc sản xuất từ nguyên liệu làm thuốc không đạt tiêu chuẩn chất lượng;
+
+đ) Có kết luận của cơ quan nhà nước có thẩm quyền về thuốc không đạt yêu cầu về an toàn, hiệu quả;
+
+e) Thuốc không có bằng chứng đã được kiểm tra chất lượng trong quá trình sản xuất và trước khi xuất xưởng;
+
+g) Có thông báo thu hồi thuốc của cơ quan quản lý về dược của nước ngoài.
+
+2. Nguyên liệu làm thuốc lưu hành trên thị trường bị thu hồi trong trường hợp sau đây:
+
+a) Nguyên liệu làm thuốc bị sử dụng sai Mục đích;
+
+b) Giấy đăng ký lưu hành nguyên liệu làm thuốc bị thu hồi trong trường hợp quy định tại các Điểm d, đ và e Khoản 1 Điều 58 của Luật này;
+
+c) Không đáp ứng yêu cầu quy định tại Khoản 4 Điều 54 hoặc Khoản 3 Điều 59 của Luật này;
+
+d) Nguyên liệu làm thuốc không đạt tiêu chuẩn chất lượng để sản xuất thuốc; nguyên liệu làm thuốc không đúng xuất xứ đã đăng ký lưu hành hoặc giấy phép nhập khẩu;
+
+đ) Nguyên liệu làm thuốc không có bằng chứng đã được kiểm tra chất lượng trong quá trình sản xuất và trước khi xuất xưởng;
+
+e) Có thông báo thu hồi nguyên liệu làm thuốc của cơ quan quản lý về dược của nước ngoài.
+
+Điều 63. Hình thức thu hồi, mức độ vi phạm, phạm vi và thời gian thu hồi và xử lý thuốc bị thu hồi
+
+1. Hình thức thu hồi thuốc bao gồm:
+
+a) Thu hồi tự nguyện là thu hồi do cơ sở đăng ký thuốc, cơ sở sản xuất, cơ sở nhập khẩu hoặc ủy thác nhập khẩu thuốc tự nguyện thực hiện;
+
+b) Thu hồi bắt buộc là thu hồi theo quyết định của cơ quan nhà nước có thẩm quyền trong trường hợp thu hồi quy định tại Điều 62 của Luật này.
+
+2. Mức độ vi phạm của thuốc bao gồm:
+
+a) Mức độ 1 là mức độ mà thuốc có nguy cơ gây tổn hại nghiêm trọng đối với sức khỏe hoặc ảnh hưởng đến tính mạng của người sử dụng;
+
+b) Mức độ 2 là mức độ mà thuốc có bằng chứng không bảo đảm đầy đủ hiệu quả Điều trị hoặc có nguy cơ không an toàn cho người sử dụng nhưng chưa đến mức gây tổn hại nghiêm trọng đối với sức khỏe hoặc chưa ảnh hưởng đến tính mạng của người sử dụng;
+
+c) Mức độ 3 là mức độ không thuộc trường hợp quy định tại Điểm a và Điểm b Khoản này mà do các nguyên nhân khác nhưng không ảnh hưởng đến hiệu quả Điều trị và an toàn khi sử dụng.
+
+3. Phạm vi và thời gian yêu cầu thu hồi thuốc được thực hiện như sau:
+
+a) Thu hồi ở tất cả cơ sở kinh doanh dược, cơ sở khám bệnh, chữa bệnh và người sử dụng trong trường hợp thuốc vi phạm ở mức độ 1. Việc thu hồi phải hoàn thành trong thời hạn 03 ngày kể từ ngày có quyết định thu hồi;
+
+b) Thu hồi ở tất cả cơ sở kinh doanh dược, cơ sở khám bệnh, chữa bệnh và người sử dụng trong trường hợp thuốc vi phạm ở mức độ 2. Việc thu hồi phải hoàn thành trong thời hạn 15 ngày kể từ ngày có quyết định thu hồi;
+
+c) Thu hồi ở tất cả cơ sở kinh doanh dược trong trường hợp thuốc vi phạm ở mức độ 3. Việc thu hồi phải hoàn thành trong thời hạn 30 ngày kể từ ngày có quyết định thu hồi;
+
+d) Trường hợp việc thu hồi thuốc vi phạm ở mức độ 1 và việc thu hồi thuốc vượt quá khả năng thu hồi của cơ sở sản xuất thuốc trong nước, cơ sở nhập khẩu, cơ sở ủy thác nhập khẩu thuốc hoặc quá thời hạn thu hồi mà cơ sở sản xuất thuốc trong nước, cơ sở nhập khẩu, cơ sở ủy thác nhập khẩu thuốc không thực hiện việc thu hồi thì bị cưỡng chế thu hồi theo quy định của pháp luật.
+
+Cơ quan nhà nước có thẩm quyền trực tiếp tổ chức cưỡng chế thu hồi thuốc; cơ sở sản xuất thuốc trong nước, cơ sở nhập khẩu, cơ sở ủy thác nhập khẩu thuốc có trách nhiệm thanh toán chi phí cho việc thu hồi và xử lý thuốc bị thu hồi.
+
+4. Xử lý thuốc bị thu hồi được thực hiện như sau:
+
+a) Thuốc bị thu hồi theo quy định tại Điểm a và Điểm b Khoản 2 Điều này phải bị tiêu hủy;
+
+b) Thuốc bị thu hồi theo quy định tại Điểm c Khoản 2 Điều này được phép khắc phục, tái xuất hoặc tiêu hủy trong trường hợp không thể khắc phục được.
+
+Điều 64. Trách nhiệm thu hồi thuốc
+
+1. Cơ sở đăng ký thuốc, cơ sở sản xuất thuốc trong nước, cơ sở có pha chế, chế biến, bào chế thuốc, cơ sở nhập khẩu, cơ sở ủy thác nhập khẩu thuốc có thuốc bị thu hồi có các trách nhiệm sau đây:
+
+a) Ngừng kinh doanh thuốc bị thu hồi;
+
+b) Chủ trì, phối hợp với tổ chức, cá nhân có liên quan công bố thông tin về thuốc bị thu hồi và tổ chức thu hồi, tiếp nhận thuốc bị thu hồi;
+
+c) Xử lý thuốc bị thu hồi;
+
+d) Chi trả chi phí cho việc thu hồi, xử lý thuốc bị thu hồi, bồi thường thiệt hại theo quy định của pháp luật;
+
+đ) Báo cáo Bộ Y tế về việc thu hồi thuốc và kết quả thu hồi thuốc;
+
+e) Trường hợp thu hồi tự nguyện thì phải tạm ngừng kinh doanh thuốc bị thu hồi và báo cáo Bộ Y tế trước khi tiến hành việc thu hồi thuốc.
+
+2. Cơ sở bán buôn, bán lẻ thuốc có các trách nhiệm sau đây:
+
+a) Ngừng kinh doanh, cấp phát thuốc bị thu hồi;
+
+b) Thông báo và tổ chức thu hồi, tiếp nhận thuốc bị thu hồi do cơ sở kinh doanh, cung cấp, người sử dụng trả lại;
+
+c) Trả thuốc bị thu hồi cho cơ sở đã cung cấp thuốc;
+
+d) Chi trả chi phí cho việc thu hồi, xử lý thuốc bị thu hồi và bồi thường thiệt hại theo quy định của pháp luật trong trường hợp có lỗi.
+
+3. Cơ sở khám bệnh, chữa bệnh và người sử dụng thuốc có các trách nhiệm sau đây:
+
+a) Ngừng việc kê đơn, bán, cấp phát và sử dụng thuốc bị thu hồi;
+
+b) Trả lại thuốc bị thu hồi cho cơ sở cung ứng thuốc.
+
+4. Bộ Y tế có các trách nhiệm sau đây:
+
+a) Căn cứ vào mức độ vi phạm về chất lượng, an toàn, hiệu quả, quyết định việc thu hồi, xử lý thuốc thu hồi trên phạm vi toàn quốc;
+
+b) Rà soát báo cáo đánh giá và trả lời về đề xuất tự nguyện thu hồi của cơ sở sản xuất, kinh doanh;
+
+c) Kiểm tra, giám sát việc tổ chức và thực hiện thu hồi thuốc, nguyên liệu làm thuốc; xử lý cơ sở vi phạm theo quy định của pháp luật;
+
+d) Công bố thông tin về thuốc bị thu hồi trên cổng thông tin điện tử của Bộ Y tế, Đài truyền hình Việt Nam và Đài tiếng nói Việt Nam đối với trường hợp thu hồi thuốc vi phạm ở mức độ 1 ngay sau khi có quyết định thu hồi thuốc.
+
+5. Đài truyền hình Việt Nam, Đài tiếng nói Việt Nam có trách nhiệm công bố thông tin về thu hồi thuốc vi phạm ở mức độ 1 và không thu phí.
+
+Điều 65. Thẩm quyền ra quyết định thu hồi thuốc, thủ tục thu hồi thuốc
+
+1. Bộ Y tế ra quyết định thu hồi thuốc trong trường hợp thuốc bị thu hồi bắt buộc và trường hợp thu hồi tự nguyện khi thuốc vi phạm ở mức độ 1, mức độ 2. Thời gian ra quyết định thu hồi thuốc không quá 24 giờ kể từ khi có kết luận thuốc thuộc trường hợp phải thu hồi và mức độ vi phạm của thuốc hoặc có kết luận về việc thu hồi thuốc tự nguyện không phù hợp với mức độ vi phạm của thuốc.
+
+2. Người đứng đầu cơ sở đăng ký thuốc, cơ sở sản xuất thuốc trong nước, cơ sở pha chế, chế biến, bào chế thuốc, cơ sở nhập khẩu hoặc ủy thác nhập khẩu thuốc ra quyết định thu hồi thuốc trong trường hợp thu hồi tự nguyện thuốc vi phạm ở mức độ 3 sau khi có ý kiến của Bộ Y tế. Thời gian ra quyết định thu hồi thuốc không quá 24 giờ kể từ khi có ý kiến của Bộ Y tế.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết việc kết luận thuốc thuộc trường hợp phải thu hồi, mức độ vi phạm của thuốc, thủ tục thu hồi thuốc và việc xử lý thuốc bị thu hồi.
+
+4. Chính phủ quy định thẩm quyền, hình thức, thủ tục thu hồi nguyên liệu làm thuốc; biện pháp xử lý nguyên liệu làm thuốc bị thu hồi.
+
+Chương VI
+
+DƯỢC LIỆU VÀ THUỐC CỔ TRUYỀN
+
+Mục 1. DƯỢC LIỆU
+
+Điều 66. Nuôi trồng, thu hái, khai thác, chế biến dược liệu
+
+1. Việc nuôi trồng, thu hái dược liệu tuân thủ Thực hành tốt nuôi trồng, thu hái dược liệu.
+
+2. Việc khai thác, chế biến dược liệu tự nhiên phải bảo đảm đúng chủng loại, quy cách, quy trình, thời Điểm, phương pháp chế biến và cách bảo quản của từng dược liệu.
+
+3. Bộ trưởng Bộ Y tế quy định lộ trình áp dụng Thực hành tốt nuôi trồng, thu hái dược liệu và ban hành các nguyên tắc, tiêu chuẩn khai thác dược liệu tự nhiên phù hợp với Điều kiện phát triển kinh tế - xã hội.
+
+Điều 67. Bảo quản dược liệu
+
+1. Việc bảo quản dược liệu phải tuân thủ Thực hành tốt về bảo quản thuốc, nguyên liệu làm thuốc.
+
+2. Dược liệu lưu hành trên thị trường phải được đóng gói bằng bao bì đạt tiêu chuẩn và được ghi nhãn theo quy định của Bộ trưởng Bộ Y tế.
+
+Điều 68. Chất lượng của dược liệu
+
+1. Dược liệu phải đạt tiêu chuẩn chất lượng, có nguồn gốc, xuất xứ rõ ràng. Khi đưa vào sản xuất, chế biến, bào chế thuốc, mức tồn dư hóa chất bảo vệ thực vật, hóa chất bảo quản, giới hạn kim loại nặng, giới hạn vi sinh vật, giới hạn độc tính của dược liệu không được vượt mức quy định.
+
+2. Tổ chức, cá nhân sản xuất, nhập khẩu, chế biến, cung ứng dược liệu phải công bố tiêu chuẩn dược liệu theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật trong trường hợp dược liệu chưa có giấy đăng ký lưu hành và chịu trách nhiệm về nguồn gốc, chất lượng của dược liệu; báo cáo với cơ quan quản lý nhà nước về dược về số lượng của dược liệu được nhập khẩu để kinh doanh và sử dụng để pha chế, chế biến, sản xuất thuốc.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết Điều này.
+
+Mục 2. THUỐC CỔ TRUYỀN
+
+Điều 69. Kinh doanh thuốc cổ truyền
+
+1. Việc kinh doanh thuốc cổ truyền được áp dụng thực hiện theo quy định tại Chương IV của Luật này.
+
+2. Cơ sở sản xuất thuốc cổ truyền lưu hành toàn quốc, cơ sở bán lẻ thuốc cổ truyền phải đáp ứng các Điều kiện sau đây:
+
+a) Cơ sở sản xuất thuốc cổ truyền phải có địa Điểm, nhà xưởng sản xuất, phòng kiểm nghiệm, kho bảo quản thuốc, nguyên liệu làm thuốc, hệ thống phụ trợ, trang thiết bị, máy móc sản xuất, kiểm nghiệm, bảo quản thuốc, hệ thống quản lý chất lượng, tài liệu chuyên môn kỹ thuật và nhân sự tuân thủ Thực hành tốt sản xuất thuốc đối với thuốc cổ truyền;
+
+b) Cơ sở chuyên bán lẻ dược liệu, thuốc dược liệu, thuốc cổ truyền phải tuân thủ quy định về địa Điểm, khu vực bảo quản, trang thiết bị bảo quản, tài liệu chuyên môn kỹ thuật và nhân sự;
+
+c) Người chịu trách nhiệm chuyên môn về dược, người phụ trách về chất lượng thuốc của cơ sở sản xuất thuốc cổ truyền phải có văn bằng chuyên môn quy định tại Điểm a hoặc Điểm c Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp với chuyên môn của người hành nghề, trừ trường hợp quy định tại Điểm d Khoản này. Người chịu trách nhiệm chuyên môn về dược của cơ sở sản xuất thuốc cổ truyền lưu hành toàn quốc có thể đồng thời là người phụ trách về bảo đảm chất lượng thuốc của cơ sở sản xuất;
+
+d) Người chịu trách nhiệm chuyên môn về dược, người phụ trách về bảo đảm chất lượng thuốc của hợp tác xã, hộ kinh doanh sản xuất thuốc cổ truyền phải có một trong các văn bằng chuyên môn quy định tại Điểm a, c, e, g, i hoặc l Khoản 1 Điều 13 của Luật này và có 02 năm thực hành chuyên môn tại cơ sở dược phù hợp với chuyên môn của người hành nghề, trừ trường hợp quy định tại Điểm c Khoản 2 Điều 13 của Luật này. Người chịu trách nhiệm chuyên môn về dược của hợp tác xã, hộ kinh doanh sản xuất thuốc cổ truyền có thể đồng thời là người phụ trách về bảo đảm chất lượng thuốc của cơ sở sản xuất;
+
+đ) Người chịu trách nhiệm chuyên môn về dược của cơ sở bán lẻ thuốc cổ truyền thực hiện theo quy định tại Khoản 4 Điều 18 của Luật này.
+
+3. Chính phủ quy định chi Tiết việc kinh doanh thuốc cổ truyền và quản lý thuốc cổ truyền nhập khẩu vào Việt Nam.
+
+Điều 70. Cung ứng, chế biến, bào chế và sử dụng thuốc cổ truyền trong cơ sở khám bệnh, chữa bệnh
+
+1. Cơ sở khám bệnh, chữa bệnh bằng y học cổ truyền được chế biến, bào chế, cân (bốc) thuốc cổ truyền theo bài thuốc, đơn thuốc để sử dụng và bán lẻ theo đơn tại chính cơ sở đó.
+
+2. Thuốc cổ truyền do bệnh viện có chức năng khám bệnh, chữa bệnh bằng y học cổ truyền tuyến tỉnh trở lên chế biến, bào chế được bán cho cơ sở khám bệnh, chữa bệnh có thực hiện hoạt động khám bệnh, chữa bệnh bằng y học cổ truyền khác trong cùng địa bàn tỉnh, thành phố trực thuộc trung ương để Điều trị cho bệnh nhân tại cơ sở đó.
+
+3. Người đứng đầu cơ sở khám bệnh, chữa bệnh có chế biến, bào chế thuốc cổ truyền phải chịu trách nhiệm về chất lượng, an toàn, hiệu quả của các loại thuốc do chính cơ sở chế biến, bào chế.
+
+4. Bộ trưởng Bộ Y tế quy định Điều kiện chế biến, bào chế và quản lý thuốc cổ truyền quy định tại Điều này.
+
+Điều 71. Đăng ký, lưu hành, thu hồi thuốc cổ truyền
+
+1. Thuốc cổ truyền lưu hành trên thị trường phải thực hiện việc đăng ký, lưu hành, thu hồi thuốc theo quy định tại Chương V của Luật này, trừ quy định tại Khoản 2 Điều này.
+
+2. Thời hạn cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc cổ truyền được quy định như sau:
+
+a) Không quá 06 tháng kể từ ngày nhận đủ hồ sơ đối với việc cấp giấy đăng ký lưu hành thuốc cổ truyền;
+
+b) Không quá 12 tháng kể từ ngày nhận đủ hồ sơ đối với việc cấp giấy đăng ký lưu hành thuốc cổ truyền đối với thuốc cổ truyền phải thử lâm sàng;
+
+c) Không quá 01 tháng kể từ ngày nhận đủ hồ sơ đối với việc gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc cổ truyền;
+
+d) Trường hợp không cấp, gia hạn, thay đổi, bổ sung giấy đăng ký lưu hành thuốc cổ truyền hoặc chưa đáp ứng đủ Điều kiện cấp giấy đăng ký lưu hành thuốc cổ truyền theo quy định của Luật này thì phải trả lời bằng văn bản và nêu rõ lý do.
+
+3. Thuốc cổ truyền được cân (bốc) theo bài thuốc, đơn thuốc được chế biến, bào chế trong cơ sở khám bệnh, chữa bệnh theo quy định tại Khoản 1 và Khoản 2 Điều 70 của Luật này không phải đăng ký lưu hành. Người đứng đầu cơ sở chịu trách nhiệm thu hồi thuốc theo quy định khi phát hiện thuốc không bảo đảm chất lượng, an toàn, hiệu quả.
+
+Điều 72. Thử thuốc cổ truyền trên lâm sàng trước khi đăng ký lưu hành
+
+1. Thuốc cổ truyền được miễn thử, miễn một số giai đoạn thử lâm sàng hoặc phải thử lâm sàng đầy đủ các giai đoạn.
+
+2. Thuốc cổ truyền được miễn thử lâm sàng trong trường hợp sau đây:
+
+a) Thuốc cổ truyền đã được Bộ Y tế công nhận;
+
+b) Thuốc cổ truyền đã được cấp giấy đăng ký lưu hành trước ngày Luật này có hiệu lực, trừ thuốc có đề nghị phải thử lâm sàng của Hội đồng tư vấn cấp giấy đăng ký lưu hành thuốc, nguyên liệu làm thuốc.
+
+3. Bộ trưởng Bộ Y tế quy định tiêu chí cụ thể để xác định trường hợp miễn một số giai đoạn thử thuốc cổ truyền trên lâm sàng hoặc phải thử lâm sàng đầy đủ các giai đoạn tại Việt Nam.
+
+Điều 73. Chất lượng thuốc cổ truyền
+
+1. Thuốc cổ truyền được cân (bốc) theo bài thuốc, đơn thuốc, được bào chế, chế biến trong cơ sở khám bệnh, chữa bệnh quy định tại Khoản 1 và Khoản 2 Điều 70 của Luật này phải bảo đảm chất lượng do Bộ Y tế quy định.
+
+2. Thuốc cổ truyền lưu hành toàn quốc phải bảo đảm chất lượng theo quy định tại Điều 102 và Điều 103 của Luật này.
+
+3. Bộ trưởng Bộ Y tế quy định việc công nhận bài thuốc cổ truyền, bài thuốc cổ truyền quý hiếm; các bài thuốc, đơn thuốc được sử dụng để cân (bốc); hướng dẫn về phương pháp chế biến, bào chế hoặc phối ngũ theo lý luận và phương pháp của y học cổ truyền; hướng dẫn đối với các thuốc cổ truyền có dạng bào chế hiện đại.
+
+Chương VII
+
+ĐƠN THUỐC VÀ SỬ DỤNG THUỐC
+
+Điều 74. Đơn thuốc
+
+1. Đơn thuốc là căn cứ để bán thuốc, cấp phát thuốc, pha chế thuốc, cân (bốc) thuốc, sử dụng thuốc và hướng dẫn sử dụng thuốc.
+
+2. Bộ trưởng Bộ Y tế quy định chi Tiết về đơn thuốc, việc kê đơn thuốc.
+
+Điều 75. Sử dụng thuốc
+
+1. Sử dụng thuốc trong các cơ sở khám bệnh, chữa bệnh được thực hiện theo quy định của pháp luật về khám bệnh, chữa bệnh.
+
+2. Sử dụng thuốc ngoài cơ sở khám bệnh, chữa bệnh được quy định như sau:
+
+a) Người sử dụng thuốc có quyền lựa chọn cơ sở bán lẻ thuốc để mua thuốc; thực hiện theo đúng hướng dẫn đã ghi trong đơn thuốc, tờ hướng dẫn sử dụng thuốc và hướng dẫn sử dụng thuốc của người bán lẻ thuốc;
+
+b) Người kê đơn thuốc có trách nhiệm hướng dẫn sử dụng các thuốc được kê trong đơn và chịu trách nhiệm về đơn thuốc đã kê;
+
+c) Cơ sở bán lẻ thuốc phải hướng dẫn sử dụng thuốc cho người sử dụng.
+
+3. Bộ trưởng Bộ Y tế quy định việc thành lập Hội đồng liên ngành xác định nguyên nhân và đối tượng chịu trách nhiệm trong trường hợp thuốc gây ảnh hưởng nghiêm trọng đến sức khỏe, tính mạng người sử dụng.
+
+Chương VIII
+
+THÔNG TIN THUỐC, CẢNH GIÁC DƯỢC VÀ QUẢNG CÁO THUỐC
+
+Điều 76. Nội dung và trách nhiệm thông tin thuốc
+
+1. Thông tin thuốc nhằm Mục đích hướng dẫn sử dụng thuốc hợp lý, an toàn, hiệu quả cho người hành nghề khám bệnh, chữa bệnh và người sử dụng thuốc.
+
+2. Thông tin thuốc phải cập nhật, rõ ràng, đầy đủ, chính xác dựa trên bằng chứng, dễ hiểu, phù hợp với đối tượng được cung cấp thông tin.
+
+3. Căn cứ để xây dựng nội dung thông tin thuốc bao gồm các tài liệu sau đây, trừ trường hợp thông tin quy định tại Điểm c Khoản 5 và Điểm a Khoản 6 Điều này:
+
+a) Dược thư Quốc gia Việt Nam;
+
+b) Tờ hướng dẫn sử dụng thuốc đã được Bộ Y tế phê duyệt;
+
+c) Tài liệu, hướng dẫn chuyên môn có liên quan đến thuốc do Bộ Y tế ban hành hoặc công nhận.
+
+4. Dược thư Quốc gia Việt Nam là tài liệu chính thức về hướng dẫn sử dụng thuốc hợp lý, an toàn, hiệu quả. Bộ trưởng Bộ Y tế có trách nhiệm ban hành và cập nhật Dược thư Quốc gia Việt Nam.
+
+5. Nội dung thông tin thuốc bao gồm:
+
+a) Thông tin cho người hành nghề khám bệnh, chữa bệnh bao gồm tên thuốc, thành phần, nồng độ, hàm lượng, dạng bào chế, chỉ định, chống chỉ định, liều dùng, cách dùng, sử dụng thuốc trên các đối tượng đặc biệt, các thông tin liên quan đến cảnh báo và an toàn thuốc và các thông tin cần thiết khác;
+
+b) Thông tin cho người sử dụng thuốc bao gồm tên thuốc, công dụng, chỉ định, chống chỉ định, liều dùng, cách dùng và những vấn đề cần lưu ý trong quá trình sử dụng thuốc;
+
+c) Thông tin cho cơ quan quản lý nhà nước về dược bao gồm thông tin cập nhật về chất lượng, an toàn, hiệu quả của thuốc.
+
+6. Trách nhiệm cung cấp thông tin thuốc được quy định như sau:
+
+a) Cơ sở kinh doanh dược, văn phòng đại diện của thương nhân nước ngoài hoạt động trong lĩnh vực dược tại Việt Nam, cơ sở đăng ký thuốc có trách nhiệm cập nhật thông tin thuốc của cơ sở đang lưu hành trên thị trường cho cơ quan quản lý nhà nước về dược;
+
+b) Cơ sở kinh doanh dược, văn phòng đại diện của thương nhân nước ngoài hoạt động trong lĩnh vực dược tại Việt Nam, cơ sở đăng ký thuốc có trách nhiệm cung cấp thông tin thuốc phù hợp với thông tin quy định tại Khoản 3 Điều này cho người hành nghề khám bệnh, chữa bệnh và người sử dụng thuốc.
+
+Người của cơ sở kinh doanh dược giới thiệu thuốc cho người hành nghề khám bệnh, chữa bệnh theo quy định của Bộ trưởng Bộ Y tế;
+
+c) Người hành nghề khám bệnh, chữa bệnh có trách nhiệm cung cấp thông tin thuốc có liên quan cho người sử dụng thuốc trong quá trình khám bệnh, chữa bệnh;
+
+d) Cơ quan quản lý nhà nước về dược trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm công bố thông tin về chất lượng, an toàn, hiệu quả của thuốc.
+
+7. Tổ chức, cá nhân cung cấp thông tin thuốc phải chịu trách nhiệm về những thông tin do mình cung cấp.
+
+Điều 77. Cảnh giác dược
+
+1. Nội dung hoạt động cảnh giác dược bao gồm:
+
+a) Theo dõi, phát hiện, báo cáo thông tin liên quan đến phản ứng có hại của thuốc, sai sót liên quan đến thuốc, nghi ngờ thuốc giả, thuốc không đạt tiêu chuẩn chất lượng và thông tin liên quan đến thuốc không có hoặc không đạt hiệu quả Điều trị;
+
+b) Thu thập, xử lý thông tin quy định tại Điểm a Khoản này; đánh giá lợi ích, nguy cơ, kết luận, quản lý rủi ro liên quan đến thuốc;
+
+c) Công bố kết luận của cơ quan có thẩm quyền về các vấn đề an toàn của thuốc.
+
+2. Người sử dụng thuốc khi có những dấu hiệu bất thường trong quá trình sử dụng cần thông báo đến người trực tiếp khám bệnh, chữa bệnh hoặc cơ sở bán lẻ thuốc nơi đã mua thuốc và đến cơ sở khám bệnh, chữa bệnh để có biện pháp xử lý kịp thời.
+
+3. Người hành nghề khám bệnh, chữa bệnh có các trách nhiệm sau đây:
+
+a) Chủ động theo dõi, phát hiện có dấu hiệu bất thường, sai sót liên quan đến thuốc và nghi ngờ về chất lượng, hiệu quả của thuốc trong quá trình hành nghề;
+
+b) Đánh giá, xử lý và dự phòng khi phát hiện có dấu hiệu bất thường, sai sót hoặc khi nhận được thông tin từ người sử dụng thuốc quy định tại Khoản 2 Điều này;
+
+c) Báo cáo cho cơ quan có thẩm quyền về các thông tin thu thập được khi thực hiện trách nhiệm quy định tại Điểm a và Điểm b Khoản này.
+
+4. Cơ sở bán lẻ thuốc có các trách nhiệm sau đây:
+
+a) Tư vấn trong phạm vi chuyên môn cho người sử dụng thuốc về các biện pháp xử lý khi có dấu hiệu bất thường trong quá trình sử dụng thuốc;
+
+b) Thu thập, báo cáo cho cơ quan có thẩm quyền các thông tin về dấu hiệu bất thường trong quá trình sử dụng thuốc.
+
+5. Cơ sở sản xuất thuốc, cơ sở pha chế, chế biến thuốc, cơ sở đăng ký thuốc có các trách nhiệm sau đây:
+
+a) Tổ chức theo dõi về chất lượng, an toàn, hiệu quả của thuốc khi đưa ra lưu hành trên thị trường;
+
+b) Báo cáo và cập nhật thông tin cho cơ quan có thẩm quyền về chất lượng, an toàn, hiệu quả liên quan đến thuốc do cơ sở mình sản xuất, đăng ký lưu hành, pha chế, chế biến.
+
+6. Bộ trưởng Bộ Y tế quy định việc tạm ngừng kinh doanh, sử dụng và niêm phong bảo quản trong trường hợp thuốc có dấu hiệu không an toàn cho người sử dụng.
+
+Điều 78. Tổ chức hoạt động thông tin thuốc và cảnh giác dược
+
+1. Cơ sở kinh doanh dược, cơ sở khám bệnh, chữa bệnh có trách nhiệm tổ chức hoạt động thông tin thuốc và cảnh giác dược tại cơ sở.
+
+2. Bộ trưởng Bộ Y tế có trách nhiệm tổ chức hệ thống thông tin thuốc và cảnh giác dược.
+
+3. Chính phủ quy định chi Tiết thẩm quyền, hồ sơ, thủ tục tiếp nhận, thẩm định và xác nhận nội dung thông tin thuốc.
+
+Điều 79. Quảng cáo thuốc
+
+1. Việc quảng cáo thuốc thực hiện theo đúng nội dung quảng cáo đã được Bộ Y tế xác nhận và theo quy định của pháp luật về quảng cáo có liên quan.
+
+Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ đề nghị xác nhận nội dung quảng cáo thuốc, Bộ Y tế thẩm định và cấp giấy xác nhận nội dung quảng cáo thuốc. Trường hợp không cấp giấy xác nhận nội dung quảng cáo hoặc có yêu cầu sửa đổi, bổ sung nội dung quảng cáo, Bộ Y tế phải trả lời bằng văn bản và nêu rõ lý do.
+
+2. Điều kiện đối với thuốc được quảng cáo được quy định như sau:
+
+a) Thuộc Danh mục thuốc không kê đơn;
+
+b) Không thuộc trường hợp hạn chế sử dụng hoặc sử dụng dưới sự giám sát của thầy thuốc theo khuyến cáo của cơ quan nhà nước có thẩm quyền;
+
+c) Giấy đăng ký lưu hành thuốc còn thời hạn hiệu lực tại Việt Nam.
+
+3. Chính phủ quy định chi Tiết nội dung quảng cáo thuốc, hồ sơ, thủ tục tiếp nhận, thẩm định và xác nhận nội dung quảng cáo thuốc.
+
+Chương IX
+
+DƯỢC LÂM SÀNG
+
+Điều 80. Nội dung hoạt động dược lâm sàng
+
+1. Tư vấn trong quá trình xây dựng danh Mục thuốc tại cơ sở khám bệnh, chữa bệnh để bảo đảm Mục tiêu sử dụng thuốc hợp lý, an toàn, hiệu quả.
+
+2. Tư vấn và giám sát việc kê đơn và sử dụng thuốc.
+
+3. Thông tin, hướng dẫn sử dụng thuốc cho người hành nghề khám bệnh, chữa bệnh, người sử dụng thuốc và cộng đồng.
+
+4. Tham gia xây dựng quy trình, hướng dẫn chuyên môn liên quan đến sử dụng thuốc và giám sát việc thực hiện các quy trình này.
+
+5. Phân tích, đánh giá hiệu quả sử dụng thuốc tại cơ sở khám bệnh, chữa bệnh.
+
+6. Tham gia theo dõi, giám sát phản ứng có hại của thuốc.
+
+7. Tham gia hoạt động nghiên cứu khoa học liên quan đến sử dụng thuốc hợp lý, an toàn, hiệu quả.
+
+Điều 81. Triển khai hoạt động dược lâm sàng
+
+1. Người đứng đầu cơ sở khám bệnh, chữa bệnh có hoạt động sử dụng thuốc phải tổ chức và triển khai hoạt động dược lâm sàng theo nội dung quy định tại Điều 80 của Luật này.
+
+2. Người chịu trách nhiệm chuyên môn của nhà thuốc phải triển khai hoạt động dược lâm sàng theo nội dung quy định tại các khoản 2, 3 và 6 Điều 80 của Luật này cụ thể như sau:
+
+a) Tư vấn, cung cấp thông tin về thuốc cho người mua, người sử dụng thuốc;
+
+b) Tư vấn, trao đổi với người kê đơn trong trường hợp phát hiện việc kê đơn thuốc không hợp lý;
+
+c) Tham gia theo dõi, giám sát phản ứng có hại của thuốc.
+
+3. Chính phủ quy định việc tổ chức, hoạt động dược lâm sàng của cơ sở khám bệnh, chữa bệnh bao gồm cả cơ sở khám bệnh, chữa bệnh của lực lượng vũ trang nhân dân.
+
+Điều 82. Quyền và nghĩa vụ của người làm công tác dược lâm sàng
+
+1. Người làm công tác dược lâm sàng tại cơ sở khám bệnh, chữa bệnh có các quyền và nghĩa vụ sau đây:
+
+a) Được tiếp cận người bệnh, bệnh án và đơn thuốc để tư vấn cho người kê đơn trong việc sử dụng thuốc;
+
+b) Trao đổi với người hành nghề khám bệnh, chữa bệnh để việc kê đơn và sử dụng thuốc hợp lý, an toàn, hiệu quả.
+
+c) Được ghi ý kiến chuyên môn về dược lâm sàng trong hồ sơ bệnh án, đơn thuốc; được phản ánh ý kiến với Hội đồng thuốc và Điều trị của cơ sở khám bệnh, chữa bệnh hoặc người đứng đầu cơ sở khám bệnh, chữa bệnh trong trường hợp có ý kiến khác nhau về việc kê đơn, sử dụng thuốc cho người bệnh;
+
+d) Tham gia hội chẩn chuyên môn, bình bệnh án, đơn thuốc;
+
+đ) Tham gia xây dựng hướng dẫn Điều trị chuẩn; danh Mục thuốc tại cơ sở khám bệnh, chữa bệnh; quy trình chuyên môn kỹ thuật liên quan đến thuốc;
+
+e) Tham gia theo dõi, giám sát phản ứng có hại của thuốc;
+
+g) Thực hiện quyền và nghĩa vụ khác theo quy định của pháp luật.
+
+2. Người làm công tác dược lâm sàng tại nhà thuốc có các quyền và nghĩa vụ sau đây:
+
+a) Tư vấn, cung cấp thông tin về thuốc cho người mua, người sử dụng thuốc;
+
+b) Tư vấn, trao đổi với người kê đơn trong trường hợp phát hiện việc kê đơn thuốc không hợp lý;
+
+c) Tham gia theo dõi, giám sát phản ứng có hại của thuốc;
+
+d) Thực hiện quyền và nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 83. Chính sách của Nhà nước đối với hoạt động dược lâm sàng
+
+1. Đầu tư cơ sở, vật chất, trang thiết bị và nhân lực phù hợp cho hoạt động dược lâm sàng tại cơ sở khám bệnh, chữa bệnh của Nhà nước; ưu tiên tuyển dụng dược sỹ chuyên khoa dược lâm sàng tại cơ sở khám bệnh, chữa bệnh của Nhà nước.
+
+2. Đầu tư cơ sở, vật chất, trang thiết bị và nhân lực cho cơ sở đào tạo dược sỹ chuyên khoa dược lâm sàng của Nhà nước; ngân sách nhà nước hỗ trợ học phí đối với người học chuyên khoa dược lâm sàng.
+
+3. Nhà nước khuyến khích tổ chức, cá nhân tham gia đào tạo dược sĩ làm công tác dược lâm sàng, đầu tư cơ sở vật chất, trang thiết bị cho hoạt động dược lâm sàng.
+
+Chương X
+
+QUẢN LÝ THUỐC TRONG CƠ SỞ KHÁM BỆNH, CHỮA BỆNH
+
+Điều 84. Cung ứng, bảo quản, cấp phát và sử dụng thuốc
+
+1. Người đứng đầu cơ sở khám bệnh, chữa bệnh có trách nhiệm bảo đảm cung ứng đủ thuốc có chất lượng phục vụ cho nhu cầu cấp cứu, khám bệnh, chữa bệnh tại cơ sở khám bệnh, chữa bệnh; tổ chức bán thuốc ban đêm tại cơ sở khám bệnh, chữa bệnh tuyến huyện trở lên.
+
+2. Việc bảo quản thuốc trong cơ sở khám bệnh, chữa bệnh phải tuân thủ các quy định về thực hành tốt trong bảo quản thuốc và quy định khác của pháp luật có liên quan.
+
+3. Việc cấp phát thuốc trong cơ sở khám bệnh, chữa bệnh phải thực hiện theo đúng y lệnh hoặc đơn thuốc, ghi rõ tên thuốc, hàm lượng trên bao bì đựng thuốc và có hướng dẫn cho người sử dụng.
+
+4. Việc sử dụng thuốc phóng xạ chỉ được thực hiện tại cơ sở khám bệnh, chữa bệnh có thầy thuốc chuyên khoa y học hạt nhân và được Bộ Khoa học và Công nghệ cấp giấy phép tiến hành công việc bức xạ theo quy định của pháp luật về năng lượng nguyên tử.
+
+5. Bộ trưởng Bộ Y tế quy định về tỷ lệ hao hụt thuốc và việc thanh toán chi phí hao hụt thuốc tại cơ sở khám bệnh, chữa bệnh.
+
+Điều 85. Sản xuất, pha chế thuốc trong cơ sở khám bệnh, chữa bệnh
+
+1. Người đứng đầu cơ sở khám bệnh, chữa bệnh có sản xuất, pha chế thuốc để sử dụng tại cơ sở khám bệnh, chữa bệnh phải chịu trách nhiệm về chất lượng và việc quản lý các loại thuốc do cơ sở mình sản xuất, pha chế.
+
+2. Cơ sở khám bệnh, chữa bệnh được phép sản xuất, pha chế để phục vụ nhu cầu Điều trị của cơ sở khi đáp ứng đủ các Điều kiện theo quy định của Bộ trưởng Bộ Y tế.
+
+3. Cơ sở khám bệnh, chữa bệnh sản xuất, pha chế thuốc phóng xạ, ngoài việc thực hiện quy định tại Khoản 1 và Khoản 2 Điều này, phải thực hiện các biện pháp về an ninh bảo đảm không thất thoát thuốc, nguyên liệu làm thuốc phóng xạ và được Bộ Khoa học và Công nghệ cấp giấy phép tiến hành công việc bức xạ theo quy định của pháp luật về năng lượng nguyên tử.
+
+Thuốc sản xuất, pha chế theo quy định tại Khoản này được cung cấp cho cơ sở khám bệnh, chữa bệnh khác theo quy định của Bộ trưởng Bộ Y tế.
+
+Chương XI
+
+THỬ THUỐC TRÊN LÂM SÀNG, THỬ TƯƠNG ĐƯƠNG SINH HỌC CỦA THUỐC
+
+Mục 1. THỬ THUỐC TRÊN LÂM SÀNG
+
+Điều 86. Các giai đoạn thử thuốc trên lâm sàng
+
+1. Giai đoạn 1 là giai đoạn đầu tiên thử nghiệm trên người nhằm đánh giá sơ bộ về tính an toàn của thuốc.
+
+2. Giai đoạn 2 là giai đoạn thử nghiệm nhằm xác định liều tối ưu cho thử nghiệm lâm sàng và chứng minh tính an toàn, hiệu quả của thuốc bao gồm cả tính sinh miễn dịch của vắc xin thử trên đối tượng đích.
+
+3. Giai đoạn 3 là giai đoạn thử nghiệm được nghiên cứu trên quy mô lớn nhằm xác định tính ổn định của công thức, tính an toàn, hiệu quả Điều trị ở mức tổng thể của thuốc hoặc để đánh giá hiệu quả bảo vệ và tính an toàn của vắc xin trên đối tượng đích.
+
+4. Giai đoạn 4 là giai đoạn được tiến hành sau khi thuốc đã được lưu hành nhằm tiếp tục đánh giá tính an toàn, hiệu quả Điều trị của thuốc và theo dõi hiệu quả bảo vệ của vắc xin sau khi được dùng rộng rãi trong cộng đồng dân cư theo đúng Điều kiện sử dụng.
+
+Điều 87. Thử thuốc trên lâm sàng để đăng ký lưu hành thuốc
+
+1. Thử thuốc trên lâm sàng giai đoạn 1, 2 và 3 được thực hiện trước khi đăng ký lưu hành thuốc.
+
+2. Thử thuốc trên lâm sàng giai đoạn 4 được thực hiện sau khi đăng ký lưu hành thuốc theo yêu cầu của cơ quan quản lý về dược có thẩm quyền.
+
+Điều 88. Yêu cầu đối với thuốc thử lâm sàng
+
+1. Thuốc thử lâm sàng phải bảo đảm các yêu cầu sau đây:
+
+a) Đã được nghiên cứu ở giai đoạn tiền lâm sàng;
+
+b) Có dạng bào chế ổn định;
+
+c) Đạt tiêu chuẩn chất lượng theo hồ sơ đăng ký thử lâm sàng.
+
+2. Nhãn thuốc thử lâm sàng phải ghi dòng chữ “Thuốc dùng cho thử lâm sàng. Cấm dùng cho Mục đích khác”.
+
+Điều 89. Thuốc phải thử lâm sàng, thuốc miễn thử lâm sàng hoặc miễn một số giai đoạn thử lâm sàng khi đăng ký lưu hành thuốc
+
+1. Thuốc phải thử lâm sàng đầy đủ các giai đoạn trong trường hợp sau đây:
+
+a) Thuốc mới, trừ trường hợp quy định tại Điểm a Khoản 2 và Điểm b Khoản 3 Điều này;
+
+b) Thuốc dược liệu có sự kết hợp mới của dược liệu đã từng sử dụng làm thuốc tại Việt Nam và có chỉ định đối với các bệnh thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành, trừ trường hợp quy định tại Điểm b Khoản 2 và Điểm c Khoản 3 Điều này;
+
+c) Vắc xin lần đầu tiên đăng ký lưu hành tại Việt Nam, trừ trường hợp quy định tại Điểm c Khoản 2 Điều này.
+
+2. Thuốc được miễn một số giai đoạn thử lâm sàng trong trường hợp sau đây:
+
+a) Thuốc mới đã được cấp phép lưu hành tại ít nhất một nước trên thế giới nhưng chưa có đầy đủ dữ liệu lâm sàng về an toàn, hiệu quả;
+
+b) Thuốc dược liệu không thuộc trường hợp quy định tại Điểm c Khoản 3 Điều này;
+
+c) Vắc xin đã được cấp phép lưu hành tại ít nhất một nước trên thế giới và có dữ liệu lâm sàng về an toàn, hiệu quả.
+
+3. Thuốc được miễn thử lâm sàng trong trường hợp sau đây:
+
+a) Thuốc generic;
+
+b) Thuốc mới đã được cấp phép lưu hành tại ít nhất một nước trên thế giới và có đầy đủ dữ liệu lâm sàng về an toàn, hiệu quả, trừ vắc xin;
+
+c) Thuốc dược liệu đã được cấp giấy đăng ký lưu hành thuốc trước ngày Luật này có hiệu lực, trừ thuốc có chỉ định đối với các bệnh thuộc danh Mục do Bộ trưởng Bộ Y tế ban hành.
+
+4. Bộ trưởng Bộ Y tế quy định chi Tiết yêu cầu về dữ liệu lâm sàng để bảo đảm an toàn, hiệu quả và tiêu chí để xác định trường hợp miễn thử, miễn một số giai đoạn thử thuốc trên lâm sàng tại Việt Nam và thuốc phải yêu cầu thử lâm sàng giai đoạn 4.
+
+Điều 90. Điều kiện của người tham gia thử thuốc trên lâm sàng
+
+1. Phải là người tình nguyện, đáp ứng yêu cầu chuyên môn của việc thử thuốc trên lâm sàng và phải ký thỏa thuận tình nguyện tham gia nghiên cứu với cơ sở kinh doanh dịch vụ thử thuốc trên lâm sàng, trừ người bị hạn chế năng lực hành vi dân sự, mất năng lực hành vi dân sự.
+
+2. Trường hợp chưa đến tuổi thành niên, bị hạn chế năng lực hành vi dân sự, mất năng lực hành vi dân sự thì phải được sự đồng ý của người đại diện hoặc người giám hộ theo quy định của pháp luật.
+
+3. Trường hợp là phụ nữ mang thai hoặc đang cho con bú, hồ sơ nghiên cứu phải ghi rõ lý do tuyển chọn và biện pháp phù hợp để bảo vệ người tham gia thử thuốc trên lâm sàng.
+
+Điều 91. Quyền và nghĩa vụ của người tham gia thử thuốc trên lâm sàng
+
+1. Người tham gia thử thuốc trên lâm sàng có các quyền sau đây:
+
+a) Trước khi thử thuốc, được cung cấp thông tin đầy đủ, trung thực và những rủi ro có thể xảy ra;
+
+b) Được tổ chức, cá nhân có thuốc thử lâm sàng bồi thường thiệt hại nếu có thiệt hại do thử thuốc gây ra;
+
+c) Được giữ bí mật về thông tin cá nhân có liên quan;
+
+d) Không phải chịu trách nhiệm khi đơn phương chấm dứt việc tham gia thử thuốc trên lâm sàng;
+
+đ) Khiếu nại, khởi kiện, tố cáo về hành vi vi phạm pháp luật của tổ chức, cá nhân có thuốc thử lâm sàng và nhận thử thuốc.
+
+2. Người tham gia thử thuốc trên lâm sàng có nghĩa vụ tuân thủ hướng dẫn của nghiên cứu viên theo hồ sơ thử thuốc trên lâm sàng đã được phê duyệt.
+
+Điều 92. Quyền và trách nhiệm của tổ chức, cá nhân có thuốc thử lâm sàng
+
+1. Tổ chức, cá nhân có thuốc thử lâm sàng có các quyền sau đây:
+
+a) Lựa chọn tổ chức đáp ứng yêu cầu về cơ sở vật chất và cán bộ chuyên môn để thử thuốc;
+
+b) Sở hữu toàn bộ kết quả nghiên cứu của thuốc thử lâm sàng.
+
+2. Tổ chức, cá nhân có thuốc thử lâm sàng có các trách nhiệm sau đây:
+
+a) Bồi thường thiệt hại cho người tham gia thử thuốc trên lâm sàng nếu có rủi ro xảy ra do thử thuốc theo quy định của pháp luật;
+
+b) Ký kết hợp đồng về việc thử thuốc trên lâm sàng với cơ sở nhận thử thuốc;
+
+c) Chịu trách nhiệm trước pháp luật về chất lượng và tính an toàn của thuốc do mình cung cấp.
+
+Điều 93. Quyền và trách nhiệm của cơ sở nhận thử thuốc trên lâm sàng
+
+1. Cơ sở nhận thử thuốc trên lâm sàng có các quyền sau đây:
+
+a) Tiến hành hoạt động thử thuốc trên lâm sàng theo quy định;
+
+b) Nhập khẩu, mua hóa chất, chất chuẩn, mẫu thuốc phục vụ cho hoạt động thử thuốc trên lâm sàng;
+
+c) Sử dụng kết quả nghiên cứu thử thuốc trên lâm sàng theo thỏa thuận với tổ chức, cá nhân có thuốc thử lâm sàng.
+
+2. Cơ sở nhận thử thuốc trên lâm sàng có các trách nhiệm sau đây:
+
+a) Chịu trách nhiệm về kết quả nghiên cứu thử thuốc trên lâm sàng;
+
+b) Chịu trách nhiệm về sự an toàn của người tham gia thử thuốc trên lâm sàng và bồi thường thiệt hại cho người tham gia thử thuốc trên lâm sàng nếu có rủi ro xảy ra do lỗi của cơ sở nhận thử thuốc trên lâm sàng theo quy định của pháp luật;
+
+c) Bảo đảm trung thực, khách quan trong thử thuốc trên lâm sàng;
+
+d) Độc lập về kinh tế, tổ chức nhân sự đối với tổ chức, cá nhân có thuốc thử lâm sàng.
+
+Điều 94. Nguyên tắc và thẩm quyền phê duyệt thử thuốc trên lâm sàng
+
+1. Việc thử thuốc trên lâm sàng chỉ được thực hiện sau khi đã được Hội đồng đạo đức trong nghiên cứu y sinh học cấp quốc gia đánh giá về khoa học và đạo đức đối với hồ sơ thử thuốc trên lâm sàng và được Bộ trưởng Bộ Y tế phê duyệt bằng văn bản.
+
+2. Việc thử thuốc trên lâm sàng, đánh giá về khoa học và đạo đức đối với hồ sơ thử thuốc trên lâm sàng và phê duyệt thử thuốc trên lâm sàng được thực hiện theo các nguyên tắc cơ bản sau đây:
+
+a) Tôn trọng quyền tự quyết của người tham gia thử thuốc, bảo vệ những người mà quyền tự quyết của họ bị hạn chế;
+
+b) Bảo đảm các lợi ích của nghiên cứu lớn hơn các nguy cơ, các nguy cơ trong nghiên cứu được cân nhắc kỹ lưỡng và giảm thiểu tối đa theo các chuẩn mực;
+
+c) Bình đẳng về lợi ích và trách nhiệm cho mỗi người tham gia thử thuốc, bảo đảm lợi ích và nguy cơ được phân bố đều cho người tham gia thử thuốc;
+
+d) Bảo đảm thực hiện các giai đoạn thử thuốc trên lâm sàng và tuân thủ Thực hành tốt thử thuốc trên lâm sàng.
+
+3. Hội đồng đạo đức trong nghiên cứu y sinh học là hội đồng độc lập được thành lập ở cấp quốc gia và cấp cơ sở để bảo vệ các quyền, sự an toàn và sức khỏe của người tham gia thử thuốc.
+
+Bộ trưởng Bộ Y tế quy định việc thành lập và chức năng, nhiệm vụ, quyền hạn của Hội đồng đạo đức trong nghiên cứu y sinh học.
+
+Điều 95. Hồ sơ, quy trình thử thuốc trên lâm sàng
+
+1. Hồ sơ thử thuốc trên lâm sàng bao gồm:
+
+a) Đơn đề nghị thử thuốc trên lâm sàng;
+
+b) Hồ sơ thông tin sản phẩm nghiên cứu;
+
+c) Hồ sơ pháp lý của sản phẩm nghiên cứu;
+
+d) Đề cương nghiên cứu thử thuốc trên lâm sàng và bản thuyết minh;
+
+đ) Lý lịch khoa học của nghiên cứu viên;
+
+e) Bản cung cấp thông tin và phiếu tình nguyện tham gia nghiên cứu của người tham gia thử thuốc trên lâm sàng;
+
+g) Biên bản đánh giá về khoa học và đạo đức trong nghiên cứu của Hội đồng đạo đức trong nghiên cứu y sinh học cấp cơ sở;
+
+h) Nhãn thuốc nghiên cứu.
+
+2. Quy trình thử thuốc trên lâm sàng được quy định như sau:
+
+a) Đăng ký nghiên cứu thử thuốc trên lâm sàng;
+
+b) Phê duyệt nghiên cứu thử thuốc trên lâm sàng;
+
+c) Tổ chức thực hiện thử thuốc trên lâm sàng;
+
+d) Phê duyệt kết quả thử thuốc trên lâm sàng.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết Điều này.
+
+Mục 2. THỬ TƯƠNG ĐƯƠNG SINH HỌC CỦA THUỐC
+
+Điều 96. Các giai đoạn thử tương đương sinh học của thuốc và thuốc phải thử tương đương sinh học
+
+1. Thử tương đương sinh học của thuốc gồm các giai đoạn sau đây:
+
+a) Giai đoạn nghiên cứu lâm sàng là giai đoạn thử nghiệm thuốc đối chứng và thuốc thử tương đương sinh học đã đạt yêu cầu về an toàn, hiệu quả để so sánh sinh khả dụng của 02 thuốc trên người tình nguyện;
+
+b) Giai đoạn phân tích dịch sinh học của người là giai đoạn phân tích, xác định nồng độ thuốc đối chứng và thuốc thử tương đương sinh học trong mẫu sinh học của người tình nguyện sau khi được dùng ở giai đoạn nghiên cứu lâm sàng nhằm so sánh sinh khả dụng và chứng minh tính tương đương sinh học của 02 thuốc.
+
+2. Thuốc generic phải thử tương đương sinh học khi có dược chất, dạng bào chế thuộc danh Mục dược chất, dạng bào chế phải thử tương đương sinh học do Bộ trưởng Bộ Y tế ban hành.
+
+Điều 97. Điều kiện, quyền và nghĩa vụ của người tham gia thử tương đương sinh học của thuốc
+
+1. Người tham gia thử tương đương sinh học của thuốc phải đáp ứng Điều kiện quy định tại Điều 90 của Luật này.
+
+2. Quyền và nghĩa vụ của người tham gia thử tương đương sinh học của thuốc thực hiện theo quy định tại Điều 91 của Luật này.
+
+Điều 98. Quyền và trách nhiệm của tổ chức, cá nhân có thuốc thử tương đương sinh học
+
+1. Tổ chức, cá nhân có thuốc thử tương đương sinh học có các quyền sau đây:
+
+a) Lựa chọn tổ chức đáp ứng yêu cầu về cơ sở vật chất và cán bộ chuyên môn để thử tương đương sinh học của thuốc;
+
+b) Sở hữu toàn bộ kết quả nghiên cứu của thuốc thử tương đương sinh học.
+
+2. Tổ chức, cá nhân có thuốc thử tương đương sinh học có các trách nhiệm sau đây:
+
+a) Bồi thường thiệt hại cho người tham gia thử tương đương sinh học nếu có rủi ro xảy ra do thử tương đương sinh học theo quy định của pháp luật;
+
+b) Ký kết hợp đồng về việc thử tương đương sinh học với cơ sở nhận thử tương đương sinh học của thuốc;
+
+c) Chịu trách nhiệm trước pháp luật về chất lượng và tính an toàn của thuốc do mình cung cấp.
+
+Điều 99. Quyền và trách nhiệm của cơ sở nhận thử tương đương sinh học của thuốc
+
+1. Cơ sở nhận thử tương đương sinh học của thuốc có các quyền sau đây:
+
+a) Tiến hành giai đoạn nghiên cứu lâm sàng và giai đoạn phân tích dịch sinh học trong thử tương đương sinh học của thuốc.
+
+Trường hợp chỉ tiến hành giai đoạn phân tích dịch sinh học thì được ký hợp đồng hoặc liên kết với cơ sở nhận thử thuốc trên lâm sàng đáp ứng Thực hành tốt thử thuốc trên lâm sàng để thực hiện giai đoạn nghiên cứu lâm sàng trong thử tương đương sinh học của thuốc;
+
+b) Tiến hành hoạt động thử tương đương sinh học của thuốc theo quy định;
+
+c) Nhập khẩu, mua hóa chất, chất chuẩn, mẫu thuốc phục vụ cho hoạt động thử tương đương sinh học của thuốc;
+
+d) Sử dụng kết quả nghiên cứu thử tương đương sinh học của thuốc theo thỏa thuận với tổ chức, cá nhân có thuốc thử tương đương sinh học.
+
+2. Cơ sở nhận thử tương đương sinh học của thuốc có các trách nhiệm sau đây:
+
+a) Chịu trách nhiệm về kết quả nghiên cứu thử tương đương sinh học đối với mẫu thuốc đã thử;
+
+b) Chịu trách nhiệm về sự an toàn của người tham gia thử tương đương sinh học và bồi thường thiệt hại cho người tham gia thử tương đương sinh học nếu có rủi ro xảy ra do lỗi của cơ sở nhận thử tương đương sinh học của thuốc theo quy định của pháp luật;
+
+c) Bảo đảm trung thực, khách quan trong thử tương đương sinh học của thuốc;
+
+d) Độc lập về kinh tế, tổ chức nhân sự đối với tổ chức, cá nhân có thuốc thử tương đương sinh học.
+
+Điều 100. Nguyên tắc phê duyệt việc thử tương đương sinh học của thuốc
+
+1. Việc thử tương đương sinh học của thuốc chỉ được thực hiện sau khi đã được Hội đồng đạo đức trong nghiên cứu y sinh học cấp cơ sở đánh giá về khoa học và đạo đức đối với hồ sơ thử tương đương sinh học của thuốc và được người chịu trách nhiệm chuyên môn của cơ sở nhận thử tương đương sinh học của thuốc phê duyệt bằng văn bản.
+
+2. Việc phê duyệt thử tương đương sinh học của thuốc phải thực hiện theo các nguyên tắc cơ bản sau đây:
+
+a) Nguyên tắc theo quy định tại các Điểm a, b và c Khoản 2 Điều 94 của Luật này;
+
+b) Tuân thủ Thực hành tốt thử thuốc trên lâm sàng, Thực hành tốt phòng thí nghiệm phân tích dịch sinh học và phù hợp với hướng dẫn thử tương đương sinh học do Bộ trưởng Bộ Y tế quy định.
+
+3. Hội đồng đạo đức trong nghiên cứu y sinh học cấp cơ sở đánh giá về khoa học và đạo đức trong nghiên cứu của hồ sơ thử tương đương sinh học của thuốc và phê duyệt đề cương nghiên cứu.
+
+Điều 101. Hồ sơ, quy trình thử tương đương sinh học của thuốc
+
+1. Hồ sơ thử tương đương sinh học của thuốc bao gồm:
+
+a) Đơn đề nghị thử tương đương sinh học;
+
+b) Hồ sơ thông tin về thuốc;
+
+c) Đề cương nghiên cứu thử tương đương sinh học và bản thuyết minh;
+
+d) Lý lịch khoa học của nghiên cứu viên;
+
+đ) Bản cung cấp thông tin và phiếu tình nguyện tham gia nghiên cứu của người tham gia thử tương đương sinh học của thuốc;
+
+e) Nhãn thuốc.
+
+2. Quy trình thử tương đương sinh học của thuốc được quy định như sau:
+
+a) Đăng ký nghiên cứu thử tương đương sinh học của thuốc;
+
+b) Phê duyệt nghiên cứu thử tương đương sinh học của thuốc;
+
+c) Tổ chức thực hiện thử tương đương sinh học của thuốc;
+
+d) Phê duyệt kết quả thử tương đương sinh học của thuốc.
+
+3. Bộ trưởng Bộ Y tế quy định chi Tiết Điều này.
+
+Chương XII
+
+QUY CHUẨN, TIÊU CHUẨN CHẤT LƯỢNG VÀ VIỆC KIỂM NGHIỆM THUỐC, NGUYÊN LIỆU LÀM THUỐC, BAO BÌ TIẾP XÚC TRỰC TIẾP VỚI THUỐC
+
+Điều 102. Quy chuẩn, tiêu chuẩn chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc
+
+1. Quy chuẩn kỹ thuật quốc gia về thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc bao gồm quy chuẩn kỹ thuật về chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc và phương pháp kiểm nghiệm chung được quy định trong Dược điển Việt Nam. Việc áp dụng phương pháp kiểm nghiệm trong từng chuyên luận của thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc được ghi trong Dược điển Việt Nam được thực hiện theo nguyên tắc tự nguyện áp dụng.
+
+2. Tiêu chuẩn chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc được quy định như sau:
+
+a) Tiêu chuẩn quốc gia về thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc do Bộ Y tế xây dựng, Bộ Khoa học và Công nghệ thẩm định và công bố theo quy định của Luật tiêu chuẩn và quy chuẩn kỹ thuật;
+
+b) Tiêu chuẩn cơ sở do cơ sở sản xuất thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc xây dựng để áp dụng trong phạm vi hoạt động của cơ sở mình nhưng không được thấp hơn quy chuẩn kỹ thuật quốc gia tương ứng được quy định tại Dược điển Việt Nam. Trường hợp Dược điển Việt Nam chưa có quy chuẩn kỹ thuật quốc gia về thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc tương ứng, cơ sở xây dựng tiêu chuẩn trên cơ sở kết quả nghiên cứu khoa học hoặc theo quy định của Dược điển nước ngoài và được Bộ Y tế phê duyệt.
+
+3. Bộ trưởng Bộ Y tế ban hành Dược điển Việt Nam trên cơ sở Tiêu chuẩn quốc gia về thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc và quy định việc áp dụng Dược điển nước ngoài tại Việt Nam.
+
+Điều 103. Kiểm nghiệm thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc
+
+1. Kiểm nghiệm thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc là việc lấy mẫu, xem xét tiêu chuẩn kỹ thuật, tiến hành các thử nghiệm tương ứng và cần thiết nhằm xác định thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc có đáp ứng tiêu chuẩn chất lượng để quyết định việc chấp nhận hay loại bỏ thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc.
+
+2. Nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc trước khi đưa vào sản xuất thuốc phải được cơ sở sản xuất thuốc tiến hành kiểm nghiệm và đạt tiêu chuẩn chất lượng.
+
+3. Thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc trước khi xuất xưởng phải được cơ sở sản xuất thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc tiến hành kiểm nghiệm và đạt tiêu chuẩn chất lượng.
+
+4. Các thuốc sau đây ngoài việc được kiểm nghiệm theo quy định tại Khoản 3 Điều này còn phải được kiểm nghiệm bởi cơ sở kiểm nghiệm thuốc do cơ quan nhà nước có thẩm quyền chỉ định trước khi lưu hành:
+
+a) Vắc xin;
+
+b) Sinh phẩm là huyết thanh có chứa kháng thể;
+
+c) Thuốc khác do Bộ trưởng Bộ Y tế quy định căn cứ trên kết quả đánh giá nguy cơ về chất lượng thuốc và diễn biến chất lượng thuốc sản xuất, nhập khẩu.
+
+5. Bộ trưởng Bộ Y tế quy định chi Tiết Điều này.
+
+Điều 104. Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc
+
+1. Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc bao gồm:
+
+a) Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc của Nhà nước;
+
+b) Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc;
+
+c) Phòng kiểm nghiệm của cơ sở kinh doanh dược.
+
+2. Cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc của Nhà nước có các trách nhiệm sau đây:
+
+a) Thực hiện việc kiểm tra xác định chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc;
+
+b) Kiểm tra, đánh giá chất lượng, thẩm định tiêu chuẩn chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc theo yêu cầu của Bộ Y tế;
+
+c) Tư vấn, đề xuất với Bộ trưởng Bộ Y tế các biện pháp kỹ thuật để tăng cường công tác quản lý chất lượng thuốc phù hợp với Điều kiện phát triển kinh tế - xã hội;
+
+d) Bảo đảm trung thực, khách quan trong kiểm nghiệm thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc;
+
+đ) Chịu trách nhiệm về kết quả kiểm nghiệm đối với mẫu thuốc, mẫu nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc đã kiểm nghiệm.
+
+3. Cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc có các trách nhiệm quy định tại Khoản 2 Điều 51 của Luật này.
+
+4. Phòng kiểm nghiệm của cơ sở kinh doanh dược chịu trách nhiệm về kiểm tra, kiểm nghiệm để xác định chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc của cơ sở.
+
+5. Thủ tướng Chính phủ ban hành quy hoạch hệ thống kiểm nghiệm của Nhà nước, cơ sở kinh doanh dịch vụ kiểm nghiệm thuốc, nguyên liệu làm thuốc; quy định về hệ thống tổ chức, cơ sở vật chất và hoạt động của các cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc của Nhà nước.
+
+Điều 105. Giải quyết khiếu nại về kết luận chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc
+
+1. Cơ sở kinh doanh dược có quyền khiếu nại về kết luận chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc của cơ quan quản lý nhà nước về dược có thẩm quyền.
+
+2. Trường hợp có khiếu nại về kết luận chất lượng thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc, Bộ Y tế chỉ định cơ sở kiểm nghiệm thuốc, nguyên liệu làm thuốc có Điều kiện tiêu chuẩn tối thiểu tương đương với cơ sở kiểm nghiệm có kết quả kiểm nghiệm gây phát sinh tranh chấp để kiểm nghiệm lại thuốc, nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc có khiếu nại về kết luận.
+
+3. Thẩm quyền, thủ tục giải quyết khiếu nại về kết luận chất lượng thuốc nguyên liệu làm thuốc, bao bì tiếp xúc trực tiếp với thuốc thực hiện theo quy định của pháp luật về khiếu nại.
+
+Chương XIII
+
+QUẢN LÝ GIÁ THUỐC
+
+Điều 106. Nguyên tắc quản lý nhà nước về giá thuốc
+
+1. Quản lý giá thuốc theo cơ chế thị trường, tôn trọng quyền tự định giá, cạnh tranh về giá của tổ chức, cá nhân kinh doanh thuốc theo quy định của pháp luật.
+
+2. Bảo đảm công khai, minh bạch giá thuốc khi lưu hành thuốc trên thị trường.
+
+3. Bảo vệ quyền, lợi ích hợp pháp của tổ chức, cá nhân kinh doanh, người tiêu dùng và lợi ích của Nhà nước.
+
+4. Thực hiện các biện pháp bình ổn giá và sử dụng các biện pháp khác để quản lý giá thuốc phù hợp với Điều kiện phát triển kinh tế - xã hội trong từng thời kỳ.
+
+Điều 107. Các biện pháp quản lý giá thuốc
+
+1. Đấu thầu thuốc dự trữ quốc gia theo quy định của Luật đấu thầu và pháp luật về dự trữ quốc gia; đấu thầu thuốc mua từ nguồn vốn ngân sách nhà nước, quỹ bảo hiểm y tế, nguồn thu từ dịch vụ khám bệnh, chữa bệnh và các nguồn thu hợp pháp khác của cơ sở y tế công lập theo quy định của Luật đấu thầu, trừ trường hợp quy định tại khoản 2 Điều này.
+
+2. Đấu thầu hoặc đặt hàng hoặc giao kế hoạch đối với thuốc phục vụ chương trình Mục tiêu quốc gia, quốc phòng, an ninh, phòng, chống dịch bệnh, khắc phục hậu quả thiên tai, thảm họa theo quy định của pháp luật về cung ứng dịch vụ, sản phẩm công ích.
+
+3. Kê khai giá thuốc trước khi lưu hành trên thị trường và kê khai lại khi thay đổi giá thuốc đã kê khai.
+
+4. Niêm yết giá bán buôn, bán lẻ thuốc bằng đồng Việt Nam tại nơi giao dịch hoặc nơi bán thuốc của cơ sở kinh doanh dược; in, ghi hoặc dán giá bán lẻ trên bao bì chứa đựng thuốc hoặc bao bì ngoài của thuốc; thông báo công khai trên bảng, trên giấy hoặc bằng các hình thức khác.
+
+5. Thực hiện các biện pháp bình ổn giá thuốc theo quy định của Luật giá đối với thuốc thuộc Danh Mục thuốc thiết yếu khi có biến động bất thường về giá hoặc mặt bằng giá biến động ảnh hưởng đến sự ổn định kinh tế - xã hội.
+
+6. Thực hiện hình thức đàm phán giá đối với gói thầu mua thuốc, dược liệu chỉ có từ 01 đến 02 nhà sản xuất, thuốc biệt dược gốc, thuốc hiếm, thuốc trong thời gian còn bản quyền, thuốc có hàm lượng không phổ biến và trường hợp đặc thù khác.
+
+7. Quy định thặng số bán lẻ tối đa đối với thuốc bán tại cơ sở bán lẻ thuốc trong khuôn viên cơ sở khám bệnh, chữa bệnh.
+
+8. Chính phủ quy định chi Tiết Điều này.
+
+Điều 108. Trách nhiệm quản lý nhà nước về giá thuốc
+
+1. Chính phủ thống nhất quản lý nhà nước về giá thuốc.
+
+2. Bộ Y tế chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về giá thuốc.
+
+3. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình phối hợp với Bộ Y tế thực hiện quản lý nhà nước về giá thuốc.
+
+4. Ủy ban nhân dân cấp tỉnh trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về giá thuốc tại địa phương.
+
+Điều 109. Trách nhiệm quản lý nhà nước về giá thuốc của Bộ Y tế
+
+Chủ trì phối hợp với Bộ Tài chính, bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và Ủy ban nhân dân cấp tỉnh thực hiện quản lý nhà nước về giá thuốc có các nhiệm vụ sau đây:
+
+1. Chủ trì xây dựng, trình cơ quan nhà nước có thẩm quyền hoặc ban hành theo thẩm quyền và tổ chức thực hiện chính sách, pháp luật về giá thuốc;
+
+2. Yêu cầu các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân cấp tỉnh báo cáo định kỳ, đột xuất về công tác quản lý nhà nước về giá thuốc;
+
+3. Chủ trì tổ chức thực hiện công tác phổ biến, giáo dục pháp luật về giá thuốc;
+
+4. Chủ trì, phối hợp với Bộ Tài chính triển khai các biện pháp bình ổn giá thuốc theo quy định của pháp luật về giá;
+
+5. Chủ trì, phối hợp với Bộ Tài chính quy định cụ thể việc kê khai giá thuốc và nguyên tắc rà soát, công bố giá thuốc do doanh nghiệp sản xuất, nhập khẩu kê khai;
+
+6. Tổ chức tiếp nhận và rà soát giá thuốc nhập khẩu do cơ sở nhập khẩu hoặc cơ sở ủy quyền nhập khẩu kê khai, kê khai lại; giá thuốc sản xuất trong nước do cơ sở sản xuất kê khai;
+
+7. Hướng dẫn thực hiện việc niêm yết giá thuốc tại các cơ sở kinh doanh thuốc;
+
+8. Công bố trên cổng thông tin điện tử của Bộ Y tế về các thông tin sau đây:
+
+a) Giá bán buôn, bán lẻ thuốc đã kê khai;
+
+b) Giá thuốc trúng thầu do Bảo hiểm xã hội Việt Nam và cơ sở y tế cung cấp;
+
+c) Thuốc thuộc Danh Mục thuốc thiết yếu khi có biến động bất thường về giá hoặc mặt bằng giá biến động ảnh hưởng đến ổn định kinh tế - xã hội;
+
+9. Kiểm tra, thanh tra và xử phạt vi phạm pháp luật về giá thuốc.
+
+Điều 110. Trách nhiệm quản lý nhà nước về giá thuốc của Bộ Tài chính
+
+1. Phối hợp với Bộ Y tế thực hiện các nhiệm vụ sau đây:
+
+a) Quy định cụ thể việc kê khai giá thuốc và nguyên tắc xem xét, công bố giá thuốc do doanh nghiệp sản xuất, nhập khẩu kê khai;
+
+b) Triển khai biện pháp bình ổn giá thuốc theo quy định của pháp luật về giá;
+
+c) Kiểm tra, thanh tra và xử phạt vi phạm pháp luật về giá thuốc.
+
+2. Quy định giá đối với mặt hàng thuốc do cơ quan nhà nước có thẩm quyền đặt hàng, giao kế hoạch từ nguồn ngân sách trung ương.
+
+3. Cung cấp cho Bộ Y tế thông tin về giá nhập khẩu thực tế (giá CIF) của thuốc nhập khẩu vào Việt Nam.
+
+Điều 111. Trách nhiệm quản lý nhà nước về giá thuốc của Bộ Công Thương
+
+1. Cung cấp thông tin giá thuốc, nguyên liệu làm thuốc tại các nước trong khu vực, trên thế giới theo đề nghị của Bộ Y tế để phục vụ công tác quản lý nhà nước về giá thuốc.
+
+2. Phối hợp với Bộ Y tế kiểm tra, thanh tra và xử phạt vi phạm pháp luật về giá thuốc.
+
+Điều 112. Trách nhiệm quản lý nhà nước về giá thuốc của Ủy ban nhân dân cấp tỉnh
+
+1. Quản lý nhà nước về giá thuốc trên địa bàn tỉnh, thành phố trực thuộc trung ương theo quy định của Luật này và pháp luật có liên quan.
+
+2. Theo dõi, báo cáo Bộ Y tế, Bộ Tài chính thông tin về tình hình giá thuốc trên địa bàn khi có biến động bất thường về giá hoặc mặt bằng giá biến động ảnh hưởng đến ổn định kinh tế - xã hội.
+
+3. Tổ chức tiếp nhận và rà soát giá thuốc sản xuất trong nước do cơ sở sản xuất thuốc trên địa bàn kê khai lại và báo cáo Bộ Y tế để công bố trên cổng thông tin điện tử của Bộ Y tế.
+
+4. Kiểm tra, thanh tra và xử phạt vi phạm pháp luật về giá thuốc trên địa bàn quản lý.
+
+Điều 113. Trách nhiệm của Bảo hiểm xã hội Việt Nam trong quản lý giá thuốc
+
+Công khai giá thuốc trúng thầu trên cổng thông tin điện tử của Bảo hiểm xã hội Việt Nam và cung cấp giá thuốc trúng thầu đến Bộ Y tế chậm nhất 05 ngày kể từ ngày nhận được kết quả lựa chọn nhà thầu của cơ sở thực hiện đấu thầu thuốc.
+
+Điều 114. Trách nhiệm của các cơ sở thực hiện đầu thầu thuốc
+
+1. Trong thời hạn 10 ngày kể từ ngày có kết quả trúng thầu, các cơ sở thực hiện đấu thầu thuốc thuộc phạm vi quản lý của Ủy ban nhân dân cấp tỉnh phải gửi đến Sở Y tế, Bảo hiểm xã hội cấp tỉnh; các cơ sở y tế khác có thực hiện đấu thầu thuốc gửi kết quả trúng thầu thuốc đến Bộ Y tế và Bảo hiểm xã hội Việt Nam.
+
+2. Trong thời hạn 10 ngày kể từ ngày có kết quả trúng thầu thuốc đối với tỉnh, thành phố trực thuộc trung ương tổ chức đấu thầu thuốc tập trung, Sở Y tế phải báo cáo kết quả trúng thầu thuốc đến Bộ Y tế và Bảo hiểm xã hội Việt Nam.
+
+Chương XIV
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 115. Ðiều Khoản chuyển tiếp
+
+1. Cơ sở kinh doanh dược đã được cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược theo quy định của Luật dược số 34/2005/QH11 được tiếp tục kinh doanh thuốc cho đến hết thời hạn hiệu lực của Giấy chứng nhận đủ Điều kiện kinh doanh dược.
+
+Trường hợp Giấy chứng nhận đủ Điều kiện kinh doanh dược không ghi thời hạn hiệu lực, cơ sở được phép kinh doanh đến hết thời hạn ghi trên giấy chứng nhận thực hành tốt đã được cấp.
+
+2. Hồ sơ đề nghị cấp, cấp lại Chứng chỉ hành nghề dược, Giấy chứng nhận đủ Điều kiện kinh doanh dược, hồ sơ đăng ký thuốc nộp trước ngày Luật này có hiệu lực thi hành được thực hiện theo quy định của Luật dược số 34/2005/QH11, trừ trường hợp cơ sở có đề nghị thực hiện theo quy định của Luật này. Người hành nghề dược đã được cấp Chứng chỉ hành nghề dược theo quy định của Luật dược số 34/2005/QH11 được tiếp tục hành nghề dược đến hết thời hạn hiệu lực của Chứng chỉ hành nghề dược đã cấp.
+
+3. Đối với người có Chứng chỉ hành nghề dược được cấp trước ngày Luật này có hiệu lực thì thời hạn cập nhật kiến thức chuyên môn tính từ ngày Luật này có hiệu lực.
+
+4. Đối với Chứng chỉ hành nghề dược có thời hạn được cấp trước ngày Luật này có hiệu lực mà hết hạn sau ngày Luật này có hiệu lực thì được cấp lại Chứng chỉ hành nghề dược theo quy định của Luật này.
+
+5. Đối với Giấy chứng nhận đủ Điều kiện kinh doanh dược có thời hạn được cấp trước ngày Luật này có hiệu lực mà hết hạn sau ngày Luật này có hiệu lực thì phải đề nghị cấp Giấy chứng nhận đủ Điều kiện kinh doanh dược theo quy định của Luật này.
+
+Điều 116. Hiệu lực thi hành
+
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2017.
+
+2. Các quy định về áp dụng các nguyên tắc, tiêu chuẩn Thực hành tốt sản xuất thuốc tại cơ sở sản xuất nguyên liệu làm thuốc; Giấy chứng nhận đủ Điều kiện kinh doanh dược đối với cơ sở sản xuất tá dược, vỏ nang, cơ sở sản xuất, chế biến dược liệu; dược lâm sàng của cơ sở khám bệnh, chữa bệnh, nhà thuốc và các cơ sở khác có hoạt động kê đơn sử dụng thuốc có hiệu lực từ ngày 01 tháng 01 năm 2021.
+
+3. Chính phủ quy định lộ trình thực hiện Khoản 2 Điều này, bảo đảm đến ngày 01 tháng 01 năm 2021, các bệnh viện từ hạng 1 trở lên phải tổ chức hoạt động dược lâm sàng quy định tại Điều 80 của Luật này; tất cả vị trí công việc quy định tại Điều 11 của Luật này phải có Chứng chỉ hành nghề dược.
+
+4. Luật dược số 34/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+
+5. Chính phủ, cơ quan nhà nước có thẩm quyền quy định chi Tiết, hướng dẫn thi hành các Điều, Khoản được giao trong Luật.
+
+
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 11 thông qua ngày 06 tháng 4 năm 2016.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Thị Kim Ngân

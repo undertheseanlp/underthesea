@@ -1,0 +1,1154 @@
+QUỐC HỘI
+******
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+************
+
+Luật số: 28/2004/QH 11
+
+Hà Nội, ngày03 tháng 12 năm 2004
+
+
+
+LUẬT
+
+
+
+ĐIỆN LỰC
+
+Căn cứ vào Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung theo Nghị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10;
+Luật này quy định về điện lực.
+
+Chương I
+
+
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về quy hoạch và đầu tư phát triển điện lực; tiết kiệm điện; thị trường điện lực; quyền và nghĩa vụ của tổ chức, cá nhân hoạt động điện lực và sử dụng điện; bảo vệ trang thiết bị điện, công trình điện lực và an toàn điện.
+
+Điều 2. Đối tượng áp dụng
+
+Luật này áp dụng đối với tổ chức, cá nhân hoạt động điện lực, sử dụng điện hoặc có các hoạt động khác liên quan đến điện lực tại Việt Nam. Trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam ký kết hoặc gia nhập có quy định khác với quy định của Luật này thì áp dụng quy định của điều ước quốc tế đó.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Hoạt động điện lực là hoạt động của tổ chức, cá nhân trong các lĩnh vực quy hoạch, đầu tư phát triển điện lực, phát điện, truyền tải điện, phân phối điện, điều độ hệ thống điện, điều hành giao dịch thị trường điện lực, bán buôn điện, bán lẻ điện, tư vấn chuyên ngành điện lực và những hoạt động khác có liên quan.
+
+2. Đơn vị điện lực là tổ chức, cá nhân thực hiện hoạt động phát điện, truyền tải điện, phân phối điện, điều độ hệ thống điện, điều hành giao dịch thị trường điện lực, bán buôn điện, bán lẻ điện, tư vấn chuyên ngành điện lực và những hoạt động khác có liên quan.
+
+3. Lưới điện là hệ thống đường dây tải điện, máy biến áp và trang thiết bị phụ trợ để truyền dẫn điện. Lưới điện, theo mục đích sử dụng và quản lý vận hành, được phân biệt thành lưới điện truyền tải và lưới điện phân phối.
+
+4. Bán buôn điện là hoạt động bán điện của đơn vị điện lực này cho đơn vị điện lực khác để bán lại cho bên thứ ba.
+
+5. Bán lẻ điện là hoạt động bán điện của đơn vị điện lực cho khách hàng sử dụng điện.
+
+6. Khách hàng sử dụng điện là tổ chức, cá nhân mua điện để sử dụng, không bán lại cho tổ chức, cá nhân khác.
+
+7. Khách hàng sử dụng điện lớn là khách hàng sử dụng điện có công suất và sản lượng tiêu thụ lớn theo quy định của Bộ Công nghiệp phù hợp với từng thời kỳ phát triển của hệ thống điện.
+
+8. Biểu giá điện là bảng kê các mức giá và khung giá điện cụ thể áp dụng cho các đối tượng mua bán điện theo các điều kiện khác nhau.
+
+9. Khung giá điện là phạm vi biên độ dao động cho phép của giá điện giữa giá thấp nhất (giá sàn) và giá cao nhất (giá trần).
+
+10. Hệ thống điện quốc gia là hệ thống các trang thiết bị phát điện, lưới điện và các trang thiết bị phụ trợ được liên kết với nhau và được chỉ huy thống nhất trong phạm vi cả nước.
+
+11. Điều tiết điện lực là tác động của Nhà nước vào các hoạt động điện lực và thị trường điện lực nhằm cung cấp điện an toàn, ổn định, chất lượng, sử dụng điện tiết kiệm, có hiệu quả và bảo đảm tính công bằng, minh bạch, đúng quy định của pháp luật.
+
+12. Điều độ hệ thống điện là hoạt động chỉ huy, điều khiển quá trình phát điện, truyền tải điện, phân phối điện trong hệ thống điện quốc gia theo quy trình, quy phạm kỹ thuật và phương thức vận hành đã được xác định.
+
+13. Điều hành giao dịch thị trường điện lực là hoạt động quản lý và điều phối các giao dịch mua bán điện và dịch vụ phụ trợ trên thị trường điện lực.
+
+14. Thiết bị đo đếm điện là thiết bị đo công suất, điện năng, dòng điện, điện áp, tần số, hệ số công suất, bao gồm các loại công tơ, các loại đồng hồ đo điện và các thiết bị, phụ kiện kèm theo.
+
+15. Trộm cắp điện là hành vi lấy điện trái phép không qua công tơ, tác động nhằm làm sai lệch chỉ số đo đếm của công tơ và các thiết bị điện khác có liên quan đến đo đếm điện, cố ý hoặc thông đồng ghi sai chỉ số công tơ và các hành vi lấy điện gian lận khác.
+
+16. Công trình điện lực là tổ hợp các phương tiện, máy móc, thiết bị, kết cấu xây dựng phục vụ trực tiếp cho hoạt động phát điện, truyền tải điện, phân phối điện, điều độ hệ thống điện, mua bán điện; hệ thống bảo vệ công trình điện lực; hành lang bảo vệ an toàn lưới điện; đất sử dụng cho công trình điện lực và công trình phụ trợ khác.
+
+Điều 4. Chính sách phát triển điện lực
+
+1. Phát triển điện lực bền vững trên cơ sở khai thác tối ưu mọi nguồn lực, đáp ứng nhu cầu điện năng phục vụ đời sống nhân dân và phát triển kinh tế - xã hội với chất lượng ổn định, an toàn và kinh tế, dịch vụ văn minh, góp phần bảo đảm quốc phòng, an ninh và an ninh năng lượng quốc gia.
+
+2. Xây dựng và phát triển thị trường điện lực theo nguyên tắc công khai, bình đẳng, cạnh tranh lành mạnh, có sự điều tiết của Nhà nước để nâng cao hiệu quả trong hoạt động điện lực; bảo đảm quyền và lợi ích hợp pháp của các đơn vị điện lực và khách hàng sử dụng điện; thu hút mọi thành phần kinh tế tham gia hoạt động phát điện, phân phối điện, bán buôn điện, bán lẻ điện và tư vấn chuyên ngành điện lực. Nhà nước độc quyền trong hoạt động truyền tải, điều độ hệ thống điện quốc gia, xây dựng và vận hành các nhà máy điện lớn, có ý nghĩa đặc biệt quan trọng về kinh tế - xã hội, quốc phòng, an ninh.
+
+3. Áp dụng tiến bộ khoa học và công nghệ trong hoạt động điện lực và sử dụng điện nhằm tiết kiệm, nâng cao hiệu quả sử dụng các nguồn năng lượng, bảo vệ môi trường sinh thái.
+
+4. Đẩy mạnh việc khai thác và sử dụng các nguồn năng lượng mới, năng lượng tái tạo để phát điện.
+
+Điều 5. Hợp tác quốc tế trong hoạt động điện lực
+
+Mở rộng hợp tác quốc tế và hội nhập kinh tế quốc tế về hoạt động điện lực trên cơ sở tôn trọng độc lập, chủ quyền quốc gia và các bên cùng có lợi. Nhà nước khuyến khích và tạo điều kiện thuận lợi để tổ chức, cá nhân nước ngoài tham gia hoạt động điện lực tại Việt Nam; tổ chức, cá nhân ở trong nước hợp tác với tổ chức, cá nhân nước ngoài, tổ chức quốc tế trong hoạt động điện lực.
+
+Điều 6. Tuyên truyền, phổ biến, giáo dục pháp luật về điện lực
+
+1. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Uỷ ban nhân dân các cấp, đơn vị điện lực trong phạm vi trách nhiệm của mình phối hợp với các cơ quan thông tin đại chúng và trường học tổ chức phổ biến, giáo dục và hướng dẫn nhân dân sử dụng điện an toàn, tiết kiệm, hiệu quả và chấp hành nghiêm chỉnh các quy định của pháp luật về điện lực.
+
+2. Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên trong phạm vi trách nhiệm của mình phối hợp với cơ quan quản lý nhà nước về hoạt động điện lực và sử dụng điện tuyên truyền, vận động nhân dân sử dụng điện an toàn, tiết kiệm, hiệu quả và chấp hành nghiêm chỉnh các quy định của pháp luật về điện lực.
+
+Điều 7. Các hành vi bị cấm trong hoạt động điện lực và sử dụng điện
+
+1. Phá hoại các trang thiết bị điện, thiết bị đo đếm điện và công trình điện lực.
+
+2. Hoạt động điện lực không có giấy phép theo quy định của Luật này.
+
+3. Đóng, cắt điện trái quy định của pháp luật.
+
+4. Vi phạm các quy định về an toàn trong phát điện, truyền tải điện, phân phối điện và sử dụng điện.
+
+5. Cản trở việc kiểm tra hoạt động điện lực và sử dụng điện.
+
+6. Trộm cắp điện.
+
+7. Sử dụng điện để bẫy, bắt động vật hoặc làm phương tiện bảo vệ, trừ trường hợp được quy định tại Điều 59 của Luật này.
+
+8. Vi phạm các quy định về bảo vệ hành lang an toàn lưới điện, khoảng cách an toàn của đường dây và trạm điện.
+
+ 9. Cung cấp thông tin không trung thực làm tổn hại đến quyền và lợi ích hợp pháp của tổ chức, cá nhân hoạt động điện lực và sử dụng điện.
+
+10. Lợi dụng chức vụ, quyền hạn để gây sách nhiễu, phiền hà, thu lợi bất chính trong hoạt động điện lực và sử dụng điện.
+
+11. Các hành vi khác vi phạm quy định của pháp luật về điện lực.
+
+Chương II
+
+QUY HOẠCH VÀ ĐẦU TƯ PHÁT TRIỂN ĐIỆN LỰC
+
+Điều 8. Quy hoạch phát triển điện lực
+
+1. Quy hoạch phát triển điện lực bao gồm quy hoạch phát triển điện lực quốc gia, quy hoạch phát triển điện lực địa phương. Quy hoạch phát triển điện lực phải được lập, phê duyệt để làm cơ sở cho các hoạt động đầu tư phát triển điện lực và được điều chỉnh phù hợp với điều kiện kinh tế - xã hội trong từng thời kỳ.
+
+2. Quy hoạch phát triển điện lực quốc gia được lập trên cơ sở chiến lược phát triển kinh tế - xã hội của đất nước. Quy hoạch phát triển điện lực quốc gia được lập cho từng giai đoạn mười năm và có định hướng cho mười năm tiếp theo.
+
+3. Quy hoạch phát triển điện lực địa phương là quy hoạch phát triển điện lực tỉnh, thành phố trực thuộc trung ương, bao gồm cả quy hoạch phát triển điện lực huyện, quận, thị xã, thành phố thuộc tỉnh.
+
+Quy hoạch phát triển điện lực địa phương được lập trên cơ sở chiến lược phát triển kinh tế - xã hội của địa phương và phải phù hợp với quy hoạch phát triển điện lực quốc gia và các quy hoạch khác có liên quan. Quy hoạch phát triển điện lực địa phương được lập cho từng giai đoạn năm năm và có định hướng cho năm năm tiếp theo.
+
+4. Mọi tổ chức, cá nhân phải tuân theo quy hoạch phát triển điện lực đã được cơ quan nhà nước có thẩm quyền phê duyệt.
+
+Điều 9. Lập, phê duyệt và công bố quy hoạch phát triển điện lực
+
+1. Bộ Công nghiệp tổ chức lập quy hoạch phát triển điện lực quốc gia trình Thủ tướng Chính phủ phê duyệt; quy định cụ thể nội dung, trình tự, thủ tục lập, thẩm định quy hoạch phát triển điện lực; công bố và hướng dẫn, theo dõi, kiểm tra việc thực hiện quy hoạch phát triển điện lực quốc gia đã được phê duyệt.
+
+2. Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là Uỷ ban nhân dân cấp tỉnh) tổ chức lập quy hoạch phát triển điện lực địa phương trình Hội đồng nhân dân cùng cấp thông qua trước khi trình Bộ trưởng Bộ Công nghiệp phê duyệt; chỉ đạo tổ chức lập và phê duyệt quy hoạch phát triển điện lực huyện, quận, thị xã, thành phố thuộc tỉnh; công bố và hướng dẫn, theo dõi, kiểm tra việc thực hiện quy hoạch phát triển điện lực địa phương đã được phê duyệt.
+
+3. Cơ quan có thẩm quyền phê duyệt quy hoạch phát triển điện lực quyết định việc điều chỉnh quy hoạch.
+
+Điều 10. Kinh phí cho công tác quy hoạch
+
+1. Ngân sách trung ương cấp kinh phí để thực hiện nhiệm vụ lập, thẩm định, công bố và điều chỉnh quy hoạch phát triển điện lực quốc gia.
+
+2. Ngân sách tỉnh, thành phố trực thuộc trung ương cấp kinh phí để thực hiện nhiệm vụ lập, thẩm định, công bố và điều chỉnh quy hoạch phát triển điện lực địa phương.
+
+3. Nhà nước có chính sách huy động các nguồn kinh phí khác cho công tác lập quy hoạch phát triển điện lực.
+
+4. Bộ Tài chính chủ trì, phối hợp với Bộ Công nghiệp ban hành định mức chi để lập, thẩm định, công bố và điều chỉnh quy hoạch phát triển điện lực.
+
+Điều 11. Đầu tư phát triển điện lực
+
+1. Đầu tư phát triển điện lực phải phù hợp với quy hoạch phát triển điện lực. Các dự án đầu tư chưa có trong quy hoạch phát triển điện lực chỉ được thực hiện khi được cấp có thẩm quyền phê duyệt quy hoạch cho phép.
+
+2. Chủ đầu tư dự án điện lực có trách nhiệm thực hiện đúng các quy định của pháp luật về đầu tư, xây dựng và bảo vệ môi trường.
+
+3. Đơn vị phát điện, truyền tải điện, phân phối điện có trách nhiệm đầu tư xây dựng trạm điện, công tơ và đường dây dẫn điện đến công tơ để bán điện.
+
+4. Tổ chức, cá nhân xây dựng mới hoặc cải tạo, mở rộng công trình điện lực phải sử dụng các trang thiết bị kỹ thuật và công nghệ hiện đại phù hợp với các quy phạm, tiêu chuẩn ngành, Tiêu chuẩn Việt Nam do cơ quan nhà nước có thẩm quyền quy định.
+
+5. Bộ Công nghiệp, Uỷ ban nhân dân cấp tỉnh công bố danh mục các dự án điện lực thu hút đầu tư trong từng thời kỳ và các dự án đầu tư đã được cấp phép.
+
+Điều 12. Sử dụng đất cho các công trình điện lực
+
+1. Căn cứ quy hoạch phát triển điện lực và quy hoạch, kế hoạch sử dụng đất đã được cơ quan nhà nước có thẩm quyền phê duyệt, Uỷ ban nhân dân các cấp có trách nhiệm bố trí đủ quỹ đất cho xây dựng các công trình điện lực.
+
+2. Chủ đầu tư khi lập dự án đầu tư công trình điện lực phải xác định rõ diện tích đất cần sử dụng và phương án đền bù, giải phóng mặt bằng.
+
+3. Sau khi dự án đầu tư điện lực đã được phê duyệt, cơ quan nhà nước có thẩm quyền quyết định giao đất, cho thuê đất để chủ đầu tư thực hiện dự án.
+
+4. Uỷ ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm chủ trì, phối hợp với chủ đầu tư dự án điện lực lập và thực hiện kế hoạch giải phóng mặt bằng, di dân, tái định cư; bồi thường thiệt hại về đất đai, tài sản; bảo vệ diện tích đất dành cho dự án và hành lang an toàn của công trình điện lực.
+
+Chương III
+
+TIẾT KIỆM TRONG PHÁT ĐIỆN, TRUYỀN TẢI,PHÂN PHỐI VÀ SỬ DỤNG ĐIỆN
+
+Điều 13. Chính sách và biện pháp khuyến khích, thúc đẩy tiết kiệm điện
+
+1. Nhà nước hỗ trợ, khuyến khích tiết kiệm điện bằng các chính sách sau đây:
+
+a) Khuyến khích sản xuất trong nước hoặc nhập khẩu, áp dụng ưu đãi về thuế đối với sản phẩm thuộc danh mục sản phẩm tiết kiệm điện và trang thiết bị, vật tư, dây chuyền công nghệ nhập khẩu để sản xuất sản phẩm tiết kiệm điện;
+
+b) Dự án ứng dụng kết quả nghiên cứu khoa học và phát triển công nghệ, dự án đầu tư sản xuất các sản phẩm tiết kiệm điện hoặc dự án đầu tư nhằm mục đích tiết kiệm điện được vay vốn ưu đãi từ Quỹ hỗ trợ phát triển và Quỹ phát triển khoa học và công nghệ;
+
+c) Dự án đầu tư phát triển nhà máy phát điện sử dụng các nguồn năng lượng mới và năng lượng tái tạo được hưởng ưu đãi về đầu tư, giá điện và thuế theo hướng dẫn của Bộ Tài chính.
+
+2. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Uỷ ban nhân dân cấp tỉnh có trách nhiệm xây dựng các chương trình, dự án thúc đẩy sử dụng điện tiết kiệm và hiệu quả; bố trí kinh phí thích đáng cho nghiên cứu khoa học và phát triển công nghệ phục vụ mục tiêu tiết kiệm điện.
+
+3. Căn cứ mục tiêu phát triển kinh tế - xã hội, Bộ Công nghiệp phối hợp với các bộ, ngành liên quan xây dựng chương trình mục tiêu quốc gia về tiết kiệm năng lượng trình Thủ tướng Chính phủ quyết định.
+
+Điều 14. Tiết kiệm trong phát điện
+
+1. Đơn vị phát điện có trách nhiệm lựa chọn công nghệ phát điện tiên tiến, có hiệu suất cao và thực hiện phương thức vận hành tối ưu thiết bị phát điện để tiết kiệm nhiên liệu và các nguồn năng lượng dùng phát điện, góp phần bảo đảm an ninh năng lượng quốc gia.
+
+2. Hệ thống điện tự dùng trong nhà máy phát điện phải được thiết kế, lắp đặt hợp lý và phải bố trí sử dụng trong quá trình vận hành phù hợp với yêu cầu tiết kiệm điện tự dùng.
+
+Điều 15. Tiết kiệm trong truyền tải, phân phối điện
+
+Hệ thống đường dây tải điện và trạm điện phải bảo đảm các thông số và tiêu chuẩn kinh tế - kỹ thuật tiên tiến, được vận hành với phương thức tối ưu nhằm đáp ứng yêu cầu cung cấp điện ổn định, an toàn, liên tục và giảm thiểu tổn thất điện năng.
+
+Điều 16. Tiết kiệm trong sử dụng điện
+
+1. Tổ chức, cá nhân sử dụng điện cho sản xuất có trách nhiệm:
+
+a) Thực hiện chương trình quản lý nhu cầu điện để giảm chênh lệch công suất giữa giờ cao điểm và giờ thấp điểm của biểu đồ phụ tải hệ thống điện;
+
+b) Cải tiến, hợp lý hóa quy trình sản xuất, áp dụng công nghệ và trang thiết bị sử dụng điện có suất tiêu hao điện năng thấp để tiết kiệm điện;
+
+c) Hạn chế tối đa việc sử dụng thiết bị điện công suất lớn vào giờ cao điểm của biểu đồ phụ tải hệ thống điện;
+
+d) Bảo đảm hệ số công suất theo tiêu chuẩn kỹ thuật và hạn chế tối đa việc sử dụng non tải thiết bị điện;
+
+đ) Tổ chức kiểm toán năng lượng theo định kỳ và thực hiện các giải pháp điều chỉnh sau khi có kết luận kiểm toán theo quy định của Bộ Công nghiệp.
+
+2. Việc định giá bán lẻ điện cho sản xuất, sinh hoạt và dịch vụ phải bảo đảm thúc đẩy tổ chức, cá nhân sử dụng tiết kiệm điện, khuyến khích sử dụng điện trong giờ thấp điểm, giảm sử dụng điện trong giờ cao điểm của biểu đồ phụ tải hệ thống điện.
+
+3. Tổ chức, cá nhân sản xuất hoặc nhập khẩu trang thiết bị chiếu sáng, thông gió, điều hòa, bơm nước, cung cấp nước nóng, thang máy và các trang thiết bị phục vụ sinh hoạt khác phải bảo đảm các chỉ tiêu tiêu hao điện năng tiên tiến nhằm giảm chi phí điện năng, góp phần thực hiện tiết kiệm điện.
+
+4. Cơ quan, tổ chức có trách nhiệm ban hành quy chế sử dụng tiết kiệm điện trong phạm vi cơ quan, tổ chức mình.
+
+5. Chính phủ chỉ đạo việc xây dựng và ban hành các tiêu chuẩn tiêu hao điện năng cho các loại sản phẩm, hàng hóa sử dụng điện.
+
+Chương IV
+
+THỊ TRƯỜNG ĐIỆN LỰC
+
+Mục 1
+
+NGUYÊN TẮC, ĐỐI TƯỢNG, HÌNH THỨC VÀ NỘI DUNG HOẠT ĐỘNG CỦA THỊ TRƯỜNG ĐIỆN LỰC
+
+Điều 17. Nguyên tắc hoạt động
+
+1. Bảo đảm công khai, bình đẳng, cạnh tranh lành mạnh, không phân biệt đối xử giữa các đối tượng tham gia thị trường điện lực.
+
+2. Tôn trọng quyền được tự chọn đối tác và hình thức giao dịch của các đối tượng mua bán điện trên thị trường phù hợp với cấp độ phát triển của thị trường điện lực.
+
+3. Nhà nước điều tiết hoạt động của thị trường điện lực nhằm bảo đảm phát triển hệ thống điện bền vững, đáp ứng yêu cầu cung cấp điện an toàn, ổn định, hiệu quả.
+
+Điều 18. Hình thành và phát triển thị trường điện lực
+
+1. Thị trường điện lực được hình thành và phát triển theo thứ tự các cấp độ sau đây:
+
+a) Thị trường phát điện cạnh tranh;
+
+b) Thị trường bán buôn điện cạnh tranh;
+
+c) Thị trường bán lẻ điện cạnh tranh.
+
+2. Thủ tướng Chính phủ quy định lộ trình, các điều kiện để hình thành và phát triển các cấp độ thị trường điện lực.
+
+Điều 19. Đối tượng tham gia thị trường điện lực
+
+1. Đơn vị phát điện.
+
+2. Đơn vị truyền tải điện.
+
+3. Đơn vị phân phối điện.
+
+4. Đơn vị bán buôn điện.
+
+5. Đơn vị bán lẻ điện.
+
+6. Đơn vị điều độ hệ thống điện quốc gia.
+
+7. Đơn vị điều hành giao dịch thị trường điện lực.
+
+8. Khách hàng sử dụng điện.
+
+Điều 20. Mua bán điện trên thị trường điện lực
+
+1. Đối tượng mua bán điện trên thị trường điện lực bao gồm:
+
+a) Đơn vị phát điện;
+
+b) Đơn vị bán buôn điện;
+
+c) Đơn vị bán lẻ điện;
+
+d) Khách hàng sử dụng điện.
+
+2. Việc mua bán điện trên thị trường điện lực được thực hiện theo hai hình thức sau đây:
+
+a) Mua bán thông qua hợp đồng có thời hạn giữa bên bán điện và bên mua điện;
+
+b) Mua bán giao ngay giữa bên bán điện và bên mua điện thông qua đơn vị điều hành giao dịch thị trường điện lực.
+
+3. Đơn vị điều hành giao dịch thị trường điện lực chịu trách nhiệm điều hoà, phối hợp hoạt động giao dịch mua bán điện và dịch vụ phụ trợ trên thị trường điện lực.
+
+Điều 21. Hoạt động, điều hành giao dịch trên thị trường điện lực
+
+1. Các quy định chủ yếu về hoạt động giao dịch trên thị trường điện lực bao gồm:
+
+a) Quyền và nghĩa vụ của các đối tượng tham gia thị trường điện lực phù hợp với cấp độ phát triển của thị trường điện lực;
+
+b) Đặc tính kỹ thuật của các trang thiết bị phát điện, truyền tải điện, phân phối điện;
+
+c) Điều độ hệ thống điện quốc gia trong thị trường điện lực;
+
+d) Quy trình xử lý sự cố;
+
+đ) Mua bán điện giao ngay trên thị trường điện lực;
+
+e) Chào giá và xác định giá thị trường;
+
+g) Lập hoá đơn và thanh toán giữa các đối tượng mua bán điện quy định tại khoản 1 Điều 20 của Luật này và các đơn vị cung cấp dịch vụ phụ trợ;
+
+h) Cung cấp các dịch vụ phụ trợ và phí dịch vụ phụ trợ;
+
+i) Xử lý vi phạm và giải quyết tranh chấp, khiếu nại về hoạt động mua bán điện và các dịch vụ phụ trợ trên thị trường điện lực;
+
+k) Cung cấp, công bố thông tin liên quan đến hoạt động, điều hành giao dịch trên thị trường điện lực.
+
+2. Nội dung chủ yếu của điều hành giao dịch trên thị trường điện lực bao gồm:
+
+a) Kiểm soát hoạt động giao dịch của các đối tượng tham gia thị trường điện lực để bảo đảm cho thị trường hoạt động theo đúng các quy định về điều hành giao dịch thị trường, thoả thuận giữa các bên và các quy định khác của pháp luật;
+
+b) Công bố giá điện giao ngay và các loại phí dịch vụ được quy định tại khoản 1 Điều này;
+
+c) Cung cấp các dịch vụ giao dịch và lập hoá đơn thanh toán đối với phần điện năng và công suất được mua bán theo hình thức giao ngay và các dịch vụ phụ trợ;
+
+d) Tiếp nhận và xử lý các kiến nghị liên quan đến hoạt động giao dịch mua bán điện trên thị trường điện lực để bảo đảm sự ổn định, hiệu quả và ngăn chặn các hành vi cạnh tranh không lành mạnh;
+
+đ) Cung cấp thông tin liên quan đến hoạt động, điều hành giao dịch trên thị trường điện lực cho các bên liên quan;
+
+e) Báo cáo về hoạt động giao dịch mua bán điện trên thị trường điện lực với cơ quan điều tiết điện lực.
+
+3. Bộ Công nghiệp quy định các nội dung tại khoản 1 và hướng dẫn các nội dung tại khoản 2 Điều này phù hợp với từng cấp độ phát triển của thị trường điện lực; quy định về tổ chức, nhiệm vụ, quyền hạn cụ thể của đơn vị điều hành giao dịch thị trường điện lực.
+
+Mục 2
+
+MUA BÁN ĐIỆN VÀ DỊCH VỤ CUNG CẤP ĐIỆN THEO HỢP ĐỒNG CÓ THỜI HẠN
+
+Điều 22. Hợp đồng mua bán điện có thời hạn
+
+Hợp đồng mua bán điện có thời hạn phải được thể hiện bằng văn bản, bao gồm các nội dung sau đây:
+
+1. Chủ thể hợp đồng;
+
+2. Mục đích sử dụng;
+
+3. Tiêu chuẩn và chất lượng dịch vụ;
+
+4. Quyền và nghĩa vụ của các bên;
+
+5. Giá điện, phương thức và thời hạn thanh toán;
+
+6. Điều kiện chấm dứt hợp đồng;
+
+7. Trách nhiệm do vi phạm hợp đồng;
+
+8. Thời hạn của hợp đồng;
+
+9. Các nội dung khác do hai bên thoả thuận.
+
+Điều 23. Thanh toán tiền điện
+
+1. Bên mua điện phải thanh toán đủ và đúng thời hạn số tiền điện ghi trong hóa đơn cho bên bán điện theo biểu giá điện đã được cơ quan nhà nước có thẩm quyền phê duyệt. Tiền điện được thanh toán tại trụ sở, nơi ở của bên mua điện hoặc tại địa điểm thuận lợi do hai bên thoả thuận trong hợp đồng mua bán điện.
+
+2. Bên mua điện chậm trả tiền điện phải trả cả tiền lãi của khoản tiền chậm trả cho bên bán điện.
+
+3. Bên bán điện thu thừa tiền điện phải hoàn trả cho bên mua điện, kể cả tiền lãi của khoản tiền thu thừa.
+
+4. Lãi suất của số tiền chậm trả hoặc thu thừa do các bên thoả thuận trong hợp đồng nhưng không vượt quá mức lãi suất cho vay cao nhất của ngân hàng mà bên bán điện có tài khoản ghi trong hợp đồng tại thời điểm thanh toán.
+
+5. Bên mua điện có quyền yêu cầu bên bán điện xem xét lại số tiền điện phải thanh toán. Khi nhận được yêu cầu của bên mua điện, bên bán điện có trách nhiệm giải quyết trong thời hạn mười lăm ngày. Trường hợp không đồng ý với cách giải quyết của bên bán điện, bên mua điện có thể đề nghị cơ quan, tổ chức có thẩm quyền tổ chức việc hoà giải. Trong trường hợp không đề nghị hoà giải hoặc hoà giải không thành, bên mua điện có quyền khởi kiện tại Toà án theo quy định của pháp luật về tố tụng dân sự. Trong thời gian chờ giải quyết, bên mua điện vẫn phải thanh toán tiền điện và bên bán điện không được ngừng cấp điện.
+
+6. Trong trường hợp bên mua điện không trả tiền điện và đã được bên bán điện thông báo ba lần thì sau mười lăm ngày, kể từ ngày thông báo lần đầu tiên, bên bán điện có quyền ngừng cấp điện. Bên bán điện phải thông báo thời điểm ngừng cấp điện cho bên mua điện trước 24 giờ và không chịu trách nhiệm về thiệt hại do việc ngừng cấp điện gây ra.
+
+Điều 24. Đo đếm điện
+
+1. Đơn vị phát điện, truyền tải điện, phân phối điện có trách nhiệm đầu tư và lắp đặt toàn bộ các thiết bị đo đếm điện và thiết bị phụ trợ cho việc đo đếm điện, trừ trường hợp các bên có thoả thuận khác.
+
+2. Thiết bị đo đếm điện phải phù hợp với Tiêu chuẩn Việt Nam và được cơ quan quản lý nhà nước về đo lường kiểm chuẩn và niêm phong.
+
+3. Công tơ phải được lắp đặt trong khu vực quản lý của bên mua điện, trừ trường hợp các bên có thoả thuận khác. Vị trí lắp đặt và việc lắp đặt công tơ phải bảo đảm an toàn, mỹ quan, thuận lợi cho bên mua điện kiểm tra chỉ số công tơ và bên bán điện ghi chỉ số công tơ.
+
+4. Bên mua điện có trách nhiệm bảo vệ công tơ lắp đặt trong khu vực quản lý của mình và thông báo kịp thời cho bên bán điện khi phát hiện công tơ bị mất hoặc bị hỏng. Bên bán điện có trách nhiệm bảo vệ công tơ lắp đặt ở ngoài khu vực quản lý của bên mua điện.
+
+Điều 25. Kiểm định thiết bị đo đếm điện
+
+1. Chỉ những tổ chức có thẩm quyền hoặc được ủy quyền theo quy định của cơ quan quản lý nhà nước về đo lường mới được phép kiểm định thiết bị đo đếm điện.
+
+2. Bên bán điện có trách nhiệm tổ chức việc kiểm định thiết bị đo đếm điện theo đúng yêu cầu và thời hạn do cơ quan quản lý nhà nước về đo lường quy định.
+
+3. Khi có nghi ngờ thiết bị đo đếm điện không chính xác, bên mua điện có quyền yêu cầu bên bán điện kiểm tra; trong thời hạn ba ngày, kể từ ngày nhận được yêu cầu của bên mua điện, bên bán điện phải kiểm tra, sửa chữa hoặc thay thế xong. Trường hợp không đồng ý với kết quả kiểm tra, sửa chữa hoặc thay thế của bên bán điện, bên mua điện có quyền đề nghị cơ quan quản lý nhà nước về hoạt động điện lực và sử dụng điện tại địa phương tổ chức kiểm định độc lập. Trong thời hạn mười lăm ngày, kể từ ngày nhận được đề nghị của bên mua điện, cơ quan quản lý nhà nước về hoạt động điện lực và sử dụng điện tại địa phương có trách nhiệm tổ chức việc kiểm định.
+
+4. Chi phí cho việc kiểm định thiết bị đo đếm điện theo quy định tại khoản 3 Điều này được thực hiện như sau:
+
+a) Trường hợp tổ chức kiểm định độc lập xác định thiết bị đo đếm điện hoạt động theo đúng Tiêu chuẩn Việt Nam thì bên mua điện phải trả phí kiểm định;
+
+b) Trường hợp tổ chức kiểm định độc lập xác định thiết bị đo đếm điện hoạt động không đúng Tiêu chuẩn Việt Nam thì bên bán điện phải trả phí kiểm định.
+
+5. Trường hợp tổ chức kiểm định độc lập xác định chỉ số đo đếm của thiết bị đo đếm điện vượt quá số lượng điện sử dụng thực tế thì bên bán điện phải hoàn trả khoản tiền thu thừa cho bên mua điện.
+
+Điều 26. Bảo đảm chất lượng điện năng
+
+1. Đơn vị phát điện, truyền tải điện, phân phối điện phải bảo đảm điện áp, tần số dòng điện phù hợp với Tiêu chuẩn Việt Nam, công suất, điện năng và thời gian cung cấp điện theo hợp đồng. Trường hợp không bảo đảm tiêu chuẩn điện áp, tần số dòng điện, công suất, điện năng và thời gian cung cấp điện theo hợp đồng đã ký mà gây thiệt hại cho bên mua điện thì bên bán điện phải bồi thường cho bên mua điện theo quy định của pháp luật.
+
+2. Bên mua điện có trách nhiệm bảo đảm các trang thiết bị sử dụng điện của mình hoạt động an toàn để không gây ra sự cố cho hệ thống điện, không làm ảnh hưởng đến chất lượng điện áp của lưới điện.
+
+Điều 27. Ngừng, giảm mức cung cấp điện
+
+1. Trường hợp ngừng hoặc giảm mức cung cấp điện không khẩn cấp, trừ trường hợp quy định tại khoản 6 Điều 23 của Luật này, bên bán điện phải thông báo cho bên mua điện biết trước thời điểm ngừng hoặc giảm mức cung cấp điện ít nhất năm ngày bằng cách thông báo trong ba ngày liên tiếp trên phương tiện thông tin đại chúng hoặc các hình thức thông tin khác.
+
+2. Trường hợp ngừng hoặc giảm mức cung cấp điện khẩn cấp do sự cố, do sự kiện bất khả kháng mà bên bán điện không kiểm soát được có nguy cơ làm mất an toàn nghiêm trọng cho người, trang thiết bị hoặc do thiếu nguồn điện đe dọa đến an toàn của hệ thống điện thì đơn vị phát điện, truyền tải điện, phân phối điện được ngừng hoặc giảm mức cung cấp điện đối với bên mua điện để xử lý và trong thời hạn 24 giờ phải thông báo cho bên mua điện biết nguyên nhân, dự kiến thời gian cấp điện trở lại.
+
+3. Trường hợp đơn vị điện lực ngừng hoặc giảm mức cung cấp điện trái các quy định về ngừng, giảm mức cung cấp điện thì bị xử phạt theo quy định của pháp luật về xử lý vi phạm hành chính; nếu gây thiệt hại thì phải bồi thường cho bên mua điện theo quy định của pháp luật.
+
+4. Trường hợp bên mua điện không thực hiện đúng các quy định tại điểm a và điểm b khoản 2 Điều 46, điểm b và điểm c khoản 2 Điều 47 của Luật này thì bên bán điện có quyền ngừng cấp điện cho bên mua điện.
+
+Điều 28. Mua bán điện với nước ngoài
+
+1. Việc mua bán điện với nước ngoài phải được cơ quan nhà nước có thẩm quyền cho phép và được ghi trong giấy phép hoạt động điện lực.
+
+2. Việc mua bán điện với nước ngoài thông qua hệ thống điện quốc gia phải bảo đảm các nguyên tắc sau đây:
+
+a) Không làm ảnh hưởng đến độ an toàn, tin cậy và tính ổn định trong vận hành hệ thống điện quốc gia;
+
+b) Đáp ứng các tiêu chuẩn kinh tế - kỹ thuật, quy trình, quy phạm quản lý vận hành hệ thống điện quốc gia;
+
+c) Không làm tổn hại đến lợi ích của khách hàng sử dụng điện trong nước và an ninh năng lượng quốc gia.
+
+3. Khách hàng sử dụng điện ở khu vực biên giới được mua điện trực tiếp với nước ngoài không qua hệ thống điện quốc gia nhưng phải bảo đảm các tiêu chuẩn an toàn điện và các quy định khác của pháp luật có liên quan.
+
+Mục 3
+
+GIÁ ĐIỆN
+
+Điều 29. Chính sách giá điện
+
+1. Tạo điều kiện cho các thành phần kinh tế đầu tư phát triển điện lực có lợi nhuận hợp lý, tiết kiệm tài nguyên năng lượng, sử dụng các dạng năng lượng mới, năng lượng tái tạo không gây ô nhiễm môi trường trong hoạt động điện lực, góp phần thúc đẩy phát triển kinh tế - xã hội, đặc biệt là ở nông thôn, miền núi, hải đảo.
+
+2. Khuyến khích sử dụng điện tiết kiệm và có hiệu quả.
+
+3. Thực hiện cơ chế bù giá hợp lý giữa các nhóm khách hàng. Giảm dần và tiến tới xoá bỏ việc bù chéo giữa giá điện sản xuất và giá điện sinh hoạt, góp phần thúc đẩy sản xuất và tăng sức cạnh tranh của các doanh nghiệp.
+
+4. Bảo đảm quyền tự quyết định giá mua, bán điện trong khung giá, biểu giá điện do Nhà nước quy định của các đối tượng mua bán điện trên thị trường điện lực.
+
+5. Bảo đảm quyền và lợi ích hợp pháp của các đơn vị điện lực và khách hàng sử dụng điện.
+
+Điều 30. Căn cứ lập và điều chỉnh giá điện
+
+1. Chính sách giá điện.
+
+2. Điều kiện phát triển kinh tế - xã hội của đất nước, thu nhập của người dân trong từng thời kỳ.
+
+3. Quan hệ cung cầu về điện.
+
+4. Các chi phí sản xuất, kinh doanh điện và lợi nhuận hợp lý của đơn vị điện lực.
+
+5. Cấp độ phát triển của thị trường điện lực.
+
+Điều 31. Giá điện và các loại phí
+
+1. Biểu giá bán lẻ điện do Thủ tướng Chính phủ phê duyệt. Cơ quan điều tiết điện lực giúp Bộ trưởng Bộ Công nghiệp xây dựng biểu giá bán lẻ điện trình Thủ tướng Chính phủ phê duyệt.
+
+2. Khung giá phát điện, bán buôn điện và các loại phí truyền tải điện, phân phối điện, điều độ hệ thống điện, điều hành giao dịch thị trường điện lực, các phí dịch vụ phụ trợ do đơn vị điện lực có liên quan xây dựng, cơ quan điều tiết điện lực thẩm định trình Bộ trưởng Bộ Công nghiệp phê duyệt.
+
+3. Giá phát điện, giá bán buôn điện, giá bán lẻ điện theo hợp đồng mua bán điện có thời hạn do các đơn vị điện lực quyết định nhưng không được vượt quá khung giá, biểu giá đã được cơ quan nhà nước có thẩm quyền phê duyệt.
+
+4. Giá mua bán điện giao ngay được hình thành theo thời điểm giao dịch trên thị trường điện lực và do đơn vị điều hành giao dịch thị trường điện lực công bố phù hợp với quy định tại điểm e và điểm h khoản 1 Điều 21 của Luật này.
+
+Chương V
+
+GIẤY PHÉP HOẠT ĐỘNG ĐIỆN LỰC
+
+Điều 32. Đối tượng, điều kiện được cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực
+
+1. Mỗi tổ chức, cá nhân được cấp một giấy phép để thực hiện một hoặc nhiều loại hình hoạt động điện lực.
+
+2. Tổ chức, cá nhân được cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực khi có đủ các điều kiện sau đây:
+
+a) Có dự án hoặc phương án hoạt động điện lực khả thi;
+
+b) Có hồ sơ hợp lệ đề nghị cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực;
+
+c) Người quản trị, người điều hành có năng lực quản lý, trình độ chuyên môn, nghiệp vụ phù hợp với lĩnh vực hoạt động điện lực.
+
+3. Tổ chức, cá nhân đề nghị cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực phải nộp lệ phí theo quy định của pháp luật.
+
+4. Chính phủ quy định cụ thể về điều kiện, trình tự, thủ tục cấp, sửa đổi, bổ sung và thời hạn của giấy phép hoạt động điện lực đối với từng loại hình hoạt động điện lực.
+
+Điều 33. Hồ sơ đề nghị cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực
+
+1. Đơn đề nghị cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực.
+
+2. Dự án hoặc phương án hoạt động điện lực.
+
+3. Báo cáo đánh giá tác động môi trường của dự án hoạt động điện lực đã được cơ quan nhà nước có thẩm quyền phê duyệt.
+
+4. Danh sách, lý lịch, các văn bằng chứng minh năng lực quản lý, trình độ chuyên môn, nghiệp vụ của người quản trị, người điều hành đơn vị điện lực.
+
+Điều 34. Trường hợp miễn trừ giấy phép hoạt động điện lực
+
+1. Các trường hợp sau đây được miễn trừ giấy phép hoạt động điện lực:
+
+a) Tổ chức, cá nhân đầu tư xây dựng cơ sở phát điện để tự sử dụng, không bán điện cho tổ chức, cá nhân khác;
+
+b) Tổ chức, cá nhân hoạt động phát điện có công suất lắp đặt dưới mức công suất theo quy định của Bộ Công nghiệp;
+
+c) Tổ chức, cá nhân kinh doanh điện tại vùng nông thôn, miền núi, hải đảo mua điện với công suất nhỏ hơn 50 kVA từ lưới điện phân phối để bán điện trực tiếp tới khách hàng sử dụng điện tại vùng nông thôn, miền núi, hải đảo;
+
+d) Đơn vị điều độ hệ thống điện quốc gia và đơn vị điều hành giao dịch thị trường điện lực.
+
+2. Tổ chức, cá nhân được miễn trừ giấy phép hoạt động điện lực theo quy định tại khoản 1 Điều này phải tuân thủ các quy trình, quy phạm quản lý vận hành, các quy định về giá điện, điều kiện về kỹ thuật, an toàn của Luật này.
+
+3. Uỷ ban nhân dân cấp tỉnh có trách nhiệm quản lý, kiểm tra tổ chức, cá nhân hoạt động điện lực quy định tại các điểm a, b và c khoản 1 Điều này.
+
+Điều 35. Nội dung của giấy phép hoạt động điện lực
+
+1. Tên, địa chỉ trụ sở của tổ chức, cá nhân được cấp giấy phép hoạt động điện lực.
+
+2. Loại hình hoạt động điện lực.
+
+3. Quyền và nghĩa vụ của tổ chức, cá nhân được cấp giấy phép hoạt động điện lực.
+
+4. Phạm vi hoạt động điện lực.
+
+5. Kỹ thuật, công nghệ sử dụng trong hoạt động điện lực.
+
+6. Thời hạn của giấy phép hoạt động điện lực.
+
+Điều 36. Thời hạn cấp, sửa đổi, bổ sung giấy phép hoạt động điện lực
+
+Trong thời hạn ba mươi ngày làm việc, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan nhà nước có thẩm quyền phải cấp hoặc sửa đổi, bổ sung giấy phép hoạt động điện lực; trường hợp từ chối thì phải thông báo bằng văn bản và nêu rõ lý do.
+
+Điều 37. Thu hồi giấy phép hoạt động điện lực
+
+Tổ chức, cá nhân bị thu hồi giấy phép hoạt động điện lực trong các trường hợp sau đây:
+
+1. Không triển khai hoạt động sau sáu tháng kể từ ngày được cấp giấy phép hoạt động điện lực;
+
+ 2. Không bảo đảm các điều kiện hoạt động điện lực theo quy định của Luật này;
+
+3. Không thực hiện đúng các nội dung ghi trong giấy phép hoạt động điện lực;
+
+4. Cho thuê, cho mượn, tự ý sửa chữa giấy phép hoạt động điện lực.
+
+Điều 38. Thẩm quyền cấp, sửa đổi, bổ sung, thu hồi giấy phép hoạt động điện lực
+
+1. Bộ Công nghiệp cấp giấy phép hoạt động điện lực cho các đơn vị phát điện, truyền tải điện, phân phối điện có đấu nối với hệ thống điện quốc gia, đơn vị bán buôn điện, bán lẻ điện, tư vấn chuyên ngành điện lực.
+
+2. Uỷ ban nhân dân cấp tỉnh cấp giấy phép hoạt động điện lực cho tổ chức, cá nhân có hoạt động điện lực với quy mô nhỏ trong phạm vi địa phương theo hướng dẫn của Bộ Công nghiệp.
+
+3. Cơ quan cấp giấy phép hoạt động điện lực có quyền sửa đổi, bổ sung, thu hồi giấy phép hoạt động điện lực. Việc sửa đổi, bổ sung giấy phép hoạt động điện lực phải phù hợp với khả năng thực hiện của tổ chức, cá nhân được cấp giấy phép.
+
+4. Việc cấp giấy phép hoạt động điện lực về phát điện, truyền tải, phân phối điện phải phù hợp với quy hoạch phát triển điện lực đã được phê duyệt.
+
+Chương VI
+
+QUYỀN, NGHĨA VỤ CỦA ĐƠN VỊ ĐIỆN LỰC VÀ KHÁCH HÀNG SỬ DỤNG ĐIỆN
+
+Điều 39. Quyền và nghĩa vụ của đơn vị phát điện
+
+1. Đơn vị phát điện có các quyền sau đây:
+
+a) Hoạt động phát điện và các hoạt động khác theo giấy phép hoạt động điện lực;
+
+b) Đấu nối vào hệ thống điện quốc gia khi đáp ứng các điều kiện và tiêu chuẩn kỹ thuật;
+
+c) Bán điện cho bên mua điện theo hợp đồng có thời hạn và chào giá bán điện giao ngay trên thị trường điện lực;
+
+d) Được cung cấp các thông tin cần thiết liên quan đến hoạt động phát điện;
+
+đ) Đề nghị cơ quan nhà nước có thẩm quyền sửa đổi, bổ sung các quy phạm, tiêu chuẩn, định mức kinh tế - kỹ thuật phục vụ hoạt động phát điện;
+
+e) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị phát điện có các nghĩa vụ sau đây:
+
+a) Tuân thủ các quy trình, quy phạm về vận hành nhà máy điện, lưới điện;
+
+b) Tuân thủ phương thức vận hành, lệnh chỉ huy, điều khiển của đơn vị điều độ hệ thống điện quốc gia;
+
+c) Xử lý sự cố;
+
+d) Trường hợp có nguy cơ đe doạ đến tính mạng con người và an toàn của trang thiết bị phải ngừng hoặc giảm mức phát điện nếu không có giải pháp khác;
+
+đ) Tuân thủ các quy định về thị trường điện lực của Luật này và các quy định khác của pháp luật có liên quan;
+
+e) Báo cáo về khả năng sẵn sàng phát điện, mức dự phòng công suất, tình hình thực hiện phương thức vận hành của nhà máy điện theo yêu cầu của đơn vị điều độ hệ thống điện quốc gia, đơn vị điều hành giao dịch thị trường điện lực, cơ quan điều tiết điện lực hoặc cơ quan nhà nước có thẩm quyền;
+
+g) Thực hiện các quy định của pháp luật về bảo vệ môi trường trong hoạt động phát điện;
+
+h) Thông báo ngay cho đơn vị điều độ hệ thống điện quốc gia và các tổ chức, cá nhân có liên quan khi có sự cố về phát điện;
+
+i) Đầu tư trạm điện, công tơ và đường dây dẫn điện đến công tơ cho bên mua, trừ trường hợp có thoả thuận khác với đơn vị truyền tải điện, đơn vị phân phối điện hoặc bên mua điện;
+
+k) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 40. Quyền và nghĩa vụ của đơn vị truyền tải điện
+
+1. Đơn vị truyền tải điện có các quyền sau đây:
+
+a) Hoạt động truyền tải điện theo giấy phép hoạt động điện lực;
+
+b) Xây dựng và trình duyệt phí truyền tải điện;
+
+c) Được cung cấp các thông tin cần thiết liên quan đến hoạt động truyền tải điện;
+
+d) Đề nghị cơ quan nhà nước có thẩm quyền sửa đổi, bổ sung các quy phạm, tiêu chuẩn, định mức kinh tế - kỹ thuật phục vụ hoạt động truyền tải điện;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị truyền tải điện có các nghĩa vụ sau đây:
+
+a) Bảo đảm lưới điện và các trang thiết bị truyền tải điện vận hành an toàn, ổn định, tin cậy;
+
+b) Bảo đảm cung cấp dịch vụ truyền tải và các dịch vụ phụ trợ cho các bên có liên quan, trừ trường hợp lưới điện bị quá tải theo xác nhận của cơ quan điều tiết điện lực;
+
+c) Tuân thủ phương thức vận hành, lệnh chỉ huy, điều khiển của đơn vị điều độ hệ thống điện quốc gia;
+
+d) Xử lý sự cố;
+
+đ) Trường hợp có nguy cơ đe doạ đến tính mạng con người và an toàn của trang thiết bị phải ngừng hoặc yêu cầu đơn vị điều độ hệ thống điện quốc gia giảm mức truyền tải điện nếu không có giải pháp khác;
+
+e) Xây dựng kế hoạch đầu tư phát triển lưới điện truyền tải và thực hiện đầu tư phát triển lưới điện truyền tải đáp ứng nhu cầu truyền tải điện theo quy hoạch phát triển điện lực; đầu tư thiết bị đo đếm điện và các thiết bị phụ trợ, trừ trường hợp có thoả thuận khác với đơn vị phát điện, đơn vị phân phối điện hoặc khách hàng sử dụng điện;
+
+g) Báo cáo về khả năng sẵn sàng truyền tải, độ dự phòng của trang thiết bị truyền tải điện theo yêu cầu của đơn vị điều độ hệ thống điện quốc gia, đơn vị điều hành giao dịch thị trường điện lực, cơ quan điều tiết điện lực hoặc cơ quan nhà nước có thẩm quyền;
+
+h) Thông báo ngay cho đơn vị điều độ hệ thống điện quốc gia và các tổ chức, cá nhân có liên quan khi có sự cố về lưới điện truyền tải;
+
+i) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 41. Quyền và nghĩa vụ của đơn vị phân phối điện
+
+1. Đơn vị phân phối điện có các quyền sau đây:
+
+a) Hoạt động phân phối điện và các hoạt động khác theo giấy phép hoạt động điện lực;
+
+b) Xây dựng và trình duyệt phí phân phối điện;
+
+c) Được vào khu vực quản lý của bên mua điện để thao tác, bảo dưỡng, sửa chữa và thay thế mới trang thiết bị điện của đơn vị phân phối điện;
+
+d) Được cung cấp các thông tin cần thiết liên quan đến hoạt động phân phối điện;
+
+đ) Đề nghị cơ quan nhà nước có thẩm quyền sửa đổi, bổ sung các quy phạm, tiêu chuẩn, định mức kinh tế - kỹ thuật phục vụ hoạt động phân phối điện;
+
+e) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị phân phối điện có các nghĩa vụ sau đây:
+
+a) Bảo đảm lưới điện và các trang thiết bị phân phối điện vận hành an toàn, ổn định, tin cậy;
+
+b) Bảo đảm cung cấp dịch vụ phân phối điện cho khách hàng sử dụng điện, đơn vị bán lẻ điện, đơn vị bán buôn điện đáp ứng các tiêu chuẩn về kỹ thuật, chất lượng dịch vụ, an toàn theo hợp đồng, trừ trường hợp lưới điện phân phối bị quá tải theo xác nhận của cơ quan điều tiết điện lực;
+
+c) Xây dựng kế hoạch đầu tư phát triển lưới điện phân phối và thực hiện đầu tư phát triển lưới điện phân phối đáp ứng nhu cầu điện theo quy hoạch phát triển điện lực; đầu tư công tơ và đường dây dẫn điện đến công tơ cho bên mua điện, trừ trường hợp có thoả thuận khác với bên mua điện;
+
+d) Thực hiện chương trình mục tiêu quốc gia về quản lý nhu cầu sử dụng điện;
+
+đ) Tuân thủ phương thức vận hành, lệnh chỉ huy, điều khiển của đơn vị điều độ hệ thống điện quốc gia;
+
+e) Báo cáo về khả năng sẵn sàng vận hành, mức dự phòng của lưới điện và trang thiết bị phân phối điện, nhu cầu sử dụng điện trên địa bàn hoạt động của mình theo yêu cầu của đơn vị điều độ hệ thống điện quốc gia, đơn vị điều hành giao dịch thị trường điện lực, cơ quan điều tiết điện lực hoặc cơ quan nhà nước có thẩm quyền;
+
+g) Xử lý sự cố;
+
+h) Trường hợp có nguy cơ đe doạ đến tính mạng con người và an toàn của trang thiết bị phải ngừng hoặc giảm mức phân phối điện nếu không có giải pháp khác;
+
+i) Khôi phục việc cấp điện chậm nhất là 2 giờ kể từ khi phát hiện sự cố hoặc nhận được thông báo của bên mua điện; trường hợp không thực hiện được trong thời hạn trên thì phải thông báo ngay cho bên mua điện về nguyên nhân và dự kiến thời gian cấp điện trở lại;
+
+k) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 42. Quyền và nghĩa vụ của đơn vị điều độ hệ thống điện quốc gia
+
+1. Đơn vị điều độ hệ thống điện quốc gia có các quyền sau đây:
+
+a) Chỉ huy, điều khiển các đơn vị phát điện, truyền tải điện, phân phối điện thực hiện phương thức vận hành hệ thống điện quốc gia;
+
+b) Được điều chỉnh kế hoạch, phương thức huy động công suất các nhà máy điện;
+
+c) Chỉ huy xử lý các tình huống khẩn cấp hoặc bất thường trong hệ thống điện quốc gia; huy động công suất, điện năng của các nhà máy điện trong hệ thống điện quốc gia; chỉ huy việc thao tác lưới điện truyền tải và lưới điện phân phối; ngừng hoặc giảm mức cung cấp điện trong trường hợp có nguy cơ đe doạ đến sự vận hành an toàn, tin cậy của hệ thống điện quốc gia;
+
+d) Yêu cầu các đơn vị điện lực có liên quan cung cấp thông tin về đặc tính kỹ thuật, khả năng sẵn sàng tham gia vận hành và mang tải của các trang thiết bị phát điện, truyền tải điện và phân phối điện; nhu cầu sử dụng điện của khách hàng để xác định phương thức vận hành hệ thống điện quốc gia;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị điều độ hệ thống điện quốc gia có các nghĩa vụ sau đây:
+
+a) Bảo đảm vận hành hệ thống điện quốc gia an toàn, ổn định, kinh tế;
+
+b) Bảo đảm các tiêu chuẩn tần số hệ thống điện quốc gia và điện áp trên lưới điện truyền tải quốc gia;
+
+c) Tuân thủ các quy định về điều độ hệ thống điện quốc gia trong thị trường điện lực, lưới điện truyền tải và các hướng dẫn của cơ quan điều tiết điện lực, đơn vị điều hành giao dịch thị trường điện lực; không phân biệt đối xử trong việc huy động công suất, điện năng của các đơn vị phát điện trong hệ thống điện quốc gia;
+
+d) Lập và thực hiện phương thức vận hành hệ thống điện quốc gia trên cơ sở kế hoạch, phương thức huy động công suất các nhà máy điện và các dịch vụ phụ trợ do đơn vị điều hành giao dịch thị trường điện lực công bố;
+
+đ) Thông báo số lượng công suất, điện năng và các dịch vụ phụ trợ đã được huy động để đơn vị điều hành giao dịch thị trường điện lực lập hoá đơn thanh toán;
+
+e) Báo cáo kịp thời với cơ quan điều tiết điện lực và thông báo cho đơn vị điều hành giao dịch thị trường điện lực về những tình huống khẩn cấp hoặc bất thường đe dọa nghiêm trọng đến sự vận hành an toàn, tin cậy của hệ thống điện quốc gia;
+
+g) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 43. Quyền và nghĩa vụ của đơn vị bán buôn điện
+
+1. Đơn vị bán buôn điện có các quyền sau đây:
+
+a) Hoạt động bán buôn điện và các hoạt động khác theo giấy phép hoạt động điện lực;
+
+b) Mua điện trực tiếp của đơn vị phát điện theo hợp đồng có thời hạn hoặc mua điện giao ngay trên thị trường điện lực;
+
+c) Định giá bán buôn điện trong khung giá bán buôn điện đã được duyệt để cạnh tranh mua, bán điện trên thị trường điện lực;
+
+d) Sử dụng dịch vụ truyền tải, phân phối điện phù hợp với từng cấp độ của thị trường điện lực;
+
+đ) Được vào khu vực quản lý của bên mua điện để kiểm tra, ghi chỉ số công tơ và liên hệ với khách hàng;
+
+e) Được cung cấp các thông tin cần thiết liên quan đến hoạt động bán buôn điện;
+
+g) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị bán buôn điện có các nghĩa vụ sau đây:
+
+a) Bán điện theo đúng số lượng, chất lượng và giá điện đã được thoả thuận trong hợp đồng;
+
+b) Tuân thủ các quy định về thị trường điện lực của Luật này và các quy định khác của pháp luật có liên quan;
+
+c) Bồi thường khi gây thiệt hại cho bên mua hoặc bên bán điện theo quy định của pháp luật;
+
+d) Cung cấp các thông tin cần thiết liên quan đến lượng điện bán buôn theo yêu cầu của đơn vị điều độ hệ thống điện quốc gia hoặc cơ quan nhà nước có thẩm quyền;
+
+đ) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 44. Quyền và nghĩa vụ của đơn vị bán lẻ điện
+
+1. Đơn vị bán lẻ điện có các quyền sau đây:
+
+a) Hoạt động bán lẻ điện theo giấy phép hoạt động điện lực;
+
+b) Cạnh tranh mua, bán điện trên thị trường điện lực;
+
+c) Định giá bán trên thị trường bán lẻ điện cạnh tranh trong khung giá điện thuộc biểu giá bán lẻ điện do Thủ tướng Chính phủ phê duyệt, trừ trường hợp quy định tại khoản 2 Điều 62 của Luật này;
+
+d) Sử dụng dịch vụ truyền tải điện, phân phối điện phù hợp với từng cấp độ của thị trường điện lực;
+
+đ) Được vào khu vực quản lý của bên mua điện để kiểm tra, ghi chỉ số công tơ và liên hệ với khách hàng;
+
+e) Được cung cấp các thông tin cần thiết liên quan đến hoạt động bán lẻ điện;
+
+g) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị bán lẻ điện có các nghĩa vụ sau đây:
+
+a) Bán điện theo đúng số lượng, chất lượng và giá điện đã được thoả thuận trong hợp đồng;
+
+b) Tuân thủ các quy định về thị trường điện lực của Luật này và các quy định khác của pháp luật có liên quan;
+
+c) Xây dựng và trình Uỷ ban nhân dân cấp tỉnh phê duyệt giá bán lẻ điện sinh hoạt nông thôn, miền núi, hải đảo ở những khu vực mà việc sản xuất, cung cấp điện theo cơ chế thị trường không đủ bù đắp chi phí cho đơn vị bán lẻ điện;
+
+d) Niêm yết công khai tại trụ sở và nơi giao dịch biểu giá điện đã được duyệt; văn bản hướng dẫn thủ tục thực hiện cấp điện, đo đếm điện, ghi chỉ số công tơ, lập hoá đơn, thu tiền điện và kết thúc dịch vụ điện; nội dung giấy phép và tiêu chuẩn kỹ thuật áp dụng cho tổ chức, cá nhân được cấp giấy phép hoạt động điện lực về bán lẻ điện; văn bản quy định về thời gian và chi phí cần thiết để cấp điện cho khách hàng mới đấu nối vào hệ thống điện; các quy định về ngừng hoặc giảm mức cung cấp điện theo quy định tại Điều 27 của Luật này;
+
+đ) Hướng dẫn về an toàn điện cho khách hàng sử dụng điện;
+
+e) Bồi thường khi gây thiệt hại cho bên mua hoặc bên bán điện theo quy định của pháp luật;
+
+g) Cung cấp các thông tin cần thiết liên quan đến lượng điện bán lẻ theo yêu cầu của cơ quan nhà nước có thẩm quyền;
+
+h) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 45. Quyền và nghĩa vụ của đơn vị tư vấn chuyên ngành điện lực
+
+1. Đơn vị tư vấn chuyên ngành điện lực có các quyền sau đây:
+
+a) Hoạt động tư vấn theo giấy phép hoạt động điện lực;
+
+b) Đề nghị cơ quan nhà nước có thẩm quyền sửa đổi, bổ sung quy phạm, tiêu chuẩn, định mức kinh tế - kỹ thuật phục vụ cho hoạt động tư vấn chuyên ngành điện lực;
+
+c) Đề nghị các cơ quan có liên quan cung cấp thông tin cần thiết phù hợp với quy định của pháp luật phục vụ cho hoạt động tư vấn chuyên ngành điện lực;
+
+d) Hợp tác với tổ chức, cá nhân nước ngoài trong lĩnh vực tư vấn chuyên ngành điện lực;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Đơn vị tư vấn chuyên ngành điện lực có các nghĩa vụ sau đây:
+
+a) áp dụng các quy phạm, tiêu chuẩn, định mức kinh tế - kỹ thuật của Việt Nam liên quan đến công tác tư vấn quy hoạch và đầu tư xây dựng điện. Trường hợp áp dụng quy phạm và tiêu chuẩn của nước ngoài thì phải được cơ quan nhà nước có thẩm quyền chấp thuận;
+
+b) áp dụng công nghệ và phương pháp tính toán tiên tiến để lập đề án quy hoạch phát triển điện lực và hồ sơ, tài liệu về đầu tư xây dựng công trình điện lực phù hợp với yêu cầu hiện đại hoá trong lĩnh vực phát điện, truyền tải điện, phân phối điện, nhằm nâng cao hiệu quả kinh tế và bảo đảm độ an toàn, tin cậy cao trong đầu tư xây dựng công trình điện lực;
+
+c) Chịu trách nhiệm về chất lượng sản phẩm, dịch vụ đã thực hiện;
+
+d) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 46. Quyền và nghĩa vụ của khách hàng sử dụng điện
+
+1. Khách hàng sử dụng điện có các quyền sau đây:
+
+a) Được lựa chọn bên bán điện trong thị trường bán lẻ điện cạnh tranh;
+
+b) Được cung cấp đủ số lượng công suất, điện năng, bảo đảm chất lượng điện đã được thoả thuận trong hợp đồng;
+
+c) Yêu cầu bên bán điện kịp thời khôi phục việc cấp điện sau khi mất điện;
+
+d) Được cung cấp hoặc giới thiệu thông tin liên quan đến việc mua bán điện và hướng dẫn về an toàn điện;
+
+đ) Được bồi thường thiệt hại do bên bán điện gây ra theo quy định của pháp luật;
+
+e) Yêu cầu bên bán điện kiểm tra chất lượng dịch vụ điện, tính chính xác của thiết bị đo đếm điện, số tiền điện phải thanh toán;
+
+g) Khiếu nại, tố cáo các hành vi vi phạm pháp luật về điện lực của bên bán điện;
+
+h) Các quyền khác theo quy định của pháp luật.
+
+2. Khách hàng sử dụng điện có các nghĩa vụ sau đây:
+
+a) Thanh toán tiền điện đầy đủ, đúng thời hạn và thực hiện các thoả thuận khác trong hợp đồng mua bán điện;
+
+b) Sử dụng điện an toàn, tiết kiệm và hiệu quả; thực hiện các quy định về quản lý nhu cầu sử dụng điện;
+
+c) Kịp thời cắt điện hoặc giảm mức tiêu thụ điện khi nhận được thông báo của bên bán điện trong các trường hợp quy định tại Điều 27 của Luật này;
+
+d) Thông báo cho bên bán điện biết trước năm ngày khi có nhu cầu tạm ngừng sử dụng điện, trước mười lăm ngày khi có nhu cầu chấm dứt hợp đồng mua bán điện;
+
+đ) Thông báo kịp thời cho bên bán điện khi phát hiện những hiện tượng bất thường có thể gây mất điện, mất an toàn cho người và tài sản;
+
+e) Tạo điều kiện để bên bán điện kiểm tra, ghi chỉ số công tơ và liên hệ với khách hàng;
+
+g) Bảo đảm các trang thiết bị sử dụng điện đáp ứng các tiêu chuẩn kỹ thuật và yêu cầu về an toàn điện;
+
+h) Bồi thường khi gây thiệt hại cho bên bán điện theo quy định của pháp luật;
+
+i) Chịu trách nhiệm đầu tư đường dây dẫn điện từ sau công tơ mua điện đến nơi sử dụng điện;
+
+k) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 47. Quyền và nghĩa vụ của khách hàng sử dụng điện lớn
+
+1. Khách hàng sử dụng điện lớn có các quyền sau đây:
+
+a) Các quyền quy định tại khoản 1 Điều 46 của Luật này;
+
+b) Mua điện trực tiếp của đơn vị phát điện thông qua hợp đồng có thời hạn hoặc mua điện giao ngay trên thị trường điện lực;
+
+c) Được đấu nối trực tiếp vào lưới điện truyền tải quốc gia.
+
+2. Khách hàng sử dụng điện lớn có các nghĩa vụ sau đây:
+
+a) Các nghĩa vụ quy định tại khoản 2 Điều 46 của Luật này;
+
+b) Thực hiện chế độ sử dụng điện theo yêu cầu của đơn vị điều độ hệ thống điện quốc gia, biện pháp bảo đảm tiêu chuẩn điện áp, an toàn điện và nội dung khác đã được thoả thuận trong hợp đồng mua bán điện, truyền tải điện;
+
+c) Bảo đảm trang thiết bị sử dụng điện, trang thiết bị đấu nối đáp ứng các tiêu chuẩn kỹ thuật và yêu cầu về an toàn điện để đấu nối vào lưới điện truyền tải quốc gia;
+
+d) Thực hiện các lệnh thao tác của đơn vị điều độ hệ thống điện quốc gia.
+
+Chương VII
+
+BẢO VỆ TRANG THIẾT BỊ ĐIỆN, CÔNG TRÌNH ĐIỆN LỰC VÀ AN TOÀN ĐIỆN
+
+Điều 48. Trách nhiệm bảo vệ trang thiết bị điện, công trình điện lực và an toàn điện
+
+1. Tổ chức, cá nhân có trách nhiệm thực hiện các quy định của pháp luật về bảo vệ trang thiết bị điện, công trình điện lực và an toàn điện.
+
+2. Tổ chức, cá nhân có trách nhiệm thông báo kịp thời với đơn vị điện lực hoặc cơ quan nhà nước có thẩm quyền khi phát hiện các hiện tượng mất an toàn điện, các hành vi vi phạm quy định về bảo vệ trang thiết bị điện, công trình điện lực và an toàn điện.
+
+3. Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Uỷ ban nhân dân các cấp có trách nhiệm tổ chức và chỉ đạo thực hiện các quy định của pháp luật về bảo vệ trang thiết bị điện, công trình điện lực và an toàn điện.
+
+Điều 49. Trách nhiệm phối hợp thực hiện khi xây dựng, cải tạo công trình điện lực và các công trình khác
+
+1. Khi xây dựng, cải tạo và mở rộng công trình công cộng hoặc công trình khác có khả năng ảnh hưởng đến an toàn của trang thiết bị điện, công trình điện lực và an toàn điện, chủ đầu tư phải phối hợp với đơn vị điện lực để giải quyết.
+
+2. Khi tu sửa, cải tạo, xây dựng và lắp đặt trang thiết bị điện và công trình điện lực có khả năng ảnh hưởng đến công trình công cộng hoặc công trình khác thì đơn vị điện lực phải phối hợp với tổ chức, cá nhân có liên quan để giải quyết.
+
+3. Trường hợp các bên liên quan không thoả thuận được thì yêu cầu cơ quan nhà nước có thẩm quyền giải quyết và triển khai thực hiện theo quyết định của cơ quan nhà nước có thẩm quyền.
+
+Điều 50. Hành lang bảo vệ an toàn lưới điện cao áp
+
+1. Hành lang an toàn lưới điện cao áp là khoảng không gian giới hạn dọc theo đường dây tải điện hoặc bao quanh trạm điện và được quy định cụ thể theo từng cấp điện áp.
+
+2. Hành lang bảo vệ an toàn lưới điện cao áp bao gồm:
+
+a) Hành lang bảo vệ an toàn đường dây dẫn điện trên không;
+
+b) Hành lang bảo vệ an toàn đường cáp điện ngầm;
+
+c) Hành lang bảo vệ an toàn trạm điện.
+
+3. Chính phủ quy định cụ thể về hành lang bảo vệ an toàn lưới điện cao áp.
+
+Điều 51. Bảo vệ an toàn đường dây dẫn điện trên không
+
+1. Chủ sở hữu hoặc người sử dụng nhà ở, công trình đã được phép tồn tại trong hành lang bảo vệ an toàn đường dây dẫn điện trên không không được sử dụng mái hoặc bất kỳ bộ phận nào của nhà ở, công trình vào những mục đích có thể vi phạm khoảng cách an toàn phóng điện theo cấp điện áp và phải tuân thủ các quy định về bảo vệ an toàn đường dây dẫn điện trên không khi sửa chữa, cải tạo nhà ở, công trình.
+
+2. Trước khi cấp phép cho tổ chức, cá nhân xây dựng mới hoặc cơi nới, cải tạo nhà ở, công trình trong hành lang bảo vệ an toàn đường dây dẫn điện trên không, cơ quan cấp phép phải yêu cầu chủ đầu tư xây dựng nhà ở, công trình thoả thuận bằng văn bản với đơn vị quản lý lưới điện cao áp về các biện pháp bảo đảm an toàn đường dây dẫn điện trên không và an toàn trong quá trình xây dựng, cơi nới, cải tạo, sử dụng nhà ở, công trình này.
+
+3. Không cho phép tồn tại nhà ở và công trình có người thường xuyên sinh sống, làm việc trong hành lang bảo vệ an toàn đường dây dẫn điện trên không có điện áp từ 500 kV trở lên, trừ những công trình chuyên ngành phục vụ vận hành lưới điện đó.
+
+4. Cấm tiến hành mọi công việc trong hành lang bảo vệ đường dây dẫn điện trên không nếu sử dụng thiết bị, dụng cụ, phương tiện có khả năng vi phạm khoảng cách an toàn phóng điện theo cấp điện áp. Trường hợp đặc biệt, do yêu cầu cấp bách của công tác quốc phòng, an ninh, phải có sự thoả thuận với đơn vị quản lý công trình lưới điện về các biện pháp bảo đảm an toàn cần thiết.
+
+5. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường bộ, đường sắt, chiều cao tối thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực đại bằng 4,5 mét cộng với khoảng cách an toàn phóng điện theo cấp điện áp.
+
+Trường hợp điểm cao nhất trên phương tiện vận chuyển có chiều cao lớn hơn 4,5 mét thì chủ phương tiện phải liên hệ với đơn vị quản lý công trình lưới điện cao áp để thực hiện các biện pháp an toàn cần thiết.
+
+6. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường sắt dành cho tàu chạy điện, chiều cao tối thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực đại bằng 7,5 mét cộng với khoảng cách an toàn phóng điện theo cấp điện áp.
+
+7. Ở những đoạn giao chéo giữa đường dây dẫn điện trên không với đường thuỷ nội địa, chiều cao tối thiểu của dây dẫn điện tại điểm thấp nhất khi dây dẫn ở trạng thái võng cực đại bằng chiều cao tĩnh không theo cấp kỹ thuật của đường thủy nội địa cộng với khoảng cách an toàn phóng điện theo cấp điện áp. Phương tiện vận tải thuỷ khi đi qua điểm giao chéo giữa đường dây dẫn điện trên không với đường thuỷ nội địa phải bảo đảm chiều cao không vượt quá chiều cao tĩnh không theo cấp kỹ thuật của đường thuỷ nội địa đó.
+
+Khoảng cách an toàn của đường dây dẫn điện trên không giao chéo với tuyến giao thông đường biển được quy định cho từng trường hợp cụ thể.
+
+8. Khi tiến hành các công việc trên mặt đất, dưới lòng đất ở gần hoặc trong hành lang bảo vệ đường dây dẫn điện trên không có khả năng ảnh hưởng đến sự vận hành bình thường của đường dây hoặc có nguy cơ gây sự cố, tai nạn về điện thì đơn vị tiến hành những công việc đó phải có sự thoả thuận với đơn vị quản lý công trình lưới điện về các biện pháp bảo đảm an toàn cần thiết.
+
+Điều 52. Bảo vệ an toàn đường cáp điện ngầm
+
+1. Cấm đào hố, chất hàng hoá, đóng cọc, trồng cây, xây dựng nhà ở và các công trình khác, thả neo tàu thuyền trong hành lang bảo vệ đường cáp điện ngầm.
+
+2. Cấm thải nước và các chất ăn mòn cáp, trang thiết bị vào hành lang bảo vệ đường cáp điện ngầm.
+
+3. Trường hợp thải nước và các chất khác ngoài hành lang bảo vệ đường cáp điện ngầm mà có khả năng xâm nhập, ăn mòn, làm hư hỏng cáp thì chủ sở hữu hoặc người quản lý, sử dụng nhà ở, công trình có nước, chất thải phải có trách nhiệm xử lý để không làm ảnh hưởng tới cáp.
+
+4. Khi thi công các công trình trong đất hoặc nạo vét lòng sông, hồ trong phạm vi hành lang bảo vệ đường cáp điện ngầm, bên thi công phải thông báo trước ít nhất mười ngày cho đơn vị quản lý công trình lưới điện và phải thực hiện các biện pháp bảo đảm an toàn đường cáp điện ngầm.
+
+Điều 53. Bảo vệ an toàn trạm điện
+
+1. Không được xây dựng nhà ở, công trình và trồng các loại cây cao hơn 2 mét trong hành lang bảo vệ an toàn trạm điện; không xâm phạm đường ra vào của trạm.
+
+2. Nhà ở, công trình xây dựng gần hành lang bảo vệ của trạm điện phải bảo đảm không làm hư hỏng bất kỳ bộ phận nào của trạm.
+
+Điều 54. An toàn trong phát điện
+
+1. Nhà máy điện, trạm phát điện phải được bảo vệ nghiêm ngặt, xung quanh phải có tường rào bảo vệ, biển báo an toàn về điện, về phòng cháy, chữa cháy; những người không có nhiệm vụ không được phép vào nhà máy điện, trạm phát điện.
+
+Hồ chứa nước phục vụ nhà máy thuỷ điện phải được bảo vệ an toàn để đáp ứng yêu cầu tích nước của nhà máy. Nghiêm cấm các hành vi lấn chiếm lòng hồ và làm ô nhiễm nguồn nước ảnh hưởng đến khả năng phát điện.
+
+2. Phòng đặt trang thiết bị điện phải được bảo đảm an toàn về phòng, chống cháy nổ; có biển báo khu vực nguy hiểm, đường thoát hiểm, hệ thống chiếu sáng đầy đủ, hệ thống thông gió làm mát thiết bị, cửa thông gió phải có lưới bảo vệ chống sự xâm nhập của các loài động vật, hạn chế tối đa ảnh hưởng xấu của môi trường.
+
+3. Tuỳ theo đặc tính kỹ thuật và yêu cầu bảo vệ của từng loại trang thiết bị điện, phải đặt lưới bảo vệ, vách ngăn và treo biển báo an toàn; phải bảo đảm khoảng cách an toàn từ lưới bảo vệ hoặc vách ngăn đến phần mang điện của trang thiết bị không được nhỏ hơn khoảng cách quy định và có các biện pháp hạn chế tối đa ảnh hưởng xấu của môi trường đến hoạt động của trang thiết bị điện.
+
+4. Tại các khu vực có chất dễ cháy, nổ, hệ thống điện phải được thiết kế, lắp đặt theo quy định về an toàn phòng, chống cháy nổ; chỉ được sử dụng loại thiết bị, dụng cụ phòng chống cháy, nổ chuyên dùng.
+
+5. Hệ thống cáp điện trong nhà máy điện, trạm phát điện phải đáp ứng các quy định về an toàn sau đây:
+
+a) Cáp điện phải được sắp xếp trật tự theo chủng loại, tính năng kỹ thuật, cấp điện áp và được đặt trên các giá đỡ. Cáp điện đi qua khu vực có ảnh hưởng của nhiệt độ cao phải được cách nhiệt và đi trong ống bảo vệ;
+
+b) Hầm cáp, mương cáp phải có nắp đậy kín, thoát nước tốt, bảo quản sạch sẽ, khô ráo. Không được để nước, dầu, hoá chất, tạp vật tích tụ trong hầm cáp, mương cáp. Hầm cáp phải có tường ngăn để tránh hỏa hoạn lan rộng; có hệ thống báo cháy và chữa cháy tự động, hệ thống đèn chiếu sáng sử dụng điện áp an toàn phù hợp với quy phạm, tiêu chuẩn kỹ thuật an toàn điện.
+
+6. Các trang thiết bị và hệ thống chống sét, nối đất trong nhà máy điện, trạm phát điện, trạm phân phối điện phải được lắp đặt đúng thiết kế và được kiểm tra nghiệm thu, kiểm tra định kỳ theo đúng quy phạm, tiêu chuẩn kỹ thuật an toàn điện.
+
+Điều 55. An toàn trong truyền tải điện, phân phối điện
+
+1. Chủ công trình lưới điện phải chịu trách nhiệm:
+
+a) Đặt biển báo an toàn về điện tại các trạm điện, cột điện;
+
+b) Sơn màu và đặt đèn tín hiệu trên đỉnh cột tại các cột có độ cao và vị trí đặc biệt để bảo vệ an toàn lưới điện cao áp.
+
+2. ở các vị trí giao chéo giữa đường dây dẫn điện cao áp trên không, đường cáp điện ngầm với đường sắt, đường bộ, đường thuỷ nội địa, việc đặt và quản lý biển báo, biển cấm vượt qua đối với phương tiện vận tải được thực hiện theo quy định của Bộ Giao thông vận tải. Chủ đầu tư công trình xây dựng sau phải chịu chi phí cho việc đặt biển báo, biển cấm.
+
+3. Khi bàn giao công trình lưới điện, chủ đầu tư công trình phải giao cho đơn vị quản lý vận hành lưới điện đầy đủ các tài liệu kỹ thuật, biên bản nghiệm thu, quyết định giao đất, cho thuê đất và các tài liệu liên quan đến đền bù, giải phóng mặt bằng theo quy định của pháp luật.
+
+4. Đơn vị quản lý vận hành lưới điện phải định kỳ tổ chức kiểm tra, bảo dưỡng kỹ thuật và đại tu lưới điện, bảo đảm cho hệ thống vận hành an toàn theo quy định; thường xuyên kiểm tra, phát hiện, ngăn chặn các hành vi vi phạm quy định về an toàn điện, bảo vệ an toàn lưới điện cao áp và phối hợp thực hiện các giải pháp kỹ thuật, vận hành tối ưu để giảm tổn thất điện năng trong quá trình truyền tải điện.
+
+5. Khi sửa chữa, bảo dưỡng công trình lưới điện, đơn vị quản lý vận hành lưới điện và đơn vị thực hiện sửa chữa, bảo dưỡng phải chịu trách nhiệm thực hiện đầy đủ và đúng trình tự các biện pháp an toàn theo quy định của quy phạm kỹ thuật an toàn điện.
+
+6. Đoạn đường dây cao áp vượt qua nhà ở, công trình có người thường xuyên sinh sống, làm việc phải sử dụng cột đỡ dây điện là loại cột thép hoặc cột bê tông cốt thép, dây điện không được phép có mối nối trong khoảng cột, trừ dây điện có tiết diện từ 240 milimét vuông trở lên thì cho phép không quá một mối nối cho một pha và phải bảo đảm các tiêu chuẩn khác của pháp luật về bảo vệ an toàn lưới điện cao áp. Đơn vị quản lý vận hành lưới điện không được vận hành quá tải các đường dây này.
+
+7. Các cáp điện đi ngầm trong đất, nằm trong kết cấu công trình khác hoặc đi chung với đường dây thông tin, phải bảo đảm khoảng cách an toàn theo quy định tại quy phạm trang bị điện và các quy định khác của pháp luật có liên quan.
+
+8. Các thiết bị và hệ thống chống sét, nối đất của lưới điện truyền tải và phân phối phải được lắp đặt đúng thiết kế và được kiểm tra nghiệm thu, kiểm tra định kỳ theo đúng quy phạm, tiêu chuẩn kỹ thuật an toàn điện.
+
+Điều 56. An toàn trong đấu nối vào hệ thống điện quốc gia
+
+1. Đơn vị phát điện, truyền tải điện, phân phối điện và khách hàng sử dụng điện đáp ứng các điều kiện, tiêu chuẩn kỹ thuật và thực hiện các thủ tục về đấu nối theo quy định của Bộ Công nghiệp được đấu nối hệ thống điện của mình vào hệ thống điện quốc gia.
+
+2. Lưới điện độc lập phải bảo đảm các điều kiện, tiêu chuẩn kỹ thuật theo quy định của Bộ Công nghiệp mới được đấu nối vào hệ thống điện quốc gia.
+
+Điều 57. An toàn trong sử dụng điện cho sản xuất
+
+1. Tổ chức, cá nhân sử dụng điện để sản xuất phải thực hiện các quy định về an toàn điện, quy phạm, tiêu chuẩn kỹ thuật an toàn điện phù hợp với Tiêu chuẩn Việt Nam.
+
+2. Các thiết bị, hệ thống thiết bị sử dụng điện, hệ thống chống sét, nối đất phải được kiểm tra nghiệm thu, kiểm tra định kỳ và kiểm tra bất thường theo quy phạm, tiêu chuẩn kỹ thuật an toàn điện. Sơ đồ của các hệ thống này phải đúng với thực tế và phải được lưu giữ cùng với các biên bản kiểm tra trong suốt quá trình hoạt động.
+
+3. Trạm điện, trang thiết bị điện cao áp và đường dây cao áp nội bộ phải được lắp đặt và quản lý vận hành theo quy phạm, tiêu chuẩn kỹ thuật an toàn điện.
+
+4. Các thiết bị điện phải phù hợp với “Tiêu chuẩn Việt Nam - Thiết bị điện hạ áp - Yêu cầu chung về bảo vệ chống điện giật” và “Tiêu chuẩn Việt Nam - Quy phạm nối đất và nối không các thiết bị điện” để chống tai nạn điện giật.
+
+5. Các đường dẫn điện, dây điện phải được thiết kế, lắp đặt bảo đảm mặt bằng sản xuất thông thoáng, tránh được các tác động cơ học, hoá học có thể gây hư hỏng. Không dùng các kết cấu kim loại của nhà xưởng, máy móc, đường ống kim loại để làm dây “trung tính làm việc”, trừ trường hợp đặc biệt phải có thiết kế riêng được cơ quan nhà nước có thẩm quyền phê duyệt.
+
+6. Hệ thống điện tại các khu vực có chất dễ cháy, nổ phải được thiết kế, lắp đặt và sử dụng theo quy định tại khoản 4 Điều 54 của Luật này.
+
+7. Các thiết bị điện dùng trong khai thác khoáng sản, dụng cụ điện, thiết bị điện di động, máy hàn, điện phân, mạ điện phải phù hợp với quy phạm, tiêu chuẩn kỹ thuật về an toàn có liên quan.
+
+Điều 58. An toàn trong sử dụng điện cho sinh hoạt, dịch vụ
+
+1. Tổng công suất sử dụng của các trang thiết bị điện dùng trong văn phòng, phục vụ sinh hoạt và dịch vụ phải phù hợp với công suất thiết kế; dây dẫn điện phải có tiết diện và độ bền cách điện phù hợp với tiêu chuẩn kỹ thuật.
+
+2. Không để trang thiết bị điện phát nhiệt gần đồ vật dễ cháy, nổ.
+
+3. Các trang thiết bị điện phải được kiểm tra, bảo trì theo quy định, bảo đảm tiêu chuẩn an toàn về điện và không gây nguy hiểm cho người sử dụng.
+
+4. Tổ chức, cá nhân sử dụng điện có trách nhiệm tổ chức kiểm tra an toàn hệ thống điện của mình, kịp thời phát hiện và ngăn ngừa nguy cơ gây sự cố, tai nạn về điện.
+
+5. Lưới điện hạ áp chỉ được xây dựng sau khi thiết kế đã được duyệt.
+
+6. Các nhánh đường dây dẫn điện vào nhà ở, công trình phải bảo đảm các điều kiện về an toàn điện, mỹ quan và không cản trở hoạt động của các phương tiện giao thông, cứu thương, chữa cháy.
+
+7. Trong mạch điện ba pha bốn dây, áp-tô-mát, cầu dao, cầu chì và các thiết bị đóng cắt điện khác không được đấu vào dây trung tính.
+
+8. Trong mạch điện một pha hai dây, cầu chì và công tắc phải đấu vào dây pha, không được đấu vào dây trung tính. Khuyến khích lắp đặt áp-tô-mát, cầu dao hai cực để đóng cắt đồng thời cả hai dây.
+
+Điều 59. Sử dụng điện làm phương tiện bảo vệ trực tiếp
+
+1. Sử dụng điện làm phương tiện bảo vệ trực tiếp là dùng nguồn điện có mức điện áp thích hợp đấu nối trực tiếp vào hàng rào, vật cản, vật che chắn của khu vực được bảo vệ (sau đây gọi chung là hàng rào điện) để ngăn cản việc xâm phạm khu vực được bảo vệ và phát tín hiệu báo động cho người bảo vệ khu vực đó biết.
+
+2. Sử dụng điện làm phương tiện bảo vệ trực tiếp chỉ được thực hiện khi sử dụng các biện pháp bảo vệ khác không hiệu quả và phải được cơ quan nhà nước có thẩm quyền cho phép.
+
+3. Hàng rào điện phải được thiết kế, lắp đặt tránh được mọi tiếp xúc ngẫu nhiên đối với người và gia súc, có biển báo nguy hiểm, không gây ảnh hưởng tới hoạt động của hệ thống điện, không gây nguy hiểm cho khu vực lân cận và môi trường sống. Người quản lý, sử dụng hàng rào điện phải được đào tạo, huấn luyện chuyên môn, nghiệp vụ về điện.
+
+4. Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng trong phạm vi nhiệm vụ và quyền hạn của mình quy định khu vực được phép sử dụng hàng rào điện.
+
+5. Bộ trưởng Bộ Công nghiệp quy định tiêu chuẩn và điều kiện sử dụng điện làm phương tiện bảo vệ trực tiếp.
+
+Chương VIII
+
+ĐIỆN PHỤC VỤ NÔNG THÔN, MIỀN NÚI, HẢI ĐẢO
+
+Điều 60. Chính sách phát triển điện nông thôn, miền núi, hải đảo
+
+1. Thu hút mọi nguồn lực để đầu tư xây dựng cơ sở hạ tầng điện lực, đẩy nhanh quá trình điện khí hoá nông thôn, miền núi, hải đảo.
+
+2. Tạo điều kiện thuận lợi cho nhân dân vùng sâu, vùng xa, vùng đồng bào dân tộc ít người, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn được sử dụng điện để sản xuất và phục vụ đời sống.
+
+3. Tổ chức, cá nhân thuộc mọi thành phần kinh tế hoạt động phát điện, phân phối điện, kinh doanh điện tại vùng nông thôn, miền núi, hải đảo có điều kiện kinh tế - xã hội khó khăn và đặc biệt khó khăn được hưởng các chính sách ưu đãi về đầu tư, tài chính và các ưu đãi khác theo quy định của pháp luật về khuyến khích đầu tư.
+
+4. Khuyến khích tổ chức, cá nhân đầu tư xây dựng lưới điện hoặc các trạm phát điện sử dụng năng lượng tại chỗ, năng lượng mới, năng lượng tái tạo để cung cấp điện cho vùng nông thôn, miền núi, hải đảo.
+
+5. Ưu tiên cung cấp điện đầy đủ, kịp thời cho các trạm bơm thuỷ nông phục vụ tưới tiêu, chống úng, chống hạn.
+
+Điều 61. Đầu tư phát triển điện ở nông thôn, miền núi, hải đảo
+
+1. Nhà nước có chính sách hỗ trợ cho đơn vị điện lực hoạt động tại khu vực mà việc đầu tư và hoạt động điện lực không có hiệu quả kinh tế.
+
+2. Nhà nước có chính sách hỗ trợ đầu tư đường dây dẫn điện từ sau công tơ đến nơi sử dụng điện cho các hộ dân thuộc diện chính sách xã hội có hoàn cảnh đặc biệt khó khăn theo xác nhận của Uỷ ban nhân dân địa phương.
+
+3. Các chính sách hỗ trợ của Nhà nước bao gồm:
+
+a) Hỗ trợ về vốn đầu tư;
+
+b) Hỗ trợ về lãi suất vay vốn đầu tư;
+
+c) Ưu đãi về thuế.
+
+Bộ Tài chính chủ trì, phối hợp với Bộ Công nghiệp hướng dẫn việc thực hiện các chính sách hỗ trợ.
+
+4. Uỷ ban nhân dân các cấp có trách nhiệm tạo điều kiện cho tổ chức, cá nhân đầu tư, cải tạo, nâng cấp lưới điện ở nông thôn, miền núi, hải đảo.
+
+Điều 62. Giá bán lẻ điện ở nông thôn, miền núi, hải đảo
+
+1. Giá bán lẻ điện ở nông thôn, miền núi, hải đảo được thực hiện theo biểu giá bán lẻ điện quy định tại khoản 1 Điều 31 của Luật này, trừ trường hợp quy định tại khoản 2 Điều này.
+
+2. Giá bán lẻ điện sinh hoạt tại khu vực mà việc đầu tư và hoạt động điện lực không có hiệu quả kinh tế do Uỷ ban nhân dân cấp tỉnh quy định, nhưng không được ngoài khung giá trong biểu giá bán lẻ điện quy định tại khoản 1 Điều 31 của Luật này.
+
+Điều 63. Thanh toán tiền điện thuỷ nông
+
+1. Thời hạn thanh toán đối với điện năng được doanh nghiệp khai thác công trình thuỷ lợi sử dụng để tưới, tiêu cho lúa, rau, màu, cây công nghiệp trồng xen canh trong vùng lúa, rau, màu do hai bên mua, bán điện thoả thuận nhưng tối đa không quá một trăm hai mươi ngày, kể từ ngày nhận được giấy báo thanh toán tiền điện.
+
+2. Nhà nước cấp kinh phí thanh toán tiền điện bơm nước chống úng, chống hạn vượt định mức theo quy định của pháp luật về khai thác và bảo vệ công trình thuỷ lợi.
+
+3. Bộ Tài chính chủ trì, phối hợp với Bộ Nông nghiệp và Phát triển nông thôn hướng dẫn thực hiện quy định tại Điều này.
+
+Điều 64. An toàn điện ở nông thôn, miền núi, hải đảo
+
+1. Tổ chức, cá nhân hoạt động điện lực và sử dụng điện ở nông thôn, miền núi, hải đảo phải thực hiện nghiêm túc các quy phạm, tiêu chuẩn kỹ thuật an toàn điện.
+
+2. Người vận hành, sửa chữa điện ở nông thôn, miền núi, hải đảo phải bảo đảm các tiêu chuẩn sau:
+
+a) Đủ 18 tuổi trở lên;
+
+b) Được cơ quan y tế chứng nhận đủ sức khoẻ để làm việc;
+
+c) Có chứng chỉ hoặc bằng tốt nghiệp chuyên ngành điện do cơ sở dạy nghề cấp;
+
+d) Có thẻ an toàn do cơ quan quản lý nhà nước về hoạt động điện lực và sử dụng điện cấp tỉnh cấp.
+
+3. Chỉ đơn vị điện lực vận hành lưới điện mới được tổ chức sửa chữa, lắp đặt các trang thiết bị điện, mạng điện trong phạm vi quản lý của mình.
+
+4. Bộ Công nghiệp quy định tiêu chuẩn kỹ thuật an toàn điện, cấp thẻ an toàn và hướng dẫn các biện pháp an toàn điện ở nông thôn, miền núi, hải đảo.
+
+Chương IX
+
+QUẢN LÝ NHÀ NƯỚC VỀ HOẠT ĐỘNG ĐIỆN LỰC VÀ SỬ DỤNG ĐIỆN
+
+Điều 65. Trách nhiệm quản lý nhà nước về hoạt động điện lực và sử dụng điện
+
+1. Chính phủ thống nhất quản lý nhà nước về hoạt động điện lực và sử dụng điện trong phạm vi cả nước.
+
+2. Bộ Công nghiệp chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về hoạt động điện lực và sử dụng điện.
+
+3. Các bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với Bộ Công nghiệp trong việc thực hiện quản lý nhà nước về hoạt động điện lực và sử dụng điện.
+
+4. Uỷ ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm trong việc thực hiện quản lý nhà nước về hoạt động điện lực và sử dụng điện tại địa phương.
+
+Điều 66. Điều tiết hoạt động điện lực
+
+1. Nội dung điều tiết hoạt động điện lực:
+
+a) Xây dựng các quy định về vận hành thị trường điện lực cạnh tranh và hướng dẫn thực hiện;
+
+b) Nghiên cứu, đề xuất các giải pháp điều chỉnh quan hệ cung cầu và quản lý quá trình thực hiện cân bằng cung cầu về điện;
+
+c) Cấp, sửa đổi, bổ sung và thu hồi giấy phép hoạt động điện lực theo quy định tại khoản 1 và khoản 3 Điều 38 của Luật này;
+
+d) Hướng dẫn điều kiện, trình tự, thủ tục ngừng cấp điện, cắt điện hoặc giảm mức tiêu thụ điện, điều kiện, trình tự, thủ tục đấu nối vào hệ thống điện quốc gia;
+
+đ) Nghiên cứu, xây dựng biểu giá bán lẻ điện và tổ chức thực hiện các cơ chế, chính sách về giá điện;
+
+e) Tổ chức lấy ý kiến các cơ quan, tổ chức có liên quan về biểu giá bán lẻ điện;
+
+g) Quy định khung giá phát điện, giá bán buôn điện, phê duyệt phí truyền tải điện, phân phối điện và các phí khác;
+
+h) Theo dõi việc thực hiện kế hoạch và dự án đầu tư phát triển nguồn điện, lưới điện truyền tải, lưới điện phân phối để bảo đảm phát triển phù hợp với quy hoạch phát triển điện lực đã được duyệt;
+
+i) Xác định tỷ lệ công suất và tỷ lệ điện năng giữa hình thức mua bán thông qua hợp đồng có thời hạn và mua bán giao ngay phù hợp với các cấp độ của thị trường điện lực;
+
+k) Kiểm tra việc thực hiện biểu giá điện đã được phê duyệt;
+
+l) Giải quyết khiếu nại và tranh chấp trên thị trường điện lực.
+
+2. Cơ quan điều tiết điện lực là cơ quan giúp Bộ trưởng Bộ Công nghiệp thực hiện các nội dung điều tiết hoạt động điện lực quy định tại khoản 1 Điều này. Thủ tướng Chính phủ quy định cụ thể về tổ chức, chức năng, nhiệm vụ, quyền hạn của cơ quan điều tiết điện lực.
+
+Điều 67. Thanh tra điện lực
+
+Thanh tra Bộ Công nghiệp thực hiện chức năng thanh tra chuyên ngành về điện lực, có nhiệm vụ thanh tra việc chấp hành pháp luật về điện lực; phát hiện, ngăn chặn, xử lý theo thẩm quyền và kiến nghị cơ quan có thẩm quyền xử lý vi phạm pháp luật về điện lực; kiến nghị các biện pháp bảo đảm thi hành pháp luật về điện lực.
+
+Chương X
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 68. Quy định đối với tổ chức, cá nhân đang hoạt động điện lực
+
+1. Hợp đồng hoặc thoả thuận bằng văn bản liên quan đến hoạt động điện lực đã tồn tại trước thời điểm Luật này có hiệu lực vẫn có giá trị thực hiện theo thời hạn đã được ghi trong hợp đồng hoặc thoả thuận đó.
+
+2. Sau khi Luật này có hiệu lực, những sửa đổi, bổ sung trong hợp đồng hoặc thoả thuận quy định tại khoản 1 Điều này phải được thực hiện theo quy định của Luật này.
+
+3. Chính phủ quy định điều kiện và thời gian tổ chức, cá nhân đang hoạt động điện lực tiến hành điều chỉnh cơ cấu, tổ chức và hoạt động phù hợp với quy định của Luật này.
+
+Điều 69. Hiệu lực thi hành
+
+Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2005.
+
+Điều 70. Hướng dẫn thi hành
+
+Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này.
+
+Luật này đã được Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam khoá XI, kỳ họp thứ 6 thông qua ngày 03 tháng 12 năm 2004.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Văn An
