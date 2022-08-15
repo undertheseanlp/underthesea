@@ -1,0 +1,1403 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Luật số: 06/2017/QH14
+
+Hà Nội, ngày 16 tháng 6 năm 2017
+
+
+
+LUẬT
+
+ĐƯỜNG SẮT
+
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+
+Quốc hội ban hành Luật Đường sắt.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về quy hoạch, đầu tư, xây dựng, bảo vệ, quản lý, bảo trì và phát triển kết cấu hạ tầng đường sắt; công nghiệp đường sắt, phương tiện giao thông đường sắt; tín hiệu, quy tắc giao thông và bảo đảm trật tự, an toàn giao thông đường sắt; kinh doanh đường sắt; quyền và nghĩa vụ của tổ chức, cá nhân có liên quan đến hoạt động đường sắt; quản lý nhà nước về hoạt động đường sắt.
+
+Điều 2. Đối tượng áp dụng
+
+Luật này áp dụng đối với tổ chức, cá nhân trong nước và nước ngoài có liên quan đến hoạt động đường sắt trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Cầu chung là cầu có mặt cầu dùng chung cho phương tiện giao thông đường sắt và phương tiện giao thông đường bộ.
+
+2. Chạy tàu là hoạt động để điều khiển sự di chuyển của phương tiện giao thông đường sắt.
+
+3. Chứng vật chạy tàu là bằng chứng cho phép phương tiện giao thông đường sắt được chạy vào khu gian và được thể hiện bằng tín hiệu đèn màu, tín hiệu cánh, thẻ đường, giấy phép, phiếu đường.
+
+4. Công lệnh tải trọng là quy định về tải trọng tối đa cho phép trên một trục và tải trọng rải đều tối đa cho phép theo chiều dài của phương tiện giao thông đường sắt được quy định trên từng cầu, đoạn, khu gian, khu đoạn, tuyến đường sắt.
+
+5. Công lệnh tốc độ là quy định về tốc độ tối đa cho phép phương tiện giao thông đường sắt chạy trên từng cầu, đoạn, khu gian, khu đoạn, tuyến đường sắt.
+
+6. Công trình đường sắt là công trình xây dựng phục vụ giao thông vận tải đường sắt, bao gồm đường, cầu, cống, hầm, kè, tường chắn, ga, đề-pô, hệ thống thoát nước, hệ thống thông tin, tín hiệu, hệ thống báo hiệu cố định, hệ thống cấp điện và các công trình, thiết bị phụ trợ khác của đường sắt.
+
+7. Công trình công nghiệp đường sắt là công trình được xây dựng để phục vụ cho các hoạt động sản xuất, lắp ráp, sửa chữa, hoán cải phương tiện giao thông đường sắt; sản xuất phụ kiện, phụ tùng, vật tư, thiết bị chuyên dùng cho đường sắt.
+
+8. Đề-pô là nơi tập kết tàu để bảo dưỡng, sửa chữa, thực hiện các tác nghiệp kỹ thuật khác.
+
+9. Đường ngang là đoạn đường bộ giao nhau cùng mức với đường sắt được cơ quan có thẩm quyền cho phép xây dựng và khai thác.
+
+10. Đường sắt tốc độ cao là một loại hình của đường sắt quốc gia có tốc độ thiết kế từ 200 km/h trở lên, có khổ đường 1.435 mm, đường đôi, điện khí hóa.
+
+11. Ga đường sắt là nơi để phương tiện giao thông đường sắt dừng, tránh, vượt, đón, trả khách, xếp, dỡ hàng hoá, thực hiện tác nghiệp kỹ thuật và các dịch vụ khác.
+
+12. Hàng siêu trọng là hàng không thể tháo rời, có khối lượng vượt quá tải trọng cho phép của toa xe hoặc khi xếp lên toa xe có tổng khối lượng hàng hóa và toa xe vượt quá tải trọng quy định của công lệnh tải trọng đã được công bố.
+
+13. Hàng siêu trường là hàng không thể tháo rời, khi xếp lên toa xe có kích thước vượt quá khổ giới hạn đầu máy, khổ giới hạn và chiều dài toa xe của khổ đường tương ứng.
+
+14. Hoạt động đường sắt là hoạt động của tổ chức, cá nhân trong lĩnh vực quy hoạch, kinh doanh đường sắt, bảo đảm trật tự, an toàn giao thông đường sắt và các hoạt động khác có liên quan.
+
+15. Kết cấu hạ tầng đường sắt là công trình đường sắt, phạm vi bảo vệ công trình đường sắt và hành lang an toàn giao thông đường sắt.
+
+16. Ke ga là công trình đường sắt trong ga đường sắt để phục vụ hành khách lên, xuống tàu, xếp, dỡ hàng hóa.
+
+17. Khổ đường sắt là khoảng cách ngắn nhất giữa hai má trong của đường ray.
+
+18. Khu gian là đoạn đường sắt nối hai ga liền kề, được tính từ vị trí xác định tín hiệu vào ga của ga phía bên này đến vị trí xác định tín hiệu vào ga gần nhất của ga phía bên kia.
+
+19. Khu đoạn là tập hợp một số khu gian và ga đường sắt kế tiếp nhau phù hợp với tác nghiệp chạy tàu.
+
+20. Kinh doanh kết cấu hạ tầng đường sắt là việc thực hiện một, một số hoặc toàn bộ hoạt động đầu tư, sử dụng, bán, cho thuê, chuyển nhượng quyền khai thác kết cấu hạ tầng đường sắt để phục vụ hoạt động vận tải đường sắt và các dịch vụ thương mại khác nhằm mục đích sinh lợi.
+
+21. Kinh doanh vận tải đường sắt là việc thực hiện vận chuyển hành khách, hành lý và hàng hóa bằng đường sắt nhằm mục đích sinh lợi.
+
+22. Kinh doanh đường sắt đô thị là việc thực hiện một, một số hoặc toàn bộ các công đoạn từ đầu tư đến vận chuyển hành khách trong đô thị nhằm mục đích sinh lợi.
+
+23. Lối đi tự mở là đoạn đường bộ giao nhau với đường sắt do tổ chức, cá nhân tự xây dựng và khai thác khi chưa được cơ quan có thẩm quyền cho phép.
+
+24. Nút giao cùng mức là nơi có hai hoặc nhiều đường giao thông giao nhau trên cùng một mặt bằng.
+
+25. Nút giao khác mức là nơi có hai hoặc nhiều đường giao thông giao nhau không cùng một mặt bằng.
+
+26. Phương tiện giao thông đường sắt là đầu máy, toa xe, phương tiện chuyên dùng di chuyển trên đường sắt.
+
+27. Tuyến đường sắt là một hoặc nhiều khu đoạn liên tiếp tính từ ga đường sắt đầu tiên đến ga đường sắt cuối cùng.
+
+28. Tàu là phương tiện giao thông đường sắt được lập bởi đầu máy và toa xe hoặc đầu máy chạy đơn, toa xe động lực, phương tiện động lực chuyên dùng di chuyển trên đường sắt.
+
+Điều 4. Nguyên tắc cơ bản trong hoạt động đường sắt
+
+1. Bảo đảm hoạt động giao thông vận tải đường sắt thông suốt, trật tự, an toàn, chính xác và hiệu quả; phục vụ nhu cầu đi lại thuận tiện của người dân, phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh và bảo vệ môi trường.
+
+2. Phát triển đường sắt theo quy hoạch, kế hoạch, gắn kết với các loại hình giao thông vận tải khác và hội nhập quốc tế, bảo đảm văn minh, hiện đại và đồng bộ.
+
+3. Điều hành thống nhất, tập trung hoạt động giao thông vận tải đường sắt.
+
+4. Tách bạch giữa chức năng quản lý nhà nước của cơ quan nhà nước với hoạt động kinh doanh của doanh nghiệp, giữa kinh doanh kết cấu hạ tầng với kinh doanh vận tải trên đường sắt do Nhà nước đầu tư.
+
+5. Bảo đảm cạnh tranh lành mạnh, bình đẳng giữa các tổ chức, cá nhân thuộc mọi thành phần kinh tế tham gia kinh doanh đường sắt.
+
+Điều 5. Chính sách của Nhà nước về phát triển đường sắt
+
+1. Ưu tiên tập trung nguồn lực để đầu tư phát triển, nâng cấp, bảo trì, bảo vệ kết cấu hạ tầng đường sắt quốc gia, đường sắt đô thị để bảo đảm giao thông vận tải đường sắt đóng vai trò chủ đạo trong hệ thống giao thông vận tải cả nước.
+
+2. Khuyến khích, hỗ trợ, tạo điều kiện và bảo vệ quyền, lợi ích hợp pháp của tổ chức, cá nhân trong nước và nước ngoài đầu tư, kinh doanh đường sắt.
+
+3. Dành quỹ đất theo quy hoạch để phát triển kết cấu hạ tầng đường sắt, công trình công nghiệp đường sắt.
+
+4. Khuyến khích, hỗ trợ phát triển công nghiệp đường sắt, nghiên cứu, ứng dụng khoa học và công nghệ tiên tiến, công nghệ cao, đào tạo nguồn nhân lực để phát triển đường sắt hiện đại.
+
+5. Khuyến khích và tạo điều kiện thuận lợi cho tổ chức, cá nhân đầu tư phát triển hệ thống đường sắt chuyên dùng.
+
+6. Ưu tiên phân bổ ngân sách trung ương trong kế hoạch đầu tư công trung hạn và hằng năm với tỉ lệ thích đáng để bảo đảm phát triển kết cấu hạ tầng đường sắt quốc gia theo quy hoạch.
+
+Hằng năm, Chính phủ báo cáo Quốc hội về việc thực hiện chính sách phát triển giao thông vận tải đường sắt và việc sử dụng ngân sách nhà nước đầu tư cho giao thông vận tải đường sắt.
+
+Điều 6. Ưu đãi, hỗ trợ trong hoạt động đường sắt
+
+1. Kinh doanh kết cấu hạ tầng đường sắt, kinh doanh vận tải đường sắt, kinh doanh đường sắt đô thị và công nghiệp đường sắt là các ngành, nghề ưu đãi đầu tư.
+
+2. Tổ chức, cá nhân hoạt động đường sắt được hưởng ưu đãi, hỗ trợ như sau:
+
+a) Giao đất không thu tiền sử dụng đất đối với diện tích đất xây dựng kết cấu hạ tầng đường sắt quốc gia, đường sắt đô thị; miễn tiền thuê đất đối với diện tích đất xây dựng kết cấu hạ tầng đường sắt chuyên dùng, công trình công nghiệp đường sắt;
+
+b) Căn cứ vào khả năng nguồn lực thực tế, Nhà nước cho vay với lãi suất vay tín dụng đầu tư ưu đãi từ nguồn tín dụng đầu tư của Nhà nước hoặc được cấp bảo lãnh Chính phủ về vốn vay theo quy định của pháp luật về quản lý nợ công đối với đầu tư phát triển kết cấu hạ tầng đường sắt quốc gia, đường sắt đô thị; đầu tư mua sắm phương tiện giao thông đường sắt, máy móc, thiết bị phục vụ duy tu bảo dưỡng đường sắt; phát triển công nghiệp đường sắt;
+
+c) Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt, kinh doanh đường sắt đô thị, công nghiệp đường sắt được hưởng ưu đãi về thuế suất thuế thu nhập doanh nghiệp theo quy định của pháp luật về thuế thu nhập doanh nghiệp;
+
+d) Được miễn thuế nhập khẩu đối với máy móc, thiết bị, phụ tùng thay thế, phương tiện giao thông đường sắt, nguyên liệu, vật tư dùng để chế tạo máy móc, thiết bị hoặc để chế tạo linh kiện, chi tiết, bộ phận rời, phụ tùng của máy móc, thiết bị cần thiết cho hoạt động đường sắt và vật tư cần thiết cho xây dựng kết cấu hạ tầng đường sắt mà trong nước chưa sản xuất được.
+
+3. Tổ chức, cá nhân khi đầu tư xây dựng kết cấu hạ tầng đường sắt quốc gia, đường sắt đô thị được Nhà nước bảo đảm toàn bộ kinh phí giải phóng mặt bằng đối với đất dành cho đường sắt để xây dựng kết cấu hạ tầng đường sắt.
+
+4. Tổ chức, cá nhân kinh doanh kết cấu hạ tầng đường sắt được dành riêng dải tần số vô tuyến điện phục vụ công tác điều hành giao thông vận tải đường sắt và hệ thống cung cấp điện sức kéo phục vụ chạy tàu.
+
+Điều 7. Quy hoạch phát triển giao thông vận tải đường sắt
+
+1. Quy hoạch phát triển giao thông vận tải đường sắt là cơ sở định hướng đầu tư, phát triển, khai thác mạng lưới đường sắt.
+
+2. Quy hoạch phát triển giao thông vận tải đường sắt bao gồm các nội dung về kết cấu hạ tầng đường sắt và cơ sở quốc gia công nghiệp đường sắt.
+
+3. Quy hoạch phát triển giao thông vận tải đường sắt phải đáp ứng các yêu cầu sau đây:
+
+a) Bảo đảm kết nối liên vùng, đáp ứng nhu cầu phát triển kinh tế - xã hội, quốc phòng, an ninh, bảo vệ môi trường và hội nhập quốc tế;
+
+b) Gắn kết giữa phát triển kết cấu hạ tầng đường sắt với phát triển phương tiện, dịch vụ vận tải và công nghiệp đường sắt theo hướng tiên tiến, hiện đại, an toàn;
+
+c) Bảo đảm kết nối phương thức vận tải đường sắt với các phương thức vận tải khác để tạo nên hệ thống giao thông vận tải đồng bộ, bền vững, an toàn, hiệu quả và ít tác động tiêu cực tới môi trường;
+
+d) Nghiên cứu nội dung về phát triển kết cấu hạ tầng đường sắt khi lập quy hoạch phát triển giao thông vận tải của đô thị đặc biệt, đô thị loại I, cảng hàng không quốc tế đầu mối, cảng biển đặc biệt và cảng biển loại I.
+
+4. Tổ chức lập, phê duyệt quy hoạch phát triển giao thông vận tải đường sắt:
+
+a) Bộ trưởng Bộ Giao thông vận tải tổ chức lập quy hoạch phát triển giao thông vận tải đường sắt quốc gia và đường sắt đô thị đi qua địa giới hành chính từ 02 tỉnh, thành phố trực thuộc Trung ương trở lên, trình Thủ tướng Chính phủ phê duyệt; tổ chức lập, phê duyệt quy hoạch chi tiết tuyến, ga đường sắt quốc gia trong đô thị loại III trở lên, ga đầu mối, ga liên vận quốc tế;
+
+b) Chủ tịch Ủy ban nhân dân cấp tỉnh tổ chức lập quy hoạch đô thị, quy hoạch tỉnh trong đó có nội dung phát triển đường sắt đô thị, đường sắt chuyên dùng, trình Thủ tướng Chính phủ phê duyệt.
+
+Điều 8. Hợp tác quốc tế về đường sắt
+
+1. Hợp tác quốc tế về đường sắt phải bảo đảm độc lập, chủ quyền, toàn vẹn lãnh thổ và lợi ích quốc gia; đáp ứng yêu cầu về hội nhập quốc tế; tuân thủ điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+2. Ưu tiên hoạt động hợp tác quốc tế đối với kết nối khu vực và quốc tế, kinh doanh vận tải đường sắt; đầu tư phát triển, kinh doanh kết cấu hạ tầng đường sắt; phát triển công nghiệp đường sắt; nghiên cứu khoa học, chuyển giao công nghệ; đào tạo phát triển nguồn nhân lực.
+
+3. Bộ, cơ quan ngang Bộ trong phạm vi chức năng, nhiệm vụ, quyền hạn của mình có trách nhiệm chủ trì hoặc phối hợp với Bộ Giao thông vận tải bảo đảm thuận tiện, nhanh chóng trong việc thông quan tại ga liên vận quốc tế.
+
+Điều 9. Các hành vi bị nghiêm cấm trong hoạt động đường sắt
+
+1. Phá hoại công trình đường sắt, phương tiện giao thông đường sắt.
+
+2. Lấn chiếm hành lang an toàn giao thông đường sắt, phạm vi bảo vệ công trình đường sắt.
+
+3. Tự mở lối đi qua đường sắt; xây dựng trái phép cầu vượt, hầm chui, cống hoặc công trình khác trong phạm vi đất dành cho đường sắt; khoan, đào trái phép trong phạm vi bảo vệ công trình đường sắt.
+
+4. Làm sai lệch công trình, hệ thống báo hiệu trên đường sắt; làm che lấp hoặc làm sai lạc tín hiệu giao thông đường sắt.
+
+5. Ngăn cản việc chạy tàu, tùy tiện báo hiệu hoặc sử dụng các thiết bị để dừng tàu, trừ trường hợp phát hiện có sự cố gây mất an toàn giao thông đường sắt.
+
+6. Vượt rào, vượt chắn đường ngang, vượt qua đường ngang khi có tín hiệu cấm; vượt rào ngăn giữa đường sắt với khu vực xung quanh.
+
+7. Xả chất thải không bảo đảm vệ sinh môi trường lên đường sắt; để vật chướng ngại, đổ chất độc hại, chất phế thải lên đường sắt; để chất dễ cháy, chất dễ nổ trong phạm vi bảo vệ công trình đường sắt và hành lang an toàn giao thông đường sắt.
+
+8. Chăn thả súc vật, họp chợ trên đường sắt, trong phạm vi bảo vệ công trình đường sắt và hành lang an toàn giao thông đường sắt.
+
+9. Đi, đứng, nằm, ngồi hoặc hành vi khác trên nóc toa xe, đầu máy, bậc lên xuống toa xe; đu bám, đứng, ngồi hai bên thành toa xe, đầu máy, nơi nối giữa các toa xe, đầu máy; mở cửa lên, xuống tàu, đưa đầu, tay, chân và vật khác ra ngoài thành toa xe khi tàu đang chạy, trừ nhân viên đường sắt, lực lượng chức năng đang thi hành nhiệm vụ.
+
+10. Đi, đứng, nằm, ngồi hoặc hành vi khác trên đường sắt, trừ nhân viên đường sắt, lực lượng chức năng đang thi hành nhiệm vụ.
+
+11. Ném đất, đá hoặc vật khác lên tàu hoặc từ trên tàu xuống.
+
+12.
+
+ Mang, vận chuyển hàng hóa cấm lưu thông, động vật có dịch bệnh vào ga, lên tàu; mang, vận chuyển trái phép động vật hoang dã, chất phóng xạ, chất dễ cháy, chất dễ nổ và hàng nguy hiểm khác vào ga, lên tàu; mang, vận chuyển thi hài, hài cốt vào ga, lên tàu đường sắt đô thị.
+
+13. Làm, tiêu thụ vé giả; bán vé trái quy định.
+
+14. Đưa phương tiện giao thông đường sắt, trang thiết bị không bảo đảm an toàn kỹ thuật vào hoạt động phục vụ giao thông đường sắt; sử dụng toa xe chở hàng để vận chuyển hành khách; tự ý thay đổi kết cấu, hình dáng, tính năng sử dụng của phương tiện giao thông đường sắt; giao hoặc để cho người không đủ điều kiện điều khiển phương tiện giao thông đường sắt.
+
+15. Nối vào tàu khách các toa xe vận tải động vật, hàng hoá có mùi hôi thối, chất dễ cháy, chất dễ nổ, chất độc hại và hàng nguy hiểm khác.
+
+16. Điều khiển tàu chạy quá tốc độ quy định.
+
+17. Nhân viên đường sắt trực tiếp phục vụ chạy tàu trong khi làm nhiệm vụ mà trong máu hoặc hơi thở có nồng độ cồn hoặc có chất kích thích khác mà pháp luật cấm sử dụng.
+
+Chương II
+
+KẾT CẤU HẠ TẦNG ĐƯỜNG SẮT
+
+Mục 1. QUY ĐỊNH CHUNG
+
+Điều 10. Hệ thống đường sắt Việt Nam
+
+1. Hệ thống đường sắt Việt Nam bao gồm đường sắt quốc gia, đường sắt đô thị và đường sắt chuyên dùng được quy định như sau:
+
+a) Đường sắt quốc gia phục vụ nhu cầu vận tải chung của cả nước, từng vùng kinh tế và liên vận quốc tế;
+
+b) Đường sắt đô thị phục vụ nhu cầu vận tải hành khách ở đô thị và vùng phụ cận;
+
+c) Đường sắt chuyên dùng phục vụ nhu cầu vận tải riêng của tổ chức, cá nhân.
+
+2. Thẩm quyền quyết định công bố, điều chỉnh hệ thống đường sắt được quy định như sau:
+
+a) Đường sắt quốc gia, đường sắt chuyên dùng có nối ray với đường sắt quốc gia do Bộ trưởng Bộ Giao thông vận tải quyết định công bố, điều chỉnh; đường sắt đô thị có nối ray hoặc chạy chung với đường sắt quốc gia do Bộ trưởng Bộ Giao thông vận tải quyết định công bố, điều chỉnh sau khi thống nhất với Chủ tịch Ủy ban nhân dân cấp tỉnh có đường sắt đô thị;
+
+b) Đường sắt đô thị, đường sắt chuyên dùng không nối ray với đường sắt quốc gia do Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định công bố, điều chỉnh; trường hợp đường sắt đô thị, đường sắt chuyên dùng không nối ray với đường sắt quốc gia đi qua địa giới hành chính từ 02 tỉnh, thành phố trực thuộc Trung ương trở lên thì Bộ trưởng Bộ Giao thông vận tải quyết định công bố, điều chỉnh sau khi có ý kiến của Chủ tịch Ủy ban nhân dân các tỉnh, thành phố này.
+
+3. Thẩm quyền quy định việc đặt tên tuyến, tên ga đường sắt; quyết định đưa tuyến, đoạn tuyến, ga đường sắt vào khai thác; dừng khai thác, tháo dỡ tuyến được quy định như sau:
+
+a) Chính phủ quy định việc đặt tên tuyến, tên ga đường sắt và tháo dỡ tuyến, đoạn tuyến, ga đường sắt;
+
+b) Bộ trưởng Bộ Giao thông vận tải quyết định đưa vào khai thác, dừng khai thác tuyến, đoạn tuyến, ga đường sắt quốc gia;
+
+c) Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định đưa vào khai thác, dừng khai thác tuyến, đoạn tuyến, ga đường sắt đô thị;
+
+d) Chủ đầu tư quyết định đưa vào khai thác, dừng khai thác tuyến, đoạn tuyến, ga đường sắt chuyên dùng do mình đầu tư.
+
+Điều 11. Tài sản kết cấu hạ tầng đường sắt
+
+1. Tài sản kết cấu hạ tầng đường sắt bao gồm:
+
+a) Tài sản kết cấu hạ tầng đường sắt trực tiếp liên quan đến chạy tàu bao gồm công trình, hạng mục công trình đường sắt hoặc công trình phụ trợ khác trực tiếp phục vụ công tác chạy tàu, đón tiễn hành khách, xếp dỡ hàng hóa;
+
+b) Tài sản kết cấu hạ tầng đường sắt không trực tiếp liên quan đến chạy tàu là tài sản kết cấu hạ tầng đường sắt không thuộc quy định tại điểm a khoản này.
+
+2. Trách nhiệm quản lý tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư:
+
+a) Chính phủ thực hiện chức năng đại diện chủ sở hữu, thống nhất quản lý tài sản kết cấu hạ tầng đường sắt theo quy định của pháp luật về quản lý, sử dụng tài sản công;
+
+b) Bộ Giao thông vận tải thực hiện nhiệm vụ, quyền hạn của đại diện chủ sở hữu đối với tài sản kết cấu hạ tầng đường sắt quốc gia;
+
+c) Ủy ban nhân dân cấp tỉnh thực hiện nhiệm vụ, quyền hạn của đại diện chủ sở hữu đối với tài sản kết cấu hạ tầng đường sắt đô thị;
+
+d) Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt sử dụng, khai thác, bảo vệ tài sản kết cấu hạ tầng đường sắt khi được Nhà nước giao, cho thuê hoặc chuyển nhượng theo quy định của pháp luật.
+
+3. Tổ chức, cá nhân tự quản lý, sử dụng và khai thác tài sản kết cấu hạ tầng đường sắt do mình đầu tư theo quy định của pháp luật.
+
+4. Chính phủ quy định Danh mục tài sản kết cấu hạ tầng đường sắt quy định tại khoản 1 Điều này; quản lý, sử dụng tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư.
+
+Điều 12. Đất dành cho đường sắt
+
+1. Đất dành cho đường sắt bao gồm:
+
+a) Đất dùng để xây dựng công trình đường sắt;
+
+b) Đất trong phạm vi bảo vệ công trình đường sắt;
+
+c) Đất trong phạm vi hành lang an toàn giao thông đường sắt.
+
+2. Việc sử dụng đất dành cho đường sắt được quy định như sau:
+
+a) Đất dành cho đường sắt được dùng để xây dựng công trình đường sắt và bảo đảm an toàn giao thông đường sắt theo quy hoạch, kế hoạch sử dụng đất đã được cấp có thẩm quyền phê duyệt;
+
+b) Trường hợp đất dành cho đường sắt phải sử dụng kết hợp để xây dựng công trình thiết yếu phục vụ quốc phòng, an ninh, kinh tế - xã hội không thể bố trí ngoài phạm vi đất này thì không được làm ảnh hưởng đến công trình đường sắt, an toàn giao thông đường sắt và khi thực hiện phải được cấp phép theo quy định của Bộ trưởng Bộ Giao thông vận tải;
+
+c) Tổ chức, cá nhân được giao, cho thuê hoặc chuyển nhượng kết cấu hạ tầng đường sắt có trách nhiệm sử dụng, khai thác đất dành cho đường sắt theo quy hoạch được cấp có thẩm quyền phê duyệt và quy định của pháp luật.
+
+3. Quản lý đất dành cho đường sắt được quy định như sau:
+
+a) Việc quản lý đất dành cho đường sắt do cơ quan quản lý nhà nước chịu trách nhiệm quản lý theo quy định của pháp luật về đất đai;
+
+b) Cơ quan quản lý nhà nước quản lý tài sản kết cấu hạ tầng đường sắt được giao quản lý đất dùng để xây dựng công trình đường sắt, đất trong phạm vi bảo vệ công trình đường sắt; quản lý việc sử dụng đất dành cho đường sắt theo quy hoạch được cấp có thẩm quyền phê duyệt;
+
+c) Ủy ban nhân dân các cấp quản lý đất dành cho đường sắt đã được quy hoạch, đất trong phạm vi hành lang an toàn giao thông đường sắt;
+
+d) Đất dành cho đường sắt trong phạm vi đất cảng hàng không, sân bay dân dụng, cảng biển được quản lý theo quy định của pháp luật về đất đai.
+
+4. Chính phủ quy định chi tiết Điều này.
+
+Điều 13. Cấp kỹ thuật đường sắt
+
+1. Đường sắt quốc gia, đường sắt đô thị, đường sắt chuyên dùng được phân thành các cấp kỹ thuật đường sắt. Mỗi cấp kỹ thuật đường sắt có tiêu chuẩn tương ứng.
+
+2. Việc tổ chức lập, thẩm định, công bố tiêu chuẩn về cấp kỹ thuật đường sắt thực hiện theo quy định của pháp luật về tiêu chuẩn, quy chuẩn kỹ thuật.
+
+Điều 14. Khổ đường sắt
+
+1. Đường sắt quốc gia, đường sắt chuyên dùng nối ray với đường sắt quốc gia có khổ đường tiêu chuẩn là 1.435 mm hoặc khổ đường hẹp là 1.000 mm.
+
+2. Đường sắt quốc gia, đường sắt đô thị đầu tư mới có khổ đường 1.435 mm. Trường hợp đặc biệt có khổ đường khác do Thủ tướng Chính phủ quyết định.
+
+3. Đường sắt chuyên dùng không nối ray với đường sắt quốc gia đi qua khu vực dân cư do chủ đầu tư quyết định khổ đường sau khi có ý kiến của Bộ Giao thông vận tải.
+
+Điều 15. Kết nối ray các tuyến đường sắt
+
+1. Vị trí kết nối ray các tuyến đường sắt trong nước phải tại ga đường sắt.
+
+2. Chỉ đường sắt quốc gia mới được kết nối ray với đường sắt nước ngoài. Thủ tướng Chính phủ quyết định việc kết nối ray giữa đường sắt quốc gia với đường sắt nước ngoài.
+
+3. Bộ trưởng Bộ Giao thông vận tải quy định điều kiện, trình tự, thủ tục thực hiện việc kết nối ray đường sắt đô thị, đường sắt chuyên dùng với đường sắt quốc gia; việc kết nối ray các tuyến đường sắt đô thị.
+
+4. Tổ chức, cá nhân quyết định việc kết nối ray đường sắt chuyên dùng với đường sắt chuyên dùng do mình đầu tư.
+
+Điều 16. Ga đường sắt
+
+1. Ga đường sắt được phân loại như sau:
+
+a) Ga hành khách để đón, trả khách, thực hiện dịch vụ liên quan đến vận tải hành khách, tác nghiệp kỹ thuật và kinh doanh dịch vụ thương mại khác;
+
+b) Ga hàng hoá để giao, nhận, xếp, dỡ, bảo quản hàng hoá, thực hiện dịch vụ khác liên quan đến vận tải hàng hoá và tác nghiệp kỹ thuật;
+
+c) Ga kỹ thuật để thực hiện các tác nghiệp kỹ thuật phục vụ chạy tàu;
+
+d) Ga hỗn hợp có chức năng của 02 hoặc 03 loại ga quy định tại các điểm a, b và c khoản này.
+
+2. Ga đường sắt phải đáp ứng các yêu cầu sau đây:
+
+a) Tùy theo cấp kỹ thuật ga, ga đường sắt gồm có nhà ga, quảng trường, kho, bãi hàng, ke ga, tường rào, khu dịch vụ, trang thiết bị cần thiết và công trình khác có liên quan đến hoạt động đường sắt;
+
+b) Ga đường sắt phải có tên ga và thông tin, chỉ dẫn cho khách hàng. Tên ga không trùng nhau và phù hợp với địa danh, lịch sử, văn hóa, thuần phong mỹ tục của địa phương. Tại các ga trên đường sắt quốc gia trong đô thị loại III trở lên, ga đầu mối, ga liên vận quốc tế phải bố trí nơi làm việc cho cơ quan quản lý nhà nước hoạt động thường xuyên có liên quan đến hoạt động đường sắt theo quy hoạch được cấp có thẩm quyền phê duyệt;
+
+c) Phải có hệ thống thoát hiểm; hệ thống phòng cháy và chữa cháy; hệ thống cấp điện, chiếu sáng, thông gió; hệ thống cấp, thoát nước; hệ thống bảo đảm vệ sinh môi trường và yêu cầu kỹ thuật khác của nhà ga;
+
+d) Ga hành khách phải có công trình, thiết bị chỉ dẫn tiếp cận cho người khuyết tật và đối tượng được ưu tiên theo quy định của pháp luật; hệ thống điện thoại khẩn cấp, phương tiện sơ cứu y tế;
+
+đ) Ga liên vận quốc tế, ga trung tâm phải có kiến trúc mang đặc trưng lịch sử, bản sắc văn hóa truyền thống của địa phương, vùng miền. Ga đường sắt tốc độ cao phải có thiết bị kiểm soát bảo đảm an ninh, an toàn;
+
+e) Tại các ga đường sắt quốc gia, ga đường sắt đô thị được phép xây dựng công trình kinh doanh dịch vụ thương mại, văn phòng.
+
+3. Phạm vi ga theo chiều dọc được xác định bởi dải đất từ vị trí xác định tín hiệu vào ga phía bên này đến vị trí xác định tín hiệu vào ga phía bên kia; theo chiều ngang ga được xác định bởi khoảng đất phía trong tường rào ga hoặc mốc chỉ giới ga theo quy hoạch được cấp có thẩm quyền phê duyệt.
+
+4. Bộ trưởng Bộ Giao thông vận tải quy định cấp kỹ thuật ga đường sắt.
+
+Điều 17. Đường sắt giao nhau với đường sắt hoặc với đường bộ
+
+1. Đường sắt giao nhau với đường sắt phải giao khác mức, trừ trường hợp đường sắt chuyên dùng giao nhau với đường sắt chuyên dùng.
+
+2. Đường sắt giao nhau với đường bộ phải xây dựng nút giao khác mức trong các trường hợp sau đây:
+
+a) Đường sắt có tốc độ thiết kế từ 100 km/h trở lên giao nhau với đường bộ;
+
+b) Đường sắt giao nhau với đường bộ từ cấp III trở lên; đường sắt giao nhau với đường bộ đô thị;
+
+c) Đường sắt đô thị giao nhau với đường bộ, trừ đường xe điện bánh sắt.
+
+3. Chủ đầu tư xây dựng đường sắt mới phải chịu trách nhiệm xây dựng nút giao khác mức theo quy định tại khoản 1 và khoản 2 Điều này. Chủ đầu tư xây dựng đường bộ mới phải chịu trách nhiệm xây dựng nút giao khác mức theo quy định tại khoản 2 Điều này.
+
+4. Trường hợp không thuộc quy định tại khoản 2 Điều này hoặc khi chưa có đủ điều kiện tổ chức giao khác mức thì Ủy ban nhân dân các cấp, doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt, chủ đầu tư dự án hoặc tổ chức, cá nhân có nhu cầu giao thông qua đường sắt phải tuân theo những quy định sau đây:
+
+a) Nơi xây dựng đường ngang phải được cơ quan có thẩm quyền cấp phép;
+
+b) Nơi không được phép xây dựng đường ngang phải xây dựng đường gom nằm ngoài hành lang an toàn giao thông đường sắt để dẫn tới đường ngang hoặc nút giao khác mức gần nhất.
+
+5. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết về:
+
+a) Đường ngang, giao thông tại khu vực đường ngang; việc cấp, gia hạn Giấy phép xây dựng, cải tạo, nâng cấp, bãi bỏ đường ngang;
+
+b) Cầu chung, giao thông trên khu vực cầu chung;
+
+c) Kết nối tín hiệu đèn giao thông đường bộ với tín hiệu đèn báo hiệu trên đường bộ tại đường ngang, cung cấp thông tin hỗ trợ cảnh giới tại các điểm giao cắt giữa đường bộ và đường sắt.
+
+6. Chính phủ quy định việc xử lý các vị trí đường sắt giao nhau với đường sắt, đường sắt giao nhau với đường bộ không phù hợp với quy định của Luật này, các lối đi tự mở và lộ trình thực hiện.
+
+Điều 18. Đường sắt và đường bộ chạy song song gần nhau
+
+1. Trường hợp đường sắt, đường bộ chạy song song gần nhau thì phải bảo đảm đường này nằm ngoài hành lang an toàn giao thông của đường kia; trường hợp địa hình không cho phép thì trên lề đường bộ phía giáp với đường sắt phải xây dựng công trình phòng hộ ngăn cách, trừ trường hợp đỉnh ray đường sắt cao hơn mặt đường bộ từ 03 m trở lên.
+
+2. Trường hợp đường sắt, đường bộ chạy song song chồng lên nhau thì khoảng cách theo phương thẳng đứng từ điểm cao nhất của mặt đường bộ phía dưới hoặc đỉnh ray đường sắt phía dưới đến điểm thấp nhất của kết cấu nhịp cầu phía trên phải bằng chiều cao bảo đảm an toàn giao thông của công trình phía dưới.
+
+Điều 19. Hệ thống báo hiệu cố định trên đường sắt
+
+1. Hệ thống báo hiệu cố định trên đường sắt bao gồm:
+
+a) Cột tín hiệu, đèn tín hiệu;
+
+b) Biển hiệu, mốc hiệu;
+
+c) Biển báo;
+
+d) Rào, chắn;
+
+đ) Cọc mốc chỉ giới;
+
+e) Các báo hiệu khác.
+
+2. Hệ thống báo hiệu cố định trên đường sắt phải được xây dựng, lắp đặt đầy đủ phù hợp với cấp kỹ thuật và loại đường sắt; bảo đảm thường xuyên hoạt động tốt.
+
+Mục 2. ĐẦU TƯ XÂY DỰNG, QUẢN LÝ, BẢO TRÌ KẾT CẤU HẠ TẦNG ĐƯỜNG SẮT
+
+Điều 20. Đầu tư xây dựng kết cấu hạ tầng đường sắt
+
+1. Đầu tư xây dựng kết cấu hạ tầng đường sắt là việc đầu tư xây dựng mới, đổi mới công nghệ, nâng cấp, cải tạo kết cấu hạ tầng đường sắt theo quy định của pháp luật.
+
+2. Việc góp vốn nhà nước tham gia vào dự án đầu tư phát triển kết cấu hạ tầng đường sắt quốc gia, đường sắt đô thị theo hình thức đối tác công tư trong thời gian xây dựng hoặc kéo dài suốt vòng đời dự án do Thủ tướng Chính phủ quyết định.
+
+3. Bộ trưởng Bộ Giao thông vận tải, Ủy ban nhân dân cấp tỉnh tổ chức xây dựng và công bố dự án đầu tư xây dựng công trình đường sắt thuộc thẩm quyền quản lý theo quy định của pháp luật.
+
+Điều 21. Quản lý, bảo trì kết cấu hạ tầng đường sắt
+
+1. Kết cấu hạ tầng đường sắt đưa vào khai thác phải được bảo trì theo quy định của pháp luật.
+
+2. Trách nhiệm quản lý, bảo trì kết cấu hạ tầng đường sắt được quy định như sau:
+
+a) Bộ trưởng Bộ Giao thông vận tải quy định việc quản lý, bảo trì kết cấu hạ tầng đường sắt quốc gia; tổ chức quản lý bảo trì kết cấu hạ tầng đường sắt quốc gia do Nhà nước đầu tư;
+
+b) Ủy ban nhân dân cấp tỉnh quy định việc quản lý, bảo trì kết cấu hạ tầng đường sắt đô thị; tổ chức quản lý bảo trì kết cấu hạ tầng đường sắt đô thị do Nhà nước đầu tư;
+
+c) Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt thực hiện bảo trì kết cấu hạ tầng đường sắt do Nhà nước đầu tư theo quy định của pháp luật khi được giao, cho thuê hoặc chuyển nhượng;
+
+d) Tổ chức, cá nhân tự quản lý, bảo trì kết cấu hạ tầng đường sắt do mình đầu tư theo quy định của pháp luật.
+
+Điều 22. Nguồn tài chính cho quản lý, bảo trì kết cấu hạ tầng đường sắt
+
+1. Nguồn tài chính cho quản lý, bảo trì kết cấu hạ tầng đường sắt do Nhà nước đầu tư được bảo đảm từ nguồn ngân sách nhà nước; nguồn thu từ khai thác kết cấu hạ tầng đường sắt và nguồn thu khác được sử dụng theo quy định của pháp luật.
+
+2. Bộ Giao thông vận tải quản lý, sử dụng nguồn tài chính được bố trí cho công tác quản lý, bảo trì kết cấu hạ tầng đường sắt quốc gia do Nhà nước đầu tư.
+
+3. Ủy ban nhân dân cấp tỉnh quản lý, sử dụng nguồn tài chính được bố trí cho công tác quản lý, bảo trì kết cấu hạ tầng đường sắt đô thị do Nhà nước đầu tư.
+
+4. Tổ chức, cá nhân tự tổ chức quản lý, sử dụng nguồn tài chính của mình cho công tác quản lý, bảo trì kết cấu hạ tầng đường sắt do mình đầu tư.
+
+Mục 3. BẢO VỆ KẾT CẤU HẠ TẦNG ĐƯỜNG SẮT
+
+Điều 23. Bảo vệ kết cấu hạ tầng đường sắt
+
+1. Hoạt động bảo vệ kết cấu hạ tầng đường sắt bao gồm: các hoạt động nhằm bảo đảm an toàn cho công trình đường sắt; phòng, chống, khắc phục hậu quả thiên tai, tai nạn; phòng ngừa, ngăn chặn và xử lý hành vi xâm phạm, phá hoại công trình đường sắt, phạm vi bảo vệ công trình đường sắt, hành lang an toàn giao thông đường sắt.
+
+2. Phạm vi bảo vệ công trình đường sắt là giới hạn được xác định bởi khoảng không, vùng đất, vùng nước xung quanh liền kề với công trình đường sắt để quản lý, bảo vệ, ngăn ngừa những hành vi xâm phạm đến ổn định công trình đường sắt và bảo đảm an toàn cho công trình đường sắt, bao gồm:
+
+a) Phạm vi bảo vệ đường sắt;
+
+b) Phạm vi bảo vệ cầu đường sắt;
+
+c) Phạm vi bảo vệ hầm đường sắt;
+
+d) Phạm vi bảo vệ ga, đề-pô đường sắt;
+
+đ) Phạm vi bảo vệ công trình thông tin, tín hiệu, hệ thống cấp điện cho đường sắt;
+
+e) Phạm vi bảo vệ các công trình đường sắt khác.
+
+3. Hành lang an toàn giao thông đường sắt là phạm vi được xác định bởi khoảng không, vùng đất, vùng nước xung quanh liền kề với phạm vi bảo vệ đường sắt để bảo đảm an toàn giao thông đường sắt; phục vụ công tác cứu hộ, cứu nạn khi cần thiết và bảo đảm tầm nhìn cho người tham gia giao thông.
+
+4. Xây dựng công trình, khai thác tài nguyên và tiến hành hoạt động khác ở vùng lân cận phạm vi đất dành cho đường sắt:
+
+a) Việc xây dựng công trình, khai thác tài nguyên và tiến hành hoạt động khác ở vùng lân cận phạm vi đất dành cho đường sắt không được làm ảnh hưởng đến an toàn của công trình đường sắt và an toàn giao thông vận tải đường sắt;
+
+b) Trường hợp việc xây dựng công trình, khai thác tài nguyên và tiến hành hoạt động khác ở vùng lân cận phạm vi đất dành cho đường sắt nhưng có khả năng ảnh hưởng đến an toàn của công trình đường sắt hoặc an toàn giao thông vận tải đường sắt thì chủ đầu tư công trình, tổ chức, cá nhân khai thác tài nguyên và tiến hành hoạt động khác phải có biện pháp bảo đảm an toàn cho công trình đường sắt và an toàn giao thông vận tải đường sắt;
+
+c) Chủ đầu tư công trình, tổ chức, cá nhân khai thác tài nguyên và tiến hành hoạt động khác phải bồi thường thiệt hại do lỗi của mình gây ra cho công trình đường sắt và an toàn giao thông vận tải đường sắt theo quy định của pháp luật.
+
+5. Chính phủ quy định chi tiết Điều này.
+
+Điều 24. Trách nhiệm bảo vệ kết cấu hạ tầng đường sắt
+
+1. Bộ Giao thông vận tải có trách nhiệm sau đây trong việc bảo vệ kết cấu hạ tầng đường sắt quốc gia do Nhà nước đầu tư:
+
+a) Tổ chức và hướng dẫn thực hiện việc bảo vệ kết cấu hạ tầng đường sắt;
+
+b) Chủ trì, phối hợp với Bộ Công an, Bộ Quốc phòng, Ủy ban nhân dân cấp tỉnh nơi có đường sắt đi qua tổ chức bảo vệ công trình đường sắt đặc biệt quan trọng;
+
+c) Thanh tra, kiểm tra việc thực hiện các quy định của pháp luật về quản lý, bảo vệ kết cấu hạ tầng đường sắt.
+
+2. Ủy ban nhân dân các cấp nơi có đường sắt đi qua có trách nhiệm sau đây:
+
+a) Chủ trì, phối hợp với doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt tổ chức phòng ngừa, ngăn chặn và xử lý kịp thời hành vi xâm phạm kết cấu hạ tầng đường sắt và an toàn giao thông đường sắt trên địa bàn;
+
+b) Thanh tra, kiểm tra việc thực hiện các quy định của pháp luật về quản lý, bảo vệ kết cấu hạ tầng đường sắt đô thị.
+
+3. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt có trách nhiệm sau đây:
+
+a) Bảo vệ công trình đường sắt để bảo đảm giao thông vận tải đường sắt hoạt động thông suốt, an toàn;
+
+b) Trường hợp đất dành cho đường sắt bị xâm phạm phải kịp thời ngăn chặn, đồng thời báo cáo và phối hợp với cơ quan có thẩm quyền để xử lý.
+
+4. Tổ chức, cá nhân sử dụng kết cấu hạ tầng đường sắt để hoạt động giao thông vận tải phải thực hiện đúng quy định về bảo đảm an toàn kết cấu hạ tầng đường sắt.
+
+5. Mọi tổ chức, cá nhân có trách nhiệm bảo vệ kết cấu hạ tầng đường sắt, tham gia ứng cứu khi công trình đường sắt bị hư hỏng. Khi phát hiện công trình đường sắt bị hư hỏng hoặc hành vi xâm phạm kết cấu hạ tầng đường sắt phải kịp thời báo cho Ủy ban nhân dân, doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt hoặc cơ quan Công an nơi gần nhất. Người nhận được tin báo phải kịp thời thực hiện các biện pháp xử lý để bảo đảm an toàn giao thông vận tải đường sắt.
+
+Điều 25. Phòng, chống, khắc phục hậu quả sự cố, thiên tai đối với kết cấu hạ tầng đường sắt
+
+1. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt có trách nhiệm sau đây:
+
+a) Xây dựng và thực hiện phương án phòng, chống, khắc phục hậu quả sự cố, thiên tai bảo đảm an toàn kết cấu hạ tầng đường sắt được Nhà nước giao, cho thuê hoặc chuyển nhượng;
+
+b) Thực hiện trách nhiệm khác theo quy định của pháp luật về phòng, chống thiên tai.
+
+2. Tổ chức, cá nhân có trách nhiệm thực hiện phòng, chống, khắc phục hậu quả sự cố, thiên tai đối với kết cấu hạ tầng đường sắt do mình đầu tư theo quy định của pháp luật.
+
+3. Bộ Giao thông vận tải có trách nhiệm chỉ đạo tổ chức, cá nhân liên quan thực hiện phòng, chống, khắc phục hậu quả sự cố, thiên tai đối với kết cấu hạ tầng đường sắt quốc gia do Nhà nước đầu tư theo quy định của pháp luật.
+
+4. Ủy ban nhân dân cấp tỉnh có trách nhiệm chỉ đạo tổ chức, cá nhân liên quan thực hiện phòng, chống, khắc phục hậu quả sự cố, thiên tai đối với kết cấu hạ tầng đường sắt đô thị do Nhà nước đầu tư theo quy định của pháp luật.
+
+5. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp trong phạm vi chức năng, nhiệm vụ, quyền hạn của mình có trách nhiệm thực hiện phòng, chống, khắc phục hậu quả sự cố, thiên tai trong hoạt động đường sắt theo quy định của pháp luật.
+
+Chương III
+
+PHÁT TRIỂN CÔNG NGHIỆP ĐƯỜNG SẮT, PHƯƠNG TIỆN GIAO THÔNG ĐƯỜNG SẮT
+
+Mục 1. PHÁT TRIỂN CÔNG NGHIỆP ĐƯỜNG SẮT
+
+Điều 26. Công nghiệp đường sắt
+
+1. Công nghiệp đường sắt bao gồm:
+
+a) Sản xuất, lắp ráp, sửa chữa, hoán cải phương tiện giao thông đường sắt;
+
+b) Sản xuất phụ kiện, phụ tùng, vật tư, thiết bị chuyên dùng cho đường sắt.
+
+2. Chính phủ quy định Danh mục phụ kiện, phụ tùng, vật tư, thiết bị chuyên dùng cho đường sắt quy định tại điểm b khoản 1 Điều này.
+
+Điều 27. Yêu cầu về phát triển công nghiệp đường sắt
+
+1. Phù hợp với quy hoạch phát triển giao thông vận tải đường sắt và chiến lược phát triển công nghiệp Việt Nam theo từng thời kỳ.
+
+2. Đồng bộ với phát triển kết cấu hạ tầng đường sắt, dịch vụ vận tải đường sắt và bảo đảm an toàn, bảo vệ môi trường theo quy định của pháp luật.
+
+3. Đầu tư dây chuyền công nghệ, chuyển giao công nghệ cho công nghiệp đường sắt phải bảo đảm tính đồng bộ, tiên tiến, hiện đại.
+
+Điều 28. Đầu tư phát triển công nghiệp đường sắt
+
+1. Nhà nước khuyến khích tổ chức, cá nhân trong nước và nước ngoài đầu tư, phát triển công nghiệp đường sắt.
+
+2. Nhà nước đầu tư xây dựng, bảo trì kết cấu hạ tầng đường sắt kết nối từ đường sắt quốc gia, đường sắt đô thị đến các cơ sở công nghiệp đường sắt theo quy hoạch.
+
+3. Doanh nghiệp công nghiệp đường sắt tự đầu tư, nâng cấp, bảo trì kết cấu hạ tầng đường sắt, công trình công nghiệp đường sắt trong phạm vi cơ sở công nghiệp đường sắt.
+
+Điều 29. Nghiên cứu, ứng dụng khoa học công nghệ, đào tạo phát triển nguồn nhân lực, chuyển giao công nghệ trong công nghiệp đường sắt
+
+1. Việc ứng dụng, chuyển giao công nghệ đường sắt phải bảo đảm tiên tiến, khả năng làm chủ và phát triển công nghệ.
+
+2. Đào tạo phát triển nguồn nhân lực cho công nghiệp đường sắt phải phù hợp với quy hoạch phát triển giao thông vận tải đường sắt và đồng bộ với công nghệ được chuyển giao.
+
+3. Việc nghiên cứu, ứng dụng khoa học, chuyển giao công nghệ và đào tạo phát triển nguồn nhân lực phải tuân thủ quy định của pháp luật về giáo dục, giáo dục nghề nghiệp, pháp luật về khoa học và công nghệ, pháp luật về chuyển giao công nghệ.
+
+Mục 2. PHƯƠNG TIỆN GIAO THÔNG ĐƯỜNG SẮT
+
+Điều 30. Điều kiện tham gia giao thông của phương tiện giao thông đường sắt
+
+1. Phương tiện giao thông đường sắt khi tham gia giao thông phải đáp ứng các điều kiện sau đây:
+
+a) Bảo đảm quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường;
+
+b) Có Giấy chứng nhận đăng ký phương tiện giao thông đường sắt do cơ quan có thẩm quyền cấp;
+
+c) Có Giấy chứng nhận chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt hoặc Giấy chứng nhận kiểm tra định kỳ an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt do cơ quan có thẩm quyền cấp còn hiệu lực.
+
+2. Phương tiện giao thông đường sắt khi di chuyển trong trường hợp đặc biệt được thực hiện theo quy định của Bộ trưởng Bộ Giao thông vận tải.
+
+Điều 31. Đăng ký phương tiện giao thông đường sắt
+
+1. Phương tiện giao thông đường sắt khi đáp ứng các yêu cầu sau đây thì được cấp Giấy chứng nhận đăng ký phương tiện giao thông đường sắt:
+
+a) Có nguồn gốc hợp pháp;
+
+b) Đạt quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường.
+
+2. Phương tiện giao thông đường sắt khi thay đổi tính năng sử dụng hoặc thay đổi các thông số kỹ thuật chủ yếu thì chủ phương tiện phải làm thủ tục cấp lại Giấy chứng nhận đăng ký phương tiện giao thông đường sắt.
+
+3. Khi chuyển quyền sở hữu, chủ sở hữu mới của phương tiện giao thông đường sắt phải làm thủ tục cấp lại Giấy chứng nhận đăng ký phương tiện giao thông đường sắt theo tên chủ sở hữu mới.
+
+4. Chủ sở hữu phương tiện giao thông đường sắt phải khai báo và nộp lại Giấy chứng nhận đăng ký phương tiện giao thông đường sắt để xóa đăng ký trong các trường hợp sau đây:
+
+a) Phương tiện giao thông đường sắt không còn sử dụng cho giao thông đường sắt;
+
+b) Phương tiện giao thông đường sắt bị mất tích, bị phá huỷ.
+
+5. Bộ trưởng Bộ Giao thông vận tải quy định việc cấp, cấp lại, thu hồi, xóa Giấy chứng nhận đăng ký phương tiện giao thông đường sắt.
+
+Điều 32. Đăng kiểm phương tiện giao thông đường sắt
+
+1. Phương tiện giao thông đường sắt sản xuất, lắp ráp hoặc hoán cải, phục hồi phải được tổ chức đăng kiểm Việt Nam hoặc tổ chức đăng kiểm nước ngoài được Bộ trưởng Bộ Giao thông vận tải ủy quyền kiểm tra, giám sát và cấp Giấy chứng nhận chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt.
+
+2. Phương tiện giao thông đường sắt trong quá trình khai thác sử dụng phải bảo đảm còn niên hạn sử dụng theo quy định của Chính phủ và được tổ chức đăng kiểm Việt Nam định kỳ kiểm tra, cấp Giấy chứng nhận kiểm tra định kỳ an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt.
+
+3. Chủ phương tiện giao thông đường sắt chịu trách nhiệm sửa chữa, bảo dưỡng bảo đảm quy chuẩn kỹ thuật quốc gia về an toàn kỹ thuật và bảo vệ môi trường của phương tiện giữa hai kỳ kiểm tra của tổ chức đăng kiểm.
+
+4. Bộ trưởng Bộ Giao thông vận tải quy định:
+
+a) Quy chuẩn kỹ thuật quốc gia về chất lượng, an toàn kỹ thuật và bảo vệ môi trường của phương tiện;
+
+b) Yêu cầu đối với cơ sở vật chất, kỹ thuật của tổ chức đăng kiểm;
+
+c) Tiêu chuẩn Đăng kiểm viên;
+
+d) Kiểm tra, cấp, cấp lại, thu hồi giấy chứng nhận về chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt.
+
+Điều 33. Thông tin, chỉ dẫn, trang thiết bị phục vụ khách hàng, thiết bị an toàn trên phương tiện giao thông đường sắt
+
+1. Phương tiện giao thông đường sắt phải bảo đảm các yêu cầu sau đây:
+
+a) Có thông tin, chỉ dẫn cần thiết phục vụ khách hàng và phục vụ công tác quản lý; ký hiệu, thông tin, chỉ dẫn phải rõ ràng, dễ hiểu; bảng niêm yết phải bố trí ở nơi dễ thấy, dễ đọc;
+
+b) Có trang thiết bị, tiện nghi cần thiết để phục vụ khách hàng, thiết bị an toàn, dụng cụ thoát hiểm; thiết bị, dụng cụ và vật liệu chữa cháy; thuốc sơ cấp cứu và thiết bị cho người khuyết tật tiếp cận sử dụng.
+
+2. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết Điều này.
+
+Điều 34. Điều kiện nhập khẩu phương tiện giao thông đường sắt
+
+1. Phương tiện giao thông đường sắt nhập khẩu để tham gia giao thông đường sắt phải bảo đảm phù hợp tiêu chuẩn, quy chuẩn kỹ thuật quốc gia của Việt Nam và phải được tổ chức đăng kiểm cấp Giấy chứng nhận chất lượng, an toàn kỹ thuật và bảo vệ môi trường phương tiện giao thông đường sắt.
+
+2. Việc nhập khẩu phương tiện giao thông đường sắt phải thực hiện theo quy định của pháp luật về xuất khẩu, nhập khẩu.
+
+Chương IV
+
+NHÂN VIÊN ĐƯỜNG SẮT TRỰC TIẾP PHỤC VỤ CHẠY TÀU
+
+Điều 35. Nhân viên đường sắt trực tiếp phục vụ chạy tàu
+
+1. Nhân viên đường sắt trực tiếp phục vụ chạy tàu bao gồm các chức danh sau đây:
+
+a) Trưởng tàu;
+
+b) Lái tàu, phụ lái tàu;
+
+c) Nhân viên điều độ chạy tàu tuyến, điều độ chạy tàu ga;
+
+d) Trực ban chạy tàu ga;
+
+đ) Trưởng dồn;
+
+e) Nhân viên gác ghi;
+
+g) Nhân viên ghép nối đầu máy, toa xe;
+
+h) Nhân viên tuần đường, cầu, hầm, gác hầm;
+
+i) Nhân viên gác đường ngang, cầu chung;
+
+k) Các chức danh nhân viên khác phù hợp với từng loại hình đường sắt.
+
+2. Nhân viên đường sắt trực tiếp phục vụ chạy tàu khi làm việc phải có các điều kiện sau đây:
+
+a) Có bằng, chứng chỉ chuyên môn phù hợp với chức danh theo quy định của pháp luật;
+
+b) Có đủ điều kiện sức khỏe khi tuyển dụng và giấy chứng nhận đủ tiêu chuẩn sức khỏe định kỳ theo quy định của Bộ trưởng Bộ Y tế;
+
+c) Đối với lái tàu, ngoài các điều kiện quy định tại khoản này còn phải có giấy phép lái tàu.
+
+3. Nhân viên đường sắt trực tiếp phục vụ chạy tàu khi làm nhiệm vụ có trách nhiệm sau đây:
+
+a) Thực hiện các công việc theo chức danh, tiêu chuẩn cấp bậc kỹ thuật và theo quy chuẩn kỹ thuật quốc gia về đường sắt;
+
+b) Tuyệt đối chấp hành mệnh lệnh chỉ huy chạy tàu; chấp hành các quy định, chỉ thị của cấp trên;
+
+c) Mặc đúng trang phục, đeo phù hiệu, cấp hiệu và biển chức danh.
+
+4. Bộ trưởng Bộ Giao thông vận tải quy định:
+
+a) Tiêu chuẩn, nhiệm vụ, quyền hạn đối với các chức danh nhân viên đường sắt trực tiếp phục vụ chạy tàu;
+
+b) Nội dung, chương trình đào tạo đối với cơ sở đào tạo các chức danh nhân viên đường sắt trực tiếp phục vụ chạy tàu;
+
+c) Chức danh nhân viên trực tiếp phục vụ chạy tàu quy định tại điểm k khoản 1 Điều này.
+
+Điều 36. Giấy phép lái tàu
+
+1. Giấy phép lái tàu được cấp cho người trực tiếp lái phương tiện giao thông đường sắt theo quy định của Luật này.
+
+2. Người được cấp giấy phép lái tàu chỉ được lái loại phương tiện giao thông đường sắt đã quy định trong giấy phép lái tàu.
+
+3. Người được cấp giấy phép lái tàu phải có các điều kiện sau đây:
+
+a) Có độ tuổi từ đủ 23 tuổi đến 55 tuổi đối với nam, từ đủ 23 tuổi đến 50 tuổi đối với nữ; có giấy chứng nhận đủ tiêu chuẩn sức khỏe;
+
+b) Có bằng hoặc chứng chỉ chuyên ngành lái phương tiện giao thông đường sắt do cơ sở đào tạo cấp;
+
+c) Có thời gian làm phụ lái tàu theo quy định của Bộ trưởng Bộ Giao thông vận tải;
+
+d) Đã qua kỳ sát hạch đối với loại phương tiện giao thông đường sắt quy định trong giấy phép lái tàu.
+
+4. Bộ trưởng Bộ Giao thông vận tải quy định điều kiện, nội dung, quy trình sát hạch và cấp, cấp lại, thu hồi giấy phép lái tàu.
+
+Chương V
+
+TÍN HIỆU, QUY TẮC GIAO THÔNG VÀ BẢO ĐẢM TRẬT TỰ, AN TOÀN GIAO THÔNG VẬN TẢI ĐƯỜNG SẮT
+
+Mục 1. TÍN HIỆU, QUY TẮC GIAO THÔNG ĐƯỜNG SẮT
+
+Điều 37. Tín hiệu giao thông đường sắt
+
+1. Hệ thống tín hiệu giao thông đường sắt bao gồm hiệu lệnh của người tham gia điều khiển chạy tàu, tín hiệu trên tàu và tín hiệu dưới mặt đất, biển báo hiệu, pháo hiệu phòng vệ, đuốc. Biểu thị của tín hiệu là mệnh lệnh và điều kiện chạy tàu, dồn tàu, dừng tàu.
+
+2. Hệ thống tín hiệu giao thông đường sắt phải đầy đủ, chính xác, rõ ràng, bảo đảm an toàn và nâng cao hiệu suất chạy tàu.
+
+3. Nhân viên đường sắt và người tham gia giao thông phải chấp hành tín hiệu giao thông đường sắt.
+
+4. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết về tín hiệu giao thông đường sắt.
+
+Điều 38. Quy tắc giao thông đường sắt
+
+1. Quy tắc giao thông đường sắt bao gồm các quy định về chỉ huy chạy tàu, lập tàu, dồn tàu, chạy tàu, tránh tàu, vượt tàu, dừng tàu, lùi tàu.
+
+2. Quy định về chỉ huy chạy tàu:
+
+a) Việc chạy tàu ở mỗi khu đoạn chỉ do một nhân viên điều độ chạy tàu tuyến chỉ huy. Mệnh lệnh chạy tàu phải được thực hiện thông qua sự chỉ huy của nhân viên điều độ chạy tàu tuyến. Điều độ chạy tàu ga, trực ban chạy tàu ga, trưởng tàu, lái tàu phải tuyệt đối tuân theo mệnh lệnh chỉ huy của nhân viên điều độ chạy tàu tuyến;
+
+b) Trong phạm vi ga đường sắt, điều độ chạy tàu ga hoặc trực ban chạy tàu ga là người chỉ huy chạy tàu. Trưởng tàu, lái tàu phải tuân theo mệnh lệnh của người chỉ huy chạy tàu hoặc tuân theo biểu thị của tín hiệu;
+
+c) Trên tàu, trưởng tàu là người chỉ huy cao nhất để bảo đảm chạy tàu an toàn;
+
+d) Trên tàu không bố trí trưởng tàu, đầu máy chạy đơn, tàu đường sắt đô thị, lái tàu là người chỉ huy cao nhất để bảo đảm chạy tàu an toàn.
+
+3. Quy định về lập tàu:
+
+a) Việc lập tàu phải theo đúng tiêu chuẩn, quy chuẩn kỹ thuật đường sắt;
+
+b) Toa xe phải đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật về an toàn thì mới được ghép nối.
+
+4. Quy định về dồn tàu:
+
+a) Dồn tàu là việc di chuyển đầu máy, toa xe từ vị trí này sang vị trí khác trong phạm vi ga đường sắt, khu gian. Dồn tàu phải thực hiện theo kế hoạch của trực ban chạy tàu ga;
+
+b) Trong quá trình dồn tàu, lái tàu phải tuân theo sự điều khiển của trưởng dồn.
+
+5. Quy định về chạy tàu:
+
+a) Khi chạy tàu, lái tàu phải tuân thủ các quy định sau đây:
+
+Điều khiển tàu đi từ ga, thông qua ga, dừng, tránh, vượt tại ga theo lệnh của trực ban chạy tàu ga.
+
+Chỉ được phép điều khiển tàu vào khu gian khi có chứng vật chạy tàu.
+
+Chỉ được phép điều khiển tàu vào ga, thông qua ga theo tín hiệu đèn màu, tín hiệu cánh và tín hiệu của trực ban chạy tàu ga.
+
+Điều khiển tốc độ chạy tàu theo quy định tại Điều 42 của Luật này.
+
+Trong quá trình chạy tàu, lái tàu và phụ lái tàu đang trong phiên trực không được rời vị trí làm việc;
+
+b) Tàu khách chỉ được chạy khi các cửa toa xe hành khách đã đóng. Cửa toa xe hành khách chỉ được mở khi tàu đã dừng hẳn tại ga đường sắt.
+
+6. Quy định về tránh, vượt tàu:
+
+a) Việc tránh, vượt tàu phải thực hiện tại ga đường sắt;
+
+b) Lái tàu thực hiện việc tránh, vượt tàu trên đường sắt quốc gia, đường sắt chuyên dùng theo lệnh của trực ban chạy tàu ga; trên đường sắt đô thị theo lệnh của điều độ chạy tàu đường sắt đô thị.
+
+7. Quy định về dừng tàu, lùi tàu:
+
+Lái tàu phải dừng tàu khi thấy có tín hiệu dừng; khi phát hiện tình huống đe dọa đến an toàn chạy tàu hoặc nhận được tín hiệu dừng tàu khẩn cấp thì được phép dừng tàu hoặc lùi tàu khẩn cấp. Trường hợp dừng tàu, lùi tàu khẩn cấp, trưởng tàu, lái tàu có trách nhiệm thông báo cho nhà ga theo quy định.
+
+8. Bộ trưởng Bộ Giao thông vận tải quy định chi tiết Điều này.
+
+Điều 39. Giao thông tại đường ngang, cầu chung, trong hầm
+
+1. Tại đường ngang, cầu chung, phương tiện giao thông vận tải đường sắt được quyền ưu tiên.
+
+2. Lái tàu phải kéo còi trước khi đi vào đường ngang, cầu chung, hầm; phải bật đèn chiếu sáng khi đi trong hầm.
+
+3. Người tham gia giao thông đường bộ khi đi qua đường ngang, cầu chung phải thực hiện theo quy định của Luật Giao thông đường bộ và của Luật này.
+
+4. Tại đường ngang, cầu chung có người gác, khi đèn tín hiệu không hoạt động hoặc báo hiệu sai quy định, chắn đường bộ bị hỏng thì nhân viên gác đường ngang, nhân viên gác cầu chung phải điều hành giao thông.
+
+Mục 2. BẢO ĐẢM TRẬT TỰ, AN TOÀN GIAO THÔNG VẬN TẢI ĐƯỜNG SẮT
+
+Điều 40. Hoạt động bảo đảm trật tự, an toàn giao thông vận tải đường sắt
+
+1. Hoạt động bảo đảm trật tự, an toàn giao thông vận tải đường sắt bao gồm:
+
+a) Bảo đảm an toàn về người, phương tiện, tài sản của tổ chức, cá nhân trong hoạt động giao thông vận tải đường sắt;
+
+b) Bảo đảm điều hành tập trung, thống nhất hoạt động giao thông vận tải trên đường sắt;
+
+c) Phòng ngừa, ngăn chặn và đấu tranh chống hành vi phá hoại công trình đường sắt và các hành vi vi phạm hành lang an toàn giao thông đường sắt;
+
+d) Các biện pháp phòng ngừa tai nạn giao thông trên đường sắt và tại điểm giao cắt đồng mức giữa đường sắt và đường bộ.
+
+2. Tổ chức, cá nhân phải chấp hành quy định của pháp luật về bảo đảm trật tự, an toàn giao thông vận tải đường sắt.
+
+3. Hành vi vi phạm trật tự, an toàn giao thông vận tải đường sắt phải được phát hiện kịp thời, xử lý nghiêm minh, đúng pháp luật.
+
+4. Tổ chức, cá nhân tham gia hoạt động giao thông vận tải đường sắt có trách nhiệm bảo đảm trật tự, an toàn giao thông vận tải đường sắt. Lực lượng Công an và chính quyền địa phương các cấp nơi có đường sắt đi qua, trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm bảo đảm an ninh, trật tự, an toàn giao thông vận tải đường sắt. Cơ quan, tổ chức có trách nhiệm phối hợp trong hoạt động bảo đảm trật tự, an toàn giao thông vận tải đường sắt.
+
+Điều 41. Điều hành giao thông vận tải đường sắt
+
+1. Điều hành giao thông vận tải đường sắt phải tuân thủ các nguyên tắc sau đây:
+
+a) Tập trung, thống nhất; tuân thủ biểu đồ chạy tàu đã công bố;
+
+b) Bảo đảm giao thông vận tải đường sắt an toàn, thông suốt theo đúng biểu đồ chạy tàu;
+
+c) Bình đẳng giữa các doanh nghiệp kinh doanh vận tải đường sắt.
+
+2. Điều hành giao thông vận tải đường sắt bao gồm các nội dung sau đây:
+
+a) Lập, phân bổ và công bố biểu đồ chạy tàu;
+
+b) Tổ chức chạy tàu thống nhất, tập trung, bảo đảm an toàn, thông suốt theo đúng biểu đồ chạy tàu đã công bố, quy định về tín hiệu giao thông đường sắt, quy tắc giao thông đường sắt và mệnh lệnh chạy tàu;
+
+c) Chỉ huy xử lý các sự cố khẩn cấp hoặc bất thường xảy ra trên đường sắt;
+
+d) Thu nhận và tổng hợp thông tin liên quan đến công tác điều hành giao thông vận tải đường sắt;
+
+đ) Phối hợp điều hành giao thông vận tải đường sắt với các tổ chức đường sắt quốc tế;
+
+e) Lưu trữ dữ liệu liên quan đến công tác điều hành theo quy định của pháp luật.
+
+3. Bộ trưởng Bộ Giao thông vận tải quy định về điều hành giao thông vận tải đường sắt quốc gia, đường sắt chuyên dùng.
+
+4. Ủy ban nhân dân cấp tỉnh quy định về điều hành giao thông vận tải đường sắt đô thị.
+
+Điều 42. Tải trọng, công lệnh tải trọng, công lệnh tốc độ chạy tàu
+
+1. Tải trọng đoàn tàu khai thác không được vượt tải trọng cho phép quy định trong công lệnh tải trọng cho từng khu đoạn, tuyến đường sắt.
+
+2. Công lệnh tải trọng được xây dựng căn cứ vào trạng thái kỹ thuật, khả năng chịu lực của công trình và thiết bị cầu đường.
+
+3. Công lệnh tốc độ được xây dựng căn cứ vào trạng thái kỹ thuật cho phép, khả năng khai thác của công trình đường sắt và tải trọng của phương tiện giao thông đường sắt.
+
+4. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt xây dựng, công bố công lệnh tải trọng, công lệnh tốc độ trên đoạn, tuyến đường sắt được giao kinh doanh.
+
+5. Bộ trưởng Bộ Giao thông vận tải quy định trình tự xây dựng, công bố công lệnh tải trọng, công lệnh tốc độ trên đường sắt quốc gia, đường sắt đô thị chạy chung với đường sắt quốc gia, đường sắt chuyên dùng.
+
+6. Ủy ban nhân dân cấp tỉnh quy định trình tự xây dựng, công bố công lệnh tải trọng, công lệnh tốc độ trên đường sắt đô thị.
+
+Điều 43. Biểu đồ chạy tàu
+
+1. Biểu đồ chạy tàu là cơ sở của việc tổ chức chạy tàu, được xây dựng hằng năm, hằng kỳ và theo mùa cho từng tuyến và toàn mạng lưới đường sắt. Biểu đồ chạy tàu phải được xây dựng theo nguyên tắc không phân biệt đối xử, bảo đảm an toàn giao thông đường sắt và công bố công khai.
+
+2. Việc xây dựng biểu đồ chạy tàu phải căn cứ vào các yếu tố sau đây:
+
+a) Nhu cầu của doanh nghiệp vận tải về thời gian vận tải, khối lượng hàng hóa, số lượng hành khách và chất lượng vận tải; tuyến vận tải, các ga đi, ga dừng và ga đến;
+
+b) Năng lực của kết cấu hạ tầng đường sắt và của phương tiện vận tải đường sắt;
+
+c) Yêu cầu về thời gian cho việc bảo trì, sửa chữa công trình đường sắt;
+
+d) Thứ tự ưu tiên các tàu chạy trên cùng một tuyến.
+
+3. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt xây dựng, công bố biểu đồ chạy tàu trên tuyến đường sắt do mình quản lý theo quy định.
+
+4. Thẩm quyền quy định về xây dựng, công bố biểu đồ chạy tàu:
+
+a) Bộ trưởng Bộ Giao thông vận tải quy định việc xây dựng, công bố biểu đồ chạy tàu và tổ chức kiểm tra, giám sát việc thực hiện biểu đồ chạy tàu trên đường sắt quốc gia, đường sắt chuyên dùng có nối ray với đường sắt quốc gia, đường sắt đô thị chạy chung với đường sắt quốc gia;
+
+b) Ủy ban nhân dân cấp tỉnh quy định về xây dựng, công bố biểu đồ chạy tàu và tổ chức kiểm tra, giám sát việc thực hiện biểu đồ chạy tàu trên đường sắt đô thị, đường sắt chuyên dùng không nối ray với đường sắt quốc gia.
+
+Điều 44. Trách nhiệm của tổ chức, cá nhân khi xảy ra tai nạn giao thông đường sắt
+
+1. Khi xảy ra tai nạn giao thông đường sắt, tổ chức, cá nhân có liên quan phải thực hiện các công việc sau đây:
+
+a) Lái tàu hoặc nhân viên đường sắt khác trên tàu dừng tàu khẩn cấp;
+
+b) Trưởng tàu tổ chức phân công nhân viên đường sắt và người có mặt tại nơi xảy ra tai nạn cứu giúp người bị nạn, bảo vệ tài sản của Nhà nước và của người bị nạn, đồng thời phải báo ngay cho tổ chức điều hành giao thông đường sắt hoặc ga đường sắt gần nhất.
+
+Trường hợp tàu, đường sắt bị hư hỏng, trưởng tàu lập biên bản báo cáo về vụ tai nạn và cung cấp thông tin liên quan đến vụ tai nạn theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+
+Trường hợp tàu, đường sắt không bị hư hỏng, trưởng tàu tiếp tục cho tàu chạy sau khi đã lập biên bản báo cáo về vụ tai nạn và cử người thay mình ở lại làm việc với cơ quan nhà nước có thẩm quyền;
+
+c) Tổ chức điều hành hoặc ga đường sắt khi nhận được tin báo phải có trách nhiệm báo ngay cho cơ quan Công an và Ủy ban nhân dân nơi gần nhất để xử lý, giải quyết tai nạn đường sắt;
+
+d) Cơ quan Công an và Ủy ban nhân dân nơi gần nhất khi nhận được tin báo về tai nạn giao thông đường sắt có trách nhiệm đến ngay hiện trường để giải quyết.
+
+2. Đối với đoàn tàu không bố trí trưởng tàu, khi xảy ra tai nạn giao thông đường sắt, ngoài việc dừng tàu khẩn cấp thì lái tàu phải thực hiện các nhiệm vụ của trưởng tàu theo quy định tại điểm b khoản 1 Điều này. Trường hợp tàu, đường sắt không bị hư hỏng, lái tàu chỉ được phép tiếp tục cho tàu chạy sau khi đã lập biên bản báo cáo về vụ tai nạn và cử nhân viên đường sắt khác thay mình ở lại làm việc với cơ quan nhà nước có thẩm quyền.
+
+3. Người điều khiển phương tiện giao thông khác khi đi qua nơi xảy ra tai nạn giao thông đường sắt có trách nhiệm chở người bị nạn đi cấp cứu, trừ trường hợp đang làm nhiệm vụ khẩn cấp.
+
+4. Ủy ban nhân dân các cấp nơi xảy ra tai nạn giao thông đường sắt có trách nhiệm phối hợp với cơ quan Công an, doanh nghiệp kinh doanh đường sắt cứu giúp người bị nạn, bảo vệ tài sản của cơ quan, tổ chức, cá nhân. Trường hợp có người chết không rõ tung tích, không có thân nhân hoặc thân nhân không có khả năng chôn cất thì Ủy ban nhân dân cấp xã nơi xảy ra tai nạn có trách nhiệm tổ chức chôn cất.
+
+5. Mọi tổ chức, cá nhân không được gây trở ngại cho việc khôi phục đường sắt và hoạt động giao thông vận tải đường sắt sau khi xảy ra tai nạn giao thông đường sắt.
+
+6. Bộ trưởng Bộ Giao thông vận tải quy định việc giải quyết sự cố, tai nạn giao thông đường sắt; phân tích, thống kê báo cáo về sự cố, tai nạn giao thông đường sắt.
+
+Điều 45. Xử lý khi phát hiện sự cố, vi phạm trên đường sắt
+
+1. Người phát hiện hành vi, sự cố có khả năng gây cản trở, gây mất an toàn giao thông vận tải đường sắt có trách nhiệm kịp thời báo cho ga đường sắt, đơn vị đường sắt, chính quyền địa phương hoặc cơ quan Công an nơi gần nhất biết để có biện pháp xử lý; trường hợp khẩn cấp, phải thực hiện ngay các biện pháp báo hiệu dừng tàu.
+
+2. Tổ chức, cá nhân nhận được tin báo hoặc tín hiệu dừng tàu phải có ngay biện pháp xử lý bảo đảm an toàn giao thông vận tải đường sắt và thông báo cho đơn vị trực tiếp quản lý kết cấu hạ tầng đường sắt biết để chủ động phối hợp với các đơn vị có liên quan nhanh chóng thực hiện các biện pháp khắc phục.
+
+3. Tổ chức, cá nhân có hành vi gây sự cố cản trở, mất an toàn giao thông vận tải đường sắt phải bị xử lý; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+Điều 46. Bảo vệ trật tự, an toàn trong hoạt động đường sắt của doanh nghiệp kinh doanh đường sắt
+
+1. Doanh nghiệp kinh doanh đường sắt có trách nhiệm tổ chức bảo vệ trật tự, an toàn trong hoạt động đường sắt thuộc phạm vi quản lý của doanh nghiệp; chủ động phối hợp với cơ quan Công an, Ủy ban nhân dân để phòng ngừa, ngăn chặn và giải quyết theo thẩm quyền hành vi vi phạm pháp luật về đường sắt và chịu trách nhiệm trước pháp luật về quyết định của mình.
+
+2. Lực lượng bảo vệ trên tàu được tổ chức trong doanh nghiệp kinh doanh vận tải đường sắt trên các mạng đường sắt quốc gia.
+
+3. Chính phủ quy định về tổ chức, trang phục, phù hiệu, nhiệm vụ, quyền hạn của lực lượng bảo vệ trên tàu. Việc trang bị, quản lý và sử dụng công cụ hỗ trợ của lực lượng bảo vệ trên tàu thực hiện theo quy định của pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ.
+
+Điều 47. Trách nhiệm bảo đảm an ninh, trật tự, an toàn trong hoạt động đường sắt của lực lượng Công an
+
+1. Lực lượng Công an trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm sau đây:
+
+a) Kiểm tra, kiểm soát người và phương tiện tham gia giao thông đường sắt theo quy định của pháp luật;
+
+b) Điều tra xác minh, giải quyết tai nạn giao thông đường sắt và xử lý hành vi vi phạm pháp luật về giao thông đường sắt;
+
+c) Chủ trì, phối hợp với thanh tra giao thông, lực lượng bảo vệ đường sắt và cơ quan, tổ chức, cá nhân có liên quan để tổ chức bảo đảm an ninh, trật tự, an toàn trong hoạt động đường sắt.
+
+2. Bộ trưởng Bộ Công an quy định trình tự, nội dung kiểm tra, kiểm soát xử lý vi phạm và điều tra xác minh, giải quyết tai nạn giao thông đường sắt.
+
+Điều 48. Trách nhiệm bảo đảm an ninh, trật tự, an toàn trong hoạt động đường sắt của Ủy ban nhân dân nơi có đường sắt đi qua
+
+Trong phạm vi chức năng, nhiệm vụ, quyền hạn của mình, Ủy ban nhân dân các cấp có trách nhiệm tổ chức, chỉ đạo, kiểm tra việc thực hiện các nội dung sau đây:
+
+1. Phổ biến, giáo dục pháp luật trong việc bảo đảm an ninh, trật tự, an toàn giao thông đường sắt;
+
+2. Khi giao đất, cho thuê đất dọc ngoài hành lang an toàn giao thông đường sắt phải bố trí đất để xây dựng đường gom, cầu vượt, hầm chui, hàng rào để bảo đảm an toàn giao thông đường sắt;
+
+3. Thực hiện các biện pháp bảo vệ, chống lấn chiếm hành lang an toàn giao thông đường sắt và bảo đảm trật tự, an toàn giao thông đường sắt;
+
+4. Quản lý, tăng cường các điều kiện an toàn giao thông tại lối đi tự mở; giảm, xóa bỏ các lối đi tự mở hiện có theo lộ trình; chịu trách nhiệm trong việc phát sinh lối đi tự mở mới;
+
+5. Bảo đảm kinh phí để thực hiện công tác bảo đảm an toàn giao thông trong phạm vi trách nhiệm của địa phương;
+
+6. Thanh tra, kiểm tra, xử lý vi phạm trật tự, an toàn giao thông đường sắt theo quy định của pháp luật;
+
+7. Tham gia giải quyết tai nạn giao thông đường sắt theo quy định tại Điều 44 của Luật này;
+
+8. Người đứng đầu địa phương nơi có đường sắt đi qua phải chịu trách nhiệm khi để xảy ra tai nạn giao thông đường sắt trên địa bàn mình quản lý theo quy định của pháp luật.
+
+Chương VI
+
+KINH DOANH ĐƯỜNG SẮT
+
+Mục 1. HOẠT ĐỘNG KINH DOANH ĐƯỜNG SẮT
+
+Điều 49. Hoạt động kinh doanh đường sắt
+
+1. Kinh doanh đường sắt bao gồm kinh doanh kết cấu hạ tầng đường sắt, kinh doanh vận tải đường sắt, kinh doanh đường sắt đô thị.
+
+2. Kinh doanh đường sắt là ngành, nghề đầu tư kinh doanh có điều kiện.
+
+3. Chính phủ quy định chi tiết khoản 2 Điều này.
+
+Mục 2. KINH DOANH KẾT CẤU HẠ TẦNG ĐƯỜNG SẮT
+
+Điều 50. Kinh doanh kết cấu hạ tầng đường sắt
+
+1. Kết cấu hạ tầng đường sắt do Nhà nước đầu tư được giao, cho thuê hoặc chuyển nhượng có thời hạn tài sản kết cấu hạ tầng đường sắt cho doanh nghiệp để kinh doanh theo quy định.
+
+2. Tổ chức, cá nhân sử dụng kết cấu hạ tầng đường sắt do Nhà nước đầu tư hoặc do tổ chức, cá nhân khác đầu tư để hoạt động kinh doanh phải trả tiền sử dụng kết cấu hạ tầng đường sắt.
+
+Điều 51. Quyền, nghĩa vụ của doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt
+
+1. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt có các quyền sau đây:
+
+a) Được sử dụng, khai thác kết cấu hạ tầng đường sắt theo quy định;
+
+b) Yêu cầu tổ chức, cá nhân có hoạt động liên quan đến kết cấu hạ tầng đường sắt phải thực hiện đúng tiêu chuẩn, quy chuẩn kỹ thuật về kết cấu hạ tầng đường sắt;
+
+c) Xây dựng và trình duyệt giá thuê sử dụng kết cấu hạ tầng đường sắt do Nhà nước đầu tư trong phạm vi được giao, cho thuê hoặc chuyển nhượng;
+
+d) Tạm đình chỉ chạy tàu khi thấy kết cấu hạ tầng đường sắt có nguy cơ mất an toàn chạy tàu và chịu trách nhiệm trước pháp luật về quyết định của mình;
+
+đ) Được bồi thường thiệt hại trong trường hợp kết cấu hạ tầng đường sắt bị hư hỏng do lỗi của doanh nghiệp kinh doanh vận tải đường sắt hoặc tổ chức, cá nhân khác gây ra;
+
+e) Được Nhà nước hỗ trợ theo quy định tại khoản 1 Điều 68 của Luật này;
+
+g) Các quyền khác theo quy định của pháp luật.
+
+2. Doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt có các nghĩa vụ sau đây:
+
+a) Quản lý sử dụng tài sản thuộc kết cấu hạ tầng đường sắt theo quy định của pháp luật;
+
+b) Duy trì trạng thái kỹ thuật, chất lượng kết cấu hạ tầng đường sắt đã công bố bảo đảm giao thông đường sắt luôn an toàn, thông suốt;
+
+c) Xây dựng, công bố công lệnh tốc độ, công lệnh tải trọng, biểu đồ chạy tàu trên các tuyến, đoạn tuyến, khu đoạn để làm cơ sở cho việc chạy tàu;
+
+d) Tổ chức điều hành giao thông vận tải đường sắt trên hệ thống đường sắt quốc gia, đường sắt đô thị khi được Nhà nước giao. Cung cấp cho cơ quan quản lý nhà nước về đường sắt và khách hàng thông tin về dịch vụ điều hành giao thông vận tải đường sắt và năng lực kết cấu hạ tầng đường sắt khi có yêu cầu;
+
+đ) Thông báo kịp thời sự cố đe dọa an toàn chạy tàu và việc tạm đình chỉ chạy tàu cho trực ban chạy tàu ga ở hai đầu khu gian nơi xảy ra sự cố, nhân viên điều hành giao thông vận tải đường sắt, khách hàng sử dụng kết cấu hạ tầng đường sắt;
+
+e) Thực hiện nhiệm vụ quốc phòng, an ninh và lệnh chạy tàu đặc biệt do cơ quan nhà nước có thẩm quyền yêu cầu;
+
+g) Khi được Nhà nước giao, cho thuê hoặc chuyển nhượng quyền khai thác mà tài sản kết cấu hạ tầng đường sắt bị hư hỏng do lỗi chủ quan của mình, doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt phải có trách nhiệm tự khôi phục;
+
+h) Trả tiền sử dụng kết cấu hạ tầng đường sắt theo quy định;
+
+i) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Mục 3. KINH DOANH VẬN TẢI ĐƯỜNG SẮT
+
+Điều 52. Kinh doanh vận tải đường sắt
+
+1. Kinh doanh vận tải đường sắt gồm kinh doanh vận tải hành khách, hành lý và hàng hóa trên đường sắt.
+
+2. Bộ trưởng Bộ Giao thông vận tải quy định về vận tải hành khách, hành lý và hàng hóa trên đường sắt quốc gia và đường sắt chuyên dùng có nối ray với đường sắt quốc gia.
+
+3. Ủy ban nhân dân cấp tỉnh quy định về vận tải đường sắt trên đường sắt đô thị.
+
+Điều 53. Quyền, nghĩa vụ của doanh nghiệp kinh doanh vận tải đường sắt
+
+1. Doanh nghiệp kinh doanh vận tải đường sắt có các quyền sau đây:
+
+a) Được cung cấp các thông tin về kỹ thuật, kinh tế, dịch vụ điều hành giao thông vận tải đường sắt liên quan đến năng lực kết cấu hạ tầng đường sắt;
+
+b) Được sử dụng kết cấu hạ tầng đường sắt và dịch vụ điều hành giao thông vận tải đường sắt trên hệ thống đường sắt để kinh doanh vận tải đường sắt theo quy định;
+
+c) Tạm ngừng chạy tàu khi xét thấy kết cấu hạ tầng đường sắt có nguy cơ mất an toàn chạy tàu đồng thời phải thông báo cho doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt và chịu trách nhiệm trước pháp luật về quyết định của mình;
+
+d) Được bồi thường thiệt hại do lỗi doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt hoặc do tổ chức, cá nhân khác gây ra;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Doanh nghiệp kinh doanh vận tải đường sắt có các nghĩa vụ sau đây:
+
+a) Tổ chức chạy tàu theo đúng biểu đồ chạy tàu, công lệnh tải trọng, công lệnh tốc độ đã được doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt công bố;
+
+b) Ưu tiên thực hiện vận tải phục vụ nhiệm vụ đặc biệt, an sinh xã hội theo yêu cầu của cơ quan nhà nước có thẩm quyền;
+
+c) Phải ngừng chạy tàu khi nhận được thông báo của doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt;
+
+d) Trả tiền sử dụng kết cấu hạ tầng đường sắt, dịch vụ điều hành giao thông vận tải đường sắt cho doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt;
+
+đ) Bảo đảm đủ điều kiện an toàn chạy tàu trong quá trình khai thác;
+
+e) Chịu sự chỉ đạo của cơ quan nhà nước có thẩm quyền, phối hợp với doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt trong việc phòng, chống sự cố, thiên tai, xử lý tai nạn giao thông đường sắt theo quy định của pháp luật;
+
+g) Bồi thường thiệt hại theo quy định của pháp luật;
+
+h) Cung cấp các thông tin về nhu cầu vận tải, năng lực phương tiện, thiết bị vận tải cho doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt phục vụ cho việc xây dựng, phân bổ biểu đồ chạy tàu và làm cơ sở xây dựng kế hoạch đầu tư nâng cấp, bảo trì kết cấu hạ tầng đường sắt;
+
+i) Các nghĩa vụ khác theo quy định của pháp luật.
+
+Điều 54. Hợp đồng vận tải hành khách, hành lý
+
+1. Hợp đồng vận tải hành khách, hành lý là sự thỏa thuận giữa doanh nghiệp kinh doanh vận tải đường sắt với hành khách về vận chuyển hành khách, hành lý, theo đó doanh nghiệp kinh doanh vận tải đường sắt nhận vận chuyển hành khách, hành lý từ nơi đi đến nơi đến. Hợp đồng vận tải hành khách, hành lý xác định quan hệ về quyền và nghĩa vụ của các bên và được lập thành văn bản hoặc hình thức khác mà hai bên thỏa thuận.
+
+2. Vé hành khách là bằng chứng của việc giao kết hợp đồng vận tải hành khách. Vé hành khách do doanh nghiệp kinh doanh vận tải hành khách phát hành theo quy định của pháp luật.
+
+Điều 55. Hợp đồng vận tải hàng hóa
+
+1. Hợp đồng vận tải hàng hóa là sự thỏa thuận giữa doanh nghiệp kinh doanh vận tải đường sắt với người thuê vận tải, theo đó doanh nghiệp kinh doanh vận tải đường sắt nhận vận chuyển hàng hóa từ nơi nhận đến nơi đến và giao hàng hóa cho người nhận hàng được quy định trong hợp đồng. Hợp đồng vận tải hàng hóa xác định quan hệ về quyền và nghĩa vụ của các bên và được lập thành văn bản hoặc hình thức khác mà hai bên thỏa thuận.
+
+2. Hóa đơn gửi hàng hóa là bộ phận của hợp đồng vận tải do doanh nghiệp kinh doanh vận tải đường sắt phát hành theo quy định của pháp luật. Doanh nghiệp kinh doanh vận tải đường sắt có trách nhiệm lập hóa đơn và giao cho người thuê vận tải sau khi người thuê vận tải giao hàng hóa; có chữ ký của người thuê vận tải hoặc người được người thuê vận tải ủy quyền. Hóa đơn gửi hàng hóa là chứng từ giao nhận hàng hóa giữa doanh nghiệp kinh doanh vận tải đường sắt và người thuê vận tải, là chứng cứ để giải quyết tranh chấp.
+
+3. Hóa đơn gửi hàng hóa phải ghi rõ loại hàng hóa; ký hiệu, mã hiệu hàng hóa; số lượng, khối lượng hàng hóa; nơi giao hàng hóa, nơi nhận hàng hóa, tên và địa chỉ của người gửi hàng, tên và địa chỉ của người nhận hàng; giá vận tải và các chi phí phát sinh; các chi tiết khác mà doanh nghiệp kinh doanh vận tải đường sắt và người thuê vận tải thỏa thuận ghi vào hóa đơn gửi hàng hoá; xác nhận của doanh nghiệp kinh doanh vận tải đường sắt về tình trạng hàng hóa nhận vận tải.
+
+Điều 56. Giá vận tải đường sắt
+
+1. Giá vận tải hành khách, hành lý, hàng hoá trên đường sắt quốc gia do doanh nghiệp kinh doanh vận tải đường sắt quyết định; giá vận tải hành khách, hành lý trên đường sắt đô thị do Ủy ban nhân dân cấp tỉnh quy định; giá vận tải trên đường sắt chuyên dùng do doanh nghiệp kinh doanh đường sắt chuyên dùng quyết định.
+
+2. Giá vận tải đường sắt phải được niêm yết tại ga đường sắt và công bố công khai trên phương tiện thông tin đại chúng hoặc trên trang thông tin điện tử của doanh nghiệp kinh doanh vận tải đường sắt trước thời điểm áp dụng.
+
+3. Giá vận tải hàng siêu trường, siêu trọng do doanh nghiệp kinh doanh vận tải đường sắt và người thuê vận tải thỏa thuận.
+
+4. Chính phủ quy định việc miễn, giảm giá vận tải hành khách cho đối tượng chính sách xã hội.
+
+Điều 57. Vận tải quốc tế
+
+1. Vận tải quốc tế là vận tải từ Việt Nam đến nước ngoài, vận tải từ nước ngoài đến Việt Nam hoặc quá cảnh Việt Nam đến nước thứ ba bằng đường sắt.
+
+2. Hoạt động vận tải quốc tế bằng đường sắt phải đáp ứng quy định của điều ước quốc tế có liên quan mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+Điều 58. Vận tải phục vụ nhiệm vụ đặc biệt, an sinh xã hội
+
+1. Vận tải phục vụ nhiệm vụ đặc biệt là vận tải người, hàng hoá và trang thiết bị để phòng, chống, khắc phục hậu quả thiên tai, tai nạn, dịch bệnh, thực hiện nhiệm vụ khẩn cấp về quốc phòng, an ninh.
+
+2. Vận tải phục vụ nhiệm vụ an sinh xã hội là vận tải hành khách trên tuyến, đoạn tuyến, khu đoạn đường sắt nhằm phục vụ cộng đồng dân cư của một khu vực lãnh thổ mà Nhà nước cần bảo đảm vì lợi ích chung và việc vận tải này theo cơ chế thị trường khó có khả năng bù đắp chi phí.
+
+3. Doanh nghiệp kinh doanh vận tải đường sắt có trách nhiệm thực hiện vận tải phục vụ nhiệm vụ đặc biệt, an sinh xã hội theo yêu cầu của cơ quan nhà nước có thẩm quyền và được hỗ trợ theo quy định tại Điều 68 của Luật này.
+
+Điều 59. Trách nhiệm bảo hiểm trong kinh doanh vận tải hành khách
+
+1. Doanh nghiệp kinh doanh vận tải hành khách phải mua bảo hiểm cho hành khách; phí bảo hiểm được tính trong giá vé hành khách.
+
+2. Vé hành khách, giấy tờ đi tàu là bằng chứng để chi trả tiền bảo hiểm khi xảy ra sự kiện bảo hiểm.
+
+3. Việc bảo hiểm cho hành khách thực hiện theo quy định của pháp luật về kinh doanh bảo hiểm.
+
+Điều 60. Quyền, nghĩa vụ của hành khách
+
+1. Hành khách có các quyền sau đây:
+
+a) Được hưởng mọi quyền lợi theo đúng hạng vé và không phải trả tiền vận chuyển đối với hành lý mang theo người trong phạm vi khối lượng và chủng loại theo quy định của doanh nghiệp kinh doanh vận tải đường sắt;
+
+b) Trả lại vé, đổi vé trước giờ tàu chạy và chịu các khoản chi phí (nếu có) theo quy định của doanh nghiệp kinh doanh vận tải đường sắt;
+
+c) Được hoàn trả tiền vé, bồi thường thiệt hại và các chi phí phát sinh khi bị thiệt hại về tính mạng, sức khoẻ và tài sản do lỗi của doanh nghiệp kinh doanh vận tải đường sắt theo quy định của pháp luật;
+
+d) Được bảo hiểm về tính mạng, sức khoẻ theo quy định của pháp luật;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Hành khách có các nghĩa vụ sau đây:
+
+a) Phải có vé hành khách, vé hành lý và tự bảo quản hành lý mang theo người;
+
+b) Bồi thường thiệt hại nếu làm hư hỏng, mất mát tài sản của doanh nghiệp kinh doanh vận tải đường sắt;
+
+c) Chấp hành nghiêm chỉnh nội quy đi tàu và quy định khác của pháp luật có liên quan.
+
+Điều 61. Quyền, nghĩa vụ của người thuê vận tải
+
+1. Người thuê vận tải có các quyền sau đây:
+
+a) Thay đổi hợp đồng vận tải hàng hóa kể cả khi hàng hóa đã giao cho doanh nghiệp kinh doanh vận tải đường sắt hoặc hàng hóa đã xếp lên toa xe và chịu chi phí phát sinh do thay đổi hợp đồng vận tải;
+
+b) Chỉ định lại người nhận hàng khi hàng hóa đó chưa được giao cho người có quyền nhận hàng trước đó; được thay đổi địa điểm giao hàng hoặc yêu cầu vận chuyển hàng hóa trở lại nơi gửi hàng và phải chịu mọi chi phí phát sinh do thay đổi người nhận hàng và địa điểm giao hàng;
+
+c) Được bồi thường thiệt hại khi hàng hóa bị mất mát, giảm khối lượng, hư hỏng hoặc giảm chất lượng, quá thời hạn vận chuyển do lỗi của doanh nghiệp kinh doanh vận tải đường sắt gây ra theo quy định của pháp luật.
+
+2. Người thuê vận tải có các nghĩa vụ sau đây:
+
+a) Kê khai hàng hóa trung thực và chịu trách nhiệm về việc kê khai đó;
+
+b) Trả tiền vận tải đúng thời hạn, hình thức thanh toán đã thỏa thuận trong hợp đồng;
+
+c) Thực hiện việc đóng gói hàng hóa và các điều kiện vận chuyển hàng hóa theo hướng dẫn của doanh nghiệp kinh doanh vận tải đường sắt;
+
+d) Giao hàng hóa cho doanh nghiệp kinh doanh vận tải đường sắt đúng thời hạn, địa điểm;
+
+đ) Cung cấp giấy tờ, tài liệu và thông tin cần thiết khác về hàng hóa;
+
+e) Bồi thường thiệt hại do việc kê khai không trung thực về hàng hóa gây thiệt hại cho doanh nghiệp kinh doanh vận tải đường sắt hoặc thiệt hại khác do lỗi của mình gây ra theo quy định của pháp luật.
+
+Điều 62. Vận tải hàng nguy hiểm
+
+1. Hàng nguy hiểm là hàng khi vận chuyển trên đường sắt có khả năng gây nguy hại cho sức khỏe, tính mạng của con người và vệ sinh môi trường.
+
+2. Việc vận tải hàng nguy hiểm trên đường sắt phải tuân theo quy định của pháp luật về vận tải hàng nguy hiểm và bảo vệ môi trường.
+
+3. Phương tiện giao thông đường sắt phải bảo đảm đủ các điều kiện an toàn kỹ thuật mới được vận tải hàng nguy hiểm.
+
+4. Chính phủ quy định Danh mục hàng nguy hiểm và điều kiện xếp, dỡ, vận tải hàng nguy hiểm trên đường sắt.
+
+Điều 63. Vận tải động vật sống
+
+Vận tải động vật sống trên đường sắt phải tuân theo các quy định của pháp luật về an toàn, vệ sinh, phòng dịch và bảo vệ môi trường.
+
+Điều 64. Vận tải thi hài, hài cốt trên đường sắt quốc gia
+
+1. Thi hài, hài cốt khi vận chuyển trên đường sắt quốc gia phải có người áp tải.
+
+2. Thi hài, hài cốt khi vận chuyển trên đường sắt quốc gia phải bảo đảm vệ sinh, phòng dịch, bảo vệ môi trường và có đủ giấy tờ theo quy định của pháp luật.
+
+Điều 65. Vận tải hàng siêu trường, siêu trọng
+
+1. Doanh nghiệp kinh doanh vận tải đường sắt khi vận tải hàng siêu trường, siêu trọng phải có phương án tổ chức xếp, dỡ, gia cố, vận chuyển, bảo đảm an toàn chạy tàu và kết cấu hạ tầng đường sắt.
+
+2. Bộ trưởng Bộ Giao thông vận tải quy định về vận tải hàng siêu trường, siêu trọng trên đường sắt.
+
+Mục 4. QUẢN LÝ TÀI CHÍNH TRONG HOẠT ĐỘNG KINH DOANH ĐƯỜNG SẮT
+
+Điều 66. Phí, giá sử dụng kết cấu hạ tầng đường sắt
+
+1. Phí, giá sử dụng kết cấu hạ tầng đường sắt trực tiếp liên quan đến chạy tàu là khoản tiền phải trả khi sử dụng kết cấu hạ tầng đường sắt trực tiếp liên quan đến chạy tàu để được chạy tàu trong ga, trên tuyến hoặc khu đoạn đường sắt.
+
+a) Phí sử dụng kết cấu hạ tầng đường sắt trực tiếp liên quan đến chạy tàu áp dụng đối với phương thức giao sử dụng tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư.
+
+b) Giá sử dụng kết cấu hạ tầng đường sắt trực tiếp liên quan đến chạy tàu áp dụng đối với phương thức cho thuê hoặc chuyển nhượng có thời hạn quyền sử dụng tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư.
+
+2. Giá sử dụng kết cấu hạ tầng đường sắt không trực tiếp liên quan đến chạy tàu là khoản tiền phải trả để được sử dụng kết cấu hạ tầng đường sắt không trực tiếp liên quan đến chạy tàu.
+
+3. Bộ Tài chính chủ trì, phối hợp với Bộ Giao thông vận tải quy định về phí, giá sử dụng kết cấu hạ tầng đường sắt do Nhà nước đầu tư.
+
+Điều 67. Giá dịch vụ điều hành giao thông vận tải đường sắt
+
+1. Giá dịch vụ điều hành giao thông vận tải đường sắt là khoản tiền phải trả khi sử dụng dịch vụ điều hành giao thông vận tải đường sắt để chạy tàu trong ga, trên tuyến hoặc khu đoạn đường sắt.
+
+2. Thẩm quyền định giá được quy định như sau:
+
+a) Bộ Giao thông vận tải chủ trì, phối hợp với Bộ Tài chính quy định giá dịch vụ điều hành giao thông vận tải đường sắt trên kết cấu hạ tầng đường sắt do Nhà nước đầu tư;
+
+b) Tổ chức, cá nhân quyết định giá dịch vụ điều hành giao thông vận tải đường sắt trên kết cấu hạ tầng đường sắt do mình đầu tư.
+
+Điều 68. Hỗ trợ đối với doanh nghiệp kinh doanh đường sắt trong việc thực hiện phục vụ nhiệm vụ đặc biệt, an sinh xã hội
+
+1. Nhà nước hỗ trợ cho doanh nghiệp kinh doanh đường sắt trong trường hợp vận tải phục vụ nhiệm vụ đặc biệt, an sinh xã hội theo nguyên tắc bảo đảm bù đắp đủ chi phí hợp lý của doanh nghiệp.
+
+2. Chính phủ quy định chi tiết Điều này.
+
+Điều 69. Quản lý, sử dụng nguồn thu từ việc Nhà nước giao, cho thuê hoặc chuyển nhượng có thời hạn tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư
+
+Nguồn thu từ việc Nhà nước giao, cho thuê hoặc chuyển nhượng có thời hạn đối với tài sản kết cấu hạ tầng đường sắt do Nhà nước đầu tư được quản lý, sử dụng theo quy định của pháp luật về quản lý, sử dụng tài sản công.
+
+Chương VII
+
+ĐƯỜNG SẮT ĐÔ THỊ
+
+Điều 70. Yêu cầu chung đối với đường sắt đô thị
+
+1. Phát triển đường sắt đô thị phải phù hợp với quy hoạch phát triển của địa phương và tạo động lực cho quá trình phát triển đô thị.
+
+2. Kết nối hiệu quả các phương thức vận tải khác trong đô thị để chuyên chở hành khách. Công trình đường sắt đô thị phải được đấu nối không gian và đấu nối kỹ thuật với các công trình lân cận, đáp ứng tính đồng bộ theo quy hoạch đô thị.
+
+3. Công trình, phương tiện, thiết bị đường sắt đô thị phải đáp ứng yêu cầu kinh tế, kỹ thuật, bảo đảm đồng bộ, an toàn, quốc phòng, an ninh, phòng, chống cháy, nổ, cứu hộ, cứu nạn, cảnh quan đô thị và bảo vệ môi trường.
+
+4. Hành lang an toàn giao thông đường sắt đô thị phải đáp ứng các yêu cầu sau đây:
+
+a) Không được trồng cây, xây dựng công trình trái phép trong phạm vi hành lang;
+
+b) Phải được cách ly để tránh mọi hành vi xâm nhập trái phép;
+
+c) Đáp ứng yêu cầu phục vụ công tác phòng chống, cháy, nổ, cứu hộ, cứu nạn.
+
+5. Phải bảo đảm thuận tiện cho hành khách và bảo đảm tiếp cận sử dụng cho người khuyết tật theo quy định của pháp luật.
+
+Điều 71. Các loại hình đường sắt đô thị
+
+1. Đường sắt đô thị bao gồm đường tàu điện ngầm, đường tàu điện đi trên mặt đất, đường tàu điện trên cao, đường sắt một ray tự động dẫn hướng và đường xe điện bánh sắt.
+
+2. Việc xây dựng, ban hành tiêu chuẩn, quy chuẩn kỹ thuật quốc gia đối với các loại hình đường sắt đô thị thực hiện theo quy định của pháp luật về tiêu chuẩn, quy chuẩn kỹ thuật.
+
+Điều 72. Chính sách phát triển đường sắt đô thị
+
+1. Các chính sách quy định tại Điều 5 của Luật này.
+
+2. Nhà nước huy động các nguồn lực để phát triển đường sắt đô thị thành một trong những loại hình giao thông chủ yếu ở các đô thị lớn.
+
+3. Nhà nước hỗ trợ cho kinh doanh đường sắt đô thị.
+
+Điều 73. Trách nhiệm của Ủy ban nhân dân cấp tỉnh trong việc đầu tư, xây dựng, quản lý đường sắt đô thị
+
+1. Tổ chức đầu tư, xây dựng, quản lý, khai thác đường sắt đô thị trên địa bàn quản lý.
+
+2. Quyết định áp dụng tiêu chuẩn cho đường sắt đô thị.
+
+3. Tổ chức và hướng dẫn thực hiện việc bảo vệ kết cấu hạ tầng đường sắt đô thị.
+
+4. Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành chính sách hỗ trợ giá vận tải đường sắt đô thị theo quy định của pháp luật.
+
+Điều 74. Quyền, nghĩa vụ của doanh nghiệp kinh doanh đường sắt đô thị
+
+1. Thực hiện quyền, nghĩa vụ của doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt và doanh nghiệp kinh doanh vận tải đường sắt theo quy định tại Điều 51 và Điều 53 của Luật này.
+
+2. Nghiên cứu, ứng dụng tiến bộ khoa học và công nghệ, đào tạo phát triển nguồn nhân lực đáp ứng yêu cầu kinh doanh của doanh nghiệp.
+
+Điều 75. Yêu cầu đối với kết cấu hạ tầng đường sắt đô thị
+
+1. Kết cấu hạ tầng đường sắt đô thị phải bảo đảm ổn định, bền vững và đáp ứng yêu cầu kỹ thuật về an toàn, môi trường, phòng, chống cháy, nổ tương ứng với loại hình đường sắt đô thị được đầu tư.
+
+2. Hệ thống cung cấp điện sức kéo phải được điều khiển, giám sát tập trung, ổn định và có khả năng dự phòng để không làm gián đoạn chạy tàu.
+
+3. Hệ thống quản lý điều hành chạy tàu phải theo phương thức tập trung.
+
+4. Thông tin, chỉ dẫn cần thiết phục vụ khách hàng phải rõ ràng, dễ hiểu bằng tiếng Việt và tiếng Anh.
+
+Điều 76. Hệ thống kiểm soát vé
+
+1. Hệ thống kiểm soát vé sử dụng công nghệ hiện đại, đồng nhất và có khả năng kết nối với hệ thống kiểm soát vé của các loại hình giao thông khác.
+
+2. Thiết bị của hệ thống kiểm soát vé phải bảo đảm ngăn ngừa, hạn chế hành động phá hoại, truy cập trái phép.
+
+3. Hệ thống kiểm soát vé phải bảo đảm dễ tiếp cận và sử dụng, an toàn cho hành khách, nhân viên đường sắt.
+
+Điều 77. Quản lý an toàn đường sắt đô thị
+
+1. Đường sắt đô thị xây dựng mới hoặc nâng cấp trước khi đưa vào khai thác phải được đánh giá, chứng nhận an toàn hệ thống; thẩm định, cấp Giấy chứng nhận thẩm định hồ sơ an toàn hệ thống đường sắt đô thị.
+
+2. Doanh nghiệp kinh doanh đường sắt đô thị phải xây dựng và duy trì hệ thống quản lý an toàn và được cấp Giấy chứng nhận định kỳ hệ thống quản lý an toàn vận hành đường sắt đô thị.
+
+3. Bộ trưởng Bộ Giao thông vận tải quy định việc thực hiện đánh giá, chứng nhận an toàn hệ thống đối với đường sắt đô thị và cấp Giấy chứng nhận thẩm định hồ sơ an toàn hệ thống đường sắt đô thị, Giấy chứng nhận định kỳ hệ thống quản lý an toàn vận hành đường sắt đô thị.
+
+Chương VIII
+
+ĐƯỜNG SẮT TỐC ĐỘ CAO
+
+Điều 78. Yêu cầu chung đối với đường sắt tốc độ cao
+
+1. Kết nối hiệu quả các đô thị lớn, trung tâm kinh tế, vùng kinh tế trọng điểm và phương thức vận tải khác.
+
+2. Bảo đảm đồng bộ, hiện đại, an toàn, phòng, chống thiên tai và bảo vệ môi trường.
+
+3. Phải được nghiên cứu tổng thể toàn tuyến và tổ chức xây dựng theo nhu cầu vận tải, khả năng huy động vốn.
+
+4. Công trình và phương tiện, thiết bị đường sắt tốc độ cao phải đáp ứng yêu cầu kỹ thuật bảo đảm đồng bộ, an toàn, hiệu quả và đáp ứng yêu cầu về phòng, chống cháy, nổ, cứu hộ, cứu nạn.
+
+5. Phải duy trì hệ thống quản lý đủ khả năng kiểm tra và giám sát khai thác chạy tàu an toàn.
+
+6. Đất dành cho đường sắt tốc độ cao theo quy hoạch được cơ quan nhà nước có thẩm quyền phê duyệt phải được cắm mốc giới theo quy hoạch xây dựng để quản lý, chuẩn bị đầu tư xây dựng.
+
+7. Hành lang an toàn của đường sắt tốc độ cao phải được bảo vệ nghiêm ngặt, tránh mọi hành vi xâm nhập trái phép.
+
+8. Phải bảo đảm thuận tiện cho hành khách và bảo đảm tiếp cận sử dụng cho người khuyết tật theo quy định của pháp luật.
+
+9. Đào tạo, phát triển nguồn nhân lực, chuyển giao công nghệ phù hợp với kế hoạch xây dựng và đáp ứng yêu cầu quản lý, vận hành, khai thác.
+
+Điều 79. Chính sách phát triển đường sắt tốc độ cao
+
+1. Các chính sách quy định tại Điều 5 của Luật này.
+
+2. Nhà nước đóng vai trò chủ đạo trong việc đầu tư xây dựng, tổ chức quản lý, bảo trì và khai thác, kinh doanh đường sắt tốc độ cao.
+
+3. Tập trung phát triển đường sắt tốc độ cao kết nối các vùng kinh tế trọng điểm, thúc đẩy tăng trưởng kinh tế - xã hội.
+
+4. Phát triển đường sắt tốc độ cao đồng bộ, hiện đại.
+
+Điều 80. Yêu cầu đối với kết cấu hạ tầng đường sắt tốc độ cao
+
+1. Kết cấu hạ tầng đường sắt tốc độ cao phải bảo đảm ổn định, bền vững và đáp ứng yêu cầu kỹ thuật về an toàn, môi trường, phòng, chống cháy, nổ tương ứng với loại hình đường sắt tốc độ cao được đầu tư.
+
+2. Hệ thống cung cấp điện sức kéo phải được điều khiển, giám sát tập trung, ổn định và có khả năng dự phòng để không làm gián đoạn chạy tàu.
+
+3. Hệ thống quản lý điều hành chạy tàu phải theo phương thức tập trung.
+
+4. Thông tin, chỉ dẫn cần thiết phục vụ khách hàng phải rõ ràng, dễ hiểu bằng tiếng Việt và tiếng Anh.
+
+Điều 81. Quản lý, khai thác, bảo trì đường sắt tốc độ cao
+
+1. Nhà nước bảo đảm kinh phí quản lý, bảo trì kết cấu hạ tầng đường sắt tốc độ cao do Nhà nước đầu tư.
+
+2. Nhà đầu tư bảo đảm kinh phí quản lý, bảo trì kết cấu hạ tầng đường sắt tốc độ cao do mình đầu tư.
+
+3. Việc tổ chức khai thác đường sắt tốc độ cao phải bảo đảm an toàn, thuận tiện, hiệu quả.
+
+Điều 82. Quản lý an toàn đường sắt tốc độ cao
+
+1. Đường sắt tốc độ cao xây dựng mới hoặc nâng cấp trước khi đưa vào khai thác phải được đánh giá, chứng nhận an toàn hệ thống.
+
+2. Doanh nghiệp kinh doanh đường sắt tốc độ cao phải xây dựng và duy trì hệ thống quản lý an toàn.
+
+Chương IX
+
+QUẢN LÝ NHÀ NƯỚC VỀ HOẠT ĐỘNG ĐƯỜNG SẮT
+
+Điều 83. Nội dung quản lý nhà nước về hoạt động đường sắt
+
+1. Xây dựng, tổ chức thực hiện quy hoạch, kế hoạch, chính sách phát triển đường sắt.
+
+2. Xây dựng, ban hành và tổ chức thực hiện văn bản quy phạm pháp luật, tiêu chuẩn, quy chuẩn kỹ thuật quốc gia, định mức kinh tế - kỹ thuật chuyên ngành đường sắt.
+
+3. Phổ biến, giáo dục pháp luật về đường sắt.
+
+4. Quản lý việc đầu tư xây dựng kết cấu hạ tầng đường sắt; công bố đóng, mở ga, tuyến đường sắt.
+
+5. Quản lý vốn đầu tư công đầu tư trong lĩnh vực đường sắt; quản lý công tác bảo trì kết cấu hạ tầng đường sắt.
+
+6. Quản lý hoạt động vận tải đường sắt và hoạt động điều hành giao thông vận tải đường sắt.
+
+7. Quản lý việc tổ chức bảo đảm an ninh, an toàn cho hoạt động đường sắt; tổ chức quản lý và bảo đảm an ninh, an toàn cho các đoàn tàu thực hiện nhiệm vụ đặc biệt.
+
+8. Quản lý hoạt động phòng, chống thiên tai, tìm kiếm cứu nạn và điều tra sự cố, tai nạn giao thông đường sắt.
+
+9. Cấp, cấp lại, công nhận, thu hồi, xóa chứng chỉ, giấy phép, giấy chứng nhận liên quan đến hoạt động đường sắt.
+
+10. Tổ chức thực hiện việc đăng ký, đăng kiểm phương tiện giao thông đường sắt.
+
+11. Quản lý hoạt động khoa học và công nghệ; đào tạo và phát triển nguồn nhân lực; bảo vệ môi trường, ứng phó với biến đổi khí hậu và sử dụng năng lượng tiết kiệm, hiệu quả trong hoạt động đường sắt.
+
+12. Hợp tác quốc tế trong hoạt động đường sắt.
+
+13. Quản lý giá, phí và lệ phí trong hoạt động đường sắt.
+
+14. Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật trong hoạt động đường sắt.
+
+Điều 84. Trách nhiệm quản lý nhà nước về hoạt động đường sắt
+
+1. Chính phủ thống nhất quản lý nhà nước về hoạt động đường sắt.
+
+2. Bộ Giao thông vận tải là cơ quan đầu mối giúp Chính phủ thực hiện quản lý nhà nước về hoạt động đường sắt.
+
+3. Bộ, cơ quan ngang Bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm chủ trì, phối hợp với Bộ Giao thông vận tải thực hiện quản lý nhà nước về đường sắt.
+
+4. Ủy ban nhân dân cấp tỉnh trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm tổ chức thực hiện quản lý nhà nước về hoạt động đường sắt.
+
+Điều 85. Tuyên truyền, phổ biến, giáo dục pháp luật về đường sắt
+
+1. Mọi tổ chức hoạt động trong lĩnh vực đường sắt có trách nhiệm tuyên truyền, phổ biến, giáo dục pháp luật về đường sắt cho cán bộ, công chức, viên chức, nhân viên thuộc phạm vi quản lý của mình; phối hợp với chính quyền địa phương các cấp nơi có đường sắt đi qua tuyên truyền, vận động Nhân dân chấp hành pháp luật về đường sắt.
+
+2. Ủy ban nhân dân các cấp có trách nhiệm phổ biến và giáo dục pháp luật về đường sắt cho Nhân dân tại địa phương.
+
+3. Cơ quan thông tin, tuyên truyền có trách nhiệm tổ chức tuyên truyền, phổ biến pháp luật về đường sắt thường xuyên, rộng rãi đến người dân.
+
+4. Cơ quan quản lý nhà nước về giáo dục và đào tạo có trách nhiệm chỉ đạo việc giáo dục pháp luật về đường sắt trong các cơ sở giáo dục.
+
+5. Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên có trách nhiệm phối hợp với cơ quan hữu quan và chính quyền địa phương tuyên truyền, vận động Nhân dân thực hiện pháp luật về đường sắt.
+
+Chương X
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 86. Hiệu lực thi hành
+
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2018.
+
+2. Luật Đường sắt số 35/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+
+Điều 87. Quy định chuyển tiếp
+
+1. Dự án đầu tư xây dựng kết cấu hạ tầng đường sắt đã được phê duyệt trước thời điểm Luật này có hiệu lực thì không phải phê duyệt lại, các hoạt động tiếp theo chưa được thực hiện thì thực hiện theo quy định của Luật này.
+
+2. Đối với những vị trí kết nối ray các tuyến đường sắt đang tồn tại đến trước thời điểm Luật này có hiệu lực mà chưa thực hiện được theo quy định tại khoản 1 Điều 15 của Luật này thì doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt phải có biện pháp bảo đảm an toàn chạy tàu.
+
+3. Đối với những vị trí đường sắt giao nhau cùng mức với đường sắt đang tồn tại đến trước thời điểm Luật này có hiệu lực mà chưa thực hiện được theo quy định tại khoản 1 Điều 17 của Luật này thì doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt phải có biện pháp bảo đảm an toàn chạy tàu.
+
+4. Đối với những lối đi tự mở tồn tại đến trước thời điểm Luật này có hiệu lực mà chưa thực hiện được theo quy định tại điểm b khoản 4 Điều 17 của Luật này thì Ủy ban nhân dân các cấp chủ trì, phối hợp với cơ quan quản lý nhà nước liên quan và doanh nghiệp kinh doanh kết cấu hạ tầng đường sắt thực hiện biện pháp bảo đảm an toàn giao thông đường sắt, đường bộ.
+
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 3 thông qua ngày 16 tháng 6 năm 2017.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Thị Kim Ngân
