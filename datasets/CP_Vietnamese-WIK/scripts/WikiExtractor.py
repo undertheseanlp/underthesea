@@ -1240,6 +1240,7 @@ def findMatchingBraces(text, ldelim=0):
                 cur = end
 
 
+# flake8: noqa
 def findBalanced(text, openDelim=['[['], closeDelim=[']]']):
     """
     Assuming that text contains a properly balanced expression using
@@ -1708,8 +1709,6 @@ class Infix:
 
 
 ROUND = Infix(lambda x, y: round(x, y))
-
-from math import floor, ceil, pi, e, trunc, exp, log as ln, sin, cos, tan, asin, acos, atan
 
 
 def sharp_expr(extr, expr):
@@ -2797,7 +2796,7 @@ def pages_from(input):
             title = None
             page = []
 
-
+# flake8: noqa: C901
 def process_dump(input_file, template_file, out_file, file_size, file_compress,
                  process_count):
     """
@@ -2948,7 +2947,7 @@ def process_dump(input_file, template_file, out_file, file_size, file_compress,
 # ----------------------------------------------------------------------
 # Multiprocess support
 
-
+# flake8: noqa: C901
 def extract_process(opts, i, jobs_queue, output_queue):
     """Pull tuples of raw page content, do CPU/regex-heavy fixup, push finished text
     :param i: process id.

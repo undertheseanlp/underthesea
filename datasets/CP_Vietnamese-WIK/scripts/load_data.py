@@ -2,8 +2,7 @@ import bz2
 from os.path import join
 from pathlib import Path
 from WikiExtractor import extract, options
-from multiprocessing import Queue, Process, Value, cpu_count
-from types import SimpleNamespace
+from multiprocessing import cpu_count
 # Download data
 from underthesea.file_utils import DATASETS_FOLDER, get_from_cache
 from underthesea.utils import logger
@@ -17,7 +16,6 @@ def download_wikidump(timestamp):
     get_from_cache(file, cache_dir=DATA_FOLDER)
     # Extract data
     print("Extract data")
-    filepath = join(DATA_FOLDER, f"viwiki-{timestamp}-pages-articles.xml.bz2")
 
 
 def decompress_file(filepath):
