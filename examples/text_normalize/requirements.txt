@@ -1,2 +1,4 @@
 viet-text-tools==0.1.4
 hydra-core==1.2.0
+beautifulsoup4
+lxml
