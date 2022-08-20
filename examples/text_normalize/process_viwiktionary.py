@@ -1,6 +1,6 @@
 from os.path import join
 from bs4 import BeautifulSoup
-
+import pandas as pd
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_CHARACTERS_LOWER, VIETNAMESE_VOWELS_LOWER
 from underthesea.utils.vietnamese_ipa import Syllable
@@ -212,19 +212,77 @@ def extract_syllables():
         f.write(content)
 
 
+def sort_vietnamese(s):
+    vietnamese_alphabet = "aàáảãạ" \
+                          + "ăằắẳẵặ" \
+                          + "âầấẩẫậ" \
+                          + "bcd" \
+                          + "đ" \
+                          + "eèéẻẽẹ" \
+                          + "êềếểễệ" \
+                          + "fgh" \
+                          + "iìíỉĩị" \
+                          + "jklmn" \
+                          + "oòóỏõọ" \
+                          + "ôồốổỗộ" \
+                          + "ơờớởỡợ" \
+                          + "pqrst" \
+                          + "uùúủũụ" \
+                          + "ưừứửữự" \
+                          + "vwx" \
+                          + "yỳýỷỹỵ" \
+                          + "z"
+    vietnamese_alphabet_order = {}
+    for i, c in enumerate(vietnamese_alphabet):
+        vietnamese_alphabet_order[c] = i
+    output = []
+    for c in s:
+        if c in vietnamese_alphabet_order:
+            output.append(vietnamese_alphabet_order[c])
+        else:
+            raise Exception("Need implement")
+    return output
+
+
 def generate_ipa_syllables():
     with open(join("outputs", "syllables.txt")) as f:
         items = f.readlines()
-    result = ""
-    i = 1
+    items = [item.strip() for item in items]
+    items = sorted(items, key=sort_vietnamese)
+    data = []
     for item in items:
-        text = item.strip()
+        text = item
         if text in set(["gĩữ", "by"]):
             continue
         syllable = Syllable(text)
         ipa = syllable.generate_ipa()
+        components = syllable.matched.groupdict()
+        C1 = components['C1']
+
+        row = {
+            "syllable": text,
+            "ipa": ipa,
+            "C1": C1,
+            "w": components['w'],
+            "V": components['V'],
+            "G": components['G'],
+            "C2": components['C2'],
+        }
+        data.append(row)
+    df = pd.DataFrame(data)
+
+    # write excel file
+    df.index = df.index + 1
+    df = df.reset_index()
+    df.to_excel(join("outputs", "syllables_ipa.xlsx"), index=False)
+
+    # write text file
+    result = ""
+    for index, row in df.iterrows():
+        i = row['index']
+        text = row['syllable']
+        ipa = row['ipa']
         result += f"{i},{text},{ipa}\n"
-        i += 1
     with open(join("outputs", "syllables_ipa.txt"), "w") as f:
         f.write(result)
 
