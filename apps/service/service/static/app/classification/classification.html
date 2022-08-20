@@ -1,0 +1,55 @@
+<h2>Classification</h2>
+<p>Vietnamese Text Classification</p>
+<hr/>
+
+<div class="radio">
+  <p>
+    <b>Domain</b>:
+    <label>
+      <input type="radio"
+             name="domain"
+             value="general"
+             ng-model="domain"
+             checked>
+      general
+    </label>
+    <label>
+      <input type="radio"
+             name="domain"
+             ng-model="domain"
+             value="bank">
+      bank
+    </label>
+  </p>
+</div>
+<p><b>Text</b></p>
+<div class="row">
+  <div class="col-lg-8 col-sm-12 text-demo">
+    <div class="form-group">
+      <textarea class="form-control" rows="10" id="text"
+                ng-model="text"></textarea>
+    </div>
+    <p class="text-center">
+      <span class="btn btn-success" ng-click="do()">Classify</span>
+    </p>
+  </div>
+  <div class="col-lg-4 col-sm-12 list-text-demo">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>Try with:</p>
+        <ul class="list-group">
+          <li class="list-group-item"
+              ng-repeat="sample in samples track by $index"
+              ng-click="updateText(sample)">
+            <span class="badge badge-info">{{ $index + 1 }}</span>
+            <span class="content-li"> {{ sample }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<b>Output</b><br/>
+<div id="output">
+  <span class="label label-info" ng-model="tag">{{ tag }}</span>
+</div>
