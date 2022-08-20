@@ -30,3 +30,12 @@ class TestVietnameseIPA(TestCase):
             actual = syllable.generate_ipa()
             expected = ipas[i]
             self.assertEqual(expected, actual)
+
+    def test_4(self):
+        syllables = ["anh", "ách"]
+        ipas = ["ɛŋ", "ɛk"]
+        for i, s in enumerate(syllables):
+            syllable = Syllable(s)
+            actual = syllable.generate_ipa()
+            expected = ipas[i]
+            self.assertEqual(expected, actual)

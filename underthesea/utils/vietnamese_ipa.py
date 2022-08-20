@@ -1,5 +1,45 @@
+from collections import OrderedDict
+from types import SimpleNamespace
+
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
 import regex
+
+
+class VIETNAMESE:
+    LOWERS = SimpleNamespace(
+        WITHOUT_DIACRITIC="aăâbcdđeêfghijklmnoôơpqrstuưvwxyz",
+        HIGH_LEVEL="aaaeêiooouuy",
+        MID_FALLING="àằầèềìòồờùừỳ",
+        RISING="áắấéếíóốớúứý",
+        LOW_FALLING_RISING="ảẳẩẻểỉỏổởủửỷ",
+        HIGH_FALLING_RISING_GLOTTALIZED="ãẵẫẽễĩõỗỡũữỹ",
+        LOW_GLOTTALIZED="ạặậẹệịọộợụựỵ"
+    )
+
+    TONE = SimpleNamespace(
+        HIGH_LEVEL="HIGH_LEVEL",  # e.g. ta, ba
+        MID_FALLING="MID_FALLING",  # e.g. tà, bà
+        RISING="RISING",  # e.g. tá, bá
+        LOW_FALLING_RISING="LOW_FALLING_RISING",  # e.g. tả, bả
+        HIGH_FALLING_RISING_GLOTTALIZED="HIGH_FALLING_RISING_GLOTTALIZED",  # e.g. tã, bã
+        LOW_GLOTTALIZED="LOW_GLOTTALIZED"  # e.g. tạ, bạ
+    )
+
+    @classmethod
+    def remove_tone(cls, s):
+        pass
+
+
+VIETNAMESE_LOWERS_MID_FALLING_TO_HIGH_LEVEL = dict(
+    zip(VIETNAMESE.LOWERS.MID_FALLING, VIETNAMESE.LOWERS.HIGH_LEVEL))
+VIETNAMESE_LOWERS_RISING_TO_HIGH_LEVEL = dict(
+    zip(VIETNAMESE.LOWERS.RISING, VIETNAMESE.LOWERS.HIGH_LEVEL))
+VIETNAMESE_LOWERS_LOW_FALLING_RISING_TO_HIGH_LEVEL = dict(
+    zip(VIETNAMESE.LOWERS.LOW_FALLING_RISING, VIETNAMESE.LOWERS.HIGH_LEVEL))
+VIETNAMESE_LOWERS_HIGH_FALLING_RISING_GLOTTALIZED_TO_HIGH_LEVEL = dict(
+    zip(VIETNAMESE.LOWERS.HIGH_FALLING_RISING_GLOTTALIZED, VIETNAMESE.LOWERS.HIGH_LEVEL))
+VIETNAMESE_LOWERS_LOW_GLOTTALIZED_TO_HIGH_LEVEL = dict(
+    zip(VIETNAMESE.LOWERS.LOW_GLOTTALIZED, VIETNAMESE.LOWERS.HIGH_LEVEL))
 
 
 class Syllable:
@@ -149,12 +189,6 @@ class Syllable:
         }
         map_w = self._util_reverse_dict(map_w)
 
-        map_G = {
-            "j": ["i"],
-            "w": ["o", "u", "y"]
-        }
-        map_G = self._util_reverse_dict(map_G)
-
         ipa = ""
 
         if groups['C1']:
@@ -211,33 +245,33 @@ class Syllable:
             C2 = map_C[groups['C2']]
             ipa += C2
 
-        T = "high_level"
+        T = VIETNAMESE.TONE.HIGH_LEVEL
         for character in self.text:
-            if character in "àằầèềìòờồùừỳ":
-                T = "mid_falling"  # `
+            if character in VIETNAMESE.LOWERS.MID_FALLING:
+                T = VIETNAMESE.TONE.MID_FALLING
             elif character in "áắấéếíóớốúứý":
-                T = "rising"  # /
+                T = VIETNAMESE.TONE.RISING
             elif character in "ảẳẩẻểỉỏởổủửỷ":
-                T = "low_falling_rising"  # ?
+                T = VIETNAMESE.TONE.LOW_FALLING_RISING
             elif character in "ãẵẫẽễĩõỡỗũữỹ":
-                T = "high_falling_rising_glottalized"  # ~
+                T = VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED
             elif character in "ạặậẹệịọợộụựỵ":
-                T = "low_glottalized"  # .
+                T = VIETNAMESE.TONE.LOW_GLOTTALIZED
 
         map_tone_ipa = {
-            "high_level": "˧˧",
-            "mid_falling": "˨˩",
-            "rising": "˨˩",
-            "low_glottalized": "˧˥"
+            VIETNAMESE.TONE.HIGH_LEVEL: "˧˧",
+            VIETNAMESE.TONE.MID_FALLING: "˨˩",
+            VIETNAMESE.TONE.LOW_FALLING_RISING: "˨˩",
+            VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "˧˥"
         }
 
         map_tone_number = {
-            "high_level": "³³",
-            "mid_falling": "²¹",
-            "rising": "³⁴",
-            "low_falling_rising": "³⁰¹",
-            "high_falling_rising_glottalized": "³¹ˀ⁵",
-            "low_glottalized": "¹¹ˀ"
+            VIETNAMESE.TONE.HIGH_LEVEL: "³³",
+            VIETNAMESE.TONE.MID_FALLING: "²¹",
+            VIETNAMESE.TONE.RISING: "³⁴",
+            VIETNAMESE.TONE.LOW_FALLING_RISING: "³⁰¹",
+            VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "³¹ˀ⁵",
+            VIETNAMESE.TONE.LOW_GLOTTALIZED: "¹¹ˀ"
         }
         if tone == "number":
             map_T = map_tone_number
@@ -246,3 +280,32 @@ class Syllable:
         T = map_T[T]
         ipa += T
         return ipa
+
+
+vietnamese_alphabet = "aàáảãạ" \
+                      + "ăằắẳẵặ" \
+                      + "âầấẩẫậ" \
+                      + "bcd" \
+                      + "đ" \
+                      + "eèéẻẽẹ" \
+                      + "êềếểễệ" \
+                      + "fgh" \
+                      + "iìíỉĩị" \
+                      + "jklmn" \
+                      + "oòóỏõọ" \
+                      + "ôồốổỗộ" \
+                      + "ơờớởỡợ" \
+                      + "pqrst" \
+                      + "uùúủũụ" \
+                      + "ưừứửữự" \
+                      + "vwx" \
+                      + "yỳýỷỹỵ" \
+                      + "z"
+
+vietnamese_alphabet_order = OrderedDict()
+for i, c in enumerate(vietnamese_alphabet):
+    vietnamese_alphabet_order[c] = i
+
+
+def vietnamese_sort_key(s):
+    return [vietnamese_alphabet_order[c] for c in s]
