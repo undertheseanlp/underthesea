@@ -4,7 +4,7 @@ def generate_ipa_tables():
         content = f.read()
     lines = content.strip().split("\n")
     output = ""
-    i = 0
+    # i = 0
     for line in lines:
         # i += 1
         # if i > 200:
