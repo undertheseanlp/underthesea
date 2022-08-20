@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="/static/favicon.ico">
+    <title>underthesea</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="static/css/style-vis.css">
+    <link rel="stylesheet" type="text/css" href="static/css/ner.css">
+    <link rel="stylesheet" type="text/css" href="static/css/sa.css">
+    <link rel="stylesheet" type="text/css" href="static/css/ui.css">
+</head>
+<body>
+<div ng-include src="'./static/app/common/nav.html'"></div>
+<div class="container" style="margin-top: 60px;">
+    <div class="col-sm-8">
+        <ui-view></ui-view>
+    </div>
+    <div class="col-sm-4">
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous"
+                src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v14.0&appId=175784506330689&autoLogAppEvents=1"
+                nonce="3AE6Zs6o"></script>
+        <div class="fb-page" data-href="https://www.facebook.com/undertheseanlp/" data-tabs="" data-width=""
+             data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+             data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/undertheseanlp/" class="fb-xfbml-parse-ignore"><a
+                href="https://www.facebook.com/undertheseanlp/">Underthesea</a></blockquote>
+        </div>
+    </div>
+</div>
+</div>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js"></script>
+<script src="./static/js/client/lib/jquery.svg.min.js"></script>
+<!--<script src="./static/js/client/lib/jquery.svgdom.min.js"></script>-->
+<script src="./static/js/client/src/configuration.js"></script>
+<script src="./static/js/client/src/annotation_log.js"></script>
+<script src="./static/js/client/lib/webfont.js"></script>
+<script src="./static/js/client/src/dispatcher.js"></script>
+<script src="./static/js/client/src/url_monitor.js"></script>
+<script src="./static/js/client/src/visualizer.js"></script>
+<script src="./static/js/client/src/util.js"></script>
+
+
+<script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.5/angular.min.js"></script>
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script>
+<script
+    src="https://getbootstrap.com/docs/3.3/dist/js/bootstrap.min.js"></script>
+
+<script src="./static/app/brat/word_sent.js"></script>
+<script src="./static/app/brat/pos_tag.js"></script>
+<script src="./static/app/brat/pos_sample.js"></script>
+<script src="./static/app/brat/chunking.js"></script>
+<script src="./static/app/brat/ner.js"></script>
+<script src="./static/app/brat/chunking_sample.js"></script>
+<script src="./static/app/brat/util.js"></script>
+
+<script src="./static/app/app.js"></script>
+<script src="./static/app/syntax/syntax.js"></script>
+<script src="./static/app/named_entity_recognition/ner.js"></script>
+<script src="./static/app/classification/classification.js"></script>
+<script src="./static/app/sentiment/sentiment.js"></script>
+<script src="./static/app/dictionary/dictionary.js"></script>
+<script src="./static/app/ipa/ipa.js"></script>
+<script src="./static/app/route.js"></script>
+<script src="./static/js/ui.js"></script>
+</body>
+</html>

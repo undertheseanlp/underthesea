@@ -1,0 +1,48 @@
+<h2>Syntactic Analysis</h2>
+<p>analysis of words in the sentence for grammar and arranging words in a
+  manner</p>
+<hr/>
+<p><b>Text</b></p>
+<div class="row">
+  <div class="col-lg-8 col-sm-12 text-demo">
+    <div class="form-group">
+      <textarea class="form-control" rows="10" id="text" ng-model="text"></textarea>
+      <br/>
+      <p class="text-center">
+  <span class="btn btn-success" id="word_segmentation"
+        ng-click="do()">Analyze</span>
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-sm-12 list-text-demo">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>Try with:</p>
+        <ul class="list-group">
+          <li class="list-group-item"
+              ng-repeat="sample in samples track by $index"
+              ng-click="updateText(sample)">
+            <span class="badge badge-info">{{ $index + 1 }}</span>
+            <span class="content-li"> {{ sample }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<b>Word Segmentation</b><br/>
+<div id="word_sent_wrapper">
+  <div class="visualize_word_sent" id="word_sent"></div>
+</div>
+<br/>
+<b>POS Tag</b><br/>
+<div id="pos_tag_wrapper">
+  <div id="pos_tag"></div>
+</div>
+<br/>
+<b>Chunking</b><br/>
+<div id="chunking_wrapper">
+  <div id="chunking"></div>
+</div>
+<br/><br/>
