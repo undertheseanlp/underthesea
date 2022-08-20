@@ -15,7 +15,6 @@ class Syllable:
         u = "[uùúủũụưừứửữự]"
         double = f"{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}"
         v = r"(?P<V>[" + VIETNAMESE_VOWELS_LOWER + "]|" + double + ")"
-        va = r"(?P<V>" + a + ")"
         vy = r"(?P<V>" + y + ")"
         vac = r"(?P<V>" + a_circumflex + ")"
         vec = r"(?P<V>" + e_circumflex + ")"
@@ -52,6 +51,7 @@ class Syllable:
                 result[v] = k
         return result
 
+    # flake8: noqa: C901
     def generate_ipa(self, tone='number'):
         """
 

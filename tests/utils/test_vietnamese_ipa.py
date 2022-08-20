@@ -30,4 +30,3 @@ class TestVietnameseIPA(TestCase):
             actual = syllable.generate_ipa()
             expected = ipas[i]
             self.assertEqual(expected, actual)
-

@@ -4,10 +4,9 @@ from bs4 import BeautifulSoup
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_CHARACTERS_LOWER, VIETNAMESE_VOWELS_LOWER
 from underthesea.utils.vietnamese_ipa import Syllable
+import re
 
 VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
-
-import re
 
 valid_rime_patterns = [
     r"[aàáảãạeèéẻẽẹêềếểễệiìíỉĩịoòóỏõọôồốổỗộơờớởỡợuùúủũụưừứửữựyỳýỷỹỵ]",
@@ -84,6 +83,7 @@ def get_tone(s):
     return None
 
 
+# flake8: noqa: C901
 def split_vietnamese_syllable(s):
     onset, right_side, tone = None, None, None
 
@@ -147,7 +147,7 @@ def read_wiki_dump():
     viwik_file = join(VIWIK_FOLDER, "viwiktionary-20220801-pages-articles-multistream.xml")
     with open(viwik_file, 'r') as f:
         data = f.read()
-    bs_data = BeautifulSoup(data, "xml")
+    # bs_data = BeautifulSoup(data, "xml")
 
 
 class Word:
@@ -183,7 +183,6 @@ class Word:
 
     def split_vietnamese_syllable(self):
         pass
-
 
 
 def extract_syllables():
