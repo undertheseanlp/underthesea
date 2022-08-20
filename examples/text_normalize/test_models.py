@@ -1,14 +1,12 @@
 from unittest import TestCase
 
-from process_viwiktionary import Word, get_rime, split_vietnamese_syllable
-
-from underthesea.utils.vietnamese_ipa import Syllable
+from process_viwiktionary import Word, split_vietnamese_syllable
 
 
 class TestModel(TestCase):
     def test_1(self):
-       word = Word('chó')
-       self.assertTrue(word.is_vietnamese)
+        word = Word('chó')
+        self.assertTrue(word.is_vietnamese)
 
     def test_split_vietnamese_syllable(self):
         s = "cún"
