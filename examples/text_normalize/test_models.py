@@ -1,6 +1,8 @@
 from unittest import TestCase
 
-from process_viwiktionary import Word, get_rime, split_vietnamese_syllable, Syllable
+from process_viwiktionary import Word, get_rime, split_vietnamese_syllable
+
+from underthesea.utils.vietnamese_ipa import Syllable
 
 
 class TestModel(TestCase):
@@ -16,6 +18,3 @@ class TestModel(TestCase):
     def test_2(self):
         word = Word('chiến')
         self.assertTrue(word.is_vietnamese)
-
-    def test_syllable(self):
-        syllable = Syllable("a")
