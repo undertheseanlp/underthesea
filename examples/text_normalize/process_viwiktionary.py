@@ -1,10 +1,9 @@
 from os.path import join
-
-import regex
 from bs4 import BeautifulSoup
 
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_CHARACTERS_LOWER, VIETNAMESE_VOWELS_LOWER
+from underthesea.utils.vietnamese_ipa import Syllable
 
 VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
 
@@ -186,75 +185,6 @@ class Word:
         pass
 
 
-class Syllable:
-    def __init__(self, text):
-        self.text = text
-        i = "[iìíỉĩị]"
-        y = "[y]"
-        a = "[aàáảãạăằắẳẵặâầấẩẫậ]"
-        e = "[êềếểễệ]"
-        o = "[oòôôồốổỗộơờớởỡợ]"
-        u = "[uùúủũụưừứửữự]"
-        double = f"{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}"
-        v = r"(?P<V>[" + VIETNAMESE_VOWELS_LOWER + "]|" + double + ")"
-        va = r"(?P<V>" + a + ")"
-        G = r"(?P<G>[iyou])?"
-        w = r"(?P<w>[oòóỏõọ])?"
-        wu = r"(?P<w>[u])?"
-        Vye = f"(?P<V>y{e})"
-        consonants = "[bcdđghklmnpqrstvx]|ch|gh|kh|ng|ngh|nh|ph|th|tr|gi"
-        c1 = r"(?P<C1>" + consonants + ")?"
-        c2 = r"(?P<C2>" + consonants + ")?"
-        patterns = [
-            r"^" + c1 + w + v + G + c2 + "$",
-            # r"^" + c1 + wu + va + "",
-            r"^" + c1 + wu + Vye + c2 + "$",
-            r"^" + c1 + "y" + "$"
-        ]
-        pattern = r"(" + "|".join(patterns) + ")"
-
-        matched = regex.match(pattern, text)
-        self.matched = matched
-        if not matched:
-            raise Exception(f"Text {text} not matched")
-
-    def generate_ipa(self):
-        groups = self.matched.groupdict()
-        ipa = ""
-        map_V_r = {
-            "a:": ["a", "à", "á", "ả", "ã", "ạ", "â", "ầ", "ấ", "ẩ", "ẫ", "ậ"],
-            "a": ["ă", "ằ", "ắ", "ẳ", "ẵ", "ặ"],
-            "i": ["i", "ì", "í", "ỉ", "ĩ", "ị"],
-            "ɨ": ["ư", "ừ", "ứ", "ử", "ữ", "ự"],
-            "ia": ["ia", "ìa"],
-            "ɛ": ["e", "è", "é", "ẻ", "ẽ", "ẹ", "ê", "ề", "ế", "ể", "ễ", "ệ"],
-            "ɔ": ["o", "ò", "ó", "ỏ", "õ", "ọ"],
-            "o": ["ô", "ồ", "ố", "ổ", "ỗ", "ộ"],
-            "əː": ["ơ", "ờ", "ớ", "ở", "ỡ", "ợ"],
-            "u": ["u", "ù", "ú", "ủ", "ũ", "ụ"],
-            "iə": [
-                "iê", "iề", "iế", "iể", "iễ", "iệ",
-                "ịa",
-                "yê", "yề", "yế", "yể", "yễ", "yệ"
-            ],
-            "ɨə̰": [
-                "ươ", "ướ", "ưở",
-                "ừa", "ứa", "ửa", "ữa", "ựa"
-            ],
-            "uə": [
-                "uô", "uồ", "uố", "uổ", "uỗ", "uộ",
-                "ua", "ùa", "úa", "ủa", "ũa", "ụa"
-            ],
-        }
-        map_V = {}
-        for k in map_V_r:
-            for v in map_V_r[k]:
-                map_V[v] = k
-
-        V = map_V[groups['V']]
-        ipa = V
-        return ipa
-
 
 def extract_syllables():
     viwik_file = join(VIWIK_FOLDER, "viwiktionary-20220801-pages-articles-multistream-index.txt")
@@ -286,12 +216,18 @@ def extract_syllables():
 def generate_ipa_syllables():
     with open(join("outputs", "syllables.txt")) as f:
         items = f.readlines()
+    result = ""
+    i = 1
     for item in items:
         text = item.strip()
         if text in set(["gĩữ", "by"]):
             continue
         syllable = Syllable(text)
         ipa = syllable.generate_ipa()
+        result += f"{i},{text},{ipa}\n"
+        i += 1
+    with open(join("outputs", "syllables_ipa.txt"), "w") as f:
+        f.write(result)
 
 
 if __name__ == '__main__':
