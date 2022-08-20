@@ -17,7 +17,8 @@ def word_sent(request):
         text = json.loads(request.body.decode("utf-8"))["text"]
         tags = uts.word_sent(text)
         result["output"] = tags
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
@@ -29,7 +30,8 @@ def pos_tag(request):
         text = json.loads(request.body.decode("utf-8"))["text"]
         tags = uts.pos_tag(text)
         result["output"] = tags
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
@@ -41,7 +43,8 @@ def chunking(request):
         text = json.loads(request.body.decode("utf-8"))["text"]
         tags = uts.chunk(text)
         result["output"] = tags
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
@@ -53,7 +56,8 @@ def ner(request):
         text = json.loads(request.body.decode("utf-8"))["text"]
         tags = uts.ner(text)
         result["output"] = tags
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
@@ -64,7 +68,7 @@ def classification(request):
     try:
         data = json.loads(request.body.decode("utf-8"))
         text = data["text"]
-        domain = data["domain"] if data["domain"] is not "general" else None
+        domain = data["domain"] if data["domain"] != "general" else None
         tags = uts.classify(text, domain=domain)
         result["output"] = tags
     except Exception as e:
@@ -81,7 +85,8 @@ def sentiment(request):
         text = data["text"]
         tags = uts.sentiment(text, domain="bank")
         result["output"] = tags
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
@@ -94,6 +99,7 @@ def dictionary(request):
         text = json.loads(request.body.decode("utf-8"))["text"]
         word = uts_dict.lookup(text)
         result["output"] = word
-    except:
+    except Exception as e:
+        print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
