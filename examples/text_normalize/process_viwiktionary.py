@@ -1,9 +1,10 @@
 from os.path import join
 from bs4 import BeautifulSoup
 import pandas as pd
+
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_CHARACTERS_LOWER, VIETNAMESE_VOWELS_LOWER
-from underthesea.utils.vietnamese_ipa import Syllable
+from underthesea.utils.vietnamese_ipa import Syllable, vietnamese_sort_key
 import re
 
 VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
@@ -212,43 +213,11 @@ def extract_syllables():
         f.write(content)
 
 
-def sort_vietnamese(s):
-    vietnamese_alphabet = "aàáảãạ" \
-                          + "ăằắẳẵặ" \
-                          + "âầấẩẫậ" \
-                          + "bcd" \
-                          + "đ" \
-                          + "eèéẻẽẹ" \
-                          + "êềếểễệ" \
-                          + "fgh" \
-                          + "iìíỉĩị" \
-                          + "jklmn" \
-                          + "oòóỏõọ" \
-                          + "ôồốổỗộ" \
-                          + "ơờớởỡợ" \
-                          + "pqrst" \
-                          + "uùúủũụ" \
-                          + "ưừứửữự" \
-                          + "vwx" \
-                          + "yỳýỷỹỵ" \
-                          + "z"
-    vietnamese_alphabet_order = {}
-    for i, c in enumerate(vietnamese_alphabet):
-        vietnamese_alphabet_order[c] = i
-    output = []
-    for c in s:
-        if c in vietnamese_alphabet_order:
-            output.append(vietnamese_alphabet_order[c])
-        else:
-            raise Exception("Need implement")
-    return output
-
-
 def generate_ipa_syllables():
     with open(join("outputs", "syllables.txt")) as f:
         items = f.readlines()
     items = [item.strip() for item in items]
-    items = sorted(items, key=sort_vietnamese)
+    items = sorted(items, key=vietnamese_sort_key)
     data = []
     for item in items:
         text = item
