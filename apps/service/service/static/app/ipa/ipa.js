@@ -2,19 +2,16 @@ app.controller("IPACtrl", function ($scope) {
     var generateOutput = function(text){
         $.ajax({
             type: "POST",
-            url: "../ipa",
+            url: "../dictionary",
             data: JSON.stringify({"text": text}),
             contentType: 'application/json'
         }).done(function (data) {
             try {
-                console.log(data);
-                if(!data["output"]){
-                    $scope.notFound = true;
-                } else {
-                    $scope.word = data["output"];
-                    $scope.found = true;
-                }
-                $scope.$apply();
+            $scope.audio = document.getElementById('audio');
+            $scope.audio.volume = 0.8;
+            $scope.audio.src = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/success.mp3";
+            $scope.audio.load();
+            $scope.$apply();
             } catch (e) {
                 console.log(e);
             }
@@ -43,10 +40,17 @@ app.controller("IPACtrl", function ($scope) {
     $scope.init = function(){
         $scope.notFound = false;
         $scope.found = false;
+        $scope.audio = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/horse.mp3";
     };
     $scope.init();
     $scope.do = function () {
         var text = $("#text").val();
         generateOutput(text);
+    }
+
+    $scope.playAudio = function(){
+        console.log("play audio");
+        $scope.audio = document.getElementById('audio');
+        $scope.audio.play();
     }
 });

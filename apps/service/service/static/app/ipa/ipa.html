@@ -2,25 +2,41 @@
 <p>more than 6000 syllables</p>
 <hr/>
 <div class="form-group">
-  <div class="input-group">
-    <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
-    <input ng-change="init()" type="text" id="text" ng-model="text" my-enter="do()" class="form-control">
-    <span class="input-group-btn">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <input ng-change="init()" type="text" id="text" ng-model="text" my-enter="do()" class="form-control">
+        <span class="input-group-btn">
       <button class="btn btn-default" type="button" ng-click="do()">Search</button>
     </span>
-  </div>
+    </div>
 </div>
 
-<div class="panel panel-default" ng-if="notFound">
-  <div class="panel-body">
-    Không tìm thấy âm <b>{{ text }}</b>.
-  </div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <p>
+            <b>HN</b>
+            <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control"></span>
+        </p>
+        <br/>
+
+        <audio id="audio">
+            <source ng-src="{{ audio }}" type="audio/mpeg">
+        </audio>
+    </div>
 </div>
 
-<div class="panel panel-default" ng-click="showExample = !showExample" ng-init="showExample = false" ng-if="found" ng-repeat="sense in word">
-  <div class="panel-body">
-    <b>{{ sense.pos }} ({{ getPOSDescription(sense.pos) }})</b>. {{
-    sense.definition }}<br/>
-    <i ng-show="showExample">Ví dụ: {{ sense.example}}</i>
-  </div>
-</div>
+<!--<div class="panel panel-default" ng-if="notFound">-->
+<!--    <div class="panel-body">-->
+<!--        Không tìm thấy âm <b>{{ text }}</b>.-->
+<!--    </div>-->
+<!--</div>-->
+
+<!--<div class="panel panel-default" ng-click="showExample = !showExample" ng-init="showExample = false" ng-if="found"-->
+<!--     ng-repeat="sense in word">-->
+<!--    <div class="panel-body">-->
+<!--        <b>{{ sense.pos }} ({{ getPOSDescription(sense.pos) }})</b>. {{-->
+<!--        sense.definition }}<br/>-->
+<!--        <i ng-show="showExample">Ví dụ: {{ sense.example}}</i>-->
+<!--    </div>-->
+<!--</div>-->
+
