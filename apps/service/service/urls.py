@@ -29,5 +29,6 @@ urlpatterns = [
     path('classification', views.classification),
     path('sentiment', views.sentiment),
     path('dictionary', views.dictionary),
+    path('ipa', views.ipa),
     path('admin/', admin.site.urls),
 ]
