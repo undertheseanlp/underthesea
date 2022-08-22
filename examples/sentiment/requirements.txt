@@ -1,7 +1,7 @@
-torch
+torch>=1.12.1
 transformers
 hydra-core
 omegaconf
-pytorch-lightning
+pytorch-lightning>=1.7.2
 underthesea
-wandb
+wandb>=0.13.1
