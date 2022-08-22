@@ -5,6 +5,8 @@ from django.views.decorators.csrf import csrf_exempt
 from underthesea.dictionary import Dictionary
 import json
 
+from underthesea.pipeline.ipa import vietnamese_to_ipa
+
 
 def index(request):
     return render(request, 'index.html')
@@ -114,8 +116,7 @@ def ipa(request):
     result = {}
     try:
         text = json.loads(request.body.decode("utf-8"))["text"]
-        ipa = "ʨɔ˧˥"
-        result["ipa"] = ipa
+        result["ipa"] = vietnamese_to_ipa(text)
         sound_repo = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/"
         sound_url = sound_repo + generate_id(text) + ".mp3"
         result["audio_src"] = sound_url
