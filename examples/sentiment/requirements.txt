@@ -1,0 +1,7 @@
+torch
+transformers
+hydra-core
+omegaconf
+pytorch-lightning
+underthesea
+wandb
