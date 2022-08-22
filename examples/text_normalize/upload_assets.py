@@ -3,7 +3,6 @@ from os import listdir
 from os.path import join
 
 from github import Github
-import base64
 
 from underthesea.utils import logger
 

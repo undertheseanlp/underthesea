@@ -105,14 +105,20 @@ def dictionary(request):
     return JsonResponse(result)
 
 
+def generate_id(word):
+    return "".join([hex(ord(c)) for c in word])
+
+
 @csrf_exempt
 def ipa(request):
     result = {}
     try:
-        # text = json.loads(request.body.decode("utf-8"))["text"]
+        text = json.loads(request.body.decode("utf-8"))["text"]
         ipa = "ʨɔ˧˥"
         result["ipa"] = ipa
-        result["audio"] = ""
+        sound_repo = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/"
+        sound_url = sound_repo + generate_id(text) + ".mp3"
+        result["audio_src"] = sound_url
     except Exception as e:
         print(e)
         result = {"error": "Bad request!"}
