@@ -12,19 +12,20 @@
 </div>
 
 <div class="panel panel-default" ng-show="notFound">
-    <div class="panel-body">ow
+    <div class="panel-body">
         Syllable <b>{{ text }}</b> not found.
     </div>
 </div>
 
 <div class="panel panel-default" ng-show="found">
     <div class="panel-body">
-        <h1>{{ text }} </h1>
-        <p style="font-size: 24px !important;">
-            <b>HN</b>
-            <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control" style="font-size: 20px"></span>
-            &nbsp;
-            /{{ ipa }} /
+        <h1>{{ text }}</h1>
+        <p style="font-size: 20px !important;">
+            <div ng-show="showAudio" style="float: left; margin-right: 6px;">
+                <b>HN</b>
+                <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control" style="font-size: 16px"></span>
+            </div>
+            /{{ ipa }}/
         </p>
         <br/>
         <audio id="audio">
