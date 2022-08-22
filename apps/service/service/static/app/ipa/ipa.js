@@ -9,8 +9,12 @@ app.controller("IPACtrl", function ($scope) {
             try {
             $scope.audio = document.getElementById('audio');
             $scope.audio.volume = 1;
-            $scope.audio.src = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/success.mp3";
+            $scope.audio.src = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/" + text + ".mp3";
             $scope.audio.load();
+            $scope.audio.oncanplay = function(){
+                $scope.showAudio = true;
+                $scope.$apply();
+            }
             $scope.ipa = data['ipa'];
             $scope.found = true;
             $scope.notFound = false;
@@ -28,6 +32,7 @@ app.controller("IPACtrl", function ($scope) {
     $scope.init = function(){
         $scope.notFound = false;
         $scope.found = false;
+        $scope.showAudio = false;
         $scope.audio = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/horse.mp3";
     };
     $scope.init();
