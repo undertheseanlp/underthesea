@@ -11,32 +11,25 @@
     </div>
 </div>
 
-<div class="panel panel-default">
+<div class="panel panel-default" ng-show="notFound">
+    <div class="panel-body">ow
+        Syllable <b>{{ text }}</b> not found.
+    </div>
+</div>
+
+<div class="panel panel-default" ng-show="found">
     <div class="panel-body">
-        <p>
+        <h1>{{ text }} </h1>
+        <p style="font-size: 24px !important;">
             <b>HN</b>
-            <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control"></span>
+            <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control" style="font-size: 20px"></span>
+            &nbsp;
+            /{{ ipa }} /
         </p>
         <br/>
-
         <audio id="audio">
             <source ng-src="{{ audio }}" type="audio/mpeg">
         </audio>
     </div>
 </div>
-
-<!--<div class="panel panel-default" ng-if="notFound">-->
-<!--    <div class="panel-body">-->
-<!--        Không tìm thấy âm <b>{{ text }}</b>.-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<div class="panel panel-default" ng-click="showExample = !showExample" ng-init="showExample = false" ng-if="found"-->
-<!--     ng-repeat="sense in word">-->
-<!--    <div class="panel-body">-->
-<!--        <b>{{ sense.pos }} ({{ getPOSDescription(sense.pos) }})</b>. {{-->
-<!--        sense.definition }}<br/>-->
-<!--        <i ng-show="showExample">Ví dụ: {{ sense.example}}</i>-->
-<!--    </div>-->
-<!--</div>-->
 

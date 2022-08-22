@@ -103,3 +103,16 @@ def dictionary(request):
         print(e)
         result = {"error": "Bad request!"}
     return JsonResponse(result)
+
+@csrf_exempt
+def ipa(request):
+    result = {}
+    uts_dict = Dictionary.Instance()
+    try:
+        text = json.loads(request.body.decode("utf-8"))["text"]
+        word = "ʨɔ˧˥"
+        result["ipa"] = word
+    except Exception as e:
+        print(e)
+        result = {"error": "Bad request!"}
+    return JsonResponse(result)
