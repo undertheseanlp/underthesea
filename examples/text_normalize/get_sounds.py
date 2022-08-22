@@ -104,7 +104,7 @@ if __name__ == '__main__':
                 with open(SOUND_DOWNLOAD_SUCCESS_FILE, "w") as f:
                     content = "\n".join(syllables_sound_download_success)
                     f.write(content)
-            except Exception as e:
+            except Exception:
                 COUNT_FAILED += 1
                 syllables_sound_download_failed.add(text)
                 with open(SOUND_DOWNLOAD_FAILED_FILE, "w") as f:
