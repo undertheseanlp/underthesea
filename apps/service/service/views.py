@@ -104,13 +104,14 @@ def dictionary(request):
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
+
 @csrf_exempt
 def ipa(request):
     result = {}
     try:
-        text = json.loads(request.body.decode("utf-8"))["text"]
-        word = "ʨɔ˧˥"
-        result["ipa"] = word
+        # text = json.loads(request.body.decode("utf-8"))["text"]
+        ipa = "ʨɔ˧˥"
+        result["ipa"] = ipa
         result["audio"] = ""
     except Exception as e:
         print(e)
