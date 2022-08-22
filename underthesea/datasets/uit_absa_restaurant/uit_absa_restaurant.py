@@ -74,7 +74,7 @@ class UITABSARestaurant:
         }
 
     def _extract_sentences(self, file):
-        with open(file) as f:
+        with open(file, encoding='utf-8') as f:
             content = f.read()
             sentences = content.split("\n\n")
             sentences = [self._extract_sentence(s) for s in sentences]
