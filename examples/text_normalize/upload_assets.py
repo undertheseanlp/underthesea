@@ -11,7 +11,11 @@ g = Github(access_token)
 repo = g.get_repo('undertheseanlp/underthesea')
 release = repo.get_release('open-data-voice-ipa')
 assets = {}
+i = 0
 for asset in release.get_assets():
+    i += 1
+    if i % 200 == 0:
+        logger.info(f"Load {i} items")
     name = asset.name
     assets[name] = asset
 
