@@ -1,8 +1,8 @@
 on:
   pull_request:
     branches: [ master ]
-    types:
-        - labeled
+#    types:
+#        - labeled
 
 jobs:
   ci-sentiment:
