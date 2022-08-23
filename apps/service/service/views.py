@@ -5,6 +5,8 @@ from django.views.decorators.csrf import csrf_exempt
 from underthesea.dictionary import Dictionary
 import json
 
+from underthesea.pipeline.ipa import vietnamese_to_ipa
+
 
 def index(request):
     return render(request, 'index.html')
@@ -104,14 +106,20 @@ def dictionary(request):
         result = {"error": "Bad request!"}
     return JsonResponse(result)
 
+
+def generate_id(word):
+    return "".join([hex(ord(c)) for c in word])
+
+
 @csrf_exempt
 def ipa(request):
     result = {}
-    uts_dict = Dictionary.Instance()
     try:
         text = json.loads(request.body.decode("utf-8"))["text"]
-        word = "ʨɔ˧˥"
-        result["ipa"] = word
+        result["ipa"] = vietnamese_to_ipa(text)
+        sound_repo = "https://github.com/undertheseanlp/underthesea/releases/download/open-data-voice-ipa/"
+        sound_url = sound_repo + generate_id(text) + ".mp3"
+        result["audio_src"] = sound_url
     except Exception as e:
         print(e)
         result = {"error": "Bad request!"}
