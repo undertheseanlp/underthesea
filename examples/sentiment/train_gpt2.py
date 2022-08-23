@@ -3,7 +3,7 @@ import pytorch_lightning as pl
 from omegaconf import DictConfig
 from torch.optim import SGD
 import torch.nn as nn
-from torchmetrics import F1
+from torchmetrics import F1Score as F1
 from transformers import AutoTokenizer, AutoModelWithLMHead
 from pytorch_lightning.loggers import WandbLogger
 from examples.sentiment.data import MultiLabelClassificationDatamodule

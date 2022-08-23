@@ -1,0 +1,7 @@
+torch>=1.12.1
+transformers
+hydra-core
+omegaconf
+pytorch-lightning>=1.7.2
+underthesea
+wandb>=0.13.1
