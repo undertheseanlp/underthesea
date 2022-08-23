@@ -217,7 +217,7 @@ def main(config: DictConfig) -> None:
 
     # logger = WandbLogger(project="debug-phobert-sentiment")
     trainer = pl.Trainer(
-        max_epochs=config.trainer.epochs,
+        max_epochs=config.trainer.epoch,
         accelerator="cpu",
         enable_progress_bar=True,
         # logger=logger
