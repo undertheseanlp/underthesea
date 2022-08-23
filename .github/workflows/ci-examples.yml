@@ -1,10 +1,12 @@
 on:
   pull_request:
     branches: [ master ]
+    types:
+        - labeled
 
 jobs:
   ci-sentiment:
-    if: ${{ contains(github.event.head_commit.message, 'ci') }}
+    if: ${{ github.event.label.name == 'ci-sentiment' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
