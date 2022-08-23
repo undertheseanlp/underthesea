@@ -1,7 +1,9 @@
 import torch
+import hydra
 import torch.nn as nn
 import pytorch_lightning as pl
 # from pytorch_lightning.loggers import WandbLogger
+from omegaconf import DictConfig
 from torchmetrics import F1Score as F1
 
 from torch.utils.data import Dataset, DataLoader
@@ -171,9 +173,9 @@ class BertForMultilabelClassification(pl.LightningModule):
         return optimizer
 
 
-def main():
+@hydra.main(config_path="configs/", config_name="config.yaml")
+def main(config: DictConfig) -> None:
     corpus = UITABSAHotel(training="aspect")  # predicting aspect or polarity
-    epochs = 5
     batch_size = 24
     max_sequence_len = 100
     num_labels = corpus.num_labels
@@ -215,7 +217,7 @@ def main():
 
     # logger = WandbLogger(project="debug-phobert-sentiment")
     trainer = pl.Trainer(
-        max_epochs=epochs,
+        max_epochs=config.trainer.epochs,
         accelerator="cpu",
         enable_progress_bar=True,
         # logger=logger

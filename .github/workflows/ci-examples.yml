@@ -19,7 +19,7 @@ jobs:
         working-directory: ./examples/sentiment
         run: |
           pip install -r requirements.txt
-      - name: Install dependencies
+      - name: Train Models
         working-directory: ./examples/sentiment
         run: |
-          python train_bert.py data.batch_size=2 data.samples=100
+          python train_bert.py data.batch_size=2 data.samples=10 trainer.epochs=1
