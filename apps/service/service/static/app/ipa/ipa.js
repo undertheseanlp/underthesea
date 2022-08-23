@@ -21,7 +21,7 @@ app.controller("IPACtrl", function ($scope) {
                 $scope.isLoading = false;
                 $scope.notFound = false;
                 $scope.$apply();
-            }, 2000);
+            }, 1000);
 
             } catch (e) {
                 console.log(e);
@@ -47,6 +47,11 @@ app.controller("IPACtrl", function ($scope) {
         var text = $("#text").val();
         $scope.text = text;
         generateOutput(text);
+    }
+
+    $scope.initDo = function(){
+        $scope.init();
+        $scope.do();
     }
 
     $scope.playAudio = function(){
