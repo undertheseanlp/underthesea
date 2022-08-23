@@ -7,7 +7,11 @@ on:
 jobs:
   ci-sentiment:
 #    if: ${{ github.event.label.name == 'ci-sentiment' }}
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, mac-os-latest, windows-latest ]
     steps:
       - name: Checkout
         uses: actions/checkout@v1
