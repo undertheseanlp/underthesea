@@ -71,7 +71,7 @@ class UITABSADataModule(pl.LightningDataModule):
 
     def train_dataloader(self):
         output = DataLoader(
-            self.train_dataset, self.batch_size, shuffle=True, drop_last=True
+            self.train_dataset, self.batch_size, shuffle=True, drop_last=True,
         )
         return output
 
@@ -186,7 +186,7 @@ def main(config: DictConfig) -> None:
         data=corpus.train,
         max_sequence_len=max_sequence_len,
         num_labels=num_labels,
-        tokenizer=tokenizer
+        tokenizer=tokenizer,
     )
     val_dataset = UITABSADataset(
         data=corpus.dev,
