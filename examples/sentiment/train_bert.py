@@ -10,7 +10,7 @@ from transformers import (
     AdamW,
     RobertaModel,
     BertPreTrainedModel,
-    RobertaConfig,
+    RobertaConfig
 )
 from underthesea import word_tokenize
 from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
@@ -42,7 +42,7 @@ class UITABSADataset(Dataset):
             truncation=True,
             padding="max_length",
             return_attention_mask=True,
-            return_tensors="pt",
+            return_tensors="pt"
         )
         hot_encoding = []
         for i in range(self.num_labels):
@@ -54,7 +54,7 @@ class UITABSADataset(Dataset):
         output = dict(
             input_ids=encoded["input_ids"],
             attention_mask=encoded["attention_mask"],
-            labels=label_hot_encoding,
+            labels=label_hot_encoding
         )
         return output
 
@@ -102,13 +102,13 @@ class RobertaForABSA(BertPreTrainedModel):
         position_ids=None,
         head_mask=None,
         start_positions=None,
-        end_positions=None,
+        end_positions=None
     ):
         outputs = self.roberta(
             input_ids,
             attention_mask=attention_mask,
             position_ids=position_ids,
-            head_mask=head_mask,
+            head_mask=head_mask
         )
         return outputs
 
@@ -184,19 +184,19 @@ def main():
         data=corpus.train,
         max_sequence_len=max_sequence_len,
         num_labels=num_labels,
-        tokenizer=tokenizer,
+        tokenizer=tokenizer
     )
     val_dataset = UITABSADataset(
         data=corpus.dev,
         max_sequence_len=max_sequence_len,
         num_labels=num_labels,
-        tokenizer=tokenizer,
+        tokenizer=tokenizer
     )
     test_dataset = UITABSADataset(
         data=corpus.test,
         max_sequence_len=max_sequence_len,
         num_labels=num_labels,
-        tokenizer=tokenizer,
+        tokenizer=tokenizer
     )
 
     n_warmup_steps = 20
@@ -206,7 +206,7 @@ def main():
         bert_model=BERT_MODEL_NAME,
         n_classes=num_labels,
         n_warmup_steps=n_warmup_steps,
-        n_training_steps=n_training_steps,
+        n_training_steps=n_training_steps
     )
 
     data_module = UITABSADataModule(
@@ -218,7 +218,7 @@ def main():
         max_epochs=epochs,
         accelerator="cpu",
         enable_progress_bar=True,
-        logger=logger,
+        logger=logger
     )
     trainer.fit(model, data_module)
     trainer.test()
