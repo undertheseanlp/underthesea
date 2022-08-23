@@ -2,6 +2,6 @@
 
 ### CI
 
-Please put following `pull requests label` to trigger ci
+Please use following `Pull Request Labels` to trigger ci
 
 * `ci-sentiment`
