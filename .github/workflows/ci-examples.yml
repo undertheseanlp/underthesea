@@ -16,6 +16,6 @@ jobs:
         with:
           python-version: 3.7
       - name: Install dependencies
-        working-directory: ./examples/text_normalize
+        working-directory: ./examples/sentiment
         run: |
           pip install -r requirements.txt
