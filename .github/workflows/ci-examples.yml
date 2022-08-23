@@ -19,3 +19,7 @@ jobs:
         working-directory: ./examples/sentiment
         run: |
           pip install -r requirements.txt
+      - name: Install dependencies
+        working-directory: ./examples/sentiment
+        run: |
+          python train_bert.py data.batch_size=2 data.samples=100 logger.project=debug-sentiment-5

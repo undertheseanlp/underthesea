@@ -9,10 +9,10 @@ python train_gpt2.py data.batch_size=2 ++data.num_workers=16 logger.project=loca
 Run with 100 samples
 
 ```
-python train_gpt2.py data.batch_size=2 data.samples=100 logger.project=debug-sentiment-5 
+python train_gpt2.py data.batch_size=2 data.samples=100 logger.project=debug-sentiment-5
 ```
 
-Run in clouod
+Run in cloud
 ```
 python train_gpt2.py data.batch_size=16 ++data.num_workers=16 logger.project=cloud-sentiment-5
 ```
@@ -26,10 +26,10 @@ python train_bert.py data.batch_size=2 ++data.num_workers=16 logger.project=loca
 Run with 100 samples
 
 ```
-python train_bert.py data.batch_size=2 data.samples=100 logger.project=debug-sentiment-5 
+python train_bert.py data.batch_size=2 data.samples=100 logger.project=debug-sentiment-5
 ```
 
-Run in clouod
+Run in cloud
 ```
 python train_bert.py data.batch_size=16 ++data.num_workers=16 logger.project=cloud-sentiment-5
 ```
