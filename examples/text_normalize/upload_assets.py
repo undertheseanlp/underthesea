@@ -29,8 +29,9 @@ for name in names:
     word = name.split(".")[0]
     word_id = generate_id(word)
     asset_name = word_id + ".mp3"
-    logger.info(f'Upload file {asset_name} for word {name}')
     if asset_name in assets:
-        asset = assets[asset_name]
-        asset.delete_asset()
+        # asset = assets[asset_name]
+        # asset.delete_asset()
+        continue
+    logger.info(f'Upload file {asset_name} for word {name}')
     release.upload_asset(path, name=asset_name)
