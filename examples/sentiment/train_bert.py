@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import pytorch_lightning as pl
-from pytorch_lightning.loggers import WandbLogger
+# from pytorch_lightning.loggers import WandbLogger
 from torchmetrics import F1Score as F1
 
 from torch.utils.data import Dataset, DataLoader
@@ -213,12 +213,12 @@ def main():
         train_dataset, val_dataset, test_dataset, batch_size
     )
 
-    logger = WandbLogger(project="debug-phobert-sentiment")
+    # logger = WandbLogger(project="debug-phobert-sentiment")
     trainer = pl.Trainer(
         max_epochs=epochs,
         accelerator="cpu",
         enable_progress_bar=True,
-        logger=logger
+        # logger=logger
     )
     trainer.fit(model, data_module)
     trainer.test()
