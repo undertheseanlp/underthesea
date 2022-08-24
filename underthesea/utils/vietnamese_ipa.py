@@ -8,12 +8,12 @@ import regex
 class VIETNAMESE:
     LOWERS = SimpleNamespace(
         WITHOUT_DIACRITIC="aăâbcdđeêfghijklmnoôơpqrstuưvwxyz",
-        HIGH_LEVEL="aaaeêiooouuy",
+        HIGH_LEVEL="aăâeêioôơuưy",
         MID_FALLING="àằầèềìòồờùừỳ",
         RISING="áắấéếíóốớúứý",
         LOW_FALLING_RISING="ảẳẩẻểỉỏổởủửỷ",
         HIGH_FALLING_RISING_GLOTTALIZED="ãẵẫẽễĩõỗỡũữỹ",
-        LOW_GLOTTALIZED="ạặậẹệịọộợụựỵ"
+        LOW_GLOTTALIZED="ạặậẹệịọộợụựỵ",
     )
 
     TONE = SimpleNamespace(
@@ -26,60 +26,72 @@ class VIETNAMESE:
     )
 
     @classmethod
-    def remove_tone(cls, s):
-        pass
+    def analyze_tone(cls, s):
+        hl = cls.LOWERS.HIGH_LEVEL
+        mf = cls.LOWERS.MID_FALLING
+        r = cls.LOWERS.RISING
+        lfr = cls.LOWERS.LOW_FALLING_RISING
+        hfrg = cls.LOWERS.HIGH_FALLING_RISING_GLOTTALIZED
+        lg = cls.LOWERS.LOW_GLOTTALIZED
+        d1 = mf + r + lfr + hfrg + lg
+        d2 = hl + hl + hl + hl + hl
+        tmp = s.maketrans(d1, d2)
+        non_tone_letters = s.translate(tmp)
 
-
-VIETNAMESE_LOWERS_MID_FALLING_TO_HIGH_LEVEL = dict(
-    zip(VIETNAMESE.LOWERS.MID_FALLING, VIETNAMESE.LOWERS.HIGH_LEVEL))
-VIETNAMESE_LOWERS_RISING_TO_HIGH_LEVEL = dict(
-    zip(VIETNAMESE.LOWERS.RISING, VIETNAMESE.LOWERS.HIGH_LEVEL))
-VIETNAMESE_LOWERS_LOW_FALLING_RISING_TO_HIGH_LEVEL = dict(
-    zip(VIETNAMESE.LOWERS.LOW_FALLING_RISING, VIETNAMESE.LOWERS.HIGH_LEVEL))
-VIETNAMESE_LOWERS_HIGH_FALLING_RISING_GLOTTALIZED_TO_HIGH_LEVEL = dict(
-    zip(VIETNAMESE.LOWERS.HIGH_FALLING_RISING_GLOTTALIZED, VIETNAMESE.LOWERS.HIGH_LEVEL))
-VIETNAMESE_LOWERS_LOW_GLOTTALIZED_TO_HIGH_LEVEL = dict(
-    zip(VIETNAMESE.LOWERS.LOW_GLOTTALIZED, VIETNAMESE.LOWERS.HIGH_LEVEL))
+        tone = cls.TONE.HIGH_LEVEL
+        for c in s:
+            if c in mf:
+                tone = cls.TONE.MID_FALLING
+            elif c in r:
+                tone = cls.TONE.RISING
+            elif c in lfr:
+                tone = cls.TONE.LOW_FALLING_RISING
+            elif c in hfrg:
+                tone = cls.TONE.HIGH_FALLING_RISING_GLOTTALIZED
+            elif c in lg:
+                tone = cls.TONE.LOW_GLOTTALIZED
+        return non_tone_letters, tone
 
 
 class Syllable:
     def __init__(self, text):
         self.text = text
-        i = "[iìíỉĩị]"
-        y = "[yỳýỷỹỵ]"
-        a = "[aàáảãạăằắẳẵặâầấẩẫậ]"
-        a_circumflex = "[âầấẩẫậ]"
-        e = "[êềếểễệ]"
-        e_circumflex = "[êềếểễệ]"
-        o = "[oòôôồốổỗộơờớởỡợ]"
-        u = "[uùúủũụưừứửữự]"
-        double = f"{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}"
+        non_tone_letters, tone = VIETNAMESE.analyze_tone(text)
+        self.tone = tone
+        i = "i"
+        y = "y"
+        a = "[aăâ]"
+        a_circumflex = "â"
+        e = "[ê]"
+        o = "[oôơ]"
+        u = "[uư]"
+        double = f"{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}|{o}{o}"
         v = r"(?P<V>[" + VIETNAMESE_VOWELS_LOWER + "]|" + double + ")"
         vy = r"(?P<V>" + y + ")"
         vac = r"(?P<V>" + a_circumflex + ")"
-        vec = r"(?P<V>" + e_circumflex + ")"
+        vec = r"(?P<V>" + e + ")"
         G = r"(?P<G>[iyou])?"
         w = r"(?P<w>[o])?"
-        wo = r"(?P<w>[oòóỏõọ])?"
-        wu = r"(?P<w>[uù])?"
+        wo = r"(?P<w>[o])?"
+        wu = r"(?P<w>[u])?"
         Vye = f"(?P<V>y{e})"
         Vya = f"(?P<V>y{a})"
         consonants = "gi|qu|ch|gh|kh|ng|ngh|nh|ph|th|tr|[bcdđghklmnpqrstvx]"
         c1 = r"(?P<C1>" + consonants + ")?"
         c2 = r"(?P<C2>" + consonants + ")?"
         patterns = [
+            r"^" + c1 + wu + vy + G + c2 + "$",
+            r"^" + c1 + v + G + c2 + "$",
             r"^" + c1 + w + v + G + c2 + "$",
             r"^" + c1 + wu + vac + G + c2 + "$",
             r"^" + c1 + wo + r"(?P<V>[ea])" + G + c2 + "$",
             r"^" + c1 + wu + vec + G + c2 + "$",
-            r"^" + c1 + wu + vy + G + c2 + "$",
             r"^" + c1 + wu + Vye + G + c2 + "$",
-            r"^" + c1 + wu + Vya + G + c2 + "$",
-            r"^" + c1 + "y" + "$"
+            r"^" + c1 + wu + Vya + G + c2 + "$"
         ]
         pattern = r"(" + "|".join(patterns) + ")"
 
-        matched = regex.match(pattern, text)
+        matched = regex.match(pattern, non_tone_letters)
         self.matched = matched
         if not matched:
             raise Exception(f"Text {text} not matched")
@@ -94,169 +106,136 @@ class Syllable:
     # flake8: noqa: C901
     def generate_ipa(self, tone='number'):
         """
+        syllable = c1 + (w) + v + G + c2
+        G: iyou
+        TODO: merge G with c2
 
         Args:
             tone (str): ipa or number
         """
         groups = self.matched.groupdict()
-        non_diacritic = {
-            "a": ["a", "à", "á", "ả", "ã", "ạ"],
-            "ă": ["ă", "ằ", "ắ", "ẳ", "ẵ", "ặ"],
-            "â": ["â", "ầ", "ấ", "ẩ", "ẫ", "ậ"],
-            "e": ["e", "è", "é", "ẻ", "ẽ", "ẹ"],
-            "ê": ["ê", "ề", "ế", "ể", "ễ", "ệ"],
-            "i": ["i", "ì", "í", "ỉ", "ĩ", "ị"],
-            "ia": ["ia", "ìa", "ía", "ỉa", "ĩa", "ịa"],
-            "iê": ["iê", "iề", "iế", "iể", "iễ", "iệ"],
-            "o": ["o", "ò", "ó", "ỏ", "õ", "ọ"],
-            "ô": ["ô", "ồ", "ố", "ổ", "ỗ", "ộ"],
-            "ơ": ["ơ", "ờ", "ớ", "ở", "ỡ", "ợ"],
-            "u": ["u", "ù", "ú", "ủ", "ũ", "ụ"],
-            "ua": ["ua", "ùa", "úa", "ủa", "ũa", "ụa"],
-            "uâ": ["uâ", "uầ", "uấ", "uẩ", "uẫ", "uậ"],
-            "uô": ["uô", "uồ", "uố", "uổ", "uỗ", "uộ"],
-            "ư": ["ư", "ừ", "ứ", "ử", "ữ", "ự"],
-            "ưa": ["ưa", "ừa", "ứa", "ửa", "ữa", "ựa"],
-            "ươ": ["ươ", "ườ", "ướ", "ưở", "ưỡ", "ượ"],
-            "y": ["y", "ỳ", "ý", "ỷ", "ỹ", "ỵ"],
-            "yê": ["yê", "yề", "yế", "yể", "yễ", "yệ"],
-            "ya": ["ya"]
-        }
-        non_diacritic = self._util_reverse_dict(non_diacritic)
+
         map_V = {
-            "a": ["a", "à", "á", "ả", "ã", "ạ"],
-            "ă": ["ă", "ằ", "ắ", "ẳ", "ẵ", "ặ"],
-            "ɤ̆": ["â", "ầ", "ấ", "ẩ", "ẫ", "ậ"],
-            "i": [
-                "i", "ì", "í", "ỉ", "ĩ", "ị",
-                "y", "ỳ", "ý", "ỷ", "ỹ", "ỵ"
-            ],
-            "ɨ": ["ư", "ừ", "ứ", "ử", "ữ", "ự"],
-            "ia": ["ia", "ìa"],
-            "ɛ": ["e", "è", "é", "ẻ", "ẽ", "ẹ", "ê", "ề", "ế", "ể", "ễ", "ệ"],
-            "ɔ": ["o", "ò", "ó", "ỏ", "õ", "ọ"],
-            "o": ["ô", "ồ", "ố", "ổ", "ỗ", "ộ"],
-            "əː": ["ơ", "ờ", "ớ", "ở", "ỡ", "ợ"],
-            "u": ["u", "ù", "ú", "ủ", "ũ", "ụ"],
-            "iə": [
-                "iê", "iề", "iế", "iể", "iễ", "iệ",
-                "ìa", "ía", "ỉa", "ĩa", "ịa",
-                "yê", "yề", "yế", "yể", "yễ", "yệ",
-                "ya",
-            ],
-            "ɨə̰": [
-                "ươ", "ườ", "ướ", "ưở", "ưỡ", "ượ",
-                "ưa", "ừa", "ứa", "ửa", "ữa", "ựa"
-            ],
-            "wə": [
-                "uâ", "uầ", "uấ", "uẩ", "uẫ", "uậ"
-            ],
-            "uə": [
-                "uô", "uồ", "uố", "uổ", "uỗ", "uộ",
-                "ua", "ùa", "úa", "ủa", "ũa", "ụa"
-            ],
+            "a": ["a"],
+            "ă": ["ă"],
+            "ɤ̆": ["â"],
+            "i": ["i", "y"],
+            "ɯ": ["ư"],
+            "ɛ": ["e"],
+            "e": ["ê"],
+            "ↄ": ["o"],
+            "o": ["ô"],
+            "ɤ": ["ơ"],
+            "u": ["u"],
+            "iə": ["ie", "iê", "ia", "yê", "ya"],
+            "ɯə̰": ["ưa"],
+            "ɯə": ["ươ"],
+            "wə": ["uâ"],
+            "uə": ["uô", "ua"],
         }
         map_V = self._util_reverse_dict(map_V)
 
         map_C = {
-            # "ɓ": ["b"],
             "b": ["b"],
             "k": ["c", "k", "q"],
             "kʰ": ["kh"],
             "ʨ": ["ch", "tr"],
+            "z": ["d"],
+            "zi": ["gi"],
+            "ɣ": ["g", "gh"],
+            "h": ["h"],
+            "l": ["l"],
+            "m": ["m"],
+            "n": ["n"],
+            "ŋ": ["ng", "ngh", "nh"],
+            "p": ["p"],
+            "f": ["ph"],
+            "kw": ["qu"],
+            "r": ["r"],
+            "s": ["s"],
+            "x": ["x"],
+            "t": ["t"],
+            "tʰ": ["th"],
+            "v": ["v"],
+            "ɗ": ["đ"],
+        }
+
+        map_C2 = {
+            "b": ["b"],
+            "k": ["c", "k", "q", "ch"],
+            "kʰ": ["kh"],
             "z": ["d", "gi"],
             "ɣ": ["g", "gh"],
             "h": ["h"],
             "l": ["l"],
             "m": ["m"],
             "n": ["n"],
-            "ŋ": ["ng", "ngh"],
-            "ɲ": ["nh"],
+            "ŋ": ["ng", "ngh", "nh"],
             "p": ["p"],
             "f": ["ph"],
             "kw": ["qu"],
             "r": ["r"],
-            "s": ["s", "x"],
+            "s": ["s"],
+            "x": ["x"],
             "t": ["t"],
             "tʰ": ["th"],
             "v": ["v"],
             "ɗ": ["đ"],
         }
         map_C = self._util_reverse_dict(map_C)
+        map_C2 = self._util_reverse_dict(map_C2)
 
         map_w = {
-            "w": ["o", "ò", "ó", "ỏ", "õ", "ọ", "u"]
+            "ʷ": ["o", "u"]
         }
         map_w = self._util_reverse_dict(map_w)
 
-        ipa = ""
+        map_G = {
+            "j": ["i", "y"],
+            "w": ["o", "u"]
+        }
+        map_G = self._util_reverse_dict(map_G)
 
-        if groups['C1']:
-            C1 = map_C[groups['C1']]
-            ipa += C1
+        C1, w, V, G, C2 = groups['C1'], groups['w'], groups['V'], groups['G'], groups['C2']
 
-        if groups['w']:
-            w = map_w[groups['w']]
-            ipa += w
-
-        V = non_diacritic[groups['V']]
-        if groups['G']:
-            G = groups['G']
-            if G == 'o':
-                if V in ["a", "à", "á", "ả", "ã", "ạ"]:
-                    ipa += 'aw'
-                elif V in ["e", "è", "é", "ẻ", "ẽ", "ẹ"]:
-                    ipa += 'ɛw'
-                else:
-                    raise Exception('Need implement')
-            elif G == 'i':
-                ipa += map_V[V] + "j"
-            elif G == 'u':
-                if V in ["a", "à", "á", "ả", "ã", "ạ"]:
-                    ipa += 'ăw'
-                elif V == 'ê':
-                    ipa += 'ew'
-                elif V == 'i':
-                    ipa += 'iw'
-                elif V == 'ư':
-                    ipa += 'ɨw'
-                elif V in ["â", "iê", "ươ", "yê"]:
-                    ipa += map_V[V] + "w"
-                elif V == 'y':
-                    ipa += "iw"
-                else:
-                    raise Exception('Need implement')
-            elif G == 'y':
-                if V in ["a", "à", "á", "ả", "ã", "ạ"]:
-                    ipa += 'ăj'
-                elif V == 'u':
-                    ipa += 'wi'
-                elif V in ["â", "uâ"]:
-                    ipa += map_V[V] + 'j'
-                else:
-                    raise Exception('Need implement')
-            else:
-                raise Exception('Need implement')
+        if w:
+            ipa_w = map_w[groups['w']]
         else:
-            V = map_V[V]
-            ipa += V
+            ipa_w = ""
 
-        if groups['C2']:
-            C2 = map_C[groups['C2']]
-            ipa += C2
+        ipa_V = map_V[V]
+        if C1:
+            ipa_C1 = map_C[C1]
+        else:
+            ipa_C1 = ""
+            if V == "a":
+                ipa_V = "ɛ̆"
 
-        T = VIETNAMESE.TONE.HIGH_LEVEL
-        for character in self.text:
-            if character in VIETNAMESE.LOWERS.MID_FALLING:
-                T = VIETNAMESE.TONE.MID_FALLING
-            elif character in "áắấéếíóớốúứý":
-                T = VIETNAMESE.TONE.RISING
-            elif character in "ảẳẩẻểỉỏởổủửỷ":
-                T = VIETNAMESE.TONE.LOW_FALLING_RISING
-            elif character in "ãẵẫẽễĩõỡỗũữỹ":
-                T = VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED
-            elif character in "ạặậẹệịọợộụựỵ":
-                T = VIETNAMESE.TONE.LOW_GLOTTALIZED
+        if ipa_C1 == "":
+            ipa_C1 = "ʔ"
+
+        if G:
+            ipa_G = map_G[G]
+            if V == "a":
+                if G == "o":
+                    # This rule apply in case ao -> ʔaw³³ not ɛ̆w³
+                    ipa_V = "a"
+                elif G in ["u", "ă", "y"]:
+                    ipa_V = "ă"
+            if V == "o" and G == "o":
+                ipa_V = "ↄ:"
+                ipa_G = ""
+            if V == "y" and G == "u":
+                ipa_V = "i"
+            if V == "u" and G == "y":
+                ipa_G = "i"
+        else:
+            ipa_G = ""
+
+        if C2:
+            ipa_C2 = map_C2[C2]
+        else:
+            ipa_C2 = ""
 
         map_tone_ipa = {
             VIETNAMESE.TONE.HIGH_LEVEL: "˧˧",
@@ -277,8 +256,19 @@ class Syllable:
             map_T = map_tone_number
         else:
             map_T = map_tone_ipa
-        T = map_T[T]
-        ipa += T
+        ipa_T = map_T[self.tone]
+
+        if ipa_C2 in ["p", "t", "k"]:
+            if self.tone == VIETNAMESE.TONE.RISING:
+                ipa_T = "⁴⁵"
+            elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
+                ipa_T = "¹⁰ˀ"
+        if ipa_C2 in ["ŋ", "k"] and ipa_V in ["u", "o", "ↄ"]:
+            if ipa_C2 == "ŋ":
+                ipa_C2 = "ŋ͡m"
+            elif ipa_C2 == "k":
+                ipa_C2 = "k͡p"
+        ipa = ipa_C1 + ipa_w + ipa_V + ipa_G + ipa_C2 + ipa_T
         return ipa
 
 

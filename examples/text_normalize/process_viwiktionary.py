@@ -1,10 +1,8 @@
 from os.path import join
-from bs4 import BeautifulSoup
-import pandas as pd
+# from bs4 import BeautifulSoup
 
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_CHARACTERS_LOWER, VIETNAMESE_VOWELS_LOWER
-from underthesea.utils.vietnamese_ipa import Syllable, vietnamese_sort_key
 import re
 
 VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
@@ -213,49 +211,5 @@ def extract_syllables():
         f.write(content)
 
 
-def generate_ipa_syllables():
-    with open(join("outputs", "syllables.txt")) as f:
-        items = f.readlines()
-    items = [item.strip() for item in items]
-    items = sorted(items, key=vietnamese_sort_key)
-    data = []
-    for item in items:
-        text = item
-        if text in set(["gĩữ", "by"]):
-            continue
-        syllable = Syllable(text)
-        ipa = syllable.generate_ipa()
-        components = syllable.matched.groupdict()
-        C1 = components['C1']
-
-        row = {
-            "syllable": text,
-            "ipa": ipa,
-            "C1": C1,
-            "w": components['w'],
-            "V": components['V'],
-            "G": components['G'],
-            "C2": components['C2'],
-        }
-        data.append(row)
-    df = pd.DataFrame(data)
-
-    # write excel file
-    df.index = df.index + 1
-    df = df.reset_index()
-    df.to_excel(join("outputs", "syllables_ipa.xlsx"), index=False)
-
-    # write text file
-    result = ""
-    for index, row in df.iterrows():
-        i = row['index']
-        text = row['syllable']
-        ipa = row['ipa']
-        result += f"{i},{text},{ipa}\n"
-    with open(join("outputs", "syllables_ipa.txt"), "w") as f:
-        f.write(result)
-
-
 if __name__ == '__main__':
-    # extract_syllables()
-    generate_ipa_syllables()
+    extract_syllables()
