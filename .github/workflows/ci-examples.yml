@@ -1,0 +1,29 @@
+on:
+  pull_request:
+    branches: [ master ]
+    types:
+        - labeled
+
+jobs:
+  ci-sentiment:
+    if: ${{ github.event.label.name == 'ci-sentiment' }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-latest, mac-os-latest, windows-latest ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.7
+      - name: Install dependencies
+        working-directory: ./examples/sentiment
+        run: |
+          pip install -r requirements.txt
+      - name: Train Models
+        working-directory: ./examples/sentiment
+        run: |
+          python train_bert.py data.batch_size=2 data.samples=10 trainer.epoch=1
