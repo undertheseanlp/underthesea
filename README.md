@@ -264,3 +264,14 @@ Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 ### Contributing
 
 Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
+
+### Buy me a coffee ☕
+
+If you found this project helpful and would like to support our work, you can just buy us a coffee ☕.
+Your support is our biggest encouragement 🎁!
+
+
+<img src="img/mm.jpeg"/>
+
+
+
