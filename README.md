@@ -273,6 +273,3 @@ Your support is our biggest encouragement 🎁!
 
 
 <img src="img/support.png"/>
-
-
-
