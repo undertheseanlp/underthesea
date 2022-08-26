@@ -65,8 +65,8 @@ class Syllable:
         e = "[ê]"
         o = "[oôơ]"
         u = "[uư]"
-        double = f"{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}|{o}{o}"
-        v = r"(?P<V>[" + VIETNAMESE_VOWELS_LOWER + "]|" + double + ")"
+        double = f"oo|{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}"
+        v = r"(?P<V>" + double + "|[" + VIETNAMESE_VOWELS_LOWER + "])"
         vy = r"(?P<V>" + y + ")"
         vac = r"(?P<V>" + a_circumflex + ")"
         vec = r"(?P<V>" + e + ")"
@@ -132,6 +132,7 @@ class Syllable:
             "ɯə": ["ươ"],
             "wə": ["uâ"],
             "uə": ["uô", "ua"],
+            "ↄ:": ["oo"]
         }
         map_V = self._util_reverse_dict(map_V)
 
