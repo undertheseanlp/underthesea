@@ -28,7 +28,6 @@ def generate_ipa_syllables():
             "C1": C1,
             "w": components['w'],
             "V": components['V'],
-            "G": components['G'],
             "C2": components['C2'],
         }
         data.append(row)

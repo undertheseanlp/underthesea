@@ -58,36 +58,29 @@ class Syllable:
         self.text = text
         non_tone_letters, tone = VIETNAMESE.analyze_tone(text)
         self.tone = tone
-        i = "i"
-        y = "y"
         a = "[aăâ]"
-        a_circumflex = "â"
-        e = "[ê]"
         o = "[oôơ]"
         u = "[uư]"
-        double = f"oo|{i}{a}|{i}{e}|{y}{e}|{y}{a}|{u}{o}|{u}{a}"
-        v = r"(?P<V>" + double + "|[" + VIETNAMESE_VOWELS_LOWER + "])"
-        vy = r"(?P<V>" + y + ")"
-        vac = r"(?P<V>" + a_circumflex + ")"
-        vec = r"(?P<V>" + e + ")"
-        G = r"(?P<G>[iyou])?"
-        w = r"(?P<w>[o])?"
-        wo = r"(?P<w>[o])?"
-        wu = r"(?P<w>[u])?"
-        Vye = f"(?P<V>y{e})"
+        double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}"
+        v = r"(?P<V>" + double + "|[" + VIETNAMESE_VOWELS_LOWER + "]|y)"
+        # vy = r"(?P<V>y)"
+        vac = r"(?P<V>â)"
+        vec = r"(?P<V>ê)"
+        wu = r"(?P<w>[u])"
+        Vye = f"(?P<V>yê)"
         Vya = f"(?P<V>y{a})"
         consonants = "gi|qu|ch|gh|kh|ng|ngh|nh|ph|th|tr|[bcdđghklmnpqrstvx]"
+        conda = consonants + "|[uiyo]"
         c1 = r"(?P<C1>" + consonants + ")?"
-        c2 = r"(?P<C2>" + consonants + ")?"
+        c2 = r"(?P<C2>" + conda + ")?"
         patterns = [
-            r"^" + c1 + wu + vy + G + c2 + "$",
-            r"^" + c1 + v + G + c2 + "$",
-            r"^" + c1 + w + v + G + c2 + "$",
-            r"^" + c1 + wu + vac + G + c2 + "$",
-            r"^" + c1 + wo + r"(?P<V>[ea])" + G + c2 + "$",
-            r"^" + c1 + wu + vec + G + c2 + "$",
-            r"^" + c1 + wu + Vye + G + c2 + "$",
-            r"^" + c1 + wu + Vya + G + c2 + "$"
+            r"^" + c1 + "(?P<w>[u])(?P<V>[yâ])" + c2 + "$",
+            r"^" + c1 + "(?P<w>[o])(?P<V>[eaă])" + c2 + "$",
+            r"^" + c1 + v + c2 + "$",
+            r"^" + c1 + wu + vac + c2 + "$",
+            r"^" + c1 + wu + vec + c2 + "$",
+            r"^" + c1 + wu + Vye + c2 + "$",
+            r"^" + c1 + wu + Vya + c2 + "$",
         ]
         pattern = r"(" + "|".join(patterns) + ")"
 
@@ -106,7 +99,7 @@ class Syllable:
     # flake8: noqa: C901
     def generate_ipa(self, tone='number'):
         """
-        syllable = c1 + (w) + v + G + c2
+        syllable = c1 + (w) + v + c2
         G: iyou
         TODO: merge G with c2
 
@@ -182,6 +175,8 @@ class Syllable:
             "tʰ": ["th"],
             "v": ["v"],
             "ɗ": ["đ"],
+            "j": ["i", "y"],
+            "w": ["u", "o"],
         }
         map_C = self._util_reverse_dict(map_C)
         map_C2 = self._util_reverse_dict(map_C2)
@@ -191,13 +186,7 @@ class Syllable:
         }
         map_w = self._util_reverse_dict(map_w)
 
-        map_G = {
-            "j": ["i", "y"],
-            "w": ["o", "u"]
-        }
-        map_G = self._util_reverse_dict(map_G)
-
-        C1, w, V, G, C2 = groups['C1'], groups['w'], groups['V'], groups['G'], groups['C2']
+        C1, w, V, C2 = groups['C1'], groups['w'], groups['V'], groups['C2']
 
         if w:
             ipa_w = map_w[groups['w']]
@@ -215,26 +204,22 @@ class Syllable:
         if ipa_C1 == "":
             ipa_C1 = "ʔ"
 
-        if G:
-            ipa_G = map_G[G]
-            if V == "a":
-                if G == "o":
-                    # This rule apply in case ao -> ʔaw³³ not ɛ̆w³
-                    ipa_V = "a"
-                elif G in ["u", "ă", "y"]:
-                    ipa_V = "ă"
-            if V == "o" and G == "o":
-                ipa_V = "ↄ:"
-                ipa_G = ""
-            if V == "y" and G == "u":
-                ipa_V = "i"
-            if V == "u" and G == "y":
-                ipa_G = "i"
-        else:
-            ipa_G = ""
-
         if C2:
             ipa_C2 = map_C2[C2]
+            if C2 in ["o", "i", "u", "y"]:
+                if V == "a":
+                    if C2 == "o":
+                        # This rule apply in case ao -> ʔaw³³ not ɛ̆w³
+                        ipa_V = "a"
+                    elif C2 in ["u", "ă", "y"]:
+                        ipa_V = "ă"
+                if V == "o" and C2 == "o":
+                    ipa_V = "ↄ:"
+                    ipa_C2 = ""
+                if V == "y" and C2 == "u":
+                    ipa_V = "i"
+                if V == "u" and C2 == "y":
+                    ipa_C2 = "i"
         else:
             ipa_C2 = ""
 
@@ -269,7 +254,7 @@ class Syllable:
                 ipa_C2 = "ŋ͡m"
             elif ipa_C2 == "k":
                 ipa_C2 = "k͡p"
-        ipa = ipa_C1 + ipa_w + ipa_V + ipa_G + ipa_C2 + ipa_T
+        ipa = ipa_C1 + ipa_w + ipa_V + ipa_C2 + ipa_T
         return ipa
 
 
