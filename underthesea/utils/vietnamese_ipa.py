@@ -108,14 +108,36 @@ class Syllable:
         """
         groups = self.matched.groupdict()
 
+        # trang
+        # map_V = {
+        #     "a": ["a"],
+        #     "ă": ["ă"],
+        #     "ɤ̆": ["â"],
+        #     "i": ["i", "y"],
+        #     "ɯ": ["ư"],
+        #     "ɛ": ["e"],
+        #     "e": ["ê"],
+        #     "ↄ": ["o"],
+        #     "o": ["ô"],
+        #     "ɤ": ["ơ"],
+        #     "u": ["u"],
+        #     "iə": ["ie", "iê", "ia", "yê", "ya"],
+        #     "ɯə̰": ["ưa"],
+        #     "ɯə": ["ươ"],
+        #     "wə": ["uâ"],
+        #     "uə": ["uô", "ua"],
+        #     "ↄ:": ["oo"]
+        # }
+
+        # vphon mapping
         map_V = {
-            "a": ["a"],
-            "ă": ["ă"],
-            "ɤ̆": ["â"],
+            "aː": ["a"],
+            "a": ["ă"],
+            "ə": ["â"],
             "i": ["i", "y"],
             "ɯ": ["ư"],
             "ɛ": ["e"],
-            "e": ["ê"],
+            "eː": ["ê"],
             "ↄ": ["o"],
             "o": ["ô"],
             "ɤ": ["ơ"],
@@ -129,8 +151,35 @@ class Syllable:
         }
         map_V = self._util_reverse_dict(map_V)
 
+        # trang
+        # map_C = {
+        #     "b": ["b"],
+        #     "k": ["c", "k", "q"],
+        #     "kʰ": ["kh"],
+        #     "ʨ": ["ch", "tr"],
+        #     "z": ["d"],
+        #     "zi": ["gi"],
+        #     "ɣ": ["g", "gh"],
+        #     "h": ["h"],
+        #     "l": ["l"],
+        #     "m": ["m"],
+        #     "n": ["n"],
+        #     "ŋ": ["ng", "ngh", "nh"],
+        #     "p": ["p"],
+        #     "f": ["ph"],
+        #     "kw": ["qu"],
+        #     "r": ["r"],
+        #     "s": ["s"],
+        #     "x": ["x"],
+        #     "t": ["t"],
+        #     "tʰ": ["th"],
+        #     "v": ["v"],
+        #     "ɗ": ["đ"],
+        # }
+
+        # vphone
         map_C = {
-            "b": ["b"],
+            "ɓ": ["b"],
             "k": ["c", "k", "q"],
             "kʰ": ["kh"],
             "ʨ": ["ch", "tr"],
@@ -155,7 +204,7 @@ class Syllable:
         }
 
         map_C2 = {
-            "b": ["b"],
+            "ɓ": ["b"],
             "k": ["c", "k", "q", "ch"],
             "kʰ": ["kh"],
             "z": ["d", "gi"],
@@ -199,10 +248,12 @@ class Syllable:
         else:
             ipa_C1 = ""
             if V == "a":
-                ipa_V = "ɛ̆"
+                # ipa_V = "ɛ̆"
+                ipa_V = "aː"
 
         if ipa_C1 == "":
-            ipa_C1 = "ʔ"
+            # ipa_C1 = "ʔ"
+            ipa_C1 = ""
 
         if C2:
             ipa_C2 = map_C2[C2]
@@ -210,9 +261,13 @@ class Syllable:
                 if V == "a":
                     if C2 == "o":
                         # This rule apply in case ao -> ʔaw³³ not ɛ̆w³
-                        ipa_V = "a"
+                        # ipa_V = "a"
+                        ipa_V = "aː"
                     elif C2 in ["u", "ă", "y"]:
-                        ipa_V = "ă"
+                        # trang
+                        # ipa_V = "ă"
+                        # vphone
+                        ipa_V = "a"
                 if V == "o" and C2 == "o":
                     ipa_V = "ↄ:"
                     ipa_C2 = ""
@@ -230,13 +285,24 @@ class Syllable:
             VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "˧˥"
         }
 
+        # trang
+        # map_tone_number = {
+        #     VIETNAMESE.TONE.HIGH_LEVEL: "³³",
+        #     VIETNAMESE.TONE.MID_FALLING: "²¹",
+        #     VIETNAMESE.TONE.RISING: "³⁴",
+        #     VIETNAMESE.TONE.LOW_FALLING_RISING: "³⁰¹",
+        #     VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "³¹ˀ⁵",
+        #     VIETNAMESE.TONE.LOW_GLOTTALIZED: "¹¹ˀ"
+        # }
+
+        # vphone
         map_tone_number = {
             VIETNAMESE.TONE.HIGH_LEVEL: "³³",
-            VIETNAMESE.TONE.MID_FALLING: "²¹",
-            VIETNAMESE.TONE.RISING: "³⁴",
-            VIETNAMESE.TONE.LOW_FALLING_RISING: "³⁰¹",
-            VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "³¹ˀ⁵",
-            VIETNAMESE.TONE.LOW_GLOTTALIZED: "¹¹ˀ"
+            VIETNAMESE.TONE.MID_FALLING: "³²",
+            VIETNAMESE.TONE.RISING: "²⁴",
+            VIETNAMESE.TONE.LOW_FALLING_RISING: "³¹²",
+            VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "³ˀ⁵",
+            VIETNAMESE.TONE.LOW_GLOTTALIZED: "²¹ˀ"
         }
         if tone == "number":
             map_T = map_tone_number
