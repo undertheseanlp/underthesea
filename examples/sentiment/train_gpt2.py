@@ -6,7 +6,7 @@ import torch.nn as nn
 from torchmetrics import F1Score as F1
 from transformers import AutoTokenizer, AutoModelWithLMHead
 from pytorch_lightning.loggers import WandbLogger
-from examples.sentiment.data import MultiLabelClassificationDatamodule
+from data import MultiLabelClassificationDatamodule
 from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
@@ -65,12 +65,12 @@ def main(config: DictConfig) -> None:
     gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
     corpus = UITABSAHotel()
-    # num_labels = corpus.num_labels
-    num_labels = corpus.num_aspect_labels
+    num_labels = corpus.num_labels
+    # num_labels = corpus.num_aspect_labels
     model = GPT2TextClassification(gpt2, num_labels)
     datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
-    logger = WandbLogger(**config.logger)
-    trainer = pl.Trainer(logger=logger, **config.trainer)
+    # logger = WandbLogger(**config.logger)
+    trainer = pl.Trainer(**config.trainer)
     trainer.fit(model, datamodule=datamodule)
 
 

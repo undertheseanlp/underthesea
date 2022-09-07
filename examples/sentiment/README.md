@@ -1,5 +1,13 @@
 # Sentiment
 
+## Setup Environment 
+
+```
+conda create -n sentiment python=3.8
+conda activate sentiment
+pip install -r requirements.txt
+```
+
 ## Train model with GPT-2
 
 ```

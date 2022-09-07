@@ -7,7 +7,7 @@ class MultiLabelClassificationDataset(Dataset):
     def __init__(self, data, tokenizer, num_labels, max_token_length: int = 50, samples=None):
         super().__init__()
         self.texts = [item["text"] for item in data]  # text
-        self.labels = [item["aspect_label_ids"] for item in data]  # label ids
+        self.labels = [item["labels"] for item in data]  # label ids
         self.tokenizer = tokenizer
         self.num_labels = num_labels
         self.max_token_length = max_token_length
@@ -43,8 +43,8 @@ class MultiLabelClassificationDatamodule(pl.LightningDataModule):
     def __init__(self, corpus, tokenizer, **kwargs):
         super().__init__()
         self.corpus = corpus
-        # num_labels = corpus.num_labels
-        num_labels = corpus.num_aspect_labels
+        num_labels = corpus.num_labels
+        # num_labels = corpus.num_aspect_labels
         samples = None
         if "samples" in kwargs:
             samples = kwargs["samples"]

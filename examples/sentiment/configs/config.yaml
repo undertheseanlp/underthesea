@@ -1,7 +1,6 @@
 trainer:
-  gpus: -1
-  accelerator: 'ddp'
-  epoch: 5
+  accelerator: 'cpu'
+  max_epochs: 5
 #  fast_dev_run: 5
   # precision: 16
 data:
