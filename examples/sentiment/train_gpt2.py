@@ -22,6 +22,7 @@ class GPT2TextClassification(pl.LightningModule):
         self.criterion = nn.BCELoss()
         self.train_f1 = F1(mdmc_average='global')
         self.valid_f1 = F1(mdmc_average='global')
+        self.save_hyperparameters()
 
     def forward(self, input_ids, labels=None):
         loss = 0
