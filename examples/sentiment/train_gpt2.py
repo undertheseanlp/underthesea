@@ -11,9 +11,11 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
 class GPT2TextClassification(pl.LightningModule):
-    def __init__(self, gpt2, num_labels):
+    def __init__(self, gpt2, label_encoder):
         super().__init__()
         self.gpt2 = gpt2
+        self.label_encoder = label_encoder
+        num_labels = label_encoder.vocab_size
         vocab_size = self.gpt2.vocab_size
         self.linear = nn.Linear(vocab_size, num_labels)
         self.logit = nn.Sigmoid()
@@ -65,9 +67,7 @@ def main(config: DictConfig) -> None:
     gpt2.config.pad_token_id = gpt2.config.eos_token_id
 
     corpus = UITABSAHotel()
-    num_labels = corpus.num_labels
-    # num_labels = corpus.num_aspect_labels
-    model = GPT2TextClassification(gpt2, num_labels)
+    model = GPT2TextClassification(gpt2, label_encoder=corpus.label_encoder)
     datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
     # logger = WandbLogger(**config.logger)
     trainer = pl.Trainer(**config.trainer)

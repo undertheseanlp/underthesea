@@ -11,7 +11,13 @@ pip install -r requirements.txt
 ## Train model with GPT-2
 
 ```
-python train_gpt2.py data.batch_size=2 ++data.num_workers=16 logger.project=local-sentiment-5
+python train_gpt2.py data.batch_size=2 ++data.num_workers=16
+```
+
+With gpu 
+
+```
+python train_gpt2.py data.batch_size=2 ++data.num_workers=16 trainer.accelerator=gpu
 ```
 
 Run with 100 samples

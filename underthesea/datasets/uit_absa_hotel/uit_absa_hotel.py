@@ -31,6 +31,12 @@ class LabelEncoder:
         else:
             return self.label2index[label]
 
+    def decode(self, indices):
+        if type(indices) == list:
+            return [self.decode(index) for index in indices]
+        index = indices
+        return self.index2label[index]
+
 
 class UITABSAHotel:
     NAME = "UIT_ABSA_HOTEL"
