@@ -11,8 +11,15 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
 class GPT2TextClassification(pl.LightningModule):
-    def __init__(self, gpt2, label_encoder):
+    def __init__(self, pretrained_model_name, label_encoder):
         super().__init__()
+        tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name)
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.padding_side = "right"
+        self.tokenizer = tokenizer
+        gpt2 = AutoModelWithLMHead.from_pretrained(pretrained_model_name)
+        gpt2.resize_token_embeddings(len(tokenizer))
+        gpt2.config.pad_token_id = gpt2.config.eos_token_id
         self.gpt2 = gpt2
         self.label_encoder = label_encoder
         num_labels = label_encoder.vocab_size
@@ -60,16 +67,10 @@ class GPT2TextClassification(pl.LightningModule):
 @hydra.main(config_path="configs/", config_name="config.yaml")
 def main(config: DictConfig) -> None:
     print(config)
-    tokenizer = AutoTokenizer.from_pretrained("imthanhlv/gpt2news")
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
-    gpt2 = AutoModelWithLMHead.from_pretrained("imthanhlv/gpt2news")
-    gpt2.resize_token_embeddings(len(tokenizer))
-    gpt2.config.pad_token_id = gpt2.config.eos_token_id
-
+    pretrained_model_name = "imthanhlv/gpt2news"
     corpus = UITABSAHotel()
-    model = GPT2TextClassification(gpt2, label_encoder=corpus.label_encoder)
-    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
+    model = GPT2TextClassification(pretrained_model_name, label_encoder=corpus.label_encoder)
+    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=model.tokenizer, **config.data)
     # logger = WandbLogger(**config.logger)
     trainer = pl.Trainer(**config.trainer)
     trainer.fit(model, datamodule=datamodule)
