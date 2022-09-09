@@ -1,10 +1,22 @@
-from transformers import AutoTokenizer, AutoModelWithLMHead
+import hydra
+from omegaconf import DictConfig
+
 from train_gpt2 import GPT2TextClassification
 
-pretrained_model_name = "imthanhlv/gpt2news"
-model = GPT2TextClassification.load_from_checkpoint(
-    "/home/anhvu2/projects/underthesea/examples/sentiment/outputs/2022-09-09/10-01-41/lightning_logs/version_0/checkpoints/epoch=0-step=5.ckpt")
-text = "Nhân viên thì cũng thân thiện, vui vẻ, mọi thứ đều ổn, tôi thấy giá cả như vậy là tương xứng với dịch vụ của khách sạn."
-inputs = model.tokenizer([text], return_tensors='pt')["input_ids"]
-labels = model(inputs)
-print(labels)
+
+@hydra.main(version_base=None, config_path="configs/predict", config_name="config.yaml")
+def main(config: DictConfig) -> None:
+    print(config)
+    assert config.text
+    assert config.model_path
+    model_path = config.model_path
+    text = config.text
+    model = GPT2TextClassification.load_from_checkpoint(model_path)
+
+    inputs = model.tokenizer([text], return_tensors='pt')["input_ids"]
+    labels = model(inputs)
+    print(labels)
+
+
+if __name__ == "__main__":
+    main()

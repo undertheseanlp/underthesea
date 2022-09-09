@@ -30,7 +30,6 @@ class GPT2TextClassification(pl.LightningModule):
         self.valid_f1 = F1(mdmc_average='global')
         self.save_hyperparameters()
 
-    ""
     def set_label_encoder(self, label_encoder):
         self.label_encoder = label_encoder
 
@@ -49,6 +48,7 @@ class GPT2TextClassification(pl.LightningModule):
         input_ids = batch["input_ids"]
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
+        print(labels)
         self.train_f1(outputs, labels.int())
         self.log('train_f1', self.train_f1, on_step=True, on_epoch=True)
         self.log('train_loss', loss)
@@ -67,7 +67,7 @@ class GPT2TextClassification(pl.LightningModule):
         return optimizer
 
 
-@hydra.main(config_path="configs/", config_name="config.yaml")
+@hydra.main(version_base=None, config_path="configs/", config_name="config.yaml")
 def main(config: DictConfig) -> None:
     print(config)
     pretrained_model_name = "imthanhlv/gpt2news"
