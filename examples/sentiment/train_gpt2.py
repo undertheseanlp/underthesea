@@ -11,11 +11,17 @@ from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
 
 class GPT2TextClassification(pl.LightningModule):
-    def __init__(self, gpt2, label_encoder):
+    def __init__(self, pretrained_model_name, num_labels):
         super().__init__()
+        self.save_hyperparameters()
+        tokenizer = AutoTokenizer.from_pretrained(pretrained_model_name)
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.padding_side = "right"
+        self.tokenizer = tokenizer
+        gpt2 = AutoModelWithLMHead.from_pretrained(pretrained_model_name)
+        gpt2.resize_token_embeddings(len(tokenizer))
+        gpt2.config.pad_token_id = gpt2.config.eos_token_id
         self.gpt2 = gpt2
-        self.label_encoder = label_encoder
-        num_labels = label_encoder.vocab_size
         vocab_size = self.gpt2.vocab_size
         self.linear = nn.Linear(vocab_size, num_labels)
         self.logit = nn.Sigmoid()
@@ -23,6 +29,9 @@ class GPT2TextClassification(pl.LightningModule):
         self.train_f1 = F1(mdmc_average='global')
         self.valid_f1 = F1(mdmc_average='global')
         self.save_hyperparameters()
+
+    def set_label_encoder(self, label_encoder):
+        self.label_encoder = label_encoder
 
     def forward(self, input_ids, labels=None):
         loss = 0
@@ -39,6 +48,7 @@ class GPT2TextClassification(pl.LightningModule):
         input_ids = batch["input_ids"]
         labels = batch["label"]
         loss, outputs = self(input_ids, labels)
+        print(labels)
         self.train_f1(outputs, labels.int())
         self.log('train_f1', self.train_f1, on_step=True, on_epoch=True)
         self.log('train_loss', loss)
@@ -57,19 +67,15 @@ class GPT2TextClassification(pl.LightningModule):
         return optimizer
 
 
-@hydra.main(config_path="configs/", config_name="config.yaml")
+@hydra.main(version_base=None, config_path="configs/", config_name="config.yaml")
 def main(config: DictConfig) -> None:
     print(config)
-    tokenizer = AutoTokenizer.from_pretrained("imthanhlv/gpt2news")
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
-    gpt2 = AutoModelWithLMHead.from_pretrained("imthanhlv/gpt2news")
-    gpt2.resize_token_embeddings(len(tokenizer))
-    gpt2.config.pad_token_id = gpt2.config.eos_token_id
-
+    pretrained_model_name = "imthanhlv/gpt2news"
     corpus = UITABSAHotel()
-    model = GPT2TextClassification(gpt2, label_encoder=corpus.label_encoder)
-    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=tokenizer, **config.data)
+    num_labels = corpus.label_encoder.vocab_size
+    model = GPT2TextClassification(pretrained_model_name, num_labels=num_labels)
+    model.set_label_encoder(label_encoder=corpus.label_encoder)
+    datamodule = MultiLabelClassificationDatamodule(corpus=corpus, tokenizer=model.tokenizer, **config.data)
     # logger = WandbLogger(**config.logger)
     trainer = pl.Trainer(**config.trainer)
     trainer.fit(model, datamodule=datamodule)
