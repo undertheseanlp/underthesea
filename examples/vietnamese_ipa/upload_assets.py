@@ -19,7 +19,7 @@ for asset in release.get_assets():
     name = asset.name
     assets[name] = asset
 
-SOUNDS_FOLDER = join("outputs", "sound", "zalo")
+SOUNDS_FOLDER = join("../text_normalize/outputs", "sound", "zalo")
 names = listdir(SOUNDS_FOLDER)
 
 
