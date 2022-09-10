@@ -5,7 +5,7 @@ from torch.optim import SGD
 import torch.nn as nn
 from torchmetrics import F1Score as F1
 from transformers import AutoTokenizer, AutoModelWithLMHead
-from pytorch_lightning.loggers import WandbLogger
+# from pytorch_lightning.loggers import WandbLogger
 from data import MultiLabelClassificationDatamodule
 from underthesea.datasets.uit_absa_hotel.uit_absa_hotel import UITABSAHotel
 
