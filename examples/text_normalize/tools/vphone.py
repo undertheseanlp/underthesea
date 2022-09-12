@@ -374,7 +374,6 @@ def to_ipa(word):
     eight = False
     output_ortho = False
 
-
     compound = ''
     ortho = ''
     dialect = "n"
@@ -451,11 +450,9 @@ def main():
             continue
         ipa = to_ipa(word)
         results += f"{i},{word},{ipa}\n"
-        i+=1
+        i += 1
     with open(join(outputs_folder, "vphon_syllables_ipa.txt"), "w") as f:
         f.write(results)
-
-
 
 
 if __name__ == '__main__':
