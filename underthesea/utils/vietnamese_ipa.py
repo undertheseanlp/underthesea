@@ -4,7 +4,7 @@ from types import SimpleNamespace
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
 import regex
 
-from underthesea.utils.vietnamese_ipa_rules import codas
+from underthesea.utils.vietnamese_ipa_rules import codas, nuclei
 
 
 class VIETNAMESE:
@@ -99,13 +99,14 @@ class Syllable:
         return result
 
     # flake8: noqa: C901
-    def generate_ipa(self, tone='number'):
+    def generate_ipa(self, eight=False, tone='number'):
         """
         syllable = c1 + (w) + v + c2
         G: iyou
         TODO: merge G with c2
 
         Args:
+            eight (boolean): True or False
             tone (str): ipa or number
         """
         groups = self.matched.groupdict()
@@ -172,7 +173,7 @@ class Syllable:
         else:
             ipa_w = ""
 
-        ipa_V = map_V[V]
+        ipa_V = nuclei[V]
         if C1:
             ipa_C1 = map_C[C1]
         else:
