@@ -4,6 +4,8 @@ from types import SimpleNamespace
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
 import regex
 
+from underthesea.utils.vietnamese_ipa_rules import codas
+
 
 class VIETNAMESE:
     LOWERS = SimpleNamespace(
@@ -130,32 +132,6 @@ class Syllable:
         }
         map_V = self._util_reverse_dict(map_V)
 
-        # trang
-        # map_C = {
-        #     "b": ["b"],
-        #     "k": ["c", "k", "q"],
-        #     "kʰ": ["kh"],
-        #     "ʨ": ["ch", "tr"],
-        #     "z": ["d"],
-        #     "zi": ["gi"],
-        #     "ɣ": ["g", "gh"],
-        #     "h": ["h"],
-        #     "l": ["l"],
-        #     "m": ["m"],
-        #     "n": ["n"],
-        #     "ŋ": ["ng", "ngh", "nh"],
-        #     "p": ["p"],
-        #     "f": ["ph"],
-        #     "kw": ["qu"],
-        #     "r": ["r"],
-        #     "s": ["s"],
-        #     "x": ["x"],
-        #     "t": ["t"],
-        #     "tʰ": ["th"],
-        #     "v": ["v"],
-        #     "ɗ": ["đ"],
-        # }
-
         # vphone
         map_C = {
             "ɓ": ["b"],
@@ -182,32 +158,7 @@ class Syllable:
             "ɗ": ["đ"],
         }
 
-        map_C2 = {
-            "ɓ": ["b"],
-            "k": ["c", "k", "q", "ch"],
-            "kʰ": ["kh"],
-            "z": ["d", "gi"],
-            "ɣ": ["g", "gh"],
-            "h": ["h"],
-            "l": ["l"],
-            "m": ["m"],
-            "n": ["n"],
-            "ŋ": ["ng", "ngh", "nh"],
-            "p": ["p"],
-            "f": ["ph"],
-            "kw": ["qu"],
-            "r": ["r"],
-            "s": ["s"],
-            "x": ["x"],
-            "t": ["t"],
-            "tʰ": ["th"],
-            "v": ["v"],
-            "ɗ": ["đ"],
-            "j": ["i", "y"],
-            "w": ["u", "o"],
-        }
         map_C = self._util_reverse_dict(map_C)
-        map_C2 = self._util_reverse_dict(map_C2)
 
         map_w = {
             "ʷ": ["o", "u"]
@@ -235,7 +186,7 @@ class Syllable:
             ipa_C1 = ""
 
         if C2:
-            ipa_C2 = map_C2[C2]
+            ipa_C2 = codas[C2]
             if C2 in ["o", "i", "u", "y"]:
                 if V == "a":
                     if C2 == "o":
@@ -264,16 +215,6 @@ class Syllable:
             VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "˧˥"
         }
 
-        # trang
-        # map_tone_number = {
-        #     VIETNAMESE.TONE.HIGH_LEVEL: "³³",
-        #     VIETNAMESE.TONE.MID_FALLING: "²¹",
-        #     VIETNAMESE.TONE.RISING: "³⁴",
-        #     VIETNAMESE.TONE.LOW_FALLING_RISING: "³⁰¹",
-        #     VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "³¹ˀ⁵",
-        #     VIETNAMESE.TONE.LOW_GLOTTALIZED: "¹¹ˀ"
-        # }
-
         # vphone
         map_tone_number = {
             VIETNAMESE.TONE.HIGH_LEVEL: "³³",
@@ -299,7 +240,32 @@ class Syllable:
                 ipa_C2 = "ŋ͡m"
             elif ipa_C2 == "k":
                 ipa_C2 = "k͡p"
-        ipa = ipa_C1 + ipa_w + ipa_V + ipa_C2 + ipa_T
+
+        ons = ipa_C1
+        cod = ipa_C2
+        nuc = ipa_V
+
+        if ons == '': ons = 'ʔ'
+
+        # Capture vowel/coda interactions of ɛ/ɛː and e/eː
+        if cod in ['ŋ', 'k']:
+            if nuc == 'ɛ': nuc = 'ɛː'
+            if nuc == 'e': nuc = 'eː'
+
+        # Velar fronting
+        if nuc == 'aː':
+            if cod == 'c': nuc = 'ɛ'
+            if cod == 'ɲ': nuc = 'ɛ'
+
+        # No surface palatal codas
+        if cod in ['c', 'ɲ']:
+            if cod == 'c': cod = 'k'
+            if cod == 'ɲ': cod = 'ŋ'
+
+        if not cod and nuc in ['aː', 'əː']:
+            if nuc == 'aː': nuc = 'a'
+            if nuc == 'əː': nuc = 'ə'
+        ipa = ons + ipa_w + nuc + cod + ipa_T
         return ipa
 
 
