@@ -1,6 +1,15 @@
+from os.path import join, dirname
 from unittest import TestCase
 
 from underthesea.utils.vietnamese_ipa import Syllable
+
+DATA_TEST_FOLDER = join(dirname(__file__), "test_data")
+
+
+def read_test_files(filepath):
+    with open(filepath) as f:
+        lines = f.read().strip().splitlines()
+    return lines
 
 
 class TestVietnameseIPA(TestCase):
@@ -39,3 +48,12 @@ class TestVietnameseIPA(TestCase):
             actual = syllable.generate_ipa()
             expected = ipas[i]
             self.assertEqual(expected, actual)
+
+    def test_rimes_s_c_p(self):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, "rimes.in"))
+        expected = read_test_files(join(DATA_TEST_FOLDER, "rimes_s-c-p.out"))
+        for i, item in enumerate(inputs):
+            tokens = item.lower().split()
+            actual = " ".join([Syllable(token).generate_ipa() for token in tokens])
+            self.assertEqual(expected[i], actual)
+

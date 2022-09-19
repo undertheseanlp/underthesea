@@ -33,7 +33,7 @@ def generate_ipa_syllables():
         data.append(row)
     df = pd.DataFrame(data)
 
-    # write excel file
+    # write Excel file
     df.index = df.index + 1
     df = df.reset_index()
     df.to_excel(join("outputs", "syllables_ipa.xlsx"), index=False)
