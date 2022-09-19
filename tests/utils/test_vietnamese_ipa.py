@@ -56,4 +56,3 @@ class TestVietnameseIPA(TestCase):
             tokens = item.lower().split()
             actual = " ".join([Syllable(token).generate_ipa() for token in tokens])
             self.assertEqual(expected[i], actual)
-
