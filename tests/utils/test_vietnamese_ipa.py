@@ -41,11 +41,11 @@ class TestVietnameseIPA(TestCase):
             self.assertEqual(expected, actual)
 
     def test_4(self):
-        syllables = ["buộc"]
-        ipas = ["ɓuək²¹"]
+        syllables = ["chuột"]
+        ipas = ["tɕuət²¹"]
         for i, s in enumerate(syllables):
             syllable = Syllable(s)
-            actual = syllable.generate_ipa()
+            actual = syllable.generate_ipa(eight=True)
             expected = ipas[i]
             self.assertEqual(expected, actual)
 
@@ -54,5 +54,5 @@ class TestVietnameseIPA(TestCase):
         expected = read_test_files(join(DATA_TEST_FOLDER, "rimes_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa() for token in tokens])
+            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
             self.assertEqual(expected[i], actual)

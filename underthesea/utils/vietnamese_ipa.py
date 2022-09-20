@@ -4,7 +4,7 @@ from types import SimpleNamespace
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
 import regex
 
-from underthesea.utils.vietnamese_ipa_rules import codas, nuclei
+from underthesea.utils.vietnamese_ipa_rules import codas, nuclei, onsets
 
 
 class VIETNAMESE:
@@ -101,7 +101,7 @@ class Syllable:
     # flake8: noqa: C901
     def generate_ipa(self, eight=False, tone='number'):
         """
-        syllable = c1 + (w) + v + c2
+        syllable = c1 + (w) + nuclei + conda
         G: iyou
         TODO: merge G with c2
 
@@ -110,56 +110,6 @@ class Syllable:
             tone (str): ipa or number
         """
         groups = self.matched.groupdict()
-
-        # vphon mapping
-        map_V = {
-            "aː": ["a"],
-            "a": ["ă"],
-            "ə": ["â"],
-            "i": ["i", "y"],
-            "ɯ": ["ư"],
-            "ɛ": ["e"],
-            "eː": ["ê"],
-            "ↄ": ["o"],
-            "o": ["ô"],
-            "ɤ": ["ơ"],
-            "u": ["u"],
-            "iə": ["ie", "iê", "ia", "yê", "ya"],
-            "ɯə̰": ["ưa"],
-            "ɯə": ["ươ"],
-            "wə": ["uâ"],
-            "uə": ["uô", "ua"],
-            "ↄ:": ["oo"]
-        }
-        map_V = self._util_reverse_dict(map_V)
-
-        # vphone
-        map_C = {
-            "ɓ": ["b"],
-            "k": ["c", "k", "q"],
-            "kʰ": ["kh"],
-            "ʨ": ["ch", "tr"],
-            "z": ["d"],
-            "zi": ["gi"],
-            "ɣ": ["g", "gh"],
-            "h": ["h"],
-            "l": ["l"],
-            "m": ["m"],
-            "n": ["n"],
-            "ŋ": ["ng", "ngh", "nh"],
-            "p": ["p"],
-            "f": ["ph"],
-            "kw": ["qu"],
-            "r": ["r"],
-            "s": ["s"],
-            "x": ["x"],
-            "t": ["t"],
-            "tʰ": ["th"],
-            "v": ["v"],
-            "ɗ": ["đ"],
-        }
-
-        map_C = self._util_reverse_dict(map_C)
 
         map_w = {
             "ʷ": ["o", "u"]
@@ -175,7 +125,7 @@ class Syllable:
 
         ipa_V = nuclei[V]
         if C1:
-            ipa_C1 = map_C[C1]
+            ipa_C1 = onsets[C1]
         else:
             ipa_C1 = ""
             if V == "a":
@@ -231,11 +181,12 @@ class Syllable:
             map_T = map_tone_ipa
         ipa_T = map_T[self.tone]
 
-        if ipa_C2 in ["p", "t", "k"]:
-            if self.tone == VIETNAMESE.TONE.RISING:
-                ipa_T = "⁴⁵"
-            elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
-                ipa_T = "¹⁰ˀ"
+        if eight:
+            if ipa_C2 in ["p", "t", "k"]:
+                if self.tone == VIETNAMESE.TONE.RISING:
+                    ipa_T = "⁴⁵"
+                elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
+                    ipa_T = "²¹"
         if ipa_C2 in ["ŋ", "k"] and ipa_V in ["u", "o", "ↄ"]:
             if ipa_C2 == "ŋ":
                 ipa_C2 = "ŋ͡m"
@@ -247,6 +198,7 @@ class Syllable:
         nuc = ipa_V
 
         if ons == '': ons = 'ʔ'
+        if ons == 'ʂ': ons = 's'
 
         # Capture vowel/coda interactions of ɛ/ɛː and e/eː
         if cod in ['ŋ', 'k']:
