@@ -81,8 +81,8 @@ class Syllable:
         vac = r"(?P<V>â)"
         vec = r"(?P<V>ê)"
         wu = r"(?P<w>[u])"
-        Vye = "(?P<V>yê)"
-        Vya = f"(?P<V>y{a})"
+        vye = "(?P<V>yê)"
+        vya = f"(?P<V>y{a})"
         consonants = "gi|qu|ch|gh|kh|ng|ngh|nh|ph|th|tr|[bcdđghklmnpqrstvx]"
         conda = consonants + "|[uiyo]"
         c1 = r"(?P<C1>" + consonants + ")?"
@@ -93,8 +93,8 @@ class Syllable:
             r"^" + c1 + v + c2 + "$",
             r"^" + c1 + wu + vac + c2 + "$",
             r"^" + c1 + wu + vec + c2 + "$",
-            r"^" + c1 + wu + Vye + c2 + "$",
-            r"^" + c1 + wu + Vya + c2 + "$",
+            r"^" + c1 + wu + vye + c2 + "$",
+            r"^" + c1 + wu + vya + c2 + "$",
         ]
         pattern = r"(" + "|".join(patterns) + ")"
 
@@ -132,48 +132,48 @@ class Syllable:
         map_w = {"ʷ": ["o", "u"]}
         map_w = self._util_reverse_dict(map_w)
 
-        C1, w, V, C2 = groups["C1"], groups["w"], groups["V"], groups["C2"]
+        c1, w, v, c2 = groups["C1"], groups["w"], groups["V"], groups["C2"]
 
         if w:
             ipa_w = map_w[groups["w"]]
         else:
             ipa_w = ""
 
-        ipa_V = nuclei[V]
-        if C1:
-            ipa_C1 = onsets[C1]
+        ipa_v = nuclei[v]
+        if c1:
+            ipa_c1 = onsets[c1]
         else:
-            ipa_C1 = ""
-            if V == "a":
-                # ipa_V = "ɛ̆"
-                ipa_V = "aː"
+            ipa_c1 = ""
+            if v == "a":
+                # ipa_v = "ɛ̆"
+                ipa_v = "aː"
 
-        if ipa_C1 == "":
-            # ipa_C1 = "ʔ"
-            ipa_C1 = ""
+        if ipa_c1 == "":
+            # ipa_c1 = "ʔ"
+            ipa_c1 = ""
 
-        if C2:
-            ipa_C2 = codas[C2]
-            if C2 in ["o", "i", "u", "y"]:
-                if V == "a":
-                    if C2 == "o":
+        if c2:
+            ipa_c2 = codas[c2]
+            if c2 in ["o", "i", "u", "y"]:
+                if v == "a":
+                    if c2 == "o":
                         # This rule apply in case ao -> ʔaw³³ not ɛ̆w³
-                        # ipa_V = "a"
-                        ipa_V = "aː"
-                    elif C2 in ["u", "ă", "y"]:
+                        # ipa_v = "a"
+                        ipa_v = "aː"
+                    elif c2 in ["u", "ă", "y"]:
                         # trang
-                        # ipa_V = "ă"
+                        # ipa_v = "ă"
                         # vphon
-                        ipa_V = "a"
-                if V == "o" and C2 == "o":
-                    ipa_V = "ↄ:"
-                    ipa_C2 = ""
-                if V == "y" and C2 == "u":
-                    ipa_V = "i"
-                if V == "u" and C2 == "y":
-                    ipa_C2 = "i"
+                        ipa_v = "a"
+                if v == "o" and c2 == "o":
+                    ipa_v = "ↄ:"
+                    ipa_c2 = ""
+                if v == "y" and c2 == "u":
+                    ipa_v = "i"
+                if v == "u" and c2 == "y":
+                    ipa_c2 = "i"
         else:
-            ipa_C2 = ""
+            ipa_c2 = ""
 
         map_tone_ipa = {
             VIETNAMESE.TONE.HIGH_LEVEL: "˧˧",
@@ -198,20 +198,20 @@ class Syllable:
         ipa_T = map_T[self.tone]
 
         if eight:
-            if ipa_C2 in ["p", "t", "k"]:
+            if ipa_c2 in ["p", "t", "k"]:
                 if self.tone == VIETNAMESE.TONE.RISING:
                     ipa_T = "⁴⁵"
                 elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
                     ipa_T = "²¹"
-        if ipa_C2 in ["ŋ", "k"] and ipa_V in ["u", "o", "ↄ"]:
-            if ipa_C2 == "ŋ":
-                ipa_C2 = "ŋ͡m"
-            elif ipa_C2 == "k":
-                ipa_C2 = "k͡p"
+        if ipa_c2 in ["ŋ", "k"] and ipa_v in ["u", "o", "ↄ"]:
+            if ipa_c2 == "ŋ":
+                ipa_c2 = "ŋ͡m"
+            elif ipa_c2 == "k":
+                ipa_c2 = "k͡p"
 
-        ons = ipa_C1
-        cod = ipa_C2
-        nuc = ipa_V
+        ons = ipa_c1
+        cod = ipa_c2
+        nuc = ipa_v
 
         if ons == "":
             ons = "ʔ"
