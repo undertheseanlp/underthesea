@@ -106,7 +106,9 @@ onglides = {'oa': 'aː', 'oá': 'aː', 'oà': 'aː', 'oả': 'aː', 'oã': 'aː'
             'oet': 'ɛt', 'oét': 'ɛt', 'oèt': 'ɛt', 'oẻt': 'ɛt', 'oẽt': 'ɛt', 'oẹt': 'ɛt'
             }
 
-onoffglides = {'oai': 'aːj', 'oái': 'aːj', 'oài': 'aːj', 'oải': 'aːj', 'oãi': 'aːj', 'oại': 'aːj',
+onoffglides = {
+    'oai': 'aːj',
+               'oái': 'aːj', 'oài': 'aːj', 'oải': 'aːj', 'oãi': 'aːj', 'oại': 'aːj',
                'oay': 'aj', 'oáy': 'aj', 'oày': 'aj', 'oảy': 'aj', 'oãy': 'aj', 'oạy': 'aj',
                'oao': 'aw', 'oáo': 'aw', 'oào': 'aw', 'oảo': 'aw', 'oão': 'aw', 'oạo': 'aw',
                'oeo': 'ɛw', 'oéo': 'ɛw', 'oèo': 'ɛw', 'oẻo': 'ɛw', 'oẽo': 'ɛw', 'oẹo': 'ɛw',
