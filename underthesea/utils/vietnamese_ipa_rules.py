@@ -1,12 +1,8 @@
 ###########################################################################################
-# This code is copy from https://github.com/kirbyj/vPhon/blob/master/rules.py
+# This code is mostly copied from https://github.com/kirbyj/vPhon/blob/master/rules.py
 # With some modifications of Vu Anh <anhv.ict91@gmail.com>
 # Thanks James Kirby for these amazing works
 ###########################################################################################
-
-# rules.py
-# coding: utf-8
-
 onsets = {
     "b": "ɓ",
     "c": "k",

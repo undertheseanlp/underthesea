@@ -41,8 +41,8 @@ class TestVietnameseIPA(TestCase):
             self.assertEqual(expected, actual)
 
     def test_4(self):
-        syllables = ["chuột"]
-        ipas = ["tɕuət²¹"]
+        syllables = ["khách"]
+        ipas = ["xɛk⁴⁵"]
         for i, s in enumerate(syllables):
             syllable = Syllable(s)
             actual = syllable.generate_ipa(eight=True)
