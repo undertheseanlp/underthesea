@@ -183,7 +183,6 @@ class Syllable:
             VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "˧˥",
         }
 
-
         # vphone
         map_tone_number = {
             VIETNAMESE.TONE.HIGH_LEVEL: "³³",
@@ -198,7 +197,6 @@ class Syllable:
         else:
             map_t = map_tone_ipa
         ipa_t = map_t[self.tone]
-
 
         ons = ipa_c1
         cod = ipa_c2
@@ -222,12 +220,12 @@ class Syllable:
         ##
         if dialect == "north":
             # Onset mergers
-            if ons in ['j', 'r']:
-                ons = 'z'
-            elif ons in ['c', 'ʈ']:
-                ons = 'tɕ'
-            elif ons == 'ʂ':
-                ons = 's'
+            if ons in ["j", "r"]:
+                ons = "z"
+            elif ons in ["c", "ʈ"]:
+                ons = "tɕ"
+            elif ons == "ʂ":
+                ons = "s"
 
         if dialect == "south":
             if cod in ["ŋ", "k"] and nuc in ["u", "o", "ↄ"]:
