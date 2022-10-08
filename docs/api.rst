@@ -1,3 +1,10 @@
+.. _api:
+
+Developer Interface
+===================
+
+.. module:: underthesea
+
 =============
 word_tokenize
 =============
