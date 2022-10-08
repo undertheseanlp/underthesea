@@ -7,29 +7,28 @@ def word_tokenize(sentence, format=None, use_token_normalize=True):
     """
     Vietnamese word segmentation
 
-    Parameters
-    ==========
+    Args:
+        sentence (str): raw sentence
+        format (str, optional): format option.
+            Defaults to None.
+            use format=`text` for text format
+        use_token_normalize (bool): True if use token_normalize
 
-    sentence: {unicode, str}
-        raw sentence
+    Returns:
+        :obj:`list` of :obj:`str`:
+            word tokens
 
-    Returns
-    =======
-    tokens: list of text
-        tagged sentence
+    Examples:
 
-    Examples
-    --------
+        >>> # -*- coding: utf-8 -*-
+        >>> from underthesea import word_tokenize
+        >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư"
 
-    >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import word_tokenize
-    >>> sentence = "Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư"
+        >>> word_tokenize(sentence)
+        ["Bác sĩ", "bây giờ", "có thể", "thản nhiên", "báo tin", "bệnh nhân", "bị", "ung thư"]
 
-    >>> word_tokenize(sentence)
-    ['Bác sĩ', 'bây giờ', 'có thể', 'thản nhiên', 'báo tin', 'bệnh nhân', 'bị', 'ung thư']
-
-    >>> word_tokenize(sentence, format="text")
-    'Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư'
+        >>> word_tokenize(sentence, format="text")
+        "Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư"
     """
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize)
     crf_model = CRFModel.instance()
