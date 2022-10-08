@@ -9,12 +9,13 @@ def word_tokenize(sentence, format=None, use_token_normalize=True):
 
     Args:
         sentence (str): raw sentence
-        format (str, optional): format option. Defaults to None.
+        format (str, optional): format option.
+            Defaults to None.
             use format=`text` for text format
         use_token_normalize (bool): True if use token_normalize
 
     Returns:
-        tokens: list of text
+        tokens: :obj:`list` of :obj:`str`
             tagged sentence
 
     Examples:
