@@ -296,7 +296,8 @@ autodoc_mock_imports = [
     "transformer.unicode",
     "transformer.lowercase",
     "fasttext",
-    "nltk"
+    "nltk",
+    "underthesea_core"
 ]
 
 intersphinx_mapping = {
