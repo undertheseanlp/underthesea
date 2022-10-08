@@ -7,11 +7,10 @@ def word_tokenize(sentence, format=None, use_token_normalize=True):
     """
     Vietnamese word segmentation
 
-    Parameters
-    ==========
-
-    sentence: {unicode, str}
-        raw sentence
+    Args:
+        sentence ({unicode, str}): raw sentence
+        format (object): text or None
+        use_token_normalize (bool): True if use token_normalize
 
     Returns
     =======
