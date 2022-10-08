@@ -15,8 +15,8 @@ def word_tokenize(sentence, format=None, use_token_normalize=True):
         use_token_normalize (bool): True if use token_normalize
 
     Returns:
-        tokens: :obj:`list` of :obj:`str`
-            tagged sentence
+        :obj:`list` of :obj:`str`:
+            word tokens
 
     Examples:
 
