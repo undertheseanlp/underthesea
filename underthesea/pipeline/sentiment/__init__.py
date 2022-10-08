@@ -8,25 +8,24 @@ def sentiment(X, domain='general'):
     Parameters
     ==========
 
-    X: {unicode, str}
+    X: str
         raw sentence
-    domain: {'bank'}
-        domain of text
-            * bank: bank domain
+    domain: str
+        domain of text (bank or general). Defaults to `general`
+
     Returns
     =======
-    Text: Text of input sentence
-    Labels: Sentiment of sentence
+        Text: Text of input sentence
+        Labels: Sentiment of sentence
 
     Examples
     --------
 
-    >>> # -*- coding: utf-8 -*-
-    >>> from underthesea import sentiment
-    >>> sentence = "Chuyen tiền k nhận Dc tiên"
-    >>> sentiment(sentence, domain='bank')
-
-    [MONEY_TRANSFER#negative (1.0)]
+        >>> # -*- coding: utf-8 -*-
+        >>> from underthesea import sentiment
+        >>> sentence = "Chuyen tiền k nhận Dc tiên"
+        >>> sentiment(sentence, domain='bank')
+        [MONEY_TRANSFER#negative (1.0)]
     """
     if X == "":
         return None
