@@ -9,7 +9,7 @@ Developer Interface
 word_tokenize
 =============
 
-.. autofunction:: underthesea.pipeline.word_tokenize.word_tokenize
+.. autofunction:: word_tokenize
 
 =======
 pos_tag
