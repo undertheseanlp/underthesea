@@ -48,3 +48,9 @@ Install dependencies
     $ pip install future scipy numpy scikit-learn==0.19.2 joblib
 
 .. autofunction:: underthesea.sentiment.sentiment
+
+=========
+ipa
+=========
+
+.. autofunction:: underthesea.pipeline.ipa.vietnamese_to_ipa
