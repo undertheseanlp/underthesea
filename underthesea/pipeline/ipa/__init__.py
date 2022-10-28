@@ -1,7 +1,7 @@
 from underthesea.utils.vietnamese_ipa import Syllable
 
 
-def vietnamese_to_ipa(text: str, *args, **kwargs):
+def viet2ipa(text: str, *args, **kwargs):
     """Generate ipa of the syllable
 
     Vietnamese syllabic structure (Anh & Trang 2022)
@@ -22,7 +22,7 @@ def vietnamese_to_ipa(text: str, *args, **kwargs):
     Examples:
 
         >>> # -*- coding: utf-8 -*-
-        >>> from underthesea.pipeline.ipa import vietnamese_to_ipa
+        >>> from underthesea.pipeline.ipa import viet2ipa
         >>> vietnamese_to_ipa("trồng")
         tɕoŋ³²
     """

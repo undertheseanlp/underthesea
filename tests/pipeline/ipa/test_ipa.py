@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
-from underthesea.pipeline.ipa import vietnamese_to_ipa
+from underthesea.pipeline.ipa import viet2ipa
 
 
 class TestIPA(TestCase):
     def test_1(self):
-        actual = vietnamese_to_ipa("trồng")
+        actual = viet2ipa("trồng")
         expected = "tɕoŋ³²"
         self.assertEqual(expected, actual)

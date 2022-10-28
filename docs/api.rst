@@ -56,8 +56,8 @@ Install dependencies
 
 .. autofunction:: sentiment
 
-=========
-ipa
-=========
+========
+viet2api
+========
 
-.. autofunction:: underthesea.pipeline.ipa.vietnamese_to_ipa
+.. autofunction:: underthesea.pipeline.ipa.viet2api
