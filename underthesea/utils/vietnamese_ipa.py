@@ -161,9 +161,6 @@ class Syllable:
                         # ipa_v = "a"
                         ipa_v = "aː"
                     elif c2 in ["u", "ă", "y"]:
-                        # trang
-                        # ipa_v = "ă"
-                        # vphon
                         ipa_v = "a"
                 if v == "o" and c2 == "o":
                     ipa_v = "ↄ:"
