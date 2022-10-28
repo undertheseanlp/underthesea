@@ -75,7 +75,7 @@ class Syllable:
         a = "[aăâ]"
         o = "[oôơ]"
         u = "[uư]"
-        double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}|ay|ây"
+        double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}|ay|ây|ua"
         v = r"(?P<V>[aăâeêuưyoôơi]|" + double + ")"
         # vy = r"(?P<V>y)"
         vac = r"(?P<V>â)"
@@ -91,7 +91,6 @@ class Syllable:
             r"^" + c1 + "(?P<w>[u])(?P<V>[yâ])" + c2 + "$",
             r"^" + c1 + "(?P<w>[o])(?P<V>[eaă])" + c2 + "$",
             r"^" + c1 + v + c2 + "$",
-            r"^" + c1 + wu + vac + c2 + "$",
             r"^" + c1 + wu + vec + c2 + "$",
             r"^" + c1 + wu + vye + c2 + "$",
             r"^" + c1 + wu + vya + c2 + "$",
@@ -112,7 +111,7 @@ class Syllable:
 
     # flake8: noqa: C901
     def generate_ipa(
-        self, dialect: str = "north", eight: bool = False, tone: str = "number"
+            self, dialect: str = "north", eight: bool = False, tone: str = "number"
     ):
         """Generate ipa of the syllable
 
@@ -130,15 +129,17 @@ class Syllable:
         """
         groups = self.matched.groupdict()
 
-        map_w = {"ʷ": ["o", "u"]}
-        map_w = self._util_reverse_dict(map_w)
+        map_w = {
+            "o": "ʷ",
+            "u": "ʷ"
+        }
 
         c1, w, v, c2 = groups["C1"], groups["w"], groups["V"], groups["C2"]
 
+        ipa_w = ""
         if w:
-            ipa_w = map_w[groups["w"]]
-        else:
-            ipa_w = ""
+            ipa_w = map_w[w]
+
         nuclei.update(onglides)
         nuclei.update(offglides)
         nuclei.update(onoffglides)
@@ -182,7 +183,7 @@ class Syllable:
             VIETNAMESE.TONE.HIGH_FALLING_RISING_GLOTTALIZED: "˧˥",
         }
 
-        # vphone
+        # vphon
         map_tone_number = {
             VIETNAMESE.TONE.HIGH_LEVEL: "³³",
             VIETNAMESE.TONE.MID_FALLING: "³²",
@@ -205,6 +206,8 @@ class Syllable:
         # Deal with gi, giền and giêng
         if ons == "z" and nuc == "e":
             nuc = "iə"
+        if ons == "ɣ" and nuc == "i":
+            ons = "z"
 
         ##
         # Generate internal G2P representation
@@ -271,25 +274,25 @@ class Syllable:
 
 
 vietnamese_alphabet = (
-    "aàáảãạ"
-    + "ăằắẳẵặ"
-    + "âầấẩẫậ"
-    + "bcd"
-    + "đ"
-    + "eèéẻẽẹ"
-    + "êềếểễệ"
-    + "fgh"
-    + "iìíỉĩị"
-    + "jklmn"
-    + "oòóỏõọ"
-    + "ôồốổỗộ"
-    + "ơờớởỡợ"
-    + "pqrst"
-    + "uùúủũụ"
-    + "ưừứửữự"
-    + "vwx"
-    + "yỳýỷỹỵ"
-    + "z"
+        "aàáảãạ"
+        + "ăằắẳẵặ"
+        + "âầấẩẫậ"
+        + "bcd"
+        + "đ"
+        + "eèéẻẽẹ"
+        + "êềếểễệ"
+        + "fgh"
+        + "iìíỉĩị"
+        + "jklmn"
+        + "oòóỏõọ"
+        + "ôồốổỗộ"
+        + "ơờớởỡợ"
+        + "pqrst"
+        + "uùúủũụ"
+        + "ưừứửữự"
+        + "vwx"
+        + "yỳýỷỹỵ"
+        + "z"
 )
 
 vietnamese_alphabet_order = OrderedDict()

@@ -49,9 +49,26 @@ class TestVietnameseIPA(TestCase):
             expected = ipas[i]
             self.assertEqual(expected, actual)
 
-    def test_rimes_n_c_p(self):
-        inputs = read_test_files(join(DATA_TEST_FOLDER, "rimes.in"))
-        expected = read_test_files(join(DATA_TEST_FOLDER, "rimes_n-c-p.out"))
+    def test_5(self):
+        syllables = ["vua"]
+        ipas = ["vuə³³"]
+        for i, s in enumerate(syllables):
+            syllable = Syllable(s)
+            actual = syllable.generate_ipa(eight=True)
+            expected = ipas[i]
+            self.assertEqual(expected, actual)
+
+    def test_edge_n_c_p(self):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, "edge.in"))
+        expected = read_test_files(join(DATA_TEST_FOLDER, "edge_n-c-p.out"))
+        for i, item in enumerate(inputs):
+            tokens = item.lower().split()
+            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            self.assertEqual(expected[i], actual)
+
+    def test_onset_n_c_p(self):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, "onsets.in"))
+        expected = read_test_files(join(DATA_TEST_FOLDER, "onsets_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
             actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
