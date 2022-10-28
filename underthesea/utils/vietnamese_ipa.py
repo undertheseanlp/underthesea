@@ -120,9 +120,9 @@ class Syllable:
         rhyme = medial + nuclear vowel + (coda)
 
         Args:
-            dialect (str): Either the `string` `"north"` or `"south"`
-            eight (boolean): If true, use eight tone format, else use six tone format
-            tone (str): Either the `string` `"ipa"` or `"number"`
+            dialect (str): Either the `string` `"north"` or `"south"`. Default: `north`
+            eight (boolean): If true, use eight tone format, else use six tone format. Default: `False`
+            tone (str): Either the `string` `"ipa"` or `"number"`. Default: `number`
 
         Returns:
             A `string`. Represents ipa of the syllable

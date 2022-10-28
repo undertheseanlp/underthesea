@@ -54,7 +54,7 @@ Install dependencies
 
     $ pip install future scipy numpy scikit-learn==0.19.2 joblib
 
-.. autofunction:: underthesea.sentiment.sentiment
+.. autofunction:: sentiment
 
 =========
 ipa

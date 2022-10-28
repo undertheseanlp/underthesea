@@ -11,7 +11,7 @@ def sentiment(X, domain='general'):
     X: str
         raw sentence
     domain: str
-        domain of text (bank or general). Defaults to `general`
+        domain of text (bank or general). Default: `general`
 
     Returns
     =======
@@ -21,7 +21,6 @@ def sentiment(X, domain='general'):
     Examples
     --------
 
-        >>> # -*- coding: utf-8 -*-
         >>> from underthesea import sentiment
         >>> sentence = "Chuyen tiền k nhận Dc tiên"
         >>> sentiment(sentence, domain='bank')
