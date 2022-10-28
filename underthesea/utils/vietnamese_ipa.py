@@ -5,7 +5,7 @@ from collections import OrderedDict
 from types import SimpleNamespace
 import regex
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
-from underthesea.utils.vietnamese_ipa_rules import codas, nuclei, onsets
+from underthesea.utils.vietnamese_ipa_rules import codas, nuclei, onsets, onoffglides, onglides, offglides
 
 
 class VIETNAMESE:
@@ -75,8 +75,8 @@ class Syllable:
         a = "[aăâ]"
         o = "[oôơ]"
         u = "[uư]"
-        double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}"
-        v = r"(?P<V>" + double + "|[" + VIETNAMESE_VOWELS_LOWER + "]|y)"
+        double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}|ay|ây"
+        v = r"(?P<V>[aăâeêuưyoôơi]|" + double + ")"
         # vy = r"(?P<V>y)"
         vac = r"(?P<V>â)"
         vec = r"(?P<V>ê)"
@@ -84,7 +84,7 @@ class Syllable:
         vye = "(?P<V>yê)"
         vya = f"(?P<V>y{a})"
         consonants = "gi|qu|ch|gh|kh|ng|ngh|nh|ph|th|tr|[bcdđghklmnpqrstvx]"
-        conda = consonants + "|[uiyo]"
+        conda = consonants + "|[uio]"
         c1 = r"(?P<C1>" + consonants + ")?"
         c2 = r"(?P<C2>" + conda + ")?"
         patterns = [
@@ -116,9 +116,9 @@ class Syllable:
     ):
         """Generate ipa of the syllable
 
-        Syllable structure
-        syllable = onset + nuclei + conda
-        nuclei = nuclei + onglides + offglides + onoffglides
+        Vietnamese syllabic structure (Trang 2022)
+        syllable = onset + rhyme + tone
+        rhyme = medial + nuclear vowel + (coda)
 
         Args:
             dialect (str): Either the `string` `"north"` or `"south"`
@@ -139,7 +139,9 @@ class Syllable:
             ipa_w = map_w[groups["w"]]
         else:
             ipa_w = ""
-
+        nuclei.update(onglides)
+        nuclei.update(offglides)
+        nuclei.update(onoffglides)
         ipa_v = nuclei[v]
         if c1:
             ipa_c1 = onsets[c1]
