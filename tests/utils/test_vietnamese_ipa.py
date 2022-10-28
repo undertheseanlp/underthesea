@@ -81,3 +81,19 @@ class TestVietnameseIPA(TestCase):
             tokens = item.lower().split()
             actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
             self.assertEqual(expected[i], actual)
+
+    def test_tones_n_c_p(self):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, "tones.in"))
+        expected = read_test_files(join(DATA_TEST_FOLDER, "tones_n-c-p.out"))
+        for i, item in enumerate(inputs):
+            tokens = item.lower().split()
+            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            self.assertEqual(expected[i], actual)
+
+    def test_vowels_n_c_p(self):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, "vowels.in"))
+        expected = read_test_files(join(DATA_TEST_FOLDER, "vowels_n-c-p.out"))
+        for i, item in enumerate(inputs):
+            tokens = item.lower().split()
+            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            self.assertEqual(expected[i], actual)
