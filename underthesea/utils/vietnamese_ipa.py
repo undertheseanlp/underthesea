@@ -117,7 +117,8 @@ class Syllable:
         """Generate ipa of the syllable
 
         Syllable structure
-        syllable = onset + (w) + nuclei + conda
+        syllable = onset + nuclei + conda
+        nuclei = nuclei + onglides + offglides + onoffglides
 
         Args:
             dialect (str): Either the `string` `"north"` or `"south"`
@@ -189,31 +190,46 @@ class Syllable:
             VIETNAMESE.TONE.LOW_GLOTTALIZED: "²¹ˀ",
         }
         if tone == "number":
-            map_T = map_tone_number
+            map_t = map_tone_number
         else:
-            map_T = map_tone_ipa
-        ipa_T = map_T[self.tone]
-
-        if eight:
-            if ipa_c2 in ["p", "t", "k"]:
-                if self.tone == VIETNAMESE.TONE.RISING:
-                    ipa_T = "⁴⁵"
-                elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
-                    ipa_T = "²¹"
-        if ipa_c2 in ["ŋ", "k"] and ipa_v in ["u", "o", "ↄ"]:
-            if ipa_c2 == "ŋ":
-                ipa_c2 = "ŋ͡m"
-            elif ipa_c2 == "k":
-                ipa_c2 = "k͡p"
+            map_t = map_tone_ipa
+        ipa_t = map_t[self.tone]
 
         ons = ipa_c1
         cod = ipa_c2
         nuc = ipa_v
+        ton = ipa_t
 
+        # Deal with gi, giền and giêng
+        if ons == "z" and nuc == "e":
+            nuc = "iə"
+
+        ##
+        # Generate internal G2P representation
+        ##
         if ons == "":
             ons = "ʔ"
         if ons == "ʂ":
             ons = "s"
+
+        ##
+        # Northern
+        ##
+        if dialect == "north":
+            # Onset mergers
+            if ons in ["j", "r"]:
+                ons = "z"
+            elif ons in ["c", "ʈ"]:
+                ons = "tɕ"
+            elif ons == "ʂ":
+                ons = "s"
+
+        if dialect == "south":
+            if cod in ["ŋ", "k"] and nuc in ["u", "o", "ↄ"]:
+                if cod == "ŋ":
+                    cod = "ŋ͡m"
+                elif cod == "k":
+                    cod = "k͡p"
 
         # Capture vowel/coda interactions of ɛ/ɛː and e/eː
         if cod in ["ŋ", "k"]:
@@ -241,7 +257,14 @@ class Syllable:
                 nuc = "a"
             if nuc == "əː":
                 nuc = "ə"
-        ipa = ons + ipa_w + nuc + cod + ipa_T
+
+        if eight:
+            if cod in ["p", "t", "k"]:
+                if self.tone == VIETNAMESE.TONE.RISING:
+                    ton = "⁴⁵"
+                elif self.tone == VIETNAMESE.TONE.LOW_GLOTTALIZED:
+                    ton = "²¹"
+        ipa = ons + ipa_w + nuc + cod + ton
         return ipa
 
 
