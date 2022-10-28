@@ -25,7 +25,6 @@ def vietnamese_to_ipa(text: str, *args, **kwargs):
         >>> from underthesea.pipeline.ipa import vietnamese_to_ipa
         >>> vietnamese_to_ipa("trồng")
         tɕoŋ³²
-
     """
     try:
         syllable = Syllable(text)
