@@ -1,26 +1,33 @@
+.. _api:
+
+Developer Interface
+===================
+
+.. module:: underthesea
+
 =============
 word_tokenize
 =============
 
-.. autofunction:: underthesea.word_tokenize.word_tokenize
+.. autofunction:: word_tokenize
 
 =======
 pos_tag
 =======
 
-.. autofunction:: underthesea.pos_tag.pos_tag
+.. autofunction:: pos_tag
 
 ========
 chunking
 ========
 
-.. autofunction:: underthesea.chunking.chunk
+.. autofunction:: chunk
 
 ===
 ner
 ===
 
-.. autofunction:: underthesea.ner.ner
+.. autofunction:: ner
 
 ========
 classify
@@ -35,7 +42,7 @@ Install dependencies and download default model
     $ pip install -U fasttext --no-cache-dir --no-deps --force-reinstall
     $ underthesea data
 
-.. autofunction:: underthesea.classification.classify
+.. autofunction:: classify
 
 =========
 sentiment

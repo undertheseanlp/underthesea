@@ -40,10 +40,8 @@ sys.path.insert(0, project_root)
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
     'sphinx.ext.autodoc',
-    # 'sphinx.ext.linkcode',
     'sphinx.ext.intersphinx',
     'sphinx.ext.napoleon',
-    # 'sphinx_gallery.gen_gallery',
     'sphinx.ext.viewcode'
 ]
 # Add any paths that contain templates here, relative to this directory.
@@ -294,11 +292,12 @@ autodoc_mock_imports = [
     "torch.optim",
     "torch.nn.functional",
     "torch.utils.data",
-    "xgboost",
     "readers",
     "transformer.unicode",
     "transformer.lowercase",
-    "fasttext"
+    "fasttext",
+    "nltk",
+    "underthesea_core"
 ]
 
 intersphinx_mapping = {
