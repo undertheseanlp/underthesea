@@ -24,6 +24,24 @@ UPPER = "[" + "".join([
 LOWER = UPPER.lower()
 W = "[" + UPPER[1:-1] + LOWER[1:-1] + "]"  # upper and lower
 
+VIETNAMESE_CHARACTERS_UPPER = "ABCDEFGHIJKLMNOPQRSTUVXYZ" \
+                              + "ÀÁẢÃẠ" + "ĂẰẮẲẴẶ" + "ÂẦẤẨẪẬ" \
+                              + "Đ" \
+                              + "ÈÉẺẼẸ" + "ÊỀẾỂỄỆ" \
+                              + "ÌÍỈĨỊ" \
+                              + "ÒÓỎÕỌ" + "ÔỒỐỔỖỘ" + "ƠỜỚỞỠỢ" \
+                              + "ÙÚỦŨỤ" + "ƯỪỨỬỮỰ" \
+                              + "ỲÝỶỸỴ"
+VIETNAMESE_CHARACTERS_LOWER = VIETNAMESE_CHARACTERS_UPPER.lower()
+VIETNAMESE_VOWELS_UPPER = "AEIOU" \
+                          + "ÀÁẢÃẠ" + "ĂẰẮẲẴẶ" + "ÂẦẤẨẪẬ" \
+                          + "ÈÉẺẼẸ" + "ÊỀẾỂỄỆ" \
+                          + "ÌÍỈĨỊ" \
+                          + "ÒÓỎÕỌ" + "ÔỒỐỔỖỘ" + "ƠỜỚỞỠỢ" \
+                          + "ÙÚỦŨỤ" + "ƯỪỨỬỮỰ" \
+                          + "ỲÝỶỸỴ"
+VIETNAMESE_VOWELS_LOWER = VIETNAMESE_VOWELS_UPPER.lower()
+
 #################################################
 # PRIORITY 1                                    #
 #################################################

@@ -1,0 +1,5 @@
+venv
+*.pyc
+staticfiles
+.env
+.idea

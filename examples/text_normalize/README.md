@@ -34,3 +34,19 @@ Build VietnameseTextNormalizer
 ```
 cp VietnameseTextNormalizer/ReleasePython3 underthesea/examples/text_normalize/tools/module
 ```
+
+# ViWiktionary
+
+Download viwiktionary dataset
+
+```
+wget https://dumps.wikimedia.org/viwiktionary/20220801/viwiktionary-20220801-pages-articles-multistream.xml.bz2
+bzip2 -d viwiktionary-20220801-pages-articles-multistream.xml.bz2
+
+wget https://dumps.wikimedia.org/viwiktionary/20220801/viwiktionary-20220801-pages-articles-multistream-index.txt.bz2
+bzip2 -d viwiktionary-20220801-pages-articles-multistream-index.txt.bz2
+```
+
+https://vi.wiktionary.org/wiki/B%E1%BA%A3n_m%E1%BA%ABu:vie-pron
+
+https://vi.wiktionary.org/wiki/B%E1%BA%A3n_m%E1%BA%ABu:VieIPA

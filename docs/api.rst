@@ -55,3 +55,9 @@ Install dependencies
     $ pip install future scipy numpy scikit-learn==0.19.2 joblib
 
 .. autofunction:: sentiment
+
+========
+viet2ipa
+========
+
+.. autofunction:: underthesea.pipeline.ipa.viet2ipa

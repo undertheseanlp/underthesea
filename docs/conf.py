@@ -297,6 +297,7 @@ autodoc_mock_imports = [
     "transformer.lowercase",
     "fasttext",
     "nltk",
+    "regex",
     "underthesea_core"
 ]
 

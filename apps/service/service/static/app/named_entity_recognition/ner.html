@@ -1,0 +1,36 @@
+<h2>Named Entity Recognition</h2>
+<p>location and classify named entities in text</p>
+<hr/>
+<p><b>Text</b></p>
+<div class="row">
+  <div class="col-lg-8 col-sm-12 text-demo">
+    <div class="form-group">
+      <textarea class="form-control" rows="10" id="text"
+                ng-model="text"></textarea>
+    </div>
+    <p class="text-center">
+      <span class="btn btn-success"
+            ng-click="do()">Named Entity Recognition</span>
+    </p>
+  </div>
+  <div class="col-lg-4 col-sm-12 list-text-demo">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <p>Try with:</p>
+        <ul class="list-group">
+          <li class="list-group-item"
+              ng-repeat="sample in samples track by $index"
+              ng-click="updateText(sample)">
+            <span class="badge badge-info">{{ $index + 1 }}</span>
+            <span class="content-li"> {{ sample }}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<b>NER</b><br/>
+<div id="ner_wrapper">
+  <div id="ner"></div>
+</div>
+
