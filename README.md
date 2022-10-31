@@ -14,6 +14,9 @@
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
   </a>
+  <a href="https://underthesea.readthedocs.io/en/latest/">
+    <img src="https://img.shields.io/badge/docs-live-brightgreen">
+  </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
     <img src="https://img.shields.io/badge/latest-ff9f01?logo=google-colab&logoColor=white">
   </a>
@@ -40,7 +43,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
-💫 [**Version 1.3.4 out now!**](https://github.com/undertheseanlp/underthesea/releases)
+💫 [**Version 1.3.5 out now!**](https://github.com/undertheseanlp/underthesea/releases)
 
 ## Installation
 
