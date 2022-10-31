@@ -8,7 +8,7 @@ VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
 
 
 def generate_ipa_syllables():
-    with open(join("outputs", "syllables.txt")) as f:
+    with open(join("tmp", "syllables.txt")) as f:
         items = f.readlines()
     items = [item.strip() for item in items]
     items = sorted(items, key=vietnamese_sort_key)
@@ -17,7 +17,10 @@ def generate_ipa_syllables():
         text = item
         if text in set(["gĩữ", "by"]):
             continue
-        syllable = Syllable(text)
+        try:
+            syllable = Syllable(text)
+        except:
+            continue
         ipa = syllable.generate_ipa()
         components = syllable.matched.groupdict()
         C1 = components['C1']
@@ -36,7 +39,7 @@ def generate_ipa_syllables():
     # write Excel file
     df.index = df.index + 1
     df = df.reset_index()
-    df.to_excel(join("outputs", "syllables_ipa.xlsx"), index=False)
+    df.to_excel(join("tmp", "syllables_ipa.xlsx"), index=False)
 
     # write text file
     result = ""
@@ -45,7 +48,7 @@ def generate_ipa_syllables():
         text = row['syllable']
         ipa = row['ipa']
         result += f"{i},{text},{ipa}\n"
-    with open(join("outputs", "syllables_ipa.txt"), "w") as f:
+    with open(join("tmp", "syllables_ipa.txt"), "w") as f:
         f.write(result)
 
 
