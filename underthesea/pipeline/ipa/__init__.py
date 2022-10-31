@@ -23,7 +23,7 @@ def viet2ipa(text: str, *args, **kwargs):
 
         >>> # -*- coding: utf-8 -*-
         >>> from underthesea.pipeline.ipa import viet2ipa
-        >>> vietnamese_to_ipa("trồng")
+        >>> viet2ipa("trồng")
         tɕoŋ³²
     """
     try:

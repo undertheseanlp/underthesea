@@ -1,9 +1,9 @@
-anh,ʔɛ̆ŋ³³
-ách,ʔɛ̆k⁴⁵
-bói,bↄj³⁴
-xoong,xↄ:ŋ³³
-oong,ʔↄ:ŋ³³
-giếng,zieŋ³⁴
+anh,ʔɛŋ³³
+ách,ʔɛk²⁴
+bói,ɓɔj²⁴
+xoong,sɔːŋ³³
+oong,ʔɔːŋ³³
+giếng,ziəŋ²⁴
 hư,hɯ³³
 hương,hɯəŋ³³
 vơ,vɤ³³
