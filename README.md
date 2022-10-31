@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
   </a>
   <a href="https://underthesea.readthedocs.io/en/latest/">
-    <img src="https://img.shields.io/badge/doc-live-brightgreen">
+    <img src="https://img.shields.io/badge/docs-live-brightgreen">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
     <img src="https://img.shields.io/badge/latest-ff9f01?logo=google-colab&logoColor=white">
