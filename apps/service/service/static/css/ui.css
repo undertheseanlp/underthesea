@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Astloch Bold";
+    src: url("./static/fonts/Astloch-Bold.ttf");
+}
+
+.navbar-default .navbar-brand {
+    color: #111 !important;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #d9230f !important;
+    background-color: transparent;
+}
+
+.form-control {
+    color: #444;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+
+.badge-info {
+    background-color: #3c8dbc;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.text-demo .panel, .list-text-demo .panel {
+    border-top: 3px solid #3c8dbc;
+}
+
+.text-demo .panel-body, .list-text-demo .panel-body {
+    padding: 0px !important;
+    color: #666;
+}
+
+.list-text-demo ul {
+    margin-bottom: 0px !important;
+}
+
+.list-text-demo p {
+    font-style: italic;
+    padding: 5px 15px 0px 15px;
+}
+
+.list-text-demo .list-group-item {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0px !important;
+    cursor: pointer;
+    font-size: 13px;
+    padding: 5px 10px !important;
+    display: flex;
+    align-items: start;
+}
+
+.list-text-demo .content-li {
+    margin-left: 5px;
+}
+
+.list-text-demo .list-group-item:hover {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.button-audio-control:hover {
+    cursor: pointer;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 8px solid #666;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+

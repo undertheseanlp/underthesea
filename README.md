@@ -58,14 +58,14 @@ Satisfaction, guaranteed.
 
 * [1. Sentence Segmentation](#1-sentence-segmentation)
 * [2. Text Normalization](#2-text-normalization)
-* [3. Word Segmentation](#2-word-segmentation)
-* [4. POS Tagging](#3-pos-tagging)
-* [5. Chunking](#4-chunking)
-* [6. Dependency Parsing](#5-dependency-parsing)
-* [7. Named Entity Recognition](#6-named-entity-recognition)
-* [8. Text Classification](#7-text-classification)
-* [9. Sentiment Analysis](#8-sentiment-analysis)
-* [10. Vietnamese NLP Resources](#9-vietnamese-nlp-resources)
+* [3. Word Segmentation](#3-word-segmentation)
+* [4. POS Tagging](#4-pos-tagging)
+* [5. Chunking](#5-chunking)
+* [6. Dependency Parsing](#6-dependency-parsing)
+* [7. Named Entity Recognition](#7-named-entity-recognition)
+* [8. Text Classification](#8-text-classification)
+* [9. Sentiment Analysis](#9-sentiment-analysis)
+* [10. Vietnamese NLP Resources](#10-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
 

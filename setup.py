@@ -31,7 +31,7 @@ extras_require = {
         'seqeval'
     ],
     'deep': [
-        'torch>=1.1.0',
+        'torch>=1.1.0,<1.13',
         'transformers>=3.5.0'
     ]
 }

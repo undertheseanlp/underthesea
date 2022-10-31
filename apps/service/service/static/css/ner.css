@@ -1,0 +1,35 @@
+/**
+ * =======================
+ * Color Theme
+ * =======================
+ * Person   : #EEC467
+ * Location : #3DB4F8
+ * Date     : #46CAB2
+ * Time     : #46CAB2
+ * =======================
+ * References
+ * - http://brat.nlplab.org/img/examples/Stanford-CoreNLP-full.png
+ */
+
+.tag {
+    font-size: 11px;
+    padding: 0px 3px;
+    border-radius: 3px;
+}
+
+.person {
+    background: #EEC467;
+}
+
+.location {
+    background: #3DB4F8;
+}
+
+.date {
+    background: #46CAB2;
+}
+
+.time {
+    background: #46CAB2;
+}
+
