@@ -1,6 +1,6 @@
 # Vietnamese IPA
 
-## Datasets
+## Data
 
 * viwik_syllables_v1_2022
   * Extract from Vietnamese Wiki Dictionary
