@@ -203,11 +203,11 @@ def extract_syllables():
             for syllable in word.syllables:
                 syllables.add(syllable)
     content = "\n".join(sorted(list(syllables)))
-    with open(join("outputs", "syllables.txt"), "w") as f:
+    with open(join("../text_normalize/outputs", "syllables.txt"), "w") as f:
         f.write(content)
 
     content = "\n".join(sorted(list(all_tokens)))
-    with open(join("outputs", "all_tokens.txt"), "w") as f:
+    with open(join("../text_normalize/outputs", "all_tokens.txt"), "w") as f:
         f.write(content)
 
 

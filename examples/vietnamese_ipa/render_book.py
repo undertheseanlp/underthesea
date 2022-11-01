@@ -1,6 +1,6 @@
 def generate_ipa_tables():
     # output = "2 & cell2 & cell3 \\\\"
-    with open("outputs/syllables_ipa.txt") as f:
+    with open("../text_normalize/outputs/syllables_ipa.txt") as f:
         content = f.read()
     lines = content.strip().split("\n")
     output = ""
@@ -17,7 +17,7 @@ def generate_ipa_tables():
 
 
 if __name__ == '__main__':
-    with open("templates/book.tex") as f:
+    with open("../text_normalize/templates/book.tex") as f:
         template = f.read()
 
     content = template
