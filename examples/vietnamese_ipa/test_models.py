@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from process_viwiktionary import Word, split_vietnamese_syllable
+from examples.vietnamese_ipa.process_viwiktionary import Word, split_vietnamese_syllable
 
 
 class TestModel(TestCase):
