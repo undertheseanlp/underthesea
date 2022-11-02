@@ -14,7 +14,6 @@ install_requires = [
     'requests',
     'joblib',
     'scikit-learn',
-    'unidecode',
     'PyYAML',
     'underthesea_core==0.0.5a2'
 ]
