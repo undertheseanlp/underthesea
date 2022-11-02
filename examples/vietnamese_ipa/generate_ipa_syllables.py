@@ -19,7 +19,7 @@ def generate_ipa_syllables():
             continue
         try:
             syllable = Syllable(text)
-        except:
+        except Exception:
             continue
         ipa = syllable.generate_ipa()
         components = syllable.matched.groupdict()

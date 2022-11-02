@@ -54,4 +54,3 @@ if __name__ == '__main__':
     file_2 = "tmp/viwik_syllables_v1_2022.txt"
     name_2 = "vw"
     compare_file(file_1, name_1, file_2, name_2)
-
