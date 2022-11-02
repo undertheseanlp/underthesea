@@ -1,25 +1,20 @@
 from os.path import join
 import pandas as pd
-
-from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.utils.vietnamese_ipa import Syllable, vietnamese_sort_key
 
-VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
 
-
-def generate_ipa_syllables():
-    with open(join("tmp", "syllables.txt")) as f:
+def generate_ipa_syllables(filename):
+    with open(filename) as f:
         items = f.readlines()
     items = [item.strip() for item in items]
     items = sorted(items, key=vietnamese_sort_key)
     data = []
     for item in items:
         text = item
-        if text in set(["gĩữ", "by"]):
-            continue
         try:
             syllable = Syllable(text)
-        except Exception:
+        except Exception as e:
+            print(e)
             continue
         ipa = syllable.generate_ipa()
         components = syllable.matched.groupdict()
@@ -53,4 +48,5 @@ def generate_ipa_syllables():
 
 
 if __name__ == '__main__':
-    generate_ipa_syllables()
+    filename = join("tmp", "uts_syllables_v1_2022.txt")
+    generate_ipa_syllables(filename)
