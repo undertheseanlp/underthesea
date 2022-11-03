@@ -1,7 +1,7 @@
 from sklearn.base import BaseEstimator, TransformerMixin
 import string
 from underthesea.pipeline.word_tokenize import tokenize
-from underthesea.utils.vietnamese_ipa import remove_tone
+from underthesea.utils.vietnamese_features import remove_tone
 
 
 negative_emoticons = {':(', '☹', '❌', '👎', '👹', '💀', '🔥', '🤔', '😏', '😐', '😑', '😒', '😓', '😔', '😕', '😖',
