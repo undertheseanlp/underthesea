@@ -1,7 +1,7 @@
-import unidecode
 from sklearn.base import BaseEstimator, TransformerMixin
 import string
 from underthesea.pipeline.word_tokenize import tokenize
+from underthesea.utils.vietnamese_features import remove_tone
 
 
 negative_emoticons = {':(', '☹', '❌', '👎', '👹', '💀', '🔥', '🤔', '😏', '😐', '😑', '😒', '😓', '😔', '😕', '😖',
@@ -25,7 +25,7 @@ class Lowercase(BaseEstimator, TransformerMixin):
 
 class RemoveTone(BaseEstimator, TransformerMixin):
     def remove_tone(self, s):
-        return unidecode.unidecode(s)
+        return remove_tone(s)
 
     def transform(self, x):
         return [self.remove_tone(s) for s in x]
