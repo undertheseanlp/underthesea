@@ -11,6 +11,12 @@ Environments:
 
 # Usage
 
+Rebase
+
+```
+git rebase origin/core
+```
+
 Update Dockerfile & Push to github registry
 
 ```
