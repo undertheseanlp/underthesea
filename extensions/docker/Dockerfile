@@ -29,12 +29,7 @@ ENV PATH /opt/conda/envs/python3.7/bin:$PATH
 ENV PATH /opt/conda/envs/python3.8/bin:$PATH
 ENV PATH /opt/conda/envs/python3.9/bin:$PATH
 ENV PATH /opt/conda/envs/python3.10/bin:$PATH
-
-# python 3.6
-RUN conda create -f -y -n python3.6 python=3.6
-RUN ln -s /opt/conda/envs/python3.6/bin/python3.6 /usr/bin/python3.6
-RUN source activate python3.6 && conda install -y pip
-RUN python3.6 -m pip install poetry
+ENV PATH /opt/conda/envs/python3.11/bin:$PATH
 
 # python 3.7
 RUN conda create -f -y -n python3.7 python=3.7
@@ -59,3 +54,9 @@ RUN conda create -f -y -n python3.10 python=3.10
 RUN ln -s /opt/conda/envs/python3.10/bin/python3.10 /usr/bin/python3.10
 RUN source activate python3.10 && conda install -y pip
 RUN python3.10 -m pip install poetry
+
+# python 3.11
+RUN conda create -f -y -n python3.11 python=3.11
+RUN ln -s /opt/conda/envs/python3.11/bin/python3.11 /usr/bin/python3.11
+RUN source activate python3.11 && conda install -y pip
+RUN python3.11 -m pip install poetry
