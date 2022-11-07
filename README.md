@@ -193,6 +193,25 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
+Install dependencies for deep learning
+
+```bash
+$ pip install underthesea[deep]
+```
+
+Usage
+
+```python
+>>> from underthesea import ner
+>>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
+>>> ner(text, deep=True)
+[
+  {'entity': 'B-ORG', 'word': 'Bộ'},
+  {'entity': 'I-ORG', 'word': 'Công'},
+  {'entity': 'I-ORG', 'word': 'Thương'}
+]
+```
+
 ### 8. Text Classification
 
 Usage
