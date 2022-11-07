@@ -45,6 +45,8 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 💫 [**Version 1.3.5 out now!**](https://github.com/undertheseanlp/underthesea/releases)
 
+💝 [Support Us](#-support-us)
+
 ## Installation
 
 
@@ -283,11 +285,11 @@ Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 * Text to Speech
 * Automatic Speech Recognition
 
-### Contributing
+## Contributing
 
 Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
 
-### ✨ Support Us
+## 💝 Support Us
 
 If you found this project helpful and would like to support our work, you can just buy us a coffee ☕.
 
