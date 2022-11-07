@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from underthesea import chunk
-import sys
 from .model_crf import CRFNERPredictor
 
 

@@ -1,5 +1,4 @@
-from transformers import pipeline, AutoModelForTokenClassification, BertTokenizerFast, PreTrainedTokenizer, \
-    AutoTokenizer
+from transformers import pipeline, AutoModelForTokenClassification, AutoTokenizer
 
 model_repo = "rain1024/underthesea_vlsp2016_ner"
 model_fine_tuned = AutoModelForTokenClassification.from_pretrained(model_repo)
