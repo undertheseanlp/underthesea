@@ -43,7 +43,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
-💫 [**Version 1.3.5 out now!**](https://github.com/undertheseanlp/underthesea/releases)
+💝 [**Support Us!**](#-support-us)
 
 ## Installation
 
@@ -193,6 +193,23 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
+With Deep Learning
+
+```bash
+$ pip install underthesea[deep]
+```
+
+```python
+>>> from underthesea import ner
+>>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
+>>> ner(text, deep=True)
+[
+  {'entity': 'B-ORG', 'word': 'Bộ'},
+  {'entity': 'I-ORG', 'word': 'Công'},
+  {'entity': 'I-ORG', 'word': 'Thương'}
+]
+```
+
 ### 8. Text Classification
 
 Usage
@@ -264,11 +281,11 @@ Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 * Text to Speech
 * Automatic Speech Recognition
 
-### Contributing
+## Contributing
 
 Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
 
-### ✨ Support Us
+## 💝 Support Us
 
 If you found this project helpful and would like to support our work, you can just buy us a coffee ☕.
 

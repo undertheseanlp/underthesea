@@ -1,14 +1,9 @@
 # -*- coding: utf-8 -*-
 from underthesea import chunk
-import sys
-
-if sys.version_info >= (3, 0):
-    from .model_crf import CRFNERPredictor
-else:
-    from model_crf import CRFNERPredictor
+from .model_crf import CRFNERPredictor
 
 
-def ner(sentence, format=None):
+def ner(sentence, format=None, deep=False):
     """
     Location and classify named entities in text
 
@@ -20,8 +15,7 @@ def ner(sentence, format=None):
 
     Returns
     =======
-    tokens: list of tuple with word, pos tag, chunking tag, ner tag
-        tagged sentence
+    tokens: list of tuple with word, pos tag, chunking tag, ner tag tagged sentence
 
     Examples
     --------
@@ -39,7 +33,21 @@ def ner(sentence, format=None):
     ('của', 'E', 'B-PP', 'O'),
     ('Liên Xô', 'Np', 'B-NP', 'B-LOC')]
     """
-    sentence = chunk(sentence)
-    crf_model = CRFNERPredictor.Instance()
-    result = crf_model.predict(sentence, format)
-    return result
+    if not deep:
+        sentence = chunk(sentence)
+        crf_model = CRFNERPredictor.Instance()
+        result = crf_model.predict(sentence, format)
+        return result
+    else:
+        from .model_transformers import nlp
+        output = nlp(sentence)
+        if len(output) == 0:
+            return []
+        entities = [output[0]]
+        for item in output[1:]:
+            if item["word"].startswith("##"):
+                entities[-1]["word"] = entities[-1]["word"] + item["word"][2:]
+                entities[-1]["end"] = item["end"]
+            else:
+                entities.append(item)
+        return entities
