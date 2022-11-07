@@ -193,13 +193,11 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
-Install dependencies for deep learning
+With Deep Learning
 
 ```bash
 $ pip install underthesea[deep]
 ```
-
-Usage
 
 ```python
 >>> from underthesea import ner
