@@ -13,12 +13,7 @@ def generate_ipa_syllables(filename):
         text = item
         try:
             syllable = Syllable(text)
-        except Exception as e:
-            print(e)
-            continue
-        try:
-            syllable = Syllable(text)
-        except:
+        except Exception:
             continue
         ipa = syllable.generate_ipa()
         components = syllable.matched.groupdict()
