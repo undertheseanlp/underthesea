@@ -70,11 +70,11 @@ if __name__ == '__main__':
     # output = f'outputs/sound/{service}/{text}.mp3'
     # FPTAI.tts(text, output)
     # ZaloAI.tts("bay", "bay.mp3")
-    with open('outputs/syllables.txt') as f:
+    with open('../text_normalize/outputs/syllables.txt') as f:
         lines = f.readlines()
         all_texts = [line.strip() for line in lines]
-    SOUND_DOWNLOAD_SUCCESS_FILE = 'outputs/syllables_sound_download_success.txt'
-    SOUND_DOWNLOAD_FAILED_FILE = 'outputs/syllables_sound_download_failed.txt'
+    SOUND_DOWNLOAD_SUCCESS_FILE = '../text_normalize/outputs/syllables_sound_download_success.txt'
+    SOUND_DOWNLOAD_FAILED_FILE = '../text_normalize/outputs/syllables_sound_download_failed.txt'
     with open(SOUND_DOWNLOAD_SUCCESS_FILE) as f:
         lines = f.readlines()
         texts = [line.strip() for line in lines]

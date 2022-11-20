@@ -1,23 +1,20 @@
 from os.path import join
 import pandas as pd
-
-from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.utils.vietnamese_ipa import Syllable, vietnamese_sort_key
 
-VIWIK_FOLDER = join(DATASETS_FOLDER, "viwiktionary")
 
-
-def generate_ipa_syllables():
-    with open(join("outputs", "syllables.txt")) as f:
+def generate_ipa_syllables(filename):
+    with open(filename) as f:
         items = f.readlines()
     items = [item.strip() for item in items]
     items = sorted(items, key=vietnamese_sort_key)
     data = []
     for item in items:
         text = item
-        if text in set(["gĩữ", "by"]):
+        try:
+            syllable = Syllable(text)
+        except Exception:
             continue
-        syllable = Syllable(text)
         ipa = syllable.generate_ipa()
         components = syllable.matched.groupdict()
         C1 = components['C1']
@@ -36,7 +33,7 @@ def generate_ipa_syllables():
     # write Excel file
     df.index = df.index + 1
     df = df.reset_index()
-    df.to_excel(join("outputs", "syllables_ipa.xlsx"), index=False)
+    df.to_excel(join("tmp", "syllables_ipa.xlsx"), index=False)
 
     # write text file
     result = ""
@@ -45,9 +42,10 @@ def generate_ipa_syllables():
         text = row['syllable']
         ipa = row['ipa']
         result += f"{i},{text},{ipa}\n"
-    with open(join("outputs", "syllables_ipa.txt"), "w") as f:
+    with open(join("tmp", "syllables_ipa.txt"), "w") as f:
         f.write(result)
 
 
 if __name__ == '__main__':
-    generate_ipa_syllables()
+    filename = join("tmp", "uts_syllables_v1_2022.txt")
+    generate_ipa_syllables(filename)
