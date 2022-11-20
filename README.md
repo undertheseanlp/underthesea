@@ -137,13 +137,14 @@ Usage
 >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
 >>> chunk(text)
 [('Bác sĩ', 'N', 'B-NP'),
- ('bây giờ', 'P', 'I-NP'),
- ('có thể', 'R', 'B-VP'),
- ('thản nhiên', 'V', 'I-VP'),
- ('báo tin', 'N', 'B-NP'),
- ('bệnh nhân', 'N', 'I-NP'),
+ ('bây giờ', 'P', 'B-NP'),
+ ('có thể', 'R', 'O'),
+ ('thản nhiên', 'A', 'B-AP'),
+ ('báo', 'V', 'B-VP'),
+ ('tin', 'N', 'B-NP'),
+ ('bệnh nhân', 'N', 'B-NP'),
  ('bị', 'V', 'B-VP'),
- ('ung thư', 'N', 'I-VP'),
+ ('ung thư', 'N', 'B-NP'),
  ('?', 'CH', 'O')]
 ```
 
