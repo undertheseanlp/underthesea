@@ -1,14 +1,25 @@
-import React from 'react'
-import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import { Route, Switch } from 'react-router-dom'
+import './App.css'
 import { NavbarMain } from './components/NavbarMain'
-import { Article } from './components/Article'
+import { ArticleDetail } from './features/articles/ArticleDetail'
+import { ArticleList } from './features/articles/ArticleList'
 
 function App() {
   return (
     <div>
       <NavbarMain></NavbarMain>
-      <Article></Article>
+      <Switch>
+      <Route path="/" exact>
+          <ArticleList />
+        </Route>
+        <Route path="/ArticleList">
+          <ArticleList />
+        </Route>
+        <Route path="/ArticleDetail">
+          <ArticleDetail />
+        </Route>
+      </Switch>
     </div>
   )
 }
