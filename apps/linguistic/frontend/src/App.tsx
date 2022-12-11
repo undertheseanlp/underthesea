@@ -16,7 +16,7 @@ function App() {
         <Route path="/ArticleList">
           <ArticleList />
         </Route>
-        <Route path="/ArticleDetail">
+        <Route path="/ArticleDetail/:id">
           <ArticleDetail />
         </Route>
       </Switch>

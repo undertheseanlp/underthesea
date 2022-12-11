@@ -1,7 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
+import { useParams } from 'react-router-dom'
 
 export function ArticleDetail() {
+  const params = useParams();
+  console.log(params);
   return (
     <Container>
       <br />
