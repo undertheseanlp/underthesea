@@ -2,18 +2,11 @@ import React from 'react';
 import './App.css';
 import { Button, Alert } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Menu } from './components/Menu';
+import { NavbarMain } from './components/NavbarMain';
 
 function App() {
   return (
-    
-    <div className="App">
-      {/* <Menu></Menu> */}
-      <header className="App-header">
-        <Alert variant="warning">This is an alert</Alert> 
-        <Button>Test Button</Button>
-      </header>
-    </div>
+    <NavbarMain></NavbarMain>
   );
 }
 
