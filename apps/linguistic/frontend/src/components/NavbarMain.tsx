@@ -6,7 +6,7 @@ export function NavbarMain() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">ToMo</Navbar.Brand>
+        <Navbar.Brand href="#home">Underthesea</Navbar.Brand>
         <Form>
           <Form.Control
             type="text"
