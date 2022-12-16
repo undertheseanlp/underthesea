@@ -1,20 +1,18 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card'
 import { Link } from 'react-router-dom'
+import Box from '@mui/material/Box'
+import Toolbar from '@mui/material/Toolbar'
 
 export function ArticleList() {
-
   const linkStyle = {
     textDecoration: 'none',
     color: 'black',
   }
 
   return (
-    <Container>
-      <br />
-      <h3>Articles</h3>
-      <br />
+    <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
+      <Toolbar />
       <Link to="ArticleDetail/1" style={linkStyle}>
         <Card>
           <Card.Body>
@@ -30,7 +28,6 @@ export function ArticleList() {
         </Card>
       </Link>
       <br />
-
       <Link to="ArticleDetail/2" style={linkStyle}>
         <Card>
           <Card.Body>
@@ -58,6 +55,7 @@ export function ArticleList() {
           </Card.Body>
         </Card>
       </Link>
-    </Container>
+      <br />
+    </Box>
   )
 }
