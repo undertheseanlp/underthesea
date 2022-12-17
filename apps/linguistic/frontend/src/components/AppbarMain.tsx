@@ -7,7 +7,6 @@ import IconButton from '@mui/material/IconButton'
 import SearchIcon from '@mui/icons-material/Search'
 import { styled, alpha } from '@mui/material/styles'
 import InputBase from '@mui/material/InputBase'
-import MenuIcon from '@mui/icons-material/Menu'
 import AddCircleIcon from '@mui/icons-material/AddCircle'
 
 const Search = styled('div')(({ theme }) => ({

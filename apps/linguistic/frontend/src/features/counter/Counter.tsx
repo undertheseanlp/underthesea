@@ -5,7 +5,6 @@ import {
   decrement,
   increment,
   incrementByAmount,
-  incrementAsync,
   incrementIfOdd,
   selectCount,
   incrementSaga,
