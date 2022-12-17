@@ -3,7 +3,8 @@ import Card from 'react-bootstrap/Card'
 import { Link } from 'react-router-dom'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
-import articleApi from '../../api/articleApi'
+// import articleApi from '../../api/articleApi'
+import collectionApi from '../../api/collectionApi'
 
 export function ArticleList() {
   const linkStyle = {
@@ -12,9 +13,18 @@ export function ArticleList() {
   }
 
   useEffect(() => {
-    articleApi.getAll().then((response) => {
-      console.log(response.results);
-    })
+    // articleApi.getAll().then((response) => {
+    //   console.log(response.results);
+    // })
+    // collectionApi.getAll().then((response) => {
+    //   console.log(response.results);
+    // })
+    const collection = {
+      name: 'lajdflajf'
+    };
+    collectionApi.add(collection).then((response) => {
+      console.log(response);
+    });
   })
 
   return (

@@ -1,4 +1,4 @@
 export interface Collection {
-  id: number;
+  id?: number;
   name: string;
 }
