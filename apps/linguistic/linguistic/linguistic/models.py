@@ -7,3 +7,6 @@ class Task(models.Model):
 class Article(models.Model):
     title = models.TextField()
     description = models.TextField()
+
+class Collection(models.Model):
+    name = models.TextField()

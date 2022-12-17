@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Article, Task
+from .models import Article, Collection, Task
 
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -10,3 +10,8 @@ class ArticleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Article
         fields = ('id', 'title', 'description')
+
+class CollectionSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Collection
+        fields = ('id', 'name')
