@@ -1,14 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Card from 'react-bootstrap/Card'
 import { Link } from 'react-router-dom'
 import Box from '@mui/material/Box'
 import Toolbar from '@mui/material/Toolbar'
+import articleApi from '../../api/articleApi'
 
 export function ArticleList() {
   const linkStyle = {
     textDecoration: 'none',
     color: 'black',
   }
+
+  useEffect(() => {
+    articleApi.getAll().then((response) => {
+      console.log(response.results);
+    })
+  })
 
   return (
     <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
