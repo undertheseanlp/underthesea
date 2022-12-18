@@ -1,11 +1,12 @@
 import { Article, ListResponse } from "../models";
 import axiosClient from "./client";
 
-const articleApi = {
+const ArticleApi = {
   getAll(): Promise<ListResponse<Article>> {
+    console.log('ArticleApi.getAll');
     const url = '/articles/';
-    return axiosClient.get(url, { params: {limit: 10, offset: 0}});
+    return axiosClient.get(url, { params: {limit: 20, offset: 0}});
   }
 }
 
-export default articleApi;
+export default ArticleApi;

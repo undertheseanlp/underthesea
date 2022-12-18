@@ -4,3 +4,13 @@ export interface ListResponse<T> {
   next: string | null;
   previous: string | null;
 }
+
+export interface FilterParams {
+  limit: number;
+  offset: number;
+}
+
+export interface PaginationParams {
+  limit: number;
+  offset: number;
+}

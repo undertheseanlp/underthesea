@@ -9,7 +9,7 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
 class ArticleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Article
-        fields = ('id', 'title', 'description')
+        fields = ('id', 'title', 'description', 'text')
 
 class CollectionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
