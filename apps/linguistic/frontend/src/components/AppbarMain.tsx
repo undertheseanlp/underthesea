@@ -1,13 +1,13 @@
-import React from 'react'
+import AddCircleIcon from '@mui/icons-material/AddCircle'
+import SearchIcon from '@mui/icons-material/Search'
 import AppBar from '@mui/material/AppBar'
+import IconButton from '@mui/material/IconButton'
+import InputBase from '@mui/material/InputBase'
+import MenuItem from '@mui/material/MenuItem'
+import { alpha, styled } from '@mui/material/styles'
 import Toolbar from '@mui/material/Toolbar'
 import Typography from '@mui/material/Typography'
-import MenuItem from '@mui/material/MenuItem'
-import IconButton from '@mui/material/IconButton'
-import SearchIcon from '@mui/icons-material/Search'
-import { styled, alpha } from '@mui/material/styles'
-import InputBase from '@mui/material/InputBase'
-import AddCircleIcon from '@mui/icons-material/AddCircle'
+import { Link } from 'react-router-dom'
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -51,6 +51,13 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
   },
 }))
 
+const StyledLink = styled(Link)(({ theme }) => ({
+  color: 'inherit',
+  '&:hover': {
+    color: 'inherit'
+  }
+}))
+
 function AppbarMain() {
   return (
     <AppBar
@@ -84,16 +91,17 @@ function AppbarMain() {
             inputProps={{ 'aria-label': 'search' }}
           />
         </Search>
-
-        <MenuItem>
-          <IconButton
-            size="large"
-            aria-label="show 17 new notifications"
-            color="inherit"
-          >
-            <AddCircleIcon />
-          </IconButton>
-        </MenuItem>
+        <StyledLink to="/ArticleNew">
+          <MenuItem>
+            <IconButton
+              size="large"
+              aria-label="show 17 new notifications"
+              color="inherit"
+            >
+              <AddCircleIcon />
+            </IconButton>
+          </MenuItem>
+        </StyledLink>
       </Toolbar>
     </AppBar>
   )

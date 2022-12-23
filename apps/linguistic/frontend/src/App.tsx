@@ -1,16 +1,15 @@
+import Box from '@mui/material/Box'
+import CssBaseline from '@mui/material/CssBaseline'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Route, Switch, BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import './App.css'
-// import NavbarMain from './components/NavbarMain'
 import AppbarMain from './components/AppbarMain'
 import MainDrawer from './components/MainDrawer'
 import { ArticleDetail } from './features/articles/ArticleDetail'
 import { ArticleList } from './features/articles/ArticleList'
+import ArticleNew from './features/articles/ArticleNew'
 import { Counter } from './features/counter/Counter'
 import Demo from './features/demo/Demo'
-import Box from '@mui/material/Box'
-import CssBaseline from '@mui/material/CssBaseline'
-
 function App() {
   return (
     <div>
@@ -35,6 +34,9 @@ function App() {
           </Route>
           <Route path="/ArticleDetail/:id">
             <ArticleDetail />
+          </Route>
+          <Route path="/ArticleNew">
+            <ArticleNew />
           </Route>
         </Switch>
       </BrowserRouter>
