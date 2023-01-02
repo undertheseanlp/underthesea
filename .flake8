@@ -1,0 +1,5 @@
+[flake8]
+ignore = E501,W504,W605
+max-complexity = 10
+exclude = 
+    node_modules
