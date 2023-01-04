@@ -3,13 +3,12 @@ from bs4 import BeautifulSoup
 from os.path import dirname, join, abspath
 from datetime import datetime
 
-# Get the current date and time
-
 def extract_filename(url):
     last_slash_index = url.rindex("/")
     last_period_index = url.rindex(".")
-    output = url[last_slash_index+1:last_period_index]
+    output = url[last_slash_index + 1 : last_period_index]
     return output
+
 
 def crawl_website(url, filepath):
     now = datetime.now()
@@ -26,17 +25,16 @@ def crawl_website(url, filepath):
 
     paragraphs = child_element.find_all("p")
 
-    with open(filepath, 'w') as f:
+    with open(filepath, "w") as f:
         f.write("")
 
-    f = open(filepath, 'a')
+    f = open(filepath, "a")
     for p in paragraphs:
         text = p.get_text() + "\n"
         text = text.replace("\r\n", " ")
         f.write(text)
 
     f.close()
-
 
 
 CWD = abspath(dirname(__file__))
