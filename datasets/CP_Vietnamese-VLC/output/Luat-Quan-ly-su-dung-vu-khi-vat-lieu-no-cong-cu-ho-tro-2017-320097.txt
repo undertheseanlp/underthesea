@@ -1,0 +1,806 @@
+QUỐC HỘI   --------
+CỘNG HÒA XÃ   HỘI CHỦ NGHĨA VIỆT NAM   Độc lập - Tự do - Hạnh phúc    ---------------
+Luật   số: 14/2017/QH14
+Hà Nội, ngày 20 tháng 6 năm 2017
+ 
+LUẬT
+QUẢN LÝ, SỬ DỤNG VŨ KHÍ, VẬT LIỆU NỔ VÀ CÔNG CỤ HỖ TRỢ
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ; nguyên tắc, trách nhiệm của cơ quan, tổ chức, cá nhân trong quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ nhằm bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội, bảo vệ quyền con người, quyền công dân và phục vụ phát triển kinh tế - xã hội.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với cơ quan, tổ chức, cá nhân liên quan đến quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Vũ khí là thiết bị, phương tiện hoặc tổ hợp những phương tiện được chế tạo, sản xuất có khả năng gây sát thương, nguy hại cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất, bao gồm: vũ khí quân dụng, súng săn, vũ khí thô sơ, vũ khí thể thao và vũ khí khác có tính năng, tác dụng tương tự.
+2. Vũ khí quân dụng là vũ khí được chế tạo, sản xuất bảo đảm tiêu chuẩn kỹ thuật, thiết kế của nhà sản xuất hợp pháp, được trang bị cho lực lượng vũ trang nhân dân và các lực lượng khác theo quy định của Luật này để thi hành công vụ, bao gồm:
+a) Súng cầm tay bao gồm: súng ngắn, súng trường, súng tiểu liên, súng trung liên, súng chống tăng, súng phóng lựu;
+b) Vũ khí hạng nhẹ bao gồm: súng đại liên, súng cối, súng ĐKZ, súng máy phòng không, tên lửa chống tăng cá nhân;
+c) Vũ khí hạng nặng bao gồm: máy bay chiến đấu, trực thăng vũ trang, xe tăng, xe thiết giáp, tàu chiến, tàu ngầm, pháo mặt đất, pháo phòng không, tên lửa;
+d) Bom, mìn, lựu đạn, ngư lôi, thủy lôi; đạn sử dụng cho các loại vũ khí quy định tại các điểm a, b và c khoản này.
+3. Súng săn là súng được chế tạo, sản xuất thủ công hoặc công nghiệp, được sử dụng để săn bắn, bao gồm: súng kíp, súng hơi và đạn sử dụng cho các loại súng này.
+4. Vũ khí thô sơ là vũ khí có cấu tạo, nguyên lý hoạt động đơn giản và được chế tạo, sản xuất thủ công hoặc công nghiệp, bao gồm: dao găm, kiếm, giáo, mác, thương, lưỡi lê, đao, mã tấu, côn, quả đấm, quả chùy, cung, nỏ, phi tiêu.
+5. Vũ khí thể thao là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, được sử dụng để luyện tập, thi đấu thể thao, bao gồm:
+a) Súng trường hơi, súng trường bắn đạn nổ, súng ngắn hơi, súng ngắn bắn đạn nổ, súng thể thao bắn đạn sơn, súng bắn đĩa bay và đạn sử dụng cho các loại súng này;
+b) Vũ khí thô sơ quy định tại khoản 4 Điều này dùng để luyện tập, thi đấu thể thao.
+6. Vũ khí có tính năng, tác dụng tương tự là vũ khí được chế tạo, sản xuất thủ công hoặc công nghiệp, không theo tiêu chuẩn kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có khả năng gây sát thương, nguy hại cho tính mạng, sức khỏe của con người, phá hủy kết cấu vật chất tương tự như vũ khí quân dụng, súng săn, vũ khí thô sơ, vũ khí thể thao.
+7. Vật liệu nổ là sản phẩm dưới tác động của xung kích thích ban đầu gây ra phản ứng hóa học nhanh, mạnh, tỏa nhiệt, sinh khí, phát sáng, tạo ra tiếng nổ, bao gồm:
+a) Thuốc nổ là hóa chất hoặc hỗn hợp chất được sản xuất, sử dụng nhằm tạo ra phản ứng nổ dưới tác động của xung kích thích;
+b) Phụ kiện nổ là kíp nổ, dây nổ, dây cháy chậm, mồi nổ, vật phẩm chứa thuốc nổ có tác dụng tạo xung kích thích ban đầu làm nổ khối thuốc nổ hoặc thiết bị chuyên dùng có chứa thuốc nổ.
+8. Vật liệu nổ quân dụng là vật liệu nổ sử dụng cho mục đích quốc phòng, an ninh.
+9. Vật liệu nổ công nghiệp là vật liệu nổ sử dụng cho mục đích kinh tế, dân sự.
+10. Tiền chất thuốc nổ là hóa chất nguy hiểm, trực tiếp dùng để sản xuất thuốc nổ.
+11. Công cụ hỗ trợ là phương tiện, động vật nghiệp vụ được sử dụng để thi hành công vụ, thực hiện nhiệm vụ bảo vệ nhằm hạn chế, ngăn chặn người có hành vi vi phạm pháp luật chống trả, trốn chạy; bảo vệ người thi hành công vụ, người thực hiện nhiệm vụ bảo vệ hoặc báo hiệu khẩn cấp, bao gồm:
+a) Súng bắn điện, hơi ngạt, chất độc, chất gây mê, từ trường, laze, lưới; súng phóng dây mồi; súng bắn đạn nhựa, nổ, cao su, hơi cay, pháo hiệu, hiệu lệnh, đánh dấu và đạn sử dụng cho các loại súng này;
+b) Phương tiện xịt hơi cay, hơi ngạt, chất độc, chất gây mê, chất gây ngứa;
+c) Lựu đạn khói, lựu đạn cay, quả nổ;
+d) Dùi cui điện, dùi cui cao su, dùi cui kim loại; khóa số tám, bàn chông, dây đinh gai; áo giáp; găng tay điện, găng tay bắt dao; lá chắn, mũ chống đạn; thiết bị áp chế bằng âm thanh;
+đ) Động vật nghiệp vụ là động vật được huấn luyện để sử dụng cho yêu cầu bảo vệ an ninh quốc gia, bảo đảm trật tự, an toàn xã hội;
+e) Công cụ hỗ trợ có tính năng, tác dụng tương tự là phương tiện được chế tạo, sản xuất không theo tiêu chuẩn kỹ thuật, thiết kế của nhà sản xuất hợp pháp, có tính năng, tác dụng tương tự như công cụ hỗ trợ quy định tại các điểm a, b, c và d khoản này.
+12. Kinh doanh là việc mua bán vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+Điều 4. Nguyên tắc quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Tuân thủ Hiến pháp và pháp luật của nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+2. Trang bị vũ khí, vật liệu nổ, công cụ hỗ trợ phải đúng thẩm quyền, đối tượng và bảo đảm tiêu chuẩn, quy chuẩn kỹ thuật.
+3. Người quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải bảo đảm đầy đủ điều kiện theo quy định.
+4. Người ra mệnh lệnh hoặc quyết định sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải chịu trách nhiệm về mệnh lệnh, quyết định của mình.
+5. Sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải bảo đảm đúng mục đích, đúng quy định, hạn chế thiệt hại đối với người, tài sản và môi trường.
+6. Nghiên cứu, chế tạo, sản xuất, kinh doanh, trang bị, mang, xuất khẩu, nhập khẩu, vận chuyển, sửa chữa, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải được cơ quan có thẩm quyền cấp giấy phép, giấy xác nhận.
+7. Vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ không còn nhu cầu sử dụng, hết hạn sử dụng hoặc không còn khả năng sử dụng phải được thu hồi, thanh lý hoặc tiêu hủy.
+8. Vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ và các loại giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ bị mất phải được kịp thời báo cáo cho cơ quan quản lý có thẩm quyền.
+9. Vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải được thử nghiệm, kiểm định, đánh giá và đăng ký theo quy định của pháp luật về quản lý chất lượng sản phẩm, hàng hóa trước khi được phép sản xuất, kinh doanh, sử dụng tại Việt Nam.
+Điều 5. Các hành vi bị nghiêm cấm trong quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ và công cụ hỗ trợ
+1. Cá nhân sở hữu vũ khí, vật liệu nổ, công cụ hỗ trợ, trừ vũ khí thô sơ là hiện vật để trưng bày, triển lãm, đồ gia bảo.
+2. Nghiên cứu, chế tạo, sản xuất, mua bán, xuất khẩu, nhập khẩu, tàng trữ, vận chuyển, sửa chữa, sử dụng trái phép hoặc chiếm đoạt vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ hoặc chi tiết, cụm chi tiết để lắp ráp vũ khí, công cụ hỗ trợ.
+3. Mang trái phép vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam hoặc vào nơi cấm, khu vực cấm, khu vực bảo vệ và mục tiêu bảo vệ.
+4. Lợi dụng, lạm dụng việc sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ xâm phạm an ninh quốc gia, trật tự, an toàn xã hội, tính mạng, sức khỏe, tài sản, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+5. Hủy hoại hoặc cố ý làm hư hỏng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ được giao.
+6. Giao vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ cho cơ quan, tổ chức, cá nhân không đủ điều kiện theo quy định.
+7. Trao đổi, tặng, cho, gửi, mượn, cho mượn, thuê, cho thuê, cầm cố vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ hoặc chi tiết, cụm chi tiết để lắp ráp vũ khí, công cụ hỗ trợ; trừ trường hợp trao đổi, tặng, cho, gửi, mượn, cho mượn, thuê, cho thuê vũ khí thô sơ để làm hiện vật trưng bày, triển lãm, đồ gia bảo.
+8. Vận chuyển, bảo quản, tiêu hủy vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ không bảo đảm an toàn hoặc làm ảnh hưởng đến môi trường.
+9. Chiếm đoạt, mua bán, trao đổi, tặng, cho, mượn, cho mượn, thuê, cho thuê, cầm cố, làm giả, sửa chữa, tẩy xóa các loại giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+10. Chiếm đoạt, mua bán, trao đổi, tặng, cho, gửi, mượn, cho mượn, thuê, cho thuê, cầm cố phế liệu, phế phẩm vũ khí, vật liệu nổ, công cụ hỗ trợ.
+11. Hướng dẫn, huấn luyện, tổ chức huấn luyện trái phép cách thức chế tạo, sản xuất, sửa chữa hoặc sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ dưới mọi hình thức.
+12. Che giấu, không tố giác, giúp người khác chế tạo, sản xuất, mang, mua bán, sửa chữa, xuất khẩu, nhập khẩu, tàng trữ, vận chuyển, sử dụng trái phép hoặc hủy hoại vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+13. Đào bới, tìm kiếm, thu gom trái phép vũ khí, vật liệu nổ, công cụ hỗ trợ; phế liệu, phế phẩm vũ khí, vật liệu nổ, công cụ hỗ trợ.
+14. Cố ý cung cấp thông tin sai lệch về quản lý vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ; không báo cáo, báo cáo không kịp thời, che giấu hoặc làm sai lệch thông tin báo cáo về việc mất, thất thoát, tai nạn, sự cố về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+Điều 6. Trách nhiệm của người đứng đầu cơ quan, tổ chức, doanh nghiệp được trang bị, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Chỉ đạo, tổ chức thực hiện và chịu trách nhiệm trong việc quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+2. Chỉ được giao vũ khí, vật liệu nổ, công cụ hỗ trợ cho người có đủ điều kiện quy định tại khoản 1 Điều 7 của Luật này.
+3. Phân công người có đủ điều kiện quy định tại khoản 1 Điều 8 của Luật này quản lý kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+4. Bố trí kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ theo quy định tại khoản 2 Điều 9 của Luật này.
+Điều 7. Điều kiện, trách nhiệm của người được giao sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Người được giao sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ phải bảo đảm đủ điều kiện sau đây:
+a) Có năng lực hành vi dân sự đầy đủ;
+b) Có phẩm chất đạo đức tốt, đủ sức khỏe phù hợp với công việc được giao;
+c) Không đang trong thời gian bị áp dụng biện pháp xử lý hành chính, bị truy cứu trách nhiệm hình sự; đã được xóa án tích trong trường hợp bị kết tội theo bản án, quyết định của Tòa án;
+d) Đã qua đào tạo, huấn luyện và được cấp giấy chứng nhận về sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ.
+2. Người được giao sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ có trách nhiệm sau đây:
+a) Sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ đúng mục đích, đúng quy định;
+b) Khi mang vũ khí, công cụ hỗ trợ phải mang theo giấy chứng nhận, giấy phép sử dụng;
+c) Bảo quản vũ khí, vật liệu nổ, công cụ hỗ trợ đúng chế độ, đúng quy trình, bảo đảm an toàn, không để mất, hư hỏng;
+d) Bàn giao vũ khí, vật liệu nổ, công cụ hỗ trợ và giấy phép cho người có trách nhiệm quản lý, bảo quản theo đúng quy định sau khi kết thúc nhiệm vụ hoặc hết thời hạn được giao.
+3. Chính phủ quy định việc huấn luyện và cấp chứng nhận về sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ.
+Điều 8. Điều kiện, trách nhiệm của người được giao quản lý kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Người được giao quản lý kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải bảo đảm đủ điều kiện sau đây:
+a) Có năng lực hành vi dân sự đầy đủ;
+b) Có phẩm chất đạo đức tốt, đủ sức khỏe phù hợp với công việc được giao;
+c) Không đang trong thời gian bị áp dụng biện pháp xử lý hành chính, bị truy cứu trách nhiệm hình sự; đã được xóa án tích trong trường hợp bị kết tội theo bản án, quyết định của Tòa án;
+d) Đã qua đào tạo, huấn luyện và được cấp chứng chỉ về quản lý vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ; chứng nhận huấn luyện nghiệp vụ phòng cháy và chữa cháy, kỹ thuật an toàn vật liệu nổ công nghiệp, tiền chất thuốc nổ;
+đ) Nắm vững nội quy, chế độ quản lý, bảo quản kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+2. Người được giao quản lý kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ có trách nhiệm thực hiện đúng chế độ, đúng quy trình, bảo đảm an toàn, không để mất, hư hỏng.
+3. Chính phủ quy định việc huấn luyện và cấp chứng chỉ về quản lý vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ; chứng nhận huấn luyện kỹ thuật an toàn vật liệu nổ công nghiệp, tiền chất thuốc nổ.
+Điều 9. Quản lý, bảo quản vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải được quản lý, bảo quản theo đúng chế độ, đúng quy trình, bảo đảm an toàn, không để mất, hư hỏng.
+2. Kho, nơi cất giữ vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ phải được bố trí, thiết kế, xây dựng đúng tiêu chuẩn, quy chuẩn kỹ thuật về an toàn, phòng, chống cháy, nổ, bảo đảm môi trường theo quy định; có nội quy, phương án bảo vệ, phòng cháy và chữa cháy, kế hoạch hoặc biện pháp phòng ngừa, ứng phó sự cố hóa chất và phương tiện bảo đảm an toàn được cơ quan có thẩm quyền phê duyệt.
+3. Chính phủ quy định chi tiết việc quản lý, bảo quản vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+Điều 10. Thu hồi vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ trang bị cho cơ quan, tổ chức, doanh nghiệp được thu hồi trong trường hợp sau đây:
+a) Cơ quan, tổ chức, doanh nghiệp giải thể, chuyển đổi, chia, tách, hợp nhất, sáp nhập;
+b) Vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ không còn nhu cầu sử dụng, hết hạn sử dụng hoặc không còn khả năng sử dụng;
+c) Không thuộc đối tượng được trang bị theo quy định của Luật này.
+2. Giấy phép, giấy xác nhận về vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ đã cấp cho cơ quan, tổ chức, doanh nghiệp được thu hồi trong trường hợp sau đây:
+a) Trường hợp quy định tại khoản 1 Điều này;
+b) Vũ khí, công cụ hỗ trợ bị mất;
+c) Tổ chức, doanh nghiệp sản xuất, kinh doanh, sửa chữa vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ giải thể, chuyển đổi, chia, tách, hợp nhất, sáp nhập;
+d) Giấy phép, giấy xác nhận cấp không đúng thẩm quyền.
+3. Giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ đã cấp cho cá nhân được thu hồi trong trường hợp chuyển công tác khác, nghỉ hưu, thôi việc hoặc không còn đủ điều kiện theo quy định.
+Cơ quan quản lý trực tiếp có trách nhiệm thu hồi giấy chứng nhận, chứng chỉ và nộp cho cơ quan có thẩm quyền đã cấp.
+4. Giấy phép, giấy chứng nhận về quản lý, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ đã cấp cho tổ chức, doanh nghiệp được thu hồi trong trường hợp sau đây:
+a) Tổ chức, doanh nghiệp sản xuất, kinh doanh, vận chuyển, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ giải thể, chuyển đổi, chia, tách, hợp nhất, sáp nhập;
+b) Chấm dứt hoạt động về vật liệu nổ công nghiệp, tiền chất thuốc nổ;
+c) Không bảo đảm điều kiện về sản xuất, kinh doanh, vận chuyển, sử dụng vật liệu nổ công nghiệp, tiền chất thuốc nổ theo quy định của Luật này; không đáp ứng đầy đủ hoặc không thực hiện đúng nội dung quy định trong giấy phép, giấy chứng nhận;
+d) Giấy phép, giấy chứng nhận cấp không đúng thẩm quyền;
+đ) Không tiến hành kinh doanh vật liệu nổ công nghiệp, tiền chất thuốc nổ trong thời gian 06 tháng kể từ ngày được cấp giấy phép kinh doanh.
+5. Giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ bị hư hỏng, hết hạn sử dụng phải giao nộp cho cơ quan có thẩm quyền đã cấp để được cấp lại, cấp đổi.
+Điều 11. Thủ tục thu hồi vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Cơ quan, tổ chức, doanh nghiệp thuộc trường hợp quy định tại Điều 10 của Luật này có trách nhiệm lập hồ sơ, làm thủ tục đề nghị thu hồi. Hồ sơ đề nghị bao gồm:
+a) Văn bản đề nghị thu hồi;
+b) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan cấp giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ.
+3. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền cấp giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ phải thu hồi vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+4. Trường hợp cơ quan, tổ chức, doanh nghiệp không đề nghị thu hồi vũ khí, vật liệu nổ quân dụng, công cụ hỗ trợ và giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ thì cơ quan cấp giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ phải kiểm tra, lập biên bản, tổ chức thu hồi và xử lý theo quy định.
+5. Chính phủ quy định chi tiết Điều này.
+Điều 12. Trường hợp mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam
+1. Cơ quan, tổ chức, cá nhân nước ngoài được mang vũ khí, công cụ hỗ trợ từ nước ngoài vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam trong trường hợp sau đây:
+a) Bảo vệ khách quốc tế là đối tượng cảnh vệ đến thăm và làm việc tại Việt Nam;
+b) Luyện tập, thi đấu thể thao; triển lãm, trưng bày, chào hàng, giới thiệu sản phẩm; làm đạo cụ trong hoạt động văn hóa, nghệ thuật;
+c) Theo chương trình, kế hoạch của Bộ Quốc phòng, Bộ Công an.
+2. Cơ quan, tổ chức, cá nhân Việt Nam được mang vũ khí, công cụ hỗ trợ ra, vào lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam trong trường hợp sau đây:
+a) Bảo vệ đối tượng cảnh vệ theo quy định của Luật Cảnh vệ;
+b) Luyện tập, thi đấu thể thao; triển lãm, trưng bày, chào hàng, giới thiệu sản phẩm; làm đạo cụ trong hoạt động văn hóa, nghệ thuật;
+c) Theo chương trình, kế hoạch của Bộ Quốc phòng, Bộ Công an.
+3. Cơ quan, tổ chức, cá nhân được
+mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam không thuộc trường hợp quy định tại khoản 1 và khoản 2 Điều này phải được sự đồng ý của Bộ trưởng Bộ Công an.
+Điều 13. Số lượng, chủng loại vũ khí, công cụ hỗ trợ được phép mang vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam
+1. Cơ quan, tổ chức, cá nhân được phép mang tối đa 10 khẩu súng ngắn kèm theo cơ số đạn, phụ kiện kèm theo (nếu có) và công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam để làm nhiệm vụ bảo vệ. Trường hợp mang nhiều hơn 10 khẩu súng ngắn hoặc chủng loại khác và cơ số đạn, phụ kiện kèm theo (nếu có) phải được sự đồng ý của Bộ trưởng Bộ Công an.
+2. Cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định quyết định số lượng, chủng loại vũ khí, công cụ hỗ trợ mang vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam để luyện tập, thi đấu thể thao; triển lãm, trưng bày, chào hàng, giới thiệu sản phẩm; làm đạo cụ trong hoạt động văn hóa, nghệ thuật.
+3. Số lượng, chủng loại vũ khí, công cụ hỗ trợ mang vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam theo quy định tại điểm c khoản 1, điểm c khoản 2 Điều 12 của Luật này do Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quyết định.
+Điều 14. Thủ tục cấp Giấy phép mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam
+1. Hồ sơ đề nghị cấp Giấy phép mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại điểm a khoản 1, điểm a khoản 2 Điều 12 của Luật này bao gồm:
+a) Văn bản đề nghị nêu rõ lý do, thời hạn mang vào, ra; họ và tên, số, ngày cấp thẻ Căn cước công dân, Chứng minh nhân dân hoặc Hộ chiếu của người mang vũ khí, công cụ hỗ trợ; số lượng, chủng loại, nhãn hiệu, số hiệu, ký hiệu vũ khí, công cụ hỗ trợ; cơ số đạn, phụ kiện kèm theo (nếu có) và phương tiện vận chuyển; cửa khẩu mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+b) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ;
+c) Văn bản đồng ý của Bộ trưởng Bộ Công an theo quy định tại khoản 1 Điều 13 của Luật này.
+2. Hồ sơ đề nghị cấp Giấy phép mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại điểm b khoản 1, điểm b khoản 2 Điều 12 của Luật này và trường hợp theo chương trình, kế hoạch của Bộ Công an bao gồm:
+a) Giấy tờ quy định tại điểm a và điểm b khoản 1 Điều này;
+b) Bản sao quyết định, chương trình hoặc kế hoạch của cơ quan nhà nước có thẩm quyền.
+3. Hồ sơ đề nghị cấp Giấy phép mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam quy định tại khoản 3 Điều 12 của Luật này bao gồm:
+a) Giấy tờ quy định tại điểm a và điểm b khoản 1, điểm b khoản 2 Điều này;
+b) Văn bản đồng ý của Bộ trưởng Bộ Công an.
+4. Hồ sơ quy định tại các khoản 1, 2 và 3 Điều này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp giấy phép; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+5. Thủ tục cấp giấy phép đối với trường hợp mang vũ khí, công cụ hỗ trợ vào, ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam theo chương trình, kế hoạch của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 15. Quản lý, sử dụng vũ khí, vật liệu nổ, công cụ hỗ trợ để triển lãm, trưng bày, chào hàng, giới thiệu sản phẩm hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật
+1. Vũ khí, công cụ hỗ trợ được sử dụng để triển lãm, trưng bày hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật phải làm mất tính năng, tác dụng.
+2. Vũ khí, công cụ hỗ trợ chỉ được chào hàng, giới thiệu sản phẩm theo thời gian, địa điểm đã đăng ký với cơ quan có thẩm quyền.
+Đối với trường hợp mang vào lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam để chào hàng, giới thiệu sản phẩm, sau khi hết thời hạn chào hàng, giới thiệu sản phẩm phải mang ra khỏi lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam đầy đủ số lượng, chủng loại vũ khí, công cụ hỗ trợ theo giấy phép.
+3. Hãng phim hoạt động theo quy định của Luật Điện ảnh, bảo tàng, đơn vị biểu diễn nghệ thuật được sử dụng vũ khí, công cụ hỗ trợ để triển lãm, trưng bày hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật.
+4. Trường hợp cơ quan, tổ chức có nhu cầu sử dụng vũ khí, công cụ hỗ trợ còn tính năng, tác dụng và vật liệu nổ để làm đạo cụ trong hoạt động văn hóa, nghệ thuật thì Bộ trưởng Bộ Công an quyết định sau khi thống nhất với Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch đối với các trường hợp thuộc phạm vi quản lý của Bộ Công an; Bộ trưởng Bộ Quốc phòng quyết định đối với các trường hợp thuộc phạm vi quản lý của Bộ Quốc phòng.
+Việc sử dụng vũ khí, công cụ hỗ trợ còn tính năng, tác dụng và vật liệu nổ để làm đạo cụ trong hoạt động văn hóa, nghệ thuật do cơ quan chuyên môn của Bộ Công an hoặc Bộ Quốc phòng thực hiện.
+5. Thủ tục cấp giấy phép trang bị, giấy phép sử dụng vũ khí, công cụ hỗ trợ để triển lãm, trưng bày hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng được thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị của cơ quan, tổ chức, doanh nghiệp nêu rõ lý do, nhu cầu sử dụng, chủng loại, số lượng vũ khí, công cụ hỗ trợ; bản sao quyết định thành lập hoặc bản sao giấy phép hoạt động; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp giấy phép trang bị, giấy phép sử dụng vũ khí, công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+6. Thủ tục cấp giấy phép trang bị, giấy phép sử dụng vũ khí, công cụ hỗ trợ để triển lãm, trưng bày hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+7. Chính phủ quy định chi tiết thẩm quyền, trình tự, thủ tục làm mất tính năng, tác dụng và xác nhận tình trạng vũ khí, công cụ hỗ trợ được sử dụng để triển lãm, trưng bày hoặc làm đạo cụ trong hoạt động văn hóa, nghệ thuật.
+Điều 16. Giám định vũ khí, công cụ hỗ trợ có tính năng, tác dụng tương tự
+1. Cơ quan có thẩm quyền giám định vũ khí, công cụ hỗ trợ có tính năng, tác dụng tương tự bao gồm:
+a) Viện Khoa học hình sự thuộc Bộ Công an;
+b) Phòng Kỹ thuật hình sự thuộc Công an cấp tỉnh;
+c) Phòng Giám định Kỹ thuật hình sự thuộc Bộ Quốc phòng.
+2. Trình tự, thủ tục giám định vũ khí, công cụ hỗ trợ có tính năng, tác dụng tương tự thực hiện theo quy định của Luật Giám định tư pháp.
+Chương II
+QUẢN LÝ, SỬ DỤNG VŨ KHÍ
+Điều 17. Nghiên cứu, chế tạo, sản xuất, kinh doanh, xuất khẩu, nhập khẩu, sửa chữa vũ khí
+1. Tổ chức, doanh nghiệp thuộc Bộ Quốc phòng, Bộ Công an được nghiên cứu, chế tạo, sản xuất, kinh doanh, xuất khẩu, nhập khẩu, sửa chữa vũ khí.
+2. Tổ chức, doanh nghiệp khác khi có đủ điều kiện được tham gia nghiên cứu, chế tạo, sản xuất, sửa chữa vũ khí.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 18. Đối tượng được trang bị vũ khí quân dụng
+1. Đối tượng được trang bị vũ khí quân dụng bao gồm:
+a) Quân đội nhân dân;
+b) Dân quân tự vệ;
+c) Cảnh sát biển;
+d) Công an nhân dân;
+đ) Cơ yếu;
+e) Cơ quan điều tra của Viện kiểm sát nhân dân tối cao;
+g) Kiểm lâm, Kiểm ngư;
+h) An ninh hàng không;
+i) Hải quan cửa khẩu, lực lượng chuyên trách chống buôn lậu của Hải quan.
+2. Bộ trưởng Bộ Quốc phòng căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí quân dụng đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển và Cơ yếu thuộc phạm vi quản lý của Bộ Quốc phòng.
+3. Bộ trưởng Bộ Công an căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí quân dụng đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng.
+Điều 19. Loại vũ khí quân dụng trang bị cho Cơ yếu, Cơ quan điều tra của Viện kiểm sát nhân dân tối cao, Kiểm lâm, Kiểm ngư, An ninh hàng không, Hải quan cửa khẩu, lực lượng chuyên trách chống buôn lậu của Hải quan
+1. Cơ yếu, Cơ quan điều tra của Viện kiểm sát nhân dân tối cao, An ninh hàng không được trang bị súng ngắn và đạn sử dụng cho loại súng này.
+2. Kiểm lâm, Hải quan cửa khẩu, lực lượng chuyên trách chống buôn lậu của Hải quan được trang bị súng ngắn, súng tiểu liên và đạn sử dụng cho các loại súng này.
+3. Kiểm ngư được trang bị súng ngắn, súng tiểu liên, súng trung liên, súng đại liên, súng máy có cỡ nòng đến 14,5 mm và đạn sử dụng cho các loại súng này.
+4. Trường hợp cần thiết phải trang bị loại vũ khí quân dụng ngoài quy định tại các khoản 1, 2 và 3 Điều này do Thủ tướng Chính phủ quyết định.
+Điều 20. Thủ tục trang bị vũ khí quân dụng
+1. Thủ tục trang bị vũ khí quân dụng đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị của cơ quan, đơn vị nêu rõ nhu cầu, điều kiện, số lượng, chủng loại, kèm theo văn bản phê duyệt của lãnh đạo Bộ, ngành; bản sao quyết định thành lập cơ quan, đơn vị; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép trang bị vũ khí quân dụng và hướng dẫn cơ quan, đơn vị thực hiện việc trang bị; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép trang bị vũ khí quân dụng có thời hạn 30 ngày.
+2. Thủ tục trang bị vũ khí quân dụng đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển và Cơ yếu thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 21. Thủ tục cấp Giấy phép sử dụng vũ khí quân dụng
+1. Thủ tục cấp Giấy phép sử dụng vũ khí quân dụng đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị cấp Giấy phép sử dụng vũ khí quân dụng bao gồm: văn bản đề nghị nêu rõ số lượng, chủng loại, nước sản xuất, nhãn hiệu, số hiệu, ký hiệu của từng vũ khí quân dụng; bản sao Giấy phép trang bị vũ khí quân dụng; bản sao hóa đơn hoặc bản sao phiếu xuất kho; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ đề nghị cấp đổi, cấp lại Giấy phép sử dụng vũ khí quân dụng bao gồm: văn bản đề nghị nêu rõ lý do; số lượng, chủng loại, nước sản xuất, nhãn hiệu, số hiệu, ký hiệu của từng vũ khí quân dụng; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ. Trường hợp mất, hư hỏng Giấy phép sử dụng vũ khí quân dụng thì trong hồ sơ phải có văn bản nêu rõ lý do mất, hư hỏng và kết quả xử lý;
+c) Hồ sơ quy định tại điểm a và điểm b khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+d) Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền kiểm tra thực tế, cấp Giấy phép sử dụng vũ khí quân dụng; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+đ) Giấy phép sử dụng vũ khí quân dụng chỉ cấp cho cơ quan, đơn vị được trang bị và có thời hạn 05 năm. Giấy phép sử dụng vũ khí quân dụng hết hạn được cấp đổi; bị mất, hư hỏng được cấp lại.
+2. Thủ tục cấp Giấy phép sử dụng vũ khí quân dụng đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển và Cơ yếu thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 22. Nguyên tắc sử dụng vũ khí quân dụng
+1. Khi thực hiện nhiệm vụ quân sự, quốc phòng, bảo vệ Tổ quốc, việc sử dụng vũ khí quân dụng thực hiện theo quy định của pháp luật về quốc phòng.
+2. Khi thực hiện nhiệm vụ bảo đảm an ninh, trật tự, an toàn xã hội, việc sử dụng vũ khí quân dụng phải tuân theo nguyên tắc sau đây:
+a) Phải căn cứ vào tình huống, tính chất, mức độ nguy hiểm của hành vi mà đối tượng thực hiện để quyết định việc sử dụng vũ khí quân dụng;
+b) Chỉ sử dụng vũ khí quân dụng khi không còn biện pháp nào khác để ngăn chặn hành vi của đối tượng và sau khi đã cảnh báo mà đối tượng không tuân theo. Nếu việc sử dụng vũ khí quân dụng không kịp thời sẽ đe dọa trực tiếp đến tính mạng, sức khỏe của người thi hành công vụ, người khác hoặc có thể gây ra những hậu quả đặc biệt nghiêm trọng khác thì được sử dụng ngay;
+c) Không sử dụng vũ khí quân dụng khi biết rõ đối tượng là phụ nữ, người khuyết tật, trẻ em, người cao tuổi, trừ trường hợp những người này sử dụng vũ khí, vật liệu nổ tấn công hoặc chống trả, đe dọa tính mạng, sức khỏe của người thi hành công vụ hoặc người khác;
+d) Trong mọi trường hợp, người sử dụng vũ khí quân dụng phải hạn chế thiệt hại do việc sử dụng vũ khí quân dụng gây ra.
+3. Khi thực hiện nhiệm vụ độc lập, việc sử dụng vũ khí quân dụng phải tuân thủ quy định tại khoản 2 Điều này, Điều 23 của Luật này và quy định khác của pháp luật có liên quan.
+Khi thực hiện nhiệm vụ có tổ chức, việc sử dụng vũ khí quân dụng phải tuân theo mệnh lệnh của người có thẩm quyền. Người ra mệnh lệnh phải tuân thủ quy định tại khoản 2 Điều này, Điều 23 của Luật này, quy định khác của pháp luật có liên quan và chịu trách nhiệm về quyết định của mình.
+4. Người được giao sử dụng vũ khí quân dụng không phải chịu trách nhiệm về thiệt hại khi việc sử dụng vũ khí quân dụng đã tuân thủ quy định tại khoản 3 Điều này; trường hợp sử dụng vũ khí quân dụng vượt quá giới hạn phòng vệ chính đáng, gây thiệt hại rõ ràng vượt quá yêu cầu của tình thế cấp thiết, lợi dụng hoặc lạm dụng việc sử dụng vũ khí quân dụng để xâm phạm tính mạng, sức khỏe, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân thì bị xử lý theo quy định của pháp luật.
+Điều 23. Các trường hợp nổ súng quân dụng khi thực hiện nhiệm vụ bảo đảm an ninh, trật tự
+1. Người thi hành nhiệm vụ độc lập phải cảnh báo bằng hành động, mệnh lệnh lời nói hoặc bắn chỉ thiên trước khi nổ súng vào đối tượng trong trường hợp sau đây:
+a) Đối tượng đang sử dụng vũ khí, vật liệu nổ, vũ lực hoặc công cụ, phương tiện khác tấn công hoặc chống trả đe dọa tính mạng, sức khỏe của người thi hành công vụ hoặc người khác;
+b) Đối tượng đang sử dụng vũ khí, vật liệu nổ, vũ lực hoặc công cụ, phương tiện khác gây rối trật tự công cộng đe dọa tính mạng, sức khỏe, tài sản của người khác;
+c) Người đang bị truy nã, bị bắt, người bị giữ trong trường hợp khẩn cấp, tạm giữ, tạm giam, người đang bị áp giải, xét xử hoặc chấp hành hình phạt tù đang chống trả, đe dọa tính mạng, sức khỏe của người thi hành công vụ hoặc người khác; đối tượng đang đánh tháo người bị dẫn giải, người bị giam, giữ, áp giải do phạm tội nghiêm trọng, phạm tội rất nghiêm trọng, phạm tội đặc biệt nghiêm trọng, tái phạm nguy hiểm;
+d) Khi biết rõ đối tượng đang thực hiện hành vi phạm tội nghiêm trọng, phạm tội rất nghiêm trọng, phạm tội đặc biệt nghiêm trọng;
+đ) Được nổ súng vào phương tiện giao thông cơ giới đường bộ, phương tiện giao thông đường thủy nội địa, trừ phương tiện giao thông của cơ quan đại diện ngoại giao, cơ quan lãnh sự nước ngoài, cơ quan đại diện tổ chức quốc tế để dừng phương tiện đó trong trường hợp đối tượng điều khiển phương tiện đó tấn công hoặc đe dọa trực tiếp đến tính mạng người thi hành công vụ hoặc người khác; khi biết rõ phương tiện do đối tượng phạm tội điều khiển cố tình chạy trốn, trừ trường hợp trên phương tiện có chở người hoặc có con tin; khi biết rõ trên phương tiện chở đối tượng phạm tội hoặc vũ khí, vật liệu nổ trái phép, tài liệu phản động, bí mật nhà nước, ma túy, bảo vật quốc gia cố tình chạy trốn, trừ trường hợp trên phương tiện có chở người hoặc có con tin.
+2. Người thi hành nhiệm vụ độc lập được nổ súng vào đối tượng không cần cảnh báo trong trường hợp sau đây:
+a) Đối tượng đang sử dụng vũ khí, vật liệu nổ trực tiếp thực hiện hành vi phạm tội khủng bố, giết người, bắt cóc con tin hoặc đang trực tiếp sử dụng vũ khí, vật liệu nổ chống lại việc bắt giữ khi vừa thực hiện xong hành vi phạm tội đó;
+b) Đối tượng sản xuất, mua bán, tàng trữ, vận chuyển hoặc tổ chức sử dụng trái phép chất ma túy trực tiếp sử dụng vũ khí, vật liệu nổ chống lại việc bắt giữ;
+c) Đối tượng đang sử dụng vũ khí, vật liệu nổ tấn công hoặc uy hiếp trực tiếp đến an toàn của đối tượng cảnh vệ, công trình quan trọng về an ninh quốc gia, mục tiêu quan trọng được bảo vệ theo quy định của pháp luật;
+d) Đối tượng đang sử dụng vũ khí, vật liệu nổ, vũ lực đe dọa trực tiếp đến tính mạng của người thi hành công vụ hoặc người khác;
+đ) Đối tượng đang trực tiếp thực hiện hành vi cướp súng của người thi hành công vụ;
+e) Được nổ súng vào động vật đang đe dọa trực tiếp đến tính mạng và sức khỏe của người thi hành công vụ hoặc người khác.
+Điều 24. Đối tượng được trang bị vũ khí thể thao
+1. Đối tượng được trang bị vũ khí thể thao bao gồm:
+a) Quân đội nhân dân;
+b) Dân quân tự vệ;
+c) Công an nhân dân;
+d) Câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao có giấy phép hoạt động;
+đ) Trung tâm giáo dục quốc phòng và an ninh;
+e) Cơ quan, tổ chức khác được thành lập, cấp phép hoạt động trong luyện tập, thi đấu thể thao.
+2. Bộ trưởng Bộ Quốc phòng căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí thể thao đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, trung tâm giáo dục quốc phòng và an ninh và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng.
+3. Bộ trưởng Bộ Công an căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí thể thao đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng sau khi đã thống nhất với Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch.
+Điều 25. Thủ tục trang bị vũ khí thể thao
+1. Thủ tục trang bị vũ khí thể thao đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ nhu cầu, điều kiện, số lượng, chủng loại vũ khí thể thao cần trang bị; văn bản đồng ý về việc trang bị vũ khí thể thao của cơ quan có thẩm quyền do Bộ trưởng Bộ Văn hóa, Thể thao và Du lịch quy định; bản sao quyết định thành lập, bản sao Giấy phép hoạt động hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép trang bị vũ khí thể thao và hướng dẫn cơ quan, tổ chức, đơn vị thực hiện việc trang bị; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép trang bị vũ khí thể thao có thời hạn 30 ngày.
+2. Thủ tục trang bị vũ khí thể thao đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, trung tâm giáo dục quốc phòng và an ninh và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 26. Thủ tục cấp Giấy phép sử dụng vũ khí thể thao
+1. Thủ tục cấp Giấy phép sử dụng vũ khí thể thao quy định tại điểm a khoản 5 Điều 3 của Luật này đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị cấp Giấy phép sử dụng vũ khí thể thao bao gồm: văn bản đề nghị nêu rõ số lượng, chủng loại, nước sản xuất, nhãn hiệu, số hiệu, ký hiệu của từng vũ khí thể thao; bản sao Giấy phép trang bị vũ khí thể thao; bản sao hóa đơn hoặc bản sao phiếu xuất kho; giấy tờ chứng minh xuất xứ hợp pháp của vũ khí thể thao; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ đề nghị cấp đổi, cấp lại Giấy phép sử dụng vũ khí thể thao bao gồm: văn bản đề nghị nêu rõ lý do; số lượng, chủng loại, nước sản xuất, nhãn hiệu, số hiệu, ký hiệu của từng vũ khí thể thao; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ. Trường hợp mất, hư hỏng Giấy phép sử dụng vũ khí thể thao thì trong hồ sơ phải có văn bản nêu rõ lý do mất, hư hỏng và kết quả xử lý;
+c) Hồ sơ quy định tại điểm a và điểm b khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+d) Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền kiểm tra thực tế, cấp Giấy phép sử dụng vũ khí thể thao; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+đ) Giấy phép sử dụng vũ khí thể thao chỉ cấp cho cơ quan, tổ chức, đơn vị được trang bị và có thời hạn 05 năm. Giấy phép sử dụng vũ khí thể thao hết hạn được cấp đổi; bị mất, hư hỏng được cấp lại.
+2. Vũ khí thể thao quy định tại điểm b khoản 5 Điều 3 của Luật này phải được khai báo theo quy định tại điểm a khoản 1 Điều 30 của Luật này.
+3. Thủ tục cấp Giấy phép sử dụng vũ khí thể thao đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, trung tâm giáo dục quốc phòng và an ninh và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 27. Sử dụng vũ khí thể thao
+1. Vũ khí thể thao được sử dụng trong tập luyện, thi đấu thể thao tại trường bắn hoặc địa điểm tổ chức, được cảnh giới và có biện pháp bảo đảm an toàn; tuân thủ giáo án tập luyện, luật thi đấu thể thao và điều lệ giải.
+2. Vũ khí thể thao phải được kiểm tra an toàn trước, trong và sau khi tập luyện, thi đấu thể thao.
+3. Vũ khí thể thao được giao cho vận động viên, huấn luyện viên, học viên hoặc hội viên thuộc đối tượng quy định tại khoản 1 Điều 24 của Luật này để tập luyện, thi đấu thể thao tại địa điểm tập luyện và thi đấu.
+Điều 28. Đối tượng được trang bị vũ khí thô sơ
+1. Đối tượng được trang bị vũ khí thô sơ bao gồm:
+a) Quân đội nhân dân;
+b) Dân quân tự vệ;
+c) Cảnh sát biển;
+d) Công an nhân dân;
+đ) Cơ yếu;
+e) Kiểm lâm, Kiểm ngư;
+g) An ninh hàng không;
+h) Hải quan cửa khẩu, lực lượng chuyên trách chống buôn lậu của Hải quan;
+i) Câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao có giấy phép hoạt động;
+k) Trung tâm giáo dục quốc phòng và an ninh.
+2. Bộ trưởng Bộ Quốc phòng căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí thô sơ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, trung tâm giáo dục quốc phòng và an ninh, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng.
+3. Bộ trưởng Bộ Công an căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị vũ khí thô sơ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng.
+Điều 29. Thủ tục trang bị vũ khí thô sơ
+1. Thủ tục trang bị vũ khí thô sơ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ nhu cầu, điều kiện, số lượng, chủng loại vũ khí thô sơ cần trang bị; bản sao quyết định thành lập hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép trang bị vũ khí thô sơ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép trang bị vũ khí thô sơ có thời hạn 30 ngày.
+2. Thủ tục trang bị vũ khí thô sơ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, trung tâm giáo dục quốc phòng và an ninh, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 30. Thủ tục khai báo vũ khí thô sơ
+1. Thủ tục khai báo vũ khí thô sơ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Cơ quan, tổ chức, đơn vị sau khi được trang bị vũ khí thô sơ phải đến cơ quan Công an cấp Giấy phép trang bị vũ khí thô sơ làm thủ tục khai báo. Hồ sơ đề nghị bao gồm: văn bản đề nghị của cơ quan, tổ chức, đơn vị nêu rõ số lượng, chủng loại, nước sản xuất; nhãn hiệu, số hiệu, ký hiệu (nếu có) của từng vũ khí thô sơ; bản sao Giấy phép trang bị vũ khí thô sơ; bản sao hóa đơn hoặc bản sao phiếu xuất kho; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an cấp Giấy phép trang bị vũ khí thô sơ có trách nhiệm thông báo xác nhận khai báo vũ khí thô sơ cho cơ quan, tổ chức, đơn vị;
+b) Tập thể, cá nhân sở hữu vũ khí thô sơ dùng làm hiện vật để trưng bày, triển lãm, đồ gia bảo phải khai báo với Công an xã, phường, thị trấn nơi đặt trụ sở hoặc cư trú. Hồ sơ đề nghị bao gồm: văn bản đề nghị; bản kê khai vũ khí thô sơ, bản sao giấy tờ chứng minh nguồn gốc, xuất xứ (nếu có); giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, Công an xã, phường, thị trấn phải thông báo xác nhận khai báo vũ khí thô sơ cho tập thể, cá nhân sở hữu.
+2. Thủ tục khai báo vũ khí thô sơ đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 31. Sử dụng vũ khí thô sơ
+1. Người được giao vũ khí thô sơ khi thực hiện nhiệm vụ phải tuân thủ quy định tại khoản 2 Điều 22 của Luật này và được sử dụng trong trường hợp sau đây:
+a) Trường hợp quy định tại Điều 23 của Luật này;
+b) Ngăn chặn người đang có hành vi đe dọa đến tính mạng, sức khỏe của người khác;
+c) Phòng vệ chính đáng, tình thế cấp thiết theo quy định của pháp luật.
+2. Người được giao sử dụng vũ khí thô sơ không phải chịu trách nhiệm về thiệt hại khi việc sử dụng vũ khí thô sơ đã tuân thủ quy định tại Điều này và quy định khác của pháp luật có liên quan; trường hợp sử dụng vũ khí thô sơ vượt quá giới hạn phòng vệ chính đáng, gây thiệt hại rõ ràng vượt quá yêu cầu của tình thế cấp thiết, lợi dụng hoặc lạm dụng việc sử dụng vũ khí thô sơ để xâm phạm sức khỏe, tính mạng, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân thì bị xử lý theo quy định của pháp luật.
+Điều 32. Thủ tục cấp Giấy phép mua vũ khí
+1. Tổ chức, doanh nghiệp thuộc Bộ Công an được phép sản xuất, kinh doanh vũ khí khi mua vũ khí phải lập hồ sơ bao gồm:
+a) Văn bản đề nghị nêu rõ số lượng, chủng loại vũ khí; tên, địa chỉ tổ chức, doanh nghiệp bán lại;
+b) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép mua vũ khí; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép mua vũ khí có thời hạn 30 ngày.
+3. Thủ tục cấp Giấy phép mua vũ khí đối với tổ chức, doanh nghiệp thuộc Bộ Quốc phòng được phép sản xuất, kinh doanh vũ khí thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 33. Vận chuyển vũ khí
+1. Việc vận chuyển vũ khí thực hiện theo quy định sau đây:
+a) Phải có mệnh lệnh vận chuyển vũ khí hoặc Giấy phép vận chuyển vũ khí của cơ quan có thẩm quyền;
+b) Bảo đảm bí mật, an toàn;
+c) Vận chuyển với số lượng lớn hoặc vũ khí nguy hiểm phải sử dụng phương tiện chuyên dùng và bảo đảm các điều kiện về phòng cháy và chữa cháy;
+d) Không được chở vũ khí và người trên cùng một phương tiện, trừ người có trách nhiệm trong việc vận chuyển;
+đ) Không dừng, đỗ phương tiện vận chuyển vũ khí ở nơi đông người, khu vực dân cư, nơi có công trình quan trọng về quốc phòng, an ninh, kinh tế, văn hóa, ngoại giao. Trường hợp cần nghỉ qua đêm hoặc do sự cố, khi không đủ lực lượng bảo vệ phải thông báo ngay cho cơ quan quân sự, cơ quan Công an nơi gần nhất để phối hợp bảo vệ.
+2. Thủ tục cấp Giấy phép vận chuyển vũ khí đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ số lượng, chủng loại, nguồn gốc xuất xứ của vũ khí cần vận chuyển; nơi đi, nơi đến, thời gian và tuyến đường vận chuyển; họ và tên, địa chỉ của người chịu trách nhiệm vận chuyển, người điều khiển phương tiện; biển kiểm soát của phương tiện; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép vận chuyển vũ khí; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép vận chuyển vũ khí có thời hạn 30 ngày. Giấy phép vận chuyển vũ khí chỉ có giá trị cho một lượt vận chuyển; trong thời hạn 07 ngày kể từ ngày hoàn tất việc vận chuyển, phải nộp lại cho cơ quan đã cấp giấy phép.
+3. Thủ tục cấp mệnh lệnh vận chuyển vũ khí đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 34. Thủ tục cấp Giấy phép sửa chữa vũ khí
+1. Thủ tục cấp Giấy phép sửa chữa vũ khí đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ chủng loại, nhãn hiệu, số hiệu, ký hiệu của từng loại vũ khí đề nghị sửa chữa; số lượng, bộ phận cần tiến hành sửa chữa; cơ sở tiến hành sửa chữa; địa chỉ, thời gian sửa chữa; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép sửa chữa vũ khí; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+2. Thủ tục cấp Giấy phép sửa chữa vũ khí đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Chương III
+QUẢN LÝ, SỬ DỤNG VẬT LIỆU NỔ
+Điều 35. Nghiên cứu, chế tạo, sản xuất, bảo quản, sử dụng vật liệu nổ quân dụng
+1. Tổ chức, doanh nghiệp thuộc Bộ Quốc phòng, Bộ Công an được nghiên cứu, chế tạo, sản xuất, bảo quản vật liệu nổ quân dụng.
+2. Việc nghiên cứu, chế tạo, sản xuất, bảo quản vật liệu nổ quân dụng phải bảo đảm đủ điều kiện sau đây:
+a) Được Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an giao nhiệm vụ nghiên cứu, chế tạo, sản xuất, bảo quản vật liệu nổ quân dụng;
+b) Thiết lập hệ thống tổ chức quản lý, kỹ thuật an toàn do người chỉ huy trực tiếp điều hành, chỉ đạo và phân công người có đủ trình độ, kinh nghiệm chịu trách nhiệm thực hiện công tác kỹ thuật an toàn tại mỗi bộ phận, vị trí có nguy cơ cao về sự cố, tai nạn cháy, nổ;
+c) Có phương án bảo đảm an ninh, trật tự, phòng cháy và chữa cháy, bảo vệ môi trường cho cơ sở nghiên cứu, sản xuất, hệ thống kho, nơi bốc dỡ, phương tiện vận chuyển và định kỳ tổ chức diễn tập phòng cháy và chữa cháy, cứu nạn, cứu hộ. Kho chứa vật liệu nổ quân dụng phải thiết kế, xây dựng theo quy định tại khoản 2 Điều 9 của Luật này.
+3. Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định việc nghiên cứu, chế tạo, sản xuất, bảo quản, sử dụng vật liệu nổ quân dụng thuộc phạm vi quản lý.
+Điều 36. Vận chuyển vật liệu nổ quân dụng
+1. Việc vận chuyển vật liệu nổ quân dụng thực hiện theo quy định sau đây:
+a) Phải có mệnh lệnh vận chuyển vật liệu nổ quân dụng hoặc Giấy phép vận chuyển vật liệu nổ quân dụng của cơ quan có thẩm quyền;
+b) Bảo đảm bí mật, an toàn;
+c) Sử dụng phương tiện chuyên dùng bảo đảm điều kiện vận chuyển vật liệu nổ quân dụng và bảo đảm an toàn, phòng cháy và chữa cháy, bảo vệ môi trường;
+d) Không được chở vật liệu nổ quân dụng và người trên cùng một phương tiện, trừ người có trách nhiệm trong việc vận chuyển;
+đ) Không dừng, đỗ phương tiện vận chuyển vật liệu nổ quân dụng ở nơi đông người, khu vực dân cư, gần trạm xăng dầu, nơi có công trình quan trọng về quốc phòng, an ninh, kinh tế, văn hóa, ngoại giao. Trường hợp cần nghỉ qua đêm hoặc do sự cố phải thông báo ngay cho cơ quan quân sự, cơ quan Công an nơi gần nhất để phối hợp bảo vệ khi cần thiết.
+2. Thủ tục cấp Giấy phép vận chuyển vật liệu nổ quân dụng đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định sau đây:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ lý do, khối lượng vật liệu nổ quân dụng cần vận chuyển, nơi đi, nơi đến, thời gian và tuyến đường vận chuyển; họ và tên, địa chỉ của người chịu trách nhiệm vận chuyển, người điều khiển phương tiện; biển kiểm soát của phương tiện; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép vận chuyển vật liệu nổ quân dụng; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép vận chuyển vật liệu nổ quân dụng chỉ có giá trị cho một lượt vận chuyển; trong thời hạn 07 ngày kể từ ngày hoàn tất việc vận chuyển, phải nộp lại cho cơ quan đã cấp giấy phép.
+3. Thủ tục cấp mệnh lệnh vận chuyển vật liệu nổ quân dụng đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 37. Nghiên cứu, sản xuất, kinh doanh, xuất khẩu, nhập khẩu vật liệu nổ công nghiệp
+1. Việc nghiên cứu vật liệu nổ công nghiệp thực hiện theo quy định sau đây:
+a) Việc nghiên cứu, phát triển, thử nghiệm vật liệu nổ công nghiệp do các tổ chức khoa học và công nghệ hoặc doanh nghiệp sản xuất vật liệu nổ công nghiệp thực hiện trên cơ sở đề án nghiên cứu được cơ quan có thẩm quyền phê duyệt;
+b) Việc triển khai sản xuất hoặc chuyển giao công nghệ sản xuất quy mô công nghiệp được thực hiện tại cơ sở sản xuất vật liệu nổ công nghiệp có đủ điều kiện theo quy định và có giấy phép của cơ quan nhà nước có thẩm quyền.
+2. Việc sản xuất vật liệu nổ công nghiệp thực hiện theo quy định sau đây:
+a) Tổ chức sản xuất vật liệu nổ công nghiệp phải là doanh nghiệp nhà nước được Thủ tướng Chính phủ giao nhiệm vụ theo đề nghị của Bộ trưởng Bộ Công Thương, Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng;
+b) Chủng loại sản phẩm, quy mô sản xuất phải phù hợp với định hướng phát triển ngành vật liệu nổ công nghiệp, bảo đảm chất lượng và kỹ thuật an toàn;
+c) Người quản lý, người lao động, người phục vụ có liên quan đến sản xuất vật liệu nổ công nghiệp phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn phù hợp và được huấn luyện về kỹ thuật an toàn, phòng cháy và chữa cháy, ứng phó sự cố trong hoạt động liên quan đến sản xuất vật liệu nổ công nghiệp;
+d) Có đủ phương tiện, thiết bị đo lường phù hợp để kiểm tra, giám sát các thông số kỹ thuật và phục vụ công tác kiểm tra chất lượng nguyên liệu, thành phẩm trong quá trình sản xuất; có nơi thử nghiệm riêng biệt, an toàn theo tiêu chuẩn, quy chuẩn kỹ thuật;
+đ) Thực hiện việc phân loại, ghi nhãn hàng hóa theo quy định của pháp luật;
+e) Tổ chức sản xuất vật liệu nổ công nghiệp chỉ được bán sản phẩm đúng chủng loại cho doanh nghiệp kinh doanh vật liệu nổ công nghiệp.
+3. Việc kinh doanh vật liệu nổ công nghiệp thực hiện theo quy định sau đây:
+a) Tổ chức kinh doanh vật liệu nổ công nghiệp phải là doanh nghiệp nhà nước được Thủ tướng Chính phủ giao nhiệm vụ theo đề nghị của Bộ trưởng Bộ Công Thương, Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng;
+b) Địa điểm kho, bến cảng, nơi tiếp nhận bốc dỡ vật liệu nổ công nghiệp phải bảo đảm đủ điều kiện về an ninh, trật tự; bảo đảm khoảng cách an toàn đối với các công trình, đối tượng cần bảo vệ;
+c) Kho, thiết bị bốc dỡ, phương tiện vận chuyển, thiết bị, dụng cụ phục vụ kinh doanh phải được thiết kế, xây dựng phù hợp, đáp ứng yêu cầu về bảo quản, vận chuyển vật liệu nổ công nghiệp, phòng cháy và chữa cháy; trường hợp không có kho, phương tiện vận chuyển, phải có hợp đồng thuê bằng văn bản với tổ chức được phép bảo quản, vận chuyển vật liệu nổ công nghiệp;
+d) Người quản lý, người phục vụ có liên quan đến kinh doanh vật liệu nổ công nghiệp phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn phù hợp và được huấn luyện về kỹ thuật an toàn, phòng cháy và chữa cháy, ứng phó sự cố trong hoạt động liên quan đến kinh doanh vật liệu nổ công nghiệp;
+đ) Doanh nghiệp kinh doanh vật liệu nổ công nghiệp chỉ được kinh doanh vật liệu nổ công nghiệp có trong Danh mục vật liệu nổ công nghiệp được phép sản xuất, kinh doanh và sử dụng ở Việt Nam; việc kinh doanh phải bảo đảm đúng quy định trong giấy phép kinh doanh; được mua lại vật liệu nổ công nghiệp của tổ chức được phép sử dụng vật liệu nổ công nghiệp không sử dụng hết.
+4. Việc xuất khẩu, nhập khẩu vật liệu nổ công nghiệp thực hiện theo quy định sau đây:
+a) Doanh nghiệp được phép kinh doanh vật liệu nổ công nghiệp thì được xuất khẩu, nhập khẩu vật liệu nổ công nghiệp;
+b) Chỉ được xuất khẩu, nhập khẩu vật liệu nổ công nghiệp khi có Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp do cơ quan có thẩm quyền thuộc Bộ Công Thương cấp;
+c) Việc ủy thác nhập khẩu vật liệu nổ công nghiệp chỉ được thực hiện giữa doanh nghiệp được phép sản xuất, doanh nghiệp được phép kinh doanh hoặc tổ chức, doanh nghiệp được phép sử dụng với doanh nghiệp được phép kinh doanh vật liệu nổ công nghiệp.
+5. Chính phủ quy định về trình độ chuyên môn; huấn luyện kỹ thuật an toàn, phòng cháy và chữa cháy, ứng phó sự cố trong hoạt động liên quan đến sản xuất, kinh doanh vật liệu nổ công nghiệp.
+Điều 38. Thủ tục cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp
+1. Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp bao gồm:
+a) Văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp. Doanh nghiệp thuộc Bộ Quốc phòng phải có văn bản đề nghị của Bộ Quốc phòng hoặc cơ quan được Bộ Quốc phòng giao nhiệm vụ quản lý vật liệu nổ công nghiệp;
+b) Bản sao văn bản giao nhiệm vụ sản xuất vật liệu nổ công nghiệp của Thủ tướng Chính phủ;
+c) Bản sao quyết định thành lập doanh nghiệp hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp;
+d) Bản sao quyết định phê duyệt dự án đầu tư xây dựng công trình sản xuất vật liệu nổ công nghiệp theo quy định của pháp luật về quản lý, đầu tư xây dựng;
+đ) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự; văn bản thẩm duyệt, kiểm tra nghiệm thu về phòng cháy và chữa cháy đối với nhà, công trình sản xuất, kho bảo quản vật liệu nổ công nghiệp;
+e) Bản sao quyết định của Bộ trưởng Bộ Công Thương công nhận kết quả đăng ký của sản phẩm và đưa sản phẩm vật liệu nổ công nghiệp vào Danh mục vật liệu nổ công nghiệp được phép sản xuất, kinh doanh và sử dụng ở Việt Nam đối với vật liệu nổ công nghiệp mới sản xuất, sử dụng ở Việt Nam;
+g) Bản sao quyết định phê duyệt báo cáo đánh giá tác động môi trường; bản sao Giấy xác nhận hoàn thành công trình bảo vệ môi trường;
+h) Bố trí mặt bằng; bố trí dây chuyền công nghệ; hệ thống điện, chống sét; giấy chứng nhận kiểm định các thiết bị có yêu cầu nghiêm ngặt về an toàn lao động, thiết bị đo; kết quả thử nghiệm các chỉ tiêu thuốc nổ; nghiệm thu về chất lượng công trình xây dựng;
+i) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Doanh nghiệp đang sản xuất vật liệu nổ công nghiệp có yêu cầu chuyển đổi tên doanh nghiệp mà không có sự thay đổi về điều kiện sản xuất, chỉ cần có văn bản đề nghị điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp, bản sao quyết định của cơ quan, tổ chức có thẩm quyền cho phép đổi tên doanh nghiệp và bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự do cơ quan Công an có thẩm quyền cấp.
+3. Doanh nghiệp sản xuất vật liệu nổ công nghiệp có cải tạo, nâng cấp hạ tầng và thiết bị sản xuất vật liệu nổ công nghiệp nhưng không làm giảm yêu cầu theo tiêu chuẩn, quy chuẩn kỹ thuật về mặt bằng, công nghệ và điều kiện về phòng, chống cháy, nổ, kỹ thuật an toàn của dây chuyền sản xuất đã được cấp phép, sau khi thực hiện cải tạo, nâng cấp, doanh nghiệp sản xuất vật liệu nổ công nghiệp làm văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp.
+4. Doanh nghiệp sản xuất vật liệu nổ công nghiệp bị sự cố, tai nạn phá hủy làm hư hỏng dây chuyền sản xuất, sau khi có kết quả điều tra và sửa chữa phục hồi, doanh nghiệp sản xuất vật liệu nổ công nghiệp lập hồ sơ kỹ thuật của quá trình sửa chữa, phục hồi và làm văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp.
+5. Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy chứng nhận đủ điều kiện sản xuất vật liệu nổ công nghiệp; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 39. Thủ tục cấp Giấy phép kinh doanh vật liệu nổ công nghiệp
+1. Hồ sơ đề nghị cấp Giấy phép kinh doanh vật liệu nổ công nghiệp bao gồm:
+a) Văn bản đề nghị cấp Giấy phép kinh doanh vật liệu nổ công nghiệp. Doanh nghiệp thuộc Bộ Quốc phòng phải có văn bản đề nghị của Bộ Quốc phòng hoặc cơ quan được Bộ Quốc phòng giao nhiệm vụ quản lý vật liệu nổ công nghiệp;
+b) Bản sao văn bản giao nhiệm vụ kinh doanh vật liệu nổ công nghiệp của Thủ tướng Chính phủ;
+c) Bản sao quyết định thành lập doanh nghiệp hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp;
+d) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự; văn bản thẩm duyệt, kiểm tra nghiệm thu về phòng cháy và chữa cháy đối với kho, phương tiện chuyên dùng vận chuyển vật liệu nổ công nghiệp;
+đ) Danh sách cán bộ lãnh đạo, quản lý có liên quan trực tiếp đến công tác bảo quản, vận chuyển và kinh doanh vật liệu nổ công nghiệp; hồ sơ cá nhân của người đại diện doanh nghiệp; giấy phép lao động của người nước ngoài làm việc tại doanh nghiệp (nếu có); bảng kê khai hệ thống kho, bến cảng, nhà xưởng của cơ sở kinh doanh và văn bản cho phép đưa công trình vào sử dụng; danh sách phương tiện vận tải chuyên dùng và bản sao giấy phép lưu hành; giấy chứng nhận của cơ quan nhà nước về tiêu chuẩn, đo lường và chất lượng đo lường nhà nước cấp cho cơ sở thí nghiệm vật liệu nổ công nghiệp (nếu có); kế hoạch hoặc biện pháp phòng ngừa, ứng phó sự cố khẩn cấp đối với kho, phương tiện vận chuyển vật liệu nổ công nghiệp;
+e) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Hồ sơ đề nghị cấp lại Giấy phép kinh doanh vật liệu nổ công nghiệp bao gồm: báo cáo hoạt động kinh doanh vật liệu nổ công nghiệp theo giấy phép đã cấp và giấy tờ, tài liệu quy định tại khoản 1 Điều này.
+3. Hồ sơ đề nghị cấp Giấy phép kinh doanh vật liệu nổ công nghiệp lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép kinh doanh vật liệu nổ công nghiệp; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 40. Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp
+1. Hồ sơ đề nghị cấp Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp bao gồm:
+a) Văn bản đề nghị cấp Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp;
+b) Bản sao Giấy phép kinh doanh vật liệu nổ công nghiệp;
+c) Bản sao hợp đồng mua, bán vật liệu nổ công nghiệp với doanh nghiệp nước ngoài và hợp đồng mua, bán vật liệu nổ công nghiệp với doanh nghiệp trong nước;
+d) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, cấp Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+3. Giấy phép xuất khẩu, nhập khẩu vật liệu nổ công nghiệp có thời hạn 06 tháng.
+Điều 41. Sử dụng vật liệu nổ công nghiệp
+1. Tổ chức, doanh nghiệp sử dụng vật liệu nổ công nghiệp phải bảo đảm đủ điều kiện sau đây:
+a) Được thành lập theo quy định của pháp luật, có đăng ký doanh nghiệp hoặc đăng ký hoạt động ngành, nghề, lĩnh vực cần sử dụng vật liệu nổ công nghiệp;
+b) Có hoạt động khoáng sản, dầu khí hoặc công trình xây dựng, công trình nghiên cứu, thử nghiệm hoặc thực hiện nhiệm vụ do Thủ tướng Chính phủ giao cần sử dụng vật liệu nổ công nghiệp;
+c) Có kho, công nghệ, thiết bị, phương tiện, dụng cụ phục vụ hoạt động sử dụng vật liệu nổ công nghiệp bảo đảm tiêu chuẩn, quy chuẩn kỹ thuật; trường hợp không có kho, phương tiện vận chuyển, phải có hợp đồng thuê bằng văn bản với tổ chức được phép bảo quản, vận chuyển vật liệu nổ công nghiệp;
+d) Địa điểm sử dụng vật liệu nổ công nghiệp phải bảo đảm điều kiện về an ninh, trật tự, phòng cháy và chữa cháy, vệ sinh môi trường; bảo đảm khoảng cách an toàn đối với công trình, đối tượng cần bảo vệ theo tiêu chuẩn, quy chuẩn kỹ thuật và các quy định có liên quan;
+đ) Người quản lý, chỉ huy nổ mìn, thợ mìn và người khác có liên quan đến sử dụng vật liệu nổ công nghiệp phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn tương xứng với vị trí, chức trách đảm nhiệm, được huấn luyện về kỹ thuật an toàn, phòng cháy và chữa cháy, ứng phó sự cố trong các hoạt động liên quan đến sử dụng vật liệu nổ công nghiệp;
+e) Quy mô sử dụng thuốc nổ trong 01 quý từ 500 kg trở lên, trừ trường hợp sử dụng thuốc nổ để thử nghiệm, thăm dò, đánh giá địa chất.
+2. Tổ chức, doanh nghiệp sử dụng vật liệu nổ công nghiệp phải tuân theo quy định sau đây:
+a) Chỉ được mua vật liệu nổ công nghiệp có trong Danh mục vật liệu nổ công nghiệp được phép sản xuất, kinh doanh và sử dụng ở Việt Nam từ các doanh nghiệp kinh doanh vật liệu nổ công nghiệp;
+b) Vật liệu nổ công nghiệp không sử dụng hết phải bán lại cho doanh nghiệp kinh doanh vật liệu nổ công nghiệp;
+c) Thực hiện việc bổ nhiệm người chỉ huy nổ mìn và thực hiện đầy đủ tiêu chuẩn, quy chuẩn kỹ thuật về an toàn trong sử dụng vật liệu nổ công nghiệp khi tiến hành nổ mìn;
+d) Lập thiết kế, phương án nổ mìn phù hợp với quy mô sản xuất, điều kiện tự nhiên, điều kiện xã hội nơi nổ mìn. Trong thiết kế, phương án nổ mìn phải quy định cụ thể các biện pháp an toàn, bảo vệ, canh gác chống xâm nhập trái phép khu vực nổ mìn; thủ tục cảnh báo, khởi nổ; thủ tục bảo quản và thủ tục giám sát việc tiêu thụ, tiêu hủy vật liệu nổ công nghiệp tại nơi nổ mìn và nội dung khác theo tiêu chuẩn, quy chuẩn kỹ thuật.
+Thiết kế hoặc phương án nổ mìn phải được cơ quan cấp Giấy phép sử dụng vật liệu nổ công nghiệp phê duyệt và được sự đồng ý bằng văn bản của Ủy ban nhân dân cấp tỉnh hoặc cơ quan quản lý khi nổ mìn trong khu vực dân cư, cơ sở khám bệnh, chữa bệnh, khu vực có di tích lịch sử - văn hóa, bảo tồn thiên nhiên, công trình an ninh, quốc phòng hoặc công trình quan trọng khác của quốc gia, khu vực bảo vệ khác theo quy định của pháp luật. Thực hiện việc giám sát các ảnh hưởng nổ mìn đối với công trình, đối tượng cần bảo vệ nằm trong phạm vi ảnh hưởng của nổ mìn;
+đ) Tổ chức, doanh nghiệp được Bộ Công Thương, Bộ Quốc phòng cấp Giấy phép sử dụng vật liệu nổ công nghiệp phải thông báo bằng văn bản với Ủy ban nhân dân cấp tỉnh ít nhất 10 ngày trước khi thực hiện các hoạt động theo giấy phép.
+3. Chính phủ quy định về trình độ chuyên môn; huấn luyện kỹ thuật an toàn trong hoạt động liên quan đến sử dụng vật liệu nổ công nghiệp.
+Điều 42. Thủ tục cấp Giấy phép sử dụng vật liệu nổ công nghiệp
+1. Hồ sơ đề nghị cấp Giấy phép sử dụng vật liệu nổ công nghiệp đối với tổ chức, doanh nghiệp không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị cấp Giấy phép sử dụng vật liệu nổ công nghiệp;
+b) Bản sao quyết định thành lập hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp. Doanh nghiệp có vốn đầu tư nước ngoài phải có bản sao Giấy chứng nhận đầu tư hoặc bản sao giấy phép thầu do cơ quan có thẩm quyền cấp theo quy định của pháp luật;
+c) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự;
+d) Bản sao giấy phép thăm dò, khai thác khoáng sản, dầu khí đối với doanh nghiệp hoạt động khoáng sản, dầu khí; bản sao quyết định trúng thầu thi công công trình, bản sao hợp đồng nhận thầu hoặc văn bản ủy quyền, giao nhiệm vụ thực hiện hợp đồng thi công công trình của tổ chức quản lý doanh nghiệp;
+đ) Thiết kế, bản vẽ thi công các hạng mục công trình xây dựng, thiết kế khai thác mỏ có sử dụng vật liệu nổ công nghiệp đối với công trình quy mô công nghiệp; phương án thi công, khai thác đối với hoạt động xây dựng, khai thác thủ công. Thiết kế hoặc phương án do chủ đầu tư phê duyệt phải bảo đảm điều kiện về an toàn theo tiêu chuẩn, quy chuẩn kỹ thuật;
+e) Phương án nổ mìn được lãnh đạo doanh nghiệp ký duyệt. Trường hợp nổ mìn trong khu vực dân cư, cơ sở khám bệnh, chữa bệnh, khu vực có di tích lịch sử - văn hóa, bảo tồn thiên nhiên, công trình an ninh, quốc phòng hoặc công trình quan trọng khác của quốc gia, khu vực bảo vệ khác theo quy định của pháp luật thì phương án nổ mìn phải được cơ quan có thẩm quyền quy định tại điểm d khoản 2 Điều 41 của Luật này đồng ý bằng văn bản;
+g) Bản sao văn bản nghiệm thu về phòng cháy và chữa cháy đối với kho vật liệu nổ công nghiệp và điều kiện bảo đảm an toàn theo tiêu chuẩn, quy chuẩn kỹ thuật;
+h) Trường hợp tổ chức, doanh nghiệp đề nghị cấp phép sử dụng vật liệu nổ công nghiệp không có kho hoặc không có phương tiện vận chuyển, hồ sơ đề nghị cấp giấy phép phải có bản sao hợp đồng nguyên tắc thuê kho, phương tiện vận chuyển vật liệu nổ công nghiệp với tổ chức, doanh nghiệp có kho, phương tiện vận chuyển vật liệu nổ công nghiệp bảo đảm điều kiện về an toàn theo tiêu chuẩn, quy chuẩn kỹ thuật, phòng cháy và chữa cháy hoặc bản sao hợp đồng nguyên tắc với tổ chức được phép kinh doanh vật liệu nổ công nghiệp để cung ứng vật liệu nổ công nghiệp đến công trình theo hộ chiếu nổ mìn;
+i) Quyết định bổ nhiệm người chỉ huy nổ mìn của lãnh đạo doanh nghiệp và danh sách thợ mìn, người có liên quan trực tiếp đến sử dụng vật liệu nổ công nghiệp; giấy phép lao động của người nước ngoài làm việc có liên quan đến sử dụng vật liệu nổ công nghiệp (nếu có); bản sao chứng chỉ chuyên môn, giấy chứng nhận huấn luyện về kỹ thuật an toàn trong hoạt động vật liệu nổ công nghiệp của người chỉ huy nổ mìn và đội ngũ thợ mìn;
+k) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+2. Đối với tổ chức, doanh nghiệp đề nghị cấp lại Giấy phép sử dụng vật liệu nổ công nghiệp nhưng không thay đổi về địa điểm, quy mô hoạt động, hồ sơ đề nghị bao gồm: báo cáo hoạt động sử dụng vật liệu nổ công nghiệp trong thời hạn hiệu lực của giấy phép đã cấp và giấy tờ, tài liệu quy định tại khoản 1 Điều này.
+3. Trường hợp đáp ứng điều kiện quy định tại các điểm b, d và đ khoản 1 Điều này nhưng không tự thực hiện việc nổ mìn, tổ chức, doanh nghiệp có nhu cầu nổ mìn được quyền ký hợp đồng thuê toàn bộ công việc nổ mìn với tổ chức có Giấy phép dịch vụ nổ mìn.
+4. Hồ sơ quy định tại khoản 1 và khoản 2 Điều này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định; trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép sử dụng vật liệu nổ công nghiệp; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+5. Thời hạn của Giấy phép sử dụng vật liệu nổ công nghiệp theo thời hạn của Giấy phép khai thác khoáng sản nhưng không quá 05 năm; theo thời hạn công trình nhưng không quá 02 năm đối với trường hợp phục vụ thi công công trình, thử nghiệm, thăm dò khoáng sản, hoạt động dầu khí và hoạt động khác do Thủ tướng Chính phủ giao.
+6. Thủ tục cấp Giấy phép sử dụng vật liệu nổ công nghiệp đối với tổ chức, doanh nghiệp thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 43. Dịch vụ nổ mìn
+1. Hình thức và yêu cầu hoạt động dịch vụ nổ mìn quy định như sau:
+a) Dịch vụ nổ mìn là việc thực hiện hợp đồng nổ mìn giữa tổ chức, doanh nghiệp hoạt động dịch vụ nổ mìn với tổ chức, cá nhân có nhu cầu theo quy định của Luật này, bao gồm: dịch vụ nổ mìn tại địa phương có phạm vi hoạt động giới hạn trong địa bàn đất liền của 01 tỉnh hoặc thành phố trực thuộc trung ương; dịch vụ nổ mìn trên thềm lục địa; dịch vụ nổ mìn có phạm vi hoạt động trên toàn lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+b) Số lượng, phạm vi, quy mô của tổ chức, doanh nghiệp hoạt động dịch vụ nổ mìn phải phù hợp với nhiệm vụ, nhu cầu của hoạt động xây dựng, hoạt động khoáng sản tập trung và điều kiện kinh tế - xã hội đặc thù của địa phương;
+c) Trường hợp cần thiết nhằm bảo đảm an ninh, trật tự, an toàn xã hội, cơ quan quản lý nhà nước về vật liệu nổ công nghiệp chỉ định, bắt buộc việc thực hiện dịch vụ nổ mìn ở khu vực, địa điểm có đặc thù về an ninh, trật tự, an toàn xã hội.
+2. Điều kiện, quyền và nghĩa vụ của tổ chức, doanh nghiệp hoạt động dịch vụ nổ mìn quy định như sau:
+a) Được thành lập theo quy định của pháp luật, có đăng ký ngành, nghề cung ứng dịch vụ nổ mìn; đối với tổ chức, doanh nghiệp cung ứng dịch vụ nổ mìn có phạm vi hoạt động trên toàn lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam phải là doanh nghiệp nhà nước;
+b) Có đủ điều kiện về sử dụng, bảo quản và vận chuyển vật liệu nổ công nghiệp theo quy định của Luật này; cơ sở vật chất, kỹ thuật và nhân sự đủ để cung ứng dịch vụ cho tối thiểu 05 tổ chức thuê dịch vụ;
+c) Có quyền và nghĩa vụ theo quy định của Luật này và quy định khác của pháp luật có liên quan khi sử dụng, bảo quản, vận chuyển vật liệu nổ công nghiệp để thực hiện dịch vụ nổ mìn.
+3. Tổ chức, cá nhân thuê dịch vụ nổ mìn có quyền và nghĩa vụ sau đây:
+a) Không phải có giấy phép đối với hoạt động vật liệu nổ công nghiệp đã thuê dịch vụ nổ mìn;
+b) Chỉ được thuê một tổ chức, doanh nghiệp hoạt động dịch vụ nổ mìn cung ứng một loại dịch vụ nổ mìn tại một vị trí, địa điểm;
+c) Theo sự điều hành của bên cung ứng dịch vụ nổ mìn trong các hoạt động cụ thể khi bảo quản, vận chuyển, sử dụng vật liệu nổ công nghiệp;
+d) Hợp tác, tạo điều kiện hỗ trợ bên cung ứng dịch vụ nổ mìn các vấn đề liên quan đến an ninh, an toàn trong hoạt động vật liệu nổ công nghiệp.
+4. Hồ sơ đề nghị cấp Giấy phép dịch vụ nổ mìn bao gồm:
+a) Văn bản đề nghị cấp Giấy phép dịch vụ nổ mìn. Doanh nghiệp thuộc Bộ Quốc phòng phải có văn bản đề nghị của Bộ Quốc phòng hoặc cơ quan được Bộ trưởng Bộ Quốc phòng giao nhiệm vụ quản lý vật liệu nổ công nghiệp;
+b) Bản sao quyết định thành lập hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp. Doanh nghiệp có vốn đầu tư nước ngoài phải có bản sao Giấy chứng nhận đầu tư;
+c) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự;
+d) Văn bản đề nghị cấp Giấy phép dịch vụ nổ mìn của Ủy ban nhân dân cấp tỉnh đối với hình thức dịch vụ nổ mìn tại địa phương có phạm vi hoạt động giới hạn trong địa bàn đất liền của 01 tỉnh hoặc thành phố trực thuộc trung ương; văn bản đề nghị cấp Giấy phép dịch vụ nổ mìn của cơ quan quản lý có thẩm quyền đối với dịch vụ nổ mìn trên thềm lục địa hoặc dịch vụ nổ mìn có phạm vi hoạt động trên toàn lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+đ) Đề án dịch vụ nổ mìn nêu rõ mục tiêu, quy mô, phạm vi, tính phù hợp quy hoạch, nhu cầu về dịch vụ nổ mìn và khả năng đáp ứng của doanh nghiệp; các điều kiện cần thiết và giải pháp bảo đảm về an ninh, an toàn trong hoạt động cung ứng dịch vụ nổ mìn; bản sao Giấy phép sử dụng vật liệu nổ công nghiệp và phương án nổ mìn điển hình đã thực hiện trong 02 năm trở về trước tính từ thời điểm đề nghị cấp Giấy phép dịch vụ nổ mìn; giấy tờ, tài liệu quy định tại các điểm g, h và i khoản 1 Điều 42 của Luật này;
+e) Đối với tổ chức, doanh nghiệp đã có Giấy phép kinh doanh vật liệu nổ công nghiệp, hồ sơ không bao gồm giấy tờ, tài liệu quy định tại các điểm b, c, d khoản này và điểm h khoản 1 Điều 42 của Luật này;
+g) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+5. Đối với tổ chức, doanh nghiệp đề nghị cấp lại, điều chỉnh Giấy phép dịch vụ nổ mìn, hồ sơ đề nghị bao gồm: văn bản đề nghị cấp lại, điều chỉnh Giấy phép dịch vụ nổ mìn; báo cáo hoạt động dịch vụ nổ mìn trong thời hạn hiệu lực của Giấy phép đã cấp lần trước và giấy tờ, tài liệu quy định tại các điểm b, c, d và đ khoản 4 Điều này.
+6. Hồ sơ quy định tại khoản 4 và khoản 5 Điều này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép dịch vụ nổ mìn; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+7. Giấy phép dịch vụ nổ mìn có thời hạn 02 năm.
+Điều 44. Vận chuyển vật liệu nổ công nghiệp
+1. Tổ chức, doanh nghiệp vận chuyển vật liệu nổ công nghiệp phải bảo đảm đủ điều kiện sau đây:
+a) Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh hoặc sử dụng vật liệu nổ công nghiệp; doanh nghiệp có đăng ký ngành, nghề vận chuyển hàng hóa;
+b) Phương tiện vận chuyển vật liệu nổ công nghiệp phải đủ điều kiện theo tiêu chuẩn, quy chuẩn kỹ thuật về an toàn trong hoạt động vật liệu nổ công nghiệp; bảo đảm điều kiện về an toàn, phòng cháy và chữa cháy;
+c) Người quản lý, người điều khiển phương tiện, áp tải và người phục vụ có liên quan đến vận chuyển vật liệu nổ công nghiệp phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn phù hợp với vị trí, chức trách đảm nhiệm, được huấn luyện về an toàn, phòng cháy và chữa cháy;
+d) Có Giấy phép vận chuyển vật liệu nổ công nghiệp; biểu trưng báo hiệu phương tiện đang vận chuyển vật liệu nổ công nghiệp.
+2. Người thực hiện vận chuyển vật liệu nổ công nghiệp phải tuân theo quy định sau đây:
+a) Thực hiện đúng nội dung ghi trong Giấy phép vận chuyển vật liệu nổ công nghiệp;
+b) Kiểm tra tình trạng hàng hóa trước khi xuất phát hoặc sau mỗi lần phương tiện dừng, đỗ và khắc phục ngay sự cố xảy ra;
+c) Có phương án vận chuyển bảo đảm an toàn, phòng cháy và chữa cháy; có biện pháp ứng phó sự cố khẩn cấp;
+d) Thực hiện đầy đủ thủ tục giao, nhận về hàng hóa, tài liệu liên quan đến vật liệu nổ công nghiệp;
+đ) Không dừng, đỗ phương tiện vận chuyển vật liệu nổ công nghiệp ở nơi đông người, khu vực dân cư, gần trạm xăng dầu, nơi có công trình quan trọng về quốc phòng, an ninh, kinh tế, văn hóa, ngoại giao; không vận chuyển khi thời tiết bất thường. Trường hợp cần nghỉ qua đêm hoặc do sự cố phải thông báo ngay cho cơ quan quân sự, cơ quan Công an nơi gần nhất để phối hợp bảo vệ;
+e) Không được chở vật liệu nổ công nghiệp và người trên cùng một phương tiện, trừ người có trách nhiệm trong việc vận chuyển.
+3. Hồ sơ đề nghị cấp Giấy phép vận chuyển vật liệu nổ công nghiệp đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị nêu rõ lý do, khối lượng, số lượng, chủng loại vật liệu nổ công nghiệp cần vận chuyển; nơi đi, nơi đến, thời gian và tuyến đường vận chuyển; họ và tên, địa chỉ của người chịu trách nhiệm vận chuyển, người điều khiển phương tiện; biển kiểm soát của phương tiện;
+b) Bản sao Giấy chứng nhận đăng ký doanh nghiệp, Giấy chứng nhận đủ điều kiện về an ninh, trật tự để sản xuất, kinh doanh, sử dụng vật liệu nổ công nghiệp của tổ chức, doanh nghiệp nhận vật liệu nổ công nghiệp;
+c) Các loại giấy tờ chứng minh đủ điều kiện vận chuyển vật liệu nổ công nghiệp theo quy định tại các điểm a, b và c khoản 1 Điều này;
+d) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+4. Hồ sơ đề nghị điều chỉnh Giấy phép vận chuyển vật liệu nổ công nghiệp đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị điều chỉnh nội dung Giấy phép vận chuyển vật liệu nổ công nghiệp;
+b) Bản sao Giấy phép vận chuyển vật liệu nổ công nghiệp.
+5. Hồ sơ đề nghị cấp Giấy phép vận chuyển vật liệu nổ công nghiệp lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định.
+6. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp, điều chỉnh Giấy phép vận chuyển vật liệu nổ công nghiệp; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép vận chuyển vật liệu nổ công nghiệp chỉ có giá trị cho một lượt vận chuyển; trong thời hạn 07 ngày kể từ ngày hoàn tất việc vận chuyển, phải nộp lại cho cơ quan đã cấp giấy phép.
+7. Trường hợp vận chuyển vật liệu nổ công nghiệp bằng nhiều phương tiện trong cùng một chuyến thì chỉ cấp 01 Giấy phép vận chuyển vật liệu nổ công nghiệp; nếu vận chuyển bằng nhiều loại phương tiện giao thông thì phải cấp riêng cho mỗi loại phương tiện 01 Giấy phép vận chuyển vật liệu nổ công nghiệp.
+8. Trường hợp vận chuyển vật liệu nổ công nghiệp bên trong ranh giới mỏ, công trường hoặc cơ sở sản xuất, bảo quản vật liệu nổ công nghiệp trên các đường không giao cắt với đường thủy, đường bộ công cộng thì không phải xin cấp giấy phép, nhưng phải thực hiện đúng quy định tại các điểm b, c, d và e khoản 2 Điều này.
+9. Khi có yêu cầu bảo đảm an ninh, trật tự, an toàn xã hội trong các hoạt động cấp quốc gia hoặc ở khu vực có yêu cầu đặc biệt về bảo đảm an ninh, trật tự thì cơ quan có thẩm quyền quyết định tạm ngừng cấp giấy phép hoặc tạm ngừng hiệu lực thi hành của Giấy phép vận chuyển vật liệu nổ công nghiệp.
+10. Việc cấp, điều chỉnh, thu hồi và tạm ngừng cấp mệnh lệnh vận chuyển vật liệu nổ công nghiệp đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 45. Trách nhiệm của tổ chức, doanh nghiệp nghiên cứu, chế tạo, sản xuất, kinh doanh, vận chuyển, sử dụng vật liệu nổ công nghiệp
+1. Tổ chức, doanh nghiệp có hoạt động nghiên cứu, chế tạo, thử nghiệm, sản xuất, kinh doanh, xuất khẩu, nhập khẩu, bảo quản, vận chuyển, sử dụng, tiêu hủy vật liệu nổ công nghiệp có trách nhiệm sau đây:
+a) Có giấy phép, giấy chứng nhận hoặc phê duyệt của cơ quan có thẩm quyền;
+b) Thành lập bộ phận quản lý và kiểm tra an toàn, đánh giá nguy cơ rủi ro về an toàn, xây dựng phương án nổ mìn, kế hoạch ứng cứu khẩn cấp, ban hành nội quy, quy định, quy trình bảo đảm an ninh, an toàn, phòng cháy và chữa cháy, bảo vệ môi trường trong hoạt động vật liệu nổ công nghiệp;
+c) Bảo quản, lưu trữ sổ sách, chứng từ đối với từng loại vật liệu nổ công nghiệp trong thời hạn 10 năm;
+d) Báo cáo định kỳ, báo cáo trong trường hợp đột xuất.
+2. Tổ chức, doanh nghiệp sản xuất, kinh doanh, sử dụng vật liệu nổ công nghiệp chỉ được mua bán sản phẩm đúng khối lượng, số lượng, chủng loại theo giấy phép của cơ quan có thẩm quyền.
+3. Bộ trưởng Bộ Công Thương quy định chi tiết khoản 1 Điều này.
+Chương IV
+QUẢN LÝ, SỬ DỤNG TIỀN CHẤT THUỐC NỔ
+Điều 46. Nghiên cứu, chế tạo, sản xuất, kinh doanh, xuất khẩu, nhập khẩu tiền chất thuốc nổ
+1. Việc nghiên cứu, chế tạo tiền chất thuốc nổ do tổ chức khoa học và công nghệ hoặc doanh nghiệp sản xuất tiền chất thuốc nổ thực hiện.
+2. Việc sản xuất tiền chất thuốc nổ phải bảo đảm đủ điều kiện sau đây:
+a) Do tổ chức, doanh nghiệp được thành lập theo quy định của pháp luật thực hiện;
+b) Địa điểm cơ sở sản xuất tiền chất thuốc nổ phải bảo đảm các điều kiện về an ninh, trật tự. Nhà xưởng, kho, công nghệ, thiết bị, phương tiện phục vụ sản xuất phải được thiết kế, xây dựng phù hợp với quy mô và đặc điểm nguyên liệu, sản phẩm tiền chất thuốc nổ; bảo đảm yêu cầu về an toàn, phòng cháy và chữa cháy; khoảng cách an toàn đối với công trình, đối tượng cần bảo vệ và bảo vệ môi trường theo quy định của pháp luật;
+c) Có đủ phương tiện, thiết bị đo lường phù hợp để kiểm tra, giám sát các thông số kỹ thuật và phục vụ công tác kiểm tra chất lượng nguyên liệu trong quá trình sản xuất;
+d) Chỉ được sản xuất, bán sản phẩm đúng chủng loại cho doanh nghiệp sản xuất vật liệu nổ công nghiệp, kinh doanh, sử dụng tiền chất thuốc nổ.
+3. Việc kinh doanh tiền chất thuốc nổ phải bảo đảm đủ điều kiện sau đây:
+a) Do doanh nghiệp được thành lập theo quy định của pháp luật thực hiện;
+b) Địa điểm kho, bến cảng, nơi tiếp nhận bốc dỡ tiền chất thuốc nổ phải bảo đảm điều kiện về an ninh, trật tự; có trang thiết bị an toàn, phòng, chống cháy, nổ; bảo đảm khoảng cách an toàn đối với công trình, đối tượng cần bảo vệ theo tiêu chuẩn, quy chuẩn kỹ thuật và các quy định có liên quan; kho chứa hoặc kho thuê theo hợp đồng để chứa tiền chất thuốc nổ phải bảo đảm điều kiện về bảo quản chất lượng trong thời gian kinh doanh; công cụ, thiết bị chứa đựng, lưu giữ tiền chất thuốc nổ phải bảo đảm chất lượng và vệ sinh môi trường; phương tiện vận chuyển tiền chất thuốc nổ theo quy định của pháp luật về vận chuyển hàng nguy hiểm; có chứng từ hợp pháp chứng minh rõ nguồn gốc nơi sản xuất, nơi nhập khẩu hoặc nơi cung cấp loại tiền chất thuốc nổ kinh doanh; có trang thiết bị kiểm soát, thu gom và xử lý chất thải nguy hại hoặc có hợp đồng vận chuyển, xử lý, tiêu hủy chất thải nguy hại theo quy định của Luật Bảo vệ môi trường;
+c) Có kế hoạch hoặc biện pháp phòng ngừa, ứng phó sự cố hóa chất được cơ quan có thẩm quyền phê duyệt hoặc xác nhận theo quy định của Luật Hóa chất;
+d) Người trực tiếp quản lý, người phục vụ có liên quan đến kinh doanh tiền chất thuốc nổ phải được huấn luyện về kỹ thuật an toàn hóa chất, phòng cháy và chữa cháy.
+4. Việc xuất khẩu, nhập khẩu tiền chất thuốc nổ thực hiện theo quy định sau đây:
+a) Doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ thì được xuất khẩu, nhập khẩu tiền chất thuốc nổ;
+b) Chỉ được xuất khẩu, nhập khẩu tiền chất thuốc nổ khi có giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ do cơ quan có thẩm quyền thuộc Bộ Công Thương cấp;
+c) Việc ủy thác nhập khẩu tiền chất thuốc nổ chỉ được thực hiện giữa các doanh nghiệp được phép sản xuất, doanh nghiệp được phép kinh doanh hoặc tổ chức, doanh nghiệp được phép sử dụng với doanh nghiệp được phép sản xuất, kinh doanh tiền chất thuốc nổ.
+5. Miễn trừ cấp phép trong trường hợp sau đây:
+a) Miễn trừ việc cấp giấy phép kinh doanh, xuất khẩu, nhập khẩu tiền chất thuốc nổ phục vụ cho nghiên cứu khoa học, thử nghiệm với khối lượng sử dụng trong 01 năm từ 05 kg trở xuống;
+b) Tổ chức nhập khẩu tiền chất thuốc nổ để sử dụng trực tiếp cho sản xuất, nghiên cứu, thử nghiệm phải có Giấy phép nhập khẩu tiền chất thuốc nổ và được miễn trừ việc cấp Giấy phép kinh doanh tiền chất thuốc nổ nhưng vẫn phải bảo đảm điều kiện kinh doanh quy định tại khoản 3 Điều này;
+c) Tổ chức sử dụng tiền chất thuốc nổ không hết khi bán lại cho tổ chức cung cấp tiền chất thuốc nổ hợp pháp được miễn trừ việc cấp Giấy phép kinh doanh tiền chất thuốc nổ.
+Điều 47. Thủ tục cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ
+1. Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ bao gồm:
+a) Văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ;
+b) Bản sao quyết định thành lập của cơ quan có thẩm quyền hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp;
+c) Bản sao quyết định phê duyệt dự án đầu tư xây dựng công trình sản xuất tiền chất thuốc nổ theo quy định của pháp luật về quản lý, đầu tư xây dựng;
+d) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự đối với doanh nghiệp sản xuất tiền chất thuốc nổ là Amoni nitrat có hàm lượng từ 98,5% trở lên;
+đ) Bản sao văn bản thẩm duyệt, kiểm tra nghiệm thu về phòng cháy và chữa cháy đối với nhà, công trình sản xuất, kho bảo quản tiền chất thuốc nổ;
+e) Bản sao quyết định phê duyệt báo cáo đánh giá tác động môi trường đối với cơ sở sản xuất tiền chất thuốc nổ; bản sao Giấy xác nhận hoàn thành công trình bảo vệ môi trường;
+g) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Doanh nghiệp đang sản xuất tiền chất thuốc nổ có yêu cầu chuyển đổi tên doanh nghiệp mà không có sự thay đổi về điều kiện sản xuất, chỉ cần có văn bản đề nghị điều chỉnh Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ, bản sao quyết định của cơ quan, tổ chức có thẩm quyền cho phép đổi tên doanh nghiệp và bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự đối với doanh nghiệp sản xuất tiền chất thuốc nổ là Amoni nitrat có hàm lượng từ 98,5% trở lên do cơ quan Công an có thẩm quyền cấp.
+3. Doanh nghiệp sản xuất tiền chất thuốc nổ có cải tạo, nâng cấp hạ tầng và thiết bị sản xuất tiền chất thuốc nổ nhưng không làm giảm các yêu cầu theo tiêu chuẩn, quy chuẩn kỹ thuật về mặt bằng, công nghệ và điều kiện về phòng, chống cháy, nổ, kỹ thuật an toàn của dây chuyền sản xuất đã được cấp phép, sau khi thực hiện cải tạo, nâng cấp, doanh nghiệp sản xuất tiền chất thuốc nổ làm văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ.
+4. Doanh nghiệp sản xuất tiền chất thuốc nổ bị sự cố, tai nạn phá hủy làm hư hỏng dây chuyền sản xuất, sau khi có kết quả điều tra và sửa chữa phục hồi, doanh nghiệp sản xuất tiền chất thuốc nổ phải lập hồ sơ kỹ thuật của quá trình sửa chữa, phục hồi và làm văn bản đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ.
+5. Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 48. Thủ tục cấp Giấy phép kinh doanh tiền chất thuốc nổ
+1. Hồ sơ đề nghị cấp Giấy phép kinh doanh tiền chất thuốc nổ bao gồm:
+a) Văn bản đề nghị cấp Giấy phép kinh doanh tiền chất thuốc nổ;
+b) Bản sao Giấy chứng nhận đăng ký doanh nghiệp hoặc bản sao Giấy chứng nhận đầu tư, trong đó có ngành, nghề liên quan đến hóa chất hoặc vật liệu nổ công nghiệp do cơ quan nhà nước có thẩm quyền cấp;
+c) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự đối với doanh nghiệp kinh doanh tiền chất thuốc nổ là Amoni nitrat có hàm lượng từ 98,5% trở lên;
+d) Bản sao văn bản thẩm duyệt, kiểm tra nghiệm thu về phòng cháy và chữa cháy đối với kho, phương tiện chuyên dùng vận chuyển tiền chất thuốc nổ;
+đ) Bảng kê khai hệ thống kho, bến cảng, nhà xưởng của cơ sở kinh doanh, văn bản cho phép đưa công trình vào sử dụng; danh sách các phương tiện vận tải chuyên dùng và bản sao giấy phép lưu hành; kế hoạch hoặc biện pháp phòng ngừa, ứng phó sự cố khẩn cấp đối với kho, phương tiện vận chuyển tiền chất thuốc nổ;
+e) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép kinh doanh tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép kinh doanh tiền chất thuốc nổ có thời hạn 05 năm.
+3. Thủ tục cấp đổi, cấp lại, điều chỉnh Giấy phép kinh doanh tiền chất thuốc nổ thực hiện như sau:
+a) Giấy phép kinh doanh tiền chất thuốc nổ hết hạn được cấp đổi. Hồ sơ đề nghị bao gồm: văn bản đề nghị cấp đổi; trường hợp tổ chức kinh doanh tiền chất thuốc nổ có thay đổi nội dung đăng ký doanh nghiệp, địa điểm, quy mô hoặc điều kiện kinh doanh thì phải cung cấp giấy tờ, tài liệu chứng minh nội dung thay đổi;
+b) Giấy phép kinh doanh tiền chất thuốc nổ được cấp lại trong trường hợp bị mất, hư hỏng. Thời hạn hiệu lực của giấy phép cấp lại không thay đổi. Hồ sơ đề nghị bao gồm: văn bản đề nghị cấp lại; văn bản nêu rõ lý do mất, hư hỏng và kết quả xử lý;
+c) Giấy phép kinh doanh tiền chất thuốc nổ được điều chỉnh trong trường hợp thay đổi nội dung đăng ký doanh nghiệp, địa điểm, quy mô, điều kiện hoạt động hoặc thông tin liên quan đến tổ chức đăng ký. Hồ sơ đề nghị bao gồm: văn bản đề nghị điều chỉnh; giấy tờ, tài liệu liên quan chứng minh nội dung thay đổi. Thời hạn hiệu lực của Giấy phép không thay đổi;
+d) Hồ sơ quy định tại các điểm a, b và c khoản này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền thuộc Bộ Công Thương cấp đổi, cấp lại, điều chỉnh Giấy phép kinh doanh tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 49. Thủ tục cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ
+1. Hồ sơ đề nghị cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ bao gồm:
+a) Văn bản đề nghị cấp giấy phép xuất khẩu hoặc nhập khẩu;
+b) Bản sao Giấy phép kinh doanh tiền chất thuốc nổ đối với doanh nghiệp kinh doanh tiền chất thuốc nổ hoặc bản sao Giấy chứng nhận đủ điều kiện sản xuất tiền chất thuốc nổ đối với doanh nghiệp sản xuất tiền chất thuốc nổ;
+c) Bản sao hợp đồng, đơn đặt hàng hoặc hóa đơn mua, bán tiền chất thuốc nổ;
+d) Bản thuyết minh quy trình sản xuất, thử nghiệm hoặc đề cương nghiên cứu, trong đó có sử dụng tiền chất thuốc nổ đối với trường hợp tổ chức, cá nhân nhập khẩu tiền chất thuốc nổ để sử dụng trực tiếp cho sản xuất, nghiên cứu, thử nghiệm;
+đ) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu, Chứng minh Công an nhân dân hoặc giấy chứng minh do Quân đội nhân dân cấp của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan có thẩm quyền do Bộ trưởng Bộ Công Thương quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, cấp giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép xuất khẩu, nhập khẩu tiền chất thuốc nổ có thời hạn 06 tháng.
+3. Tổ chức, doanh nghiệp đã được cấp Giấy phép nhập khẩu tiền chất thuốc nổ không phải thực hiện các quy định về cấp Giấy xác nhận khai báo hóa chất thuộc danh mục hóa chất phải khai báo theo quy định của Luật Hóa chất.
+Điều 50. Vận chuyển tiền chất thuốc nổ
+1. Tổ chức, doanh nghiệp vận chuyển tiền chất thuốc nổ phải bảo đảm đủ điều kiện sau đây:
+a) Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh hoặc sử dụng tiền chất thuốc nổ; doanh nghiệp có đăng ký ngành, nghề vận chuyển hàng hóa;
+b) Có phương tiện đủ điều kiện vận chuyển tiền chất thuốc nổ theo tiêu chuẩn, quy chuẩn kỹ thuật về an toàn trong hoạt động tiền chất thuốc nổ; bảo đảm điều kiện về an toàn, phòng cháy và chữa cháy;
+c) Người quản lý, người điều khiển phương tiện, áp tải và người phục vụ có liên quan đến vận chuyển tiền chất thuốc nổ phải có trình độ chuyên môn phù hợp với vị trí, chức trách đảm nhiệm, được huấn luyện về an toàn, phòng cháy và chữa cháy;
+d) Có mệnh lệnh vận chuyển hoặc Giấy phép vận chuyển tiền chất thuốc nổ; biểu trưng báo hiệu phương tiện đang vận chuyển tiền chất thuốc nổ.
+2. Người thực hiện vận chuyển tiền chất thuốc nổ phải tuân theo các quy định sau đây:
+a) Thực hiện đúng nội dung ghi trong Giấy phép vận chuyển tiền chất thuốc nổ;
+b) Kiểm tra tình trạng hàng hóa trước khi xuất phát hoặc sau mỗi lần phương tiện dừng, đỗ và khắc phục ngay sự cố xảy ra;
+c) Có phương án bảo đảm vận chuyển an toàn, phòng cháy và chữa cháy; có biện pháp ứng phó sự cố khẩn cấp;
+d) Thực hiện đầy đủ thủ tục giao, nhận về hàng hóa, tài liệu liên quan đến tiền chất thuốc nổ;
+đ) Không dừng, đỗ phương tiện vận chuyển tiền chất thuốc nổ ở nơi đông người, khu vực dân cư, gần trạm xăng dầu, nơi có công trình quan trọng về quốc phòng, an ninh, kinh tế, văn hóa, ngoại giao; không vận chuyển tiền chất thuốc nổ khi thời tiết bất thường. Trường hợp cần nghỉ qua đêm hoặc do sự cố phải thông báo ngay cho cơ quan quân sự, cơ quan Công an nơi gần nhất để phối hợp bảo vệ;
+e) Không được chở tiền chất thuốc nổ và người trên cùng một phương tiện, trừ người có trách nhiệm trong việc vận chuyển.
+3. Hồ sơ đề nghị cấp Giấy phép vận chuyển tiền chất thuốc nổ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị nêu rõ lý do, khối lượng, chủng loại tiền chất thuốc nổ cần vận chuyển, nơi đi, nơi đến, thời gian và tuyến đường vận chuyển; họ và tên, địa chỉ của người chịu trách nhiệm vận chuyển, người điều khiển phương tiện; biển kiểm soát của phương tiện;
+b) Bản sao quyết định thành lập của cơ quan có thẩm quyền hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp;
+c) Bản sao Giấy chứng nhận đủ điều kiện về an ninh, trật tự đối với doanh nghiệp sản xuất, kinh doanh tiền chất thuốc nổ là Amoni nitrat có hàm lượng từ 98,5% trở lên;
+d) Các loại giấy tờ chứng minh đủ điều kiện vận chuyển tiền chất thuốc nổ theo quy định tại khoản 1 Điều này;
+đ) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+4. Hồ sơ đề nghị điều chỉnh Giấy phép vận chuyển tiền chất thuốc nổ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị điều chỉnh nội dung Giấy phép vận chuyển tiền chất thuốc nổ;
+b) Bản sao Giấy phép vận chuyển tiền chất thuốc nổ.
+5. Hồ sơ quy định tại khoản 3 và khoản 4 Điều này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định.
+6. Trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền phải cấp, điều chỉnh Giấy phép vận chuyển tiền chất thuốc nổ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Giấy phép vận chuyển tiền chất thuốc nổ chỉ có giá trị cho một lượt vận chuyển; trong thời hạn 07 ngày kể từ ngày hoàn tất việc vận chuyển, phải nộp lại cho cơ quan đã cấp giấy phép.
+7. Trường hợp vận chuyển tiền chất thuốc nổ bằng nhiều phương tiện trong cùng một chuyến thì chỉ cấp 01 Giấy phép vận chuyển tiền chất thuốc nổ; nếu vận chuyển bằng nhiều loại phương tiện giao thông thì phải cấp riêng cho mỗi loại phương tiện 01 Giấy phép vận chuyển tiền chất thuốc nổ.
+8. Trường hợp không có kho, phương tiện vận chuyển thì phải có hợp đồng thuê bằng văn bản với tổ chức được phép bảo quản, vận chuyển tiền chất thuốc nổ.
+9. Trường hợp vận chuyển tiền chất thuốc nổ bên trong ranh giới mỏ, công trường hoặc cơ sở sản xuất, bảo quản tiền chất thuốc nổ trên các đường không giao cắt với đường thủy, đường bộ công cộng thì không phải xin cấp giấy phép, nhưng phải thực hiện đúng quy định tại các điểm b, c, d và e khoản 2 Điều này.
+10. Khi có yêu cầu bảo đảm an ninh, trật tự, an toàn xã hội trong các hoạt động cấp quốc gia hoặc ở khu vực có yêu cầu đặc biệt về bảo đảm an ninh, trật tự thì cơ quan có thẩm quyền quyết định tạm ngừng cấp Giấy phép hoặc tạm ngừng hiệu lực thi hành của Giấy phép vận chuyển tiền chất thuốc nổ.
+11. Thủ tục cấp, điều chỉnh, thu hồi và tạm ngừng cấp mệnh lệnh vận chuyển tiền chất thuốc nổ đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 51. Trách nhiệm của tổ chức, doanh nghiệp nghiên cứu, chế tạo, sản xuất, kinh doanh, vận chuyển, sử dụng tiền chất thuốc nổ
+1. Tổ chức, doanh nghiệp duy trì đủ điều kiện về an ninh, trật tự, an toàn, phòng cháy và chữa cháy, bảo vệ môi trường trong quá trình hoạt động nghiên cứu, chế tạo, sản xuất, kinh doanh, vận chuyển, bảo quản, sử dụng tiền chất thuốc nổ và có trách nhiệm sau đây:
+a) Bảo quản, lưu trữ sổ sách, chứng từ đối với từng loại tiền chất thuốc nổ trong thời hạn 05 năm;
+b) Báo cáo định kỳ, báo cáo trong trường hợp đột xuất;
+c) Bảo đảm quy định về an toàn trong sử dụng, cất trữ, bảo quản, xử lý hóa chất bị thải bỏ đối với hóa chất nguy hiểm theo quy định của Luật Hóa chất.
+2. Tổ chức sử dụng tiền chất thuốc nổ chỉ được mua tiền chất thuốc nổ trong danh mục tiền chất thuốc nổ được phép sản xuất, kinh doanh và sử dụng ở Việt Nam từ tổ chức sản xuất, kinh doanh tiền chất thuốc nổ hợp pháp; bán lại tiền chất thuốc nổ không sử dụng hết cho tổ chức sản xuất, kinh doanh tiền chất thuốc nổ hợp pháp.
+3. Tổ chức, doanh nghiệp sản xuất, kinh doanh tiền chất thuốc nổ phải được cơ quan có thẩm quyền cấp giấy phép, giấy chứng nhận và chỉ được mua, bán tiền chất thuốc nổ trong danh mục tiền chất thuốc nổ được phép sản xuất, kinh doanh và sử dụng ở Việt Nam.
+4. Bộ trưởng Bộ Công Thương quy định chi tiết khoản 1 Điều này.
+Chương V
+QUẢN LÝ, SỬ DỤNG CÔNG CỤ HỖ TRỢ
+Điều 52. Nghiên cứu, chế tạo, sản xuất, kinh doanh, xuất khẩu, nhập khẩu, sửa chữa công cụ hỗ trợ
+1. Việc nghiên cứu, chế tạo, sản xuất, sửa chữa công cụ hỗ trợ do tổ chức, doanh nghiệp thuộc Bộ Công an, Bộ Quốc phòng thực hiện và phải bảo đảm đủ điều kiện sau đây:
+a) Được Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng giao trách nhiệm nghiên cứu, chế tạo, sản xuất, sửa chữa công cụ hỗ trợ;
+b) Bảo đảm điều kiện về an ninh, trật tự, phòng cháy và chữa cháy, bảo vệ môi trường;
+c) Việc nghiên cứu, chế tạo công cụ hỗ trợ do tổ chức, doanh nghiệp sản xuất công cụ hỗ trợ thực hiện trên cơ sở đề án nghiên cứu của cơ quan có thẩm quyền phê duyệt;
+d) Có đủ phương tiện, thiết bị đo lường phù hợp để kiểm tra, giám sát các thông số kỹ thuật và phục vụ công tác kiểm tra chất lượng sản phẩm trong quá trình sản xuất; có nơi thử nghiệm riêng biệt, an toàn theo đúng tiêu chuẩn, quy chuẩn kỹ thuật;
+đ) Chủng loại sản phẩm phải bảo đảm chất lượng, tiêu chuẩn, quy chuẩn kỹ thuật; sản phẩm công cụ hỗ trợ phải có nhãn hiệu, số hiệu, ký hiệu, nước sản xuất, năm sản xuất, hạn sử dụng;
+e) Người quản lý, người lao động, người phục vụ có liên quan đến sản xuất công cụ hỗ trợ phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn phù hợp và được huấn luyện về kỹ thuật an toàn, phòng cháy và chữa cháy, ứng phó sự cố trong các hoạt động liên quan đến sản xuất công cụ hỗ trợ.
+2. Việc kinh doanh công cụ hỗ trợ phải bảo đảm đủ điều kiện sau đây:
+a) Tổ chức kinh doanh công cụ hỗ trợ phải là doanh nghiệp được thành lập theo quy định của pháp luật;
+b) Bảo đảm điều kiện về an ninh, trật tự, phòng cháy và chữa cháy, bảo vệ môi trường;
+c) Kho, phương tiện vận chuyển, thiết bị, dụng cụ phục vụ kinh doanh phải phù hợp, bảo đảm điều kiện về bảo quản, vận chuyển công cụ hỗ trợ, phòng cháy và chữa cháy;
+d) Người quản lý, người phục vụ có liên quan đến kinh doanh, xuất khẩu, nhập khẩu phải bảo đảm điều kiện về an ninh, trật tự; có trình độ chuyên môn phù hợp và được huấn luyện về quản lý công cụ hỗ trợ, phòng cháy và chữa cháy;
+đ) Chỉ được kinh doanh công cụ hỗ trợ bảo đảm tiêu chuẩn, quy chuẩn kỹ thuật và theo Giấy phép kinh doanh công cụ hỗ trợ.
+3. Việc xuất khẩu, nhập khẩu công cụ hỗ trợ thực hiện theo quy định sau đây:
+a) Tổ chức, doanh nghiệp được phép sản xuất, kinh doanh công cụ hỗ trợ thì được xuất khẩu, nhập khẩu công cụ hỗ trợ;
+b) Công cụ hỗ trợ xuất khẩu, nhập khẩu phải bảo đảm tiêu chuẩn, quy chuẩn kỹ thuật; chủng loại, nhãn hiệu, số hiệu, ký hiệu, nước sản xuất, năm sản xuất, hạn sử dụng trên từng công cụ hỗ trợ.
+4. Bộ trưởng Bộ Quốc phòng, Bộ trưởng Bộ Công an quy định việc quản lý, huấn luyện và sử dụng động vật nghiệp vụ.
+Điều 53. Thủ tục cấp Giấy phép kinh doanh công cụ hỗ trợ
+1. Hồ sơ đề nghị cấp Giấy phép kinh doanh công cụ hỗ trợ đối với tổ chức, doanh nghiệp không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị cấp Giấy phép kinh doanh công cụ hỗ trợ;
+b) Bản sao quyết định thành lập hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp;
+c) Bản sao giấy tờ, tài liệu chứng minh bảo đảm điều kiện về an toàn, phòng cháy và chữa cháy đối với khu vực kinh doanh và kho bảo quản công cụ hỗ trợ;
+d) Danh sách người quản lý, người phục vụ có liên quan trực tiếp đến công tác bảo quản và kinh doanh công cụ hỗ trợ; hồ sơ cá nhân của người đại diện doanh nghiệp; kế hoạch hoặc biện pháp phòng ngừa, ứng phó sự cố khẩn cấp đối với kho bảo quản công cụ hỗ trợ;
+đ) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+2. Hồ sơ đề nghị cấp lại Giấy phép kinh doanh công cụ hỗ trợ bao gồm: báo cáo hoạt động kinh doanh công cụ hỗ trợ trong thời hạn hiệu lực của giấy phép đã cấp và giấy tờ, tài liệu quy định tại khoản 1 Điều này.
+3. Hồ sơ cấp Giấy phép kinh doanh công cụ hỗ trợ lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép kinh doanh công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+4. Thủ tục cấp Giấy phép kinh doanh công cụ hỗ trợ đối với tổ chức, doanh nghiệp thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 54. Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu công cụ hỗ trợ
+1. Hồ sơ đề nghị cấp Giấy phép xuất khẩu, nhập khẩu công cụ hỗ trợ đối với tổ chức, doanh nghiệp không thuộc phạm vi quản lý của Bộ Quốc phòng bao gồm:
+a) Văn bản đề nghị cấp Giấy phép xuất khẩu, nhập khẩu của tổ chức, doanh nghiệp;
+b) Bản sao Giấy phép kinh doanh công cụ hỗ trợ;
+c) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+2. Hồ sơ quy định tại khoản 1 Điều này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan có thẩm quyền kiểm tra, thẩm định, cấp Giấy phép xuất khẩu, nhập khẩu công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép xuất khẩu, nhập khẩu công cụ hỗ trợ có thời hạn 30 ngày.
+3. Thủ tục cấp Giấy phép xuất khẩu, nhập khẩu công cụ hỗ trợ đối với tổ chức, doanh nghiệp thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 55. Đối tượng được trang bị công cụ hỗ trợ
+1. Đối tượng được trang bị công cụ hỗ trợ bao gồm:
+a) Quân đội nhân dân;
+b) Dân quân tự vệ;
+c) Cảnh sát biển;
+d) Công an nhân dân;
+đ) Cơ yếu;
+e) Cơ quan điều tra của Viện kiểm sát nhân dân tối cao;
+g) Cơ quan thi hành án dân sự;
+h) Kiểm lâm, lực lượng bảo vệ rừng chuyên trách, Kiểm ngư, lực lượng trực tiếp thực hiện nhiệm vụ thanh tra chuyên ngành thủy sản;
+i) Hải quan cửa khẩu, lực lượng chuyên trách chống buôn lậu của Hải quan;
+k) Đội kiểm tra của lực lượng Quản lý thị trường;
+l) An ninh hàng không, lực lượng trực tiếp thực hiện nhiệm vụ thanh tra chuyên ngành giao thông vận tải;
+m) Lực lượng bảo vệ cơ quan, tổ chức, doanh nghiệp; doanh nghiệp kinh doanh dịch vụ bảo vệ;
+n) Ban Bảo vệ dân phố;
+o) Câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao có giấy phép hoạt động;
+p) Cơ sở cai nghiện ma túy;
+q) Các đối tượng khác có nhu cầu trang bị công cụ hỗ trợ thì căn cứ vào tính chất, yêu cầu, nhiệm vụ, Bộ trưởng Bộ Công an quyết định.
+2. Bộ trưởng Bộ Quốc phòng căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị, sử dụng công cụ hỗ trợ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng.
+3. Bộ trưởng Bộ Công an căn cứ vào tính chất, yêu cầu, nhiệm vụ quy định việc trang bị công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng.
+Điều 56. Thủ tục trang bị công cụ hỗ trợ
+1. Thủ tục trang bị công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định sau đây:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị trang bị của cơ quan, tổ chức, đơn vị, doanh nghiệp nêu rõ nhu cầu, điều kiện, số lượng, chủng loại công cụ hỗ trợ cần trang bị; bản sao quyết định thành lập cơ quan, tổ chức hoặc bản sao Giấy chứng nhận đăng ký doanh nghiệp; bản sao quyết định thành lập lực lượng bảo vệ chuyên trách đối với cơ quan, tổ chức, doanh nghiệp thành lập lực lượng bảo vệ chuyên trách; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ đề nghị trang bị công cụ hỗ trợ lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép trang bị công cụ hỗ trợ và hướng dẫn cơ quan, tổ chức, đơn vị, doanh nghiệp thực hiện việc trang bị; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép trang bị công cụ hỗ trợ có thời hạn 30 ngày.
+2. Thủ tục trang bị công cụ hỗ trợ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 57. Thủ tục cấp Giấy phép mua công cụ hỗ trợ
+1. Tổ chức, doanh nghiệp thuộc phạm vi quản lý của Bộ Công an được phép sản xuất, kinh doanh công cụ hỗ trợ khi mua công cụ hỗ trợ phải lập hồ sơ đề nghị bao gồm:
+a) Văn bản đề nghị cấp Giấy phép mua công cụ hỗ trợ, trong đó nêu rõ số lượng, chủng loại công cụ hỗ trợ; tên, địa chỉ cơ sở, doanh nghiệp bán lại;
+b) Giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ.
+2. Hồ sơ đề nghị cấp Giấy phép mua công cụ hỗ trợ lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định. Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép mua công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do. Giấy phép mua công cụ hỗ trợ có thời hạn 30 ngày.
+3. Thủ tục cấp Giấy phép mua công cụ hỗ trợ đối với tổ chức, doanh nghiệp thuộc Bộ Quốc phòng được phép kinh doanh công cụ hỗ trợ thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 58. Thủ tục cấp Giấy phép sử dụng công cụ hỗ trợ, Giấy xác nhận đăng ký công cụ hỗ trợ
+1. Thủ tục cấp Giấy phép sử dụng công cụ hỗ trợ, Giấy xác nhận đăng ký công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định sau đây:
+a) Giấy phép sử dụng công cụ hỗ trợ được cấp đối với các loại súng bắn điện, hơi ngạt, chất độc, chất gây mê, từ trường, laze, lưới; súng phóng dây mồi; súng bắn đạn nhựa, nổ, cao su, hơi cay, pháo hiệu, đánh dấu; các loại dùi cui điện, dùi cui kim loại. Đối với các loại công cụ hỗ trợ khác thì cấp Giấy xác nhận đăng ký công cụ hỗ trợ;
+b) Hồ sơ đề nghị cấp Giấy phép sử dụng công cụ hỗ trợ hoặc Giấy xác nhận đăng ký công cụ hỗ trợ bao gồm: văn bản đề nghị nêu rõ số lượng, chủng loại, nước sản xuất, nhãn hiệu, số hiệu, ký hiệu của từng công cụ hỗ trợ; bản sao Giấy phép trang bị công cụ hỗ trợ; bản sao hóa đơn hoặc bản sao phiếu xuất kho; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+c) Hồ sơ đề nghị cấp đổi, cấp lại Giấy phép sử dụng công cụ hỗ trợ hoặc Giấy xác nhận đăng ký công cụ hỗ trợ bao gồm: văn bản đề nghị nêu rõ lý do, số lượng, chủng loại, nhãn hiệu, số hiệu, ký hiệu từng loại công cụ hỗ trợ. Trường hợp mất, hư hỏng Giấy phép sử dụng công cụ hỗ trợ hoặc Giấy xác nhận đăng ký công cụ hỗ trợ phải có văn bản nêu rõ lý do và kết quả xử lý; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+d) Hồ sơ đề nghị cấp Giấy phép sử dụng công cụ hỗ trợ, Giấy xác nhận đăng ký công cụ hỗ trợ lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+đ) Trong thời hạn 10 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền kiểm tra thực tế, cấp Giấy phép sử dụng công cụ hỗ trợ hoặc Giấy xác nhận đăng ký công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+e) Giấy phép sử dụng công cụ hỗ trợ chỉ cấp cho cơ quan, tổ chức, doanh nghiệp được trang bị và có thời hạn 05 năm. Giấy phép sử dụng công cụ hỗ trợ hết hạn được cấp đổi; bị mất, hư hỏng được cấp lại;
+g) Giấy xác nhận đăng ký công cụ hỗ trợ chỉ cấp cho cơ quan, tổ chức, doanh nghiệp được trang bị và không có thời hạn. Giấy xác nhận đăng ký công cụ hỗ trợ bị mất, hư hỏng được cấp lại.
+2. Thủ tục cấp Giấy phép sử dụng công cụ hỗ trợ, Giấy xác nhận đăng ký công cụ hỗ trợ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 59. Vận chuyển công cụ hỗ trợ
+1. Việc vận chuyển công cụ hỗ trợ thực hiện theo quy định sau đây:
+a) Phải có mệnh lệnh vận chuyển công cụ hỗ trợ hoặc Giấy phép vận chuyển công cụ hỗ trợ của cơ quan có thẩm quyền;
+b) Bảo đảm bí mật, an toàn;
+c) Vận chuyển với số lượng lớn hoặc công cụ hỗ trợ dễ cháy, nổ, nguy hiểm phải có phương tiện chuyên dùng và bảo đảm các điều kiện về phòng cháy và chữa cháy;
+d) Không được chở công cụ hỗ trợ và người trên cùng một phương tiện, trừ người có trách nhiệm trong việc vận chuyển;
+đ) Không dừng, đỗ phương tiện vận chuyển công cụ hỗ trợ ở nơi đông người, khu vực dân cư, nơi có công trình quan trọng về quốc phòng, an ninh, kinh tế, văn hóa, ngoại giao. Trường hợp cần nghỉ qua đêm hoặc do sự cố, khi không đủ lực lượng bảo vệ phải thông báo ngay cho cơ quan quân sự, cơ quan Công an nơi gần nhất để phối hợp bảo vệ.
+2. Thủ tục cấp Giấy phép vận chuyển công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định sau đây:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ lý do, số lượng, chủng loại, nơi đi, nơi đến, thời gian và tuyến đường vận chuyển; họ và tên, địa chỉ của người chịu trách nhiệm vận chuyển, người điều khiển phương tiện; biển kiểm soát của phương tiện; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ quy định tại điểm a khoản này lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép vận chuyển công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do;
+d) Giấy phép vận chuyển công cụ hỗ trợ có thời hạn 30 ngày. Giấy phép vận chuyển công cụ hỗ trợ chỉ có giá trị cho một lượt vận chuyển; trong thời hạn 07 ngày kể từ ngày hoàn tất việc vận chuyển, phải nộp lại cho cơ quan đã cấp giấy phép.
+3. Trình tự, thủ tục cấp mệnh lệnh vận chuyển công cụ hỗ trợ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 60. Thủ tục cấp Giấy phép sửa chữa công cụ hỗ trợ
+1. Thủ tục cấp Giấy phép sửa chữa công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện như sau:
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ số lượng, chủng loại công cụ hỗ trợ cần sửa chữa, nơi sửa chữa, thời gian sửa chữa; giấy giới thiệu kèm theo bản sao thẻ Căn cước công dân, Chứng minh nhân dân, Hộ chiếu hoặc Chứng minh Công an nhân dân của người đến liên hệ;
+b) Hồ sơ đề nghị cấp Giấy phép sửa chữa công cụ hỗ trợ lập thành 01 bộ và nộp tại cơ quan Công an có thẩm quyền do Bộ trưởng Bộ Công an quy định;
+c) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, cơ quan Công an có thẩm quyền cấp Giấy phép sửa chữa công cụ hỗ trợ; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+2. Thủ tục cấp Giấy phép sửa chữa công cụ hỗ trợ đối với đối tượng thuộc Quân đội nhân dân, Dân quân tự vệ, Cảnh sát biển, Cơ yếu và câu lạc bộ, cơ sở đào tạo, huấn luyện thể thao thuộc phạm vi quản lý của Bộ Quốc phòng thực hiện theo quy định của Bộ trưởng Bộ Quốc phòng.
+Điều 61. Sử dụng công cụ hỗ trợ
+1. Người được giao công cụ hỗ trợ khi thực hiện nhiệm vụ phải tuân thủ quy định tại khoản 2 Điều 22 của Luật này và được sử dụng trong trường hợp sau đây:
+a) Trường hợp quy định tại Điều 23 của Luật này;
+b) Ngăn chặn, giải tán biểu tình bất hợp pháp, bạo loạn, gây rối trật tự công cộng xâm phạm an ninh quốc gia, trật tự, an toàn xã hội;
+c) Ngăn chặn người đang có hành vi đe dọa đến tính mạng, sức khỏe của người thi hành công vụ hoặc người khác;
+d) Ngăn chặn, giải tán việc gây rối, chống phá, không phục tùng mệnh lệnh của người thi hành công vụ, làm mất an ninh, an toàn trại giam, trại tạm giam, nhà tạm giữ, trường giáo dưỡng, cơ sở giáo dục bắt buộc, cơ sở cai nghiện ma túy;
+đ) Phòng vệ chính đáng, tình thế cấp thiết theo quy định của pháp luật.
+2. Người được giao sử dụng công cụ hỗ trợ không phải chịu trách nhiệm về thiệt hại khi việc sử dụng công cụ hỗ trợ đã tuân thủ quy định tại Điều này và quy định khác của pháp luật có liên quan; trường hợp sử dụng công cụ hỗ trợ vượt quá giới hạn phòng vệ chính đáng, gây thiệt hại rõ ràng vượt quá yêu cầu của tình thế cấp thiết, lợi dụng hoặc lạm dụng việc sử dụng công cụ hỗ trợ để xâm phạm tính mạng, sức khỏe, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân thì bị xử lý theo quy định của pháp luật.
+Điều 62. Trách nhiệm của tổ chức, doanh nghiệp nghiên cứu, chế tạo, sản xuất, kinh doanh, vận chuyển, sửa chữa công cụ hỗ trợ
+1. Phải bảo đảm điều kiện về an ninh, trật tự, an toàn, phòng cháy và chữa cháy, bảo vệ môi trường trong quá trình hoạt động nghiên cứu, chế tạo, sản xuất, kinh doanh, vận chuyển, sửa chữa công cụ hỗ trợ.
+2. Tổ chức, doanh nghiệp sản xuất, kinh doanh công cụ hỗ trợ chỉ mua, bán, xuất khẩu, nhập khẩu và sửa chữa công cụ hỗ trợ theo giấy phép do cơ quan có thẩm quyền cấp.
+Chương VI
+TIẾP NHẬN, THU GOM, PHÂN LOẠI, BẢO QUẢN, THANH LÝ, TIÊU HỦY VŨ KHÍ, VẬT LIỆU NỔ, CÔNG CỤ HỖ TRỢ
+Điều 63. Nguyên tắc tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Cơ quan, tổ chức, cá nhân phải trình báo, khai báo, giao nộp vũ khí, vật liệu nổ, công cụ hỗ trợ cho cơ quan quân sự, cơ quan Công an hoặc Ủy ban nhân dân nơi gần nhất trong trường hợp không thuộc đối tượng trang bị, sử dụng theo quy định của pháp luật mà có từ bất kỳ nguồn nào hoặc phát hiện, thu nhặt được.
+2. Việc tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ phải bảo đảm an toàn và hạn chế ảnh hưởng đến môi trường. Việc vận chuyển vũ khí, vật liệu nổ, công cụ hỗ trợ tiếp nhận, thu gom được phải sử dụng phương tiện chuyên dùng hoặc các phương tiện khác nhưng phải bảo đảm an toàn.
+3. Việc tiếp nhận, thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ phải được tiến hành thường xuyên và thông qua các đợt vận động.
+4. Vũ khí, vật liệu nổ, công cụ hỗ trợ còn giá trị sử dụng sau khi được phân loại sẽ được đưa vào sử dụng theo quy định của pháp luật.
+5. Việc phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ trang bị đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng do Bộ trưởng Bộ Quốc phòng quy định; đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng do Bộ trưởng Bộ Công an quy định.
+6. Người làm công tác tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ phải được tập huấn về chuyên môn, nghiệp vụ và được trang bị các thiết bị bảo vệ để bảo đảm an toàn.
+Điều 64. Tiếp nhận, thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Vũ khí, vật liệu nổ, công cụ hỗ trợ tiếp nhận, thu gom bao gồm: các loại vũ khí, vật liệu nổ, công cụ hỗ trợ quy định tại Điều 3 của Luật này; phế liệu, phế phẩm, phụ kiện của vũ khí, vật liệu nổ, công cụ hỗ trợ; chất nổ từ bom, mìn, lựu đạn, đạn, quả nổ, ngư lôi, thủy lôi.
+2. Các trường hợp tiếp nhận, thu gom bao gồm:
+a) Vũ khí, vật liệu nổ, công cụ hỗ trợ của cơ quan, tổ chức, cá nhân không được trang bị hoặc sở hữu theo quy định của pháp luật;
+b) Vũ khí, vật liệu nổ, công cụ hỗ trợ có liên quan đến vụ án đã được cơ quan có thẩm quyền xử lý theo quy định của pháp luật; vũ khí, vật liệu nổ, công cụ hỗ trợ do cơ quan chức năng phát hiện, thu giữ;
+c) Vũ khí, vật liệu nổ, công cụ hỗ trợ do cơ quan, tổ chức, cá nhân phát hiện nhưng không xác định được cơ quan, tổ chức, cá nhân có trách nhiệm quản lý hoặc sở hữu; vũ khí, vật liệu nổ, công cụ hỗ trợ sau chiến tranh còn tồn tại ở ngoài xã hội.
+Điều 65. Đào bới, tìm kiếm vũ khí, vật liệu nổ
+1. Tổ chức, cá nhân có nhu cầu đào bới, tìm kiếm vũ khí, vật liệu nổ phải nộp hồ sơ tại Ủy ban nhân dân cấp huyện.
+a) Hồ sơ đề nghị bao gồm: văn bản đề nghị nêu rõ lý do, mục đích, yêu cầu đào bới, tìm kiếm; bản sao tài liệu chứng minh việc sử dụng, quản lý hoặc thi công công trình hợp pháp tại địa điểm đề nghị đào bới, tìm kiếm;
+b) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ, Ủy ban nhân dân cấp huyện phải trả lời bằng văn bản, trường hợp không đồng ý phải nêu rõ lý do.
+2. Tổ chức, cá nhân đề nghị đào bới, tìm kiếm vũ khí, vật liệu nổ sau khi được Ủy ban nhân dân cấp huyện cho phép đào bới, tìm kiếm vũ khí, vật liệu nổ phải đề nghị hoặc thuê tổ chức, đơn vị được phép đào bới, tìm kiếm quy định tại khoản 5 Điều này thực hiện việc đào bới, tìm kiếm vũ khí, vật liệu nổ.
+3. Tổ chức, cá nhân đề nghị đào bới, tìm kiếm vũ khí, vật liệu nổ phải có văn bản thông báo cho Ủy ban nhân dân cấp xã ít nhất 05 ngày trước khi thực hiện việc đào bới, tìm kiếm để có phương án phối hợp bảo đảm an toàn. Việc đào bới, tìm kiếm vũ khí, vật liệu nổ chỉ được thực hiện trong phạm vi, địa điểm đã được cho phép.
+4. Trường hợp tổ chức, cá nhân đề nghị có nhu cầu đào bới, tìm kiếm vũ khí, vật liệu nổ ngoài phạm vi, địa điểm đã được cho phép thì phải có văn bản đề nghị Ủy ban nhân dân cấp huyện. Chậm nhất trong thời gian 05 ngày làm việc, Ủy ban nhân dân cấp huyện phải có văn bản trả lời; trường hợp không đồng ý phải nêu rõ lý do.
+5. Tổ chức, đơn vị được phép thực hiện đào bới, tìm kiếm vũ khí, vật liệu nổ bao gồm: đơn vị chuyên ngành kỹ thuật về vũ khí, công binh thuộc Bộ Quốc phòng, Bộ Công an; tổ chức khác được Thủ tướng Chính phủ cho phép.
+Điều 66. Thẩm quyền tiếp nhận, thu gom, phân loại, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Ủy ban nhân dân cấp xã, cấp huyện, cơ quan quân sự, cơ quan Công an, đơn vị Quân đội có thẩm quyền tiếp nhận, thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ.
+2. Cơ quan quân sự, cơ quan Công an cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên có trách nhiệm phân loại vũ khí, vật liệu nổ, công cụ hỗ trợ đã tiếp nhận, thu gom.
+3. Cơ quan, đơn vị cấp trên trực tiếp của cơ quan quy định tại khoản 2 Điều này có thẩm quyền quyết định thanh lý vũ khí, vật liệu nổ, công cụ hỗ trợ.
+4. Cơ quan quân sự, cơ quan Công an cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên thực hiện việc tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ.
+5. Vũ khí, vật liệu nổ, công cụ hỗ trợ là vật chứng hoặc liên quan đến vụ án được xử lý theo quy định của pháp luật về tố tụng hình sự.
+Điều 67. Trình tự, thủ tục tiếp nhận, thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Trình tự, thủ tục tiếp nhận vũ khí, vật liệu nổ, công cụ hỗ trợ thực hiện như sau:
+a) Tổ chức tiếp nhận vũ khí, vật liệu nổ, công cụ hỗ trợ;
+b) Lập biên bản tiếp nhận vũ khí, vật liệu nổ, công cụ hỗ trợ; biên bản tiếp nhận được lập thành 02 bản, 01 bản giao cho cơ quan, tổ chức, cá nhân giao nộp, 01 bản lưu tại cơ quan tiếp nhận;
+c) Ghi vào sổ tiếp nhận, thu gom đầy đủ các thông tin liên quan đến việc tiếp nhận vũ khí, vật liệu nổ, công cụ hỗ trợ.
+2. Trình tự, thủ tục thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ thực hiện như sau:
+a) Tổ chức thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ;
+b) Lập biên bản thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ;
+c) Ghi vào sổ tiếp nhận, thu gom đầy đủ các thông tin về vũ khí, vật liệu nổ, công cụ hỗ trợ do cơ quan, tổ chức, cá nhân trình báo.
+3. Trường hợp thu gom vũ khí hạng nặng, bom, mìn, lựu đạn, quả nổ, ngư lôi, thủy lôi, vật liệu nổ, đầu đạn tên lửa, đạn pháo và đầu đạn pháo các loại hoặc các vũ khí khác cần phải có kỹ thuật chuyên ngành xử lý thì cơ quan Công an hoặc Ủy ban nhân dân nơi tiếp nhận thông tin phải tổ chức bảo vệ và thông báo ngay cho cơ quan quân sự cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên để tổ chức thu gom, xử lý theo thẩm quyền.
+4. Trường hợp cơ quan tiếp nhận, thu gom cho rằng vũ khí, vật liệu nổ, công cụ hỗ trợ có dấu hiệu liên quan đến hoạt động phạm tội thì phải thông báo cho cơ quan có thẩm quyền để có biện pháp xử lý theo quy định của pháp luật.
+Điều 68. Tổ chức giao nhận vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Việc lập thống kê bàn giao cho cơ quan quân sự để xử lý theo quy định đối với bom, mìn, lựu đạn, quả nổ, ngư lôi, thủy lôi, vật liệu nổ, đầu đạn tên lửa, đạn pháo và đầu đạn pháo các loại đã tiếp nhận, thu gom thực hiện như sau:
+a) Cơ quan Công an và Ủy ban nhân dân cấp xã, cấp huyện lập thống kê bàn giao cho cơ quan quân sự cấp huyện;
+b) Cơ quan Công an cấp tỉnh và các đơn vị thuộc Bộ Công an lập thống kê bàn giao cho cơ quan quân sự cấp tỉnh;
+c) Khi bàn giao phải lập biên bản, kèm theo bảng thống kê ghi cụ thể chủng loại, số lượng, nguồn gốc.
+2. Việc vận chuyển các loại vũ khí, vật liệu nổ bàn giao quy định tại khoản 1 Điều này do lực lượng chuyên ngành của cơ quan quân sự đảm nhiệm.
+3. Bộ trưởng Bộ Quốc phòng quy định việc tiếp nhận, thu gom, bảo quản, thanh lý, tiêu hủy bom, mìn, lựu đạn, quả nổ, ngư lôi, thủy lôi, vật liệu nổ, đầu đạn tên lửa, đạn pháo và đầu đạn pháo các loại đã tiếp nhận, thu gom hoặc do cơ quan, đơn vị ngoài Quân đội chuyển giao.
+Điều 69. Bảo quản vũ khí, vật liệu nổ, công cụ hỗ trợ tiếp nhận, thu gom
+1. Vũ khí, vật liệu nổ, công cụ hỗ trợ đã tiếp nhận, thu gom phải được bảo quản chặt chẽ theo quy định. Có nội quy, phương án phòng cháy và chữa cháy. Không được bảo quản chung trong kho vũ khí, khí tài, kho tài liệu, kho vật tư của đơn vị.
+2. Bộ trưởng Bộ Quốc phòng ban hành quy chuẩn kỹ thuật kho bảo quản vũ khí, vật liệu nổ và công cụ hỗ trợ tiếp nhận, thu gom thuộc phạm vi quản lý; Bộ trưởng Bộ Công an ban hành quy chuẩn kỹ thuật kho bảo quản vũ khí, vật liệu nổ và công cụ hỗ trợ tiếp nhận, thu gom không thuộc phạm vi quản lý của Bộ Quốc phòng.
+Điều 70. Trình tự, thủ tục phân loại, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Vũ khí, vật liệu nổ, công cụ hỗ trợ đã tiếp nhận, thu gom phải được thống kê, phân loại để xác định chất lượng và giá trị sử dụng để thanh lý hoặc tiêu hủy.
+2. Trình tự, thủ tục phân loại, thanh lý vũ khí, vật liệu nổ, công cụ hỗ trợ thực hiện như sau:
+a) Sau khi tiếp nhận, thu gom vũ khí, vật liệu nổ, công cụ hỗ trợ, cơ quan quân sự, cơ quan Công an cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên tiến hành phân loại và báo cáo cơ quan cấp trên trực tiếp quyết định đưa vào sử dụng hoặc tiêu hủy;
+b) Cơ quan cấp trên khi nhận được báo cáo phải xem xét và quyết định cho phép đưa vào sử dụng hoặc tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ.
+3. Trình tự, thủ tục tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ thực hiện như sau:
+a) Sau khi có quyết định tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ, cơ quan quân sự, cơ quan Công an cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên phải thành lập Hội đồng tiêu hủy và xây dựng phương án tiêu hủy. Thành phần Hội đồng tiêu hủy bao gồm: đại diện cơ quan tiêu hủy là Chủ tịch Hội đồng; đại diện cơ quan kỹ thuật chuyên ngành và cơ quan thực hiện quản lý nhà nước về môi trường cấp huyện, Ủy ban nhân dân cấp xã nơi có địa điểm tiêu hủy là thành viên Hội đồng. Phương án tiêu hủy phải bảo đảm an toàn, hạn chế ảnh hưởng đến môi trường;
+b) Sau khi tiêu hủy, phải tiến hành kiểm tra tại hiện trường, bảo đảm tất cả vũ khí, vật liệu nổ, công cụ hỗ trợ tiêu hủy đã bị làm mất khả năng phục hồi tính năng, tác dụng. Kết quả tiêu hủy phải được lập thành biên bản, có xác nhận của Chủ tịch và các thành viên Hội đồng.
+4. Trường hợp số vũ khí, vật liệu nổ có nguy cơ mất an toàn, cần xử lý khẩn cấp thì người đứng đầu cơ quan quân sự, cơ quan Công an cấp huyện, đơn vị Quân đội cấp Trung đoàn trở lên quyết định tiêu hủy ngay; sau khi tiêu hủy, phải báo cáo cơ quan cấp trên bằng văn bản.
+Điều 71. Kinh phí bảo đảm cho việc tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ
+1. Kinh phí bảo đảm cho việc tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ bao gồm:
+a) Ngân sách nhà nước;
+b) Đóng góp tự nguyện, tài trợ của tổ chức, cá nhân trong nước và nước ngoài;
+c) Các nguồn kinh phí khác theo quy định của pháp luật.
+2. Việc quản lý, sử dụng kinh phí bảo đảm cho việc tiếp nhận, thu gom, phân loại, bảo quản, thanh lý, tiêu hủy vũ khí, vật liệu nổ, công cụ hỗ trợ thực hiện theo quy định của Luật Ngân sách nhà nước và quy định khác của pháp luật có liên quan.
+Chương VII
+QUẢN LÝ NHÀ NƯỚC VỀ VŨ KHÍ, VẬT LIỆU NỔ, TIỀN CHẤT THUỐC NỔ, CÔNG CỤ HỖ TRỢ
+Điều 72. Nội dung quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Ban hành và tổ chức thực hiện văn bản quy phạm pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+2. Ban hành, sửa đổi, bổ sung danh mục vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+3. Quy định tiêu chuẩn, quy chuẩn kỹ thuật của vũ khí, vật liệu nổ, công cụ hỗ trợ; tiêu chuẩn kho bảo quản vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+4. Ban hành biểu mẫu, tổ chức đăng ký, cấp, đổi, thu hồi các loại giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+5. Tổ chức đào tạo, huấn luyện, bồi dưỡng về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+6. Tổ chức công tác phòng, chống vi phạm pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+7. Tổ chức nghiên cứu, ứng dụng khoa học và công nghệ vào công tác quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+8. Thực hiện thống kê nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+9. Phổ biến, giáo dục pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+10. Hợp tác quốc tế về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+11. Kiểm tra, thanh tra, giải quyết khiếu nại, tố cáo; khen thưởng và xử lý vi phạm pháp luật về quản lý, sử dụng vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+Điều 73. Trách nhiệm quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Chính phủ thống nhất quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+2. Bộ Quốc phòng thực hiện chức năng quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ theo quy định của Luật này và quy định khác của pháp luật có liên quan. Bộ trưởng Bộ Quốc phòng ban hành danh mục vũ khí quân dụng.
+3. Bộ Công an thực hiện chức năng quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ theo quy định của Luật này và quy định khác của pháp luật có liên quan. Bộ trưởng Bộ Công an ban hành danh mục vũ khí thể thao, danh mục công cụ hỗ trợ.
+4. Bộ Công Thương thực hiện chức năng quản lý nhà nước về vật liệu nổ, tiền chất thuốc nổ theo quy định của Luật này và quy định khác của pháp luật có liên quan. Bộ trưởng Bộ Công Thương ban hành danh mục vật liệu nổ công nghiệp, danh mục tiền chất thuốc nổ.
+5. Bộ, cơ quan ngang Bộ, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm thực hiện quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ.
+6. Ủy ban nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, tổ chức thực hiện quản lý nhà nước về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ tại địa phương.
+Điều 74. Cập nhật, khai thác, quản lý, sử dụng cơ sở dữ liệu về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ
+1. Cơ sở dữ liệu về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ là tập hợp thông tin cơ bản về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ được chuẩn hóa, số hóa, lưu trữ, quản lý bằng công nghệ thông tin để phục vụ quản lý nhà nước và giao dịch của cơ quan, tổ chức, cá nhân.
+2. Bộ trưởng Bộ Quốc phòng quy định việc xây dựng, quản lý, cập nhật, khai thác cơ sở dữ liệu về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ đối với đối tượng thuộc phạm vi quản lý của Bộ Quốc phòng.
+3. Bộ trưởng Bộ Công Thương quy định việc xây dựng, quản lý, cập nhật, khai thác cơ sở dữ liệu về vật liệu nổ công nghiệp, tiền chất thuốc nổ đối với đối tượng thuộc phạm vi quản lý của Bộ Công Thương.
+4. Bộ trưởng Bộ Công an quy định việc xây dựng, quản lý, cập nhật, khai thác cơ sở dữ liệu về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ đối với đối tượng không thuộc phạm vi quản lý của Bộ Quốc phòng, Bộ Công Thương.
+Chương VIII
+ĐIỀU KHOẢN THI HÀNH
+Điều 75. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2018.
+2. Pháp lệnh quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 16/2011/UBTVQH12 và Pháp lệnh sửa đổi, bổ sung một số điều của Pháp lệnh quản lý, sử dụng vũ khí, vật liệu nổ và công cụ hỗ trợ số 07/2013/UBTVQH13 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+Điều 76. Quy định chuyển tiếp
+Các loại giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ về vũ khí, vật liệu nổ, tiền chất thuốc nổ, công cụ hỗ trợ đã được cấp trước ngày Luật này có hiệu lực thi hành mà còn thời hạn thì được tiếp tục sử dụng cho đến hết thời hạn ghi trong giấy phép, giấy xác nhận, giấy chứng nhận, chứng chỉ đó.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 3 thông qua ngày 20 tháng 6 năm 2017.
+ 
+ 
+CHỦ TỊCH QUỐC HỘI
+
+
+
+   Nguyễn Thị Kim Ngân
+ 
+ 
+ 

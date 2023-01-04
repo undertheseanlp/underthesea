@@ -42,8 +42,15 @@ def crawl_website(url, filepath):
 CWD = abspath(dirname(__file__))
 OUTPUT_FOLDER = join(dirname(CWD), "output")
 print(OUTPUT_FOLDER)
+with open(join(CWD, "error.log"), "w") as f:
+    f.write("")
+log_file = open(join(CWD, "error.log"), "a")
 with open(join(CWD, "list_urls.txt")) as f:
     urls = f.read().strip().splitlines()
 for i, url in enumerate(urls):
     filepath = extract_filename(url)
-    crawl_website(url, join(OUTPUT_FOLDER, f"{filepath}.txt"))
+    try:
+        crawl_website(url, join(OUTPUT_FOLDER, f"{filepath}.txt"))
+    except Exception as e:
+        print(e)
+        log_file.write(url + "\n")
