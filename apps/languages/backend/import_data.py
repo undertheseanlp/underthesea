@@ -1,12 +1,19 @@
 import tablib
 from import_export import resources
+import os
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'languages.settings')
 import django
 django.setup()
-from languages.models import Article
+from languages.models import Article, Collection
 
-resource = resources.modelresource_factory(model=Article)()
-dataset = tablib.Dataset(headers=['title', 'description', 'text'])
-for item in [('a', 'b', 'c'), ('d', 'e', 'f')]:
+
+collection = Collection(name='VLC')
+collection.save()
+collection_id = collection.pk
+
+ArticleResource = resources.modelresource_factory(model=Article)()
+dataset = tablib.Dataset(headers=['title', 'description', 'text', 'collection'])
+for item in [('a', 'b', 'c', collection_id), ('d', 'e', 'f', collection_id)]:
     dataset.append(item)
-result = resource.import_data(dataset, dry_run=False)
+result = ArticleResource.import_data(dataset, dry_run=False)
 print('Finish')

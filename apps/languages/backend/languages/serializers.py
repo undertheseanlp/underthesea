@@ -9,6 +9,7 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class ArticleSerializer(serializers.HyperlinkedModelSerializer):
+    # collection = serializers.HyperlinkedRelatedField(view_name='collection-detail', queryset=Collection.objects.all())
     class Meta:
         model = Article
         fields = ("id", "title", "description", "text", "collection")
