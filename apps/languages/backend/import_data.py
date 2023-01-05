@@ -2,8 +2,7 @@ import tablib
 from import_export import resources
 import django
 django.setup()
-from linguistic.models import Article
-
+from languages.models import Article
 
 resource = resources.modelresource_factory(model=Article)()
 dataset = tablib.Dataset(headers=['title', 'description', 'text'])
