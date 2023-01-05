@@ -11,10 +11,11 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
 class ArticleSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Article
-        fields = ("id", "title", "description", "text")
+        fields = ("id", "title", "description", "text", "collection")
 
 
 class CollectionSerializer(serializers.HyperlinkedModelSerializer):
+    articles = ArticleSerializer(many=True, read_only=True)
     class Meta:
         model = Collection
-        fields = ("id", "name")
+        fields = ("id", "name", "articles")
