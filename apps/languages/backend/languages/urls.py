@@ -20,10 +20,11 @@ from .views import ArticleViewSet, TaskViewSet, CollectionViewSet
 
 router = routers.DefaultRouter()
 router.register(r'tasks', TaskViewSet)
-router.register(r'articles', ArticleViewSet)
 router.register(r'collections', CollectionViewSet)
+router.register(r'articles', ArticleViewSet, basename="articles")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path(r'api/', include(router.urls))
+    path(r'api/', include(router.urls)),
+    path(r'api/collections/<int:collection_id>/articles/', ArticleViewSet.as_view({"get": "list"}), name="list_articles")
 ]
