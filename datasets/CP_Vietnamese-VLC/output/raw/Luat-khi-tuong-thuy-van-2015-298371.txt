@@ -1,0 +1,544 @@
+QUỐC HỘI   --------
+CỘNG HÒA XÃ   HỘI CHỦ NGHĨA VIỆT NAM   Độc lập - Tự do - Hạnh phúc    ---------------
+Luật số:   90/2015/QH13
+Hà Nội, ngày   23 tháng 11 năm 2015
+ 
+LUẬT
+KHÍ TƯỢNG THỦY VĂN
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam; 
+Quốc hội ban hành Luật khí tượng thủy văn.
+Chương I
+QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về hoạt động khí tượng thủy văn gồm: quản lý, khai thác mạng lưới trạm; dự báo, cảnh báo; thông tin, dữ liệu; phục vụ, dịch vụ khí tượng thủy văn; giám sát biến đổi khí hậu; tác động vào thời tiết và quản lý nhà nước; quyền, trách nhiệm, nghĩa vụ của cơ quan, tổ chức, cá nhân tham gia hoạt động khí tượng thủy văn.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với cơ quan, tổ chức, cá nhân Việt Nam; tổ chức, cá nhân nước ngoài; tổ chức quốc tế tham gia hoạt động khí tượng thủy văn trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Khí tượng thủy văn là cụm từ chỉ chung khí tượng, thủy văn và hải văn.
+2. Khí tượng là trạng thái của khí quyển, quá trình diễn biến của các hiện tượng tự nhiên trong khí quyển.
+3. Thủy văn là trạng thái, quá trình diễn biến và sự vận động của nước sông, suối, kênh, rạch, hồ.
+4. Hải văn là trạng thái, quá trình diễn biến và sự vận động của nước biển.
+5. Quan trắc khí tượng thủy văn là việc quan sát, đo đạc trực tiếp hoặc gián tiếp một cách có hệ thống các thông số biểu hiện trạng thái, hiện tượng, quá trình diễn biến của khí quyển, nước sông, suối, kênh, rạch, hồ và nước biển.
+6. Thời tiết là trạng thái của khí quyển tại một thời điểm và khu vực cụ thể được xác định bằng các yếu tố và hiện tượng khí tượng.
+7. Dự báo khí tượng thủy văn là đưa ra thông tin, dữ liệu về trạng thái, quá trình diễn biến và hiện tượng khí tượng thủy văn trong tương lai ở một khu vực, vị trí với khoảng thời gian xác định.
+8. Cảnh báo khí tượng thủy văn là đưa ra thông tin, dữ liệu về nguy cơ xảy ra các hiện tượng khí tượng thủy văn nguy hiểm, bất thường có thể ảnh hưởng hoặc gây thiệt hại về người, tài sản và môi trường.
+9. Bản tin dự báo, cảnh báo khí tượng thủy văn là sản phẩm của tổ chức, cá nhân hoạt động dự báo, cảnh báo, thể hiện thông tin, dữ liệu dự báo, cảnh báo khí tượng thủy văn dưới dạng văn bản, bảng số liệu, bản đồ, biểu đồ, biểu tượng, hình ảnh, âm thanh.
+10. Thiên tai khí tượng thủy văn là hiện tượng khí tượng thủy văn bất thường có thể gây thiệt hại về người, tài sản, ảnh hưởng đến môi trường, điều kiện sống và các hoạt động kinh tế - xã hội.
+11. Khí hậu là tổng hợp các điều kiện thời tiết ở một khu vực nhất định, đặc trưng bởi các đại lượng thống kê dài hạn của các yếu tố khí tượng tại khu vực đó.
+12. Dự báo khí hậu là đưa ra thông tin, dữ liệu về trạng thái và xu thế của khí hậu trong tương lai, mức độ dao động của yếu tố khí hậu theo tháng, mùa, năm so với giá trị trung bình nhiều năm.
+13. Biến đổi khí hậu là sự thay đổi của khí hậu trong một khoảng thời gian dài do tác động của các điều kiện tự nhiên và hoạt động của con người, biểu hiện bởi sự nóng lên toàn cầu, mực nước biển dâng và gia tăng các hiện tượng khí tượng thủy văn cực đoan.
+14. Giám sát biến đổi khí hậu là quá trình thu thập thông tin, dữ liệu, phân tích, đánh giá, theo dõi diễn biến của khí hậu trong khoảng thời gian dài để xác định các biểu hiện của biến đổi khí hậu và tác động của biến đổi khí hậu đến tài nguyên, môi trường, hệ sinh thái, điều kiện sống và các hoạt động kinh tế - xã hội.
+15. Kịch bản biến đổi khí hậu là giả định có cơ sở khoa học và có tính tin cậy về xu hướng trong tương lai của khí hậu dựa trên mối quan hệ giữa hoạt động kinh tế - xã hội, phát thải khí nhà kính, biến đổi khí hậu và mực nước biển dâng.
+16. Công trình khí tượng thủy văn là cơ sở vật chất đáp ứng yêu cầu kỹ thuật chuyên ngành để lắp đặt phương tiện đo, thiết bị thông tin khí tượng thủy văn.
+17. Trạm khí tượng thủy văn là nơi được lựa chọn theo các yêu cầu kỹ thuật chuyên môn để đặt một hoặc nhiều công trình khí tượng thủy văn, gồm các loại: trạm khí tượng bề mặt, trạm khí tượng trên cao, trạm ra đa thời tiết, trạm khí tượng nông nghiệp, trạm thủy văn, trạm hải văn, trạm đo mưa, trạm định vị sét và các loại trạm chuyên đề khác.
+18. Trạm giám sát biến đổi khí hậu là trạm được lựa chọn trong số các trạm khí tượng thủy văn hoặc được xây dựng riêng theo yêu cầu kỹ thuật, tiêu chuẩn quốc gia, quốc tế để thực hiện quan trắc khí hậu, thành phần hóa khí quyển, mực nước biển.
+19. Hành lang kỹ thuật công trình khí tượng thủy văn là khoảng không, diện tích mặt đất, dưới đất, mặt nước, dưới nước cần thiết để bảo đảm công trình khí tượng thủy văn hoạt động đúng tiêu chuẩn kỹ thuật, dữ liệu khí tượng thủy văn thu được phản ánh khách quan tính tự nhiên của khu vực, bảo đảm độ chính xác theo tiêu chuẩn quốc gia và quốc tế.
+20. Tác động vào thời tiết là tác động của con người lên các quá trình vật lý và hoá học của khí quyển thông qua các giải pháp khoa học và công nghệ nhằm ngăn ngừa hay giảm nhẹ thiên tai hoặc tạo ra một dạng thời tiết thuận lợi trong một khu vực cụ thể, trong khoảng thời gian xác định để phục vụ các hoạt động kinh tế - xã hội, quốc phòng, an ninh quốc gia.
+21. Chuẩn khí hậu là giá trị trung bình của các yếu tố khí tượng trong một khoảng thời gian nhất định, thường là 30 năm; làm căn cứ để đánh giá sự khác biệt khí hậu giữa nơi này với nơi khác, giữa thời kỳ này với thời kỳ khác.
+22. Hiện tượng khí tượng thủy văn cực đoan là hiện tượng khí tượng thủy văn bất thường về mức độ, thời gian xuất hiện, khu vực xảy ra, có thể gây thiệt hại về người, tài sản, ảnh hưởng đến môi trường, điều kiện sống và các hoạt động kinh tế - xã hội.
+23. Nước biển dâng là sự dâng lên của mực nước đại dương trung bình do tác động của biến đổi khí hậu, trong đó không bao gồm triều cường, nước dâng do bão và các tác động tự nhiên khác.
+Điều 4. Nguyên tắc hoạt động khí tượng thủy văn
+1. Hoạt động khí tượng thủy văn phục vụ chung cho phát triển kinh tế - xã hội, quốc phòng, an ninh quốc gia và phòng, chống thiên tai do ngân sách nhà nước bảo đảm.
+2. Hoạt động khí tượng thủy văn được quản lý tập trung, thống nhất trong phạm vi cả nước.
+3. Quan trắc khí tượng thủy văn phải bảo đảm chính xác, liên tục, thống nhất, kết quả quan trắc liên kết được trong phạm vi quốc gia và với quốc tế.
+4. Dự báo, cảnh báo khí tượng thủy văn phải bảo đảm đủ độ tin cậy; thông tin dự báo, cảnh báo khí tượng thủy văn phải được truyền, phát kịp thời, chính xác, đầy đủ.
+5. Hệ thống thu nhận, truyền phát thông tin khí tượng thủy văn phải được bảo đảm hoạt động thường xuyên, liên tục, có tốc độ cao, diện bao phủ rộng.
+Điều 5. Chính sách của Nhà nước đối với hoạt động khí tượng thủy văn
+1. Nhà nước bảo đảm nguồn lực cho việc xây dựng, quản lý, khai thác mạng lưới trạm khí tượng thủy văn quốc gia; dự báo, cảnh báo khí tượng thủy văn; giám sát biến đổi khí hậu phục vụ chung cho phát triển kinh tế - xã hội, quốc phòng, an ninh quốc gia và phòng, chống thiên tai.
+2. Đa dạng hóa các nguồn vốn đầu tư cho hoạt động khí tượng thủy văn; khuyến khích tổ chức, cá nhân tham gia các hoạt động quan trắc, dự báo, cảnh báo, nghiên cứu khoa học, chuyển giao công nghệ, khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn.
+3. Ưu tiên đầu tư xây dựng mạng viễn thông dùng riêng phù hợp với quy định của pháp luật về viễn thông và sử dụng các mạng viễn thông quốc gia cho hoạt động thu nhận, truyền phát thông tin, dữ liệu phục vụ dự báo, cảnh báo khí tượng thủy văn, phòng, chống thiên tai.
+4. Đẩy mạnh tuyên truyền, phổ biến kiến thức về khí tượng thủy văn, biến đổi khí hậu; khai thác hiệu quả thông tin, dữ liệu khí tượng thủy văn trong sản xuất, đời sống và phòng, chống thiên tai cho cộng đồng; bảo đảm bình đẳng giới; chú ý đến đồng bào ở miền núi, ngư dân ven biển, hải đảo, vùng đồng bào dân tộc thiểu số, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn và các đối tượng đặc thù khác để có hình thức, phương tiện, tài liệu tuyên truyền phù hợp với từng đối tượng.
+5. Bảo đảm nhu cầu về đất đai để các công trình khí tượng thủy văn hoạt động đúng yêu cầu kỹ thuật chuyên ngành.
+6. Tăng cường đào tạo nguồn nhân lực làm công tác khí tượng thủy văn; có cơ chế thu hút, đãi ngộ người làm công tác khí tượng thủy văn ở vùng đồng bào dân tộc thiểu số, miền núi, hải đảo, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn theo quy định của pháp luật.
+7. Phát triển khoa học và công nghệ về khí tượng thủy văn, giám sát biến đổi khí hậu; ưu tiên nghiên cứu khoa học, chuyển giao công nghệ, thiết bị tiên tiến, ứng dụng công nghệ cao trong hoạt động khí tượng thủy văn.
+8. Tăng cường hợp tác quốc tế về khí tượng thủy văn, giám sát biến đổi khí hậu, thực hiện nghĩa vụ thành viên tại các tổ chức quốc tế về khí tượng thủy văn, giám sát biến đổi khí hậu.
+Điều 6. Phổ biến, giáo dục pháp luật, tuyên truyền, nâng cao nhận thức về hoạt động khí tượng thủy văn
+1. Bộ Tài nguyên và Môi trường có trách nhiệm thường xuyên tổ chức các hình thức phổ biến, giáo dục pháp luật, tuyên truyền, nâng cao nhận thức về khí tượng thủy văn, biến đổi khí hậu, chú trọng đối với đồng bào ở miền núi, ngư dân ven biển, hải đảo, vùng đồng bào dân tộc thiểu số và vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn; xây dựng, tổ chức thực hiện đề án phổ biến, giáo dục pháp luật, tuyên truyền, nâng cao nhận thức về khí tượng thủy văn, biến đổi khí hậu.
+2. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với các cơ quan thông tin đại chúng và chỉ đạo cơ sở giáo dục, đào tạo thuộc phạm vi quản lý tổ chức phổ biến, giáo dục pháp luật, tuyên truyền, nâng cao nhận thức về khí tượng thủy văn, biến đổi khí hậu.
+3. Ủy ban Mặt trận Tổ quốc Việt Nam và các tổ chức thành viên của Mặt trận, hiệp hội doanh nghiệp, các tổ chức xã hội khác trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với cơ quan quản lý nhà nước về khí tượng thủy văn tuyên truyền, vận động, hướng dẫn nhân dân tham gia bảo vệ công trình khí tượng thủy văn, tiếp nhận, khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn và chấp hành các quy định của pháp luật về khí tượng thủy văn, biến đổi khí hậu.
+Điều 7. Truyền thông về hoạt động khí tượng thủy văn
+1. Thông tấn xã Việt Nam, Đài Tiếng nói Việt Nam, Đài Truyền hình Việt Nam và các cơ quan báo chí có trách nhiệm:
+a) Tổ chức truyền, phát tin dự báo, cảnh báo khí tượng thủy văn, thông tin về biến đổi khí hậu theo quy định của Luật này và pháp luật về báo chí;
+b) Phối hợp với Bộ Tài nguyên và Môi trường, các bộ, ngành, địa phương xây dựng chương trình phát thanh, truyền hình, bản tin để tuyên truyền, nâng cao nhận thức của cộng đồng về khí tượng thủy văn và khai thác hiệu quả tin dự báo, cảnh báo khí tượng thủy văn, thông tin về biến đổi khí hậu.
+2. Đài phát thanh, truyền hình địa phương có trách nhiệm:
+a) Tổ chức truyền, phát tin dự báo, cảnh báo khí tượng thủy văn do hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia ban hành và thông tin về biến đổi khí hậu phục vụ phòng, chống thiên tai, phát triển kinh tế - xã hội của địa phương;
+b) Phối hợp với cơ quan, tổ chức về khí tượng thủy văn ở địa phương, các đơn vị có liên quan xây dựng chương trình phát thanh, truyền hình để tuyên truyền, nâng cao nhận thức của cộng đồng về khí tượng thủy văn và khai thác hiệu quả tin dự báo, cảnh báo khí tượng thủy văn, thông tin về biến đổi khí hậu.
+Điều 8. Những hành vi bị nghiêm cấm
+1. Lợi dụng hoạt động khí tượng thủy văn gây thiệt hại đến lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân.
+2. Lấn, chiếm khoảng không, diện tích mặt đất, dưới đất, mặt nước, dưới nước của công trình khí tượng thủy văn.
+3. Vi phạm quy định hành lang kỹ thuật công trình khí tượng thủy văn.
+4. Làm ảnh hưởng đến công trình, phương tiện đo khí tượng thủy văn.
+5. Xâm hại công trình, phương tiện đo khí tượng thủy văn, thiết bị thông tin, các thiết bị kỹ thuật khác của công trình khí tượng thủy văn; va đập vào công trình; đập phá, dịch chuyển các mốc độ cao.
+6. Cản trở việc quản lý, khai thác công trình khí tượng thủy văn.
+7. Hoạt động dự báo, cảnh báo khí tượng thủy văn mà không có giấy phép hoặc trái với giấy phép do cơ quan nhà nước có thẩm quyền cấp.
+8. Khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn trái quy định của Luật này và pháp luật có liên quan.
+9. Cố ý vi phạm quy chuẩn kỹ thuật, quy trình chuyên môn trong hoạt động khí tượng thủy văn.
+10. Tác động vào thời tiết khi không được cơ quan nhà nước có thẩm quyền phê duyệt kế hoạch tác động vào thời tiết hoặc trái với kế hoạch được phê duyệt.
+11. Che giấu, không cung cấp hoặc cố ý cung cấp sai lệch, không đầy đủ, không kịp thời thông tin, dữ liệu khí tượng thủy văn.
+12. Làm trái quy định về truyền, phát tin dự báo, cảnh báo khí tượng thủy văn.
+13. Lợi dụng chức vụ, quyền hạn hoặc vượt quá quyền hạn của người có thẩm quyền để làm trái quy định của pháp luật về khí tượng thủy văn.
+14. Lợi dụng hoạt động hợp tác quốc tế về khí tượng thủy văn, giám sát biến đổi khí hậu để thực hiện hành vi vi phạm pháp luật.
+Chương II
+QUẢN LÝ, KHAI THÁC MẠNG LƯỚI TRẠM KHÍ TƯỢNG THỦY VĂN
+Điều 9. Nội dung quản lý, khai thác mạng lưới trạm khí tượng thủy văn
+1. Xây dựng quy hoạch, kế hoạch phát triển mạng lưới trạm khí tượng thủy văn.
+2. Quan trắc khí tượng thủy văn.
+3. Điều tra, khảo sát khí tượng thủy văn.
+4. Quản lý, bảo vệ công trình khí tượng thủy văn.
+5. Quản lý chất lượng phương tiện đo khí tượng thủy văn.
+Điều 10. Mạng lưới trạm khí tượng thủy văn
+1. Mạng lưới trạm khí tượng thủy văn gồm mạng lưới trạm khí tượng thủy văn quốc gia và mạng lưới trạm khí tượng thủy văn chuyên dùng.
+2. Mạng lưới trạm khí tượng thủy văn quốc gia gồm các trạm khí tượng thủy văn và trạm giám sát biến đổi khí hậu, thực hiện quan trắc khí tượng thủy văn, giám sát biến đổi khí hậu có hệ thống, liên tục, ổn định, lâu dài do Bộ Tài nguyên và Môi trường xây dựng, quản lý và khai thác.
+3. Mạng lưới trạm khí tượng thủy văn chuyên dùng thực hiện quan trắc khí tượng thủy văn theo mục đích riêng do bộ, ngành, địa phương, tổ chức, cá nhân xây dựng, quản lý và khai thác theo quy định của pháp luật.
+Điều 11. Quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia
+1. Nguyên tắc lập quy hoạch:
+a) Bảo đảm việc quan trắc trên mạng lưới phản ánh được diễn biến theo không gian, thời gian của yếu tố khí tượng thủy văn cần quan trắc và đáp ứng mục đích khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn;
+b) Bảo đảm tính đồng bộ, tiên tiến, có kế thừa, phù hợp với mục tiêu phát triển kinh tế - xã hội và yêu cầu về quốc phòng, an ninh quốc gia;
+c) Quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia phải thống nhất, lồng ghép với quy hoạch mạng lưới quan trắc tài nguyên và môi trường quốc gia, đáp ứng yêu cầu chia sẻ dữ liệu giữa các mạng lưới quan trắc bảo đảm sử dụng hiệu quả, tiết kiệm ngân sách nhà nước.
+2. Căn cứ lập quy hoạch:
+a) Chiến lược, quy hoạch, kế hoạch phát triển kinh tế - xã hội của cả nước; chiến lược phát triển ngành khí tượng thủy văn; chiến lược quốc gia về biến đổi khí hậu; chiến lược quốc gia về phòng, chống thiên tai; chiến lược quốc gia về tài nguyên nước; chiến lược quốc gia về phát triển công nghệ thông tin và truyền thông; quy hoạch sử dụng đất cấp quốc gia; quy hoạch phát triển viễn thông quốc gia và các chiến lược, quy hoạch, kế hoạch khác có liên quan;
+b) Kết quả thực hiện chiến lược phát triển ngành khí tượng thủy văn, chiến lược quốc gia về biến đổi khí hậu, quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia kỳ trước;
+c) Tiến bộ khoa học và công nghệ về quan trắc, đo đạc, truyền tin, dự báo, cảnh báo khí tượng thủy văn, giám sát biến đổi khí hậu.
+3. Kỳ quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia là 10 năm, tầm nhìn đến 20 năm.
+4. Nội dung chủ yếu của quy hoạch:
+a) Phân tích, đánh giá tổng quát về điều kiện tự nhiên, kinh tế - xã hội và môi trường, hiện trạng hoạt động khí tượng thủy văn, ứng phó với biến đổi khí hậu; xác định nhu cầu thông tin, dữ liệu khí tượng thủy văn đối với phát triển kinh tế - xã hội, quốc phòng, an ninh quốc gia, phòng, chống thiên tai, ứng phó với biến đổi khí hậu;
+b) Đánh giá việc thực hiện quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia kỳ trước; hoạt động quan trắc khí tượng thủy văn, giám sát biến đổi khí hậu; kết quả thực hiện chiến lược, quy hoạch, kế hoạch phát triển ngành khí tượng thủy văn;
+c) Đánh giá biến động theo không gian, thời gian của yếu tố khí tượng thủy văn cần quan trắc;
+d) Xác định mật độ, số lượng, vị trí, bản đồ quy hoạch, danh sách trạm, nội dung quan trắc của từng loại trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia;
+đ) Xác định nguồn lực, lộ trình, giải pháp thực hiện quy hoạch.
+5. Trách nhiệm lập, phê duyệt quy hoạch:
+Bộ Tài nguyên và Môi trường tổ chức lập quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia, trình Thủ tướng Chính phủ phê duyệt.
+6. Điều chỉnh quy hoạch:
+a) Quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia được rà soát, điều chỉnh định kỳ 5 năm hoặc khi có yêu cầu cấp thiết về phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh quốc gia hoặc khi các chiến lược, quy hoạch, kế hoạch quy định tại điểm a khoản 2 Điều này thay đổi có tác động lớn tới nội dung quy hoạch;
+b) Bộ Tài nguyên và Môi trường trình Thủ tướng Chính phủ quyết định điều chỉnh quy hoạch theo các nội dung quy định tại điểm a khoản này.
+7. Quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia và điều chỉnh quy hoạch phải được thẩm định theo quy định của pháp luật về quy hoạch trước khi phê duyệt.
+Điều 12. Kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng của bộ, ngành, địa phương
+1. Bộ, ngành, địa phương lập kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng khi có nhu cầu khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn theo mục đích riêng.
+2. Nguyên tắc lập kế hoạch:
+a) Đáp ứng mục đích khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn của bộ, ngành, địa phương;
+b) Bảo đảm tính đồng bộ, tiên tiến, có kế thừa, phù hợp với mục tiêu phát triển của bộ, ngành, địa phương;
+c) Mạng lưới trạm khí tượng thủy văn chuyên dùng không trùng lắp, chồng chéo với mạng lưới trạm khí tượng thủy văn quốc gia.
+3. Căn cứ lập kế hoạch:
+a) Chiến lược, quy hoạch, kế hoạch quy định tại điểm a khoản 2 Điều 11 của Luật này và chiến lược, quy hoạch, kế hoạch có liên quan của bộ, ngành, địa phương;
+b) Quy hoạch và kết quả thực hiện quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia đến thời điểm lập kế hoạch;
+c) Nhu cầu khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn theo mục đích riêng.
+4. Kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng được lập đồng thời với việc xây dựng quy hoạch, kế hoạch phát triển kinh tế - xã hội của bộ, ngành, địa phương và định kỳ hàng năm có thể được điều chỉnh, bổ sung cho phù hợp với nhu cầu thực tế.
+5. Nội dung chủ yếu của kế hoạch:
+a) Xác định nhu cầu khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn của bộ, ngành, địa phương;
+b) Đánh giá khả năng đáp ứng thực tế về thông tin, dữ liệu khí tượng thủy văn của mạng lưới trạm khí tượng thủy văn quốc gia đối với yêu cầu, mục đích riêng;
+c) Xác định số lượng, vị trí, danh sách trạm; thời gian hoạt động, nội dung quan trắc của từng trạm thuộc mạng lưới trạm khí tượng thủy văn chuyên dùng;
+d) Xác định nguồn lực, giải pháp thực hiện kế hoạch.
+6. Trách nhiệm lập, phê duyệt kế hoạch:
+a) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân cấp tỉnh tổ chức lập kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng thuộc phạm vi quản lý;
+b) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân cấp tỉnh phê duyệt kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng theo thẩm quyền sau khi thống nhất ý kiến bằng văn bản với Bộ trưởng Bộ Tài nguyên và Môi trường.
+Điều 13. Quan trắc khí tượng thủy văn
+1. Yêu cầu đối với quan trắc khí tượng thủy văn:
+a) Quan trắc phải chính xác, liên tục, thống nhất theo quy chuẩn kỹ thuật, quy trình chuyên môn;
+b) Kết quả quan trắc phải bảo đảm tính đại diện, phản ánh khách quan điều kiện tự nhiên, hiện trạng các hiện tượng khí tượng thủy văn của khu vực đặt trạm;
+c) Thông tin, dữ liệu quan trắc phải được kiểm tra, đánh giá chất lượng.
+2. Nội dung quan trắc khí tượng thủy văn:
+a) Nội dung quan trắc được xác định cụ thể cho từng loại trạm khí tượng thủy văn;
+b) Bộ Tài nguyên và Môi trường xác định chi tiết nội dung quan trắc đối với trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia;
+c) Bộ, ngành, địa phương, tổ chức, cá nhân xác định nội dung quan trắc đối với trạm khí tượng thủy văn chuyên dùng thuộc quyền quản lý;
+d) Trạm khí tượng có phát báo quốc tế, trạm khí tượng thủy văn có trao đổi thông tin, dữ liệu với nước ngoài, tổ chức quốc tế hoặc có thỏa thuận hợp tác song phương, đa phương thực hiện các quan trắc khác theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+3. Quan trắc khí tượng thủy văn của các chủ công trình:
+Các công trình khi xây dựng, khai thác chịu tác động hoặc gây tác động đến điều kiện khí tượng thủy văn mà có khả năng ảnh hưởng đến an toàn, tính mạng, tài sản của cộng đồng thì chủ công trình phải tổ chức quan trắc và cung cấp thông tin, dữ liệu theo quy định tại khoản 5 Điều này.
+4. Quan trắc khí tượng thủy văn trên tàu bay, tàu biển:
+Khuyến khích chủ tàu bay, tàu biển hoạt động trên lãnh thổ nước Cộng hòa xã hội chủ nghĩa Việt Nam thực hiện quan trắc khí tượng thủy văn và phát báo kết quả quan trắc cho hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia theo mã luật của Tổ chức Khí tượng Thế giới (WMO) và Tổ chức Hàng không dân dụng quốc tế (ICAO).
+5. Thông tin, dữ liệu quan trắc khí tượng thủy văn phải được cung cấp về hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia và cơ sở dữ liệu khí tượng thủy văn quốc gia.
+6. Chính phủ quy định chi tiết khoản 3 và khoản 5 Điều này.
+Điều 14. Thành lập, di chuyển, giải thể trạm khí tượng thủy văn
+1. Thành lập trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia:
+a) Bộ trưởng Bộ Tài nguyên và Môi trường quyết định thành lập trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia theo quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia đã được Thủ tướng Chính phủ phê duyệt;
+b) Trong trường hợp đặc biệt, để đáp ứng yêu cầu quốc phòng, an ninh quốc gia, phòng, chống thiên tai, Bộ Tài nguyên và Môi trường chủ trì, phối hợp với các bộ, ngành liên quan báo cáo Thủ tướng Chính phủ quyết định thành lập trạm chưa có trong quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia.
+2. Thành lập trạm khí tượng thủy văn chuyên dùng:
+a) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định thành lập trạm khí tượng thủy văn chuyên dùng theo kế hoạch phát triển mạng lưới trạm khí tượng thủy văn chuyên dùng của bộ, ngành, địa phương;
+b) Tổ chức, cá nhân tự quyết định thành lập trạm khí tượng thủy văn chuyên dùng theo nhu cầu riêng;
+c) Người có thẩm quyền, tổ chức, cá nhân quy định tại điểm a, điểm b khoản này có trách nhiệm thông báo việc thành lập trạm khí tượng thủy văn chuyên dùng cho Bộ Tài nguyên và Môi trường và cơ quan quản lý nhà nước về khí tượng thủy văn cấp tỉnh nơi đặt trạm.
+3. Di chuyển trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia:
+a) Chỉ di chuyển trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia trong trường hợp: bị thiệt hại do thiên tai mà không khắc phục được; lý do quốc phòng, an ninh quốc gia; trạm thuộc phạm vi dự án phát triển kinh tế - xã hội quan trọng; hành lang kỹ thuật bị vi phạm nghiêm trọng hoặc do ảnh hưởng của các điều kiện tự nhiên dẫn đến không đủ điều kiện kỹ thuật để quan trắc hoặc thông tin, dữ liệu quan trắc không còn tính đại diện, không phản ánh đúng quy luật tự nhiên và điều kiện khí tượng thủy văn tại khu vực đặt trạm.
+Vị trí mới của trạm phải đáp ứng yêu cầu quan trắc và phù hợp với quy định của pháp luật có liên quan;
+b) Phải tổ chức quan trắc song song giữa trạm cũ và trạm mới để bảo đảm tính liên tục của chuỗi số liệu và không gián đoạn việc cung cấp thông tin, dữ liệu cho công tác dự báo, cảnh báo khí tượng thủy văn, trao đổi quốc tế;
+c) Bộ trưởng Bộ Tài nguyên và Môi trường quyết định việc di chuyển trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia.
+4. Di chuyển trạm khí tượng thủy văn chuyên dùng:
+Việc di chuyển trạm khí tượng thủy văn chuyên dùng do người có thẩm quyền, tổ chức, cá nhân thành lập trạm quyết định; sau khi di chuyển phải thông báo cho Bộ Tài nguyên và Môi trường và cơ quan quản lý nhà nước về khí tượng thủy văn cấp tỉnh nơi đặt trạm.
+5. Giải thể trạm khí tượng thủy văn:
+a) Giải thể trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia trong trường hợp: trạm không còn trong quy hoạch; không bảo đảm điều kiện kỹ thuật để quan trắc mà không thể di chuyển được.
+Bộ trưởng Bộ Tài nguyên và Môi trường quyết định giải thể trạm thuộc mạng lưới trạm khí tượng thủy văn quốc gia;
+b) Giải thể trạm khí tượng thủy văn chuyên dùng trong trường hợp: trạm không còn trong kế hoạch phát triển của bộ, ngành, địa phương và không đủ điều kiện để chuyển sang mạng lưới trạm khí tượng thủy văn quốc gia; không bảo đảm điều kiện kỹ thuật để quan trắc mà không thể di chuyển được; mục đích hoạt động của trạm đã hoàn thành.
+Người có thẩm quyền, tổ chức, cá nhân thành lập trạm khí tượng thủy văn chuyên dùng quyết định giải thể trạm khí tượng thủy văn thuộc quyền quản lý; sau khi giải thể phải thông báo cho Bộ Tài nguyên và Môi trường và cơ quan quản lý nhà nước về khí tượng thủy văn cấp tỉnh nơi đặt trạm.
+Điều 15. Hành lang kỹ thuật công trình khí tượng thủy văn
+1. Công trình khí tượng thủy văn được bảo đảm hành lang kỹ thuật theo quy chuẩn kỹ thuật chuyên ngành khí tượng thủy văn.
+2. Hành lang kỹ thuật công trình khí tượng thủy văn được quy định chi tiết đối với từng loại công trình khí tượng thủy văn.
+3. Trong phạm vi hành lang kỹ thuật công trình khí tượng thủy văn không được xây dựng công trình, nhà cao tầng, trồng cây lâu năm che chắn công trình, đắp đập, đào bới lòng sông hoặc hai bên bờ, lấy nước, xả nước, neo đậu các phương tiện vận tải hoặc thực hiện các hoạt động khác làm thay đổi tính đại diện của nơi quan trắc.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 16. Bảo vệ công trình khí tượng thủy văn
+1. Nội dung bảo vệ công trình khí tượng thủy văn:
+a) Xây dựng hồ sơ, chỉ giới đất, phạm vi hành lang kỹ thuật công trình và thông báo cho Ủy ban nhân dân cấp xã nơi có công trình;
+b) Bảo vệ hành lang kỹ thuật; ngăn chặn các hành vi bị nghiêm cấm quy định tại các khoản 2, 3, 4, 5 và 6 Điều 8 của Luật này;
+c) Thực hiện các biện pháp phòng, chống và giảm nhẹ thiệt hại do thiên tai và các trường hợp rủi ro khác gây ra;
+d) Bảo dưỡng, tu bổ, sửa chữa công trình theo quy chuẩn kỹ thuật, quy trình chuyên môn.
+2. Trách nhiệm bảo vệ công trình khí tượng thủy văn:
+a) Bộ Tài nguyên và Môi trường tổ chức bảo vệ công trình khí tượng thủy văn thuộc mạng lưới trạm khí tượng thủy văn quốc gia;
+b) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp, tổ chức, cá nhân tổ chức bảo vệ công trình khí tượng thủy văn thuộc phạm vi quản lý theo quy định của Luật này và pháp luật có liên quan.
+Điều 17. Điều tra, khảo sát khí tượng thủy văn
+1. Yêu cầu đối với điều tra, khảo sát khí tượng thủy văn:
+a) Điều tra, khảo sát sử dụng ngân sách nhà nước phải theo chương trình, kế hoạch được cấp có thẩm quyền phê duyệt; kết quả điều tra, khảo sát phải được đánh giá chất lượng;
+b) Quan trắc, đo đạc trong điều tra, khảo sát phải tuân thủ quy chuẩn kỹ thuật, quy trình chuyên môn.
+2. Nội dung điều tra, khảo sát khí tượng thủy văn:
+a) Xác định vị trí điểm, trạm, khu vực điều tra, khảo sát trên đất liền hoặc tọa độ lưới điểm, trạm điều tra, khảo sát trên biển;
+b) Xây dựng công trình khí tượng thủy văn tạm thời phục vụ mục đích điều tra, khảo sát (nếu có);
+c) Quan trắc, đo đạc các yếu tố khí tượng thủy văn, các yếu tố khác có liên quan và địa hình khu vực khảo sát;
+d) Tính toán phục hồi các đặc trưng, diễn biến của thiên tai khí tượng thủy văn đã xảy ra trên khu vực khảo sát.
+3. Trách nhiệm thực hiện điều tra, khảo sát khí tượng thủy văn:
+a) Bộ Tài nguyên và Môi trường thực hiện điều tra, khảo sát để bổ sung thông tin, dữ liệu cho mạng lưới trạm khí tượng thủy văn quốc gia hoặc điều tra, khảo sát đột xuất trong, sau khi có thiên tai xảy ra;
+b) Bộ, ngành, địa phương, tổ chức, cá nhân thực hiện điều tra, khảo sát phục vụ mục đích riêng của mình.
+Điều 18. Quản lý chất lượng phương tiện đo khí tượng thủy văn
+1. Nội dung quản lý chất lượng phương tiện đo khí tượng thủy văn:
+a) Ban hành danh mục phương tiện đo khí tượng thủy văn phải kiểm định, hiệu chuẩn;
+b) Tổ chức kiểm định, hiệu chuẩn phương tiện đo khí tượng thủy văn.
+2. Bộ trưởng Bộ Khoa học và Công nghệ ban hành danh mục phương tiện đo khí tượng thủy văn phải kiểm định, hiệu chuẩn trên cơ sở đề xuất của Bộ Tài nguyên và Môi trường.
+Điều 19. Kiểm định, hiệu chuẩn phương tiện đo khí tượng thủy văn
+1. Việc kiểm định, hiệu chuẩn phương tiện đo khí tượng thủy văn thuộc danh mục phải kiểm định, hiệu chuẩn được thực hiện theo quy định của pháp luật về đo lường.
+2. Phương tiện đo khí tượng thủy văn không thuộc danh mục phương tiện đo phải kiểm định, hiệu chuẩn phải có hồ sơ về nguồn gốc xuất xứ, đặc tính kỹ thuật phù hợp với quy chuẩn kỹ thuật do cơ quan nhà nước có thẩm quyền ban hành.
+3. Việc kiểm định, hiệu chuẩn phương tiện đo khí tượng thủy văn do cơ sở kiểm định, hiệu chuẩn có đủ điều kiện thực hiện theo quy định của pháp luật về đo lường.
+Chương III
+DỰ BÁO, CẢNH BÁO KHÍ TƯỢNG THỦY VĂN
+Điều 20. Nội dung hoạt động dự báo, cảnh báo khí tượng thủy văn
+1. Thu thập, xử lý, phân tích, lưu giữ thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu và các thông tin, dữ liệu có liên quan trên phạm vi quốc gia, khu vực, thế giới.
+2. Xây dựng, ban hành bản tin dự báo, cảnh báo khí tượng thủy văn.
+3. Cung cấp thông tin dự báo, cảnh báo khí tượng thủy văn.
+4. Hướng dẫn khai thác thông tin dự báo, cảnh báo khí tượng thủy văn.
+5. Đánh giá chất lượng dự báo, cảnh báo khí tượng thủy văn.
+Điều 21. Yêu cầu đối với dự báo, cảnh báo khí tượng thủy văn
+1. Dự báo, cảnh báo khí tượng thủy văn phải tuân thủ quy chuẩn kỹ thuật, quy trình chuyên môn về dự báo, cảnh báo khí tượng thủy văn.
+2. Tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn phải chịu trách nhiệm về bản tin dự báo, cảnh báo khí tượng thủy văn do mình ban hành.
+3. Thông tin dự báo, cảnh báo khí tượng thủy văn phải được cập nhật thường xuyên, kịp thời theo diễn biến của hiện tượng khí tượng thủy văn, dễ hiểu, dễ sử dụng, được chuyển tải bằng ngôn ngữ tiếng Việt.
+Điều 22. Loại bản tin và thời hạn dự báo, cảnh báo khí tượng thủy văn
+1. Các loại bản tin dự báo, cảnh báo khí tượng thủy văn:
+a) Bản tin dự báo thời tiết, thủy văn, hải văn;
+b) Bản tin dự báo, cảnh báo thiên tai khí tượng thủy văn;
+c) Bản tin dự báo khí hậu, nguồn nước;
+d) Bản tin dự báo chuyên đề theo yêu cầu của người sử dụng;
+đ) Bản tin dự báo, cảnh báo khí tượng thủy văn theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Thời hạn dự báo, cảnh báo khí tượng thủy văn:
+a) Thời hạn cực ngắn;
+b) Thời hạn ngắn; 
+c) Thời hạn vừa;
+d) Thời hạn dài;
+đ) Thời hạn khác.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết Điều này.
+Điều 23. Nội dung bản tin dự báo, cảnh báo khí tượng thủy văn
+1. Trừ trường hợp quy định tại khoản 2 Điều này, nội dung bản tin dự báo, cảnh báo khí tượng thủy văn gồm thông tin về hiện trạng, diễn biến trong tương lai của đối tượng dự báo, cảnh báo phù hợp với loại bản tin và thời hạn dự báo, cảnh báo khí tượng thủy văn quy định tại Điều 22 của Luật này.
+2. Nội dung bản tin dự báo, cảnh báo thiên tai khí tượng thủy văn gồm thông tin về loại thiên tai, cường độ, cấp độ rủi ro thiên tai, vị trí, tọa độ hiện tại và dự báo diễn biến của thiên tai.
+Điều 24. Hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia
+1. Hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia gồm các tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn các cấp do Bộ Tài nguyên và Môi trường quản lý.
+2. Nguyên tắc hoạt động của hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia:
+a) Tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn cấp dưới phải chịu sự quản lý về chuyên môn của tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn cấp trên;
+b) Tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn cấp dưới chi tiết hóa bản tin dự báo, cảnh báo khí tượng thủy văn của tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn cấp trên, ban hành bản tin dự báo, cảnh báo khí tượng thủy văn trên địa bàn quản lý;
+c) Các tổ chức sự nghiệp công lập về dự báo, cảnh báo khí tượng thủy văn phải thường xuyên trao đổi, cập nhật thông tin, dữ liệu để bảo đảm thông tin dự báo, cảnh báo khí tượng thủy văn thống nhất, đầy đủ, kịp thời.
+3. Trách nhiệm của hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia:
+a) Ban hành bản tin dự báo, cảnh báo khí tượng thủy văn; dự báo, cảnh báo thiên tai khí tượng thủy văn trong phạm vi toàn quốc;
+b) Ban hành bản tin dự báo, cảnh báo khí tượng thủy văn trên biển theo trách nhiệm thành viên của Tổ chức Khí tượng Thế giới (WMO);
+c) Tham gia hoạt động dự báo, cảnh báo, trao đổi thông tin, sản phẩm dự báo, cảnh báo khí tượng thủy văn với cơ quan, tổ chức dự báo, cảnh báo khí tượng thủy văn của các nước, khu vực và thế giới theo quy định của pháp luật;
+d) Thu nhận thông tin, dữ liệu khí tượng thủy văn trong nước và nước ngoài, của tổ chức quốc tế; chuyển phát thông tin, dữ liệu khí tượng thủy văn của Việt Nam ra quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+đ) Cung cấp, hướng dẫn khai thác, sử dụng thông tin, dữ liệu, sản phẩm dự báo, cảnh báo khí tượng thủy văn cho các cơ quan, tổ chức quy định tại khoản 1 Điều 27 của Luật này;
+e) Xây dựng các chương trình phát thanh, truyền hình, truyền tin để truyền tải chính xác, phổ biến kịp thời, đầy đủ thông tin dự báo, cảnh báo khí tượng thủy văn đến cộng đồng theo quy định của Luật này và pháp luật về báo chí;
+g) Tuân thủ, thường xuyên cập nhật quy chuẩn kỹ thuật, quy trình chuyên môn, quy định về dự báo, cảnh báo khí tượng thủy văn;
+h) Đánh giá chất lượng dự báo, cảnh báo khí tượng thủy văn;
+i) Lưu trữ thông tin, dữ liệu, tin dự báo, cảnh báo khí tượng thủy văn.
+Điều 25. Dự báo, cảnh báo khí tượng thủy văn của tổ chức, cá nhân không thuộc hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia
+1. Tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn phải có đủ điều kiện và được cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn.
+2. Tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn có quyền và nghĩa vụ theo quy định tại Điều 40 của Luật này.
+3. Điều kiện hoạt động dự báo, cảnh báo khí tượng thủy văn của tổ chức, cá nhân:
+a) Có cơ sở vật chất, kỹ thuật phù hợp;
+b) Tổ chức phải có tư cách pháp nhân và nhân lực phù hợp;
+c) Cá nhân phải có trình độ chuyên môn về chuyên ngành phù hợp và kinh nghiệm hoạt động dự báo, cảnh báo khí tượng thủy văn.
+4. Điều kiện hoạt động dự báo, cảnh báo khí tượng thủy văn của tổ chức, cá nhân nước ngoài tại Việt Nam:
+a) Có các điều kiện quy định tại khoản 3 Điều này;
+b) Đang hoạt động, cư trú hợp pháp tại Việt Nam;
+c) Có nhân lực thông thạo tiếng Việt hoặc có phiên dịch phù hợp.
+5. Thẩm quyền cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn:
+a) Bộ trưởng Bộ Tài nguyên và Môi trường cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn đối với tổ chức, cá nhân thực hiện dự báo, cảnh báo khí tượng thủy văn trên phạm vi từ hai tỉnh, thành phố trực thuộc Trung ương trở lên hoặc trên địa bàn tỉnh, thành phố trực thuộc Trung ương khác nơi đặt trụ sở chính của tổ chức, nơi cư trú của cá nhân; tổ chức, cá nhân nước ngoài hoạt động dự báo, cảnh báo khí tượng thủy văn tại Việt Nam;
+b) Chủ tịch Ủy ban nhân dân cấp tỉnh cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn đối với tổ chức, cá nhân thực hiện dự báo, cảnh báo khí tượng thủy văn trong phạm vi địa phương.
+6. Giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn có thời hạn không quá 5 năm.
+Tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn có hành vi vi phạm pháp luật về khí tượng thủy văn hoặc không còn đủ điều kiện hoạt động quy định tại khoản 3 hoặc khoản 4 Điều này thì tùy theo tính chất, mức độ vi phạm có thể bị đình chỉ hoặc thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn.
+7. Chính phủ quy định chi tiết Điều này.
+Điều 26. Truyền, phát tin dự báo, cảnh báo thiên tai khí tượng thủy văn
+1. Việc truyền, phát tin dự báo, cảnh báo thiên tai khí tượng thủy văn được thực hiện theo quy định của pháp luật về phòng, chống thiên tai.
+2. Trong trường hợp cần thiết, khi truyền, phát tin dự báo, cảnh báo thiên tai khí tượng thủy văn cho vùng đồng bào dân tộc thiểu số, cơ quan, tổ chức truyền, phát tin phải chuyển tải sang ngôn ngữ dân tộc phù hợp.
+Điều 27. Sử dụng bản tin dự báo, cảnh báo khí tượng thủy văn
+1. Cơ quan chỉ đạo, chỉ huy phòng, chống thiên tai, tìm kiếm cứu nạn, Thông tấn xã Việt Nam, Đài Tiếng nói Việt Nam, Đài Truyền hình Việt Nam, cơ quan được giao trách nhiệm thực hiện điều ước quốc tế về khí tượng thủy văn, biến đổi khí hậu mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên phải sử dụng bản tin dự báo, cảnh báo khí tượng thủy văn do hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia ban hành.
+2. Cơ quan, tổ chức, cá nhân trong hoạt động phòng, chống thiên tai phải sử dụng bản tin dự báo, cảnh báo thiên tai khí tượng thủy văn mới nhất do hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia ban hành.
+Điều 28. Quản lý hoạt động dự báo, cảnh báo khí tượng thủy văn
+1. Nội dung quản lý hoạt động dự báo, cảnh báo khí tượng thủy văn:
+a) Xây dựng, trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền quy chuẩn kỹ thuật, quy trình chuyên môn, quy định về dự báo, cảnh báo khí tượng thủy văn;
+b) Kiểm tra, giám sát, đánh giá chất lượng dự báo, cảnh báo khí tượng thủy văn;
+c) Nghiên cứu khoa học và công nghệ, ứng dụng tiến bộ kỹ thuật trong hoạt động dự báo, cảnh báo khí tượng thủy văn;
+d) Cung cấp, trao đổi thông tin, dữ liệu khí tượng thủy văn với các nước, tổ chức quốc tế theo quy định của pháp luật.
+2. Hệ thống dự báo, cảnh báo khí tượng thủy văn quốc gia, tổ chức, cá nhân hoạt động dự báo, cảnh báo khí tượng thủy văn có trách nhiệm tuân thủ các quy định về quản lý hoạt động dự báo, cảnh báo quy định tại khoản 1 Điều này.
+Chương IV
+THÔNG TIN, DỮ LIỆU KHÍ TƯỢNG THỦY VĂN
+Điều 29. Nội dung thông tin, dữ liệu khí tượng thủy văn
+1. Thông tin, dữ liệu quan trắc, điều tra, khảo sát về khí tượng thủy văn, môi trường không khí và nước.
+2. Thông tin, dữ liệu khí tượng thủy văn thu được từ nước ngoài, cơ quan, tổ chức quốc tế.
+3. Biểu đồ, bản đồ, ảnh thu từ vệ tinh; phim, ảnh về đối tượng nghiên cứu khí tượng thủy văn.
+4. Bản tin dự báo, cảnh báo khí tượng thủy văn; thông báo tình hình khí tượng thủy văn.
+5. Hồ sơ kỹ thuật của các trạm, công trình, phương tiện đo khí tượng thủy văn.
+6. Hồ sơ cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn.
+7. Kết quả nghiên cứu khoa học, chương trình, dự án về khí tượng thủy văn; kế hoạch và kết quả thực hiện tác động vào thời tiết.
+8. Văn bản quy phạm pháp luật, hướng dẫn kỹ thuật về khí tượng thủy văn.
+Điều 30. Lưu trữ thông tin, dữ liệu khí tượng thủy văn
+1. Thông tin, dữ liệu khí tượng thủy văn được bảo quản và lưu trữ lâu dài.
+2. Lưu trữ thông tin, dữ liệu khí tượng thủy văn là lưu trữ chuyên ngành, được thực hiện theo quy định của pháp luật về lưu trữ.
+3. Thông tin, dữ liệu khí tượng thủy văn quy định tại các khoản 1, 2 và 3 Điều 29 của Luật này phải được cơ quan quản lý nhà nước về khí tượng thủy văn kiểm tra, phân loại, đánh giá chất lượng trước khi lưu trữ.
+4. Thông tin, dữ liệu khí tượng thủy văn thuộc phạm vi bí mật nhà nước được bảo vệ theo quy định của pháp luật về bảo vệ bí mật nhà nước.
+5. Bộ Tài nguyên và Môi trường tổ chức lưu trữ và bảo quản thông tin, dữ liệu khí tượng thủy văn theo quy định của pháp luật.
+Điều 31. Cơ sở dữ liệu khí tượng thủy văn quốc gia
+1. Cơ sở dữ liệu khí tượng thủy văn quốc gia là tập hợp, thống nhất toàn bộ thông tin, dữ liệu quy định tại Điều 29 và khoản 2 Điều 34 của Luật này trong phạm vi cả nước, được chuẩn hóa theo chuẩn quốc gia, được số hóa để cập nhật, quản lý, khai thác bằng hệ thống công nghệ thông tin.
+2. Bộ trưởng Bộ Tài nguyên và Môi trường quy định các bộ dữ liệu, chuẩn dữ liệu; tổ chức xây dựng, quản lý cơ sở dữ liệu khí tượng thủy văn quốc gia.
+Điều 32. Khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn
+1. Cơ quan, tổ chức, cá nhân được khai thác cơ sở dữ liệu khí tượng thủy văn quốc gia theo quy định của Luật này và pháp luật có liên quan.
+2. Thông tin, dữ liệu khí tượng thủy văn sử dụng trong các chương trình, quy hoạch, kế hoạch, dự án phát triển kinh tế - xã hội phải có nguồn gốc rõ ràng, do cơ quan, tổ chức, cá nhân quy định tại Điều 39 của Luật này cung cấp và xác nhận hoặc được cung cấp từ cơ sở dữ liệu khí tượng thủy văn quốc gia.
+3. Cơ quan nhà nước có thẩm quyền khi thẩm định, thẩm tra, đánh giá đối với các chương trình, quy hoạch, kế hoạch, dự án phát triển kinh tế - xã hội có sử dụng thông tin, dữ liệu khí tượng thủy văn có trách nhiệm thẩm định, thẩm tra nguồn gốc thông tin, dữ liệu khí tượng thủy văn theo quy định tại khoản 2 Điều này.
+4. Cơ quan, tổ chức, cá nhân khai thác thông tin, dữ liệu khí tượng thủy văn phải trả phí theo quy định của pháp luật, trừ các trường hợp quy định tại khoản 5 Điều này.
+5. Cơ quan nhà nước khai thác thông tin, dữ liệu khí tượng thủy văn vì các mục đích sau đây thì không phải trả phí:
+a) Thông báo trên các phương tiện thông tin đại chúng không vì mục đích lợi nhuận;
+b) Phục vụ phòng, chống thiên tai, bảo đảm quốc phòng, an ninh quốc gia;
+c) Trao đổi thông tin với nước ngoài, tổ chức quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+d) Mục đích khác theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+6. Chính phủ quy định chi tiết Điều này.
+Chương V
+GIÁM SÁT BIẾN ĐỔI KHÍ HẬU
+Điều 33. Nội dung giám sát biến đổi khí hậu
+1. Xây dựng, quản lý, khai thác trạm giám sát biến đổi khí hậu và cơ sở dữ liệu về giám sát biến đổi khí hậu.
+2. Thu thập thông tin, dữ liệu khí tượng thủy văn quan trắc tại mạng lưới trạm khí tượng thủy văn quốc gia, mạng lưới trạm khí tượng thủy văn chuyên dùng và các thông tin, dữ liệu có liên quan.
+3. Xây dựng bộ chuẩn khí hậu quốc gia.
+4. Phân tích, đánh giá, theo dõi những biểu hiện của biến đổi khí hậu.
+5. Đánh giá tác động của biến đổi khí hậu đến thiên tai, tài nguyên, môi trường, hệ sinh thái, điều kiện sống, hoạt động kinh tế - xã hội và các vấn đề liên ngành, liên vùng, liên lĩnh vực; đánh giá các giải pháp thích ứng và giảm nhẹ biến đổi khí hậu đối với phát triển kinh tế - xã hội.
+6. Đánh giá khí hậu quốc gia.
+7. Xây dựng kịch bản biến đổi khí hậu.
+8. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết khoản 5 và khoản 6 Điều này.
+Điều 34. Cơ sở dữ liệu về giám sát biến đổi khí hậu
+1. Cơ sở dữ liệu về giám sát biến đổi khí hậu là tập hợp, thống nhất toàn bộ thông tin, dữ liệu về giám sát biến đổi khí hậu và là thành phần thuộc cơ sở dữ liệu khí tượng thủy văn quốc gia.
+2. Nội dung thông tin, dữ liệu về giám sát biến đổi khí hậu:
+a) Thông tin, dữ liệu khí tượng thủy văn trong quá khứ và hiện tại quan trắc được từ mạng lưới trạm khí tượng thủy văn quốc gia, mạng lưới trạm khí tượng thủy văn chuyên dùng;
+b) Thông tin, dữ liệu về tác động của thiên tai khí tượng thủy văn và biến đổi khí hậu đến tài nguyên, môi trường, hệ sinh thái, điều kiện sống và hoạt động kinh tế - xã hội;
+c) Thông tin, dữ liệu về phát thải khí nhà kính và các hoạt động kinh tế - xã hội có liên quan đến phát thải khí nhà kính;
+d) Thông tin, dữ liệu quan trắc về ô-dôn, bảo vệ tầng ô-dôn và quản lý các chất làm suy giảm tầng ô-dôn;
+đ) Bộ chuẩn khí hậu quốc gia;
+e) Kết quả đánh giá khí hậu quốc gia;
+g) Kịch bản biến đổi khí hậu các thời kỳ;
+h) Hồ sơ kỹ thuật của các trạm giám sát biến đổi khí hậu;
+i) Kết quả nghiên cứu khoa học, chương trình, dự án về giám sát biến đổi khí hậu;
+k) Văn bản quy phạm pháp luật, hướng dẫn kỹ thuật về giám sát biến đổi khí hậu.
+3. Thông tin, dữ liệu về giám sát biến đổi khí hậu được lưu trữ, khai thác, sử dụng theo quy định tại Điều 30 và Điều 32 của Luật này.
+Điều 35. Đánh giá khí hậu quốc gia
+1. Nội dung đánh giá khí hậu quốc gia:
+a) Hiện trạng khí hậu Việt Nam đến năm cuối của kỳ đánh giá;
+b) Dao động khí hậu và biến đổi của khí hậu Việt Nam so với lịch sử, kỳ đánh giá trước đó và so với bộ chuẩn khí hậu quốc gia và quốc tế;
+c) Tác động của khí hậu và biến đổi khí hậu đến tài nguyên, môi trường, hệ sinh thái, điều kiện sống và các hoạt động kinh tế - xã hội;
+d) Kết quả của hoạt động ứng phó với biến đổi khí hậu;
+đ) Mức độ phù hợp của kịch bản biến đổi khí hậu, việc sử dụng kịch bản biến đổi khí hậu trong hoạt động ứng phó với biến đổi khí hậu;
+e) Các nội dung khác có liên quan.
+2. Kỳ đánh giá khí hậu quốc gia là 10 năm và có thể được điều chỉnh, bổ sung khi cần thiết.
+Điều 36. Kịch bản biến đổi khí hậu
+1. Nội dung cơ bản của kịch bản biến đổi khí hậu:
+a) Công bố của Ban liên Chính phủ về biến đổi khí hậu (IPCC) và đánh giá của Việt Nam về biểu hiện của biến đổi khí hậu trong khu vực, trên thế giới;
+b) Biểu hiện của biến đổi khí hậu tại Việt Nam;
+c) Kết quả đánh giá các kịch bản biến đổi khí hậu kỳ trước;
+d) Thay đổi về nhiệt độ, mưa, độ ẩm, nước biển dâng và các yếu tố khí tượng thủy văn khác tại Việt Nam trong tương lai theo các giả định;
+đ) Các nội dung khác có liên quan.
+2. Kỳ xây dựng, công bố kịch bản biến đổi khí hậu là 5 năm và có thể được cập nhật, điều chỉnh, bổ sung khi cần thiết.
+Điều 37. Lồng ghép kết quả giám sát biến đổi khí hậu vào chiến lược, quy hoạch, kế hoạch
+1. Nội dung lồng ghép:
+a) Sử dụng thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu trong việc đánh giá điều kiện tự nhiên, môi trường của khu vực lập chiến lược, quy hoạch, kế hoạch;
+b) Sử dụng kết quả phân tích, đánh giá những biểu hiện của biến đổi khí hậu và tác động của biến đổi khí hậu đến thiên tai, tài nguyên, môi trường, hệ sinh thái, điều kiện sống, hoạt động kinh tế - xã hội và các vấn đề liên ngành, liên vùng, liên lĩnh vực nhằm xác định các mục tiêu lâu dài của chiến lược, quy hoạch, kế hoạch;
+c) Sử dụng kết quả phân tích, đánh giá các giải pháp ứng phó với biến đổi khí hậu trong việc xác định các chỉ tiêu kinh tế - xã hội của chiến lược, quy hoạch, kế hoạch.
+2. Đối tượng lồng ghép:
+Chiến lược, quy hoạch, kế hoạch thuộc danh mục thực hiện đánh giá môi trường chiến lược phải lồng ghép kết quả giám sát biến đổi khí hậu đồng thời với việc lồng ghép nội dung ứng phó với biến đổi khí hậu theo quy định của Luật này và pháp luật về bảo vệ môi trường.
+3. Thẩm định việc lồng ghép:
+Việc thẩm định lồng ghép kết quả giám sát biến đổi khí hậu vào chiến lược, quy hoạch, kế hoạch được thực hiện đồng thời trong quá trình thẩm định báo cáo đánh giá môi trường chiến lược theo quy định của pháp luật về bảo vệ môi trường.
+Chương VI
+HOẠT ĐỘNG PHỤC VỤ, DỊCH VỤ KHÍ TƯỢNG THỦY VĂN
+Điều 38. Nội dung hoạt động phục vụ, dịch vụ khí tượng thủy văn
+1. Phục vụ khí tượng thủy văn là dịch vụ công không vì mục đích lợi nhuận, gồm:
+a) Cung cấp thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu, kịch bản biến đổi khí hậu, tin dự báo, cảnh báo khí tượng thủy văn cho các cơ quan, tổ chức của Nhà nước phục vụ xây dựng chiến lược, quy hoạch, kế hoạch phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh quốc gia;
+b) Cung cấp tin dự báo, cảnh báo thiên tai khí tượng thủy văn phục vụ phòng, chống thiên tai, tìm kiếm cứu nạn;
+c) Cung cấp tin dự báo, cảnh báo khí tượng thủy văn cho các cơ quan truyền thông phục vụ cộng đồng không vì mục đích lợi nhuận;
+d) Cung cấp thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn cho nước ngoài, tổ chức quốc tế theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+đ) Các hoạt động khí tượng thủy văn khác theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+2. Dịch vụ khí tượng thủy văn là hoạt động có thu trên cơ sở thỏa thuận giữa người cung cấp và người sử dụng dịch vụ, gồm:
+a) Cung cấp thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu, tin dự báo, cảnh báo khí tượng thủy văn theo yêu cầu không thuộc các trường hợp quy định tại khoản 1 Điều này;
+b) Xây dựng, cung cấp các sản phẩm thông tin, truyền thông về khí tượng thủy văn, biến đổi khí hậu;
+c) Hướng dẫn sử dụng thông tin, dữ liệu và ứng dụng kết quả nghiên cứu khoa học và công nghệ về khí tượng thủy văn, giám sát biến đổi khí hậu;
+d) Chuyển giao kết quả nghiên cứu khoa học và công nghệ không sử dụng kinh phí nhà nước về khí tượng thủy văn, giám sát biến đổi khí hậu;
+đ) Xây dựng, lắp đặt, hướng dẫn khai thác công trình, phương tiện đo khí tượng thủy văn;
+e) Xây dựng, cung cấp hệ thống hạ tầng kỹ thuật về dự báo, cảnh báo, truyền tin khí tượng thủy văn;
+g) Kiểm định, hiệu chuẩn, lắp đặt, sửa chữa phương tiện đo khí tượng thủy văn;
+h) Hoạt động tư vấn về khí tượng thủy văn, giám sát biến đổi khí hậu;
+i) Đào tạo nguồn nhân lực khí tượng thủy văn, giám sát biến đổi khí hậu;
+k) Các hoạt động khác liên quan đến khí tượng thủy văn, giám sát biến đổi khí hậu theo yêu cầu của cơ quan, tổ chức, cá nhân.
+Điều 39. Cơ quan, tổ chức, cá nhân thực hiện phục vụ, dịch vụ khí tượng thủy văn
+1. Cơ quan, tổ chức sự nghiệp công lập về khí tượng thủy văn thực hiện các hoạt động phục vụ khí tượng thủy văn quy định tại khoản 1 Điều 38 của Luật này.
+2. Tổ chức sự nghiệp công lập về khí tượng thủy văn cung cấp dịch vụ khí tượng thủy văn theo chức năng, nhiệm vụ do cơ quan nhà nước có thẩm quyền quy định phù hợp với quy định của Luật này và pháp luật có liên quan; được tổ chức thực hiện dự án đầu tư theo hình thức đối tác công tư trong lĩnh vực khí tượng thủy văn, khai thác các sản phẩm, dịch vụ khí tượng thủy văn của tổ chức, cá nhân khác trên cơ sở đặt hàng hoặc thỏa thuận theo quy định của pháp luật.
+Tổ chức, cá nhân khác cung cấp dịch vụ khí tượng thủy văn theo quy định của Luật này và pháp luật có liên quan.
+Điều 40. Quyền và nghĩa vụ của tổ chức sự nghiệp công lập về khí tượng thủy văn, tổ chức, cá nhân khác cung cấp dịch vụ khí tượng thủy văn
+1. Tổ chức sự nghiệp công lập về khí tượng thủy văn, tổ chức, cá nhân khác cung cấp dịch vụ khí tượng thủy văn có quyền sau đây:
+a) Được pháp luật bảo đảm quyền cung cấp dịch vụ khí tượng thủy văn;
+b) Khai thác thông tin, dữ liệu từ cơ sở dữ liệu khí tượng thủy văn quốc gia;
+c) Ký hợp đồng, liên danh, liên kết với tổ chức, cá nhân trong nước hoặc nước ngoài để cung cấp dịch vụ khí tượng thủy văn;
+d) Tham gia đấu thầu, thực hiện dự án, đề tài nghiên cứu khoa học về khí tượng thủy văn sử dụng vốn từ ngân sách nhà nước;
+đ) Tổ chức, cá nhân được định giá hàng hóa, dịch vụ khí tượng thủy văn do mình sản xuất, kinh doanh và các chi phí khác theo quy định của pháp luật;
+e) Các quyền khác theo quy định của pháp luật.
+2. Tổ chức sự nghiệp công lập về khí tượng thủy văn, tổ chức, cá nhân khác cung cấp dịch vụ khí tượng thủy văn có nghĩa vụ sau đây:
+a) Chịu trách nhiệm trước pháp luật và khách hàng về chất lượng dịch vụ khí tượng thủy văn do mình cung cấp;
+b) Chịu sự quản lý của cơ quan quản lý nhà nước về khí tượng thủy văn và các lĩnh vực liên quan;
+c) Thực hiện các nghĩa vụ về thuế, phí và lệ phí theo quy định của pháp luật;
+d) Thực hiện yêu cầu của cơ quan nhà nước có thẩm quyền về việc báo cáo, kiểm tra, thanh tra, xử lý vi phạm trong hoạt động cung cấp dịch vụ khí tượng thủy văn theo quy định của pháp luật.
+Chương VII
+TÁC ĐỘNG VÀO THỜI TIẾT
+Điều 41. Nguyên tắc tác động vào thời tiết
+1. Tác động vào thời tiết chỉ được thực hiện tại khu vực cụ thể có điều kiện tự nhiên và cơ sở hạ tầng phù hợp, trong khoảng thời gian xác định.
+2. Tác động vào thời tiết không được làm cản trở hoặc gây tác động có hại đối với hoạt động kinh tế - xã hội, quốc phòng, an ninh quốc gia.
+3. Cơ quan, tổ chức thực hiện tác động vào thời tiết phải có giải pháp bảo đảm an toàn, giảm thiểu tác động tiêu cực từ hoạt động tác động vào thời tiết.
+4. Tác động vào thời tiết chỉ được thực hiện theo kế hoạch đã được phê duyệt; phải thông báo công khai cho cộng đồng dân cư trong khu vực biết.
+Điều 42. Các trường hợp được tác động vào thời tiết
+1. Tác động nhằm gây mưa hoặc tăng lượng mưa.
+2. Tác động nhằm giảm cường độ mưa hoặc để không xảy ra mưa.
+3. Tác động nhằm phá hoặc giảm cường độ mưa đá.
+4. Tác động nhằm phá hoặc giảm cường độ sương mù.
+Điều 43. Cơ quan, tổ chức thực hiện tác động vào thời tiết
+1. Tổ chức sự nghiệp công lập về khí tượng thủy văn.
+2. Tổ chức khoa học và công nghệ, tổ chức kinh tế của Việt Nam có đủ năng lực, trình độ khoa học và công nghệ, đội ngũ kỹ thuật viên phù hợp với hoạt động tác động vào thời tiết.
+3. Cơ quan, tổ chức nước ngoài liên danh, liên kết với tổ chức quy định tại khoản 1 và khoản 2 Điều này.
+Điều 44. Xây dựng, phê duyệt kế hoạch tác động vào thời tiết và giám sát thực hiện
+1. Cơ quan, tổ chức có nhu cầu tác động vào thời tiết xây dựng kế hoạch gửi Bộ Tài nguyên và Môi trường thẩm định, phê duyệt theo thẩm quyền hoặc trình Thủ tướng Chính phủ phê duyệt.
+2. Kế hoạch tác động vào thời tiết phải bao gồm các nội dung cơ bản sau đây:
+a) Mục đích tác động vào thời tiết quy định tại Điều 42 của Luật này;
+b) Khu vực dự kiến thực hiện tác động vào thời tiết; 
+c) Thời gian dự kiến thực hiện tác động vào thời tiết; 
+d) Giải pháp thực hiện tác động vào thời tiết;
+đ) Cơ quan, tổ chức dự kiến thực hiện tác động vào thời tiết;
+e) Phương án bảo đảm an toàn, giảm thiểu tác động tiêu cực từ hoạt động tác động vào thời tiết.
+3. Cơ quan, tổ chức đề nghị tác động vào thời tiết có trách nhiệm lấy ý kiến của cộng đồng dân cư khu vực chịu ảnh hưởng trực tiếp về kế hoạch tác động vào thời tiết.
+4. Bộ Tài nguyên và Môi trường chủ trì, phối hợp Bộ Quốc phòng, Bộ Công an, Bộ Khoa học và Công nghệ thẩm định kế hoạch tác động vào thời tiết.
+5. Thủ tướng Chính phủ phê duyệt kế hoạch tác động vào thời tiết đối với trường hợp quy định tại các khoản 1, 2 và 3 Điều 42 của Luật này.
+6. Bộ Tài nguyên và Môi trường phê duyệt kế hoạch tác động vào thời tiết đối với trường hợp quy định tại khoản 4 Điều 42 của Luật này.
+7. Bộ Tài nguyên và Môi trường chủ trì, phối hợp Bộ Quốc phòng, Bộ Công an, Bộ Khoa học và Công nghệ và các cơ quan có liên quan giám sát việc thực hiện tác động vào thời tiết.
+8. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết các khoản 1, 2 và 3 Điều này.
+Chương VIII
+HỢP TÁC QUỐC TẾ VỀ HOẠT ĐỘNG KHÍ TƯỢNG THỦY VĂN
+Điều 45. Nguyên tắc hợp tác quốc tế về hoạt động khí tượng thủy văn
+1. Tôn trọng độc lập chủ quyền, toàn vẹn lãnh thổ và bảo đảm lợi ích quốc gia.
+2. Bảo đảm quyền và lợi ích chính đáng của quốc gia theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+3. Tăng cường hội nhập, nâng cao vị thế của Việt Nam trong các tổ chức quốc tế về khí tượng thủy văn, biến đổi khí hậu.
+Điều 46. Nội dung hợp tác quốc tế về hoạt động khí tượng thủy văn
+1. Trao đổi thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu với tổ chức quốc tế, tổ chức, cá nhân nước ngoài.
+2. Tham gia các hoạt động quan trắc, dự báo, điều tra, khảo sát, nghiên cứu khoa học, chuyển giao công nghệ về khí tượng thủy văn, giám sát biến đổi khí hậu trong các chương trình, dự án hợp tác đa phương, song phương, khu vực và toàn cầu.
+3. Hợp tác, trao đổi chuyên gia; đào tạo, phát triển nguồn nhân lực chất lượng cao, bồi dưỡng cán bộ tại nước ngoài, tổ chức quốc tế về khí tượng thủy văn, biến đổi khí hậu.
+4. Tổ chức, thực hiện các hoạt động hợp tác quốc tế khác về khí tượng thủy văn, biến đổi khí hậu.
+Điều 47. Cơ quan đầu mối hợp tác quốc tế về hoạt động khí tượng thủy văn
+Bộ Tài nguyên và Môi trường là cơ quan đầu mối hợp tác quốc tế về hoạt động khí tượng thủy văn.
+Điều 48. Trao đổi, cung cấp thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu với tổ chức quốc tế, tổ chức, cá nhân nước ngoài
+1. Việc trao đổi, cung cấp thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu với tổ chức quốc tế, tổ chức nước ngoài được thực hiện theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Việc trao đổi, cung cấp thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu với tổ chức quốc tế, tổ chức, cá nhân nước ngoài không thuộc điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên phải được phép của cơ quan nhà nước có thẩm quyền.
+3. Chính phủ quy định chi tiết khoản 2 Điều này.
+Chương IX
+QUẢN LÝ NHÀ NƯỚC VỀ HOẠT ĐỘNG KHÍ TƯỢNG THỦY VĂN
+Điều 49. Nội dung quản lý nhà nước về hoạt động khí tượng thủy văn
+1. Xây dựng, ban hành và tổ chức thực hiện văn bản quy phạm pháp luật, chính sách, chiến lược, quy hoạch, kế hoạch, quy chuẩn kỹ thuật, quy trình chuyên môn, định mức kinh tế - kỹ thuật về khí tượng thủy văn, giám sát biến đổi khí hậu.
+2. Quản lý mạng lưới trạm, các hoạt động quan trắc, dự báo, cảnh báo; truyền, phát tin dự báo, cảnh báo; khai thác, sử dụng thông tin, dữ liệu; phục vụ, dịch vụ khí tượng thủy văn; tác động vào thời tiết, giám sát biến đổi khí hậu.
+3. Tổ chức phổ biến pháp luật, thông tin, truyền thông, giáo dục, nâng cao nhận thức cộng đồng; đầu tư nghiên cứu khoa học và công nghệ; đào tạo, bồi dưỡng, phát triển nguồn nhân lực khí tượng thủy văn, biến đổi khí hậu.
+4. Hướng dẫn việc sử dụng thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu trong các chiến lược, quy hoạch, kế hoạch, chương trình, dự án phát triển kinh tế - xã hội; lồng ghép kết quả giám sát biến đổi khí hậu vào các chiến lược, quy hoạch, kế hoạch.
+5. Cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn.
+6. Hợp tác quốc tế về hoạt động khí tượng thủy văn.
+7. Thanh tra, kiểm tra, xử lý vi phạm pháp luật về khí tượng thủy văn; giải quyết khiếu nại, tố cáo về khí tượng thủy văn.
+Điều 50. Trách nhiệm của Chính phủ
+Chính phủ thống nhất quản lý nhà nước về hoạt động khí tượng thủy văn trong phạm vi cả nước.
+Điều 51. Trách nhiệm của Bộ trưởng Bộ Tài nguyên và Môi trường
+1. Chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về hoạt động khí tượng thủy văn trong phạm vi cả nước.
+2. Chủ trì xây dựng, trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện văn bản quy phạm pháp luật, chiến lược, quy hoạch, kế hoạch, chương trình, đề án, dự án quốc gia về khí tượng thủy văn, giám sát biến đổi khí hậu.
+3. Xây dựng, ban hành theo thẩm quyền và tổ chức thực hiện văn bản quy phạm pháp luật, quy chuẩn kỹ thuật, quy trình chuyên môn, định mức kinh tế - kỹ thuật về khí tượng thủy văn, giám sát biến đổi khí hậu.
+4. Quản lý, triển khai thực hiện quy hoạch mạng lưới trạm khí tượng thủy văn quốc gia; tổ chức bảo vệ công trình, hành lang kỹ thuật công trình khí tượng thủy văn thuộc mạng lưới trạm khí tượng thủy văn quốc gia.
+5. Quản lý, tổ chức thực hiện các hoạt động quan trắc, điều tra, khảo sát; dự báo, cảnh báo; truyền, phát tin dự báo, cảnh báo khí tượng thủy văn; lưu trữ, khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu.
+6. Xây dựng, trình cấp có thẩm quyền ban hành và tổ chức thực hiện cơ chế, chính sách về hoạt động khí tượng thủy văn.
+7. Quản lý, hướng dẫn và tổ chức thực hiện các hoạt động phục vụ, dịch vụ khí tượng thủy văn.
+8. Tổ chức phổ biến pháp luật, thông tin, truyền thông, giáo dục, nâng cao nhận thức cộng đồng về khí tượng thủy văn, biến đổi khí hậu; đầu tư nghiên cứu khoa học và công nghệ; đào tạo, bồi dưỡng, phát triển nguồn nhân lực về khí tượng thủy văn, biến đổi khí hậu.
+9. Xây dựng, quản lý cơ sở dữ liệu khí tượng thủy văn quốc gia.
+10. Quản lý, hướng dẫn việc khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu trong việc xây dựng, thực hiện chiến lược, quy hoạch, kế hoạch, chương trình, dự án phát triển kinh tế - xã hội; việc lồng ghép kết quả giám sát biến đổi khí hậu trong các chiến lược, quy hoạch, kế hoạch.
+11. Chủ trì, phối hợp với các bộ, ngành, địa phương đánh giá khí hậu quốc gia; xây dựng, hướng dẫn thực hiện kịch bản biến đổi khí hậu.
+12. Tổ chức thẩm định, phê duyệt, giám sát thực hiện kế hoạch tác động vào thời tiết theo thẩm quyền.
+13. Cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn; quản lý chất lượng phương tiện đo khí tượng thủy văn theo quy định của pháp luật.
+14. Trình Chính phủ, Thủ tướng Chính phủ việc tham gia tổ chức quốc tế, ký kết hoặc gia nhập điều ước quốc tế về khí tượng thủy văn, biến đổi khí hậu; chủ trì các hoạt động hợp tác quốc tế về hoạt động khí tượng thủy văn.
+15. Thanh tra, kiểm tra, xử lý vi phạm pháp luật về khí tượng thủy văn; giải quyết khiếu nại, tố cáo về khí tượng thủy văn theo thẩm quyền.
+Điều 52. Trách nhiệm của Bộ trưởng, Thủ trưởng cơ quan ngang bộ
+1. Bộ trưởng, Thủ trưởng cơ quan ngang bộ thực hiện nhiệm vụ được quy định tại Luật này và phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức thực hiện Luật khí tượng thủy văn thuộc phạm vi quản lý; hàng năm gửi báo cáo về hoạt động khí tượng thủy văn thuộc lĩnh vực bộ, ngành quản lý cho Bộ Tài nguyên và Môi trường để tổng hợp báo cáo Chính phủ.
+2. Trách nhiệm của các Bộ trưởng, Thủ trưởng cơ quan ngang bộ:
+a) Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức hướng dẫn cơ quan, tổ chức, cá nhân hoạt động trong lĩnh vực nông nghiệp và phát triển nông thôn khai thác, cung cấp thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn, kịch bản biến đổi khí hậu trong phòng, chống thiên tai, xây dựng và phát triển nông nghiệp, nông thôn; xây dựng và ban hành quy chuẩn kỹ thuật về xây dựng, quản lý, khai thác công trình phòng, chống thiên tai trong điều kiện biến đổi khí hậu;
+b) Bộ trưởng Bộ Quốc phòng chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường ban hành quy định trao đổi thông tin, dữ liệu khí tượng thủy văn giữa mạng lưới trạm khí tượng thủy văn chuyên dùng phục vụ quốc phòng với mạng lưới trạm khí tượng thủy văn quốc gia; phối hợp quản lý, giám sát hoạt động tác động vào thời tiết;
+c) Bộ trưởng Bộ Công an chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường ban hành quy định trao đổi thông tin, dữ liệu khí tượng thủy văn giữa mạng lưới trạm khí tượng thủy văn chuyên dùng phục vụ an ninh quốc gia với mạng lưới trạm khí tượng thủy văn quốc gia; phối hợp quản lý, giám sát hoạt động tác động vào thời tiết;
+d) Bộ trưởng Bộ Thông tin và Truyền thông chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường lập quy hoạch, ưu tiên phân bổ tần số phục vụ công tác khí tượng thủy văn, giám sát biến đổi khí hậu theo quy định của Luật này và pháp luật về tần số vô tuyến điện; xây dựng các chiến lược phát triển đồng bộ hạ tầng viễn thông, công nghệ thông tin và quy hoạch tài nguyên viễn thông phù hợp phục vụ hoạt động khí tượng thủy văn; chỉ đạo đăng tải thông tin, dữ liệu khí tượng thủy văn, giám sát biến đổi khí hậu trên các phương tiện thông tin đại chúng theo quy định của Luật này và pháp luật về báo chí;
+đ) Bộ trưởng Bộ Giao thông vận tải chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức hướng dẫn cơ quan, tổ chức, cá nhân hoạt động trong lĩnh vực giao thông vận tải khai thác, cung cấp thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn, kịch bản biến đổi khí hậu; ban hành quy định về sử dụng, trao đổi thông tin, dữ liệu khí tượng trong nước và quốc tế phục vụ hoạt động dự báo, cảnh báo khí tượng đáp ứng yêu cầu quản lý dịch vụ đảm bảo hoạt động bay hàng không dân dụng; ban hành quy chuẩn kỹ thuật về cung cấp dịch vụ khí tượng hàng không theo quy định của Luật này và pháp luật về hàng không dân dụng;
+e) Bộ trưởng Bộ Công thương chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức hướng dẫn cơ quan, tổ chức, cá nhân hoạt động trong lĩnh vực công thương khai thác, cung cấp thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn, kịch bản biến đổi khí hậu trong xây dựng, quản lý, khai thác và vận hành công trình thủy điện và các công trình khác thuộc phạm vi quản lý;
+g) Bộ trưởng Bộ Xây dựng chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức hướng dẫn cơ quan, tổ chức, cá nhân hoạt động trong lĩnh vực xây dựng khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn, kịch bản biến đổi khí hậu trong quy hoạch, xây dựng đô thị, khu công nghiệp, khu dân cư tập trung; ban hành quy chuẩn kỹ thuật về xây dựng phù hợp với điều kiện khí tượng thủy văn, biến đổi khí hậu;
+h) Bộ trưởng Bộ Khoa học và Công nghệ chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường thẩm định, công bố tiêu chuẩn quốc gia về khí tượng thủy văn, biến đổi khí hậu; phối hợp quản lý, giám sát các hoạt động tác động vào thời tiết;
+i) Bộ trưởng Bộ Giáo dục và Đào tạo chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường chỉ đạo, hướng dẫn các cơ sở giáo dục, đào tạo trong việc xây dựng, triển khai các chương trình, tài liệu giáo dục, đào tạo về vai trò, hoạt động khí tượng thủy văn;
+k) Bộ trưởng, Thủ trưởng cơ quan ngang bộ khác chủ trì, phối hợp với Bộ trưởng Bộ Tài nguyên và Môi trường tổ chức hướng dẫn, kiểm tra, đôn đốc cơ quan, tổ chức, cá nhân thuộc phạm vi quản lý của mình thực hiện các quy định về khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn, tin dự báo, cảnh báo khí tượng thủy văn, kịch bản biến đổi khí hậu, kết quả giám sát biến đổi khí hậu trong xây dựng, thực hiện chiến lược, quy hoạch, kế hoạch phát triển ngành, lĩnh vực thuộc phạm vi quản lý.
+Điều 53. Trách nhiệm của Ủy ban nhân dân các cấp
+1. Ủy ban nhân dân cấp tỉnh có trách nhiệm:
+a) Xây dựng, ban hành theo thẩm quyền và tổ chức thực hiện văn bản quy phạm pháp luật về khí tượng thủy văn, giám sát biến đổi khí hậu;
+b) Trình Hội đồng nhân dân cấp tỉnh phương án phân bổ dự toán, quản lý, sử dụng ngân sách theo quy định của pháp luật để bảo đảm thực hiện các hoạt động khí tượng thủy văn phục vụ nhu cầu phát triển kinh tế - xã hội, phòng, chống thiên tai của địa phương;
+c) Cấp, gia hạn, đình chỉ, thu hồi giấy phép hoạt động dự báo, cảnh báo khí tượng thủy văn đối với tổ chức, cá nhân theo quy định của pháp luật;
+d) Quản lý các hoạt động quan trắc, dự báo, cảnh báo, thông tin, dữ liệu, cung cấp dịch vụ khí tượng thủy văn tại địa phương;
+đ) Theo dõi, đánh giá việc khai thác, sử dụng tin dự báo, cảnh báo khí tượng thủy văn phục vụ phát triển kinh tế - xã hội, phòng, chống thiên tai trên địa bàn;
+e) Tổ chức, chỉ đạo thực hiện hoạt động thẩm định, thẩm tra, đánh giá việc khai thác, sử dụng thông tin, dữ liệu khí tượng thủy văn trong các chiến lược, quy hoạch, kế hoạch, chương trình, dự án phát triển kinh tế - xã hội; việc lồng ghép kết quả giám sát biến đổi khí hậu trong các chiến lược, quy hoạch, kế hoạch trên địa bàn thuộc phạm vi quản lý;
+g) Tổ chức đánh giá tác động của biến đổi khí hậu, xây dựng các giải pháp ứng phó với biến đổi khí hậu đối với các lĩnh vực, khu vực thuộc phạm vi quản lý;
+h) Tổ chức truyền, phát tin dự báo, cảnh báo khí tượng thủy văn thuộc phạm vi quản lý;
+i) Quản lý, lưu trữ thông tin, dữ liệu; xây dựng cơ sở dữ liệu khí tượng thủy văn thuộc phạm vi quản lý;
+k) Phổ biến, giáo dục pháp luật và tuyên truyền về khí tượng thủy văn, biến đổi khí hậu; thực hiện các biện pháp phát triển hoạt động phục vụ, dịch vụ khí tượng thủy văn trên địa bàn;
+l) Thực hiện các hoạt động hợp tác quốc tế về hoạt động khí tượng thủy văn theo thẩm quyền;
+m) Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo về khí tượng thủy văn theo thẩm quyền;
+n) Xử lý theo thẩm quyền hành vi vi phạm hành lang kỹ thuật công trình khí tượng thủy văn và các hành vi vi phạm pháp luật khác về khí tượng thủy văn trên địa bàn;
+o) Báo cáo Bộ Tài nguyên và Môi trường công tác quản lý nhà nước về hoạt động khí tượng thủy văn trên địa bàn.
+2. Ủy ban nhân dân huyện, quận, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc Trung ương có trách nhiệm:
+a) Theo dõi việc chấp hành pháp luật về khí tượng thủy văn của các cơ quan, tổ chức, cá nhân trên địa bàn;
+b) Theo dõi, đánh giá, khai thác, sử dụng tin dự báo, cảnh báo khí tượng thủy văn phục vụ phát triển kinh tế - xã hội, phòng, chống thiên tai trên địa bàn;
+c) Phổ biến, giáo dục pháp luật và tuyên truyền về khí tượng thủy văn; tham gia giải quyết, xử lý vi phạm về khí tượng thủy văn theo thẩm quyền;
+d) Tổng hợp, báo cáo Ủy ban nhân dân cấp trên trực tiếp tình hình hoạt động khí tượng thủy văn, thiệt hại do thiên tai khí tượng thủy văn gây ra trên địa bàn;
+đ) Tham gia giải quyết khiếu nại, tố cáo về khai thác, bảo vệ công trình khí tượng thủy văn trên địa bàn;
+e) Thực hiện các nhiệm vụ quản lý nhà nước về hoạt động khí tượng thủy văn theo phân cấp hoặc ủy quyền của cơ quan quản lý nhà nước cấp trên.
+3. Ủy ban nhân dân cấp xã có trách nhiệm:
+a) Tham gia bảo vệ công trình khí tượng thủy văn trên địa bàn;
+b) Phổ biến, giáo dục pháp luật và tuyên truyền về khí tượng thủy văn; tham gia giải quyết, xử lý vi phạm về khí tượng thủy văn theo thẩm quyền;
+c) Tổng hợp, báo cáo Ủy ban nhân dân cấp trên trực tiếp tình hình hoạt động khí tượng thủy văn, thiệt hại do thiên tai khí tượng thủy văn gây ra trên địa bàn;
+d) Tham gia giải quyết khiếu nại, tố cáo về khai thác, bảo vệ công trình khí tượng thủy văn trên địa bàn;
+đ) Thực hiện các nhiệm vụ quản lý nhà nước về hoạt động khí tượng thủy văn theo phân cấp hoặc ủy quyền của cơ quan quản lý nhà nước cấp trên.
+Chương X
+ĐIỀU KHOẢN THI HÀNH
+Điều 54. Bổ sung Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư
+Bổ sung vào Phụ lục 4 Danh mục ngành, nghề đầu tư kinh doanh có điều kiện của Luật đầu tư số 67/2014/QH13 như sau:
+“268. Dự báo, cảnh báo khí tượng thủy văn.”
+Điều 55. Điều khoản chuyển tiếp
+1. Hồ sơ đã được cơ quan nhà nước có thẩm quyền tiếp nhận để giải quyết theo thủ tục hành chính về hoạt động khí tượng thủy văn trước ngày Luật này có hiệu lực thi hành thì được xem xét, giải quyết theo quy định của pháp luật tại thời điểm tiếp nhận, trừ trường hợp quy định tại khoản 2 Điều này.
+2. Không thực hiện việc cấp giấy phép hoạt động đối với công trình khí tượng thủy văn chuyên dùng theo quy định của Pháp lệnh khai thác và bảo vệ công trình khí tượng thủy văn kể từ ngày Luật này được công bố.
+3. Trong thời hạn 12 tháng, kể từ ngày Luật này có hiệu lực thi hành, cơ quan, tổ chức, cá nhân đang quản lý, khai thác trạm khí tượng thủy văn chuyên dùng có trách nhiệm báo cáo về hiện trạng các trạm thuộc quyền quản lý như sau:
+a) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân cấp tỉnh báo cáo Bộ Tài nguyên và Môi trường;
+b) Tổ chức, cá nhân báo cáo Ủy ban nhân dân cấp tỉnh nơi đặt trạm để tổng hợp báo cáo Bộ Tài nguyên và Môi trường.
+Điều 56. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2016.
+2. Pháp lệnh khai thác và bảo vệ công trình khí tượng thủy văn năm 1994 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+Điều 57. Quy định chi tiết
+Chính phủ, các cơ quan có thẩm quyền quy định chi tiết các điều, khoản được giao trong Luật./.
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 10 thông qua ngày 23 tháng 11 năm 2015./.
+ 
+ 
+CHỦ TỊCH QUỐC   HỘI
+
+
+
+
+Nguyễn Sinh Hùng
+ 
+ 

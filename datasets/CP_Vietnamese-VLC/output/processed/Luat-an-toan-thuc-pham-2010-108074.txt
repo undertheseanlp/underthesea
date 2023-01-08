@@ -1,0 +1,584 @@
+QUỐC HỘI -------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập – Tự do – Hạnh phúc ---------
+Luật số: 55/2010/QH12
+Hà Nội, ngày 17 tháng 6 năm 2010
+LUẬT
+AN TOÀN THỰC PHẨM
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10; Quốc hội ban hành Luật an toàn thực phẩm.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về quyền và nghĩa vụ của tổ chức, cá nhân trong bảo đảm an toàn thực phẩm; điều kiện bảo đảm an toàn đối với thực phẩm, sản xuất, kinh doanh thực phẩm và nhập khẩu, xuất khẩu thực phẩm; quảng cáo, ghi nhãn thực phẩm; kiểm nghiệm thực phẩm; phân tích nguy cơ đối với an toàn thực phẩm; phòng ngừa, ngăn chặn và khắc phục sự cố về an toàn thực phẩm; thông tin, giáo dục, truyền thông về an toàn thực phẩm; trách nhiệm quản lý nhà nước về an toàn thực phẩm.
+Điều 2. Giải thích từ ngữ
+Trong luật này, các từ ngữ dưới đây được hiểu như sau:
+1. An toàn thực phẩm là việc bảo đảm để thực phẩm không gây hại đến sức khỏe, tính mạng con người.
+2. Bệnh truyền qua thực phẩm là bệnh do ăn, uống thực phẩm bị nhiễm tác nhân gây bệnh.
+3. Chất hỗ trợ chế biến thực phẩm là chất được chủ định sử dụng trong quá trình chế biến nguyên liệu thực phẩm hay các thành phần của thực phẩm nhằm thực hiện mục đích công nghệ, có thể được tách ra hoặc còn lại trong thực phẩm.
+4. Chế biến thực phẩm là quá trình xử lý thực phẩm đã qua sơ chế hoặc thực phẩm tươi sống theo phương pháp công nghiệp hoặc thủ công để tạo thành nguyên liệu thực phẩm hoặc sản phẩm thực phẩm.
+5. Cơ sở kinh doanh dịch vụ ăn uống là cơ sở chế biến thức ăn bao gồm cửa hàng, quầy hàng kinh doanh thức ăn ngay, thực phẩm chín, nhà hàng ăn uống, cơ sở chế biến suất ăn sẵn, căng-tin và bếp ăn tập thể.
+6. Điều kiện bảo đảm an toàn thực phẩm là những quy chuẩn kỹ thuật và những quy định khác đối với thực phẩm, cơ sở sản xuất, kinh doanh thực phẩm và hoạt động sản xuất, kinh doanh thực phẩm do cơ quan quản lý nhà nước có thẩm quyền ban hành nhằm mục đích bảo đảm thực phẩm an toàn đối với sức khoẻ, tính mạng con người.
+7. Kiểm nghiệm thực phẩm là việc thực hiện một hoặc các hoạt động thử nghiệm, đánh giá sự phù hợp với quy chuẩn kỹ thuật và tiêu chuẩn tương ứng đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, chất bổ sung vào thực phẩm, bao gói, dụng cụ, vật liệu chứa đựng thực phẩm.
+8. Kinh doanh thực phẩm là việc thực hiện một, một số hoặc tất cả các hoạt động giới thiệu, dịch vụ bảo quản, dịch vụ vận chuyển hoặc buôn bán thực phẩm.
+9. Lô sản phẩm thực phẩm là một số lượng xác định của một loại sản phẩm cùng tên, chất lượng, nguyên liệu, thời hạn sử dụng và cùng được sản xuất tại một cơ sở.
+10. Ngộ độc thực phẩm là tình trạng bệnh lý do hấp thụ thực phẩm bị ô nhiễm hoặc có chứa chất độc.
+11. Nguy cơ ô nhiễm thực phẩm là khả năng các tác nhân gây ô nhiễm xâm nhập vào thực phẩm trong quá trình sản xuất, kinh doanh.
+12. Ô nhiễm thực phẩm là sự xuất hiện tác nhân làm ô nhiễm thực phẩm gây hại đến sức khỏe, tính mạng con người.
+13. Phụ gia thực phẩm là chất được chủ định đưa vào thực phẩm trong quá trình sản xuất, có hoặc không có giá trị dinh dưỡng, nhằm giữ hoặc cải thiện đặc tính của thực phẩm.
+14. Sản xuất thực phẩm là việc thực hiện một, một số hoặc tất cả các hoạt động trồng trọt, chăn nuôi, thu hái, đánh bắt, khai thác, sơ chế, chế biến, bao gói, bảo quản để tạo ra thực phẩm.
+15. Sản xuất ban đầu là việc thực hiện một, một số hoặc tất cả các hoạt động trồng trọt, chăn nuôi, thu hái, đánh bắt, khai thác.
+16. Sơ chế thực phẩm là việc xử lý sản phẩm trồng trọt, chăn nuôi, thu hái, đánh bắt, khai thác nhằm tạo ra thực phẩm tươi sống có thể ăn ngay hoặc tạo ra nguyên liệu thực phẩm hoặc bán thành phẩm cho khâu chế biến thực phẩm.
+17. Sự cố về an toàn thực phẩm là tình huống xảy ra do ngộ độc thực phẩm, bệnh truyền qua thực phẩm hoặc các tình huống khác phát sinh từ thực phẩm gây hại trực tiếp đến sức khỏe, tính mạng con người.
+18. Tác nhân gây ô nhiễm là yếu tố không mong muốn, không được chủ động cho thêm vào thực phẩm, có nguy cơ ảnh hưởng xấu đến an toàn thực phẩm.
+19. Thời hạn sử dụng thực phẩm là thời hạn mà thực phẩm vẫn giữ được giá trị dinh dưỡng và bảo đảm an toàn trong điều kiện bảo quản được ghi trên nhãn theo hướng dẫn của nhà sản xuất.
+20. Thực phẩm là sản phẩm mà con người ăn, uống ở dạng tươi sống hoặc đã qua sơ chế, chế biến, bảo quản. Thực phẩm không bao gồm mỹ phẩm, thuốc lá và các chất sử dụng như dược phẩm.
+21. Thực phẩm tươi sống là thực phẩm chưa qua chế biến bao gồm thịt, trứng, cá, thuỷ hải sản, rau, củ, quả tươi và các thực phẩm khác chưa qua chế biến.
+22. Thực phẩm tăng cường vi chất dinh dưỡng là thực phẩm được bổ sung vitamin, chất khoáng, chất vi lượng nhằm phòng ngừa, khắc phục sự thiếu hụt các chất đó đối với sức khỏe cộng đồng hay nhóm đối tượng cụ thể trong cộng đồng.
+23. Thực phẩm chức năng là thực phẩm dùng để hỗ trợ chức năng của cơ thể con người, tạo cho cơ thể tình trạng thoải mái, tăng sức đề kháng, giảm bớt nguy cơ mắc bệnh, bao gồm thực phẩm bổ sung, thực phẩm bảo vệ sức khoẻ, thực phẩm dinh dưỡng y học.
+24. Thực phẩm biến đổi gen là thực phẩm có một hoặc nhiều thành phần nguyên liệu có gen bị biến đổi bằng công nghệ gen.
+25. Thực phẩm đã qua chiếu xạ là thực phẩm đã được chiếu xạ bằng nguồn phóng xạ để xử lý, ngăn ngừa sự biến chất của thực phẩm.
+26. Thức ăn đường phố là thực phẩm được chế biến dùng để ăn, uống ngay, trong thực tế được thực hiện thông qua hình thức bán rong, bày bán trên đường phố, nơi công cộng hoặc những nơi tương tự.
+27. Thực phẩm bao gói sẵn là thực phẩm được bao gói và ghi nhãn hoàn chỉnh, sẵn sàng để bán trực tiếp cho mục đích chế biến tiếp hoặc sử dụng để ăn ngay.
+28. Truy xuất nguồn gốc thực phẩm là việc truy tìm quá trình hình thành và lưu thông thực phẩm.
+Điều 3. Nguyên tắc quản lý an toàn thực phẩm
+1. Bảo đảm an toàn thực phẩm là trách nhiệm của mọi tổ chức, cá nhân sản xuất, kinh doanh thực phẩm.
+2. Sản xuất, kinh doanh thực phẩm là hoạt động có điều kiện; tổ chức, cá nhân sản xuất, kinh doanh thực phẩm phải chịu trách nhiệm về an toàn đối với thực phẩm do mình sản xuất, kinh doanh.
+3. Quản lý an toàn thực phẩm phải trên cơ sở quy chuẩn kỹ thuật tương ứng, quy định do cơ quan quản lý nhà nước có thẩm quyền ban hành và tiêu chuẩn do tổ chức, cá nhân sản xuất công bố áp dụng.
+4. Quản lý an toàn thực phẩm phải được thực hiện trong suốt quá trình sản xuất, kinh doanh thực phẩm trên cơ sở phân tích nguy cơ đối với an toàn thực phẩm.
+5. Quản lý an toàn thực phẩm phải bảo đảm phân công, phân cấp rõ ràng và phối hợp liên ngành.
+6. Quản lý an toàn thực phẩm phải đáp ứng yêu cầu phát triển kinh tế - xã hội.
+Điều 4. Chính sách của Nhà nước về an toàn thực phẩm
+1. Xây dựng chiến lược, quy hoạch tổng thể về bảo đảm an toàn thực phẩm, quy hoạch vùng sản xuất thực phẩm an toàn theo chuỗi cung cấp thực phẩm được xác định là nhiệm vụ trọng tâm ưu tiên.
+2. Sử dụng nguồn lực nhà nước và các nguồn lực khác đầu tư nghiên cứu khoa học và ứng dụng công nghệ phục vụ việc phân tích nguy cơ đối với an toàn thực phẩm; xây dựng mới, nâng cấp một số phòng thí nghiệm đạt tiêu chuẩn khu vực, quốc tế; nâng cao năng lực các phòng thí nghiệm phân tích hiện có; hỗ trợ đầu tư xây dựng các vùng sản xuất nguyên liệu thực phẩm an toàn, chợ đầu mối nông sản thực phẩm, cơ sở giết mổ gia súc, gia cầm quy mô công nghiệp.
+3. Khuyến khích các cơ sở sản xuất, kinh doanh thực phẩm đổi mới công nghệ, mở rộng quy mô sản xuất; sản xuất thực phẩm chất lượng cao, bảo đảm an toàn; bổ sung vi chất dinh dưỡng thiết yếu trong thực phẩm; xây dựng thương hiệu và phát triển hệ thống cung cấp thực phẩm an toàn.
+4. Thiết lập khuôn khổ pháp lý và tổ chức thực hiện lộ trình bắt buộc áp dụng hệ thống Thực hành sản xuất tốt (GMP), Thực hành nông nghiệp tốt (GAP), Thực hành vệ sinh tốt (GHP), Phân tích nguy cơ và kiểm soát điểm tới hạn (HACCP) và các hệ thống quản lý an toàn thực phẩm tiên tiến khác trong quá trình sản xuất, kinh doanh thực phẩm.
+5. Mở rộng hợp tác quốc tế, đẩy mạnh ký kết điều ước, thoả thuận quốc tế về công nhận, thừa nhận lẫn nhau trong lĩnh vực thực phẩm.
+6. Khen thưởng kịp thời tổ chức, cá nhân sản xuất, kinh doanh thực phẩm an toàn.
+7. Khuyến khích, tạo điều kiện cho hội, hiệp hội, tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài đầu tư, tham gia vào các hoạt động xây dựng tiêu chuẩn, quy chuẩn kỹ thuật, kiểm nghiệm an toàn thực phẩm.
+8. Tăng đầu tư, đa dạng các hình thức, phương thức tuyên truyền, giáo dục nâng cao nhận thức người dân về tiêu dùng thực phẩm an toàn, ý thức trách nhiệm và đạo đức kinh doanh của tổ chức, cá nhân sản xuất, kinh doanh thực phẩm đối với cộng đồng.
+Điều 5. Những hành vi bị cấm
+1. Sử dụng nguyên liệu không thuộc loại dùng cho thực phẩm để chế biến thực phẩm.
+2. Sử dụng nguyên liệu thực phẩm đã quá thời hạn sử dụng, không rõ nguồn gốc, xuất xứ hoặc không bảo đảm an toàn để sản xuất, chế biến thực phẩm.
+3. Sử dụng phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm đã quá thời hạn sử dụng, ngoài danh mục được phép sử dụng hoặc trong danh mục được phép sử dụng nhưng vượt quá giới hạn cho phép; sử dụng hóa chất không rõ nguồn gốc, hóa chất bị cấm sử dụng trong hoạt động sản xuất, kinh doanh thực phẩm.
+4. Sử dụng động vật chết do bệnh, dịch bệnh hoặc chết không rõ nguyên nhân, bị tiêu hủy để sản xuất, kinh doanh thực phẩm.
+5. Sản xuất, kinh doanh:
+a) Thực phẩm vi phạm quy định của pháp luật về nhãn hàng hóa;
+b) Thực phẩm không phù hợp với quy chuẩn kỹ thuật tương ứng;
+c) Thực phẩm bị biến chất;
+d) Thực phẩm có chứa chất độc hại hoặc nhiễm chất độc, tác nhân gây ô nhiễm vượt quá giới hạn cho phép;
+đ) Thực phẩm có bao gói, đồ chứa đựng không bảo đảm an toàn hoặc bị vỡ, rách, biến dạng trong quá trình vận chuyển gây ô nhiễm thực phẩm;
+e) Thịt hoặc sản phẩm được chế biến từ thịt chưa qua kiểm tra thú y hoặc đã qua kiểm tra nhưng không đạt yêu cầu;
+g) Thực phẩm không được phép sản xuất, kinh doanh để phòng, chống dịch bệnh;
+h) Thực phẩm chưa được đăng ký bản công bố hợp quy tại cơ quan nhà nước có thẩm quyền trong trường hợp thực phẩm đó thuộc diện phải được đăng ký bản công bố hợp quy;
+i) Thực phẩm không rõ nguồn gốc, xuất xứ hoặc quá thời hạn sử dụng.
+6. Sử dụng phương tiện gây ô nhiễm thực phẩm, phương tiện đã vận chuyển chất độc hại chưa được tẩy rửa sạch để vận chuyển nguyên liệu thực phẩm, thực phẩm.
+7. Cung cấp sai hoặc giả mạo kết quả kiểm nghiệm thực phẩm.
+8. Che dấu, làm sai lệch, xóa bỏ hiện trường, bằng chứng về sự cố an toàn thực phẩm hoặc các hành vi cố ý khác cản trở việc phát hiện, khắc phục sự cố về an toàn thực phẩm.
+9. Người mắc bệnh truyền nhiễm tham gia sản xuất, kinh doanh thực phẩm.
+10. Sản xuất, kinh doanh thực phẩm tại cơ sở không có giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm theo quy định của pháp luật.
+11. Quảng cáo thực phẩm sai sự thật, gây nhầm lẫn đối với người tiêu dùng.
+12. Đăng tải, công bố thông tin sai lệch về an toàn thực phẩm gây bức xúc cho xã hội hoặc thiệt hại cho sản xuất, kinh doanh.
+13. Sử dụng trái phép lòng đường, vỉa hè, hành lang, sân chung, lối đi chung, diện tích phụ chung để chế biến, sản xuất, kinh doanh thức ăn đường phố.
+Điều 6. Xử lý vi phạm pháp luật về an toàn thực phẩm
+1. Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm vi phạm pháp luật về an toàn thực phẩm thì tùy theo tính chất, mức độ vi phạm mà bị xử lý vi phạm hành chính hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường và khắc phục hậu quả theo quy định của pháp luật.
+2. Người lợi dụng chức vụ, quyền hạn vi phạm quy định của Luật này hoặc các quy định khác của pháp luật về an toàn thực phẩm thì tùy theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+3. Mức phạt tiền đối với vi phạm hành chính quy định tại khoản 1 Điều này được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính; trường hợp áp dụng mức phạt cao nhất theo quy định của pháp luật về xử lý vi phạm hành chính mà vẫn còn thấp hơn 07 lần giá trị thực phẩm vi phạm thì mức phạt được áp dụng không quá 07 lần giá trị thực phẩm vi phạm; tiền thu được do vi phạm mà có bị tịch thu theo quy định của pháp luật.
+4. Chính phủ quy định cụ thể về hành vi, hình thức và mức xử phạt các hành vi vi phạm hành chính trong lĩnh vực an toàn thực phẩm quy định tại Điều này.
+Chương II
+QUYỀN VÀ NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN TRONG BẢO ĐẢM AN TOÀN THỰC PHẨM
+Điều 7. Quyền và nghĩa vụ của tổ chức, cá nhân sản xuất thực phẩm
+1. Tổ chức, cá nhân sản xuất thực phẩm có các quyền sau đây:
+a) Quyết định và công bố các tiêu chuẩn sản phẩm do mình sản xuất, cung cấp; quyết định áp dụng các biện pháp kiểm soát nội bộ để bảo đảm an toàn thực phẩm;
+b) Yêu cầu tổ chức, cá nhân kinh doanh thực phẩm hợp tác trong việc thu hồi và xử lý thực phẩm không bảo đảm an toàn;
+c) Lựa chọn tổ chức đánh giá sự phù hợp, cơ sở kiểm nghiệm đã được chỉ định để chứng nhận hợp quy;
+d) Sử dụng dấu hợp chuẩn, dấu hợp quy và các dấu hiệu khác cho sản phẩm theo quy định của pháp luật;
+đ) Khiếu nại, tố cáo, khởi kiện theo quy định của pháp luật;
+e) Được bồi thường thiệt hại theo quy định của pháp luật.
+2. Tổ chức, cá nhân sản xuất thực phẩm có các nghĩa vụ sau đây:
+a) Tuân thủ các điều kiện bảo đảm an toàn đối với thực phẩm, bảo đảm an toàn thực phẩm trong quá trình sản xuất và chịu trách nhiệm về an toàn thực phẩm do mình sản xuất;
+b) Tuân thủ quy định của Chính phủ về tăng cường vi chất dinh dưỡng mà thiếu hụt sẽ ảnh hưởng đến sức khỏe cộng đồng;
+c) Thông tin đầy đủ, chính xác về sản phẩm trên nhãn, bao bì, trong tài liệu kèm theo thực phẩm theo quy định của pháp luật về nhãn hàng hóa;
+d) Thiết lập quy trình tự kiểm tra trong quá trình sản xuất thực phẩm;
+đ) Thông tin trung thực về an toàn thực phẩm; cảnh báo kịp thời, đầy đủ, chính xác về nguy
+cơ gây mất an toàn của thực phẩm, cách phòng ngừa cho người bán hàng và người tiêu dùng; thông báo yêu cầu về vận chuyển, lưu giữ, bảo quản, sử dụng thực phẩm;
+e) Kịp thời ngừng sản xuất, thông báo cho các bên liên quan và có biện pháp khắc phục hậu quả khi phát hiện thực phẩm không an toàn hoặc không phù hợp tiêu chuẩn đã công bố áp dụng, quy chuẩn kỹ thuật tương ứng;
+g) Lưu giữ hồ sơ, mẫu thực phẩm, các thông tin cần thiết theo quy định về truy xuất nguồn gốc thực phẩm; thực hiện quy định về truy xuất nguồn gốc thực phẩm không bảo đảm an toàn theo quy định tại Điều 54 của Luật này;
+h) Thu hồi, xử lý thực phẩm quá thời hạn sử dụng, không bảo đảm an toàn. Trong trường hợp xử lý bằng hình thức tiêu hủy thì việc tiêu hủy thực phẩm phải tuân theo quy định của pháp luật
+về bảo vệ môi trường, quy định khác của pháp luật có liên quan và phải chịu toàn bộ chi phí cho việc tiêu hủy đó;
+i) Tuân thủ quy định pháp luật, quyết định về thanh tra, kiểm tra của cơ quan nhà nước có thẩm quyền;
+k) Chi trả chi phí lấy mẫu và kiểm nghiệm theo quy định tại Điều 48 của Luật này;
+l) Bồi thường thiệt hại theo quy định của pháp luật khi thực phẩm không an toàn do mình sản xuất gây ra.
+Điều 8. Quyền và nghĩa vụ của tổ chức, cá nhân kinh doanh thực phẩm
+1. Tổ chức, cá nhân kinh doanh thực phẩm có các quyền sau đây:
+a) Quyết định các biện pháp kiểm soát nội bộ để duy trì chất lượng vệ sinh an toàn thực phẩm;
+b) Yêu cầu tổ chức, cá nhân sản xuất, nhập khẩu thực phẩm hợp tác trong việc thu hồi và xử lý thực phẩm không bảo đảm an toàn;
+c) Lựa chọn cơ sở kiểm nghiệm để kiểm tra an toàn thực phẩm; lựa chọn cơ sở kiểm nghiệm đã được chỉ định để chứng nhận hợp quy đối với thực phẩm nhập khẩu;
+d) Khiếu nại, tố cáo, khởi kiện theo quy định của pháp luật;
+đ) Được bồi thường thiệt hại theo quy định của pháp luật.
+2. Tổ chức, cá nhân kinh doanh thực phẩm có các nghĩa vụ sau đây:
+a) Tuân thủ các điều kiện bảo đảm an toàn đối với thực phẩm trong quá trình kinh doanh và chịu trách nhiệm về an toàn thực phẩm do mình kinh doanh;
+b) Kiểm tra nguồn gốc, xuất xứ thực phẩm, nhãn thực phẩm và các tài liệu liên quan đến an toàn thực phẩm; lưu giữ hồ sơ về thực phẩm; thực hiện quy định về truy xuất nguồn gốc thực phẩm không bảo đảm an toàn theo quy định tại Điều 54 của Luật này;
+c) Thông tin trung thực về an toàn thực phẩm; thông báo cho người tiêu dùng điều kiện bảo đảm an toàn khi vận chuyển, lưu giữ, bảo quản và sử dụng thực phẩm;
+d) Kịp thời cung cấp thông tin về nguy cơ gây mất an toàn của thực phẩm và cách phòng ngừa cho người tiêu dùng khi nhận được thông tin cảnh báo của tổ chức, cá nhân sản xuất, nhập khẩu;
+đ) Kịp thời ngừng kinh doanh, thông tin cho tổ chức, cá nhân sản xuất, nhập khẩu và người tiêu dùng khi phát hiện thực phẩm không bảo đảm an toàn;
+e) Báo cáo ngay với cơ quan có thẩm quyền và khắc phục ngay hậu quả khi phát hiện ngộ độc thực phẩm hoặc bệnh truyền qua thực phẩm do mình kinh doanh gây ra;
+g) Hợp tác với tổ chức, cá nhân sản xuất, nhập khẩu, cơ quan nhà nước có thẩm quyền trong việc điều tra ngộ độc thực phẩm để khắc phục hậu quả, thu hồi hoặc xử lý thực phẩm không bảo đảm an toàn;
+h) Tuân thủ quy định của pháp luật, quyết định về thanh tra, kiểm tra của cơ quan nhà nước có thẩm quyền;
+k) Chi trả chi phí lấy mẫu và kiểm nghiệm theo quy định tại Điều 48 của Luật này;
+l) Bồi thường thiệt hại theo quy định của pháp luật khi thực phẩm mất an toàn do mình kinh doanh gây ra.
+Điều 9. Quyền và nghĩa vụ của người tiêu dùng thực phẩm
+1. Người tiêu dùng thực phẩm có các quyền sau đây:
+a) Được cung cấp thông tin trung thực về an toàn thực phẩm, hướng dẫn sử dụng, vận chuyển, lưu giữ, bảo quản, lựa chọn, sử dụng thực phẩm phù hợp; được cung cấp thông tin về nguy
+cơ gây mất an toàn, cách phòng ngừa khi nhận được thông tin cảnh báo đối với thực phẩm;
+b) Yêu cầu tổ chức, cá nhân sản xuất, kinh doanh thực phẩm bảo vệ quyền lợi của mình theo quy định của pháp luật;
+c) Yêu cầu tổ chức bảo vệ quyền lợi người tiêu dùng bảo vệ quyền và lợi ích hợp pháp của mình theo quy định của pháp luật về bảo vệ quyền lợi người tiêu dùng;
+d) Khiếu nại, tố cáo, khởi kiện theo quy định của pháp luật;
+đ) Được bồi thường thiệt hại theo quy định của pháp luật do sử dụng thực phẩm không an toàn gây ra.
+2. Người tiêu dùng thực phẩm có các nghĩa vụ sau đây:
+a) Tuân thủ đầy đủ các quy định, hướng dẫn về an toàn thực phẩm của tổ chức, cá nhân sản xuất, kinh doanh trong vận chuyển, lưu giữ, bảo quản và sử dụng thực phẩm;
+b) Kịp thời cung cấp thông tin khi phát hiện nguy cơ gây mất an toàn thực phẩm, khai báo ngộ độc thực phẩm, bệnh truyền qua thực phẩm với Ủy ban nhân dân nơi gần nhất, cơ sở khám bệnh, chữa bệnh, cơ quan nhà nước có thẩm quyền, tổ chức, cá nhân sản xuất, kinh doanh thực phẩm;
+c) Tuân thủ quy định của pháp luật về bảo vệ môi trường trong quá trình sử dụng thực phẩm.
+Chương III
+ĐIỀU KIỆN BẢO ĐẢM AN TOÀN ĐỐI VỚI THỰC PHẨM
+Điều 10. Điều kiện chung về bảo đảm an toàn đối với thực phẩm
+1. Đáp ứng quy chuẩn kỹ thuật tương ứng, tuân thủ quy định về giới hạn vi sinh vật gây bệnh, dư lượng thuốc bảo vệ thực vật, dư lượng thuốc thú y, kim loại nặng, tác nhân gây ô nhiễm và các chất khác trong thực phẩm có thể gây hại đến sức khỏe, tính mạng con người.
+2. Tùy từng loại thực phẩm, ngoài các quy định tại khoản 1 Điều này, thực phẩm còn phải đáp ứng một hoặc một số quy định sau đây:
+a) Quy định về sử dụng phụ gia thực phẩm, chất hỗ trợ chế biến trong sản xuất, kinh doanh thực phẩm;
+b) Quy định về bao gói và ghi nhãn thực phẩm;
+c) Quy định về bảo quản thực phẩm.
+Điều 11. Điều kiện bảo đảm an toàn đối với thực phẩm tươi sống
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Bảo đảm truy xuất được nguồn gốc theo quy định tại Điều 54 của Luật này.
+3. Có chứng nhận vệ sinh thú y của cơ quan thú y có thẩm quyền đối với thực phẩm tươi sống có nguồn gốc từ động vật theo quy định của pháp luật về thú y.
+Điều 12. Điều kiện bảo đảm an toàn đối với thực phẩm đã qua chế biến
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Nguyên liệu ban đầu tạo nên thực phẩm phải bảo đảm an toàn và giữ nguyên các thuộc tính vốn có của nó; các nguyên liệu tạo thành thực phẩm không được tương tác với nhau để tạo ra các sản phẩm gây hại đến sức khoẻ, tính mạng con người.
+3. Thực phẩm đã qua chế biến bao gói sẵn phải đăng ký bản công bố hợp quy với cơ quan nhà nước có thẩm quyền trước khi lưu thông trên thị trường.
+Chính phủ quy định cụ thể việc đăng ký bản công bố hợp quy và thời hạn của bản đăng ký công bố hợp quy đối với thực phẩm đã qua chế biến bao gói sẵn.
+Điều 13. Điều kiện bảo đảm an toàn đối với thực phẩm tăng cường vi chất dinh dưỡng
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Nguyên liệu ban đầu tạo nên thực phẩm phải bảo đảm an toàn và giữ nguyên các thuộc tính vốn có của nó; các nguyên liệu tạo thành thực phẩm không được tương tác với nhau để tạo ra các sản phẩm gây hại đến sức khoẻ, tính mạng con người.
+3. Chỉ được tăng cường vi chất dinh dưỡng là vitamin, chất khoáng, chất vi lượng vào thực phẩm với hàm lượng bảo đảm không gây hại đến sức khoẻ, tính mạng con người và thuộc Danh mục theo quy định của Bộ trưởng Bộ Y tế.
+Điều 14. Điều kiện bảo đảm an toàn đối với thực phẩm chức năng
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Có thông tin, tài liệu khoa học chứng minh về tác dụng của thành phần tạo nên chức năng đã công bố.
+3. Thực phẩm chức năng lần đầu tiên đưa ra lưu thông trên thị trường phải có báo cáo thử nghiệm hiệu quả về công dụng của sản phẩm.
+4. Bộ trưởng Bộ Y tế quy định cụ thể về quản lý thực phẩm chức năng.
+Điều 15. Điều kiện bảo đảm an toàn đối với thực phẩm biến đổi gen
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Tuân thủ các quy định về bảo đảm an toàn đối với sức khỏe con người và môi trường theo quy định của Chính phủ.
+Điều 16. Điều kiện bảo đảm an toàn đối với thực phẩm đã qua chiếu xạ
+1. Tuân thủ các điều kiện quy định tại Điều 10 của Luật này.
+2. Thuộc Danh mục nhóm thực phẩm được phép chiếu xạ.
+3. Tuân thủ quy định về liều lượng chiếu xạ.
+4. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương ban hành Danh mục nhóm thực phẩm được phép chiếu xạ và liều lượng được phép chiếu xạ đối với thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 17. Điều kiện bảo đảm an toàn đối với phụ gia thực phẩm và chất hỗ trợ chế biến thực phẩm
+1. Đáp ứng quy chuẩn kỹ thuật tương ứng, tuân thủ quy định về phụ gia thực phẩm và chất hỗ trợ chế biến thực phẩm.
+2. Có hướng dẫn sử dụng ghi trên nhãn hoặc tài liệu đính kèm trong mỗi đơn vị sản phẩm bằng tiếng Việt và ngôn ngữ khác theo xuất xứ sản phẩm.
+3. Thuộc Danh mục phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm được phép sử dụng trong sản xuất, kinh doanh thực phẩm do Bộ trưởng Bộ Y tế quy định.
+4. Đăng ký bản công bố hợp quy với cơ quan nhà nước có thẩm quyền trước khi lưu thông trên thị trường.
+Chính phủ quy định cụ thể việc đăng ký bản công bố hợp quy và thời hạn của bản đăng ký công bố hợp quy đối với phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm.
+Điều 18. Điều kiện bảo đảm an toàn đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm
+1. Sản xuất từ nguyên vật liệu an toàn, bảo đảm không thôi nhiễm các chất độc hại, mùi vị lạ vào thực phẩm, bảo đảm chất lượng thực phẩm trong thời hạn sử dụng.
+2. Đáp ứng quy chuẩn kỹ thuật tương ứng, tuân thủ quy định đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm do Bộ trưởng Bộ Y tế ban hành.
+3. Đăng ký bản công bố hợp quy với cơ quan nhà nước có thẩm quyền trước khi lưu thông trên thị trường.
+Chính phủ quy định cụ thể việc đăng ký bản công bố hợp quy và thời hạn của bản đăng ký công bố hợp quy đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm.
+Chương IV
+ĐIỀU KIỆN BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG SẢN XUẤT, KINH DOANH THỰC PHẨM
+Mục 1. ĐIỀU KIỆN CHUNG VỀ BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG SẢN XUẤT, KINH DOANH THỰC PHẨM
+Điều 19. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm
+1. Cơ sở sản xuất, kinh doanh thực phẩm phải bảo đảm các điều kiện sau đây:
+a) Có địa điểm, diện tích thích hợp, có khoảng cách an toàn đối với nguồn gây độc hại, nguồn gây ô nhiễm và các yếu tố gây hại khác;
+b) Có đủ nước đạt quy chuẩn kỹ thuật phục vụ sản xuất, kinh doanh thực phẩm;
+c) Có đủ trang thiết bị phù hợp để xử lý nguyên liệu, chế biến, đóng gói, bảo quản và vận chuyển các loại thực phẩm khác nhau; có đủ trang thiết bị, dụng cụ, phương tiện rửa và khử trùng, nước sát trùng, thiết bị phòng, chống côn trùng và động vật gây hại;
+d) Có hệ thống xử lý chất thải và được vận hành thường xuyên theo quy định của pháp luật về bảo vệ môi trường;
+đ) Duy trì các điều kiện bảo đảm an toàn thực phẩm và lưu giữ hồ sơ về nguồn gốc, xuất xứ nguyên liệu thực phẩm và các tài liệu khác về toàn bộ quá trình sản xuất, kinh doanh thực phẩm;
+e) Tuân thủ quy định về sức khoẻ, kiến thức và thực hành của người trực tiếp sản xuất, kinh doanh thực phẩm.
+2. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương ban hành quy chuẩn kỹ thuật quốc gia và quy định cụ thể về điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 20. Điều kiện bảo đảm an toàn thực phẩm trong bảo quản thực phẩm
+1. Cơ sở sản xuất, kinh doanh thực phẩm phải bảo đảm các điều kiện về bảo quản thực phẩm sau đây:
+a) Nơi bảo quản và phương tiện bảo quản phải có diện tích đủ rộng để bảo quản từng loại thực phẩm riêng biệt, có thể thực hiện kỹ thuật xếp dỡ an toàn và chính xác, bảo đảm vệ sinh trong quá trình bảo quản;
+b) Ngăn ngừa được ảnh hưởng của nhiệt độ, độ ẩm, côn trùng, động vật, bụi bẩn, mùi lạ và các tác động xấu của môi trường; bảo đảm đủ ánh sáng; có thiết bị chuyên dụng điều chỉnh nhiệt độ, độ ẩm và các điều kiện khí hậu khác, thiết bị thông gió và các điều kiện bảo quản đặc biệt khác theo yêu cầu của từng loại thực phẩm;
+c) Tuân thủ các quy định về bảo quản của tổ chức, cá nhân sản xuất, kinh doanh thực phẩm.
+2. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương ban hành quy chuẩn kỹ thuật quốc gia và quy định cụ thể về điều kiện bảo đảm an toàn thực phẩm trong bảo quản thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 21. Điều kiện bảo đảm an toàn thực phẩm trong vận chuyển thực phẩm
+1. Tổ chức, cá nhân vận chuyển thực phẩm phải bảo đảm các điều kiện sau đây:
+a) Phương tiện vận chuyển thực phẩm được chế tạo bằng vật liệu không làm ô nhiễm thực phẩm hoặc bao gói thực phẩm, dễ làm sạch;
+b) Bảo đảm điều kiện bảo quản thực phẩm trong suốt quá trình vận chuyển theo hướng dẫn của tổ chức, cá nhân sản xuất, kinh doanh;
+c) Không vận chuyển thực phẩm cùng hàng hoá độc hại hoặc có thể gây nhiễm chéo ảnh hưởng đến chất lượng thực phẩm.
+2. Cơ quan quản lý nhà nước có thẩm quyền quy định về phương tiện vận chuyển thực phẩm; đường vận chuyển thực phẩm đối với một số loại thực phẩm tươi sống tại các đô thị.
+Điều 22. Điều kiện bảo đảm an toàn thực phẩm trong sản xuất, kinh doanh thực phẩm nhỏ lẻ
+1. Cơ sở sản xuất, kinh doanh thực phẩm nhỏ lẻ phải tuân thủ các điều kiện bảo đảm an toàn thực phẩm sau đây:
+a) Có khoảng cách an toàn đối với nguồn gây độc hại, nguồn gây ô nhiễm;
+b) Có đủ nước đạt quy chuẩn kỹ thuật phục vụ sản xuất, kinh doanh thực phẩm;
+c) Có trang thiết bị phù hợp để sản xuất, kinh doanh thực phẩm không gây độc hại, gây ô nhiễm cho thực phẩm;
+d) Sử dụng nguyên liệu, hóa chất, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm trong sơ chế, chế biến, bảo quản thực phẩm;
+đ) Tuân thủ quy định về sức khỏe, kiến thức và thực hành của người trực tiếp tham gia sản xuất, kinh doanh thực phẩm;
+e) Thu gom, xử lý chất thải theo đúng quy định của pháp luật về bảo vệ môi trường;
+h) Duy trì các điều kiện bảo đảm an toàn thực phẩm và lưu giữ thông tin liên quan đến việc mua bán bảo đảm truy xuất được nguồn gốc thực phẩm.
+2. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương ban hành quy chuẩn kỹ thuật quốc gia và quy định cụ thể về điều kiện bảo đảm an toàn thực phẩm trong sản xuất, kinh doanh thực phẩm nhỏ lẻ thuộc lĩnh vực được phân công quản lý.
+3. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp tỉnh) ban hành quy chuẩn kỹ thuật địa phương, quy định cụ thể điều kiện bảo đảm an toàn thực phẩm trong sản xuất, kinh doanh thực phẩm nhỏ lẻ đối với thực phẩm đặc thù trên địa bàn tỉnh.
+Mục 2. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG SẢN XUẤT, KINH DOANH THỰC PHẨM TƯƠI SỐNG
+Điều 23. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất thực phẩm tươi sống
+1. Cơ sở sản xuất thực phẩm tươi sống phải bảo đảm các điều kiện sau đây:
+a) Bảo đảm các điều kiện về đất canh tác, nguồn nước, địa điểm sản xuất để sản xuất thực phẩm an toàn;
+b) Tuân thủ các quy định của pháp luật về sử dụng giống cây trồng, giống vật nuôi; phân bón, thức ăn chăn nuôi, thuốc bảo vệ thực vật, thuốc thú y, chất kích thích tăng trưởng, chất tăng trọng, chất phát dục, chất bảo quản thực phẩm và các chất khác có liên quan đến an toàn thực phẩm;
+c) Tuân thủ quy định về kiểm dịch, vệ sinh thú y trong giết mổ động vật; về kiểm dịch thực vật đối với sản phẩm trồng trọt;
+d) Thực hiện việc xử lý chất thải theo quy định của pháp luật về bảo vệ môi trường;
+đ) Chất tẩy rửa, chất diệt khuẩn, chất khử độc khi sử dụng phải bảo đảm an toàn cho con người và môi trường;
+e) Duy trì các điều kiện bảo đảm an toàn thực phẩm, lưu giữ hồ sơ về nguồn gốc, xuất xứ nguyên liệu thực phẩm và các tài liệu khác về toàn bộ quá trình sản xuất thực phẩm tươi sống.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn quy định cụ thể điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất thực phẩm tươi sống.
+Điều 24. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm tươi sống
+1. Cơ sở kinh doanh thực phẩm tươi sống phải bảo đảm các điều kiện sau đây:
+a) Tuân thủ các điều kiện về bảo đảm an toàn đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm, điều kiện về bảo đảm an toàn trong bảo quản, vận chuyển thực phẩm quy định tại các điều 18, 20 và 21 của Luật này;
+b) Bảo đảm và duy trì vệ sinh nơi kinh doanh.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn quy định cụ thể điều kiện bảo đảm an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm tươi sống.
+Mục 3. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG SƠ CHẾ, CHẾ BIẾN THỰC PHẨM, KINH DOANH THỰC PHẨM ĐÃ QUA CHẾ BIẾN
+Điều 25. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sơ chế, chế biến thực phẩm
+1. Bảo đảm các điều kiện quy định tại Điều 19 của Luật này.
+2. Quy trình sơ chế, chế biến phải bảo đảm thực phẩm không bị ô nhiễm chéo, tiếp xúc với các yếu tố gây ô nhiễm hoặc độc hại.
+Điều 26. Điều kiện bảo đảm an toàn thực phẩm đối với nguyên liệu, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, vi chất dinh dưỡng dùng để chế biến thực phẩm
+1. Nguyên liệu dùng để chế biến thực phẩm phải còn thời hạn sử dụng, có nguồn gốc, xuất xứ rõ ràng, bảo đảm an toàn và giữ nguyên các thuộc tính vốn có của nó; các nguyên liệu tạo thành thực phẩm không được tương tác với nhau để tạo ra các sản phẩm gây hại đến sức khoẻ, tính mạng con người.
+2. Vi chất dinh dưỡng, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm được sử dụng phải tuân thủ quy định tại Điều 13 và Điều 17 của Luật này.
+Điều 27. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở kinh doanh thực phẩm đã qua chế biến
+1. Cơ sở kinh doanh thực phẩm đã qua chế biến bao gói sẵn phải bảo đảm các điều kiện sau đây:
+a) Tuân thủ quy định về ghi nhãn thực phẩm;
+b) Tuân thủ các điều kiện về bảo đảm an toàn đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm, điều kiện về bảo đảm an toàn thực phẩm trong bảo quản thực phẩm quy định tại Điều 18 và Điều 20 của Luật này;
+c) Bảo đảm và duy trì vệ sinh nơi kinh doanh;
+d) Bảo quản thực phẩm theo đúng hướng dẫn của tổ chức, cá nhân sản xuất.
+2. Cơ sở kinh doanh thực phẩm đã qua chế biến không bao gói sẵn phải bảo đảm các điều kiện sau đây:
+a) Có biện pháp bảo đảm cho thực phẩm không bị hỏng, mốc, tiếp xúc với côn trùng, động vật, bụi bẩn và các yếu tố gây ô nhiễm khác;
+b) Rửa sạch hoặc khử trùng các dụng cụ ăn uống, chứa đựng thực phẩm trước khi sử dụng đối với thực phẩm ăn ngay;
+c) Có thông tin về xuất xứ và ngày sản xuất của thực phẩm.
+Mục 4. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG KINH DOANH DỊCH VỤ ĂN UỐNG
+Điều 28. Điều kiện bảo đảm an toàn thực phẩm đối với nơi chế biến, kinh doanh dịch vụ ăn uống
+1. Bếp ăn được bố trí bảo đảm không nhiễm chéo giữa thực phẩm chưa qua chế biến và thực phẩm đã qua chế biến.
+2. Có đủ nước đạt quy chuẩn kỹ thuật phục vụ việc chế biến, kinh doanh.
+3. Có dụng cụ thu gom, chứa đựng rác thải, chất thải bảo đảm vệ sinh.
+4. Cống rãnh ở khu vực cửa hàng, nhà bếp phải thông thoát, không ứ đọng.
+5. Nhà ăn phải thoáng, mát, đủ ánh sáng, duy trì chế độ vệ sinh sạch sẽ, có biện pháp để ngăn ngừa côn trùng và động vật gây hại.
+6. Có thiết bị bảo quản thực phẩm, nhà vệ sinh, rửa tay và thu dọn chất thải, rác thải hàng ngày sạch sẽ.
+7. Người đứng đầu đơn vị có bếp ăn tập thể có trách nhiệm bảo đảm an toàn thực phẩm.
+Điều 29. Điều kiện bảo đảm an toàn thực phẩm đối với cơ sở chế biến, kinh doanh dịch vụ ăn uống
+1. Có dụng cụ, đồ chứa đựng riêng cho thực phẩm sống và thực phẩm chín.
+2. Dụng cụ nấu nướng, chế biến phải bảo đảm an toàn vệ sinh.
+3. Dụng cụ ăn uống phải được làm bằng vật liệu an toàn, rửa sạch, giữ khô.
+4. Tuân thủ quy định về sức khoẻ, kiến thức và thực hành của người trực tiếp sản xuất, kinh doanh thực phẩm.
+Điều 30. Điều kiện bảo đảm an toàn thực phẩm trong chế biến và bảo quản thực phẩm
+1. Sử dụng thực phẩm, nguyên liệu thực phẩm phải rõ nguồn gốc và bảo đảm an toàn, lưu mẫu thức ăn.
+2. Thực phẩm phải được chế biến bảo đảm an toàn, hợp vệ sinh.
+3. Thực phẩm bày bán phải để trong tủ kính hoặc thiết bị bảo quản hợp vệ sinh, chống được bụi, mưa, nắng và sự xâm nhập của côn trùng và động vật gây hại; được bày bán trên bàn hoặc giá cao hơn mặt đất.
+Mục 5. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN THỰC PHẨM TRONG KINH DOANH THỨC ĂN ĐƯỜNG PHỐ
+Điều 31. Điều kiện bảo đảm an toàn thực phẩm đối với nơi bày bán thức ăn đường phố
+1. Phải cách biệt nguồn gây độc hại, nguồn gây ô nhiễm.
+2. Phải được bày bán trên bàn, giá, kệ, phương tiện bảo đảm vệ sinh an toàn thực phẩm, mỹ quan đường phố.
+Điều 32. Điều kiện bảo đảm an toàn thực phẩm đối với nguyên liệu, dụng cụ ăn uống, chứa đựng thực phẩm và người kinh doanh thức ăn đường phố
+1. Nguyên liệu để chế biến thức ăn đường phố phải bảo đảm an toàn thực phẩm, có nguồn gốc, xuất xứ rõ ràng.
+2. Dụng cụ ăn uống, chứa đựng thực phẩm phải bảo đảm an toàn vệ sinh.
+3. Bao gói và các vật liệu tiếp xúc trực tiếp với thực phẩm không được gây ô nhiễm và thôi nhiễm vào thực phẩm.
+4. Có dụng cụ che nắng, mưa, bụi bẩn, côn trùng và động vật gây hại.
+5. Có đủ nước đạt quy chuẩn kỹ thuật phục vụ việc chế biến, kinh doanh.
+6. Tuân thủ quy định về sức khoẻ, kiến thức và thực hành đối với người trực tiếp sản xuất, kinh doanh thực phẩm.
+Điều 33. Trách nhiệm quản lý kinh doanh thức ăn đường phố
+1. Bộ trưởng Bộ Y tế quy định cụ thể điều kiện bảo đảm an toàn thực phẩm trong kinh doanh thức ăn đường phố.
+2. Ủy ban nhân dân các cấp có trách nhiệm quản lý hoạt động kinh doanh thức ăn đường phố trên địa bàn.
+Chương V
+CHỨNG NHẬN CƠ SỞ ĐỦ ĐIỀU KIỆN AN TOÀN THỰC PHẨM TRONG SẢN XUẤT, KINH DOANH THỰC PHẨM
+Điều 34. Đối tượng, điều kiện cấp, thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm
+1. Cơ sở được cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm khi có đủ các điều kiện sau đây:
+a) Có đủ điều kiện bảo đảm an toàn thực phẩm phù hợp với từng loại hình sản xuất, kinh doanh thực phẩm theo quy định tại Chương IV của Luật này;
+b) Có đăng ký ngành, nghề kinh doanh thực phẩm trong Giấy chứng nhận đăng ký kinh doanh.
+2. Tổ chức, cá nhân bị thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm khi không đủ điều kiện quy định tại khoản 1 Điều này.
+3. Chính phủ quy định cụ thể đối tượng không thuộc diện cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm.
+Điều 35. Thẩm quyền cấp, thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm
+Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn, Bộ trưởng Bộ Công thương quy định cụ thể thẩm quyền cấp, thu hồi Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 36. Hồ sơ, trình tự, thủ tục cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm
+1. Hồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm gồm có:
+a) Đơn đề nghị cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm;
+b) Bản sao Giấy chứng nhận đăng ký kinh doanh;
+c) Bản thuyết minh về cơ sở vật chất, trang thiết bị, dụng cụ bảo đảm điều kiện vệ sinh an toàn thực phẩm theo quy định của cơ quan quản lý nhà nước có thẩm quyền;
+d) Giấy xác nhận đủ sức khoẻ của chủ cơ sở và người trực tiếp sản xuất, kinh doanh thực phẩm do cơ sở y tế cấp huyện trở lên cấp;
+đ) Giấy xác nhận đã được tập huấn kiến thức về an toàn vệ sinh thực phẩm của chủ cơ sở và của người trực tiếp sản xuất, kinh doanh thực phẩm theo quy định của Bộ trưởng Bộ quản lý ngành.
+2. Trình tự, thủ tục cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm được quy định như sau:
+a) Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm nộp hồ sơ xin cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm cho cơ quan nhà nước có thẩm quyền quy định tại Điều 35 của Luật này;
+b) Trong thời hạn 15 ngày, kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan nhà nước có thẩm quyền kiểm tra thực tế điều kiện bảo đảm an toàn thực phẩm tại cơ sở sản xuất, kinh doanh thực phẩm; nếu đủ điều kiện thì phải cấp Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm; trường hợp từ chối thì phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 37. Thời hạn hiệu lực của Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm
+1. Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm có hiệu lực trong thời gian 03 năm.
+2. Trước 06 tháng tính đến ngày Giấy chứng nhận cơ sở đủ điều kiện an toàn thực phẩm hết hạn, tổ chức, cá nhân sản xuất, kinh doanh thực phẩm phải nộp hồ sơ xin cấp lại Giấy chứng nhận trong trường hợp tiếp tục sản xuất, kinh doanh. Hồ sơ, trình tự, thủ tục cấp lại được thực hiện theo quy định tại Điều 36 của Luật này.
+Chương VI
+NHẬP KHẨU VÀ XUẤT KHẨU THỰC PHẨM
+Mục 1. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN ĐỐI VỚI THỰC PHẨM NHẬP KHẨU
+Điều 38. Điều kiện bảo đảm an toàn đối với thực phẩm nhập khẩu
+1. Thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu phải tuân thủ các điều kiện tương ứng quy định tại Chương III của Luật này và các điều kiện sau đây:
+a) Phải được đăng ký bản công bố hợp quy tại cơ quan nhà nước có thẩm quyền trước khi nhập khẩu;
+b) Phải được cấp “Thông báo kết quả xác nhận thực phẩm đạt yêu cầu nhập khẩu” đối với từng lô hàng của cơ quan kiểm tra được chỉ định theo quy định của Bộ trưởng Bộ quản lý ngành.
+2. Ngoài các điều kiện quy định tại khoản 1 Điều này, thực phẩm chức năng, thực phẩm tăng cường vi chất dinh dưỡng, thực phẩm biến đổi gen, thực phẩm đã qua chiếu xạ phải có giấy chứng nhận lưu hành tự do hoặc giấy chứng nhận y tế theo quy định của Chính phủ.
+3. Trong trường hợp Việt Nam chưa có quy chuẩn kỹ thuật tương ứng đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu thì áp dụng theo thỏa thuận quốc tế, điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 39. Kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu
+1. Thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu phải được kiểm tra nhà nước về an toàn thực phẩm, trừ một số thực phẩm được miễn kiểm tra nhà nước về an toàn thực phẩm theo quy định của Chính phủ.
+2. Thực phẩm nhập khẩu từ nước có ký kết điều ước quốc tế với Việt Nam về thừa nhận lẫn nhau đối với hoạt động chứng nhận an toàn thực phẩm được áp dụng chế độ kiểm tra giảm, trừ trường hợp có cảnh báo hoặc phát hiện có dấu hiệu vi phạm các quy định của pháp luật Việt Nam về an toàn thực phẩm.
+3. Chính phủ quy định cụ thể việc miễn kiểm tra nhà nước về an toàn thực phẩm đối với một số thực phẩm nhập khẩu; trình tự, thủ tục kiểm tra nhà nước về an toàn thực phẩm tại nước sẽ xuất khẩu thực phẩm vào Việt Nam theo điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 40. Trình tự, thủ tục và phương thức kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm nhập khẩu
+1. Trình tự, thủ tục kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu được thực hiện theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa và các quy định sau đây:
+a) Chỉ được đưa về kho bảo quản chờ hoàn thành việc thông quan khi có giấy đăng ký kiểm tra an toàn thực phẩm;
+b) Chỉ được thông quan khi có xác nhận kết quả kiểm tra thực phẩm đạt yêu cầu nhập khẩu.
+2. Phương thức kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu bao gồm:
+a) Kiểm tra chặt;
+b) Kiểm tra thông thường;
+c) Kiểm tra giảm.
+3. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương quy định cụ thể cơ quan kiểm tra nhà nước về an toàn thực phẩm, việc áp dụng phương thức kiểm tra nhà nước về an toàn thực phẩm đối với thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, dụng cụ, vật liệu bao gói, chứa đựng thực phẩm nhập khẩu thuộc lĩnh vực được phân công quản lý.
+Mục 2. ĐIỀU KIỆN BẢO ĐẢM AN TOÀN ĐỐI VỚI THỰC PHẨM XUẤT KHẨU
+Điều 41. Điều kiện bảo đảm an toàn đối với thực phẩm xuất khẩu
+1. Đáp ứng các điều kiện bảo đảm an toàn thực phẩm của Việt Nam.
+2. Phù hợp với quy định về an toàn thực phẩm của nước nhập khẩu theo hợp đồng hoặc điều ước quốc tế, thỏa thuận quốc tế thừa nhận lẫn nhau về kết quả đánh giá sự phù hợp với quốc gia, vùng lãnh thổ có liên quan.
+Điều 42. Chứng nhận đối với thực phẩm xuất khẩu
+1. Cơ quan nhà nước có thẩm quyền của Việt Nam cấp giấy chứng nhận lưu hành tự do, chứng nhận y tế, chứng nhận nguồn gốc, xuất xứ hoặc giấy chứng nhận khác có liên quan đối với thực phẩm xuất khẩu trong trường hợp có yêu cầu của nước nhập khẩu.
+2. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương quy định hồ sơ, thủ tục cấp các loại giấy chứng nhận quy định tại khoản 1 Điều này thuộc lĩnh vực được phân công quản lý.
+Chương VII
+QUẢNG CÁO, GHI NHÃN THỰC PHẨM
+Điều 43. Quảng cáo thực phẩm
+1. Việc quảng cáo thực phẩm do tổ chức, cá nhân sản xuất, kinh doanh thực phẩm hoặc người kinh doanh dịch vụ quảng cáo thực hiện theo quy định của pháp luật về quảng cáo.
+2. Trước khi đăng ký quảng cáo, tổ chức, cá nhân có thực phẩm cần quảng cáo phải gửi hồ sơ tới cơ quan quản lý nhà nước có thẩm quyền để xác nhận nội dung quảng cáo.
+3. Người phát hành quảng cáo, người kinh doanh dịch vụ quảng cáo, tổ chức, cá nhân có thực phẩm quảng cáo chỉ được tiến hành quảng cáo khi đã được thẩm định nội dung và chỉ được quảng cáo đúng nội dung đã được xác nhận.
+Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương quy định cụ thể loại thực phẩm phải đăng ký quảng cáo, thẩm quyền, trình tự, thủ tục xác nhận nội dung quảng cáo thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 44. Ghi nhãn thực phẩm
+1. Tổ chức, cá nhân sản xuất, nhập khẩu thực phẩm, phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm tại Việt Nam phải thực hiện việc ghi nhãn thực phẩm theo quy định của pháp luật về nhãn hàng hóa.
+Đối với thời hạn sử dụng thực phẩm thể hiện trên nhãn thì tùy theo loại sản phẩm được ghi là “hạn sử dụng”, “sử dụng đến ngày” hoặc “sử dụng tốt nhất trước ngày”.
+2. Đối với thực phẩm chức năng, phụ gia thực phẩm, thực phẩm đã qua chiếu xạ, thực phẩm biến đổi gen, ngoài các quy định tại khoản 1 Điều này còn phải tuân thủ các quy định sau đây:
+a) Đối với thực phẩm chức năng phải ghi cụm từ “thực phẩm chức năng” và không được thể hiện dưới bất kỳ hình thức nào về tác dụng thay thế thuốc chữa bệnh;
+b) Đối với phụ gia thực phẩm phải ghi cụm từ “phụ gia thực phẩm” và các thông tin về phạm vi, liều lượng, cách sử dụng;
+c) Đối với thực phẩm đã qua chiếu xạ phải ghi cụm từ “thực phẩm đã qua chiếu xạ”;
+d) Đối với một số thực phẩm biến đổi gen phải ghi cụm từ “thực phẩm biến đổi gen”.
+3. Căn cứ điều kiện kinh tế - xã hội trong từng thời kỳ, Chính phủ quy định cụ thể về ghi nhãn thực phẩm, thời hạn sử dụng thực phẩm; quy định cụ thể thực phẩm biến đổi gen phải ghi nhãn, mức tỷ lệ thành phần thực phẩm có gen biến đổi phải ghi nhãn.
+Chương VIII
+KIỂM NGHIỆM THỰC PHẨM, PHÂN TÍCH NGUY CƠ ĐỐI VỚI AN TOÀN THỰC PHẨM, PHÒNG NGỪA, NGĂN CHẶN VÀ KHẮC PHỤC SỰ CỐ VỀ AN TOÀN THỰC PHẨM
+Mục 1. KIỂM NGHIỆM THỰC PHẨM
+Điều 45. Yêu cầu đối với việc kiểm nghiệm thực phẩm
+1. Kiểm nghiệm thực phẩm được thực hiện trong các trường hợp sau đây:
+a) Theo yêu cầu của tổ chức, cá nhân sản xuất, kinh doanh thực phẩm hoặc tổ chức, cá nhân khác có liên quan;
+b) Phục vụ hoạt động quản lý nhà nước về an toàn thực phẩm.
+Việc kiểm nghiệm thực phẩm phục vụ hoạt động quản lý nhà nước được thực hiện tại cơ sở kiểm nghiệm thực phẩm do Bộ trưởng Bộ quản lý ngành chỉ định.
+2. Việc kiểm nghiệm thực phẩm phải bảo đảm các yêu cầu sau đây:
+a) Khách quan, chính xác;
+b) Tuân thủ các quy định về chuyên môn kỹ thuật.
+Điều 46. Cơ sở kiểm nghiệm thực phẩm
+1. Cơ sở kiểm nghiệm thực phẩm phải đáp ứng các điều kiện sau đây:
+a) Có bộ máy tổ chức và năng lực kỹ thuật đáp ứng yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế đối với cơ sở kiểm nghiệm;
+b) Thiết lập và duy trì hệ thống quản lý phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế;
+c) Đăng ký hoạt động đánh giá sự phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật với cơ quan nhà nước có thẩm quyền trong trường hợp thực hiện hoạt động chứng nhận hợp chuẩn, hợp quy.
+2. Cơ sở kiểm nghiệm thực phẩm được cung cấp dịch vụ kiểm nghiệm, thu phí kiểm nghiệm và phải chịu trách nhiệm trước pháp luật về kết quả kiểm nghiệm do mình thực hiện.
+3. Bộ trưởng Bộ quản lý ngành quy định cụ thể điều kiện của cơ sở kiểm nghiệm quy định tại khoản 1 Điều này.
+Điều 47. Kiểm nghiệm phục vụ giải quyết tranh chấp về an toàn thực phẩm
+1. Cơ quan có thẩm quyền giải quyết tranh chấp chỉ định cơ sở kiểm nghiệm kiểm chứng để thực hiện kiểm nghiệm thực phẩm về nội dung tranh chấp. Kết quả kiểm nghiệm của cơ sở kiểm nghiệm kiểm chứng được sử dụng làm căn cứ giải quyết tranh chấp về an toàn thực phẩm.
+2. Cơ sở kiểm nghiệm được chỉ định làm kiểm chứng là cơ sở kiểm nghiệm của Nhà nước, có đủ điều kiện theo quy định tại khoản 1 Điều 46 của Luật này.
+3. Bộ trưởng Bộ quản lý ngành quy định điều kiện đối với cơ sở kiểm nghiệm kiểm chứng, Danh mục cơ sở kiểm nghiệm kiểm chứng đủ điều kiện hoạt động.
+Điều 48. Chi phí lấy mẫu và kiểm nghiệm thực phẩm
+1. Chi phí lấy mẫu và kiểm nghiệm thực phẩm để kiểm tra, thanh tra an toàn thực phẩm do cơ quan quyết định việc kiểm tra, thanh tra chi trả.
+2. Căn cứ kết quả kiểm nghiệm, cơ quan ra quyết định kiểm tra, thanh tra an toàn thực phẩm kết luận tổ chức, cá nhân sản xuất, kinh doanh thực phẩm vi phạm quy định của pháp luật về an toàn thực phẩm thì tổ chức, cá nhân đó phải hoàn trả chi phí lấy mẫu và kiểm nghiệm cho cơ quan kiểm tra, thanh tra.
+3. Tổ chức, cá nhân có yêu cầu lấy mẫu và kiểm nghiệm thực phẩm phải tự chi trả chi phí lấy mẫu và kiểm nghiệm.
+4. Chi phí lấy mẫu và kiểm nghiệm trong tranh chấp, khiếu nại về an toàn thực phẩm do người khởi kiện, khiếu nại chi trả. Trường hợp kết quả kiểm nghiệm khẳng định tổ chức, cá nhân sản xuất, kinh doanh thực phẩm vi phạm quy định về an toàn thực phẩm thì tổ chức, cá nhân đó phải hoàn trả chi phí lấy mẫu và kiểm nghiệm an toàn thực phẩm tranh chấp cho người khởi kiện, khiếu nại.
+Mục 2. PHÂN TÍCH NGUY CƠ ĐỐI VỚI AN TOÀN THỰC PHẨM
+Điều 49. Đối tượng phải được phân tích nguy cơ đối với an toàn thực phẩm
+1. Thực phẩm có tỷ lệ gây ngộ độc cao.
+2. Thực phẩm có kết quả lấy mẫu để giám sát cho thấy tỷ lệ vi phạm các quy chuẩn kỹ thuật về an toàn thực phẩm ở mức cao.
+3. Môi trường, cơ sở sản xuất, kinh doanh thực phẩm bị nghi ngờ gây ô nhiễm.
+4. Thực phẩm, cơ sở sản xuất, kinh doanh thực phẩm được phân tích nguy cơ theo yêu cầu quản lý.
+Điều 50. Hoạt động phân tích nguy cơ đối với an toàn thực phẩm
+1. Việc phân tích nguy cơ đối với an toàn thực phẩm bao gồm các hoạt động về đánh giá, quản lý và truyền thông về nguy cơ đối với an toàn thực phẩm.
+2. Việc đánh giá nguy cơ đối với an toàn thực phẩm bao gồm:
+a) Điều tra, xét nghiệm xác định các mối nguy đối với an toàn thực phẩm thuộc các nhóm tác nhân về vi sinh, hoá học và vật lý;
+b) Xác định nguy cơ của các mối nguy đối với an toàn thực phẩm ảnh hưởng đến sức khoẻ, mức độ và phạm vi ảnh hưởng của các mối nguy đối với sức khoẻ cộng đồng.
+3. Việc quản lý nguy cơ đối với an toàn thực phẩm bao gồm:
+a) Thực hiện các giải pháp hạn chế nguy cơ an toàn thực phẩm trong từng công đoạn của chuỗi cung cấp thực phẩm;
+b) Kiểm soát, phối hợp nhằm hạn chế nguy cơ đối với an toàn thực phẩm trong kinh doanh dịch vụ ăn uống và các hoạt động sản xuất, kinh doanh thực phẩm khác.
+4. Việc truyền thông về nguy cơ đối với an toàn thực phẩm bao gồm:
+a) Cung cấp thông tin về các biện pháp phòng tránh khi xảy ra các vụ ngộ độc thực phẩm, bệnh truyền qua thực phẩm do thực phẩm mất an toàn gây ra nhằm nâng cao nhận thức và ý thức trách nhiệm của người dân về nguy cơ đối với an toàn thực phẩm;
+b) Thông báo, dự báo nguy cơ đối với an toàn thực phẩm; xây dựng hệ thống thông tin cảnh báo nguy cơ đối với an toàn thực phẩm, các bệnh truyền qua thực phẩm.
+Điều 51. Trách nhiệm thực hiện phân tích nguy cơ đối với an toàn thực phẩm
+Bộ Y tế, Bộ Nông nghiệp và Phát triển Nông thôn, Bộ Công thương tổ chức việc phân tích nguy cơ đối với an toàn thực phẩm thuộc lĩnh vực được phân công quản lý theo quy định tại Điều 49 và Điều 50 của Luật này.
+Mục 3. PHÒNG NGỪA, NGĂN CHẶN VÀ KHẮC PHỤC SỰ CỐ VỀ AN TOÀN THỰC PHẨM
+Điều 52. Phòng ngừa, ngăn chặn sự cố về an toàn thực phẩm
+1. Tổ chức, cá nhân phát hiện dấu hiệu liên quan đến sự cố về an toàn thực phẩm có trách nhiệm thông báo ngay cho cơ sở khám bệnh, chữa bệnh, Ủy ban nhân dân địa phương nơi gần nhất hoặc cơ quan nhà nước có thẩm quyền để có biện pháp ngăn chặn kịp thời.
+2. Các biện pháp phòng ngừa, ngăn chặn sự cố về an toàn thực phẩm bao gồm:
+a) Bảo đảm an toàn trong quá trình sản xuất, kinh doanh và sử dụng thực phẩm;
+b) Giáo dục, tuyên truyền, phổ biến kiến thức và thực hành về an toàn thực phẩm cho tổ chức, cá nhân sản xuất, kinh doanh và người tiêu dùng;
+c) Kiểm tra, thanh tra an toàn thực phẩm trong sản xuất, kinh doanh thực phẩm;
+d) Phân tích nguy cơ ô nhiễm thực phẩm;
+đ) Điều tra, khảo sát và lưu trữ các số liệu về an toàn thực phẩm;
+e) Lưu mẫu thực phẩm.
+3. Ủy ban nhân dân các cấp có trách nhiệm tổ chức thực hiện các biện pháp phòng ngừa, ngăn chặn sự cố về an toàn thực phẩm trong phạm vi địa phương.
+4. Bộ Y tế, Bộ Nông nghiệp và Phát triển Nông thôn, Bộ Công thương tổ chức thực hiện chương trình giám sát, phòng ngừa, ngăn chặn sự cố an toàn thực phẩm; tổ chức thực hiện các biện pháp phòng ngừa, ngăn chặn đối với những sự cố về an toàn thực phẩm ở nước ngoài có nguy cơ ảnh hưởng đến Việt Nam thuộc lĩnh vực được phân công quản lý.
+5. Bộ Y tế chủ trì, phối hợp với các bộ, ngành có liên quan xây dựng hệ thống cảnh báo sự cố an toàn thực phẩm.
+Điều 53. Khắc phục sự cố về an toàn thực phẩm
+1. Tổ chức, cá nhân phát hiện sự cố về an toàn thực phẩm xảy ra trong nước hoặc nước ngoài nhưng có ảnh hưởng tới Việt Nam phải khai báo với cơ sở y tế, Ủy ban nhân dân địa phương nơi gần nhất hoặc Bộ Y tế, Bộ Nông nghiệp và Phát triển Nông thôn, Bộ Công thương để có biện pháp khắc phục kịp thời.
+2. Các biện pháp khắc phục sự cố về an toàn thực phẩm bao gồm:
+a) Phát hiện, cấp cứu, điều trị kịp thời cho người bị ngộ độc thực phẩm, bệnh truyền qua thực phẩm hoặc các tình huống khác phát sinh từ thực phẩm gây hại đến sức khỏe, tính mạng con người;
+b) Điều tra vụ ngộ độc thực phẩm, xác định nguyên nhân gây ngộ độc, bệnh truyền qua thực phẩm và truy xuất nguồn gốc thực phẩm gây ngộ độc, truyền bệnh;
+c) Đình chỉ sản xuất, kinh doanh; thu hồi và xử lý thực phẩm gây ngộ độc, truyền bệnh đang lưu thông trên thị trường;
+d) Thông báo ngộ độc thực phẩm và bệnh truyền qua thực phẩm cho các tổ chức, cá nhân có liên quan;
+đ) Thực hiện các biện pháp phòng ngừa nguy cơ gây ngộ độc thực phẩm, bệnh truyền qua thực phẩm.
+3. Ủy ban nhân dân các cấp có trách nhiệm tổ chức thực hiện các biện pháp khắc phục sự cố về an toàn thực phẩm trong phạm vi địa phương.
+4. Bộ trưởng Bộ Y tế có trách nhiệm:
+a) Quy định cụ thể việc khai báo sự cố về an toàn thực phẩm;
+b) Chủ trì, phối hợp với các bộ, ngành có liên quan tổ chức thực hiện các biện pháp ngăn chặn sự cố về an toàn thực phẩm xảy ra ở nước ngoài có nguy cơ ảnh hưởng tới Việt Nam.
+5. Tổ chức, cá nhân cung cấp thực phẩm mà gây ngộ độc phải chịu toàn bộ chi phí điều trị cho người bị ngộ độc và bồi thường thiệt hại theo quy định của pháp luật về dân sự.
+Mục 4. TRUY XUẤT NGUỒN GỐC THỰC PHẨM, THU HỒI VÀ XỬ LÝ ĐỐI VỚI THỰC PHẨM KHÔNG BẢO ĐẢM AN TOÀN
+Điều 54. Truy xuất nguồn gốc thực phẩm đối với thực phẩm không bảo đảm an toàn
+1. Việc truy xuất nguồn gốc thực phẩm đối với thực phẩm không bảo đảm an toàn do tổ chức, cá nhân sản xuất, kinh doanh thực phẩm thực hiện trong các trường hợp sau đây:
+a) Khi cơ quan nhà nước có thẩm quyền yêu cầu;
+b) Khi phát hiện thực phẩm do mình sản xuất, kinh doanh không bảo đảm an toàn.
+2. Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm thực hiện việc truy xuất nguồn gốc thực phẩm đối với thực phẩm không bảo đảm an toàn phải thực hiện các việc sau đây:
+a) Xác định, thông báo lô sản phẩm thực phẩm không bảo đảm an toàn;
+b) Yêu cầu các đại lý kinh doanh thực phẩm báo cáo số lượng sản phẩm của lô sản phẩm thực phẩm không bảo đảm an toàn, tồn kho thực tế và đang lưu thông trên thị trường;
+c) Tổng hợp, báo cáo cơ quan nhà nước có thẩm quyền về kế hoạch thu hồi và biện pháp xử lý.
+3. Cơ quan nhà nước có thẩm quyền có trách nhiệm kiểm tra, giám sát việc thực hiện truy xuất nguồn gốc thực phẩm đối với thực phẩm không bảo đảm an toàn.
+Điều 55. Thu hồi và xử lý đối với thực phẩm không bảo đảm an toàn
+1. Thực phẩm phải được thu hồi trong các trường hợp sau đây:
+a) Thực phẩm hết thời hạn sử dụng mà vẫn bán trên thị trường;
+b) Thực phẩm không phù hợp với quy chuẩn kỹ thuật tương ứng;
+c) Thực phẩm là sản phẩm công nghệ mới chưa được phép lưu hành;
+d) Thực phẩm bị hư hỏng trong quá trình bảo quản, vận chuyển, kinh doanh;
+đ) Thực phẩm có chất cấm sử dụng hoặc xuất hiện tác nhân gây ô nhiễm vượt mức giới hạn quy định;
+e) Thực phẩm nhập khẩu bị cơ quan có thẩm quyền nước xuất khẩu, nước khác hoặc tổ chức quốc tế thông báo có chứa tác nhân gây ô nhiễm gây hại đến sức khoẻ, tính mạng con người.
+2. Thực phẩm không bảo đảm an toàn bị thu hồi theo các hình thức sau đây:
+a) Thu hồi tự nguyện do tổ chức, cá nhân sản xuất, kinh doanh thực phẩm tự thực hiện;
+b) Thu hồi bắt buộc do cơ quan nhà nước có thẩm quyền yêu cầu đối với tổ chức, cá nhân sản xuất, kinh doanh thực phẩm không bảo đảm an toàn.
+3. Các hình thức xử lý thực phẩm không bảo đảm an toàn bao gồm:
+a) Khắc phục lỗi của sản phẩm, lỗi ghi nhãn;
+b) Chuyển mục đích sử dụng;
+c) Tái xuất;
+d) Tiêu hủy.
+4. Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm không bảo đảm an toàn có trách nhiệm công bố thông tin về sản phẩm bị thu hồi và chịu trách nhiệm thu hồi, xử lý thực phẩm không bảo đảm an toàn trong thời hạn do cơ quan nhà nước có thẩm quyền quyết định; chịu mọi chi phí cho việc thu hồi, xử lý thực phẩm không bảo đảm an toàn.
+Trong trường hợp quá thời hạn thu hồi mà tổ chức, cá nhân sản xuất, kinh doanh thực phẩm không thực hiện việc thu hồi thì bị cưỡng chế thu hồi theo quy định của pháp luật.
+5. Cơ quan nhà nước có thẩm quyền có trách nhiệm:
+a) Căn cứ vào mức độ vi phạm về điều kiện bảo đảm an toàn, quyết định việc thu hồi, xử lý thực phẩm không bảo đảm an toàn, thời hạn hoàn thành việc thu hồi, xử lý thực phẩm không bảo đảm an toàn;
+b) Kiểm tra việc thu hồi thực phẩm không bảo đảm an toàn;
+c) Xử lý vi phạm pháp luật về an toàn thực phẩm theo thẩm quyền do pháp luật quy định;
+d) Trong trường hợp thực phẩm có nguy cơ gây ảnh hưởng nghiêm trọng đối với sức khỏe cộng đồng hoặc các trường hợp khẩn cấp khác, cơ quan nhà nước có thẩm quyền trực tiếp tổ chức thu hồi, xử lý thực phẩm và yêu cầu tổ chức, cá nhân sản xuất, kinh doanh thực phẩm không bảo đảm an toàn thanh toán chi phí cho việc thu hồi, xử lý thực phẩm.
+6. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ Nông nghiệp và Phát triển Nông thôn, Bộ trưởng Bộ Công thương quy định cụ thể việc thu hồi và xử lý đối với thực phẩm không bảo đảm an toàn thuộc lĩnh vực được phân công quản lý.
+Chương IX
+THÔNG TIN, GIÁO DỤC, TRUYỀN THÔNG VỀ AN TOÀN THỰC PHẨM
+Điều 56. Mục đích, yêu cầu của thông tin, giáo dục, truyền thông về an toàn thực phẩm
+1. Thông tin, giáo dục, truyền thông về an toàn thực phẩm nhằm nâng cao nhận thức về an toàn thực phẩm, thay đổi hành vi, phong tục, tập quán sản xuất, kinh doanh, sinh hoạt, ăn uống lạc hậu, gây mất an toàn thực phẩm, góp phần bảo vệ sức khỏe, tính mạng con người; đạo đức kinh doanh, ý thức trách nhiệm của tổ chức, cá nhân sản xuất, kinh doanh với sức khỏe, tính mạng của người tiêu dùng thực phẩm.
+2. Việc cung cấp thông tin, giáo dục, truyền thông về an toàn thực phẩm phải bảo đảm các yêu cầu sau đây:
+a) Chính xác, kịp thời, rõ ràng, đơn giản, thiết thực;
+b) Phù hợp với truyền thống, văn hoá, bản sắc dân tộc, tôn giáo, đạo đức xã hội, tín ngưỡng và phong tục tập quán;
+c) Phù hợp với từng loại đối tượng được tuyên truyền.
+Điều 57. Nội dung thông tin, giáo dục, truyền thông về an toàn thực phẩm
+1. Thông tin, tuyên truyền, phổ biến kiến thức, pháp luật về an toàn thực phẩm.
+2. Nguyên nhân, cách nhận biết nguy cơ gây ngộ độc thực phẩm, bệnh truyền qua thực phẩm và các biện pháp phòng, chống sự cố về an toàn thực phẩm.
+3. Thông tin về các điển hình sản xuất, kinh doanh thực phẩm bảo đảm an toàn; việc thu hồi thực phẩm không bảo đảm an toàn, xử lý đối với cơ sở vi phạm nghiêm trọng pháp luật về an toàn thực phẩm.
+Điều 58. Đối tượng tiếp cận thông tin, giáo dục, truyền thông về an toàn thực phẩm
+1. Tổ chức, cá nhân được quyền tiếp cận thông tin, giáo dục, truyền thông về an toàn thực phẩm.
+2. Ưu tiên tiếp cận thông tin, giáo dục, truyền thông về an toàn thực phẩm cho các đối tượng sau đây:
+a) Người tiêu dùng thực phẩm;
+b) Người quản lý, điều hành các cơ sở sản xuất, kinh doanh thực phẩm; người trực tiếp sản xuất, kinh doanh thực phẩm;
+c) Tổ chức, cá nhân sản xuất, kinh doanh thực phẩm tươi sống, sản xuất, kinh doanh thực phẩm nhỏ lẻ; người dân khu vực có điều kiện kinh tế - xã hội đặc biệt khó khăn.
+Điều 59. Hình thức thông tin, giáo dục, truyền thông về an toàn thực phẩm
+1. Thực hiện thông qua các cơ quan nhà nước có thẩm quyền về an toàn thực phẩm.
+2. Thông qua các phương tiện thông tin đại chúng.
+3. Lồng ghép trong việc giảng dạy, học tập tại các cơ sở giáo dục thuộc hệ thống giáo dục quốc dân.
+4. Thông qua hoạt động văn hóa, sinh hoạt cộng đồng, sinh hoạt của các đoàn thể, tổ chức xã hội và các loại hình văn hoá quần chúng khác.
+5. Thông qua điểm hỏi đáp về an toàn thực phẩm tại các Bộ quản lý ngành.
+Điều 60. Trách nhiệm trong thông tin, giáo dục, truyền thông về an toàn thực phẩm
+1. Cơ quan, tổ chức, đơn vị trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm thông tin, giáo dục, truyền thông về an toàn thực phẩm.
+2. Bộ trưởng Bộ Y tế, Bộ trưởng Bộ quản lý ngành và Thủ trưởng cơ quan ngang bộ có liên quan có trách nhiệm chỉ đạo các cơ quan hữu quan cung cấp chính xác và khoa học các thông tin về an toàn thực phẩm; kịp thời phản hồi thông tin không đúng sự thật về an toàn thực phẩm.
+3. Bộ trưởng Bộ Thông tin và Truyền thông có trách nhiệm chỉ đạo các cơ quan thông tin đại chúng thường xuyên thông tin, truyền thông về an toàn thực phẩm, lồng ghép chương trình thông tin, truyền thông về an toàn thực phẩm với các chương trình thông tin, truyền thông khác.
+4. Bộ trưởng Bộ Giáo dục và Đào tạo có trách nhiệm chủ trì, phối hợp với Bộ trưởng Bộ Y tế, Bộ trưởng Bộ quản lý ngành và Thủ trưởng cơ quan ngang bộ có liên quan xây dựng nội dung giáo dục an toàn thực phẩm kết hợp với các nội dung giáo dục khác.
+5. Ủy ban nhân dân các cấp có trách nhiệm tổ chức thực hiện công tác thông tin, giáo dục, truyền thông về an toàn thực phẩm cho nhân dân trên địa bàn.
+6. Các cơ quan thông tin đại chúng có trách nhiệm ưu tiên về thời điểm, thời lượng phát sóng để thông tin, giáo dục, truyền thông về an toàn thực phẩm trên đài phát thanh, đài truyền hình; dung lượng và vị trí đăng trên báo in, báo hình, báo điện tử theo quy định của Bộ trưởng Bộ Thông tin và Truyền thông. Việc thông tin, giáo dục, truyền thông về an toàn thực phẩm trên các phương tiện thông tin đại chúng không thu phí, trừ trường hợp thực hiện theo hợp đồng riêng với chương trình, dự án hoặc do tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài tài trợ.
+7. Mặt trận Tổ quốc Việt Nam, các đoàn thể, tổ chức xã hội có trách nhiệm thông tin, giáo dục, truyền thông về an toàn thực phẩm thuộc phạm vi trách nhiệm của mình.
+Chương X
+QUẢN LÝ NHÀ NƯỚC VỀ AN TOÀN THỰC PHẨM
+Mục 1. TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ AN TOÀN THỰC PHẨM
+Điều 61. Trách nhiệm quản lý nhà nước về an toàn thực phẩm
+1. Chính phủ thống nhất quản lý nhà nước về an toàn thực phẩm.
+2. Bộ Y tế chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về an toàn thực phẩm.
+3. Các bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với Bộ Y tế thực hiện quản lý nhà nước về an toàn thực phẩm.
+4. Ủy ban nhân dân các cấp thực hiện quản lý nhà nước về an toàn thực phẩm trong phạm vi địa phương.
+Điều 62. Trách nhiệm quản lý nhà nước về an toàn thực phẩm của Bộ Y tế
+1. Trách nhiệm chung:
+a) Chủ trì xây dựng, trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện chiến lược quốc gia, quy hoạch tổng thể về an toàn thực phẩm;
+b) Ban hành quy chuẩn kỹ thuật quốc gia về chỉ tiêu và mức giới hạn an toàn đối với sản phẩm thực phẩm; dụng cụ, vật liệu bao gói, chứa đựng thực phẩm;
+c) Yêu cầu các bộ, ngành, Ủy ban nhân dân cấp tỉnh báo cáo định kỳ, đột xuất về công tác quản lý an toàn thực phẩm;
+d) Quy định về điều kiện chung bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm;
+đ) Chủ trì tổ chức thực hiện công tác tuyên truyền, giáo dục pháp luật về an toàn thực phẩm; cảnh báo sự cố ngộ độc thực phẩm;
+e) Thanh tra, kiểm tra đột xuất đối với toàn bộ quá trình sản xuất, nhập khẩu, kinh doanh thực phẩm thuộc phạm vi quản lý của các bộ khác khi cần thiết.
+2. Trách nhiệm trong quản lý ngành:
+a) Chủ trì xây dựng, ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện chiến lược, chính sách, quy hoạch, kế hoạch và văn bản quy phạm pháp luật về an toàn thực phẩm thuộc lĩnh vực được phân công quản lý;
+b) Quản lý an toàn thực phẩm trong suốt quá trình sản xuất, sơ chế, chế biến, bảo quản, vận chuyển, xuất khẩu, nhập khẩu, kinh doanh đối với phụ gia thực phẩm, chất hỗ trợ chế biến thực phẩm, nước uống đóng chai, nước khoáng thiên nhiên, thực phẩm chức năng và các thực phẩm khác theo quy định của Chính phủ;
+c) Quản lý an toàn thực phẩm đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm trong quá trình sản xuất, chế biến, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý;
+d) Thanh tra, kiểm tra, xử lý vi phạm pháp luật về an toàn thực phẩm trong quá trình sản xuất, xuất khẩu, nhập khẩu, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 63. Trách nhiệm của Bộ Nông nghiệp và Phát triển Nông thôn
+1. Chủ trì xây dựng, ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện các chính sách, chiến lược, quy hoạch, kế hoạch, văn bản quy phạm pháp luật về an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.
+2. Quản lý an toàn thực phẩm đối với sản xuất ban đầu nông, lâm, thủy sản, muối.
+3. Quản lý an toàn thực phẩm trong suốt quá trình sản xuất, thu gom, giết mổ, sơ chế, chế biến, bảo quản, vận chuyển, xuất khẩu, nhập khẩu, kinh doanh đối với ngũ cốc, thịt và các sản phẩm từ thịt, thủy sản và sản phẩm thủy sản, rau, củ, quả và sản phẩm rau, củ, quả, trứng và các sản phẩm từ trứng, sữa tươi nguyên liệu, mật ong và các sản phẩm từ mật ong, thực phẩm biến đổi gen, muối và các nông sản thực phẩm khác theo quy định của Chính phủ.
+4. Quản lý an toàn thực phẩm đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm trong quá trình sản xuất, chế biến, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+5. Báo cáo định kỳ, đột xuất về công tác quản lý an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.
+6. Thanh tra, kiểm tra, xử lý vi phạm pháp luật về an toàn thực phẩm trong quá trình sản xuất, xuất khẩu, nhập khẩu, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 64. Trách nhiệm của Bộ Công thương
+1. Chủ trì xây dựng, ban hành hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện các chính sách, chiến lược, quy hoạch, kế hoạch, văn bản quy phạm pháp luật về an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.
+2. Quản lý an toàn thực phẩm trong suốt quá trình sản xuất, chế biến, bảo quản, vận chuyển, xuất khẩu, nhập khẩu, kinh doanh đối với các loại rượu, bia, nước giải khát, sữa chế biến, dầu thực vật, sản phẩm chế biến bột và tinh bột và các thực phẩm khác theo quy định của Chính phủ.
+3. Quản lý an toàn thực phẩm đối với dụng cụ, vật liệu bao gói, chứa đựng thực phẩm trong quá trình sản xuất, chế biến, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+4. Ban hành chính sách, quy hoạch về chợ, siêu thị, quy định điều kiện kinh doanh thực phẩm tại các chợ, siêu thị.
+5. Chủ trì việc phòng chống thực phẩm giả, gian lận thương mại trong lưu thông, kinh doanh thực phẩm.
+6. Báo cáo định kỳ, đột xuất về công tác quản lý an toàn thực phẩm thuộc lĩnh vực được phân công quản lý.
+7. Thanh tra, kiểm tra, xử lý vi phạm pháp luật về an toàn thực phẩm trong quá trình sản xuất, xuất khẩu, nhập khẩu, kinh doanh thực phẩm thuộc lĩnh vực được phân công quản lý.
+Điều 65. Trách nhiệm quản lý nhà nước của Ủy ban nhân dân các cấp
+1. Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật, quy chuẩn kỹ thuật địa phương; xây dựng và tổ chức thực hiện quy hoạch vùng, cơ sở sản xuất thực phẩm an toàn để bảo đảm việc quản lý được thực hiện trong toàn bộ chuỗi cung cấp thực phẩm.
+2. Chịu trách nhiệm quản lý an toàn thực phẩm trên địa bàn; quản lý điều kiện bảo đảm an toàn thực phẩm đối với cơ sở sản xuất, kinh doanh thực phẩm nhỏ lẻ, thức ăn đường phố, cơ sở kinh doanh, dịch vụ ăn uống, an toàn thực phẩm tại các chợ trên địa bàn và các đối tượng theo phân cấp quản lý.
+3. Báo cáo định kỳ, đột xuất về công tác quản lý an toàn thực phẩm trên địa bàn.
+4. Bố trí nguồn lực, tổ chức bồi dưỡng nâng cao chất lượng nhân lực cho công tác bảo đảm an toàn thực phẩm trên địa bàn.
+5. Tổ chức tuyên truyền, giáo dục, truyền thông, nâng cao nhận thức về an toàn thực phẩm, ý thức chấp hành pháp luật về quản lý an toàn thực phẩm, ý thức trách nhiệm của tổ chức, cá nhân sản xuất, kinh doanh thực phẩm đối với cộng đồng, ý thức của người tiêu dùng thực phẩm.
+6. Thanh tra, kiểm tra, xử lý vi phạm pháp luật về an toàn thực phẩm trên địa bàn quản lý.
+Mục 2. THANH TRA AN TOÀN THỰC PHẨM
+Điều 66. Thanh tra về an toàn thực phẩm
+1. Thanh tra về an toàn thực phẩm là thanh tra chuyên ngành. Thanh tra an toàn thực phẩm do ngành y tế, ngành nông nghiệp và phát triển nông thôn, ngành công thương thực hiện theo quy định của pháp luật về thanh tra.
+2. Chính phủ quy định việc phối hợp giữa các lực lượng thanh tra an toàn thực phẩm của các bộ, cơ quan ngang bộ với một số lực lượng khác trong việc bảo đảm an toàn thực phẩm.
+Điều 67. Nội dung thanh tra về an toàn thực phẩm
+1. Việc thực hiện các quy chuẩn kỹ thuật, quy định về an toàn thực phẩm đối với sản xuất, kinh doanh thực phẩm và sản phẩm thực phẩm do cơ quan quản lý nhà nước có thẩm quyền ban hành.
+2. Việc thực hiện các tiêu chuẩn có liên quan đến an toàn thực phẩm do tổ chức, cá nhân sản xuất công bố áp dụng đối với sản xuất, kinh doanh thực phẩm và sản phẩm thực phẩm.
+3. Hoạt động quảng cáo, ghi nhãn đối với thực phẩm thuộc phạm vi quản lý.
+4. Hoạt động chứng nhận hợp quy, kiểm nghiệm an toàn thực phẩm.
+5. Việc thực hiện các quy định khác của pháp luật về an toàn thực phẩm.
+Mục 3. KIỂM TRA AN TOÀN THỰC PHẨM
+Điều 68. Trách nhiệm kiểm tra an toàn thực phẩm
+1. Cơ quan quản lý an toàn thực phẩm thuộc Bộ quản lý ngành thực hiện việc kiểm tra an toàn thực phẩm trong sản xuất, kinh doanh thực phẩm theo quy định tại các điều 61, 62, 63 và 64 của Luật này.
+2. Cơ quan quản lý an toàn thực phẩm thuộc Ủy ban nhân dân cấp tỉnh thực hiện việc kiểm tra an toàn thực phẩm trong phạm vi địa phương theo quy định của Bộ quản lý ngành và sự phân công của Ủy ban nhân dân cấp tỉnh.
+3. Trong trường hợp kiểm tra liên ngành về an toàn thực phẩm có liên quan đến phạm vi quản lý của nhiều ngành hoặc địa phương, cơ quan chủ trì thực hiện kiểm tra có trách nhiệm phối hợp với cơ quan hữu quan thuộc các bộ, cơ quan ngang bộ, Ủy ban nhân dân cấp tỉnh có liên quan để thực hiện.
+4. Hoạt động kiểm tra an toàn thực phẩm phải bảo đảm nguyên tắc:
+a) Khách quan, chính xác, công khai, minh bạch, không phân biệt đối xử;
+b) Bảo vệ bí mật thông tin, tài liệu, kết quả kiểm tra liên quan đến cơ quan, tổ chức, cá nhân sản xuất, kinh doanh thực phẩm được kiểm tra khi chưa có kết luận chính thức;
+c) Không được sách nhiễu, gây phiền hà cho tổ chức, cá nhân sản xuất, kinh doanh thực phẩm;
+d) Chịu trách nhiệm trước pháp luật về kết quả kiểm tra, kết luận có liên quan.
+5. Bộ trưởng Bộ quản lý ngành quy định cụ thể về hoạt động kiểm tra an toàn thực phẩm trong phạm vi quản lý nhà nước được phân công.
+Điều 69. Quyền hạn và nhiệm vụ của cơ quan quản lý an toàn thực phẩm trong kiểm tra an toàn thực phẩm
+1. Trong phạm vi nhiệm vụ, quyền hạn của mình, cơ quan quản lý an toàn thực phẩm có các quyền sau đây trong kiểm tra an toàn thực phẩm:
+a) Quyết định thành lập đoàn kiểm tra thực hiện công tác kiểm tra theo kế hoạch hoặc đột xuất;
+b) Cảnh báo nguy cơ không bảo đảm an toàn thực phẩm;
+c) Xử lý vi phạm trong quá trình kiểm tra an toàn thực phẩm theo quy định tại các điều 30, 36 và 40 của Luật chất lượng sản phẩm, hàng hóa;
+d) Giải quyết khiếu nại, tố cáo về quyết định của đoàn kiểm tra, hành vi của thành viên đoàn kiểm tra theo quy định của pháp luật về khiếu nại, tố cáo.
+2. Trong phạm vi nhiệm vụ, quyền hạn của mình, cơ quan quản lý an toàn thực phẩm có nhiệm vụ sau đây:
+a) Xây dựng kế hoạch kiểm tra hằng năm trình cơ quan nhà nước có thẩm quyền quyết định;
+b) Tiếp nhận hồ sơ đăng ký kiểm tra an toàn thực phẩm nhập khẩu; xác nhận điều kiện bảo đảm an toàn thực phẩm đối với thực phẩm nhập khẩu;
+c) Ra quyết định xử lý chậm nhất trong thời hạn 03 ngày làm việc, kể từ ngày nhận được báo cáo của đoàn kiểm tra về việc tạm đình chỉ hoạt động sản xuất, kinh doanh, niêm phong thực phẩm, tạm dừng việc quảng cáo đối với thực phẩm không bảo đảm an toàn.
+Điều 70. Đoàn kiểm tra
+1. Đoàn kiểm tra do Thủ trưởng cơ quan quản lý an toàn thực phẩm quyết định thành lập trên cơ sở chương trình, kế hoạch kiểm tra đã được cơ quan nhà nước có thẩm quyền phê duyệt hoặc trong trường hợp có yêu cầu kiểm tra đột xuất.
+2. Trong quá trình kiểm tra an toàn thực phẩm, đoàn kiểm tra có những nhiệm vụ, quyền hạn sau đây:
+a) Yêu cầu tổ chức, cá nhân sản xuất, kinh doanh thực phẩm xuất trình các tài liệu liên quan và xử lý vi phạm trong quá trình kiểm tra theo quy định tại Điều 30 và Điều 40 của Luật chất lượng sản phẩm, hàng hóa; cung cấp bản sao các tài liệu quy định tại khoản này khi cần thiết;
+b) Lấy mẫu để kiểm nghiệm khi cần thiết;
+c) Niêm phong thực phẩm, tạm dừng bán thực phẩm không phù hợp, tạm dừng quảng cáo thực phẩm có nội dung không phù hợp trong quá trình kiểm tra trên thị trường và phải báo cáo cơ quan quản lý an toàn thực phẩm trong thời hạn không quá 24 giờ, kể từ khi niêm phong thực phẩm, tạm dừng bán thực phẩm không phù hợp, tạm dừng quảng cáo;
+d) Yêu cầu tổ chức, cá nhân sản xuất, kinh doanh thực phẩm không phù hợp với tiêu chuẩn
+đã công bố áp dụng, quy chuẩn kỹ thuật, quy định về điều kiện tương ứng có biện pháp khắc phục, sửa chữa;
+đ) Kiến nghị cơ quan quản lý an toàn thực phẩm xử lý theo thẩm quyền quy định tại Điều 69 của Luật này;
+e) Bảo đảm nguyên tắc kiểm tra quy định tại khoản 4 Điều 68 của Luật này khi tiến hành kiểm tra;
+g) Báo cáo chính xác và kịp thời kết quả kiểm tra cho cơ quan quản lý an toàn thực phẩm.
+Chương XI
+ĐIỀU KHOẢN THI HÀNH
+Điều 71. Hiệu lực thi hành
+Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2011.
+Pháp lệnh vệ sinh an toàn thực phẩm số 12/2003/PL-UBTVQH11 hết hiệu lực kể từ ngày Luật này có hiệu lực.
+Điều 72. Quy định chi tiết và hướng dẫn thi hành
+Chính phủ quy định chi tiết và hướng dẫn thi hành các điều, khoản được giao trong Luật; hướng dẫn những nội dung cần thiết khác của Luật này để đáp ứng yêu cầu quản lý nhà nước.
+Luật này đã được Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam khoá XII, kỳ họp thứ 7 thông qua ngày 17 tháng 6 năm 2010.
+CHỦ TỊCH QUỐC HỘI
+Nguyễn Phú Trọng

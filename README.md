@@ -250,18 +250,19 @@ List resources
 
 ```bash
 $ underthesea list-data
-| Name                | Type        | License | Year | Directory                    |
-|---------------------+-------------+---------+------+------------------------------|
-| UIT_ABSA_RESTAURANT | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_RESTAURANT |
-| UIT_ABSA_HOTEL      | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_HOTEL      |
-| SE_Vietnamese-UBS   | Sentiment   | Open    | 2020 | datasets/SE_Vietnamese-UBS   |
-| CP_Vietnamese-UNC   | Plaintext   | Open    | 2020 | datasets/CP_Vietnamese-UNC   |
-| DI_Vietnamese-UVD   | Dictionary  | Open    | 2020 | datasets/DI_Vietnamese-UVD   |
-| UTS2017-BANK        | Categorized | Open    | 2017 | datasets/UTS2017-BANK        |
-| VNTQ_SMALL          | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNTQ_BIG            | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNESES              | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNTC                | Categorized | Open    | 2007 | datasets/VNTC                |
+| Name                      | Type        | License | Year | Directory                          |
+|---------------------------+-------------+---------+------+------------------------------------|
+| CP_Vietnamese_VLC_v2_2022 | Plaintext   | Open    | 2023 | datasets/CP_Vietnamese_VLC_v2_2022 |
+| UIT_ABSA_RESTAURANT       | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_RESTAURANT       |
+| UIT_ABSA_HOTEL            | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_HOTEL            |
+| SE_Vietnamese-UBS         | Sentiment   | Open    | 2020 | datasets/SE_Vietnamese-UBS         |
+| CP_Vietnamese-UNC         | Plaintext   | Open    | 2020 | datasets/CP_Vietnamese-UNC         |
+| DI_Vietnamese-UVD         | Dictionary  | Open    | 2020 | datasets/DI_Vietnamese-UVD         |
+| UTS2017-BANK              | Categorized | Open    | 2017 | datasets/UTS2017-BANK              |
+| VNTQ_SMALL                | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNTQ_BIG                  | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNESES                    | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNTC                      | Categorized | Open    | 2007 | datasets/VNTC                      |
 
 $ underthesea list-data --all
 ```
@@ -269,9 +270,8 @@ $ underthesea list-data --all
 Download resources
 
 ```bash
-$ underthesea download-data VNTC
-100%|██████████| 74846806/74846806 [00:09<00:00, 8243779.16B/s]
-Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
+$ underthesea download-data CP_Vietnamese_VLC_v2_2022
+Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_Vietnamese_VLC_v2_2022 folder
 ```
 
 ### Up Coming Features

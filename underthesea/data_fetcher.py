@@ -14,7 +14,9 @@ import zipfile
 
 from underthesea.utils import print_table
 
-MISS_URL_ERROR = "Caution:\n  With closed license dataset, you must provide URL to download"
+MISS_URL_ERROR = (
+    "Caution:\n  With closed license dataset, you must provide URL to download"
+)
 SAMPLE_CACHE_ROOT = Path(__file__).parent.absolute() / "data"
 
 CD = dirname(__file__)
@@ -33,7 +35,6 @@ class NLPData(Enum):
 
 
 class DataFetcher:
-
     @staticmethod
     def download_raw_file_to_cache(repo_data):
         url = repo_data["url"]
@@ -41,8 +42,10 @@ class DataFetcher:
         cache_dir = repo_data["cache_dir"]
         filepath = repo_data["filepath"]
         cached_path(url, cache_dir=cache_dir)
-        shutil.move(Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename,
-                    Path(UNDERTHESEA_FOLDER) / cache_dir / filepath)
+        shutil.move(
+            Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename,
+            Path(UNDERTHESEA_FOLDER) / cache_dir / filepath,
+        )
 
     @staticmethod
     def download_zip_file_to_cache(repo_data):
@@ -61,8 +64,9 @@ class DataFetcher:
         if data not in REPO:
             print(f"No matching distribution found for '{data}'")
             return
-
         repo_data = REPO[data]
+        if "url" in repo_data:
+            url = repo_data["url"]
         filepath = REPO[data]["filepath"]
         cache_dir = REPO[data]["cache_dir"]
         filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / filepath
@@ -74,11 +78,22 @@ class DataFetcher:
             DataFetcher.download_raw_file_to_cache(repo_data)
 
         zip_datasets = [
-            "VNTC", "VLSP2013-WTK", "VLSP2013-POS", "VTB-CHUNK",
-            "VLSP2016-NER", "VLSP2018-NER", "AIVIVN2019-SA",
-            "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK",
-            "DI_Vietnamese-UVD", "CP_Vietnamese-UNC", "SE_Vietnamese-UBS",
-            "UIT_ABSA_RESTAURANT", "UIT_ABSA_HOTEL"
+            "VNTC",
+            "VLSP2013-WTK",
+            "VLSP2013-POS",
+            "VTB-CHUNK",
+            "VLSP2016-NER",
+            "VLSP2018-NER",
+            "AIVIVN2019-SA",
+            "VLSP2016-SA",
+            "VLSP2018-SA",
+            "UTS2017-BANK",
+            "DI_Vietnamese-UVD",
+            "CP_Vietnamese-UNC",
+            "SE_Vietnamese-UBS",
+            "UIT_ABSA_RESTAURANT",
+            "UIT_ABSA_HOTEL",
+            "CP_Vietnamese_VLC_v2_2022",
         ]
         if data in set(zip_datasets):
             if repo_data["license"] == "Close":
@@ -104,7 +119,9 @@ class DataFetcher:
             if license == "Close":
                 license = "Close*"
             datasets.append([name, type, license, year, directory])
-        datasets = list(sorted(datasets, key=lambda x: (x[3], x[1], x[0]), reverse=True))
+        datasets = list(
+            sorted(datasets, key=lambda x: (x[3], x[1], x[0]), reverse=True)
+        )
         print_table(datasets, headers=["Name", "Type", "License", "Year", "Directory"])
 
         if all:
@@ -177,18 +194,25 @@ class DataFetcher:
         train_file = data_folder / "train.txt"
         dev_file = data_folder / "dev.txt"
         test_file = data_folder / "test.txt"
-        sentences_train: List[Sentence] = DataFetcher.read_text_classification_file(train_file)
+        sentences_train: List[Sentence] = DataFetcher.read_text_classification_file(
+            train_file
+        )
         if dev_file.is_file():
-            sentences_dev: List[Sentence] = DataFetcher.read_text_classification_file(dev_file)
+            sentences_dev: List[Sentence] = DataFetcher.read_text_classification_file(
+                dev_file
+            )
         else:
             sentences_train, sentences_dev = DataFetcher.__sample(sentences_train)
-        sentences_test: List[Sentence] = DataFetcher.read_text_classification_file(test_file)
+        sentences_test: List[Sentence] = DataFetcher.read_text_classification_file(
+            test_file
+        )
         corpus = CategorizedCorpus(sentences_train, sentences_dev, sentences_test)
         return corpus
 
     @staticmethod
     def __sample(data: List[Sentence], percentage: float = 0.1):
         import random
+
         random.shuffle(data)
         index = int(len(data) * percentage)
         a = data[:-index]
@@ -216,5 +240,8 @@ class DataFetcher:
             print(f"No matching distribution found for '{corpus_id}'")
             return
         if corpus_id == "VLSP2016_SA":
-            from underthesea.datasets.vlsp2016_sa.vlsp2016_sa_corpus import VLSP2016SACorpus
+            from underthesea.datasets.vlsp2016_sa.vlsp2016_sa_corpus import (
+                VLSP2016SACorpus,
+            )
+
             VLSP2016SACorpus.import_data(input_data_path)

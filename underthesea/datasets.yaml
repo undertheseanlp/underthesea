@@ -134,3 +134,11 @@ UIT_ABSA_RESTAURANT:
   filepath: ''
   url: https://github.com/undertheseanlp/underthesea/releases/download/open-data/UIT_ABSA_RESTAURANT.zip
   url_filename: UIT_ABSA_RESTAURANT.zip
+CP_Vietnamese_VLC_v2_2022:
+  cache_dir: datasets/CP_Vietnamese_VLC_v2_2022
+  type: Plaintext
+  license: Open
+  year: 2023
+  filepath: ''
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/CP_Vietnamese_VLC_v2_2022.zip
+  url_filename: CP_Vietnamese_VLC_v2_2022.zip

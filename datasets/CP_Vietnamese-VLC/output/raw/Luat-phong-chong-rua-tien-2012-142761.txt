@@ -1,0 +1,346 @@
+QUỐC   HỘI   --------
+CỘNG   HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM   Độc lập - Tự do - Hạnh phúc    ---------------
+Luật   số: 07/2012/QH13
+Hà   Nội, ngày 18 tháng 6 năm 2012
+ 
+LUẬT
+PHÒNG, CHỐNG RỬA TIỀN
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10; 
+Quốc hội ban hành Luật phòng, chống rửa tiền.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG 
+Điều 1. Phạm vi điều chỉnh
+1. Luật này quy định về các biện pháp phòng ngừa, phát hiện, ngăn chặn, xử lý tổ chức, cá nhân có hành vi rửa tiền; trách nhiệm của cơ quan, tổ chức, cá nhân trong phòng, chống rửa tiền; hợp tác quốc tế về phòng, chống rửa tiền.
+2. Việc phòng, chống hành vi rửa tiền nhằm tài trợ khủng bố được thực hiện theo quy định của Luật này, quy định của Bộ luật hình sự và pháp luật về phòng, chống khủng bố.
+Điều 2. Đối tượng áp dụng
+1. Tổ chức tài chính.
+2. Tổ chức, cá nhân kinh doanh ngành nghề phi tài chính có liên quan.
+3. Tổ chức, cá nhân Việt Nam; người nước ngoài sinh sống tại Việt Nam hoặc tổ chức nước ngoài, tổ chức quốc tế, tổ chức phi Chính phủ hoạt động trên lãnh thổ Việt Nam có giao dịch tài chính, giao dịch tài sản khác với tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này.
+4. Tổ chức, cá nhân khác có liên quan đến phòng, chống rửa tiền.
+Điều 3. Áp dụng Luật phòng, chống rửa tiền, các luật có liên quan và điều ước quốc tế
+Việc phòng ngừa, phát hiện, ngăn chặn, xử lý hành vi rửa tiền được thực hiện theo quy định của Luật này và các quy định khác của pháp luật có liên quan, trừ trường hợp điều ước quốc tế mà nước Cộng hoà xã hội chủ nghĩa Việt Nam là thành viên có quy định khác.
+Điều 4. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Rửa tiền là hành vi của tổ chức, cá nhân nhằm hợp pháp hóa nguồn gốc của tài sản do phạm tội mà có, bao gồm:
+a) Hành vi được quy định trong Bộ luật hình sự;
+b) Trợ giúp cho tổ chức, cá nhân có liên quan đến tội phạm nhằm trốn tránh trách nhiệm pháp lý bằng việc hợp pháp hóa nguồn gốc tài sản do phạm tội mà có;
+c) Chiếm hữu tài sản nếu tại thời điểm nhận tài sản đã biết rõ tài sản đó do phạm tội mà có, nhằm hợp pháp hóa nguồn gốc tài sản.
+2. Tài sản bao gồm vật, tiền, giấy tờ có giá và các quyền tài sản theo quy định của Bộ luật dân sự, có thể tồn tại dưới hình thức vật chất hoặc phi vật chất; động sản hoặc bất động sản; hữu hình hoặc vô hình; các chứng từ hoặc công cụ pháp lý chứng minh quyền sở hữu hoặc lợi ích đối với tài sản đó.
+3. Tổ chức tài chính là tổ chức được cấp giấy phép thực hiện một hoặc một số hoạt động sau đây:
+a) Nhận tiền gửi;
+b) Cho vay;
+c) Cho thuê tài chính;
+d) Dịch vụ thanh toán;
+đ) Phát hành công cụ chuyển nhượng, thẻ tín dụng, thẻ ghi nợ, lệnh chuyển tiền, tiền điện tử;
+e) Bảo lãnh ngân hàng và cam kết tài chính;
+g) Cung ứng dịch vụ ngoại hối, các công cụ tiền tệ trên thị trường tiền tệ;
+h) Tư vấn, bảo lãnh phát hành chứng khoán, đại lý phân phối chứng khoán;
+i) Quản lý danh mục vốn đầu tư;
+k) Quản lý tiền mặt hoặc chứng khoán cho tổ chức, cá nhân khác;
+l) Cung ứng dịch vụ bảo hiểm; hoạt động đầu tư có liên quan đến bảo hiểm nhân thọ;
+m) Đổi tiền.
+4. Tổ chức, cá nhân kinh doanh ngành nghề phi tài chính có liên quan là tổ chức, cá nhân thực hiện một hoặc một số hoạt động sau đây:
+a) Kinh doanh trò chơi có thưởng, casino;
+b) Kinh doanh dịch vụ quản lý bất động sản, môi giới bất động sản; sàn giao dịch bất động sản;
+c) Kinh doanh kim loại quý và đá quý;
+d) Cung ứng dịch vụ công chứng, kế toán; dịch vụ pháp lý của luật sư, tổ chức hành nghề luật sư;
+đ) Dịch vụ ủy thác đầu tư; dịch vụ thành lập, quản lý, điều hành doanh nghiệp; dịch vụ cung cấp giám đốc, thư ký giám đốc của doanh nghiệp cho bên thứ ba.
+5. Đối tượng báo cáo là tổ chức, cá nhân quy định tại khoản 3 và khoản 4 Điều này.
+6. Giao dịch đáng ngờ là giao dịch có dấu hiệu bất thường hoặc có cơ sở hợp lý để nghi ngờ tài sản trong giao dịch có nguồn gốc từ hoạt động tội phạm hoặc liên quan tới rửa tiền.
+7. Giao dịch có giá trị lớn là giao dịch bằng tiền mặt, bằng vàng hoặc ngoại tệ tiền mặt có tổng giá trị bằng hoặc vượt mức do cơ quan quản lý nhà nước có thẩm quyền quy định, được thực hiện một hoặc nhiều lần trong một ngày.
+8. Khách hàng là tổ chức, cá nhân đang sử dụng hoặc có ý định sử dụng dịch vụ hoặc sản phẩm do tổ chức tài chính, tổ chức, cá nhân kinh doanh ngành nghề phi tài chính có liên quan cung cấp.
+9. Chủ sở hữu hưởng lợi là cá nhân có quyền sở hữu trên thực tế một tài khoản, có quyền chi phối khi khách hàng thực hiện giao dịch cho cá nhân này hoặc cá nhân có quyền chi phối một pháp nhân hoặc một thỏa thuận ủy thác đầu tư.
+10. Quan hệ ngân hàng đại lý là hoạt động cung cấp dịch vụ ngân hàng, thanh toán và các dịch vụ khác của một ngân hàng tại một quốc gia, vùng lãnh thổ cho một ngân hàng đối tác tại một quốc gia, vùng lãnh thổ khác.
+11. Người khởi tạo là chủ tài khoản hoặc người yêu cầu tổ chức tài chính thực hiện chuyển tiền điện tử trong trường hợp không có tài khoản.
+12. Danh sách đen là danh sách tổ chức, cá nhân có liên quan tới khủng bố và tài trợ khủng bố do Bộ Công an chủ trì lập theo quy định của pháp luật.
+13. Danh sách cảnh báo là danh sách tổ chức, cá nhân do Ngân hàng Nhà nước Việt Nam lập nhằm cảnh báo tổ chức, cá nhân có rủi ro cao về rửa tiền.
+14. Hoạt động kinh doanh qua giới thiệu là hoạt động kinh doanh với khách hàng thông qua sự giới thiệu của bên trung gian là một tổ chức tài chính khác trong cùng tập đoàn hoặc tổng công ty hoặc thông qua tổ chức cung cấp dịch vụ môi giới.
+15. Lực lượng đặc nhiệm tài chính là tổ chức liên chính phủ, ban hành các chuẩn mực và thúc đẩy việc thực thi có hiệu quả các biện pháp pháp lý, quản lý và hành động nhằm chống rửa tiền, tài trợ khủng bố và tài trợ phổ biến vũ khí hủy diệt hàng loạt và những hiểm họa có liên quan khác đe dọa sự toàn vẹn của hệ thống tài chính toàn cầu.
+16. Thỏa thuận ủy quyền là thỏa thuận của tổ chức, cá nhân ủy quyền cho tổ chức, cá nhân khác thực hiện các giao dịch liên quan đến tài sản thuộc quyền sở hữu hoặc quản lý của tổ chức, cá nhân ủy quyền.
+Điều 5. Nguyên tắc về phòng, chống rửa tiền
+1. Việc phòng, chống rửa tiền phải thực hiện theo quy định của pháp luật trên cơ sở bảo đảm chủ quyền, an ninh quốc gia; bảo đảm hoạt động bình thường về kinh tế, đầu tư; bảo vệ quyền và lợi ích hợp pháp của tổ chức, cá nhân; chống lạm quyền, lợi dụng việc phòng, chống rửa tiền để xâm phạm quyền và lợi ích hợp pháp của tổ chức, cá nhân có liên quan.
+2. Các biện pháp phòng, chống rửa tiền phải được thực hiện đồng bộ, kịp thời; các hành vi rửa tiền phải được xử lý nghiêm minh.
+Điều 6. Chính sách của Nhà nước về phòng, chống rửa tiền
+1. Phòng, chống rửa tiền là trách nhiệm của Nhà nước và các cơ quan nhà nước. Nhà nước khuyến khích tổ chức, cá nhân trong nước và ngoài nước tham gia, hợp tác, tài trợ cho hoạt động phòng, chống rửa tiền.
+2. Bảo vệ quyền và lợi ích hợp pháp của tổ chức, cá nhân tham gia phòng, chống rửa tiền.
+3. Ban hành chính sách thúc đẩy hợp tác quốc tế trong phòng, chống rửa tiền.
+4. Tổ chức, cá nhân có thành tích trong công tác phòng, chống rửa tiền được Nhà nước khen thưởng.
+Điều 7. Các hành vi bị cấm
+1. Tổ chức, tham gia hoặc tạo điều kiện thực hiện hành vi rửa tiền.
+2. Thiết lập hoặc duy trì tài khoản vô danh hoặc tài khoản sử dụng tên giả.
+3. Thiết lập và duy trì quan hệ kinh doanh với ngân hàng được thành lập tại một quốc gia hoặc vùng lãnh thổ nhưng không có sự hiện diện hữu hình tại quốc gia hoặc vùng lãnh thổ đó và không chịu sự quản lý, giám sát của cơ quan quản lý có thẩm quyền.
+4. Cung cấp trái phép dịch vụ nhận tiền mặt, séc, công cụ tiền tệ khác hoặc công cụ lưu trữ giá trị và thực hiện thanh toán cho người thụ hưởng tại một địa điểm khác.
+5. Lợi dụng chức vụ, quyền hạn trong phòng, chống rửa tiền xâm hại quyền và lợi ích hợp pháp của tổ chức, cá nhân.
+6. Cản trở việc cung cấp thông tin phục vụ công tác phòng, chống rửa tiền.
+7. Đe dọa, trả thù người phát hiện, cung cấp thông tin, báo cáo, tố cáo về hành vi rửa tiền.
+Chương II
+BIỆN PHÁP PHÒNG, CHỐNG RỬA TIỀN
+Mục 1. NHẬN BIẾT KHÁCH HÀNG VÀ CẬP NHẬT THÔNG TIN KHÁCH HÀNG
+Điều 8. Nhận biết khách hàng
+1. Tổ chức tài chính phải áp dụng các biện pháp nhận biết khách hàng trong các trường hợp sau:
+a) Khách hàng mở tài khoản hoặc thiết lập giao dịch với tổ chức tài chính;
+b) Khách hàng thực hiện giao dịch không thường xuyên có giá trị lớn hoặc thực hiện giao dịch chuyển tiền điện tử mà thiếu thông tin về tên, địa chỉ, số tài khoản của người khởi tạo;
+c) Có nghi ngờ giao dịch hoặc các bên liên quan đến giao dịch có liên quan đến hoạt động rửa tiền;
+d) Có nghi ngờ về tính chính xác hoặc tính đầy đủ của các thông tin nhận biết khách hàng đã thu thập trước đó.
+2. Tổ chức, cá nhân kinh doanh ngành nghề phi tài chính có liên quan phải áp dụng các biện pháp nhận biết khách hàng trong các trường hợp sau:
+a) Tổ chức, cá nhân kinh doanh ngành nghề quy định tại điểm a khoản 4 Điều 4 của Luật này phải tiến hành các biện pháp nhận biết khách hàng đối với các khách hàng có giao dịch có giá trị lớn;
+b) Tổ chức, cá nhân kinh doanh ngành nghề quy định tại điểm b khoản 4 Điều 4 của Luật này có trách nhiệm áp dụng các biện pháp nhận biết khách hàng khi cung cấp dịch vụ môi giới mua, bán và quản lý bất động sản cho khách hàng;
+c) Tổ chức, cá nhân kinh doanh ngành nghề quy định tại điểm c khoản 4 Điều 4 của Luật này có trách nhiệm áp dụng các biện pháp nhận biết khách hàng trong trường hợp khách hàng có giao dịch mua, bán kim loại quý, đá quý có giá trị lớn bằng tiền mặt;
+d) Tổ chức, cá nhân kinh doanh ngành nghề quy định tại điểm d khoản 4 Điều 4 của Luật này có trách nhiệm áp dụng các biện pháp nhận biết khách hàng khi thay mặt khách hàng chuẩn bị các điều kiện để thực hiện giao dịch hoặc thay mặt khách hàng thực hiện giao dịch chuyển giao quyền sử dụng đất, quyền sở hữu nhà; quản lý tiền, chứng khoán hoặc các tài sản khác của khách hàng; quản lý tài khoản của khách hàng tại ngân hàng, công ty chứng khoán; điều hành, quản lý hoạt động công ty của khách hàng; tham gia vào hoạt động mua, bán các tổ chức kinh doanh;
+đ) Các tổ chức cung cấp dịch vụ quy định tại điểm đ khoản 4 Điều 4 của Luật này có trách nhiệm áp dụng các biện pháp nhận biết khách hàng khi cung ứng các dịch vụ thành lập công ty; cung cấp giám đốc, thư ký giám đốc của doanh nghiệp; cung cấp văn phòng đăng ký, địa chỉ hoặc địa điểm kinh doanh; cung cấp dịch vụ đại diện cho công ty; dịch vụ ủy thác đầu tư; dịch vụ cung cấp người đại diện cho cổ đông.
+Điều 9. Thông tin nhận biết khách hàng
+Thông tin nhận biết khách hàng phải có các thông tin chính sau đây:
+1. Thông tin nhận dạng khách hàng:
+a) Đối với khách hàng cá nhân là người Việt Nam: họ và tên; ngày, tháng, năm sinh; quốc tịch; nghề nghiệp, chức vụ; số điện thoại, số chứng minh nhân dân hoặc số hộ chiếu, ngày cấp, nơi cấp; địa chỉ nơi đăng ký thường trú và nơi ở hiện tại.
+Đối với khách hàng cá nhân là người nước ngoài: họ và tên; ngày, tháng, năm sinh; quốc tịch; nghề nghiệp, chức vụ; số hộ chiếu, ngày cấp, nơi cấp, thị thực nhập cảnh; địa chỉ nơi đăng ký cư trú ở nước ngoài và địa chỉ nơi đăng ký cư trú ở Việt Nam;
+b) Đối với khách hàng là tổ chức: tên giao dịch đầy đủ và viết tắt; địa chỉ đặt trụ sở chính; số điện thoại, số fax; lĩnh vực hoạt động, kinh doanh; thông
+tin về người thành lập, đại diện cho tổ chức bao gồm các thông tin quy định tại điểm a khoản này.
+2. Thông tin về chủ sở hữu hưởng lợi:
+a) Đối tượng báo cáo phải xác định chủ sở hữu hưởng lợi và áp dụng các biện pháp để nhận biết và cập nhật thông tin về chủ sở hữu hưởng lợi;
+b) Đối với khách hàng là pháp nhân hoặc khi cung ứng dịch vụ thỏa thuận ủy quyền, đối tượng báo cáo phải thu thập thông tin về quyền sở hữu và cơ cấu kiểm soát để xác định được cá nhân có lợi ích kiểm soát và chi phối hoạt động của pháp nhân hoặc thỏa thuận ủy quyền đó.
+3. Mục đích của khách hàng trong mối quan hệ với đối tượng báo cáo.
+Điều 10. Cập nhật thông tin nhận biết khách hàng
+Đối tượng báo cáo phải thường xuyên cập nhật thông tin nhận biết khách hàng trong suốt thời gian thiết lập quan hệ với khách hàng; bảo đảm các giao dịch mà khách hàng đang tiến hành thông qua đối tượng báo cáo phù hợp với những thông tin đã biết về khách hàng, về hoạt động kinh doanh, về rủi ro và về nguồn gốc tài sản của khách hàng.
+Điều 11. Biện pháp xác minh thông tin nhận biết khách hàng
+1. Đối tượng báo cáo sử dụng các tài liệu, dữ liệu để xác minh thông tin nhận biết khách hàng bao gồm:
+a) Đối với khách hàng là cá nhân: chứng minh nhân dân, hộ chiếu còn thời hạn sử dụng và các giấy tờ khác do cơ quan có thẩm quyền cấp;
+b) Đối với khách hàng là tổ chức: Giấy phép hoặc quyết định thành lập; quyết định đổi tên gọi, chia tách, sáp nhập; giấy chứng nhận đăng ký kinh doanh; quyết định bổ nhiệm hoặc hợp đồng thuê Tổng giám đốc (Giám đốc), Kế toán trưởng.
+2. Đối tượng báo cáo có thể thông qua tổ chức, cá nhân khác đã hoặc đang có quan hệ với khách hàng; hoặc thông qua cơ quan quản lý hoặc cơ quan nhà nước có thẩm quyền khác để thu thập thông tin và đối chiếu với thông tin khách hàng cung cấp.
+3. Đối tượng báo cáo có thể thuê các tổ chức khác để xác minh thông tin nhận biết khách hàng. Trường hợp này đối tượng báo cáo phải bảo đảm tổ chức được thuê thực hiện đúng các quy định về nhận biết và cập nhật thông tin khách hàng quy định tại Điều 9 và Điều 10 của Luật này và chịu trách nhiệm về nhận biết và cập nhật thông tin khách hàng.
+Điều 12. Phân loại khách hàng theo mức độ rủi ro
+1. Đối tượng báo cáo phải xây dựng quy định về phân loại khách hàng trên cơ sở rủi ro theo loại khách hàng, loại sản phẩm, dịch vụ khách hàng sử dụng, nơi cư trú hoặc nơi đặt trụ sở chính của khách hàng.
+2. Đối với khách hàng có mức độ rủi ro thấp, đối tượng báo cáo có thể áp dụng các biện pháp nhận biết khách hàng ở mức độ thấp hơn nhưng phải bảo đảm thu thập được đầy đủ thông tin về khách hàng quy định tại Điều 9 của Luật này.
+3. Đối với khách hàng, giao dịch có mức độ rủi ro cao quy định tại các điều 13, 14, 15, 16 và 17 của Luật này, ngoài việc thực hiện các biện pháp nhận biết quy định tại Điều 9 của Luật này, đối tượng báo cáo phải áp dụng các biện pháp đánh giá tăng cường theo quy định của Luật này.
+4. Đối với khách hàng, giao dịch khác có mức độ rủi ro cao không thuộc các trường hợp quy định tại khoản 3 Điều này, ngoài việc thực hiện các biện pháp nhận biết quy định tại Điều 9 của Luật này, đối tượng báo cáo phải áp dụng các biện pháp đánh giá tăng cường theo quy định của Ngân hàng Nhà nước Việt Nam.
+Điều 13. Khách hàng nước ngoài là cá nhân có ảnh hưởng chính trị
+1. Khách hàng nước ngoài là cá nhân có ảnh hưởng chính trị là người giữ chức vụ cấp cao trong các cơ quan, tổ chức hữu quan của nước ngoài.
+Ngân hàng Nhà nước Việt Nam thông báo danh sách khách hàng nước ngoài là cá nhân có ảnh hưởng chính trị quy định tại khoản này trên cơ sở khuyến nghị của tổ chức quốc tế về phòng, chống rửa tiền.
+2. Đối tượng báo cáo phải có hệ thống quản lý rủi ro để xác định khách hàng nước ngoài là cá nhân có ảnh hưởng chính trị và áp dụng các biện pháp sau đây:
+a) Xây dựng quy chế kiểm soát nội bộ đối với việc mở tài khoản hoặc thiết lập giao dịch khi khách hàng hoặc chủ sở hữu hưởng lợi được xác định là cá nhân có ảnh hưởng chính trị;
+b) Thực hiện các biện pháp nhằm nhận biết nguồn gốc tài sản của khách hàng;
+c) Tăng cường giám sát khách hàng và quan hệ kinh doanh với khách hàng.
+3. Đối tượng báo cáo phải áp dụng biện pháp quy định tại khoản 2 Điều này đối với khách hàng là cha, mẹ, vợ, chồng, con, anh ruột, chị ruột, em ruột của người quy định tại khoản 1 Điều này.
+Điều 14. Quan hệ ngân hàng đại lý
+Đối tượng báo cáo khi thiết lập quan hệ ngân hàng đại lý với ngân hàng đối tác nước ngoài phải áp dụng các biện pháp sau đây:
+1. Thu thập thông tin về ngân hàng đối tác để biết đầy đủ về bản chất kinh doanh, uy tín của ngân hàng đối tác và bảo đảm ngân hàng đối tác phải chịu sự giám sát, quản lý của cơ quan quản lý có thẩm quyền nước ngoài;
+2. Đánh giá việc thực hiện các biện pháp về phòng, chống rửa tiền của ngân hàng đối tác;
+3. Phải được sự chấp thuận của Tổng giám đốc (Giám đốc) hoặc người được ủy quyền của đối tượng báo cáo trước khi thiết lập quan hệ ngân hàng đại lý;
+4. Trong trường hợp khách hàng của ngân hàng đối tác có thể thanh toán thông qua tài khoản của ngân hàng đối tác mở tại đối tượng báo cáo, đối tượng báo cáo phải bảo đảm ngân hàng đối tác đã thực hiện đầy đủ việc nhận biết, cập nhật thông tin khách hàng và có khả năng cung cấp thông tin nhận biết khách hàng theo yêu cầu của đối tượng báo cáo.
+Điều 15. Các giao dịch liên quan tới công nghệ mới
+1. Đối tượng báo cáo phải ban hành quy trình nhằm mục đích sau đây:
+a) Phát hiện, ngăn chặn việc sử dụng công nghệ mới vào việc rửa tiền;
+b) Quản lý rủi ro về rửa tiền khi thiết lập giao dịch với khách hàng sử dụng công nghệ mới và không gặp mặt trực tiếp.
+2. Quy trình quy định tại khoản 1 Điều này phải bảo đảm việc cập nhật thông tin khách hàng có hiệu quả như việc cập nhật thông tin khách hàng gặp mặt trực tiếp.
+Điều 16. Giám sát đặc biệt một số giao dịch
+1. Đối tượng báo cáo phải giám sát đặc biệt đối với các giao dịch sau đây:
+a) Giao dịch với giá trị lớn bất thường hoặc phức tạp;
+b) Giao dịch với tổ chức, cá nhân tại quốc gia, vùng lãnh thổ nằm trong danh sách do Lực lượng đặc nhiệm tài chính công bố nhằm chống rửa tiền hoặc danh sách cảnh báo.
+2. Đối tượng báo cáo phải kiểm tra cơ sở pháp lý và mục đích của giao dịch; trường hợp có nghi ngờ về tính trung thực, mục đích của giao dịch, đối tượng báo cáo phải lập báo cáo về giao dịch đáng ngờ gửi Ngân hàng Nhà nước Việt Nam và có thể từ chối giao dịch đó.
+Điều 17. Hoạt động kinh doanh qua giới thiệu
+1. Khi tiến hành hoạt động kinh doanh qua giới thiệu, đối tượng báo cáo có thể nhận biết khách hàng thông qua bên trung gian và bảo đảm các yêu cầu sau đây:
+a) Bên trung gian phải thu thập, lưu giữ và cung cấp kịp thời, đầy đủ các thông tin nhận biết khách hàng cho đối tượng báo cáo khi được yêu cầu;
+b) Bên trung gian tuân thủ các yêu cầu về nhận biết và cập nhật thông tin khách hàng theo quy định tại Điều 9 và Điều 10 của Luật này hoặc khuyến nghị của Lực lượng đặc nhiệm tài chính trong trường hợp bên trung gian là tổ chức nước ngoài;
+c) Bên trung gian phải là đối tượng chịu sự quản lý, giám sát của cơ quan có thẩm quyền.
+2. Việc nhận biết khách hàng thông qua bên trung gian không loại trừ trách nhiệm của đối tượng báo cáo trong việc nhận biết, cập nhật thông tin khách hàng.
+Điều 18. Bảo đảm tính minh bạch của pháp nhân và thỏa thuận ủy quyền
+1. Sở giao dịch chứng khoán phải lưu giữ và cập nhật thông tin cơ bản về cơ cấu tổ chức, người sáng lập, chủ sở hữu hưởng lợi của doanh nghiệp niêm yết.
+2. Cơ quan đăng ký kinh doanh phải lưu giữ và cập nhật thông tin cơ bản về cơ cấu tổ chức, người sáng lập, chủ sở hữu hưởng lợi của các doanh nghiệp chưa niêm yết trên thị trường chứng khoán.
+3. Tổ chức, cá nhân cung cấp các dịch vụ pháp lý về soạn thảo thỏa thuận ủy quyền cho khách hàng phải lưu giữ, duy trì và cập nhật thông tin về thỏa thuận ủy quyền và chủ sở hữu hưởng lợi theo thỏa thuận đó.
+4. Ngân hàng Nhà nước Việt Nam và các cơ quan nhà nước có thẩm quyền khác theo quy định của pháp luật trong quá trình thực hiện chức năng, nhiệm vụ về phòng, chống rửa tiền có quyền yêu cầu tổ chức, cá nhân quy định tại các khoản 1, 2 và 3 Điều này cung cấp thông tin.
+Điều 19. Bảo đảm tính minh bạch trong hoạt động của tổ chức phi lợi nhuận
+1. Các tổ chức phi lợi nhuận được thành lập hoặc hoạt động tại Việt Nam phải duy trì, cập nhật hồ sơ có đầy đủ các thông tin về tổ chức, cá nhân tài trợ; tổ chức, cá nhân tiếp nhận tài trợ; số tiền tài trợ và mục đích sử dụng tiền tài trợ.
+2. Hồ sơ quy định tại khoản 1 Điều này phải được lưu trữ đầy đủ và cung cấp cho các cơ quan nhà nước có thẩm quyền khi được yêu cầu.
+Điều 20. Xây dựng quy định nội bộ về phòng, chống rửa tiền
+1. Căn cứ vào các quy định của Luật này và các quy định khác của pháp luật có liên quan, đối tượng báo cáo phải ban hành quy định nội bộ về phòng, chống rửa tiền với những nội dung chính sau đây:
+a) Chính sách chấp nhận khách hàng;
+b) Quy trình, thủ tục nhận biết khách hàng, xác minh và cập nhật thông tin khách hàng;
+c) Giao dịch phải báo cáo;
+d) Quy trình rà soát, phát hiện, xử lý và báo cáo giao dịch đáng ngờ; cách thức giao tiếp với khách hàng thực hiện giao dịch đáng ngờ;
+đ) Lưu giữ và bảo mật thông tin;
+e) Áp dụng biện pháp tạm thời, nguyên tắc xử lý trong các trường hợp trì hoãn thực hiện giao dịch;
+g) Chế độ báo cáo, cung cấp thông tin cho Ngân hàng Nhà nước Việt Nam và các cơ quan nhà nước có thẩm quyền;
+h) Bồi dưỡng nghiệp vụ phòng, chống rửa tiền;
+i) Kiểm soát và kiểm toán nội bộ việc tuân thủ các chính sách, quy định, quy trình và thủ tục liên quan đến hoạt động phòng, chống rửa tiền; trách nhiệm của từng cá nhân, bộ phận trong việc thực hiện quy định nội bộ về phòng, chống rửa tiền.
+2. Nội dung quy định nội bộ phải bảo đảm phòng ngừa, phát hiện, ngăn chặn, xử lý có hiệu quả các hoạt động có nghi ngờ liên quan tới rửa tiền; phù hợp cơ cấu tổ chức, quy mô hoạt động và mức độ rủi ro về rửa tiền trong hoạt động của đối tượng báo cáo và phải được phổ biến đến từng cá nhân, bộ phận có liên quan của đối tượng báo cáo.
+3. Đối tượng báo cáo phải thường xuyên đánh giá quy định nội bộ về phòng, chống rửa tiền để sửa đổi, bổ sung phù hợp.
+Mục 2. TRÁCH NHIỆM BÁO CÁO, CUNG CẤP VÀ LƯU GIỮ THÔNG TIN
+Điều 21. Báo cáo giao dịch có giá trị lớn
+1. Đối tượng báo cáo có trách nhiệm báo cáo Ngân hàng Nhà nước Việt Nam khi thực hiện các giao dịch có giá trị lớn.
+2. Theo đề nghị của Ngân hàng Nhà nước Việt Nam, Thủ tướng Chính phủ quy định mức giá trị của giao dịch có giá trị lớn phải báo cáo phù hợp với tình hình phát triển kinh tế - xã hội của đất nước trong từng thời kỳ.
+Điều 22. Báo cáo giao dịch đáng ngờ
+1. Đối tượng báo cáo có trách nhiệm báo cáo Ngân hàng Nhà nước Việt Nam khi nghi ngờ hoặc có cơ sở hợp lý để nghi ngờ tài sản trong giao dịch có nguồn gốc do phạm tội mà có hoặc liên quan tới rửa tiền. Báo cáo giao dịch đáng ngờ được thực hiện theo mẫu do Ngân hàng Nhà nước Việt Nam quy định.
+2. Các dấu hiệu đáng ngờ cơ bản bao gồm:
+a) Khách hàng cung cấp thông tin nhận biết khách hàng không chính xác, không đầy đủ, không nhất quán;
+b) Khách hàng thuyết phục đối tượng báo cáo không báo cáo giao dịch cho cơ quan nhà nước có thẩm quyền;
+c) Không thể xác định được khách hàng theo thông tin khách hàng cung cấp hoặc giao dịch liên quan đến một bên không xác định được danh tính;
+d) Số điện thoại cá nhân hoặc cơ quan do khách hàng cung cấp không thể liên lạc được hoặc không có số này sau khi mở tài khoản hoặc thực hiện giao dịch;
+đ) Các giao dịch được thực hiện theo lệnh hoặc theo uỷ quyền của tổ chức, cá nhân có trong danh sách cảnh báo;
+e) Các giao dịch mà qua thông tin nhận biết khách hàng hoặc qua xem xét về cơ sở kinh tế và pháp lý của giao dịch có thể xác định được mối liên hệ giữa các bên tham gia giao dịch với các hoạt động phạm tội hoặc có liên quan tới tổ chức, cá nhân có trong danh sách cảnh báo;
+g) Các tổ chức, cá nhân tham gia giao dịch với số tiền lớn không phù hợp với thu nhập, hoạt động kinh doanh của tổ chức, cá nhân này;
+h) Giao dịch của khách hàng thực hiện thông qua đối tượng báo cáo không đúng trình tự, thủ tục theo quy định của pháp luật.
+3. Các dấu hiệu đáng ngờ trong lĩnh vực ngân hàng bao gồm:
+a) Có sự thay đổi đột biến trong doanh số giao dịch trên tài khoản; tiền gửi vào và rút ra nhanh khỏi tài khoản; doanh số giao dịch lớn trong ngày nhưng số dư tài khoản rất nhỏ hoặc bằng không;
+b) Các giao dịch chuyển tiền có giá trị nhỏ từ nhiều tài khoản khác nhau về một tài khoản hoặc ngược lại trong một thời gian ngắn; tiền được chuyển qua nhiều tài khoản; các bên liên quan không quan tâm đến phí giao dịch; thực hiện nhiều giao dịch, mỗi giao dịch gần mức giá trị lớn phải báo cáo;
+c) Sử dụng thư tín dụng và các phương thức tài trợ thương mại khác có giá trị lớn, tỷ lệ chiết khấu với giá trị cao so với bình thường;
+d) Khách hàng mở nhiều tài khoản tại tổ chức tín dụng, chi nhánh ngân hàng nước ngoài ở khu vực địa lý khác nơi khách hàng cư trú, làm việc hoặc có hoạt động kinh doanh;
+đ) Tài khoản của khách hàng không giao dịch trên một năm, giao dịch trở lại mà không có lý do hợp lý; tài khoản của khách hàng không giao dịch đột nhiên nhận được một khoản tiền gửi hoặc chuyển tiền có giá trị lớn;
+e) Chuyển số tiền lớn từ tài khoản của doanh nghiệp ra nước ngoài sau khi nhận được nhiều khoản tiền nhỏ được chuyển vào bằng chuyển tiền điện tử, séc, hối phiếu;
+g) Doanh nghiệp có vốn đầu tư nước ngoài chuyển tiền ra nước ngoài ngay sau khi nhận được vốn đầu tư hoặc chuyển tiền ra nước ngoài không phù hợp với hoạt động kinh doanh; doanh nghiệp nước ngoài chuyển tiền ra nước ngoài ngay sau khi nhận được tiền từ nước ngoài chuyển vào tài khoản mở tại tổ chức tín dụng, chi nhánh ngân hàng nước ngoài hoạt động tại Việt Nam;
+h) Khách hàng thường xuyên đổi tiền có mệnh giá nhỏ sang mệnh giá lớn;
+i) Giao dịch gửi tiền, rút tiền hay chuyển tiền được thực hiện bởi tổ chức hoặc cá nhân liên quan đến tội phạm tạo ra tài sản bất hợp pháp đã được đăng tải trên phương tiện thông tin đại chúng;
+k) Khách hàng yêu cầu vay số tiền tối đa được phép trên cơ sở bảo đảm bằng hợp đồng bảo hiểm đóng phí một lần ngay sau khi thanh toán phí bảo hiểm, trừ trường hợp tổ chức tín dụng yêu cầu;
+l) Thông tin về nguồn gốc tài sản sử dụng để tài trợ, đầu tư, cho vay, cho thuê tài chính hoặc uỷ thác đầu tư của khách hàng không rõ ràng, minh bạch; 
+m) Thông tin về nguồn gốc tài sản bảo đảm của khách hàng xin vay vốn không rõ ràng, minh bạch.
+4. Các dấu hiệu đáng ngờ trong lĩnh vực kinh doanh bảo hiểm bao gồm:
+a) Khách hàng yêu cầu mua một hợp đồng bảo hiểm có giá trị lớn hoặc yêu cầu thanh toán trọn gói phí bảo hiểm một lần đối với các sản phẩm bảo hiểm không áp dụng hình thức thanh toán trọn gói, trong khi những hợp đồng bảo hiểm hiện tại của khách hàng chỉ có giá trị nhỏ và thanh toán định kỳ;
+b) Khách hàng yêu cầu ký kết hợp đồng bảo hiểm với khoản phí bảo hiểm định kỳ không phù hợp với thu nhập hiện tại của khách hàng hoặc yêu cầu mua hợp đồng bảo hiểm liên quan đến công việc kinh doanh nằm ngoài hoạt động kinh doanh thông thường của khách hàng;
+c) Người mua hợp đồng bảo hiểm và thanh toán từ tài khoản không phải là tài khoản của mình hoặc bằng các công cụ chuyển nhượng không ghi tên;
+d) Khách hàng yêu cầu thay đổi người thụ hưởng đã chỉ định hoặc bằng người không có mối quan hệ rõ ràng với người mua hợp đồng bảo hiểm;
+đ) Khách hàng chấp nhận tất cả các điều kiện bất lợi không liên quan đến tuổi tác, sức khỏe của mình; khách hàng đề nghị mua bảo hiểm với mục đích không rõ ràng và miễn cưỡng cung cấp lý do tham gia bảo hiểm; điều kiện và giá trị hợp đồng bảo hiểm mâu thuẫn với nhu cầu của khách hàng;
+e) Khách hàng hủy hợp đồng bảo hiểm ngay sau khi mua và yêu cầu chuyển tiền cho bên thứ ba; khách hàng thường xuyên tham gia bảo hiểm và nhượng lại hợp đồng bảo hiểm cho bên thứ ba;
+g) Khách hàng là doanh nghiệp có số lượng hợp đồng bảo hiểm cho nhân viên hoặc mức phí bảo hiểm của hợp đồng đóng phí một lần tăng bất thường;
+h) Doanh nghiệp bảo hiểm thường xuyên chi trả bảo hiểm với số tiền lớn cho cùng một khách hàng.
+5. Các dấu hiệu đáng ngờ trong lĩnh vực chứng khoán bao gồm:
+a) Giao dịch mua, bán chứng khoán có dấu hiệu bất thường trong một ngày hoặc một số ngày do một tổ chức hoặc một cá nhân thực hiện;
+b) Khách hàng thực hiện chuyển nhượng chứng khoán ngoài hệ thống mà không có lý do hợp lý;
+c) Công ty chứng khoán chuyển tiền không phù hợp với các hoạt động kinh doanh chứng khoán;
+d) Người không cư trú chuyển số tiền lớn từ tài khoản giao dịch chứng khoán ra khỏi Việt Nam;
+đ) Khách hàng thường xuyên bán danh mục đầu tư và đề nghị công ty chứng khoán thanh toán bằng tiền mặt hoặc séc;
+e) Khách hàng đầu tư bất thường vào nhiều loại chứng khoán bằng tiền mặt hoặc séc trong khoảng thời gian ngắn hoặc sẵn sàng đầu tư vào các danh mục chứng khoán không có lợi;
+g) Tài khoản chứng khoán của khách hàng không hoạt động trong một thời gian dài nhưng đột nhiên được đầu tư lớn không phù hợp với khả năng tài chính của khách hàng;
+h) Giao dịch mua, bán chứng khoán có nguồn tiền từ các quỹ đầu tư được mở ở các vùng lãnh thổ được các tổ chức quốc tế xếp loại là có nguy cơ rửa tiền cao.
+6. Dấu hiệu đáng ngờ trong lĩnh vực trò chơi có thưởng, casino bao gồm:
+a) Khách hàng có dấu hiệu liên tục cố tình thua tại casino;
+b) Khách hàng đổi số lượng đồng tiền quy ước có giá trị lớn tại casino, điểm kinh doanh trò chơi điện tử có thưởng nhưng không tham gia chơi hoặc chơi với số lượng rất nhỏ sau đó đổi lại thành tiền mặt hoặc séc, hối phiếu ngân hàng hoặc chuyển tiền đến tài khoản khác;
+c) Khách hàng yêu cầu chuyển tiền thắng cược, trúng thưởng cho bên thứ ba không có mối quan hệ rõ ràng với khách hàng hoặc khi bên thứ ba không có nơi thường trú cùng với khách hàng;
+d) Khách hàng bổ sung tiền mặt hoặc séc vào số tiền thắng cược, trúng thưởng và yêu cầu casino, điểm kinh doanh trò chơi điện tử có thưởng chuyển thành séc có giá trị lớn;
+đ) Khách hàng nhiều lần trong một ngày yêu cầu casino, điểm kinh doanh trò chơi điện tử có thưởng đổi số lượng đồng tiền quy ước thành tiền mặt;
+e) Khách hàng nhiều lần trong một ngày yêu cầu bên thứ ba đổi hộ số lượng đồng tiền quy ước có giá trị lớn và nhờ bên thứ ba chơi cá cược hộ;
+g) Khách hàng nhiều lần trong một ngày mua vé xổ số, vé đặt cược, đổi đồng tiền quy ước ở gần mức giới hạn giao dịch có giá trị lớn;
+h) Khách hàng mua lại vé số trúng thưởng có giá trị lớn từ người khác.
+7. Các dấu hiệu đáng ngờ trong lĩnh vực kinh doanh bất động sản bao gồm:
+a) Các giao dịch bất động sản là giao dịch ủy quyền nhưng không có cơ sở pháp lý;
+b) Khách hàng không quan tâm đến giá bất động sản, phí giao dịch phải trả;
+c) Khách hàng không cung cấp được các thông tin liên quan tới bất động sản hoặc không muốn cung cấp bổ sung thông tin về nhân thân;
+d) Giá thỏa thuận giữa các bên giao dịch không phù hợp giá thị trường.
+8. Trong thực tế hoạt động, nếu phát hiện dấu hiệu đáng ngờ ngoài các dấu hiệu cơ bản nêu trên, đối tượng báo cáo có trách nhiệm báo cáo Ngân hàng Nhà nước Việt Nam. Căn cứ yêu cầu của công tác phòng, chống rửa tiền, Ngân hàng Nhà nước Việt Nam trình Thủ tướng Chính phủ quy định bổ sung các dấu hiệu đáng ngờ tại các khoản 2, 3, 4, 5, 6 và 7 Điều này.
+Điều 23. Báo cáo giao dịch chuyển tiền điện tử
+Đối tượng báo cáo khi cung ứng dịch vụ chuyển tiền điện tử có trách nhiệm báo cáo Ngân hàng Nhà nước Việt Nam về giao dịch chuyển tiền điện tử vượt quá mức giá trị theo quy định của Ngân hàng Nhà nước Việt Nam.
+Điều 24. Khai báo, cung cấp thông tin về việc vận chuyển tiền mặt, kim loại quý, đá quý và công cụ chuyển nhượng qua biên giới
+1. Cá nhân khi nhập cảnh, xuất cảnh mang theo ngoại tệ tiền mặt, đồng Việt Nam bằng tiền mặt, kim loại quý, đá quý và công cụ chuyển nhượng trên mức quy định của Ngân hàng Nhà nước Việt Nam phải khai báo hải quan.
+2. Cơ quan Hải quan có trách nhiệm cung cấp thông tin thu thập được quy định tại khoản 1 Điều này cho Ngân hàng Nhà nước Việt Nam.
+Điều 25. Hình thức báo cáo
+1. Đối tượng báo cáo gửi tệp dữ liệu điện tử hoặc báo cáo bằng văn bản khi chưa thiết lập được hệ thống công nghệ thông tin tương thích phục vụ cho yêu cầu gửi tệp dữ liệu điện tử đối với các báo cáo được quy định tại các điều 21, 22 và 23 của Luật này theo hướng dẫn của Ngân hàng Nhà nước Việt Nam.
+2. Trong trường hợp cần thiết, đối tượng báo cáo có thể báo cáo qua fax, điện thoại, thư điện tử, nhưng phải bảo đảm an toàn, bảo mật dữ liệu thông tin báo cáo và phải xác nhận lại bằng một trong hai hình thức quy định tại khoản 1 Điều này.
+3. Đối với báo cáo giao dịch đáng ngờ, đối tượng báo cáo phải gửi kèm hồ sơ mở tài khoản đối với các giao dịch thực hiện thông qua tài khoản, thông tin nhận biết khách hàng, các chứng từ và tài liệu khác liên quan đến giao dịch đáng ngờ, các biện pháp phòng ngừa đã thực hiện.
+Điều 26. Thời hạn báo cáo
+1. Đối với giao dịch có giá trị lớn và giao dịch chuyển tiền điện tử, đối tượng báo cáo phải:
+a) Báo cáo hàng ngày đối với hình thức báo cáo gửi tệp dữ liệu điện tử;
+b) Báo cáo trong thời hạn 02 ngày làm việc, kể từ ngày phát sinh giao dịch đối với hình thức báo cáo bằng văn bản hoặc các hình thức báo cáo khác.
+2. Đối với báo cáo giao dịch đáng ngờ, đối tượng báo cáo phải báo cáo trong thời gian tối đa là 48 giờ, kể từ thời điểm phát sinh giao dịch; trường hợp phát hiện giao dịch do khách hàng yêu cầu có dấu hiệu liên quan đến tội phạm thì phải báo cáo ngay cho Ngân hàng Nhà nước Việt Nam và cơ quan nhà nước có thẩm quyền.
+Điều 27. Thời hạn lưu giữ hồ sơ, báo cáo
+Đối tượng báo cáo có trách nhiệm lưu giữ hồ sơ giao dịch của khách hàng ít nhất 05 năm, kể từ ngày phát sinh giao dịch; hồ sơ về nhận biết khách hàng, chứng từ kế toán và các báo cáo quy định tại các điều 21, 22 và 23 của Luật này kèm chứng từ, tài liệu liên quan ít nhất 05 năm, kể từ ngày kết thúc giao dịch hoặc ngày đóng tài khoản hoặc ngày báo cáo.
+Điều 28. Trách nhiệm báo cáo, cung cấp thông tin
+1. Đối tượng báo cáo phải cung cấp kịp thời hồ sơ, tài liệu lưu trữ và các thông tin liên quan cho Ngân hàng Nhà nước Việt Nam và cơ quan nhà nước có thẩm quyền theo quy định của Luật này hoặc khi được yêu cầu.
+2. Cơ quan, tổ chức, cá nhân thực hiện nghĩa vụ báo cáo hoặc cung cấp thông tin theo quy định của Luật này không bị coi là vi phạm các quy định của pháp luật về bảo đảm bí mật tiền gửi, tài sản gửi, thông tin về tài khoản, thông tin về giao dịch của khách hàng.
+Điều 29. Bảo đảm bí mật thông tin, tài liệu báo cáo
+1. Thông tin, chứng từ và tài liệu khác liên quan đến các giao dịch phải báo cáo theo quy định của Luật này được bảo quản theo chế độ mật và chỉ được cung cấp cho cơ quan có thẩm quyền theo quy định của pháp luật.
+2. Đối tượng báo cáo không được tiết lộ thông tin về việc đã báo cáo giao dịch đáng ngờ hoặc các thông tin có liên quan cho Ngân hàng Nhà nước Việt Nam.
+Điều 30. Báo cáo hành vi rửa tiền nhằm tài trợ khủng bố
+1. Đối tượng báo cáo có nghĩa vụ báo cáo kịp thời cho cơ quan phòng, chống khủng bố có thẩm quyền, đồng thời gửi báo cáo cho Ngân hàng Nhà nước Việt Nam khi phát hiện tổ chức, cá nhân thực hiện giao dịch nằm trong danh sách đen hoặc khi có căn cứ cho rằng tổ chức, cá nhân khác thực hiện hành vi có liên quan đến tội phạm rửa tiền nhằm tài trợ khủng bố.
+2. Căn cứ vào quy định của Luật này và pháp luật về phòng, chống khủng bố, Ngân hàng Nhà nước Việt Nam quy định thực hiện báo cáo tại khoản 1 Điều này.
+Mục 3. THU THẬP, XỬ LÝ VÀ CHUYỂN GIAO THÔNG TIN VỀ PHÒNG, CHỐNG RỬA TIỀN 
+Điều 31. Thu thập, xử lý thông tin
+1. Tổ chức, cá nhân có liên quan có trách nhiệm cung cấp cho Ngân hàng Nhà nước Việt Nam thông tin, tài liệu, hồ sơ về các giao dịch và các thông tin khác theo quy định của Luật này nhằm phục vụ cho việc phân tích, chuyển giao thông tin.
+2. Thông tin có được từ việc xử lý thông tin theo quy định tại khoản 1 Điều này là thông tin mật phục vụ cho công tác phòng, chống rửa tiền. 
+Điều 32. Chuyển giao, trao đổi thông tin
+1. Khi có cơ sở hợp lý để nghi ngờ giao dịch được nêu trong thông tin, báo cáo liên quan đến rửa tiền, Ngân hàng Nhà nước Việt Nam có trách nhiệm chuyển giao thông tin hoặc hồ sơ vụ việc cho cơ quan điều tra có thẩm quyền.
+2. Ngân hàng Nhà nước Việt Nam có trách nhiệm phối hợp, trao đổi thông tin với các cơ quan có thẩm quyền trong việc điều tra, truy tố, xét xử tội phạm rửa tiền.
+3. Ngân hàng Nhà nước Việt Nam có trách nhiệm trao đổi thông tin với các bộ, ngành liên quan nhằm mục đích phòng, chống rửa tiền.
+Mục 4. ÁP DỤNG CÁC BIỆN PHÁP TẠM THỜI VÀ XỬ LÝ VI PHẠM
+Điều 33. Trì hoãn giao dịch
+1. Đối tượng báo cáo phải áp dụng biện pháp trì hoãn giao dịch khi các bên liên quan tới giao dịch thuộc danh sách đen hoặc có lý do để tin rằng giao dịch được yêu cầu thực hiện có liên quan đến hoạt động phạm tội và phải báo cáo ngay bằng văn bản cho cơ quan nhà nước có thẩm quyền.
+2. Thời hạn áp dụng biện pháp trì hoãn giao dịch không quá 03 ngày làm việc, kể từ ngày bắt đầu áp dụng.
+3. Đối tượng báo cáo có trách nhiệm báo cáo Ngân hàng Nhà nước Việt Nam việc thực hiện quy định tại khoản 1 Điều này.
+Điều 34. Phong tỏa tài khoản, niêm phong hoặc tạm giữ tài sản
+Đối tượng báo cáo phải thực hiện phong tỏa tài khoản hoặc áp dụng biện pháp niêm phong hoặc tạm giữ tài sản của các cá nhân, tổ chức khi có quyết định của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật và báo cáo việc thực hiện cho Ngân hàng Nhà nước Việt Nam.
+Điều 35. Xử lý vi phạm
+Tổ chức vi phạm các quy định của Luật này thì bị xử phạt vi phạm hành chính.
+Cá nhân vi phạm các quy định của Luật này, tùy theo tính chất, mức độ vi phạm, bị áp dụng các hình thức xử lý kỷ luật, xử lý hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
+Trường hợp tổ chức, cá nhân vi phạm quy định của Luật này gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+Chương III
+TRÁCH NHIỆM CỦA CÁC CƠ QUAN NHÀ NƯỚC TRONG PHÒNG, CHỐNG RỬA TIỀN
+Điều 36. Trách nhiệm quản lý nhà nước về phòng, chống rửa tiền
+1. Chính phủ thống nhất quản lý nhà nước về phòng, chống rửa tiền.
+2. Chính phủ ban hành văn bản quy phạm pháp luật theo thẩm quyền, chiến lược về phòng, chống rửa tiền.
+3. Thủ tướng Chính phủ chỉ đạo các cơ quan của Chính phủ phối hợp với Tòa án nhân dân tối cao và Viện kiểm sát nhân dân tối cao trong công tác phòng, chống rửa tiền; phối hợp công tác phòng, chống rửa tiền và công tác phòng, chống tài trợ khủng bố.
+Điều 37. Trách nhiệm của Ngân hàng Nhà nước Việt Nam
+1. Chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về phòng, chống rửa tiền.
+2. Xây dựng và trình cấp có thẩm quyền ban hành hoặc ban hành theo thẩm quyền các văn bản quy phạm pháp luật, chiến lược, kế hoạch về phòng, chống rửa tiền.
+3. Tổ chức đầu mối theo quy định của Chính phủ để thu thập, xử lý và chuyển giao thông tin về hành vi rửa tiền cho các cơ quan nhà nước có thẩm quyền; yêu cầu tổ chức, cá nhân có liên quan cung cấp thông tin, hồ sơ về các giao dịch và các thông tin khác theo quy định của Luật này nhằm phục vụ việc phân tích, chuyển giao thông tin về hành vi rửa tiền.
+4. Thông báo kịp thời cho cơ quan phòng, chống khủng bố có thẩm quyền thông tin về hành vi rửa tiền nhằm tài trợ khủng bố theo quy định của Luật này và pháp luật về phòng, chống khủng bố.
+5. Thanh tra, giám sát hoạt động phòng, chống rửa tiền đối với đối tượng báo cáo thuộc trách nhiệm quản lý nhà nước về tiền tệ, hoạt động ngân hàng và ngoại hối.
+6. Hợp tác, trao đổi, cung cấp thông tin với các cơ quan có thẩm quyền trong hoạt động thanh tra, giám sát, điều tra, truy tố, xét xử và thi hành án liên quan đến rửa tiền; trao đổi thông tin với cơ quan phòng, chống rửa tiền nước ngoài và các cơ quan, tổ chức nước ngoài khác theo quy định của pháp luật.
+7. Thực hiện hợp tác quốc tế trong phòng, chống rửa tiền theo thẩm quyền, làm đầu mối tham gia, triển khai thực hiện nghĩa vụ của Việt Nam với tư cách thành viên các tổ chức quốc tế về phòng, chống rửa tiền.
+8. Đào tạo đội ngũ cán bộ của Ngân hàng Nhà nước Việt Nam, cơ quan khác của Chính phủ, nhân viên của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài và cá nhân, tổ chức khác về phòng, chống rửa tiền.
+9. Tổ chức nghiên cứu, ứng dụng tiến bộ khoa học kỹ thuật và công nghệ thông tin vào công tác phòng, chống rửa tiền.
+10. Chủ trì, phối hợp với các cơ quan có liên quan phổ biến, giáo dục pháp luật về phòng, chống rửa tiền.
+11. Tổng hợp thông tin, định kỳ hàng năm báo cáo Chính phủ về phòng, chống rửa tiền trên lãnh thổ Việt Nam.
+Điều 38. Trách nhiệm của Bộ Công an
+1. Thu thập, tiếp nhận và xử lý thông tin về tội phạm liên quan đến rửa tiền.
+2. Chủ trì, phối hợp với các cơ quan, tổ chức và cá nhân liên quan trong phát hiện, điều tra và xử lý tội phạm về rửa tiền.
+3. Thường xuyên trao đổi thông tin, tài liệu về phương thức, thủ đoạn hoạt động mới của tội phạm rửa tiền trong nước và nước ngoài với Ngân hàng Nhà nước Việt Nam.
+4. Chủ trì lập danh sách tổ chức, cá nhân thuộc danh sách đen quy định tại khoản 12 Điều 4 của Luật này.
+5. Thực hiện hợp tác quốc tế về phòng, chống rửa tiền theo thẩm quyền.
+Điều 39. Trách nhiệm của Bộ Tài chính
+1. Chủ trì, phối hợp với các cơ quan có liên quan triển khai các biện pháp phòng, chống rửa tiền trong lĩnh vực kinh doanh bảo hiểm, chứng khoán, trò chơi có thưởng, casino.
+2. Thanh tra, giám sát hoạt động phòng, chống rửa tiền đối với đối tượng báo cáo thuộc lĩnh vực kinh doanh bảo hiểm, chứng khoán, trò chơi có thưởng, casino.
+3. Chỉ đạo cơ quan hải quan cung cấp thông tin thu thập được về việc vận chuyển tiền mặt, kim loại quý, đá quý và công cụ chuyển nhượng qua biên giới theo quy định tại Điều 24 của Luật này.
+Điều 40. Trách nhiệm của Bộ Xây dựng
+1. Chủ trì, phối hợp với các cơ quan có liên quan triển khai các biện pháp phòng, chống rửa tiền trong lĩnh vực kinh doanh bất động sản.
+2. Thanh tra, giám sát hoạt động phòng, chống rửa tiền đối với đối tượng báo cáo thuộc lĩnh vực kinh doanh bất động sản.
+Điều 41. Trách nhiệm của Bộ Tư pháp
+1. Chủ trì, phối hợp với các cơ quan có liên quan triển khai các biện pháp phòng, chống rửa tiền áp dụng cho đối tượng báo cáo là luật sư, tổ chức hành nghề luật sư; công chứng viên, tổ chức cung ứng dịch vụ công chứng.
+2. Phối hợp với Ngân hàng Nhà nước Việt Nam thực hiện chương trình phổ biến, giáo dục pháp luật về phòng, chống rửa tiền.
+Điều 42. Trách nhiệm của các cơ quan khác của Chính phủ
+1. Phối hợp với Ngân hàng Nhà nước Việt Nam thực hiện quản lý nhà nước về phòng, chống rửa tiền.
+2. Chỉ đạo, hướng dẫn, kiểm tra các đơn vị thuộc quyền quản lý của mình thực hiện các quy định của pháp luật về phòng, chống rửa tiền.
+Điều 43. Trách nhiệm của Viện kiểm sát nhân dân, Tòa án nhân dân
+Viện kiểm sát nhân dân, Tòa án nhân dân trong phạm vi chức năng, nhiệm vụ, quyền hạn của mình xử lý kịp thời, nghiêm minh hành vi rửa tiền; phối hợp với các cơ quan, tổ chức hữu quan trong đấu tranh phòng, chống rửa tiền.
+Điều 44. Trách nhiệm của Ủy ban nhân dân các cấp
+1. Thực hiện, chỉ đạo việc phổ biến, giáo dục pháp luật về phòng, chống rửa tiền tại địa phương.
+2. Phối hợp với các cơ quan nhà nước có thẩm quyền triển khai và đôn đốc thực hiện các đường lối, chính sách, chiến lược, kế hoạch phòng, chống rửa tiền.
+3. Phát hiện, xử lý kịp thời, nghiêm minh các hành vi vi phạm pháp luật về phòng, chống rửa tiền theo thẩm quyền.
+Điều 45. Bảo mật thông tin
+Các cơ quan nhà nước được quy định tại các điều từ Điều 36 đến Điều 44 của Luật này có trách nhiệm thực hiện chế độ bảo mật thông tin theo quy định của pháp luật.
+Chương IV
+HỢP TÁC QUỐC TẾ VỀ PHÒNG, CHỐNG RỬA TIỀN
+Điều 46. Nguyên tắc chung về hợp tác quốc tế
+1. Hợp tác quốc tế về phòng, chống rửa tiền được thực hiện trên nguyên tắc tôn trọng độc lập, chủ quyền quốc gia, toàn vẹn lãnh thổ, bình đẳng, các bên cùng có lợi, tuân thủ quy định của pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Nhà nước tạo điều kiện thuận lợi trong việc trao đổi thông tin và tương trợ tư pháp về phòng, chống rửa tiền.
+Điều 47. Nội dung hợp tác quốc tế về phòng, chống rửa tiền
+1. Trao đổi thông tin, tài liệu về phòng, chống rửa tiền.
+2. Xác định, phong tỏa tài sản của người phạm tội rửa tiền.
+3. Thực hiện tương trợ tư pháp và hợp tác trong dẫn độ tội phạm rửa tiền.
+4. Các nội dung hợp tác khác về phòng, chống rửa tiền.
+5. Quy trình, thủ tục, phương thức hợp tác quốc tế về phòng, chống rửa tiền tại các khoản 1, 2, 3 và 4 Điều này được thực hiện theo điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, các thỏa thuận quốc tế mà Việt Nam tham gia ký kết và các quy định khác của pháp luật có liên quan.
+Điều 48. Trách nhiệm của cơ quan nhà nước trong hợp tác quốc tế về phòng, chống rửa tiền
+1. Ngân hàng Nhà nước Việt Nam trong phạm vi nhiệm vụ, quyền hạn của mình phối hợp với Bộ Ngoại giao, các bộ, ngành liên quan đề xuất, chủ trì đàm phán, ký kết và tổ chức thực hiện điều ước quốc tế, thoả thuận quốc tế về phòng, chống rửa tiền; hợp tác quốc tế trong việc nghiên cứu, đào tạo, hỗ trợ thông tin, hỗ trợ kỹ thuật, trợ giúp tài chính và trao đổi kinh nghiệm về phòng, chống rửa tiền.
+2. Ngân hàng Nhà nước Việt Nam thực hiện trao đổi thông tin về phòng, chống rửa tiền với cơ quan phòng, chống rửa tiền nước ngoài và các cơ quan, tổ chức nước ngoài khác theo quy định của pháp luật; có quyền từ chối cung cấp thông tin cho cơ quan phòng, chống rửa tiền nước ngoài và các cơ quan, tổ chức nước ngoài khác trong trường hợp cần thiết và theo quy định của pháp luật Việt Nam.
+3. Bộ Tư pháp, Bộ Công an, Viện kiểm sát nhân dân tối cao trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện nhiệm vụ hợp tác quốc tế về tương trợ tư pháp trong phòng, chống rửa tiền.
+4. Khi có yêu cầu về hợp tác quốc tế trong phòng, chống rửa tiền, cơ quan nhà nước có thẩm quyền có trách nhiệm kịp thời thông báo bằng văn bản về nội dung, thời gian, các bên liên quan và các chương trình hợp tác quốc tế khác cho Ngân hàng Nhà nước Việt Nam hoặc cho Bộ Tư pháp nếu nội dung liên quan đến tương trợ tư pháp để phối hợp thực hiện.
+Chương V
+ĐIỀU KHOẢN THI HÀNH
+Điều 49. Hiệu lực thi hành
+Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2013.
+Điều 50. Quy định chi tiết và hướng dẫn thi hành
+Chính phủ quy định chi tiết, hướng dẫn thi hành các điều, khoản được giao trong Luật.
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 3 thông qua ngày 18 tháng 6 năm 2012.
+ 
+ 
+CHỦ   TỊCH QUỐC HỘI
+
+
+
+   Nguyễn Sinh Hùng
+ 

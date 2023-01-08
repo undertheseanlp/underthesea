@@ -1,0 +1,386 @@
+QUỐC   HỘI   -------
+CỘNG   HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM   Độc lập – Tự do – Hạnh phúc   ---------
+Luật   số: 49/2010/QH12
+Hà   Nội, ngày 17 tháng 6 năm 2010
+ 
+LUẬT BƯU CHÍNH
+Căn cứ Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10;
+Quốc hội ban hành Luật bưu chính.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về hoạt động bưu chính; quyền và nghĩa vụ của tổ chức, cá nhân trong hoạt động bưu chính và quản lý nhà nước về hoạt động bưu chính.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với tổ chức, cá nhân thực hiện, tham gia thực hiện hoạt động bưu chính tại Việt Nam.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Hoạt động bưu chính gồm các hoạt động đầu tư, kinh doanh, cung ứng, sử dụng dịch vụ bưu chính, dịch vụ bưu chính công ích, tem bưu chính.
+2. Bưu gửi bao gồm thư, gói, kiện hàng hoá được chấp nhận, vận chuyển và phát hợp pháp qua mạng bưu chính.
+3. Dịch vụ bưu chính là dịch vụ chấp nhận, vận chuyển và phát bưu gửi bằng các phương thức từ địa điểm của người gửi đến địa điểm của người nhận qua mạng bưu chính, trừ phương thức điện tử.
+4. Dịch vụ bưu chính công ích là dịch vụ bưu chính được cung ứng theo yêu cầu của Nhà nước, gồm dịch vụ bưu chính phổ cập, dịch vụ bưu chính phục vụ quốc phòng, an ninh và nhiệm vụ đặc thù khác.
+5. Dịch vụ bưu chính phổ cập là dịch vụ bưu chính được cung ứng thường xuyên đến người dân theo các điều kiện về khối lượng, chất lượng và giá cước do cơ quan nhà nước có thẩm quyền quy định.
+6. Thư là thông tin trao đổi dưới dạng văn bản viết tay hoặc bản in, có địa chỉ nhận hoặc không có địa chỉ nhận, trừ ấn phẩm định kỳ, sách, báo, tạp chí.
+7. Thư không có địa chỉ nhận là thư không có thông tin liên quan đến người nhận trên thư, trên bao bì của thư, bao gồm cả thư để quảng cáo, tuyên truyền.
+8. Dịch vụ thư cơ bản là dịch vụ thư không có các yếu tố làm tăng thêm giá trị của dịch vụ.
+9. Mạng bưu chính là hệ thống cơ sở khai thác bưu gửi, điểm phục vụ bưu chính được kết nối bằng các tuyến vận chuyển và tuyến phát để cung ứng dịch vụ bưu chính.
+10. Mạng bưu chính công cộng là mạng bưu chính do Nhà nước đầu tư và giao cho doanh nghiệp được chỉ định quản lý, khai thác.
+11. Điểm phục vụ bưu chính là nơi chấp nhận, phát bưu gửi, gồm bưu cục, kiốt, đại lý, thùng thư công cộng và hình thức khác để chấp nhận, phát bưu gửi.
+12. Thùng thư công cộng là điểm phục vụ bưu chính thuộc mạng bưu chính công cộng được dùng để chấp nhận thư cơ bản.
+13. Hộp thư tập trung là tập hợp các hộp thư gia đình được lắp đặt tại vị trí thuận lợi cho việc phát và nhận bưu gửi của chung cư cao tầng, toà nhà văn phòng có nhiều địa chỉ nhận thư độc lập.
+14. Thời gian toàn trình của bưu gửi là khoảng thời gian tính từ khi bưu gửi được chấp nhận cho đến khi được phát cho người nhận.
+15. Thông tin về sử dụng dịch vụ bưu chính gồm nội dung bưu gửi, thông tin về họ tên, địa chỉ, số điện thoại (nếu có) của người gửi, người nhận và các thông tin có liên quan.
+16. Người sử dụng dịch vụ bưu chính là tổ chức, cá nhân sử dụng dịch vụ bưu chính, bao gồm người gửi và người nhận.
+17. Người gửi là tổ chức, cá nhân có tên tại phần ghi thông tin về người gửi trên bưu gửi, trên hợp đồng cung ứng và sử dụng dịch vụ bưu chính.
+18. Người nhận là tổ chức, cá nhân có tên tại phần ghi thông tin về người nhận trên bưu gửi, trên hợp đồng cung ứng và sử dụng dịch vụ bưu chính.
+19. Doanh nghiệp được chỉ định là doanh nghiệp cung ứng dịch vụ bưu chính được Nhà nước chỉ định để thực hiện nghĩa vụ bưu chính công ích và tham gia hoạt động cung ứng dịch vụ bưu chính quốc tế, các dịch vụ khác trong khuôn khổ điều ước quốc tế của Liên minh Bưu chính Thế giới, điều ước quốc tế khác trong lĩnh vực bưu chính mà Cộng hoà xã hội chủ nghĩa Việt Nam là thành viên.
+20. Tem Bưu chính Việt Nam là ấn phẩm do cơ quan nhà nước có thẩm quyền về bưu chính của Việt Nam quyết định phát hành để thanh toán trước giá cước dịch vụ bưu chính trên mạng bưu chính công cộng và được công nhận trong mạng lưới của Liên minh Bưu chính Thế giới.
+21. Tem bưu chính nước ngoài là ấn phẩm do các nước thành viên của Liên minh Bưu chính Thế giới phát hành để thanh toán trước giá cước dịch vụ bưu chính và được công nhận trong mạng lưới của Liên minh Bưu chính Thế giới.
+Điều 4. Nguyên tắc hoạt động bưu chính
+1. Bảo đảm an ninh, an toàn, kịp thời, chính xác, tiện lợi trong cung ứng và sử dụng dịch vụ bưu chính.
+2. Bảo đảm bí mật thư theo quy định của pháp luật.
+3. Kinh doanh dịch vụ bưu chính theo cơ chế thị trường có sự quản lý của Nhà nước.
+4. Bảo đảm cung ứng dịch vụ bưu chính công ích thường xuyên, ổn định cho xã hội.
+5. Tôn trọng, bảo vệ quyền và lợi ích hợp pháp của tổ chức, cá nhân tham gia hoạt động bưu chính.
+Điều 5. Chính sách của Nhà nước về bưu chính
+1. Xây dựng và phát triển ngành bưu chính hiện đại nhằm phục vụ phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh và đời sống của nhân dân.
+2. Xây dựng và hoàn thiện môi trường cạnh tranh theo quy định của pháp luật để các thành phần kinh tế tham gia hoạt động bưu chính.
+3. Khuyến khích ứng dụng tiến bộ khoa học, công nghệ, đào tạo nguồn nhân lực để phát triển bưu chính.
+4. Tăng cường hội nhập, hợp tác quốc tế và thực hiện cam kết quốc tế trong lĩnh vực bưu chính.
+5. Áp dụng cơ chế ưu đãi đối với việc cung ứng dịch vụ bưu chính công ích tại vùng có điều kiện kinh tế - xã hội khó khăn và vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.
+Điều 6. Các trường hợp bưu gửi được ưu tiên chấp nhận, vận chuyển và phát trong trường hợp khẩn cấp
+1. Phòng, chống hoả hoạn, thiên tai và thảm hoạ khác.
+2. Phòng, chống dịch bệnh.
+3. Cứu nạn, cứu hộ.
+4. Phục vụ quốc phòng, an ninh.
+Điều 7. Các hành vi bị cấm
+1. Gửi, chấp nhận, vận chuyển và phát bưu gửi có nội dung kích động, gây mất an ninh, phá hoại đoàn kết dân tộc, chống phá Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam.
+2. Gửi, chấp nhận, vận chuyển và phát bưu gửi chứa vũ khí, vật, chất gây nổ, chất độc, chất phóng xạ, ma túy, vi trùng dịch bệnh nhằm khủng bố, xâm hại tính mạng, tài sản công dân, gây mất trật tự, an toàn xã hội.
+3. Gửi, chấp nhận, vận chuyển và phát bưu gửi chứa văn hóa phẩm trái đạo đức xã hội, trái thuần phong mỹ tục của Việt Nam.
+4. Mạo danh người khác khi sử dụng dịch vụ bưu chính.
+5. Chiếm đoạt, trộm cắp bưu gửi; tráo đổi nội dung bưu gửi.
+6. Tiết lộ thông tin về sử dụng dịch vụ bưu chính, bóc mở, huỷ bưu gửi trái pháp luật.
+7. Xâm hại công trình bưu chính công cộng; cản trở hoạt động bưu chính hợp pháp.
+8. Thực hiện hành vi cạnh tranh trái pháp luật trong hoạt động bưu chính.
+9. Sản xuất, kinh doanh, sử dụng tem Bưu chính Việt Nam và tem bưu chính nước ngoài trái pháp luật.
+10. Hoạt động bưu chính trái pháp luật.
+Chương II
+CUNG ỨNG VÀ SỬ DỤNG DỊCH VỤ BƯU CHÍNH
+Điều 8. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính
+1. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính là thoả thuận giữa doanh nghiệp cung ứng dịch vụ bưu chính và người gửi, theo đó doanh nghiệp chấp nhận, vận chuyển và phát bưu gửi đến địa điểm theo yêu cầu của người gửi và người gửi phải thanh toán giá cước dịch vụ bưu chính.
+2. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính được giao kết bằng văn bản hoặc được xác lập bằng hành vi. Dấu ngày hoặc các thông tin xác định thời gian và địa điểm chấp nhận bưu gửi là căn cứ xác định trách nhiệm của doanh nghiệp cung ứng dịch vụ bưu chính.
+Điều 9. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính bằng văn bản
+1. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính bằng văn bản phải có những nội dung chính sau đây:
+a) Loại hình dịch vụ bưu chính;
+b) Khối lượng, số lượng bưu gửi;
+c) Thời gian, địa điểm và phương thức cung ứng dịch vụ bưu chính;
+d) Chất lượng dịch vụ bưu chính;
+đ) Quyền và nghĩa vụ của các bên;
+e) Giá cước và phương thức thanh toán;
+g) Trách nhiệm và mức bồi thường tối đa khi có vi phạm hợp đồng.
+2. Hợp đồng giao kết bằng văn bản phải được lập bằng tiếng Việt; nếu các bên có thỏa thuận sử dụng thêm ngôn ngữ khác thì văn bản bằng tiếng Việt và văn bản bằng ngôn ngữ khác có giá trị pháp lý như nhau.
+3. Chứng từ xác nhận việc chấp nhận bưu gửi giữa doanh nghiệp cung ứng dịch vụ bưu chính và người gửi có giá trị pháp lý như hợp đồng giao kết bằng văn bản giữa các bên, trừ trường hợp các bên có thỏa thuận khác.
+Điều 10. Hợp đồng cung ứng và sử dụng dịch vụ bưu chính xác lập bằng hành vi cụ thể
+Việc gửi vào thùng thư công cộng thư đủ điều kiện quy định tại khoản 1 Điều 11 của Luật này, có dán tem Bưu chính Việt Nam hoặc có dấu thanh toán trước giá cước của doanh nghiệp cung ứng dịch vụ bưu chính là hành vi xác lập hợp đồng giữa doanh nghiệp cung ứng dịch vụ bưu chính và người gửi.
+Điều 11. Chấp nhận và phát bưu gửi
+1. Bưu gửi được chấp nhận khi có đủ các điều kiện sau đây:
+a) Không chứa các vật phẩm, hàng hoá quy định tại Điều 12 của Luật này;
+b) Có thông tin liên quan đến người gửi, người nhận trên bưu gửi, trừ trường hợp các bên có thỏa thuận khác;
+c) Đã thanh toán đủ giá cước dịch vụ bưu chính, trừ trường hợp các bên có thỏa thuận khác;
+d) Được gói, bọc theo yêu cầu của dịch vụ bưu chính.
+2. Bưu gửi được coi là đã được chấp nhận trong các trường hợp sau đây:
+a) Bưu gửi đã được doanh nghiệp cung ứng dịch vụ bưu chính chấp nhận tại điểm phục vụ bưu chính hoặc tại địa chỉ của người gửi;
+b) Thư đủ các điều kiện quy định tại khoản 1 điều này đã được bỏ vào thùng thư công cộng.
+3. Bưu gửi được coi là đã phát hợp lệ trong các trường hợp sau đây:
+a) Đã phát tại địa chỉ của người nhận, gồm hộp thư tập trung, hộp thư gia đình, hộp thư thuê bao hoặc hình thức khác dành cho việc nhận bưu gửi;
+b) Đã phát cho người nhận tại điểm phục vụ bưu chính thực hiện việc phát;
+c) Đã phát theo yêu cầu của người sử dụng dịch vụ bưu chính.
+Điều 12. Vật phẩm, hàng hoá không được gửi, chấp nhận, vận chuyển qua mạng bưu chính
+1. Vật phẩm, hàng hóa mà pháp luật của Việt Nam quy định cấm lưu thông.
+2. Vật phẩm, hàng hoá từ Việt Nam gửi đi các nước mà pháp luật Việt Nam quy định cấm xuất khẩu hoặc pháp luật của nước nhận quy định cấm nhập khẩu.
+3. Vật phẩm, hàng hoá từ các nước gửi về Việt Nam mà pháp luật Việt Nam quy định cấm nhập khẩu.
+4. Vật phẩm, hàng hoá bị cấm vận chuyển bằng đường bưu chính theo quy định của pháp luật Việt Nam, điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 13. Bảo đảm an toàn trong cung ứng và sử dụng dịch vụ bưu chính
+1. Bưu gửi của tổ chức, cá nhân được bảo đảm an toàn từ khi được chấp nhận cho đến khi được phát theo quy định tại khoản 2 và khoản 3 Điều 11 của Luật này.
+2. Trường hợp vỏ bọc của bưu gửi bị hư hại, rách, doanh nghiệp cung ứng dịch vụ bưu chính có trách nhiệm kiểm kê, lập biên bản và gói, bọc lại cho phù hợp với yêu cầu của dịch vụ bưu chính để đảm bảo an toàn cho bưu gửi.
+3. Tổ chức, cá nhân thực hiện, tham gia thực hiện hoạt động bưu chính tại Việt Nam có trách nhiệm bảo đảm an toàn cho người, bưu gửi và mạng bưu chính.
+Điều 14. Bảo đảm an ninh trong cung ứng và sử dụng dịch vụ bưu chính
+1. Trường hợp bưu gửi bị phát hiện vi phạm quy định tại Điều 12 của Luật này thì doanh nghiệp cung ứng dịch vụ bưu chính có trách nhiệm:
+a) Đình chỉ vận chuyển, phát bưu gửi đó;
+b) Thông báo cho cơ quan nhà nước có thẩm quyền liên quan để xử lý theo quy định của pháp luật.
+2. Cơ quan nhà nước có thẩm quyền tạm đình chỉ vận chuyển, phát bưu gửi; kiểm tra, xử lý bưu gửi hoặc yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính trong các trường hợp sau đây:
+a) Có căn cứ xác định bưu gửi có liên quan hoặc dẫn đến hành vi vi phạm pháp luật về an ninh quốc gia hoặc hành vi vi phạm pháp luật nghiêm trọng khác;
+b) Bưu gửi có liên quan đến vụ án hình sự mà việc kiểm tra, xử lý bưu gửi và yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính được pháp luật cho phép.
+3. Việc tạm đình chỉ vận chuyển, phát bưu gửi; kiểm tra, xử lý bưu gửi hoặc yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính quy định tại khoản 2 điều này chỉ được thực hiện sau khi có yêu cầu bằng văn bản của cơ quan nhà nước có thẩm quyền theo quy định của pháp luật.
+4. Việc đình chỉ, tạm đình chỉ vận chuyển, phát bưu gửi; kiểm tra, xử lý bưu gửi và yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính quy định tại khoản 1 và khoản 2 điều này phải được lập biên bản, có chữ ký của các bên liên quan.
+5. Tổ chức, cá nhân không được lợi dụng việc đình chỉ, tạm đình chỉ vận chuyển, phát bưu gửi; kiểm tra, xử lý bưu gửi và yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính để gây thiệt hại đến lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân cung ứng và sử dụng dịch vụ bưu chính.
+6. Doanh nghiệp cung ứng dịch vụ bưu chính có trách nhiệm phối hợp, tạo điều kiện cho cơ quan nhà nước có thẩm quyền thực hiện nhiệm vụ quy định tại khoản 2 điều này.
+7. Việc đình chỉ, tạm đình chỉ vận chuyển, phát bưu gửi; kiểm tra, xử lý bưu gửi và yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính không được ảnh hưởng đến hoạt động bình thường và chất lượng dịch vụ bưu chính của doanh nghiệp cung ứng dịch vụ bưu chính.
+Điều 15. Xuất khẩu, nhập khẩu bưu gửi
+1. Việc xuất khẩu, nhập khẩu bưu gửi phải được thực hiện theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+2. Doanh nghiệp cung ứng dịch vụ bưu chính quốc tế được thay mặt người sử dụng dịch vụ bưu chính thực hiện các thủ tục xuất khẩu, nhập khẩu bưu gửi khi là đại diện hợp pháp của người sử dụng dịch vụ bưu chính.
+Điều 16. Quyền định đoạt, thay đổi họ tên, địa chỉ người nhận, rút lại bưu gửi và chuyển tiếp bưu gửi
+1. Bưu gửi khi chưa phát cho người nhận vẫn thuộc quyền định đoạt của người gửi, trừ trường hợp bị thu giữ hoặc tiêu huỷ theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+2. Người gửi có quyền thay đổi họ tên, địa chỉ người nhận hoặc rút lại bưu gửi khi bưu gửi chưa phát cho người nhận và khi người gửi có chứng từ chứng minh việc gửi. Người gửi phải thanh toán giá cước dịch vụ bưu chính phát sinh do việc thay đổi họ tên, địa chỉ người nhận hoặc rút lại bưu gửi, trừ trường hợp các bên có thỏa thuận khác.
+3. Khi bưu gửi chưa phát đến địa chỉ của người nhận và khi người sử dụng dịch vụ bưu chính thông báo cho doanh nghiệp cung ứng dịch vụ bưu chính về việc thay đổi địa chỉ của người nhận thì bưu gửi được chuyển tiếp đến địa chỉ mới. Người yêu cầu chuyển tiếp bưu gửi phải thanh toán giá cước dịch vụ bưu chính, trừ trường hợp các bên có thỏa thuận khác.
+Điều 17. Bưu gửi không phát được, bưu gửi được chuyển hoàn, bưu gửi không hoàn trả được cho người gửi, bưu gửi không có người nhận
+1. Bưu gửi được coi là không phát được trong các trường hợp sau đây:
+a) Không có địa chỉ người nhận; địa chỉ người nhận không đầy đủ hoặc không đúng;
+b) Người nhận đã thay đổi địa chỉ nhưng không để lại địa chỉ mới;
+c) Không tìm được người nhận tại địa chỉ đã ghi;
+d) Sau khi không thực hiện được việc phát, doanh nghiệp cung ứng dịch vụ bưu chính đã mời tối thiểu hai lần, mỗi lần cách nhau 02 ngày làm việc, nhưng người nhận không đến nhận;
+đ) Người nhận từ chối nhận.
+2. Bưu gửi được chuyển hoàn để trả lại cho người gửi khi không phát được cho người nhận và người gửi yêu cầu chuyển hoàn. Người gửi phải thanh toán giá cước dịch vụ bưu chính khi chuyển hoàn bưu gửi, trừ trường hợp các bên có thỏa thuận khác.
+3. Thư cơ bản đến 500 gam (g) khi không phát được mặc nhiên được chuyển hoàn cho người gửi và được miễn cước dịch vụ bưu chính khi chuyển hoàn.
+4. Bưu gửi được coi là không hoàn trả được cho người gửi trong các trường hợp sau đây:
+a) Không có địa chỉ người gửi; địa chỉ người gửi không đầy đủ hoặc không đúng;
+b) Người gửi đã thay đổi địa chỉ nhưng không để lại địa chỉ mới;
+c) Không tìm được người gửi tại địa chỉ đã ghi trên bưu gửi;
+d) Sau khi không thực hiện được việc phát, doanh nghiệp cung ứng dịch vụ bưu chính đã mời tối thiểu hai lần, mỗi lần cách nhau 02 ngày làm việc, nhưng người gửi không đến nhận;
+đ) Người gửi từ chối nhận lại.
+5. Bưu gửi bị coi là không có người nhận trong trường hợp không phát được cho người nhận theo quy định tại khoản 1 và không hoàn trả được cho người gửi theo quy định tại khoản 4 điều này sau thời hạn 06 tháng, kể từ ngày bưu gửi được chấp nhận. Thời hạn này không áp dụng đối với bưu gửi mà người nhận từ chối nhận và người gửi cũng từ chối nhận lại.
+Điều 18. Mã bưu chính quốc gia
+1. Mã bưu chính quốc gia gồm tập hợp các ký tự nhằm xác định một hoặc một nhóm địa chỉ bưu chính do cơ quan nhà nước có thẩm quyền về bưu chính quy định.
+2. Việc xây dựng mã bưu chính phải bảo đảm các nguyên tắc sau đây:
+a) Bảo đảm tính khoa học, ổn định và không trùng lặp;
+b) Căn cứ vào địa dư hành chính, mật độ dân số và được phân bổ trên phạm vi cả nước;
+c) Phù hợp với hướng dẫn của Liên minh Bưu chính Thế giới và thông lệ quốc tế.
+3. Khuyến khích tổ chức, cá nhân tham gia hoạt động bưu chính áp dụng mã bưu chính quốc gia nhằm nâng cao chất lượng dịch vụ bưu chính.
+Điều 19. Mạng bưu chính phục vụ cơ quan Đảng, Nhà nước, quốc phòng, an ninh
+1. Mạng bưu chính phục vụ cơ quan Đảng, Nhà nước, quốc phòng, an ninh được thiết lập để cung cấp dịch vụ bưu chính phục vụ các cơ quan này, hoạt động không vì mục đích kinh doanh.
+2. Mạng bưu chính quy định tại khoản 1 điều này chỉ được kết nối với mạng bưu chính công cộng.
+Chương III
+ĐẦU TƯ, KINH DOANH DỊCH VỤ BƯU CHÍNH
+Điều 20. Đầu tư, kinh doanh dịch vụ bưu chính
+1. Tổ chức, cá nhân đầu tư, kinh doanh dịch vụ bưu chính theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+2. Hình thức, điều kiện đầu tư, kinh doanh và tỷ lệ vốn góp của nhà đầu tư nước ngoài trong hoạt động đầu tư, kinh doanh dịch vụ bưu chính phải theo quy định của pháp luật Việt Nam và điều ước quốc tế liên quan đến bưu chính mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 21. Điều kiện cấp phép kinh doanh dịch vụ bưu chính
+1. Doanh nghiệp cung ứng dịch vụ thư có địa chỉ nhận có khối lượng đơn chiếc đến 02 kilôgam (kg) phải có giấy phép kinh doanh dịch vụ bưu chính (sau đây gọi là giấy phép bưu chính) do cơ quan nhà nước có thẩm quyền về bưu chính cấp.
+2. Doanh nghiệp được cấp giấy phép bưu chính khi có đủ các điều kiện sau đây:
+a) Có giấy chứng nhận đăng ký kinh doanh hoạt động bưu chính hoặc giấy chứng nhận đầu tư trong lĩnh vực bưu chính;
+b) Có khả năng tài chính, nhân sự phù hợp với phương án kinh doanh theo nội dung đề nghị được cấp giấy phép;
+c) Có phương án kinh doanh khả thi phù hợp với quy định về giá cước, chất lượng dịch vụ bưu chính;
+d) Có biện pháp đảm bảo an ninh thông tin và an toàn đối với con người, bưu gửi, mạng bưu chính.
+Điều 22. Nội dung và thời hạn của giấy phép bưu chính
+1. Giấy phép bưu chính có những nội dung chính sau đây:
+a) Tên, địa chỉ trụ sở chính của doanh nghiệp được cấp giấy phép bưu chính;
+b) Loại hình dịch vụ bưu chính cung ứng;
+c) Phạm vi cung ứng dịch vụ bưu chính;
+d) Tiêu chuẩn, chất lượng dịch vụ bưu chính cung ứng;
+đ) Quyền và nghĩa vụ của doanh nghiệp được cấp giấy phép bưu chính;
+e) Thời hạn của giấy phép bưu chính.
+2. Giấy phép bưu chính được cấp với thời hạn không quá 10 năm.
+Điều 23. Sửa đổi, bổ sung, cấp lại giấy phép bưu chính
+1. Trường hợp cần thay đổi nội dung ghi trong giấy phép bưu chính đã được cấp, doanh nghiệp phải làm thủ tục sửa đổi, bổ sung giấy phép.
+2. Việc cấp lại giấy phép bưu chính được thực hiện trong các trường hợp sau đây:
+a) Giấy phép bưu chính hết hạn;
+b) Giấy phép bưu chính bị mất hoặc hư hỏng không sử dụng được;
+c) Theo yêu cầu của cơ quan nhà nước có thẩm quyền cấp giấy phép bưu chính.
+Điều 24. Thu hồi giấy phép bưu chính
+1. Cơ quan nhà nước có thẩm quyền cấp giấy phép bưu chính thu hồi giấy phép bưu chính nếu doanh nghiệp được cấp giấy phép có một trong những hành vi sau đây:
+a) Hoạt động chống lại Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam; gây phương hại đến an ninh quốc gia, trật tự và an toàn xã hội;
+b) Cung cấp thông tin giả mạo hoặc cố ý gian dối để được cấp giấy phép;
+c) Không còn đủ các điều kiện để được cấp giấy phép;
+d) Cung ứng dịch vụ bưu chính không đúng với nội dung được ghi trong giấy phép, gây hậu quả nghiêm trọng đến lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân;
+đ) Sau 01 năm kể từ ngày được cấp giấy phép chưa triển khai cung ứng dịch vụ bưu chính được ghi trong giấy phép;
+e) Cho thuê, cho mượn giấy phép; chuyển nhượng giấy phép trái pháp luật.
+2. Sau 01 năm kể từ khi bị thu hồi giấy phép theo quy định tại các điểm b, c, d, đ và e khoản 1 điều này, nếu đã khắc phục được hậu quả gây ra và có đủ các điều kiện để được cấp giấy phép quy định tại Điều 21 của Luật này, doanh nghiệp đã bị thu hồi giấy phép có thể làm thủ tục đề nghị cấp giấy phép mới.
+Điều 25. Thông báo hoạt động bưu chính
+1. Các hoạt động bưu chính sau đây phải được thông báo bằng văn bản cho cơ quan nhà nước có thẩm quyền về bưu chính:
+a) Cung ứng dịch vụ thư không có địa chỉ nhận có khối lượng đơn chiếc đến 02 kilôgam (kg);
+b) Cung ứng dịch vụ thư có khối lượng đơn chiếc trên 02 kilôgam (kg);
+c) Cung ứng dịch vụ gói, kiện;
+d) Làm đại lý cho doanh nghiệp cung ứng dịch vụ bưu chính nước ngoài;
+đ) Nhận nhượng quyền thương mại trong lĩnh vực bưu chính từ nước ngoài vào Việt Nam;
+e) Làm đại diện cho doanh nghiệp cung ứng dịch vụ bưu chính nước ngoài;
+g) Làm chi nhánh, văn phòng đại diện của doanh nghiệp cung ứng dịch vụ bưu chính được thành lập theo pháp luật Việt Nam;
+h) Làm văn phòng đại diện của doanh nghiệp cung ứng dịch vụ bưu chính nước ngoài.
+2. Trường hợp có thay đổi nội dung đã thông báo, doanh nghiệp cung ứng dịch vụ bưu chính, các tổ chức quy định tại điểm g và điểm h khoản 1 điều này phải thông báo về việc thay đổi nội dung đó với cơ quan nhà nước có thẩm quyền về bưu chính.
+3. Cơ quan nhà nước có thẩm quyền về bưu chính xác nhận bằng văn bản các trường hợp thông báo quy định tại khoản 1 và khoản 2 điều này.
+4. Văn bản xác nhận thông báo hoạt động dịch vụ bưu chính được cấp lại trong trường hợp bị mất hoặc bị hư hỏng không sử dụng được.
+5. Trong thời gian thực hiện thủ tục thông báo, doanh nghiệp cung ứng dịch vụ bưu chính, các tổ chức quy định tại điểm g và điểm h khoản 1 điều này được tiến hành các hoạt động bưu chính theo Giấy chứng nhận đăng ký kinh doanh hoặc Giấy chứng nhận đầu tư hoặc Giấy phép thành lập văn phòng đại diện của thương nhân nước ngoài hoặc thông báo chấp thuận đăng ký hoạt động nhượng quyền thương mại đã được cấp tại Việt Nam.
+Điều 26. Các trường hợp không cần giấy phép bưu chính, không cần thông báo hoạt động
+1. Cá nhân nhận, vận chuyển và phát thư, gói, kiện hàng hoá trên cơ sở tự thoả thuận với người gửi mà không lấy tiền công với số lượng bưu gửi tối đa theo quy định của cơ quan nhà nước có thẩm quyền về bưu chính.
+2. Tổ chức nhận, vận chuyển và phát thư, gói, kiện hàng hoá trong nội bộ hoặc cho khách hàng của mình mà không lấy tiền công.
+3. Hoạt động cung cấp dịch vụ bưu chính quy định tại khoản 1 Điều 19 của Luật này.
+Chương IV
+CHẤT LƯỢNG VÀ GIÁ CƯỚC DỊCH VỤ BƯU CHÍNH
+Điều 27. Chất lượng dịch vụ bưu chính
+1. Chất lượng dịch vụ bưu chính công ích được quản lý trên cơ sở quy chuẩn kỹ thuật quốc gia về dịch vụ bưu chính công ích do cơ quan nhà nước có thẩm quyền về bưu chính ban hành.
+2. Chất lượng dịch vụ bưu chính không thuộc dịch vụ bưu chính công ích do doanh nghiệp cung ứng dịch vụ bưu chính công bố, áp dụng phù hợp với quy định của pháp luật về bưu chính và các quy định khác của pháp luật có liên quan.
+3. Nhà nước khuyến khích doanh nghiệp cung ứng dịch vụ bưu chính áp dụng tiêu chuẩn quốc tế trong lĩnh vực bưu chính.
+Điều 28. Giá cước dịch vụ bưu chính
+1. Căn cứ để xây dựng và điều chỉnh giá cước dịch vụ bưu chính gồm:
+a) Chi phí sản xuất, quan hệ cung cầu thị trường;
+b) Mức giá cước cùng loại trên thị trường khu vực và thế giới.
+2. Giá cước dịch vụ bưu chính công ích do cơ quan nhà nước có thẩm quyền về bưu chính quy định theo quy định của Luật này và pháp luật về giá.
+3. Doanh nghiệp cung ứng dịch vụ bưu chính có trách nhiệm:
+a) Quyết định giá cước dịch vụ bưu chính do doanh nghiệp cung ứng, trừ dịch vụ bưu chính thuộc danh mục do cơ quan nhà nước có thẩm quyền quy định giá cước;
+b) Đăng ký, kê khai giá cước dịch vụ bưu chính theo quy định của pháp luật về giá;
+c) Thông báo với cơ quan nhà nước có thẩm quyền về bưu chính giá cước các dịch vụ bưu chính;
+d) Niêm yết công khai giá cước dịch vụ bưu chính.
+Chương V
+QUYỀN VÀ NGHĨA VỤ CỦA DOANH NGHIỆP CUNG ỨNG DỊCH VỤ BƯU CHÍNH, NGƯỜI SỬ DỤNG DỊCH VỤ BƯU CHÍNH
+Điều 29. Quyền và nghĩa vụ của doanh nghiệp cung ứng dịch vụ bưu chính
+Ngoài quyền và nghĩa vụ quy định tại Luật doanh nghiệp, doanh nghiệp cung ứng dịch vụ bưu chính còn có các quyền và nghĩa vụ sau đây:
+1. Thiết lập mạng bưu chính để cung ứng dịch vụ bưu chính;
+2. Được thanh toán đủ giá cước dịch vụ bưu chính mà mình cung ứng;
+3. Kiểm tra nội dung gói, kiện hàng hoá trước khi chấp nhận;
+4. Từ chối cung ứng dịch vụ bưu chính nếu phát hiện bưu gửi vi phạm quy định tại Điều 12 của Luật này và quy định về điều kiện cung ứng dịch vụ bưu chính của doanh nghiệp;
+5. Xử lý bưu gửi không có người nhận quy định tại khoản 5 Điều 17 của Luật này;
+6. Cung cấp đầy đủ, chính xác thông tin về dịch vụ bưu chính cho người sử dụng dịch vụ bưu chính;
+7. Niêm yết công khai tại điểm phục vụ Danh mục vật phẩm, hàng hoá không được gửi, chấp nhận, vận chuyển qua mạng bưu chính quy định tại Điều 12 của Luật này và các quy định về điều kiện cung ứng dịch vụ bưu chính của doanh nghiệp;
+8. Bảo đảm an toàn, an ninh trong cung ứng và sử dụng dịch vụ bưu chính theo quy định tại Điều 13 và Điều 14 của Luật này;
+9. Chịu trách nhiệm trước pháp luật khi cố ý chấp nhận bưu gửi vi phạm quy định tại các khoản 1, 2 và 3 Điều 7 và Điều 12 của Luật này;
+10. Không được tiết lộ thông tin về sử dụng dịch vụ bưu chính của tổ chức, cá nhân, trừ trường hợp quy định tại Điều 14 của Luật này;
+11. Không được cung ứng dịch vụ bưu chính vi phạm quy định về phạm vi dịch vụ bưu chính dành riêng dưới mọi hình thức;
+12. Hưởng thù lao, chi phí hợp lý khi thay mặt người sử dụng dịch vụ bưu chính thực hiện thủ tục xuất khẩu, nhập khẩu bưu gửi quốc tế quy định tại Điều 15 của Luật này;
+13. Thực hiện dịch vụ thay đổi họ tên, địa chỉ người nhận, rút lại bưu gửi, chuyển tiếp, chuyển hoàn bưu gửi theo quy định tại khoản 2 và khoản 3 Điều 16, khoản 2 và khoản 3 Điều 17 của Luật này;
+14. Giải quyết khiếu nại, tranh chấp, bồi thường thiệt hại theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+Điều 30. Quyền và nghĩa vụ của người sử dụng dịch vụ bưu chính
+Người sử dụng dịch vụ bưu chính có các quyền và nghĩa vụ sau đây:
+1. Được doanh nghiệp cung ứng dịch vụ bưu chính cung cấp đầy đủ, chính xác thông tin về dịch vụ bưu chính mà mình sử dụng;
+2. Được bảo đảm an toàn và an ninh thông tin;
+3. Khiếu nại về dịch vụ bưu chính đã sử dụng;
+4. Được bồi thường thiệt hại theo quy định của pháp luật;
+5. Ghi đúng họ tên, địa chỉ của người gửi và người nhận;
+6. Cung cấp thông tin về bưu gửi;
+7. Chịu trách nhiệm trước pháp luật về bưu gửi;
+8. Thực hiện các quy định về an toàn, an ninh đối với bưu gửi;
+9. Thanh toán đủ giá cước dịch vụ bưu chính mà mình sử dụng, trừ trường hợp được miễn, giảm giá cước theo quy định của pháp luật hoặc các bên có thoả thuận khác;
+10. Trả thù lao, chi phí hợp lý khi doanh nghiệp thực hiện thủ tục xuất khẩu, nhập khẩu bưu gửi;
+11. Tạo điều kiện thuận lợi cho doanh nghiệp phát bưu gửi đến địa chỉ của mình hoặc lắp đặt hộp thư tại vị trí thuận tiện cho việc phát bưu gửi; 
+12. Bồi thường thiệt hại cho doanh nghiệp cung ứng dịch vụ bưu chính theo quy định tại Điều 42 của Luật này.
+Chương VI
+HOẠT ĐỘNG BƯU CHÍNH CÔNG ÍCH
+Điều 31. Nguyên tắc hoạt động bưu chính công ích
+1. Bảo đảm cung ứng dịch vụ bưu chính thiết yếu cho xã hội với chất lượng theo quy chuẩn kỹ thuật quốc gia về bưu chính và giá cước phù hợp với khả năng thanh toán của người dân.
+2. Giảm dần theo lộ trình sự điều tiết hỗ trợ của Nhà nước trong việc cung ứng dịch vụ bưu chính công ích.
+Điều 32. Cung ứng dịch vụ bưu chính công ích
+1. Nhà nước hỗ trợ việc cung ứng dịch vụ bưu chính công ích thông qua phạm vi dịch vụ bưu chính dành riêng và các cơ chế hỗ trợ khác.
+2. Thủ tướng Chính phủ chỉ định doanh nghiệp bưu chính của Nhà nước quản lý mạng bưu chính công cộng và thực hiện cung ứng dịch vụ bưu chính công ích theo nhiệm vụ, kế hoạch mà Nhà nước giao.
+3. Doanh nghiệp cung ứng dịch vụ bưu chính công ích quy định tại khoản 2 điều này thực hiện cung ứng dịch vụ bưu chính dành riêng, gồm dịch vụ thư có địa chỉ nhận, có khối lượng đơn chiếc đến 02 kilôgam (kg) với mức giá cước theo quy định của pháp luật.
+4. Phạm vi dịch vụ bưu chính dành riêng giảm dần căn cứ vào tình hình phát triển bưu chính trong từng thời kỳ theo quy định tại khoản 2 Điều 44 của Luật này.
+Điều 33. Quyền và nghĩa vụ của doanh nghiệp cung ứng dịch vụ bưu chính công ích
+Ngoài quyền và nghĩa vụ quy định tại Điều 29 của Luật này, doanh nghiệp cung ứng dịch vụ bưu chính công ích còn có các quyền và nghĩa vụ sau đây:
+1. Thiết lập mạng bưu chính công cộng trong phạm vi cả nước để cung ứng dịch vụ bưu chính trong nước và quốc tế; lắp đặt thùng thư công cộng để chấp nhận thư cơ bản;
+2. Bảo đảm cung ứng dịch vụ bưu chính công ích và thực hiện các nhiệm vụ công ích khác do Nhà nước giao theo danh mục, phạm vi, giá cước, quy chuẩn kỹ thuật quốc gia do cơ quan nhà nước có thẩm quyền quyết định;
+3. Xây dựng, trình cơ quan nhà nước có thẩm quyền phương án giá cước dịch vụ bưu chính do Nhà nước quy định;
+4. Kiểm tra, sửa chữa, bảo trì, bảo vệ công trình thuộc mạng bưu chính công cộng;
+5. Sử dụng phương tiện vận tải chuyên ngành đi, đến, đỗ trong đô thị để cung ứng dịch vụ bưu chính công ích theo quy định ưu tiên của cơ quan nhà nước có thẩm quyền tại địa phương;
+6. Không sử dụng doanh thu từ các dịch vụ bưu chính dành riêng để trợ cấp cho các khoản lỗ do việc cung ứng các dịch vụ cạnh tranh khác dưới giá thành;
+7. Theo dõi riêng các dịch vụ bưu chính công ích, dịch vụ bưu chính dành riêng và báo cáo kết quả cung ứng các dịch vụ này với Bộ Thông tin và Truyền thông;
+8. Sản xuất, cung ứng tem Bưu chính Việt Nam;
+9. Sử dụng hiệu quả mạng bưu chính công cộng để kinh doanh dịch vụ tài chính, tiết kiệm, chuyển tiền, phát hành báo chí và các dịch vụ khác theo quy định của pháp luật;
+10. Không được từ chối cung ứng dịch vụ bưu chính công ích khi người sử dụng đã thực hiện các yêu cầu về sử dụng dịch vụ.
+Điều 34. Mạng bưu chính công cộng
+1. Mạng bưu chính công cộng được xây dựng và phát triển theo quy hoạch được cơ quan nhà nước có thẩm quyền phê duyệt. Các điểm phục vụ của mạng bưu chính công cộng được đặt tại nhà ga, bến xe, cảng biển, cảng hàng không, cửa khẩu, khu dân cư và các điểm công cộng khác để phục vụ nhu cầu của người sử dụng.
+2. Căn cứ quy hoạch phát triển mạng bưu chính công cộng và quy hoạch, kế hoạch sử dụng đất đã được phê duyệt, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương bố trí quỹ đất cho các công trình xây dựng thuộc mạng bưu chính công cộng để phục vụ cho việc cung ứng và sử dụng dịch vụ bưu chính công ích.
+3. Khi xây dựng mới khu đô thị, khu dân cư tập trung, chung cư cao tầng, toà nhà văn phòng, chủ đầu tư có trách nhiệm:
+a) Bố trí địa điểm thuận lợi để doanh nghiệp được chỉ định cung ứng dịch vụ bưu chính công ích lắp đặt hệ thống thùng thư công cộng trong khu đô thị, khu dân cư tập trung;
+b) Lắp đặt hộp thư tập trung tại chung cư cao tầng, toà nhà văn phòng.
+4. Tại khu đô thị, khu dân cư tập trung, chung cư cao tầng, tòa nhà văn phòng đã đưa vào sử dụng trước khi Luật này có hiệu lực nhưng chưa có thùng thư công cộng, hộp thư tập trung, đơn vị quản lý có trách nhiệm:
+a) Bố trí địa điểm thuận lợi để doanh nghiệp được chỉ định cung ứng dịch vụ bưu chính công ích lắp đặt hệ thống thùng thư công cộng trong khu đô thị, khu dân cư tập trung;
+b) Bố trí địa điểm và tổ chức để người sử dụng dịch vụ bưu chính tại chung cư cao tầng, toà nhà văn phòng thực hiện việc lắp đặt hộp thư tập trung.
+Chương VII 
+TEM BƯU CHÍNH
+Điều 35. Tem Bưu chính Việt Nam
+1. Bộ Thông tin và Truyền thông là cơ quan duy nhất quyết định phát hành tem Bưu chính Việt Nam.
+2. Tem Bưu chính Việt Nam phải thể hiện:
+a) Dòng chữ “Việt Nam”;
+b) Dòng chữ “Bưu chính”;
+c) Giá in trên mặt tem (nếu có) bằng tiền đồng Việt Nam.
+3. Chủ đề và thiết kế của tem Bưu chính Việt Nam không được có các nội dung, hình ảnh, ký hiệu, dấu hiệu gây kích động, thù hằn giữa các dân tộc, sắc tộc, tôn giáo; chống phá Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam; không phù hợp với đạo đức xã hội, với thuần phong mỹ tục của Việt Nam.
+4. Tem Bưu chính Việt Nam được gắn mã số của Việt Nam và tham gia hệ thống mã số của Liên minh Bưu chính Thế giới.
+5. Tem Bưu chính Việt Nam và các tài liệu liên quan phải được lưu trữ theo quy định của pháp luật về lưu trữ.
+Điều 36. Sử dụng tem bưu chính để thanh toán trước giá cước dịch vụ bưu chính
+1. Tem Bưu chính Việt Nam được sử dụng để thanh toán trước giá cước dịch vụ bưu chính trong nước và dịch vụ bưu chính quốc tế từ Việt Nam đi các nước.
+2. Tem bưu chính nước ngoài không được sử dụng để thanh toán trước giá cước dịch vụ bưu chính trong nước và dịch vụ bưu chính quốc tế từ Việt Nam đi các nước.
+Điều 37. Sử dụng tem bưu chính để kinh doanh, sưu tập
+1. Tổ chức, cá nhân được kinh doanh, sưu tập tem Bưu chính Việt Nam và tem bưu chính nước ngoài, trừ trường hợp quy định tại khoản 3 điều này.
+2. Việc nhập khẩu tem bưu chính nước ngoài được thực hiện theo quy định của cơ quan nhà nước có thẩm quyền về bưu chính.
+3. Tổ chức, cá nhân không được kinh doanh, trao đổi, trưng bày, tuyên truyền những loại tem sau đây:
+a) Tem bưu chính giả;
+b) Tem bưu chính có nội dung, hình ảnh, ký hiệu, dấu hiệu gây kích động, thù hằn giữa các dân tộc, sắc tộc, tôn giáo; chống phá Nhà nước Cộng hoà xã hội chủ nghĩa Việt Nam; không phù hợp với đạo đức xã hội, với thuần phong mỹ tục của Việt Nam;
+c) Tem bưu chính đã có quyết định thu hồi của cơ quan nhà nước có thẩm quyền;
+d) Tem bưu chính nước ngoài có nội dung và nguồn gốc xuất xứ không phù hợp theo thông báo của cơ quan bưu chính các nước thành viên Liên minh Bưu chính Thế giới và các hiệp hội sưu tập tem.
+Chương VIII
+GIẢI QUYẾT TRANH CHẤP VÀ BỒI THƯỜNG THIỆT HẠI TRONG CUNG ỨNG VÀ SỬ DỤNG DỊCH VỤ BƯU CHÍNH
+Điều 38. Khiếu nại trong cung ứng và sử dụng dịch vụ bưu chính
+1. Người sử dụng dịch vụ bưu chính, doanh nghiệp cung ứng dịch vụ bưu chính có quyền khiếu nại để bảo vệ quyền và lợi ích hợp pháp của mình.
+2. Việc khiếu nại quy định tại khoản 1 điều này phải được lập thành văn bản. Thời hiệu khiếu nại được quy định như sau:
+a) 06 tháng, kể từ ngày kết thúc thời gian toàn trình của bưu gửi đối với khiếu nại về việc mất bưu gửi, chuyển phát bưu gửi chậm so với thời gian toàn trình đã công bố; trường hợp doanh nghiệp không công bố thời gian toàn trình thì thời hiệu này được tính từ ngày sau ngày bưu gửi đó được chấp nhận;
+b) 01 tháng, kể từ ngày bưu gửi được phát cho người nhận đối với khiếu nại về việc bưu gửi bị suy suyển, hư hỏng, về giá cước và các nội dung khác có liên quan trực tiếp đến bưu gửi.
+3. Thời hạn giải quyết khiếu nại được quy định như sau:
+a) Không quá 02 tháng, kể từ ngày nhận được khiếu nại đối với dịch vụ bưu chính trong nước;
+b) Không quá 03 tháng, kể từ ngày nhận được khiếu nại đối với dịch vụ bưu chính quốc tế.
+4. Trong thời hạn quy định tại khoản 3 điều này, bên nhận khiếu nại phải giải quyết khiếu nại và thông báo cho bên khiếu nại biết; trường hợp quá thời hạn quy định tại khoản 3 điều này mà bên khiếu nại không nhận được thông báo trả lời hoặc không đồng ý với kết quả giải quyết khiếu nại của bên nhận khiếu nại thì có quyền yêu cầu giải quyết tranh chấp.
+5. Trường hợp việc khiếu nại không được thực hiện trong thời hạn quy định tại khoản 2 điều này thì việc yêu cầu giải quyết tranh chấp không có giá trị.
+Điều 39. Giải quyết tranh chấp trong cung ứng và sử dụng dịch vụ bưu chính
+1. Việc giải quyết tranh chấp trong cung ứng và sử dụng dịch vụ bưu chính được thực hiện thông qua các hình thức sau đây:
+a) Thương lượng giữa các bên;
+b) Hoà giải;
+c) Giải quyết tại Trọng tài hoặc Toà án.
+2. Việc giải quyết tranh chấp trong cung ứng và sử dụng dịch vụ bưu chính tại Trọng tài hoặc Toà án được thực hiện theo quy định của pháp luật.
+Điều 40. Nguyên tắc bồi thường thiệt hại trong cung ứng và sử dụng dịch vụ bưu chính
+1. Việc bồi thường thiệt hại trong trường hợp bưu gửi bị mất, hư hỏng hoặc bị tráo đổi toàn bộ được xác định theo mức giới hạn trách nhiệm bồi thường thiệt hại toàn bộ đối với dịch vụ đó.
+2. Việc bồi thường thiệt hại trong trường hợp bưu gửi bị mất, hư hỏng hoặc tráo đổi một phần được xác định trên cơ sở thiệt hại thực tế, nhưng không cao hơn mức giới hạn trách nhiệm bồi thường thiệt hại toàn bộ đối với dịch vụ đó, trừ trường hợp các bên có thoả thuận khác.
+3. Tiền bồi thường thiệt hại là đồng Việt Nam, việc chi trả được thực hiện một lần, trừ trường hợp các bên có thoả thuận khác.
+4. Không bồi thường thiệt hại gián tiếp hoặc nguồn lợi không thu được do việc cung ứng dịch vụ bưu chính không bảo đảm chất lượng dịch vụ bưu chính mà doanh nghiệp đã công bố.
+5. Mức bồi thường thiệt hại do doanh nghiệp cung ứng dịch vụ bưu chính công bố và áp dụng, nhưng không được thấp hơn mức bồi thường do cơ quan nhà nước có thẩm quyền quy định.
+Điều 41. Trách nhiệm bồi thường thiệt hại của doanh nghiệp cung ứng dịch vụ bưu chính
+1. Doanh nghiệp cung ứng dịch vụ bưu chính có trách nhiệm bồi thường thiệt hại cho người sử dụng dịch vụ bưu chính khi không bảo đảm chất lượng dịch vụ bưu chính mà doanh nghiệp đã công bố hoặc vi phạm hợp đồng đã giao kết, trừ trường hợp quy định tại khoản 4 điều này.
+2. Trường hợp một phần thiệt hại xảy ra do người sử dụng dịch vụ bưu chính vi phạm hợp đồng đã giao kết thì doanh nghiệp được miễn trách nhiệm bồi thường thiệt hại tương ứng với mức độ thiệt hại do người sử dụng dịch vụ bưu chính gây ra.
+3. Tiền bồi thường thiệt hại được trả cho người gửi, trừ trường hợp có thoả thuận khác giữa doanh nghiệp cung ứng dịch vụ bưu chính và người gửi; trường hợp bưu gửi bị hư hỏng, mất một phần mà người nhận đồng ý nhận phần còn lại thì tiền bồi thường thiệt hại được trả cho người nhận.
+4. Trừ trường hợp các bên có thoả thuận khác, doanh nghiệp cung ứng dịch vụ bưu chính không phải bồi thường thiệt hại trong các trường hợp sau đây:
+a) Thiệt hại xảy ra hoàn toàn do lỗi vi phạm hợp đồng của người sử dụng dịch vụ bưu chính hoặc do đặc tính tự nhiên, khuyết tật vốn có của vật chứa trong bưu gửi đó;
+b) Người sử dụng dịch vụ bưu chính không chứng minh được việc gửi và suy suyển, hư hỏng bưu gửi;
+c) Bưu gửi đã được phát và người nhận không có ý kiến khi nhận bưu gửi;
+d) Bưu gửi bị tịch thu hoặc tiêu hủy theo quy định của pháp luật Việt Nam hoặc pháp luật của nước nhận;
+đ) Người sử dụng dịch vụ bưu chính không thực hiện đúng các quy định về khiếu nại, giải quyết tranh chấp quy định tại Điều 38 và Điều 39 của Luật này;
+e) Các trường hợp bất khả kháng theo quy định của pháp luật.
+Điều 42. Trách nhiệm bồi thường thiệt hại của người sử dụng dịch vụ bưu chính
+1. Người sử dụng dịch vụ bưu chính phải bồi thường thiệt hại cho doanh nghiệp cung ứng dịch vụ bưu chính và các bên có liên quan theo quy định của pháp luật khi gửi vật phẩm, hàng hoá không được gửi quy định tại Điều 12 hoặc bưu gửi không được gói, bọc theo quy định tại điểm d khoản 1 Điều 11 của Luật này.
+2. Trừ trường hợp các bên có thoả thuận khác, người sử dụng dịch vụ bưu chính không phải bồi thường thiệt hại trong các trường hợp sau đây:
+a) Thiệt hại xảy ra do doanh nghiệp cung ứng dịch vụ bưu chính vi phạm hợp đồng đã giao kết;
+b) Bưu gửi đã được chấp nhận đúng thỏa thuận trong hợp đồng;
+c) Doanh nghiệp cung ứng dịch vụ bưu chính không thực hiện các quy định về khiếu nại, giải quyết tranh chấp quy định tại Điều 38 và Điều 39 của Luật này.
+Chương IX
+TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ HOẠT ĐỘNG BƯU CHÍNH
+Điều 43. Trách nhiệm quản lý nhà nước về hoạt động bưu chính
+1. Chính phủ thống nhất quản lý nhà nước về hoạt động bưu chính trong phạm vi cả nước.
+2. Bộ Thông tin và Truyền thông chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về hoạt động bưu chính.
+3. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về hoạt động bưu chính theo phân công của Chính phủ.
+4. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương thực hiện quản lý nhà nước về hoạt động bưu chính theo phân cấp của Chính phủ.
+Điều 44. Trách nhiệm của Bộ Thông tin và Truyền thông
+1. Trình Chính phủ ban hành quy định cụ thể về điều kiện, hình thức đầu tư, hoạt động thương mại trong cung ứng dịch vụ bưu chính; điều kiện, thẩm quyền, thủ tục cấp, sửa đổi, bổ sung, cấp lại giấy phép bưu chính, văn bản xác nhận thông báo hoạt động; bồi thường thiệt hại trong cung ứng và sử dụng dịch vụ bưu chính; tem bưu chính; xử phạt vi phạm hành chính trong hoạt động bưu chính.
+2. Trình Thủ tướng Chính phủ ban hành quyết định danh mục dịch vụ bưu chính công ích, cơ chế hỗ trợ dịch vụ bưu chính công ích, mạng bưu chính phục vụ cơ quan Đảng, Nhà nước, quản lý giá cước dịch vụ bưu chính, lộ trình giảm dần và thời điểm kết thúc phạm vi dịch vụ bưu chính dành riêng.
+3. Quy định cụ thể về mã bưu chính quốc gia; dấu ngày; bưu gửi không phát được; chuyển tiếp, chuyển hoàn bưu gửi; các trường hợp không cần giấy phép bưu chính, văn bản xác nhận thông báo hoạt động; báo cáo thống kê trong hoạt động bưu chính; khiếu nại trong cung ứng và sử dụng dịch vụ bưu chính; chất lượng dịch vụ bưu chính.
+4. Quyết định danh mục dịch vụ bưu chính, giá cước dịch vụ bưu chính công ích sau khi thống nhất với Bộ Tài chính.
+5. Phối hợp với Bộ Tài chính quy định về xuất khẩu, nhập khẩu bưu gửi; xử lý bưu gửi không có người nhận; miễn, giảm giá cước dịch vụ bưu chính và tổ chức thực hiện việc miễn giảm này; xây dựng danh mục dịch vụ bưu chính phải thực hiện đăng ký giá.
+6. Phối hợp với Bộ Công thương quy định về hướng dẫn hoạt động khuyến mại và giải quyết cạnh tranh trong cung ứng dịch vụ bưu chính.
+7. Phối hợp với Bộ Xây dựng quy định về lắp đặt thùng thư công cộng, hộp thư tập trung tại khu đô thị, khu dân cư tập trung, chung cư cao tầng, tòa nhà văn phòng.
+8. Phối hợp với Bộ Công an quy định về nguyên tắc, điều kiện đình chỉ, tạm đình chỉ vận chuyển, phát bưu gửi, kiểm tra, xử lý bưu gửi và yêu cầu cung cấp thông tin về sử dụng dịch vụ bưu chính; về mạng bưu chính phục vụ an ninh.
+9. Phối hợp với Bộ Quốc phòng quy định về mạng bưu chính phục vụ quốc phòng.
+10. Phối hợp với các bộ, ngành có liên quan hướng dẫn về xử lý hàng lậu, hàng cấm gửi qua đường bưu chính.
+11. Phối hợp với Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương để hướng dẫn lập quy hoạch và trình tự, thủ tục phê duyệt quy hoạch mạng bưu chính công cộng tại địa phương.
+Chương X
+ĐIỀU KHOẢN THI HÀNH
+Điều 45. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2011.
+2. Các quy định về bưu chính của Pháp lệnh bưu chính, viễn thông số 43/2002/PL- UBTVQH10 hết hiệu lực kể từ ngày Luật này có hiệu lực.
+3. Giấy phép bưu chính được cấp trước ngày Luật này có hiệu lực được tiếp tục thực hiện cho đến khi kết thúc thời hạn ghi trong giấy phép đã cấp.
+Điều 46. Quy định chi tiết và hướng dẫn thi hành
+Chính phủ quy định chi tiết và hướng dẫn thi hành các điều, khoản được giao trong Luật; hướng dẫn những nội dung cần thiết khác của Luật này để đáp ứng yêu cầu quản lý nhà nước.
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XII, kỳ họp thứ 7 thông qua ngày 17 tháng 6 năm 2010
+ 
+ 
+ 
+ 
+CHỦ   TỊCH QUỐC HỘI
+
+
+
+   Nguyễn Phú Trọng
+ 
+ 
+ 
