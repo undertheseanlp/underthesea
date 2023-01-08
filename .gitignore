@@ -71,3 +71,4 @@ target/
 wandb
 
 node_modules
+.vscode
