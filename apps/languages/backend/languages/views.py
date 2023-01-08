@@ -1,5 +1,5 @@
-from .models import Article, Collection, Task
-from .serializers import (
+from languages.models import Article, Collection, Task
+from languages.serializers import (
     ArticleDetailSerializer,
     ArticleListSerializer,
     CollectionSerializer,
