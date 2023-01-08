@@ -8,6 +8,7 @@ from .serializers import (
 from rest_framework import viewsets
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
+from rest_framework.pagination import LimitOffsetPagination
 
 
 class TaskViewSet(viewsets.ModelViewSet):
@@ -18,6 +19,7 @@ class TaskViewSet(viewsets.ModelViewSet):
 class ArticleViewSet(viewsets.ModelViewSet):
     queryset = Article.objects.all()
     serializer_class = ArticleListSerializer
+    pagination_class = LimitOffsetPagination
 
     def list(self, request, *args, **kwargs):
         collection_id = kwargs.get("collection_id")
@@ -26,6 +28,10 @@ class ArticleViewSet(viewsets.ModelViewSet):
             articles = collection.articles.all()
         else:
             articles = self.queryset
+        page = self.paginate_queryset(articles)
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
         serializer = self.get_serializer(articles, many=True)
         return Response(serializer.data)
 
