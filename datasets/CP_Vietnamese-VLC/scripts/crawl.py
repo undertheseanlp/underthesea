@@ -3,10 +3,12 @@ from bs4 import BeautifulSoup
 from os.path import dirname, join, abspath
 from datetime import datetime
 
+
 def extract_filename(url):
     last_slash_index = url.rindex("/")
     last_period_index = url.rindex(".")
-    output = url[last_slash_index + 1 : last_period_index]
+    last_slash = last_slash_index + 1
+    output = url[last_slash:last_period_index]
     return output
 
 
