@@ -1,5 +1,5 @@
 from .models import Article, Collection, Task
-from .serializers import ArticleSerializer, CollectionSerializer, TaskSerializer
+from .serializers import ArticleDetailSerializer, ArticleSerializer, ArticleListSerializer, CollectionSerializer, TaskSerializer
 from rest_framework import viewsets
 from rest_framework.response import Response
 from django.shortcuts import get_object_or_404
@@ -11,7 +11,11 @@ class TaskViewSet(viewsets.ModelViewSet):
 
 class ArticleViewSet(viewsets.ModelViewSet):
     queryset = Article.objects.all()
-    serializer_class = ArticleSerializer
+
+    
+class ArticleViewSet(viewsets.ModelViewSet):
+    queryset = Article.objects.all()
+    serializer_class = ArticleListSerializer
 
     def list(self, request, *args, **kwargs):
         collection_id = kwargs.get("collection_id")
@@ -22,6 +26,12 @@ class ArticleViewSet(viewsets.ModelViewSet):
             articles = self.queryset
         serializer = self.get_serializer(articles, many=True)
         return Response(serializer.data)
+
+    def retrieve(self, request, *args, **kwargs):
+        self.serializer_class = ArticleDetailSerializer
+        output = super().retrieve(request, *args, **kwargs)
+        self.serializer_class = ArticleListSerializer
+        return output
 
 class CollectionViewSet(viewsets.ModelViewSet):
     queryset = Collection.objects.all()
