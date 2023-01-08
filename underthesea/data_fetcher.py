@@ -61,8 +61,9 @@ class DataFetcher:
         if data not in REPO:
             print(f"No matching distribution found for '{data}'")
             return
-
         repo_data = REPO[data]
+        if "url" in repo_data:
+            url = repo_data["url"]
         filepath = REPO[data]["filepath"]
         cache_dir = REPO[data]["cache_dir"]
         filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / filepath
@@ -78,7 +79,7 @@ class DataFetcher:
             "VLSP2016-NER", "VLSP2018-NER", "AIVIVN2019-SA",
             "VLSP2016-SA", "VLSP2018-SA", "UTS2017-BANK",
             "DI_Vietnamese-UVD", "CP_Vietnamese-UNC", "SE_Vietnamese-UBS",
-            "UIT_ABSA_RESTAURANT", "UIT_ABSA_HOTEL"
+            "UIT_ABSA_RESTAURANT", "UIT_ABSA_HOTEL", "CP_Vietnamese_VLC_v2_2022"
         ]
         if data in set(zip_datasets):
             if repo_data["license"] == "Close":
