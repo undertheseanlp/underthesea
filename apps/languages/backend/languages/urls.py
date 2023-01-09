@@ -20,7 +20,7 @@ from .views import ArticleViewSet, TaskViewSet, CollectionViewSet
 
 router = routers.DefaultRouter()
 router.register(r'tasks', TaskViewSet)
-router.register(r'collections', CollectionViewSet)
+router.register(r'collections', CollectionViewSet, basename="collections")
 router.register(r'articles', ArticleViewSet, basename="articles")
 
 urlpatterns = [
