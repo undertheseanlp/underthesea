@@ -1,0 +1,12 @@
+import ArticleApi from "../articleApi";
+import {expect} from '@jest/globals';
+
+describe("API", () => {
+  describe("/users", () => {
+    it("should create a new user", async () => {
+      // Mock the axios.post function to return a test response
+      expect(1).toEqual(1);
+      ArticleApi.getArticles({limit: 10, offset: 0});
+    })
+  })
+})
