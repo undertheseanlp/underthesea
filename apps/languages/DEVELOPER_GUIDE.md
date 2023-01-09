@@ -16,6 +16,15 @@ python manage.py migrate
 python manage.py createsuperuser # Username: admin, password: 123456
 ```
 
+## Run Tests
+
+```
+cd backend
+python manage.py test languages/tests
+```
+
+## Run server
+
 Run server 
 
 ```
