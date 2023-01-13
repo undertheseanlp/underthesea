@@ -1,5 +1,4 @@
 import ArticleApi from "../articleApi";
-import {expect} from '@jest/globals';
 
 describe("API", () => {
   describe("/users", () => {
