@@ -63,7 +63,9 @@ class TestVietnameseIPA(TestCase):
         expected = read_test_files(join(DATA_TEST_FOLDER, "edge_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            actual = " ".join(
+                [Syllable(token).generate_ipa(eight=True) for token in tokens]
+            )
             self.assertEqual(expected[i], actual)
 
     def test_onset_n_c_p(self):
@@ -71,7 +73,9 @@ class TestVietnameseIPA(TestCase):
         expected = read_test_files(join(DATA_TEST_FOLDER, "onsets_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            actual = " ".join(
+                [Syllable(token).generate_ipa(eight=True) for token in tokens]
+            )
             self.assertEqual(expected[i], actual)
 
     def test_rimes_n_c_p(self):
@@ -79,7 +83,9 @@ class TestVietnameseIPA(TestCase):
         expected = read_test_files(join(DATA_TEST_FOLDER, "rimes_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            actual = " ".join(
+                [Syllable(token).generate_ipa(eight=True) for token in tokens]
+            )
             self.assertEqual(expected[i], actual)
 
     def test_tones_n_c_p(self):
@@ -87,13 +93,31 @@ class TestVietnameseIPA(TestCase):
         expected = read_test_files(join(DATA_TEST_FOLDER, "tones_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            actual = " ".join(
+                [Syllable(token).generate_ipa(eight=True) for token in tokens]
+            )
             self.assertEqual(expected[i], actual)
+
+    def _test_sets(self, infile, outfile, **kwargs):
+        inputs = read_test_files(join(DATA_TEST_FOLDER, infile))
+        expected = read_test_files(join(DATA_TEST_FOLDER, outfile))
+        for i, item in enumerate(inputs):
+            tokens = item.lower().split()
+            actual = " ".join(
+                [Syllable(token).generate_ipa(**kwargs) for token in tokens]
+            )
+            self.assertEqual(expected[i], actual)
+
+    def test_onsets_s_8_n(self):
+        kwargs = {"dialect": "south", "eight": True}
+        self._test_sets("onsets.in", "onsets_s-8-n.out", **kwargs)
 
     def test_vowels_n_c_p(self):
         inputs = read_test_files(join(DATA_TEST_FOLDER, "vowels.in"))
         expected = read_test_files(join(DATA_TEST_FOLDER, "vowels_n-c-p.out"))
         for i, item in enumerate(inputs):
             tokens = item.lower().split()
-            actual = " ".join([Syllable(token).generate_ipa(eight=True) for token in tokens])
+            actual = " ".join(
+                [Syllable(token).generate_ipa(eight=True) for token in tokens]
+            )
             self.assertEqual(expected[i], actual)

@@ -5,7 +5,14 @@ from collections import OrderedDict
 from types import SimpleNamespace
 import regex
 from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
-from underthesea.utils.vietnamese_ipa_rules import codas, nuclei, onsets, onoffglides, onglides, offglides
+from underthesea.utils.vietnamese_ipa_rules import (
+    codas,
+    nuclei,
+    onsets,
+    onoffglides,
+    onglides,
+    offglides,
+)
 
 
 class VIETNAMESE:
@@ -67,6 +74,7 @@ class Syllable:
     """
     Syllable class
     """
+
     def __init__(self, text):
         self.text = text
         non_tone_letters, tone = VIETNAMESE.analyze_tone(text)
@@ -108,7 +116,7 @@ class Syllable:
 
     # flake8: noqa: C901
     def generate_ipa(
-            self, dialect: str = "north", eight: bool = False, tone: str = "number"
+        self, dialect: str = "north", eight: bool = False, tone: str = "number"
     ):
         """Generate ipa of the syllable
 
@@ -119,17 +127,14 @@ class Syllable:
         Args:
             dialect (str): Either the `string` `"north"` or `"south"`. Default: `north`
             eight (boolean): If true, use eight tone format, else use six tone format. Default: `False`
-            tone (str): Either the `string` `"ipa"` or `"number"`. Default: `number`
+            tone (str): Either the `string` `"number"` or `"ipa"`. Default: `number`
 
         Returns:
             A `string`. Represents ipa of the syllable
         """
         groups = self.matched.groupdict()
 
-        map_w = {
-            "o": "ʷ",
-            "u": "ʷ"
-        }
+        map_w = {"o": "ʷ", "u": "ʷ"}
 
         c1, w, v, c2 = groups["C1"], groups["w"], groups["V"], groups["C2"]
 
@@ -271,25 +276,25 @@ class Syllable:
 
 
 vietnamese_alphabet = (
-        "aàáảãạ"
-        + "ăằắẳẵặ"
-        + "âầấẩẫậ"
-        + "bcd"
-        + "đ"
-        + "eèéẻẽẹ"
-        + "êềếểễệ"
-        + "fgh"
-        + "iìíỉĩị"
-        + "jklmn"
-        + "oòóỏõọ"
-        + "ôồốổỗộ"
-        + "ơờớởỡợ"
-        + "pqrst"
-        + "uùúủũụ"
-        + "ưừứửữự"
-        + "vwx"
-        + "yỳýỷỹỵ"
-        + "z"
+    "aàáảãạ"
+    + "ăằắẳẵặ"
+    + "âầấẩẫậ"
+    + "bcd"
+    + "đ"
+    + "eèéẻẽẹ"
+    + "êềếểễệ"
+    + "fgh"
+    + "iìíỉĩị"
+    + "jklmn"
+    + "oòóỏõọ"
+    + "ôồốổỗộ"
+    + "ơờớởỡợ"
+    + "pqrst"
+    + "uùúủũụ"
+    + "ưừứửữự"
+    + "vwx"
+    + "yỳýỷỹỵ"
+    + "z"
 )
 
 vietnamese_alphabet_order = OrderedDict()
