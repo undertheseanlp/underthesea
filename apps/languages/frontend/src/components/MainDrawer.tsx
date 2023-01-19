@@ -9,6 +9,10 @@ import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 import FeedIcon from '@mui/icons-material/Feed'
 import SearchIcon from '@mui/icons-material/Search'
+import AcUnitIcon from '@mui/icons-material/AcUnit'
+import CollectionsIcon from '@mui/icons-material/Collections'
+import './MainDrawer.css'
+import { Link } from 'react-router-dom'
 
 const drawerWidth = 240
 
@@ -16,10 +20,25 @@ const items = [
   {
     text: 'Articles',
     icon: <FeedIcon />,
+    to: 'ArticleList',
   },
   {
     text: 'Explore',
     icon: <SearchIcon />,
+    to: 'Explore',
+  },
+]
+
+const items2 = [
+  {
+    text: 'Albums',
+    icon: <CollectionsIcon />,
+    to: 'Albums',
+  },
+  {
+    text: 'Utilities',
+    icon: <AcUnitIcon />,
+    to: 'Utilities',
   },
 ]
 
@@ -37,12 +56,28 @@ function MainDrawer() {
       <Box sx={{ overflow: 'auto' }}>
         <List>
           {items.map((item, index) => (
-            <ListItem key={item.text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>{item.icon}</ListItemIcon>
-                <ListItemText primary={item.text} />
-              </ListItemButton>
-            </ListItem>
+            <Link to={item.to}>
+              <ListItem key={item.text} disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
+                  <ListItemText primary={item.text} />
+                </ListItemButton>
+              </ListItem>
+            </Link>
+          ))}
+        </List>
+
+        <h5 className={'section'}>LIBRARY</h5>
+        <List>
+          {items2.map((item, index) => (
+            <Link to={item.to}>
+              <ListItem key={item.text} disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>{item.icon}</ListItemIcon>
+                  <ListItemText primary={item.text} />
+                </ListItemButton>
+              </ListItem>
+            </Link>
           ))}
         </List>
       </Box>
