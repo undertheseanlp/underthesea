@@ -7,6 +7,7 @@ import AppbarMain from './components/AppbarMain'
 import MainDrawer from './components/MainDrawer'
 import { Utilities } from './features/utilities/Utilities'
 import Dictionary from './features/utilities/Dictionary'
+import WordNew from './features/utilities/WordNew'
 import { ArticleDetail } from './features/articles/ArticleDetail'
 import { ArticleList } from './features/articles/ArticleList'
 import ArticleNew from './features/articles/ArticleNew'
@@ -47,6 +48,9 @@ function App() {
           </Route>
           <Route path="/Dictionary">
             <Dictionary />
+          </Route>
+          <Route path="/WordNew">
+            <WordNew />
           </Route>
           <Route path="/Counter">
             <Counter />
