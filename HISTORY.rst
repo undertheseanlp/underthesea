@@ -2,12 +2,17 @@
 History
 ================================================================================
 
+6.0.3 (2023-01-25)
+--------------------------------------------------------------------------------
+
+* GH-622: Initialize Dictionary page feature by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/633
+* GH-622: Add dictionary page by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/634
+
 6.0.2 (2023-01-17)
 --------------------------------------------------------------------------------
 
 * GH-628: Create unittest for django API by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/629
 * GH-607: add test frontend with jest by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/630
-
 
 **Full Changelog**: https://github.com/undertheseanlp/underthesea/compare/v6.0.1...v6.0.2
 
