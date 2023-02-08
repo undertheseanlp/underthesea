@@ -23,3 +23,17 @@ CRFFeaturizer
 2. Push to branch `core`
   * This will trigger `release-pypi-core` action
 3. Check latest version in [pypi](https://pypi.org/project/underthesea_core/)
+
+## Run 
+
+Build project
+
+```
+cargo build
+```
+
+Test project 
+
+```
+cargo test
+```
