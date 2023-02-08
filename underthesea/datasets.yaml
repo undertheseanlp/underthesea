@@ -108,8 +108,8 @@ DI_Vietnamese-UVD:
   license: Open
   year: 2021
   filepath: ''
-  url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/DI_Vietnamese-UVD-1.0-alpha.1.zip
-  url_filename: DI_Vietnamese-UVD.zip
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/DI_Vietnamese_UVD_v1_2021.zip
+  url_filename: DI_Vietnamese_UVD_v1_2021.zip
 SE_Vietnamese-UBS:
   cache_dir: datasets/SE_Vietnamese-UBS
   type: Sentiment
