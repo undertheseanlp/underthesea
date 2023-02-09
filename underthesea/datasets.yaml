@@ -32,8 +32,8 @@ UTS2017-BANK:
   license: Open
   year: 2017
   filepath: ''
-  url: https://www.dropbox.com/s/xl8sof2i1c35n62/UTS2017_BANK.zip?dl=1
-  url_filename: UTS2017_BANK.zip?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/UTS2017_BANK.zip
+  url_filename: UTS2017_BANK.zip
 VLSP2016-NER:
   cache_dir: datasets/VLSP2016-NER
   type: Tagged
