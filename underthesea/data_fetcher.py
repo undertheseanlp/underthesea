@@ -55,8 +55,8 @@ class DataFetcher:
         cached_path(url, cache_dir=cache_dir)
         filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename
         cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-        zip = zipfile.ZipFile(filepath)
-        zip.extractall(cache_folder)
+        with zipfile.ZipFile(filepath) as zip:
+            zip.extractall(cache_folder)
         os.remove(filepath)
 
     @staticmethod

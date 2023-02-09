@@ -14,10 +14,11 @@ class TestCliData(TestCase):
         result = runner.invoke(download_data, [data_name])
         print(result.output)
 
-    @skip
+    # @skip
     def test_download_data_zip_file(self):
         runner = CliRunner()
-        data_name = "UTS2017-BANK"
+        # data_name = "UTS2017-BANK"
+        data_name = "DI_Vietnamese-UVD"
         # url = ""
         result = runner.invoke(download_data, [data_name])
         print(result.output)
