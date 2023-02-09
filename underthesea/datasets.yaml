@@ -101,7 +101,7 @@ CP_Vietnamese-UNC:
   year: 2020
   filepath: ''
   url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/CP_Vietnamese-UNC-2.0-alpha.zip
-  url_filename: CP_Vietnamese-UNC.zip
+  url_filename: CP_Vietnamese-UNC-2.0-alpha.zip
 DI_Vietnamese-UVD:
   cache_dir: datasets/DI_Vietnamese-UVD
   type: Dictionary
