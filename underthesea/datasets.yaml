@@ -79,13 +79,13 @@ VNTQ_BIG:
   url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTQcorpus-big.txt
   url_filename: VNTQcorpus-big.txt
 VNTQ_SMALL:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNTQ_SMALL
   type: Plaintext
   license: Open
   year: 2012
   filepath: VNTQcorpus-small.txt
-  url: https://www.dropbox.com/s/04wjlnpwe4a94lq/VNTQcorpus-small.txt?dl=1
-  url_filename: VNTQcorpus-small.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTQcorpus-small.txt
+  url_filename: VNTQcorpus-small.txt
 VNTC:
   cache_dir: datasets/VNTC
   type: Categorized
