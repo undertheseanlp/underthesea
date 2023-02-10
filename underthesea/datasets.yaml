@@ -76,8 +76,8 @@ VNTQ_BIG:
   license: Open
   year: 2012
   filepath: VNTQcorpus-big.txt
-  url: https://www.dropbox.com/s/on6naf4una3r5ot/VNTQcorpus-big.txt?dl=1
-  url_filename: VNTQcorpus-big.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTQcorpus-big.txt
+  url_filename: VNTQcorpus-big.txt
 VNTQ_SMALL:
   cache_dir: datasets/LTA
   type: Plaintext
