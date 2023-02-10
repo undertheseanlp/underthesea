@@ -32,8 +32,8 @@ UTS2017-BANK:
   license: Open
   year: 2017
   filepath: ''
-  url: https://www.dropbox.com/s/xl8sof2i1c35n62/UTS2017_BANK.zip?dl=1
-  url_filename: UTS2017_BANK.zip?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/UTS2017_BANK.zip
+  url_filename: UTS2017_BANK.zip
 VLSP2016-NER:
   cache_dir: datasets/VLSP2016-NER
   type: Tagged
@@ -63,37 +63,37 @@ VLSP2013-POS:
   filepath: ''
   url_filename: VLSP2013-POS.zip?dl=1
 VNESES:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNESES
   type: Plaintext
   license: Open
   year: 2012
   filepath: VNESEScorpus.txt
-  url: https://www.dropbox.com/s/ci2kktkhhq46cnh/VNESEcorpus.txt?dl=1
-  url_filename: VNESEcorpus.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNESEcorpus.txt
+  url_filename: VNESEcorpus.txt
 VNTQ_BIG:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNTQ_BIG
   type: Plaintext
   license: Open
   year: 2012
   filepath: VNTQcorpus-big.txt
-  url: https://www.dropbox.com/s/on6naf4una3r5ot/VNTQcorpus-big.txt?dl=1
-  url_filename: VNTQcorpus-big.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTQcorpus-big.txt
+  url_filename: VNTQcorpus-big.txt
 VNTQ_SMALL:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNTQ_SMALL
   type: Plaintext
   license: Open
   year: 2012
   filepath: VNTQcorpus-small.txt
-  url: https://www.dropbox.com/s/04wjlnpwe4a94lq/VNTQcorpus-small.txt?dl=1
-  url_filename: VNTQcorpus-small.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTQcorpus-small.txt
+  url_filename: VNTQcorpus-small.txt
 VNTC:
   cache_dir: datasets/VNTC
   type: Categorized
   license: Open
   year: 2007
   filepath: ''
-  url: https://www.dropbox.com/s/4iw3xtnkd74h3pj/VNTC.zip?dl=1
-  url_filename: VNTC.zip?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTC.zip
+  url_filename: VNTC.zip
 CP_Vietnamese-UNC:
   cache_dir: datasets/CP_Vietnamese-UNC
   type: Plaintext
@@ -101,7 +101,7 @@ CP_Vietnamese-UNC:
   year: 2020
   filepath: ''
   url: https://github.com/undertheseanlp/resources/releases/download/1.3.x/CP_Vietnamese-UNC-2.0-alpha.zip
-  url_filename: CP_Vietnamese-UNC.zip
+  url_filename: CP_Vietnamese-UNC-2.0-alpha.zip
 DI_Vietnamese-UVD:
   cache_dir: datasets/DI_Vietnamese-UVD
   type: Dictionary
