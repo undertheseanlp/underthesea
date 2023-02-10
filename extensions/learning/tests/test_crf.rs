@@ -2,7 +2,7 @@
 #[cfg(test)]
 mod tests {
     use super::*;
-    use super::crf;
+    use learning::crf::Token;
     #[test]
     fn test_crf() {
         assert_eq!(1, 1);

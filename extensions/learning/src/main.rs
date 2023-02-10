@@ -83,7 +83,7 @@
 // }
 use csv::Reader;
 use std::fs::File;
-use learning::crf::crf::Token;
+use learning::crf::Token;
 
 fn read_training_data(file_path: &str) -> (Vec<String>, Vec<String>) {
     let file  = File::open(file_path).expect("Failed to open file");

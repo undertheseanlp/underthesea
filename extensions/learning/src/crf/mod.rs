@@ -1,1 +1,3 @@
-pub mod crf;
+pub mod token;
+
+pub use token::Token;
