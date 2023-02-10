@@ -2,6 +2,15 @@
 History
 ================================================================================
 
+6.1.1 (2023-02-10)
+--------------------------------------------------------------------------------
+
+* GH-641: Correct the error with the filename of the dataset in Windows by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/644
+* Bump django from 3.2.16 to 3.2.17 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/640
+* Bump django from 4.1.4 to 4.1.6 in /apps/languages/backend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/639
+* Bump ua-parser-js from 0.7.28 to 0.7.33 in /apps/directory/components/json_viewer/component/frontend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/636
+* Bump future from 0.16.0 to 0.18.3 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/645
+
 6.1.0 (2023-02-08)
 --------------------------------------------------------------------------------
 
