@@ -92,8 +92,8 @@ VNTC:
   license: Open
   year: 2007
   filepath: ''
-  url: https://www.dropbox.com/s/4iw3xtnkd74h3pj/VNTC.zip?dl=1
-  url_filename: VNTC.zip?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTC.zip
+  url_filename: VNTC.zip
 CP_Vietnamese-UNC:
   cache_dir: datasets/CP_Vietnamese-UNC
   type: Plaintext
