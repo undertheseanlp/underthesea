@@ -63,15 +63,15 @@ VLSP2013-POS:
   filepath: ''
   url_filename: VLSP2013-POS.zip?dl=1
 VNESES:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNESES
   type: Plaintext
   license: Open
   year: 2012
   filepath: VNESEScorpus.txt
-  url: https://www.dropbox.com/s/ci2kktkhhq46cnh/VNESEcorpus.txt?dl=1
-  url_filename: VNESEcorpus.txt?dl=1
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/VNESEcorpus.txt
+  url_filename: VNESEcorpus.txt
 VNTQ_BIG:
-  cache_dir: datasets/LTA
+  cache_dir: datasets/VNTQ_BIG
   type: Plaintext
   license: Open
   year: 2012
