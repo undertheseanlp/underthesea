@@ -1,0 +1,37 @@
+# Sentence: "Con chó ngồi trên chiếc chăn."
+1   Con    PRP
+2   chó    NN
+3   ngồi   V
+4   trên   IN
+5   chiếc  DT
+6   chăn   NN
+
+# Sentence: "Tôi thích ăn pizza."
+1   Tôi    PRP
+2   thích  V
+3   ăn     V
+4   pizza  N
+
+# Sentence: "Cô ấy đi bộ đến cửa hàng."
+1   Cô     PRP
+2   ấy    PRP
+3   đi     V
+4   bộ    N
+5   đến   IN
+6   cửa   N
+7   hàng  N
+
+# Sentence: "Tôi sẽ đi học ngày mai"
+1   Tôi    PRP
+2   sẽ     MD
+3   đi     V
+4   học    N
+5   ngày   N
+6   mai    N
+
+# Sentence: "Đây là một cái bút."
+1   Đây   PRP
+2   là    V
+3   một   NUM
+4   cái   N
+5   bút   N
