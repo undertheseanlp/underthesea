@@ -1,0 +1,77 @@
+- examples:
+  - xin chào
+  - chào
+  - chào buổi sáng
+  name: smalltalk.greeting.hello
+  responses:
+  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
+  - Chào! Tôi có thể giúp gì cho bạn?
+  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+- examples:
+  - tạm biệt
+  - chào tạm biệt
+  - bye
+  name: smalltalk.greeting.byebye
+  responses:
+  - Tạm biệt! Hẹn gặp lại!
+  - Chào tạm biệt! Hẹn gặp lại.
+- examples:
+  - ngày mới tốt lành
+  - chào ngày mới
+  - buổi sáng vui vẻ
+  name: smalltalk.greeting.goodmorning
+  responses:
+  - Chào ngày mới! Chúc một ngày tốt lành.
+  - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
+  - Buổi sáng vui vẻ! Chào ngày mới.
+- examples:
+  - chào buổi tối
+  - chúc ngủ ngon
+  - ngủ ngon
+  name: smalltalk.greeting.goodnight
+  responses:
+  - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
+- examples:
+  - xin lỗi
+  - lỗi của tôi
+  - tôi xin lỗi
+  name: smalltalk.apology
+  responses:
+  - Xin lỗi! Tôi có thể giúp gì cho bạn?
+  - Không có gì!
+- examples:
+  - tôi muốn mua sản phẩm
+  - tôi muốn đặt hàng
+  name: product.order
+  responses:
+  - Tôi có thể giúp bạn đặt hàng sản phẩm. Bạn cần tìm sản phẩm gì?
+  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
+- examples:
+  - tôi muốn biết trạng thái đơn hàng
+  - tôi muốn tra cứu đơn hàng
+  name: product.order.status
+  responses:
+  - Tôi sẽ giúp bạn tra cứu trạng thái đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
+- examples:
+  - tôi muốn xóa đơn hàng
+  - tôi muốn hủy đơn hàng
+  name: product.order.cancel
+  responses:
+  - Rất tiếc! Tôi có thể giúp bạn hủy đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Tôi có thể giúp bạn xóa đơn hàng. Bạn có thể cho biết số đơn hàng của bạn?
+- name: smalltalk.introduction
+- name: smalltalk.hobbies
+- name: product.recommendation
+- name: product.features
+- name: product.pricing
+- name: product.reviews
+- name: product.compare
+- name: product.returns
+- name: customer.service
+- name: customer.service.complaint
+- name: smalltalk.greeting.byebye
+- name: smalltalk.greeting.goodnight
+- name: smalltalk.apology

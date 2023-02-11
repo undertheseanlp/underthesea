@@ -1,0 +1,246 @@
+- examples:
+  - chào buổi sáng
+  - xin chào
+  - chào
+  name: smalltalk.greeting.hello
+  responses:
+  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
+  - Chào! Tôi có thể giúp gì cho bạn?
+- examples:
+  - buổi sáng vui vẻ
+  - ngày mới tốt lành
+  - chào ngày mới
+  name: smalltalk.greeting.goodmorning
+  responses:
+  - Buổi sáng vui vẻ! Chào ngày mới.
+  - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
+  - Chào ngày mới! Chúc một ngày tốt lành.
+- examples:
+  - chào tạm biệt
+  - bye
+  - tạm biệt
+  name: smalltalk.greeting.byebye
+  responses:
+  - Tạm biệt! Hẹn gặp lại!
+  - Chào tạm biệt! Hẹn gặp lại.
+- examples:
+  - chào buổi tối
+  - ngủ ngon
+  - chúc ngủ ngon
+  name: smalltalk.greeting.goodnight
+  responses:
+  - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
+- examples:
+  - lỗi của tôi
+  - tôi xin lỗi
+  - xin lỗi
+  name: smalltalk.apology
+  responses:
+  - Xin lỗi! Tôi có thể giúp gì cho bạn?
+  - Không có gì!
+- examples:
+  - tôi muốn mua sản phẩm
+  - Tôi cần mua một sản phẩm
+  - Tôi muốn đặt một đơn hàng
+  - Tôi muốn đặt hàng sản phẩm
+  - tôi muốn đặt hàng
+  name: product.order
+  responses:
+  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
+  - Tôi có thể giúp bạn đặt hàng sản phẩm. Bạn cần tìm sản phẩm gì?
+  - Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn đặt hàng?
+  - Tôi sẽ cần biết thêm thông tin về sản phẩm mà bạn muốn đặt hàng.
+- examples:
+  - Tôi cần xem tình trạng của đơn hàng
+  - Tôi muốn biết trạng thái đơn hàng
+  - tôi muốn tra cứu đơn hàng
+  - tôi muốn biết trạng thái đơn hàng
+  - Tôi muốn xem tình trạng đơn hàng của tôi
+  name: product.order.status
+  responses:
+  - Tôi sẽ cần số đơn hàng để cung cấp cho bạn thông tin về trạng thái của đơn hàng.
+  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
+  - Tôi sẽ giúp bạn tra cứu trạng thái đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Bạn có thể cung cấp số đơn hàng của bạn để tôi có thể kiểm tra trạng thái của
+    đơn hàng cho bạn.
+- examples:
+  - tôi muốn hủy đơn hàng
+  - Tôi muốn hủy đơn hàng
+  - Tôi muốn hủy đơn đặt hàng
+  - tôi muốn xóa đơn hàng
+  - Tôi muốn huỷ đơn hàng của tôi
+  name: product.order.cancel
+  responses:
+  - Bạn có thể cho tôi biết số đơn hàng mà bạn muốn hủy để tôi giúp bạn hủy đơn hàng.
+  - Rất tiếc! Tôi có thể giúp bạn hủy đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Tôi có thể giúp bạn xóa đơn hàng. Bạn có thể cho biết số đơn hàng của bạn?
+  - Tôi sẽ cần số đơn hàng để xác nhận và hủy đơn hàng cho bạn
+- examples:
+  - Hãy giới thiệu về bản thân
+  - Bạn tên là gì?
+  - Tôi muốn bạn giới thiệu về bản thân
+  name: smalltalk.introduction
+  responses:
+  - Xin chào. Xin chào! Tôi là ChatUTS, một chatbotđược huấn luyện bởi Underthesea.
+    Tôi được sử dụng để trả lời các câu hỏi và giải quyết các nhiệm vụ liên quan đến
+    ngôn ngữ, kiến thức chung và nhiều lĩnh vực khác. Tôi sẵn sàng giúp bạn với mọi
+    thắc mắc của bạn. Hãy hỏi tôi bất cứ điều gì!
+- examples:
+  - Bạn thích gì
+  - Bạn có thích gì khác ngoài công việc
+  - Sở thích của bạn là gì
+  name: smalltalk.hobbies
+  responses:
+  - Tôi là một chatbot được huấn luyện bởi Underthesea, do đó tôi không có các sở
+    thích hay cảm xúc riêng. Tôi được tạo ra để trả lời các câu hỏi và giải quyết
+    các nhiệm vụ của người dùng, và tôi làm việc nhằm đạt được mục tiêu đó một cách
+    tốt nhất có thể.
+- examples:
+  - Có sản phẩm nào thú vị
+  - Gần đây có sản phẩm gì hay
+  - Tôi muốn mua sản phẩm
+  name: product.recommendation
+  responses:
+  - Bạn muốn tìm sản phẩm nào cụ thể? Tôi có thể giới thiệu cho bạn một số sản phẩm
+    phù hợp.
+  - Bạn muốn mua sản phẩm cho mục đích gì? Tôi có thể giúp gì cho bạn?
+- examples:
+  - Tôi muốn biết về các tính năng của sản phẩm
+  - Tôi muốn biết tất cả các tính năng mới nhất của sản phẩm
+  - Tôi muốn biết về các tính năng nổi bật của sản phẩm
+  - Cho tôi xem các tính năng của sản phẩm này
+  - Tôi cần biết chi tiết về các tính năng của sản phẩm
+  - Tôi muốn biết các tính năng đặc biệt của sản phẩm
+  - Tôi muốn biết tất cả các tính năng của sản phẩm
+  name: product.features
+  responses:
+  - Xin lỗi, tôi cần thêm thông tin về sản phẩm mà bạn đang quan tâm để có thể giúp
+    bạn tìm hiểu về các tính năng của nó. Vui lòng cung cấp thêm chi tiết về sản phẩm
+    để tôi có thể hỗ trợ bạn tốt hơn.
+- examples:
+  - Tôi muốn biết giá cả và điều kiện thanh toán của sản phẩm
+  - Cho tôi xem bảng giá của sản phẩm
+  - Tôi muốn biết giá sản phẩm
+  - Giá của sản phẩm là bao nhiêu?
+  - Tôi muốn biết chi tiết về bảng giá của sản phẩm
+  - Tôi muốn mua sản phẩm, hãy cho biết giá
+  - Tôi muốn biết giá cả của sản phẩm và các gói dịch vụ khác
+  name: product.pricing
+  responses:
+  - Xin lỗi, tôi không có thông tin chi tiết về giá của sản phẩm cụ thể mà bạn đang
+    quan tâm. Vui lòng cung cấp thêm thông tin về sản phẩm để tôi có thể giúp bạn
+    hơn.
+- examples:
+  - Tôi muốn biết ý kiến người dùng về sản phẩm này
+  - Tôi muốn xem đánh giá sản phẩm
+  - Bạn có thể cho tôi biết sản phẩm này được đánh giá cao không?
+  name: product.reviews
+  responses:
+  - Trung bình đánh giá của sản phẩm này là 4 sao trên 5. Rất nhiều khách hàng đánh
+    giá rất cao về chất lượng và giá cả.
+  - Chúng tôi có rất nhiều đánh giá từ khách hàng cho sản phẩm này. Bạn có muốn tôi
+    gửi cho bạn một số đánh giá gần đây nhất?
+- examples:
+  - Tôi muốn biết sản phẩm này có tốt hơn sản phẩm X không?
+  - Bạn có thể cho tôi biết sản phẩm này tốt hơn sản phẩm khác không?
+  - Tôi muốn so sánh sản phẩm này với sản phẩm khác
+  name: product.compare
+  responses:
+  - Tùy thuộc vào nhu cầu và yêu cầu của bạn, sản phẩm này có thể tốt hơn hoặc kém
+    hơn sản phẩm khác.
+  - Chúng tôi có thể cho bạn biết một số thông tin về sản phẩm này và sản phẩm khác.
+    Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn so sánh?
+- examples:
+  - tôi muốn hoàn tiền
+  - tôi cần hỗ trợ về hoàn trả
+  - tôi muốn hoàn trả sản phẩm
+  name: product.returns
+  responses:
+  - Chúng tôi có thể hỗ trợ bạn về việc hoàn trả. Vui lòng cho tôi biết chi tiết về
+    sản phẩm và lý do hoàn trả.
+  - Rất tiếc về sự cố này. Vui lòng cho tôi biết chi tiết về sản phẩm bạn muốn hoàn
+    trả và tôi sẽ giúp bạn.
+- examples:
+  - tôi muốn gửi yêu cầu hỗ trợ
+  - tôi muốn gặp nhân viên hỗ trợ
+  - tôi cần hỗ trợ
+  name: customer.service
+  responses:
+  - Rất vui được giúp đỡ bạn. Vui lòng cho tôi biết chi tiết về yêu cầu của bạn.
+  - Chào! Tôi có thể giúp gì cho bạn hôm nay?
+- examples:
+  - tôi muốn báo cáo sự cố
+  - tôi muốn khiếu nại
+  - tôi muốn gửi phản ánh
+  name: customer.service.complaint
+  responses:
+  - Chúng tôi rất muốn giúp đỡ bạn với vấn đề mà bạn gặp phải.
+  - Rất tiếc về sự cố mà bạn gặp phải. Vui lòng cho tôi biết chi tiết về vấn đề và
+    tôi sẽ giúp bạn giải quyết nó.
+- examples: []
+  name: event.notification
+  responses: []
+- examples: []
+  name: weather.forecast
+  responses: []
+- examples: []
+  name: travel.destinations
+  responses: []
+- examples: []
+  name: travel.booking
+  responses: []
+- examples: []
+  name: finance.investment
+  responses: []
+- examples:
+  - bộ phim hành động hay nhất mới đây
+  - ai đẹp nhất trong phim của Marvel?
+  - phim viễn tưởng hay nhất mọi thời đại
+  name: topic.movies
+  responses:
+  - Bộ phim hành động hay nhất mới đây là "Tenet" của Christopher Nolan.
+  - Phim viễn tưởng hay nhất mọi thời đại của tôi là "Blade Runner" của Ridley Scott.
+  - Tôi thấy Robert Downey Jr rất đẹp trong các phim của Marvel.
+- examples:
+  - bài hát tâm trạng hay nhất
+  - ca sĩ hay nhất của năm 2022
+  - nhạc trẻ hay nhất hiện nay
+  name: topic.music
+  responses:
+  - Nhạc trẻ hay nhất hiện nay là Dua Lipa.
+  - Ca sĩ hay nhất của năm 2022 là Billie Eilish.
+  - Bài hát tâm trạng hay nhất của tôi là "Someone You Loved" của Lewis Capaldi.
+- examples:
+  - cầu thủ tài năng nhất năm 2022
+  - đội bóng hay nhất thế giới
+  - môn thể thao hay nhất
+  name: topic.sports
+  responses:
+  - Đội bóng hay nhất thế giới là Barcelona FC.
+  - Môn thể thao hay nhất của tôi là bóng đá.
+  - Cầu thủ tài năng nhất năm 2022 là Kylian Mbappé.
+- examples:
+  - Bản tin trên báo cáo gần đây về việc đầu tư
+  - Cập nhật cho tôi về tin tức giải trí
+  - Tôi muốn biết thêm về tin tức kinh tế
+  name: topic.news
+  responses:
+  - Rất tiếc, tôi không có bản tin mới nhất về tin tức giải trí. Tôi có thể giúp bạn
+    tìm kiếm thêm thông tin từ các nguồn khác.
+  - Về tin tức giải trí, có rất nhiều sự kiện mới và hấp dẫn đang diễn ra.
+  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát
+    triển mạnh mẽ.
+- examples:
+  - Lịch trình của tôi trong ngày mai
+  - Lịch sự kiện cho tuần này
+  - Lịch sự kiện trong tuần tới
+  name: event.calendar
+  responses:
+  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
+  - Tuần này, có rất nhiều sự kiện quan trọng đang diễn ra, bao gồm hội chợ công nghệ
+    và hội thảo kinh
+  - Trong tuần tới, có rất nhiều sự kiện hấp dẫn đang diễn ra, bao gồm hội chợ, biểu
+    diễn nghệ thuật và hội thảo.

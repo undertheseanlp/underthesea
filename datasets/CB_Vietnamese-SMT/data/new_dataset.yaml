@@ -1,0 +1,19 @@
+- name: topic.news
+  examples:
+  - Bản tin trên báo cáo gần đây về việc đầu tư
+  - Tôi muốn biết thêm về tin tức kinh tế
+  - Cập nhật cho tôi về tin tức giải trí
+  responses:
+  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát triển mạnh mẽ.
+  - Về tin tức giải trí, có rất nhiều sự kiện mới và hấp dẫn đang diễn ra.
+  - Rất tiếc, tôi không có bản tin mới nhất về tin tức giải trí. Tôi có thể giúp bạn tìm kiếm thêm thông tin từ các nguồn khác.
+
+- name: event.calendar
+  examples:
+  - Lịch sự kiện trong tuần tới
+  - Lịch trình của tôi trong ngày mai
+  - Lịch sự kiện cho tuần này
+  responses:
+  - Trong tuần tới, có rất nhiều sự kiện hấp dẫn đang diễn ra, bao gồm hội chợ, biểu diễn nghệ thuật và hội thảo.
+  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
+  - Tuần này, có rất nhiều sự kiện quan trọng đang diễn ra, bao gồm hội chợ công nghệ và hội thảo kinh

@@ -1,0 +1,31 @@
+```
+- name: smalltalk.greeting.hello
+- name: smalltalk.greeting.goodmorning
+- name: smalltalk.greeting.byebye
+- name: smalltalk.greeting.goodnight
+- name: smalltalk.apology
+- name: product.order
+- name: product.order.status
+- name: product.order.cancel
+- name: smalltalk.introduction
+- name: smalltalk.hobbies
+- name: product.recommendation
+- name: product.features
+- name: product.pricing
+- name: product.reviews
+- name: product.compare
+- name: product.returns
+- name: customer.service
+- name: customer.service.complaint
+- name: topic.news
+- name: event.calendar
+- name: event.notification
+- name: weather.forecast
+- name: travel.destinations
+- name: travel.booking
+- name: finance.investment
+- name: topic.movies
+- name: topic.music
+- name: topic.sports
+```
+Sinh ra thêm 10 intents mới cho chatbot 

@@ -1,0 +1,30 @@
+```
+- name: topic.news
+- name: event.calendar
+- name: event.notification
+- name: weather.forecast
+- name: travel.destinations
+```
+
+Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo định dạng
+- name: intent_name
+  examples:
+  - example 1
+  - example 2
+  responses:
+  - response 1
+  - response 2
+
+Ví dụ:
+```
+- name: smalltalk.greeting.hello
+  examples:
+  - xin chào
+  - chào
+  - chào buổi sáng
+  responses:
+  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
+  - Chào! Tôi có thể giúp gì cho bạn?
+  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+```
+    

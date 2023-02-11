@@ -1,0 +1,11 @@
+```
+smalltalk.greeting.hello
+smalltalk.greeting.byebye
+smalltalk.greeting.goodmorning
+smalltalk.greeting.goodnight
+smalltalk.apology
+product.order
+product.order.status
+product.order.cancel
+```
+Sinh ra thêm 10 intents cho chatbot 

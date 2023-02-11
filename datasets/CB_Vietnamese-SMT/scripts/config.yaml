@@ -1,0 +1,5 @@
+ignores:
+- name: smalltalk.greeting.byebye
+- name: smalltalk.greeting.goodnight
+- name: smalltalk.apology
+- name: smalltalk.introduction
