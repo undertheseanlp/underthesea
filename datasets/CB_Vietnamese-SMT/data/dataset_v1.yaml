@@ -1,77 +1,24 @@
 - examples:
   - xin chào
-  - chào
   - chào buổi sáng
+  - chào
   name: smalltalk.greeting.hello
   responses:
-  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
   - Chào! Tôi có thể giúp gì cho bạn?
   - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
 - examples:
-  - ngày mới tốt lành
-  - chào ngày mới
   - buổi sáng vui vẻ
+  - chào ngày mới
+  - ngày mới tốt lành
   name: smalltalk.greeting.goodmorning
   responses:
-  - Chào ngày mới! Chúc một ngày tốt lành.
   - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
+  - Chào ngày mới! Chúc một ngày tốt lành.
   - Buổi sáng vui vẻ! Chào ngày mới.
 - examples:
-  - tôi muốn mua sản phẩm
-  - tôi muốn đặt hàng
-  name: product.order
-  responses:
-  - Tôi có thể giúp bạn đặt hàng sản phẩm. Bạn cần tìm sản phẩm gì?
-  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
-- examples:
-  - tôi muốn biết trạng thái đơn hàng
-  - tôi muốn tra cứu đơn hàng
-  name: product.order.status
-  responses:
-  - Tôi sẽ giúp bạn tra cứu trạng thái đơn hàng. Bạn có thể cho biết số đơn hàng của
-    bạn?
-  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
-- examples:
-  - tôi muốn xóa đơn hàng
-  - tôi muốn hủy đơn hàng
-  name: product.order.cancel
-  responses:
-  - Rất tiếc! Tôi có thể giúp bạn hủy đơn hàng. Bạn có thể cho biết số đơn hàng của
-    bạn?
-  - Tôi có thể giúp bạn xóa đơn hàng. Bạn có thể cho biết số đơn hàng của bạn?
-- examples: []
-  name: smalltalk.introduction
-  responses: []
-- examples: []
-  name: smalltalk.hobbies
-  responses: []
-- examples: []
-  name: product.recommendation
-  responses: []
-- examples: []
-  name: product.features
-  responses: []
-- examples: []
-  name: product.pricing
-  responses: []
-- examples: []
-  name: product.reviews
-  responses: []
-- examples: []
-  name: product.compare
-  responses: []
-- examples: []
-  name: product.returns
-  responses: []
-- examples: []
-  name: customer.service
-  responses: []
-- examples: []
-  name: customer.service.complaint
-  responses: []
-- examples:
-  - tạm biệt
   - chào tạm biệt
+  - tạm biệt
   - bye
   name: smalltalk.greeting.byebye
   responses:
@@ -79,16 +26,518 @@
   - Chào tạm biệt! Hẹn gặp lại.
 - examples:
   - chào buổi tối
-  - chúc ngủ ngon
   - ngủ ngon
+  - chúc ngủ ngon
   name: smalltalk.greeting.goodnight
   responses:
   - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
 - examples:
   - xin lỗi
-  - lỗi của tôi
   - tôi xin lỗi
+  - lỗi của tôi
   name: smalltalk.apology
   responses:
   - Xin lỗi! Tôi có thể giúp gì cho bạn?
   - Không có gì!
+- examples:
+  - Tôi muốn đặt hàng sản phẩm
+  - tôi muốn đặt hàng
+  - tôi muốn mua sản phẩm
+  - Tôi cần mua một sản phẩm
+  - Tôi muốn đặt một đơn hàng
+  name: product.order
+  responses:
+  - Tôi sẽ cần biết thêm thông tin về sản phẩm mà bạn muốn đặt hàng.
+  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
+  - Tôi có thể giúp bạn đặt hàng sản phẩm. Bạn cần tìm sản phẩm gì?
+  - Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn đặt hàng?
+- examples:
+  - tôi muốn tra cứu đơn hàng
+  - tôi muốn biết trạng thái đơn hàng
+  - Tôi muốn xem tình trạng đơn hàng của tôi
+  - Tôi muốn biết trạng thái đơn hàng
+  - Tôi cần xem tình trạng của đơn hàng
+  name: product.order.status
+  responses:
+  - Tôi sẽ giúp bạn tra cứu trạng thái đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Tôi sẽ cần số đơn hàng để cung cấp cho bạn thông tin về trạng thái của đơn hàng.
+  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
+  - Bạn có thể cung cấp số đơn hàng của bạn để tôi có thể kiểm tra trạng thái của
+    đơn hàng cho bạn.
+- examples:
+  - Tôi muốn hủy đơn đặt hàng
+  - tôi muốn xóa đơn hàng
+  - Tôi muốn huỷ đơn hàng của tôi
+  - Tôi muốn hủy đơn hàng
+  - tôi muốn hủy đơn hàng
+  name: product.order.cancel
+  responses:
+  - Rất tiếc! Tôi có thể giúp bạn hủy đơn hàng. Bạn có thể cho biết số đơn hàng của
+    bạn?
+  - Tôi có thể giúp bạn xóa đơn hàng. Bạn có thể cho biết số đơn hàng của bạn?
+  - Bạn có thể cho tôi biết số đơn hàng mà bạn muốn hủy để tôi giúp bạn hủy đơn hàng.
+  - Tôi sẽ cần số đơn hàng để xác nhận và hủy đơn hàng cho bạn
+- examples:
+  - Tôi muốn bạn giới thiệu về bản thân
+  - Bạn tên là gì?
+  - Hãy giới thiệu về bản thân
+  name: smalltalk.introduction
+  responses:
+  - Xin chào. Xin chào! Tôi là ChatUTS, một chatbotđược huấn luyện bởi Underthesea.
+    Tôi được sử dụng để trả lời các câu hỏi và giải quyết các nhiệm vụ liên quan đến
+    ngôn ngữ, kiến thức chung và nhiều lĩnh vực khác. Tôi sẵn sàng giúp bạn với mọi
+    thắc mắc của bạn. Hãy hỏi tôi bất cứ điều gì!
+- examples:
+  - Sở thích của bạn là gì
+  - Bạn thích gì
+  - Bạn có thích gì khác ngoài công việc
+  name: smalltalk.hobbies
+  responses:
+  - Tôi là một chatbot được huấn luyện bởi Underthesea, do đó tôi không có các sở
+    thích hay cảm xúc riêng. Tôi được tạo ra để trả lời các câu hỏi và giải quyết
+    các nhiệm vụ của người dùng, và tôi làm việc nhằm đạt được mục tiêu đó một cách
+    tốt nhất có thể.
+- examples:
+  - Có sản phẩm nào thú vị
+  - Tôi muốn mua sản phẩm
+  - Gần đây có sản phẩm gì hay
+  name: product.recommendation
+  responses:
+  - Bạn muốn tìm sản phẩm nào cụ thể? Tôi có thể giới thiệu cho bạn một số sản phẩm
+    phù hợp.
+  - Bạn muốn mua sản phẩm cho mục đích gì? Tôi có thể giúp gì cho bạn?
+- examples:
+  - Tôi cần biết chi tiết về các tính năng của sản phẩm
+  - Cho tôi xem các tính năng của sản phẩm này
+  - Tôi muốn biết tất cả các tính năng của sản phẩm
+  - Tôi muốn biết các tính năng đặc biệt của sản phẩm
+  - Tôi muốn biết về các tính năng nổi bật của sản phẩm
+  - Tôi muốn biết tất cả các tính năng mới nhất của sản phẩm
+  - Tôi muốn biết về các tính năng của sản phẩm
+  name: product.features
+  responses:
+  - Xin lỗi, tôi cần thêm thông tin về sản phẩm mà bạn đang quan tâm để có thể giúp
+    bạn tìm hiểu về các tính năng của nó. Vui lòng cung cấp thêm chi tiết về sản phẩm
+    để tôi có thể hỗ trợ bạn tốt hơn.
+- examples:
+  - Tôi muốn biết giá sản phẩm
+  - Tôi muốn biết chi tiết về bảng giá của sản phẩm
+  - Tôi muốn biết giá cả và điều kiện thanh toán của sản phẩm
+  - Tôi muốn biết giá cả của sản phẩm và các gói dịch vụ khác
+  - Cho tôi xem bảng giá của sản phẩm
+  - Giá của sản phẩm là bao nhiêu?
+  - Tôi muốn mua sản phẩm, hãy cho biết giá
+  name: product.pricing
+  responses:
+  - Xin lỗi, tôi không có thông tin chi tiết về giá của sản phẩm cụ thể mà bạn đang
+    quan tâm. Vui lòng cung cấp thêm thông tin về sản phẩm để tôi có thể giúp bạn
+    hơn.
+- examples:
+  - Tôi muốn xem đánh giá sản phẩm
+  - Tôi muốn biết ý kiến người dùng về sản phẩm này
+  - Bạn có thể cho tôi biết sản phẩm này được đánh giá cao không?
+  name: product.reviews
+  responses:
+  - Trung bình đánh giá của sản phẩm này là 4 sao trên 5. Rất nhiều khách hàng đánh
+    giá rất cao về chất lượng và giá cả.
+  - Chúng tôi có rất nhiều đánh giá từ khách hàng cho sản phẩm này. Bạn có muốn tôi
+    gửi cho bạn một số đánh giá gần đây nhất?
+- examples:
+  - Bạn có thể cho tôi biết sản phẩm này tốt hơn sản phẩm khác không?
+  - Tôi muốn so sánh sản phẩm này với sản phẩm khác
+  - Tôi muốn biết sản phẩm này có tốt hơn sản phẩm X không?
+  name: product.compare
+  responses:
+  - Tùy thuộc vào nhu cầu và yêu cầu của bạn, sản phẩm này có thể tốt hơn hoặc kém
+    hơn sản phẩm khác.
+  - Chúng tôi có thể cho bạn biết một số thông tin về sản phẩm này và sản phẩm khác.
+    Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn so sánh?
+- examples:
+  - tôi muốn hoàn trả sản phẩm
+  - tôi muốn hoàn tiền
+  - tôi cần hỗ trợ về hoàn trả
+  name: product.returns
+  responses:
+  - Chúng tôi có thể hỗ trợ bạn về việc hoàn trả. Vui lòng cho tôi biết chi tiết về
+    sản phẩm và lý do hoàn trả.
+  - Rất tiếc về sự cố này. Vui lòng cho tôi biết chi tiết về sản phẩm bạn muốn hoàn
+    trả và tôi sẽ giúp bạn.
+- examples:
+  - tôi muốn gửi yêu cầu hỗ trợ
+  - tôi muốn gặp nhân viên hỗ trợ
+  - tôi cần hỗ trợ
+  name: customer.service
+  responses:
+  - Rất vui được giúp đỡ bạn. Vui lòng cho tôi biết chi tiết về yêu cầu của bạn.
+  - Chào! Tôi có thể giúp gì cho bạn hôm nay?
+- examples:
+  - tôi muốn khiếu nại
+  - tôi muốn gửi phản ánh
+  - tôi muốn báo cáo sự cố
+  name: customer.service.complaint
+  responses:
+  - Chúng tôi rất muốn giúp đỡ bạn với vấn đề mà bạn gặp phải.
+  - Rất tiếc về sự cố mà bạn gặp phải. Vui lòng cho tôi biết chi tiết về vấn đề và
+    tôi sẽ giúp bạn giải quyết nó.
+- examples:
+  - bộ phim hành động hay nhất mới đây
+  - phim viễn tưởng hay nhất mọi thời đại
+  - ai đẹp nhất trong phim của Marvel?
+  name: topic.movies
+  responses:
+  - Tôi thấy Robert Downey Jr rất đẹp trong các phim của Marvel.
+  - Bộ phim hành động hay nhất mới đây là "Tenet" của Christopher Nolan.
+  - Phim viễn tưởng hay nhất mọi thời đại của tôi là "Blade Runner" của Ridley Scott.
+- examples:
+  - bài hát tâm trạng hay nhất
+  - ca sĩ hay nhất của năm 2022
+  - nhạc trẻ hay nhất hiện nay
+  name: topic.music
+  responses:
+  - Bài hát tâm trạng hay nhất của tôi là "Someone You Loved" của Lewis Capaldi.
+  - Nhạc trẻ hay nhất hiện nay là Dua Lipa.
+  - Ca sĩ hay nhất của năm 2022 là Billie Eilish.
+- examples:
+  - môn thể thao hay nhất
+  - đội bóng hay nhất thế giới
+  - cầu thủ tài năng nhất năm 2022
+  name: topic.sports
+  responses:
+  - Môn thể thao hay nhất của tôi là bóng đá.
+  - Cầu thủ tài năng nhất năm 2022 là Kylian Mbappé.
+  - Đội bóng hay nhất thế giới là Barcelona FC.
+- examples:
+  - Cập nhật cho tôi về tin tức giải trí
+  - Bản tin trên báo cáo gần đây về việc đầu tư
+  - Tôi muốn biết thêm về tin tức kinh tế
+  name: topic.news
+  responses:
+  - Rất tiếc, tôi không có bản tin mới nhất về tin tức giải trí. Tôi có thể giúp bạn
+    tìm kiếm thêm thông tin từ các nguồn khác.
+  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát
+    triển mạnh mẽ.
+  - Về tin tức giải trí, có rất nhiều sự kiện mới và hấp dẫn đang diễn ra.
+- examples:
+  - Lịch sự kiện cho tuần này
+  - Lịch trình của tôi trong ngày mai
+  - Lịch sự kiện trong tuần tới
+  name: event.calendar
+  responses:
+  - Trong tuần tới, có rất nhiều sự kiện hấp dẫn đang diễn ra, bao gồm hội chợ, biểu
+    diễn nghệ thuật và hội thảo.
+  - Tuần này, có rất nhiều sự kiện quan trọng đang diễn ra, bao gồm hội chợ công nghệ
+    và hội thảo kinh
+  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
+- examples:
+  - Hãy nhắc tôi về cuộc hẹn với ông Smith lúc 2 giờ chiều nay
+  - Tôi cần nhắc nhở cho cuộc hẹn với bạn hữu lúc 3 giờ chiều
+  - Nhắc tôi về cuộc hẹn với nhân viên vào lúc 9 giờ sáng mai
+  name: event.notification
+  responses:
+  - Tôi sẽ nhắc nhở cho bạn về cuộc hẹn với bạn hữu lúc 3 giờ chiều.
+  - Tôi sẽ nhắc nhở cho bạn về cuộc hẹn với ông Smith lúc 2 giờ chiều nay.
+- examples:
+  - Thời tiết tại Đà Nẵng hôm nay như thế nào
+  - Dự báo thời tiết cho TP HCM vào ngày mai
+  - Cho tôi biểu đồ thời tiết cho Hà Nội trong tuần tới
+  name: weather.forecast
+  responses:
+  - Hệ thống hiện tại không có thể cung cấp dữ liệu thời tiết. Tôi có thể giúp bạn
+    tìm kiếm trên mạng xã hội hoặc các ứng dụng thời tiết.
+- examples:
+  - Tôi muốn tìm kiếm một địa điểm du lịch tốt.
+  - Tôi muốn tìm kiếm một địa điểm du lịch cho gia đình.
+  - Tôi muốn tìm kiếm một địa điểm du lịch giá rẻ.
+  - Địa điểm du lịch phù hợp trong năm nay?
+  - Tôi muốn tìm kiếm một địa điểm du lịch đẹp và rẻ.
+  name: travel.destinations
+  responses:
+  - Tôi có thể giúp bạn tìm kiếm những địa điểm du lịch tuyệt vời theo nhu cầu của
+    bạn. Hãy cho tôi biết nhu cầu của bạn về giá, địa điểm, hoạt động v.v.
+  - Địa điểm du lịch tùy thuộc vào nhu cầu của từng người. Hãy cho tôi biết mục đích
+    của bạn để tôi có thể giúp bạn tìm kiếm địa điểm phù hợp nhất.
+- examples:
+  - Tôi muốn đặt phòng khách sạn tại Đà Nẵng.
+  - Tôi muốn đặt một tour du lịch đến Nha Trang.
+  - Tôi muốn đặt một xe đến sân bay.
+  - Tôi muốn đặt một chuyến bay đi Phú Quốc.
+  name: travel.booking
+  responses:
+  - Rất tiếc, tôi là một chatbot được huấn luyện bởi underthesea và không thể giúp
+    bạn đặt một chuyến bay. Tôi chỉ có thể cung cấp cho bạn thông tin về các chặng
+    bay, giá vé, hãng hàng không và các dịch vụ liên quan. Nếu bạn cần giúp đỡ, xin
+    vui lòng cho biết thêm chi tiết về nhu cầu của bạn và tôi sẽ cố gắng giúp bạn
+    tìm thông tin cần thiết.
+- examples:
+  - Tôi muốn tìm một nhà đầu tư cho tôi
+  - Các loại đầu tư tôi nên đầu tư vào
+  - Tôi muốn tìm một đầu tư an toàn
+  - Tôi muốn tìm hiểu về đầu tư
+  - Tôi muốn tìm một công ty đầu tư tốt
+  name: finance.investment
+  responses:
+  - Bạn có thể đầu tư vào các loại đầu tư như chứng khoán, bất động sản, hoặc tiền
+    gửi. Tùy thuộc vào mục đích đầu tư của bạn và tình hình tài chính cá nhân, bạn
+    có thể muốn tìm kiếm sự tư vấn từ một chuyên gia tài chính.
+  - Đầu tư luôn có rủi ro và không phải là lựa chọn phù hợp cho mọi người. Tùy thuộc
+    vào tình hình tài chính cá nhân và mục tiêu đầu tư, bạn có thể muốn tìm kiếm sự
+    tư vấn từ một chuyên gia tài chính trước khi quyết định đầu tư.
+- examples: []
+  name: smalltalk.greeting.hi
+  responses: []
+- examples: []
+  name: smalltalk.greeting.goodafternoon
+  responses: []
+- examples: []
+  name: smalltalk.greeting.goodevening
+  responses: []
+- examples: []
+  name: product.discounts
+  responses: []
+- examples: []
+  name: product.ratings
+  responses: []
+- examples: []
+  name: product.alternatives
+  responses: []
+- examples: []
+  name: product.exchanges
+  responses: []
+- examples: []
+  name: customer.service.help
+  responses: []
+- examples: []
+  name: customer.service.feedback
+  responses: []
+- examples: []
+  name: topic.tvshows
+  responses: []
+- examples: []
+  name: topic.food
+  responses: []
+- examples: []
+  name: topic.gaming
+  responses: []
+- examples: []
+  name: topic.politics
+  responses: []
+- examples: []
+  name: event.scheduling
+  responses: []
+- examples: []
+  name: event.reminders
+  responses: []
+- examples: []
+  name: weather.current
+  responses: []
+- examples: []
+  name: travel.itinerary
+  responses: []
+- examples: []
+  name: travel.transportation
+  responses: []
+- examples: []
+  name: finance.budgeting
+  responses: []
+- examples: []
+  name: smalltalk.encouragement
+  responses: []
+- examples: []
+  name: smalltalk.riddles
+  responses: []
+- examples: []
+  name: product.giftcard
+  responses: []
+- examples: []
+  name: product.bundle
+  responses: []
+- examples: []
+  name: customer.service.returns
+  responses: []
+- examples: []
+  name: travel.flight.booking
+  responses: []
+- examples: []
+  name: finance.savings
+  responses: []
+- examples: []
+  name: topic.fashion
+  responses: []
+- examples: []
+  name: topic.science
+  responses: []
+- examples: []
+  name: event.attractions
+  responses: []
+- examples:
+  - Tôi cảm thấy yêu đời
+  - Tôi cảm thấy tốt
+  - Tôi cảm thấy ổn
+  name: smalltalk.affirmations
+  responses:
+  - Đó là cảm xúc tuyệt vời! Hãy giữ nó cho mình.
+  - Tất cả đều tốt đẹp khi bạn cảm thấy tốt.
+  - Rất tốt! Hãy giữ niềm tin vào bản thân mình.
+- examples:
+  - Hãy khiến tôi cười
+  - Hãy làm tôi vui
+  - Kể cho tôi một câu truyện cười
+  name: smalltalk.jokes
+  responses:
+  - Sao các hột giống như nhau? Vì chúng đều là hột!
+  - Tại sao con trâu không đi đến sân bay? Vì họ không có vé!
+  - Tại sao bạn không bắt được một cái gạch? Vì nó không có cảnh sát!
+- examples:
+  - Tôi muốn thanh toán bằng thẻ tín dụng
+  - Làm thế nào để thanh toán
+  - Hình thức thanh toán nào được hỗ trợ
+  name: product.payment
+  responses:
+  - Chúng tôi sẽ hỗ trợ bạn qua quá trình thanh toán bằng thẻ tín dụng.
+  - Chúng tôi hỗ trợ các hình thức thanh toán như thẻ tín dụng, Paypal, và chuyển
+    khoản ngân hàng.
+  - Bạn có thể thanh toán bằng thẻ tín dụng hoặc Paypal.
+- examples:
+  - Tôi muốn biết thời gian vận chuyển của sản phẩm
+  - Hẹn giờ giao hàng có thể làm sao?
+  - Làm thế nào để kiểm tra tình trạng giao hàng?
+  name: product.shipping
+  responses:
+  - Rất tiếc, chúng tôi không cung cấp dịch vụ hẹn giờ giao hàng. Tuy nhiên, bạn có
+    thể yêu cầu giao hàng tại một khoảng thời gian cụ thể bằng cách liên hệ với chúng
+    tôi.
+  - Thời gian vận chuyển tùy thuộc vào địa điểm của bạn và phương thức vận chuyển
+    mà bạn chọn. Vui lòng liên hệ với chúng tôi để biết chi tiết.
+  - Bạn có thể kiểm tra tình trạng giao hàng bằng cách sử dụng mã vận đơn của bạn
+    và truy cập trang web của chúng tôi.
+- examples:
+  - Sản phẩm của tôi có bảo hành không?
+  - Làm thế nào để yêu cầu bảo hành?
+  - Tôi cần một số hỗ trợ về bảo hành
+  name: customer.service.warranty
+  responses:
+  - Có, tất cả sản phẩm của chúng tôi đều có bảo hành. Vui lòng liên hệ với chúng
+    tôi để biết chi tiết.
+- examples:
+  - Tôi muốn đặt phòng cho chuyến du lịch của tôi
+  - Tôi muốn đặt phòng khách sạn 5 sao
+  - Tôi muốn tìm khách sạn giá rẻ
+  - Tôi cần tìm khách sạn gần đây
+  - Tôi muốn đặt phòng khách sạn
+  name: travel.hotel.booking
+  responses:
+  - Tôi có thể giúp bạn tìm kiếm và đặt phòng khách sạn phù hợp với nhu cầu của bạn.
+    Xin hãy cho biết thông tin chi tiết hơn về yêu cầu của bạn.
+  - Chúng tôi có nhiều tùy chọn khách sạn để bạn lựa chọn. Hãy cho tôi biết yêu cầu
+    chi tiết của bạn để tôi có thể giúp bạn đặt phòng.
+- examples:
+  - Tôi cần giúp về thuế cho doanh nghiệp của tôi
+  - Tôi muốn hỏi về chính sách thuế mới
+  - Tôi cần giúp về thuế
+  - Tôi muốn biết cách tính thuế
+  - Tôi muốn tìm hiểu về thuế
+  name: finance.taxes
+  responses:
+  - Tôi có thể giúp bạn tìm hiểu về chính sách thuế và cách tính thuế. Hãy cho tôi
+    biết chi tiết hơn về nhu cầu của bạn.
+- examples:
+  - Tôi muốn tìm kiếm thông tin về cuốn sách "Thủy Vương"
+  - Tôi muốn mua một cuốn sách về kinh doanh
+  - Tôi muốn tìm kiếm một số sách hay
+  name: topic.books
+  responses:
+  - Tôi có thể giúp bạn tìm kiếm các cuốn sách theo thể loại hoặc tác giả mà bạn muốn.
+  - Bạn có thể cho tôi biết thể loại sách mà bạn quan tâm để tôi có thể giúp bạn tìm
+    kiếm những cuốn sách phù hợp.
+- examples:
+  - Tôi muốn tìm kiếm thông tin về các dòng laptop
+  - Tôi muốn mua một chiếc điện thoại mới
+  - Tôi muốn biết về các công nghệ mới nhất
+  name: topic.technology
+  responses:
+  - Tôi có thể giúp bạn tìm kiếm thông tin về các sản phẩm công nghệ, bao gồm cả thông
+    số kỹ thuật và đánh giá của người dùng.
+  - Bạn có thể cho tôi biết loại thiết bị cụ thể mà bạn muốn mua để tôi có thể giúp
+    bạn tìm kiếm những thông tin phù hợp.
+- examples:
+  - Tôi muốn mua 2 vé cho sự kiện
+  - Anh/chị có bán vé cho sự kiện không?
+  - Tôi muốn mua vé cho sự kiện này
+  name: event.tickets
+  responses:
+  - Vé cho sự kiện có thể được mua trực tuyến hoặc tại quầy vé của chúng tôi. Hãy
+    cho tôi biết bạn muốn mua vé trực tuyến hay tại quầy?
+  - Rất tiếc, vé cho sự kiện này đã hết hạn mua. Bạn có thể xem các sự kiện khác tại
+    trang web của chúng tôi.
+- examples:
+  - Rất cảm ơn
+  - Cảm ơn
+  - Cảm ơn anh/chị
+  name: smalltalk.thanks
+  responses:
+  - Không có gì, rất vui được giúp đỡ.
+  - Rất vui được giúp đỡ. Hãy cho tôi biết nếu còn gì khác tôi có thể giúp đỡ.
+- examples:
+  - Tôi đã đặt hàng, khi nào nhận được hàng?
+  - Khi nào hàng của tôi sẽ đến?
+  - Tôi muốn biết trạng thái giao hàng
+  name: product.delivery
+  responses:
+  - Chúng tôi sẽ gửi thông tin về trạng thái giao hàng cho bạn qua email hoặc tin
+    nhắn. Hãy cho tôi biết số điện thoại hoặc email của bạn để tôi kiểm tra.
+- examples:
+  - Tình trạng giao hàng của tôi là gì?
+  - Tôi muốn xem tình trạng giao hàng của mình
+  - Có thể cho biết tình trạng giao hàng của tôi?
+  name: product.delivery.status
+  responses:
+  - Tôi sẽ cập nhật cho bạn về tình trạng giao hàng của bạn ngay sau khi kiểm tra.
+  - Tôi sẽ xem xét tình trạng giao hàng của bạn và trả lời cho bạn sớm nhất có thể.
+- examples:
+  - Tôi cần thay đổi thông tin giao hàng
+  - Tôi muốn thay đổi ngày giao hàng
+  - Tôi muốn thay đổi địa chỉ giao hàng của mình
+  name: product.delivery.change
+  responses:
+  - Tôi sẽ giúp bạn thay đổi địa chỉ giao hàng của bạn. Vui lòng cho tôi biết địa
+    chỉ mới.
+  - Tôi sẽ hỗ trợ bạn thay đổi thông tin giao hàng của bạn. Vui lòng cung cấp cho
+    tôi thông tin mới.
+- examples:
+  - Tôi muốn biết về bạn?
+  - Bạn là ai?
+  - Ai tạo ra bạn?
+  name: smalltalk.bot.background
+  responses:
+  - Xin chào. Xin chào! Tôi là ChatUTS, một chatbot được huấn luyện bởi Underthesea.
+    Tôi được sử dụng để trả lời các câu hỏi và giải quyết các nhiệm vụ liên quan đến
+    ngôn ngữ, kiến thức chung và nhiều lĩnh vực khác. Tôi sẵn sàng giúp bạn với mọi
+    thắc mắc của bạn. Hãy hỏi tôi bất cứ điều gì!
+- examples:
+  - Sở thích của bạn là gì?
+  - Bạn có thích chơi thể thao không?
+  - Bạn thích gì?
+  name: smalltalk.interests
+  responses:
+  - Tôi là một mô hình ngôn ngữ được tạo ra bởi OpenAI, do đó tôi không có sở thích
+    hay trải nghiệm cá nhân. Tôi được huấn luyện để trả lời câu hỏi và giải quyết
+    các nhiệm vụ liên quan đến kiến thức, và tôi hoạt động trên cơ sở dữ liệu và thuật
+    toán mà tôi đã được huấn luyện.
+- examples:
+  - Tôi cần biết chi tiết về thông số kỹ thuật của sản phẩm
+  - Tôi muốn biết thêm về thông số kỹ thuật của sản phẩm này
+  - Thông số kỹ thuật của sản phẩm này là gì?
+  name: product.specifications
+  responses:
+  - Tôi có thể cung cấp cho bạn thông tin chi tiết về thông số kỹ thuật của sản phẩm.
+    Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn biết thông tin chi tiết?
+- examples:
+  - Sản phẩm này còn hàng không?
+  - Sản phẩm này còn trong kho không
+  - Tôi muốn biết sản phẩm này còn hàng không
+  name: product.availability
+  responses:
+  - Rất tiếc, tôi không có thông tin chi tiết về sản phẩm cụ thể mà bạn đang tìm.
+    Để biết thêm chi tiết, bạn nên liên hệ trực tiếp với nhà cung cấp hoặc cửa hàng
+    bán sản phẩm để biết sản phẩm còn hàng hay không.

@@ -1,9 +1,9 @@
 ```
-- name: topic.news
-- name: event.calendar
-- name: event.notification
-- name: weather.forecast
-- name: travel.destinations
+- name: product.discounts
+- name: product.alternatives
+- name: product.exchanges
+- name: customer.service.help
+- name: customer.service.feedback
 ```
 
 Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo định dạng
@@ -26,5 +26,13 @@ Ví dụ:
   - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
   - Chào! Tôi có thể giúp gì cho bạn?
   - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+- name: smalltalk.interests
+  examples:
+  - Sở thích của bạn là gì?
+  - Bạn thích gì?
+  - Bạn có thích chơi thể thao không?
+  responses:
+  - Tôi không biết về sở thích cụ thể của bạn. Bạn có thể miêu tả chi tiết hơn để tôi có thể giúp đỡ hơn?
+  - Sở thích của bạn là gì? Tôi có thể giúp gì cho bạn?
 ```
     

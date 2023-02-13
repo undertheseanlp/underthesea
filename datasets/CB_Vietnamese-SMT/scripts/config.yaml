@@ -3,3 +3,6 @@ ignores:
 - name: smalltalk.greeting.goodnight
 - name: smalltalk.apology
 - name: smalltalk.introduction
+- name: smalltalk.greeting.hi
+- name: smalltalk.greeting.goodafternoon
+- name: smalltalk.greeting.goodevening

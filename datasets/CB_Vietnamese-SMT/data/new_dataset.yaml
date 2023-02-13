@@ -1,19 +1,93 @@
-- name: topic.news
-  examples:
-  - Bản tin trên báo cáo gần đây về việc đầu tư
-  - Tôi muốn biết thêm về tin tức kinh tế
-  - Cập nhật cho tôi về tin tức giải trí
-  responses:
-  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát triển mạnh mẽ.
-  - Về tin tức giải trí, có rất nhiều sự kiện mới và hấp dẫn đang diễn ra.
-  - Rất tiếc, tôi không có bản tin mới nhất về tin tức giải trí. Tôi có thể giúp bạn tìm kiếm thêm thông tin từ các nguồn khác.
+- name: renewable_energy
+- name: renewable_energy.sources
+- name: renewable_energy.sources.wind_power
 
-- name: event.calendar
-  examples:
-  - Lịch sự kiện trong tuần tới
-  - Lịch trình của tôi trong ngày mai
-  - Lịch sự kiện cho tuần này
-  responses:
-  - Trong tuần tới, có rất nhiều sự kiện hấp dẫn đang diễn ra, bao gồm hội chợ, biểu diễn nghệ thuật và hội thảo.
-  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
-  - Tuần này, có rất nhiều sự kiện quan trọng đang diễn ra, bao gồm hội chợ công nghệ và hội thảo kinh
+- name: climate_change
+- name: climate_change.impacts
+- name: climate_change.impacts.ocean_acidification
+
+- name: mental_health
+- name: mental_health.disorders
+- name: mental_health.disorders.depression
+
+- name: sustainable_living
+- name: sustainable_living.practices
+- name: sustainable_living.practices.composting
+
+- name: artificial_intelligence
+- name: artificial_intelligence.applications
+- name: artificial_intelligence.applications.autonomous_vehicles
+
+- name: outer_space
+- name: outer_space.exploration
+- name: outer_space.exploration.mars_mission
+
+- name: cybersecurity
+- name: cybersecurity.threats
+- name: cybersecurity.threats.ransomware
+
+- name: ecology
+- name: ecology.biodiversity
+- name: ecology.biodiversity.endangered_species
+
+- name: modern_architecture
+- name: modern_architecture.styles
+- name: modern_architecture.styles.minimalism
+
+- name: quantum_computing
+- name: quantum_computing.applications
+- name: quantum_computing.applications.simulation
+
+- name: renewable_resources
+- name: renewable_resources.conservation
+- name: renewable_resources.conservation.forests
+
+- name: natural_disasters
+- name: natural_disasters.types
+- name: natural_disasters.types.hurricanes
+
+- name: genetics
+- name: genetics.studies
+- name: genetics.studies.epigenetics
+
+- name: healthy_living
+- name: healthy_living.diet
+- name: healthy_living.diet.vegetarianism
+
+- name: smart_cities
+- name: smart_cities.technology
+- name: smart_cities.technology.internet_of_things
+
+- name: green_technology
+- name: green_technology.renewable_energy
+- name: green_technology.renewable_energy.solar_power
+
+- name: geology
+- name: geology.studies
+- name: geology.studies.plate_tectonics
+
+- name: virtual_reality
+- name: virtual_reality.applications
+- name: virtual_reality.applications.entertainment
+
+- name: biodiversity
+- name: biodiversity.conservation
+- name: biodiversity.conservation.habitat_protection
+
+- name: artificial_general_intelligence
+- name: artificial_General_intelligence.research
+- name: artificial_General_intelligence.research.superintelligent_AI
+
+- name: deep_learning
+- name: deep_learning.applications
+- name: deep_learning.applications.image_recognition
+
+- name: philosophy
+- name: philosophy.branches
+- name: philosophy.branches.metaphysics
+
+- name: nanotechnology
+- name: nanotechnology.applications
+- name: nanotechnology.applications.medicine
+
+- name: robotics

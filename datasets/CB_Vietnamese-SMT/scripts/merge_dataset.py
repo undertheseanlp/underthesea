@@ -43,28 +43,29 @@ class Intent:
         new_examples = set(new_intent.examples) - set(self.examples)
         if len(new_examples) > 0:
             print("> Intent:", self.name)
-            questions = [
+            questions1 = [
                 inquirer.Checkbox(
                     "examples",
                     message="New Examples",
                     choices=list(new_examples),
                 ),
             ]
-            answers = inquirer.prompt(questions)
-            merged_intent.examples.extend(answers["examples"])
+            answers1 = inquirer.prompt(questions1)
+            merged_intent.examples.extend(answers1["examples"])
 
         new_responses = set(new_intent.responses) - set(self.responses)
         if len(new_responses) > 0:
+            print('\n')
             print("> Intent:", self.name)
-            questions = [
+            questions2 = [
                 inquirer.Checkbox(
                     "responses",
                     message="New Responses",
                     choices=list(new_responses),
                 ),
             ]
-            answers = inquirer.prompt(questions)
-            merged_intent.responses.extend(answers["responses"])
+            answers2 = inquirer.prompt(questions2)
+            merged_intent.responses.extend(answers2["responses"])
         return merged_intent
 
 
@@ -88,8 +89,11 @@ def merge_intents(base_intents, new_intents):
     for name in new_intents_dict:
         if name not in base_intents_dict:
             print("> New Intent name:", name)
-            input_response = input("Are you want to create new intent? (yes/no y/n) ")
+            # input_response = input("Are you want to create new intent? (yes/no y/n) ")
+            
+            input_response = "y"
             if input_response.lower() in ["yes", "y"]:
+                new_intents_num += 1
                 new_intent = Intent(name, [], [])
                 merged_intent = new_intent.merge(new_intents_dict[name])
                 merged_intents.append(merged_intent)
@@ -98,7 +102,7 @@ def merge_intents(base_intents, new_intents):
             merged_intent = base_intent.merge(new_intents_dict[name])
             merged_intents.append(merged_intent)
 
-    print(f"There are {new_intents_num} new possible intents")
+    print(f"There are {new_intents_num} new intents")
     return merged_intents
 
 
@@ -108,7 +112,7 @@ if __name__ == "__main__":
     data_folder = join(dirname(script_folder), "data")
     dataset_file = join(data_folder, "dataset.yaml")
     dataset_bk_file = join(data_folder, "dataset.bak.yaml")
-    new_dataset_file  = join(data_folder, "new_dataset.yaml")
+    new_dataset_file = join(data_folder, "new_dataset.yaml")
     with open(dataset_file, "r") as file:
         yaml_data = yaml.safe_load(file)
     with open(dataset_bk_file, "w") as file:
@@ -117,19 +121,9 @@ if __name__ == "__main__":
     base_intents = Intent.load_intents(dataset_file)
     new_intents = Intent.load_intents(new_dataset_file)
 
-    print("Base Intent")
-    for intent in base_intents:
-        print(intent)
-
-    print("\nNew Intent")
-    for intent in new_intents:
-        print(intent)
-
-    print("\nMerged Intent")
     merged_intents = merge_intents(base_intents, new_intents)
     merged_intents_list = []
     for intent in merged_intents:
-        print(intent)
         merged_intents_list.append(intent.to_dict())
 
     # save merged_intents to file

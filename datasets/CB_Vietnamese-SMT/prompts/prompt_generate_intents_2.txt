@@ -1,0 +1,13 @@
+
+Generate more new 80 topics following this data (except product and smalltalk), give result in yaml format
+
+Output format
+```
+- name: subject
+- name: subject.category
+- name: subject.category.subcategory
+```
+
+Requirement 1: subject, category and subcategory is lowercase, if it contains more tokens, tokens is concate with _
+Requirement 2: each line is not exist in dataset.yaml file
+Requirement 3: if subject and subject.category is exist in dataset.yaml, then don't list them to avoid duplicate

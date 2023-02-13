@@ -1,0 +1,74 @@
+===
+Sinh dữ liệu để huấn luyện chatbot
+examples là những câu user nói với bot
+responses là những câu bot nói với user
+
+- name: smalltalk.greeting.hello
+  examples:
+  - xin chào
+  - chào buổi sáng
+  - chào
+  responses:
+  - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
+  - Chào! Tôi có thể giúp gì cho bạn?
+  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
+
+===
+Sinh dữ liệu để huấn luyện chatbot
+examples là những câu user nói với bot
+responses là những câu bot nói với user
+
+- name: smalltalk.greeting.goodmorning
+  examples:
+  - chào ngày mới
+  - ngày mới tốt lành
+  - buổi sáng vui vẻ
+  responses:
+  - Chào ngày mới! Chúc một ngày tốt lành.
+  - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
+  - Buổi sáng vui vẻ! Chào ngày mới.
+
+===
+Sinh dữ liệu để huấn luyện chatbot
+examples là những câu user nói với bot
+responses là những câu bot nói với user
+
+- name: smalltalk.greeting.byebye
+  examples:
+  - tạm biệt
+  - bye
+  - chào tạm biệt
+  responses:
+  - Chào tạm biệt! Hẹn gặp lại.
+  - Tạm biệt! Hẹn gặp lại!
+
+===
+Sinh dữ liệu để huấn luyện chatbot
+examples là những câu user nói với bot
+responses là những câu bot nói với user
+
+- name: smalltalk.greeting.goodnight
+  examples:
+  - chúc ngủ ngon
+  - chào buổi tối
+  - ngủ ngon
+  responses:
+  - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
+
+===
+Sinh dữ liệu để huấn luyện chatbot
+examples là những câu user nói với bot
+responses là những câu bot nói với user
+
+- name: smalltalk.apology
+  examples:
+  - xin lỗi
+  - tôi xin lỗi
+  - lỗi của tôi
+  responses:
+  - Xin lỗi! Tôi có thể giúp gì cho bạn?
+  - Không có gì!
+
+-name: product.discounts
+  examples:
+  - 
