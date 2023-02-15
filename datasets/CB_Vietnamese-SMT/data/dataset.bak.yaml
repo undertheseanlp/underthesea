@@ -1,21 +1,21 @@
 - examples:
+  - xin chào
   - chào buổi sáng
   - chào
-  - xin chào
   name: smalltalk.greeting.hello
   responses:
-  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
-  - Chào! Tôi có thể giúp gì cho bạn?
   - Xin chào! Tôi có thể giúp gì cho bạn hôm nay?
+  - Chào! Tôi có thể giúp gì cho bạn?
+  - Chào buổi sáng! Cần giúp gì tôi có thể hỗ trợ?
 - examples:
-  - buổi sáng vui vẻ
   - chào ngày mới
+  - buổi sáng vui vẻ
   - ngày mới tốt lành
   name: smalltalk.greeting.goodmorning
   responses:
+  - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
   - Chào ngày mới! Chúc một ngày tốt lành.
   - Buổi sáng vui vẻ! Chào ngày mới.
-  - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
 - examples:
   - bye
   - chào tạm biệt
@@ -25,52 +25,52 @@
   - Tạm biệt! Hẹn gặp lại!
   - Chào tạm biệt! Hẹn gặp lại.
 - examples:
-  - chúc ngủ ngon
   - chào buổi tối
   - ngủ ngon
+  - chúc ngủ ngon
   name: smalltalk.greeting.goodnight
   responses:
   - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
 - examples:
-  - lỗi của tôi
   - tôi xin lỗi
   - xin lỗi
+  - lỗi của tôi
   name: smalltalk.apology
   responses:
-  - Xin lỗi! Tôi có thể giúp gì cho bạn?
   - Không có gì!
+  - Xin lỗi! Tôi có thể giúp gì cho bạn?
 - examples:
-  - Tôi muốn đặt hàng sản phẩm
-  - Tôi muốn đặt một đơn hàng
   - tôi muốn mua sản phẩm
+  - Tôi muốn đặt một đơn hàng
+  - Tôi muốn đặt hàng sản phẩm
   - tôi muốn đặt hàng
   - Tôi cần mua một sản phẩm
   name: product.order
   responses:
-  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
   - Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn đặt hàng?
-  - Tôi sẽ cần biết thêm thông tin về sản phẩm mà bạn muốn đặt hàng.
   - Tôi có thể giúp bạn đặt hàng sản phẩm. Bạn cần tìm sản phẩm gì?
+  - Tôi sẽ cần biết thêm thông tin về sản phẩm mà bạn muốn đặt hàng.
+  - Rất vui được giúp đỡ bạn! Bạn cần tìm sản phẩm gì?
 - examples:
-  - tôi muốn tra cứu đơn hàng
-  - Tôi muốn xem tình trạng đơn hàng của tôi
-  - Tôi muốn biết trạng thái đơn hàng
-  - tôi muốn biết trạng thái đơn hàng
   - Tôi cần xem tình trạng của đơn hàng
+  - Tôi muốn biết trạng thái đơn hàng
+  - Tôi muốn xem tình trạng đơn hàng của tôi
+  - tôi muốn tra cứu đơn hàng
+  - tôi muốn biết trạng thái đơn hàng
   name: product.order.status
   responses:
-  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
-  - Bạn có thể cung cấp số đơn hàng của bạn để tôi có thể kiểm tra trạng thái của
-    đơn hàng cho bạn.
   - Tôi sẽ giúp bạn tra cứu trạng thái đơn hàng. Bạn có thể cho biết số đơn hàng của
     bạn?
+  - Bạn có thể cung cấp số đơn hàng của bạn để tôi có thể kiểm tra trạng thái của
+    đơn hàng cho bạn.
+  - Rất vui được giúp đỡ! Bạn có thể cho biết số đơn hàng của bạn?
   - Tôi sẽ cần số đơn hàng để cung cấp cho bạn thông tin về trạng thái của đơn hàng.
 - examples:
+  - tôi muốn hủy đơn hàng
   - tôi muốn xóa đơn hàng
+  - Tôi muốn hủy đơn hàng
   - Tôi muốn huỷ đơn hàng của tôi
   - Tôi muốn hủy đơn đặt hàng
-  - Tôi muốn hủy đơn hàng
-  - tôi muốn hủy đơn hàng
   name: product.order.cancel
   responses:
   - Bạn có thể cho tôi biết số đơn hàng mà bạn muốn hủy để tôi giúp bạn hủy đơn hàng.
@@ -80,8 +80,8 @@
   - Tôi sẽ cần số đơn hàng để xác nhận và hủy đơn hàng cho bạn
 - examples:
   - Tôi muốn bạn giới thiệu về bản thân
-  - Hãy giới thiệu về bản thân
   - Bạn tên là gì?
+  - Hãy giới thiệu về bản thân
   name: smalltalk.introduction
   responses:
   - Xin chào. Xin chào! Tôi là ChatUTS, một chatbotđược huấn luyện bởi Underthesea.
@@ -90,8 +90,8 @@
     thắc mắc của bạn. Hãy hỏi tôi bất cứ điều gì!
 - examples:
   - Bạn có thích gì khác ngoài công việc
-  - Sở thích của bạn là gì
   - Bạn thích gì
+  - Sở thích của bạn là gì
   name: smalltalk.hobbies
   responses:
   - Tôi là một chatbot được huấn luyện bởi Underthesea, do đó tôi không có các sở
@@ -99,20 +99,20 @@
     các nhiệm vụ của người dùng, và tôi làm việc nhằm đạt được mục tiêu đó một cách
     tốt nhất có thể.
 - examples:
-  - Tôi muốn mua sản phẩm
   - Có sản phẩm nào thú vị
   - Gần đây có sản phẩm gì hay
+  - Tôi muốn mua sản phẩm
   name: product.recommendation
   responses:
   - Bạn muốn tìm sản phẩm nào cụ thể? Tôi có thể giới thiệu cho bạn một số sản phẩm
     phù hợp.
   - Bạn muốn mua sản phẩm cho mục đích gì? Tôi có thể giúp gì cho bạn?
 - examples:
-  - Cho tôi xem các tính năng của sản phẩm này
-  - Tôi muốn biết các tính năng đặc biệt của sản phẩm
   - Tôi muốn biết về các tính năng của sản phẩm
-  - Tôi muốn biết tất cả các tính năng của sản phẩm
+  - Tôi muốn biết các tính năng đặc biệt của sản phẩm
   - Tôi cần biết chi tiết về các tính năng của sản phẩm
+  - Tôi muốn biết tất cả các tính năng của sản phẩm
+  - Cho tôi xem các tính năng của sản phẩm này
   - Tôi muốn biết tất cả các tính năng mới nhất của sản phẩm
   - Tôi muốn biết về các tính năng nổi bật của sản phẩm
   name: product.features
@@ -122,41 +122,41 @@
     để tôi có thể hỗ trợ bạn tốt hơn.
 - examples:
   - Tôi muốn biết giá sản phẩm
-  - Tôi muốn biết giá cả của sản phẩm và các gói dịch vụ khác
   - Tôi muốn mua sản phẩm, hãy cho biết giá
+  - Giá của sản phẩm là bao nhiêu?
   - Tôi muốn biết chi tiết về bảng giá của sản phẩm
+  - Tôi muốn biết giá cả của sản phẩm và các gói dịch vụ khác
   - Tôi muốn biết giá cả và điều kiện thanh toán của sản phẩm
   - Cho tôi xem bảng giá của sản phẩm
-  - Giá của sản phẩm là bao nhiêu?
   name: product.pricing
   responses:
   - Xin lỗi, tôi không có thông tin chi tiết về giá của sản phẩm cụ thể mà bạn đang
     quan tâm. Vui lòng cung cấp thêm thông tin về sản phẩm để tôi có thể giúp bạn
     hơn.
 - examples:
+  - Tôi muốn xem đánh giá sản phẩm
   - Tôi muốn biết ý kiến người dùng về sản phẩm này
   - Bạn có thể cho tôi biết sản phẩm này được đánh giá cao không?
-  - Tôi muốn xem đánh giá sản phẩm
   name: product.reviews
   responses:
-  - Chúng tôi có rất nhiều đánh giá từ khách hàng cho sản phẩm này. Bạn có muốn tôi
-    gửi cho bạn một số đánh giá gần đây nhất?
   - Trung bình đánh giá của sản phẩm này là 4 sao trên 5. Rất nhiều khách hàng đánh
     giá rất cao về chất lượng và giá cả.
+  - Chúng tôi có rất nhiều đánh giá từ khách hàng cho sản phẩm này. Bạn có muốn tôi
+    gửi cho bạn một số đánh giá gần đây nhất?
 - examples:
-  - Tôi muốn so sánh sản phẩm này với sản phẩm khác
   - Bạn có thể cho tôi biết sản phẩm này tốt hơn sản phẩm khác không?
+  - Tôi muốn so sánh sản phẩm này với sản phẩm khác
   - Tôi muốn biết sản phẩm này có tốt hơn sản phẩm X không?
   name: product.compare
   responses:
-  - Tùy thuộc vào nhu cầu và yêu cầu của bạn, sản phẩm này có thể tốt hơn hoặc kém
-    hơn sản phẩm khác.
   - Chúng tôi có thể cho bạn biết một số thông tin về sản phẩm này và sản phẩm khác.
     Bạn có thể cho tôi biết sản phẩm nào mà bạn muốn so sánh?
+  - Tùy thuộc vào nhu cầu và yêu cầu của bạn, sản phẩm này có thể tốt hơn hoặc kém
+    hơn sản phẩm khác.
 - examples:
   - tôi cần hỗ trợ về hoàn trả
-  - tôi muốn hoàn tiền
   - tôi muốn hoàn trả sản phẩm
+  - tôi muốn hoàn tiền
   name: product.returns
   responses:
   - Chúng tôi có thể hỗ trợ bạn về việc hoàn trả. Vui lòng cho tôi biết chi tiết về
@@ -164,104 +164,104 @@
   - Rất tiếc về sự cố này. Vui lòng cho tôi biết chi tiết về sản phẩm bạn muốn hoàn
     trả và tôi sẽ giúp bạn.
 - examples:
+  - tôi muốn gặp nhân viên hỗ trợ
   - tôi muốn gửi yêu cầu hỗ trợ
   - tôi cần hỗ trợ
-  - tôi muốn gặp nhân viên hỗ trợ
   name: customer.service
   responses:
   - Chào! Tôi có thể giúp gì cho bạn hôm nay?
   - Rất vui được giúp đỡ bạn. Vui lòng cho tôi biết chi tiết về yêu cầu của bạn.
 - examples:
-  - tôi muốn báo cáo sự cố
-  - tôi muốn gửi phản ánh
   - tôi muốn khiếu nại
+  - tôi muốn gửi phản ánh
+  - tôi muốn báo cáo sự cố
   name: customer.service.complaint
   responses:
-  - Chúng tôi rất muốn giúp đỡ bạn với vấn đề mà bạn gặp phải.
   - Rất tiếc về sự cố mà bạn gặp phải. Vui lòng cho tôi biết chi tiết về vấn đề và
     tôi sẽ giúp bạn giải quyết nó.
+  - Chúng tôi rất muốn giúp đỡ bạn với vấn đề mà bạn gặp phải.
 - examples:
   - phim viễn tưởng hay nhất mọi thời đại
-  - ai đẹp nhất trong phim của Marvel?
   - bộ phim hành động hay nhất mới đây
+  - ai đẹp nhất trong phim của Marvel?
   name: topic.movies
   responses:
-  - Phim viễn tưởng hay nhất mọi thời đại của tôi là "Blade Runner" của Ridley Scott.
   - Tôi thấy Robert Downey Jr rất đẹp trong các phim của Marvel.
+  - Phim viễn tưởng hay nhất mọi thời đại của tôi là "Blade Runner" của Ridley Scott.
   - Bộ phim hành động hay nhất mới đây là "Tenet" của Christopher Nolan.
 - examples:
-  - ca sĩ hay nhất của năm 2022
   - bài hát tâm trạng hay nhất
+  - ca sĩ hay nhất của năm 2022
   - nhạc trẻ hay nhất hiện nay
   name: topic.music
   responses:
-  - Nhạc trẻ hay nhất hiện nay là Dua Lipa.
-  - Ca sĩ hay nhất của năm 2022 là Billie Eilish.
   - Bài hát tâm trạng hay nhất của tôi là "Someone You Loved" của Lewis Capaldi.
+  - Ca sĩ hay nhất của năm 2022 là Billie Eilish.
+  - Nhạc trẻ hay nhất hiện nay là Dua Lipa.
 - examples:
-  - môn thể thao hay nhất
   - cầu thủ tài năng nhất năm 2022
   - đội bóng hay nhất thế giới
+  - môn thể thao hay nhất
   name: topic.sports
   responses:
   - Cầu thủ tài năng nhất năm 2022 là Kylian Mbappé.
-  - Đội bóng hay nhất thế giới là Barcelona FC.
   - Môn thể thao hay nhất của tôi là bóng đá.
+  - Đội bóng hay nhất thế giới là Barcelona FC.
 - examples:
-  - Bản tin trên báo cáo gần đây về việc đầu tư
-  - Tôi muốn biết thêm về tin tức kinh tế
   - Cập nhật cho tôi về tin tức giải trí
+  - Tôi muốn biết thêm về tin tức kinh tế
+  - Bản tin trên báo cáo gần đây về việc đầu tư
   name: topic.news
   responses:
+  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát
+    triển mạnh mẽ.
   - Rất tiếc, tôi không có bản tin mới nhất về tin tức giải trí. Tôi có thể giúp bạn
     tìm kiếm thêm thông tin từ các nguồn khác.
   - Về tin tức giải trí, có rất nhiều sự kiện mới và hấp dẫn đang diễn ra.
-  - Tin tức kinh tế gần đây cho thấy rằng tình hình đầu tư tại Việt Nam đang phát
-    triển mạnh mẽ.
 - examples:
   - Lịch sự kiện trong tuần tới
   - Lịch sự kiện cho tuần này
   - Lịch trình của tôi trong ngày mai
   name: event.calendar
   responses:
-  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
   - Trong tuần tới, có rất nhiều sự kiện hấp dẫn đang diễn ra, bao gồm hội chợ, biểu
     diễn nghệ thuật và hội thảo.
   - Tuần này, có rất nhiều sự kiện quan trọng đang diễn ra, bao gồm hội chợ công nghệ
     và hội thảo kinh
+  - Trong ngày mai, bạn có một cuộc họp vào buổi chiều và một bữa tiệc tối.
 - examples:
-  - Tôi cần nhắc nhở cho cuộc hẹn với bạn hữu lúc 3 giờ chiều
   - Nhắc tôi về cuộc hẹn với nhân viên vào lúc 9 giờ sáng mai
   - Hãy nhắc tôi về cuộc hẹn với ông Smith lúc 2 giờ chiều nay
+  - Tôi cần nhắc nhở cho cuộc hẹn với bạn hữu lúc 3 giờ chiều
   name: event.notification
   responses:
   - Tôi sẽ nhắc nhở cho bạn về cuộc hẹn với bạn hữu lúc 3 giờ chiều.
   - Tôi sẽ nhắc nhở cho bạn về cuộc hẹn với ông Smith lúc 2 giờ chiều nay.
 - examples:
-  - Cho tôi biểu đồ thời tiết cho Hà Nội trong tuần tới
-  - Dự báo thời tiết cho TP HCM vào ngày mai
   - Thời tiết tại Đà Nẵng hôm nay như thế nào
+  - Dự báo thời tiết cho TP HCM vào ngày mai
+  - Cho tôi biểu đồ thời tiết cho Hà Nội trong tuần tới
   name: weather.forecast
   responses:
   - Hệ thống hiện tại không có thể cung cấp dữ liệu thời tiết. Tôi có thể giúp bạn
     tìm kiếm trên mạng xã hội hoặc các ứng dụng thời tiết.
 - examples:
   - Tôi muốn tìm kiếm một địa điểm du lịch cho gia đình.
-  - Tôi muốn tìm kiếm một địa điểm du lịch đẹp và rẻ.
+  - Tôi muốn tìm kiếm một địa điểm du lịch tốt.
   - Tôi muốn tìm kiếm một địa điểm du lịch giá rẻ.
   - Địa điểm du lịch phù hợp trong năm nay?
-  - Tôi muốn tìm kiếm một địa điểm du lịch tốt.
+  - Tôi muốn tìm kiếm một địa điểm du lịch đẹp và rẻ.
   name: travel.destinations
   responses:
-  - Tôi có thể giúp bạn tìm kiếm những địa điểm du lịch tuyệt vời theo nhu cầu của
-    bạn. Hãy cho tôi biết nhu cầu của bạn về giá, địa điểm, hoạt động v.v.
   - Địa điểm du lịch tùy thuộc vào nhu cầu của từng người. Hãy cho tôi biết mục đích
     của bạn để tôi có thể giúp bạn tìm kiếm địa điểm phù hợp nhất.
+  - Tôi có thể giúp bạn tìm kiếm những địa điểm du lịch tuyệt vời theo nhu cầu của
+    bạn. Hãy cho tôi biết nhu cầu của bạn về giá, địa điểm, hoạt động v.v.
 - examples:
-  - Tôi muốn đặt phòng khách sạn tại Đà Nẵng.
   - Tôi muốn đặt một chuyến bay đi Phú Quốc.
   - Tôi muốn đặt một xe đến sân bay.
   - Tôi muốn đặt một tour du lịch đến Nha Trang.
+  - Tôi muốn đặt phòng khách sạn tại Đà Nẵng.
   name: travel.booking
   responses:
   - Rất tiếc, tôi là một chatbot được huấn luyện bởi underthesea và không thể giúp
@@ -270,11 +270,11 @@
     vui lòng cho biết thêm chi tiết về nhu cầu của bạn và tôi sẽ cố gắng giúp bạn
     tìm thông tin cần thiết.
 - examples:
-  - Các loại đầu tư tôi nên đầu tư vào
+  - Tôi muốn tìm một đầu tư an toàn
   - Tôi muốn tìm một nhà đầu tư cho tôi
   - Tôi muốn tìm một công ty đầu tư tốt
-  - Tôi muốn tìm một đầu tư an toàn
   - Tôi muốn tìm hiểu về đầu tư
+  - Các loại đầu tư tôi nên đầu tư vào
   name: finance.investment
   responses:
   - Đầu tư luôn có rủi ro và không phải là lựa chọn phù hợp cho mọi người. Tùy thuộc
@@ -285,24 +285,6 @@
     có thể muốn tìm kiếm sự tư vấn từ một chuyên gia tài chính.
 - examples: []
   name: smalltalk.greeting.hi
-  responses: []
-- examples: []
-  name: product.discounts
-  responses: []
-- examples: []
-  name: product.alternatives
-  responses: []
-- examples: []
-  name: product.exchanges
-  responses: []
-- examples: []
-  name: customer.service.help
-  responses: []
-- examples: []
-  name: customer.service.feedback
-  responses: []
-- examples: []
-  name: topic.tvshows
   responses: []
 - examples: []
   name: topic.food
@@ -361,90 +343,90 @@
   - Tôi cảm thấy tốt
   name: smalltalk.affirmations
   responses:
-  - Rất tốt! Hãy giữ niềm tin vào bản thân mình.
-  - Đó là cảm xúc tuyệt vời! Hãy giữ nó cho mình.
   - Tất cả đều tốt đẹp khi bạn cảm thấy tốt.
+  - Đó là cảm xúc tuyệt vời! Hãy giữ nó cho mình.
+  - Rất tốt! Hãy giữ niềm tin vào bản thân mình.
 - examples:
   - Kể cho tôi một câu truyện cười
-  - Hãy khiến tôi cười
   - Hãy làm tôi vui
+  - Hãy khiến tôi cười
   name: smalltalk.jokes
   responses:
-  - Tại sao bạn không bắt được một cái gạch? Vì nó không có cảnh sát!
   - Sao các hột giống như nhau? Vì chúng đều là hột!
   - Tại sao con trâu không đi đến sân bay? Vì họ không có vé!
+  - Tại sao bạn không bắt được một cái gạch? Vì nó không có cảnh sát!
 - examples:
-  - Hình thức thanh toán nào được hỗ trợ
   - Tôi muốn thanh toán bằng thẻ tín dụng
+  - Hình thức thanh toán nào được hỗ trợ
   - Làm thế nào để thanh toán
   name: product.payment
   responses:
+  - Chúng tôi sẽ hỗ trợ bạn qua quá trình thanh toán bằng thẻ tín dụng.
+  - Bạn có thể thanh toán bằng thẻ tín dụng hoặc Paypal.
   - Chúng tôi hỗ trợ các hình thức thanh toán như thẻ tín dụng, Paypal, và chuyển
     khoản ngân hàng.
-  - Bạn có thể thanh toán bằng thẻ tín dụng hoặc Paypal.
-  - Chúng tôi sẽ hỗ trợ bạn qua quá trình thanh toán bằng thẻ tín dụng.
 - examples:
-  - Làm thế nào để kiểm tra tình trạng giao hàng?
   - Hẹn giờ giao hàng có thể làm sao?
   - Tôi muốn biết thời gian vận chuyển của sản phẩm
+  - Làm thế nào để kiểm tra tình trạng giao hàng?
   name: product.shipping
   responses:
+  - Bạn có thể kiểm tra tình trạng giao hàng bằng cách sử dụng mã vận đơn của bạn
+    và truy cập trang web của chúng tôi.
   - Rất tiếc, chúng tôi không cung cấp dịch vụ hẹn giờ giao hàng. Tuy nhiên, bạn có
     thể yêu cầu giao hàng tại một khoảng thời gian cụ thể bằng cách liên hệ với chúng
     tôi.
-  - Bạn có thể kiểm tra tình trạng giao hàng bằng cách sử dụng mã vận đơn của bạn
-    và truy cập trang web của chúng tôi.
   - Thời gian vận chuyển tùy thuộc vào địa điểm của bạn và phương thức vận chuyển
     mà bạn chọn. Vui lòng liên hệ với chúng tôi để biết chi tiết.
 - examples:
+  - Làm thế nào để yêu cầu bảo hành?
   - Tôi cần một số hỗ trợ về bảo hành
   - Sản phẩm của tôi có bảo hành không?
-  - Làm thế nào để yêu cầu bảo hành?
   name: customer.service.warranty
   responses:
   - Có, tất cả sản phẩm của chúng tôi đều có bảo hành. Vui lòng liên hệ với chúng
     tôi để biết chi tiết.
 - examples:
+  - Tôi muốn tìm khách sạn giá rẻ
   - Tôi muốn đặt phòng khách sạn 5 sao
-  - Tôi cần tìm khách sạn gần đây
   - Tôi muốn đặt phòng khách sạn
   - Tôi muốn đặt phòng cho chuyến du lịch của tôi
-  - Tôi muốn tìm khách sạn giá rẻ
+  - Tôi cần tìm khách sạn gần đây
   name: travel.hotel.booking
   responses:
-  - Chúng tôi có nhiều tùy chọn khách sạn để bạn lựa chọn. Hãy cho tôi biết yêu cầu
-    chi tiết của bạn để tôi có thể giúp bạn đặt phòng.
   - Tôi có thể giúp bạn tìm kiếm và đặt phòng khách sạn phù hợp với nhu cầu của bạn.
     Xin hãy cho biết thông tin chi tiết hơn về yêu cầu của bạn.
+  - Chúng tôi có nhiều tùy chọn khách sạn để bạn lựa chọn. Hãy cho tôi biết yêu cầu
+    chi tiết của bạn để tôi có thể giúp bạn đặt phòng.
 - examples:
-  - Tôi muốn tìm hiểu về thuế
-  - Tôi muốn hỏi về chính sách thuế mới
   - Tôi cần giúp về thuế cho doanh nghiệp của tôi
   - Tôi cần giúp về thuế
+  - Tôi muốn hỏi về chính sách thuế mới
   - Tôi muốn biết cách tính thuế
+  - Tôi muốn tìm hiểu về thuế
   name: finance.taxes
   responses:
   - Tôi có thể giúp bạn tìm hiểu về chính sách thuế và cách tính thuế. Hãy cho tôi
     biết chi tiết hơn về nhu cầu của bạn.
 - examples:
   - Tôi muốn tìm kiếm thông tin về cuốn sách "Thủy Vương"
-  - Tôi muốn mua một cuốn sách về kinh doanh
   - Tôi muốn tìm kiếm một số sách hay
+  - Tôi muốn mua một cuốn sách về kinh doanh
   name: topic.books
   responses:
   - Bạn có thể cho tôi biết thể loại sách mà bạn quan tâm để tôi có thể giúp bạn tìm
     kiếm những cuốn sách phù hợp.
   - Tôi có thể giúp bạn tìm kiếm các cuốn sách theo thể loại hoặc tác giả mà bạn muốn.
 - examples:
+  - Tôi muốn mua một chiếc điện thoại mới
   - Tôi muốn biết về các công nghệ mới nhất
   - Tôi muốn tìm kiếm thông tin về các dòng laptop
-  - Tôi muốn mua một chiếc điện thoại mới
   name: topic.technology
   responses:
-  - Tôi có thể giúp bạn tìm kiếm thông tin về các sản phẩm công nghệ, bao gồm cả thông
-    số kỹ thuật và đánh giá của người dùng.
   - Bạn có thể cho tôi biết loại thiết bị cụ thể mà bạn muốn mua để tôi có thể giúp
     bạn tìm kiếm những thông tin phù hợp.
+  - Tôi có thể giúp bạn tìm kiếm thông tin về các sản phẩm công nghệ, bao gồm cả thông
+    số kỹ thuật và đánh giá của người dùng.
 - examples:
   - Anh/chị có bán vé cho sự kiện không?
   - Tôi muốn mua vé cho sự kiện này
@@ -456,17 +438,17 @@
   - Vé cho sự kiện có thể được mua trực tuyến hoặc tại quầy vé của chúng tôi. Hãy
     cho tôi biết bạn muốn mua vé trực tuyến hay tại quầy?
 - examples:
-  - Cảm ơn anh/chị
   - Cảm ơn
   - Rất cảm ơn
+  - Cảm ơn anh/chị
   name: smalltalk.thanks
   responses:
-  - Không có gì, rất vui được giúp đỡ.
   - Rất vui được giúp đỡ. Hãy cho tôi biết nếu còn gì khác tôi có thể giúp đỡ.
+  - Không có gì, rất vui được giúp đỡ.
 - examples:
-  - Tôi muốn biết trạng thái giao hàng
   - Khi nào hàng của tôi sẽ đến?
   - Tôi đã đặt hàng, khi nào nhận được hàng?
+  - Tôi muốn biết trạng thái giao hàng
   name: product.delivery
   responses:
   - Chúng tôi sẽ gửi thông tin về trạng thái giao hàng cho bạn qua email hoặc tin
@@ -480,19 +462,19 @@
   - Tôi sẽ xem xét tình trạng giao hàng của bạn và trả lời cho bạn sớm nhất có thể.
   - Tôi sẽ cập nhật cho bạn về tình trạng giao hàng của bạn ngay sau khi kiểm tra.
 - examples:
-  - Tôi cần thay đổi thông tin giao hàng
   - Tôi muốn thay đổi địa chỉ giao hàng của mình
   - Tôi muốn thay đổi ngày giao hàng
+  - Tôi cần thay đổi thông tin giao hàng
   name: product.delivery.change
   responses:
-  - Tôi sẽ hỗ trợ bạn thay đổi thông tin giao hàng của bạn. Vui lòng cung cấp cho
-    tôi thông tin mới.
   - Tôi sẽ giúp bạn thay đổi địa chỉ giao hàng của bạn. Vui lòng cho tôi biết địa
     chỉ mới.
+  - Tôi sẽ hỗ trợ bạn thay đổi thông tin giao hàng của bạn. Vui lòng cung cấp cho
+    tôi thông tin mới.
 - examples:
+  - Ai tạo ra bạn?
   - Tôi muốn biết về bạn?
   - Bạn là ai?
-  - Ai tạo ra bạn?
   name: smalltalk.bot.background
   responses:
   - Xin chào. Xin chào! Tôi là ChatUTS, một chatbotđược huấn luyện bởi Underthesea.
@@ -500,8 +482,8 @@
     ngôn ngữ, kiến thức chung và nhiều lĩnh vực khác. Tôi sẵn sàng giúp bạn với mọi
     thắc mắc của bạn. Hãy hỏi tôi bất cứ điều gì!
 - examples:
-  - Sở thích của bạn là gì?
   - Bạn thích gì?
+  - Sở thích của bạn là gì?
   - Bạn có thích chơi thể thao không?
   name: smalltalk.interests
   responses:
@@ -510,9 +492,9 @@
     các nhiệm vụ liên quan đến kiến thức, và tôi hoạt động trên cơ sở dữ liệu và thuật
     toán mà tôi đã được huấn luyện.
 - examples:
+  - Tôi muốn biết thêm về thông số kỹ thuật của sản phẩm này
   - Thông số kỹ thuật của sản phẩm này là gì?
   - Tôi cần biết chi tiết về thông số kỹ thuật của sản phẩm
-  - Tôi muốn biết thêm về thông số kỹ thuật của sản phẩm này
   name: product.specifications
   responses:
   - Tôi có thể cung cấp cho bạn thông tin chi tiết về thông số kỹ thuật của sản phẩm.
@@ -1148,9 +1130,6 @@
   name: law.constitutional_law
   responses: []
 - examples: []
-  name: philosophy
-  responses: []
-- examples: []
   name: philosophy.ethics
   responses: []
 - examples: []
@@ -1586,9 +1565,6 @@
   name: literature.science_fiction
   responses: []
 - examples: []
-  name: renewable_energy
-  responses: []
-- examples: []
   name: renewable_energy.energy_sources
   responses: []
 - examples: []
@@ -1632,9 +1608,6 @@
   responses: []
 - examples: []
   name: renewable_energy.policy_and_regulation.net_metering
-  responses: []
-- examples: []
-  name: climate_change
   responses: []
 - examples: []
   name: climate_change.causes
@@ -1685,9 +1658,6 @@
   name: climate_change.adaptation.crop_diversification
   responses: []
 - examples: []
-  name: artificial_intelligence
-  responses: []
-- examples: []
   name: artificial_intelligence.machine_learning
   responses: []
 - examples: []
@@ -1712,9 +1682,6 @@
   name: artificial_intelligence.deep_learning.generative_adversarial_networks
   responses: []
 - examples: []
-  name: artificial_intelligence.applications
-  responses: []
-- examples: []
   name: artificial_intelligence.applications.computer_vision
   responses: []
 - examples: []
@@ -1735,3 +1702,276 @@
 - examples: []
   name: artificial_intelligence.ethics.privacy_and_security
   responses: []
+- examples: []
+  name: renewable_energy
+  responses: []
+- examples: []
+  name: renewable_energy.sources
+  responses: []
+- examples: []
+  name: renewable_energy.sources.wind_power
+  responses: []
+- examples: []
+  name: climate_change
+  responses: []
+- examples: []
+  name: climate_change.impacts
+  responses: []
+- examples: []
+  name: climate_change.impacts.ocean_acidification
+  responses: []
+- examples: []
+  name: mental_health
+  responses: []
+- examples: []
+  name: mental_health.disorders
+  responses: []
+- examples: []
+  name: mental_health.disorders.depression
+  responses: []
+- examples: []
+  name: sustainable_living
+  responses: []
+- examples: []
+  name: sustainable_living.practices
+  responses: []
+- examples: []
+  name: sustainable_living.practices.composting
+  responses: []
+- examples: []
+  name: artificial_intelligence
+  responses: []
+- examples: []
+  name: artificial_intelligence.applications
+  responses: []
+- examples: []
+  name: artificial_intelligence.applications.autonomous_vehicles
+  responses: []
+- examples: []
+  name: outer_space
+  responses: []
+- examples: []
+  name: outer_space.exploration
+  responses: []
+- examples: []
+  name: outer_space.exploration.mars_mission
+  responses: []
+- examples: []
+  name: cybersecurity
+  responses: []
+- examples: []
+  name: cybersecurity.threats
+  responses: []
+- examples: []
+  name: cybersecurity.threats.ransomware
+  responses: []
+- examples: []
+  name: ecology
+  responses: []
+- examples: []
+  name: ecology.biodiversity
+  responses: []
+- examples: []
+  name: ecology.biodiversity.endangered_species
+  responses: []
+- examples: []
+  name: modern_architecture
+  responses: []
+- examples: []
+  name: modern_architecture.styles
+  responses: []
+- examples: []
+  name: modern_architecture.styles.minimalism
+  responses: []
+- examples: []
+  name: quantum_computing
+  responses: []
+- examples: []
+  name: quantum_computing.applications
+  responses: []
+- examples: []
+  name: quantum_computing.applications.simulation
+  responses: []
+- examples: []
+  name: renewable_resources
+  responses: []
+- examples: []
+  name: renewable_resources.conservation
+  responses: []
+- examples: []
+  name: renewable_resources.conservation.forests
+  responses: []
+- examples: []
+  name: natural_disasters
+  responses: []
+- examples: []
+  name: natural_disasters.types
+  responses: []
+- examples: []
+  name: natural_disasters.types.hurricanes
+  responses: []
+- examples: []
+  name: genetics
+  responses: []
+- examples: []
+  name: genetics.studies
+  responses: []
+- examples: []
+  name: genetics.studies.epigenetics
+  responses: []
+- examples: []
+  name: healthy_living
+  responses: []
+- examples: []
+  name: healthy_living.diet
+  responses: []
+- examples: []
+  name: healthy_living.diet.vegetarianism
+  responses: []
+- examples: []
+  name: smart_cities
+  responses: []
+- examples: []
+  name: smart_cities.technology
+  responses: []
+- examples: []
+  name: smart_cities.technology.internet_of_things
+  responses: []
+- examples: []
+  name: green_technology
+  responses: []
+- examples: []
+  name: green_technology.renewable_energy
+  responses: []
+- examples: []
+  name: green_technology.renewable_energy.solar_power
+  responses: []
+- examples: []
+  name: geology
+  responses: []
+- examples: []
+  name: geology.studies
+  responses: []
+- examples: []
+  name: geology.studies.plate_tectonics
+  responses: []
+- examples: []
+  name: virtual_reality
+  responses: []
+- examples: []
+  name: virtual_reality.applications
+  responses: []
+- examples: []
+  name: virtual_reality.applications.entertainment
+  responses: []
+- examples: []
+  name: biodiversity
+  responses: []
+- examples: []
+  name: biodiversity.conservation
+  responses: []
+- examples: []
+  name: biodiversity.conservation.habitat_protection
+  responses: []
+- examples: []
+  name: artificial_general_intelligence
+  responses: []
+- examples: []
+  name: artificial_General_intelligence.research
+  responses: []
+- examples: []
+  name: artificial_General_intelligence.research.superintelligent_AI
+  responses: []
+- examples: []
+  name: deep_learning
+  responses: []
+- examples: []
+  name: deep_learning.applications
+  responses: []
+- examples: []
+  name: deep_learning.applications.image_recognition
+  responses: []
+- examples: []
+  name: philosophy
+  responses: []
+- examples: []
+  name: philosophy.branches
+  responses: []
+- examples: []
+  name: philosophy.branches.metaphysics
+  responses: []
+- examples: []
+  name: nanotechnology
+  responses: []
+- examples: []
+  name: nanotechnology.applications
+  responses: []
+- examples: []
+  name: nanotechnology.applications.medicine
+  responses: []
+- examples: []
+  name: robotics
+  responses: []
+- examples:
+  - Có khuyến mãi gì cho sản phẩm này không?
+  - Làm sao để được giảm giá cho sản phẩm này?
+  name: product.discounts
+  responses:
+  - Chúng tôi hiện đang có chương trình khuyến mãi giảm giá cho sản phẩm này, bạn
+    có thể xem chi tiết trên trang web của chúng tôi hoặc liên hệ với nhân viên bán
+    hàng để biết thêm thông tin.
+  - Chúng tôi có chương trình giảm giá cho khách hàng thường xuyên. Bạn có thể đăng
+    ký thành viên hoặc theo dõi trang web của chúng tôi để nhận thông tin mới nhất
+    về khuyến mãi.
+- examples:
+  - Bạn có sản phẩm tương tự nào khác không?
+  - Tôi đang tìm kiếm sản phẩm này, nhưng không biết có sản phẩm nào tương tự không?
+  name: product.alternatives
+  responses:
+  - Chúng tôi có một số sản phẩm tương tự khác, bạn có thể tham khảo trên trang web
+    của chúng tôi hoặc liên hệ với nhân viên bán hàng để được tư vấn chi tiết hơn.
+  - Có, chúng tôi có một số sản phẩm tương tự khác. Bạn có thể xem chi tiết trên trang
+    web của chúng tôi hoặc liên hệ với nhân viên bán hàng để được tư vấn chi tiết
+    hơn.
+- examples:
+  - Sản phẩm này không phù hợp với tôi, tôi có thể đổi lấy sản phẩm khác không?
+  - Tôi muốn đổi sản phẩm này vì không vừa ý.
+  name: product.exchanges
+  responses:
+  - Nếu sản phẩm của bạn không vừa ý hoặc gặp sự cố kỹ thuật, bạn có thể liên hệ với
+    chúng tôi để được hỗ trợ đổi hoặc trả sản phẩm. Chi tiết hơn vui lòng xem trên
+    trang web của chúng tôi hoặc liên hệ với nhân viên bán hàng.
+  - Đối với những trường hợp không vừa ý với sản phẩm, chúng tôi có chính sách đổi
+    trả sản phẩm trong vòng 7 ngày. Bạn có thể xem chi tiết chính sách trên trang
+    web của chúng tôi hoặc liên hệ với nhân viên bán hàng để được tư vấn chi tiết
+    hơn.
+- examples:
+  - Bạn có thể giúp tôi giải đáp thắc mắc về sản phẩm không?
+  - Tôi cần hỗ trợ về sản phẩm
+  name: customer.service.help
+  responses:
+  - Tất cả nhân viên hỗ trợ của chúng tôi đều sẵn sàng hỗ trợ bạn giải quyết các vấn
+    đề liên quan đến sản phẩm. Bạn cần trợ giúp về vấn đề gì ư?
+  - Chúng tôi rất vui được giúp bạn giải đáp mọi thắc mắc liên quan đến sản phẩm của
+    chúng tôi. Vui lòng cho chúng tôi biết bạn cần trợ giúp về vấn đề gì cụ thể.
+- examples:
+  - Làm thế nào để gửi phản hồi về sản phẩm cho bạn?
+  - Tôi muốn phản hồi về sản phẩm
+  name: customer.service.feedback
+  responses:
+  - Chúng tôi luôn hoan nghênh mọi ý kiến đóng góp và phản hồi từ khách hàng để cải
+    thiện sản phẩm của chúng tôi. Bạn có thể gửi phản hồi của mình thông qua trang
+    web của chúng tôi hoặc liên hệ với nhân viên hỗ trợ của chúng tôi để được hỗ trợ.
+  - Rất cảm ơn vì bạn đã quan tâm đến việc phản hồi sản phẩm của chúng tôi. Bạn có
+    thể gửi phản hồi của mình qua email hoặc liên hệ với nhân viên hỗ trợ của chúng
+    tôi để được hỗ trợ.
+- examples:
+  - Bạn thích xem phim hay xem chương trình TV hơn?
+  - Bạn xem chương trình TV nào thường xuyên?
+  name: topic.tvshows
+  responses:
+  - Tôi không có sở thích xem chương trình TV cụ thể nào, nhưng tôi có thể giúp bạn
+    tìm kiếm thông tin về chương trình TV và phim ảnh nếu bạn muốn.
+  - Tôi không thường xem chương trình TV, nhưng nếu bạn có bất kỳ yêu cầu nào về thông
+    tin về chương trình TV hoặc phim ảnh, hãy cho tôi biết và tôi sẽ giúp bạn tìm
+    kiếm thông tin cần thiết.

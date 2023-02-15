@@ -1,12 +1,13 @@
 ```
-- name: product.discounts
-- name: product.alternatives
-- name: product.exchanges
-- name: customer.service.help
-- name: customer.service.feedback
+- name: topic.food
+- name: topic.gaming
+- name: topic.politics
+- name: event.scheduling
+- name: event.reminders
 ```
 
-Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo định dạng
+Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo format
+```
 - name: intent_name
   examples:
   - example 1
@@ -14,6 +15,7 @@ Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo định dạng
   responses:
   - response 1
   - response 2
+```
 
 Ví dụ:
 ```
@@ -35,4 +37,9 @@ Ví dụ:
   - Tôi không biết về sở thích cụ thể của bạn. Bạn có thể miêu tả chi tiết hơn để tôi có thể giúp đỡ hơn?
   - Sở thích của bạn là gì? Tôi có thể giúp gì cho bạn?
 ```
+
+Yêu cầu: 
+
+- Trả dữ liệu theo định dạng code yaml
+- Example và response là những câu nói tiếng Việt
     

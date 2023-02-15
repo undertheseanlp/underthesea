@@ -54,8 +54,9 @@ def generate_prompt_for_new_examples_reponses(data):
         + "\n```"
     )
     content += "\n\n"
-    content += "Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo định dạng"
+    content += "Sinh ra thêm 5 examples và 2 responses cho mỗi intent theo format"
     content += """
+```
 - name: intent_name
   examples:
   - example 1
@@ -63,6 +64,7 @@ def generate_prompt_for_new_examples_reponses(data):
   responses:
   - response 1
   - response 2
+```
 """
     content += """\nVí dụ:
 ```
@@ -84,6 +86,11 @@ def generate_prompt_for_new_examples_reponses(data):
   - Tôi không biết về sở thích cụ thể của bạn. Bạn có thể miêu tả chi tiết hơn để tôi có thể giúp đỡ hơn?
   - Sở thích của bạn là gì? Tôi có thể giúp gì cho bạn?
 ```
+
+Yêu cầu: 
+
+- Trả dữ liệu theo định dạng code yaml
+- Example và response là những câu nói tiếng Việt
     """
     with open(join(prompt_folder, "prompt_generate_examples_responses.txt"), "w") as f:
         f.write(content)

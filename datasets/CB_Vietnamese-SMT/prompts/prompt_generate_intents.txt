@@ -29,12 +29,6 @@ dataset.yaml
 - name: travel.booking
 - name: finance.investment
 - name: smalltalk.greeting.hi
-- name: product.discounts
-- name: product.alternatives
-- name: product.exchanges
-- name: customer.service.help
-- name: customer.service.feedback
-- name: topic.tvshows
 - name: topic.food
 - name: topic.gaming
 - name: topic.politics
@@ -538,4 +532,10 @@ dataset.yaml
 - name: nanotechnology.applications
 - name: nanotechnology.applications.medicine
 - name: robotics
+- name: product.discounts
+- name: product.alternatives
+- name: product.exchanges
+- name: customer.service.help
+- name: customer.service.feedback
+- name: topic.tvshows
 ```

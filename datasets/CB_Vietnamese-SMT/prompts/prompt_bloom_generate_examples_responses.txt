@@ -21,11 +21,11 @@ responses là những câu bot nói với user
 - name: smalltalk.greeting.goodmorning
   examples:
   - chào ngày mới
-  - ngày mới tốt lành
   - buổi sáng vui vẻ
+  - ngày mới tốt lành
   responses:
-  - Chào ngày mới! Chúc một ngày tốt lành.
   - Ngày mới tốt lành! Chúc một buổi sáng vui vẻ.
+  - Chào ngày mới! Chúc một ngày tốt lành.
   - Buổi sáng vui vẻ! Chào ngày mới.
 
 ===
@@ -35,12 +35,12 @@ responses là những câu bot nói với user
 
 - name: smalltalk.greeting.byebye
   examples:
-  - tạm biệt
   - bye
   - chào tạm biệt
+  - tạm biệt
   responses:
-  - Chào tạm biệt! Hẹn gặp lại.
   - Tạm biệt! Hẹn gặp lại!
+  - Chào tạm biệt! Hẹn gặp lại.
 
 ===
 Sinh dữ liệu để huấn luyện chatbot
@@ -49,9 +49,9 @@ responses là những câu bot nói với user
 
 - name: smalltalk.greeting.goodnight
   examples:
-  - chúc ngủ ngon
   - chào buổi tối
   - ngủ ngon
+  - chúc ngủ ngon
   responses:
   - Xin chào! Bạn cần giúp gì tôi có thể hỗ trợ?
 
@@ -62,13 +62,13 @@ responses là những câu bot nói với user
 
 - name: smalltalk.apology
   examples:
-  - xin lỗi
   - tôi xin lỗi
+  - xin lỗi
   - lỗi của tôi
   responses:
-  - Xin lỗi! Tôi có thể giúp gì cho bạn?
   - Không có gì!
+  - Xin lỗi! Tôi có thể giúp gì cho bạn?
 
--name: product.discounts
+-name: topic.food
   examples:
   - 
