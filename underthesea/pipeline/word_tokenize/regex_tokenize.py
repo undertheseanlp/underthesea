@@ -261,6 +261,7 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
         format: format of result, default is None
     """
     global recompile_regex_patterns
+    global patterns
     if len(fixed_words) > 0 and not recompile_regex_patterns:
         compiled_fixed_words = [re.sub(' ', '\ ', fixed_word) for fixed_word in fixed_words]
         fixed_words_pattern = "(?P<fixed_words>" + "|".join(compiled_fixed_words) + ")"
