@@ -252,3 +252,23 @@ class TestTokenize(TestCase):
         actual = tokenize(text, fixed_words=fixed_words)
         expected = ['Viện Nghiên Cứu', 'chiến lược', 'quốc', 'gia']
         self.assertEqual(expected, actual)
+
+    def test_fixed_words_2(self):
+        text = 'Viện Nghiên Cứu chiến lược quốc gia về học máy'
+        fixed_words = ['Viện Nghiên Cứu', 'học máy']
+        actual = tokenize(text, fixed_words=fixed_words)
+        expected = ['Viện Nghiên Cứu', 'chiến', 'lược', 'quốc', 'gia', 'về', 'học máy']
+        self.assertEqual(expected, actual)
+      
+    def test_fixed_words_multi_calls(self):
+        text = 'Viện Nghiên Cứu chiến lược quốc gia'
+        fixed_words = ['Viện Nghiên Cứu', 'chiến lược']
+        actual = tokenize(text, fixed_words=fixed_words)
+        expected = ['Viện Nghiên Cứu', 'chiến lược', 'quốc', 'gia']
+        self.assertEqual(expected, actual)
+
+        text = 'Viện Nghiên Cứu chiến lược quốc gia về học máy'
+        fixed_words = ['Viện Nghiên Cứu', 'học máy']
+        actual = tokenize(text, fixed_words=fixed_words)
+        expected = ['Viện Nghiên Cứu', 'chiến', 'lược', 'quốc', 'gia', 'về', 'học máy']
+        self.assertEqual(expected, actual)

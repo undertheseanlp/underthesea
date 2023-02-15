@@ -262,11 +262,11 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
     """
     global recompile_regex_patterns
     global patterns
-    if len(fixed_words) > 0 and not recompile_regex_patterns:
+    if len(fixed_words) > 0:
         compiled_fixed_words = [re.sub(' ', '\ ', fixed_word) for fixed_word in fixed_words]
         fixed_words_pattern = "(?P<fixed_words>" + "|".join(compiled_fixed_words) + ")"
-        regex_patterns.insert(0, fixed_words_pattern)
-        regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
+        merged_regex_patterns = [fixed_words_pattern] + regex_patterns
+        regex_patterns_combine = r"(" + "|".join(merged_regex_patterns) + ")"
         patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
         recompile_regex_patterns = True
     if use_character_normalize:
