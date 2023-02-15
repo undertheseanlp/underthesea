@@ -89,8 +89,8 @@ Usage
 
 ```python
 >>> from underthesea import text_normalize
->>> text_normalize('Ðảm baỏ chất lựơng phòng thí nghịêm hoá học')
-'Đảm bảo chất lượng phòng thí nghiệm hóa học'
+>>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
+"Đảm bảo chất lượng phòng thí nghiệm hóa học"
 ```
 
 ### 3. Word Segmentation
@@ -99,13 +99,13 @@ Usage
 
 ```python
 >>> from underthesea import word_tokenize
->>> text = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
+>>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
 
 >>> word_tokenize(text)
-['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
+["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
 
 >>> word_tokenize(sentence, format="text")
-'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
+"Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
 
 >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
 >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
