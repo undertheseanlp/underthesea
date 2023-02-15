@@ -236,12 +236,13 @@ regex_patterns = [
 recompile_regex_patterns = False
 regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
 if sys.version_info < (3, 0):
-    patterns = patterns.decode('utf-8')
+    regex_patterns_combine = regex_patterns_combine.decode('utf-8')
 patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
 
 # regex pattern to match extacted word "Viện nghiên cứu" or "chien luoc"
 # and not match to other multi tokens word, such as "quoc gia"
 pattern = re.compile(r"(\w+)(?:\s+)(\w+)", re.UNICODE)
+
 
 def extract_match(m):
     for k, v in m.groupdict().items():
@@ -254,10 +255,10 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
     tokenize text for word segmentation
 
     Args:
-        use_token_normalize:
-        use_character_normalize:
-        tag:
-        format:
+        use_token_normalize: use token normalize or not
+        use_character_normalize: use character normalize or not
+        tag: return token with tag or not
+        format: format of result, default is None
     """
     global recompile_regex_patterns
     if len(fixed_words) > 0 and not recompile_regex_patterns:
