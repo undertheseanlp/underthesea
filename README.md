@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
+    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
@@ -89,8 +89,8 @@ Usage
 
 ```python
 >>> from underthesea import text_normalize
->>> text_normalize('Ðảm baỏ chất lựơng phòng thí nghịêm hoá học')
-'Đảm bảo chất lượng phòng thí nghiệm hóa học'
+>>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
+"Đảm bảo chất lượng phòng thí nghiệm hóa học"
 ```
 
 ### 3. Word Segmentation
@@ -99,13 +99,18 @@ Usage
 
 ```python
 >>> from underthesea import word_tokenize
->>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
+>>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
 
->>> word_tokenize(sentence)
-['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
+>>> word_tokenize(text)
+["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
 
 >>> word_tokenize(sentence, format="text")
-'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
+"Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
+
+>>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
+>>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
+>>> word_tokenize(text, fixed_words=fixed_words)
+"Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
 ```
 
 ### 4. POS Tagging
