@@ -252,4 +252,3 @@ class TestTokenize(TestCase):
         actual = tokenize(text, fixed_words=fixed_words)
         expected = ['Viện Nghiên Cứu', 'chiến lược', 'quốc', 'gia']
         self.assertEqual(expected, actual)
-        
