@@ -99,13 +99,18 @@ Usage
 
 ```python
 >>> from underthesea import word_tokenize
->>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
+>>> text = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
 
->>> word_tokenize(sentence)
+>>> word_tokenize(text)
 ['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
 
 >>> word_tokenize(sentence, format="text")
 'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
+
+>>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
+>>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
+>>> word_tokenize(text, fixed_words=fixed_words)
+"Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
 ```
 
 ### 4. POS Tagging
