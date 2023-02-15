@@ -217,7 +217,7 @@ symbol = "(?P<sym>(" + "|".join(symbol) + "))"
 non_word = r"(?P<non_word>[^\w\s])"
 
 # Caution: order is very important for regex
-patterns = [
+regex_patterns = [
     specials,  # Priority 1
     abbreviations,
     url,  # Priority 2
@@ -233,12 +233,15 @@ patterns = [
     symbol,
     non_word  # non_word must be last
 ]
-
-patterns = r"(" + "|".join(patterns) + ")"
+recompile_regex_patterns = False
+regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
 if sys.version_info < (3, 0):
     patterns = patterns.decode('utf-8')
-patterns = re.compile(patterns, re.VERBOSE | re.UNICODE)
+patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
 
+# regex pattern to match extacted word "Viện nghiên cứu" or "chien luoc"
+# and not match to other multi tokens word, such as "quoc gia"
+pattern = re.compile(r"(\w+)(?:\s+)(\w+)", re.UNICODE)
 
 def extract_match(m):
     for k, v in m.groupdict().items():
@@ -246,7 +249,7 @@ def extract_match(m):
             return v, k
 
 
-def tokenize(text, format=None, tag=False, use_character_normalize=True, use_token_normalize=True):
+def tokenize(text, format=None, tag=False, use_character_normalize=True, use_token_normalize=True, fixed_words=[]):
     """
     tokenize text for word segmentation
 
@@ -256,6 +259,14 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
         tag:
         format:
     """
+    global recompile_regex_patterns
+    if len(fixed_words) > 0 and not recompile_regex_patterns:
+        compiled_fixed_words = [re.sub(' ', '\ ', fixed_word) for fixed_word in fixed_words]
+        fixed_words_pattern = "(?P<fixed_words>" + "|".join(compiled_fixed_words) + ")"
+        regex_patterns.insert(0, fixed_words_pattern)
+        regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
+        patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
+        recompile_regex_patterns = True
     if use_character_normalize:
         text = normalize_characters_in_text(text)
     matches = [m for m in re.finditer(patterns, text)]
