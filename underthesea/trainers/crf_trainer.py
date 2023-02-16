@@ -2,7 +2,7 @@ import pycrfsuite
 import logging
 from underthesea_core import CRFFeaturizer
 from underthesea.transformer.tagged_feature import lower_words
-from conlleval import evaluate_
+# from conlleval import evaluate_
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
@@ -47,5 +47,5 @@ class Trainer:
             texts.append(text)
         text = "\n\n".join(texts)
         open("tmp/output.txt", "w").write(text)
-        evaluate_("tmp/output.txt")
+        # evaluate_("tmp/output.txt")
         logger.info("Finish tagger")
