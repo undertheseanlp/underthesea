@@ -31,8 +31,11 @@ rayon = "1.5"
 crfs = "0.1"
 
 [dependencies.pyo3]
-version = "0.15.0"
-features = ["extension-module"]
+version = "*"
 
 [dev-dependencies]
 criterion = "0.3.5"
+
+[features]
+extension-module = ["pyo3/extension-module"]
+default = ["extension-module"]
