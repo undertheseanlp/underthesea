@@ -1,3 +1,9 @@
+from os.path import dirname
+import os
+import shutil
+from seqeval.metrics import classification_report
+from underthesea.transformer.tagged_feature import lower_words as dictionary
+import logging
 from underthesea_core import CRFFeaturizer
 from os.path import join
 from pathlib import Path
@@ -5,28 +11,32 @@ import joblib
 import pycrfsuite
 
 # preparing training and testing data
+
+
 class Dataset:
-  def __init__(self):
-    self.X = []
-    self.y = []
+    def __init__(self):
+        self.X = []
+        self.y = []
+
 
 def load_dataset(filepath) -> Dataset:
-  dataset = Dataset()
-  with open(filepath) as f:
-    sentences = f.read().strip().split("\n\n")
-    for sentence in sentences:
-      rows = [row.split("\t") for row in sentence.split("\n")]
-      Xs = [row[:-1] for row in rows if len(row) > 0]
-      ys = [row[1] for row in rows if len(row) > 0]
-      valid = True
-      for i in range(len(Xs)):
-        if len(Xs[i]) == 0 or len(ys[i]) == 0:
-          valid = False
-      if len(Xs) > 0 and len(ys) > 0 and valid:
-        dataset.X.append(Xs)
-        dataset.y.append(ys)
-  return dataset
-from os.path import dirname
+    dataset = Dataset()
+    with open(filepath) as f:
+        sentences = f.read().strip().split("\n\n")
+        for sentence in sentences:
+            rows = [row.split("\t") for row in sentence.split("\n")]
+            Xs = [row[:-1] for row in rows if len(row) > 0]
+            ys = [row[1] for row in rows if len(row) > 0]
+            valid = True
+            for i in range(len(Xs)):
+                if len(Xs[i]) == 0 or len(ys[i]) == 0:
+                    valid = False
+            if len(Xs) > 0 and len(ys) > 0 and valid:
+                dataset.X.append(Xs)
+                dataset.y.append(ys)
+    return dataset
+
+
 pwd = dirname(__file__)
 full_train_dataset = load_dataset(join(pwd, "tmp/train.txt"))
 full_test_dataset = load_dataset(join(pwd, "tmp/test.txt"))
@@ -34,18 +44,12 @@ full_test_dataset = load_dataset(join(pwd, "tmp/test.txt"))
 print("Train Dataset:", len(full_train_dataset.X))
 print("Test Dataset:", len(full_test_dataset.X))
 
-import pycrfsuite
-import logging
-from underthesea_core import CRFFeaturizer
-from underthesea.transformer.tagged_feature import lower_words as dictionary
-from seqeval.metrics import classification_report
-import shutil
-import os
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
 FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
+
 
 class CRFTrainer:
     def __init__(self, model, training_args, train_dataset=None, test_dataset=None):
@@ -58,29 +62,29 @@ class CRFTrainer:
         # create output_dir directory
         output_dir = self.training_args["output_dir"]
         if os.path.exists(output_dir):
-          shutil.rmtree(output_dir)
-        os.mkdir(output_dir)
+            shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
         logger.info("Start feature extraction")
-        
+
         trainer = pycrfsuite.Trainer()
         count = 0
         for X_tokens, y_seq in zip(self.train_dataset.X[:10000], self.train_dataset.y[:10000]):
             X_seq = self.model.featurizer.process([X_tokens])[0]
             count += 1
             if count < 5:
-              print(X_seq)
-              len(X_seq)
-              print(y_seq)
-              len(y_seq)
+                print(X_seq)
+                len(X_seq)
+                print(y_seq)
+                len(y_seq)
             trainer.append(X_seq, y_seq)
         logger.info("Finish feature extraction")
         trainer.set_params(self.training_args["params"])
-        
+
         filepath = join(output_dir, 'models.bin')
         # Train
         logger.info("Start train")
         trainer.train(filepath)
-        
+
         self.model.save(output_dir)
         logger.info("Finish train")
 
@@ -92,18 +96,14 @@ class CRFTrainer:
             y_pred_ = self.model.predict([item[0] for item in X])
             y_pred.append(y_pred_)
             if "I-W" in y_pred_:
-              print(y_pred)
+                print(y_pred)
         y_test = self.test_dataset.y
-        
+
         print(classification_report(y_test, y_pred, digits=3))
 
 
-#@title file fast_crf_sequence_tagger.py
-from underthesea_core import CRFFeaturizer
-from os.path import join
-from pathlib import Path
-import joblib
-import pycrfsuite
+# @title file fast_crf_sequence_tagger.py
+
 
 class FastCRFSequenceTagger:
     def __init__(self, features=[], dictionary=set()):
@@ -136,15 +136,18 @@ class FastCRFSequenceTagger:
 
     def predict(self, tokens):
         tokens = [[token] for token in tokens]
-        x = self.featurizer.process(tokens)
+        try:
+            x = self.featurizer.process(tokens)
+        except Exception as e:
+            print(e)
         # print(x)
         # print(len(x))
         # print(len(x[0]))
         tags = [self.crf_tagger.tag(item)[0] for item in x]
         return tags
 
-#@title Train with FastCRFSequenceTagger 
-from underthesea.transformer.tagged_feature import lower_words as dictionary
+
+# @title Train with FastCRFSequenceTagger
 
 features = [
     "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower", "T[2].lower",
@@ -167,16 +170,16 @@ features = [
 
 model = FastCRFSequenceTagger(features, dictionary)
 
-output_dir = 'tmp/fast_ws_20220219'
+output_dir = join(pwd, 'tmp/fast_ws_20220219')
 training_params = {
     'output_dir': output_dir,
     'params': {
-      'c1': 1.0,  # coefficient for L1 penalty
-      'c2': 1e-3,  # coefficient for L2 penalty
-      'max_iterations': 100, 
-      # include transitions that are possible, but not observed
-      'feature.possible_transitions': True,
-      'feature.possible_states': True,    
+        'c1': 1.0,  # coefficient for L1 penalty
+        'c2': 1e-3,  # coefficient for L2 penalty
+        'max_iterations': 100,
+        # include transitions that are possible, but not observed
+        'feature.possible_transitions': True,
+        'feature.possible_states': True,
     }
 }
 
