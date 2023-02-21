@@ -1,18 +1,19 @@
-import os
+import logging
+from os.path import dirname, join
 
 import pycrfsuite
-import logging
-from conlleval import evaluate_
+from seqeval.metrics import classification_report
 from underthesea.transformer.tagged import TaggedTransformer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
 FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
-from os.path import dirname, join
+
 
 model_path = join(dirname(__file__), "tmp", "model.tmp")
 tmp_output_path = join(dirname(__file__), "tmp", "output.txt")
+
 
 class Trainer:
     def __init__(self, tagger, corpus):
@@ -25,7 +26,6 @@ class Trainer:
         transformer = TaggedTransformer(features)
         logger.info("Start feature extraction")
         X_train, y_train = transformer.transform(self.corpus.train, contain_labels=True)
-        X_train, y_train = X_train[:10000], y_train[:10000]
         X_test, y_test = transformer.transform(self.corpus.test, contain_labels=True)
         logger.info("Finish feature extraction")
 
@@ -46,18 +46,21 @@ class Trainer:
         sentences = [[item[0] for item in sentence] for sentence in self.corpus.test]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
+        # print("y_pred\n", y_pred)
+        # print("y_test\n", y_test)
         for s in sentences:
-            tokens, y_true, y_pred = s
+            tokens, y_true, y_pred_ = s
             tokens_ = []
             for i in range(len(tokens)):
                 if tokens[i] == "":
                     token = "X"
                 else:
                     token = tokens[i]
-            tokens_.append(token + "\t" + y_true[i] + "\t" + y_pred[i])
+                tokens_.append(token + "\t" + y_true[i] + "\t" + y_pred_[i])
             text = "\n".join(tokens_)
             texts.append(text)
         text = "\n\n".join(texts)
         open(tmp_output_path, "w").write(text)
-        evaluate_(tmp_output_path)
+        print("Classification report:\n")
+        print(classification_report(y_test, y_pred, digits=3))
         logger.info("Finish tagger")

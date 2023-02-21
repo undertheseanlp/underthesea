@@ -31,9 +31,11 @@ features = [
 
 # tagger = CRFSequenceTagger(features)
 transformer = TaggedTransformer(features)
-sentence = "Toàn bộ 5/5 tuyến cáp quang biển từ Việt Nam đi quốc tế đều đang gặp sự cố kế hoạch"
+sentence = "Quỳnh Như tiết lộ với báo Bồ Đào Nha về hành trình làm nên lịch sử"
 tokens = sentence.split()
-X = transformer.transform([tokens], contain_labels=False)
+tokens1 = [[token] for token in tokens]
+X = transformer.transform([tokens1])[0]
 print(X)
-y = tagger.tag(X[0])
+
+y = tagger.tag(X)
 print(y)

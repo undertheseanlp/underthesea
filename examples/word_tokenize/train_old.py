@@ -1,8 +1,8 @@
-from crf_sequence_tagger import CRFSequenceTagger
-from data import WordTokenizeCorpusReader, DataReader
-
-from examples.word_tokenize.trainer_old import Trainer
 from os.path import dirname, join
+
+from crf_sequence_tagger import CRFSequenceTagger
+from data import DataReader
+from trainer_old import Trainer
 
 pwd = dirname(__file__)
 corpus = DataReader.load_tagged_corpus(join(pwd, "tmp"), train_file="train.txt", test_file="test.txt")
@@ -31,7 +31,7 @@ trainer = Trainer(tagger, corpus)
 params = {
     'c1': 1.0,  # coefficient for L1 penalty
     'c2': 1e-3,  # coefficient for L2 penalty
-    'max_iterations': 10,  #
+    'max_iterations': 1000,  #
     # include transitions that are possible, but not observed
     'feature.possible_transitions': True,
     'feature.possible_states': True,
