@@ -2,6 +2,8 @@ from os.path import dirname
 import os
 import shutil
 from seqeval.metrics import classification_report
+from crf_trainer import CRFTrainer
+from fast_crf_sequence_tagger import FastCRFSequenceTagger
 from underthesea.transformer.tagged_feature import lower_words as dictionary
 import logging
 from underthesea_core import CRFFeaturizer
@@ -51,100 +53,7 @@ FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
 
 
-class CRFTrainer:
-    def __init__(self, model, training_args, train_dataset=None, test_dataset=None):
-        self.model = model
-        self.training_args = training_args
-        self.train_dataset = train_dataset
-        self.test_dataset = test_dataset
 
-    def train(self):
-        # create output_dir directory
-        output_dir = self.training_args["output_dir"]
-        if os.path.exists(output_dir):
-            shutil.rmtree(output_dir)
-        os.makedirs(output_dir)
-        logger.info("Start feature extraction")
-
-        trainer = pycrfsuite.Trainer()
-        count = 0
-        for X_tokens, y_seq in zip(self.train_dataset.X[:10000], self.train_dataset.y[:10000]):
-            X_seq = self.model.featurizer.process([X_tokens])[0]
-            count += 1
-            if count < 5:
-                print(X_seq)
-                len(X_seq)
-                print(y_seq)
-                len(y_seq)
-            trainer.append(X_seq, y_seq)
-        logger.info("Finish feature extraction")
-        trainer.set_params(self.training_args["params"])
-
-        filepath = join(output_dir, 'models.bin')
-        # Train
-        logger.info("Start train")
-        trainer.train(filepath)
-
-        self.model.save(output_dir)
-        logger.info("Finish train")
-
-        # Evaluation
-        self.model.load(output_dir)
-        logger.info("Start evaluation")
-        y_pred = []
-        for X in self.test_dataset.X:
-            y_pred_ = self.model.predict([item[0] for item in X])
-            y_pred.append(y_pred_)
-            if "I-W" in y_pred_:
-                print(y_pred)
-        y_test = self.test_dataset.y
-
-        print(classification_report(y_test, y_pred, digits=3))
-
-
-# @title file fast_crf_sequence_tagger.py
-
-
-class FastCRFSequenceTagger:
-    def __init__(self, features=[], dictionary=set()):
-        self.features = features
-        self.dictionary = dictionary
-        self.crf_tagger = None
-        self.featurizer = CRFFeaturizer(self.features, self.dictionary)
-        self.path_model = "models.bin"
-        self.path_features = "features.bin"
-        self.path_dictionary = "dictionary.bin"
-
-    def forward(self, samples, contains_labels=False):
-        return self.featurizer.transform(samples, contains_labels)
-
-    def save(self, base_path):
-        print("save features")
-        joblib.dump(self.features, join(base_path, self.path_features))
-        joblib.dump(self.dictionary, join(base_path, self.path_dictionary))
-
-    def load(self, base_path):
-        print(base_path)
-        model_path = str(Path(base_path) / self.path_model)
-        crf_tagger = pycrfsuite.Tagger()
-        crf_tagger.open(model_path)
-        features = joblib.load(join(base_path, self.path_features))
-        dictionary = joblib.load(join(base_path, self.path_dictionary))
-        featurizer = CRFFeaturizer(features, dictionary)
-        self.featurizer = featurizer
-        self.crf_tagger = crf_tagger
-
-    def predict(self, tokens):
-        tokens = [[token] for token in tokens]
-        try:
-            x = self.featurizer.process(tokens)
-        except Exception as e:
-            print(e)
-        # print(x)
-        # print(len(x))
-        # print(len(x[0]))
-        tags = [self.crf_tagger.tag(item)[0] for item in x]
-        return tags
 
 
 # @title Train with FastCRFSequenceTagger
