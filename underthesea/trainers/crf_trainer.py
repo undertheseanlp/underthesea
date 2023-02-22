@@ -5,6 +5,7 @@ from os.path import join
 
 import pycrfsuite
 from seqeval.metrics import classification_report
+from underthesea_core import CRFFeaturizer
 
 from underthesea.transformer.tagged import TaggedTransformer
 
@@ -31,12 +32,23 @@ class CRFTrainer:
         os.makedirs(output_dir)
         features = self.model.features
         print(features)
-        featurizer = TaggedTransformer(features)
+
+        featurizer = CRFFeaturizer(features, set())
         logger.info("Start feature extraction")
-        X_train, y_train = featurizer.transform(
-            self.train_dataset, contain_labels=True
-        )
-        X_test, y_test = featurizer.transform(self.test_dataset, contain_labels=True)
+        # featurizer = TaggedTransformer(features)
+        # X_train, y_train = featurizer.transform(self.train_dataset, contain_labels=True)
+        # X_test, y_test = featurizer.transform(self.test_dataset, contain_labels=True)
+
+        X_train = featurizer.process(self.train_dataset)
+        y_train = []
+        for s in self.train_dataset:
+            yi = [t[-1] for t in s]
+            y_train.append(yi)
+        X_test = featurizer.process(self.test_dataset)
+        y_test = []
+        for s in self.test_dataset:
+            yi = [t[-1] for t in s]
+            y_test.append(yi)
         logger.info("Finish feature extraction")
 
         # Train

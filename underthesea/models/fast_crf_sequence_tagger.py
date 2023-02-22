@@ -18,7 +18,6 @@ class FastCRFSequenceTagger:
         return self.featurizer.process(samples, contains_labels)
 
     def save(self, base_path):
-        print("save features")
         joblib.dump(self.features, join(base_path, self.path_features))
 
     def load(self, base_path):
@@ -32,7 +31,6 @@ class FastCRFSequenceTagger:
         self.estimator = estimator
 
     def predict(self, tokens):
-        tokens = [(token, "X") for token in tokens]
         x = self.featurizer.process([tokens])[0]
         tags = self.estimator.tag(x)
         return tags
