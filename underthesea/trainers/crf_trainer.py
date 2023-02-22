@@ -1,8 +1,12 @@
-import pycrfsuite
 import logging
-from underthesea_core import CRFFeaturizer
-from underthesea.transformer.tagged_feature import lower_words
-# from conlleval import evaluate_
+import os
+import shutil
+from os.path import join
+
+import pycrfsuite
+from seqeval.metrics import classification_report
+
+from underthesea.transformer.tagged import TaggedTransformer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
@@ -10,16 +14,30 @@ FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
 
 
-class Trainer:
-    def __init__(self, features, corpus):
-        self.features = features
-        self.corpus = corpus
+class CRFTrainer:
+    def __init__(self, model, training_args, train_dataset=None, test_dataset=None):
+        self.model = model
+        self.training_args = training_args
+        self.output_dir = training_args["output_dir"]
+        self.model_params = training_args["params"]
+        self.train_dataset = train_dataset
+        self.test_dataset = test_dataset
 
-    def train(self, params):
-        transformer = CRFFeaturizer(self.features, lower_words)
+    def train(self):
+        # create output_dir directory
+        output_dir = self.output_dir
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+
+        features = self.model.features
+        print(features)
+        featurizer = TaggedTransformer(features)
         logger.info("Start feature extraction")
-        X_train, y_train = transformer.transform(self.corpus.train, contain_labels=True)
-        X_test, y_test = transformer.transform(self.corpus.test, contain_labels=True)
+        X_train, y_train = featurizer.transform(
+            self.train_dataset, contain_labels=True
+        )
+        X_test, y_test = featurizer.transform(self.test_dataset, contain_labels=True)
         logger.info("Finish feature extraction")
 
         # Train
@@ -27,25 +45,34 @@ class Trainer:
         trainer = pycrfsuite.Trainer(verbose=True)
         for xseq, yseq in zip(X_train, y_train):
             trainer.append(xseq, yseq)
-        trainer.set_params(params)
-        filename = 'tmp/model.tmp'
-        trainer.train(filename)
+        trainer.set_params(self.model_params)
+        model_path = join(output_dir, "models.bin")
+        trainer.train(model_path)
         logger.info("Finish train")
+        self.model.save(output_dir)
 
         # Tagger
         logger.info("Start tagger")
         tagger = pycrfsuite.Tagger()
-        tagger.open(filename)
+        tagger.open(model_path)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
-        sentences = [[item[0] for item in sentence] for sentence in self.corpus.test]
+        sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
         for s in sentences:
-            tokens, y_true, y_pred = s
-            tokens_ = ["\t".join(item) for item in zip(tokens, y_true, y_pred)]
+            tokens, y_true, y_pred_ = s
+            tokens_ = []
+            for i in range(len(tokens)):
+                if tokens[i] == "":
+                    token = "X"
+                else:
+                    token = tokens[i]
+                tokens_.append(token + "\t" + y_true[i] + "\t" + y_pred_[i])
             text = "\n".join(tokens_)
             texts.append(text)
         text = "\n\n".join(texts)
-        open("tmp/output.txt", "w").write(text)
-        # evaluate_("tmp/output.txt")
+        tmp_output_path = join(output_dir, "test_output.txt")
+        open(tmp_output_path, "w").write(text)
+        print("Classification report:\n")
+        print(classification_report(y_test, y_pred, digits=3))
         logger.info("Finish tagger")
