@@ -6,8 +6,9 @@ from underthesea_core import CRFFeaturizer
 
 
 class FastCRFSequenceTagger:
-    def __init__(self, features=None):
+    def __init__(self, features=None, dictionary=set()):
         self.features = features
+        self.dictionary = dictionary
         self.estimator = None
         self.featurizer = None
         self.path_model = "models.bin"
@@ -19,14 +20,16 @@ class FastCRFSequenceTagger:
 
     def save(self, base_path):
         joblib.dump(self.features, join(base_path, self.path_features))
+        joblib.dump(self.dictionary, join(base_path, self.path_dictionary))
 
     def load(self, base_path):
         print(base_path)
         model_path = str(Path(base_path) / self.path_model)
         estimator = pycrfsuite.Tagger()
         estimator.open(model_path)
-        features = joblib.load(join(base_path, "features.bin"))
-        featurizer = CRFFeaturizer(features, set())
+        features = joblib.load(join(base_path, self.path_features))
+        dictionary = joblib.load(join(base_path, self.path_dictionary))
+        featurizer = CRFFeaturizer(features, dictionary)
         self.featurizer = featurizer
         self.estimator = estimator
 

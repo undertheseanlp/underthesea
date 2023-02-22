@@ -44,7 +44,12 @@ class DataReader:
         raw_sentences = open(data_file).read().strip().split("\n\n")
         for s in raw_sentences:
             tagged_sentence = [item.split("\t") for item in s.split("\n")]
-            sentences.append(tagged_sentence)
+            is_valid = True
+            for row in tagged_sentence:
+                if (len(row[0])) == 0:
+                    is_valid = False
+            if is_valid:
+                sentences.append(tagged_sentence)
         return sentences
 
 
