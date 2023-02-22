@@ -1,8 +1,6 @@
 from os.path import dirname, join
 from data import DataReader
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-
-from underthesea.models.py_crf_sequence_tagger import PyCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
 
 features = [
