@@ -1,9 +1,8 @@
 from os.path import dirname, join
-
-from py_crf_sequence_tagger import PyCRFSequenceTagger
 from data import DataReader
 from trainer_old import Trainer
 
+from underthesea.models.py_crf_sequence_tagger import PyCRFSequenceTagger
 
 features = [
     # word unigram and bigram and trigram

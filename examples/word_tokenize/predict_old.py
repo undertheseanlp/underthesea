@@ -1,6 +1,5 @@
-from os.path import join, dirname
-from py_crf_sequence_tagger import PyCRFSequenceTagger
-
+from os.path import dirname, join
+from underthesea.models.py_crf_sequence_tagger import PyCRFSequenceTagger
 
 output_dir = join(dirname(__file__), "tmp/ws_20220222")
 sentence = "Quỳnh Như tiết lộ với báo Bồ Đào Nha về hành trình làm nên lịch sử"
