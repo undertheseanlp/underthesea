@@ -35,12 +35,12 @@ class Trainer:
 
         features = self.model.features
         print(features)
-        transformer = TaggedTransformer(features)
+        featurizer = TaggedTransformer(features)
         logger.info("Start feature extraction")
-        X_train, y_train = transformer.transform(
+        X_train, y_train = featurizer.transform(
             self.train_dataset, contain_labels=True
         )
-        X_test, y_test = transformer.transform(self.test_dataset, contain_labels=True)
+        X_test, y_test = featurizer.transform(self.test_dataset, contain_labels=True)
         logger.info("Finish feature extraction")
 
         # Train
@@ -62,8 +62,6 @@ class Trainer:
         sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
-        # print("y_pred\n", y_pred)
-        # print("y_test\n", y_test)
         for s in sentences:
             tokens, y_true, y_pred_ = s
             tokens_ = []

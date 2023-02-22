@@ -11,13 +11,13 @@ features = [
     "T[0]",
     "T[1]",
     "T[2]",
-    # "T[-2,-1]",
-    # "T[-1,0]",
-    # "T[0,1]",
-    # "T[1,2]",
-    # "T[-2,0]",
-    # "T[-1,1]",
-    # "T[0,2]",
+    "T[-2,-1]",
+    "T[-1,0]",
+    "T[0,1]",
+    "T[1,2]",
+    "T[-2,0]",
+    "T[-1,1]",
+    "T[0,2]"
     # "T[-2].lower",
     # "T[-1].lower",
     # "T[0].lower",
@@ -69,7 +69,7 @@ training_params = {
 corpus = DataReader.load_tagged_corpus(
     join(pwd, "tmp"), train_file="train.txt", test_file="test.txt"
 )
-train_dataset = corpus.train[:10000]
+train_dataset = corpus.train[:1000]
 test_dataset = corpus.test
 trainer = Trainer(model, training_params, train_dataset, test_dataset)
 
