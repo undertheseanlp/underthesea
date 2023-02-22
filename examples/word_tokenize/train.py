@@ -1,5 +1,6 @@
 from os.path import dirname, join
 from data import DataReader
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 
 from underthesea.models.py_crf_sequence_tagger import PyCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
@@ -50,7 +51,8 @@ features = [
     # "T[-1,1].is_in_dict",
     # "T[0,2].is_in_dict",
 ]
-model = PyCRFSequenceTagger(features)
+# model = PyCRFSequenceTagger(features)
+model = FastCRFSequenceTagger(features)
 
 pwd = dirname(__file__)
 output_dir = join(pwd, "tmp/ws_20220222")

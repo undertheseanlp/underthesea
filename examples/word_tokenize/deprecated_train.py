@@ -43,9 +43,6 @@ logger.setLevel(10)
 FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
 
-
-# @title Train with FastCRFSequenceTagger
-
 features = [
     "T[-2].lower",
     "T[-1].lower",
