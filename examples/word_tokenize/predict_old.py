@@ -1,6 +1,6 @@
 from os.path import join, dirname
 import pycrfsuite
-from crf_sequence_tagger import CRFSequenceTagger
+from py_crf_sequence_tagger import PyCRFSequenceTagger
 from underthesea.transformer.tagged import TaggedTransformer
 
 
@@ -29,13 +29,12 @@ features = [
     "T[-2,0].is_in_dict", "T[-1,1].is_in_dict", "T[0,2].is_in_dict",
 ]
 
-# tagger = CRFSequenceTagger(features)
+tagger = PyCRFSequenceTagger(features)
 transformer = TaggedTransformer(features)
 sentence = "Quỳnh Như tiết lộ với báo Bồ Đào Nha về hành trình làm nên lịch sử"
 tokens = sentence.split()
 tokens1 = [[token] for token in tokens]
 X = transformer.transform([tokens1])[0]
-print(X)
-
 y = tagger.tag(X)
-print(y)
+for token, x in zip(tokens, y):
+    print(token, '\t\t', x)

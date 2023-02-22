@@ -1,8 +1,11 @@
 import logging
+import os
+import shutil
 from os.path import dirname, join
 
 import pycrfsuite
 from seqeval.metrics import classification_report
+
 from underthesea.transformer.tagged import TaggedTransformer
 
 logger = logging.getLogger(__name__)
@@ -16,17 +19,29 @@ tmp_output_path = join(dirname(__file__), "tmp", "output.txt")
 
 
 class Trainer:
-    def __init__(self, tagger, corpus):
-        self.tagger = tagger
-        self.corpus = corpus
+    def __init__(self, model, training_args, train_dataset=None, test_dataset=None):
+        self.model = model
+        self.training_args = training_args
+        self.output_dir = training_args["output_dir"]
+        self.model_params = training_args["params"]
+        self.train_dataset = train_dataset
+        self.test_dataset = test_dataset
 
-    def train(self, params):
-        features = self.tagger.features
+    def train(self):
+        # create output_dir directory
+        output_dir = self.output_dir
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
+
+        features = self.model.features
         print(features)
         transformer = TaggedTransformer(features)
         logger.info("Start feature extraction")
-        X_train, y_train = transformer.transform(self.corpus.train, contain_labels=True)
-        X_test, y_test = transformer.transform(self.corpus.test, contain_labels=True)
+        X_train, y_train = transformer.transform(
+            self.train_dataset, contain_labels=True
+        )
+        X_test, y_test = transformer.transform(self.test_dataset, contain_labels=True)
         logger.info("Finish feature extraction")
 
         # Train
@@ -34,16 +49,17 @@ class Trainer:
         trainer = pycrfsuite.Trainer(verbose=True)
         for xseq, yseq in zip(X_train, y_train):
             trainer.append(xseq, yseq)
-        trainer.set_params(params)
+        trainer.set_params(self.model_params)
         trainer.train(model_path)
         logger.info("Finish train")
+        self.model.save(output_dir)
 
         # Tagger
         logger.info("Start tagger")
         tagger = pycrfsuite.Tagger()
         tagger.open(model_path)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
-        sentences = [[item[0] for item in sentence] for sentence in self.corpus.test]
+        sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
         # print("y_pred\n", y_pred)

@@ -1,15 +1,9 @@
-import logging
-import os
-import shutil
-from os.path import dirname, join
+from os.path import join
 from pathlib import Path
 
 import joblib
 import pycrfsuite
-from seqeval.metrics import classification_report
 from underthesea_core import CRFFeaturizer
-
-from underthesea.transformer.tagged_feature import lower_words as dictionary
 
 
 class FastCRFSequenceTagger:
