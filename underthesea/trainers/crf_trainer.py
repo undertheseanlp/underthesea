@@ -7,8 +7,6 @@ import pycrfsuite
 from seqeval.metrics import classification_report
 from underthesea_core import CRFFeaturizer
 
-from underthesea.transformer.tagged import TaggedTransformer
-
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
 FORMAT = "%(asctime)-15s %(message)s"
