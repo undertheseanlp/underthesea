@@ -51,7 +51,6 @@ features = [
     "T[-1,1].is_in_dict",
     "T[0,2].is_in_dict",
 ]
-# model = PyCRFSequenceTagger(features)
 model = FastCRFSequenceTagger(features, dictionary)
 
 pwd = dirname(__file__)
