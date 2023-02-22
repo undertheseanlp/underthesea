@@ -1,10 +1,8 @@
 import logging
 import os
 import shutil
-from os.path import dirname, join
-from pathlib import Path
+from os.path import join
 
-import joblib
 import pycrfsuite
 from seqeval.metrics import classification_report
 from underthesea_core import CRFFeaturizer
@@ -36,7 +34,9 @@ class CRFTrainer:
         count = 0
         # loop through dataset
 
-        for X_tokens, y_seq in zip(self.train_dataset.X[:10000], self.train_dataset.y[:10000]):
+        for X_tokens, y_seq in zip(
+            self.train_dataset.X[:10000], self.train_dataset.y[:10000]
+        ):
             X_seq = self.model.featurizer.process([X_tokens])[0]
             count += 1
             if count < 5:
@@ -48,7 +48,7 @@ class CRFTrainer:
         logger.info("Finish feature extraction")
         trainer.set_params(self.training_args["params"])
 
-        filepath = join(output_dir, 'models.bin')
+        filepath = join(output_dir, "models.bin")
         # Train
         logger.info("Start train")
         trainer.train(filepath)

@@ -14,7 +14,6 @@ FORMAT = "%(asctime)-15s %(message)s"
 logging.basicConfig(format=FORMAT)
 
 
-model_path = join(dirname(__file__), "tmp", "model.tmp")
 tmp_output_path = join(dirname(__file__), "tmp", "output.txt")
 
 
@@ -50,6 +49,7 @@ class Trainer:
         for xseq, yseq in zip(X_train, y_train):
             trainer.append(xseq, yseq)
         trainer.set_params(self.model_params)
+        model_path = join(output_dir, "models.bin")
         trainer.train(model_path)
         logger.info("Finish train")
         self.model.save(output_dir)

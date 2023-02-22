@@ -70,7 +70,7 @@ training_params = {
 corpus = DataReader.load_tagged_corpus(
     join(pwd, "tmp"), train_file="train.txt", test_file="test.txt"
 )
-train_dataset = corpus.train[:100]
+train_dataset = corpus.train[:10000]
 test_dataset = corpus.test
 trainer = Trainer(model, training_params, train_dataset, test_dataset)
 
