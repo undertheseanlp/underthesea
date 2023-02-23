@@ -4,7 +4,7 @@ import random
 
 random.seed(10)
 # sampling data
-text_file = join(DATASETS_FOLDER, "LTA", "VNESEScorpus.txt")
+text_file = join(DATASETS_FOLDER, "VNESES", "VNESEScorpus.txt")
 with open(text_file) as f:
     lines = f.read().splitlines()
 NUM_LONG_TOKENS = 50
