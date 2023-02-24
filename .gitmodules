@@ -1,6 +1,3 @@
-[submodule "datasets/UTS_WTK_v1"]
-	path = datasets/UTS_WTK_v1
-	url = https://huggingface.co/datasets/undertheseanlp/UTS_WTK_v1
 [submodule "datasets/UTS_Text"]
 	path = datasets/UTS_Text
 	url = https://huggingface.co/datasets/undertheseanlp/UTS_Text
