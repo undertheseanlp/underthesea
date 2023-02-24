@@ -1,3 +1,6 @@
 [submodule "datasets/UTS_Text"]
 	path = datasets/UTS_Text
 	url = https://huggingface.co/datasets/undertheseanlp/UTS_Text
+[submodule "datasets/UTS_WTK"]
+	path = datasets/UTS_WTK
+	url = https://huggingface.co/datasets/undertheseanlp/UTS_WTK
