@@ -55,7 +55,7 @@ features = [
 model = FastCRFSequenceTagger(features, dictionary)
 
 pwd = dirname(__file__)
-output_dir = join(pwd, "tmp/ws_20220222")
+output_dir = join(pwd, "tmp/ws_20220224")
 training_params = {
     "output_dir": output_dir,
     "params": {
