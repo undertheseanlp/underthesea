@@ -1,5 +1,4 @@
 from os.path import dirname, join
-from data import DataReader
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
@@ -55,7 +54,7 @@ features = [
 model = FastCRFSequenceTagger(features, dictionary)
 
 pwd = dirname(__file__)
-output_dir = join(pwd, "tmp/ws_20220222")
+output_dir = join(pwd, "tmp/ws_20220224")
 training_params = {
     "output_dir": output_dir,
     "params": {
@@ -69,8 +68,8 @@ training_params = {
 }
 
 
-UTS_WTK_v1 = load_dataset("undertheseanlp/UTS_WTK_v1")
-corpus = preprocess_word_tokenize_dataset(UTS_WTK_v1)
+dataset = load_dataset("undertheseanlp/UTS_WTK", "base")
+corpus = preprocess_word_tokenize_dataset(dataset)
 
 train_dataset = corpus["train"]
 test_dataset = corpus["test"]
