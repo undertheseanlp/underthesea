@@ -3,8 +3,7 @@ from data import DataReader
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
-from datasets import load_dataset
-from underthesea.utils.preprocess_dataset import preprocess_word_tokenize_dataset
+
 
 features = [
     # word unigram and bigram and trigram
@@ -69,11 +68,12 @@ training_params = {
 }
 
 
-UTS_WTK_v1 = load_dataset("undertheseanlp/UTS_WTK_v1")
-corpus = preprocess_word_tokenize_dataset(UTS_WTK_v1)
-
-train_dataset = corpus["train"]
-test_dataset = corpus["test"]
+corpus = DataReader.load_tagged_corpus(
+    join(pwd, "tmp"), train_file="train.txt", test_file="test.txt"
+)
+# train_dataset = corpus.train[:10000]
+train_dataset = corpus.train
+test_dataset = corpus.test
 print("Train dataset", len(train_dataset))
 print("Test dataset", len(test_dataset))
 
