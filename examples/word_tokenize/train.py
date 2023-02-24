@@ -69,7 +69,7 @@ training_params = {
 }
 
 
-UTS_WTK_v1 = load_dataset("undertheseanlp/UTS_WTK_v1")
+UTS_WTK_v1 = load_dataset("undertheseanlp/UTS_WTK", "large")
 corpus = preprocess_word_tokenize_dataset(UTS_WTK_v1)
 
 train_dataset = corpus["train"]
