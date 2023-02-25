@@ -59,20 +59,24 @@ jobs:
       with:
         toolchain: nightly
         override: true
-    - name: Install dependencies
+    - name: Install pip and poetry (MacOS)
       working-directory: ./extensions/underthesea_core
+      if:  matrix.os != 'windows-latest'
+      run: | 
+        python -m pip install --upgrade pip
+        mkdir "${HOME}/poetry"
+        curl -sSL https://install.python-poetry.org | POETRY_HOME=${HOME}/poetry python -
+        echo "${HOME}/poetry/bin" >> $GITHUB_PATH
+
+    - name: Install pip and poetry (Windows)
+      if:  matrix.os == 'windows-latest'
       run: | 
         python -m pip install --upgrade pip
         mkdir "${HOME}/poetry"
         curl -sSL https://install.python-poetry.org | python -
+        echo "${HOME}/poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
       env:
-        POETRY_HOME: ${HOME}/poetry
-    - name: Add poetry to path
-      if:  matrix.os != 'windows-latest'
-      run: echo "${HOME}/poetry/bin" >> $GITHUB_PATH
-    - name: Add poetry to path
-      if:  matrix.os == 'windows-latest'
-      run: echo "${HOME}/poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+        POETRY_HOME: "${HOME}/poetry"
 
     - name: Install package deps
       working-directory: ./extensions/underthesea_core
