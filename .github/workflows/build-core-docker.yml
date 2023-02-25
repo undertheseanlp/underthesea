@@ -1,16 +1,16 @@
 on:
   push:
     branches:
-      - 'core'
+      - 'main'
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}/build_rust
-  VERSION: 0.0.1a13
+  VERSION: 1.0a0
 
 jobs:
   docker:
-    if: "contains(github.event.head_commit.message, 'build docker')"
+    if: "contains(github.event.head_commit.message, 'Build docker')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
