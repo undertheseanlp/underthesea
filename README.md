@@ -34,7 +34,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/undertheseanlp/underthesea/blob/main/Sponsors.md">
+  <a href="/Sponsors.md">
     <img src="https://img.shields.io/badge/sponsors-4-red?style=social&logo=GithubSponsors">
   </a>
 </p>
