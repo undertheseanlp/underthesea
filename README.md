@@ -34,9 +34,9 @@
 <br/>
 
 <p align="center">
-  <br>
-  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.png"/>
-  <br/>
+  <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
+    <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white">
+  </a>
 </p>
 
 <h3 align="center">
