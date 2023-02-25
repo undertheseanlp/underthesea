@@ -2,6 +2,14 @@
 History
 ================================================================================
 
+6.1.3 (2023-02-25)
+--------------------------------------------------------------------------------
+
+* Bump django from 4.1.6 to 4.1.7 in /apps/languages/backend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/652
+* Bump django from 3.2.17 to 3.2.18 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/651
+* GH-502: Training example for word segmentation by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/654
+* Add two new datasets UTS_Text and UTS_WTK
+
 6.1.2 (2023-02-15)
 --------------------------------------------------------------------------------
 

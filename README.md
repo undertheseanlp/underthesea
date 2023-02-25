@@ -31,6 +31,14 @@
   </a>
 </p>
 
+<br/>
+
+<p align="center">
+  <br>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.png"/>
+  <br/>
+</p>
+
 <h3 align="center">
 Open-source Vietnamese Natural Language Process Toolkit
 </h3>
