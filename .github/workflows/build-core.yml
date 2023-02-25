@@ -4,7 +4,8 @@ on:
 
 jobs:
   build:
-    name: Build rust
+    name: Try Build Underthesea Core
+    if: "!contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
