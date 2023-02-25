@@ -61,7 +61,9 @@ jobs:
         override: true
     - name: Install dependencies
       working-directory: ./extensions/underthesea_core
-      run: curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
+      run: | 
+        python -m pip install --upgrade pip
+        curl -sSL https://install.python-poetry.org | python3 -
     - name: Add poetry to path
       if:  matrix.os != 'windows-latest'
       run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
