@@ -63,7 +63,7 @@ jobs:
       working-directory: ./extensions/underthesea_core
       run: | 
         python -m pip install --upgrade pip
-        mkdir "${POETRY_HOME}"
+        mkdir "${HOME}/poetry"
         curl -sSL https://install.python-poetry.org | python -
       env:
         POETRY_HOME: ${HOME}/poetry
