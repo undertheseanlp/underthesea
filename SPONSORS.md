@@ -9,4 +9,5 @@ We thank those who [support 💝](/SUPPORT_US.md) Underthesea!
 * Nguyen Xuan Duc 
 * Nguyen Thanh Duc
 * Nguyen Huu Thanh
+* Thang Pham Ngoc
 * Hoai-Thu Vuong

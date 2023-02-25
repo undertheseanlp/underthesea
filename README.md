@@ -35,7 +35,7 @@
 
 <p align="center">
   <a href="/SPONSORS.md">
-    <img src="https://img.shields.io/badge/sponsors-4-red?style=social&logo=GithubSponsors">
+    <img src="https://img.shields.io/badge/sponsors-5-red?style=social&logo=GithubSponsors">
   </a>
 </p>
 
