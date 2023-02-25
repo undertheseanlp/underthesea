@@ -34,8 +34,8 @@
 <br/>
 
 <p align="center">
-  <a href="https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white">
+  <a href="https://github.com/undertheseanlp/underthesea/blob/main/Sponsors.md">
+    <img src="https://img.shields.io/badge/sponsors-4-red?style=social&logo=GithubSponsors">
   </a>
 </p>
 
