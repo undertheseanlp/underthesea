@@ -74,9 +74,7 @@ jobs:
         python -m pip install --upgrade pip
         mkdir "${HOME}/poetry"
         curl -sSL https://install.python-poetry.org | python -
-        echo "${HOME}/poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-      env:
-        POETRY_HOME: "${HOME}/poetry"
+        echo "%APPDATA%\pypoetry" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     - name: Install package deps
       working-directory: ./extensions/underthesea_core
