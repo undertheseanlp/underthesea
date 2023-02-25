@@ -31,6 +31,14 @@
   </a>
 </p>
 
+<br/>
+
+<p align="center">
+  <a href="/SPONSORS.md">
+    <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
+  </a>
+</p>
+
 <h3 align="center">
 Open-source Vietnamese Natural Language Process Toolkit
 </h3>
