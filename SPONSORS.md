@@ -18,8 +18,8 @@ Join us in Advancing Vietnamese AI Technology:
 ## Individuals 🦸‍♂️🦸‍♀️
 
 * Nguyen Xuan Duc 
-* Nguyen Thanh Duc
 * Nguyen Huu Thanh
+* Nguyen Thanh Duc
 * Pham Hong Quang
 * Thang Pham Ngoc
 * Hoai-Thu Vuong
