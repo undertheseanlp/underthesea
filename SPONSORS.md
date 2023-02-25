@@ -11,7 +11,7 @@ We thank those who [support 💝](/SUPPORT_US.md) Underthesea!
 💪 As we continue to build and refine our projects, we need support from corporate sponsors to help us achieve our goals. Sponsorship is an essential part of our growth strategy, and it will allow us to accelerate our research and development efforts, expand our team, and bring our technology to market.
 
 Join us in Advancing Vietnamese AI Technology: 
-<a href = "mailto:undertheseanlp@gmail.com?subject = Corporate Name - Sponsorship Proposal for Underthesea">
+<a href = "mailto:undertheseanlp@gmail.com?subject=Corporate Name - Sponsorship Proposal for Underthesea">
 🤝 Become a Corporate Sponsor Today
 </a>
 
