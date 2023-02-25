@@ -63,8 +63,10 @@ jobs:
       working-directory: ./extensions/underthesea_core
       run: | 
         python -m pip install --upgrade pip
-        mkdir "${HOME}/poetry"
-        curl -sSL https://install.python-poetry.org | POETRY_HOME=${HOME}/poetry python -
+        mkdir "${POETRY_HOME}"
+        curl -sSL https://install.python-poetry.org | python -
+      env:
+        POETRY_HOME: ${HOME}/poetry
     - name: Add poetry to path
       if:  matrix.os != 'windows-latest'
       run: echo "${HOME}/poetry/bin" >> $GITHUB_PATH
