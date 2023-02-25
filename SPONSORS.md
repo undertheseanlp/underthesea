@@ -6,7 +6,11 @@ We thank those who [support 💝](/SUPPORT_US.md) Underthesea!
 
 ## Corporate 🏢
 
-TBD
+🌊 Underthesea has been dedicatedly working on Open Source Vietnamese Natural Lanugage Processing for the past six years. Our team of developers and researchers have been exploring various AI techniques to create tools that can simplify and automate complex tasks, thereby empowering businesses to thrive in the AI age.
+
+💪 As we continue to build and refine our projects, we need support from corporate sponsors to help us achieve our goals. Sponsorship is an essential part of our growth strategy, and it will allow us to accelerate our research and development efforts, expand our team, and bring our technology to market.
+
+Join us in Advancing Vietnamese AI Technology: [🤝 Become a Corporate Sponsor Today](emailto:undertheseanlp@gmail.com)!
 
 ## Individuals 🦸‍♂️🦸‍♀️
 
