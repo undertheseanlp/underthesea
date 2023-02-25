@@ -3,9 +3,9 @@ on:
     branches: [ core ]
 
 jobs:
-  build-pypi-publish:
-    name: Build and Publish Underthesea Core
-    if: "!contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+  linux-build-pypi-publish:
+    name: "Build Underthesea Core on Linux"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
@@ -16,7 +16,6 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
-#        python-version: ["3.7"]
     steps:
       - uses: actions/checkout@v1
       - name: Show environments
@@ -42,12 +41,13 @@ jobs:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-windows-build-pypi-publish:
+    name: "Build Underthesea Core on MacOS & Windows"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
-#        python-version: ["3.7"]
         os: [macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v3
@@ -62,7 +62,7 @@ jobs:
     - name: Install dependencies
       working-directory: ./extensions/underthesea_core
       run: |
-        python -m pip install --upgrade pip
+        # python -m pip install --upgrade pip
         curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
     - name: Add poetry to path
       if:  matrix.os != 'windows-latest'
