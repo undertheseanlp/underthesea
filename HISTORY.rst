@@ -2,6 +2,12 @@
 History
 ================================================================================
 
+6.1.4 (2023-02-26)
+--------------------------------------------------------------------------------
+
+* GH-588: Support underthesea_core with python 3.11 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/659
+* GH-588: update underthesea_core version by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/660
+
 6.1.3 (2023-02-25)
 --------------------------------------------------------------------------------
 
