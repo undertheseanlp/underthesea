@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.png"/>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/image/logo.png"/>
   <br/>
 </p>
 
@@ -34,7 +34,7 @@
 <br/>
 
 <p align="center">
-  <a href="/SPONSORS.md">
+  <a href="https://github.com/undertheseanlp/underthesea/blob/main/contribute/SPONSORS.md">
     <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
   </a>
 </p>
@@ -295,7 +295,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ## Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
+Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/contribute/CONTRIBUTING.rst)
 
 ## 💝 Support Us
 

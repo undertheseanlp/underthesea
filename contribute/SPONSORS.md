@@ -1,8 +1,8 @@
 # Sponsors
 
-👋 If you are a fan of the project or a company that relies on Underthesea, you might want to consider [sponsoring](/SUPPORT_US.md) 💰. This will help us devote more time to answering questions 🤔 and doing feature development 🚀. 
+👋 If you are a fan of the project or a company that relies on Underthesea, you might want to consider [sponsoring](https://github.com/undertheseanlp/underthesea/blob/main/contribute/SUPPORT_US.md) 💰. This will help us devote more time to answering questions 🤔 and doing feature development 🚀. 
 
-We thank those who [support 💝](/SUPPORT_US.md) Underthesea! 
+We thank those who [support 💝](https://github.com/undertheseanlp/underthesea/blob/main/contribute/SUPPORT_US.md) Underthesea! 
 
 ## Corporate 🏢
 
