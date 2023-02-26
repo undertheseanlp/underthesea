@@ -1,0 +1,925 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+----------------
+
+Luật số: 81/2015/QH13
+
+Hà Nội, ngày 24 tháng 06 năm 2015
+
+
+
+LUẬT
+
+KIỂM TOÁN NHÀ NƯỚC
+
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+
+Quốc hội ban hành Luật Kiểm toán nhà nước.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về chức năng, nhiệm vụ, quyền hạn, tổ chức và hoạt động của Kiểm toán nhà nước; nhiệm vụ, quyền hạn của Tổng Kiểm toán nhà nước; nhiệm vụ, quyền hạn của Kiểm toán viên nhà nước; quyền hạn và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đối với hoạt động kiểm toán nhà nước.
+
+Điều 2. Đối tượng áp dụng
+
+1. Kiểm toán nhà nước.
+
+2. Cơ quan, tổ chức quản lý, sử dụng tài chính công, tài sản công.
+
+3. Cơ quan, tổ chức, cá nhân khác có liên quan đối với hoạt động kiểm toán nhà nước.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Báo cáo kiểm toán của Kiểm toán nhà nước là văn bản do Kiểm toán nhà nước lập và công bố sau mỗi cuộc kiểm toán để đánh giá, xác nhận, kết luận và kiến nghị về những nội dung đã kiểm toán. Báo cáo kiểm toán của Kiểm toán nhà nước do Tổng Kiểm toán nhà nước hoặc người được Tổng Kiểm toán nhà nước ủy quyền ký tên, đóng dấu.
+
+2. Bằng chứng kiểm toán là tài liệu, thông tin do Kiểm toán viên nhà nước thu thập liên quan đến cuộc kiểm toán, làm cơ sở cho việc đánh giá, xác nhận, kết luận và kiến nghị kiểm toán.
+
+3. Đơn vị được kiểm toán là cơ quan, tổ chức quản lý, sử dụng tài chính công, tài sản công.
+
+4. Hồ sơ kiểm toán của cuộc kiểm toán là các tài liệu do Kiểm toán nhà nước thu thập, phân loại, sử dụng, lập, lưu trữ và quản lý theo quy định.
+
+5. Hoạt động kiểm toán của Kiểm toán nhà nước là việc đánh giá và xác nhận tính đúng đắn, trung thực của các thông tin tài chính công, tài sản công hoặc báo cáo tài chính liên quan đến quản lý, sử dụng tài chính công, tài sản công; việc chấp hành pháp luật và hiệu quả trong việc quản lý, sử dụng tài chính công, tài sản công.
+
+6. Kiểm toán nhà nước chuyên ngành là đơn vị trực thuộc Kiểm toán nhà nước, thực hiện kiểm toán đối với đơn vị được kiểm toán ở trung ương và các nhiệm vụ theo sự phân công của Tổng Kiểm toán nhà nước.
+
+7. Kiểm toán nhà nước khu vực là đơn vị trực thuộc Kiểm toán nhà nước, thực hiện kiểm toán đối với đơn vị được kiểm toán ở địa phương và các nhiệm vụ theo sự phân công của Tổng Kiểm toán nhà nước.
+
+8. Kiểm toán viên nhà nước là công chức nhà nước được Tổng Kiểm toán nhà nước bổ nhiệm vào các ngạch kiểm toán viên nhà nước để thực hiện nhiệm vụ kiểm toán.
+
+9. Ngạch Kiểm toán viên nhà nước là tên gọi thể hiện thứ bậc về năng lực và trình độ chuyên môn, nghiệp vụ của Kiểm toán viên nhà nước, bao gồm các ngạch: Kiểm toán viên, Kiểm toán viên chính và Kiểm toán viên cao cấp.
+
+10. Tài chính công bao gồm: ngân sách nhà nước; dự trữ quốc gia; các quỹ tài chính nhà nước ngoài ngân sách; tài chính của các cơ quan nhà nước, đơn vị vũ trang nhân dân, đơn vị sự nghiệp công lập, đơn vị cung cấp dịch vụ, hàng hóa công, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp có sử dụng kinh phí, ngân quỹ nhà nước; phần vốn nhà nước tại các doanh nghiệp; các khoản nợ công.
+
+11. Tài sản công bao gồm: đất đai; tài nguyên nước; tài nguyên khoáng sản; nguồn lợi ở vùng biển, vùng trời; tài nguyên thiên nhiên khác; tài sản nhà nước tại cơ quan nhà nước, đơn vị vũ trang nhân dân, đơn vị sự nghiệp công lập, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp; tài sản công được giao cho các doanh nghiệp quản lý và sử dụng; tài sản dự trữ nhà nước; tài sản thuộc kết cấu hạ tầng phục vụ lợi ích công cộng và các tài sản khác do Nhà nước đầu tư, quản lý thuộc sở hữu toàn dân do Nhà nước đại diện chủ sở hữu và thống nhất quản lý.
+
+Điều 4. Đối tượng kiểm toán của Kiểm toán nhà nước
+
+Đối tượng kiểm toán của Kiểm toán nhà nước là việc quản lý, sử dụng tài chính công, tài sản công và các hoạt động có liên quan đến việc quản lý, sử dụng tài chính công, tài sản công của đơn vị được kiểm toán.
+
+Điều 5. Nguyên tắc hoạt động kiểm toán của Kiểm toán nhà nước
+
+1. Độc lập và chỉ tuân theo pháp luật.
+
+2. Trung thực, khách quan, công khai, minh bạch.
+
+Điều 6. Chuẩn mực kiểm toán nhà nước
+
+1. Chuẩn mực kiểm toán nhà nước là những quy định và hướng dẫn về yêu cầu, nguyên tắc, thủ tục kiểm toán và xử lý các mối quan hệ phát sinh trong hoạt động kiểm toán mà Kiểm toán viên nhà nước phải tuân thủ khi tiến hành hoạt động kiểm toán; là cơ sở để kiểm tra, đánh giá chất lượng kiểm toán và đạo đức nghề nghiệp của Kiểm toán viên nhà nước.
+
+2. Tổng Kiểm toán nhà nước xây dựng và ban hành hệ thống chuẩn mực kiểm toán nhà nước theo quy định của Luật ban hành văn bản quy phạm pháp luật.
+
+Điều 7. Giá trị pháp lý của báo cáo kiểm toán
+
+1. Báo cáo kiểm toán của Kiểm toán nhà nước sau khi phát hành và công khai có giá trị bắt buộc phải thực hiện đối với đơn vị được kiểm toán về sai phạm trong việc quản lý, sử dụng tài chính công, tài sản công.
+
+2. Báo cáo kiểm toán của Kiểm toán nhà nước là căn cứ để:
+
+a) Quốc hội sử dụng trong quá trình xem xét, quyết định và giám sát việc thực hiện: mục tiêu, chỉ tiêu, chính sách, nhiệm vụ cơ bản phát triển kinh tế - xã hội dài hạn và hằng năm của đất nước; chủ trương đầu tư chương trình mục tiêu quốc gia, dự án quan trọng quốc gia; chính sách cơ bản về tài chính, tiền tệ quốc gia; quy định, sửa đổi hoặc bãi bỏ các thứ thuế; quyết định phân chia các khoản thu và nhiệm vụ chi giữa ngân sách trung ương và ngân sách địa phương; mức giới hạn an toàn nợ quốc gia, nợ công, nợ chính phủ; dự toán ngân sách nhà nước và phân bổ ngân sách trung ương; phê chuẩn quyết toán ngân sách nhà nước;
+
+b) Chính phủ, cơ quan quản lý nhà nước và tổ chức, cơ quan khác của Nhà nước sử dụng trong công tác quản lý, điều hành và thực thi nhiệm vụ, quyền hạn của mình;
+
+c) Hội đồng nhân dân sử dụng trong quá trình xem xét, quyết định dự toán và phân bổ ngân sách địa phương; phê chuẩn quyết toán ngân sách địa phương; giám sát việc quản lý, sử dụng tài chính công, tài sản công và thực thi nhiệm vụ, quyền hạn của mình;
+
+d) Đơn vị được kiểm toán thực hiện quyền khiếu nại.
+
+Điều 8. Các hành vi bị nghiêm cấm
+
+1. Nghiêm cấm các hành vi sau đây đối với Kiểm toán nhà nước, Kiểm toán viên nhà nước và cộng tác viên Kiểm toán nhà nước:
+
+a) Sách nhiễu, gây khó khăn, phiền hà cho đơn vị được kiểm toán;
+
+b) Can thiệp trái pháp luật vào hoạt động bình thường của đơn vị được kiểm toán;
+
+c) Đưa, nhận, môi giới hối lộ;
+
+d) Báo cáo sai lệch, không đầy đủ kết quả kiểm toán;
+
+đ) Lợi dụng chức vụ, quyền hạn để vụ lợi;
+
+e) Tiết lộ bí mật nhà nước, bí mật nghề nghiệp của đơn vị được kiểm toán;
+
+g) Tiết lộ thông tin về tình hình và kết quả kiểm toán chưa được công bố chính thức.
+
+2. Nghiêm cấm các hành vi sau đây đối với đơn vị được kiểm toán và tổ chức, cá nhân có liên quan:
+
+a) Từ chối cung cấp thông tin, tài liệu phục vụ cho cuộc kiểm toán theo yêu cầu của Kiểm toán nhà nước và Kiểm toán viên nhà nước;
+
+b) Cản trở công việc của Kiểm toán nhà nước và Kiểm toán viên nhà nước;
+
+c) Báo cáo sai lệch, không trung thực, không đầy đủ, kịp thời hoặc thiếu khách quan thông tin liên quan đến cuộc kiểm toán của Kiểm toán nhà nước;
+
+d) Mua chuộc, đưa hối lộ cho Kiểm toán viên nhà nước và cộng tác viên Kiểm toán nhà nước;
+
+đ) Che giấu các hành vi vi phạm pháp luật về tài chính công, tài sản công.
+
+3. Nghiêm cấm mọi cơ quan, tổ chức, cá nhân can thiệp trái pháp luật vào hoạt động kiểm toán, kết quả kiểm toán của Kiểm toán nhà nước và Kiểm toán viên nhà nước, cộng tác viên Kiểm toán nhà nước.
+
+Chương II
+
+CHỨC NĂNG, NHIỆM VỤ, QUYỀN HẠN VÀ TỔ CHỨC CỦA KIỂM TOÁN NHÀ NƯỚC
+
+Mục 1. CHỨC NĂNG, NHIỆM VỤ VÀ QUYỀN HẠN CỦA KIỂM TOÁN NHÀ NƯỚC
+
+Điều 9. Chức năng của Kiểm toán nhà nước
+
+Kiểm toán nhà nước có chức năng đánh giá, xác nhận, kết luận và kiến nghị đối với việc quản lý, sử dụng tài chính công, tài sản công.
+
+Điều 10. Nhiệm vụ của Kiểm toán nhà nước
+
+1. Quyết định kế hoạch kiểm toán hằng năm và báo cáo Quốc hội trước khi thực hiện.
+
+2. Tổ chức thực hiện kế hoạch kiểm toán hằng năm và thực hiện nhiệm vụ kiểm toán theo yêu cầu của Quốc hội, Ủy ban thường vụ Quốc hội, Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ.
+
+3. Xem xét, quyết định việc kiểm toán khi có đề nghị của Hội đồng dân tộc, các Ủy ban của Quốc hội, Đoàn đại biểu Quốc hội, Thường trực Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và cơ quan, tổ chức không có trong kế hoạch kiểm toán năm của Kiểm toán nhà nước.
+
+4. Trình ý kiến của Kiểm toán nhà nước để Quốc hội xem xét, quyết định dự toán ngân sách nhà nước, quyết định phân bổ ngân sách trung ương, quyết định chủ trương đầu tư chương trình mục tiêu quốc gia, dự án quan trọng quốc gia, phê chuẩn quyết toán ngân sách nhà nước.
+
+5. Tham gia với các cơ quan của Quốc hội, của Chính phủ trong việc xem xét về dự toán ngân sách nhà nước, phương án phân bổ ngân sách trung ương, phương án điều chỉnh dự toán ngân sách nhà nước, phương án bố trí ngân sách cho chương trình mục tiêu quốc gia, dự án quan trọng quốc gia do Quốc hội quyết định và quyết toán ngân sách nhà nước.
+
+6. Tham gia với các cơ quan của Quốc hội trong hoạt động giám sát việc thực hiện luật, nghị quyết của Quốc hội, pháp lệnh, nghị quyết của Ủy ban thường vụ Quốc hội về lĩnh vực tài chính - ngân sách, giám sát việc thực hiện ngân sách nhà nước và chính sách tài chính khi có yêu cầu.
+
+7. Tham gia với các cơ quan của Quốc hội, của Chính phủ, các cơ quan có thẩm quyền trình dự án luật, pháp lệnh khi có yêu cầu trong việc xây dựng và thẩm tra các dự án luật, pháp lệnh.
+
+8. Báo cáo tổng hợp kết quả kiểm toán năm và kết quả thực hiện kết luận, kiến nghị kiểm toán với Quốc hội, Ủy ban thường vụ Quốc hội; gửi báo cáo tổng hợp kết quả kiểm toán năm và kết quả thực hiện kết luận, kiến nghị kiểm toán cho Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ, Hội đồng dân tộc, các Ủy ban của Quốc hội; cung cấp kết quả kiểm toán cho Bộ Tài chính, Đoàn đại biểu Quốc hội, Hội đồng nhân dân, Ủy ban nhân dân nơi kiểm toán và các cơ quan khác theo quy định của pháp luật.
+
+9. Giải trình về kết quả kiểm toán với Quốc hội và các cơ quan của Quốc hội theo quy định của pháp luật.
+
+10. Tổ chức công bố công khai báo cáo kiểm toán, báo cáo tổng hợp kết quả kiểm toán năm và báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán theo quy định tại Điều 50, Điều 51 của Luật này và quy định khác của pháp luật có liên quan.
+
+11. Tổ chức theo dõi, kiểm tra việc thực hiện các kết luận, kiến nghị của Kiểm toán nhà nước.
+
+12. Chuyển hồ sơ cho cơ quan điều tra, Viện kiểm sát nhân dân và cơ quan khác của Nhà nước có thẩm quyền xem xét, xử lý những vụ việc có dấu hiệu của tội phạm, vi phạm pháp luật của cơ quan, tổ chức, cá nhân đã được phát hiện thông qua hoạt động kiểm toán.
+
+13. Quản lý hồ sơ kiểm toán; giữ bí mật tài liệu, số liệu kế toán và thông tin về hoạt động của đơn vị được kiểm toán theo quy định của pháp luật.
+
+14. Thực hiện hợp tác quốc tế trong lĩnh vực kiểm toán nhà nước.
+
+15. Tổ chức và quản lý công tác nghiên cứu khoa học, đào tạo, bồi dưỡng, phát triển nguồn nhân lực của Kiểm toán nhà nước.
+
+16. Tổ chức thi, cấp, thu hồi và quản lý chứng chỉ Kiểm toán viên nhà nước.
+
+17. Tổ chức thông tin, tuyên truyền, phổ biến, giáo dục pháp luật về kiểm toán nhà nước.
+
+18. Xây dựng và trình Ủy ban thường vụ Quốc hội ban hành Chiến lược phát triển Kiểm toán nhà nước.
+
+19. Thực hiện các nhiệm vụ khác theo quy định của pháp luật.
+
+Điều 11. Quyền hạn của Kiểm toán nhà nước
+
+1. Trình dự án luật, dự án pháp lệnh, dự thảo nghị quyết trước Quốc hội, Ủy ban thường vụ Quốc hội theo quy định của pháp luật.
+
+2. Yêu cầu đơn vị được kiểm toán và tổ chức, cá nhân có liên quan cung cấp đầy đủ, chính xác, kịp thời thông tin, tài liệu phục vụ cho việc kiểm toán.
+
+3. Yêu cầu đơn vị được kiểm toán thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước đối với sai phạm trong báo cáo tài chính và sai phạm trong việc chấp hành pháp luật; kiến nghị thực hiện biện pháp khắc phục yếu kém trong hoạt động của đơn vị do Kiểm toán nhà nước phát hiện.
+
+4. Kiến nghị cơ quan, người có thẩm quyền yêu cầu đơn vị được kiểm toán thực hiện đầy đủ, kịp thời các kết luận, kiến nghị kiểm toán về sai phạm trong báo cáo tài chính và sai phạm trong việc chấp hành pháp luật; đề nghị xử lý theo quy định của pháp luật những trường hợp không thực hiện hoặc thực hiện không đầy đủ, kịp thời kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước.
+
+5. Kiến nghị cơ quan, người có thẩm quyền xử lý những vi phạm pháp luật của cơ quan, tổ chức, cá nhân đã được làm rõ thông qua hoạt động kiểm toán.
+
+6. Đề nghị cơ quan, người có thẩm quyền xử lý theo quy định của pháp luật đối với cơ quan, tổ chức, cá nhân có hành vi cản trở hoạt động kiểm toán của Kiểm toán nhà nước hoặc cung cấp thông tin, tài liệu sai sự thật cho Kiểm toán nhà nước và Kiểm toán viên nhà nước.
+
+7. Trưng cầu giám định chuyên môn khi cần thiết.
+
+8. Được ủy thác hoặc thuê doanh nghiệp kiểm toán thực hiện kiểm toán cơ quan, tổ chức quản lý, sử dụng tài chính công, tài sản công; Kiểm toán nhà nước chịu trách nhiệm về tính trung thực của số liệu, tài liệu và kết luận, kiến nghị kiểm toán do doanh nghiệp kiểm toán thực hiện.
+
+9. Kiến nghị Quốc hội, Ủy ban thường vụ Quốc hội, Chính phủ, Thủ tướng Chính phủ và cơ quan khác của Nhà nước sửa đổi, bổ sung các cơ chế, chính sách và pháp luật.
+
+Mục 2. HỆ THỐNG TỔ CHỨC KIỂM TOÁN NHÀ NƯỚC
+
+Điều 12. Tổng Kiểm toán nhà nước
+
+1. Tổng Kiểm toán nhà nước là người đứng đầu Kiểm toán nhà nước, chịu trách nhiệm trước Quốc hội và Ủy ban thường vụ Quốc hội về tổ chức và hoạt động của Kiểm toán nhà nước.
+
+2. Tổng Kiểm toán nhà nước do Quốc hội bầu, miễn nhiệm và bãi nhiệm theo đề nghị của Ủy ban thường vụ Quốc hội.
+
+3. Nhiệm kỳ của Tổng Kiểm toán nhà nước là 05 năm theo nhiệm kỳ của Quốc hội. Tổng Kiểm toán nhà nước có thể được bầu lại nhưng không quá hai nhiệm kỳ liên tục.
+
+Điều 13. Trách nhiệm của Tổng Kiểm toán nhà nước
+
+1. Lãnh đạo và chỉ đạo Kiểm toán nhà nước thực hiện nhiệm vụ, quyền hạn quy định tại Điều 10 và Điều 11 của Luật này.
+
+2. Trình bày báo cáo tổng hợp kết quả kiểm toán năm, báo cáo công tác trước Quốc hội; trong thời gian Quốc hội không họp, báo cáo trước Ủy ban thường vụ Quốc hội; trả lời chất vấn của đại biểu Quốc hội trước Quốc hội hoặc Ủy ban thường vụ Quốc hội.
+
+3. Chịu trách nhiệm trước pháp luật về nội dung báo cáo kiểm toán của Kiểm toán nhà nước.
+
+4. Quyết định và tổ chức thực hiện các biện pháp cụ thể để tăng cường kỷ luật, kỷ cương trong hoạt động kiểm toán nhà nước; phòng, chống tham nhũng, thực hành tiết kiệm, chống lãng phí và mọi biểu hiện quan liêu, hách dịch, cửa quyền của công chức, viên chức thuộc Kiểm toán nhà nước.
+
+5. Quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của các đơn vị trực thuộc Kiểm toán nhà nước.
+
+6. Trình Ủy ban thường vụ Quốc hội quyết định biên chế và việc thành lập, sáp nhập, giải thể đơn vị trực thuộc Kiểm toán nhà nước.
+
+7. Thực hiện các biện pháp nhằm bảo đảm tính độc lập và chất lượng kiểm toán trong hoạt động kiểm toán của Kiểm toán nhà nước.
+
+8. Giải quyết khiếu nại, tố cáo liên quan đến hoạt động kiểm toán của Kiểm toán nhà nước.
+
+9. Thực hiện các nhiệm vụ khác theo quy định của pháp luật.
+
+Điều 14. Quyền hạn của Tổng Kiểm toán nhà nước
+
+1. Ban hành quyết định kiểm toán.
+
+2. Được mời tham dự phiên họp toàn thể của Quốc hội, phiên họp của Ủy ban thường vụ Quốc hội, phiên họp của Chính phủ về vấn đề có liên quan.
+
+3. Ban hành văn bản quy phạm pháp luật theo quy định của Luật ban hành văn bản quy phạm pháp luật.
+
+4. Kiến nghị Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, các cơ quan khác ở trung ương, Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, thủ trưởng cấp trên trực tiếp của đơn vị được kiểm toán xử lý theo thẩm quyền đối với cơ quan, tổ chức, cá nhân có hành vi cản trở hoạt động kiểm toán của Kiểm toán nhà nước; cung cấp thông tin, tài liệu sai sự thật cho Kiểm toán nhà nước; không thực hiện hoặc thực hiện không đầy đủ, kịp thời kết luận, kiến nghị của Kiểm toán nhà nước. Trường hợp kết luận, kiến nghị của Kiểm toán nhà nước không được giải quyết hoặc giải quyết không đầy đủ thì Tổng Kiểm toán nhà nước kiến nghị người có thẩm quyền xem xét, xử lý theo quy định của pháp luật.
+
+5. Quyết định việc kiểm toán theo đề nghị của cơ quan, tổ chức quy định tại khoản 3 Điều 10 của Luật này.
+
+6. Quyết định việc niêm phong tài liệu, kiểm tra tài khoản của đơn vị được kiểm toán hoặc cá nhân có liên quan.
+
+7. Đề nghị Ủy ban thường vụ Quốc hội bổ nhiệm, miễn nhiệm, cách chức đối với Phó Tổng Kiểm toán nhà nước.
+
+Điều 15. Phó Tổng Kiểm toán nhà nước
+
+1. Phó Tổng Kiểm toán nhà nước giúp Tổng Kiểm toán nhà nước thực hiện nhiệm vụ theo sự phân công của Tổng Kiểm toán nhà nước và chịu trách nhiệm trước Tổng Kiểm toán nhà nước về nhiệm vụ được phân công. Khi Tổng Kiểm toán nhà nước vắng mặt, một Phó Tổng Kiểm toán nhà nước được Tổng Kiểm toán nhà nước ủy nhiệm thay mặt Tổng Kiểm toán nhà nước lãnh đạo, chỉ đạo công tác của Kiểm toán nhà nước.
+
+2. Phó Tổng Kiểm toán nhà nước do Tổng Kiểm toán nhà nước đề nghị Ủy ban thường vụ Quốc hội bổ nhiệm, miễn nhiệm, cách chức.
+
+3. Thời hạn bổ nhiệm của Phó Tổng Kiểm toán nhà nước là 05 năm.
+
+Điều 16. Tổ chức của Kiểm toán nhà nước
+
+1. Kiểm toán nhà nước được tổ chức và quản lý tập trung thống nhất gồm Văn phòng Kiểm toán nhà nước, các đơn vị thuộc bộ máy điều hành, Kiểm toán nhà nước chuyên ngành, Kiểm toán nhà nước khu vực và đơn vị sự nghiệp công lập.
+
+Văn phòng Kiểm toán nhà nước, Kiểm toán nhà nước khu vực và đơn vị sự nghiệp công lập có tài khoản và con dấu riêng.
+
+2. Ủy ban thường vụ Quốc hội quyết định số lượng các đơn vị trực thuộc Kiểm toán nhà nước theo đề nghị của Tổng Kiểm toán nhà nước.
+
+Điều 17. Kiểm toán trưởng, Phó Kiểm toán trưởng
+
+1. Kiểm toán trưởng là người đứng đầu Kiểm toán nhà nước chuyên ngành hoặc Kiểm toán nhà nước khu vực.
+
+2. Phó Kiểm toán trưởng giúp việc Kiểm toán trưởng, thực hiện nhiệm vụ theo sự phân công của Kiểm toán trưởng và chịu trách nhiệm trước Kiểm toán trưởng về nhiệm vụ được phân công.
+
+3. Kiểm toán trưởng, Phó Kiểm toán trưởng phải là Kiểm toán viên chính trở lên.
+
+4. Tổng Kiểm toán nhà nước bổ nhiệm, miễn nhiệm, cách chức Kiểm toán trưởng và Phó Kiểm toán trưởng.
+
+5. Nhiệm vụ, quyền hạn và trách nhiệm của Kiểm toán trưởng, Phó Kiểm toán trưởng do Tổng Kiểm toán nhà nước quy định.
+
+Mục 3. HỘI ĐỒNG KIỂM TOÁN NHÀ NƯỚC
+
+Điều 18. Thành lập và giải thể Hội đồng Kiểm toán nhà nước
+
+1. Hội đồng Kiểm toán nhà nước được thành lập khi cần thiết để tư vấn cho Tổng Kiểm toán nhà nước thẩm định các báo cáo kiểm toán quan trọng; giúp Tổng Kiểm toán nhà nước thực hiện tái thẩm định các báo cáo kiểm toán theo kiến nghị của đơn vị được kiểm toán, giải quyết khiếu nại về báo cáo kiểm toán.
+
+2. Tổng Kiểm toán nhà nước quyết định thành lập Hội đồng Kiểm toán nhà nước, quyết định thành viên và quy chế làm việc của Hội đồng. Hội đồng Kiểm toán nhà nước do một Phó Tổng Kiểm toán nhà nước làm Chủ tịch. Căn cứ từng trường hợp cụ thể, Tổng Kiểm toán nhà nước được mời các chuyên gia không thuộc Kiểm toán nhà nước tham gia Hội đồng.
+
+3. Hội đồng Kiểm toán nhà nước tự giải thể khi kết thúc nhiệm vụ.
+
+Điều 19. Nguyên tắc làm việc của Hội đồng Kiểm toán nhà nước
+
+1. Làm việc theo chế độ tập thể.
+
+2. Quyết định theo đa số, ý kiến thiểu số được bảo lưu và báo cáo Tổng Kiểm toán nhà nước.
+
+3. Biên bản và các tài liệu của Hội đồng Kiểm toán nhà nước được bảo quản, lưu giữ trong hồ sơ kiểm toán của Kiểm toán nhà nước.
+
+Chương III
+
+KIỂM TOÁN VIÊN NHÀ NƯỚC VÀ CỘNG TÁC VIÊN KIỂM TOÁN NHÀ NƯỚC
+
+Điều 20. Các ngạch Kiểm toán viên nhà nước
+
+1. Kiểm toán viên nhà nước gồm các ngạch sau đây:
+
+a) Kiểm toán viên;
+
+b) Kiểm toán viên chính;
+
+c) Kiểm toán viên cao cấp.
+
+2. Tổng Kiểm toán nhà nước quyết định bổ nhiệm, miễn nhiệm các ngạch Kiểm toán viên nhà nước.
+
+Điều 21. Tiêu chuẩn chung của Kiểm toán viên nhà nước
+
+Kiểm toán viên nhà nước phải bảo đảm các tiêu chuẩn của công chức theo quy định của pháp luật về cán bộ, công chức và các tiêu chuẩn sau đây:
+
+1. Có phẩm chất đạo đức tốt, có ý thức trách nhiệm, liêm khiết, trung thực, khách quan;
+
+2. Có bằng tốt nghiệp đại học trở lên thuộc một trong các chuyên ngành kiểm toán, kế toán, tài chính, ngân hàng, kinh tế, luật hoặc chuyên ngành khác có liên quan trực tiếp đến hoạt động kiểm toán;
+
+3. Đã có thời gian làm việc liên tục từ 05 năm trở lên theo chuyên ngành được đào tạo hoặc có thời gian làm nghiệp vụ kiểm toán ở Kiểm toán nhà nước từ 03 năm trở lên, không kể thời gian tập sự;
+
+4. Có chứng chỉ Kiểm toán viên nhà nước.
+
+Điều 22. Trách nhiệm của Kiểm toán viên nhà nước
+
+1. Thực hiện nhiệm vụ kiểm toán và chịu trách nhiệm về việc thực hiện nhiệm vụ kiểm toán được phân công; đưa ra ý kiến đánh giá, xác nhận, kết luận và kiến nghị về những nội dung đã kiểm toán.
+
+2. Tuân thủ pháp luật, nguyên tắc hoạt động, chuẩn mực, quy trình, nghiệp vụ kiểm toán của Kiểm toán nhà nước và các quy định khác có liên quan của Tổng Kiểm toán nhà nước.
+
+3. Chịu trách nhiệm trước pháp luật về những bằng chứng, đánh giá, xác nhận, kết luận và kiến nghị kiểm toán.
+
+4. Thu thập bằng chứng kiểm toán, ghi nhận và lưu giữ tài liệu làm việc của Kiểm toán viên nhà nước theo quy định của Tổng Kiểm toán nhà nước.
+
+5. Giữ bí mật thông tin, tài liệu thu thập được trong quá trình kiểm toán.
+
+6. Xuất trình thẻ Kiểm toán viên nhà nước khi thực hiện nhiệm vụ kiểm toán.
+
+7. Thường xuyên học tập, rèn luyện để nâng cao kiến thức chuyên môn, kỹ năng và đạo đức nghề nghiệp; thực hiện chương trình cập nhật kiến thức hằng năm theo quy định của Tổng Kiểm toán nhà nước.
+
+8. Báo cáo kịp thời, đầy đủ với người ra quyết định thành lập Đoàn kiểm toán khi có trường hợp quy định tại Điều 28 của Luật này và các tình huống khác làm ảnh hưởng đến tính độc lập của Kiểm toán viên nhà nước.
+
+Điều 23. Tiêu chuẩn bổ nhiệm vào ngạch Kiểm toán viên
+
+1. Đáp ứng các tiêu chuẩn chung của Kiểm toán viên nhà nước quy định tại Điều 21 của Luật này.
+
+2. Nắm vững đường lối, chủ trương của Đảng, chính sách, pháp luật về kiểm toán nhà nước; có kiến thức về quản lý nhà nước, quản lý kinh tế - xã hội.
+
+3. Nắm được quy trình nghiệp vụ, chuẩn mực kiểm toán nhà nước.
+
+4. Đã đỗ kỳ thi ngạch Kiểm toán viên.
+
+Điều 24. Tiêu chuẩn bổ nhiệm vào ngạch Kiểm toán viên chính
+
+1. Nắm vững và áp dụng thành thạo quy định của pháp luật về kiểm toán nhà nước.
+
+2. Có năng lực đề xuất, tham mưu xây dựng chiến lược phát triển ngành, kế hoạch kiểm toán dài hạn, trung hạn và khả năng về tổng kết, nghiên cứu lý luận chuyên môn, nghiệp vụ kiểm toán; có khả năng xây dựng chuẩn mực kiểm toán nhà nước và kiến nghị sửa đổi, bổ sung các chuẩn mực kiểm toán nhà nước.
+
+3. Hiểu biết các thông lệ và chuẩn mực kiểm toán quốc tế.
+
+4. Có thâm niên tối thiểu ở ngạch Kiểm toán viên là 05 năm hoặc ở ngạch tương đương là 08 năm.
+
+5. Đã đỗ kỳ thi ngạch Kiểm toán viên chính.
+
+Điều 25. Tiêu chuẩn bổ nhiệm vào ngạch Kiểm toán viên cao cấp
+
+1. Nắm vững và có khả năng chỉ đạo áp dụng quy trình, chuẩn mực, phương pháp chuyên môn, nghiệp vụ ở các lĩnh vực kiểm toán vào hoạt động kiểm toán.
+
+2. Có năng lực chủ trì nghiên cứu đề tài khoa học cấp bộ, cấp nhà nước về lĩnh vực kiểm toán nhà nước.
+
+3. Có thâm niên tối thiểu ở ngạch Kiểm toán viên chính là 05 năm hoặc ở ngạch tương đương là 08 năm.
+
+4. Đã đỗ kỳ thi ngạch Kiểm toán viên cao cấp.
+
+Điều 26. Thẻ Kiểm toán viên nhà nước
+
+1. Thẻ Kiểm toán viên nhà nước do Tổng Kiểm toán nhà nước cấp cho Kiểm toán viên nhà nước để sử dụng khi thực hiện nhiệm vụ kiểm toán.
+
+2. Tổng Kiểm toán nhà nước quy định mẫu và chế độ quản lý, sử dụng thẻ Kiểm toán viên nhà nước.
+
+Điều 27. Miễn nhiệm Kiểm toán viên nhà nước
+
+1. Kiểm toán viên nhà nước được miễn nhiệm trong các trường hợp sau đây:
+
+a) Nghỉ hưu, thôi việc, chuyển ngành;
+
+b) Vì lý do sức khỏe, hoàn cảnh gia đình hoặc vì lý do khác mà xét thấy không thể hoàn thành nhiệm vụ được giao.
+
+2. Kiểm toán viên nhà nước bị miễn nhiệm trong các trường hợp sau đây:
+
+a) Bị kết tội bằng bản án của Tòa án đã có hiệu lực pháp luật;
+
+b) Vi phạm quy định tại khoản 1 Điều 8 của Luật này;
+
+c) Vi phạm phẩm chất đạo đức Kiểm toán viên nhà nước;
+
+d) Không hoàn thành nhiệm vụ ở ngạch bổ nhiệm;
+
+đ) Có bằng chứng phát hiện người đã được bổ nhiệm vào ngạch Kiểm toán viên nhà nước có gian lận trong thi cử, hồ sơ bổ nhiệm vào ngạch.
+
+Điều 28. Các trường hợp không được bố trí làm thành viên Đoàn kiểm toán
+
+1. Mua cổ phần, góp vốn hoặc có quan hệ về lợi ích kinh tế với đơn vị được kiểm toán.
+
+2. Đã từng giữ chức vụ quản lý, điều hành, thành viên ban kiểm soát, kế toán trưởng hoặc phụ trách kế toán tại đơn vị được kiểm toán của các năm tài chính được kiểm toán.
+
+3. Trong thời hạn ít nhất là 05 năm, kể từ khi thôi giữ chức vụ quản lý, điều hành, thành viên ban kiểm soát, kế toán trưởng hoặc phụ trách kế toán tại đơn vị được kiểm toán.
+
+4. Có quan hệ là bố đẻ, mẹ đẻ, bố nuôi, mẹ nuôi, bố chồng, mẹ chồng, bố vợ, mẹ vợ, vợ, chồng, con, anh ruột, chị ruột, em ruột với người đứng đầu, kế toán trưởng hoặc người phụ trách kế toán của đơn vị được kiểm toán.
+
+Điều 29. Cộng tác viên Kiểm toán nhà nước
+
+1. Kiểm toán nhà nước được sử dụng cộng tác viên là chuyên gia, nhà khoa học, nhà quản lý trong nước và ngoài nước dưới hình thức hợp đồng thực hiện nhiệm vụ. Kinh phí sử dụng cộng tác viên được bố trí trong kinh phí hoạt động hằng năm của Kiểm toán nhà nước.
+
+2. Cộng tác viên Kiểm toán nhà nước có quyền và nghĩa vụ sau đây:
+
+a) Thực hiện quyền, nghĩa vụ theo hợp đồng;
+
+b) Chấp hành quy định của pháp luật về kiểm toán nhà nước;
+
+c) Chịu trách nhiệm trước Kiểm toán nhà nước và trước pháp luật về kết quả thực hiện nhiệm vụ.
+
+3. Tổng Kiểm toán nhà nước quy định cụ thể việc sử dụng cộng tác viên Kiểm toán nhà nước.
+
+Chương IV
+
+HOẠT ĐỘNG KIỂM TOÁN NHÀ NƯỚC
+
+Mục 1. QUYẾT ĐỊNH KIỂM TOÁN
+
+Điều 30. Căn cứ để ban hành quyết định kiểm toán
+
+Tổng Kiểm toán nhà nước ban hành quyết định kiểm toán khi có một trong các căn cứ sau đây:
+
+1. Kế hoạch kiểm toán hằng năm của Kiểm toán nhà nước;
+
+2. Yêu cầu của Quốc hội, Ủy ban thường vụ Quốc hội, Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ;
+
+3. Đề nghị của cơ quan, tổ chức quy định tại khoản 3 Điều 10 của Luật này và được Tổng Kiểm toán nhà nước chấp nhận.
+
+Điều 31. Quyết định kiểm toán
+
+1. Quyết định kiểm toán bao gồm các nội dung chủ yếu sau đây:
+
+a) Căn cứ pháp lý để thực hiện cuộc kiểm toán;
+
+b) Đơn vị được kiểm toán;
+
+c) Mục tiêu, nội dung, phạm vi kiểm toán;
+
+d) Địa điểm kiểm toán, thời hạn kiểm toán;
+
+đ) Trưởng Đoàn kiểm toán và các thành viên của Đoàn kiểm toán.
+
+2. Quyết định kiểm toán phải được gửi cho đơn vị được kiểm toán và các thành viên Đoàn kiểm toán chậm nhất là 03 ngày làm việc và phải được công bố chậm nhất là 15 ngày, kể từ ngày ký, trừ trường hợp kiểm toán đột xuất.
+
+3. Trong quá trình thực hiện kiểm toán, nếu cần phải thay đổi nội dung, phạm vi, địa điểm, thời hạn kiểm toán và thành viên Đoàn kiểm toán thì Tổng Kiểm toán nhà nước phải quyết định bằng văn bản và gửi cho đơn vị được kiểm toán và các thành viên Đoàn kiểm toán theo thời hạn quy định tại khoản 2 Điều này.
+
+Điều 32. Nội dung kiểm toán
+
+1. Nội dung kiểm toán bao gồm:
+
+a) Kiểm toán tài chính là việc kiểm toán để đánh giá, xác nhận tính đúng đắn, trung thực của các thông tin tài chính và báo cáo tài chính của đơn vị được kiểm toán;
+
+b) Kiểm toán tuân thủ là việc kiểm toán để đánh giá và xác nhận việc tuân thủ pháp luật, nội quy, quy chế mà đơn vị được kiểm toán phải thực hiện;
+
+c) Kiểm toán hoạt động là việc kiểm toán để đánh giá tính kinh tế, hiệu lực và hiệu quả trong quản lý và sử dụng tài chính công, tài sản công.
+
+2. Căn cứ vào yêu cầu của từng cuộc kiểm toán, Tổng Kiểm toán nhà nước quyết định nội dung kiểm toán của từng cuộc kiểm toán.
+
+Điều 33. Kiểm toán báo cáo quyết toán ngân sách nhà nước
+
+1. Việc kiểm toán báo cáo quyết toán ngân sách nhà nước các cấp thực hiện trước khi Quốc hội, Hội đồng nhân dân phê chuẩn quyết toán ngân sách. Việc kiểm toán báo cáo quyết toán ngân sách nhà nước các cấp của địa phương sau khi Hội đồng nhân dân phê chuẩn quyết toán ngân sách thực hiện theo quyết định của Tổng Kiểm toán nhà nước.
+
+2. Trường hợp đã thực hiện kiểm toán nhưng báo cáo quyết toán ngân sách chưa được Quốc hội, Hội đồng nhân dân phê chuẩn thì trong phạm vi nhiệm vụ, quyền hạn của mình, Kiểm toán nhà nước phải tiếp tục làm rõ những vấn đề Quốc hội, Hội đồng nhân dân yêu cầu để trình Quốc hội, Hội đồng nhân dân vào thời gian do Quốc hội, Hội đồng nhân dân quyết định.
+
+Mục 2. THỜI HẠN KIỂM TOÁN, ĐỊA ĐIỂM KIỂM TOÁN
+
+Điều 34. Thời hạn kiểm toán
+
+1. Thời hạn của cuộc kiểm toán được tính từ ngày công bố quyết định kiểm toán đến khi kết thúc việc kiểm toán tại đơn vị được kiểm toán.
+
+2. Thời hạn của một cuộc kiểm toán không quá 60 ngày, trừ trường hợp quy định tại khoản 3 Điều này. Trường hợp phức tạp, cần thiết kéo dài thời hạn kiểm toán thì Tổng Kiểm toán nhà nước quyết định gia hạn một lần, thời gian gia hạn không quá 30 ngày.
+
+3. Đối với cuộc kiểm toán để đánh giá tính kinh tế, hiệu lực và hiệu quả trong quản lý và sử dụng tài chính công, tài sản công có quy mô toàn quốc, Tổng Kiểm toán nhà nước quyết định cụ thể về thời hạn kiểm toán.
+
+Điều 35. Địa điểm kiểm toán
+
+1. Việc kiểm toán được thực hiện tại đơn vị được kiểm toán, trụ sở Kiểm toán nhà nước hoặc tại địa điểm khác do Tổng Kiểm toán nhà nước quyết định.
+
+2. Trường hợp việc kiểm toán được thực hiện ngoài trụ sở đơn vị được kiểm toán thì đơn vị được kiểm toán có trách nhiệm chuyển hồ sơ, tài liệu theo quy định của Tổng Kiểm toán nhà nước.
+
+Mục 3. ĐOÀN KIỂM TOÁN
+
+Điều 36. Thành lập và giải thể Đoàn kiểm toán
+
+1. Đoàn kiểm toán được thành lập để thực hiện nhiệm vụ kiểm toán của Kiểm toán nhà nước. Tổng Kiểm toán nhà nước quyết định thành lập Đoàn kiểm toán theo đề nghị của Kiểm toán trưởng Kiểm toán nhà nước chuyên ngành hoặc Kiểm toán trưởng Kiểm toán nhà nước khu vực. Căn cứ vào quy mô cuộc kiểm toán, Đoàn kiểm toán có thể có Tổ kiểm toán.
+
+2. Đoàn kiểm toán tự giải thể sau khi hoàn thành nhiệm vụ kiểm toán nhưng phải chịu trách nhiệm về những đánh giá, xác nhận, kết luận và kiến nghị trong báo cáo kiểm toán.
+
+Điều 37. Thành phần Đoàn kiểm toán
+
+1. Trưởng Đoàn kiểm toán.
+
+2. Các Phó trưởng Đoàn kiểm toán.
+
+3. Các Tổ trưởng Tổ kiểm toán, nếu Đoàn kiểm toán có Tổ kiểm toán.
+
+4. Các thành viên.
+
+Điều 38. Tiêu chuẩn Trưởng Đoàn kiểm toán, Phó trưởng Đoàn kiểm toán và Tổ trưởng Tổ kiểm toán
+
+1. Tiêu chuẩn của Trưởng Đoàn kiểm toán, Phó trưởng Đoàn kiểm toán:
+
+a) Có đủ trình độ chuyên môn, năng lực lãnh đạo và kinh nghiệm công tác phù hợp với nhiệm vụ được giao;
+
+b) Là Kiểm toán viên chính giữ chức vụ từ Phó trưởng phòng trở lên hoặc Kiểm toán viên giữ chức vụ từ Trưởng phòng trở lên.
+
+2. Tiêu chuẩn của Tổ trưởng Tổ kiểm toán:
+
+a) Có đủ trình độ chuyên môn, năng lực lãnh đạo và kinh nghiệm công tác phù hợp với nhiệm vụ được giao;
+
+b) Là Kiểm toán viên chính hoặc Kiểm toán viên giữ chức vụ từ Phó trưởng phòng trở lên.
+
+Điều 39. Nhiệm vụ, quyền hạn và trách nhiệm của Trưởng Đoàn kiểm toán
+
+1. Trưởng Đoàn kiểm toán có nhiệm vụ sau đây:
+
+a) Tổ chức thực hiện nhiệm vụ kiểm toán theo quyết định kiểm toán;
+
+b) Duyệt biên bản kiểm toán của các Tổ kiểm toán; lập báo cáo kiểm toán; báo cáo, giải trình kết quả kiểm toán trước Kiểm toán trưởng và cùng Kiểm toán trưởng báo cáo, giải trình kết quả đó trước Tổng Kiểm toán nhà nước; tổ chức thông báo kết quả kiểm toán đã được Tổng Kiểm toán nhà nước thông qua với đơn vị được kiểm toán; ký vào báo cáo kiểm toán;
+
+c) Quản lý thành viên Đoàn kiểm toán theo quy định của Tổng Kiểm toán nhà nước;
+
+d) Báo cáo định kỳ hoặc đột xuất theo yêu cầu của Kiểm toán trưởng về tiến độ thực hiện kế hoạch kiểm toán, tình hình và kết quả hoạt động kiểm toán.
+
+2. Trưởng Đoàn kiểm toán có quyền hạn sau đây:
+
+a) Yêu cầu đơn vị được kiểm toán cung cấp thông tin, tài liệu cần thiết và giải trình các vấn đề có liên quan đến nội dung kiểm toán; yêu cầu kiểm kê tài sản, đối chiếu công nợ của đơn vị được kiểm toán liên quan đến nội dung kiểm toán;
+
+b) Đề nghị tổ chức, cá nhân có liên quan cung cấp thông tin, tài liệu liên quan đến nội dung kiểm toán để thu thập bằng chứng kiểm toán;
+
+c) Đề nghị Kiểm toán trưởng kiến nghị Tổng Kiểm toán nhà nước quyết định kiểm tra tài khoản của đơn vị được kiểm toán hoặc cá nhân có liên quan tại tổ chức tín dụng hoặc Kho bạc nhà nước theo quy định của pháp luật; niêm phong tài liệu của đơn vị được kiểm toán khi có hành vi vi phạm pháp luật hoặc có hành vi sửa đổi, chuyển dời, cất giấu, tiêu hủy tài liệu có liên quan đến nội dung kiểm toán;
+
+d) Yêu cầu Phó trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán và các thành viên Đoàn kiểm toán báo cáo kết quả kiểm toán; khi có ý kiến khác nhau trong Đoàn kiểm toán về kết quả kiểm toán thì Trưởng Đoàn kiểm toán được quyền quyết định và chịu trách nhiệm về quyết định của mình, đồng thời báo cáo ý kiến khác nhau đó với Kiểm toán trưởng;
+
+đ) Bảo lưu bằng văn bản ý kiến của mình khác với đánh giá, xác nhận, kết luận và kiến nghị trong báo cáo kiểm toán;
+
+e) Báo cáo Kiểm toán trưởng đề nghị Tổng Kiểm toán nhà nước kiến nghị cơ quan có thẩm quyền xử lý đối với hành vi vi phạm pháp luật của đơn vị được kiểm toán;
+
+g) Tạm đình chỉ thực hiện nhiệm vụ của thành viên Đoàn kiểm toán từ Tổ trưởng Tổ kiểm toán trở xuống khi có dấu hiệu vi phạm quy định tại khoản 1 Điều 8 của Luật này.
+
+3. Trưởng Đoàn kiểm toán có trách nhiệm sau đây:
+
+a) Chịu trách nhiệm trước Kiểm toán trưởng về hoạt động của Đoàn kiểm toán;
+
+b) Chịu trách nhiệm trước pháp luật về tính đúng đắn, trung thực, khách quan của những đánh giá, xác nhận, kết luận và kiến nghị trong báo cáo kiểm toán;
+
+c) Chịu trách nhiệm liên đới về hành vi vi phạm pháp luật trong hoạt động kiểm toán của thành viên Đoàn kiểm toán; chịu trách nhiệm về quyết định, tạm đình chỉ việc thực hiện nhiệm vụ đối với thành viên trong Đoàn kiểm toán từ Tổ trưởng Tổ kiểm toán trở xuống.
+
+Điều 40. Nhiệm vụ, quyền hạn và trách nhiệm của Phó trưởng Đoàn kiểm toán
+
+Phó trưởng Đoàn kiểm toán giúp Trưởng Đoàn kiểm toán thực hiện nhiệm vụ theo sự phân công của Trưởng Đoàn kiểm toán và chịu trách nhiệm trước Trưởng Đoàn kiểm toán về nhiệm vụ được phân công.
+
+Điều 41. Nhiệm vụ, quyền hạn và trách nhiệm của Tổ trưởng Tổ kiểm toán
+
+1. Tổ trưởng Tổ kiểm toán có nhiệm vụ sau đây:
+
+a) Tổ chức thực hiện kiểm toán theo kế hoạch kiểm toán đã được phê duyệt;
+
+b) Tổng hợp kết quả kiểm toán, lập và ký biên bản kiểm toán của Tổ kiểm toán;
+
+c) Quản lý thành viên Tổ kiểm toán theo quy định của Tổng Kiểm toán nhà nước.
+
+2. Tổ trưởng Tổ kiểm toán có quyền hạn sau đây:
+
+a) Yêu cầu đơn vị được kiểm toán cung cấp đầy đủ, kịp thời thông tin, tài liệu cần thiết và giải trình các vấn đề có liên quan đến nội dung kiểm toán;
+
+b) Yêu cầu tổ chức, cá nhân có liên quan cung cấp thông tin, tài liệu liên quan đến nội dung kiểm toán;
+
+c) Báo cáo và kiến nghị biện pháp xử lý thành viên Tổ kiểm toán có sai phạm để Trưởng Đoàn kiểm toán xem xét, xử lý theo thẩm quyền hoặc kiến nghị cơ quan, người có thẩm quyền xử lý theo quy định của pháp luật;
+
+d) Đề nghị Trưởng Đoàn kiểm toán làm rõ lý do thay đổi đánh giá, xác nhận, kết luận và kiến nghị trong biên bản kiểm toán, báo cáo kiểm toán;
+
+đ) Bảo lưu bằng văn bản ý kiến của mình khác với đánh giá, xác nhận, kết luận và kiến nghị trong biên bản kiểm toán, báo cáo kiểm toán;
+
+e) Đề nghị Trưởng Đoàn kiểm toán tạm đình chỉ nhiệm vụ thành viên Tổ kiểm toán khi có dấu hiệu vi phạm quy định tại khoản 1 Điều 8 của Luật này.
+
+3. Tổ trưởng Tổ kiểm toán có trách nhiệm sau đây:
+
+a) Chịu trách nhiệm trước Trưởng Đoàn kiểm toán về hoạt động của Tổ kiểm toán;
+
+b) Chịu trách nhiệm trước pháp luật về tính đúng đắn, trung thực, khách quan của đánh giá, xác nhận, kết luận và kiến nghị trong biên bản kiểm toán của Tổ kiểm toán;
+
+c) Giải trình các vấn đề có liên quan đến công tác của Tổ kiểm toán theo yêu cầu của Trưởng Đoàn kiểm toán hoặc cơ quan, tổ chức, cá nhân có thẩm quyền;
+
+d) Chịu trách nhiệm liên đới về hành vi vi phạm pháp luật trong hoạt động kiểm toán của thành viên Tổ kiểm toán.
+
+Điều 42. Nhiệm vụ, quyền hạn của thành viên Đoàn kiểm toán là Kiểm toán viên nhà nước
+
+1. Thành viên Đoàn kiểm toán là Kiểm toán viên nhà nước có nhiệm vụ sau đây:
+
+a) Chấp hành sự phân công và báo cáo kết quả thực hiện nhiệm vụ kiểm toán với Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán;
+
+b) Khi tiến hành kiểm toán phải tuân theo pháp luật; tuân thủ nguyên tắc, chuẩn mực, quy trình kiểm toán và các quy định của Tổng Kiểm toán nhà nước;
+
+c) Thu thập và đánh giá bằng chứng kiểm toán; ghi nhật ký kiểm toán và tài liệu làm việc của Kiểm toán viên nhà nước; lưu giữ, bảo quản hồ sơ kiểm toán theo quy định của pháp luật;
+
+d) Chấp hành ý kiến chỉ đạo và kết luận của Tổ trưởng Tổ kiểm toán, Trưởng Đoàn kiểm toán;
+
+đ) Chấp hành kỷ luật công tác của Tổ kiểm toán, Đoàn kiểm toán theo quy định của Tổng Kiểm toán nhà nước.
+
+2. Thành viên Đoàn kiểm toán là Kiểm toán viên nhà nước có quyền hạn sau đây:
+
+a) Khi thực hiện kiểm toán, Kiểm toán viên nhà nước có quyền độc lập và chỉ tuân theo pháp luật;
+
+b) Yêu cầu đơn vị được kiểm toán và tổ chức, cá nhân có liên quan cung cấp đầy đủ, kịp thời thông tin, tài liệu có liên quan đến nội dung kiểm toán;
+
+c) Sử dụng thông tin, tài liệu của cộng tác viên Kiểm toán nhà nước; xem xét tài liệu liên quan đến hoạt động của đơn vị được kiểm toán; thu thập, bảo vệ tài liệu và bằng chứng khác; xem xét quy trình hoạt động của đơn vị được kiểm toán;
+
+d) Bảo lưu ý kiến bằng văn bản về kết quả kiểm toán trong phạm vi được phân công và báo cáo Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán; trường hợp không thống nhất thì báo cáo Kiểm toán trưởng; trường hợp Kiểm toán trưởng không thống nhất thì báo cáo Tổng Kiểm toán nhà nước;
+
+đ) Đề nghị Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán làm rõ lý do thay đổi những đánh giá, xác nhận, kết luận và kiến nghị của mình trong biên bản kiểm toán, báo cáo kiểm toán;
+
+e) Đề nghị Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán yêu cầu đơn vị được kiểm toán giải trình về những vấn đề liên quan đến việc kiểm toán; đề nghị mời chuyên gia, cộng tác viên Kiểm toán nhà nước khi cần thiết;
+
+g) Được bảo đảm điều kiện và phương tiện cần thiết để tiến hành kiểm toán.
+
+Điều 43. Nhiệm vụ và trách nhiệm của thành viên Đoàn kiểm toán không phải Kiểm toán viên nhà nước
+
+1. Thành viên Đoàn kiểm toán không phải Kiểm toán viên nhà nước gồm:
+
+a) Công chức, viên chức của Kiểm toán nhà nước;
+
+b) Cộng tác viên Kiểm toán nhà nước.
+
+2. Thành viên Đoàn kiểm toán không phải Kiểm toán viên nhà nước có nhiệm vụ và trách nhiệm sau đây:
+
+a) Thực hiện nhiệm vụ theo sự phân công của Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán;
+
+b) Tuân thủ pháp luật, chuẩn mực, quy trình và phương pháp chuyên môn, nghiệp vụ kiểm toán của Kiểm toán nhà nước;
+
+c) Chịu trách nhiệm trước Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán về nhiệm vụ được giao.
+
+Mục 4. QUY TRÌNH KIỂM TOÁN
+
+Điều 44. Các bước của quy trình kiểm toán
+
+1. Chuẩn bị kiểm toán.
+
+2. Thực hiện kiểm toán.
+
+3. Lập và gửi báo cáo kiểm toán.
+
+4. Theo dõi, kiểm tra việc thực hiện kết luận, kiến nghị kiểm toán.
+
+Điều 45. Chuẩn bị kiểm toán
+
+1. Khảo sát, thu thập thông tin về hệ thống kiểm soát nội bộ, tình hình tài chính và các thông tin có liên quan về đơn vị được kiểm toán.
+
+2. Đánh giá hệ thống kiểm soát nội bộ và thông tin đã thu thập về đơn vị được kiểm toán để xác định mục tiêu, nội dung, phạm vi kiểm toán và phương pháp kiểm toán thích hợp.
+
+3. Lập kế hoạch kiểm toán.
+
+Điều 46. Thực hiện kiểm toán
+
+1. Đoàn kiểm toán phải thực hiện kiểm toán đúng quyết định kiểm toán.
+
+2. Thành viên Đoàn kiểm toán áp dụng phương pháp chuyên môn, nghiệp vụ kiểm toán để thu thập và đánh giá bằng chứng kiểm toán; kiểm tra, đối chiếu, xác nhận; điều tra đối với tổ chức, cá nhân có liên quan đến hoạt động kiểm toán làm cơ sở cho ý kiến đánh giá, xác nhận, kết luận và kiến nghị kiểm toán về nội dung đã kiểm toán.
+
+Điều 47. Lập và gửi báo cáo kiểm toán
+
+1. Chậm nhất là 30 ngày, kể từ ngày kết thúc kiểm toán tại đơn vị được kiểm toán, Kiểm toán nhà nước có trách nhiệm hoàn thiện dự thảo báo cáo kiểm toán và gửi lấy ý kiến của đơn vị được kiểm toán.
+
+2. Trong thời hạn 10 ngày, kể từ ngày nhận được dự thảo báo cáo kiểm toán, đơn vị được kiểm toán phải có ý kiến bằng văn bản gửi Kiểm toán nhà nước; quá thời hạn trên, đơn vị được kiểm toán không có ý kiến thì được coi là đã nhất trí với dự thảo báo cáo kiểm toán.
+
+3. Báo cáo kiểm toán được Kiểm toán nhà nước gửi cho đơn vị được kiểm toán và cơ quan có liên quan theo quy định của Tổng Kiểm toán nhà nước chậm nhất là 45 ngày, kể từ ngày kết thúc kiểm toán tại đơn vị được kiểm toán; trường hợp đặc biệt thì có thể kéo dài, nhưng không quá 60 ngày, kể từ ngày kết thúc kiểm toán tại đơn vị được kiểm toán.
+
+4. Báo cáo kiểm toán quyết toán ngân sách địa phương được gửi cho Đoàn đại biểu Quốc hội, Hội đồng nhân dân, Ủy ban nhân dân cùng cấp; đối với báo cáo kiểm toán quyết toán ngân sách tỉnh, thành phố trực thuộc trung ương còn được gửi cho Bộ Tài chính.
+
+Điều 48. Lập và gửi báo cáo kiểm toán quyết toán ngân sách nhà nước và báo cáo tổng hợp kết quả kiểm toán năm của Kiểm toán nhà nước
+
+1. Báo cáo kiểm toán quyết toán ngân sách nhà nước được lập theo quy định tại các khoản 1, 2 và 3 Điều 47 của Luật này.
+
+2. Báo cáo tổng hợp kết quả kiểm toán năm của Kiểm toán nhà nước được lập trên cơ sở báo cáo kiểm toán quyết toán ngân sách nhà nước và tổng hợp kết quả kiểm toán trong năm của Kiểm toán nhà nước.
+
+3. Kiểm toán nhà nước có trách nhiệm gửi báo cáo kiểm toán quyết toán ngân sách nhà nước, báo cáo tổng hợp kết quả kiểm toán năm đến Quốc hội, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc và các Ủy ban của Quốc hội chậm nhất là 16 tháng sau khi năm ngân sách kết thúc, đồng thời gửi Chủ tịch nước, Chính phủ và Thủ tướng Chính phủ.
+
+Điều 49. Kiểm tra việc thực hiện kết luận và kiến nghị kiểm toán
+
+1. Kiểm toán nhà nước phải lập kế hoạch và tổ chức kiểm tra đơn vị được kiểm toán trong việc thực hiện đầy đủ, kịp thời kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước.
+
+2. Việc kiểm tra việc thực hiện kết luận, kiến nghị kiểm toán được thực hiện theo các hình thức sau đây:
+
+a) Yêu cầu đơn vị được kiểm toán báo cáo bằng văn bản kết quả thực hiện kết luận, kiến nghị kiểm toán;
+
+b) Tổ chức kiểm tra việc thực hiện kết luận, kiến nghị kiểm toán tại đơn vị được kiểm toán và cơ quan, tổ chức, đơn vị có liên quan.
+
+3. Kiểm toán nhà nước có trách nhiệm lập và gửi báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán. Việc gửi báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước được thực hiện theo quy định tại khoản 3 Điều 48 của Luật này.
+
+Mục 5. CÔNG KHAI KẾT QUẢ KIỂM TOÁN VÀ KẾT QUẢ THỰC HIỆN KẾT LUẬN, KIẾN NGHỊ KIỂM TOÁN
+
+Điều 50. Công khai báo cáo kiểm toán
+
+1. Báo cáo kiểm toán sau khi phát hành được công bố công khai, trừ những nội dung thuộc bí mật nhà nước theo quy định của pháp luật.
+
+2. Tổng Kiểm toán nhà nước tổ chức công khai báo cáo kiểm toán theo một hoặc một số hình thức sau đây:
+
+a) Họp báo;
+
+b) Công bố trên Công báo và phương tiện thông tin đại chúng;
+
+c) Đăng tải trên trang thông tin điện tử và các ấn phẩm của Kiểm toán nhà nước;
+
+d) Niêm yết tại trụ sở của đơn vị được kiểm toán.
+
+Điều 51. Công khai báo cáo tổng hợp kết quả kiểm toán năm và báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán
+
+1. Báo cáo tổng hợp kết quả kiểm toán năm và báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước sau khi báo cáo Quốc hội được công bố công khai theo quy định của pháp luật.
+
+2. Hình thức công khai thực hiện theo quy định tại các điểm a, b và c khoản 2 Điều 50 của Luật này.
+
+Mục 6: HỒ SƠ KIỂM TOÁN
+
+Điều 52. Hồ sơ kiểm toán
+
+1. Tài liệu của mỗi cuộc kiểm toán phải được lập thành hồ sơ.
+
+2. Tổng Kiểm toán nhà nước quy định cụ thể về hồ sơ kiểm toán.
+
+3. Hồ sơ kiểm toán phải đưa vào lưu trữ trong thời hạn 12 tháng, kể từ ngày phát hành báo cáo kiểm toán.
+
+4. Thời hạn lưu trữ hồ sơ kiểm toán tối thiểu là 10 năm, trừ trường hợp có quyết định của cơ quan nhà nước có thẩm quyền.
+
+Điều 53. Bảo quản và khai thác hồ sơ kiểm toán
+
+1. Hồ sơ kiểm toán phải được bảo quản đầy đủ, an toàn và bảo mật.
+
+2. Chỉ được khai thác hồ sơ kiểm toán trong các trường hợp sau đây:
+
+a) Khi có đề nghị của Tòa án nhân dân, Viện kiểm sát nhân dân, cơ quan điều tra và cơ quan có liên quan theo quy định của pháp luật;
+
+b) Khi có yêu cầu giám định, kiểm tra chất lượng kiểm toán; giải quyết kiến nghị về báo cáo kiểm toán, khiếu nại, tố cáo; lập kế hoạch kiểm toán kỳ sau và các yêu cầu khác theo quyết định của Tổng Kiểm toán nhà nước.
+
+Điều 54. Hủy hồ sơ kiểm toán
+
+1. Hồ sơ kiểm toán đã hết thời hạn lưu trữ, nếu không có quyết định của cơ quan nhà nước có thẩm quyền thì được hủy theo quyết định của Tổng Kiểm toán nhà nước.
+
+2. Tổng Kiểm toán nhà nước quyết định thành lập Hội đồng để hủy hồ sơ kiểm toán hết thời hạn lưu trữ. Hội đồng hủy hồ sơ kiểm toán phải tiến hành kiểm kê, lập danh mục hồ sơ kiểm toán tiêu hủy và biên bản hủy hồ sơ kiểm toán hết thời hạn lưu trữ.
+
+3. Việc hủy hồ sơ kiểm toán được thực hiện theo quy định của pháp luật.
+
+Chương V
+
+QUYỀN VÀ NGHĨA VỤ CỦA ĐƠN VỊ ĐƯỢC KIỂM TOÁN
+
+Điều 55. Đơn vị được kiểm toán
+
+1. Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ và cơ quan khác của Nhà nước ở trung ương.
+
+2. Cơ quan được giao nhiệm vụ thu, chi ngân sách nhà nước các cấp.
+
+3. Hội đồng nhân dân, Ủy ban nhân dân các cấp, cơ quan khác của Nhà nước ở địa phương.
+
+4. Đơn vị thuộc lực lượng vũ trang nhân dân.
+
+5. Đơn vị quản lý, sử dụng dự trữ quốc gia; quỹ tài chính nhà nước ngoài ngân sách.
+
+6. Tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp có sử dụng kinh phí, ngân quỹ nhà nước.
+
+7. Đơn vị sự nghiệp công lập.
+
+8. Tổ chức quản lý tài sản quốc gia.
+
+9. Ban quản lý dự án đầu tư có nguồn kinh phí ngân sách nhà nước hoặc có nguồn gốc từ ngân sách nhà nước.
+
+10. Doanh nghiệp do Nhà nước nắm giữ trên 50% vốn điều lệ. Đối với doanh nghiệp do Nhà nước nắm giữ từ 50% vốn điều lệ trở xuống, khi cần thiết, Tổng Kiểm toán nhà nước quyết định lựa chọn mục tiêu, tiêu chí, nội dung và phương pháp kiểm toán phù hợp.
+
+11. Đơn vị nhận trợ giá, trợ cấp của Nhà nước, đơn vị có công nợ được Nhà nước bảo lãnh mà không phải là doanh nghiệp có quản lý, sử dụng vốn, tài sản nhà nước. Các đơn vị này có thể thuê doanh nghiệp kiểm toán thực hiện kiểm toán; doanh nghiệp kiểm toán phải thực hiện việc kiểm toán theo chuẩn mực, quy trình kiểm toán nhà nước và gửi báo cáo kiểm toán cho Kiểm toán nhà nước.
+
+12. Cơ quan được giao quản lý, sử dụng nợ công.
+
+Điều 56. Quyền của đơn vị được kiểm toán
+
+1. Yêu cầu Đoàn kiểm toán xuất trình quyết định kiểm toán, Kiểm toán viên nhà nước xuất trình thẻ Kiểm toán viên nhà nước.
+
+2. Từ chối cung cấp thông tin, tài liệu không liên quan đến nội dung kiểm toán; đề nghị thay thế thành viên Đoàn kiểm toán khi có bằng chứng cho rằng thành viên đó không trung thực, khách quan trong khi làm nhiệm vụ hoặc thuộc trường hợp không được bố trí làm thành viên Đoàn kiểm toán theo quy định tại Điều 28 của Luật này.
+
+3. Giải trình bằng văn bản về những vấn đề được nêu trong dự thảo báo cáo kiểm toán nếu xét thấy chưa phù hợp.
+
+4. Khiếu nại về hành vi của thành viên Đoàn kiểm toán trong quá trình thực hiện kiểm toán khi có căn cứ cho rằng hành vi đó là trái pháp luật.
+
+5. Khiếu nại về đánh giá, xác nhận, kết luận và kiến nghị kiểm toán trong báo cáo kiểm toán khi có căn cứ cho rằng đánh giá, xác nhận, kết luận và kiến nghị đó là trái pháp luật.
+
+6. Yêu cầu Kiểm toán nhà nước bồi thường thiệt hại trong trường hợp gây thiệt hại cho đơn vị được kiểm toán theo quy định của pháp luật.
+
+7. Thực hiện các quyền khác theo quy định của pháp luật.
+
+Điều 57. Nghĩa vụ của đơn vị được kiểm toán
+
+1. Chấp hành quyết định kiểm toán.
+
+2. Lập và gửi đầy đủ, kịp thời báo cáo tài chính, báo cáo tình hình thực hiện, quyết toán vốn, quản lý dự án đầu tư; kế hoạch thu, chi; báo cáo tình hình chấp hành và quyết toán ngân sách cho Kiểm toán nhà nước theo yêu cầu.
+
+3. Cung cấp đầy đủ, kịp thời các thông tin, tài liệu cần thiết để thực hiện việc kiểm toán theo yêu cầu của Kiểm toán nhà nước, Kiểm toán viên nhà nước và phải chịu trách nhiệm trước pháp luật về tính chính xác, trung thực, khách quan của thông tin, tài liệu đã cung cấp.
+
+4. Trả lời và giải trình đầy đủ, kịp thời các vấn đề do Đoàn kiểm toán, Kiểm toán viên nhà nước yêu cầu liên quan đến nội dung kiểm toán.
+
+5. Ký biên bản kiểm toán.
+
+6. Thực hiện đầy đủ, kịp thời kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước về quản lý, sử dụng tài chính công, tài sản công; thực hiện biện pháp để khắc phục yếu kém trong hoạt động của mình theo kết luận, kiến nghị của Kiểm toán nhà nước; báo cáo bằng văn bản về việc thực hiện kết luận, kiến nghị đó cho Kiểm toán nhà nước.
+
+7. Trong thời gian giải quyết khiếu nại, đơn vị được kiểm toán vẫn phải thực hiện đầy đủ, kịp thời kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước, trừ trường hợp Tổng Kiểm toán nhà nước, cơ quan nhà nước có thẩm quyền quyết định tạm đình chỉ thực hiện các kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước.
+
+Điều 58. Trách nhiệm gửi báo cáo tài chính, báo cáo quyết toán ngân sách, dự toán kinh phí của các đơn vị được kiểm toán
+
+1. Kết thúc năm ngân sách, các đơn vị dự toán cấp I của ngân sách trung ương, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và các đơn vị được kiểm toán có trách nhiệm gửi báo cáo tài chính, báo cáo quyết toán ngân sách, dự toán kinh phí năm sau cho Kiểm toán nhà nước.
+
+2. Bộ Tài chính, Sở Tài chính tỉnh, thành phố trực thuộc trung ương gửi báo cáo thực hiện dự toán thu, chi ngân sách năm cho Kiểm toán nhà nước.
+
+3. Tổng Kiểm toán nhà nước quy định cụ thể về thời gian, nơi nhận báo cáo theo quy định của pháp luật.
+
+Chương VI
+
+BẢO ĐẢM HOẠT ĐỘNG CỦA KIỂM TOÁN NHÀ NƯỚC
+
+Điều 59. Kinh phí hoạt động và cơ sở vật chất của Kiểm toán nhà nước
+
+1. Nhà nước bảo đảm kinh phí hoạt động, cơ sở vật chất cho Kiểm toán nhà nước theo quy định của pháp luật. Kinh phí hoạt động của Kiểm toán nhà nước do Kiểm toán nhà nước lập dự toán và gửi Chính phủ tổng hợp, trình Quốc hội quyết định.
+
+2. Việc quản lý, cấp và sử dụng kinh phí hoạt động của Kiểm toán nhà nước được thực hiện theo quy định của pháp luật về ngân sách nhà nước.
+
+Điều 60. Biên chế của Kiểm toán nhà nước
+
+Biên chế của Kiểm toán nhà nước do Ủy ban thường vụ Quốc hội quyết định theo đề nghị của Tổng Kiểm toán nhà nước.
+
+Điều 61. Đầu tư hiện đại hóa hoạt động của Kiểm toán nhà nước
+
+Nhà nước có chính sách đầu tư phát triển cơ sở vật chất, công nghệ thông tin và các phương tiện khác để bảo đảm cho tổ chức và hoạt động của Kiểm toán nhà nước, đáp ứng yêu cầu hội nhập quốc tế.
+
+Điều 62. Chế độ đối với cán bộ, công chức của Kiểm toán nhà nước
+
+Chế độ tiền lương, phụ cấp, trang phục và chế độ ưu tiên đối với cán bộ, công chức của Kiểm toán nhà nước do Ủy ban thường vụ Quốc hội quy định.
+
+Chương VII
+
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN ĐỐI VỚI HOẠT ĐỘNG KIỂM TOÁN NHÀ NƯỚC
+
+Điều 63. Quốc hội với Kiểm toán nhà nước
+
+1. Quốc hội, Ủy ban thường vụ Quốc hội, Hội đồng dân tộc, các Ủy ban của Quốc hội, Đoàn đại biểu Quốc hội, đại biểu Quốc hội theo chức năng, nhiệm vụ, quyền hạn của mình giám sát hoạt động của Kiểm toán nhà nước theo quy định của pháp luật.
+
+2. Tổng Kiểm toán nhà nước báo cáo kết quả kiểm toán, báo cáo công tác của Kiểm toán nhà nước trước Quốc hội, Ủy ban thường vụ Quốc hội; báo cáo, giải trình, cung cấp tài liệu, nghiên cứu và trả lời các kiến nghị theo yêu cầu của Hội đồng dân tộc, các Ủy ban của Quốc hội, Đoàn đại biểu Quốc hội, đại biểu Quốc hội; trả lời chất vấn của đại biểu Quốc hội trước Quốc hội hoặc Ủy ban thường vụ Quốc hội.
+
+Điều 64. Chính phủ với Kiểm toán nhà nước
+
+Chính phủ, các bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình phối hợp với Kiểm toán nhà nước trong tổ chức và hoạt động kiểm toán nhà nước; thực hiện, đôn đốc và chỉ đạo các cơ quan liên quan thực hiện và báo cáo kết quả thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước.
+
+Điều 65. Trách nhiệm của cơ quan điều tra, Viện kiểm sát nhân dân
+
+Cơ quan điều tra, Viện kiểm sát nhân dân có trách nhiệm tiếp nhận và giải quyết theo thẩm quyền các vụ việc có dấu hiệu của tội phạm, do Kiểm toán nhà nước phát hiện và kiến nghị.
+
+Điều 66. Trách nhiệm của Hội đồng nhân dân
+
+Hội đồng nhân dân giám sát việc thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước tại địa phương.
+
+Điều 67. Trách nhiệm của Ủy ban nhân dân
+
+1. Thực hiện và chỉ đạo các cơ quan của địa phương cung cấp đầy đủ, kịp thời thông tin, tài liệu phục vụ hoạt động kiểm toán của Kiểm toán nhà nước.
+
+2. Thực hiện và chỉ đạo các cơ quan của địa phương thực hiện và báo cáo đầy đủ, kịp thời kết quả thực hiện kết luận, kiến nghị kiểm toán của Kiểm toán nhà nước.
+
+Điều 68. Trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đến hoạt động kiểm toán nhà nước
+
+1. Cơ quan, tổ chức, cá nhân có liên quan đến hoạt động kiểm toán nhà nước có trách nhiệm cung cấp đầy đủ, chính xác, kịp thời thông tin, tài liệu theo yêu cầu của Kiểm toán nhà nước, Kiểm toán viên nhà nước và chịu trách nhiệm trước pháp luật về tính chính xác, trung thực, khách quan của thông tin, tài liệu đã cung cấp.
+
+2. Cơ quan, tổ chức, cá nhân có liên quan có trách nhiệm thực hiện kết luận và kiến nghị kiểm toán của Kiểm toán nhà nước, đồng thời gửi báo cáo kết quả cho Kiểm toán nhà nước.
+
+3. Bộ Tài chính, Bộ Kế hoạch và Đầu tư, cơ quan khác của Chính phủ, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương có trách nhiệm cung cấp đầy đủ, kịp thời các thông tin, tài liệu để phục vụ cho Kiểm toán nhà nước thực hiện nhiệm vụ quy định tại khoản 4 Điều 10 của Luật này.
+
+Chương VIII
+
+KHIẾU NẠI, TỐ CÁO VÀ XỬ LÝ VI PHẠM TRONG HOẠT ĐỘNG KIỂM TOÁN NHÀ NƯỚC
+
+Điều 69. Khiếu nại và giải quyết khiếu nại trong hoạt động kiểm toán nhà nước
+
+1. Khiếu nại và giải quyết khiếu nại trong cơ quan Kiểm toán nhà nước được thực hiện theo quy định của pháp luật về khiếu nại.
+
+2. Khiếu nại và giải quyết khiếu nại liên quan đến đơn vị được kiểm toán:
+
+a) Trong quá trình thực hiện kiểm toán, đơn vị được kiểm toán có quyền khiếu nại với Tổng Kiểm toán nhà nước về hành vi của Trưởng Đoàn kiểm toán, Tổ trưởng Tổ kiểm toán và các thành viên của Đoàn kiểm toán khi có căn cứ cho rằng hành vi đó là trái pháp luật, gây thiệt hại đến quyền và lợi ích hợp pháp của đơn vị;
+
+b) Trong thời hạn 30 ngày, kể từ ngày nhận được báo cáo kiểm toán, đơn vị được kiểm toán có quyền khiếu nại với Tổng Kiểm toán nhà nước về đánh giá, xác nhận, kết luận và kiến nghị kiểm toán trong báo cáo kiểm toán khi có căn cứ cho rằng kết quả kiểm toán đó là trái pháp luật, gây thiệt hại đến quyền và lợi ích hợp pháp của đơn vị;
+
+c) Trình tự, thủ tục giải quyết khiếu nại trong hoạt động kiểm toán được thực hiện theo quy định của Luật khiếu nại;
+
+d) Quyền, nghĩa vụ của người khiếu nại, người bị khiếu nại, người giải quyết khiếu nại, luật sư, trợ giúp viên pháp lý, việc thi hành quyết định giải quyết khiếu nại có hiệu lực pháp luật và các hành vi bị cấm thực hiện theo quy định của Luật khiếu nại.
+
+Điều 70. Tố cáo và giải quyết tố cáo về hoạt động kiểm toán nhà nước
+
+Việc tố cáo và giải quyết tố cáo về hoạt động kiểm toán nhà nước được thực hiện theo quy định của pháp luật về tố cáo.
+
+Điều 71. Xử lý vi phạm
+
+Cơ quan, tổ chức, cá nhân có hành vi vi phạm pháp luật về kiểm toán nhà nước thì tùy theo tính chất, mức độ vi phạm mà bị xử lý theo quy định của pháp luật.
+
+Chương IX
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 72. Hiệu lực thi hành
+
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2016.
+
+Việc kiểm toán đối với doanh nghiệp do Nhà nước nắm giữ trên 50% vốn điều lệ đã có trong kế hoạch kiểm toán năm 2015 được tiếp tục thực hiện cho đến khi hoàn thành kế hoạch kiểm toán.
+
+2. Luật Kiểm toán nhà nước số 37/2005/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+
+Điều 73. Quy định chi tiết
+
+Ủy ban thường vụ Quốc hội, Tổng Kiểm toán nhà nước quy định chi tiết các điều, khoản được giao trong Luật.
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 9 thông qua ngày 24 tháng 6 năm 2015.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Sinh Hùng

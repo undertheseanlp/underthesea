@@ -3,19 +3,19 @@ on:
     branches: [ core ]
 
 jobs:
-  manylinux-build-pypi-publish:
-    if: "!contains(github.event.head_commit.message, 'build docker')"
+  linux-build-pypi-publish:
+    name: "Build on Linux"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:0.0.1a13
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
-#        python-version: ["3.6"]
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
     steps:
       - uses: actions/checkout@v1
       - name: Show environments
@@ -41,12 +41,13 @@ jobs:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-windows-build-pypi-publish:
+    name: "Build MacOS & Windows"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.6", "3.7", "3.8", "3.9", "3.10"]
-#        python-version: ["3.7"]
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
         os: [macos-latest, windows-latest]
     steps:
     - uses: actions/checkout@v3
@@ -58,17 +59,22 @@ jobs:
       with:
         toolchain: nightly
         override: true
-    - name: Install dependencies
+    - name: Install pip and poetry (MacOS)
       working-directory: ./extensions/underthesea_core
-      run: |
-        python -m pip install --upgrade pip
-        curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python
-    - name: Add poetry to path
       if:  matrix.os != 'windows-latest'
-      run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
-    - name: Add poetry to path
+      run: | 
+        python -m pip install --upgrade pip
+        mkdir "${HOME}/poetry"
+        curl -sSL https://install.python-poetry.org | POETRY_HOME=${HOME}/poetry python -
+        echo "${HOME}/poetry/bin" >> $GITHUB_PATH
+
+    - name: Install pip and poetry (Windows)
       if:  matrix.os == 'windows-latest'
-      run: echo "${HOME}/.poetry/bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+      run: | 
+        python -m pip install --upgrade pip
+        mkdir "${HOME}/poetry"
+        curl -sSL https://install.python-poetry.org | python -
+        echo "C:\Users\runneradmin\AppData\Roaming\Python\Scripts\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
     - name: Install package deps
       working-directory: ./extensions/underthesea_core
