@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
+    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
