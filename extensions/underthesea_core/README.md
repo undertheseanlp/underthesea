@@ -1,4 +1,6 @@
-# Underthesea Core (fast & fun)
+# Underthesea Core
+
+Underthesea Core is a powerful extension of the popular natural language processing library Underthesea, which includes a range of efficient data preprocessing tools and machine learning models for training. Built with Rust for optimal performance, Underthesea Core offers fast processing speeds and is easy to implement, with Python bindings for seamless integration into existing projects. This extension is an essential tool for developers looking to build high-performance NLP systems that deliver accurate and reliable results.
 
 ## Usage
 
@@ -20,6 +22,6 @@ CRFFeaturizer
 ## Release Workflow
 
 1. Change version in `Cargo.toml` and `pyproject.toml`
-2. Push to branch `core`
+2. Push to branch `core` with commit `Publish Underthesea Core`
   * This will trigger `release-pypi-core` action
 3. Check latest version in [pypi](https://pypi.org/project/underthesea_core/)
