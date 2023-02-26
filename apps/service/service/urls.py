@@ -16,6 +16,8 @@ Including another URLconf
 # flake8: noqa
 from django.contrib import admin
 from django.urls import path
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 admin.autodiscover()
 from service import views
@@ -30,5 +32,8 @@ urlpatterns = [
     path('sentiment', views.sentiment),
     path('dictionary', views.dictionary),
     path('ipa', views.ipa),
+    
     path('admin/', admin.site.urls),
 ]
+
+urlpatterns += staticfiles_urlpatterns()

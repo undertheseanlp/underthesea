@@ -69,3 +69,6 @@ target/
 .fuse_hidden*
 /underthesea/pipeline/classification/fasttext.model
 wandb
+
+node_modules
+.vscode

@@ -1,0 +1,906 @@
+QUỐC HỘI -------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ---------------
+Luật số: 64/2020/QH14
+Hà Nội, ngày 18 tháng 6 năm 2020
+LUẬT
+ĐẦU TƯ THEO PHƯƠNG THỨC ĐỐI TÁC CÔNG TƯ
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Đầu tư theo phương thức đối tác công tư.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về hoạt động đầu tư theo phương thức đối tác công tư; quản lý nhà nước, quyền, nghĩa vụ và trách nhiệm của cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư theo phương thức đối tác công tư.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với các bên trong hợp đồng đầu tư theo phương thức đối tác công tư, cơ quan quản lý nhà nước và cơ quan, tổ chức, cá nhân có liên quan đến hoạt động đầu tư theo phương thức đối tác công tư.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Báo cáo nghiên cứu tiền khả thi là tài liệu trình bày các nội dung nghiên cứu sơ bộ về sự cần thiết, tính khả thi và hiệu quả của dự án đầu tư theo phương thức đối tác công tư (sau đây gọi là dự án PPP), làm cơ sở để cấp có thẩm quyền quyết định chủ trương đầu tư.
+2. Báo cáo nghiên cứu khả thi là tài liệu trình bày các nội dung nghiên cứu về sự cần thiết, tính khả thi và hiệu quả của dự án PPP, làm cơ sở để cấp có thẩm quyền phê duyệt dự án.
+3. Bảo đảm dự thầu là việc nhà đầu tư thực hiện một trong các biện pháp đặt cọc, ký quỹ hoặc bảo lãnh của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, doanh nghiệp bảo hiểm hoạt động hợp pháp tại Việt Nam trước thời điểm đóng thầu để bảo đảm trách nhiệm dự thầu của nhà đầu tư.
+4. Bảo đảm thực hiện hợp đồng là việc doanh nghiệp dự án PPP thực hiện một trong các biện pháp đặt cọc, ký quỹ hoặc bảo lãnh của tổ chức tín dụng, chi nhánh ngân hàng nước ngoài, doanh nghiệp bảo hiểm hoạt động hợp pháp tại Việt Nam để bảo đảm trách nhiệm thực hiện hợp đồng của nhà đầu tư, doanh nghiệp dự án PPP.
+5. Bên cho vay là tổ chức, cá nhân cho nhà đầu tư, doanh nghiệp dự án PPP vay vốn để thực hiện hợp đồng dự án PPP.
+6. Bên mời thầu là đơn vị có chuyên môn và năng lực được cơ quan có thẩm quyền giao nhiệm vụ tổ chức lựa chọn nhà đầu tư.
+7. Danh sách ngắn là danh sách nhà đầu tư trúng sơ tuyển đối với hình thức đấu thầu rộng rãi có sơ tuyển hoặc danh sách nhà đầu tư được mời tham gia đàm phán cạnh tranh.
+8. Doanh nghiệp dự án PPP là doanh nghiệp do nhà đầu tư thành lập có mục đích duy nhất để ký kết và thực hiện hợp đồng dự án PPP.
+9. Dự án PPP là tập hợp các đề xuất có liên quan đến việc đầu tư để cung cấp sản phẩm, dịch vụ công thông qua việc thực hiện một hoặc các hoạt động sau đây:
+a) Xây dựng, vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng;
+b) Cải tạo, nâng cấp, mở rộng, hiện đại hóa, vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng sẵn có;
+c) Vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng sẵn có.
+10. Đầu tư theo phương thức đối tác công tư (Public Private Partnership - sau đây gọi là đầu tư theo phương thức PPP) là phương thức đầu tư được thực hiện trên cơ sở hợp tác có thời hạn giữa Nhà nước và nhà đầu tư tư nhân thông qua việc ký kết và thực hiện hợp đồng dự án PPP nhằm thu hút nhà đầu tư tư nhân tham gia dự án PPP.
+11. Đơn vị chuẩn bị dự án PPP là đơn vị được cơ quan có thẩm quyền giao nhiệm vụ lập báo cáo nghiên cứu tiền khả thi, báo cáo nghiên cứu khả thi và thực hiện các nhiệm vụ khác có liên quan.
+12. Hồ sơ dự sơ tuyển là toàn bộ tài liệu do nhà đầu tư lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời sơ tuyển.
+13. Hồ sơ dự thầu là toàn bộ tài liệu do nhà đầu tư lập và nộp cho bên mời thầu theo yêu cầu của hồ sơ mời thầu.
+14. Hồ sơ mời sơ tuyển là toàn bộ tài liệu yêu cầu về năng lực và kinh nghiệm đối với nhà đầu tư làm căn cứ để bên mời thầu lựa chọn danh sách ngắn.
+15. Hồ sơ mời thầu là toàn bộ tài liệu sử dụng để lụa chọn nhà đầu tư, bao gồm các yêu cầu để thực hiện dự án làm căn cứ để nhà đầu tư chuẩn bị hồ sơ dự thầu và để bên mời thầu tổ chức đánh giá hồ sơ dự thầu và đàm phán hợp đồng nhằm lựa chọn được nhà đầu tư đáp ứng yêu cầu thực hiện dự án.
+16. Hợp đồng dự án PPP là thỏa thuận bằng văn bản giữa cơ quan ký kết hợp đồng với nhà đầu tư, doanh nghiệp dự án PPP về việc Nhà nước nhượng quyền cho nhà đầu tư, doanh nghiệp dự án PPP thực hiện dự án PPP theo quy định của Luật này, bao gồm các loại hợp đồng sau đây:
+a) Hợp đồng Xây dựng - Kinh doanh - Chuyển giao (Build - Operate - Transfer, sau đây gọi là hợp đồng BOT);
+b) Hợp đồng Xây dựng - Chuyển giao - Kinh doanh (Build - Transfer - Operate, sau đây gọi là hợp đồng BTO);
+e) Hợp đồng Xây dựng - Sở hữu - Kinh doanh (Build - Own - Operate, sau đây gọi là hợp đồng BOO);
+d) Hợp đồng Kinh doanh - Quản lý (Operate - Manage, sau đây gọi là hợp đồng O&M);
+đ) Hợp đồng Xây dựng - Chuyển giao - Thuê dịch vụ (Build - Transfer - Lease, sau đây gọi là hợp đồng BTL);
+e) Hợp đồng Xây dựng - Thuê dịch vụ - Chuyển giao (Build - Lease - Transfer, sau đây gọi là hợp đồng BLT);
+g) Hợp đồng hỗn hợp theo quy định tại khoản 3 Điều 45 của Luật này.
+17. Lựa chọn nhà đầu tư là quá trình xác định nhà đầu tư có đủ năng lực, kinh nghiệm, giải pháp khả thi để thực hiện dự án PPP trên nguyên tắc bảo đảm cạnh tranh, công bằng, minh bạch và hiệu quả kinh tế.
+18. Nhà đầu tư PPP (sau đây gọi là nhà đầu tư) là một pháp nhân độc lập được thành lập theo quy định của pháp luật hoặc liên danh giữa nhiều pháp nhân tham gia hoạt động đầu tư theo phương thức PPP.
+19. Vốn nhà nước bao gồm vốn ngân sách nhà nước, vốn từ nguồn thu hợp pháp dành để chi đầu tư, chi thường xuyên thuộc nhiệm vụ chi của ngân sách nhà nước.
+Điều 4. Lĩnh vực đầu tư, quy mô và phân loại dự án PPP
+1. Lĩnh vực đầu tư theo phương thức PPP bao gồm:
+a) Giao thông vận tải;
+b) Lưới điện, nhà máy điện, trừ nhà máy thủy điện và các trường hợp Nhà nước độc quyền theo quy định của Luật Điện lực;
+c) Thủy lợi; cung cấp nước sạch; thoát nước và xử lý nước thải; xử lý chất thải;
+d) Y tế; giáo dục - đào tạo;
+đ) Hạ tầng công nghệ thông tin.
+2. Quy mô tổng mức đầu tư tối thiểu của dự án PPP được quy định như sau:
+a) Không thấp hơn 200 tỷ đồng đối với dự án thuộc lĩnh vực quy định tại các điểm a, b, c và đ khoản 1 Điều này; trường hợp thuộc địa bàn có điều kiện kinh tế - xã hội khó khăn, địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn theo quy định của pháp luật về đầu tư thì không thấp hơn 100 tỷ đồng;
+b) Không thấp hơn 100 tỷ đồng đối với dự án thuộc lĩnh vực quy định tại điểm d khoản 1 Điều này;
+c) Quy định về quy mô tổng mức đầu tư tối thiểu tại điểm a và điểm b khoản này không áp dụng đối với dự án theo loại hợp đồng O&M.
+3. Dự án PPP được phân loại theo thẩm quyền quyết định chủ trương đầu tư bao gồm:
+a) Dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội;
+b) Dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Thủ tướng Chính phủ;
+c) Dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quy định tại khoản 1 Điều 5 của Luật này;
+d) Dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Hội đồng nhân dân cấp tỉnh.
+4. Chính phủ quy định chi tiết về lĩnh vực đầu tư tại khoản 1 và quy mô tổng mức đầu tư tối thiểu đối với từng lĩnh vực tại khoản 2 Điều này.
+Điều 5. Cơ quan có thẩm quyền và cơ quan ký kết hợp đồng dự án PPP
+1. Cơ quan có thẩm quyền bao gồm:
+a) Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Cơ quan trung ương của tổ chức chính trị, Viện kiểm sát nhân dân tối cao, Tòa án nhân dân tối cao, Kiểm toán nhà nước, Văn phòng Chủ tịch nước, Văn phòng Quốc hội, cơ quan trung ương của Mặt trận Tổ quốc Việt Nam và của tổ chức chính trị - xã hội (sau đây gọi là Bộ, cơ quan trung ương);
+b) Ủy ban nhân dân cấp tỉnh;
+c) Cơ quan, tổ chức được Chính phủ, Thủ tướng Chính phủ thành lập và được giao dự toán ngân sách theo quy định của pháp luật về ngân sách nhà nước (sau đây gọi là cơ quan khác).
+2. Cơ quan ký kết hợp đồng dự án PPP bao gồm:
+a) Cơ quan có thẩm quyền quy định tại khoản 1 Điều này;
+b) Cơ quan, đơn vị được cơ quan có thẩm quyền ủy quyền ký kết hợp đồng theo quy định tại khoản 4 Điều này.
+3. Trường hợp dự án thuộc phạm vi quản lý của nhiều cơ quan có thẩm quyền quy định tại khoản 1 Điều này hoặc trong trường hợp thay đổi cơ quan có thẩm quyền, các cơ quan này báo cáo Thủ tướng Chính phủ quyết định giao một cơ quan làm cơ quan có thẩm quyền.
+4. Cơ quan có thẩm quyền được ủy quyền cho cơ quan, đơn vị trực thuộc làm cơ quan ký kết hợp đồng dự án PPP thuộc thẩm quyền của mình.
+Điều 6. Hội đồng thẩm định dự án PPP
+1. Hội đồng thẩm định dự án PPP bao gồm:
+a) Hội đồng thẩm định nhà nước thực hiện nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi và báo cáo nghiên cứu khả thi dự án PPP do Quốc hội quyết định chủ trương đầu tư;
+b) Hội đồng thẩm định liên ngành thực hiện nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi và báo cáo nghiên cứu khả thi dự án PPP do Thủ tướng Chính phủ quyết định chủ trương đầu tư;
+c) Hội đồng thẩm định cấp cơ sở thực hiện nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi và báo cáo nghiên cứu khả thi dự án PPP do Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác, Hội đồng nhân dân cấp tỉnh quyết định chủ trương đầu tư, trừ trường hợp nhiệm vụ thẩm định được giao cho đơn vị trực thuộc cơ quan có thẩm quyền quy định tại khoản 3 Điều này.
+2. Thủ tướng Chính phủ quyết định thành lập Hội đồng thẩm định dự án PPP quy định tại điểm a và điểm b khoản 1 Điều này trên cơ sở đề nghị của Bộ trưởng Bộ Kế hoạch và Đầu tư.
+3. Căn cứ quy mô, tính chất dự án, Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác, Chủ tịch Ủy ban nhân dân cấp tỉnh thành lập Hội đồng thẩm định cấp cơ sở hoặc giao một đơn vị trực thuộc thực hiện nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi và báo cáo nghiên cứu khả thi dự án PPP.
+4. Hội đồng thẩm định dự án PPP, đơn vị trực thuộc thực hiện nhiệm vụ thẩm định được thuê tư vấn hỗ trợ.
+5. Chính phủ quy định chi tiết Điều này.
+Điều 7. Nguyên tắc quản lý đầu tư theo phương thức PPP
+1. Phù hợp với chiến lược, kế hoạch phát triển kinh tế - xã hội của quốc gia và quy hoạch có liên quan theo quy định của pháp luật về quy hoạch.
+2. Bảo đảm quản lý, sử dụng hiệu quả các nguồn lực của Nhà nước trong dự án PPP.
+3. Việc thực hiện hoạt động kiểm tra, thanh tra, kiểm toán nhà nước, giám sát dự án PPP phải bảo đảm không làm cản trở hoạt động đầu tư, kinh doanh bình thường của nhà đầu tư, doanh nghiệp dự án PPP.
+4. Bảo đảm đầu tư công khai, minh bạch, bình đẳng, bền vững và hiệu quả.
+5. Bảo đảm hài hòa lợi ích giữa Nhà nước, nhà đầu tư, người sử dụng và cộng đồng.
+Điều 8. Nội dung quản lý nhà nước về đầu tư theo phương thức PPP
+1. Ban hành, tuyên truyền, phổ biến và tổ chức thực hiện văn bản quy phạm pháp luật về đầu tư theo phương thức PPP.
+2. Tổng kết, đánh giá, báo cáo tình hình thực hiện hoạt động đầu tư theo phương thức PPP.
+3. Kiểm tra, thanh tra, giám sát việc thực hiện quy định của pháp luật về đầu tư theo phương thức PPP.
+4. Giải quyết khiếu nại, tố cáo, xử lý vi phạm liên quan đến hoạt động đầu tư theo phương thức PPP; giải quyết kiến nghị trong lựa chọn nhà đầu tư.
+5. Tổ chức và thực hiện hoạt động xúc tiến đầu tư, hợp tác quốc tế về đầu tư theo phương thức PPP.
+6. Hướng dẫn, hỗ trợ, giải quyết vướng mắc về thủ tục theo đề nghị của nhà đầu tư, doanh nghiệp dự án PPP khi thực hiện hoạt động đầu tư theo phương thức PPP.
+Điều 9. Công khai, minh bạch trong đầu tư theo phương thức PPP
+1. Các thông tin phải được công bố trên Hệ thống mạng đấu thầu quốc gia bao gồm:
+a) Thông tin về quyết định chủ trương đầu tư, quyết định phê duyệt dự án PPP;
+b) Thông tin về lựa chọn nhà đầu tư bao gồm: thông báo mời sơ tuyển, thông báo mời thầu, danh sách ngắn, kết quả lựa chọn nhà đầu tư;
+c) Thông tin về nhà đầu tư được lựa chọn, doanh nghiệp dự án PPP;
+d) Nội dung chính của hợp đồng dự án PPP bao gồm: tổng mức đầu tư; cơ cấu nguồn vốn trong dự án; loại hợp đồng; thời hạn thực hiện dự án; giá, phí sản phẩm, dịch vụ công; hình thức và địa điểm thu giá, phí (nếu có) và các thông tin cần thiết khác;
+đ) Giá trị quyết toán vốn đầu tư công trong dự án PPP trong trường hợp có sử dụng vốn đầu tư công;
+e) Văn bản quy phạm pháp luật về đầu tư theo phương thức PPP;
+g) Cơ sở dữ liệu về nhà đầu tư;
+h) Thông tin giải quyết khiếu nại, tố cáo, kiến nghị, xử lý vi phạm pháp luật về đầu tư theo phương thức PPP.
+2. Ngoài việc công bố trên Hệ thống mạng đấu thầu quốc gia, các thông tin quy định tại các điểm a, b, c và d khoản 1 Điều này phải được công bố trên trang thông tin điện tử (nếu có) của cơ quan có thẩm quyền.
+3. Các thông tin quy định tại khoản 1 Điều này được khuyến khích đăng tải trên các phương tiện thông tin đại chúng khác.
+Điều 10. Các hành vi bị nghiêm cấm trong đầu tư theo phương thức PPP
+1. Quyết định chủ trương đầu tư dự án PPP không phù hợp với chiến lược, quy hoạch, kế hoạch; không xác định được nguồn vốn nhà nước trong dự án PPP đối với dự án có yêu cầu sử dụng vốn nhà nước; không đúng thẩm quyền, trình tự, thủ tục theo quy định của Luật này.
+2. Phê duyệt dự án PPP khi chưa có chủ trương đầu tư; không phù hợp với chủ trương đầu tư; không đúng thẩm quyền, trình tự, thủ tục theo quy định của Luật này.
+3. Cơ quan có thẩm quyền, cơ quan ký kết hợp đồng thông đồng với tổ chức tư vấn, nhà đầu tư dẫn tới quyết định chủ trương đầu tư, phê duyệt dự án PPP gây thất thoát vốn, tài sản của Nhà nước, tài nguyên của quốc gia; làm tổn hại, xâm phạm lợi ích của công dân và của cộng đồng.
+4. Không bảo đảm công bằng, minh bạch trong lựa chọn nhà đầu tư, bao gồm các hành vi sau đây:
+a) Tham dự thầu với tư cách là nhà đầu tư đối với dự án do mình làm bên mời thầu, cơ quan có thẩm quyền, cơ quan ký kết hợp đồng hoặc thực hiện các nhiệm vụ của bên mời thầu, cơ quan có thẩm quyền, cơ quan ký kết hợp đồng;
+b) Tham gia lập đồng thời tham gia thẩm định hồ sơ mời sơ tuyển, hồ sơ mời thầu, tham gia đánh giá hồ sơ dự thầu đồng thời tham gia thẩm định kết quả lựa chọn nhà đầu tư đối với cùng một dự án;
+c) Là cá nhân thuộc bên mời thầu, cơ quan có thẩm quyền, cơ quan ký kết hợp đồng mà trực tiếp tham gia quá trình lựa chọn nhà đầu tư hoặc tham gia tổ chuyên gia, tổ thẩm định kết quả lựa chọn nhà đầu tư hoặc là người đứng đầu cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, bên mời thầu đối với dự án do bố đẻ, mẹ đẻ, bố vợ, mẹ vợ, bố chồng, mẹ chồng, vợ hoặc chồng, con đẻ, con nuôi, con dâu, con rể, anh ruột, chị ruột, em ruột đứng tên tham dự thầu hoặc là người đại diện hợp pháp của nhà đầu tư tham dự thầu;
+d) Đứng tên tham dự thầu dự án do cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, bên mời thầu là cơ quan, tổ chức nơi mình đã công tác trong thời hạn 12 tháng kể từ ngày không làm việc tại cơ quan, tổ chức đó.
+5. Tiết lộ, tiếp nhận tài liệu, thông tin sau đây về quá trình lựa chọn nhà đầu tư:
+a) Nội dung hồ sơ mời sơ tuyển, hồ sơ mời thầu trước thời điểm phát hành theo quy định, trừ trường hợp dự án phải tổ chức khảo sát thị trường, tham vấn trước nhà đầu tư để lập hồ sơ mời sơ tuyển, hồ sơ mời thầu;
+b) Nội dung hồ sơ dự sơ tuyển, hồ sơ dự thầu, báo cáo của bên mời thầu, báo cáo của tổ chuyên gia, báo cáo thẩm định, báo cáo của nhà thầu tư vấn, báo cáo của cơ quan chuyên môn có liên quan trong quá trình lựa chọn nhà đầu tư, kết quả sơ tuyển, kết quả lựa chọn nhà đầu tư trước khi được công khai theo quy định;
+c) Các tài liệu khác trong quá trình lựa chọn nhà đầu tư được xác định chứa bí mật nhà nước theo quy định của pháp luật.
+6. Thông thầu bao gồm các hành vi sau đây:
+a) Thỏa thuận về việc rút khỏi việc dự thầu hoặc rút đơn dự thầu được nộp trước đó để một hoặc các bên tham gia thỏa thuận thắng thầu;
+b) Thỏa thuận để một hoặc nhiều bên chuẩn bị hồ sơ dự thầu cho các bên tham dự thầu để một hoặc các bên tham gia thỏa thuận thắng thầu.
+7. Chuyển nhượng cổ phần, phần vốn góp, quyền và nghĩa vụ không đúng quy định của Luật này và hợp đồng dự án PPP.
+8. Dừng cung cấp sản phẩm, dịch vụ công ngoài trường hợp quy định tại hợp đồng dự án PPP.
+9. Đưa, nhận, môi giới hối lộ trong hoạt động đầu tư theo phương thức PPP.
+10. Lợi dụng chức vụ, quyền hạn để chiếm đoạt, vụ lợi, tham nhũng trong quản lý và sử dụng vốn nhà nước trong dự án PPP; can thiệp bất hợp pháp vào quy trình dự án PPP.
+11. Gian lận trong hoạt động đầu tư theo phương thức PPP, bao gồm các hành vi sau đây:
+a) Làm giả, làm sai lệch thông tin, hồ sơ, tài liệu liên quan đến quyết định chủ trương đầu tư, quyết định phê duyệt dự án PPP, lựa chọn nhà đầu tư, triển khai thực hiện dự án PPP nhằm thu lợi bất chính hoặc nhằm trốn tránh bất kỳ nghĩa vụ nào;
+b) Cố ý cung cấp thông tin không trung thực, không khách quan làm sai lệch chủ trương đầu tư, dự án PPP được phê duyệt, kết quả lựa chọn nhà đầu tư, kết quả kiểm tra, thanh tra, giám sát, kiểm toán, kết quả quyết toán vốn đầu tư công, thanh lý hợp đồng dự án PPP;
+c) Cố ý cung cấp thông tin không trung thực, không khách quan làm sai lệch số liệu về doanh thu của dự án PPP nhằm thu lợi bất chính.
+12. Cản trở việc phát hiện, xử lý hành vi vi phạm pháp luật về đầu tư theo phương thức PPP.
+Điều 11. Quy trình dự án PPP
+1. Trừ trường hợp quy định tại khoản 2 Điều này, quy trình dự án PPP được quy định như sau:
+a) Lập, thẩm định báo cáo nghiên cứu tiền khả thi, quyết định chủ trương đầu tư, công bố dự án;
+b) Lập, thẩm định báo cáo nghiên cứu khả thi, phê duyệt dự án;
+c) Lựa chọn nhà đầu tư;
+d) Thành lập doanh nghiệp dự án PPP và ký kết hợp đồng dự án PPP;
+đ) Triển khai thực hiện hợp đồng dự án PPP.
+2. Đối với dự án PPP ứng dụng công nghệ cao thuộc danh mục công nghệ cao được ưu tiên đầu tư phát triển theo quy định của pháp luật về công nghệ cao, ứng dụng công nghệ mới theo quy định của pháp luật về chuyển giao công nghệ, quy trình dự án PPP được quy định như sau:
+a) Lập, thẩm định báo cáo nghiên cứu tiền khả thi, quyết định chủ trương đầu tư, công bố dự án;
+b) Lựa chọn nhà đầu tư;
+c) Nhà đầu tư được lựa chọn lập báo cáo nghiên cứu khả thi;
+d) Thẩm định báo cáo nghiên cứu khả thi, phê duyệt dự án;
+đ) Thực hiện các bước quy định tại điểm d và điểm đ khoản 1 Điều này.
+3. Trường hợp dự án PPP có công trình phải thi tuyển phương án kiến trúc, việc tổ chức thi tuyển được xem xét, phê duyệt trong quyết định chủ trương đầu tư quy định tại khoản 1 hoặc khoản 2 Điều này. Việc tổ chức thi tuyển phương án kiến trúc thực hiện theo quy định của pháp luật về kiến trúc.
+4. Dự án thuộc kế hoạch đầu tư công được xem xét chuyển đổi thành dự án PPP thì thực hiện theo quy trình quy định tại khoản 1 hoặc khoản 2 Điều này.
+5. Chính phủ quy định chi tiết các nội dung trong quy trình dự án PPP.
+Chương II
+CHUẨN BỊ DỰ ÁN PPP
+Mục 1. DỰ ÁN PPP DO CƠ QUAN CÓ THẨM QUYỀN LẬP
+Điều 12. Thẩm quyền quyết định chủ trương đầu tư dự án PPP
+1. Quốc hội quyết định chủ trương đầu tư dự án PPP thuộc một trong các tiêu chí sau đây:
+a) Sử dụng vốn đầu tư công tư 10.000 tỷ đồng trở lên;
+b) Ảnh hưởng lớn đến môi trường hoặc tiềm ẩn khả năng ảnh hưởng nghiêm trọng đến môi trường, bao gồm: nhà máy điện hạt nhân; sử dụng đất có yêu cầu chuyển mục đích sử dụng đất rừng đặc dụng, rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới từ 50 ha trở lên; rừng phòng hộ chắn gió, chắn cát bay và rừng phòng hộ chắn sóng, lấn biển từ 500 ha trở lên; rừng sản xuất từ 1.000 ha trở lên;
+c) Sử dụng đất có yêu cầu chuyển mục đích sử dụng đất trồng lúa nước từ 02 vụ trở lên với quy mô từ 500 ha trở lên;
+d) Di dân tái định cư từ 20.000 người trở lên ở miền núi, từ 50.000 người trở lên ở vùng khác;
+đ) Dự án đòi hỏi phải áp dụng cơ chế, chính sách đặc biệt cần được Quốc hội quyết định.
+2. Trừ dự án quy định tại khoản 1 Điều này, Thủ tướng Chính phủ quyết định chủ trương đầu tư dự án PPP thuộc một trong các tiêu chí sau đây:
+a) Di dân tái định cư từ 10.000 người trở lên ở miền núi, từ 20.000 người trở lên ở vùng khác;
+b) Dự án sử dụng vốn ngân sách trung ương do Bộ, cơ quan trung ương quản lý, có tổng mức đầu tư tương đương dự án nhóm A theo quy định của pháp luật về đầu tư công, dự án sử dụng vốn vay ODA và vốn vay ưu đãi của nhà tài trợ nước ngoài;
+c) Đầu tư xây dựng mới: cảng hàng không, sân bay; đường cất hạ cánh của cảng hàng không, sân bay; nhà ga hành khách của cảng hàng không quốc tế; nhà ga hàng hóa của cảng hàng không, sân bay có công suất từ 01 triệu tấn/năm trở lên;
+d) Đầu tư xây dựng mới: bến cảng, khu bến cảng thuộc cảng biển đặc biệt; bến cảng, khu bến cảng thuộc cảng biển loại I có tổng mức đầu tư tương đương dự án nhóm A theo quy định của pháp luật về đầu tư công.
+3. Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quyết định chủ trương đầu tư dự án PPP thuộc phạm vi quản lý, trừ dự án quy định tại khoản 1 và khoản 2 Điều này.
+4. Hội đồng nhân dân cấp tỉnh quyết định chủ trương đầu tư dự án PPP thuộc phạm vi quản lý của địa phương, trừ dự án quy định tại khoản 1 và khoản 2 Điều này.
+5. Trường hợp điều chỉnh chủ trương đầu tư dự án PPP, thẩm quyền quyết định điều chỉnh chủ trương đầu tư dự án PPP thực hiện theo quy định tại khoản 2 Điều 18 của Luật này.
+Điều 13. Trình tự quyết định chủ trương đầu tư dự án PPP
+1. Trình tự quyết định chủ trương đầu tư dự án PPP thuộc thẩm quyền của Quốc hội được quy định như sau:
+a) Đơn vị chuẩn bị dự án PPP lập báo cáo nghiên cứu tiền khả thi làm cơ sở để cơ quan có thẩm quyền trình Chính phủ, đồng thời gửi Bộ Kế hoạch và Đầu tư;
+b) Bộ trưởng Bộ Kế hoạch và Đầu tư đề xuất Thủ tướng Chính phủ thành lập Hội đồng thẩm định nhà nước;
+c) Hội đồng thẩm định nhà nước thẩm định báo cáo nghiên cứu tiền khả thi. Trường hợp dự án có sử dụng vốn đầu tư công, việc thẩm định nguồn vốn và khả năng cân đối vốn theo quy định của pháp luật về đầu tư công;
+d) Chính phủ hoàn chỉnh hồ sơ trình Quốc hội xem xét, quyết định;
+đ) Cơ quan của Quốc hội thẩm tra hồ sơ do Chính phủ trình;
+e) Quốc hội xem xét, thông qua nghị quyết về chủ trương đầu tư dự án.
+2. Trình tự quyết định chủ trương đầu tư dự án PPP thuộc thẩm quyền của Thủ tướng Chính phủ được quy định như sau:
+a) Đơn vị chuẩn bị dự án PPP lập báo cáo nghiên cứu tiền khả thi làm cơ sở để cơ quan có thẩm quyền gửi Bộ Kế hoạch và Đầu tư;
+b) Bộ trưởng Bộ Kế hoạch và Đầu tư đề xuất Thủ tướng Chính phủ thành lập Hội đồng thẩm định liên ngành;
+c) Hội đồng thẩm định liên ngành thẩm định báo cáo nghiên cứu tiền khả thi;
+d) Bộ Kế hoạch và Đầu tư chủ trì thẩm định nguồn vốn và khả năng cân đối vốn đối với phần vốn ngân sách trung ương theo quy định của pháp luật về đầu tư công trong trường hợp dự án PPP sử dụng vốn ngân sách trung ương, gửi Hội đồng thẩm định liên ngành;
+đ) Cơ quan chuyên môn quản lý đầu tư công tại địa phương chủ trì thẩm định nguồn vốn và khả năng cân đối vốn đối với phần vốn ngân sách địa phương theo quy định của pháp luật về đầu tư công trong trường hợp dự án PPP sử dụng vốn ngân sách địa phương, gửi Hội đồng thẩm định liên ngành;
+e) Hội đồng thẩm định liên ngành hoàn thành và gửi báo cáo thẩm định đến cơ quan có thẩm quyền;
+g) Cơ quan có thẩm quyền hoàn chỉnh hồ sơ trình Thủ tướng Chính phủ xem xét, quyết định;
+h) Thủ tướng Chính phủ quyết định chủ trương đầu tư dự án.
+3. Trình tự quyết định chủ trương đầu tư dự án PPP thuộc thẩm quyền của Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác được quy định như sau:
+a) Đơn vị chuẩn bị dự án PPP lập báo cáo nghiên cứu tiền khả thi làm cơ sở trình Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác xem xét, quyết định;
+b) Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi;
+c) Cơ quan chuyên môn quản lý đầu tư công thuộc Bộ, cơ quan trung ương, cơ quan khác chủ trì thẩm định nguồn vốn và khả năng cân đối vốn đầu tư công theo quy định của pháp luật về đầu tư công trong trường hợp dự án PPP sử dụng vốn đầu tư công, gửi Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định;
+d) Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định hoàn thành và gửi báo cáo thẩm định đến đơn vị chuẩn bị dự án PPP;
+đ) Đơn vị chuẩn bị dự án PPP hoàn chỉnh hồ sơ trình Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác xem xét, quyết định;
+e) Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quyết định chủ trương đầu tư dự án.
+4. Trình tự quyết định chủ trương đầu tư dự án PPP thuộc thẩm quyền của Hội đồng nhân dân cấp tỉnh được quy định như sau:
+a) Đơn vị chuẩn bị dự án PPP lập báo cáo nghiên cứu tiền khả thi, trình Ủy ban nhân dân cấp tỉnh;
+b) Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định báo cáo nghiên cứu tiền khả thi;
+c) Cơ quan chuyên môn quản lý đầu tư công tại địa phương chủ trì thẩm định nguồn vốn và khả năng cân đối vốn đầu tư công theo quy định của pháp luật về đầu tư công trong trường hợp dự án PPP sử dụng vốn đầu tư công, gửi Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định;
+d) Hội đồng thẩm định cấp cơ sở hoặc đơn vị được giao nhiệm vụ thẩm định hoàn thành và gửi báo cáo thẩm định đến đơn vị chuẩn bị dự án PPP;
+đ) Đơn vị chuẩn bị dự án PPP hoàn chỉnh hồ sơ làm cơ sở để Ủy ban nhân dân cấp tỉnh trình Hội đồng nhân dân cấp tỉnh xem xét, quyết định;
+e) Hội đồng nhân dân cấp tỉnh quyết định chủ trương đầu tư dự án.
+5. Đối với dự án PPP sử dụng nguồn vốn chi thường xuyên, nguồn thu hợp pháp dành để chi thường xuyên của cơ quan nhà nước, đơn vị sự nghiệp công lập để thanh toán cho doanh nghiệp dự án PPP, sử dụng dự phòng ngân sách nhà nước để chi trả phần giảm doanh thu, cơ quan tài chính các cấp thẩm định khả năng cân đối của ngân sách theo quy định của pháp luật về ngân sách nhà nước, gửi Hội đồng thẩm định dự án PPP hoặc đơn vị được giao nhiệm vụ thẩm định tổng hợp, trình cấp có thẩm quyền quyết định chủ trương đầu tư.
+Điều 14. Lựa chọn dự án và lập báo cáo nghiên cứu tiền khả thi dự án PPP
+1. Điều kiện lựa chọn dự án để đầu tư theo phương thức PPP bao gồm:
+a) Sự cần thiết đầu tư;
+b) Thuộc lĩnh vực quy định tại khoản 1 Điều 4 của Luật này và đáp ứng quy mô tổng mức đầu tư tối thiểu quy định tại khoản 2 Điều 4 của Luật này;
+c) Không trùng lặp với dự án PPP đã có quyết định chủ trương đầu tư hoặc quyết định phê duyệt dự án;
+d) Có lợi thế so với các hình thức đầu tư khác;
+đ) Có khả năng bố trí vốn nhà nước trong trường hợp có nhu cầu sử dụng vốn nhà nước.
+2. Căn cứ lập báo cáo nghiên cứu tiền khả thi bao gồm:
+a) Chiến lược, kế hoạch phát triển kinh tế - xã hội của quốc gia và quy hoạch có liên quan theo quy định của pháp luật về quy hoạch;
+b) Quy định của Luật này, quy định khác của pháp luật có liên quan đến lĩnh vực đầu tư của dự án;
+c) Các văn bản pháp lý khác có liên quan.
+3. Báo cáo nghiên cứu tiền khả thi bao gồm các nội dung chủ yếu sau đây:
+a) Sự cần thiết đầu tư; lợi thế đầu tư theo phương thức PPP so với các hình thức đầu tư khác; tác động của việc thực hiện dự án theo phương thức PPP đối với cộng đồng, dân cư trong phạm vi dự án;
+b) Mục tiêu; dự kiến quy mô, địa điểm, thời gian thực hiện dự án, nhu cầu sử dụng đất và tài nguyên khác;
+c) Phương án thiết kế sơ bộ theo quy định của pháp luật về xây dựng đối với dự án có cấu phần xây dựng, pháp luật khác có liên quan đối với dự án không có cấu phần xây dựng; thuyết minh sơ bộ về phương án kỹ thuật, công nghệ; sơ bộ phân chia dự án thành phần (nếu có);
+d) Đánh giá sơ bộ hiệu quả kinh tế - xã hội của dự án; đánh giá sơ bộ tác động môi trường theo quy định của pháp luật về bảo vệ môi trường như đối với dự án đầu tư công;
+đ) Sơ bộ tổng mức đầu tư; đánh giá sơ bộ phương án tài chính của dự án; dự kiến sử dụng vốn nhà nước trong dự án (nếu có); dự kiến phương thức thanh toán cho nhà đầu tư đối với dự án áp dụng loại hợp đồng BTL, hợp đồng BLT;
+e) Dự kiến loại hợp đồng dự án PPP; các hình thức ưu đãi, bảo đảm đầu tư; cơ chế chia sẻ phần giảm doanh thu.
+Điều 15. Thẩm định báo cáo nghiên cứu tiền khả thi dự án PPP
+1. Hồ sơ thẩm định báo cáo nghiên cứu tiền khả thi bao gồm:
+a) Văn bản đề nghị thẩm định;
+b) Dự thảo tờ trình đề nghị quyết định chủ trương đầu tư;
+c) Báo cáo nghiên cứu tiền khả thi;
+d) Tài liệu pháp lý khác có liên quan của dự án.
+2. Việc thẩm định báo cáo nghiên cứu tiền khả thi bao gồm các nội dung chủ yếu sau đây:
+a) Sự phù hợp với điều kiện lựa chọn dự án để đầu tư theo phương thức PPP quy định tại khoản 1 Điều 14 của Luật này;
+b) Sự phù hợp với căn cứ lập báo cáo nghiên cứu tiền khả thi quy định tại khoản 2 Điều 14 của Luật này;
+c) Hiệu quả đầu tư; khả năng thu hồi vốn cho nhà đầu tư;
+d) Sự phù hợp của loại hợp đồng dự án PPP;
+đ) Cơ chế chia sẻ phần giảm doanh thu;
+e) Nguồn vốn và khả năng cân đối vốn đối với dự án PPP có sử dụng vốn nhà nước.
+Điều 16. Hồ sơ đề nghị quyết định chủ trương đầu tư dự án PPP
+1. Tờ trình đề nghị quyết định chủ trương đầu tư.
+2. Dự thảo quyết định chủ trương đầu tư.
+3. Báo cáo nghiên cứu tiền khả thi.
+4. Báo cáo thẩm định báo cáo nghiên cứu tiền khả thi; báo cáo thẩm tra đối với dự án do Quốc hội quyết định chủ trương đầu tư.
+5. Tài liệu pháp lý khác có liên quan của dự án.
+Điều 17. Nội dung quyết định chủ trương đầu tư dự án PPP
+1. Quyết định chủ trương đầu tư bao gồm các nội dung chủ yếu sau đây:
+a) Tên dự án;
+b) Tên cơ quan có thẩm quyền;
+c) Mục tiêu; dự kiến quy mô, địa điểm, thời gian thực hiện dự án, nhu cầu sử dụng đất và tài nguyên khác;
+d) Dự kiến loại hợp đồng dự án PPP;
+đ) Sơ bộ tổng mức đầu tư; sơ bộ phương án tài chính: cơ cấu nguồn vốn trong dự án, dự kiến khung giá, phí sản phẩm, dịch vụ công đối với dự án áp dụng cơ chế thu phí trực tiếp từ người sử dụng;
+e) Cơ chế bảo đảm đầu tư, cơ chế chia sẻ phần giảm doanh thu.
+2. Đối với dự án ứng dụng công nghệ cao, ứng dụng công nghệ mới ngoài quy định tại khoản 1 Điều này, nội dung quyết định chủ trương đầu tư còn bao gồm tên bên mời thầu, hình thức lựa chọn nhà đầu tư, thời gian tổ chức lựa chọn nhà đầu tư.
+Điều 18. Điều chỉnh chủ trương đầu tư dự án PPP
+1. Chủ trương đầu tư dự án PPP được điều chỉnh khi thay đổi mục tiêu, địa điểm, quy mô, loại hợp đồng dự án PPP, tăng tổng mức đầu tư từ 10% trở lên hoặc tăng giá trị vốn nhà nước trong dự án PPP trong các trường hợp sau đây:
+a) Dự án bị ảnh hưởng bởi sự kiện bất khả kháng;
+b) Quy hoạch, chính sách, pháp luật có liên quan thay đổi;
+c) Khi điều chỉnh báo cáo nghiên cứu khả thi.
+2. Cấp có thẩm quyền quyết định chủ trương đầu tư dự án PPP là cấp quyết định điều chỉnh chủ trương đầu tư dự án và chịu trách nhiệm về quyết định của mình.
+3. Trình tự trình cấp có thẩm quyền quyết định điều chỉnh chủ trương đầu tư dự án PPP thực hiện theo quy định tại Điều 13 của Luật này đối với nội dung điều chỉnh.
+4. Hồ sơ điều chỉnh chủ trương đầu tư bao gồm:
+a) Tờ trình đề nghị điều chỉnh chủ trương đầu tư;
+b) Nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi;
+c) Báo cáo thẩm định, báo cáo thẩm tra nội dung điều chỉnh báo cáo nghiên cứu tiền khả thi;
+d) Tài liệu pháp lý khác có liên quan của dự án.
+Điều 19. Nội dung báo cáo nghiên cứu khả thi dự án PPP
+1. Đơn vị chuẩn bị dự án PPP lập báo cáo nghiên cứu khả thi căn cứ quyết định chủ trương đầu tư.
+2. Báo cáo nghiên cứu khả thi bao gồm các nội dung chủ yếu sau đây:
+a) Sự cần thiết đầu tư; lợi thế đầu tư theo phương thức PPP so với các hình thức đầu tư khác; kết quả tiếp thu ý kiến về tác động của việc thực hiện dự án theo phương thức PPP khi có ý kiến của Hội đồng nhân dân, Ủy ban nhân dân, Mặt trận Tổ quốc Việt Nam cấp tỉnh nơi thực hiện dự án, hiệp hội nghề nghiệp liên quan đến lĩnh vực đầu tư;
+b) Sự phù hợp của dự án với chiến lược, kế hoạch phát triển kinh tế - xã hội của quốc gia và quy hoạch có liên quan theo quy định của pháp luật về quy hoạch;
+c) Mục tiêu; quy mô; địa điểm; nhu cầu sử dụng đất và tài nguyên khác;
+d) Tiến độ; thời gian thực hiện dự án bao gồm: thời hạn hợp đồng, thời gian xây dựng công trình đối với dự án có cấu phần xây dựng;
+đ) Thuyết minh yêu cầu về phương án kỹ thuật, công nghệ, tiêu chuẩn chất lượng của công trình, hệ thống cơ sở hạ tầng hoặc sản phẩm, dịch vụ công; hồ sơ thiết kế theo quy định của pháp luật về xây dựng, pháp luật khác có liên quan; liên hệ giữa các dự án thành phần (nếu có);
+e) Loại hợp đồng dự án PPP; phân tích rủi ro và biện pháp quản lý rủi ro của dự án;
+g) Các hình thức ưu đãi, bảo đảm đầu tư, cơ chế chia sẻ phần giảm doanh thu;
+h) Tổng mức đầu tư; phương án tài chính của dự án; dự kiến vốn nhà nước trong dự án và hình thức quản lý, sử dụng tương ứng (nếu có); kết quả khảo sát sự quan tâm của nhà đầu tư và bên cho vay (nếu có); khả năng huy động vốn để thực hiện dự án; phương án tổ chức quản lý, kinh doanh hoặc cung cấp sản phẩm, dịch vụ công;
+i) Hiệu quả kinh tế - xã hội của dự án; báo cáo đánh giá tác động môi trường theo quy định của pháp luật về bảo vệ môi trường.
+Điều 20. Hồ sơ, nội dung thẩm định báo cáo nghiên cứu khả thi dự án PPP
+1. Hồ sơ thẩm định báo cáo nghiên cứu khả thi bao gồm:
+a) Văn bản đề nghị thẩm định;
+b) Dự thảo tờ trình đề nghị phê duyệt dự án;
+c) Báo cáo nghiên cứu khả thi;
+d) Quyết định chủ trương đầu tư;
+đ) Tài liệu pháp lý khác có liên quan của dự án.
+2. Việc thẩm định báo cáo nghiên cứu khả thi bao gồm các nội dung chủ yếu sau đây:
+a) Sự phù hợp với căn cứ pháp lý;
+b) Sự cần thiết đầu tư;
+c) Sự phù hợp với yêu cầu về phương án kỹ thuật, công nghệ, tiêu chuẩn chất lượng của công trình, hệ thống cơ sở hạ tầng hoặc sản phẩm, dịch vụ công. Việc thẩm định các nội dung về hồ sơ thiết kế, kỹ thuật, công nghệ, tiêu chuẩn chất lượng được thực hiện theo quy định của pháp luật về xây dựng, pháp luật khác có liên quan;
+d) Sự phù hợp của loại hợp đồng dự án PPP;
+đ) Tính khả thi về tài chính; phương án tổ chức quản lý, kinh doanh hoặc cung cấp sản phẩm, dịch vụ công;
+e) Hiệu quả kinh tế - xã hội.
+Điều 21. Thẩm quyền phê duyệt dự án PPP
+1. Thủ tướng Chính phủ phê duyệt dự án quy định tại khoản 1 Điều 12 của Luật này.
+2. Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác phê duyệt dự án thuộc phạm vi quản lý quy định tại khoản 2 và khoản 3 Điều 12 của Luật này.
+3. Chủ tịch Ủy ban nhân dân cấp tỉnh phê duyệt dự án thuộc phạm vi quản lý quy định tại khoản 2 và khoản 4 Điều 12 của Luật này.
+Điều 22. Hồ sơ đề nghị phê duyệt dự án PPP
+1. Tờ trình đề nghị phê duyệt dự án.
+2. Dự thảo quyết định phê duyệt dự án.
+3. Báo cáo nghiên cứu khả thi.
+4. Báo cáo thẩm định báo cáo nghiên cứu khả thi.
+5. Quyết định chủ trương đầu tư.
+6. Tài liệu pháp lý khác có liên quan của dự án.
+Điều 23. Nội dung quyết định phê duyệt dự án PPP
+Quyết định phê duyệt dự án PPP bao gồm các nội dung chủ yếu sau đây:
+1. Tên dự án;
+2. Tên cơ quan ký kết hợp đồng;
+3. Mục tiêu; quy mô; địa điểm; thời gian thực hiện dự án; nhu cầu sử dụng đất và tài nguyên khác;
+4. Loại hợp đồng dự án PPP;
+5. Tổng mức đầu tư; cơ cấu nguồn vốn trong dự án; giá, phí sản phẩm, dịch vụ công đối với dự án áp dụng loại hợp đồng thông qua cơ chế thu phí trực tiếp từ người sử dụng;
+6. Tên bên mời thầu, hình thức lựa chọn nhà đầu tư, thời gian tổ chức lựa chọn nhà đầu tư, trừ trường hợp quy định tại khoản 2 Điều 17 của Luật này.
+Điều 24. Điều chỉnh dự án PPP
+1. Báo cáo nghiên cứu khả thi được điều chỉnh trong các trường hợp sau đây:
+a) Dự án bị ảnh hưởng bởi sự kiện bất khả kháng;
+b) Xuất hiện các yếu tố mang lại hiệu quả cao hơn về tài chính, kinh tế - xã hội cho dự án;
+c) Quy hoạch, chính sách, pháp luật có liên quan thay đổi gây ảnh hưởng trực tiếp đến mục tiêu, địa điểm, quy mô của dự án;
+d) Không lựa chọn được nhà đầu tư thực hiện dự án.
+2. Trường hợp điều chỉnh báo cáo nghiên cứu khả thi dẫn đến thay đổi mục tiêu, quy mô, địa điểm, loại hợp đồng dự án PPP, tăng tổng mức đầu tư từ 10% trở lên hoặc tăng giá trị vốn nhà nước trong dự án PPP thì phải thực hiện trình tự, thủ tục quyết định điều chỉnh chủ trương đầu tư trước khi trình cấp có thẩm quyền quyết định phê duyệt điều chỉnh dự án.
+3. Thẩm quyền, trình tự thẩm định, phê duyệt điều chỉnh dự án PPP thực hiện theo quy định tại các điều 19, 20, 21, 22 và 23 của Luật này đối với nội dung điều chỉnh.
+4. Hồ sơ điều chỉnh dự án bao gồm:
+a) Tờ trình đề nghị phê duyệt điều chỉnh dự án;
+b) Dự thảo quyết định phê duyệt điều chỉnh dự án;
+c) Báo cáo thẩm định nội dung điều chỉnh báo cáo nghiên cứu khả thi;
+d) Tài liệu pháp lý khác có liên quan của dự án.
+Điều 25. Công bố thông tin dự án PPP
+1. Trong thời hạn 10 ngày kể từ ngày có quyết định chủ trương đầu tư, quyết định điều chỉnh chủ trương đầu tư (nếu có), quyết định phê duyệt dự án, quyết định phê duyệt điều chỉnh dự án (nếu có), cơ quan có thẩm quyền tổ chức công bố thông tin dự án quy định tại khoản 2 Điều này.
+2. Thông tin dự án được công bố bao gồm:
+a) Quyết định chủ trương đầu tư, quyết định điều chỉnh chủ trương đầu tư (nếu có);
+b) Quyết định phê duyệt dự án, quyết định phê duyệt điều chỉnh dự án (nếu có);
+c) Thông tin về địa chỉ liên hệ của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, bên mời thầu.
+Mục 2. DỰ ÁN PPP DO NHÀ ĐẦU TƯ ĐỀ XUẤT
+Điều 26. Điều kiện đối với dự án PPP do nhà đầu tư đề xuất
+1. Dự án PPP do nhà đầu tư đề xuất phải đáp ứng các điều kiện sau đây:
+a) Phù hợp với điều kiện lựa chọn dự án để đầu tư theo phương thức PPP quy định tại các điểm a, b, c và d khoản 1 Điều 14 của Luật này;
+b) Không trùng với dự án PPP đang được cơ quan có thẩm quyền tổ chức lập báo cáo nghiên cứu tiền khả thi hoặc đã chấp thuận nhà đầu tư khác lập báo cáo nghiên cứu tiền khả thi;
+c) Phù hợp với chiến lược, kế hoạch phát triển kinh tế - xã hội của quốc gia và quy hoạch có liên quan theo quy định của pháp luật về quy hoạch.
+2. Dự án do nhà đầu tư đề xuất phải tổ chức đấu thầu rộng rãi hoặc đàm phán cạnh tranh theo quy định tại Điều 37 hoặc Điều 38 của Luật này.
+Điều 27. Trình tự chuẩn bị dự án PPP do nhà đầu tư đề xuất
+1. Trình tự lập hồ sơ đề xuất dự án được thực hiện như sau:
+a) Nhà đầu tư gửi văn bản đề xuất thực hiện dự án PPP đến cơ quan có thẩm quyền; trường hợp không xác định được cơ quan có thẩm quyền thì gửi đến cơ quan quản lý nhà nước về đầu tư theo phương thức PPP;
+b) Cơ quan có thẩm quyền xem xét, trả lời bằng văn bản chấp thuận hoặc không chấp thuận việc nhà đầu tư lập báo cáo nghiên cứu tiền khả thi. Nội dung văn bản chấp thuận bao gồm cách thức phối hợp với các tổ chức, đơn vị thuộc cơ quan có thẩm quyền, yêu cầu về thời hạn nộp hồ sơ đề xuất dự án của nhà đầu tư và nội dung khác có liên quan; trường hợp không chấp thuận thì nêu rõ lý do;
+c) Trường hợp được cơ quan có thẩm quyền chấp thuận, nhà đầu tư lập hồ sơ đề xuất dự án bao gồm: báo cáo nghiên cứu tiền khả thi, hồ sơ về tư cách pháp lý, năng lực, kinh nghiệm của nhà đầu tư;
+d) Nhà đầu tư gửi hồ sơ đề xuất dự án đến cơ quan có thẩm quyền;
+đ) Trường hợp hồ sơ đề xuất dự án không được chấp thuận thì nhà đầu tư chịu mọi chi phí, rủi ro.
+2. Dự án do nhà đầu tư đề xuất được tổ chức thẩm định và quyết định chủ trương đầu tư theo quy định tại các điều 6, 12 ,13, 14, 15, 16 và 17 của Luật này.
+3. Trình tự lập, thẩm định báo cáo nghiên cứu khả thi và phê duyệt dự án được thực hiện như sau:
+a) Nhà đầu tư tổ chức lập báo cáo nghiên cứu khả thi theo quy định tại Điều 19 của Luật này;
+b) Báo cáo nghiên cứu khả thi do nhà đầu tư lập được tổ chức thẩm định theo quy định tại Điều 20 của Luật này;
+c) Dự án được phê duyệt theo quy định tại các điều 21, 22 và 23 của Luật này;
+d) Trường hợp dự án không được phê duyệt thì nhà đầu tư chịu mọi chi phí, rủi ro.
+4. Trình tự công bố dự án được thực hiện như sau:
+a) Sau khi dự án do nhà đầu tư đề xuất được cấp có thẩm quyền quyết định chủ trương đầu tư, phê duyệt dự án, cơ quan có thẩm quyền tổ chức công bố thông tin về dự án theo quy định tại Điều 25 của Luật này và tên nhà đầu tư đề xuất dự án;
+b) Đối với dự án có nội dung liên quan đến quyền sở hữu trí tuệ, bí mật thương mại, công nghệ hoặc các thỏa thuận huy động vốn để thực hiện dự án cần bảo mật, nhà đầu tư thỏa thuận với cơ quan có thẩm quyền về nội dung thông tin không công bố.
+5. Việc điều chỉnh chủ trương đầu tư dự án PPP thực hiện theo quy định tại Điều 18 của Luật này; việc điều chỉnh dự án PPP thực hiện theo quy định tại Điều 24 của Luật này.
+6. Chi phí lập báo cáo nghiên cứu tiền khả thi và báo cáo nghiên cứu khả thi được tính vào tổng mức đầu tư của dự án. Trường hợp nhà đầu tư đề xuất dự án không được lựa chọn, chi phí lập báo cáo nghiên cứu tiền khả thi, báo cáo nghiên cứu khả thi được nhà đầu tư được lựa chọn hoàn trả.
+7. Chính phủ quy định chi tiết Điều này.
+Chương III
+LỰA CHỌN NHÀ ĐẦU TƯ
+Mục 1. QUY ĐỊNH CHUNG VỀ LỰA CHỌN NHÀ ĐẦU TƯ
+Điều 28. Quy trình lựa chọn nhà đầu tư
+1. Việc lựa chọn nhà đầu tư được thực hiện theo quy trình sau đây:
+a) Lựa chọn danh sách ngắn (nếu áp dụng);
+b) Chuẩn bị lựa chọn nhà đầu tư;
+c) Tổ chức lựa chọn nhà đầu tư;
+d) Đánh giá hồ sơ dự thầu;
+đ) Trình, thẩm định, phê duyệt và công khai kết quả lựa chọn nhà đầu tư;
+e) Đàm phán, hoàn thiện, ký kết hợp đồng dự án PPP, công khai thông tin hợp đồng.
+2. Căn cứ điều kiện cụ thể từng dự án, cơ quan có thẩm quyền thực hiện việc lựa chọn danh sách ngắn sau khi quyết định chủ trương đầu tư theo quy định tại điểm a khoản 1 Điều 11 của Luật này hoặc sau khi phê duyệt dự án theo quy định tại điểm b khoản 1 Điều 11 của Luật này.
+3. Việc lựa chọn nhà đầu tư theo quy trình quy định tại khoản 1 Điều này trên Hệ thống mạng đấu thầu quốc gia được thực hiện theo lộ trình do Bộ trưởng Bộ Kế hoạch và Đầu tư quy định.
+4. Nhà đầu tư có hồ sơ đề xuất dự án được chấp thuận được ưu đãi khi đánh giá hồ sơ dự thầu.
+5. Nhà đầu tư cam kết sử dụng nhà thầu, hàng hóa, vật tư, vật liệu, thiết bị trong nước được ưu đãi khi đánh giá hồ sơ dự thầu.
+6. Chính phủ quy định chi tiết Điều này.
+Điều 29. Tư cách hợp lệ của nhà đầu tư
+Nhà đầu tư có tư cách hợp lệ khi đáp ứng các điều kiện sau đây:
+1. Có đăng ký thành lập, hoạt động được cấp bởi cơ quan có thẩm quyền của quốc gia hoặc vùng lãnh thổ mà nhà đầu tư đang hoạt động;
+2. Hạch toán tài chính độc lập; bảo đảm cạnh tranh trong lựa chọn nhà đầu tư;
+3. Không đang trong quá trình giải thể; không thuộc trường hợp mất khả năng thanh toán theo quy định của pháp luật về phá sản;
+4. Không đang trong thời gian bị cấm tham gia hoạt động đầu tư theo phương thức PPP;
+5. Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ phải liên danh với nhà đầu tư thuộc khu vực tư nhân để tham dự thầu;
+6. Nhà đầu tư thành lập theo pháp luật nước ngoài phải đáp ứng điều kiện tiếp cận thị trường khi tham gia lựa chọn nhà đầu tư đối với dự án thuộc ngành, nghề tiếp cận thị trường có điều kiện theo quy định của pháp luật về đầu tư.
+Điều 30. Bảo đảm cạnh tranh trong lựa chọn nhà đầu tư
+Nhà đầu tư tham dự thầu phải độc lập về pháp lý và độc lập về tài chính với các bên sau đây:
+1. Tư vấn lập báo cáo nghiên cứu tiền khả thi, báo cáo nghiên cứu khả thi, trừ trường hợp dự án do nhà đầu tư đề xuất;
+2. Tư vấn thẩm định báo cáo nghiên cứu tiền khả thi, báo cáo nghiên cứu khả thi;
+3. Tư vấn lập, thẩm định hồ sơ mời sơ tuyển, hồ sơ mời thầu; đánh giá, thẩm định kết quả sơ tuyển, kết quả lựa chọn nhà đầu tư;
+4. Cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, bên mời thầu.
+Điều 31. Lựa chọn nhà đầu tư trong nước, nhà đầu tư quốc tế
+1. Việc lựa chọn nhà đầu tư trong nước được thực hiện thông qua các hình thức quy định tại các điều 37, 38, 39 và 40 của Luật này, trong đó chỉ có nhà đầu tư thành lập theo pháp luật Việt Nam được tham dự.
+2. Việc lựa chọn nhà đầu tư quốc tế được thực hiện thông qua các hình thức quy định tại các điều 37, 38, 39 và 40 của Luật này, trong đó nhà đầu tư thành lập theo pháp luật nước ngoài và nhà đầu tư thành lập theo pháp luật Việt Nam đều được tham dự.
+3. Việc lựa chọn nhà đầu tư quốc tế được áp dụng đối với tất cả các dự án PPP, trừ trường hợp sau đây:
+a) Dự án thuộc ngành, nghề chưa được tiếp cận thị trường đối với nhà đầu tư nước ngoài theo quy định của pháp luật về đầu tư;
+b) Dự án cần bảo đảm yêu cầu về quốc phòng, an ninh quốc gia, bảo vệ bí mật nhà nước.
+Điều 32. Ngôn ngữ sử dụng trong lựa chọn nhà đầu tư
+Ngôn ngữ sử dụng trong lựa chọn nhà đầu tư là tiếng Việt đối với lựa chọn nhà đầu tư trong nước; là tiếng Anh hoặc tiếng Việt và tiếng Anh đối với lựa chọn nhà đầu tư quốc tế.
+Điều 33. Bảo đảm dự thầu
+1. Căn cứ vào quy mô và tính chất của từng dự án, giá trị bảo đảm dự thầu được quy định trong hồ sơ mời thầu theo mức xác định từ 0,5% đến 1,5% tổng mức đầu tư của dự án.
+2. Thời gian có hiệu lực của bảo đảm dự thầu được quy định trong hồ sơ mời thầu bằng thời gian có hiệu lực của hồ sơ dự thầu cộng thêm 30 ngày.
+3. Trường hợp gia hạn thời gian có hiệu lực của hồ sơ dự thầu, bên mời thầu phải yêu cầu nhà đầu tư gia hạn tương ứng thời gian có hiệu lực của bảo đảm dự thầu với điều kiện không thay đổi nội dung trong hồ sơ dự thầu đã nộp. Trường hợp nhà đầu tư từ chối gia hạn thì hồ sơ dự thầu sẽ không còn giá trị và bị loại.
+4. Trường hợp liên danh tham dự thầu, từng thành viên trong liên danh có thể thực hiện bảo đảm dự thầu riêng rẽ hoặc thỏa thuận để một thành viên chịu trách nhiệm thực hiện bảo đảm dự thầu cho thành viên đó và cho thành viên khác trong liên danh. Tổng giá trị của bảo đảm dự thầu không thấp hơn giá trị yêu cầu trong hồ sơ mời thầu. Trường hợp có thành viên trong liên danh vi phạm quy định tại khoản 6 Điều này thì bảo đảm dự thầu của tất cả thành viên trong liên danh không được hoàn trả.
+5. Bên mời thầu phải hoàn trả hoặc giải tỏa bảo đảm dự thầu cho nhà đầu tư không được lựa chọn theo thời hạn quy định trong hồ sơ mời thầu nhưng không quá 14 ngày kể từ ngày kết quả lựa chọn nhà đầu tư được phê duyệt. Đối với nhà đầu tư được lựa chọn, bảo đảm dự thầu được hoàn trả hoặc giải tỏa sau khi doanh nghiệp dự án PPP do nhà đầu tư thành lập thực hiện bảo đảm thực hiện hợp đồng theo quy định tại Điều 48 của Luật này.
+Trường hợp nhà đầu tư từ chối gia hạn theo quy định tại khoản 3 Điều này, bên mời thầu phải hoàn trả hoặc giải tỏa bảo đảm dự thầu cho nhà đầu tư trong thời hạn 14 ngày kể từ ngày bên mời thầu nhận được văn bản từ chối gia hạn.
+6. Bảo đảm dự thầu không được hoàn trả trong các trường hợp sau đây:
+a) Nhà đầu tư rút hồ sơ dự thầu trong thời gian hồ sơ dự thầu còn hiệu lực;
+b) Nhà đầu tư vi phạm pháp luật về đấu thầu dẫn đến phải hủy thầu theo quy định tại điểm đ khoản 1 Điều 34 của Luật này;
+c) Nhà đầu tư không tiến hành hoặc từ chối tiến hành đàm phán, hoàn thiện hợp đồng trong thời hạn 30 ngày kể từ ngày nhận được thông báo trúng thầu của bên mời thầu hoặc đã đàm phán, hoàn thiện hợp đồng nhưng từ chối ký kết hợp đồng, trừ trường hợp bất khả kháng;
+d) Doanh nghiệp dự án PPP do nhà đầu tư thành lập không thực hiện bảo đảm thực hiện hợp đồng theo quy định tại Điều 48 của Luật này.
+Điều 34. Hủy thầu
+1. Việc hủy thầu được thực hiện trong các trường hợp sau đây:
+a) Tất cả hồ sơ dự sơ tuyển, hồ sơ dự thầu không đáp ứng được các yêu cầu của hồ sơ mời sơ tuyển, hồ sơ mời thầu;
+b) Thay đổi mục tiêu, quy mô đã ghi trong hồ sơ mời sơ tuyển, hồ sơ mời thầu;
+c) Hồ sơ mời sơ tuyển, hồ sơ mời thầu không tuân thủ quy định của Luật này hoặc quy định khác của pháp luật có liên quan dẫn đến nhà đầu tư được lựa chọn không đáp ứng yêu cầu để thực hiện dự án;
+d) Việc tổ chức lựa chọn nhà đầu tư không tuân thủ quy định của Luật này hoặc quy định khác của pháp luật có liên quan dẫn đến hạn chế cạnh tranh giữa các nhà đầu tư;
+đ) Có bằng chứng về việc đưa, nhận, môi giới hối lộ, thông thầu, gian lận, lợi dụng chức vụ, quyền hạn để can thiệp trái pháp luật vào hoạt động đấu thầu dẫn đến làm sai lệch kết quả lựa chọn nhà đầu tư.
+2. Tổ chức, cá nhân có hành vi vi phạm dẫn đến hủy thầu theo quy định tại các điểm c, d và đ khoản 1 Điều này phải bồi thường chi phí cho các bên liên quan và bị xử lý theo quy định của pháp luật.
+Điều 35. Trách nhiệm của bên mời thầu trong quá trình lụa chọn nhà đầu tư
+1. Chịu trách nhiệm trước pháp luật và cơ quan có thẩm quyền về quá trình lựa chọn nhà đầu tư.
+2. Bảo đảm trung thực, khách quan, công bằng.
+3. Bồi thường thiệt hại theo quy định của pháp luật.
+4. Bảo mật các tài liệu.
+5. Lưu trữ thông tin liên quan theo quy định của pháp luật về lưu trữ.
+Điều 36. Xử lý tình huống lựa chọn nhà đầu tư trong quá trình thực hiện dự án
+1. Xử lý tình huống lựa chọn nhà đầu tư trong quá trình thực hiện dự án là việc giải quyết trường hợp phát sinh chưa được quy định cụ thể, rõ ràng trong Luật này.
+2. Cơ quan có thẩm quyền, bên mời thầu chịu trách nhiệm trước pháp luật về quyết định xử lý tình huống trên cơ sở bảo đảm các nguyên tắc sau đây:
+a) Cạnh tranh, công bằng, minh bạch và hiệu quả kinh tế;
+b) Căn cứ quyết định chủ trương đầu tư; quyết định phê duyệt dự án; hồ sơ mời sơ tuyển, hồ sơ mời thầu; hồ sơ dự sơ tuyển, hồ sơ dự thầu; kết quả sơ tuyển, kết quả lựa chọn nhà đầu tư; hợp đồng đã ký kết với nhà đầu tư được lựa chọn; tình hình thực tế triển khai thực hiện dự án.
+3. Chính phủ quy định chi tiết Điều này.
+Mục 2. HÌNH THỨC LỰA CHỌN NHÀ ĐẦU TƯ
+Điều 37. Đấu thầu rộng rãi
+1. Đấu thầu rộng rãi là hình thức lựa chọn nhà đầu tư trong đó không hạn chế số lượng nhà đầu tư tham dự.
+2. Đấu thầu rộng rãi phải được áp dụng cho tất cả dự án PPP, trừ trường hợp quy định tại các điều 38, 39 và 40 của Luật này.
+Điều 38. Đàm phán cạnh tranh
+Đàm phán cạnh tranh được áp dụng trong các trường hợp sau đây:
+1. Có không quá 03 nhà đầu tư đáp ứng yêu cầu thực hiện dự án được mời tham dự;
+2. Dự án ứng dụng công nghệ cao thuộc danh mục công nghệ cao được ưu tiên đầu tư phát triển theo quy định của pháp luật về công nghệ cao;
+3. Dự án ứng dụng công nghệ mới theo quy định của pháp luật về chuyển giao công nghệ.
+Điều 39. Chỉ định nhà đầu tư
+1. Chỉ định nhà đầu tư được áp dụng trong các trường hợp sau đây:
+a) Dự án cần bảo đảm yêu cầu về quốc phòng, an ninh quốc gia, bảo vệ bí mật nhà nước;
+b) Dự án cần phải lựa chọn ngay nhà đầu tư thay thế theo quy định tại điểm a khoản 4 Điều 52 của Luật này để bảo đảm tính liên tục trong quá trình thực hiện dự án.
+2. Cấp có thẩm quyền phê duyệt dự án quyết định việc chỉ định nhà đầu tư; trường hợp chỉ định nhà đầu tư đối với dự án theo quy định tại điểm a khoản 1 Điều này thì trước khi chỉ định nhà đầu tư phải được Thủ tướng Chính phủ chấp thuận trên cơ sở có ý kiến của Bộ Quốc phòng, Bộ Công an đối với yêu cầu về bảo đảm quốc phòng, an ninh quốc gia, bảo vệ bí mật nhà nước.
+Điều 40. Lựa chọn nhà đầu tư trong trường hợp đặc biệt
+1. Trường hợp dự án PPP xuất hiện các điều kiện đặc thù, riêng biệt mà không thể áp dụng các hình thức lựa chọn nhà đầu tư quy định tại các điều 37, 38 và 39 của Luật này, cơ quan có thẩm quyền trình Thủ tướng Chính phủ xem xét, quyết định phương án lựa chọn nhà đầu tư.
+2. Hồ sơ trình Thủ tướng Chính phủ bao gồm các nội dung sau đây:
+a) Thông tin cơ bản của dự án;
+b) Thuyết minh về điều kiện đặc thù, riêng biệt của dự án;
+c) Phương án lựa chọn nhà đầu tư trong trường hợp đặc biệt, bao gồm: các bước thực hiện lựa chọn nhà đầu tư; giải pháp cụ thể để giải quyết được tính đặc thù, riêng biệt của dự án được đề xuất để bảo đảm hiệu quả đầu tư của dự án.
+Mục 3. PHƯƠNG PHÁP VÀ TIÊU CHUẨN ĐÁNH GIÁ HỒ SƠ DỰ SƠ TUYỂN, HỒ SƠ DỰ THẦU
+Điều 41. Phương pháp và tiêu chuẩn đánh giá hồ sơ dự sơ tuyển
+1. Việc đánh giá hồ sơ dự sơ tuyển căn cứ phương pháp chấm điểm theo thang điểm 100 hoặc 1.000 quy định trong hồ sơ mời sơ tuyển. Phương pháp chấm điểm được xây dựng trên các tiêu chuẩn đánh giá hồ sơ dự sơ tuyển quy định tại khoản 2 Điều này.
+2. Tiêu chuẩn đánh giá hồ sơ dự sơ tuyển bao gồm các nội dung cơ bản sau đây:
+a) Năng lực, kinh nghiệm về tài chính - thương mại, khả năng thu xếp vốn; kinh nghiệm thực hiện các dự án tương tự.
+Trường hợp liên danh, năng lực, kinh nghiệm của nhà đầu tư được xác định bằng tổng năng lực, kinh nghiệm của các thành viên liên danh; nhà đầu tư đứng đầu liên danh phải có tỷ lệ góp vốn chủ sở hữu tối thiểu là 30%, từng thành viên trong liên danh có tỷ lệ góp vốn chủ sở hữu tối thiểu là 15%;
+b) Phương án sơ bộ triển khai thực hiện dự án và cam kết thực hiện dự án;
+c) Lịch sử tranh chấp, khiếu kiện đối với các hợp đồng đã và đang thực hiện.
+Điều 42. Phương pháp và tiêu chuẩn đánh giá hồ sơ dự thầu
+1. Việc đánh giá về năng lực, kinh nghiệm căn cứ theo thang điểm 100 hoặc 1.000 quy định trong hồ sơ mời thầu. Tiêu chuẩn đánh giá về năng lực, kinh nghiệm được thực hiện theo quy định tại khoản 2 Điều 41 của Luật này.
+2. Việc đánh giá về mặt kỹ thuật căn cứ theo thang điểm 100 hoặc 1.000 hoặc phương pháp đánh giá đạt hoặc không đạt quy định trong hồ sơ mời thầu. Tiêu chuẩn đánh giá về mặt kỹ thuật bao gồm: tiêu chuẩn về chất lượng, công suất, hiệu suất; tiêu chuẩn vận hành, quản lý, kinh doanh, bảo trì, bảo dưỡng; tiêu chuẩn về môi trường và an toàn; tiêu chuẩn kỹ thuật khác.
+3. Việc đánh giá về tài chính - thương mại căn cứ theo phương pháp so sánh, xếp hạng quy định trong hồ sơ mời thầu. Phương pháp so sánh, xếp hạng được xây dựng trên các tiêu chuẩn đánh giá về tài chính - thương mại, bao gồm một trong các tiêu chuẩn sau đây:
+a) Tiêu chuẩn giá, phí sản phẩm, dịch vụ công;
+b) Tiêu chuẩn vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng;
+c) Tiêu chuẩn lợi ích xã hội, lợi ích nhà nước.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 43. Xét duyệt kết quả lựa chọn nhà đầu tư
+Nhà đầu tư được đề nghị lựa chọn khi đáp ứng các điều kiện sau đây:
+1. Hồ sơ dự thầu hợp lệ;
+2. Đáp ứng yêu cầu về năng lực, kinh nghiệm;
+3. Đáp ứng yêu cầu về mặt kỹ thuật;
+4. Đáp ứng yêu cầu về tài chính - thương mại;
+5. Có hồ sơ dự thầu được xếp thứ nhất.
+Chương IV
+THÀNH LẬP, HOẠT ĐỘNG CỦA DOANH NGHIỆP DỰ ÁN PPP; HỢP ĐỒNG DỰ ÁN PPP
+Điều 44. Thành lập và hoạt động của doanh nghiệp dự án PPP
+1. Sau khi có quyết định phê duyệt kết quả lựa chọn, nhà đầu tư thành lập doanh nghiệp dự án PPP theo mô hình công ty trách nhiệm hữu hạn hoặc công ty cổ phần không phải là công ty đại chúng, có mục đích duy nhất để ký kết và thực hiện hợp đồng dự án PPP. Hồ sơ đăng ký doanh nghiệp bao gồm các nội dung theo quy định của pháp luật về doanh nghiệp và quyết định phê duyệt kết quả lựa chọn nhà đầu tư.
+2. Doanh nghiệp dự án PPP được phát hành trái phiếu doanh nghiệp theo quy định tại Điều 78 của Luật này.
+3. Ngoài quy định tại khoản 1 và khoản 2 Điều này, việc thành lập, tổ chức quản lý, hoạt động, giải thể, phá sản của doanh nghiệp dự án PPP thực hiện theo quy định của pháp luật về doanh nghiệp, quy định khác của pháp luật có liên quan và hợp đồng dự án PPP.
+Điều 45. Phân loại hợp đồng dự án PPP
+1. Nhóm hợp đồng dự án áp dụng cơ chế thu phí trực tiếp từ người sử dụng hoặc tổ chức bao tiêu sản phẩm, dịch vụ công, bao gồm:
+a) Hợp đồng BOT là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để xây dựng, kinh doanh, vận hành công trình, hệ thống cơ sở hạ tầng trong thời hạn nhất định; hết thời hạn, nhà đầu tư, doanh nghiệp dự án PPP chuyển giao công trình, hệ thống cơ sở hạ tầng đó cho Nhà nước;
+b) Hợp đồng BTO là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để xây dựng công trình, hệ thống cơ sở hạ tầng; sau khi hoàn thành xây dựng, nhà đầu tư, doanh nghiệp dự án PPP chuyển giao công trình, hệ thống cơ sở hạ tầng cho Nhà nước và được quyền kinh doanh, vận hành công trình, hệ thống cơ sở hạ tầng đó trong thời hạn nhất định;
+c) Hợp đồng BOO là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để xây dựng, sở hữu, kinh doanh, vận hành công trình, hệ thống cơ sở hạ tầng trong thời hạn nhất định; hết thời hạn, nhà đầu tư, doanh nghiệp dự án PPP chấm dứt hợp đồng;
+d) Hợp đồng O&M là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để kinh doanh, quản lý một phần hoặc toàn bộ công trình, hệ thống cơ sở hạ tầng sẵn có trong thời hạn nhất định; hết thời hạn, nhà đầu tư, doanh nghiệp dự án PPP chấm dứt hợp đồng.
+2. Nhóm hợp đồng dự án áp dụng cơ chế Nhà nước thanh toán trên cơ sở chất lượng sản phẩm, dịch vụ công, bao gồm:
+a) Hợp đồng BTL là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để xây dựng công trình, hệ thống cơ sở hạ tầng và chuyển giao cho Nhà nước sau khi hoàn thành; được quyền cung cấp sản phẩm, dịch vụ công trên cơ sở vận hành, khai thác công trình, hệ thống cơ sở hạ tầng đó trong thời hạn nhất định; cơ quan ký kết hợp đồng thuê dịch vụ và thanh toán cho nhà đầu tư, doanh nghiệp dự án PPP;
+b) Hợp đồng BLT là hợp đồng mà nhà đầu tư, doanh nghiệp dự án PPP được nhượng quyền để xây dựng công trình, hệ thống cơ sở hạ tầng và cung cấp sản phẩm, dịch vụ công trên cơ sở vận hành, khai thác công trình, hệ thống cơ sở hạ tầng đó trong thời hạn nhất định; cơ quan ký kết hợp đồng thuê dịch vụ và thanh toán cho nhà đầu tư, doanh nghiệp dự án PPP; hết thời hạn, nhà đầu tư, doanh nghiệp dự án PPP chuyển giao công trình, hệ thống cơ sở hạ tầng đó cho Nhà nước.
+3. Hợp đồng hỗn hợp là hợp đồng kết hợp giữa các loại hợp đồng quy định tại khoản 1 và khoản 2 Điều này.
+4. Đối với dự án quy định tại điểm b khoản 9 Điều 3 của Luật này, không áp dụng loại hợp đồng thông qua cơ chế thu phí trực tiếp từ người sử dụng.
+Điều 46. Hồ sơ hợp đồng dự án PPP
+1. Hồ sơ hợp đồng dự án PPP bao gồm các tài liệu chủ yếu sau đây:
+a) Hợp đồng dự án PPP bao gồm điều kiện chung, điều kiện cụ thể;
+b) Phụ lục hợp đồng (nếu có);
+c) Biên bản đàm phán hợp đồng;
+d) Quyết định phê duyệt kết quả lựa chọn nhà đầu tư;
+đ) Hồ sơ dự thầu và các tài liệu làm rõ hồ sơ dự thầu của nhà đầu tư được lựa chọn;
+e) Hồ sơ mời thầu và các tài liệu sửa đổi, bổ sung hồ sơ mời thầu.
+2. Khi có sự thay đổi các nội dung hợp đồng, các bên phải ký kết phụ lục hợp đồng.
+Điều 47. Nội dung cơ bản của hợp đồng dự án PPP
+1. Hợp đồng dự án PPP bao gồm các nội dung cơ bản sau đây:
+a) Mục tiêu, quy mô, địa điểm và tiến độ thực hiện dự án; thời gian xây dựng công trình, hệ thống cơ sở hạ tầng; thời điểm có hiệu lực của hợp đồng; thời hạn hợp đồng;
+b) Phạm vi và yêu cầu về kỹ thuật, công nghệ, chất lượng công trình, hệ thống cơ sở hạ tầng, sản phẩm, dịch vụ công được cung cấp;
+c) Tổng mức đầu tư; cơ cấu nguồn vốn; phương án tài chính, trong đó có kế hoạch thu xếp tài chính; giá, phí sản phẩm, dịch vụ công, trong đó có phương pháp và công thức để thiết lập hoặc điều chỉnh; vốn nhà nước trong dự án PPP và hình thức quản lý, sử dụng tương ứng (nếu có);
+d) Điều kiện sử dụng đất và tài nguyên khác; phương án tổ chức xây dựng công trình phụ trợ; yêu cầu về bồi thường, hỗ trợ, tái định cư; bảo đảm an toàn và bảo vệ môi trường; trường hợp bất khả kháng và phương án xử lý trong trường hợp bất khả kháng;
+đ) Trách nhiệm thực hiện các thủ tục xin cấp phép theo quy định của pháp luật có liên quan; thiết kế; tổ chức thi công; kiểm tra, giám sát, quản lý chất lượng trong giai đoạn xây dựng; nghiệm thu, quyết toán vốn đầu tư và xác nhận hoàn thành công trình, hệ thống cơ sở hạ tầng; cung cấp nguyên liệu đầu vào chủ yếu cho các hoạt động sản xuất, kinh doanh của dự án;
+e) Trách nhiệm trong việc vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng để sản phẩm, dịch vụ công được cung cấp liên tục, ổn định; điều kiện, trình tự, thủ tục chuyển giao công trình, hệ thống cơ sở hạ tầng;
+g) Bảo đảm thực hiện hợp đồng; quyền sở hữu, quyền quản lý, khai thác các loại tài sản liên quan đến dự án; quyền và nghĩa vụ của nhà đầu tư, doanh nghiệp dự án PPP; thỏa thuận về việc sử dụng dịch vụ bảo lãnh của bên thứ ba đối với nghĩa vụ của cơ quan ký kết hợp đồng;
+h) Phương án xử lý trong trường hợp hoàn cảnh thay đổi cơ bản theo quy định của pháp luật về dân sự để tiếp tục thực hiện hợp đồng; biện pháp xử lý, bồi thường, xử phạt trong trường hợp một trong các bên vi phạm hợp đồng;
+i) Trách nhiệm của các bên liên quan đến bảo mật thông tin; chế độ báo cáo; cung cấp thông tin, tài liệu liên quan và giải trình việc thực hiện hợp đồng theo yêu cầu của cơ quan có thẩm quyền, cơ quan thanh tra, kiểm tra, kiểm toán, giám sát;
+k) Các nguyên tắc, điều kiện sửa đổi, bổ sung, chấm dứt hợp đồng trước thời hạn; chuyển nhượng quyền và nghĩa vụ của các bên; quyền của bên cho vay; thủ tục, quyền và nghĩa vụ của các bên khi thanh lý hợp đồng;
+l) Ưu đãi, bảo đảm đầu tư, phương án chia sẻ phần tăng, giảm doanh thu, bảo đảm cân đối ngoại tệ, các loại bảo hiểm (nếu có);
+m) Pháp luật điều chỉnh hợp đồng và cơ chế giải quyết tranh chấp.
+2. Hợp đồng dự án PPP phải xác định cụ thể quyền và nghĩa vụ của cơ quan ký kết hợp đồng, nhà đầu tư và doanh nghiệp dự án PPP.
+3. Chính phủ quy định về hợp đồng mẫu đối với các loại hợp đồng quy định tại Điều 45 của Luật này.
+Điều 48. Bảo đảm thực hiện hợp đồng dự án PPP
+1. Doanh nghiệp dự án PPP phải thực hiện biện pháp bảo đảm thực hiện hợp đồng trước thời điểm hợp đồng có hiệu lực.
+2. Căn cứ quy mô, tính chất của dự án, giá trị bảo đảm thực hiện hợp đồng được quy định trong hồ sơ mời thầu theo mức xác định từ 01% đến 03% tổng mức đầu tư của dự án.
+3. Thời gian có hiệu lực của bảo đảm thực hiện hợp đồng tính từ ngày hợp đồng có hiệu lực cho đến ngày doanh nghiệp dự án PPP hoàn thành nghĩa vụ trong giai đoạn xây dựng công trình, hệ thống cơ sở hạ tầng theo hợp đồng; trường hợp cần kéo dài thời gian xây dựng, nhà đầu tư phải gia hạn tương ứng thời gian có hiệu lực của bảo đảm thực hiện hợp đồng.
+4. Doanh nghiệp dự án PPP được hoàn trả hoặc giải tỏa bảo đảm thực hiện hợp đồng sau khi hoàn thành nghĩa vụ xây dựng công trình, hệ thống cơ sở hạ tầng, trừ trường hợp quy định tại khoản 5 Điều này; đối với hợp đồng O&M, bảo đảm thực hiện hợp đồng được hoàn trả hoặc giải tỏa sau khi nhà đầu tư hoàn thành nghĩa vụ theo hợp đồng.
+5. Doanh nghiệp dự án PPP không được hoàn trả hoặc giải tỏa bảo đảm thực hiện hợp đồng trong các trường hợp sau đây:
+a) Từ chối thực hiện hợp đồng sau khi ký kết hợp đồng;
+b) Vi phạm thỏa thuận trong hợp đồng dẫn đến chấm dứt hợp đồng trước thời hạn theo quy định tại điểm d khoản 2 Điều 52 của Luật này;
+c) Không gia hạn hiệu lực của bảo đảm thực hiện hợp đồng theo quy định tại khoản 3 Điều này.
+6. Chính phủ quy định chi tiết tỷ lệ giá trị bảo đảm thực hiện hợp đồng quy định tại khoản 2 Điều này.
+Điều 49. Ký kết hợp đồng dự án PPP
+1. Hợp đồng được ký kết trên cơ sở quyết định phê duyệt kết quả lựa chọn nhà đầu tư, kết quả đàm phán hợp đồng, hồ sơ dự thầu còn hiệu lực, thông tin năng lực của nhà đầu tư đã được cập nhật tại thời điểm ký kết và hồ sơ mời thầu.
+2. Nhà đầu tư, doanh nghiệp dự án PPP hợp thành một bên và cùng ký vào hợp đồng với cơ quan ký kết hợp đồng.
+3. Đối với nhà đầu tư liên danh, tất cả các thành viên liên danh phải trực tiếp ký, đóng dấu (nếu có) vào hợp đồng.
+Điều 50. Sửa đổi hợp đồng dự án PPP
+1. Việc sửa đổi hợp đồng dự án PPP phải quy định trong hợp đồng và được các bên xem xét khi thuộc một trong các trường hợp sau đây:
+a) Dự án bị ảnh hưởng bởi sự kiện bất khả kháng hoặc khi hoàn cảnh thay đổi cơ bản hoặc có sự thay đổi về quy hoạch, chính sách, pháp luật có liên quan gây ảnh hưởng nghiêm trọng đến phương án kỹ thuật, tài chính của dự án, giá, phí sản phẩm, dịch vụ công do doanh nghiệp dự án PPP cung cấp;
+b) Điều chỉnh một trong các bên ký kết hợp đồng;
+c) Điều chỉnh thời hạn hợp đồng dự án PPP theo quy định tại khoản 2 và khoản 3 Điều 51 của Luật này;
+d) Trường hợp khác thuộc thẩm quyền của cơ quan ký kết hợp đồng mà không làm thay đổi chủ trương đầu tư, mang lại hiệu quả cao hơn về tài chính, kinh tế - xã hội cho dự án.
+2. Trình tự sửa đổi hợp đồng dự án PPP được quy định như sau:
+a) Một trong các bên hợp đồng có văn bản đề nghị sửa đổi hợp đồng, trong đó nêu rõ trường hợp được áp dụng để xem xét sửa đổi;
+b) Các bên tổ chức đàm phán các nội dung hợp đồng dự kiến sửa đổi bao gồm giá, phí sản phẩm, dịch vụ công; thời hạn hợp đồng; các nội dung khác của hợp đồng khi có sự thay đổi;
+c) Các bên ký kết phụ lục hợp đồng đối với các nội dung sửa đổi.
+3. Trường hợp sửa đổi hợp đồng dẫn đến thay đổi mục tiêu, địa điểm, quy mô, loại hợp đồng dự án PPP, tăng tổng mức đầu tư từ 10% trở lên, tăng giá trị vốn nhà nước trong dự án PPP sau khi đã sử dụng hết dự phòng thì phải thực hiện thủ tục điều chỉnh chủ trương đầu tư theo quy định tại Điều 18 của Luật này trước khi ký kết phụ lục hợp đồng đối với các nội dung sửa đổi.
+Điều 51. Thời hạn hợp đồng dự án PPP
+1. Thời hạn hợp đồng do các bên thỏa thuận căn cứ vào quyết định phê duyệt dự án và kết quả lựa chọn nhà đầu tư.
+2. Các bên ký kết hợp đồng được điều chỉnh thời hạn hợp đồng nhưng bảo đảm tổng thời hạn hợp đồng, bao gồm thời gian điều chỉnh không vượt quá thời hạn giao đất, cho thuê đất theo quy định của pháp luật về đất đai và không làm thay đổi các nội dung khác của quyết định chủ trương đầu tư dự án.
+3. Các trường hợp điều chỉnh thời hạn hợp đồng bao gồm:
+a) Chậm trễ hoàn thành giai đoạn xây dựng hoặc gián đoạn trong quá trình vận hành công trình, hệ thống cơ sở hạ tầng do hoàn cảnh thay đổi cơ bản theo quy định của pháp luật về dân sự vượt quá tầm kiểm soát hợp lý của một bên;
+b) Cơ quan có thẩm quyền hoặc cơ quan có thẩm quyền khác của Nhà nước đình chỉ dự án, trừ trường hợp phải đình chỉ do lỗi của doanh nghiệp dự án PPP;
+c) Chi phí gia tăng phát sinh do yêu cầu của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng chưa được xác định khi ký kết hợp đồng và nếu không được gia hạn thì doanh nghiệp dự án PPP không thể thu hồi các chi phí này;
+d) Khi có sự thay đổi về quy hoạch, chính sách, pháp luật có liên quan làm giảm doanh thu dưới 75% so với mức doanh thu trong phương án tài chính quy định tại hợp đồng;
+đ) Khi doanh thu tăng từ 125% trở lên so với mức doanh thu trong phương án tài chính quy định tại hợp đồng.
+Điều 52. Chấm dứt hợp đồng dự án PPP
+1. Việc chấm dứt hợp đồng dự án PPP thực hiện theo quy định tại hợp đồng, làm cơ sở cho việc thanh lý hợp đồng.
+2. Việc chấm dứt hợp đồng dự án PPP trước thời hạn chỉ áp dụng trong các trường hợp sau đây:
+a) Dự án bị ảnh hưởng bởi sự kiện bất khả kháng mà các bên đã thực hiện các biện pháp khắc phục nhưng không bảo đảm việc tiếp tục thực hiện hợp đồng dự án PPP;
+b) Vì lợi ích quốc gia; bảo đảm yêu cầu về quốc phòng, an ninh quốc gia, bảo vệ bí mật nhà nước;
+c) Khi doanh nghiệp dự án PPP mất khả năng thanh toán theo quy định của pháp luật về phá sản;
+d) Khi một trong các bên trong hợp đồng vi phạm nghiêm trọng việc thực hiện các nghĩa vụ quy định tại hợp đồng;
+đ) Trường hợp khác do hoàn cảnh thay đổi cơ bản theo quy định của pháp luật về dân sự, các bên ký kết hợp đồng thỏa thuận về chấm dứt hợp đồng.
+3. Cơ quan ký kết hợp đồng phải báo cáo cấp có thẩm quyền trước khi chấm dứt hợp đồng.
+4. Trường hợp chấm dứt hợp đồng dự án PPP trước thời hạn, cơ quan ký kết hợp đồng thực hiện các nhiệm vụ sau đây:
+a) Phối hợp với bên cho vay tổ chức lựa chọn nhà đầu tư thay thế để ký kết hợp đồng dự án PPP mới;
+b) Trong thời gian chưa thực hiện phương án xử lý, chưa lựa chọn được nhà đầu tư thay thế, cơ quan ký kết hợp đồng chịu trách nhiệm tổ chức bảo đảm an toàn, chống xuống cấp cho công trình, hệ thống cơ sở hạ tầng đối với dự án đang trong giai đoạn xây dựng; tổ chức vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng nhằm bảo đảm tính liên tục của việc cung cấp sản phẩm, dịch vụ công đối với dự án đang trong giai đoạn vận hành.
+5. Cơ quan ký kết hợp đồng thực hiện nhiệm vụ quy định tại khoản 4 Điều này được sử dụng nguồn vốn quy định tại khoản 3 Điều 73 của Luật này và nguồn thu hợp pháp khác.
+6. Trường hợp chấm dứt hợp đồng dự án PPP trước thời hạn quy định tại điểm b khoản 2 Điều này hoặc do cơ quan ký kết hợp đồng vi phạm nghiêm trọng việc thực hiện nghĩa vụ hợp đồng quy định tại điểm d khoản 2 Điều này, kinh phí mua lại doanh nghiệp dự án PPP hoặc bồi thường chấm dứt hợp đồng được bố trí từ vốn nhà nước theo quy định của pháp luật; trường hợp chấm dứt do lỗi của nhà đầu tư quy định tại điểm c và điểm d khoản 2 Điều này thì nhà đầu tư có trách nhiệm chuyển nhượng cổ phần, phần vốn góp cho nhà đầu tư thay thế.
+7. Chính phủ quy định chi tiết Điều này.
+Điều 53. Quyền của bên cho vay
+1. Trong quá trình thực hiện hợp đồng dự án PPP, quyền của bên cho vay thực hiện theo thỏa thuận của các bên trong hợp đồng cấp tín dụng, hợp đồng dự án PPP và quy định của pháp luật có liên quan.
+2. Trường hợp chấm dứt hợp đồng dự án PPP trước thời hạn mà phải lựa chọn nhà đầu tư thay thế, bên cho vay phối hợp với cơ quan ký kết hợp đồng lựa chọn nhà đầu tư thay thế quy định tại điểm b khoản 1 Điều 39 của Luật này.
+3. Nội dung quy định tại khoản 2 Điều này phải được thỏa thuận bằng văn bản giữa cơ quan ký kết hợp đồng, bên cho vay và nhà đầu tư, doanh nghiệp dự án PPP.
+Điều 54. Chuyển nhượng cổ phần, phần vốn góp, quyền và nghĩa vụ theo hợp đồng dự án PPP
+1. Trường hợp doanh nghiệp dự án PPP do nhà đầu tư liên danh thành lập, các thành viên có quyền chuyển nhượng cổ phần, phần vốn góp cho nhau nhưng phải bảo đảm tỷ lệ vốn chủ sở hữu tối thiểu của từng thành viên theo quy định tại điểm a khoản 2 Điều 41 của Luật này.
+2. Nhà đầu tư có quyền chuyển nhượng cổ phần, phần vốn góp cho nhà đầu tư khác sau khi hoàn thành xây dựng công trình đối với dự án có cấu phần xây dựng hoặc sau khi chuyển sang giai đoạn vận hành đối với dự án không có cấu phần xây dựng.
+3. Việc chuyển nhượng quy định tại khoản 1 và khoản 2 Điều này phải đáp ứng các yêu cầu sau đây:
+a) Không được làm thay đổi việc thực hiện hợp đồng dự án PPP đã ký kết;
+b) Tuân thủ quy định của pháp luật có liên quan;
+c) Được cơ quan ký kết hợp đồng chấp thuận;
+d) Có sự thỏa thuận của bên cho vay và các thành viên trong liên danh trong trường hợp là nhà đầu tư liên danh.
+4. Bên nhận chuyển nhượng phải đáp ứng các yêu cầu sau đây:
+a) Không bị hạn chế quyền được nhận chuyển nhượng theo quy định của pháp luật;
+b) Có năng lực tài chính, quản trị để thực hiện hợp đồng dự án PPP và các hợp đồng có liên quan;
+c) Cam kết tiếp tục thực hiện các quyền và nghĩa vụ của bên chuyển nhượng theo quy định tại hợp đồng dự án PPP và các hợp đồng có liên quan.
+5. Trường hợp chuyển nhượng theo quy định tại khoản 1 và khoản 2 Điều này làm thay đổi nội dung đăng ký doanh nghiệp thì doanh nghiệp dự án PPP phải thực hiện theo quy định có liên quan của pháp luật về doanh nghiệp.
+Điều 55. Pháp luật điều chỉnh hợp đồng dự án PPP
+Hợp đồng dự án PPP và các phụ lục hợp đồng, các văn bản có liên quan khác được ký kết giữa cơ quan nhà nước Việt Nam với nhà đầu tư, doanh nghiệp dự án PPP được điều chỉnh bởi pháp luật Việt Nam. Đối với những vấn đề pháp luật Việt Nam không có quy định, các bên có thể thỏa thuận cụ thể trong hợp đồng dự án PPP trên cơ sở không được trái với các nguyên tắc cơ bản của pháp luật Việt Nam.
+Chương V
+TRIỂN KHAI THỰC HIỆN HỢP ĐỒNG DỰ ÁN PPP
+Mục 1. XÂY DỰNG CÔNG TRÌNH, HỆ THỐNG CƠ SỞ HẠ TẦNG
+Điều 56. Chuẩn bị mặt bằng xây dựng
+Ủy ban nhân dân cấp tỉnh chủ trì, phối hợp với cơ quan có thẩm quyền, cơ quan ký kết hợp đồng tổ chức bồi thường, hỗ trợ, tái định cư và hoàn thành các thủ tục giao đất, cho thuê đất, bàn giao mặt bằng để thực hiện dự án theo quy định của pháp luật về đất đai, hợp đồng dự án PPP và các hợp đồng liên quan.
+Điều 57. Lập, thẩm định, phê duyệt thiết kế sau thiết kế cơ sở và dự toán
+1. Căn cứ báo cáo nghiên cứu khả thi và quy định của hợp đồng dự án PPP, doanh nghiệp dự án PPP phải thực hiện một hoặc các nội dung sau đây:
+a) Lập thiết kế xây dựng sau thiết kế cơ sở, đối với tiểu dự án hoặc hạng mục sử dụng vốn đầu tư công thì lập dự toán gửi cơ quan chuyên môn về xây dựng theo quy định của pháp luật về xây dựng để tổ chức thẩm định;
+b) Lập thiết kế, đối với tiểu dự án hoặc hạng mục sử dụng vốn đầu tư công thì lập dự toán gửi cơ quan chuyên môn theo quy định của pháp luật khác có liên quan để tổ chức thẩm định.
+2. Doanh nghiệp dự án PPP phê duyệt thiết kế, dự toán quy định tại khoản 1 Điều này và gửi cơ quan ký kết hợp đồng các tài liệu sau đây để theo dõi, giám sát:
+a) Hồ sơ thiết kế, dự toán đã được phê duyệt;
+b) Hồ sơ thẩm định thiết kế, dự toán của cơ quan chuyên môn.
+Điều 58. Lựa chọn nhà thầu thực hiện dự án PPP
+Doanh nghiệp dự án PPP phải ban hành quy định về lựa chọn nhà thầu để áp dụng thống nhất trong doanh nghiệp trên cơ sở các nguyên tắc sau đây:
+1. Bảo đảm công bằng, minh bạch và hiệu quả kinh tế;
+2. Bảo đảm không gây ảnh hưởng, tác động tiêu cực đến quốc phòng, an ninh quốc gia, bí mật nhà nước, lợi ích quốc gia, lợi ích cộng đồng và lợi ích của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng;
+3. Nhà thầu được lựa chọn phải đáp ứng đầy đủ năng lực, kinh nghiệm, có giải pháp khả thi thực hiện gói thầu, dự án; chịu trách nhiệm về chất lượng, tiến độ thực hiện gói thầu theo hợp đồng ký kết với doanh nghiệp dự án PPP, trong đó phải có nội dung ràng buộc về trách nhiệm nếu chất lượng công trình, hệ thống cơ sở hạ tầng không đáp ứng yêu cầu tại hợp đồng dự án PPP. Doanh nghiệp dự án PPP chịu trách nhiệm về chất lượng, tiến độ thực hiện dự án;
+4. Khuyến khích sử dụng nhà thầu trong nước đối với phần công việc mà nhà thầu trong nước thực hiện được;
+5. Chỉ sử dụng lao động nước ngoài nếu lao động trong nước không đáp ứng yêu cầu.
+Điều 59. Quản lý, giám sát chất lượng công trình, hệ thống cơ sở hạ tầng
+1. Doanh nghiệp dự án PPP chịu trách nhiệm tổ chức quản lý, giám sát về chất lượng, nghiệm thu các hạng mục và toàn bộ công trình, hệ thống cơ sở hạ tầng theo quy định của pháp luật.
+2. Trong quá trình tổ chức triển khai xây dựng công trình, hệ thống cơ sở hạ tầng theo hợp đồng, cơ quan ký kết hợp đồng có trách nhiệm sau đây:
+a) Tổ chức kiểm tra việc doanh nghiệp dự án PPP giám sát quá trình thi công xây dựng công trình, hệ thống cơ sở hạ tầng;
+b) Kiểm tra việc tuân thủ các quy trình, tiêu chuẩn, quy chuẩn thi công xây dựng công trình, hệ thống cơ sở hạ tầng;
+c) Tổ chức kiểm định chất lượng bộ phận, hạng mục và toàn bộ công trình, hệ thống cơ sở hạ tầng khi có nghi ngờ về chất lượng hoặc khi có yêu cầu của cơ quan quản lý nhà nước có thẩm quyền;
+d) Đề nghị doanh nghiệp dự án PPP yêu cầu nhà thầu điều chỉnh hoặc đình chỉ thi công khi xét thấy chất lượng công việc thực hiện không bảo đảm yêu cầu.
+3. Cơ quan ký kết hợp đồng được thuê tư vấn hỗ trợ thực hiện trách nhiệm quy định tại khoản 2 Điều này.
+4. Chi phí thuê tư vấn kiểm định chất lượng và chi phí khác liên quan được thực hiện như sau:
+a) Trường hợp cơ quan ký kết hợp đồng kết luận chất lượng công trình, hệ thống cơ sở hạ tầng không đáp ứng yêu cầu tại hợp đồng do lỗi của doanh nghiệp dự án PPP, nhà thầu thì doanh nghiệp dự án PPP chịu trách nhiệm thanh toán các chi phí;
+b) Trường hợp cơ quan ký kết hợp đồng kết luận chất lượng công trình, hệ thống cơ sở hạ tầng đáp ứng yêu cầu tại hợp đồng hoặc kết luận không đáp ứng yêu cầu tại hợp đồng nhưng không do lỗi của doanh nghiệp dự án PPP, nhà thầu thì cơ quan ký kết hợp đồng sử dụng chi phí triển khai thực hiện dự án quy định tại khoản 3 Điều 73 của Luật này để thanh toán.
+Điều 60. Quyết toán vốn đầu tư công trình, hệ thống cơ sở hạ tầng
+1. Sau khi hoàn thành công trình, hệ thống cơ sở hạ tầng, cơ quan ký kết hợp đồng thực hiện quyết toán vốn đầu tư công trong dự án PPP như sau:
+a) Trường hợp vốn đầu tư công trong dự án PPP được quản lý và sử dụng theo quy định tại điểm a khoản 5 Điều 70 và khoản 2 Điều 72 của Luật này, cơ quan ký kết hợp đồng và doanh nghiệp dự án PPP thực hiện quyết toán vốn đầu tư công trong dự án PPP theo quy định của pháp luật như đối với dự án đầu tư công;
+b) Trường hợp vốn đầu tư công trong dự án PPP được quản lý và sử dụng theo quy định tại điểm b khoản 5 Điều 70 của Luật này, cơ quan ký kết hợp đồng tổng hợp giá trị đã giải ngân cho doanh nghiệp dự án PPP được kiểm toán độc lập kiểm toán, làm cơ sở để quyết toán vốn đầu tư công trong dự án PPP. Vốn đầu tư công trong dự án PPP được quyết toán không vượt quá mức vốn nhà nước được xác định tại hợp đồng.
+2. Sau khi hoàn thành công trình, hệ thống cơ sở hạ tầng, cơ quan ký kết hợp đồng và doanh nghiệp dự án PPP thực hiện quyết toán vốn đầu tư xây dựng công trình, hệ thống cơ sở hạ tầng. Giá trị quyết toán vốn đầu tư xây dựng công trình, hệ thống cơ sở hạ tầng hoặc giá trị quyết toán vốn đầu tư đối với dự án không có cấu phần xây dựng được xác định căn cứ hợp đồng đã ký kết.
+3. Cơ quan ký kết hợp đồng thỏa thuận với doanh nghiệp dự án PPP tại hợp đồng về việc lựa chọn tổ chức kiểm toán độc lập có năng lực và kinh nghiệm để thực hiện việc kiểm toán vốn đầu tư xây dựng công trình, hệ thống cơ sở hạ tầng.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 61. Xác nhận hoàn thành công trình, hệ thống cơ sở hạ tầng
+1. Sau khi hoàn thành công trình, hệ thống cơ sở hạ tầng, doanh nghiệp dự án PPP tổ chức nghiệm thu công trình, hệ thống cơ sở hạ tầng theo quy định của pháp luật về xây dựng hoặc pháp luật khác có liên quan làm cơ sở lập hồ sơ đề nghị xác nhận hoàn thành.
+2. Căn cứ hồ sơ đề nghị xác nhận hoàn thành công trình, hệ thống cơ sở hạ tầng quy định tại khoản 1 Điều này, cơ quan ký kết hợp đồng kiểm tra và cấp xác nhận hoàn thành cho doanh nghiệp dự án PPP. Trường hợp doanh nghiệp dự án PPP hoàn thành giai đoạn xây dựng trước thời hạn hoặc tiết kiệm được chi phí đầu tư thì việc xác nhận hoàn thành công trình, hệ thống cơ sở hạ tầng không ảnh hưởng đến thời hạn hợp đồng hoặc mức giá, phí sản phẩm, dịch vụ công được xác định tại hợp đồng.
+3. Chính phủ quy định hồ sơ, thời hạn xác nhận hoàn thành công trình, hệ thống cơ sở hạ tầng.
+Mục 2. QUẢN LÝ, VẬN HÀNH, KINH DOANH CÔNG TRÌNH, HỆ THỐNG CƠ SỞ HẠ TẦNG
+Điều 62. Quản lý dự án PPP
+Việc quản lý công trình, hệ thống cơ sở hạ tầng và các tài sản khác trong quá trình thực hiện dự án PPP được thực hiện theo quy định của Luật này, quy định khác của pháp luật có liên quan và hợp đồng dự án PPP.
+Điều 63. Điều kiện vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng
+1. Trừ trường hợp quy định tại khoản 2 Điều này, doanh nghiệp dự án PPP được vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng kể từ ngày cơ quan ký kết hợp đồng xác nhận hoàn thành theo quy định tại Điều 61 của Luật này.
+2. Đối với dự án PPP áp dụng loại hợp đồng O&M, doanh nghiệp dự án PPP vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng kể từ ngày hợp đồng dự án PPP có hiệu lực.
+Điều 64. Cung cấp sản phẩm, dịch vụ công
+1. Trong quá trình vận hành, kinh doanh công trình, hệ thống cơ sở hạ tầng, doanh nghiệp dự án PPP có trách nhiệm sau đây:
+a) Thực hiện quyền, nghĩa vụ cung cấp sản phẩm, dịch vụ công và các thỏa thuận khác tại hợp đồng;
+b) Bảo đảm việc sử dụng công trình, hệ thống cơ sở hạ tầng theo các điều kiện quy định tại hợp đồng;
+c) Đối xử bình đẳng với tất cả đối tượng sử dụng sản phẩm, dịch vụ công do doanh nghiệp dự án PPP cung cấp; không được từ chối cung cấp sản phẩm, dịch vụ công cho đối tượng sử dụng;
+d) Tiếp nhận, xử lý kịp thời ý kiến của đối tượng sử dụng về chất lượng sản phẩm, dịch vụ công do doanh nghiệp dự án PPP cung cấp;
+đ) Sửa chữa, bảo dưỡng định kỳ, bảo đảm công trình, hệ thống cơ sở hạ tầng vận hành an toàn theo đúng thiết kế hoặc quy trình đã cam kết tại hợp đồng.
+2. Cơ quan có thẩm quyền, cơ quan ký kết hợp đồng phối hợp với doanh nghiệp dự án PPP thực hiện trách nhiệm quy định tại điểm d khoản 1 Điều này.
+Điều 65. Giá, phí sản phẩm, dịch vụ công
+1. Giá, phí sản phẩm, dịch vụ công và điều kiện, thủ tục, điều chỉnh được quy định tại hợp đồng dự án PPP theo nguyên tắc bảo đảm lợi ích của nhà đầu tư, doanh nghiệp dự án PPP, người sử dụng và Nhà nước, tạo điều kiện để nhà đầu tư, doanh nghiệp dự án PPP thu hồi vốn và có lợi nhuận. Phương án giá, khung giá sản phẩm, dịch vụ công theo thời hạn hợp đồng dự án PPP phải xác định cụ thể mức giá khởi điểm và mức giá cho từng thời kỳ bảo đảm tính đúng, tính đủ và công khai, minh bạch các yếu tố hình thành giá.
+2. Việc áp dụng biện pháp hỗ trợ về giá, phí sản phẩm, dịch vụ công thực hiện theo quy định của pháp luật.
+3. Việc thỏa thuận, điều chỉnh giá, phí sản phẩm, dịch vụ công cho từng thời kỳ trong hợp đồng dự án PPP phải phù hợp với quy định của pháp luật về giá, phí.
+4. Khi điều chỉnh giá, phí sản phẩm, dịch vụ công, việc công khai thông tin điều chỉnh thực hiện như sau:
+a) Chậm nhất là 10 ngày trước khi áp dụng mức giá, phí sản phẩm, dịch vụ công được điều chỉnh, cơ quan ký kết hợp đồng công bố thông tin theo quy định tại Điều 9 của Luật này;
+b) Doanh nghiệp dự án PPP niêm yết mức giá, phí sản phẩm, dịch vụ công được điều chỉnh tại địa điểm cung cấp sản phẩm, dịch vụ công theo quy định của pháp luật về giá, phí.
+Điều 66. Giám sát chất lượng sản phẩm, dịch vụ công
+1. Doanh nghiệp dự án PPP phải bảo đảm và chịu trách nhiệm về chất lượng sản phẩm, dịch vụ công theo hợp đồng dự án PPP.
+2. Cơ quan ký kết hợp đồng có trách nhiệm tổ chức giám sát chất lượng sản phẩm, dịch vụ công do doanh nghiệp dự án PPP cung cấp theo hợp đồng dự án PPP.
+3. Trường hợp xét thấy chất lượng sản phẩm, dịch vụ công không đáp ứng yêu cầu theo hợp đồng dự án PPP, cơ quan ký kết hợp đồng yêu cầu doanh nghiệp dự án PPP khắc phục theo thời hạn quy định tại hợp đồng; trường hợp doanh nghiệp dự án PPP không khắc phục hoặc chậm khắc phục thì áp dụng các biện pháp xử lý vi phạm trong hợp đồng.
+4. Cơ quan ký kết hợp đồng được thuê tư vấn hỗ trợ thực hiện trách nhiệm quy định tại khoản 2 Điều này. Chi phí thuê tư vấn được thanh toán theo quy định tại khoản 4 Điều 59 của Luật này.
+Mục 3. CHUYỂN GIAO CÔNG TRÌNH, HỆ THỐNG CƠ SỞ HẠ TẦNG, THANH LÝ HỢP ĐỒNG DỰ ÁN PPP
+Điều 67. Chuyển giao công trình, hệ thống cơ sở hạ tầng
+1. Việc chuyển giao công trình, hệ thống cơ sở hạ tầng và xác định chất lượng, giá trị công trình, hệ thống cơ sở hạ tầng trước khi chuyển giao thực hiện theo quy định tại hợp đồng dự án PPP. Giá trị còn lại của công trình, hệ thống cơ sở hạ tầng sau chuyển giao được tổng hợp vào tài sản nhà nước và ngân sách nhà nước theo quy định của pháp luật về quản lý, sử dụng tài sản công, ngân sách nhà nước.
+2. Trình tự, thủ tục xử lý tài sản chuyển giao thực hiện theo quy định của pháp luật về quản lý, sử dụng tài sản công.
+3. Chính phủ quy định chi tiết khoản 2 Điều này.
+Điều 68. Thanh lý hợp đồng dự án PPP
+1. Hợp đồng dự án PPP được thanh lý như sau:
+a) Trường hợp các bên đã hoàn thành nghĩa vụ theo hợp đồng, các bên ký kết hợp đồng xác nhận việc hoàn thành và chấm dứt quyền, nghĩa vụ của các bên;
+b) Trường hợp hợp đồng bị chấm dứt trước thời hạn theo quy định tại khoản 2 Điều 52 của Luật này, các bên ký kết hợp đồng xác nhận các nghĩa vụ đã hoàn thành và trách nhiệm của các bên đối với phần công việc chưa hoàn thành.
+2. Thời hạn thanh lý hợp đồng dự án PPP do các bên thỏa thuận trong hợp đồng nhưng không quá 180 ngày kể từ ngày các bên hoàn thành nghĩa vụ theo hợp đồng hoặc ngày các bên thống nhất chấm dứt hợp đồng trước thời hạn.
+3. Trường hợp phát sinh chi phí khi thanh lý hợp đồng quy định tại khoản 1 Điều này thì nội dung thanh lý hợp đồng phải xác định nghĩa vụ của cơ quan ký kết hợp đồng và doanh nghiệp dự án PPP đối với chi phí phát sinh.
+Chương VI
+NGUỒN VỐN THỰC HIỆN DỰ ÁN PPP
+Mục 1. VỐN NHÀ NƯỚC TRONG DỰ ÁN PPP
+Điều 69. Sử dụng vốn nhà nước trong dự án PPP
+1. Vốn nhà nước được sử dụng cho các mục đích sau đây:
+a) Hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng thuộc dự án PPP;
+b) Thanh toán cho doanh nghiệp dự án PPP cung cấp sản phẩm, dịch vụ công;
+c) Chi trả kinh phí bồi thường, giải phóng mặt bằng, hỗ trợ, tái định cư; hỗ trợ xây dựng công hình tạm;
+d) Chi trả phần giảm doanh thu;
+đ) Chi phí của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, đơn vị chuẩn bị dự án PPP, bên mời thầu để thực hiện các hoạt động thuộc nhiệm vụ của mình quy định tại Điều 11 của Luật này;
+e) Chi phí của Hội đồng thẩm định dự án PPP, đơn vị được giao nhiệm vụ thẩm định dự án PPP.
+2. Tỷ lệ vốn nhà nước tham gia dự án PPP theo quy định tại điểm a và điểm c khoản 1 Điều này không quá 50% tổng mức đầu tư của dự án. Đối với dự án có nhiều dự án thành phần, trong đó có dự án thành phần đầu tư theo phương thức PPP thì tỷ lệ vốn nhà nước quy định tại khoản này được xác định trên tổng mức đầu tư của dự án thành phần đó.
+3. Chính phủ quy định chi tiết việc quản lý, sử dụng vốn nhà nước trong dự án PPP.
+Điều 70. Vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng
+1. Vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được sử dụng để hỗ trợ thực hiện dự án trong giai đoạn xây dựng nhằm gia tăng tính hiệu quả về tài chính cho dự án.
+2. Tỷ lệ vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng trong dự án PPP được xác định trên cơ sở phương án tài chính sơ bộ tại báo cáo nghiên cứu tiền khả thi khi quyết định chủ trương đầu tư.
+3. Tỷ lệ, giá trị vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được thanh toán theo hợp đồng dự án PPP.
+4. Vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được bố trí từ các nguồn vốn sau đây:
+a) Vốn đầu tư công theo quy định của pháp luật về đầu tư công;
+b) Giá trị tài sản công theo quy định của pháp luật về quản lý, sử dụng tài sản công.
+5. Việc quản lý và sử dụng vốn nhà nước hỗ trợ xây dựng công trình, hệ thống cơ sở hạ tầng được bố trí từ nguồn vốn đầu tư công thực hiện theo một trong các phương thức sau đây:
+a) Tách thành tiểu dự án trong dự án PPP. Việc quản lý và sử dụng vốn nhà nước được thực hiện theo quy định của pháp luật về đầu tư công;
+b) Bố trí vào hạng mục cụ thể theo tỷ lệ và giá trị, tiến độ và điều kiện quy định tại hợp đồng.
+Điều 71. Vốn nhà nước thanh toán cho doanh nghiệp dự án PPP cung cấp sản phẩm, dịch vụ công
+Vốn nhà nước thanh toán cho doanh nghiệp dự án PPP được sử dụng trong hợp đồng BTL, hợp đồng BLT trên cơ sở chất lượng sản phẩm, dịch vụ công được bố trí từ nguồn vốn nhà nước trong dự án PPP và nguồn vốn hợp pháp khác theo quy định của pháp luật.
+Điều 72. Vốn nhà nước bồi thường, giải phóng mặt bằng, hỗ trợ, tái định cư; hỗ trợ xây dựng công trình tạm
+1. Vốn nhà nước bồi thường, giải phóng mặt bằng, hỗ trợ, tái định cư; hỗ trợ xây dựng công trình tạm được bố trí từ nguồn vốn đầu tư công theo quy định của pháp luật về đầu tư công.
+2. Căn cứ quy mô, tính chất của từng dự án, cơ quan ký kết hợp đồng xem xét việc tách vốn nhà nước bồi thường, giải phóng mặt bằng, hỗ trợ, tái định cư; hỗ trợ xây dựng công trình tạm thành dự án thành phần hoặc tiểu dự án và thực hiện theo quy định của pháp luật về đầu tư công và pháp luật về đất đai.
+Điều 73. Chi phí của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, đơn vị chuẩn bị dự án PPP, bên mời thầu, Hội đồng thẩm định dự án PPP, đơn vị được giao nhiệm vụ thẩm định dự án PPP
+1. Chi phí chuẩn bị dự án của cơ quan có thẩm quyền, đơn vị chuẩn bị dự án PPP; chi phí tổ chức thẩm định của Hội đồng thẩm định dự án PPP và đơn vị được giao nhiệm vụ thẩm định dự án PPP; chi phí tổ chức lựa chọn nhà đầu tư, ký kết hợp đồng của cơ quan có thẩm quyền, bên mời thầu được bố trí từ nguồn vốn đầu tư công, nguồn vốn hợp pháp khác và tính vào tổng mức đầu tư của dự án.
+2. Nhà đầu tư được lựa chọn chịu trách nhiệm hoàn trả các chi phí quy định tại khoản 1 Điều này về ngân sách nhà nước theo quy định của pháp luật về ngân sách nhà nước hoặc về nguồn vốn hợp pháp đã được sử dụng để chuẩn bị dự án.
+3. Chi phí triển khai thực hiện dự án sau khi ký kết hợp đồng của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng được bố trí từ nguồn vốn chi thường xuyên của các cơ quan này.
+Điều 74. Lập kế hoạch vốn đầu tư công sử dụng trong dự án PPP
+Việc lập kế hoạch vốn đầu tư công sử dụng trong dự án PPP được quy định như sau:
+1. Căn cứ chủ trương đầu tư được cấp có thẩm quyền quyết định, vốn đầu tư công sử dụng trong dự án PPP được tổng hợp trong kế hoạch đầu tư công trung hạn;
+2. Căn cứ kế hoạch đầu tư công trung hạn, báo cáo nghiên cứu khả thi được cấp có thẩm quyền phê duyệt, kết quả lựa chọn nhà đầu tư, vốn đầu tư công sử dụng trong dự án PPP được tổng hợp trong kế hoạch đầu tư công hằng năm;
+3. Trường hợp dự án PPP có nhu cầu sử dụng vốn đầu tư công nhưng chưa thuộc danh mục dự án trong kế hoạch đầu tư công trung hạn thì được cấp có thẩm quyền xem xét, bổ sung vào danh mục này và sử dụng nguồn dự phòng kế hoạch đầu tư công trung hạn. Trình tự, thủ tục điều chỉnh kế hoạch đầu tư công trung hạn thực hiện theo quy định của pháp luật về đầu tư công;
+4. Trường hợp dự án PPP áp dụng loại hợp đồng BTL, hợp đồng BLT sử dụng vốn đầu tư công để thanh toán cho doanh nghiệp dự án PPP, việc tổng hợp vốn đầu tư công trong kế hoạch đầu tư công trung hạn và hằng năm thực hiện theo quy định tại khoản 1 và khoản 2 Điều này. Căn cứ thời hạn hợp đồng dự án PPP, phần vốn đầu tư công được tiếp tục bố trí trong các kỳ trung hạn tiếp theo.
+Điều 75. Lập dự toán nguồn vốn chi thường xuyên và nguồn thu hợp pháp dành để chi thường xuyên của các cơ quan nhà nước, đơn vị sự nghiệp công lập
+1. Căn cứ quyết định chủ trương đầu tư, báo cáo nghiên cứu khả thi được cấp có thẩm quyền phê duyệt và kết quả lựa chọn nhà đầu tư, cơ quan ký kết hợp đồng lập dự toán ngân sách hằng năm đối với nguồn vốn chi thường xuyên, nguồn thu hợp pháp dành để chi thường xuyên của các cơ quan nhà nước, đơn vị sự nghiệp công lập để thanh toán cho doanh nghiệp dự án PPP theo quy định của pháp luật về ngân sách nhà nước.
+2. Đối với khoản chi thường xuyên quy định tại khoản 3 Điều 73 của Luật này, cơ quan có thẩm quyền, cơ quan ký kết hợp đồng lập dự toán ngân sách hằng năm, trình cấp có thẩm quyền phê duyệt theo quy định của pháp luật về ngân sách nhà nước.
+Mục 2. VỐN THỰC HIỆN DỰ ÁN PPP CỦA NHÀ ĐẦU TƯ, DOANH NGHIỆP DỰ ÁN PPP
+Điều 76. Thu xếp tài chính thực hiện dự án PPP
+1. Nhà đầu tư, doanh nghiệp dự án PPP chịu trách nhiệm góp vốn chủ sở hữu, huy động vốn vay và các nguồn vốn hợp pháp khác để thực hiện dự án theo quy định tại hợp đồng dự án PPP. Tổng số vốn vay thông qua các hình thức vay không vượt quá tổng số vốn vay quy định tại hợp đồng dự án PPP.
+2. Trong thời hạn 12 tháng kể từ ngày ký kết hợp đồng, nhà đầu tư, doanh nghiệp dự án PPP phải hoàn thành thu xếp tài chính; đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội hoặc Thủ tướng Chính phủ thì thời hạn này có thể kéo dài nhưng không quá 18 tháng.
+3. Hình thức xử lý trong trường hợp nhà đầu tư, doanh nghiệp dự án PPP không thu xếp được tài chính theo thời hạn quy định tại khoản 2 Điều này phải được quy định tại hồ sơ mời thầu.
+Điều 77. Góp vốn chủ sở hữu
+1. Nhà đầu tư phải góp vốn chủ sở hữu tối thiểu là 15% tổng mức đầu tư dự án không bao gồm vốn nhà nước quy định tại Điều 70 và Điều 72 của Luật này.
+2. Nhà đầu tư phải góp vốn chủ sở hữu theo tiến độ thỏa thuận tại hợp đồng dự án PPP.
+Điều 78. Phát hành trái phiếu của doanh nghiệp dự án PPP
+1. Doanh nghiệp dự án PPP được phát hành, mua lại trái phiếu riêng lẻ do mình đã phát hành theo quy định của Luật này, pháp luật về doanh nghiệp, chứng khoán để huy động vốn thực hiện dự án PPP; không được phát hành trái phiếu chuyển đổi riêng lẻ và trái phiếu kèm chứng quyền riêng lẻ.
+2. Việc phát hành trái phiếu theo quy định tại khoản 1 Điều này phải đáp ứng các điều kiện sau đây:
+a) Số vốn huy động thông qua phát hành trái phiếu không vượt quá giá trị phần vốn vay được xác định tại hợp đồng dự án PPP;
+b) Vốn huy động thông qua phát hành trái phiếu không được sử dụng cho bất kỳ mục đích nào khác ngoài mục đích thực hiện dự án theo hợp đồng dự án PPP hoặc cho việc cơ cấu lại các khoản nợ của doanh nghiệp;
+c) Doanh nghiệp dự án PPP phải mở tài khoản phong tỏa để nhận tiền mua trái phiếu. Việc giải ngân vốn từ phát hành trái phiếu thực hiện theo quy định tại điểm b khoản này.
+3. Doanh nghiệp dự án PPP hoạt động chưa đủ thời gian 01 năm thì khi phát hành trái phiếu theo quy định tại khoản 1 Điều này được miễn điều kiện có báo cáo tài chính của năm trước liền kề năm phát hành được kiểm toán theo quy định của pháp luật về doanh nghiệp.
+4. Chính phủ quy định chi tiết Điều này.
+Chương VII
+ƯU ĐÃI VÀ BẢO ĐẢM ĐẦU TƯ
+Điều 79. Ưu đãi đầu tư
+Nhà đầu tư, doanh nghiệp dự án PPP được hưởng các ưu đãi về thuế, tiền sử dụng đất, tiền thuê đất và các ưu đãi khác theo quy định của pháp luật về thuế, đất đai, đầu tư và quy định khác của pháp luật có liên quan.
+Điều 80. Bảo đảm đầu tư
+1. Nhà đầu tư, doanh nghiệp dự án PPP được hưởng các bảo đảm đầu tư theo quy định của Luật này và pháp luật về đầu tư.
+2. Bảo đảm về quyền tiếp cận đất, quyền, sử dụng đất và tài sản công khác được quy định như sau:
+a) Doanh nghiệp dự án PPP được Nhà nước giao đất, cho thuê đất hoặc cho phép sử dụng tài sản công khác để thực hiện hợp đồng dự án PPP theo quy định của pháp luật về đất đai và pháp luật về quản lý, sử dụng tài sản công;
+b) Mục đích sử dụng đất của dự án được bảo đảm không thay đổi trong toàn bộ thời hạn thực hiện hợp đồng, kể cả trường hợp bên cho vay thực hiện quyền theo quy định tại Điều 53 của Luật này.
+3. Bảo đảm cung cấp dịch vụ công được quy định như sau:
+a) Doanh nghiệp dự án PPP được sử dụng công trình công cộng và công trình phụ trợ khác để thực hiện dự án theo quy định của pháp luật;
+b) Trường hợp có sự khan hiếm về dịch vụ công hoặc có sự hạn chế về đối tượng được sử dụng công trình công cộng, doanh nghiệp dự án PPP được ưu tiên cung cấp dịch vụ công hoặc được ưu tiên cấp quyền sử dụng công trình công cộng để thực hiện dự án;
+c) Cơ quan có thẩm quyền có trách nhiệm hỗ trợ doanh nghiệp dự án PPP thực hiện thủ tục cần thiết để được ưu tiên sử dụng dịch vụ công và công trình công cộng.
+4. Bảo đảm quyền thế chấp tài sản, quyền kinh doanh công trình, hệ thống cơ sở hạ tầng được quy định như sau:
+a) Doanh nghiệp dự án PPP được thế chấp tài sản, quyền sử dụng đất và quyền kinh doanh công trình, hệ thống cơ sở hạ tầng cho bên cho vay theo quy định của pháp luật về đất đai và pháp luật về dân sự. Thời gian thế chấp không vượt quá thời hạn hợp đồng, trừ trường hợp có thỏa thuận khác tại hợp đồng;
+b) Thỏa thuận thế chấp tài sản, quyền kinh doanh công trình, hệ thống cơ sở hạ tầng phải được lập thành văn bản ký kết giữa bên cho vay và các bên ký kết hợp đồng;
+c) Việc thế chấp tài sản, quyền kinh doanh công trình, hệ thống cơ sở hạ tầng không được ảnh hưởng đến mục tiêu, quy mô, tiêu chuẩn kỹ thuật, tiến độ thực hiện dự án và các điều kiện khác đã thỏa thuận tại hợp đồng.
+5. Cơ quan ký kết hợp đồng, cơ quan có thẩm quyền có trách nhiệm phối hợp với chính quyền địa phương nơi triển khai thực hiện dự án PPP bảo đảm an ninh, trật tự, an toàn về con người, tài sản của doanh nghiệp dự án PPP, nhà thầu trong quá trình triển khai thực hiện dự án PPP.
+Điều 81. Bảo đảm cân đối ngoại tệ đối với dự án PPP quan trọng
+1. Chính phủ quyết định việc áp dụng cơ chế bảo đảm cân đối ngoại tệ đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ trên cơ sở chính sách quản lý ngoại hối, khả năng cân đối ngoại tệ trong từng thời kỳ.
+2. Doanh nghiệp dự án PPP thực hiện dự án quy định tại khoản 1 Điều nảy đã thực hiện quyền mua ngoại tệ để đáp ứng nhu cầu giao dịch vãng lai, giao dịch vốn và các giao dịch khác hoặc chuyển vốn, lợi nhuận, các khoản thanh lý đầu tư ra nước ngoài theo quy định của pháp luật về quản lý ngoại hối nhưng thị trường không đáp ứng được nhu cầu ngoại tệ hợp pháp của doanh nghiệp dự án PPP thì được bảo đảm cân đối ngoại tệ không quá 30% doanh thu của dự án bằng tiền đồng Việt Nam sau khi trừ số chi tiêu bằng đồng Việt Nam.
+Điều 82. Cơ chế chia sẻ phần tăng, giảm doanh thu
+1. Khi doanh thu thực tế đạt cao hơn 125% mức doanh thu trong phương án tài chính tại hợp đồng dự án PPP, nhà đầu tư, doanh nghiệp dự án PPP chia sẻ với Nhà nước 50% phần chênh lệch giữa doanh thu thực tế và mức 125% doanh thu trong phương án tài chính. Việc chia sẻ phần tăng doanh thu được áp dụng sau khi đã điều chỉnh mức giá, phí sản phẩm, dịch vụ công, điều chỉnh thời hạn hợp đồng dự án PPP theo quy định tại các điều 50, 51 và 65 của Luật này và được Kiểm toán nhà nước thực hiện kiểm toán phần tăng doanh thu.
+2. Khi doanh thu thực tế đạt thấp hơn 75% mức doanh thu trong phương án tài chính tại hợp đồng dự án PPP, Nhà nước chia sẻ với nhà đầu tư, doanh nghiệp dự án PPP 50% phần chênh lệch giữa mức 75% doanh thu trong phương án tài chính và doanh thu thực tế. Việc chia sẻ phần giảm doanh thu được áp dụng khi đáp ứng các điều kiện sau đây:
+a) Dự án áp dụng loại hợp đồng BOT, hợp đồng BTO, hợp đồng BOO;
+b) Quy hoạch, chính sách, pháp luật có liên quan thay đổi làm giảm doanh thu;
+c) Đã thực hiện đầy đủ các biện pháp điều chỉnh mức giá, phí sản phẩm, dịch vụ công, điều chỉnh thời hạn hợp đồng dự án PPP theo quy định tại các điều 50, 51 và 65 của Luật này nhưng chưa bảo đảm mức doanh thu tối thiểu là 75%;
+d) Đã được Kiểm toán nhà nước thực hiện kiểm toán phần giảm doanh thu.
+3. Cơ chế chia sẻ phần giảm doanh thu quy định tại khoản 2 Điều này phải được xác định tại quyết định chủ trương đầu tư. Chi phí xử lý cơ chế chia sẻ phần giảm doanh thu được sử dụng từ nguồn dự phòng ngân sách trung ương đối với dự án do Quốc hội, Thủ tướng Chính phủ, Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác quyết định chủ trương đầu tư hoặc dự phòng ngân sách địa phương đối với dự án do Hội đồng nhân dân cấp tỉnh quyết định chủ trương đầu tư.
+4. Định kỳ hằng năm, các bên trong hợp đồng dự án PPP xác định doanh thu thực tế, gửi cơ quan tài chính có thẩm quyền thực hiện cơ chế chia sẻ phần tăng, giảm doanh thu. Việc hạch toán thu, chi ngân sách nhà nước khi chia sẻ phần tăng, giảm doanh thu thực hiện theo quy định của pháp luật về ngân sách nhà nước.
+5. Chính phủ quy định chi tiết Điều này.
+Chương VIII
+KIỂM TRA, THANH TRA, KIỂM TOÁN NHÀ NƯỚC VÀ GIÁM SÁT HOẠT ĐỘNG ĐẦU TƯ THEO PHƯƠNG THỨC PPP
+Mục 1. KIỂM TRA, THANH TRA, KIỂM TOÁN NHÀ NƯỚC TRONG HOẠT ĐỘNG ĐẦU TƯ THEO PHƯƠNG THỨC PPP
+Điều 83. Kiểm tra hoạt động đầu tư theo phương thức PPP
+1. Nội dung kiểm tra hoạt động đầu tư theo phương thức PPP bao gồm:
+a) Việc ban hành văn bản hướng dẫn về đầu tư theo phương thức PPP của cơ quan có thẩm quyền;
+b) Việc chuẩn bị đầu tư; tổ chức lựa chọn nhà đầu tư; ký kết và thực hiện hợp đồng;
+c) Hoạt động khác liên quan đến đầu tư theo phương thức PPP.
+2. Kiểm tra hoạt động đầu tư theo phương thức PPP được tiến hành thường xuyên hoặc đột xuất theo quyết định của người đứng đầu cơ quan có thẩm quyền kiểm tra.
+Điều 84. Thanh tra hoạt động đầu tư theo phương thức PPP
+1. Thanh tra hoạt động đầu tư theo phương thức PPP là thanh tra chuyên ngành theo quy định của pháp luật về thanh tra.
+2. Thanh tra hoạt động đầu tư theo phương thức PPP được tiến hành đối với cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, nhà đầu tư, doanh nghiệp dự án PPP và cơ quan, tổ chức, cá nhân liên quan đến hoạt động đầu tư theo phương thức PPP quy định tại Luật này.
+Điều 85. Kiểm toán nhà nước trong hoạt động đầu tư theo phương thức PPP
+1. Kiểm toán việc quản lý, sử dụng tài chính công, tài sản công và các hoạt động có liên quan đến việc quản lý, sử dụng tài chính công, tài sản công tham gia vào dự án PPP theo quy định của pháp luật về kiểm toán nhà nước.
+2. Kiểm toán khi thực hiện cơ chế chia sẻ phần tăng, giảm doanh thu theo quy định tại Điều 82 của Luật này.
+3. Kiểm toán toàn bộ giá trị tài sản của dự án PPP khi được chuyển giao cho Nhà nước.
+Mục 2. GIÁM SÁT HOẠT ĐỘNG ĐẦU TƯ THEO PHƯƠNG THỨC PPP
+Điều 86. Giám sát của cơ quan quản lý nhà nước về đầu tư theo phương thức PPP
+1. Cơ quan quản lý nhà nước về đầu tư theo phương thức PPP tại trung ương thực hiện việc giám sát quy trình thực hiện dự án PPP quy định tại các điểm a, b và c khoản 3 Điều 4 của Luật này và các dự án khác được Quốc hội, Thủ tướng Chính phủ giao.
+2. Cơ quan quản lý nhà nước về đầu tư theo phương thức PPP tại địa phương thực hiện việc giám sát quy trình thực hiện dự án PPP quy định tại điểm d khoản 3 Điều 4 của Luật này.
+Điều 87. Nội dung giám sát của cơ quan quản lý nhà nước về đầu tư theo phương thức PPP
+1. Hồ sơ mời thầu.
+2. Kết quả lựa chọn nhà đầu tư.
+3. Việc thực hiện hợp đồng dự án PPP.
+4. Kết quả kiểm định chất lượng công trình, hệ thống cơ sở hạ tầng theo quy định tại điểm c khoản 2 Điều 59 của Luật này.
+5. Kết quả đánh giá chất lượng sản phẩm, dịch vụ công theo quy định tại khoản 2 Điều 66 của Luật này.
+6. Các nội dung khác theo yêu cầu của Quốc hội, Thủ tướng Chính phủ đối với trường hợp quy định tại khoản 1 Điều 86 của Luật này, của Hội đồng nhân dân cấp tỉnh đối với trường hợp quy định tại khoản 2 Điều 86 của Luật này.
+Điều 88. Giám sát của Mặt trận Tổ quốc Việt Nam và cộng đồng
+Mặt trận Tổ quốc Việt Nam các cấp chủ trì tổ chức giám sát và hướng dẫn giám sát đầu tư của cộng đồng nơi thực hiện dự án PPP theo quy định của pháp luật về Mặt trận Tổ quốc Việt Nam và pháp luật về giám sát đầu tư của cộng đồng.
+Chương IX
+NHIỆM VỤ, QUYỀN HẠN, TRÁCH NHIỆM CỦA CÁC CƠ QUAN QUẢN LÝ NHÀ NƯỚC TRONG ĐẦU TƯ THEO PHƯƠNG THỨC PPP
+Điều 89. Nhiệm vụ, quyền hạn của Chính phủ, Thủ tướng Chính phủ
+1. Chính phủ có nhiệm vụ, quyền hạn sau đây:
+a) Thống nhất quản lý nhà nước về đầu tư theo phương thức PPP;
+b) Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành văn bản quy phạm pháp luật về đầu tư theo phương thức PPP;
+c) Tổ chức kiểm tra, thanh tra việc thực hiện đầu tư theo phương thức PPP.
+2. Thủ tướng Chính phủ có nhiệm vụ, quyền hạn sau đây:
+a) Ban hành theo thẩm quyền văn bản quy phạm pháp luật về đầu tư theo phương thức PPP;
+b) Quyết định chấm dứt, đình chỉ hợp đồng dự án PPP đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ.
+Điều 90. Nhiệm vụ, quyền hạn của Bộ Kế hoạch và Đầu tư
+1. Thực hiện chức năng của cơ quan quản lý nhà nước về đầu tư theo phương thức PPP tại trung ương, chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về đầu tư theo phương thức PPP trên phạm vi cả nước.
+2. Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành văn bản quy phạm pháp luật về đầu tư theo phương thức PPP.
+3. Chủ trì, phối hợp với cơ quan có thẩm quyền kiểm tra, thanh tra, giám sát; hằng năm tổng hợp, đánh giá tình hình thực hiện dự án PPP trên phạm vi cả nước.
+4. Xây dựng và quản lý hệ thống thông tin, cơ sở dữ liệu về đầu tư theo phương thức PPP.
+5. Thực hiện nhiệm vụ, quyền hạn khác theo quy định của pháp luật.
+Điều 91. Nhiệm vụ, quyền hạn của Bộ Tài chính
+1. Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành văn bản quy phạm pháp luật về cơ chế tài chính trong đầu tư theo phương thức PPP.
+2. Chủ trì xây dựng và thực hiện cơ chế chia sẻ phần tăng, giảm doanh thu đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ, Bộ trưởng, người đúng đầu cơ quan trung ương, cơ quan khác.
+3. Thực hiện nhiệm vụ, quyền hạn khác theo quy định của pháp luật.
+Điều 92. Nhiệm vụ, quyền hạn của các Bộ, cơ quan trung ương, cơ quan khác
+1. Thực hiện quản lý, hướng dẫn về đầu tư theo phương thức PPP trong lĩnh vực, phạm vi quản lý.
+2. Thực hiện trách nhiệm của cơ quan có thẩm quyền quy định tại Điều 94 của Luật này đối với dự án PPP thuộc thẩm quyền.
+3. Hằng năm tổng hợp, đánh giá, báo cáo tình hình thực hiện dự án PPP thuộc phạm vi quản lý của ngành.
+4. Thực hiện nhiệm vụ, quyền hạn khác theo quy định của pháp luật.
+Điều 93. Nhiệm vụ, quyền hạn của Ủy ban nhân dân cấp tỉnh
+1. Thực hiện chức năng của cơ quan quản lý nhà nước về đầu tư theo phương thức PPP tại địa phương.
+2. Thực hiện trách nhiệm của cơ quan có thẩm quyền quy định tại Điều 94 của Luật này đối với dự án PPP thuộc thẩm quyền; quyết định chấm dứt, đình chỉ hợp đồng dự án PPP đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của Hội đồng nhân dân cấp tỉnh.
+3. Hằng năm tổng hợp, đánh giá, báo cáo tình hình thực hiện dự án PPP thuộc phạm vi quản lý của địa phương.
+4. Chủ trì, phối hợp với doanh nghiệp dự án PPP tổ chức bồi thường, giải phóng mặt bằng, hỗ trợ, tái định cư đối với dự án PPP thuộc phạm vi quản lý của địa phương; chủ trì, phối hợp với Bộ, cơ quan trung ương, cơ quan khác, doanh nghiệp dự án PPP tổ chức bồi thường, hỗ trợ, tái định cư đối với dự án PPP thuộc phạm vi quản lý của các cơ quan này.
+5. Thực hiện nhiệm vụ, quyền hạn khác theo quy định của pháp luật.
+Điều 94. Trách nhiệm của cơ quan có thẩm quyền
+1. Tổ chức lập báo cáo nghiên cứu tiền khả thi, báo cáo nghiên cứu khả thi dự án PPP, tổ chức lựa chọn nhà đầu tư, đàm phán và ký kết hợp đồng dự án PPP theo thẩm quyền quy định tại Luật này.
+2. Hủy thầu, đình chỉ cuộc thầu, không công nhận kết quả lựa chọn nhà đầu tư hoặc tuyên bố vô hiệu đối với các quyết định của bên mời thầu khi phát hiện có hành vi vi phạm pháp luật về đầu tư theo phương thức PPP, lựa chọn nhà đầu tư hoặc quy định khác của pháp luật có liên quan.
+3. Quyết định chấm dứt, đình chỉ hợp đồng dự án PPP đối với dự án thuộc thẩm quyền quyết định chủ trương đầu tư của mình theo quy định của Luật này.
+4. Yêu cầu bên mời thầu, cơ quan ký kết hợp đồng cung cấp hồ sơ, tài liệu để phục vụ công tác kiểm tra, thanh tra, giám sát, theo dõi, giải quyết kiến nghị, xử lý vi phạm về đầu tư theo phương thức PPP.
+5. Bồi thường thiệt hại theo quy định của pháp luật.
+6. Giải trình việc thực hiện các quy định tại Điều này theo yêu cầu của cơ quan cấp trên, cơ quan kiểm tra, thanh tra, kiểm toán, giám sát, cơ quan quản lý nhà nước về đầu tư theo phương thức PPP.
+7. Công khai thông tin dự án PPP; định kỳ báo cáo cơ quan quản lý nhà nước về đầu tư theo phương thức PPP tại trung ương về tình hình thực hiện dự án PPP thuộc thẩm quyền của mình.
+8. Thực hiện trách nhiệm khác theo quy định của Luật này.
+Chương X
+GIẢI QUYẾT KIẾN NGHỊ, TRANH CHẤP VÀ XỬ LÝ VI PHẠM
+Điều 95. Giải quyết kiến nghị trong lựa chọn nhà đầu tư
+1. Khi có căn cứ cho rằng quyền và lợi ích hợp pháp của mình bị ảnh hưởng, nhà đầu tư có các quyền sau đây:
+a) Kiến nghị với bên mời thầu, cơ quan có thẩm quyền về quá trình lựa chọn nhà đầu tư, kết quả lựa chọn nhà đầu tư theo quy trình giải quyết kiến nghị quy định tại Điều 96 của Luật này;
+b) Khởi kiện ra Tòa án trong thời hiệu theo quy định của pháp luật về dân sự.
+2. Bên mời thầu, cơ quan có thẩm quyền không xem xét, giải quyết đơn kiến nghị nếu nhà đầu tư đã khởi kiện ra Tòa án; trường hợp đang xem xét, giải quyết theo quy trình quy định tại Điều 96 của Luật này thì cơ quan đang giải quyết kiến nghị thông báo chấm dứt việc xem xét, giải quyết kiến nghị.
+Điều 96. Quy trình giải quyết kiến nghị trong lựa chọn nhà đầu tư
+1. Quy trình giải quyết kiến nghị về các vấn đề trong quá trình lựa chọn nhà đầu tư được thực hiện như sau:
+a) Nhà đầu tư gửi văn bản kiến nghị đến bên mời thầu từ khi xảy ra sự việc đến trước khi có thông báo kết quả lựa chọn nhà đầu tư;
+b) Bên mời thầu phải có văn bản giải quyết kiến nghị gửi đến nhà đầu tư trong thời hạn 07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị của nhà đầu tư;
+c) Trường hợp bên mời thầu không có văn bản giải quyết kiến nghị hoặc nhà đầu tư không đồng ý với kết quả giải quyết kiến nghị thì nhà đầu tư có quyền gửi văn bản kiến nghị đến cơ quan có thẩm quyền trong thời hạn 05 ngày làm việc kể từ ngày hết hạn trả lời hoặc ngày nhận được văn bản giải quyết kiến nghị của bên mời thầu;
+d) Cơ quan có thẩm quyền phải có văn bản giải quyết kiến nghị gửi đến nhà đầu tư trong thời hạn 07 ngày làm việc kể từ ngày nhận được văn bản kiến nghị của nhà đầu tư.
+2. Quy trình giải quyết kiến nghị về kết quả lựa chọn nhà đầu tư được thực hiện như sau:
+a) Nhà đầu tư gửi văn bản kiến nghị đến bên mời thầu trong thời hạn 10 ngày kể từ ngày nhận được thông báo kết quả lựa chọn nhà đầu tư;
+b) Bên mời thầu phải có văn bản giải quyết kiến nghị gửi đến nhà đầu tư trong thời hạn 15 ngày kể từ ngày nhận được văn bản kiến nghị của nhà đầu tư;
+c) Trường hợp bên mời thầu không có văn bản giải quyết kiến nghị hoặc nhà đầu tư không đồng ý với kết quả giải quyết kiến nghị thì nhà đầu tư có quyền gửi văn bản kiến nghị đồng thời đến cơ quan có thẩm quyền và cơ quan thường trực của Hội đồng tư vấn giải quyết kiến nghị trong thời hạn 05 ngày làm việc kể từ ngày hết hạn trả lời hoặc ngày nhận được văn bản giải quyết kiến nghị của bên mời thầu.
+Hội đồng tư vấn giải quyết kiến nghị cấp trung ương do Bộ trưởng Bộ Kế hoạch và Đầu tư thành lập; cấp Bộ, cơ quan trung ương, cơ quan khác do Bộ trưởng, người đứng đầu cơ quan trung ương, cơ quan khác thành lập; cấp địa phương do Chủ tịch Ủy ban nhân dân cấp tỉnh thành lập;
+d) Khi nhận được văn bản kiến nghị, Hội đồng tư vấn giải quyết kiến nghị có quyền yêu cầu nhà đầu tư, bên mời thầu và các cơ quan liên quan cung cấp thông tin để xem xét và có văn bản báo cáo cơ quan có thẩm quyền về phương án, nội dung trả lời kiến nghị trong thời hạn 30 ngày kể từ ngày nhận được văn bản kiến nghị của nhà đầu tư;
+đ) Trong trường hợp cần thiết, Hội đồng tư vấn giải quyết kiến nghị căn cứ văn bản kiến nghị của nhà đầu tư đề nghị cơ quan có thẩm quyền xem xét tạm dừng cuộc thầu. Nếu chấp thuận, trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản của Hội đồng tư vấn giải quyết kiến nghị, cơ quan có thẩm quyền có văn bản thông báo tạm dừng cuộc thầu. Văn bản tạm dừng cuộc thầu phải được gửi đến bên mời thầu, nhà đầu tư trong thời hạn 05 ngày làm việc kể từ ngày ra văn bản thông báo tạm dừng cuộc thầu. Thời gian tạm dừng cuộc thầu được tính từ ngày bên mời thầu nhận được thông báo tạm dừng đến khi cơ quan có thẩm quyền ban hành văn bản giải quyết kiến nghị;
+e) Cơ quan có thẩm quyền ban hành quyết định giải quyết kiến nghị về kết quả lựa chọn nhà đầu tư trong thời hạn 10 ngày kể từ ngày nhận được ý kiến bằng văn bản của Hội đồng tư vấn giải quyết kiến nghị.
+3. Trường hợp nhà đầu tư gửi văn bản kiến nghị trực tiếp đến cơ quan có thẩm quyền mà không tuân thủ theo quy trình giải quyết kiến nghị quy định tại Điều này thì văn bản kiến nghị không được xem xét, giải quyết.
+Điều 97. Giải quyết tranh chấp
+1. Tranh chấp giữa cơ quan có thẩm quyền, cơ quan ký kết hợp đồng với nhà đầu tư hoặc doanh nghiệp dự án PPP và tranh chấp giữa doanh nghiệp dự án PPP với các tổ chức kinh tế tham gia thực hiện dự án được giải quyết thông qua thương lượng, hòa giải, Trọng tài hoặc Tòa án.
+2. Tranh chấp giữa cơ quan có thẩm quyền, cơ quan ký kết hợp đồng với nhà đầu tư trong nước hoặc doanh nghiệp dự án PPP do nhà đầu tư trong nước thành lập; tranh chấp giữa các nhà đầu tư trong nước; tranh chấp giữa nhà đầu tư trong nước hoặc doanh nghiệp dự án PPP do nhà đầu tư trong nước thành lập với các tổ chức kinh tế Việt Nam được giải quyết tại Trọng tài Việt Nam hoặc Tòa án Việt Nam.
+3. Tranh chấp giữa cơ quan có thẩm quyền, cơ quan ký kết hợp đồng với nhà đầu tư nước ngoài hoặc với doanh nghiệp dự án PPP do nhà đầu tư nước ngoài thành lập được giải quyết tại Trọng tài Việt Nam hoặc Tòa án Việt Nam, trừ trường hợp có thỏa thuận khác theo hợp đồng hoặc điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thanh viên có quy định khác.
+4. Tranh chấp giữa các nhà đầu tư trong đó có ít nhất một nhà đầu tư nước ngoài; tranh chấp giữa nhà đầu tư hoặc doanh nghiệp dự án PPP với tổ chức, cá nhân nước ngoài được giải quyết tại một trong các cơ quan, tổ chức sau đây:
+a) Trọng tài Việt Nam;
+b) Tòa án Việt Nam;
+c) Trọng tài nước ngoài;
+d) Trọng tài quốc tế;
+đ) Trọng tài do các bên tranh chấp thỏa thuận thành lập.
+5. Tranh chấp được giải quyết bằng Trọng tài theo quy định tại hợp đồng dự án PPP và các hợp đồng liên quan là tranh chấp thương mại. Phán quyết của Trọng tài nước ngoài được công nhận và thi hành theo quy định của pháp luật về công nhận và cho thi hành tại Việt Nam phán quyết của Trọng tài nước ngoài.
+Điều 98. Xử lý vi phạm trong đầu tư theo phương thức PPP
+1. Cấm tham gia hoạt động đầu tư theo phương thức PPP được áp dụng đối với tổ chức, cá nhân có hành vi vi phạm quy định tại Điều 10 của Luật này.
+2. Hủy thầu, đình chỉ cuộc thầu, không công nhận kết quả lựa chọn nhà đầu tư hoặc tuyên bố vô hiệu đối với các quyết định của cơ quan có thẩm quyền, cơ quan ký kết hợp đồng, bên mời thầu khi phát hiện có hành vi vi phạm quy định của Luật này và quy định khác của pháp luật có liên quan.
+3. Chấm dứt, đình chỉ hợp đồng khi phát hiện có hành vi vi phạm hợp đồng hoặc quy định của Luật này và quy định khác của pháp luật có liên quan.
+4. Ngoài các hình thức xử lý vi phạm quy định tại các khoản 1, 2 và 3 Điều này, tổ chức, cá nhân có hành vi vi phạm quy định của pháp luật về đầu tư theo phương thức PPP thì tùy theo tính chất, mức độ vi phạm còn bị xử lý kỷ luật, xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
+5. Chính phủ quy định chi tiết Điều này.
+Chương XI
+ĐIỀU KHOẢN THI HÀNH
+Điều 99. Sửa đổi, bổ sung các luật có liên quan
+1. Sửa đổi, bổ sung một số điều của Luật Đấu thầu số 43/2013/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 03/2016/QH14, Luật số 04/2017/QH14 và Luật số 40/2019/QH14 như sau:
+a) Sửa đổi, bổ sung khoản 3 Điều 1 như sau:
+“3. Lựa chọn nhà đầu tư thực hiện dự án đầu tư có sử dụng đất;”;
+b) Sửa đổi, bổ sung khoản 2 Điều 3 như sau:
+“2. Trường hợp lựa chọn nhà thầu cung cấp nguyên liệu, nhiên liệu, vật liệu, vật tư, dịch vụ tư vấn, dịch vụ phi tư vấn để bảo đảm tính liên tục cho hoạt động sản xuất, kinh doanh và mua sắm nhằm duy trì hoạt động thường xuyên của doanh nghiệp nhà nước thì doanh nghiệp phải ban hành quy định về lựa chọn nhà thầu để áp dụng thống nhất trong doanh nghiệp trên cơ sở bảo đảm mục tiêu công bằng, minh bạch và hiệu quả kinh tế.”;
+c) Sửa đổi, bổ sung khoản 10 Điều 4 như sau:
+“10. Doanh nghiệp dự án là doanh nghiệp do nhà đầu tư thành lập để thực hiện dự án đầu tư có sử dụng đất.”;
+d) Sửa đổi, bổ sung khoản 12 Điều 4 như sau:
+“12. Đấu thầu là quá trình lựa chọn nhà thầu để ký kết và thực hiện hợp đồng cung cấp dịch vụ tư vấn, dịch vụ phi tư vấn, mua sắm hàng hóa, xây lắp; lựa chọn nhà đầu tư để ký kết và thực hiện hợp đồng dự án đầu tư có sử dụng đất trên cơ sở bảo đảm cạnh tranh, công bằng, minh bạch và hiệu quả kinh tế.”;
+đ) Sửa đổi, bổ sung khoản 4 Điều 6 như sau:
+“4. Nhà đầu tư tham dự thầu phải độc lập về pháp lý và độc lập về tài chính với các bên sau đây:
+a) Nhà thầu tư vấn đấu thầu đối với dự án đầu tư có sử dụng đất cho đến ngày ký kết hợp đồng dự án;
+b) Cơ quan nhà nước có thẩm quyền, bên mời thầu.”;
+e) Sửa đổi, bổ sung điểm i khoản 1 Điều 8 như sau:
+“i) Danh mục dự án đầu tư có sử dụng đất;”;
+g) Sửa đổi, bổ sung khoản 2 Điều 15 như sau:
+“2. Dự án đầu tư có sử dụng đất, trừ trường hợp hạn chế đầu tư theo quy định của pháp luật về đầu tư.”;
+h) Bãi bỏ Điều 68.
+2. Sửa đổi, bổ sung khoản 4 Điều 40 của Luật Đầu tư công số 39/2019/QH14 như sau:
+“4. Nguyên tắc, thẩm quyền, nội dung, trình tự, thủ tục lập, thẩm định, quyết định báo cáo nghiên cứu khả thi dự án đầu tư theo phương thức đối tác công tư thực hiện theo quy định của pháp luật về đầu tư theo phương thức đối tác công tư.”.
+3. Sửa đổi, bổ sung khoản 2 Điều 20 của Luật Giá số 11/2012/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 61/2014/QH13 như sau:
+“2. Kịp thời điều chỉnh giá khi các yếu tố hình thành giá thay đổi, riêng giá sản phẩm, dịch vụ công trong dự án đầu tư theo phương thức đối tác công tư được điều chỉnh theo từng thời kỳ quy định tại hợp đồng dự án.”.
+4. Sửa đổi, bổ sung một số điều của Luật Hỗ trợ doanh nghiệp nhỏ và vừa số 04/2017/QH14 như sau:
+a) Sửa đổi, bổ sung khoản 2 Điều 12 như sau:
+“2. Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh thành lập cơ sở ươm tạo, cơ sở kỹ thuật, khu làm việc chung. Doanh nghiệp và tổ chức đầu tư, kinh doanh khác được thành lập cơ sở ươm tạo, cơ sở kỹ thuật, khu làm việc chung.”;
+b) Sửa đổi, bổ sung khoản 1 Điều 13 như sau:
+“1. Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh thành lập chuỗi phân phối sản phẩm. Doanh nghiệp và tổ chức đầu tư, kinh doanh khác được thành lập chuỗi phân phối sản phẩm.”.
+5. Sửa đổi, bổ sung khoản 2 Điều 39 của Luật Khí tượng thủy văn số 90/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 như sau:
+“2. Tổ chức sự nghiệp công lập về khí tượng thủy văn cung cấp dịch vụ khí tượng thủy văn theo chức năng, nhiệm vụ do cơ quan nhà nước có thẩm quyền quy định phù hợp với quy định của Luật này và pháp luật có liên quan; được khai thác các sản phẩm, dịch vụ khí tượng thủy văn của tổ chức, cá nhân khác trên cơ sở đặt hàng hoặc thỏa thuận theo quy định của pháp luật.
+Tổ chức, cá nhân khác cung cấp dịch vụ khí tượng thủy văn theo quy định của Luật này và pháp luật có liên quan.”.
+6. Sửa đổi, bổ sung một số điều của Luật Nhà ở số 65/2014/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 40/2019/QH14 như sau:
+a) Sửa đổi, bổ sung khoản 3 Điều 36 như sau:
+“3. Nhà nước trực tiếp đầu tư xây dựng nhà ở bằng vốn ngân sách nhà nước, công trái quốc gia, trái phiếu, vốn hỗ trợ phát triển chính thức, vốn vay ưu đãi của các nhà tài trợ, vốn tín dụng đầu tư phát triển của Nhà nước trên diện tích đất được xác định để xây dựng nhà ở phục vụ tái định cư theo quy hoạch được phê duyệt để cho thuê, cho thuê mua, bán cho người được tái định cư.”;
+b) Sửa đổi, bổ sung khoản 1 Điều 53 như sau:
+“1. Nhà nước đầu tư xây dựng nhà ở xã hội bằng vốn ngân sách nhà nước, công trái quốc gia, trái phiếu, vốn hỗ trợ phát triển chính thức, vốn vay ưu đãi của các nhà tài trợ, vốn tín dụng đầu tư phát triển của Nhà nước trên diện tích đất được xác định để xây dựng nhà ở xã hội theo quy định để cho thuê, cho thuê mua.”;
+c) Bãi bỏ điểm b khoản 3 Điều 40, điểm b khoản 1 Điều 114.
+7. Bãi bỏ điểm c khoản 4 và khoản 5 Điều 30, khoản 4 Điều 51 của Luật Quản lý, sử dụng tài sản công số 15/2017/QH14.
+Điều 100. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021, trừ quy định tại khoản 6 Điều 101 của Luật này.
+2. Chính phủ, cơ quan quản lý nhà nước có thẩm quyền quy định chi tiết các điều, khoản được giao trong Luật.
+Điều 101. Quy định chuyển tiếp
+1. Dự án thuộc lĩnh vực quy định tại khoản 1 Điều 4 của Luật này và đáp ứng quy mô tổng mức đầu tư tối thiểu quy định tại khoản 2 Điều 4 của Luật này được thực hiện như sau:
+a) Trường hợp đã được cấp có thẩm quyền quyết định chủ trương đầu tư trước ngày Luật này có hiệu lực thi hành thì thực hiện các bước tiếp theo theo quy định của Luật này. Trường hợp phải điều chỉnh chủ trương đầu tư thì thực hiện theo quy định tại Điều 18 của Luật này;
+b) Trường hợp đã được cấp có thẩm quyền phê duyệt báo cáo nghiên cứu khả thi trước ngày Luật này có hiệu lực thi hành thì thực hiện các bước tiếp theo theo quy định của Luật này mà không phải thực hiện lại thủ tục phê duyệt dự án theo quy định của Luật này; phải phê duyệt bổ sung nội dung quy định tại khoản 6 Điều 23 của Luật này trong trường hợp chưa tổ chức lựa chọn nhà đầu tư;
+c) Đối với dự án thuộc trường hợp quy định tại điểm a và điểm b khoản này, nếu có tỷ lệ vốn nhà nước trong dự án PPP lớn hơn tỷ lệ quy định tại khoản 2 Điều 69 của Luật này thì không phải điều chỉnh tỷ lệ vốn nhà nước.
+2. Dự án không thuộc lĩnh vực quy định tại khoản 1 Điều 4 của Luật này hoặc không đáp ứng quy mô tổng mức đầu tư tối thiểu quy định tại khoản 2 Điều 4 của Luật này mà đến ngày Luật này có hiệu lực thi hành chưa phê duyệt kết quả sơ tuyển nhà đầu tư hoặc chưa phát hành hồ sơ mời thầu, hồ sơ yêu cầu đối với dự án không áp dụng sơ tuyển thì dừng thực hiện.
+3. Dự án PPP đang tổ chức lựa chọn nhà đầu tư được thực hiện như sau:
+a) Trường hợp đã phê duyệt kết quả sơ tuyển nhà đầu tư trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo quy định của Luật này;
+b) Trường hợp đã phát hành hồ sơ mời thầu, hồ sơ yêu cầu trước ngày Luật này có hiệu lực thi hành nhưng đóng thầu sau ngày 31 tháng 12 năm 2020 thì bên mời thầu có trách nhiệm gia hạn thời gian đóng thầu để sửa đổi hồ sơ mời thầu, hồ sơ yêu cầu theo quy định của Luật này mà không dẫn đến điều chỉnh chủ trương đầu tư và báo cáo nghiên cứu khả thi đã được phê duyệt;
+c) Trường hợp đã có kết quả lựa chọn nhà đầu tư nhưng việc đàm phán, ký kết hợp đồng được thực hiện sau ngày Luật này có hiệu lực thi hành thì cơ quan ký kết hợp đồng có trách nhiệm tổ chức đàm phán, ký kết hợp đồng căn cứ vào kết quả lựa chọn nhà đầu tư, hồ sơ dự thầu, hồ sơ đề xuất, hồ sơ mời thầu, hồ sơ yêu cầu theo quy định của Luật này mà không dẫn đến điều chỉnh chủ trương đầu tư và báo cáo nghiên cứu khả thi đã được phê duyệt.
+4. Hợp đồng dự án được ký kết trước ngày Luật này có hiệu lực thi hành được tiếp tục thực hiện theo quy định của hợp đồng dự án.
+5. Kể từ ngày Luật này có hiệu lực thi hành, việc chuyển tiếp thực hiện dự án áp dụng loại hợp đồng Xây dựng - Chuyển giao (BT) được thực hiện như sau:
+a) Dự án chưa phát hành hồ sơ mời thầu, hồ sơ yêu cầu thì dừng thực hiện; trường hợp đã phát hành hồ sơ mời thầu, hồ sơ yêu cầu thì tiếp tục thực hiện căn cứ vào hồ sơ mời thầu, hồ sơ yêu cầu và quy định của pháp luật tại thời điểm phát hành hồ sơ mời thầu, hồ sơ yêu cầu;
+b) Dự án đã có kết quả lựa chọn nhà đầu tư trước ngày Luật này có hiệu lực thi hành thì cơ quan ký kết hợp đồng có trách nhiệm tổ chức đàm phán, ký kết hợp đồng căn cứ vào kết quả lựa chọn nhà đầu tư, hồ sơ dự thầu, hồ sơ đề xuất, hồ sơ mời thầu, hồ sơ yêu cầu và quy định của pháp luật tại thời điểm phát hành hồ sơ mời thầu, hồ sơ yêu cầu;
+c) Dự án đã ký kết hợp đồng trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện việc triển khai thực hiện dự án, thanh toán theo quy định của hợp đồng BT đã ký kết và quy định của pháp luật tại thời điểm ký kết hợp đồng;
+d) Dừng triển khai dự án mới áp dụng loại hợp đồng BT.
+6. Dự án áp dụng loại hợp đồng BT chưa được phê duyệt chủ trương đầu tư thì dừng thực hiện kể từ ngày 15 tháng 8 năm 2020.
+7. Chính phủ quy định chi tiết Điều này.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 9 thông qua ngày 18 tháng 6 năm 2020.
+CHỦ TỊCH QUỐC HỘI
+Nguyễn Thị Kim Ngân

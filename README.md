@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
+    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
@@ -31,6 +31,14 @@
   </a>
 </p>
 
+<br/>
+
+<p align="center">
+  <a href="/SPONSORS.md">
+    <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
+  </a>
+</p>
+
 <h3 align="center">
 Open-source Vietnamese Natural Language Process Toolkit
 </h3>
@@ -39,11 +47,9 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **A Vietnamese NLP toolkit.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in [Vietnamese Natural Language Processing](https://github.com/undertheseanlp/underthesea). We provides extremely easy API to quickly apply pretrained NLP models to your Vietnamese text, such as word segmentation, part-of-speech tagging (PoS), named entity recognition (NER), text classification and dependency parsing.
 
-🌊 **A Pytorch library.** Underthesea is backed by one of most popular deep learning libraries, [Pytorch](https://pytorch.org/), make it easy to train your deep learning models and experiment with new approaches using Underthesea modules and classes.
-
 🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
 
-💫 [**Version 1.3.5 out now!**](https://github.com/undertheseanlp/underthesea/releases)
+🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
 ## Installation
 
@@ -91,8 +97,8 @@ Usage
 
 ```python
 >>> from underthesea import text_normalize
->>> text_normalize('Ðảm baỏ chất lựơng phòng thí nghịêm hoá học')
-'Đảm bảo chất lượng phòng thí nghiệm hóa học'
+>>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
+"Đảm bảo chất lượng phòng thí nghiệm hóa học"
 ```
 
 ### 3. Word Segmentation
@@ -101,13 +107,18 @@ Usage
 
 ```python
 >>> from underthesea import word_tokenize
->>> sentence = 'Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò'
+>>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
 
->>> word_tokenize(sentence)
-['Chàng trai', '9X', 'Quảng Trị', 'khởi nghiệp', 'từ', 'nấm', 'sò']
+>>> word_tokenize(text)
+["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
 
 >>> word_tokenize(sentence, format="text")
-'Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò'
+"Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
+
+>>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
+>>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
+>>> word_tokenize(text, fixed_words=fixed_words)
+"Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
 ```
 
 ### 4. POS Tagging
@@ -137,13 +148,14 @@ Usage
 >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
 >>> chunk(text)
 [('Bác sĩ', 'N', 'B-NP'),
- ('bây giờ', 'P', 'I-NP'),
- ('có thể', 'R', 'B-VP'),
- ('thản nhiên', 'V', 'I-VP'),
- ('báo tin', 'N', 'B-NP'),
- ('bệnh nhân', 'N', 'I-NP'),
+ ('bây giờ', 'P', 'B-NP'),
+ ('có thể', 'R', 'O'),
+ ('thản nhiên', 'A', 'B-AP'),
+ ('báo', 'V', 'B-VP'),
+ ('tin', 'N', 'B-NP'),
+ ('bệnh nhân', 'N', 'B-NP'),
  ('bị', 'V', 'B-VP'),
- ('ung thư', 'N', 'I-VP'),
+ ('ung thư', 'N', 'B-NP'),
  ('?', 'CH', 'O')]
 ```
 
@@ -193,6 +205,23 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
+With Deep Learning
+
+```bash
+$ pip install underthesea[deep]
+```
+
+```python
+>>> from underthesea import ner
+>>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
+>>> ner(text, deep=True)
+[
+  {'entity': 'B-ORG', 'word': 'Bộ'},
+  {'entity': 'I-ORG', 'word': 'Công'},
+  {'entity': 'I-ORG', 'word': 'Thương'}
+]
+```
+
 ### 8. Text Classification
 
 Usage
@@ -234,18 +263,19 @@ List resources
 
 ```bash
 $ underthesea list-data
-| Name                | Type        | License | Year | Directory                    |
-|---------------------+-------------+---------+------+------------------------------|
-| UIT_ABSA_RESTAURANT | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_RESTAURANT |
-| UIT_ABSA_HOTEL      | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_HOTEL      |
-| SE_Vietnamese-UBS   | Sentiment   | Open    | 2020 | datasets/SE_Vietnamese-UBS   |
-| CP_Vietnamese-UNC   | Plaintext   | Open    | 2020 | datasets/CP_Vietnamese-UNC   |
-| DI_Vietnamese-UVD   | Dictionary  | Open    | 2020 | datasets/DI_Vietnamese-UVD   |
-| UTS2017-BANK        | Categorized | Open    | 2017 | datasets/UTS2017-BANK        |
-| VNTQ_SMALL          | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNTQ_BIG            | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNESES              | Plaintext   | Open    | 2012 | datasets/LTA                 |
-| VNTC                | Categorized | Open    | 2007 | datasets/VNTC                |
+| Name                      | Type        | License | Year | Directory                          |
+|---------------------------+-------------+---------+------+------------------------------------|
+| CP_Vietnamese_VLC_v2_2022 | Plaintext   | Open    | 2023 | datasets/CP_Vietnamese_VLC_v2_2022 |
+| UIT_ABSA_RESTAURANT       | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_RESTAURANT       |
+| UIT_ABSA_HOTEL            | Sentiment   | Open    | 2021 | datasets/UIT_ABSA_HOTEL            |
+| SE_Vietnamese-UBS         | Sentiment   | Open    | 2020 | datasets/SE_Vietnamese-UBS         |
+| CP_Vietnamese-UNC         | Plaintext   | Open    | 2020 | datasets/CP_Vietnamese-UNC         |
+| DI_Vietnamese-UVD         | Dictionary  | Open    | 2020 | datasets/DI_Vietnamese-UVD         |
+| UTS2017-BANK              | Categorized | Open    | 2017 | datasets/UTS2017-BANK              |
+| VNTQ_SMALL                | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNTQ_BIG                  | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNESES                    | Plaintext   | Open    | 2012 | datasets/LTA                       |
+| VNTC                      | Categorized | Open    | 2007 | datasets/VNTC                      |
 
 $ underthesea list-data --all
 ```
@@ -253,9 +283,8 @@ $ underthesea list-data --all
 Download resources
 
 ```bash
-$ underthesea download-data VNTC
-100%|██████████| 74846806/74846806 [00:09<00:00, 8243779.16B/s]
-Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
+$ underthesea download-data CP_Vietnamese_VLC_v2_2022
+Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_Vietnamese_VLC_v2_2022 folder
 ```
 
 ### Up Coming Features
@@ -264,15 +293,15 @@ Resource VNTC is downloaded in ~/.underthesea/datasets/VNTC folder
 * Text to Speech
 * Automatic Speech Recognition
 
-### Contributing
+## Contributing
 
 Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
 
-### ✨ Support Us
+## 💝 Support Us
 
 If you found this project helpful and would like to support our work, you can just buy us a coffee ☕.
 
 Your support is our biggest encouragement 🎁!
 
 
-<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/img/support.png"/>
+<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/support.png"/>

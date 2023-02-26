@@ -1,0 +1,668 @@
+QUỐC HỘI -------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc --------------
+Luật số: 41/2013/QH13
+Hà Nội, ngày 25 tháng 11 năm 2013
+LUẬT
+BẢO VỆ VÀ KIỂM DỊCH THỰC VẬT
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật bảo vệ và kiểm dịch thực vật.
+Chương 1.
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về hoạt động phòng, chống sinh vật gây hại thực vật; kiểm dịch thực vật; quản lý thuốc bảo vệ thực vật.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với tổ chức, cá nhân trong nước và tổ chức, cá nhân nước ngoài có liên quan đến hoạt động bảo vệ và kiểm dịch thực vật tại Việt Nam.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Thực vật là cây và sản phẩm của cây.
+2. Bảo vệ thực vật là hoạt động phòng, chống sinh vật gây hại thực vật.
+3. Kiểm dịch thực vật là hoạt động ngăn chặn, phát hiện, kiểm soát đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát và sinh vật gây hại lạ.
+4. Chủ thực vật là tổ chức, cá nhân có quyền sở hữu hoặc quyền sử dụng hoặc trực tiếp quản lý thực vật.
+5. Sinh vật có ích là sinh vật có lợi trực tiếp hoặc gián tiếp đối với thực vật bao gồm vi sinh vật có ích, côn trùng có ích, động vật và các sinh vật có ích khác.
+6. Sinh vật gây hại là sinh vật gây ra thiệt hại trực tiếp hoặc gián tiếp đối với thực vật bao gồm vi sinh vật gây bệnh, côn trùng gây hại, cỏ dại và các sinh vật có hại khác.
+7. Sinh vật gây hại lạ là sinh vật gây hại chưa xác định được tên khoa học và chưa từng được phát hiện ở Việt Nam.
+8. Đối tượng kiểm dịch thực vật là sinh vật gây hại có nguy cơ gây thiệt hại nghiêm trọng đối với thực vật, chưa có hoặc có nhưng phân bố hẹp ở Việt Nam và phải được kiểm soát nghiêm ngặt.
+9. Đối tượng phải kiểm soát là sinh vật gây hại không phải là đối tượng kiểm dịch thực vật nhưng sự có mặt của chúng trên vật liệu dùng để làm giống có nguy cơ gây thiệt hại lớn về kinh tế, phải được kiểm soát ở Việt Nam.
+10. Vật thể thuộc diện kiểm dịch thực vật là thực vật, phương tiện sản xuất, bảo quản, vận chuyển hoặc các vật thể khác có khả năng mang theo đối tượng kiểm dịch thực vật.
+11. Chủ vật thể thuộc diện kiểm dịch thực vật là tổ chức, cá nhân có quyền sở hữu hoặc quyền sử dụng hoặc trực tiếp vận chuyển, quản lý vật thể thuộc diện kiểm dịch thực vật.
+12. Phân tích nguy cơ dịch hại là quá trình đánh giá về sinh học, cơ sở khoa học và kinh tế để quyết định biện pháp kiểm dịch thực vật đối với một loài sinh vật gây hại.
+13. Vùng không nhiễm sinh vật gây hại là vùng ở đó có bằng chứng khoa học về việc không có mặt một loài sinh vật gây hại cụ thể và các điều kiện bảo đảm không có loài sinh vật gây hại đó được duy trì.
+14. Kiểm tra vật thể thuộc diện kiểm dịch thực vật là việc quan sát, lấy mẫu, giám định vật thể thuộc diện kiểm dịch thực vật để xác định tình trạng nhiễm sinh vật gây hại hoặc sự tuân thủ quy định về kiểm dịch thực vật.
+15. Xử lý vật thể thuộc diện kiểm dịch thực vật là việc áp dụng các biện pháp nhằm ngăn chặn hoặc diệt trừ triệt để đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát và sinh vật gây hại lạ.
+16. Thuốc bảo vệ thực vật là chất hoặc hỗn hợp các chất hoặc chế phẩm vi sinh vật có tác dụng phòng ngừa, ngăn chặn, xua đuổi, dẫn dụ, tiêu diệt hoặc kiểm soát sinh vật gây hại thực vật; điều hòa sinh trưởng thực vật hoặc côn trùng; bảo quản thực vật; làm tăng độ an toàn, hiệu quả khi sử dụng thuốc.
+17. Thuốc bảo vệ thực vật kỹ thuật (sau đây gọi chung là thuốc kỹ thuật) là sản phẩm có hàm lượng hoạt chất cao, đạt tiêu chuẩn chất lượng theo quy định được dùng để sản xuất thuốc thành phẩm.
+18. Hoạt chất thuốc bảo vệ thực vật là chất hoặc thành phần hữu hiệu có hoạt tính sinh học của thuốc bảo vệ thực vật.
+19. Thuốc bảo vệ thực vật thành phẩm (sau đây gọi chung là thuốc thành phẩm) là sản phẩm được sản xuất từ thuốc kỹ thuật với dung môi, phụ gia theo quy trình công nghệ nhất định, đạt quy chuẩn kỹ thuật quốc gia, có nhãn hàng hóa và được phép đưa vào lưu thông, sử dụng.
+20. Thuốc bảo vệ thực vật sinh học là sản phẩm có thành phần hữu hiệu là vi sinh vật sống hoặc chất có nguồn gốc từ vi sinh vật, thực vật, động vật.
+21. Sản xuất thuốc bảo vệ thực vật bao gồm sản xuất hoạt chất, thuốc kỹ thuật, thuốc thành phẩm, đóng gói thuốc bảo vệ thực vật.
+22. Thời gian cách ly là khoảng thời gian tối thiểu kể từ ngày sử dụng thuốc bảo vệ thực vật lần cuối cùng đến ngày thu hoạch sản phẩm hoặc khoảng thời gian tối thiểu kể từ ngày sử dụng thuốc bảo vệ thực vật lần cuối cùng trong quá trình bảo quản đến khi sản phẩm được đưa vào sử dụng.
+Điều 4. Nguyên tắc hoạt động bảo vệ và kiểm dịch thực vật
+1. Phát hiện sớm, kết luận nhanh chóng, chính xác; xử lý triệt để, ngăn chặn kịp thời sự xâm nhập, lan rộng của đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát, sinh vật gây hại lạ.
+2. Phòng, chống sinh vật gây hại thực hiện theo phương châm phòng là chính; áp dụng biện pháp quản lý tổng hợp sinh vật gây hại theo hướng bền vững, trong đó ưu tiên biện pháp sinh học, sử dụng giống cây trồng chống chịu sinh vật gây hại, biện pháp kỹ thuật canh tác, thực hành nông nghiệp tốt.
+3. Sử dụng thuốc bảo vệ thực vật phải thực hiện nguyên tắc bốn đúng bao gồm đúng thuốc, đúng lúc, đúng liều lượng và nồng độ, đúng cách; tuân thủ thời gian cách ly; bảo đảm hiệu quả, an toàn cho người, an toàn thực phẩm, hạn chế tối đa ô nhiễm môi trường, bảo vệ hệ sinh thái.
+4. Áp dụng tiến bộ khoa học và công nghệ, kết hợp khoa học và công nghệ hiện đại với kinh nghiệm truyền thống của nhân dân.
+Điều 5. Chính sách của Nhà nước về hoạt động bảo vệ và kiểm dịch thực vật
+1. Đầu tư phát triển nguồn nhân lực; xây dựng, nâng cấp cơ sở vật chất - kỹ thuật cho cơ quan bảo vệ và kiểm dịch thực vật; xây dựng và phát triển hệ thống thông tin, dự báo và cảnh báo sinh vật gây hại; nghiên cứu khoa học và ứng dụng công nghệ hiện đại để tạo ra thuốc bảo vệ thực vật sinh học, thuốc bảo vệ thực vật ít độc hại, giống cây trồng chống chịu sinh vật gây hại và các biện pháp quản lý sinh vật gây hại theo hướng bền vững.
+2. Hỗ trợ xây dựng các vùng không nhiễm sinh vật gây hại; xây dựng và phát triển các loại hình tổ chức dịch vụ bảo vệ thực vật gắn với dịch vụ kỹ thuật nông nghiệp theo hướng chuyên nghiệp phục vụ sản xuất nông nghiệp hàng hóa quy mô lớn; chống dịch, ổn định đời sống và khôi phục sản xuất sau khi dịch hại xảy ra trên diện rộng, gây thiệt hại lớn.
+3. Khuyến khích xây dựng khu công nghiệp sản xuất thuốc bảo vệ thực vật, hệ thống thu gom, xử lý thuốc bảo vệ thực vật và bao gói thuốc bảo vệ thực vật sau sử dụng; sản xuất, sử dụng bao gói thuốc bảo vệ thực vật từ vật liệu dễ tái chế; tập huấn, phổ biến sử dụng thuốc an toàn, hiệu quả cho người sử dụng thuốc.
+4. Đẩy mạnh hợp tác quốc tế, bảo đảm nguồn lực để thực hiện các cam kết quốc tế trong lĩnh vực bảo vệ và kiểm dịch thực vật; khuyến khích công nhận và thừa nhận lẫn nhau trong hoạt động bảo vệ và kiểm dịch thực vật.
+Điều 6. Thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật
+1. Việc thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật nhằm cung cấp kiến thức về sinh vật gây hại thực vật, các biện pháp phòng, chống sinh vật gây hại và chính sách, pháp luật về bảo vệ và kiểm dịch thực vật. Nội dung thông tin, tuyên truyền về bảo vệ và kiểm dịch thực vật phải bảo đảm tính chính xác, kịp thời, dễ hiểu.
+2. Việc thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật được thực hiện bằng hình thức sau đây:
+a) Thông qua cổng thông tin điện tử của các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, địa phương và các phương tiện thông tin đại chúng;
+b) Xây dựng các tài liệu chuyên đề, tạp chí, tờ rơi;
+c) Tổ chức triển lãm, hội thảo, tập huấn;
+d) Tổ chức các diễn đàn để tham vấn rộng rãi về chính sách, pháp luật, chia sẻ thông tin và kinh nghiệm về bảo vệ và kiểm dịch thực vật;
+đ) Các hình thức phù hợp khác.
+3. Trách nhiệm của cơ quan nhà nước về thông tin, tuyên truyền về bảo vệ và kiểm dịch thực vật được quy định như sau:
+a) Bộ Nông nghiệp và Phát triển nông thôn chỉ đạo, cung cấp thông tin chính xác, kịp thời về bảo vệ và kiểm dịch thực vật;
+b) Bộ Thông tin và Truyền thông chỉ đạo, hướng dẫn việc thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật;
+c) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình tổ chức thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật.
+4. Tổ chức, cá nhân có hoạt động thông tin và tuyên truyền về bảo vệ và kiểm dịch thực vật phải tuân thủ quy định của Luật này và quy định khác của pháp luật có liên quan.
+Điều 7. Trách nhiệm quản lý nhà nước của Chính phủ, các bộ
+1. Chính phủ thống nhất quản lý nhà nước về bảo vệ và kiểm dịch thực vật trong phạm vi cả nước.
+2. Bộ Nông nghiệp và Phát triển nông thôn chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về bảo vệ và kiểm dịch thực vật, có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành và tổ chức thực hiện chính sách, văn bản quy phạm pháp luật, tiêu chuẩn, quy chuẩn kỹ thuật về bảo vệ và kiểm dịch thực vật;
+b) Xây dựng, chỉ đạo thực hiện chiến lược, quy hoạch, kế hoạch về bảo vệ và kiểm dịch thực vật;
+c) Tổ chức thực hiện công tác phát hiện, dự báo, cảnh báo sinh vật gây hại thực vật; xây dựng hệ thống thông tin, cơ sở dữ liệu về bảo vệ và kiểm dịch thực vật; chỉ đạo phòng, chống dịch;
+d) Tổ chức thực hiện công tác kiểm dịch thực vật bao gồm phân tích nguy cơ dịch hại, kiểm dịch nhập khẩu, tạm nhập tái xuất, tạm xuất tái nhập, chuyển cửa khẩu, chuyển vào kho ngoại quan (sau đây gọi chung là nhập khẩu), xuất khẩu, tạm xuất, tái xuất (sau đây gọi chung là xuất khẩu), quá cảnh, kiểm dịch sau nhập khẩu, kiểm dịch nội địa và xử lý vật thể thuộc diện kiểm dịch thực vật;
+đ) Tổ chức thực hiện công tác quản lý thuốc bảo vệ thực vật bao gồm đăng ký thuốc, khảo nghiệm, sản xuất, buôn bán, nhập khẩu, xuất khẩu, vận chuyển, bảo quản, quảng cáo, bao gói, ghi nhãn, sử dụng, thu hồi, tiêu hủy, thu gom và xử lý thuốc, bao gói thuốc bảo vệ thực vật sau sử dụng;
+e) Quy định nội dung hướng dẫn, tập huấn về sử dụng thuốc bảo vệ thực vật và cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật;
+g) Quản lý và hướng dẫn việc cấp, cấp lại, gia hạn, thu hồi các loại giấy phép, giấy chứng nhận trong lĩnh vực bảo vệ và kiểm dịch thực vật;
+h) Tổ chức điều tra cơ bản, nghiên cứu khoa học, đào tạo, bồi dưỡng nghiệp vụ về bảo vệ và kiểm dịch thực vật;
+i) Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật và kiến thức về bảo vệ và kiểm dịch thực vật;
+k) Thống kê về bảo vệ và kiểm dịch thực vật;
+l) Hợp tác quốc tế về bảo vệ và kiểm dịch thực vật, đề xuất việc ký kết, gia nhập các điều ước quốc tế trong lĩnh vực bảo vệ và kiểm dịch thực vật;
+m) Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về bảo vệ và kiểm dịch thực vật theo thẩm quyền.
+3. Các bộ trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện việc quản lý nhà nước về bảo vệ và kiểm dịch thực vật, có trách nhiệm sau đây:
+a) Bộ Y tế phối hợp với Bộ Nông nghiệp và Phát triển nông thôn quy định các biện pháp phòng ngừa, ngăn chặn sự cố mất an toàn thực phẩm do sử dụng thuốc bảo vệ thực vật trong sản xuất nông sản thực phẩm;
+b) Bộ Công thương chủ trì phòng chống buôn lậu, hàng giả và gian lận thương mại đối với thuốc bảo vệ thực vật, thực vật thuộc diện kiểm dịch thực vật; phối hợp với Bộ Nông nghiệp và Phát triển nông thôn trong việc quản lý sản xuất, kinh doanh, xuất khẩu, nhập khẩu thuốc bảo vệ thực vật, vật thể thuộc diện kiểm dịch thực vật;
+c) Bộ Khoa học và Công nghệ phối hợp với Bộ Nông nghiệp và Phát triển nông thôn xây dựng, quyết định việc nghiên cứu khoa học và phát triển công nghệ trong lĩnh vực bảo vệ và kiểm dịch thực vật;
+d) Bộ Tài nguyên và Môi trường chủ trì hướng dẫn tiêu hủy thuốc, xử lý bao gói thuốc bảo vệ thực vật sau sử dụng; chủ trì phối hợp với Bộ Nông nghiệp và Phát triển nông thôn ban hành hoặc trình cơ quan có thẩm quyền ban hành quy định về bảo tồn đa dạng sinh học liên quan đến lĩnh vực bảo vệ thực vật, kiểm dịch thực vật và quản lý thuốc bảo vệ thực vật; phối hợp hướng dẫn thu gom bao gói thuốc bảo vệ thực vật sau sử dụng;
+đ) Bộ Tài chính chủ trì phối hợp với Bộ Nông nghiệp và Phát triển nông thôn ban hành quy định điều kiện hoàn tất thủ tục hải quan, sự phối hợp của cơ quan hải quan với cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trong việc thực hiện thủ tục hải quan, kiểm tra, giám sát vật thể thuộc diện kiểm dịch thực vật, thuốc bảo vệ thực vật khi xuất khẩu, nhập khẩu; quy định nội dung khai báo kiểm dịch thực vật trong nội dung khai báo của hành khách xuất cảnh, nhập cảnh;
+e) Bộ Quốc phòng, Bộ Công an chủ trì phối hợp với Bộ Nông nghiệp và Phát triển nông thôn ban hành quy định về bảo vệ và kiểm dịch thực vật trong trường hợp bảo đảm quốc phòng và an ninh.
+Điều 8. Trách nhiệm của Ủy ban nhân dân các cấp
+1. Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là Ủy ban nhân dân cấp tỉnh), Ủy ban nhân dân quận, huyện, thị xã, thành phố thuộc tỉnh (sau đây gọi chung là Ủy ban nhân dân cấp huyện) có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành văn bản quy phạm pháp luật về bảo vệ và kiểm dịch thực vật; xây dựng và tổ chức thực hiện quy hoạch vùng không nhiễm sinh vật gây hại trên địa bàn;
+b) Quyết định phân bổ, quản lý, sử dụng kinh phí, huy động nguồn lực của địa phương theo quy định của pháp luật để phòng, chống sinh vật gây hại thực vật;
+c) Chỉ đạo, tổ chức chống dịch, thực hiện các biện pháp bảo vệ sản xuất khi xảy ra dịch hại thực vật; thống kê, đánh giá thiệt hại do dịch gây ra trên địa bàn; thực hiện chính sách hỗ trợ ổn định đời sống, khôi phục sản xuất;
+d) Tổ chức bồi dưỡng, tập huấn về công tác bảo vệ thực vật, kiểm dịch thực vật và sử dụng thuốc bảo vệ thực vật; tổ chức tuyên truyền, phổ biến, giáo dục nhằm nâng cao ý thức chấp hành pháp luật về bảo vệ và kiểm dịch thực vật, ý thức, trách nhiệm của chủ thực vật trong phòng, chống sinh vật gây hại và ý thức, trách nhiệm của người sử dụng thuốc bảo vệ thực vật đối với cộng đồng, môi trường;
+đ) Ủy ban nhân dân cấp tỉnh bố trí kinh phí, chỉ đạo Ủy ban nhân dân cấp huyện tổ chức thu gom, xử lý bao gói thuốc bảo vệ thực vật sau sử dụng, tiêu hủy thuốc bảo vệ thực vật vô chủ tại địa phương;
+e) Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về bảo vệ và kiểm dịch thực vật theo thẩm quyền.
+2. Ủy ban nhân dân xã, phường, thị trấn (sau đây gọi chung là Ủy ban nhân dân cấp xã) có trách nhiệm sau đây:
+a) Tuyên truyền, phổ biến, giáo dục nhằm nâng cao ý thức chấp hành pháp luật về bảo vệ và kiểm dịch thực vật, ý thức, trách nhiệm của chủ thực vật trong phòng, chống sinh vật gây hại và ý thức, trách nhiệm của người sử dụng thuốc bảo vệ thực vật đối với cộng đồng, môi trường;
+b) Quy định địa điểm thu gom, tổ chức, hướng dẫn thu gom bao gói thuốc bảo vệ thực vật sau sử dụng;
+c) Phối hợp với cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trên địa bàn điều tra, giám sát, quản lý dịch hại thực vật để bảo vệ sản xuất; hướng dẫn người dân sử dụng thuốc bảo vệ thực vật an toàn, hiệu quả; kiểm tra, quản lý hoạt động dịch vụ bảo vệ thực vật, buôn bán, sử dụng thuốc bảo vệ thực vật tại địa phương;
+d) Tổ chức công tác bảo vệ và kiểm dịch thực vật; chống dịch, thống kê, đánh giá thiệt hại do dịch hại thực vật gây ra; thực hiện chính sách hỗ trợ chống dịch cho nông dân, triển khai các biện pháp bảo vệ sản xuất khi xảy ra dịch để giảm nhẹ thiệt hại, ổn định đời sống, khôi phục sản xuất;
+đ) Kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về bảo vệ và kiểm dịch thực vật theo thẩm quyền.
+Điều 9. Hệ thống cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật
+Hệ thống cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật được tổ chức từ trung ương đến cấp huyện.
+Chính phủ quy định về tổ chức hệ thống cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật.
+Điều 10. Vai trò của các tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp
+Tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp tham gia ý kiến xây dựng các văn bản quy phạm pháp luật về bảo vệ và kiểm dịch thực vật; tuyên truyền, phổ biến kiến thức pháp luật về bảo vệ và kiểm dịch thực vật để nâng cao ý thức của người dân trong phòng, chống sinh vật gây hại, kiểm dịch thực vật, sử dụng thuốc bảo vệ thực vật.
+Điều 11. Hợp tác quốc tế về bảo vệ và kiểm dịch thực vật
+1. Hợp tác quốc tế về bảo vệ và kiểm dịch thực vật tập trung vào lĩnh vực nghiên cứu khoa học, chuyển giao công nghệ, đào tạo kỹ thuật, chia sẻ kinh nghiệm, trao đổi thông tin về phòng, chống sinh vật gây hại, kiểm dịch thực vật, thuốc bảo vệ thực vật.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương là đầu mối trao đổi thông tin về bảo vệ thực vật, kiểm dịch thực vật và thuốc bảo vệ thực vật trong hoạt động hợp tác quốc tế.
+Điều 12. Phí, lệ phí về bảo vệ và kiểm dịch thực vật
+Tổ chức, cá nhân có hoạt động bảo vệ và kiểm dịch thực vật phải trả phí, lệ phí theo quy định của pháp luật về phí và lệ phí.
+Điều 13. Hành vi bị cấm
+1. Sử dụng biện pháp bảo vệ và kiểm dịch thực vật trái quy định của Luật này.
+2. Không áp dụng hoặc cố ý áp dụng không đúng các biện pháp chống dịch.
+3. Nhập khẩu, sản xuất, vận chuyển, tàng trữ, buôn bán thực vật bị nhiễm sinh vật gây hại hoặc sử dụng giống cây bị nhiễm sinh vật gây hại trong Danh mục đối tượng kiểm dịch thực vật, Danh mục đối tượng phải kiểm soát mà chưa được xử lý.
+4. Phát tán sinh vật gây hại.
+5. Đưa đất, nhập khẩu sinh vật gây hại vào Việt Nam, nhân nuôi sinh vật gây hại, trừ trường hợp được sự đồng ý bằng văn bản của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn.
+6. Sản xuất, nhập khẩu, kinh doanh, sử dụng thuốc bảo vệ thực vật trong Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam; thuốc bảo vệ thực vật giả, không rõ nguồn gốc, hết hạn sử dụng; thuốc bảo vệ thực vật không có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam, trừ trường hợp quy định tại khoản 2 Điều 67 của Luật này.
+7. Quảng cáo thuốc bảo vệ thực vật trong Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam, thuốc bảo vệ thực vật không có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam hoặc quảng cáo thuốc bảo vệ thực vật không đúng với nội dung ghi trong Giấy chứng nhận đăng ký thuốc bảo vệ thực vật.
+8. Sản xuất, kinh doanh, sử dụng, bảo quản, vận chuyển, thải bỏ, thu gom, xử lý thuốc và bao gói thuốc bảo vệ thực vật trái quy định của Luật này.
+Chương 2.
+PHÒNG, CHỐNG SINH VẬT GÂY HẠI THỰC VẬT
+Điều 14. Yêu cầu phòng, chống sinh vật gây hại thực vật
+1. Chủ động thực hiện các biện pháp quản lý tổng hợp sinh vật gây hại bao gồm sử dụng giống cây trồng chống chịu sinh vật gây hại, vệ sinh đồng ruộng, bố trí thời vụ, sử dụng phân bón, mật độ hợp lý và các biện pháp khác thân thiện với môi trường nhằm tạo điều kiện thuận lợi cho cây trồng sinh trưởng, phát triển, tăng sức đề kháng, hạn chế sự phát sinh, phát triển của sinh vật gây hại, bảo vệ và phát triển sinh vật có ích.
+2. Thường xuyên theo dõi, phát hiện sớm, áp dụng các biện pháp phòng ngừa kịp thời, hiệu quả, không để sinh vật gây hại lây lan; coi trọng biện pháp canh tác, biện pháp sinh học, vật lý, cơ giới và kinh nghiệm truyền thống của nhân dân. Chủ động thực hành nông nghiệp tốt (GAP) trong phòng, chống sinh vật gây hại thực vật.
+3. Chỉ sử dụng biện pháp hóa học khi đã áp dụng các biện pháp quy định tại khoản 1 và khoản 2 Điều này nhưng mật độ sinh vật gây hại vẫn gia tăng có nguy cơ gây thiệt hại đến năng suất, chất lượng cây trồng.
+4. Biện pháp phòng, chống sinh vật gây hại thực vật phải được phổ biến, tuyên truyền, tập huấn sâu rộng trong nhân dân, bảo đảm an toàn đối với người, thực vật, động vật và môi trường.
+Điều 15. Quyền và nghĩa vụ của chủ thực vật
+1. Chủ thực vật có quyền sau đây:
+a) Được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật cung cấp thông tin về tình hình sinh vật gây hại và hướng dẫn thực hiện biện pháp phòng, chống sinh vật gây hại, biện pháp duy trì điều kiện vùng không nhiễm sinh vật gây hại;
+b) Tham gia chương trình tập huấn nâng cao kiến thức về phòng, chống sinh vật gây hại phù hợp với điều kiện cụ thể của địa phương;
+c) Chủ động áp dụng các biện pháp phòng, chống sinh vật gây hại phù hợp với khả năng, điều kiện và đáp ứng quy định tại Điều 14 của Luật này;
+d) Ký hợp đồng với tổ chức, cá nhân hành nghề dịch vụ bảo vệ thực vật và được bồi thường thiệt hại do lỗi của bên cung cấp dịch vụ theo quy định pháp luật;
+đ) Được hưởng chính sách hỗ trợ của Nhà nước theo quy định.
+2. Chủ thực vật có nghĩa vụ sau đây:
+a) Theo dõi, phát hiện kịp thời sinh vật gây hại và áp dụng biện pháp phù hợp để phòng, chống sinh vật gây hại thực vật hiệu quả, an toàn, không để lây lan;
+b) Báo cáo ngay với Ủy ban nhân dân cấp xã hoặc cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật nơi gần nhất khi phát hiện sinh vật gây hại lạ hoặc sinh vật gây hại có nguy cơ gây thiệt hại nghiêm trọng;
+c) Cung cấp thông tin về tình hình sinh vật gây hại thực vật, phối hợp và tạo điều kiện cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật thực hiện nhiệm vụ khi được yêu cầu;
+d) Thực hiện nghiêm các biện pháp chống dịch khi có công bố dịch hại thực vật;
+đ) Sử dụng thuốc bảo vệ thực vật theo quy định tại khoản 2 Điều 72 của Luật này;
+e) Khắc phục hậu quả hoặc bồi thường thiệt hại theo quy định của pháp luật do không thực hiện hoặc thực hiện không đúng các biện pháp phòng, chống sinh vật gây hại.
+Điều 16. Trách nhiệm của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật
+1. Điều tra, phát hiện sinh vật gây hại; xác định thời gian phát sinh, diện phân bố, mức độ gây hại của sinh vật gây hại. Thông báo kịp thời tình hình sinh vật gây hại và hướng dẫn biện pháp phòng, chống sinh vật gây hại thực vật.
+2. Tiếp nhận, xử lý thông tin và hướng dẫn các biện pháp xử lý đối với các sinh vật gây hại do chủ thực vật, tổ chức, cá nhân thông báo.
+3. Xây dựng, duy trì hệ thống giám sát, cảnh báo sinh vật gây hại, biện pháp phòng, chống sinh vật gây hại thực vật; xây dựng cơ sở dữ liệu về bảo vệ và kiểm dịch thực vật.
+4. Chuyển giao tiến bộ khoa học và công nghệ trong phòng, chống sinh vật gây hại thực vật.
+5. Tập huấn nâng cao kiến thức cho cán bộ, kỹ thuật viên bảo vệ thực vật và người sản xuất.
+6. Tham mưu cho cơ quan quản lý nhà nước để chỉ đạo và tổ chức việc phòng, chống sinh vật gây hại thực vật; kiểm tra, xác minh tình hình sinh vật gây hại để đề xuất công bố dịch và công bố hết dịch hại thực vật; đề xuất cấp thuốc bảo vệ thực vật dự trữ quốc gia, chính sách hỗ trợ chống dịch và khôi phục, phát triển sản xuất.
+7. Đánh giá, xác định thiệt hại do dịch hại thực vật gây ra và đề xuất mức hỗ trợ, các biện pháp khắc phục.
+8. Thông tin và hướng dẫn biện pháp phòng, chống sinh vật gây hại thực vật; hướng dẫn các biện pháp chống dịch, theo dõi, tổng hợp, đánh giá hiệu quả chống dịch.
+9. Báo cáo định kỳ hoặc đột xuất công tác bảo vệ thực vật, kết quả chống dịch khi có công bố dịch hại thực vật ở địa phương với cơ quan quản lý trực tiếp và cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật cấp trên.
+Điều 17. Công bố dịch hại thực vật
+1. Công bố dịch hại thực vật trong các trường hợp sau đây:
+a) Khi sinh vật gây hại thực vật bùng phát, có nguy cơ lây lan nhanh trên diện rộng, gây thiệt hại nghiêm trọng đối với thực vật;
+b) Khi phát hiện sinh vật gây hại lạ, đối tượng phải kiểm soát có nguy cơ gây thiệt hại nghiêm trọng đối với thực vật;
+c) Khi phát hiện đối tượng kiểm dịch thực vật xâm nhập vào lãnh thổ Việt Nam, có nguy cơ lây lan.
+2. Thẩm quyền công bố dịch hại thực vật được quy định như sau:
+a) Chủ tịch Ủy ban nhân dân cấp tỉnh căn cứ đề xuất của cơ quan chuyên môn về nông nghiệp thuộc Ủy ban nhân dân cấp tỉnh quyết định công bố dịch tại địa phương trong trường hợp quy định tại điểm a khoản 1 Điều này và báo cáo ngay Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn;
+b) Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn căn cứ đề xuất của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương quyết định công bố dịch trong trường hợp quy định tại điểm a khoản 1 Điều này khi dịch xảy ra có nguy cơ lây lan, gây thiệt hại nghiêm trọng từ hai tỉnh trở lên và trường hợp quy định tại điểm b và điểm c khoản 1 Điều này, đồng thời báo cáo ngay Thủ tướng Chính phủ.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 18. Tổ chức chống dịch hại thực vật
+1. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm sau đây:
+a) Chỉ đạo Chủ tịch Ủy ban nhân dân cấp tỉnh nơi có dịch huy động nguồn lực tại địa phương nhanh chóng thực hiện các biện pháp khống chế, dập tắt dịch, ngăn ngừa dịch lây lan sang các vùng khác; kiểm tra việc công bố dịch và tổ chức chống dịch của Chủ tịch Ủy ban nhân dân cấp tỉnh nơi có dịch;
+b) Trình Thủ tướng Chính phủ quyết định việc hỗ trợ chống dịch và triển khai việc hỗ trợ chống dịch;
+c) Báo cáo Thủ tướng Chính phủ về kết quả chống dịch và kết quả thực hiện chính sách hỗ trợ chống dịch, khắc phục hậu quả do dịch gây ra và khôi phục sản xuất.
+2. Chủ tịch Ủy ban nhân dân cấp tỉnh có trách nhiệm sau đây:
+a) Chỉ đạo cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật, cơ quan, tổ chức, cá nhân có liên quan của tỉnh thực hiện các biện pháp để nhanh chóng khống chế, dập tắt dịch, ngăn ngừa dịch lây lan sang các vùng khác;
+b) Bố trí, huy động nguồn lực tại địa phương để phòng, chống dịch;
+c) Chỉ đạo tuyên truyền, phổ biến các biện pháp chống dịch trên địa bàn;
+d) Tăng cường thanh tra, kiểm tra, thực hiện bình ổn giá vật tư nông nghiệp trong chống dịch;
+đ) Thực hiện các chính sách hỗ trợ chống dịch, khắc phục hậu quả do dịch gây ra, ổn định đời sống, khôi phục sản xuất;
+e) Đề xuất Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn trình Thủ tướng Chính phủ hỗ trợ kinh phí, vật tư và nguồn lực khi yêu cầu chống dịch vượt quá khả năng của địa phương;
+g) Báo cáo Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn về kết quả chống dịch và thực hiện chính sách hỗ trợ chống dịch, khắc phục hậu quả do dịch gây ra, ổn định đời sống và khôi phục sản xuất.
+3. Chủ tịch Ủy ban nhân dân cấp huyện, cấp xã có trách nhiệm sau đây:
+a) Huy động nguồn lực tại địa phương thực hiện các biện pháp chống dịch theo chỉ đạo của Chủ tịch Ủy ban nhân dân cấp trên;
+b) Tổ chức tuyên truyền, phổ biến các biện pháp chống dịch trên địa bàn;
+c) Thực hiện các chính sách hỗ trợ chống dịch, khắc phục hậu quả do dịch gây ra, ổn định đời sống và khôi phục sản xuất trên địa bàn;
+d) Trình Chủ tịch Ủy ban nhân dân cấp trên quyết định hỗ trợ kinh phí, vật tư và nguồn lực khi yêu cầu chống dịch vượt quá khả năng của địa phương;
+đ) Báo cáo Chủ tịch Ủy ban nhân dân cấp trên về kết quả chống dịch và thực hiện chính sách hỗ trợ chống dịch, khắc phục hậu quả do dịch gây ra, ổn định đời sống và khôi phục sản xuất.
+4. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm tham mưu, hướng dẫn các biện pháp chống dịch, xác định thiệt hại do dịch gây ra, theo dõi, tổng hợp, đánh giá hiệu quả chống dịch và thực hiện chế độ báo cáo theo quy định tại khoản 9 Điều 16 của Luật này.
+5. Chủ thực vật, tổ chức, cá nhân có liên quan nơi có dịch phải thực hiện đúng các biện pháp chống dịch theo yêu cầu của Chủ tịch Ủy ban nhân dân cấp xã.
+Điều 19. Công bố hết dịch hại thực vật
+Khi dịch hại thực vật đã được khống chế và không còn nguy cơ gây thiệt hại nghiêm trọng thì người có thẩm quyền công bố dịch theo quy định tại khoản 2 Điều 17 của Luật này quyết định công bố hết dịch.
+Điều 20. Dự trữ và sử dụng thuốc bảo vệ thực vật thuộc Danh mục hàng dự trữ quốc gia
+1. Dự trữ thuốc bảo vệ thực vật thuộc Danh mục hàng dự trữ quốc gia được quy định như sau:
+a) Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn trình Thủ tướng Chính phủ quyết định về số lượng, danh mục thuốc bảo vệ thực vật dự trữ quốc gia;
+b) Thuốc bảo vệ thực vật thuộc Danh mục hàng dự trữ quốc gia được quản lý, sử dụng theo quy định của pháp luật về dự trữ quốc gia.
+2. Việc sử dụng thuốc bảo vệ thực vật thuộc hàng dự trữ quốc gia trong chống dịch được quy định như sau:
+a) Trong trường hợp đột xuất, cấp bách khi có dịch và căn cứ vào đề nghị của Chủ tịch Ủy ban nhân dân cấp tỉnh nơi có dịch, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quyết định xuất, cấp thuốc bảo vệ thực vật dự trữ quốc gia để kịp thời chống dịch có giá trị tương ứng với thẩm quyền quyết định chi ngân sách của Bộ trưởng Bộ Tài chính quy định tại Luật ngân sách nhà nước và báo cáo Thủ tướng Chính phủ, đồng thời thông báo với Bộ Tài chính về việc xuất, cấp thuốc bảo vệ thực vật dự trữ quốc gia;
+b) Chủ tịch Ủy ban nhân dân cấp tỉnh chỉ đạo việc tiếp nhận, bảo quản, sử dụng thuốc bảo vệ thực vật dự trữ quốc gia được hỗ trợ để chống dịch kịp thời, hiệu quả, đúng mục đích và báo cáo Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn về kết quả sử dụng thuốc bảo vệ thực vật thuộc hàng dự trữ quốc gia đã hỗ trợ cho địa phương.
+Điều 21. Kinh phí chống dịch hại thực vật
+1. Nguồn kinh phí chống dịch hại thực vật bao gồm:
+a) Ngân sách nhà nước;
+b) Kinh phí của chủ thực vật;
+c) Đóng góp, tài trợ của tổ chức, cá nhân trong nước, nước ngoài, tổ chức quốc tế và các nguồn hợp pháp khác.
+2. Chính phủ quy định việc huy động, quản lý, sử dụng nguồn kinh phí chống dịch hại thực vật.
+Điều 22. Nội dung hoạt động dịch vụ bảo vệ thực vật
+1. Điều tra, dự báo và cung cấp thông tin về sinh vật gây hại thực vật; tư vấn cho chủ thực vật biện pháp phòng, chống sinh vật gây hại thực vật.
+2. Thực hiện các biện pháp phòng, chống sinh vật gây hại thực vật, trừ các biện pháp quy định tại khoản 2 Điều 34 của Luật này.
+Điều 23. Điều kiện hoạt động dịch vụ bảo vệ thực vật
+1. Tổ chức, cá nhân được hoạt động dịch vụ bảo vệ thực vật khi có đủ điều kiện sau đây:
+a) Người trực tiếp làm dịch vụ bảo vệ thực vật phải có trình độ trung cấp trở lên thuộc chuyên ngành trồng trọt, bảo vệ thực vật, sinh học hoặc có giấy chứng nhận tập huấn về bảo vệ thực vật;
+b) Có trang thiết bị làm dịch vụ bảo vệ thực vật phù hợp;
+c) Có địa chỉ giao dịch hợp pháp, rõ ràng;
+d) Được sự đồng ý bằng văn bản của Ủy ban nhân dân cấp xã nơi tổ chức, cá nhân này có địa chỉ giao dịch hợp pháp.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 24. Quyền và nghĩa vụ của tổ chức, cá nhân hoạt động dịch vụ bảo vệ thực vật
+1. Tổ chức, cá nhân hoạt động dịch vụ bảo vệ thực vật có quyền sau đây:
+a) Được trả chi phí thực hiện dịch vụ bảo vệ thực vật theo hợp đồng ký kết với chủ thực vật;
+b) Tham dự chương trình tập huấn, nâng cao kiến thức về phòng, chống sinh vật gây hại thực vật phù hợp với điều kiện cụ thể của địa phương;
+c) Tham gia chương trình thông tin, truyền thông về phòng, chống sinh vật gây hại thực vật;
+d) Được quyền khiếu nại kết luận và quyết định của cơ quan kiểm tra, cơ quan quản lý nhà nước có thẩm quyền theo quy định của pháp luật về khiếu nại.
+2. Tổ chức, cá nhân hoạt động dịch vụ bảo vệ thực vật có nghĩa vụ sau đây:
+a) Duy trì các điều kiện hoạt động dịch vụ bảo vệ thực vật theo quy định tại Điều 23 của Luật này trong quá trình hoạt động;
+b) Tuân thủ quy định của pháp luật về bảo vệ và kiểm dịch thực vật;
+c) Chấp hành quy định của pháp luật về hợp đồng, pháp luật về lao động và các nghĩa vụ khác;
+d) Bồi thường thiệt hại theo quy định của pháp luật.
+Chương 3.
+KIỂM DỊCH THỰC VẬT
+Điều 25. Quy định về kiểm dịch thực vật
+1. Kiểm dịch thực vật được thực hiện đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và kiểm dịch thực vật nội địa theo quy định tại Luật này, trừ trường hợp được miễn trừ kiểm dịch thực vật theo quy định của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn.
+2. Trong từng thời kỳ, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành các danh mục sau đây:
+a) Danh mục vật thể thuộc diện kiểm dịch thực vật;
+b) Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam;
+c) Danh mục đối tượng kiểm dịch thực vật;
+d) Danh mục đối tượng phải kiểm soát.
+Điều 26. Yêu cầu đối với vật thể thuộc diện kiểm dịch thực vật nhập khẩu
+1. Vật thể trong Danh mục vật thể thuộc diện kiểm dịch thực vật khi nhập khẩu phải đáp ứng các yêu cầu sau đây:
+a) Có Giấy chứng nhận kiểm dịch thực vật do cơ quan có thẩm quyền về kiểm dịch thực vật của nước xuất khẩu cấp;
+b) Không có sinh vật gây hại trong danh mục quy định tại điểm c và điểm d khoản 2 Điều 25 của Luật này hoặc sinh vật gây hại lạ;
+c) Bao bì đóng gói vật thể thuộc diện kiểm dịch thực vật nhập khẩu phải được xử lý theo quy chuẩn kỹ thuật quốc gia của Việt Nam.
+2. Vật thể trong Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam được phép nhập khẩu theo quy định tại khoản 4 Điều 27 của Luật này phải đáp ứng các yêu cầu sau đây:
+a) Có Giấy phép kiểm dịch thực vật nhập khẩu do cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương của Việt Nam cấp;
+b) Đáp ứng yêu cầu quy định tại khoản 1 Điều này.
+Điều 27. Phân tích nguy cơ dịch hại
+1. Vật thể thuộc diện kiểm dịch thực vật trong Danh mục vật thể thuộc diện kiểm dịch thực vật phải phân tích nguy cơ dịch hại trước khi nhập khẩu vào Việt Nam phải được phân tích nguy cơ dịch hại.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương của Việt Nam có trách nhiệm tổ chức thực hiện phân tích nguy cơ dịch hại trên cơ sở thông tin do cơ quan có thẩm quyền về kiểm dịch thực vật của nước xuất khẩu cung cấp và các nguồn thông tin hiện có khác.
+3. Căn cứ kết quả phân tích nguy cơ dịch hại, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương của Việt Nam cho phép hoặc không cho phép nhập khẩu vật thể thuộc diện kiểm dịch thực vật và thông báo bằng văn bản cho cơ quan có thẩm quyền về kiểm dịch thực vật của nước xuất khẩu và tổ chức, cá nhân có liên quan biết.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định nội dung thông tin cần cung cấp để phân tích nguy cơ dịch hại; quy trình, nội dung phân tích nguy cơ dịch hại.
+Điều 28. Hồ sơ, trình tự, thủ tục cấp Giấy phép kiểm dịch thực vật nhập khẩu
+1. Hồ sơ đề nghị cấp Giấy phép kiểm dịch thực vật nhập khẩu bao gồm:
+a) Đơn đề nghị cấp Giấy phép kiểm dịch thực vật nhập khẩu;
+b) Hợp đồng thương mại;
+c) Bản sao Giấy chứng nhận đăng ký kinh doanh của tổ chức, cá nhân.
+2. Trình tự, thủ tục cấp Giấy phép kiểm dịch thực vật nhập khẩu được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị cấp Giấy phép kiểm dịch thực vật nhập khẩu cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương xem xét và cấp Giấy phép kiểm dịch thực vật nhập khẩu; trường hợp không cấp thì phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 29. Kiểm dịch thực vật nhập khẩu
+1. Khi nhập khẩu vật thể thuộc diện kiểm dịch thực vật, chủ vật thể phải làm thủ tục kiểm dịch thực vật. Địa điểm thực hiện kiểm dịch thực vật là cửa khẩu đầu tiên hoặc nơi mà từ đó vật thể được đưa vào Việt Nam, trường hợp đặc biệt thì được thực hiện tại địa điểm khác có đủ điều kiện cách ly do cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương quyết định.
+2. Đối với những vật thể có nguy cơ cao mang theo đối tượng kiểm dịch thực vật của Việt Nam, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định cửa khẩu nhập khẩu.
+3. Vật thể thuộc diện kiểm dịch thực vật mang theo hành lý xách tay hoặc hành lý gửi theo phương tiện chuyên chở phải được khai báo và kiểm tra theo quy định của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn.
+4. Vật thể thuộc diện kiểm dịch thực vật chỉ được thông quan sau khi hoàn thành đầy đủ các thủ tục kiểm dịch thực vật nhập khẩu.
+5. Trình tự, thủ tục kiểm dịch thực vật được thực hiện theo quy định tại Điều 33 của Luật này.
+Điều 30. Kiểm dịch thực vật sau nhập khẩu
+1. Giống cây trồng chưa có trong Danh mục giống cây trồng được phép sản xuất, kinh doanh tại Việt Nam theo quy định của pháp luật về giống cây trồng, sinh vật có ích sử dụng trong bảo vệ thực vật khi nhập khẩu phải thực hiện các quy định tại Điều 26 của Luật này và phải được kiểm dịch thực vật sau nhập khẩu tại khu cách ly kiểm dịch thực vật.
+2. Giống cây trồng theo quy định tại khoản 1 Điều này chỉ được gieo trồng ngoài khu cách ly sau khi được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật kết luận không nhiễm sinh vật gây hại thuộc danh mục quy định tại điểm c và điểm d khoản 2 Điều 25 của Luật này hoặc sinh vật gây hại lạ.
+3. Sinh vật có ích chỉ được nhân nuôi, sử dụng sau khi được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật kết luận bảo đảm yêu cầu về kiểm dịch thực vật sau khi kiểm dịch tại khu cách ly kiểm dịch thực vật.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định cụ thể số lượng mẫu giống cây trồng, sinh vật có ích được phép nhập khẩu theo quy định tại Điều này; điều kiện khu cách ly; trình tự, thủ tục và nội dung kiểm dịch thực vật tại khu cách ly kiểm dịch thực vật.
+Điều 31. Kiểm dịch thực vật xuất khẩu
+1. Vật thể trong Danh mục vật thể thuộc diện kiểm dịch thực vật khi xuất khẩu phải được kiểm dịch và cấp Giấy chứng nhận kiểm dịch thực vật.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương thực hiện việc kiểm dịch và cấp Giấy chứng nhận kiểm dịch thực vật theo quy định của pháp luật Việt Nam và yêu cầu của nước nhập khẩu.
+3. Trình tự, thủ tục kiểm dịch thực vật xuất khẩu thực hiện theo quy định tại Điều 33 của Luật này. Trường hợp đã kiểm dịch tại cơ sở sản xuất hoặc nơi xuất phát hoặc nơi bảo quản ở sâu trong nội địa thì chủ vật thể thuộc diện kiểm dịch thực vật phải xuất trình Giấy chứng nhận kiểm dịch thực vật khi đến cửa khẩu cuối cùng để xuất khẩu.
+Điều 32. Kiểm dịch thực vật quá cảnh
+1. Vật thể thuộc diện kiểm dịch thực vật khi quá cảnh Việt Nam phải được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương đồng ý và kiểm dịch tại cửa khẩu đầu tiên nơi vật thể được đưa vào Việt Nam.
+2. Trình tự, thủ tục kiểm dịch thực vật quá cảnh thực hiện theo quy định tại Điều 33 của Luật này.
+Điều 33. Trình tự, thủ tục kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và cấp Giấy chứng nhận kiểm dịch thực vật
+1. Đăng ký kiểm dịch thực vật được quy định như sau:
+a) Tổ chức, cá nhân trước khi nhập khẩu, quá cảnh vật thể thuộc diện kiểm dịch thực vật phải đăng ký, nộp hồ sơ cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương để kiểm dịch;
+b) Tổ chức, cá nhân trước khi xuất khẩu vật thể thuộc diện kiểm dịch thực vật phải đăng ký, nộp hồ sơ cho cơ quan chuyên ngành về bảo vệ và kiểm dịch thực vật nơi gần nhất để kiểm dịch.
+2. Việc kiểm dịch vật thể thuộc diện kiểm dịch thực vật và cấp Giấy chứng nhận kiểm dịch thực vật được quy định như sau:
+a) Trong thời hạn 01 ngày làm việc kể từ khi nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật quyết định và thông báo cho chủ vật thể thuộc diện kiểm dịch thực vật về địa điểm và thời gian tiến hành kiểm dịch;
+b) Trong thời hạn 24 giờ kể từ khi bắt đầu kiểm dịch, nếu đáp ứng yêu cầu kiểm dịch thực vật thì cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật cấp Giấy chứng nhận kiểm dịch thực vật.
+Trường hợp kéo dài hơn 24 giờ do yêu cầu về chuyên môn kỹ thuật hoặc trường hợp không cấp Giấy chứng nhận kiểm dịch thực vật thì cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật thông báo hoặc trả lời bằng văn bản và nêu rõ lý do cho chủ vật thể thuộc diện kiểm dịch thực vật biết.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 34. Xử lý vật thể thuộc diện kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh
+1. Vật thể thuộc diện kiểm dịch thực vật phải xử lý trong các trường hợp sau đây:
+a) Vật thể bị nhiễm đối tượng kiểm dịch thực vật của Việt Nam, đối tượng phải kiểm soát hoặc sinh vật gây hại lạ; vật thể có nguy cơ cao mang theo đối tượng kiểm dịch thực vật của Việt Nam;
+b) Vật thể phải xử lý để đáp ứng quy định kiểm dịch thực vật của nước nhập khẩu;
+c) Vật thể vô chủ, không rõ nguồn gốc.
+2. Biện pháp xử lý bao gồm xông hơi khử trùng, xử lý nhiệt, xử lý hơi nước nóng, chiếu xạ, tái xuất, tiêu hủy, tạm ngừng xuất khẩu, tạm ngừng nhập khẩu, cấm xuất khẩu, cấm nhập khẩu và các biện pháp khác.
+3. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương quyết định áp dụng biện pháp xử lý thích hợp quy định tại khoản 2 Điều này, trừ các biện pháp quy định tại Điều 35 của Luật này.
+4. Chi phí xử lý vật thể thuộc diện kiểm dịch thực vật quy định tại điểm a và điểm b khoản 1 Điều này do chủ vật thể chi trả; chi phí xử lý vật thể quy định tại điểm c khoản 1 Điều này do ngân sách nhà nước bảo đảm.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 35. Tạm ngừng xuất khẩu, nhập khẩu; cấm xuất khẩu, nhập khẩu vật thể thuộc diện kiểm dịch thực vật
+1. Vật thể thuộc diện kiểm dịch thực vật bị tạm ngừng xuất khẩu, nhập khẩu hoặc cấm xuất khẩu, nhập khẩu trong các trường hợp sau đây:
+a) Vật thể nhập khẩu được xác định có nguy cơ cao mang theo đối tượng kiểm dịch thực vật xâm nhập, lây lan và đe dọa sản xuất nông nghiệp trong nước, an ninh lương thực quốc gia và ảnh hưởng nghiêm trọng đến việc xuất khẩu của Việt Nam;
+b) Vật thể xuất khẩu không bảo đảm yêu cầu kiểm dịch thực vật của nước nhập khẩu và có nguy cơ làm mất thị trường xuất khẩu của Việt Nam.
+2. Khi các nguy cơ quy định tại khoản 1 Điều này đã được khắc phục thì vật thể được tiếp tục xuất khẩu, nhập khẩu.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 36. Hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Việc xử lý vật thể thuộc diện kiểm dịch thực vật phải do tổ chức có Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật thực hiện.
+2. Hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật bao gồm:
+a) Xông hơi khử trùng;
+b) Xử lý nhiệt;
+c) Xử lý hơi nước nóng;
+d) Chiếu xạ;
+đ) Các hoạt động kỹ thuật khác.
+Điều 37. Điều kiện cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+Tổ chức được cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật phải có đủ các điều kiện sau đây:
+1. Điều kiện về cơ sở vật chất - kỹ thuật bao gồm:
+a) Có địa điểm xử lý vật thể thuộc diện kiểm dịch thực vật, nhà xưởng, kho chứa trang thiết bị, phương tiện phù hợp với quy mô hành nghề;
+b) Có đầy đủ trang thiết bị và quy trình kỹ thuật;
+c) Có đủ điều kiện phòng cháy và chữa cháy, bảo vệ môi trường theo quy định của pháp luật.
+2. Điều kiện về nhân lực bao gồm:
+a) Người trực tiếp quản lý, điều hành của tổ chức hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật phải có trình độ chuyên môn phù hợp từ đại học trở lên; bảo đảm sức khỏe theo quy định;
+b) Người trực tiếp thực hiện xử lý vật thể thuộc diện kiểm dịch thực vật phải được tập huấn, được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương kiểm tra trình độ chuyên môn, tay nghề và cấp thẻ hành nghề; bảo đảm sức khỏe theo quy định.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 38. Hồ sơ, trình tự, thủ tục và thẩm quyền cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Hồ sơ đề nghị cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật bao gồm:
+a) Đơn đề nghị cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật;
+b) Bản sao Giấy chứng nhận đăng ký kinh doanh;
+c) Bản thuyết minh về cơ sở vật chất - kỹ thuật, nhân lực bảo đảm điều kiện hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật theo quy định tại Điều 37 của Luật này;
+d) Giấy chứng nhận trình độ chuyên môn, Giấy chứng nhận sức khỏe theo quy định tại Điều 37 của Luật này;
+đ) Giấy tờ chứng minh đủ điều kiện phòng cháy và chữa cháy, bảo vệ môi trường theo quy định của pháp luật.
+2. Trình tự, thủ tục cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật được quy định như sau:
+a) Tổ chức có nhu cầu hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật nộp hồ sơ đề nghị cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương kiểm tra thực tế điều kiện hành nghề của tổ chức đó; nếu đủ điều kiện thì cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 39. Hồ sơ, trình tự và thủ tục cấp lại Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật được cấp lại trong các trường hợp sau đây:
+a) Bị mất, sai sót, hư hỏng;
+b) Có sự thay đổi về phạm vi, quy mô hành nghề hoặc thông tin liên quan đến tổ chức đăng ký;
+c) Hết hạn theo quy định tại Điều 40 của Luật này.
+2. Hồ sơ đề nghị cấp lại Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật bao gồm:
+a) Đơn đề nghị cấp lại Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật;
+b) Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật đã được cấp, trừ trường hợp bị mất;
+c) Giấy chứng nhận trình độ chuyên môn của người quản lý, điều hành, giấy chứng nhận tập huấn về xử lý vật thể thuộc diện kiểm dịch thực vật hoặc Thẻ hành nghề của những người trực tiếp thực hiện xử lý theo quy định tại Điều 37 của Luật này;
+d) Giấy chứng nhận sức khỏe của người quản lý, điều hành và những người trực tiếp thực hiện xử lý vật thể thuộc diện kiểm dịch thực vật;
+đ) Tài liệu về quy trình kỹ thuật; danh mục phương tiện, trang thiết bị hành nghề tại thời điểm đề nghị;
+e) Giấy tờ chứng minh đủ điều kiện phòng cháy và chữa cháy, bảo vệ môi trường theo quy định của pháp luật.
+3. Trình tự, thủ tục cấp lại Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật thực hiện theo quy định tại khoản 2 Điều 38 của Luật này.
+Điều 40. Hiệu lực của Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật có giá trị trong thời hạn 05 năm.
+2. Trước 03 tháng tính đến ngày Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật hết hạn, tổ chức hành nghề phải nộp hồ sơ cho cơ quan có thẩm quyền cấp giấy chứng nhận trong trường hợp có nhu cầu tiếp tục hành nghề.
+Điều 41. Thu hồi Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật bị thu hồi trong các trường hợp sau đây:
+a) Bị tẩy xóa, sửa chữa nội dung;
+b) Tổ chức hành nghề vi phạm pháp luật mà bị xử phạt vi phạm hành chính từ 03 lần trong một năm hoặc bị xử phạt vi phạm hành chính 03 lần liên tiếp về một hành vi vi phạm trong lĩnh vực bảo vệ và kiểm dịch thực vật;
+c) Tổ chức hành nghề có hành vi vi phạm khác mà pháp luật quy định phải thu hồi Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương có thẩm quyền thu hồi Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật.
+Điều 42. Quyền và nghĩa vụ của tổ chức hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật
+1. Tổ chức hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật có quyền sau đây:
+a) Ký kết và thực hiện hợp đồng với chủ vật thể thuộc diện kiểm dịch thực vật theo quy định của pháp luật;
+b) Cấp chứng nhận đối với vật thể thuộc diện kiểm dịch thực vật đã được xử lý;
+c) Đề xuất biện pháp kỹ thuật để xử lý vật thể thuộc diện kiểm dịch thực vật với cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật;
+d) Khiếu nại kết luận và quyết định của cơ quan kiểm tra, cơ quan quản lý nhà nước có thẩm quyền.
+2. Tổ chức hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật có nghĩa vụ sau đây:
+a) Chỉ được phép hành nghề khi được cơ quan có thẩm quyền cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật và duy trì các điều kiện quy định tại Điều 37 của Luật này trong quá trình hoạt động;
+b) Chỉ được thực hiện dịch vụ xử lý vật thể thuộc diện kiểm dịch thực vật đúng quy định trong Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật;
+c) Thực hiện việc xử lý theo chỉ định và chịu sự giám sát của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trong trường hợp phải xử lý vật thể bị nhiễm đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát, sinh vật gây hại lạ;
+d) Bảo đảm không làm ảnh hưởng đến chất lượng vật thể thuộc diện kiểm dịch thực vật được xử lý và sức khỏe cộng đồng;
+đ) Chịu trách nhiệm về kết quả thực hiện xử lý vật thể thuộc diện kiểm dịch thực vật;
+e) Chấp hành quy định của pháp luật về hợp đồng, pháp luật về lao động và các nghĩa vụ khác;
+g) Định kỳ hàng năm báo cáo tình hình hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật với cơ quan có thẩm quyền cấp Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật.
+Điều 43. Kiểm dịch thực vật nội địa
+1. Chủ vật thể thuộc diện kiểm dịch thực vật khi vận chuyển vật thể từ vùng bị nhiễm đối tượng kiểm dịch thực vật đến các vùng khác phải khai báo với cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở địa phương nơi gần nhất để thực hiện việc kiểm dịch và được cấp Giấy chứng nhận kiểm dịch thực vật.
+2. Vật thể nhiễm đối tượng kiểm dịch thực vật đã được xử lý khi đưa vào sử dụng phải được kiểm tra, giám sát tại địa phương.
+3. Nông sản, lâm sản bảo quản trong kho, giống cây trồng nhập khẩu, giống cây trồng mới được đưa về gieo trồng tại địa phương phải được theo dõi tình hình sinh vật gây hại.
+4. Sinh vật có ích nhập nội trong quá trình sử dụng phải được theo dõi, đánh giá, phát hiện và xử lý kịp thời những tác động bất lợi do chúng gây ra.
+5. Vùng không nhiễm sinh vật gây hại phải được giám sát thường xuyên để duy trì các điều kiện của vùng này.
+6. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 44. Trách nhiệm của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trong hoạt động kiểm dịch thực vật
+1. Kiểm dịch thực vật nhập khẩu, xuất khẩu.
+2. Kiểm dịch thực vật nội địa.
+3. Kiểm dịch thực vật sau nhập khẩu tại khu cách ly kiểm dịch thực vật.
+4. Giám sát vật thể thuộc diện kiểm dịch thực vật nhập khẩu, xuất khẩu, quá cảnh và chuyển vào kho ngoại quan.
+5. Quyết định biện pháp xử lý; giám sát, xác nhận việc thực hiện biện pháp xử lý vật thể thuộc diện kiểm dịch thực vật xuất khẩu, nhập khẩu.
+6. Quản lý các hoạt động xử lý vật thể thuộc diện kiểm dịch thực vật.
+7. Xây dựng và hướng dẫn thực hiện các biện pháp kiểm dịch thực vật.
+8. Tổ chức xử lý vật thể thuộc diện kiểm dịch thực vật vô chủ, không rõ nguồn gốc từ nước ngoài vào Việt Nam.
+9. Chỉ định tổ chức hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật để xử lý trong trường hợp phải xử lý vật thể bị nhiễm đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát, sinh vật gây hại lạ; yêu cầu chủ vật thể thực hiện và chịu chi phí.
+10. Phối hợp với cơ quan có thẩm quyền về kiểm dịch thực vật của nước xuất khẩu để thực hiện việc kiểm dịch tại nước xuất khẩu hoặc các yêu cầu kiểm dịch theo quy định của nước nhập khẩu tại Việt Nam.
+11. Cung cấp thông tin về kiểm dịch thực vật cho các nước có liên quan khi được yêu cầu.
+Điều 45. Nhiệm vụ và quyền hạn của công chức kiểm dịch thực vật
+1. Thực hiện kiểm dịch thực vật theo quy định tại Luật này; nghiêm chỉnh chấp hành quy trình nghiệp vụ kiểm dịch thực vật và chịu trách nhiệm về việc thực hiện nhiệm vụ, quyền hạn của mình.
+2. Yêu cầu chủ vật thể thuộc diện kiểm dịch thực vật cung cấp hồ sơ, tài liệu liên quan, phương tiện, nhân lực cần thiết cho việc kiểm dịch.
+3. Hướng dẫn, giám sát việc thực hiện biện pháp xử lý vật thể thuộc diện kiểm dịch thực vật.
+4. Thực hiện việc kiểm tra, lấy mẫu trong quá trình kiểm dịch theo quy định.
+5. Đối với những nơi thuộc bí mật quốc phòng, an ninh và trường hợp đặc biệt khác thì được tạo điều kiện để thực hiện nhiệm vụ kiểm dịch thực vật nhưng phải bảo đảm yêu cầu bảo mật.
+Điều 46. Quy định trang phục đối với công chức kiểm dịch thực vật
+1. Khi thực hiện nhiệm vụ kiểm dịch thực vật, công chức kiểm dịch thực vật phải mang trang phục, phù hiệu, cấp hiệu, biển hiệu và thẻ công chức kiểm dịch thực vật.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 47. Quyền và nghĩa vụ của chủ vật thể thuộc diện kiểm dịch thực vật
+1. Chủ vật thể thuộc diện kiểm dịch thực vật có quyền sau đây:
+a) Được cung cấp thông tin về kiểm dịch thực vật;
+b) Được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật hướng dẫn phát hiện, nhận biết sinh vật gây hại, các biện pháp xử lý vật thể bị nhiễm sinh vật gây hại;
+c) Yêu cầu cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật cung cấp thông tin cho nước nhập khẩu đối với vật thể phải phân tích nguy cơ dịch hại;
+d) Khiếu nại về kết quả kiểm dịch thực vật và quyết định của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật.
+2. Chủ vật thể thuộc diện kiểm dịch thực vật có nghĩa vụ sau đây:
+a) Thực hiện yêu cầu của công chức kiểm dịch thực vật khi thi hành công vụ như mở, đóng phương tiện vận chuyển, kho chứa, kiện hàng, bố trí nhân lực, phương tiện phục vụ kiểm tra, lấy mẫu vật thể; chịu trách nhiệm bảo quản vật thể thuộc diện kiểm dịch thực vật trong thời gian thực hiện các thủ tục kiểm dịch thực vật và hướng dẫn công chức kiểm dịch vào nơi có vật thể thuộc diện kiểm dịch thực vật để kiểm dịch;
+b) Cung cấp thông tin cần thiết phục vụ công tác kiểm dịch khi cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật yêu cầu;
+c) Theo dõi và kiểm tra vật thể thuộc diện kiểm dịch thực vật nhập khẩu trong quá trình vận chuyển, bảo quản, sử dụng. Khi phát hiện hoặc nghi ngờ vật thể thuộc diện kiểm dịch thực vật nhiễm đối tượng kiểm dịch thực vật, đối tượng phải kiểm soát hoặc sinh vật gây hại lạ phải báo ngay cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật hoặc Ủy ban nhân dân cấp xã nơi gần nhất;
+d) Thực hiện đúng, kịp thời việc xử lý vật thể thuộc diện kiểm dịch thực vật theo quyết định và hướng dẫn của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật;
+đ) Thực hiện đầy đủ các biện pháp quy định tại Giấy chứng nhận kiểm dịch thực vật khi vận chuyển, bảo quản, sử dụng vật thể thuộc diện kiểm dịch thực vật;
+e) Thực hiện các nghĩa vụ khác theo quy định của pháp luật.
+Chương 4.
+QUẢN LÝ THUỐC BẢO VỆ THỰC VẬT
+MỤC 1. QUẢN LÝ THUỐC VÀ ĐĂNG KÝ THUỐC BẢO VỆ THỰC VẬT
+Điều 48. Quy định chung về quản lý thuốc bảo vệ thực vật
+1. Thuốc bảo vệ thực vật là loại hàng hóa kinh doanh có điều kiện và phải được quản lý theo danh mục.
+2. Hàng năm, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam và Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam.
+3. Tổ chức, cá nhân được nhập khẩu, sản xuất, buôn bán, sử dụng thuốc có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam.
+4. Tổ chức, cá nhân nhập khẩu thuốc bảo vệ thực vật trong trường hợp phải có giấy phép nhập khẩu quy định tại khoản 2 Điều 67 của Luật này thì chỉ được sử dụng đúng mục đích ghi trong giấy phép.
+Điều 49. Thuốc bảo vệ thực vật không được đăng ký hoặc bị loại khỏi Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam
+1. Thuốc bảo vệ thực vật không được đăng ký vào Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam bao gồm:
+a) Thuốc trong Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam;
+b) Thuốc bảo vệ thực vật có nguy cơ cao ảnh hưởng xấu đến sức khỏe con người, vật nuôi, hệ sinh thái, môi trường;
+c) Thuốc thành phẩm hoặc hoạt chất trong thuốc thành phẩm có độc cấp tính loại I, II theo Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS), trừ thuốc bảo vệ thực vật sinh học, thuốc bảo vệ thực vật dùng để xông hơi khử trùng, thuốc trừ chuột; thuốc trừ mối gây hại công trình xây dựng, đê điều; thuốc bảo quản lâm sản mà lâm sản đó không dùng làm thực phẩm và dược liệu;
+d) Thuốc bảo vệ thực vật trùng tên thương phẩm với thuốc bảo vệ thực vật khác có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam;
+đ) Thuốc bảo vệ thực vật chứa hoạt chất methyl bromide.
+2. Thuốc bảo vệ thực vật bị loại khỏi Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam trong trường hợp sau đây:
+a) Có bằng chứng khoa học về thuốc bảo vệ thực vật gây ảnh hưởng xấu đến sức khỏe con người, vật nuôi, hệ sinh thái, môi trường;
+b) Thuốc bảo vệ thực vật hiệu lực thấp đối với sinh vật gây hại;
+c) Thuốc bảo vệ thực vật của các tổ chức, cá nhân đăng ký tự nguyện rút khỏi Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 50. Tổ chức, cá nhân được đăng ký thuốc bảo vệ thực vật tại Việt Nam
+1. Tổ chức, cá nhân trong nước sản xuất hoạt chất, thuốc kỹ thuật hoặc sản xuất thuốc thành phẩm từ thuốc kỹ thuật.
+2. Tổ chức, cá nhân nước ngoài sản xuất hoạt chất, thuốc kỹ thuật hoặc sản xuất thuốc thành phẩm từ thuốc kỹ thuật có văn phòng đại diện, công ty, chi nhánh công ty kinh doanh thuốc bảo vệ thực vật đang được phép hoạt động tại Việt Nam.
+3. Tổ chức, cá nhân trong nước và nước ngoài có đủ điều kiện về sản xuất, buôn bán thuốc bảo vệ thực vật quy định tại Điều 61 và Điều 63 của Luật này được tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này ủy quyền.
+Điều 51. Hồ sơ, trình tự, thủ tục cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật
+1. Hồ sơ đề nghị cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật;
+b) Bản sao Giấy phép khảo nghiệm thuốc bảo vệ thực vật;
+c) Mẫu nhãn thuốc bảo vệ thực vật;
+d) Kết quả khảo nghiệm thuốc bảo vệ thực vật tại Việt Nam.
+2. Trình tự, thủ tục cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 06 tháng kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương tổ chức thẩm định, trình Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn đưa vào Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam; cấp Giấy chứng nhận đăng ký thuốc bảo vệ thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+3. Giấy chứng nhận đăng ký thuốc bảo vệ thực vật có giá trị trong thời hạn 05 năm và có thể được gia hạn.
+Điều 52. Hồ sơ, trình tự, thủ tục gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật
+1. Trước 03 tháng tính đến ngày Giấy chứng nhận đăng ký thuốc bảo vệ thực vật hết hạn, nếu tổ chức, cá nhân có nhu cầu gia hạn thì phải nộp hồ sơ đề nghị gia hạn.
+2. Hồ sơ đề nghị gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật;
+b) Giấy chứng nhận đăng ký thuốc bảo vệ thực vật đã được cấp;
+c) Nhãn thuốc bảo vệ thực vật đề nghị gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật.
+3. Trình tự, thủ tục gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 15 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương gia hạn Giấy chứng nhận đăng ký thuốc bảo vệ thực vật; trường hợp không gia hạn phải trả lời bằng văn bản và nêu rõ lý do.
+4. Giấy chứng nhận đăng ký thuốc bảo vệ thực vật được gia hạn có giá trị trong thời hạn 05 năm.
+Điều 53. Hồ sơ, trình tự, thủ tục cấp lại Giấy chứng nhận đăng ký thuốc bảo vệ thực vật
+1. Giấy chứng nhận đăng ký thuốc bảo vệ thực vật được cấp lại trong trường hợp sau đây:
+a) Bị mất, sai sót, hư hỏng;
+b) Có thay đổi tên thương phẩm của thuốc hoặc thông tin liên quan đến tổ chức, cá nhân đăng ký.
+2. Hồ sơ đề nghị cấp lại Giấy chứng nhận đăng ký thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp lại Giấy chứng nhận đăng ký thuốc bảo vệ thực vật;
+b) Giấy tờ xác nhận nội dung thay đổi;
+c) Giấy chứng nhận đăng ký thuốc bảo vệ thực vật đã được cấp, trừ trường hợp bị mất.
+3. Trình tự, thủ tục cấp lại Giấy chứng nhận đăng ký thuốc bảo vệ thực vật được quy định như sau:
+a) Trường hợp quy định tại điểm a khoản 1 Điều này thực hiện theo quy định tại khoản 3 Điều 52 của Luật này;
+b) Trường hợp quy định tại điểm b khoản 1 Điều này thực hiện theo quy định tại khoản 2 Điều 51 của Luật này.
+Điều 54. Thu hồi Giấy chứng nhận đăng ký thuốc bảo vệ thực vật
+1. Giấy chứng nhận đăng ký thuốc bảo vệ thực vật bị thu hồi trong các trường hợp sau đây:
+a) Bị tẩy xóa, sửa chữa nội dung;
+b) Phát hiện giấy tờ giả, thông tin không trung thực trong hồ sơ đã đăng ký;
+c) Tổ chức, cá nhân có hành vi vi phạm mà pháp luật quy định phải thu hồi Giấy chứng nhận đăng ký thuốc bảo vệ thực vật;
+d) Có quyết định về việc loại thuốc đó khỏi Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương có thẩm quyền thu hồi Giấy chứng nhận đăng ký thuốc bảo vệ thực vật.
+MỤC 2. KHẢO NGHIỆM THUỐC BẢO VỆ THỰC VẬT
+Điều 55. Khảo nghiệm thuốc bảo vệ thực vật
+1. Việc khảo nghiệm thuốc bảo vệ thực vật phải thực hiện đối với tất cả thuốc bảo vệ thực vật trước khi đăng ký vào Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam; đối với thuốc bảo vệ thực vật sinh học được xét giảm yêu cầu khảo nghiệm.
+2. Việc khảo nghiệm thuốc bảo vệ thực vật chỉ được tiến hành sau khi có Giấy phép khảo nghiệm thuốc bảo vệ thực vật của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương và do tổ chức có đủ điều kiện khảo nghiệm theo quy định tại Điều 59 của Luật này thực hiện.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 56. Hồ sơ, trình tự, thủ tục cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật
+1. Hồ sơ đề nghị cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật;
+b) Giấy tờ chứng minh đáp ứng yêu cầu quy định tại Điều 50 của Luật này;
+c) Tài liệu kỹ thuật của thuốc bảo vệ thực vật.
+2. Trình tự, thủ tục cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+3. Giấy phép khảo nghiệm thuốc bảo vệ thực vật có giá trị trong thời hạn 05 năm.
+Điều 57. Cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật
+1. Giấy phép khảo nghiệm thuốc bảo vệ thực vật được cấp lại trong trường hợp bị mất, sai sót, hư hỏng hoặc thay đổi tên thương phẩm, thông tin của tổ chức, cá nhân đăng ký khảo nghiệm thuốc bảo vệ thực vật.
+2. Hồ sơ đề nghị cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật;
+b) Giấy phép khảo nghiệm thuốc bảo vệ thực vật đã được cấp, trừ trường hợp bị mất.
+3. Trình tự, thủ tục cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 10 ngày kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương cấp lại Giấy phép khảo nghiệm thuốc bảo vệ thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+Điều 58. Thu hồi Giấy phép khảo nghiệm thuốc bảo vệ thực vật
+1. Giấy phép khảo nghiệm thuốc bảo vệ thực vật bị thu hồi trong các trường hợp sau đây:
+a) Bị tẩy xóa, sửa chữa nội dung;
+b) Phát hiện giấy tờ giả, thông tin không trung thực trong hồ sơ xin cấp Giấy phép khảo nghiệm thuốc bảo vệ thực vật;
+c) Thuốc bảo vệ thực vật có nguy cơ gây ảnh hưởng xấu đến sức khỏe của con người, động vật, thực vật, hệ sinh thái và môi trường theo quy định của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn.
+2. Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương có thẩm quyền thu hồi Giấy phép khảo nghiệm thuốc bảo vệ thực vật.
+Điều 59. Điều kiện đối với tổ chức thực hiện khảo nghiệm thuốc bảo vệ thực vật
+1. Tổ chức thực hiện khảo nghiệm thuốc bảo vệ thực vật phải bảo đảm các điều kiện sau đây:
+a) Người đứng đầu tổ chức phải có trình độ đại học trở lên thuộc chuyên ngành bảo vệ thực vật, trồng trọt, sinh học, hóa học và có giấy chứng nhận tập huấn về khảo nghiệm thuốc bảo vệ thực vật;
+b) Người lao động có trình độ chuyên môn phù hợp và đã được tập huấn về khảo nghiệm thuốc bảo vệ thực vật;
+c) Có cơ sở vật chất - kỹ thuật bảo đảm cho công tác khảo nghiệm thuốc bảo vệ thực vật;
+d) Không trực tiếp đứng tên đăng ký hoặc được ủy quyền đứng tên đăng ký thuốc bảo vệ thực vật tại Việt Nam.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục công nhận, công bố danh sách tổ chức đủ điều kiện thực hiện khảo nghiệm thuốc bảo vệ thực vật.
+Điều 60. Quyền và nghĩa vụ của tổ chức thực hiện khảo nghiệm thuốc bảo vệ thực vật
+1. Tổ chức thực hiện khảo nghiệm thuốc bảo vệ thực vật có quyền sau đây:
+a) Được cung cấp thông tin về các vấn đề liên quan đến khảo nghiệm thuốc bảo vệ thực vật;
+b) Được thu phí khảo nghiệm thuốc bảo vệ thực vật theo quy định;
+c) Khiếu nại quyết định của cơ quan có thẩm quyền.
+2. Tổ chức thực hiện khảo nghiệm thuốc bảo vệ thực vật có nghĩa vụ sau đây:
+a) Khảo nghiệm thuốc bảo vệ thực vật phải khách quan, chính xác;
+b) Tuân thủ đúng quy chuẩn, tiêu chuẩn, quy trình kỹ thuật và các yêu cầu khảo nghiệm;
+c) Chịu trách nhiệm trước pháp luật về kết quả khảo nghiệm;
+d) Lưu giữ toàn bộ số liệu thô của khảo nghiệm tối thiểu 05 năm kể từ ngày khảo nghiệm kết thúc;
+đ) Chịu sự kiểm tra, giám sát hoạt động khảo nghiệm của cơ quan có thẩm quyền;
+e) Bồi thường thiệt hại theo quy định của pháp luật.
+MỤC 3. SẢN XUẤT, BUÔN BÁN, NHẬP KHẨU, XUẤT KHẨU, VẬN CHUYỂN, BẢO QUẢN, QUẢNG CÁO, BAO GÓI, GHI NHÃN VÀ SỬ DỤNG THUỐC BẢO VỆ THỰC VẬT
+Điều 61. Điều kiện đối với cơ sở sản xuất thuốc bảo vệ thực vật
+1. Điều kiện về cơ sở vật chất - kỹ thuật được quy định như sau:
+a) Cơ sở sản xuất thuốc có địa điểm, nhà xưởng, kho thuốc, bảo đảm về diện tích, khoảng cách an toàn cho người, vật nuôi và môi trường theo đúng quy định, phù hợp với quy mô sản xuất;
+b) Máy móc, thiết bị và quy trình công nghệ phù hợp với loại thuốc bảo vệ thực vật được sản xuất;
+c) Có hệ thống xử lý chất thải bảo đảm xử lý chất thải đạt tiêu chuẩn, quy chuẩn kỹ thuật quốc gia về môi trường;
+d) Có đủ trang thiết bị để kiểm tra chất lượng thuốc bảo vệ thực vật do mình sản xuất ra. Trường hợp không có đủ trang thiết bị thì phải có hợp đồng kiểm tra chất lượng với tổ chức được chỉ định kiểm tra chất lượng thuốc bảo vệ thực vật đối với mỗi lô sản phẩm xuất xưởng.
+2. Điều kiện về nhân lực được quy định như sau:
+a) Người trực tiếp quản lý, điều hành sản xuất của cơ sở sản xuất thuốc bảo vệ thực vật có trình độ đại học trở lên thuộc chuyên ngành hóa học, bảo vệ thực vật, sinh học;
+b) Người lao động trực tiếp sản xuất thuốc bảo vệ thực vật phải được huấn luyện, bồi dưỡng về chuyên môn phù hợp.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy chuẩn kỹ thuật quốc gia và quy định chi tiết điều kiện đối với cơ sở sản xuất thuốc bảo vệ thực vật.
+Điều 62. Quyền và nghĩa vụ của cơ sở sản xuất thuốc bảo vệ thực vật
+1. Cơ sở sản xuất thuốc bảo vệ thực vật có quyền sau đây:
+a) Sản xuất thuốc trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam;
+b) Nhập khẩu thuốc bảo vệ thực vật để sản xuất hoặc tái xuất theo hợp đồng ký kết với nước ngoài;
+c) Thông tin, quảng cáo thuốc bảo vệ thực vật theo quy định tại Điều 70 của Luật này và pháp luật về quảng cáo;
+d) Các quyền khác theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+2. Cơ sở sản xuất thuốc bảo vệ thực vật có nghĩa vụ sau đây:
+a) Sản xuất thuốc bảo vệ thực vật phải đúng quy chuẩn kỹ thuật quốc gia; tiêu chuẩn cơ sở do cơ sở sản xuất thuốc công bố;
+b) Sử dụng người lao động trực tiếp sản xuất thuốc bảo vệ thực vật bảo đảm sức khỏe, được đào tạo, bồi dưỡng về an toàn lao động và chuyên môn;
+c) Chịu trách nhiệm về chất lượng thuốc và chỉ được phép xuất xưởng, lưu thông trên thị trường thuốc đạt chất lượng;
+d) Cung cấp tài liệu cần thiết cho việc thanh tra, kiểm tra của cơ quan có thẩm quyền theo quy định của pháp luật;
+đ) Bồi thường thiệt hại trong trường hợp do lỗi của cơ sở sản xuất theo quy định của pháp luật;
+e) Khi phát hiện thuốc không bảo đảm yêu cầu theo quy định, cơ sở sản xuất có trách nhiệm thực hiện việc thu hồi theo quy định tại khoản 2 Điều 73 của Luật này;
+g) Chủ cơ sở sản xuất thuốc bảo vệ thực vật phải tổ chức tập huấn, hướng dẫn sử dụng, phòng ngừa sự cố do thuốc bảo vệ thực vật gây ra khi sử dụng; bồi dưỡng, tập huấn chuyên môn cho người lao động trực tiếp sản xuất thuốc bảo vệ thực vật;
+h) Chấp hành quy định của pháp luật về phòng cháy và chữa cháy, hóa chất, lao động, môi trường;
+i) Thực hiện quy định của pháp luật về thuế bảo vệ môi trường và quy định khác của pháp luật có liên quan.
+Điều 63. Điều kiện buôn bán thuốc bảo vệ thực vật
+1. Tổ chức, cá nhân buôn bán thuốc bảo vệ thực vật phải bảo đảm các điều kiện sau đây:
+a) Có địa điểm hợp pháp, bảo đảm về diện tích, khoảng cách an toàn cho người, vật nuôi và môi trường theo đúng quy định;
+b) Có kho thuốc đúng quy định, trang thiết bị phù hợp để bảo quản, xử lý thuốc bảo vệ thực vật khi xảy ra sự cố;
+c) Chủ cơ sở buôn bán thuốc và người trực tiếp bán thuốc bảo vệ thực vật phải có trình độ trung cấp trở lên thuộc chuyên ngành bảo vệ thực vật, trồng trọt, sinh học, hóa học hoặc có giấy chứng nhận bồi dưỡng chuyên môn về thuốc bảo vệ thực vật.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 64. Quyền và nghĩa vụ của tổ chức, cá nhân buôn bán thuốc bảo vệ thực vật
+1. Tổ chức, cá nhân buôn bán thuốc bảo vệ thực vật có quyền sau đây:
+a) Buôn bán thuốc thành phẩm có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam;
+b) Được cung cấp thông tin và hướng dẫn liên quan đến thuốc bảo vệ thực vật;
+c) Chủ cơ sở và người trực tiếp buôn bán thuốc được tham gia tập huấn về an toàn sử dụng, bảo quản, vận chuyển và phòng ngừa sự cố do thuốc bảo vệ thực vật gây ra.
+2. Tổ chức, cá nhân buôn bán thuốc bảo vệ thực vật có nghĩa vụ sau đây:
+a) Tuân thủ quy định của pháp luật về quản lý thuốc bảo vệ thực vật;
+b) Chỉ được sử dụng người trực tiếp bán thuốc bảo vệ thực vật bảo đảm sức khỏe và đã được đào tạo, bồi dưỡng về chuyên môn;
+c) Niêm yết giá bán và lập sổ theo dõi việc mua, bán thuốc;
+d) Hướng dẫn sử dụng thuốc cho người mua theo đúng nội dung của nhãn thuốc;
+đ) Khi phát hiện sự cố gây rò rỉ, phát tán thuốc bảo vệ thực vật có nguy cơ ảnh hưởng đến sức khỏe con người, vật nuôi, môi trường sinh thái, cơ sở buôn bán thuốc phải áp dụng ngay biện pháp khắc phục, đồng thời báo cáo Ủy ban nhân dân cấp xã nơi xảy ra sự cố để giám sát và có các biện pháp cảnh báo, phòng ngừa hậu quả xấu;
+e) Chỉ bán thuốc bảo vệ thực vật dùng để xông hơi khử trùng cho người có thẻ hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật hoặc cho tổ chức có Giấy chứng nhận hành nghề xử lý vật thể thuộc diện kiểm dịch thực vật;
+g) Cung cấp thông tin liên quan đến việc buôn bán thuốc bảo vệ thực vật của cơ sở cho cơ quan có thẩm quyền khi được yêu cầu;
+h) Bồi thường thiệt hại do lỗi của cơ sở buôn bán thuốc bảo vệ thực vật theo quy định của pháp luật;
+i) Khi phát hiện thuốc của cơ sở buôn bán không bảo đảm các yêu cầu theo quy định, cơ sở buôn bán có trách nhiệm thông báo cho đại lý trực tiếp hoặc cơ sở sản xuất đã cung cấp thuốc để thu hồi ngay toàn bộ thuốc đó trên thị trường; tham gia thu hồi thuốc đã bán ra;
+k) Chấp hành quy định của pháp luật về phòng cháy và chữa cháy, hóa chất, môi trường, lao động;
+l) Thực hiện quy định của pháp luật về thuế bảo vệ môi trường và quy định khác của pháp luật có liên quan.
+Điều 65. Hồ sơ, trình tự, thủ tục, thẩm quyền cấp, thu hồi Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật
+1. Hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật;
+b) Bản sao Giấy chứng nhận đăng ký kinh doanh;
+c) Bản thuyết minh về cơ sở vật chất - kỹ thuật, nhân lực, trình độ chuyên môn bảo đảm điều kiện sản xuất, buôn bán thuốc bảo vệ thực vật theo quy định tại Điều 61 và Điều 63 của Luật này;
+d) Giấy chứng nhận về trình độ chuyên môn, giấy chứng nhận bồi dưỡng, tập huấn kiến thức về thuốc bảo vệ thực vật của chủ cơ sở và người trực tiếp sản xuất, buôn bán thuốc bảo vệ thực vật theo quy định tại Điều 61 và Điều 63 của Luật này;
+đ) Giấy chứng nhận sức khỏe của chủ cơ sở và người trực tiếp sản xuất, buôn bán thuốc bảo vệ thực vật;
+e) Giấy tờ chứng minh đủ điều kiện về phòng cháy và chữa cháy, bảo vệ môi trường theo quy định của pháp luật.
+2. Trình tự, thủ tục cấp Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân sản xuất, buôn bán thuốc bảo vệ thực vật nộp hồ sơ đề nghị cấp Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật hoặc Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật quy định tại khoản 4 Điều này;
+b) Kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật kiểm tra thực tế điều kiện sản xuất, buôn bán tại cơ sở sản xuất, buôn bán thuốc bảo vệ thực vật; nếu đủ điều kiện thì trong thời hạn 15 ngày phải cấp Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+3. Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật bị thu hồi trong các trường hợp sau đây:
+a) Bị tẩy xóa, sửa chữa nội dung;
+b) Tổ chức, cá nhân vi phạm pháp luật mà bị xử phạt vi phạm hành chính từ 03 lần trong một năm hoặc bị xử phạt vi phạm hành chính 03 lần liên tiếp về một hành vi vi phạm trong lĩnh vực bảo vệ và kiểm dịch thực vật;
+c) Tổ chức, cá nhân có hành vi vi phạm khác mà pháp luật quy định phải thu hồi giấy chứng nhận.
+4. Thẩm quyền cấp, thu hồi Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật được quy định như sau:
+a) Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương cấp, thu hồi Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật;
+b) Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở địa phương cấp, thu hồi Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật.
+Điều 66. Thời hạn hiệu lực của Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật
+1. Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật có giá trị trong thời hạn 05 năm.
+2. Trước 03 tháng tính đến ngày Giấy chứng nhận đủ điều kiện sản xuất thuốc bảo vệ thực vật, Giấy chứng nhận đủ điều kiện buôn bán thuốc bảo vệ thực vật hết hạn, trong trường hợp tổ chức, cá nhân có nhu cầu tiếp tục sản xuất, buôn bán thuốc bảo vệ thực vật phải nộp hồ sơ đề nghị cấp lại giấy chứng nhận. Hồ sơ, trình tự, thủ tục cấp lại được thực hiện như quy định tại khoản 1 và khoản 2 Điều 65 của Luật này.
+Điều 67. Nhập khẩu, xuất khẩu thuốc bảo vệ thực vật
+1. Tổ chức, cá nhân đứng tên đăng ký thuốc bảo vệ thực vật trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam được nhập khẩu hoặc ủy quyền cho tổ chức, cá nhân khác nhập khẩu thuốc đó mà không cần giấy phép nhập khẩu trừ trường hợp quy định tại khoản 2 Điều này.
+2. Tổ chức, cá nhân phải có giấy phép khi nhập khẩu các loại thuốc bảo vệ thực vật sau đây:
+a) Thuốc bảo vệ thực vật chưa có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam để tạm nhập, tái xuất hoặc nhập khẩu để sản xuất tại Việt Nam nhằm mục đích xuất khẩu theo hợp đồng đã ký với nước ngoài;
+b) Thuốc bảo vệ thực vật để xông hơi khử trùng chứa hoạt chất methyl bromide và các hoạt chất có độ độc cấp tính loại I, II theo Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS);
+c) Thuốc bảo vệ thực vật chưa có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam nhập khẩu để khảo nghiệm nhằm mục đích đăng ký thuốc bảo vệ thực vật;
+d) Thuốc bảo vệ thực vật chưa có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam nhập khẩu để thử nghiệm, nghiên cứu; sử dụng trong các dự án của nước ngoài tại Việt Nam; thuốc bảo vệ thực vật làm hàng mẫu, hàng phục vụ triển lãm, hội chợ và sử dụng trong một số trường hợp đặc biệt theo quyết định của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn;
+đ) Thuốc trong Danh mục thuốc bảo vệ thực vật cấm sử dụng tại Việt Nam nhưng nhập khẩu để làm chất chuẩn.
+3. Thuốc bảo vệ thực vật nhập khẩu quy định tại khoản 1 và điểm b khoản 2 Điều này phải được cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương kiểm tra nhà nước về chất lượng thuốc khi nhập khẩu và chỉ được nhập khẩu khi đạt yêu cầu theo quy định của pháp luật.
+4. Hồ sơ đề nghị cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật bao gồm:
+a) Đơn đề nghị cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật;
+b) Bảo sao Giấy chứng nhận đăng ký kinh doanh của tổ chức, cá nhân đề nghị cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật đối với trường hợp quy định tại các điểm a, b và c khoản 2 Điều này;
+c) Các giấy tờ chứng minh, đáp ứng các điều kiện quy định tại khoản 2 Điều này.
+5. Trình tự, thủ tục cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật được quy định như sau:
+a) Tổ chức, cá nhân nộp hồ sơ đề nghị cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật cho cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương;
+b) Trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương xem xét cấp Giấy phép nhập khẩu thuốc bảo vệ thực vật; trường hợp không cấp phải trả lời bằng văn bản và nêu rõ lý do.
+6. Tổ chức, cá nhân sản xuất, buôn bán thuốc bảo vệ thực vật được phép xuất khẩu thuốc thành phẩm và thuốc kỹ thuật theo quy định của pháp luật về thương mại của Việt Nam và nước nhập khẩu.
+Điều 68. Vận chuyển thuốc bảo vệ thực vật
+1. Vận chuyển thuốc bảo vệ thực vật phải tuân thủ các quy định về vận chuyển hàng nguy hiểm của pháp luật về giao thông đường bộ, đường thủy nội địa, đường sắt, hàng không, hàng hải, các quy định khác của pháp luật có liên quan và các điều ước quốc tế mà Việt Nam là thành viên.
+Trường hợp chỉ vận chuyển thuốc bảo vệ thực vật sinh học không bắt buộc phải tuân thủ các quy định về vận chuyển hàng nguy hiểm nhưng phải tuân thủ các quy định pháp luật có liên quan và các điều ước quốc tế mà Việt Nam là thành viên.
+2. Trường hợp xảy ra sự cố gây rò rỉ, phát tán thuốc bảo vệ thực vật trong quá trình vận chuyển, người điều khiển phương tiện, chủ hàng, chủ phương tiện có trách nhiệm áp dụng các biện pháp cần thiết để hạn chế hậu quả, khắc phục sự cố, đồng thời báo cho Ủy ban nhân dân cấp xã nơi xảy ra sự cố để tiếp tục theo dõi và có các biện pháp cảnh báo, phòng ngừa hậu quả.
+Điều 69. Bảo quản thuốc bảo vệ thực vật
+1. Việc bảo quản thuốc bảo vệ thực vật phải tuân thủ hướng dẫn về bảo quản của nhà sản xuất ghi trên nhãn, bao gói; bảo đảm an toàn đối với con người, vật nuôi và môi trường.
+2. Kho bảo quản thuốc bảo vệ thực vật phải bảo đảm khoảng cách an toàn, xa trường học, bệnh viện, khu dân cư tập trung; bảo đảm yêu cầu kỹ thuật trong bảo quản; có cảnh báo; có trang thiết bị, phương tiện xử lý sự cố phù hợp với đặc tính nguy hiểm của thuốc bảo vệ thực vật; bảo đảm quy định của pháp luật về phòng cháy và chữa cháy, hóa chất, bảo hộ lao động, bảo vệ môi trường.
+3. Kho chuyên dùng bảo quản thuốc bảo vệ thực vật sinh học không bắt buộc phải tuân thủ quy định tại khoản 2 Điều này nhưng phải bảo đảm không gây ô nhiễm môi trường.
+4. Trường hợp thuốc bảo vệ thực vật bị rò rỉ, phát tán có nguy cơ gây tác hại đến con người, vật nuôi, môi trường, tổ chức, cá nhân bảo quản thuốc có trách nhiệm áp dụng ngay các biện pháp cần thiết để hạn chế hậu quả, khắc phục sự cố và báo cáo Ủy ban nhân dân cấp xã nơi xảy ra sự cố để được hỗ trợ khắc phục và giám sát, ngăn ngừa hậu quả xấu; tổ chức, cá nhân có thuốc bảo quản bị rò rỉ, phát tán phải chịu mọi chi phí để khắc phục sự cố và bồi thường thiệt hại do sự cố gây ra.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành quy chuẩn kỹ thuật quốc gia và quy định chi tiết điều kiện kho bảo quản thuốc bảo vệ thực vật.
+Điều 70. Quảng cáo thuốc bảo vệ thực vật
+1. Chỉ được quảng cáo các loại thuốc trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam.
+2. Nội dung quảng cáo phải đúng với nội dung ghi trong Giấy chứng nhận đăng ký thuốc bảo vệ thực vật, phù hợp với hướng dẫn kỹ thuật của cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật trên địa bàn, có nội dung cảnh báo về mức độ nguy hiểm, độc hại và chỉ dẫn phòng ngừa tác hại của thuốc bảo vệ thực vật.
+3. Việc quảng cáo thuốc bảo vệ thực vật phải tuân theo quy định của pháp luật về quảng cáo.
+Điều 71. Bao gói, nhãn thuốc bảo vệ thực vật
+1. Bao gói thuốc bảo vệ thực vật phải bảo đảm các yêu cầu sau đây:
+a) Vật liệu phải bền chắc, không bị thuốc bảo vệ thực vật chứa bên trong ăn mòn, phá hủy, rò rỉ, phát tán thuốc ra ngoài;
+b) Không ảnh hưởng đến chất lượng của thuốc bảo vệ thực vật;
+c) Đáp ứng quy chuẩn kỹ thuật quốc gia về bao gói thuốc bảo vệ thực vật hoặc tiêu chuẩn cơ sở do cơ sở sản xuất thuốc bảo vệ thực vật công bố áp dụng;
+d) Không gây nguy hiểm cho người, động vật và môi trường.
+2. Thuốc bảo vệ thực vật lưu thông trên thị trường phải có nhãn đáp ứng yêu cầu sau đây:
+a) Ngôn ngữ bằng tiếng Việt;
+b) Chứa thông tin đầy đủ hướng dẫn người sử dụng thuốc an toàn;
+c) Tuân thủ quy định của pháp luật về nhãn hàng hóa và hướng dẫn của Hệ thống hài hòa toàn cầu về phân loại và ghi nhãn hóa chất (GHS);
+d) Nhãn thuốc bảo vệ thực vật phải phù hợp với nội dung mẫu nhãn đã đăng ký với cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về quy cách, vật liệu, kiểm tra, kiểm định bao gói thuốc và hướng dẫn cụ thể việc ghi nhãn thuốc bảo vệ thực vật.
+Điều 72. Quyền và nghĩa vụ của tổ chức, cá nhân sử dụng thuốc bảo vệ thực vật
+1. Tổ chức, cá nhân sử dụng thuốc bảo vệ thực vật có quyền sau đây:
+a) Được cung cấp thông tin và hướng dẫn sử dụng thuốc bảo vệ thực vật an toàn, hiệu quả;
+b) Yêu cầu cơ sở bán thuốc hướng dẫn sử dụng thuốc bảo vệ thực vật theo đúng nội dung của nhãn thuốc;
+c) Được bồi thường thiệt hại do lỗi của cơ sở buôn bán thuốc bảo vệ thực vật theo quy định của pháp luật.
+2. Tổ chức, cá nhân sử dụng thuốc bảo vệ thực vật có nghĩa vụ sau đây:
+a) Tuân thủ nguyên tắc sử dụng thuốc bốn đúng quy định tại khoản 3 Điều 4 của Luật này; thực hiện đúng hướng dẫn ghi trên nhãn thuốc;
+b) Chỉ được sử dụng thuốc trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam;
+c) Khi xảy ra sự cố hoặc phát hiện thuốc bảo vệ thực vật gây hậu quả xấu cho con người và môi trường trong quá trình sử dụng, người sử dụng thuốc bảo vệ thực vật có trách nhiệm áp dụng các biện pháp cần thiết để hạn chế hậu quả và báo cáo ngay Ủy ban nhân dân cấp xã nơi xảy ra sự cố để có biện pháp khắc phục hậu quả;
+d) Phải bảo quản thuốc, thu gom bao gói thuốc sau khi sử dụng để đúng nơi quy định;
+đ) Người sử dụng thuốc bảo vệ thực vật trong xông hơi khử trùng phải có giấy chứng nhận tập huấn theo quy định của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn;
+e) Bồi thường thiệt hại do sử dụng thuốc bảo vệ thực vật không đúng quy định gây ra.
+MỤC 4. THU HỒI, TIÊU HỦY, THU GOM VÀ XỬ LÝ BAO GÓI THUỐC BẢO VỆ THỰC VẬT SAU SỬ DỤNG
+Điều 73. Thu hồi thuốc bảo vệ thực vật trên thị trường, xử lý thuốc bảo vệ thực vật bị thu hồi
+1. Thuốc bảo vệ thực vật phải thu hồi trong các trường hợp sau đây:
+a) Không phù hợp tiêu chuẩn, quy chuẩn kỹ thuật quốc gia theo quy định;
+b) Hết hạn sử dụng;
+c) Nhãn, bao gói thuốc bảo vệ thực vật có sai sót hoặc không đúng quy định.
+2. Khi phát hiện thuốc bảo vệ thực vật thuộc diện bị thu hồi thì cơ sở sản xuất, nhập khẩu phải có trách nhiệm thông báo trên phương tiện thông tin đại chúng về lô thuốc phải thu hồi và có trách nhiệm thu hồi ngay toàn bộ thuốc đó.
+Trong trường hợp cơ sở sản xuất, nhập khẩu không tự nguyện thu hồi thì cơ quan có thẩm quyền ra quyết định bắt buộc thu hồi.
+3. Các biện pháp xử lý thuốc bảo vệ thực vật bị thu hồi bao gồm:
+a) Tái xuất;
+b) Tái chế;
+c) Khắc phục lỗi ghi nhãn, bao gói;
+d) Tiêu hủy.
+Bộ trưởng Bộ Nông nghiệp và phát triển nông thôn quy định cụ thể khoản này.
+4. Thẩm quyền xử lý thuốc bảo vệ thực vật bị thu hồi được quy định như sau:
+a) Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở địa phương quyết định biện pháp và thời hạn xử lý thuốc bảo vệ thực vật bị thu hồi; kiểm tra việc thu hồi và xử lý thuốc của cơ sở buôn bán trên địa bàn; xử lý vi phạm về thu hồi thuốc bảo vệ thực vật của cơ sở buôn bán trên địa bàn theo quy định;
+b) Cơ quan chuyên ngành bảo vệ và kiểm dịch thực vật ở trung ương quyết định biện pháp và thời hạn xử lý thuốc bảo vệ thực vật bị thu hồi; kiểm tra việc thu hồi và xử lý thuốc của cơ sở sản xuất; xử lý vi phạm về thu hồi thuốc bảo vệ thực vật của cơ sở buôn bán khi việc thu hồi thuốc xảy ra trên địa bàn nhiều tỉnh, thành phố trực thuộc trung ương.
+5. Cơ sở sản xuất, nhập khẩu có thuốc bảo vệ thực vật bị thu hồi phải chịu mọi chi phí thu hồi và xử lý.
+Điều 74. Tiêu hủy thuốc bảo vệ thực vật
+1. Các loại thuốc bảo vệ thực vật phải tiêu hủy bao gồm:
+a) Thuốc bảo vệ thực vật cấm sử dụng ở Việt Nam, không có trong Danh mục thuốc bảo vệ thực vật được phép sử dụng tại Việt Nam, trừ trường hợp quy định tại các điểm a, c và d khoản 2 Điều 67 của Luật này;
+b) Thuốc bảo vệ thực vật giả;
+c) Thuốc bảo vệ thực vật quá hạn sử dụng mà không thể tái chế;
+d) Thuốc bảo vệ thực vật không đạt quy chuẩn kỹ thuật quốc gia theo quy định mà không thể tái chế hoặc tái xuất;
+đ) Thuốc bảo vệ thực vật vô chủ, thuốc không rõ nguồn gốc xuất xứ.
+2. Tổ chức, cá nhân có thuốc bảo vệ thực vật buộc tiêu hủy phải thực hiện việc tiêu hủy theo quy định quản lý chất thải nguy hại của pháp luật về bảo vệ môi trường và chịu mọi chi phí.
+3. Trường hợp thuốc bảo vệ thực vật vô chủ thì Ủy ban nhân dân cấp tỉnh chỉ đạo việc tiêu hủy và bố trí kinh phí.
+Điều 75. Thu gom và xử lý bao gói thuốc bảo vệ thực vật sau sử dụng
+1. Việc thu gom, xử lý bao gói thuốc bảo vệ thực vật sau sử dụng phải tuân thủ quy định của Luật này và quy định về quản lý chất thải nguy hại của pháp luật về bảo vệ môi trường.
+2. Kinh phí thu gom, xử lý bao gói thuốc bảo vệ thực vật sau sử dụng trên địa bàn do Ủy ban nhân dân cấp tỉnh bố trí từ ngân sách địa phương.
+3. Bộ Nông nghiệp và Phát triển nông thôn chủ trì phối hợp với Bộ Tài nguyên và Môi trường quy định việc thu gom bao gói thuốc bảo vệ thực vật sau sử dụng.
+4. Bộ Tài nguyên và Môi trường quy định việc xử lý bao gói thuốc bảo vệ thực vật sau sử dụng.
+Chương 5.
+ĐIỀU KHOẢN THI HÀNH
+Điều 76. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2015.
+Pháp lệnh bảo vệ và kiểm dịch thực vật số 36/2001/PL-UBTVQH10 ngày 08 tháng 8 năm 2001 hết hiệu lực kể từ ngày Luật này có hiệu lực.
+2. Các loại giấy phép, giấy chứng nhận về bảo vệ và kiểm dịch thực vật đã được cấp trước ngày Luật này có hiệu lực mà chưa hết thời hạn được ghi trong giấy thì vẫn có giá trị sử dụng cho đến khi hết thời hạn.
+Điều 77. Quy định chi tiết
+Chính phủ quy định chi tiết các điều, khoản được giao trong Luật.
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIII, kỳ họp thứ 6 thông qua ngày 25 tháng 11 năm 2013.
+CHỦ TỊCH QUỐC HỘI
+Nguyễn Sinh Hùng

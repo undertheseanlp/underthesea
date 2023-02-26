@@ -1,0 +1,2603 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Luật số: 89/2015/QH13
+
+Hà Nội, ngày 23 tháng 11 năm 2015
+
+
+
+LUẬT
+
+THỐNG KÊ
+
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+
+Quốc hội ban hành Luật thống kê.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về hoạt động thống kê, sử dụng thông tin thống kê nhà nước; quyền, nghĩa vụ và trách nhiệm của cơ quan, tổ chức, cá nhân trong hoạt động thống kê, sử dụng thông tin thống kê nhà nước; tổ chức thống kê nhà nước và hoạt động thống kê, sử dụng thông tin thống kê ngoài thống kê nhà nước.
+
+Điều 2. Đối tượng áp dụng
+
+Luật này áp dụng đối với cơ quan, tổ chức, cá nhân cung cấp thông tin, thực hiện hoạt động thống kê và sử dụng thông tin thống kê.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Báo cáo thống kê là mẫu biểu và hướng dẫn ghi chép mẫu biểu để thu thập dữ liệu, thông tin thống kê về đối tượng nghiên cứu cụ thể theo phương pháp khoa học, thống nhất được quy định trong chế độ báo cáo thống kê trong một thời kỳ nhất định.
+
+2. Chế độ báo cáo thống kê là những quy định và hướng dẫn do cơ quan nhà nước có thẩm quyền ban hành về việc thực hiện một tập hợp những báo cáo thống kê có liên quan với nhau để tổng hợp các chỉ tiêu thống kê thuộc một hệ thống chỉ tiêu thống kê và tổng hợp thông tin thống kê khác phục vụ quản lý nhà nước.
+
+3. Chỉ tiêu thống kê phản ánh đặc điểm về quy mô, tốc độ phát triển, cơ cấu, trình độ phổ biến, quan hệ tỷ lệ của bộ phận hoặc toàn bộ hiện tượng kinh tế - xã hội trong điều kiện không gian và thời gian cụ thể. Chỉ tiêu thống kê gồm tên chỉ tiêu và trị số của chỉ tiêu.
+
+4. Chương trình thống kê là văn bản do cơ quan nhà nước có thẩm quyền phê duyệt gồm hệ thống chỉ tiêu thống kê, chương trình điều tra thống kê, chế độ báo cáo thống kê và chương trình khác có liên quan đến hoạt động thống kê.
+
+5. Cơ sở dữ liệu thống kê là tập hợp những dữ liệu, thông tin thống kê có liên quan với nhau được sắp xếp, tổ chức theo một cấu trúc nhất định để quản lý, cập nhật và khai thác phục vụ cho mục đích thống kê và mục đích khác theo quy định của pháp luật. Cơ sở dữ liệu thống kê được hình thành chủ yếu từ dữ liệu, thông tin thống kê của điều tra thống kê, hồ sơ hành chính, báo cáo thống kê và cơ sở dữ liệu quốc gia, cơ sở dữ liệu của bộ, ngành, cơ sở dữ liệu của địa phương.
+
+6. Dữ liệu hành chính là dữ liệu của cơ quan nhà nước được ghi chép, lưu giữ, cập nhật trong các hồ sơ hành chính dạng giấy hoặc dạng điện tử.
+
+7. Dữ liệu thống kê gồm dữ liệu định lượng và dữ liệu định tính để hình thành thông tin thống kê về hiện tượng nghiên cứu.
+
+8. Điều tra thống kê là hình thức thu thập dữ liệu, thông tin thống kê về đối tượng nghiên cứu cụ thể theo phương pháp khoa học, thống nhất được xác định trong phương án điều tra thống kê cho mỗi lần điều tra.
+
+9. Điều tra viên thống kê là người được cơ quan, tổ chức tiến hành điều tra thống kê trưng tập, huy động để thực hiện việc thu thập thông tin của cuộc điều tra thống kê.
+
+10. Hệ thống chỉ tiêu thống kê là tập hợp những chỉ tiêu thống kê phản ánh các đặc điểm của hiện tượng kinh tế - xã hội.
+
+Hệ thống chỉ tiêu thống kê gồm danh mục và nội dung chỉ tiêu thống kê. Danh mục chỉ tiêu thống kê gồm mã số, nhóm, tên chỉ tiêu. Nội dung chỉ tiêu thống kê gồm khái niệm, phương pháp tính, phân tổ chủ yếu, kỳ công bố, nguồn số liệu của chỉ tiêu thống kê và cơ quan chịu trách nhiệm thu thập, tổng hợp.
+
+11. Hoạt động thống kê là hoạt động xác định nhu cầu thông tin cần thu thập; chuẩn bị thu thập; thu thập; xử lý và tổng hợp; phân tích và dự báo; công bố, phổ biến và lưu trữ thông tin thống kê về hiện tượng nghiên cứu trong điều kiện không gian và thời gian cụ thể.
+
+12. Hoạt động thống kê ngoài thống kê nhà nước là hoạt động thống kê do tổ chức, cá nhân thực hiện ngoài chương trình thống kê.
+
+13. Hoạt động thống kê nhà nước là hoạt động thống kê trong chương trình thống kê do hệ thống tổ chức thống kê nhà nước, cơ quan nhà nước có thẩm quyền thực hiện hoặc ủy thác cho tổ chức khác thực hiện.
+
+14. Phân loại thống kê là sự phân chia hiện tượng nghiên cứu thành các bộ phận và xếp các yếu tố của hiện tượng vào từng bộ phận riêng biệt, không trùng lặp, căn cứ vào một hoặc một số đặc điểm của yếu tố thuộc hiện tượng nghiên cứu. Phân loại thống kê gồm danh mục và nội dung phân loại thống kê. Danh mục phân loại thống kê gồm mã số và tên từng bộ phận. Nội dung phân loại thống kê gồm các yếu tố được xếp vào từng bộ phận.
+
+15. Số liệu thống kê chính thức là số liệu thống kê phản ánh đầy đủ, chính xác kết quả của hiện tượng kinh tế - xã hội đã diễn ra trong khoảng thời gian và không gian cụ thể đã được xử lý, tổng hợp, thẩm định và khẳng định.
+
+16. Số liệu thống kê sơ bộ là số liệu thống kê phản ánh đầy đủ kết quả của hiện tượng kinh tế - xã hội đã diễn ra trong khoảng thời gian và không gian cụ thể nhưng chưa được khẳng định, còn phải được thẩm định, rà soát thêm.
+
+17. Số liệu thống kê ước tính là số liệu thống kê dự tính trước toàn bộ kết quả của hiện tượng kinh tế - xã hội còn đang tiếp diễn, được tổng hợp từ số liệu của kỳ đã diễn ra, cập nhật theo thực tế và số liệu của kỳ sẽ diễn ra, sử dụng phương pháp chuyên môn để dự tính.
+
+18. Thông tin thống kê là dữ liệu thống kê được xử lý, tổng hợp và phân tích theo phương pháp, quy trình, chuyên môn, nghiệp vụ thống kê để phản ánh đặc trưng, thuộc tính của hiện tượng nghiên cứu. Thông tin thống kê gồm số liệu thống kê và bản phân tích số liệu đó.
+
+19. Thông tin thống kê nhà nước là thông tin thống kê do hoạt động thống kê nhà nước tạo ra, có giá trị pháp lý, được cơ quan nhà nước có thẩm quyền công bố.
+
+20. Tổng điều tra thống kê là điều tra thống kê toàn bộ để thu thập dữ liệu, thông tin thống kê của các đối tượng điều tra trên phạm vi cả nước, liên quan đến nhiều ngành, nhiều cấp.
+
+Điều 4. Mục đích của hoạt động thống kê
+
+1. Hoạt động thống kê nhà nước nhằm cung cấp thông tin thống kê phục vụ các mục đích sau đây:
+
+a) Đáp ứng yêu cầu đánh giá, dự báo tình hình, hoạch định chiến lược, xây dựng kế hoạch, quy hoạch chính sách, quản lý, điều hành phát triển kinh tế - xã hội;
+
+b) Đáp ứng yêu cầu kiểm tra, giám sát việc thực hiện chiến lược, kế hoạch, chính sách phát triển kinh tế - xã hội;
+
+c) Đáp ứng nhu cầu sử dụng thông tin thống kê của cơ quan, tổ chức, cá nhân.
+
+2. Hoạt động thống kê ngoài thống kê nhà nước nhằm cung cấp thông tin thống kê phục vụ nghiên cứu, sản xuất, kinh doanh của tổ chức, cá nhân và đáp ứng nhu cầu hợp pháp, chính đáng khác.
+
+Điều 5. Nguyên tắc cơ bản của hoạt động thống kê và sử dụng dữ liệu, thông tin thống kê
+
+1. Nguyên tắc cơ bản của hoạt động thống kê nhà nước gồm:
+
+a) Trung thực, khách quan, chính xác, đầy đủ, kịp thời;
+
+b) Độc lập về chuyên môn, nghiệp vụ thống kê;
+
+c) Thống nhất về nghiệp vụ, không trùng lặp, không chồng chéo;
+
+d) Công khai, minh bạch;
+
+đ) Có tính so sánh.
+
+2. Nguyên tắc cơ bản của hoạt động thống kê ngoài thống kê nhà nước gồm:
+
+a) Các nguyên tắc quy định tại các điểm a, b và c khoản 1 Điều này;
+
+b) Tự nguyện, tự chịu trách nhiệm;
+
+c) Không xâm phạm lợi ích quốc gia, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.
+
+3. Nguyên tắc cơ bản của sử dụng dữ liệu và thông tin thống kê gồm:
+
+a) Trích dẫn nguồn dữ liệu, thông tin thống kê khi sử dụng;
+
+b) Bình đẳng trong tiếp cận và sử dụng dữ liệu, thông tin thống kê nhà nước đã được công bố;
+
+c) Bảo mật dữ liệu, thông tin thống kê theo quy định của pháp luật.
+
+Điều 6. Quản lý nhà nước về thống kê
+
+1. Xây dựng và tổ chức thực hiện chiến lược, quy hoạch, kế hoạch, chính sách phát triển hoạt động thống kê.
+
+2. Xây dựng, ban hành, tổ chức thực hiện văn bản quy phạm pháp luật về thống kê.
+
+3. Phổ biến, giáo dục pháp luật về thống kê.
+
+4. Xây dựng tổ chức thống kê nhà nước, đào tạo và bồi dưỡng nghiệp vụ thống kê.
+
+5. Tổ chức nghiên cứu khoa học, ứng dụng phương pháp thống kê tiên tiến và công nghệ thông tin vào hoạt động thống kê.
+
+6. Hợp tác quốc tế về thống kê.
+
+7. Thanh tra, kiểm tra việc chấp hành pháp luật và xử lý vi phạm pháp luật về thống kê.
+
+8. Giải quyết khiếu nại, tố cáo về thống kê.
+
+Điều 7. Cơ quan quản lý nhà nước về thống kê
+
+1. Chính phủ thống nhất quản lý nhà nước về thống kê.
+
+2. Bộ Kế hoạch và Đầu tư chịu trách nhiệm trước Chính phủ trong việc thống nhất quản lý nhà nước về thống kê.
+
+3. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm quản lý nhà nước về thống kê trong ngành, lĩnh vực được phân công phụ trách.
+
+4. Ủy ban nhân dân các cấp trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm quản lý nhà nước về thống kê tại địa phương.
+
+Điều 8. Thanh tra chuyên ngành thống kê
+
+1. Thanh tra chuyên ngành thống kê là hoạt động thanh tra của cơ quan nhà nước có thẩm quyền đối với tổ chức, cá nhân trong việc chấp hành pháp luật về thống kê, quy định về chuyên môn, nghiệp vụ thuộc lĩnh vực thống kê.
+
+Cơ quan thống kê trung ương chịu trách nhiệm chỉ đạo, tổ chức thực hiện thanh tra chuyên ngành thống kê trong phạm vi cả nước.
+
+Cơ quan thống kê tập trung tại tỉnh, thành phố trực thuộc trung ương (sau đây gọi chung là cơ quan thống kê cấp tỉnh) chịu trách nhiệm tổ chức thực hiện thanh tra chuyên ngành thống kê tại địa phương.
+
+2. Thanh tra chuyên ngành thống kê có nhiệm vụ, quyền hạn sau đây:
+
+a) Thanh tra việc chấp hành pháp luật về thống kê và các quy định về chuyên môn, nghiệp vụ trong lĩnh vực thống kê của cơ quan, tổ chức, cá nhân;
+
+b) Phát hiện, ngăn chặn và xử lý theo thẩm quyền hoặc kiến nghị cơ quan nhà nước có thẩm quyền xử lý vi phạm pháp luật về thống kê.
+
+3. Hoạt động thanh tra chuyên ngành thống kê, quyền và nghĩa vụ của trưởng đoàn thanh tra, thanh tra viên, công chức được giao nhiệm vụ thanh tra chuyên ngành thống kê thực hiện theo quy định của pháp luật về thanh tra.
+
+4. Chính phủ quy định chi tiết về thanh tra chuyên ngành thống kê.
+
+Điều 9. Kinh phí cho hoạt động thống kê
+
+1. Nhà nước bảo đảm kinh phí cho hoạt động thống kê nhà nước. Việc quản lý, cấp và sử dụng kinh phí cho hoạt động thống kê nhà nước được thực hiện theo quy định của pháp luật về ngân sách nhà nước.
+
+2. Kinh phí cho hoạt động thống kê ngoài thống kê nhà nước do tổ chức, cá nhân thực hiện hoạt động thống kê tự bảo đảm.
+
+Điều 10. Các hành vi bị nghiêm cấm trong hoạt động thống kê và sử dụng thông tin thống kê
+
+1. Các hành vi bị nghiêm cấm trong hoạt động thống kê nhà nước và sử dụng thông tin thống kê nhà nước gồm:
+
+a) Không thực hiện hoặc thực hiện không đầy đủ, không kịp thời, cản trở việc cung cấp thông tin theo phương án điều tra thống kê, chế độ báo cáo thống kê và từ dữ liệu hành chính do cơ quan nhà nước có thẩm quyền quyết định;
+
+b) Khai man, làm sai lệch dữ liệu thông tin thống kê;
+
+c) Can thiệp, ép buộc, áp đặt, mua chuộc, đe dọa, dụ dỗ người khác khai man, làm sai lệch dữ liệu, thông tin thống kê và sử dụng thông tin thống kê;
+
+d) Thực hiện sai các quy định trong phương án điều tra thống kê, chế độ báo cáo thống kê, sử dụng dữ liệu hành chính cho hoạt động thống kê; tự sửa đổi thông tin khi thực hiện điều tra, báo cáo thống kê và cung cấp thông tin từ dữ liệu hành chính;
+
+đ) Báo cáo, công bố, phổ biến thông tin thống kê không chính xác;
+
+e) Tiết lộ thông tin thống kê thuộc danh mục bí mật nhà nước; tiết lộ dữ liệu, thông tin thống kê chưa được công bố; sử dụng dữ liệu, thông tin của cơ quan, tổ chức, cá nhân ngoài mục đích thống kê khi chưa được sự đồng ý của cơ quan, tổ chức, cá nhân đó;
+
+g) Quyết định điều tra thống kê, ban hành chế độ báo cáo thống kê trái quy định của pháp luật về thống kê.
+
+2. Các hành vi bị nghiêm cấm trong hoạt động thống kê, sử dụng thông tin thống kê ngoài thống kê nhà nước gồm:
+
+a) Các hành vi quy định tại các điểm b, c và e khoản 1 Điều này;
+
+b) Thu thập, phổ biến thông tin thống kê thuộc bí mật nhà nước, xâm phạm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân.
+
+Điều 11. Xử lý vi phạm
+
+Người nào có hành vi vi phạm quy định của pháp luật về thống kê thì tùy theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật, xử phạt vi phạm hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+Chương II
+
+HỆ THỐNG THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+
+Điều 12. Hệ thống thông tin thống kê nhà nước
+
+1. Hệ thống thông tin thống kê quốc gia.
+
+2. Hệ thống thông tin thống kê bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao, Kiểm toán nhà nước (sau đây gọi chung là bộ, ngành).
+
+3. Hệ thống thông tin thống kê cấp tỉnh.
+
+4. Hệ thống thông tin thống kê cấp huyện.
+
+Điều 13. Hệ thống thông tin thống kê quốc gia
+
+1. Hệ thống thông tin thống kê quốc gia phản ánh tình hình kinh tế - xã hội chủ yếu của cả nước.
+
+2. Thông tin thống kê trong hệ thống thông tin thống kê quốc gia gồm:
+
+a) Thông tin thống kê do hệ thống tổ chức thống kê tập trung thực hiện;
+
+b) Thông tin thống kê do bộ, ngành thực hiện, cung cấp cho cơ quan thống kê trung ương tổng hợp.
+
+3. Bộ trưởng Bộ Kế hoạch và Đầu tư chủ trì xây dựng, thống nhất quản lý hệ thống thông tin thống kê quốc gia, hệ thống thông tin thống kê cấp tỉnh, cấp huyện; tổ chức, điều phối việc kết nối, cung cấp dữ liệu, thông tin giữa các hệ thống thông tin thống kê nhà nước.
+
+Điều 14. Hệ thống thông tin thống kê bộ, ngành
+
+1. Hệ thống thông tin thống kê bộ, ngành phản ánh tình hình kinh tế - xã hội chủ yếu của ngành, lĩnh vực.
+
+2. Thông tin thống kê trong hệ thống thông tin thống kê bộ, ngành gồm:
+
+a) Thông tin thống kê do bộ, ngành thực hiện;
+
+b) Thông tin thống kê do cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh, Tòa án nhân dân cấp cao, Tòa án nhân dân cấp tỉnh, Viện kiểm sát nhân dân cấp cao, Viện kiểm sát nhân dân cấp tỉnh thực hiện, cung cấp cho bộ, ngành tổng hợp.
+
+3. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước chủ trì xây dựng và quản lý hệ thống thông tin thống kê bộ, ngành.
+
+Điều 15. Hệ thống thông tin thống kê cấp tỉnh
+
+1. Hệ thống thông tin thống kê cấp tỉnh phản ánh tình hình kinh tế - xã hội chủ yếu của đơn vị hành chính cấp tỉnh.
+
+2. Hệ thống thông tin thống kê cấp tỉnh gồm:
+
+a) Thông tin thống kê do cơ quan thống kê cấp tỉnh thực hiện;
+
+b) Thông tin thống kê do cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh, Tòa án nhân dân cấp tỉnh, Viện kiểm sát nhân dân cấp tỉnh, cơ quan chuyên môn thuộc bộ, cơ quan ngang bộ tại đơn vị hành chính cấp tỉnh thực hiện, cung cấp cho cơ quan thống kê cấp tỉnh tổng hợp.
+
+3. Người đứng đầu cơ quan thống kê cấp tỉnh chịu trách nhiệm quản lý hệ thống thông tin thống kê cấp tỉnh.
+
+Người đứng đầu cơ quan quy định tại điểm b khoản 2 Điều này chịu trách nhiệm quản lý thông tin thống kê trong phạm vi ngành, lĩnh vực được phân công phụ trách.
+
+Điều 16. Hệ thống thông tin thống kê cấp huyện
+
+1. Hệ thống thông tin thống kê cấp huyện gồm:
+
+a) Thông tin thống kê do cơ quan thống kê tập trung tại đơn vị hành chính cấp huyện (sau đây gọi chung là cơ quan thống kê cấp huyện) thực hiện;
+
+b) Thông tin thống kê do cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện, Tòa án nhân dân cấp huyện, Viện kiểm sát nhân dân cấp huyện, cơ quan chuyên môn thuộc bộ, cơ quan ngang bộ tại đơn vị hành chính cấp huyện, Ủy ban nhân dân cấp xã thực hiện, cung cấp cho cơ quan thống kê cấp huyện tổng hợp.
+
+2. Người đứng đầu cơ quan thống kê cấp huyện chịu trách nhiệm quản lý hệ thống thông tin thống kê cấp huyện.
+
+Người đứng đầu cơ quan quy định tại điểm b khoản 1 Điều này chịu trách nhiệm quản lý thông tin thống kê trong phạm vi ngành, lĩnh vực được phân công phụ trách.
+
+Điều 17. Hệ thống chỉ tiêu thống kê quốc gia
+
+1. Hệ thống chỉ tiêu thống kê quốc gia là tập hợp các chỉ tiêu thống kê chủ yếu do cơ quan nhà nước có thẩm quyền ban hành nhằm thu thập thông tin thống kê hình thành hệ thống thông tin thống kê quốc gia.
+
+2. Việc xây dựng hệ thống chỉ tiêu thống kê quốc gia phải bảo đảm các yêu cầu sau đây:
+
+a) Phản ánh được tình hình kinh tế - xã hội của quốc gia;
+
+b) Phù hợp với thực tiễn Việt Nam;
+
+c) Phù hợp với các tiêu chuẩn quốc tế.
+
+3. Hệ thống chỉ tiêu thống kê quốc gia gồm:
+
+a) Các chỉ tiêu thống kê quốc gia do hệ thống tổ chức thống kê tập trung thực hiện;
+
+b) Các chỉ tiêu thống kê quốc gia do bộ, ngành được phân công thực hiện.
+
+4. Danh mục chỉ tiêu thống kê quốc gia được quy định tại Phụ lục ban hành kèm theo Luật này.
+
+5. Hệ thống chỉ tiêu thống kê quốc gia là cơ sở phân công, phối hợp giữa các bộ, ngành trong việc xây dựng chương trình điều tra thống kê quốc gia, sử dụng dữ liệu hành chính cho hoạt động thống kê, chế độ báo cáo thống kê và chương trình khác có liên quan đến hoạt động thống kê.
+
+6. Bộ trưởng Bộ Kế hoạch và Đầu tư chủ trì, phối hợp với các bộ, ngành xây dựng, trình Chính phủ ban hành nội dung chỉ tiêu thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia; hướng dẫn, kiểm tra tình hình và báo cáo kết quả thực hiện hệ thống chỉ tiêu thống kê quốc gia.
+
+Điều 18. Điều chỉnh, bổ sung Danh mục chỉ tiêu thống kê quốc gia
+
+Căn cứ vào nhiệm vụ phát triển kinh tế - xã hội, yêu cầu quản lý nhà nước và hội nhập quốc tế trong từng thời kỳ, Chính phủ rà soát, trình Quốc hội sửa đổi, bổ sung Danh mục chỉ tiêu thống kê quốc gia theo thủ tục rút gọn.
+
+Điều 19. Hệ thống chỉ tiêu thống kê bộ, ngành
+
+1. Hệ thống chỉ tiêu thống kê bộ, ngành là tập hợp các chỉ tiêu thống kê do Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước ban hành để thu thập thông tin thống kê hình thành hệ thống thông tin thống kê bộ, ngành.
+
+2. Hệ thống chỉ tiêu thống kê bộ, ngành gồm:
+
+a) Các chỉ tiêu thống kê bộ, ngành do bộ, ngành đó thực hiện;
+
+b) Các chỉ tiêu thống kê bộ, ngành do bộ, ngành, cơ quan thuộc Chính phủ, Tòa án nhân dân cấp cao, Viện kiểm sát nhân dân cấp cao có liên quan được phân công thực hiện theo yêu cầu quản lý ngành, lĩnh vực;
+
+c) Các chỉ tiêu thống kê bộ, ngành do cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh, Tòa án nhân dân cấp tỉnh, Viện kiểm sát nhân dân cấp tỉnh, cơ quan chuyên môn thuộc bộ, cơ quan ngang bộ tại đơn vị hành chính cấp tỉnh thực hiện cung cấp cho bộ, ngành tổng hợp.
+
+3. Hệ thống chỉ tiêu thống kê bộ, ngành được xây dựng phù hợp với hệ thống chỉ tiêu thống kê quốc gia và thông lệ quốc tế. Hệ thống chỉ tiêu thống kê bộ, ngành là cơ sở phân công, phối hợp giữa các cơ quan nhà nước trong việc xây dựng chương trình điều tra thống kê, sử dụng dữ liệu hành chính cho hoạt động thống kê và chế độ báo cáo thống kê cấp bộ, ngành.
+
+4. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước ban hành hệ thống chỉ tiêu thống kê bộ, ngành thuộc ngành, lĩnh vực phụ trách.
+
+5. Cơ quan thuộc Chính phủ chịu trách nhiệm xây dựng, trình Bộ trưởng, Thủ trưởng cơ quan ngang bộ quản lý nhà nước về ngành, lĩnh vực ban hành các chỉ tiêu thống kê thuộc lĩnh vực được phân công phụ trách.
+
+Điều 20. Thẩm định hệ thống chỉ tiêu thống kê bộ, ngành
+
+1. Hệ thống chỉ tiêu thống kê bộ, ngành phải được cơ quan thống kê trung ương thẩm định về chuyên môn, nghiệp vụ thống kê trước khi ban hành.
+
+2. Hồ sơ gửi thẩm định gồm:
+
+a) Văn bản đề nghị thẩm định;
+
+b) Bản dự thảo danh mục chỉ tiêu thống kê;
+
+c) Bản dự thảo nội dung chỉ tiêu thống kê.
+
+3. Nội dung thẩm định gồm mục đích; nhóm, tên chỉ tiêu; khái niệm; phương pháp tính; phân tổ chủ yếu; kỳ công bố; nguồn số liệu.
+
+4. Thời hạn thẩm định là 20 ngày kể từ ngày cơ quan thẩm định nhận đủ hồ sơ gửi thẩm định.
+
+5. Bộ, ngành có trách nhiệm nghiên cứu, giải trình bằng văn bản gửi cơ quan thống kê trung ương, trong đó nêu rõ những nội dung tiếp thu hoặc không tiếp thu ý kiến thẩm định và chỉnh lý, ban hành hệ thống chỉ tiêu thống kê bộ, ngành. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước chịu trách nhiệm về hệ thống chỉ tiêu thống kê do mình ban hành.
+
+Điều 21. Điều chỉnh, bổ sung hệ thống chỉ tiêu thống kê bộ, ngành
+
+1. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước điều chỉnh, bổ sung hệ thống chỉ tiêu thống kê bộ, ngành phù hợp với sự điều chỉnh, bổ sung của chỉ tiêu thống kê có liên quan trong hệ thống chỉ tiêu thống kê quốc gia và đáp ứng yêu cầu quản lý của bộ, ngành.
+
+2. Chỉ tiêu thống kê bộ, ngành được điều chỉnh, bổ sung phải được cơ quan thống kê trung ương thẩm định về chuyên môn, nghiệp vụ thống kê trước khi ban hành.
+
+Việc thẩm định được thực hiện theo quy định tại Điều 20 của Luật này.
+
+Điều 22. Hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã
+
+1. Hệ thống chỉ tiêu thống kê cấp tỉnh là tập hợp các chỉ tiêu thống kê để hình thành hệ thống thông tin thống kê quốc gia và hệ thống thông tin thống kê cấp tỉnh.
+
+Hệ thống chỉ tiêu thống kê cấp huyện là tập hợp các chỉ tiêu thống kê để hình thành hệ thống thông tin thống kê cấp tỉnh và hệ thống thông tin thống kê cấp huyện.
+
+Hệ thống chỉ tiêu thống kê cấp xã là tập hợp các chỉ tiêu thống kê để hình thành hệ thống thông tin thống kê cấp huyện.
+
+2. Hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã là cơ sở phân công, phối hợp giữa các cơ quan nhà nước trong hoạt động thống kê ở từng cấp và trong việc xây dựng chế độ báo cáo thống kê cấp bộ, ngành.
+
+3. Hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã được xây dựng phù hợp với hệ thống chỉ tiêu thống kê quốc gia và đáp ứng yêu cầu quản lý của địa phương.
+
+4. Bộ Kế hoạch và Đầu tư có trách nhiệm sau đây:
+
+a) Xây dựng, trình Thủ tướng Chính phủ ban hành hoặc điều chỉnh, bổ sung hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã;
+
+b) Hướng dẫn, kiểm tra và báo cáo kết quả thực hiện hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã.
+
+Điều 23. Phân loại thống kê
+
+1. Phân loại thống kê được sử dụng thống nhất trong hoạt động thống kê nhà nước, làm căn cứ để thống nhất sử dụng trong quản lý nhà nước.
+
+2. Phân loại thống kê gồm:
+
+a) Phân loại thống kê quốc gia;
+
+b) Phân loại thống kê ngành, lĩnh vực.
+
+Điều 24. Phân loại thống kê quốc gia
+
+1. Phân loại thống kê quốc gia là phân loại thống kê áp dụng chung cho nhiều ngành, lĩnh vực trên phạm vi cả nước.
+
+2. Phân loại thống kê quốc gia gồm:
+
+a) Hệ thống ngành kinh tế;
+
+b) Hệ thống ngành sản phẩm;
+
+c) Danh mục hàng hóa xuất khẩu, nhập khẩu;
+
+d) Danh mục dịch vụ xuất khẩu, nhập khẩu;
+
+đ) Danh mục đơn vị hành chính;
+
+e) Danh mục vùng;
+
+g) Danh mục nghề nghiệp;
+
+h) Danh mục giáo dục, đào tạo;
+
+i) Danh mục các dân tộc Việt Nam;
+
+k) Danh mục các tôn giáo tại Việt Nam;
+
+l) Các phân loại thống kê quốc gia khác.
+
+3. Phân loại thống kê quốc gia được xây dựng phù hợp với thông lệ quốc tế và thực tiễn Việt Nam, được sử dụng trong hoạt động thống kê nhà nước, trong xây dựng hệ thống đăng ký hành chính, cơ sở dữ liệu quốc gia, cơ sở dữ liệu bộ, ngành, cơ sở dữ liệu địa phương và các hoạt động quản lý nhà nước khác có liên quan.
+
+4. Bộ Kế hoạch và Đầu tư chủ trì, phối hợp với bộ, ngành xây dựng, trình Thủ tướng Chính phủ ban hành danh mục và nội dung phân loại thống kê quốc gia.
+
+Điều 25. Phân loại thống kê ngành, lĩnh vực
+
+1. Phân loại thống kê ngành, lĩnh vực là phân loại thống kê áp dụng cho ngành, lĩnh vực và thống nhất với phân loại thống kê quốc gia tương ứng.
+
+2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước ban hành phân loại thống kê ngành, lĩnh vực phụ trách không thuộc phân loại thống kê quốc gia.
+
+3. Cơ quan thuộc Chính phủ chịu trách nhiệm xây dựng, trình Bộ trưởng, Thủ trưởng cơ quan ngang bộ quản lý nhà nước ngành, lĩnh vực ban hành phân loại thống kê ngành, lĩnh vực thuộc lĩnh vực được phân công phụ trách.
+
+Điều 26. Thẩm định phân loại thống kê ngành, lĩnh vực
+
+1. Phân loại thống kê ngành, lĩnh vực phải được cơ quan thống kê trung ương thẩm định về chuyên môn, nghiệp vụ thống kê trước khi ban hành.
+
+2. Hồ sơ gửi thẩm định gồm văn bản đề nghị thẩm định và bản dự thảo phân loại thống kê.
+
+3. Nội dung thẩm định gồm mục đích, căn cứ, phạm vi và đơn vị phân loại thống kê.
+
+4. Thời hạn thẩm định là 20 ngày kể từ ngày cơ quan thẩm định nhận đủ hồ sơ gửi thẩm định.
+
+5. Bộ, ngành có trách nhiệm nghiên cứu, giải trình bằng văn bản gửi cơ quan thống kê trung ương, trong đó nêu rõ những nội dung tiếp thu hoặc không tiếp thu ý kiến thẩm định và chỉnh lý, ban hành phân loại thống kê ngành, lĩnh vực. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước chịu trách nhiệm về phân loại thống kê ngành, lĩnh vực do mình ban hành.
+
+Chương III
+
+THU THẬP THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+
+Mục 1. ĐIỀU TRA THỐNG KÊ
+
+Điều 27. Các loại điều tra thống kê
+
+1. Tổng điều tra thống kê quốc gia và điều tra thống kê trong chương trình điều tra thống kê quốc gia.
+
+2. Điều tra thống kê ngoài chương trình điều tra thống kê quốc gia.
+
+Điều 28. Chương trình điều tra thống kê quốc gia
+
+1. Chương trình điều tra thống kê quốc gia do Thủ tướng Chính phủ quyết định, được tiến hành định kỳ nhằm thu thập thông tin chủ yếu để tổng hợp các chỉ tiêu thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia.
+
+Chương trình điều tra thống kê quốc gia gồm tên cuộc điều tra, mục đích, đối tượng, đơn vị, loại điều tra, nội dung điều tra, thời kỳ, thời điểm điều tra và cơ quan chủ trì, cơ quan phối hợp thực hiện.
+
+2. Bộ Kế hoạch và Đầu tư chủ trì, phối hợp với các bộ, ngành thực hiện các nhiệm vụ sau đây:
+
+a) Xây dựng, trình Thủ tướng Chính phủ ban hành hoặc sửa đổi, bổ sung chương trình điều tra thống kê quốc gia;
+
+b) Hướng dẫn, kiểm tra và báo cáo kết quả thực hiện chương trình điều tra thống kê quốc gia.
+
+3. Thẩm quyền quyết định tiến hành điều tra trong chương trình điều tra thống kê quốc gia được quy định như sau:
+
+a) Thủ tướng Chính phủ quyết định tiến hành tổng điều tra thống kê quốc gia;
+
+b) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước quyết định tiến hành điều tra thống kê được phân công trong chương trình điều tra thống kê quốc gia.
+
+Điều 29. Tổng điều tra thống kê quốc gia
+
+1. Tổng điều tra thống kê quốc gia gồm:
+
+a) Tổng điều tra dân số và nhà ở;
+
+b) Tổng điều tra nông thôn, nông nghiệp;
+
+c) Tổng điều tra kinh tế;
+
+d) Tổng điều tra thống kê quốc gia khác.
+
+2. Cơ quan thực hiện tổng điều tra thống kê quốc gia gồm:
+
+a) Cơ quan thống kê trung ương chủ trì, phối hợp với các bộ, ngành, địa phương thực hiện tổng điều tra quy định tại các điểm a, b và c khoản 1 Điều này;
+
+b) Thủ tướng Chính phủ phân công cơ quan thực hiện tổng điều tra quy định tại điểm d khoản 1 Điều này.
+
+3. Bộ Kế hoạch và Đầu tư chủ trì, phối hợp với các bộ, ngành xây dựng, trình Thủ tướng Chính phủ điều chỉnh, bổ sung tổng điều tra thống kê quốc gia.
+
+Điều 30. Điều tra thống kê ngoài chương trình điều tra thống kê quốc gia
+
+1. Điều tra thống kê ngoài chương trình điều tra thống kê quốc gia gồm:
+
+a) Điều tra thống kê đột xuất khi có thiên tai, dịch bệnh hoặc các trường hợp đột xuất khác;
+
+b) Điều tra thống kê nhằm thu thập thông tin về các chỉ tiêu thống kê phục vụ yêu cầu quản lý của bộ, ngành thuộc lĩnh vực phụ trách, nhưng không thuộc hệ thống chỉ tiêu thống kê quốc gia;
+
+c) Điều tra thống kê nhằm thu thập thông tin có tính chất đặc thù phục vụ yêu cầu quản lý của Ủy ban nhân dân cấp tỉnh.
+
+2. Thẩm quyền quyết định điều tra thống kê ngoài chương trình điều tra thống kê quốc gia được quy định như sau:
+
+a) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước quyết định chương trình và tổ chức thực hiện điều tra thống kê quy định tại điểm a và điểm b khoản 1 Điều này;
+
+b) Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định chương trình và tổ chức thực hiện điều tra thống kê quy định tại điểm c khoản 1 Điều này.
+
+Điều 31. Phương án điều tra thống kê
+
+1. Mỗi cuộc điều tra thống kê phải có phương án điều tra thống kê được ban hành kèm theo quyết định điều tra thống kê của cơ quan nhà nước có thẩm quyền.
+
+2. Phương án điều tra thống kê gồm các nội dung chủ yếu sau đây:
+
+a) Mục đích, yêu cầu điều tra;
+
+b) Phạm vi, đối tượng, đơn vị điều tra;
+
+c) Loại điều tra;
+
+d) Thời điểm, thời gian và phương pháp điều tra;
+
+đ) Nội dung, phiếu điều tra;
+
+e) Phân loại thống kê sử dụng trong điều tra;
+
+g) Quy trình xử lý và biểu đầu ra của điều tra;
+
+h) Kế hoạch tiến hành điều tra;
+
+i) Tổ chức điều tra;
+
+k) Kinh phí và các điều kiện vật chất cho điều tra.
+
+Điều 32. Thẩm định phương án điều tra thống kê
+
+1. Phương án điều tra thống kê đối với điều tra thống kê trong chương trình điều tra thống kê quốc gia do bộ, ngành thực hiện và điều tra thống kê quy định tại khoản 1 Điều 30 của Luật này phải được cơ quan thống kê trung ương thẩm định về chuyên môn, nghiệp vụ thống kê trước khi ban hành.
+
+2. Hồ sơ gửi thẩm định gồm văn bản đề nghị thẩm định và bản dự thảo phương án điều tra thống kê.
+
+3. Nội dung thẩm định gồm mục đích, phạm vi, đối tượng, đơn vị điều tra; loại điều tra; thời điểm, thời gian và phương pháp điều tra; nội dung, phiếu điều tra và phân loại thống kê sử dụng trong điều tra.
+
+4. Thời hạn thẩm định là 20 ngày kể từ ngày cơ quan thẩm định nhận đủ hồ sơ gửi thẩm định. Trường hợp thẩm định phương án điều tra thống kê quy định tại điểm a khoản 1 Điều 30 của Luật này thì thời hạn thẩm định là 05 ngày làm việc.
+
+5. Bộ, ngành, Ủy ban nhân dân cấp tỉnh có trách nhiệm nghiên cứu, giải trình bằng văn bản gửi cơ quan thống kê trung ương, trong đó nêu rõ những nội dung tiếp thu hoặc không tiếp thu ý kiến thẩm định và chỉnh lý, ban hành phương án điều tra thống kê. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước, Chủ tịch Ủy ban nhân dân cấp tỉnh chịu trách nhiệm về phương án điều tra thống kê do mình ban hành.
+
+Điều 33. Quyền và nghĩa vụ của tổ chức, cá nhân được điều tra thống kê
+
+1. Tổ chức, cá nhân được điều tra thống kê có các quyền sau đây:
+
+a) Được thông báo về quyết định, mục đích, yêu cầu, phạm vi, nội dung chủ yếu và thời hạn của cuộc điều tra;
+
+b) Được bảo đảm bí mật thông tin đã cung cấp cho điều tra viên thống kê theo quy định tại Điều 57 của Luật này;
+
+c) Khiếu nại, tố cáo hành vi vi phạm pháp luật về điều tra thống kê.
+
+2. Tổ chức, cá nhân được điều tra thống kê có các nghĩa vụ sau đây:
+
+a) Cung cấp thông tin trung thực, chính xác, đầy đủ và đúng thời hạn theo yêu cầu của điều tra viên thống kê hoặc cơ quan tiến hành điều tra thống kê;
+
+b) Không được từ chối hoặc cản trở việc cung cấp thông tin điều tra thống kê;
+
+c) Chịu sự kiểm tra của cơ quan tiến hành điều tra thống kê và thanh tra chuyên ngành thống kê về thông tin đã cung cấp.
+
+Điều 34. Quyền và nghĩa vụ của điều tra viên thống kê
+
+1. Điều tra viên thống kê có các quyền sau đây:
+
+a) Độc lập về chuyên môn, nghiệp vụ trong thực hiện nhiệm vụ thu thập thông tin theo phương án điều tra thống kê và hướng dẫn của cơ quan tiến hành điều tra thống kê;
+
+b) Được tập huấn về chuyên môn, nghiệp vụ điều tra thống kê, được trang bị phương tiện phục vụ công việc thu thập thông tin và được trả công;
+
+c) Yêu cầu đối tượng điều tra thống kê cung cấp thông tin theo phương án điều tra thống kê và hướng dẫn của cơ quan tiến hành điều tra thống kê.
+
+2. Điều tra viên thống kê có các nghĩa vụ sau đây:
+
+a) Thực hiện thu thập thông tin theo đúng phương án điều tra thống kê và hướng dẫn của cơ quan tiến hành điều tra thống kê;
+
+b) Giữ bí mật thông tin thu thập từ tổ chức, cá nhân được điều tra thống kê;
+
+c) Giao nộp tài liệu, phiếu điều tra theo hướng dẫn của cơ quan tiến hành điều tra thống kê.
+
+Điều 35. Trách nhiệm của cơ quan tiến hành điều tra thống kê
+
+1. Xây dựng phương án điều tra thống kê.
+
+2. Chỉ đạo, tổ chức, giám sát và kiểm tra việc thực hiện phương án điều tra thống kê.
+
+3. Kiểm tra việc cung cấp thông tin của tổ chức, cá nhân được điều tra thống kê.
+
+4. Tổng hợp, phân tích, công bố kết quả điều tra thống kê.
+
+5. Giữ bí mật thông tin thống kê thu thập được.
+
+6. Việc báo cáo kết quả điều tra thống kê cho cơ quan thuộc hệ thống tổ chức thống kê tập trung được thực hiện như sau:
+
+a) Cơ quan thực hiện điều tra thống kê quy định tại điểm a và điểm b khoản 1 Điều 30 của Luật này có trách nhiệm báo cáo kết quả điều tra thống kê cho cơ quan thống kê trung ương;
+
+b) Cơ quan thực hiện điều tra thống kê quy định tại điểm c khoản 1 Điều 30 của Luật này có trách nhiệm báo cáo kết quả điều tra thống kê cho cơ quan thống kê cấp tỉnh.
+
+Mục 2. SỬ DỤNG DỮ LIỆU HÀNH CHÍNH CHO HOẠT ĐỘNG THỐNG KÊ NHÀ NƯỚC
+
+Điều 36. Sử dụng dữ liệu hành chính cho hoạt động thống kê nhà nước
+
+1. Sử dụng dữ liệu hành chính cho hoạt động thống kê nhà nước là hình thức thu thập dữ liệu, thông tin thống kê về đối tượng nghiên cứu cụ thể từ dữ liệu hành chính. Dữ liệu hành chính sử dụng cho hoạt động thống kê nhà nước là dữ liệu thống kê.
+
+2. Nội dung sử dụng dữ liệu hành chính trong hoạt động thống kê nhà nước gồm:
+
+a) Tổng hợp số liệu thống kê, biên soạn các chỉ tiêu thống kê và lập báo cáo theo chế độ báo cáo thống kê;
+
+b) Lập hoặc cập nhật dàn mẫu cho điều tra thống kê;
+
+c) Xây dựng, cập nhật cơ sở dữ liệu thống kê.
+
+3. Cơ sở dữ liệu hành chính được sử dụng trong hoạt động thống kê nhà nước gồm:
+
+a) Cơ sở dữ liệu về con người;
+
+b) Cơ sở dữ liệu về đất đai;
+
+c) Cơ sở dữ liệu về cơ sở kinh tế;
+
+d) Cơ sở dữ liệu về thuế;
+
+đ) Cơ sở dữ liệu về hải quan;
+
+e) Cơ sở dữ liệu về bảo hiểm;
+
+g) Cơ sở dữ liệu hành chính khác.
+
+4. Nhà nước ưu tiên đầu tư xây dựng cơ sở dữ liệu hành chính phục vụ yêu cầu quản lý và hoạt động thống kê nhà nước.
+
+Điều 37. Cung cấp dữ liệu trong cơ sở dữ liệu cho hoạt động thống kê nhà nước
+
+1. Nội dung dữ liệu trong cơ sở dữ liệu quy định tại khoản 3 Điều 36 của Luật này được cung cấp cho hoạt động thống kê nhà nước gồm:
+
+a) Danh mục các trường dữ liệu có liên quan và dữ liệu;
+
+b) Định dạng dữ liệu, định nghĩa và các thuộc tính có liên quan của trường dữ liệu;
+
+c) Phương thức, tần suất và thời gian cung cấp dữ liệu.
+
+2. Các điều kiện bảo đảm cho việc cung cấp, tiếp nhận dữ liệu gồm cơ sở hạ tầng thông tin, nguồn nhân lực và tài chính.
+
+3. Cơ quan thống kê trung ương có trách nhiệm phối hợp với cơ quan quản lý cơ sở dữ liệu hành chính xác định cụ thể các nội dung quy định tại khoản 1 Điều này.
+
+Điều 38. Nhiệm vụ và quyền hạn của cơ quan quản lý cơ sở dữ liệu hành chính
+
+1. Xây dựng cơ sở dữ liệu hành chính phục vụ yêu cầu quản lý ngành, lĩnh vực và hoạt động thống kê nhà nước.
+
+2. Cung cấp dữ liệu, thông tin trong cơ sở dữ liệu đang quản lý cho cơ quan thống kê trung ương theo quy định của Luật này.
+
+3. Từ chối yêu cầu cung cấp dữ liệu, thông tin từ cơ sở dữ liệu đang quản lý nếu trái với quy định của pháp luật.
+
+Điều 39. Nhiệm vụ và quyền hạn của cơ quan thống kê trung ương trong quản lý, sử dụng dữ liệu hành chính
+
+1. Tiếp nhận, quản lý, sử dụng dữ liệu, thông tin từ cơ sở dữ liệu hành chính do các cơ quan quản lý dữ liệu cung cấp cho hoạt động thống kê nhà nước.
+
+2. Bảo mật thông tin theo quy định tại Điều 57 của Luật này.
+
+3. Không được cung cấp cho bên thứ ba dữ liệu, thông tin từ cơ sở dữ liệu hành chính được cung cấp, trừ trường hợp có sự đồng ý của cơ quan quản lý cơ sở dữ liệu đó.
+
+Mục 3. CHẾ ĐỘ BÁO CÁO THỐNG KÊ
+
+Điều 40. Chế độ báo cáo thống kê
+
+1. Chế độ báo cáo thống kê gồm:
+
+a) Chế độ báo cáo thống kê cấp quốc gia;
+
+b) Chế độ báo cáo thống kê cấp bộ, ngành.
+
+2. Nội dung chế độ báo cáo thống kê gồm mục đích, phạm vi thống kê, đối tượng áp dụng, đơn vị báo cáo, đơn vị nhận báo cáo, ký hiệu biểu, kỳ báo cáo, thời hạn nhận báo cáo, phương thức gửi báo cáo và các biểu mẫu kèm theo giải thích biểu mẫu báo cáo thống kê cụ thể.
+
+Điều 41. Chế độ báo cáo thống kê cấp quốc gia
+
+1. Chế độ báo cáo thống kê cấp quốc gia được thực hiện để thu thập thông tin thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia.
+
+2. Cơ quan, tổ chức thực hiện chế độ báo cáo thống kê cấp quốc gia gồm:
+
+a) Bộ, ngành; cơ quan trung ương của tổ chức chính trị, tổ chức chính trị - xã hội;
+
+b) Cơ quan, tổ chức khác theo quy định của pháp luật.
+
+3. Chính phủ quy định chi tiết nội dung chế độ báo cáo thống kê cấp quốc gia.
+
+Điều 42. Chế độ báo cáo thống kê cấp bộ, ngành
+
+1. Chế độ báo cáo thống kê cấp bộ, ngành được thực hiện để thu thập thông tin thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia, hệ thống chỉ tiêu thống kê bộ, ngành, hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện và tổng hợp các thông tin thống kê khác phục vụ yêu cầu quản lý ngành, lĩnh vực.
+
+2. Cơ quan, tổ chức thực hiện chế độ báo cáo thống kê cấp bộ, ngành gồm:
+
+a) Cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh, cấp huyện; Tòa án nhân dân, Viện kiểm sát nhân dân cấp tỉnh, cấp huyện; cơ quan chuyên môn thuộc bộ, cơ quan ngang bộ đặt tại địa phương;
+
+b) Cơ quan, tổ chức khác theo quy định của pháp luật.
+
+3. Thẩm quyền ban hành chế độ báo cáo thống kê cấp bộ, ngành được quy định như sau:
+
+a) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước ban hành chế độ báo cáo thống kê cấp bộ, ngành;
+
+b) Cơ quan thuộc Chính phủ chịu trách nhiệm xây dựng, trình Bộ trưởng, Thủ trưởng cơ quan ngang bộ quản lý nhà nước ngành, lĩnh vực ban hành chế độ báo cáo thống kê cấp bộ, ngành áp dụng đối với lĩnh vực được phân công phụ trách.
+
+Điều 43. Thẩm định chế độ báo cáo thống kê cấp bộ, ngành
+
+1. Chế độ báo cáo thống kê cấp bộ, ngành phải được cơ quan thống kê trung ương thẩm định về chuyên môn, nghiệp vụ thống kê trước khi ban hành.
+
+2. Hồ sơ gửi thẩm định gồm văn bản đề nghị thẩm định, dự thảo văn bản ban hành, biểu mẫu và giải thích biểu mẫu báo cáo.
+
+3. Nội dung thẩm định gồm mục đích, đối tượng áp dụng, phạm vi thu thập, tổng hợp, biểu mẫu và giải thích biểu mẫu báo cáo.
+
+4. Thời hạn thẩm định là 20 ngày kể từ ngày cơ quan thẩm định nhận đủ hồ sơ gửi thẩm định.
+
+5. Bộ, ngành có trách nhiệm nghiên cứu, giải trình bằng văn bản gửi cơ quan thống kê trung ương, trong đó nêu rõ những nội dung tiếp thu hoặc không tiếp thu ý kiến thẩm định và chỉnh lý, ban hành chế độ báo cáo thống kê cấp bộ, ngành. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước chịu trách nhiệm về chế độ báo cáo thống kê cấp bộ, ngành do mình ban hành.
+
+Điều 44. Quyền và nghĩa vụ của cơ quan, tổ chức thực hiện chế độ báo cáo thống kê
+
+1. Cơ quan, tổ chức thực hiện chế độ báo cáo thống kê có các quyền sau đây:
+
+a) Độc lập về chuyên môn, nghiệp vụ trong thực hiện nhiệm vụ thu thập, tổng hợp thông tin;
+
+b) Được hướng dẫn nghiệp vụ thực hiện chế độ báo cáo thống kê;
+
+c) Được cung cấp, sử dụng dữ liệu từ cơ sở dữ liệu hành chính thuộc quyền quản lý của cơ quan nhà nước có liên quan để tổng hợp số liệu thống kê;
+
+d) Khiếu nại quyết định hành chính, hành vi hành chính khi có căn cứ cho rằng quyết định, hành vi đó vi phạm quy định về chế độ báo cáo thống kê.
+
+2. Cơ quan, tổ chức thực hiện chế độ báo cáo thống kê có các nghĩa vụ sau đây:
+
+a) Thu thập, tổng hợp, lập và nộp báo cáo theo quy định của chế độ báo cáo thống kê và hướng dẫn của cơ quan nhà nước có thẩm quyền; chịu trách nhiệm về tính chính xác của thông tin thống kê;
+
+b) Bảo đảm bí mật thông tin liên quan đến cơ quan, tổ chức, cá nhân trong quá trình thực hiện chế độ báo cáo thống kê;
+
+c) Không được từ chối hoặc cản trở việc thực hiện chế độ báo cáo thống kê;
+
+d) Chịu sự kiểm tra về nghiệp vụ của cơ quan nhận báo cáo;
+
+đ) Chịu sự kiểm tra, thanh tra về chuyên môn, nghiệp vụ thống kê của thanh tra chuyên ngành thống kê.
+
+Chương IV
+
+PHÂN TÍCH VÀ DỰ BÁO THỐNG KÊ, CÔNG BỐ VÀ PHỔ BIẾN THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+
+Điều 45. Phân tích và dự báo thống kê
+
+1. Phân tích và dự báo thống kê phục vụ việc xây dựng, đánh giá thực hiện chiến lược, chính sách, kế hoạch phát triển kinh tế - xã hội.
+
+2. Phân tích thống kê nhằm làm rõ các đặc trưng của hiện tượng kinh tế - xã hội; sự thay đổi và các yếu tố ảnh hưởng, vai trò và tác động qua lại của từng yếu tố đối với hiện tượng theo thời gian và không gian. Dự báo thống kê nhằm đưa ra xu hướng phát triển của hiện tượng kinh tế - xã hội.
+
+3. Phân tích và dự báo thống kê phải trung thực, khách quan, toàn diện trên cơ sở thông tin thống kê đã thu thập, tổng hợp, lưu trữ, hệ thống hóa và diễn biến của tình hình thực tế.
+
+4. Cơ quan thuộc hệ thống tổ chức thống kê nhà nước có trách nhiệm phân tích và dự báo thống kê theo chương trình thống kê.
+
+Điều 46. Trách nhiệm của bộ, ngành đối với các chỉ tiêu thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia
+
+1. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước chịu trách nhiệm về số liệu thống kê được phân công thu thập, tổng hợp trong hệ thống chỉ tiêu thống kê quốc gia.
+
+2. Bộ, ngành có trách nhiệm thu thập, tổng hợp số liệu thống kê được phân công trong hệ thống chỉ tiêu thống kê quốc gia và gửi hồ sơ thẩm định theo quy định tại khoản 1 Điều 47 của Luật này cho cơ quan thống kê trung ương thẩm định, công bố.
+
+Điều 47. Thẩm định số liệu thống kê của bộ, ngành trong hệ thống chỉ tiêu thống kê quốc gia
+
+1. Hồ sơ thẩm định gồm văn bản đề nghị thẩm định, dự thảo số liệu thống kê, giải trình phạm vi, phương pháp tính và nguồn số liệu thu thập, tổng hợp.
+
+2. Nội dung thẩm định gồm phạm vi, phương pháp tính và nguồn số liệu của chỉ tiêu.
+
+3. Thời hạn thẩm định kể từ ngày cơ quan thống kê trung ương nhận đủ hồ sơ gửi thẩm định được quy định như sau:
+
+a) 03 ngày làm việc đối với số liệu thống kê ước tính;
+
+b) 07 ngày làm việc đối với số liệu thống kê sơ bộ;
+
+c) 20 ngày đối với số liệu thống kê chính thức.
+
+4. Trên cơ sở ý kiến thẩm định của cơ quan thống kê trung ương, bộ, ngành có trách nhiệm nghiên cứu, tiếp thu, giải trình bằng văn bản và chỉnh lý số liệu thống kê do bộ, ngành thu thập, tổng hợp. Trường hợp bộ, ngành không tiếp thu ý kiến thẩm định của cơ quan thống kê trung ương thì cơ quan thống kê trung ương tự quyết định và chịu trách nhiệm.
+
+Điều 48. Công bố thông tin thống kê nhà nước
+
+1. Các mức độ của số liệu thống kê được công bố gồm:
+
+a) Số liệu thống kê ước tính;
+
+b) Số liệu thống kê sơ bộ;
+
+c) Số liệu thống kê chính thức.
+
+2. Thẩm quyền công bố thông tin thống kê được quy định như sau:
+
+a) Thủ trưởng cơ quan thống kê trung ương công bố thông tin thống kê thuộc hệ thống chỉ tiêu thống kê quốc gia;
+
+b) Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước công bố thông tin thống kê thuộc ngành, lĩnh vực phụ trách, trừ các thông tin thống kê quy định tại điểm a khoản này;
+
+c) Chủ tịch Ủy ban nhân dân cấp tỉnh công bố thông tin thống kê từ kết quả điều tra thống kê quy định tại điểm c khoản 1 Điều 30 của Luật này;
+
+d) Người đứng đầu cơ quan thống kê cấp tỉnh công bố thông tin thống kê thuộc hệ thống chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã.
+
+3. Người có thẩm quyền công bố thông tin thống kê chịu trách nhiệm về thông tin đã công bố.
+
+Điều 49. Phổ biến thông tin thống kê nhà nước
+
+1. Thông tin thống kê đã được công bố theo quy định của Luật này phải được phổ biến kịp thời, đầy đủ, rộng rãi, công khai, minh bạch.
+
+2. Các hình thức phổ biến thông tin gồm:
+
+a) Trang thông tin điện tử của cơ quan thuộc hệ thống thống kê nhà nước; trang thông tin điện tử của các cơ quan nhà nước;
+
+b) Họp báo, thông cáo báo chí;
+
+c) Phương tiện thông tin đại chúng;
+
+d) Xuất bản ấn phẩm, các hình thức lưu giữ thông tin điện tử.
+
+3. Niên giám thống kê quốc gia hàng năm được phổ biến vào tháng 6 năm tiếp theo.
+
+4. Lịch phổ biến thông tin thống kê nhà nước là biểu thời gian ấn định việc phổ biến thông tin thống kê thuộc các hệ thống chỉ tiêu thống kê do người có thẩm quyền công bố thông tin thống kê xây dựng và công khai.
+
+5. Chính phủ quy định chi tiết về việc phổ biến thông tin thống kê nhà nước.
+
+Chương V
+
+NGHIÊN CỨU, ỨNG DỤNG PHƯƠNG PHÁP THỐNG KÊ, CÔNG NGHỆ THÔNG TIN - TRUYỀN THÔNG VÀ HỢP TÁC QUỐC TẾ TRONG HOẠT ĐỘNG THỐNG KÊ NHÀ NƯỚC
+
+Điều 50. Nghiên cứu, ứng dụng phương pháp thống kê tiên tiến
+
+1. Nhà nước ưu tiên nghiên cứu, ứng dụng phương pháp thống kê tiên tiến trong hoạt động thống kê theo chuẩn mực và thông lệ quốc tế, phù hợp với điều kiện phát triển kinh tế - xã hội từng thời kỳ của đất nước.
+
+2. Các lĩnh vực ưu tiên nghiên cứu, ứng dụng phương pháp thống kê tiên tiến gồm:
+
+a) Nghiên cứu phương pháp đo lường hiện tượng kinh tế - xã hội mới để phản ánh đầy đủ, chính xác, kịp thời tiến trình phát triển và hội nhập quốc tế của đất nước;
+
+b) Nghiên cứu, áp dụng các phân loại thống kê theo chuẩn mực quốc tế;
+
+c) Biên soạn, biên dịch và phổ biến các tài liệu hướng dẫn phương pháp thống kê tiên tiến.
+
+3. Bộ trưởng Bộ Kế hoạch và Đầu tư tổ chức, điều phối hoạt động nghiên cứu, ứng dụng phương pháp thống kê tiên tiến trong hoạt động thống kê nhà nước. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước, Chủ tịch Ủy ban nhân dân cấp tỉnh, cấp huyện tổ chức thực hiện việc nghiên cứu, ứng dụng các phương pháp thống kê tiên tiến đối với ngành, lĩnh vực, địa bàn mình quản lý.
+
+Điều 51. Phát triển và ứng dụng công nghệ thông tin - truyền thông
+
+1. Nhà nước ưu tiên đầu tư phát triển và ứng dụng công nghệ thông tin - truyền thông tiên tiến trong hoạt động thống kê nhà nước bao gồm:
+
+a) Hệ thống cơ sở hạ tầng thông tin của hệ thống tổ chức thống kê nhà nước;
+
+b) Hệ thống cơ sở dữ liệu thống kê quốc gia tập trung, thống nhất do cơ quan thống kê trung ương quản lý, gồm các cơ sở dữ liệu thống kê của hệ thống thống kê tập trung và các cơ sở dữ liệu thống kê được hình thành từ nguồn dữ liệu hành chính quy định tại Luật này; kết nối hệ thống cơ sở dữ liệu thống kê quốc gia với các cơ sở dữ liệu quốc gia khác, cơ sở dữ liệu bộ, ngành để cung cấp, cập nhật thông tin;
+
+c) Hệ thống cơ sở dữ liệu thống kê của bộ, ngành và kết nối với hệ thống cơ sở dữ liệu thống kê quốc gia;
+
+d) Phần mềm ứng dụng;
+
+đ) Các phương tiện, phương pháp thu thập và phổ biến thông tin tiên tiến gồm máy tính bảng, điện thoại thông minh, máy tính xách tay, phiếu điện tử, phiếu thu thập thông tin trực tuyến, công nghệ ảnh vệ tinh, hệ thống thông tin địa lý và các phương tiện, phương pháp thu thập, phổ biến thông tin thống kê tiên tiến khác.
+
+2. Nhà nước khuyến khích doanh nghiệp hoạt động trong lĩnh vực công nghệ thông tin - truyền thông cung cấp các sản phẩm, dịch vụ về phát triển và ứng dụng công nghệ thông tin - truyền thông trong hoạt động thống kê.
+
+3. Bộ trưởng Bộ Kế hoạch và Đầu tư tổ chức, điều phối hoạt động phát triển và ứng dụng công nghệ thông tin - truyền thông thống nhất, bảo đảm đồng bộ hóa, tin học hóa, quy trình hóa trong hoạt động thống kê nhà nước. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước, Chủ tịch Ủy ban nhân dân cấp tỉnh, cấp huyện tổ chức thực hiện việc phát triển, ứng dụng công nghệ thông tin - truyền thông trong hoạt động thống kê của bộ, ngành, địa phương.
+
+Điều 52. Hợp tác quốc tế về thống kê
+
+1. Hợp tác quốc tế về thống kê nhằm bảo đảm số liệu thống kê đáp ứng yêu cầu hội nhập quốc tế, nâng cao vị thế thống kê Việt Nam trong khu vực và trên thế giới.
+
+2. Các hoạt động chủ yếu trong hợp tác quốc tế về thống kê gồm:
+
+a) Chia sẻ thông tin thống kê;
+
+b) Ứng dụng phương pháp thống kê;
+
+c) Đào tạo nhân lực;
+
+d) So sánh quốc tế;
+
+đ) Thu hút nguồn lực;
+
+e) Ứng dụng khoa học và công nghệ.
+
+3. Bộ trưởng Bộ Kế hoạch và Đầu tư tổ chức, điều phối hoạt động hợp tác quốc tế trong hoạt động thống kê nhà nước. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước, Chủ tịch Ủy ban nhân dân cấp tỉnh, cấp huyện tổ chức thực hiện hoạt động hợp tác quốc tế về thống kê đối với ngành, lĩnh vực, địa bàn mình quản lý.
+
+Chương VI
+
+SỬ DỤNG CƠ SỞ DỮ LIỆU THỐNG KÊ VÀ THÔNG TIN THỐNG KÊ NHÀ NƯỚC
+
+Điều 53. Sử dụng cơ sở dữ liệu thống kê do cơ quan thống kê trung ương quản lý
+
+1. Cơ quan thống kê trung ương quản lý cơ sở dữ liệu thống kê và đáp ứng nhu cầu sử dụng hợp pháp của cơ quan, tổ chức, cá nhân.
+
+2. Cơ sở dữ liệu thống kê do cơ quan thống kê trung ương quản lý (sau đây gọi là cơ sở dữ liệu thống kê) gồm:
+
+a) Cơ sở dữ liệu thống kê về dân số;
+
+b) Cơ sở dữ liệu thống kê về cơ sở kinh tế;
+
+c) Cơ sở dữ liệu thống kê về nông thôn, nông nghiệp;
+
+d) Các cơ sở dữ liệu thống kê chuyên ngành khác.
+
+3. Dữ liệu, thông tin trong cơ sở dữ liệu thống kê quy định tại khoản 2 Điều này chỉ được cung cấp cho cơ quan, tổ chức, cá nhân sử dụng sau khi thông tin thống kê có liên quan đã được cơ quan thống kê trung ương công bố theo quy định tại Điều 48 của Luật này.
+
+Điều 54. Nhiệm vụ và quyền hạn của cơ quan thống kê trung ương trong quản lý, sử dụng cơ sở dữ liệu thống kê
+
+1. Xây dựng cơ sở dữ liệu thống kê theo quy định của Luật này.
+
+2. Xác định mức độ truy cập và sử dụng dữ liệu, thông tin có liên quan đến thông tin thống kê đã được công bố trong cơ sở dữ liệu thống kê.
+
+3. Cung cấp dữ liệu, thông tin có liên quan đến thông tin thống kê đã được công bố trong cơ sở dữ liệu thống kê cho cơ quan, tổ chức, cá nhân; bảo đảm bảo mật thông tin của tổ chức, cá nhân trong quá trình cung cấp dữ liệu.
+
+4. Từ chối yêu cầu cung cấp dữ liệu, thông tin nếu yêu cầu đó trái với quy định của pháp luật.
+
+5. Kiểm tra, xử lý vi phạm pháp luật trong việc sử dụng cơ sở dữ liệu thống kê.
+
+Điều 55. Quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân trong việc sử dụng cơ sở dữ liệu thống kê
+
+1. Được sử dụng dữ liệu, thông tin có liên quan đến thông tin thống kê đã được công bố trong cơ sở dữ liệu thống kê.
+
+2. Bảo mật thông tin theo quy định tại Điều 57 của Luật này.
+
+3. Không được cung cấp cho bên thứ ba dữ liệu từ cơ sở dữ liệu thống kê được cung cấp, trừ trường hợp được cơ quan thống kê trung ương cho phép.
+
+Điều 56. Sử dụng thông tin thống kê nhà nước
+
+1. Cơ quan nhà nước sử dụng thông tin thống kê nhà nước đã được công bố để đánh giá, dự báo tình hình, hoạch định chiến lược, xây dựng kế hoạch, chính sách, quản lý, điều hành phát triển kinh tế - xã hội và thanh tra, kiểm tra, giám sát.
+
+2. Cơ quan, tổ chức, cá nhân sử dụng thông tin thống kê nhà nước đã được công bố để phục vụ hoạt động của mình.
+
+3. Tổ chức thống kê thuộc hệ thống tổ chức thống kê nhà nước trong phạm vi chức năng, nhiệm vụ của mình có trách nhiệm đáp ứng nhu cầu sử dụng hợp pháp thông tin thống kê nhà nước đã được công bố của cơ quan, tổ chức, cá nhân.
+
+Điều 57. Bảo mật thông tin thống kê nhà nước
+
+1. Các loại thông tin thống kê nhà nước phải được giữ bí mật gồm:
+
+a) Thông tin gắn với tên, địa chỉ cụ thể của từng tổ chức, cá nhân, trừ trường hợp tổ chức, cá nhân đó đồng ý hoặc luật có quy định khác;
+
+b) Thông tin thống kê chưa được người có thẩm quyền công bố;
+
+c) Thông tin thống kê thuộc danh mục bí mật nhà nước.
+
+2. Việc bảo mật thông tin thống kê nhà nước được thực hiện theo quy định của pháp luật.
+
+Điều 58. Quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân trong việc sử dụng số liệu, thông tin thống kê nhà nước
+
+1. Bình đẳng trong việc tiếp cận, sử dụng thông tin thống kê đã được công bố.
+
+2. Sử dụng thông tin thống kê đã được công bố.
+
+3. Trích dẫn, sử dụng thông tin thống kê đã được công bố phải trung thực và ghi rõ nguồn thông tin.
+
+4. Tham gia ý kiến với cơ quan thống kê về chất lượng số liệu thống kê.
+
+5. Khiếu nại, tố cáo hành vi vi phạm pháp luật trong việc sử dụng số liệu, thông tin thống kê.
+
+6. Có trách nhiệm phối hợp với cơ quan thống kê trung ương trong việc thực hiện nhiệm vụ quy định tại khoản 2 Điều 59 của Luật này.
+
+Điều 59. Nhiệm vụ và quyền hạn của cơ quan thống kê trung ương trong việc sử dụng số liệu, thông tin thống kê nhà nước
+
+1. Thực hiện quy định tại khoản 3 Điều 56 và bảo mật thông tin thống kê quy định tại Điều 57 của Luật này.
+
+2. Định kỳ hoặc đột xuất tổ chức kiểm tra việc sử dụng số liệu, thông tin thống kê của chỉ tiêu thống kê quốc gia, chỉ tiêu thống kê cấp tỉnh, cấp huyện, cấp xã đã được cấp có thẩm quyền công bố.
+
+3. Nội dung kiểm tra gồm:
+
+a) Tính chính xác, phù hợp của số liệu thống kê được sử dụng so với số liệu thống kê đã được công bố;
+
+b) Việc trích dẫn nguồn thông tin.
+
+4. Trường hợp phát hiện sai phạm trong việc sử dụng số liệu thống kê đã được công bố thì xử lý theo thẩm quyền hoặc kiến nghị cơ quan nhà nước có thẩm quyền xử lý vi phạm pháp luật về thống kê.
+
+Điều 60. Tham khảo ý kiến người sử dụng thông tin thống kê nhà nước
+
+1. Tổ chức thống kê thuộc hệ thống tổ chức thống kê nhà nước có trách nhiệm tổ chức tham khảo ý kiến người sử dụng thông tin thống kê nhà nước về chất lượng số liệu thống kê để nâng cao chất lượng thông tin thống kê và hoàn thiện công tác thống kê.
+
+2. Các hình thức tham khảo ý kiến chủ yếu gồm điều tra nhu cầu và mức độ hài lòng của người sử dụng thông tin thống kê, hội nghị người sử dụng thông tin thống kê và thăm dò qua trang thông tin điện tử.
+
+3. Bộ trưởng Bộ Kế hoạch và Đầu tư tổ chức, điều phối hoạt động và báo cáo kết quả tham khảo ý kiến người sử dụng thông tin thống kê trong hoạt động thống kê nhà nước.
+
+Chương VII
+
+TỔ CHỨC THỐNG KÊ NHÀ NƯỚC
+
+Điều 61. Hệ thống tổ chức thống kê nhà nước
+
+1. Hệ thống tổ chức thống kê tập trung.
+
+2. Tổ chức thống kê bộ, ngành.
+
+Điều 62. Hệ thống tổ chức thống kê tập trung
+
+1. Hệ thống tổ chức thống kê tập trung được tổ chức theo ngành dọc gồm cơ quan thống kê trung ương và cơ quan thống kê địa phương.
+
+2. Cơ quan thống kê trung ương trực thuộc Bộ Kế hoạch và Đầu tư.
+
+3. Cơ quan thống kê trung ương là cơ quan thống kê quốc gia, thực hiện chức năng tham mưu giúp Bộ trưởng Bộ Kế hoạch và Đầu tư quản lý nhà nước về thống kê, điều phối hoạt động thống kê, tổ chức các hoạt động thống kê và cung cấp thông tin thống kê kinh tế - xã hội cho các tổ chức, cá nhân.
+
+4. Cơ quan thống kê địa phương gồm cơ quan thống kê cấp tỉnh và cơ quan thống kê cấp huyện.
+
+5. Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của hệ thống tổ chức thống kê tập trung.
+
+Điều 63. Thống kê bộ, ngành
+
+1. Chính phủ quy định chức năng, nhiệm vụ và cơ cấu tổ chức thống kê bộ, cơ quan ngang bộ.
+
+2. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Tổng Kiểm toán nhà nước theo nhiệm vụ, quyền hạn có trách nhiệm tổ chức thực hiện công tác thống kê trong bộ, ngành.
+
+Điều 64. Hoạt động thống kê tại đơn vị hành chính cấp xã
+
+Ủy ban nhân dân cấp xã chịu trách nhiệm tổ chức thực hiện công tác thống kê phục vụ yêu cầu quản lý của cấp xã, thực hiện điều tra thống kê và chế độ báo cáo thống kê của nhà nước.
+
+Điều 65. Hoạt động thống kê tại cơ quan nhà nước, đơn vị sự nghiệp công lập
+
+Cơ quan nhà nước, đơn vị sự nghiệp công lập theo nhiệm vụ, quyền hạn có trách nhiệm tổ chức công tác thống kê phục vụ yêu cầu quản lý và cung cấp thông tin cho cơ quan thống kê thuộc hệ thống tổ chức thống kê tập trung, thực hiện điều tra thống kê và chế độ báo cáo thống kê theo quy định của pháp luật.
+
+Điều 66. Người làm công tác thống kê
+
+1. Người làm công tác thống kê gồm người làm công tác thống kê trong hệ thống tổ chức thống kê nhà nước, người làm thống kê ở cấp xã, cơ quan nhà nước, đơn vị sự nghiệp công lập và điều tra viên thống kê.
+
+2. Người làm công tác thống kê phải có các tiêu chuẩn sau đây:
+
+a) Có phẩm chất đạo đức tốt, trung thực, khách quan, có ý thức chấp hành pháp luật;
+
+b) Có trình độ chuyên môn, nghiệp vụ thống kê.
+
+3. Người làm công tác thống kê độc lập về chuyên môn, nghiệp vụ trong hoạt động thống kê.
+
+4. Người làm công tác thống kê phải tuân thủ các quy định của pháp luật về thống kê, thực hiện và chịu trách nhiệm về công việc được phân công.
+
+Chương VIII
+
+HOẠT ĐỘNG THỐNG KÊ, SỬ DỤNG THÔNG TIN THỐNG KÊ NGOÀI THỐNG KÊ NHÀ NƯỚC
+
+Điều 67. Phạm vi của hoạt động thống kê ngoài thống kê nhà nước
+
+1. Thu thập, xử lý, tổng hợp, phân tích, dự báo thông tin thống kê phục vụ nghiên cứu, sản xuất kinh doanh và nhu cầu hợp pháp, chính đáng của tổ chức, cá nhân hoặc của tổ chức, cá nhân khác.
+
+2. Thực hiện hoạt động dịch vụ thống kê.
+
+Điều 68. Yêu cầu đối với hoạt động thống kê ngoài thống kê nhà nước
+
+1. Tuân thủ pháp luật và chịu trách nhiệm trước pháp luật về hoạt động nghề nghiệp, thông tin thống kê, sử dụng thông tin thống kê ngoài thống kê nhà nước do mình tạo ra.
+
+2. Thực hiện các nguyên tắc cơ bản của hoạt động thống kê ngoài thống kê nhà nước quy định tại khoản 2 Điều 5 của Luật này.
+
+3. Tiến hành thu thập thông tin trên cơ sở tự nguyện và thỏa thuận cung cấp thông tin của tổ chức, cá nhân được điều tra thống kê.
+
+Điều 69. Giá trị của thông tin thống kê ngoài thống kê nhà nước
+
+Thông tin thống kê ngoài thống kê nhà nước không có giá trị sử dụng thay thế thông tin thống kê nhà nước được quy định tại khoản 1 Điều 56 của Luật này.
+
+Chương IX
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 70. Hiệu lực thi hành
+
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2016.
+
+2. Luật thống kê số 04/2003/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại Điều 71 của Luật này.
+
+Điều 71. Điều khoản chuyển tiếp
+
+Phân loại thống kê, chế độ báo cáo thống kê theo quy định của Luật thống kê số 04/2003/QH11 được tiếp tục thực hiện cho đến hết ngày 30 tháng 6 năm 2018.
+
+Điều 72. Quy định chi tiết
+
+Chính phủ, cơ quan có thẩm quyền quy định chi tiết các điều, khoản được giao trong Luật.
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khoá XIII, kỳ họp thứ 10 thông qua ngày 23 tháng 11 năm 2015.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Sinh Hùng
+
+
+
+PHỤ LỤC
+
+DANH MỤC CHỈ TIÊU THỐNG KÊ QUỐC GIA
+(Ban hành kèm theo Luật số 89/2015/QH13)
+
+Số
+thứ tự
+
+Mã số
+
+Nhóm, tên chỉ tiêu
+
+
+
+01. Đất đai, dân số
+
+1
+
+0101
+
+Diện tích và cơ cấu đất
+
+
+
+2
+
+0102
+
+Dân số, mật độ dân số
+
+
+
+3
+
+0103
+
+Tỷ số giới tính khi sinh
+
+
+
+4
+
+0104
+
+Tỷ suất sinh thô
+
+
+
+5
+
+0105
+
+Tổng tỷ suất sinh
+
+
+
+6
+
+0106
+
+Tỷ suất chết thô
+
+
+
+7
+
+0107
+
+Tỷ lệ tăng dân số
+
+
+
+8
+
+0108
+
+Tỷ suất nhập cư, xuất cư, tỷ suất di cư thuần
+
+
+
+9
+
+0109
+
+Tuổi thọ trung bình tính từ lúc sinh
+
+
+
+10
+
+0110
+
+Tỷ lệ người khuyết tật
+
+
+
+11
+
+0111
+
+Số cuộc kết hôn và tuổi kết hôn trung bình lần đầu
+
+
+
+12
+
+0112
+
+Tỷ lệ trẻ em dưới 05 tuổi đã được đăng ký khai sinh
+
+
+
+13
+
+0113
+
+Số trường hợp tử vong được đăng ký khai tử
+
+
+
+02. Lao động, việc làm và bình đẳng giới
+
+14
+
+0201
+
+Lực lượng lao động
+
+
+
+15
+
+0202
+
+Số lao động có việc làm trong nền kinh tế
+
+
+
+16
+
+0203
+
+Tỷ lệ lao động đã qua đào tạo
+
+
+
+17
+
+0204
+
+Tỷ lệ thất nghiệp
+
+
+
+18
+
+0205
+
+Tỷ lệ thiếu việc làm
+
+
+
+19
+
+0206
+
+Năng suất lao động xã hội
+
+
+
+20
+
+0207
+
+Thu nhập bình quân một lao động đang làm việc
+
+
+
+21
+
+0208
+
+Tỷ lệ nữ tham gia cấp ủy đảng
+
+
+
+22
+
+0209
+
+Tỷ lệ nữ đại biểu Quốc hội
+
+
+
+23
+
+0210
+
+Tỷ lệ nữ đại biểu Hội đồng nhân dân
+
+
+
+24
+
+0211
+
+Tỷ lệ nữ đảm nhiệm chức vụ lãnh đạo chính quyền
+
+
+
+03. Doanh nghiệp, cơ sở kinh tế, hành chính, sự nghiệp
+
+25
+
+0301
+
+Số cơ sở, lao động trong các cơ sở kinh tế, sự nghiệp
+
+
+
+26
+
+0302
+
+Số cơ sở, lao động trong các cơ sở hành chính
+
+
+
+27
+
+0303
+
+Số hộ, lao động kinh tế cá thể nông nghiệp, lâm nghiệp và thủy sản
+
+
+
+28
+
+0304
+
+Số doanh nghiệp, lao động, vốn, thu nhập, lợi nhuận của doanh nghiệp
+
+
+
+29
+
+0305
+
+Giá trị tăng thêm trên 01 đồng giá trị tài sản cố định của doanh nghiệp
+
+
+
+30
+
+0306
+
+Trang bị tài sản cố định bình quân một lao động của doanh nghiệp
+
+
+
+31
+
+0307
+
+Tỷ suất lợi nhuận của doanh nghiệp
+
+
+
+04. Đầu tư và xây dựng
+
+32
+
+0401
+
+Vốn đầu tư thực hiện toàn xã hội
+
+
+
+
+
+
+
+
+
+
+
+33
+
+0402
+
+Tỷ lệ vốn đầu tư thực hiện toàn xã hội so với tổng sản phẩm trong nước
+
+
+
+34
+
+0403
+
+Hiệu quả sử dụng vốn đầu tư (ICOR)
+
+
+
+35
+
+0404
+
+Năng lực mới tăng của nền kinh tế
+
+
+
+36
+
+0405
+
+Diện tích sàn xây dựng nhà ở hoàn thành
+
+
+
+37
+
+0406
+
+Số lượng nhà ở, tổng diện tích nhà ở hiện có và sử dụng
+
+
+
+38
+
+0407
+
+Diện tích nhà ở bình quân đầu người
+
+
+
+05. Tài khoản quốc gia
+
+39
+
+0501
+
+Tổng sản phẩm trong nước (GDP)
+
+
+
+40
+
+0502
+
+Cơ cấu tổng sản phẩm trong nước
+
+
+
+41
+
+0503
+
+Tốc độ tăng tổng sản phẩm trong nước
+
+
+
+42
+
+0504
+
+Tổng sản phẩm trong nước xanh (GDP xanh)
+
+
+
+43
+
+0505
+
+Tổng sản phẩm trong nước bình quân đầu người (tính bằng Đồng Việt Nam (VND), Đô la Mỹ (USD))
+
+
+
+44
+
+0506
+
+Tích lũy tài sản
+
+
+
+45
+
+0507
+
+Tiêu dùng cuối cùng
+
+
+
+46
+
+0508
+
+Thu nhập quốc gia (GNI)
+
+
+
+47
+
+0509
+
+Tỷ lệ thu nhập quốc gia so với tổng sản phẩm trong nước
+
+
+
+48
+
+0510
+
+Thu nhập quốc gia khả dụng (NDI)
+
+
+
+49
+
+0511
+
+Tỷ lệ tiết kiệm so với tổng sản phẩm trong nước
+
+
+
+50
+
+0512
+
+Tỷ lệ tiết kiệm so với tích lũy tài sản
+
+
+
+51
+
+0513
+
+Mức tiêu hao và tăng/giảm mức tiêu hao năng lượng cho sản xuất so với tổng sản phẩm trong nước
+
+
+
+52
+
+0514
+
+Tốc độ tăng năng suất các nhân tố tổng hợp (TFP)
+
+
+
+53
+
+0515
+
+Tỷ trọng đóng góp của các yếu tố vốn, lao động, năng suất các nhân tố tổng hợp vào tốc độ tăng trưởng chung
+
+
+
+06. Tài chính công
+
+54
+
+0601
+
+Thu và cơ cấu thu ngân sách nhà nước
+
+
+
+55
+
+0602
+
+Tỷ lệ thu ngân sách nhà nước so với tổng sản phẩm trong nước
+
+
+
+56
+
+0603
+
+Tỷ lệ động viên thu ngân sách từ thuế, lệ phí so với tổng sản phẩm trong nước
+
+
+
+57
+
+0604
+
+Chi và cơ cấu chi ngân sách nhà nước
+
+
+
+58
+
+0605
+
+Tỷ lệ chi ngân sách nhà nước so với tổng sản phẩm trong nước
+
+
+
+59
+
+0606
+
+Bội chi ngân sách nhà nước
+
+
+
+60
+
+0607
+
+Tỷ lệ bội chi ngân sách nhà nước so với tổng sản phẩm trong nước
+
+
+
+61
+
+0608
+
+Dư nợ của Chính phủ
+
+
+
+62
+
+0609
+
+Dư nợ nước ngoài của quốc gia
+
+
+
+63
+
+0610
+
+Dư nợ công
+
+
+
+07. Tiền tệ và bảo hiểm
+
+64
+
+0701
+
+Tổng phương tiện thanh toán
+
+
+
+65
+
+0702
+
+Tốc độ tăng tổng phương tiện thanh toán
+
+
+
+66
+
+0703
+
+Số dư huy động vốn của các tổ chức tín dụng
+
+
+
+67
+
+0704
+
+Dư nợ tín dụng của các tổ chức tín dụng
+
+
+
+68
+
+0705
+
+Tốc độ tăng dư nợ tín dụng của các tổ chức tín dụng
+
+
+
+69
+
+0706
+
+Lãi suất
+
+
+
+70
+
+0707
+
+Cán cân thanh toán quốc tế
+
+
+
+71
+
+0708
+
+Tỷ lệ cán cân vãng lai so với tổng sản phẩm trong nước
+
+
+
+72
+
+0709
+
+Vốn đầu tư gián tiếp nước ngoài vào Việt Nam và Việt Nam ra nước ngoài
+
+
+
+73
+
+0710
+
+Tỷ giá giao dịch bình quân trên thị trường ngoại tệ liên ngân hàng của Đồng Việt Nam (VND) với Đô la Mỹ (USD)
+
+
+
+74
+
+0711
+
+Tổng thu phí, chi trả bảo hiểm
+
+
+
+75
+
+0712
+
+Số người đóng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp
+
+
+
+76
+
+0713
+
+Số người được hưởng bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp
+
+
+
+77
+
+0714
+
+Thu, chi bảo hiểm xã hội, bảo hiểm y tế, bảo hiểm thất nghiệp
+
+
+
+08. Nông nghiệp, lâm nghiệp và thủy sản
+
+78
+
+0801
+
+Diện tích gieo trồng cây hàng năm
+
+
+
+79
+
+0802
+
+Diện tích cây lâu năm
+
+
+
+80
+
+0803
+
+Năng suất một số loại cây trồng chủ yếu
+
+
+
+81
+
+0804
+
+Sản lượng một số loại cây trồng chủ yếu
+
+
+
+82
+
+0805
+
+Cân đối một số nông sản chủ yếu
+
+
+
+83
+
+0806
+
+Số lượng gia súc, gia cầm và vật nuôi khác
+
+
+
+84
+
+0807
+
+Sản lượng một số sản phẩm chăn nuôi chủ yếu
+
+
+
+85
+
+0808
+
+Diện tích rừng trồng mới tập trung
+
+
+
+86
+
+0809
+
+Sản lượng gỗ và lâm sản ngoài gỗ
+
+
+
+87
+
+0810
+
+Diện tích nuôi trồng thủy sản
+
+
+
+88
+
+0811
+
+Sản lượng thủy sản
+
+
+
+89
+
+0812
+
+Số lượng và công suất tàu thuyền có động cơ khai thác hải sản
+
+
+
+09. Công nghiệp
+
+90
+
+0901
+
+Chỉ số sản xuất công nghiệp
+
+
+
+91
+
+0902
+
+Sản lượng một số sản phẩm công nghiệp chủ yếu
+
+
+
+92
+
+0903
+
+Tỷ trọng giá trị xuất khẩu sản phẩm công nghệ cao trong tổng giá trị sản phẩm công nghệ cao
+
+
+
+93
+
+0904
+
+Tỷ trọng công nghiệp chế biến trong tổng sản phẩm trong nước
+
+
+
+94
+
+0905
+
+Giá trị tăng thêm bình quân đầu người của công nghiệp chế biến theo sức mua tương đương
+
+
+
+95
+
+0906
+
+Chỉ số tiêu thụ sản phẩm công nghiệp chế biến, chế tạo
+
+
+
+96
+
+0907
+
+Chỉ số tồn kho sản phẩm công nghiệp chế biến, chế tạo
+
+
+
+97
+
+0908
+
+Cân đối một số năng lượng chủ yếu
+
+
+
+98
+
+0909
+
+Năng lực sản xuất của sản phẩm công nghiệp
+
+
+
+10. Thương mại, dịch vụ
+
+99
+
+1001
+
+Doanh thu bán lẻ hàng hoá
+
+
+
+100
+
+1002
+
+Doanh thu dịch vụ lưu trú và ăn uống
+
+
+
+101
+
+1003
+
+Doanh thu dịch vụ khác
+
+
+
+102
+
+1004
+
+Số lượng chợ, siêu thị, trung tâm thương mại
+
+
+
+103
+
+1005
+
+Giá trị xuất khẩu, nhập khẩu hàng hoá
+
+
+
+104
+
+1006
+
+Mặt hàng xuất khẩu, nhập khẩu
+
+
+
+105
+
+1007
+
+Xuất siêu, nhập siêu hàng hoá
+
+
+
+106
+
+1008
+
+Giá trị xuất khẩu, nhập khẩu dịch vụ
+
+
+
+107
+
+1009
+
+Xuất siêu, nhập siêu dịch vụ
+
+
+
+108
+
+1010
+
+Tỷ trọng giá trị hàng xuất khẩu đã qua chế biến trong tổng giá trị xuất khẩu hàng hoá
+
+
+
+109
+
+1011
+
+Tỷ trọng giá trị xuất khẩu sản phẩm công nghệ cao trong tổng giá trị xuất khẩu hàng hóa
+
+
+
+110
+
+1012
+
+Tỷ trọng giá trị xuất khẩu khoáng sản trong tổng giá trị xuất khẩu hàng hoá
+
+
+
+111
+
+1013
+
+Tỷ trọng giá trị nhập khẩu tư liệu sản xuất trong tổng giá trị nhập khẩu hàng hoá
+
+
+
+
+
+
+
+
+
+
+
+11. Giá cả
+
+112
+
+1101
+
+Chỉ số giá tiêu dùng (CPI), chỉ số giá vàng, chỉ số giá Đô la Mỹ
+
+
+
+113
+
+1102
+
+Chỉ số lạm phát cơ bản
+
+
+
+114
+
+1103
+
+Chỉ số giá sinh hoạt theo không gian
+
+
+
+115
+
+1104
+
+Chỉ số giá nguyên liệu, nhiên liệu, vật liệu dùng cho sản xuất
+
+
+
+116
+
+1105
+
+Chỉ số giá sản xuất nông nghiệp, lâm nghiệp, thủy sản, công nghiệp và dịch vụ
+
+
+
+117
+
+1106
+
+Chỉ số giá xây dựng
+
+
+
+118
+
+1107
+
+Chỉ số giá bất động sản
+
+
+
+119
+
+1108
+
+Chỉ số giá tiền lương
+
+
+
+120
+
+1109
+
+Chỉ số giá xuất khẩu, nhập khẩu
+
+
+
+121
+
+1110
+
+Tỷ giá thương mại
+
+
+
+12. Giao thông vận tải
+
+122
+
+1201
+
+Doanh thu vận tải, kho bãi và dịch vụ hỗ trợ vận tải
+
+
+
+123
+
+1202
+
+Số lượt hành khách vận chuyển và luân chuyển
+
+
+
+124
+
+1203
+
+Khối lượng hàng hóa vận chuyển và luân chuyển
+
+
+
+125
+
+1204
+
+Khối lượng hàng hóa thông qua cảng
+
+
+
+126
+
+1205
+
+Số lượng, năng lực bốc xếp hiện có và mới tăng của cảng thủy nội địa
+
+
+
+127
+
+1206
+
+Số lượng, năng lực vận chuyển hiện có và mới tăng của cảng hàng không
+
+
+
+13. Công nghệ thông tin và truyền thông
+
+128
+
+1301
+
+Doanh thu bưu chính, chuyển phát
+
+
+
+129
+
+1302
+
+Sản lượng bưu chính, chuyển phát
+
+
+
+130
+
+1303
+
+Doanh thu viễn thông
+
+
+
+131
+
+1304
+
+Số lượng thuê bao điện thoại
+
+
+
+132
+
+1305
+
+Tỷ lệ người sử dụng điện thoại di động
+
+
+
+133
+
+1306
+
+Tỷ lệ người sử dụng Internet
+
+
+
+134
+
+1307
+
+Số lượng thuê bao truy nhập Internet
+
+
+
+135
+
+1308
+
+Tỷ lệ hộ gia đình có kết nối Internet
+
+
+
+136
+
+1309
+
+Số đơn vị có giao dịch thương mại điện tử
+
+
+
+137
+
+1310
+
+Dung lượng kết nối Internet quốc tế bình quân một trăm dân
+
+
+
+138
+
+1311
+
+Doanh thu công nghệ thông tin
+
+
+
+14. Khoa học và công nghệ
+
+139
+
+1401
+
+Số tổ chức khoa học và công nghệ
+
+
+
+140
+
+1402
+
+Số người trong các tổ chức khoa học và công nghệ
+
+
+
+141
+
+1403
+
+Số người hoạt động nghiên cứu khoa học và phát triển công nghệ
+
+
+
+142
+
+1404
+
+Số sáng chế được cấp văn bằng bảo hộ
+
+
+
+143
+
+1405
+
+Chỉ số đổi mới công nghệ, thiết bị
+
+
+
+144
+
+1406
+
+Tỷ lệ chi đổi mới công nghệ so với tổng vốn cố định của doanh nghiệp
+
+
+
+145
+
+1407
+
+Chi cho nghiên cứu khoa học và phát triển công nghệ
+
+
+
+15. Giáo dục
+
+146
+
+1501
+
+Số học sinh phổ thông bình quân một giáo viên
+
+
+
+147
+
+1502
+
+Số học sinh phổ thông bình quân một lớp học
+
+
+
+148
+
+1503
+
+Tỷ lệ học sinh đi học phổ thông
+
+
+
+16. Y tế và chăm sóc sức khỏe
+
+149
+
+1601
+
+Số bác sĩ, số giường bệnh trên mười nghìn dân
+
+
+
+150
+
+1602
+
+Tỷ số tử vong mẹ trên một trăm nghìn trẻ đẻ sống
+
+
+
+151
+
+1603
+
+Tỷ suất chết của trẻ em dưới một tuổi
+
+
+
+152
+
+1604
+
+Tỷ suất chết của trẻ em dưới năm tuổi
+
+
+
+153
+
+1605
+
+Tỷ lệ trẻ em dưới một tuổi được tiêm chủng đầy đủ các loại vắc xin
+
+
+
+154
+
+1606
+
+Tỷ lệ trẻ em dưới năm tuổi suy dinh dưỡng
+
+
+
+155
+
+1607
+
+Số ca hiện nhiễm HIV được phát hiện trên một trăm nghìn dân
+
+
+
+156
+
+1608
+
+Số ca tử vong do HIV/AIDS được báo cáo hàng năm trên một trăm nghìn dân
+
+
+
+17. Văn hóa, thể thao và du lịch
+
+157
+
+1701
+
+Số di sản văn hóa cấp quốc gia
+
+
+
+158
+
+1702
+
+Số huy chương trong các kỳ thi đấu quốc tế
+
+
+
+159
+
+1703
+
+Doanh thu dịch vụ du lịch lữ hành
+
+
+
+160
+
+1704
+
+Số lượt người nước ngoài đến Việt Nam
+
+
+
+161
+
+1705
+
+Số lượt người Việt Nam ra nước ngoài
+
+
+
+162
+
+1706
+
+Số lượt khách du lịch nội địa
+
+
+
+163
+
+1707
+
+Chi tiêu của khách quốc tế đến Việt Nam
+
+
+
+164
+
+1708
+
+Chi tiêu của khách du lịch nội địa
+
+
+
+18. Mức sống dân cư
+
+165
+
+1801
+
+Chỉ số phát triển con người (HDI)
+
+
+
+166
+
+1802
+
+Tỷ lệ nghèo
+
+
+
+167
+
+1803
+
+Hệ số bất bình đẳng trong phân phối thu nhập (hệ số Gini)
+
+
+
+168
+
+1804
+
+Tỷ lệ dân số đô thị được cung cấp nước sạch qua hệ thống cấp nước tập trung
+
+
+
+169
+
+1805
+
+Tỷ lệ dân số được sử dụng nguồn nước hợp vệ sinh
+
+
+
+170
+
+1806
+
+Tỷ lệ dân số sử dụng hố xí hợp vệ sinh
+
+
+
+19. Trật tự, an toàn xã hội và tư pháp
+
+171
+
+1901
+
+Số vụ tai nạn giao thông; số người chết, bị thương do tai nạn giao thông
+
+
+
+172
+
+1902
+
+Số vụ cháy, nổ và mức độ thiệt hại
+
+
+
+173
+
+1903
+
+Số vụ án, số bị can đã khởi tố
+
+
+
+174
+
+1904
+
+Số vụ án, số bị can đã truy tố
+
+
+
+175
+
+1905
+
+Số vụ, số người phạm tội đã bị kết án
+
+
+
+176
+
+1906
+
+Tỷ lệ dân số từ mười lăm tuổi trở lên bị bạo lực
+
+
+
+177
+
+1907
+
+Số lượt người được trợ giúp pháp lý
+
+
+
+178
+
+1908
+
+Kết quả thi hành án dân sự
+
+
+
+20. Bảo vệ môi trường
+
+179
+
+2001
+
+Diện tích rừng hiện có
+
+
+
+180
+
+2002
+
+Diện tích rừng được bảo vệ
+
+
+
+181
+
+2003
+
+Tỷ lệ che phủ rừng
+
+
+
+182
+
+2004
+
+Số vụ thiên tai và mức độ thiệt hại
+
+
+
+183
+
+2005
+
+Tỷ lệ diện tích các khu bảo tồn thiên nhiên
+
+
+
+184
+
+2006
+
+Diện tích đất bị thoái hoá
+
+
+
+185
+
+2007
+
+Tỷ lệ chất thải nguy hại được thu gom, xử lý
+
+
+
+186
+
+2008
+
+Lượng phát thải khí nhà kính bình quân đầu người

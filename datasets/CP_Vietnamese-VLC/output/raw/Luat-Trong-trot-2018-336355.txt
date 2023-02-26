@@ -1,0 +1,685 @@
+QUỐC HỘI   -------
+CỘNG   HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM   Độc lập - Tự do - Hạnh phúc    ---------------
+Luật   số: 31/2018/QH14
+Hà Nội, ngày 19 tháng 11 năm 2018
+ 
+LUẬT
+TRỒNG TRỌT
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Trồng trọt.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về hoạt động trồng trọt; quyền và nghĩa vụ của tổ chức, cá nhân hoạt động trồng trọt; quản lý nhà nước về trồng trọt.
+Điều 2. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Trồng trọt là ngành kinh tế - kỹ thuật trong nông nghiệp có liên quan đến việc gieo trồng cây nông nghiệp, cây cảnh và nấm ăn để phục vụ mục đích của con người.
+2. Hoạt động trồng trọt bao gồm hoạt động về giống cây trồng; phân bón; canh tác; thu hoạch, sơ chế, bảo quản, chế biến, thương mại và quản lý chất lượng sản phẩm cây trồng.
+3. Canh tác là quá trình con người sử dụng tài nguyên thiên nhiên, trang thiết bị, vật tư nông nghiệp và áp dụng quy trình sản xuất để tạo ra các sản phẩm cây trồng khác nhau.
+4. Sản phẩm cây trồng là bộ phận thu hoạch của cây nông nghiệp, cây cảnh và nấm ăn.
+5. Giống cây trồng là một quần thể cây trồng có thể phân biệt được với quần thể cây trồng khác thông qua sự biểu hiện của ít nhất là một đặc tính và di truyền được cho đời sau; đồng nhất về hình thái, ổn định qua các chu kỳ nhân giống; có giá trị canh tác, giá trị sử dụng; bao gồm giống cây nông nghiệp, giống cây dược liệu, giống cây cảnh và giống nấm ăn.
+6. Vật liệu nhân giống là cây hoặc bộ phận của cây, nấm ăn hoặc bộ phận của nấm ăn có thể phát triển thành một cá thể mới, dùng để nhân giống hoặc để gieo trồng.
+7. Loài cây trồng chính là loài cây được trồng phổ biến, có tầm quan trọng trong phát triển kinh tế, cần được quản lý chặt chẽ.
+8. Cây hằng năm là loại cây được gieo trồng, cho thu hoạch và kết thúc chu kỳ sản xuất trong thời gian không quá 01 năm, kể cả cây hằng năm lưu gốc.
+9. Cây trồng lâu năm là loại cây được gieo trồng một lần, sinh trưởng trong nhiều năm và cho thu hoạch một hoặc nhiều lần.
+10. Tính khác biệt của giống cây trồng là khả năng phân biệt rõ ràng của một giống cây trồng với các giống cây trồng được biết đến rộng rãi.
+11. Tính đồng nhất của giống cây trồng là sự biểu hiện giống nhau của giống cây trồng về các tính trạng liên quan, trừ những sai lệch trong phạm vi cho phép đối với một số tính trạng cụ thể trong quá trình nhân giống.
+12. Tính ổn định của giống cây trồng là sự biểu hiện ổn định của các tính trạng liên quan như mô tả ban đầu, không bị thay đổi sau mỗi vụ nhân giống hoặc sau mỗi chu kỳ nhân giống trong trường hợp nhân giống theo chu kỳ.
+13. Khảo nghiệm giống cây trồng là hoạt động theo dõi, đánh giá các chỉ tiêu xác định tính khác biệt, tính đồng nhất, tính ổn định, giá trị canh tác, giá trị sử dụng của giống cây trồng theo phương pháp nhất định.
+14. Khảo nghiệm có kiểm soát là khảo nghiệm giống cây trồng trong môi trường nhân tạo để giống cây trồng thể hiện đầy đủ đặc tính chống chịu sinh vật gây hại, điều kiện bất thuận.
+15. Khảo nghiệm phân bón là hoạt động theo dõi, đánh giá các chỉ tiêu nhằm xác định phương thức sử dụng, tác động đến môi trường, hiệu quả nông học, hiệu quả kinh tế của phân bón.
+16. Khảo nghiệm diện hẹp là khảo nghiệm được tiến hành trên đồng ruộng, diện tích ô nhỏ, có lặp lại, bố trí thí nghiệm theo tiêu chuẩn quốc gia về phương pháp khảo nghiệm đối với đối tượng được khảo nghiệm.
+17. Khảo nghiệm diện rộng là khảo nghiệm được tiến hành trên đồng ruộng, diện tích ô lớn, không lặp lại, bố trí thí nghiệm theo tiêu chuẩn quốc gia về phương pháp khảo nghiệm đối với đối tượng được khảo nghiệm.
+18. Cây đầu dòng là cây tốt nhất được bình tuyển và công nhận từ quần thể của một giống cây trồng.
+19. Vườn cây đầu dòng là vườn cây được nhân từ cây đầu dòng hoặc vườn cây do tổ chức, cá nhân thiết lập được thẩm định và công nhận.
+20. Phân bón là sản phẩm có chức năng cung cấp chất dinh dưỡng hoặc có tác dụng cải tạo đất để tăng năng suất, chất lượng cho cây trồng.
+21. Chỉ tiêu chất lượng phân bón là thông số kỹ thuật về đặc tính, thành phần, hàm lượng phản ánh chất lượng phân bón được quy định trong quy chuẩn kỹ thuật, tiêu chuẩn công bố áp dụng tương ứng.
+22. Nguyên tố dinh dưỡng trong phân bón là nguyên tố hóa học cần thiết cho sự sinh trưởng và phát triển của cây trồng.
+Điều 3. Nguyên tắc hoạt động trồng trọt
+1. Phát triển sản xuất theo chuỗi giá trị, gắn với định hướng thị trường, phù hợp với chiến lược phát triển trồng trọt, quy hoạch, kế hoạch sử dụng đất và các nguồn tài nguyên khác; tạo điều kiện thuận lợi để phát triển hợp tác, liên kết sản xuất, xây dựng vùng sản xuất hàng hóa tập trung, sản xuất có hợp đồng, sản xuất được chứng nhận chất lượng; bảo đảm an ninh lương thực; bảo đảm hài hòa giữa lợi ích của Nhà nước với lợi ích của tổ chức, cá nhân.
+2. Sử dụng hiệu quả, tiết kiệm, bền vững tài nguyên thiên nhiên, cơ sở hạ tầng; sử dụng an toàn và hiệu quả các loại vật tư nông nghiệp.
+3. Tuân thủ tiêu chuẩn, quy chuẩn kỹ thuật về chất lượng môi trường đất, nước, quy trình sản xuất; bảo đảm an toàn thực phẩm, an toàn sinh học, an toàn dịch bệnh và bảo vệ môi trường.
+4. Phát huy lợi thế vùng, gắn với bảo tồn giống cây trồng đặc sản, giống cây trồng bản địa; bảo vệ hệ thống canh tác bền vững, di sản, cảnh quan, văn hóa trong nông nghiệp gắn với phát triển du lịch sinh thái và xây dựng nông thôn mới.
+5. Chủ động dự báo, phòng, chống thiên tai và sinh vật gây hại cây trồng; thích ứng với biến đổi khí hậu.
+6. Đáp ứng yêu cầu hội nhập quốc tế; tuân thủ điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 4. Chính sách của Nhà nước về hoạt động trồng trọt
+1. Nhà nước đầu tư cho các hoạt động sau đây:
+a) Thống kê, điều tra, xây dựng cơ sở dữ liệu về hoạt động trồng trọt; thông tin và dự báo thị trường; xây dựng chiến lược phát triển trồng trọt; xây dựng tiêu chuẩn, quy chuẩn kỹ thuật về hoạt động trồng trọt;
+b) Xây dựng, nâng cấp cơ sở vật chất, trang thiết bị cho tổ chức khoa học và công nghệ công lập phục vụ nghiên cứu chính sách, nghiên cứu cơ bản trong lĩnh vực trồng trọt;
+c) Hoạt động khoa học và công nghệ quy định tại điểm a và điểm b khoản 2 Điều 6 của Luật này;
+d) Đào tạo nguồn nhân lực về khuyến nông cho vùng có điều kiện kinh tế - xã hội khó khăn, đặc biệt khó khăn.
+2. Trong từng thời kỳ và khả năng của ngân sách nhà nước, Nhà nước hỗ trợ cho các hoạt động sau đây:
+a) Liên kết sản xuất, hình thành các vùng sản xuất hàng hóa tập trung, canh tác hữu cơ; chuyển đổi cơ cấu cây trồng; canh tác trên vùng đất dốc, đất trũng, đất phèn, đất mặn, đất cát ven biển, đất có nguy cơ sa mạc hóa, hoang mạc hóa; phát triển vùng nguyên liệu phục vụ nhà máy chế biến; quản lý vùng trồng và truy xuất nguồn gốc;
+b) Hoạt động khoa học và công nghệ quy định tại điểm c khoản 2 Điều 6 của Luật này;
+c) Áp dụng hệ thống quản lý chất lượng tiên tiến, hoạt động chứng nhận sản phẩm cây trồng;
+d) Xây dựng cơ sở hạ tầng, phân tích, đánh giá điều kiện sản xuất ban đầu trong trồng trọt, đánh giá nông hóa, thổ nhưỡng phục vụ sản xuất hàng hóa tập trung; xây dựng cơ sở hạ tầng phục vụ bảo quản, chế biến; sản xuất phân bón hữu cơ, chế phẩm sinh học; canh tác hữu cơ; cơ giới hóa; phòng thử nghiệm quốc gia và kiểm nghiệm liên phòng quốc tế;
+đ) Sản xuất lúa theo quy hoạch;
+e) Sản xuất giống siêu nguyên chủng, giống nguyên chủng, giống bố mẹ để sản xuất hạt lai F1, giống gốc và giống thương phẩm mới; phục tráng giống cây trồng đặc sản, giống cây trồng bản địa; duy trì cây đầu dòng; bảo vệ và phát triển vườn cây đầu dòng; nhập khẩu giống mới, chuyển nhượng bản quyền đối với giống cây trồng;
+g) Xây dựng chợ đầu mối sản phẩm cây trồng; xây dựng thương hiệu, xúc tiến thương mại, phát triển thị trường tiêu thụ sản phẩm cây trồng;
+h) Khôi phục sản xuất trong trường hợp bị thiên tai, dịch bệnh;
+i) Đào tạo nguồn nhân lực; chuyển giao tiến bộ khoa học kỹ thuật, khuyến nông trong trồng trọt.
+3. Nhà nước khuyến khích tổ chức, cá nhân đầu tư cho hoạt động quy định tại khoản 1, khoản 2 Điều này và các hoạt động sau đây:
+a) Hợp tác, liên kết trong nghiên cứu phát triển, kinh doanh, cung cấp dịch vụ kỹ thuật, chuyển giao công nghệ và hoạt động liên quan trong trồng trọt;
+b) Xã hội hóa dịch vụ công trong trồng trọt; nâng cao năng lực hoạt động đánh giá sự phù hợp;
+c) Bảo hiểm nông nghiệp trong trồng trọt;
+d) Canh tác hữu cơ, canh tác kết hợp du lịch sinh thái, bảo vệ cảnh quan, văn hóa, lịch sử ở khu vực nông thôn;
+đ) Sử dụng phân bón hữu cơ.
+Điều 5. Chiến lược phát triển trồng trọt
+1. Chiến lược phát triển trồng trọt được xây dựng cho chu kỳ 10 năm, định hướng 20 năm; phù hợp với chiến lược phát triển kinh tế - xã hội, quy hoạch, kế hoạch có liên quan.
+2. Chiến lược phát triển trồng trọt xác định quan điểm, nguyên tắc chỉ đạo, tầm nhìn, mục tiêu, nhiệm vụ, giải pháp và tổ chức thực hiện nhiệm vụ phát triển trồng trọt trên phạm vi toàn quốc.
+3. Bộ Nông nghiệp và Phát triển nông thôn chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh xây dựng, trình Thủ tướng Chính phủ phê duyệt Chiến lược phát triển trồng trọt.
+Điều 6. Hoạt động khoa học và công nghệ trong trồng trọt
+1. Hoạt động khoa học và công nghệ trong trồng trọt được thực hiện theo quy định của Luật này, pháp luật về khoa học và công nghệ, chuyển giao công nghệ.
+2. Hoạt động khoa học và công nghệ trong trồng trọt được Nhà nước đầu tư hoặc hỗ trợ đầu tư bao gồm:
+a) Nghiên cứu cơ chế, chính sách trong trồng trọt; chọn, tạo giống cây trồng chất lượng cao, chống chịu sinh vật gây hại và thích ứng với biến đổi khí hậu; khai thác sinh vật có ích; phát triển phân bón hữu cơ, chế phẩm sinh học, kỹ thuật canh tác và bảo vệ môi trường trong trồng trọt; nghiên cứu khoa học đất và dinh dưỡng cây trồng, công nghệ sau thu hoạch;
+b) Thu thập, lưu giữ, bảo tồn và khai thác nguồn gen giống cây trồng quý, hiếm, giống cây trồng đặc sản, giống cây trồng bản địa; xây dựng ngân hàng gen cây trồng;
+c) Nghiên cứu phát triển và ứng dụng công nghệ cao, công nghệ tiên tiến, công nghệ mới trong canh tác, bảo quản và chế biến; canh tác hữu cơ, canh tác thích ứng với biến đổi khí hậu.
+Điều 7. Hợp tác quốc tế về trồng trọt
+1. Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam thực hiện hợp tác quốc tế về trồng trọt với các quốc gia, vùng lãnh thổ, tổ chức quốc tế trên cơ sở bình đẳng, cùng có lợi, tôn trọng độc lập, chủ quyền, pháp luật của mỗi bên và pháp luật quốc tế.
+2. Nội dung ưu tiên hợp tác quốc tế về trồng trọt bao gồm:
+a) Nghiên cứu khoa học, chuyển giao công nghệ về giống cây trồng, vật tư nông nghiệp, quy trình và công nghệ sản xuất, công nghệ sau thu hoạch, trao đổi thông tin và nguồn gen cây trồng;
+b) Đào tạo nguồn nhân lực chất lượng cao trong trồng trọt;
+c) Hợp tác đầu tư, liên kết sản xuất, dự báo và phát triển thị trường tiêu thụ sản phẩm cây trồng;
+d) Xây dựng và thừa nhận lẫn nhau về hệ thống chứng nhận chất lượng trong trồng trọt.
+3. Bộ Nông nghiệp và Phát triển nông thôn chủ trì, phối hợp với Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh thực hiện hợp tác quốc tế về trồng trọt.
+Điều 8. Cơ sở dữ liệu quốc gia về trồng trọt
+1. Cơ sở dữ liệu quốc gia về trồng trọt là hệ thống thông tin liên quan đến trồng trọt, được xây dựng thống nhất từ trung ương đến địa phương, được chuẩn hóa để cập nhật, khai thác và quản lý bằng công nghệ thông tin.
+2. Nội dung cơ sở dữ liệu quốc gia về trồng trọt bao gồm:
+a) Cơ sở dữ liệu về văn bản quy phạm pháp luật, văn bản chỉ đạo điều hành liên quan đến trồng trọt;
+b) Cơ sở dữ liệu sản xuất, bảo quản, chế biến và thương mại về trồng trọt;
+c) Cơ sở dữ liệu về kết quả nghiên cứu khoa học và phát triển công nghệ, tiêu chuẩn, quy chuẩn kỹ thuật; dữ liệu về dinh dưỡng đất, sử dụng đất trồng trọt; dữ liệu giống cây trồng, phân bón, nước tưới;
+d) Cơ sở dữ liệu khác về trồng trọt.
+3. Tổ chức, cá nhân cung cấp thông tin, cập nhật và khai thác cơ sở dữ liệu quốc gia về trồng trọt theo quy định của pháp luật.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định việc cung cấp thông tin, cập nhật, khai thác và quản lý cơ sở dữ liệu quốc gia về trồng trọt.
+Điều 9. Các hành vi bị nghiêm cấm trong hoạt động trồng trọt
+1. Sản xuất, buôn bán, nhập khẩu giống cây trồng chưa được quyết định công nhận lưu hành hoặc tự công bố lưu hành, trừ trường hợp được cơ quan có thẩm quyền cho phép.
+2. Sản xuất, buôn bán, nhập khẩu phân bón chưa được quyết định công nhận lưu hành tại Việt Nam, trừ trường hợp nhập khẩu phân bón quy định tại khoản 2 Điều 44 của Luật này và sản xuất phân bón để xuất khẩu theo hợp đồng với tổ chức, cá nhân nước ngoài.
+3. Sản xuất, buôn bán giống cây trồng không đáp ứng điều kiện sản xuất, buôn bán; sản xuất, buôn bán phân bón chưa được cấp giấy chứng nhận đủ điều kiện sản xuất, buôn bán phân bón.
+4. Sản xuất, buôn bán, nhập khẩu giống cây trồng, phân bón, vật tư nông nghiệp khác và sản phẩm cây trồng giả, hết hạn sử dụng, không rõ nguồn gốc.
+5. Cung cấp thông tin về giống cây trồng, phân bón sai lệch với thông tin đã được cấp có thẩm quyền phê duyệt hoặc sai lệch với thông tin tự công bố.
+6. Thực hiện trái phép dịch vụ khảo nghiệm, thử nghiệm, kiểm định ruộng giống, giám định, chứng nhận chất lượng giống cây trồng, sản phẩm cây trồng, phân bón.
+7. Cung cấp sai hoặc giả mạo kết quả khảo nghiệm, thử nghiệm, kiểm định ruộng giống, kiểm tra, giám định, chứng nhận chất lượng, hợp chuẩn, hợp quy về vật tư nông nghiệp và sản phẩm cây trồng.
+8. Xuất khẩu trái phép giống cây trồng thuộc Danh mục nguồn gen giống cây trồng cấm xuất khẩu.
+9. Canh tác gây hại cho cây trồng, vật nuôi và sức khỏe con người; gây ô nhiễm môi trường; suy thoái và cạn kiệt tài nguyên đất, nước và đa dạng sinh học.
+10. Khai thác, sử dụng trái phép tầng đất mặt của đất chuyên trồng lúa nước vào mục đích phi nông nghiệp.
+Chương II
+GIỐNG CÂY TRỒNG
+Mục 1. NGHIÊN CỨU, KHAI THÁC, SỬ DỤNG VÀ BẢO TỒN NGUỒN GEN GIỐNG CÂY TRỒNG
+Điều 10. Nghiên cứu chọn, tạo và chuyển giao công nghệ về nguồn gen giống cây trồng
+1. Nghiên cứu chọn, tạo và chuyển giao công nghệ về nguồn gen giống cây trồng được thực hiện theo quy định của pháp luật về khoa học và công nghệ, chuyển giao công nghệ, đa dạng sinh học.
+2. Ưu tiên nghiên cứu trong chọn, tạo về nguồn gen giống cây trồng quy định tại điểm a và điểm b khoản 2 Điều 6 của Luật này.
+Điều 11. Khai thác, sử dụng nguồn gen giống cây trồng
+1. Nguồn gen giống cây trồng bao gồm nguồn gen từ giống cây trồng đã được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành; giống cây trồng đã tồn tại phổ biến trong sản xuất, giống cây trồng đặc sản, giống cây trồng bản địa, giống cây trồng nhập khẩu chưa được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành.
+2. Việc khai thác, sử dụng, nguồn gen giống cây trồng thực hiện theo quy định của Luật này và pháp luật về đa dạng sinh học.
+Điều 12. Bảo tồn nguồn gen giống cây trồng
+1. Bảo tồn nguồn gen giống cây trồng bao gồm các hoạt động sau đây:
+a) Điều tra, thu thập, lưu giữ và xây dựng ngân hàng gen giống cây trồng;
+b) Giải mã gen, đánh giá chỉ tiêu nông học, sinh học và giá trị sử dụng nguồn gen giống cây trồng;
+c) Thiết lập và chia sẻ dữ liệu, hệ thống thông tin tư liệu và nguồn gen giống cây trồng.
+2. Chính phủ quy định chi tiết việc bảo tồn nguồn gen giống cây trồng và ban hành Danh mục nguồn gen giống cây trồng cấm xuất khẩu.
+Mục 2. CÔNG NHẬN LƯU HÀNH VÀ TỰ CÔNG BỐ LƯU HÀNH GIỐNG CÂY TRỒNG
+Điều 13. Yêu cầu chung về việc công nhận lưu hành và tự công bố lưu hành giống cây trồng
+1. Giống cây trồng thuộc loài cây trồng chính chỉ được phép sản xuất, buôn bán, xuất khẩu, nhập khẩu sau khi được cấp Quyết định công nhận lưu hành giống cây trồng quy định tại Điều 15 của Luật này hoặc cấp Quyết định công nhận lưu hành đặc cách giống cây trồng quy định tại Điều 16 của Luật này, trừ trường hợp phục vụ nghiên cứu, khảo nghiệm, triển lãm, trao đổi quốc tế hoặc sản xuất hạt lai để xuất khẩu.
+2. Giống cây trồng không thuộc loài cây trồng chính chỉ được phép sản xuất, buôn bán, xuất khẩu, nhập khẩu khi tổ chức, cá nhân tự công bố lưu hành giống cây trồng theo quy định tại Điều 17 của Luật này, trừ trường hợp phục vụ nghiên cứu, khảo nghiệm, quảng cáo, triển lãm, trao đổi quốc tế và sản xuất hạt lai để xuất khẩu. Trường hợp tổ chức, cá nhân có nhu cầu đăng ký cấp Quyết định công nhận lưu hành giống cây trồng thì thực hiện theo quy định tại Điều 15 của Luật này hoặc cấp Quyết định công nhận lưu hành đặc cách giống cây trồng thì thực hiện theo quy định tại Điều 16 của Luật này.
+3. Tổ chức, cá nhân Việt Nam và tổ chức, cá nhân nước ngoài có văn phòng đại diện, chi nhánh công ty hoạt động trong lĩnh vực giống cây trồng tại Việt Nam có quyền đứng tên đăng ký cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành giống cây trồng.
+4. Việc cấp Quyết định công nhận lưu hành giống cây trồng được thực hiện đồng thời với việc cấp Bằng bảo hộ giống cây trồng khi tổ chức, cá nhân đứng tên đăng ký công nhận lưu hành giống cây trồng đề nghị và đáp ứng các điều kiện về bảo hộ giống cây trồng theo quy định của pháp luật về sở hữu trí tuệ.
+5. Giống cây trồng thuộc loài cây trồng chính phải được khảo nghiệm do tổ chức khảo nghiệm độc lập được công nhận đủ điều kiện (sau đây gọi là tổ chức khảo nghiệm giống cây trồng) thực hiện trước khi cấp hoặc gia hạn Quyết định công nhận lưu hành giống cây trồng, trừ trường hợp giống cây trồng được cấp Quyết định công nhận lưu hành đặc cách giống cây trồng quy định tại Điều 16 của Luật này.
+Giống cây cảnh thuộc loài cây trồng chính không phải thực hiện khảo nghiệm theo quy định tại khoản 2 Điều 18 của Luật này.
+6. Trong từng thời kỳ, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn ban hành, sửa đổi, bổ sung Danh mục loài cây trồng chính.
+Điều 14. Tên giống cây trồng
+1. Tên giống cây trồng không được chấp nhận trong trường hợp sau đây:
+a) Chỉ bao gồm chữ số;
+b) Vi phạm truyền thống lịch sử, văn hóa, đạo đức và thuần phong mỹ tục của dân tộc;
+c) Trùng cách đọc hoặc cách viết với tên của lãnh tụ, anh hùng dân tộc, danh nhân, các loại thực phẩm, đồ uống, dược phẩm;
+d) Sử dụng tên cơ quan nhà nước, đơn vị vũ trang nhân dân, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp để làm toàn bộ hoặc một phần tên riêng của giống cây trồng, trừ trường hợp có sự chấp thuận của cơ quan, tổ chức, đơn vị có liên quan;
+đ) Dễ gây hiểu nhầm về đặc trưng, đặc tính của giống đó;
+e) Dễ gây hiểu nhầm về danh tính của tác giả;
+g) Trùng với tên của giống cây trồng đã được bảo hộ.
+2. Tổ chức, cá nhân mua bán vật liệu nhân giống của giống cây trồng phải sử dụng tên giống đã được cấp Quyết định công nhận lưu hành giống cây trồng hoặc tự công bố lưu hành giống cây trồng.
+3. Khi sử dụng tên giống cây trồng kết hợp với nhãn hiệu, tên thương mại hoặc các chỉ dẫn tương tự với tên giống cây trồng đã được công nhận lưu hành hoặc công bố lưu hành để sản xuất, mua bán thì tên đó phải có khả năng nhận biết một cách dễ dàng.
+Điều 15. Cấp, cấp lại, gia hạn, đình chỉ, phục hồi, hủy bỏ Quyết định công nhận lưu hành giống cây trồng
+1. Điều kiện cấp Quyết định công nhận lưu hành giống cây trồng bao gồm:
+a) Có tên giống cây trồng;
+b) Có kết quả khảo nghiệm bảo đảm tính khác biệt, tính đồng nhất, tính ổn định;
+c) Có kết quả khảo nghiệm đạt tiêu chuẩn quốc gia về giá trị canh tác, giá trị sử dụng;
+d) Có mẫu giống cây trồng được lưu theo quy định tại Điều 20 của Luật này;
+đ) Có bản công bố thông tin về giống cây trồng, quy trình sản xuất do tổ chức, cá nhân đứng tên đăng ký cấp Quyết định công nhận lưu hành giống cây trồng biên soạn.
+2. Quyết định công nhận lưu hành giống cây trồng hằng năm có thời hạn là 10 năm, giống cây trồng lâu năm có thời hạn là 20 năm và được gia hạn.
+3. Quyết định công nhận lưu hành giống cây trồng được cấp lại trong trường hợp sau đây:
+a) Quyết định công nhận lưu hành giống cây trồng bị mất hoặc hư hỏng;
+b) Thay đổi, bổ sung thông tin liên quan đến Quyết định công nhận lưu hành giống cây trồng.
+4. Quyết định công nhận lưu hành giống cây trồng được gia hạn khi đáp ứng điều kiện sau đây:
+a) Khi tổ chức, cá nhân yêu cầu;
+b) Có kết quả khảo nghiệm có kiểm soát quy định tại điểm a khoản 2 Điều 18 của Luật này đạt tiêu chuẩn quốc gia về giá trị canh tác, giá trị sử dụng.
+5. Quyết định công nhận lưu hành giống cây trồng bị đình chỉ hiệu lực khi giống cây trồng không duy trì được tính đồng nhất hoặc tính ổn định hoặc giá trị canh tác hoặc giá trị sử dụng như tại thời điểm cấp Quyết định lưu hành giống cây trồng.
+6. Quyết định công nhận lưu hành giống cây trồng đã bị đình chỉ hiệu lực được phục hồi khi tổ chức, cá nhân được cấp Quyết định công nhận lưu hành giống cây trồng khắc phục được trường hợp quy định tại khoản 5 Điều này.
+7. Quyết định công nhận lưu hành giống cây trồng bị hủy bỏ trong trường hợp sau đây:
+a) Gian lận hồ sơ đăng ký công nhận lưu hành giống cây trồng;
+b) Không duy trì được tính khác biệt của giống cây trồng như tại thời điểm cấp Quyết định công nhận lưu hành giống cây trồng;
+c) Không khắc phục được trường hợp quy định tại khoản 5 Điều này;
+d) Đã bị xử phạt vi phạm hành chính về giống cây trồng mà còn tái phạm;
+đ) Có hành vi vi phạm khác mà pháp luật quy định phải hủy bỏ.
+8. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp, cấp lại, gia hạn, đình chỉ, phục hồi, hủy bỏ Quyết định công nhận lưu hành giống cây trồng.
+Điều 16. Cấp Quyết định công nhận lưu hành đặc cách giống cây trồng
+1. Điều kiện cấp Quyết định công nhận lưu hành đặc cách giống cây trồng bao gồm:
+a) Là giống cây trồng đặc sản, giống cây trồng bản địa, giống cây trồng đã tồn tại lâu dài trong sản xuất, được địa phương đề nghị;
+b) Có bản mô tả đặc tính của giống và hiện trạng sử dụng;
+c) Có mẫu lưu theo quy định tại Điều 20 của Luật này.
+2. Đối với Quyết định công nhận lưu hành đặc cách quy định tại khoản 1 Điều này, không áp dụng quy định tại các khoản 2, 4, 5 và 6 Điều 15 của Luật này.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp, cấp lại, hủy bỏ Quyết định công nhận lưu hành đặc cách giống cây trồng.
+Điều 17. Tự công bố lưu hành giống cây trồng
+1. Điều kiện tự công bố lưu hành giống cây trồng bao gồm:
+a) Có tên giống cây trồng;
+b) Có giá trị canh tác, giá trị sử dụng đạt tiêu chuẩn quốc gia đối với loài cây trồng tự công bố lưu hành; trường hợp không có tiêu chuẩn quốc gia thì áp dụng tiêu chuẩn cơ sở;
+c) Có thông tin về giống cây trồng, quy trình sản xuất do tổ chức, cá nhân tự công bố lưu hành giống cây trồng biên soạn.
+2. Tổ chức, cá nhân tự công bố lưu hành giống cây trồng phải chịu trách nhiệm về tính chính xác đối với thông tin đã công bố.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục tự công bố lưu hành giống cây trồng.
+Mục 3. KHẢO NGHIỆM GIỐNG CÂY TRỒNG
+Điều 18. Nội dung khảo nghiệm giống cây trồng
+1. Khảo nghiệm tính khác biệt, tính đồng nhất và tính ổn định của giống cây trồng.
+2. Khảo nghiệm giá trị canh tác, giá trị sử dụng của giống cây trồng bao gồm:
+a) Khảo nghiệm có kiểm soát;
+b) Khảo nghiệm diện hẹp trên đồng ruộng;
+c) Khảo nghiệm diện rộng trên đồng ruộng.
+Điều 19. Yêu cầu chung về khảo nghiệm giống cây trồng
+1. Khảo nghiệm giống cây trồng quy định tại khoản 1 và điểm a khoản 2 Điều 18 của Luật này chỉ được tiến hành tại 01 địa điểm cố định.
+2. Khảo nghiệm giống cây trồng quy định tại điểm b và điểm c khoản 2 Điều 18 của Luật này được thực hiện theo từng vùng. Giống cây trồng khảo nghiệm ở vùng nào thì được cấp Quyết định công nhận lưu hành giống cây trồng ở vùng đó.
+3. Phương pháp khảo nghiệm và phân vùng khảo nghiệm giống cây trồng được quy định tại tiêu chuẩn quốc gia về phương pháp khảo nghiệm đối với loài cây trồng khảo nghiệm.
+4. Vườn cây của giống cây trồng lâu năm do tổ chức, cá nhân đứng tên đăng ký công nhận lưu hành thiết lập phù hợp với tiêu chuẩn quốc gia về phương pháp khảo nghiệm giống cây trồng được sử dụng để đánh giá các chỉ tiêu cần thiết.
+5. Khảo nghiệm diện hẹp và khảo nghiệm diện rộng được tiến hành đồng thời.
+6. Phương pháp giải trình tự gen được sử dụng thay thế phương pháp khảo nghiệm tính khác biệt để kiểm tra tính đúng giống.
+7. Trước khi khảo nghiệm giống cây trồng biến đổi gen phải thực hiện đánh giá rủi ro theo quy định của pháp luật về đa dạng sinh học.
+Điều 20. Lưu mẫu giống cây trồng
+1. Mẫu giống cây trồng khi đăng ký công nhận lưu hành giống cây trồng phải được lưu trong suốt quá trình khảo nghiệm và lưu hành giống cây trồng (sau đây gọi là mẫu lưu) do cơ quan quản lý chuyên ngành về trồng trọt quản lý.
+2. Việc lưu mẫu giống cây trồng được thực hiện theo một trong các hình thức sau đây:
+a) Lưu vật liệu nhân giống cây trồng;
+b) Lưu giải trình tự gen của giống cây trồng;
+c) Lưu vật liệu nhân giống cây trồng và giải trình tự gen của giống cây trồng.
+3. Mẫu lưu được sử dụng trong trường hợp sau đây:
+a) Làm giống khảo nghiệm, giống đối chứng, giống tương tự, giống điển hình trong khảo nghiệm;
+b) Thử nghiệm, kiểm tra chất lượng giống cây trồng;
+c) Thanh tra, kiểm tra, giải quyết tranh chấp về giống cây trồng.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 21. Cấp, cấp lại, hủy bỏ Quyết định công nhận tổ chức khảo nghiệm giống cây trồng
+1. Điều kiện cấp Quyết định công nhận tổ chức khảo nghiệm giống cây trồng bao gồm:
+a) Người trực tiếp phụ trách khảo nghiệm có trình độ từ đại học trở lên thuộc một trong các chuyên ngành về cây trồng, bảo vệ thực vật, sinh học;
+b) Có hoặc thuê địa điểm, cơ sở hạ tầng và trang thiết bị phù hợp để thực hiện khảo nghiệm theo tiêu chuẩn quốc gia về khảo nghiệm giống cây trồng đối với loài cây trồng được khảo nghiệm.
+2. Quyết định công nhận tổ chức khảo nghiệm giống cây trồng được cấp lại trong trường hợp sau đây:
+a) Bị mất, hư hỏng;
+b) Thay đổi, bổ sung thông tin liên quan đến tổ chức khảo nghiệm trong Quyết định công nhận tổ chức khảo nghiệm giống cây trồng.
+3. Quyết định công nhận tổ chức khảo nghiệm giống cây trồng bị hủy bỏ trong trường hợp sau đây:
+a) Bị tẩy, xóa, sửa chữa nội dung ghi trong Quyết định công nhận tổ chức khảo nghiệm giống cây trồng;
+b) Phát hiện giấy tờ giả, thông tin không trung thực trong hồ sơ đăng ký công nhận tổ chức khảo nghiệm giống cây trồng;
+c) Tổ chức khảo nghiệm có hành vi vi phạm mà pháp luật quy định phải hủy bỏ Quyết định công nhận tổ chức khảo nghiệm giống cây trồng;
+d) Không còn đáp ứng được một trong các điều kiện quy định tại khoản 1 Điều này;
+đ) Đã bị xử phạt vi phạm hành chính về hoạt động khảo nghiệm giống cây trồng mà còn tái phạm.
+4. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp, cấp lại, hủy bỏ Quyết định công nhận tổ chức khảo nghiệm giống cây trồng.
+Mục 4. SẢN XUẤT VÀ BUÔN BÁN GIỐNG CÂY TRỒNG
+Điều 22. Điều kiện của tổ chức, cá nhân sản xuất, buôn bán giống cây trồng
+1. Tổ chức, cá nhân sản xuất giống cây trồng phải đáp ứng các điều kiện sau đây:
+a) Có giống cây trồng hoặc được ủy quyền của tổ chức, cá nhân có giống cây trồng được cấp quyết định công nhận lưu hành hoặc đã tự công bố lưu hành giống cây trồng;
+b) Có hoặc thuê địa điểm, cơ sở hạ tầng, trang thiết bị theo tiêu chuẩn quốc gia về phương pháp sản xuất giống cây trồng; trường hợp không có tiêu chuẩn quốc gia thì áp dụng tiêu chuẩn cơ sở.
+2. Tổ chức, cá nhân buôn bán giống cây trồng phải có địa điểm giao dịch hợp pháp và bảo đảm truy xuất nguồn gốc lô giống cây trồng.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 23. Sản xuất giống cây trồng
+1. Sản xuất giống cây trồng được thực hiện theo phương pháp nhân giống hữu tính và phương pháp nhân giống vô tính theo tiêu chuẩn quốc gia về sản xuất giống cây trồng; trường hợp không có tiêu chuẩn quốc gia thì áp dụng tiêu chuẩn cơ sở.
+2. Cây, vườn cây cung cấp vật liệu phục vụ nhân giống vô tính, hạt lai đa dòng đối với cây ăn quả lâu năm, cây công nghiệp lâu năm phải được cấp Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng theo quy định tại Điều 24 của Luật này.
+Điều 24. Cấp, đình chỉ, phục hồi, hủy bỏ Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng
+1. Cây được cấp Quyết định công nhận cây đầu dòng sau khi được bình tuyển theo tiêu chuẩn quốc gia về chất lượng cây đầu dòng. Trường hợp không có tiêu chuẩn quốc gia, cơ quan quản lý chuyên ngành về trồng trọt ban hành tiêu chuẩn cơ sở để áp dụng.
+2. Vườn cây được cấp Quyết định công nhận vườn cây đầu dòng sau khi được thẩm định theo tiêu chuẩn quốc gia về chất lượng vườn cây đầu dòng. Trường hợp không có tiêu chuẩn quốc gia, cơ quan quản lý chuyên ngành về trồng trọt ban hành tiêu chuẩn cơ sở để áp dụng.
+3. Chất lượng cây đầu dòng, vườn cây đầu dòng được quản lý theo tiêu chuẩn quốc gia hoặc tiêu chuẩn cơ sở về chất lượng cây đầu dòng, vườn cây đầu dòng quy định tại khoản 1 và khoản 2 Điều này.
+4. Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng bị đình chỉ hiệu lực khi cây đầu dòng, vườn cây đầu dòng không còn đáp ứng tiêu chuẩn quốc gia hoặc tiêu chuẩn cơ sở về chất lượng cây đầu dòng, vườn cây đầu dòng.
+5. Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng được phục hồi hiệu lực khi chất lượng của cây đầu dòng, vườn cây đầu dòng đáp ứng tiêu chuẩn quốc gia hoặc tiêu chuẩn cơ sở về chất lượng cây đầu dòng, vườn cây đầu dòng.
+6. Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng bị hủy bỏ khi đã bị đình chỉ hiệu lực theo quy định tại khoản 4 Điều này mà không được phục hồi hiệu lực theo quy định tại khoản 5 Điều này.
+7. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp, đình chỉ, phục hồi, hủy bỏ Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng.
+Mục 5. QUẢN LÝ CHẤT LƯỢNG GIỐNG CÂY TRỒNG
+Điều 25. Yêu cầu chung về quản lý chất lượng giống cây trồng
+1. Quản lý chất lượng giống cây trồng bao gồm quản lý chất lượng giống và quản lý chất lượng vật liệu nhân giống theo quy định của Luật này và pháp luật về chất lượng sản phẩm, hàng hóa.
+2. Chất lượng giống cây trồng được quản lý theo tiêu chuẩn quốc gia hoặc tiêu chuẩn cơ sở đối với từng loài cây trồng theo quy định tại điểm c khoản 1 Điều 15 và điểm b khoản 1 Điều 17 của Luật này.
+3. Chất lượng vật liệu nhân giống cây trồng được quản lý như sau:
+a) Vật liệu nhân giống cây trồng thuộc loài cây trồng chính là sản phẩm, hàng hóa nhóm 2 theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa. Chất lượng vật liệu nhân giống cây trồng chính được quản lý trên cơ sở quy chuẩn kỹ thuật quốc gia về chất lượng vật liệu nhân giống cây trồng và tiêu chuẩn do người sản xuất, nhập khẩu công bố áp dụng;
+b) Vật liệu nhân giống cây trồng không thuộc loài cây trồng chính là sản phẩm, hàng hóa nhóm 1 theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa. Chất lượng vật liệu nhân giống cây trồng không thuộc loài cây trồng chính được quản lý trên cơ sở tiêu chuẩn về chất lượng vật liệu nhân giống cây trồng do tổ chức, cá nhân công bố áp dụng.
+Điều 26. Kiểm định ruộng giống, lấy mẫu vật liệu nhân giống cây trồng
+1. Kiểm định ruộng giống được thực hiện trong quá trình sản xuất giống cây trồng theo tiêu chuẩn quốc gia về phương pháp kiểm định ruộng giống, do người được tập huấn nghiệp vụ thực hiện.
+2. Lấy mẫu vật liệu nhân giống cây trồng được thực hiện theo tiêu chuẩn quốc gia về phương pháp lấy mẫu giống cây trồng, do người được tập huấn nghiệp vụ thực hiện.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 27. Ghi nhãn và quảng cáo giống cây trồng
+1. Ghi nhãn và quảng cáo giống cây trồng thực hiện theo quy định của Luật này, pháp luật về thương mại, quảng cáo.
+2. Nội dung ghi nhãn và quảng cáo giống cây trồng phải phù hợp với thông tin đã công bố trong hồ sơ đăng ký cấp quyết định công nhận lưu hành giống cây trồng được cơ quan có thẩm quyền xác nhận hoặc nội dung tự công bố lưu hành giống cây trồng.
+3. Chính phủ quy định chi tiết Điều này.
+Mục 6. XUẤT KHẨU VÀ NHẬP KHẨU GIỐNG CÂY TRỒNG
+Điều 28. Xuất khẩu giống cây trồng
+1. Giống cây trồng đã được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành và không thuộc Danh mục nguồn gen giống cây trồng cấm xuất khẩu được xuất khẩu và thực hiện theo quy định của pháp luật về thương mại, quản lý ngoại thương.
+2. Giống cây trồng và hạt lai của giống cây trồng chưa được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành và không thuộc Danh mục nguồn gen giống cây trồng cấm xuất khẩu chỉ được xuất khẩu phục vụ nghiên cứu, khảo nghiệm, quảng cáo, triển lãm, trao đổi quốc tế không vì mục đích thương mại và phải được Bộ Nông nghiệp và Phát triển nông thôn cho phép.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục cấp phép xuất khẩu giống cây trồng quy định tại khoản 2 Điều này.
+Điều 29. Nhập khẩu giống cây trồng
+1. Giống cây trồng, hạt bố mẹ để sản xuất hạt lai của giống cây trồng đã được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành; hạt giống bố mẹ để sản xuất hạt lai phục vụ xuất khẩu được nhập khẩu và thực hiện theo quy định của pháp luật về thương mại, quản lý ngoại thương.
+Trường hợp nhập khẩu phục vụ mục đích mua bán phải có hồ sơ, tài liệu đáp ứng các quy định tại khoản 1 Điều 23 và khoản 1 Điều 26 của Luật này.
+2. Giống cây trồng chưa được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành chỉ được nhập khẩu phục vụ nghiên cứu, khảo nghiệm, quảng cáo, triển lãm, trao đổi quốc tế và phải được Bộ Nông nghiệp và Phát triển nông thôn cho phép.
+3. Giống cây trồng nhập khẩu phục vụ sản xuất, mua bán phải được kiểm tra nhà nước về chất lượng do cơ quan quản lý chuyên ngành về trồng trọt thuộc Bộ Nông nghiệp và Phát triển nông thôn tổ chức thực hiện và đạt yêu cầu về chất lượng, trừ trường hợp sau đây:
+a) Hạt bố mẹ để sản xuất hạt lai của giống cây trồng;
+b) Giống cây trồng chưa được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành nhập khẩu theo quy định tại khoản 2 Điều này;
+c) Giống cây trồng tạm nhập, tái xuất hoặc quá cảnh hoặc chuyển khẩu;
+d) Giống cây trồng gửi kho ngoại quan.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục kiểm tra nhà nước về chất lượng giống cây trồng nhập khẩu.
+5. Chính phủ quy định hồ sơ, trình tự, thủ tục cấp phép nhập khẩu giống cây trồng.
+Mục 7. QUYỀN VÀ NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN HOẠT ĐỘNG VỀ GIỐNG CÂY TRỒNG
+Điều 30. Quyền và nghĩa vụ của tổ chức, cá nhân nghiên cứu, chọn, tạo giống cây trồng
+1. Tổ chức, cá nhân nghiên cứu, chọn, tạo giống cây trồng có quyền sau đây:
+a) Đầu tư nghiên cứu, chọn, tạo giống cây trồng; điều tra, đánh giá, thu thập, lưu giữ, khai thác nguồn vật liệu nhân giống trong nước hoặc nhập khẩu phục vụ nghiên cứu, chọn, tạo giống cây trồng;
+b) Được hưởng chính sách hỗ trợ của Nhà nước về đầu tư cho khoa học và công nghệ, chính sách đặc thù cho lĩnh vực, vùng theo quy định của pháp luật;
+c) Hợp tác với tổ chức, cá nhân trong nước và nước ngoài để nghiên cứu, chọn, tạo giống cây trồng theo quy định của pháp luật.
+2. Tổ chức, cá nhân nghiên cứu, chọn, tạo giống cây trồng có nghĩa vụ sau đây:
+a) Thực hiện đầy đủ nghĩa vụ theo quy định của pháp luật về khoa học và công nghệ, quy định khác của pháp luật có liên quan;
+b) Đăng ký bảo hộ quyền đối với giống cây trồng trước khi đưa vào kinh doanh, chuyển giao trong trường hợp nghiên cứu, chọn, tạo, phát hiện và phát triển giống cây trồng bằng nguồn ngân sách nhà nước hoặc từ dự án do Nhà nước quản lý; khi chuyển giao giống cây trồng phải thực hiện theo quy định của pháp luật về chuyển giao công nghệ;
+c) Tuân thủ quy định của pháp luật về đa dạng sinh học và quy định khác của pháp luật có liên quan khi tiến hành nghiên cứu, chọn, tạo, thí nghiệm, khảo nghiệm giống cây trồng biến đổi gen.
+Điều 31. Quyền và nghĩa vụ của tổ chức, cá nhân đứng tên đăng ký cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành giống cây trồng
+1. Tổ chức, cá nhân đứng tên đăng ký cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành giống cây trồng được quyền lưu hành giống cây trồng hoặc ủy quyền cho tổ chức, cá nhân khác lưu hành giống cây trồng.
+2. Tổ chức, cá nhân đứng tên đăng ký cấp quyết định công nhận lưu hành hoặc tổ chức, cá nhân được ủy quyền công nhận lưu hành giống cây trồng có nghĩa vụ sau đây:
+a) Duy trì tính khác biệt, tính đồng nhất, tính ổn tính, giá trị canh tác, giá trị sử dụng của giống cây trồng trong quá trình lưu hành, trừ trường hợp được cấp Quyết định công nhận lưu hành đặc cách giống cây trồng quy định tại Điều 16 của Luật này;
+b) Bồi thường thiệt hại khi lưu hành giống cây trồng không đúng với giống đã được cấp quyết định công nhận lưu hành; lưu hành giống giả, giống không đạt quy chuẩn kỹ thuật quốc gia về chất lượng hoặc tiêu chuẩn quốc gia về chất lượng hoặc tiêu chuẩn cơ sở về chất lượng đã công bố; cung cấp sai thông tin về giống cây trồng và quy trình sản xuất đã được cơ quan có thẩm quyền xác nhận.
+3. Tổ chức, cá nhân tự công bố lưu hành hoặc được ủy quyền tự công bố lưu hành giống cây trồng có nghĩa vụ bồi thường thiệt hại khi lưu hành giống cây trồng không đúng với giống đã tự công bố lưu hành; lưu hành giống giả, giống không đạt quy chuẩn kỹ thuật quốc gia hoặc tiêu chuẩn quốc gia hoặc tiêu chuẩn cơ sở đã công bố; cung cấp sai thông tin về giống cây trồng và quy trình sản xuất đã công bố.
+Điều 32. Quyền và nghĩa vụ của tổ chức, cá nhân sử dụng giống cây trồng
+1. Tổ chức, cá nhân sử dụng giống cây trồng có quyền sau đây:
+a) Được cung cấp đầy đủ thông tin về giống cây trồng và hướng dẫn sử dụng giống cây trồng;
+b) Được bồi thường thiệt hại theo quy định của pháp luật;
+c) Kiến nghị, khiếu nại, tố cáo, khởi kiện về hành vi vi phạm pháp luật của tổ chức, cá nhân được cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành giống cây trồng.
+2. Tổ chức, cá nhân sử dụng giống cây trồng có nghĩa vụ sau đây:
+a) Tuân thủ quy trình sản xuất do tổ chức, cá nhân đứng tên đăng ký cấp quyết định công nhận lưu hành hoặc tự công bố lưu hành giống cây trồng công bố;
+b) Khi xảy ra sự cố hoặc phát hiện hậu quả xấu do giống cây trồng gây ra phải kịp thời thông báo cho tổ chức, cá nhân cung cấp giống cây trồng và chính quyền địa phương để xử lý.
+Điều 33. Quyền và nghĩa vụ của tổ chức, cá nhân đứng tên đăng ký cấp Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng
+1. Tổ chức, cá nhân đứng tên đăng ký cấp Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng có quyền khai thác hoặc ủy quyền cho tổ chức, cá nhân khai thác vật liệu nhân giống phục vụ mục đích sản xuất, mua bán.
+2. Tổ chức, cá nhân đứng tên đăng ký cấp Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng có nghĩa vụ sau đây:
+a) Bảo đảm chất lượng giống cây trồng như khi được công nhận;
+b) Khai thác vật liệu nhân giống theo Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng;
+c) Nộp phí theo quy định của pháp luật về phí và lệ phí.
+Điều 34. Quyền và nghĩa vụ của tổ chức khảo nghiệm giống cây trồng
+1. Tổ chức khảo nghiệm giống cây trồng có quyền sau đây:
+a) Tiến hành khảo nghiệm giống cây trồng trên cơ sở hợp đồng ký kết với tổ chức, cá nhân đề nghị;
+b) Được thanh toán chi phí khảo nghiệm giống cây trồng trên cơ sở hợp đồng với tổ chức, cá nhân đề nghị.
+2. Tổ chức khảo nghiệm giống cây trồng có nghĩa vụ sau đây:
+a) Thực hiện khảo nghiệm theo đúng nội dung ghi trong Quyết định công nhận tổ chức khảo nghiệm giống cây trồng;
+b) Chịu trách nhiệm trước pháp luật về kết quả khảo nghiệm và lưu kết quả theo quy định của pháp luật về lưu trữ;
+c) Chịu trách nhiệm bảo mật trước tổ chức, cá nhân có giống cây trồng khảo nghiệm.
+3. Tổ chức khảo nghiệm giống cây trồng phải từ chối khảo nghiệm phục vụ mục đích cấp Quyết định công nhận lưu hành giống cây trồng trong trường hợp sau đây:
+a) Giống do tổ chức khảo nghiệm đó đứng tên đăng ký cấp Quyết định công nhận lưu hành;
+b) Giống của đơn vị liên danh với tổ chức khảo nghiệm khi đăng ký chứng nhận đủ điều kiện khảo nghiệm;
+c) Giống của các công ty trong cùng một công ty mẹ hoặc tập đoàn hoặc tổng công ty trong đó có tổ chức khảo nghiệm;
+d) Giống của các đơn vị trong cùng một đơn vị sự nghiệp trong đó có tổ chức khảo nghiệm.
+Điều 35. Quyền và nghĩa vụ của tổ chức, cá nhân sản xuất, buôn bán giống cây trồng
+1. Tổ chức, cá nhân sản xuất, buôn bán giống cây trồng có quyền sản xuất, buôn bán giống cây trồng khi đáp ứng điều kiện quy định tại Điều 22 của Luật này.
+2. Tổ chức, cá nhân sản xuất, buôn bán giống cây trồng có nghĩa vụ sau đây:
+a) Thực hiện đầy đủ quy định tại Điều 22 của Luật này;
+b) Thực hiện công bố hợp chuẩn, hợp quy theo quy định của pháp luật;
+c) Thu hồi, xử lý giống cây trồng không bảo đảm chất lượng khi lưu thông trên thị trường;
+d) Bồi thường thiệt hại theo quy định của pháp luật;
+đ) Cung cấp tài liệu minh chứng về nguồn gốc vật liệu nhân giống, tài liệu truy xuất nguồn gốc lô giống cây trồng;
+e) Thực hiện dán nhãn đối với giống cây trồng biến đổi gen theo quy định của pháp luật.
+Chương III
+PHÂN BÓN
+Mục 1. CÔNG NHẬN PHÂN BÓN LƯU HÀNH VÀ KHẢO NGHIỆM PHÂN BÓN
+Điều 36. Yêu cầu về công nhận phân bón lưu hành, phân loại phân bón
+1. Phân bón là hàng hóa kinh doanh có điều kiện và phải được cấp Quyết định công nhận phân bón lưu hành tại Việt Nam, trừ phân bón hữu cơ được sản xuất để sử dụng không vì mục đích thương mại, phân bón được nhập khẩu quy định tại khoản 2 Điều 44 của Luật này; phân bón được sản xuất để xuất khẩu theo hợp đồng với tổ chức, cá nhân nước ngoài.
+2. Quyết định công nhận phân bón lưu hành tại Việt Nam có thời hạn là 05 năm và được gia hạn.
+3. Tổ chức, cá nhân trong nước hoặc tổ chức, cá nhân nước ngoài có văn phòng đại diện, chi nhánh công ty hoạt động trong lĩnh vực phân bón tại Việt Nam được đứng tên đăng ký công nhận lưu hành phân bón.
+4. Mỗi tổ chức, cá nhân chỉ được đứng tên đăng ký công nhận một tên phân bón cho mỗi công thức thành phần, hàm lượng dinh dưỡng phân bón.
+5. Chính phủ quy định về phân loại phân bón.
+Điều 37. Cấp, cấp lại, gia hạn Quyết định công nhận phân bón lưu hành tại Việt Nam
+1. Điều kiện cấp Quyết định công nhận phân bón lưu hành tại Việt Nam bao gồm:
+a) Đáp ứng các chỉ tiêu chất lượng theo quy chuẩn kỹ thuật quốc gia về chất lượng phân bón;
+b) Có kết quả khảo nghiệm đạt tiêu chuẩn quốc gia, trừ loại phân bón quy định tại khoản 2 Điều 39 của Luật này.
+2. Quyết định công nhận phân bón lưu hành tại Việt Nam được cấp lại trong trường hợp sau đây:
+a) Thay đổi, bổ sung thông tin liên quan đến tổ chức, cá nhân trong Quyết định công nhận phân bón lưu hành;
+b) Quyết định công nhận phân bón lưu hành bị mất, hư hỏng;
+c) Thay đổi tên phân bón theo quyết định của cơ quan quản lý nhà nước có thẩm quyền hoặc theo bản án, quyết định của Tòa án trong trường hợp vi phạm pháp luật về sở hữu trí tuệ.
+3. Quyết định công nhận phân bón lưu hành tại Việt Nam được gia hạn khi đáp ứng điều kiện sau đây:
+a) Khi tổ chức, cá nhân có yêu cầu;
+b) Đáp ứng chỉ tiêu chất lượng theo quy chuẩn kỹ thuật quốc gia về chất lượng phân bón;
+c) Báo cáo tình hình sản xuất, xuất khẩu, nhập khẩu và sử dụng phân bón theo quy định.
+4. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp, cấp lại, gia hạn Quyết định công nhận phân bón lưu hành tại Việt Nam.
+Điều 38. Hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam
+1. Quyết định công nhận phân bón lưu hành tại Việt Nam bị hủy bỏ trong trường hợp sau đây:
+a) Có bằng chứng khoa học mới về phân bón có nguy cơ cao gây ảnh hưởng xấu đến sức khỏe con người, môi trường;
+b) Phát hiện sử dụng tài liệu giả hoặc cung cấp thông tin trong tài liệu không đúng với phân bón đã được công nhận lưu hành.
+2. Việc hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam được thực hiện như sau:
+a) Đối với trường hợp quy định tại điểm a khoản 1 Điều này, cơ quan quản lý chuyên ngành về phân bón tổng hợp thông tin đánh giá và xem xét hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam. Tổ chức, cá nhân được sản xuất, nhập khẩu phân bón này tối đa là 06 tháng; được mua bán, sử dụng tối đa là 12 tháng kể từ ngày quyết định hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam có hiệu lực;
+b) Đối với trường hợp quy định tại điểm b khoản 1 Điều này, cơ quan quản lý chuyên ngành về phân bón kiểm tra, rà soát hồ sơ, tài liệu công nhận phân bón để xem xét hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam. Tổ chức, cá nhân phải chấm dứt ngay việc sản xuất, nhập khẩu, mua bán, sử dụng phân bón kể từ ngày quyết định hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam có hiệu lực.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền hủy bỏ Quyết định công nhận phân bón lưu hành tại Việt Nam.
+Điều 39. Yêu cầu về khảo nghiệm phân bón
+1. Phân bón phải được khảo nghiệm trước khi được công nhận lưu hành, trừ các loại phân bón quy định tại khoản 2 Điều này.
+2. Các loại phân bón không phải khảo nghiệm bao gồm:
+a) Phân bón hữu cơ sử dụng để bón rễ có thành phần chỉ là chất hữu cơ tự nhiên, đáp ứng chỉ tiêu chất lượng theo quy chuẩn kỹ thuật quốc gia;
+b) Phân bón vô cơ đơn sử dụng để bón rễ có thành phần chỉ chứa đạm (N) hoặc lân (P) hoặc kali (K), đáp ứng chỉ tiêu chất lượng theo quy chuẩn kỹ thuật quốc gia;
+c) Phân bón vô cơ phức hợp sử dụng để bón rễ trong thành phần chỉ chứa các nguyên tố dinh dưỡng đạm (N), lân (P), kali (K) được liên kết với nhau bằng các liên kết hóa học, đáp ứng chỉ tiêu chất lượng theo quy chuẩn kỹ thuật quốc gia;
+d) Phân bón được cơ quan quản lý nhà nước có thẩm quyền công nhận là tiến bộ kỹ thuật.
+3. Phân bón được khảo nghiệm cả diện rộng và diện hẹp; khảo nghiệm diện rộng chỉ được tiến hành sau khi kết thúc khảo nghiệm diện hẹp.
+4. Việc khảo nghiệm phân bón thực hiện theo tiêu chuẩn quốc gia do tổ chức được công nhận đủ điều kiện thực hiện khảo nghiệm.
+5. Lượng phân bón được sản xuất, nhập khẩu để khảo nghiệm được xác định dựa trên liều lượng bón cho từng loại cây trồng và diện tích khảo nghiệm thực tế theo tiêu chuẩn quốc gia về khảo nghiệm phân bón.
+Điều 40. Điều kiện công nhận tổ chức khảo nghiệm phân bón
+1. Tổ chức khảo nghiệm phân bón phải bảo đảm các điều kiện sau đây:
+a) Người trực tiếp phụ trách khảo nghiệm phải có trình độ từ đại học trở lên thuộc một trong các chuyên ngành về trồng trọt, bảo vệ thực vật, nông hóa thổ nhưỡng, khoa học đất, nông học, hóa học, sinh học và phải tham gia tập huấn khảo nghiệm phân bón theo hướng dẫn của Bộ Nông nghiệp và Phát triển nông thôn;
+b) Có đủ số lượng nhân lực thực hiện khảo nghiệm, không kể người trực tiếp phụ trách khảo nghiệm, có trình độ từ đại học trở lên thuộc một trong các chuyên ngành quy định tại điểm a khoản 1 Điều này và phải tham gia tập huấn khảo nghiệm phân bón theo hướng dẫn của Bộ Nông nghiệp và Phát triển nông thôn;
+c) Có đầy đủ cơ sở vật chất, trang thiết bị theo tiêu chuẩn quốc gia về khảo nghiệm phân bón.
+2. Chính phủ quy định số lượng nhân lực tối thiểu thực hiện khảo nghiệm của tổ chức khảo nghiệm phân bón; hồ sơ, trình tự, thủ tục và thẩm quyền cấp, thu hồi Quyết định công nhận tổ chức khảo nghiệm phân bón.
+Mục 2. SẢN XUẤT VÀ BUÔN BÁN PHÂN BÓN
+Điều 41. Điều kiện sản xuất phân bón
+1. Tổ chức, cá nhân sản xuất phân bón phải có Giấy chứng nhận đủ điều kiện sản xuất phân bón.
+2. Điều kiện cấp Giấy chứng nhận đủ điều kiện sản xuất phân bón bao gồm:
+a) Có địa điểm sản xuất, diện tích nhà xưởng phù hợp với quy mô sản xuất;
+b) Có dây chuyền, máy móc, thiết bị phù hợp với quy trình sản xuất từng loại, dạng phân bón;
+c) Có phòng thử nghiệm hoặc có hợp đồng với tổ chức thử nghiệm được chỉ định để đánh giá các chỉ tiêu chất lượng phân bón do mình sản xuất;
+d) Có hệ thống quản lý chất lượng phù hợp và được cập nhật với tiêu chuẩn do tổ chức tiêu chuẩn hóa quốc tế ban hành về quản lý chất lượng;
+đ) Có khu vực chứa nguyên liệu và khu vực thành phẩm riêng biệt;
+e) Người trực tiếp điều hành sản xuất phải có trình độ từ đại học trở lên thuộc một trong các chuyên ngành về trồng trọt, bảo vệ thực vật, nông hóa thổ nhưỡng, khoa học đất, nông học, hóa học, sinh học.
+3. Giấy chứng nhận đủ điều kiện sản xuất phân bón có thời hạn là 05 năm và được cấp lại.
+4. Chính phủ quy định chi tiết điều kiện, hồ sơ, trình tự, thủ tục và thẩm quyền cấp, cấp lại, thu hồi Giấy chứng nhận đủ điều kiện sản xuất phân bón.
+Điều 42. Điều kiện buôn bán phân bón
+1. Tổ chức, cá nhân buôn bán phân bón phải có Giấy chứng nhận đủ điều kiện buôn bán phân bón; trường hợp buôn bán phân bón do mình sản xuất thì không phải có Giấy chứng nhận đủ điều kiện buôn bán phân bón.
+2. Điều kiện cấp Giấy chứng nhận đủ điều kiện buôn bán phân bón bao gồm:
+a) Có địa điểm giao dịch hợp pháp, rõ ràng;
+b) Có đầy đủ hồ sơ, giấy tờ truy xuất nguồn gốc phân bón theo quy định;
+c) Người trực tiếp buôn bán phân bón phải được tập huấn, bồi dưỡng chuyên môn về phân bón theo hướng dẫn của Bộ Nông nghiệp và Phát triển nông thôn, trừ trường hợp đã có trình độ từ trung cấp trở lên thuộc một trong các chuyên ngành về trồng trọt, bảo vệ thực vật, nông hóa thổ nhưỡng, khoa học đất, nông học, hóa học, sinh học.
+3. Chính phủ quy định chi tiết điều kiện, hồ sơ, trình tự, thủ tục, thời hạn, thẩm quyền cấp, cấp lại, thu hồi Giấy chứng nhận đủ điều kiện buôn bán phân bón.
+Mục 3. XUẤT KHẨU VÀ NHẬP KHẨU PHÂN BÓN
+Điều 43. Xuất khẩu phân bón
+Việc xuất khẩu phân bón thực hiện theo quy định của pháp luật về thương mại, quản lý ngoại thương hoặc theo yêu cầu của nước nhập khẩu.
+Điều 44. Nhập khẩu phân bón
+1. Tổ chức, cá nhân có phân bón đã được cấp Quyết định công nhận phân bón lưu hành tại Việt Nam được nhập khẩu hoặc ủy quyền nhập khẩu phân bón trong Quyết định công nhận phân bón lưu hành tại Việt Nam và không cần Giấy phép nhập khẩu phân bón.
+2. Tổ chức, cá nhân nhập khẩu phân bón chưa được công nhận lưu hành tại Việt Nam phải có Giấy phép nhập khẩu phân bón trong trường hợp sau đây:
+a) Phân bón để khảo nghiệm;
+b) Phân bón dùng cho sân thể thao, khu vui chơi giải trí;
+c) Phân bón sử dụng trong dự án của nước ngoài tại Việt Nam;
+d) Phân bón làm quà tặng, làm hàng mẫu;
+đ) Phân bón tham gia hội chợ, triển lãm;
+e) Phân bón phục vụ nghiên cứu khoa học;
+g) Phân bón làm nguyên liệu để sản xuất phân bón khác;
+h) Phân bón tạm nhập, tái xuất hoặc phân bón quá cảnh hoặc chuyển khẩu qua cửa khẩu Việt Nam; phân bón gửi kho ngoại quan; phân bón nhập khẩu vào khu chế xuất.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền cấp Giấy phép nhập khẩu phân bón.
+Mục 4. QUẢN LÝ CHẤT LƯỢNG, TÊN, NHÃN, QUẢNG CÁO PHÂN BÓN
+Điều 45. Quản lý chất lượng phân bón
+1. Phân bón được quản lý chất lượng theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa.
+2. Tổ chức đánh giá sự phù hợp thực hiện hoạt động thử nghiệm, giám định, kiểm định, chứng nhận chất lượng phục vụ quản lý nhà nước đối với phân bón phải được chứng nhận lĩnh vực hoạt động theo quy định của pháp luật về điều kiện kinh doanh dịch vụ đánh giá sự phù hợp và được Bộ Nông nghiệp và Phát triển nông thôn chỉ định theo quy định của pháp luật về chất lượng sản phẩm, hàng hóa.
+3. Việc lấy mẫu phân bón để thử nghiệm chất lượng phục vụ quản lý nhà nước phải do người có Giấy chứng nhận lấy mẫu phân bón thực hiện.
+4. Chính phủ quy định nội dung, thời gian, thẩm quyền cấp Giấy chứng nhận lấy mẫu phân bón.
+Điều 46. Kiểm tra nhà nước về chất lượng phân bón nhập khẩu
+1. Phân bón nhập khẩu phải được kiểm tra nhà nước về chất lượng, trừ phân bón nhập khẩu quy định tại các điểm a, d, đ, e và h khoản 2 Điều 44 của Luật này.
+2. Kiểm tra nhà nước về chất lượng phân bón nhập khẩu do cơ quan quản lý chuyên ngành về phân bón thuộc Bộ Nông nghiệp và Phát triển nông thôn tổ chức thực hiện.
+3. Hồ sơ kiểm tra nhà nước về chất lượng phân bón nhập khẩu phải được lưu trong thời hạn là 05 năm kể từ ngày ban hành thông báo kết quả kiểm tra nhà nước.
+4. Chính phủ quy định hồ sơ, trình tự, thủ tục, nội dung kiểm tra nhà nước về chất lượng phân bón nhập khẩu.
+Điều 47. Tên phân bón
+1. Tên phân bón khi đăng ký không được trùng với tên phân bón đã được cấp Quyết định công nhận phân bón lưu hành tại Việt Nam.
+2. Tên phân bón không làm hiểu sai lệch về bản chất, công dụng, thành phần và loại phân bón.
+3. Tên phân bón không được vi phạm truyền thống lịch sử, văn hóa, đạo đức và thuần phong mỹ tục của dân tộc; trùng cách đọc hoặc cách viết với tên của lãnh tụ, anh hùng dân tộc, danh nhân, các loại thực phẩm, đồ uống, dược phẩm. Không sử dụng tên cơ quan nhà nước, đơn vị vũ trang nhân dân, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp để làm toàn bộ hoặc một phần tên riêng của phân bón, trừ trường hợp có sự chấp thuận của cơ quan, tổ chức, đơn vị có liên quan.
+4. Đối với phân bón hỗn hợp, trường hợp tên của thành phần được sử dụng làm tên hay một phần của tên phân bón phải đặt theo thứ tự tên loại phân bón, thành phần, ký hiệu riêng, chữ số định lượng thành phần có trong tên, ký hiệu riêng khác (nếu có).
+Các thành phần và chữ số định lượng thành phần theo thứ tự nguyên tố dinh dưỡng đa lượng đạm (N), lân (P), kali (K), nguyên tố dinh dưỡng trung lượng, nguyên tố dinh dưỡng vi lượng, chất hữu cơ, chất bổ sung khác (nếu có).
+Điều 48. Ghi nhãn phân bón
+1. Phân bón khi lưu thông trên thị trường phải được ghi nhãn theo quy định của pháp luật về nhãn hàng hóa và bao gồm các nội dung sau đây:
+a) Loại phân bón;
+b) Mã số phân bón;
+c) Đối với phân bón lá phải ghi rõ cụm từ “Phân bón lá”.
+2. Nội dung ghi trên nhãn phải đúng với nội dung trong Quyết định công nhận phân bón lưu hành tại Việt Nam.
+Điều 49. Quảng cáo phân bón
+1. Tổ chức, cá nhân quảng cáo phân bón thực hiện theo quy định của pháp luật về quảng cáo.
+2. Chính phủ quy định hồ sơ, trình tự, thủ tục, thẩm quyền xác nhận nội dung quảng cáo phân bón.
+Mục 5. QUYỀN VÀ NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN HOẠT ĐỘNG TRONG LĨNH VỰC PHÂN BÓN
+Điều 50. Quyền và nghĩa vụ của tổ chức, cá nhân sản xuất phân bón
+1. Tổ chức, cá nhân sản xuất phân bón có quyền sau đây:
+a) Sản xuất phân bón được công nhận lưu hành tại Việt Nam;
+b) Sản xuất phân bón để xuất khẩu theo hợp đồng với tổ chức, cá nhân nước ngoài;
+c) Quảng cáo phân bón theo quy định tại Điều 49 của Luật này;
+d) Được buôn bán phân bón do mình sản xuất.
+2. Tổ chức, cá nhân sản xuất phân bón có nghĩa vụ sau đây:
+a) Duy trì đầy đủ các điều kiện sản xuất phân bón quy định tại Điều 41 của Luật này trong quá trình hoạt động sản xuất phân bón;
+b) Sản xuất phân bón đúng quy chuẩn kỹ thuật quốc gia và tiêu chuẩn công bố áp dụng;
+c) Thực hiện đúng nội dung của Giấy chứng nhận đủ điều kiện sản xuất phân bón;
+d) Thử nghiệm đối với từng lô phân bón thành phẩm trước khi đưa ra lưu thông trên thị trường. Lưu kết quả thử nghiệm theo hạn sử dụng của lô phân bón và bảo quản mẫu lưu trong thời gian là 06 tháng kể từ khi lấy mẫu;
+đ) Thu hồi, xử lý phân bón không bảo đảm chất lượng và bồi thường thiệt hại theo quy định của pháp luật;
+e) Chấp hành việc thanh tra, kiểm tra của cơ quan nhà nước có thẩm quyền;
+g) Tổ chức tập huấn, hướng dẫn sử dụng phân bón; bồi dưỡng, tập huấn chuyên môn cho người lao động trực tiếp sản xuất phân bón;
+h) Hằng năm, báo cáo tình hình sản xuất, xuất khẩu, nhập khẩu phân bón với cơ quan quản lý nhà nước có thẩm quyền hoặc báo cáo đột xuất khi có yêu cầu;
+i) Chấp hành quy định của pháp luật về phòng cháy và chữa cháy, hóa chất, lao động, môi trường và quy định khác của pháp luật có liên quan.
+Điều 51. Quyền và nghĩa vụ của tổ chức, cá nhân buôn bán phân bón
+1. Tổ chức, cá nhân buôn bán phân bón có quyền sau đây:
+a) Buôn bán phân bón được công nhận lưu hành tại Việt Nam;
+b) Được cung cấp thông tin và hướng dẫn sử dụng, bồi dưỡng chuyên môn phân bón.
+2. Tổ chức, cá nhân buôn bán phân bón có nghĩa vụ sau đây:
+a) Duy trì đầy đủ các điều kiện buôn bán phân bón quy định tại Điều 42 của Luật này trong quá trình buôn bán phân bón;
+b) Bảo quản phân bón ở nơi khô ráo, không để lẫn với các loại hàng hóa khác làm ảnh hưởng đến chất lượng phân bón;
+c) Kiểm tra nguồn gốc phân bón, nhãn phân bón, dấu hợp chuẩn, dấu hợp quy và các tài liệu liên quan đến chất lượng phân bón;
+d) Chấp hành việc thanh tra, kiểm tra của cơ quan nhà nước có thẩm quyền;
+đ) Cung cấp chứng từ hợp pháp để truy xuất nguồn gốc phân bón;
+e) Bồi thường thiệt hại theo quy định của pháp luật;
+g) Hướng dẫn sử dụng phân bón theo đúng nội dung ghi trên nhãn phân bón;
+h) Chấp hành quy định của pháp luật về phòng cháy và chữa cháy, hóa chất, lao động, môi trường và quy định khác của pháp luật có liên quan.
+Điều 52. Quyền và nghĩa vụ của tổ chức khảo nghiệm phân bón
+1. Tổ chức khảo nghiệm phân bón có quyền sau đây:
+a) Tiến hành khảo nghiệm phân bón trên cơ sở hợp đồng với tổ chức, cá nhân đề nghị;
+b) Được thanh toán chi phí khảo nghiệm phân bón trên cơ sở hợp đồng với tổ chức, cá nhân đề nghị.
+2. Tổ chức khảo nghiệm phân bón có nghĩa vụ sau đây:
+a) Đáp ứng điều kiện quy định tại Điều 40 của Luật này;
+b) Thực hiện khảo nghiệm phân bón khách quan, chính xác;
+c) Tuân thủ đúng tiêu chuẩn, quy trình kỹ thuật và yêu cầu khảo nghiệm;
+d) Báo cáo kết quả khảo nghiệm và chịu trách nhiệm trước pháp luật về kết quả khảo nghiệm;
+đ) Lưu giữ nhật ký đồng ruộng, số liệu thô, đề cương khảo nghiệm, báo cáo kết quả khảo nghiệm trong thời gian là 05 năm kể từ ngày kết thúc khảo nghiệm;
+e) Chấp hành việc thanh tra, kiểm tra, giám sát hoạt động khảo nghiệm của cơ quan nhà nước có thẩm quyền;
+g) Bồi thường thiệt hại theo quy định của pháp luật;
+h) Gửi đề cương khảo nghiệm phân bón cho cơ quan quản lý nhà nước có thẩm quyền nơi khảo nghiệm trước khi tiến hành khảo nghiệm;
+i) Hằng năm, báo cáo kết quả hoạt động khảo nghiệm phân bón với Bộ Nông nghiệp và Phát triển nông thôn hoặc báo cáo đột xuất theo yêu cầu.
+Điều 53. Quyền và nghĩa vụ của người lấy mẫu phân bón
+1. Người lấy mẫu phân bón có quyền sau đây:
+a) Được cung cấp thông tin có liên quan đến hoạt động lấy mẫu phân bón;
+b) Được tập huấn về lấy mẫu phân bón.
+2. Người lấy mẫu phân bón có nghĩa vụ sau đây:
+a) Thực hiện lấy mẫu theo đúng tiêu chuẩn quốc gia về lấy mẫu phân bón, bảo đảm khách quan;
+b) Bảo mật thông tin, số liệu liên quan đến việc lấy mẫu, trừ trường hợp cơ quan quản lý nhà nước có thẩm quyền yêu cầu báo cáo;
+c) Chịu trách nhiệm trước pháp luật về hoạt động lấy mẫu phân bón.
+Điều 54. Quyền và nghĩa vụ của tổ chức, cá nhân sử dụng phân bón
+1. Tổ chức, cá nhân sử dụng phân bón có quyền sau đây:
+a) Được cung cấp thông tin và hướng dẫn sử dụng phân bón;
+b) Yêu cầu cơ sở mua bán phân bón hướng dẫn sử dụng phân bón theo đúng nội dung của nhãn phân bón;
+c) Được bồi thường thiệt hại theo quy định của pháp luật.
+2. Tổ chức, cá nhân sử dụng phân bón có nghĩa vụ sau đây:
+a) Sử dụng phân bón theo đúng hướng dẫn ghi trên nhãn;
+b) Sử dụng phân bón bảo đảm hiệu quả, an toàn cho người, vật nuôi, môi trường, an toàn thực phẩm theo nguyên tắc đúng loại đất, đúng loại cây, đúng liều lượng, đúng thời điểm, đúng cách.
+3. Bộ Nông nghiệp và Phát triển nông thôn xây dựng và phổ biến bộ tài liệu hướng dẫn sử dụng phân bón theo quy định tại điểm b khoản 2 Điều này.
+Chương IV
+CANH TÁC
+Mục 1. SỬ DỤNG TÀI NGUYÊN TRONG CANH TÁC
+Điều 55. Sử dụng và bảo vệ đất trong canh tác
+1. Cơ quan quản lý chuyên ngành về trồng trọt của địa phương, khi xác định cơ cấu cây trồng, phải căn cứ vào tính chất lý, hóa học của đất, đặc tính sinh học của cây trồng, trình độ phát triển của khoa học và công nghệ.
+2. Các vùng đất chuyên trồng lúa nước, trồng rau, trồng cây ăn quả lâu năm, cây công nghiệp lâu năm và cây cảnh được Ủy ban nhân dân cấp tỉnh quy hoạch sử dụng ổn định, phù hợp với định hướng phát triển kinh tế và định kỳ đánh giá chất lượng đất để có biện pháp cải tạo, sử dụng bền vững.
+Điều 56. Chuyển đổi cơ cấu cây trồng trên đất trồng lúa
+1. Việc chuyển đổi cơ cấu cây trồng trên đất trồng lúa được quy định như sau:
+a) Phù hợp với quy hoạch sử dụng đất của địa phương, nhu cầu thị trường, điều kiện nguồn nước và khí hậu;
+b) Hình thành vùng sản xuất tập trung theo từng cây trồng gắn với dồn điền, đổi thửa, liên kết sản xuất theo chuỗi;
+c) Bảo đảm khai thác hiệu quả cơ sở hạ tầng sẵn có; phù hợp với quy hoạch và định hướng hoàn thiện cơ sở hạ tầng phục vụ sản xuất nông nghiệp của địa phương;
+d) Không làm mất đi điều kiện cần thiết để trồng lúa trở lại.
+2. Chính phủ quy định chi tiết Điều này.
+Điều 57. Bảo vệ và sử dụng tầng đất mặt của đất chuyên trồng lúa nước
+1. Tầng đất mặt của đất chuyên trồng lúa nước chỉ được sử dụng vào mục đích nông nghiệp; được bảo vệ và sử dụng hiệu quả.
+2. Tổ chức, cá nhân xây dựng công trình trên đất được chuyển đổi từ đất chuyên trồng lúa nước phải có phương án sử dụng tầng đất mặt.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 58. Sử dụng nước tưới
+1. Cơ quan quản lý chuyên ngành về trồng trọt của địa phương có trách nhiệm xác định cơ cấu cây trồng, mùa vụ phù hợp với điều kiện nguồn nước.
+2. Tổ chức, cá nhân cung cấp dịch vụ thủy lợi phải bảo đảm chất lượng nước theo tiêu chuẩn, quy chuẩn kỹ thuật.
+3. Tổ chức, cá nhân có trách nhiệm sử dụng nguồn nước tưới hiệu quả; áp dụng biện pháp canh tác tiên tiến, tiết kiệm; tái sử dụng nước theo quy định của pháp luật về tài nguyên nước, thủy lợi và quy định khác của pháp luật có liên quan.
+Điều 59. Sử dụng sinh vật có ích
+1. Sinh vật có ích trong canh tác bao gồm các sinh vật có vai trò ổn định và cải tạo độ phì nhiêu của đất, tăng sức chống chịu và khả năng sinh trưởng của cây trồng, bảo quản, chế biến sản phẩm và phụ phẩm từ cây trồng, phòng trừ sinh vật gây hại cây trồng, thụ phấn cho cây trồng và mục đích có lợi khác.
+2. Tổ chức, cá nhân tham gia hoạt động canh tác phải thực hiện quy định của pháp luật về bảo vệ môi trường, đa dạng sinh học, bảo vệ và kiểm dịch thực vật; áp dụng quy trình sản xuất tiên tiến để bảo vệ và phát huy hiệu quả của sinh vật có ích.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn tổ chức điều tra, đánh giá nguồn sinh vật có ích để có biện pháp bảo vệ và khai thác phù hợp; ban hành Danh mục các loài, chủng sinh vật có ích sử dụng trong canh tác.
+Mục 2. SỬ DỤNG TRANG THIẾT BỊ VÀ VẬT TƯ NÔNG NGHIỆP TRONG CANH TÁC
+Điều 60. Trang thiết bị và vật tư nông nghiệp trong canh tác
+1. Trang thiết bị trong canh tác bao gồm nhà kính, nhà lưới, máy móc và dụng cụ phục vụ sản xuất, tưới tiêu, thu hoạch, sơ chế, bảo quản, chế biến.
+2. Vật tư nông nghiệp trong canh tác bao gồm:
+a) Giống cây trồng;
+b) Phân bón;
+c) Thuốc bảo vệ thực vật;
+d) Giá thể trồng cây, màng phủ đất, vật liệu giữ ẩm;
+đ) Hóa chất, chế phẩm sinh học sử dụng trong hoạt động trồng trọt không thuộc vật tư quy định tại điểm b và điểm c khoản này.
+3. Việc quản lý chất lượng trang thiết bị và vật tư nông nghiệp trong canh tác được thực hiện theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật, chất lượng, sản phẩm hàng hóa.
+Điều 61. Yêu cầu về sử dụng trang thiết bị và vật tư nông nghiệp trong canh tác
+1. Tổ chức, cá nhân hoạt động canh tác chỉ được sử dụng vật tư nông nghiệp trong canh tác được phép sử dụng, lưu hành theo quy định của pháp luật; tuân thủ hướng dẫn của cơ quan chuyên môn hoặc của tổ chức, cá nhân sản xuất vật tư nông nghiệp.
+2. Tổ chức, cá nhân sử dụng vật tư nông nghiệp trong canh tác phải đáp ứng yêu cầu về bảo vệ môi trường, sức khỏe cộng đồng, an toàn thực phẩm và hạn chế lan truyền sinh vật gây hại.
+3. Tổ chức, cá nhân sử dụng phân bón phải tuân thủ các nguyên tắc quy định tại điểm b khoản 2 Điều 54 của Luật này.
+4. Tổ chức, cá nhân sử dụng thuốc bảo vệ thực vật phải tuân thủ quy định của pháp luật về bảo vệ và kiểm dịch thực vật.
+Mục 3. PHÁT TRIỂN VÙNG SẢN XUẤT HÀNG HÓA TẬP TRUNG VÀ LIÊN KẾT SẢN XUẤT
+Điều 62. Phát triển vùng sản xuất hàng hóa tập trung
+1. Phát triển vùng sản xuất hàng hóa tập trung phải phù hợp với tính chất lý, hóa học của đất, khí hậu, nguồn nước, đặc tính sinh học của cây trồng, lợi thế vùng; bảo đảm xây dựng vùng nguyên liệu gắn với chế biến và thị trường.
+2. Ủy ban nhân dân cấp tỉnh có trách nhiệm lập kế hoạch, đề án phát triển vùng sản xuất hàng hóa tập trung phù hợp với quy hoạch.
+Điều 63. Hợp tác, liên kết sản xuất
+1. Phát triển các hình thức hợp tác, liên kết tại vùng sản xuất hàng hóa tập trung trên cơ sở hợp đồng; tạo điều kiện cấp chứng nhận chất lượng và truy xuất nguồn gốc; nâng cao hiệu quả sản xuất, kinh doanh, bảo đảm lợi ích hài hòa giữa các bên tham gia.
+2. Ủy ban nhân dân các cấp có trách nhiệm sau đây:
+a) Tạo điều kiện và hỗ trợ các bên tham gia đàm phán, ký kết, thực hiện cam kết trong hợp đồng hợp tác, liên kết sản xuất, tiêu thụ sản phẩm;
+b) Hỗ trợ xây dựng cơ sở hạ tầng, dịch vụ hậu cần và xúc tiến thương mại sản phẩm cho vùng sản xuất hàng hóa tập trung.
+Điều 64. Quản lý và cấp mã số vùng trồng
+1. Mã số vùng trồng là mã số định danh cho một vùng trồng trọt nhằm theo dõi và kiểm soát tình hình sản xuất; kiểm soát chất lượng sản phẩm; truy xuất nguồn gốc sản phẩm cây trồng.
+2. Nhà nước khuyến khích, tạo điều kiện và có chính sách ưu tiên hỗ trợ cho tổ chức, cá nhân đăng ký cấp mã số vùng trồng.
+3. Bộ Nông nghiệp và Phát triển nông thôn xây dựng lộ trình và hướng dẫn cấp mã số vùng trồng trên phạm vi toàn quốc.
+4. Ủy ban nhân dân cấp tỉnh tổ chức triển khai cấp mã số vùng trồng trên địa bàn theo lộ trình và hướng dẫn của Bộ Nông nghiệp và Phát triển nông thôn.
+Mục 4. QUY TRÌNH SẢN XUẤT, ỨNG DỤNG CÔNG NGHỆ CAO VÀ CƠ GIỚI HÓA TRONG CANH TÁC
+Điều 65. Quy trình sản xuất
+1. Quy trình sản xuất được ban hành cho mỗi loài cây trồng.
+2. Quy trình sản xuất được xây dựng trên cơ sở kết quả nghiên cứu, tiến bộ kỹ thuật và tổng kết thực tiễn trong canh tác; được sửa đổi, bổ sung khi có tiến bộ kỹ thuật mới, phù hợp với thực tiễn sản xuất, trình độ phát triển của khoa học và công nghệ, năng lực của người sử dụng.
+Điều 66. Ứng dụng công nghệ cao trong canh tác
+1. Công nghệ cao được ưu tiên và khuyến khích ứng dụng trong canh tác bao gồm:
+a) Công nghệ sinh học trong di truyền chọn, tạo giống cây trồng; chẩn đoán, giám định sinh vật gây hại cây trồng; phát triển sản phẩm trong sinh học và vật liệu mới;
+b) Công nghệ tưới nước tiết kiệm, canh tác không sử dụng đất;
+c) Công nghệ sản xuất trong điều kiện nhà kính, nhà lưới;
+d) Công nghệ thông tin ứng dụng trong dự tính, dự báo về sinh vật gây hại; cấp mã số và quản lý vùng trồng;
+đ) Kỹ thuật nông nghiệp chính xác ứng dụng trong khoa học đất và dinh dưỡng cây trồng; điều khiển tự động chế độ bón phân, nước tưới; công nghệ bán tự động và tự động trong dây chuyền sản xuất; phân tích chất lượng môi trường sản xuất và chất lượng sản phẩm cây trồng.
+2. Ưu tiên ứng dụng công nghệ cao quy định tại điểm b và điểm c khoản 1 Điều này trên vùng canh tác khó khăn, đất cát ven biển, đất có nguy cơ sa mạc hóa, hoang mạc hóa.
+3. Công nghệ cao quy định tại điểm c khoản 1 Điều này được xây dựng với mật độ phù hợp, giảm hiệu ứng khí nhà kính.
+Điều 67. Cơ giới hóa trong canh tác
+1. Cơ giới hóa trong canh tác phải hướng tới đồng bộ, từng bước hiện đại.
+2. Việc đầu tư, cải tạo cơ sở hạ tầng trên đồng ruộng phải bảo đảm điều kiện để thực hiện cơ giới hóa.
+3. Tổ chức, cá nhân khi lập kế hoạch sản xuất, xác định cơ cấu cây trồng, thời vụ phải bảo đảm điều kiện để thực hiện cơ giới hóa.
+4. Thiết bị, máy móc sử dụng trong canh tác phải được lựa chọn phù hợp với điều kiện thực tế đồng ruộng, quy mô, tính chất và trình độ canh tác.
+Mục 5. CANH TÁC HỮU CƠ
+Điều 68. Phát triển và bảo vệ vùng canh tác hữu cơ
+1. Vùng canh tác hữu cơ phải được phát triển, bảo vệ và xây dựng kết cấu hạ tầng phù hợp, bảo đảm không bị ô nhiễm hóa chất từ bên ngoài.
+2. Ủy ban nhân dân cấp tỉnh xác định và thông báo rộng rãi các vùng canh tác hữu cơ; ban hành quy định về canh tác trên vùng canh tác hữu cơ trong phạm vi quản lý.
+Điều 69. Yêu cầu đối với canh tác hữu cơ
+1. Tổ chức, cá nhân canh tác hữu cơ phải đáp ứng tiêu chuẩn quốc gia về nông nghiệp hữu cơ. Trường hợp xuất khẩu sản phẩm cây trồng hữu cơ thì áp dụng theo yêu cầu của nước nhập khẩu.
+2. Giống cây trồng, phân bón, thuốc bảo vệ thực vật và vật tư khác sử dụng trong canh tác hữu cơ phải đáp ứng tiêu chuẩn nông nghiệp hữu cơ và quy chuẩn kỹ thuật liên quan hoặc được sản xuất từ nguyên liệu và phương pháp phù hợp tiêu chuẩn nông nghiệp hữu cơ.
+3. Không sử dụng hóa chất tổng hợp, chất kích thích sinh trưởng cây trồng, thực vật biến đổi gen trong quá trình sản xuất, thu hoạch, sơ chế, bảo quản, chế biến.
+4. Việc ghi nhãn sản phẩm cây trồng hữu cơ được thực hiện theo quy định của pháp luật về thương mại và quy định khác của pháp luật có liên quan.
+5. Chính phủ quy định chi tiết về canh tác hữu cơ.
+Mục 6. CANH TÁC THÍCH ỨNG VỚI BIẾN ĐỔI KHÍ HẬU VÀ BẢO VỆ MÔI TRƯỜNG
+Điều 70. Canh tác thích ứng với biến đổi khí hậu
+1. Áp dụng giải pháp phù hợp trong canh tác để thích ứng với biến đổi khí hậu và giảm phát thải khí nhà kính.
+2. Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm sau đây:
+a) Xác định giải pháp phù hợp để thích ứng với biến đổi khí hậu và giảm phát thải khí nhà kính trong canh tác;
+b) Lồng ghép các giải pháp thích ứng với biến đổi khí hậu và giảm phát thải khí nhà kính khi xây dựng và thực hiện chiến lược, chương trình, đề án, dự án phát triển trồng trọt.
+3. Ủy ban nhân dân cấp tỉnh tổ chức đánh giá tác động của biến đổi khí hậu, hướng dẫn tổ chức, cá nhân áp dụng biện pháp thích ứng với biến đổi khí hậu và giảm phát thải khí nhà kính trong trồng trọt tại địa bàn.
+4. Khuyến khích tổ chức, cá nhân canh tác áp dụng các biện pháp thích ứng với biến đổi khí hậu và giảm phát thải khí nhà kính.
+Điều 71. Canh tác trên vùng đất dốc, đất trũng, đất phèn, đất mặn, đất cát ven biển, đất có nguy cơ sa mạc hóa, hoang mạc hóa
+1. Việc canh tác trên vùng đất dốc, đất trũng, đất phèn, đất mặn, đất cát ven biển và đất có nguy cơ sa mạc hóa, hoang mạc hóa tuân thủ quy trình sản xuất để chống xói mòn, sạt lở, bồi lấp và suy thoái đất, bảo đảm phát triển bền vững.
+2. Tổ chức, cá nhân canh tác tại các vùng quy định tại khoản 1 Điều này được hưởng chính sách quy định tại Điều 4 của Luật này và chính sách khác theo quy định của pháp luật có liên quan.
+3. Bộ Nông nghiệp và Phát triển nông thôn ban hành tiêu chí xác định, biện pháp quản lý và quy trình sản xuất trên vùng đất dốc, đất trũng, đất phèn, đất mặn, đất cát ven biển và đất có nguy cơ sa mạc hóa, hoang mạc hóa.
+4. Ủy ban nhân dân cấp tỉnh xác định, công bố vùng và hướng dẫn áp dụng quy trình sản xuất trên vùng đất dốc, đất trũng, đất phèn, đất mặn, đất cát ven biển và đất có nguy cơ sa mạc hóa, hoang mạc hóa.
+Điều 72. Bảo vệ môi trường trong canh tác
+1. Tổ chức, cá nhân canh tác phải bảo đảm yêu cầu sau đây:
+a) Tuân thủ pháp luật về bảo vệ môi trường và quy định khác của pháp luật có liên quan;
+b) Tuân thủ hướng dẫn của cơ quan chuyên môn khi sử dụng vật tư nông nghiệp trong canh tác có nguy cơ gây ô nhiễm môi trường;
+c) Thu gom, xử lý, sử dụng phụ phẩm cây trồng theo quy định tại Điều 76 của Luật này.
+2. Tổ chức, cá nhân kịp thời thông báo cho Ủy ban nhân dân cấp xã khi phát hiện dấu hiệu bất thường về ô nhiễm môi trường có nguy cơ ảnh hưởng đến hoạt động canh tác.
+Mục 7. QUYỀN VÀ NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN CANH TÁC
+Điều 73. Quyền của tổ chức, cá nhân canh tác
+1. Tự tổ chức sản xuất hoặc liên kết sản xuất với tổ chức, cá nhân khác.
+2. Được hưởng chính sách của Nhà nước quy định tại Điều 4 của Luật này và chính sách khác theo quy định của pháp luật có liên quan.
+3. Được hỗ trợ để khôi phục sản xuất trong trường hợp bị thiệt hại do thiên tai, dịch bệnh theo quy định của Chính phủ.
+4. Được cung cấp, chia sẻ thông tin về chính sách, pháp luật, tiến bộ kỹ thuật, công nghệ, thị trường sản phẩm cây trồng; đào tạo, tập huấn về hoạt động trồng trọt.
+5. Được đăng ký cấp mã số vùng trồng.
+6. Được thông báo, cảnh báo về tình hình khí hậu, môi trường, dịch bệnh và thiên tai.
+7. Tham gia bảo hiểm nông nghiệp theo quy định của Chính phủ.
+Điều 74. Nghĩa vụ của tổ chức, cá nhân canh tác
+1. Chịu trách nhiệm về chất lượng, an toàn thực phẩm của sản phẩm cây trồng do mình sản xuất; bồi thường thiệt hại theo quy định của pháp luật.
+2. Sử dụng đúng mục đích, tiết kiệm, hiệu quả, bền vững tài nguyên đất, tài nguyên nước, sinh vật có ích, cơ sở hạ tầng. Sử dụng vật tư nông nghiệp trong canh tác được phép lưu hành theo hướng dẫn của cơ quan chuyên môn hoặc tổ chức, cá nhân sản xuất vật tư nông nghiệp.
+3. Áp dụng quy trình sản xuất phù hợp để ổn định và cải thiện độ phì của đất; hạn chế ô nhiễm và suy thoái đất, lan truyền sinh vật gây hại.
+4. Chủ động ngăn ngừa và xử lý ô nhiễm môi trường, phòng chống sinh vật gây hại theo quy định của pháp luật về bảo vệ môi trường, bảo vệ và kiểm dịch thực vật. Kịp thời thông báo cho Ủy ban nhân dân cấp xã khi xảy ra ô nhiễm môi trường, bùng phát dịch hại.
+5. Chuyển đổi cơ cấu cây trồng phù hợp với kế hoạch chuyển đổi cơ cấu cây trồng của địa phương.
+6. Thực hiện đầy đủ các cam kết trong hợp đồng.
+Chương V
+THU HOẠCH, SƠ CHẾ, BẢO QUẢN, CHẾ BIẾN, THƯƠNG MẠI VÀ QUẢN LÝ CHẤT LƯỢNG SẢN PHẨM CÂY TRỒNG
+Điều 75. Thu hoạch, sơ chế, bảo quản, chế biến sản phẩm cây trồng
+1. Tổ chức, cá nhân thu hoạch, sơ chế, bảo quản, chế biến sản phẩm cây trồng phải thực hiện theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+2. Việc thu hoạch sản phẩm cây trồng phải hạn chế thất thoát, bảo đảm chất lượng, hiệu quả kinh tế.
+3. Sản phẩm cây trồng là nguyên liệu đầu vào của cơ sở sơ chế, chế biến phải có nguồn gốc xuất xứ, bảo đảm chất lượng, an toàn.
+4. Cơ sở thu mua, lưu giữ, chế biến phải áp dụng biện pháp kỹ thuật phù hợp để bảo quản sản phẩm cây trồng bảo đảm chất lượng, an toàn.
+5. Khuyến khích hình thành cơ sở bảo quản, chế biến sản phẩm cây trồng gắn với vùng sản xuất nguyên liệu.
+Điều 76. Thu gom, xử lý, sử dụng phụ phẩm cây trồng
+1. Phụ phẩm cây trồng phải được thu gom, xử lý, sử dụng phù hợp, không gây ô nhiễm môi trường và lan truyền sinh vật gây hại.
+2. Khuyến khích sử dụng phụ phẩm cây trồng làm nguyên liệu để sản xuất sản phẩm, hàng hóa.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết việc thu gom, xử lý, sử dụng phụ phẩm cây trồng quy định tại khoản 1 Điều này.
+Điều 77. Phát triển thị trường và thương mại sản phẩm cây trồng
+1. Phát triển thị trường và thương mại sản phẩm cây trồng thực hiện theo quy định của pháp luật về thương mại, quản lý ngoại thương và quy định tại khoản 2 và khoản 3 Điều này.
+2. Phát triển thị trường sản phẩm cây trồng bao gồm:
+a) Dự báo thị trường và định hướng phát triển sản phẩm cây trồng trong từng thời kỳ;
+b) Đàm phán và thực hiện mở cửa thị trường; tháo gỡ rào cản để sản phẩm cây trồng của Việt Nam được nhập khẩu vào các quốc gia và vùng lãnh thổ;
+c) Xây dựng chợ đầu mối; xúc tiến thương mại và xây dựng thương hiệu sản phẩm cây trồng.
+3. Tổ chức, cá nhân tham gia phát triển thị trường tiêu thụ sản phẩm cây trồng; xây dựng chuỗi liên kết từ sản xuất đến tiêu thụ sản phẩm; xây dựng vùng nguyên liệu phục vụ chế biến, thương mại trong nước và xuất khẩu được hưởng chính sách quy định tại Điều 4 của Luật này và chính sách khác theo quy định của pháp luật có liên quan.
+Điều 78. Xuất khẩu, nhập khẩu sản phẩm cây trồng
+1. Tổ chức, cá nhân nhập khẩu sản phẩm cây trồng phải có tài liệu truy xuất nguồn gốc, đáp ứng yêu cầu về chất lượng, an toàn thực phẩm, an toàn dịch bệnh theo quy định của pháp luật Việt Nam.
+2. Tổ chức, cá nhân xuất khẩu sản phẩm cây trồng thực hiện theo yêu cầu của nước nhập khẩu.
+Điều 79. Phát triển chợ đầu mối sản phẩm cây trồng
+1. Chợ đầu mối sản phẩm cây trồng được bố trí ở vùng sản xuất hàng hóa tập trung hoặc nơi tiêu thụ sản phẩm cây trồng với khối lượng lớn.
+2. Phát triển chợ đầu mối sản phẩm cây trồng phải phù hợp với quy hoạch.
+Điều 80. Quyền và nghĩa vụ của tổ chức, cá nhân thu hoạch, sơ chế, bảo quản, chế biến và thương mại sản phẩm cây trồng
+1. Tổ chức, cá nhân thu hoạch, sơ chế, bảo quản, chế biến và thương mại sản phẩm cây trồng có quyền sau đây:
+a) Được hỗ trợ liên kết chuỗi sản xuất, chế biến, thương mại sản phẩm cây trồng;
+b) Được hưởng chính sách quy định tại Điều 4 của Luật này và chính sách khác theo quy định của pháp luật có liên quan.
+2. Tổ chức, cá nhân bảo quản, chế biến và thương mại sản phẩm cây trồng có nghĩa vụ sau đây:
+a) Tuân thủ quy định của Luật này và quy định khác của pháp luật có liên quan;
+b) Chấp hành việc thanh tra, kiểm tra của cơ quan nhà nước có thẩm quyền.
+Điều 81. Quản lý chất lượng sản phẩm cây trồng
+1. Sản phẩm cây trồng được quản lý chất lượng theo quy định của pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật, chất lượng sản phẩm, hàng hóa.
+2. Sản phẩm cây trồng biến đổi gen sử dụng làm thực phẩm phải được ghi nhãn theo quy định của pháp luật về an toàn thực phẩm và quy định khác của pháp luật có liên quan.
+Chương VI
+QUẢN LÝ NHÀ NƯỚC VỀ HOẠT ĐỘNG TRỒNG TRỌT
+Điều 82. Trách nhiệm của Chính phủ, Bộ, cơ quan ngang Bộ
+1. Chính phủ thống nhất quản lý nhà nước về hoạt động trồng trọt trong phạm vi cả nước.
+2. Bộ Nông nghiệp và Phát triển nông thôn là cơ quan đầu mối giúp Chính phủ thực hiện quản lý nhà nước về hoạt động trồng trọt trong phạm vi cả nước và có trách nhiệm sau đây:
+a) Xây dựng chiến lược, đề án, kế hoạch; chỉ đạo hướng dẫn thực hiện hoạt động trồng trọt;
+b) Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành và tổ chức thực hiện chính sách, văn bản quy phạm pháp luật, tiêu chuẩn, quy chuẩn kỹ thuật, quy trình sản xuất trong hoạt động trồng trọt;
+c) Tổ chức thực hiện việc cấp, cấp lại, gia hạn, đình chỉ, phục hồi, thu hồi, hủy bỏ quyết định, giấy phép, giấy chứng nhận trong hoạt động trồng trọt theo thẩm quyền và đăng tải trên Cổng thông tin điện tử của Bộ;
+d) Xây dựng hệ thống cơ sở dữ liệu, thông tin; thực hiện thống kê, báo cáo về hoạt động trồng trọt;
+đ) Tổ chức nghiên cứu, ứng dụng khoa học và công nghệ; điều tra cơ bản, thu thập, quản lý các thông tin, tư liệu và hợp tác quốc tế trong hoạt động trồng trọt;
+e) Đào tạo, bồi dưỡng kiến thức chuyên môn, nghiệp vụ; tuyên truyền, phổ biến, giáo dục pháp luật về hoạt động trồng trọt;
+g) Thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật trong hoạt động trồng trọt.
+3. Các Bộ, cơ quan ngang Bộ, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm phối hợp với Bộ Nông nghiệp và Phát triển nông thôn thực hiện nhiệm vụ quản lý nhà nước về hoạt động trồng trọt.
+Điều 83. Trách nhiệm của Ủy ban nhân dân các cấp
+1. Ủy ban nhân dân cấp tỉnh, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cấp có thẩm quyền ban hành văn bản hướng dẫn tổ chức thi hành pháp luật về hoạt động trồng trọt trên địa bàn;
+b) Ban hành kế hoạch chuyển đổi cơ cấu cây trồng phù hợp với địa phương;
+c) Chỉ đạo, tổ chức quản lý hoạt động trồng trọt trên địa bàn; hướng dẫn, ban hành quy trình sản xuất phù hợp với điều kiện của địa phương; tổ chức sản xuất trồng trọt;
+d) Tổ chức tuyên truyền, phổ biến, giáo dục pháp luật, tập huấn kiến thức về hoạt động trồng trọt; xây dựng cơ sở dữ liệu về hoạt động trồng trọt trên địa bàn và cập nhật hệ thống cơ sở dữ liệu quốc gia về trồng trọt;
+đ) Tổ chức thực hiện việc cấp, cấp lại, gia hạn, đình chỉ, phục hồi, thu hồi, hủy bỏ quyết định, giấy phép, giấy chứng nhận trong hoạt động trồng trọt theo thẩm quyền và đăng tải trên Cổng thông tin điện tử của Ủy ban nhân dân cấp tỉnh;
+e) Chỉ đạo xây dựng kế hoạch, tổ chức thanh tra, kiểm tra, giải quyết khiếu nại, tố cáo, xử lý vi phạm pháp luật về hoạt động trồng trọt theo thẩm quyền.
+2. Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
+a) Thực hiện nội dung, biện pháp quản lý trong hoạt động trồng trọt trên địa bàn theo quy định của pháp luật;
+b) Thực hiện nhiệm vụ quản lý nhà nước về hoạt động trồng trọt theo phân cấp hoặc ủy quyền;
+c) Tổ chức, thực hiện tuyên truyền, phổ biến, giáo dục pháp luật về hoạt động trồng trọt trên địa bàn.
+Chương VII
+ĐIỀU KHOẢN THI HÀNH
+Điều 84. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2020.
+2. Pháp lệnh Giống cây trồng số 15/2004/PL-UBTVQH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+Điều 85. Quy định chuyển tiếp
+1. Quyết định công nhận giống cây trồng mới được cấp theo quy định của Pháp lệnh Giống cây trồng số 15/2004/PL-UBTVQH11 được tiếp tục sử dụng trong thời hạn 10 năm đối với giống cây trồng hằng năm, 20 năm đối với giống cây trồng lâu năm tính từ ngày được cấp quyết định và được gia hạn theo quy định của Luật này.
+Trường hợp thời gian còn lại của Quyết định công nhận giống cây trồng mới không đủ 03 năm hoặc quá thời hạn 10 năm đối với giống cây trồng hằng năm, quá 20 năm đối với giống cây trồng lâu năm tính đến ngày Luật này có hiệu lực thi hành thì được tiếp tục sử dụng trong thời hạn 03 năm kể từ ngày Luật này có hiệu lực thi hành.
+2. Quyết định công nhận cây đầu dòng, Quyết định công nhận vườn cây đầu dòng được cấp theo quy định của Pháp lệnh Giống cây trồng số 15/2004/PL-UBTVQH11 được tiếp tục sử dụng theo quy định của Luật này và không phải gia hạn.
+3. Quyết định công nhận phân bón lưu hành tại Việt Nam, Giấy phép sản xuất phân bón, Giấy chứng nhận đủ điều kiện sản xuất phân bón đã được cấp trước ngày Luật này có hiệu lực thì tiếp tục được sử dụng cho đến khi hết thời hạn và được gia hạn, cấp lại theo quy định của Luật này.
+Giấy chứng nhận đủ điều kiện buôn bán phân bón đã được cấp trước ngày Luật này có hiệu lực thi hành có giá trị tương đương với Giấy chứng nhận đủ điều kiện buôn bán phân bón theo quy định của Luật này.
+4. Quy chuẩn kỹ thuật quốc gia, tiêu chuẩn quốc gia trong hoạt động trồng trọt đã được ban hành trước ngày Luật này có hiệu lực thi hành thì tiếp tục được áp dụng cho đến khi bị bãi bỏ hoặc thay thế.
+5. Kết quả khảo nghiệm cơ bản về giống cây trồng được thực hiện trước ngày Luật này có hiệu lực thi hành có giá trị tương đương kết quả khảo nghiệm diện hẹp theo quy định của Luật này.
+6. Kết quả khảo nghiệm sản xuất về giống cây trồng được thực hiện trước ngày Luật này có hiệu lực thi hành có giá trị tương đương kết quả khảo nghiệm diện rộng theo quy định của Luật này.
+7. Kết quả khảo nghiệm phân bón thực hiện, trước ngày Luật này có hiệu lực thi hành được tiếp tục sử dụng theo quy định của Luật này.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 6 thông qua ngày 19 tháng 11 năm 2018.
+ 
+ 
+CHỦ TỊCH QUỐC HỘI
+
+
+
+   Nguyễn Thị Kim Ngân
+ 

@@ -2,9 +2,64 @@
 History
 ================================================================================
 
-1.4.0-alpha (2022-11-03)
+6.1.3 (2023-02-25)
 --------------------------------------------------------------------------------
 
+* Bump django from 4.1.6 to 4.1.7 in /apps/languages/backend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/652
+* Bump django from 3.2.17 to 3.2.18 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/651
+* GH-502: Training example for word segmentation by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/654
+* Add two new datasets UTS_Text and UTS_WTK
+
+6.1.2 (2023-02-15)
+--------------------------------------------------------------------------------
+
+* GH-648: Add option fixed_words to tokenize and word_tokenize api by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/649
+
+6.1.1 (2023-02-10)
+--------------------------------------------------------------------------------
+
+* GH-641: Correct the error with the filename of the dataset in Windows by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/644
+* Bump django from 3.2.16 to 3.2.17 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/640
+* Bump django from 4.1.4 to 4.1.6 in /apps/languages/backend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/639
+* Bump ua-parser-js from 0.7.28 to 0.7.33 in /apps/directory/components/json_viewer/component/frontend by @dependabot in https://github.com/undertheseanlp/underthesea/pull/636
+* Bump future from 0.16.0 to 0.18.3 in /apps/service by @dependabot in https://github.com/undertheseanlp/underthesea/pull/645
+
+6.1.0 (2023-02-08)
+--------------------------------------------------------------------------------
+
+* GH-641: fix issue filename of dataset is not correct by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/642
+
+6.0.3 (2023-01-25)
+--------------------------------------------------------------------------------
+
+* GH-622: Initialize Dictionary page feature by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/633
+* GH-622: Add dictionary page by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/634
+
+6.0.2 (2023-01-17)
+--------------------------------------------------------------------------------
+
+* GH-628: Create unittest for django API by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/629
+* GH-607: add test frontend with jest by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/630
+
+**Full Changelog**: https://github.com/undertheseanlp/underthesea/compare/v6.0.1...v6.0.2
+
+6.0.1 (2023-01-08)
+--------------------------------------------------------------------------------
+
+* GH-607: add Articles UI by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/620
+* GH-621: Corpus CP_Vietnamese_VLC_v2_2022 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/624
+
+6.0.0 (2023-01-01)
+--------------------------------------------------------------------------------
+
+* Happy New Year 2023! Let's bump up the version! (GH-616)
+
+1.4.1 (2022-12-17)
+--------------------------------------------------------------------------------
+
+* Create underthesea app (GH-607)
+* Add viet2ipa module (GH-437)
+* Training NER model with VLSP2016 dataset using BERT (GH-437)
 * Remove unidecode as a dependency (GH-569)
 
 1.3.5 (2022-10-31)

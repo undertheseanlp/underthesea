@@ -11,7 +11,8 @@ class TaggedTransformer:
         token_syntax = template
         matched = re.match(
             "T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?",
-            template)
+            template,
+        )
         column = matched.group("column")
         column = int(column) if column else 0
         index1 = int(matched.group("index1"))
@@ -58,6 +59,13 @@ class TaggedTransformer:
         return features
 
     def transform(self, sentences, contain_labels=False):
+        X = [self.word2features(sentence) for sentence in sentences]
+        if contain_labels:
+            y = [self.sentence2labels(s) for s in sentences]
+            return X, y
+        return X
+
+    def process(self, sentences, contain_labels=False):
         X = [self.word2features(sentence) for sentence in sentences]
         if contain_labels:
             y = [self.sentence2labels(s) for s in sentences]

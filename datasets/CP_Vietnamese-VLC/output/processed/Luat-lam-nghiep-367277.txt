@@ -1,0 +1,960 @@
+QUỐC HỘI -------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ---------------
+Luật số: 16/2017/QH14
+Hà Nội, ngày 15 tháng 11 năm 2017
+LUẬT
+LÂM NGHIỆP
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Lâm nghiệp.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về quản lý, bảo vệ, phát triển, sử dụng rừng; chế biến và thương mại lâm sản.
+Điều 2. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Lâm nghiệp là ngành kinh tế - kỹ thuật bao gồm quản lý, bảo vệ, phát triển, sử dụng rừng; chế biến và thương mại lâm sản.
+2. Hoạt động lâm nghiệp bao gồm một hoặc nhiều hoạt động quản lý, bảo vệ, phát triển, sử dụng rừng; chế biến và thương mại lâm sản.
+3. Rừng là một hệ sinh thái bao gồm các loài thực vật rừng, động vật rừng, nấm, vi sinh vật, đất rừng và các yếu tố môi trường khác, trong đó thành phần chính là một hoặc một số loài cây thân gỗ, tre, nứa, cây họ cau có chiều cao được xác định theo hệ thực vật trên núi đất, núi đá, đất ngập nước, đất cát hoặc hệ thực vật đặc trưng khác; diện tích liên vùng từ 0,3 ha trở lên; độ tàn che từ 0,1 trở lên.
+4. Độ tàn che là mức độ che kín của tán cây rừng theo phương thẳng đứng trên một đơn vị diện tích rừng được biểu thị bằng tỷ lệ phần mười.
+5. Tỷ lệ che phủ rừng là tỷ lệ phần trăm giữa diện tích rừng so với tổng diện tích đất tự nhiên trên một phạm vi địa lý nhất định.
+6. Rừng tự nhiên là rừng có sẵn trong tự nhiên hoặc phục hồi bằng tái sinh tự nhiên hoặc tái sinh có trồng bổ sung.
+7. Rừng trồng là rừng được hình thành do con người trồng mới trên đất chưa có rừng; cải tạo rừng tự nhiên; trồng lại hoặc tái sinh sau khai thác rừng trồng.
+8. Rừng tín ngưỡng là rừng gắn với niềm tin, phong tục, tập quán của cộng đồng dân cư sống dựa vào rừng.
+9. Chủ rừng là tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư được Nhà nước giao rừng, cho thuê rừng; giao đất, cho thuê đất để trồng rừng; tự phục hồi, phát triển rừng; nhận chuyển nhượng, tặng cho, thừa kế rừng theo quy định của pháp luật.
+10. Quyền sở hữu rừng sản xuất là rừng trồng bao gồm quyền chiếm hữu, quyền sử dụng, quyền định đoạt của chủ rừng đối với cây trồng, vật nuôi và tài sản khác gắn liền với rừng do chủ rừng đầu tư trong thời hạn được giao, được thuê để trồng rừng.
+11. Quyền sử dụng rừng là quyền của chủ rừng được khai thác công dụng, hưởng hoa lợi, lợi tức từ rừng.
+12. Giá trị rừng là tổng giá trị các yếu tố cấu thành hệ sinh thái rừng và các giá trị môi trường rừng tại một thời điểm, trên một diện tích rừng xác định.
+13. Giá trị quyền sử dụng rừng là tổng giá trị tính bằng tiền của quyền sử dụng rừng tại một thời điểm, trên một diện tích rừng xác định.
+14. Loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm là loài thực vật rừng, động vật rừng có giá trị đặc biệt về kinh tế, khoa học, y tế, sinh thái, cảnh quan và môi trường, số lượng còn ít trong tự nhiên hoặc có nguy cơ bị tuyệt chủng.
+15. Mẫu vật các loài thực vật rừng, động vật rừng là thực vật rừng, động vật rừng còn sống hoặc đã chết, trứng, ấu trùng, bộ phận, dẫn xuất của chúng.
+16. Lâm sản là sản phẩm khai thác từ rừng bao gồm thực vật rừng, động vật rừng và các sinh vật rừng khác gồm cả gỗ, lâm sản ngoài gỗ, sản phẩm gỗ, song, mây, tre, nứa đã chế biến.
+17. Hồ sơ lâm sản là tài liệu về lâm sản được lưu giữ tại cơ sở sản xuất, kinh doanh lâm sản và lưu hành cùng với lâm sản trong quá trình khai thác, mua bán, xuất khẩu, nhập khẩu, vận chuyển, chế biến, cất giữ.
+18. Gỗ hợp pháp là gỗ, sản phẩm gỗ được khai thác, mua bán, sản xuất phù hợp với quy định của pháp luật Việt Nam.
+19. Quản lý rừng bền vững là phương thức quản trị rừng bảo đảm đạt được các mục tiêu bảo vệ và phát triển rừng, không làm suy giảm các giá trị và nâng cao giá trị rừng, cải thiện sinh kế, bảo vệ môi trường, góp phần giữ vững quốc phòng, an ninh.
+20. Chứng chỉ quản lý rừng bền vững là văn bản công nhận một diện tích rừng nhất định đáp ứng các tiêu chí về quản lý rừng bền vững.
+21. Nhà nước cho thuê rừng là việc Nhà nước quyết định trao quyền sử dụng rừng cho tổ chức, hộ gia đình, cá nhân có nhu cầu sử dụng rừng thông qua hợp đồng cho thuê rừng.
+22. Thuê môi trường rừng là việc tổ chức, cá nhân thỏa thuận với chủ rừng để được sử dụng môi trường rừng trong một thời gian nhất định thông qua hợp đồng cho thuê môi trường rừng theo quy định của pháp luật.
+23. Dịch vụ môi trường rừng là hoạt động cung ứng các giá trị sử dụng của môi trường rừng.
+24. Cộng đồng dân cư bao gồm cộng đồng người Việt Nam sinh sống trên cùng địa bàn thôn, làng, ấp, bản, buôn, bon, phum, sóc, tổ dân phố, điểm dân cư tương tự và có cùng phong tục, tập quán.
+25. Vùng đệm là vùng rừng, vùng đất, vùng mặt nước nằm sát ranh giới của khu rừng đặc dụng có tác dụng ngăn chặn, giảm nhẹ sự tác động tiêu cực đến khu rừng đặc dụng.
+26. Phân khu bảo vệ nghiêm ngặt của rừng đặc dụng là khu vực được bảo toàn nguyên vẹn của vườn quốc gia, khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh.
+27. Phân khu phục hồi sinh thái của rừng đặc dụng là khu vực được quản lý, bảo vệ chặt chẽ để rừng phục hồi hệ sinh thái tự nhiên của vườn quốc gia, khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh.
+28. Phân khu dịch vụ, hành chính của rừng đặc dụng là khu vực hoạt động thường xuyên của ban quản lý rừng đặc dụng, cơ sở nghiên cứu, thí nghiệm, dịch vụ du lịch, nghỉ dưỡng, giải trí kết hợp với xây dựng công trình quản lý dịch vụ của vườn quốc gia, khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh.
+29. Đóng cửa rừng tự nhiên là dừng khai thác gỗ rừng tự nhiên trong một thời gian nhất định bằng quyết định của cơ quan nhà nước có thẩm quyền.
+30. Mở cửa rừng tự nhiên là cho phép khai thác gỗ rừng tự nhiên trở lại bằng quyết định của cơ quan nhà nước có thẩm quyền.
+31. Suy thoái rừng là sự suy giảm về hệ sinh thái rừng, làm giảm chức năng của rừng.
+Điều 3. Nguyên tắc hoạt động lâm nghiệp
+1. Rừng được quản lý bền vững về diện tích và chất lượng, bảo đảm hài hòa các mục tiêu phát triển kinh tế - xã hội, quốc phòng, an ninh, bảo tồn đa dạng sinh học, nâng cao tỷ lệ che phủ rừng, giá trị dịch vụ môi trường rừng và ứng phó với biến đổi khí hậu.
+2. Xã hội hóa hoạt động lâm nghiệp; bảo đảm hài hòa giữa lợi ích của Nhà nước với lợi ích của chủ rừng, tổ chức, cá nhân hoạt động lâm nghiệp.
+3. Bảo đảm tổ chức liên kết theo chuỗi từ bảo vệ rừng, phát triển rừng, sử dụng rừng đến chế biến và thương mại lâm sản để nâng cao giá trị rừng.
+4. Bảo đảm công khai, minh bạch, sự tham gia của tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư liên quan trong hoạt động lâm nghiệp.
+5. Tuân thủ điều ước quốc tế liên quan đến lâm nghiệp mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên; trường hợp điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên có quy định khác với quy định của Luật này hoặc văn bản quy phạm pháp luật Việt Nam chưa có quy định thì thực hiện theo quy định của điều ước quốc tế đó.
+Điều 4. Chính sách của Nhà nước về lâm nghiệp
+1. Nhà nước có chính sách đầu tư và huy động nguồn lực xã hội cho hoạt động lâm nghiệp gắn liền, đồng bộ với chính sách phát triển kinh tế - xã hội, quốc phòng, an ninh.
+2. Nhà nước bảo đảm nguồn lực cho hoạt động quản lý, bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ.
+3. Nhà nước bảo vệ quyền và lợi ích hợp pháp của tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư hoạt động lâm nghiệp.
+4. Nhà nước tổ chức, hỗ trợ quản lý, bảo vệ và phát triển rừng sản xuất; giống cây trồng lâm nghiệp, phục hồi rừng, trồng rừng mới; nghiên cứu, ứng dụng khoa học, công nghệ cao, công nghệ tiên tiến, công nghệ mới; đào tạo nguồn nhân lực; thực hiện dịch vụ môi trường rừng; trồng rừng gỗ lớn, chuyển hóa rừng trồng gỗ nhỏ sang rừng trồng gỗ lớn; kết cấu hạ tầng; quản lý rừng bền vững; chế biến và thương mại lâm sản; hợp tác quốc tế về lâm nghiệp.
+5. Nhà nước khuyến khích sản xuất lâm, nông, ngư nghiệp kết hợp; sản xuất lâm nghiệp hữu cơ; bảo hiểm rừng sản xuất là rừng trồng.
+6. Nhà nước bảo đảm cho đồng bào dân tộc thiểu số, cộng đồng dân cư sinh sống phụ thuộc vào rừng được giao rừng gắn với giao đất để sản xuất lâm, nông, ngư nghiệp kết hợp; được hợp tác, liên kết bảo vệ và phát triển rừng với chủ rừng, chia sẻ lợi ích từ rừng; được thực hành văn hóa, tín ngưỡng gắn với rừng theo quy định của Chính phủ.
+Điều 5. Phân loại rừng
+1. Căn cứ vào mục đích sử dụng chủ yếu, rừng tự nhiên và rừng trồng được phân thành 03 loại như sau:
+a) Rừng đặc dụng;
+b) Rừng phòng hộ;
+c) Rừng sản xuất.
+2. Rừng đặc dụng được sử dụng chủ yếu để bảo tồn hệ sinh thái rừng tự nhiên, nguồn gen sinh vật rừng, nghiên cứu khoa học, bảo tồn di tích lịch sử - văn hóa, tín ngưỡng, danh lam thắng cảnh kết hợp du lịch sinh thái; nghỉ dưỡng, giải trí trừ phân khu bảo vệ nghiêm ngặt của rừng đặc dụng; cung ứng dịch vụ môi trường rừng bao gồm:
+a) Vườn quốc gia;
+b) Khu dự trữ thiên nhiên;
+c) Khu bảo tồn loài - sinh cảnh;
+d) Khu bảo vệ cảnh quan bao gồm rừng bảo tồn di tích lịch sử - văn hóa, danh lam thắng cảnh; rừng tín ngưỡng; rừng bảo vệ môi trường đô thị, khu công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao;
+đ) Khu rừng nghiên cứu, thực nghiệm khoa học; vườn thực vật quốc gia; rừng giống quốc gia.
+3. Rừng phòng hộ được sử dụng chủ yếu để bảo vệ nguồn nước, bảo vệ đất, chống xói mòn, sạt lở, lũ quét, lũ ống, chống sa mạc hóa, hạn chế thiên tai, điều hòa khí hậu, góp phần bảo vệ môi trường, quốc phòng, an ninh, kết hợp du lịch sinh thái, nghỉ dưỡng, giải trí; cung ứng dịch vụ môi trường rừng; được phân theo mức độ xung yếu bao gồm:
+a) Rừng phòng hộ đầu nguồn; rừng bảo vệ nguồn nước của cộng đồng dân cư; rừng phòng hộ biên giới;
+b) Rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển.
+4. Rừng sản xuất được sử dụng chủ yếu để cung cấp lâm sản; sản xuất, kinh doanh lâm, nông, ngư nghiệp kết hợp; du lịch sinh thái, nghỉ dưỡng, giải trí; cung ứng dịch vụ môi trường rừng.
+5. Chính phủ quy định chi tiết về tiêu chí xác định rừng, phân loại rừng và Quy chế quản lý rừng.
+6. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết tiêu chí xác định mức độ xung yếu của rừng phòng hộ.
+Điều 6. Phân định ranh giới rừng
+1. Rừng được phân định ranh giới cụ thể trên thực địa, trên bản đồ và lập hồ sơ quản lý rừng. Hệ thống phân định ranh giới rừng thống nhất trên phạm vi cả nước theo tiểu khu, khoảnh, lô rừng.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 7. Sở hữu rừng
+1. Nhà nước là đại diện chủ sở hữu đối với rừng thuộc sở hữu toàn dân bao gồm:
+a) Rừng tự nhiên;
+b) Rừng trồng do Nhà nước đầu tư toàn bộ;
+c) Rừng trồng do Nhà nước thu hồi, được tặng cho hoặc trường hợp chuyển quyền sở hữu rừng trồng khác theo quy định của pháp luật.
+2. Tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư sở hữu rừng sản xuất là rừng trồng bao gồm:
+a) Rừng do tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư đầu tư;
+b) Rừng được nhận chuyển nhượng, tặng cho, thừa kế rừng từ chủ rừng khác theo quy định của pháp luật.
+Điều 8. Chủ rừng
+1. Ban quản lý rừng đặc dụng, ban quản lý rừng phòng hộ.
+2. Tổ chức kinh tế bao gồm doanh nghiệp, hợp tác xã, liên hiệp hợp tác xã và tổ chức kinh tế khác được thành lập và hoạt động theo quy định của pháp luật, trừ trường hợp quy định tại khoản 7 Điều này.
+3. Đơn vị thuộc lực lượng vũ trang nhân dân được giao rừng (sau đây gọi là đơn vị vũ trang).
+4. Tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp.
+5. Hộ gia đình, cá nhân trong nước.
+6. Cộng đồng dân cư.
+7. Doanh nghiệp có vốn đầu tư nước ngoài được Nhà nước cho thuê đất để trồng rừng sản xuất.
+Điều 9. Các hành vi bị nghiêm cấm trong hoạt động lâm nghiệp
+1. Chặt, phá, khai thác, lấn, chiếm rừng trái quy định của pháp luật.
+2. Đưa chất thải, hóa chất độc, chất nổ, chất cháy, chất dễ cháy, công cụ, phương tiện vào rừng trái quy định của pháp luật; chăn, dắt, thả gia súc, vật nuôi vào phân khu bảo vệ nghiêm ngặt của rừng đặc dụng, rừng mới trồng.
+3. Săn, bắt, nuôi, nhốt, giết, tàng trữ, vận chuyển, buôn bán động vật rừng, thu thập mẫu vật các loài thực vật rừng, động vật rừng trái quy định của pháp luật.
+4. Hủy hoại tài nguyên rừng, hệ sinh thái rừng, công trình bảo vệ và phát triển rừng.
+5. Vi phạm quy định về phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng; quản lý các loài ngoại lai xâm hại; dịch vụ môi trường rừng.
+6. Tàng trữ, mua bán, vận chuyển, chế biến, quảng cáo, trưng bày, xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh lâm sản trái quy định của pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+7. Khai thác tài nguyên thiên nhiên, tài nguyên khoáng sản, môi trường rừng trái quy định của pháp luật; xây dựng, đào, bới, đắp đập, ngăn dòng chảy tự nhiên và các hoạt động khác trái quy định của pháp luật làm thay đổi cấu trúc cảnh quan tự nhiên của hệ sinh thái rừng.
+8. Giao rừng, cho thuê rừng, thu hồi rừng, chuyển loại rừng, chuyển mục đích sử dụng rừng trái quy định của pháp luật; cho phép khai thác, vận chuyển lâm sản trái quy định của pháp luật; chuyển đổi diện tích rừng, chuyển nhượng, thừa kế, tặng cho, thế chấp, góp vốn bằng giá trị quyền sử dụng rừng, quyền sở hữu rừng sản xuất là rừng trồng trái quy định của pháp luật; phân biệt đối xử về tôn giáo, tín ngưỡng và giới trong giao rừng, cho thuê rừng.
+9. Sử dụng nguyên liệu trong chế biến lâm sản trái quy định của pháp luật.
+Chương II
+QUY HOẠCH LÂM NGHIỆP
+Điều 10. Nguyên tắc, căn cứ lập quy hoạch lâm nghiệp
+1. Việc lập quy hoạch lâm nghiệp phải tuân thủ nguyên tắc của pháp luật về quy hoạch và các nguyên tắc sau đây:
+a) Phù hợp với quy hoạch tổng thể quốc gia, quy hoạch sử dụng đất quốc gia, chiến lược phát triển lâm nghiệp quốc gia, chiến lược quốc gia về đa dạng sinh học;
+b) Bảo đảm quản lý rừng bền vững; khai thác, sử dụng rừng gắn với bảo tồn tài nguyên thiên nhiên, nâng cao giá trị kinh tế của rừng và giá trị văn hóa, lịch sử; bảo vệ môi trường, ứng phó với biến đổi khí hậu và nâng cao sinh kế của người dân;
+c) Rừng tự nhiên phải được đưa vào quy hoạch rừng đặc dụng, rừng phòng hộ, rừng sản xuất;
+d) Bảo đảm sự tham gia của cơ quan, tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư; bảo đảm công khai, minh bạch và bình đẳng giới;
+đ) Nội dung về lâm nghiệp trong quy hoạch tỉnh phải phù hợp với nội dung quy hoạch lâm nghiệp cấp quốc gia.
+2. Việc lập quy hoạch lâm nghiệp phải tuân thủ căn cứ của pháp luật về quy hoạch và các căn cứ sau đây:
+a) Quy hoạch lâm nghiệp cấp quốc gia phải căn cứ vào quy hoạch tổng thể quốc gia, quy hoạch sử dụng đất quốc gia, chiến lược phát triển lâm nghiệp quốc gia;
+b) Nội dung về lâm nghiệp trong quy hoạch tỉnh phải căn cứ vào quy hoạch lâm nghiệp cấp quốc gia;
+c) Điều kiện tự nhiên, kinh tế - xã hội, nguồn lực của cả nước hoặc địa phương.
+Điều 11. Thời kỳ và nội dung quy hoạch lâm nghiệp
+1. Thời kỳ quy hoạch lâm nghiệp cấp quốc gia là 10 năm; tầm nhìn từ 30 năm đến 50 năm.
+2. Nội dung quy hoạch lâm nghiệp phải phù hợp với quy định của pháp luật về quy hoạch và bao gồm các nội dung sau đây:
+a) Thu thập, phân tích, đánh giá các dữ liệu về điều kiện tự nhiên, kinh tế - xã hội, thực trạng tài nguyên rừng; chủ trương, định hướng phát triển, quy hoạch có liên quan; đánh giá nguồn lực phát triển và các vấn đề cần giải quyết;
+b) Đánh giá tình hình thực hiện quy hoạch lâm nghiệp kỳ trước về quản lý, bảo vệ và phát triển rừng; chế biến và thương mại lâm sản; đầu tư, khoa học và công nghệ, lao động;
+c) Dự báo về nhu cầu và thị trường lâm sản, dịch vụ môi trường rừng, tác động của biến đổi khí hậu, tiến bộ khoa học - kỹ thuật, tiến bộ công nghệ áp dụng trong lâm nghiệp;
+d) Nghiên cứu bối cảnh, các mối liên kết ngành; xác định yêu cầu phát triển kinh tế - xã hội đối với ngành;
+đ) Xác định quan điểm, mục tiêu phát triển lâm nghiệp;
+e) Định hướng phát triển bền vững rừng đặc dụng, rừng phòng hộ, rừng sản xuất;
+g) Định hướng phát triển kết cấu hạ tầng lâm nghiệp;
+h) Định hướng phát triển thị trường, vùng nguyên liệu, chế biến lâm sản;
+i) Giải pháp, nguồn lực tổ chức thực hiện quy hoạch.
+Điều 12. Lập, lấy ý kiến, thẩm định, phê duyệt và điều chỉnh quy hoạch lâm nghiệp cấp quốc gia
+1. Trách nhiệm tổ chức lập quy hoạch lâm nghiệp cấp quốc gia được quy định như sau:
+a) Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm tổ chức lập quy hoạch lâm nghiệp cấp quốc gia;
+b) Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh phối hợp với Bộ Nông nghiệp và Phát triển nông thôn trong việc lập quy hoạch lâm nghiệp cấp quốc gia.
+2. Việc lấy ý kiến về quy hoạch lâm nghiệp cấp quốc gia được thực hiện như sau:
+a) Bộ Nông nghiệp và Phát triển nông thôn tổ chức lấy ý kiến cơ quan nhà nước, tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư có liên quan; tổng hợp, tiếp thu, giải trình ý kiến góp ý về quy hoạch lâm nghiệp cấp quốc gia;
+b) Việc lấy ý kiến về quy hoạch lâm nghiệp cấp quốc gia được thực hiện thông qua hình thức công khai trên cổng thông tin điện tử, phương tiện thông tin đại chúng; gửi lấy ý kiến bằng văn bản; tổ chức hội nghị, hội thảo;
+c) Thời gian lấy ý kiến là 60 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quyết định tổ chức lấy ý kiến.
+3. Thẩm định quy hoạch lâm nghiệp cấp quốc gia được quy định như sau:
+a) Thủ tướng Chính phủ thành lập Hội đồng thẩm định quy hoạch lâm nghiệp cấp quốc gia;
+b) Bộ Nông nghiệp và Phát triển nông thôn là cơ quan thường trực của Hội đồng thẩm định quy hoạch lâm nghiệp cấp quốc gia;
+c) Hội đồng thẩm định quy hoạch lâm nghiệp cấp quốc gia tổ chức thẩm định và gửi kết quả thẩm định đến Bộ Nông nghiệp và Phát triển nông thôn. Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm tiếp thu, giải trình về các nội dung thẩm định;
+d) Nội dung thẩm định quy hoạch bao gồm sự phù hợp với quy hoạch tổng thể quốc gia, chiến lược phát triển lâm nghiệp quốc gia, quy hoạch sử dụng đất quốc gia; thực tiễn, nguồn lực, nhu cầu và khả năng sử dụng rừng đáp ứng yêu cầu phát triển bền vững; hiệu quả kinh tế - xã hội, môi trường; tính khả thi của quy hoạch.
+4. Thủ tướng Chính phủ phê duyệt quy hoạch lâm nghiệp cấp quốc gia do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn trình.
+5. Việc điều chỉnh quy hoạch lâm nghiệp cấp quốc gia được quy định như sau:
+a) Quy hoạch lâm nghiệp cấp quốc gia được điều chỉnh khi có thay đổi quy hoạch tổng thể quốc gia, quy hoạch sử dụng đất quốc gia, chiến lược phát triển lâm nghiệp quốc gia làm thay đổi lớn đến nội dung quy hoạch lâm nghiệp quy định tại khoản 2 Điều 11 của Luật này;
+b) Việc thẩm định, phê duyệt điều chỉnh quy hoạch lâm nghiệp cấp quốc gia được thực hiện theo quy định tại khoản 3 và khoản 4 Điều này.
+6. Việc lập, lấy ý kiến, thẩm định, phê duyệt, điều chỉnh quy hoạch lâm nghiệp cấp quốc gia thực hiện theo quy định của Luật này và pháp luật về quy hoạch.
+Điều 13. Tổ chức tư vấn lập quy hoạch lâm nghiệp
+1. Cơ quan lập quy hoạch lâm nghiệp phải lựa chọn tổ chức tư vấn lập quy hoạch lâm nghiệp theo quy định của pháp luật về đấu thầu.
+2. Tổ chức tư vấn lập quy hoạch lâm nghiệp phải có tư cách pháp nhân và đáp ứng yêu cầu về năng lực chuyên môn phù hợp với công việc đảm nhận theo quy định của Chính phủ.
+Chương III
+QUẢN LÝ RỪNG
+Mục 1. GIAO RỪNG, CHO THUÊ RỪNG, CHUYỂN LOẠI RỪNG, CHUYỂN MỤC ĐÍCH SỬ DỤNG RỪNG SANG MỤC ĐÍCH KHÁC, THU HỒI RỪNG
+Điều 14. Nguyên tắc giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng
+1. Phù hợp với quy hoạch lâm nghiệp cấp quốc gia, quy hoạch sử dụng đất; diện tích rừng hiện có tại địa phương.
+2. Không chuyển mục đích sử dụng rừng tự nhiên sang mục đích khác, trừ dự án quan trọng quốc gia; dự án phục vụ quốc phòng, an ninh quốc gia; dự án cấp thiết khác được Chính phủ phê duyệt.
+3. Không giao, cho thuê diện tích rừng đang có tranh chấp.
+4. Chủ rừng không được cho tổ chức, hộ gia đình, cá nhân khác thuê diện tích rừng tự nhiên, rừng trồng do Nhà nước đầu tư.
+5. Thống nhất, đồng bộ với giao đất, cho thuê đất, chuyển mục đích sử dụng đất, thu hồi đất.
+6. Thời hạn, hạn mức giao rừng, cho thuê rừng phù hợp với thời hạn, hạn mức giao đất, cho thuê đất.
+7. Bảo đảm công khai, minh bạch, có sự tham gia của người dân địa phương; không phân biệt đối xử về tôn giáo, tín ngưỡng và giới trong giao rừng, cho thuê rừng.
+8. Tôn trọng không gian sinh tồn, phong tục, tập quán của cộng đồng dân cư; ưu tiên giao rừng cho đồng bào dân tộc thiểu số, hộ gia đình, cá nhân, cộng đồng dân cư có phong tục, tập quán, văn hóa, tín ngưỡng, truyền thống gắn bó với rừng, có hương ước, quy ước phù hợp với quy định của pháp luật.
+Điều 15. Căn cứ giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác
+1. Kế hoạch giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác của Ủy ban nhân dân cấp huyện được Ủy ban nhân dân cấp tỉnh phê duyệt; kế hoạch sử dụng đất hằng năm của cấp huyện được cơ quan nhà nước có thẩm quyền phê duyệt.
+2. Diện tích rừng, đất quy hoạch để trồng rừng.
+3. Nhu cầu sử dụng rừng thể hiện trong dự án đầu tư đối với tổ chức; đề nghị giao rừng, thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác đối với hộ gia đình, cá nhân, cộng đồng dân cư.
+4. Năng lực quản lý rừng bền vững của tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư.
+Điều 16. Giao rừng
+1. Nhà nước giao rừng đặc dụng không thu tiền sử dụng rừng cho các đối tượng sau đây:
+a) Ban quản lý rừng đặc dụng đối với vườn quốc gia; khu dự trữ thiên nhiên; khu bảo tồn loài - sinh cảnh; khu bảo vệ cảnh quan bao gồm rừng bảo tồn di tích lịch sử - văn hóa, danh lam thắng cảnh, rừng bảo vệ môi trường đô thị, khu công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao; rừng giống quốc gia; vườn thực vật quốc gia;
+b) Tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp đối với rừng nghiên cứu, thực nghiệm khoa học, vườn thực vật quốc gia;
+c) Ban quản lý rừng phòng hộ, tổ chức kinh tế, đơn vị vũ trang đối với khu bảo vệ cảnh quan bao gồm rừng bảo tồn di tích lịch sử - văn hóa, danh lam thắng cảnh; rừng bảo vệ môi trường đô thị, khu công nghiệp, khu chế xuất, khu kinh tế, khu công nghệ cao xen kẽ trong diện tích rừng được giao;
+d) Cộng đồng dân cư đối với khu rừng tín ngưỡng mà họ đang quản lý và sử dụng theo truyền thống;
+đ) Tổ chức kinh tế, tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp trong nước đối với rừng giống quốc gia xen kẽ trong diện tích rừng được giao.
+2. Nhà nước giao rừng phòng hộ không thu tiền sử dụng rừng cho các đối tượng sau đây:
+a) Ban quản lý rừng phòng hộ, đơn vị vũ trang đối với rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới; rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển;
+b) Tổ chức kinh tế đối với rừng phòng hộ xen kẽ trong diện tích rừng sản xuất của tổ chức đó;
+c) Hộ gia đình, cá nhân cư trú hợp pháp trên địa bàn cấp xã nơi có rừng phòng hộ đối với rừng phòng hộ đầu nguồn; rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển;
+d) Cộng đồng dân cư cư trú hợp pháp trên địa bàn cấp xã nơi có rừng phòng hộ đối với rừng phòng hộ đầu nguồn; rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển; rừng bảo vệ nguồn nước của cộng đồng dân cư đó.
+3. Nhà nước giao rừng sản xuất không thu tiền sử dụng rừng cho các đối tượng sau đây:
+a) Hộ gia đình, cá nhân, cộng đồng dân cư cư trú hợp pháp trên địa bàn cấp xã nơi có diện tích rừng; đơn vị vũ trang;
+b) Ban quản lý rừng đặc dụng, ban quản lý rừng phòng hộ đối với diện tích rừng sản xuất xen kẽ trong diện tích rừng đặc dụng, rừng phòng hộ được giao cho ban quản lý rừng đó.
+Điều 17. Cho thuê rừng sản xuất
+Nhà nước cho tổ chức kinh tế, hộ gia đình, cá nhân thuê rừng sản xuất là rừng tự nhiên, rừng sản xuất là rừng trồng trả tiền thuê rừng một lần hoặc hằng năm để sản xuất lâm nghiệp; sản xuất lâm, nông, ngư nghiệp kết hợp; kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí.
+Điều 18. Chuyển loại rừng
+1. Việc chuyển loại rừng này sang loại rừng khác phải đáp ứng các điều kiện sau đây:
+a) Phù hợp với quy hoạch lâm nghiệp;
+b) Đáp ứng các tiêu chí phân loại rừng;
+c) Có phương án chuyển loại rừng.
+2. Thẩm quyền quyết định chuyển loại rừng được quy định như sau:
+a) Thủ tướng Chính phủ quyết định chuyển loại rừng đối với khu rừng do Thủ tướng Chính phủ thành lập theo đề nghị của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn;
+b) Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định chuyển loại rừng không thuộc trường hợp quy định tại điểm a khoản này, sau khi được Hội đồng nhân dân cùng cấp quyết định chủ trương chuyển loại rừng.
+Điều 19. Điều kiện chuyển mục đích sử dụng rừng sang mục đích khác
+1. Phù hợp với quy hoạch lâm nghiệp cấp quốc gia; quy hoạch, kế hoạch sử dụng đất.
+2. Được cơ quan nhà nước có thẩm quyền quyết định chủ trương chuyển mục đích sử dụng rừng sang mục đích khác.
+3. Có dự án đầu tư được cơ quan nhà nước có thẩm quyền quyết định.
+4. Có phương án trồng rừng thay thế được cơ quan nhà nước có thẩm quyền phê duyệt hoặc sau khi hoàn thành trách nhiệm nộp tiền trồng rừng thay thế.
+Điều 20. Thẩm quyền quyết định chủ trương chuyển mục đích sử dụng rừng sang mục đích khác
+1. Quốc hội quyết định chủ trương chuyển mục đích sử dụng rừng đặc dụng, rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới từ 50 ha trở lên; rừng phòng hộ chắn gió, chắn cát bay và rừng phòng hộ chắn sóng, lấn biển từ 500 ha trở lên; rừng sản xuất từ 1.000 ha trở lên.
+2. Thủ tướng Chính phủ quyết định chủ trương chuyển mục đích sử dụng rừng đặc dụng dưới 50 ha; rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới từ 20 ha đến dưới 50 ha; rừng phòng hộ chắn gió, chắn cát bay và rừng phòng hộ chắn sóng, lấn biển từ 20 ha đến dưới 500 ha; rừng sản xuất từ 50 ha đến dưới 1.000 ha.
+3. Hội đồng nhân dân cấp tỉnh quyết định chủ trương chuyển mục đích sử dụng rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới, rừng phòng hộ chắn gió, chắn cát bay và rừng phòng hộ chắn sóng, lấn biển dưới 20 ha; rừng sản xuất dưới 50 ha; rừng bảo vệ nguồn nước của cộng đồng dân cư.
+Điều 21. Trồng rừng thay thế khi chuyển mục đích sử dụng rừng sang mục đích khác
+1. Chủ dự án được giao đất, thuê đất có chuyển mục đích sử dụng rừng sang mục đích khác phải trồng rừng thay thế bằng diện tích rừng bị chuyển mục đích sử dụng đối với rừng trồng, bằng ba lần diện tích rừng bị chuyển mục đích sử dụng đối với rừng tự nhiên.
+2. Chủ dự án quy định tại khoản 1 Điều này tự trồng rừng thay thế phải xây dựng phương án trồng rừng thay thế trình Ủy ban nhân dân cấp tỉnh phê duyệt. Trường hợp chủ dự án không tự trồng rừng thay thế thì nộp tiền vào quỹ bảo vệ và phát triển rừng ở cấp tỉnh.
+3. Số tiền nộp vào quỹ bảo vệ và phát triển rừng ở cấp tỉnh bằng diện tích rừng phải trồng thay thế quy định tại khoản 1 Điều này nhân với đơn giá cho 01 ha rừng trồng do Ủy ban nhân dân cấp tỉnh quyết định; Ủy ban nhân dân cấp tỉnh quyết định sử dụng tiền đã nộp vào quỹ bảo vệ và phát triển rừng ở cấp tỉnh để tổ chức trồng rừng thay thế trên địa bàn tỉnh.
+4. Trường hợp Ủy ban nhân dân cấp tỉnh không bố trí được hoặc không bố trí đủ diện tích đất để trồng rừng thay thế trong thời hạn 12 tháng kể từ khi chủ dự án hoàn thành trách nhiệm nộp tiền vào quỹ bảo vệ và phát triển rừng ở cấp tỉnh thì phải chuyển tiền trồng rừng thay thế vào Quỹ bảo vệ và phát triển rừng Việt Nam để tổ chức trồng rừng thay thế tại địa phương khác.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định nội dung, trình tự, thủ tục, thời hạn thực hiện trồng rừng thay thế quy định tại Điều này.
+Điều 22. Thu hồi rừng
+1. Nhà nước thu hồi rừng trong các trường hợp sau đây:
+a) Chủ rừng sử dụng rừng không đúng mục đích, cố ý không thực hiện nghĩa vụ với Nhà nước hoặc vi phạm nghiêm trọng quy định của pháp luật về lâm nghiệp;
+b) Chủ rừng không tiến hành hoạt động bảo vệ và phát triển rừng sau 12 tháng liên tục kể từ ngày được giao, được thuê rừng, trừ trường hợp bất khả kháng được cơ quan nhà nước có thẩm quyền xác nhận;
+c) Chủ rừng tự nguyện trả lại rừng;
+d) Rừng được Nhà nước giao, cho thuê khi hết hạn mà không được gia hạn;
+đ) Rừng được giao, được thuê không đúng thẩm quyền hoặc không đúng đối tượng;
+e) Chủ rừng là cá nhân khi chết không có người thừa kế theo quy định của pháp luật;
+g) Các trường hợp thu hồi đất có rừng khác theo quy định của Luật Đất đai.
+2. Chủ rừng được bồi thường, hỗ trợ theo quy định của pháp luật khi Nhà nước thu hồi rừng vì mục đích quốc phòng, an ninh; phát triển kinh tế - xã hội vì lợi ích quốc gia, công cộng; giao rừng, cho thuê rừng không đúng thẩm quyền hoặc không đúng đối tượng.
+Điều 23. Thẩm quyền giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng
+1. Thẩm quyền của Ủy ban nhân dân cấp tỉnh được quy định như sau:
+a) Giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng đối với tổ chức;
+b) Cho doanh nghiệp có vốn đầu tư nước ngoài tại Việt Nam thuê đất để trồng rừng sản xuất.
+2. Thẩm quyền của Ủy ban nhân dân cấp huyện được quy định như sau:
+a) Giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng đối với hộ gia đình, cá nhân;
+b) Giao rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng đối với cộng đồng dân cư.
+3. Trường hợp trong khu vực thu hồi rừng có cả đối tượng quy định tại điểm a khoản 1 và khoản 2 Điều này thì Ủy ban nhân dân cấp tỉnh quyết định thu hồi rừng hoặc ủy quyền cho Ủy ban nhân dân cấp huyện quyết định thu hồi rừng.
+4. Chính phủ quy định chi tiết việc giao rừng, cho thuê rừng, chuyển loại rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng.
+Mục 2. TỔ CHỨC QUẢN LÝ RỪNG
+Điều 24. Nguyên tắc tổ chức quản lý rừng
+1. Nhà nước giao rừng, cho thuê rừng, tổ chức quản lý, bảo vệ rừng, bảo đảm các diện tích rừng có chủ.
+2. Chủ rừng phải thực hiện quản lý rừng bền vững; có trách nhiệm quản lý, bảo vệ, phát triển, sử dụng rừng theo Quy chế quản lý rừng.
+Điều 25. Thẩm quyền thành lập khu rừng đặc dụng, khu rừng phòng hộ
+1. Thủ tướng Chính phủ quyết định thành lập khu rừng đặc dụng, khu rừng phòng hộ có tầm quan trọng quốc gia hoặc nằm trên địa bàn nhiều tỉnh.
+2. Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định thành lập khu rừng đặc dụng, khu rừng phòng hộ tại địa phương không thuộc trường hợp quy định tại khoản 1 Điều này.
+3. Việc thành lập khu rừng đặc dụng, khu rừng phòng hộ thực hiện theo Quy chế quản lý rừng.
+Điều 26. Tổ chức quản lý rừng đặc dụng, rừng phòng hộ
+1. Tổ chức quản lý rừng đặc dụng được quy định như sau:
+a) Thành lập ban quản lý rừng đặc dụng đối với vườn quốc gia; khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh, khu bảo vệ cảnh quan có diện tích tập trung từ 3.000 ha trở lên.
+Trường hợp trên địa bàn cấp tỉnh có một hoặc nhiều khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh, khu bảo vệ cảnh quan có diện tích mỗi khu dưới 3.000 ha thì thành lập một ban quản lý rừng đặc dụng trên địa bàn;
+b) Tổ chức được giao khu rừng nghiên cứu, thực nghiệm khoa học, vườn thực vật quốc gia, rừng giống quốc gia tự tổ chức quản lý khu rừng.
+2. Tổ chức quản lý rừng phòng hộ được quy định như sau:
+a) Thành lập ban quản lý rừng phòng hộ đối với rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới có diện tích tập trung từ 5.000 ha trở lên hoặc rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển có diện tích từ 3.000 ha trở lên;
+b) Các khu rừng phòng hộ không thuộc trường hợp quy định tại điểm a khoản này thì giao cho tổ chức kinh tế, hộ gia đình, cá nhân, cộng đồng dân cư, đơn vị vũ trang trên địa bàn để quản lý.
+3. Việc tổ chức quản lý rừng đặc dụng, rừng phòng hộ thực hiện theo Quy chế quản lý rừng.
+Mục 3. QUẢN LÝ RỪNG BỀN VỮNG
+Điều 27. Phương án quản lý rừng bền vững
+1. Trách nhiệm xây dựng và thực hiện phương án quản lý rừng bền vững được quy định như sau:
+a) Chủ rừng là tổ chức phải xây dựng và thực hiện phương án quản lý rừng bền vững;
+b) Khuyến khích chủ rừng là hộ gia đình, cá nhân, cộng đồng dân cư hoặc hộ gia đình, cá nhân liên kết xây dựng và thực hiện phương án quản lý rừng bền vững.
+2. Nội dung cơ bản của phương án quản lý rừng bền vững đối với rừng đặc dụng bao gồm:
+a) Đánh giá điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh; thực trạng hệ sinh thái rừng, đa dạng sinh học, nguồn gen sinh vật, di tích lịch sử - văn hóa, cảnh quan;
+b) Xác định mục tiêu, phạm vi quản lý rừng bền vững;
+c) Xác định diện tích rừng tại các phân khu chức năng bị suy thoái được phục hồi và bảo tồn;
+d) Xác định hoạt động quản lý, bảo vệ, bảo tồn, phát triển và sử dụng rừng;
+đ) Giải pháp và tổ chức thực hiện.
+3. Nội dung cơ bản của phương án quản lý rừng bền vững đối với rừng phòng hộ bao gồm:
+a) Đánh giá điều kiện tự nhiên, kinh tế - xã hội, quốc phòng, an ninh; thực trạng tài nguyên rừng;
+b) Xác định mục tiêu, phạm vi quản lý rừng bền vững;
+c) Xác định chức năng phòng hộ của rừng;
+d) Xác định hoạt động quản lý, bảo vệ, phát triển và sử dụng rừng;
+đ) Giải pháp và tổ chức thực hiện.
+4. Nội dung cơ bản của phương án quản lý rừng bền vững đối với rừng sản xuất bao gồm:
+a) Đánh giá điều kiện tự nhiên, kinh tế - xã hội; thực trạng tài nguyên rừng; kết quả sản xuất, kinh doanh; đánh giá thị trường có ảnh hưởng, tác động đến hoạt động của chủ rừng;
+b) Xác định mục tiêu, phạm vi quản lý rừng bền vững;
+c) Xác định hoạt động quản lý, bảo vệ, phát triển, sử dụng rừng và thương mại lâm sản;
+d) Giải pháp và tổ chức thực hiện.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết về nội dung phương án quản lý rừng bền vững; quy định trình tự, thủ tục xây dựng, phê duyệt phương án quản lý rừng bền vững.
+Điều 28. Chứng chỉ quản lý rừng bền vững
+1. Chứng chỉ quản lý rừng bền vững được cấp cho chủ rừng theo nguyên tắc tự nguyện.
+2. Chủ rừng được cấp chứng chỉ quản lý rừng bền vững trong nước hoặc quốc tế khi có phương án quản lý rừng bền vững và đáp ứng các tiêu chí quản lý rừng bền vững.
+3. Tổ chức hoạt động đánh giá, cấp chứng chỉ quản lý rừng bền vững tại Việt Nam phải tuân thủ quy định của pháp luật Việt Nam.
+4. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về tiêu chí quản lý rừng bền vững.
+Mục 4. ĐÓNG, MỞ CỬA RỪNG TỰ NHIÊN
+Điều 29. Nguyên tắc đóng, mở cửa rừng tự nhiên
+1. Bảo đảm quản lý rừng bền vững, bảo tồn tài nguyên rừng và đa dạng sinh học.
+2. Bảo đảm công khai và minh bạch.
+3. Bảo đảm quyền và lợi ích hợp pháp của các bên liên quan khi thực hiện đóng, mở cửa rừng tự nhiên.
+Điều 30. Trường hợp đóng, mở cửa rừng tự nhiên
+1. Đóng cửa rừng tự nhiên được thực hiện trong các trường hợp sau đây:
+a) Tình trạng phá rừng, khai thác rừng trái quy định của pháp luật diễn biến phức tạp, có nguy cơ làm suy giảm nghiêm trọng tài nguyên rừng;
+b) Rừng tự nhiên nghèo cần được phục hồi; đa dạng sinh học và chức năng phòng hộ của rừng bị suy thoái nghiêm trọng.
+2. Mở cửa rừng tự nhiên được thực hiện khi khắc phục được tình trạng quy định tại khoản 1 Điều này.
+3. Việc đóng, mở cửa rừng tự nhiên thực hiện theo Quy chế quản lý rừng.
+Điều 31. Thẩm quyền, trình tự, thủ tục, công bố quyết định đóng, mở cửa rừng tự nhiên
+1. Thủ tướng Chính phủ quyết định đóng, mở cửa rừng tự nhiên trên phạm vi cả nước hoặc trên phạm vi nhiều tỉnh, thành phố trực thuộc trung ương.
+2. Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định đóng, mở cửa rừng tự nhiên đối với diện tích rừng tự nhiên tại địa phương sau khi được Hội đồng nhân dân cùng cấp thông qua đề án đóng, mở cửa rừng tự nhiên.
+3. Quyết định đóng, mở cửa rừng tự nhiên phải được công bố, niêm yết công khai.
+4. Trình tự, thủ tục công bố quyết định đóng, mở cửa rừng tự nhiên thực hiện theo Quy chế quản lý rừng.
+Điều 32. Trách nhiệm của Nhà nước khi đóng cửa rừng tự nhiên
+1. Nhà nước cấp kinh phí bảo vệ và phát triển rừng sản xuất là rừng tự nhiên trong giai đoạn đóng cửa rừng tự nhiên.
+2. Bộ Nông nghiệp và Phát triển nông thôn chủ trì, phối hợp với Bộ Tài chính trình Thủ tướng Chính phủ xem xét, quyết định hỗ trợ cho chủ rừng khi thực hiện quyết định đóng cửa rừng tự nhiên của Thủ tướng Chính phủ.
+3. Ủy ban nhân dân cấp tỉnh trình Hội đồng nhân dân cùng cấp xem xét, quyết định hỗ trợ cho chủ rừng khi thực hiện quyết định đóng cửa rừng tự nhiên của Chủ tịch Ủy ban nhân dân cấp tỉnh.
+Mục 5. ĐIỀU TRA, KIỂM KÊ, THEO DÕI DIỄN BIẾN, CƠ SỞ DỮ LIỆU RỪNG
+Điều 33. Điều tra rừng
+1. Nội dung điều tra rừng bao gồm:
+a) Điều tra, phân loại rừng; phân cấp mức độ xung yếu của rừng phòng hộ;
+b) Điều tra, đánh giá chất lượng rừng, tiềm năng phát triển rừng;
+c) Điều tra, đánh giá tình trạng mất rừng và suy thoái rừng;
+d) Điều tra, đánh giá đa dạng sinh học trong rừng;
+đ) Xây dựng và duy trì hệ thống giám sát diễn biến rừng;
+e) Đánh giá về giảm phát thải khí nhà kính do thực hiện các giải pháp hạn chế mất rừng và suy thoái rừng, quản lý rừng bền vững, bảo tồn và nâng cao trữ lượng các-bon rừng.
+2. Tổ chức điều tra rừng được quy định như sau:
+a) Bộ Nông nghiệp và Phát triển nông thôn tổ chức thực hiện và công bố kết quả điều tra rừng toàn quốc 05 năm một lần và theo chuyên đề; chỉ đạo việc thực hiện điều tra rừng cấp tỉnh;
+b) Ủy ban nhân dân cấp tỉnh tổ chức thực hiện điều tra rừng tại địa phương và công bố kết quả.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết nội dung điều tra rừng; quy định phương pháp, quy trình điều tra rừng.
+Điều 34. Kiểm kê rừng
+1. Kiểm kê rừng thực hiện theo cấp chính quyền gắn với chủ quản lý cụ thể trên phạm vi toàn quốc để xác định hiện trạng diện tích, trữ lượng rừng, đất chưa có rừng quy hoạch cho lâm nghiệp; điều chỉnh, bổ sung cơ sở dữ liệu rừng và đất chưa có rừng.
+2. Nội dung cơ bản của kiểm kê rừng bao gồm:
+a) Tập hợp và xử lý thông tin về tài nguyên rừng;
+b) Kiểm kê diện tích, trữ lượng rừng của lô rừng;
+c) Kiểm kê diện tích, trữ lượng rừng của chủ rừng;
+d) Kiểm kê tổng diện tích, trữ lượng rừng theo cấp hành chính;
+đ) Lập hồ sơ quản lý rừng của lô, khoảnh, tiểu khu, chủ rừng, đơn vị hành chính.
+e) Công bố kết quả kiểm kê rừng.
+3. Việc kiểm kê rừng được thực hiện 10 năm một lần phù hợp với thời điểm kiểm kê đất đai.
+4. Chủ rừng có trách nhiệm thực hiện kiểm kê rừng và chịu sự kiểm tra của cơ quan chuyên ngành về lâm nghiệp cấp tỉnh đối với chủ rừng là tổ chức; hoặc cơ quan chuyên ngành về lâm nghiệp cấp huyện đối với chủ rừng là hộ gia đình, cá nhân, cộng đồng dân cư; kê khai số liệu kiểm kê rừng theo biểu mẫu quy định và chịu trách nhiệm về nội dung kê khai.
+5. Cơ quan chuyên ngành về lâm nghiệp có trách nhiệm hướng dẫn, hỗ trợ về kỹ thuật và kiểm tra, giám sát thực hiện kiểm kê rừng; hỗ trợ kinh phí kiểm kê rừng cho chủ rừng là hộ gia đình, cá nhân, cộng đồng dân cư.
+6. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết nội dung kiểm kê rừng; quy định phương pháp, quy trình kiểm kê rừng.
+Điều 35. Theo dõi diễn biến rừng
+1. Theo dõi diễn biến rừng được thực hiện hằng năm nhằm nắm vững hiện trạng diện tích các loại rừng, đất chưa có rừng; biến động diện tích các loại rừng phục vụ công tác quản lý, bảo vệ và phát triển rừng.
+2. Lô rừng là đơn vị cơ sở để theo dõi diễn biến rừng, được tập hợp theo khoảnh, tiểu khu rừng đối với từng chủ rừng và tổng hợp trên địa bàn cấp xã, huyện, tỉnh, quốc gia.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 36. Cơ sở dữ liệu rừng
+1. Cơ sở dữ liệu rừng là tập hợp thông tin, dữ liệu về rừng được thiết lập, cập nhật và duy trì đáp ứng yêu cầu sử dụng thông tin cho công tác quản lý, bảo vệ, phát triển rừng và yêu cầu quản lý khác; là bộ phận của hệ thống thông tin về lâm nghiệp.
+2. Cơ sở dữ liệu rừng bao gồm:
+a) Cơ sở dữ liệu về các văn bản quy phạm pháp luật liên quan đến rừng;
+b) Cơ sở dữ liệu về quản lý, bảo vệ, phát triển, sử dụng rừng; bảo tồn thiên nhiên, loài nguy cấp, quý, hiếm, nghiên cứu khoa học liên quan đến rừng;
+c) Cơ sở dữ liệu về điều tra rừng, kiểm kê rừng, diễn biến rừng, kết quả giảm phát thải khí nhà kính liên quan đến rừng;
+d) Cơ sở dữ liệu khác liên quan đến rừng.
+3. Bộ Nông nghiệp và Phát triển nông thôn tổ chức lập, quản lý cơ sở dữ liệu rừng thống nhất trong phạm vi cả nước.
+Chương IV
+BẢO VỆ RỪNG
+Điều 37. Bảo vệ hệ sinh thái rừng
+Cơ quan nhà nước, tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư có hoạt động ảnh hưởng trực tiếp đến hệ sinh thái rừng, sinh trưởng và phát triển của các loài sinh vật rừng phải tuân thủ quy định của Luật này, pháp luật về bảo vệ môi trường, đa dạng sinh học, bảo vệ và kiểm dịch thực vật, thú y và quy định khác của pháp luật có liên quan.
+Điều 38. Bảo vệ thực vật rừng, động vật rừng
+1. Loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm phải được lập danh mục để quản lý, bảo vệ.
+2. Chính phủ quy định Danh mục và chế độ quản lý, bảo vệ thực vật rừng, động vật rừng nguy cấp, quý, hiếm; trình tự, thủ tục khai thác các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm và các loài thực vật rừng hoang dã, động vật rừng hoang dã thuộc Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục khai thác gỗ, lâm sản ngoài gỗ và động vật rừng, trừ trường hợp quy định tại khoản 2 Điều này.
+Điều 39. Phòng cháy và chữa cháy rừng
+1. Chủ rừng phải lập và thực hiện phương án phòng cháy và chữa cháy rừng; chấp hành sự hướng dẫn, kiểm tra của cơ quan nhà nước có thẩm quyền.
+2. Mọi trường hợp sử dụng lửa trong rừng, gần rừng để dọn nương rẫy, dọn đồng ruộng, chuẩn bị đất trồng rừng, đốt trước mùa khô hanh hoặc dùng lửa vì mục đích khác, người sử dụng lửa phải thực hiện các biện pháp phòng cháy và chữa cháy rừng.
+3. Tổ chức, hộ gia đình, cá nhân tiến hành hoạt động trong rừng, xây dựng công trình ở trong rừng, ven rừng phải chấp hành quy định về phòng cháy và chữa cháy; thực hiện biện pháp phòng cháy và chữa cháy rừng của chủ rừng.
+4. Khi xảy ra cháy rừng, chủ rừng phải kịp thời chữa cháy rừng, thông báo ngay cho cơ quan, tổ chức, cá nhân liên quan; khắc phục hậu quả sau cháy rừng và báo cáo cho cơ quan nhà nước có thẩm quyền. Cơ quan nhà nước, tổ chức, cá nhân liên quan có trách nhiệm phối hợp chữa cháy rừng kịp thời.
+5. Trường hợp cháy rừng xảy ra trên diện rộng có nguy cơ gây thảm họa dẫn đến tình trạng khẩn cấp, việc chữa cháy rừng phải thực hiện theo quy định của pháp luật về tình trạng khẩn cấp.
+6. Kiểm lâm chủ trì, phối hợp với lực lượng cảnh sát phòng cháy và chữa cháy, cứu hộ, cứu nạn hướng dẫn chủ rừng xây dựng phương án phòng cháy và chữa cháy rừng.
+7. Chính phủ quy định chi tiết Điều này.
+Điều 40. Phòng, trừ sinh vật gây hại rừng
+1. Việc phòng, trừ sinh vật gây hại rừng; nuôi hoặc chăn, thả động vật vào rừng phải thực hiện theo quy định của Luật này, pháp luật về đa dạng sinh học, bảo vệ và kiểm dịch thực vật, thú y.
+2. Chủ rừng phải thực hiện các biện pháp phòng, trừ sinh vật gây hại rừng; khi phát hiện có sinh vật gây hại rừng trên diện tích rừng được giao, được thuê thì phải báo ngay cho cơ quan bảo vệ và kiểm dịch thực vật, cơ quan quản lý chuyên ngành thú y gần nhất để được hướng dẫn và hỗ trợ biện pháp phòng, trừ; tăng cường áp dụng biện pháp lâm sinh, sinh học trong phòng, trừ sinh vật gây hại rừng.
+3. Bộ Nông nghiệp và Phát triển nông thôn có trách nhiệm tổ chức dự báo tình hình dịch bệnh; chỉ đạo biện pháp phòng, trừ sinh vật gây hại rừng.
+4. Ủy ban nhân dân các cấp tổ chức, chỉ đạo việc phòng, trừ sinh vật gây hại rừng tại địa phương, không để sinh vật gây hại rừng lây lan sang địa phương khác.
+Điều 41. Lực lượng chuyên trách bảo vệ rừng của chủ rừng
+1. Ban quản lý rừng đặc dụng, ban quản lý rừng phòng hộ nơi không thành lập Kiểm lâm; doanh nghiệp nhà nước, tổ chức không thuộc lực lượng vũ trang được Nhà nước giao rừng, cho thuê rừng và đất rừng được tổ chức lực lượng chuyên trách bảo vệ rừng.
+2. Lực lượng chuyên trách bảo vệ rừng có nhiệm vụ và quyền hạn sau đây:
+a) Tuần tra, kiểm tra về bảo vệ rừng, đất rừng quy hoạch cho lâm nghiệp;
+b) Thực hiện biện pháp phòng cháy và chữa cháy rừng;
+c) Thực hiện biện pháp phòng ngừa, ngăn chặn hành vi vi phạm quy định về quản lý, bảo vệ, phát triển rừng; được sử dụng công cụ hỗ trợ theo quy định của pháp luật.
+3. Chủ rừng có trách nhiệm trực tiếp quản lý, chỉ đạo hoạt động của lực lượng chuyên trách bảo vệ rừng; bảo đảm chế độ cho lực lượng chuyên trách bảo vệ rừng theo quy định của pháp luật.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 42. Kiểm tra nguồn gốc lâm sản
+1. Kiểm tra nguồn gốc lâm sản bao gồm hoạt động kiểm tra hồ sơ lâm sản, kiểm tra lâm sản trong quá trình khai thác, vận chuyển, chế biến, mua bán, xuất khẩu, nhập khẩu, gây nuôi, trồng cấy nhân tạo, cất giữ lâm sản theo quy định của pháp luật.
+2. Việc kiểm tra nguồn gốc lâm sản được thực hiện theo kế hoạch hoặc đột xuất khi phát hiện có dấu hiệu vi phạm pháp luật.
+3. Kiểm lâm các cấp trong phạm vi nhiệm vụ, quyền hạn của mình chủ trì, phối hợp với lực lượng Công an nhân dân, Quân đội nhân dân, dân quân tự vệ, quản lý thị trường, hải quan và cơ quan, tổ chức liên quan trong việc đấu tranh phòng ngừa, kiểm tra, phát hiện và xử lý vi phạm theo quy định của pháp luật.
+4. Trong phạm vi nhiệm vụ, quyền hạn của mình, lực lượng Công an nhân dân, Quân đội nhân dân, dân quân tự vệ, quản lý thị trường, hải quan, cơ quan tư pháp và cơ quan, tổ chức liên quan phối hợp với Kiểm lâm thực hiện chức năng, nhiệm vụ, quyền hạn theo quy định của pháp luật.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về hồ sơ lâm sản hợp pháp, trình tự, thủ tục quản lý nguồn gốc lâm sản.
+Điều 43. Trách nhiệm bảo vệ rừng của toàn dân
+1. Cơ quan nhà nước, tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư có trách nhiệm bảo vệ rừng theo quy định của Luật này, pháp luật về phòng cháy và chữa cháy, bảo vệ môi trường, đa dạng sinh học, bảo vệ và kiểm dịch thực vật, thú y và quy định khác của pháp luật có liên quan.
+2. Tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư có trách nhiệm thông báo kịp thời cho cơ quan nhà nước có thẩm quyền hoặc chủ rừng về cháy rừng, sinh vật gây hại rừng và hành vi vi phạm quy định về quản lý, bảo vệ rừng; chấp hành sự huy động nhân lực, phương tiện của cơ quan nhà nước có thẩm quyền khi xảy ra cháy rừng.
+Chương V
+PHÁT TRIỂN RỪNG
+Điều 44. Phát triển giống cây lâm nghiệp
+1. Thiết lập hệ thống rừng giống quốc gia để lưu giữ nguồn gen, cung ứng nguồn giống chất lượng cao bền vững.
+2. Xây dựng, nâng cấp rừng giống, vườn giống, vườn cây đầu dòng; đối với cây trồng chính, chỉ đưa vào sản xuất, kinh doanh giống, nguồn giống, vật liệu giống được công nhận.
+3. Nâng cao phẩm chất di truyền, chọn, tạo giống mới có năng suất, chất lượng cao, khả năng chống chịu tốt, đáp ứng yêu cầu kinh doanh lâm sản và thích ứng với biến đổi khí hậu.
+4. Nghiên cứu và ứng dụng tiến bộ khoa học - kỹ thuật trong chọn, tạo, nhân giống cây trồng lâm nghiệp cho năng suất, chất lượng cao; tăng cường năng lực quản lý, điều hành sản xuất, cung ứng giống; nâng cao nhận thức về giống cây lâm nghiệp cho người dân và cơ quan, tổ chức.
+5. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định danh mục giống cây trồng chính; trình tự, thủ tục công nhận giống, nguồn giống, vật liệu giống.
+Điều 45. Biện pháp lâm sinh
+1. Biện pháp lâm sinh bao gồm:
+a) Khoanh nuôi xúc tiến tái sinh tự nhiên hoặc có trồng bổ sung;
+b) Nuôi dưỡng, làm giàu rừng;
+c) Cải tạo rừng tự nhiên;
+d) Trồng rừng mới, trồng lại rừng, chăm sóc, nuôi dưỡng rừng trồng.
+2. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định chi tiết Điều này.
+Điều 46. Phát triển rừng đặc dụng
+1. Đối với vườn quốc gia, khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh, thực hiện các hoạt động sau đây:
+a) Duy trì cấu trúc rừng tự nhiên, bảo đảm sự phát triển tự nhiên của rừng trong phân khu bảo vệ nghiêm ngặt của rừng đặc dụng;
+b) Phục hồi cấu trúc rừng tự nhiên; áp dụng biện pháp kết hợp tái sinh tự nhiên với làm giàu rừng, trồng loài cây bản địa trong phân khu phục hồi sinh thái của rừng đặc dụng và phân khu dịch vụ, hành chính của rừng đặc dụng;
+c) Cứu hộ, bảo tồn và phát triển các loài sinh vật.
+2. Đối với khu bảo vệ cảnh quan, thực hiện các hoạt động sau đây:
+a) Duy trì diện tích rừng hiện có;
+b) Áp dụng biện pháp kỹ thuật trồng rừng, khoanh nuôi xúc tiến tái sinh tự nhiên, làm giàu rừng để nâng cao chất lượng rừng.
+3. Đối với khu rừng nghiên cứu, thực nghiệm khoa học, thực hiện hoạt động bảo vệ và phát triển rừng theo nhiệm vụ nghiên cứu khoa học do chủ rừng hoặc cơ quan nhà nước có thẩm quyền quyết định.
+4. Đối với rừng giống quốc gia, thực hiện hoạt động để duy trì và phát triển rừng theo kế hoạch được cơ quan nhà nước có thẩm quyền phê duyệt.
+5. Đối với vườn thực vật quốc gia, thực hiện hoạt động sưu tập, chọn lọc, lưu giữ, gây trồng loài cây bản địa gắn với nghiên cứu khoa học, đào tạo, giáo dục môi trường, tham quan du lịch.
+Điều 47. Phát triển rừng phòng hộ
+1. Đối với rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới, phải được xây dựng thành rừng tập trung, liền vùng, duy trì và hình thành cấu trúc rừng bảo đảm chức năng phòng hộ.
+2. Đối với rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới, rừng bảo vệ nguồn nước của cộng đồng dân cư, thực hiện các hoạt động sau đây:
+a) Bảo vệ, kết hợp khoanh nuôi xúc tiến tái sinh tự nhiên với làm giàu rừng;
+b) Trồng rừng ở nơi đất trống, không có khả năng tái sinh tự nhiên thành rừng; trồng hỗn giao nhiều loài cây bản địa, loài cây đa tác dụng, cây lâm sản ngoài gỗ.
+3. Đối với rừng phòng hộ chắn gió, chắn cát bay; rừng phòng hộ chắn sóng, lấn biển, thực hiện các hoạt động sau đây:
+a) Thiết lập đai rừng phù hợp với điều kiện tự nhiên ở từng vùng;
+b) Áp dụng biện pháp trồng rừng bằng loài cây có bộ rễ sâu bám chắc, ưu tiên cây bản địa, sinh trưởng được trong điều kiện khắc nghiệt và có khả năng chống chịu tốt; được trồng bổ sung tại những nơi chưa đủ tiêu chí thành rừng.
+Điều 48. Phát triển rừng sản xuất
+1. Duy trì diện tích rừng sản xuất là rừng tự nhiên hiện có; phục hồi rừng tự nhiên ở những diện tích trước đây đã khai thác mà chưa đạt tiêu chí thành rừng; chỉ được cải tạo rừng tự nhiên ở những diện tích không có khả năng tự phục hồi.
+2. Hình thành vùng rừng trồng tập trung, áp dụng công nghệ sinh học hiện đại và kỹ thuật thâm canh rừng để nâng cao năng suất rừng trồng, cung cấp nguyên liệu cho công nghiệp chế biến lâm sản.
+3. Khuyến khích trồng rừng hỗn loài, lâm sản ngoài gỗ; kết hợp trồng cây gỗ nhỏ mọc nhanh và cây gỗ lớn dài ngày; chuyển hóa rừng trồng gỗ nhỏ sang rừng trồng gỗ lớn ở những nơi nó điều kiện thích hợp.
+Điều 49. Trồng cấy thực vật rừng, gây nuôi phát triển động vật rừng
+1. Tổ chức, cá nhân trồng cấy nhân tạo và gây nuôi các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm; các loài thực vật rừng, động vật rừng thuộc Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp; động vật rừng thông thường phải bảo đảm điều kiện về nguồn giống hợp pháp, cơ sở nuôi bảo đảm an toàn với người và động vật nuôi, vệ sinh môi trường, phòng ngừa dịch bệnh, không ảnh hưởng tiêu cực đến bảo tồn quần thể loài trong môi trường tự nhiên.
+2. Chính phủ quy định chi tiết điều kiện, trình tự, thủ tục, thẩm quyền cấp phép trồng cấy nhân tạo và gây nuôi các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm; các loài thực vật rừng, động vật rừng thuộc Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp; loài động vật rừng thông thường.
+Điều 50. Trồng cây phân tán
+1. Trồng cây phân tán là trồng cây ngoài diện tích rừng để tăng diện tích cây xanh, tạo cảnh quan, bảo vệ môi trường, kết hợp cung cấp gỗ, củi và dịch vụ du lịch.
+2. Cơ quan, tổ chức ở trung ương và địa phương có trách nhiệm tuyên truyền, phát động toàn dân thực hiện phong trào trồng cây phân tán; tổ chức trồng, quản lý, bảo vệ cây phân tán tại đô thị, nông thôn, khu công nghiệp.
+3. Nhà nước có chính sách hỗ trợ về giống, hướng dẫn kỹ thuật trồng cây phân tán.
+Điều 51. Kết cấu hạ tầng phục vụ bảo vệ và phát triển rừng
+1. Hệ thống đường lâm nghiệp bao gồm đường vận xuất, vận chuyển lâm sản, đường tuần tra bảo vệ rừng; kho, bến bãi tập kết lâm sản.
+2. Công trình phòng, trừ sinh vật gây hại rừng, cứu hộ, bảo vệ, phát triển động vật rừng, thực vật rừng.
+3. Công trình phòng cháy và chữa cháy rừng bao gồm đường ranh cản lửa, chòi canh lửa rừng, trạm quan sát, dự báo lửa rừng; kênh, mương, bể chứa nước, đập, hồ chứa nước phòng cháy và chữa cháy rừng.
+4. Trạm bảo vệ rừng; biển báo, biển cảnh báo, cọc mốc ranh giới khu rừng, tiểu khu, khoảnh và lô rừng.
+5. Công trình kết cấu hạ tầng cần thiết khác phục vụ bảo vệ và phát triển rừng.
+Chương VI
+SỬ DỤNG RỪNG
+Mục 1. SỬ DỤNG RỪNG ĐẶC DỤNG
+Điều 52. Khai thác lâm sản trong rừng đặc dụng
+1. Đối với vườn quốc gia, khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh, được quy định như sau:
+a) Không khai thác lâm sản trong phân khu bảo vệ nghiêm ngặt của rừng đặc dụng; không khai thác tận thu cây gỗ đã chết, cây gãy đổ trong phân khu phục hồi sinh thái của rừng đặc dụng;
+b) Được khai thác tận thu cây gỗ đã chết, cây gãy đổ, nấm trong phân khu dịch vụ; hành chính của rừng đặc dụng;
+c) Được khai thác tận dụng gỗ, củi, thực vật rừng ngoài gỗ, nấm trong phạm vi giải phóng mặt bằng để xây dựng công trình được cơ quan nhà nước có thẩm quyền phê duyệt;
+d) Được thu thập mẫu vật các loài thực vật rừng, động vật rừng, nấm, nguồn gen sinh vật theo nhiệm vụ khoa học và công nghệ sau khi được cơ quan nhà nước có thẩm quyền phê duyệt.
+2. Đối với khu rừng bảo vệ cảnh quan, được quy định như sau:
+a) Được khai thác tận dụng gỗ, củi, thực vật rừng ngoài gỗ, nấm trong quá trình thực hiện biện pháp lâm sinh để bảo tồn, tôn tạo, khôi phục hệ sinh thái, cảnh quan, văn hóa, lịch sử và trong phạm vi giải phóng mặt bằng để xây dựng công trình sau khi được cơ quan nhà nước có thẩm quyền phê duyệt;
+b) Được thu thập mẫu vật các loài thực vật rừng, động vật rừng, nấm, nguồn gen sinh vật theo nhiệm vụ khoa học và công nghệ sau khi được cơ quan nhà nước có thẩm quyền phê duyệt;
+c) Đối với rừng tín ngưỡng, được khai thác tận thu cây gỗ đã chết, cây gãy đổ, thực vật rừng, nấm, lâm sản ngoài gỗ; khai thác gỗ phục vụ mục đích chung của cộng đồng được cơ quan nhà nước có thẩm quyền phê duyệt.
+3. Đối với khu rừng nghiên cứu, thực nghiệm khoa học, được quy định như sau:
+a) Được khai thác lâm sản theo nhiệm vụ khoa học và công nghệ sau khi được cơ quan nhà nước có thẩm quyền phê duyệt;
+b) Được khai thác tận dụng gỗ, củi, thực vật rừng ngoài gỗ, nấm trong quá trình thực hiện điều chỉnh tổ thành rừng, nuôi dưỡng rừng và áp dụng biện pháp lâm sinh khác; khai thác tận thu gỗ, củi, thực vật rừng trong phạm vi giải phóng mặt bằng để xây dựng công trình được cơ quan nhà nước có thẩm quyền phê duyệt;
+c) Được khai thác, thu thập các loài thực vật rừng, động vật rừng, nấm, vi sinh vật, mẫu vật các loài thực vật rừng, động vật rừng, nguồn gen phục vụ nghiên cứu khoa học và phát triển công nghệ.
+4. Đối với vườn thực vật quốc gia, rừng giống quốc gia, được quy định như sau:
+a) Được khai thác vật liệu giống;
+b) Được khai thác tận dụng gỗ, củi, thực vật rừng ngoài gỗ, nấm trong quá trình thực hiện điều chỉnh tổ thành rừng, nuôi dưỡng rừng và áp dụng biện pháp lâm sinh khác; khai thác tận thu gỗ, củi, thực vật rừng, nấm trong phạm vi giải phóng mặt bằng để xây dựng công trình được cơ quan nhà nước có thẩm quyền phê duyệt; khai thác tận thu cây gỗ đã chết, cây gãy đổ.
+5. Việc khai thác lâm sản trong rừng đặc dụng thực hiện theo quy định của Luật này và Quy chế quản lý rừng.
+Điều 53. Hoạt động nghiên cứu khoa học, giảng dạy, thực tập, du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng
+1. Hoạt động nghiên cứu khoa học, giảng dạy, thực tập, du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan. Không được thực hiện hoạt động nghỉ dưỡng, giải trí trong phân khu bảo vệ nghiêm ngặt của rừng đặc dụng.
+2. Chủ rừng xây dựng đề án du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng trình cơ quan nhà nước có thẩm quyền phê duyệt.
+3. Tổ chức, cá nhân đầu tư hoạt động du lịch sinh thái, nghỉ dưỡng, giải trí phải lập dự án theo quy định của pháp luật có liên quan và phù hợp với đề án du dịch sinh thái, nghỉ dưỡng, giải trí.
+4. Chủ rừng tự tổ chức, hợp tác, liên kết hoặc cho tổ chức, cá nhân thuê môi trường rừng để kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng bảo đảm không làm ảnh hưởng đến việc bảo tồn hệ sinh thái tự nhiên, đa dạng sinh học, cảnh quan môi trường và các chức năng khác của khu rừng.
+5. Trình tự, thủ tục xây dựng, thẩm định và phê duyệt đề án du lịch sinh thái, nghỉ dưỡng, giải trí và quản lý xây dựng công trình phục vụ du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng đặc dụng thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan.
+Điều 54. Ổn định đời sống dân cư sống trong rừng đặc dụng và vùng đệm của rừng đặc dụng
+1. Không được di dân từ nơi khác đến rừng đặc dụng.
+2. Ban quản lý rừng đặc dụng khoán bảo vệ và phát triển rừng với hộ gia đình, cá nhân, cộng đồng dân cư tại chỗ để bảo vệ và phát triển rừng. Căn cứ điều kiện cụ thể, ban quản lý rừng đặc dụng phối hợp với chính quyền địa phương lập dự án di dân, tái định cư trình cơ quan nhà nước có thẩm quyền phê duyệt để di dân ra khỏi phân khu bảo vệ nghiêm ngặt của rừng đặc dụng.
+3. Đối với phân khu phục hồi sinh thái của rừng đặc dụng, ban quản lý rừng đặc dụng khoán bảo vệ và phát triển rừng hoặc hợp tác, liên kết với hộ gia đình, cá nhân, cộng đồng dân cư tại chỗ để bảo vệ và phát triển rừng.
+4. Đất ở, đất sản xuất của hộ gia đình, cá nhân, cộng đồng dân cư xen kẽ trong rừng đặc dụng không thuộc quy hoạch rừng đặc dụng thì hộ gia đình, cá nhân, cộng đồng dân cư được tiếp tục sử dụng theo quy hoạch sử dụng đất được cơ quan nhà nước có thẩm quyền phê duyệt và phù hợp với phương án quản lý rừng bền vững của chủ rừng.
+5. Ban quản lý rừng đặc dụng có trách nhiệm xây dựng chương trình, dự án đầu tư phát triển vùng đệm; tổ chức thực hiện chương trình, dự án đầu tư vùng đệm có sự tham gia của cộng đồng dân cư địa phương; phối hợp với chính quyền địa phương rà soát, lập kế hoạch quản lý đối với diện tích đất ở, đất sản xuất xen kẽ trong rừng đặc dụng trình cơ quan nhà nước có thẩm quyền phê duyệt.
+6. Tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư địa phương hoặc tổ chức có hoạt động trong vùng đệm có quyền giám sát, tham gia thực hiện, phối hợp quản lý chương trình, dự án đầu tư vùng đệm theo quy định của pháp luật.
+7. Việc thực hiện ổn định đời sống dân cư sống trong rừng đặc dụng và vùng đệm của rừng đặc dụng theo Quy chế quản lý rừng.
+Mục 2. SỬ DỤNG RỪNG PHÒNG HỘ
+Điều 55. Khai thác lâm sản trong rừng phòng hộ
+1. Đối với rừng phòng hộ là rừng tự nhiên, được khai thác cây gỗ đã chết, cây gãy đổ, cây bị sâu bệnh, cây đứng ở nơi mật độ lớn hơn mật độ quy định.
+2. Đối với rừng phòng hộ là rừng tự nhiên, việc khai thác lâm sản ngoài gỗ được quy định như sau:
+a) Được khai thác măng, tre, nứa, nấm trong rừng phòng hộ khi đã đạt yêu cầu phòng hộ;
+b) Được khai thác lâm sản ngoài gỗ khác mà không làm ảnh hưởng đến khả năng phòng hộ của rừng.
+3. Đối với rừng phòng hộ là rừng trồng, được quy định như sau:
+a) Được khai thác cây phụ trợ, chặt tỉa thưa khi rừng trồng có mật độ lớn hơn mật độ quy định;
+b) Được khai thác cây trồng chính khi đạt tiêu chuẩn khai thác theo phương thức khai thác chọn hoặc chặt trắng theo băng, đám rừng;
+c) Sau khi khai thác, chủ rừng phải thực hiện việc tái sinh hoặc trồng lại rừng trong vụ trồng rừng kế tiếp và tiếp tục quản lý, bảo vệ.
+4. Việc khai thác lâm sản trong rừng phòng hộ thực hiện theo quy định của Luật này và Quy chế quản lý rừng.
+Điều 56. Hoạt động nghiên cứu khoa học, giảng dạy, thực tập, du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng phòng hộ
+1. Hoạt động nghiên cứu khoa học, giảng dạy, thực tập trong rừng phòng hộ thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan.
+2. Chủ rừng xây dựng đề án du lịch sinh thái, nghỉ dưỡng, giải trí của khu rừng phòng hộ trình cơ quan nhà nước có thẩm quyền phê duyệt.
+3. Tổ chức, cá nhân đầu tư hoạt động du lịch sinh thái, nghỉ dưỡng, giải trí phải lập dự án theo quy định của pháp luật có liên quan và phù hợp với đề án du dịch sinh thái, nghỉ dưỡng, giải trí.
+4. Chủ rừng tự tổ chức, hợp tác, liên kết hoặc cho tổ chức, cá nhân thuê môi trường rừng để kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng bảo đảm không làm ảnh hưởng đến bảo tồn hệ sinh thái tự nhiên, đa dạng sinh học, cảnh quan môi trường và các chức năng khác của khu rừng.
+5. Trình tự, thủ tục xây dựng, thẩm định và phê duyệt đề án du lịch sinh thái, nghỉ dưỡng, giải trí và diện tích đất rừng được sử dụng để xây dựng công trình phục vụ du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng phòng hộ thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan.
+Điều 57. Sản xuất lâm, nông, ngư nghiệp kết hợp trong rừng phòng hộ
+1. Được trồng xen cây nông nghiệp, cây lâm sản ngoài gỗ; chăn nuôi và nuôi trồng thủy sản dưới tán rừng, không làm ảnh hưởng khả năng phòng hộ của rừng.
+2. Được sử dụng diện tích đất chưa có rừng để sản xuất nông nghiệp, ngư nghiệp kết hợp, không làm ảnh hưởng khả năng phòng hộ của rừng.
+3. Việc sản xuất lâm, nông, ngư nghiệp kết hợp trong rừng phòng hộ thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan.
+Mục 3. SỬ DỤNG RỪNG SẢN XUẤT
+Điều 58. Khai thác lâm sản trong rừng sản xuất là rừng tự nhiên
+1. Điều kiện khai thác lâm sản trong rừng sản xuất là rừng tự nhiên được quy định như sau:
+a) Chủ rừng là tổ chức phải có phương án quản lý rừng bền vững được cơ quan nhà nước có thẩm quyền phê duyệt;
+b) Chủ rừng là hộ gia đình, cá nhân, cộng đồng dân cư khai thác gỗ có đề nghị và được Ủy ban nhân dân cấp huyện chấp thuận.
+2. Việc khai thác lâm sản trong rừng sản xuất là rừng tự nhiên thực hiện theo quy định của Luật này và Quy chế quản lý rừng.
+Điều 59. Khai thác lâm sản trong rừng sản xuất là rừng trồng
+1. Chủ rừng quyết định khai thác rừng trồng thuộc sở hữu của mình.
+2. Trường hợp rừng trồng bằng nguồn vốn ngân sách nhà nước, chủ rừng phải lập hồ sơ khai thác lâm sản trình cơ quan nhà nước có thẩm quyền phê duyệt nguồn vốn quyết định.
+3. Việc khai thác lâm sản trong rừng sản xuất là rừng trồng thực hiện theo quy định của Luật này và Quy chế quản lý rừng.
+Điều 60. Sản xuất lâm, nông, ngư nghiệp kết hợp, nghiên cứu khoa học, giảng dạy, thực tập, kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí trong rừng sản xuất
+1. Được trồng xen cây nông nghiệp, cây lâm sản ngoài gỗ; chăn nuôi và nuôi trồng thủy sản dưới tán rừng, không làm suy giảm chất lượng rừng.
+2. Được sử dụng diện tích đất chưa có rừng để sản xuất nông nghiệp, ngư nghiệp kết hợp, không làm thoái hóa, ô nhiễm đất; không chuyển mục đích sử dụng đất rừng.
+3. Được kết hợp kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí, nghiên cứu khoa học, giảng dạy, thực tập.
+4. Được tự tổ chức, hợp tác, liên doanh, liên kết hoặc cho tổ chức, cá nhân thuê rừng, thuê môi trường rừng phù hợp với quyền của chủ rừng để kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí.
+5. Được xây dựng công trình phục vụ du lịch sinh thái, nghỉ dưỡng, giải trí.
+6. Các hoạt động quy định tại Điều này thực hiện theo Quy chế quản lý rừng và quy định khác của pháp luật có liên quan.
+Mục 4. DỊCH VỤ MÔI TRƯỜNG RỪNG
+Điều 61. Các loại dịch vụ môi trường rừng
+1. Bảo vệ đất, hạn chế xói mòn và bồi lắng lòng hồ, lòng sông, lòng suối.
+2. Điều tiết, duy trì nguồn nước cho sản xuất và đời sống xã hội.
+3. Hấp thụ và lưu giữ các-bon của rừng; giảm phát thải khí nhà kính từ hạn chế mất rừng và suy thoái rừng, quản lý rừng bền vững, tăng trưởng xanh.
+4. Bảo vệ, duy trì vẻ đẹp cảnh quan tự nhiên, bảo tồn đa dạng sinh học hệ sinh thái rừng cho kinh doanh dịch vụ du lịch.
+5. Cung ứng bãi đẻ, nguồn thức ăn, con giống tự nhiên, nguồn nước từ rừng và các yếu tố từ môi trường, hệ sinh thái rừng để nuôi trồng thủy sản.
+Điều 62. Nguyên tắc chi trả dịch vụ môi trường rừng
+1. Rừng được chi trả dịch vụ môi trường rừng khi đáp ứng các tiêu chí quy định tại khoản 3 Điều 2 của Luật này và cung ứng một hoặc một số dịch vụ môi trường rừng quy định tại Điều 61 của Luật này.
+2. Bên sử dụng dịch vụ môi trường rừng phải chi trả tiền dịch vụ môi trường rừng cho bên cung ứng dịch vụ môi trường rừng.
+3. Thực hiện chi trả dịch vụ môi trường rừng bằng tiền thông qua hình thức chi trả trực tiếp hoặc chi trả gián tiếp.
+4. Tiền chi trả dịch vụ môi trường rừng là một yếu tố trong giá thành sản phẩm, hàng hóa, dịch vụ của bên sử dụng dịch vụ môi trường rừng.
+5. Bảo đảm công khai, dân chủ, khách quan, công bằng; phù hợp với pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+Điều 63. Đối tượng, hình thức chi trả và quản lý sử dụng tiền dịch vụ môi trường rừng
+1. Đối tượng được chi trả tiền dịch vụ môi trường rừng bao gồm:
+a) Chủ rừng được quy định tại Điều 8 của Luật này;
+b) Tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư có hợp đồng nhận khoán bảo vệ và phát triển rừng với chủ rừng là tổ chức do Nhà nước thành lập;
+c) Ủy ban nhân dân cấp xã và tổ chức khác được Nhà nước giao trách nhiệm quản lý rừng theo quy định của pháp luật.
+2. Đối tượng phải chi trả tiền dịch vụ môi trường rừng được quy định như sau:
+a) Cơ sở sản xuất thủy điện phải chi trả tiền dịch vụ về bảo vệ đất, hạn chế xói mòn và bồi lắng lòng hồ, lòng sông, lòng suối, điều tiết và duy trì nguồn nước cho sản xuất thủy điện;
+b) Cơ sở sản xuất và cung ứng nước sạch phải chi trả tiền dịch vụ về điều tiết và duy trì nguồn nước cho sản xuất nước sạch;
+c) Cơ sở sản xuất công nghiệp phải chi trả tiền dịch vụ về điều tiết và duy trì nguồn nước cho sản xuất công nghiệp;
+d) Tổ chức, cá nhân kinh doanh dịch vụ du lịch sinh thái, nghỉ dưỡng, giải trí phải chi trả tiền dịch vụ về bảo vệ, duy trì vẻ đẹp cảnh quan tự nhiên, bảo tồn đa dạng sinh học hệ sinh thái rừng;
+đ) Tổ chức, cá nhân hoạt động sản xuất, kinh doanh gây phát thải khí nhà kính lớn phải chi trả tiền dịch vụ về hấp thụ và lưu giữ các-bon của rừng;
+e) Cơ sở nuôi trồng thủy sản phải chi trả tiền dịch vụ cung ứng bãi đẻ, nguồn thức ăn, con giống tự nhiên, nguồn nước và các yếu tố từ môi trường, hệ sinh thái rừng cho nuôi trồng thủy sản;
+g) Các đối tượng khác theo quy định của pháp luật.
+3. Hình thức chi trả dịch vụ môi trường rừng được quy định như sau:
+a) Bên sử dụng dịch vụ môi trường rừng trả tiền trực tiếp cho bên cung ứng dịch vụ môi trường rừng;
+b) Bên sử dụng dịch vụ môi trường rừng trả tiền cho bên cung ứng dịch vụ môi trường rừng ủy thác qua quỹ bảo vệ và phát triển rừng;
+c) Nhà nước khuyến khích áp dụng chi trả trực tiếp cho tất cả các trường hợp nếu bên cung ứng và bên sử dụng dịch vụ môi trường rừng tự thỏa thuận trên cơ sở mức tiền chi trả dịch vụ do Chính phủ quy định.
+4. Việc quản lý sử dụng tiền dịch vụ môi trường rừng được thực hiện như sau:
+a) Xác định tổng số tiền thu được từ dịch vụ môi trường rừng;
+b) Xác định mức chi trả dịch vụ môi trường rừng;
+c) Xác định đối tượng được chi trả dịch vụ môi trường rừng;
+d) Xác định hình thức chi trả dịch vụ môi trường rừng;
+đ) Lập kế hoạch thu, chi dịch vụ môi trường rừng;
+e) Xác định trường hợp được miễn, giảm nộp tiền dịch vụ môi trường rừng;
+g) Tổ chức chi trả dịch vụ môi trường rừng;
+h) Kiểm tra, giám sát quản lý sử dụng tiền dịch vụ môi trường rừng.
+5. Chính phủ quy định chi tiết đối tượng, hình thức chi trả, mức chi trả dịch vụ môi trường rừng và điều chỉnh, miễn, giảm mức chi trả dịch vụ môi trường rừng; quản lý sử dụng tiền dịch vụ môi trường rừng.
+Điều 64. Quyền và nghĩa vụ của bên sử dụng dịch vụ môi trường rừng
+1. Bên sử dụng dịch vụ môi trường rừng có quyền sau đây:
+a) Được thông báo về tình hình thực hiện, kết quả bảo vệ và phát triển rừng trong phạm vi khu rừng có cung ứng dịch vụ môi trường rừng; thông báo về diện tích, chất lượng và trạng thái rừng ở khu vực có cung ứng dịch vụ môi trường rừng;
+b) Được quỹ bảo vệ và phát triển rừng thông báo kết quả chi trả ủy thác tiền dịch vụ môi trường rừng đến bên cung ứng dịch vụ môi trường rừng;
+c) Tham gia vào quá trình lập kế hoạch, tổ chức thực hiện, kiểm tra, giám sát và nghiệm thu kết quả bảo vệ và phát triển rừng trên phạm vi khu rừng có cung ứng dịch vụ môi trường rừng;
+d) Đề nghị cơ quan nhà nước có thẩm quyền xem xét việc điều chỉnh tiền chi trả dịch vụ môi trường rừng trong trường hợp bên cung ứng dịch vụ môi trường rừng không bảo đảm đúng diện tích rừng hoặc làm suy giảm chất lượng, trạng thái rừng mà bên sử dụng dịch vụ đã chi trả số tiền tương ứng.
+2. Bên sử dụng dịch vụ môi trường rừng có nghĩa vụ sau đây:
+a) Ký hợp đồng, kê khai số tiền dịch vụ môi trường rừng phải chi trả ủy thác vào quỹ bảo vệ và phát triển rừng;
+b) Trả tiền dịch vụ môi trường rừng đầy đủ và đúng hạn theo hợp đồng cho chủ rừng trong trường hợp chi trả trực tiếp hoặc cho quỹ bảo vệ và phát triển rừng trong trường hợp chi trả gián tiếp.
+Điều 65. Quyền và nghĩa vụ của bên cung ứng dịch vụ môi trường rừng
+1. Bên cung ứng dịch vụ môi trường rừng có quyền sau đây:
+a) Yêu cầu chi trả tiền sử dụng dịch vụ môi trường rừng theo quy định tại khoản 3 Điều 63 của Luật này;
+b) Được cung cấp thông tin về giá trị dịch vụ môi trường rừng;
+c) Tham gia vào việc xây dựng kế hoạch, lập hồ sơ phục vụ chi trả, kiểm tra quá trình thực hiện chi trả dịch vụ môi trường rừng của cơ quan quản lý nhà nước và của quỹ bảo vệ và phát triển rừng.
+2. Bên cung ứng dịch vụ môi trường rừng có nghĩa vụ sau đây:
+a) Phải bảo đảm diện tích cung ứng dịch vụ môi trường rừng được bảo vệ và phát triển theo quy hoạch, kế hoạch quản lý đối với từng loại rừng được cơ quan nhà nước có thẩm quyền phê duyệt;
+b) Tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư nhận khoán bảo vệ và phát triển rừng phải bảo đảm diện tích cung ứng dịch vụ môi trường rừng được bảo vệ và phát triển theo hợp đồng khoán đã ký với chủ rừng;
+c) Bên cung ứng dịch vụ môi trường rừng là tổ chức do Nhà nước thành lập phải quản lý, sử dụng số tiền được chi trả theo quy định của pháp luật.
+Chương VII
+CHẾ BIẾN VÀ THƯƠNG MẠI LÂM SẢN
+Mục 1. CHẾ BIẾN LÂM SẢN
+Điều 66. Chính sách phát triển chế biến lâm sản
+1. Chính sách phát triển chế biến lâm sản được quy định như sau:
+a) Hỗ trợ doanh nghiệp hợp tác, liên doanh, liên kết với chủ rừng để tạo vùng nguyên liệu, quản lý rừng bền vững, tiêu thụ sản phẩm, ứng dụng khoa học, công nghệ cao, công nghệ tiên tiến, công nghệ mới và giải pháp tăng trưởng xanh, nâng cao giá trị gia tăng;
+b) Ưu tiên phát triển công nghiệp hỗ trợ trong chế biến lâm sản;
+c) Hỗ trợ đào tạo nguồn nhân lực trong chế biến lâm sản.
+2. Chính sách phát triển chế biến lâm sản quy định tại khoản 1 Điều này thực hiện theo quy định của Chính phủ.
+Điều 67. Chế biến mẫu vật các loài thực vật rừng, động vật rừng
+1. Cơ sở chế biến và hoạt động chế biến mẫu vật các loài thực vật rừng, động vật rừng phải tuân thủ quy định của Luật này, pháp luật về đầu tư, doanh nghiệp, bảo vệ môi trường, bảo vệ và kiểm dịch thực vật, thú y, chất lượng sản phẩm, hàng hóa, an toàn thực phẩm và phù hợp với Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp.
+2. Việc chế biến mẫu vật các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm và mẫu vật các loài thực vật rừng hoang dã, động vật rừng hoang dã thuộc Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp phải bảo đảm các điều kiện sau đây:
+a) Mẫu vật có nguồn gốc hợp pháp từ cơ sở trồng cấy nhân tạo hoặc gây nuôi;
+b) Mẫu vật có nguồn gốc khai thác hợp pháp từ tự nhiên;
+c) Mẫu vật sau xử lý tịch thu theo quy định của pháp luật.
+3. Chế biến mẫu vật các loài thực vật rừng, động vật rừng thông thường phải bảo đảm có nguồn gốc hợp pháp.
+Điều 68. Quyền và nghĩa vụ của cơ sở chế biến lâm sản
+1. Cơ sở chế biến lâm sản có quyền sau đây:
+a) Sản xuất những mặt hàng lâm sản Nhà nước không cấm;
+b) Được Nhà nước bảo đảm quyền và lợi ích hợp pháp; hỗ trợ liên kết chuỗi sản xuất, chế biến; áp dụng chính sách quy định tại Điều 66 của Luật này và pháp luật về đầu tư, doanh nghiệp trong khu vực nông thôn, nhất là khu vực vùng sâu, vùng xa.
+2. Cơ sở chế biến lâm sản có nghĩa vụ sau đây:
+a) Tuân thủ quy định của pháp luật về đầu tư, doanh nghiệp, bảo vệ môi trường, lao động, tài chính; quy định về hồ sơ lâm sản hợp pháp và kiểm tra nguồn gốc lâm sản;
+b) Chế biến mẫu vật các loài thực vật rừng, động vật rừng phải thực hiện theo quy định tại Điều 67 của Luật này;
+c) Chấp hành sự quản lý, kiểm tra, thanh tra của cơ quan nhà nước có thẩm quyền trong quá trình sản xuất.
+Điều 69. Hệ thống bảo đảm gỗ hợp pháp Việt Nam
+1. Nhà nước xây dựng và vận hành Hệ thống bảo đảm gỗ hợp pháp Việt Nam; ban hành tiêu chí, thẩm quyền, quy trình, thủ tục phân loại doanh nghiệp khai thác, vận chuyển, tiêu thụ, chế biến và xuất khẩu gỗ, sản phẩm gỗ.
+2. Chính phủ quy định chi tiết Điều này.
+Mục 2. THƯƠNG MẠI LÂM SẢN
+Điều 70. Chính sách phát triển thị trường lâm sản
+1. Chính sách phát triển thị trường lâm sản được quy định như sau:
+a) Tổ chức, cá nhân hợp tác, liên kết, thu mua, tiêu thụ lâm sản được cung cấp tín dụng ưu đãi theo quy định của pháp luật;
+b) Nhà nước hỗ trợ hoạt động xây dựng thương hiệu, xúc tiến thương mại, phát triển thị trường, cung cấp thông tin thị trường lâm sản trong nước và quốc tế.
+2. Chính sách phát triển thị trường lâm sản quy định tại khoản 1 Điều này thực hiện theo quy định của Chính phủ.
+Điều 71. Quyền và nghĩa vụ của cơ sở thương mại lâm sản
+1. Cơ sở thương mại lâm sản có quyền sau đây:
+a) Kinh doanh những mặt hàng lâm sản Nhà nước không cấm;
+b) Được Nhà nước bảo đảm quyền và lợi ích hợp pháp; hỗ trợ hợp tác, liên kết chuỗi kinh doanh lâm sản; áp dụng chính sách quy định tại Điều 70 của Luật này và pháp luật về đầu tư, doanh nghiệp trong khu vực nông thôn, nhất là khu vực vùng sâu, vùng xa.
+2. Cơ sở thương mại lâm sản có nghĩa vụ sau đây:
+a) Tuân thủ quy định của pháp luật về đầu tư, doanh nghiệp, bảo vệ môi trường, lao động, tài chính; quy định về hồ sơ lâm sản hợp pháp và kiểm tra nguồn gốc lâm sản;
+b) Chấp hành sự quản lý, kiểm tra, thanh tra trong quá trình kinh doanh của cơ quan nhà nước có thẩm quyền.
+Điều 72. Quản lý thương mại lâm sản và kinh doanh mẫu vật các loài thực vật rừng, động vật rừng
+1. Quản lý thương mại lâm sản được quy định như sau:
+a) Dự báo thị trường và định hướng phát triển chế biến lâm sản trong từng thời kỳ;
+b) Đàm phán điều ước quốc tế về thương mại, mở cửa thị trường lâm sản, công nhận lẫn nhau về gỗ hợp pháp và tiêu chí quản lý rừng bền vững;
+c) Cấp giấy phép, giấy chứng nhận đối với lâm sản xuất khẩu, nhập khẩu phù hợp với điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+d) Việc xuất khẩu, nhập khẩu, tạm nhập, tái xuất, tạm xuất, tái nhập, quá cảnh mẫu vật các loài thực vật rừng, động vật rừng vì mục đích thương mại phải tuân thủ quy định của pháp luật Việt Nam và Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+đ) Thương mại nội địa lâm sản phải thực hiện quy định về hồ sơ lâm sản hợp pháp và kiểm tra nguồn gốc lâm sản;
+e) Chính phủ quy định chi tiết khoản này.
+2. Kinh doanh mẫu vật các loài thực vật rừng, động vật rừng được quy định như sau:
+a) Kinh doanh mẫu vật các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm; các loài thực vật rừng hoang dã, động vật rừng hoang dã thuộc Phụ lục của Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp phải bảo đảm truy xuất nguồn gốc và quản lý theo chuỗi từ khai thác, trồng cấy, gây nuôi đến chế biến và tiêu dùng;
+b) Mẫu vật các loài quy định tại điểm a khoản này phải được đánh dấu xác định nguồn gốc hợp pháp phù hợp với tính chất và chủng loại của từng loại mẫu vật, bảo đảm chống làm giả hoặc tẩy xoá;
+c) Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định trình tự, thủ tục, hồ sơ truy xuất nguồn gốc và đánh dấu mẫu vật các loài quy định tại điểm a và điểm b khoản này.
+Chương VIII
+QUYỀN VÀ NGHĨA VỤ CỦA CHỦ RỪNG
+Mục 1. QUYỀN VÀ NGHĨA VỤ CHUNG CỦA CHỦ RỪNG
+Điều 73. Quyền chung của chủ rừng
+1. Được cơ quan nhà nước có thẩm quyền công nhận quyền sử dụng rừng, quyền sở hữu rừng sản xuất là rừng trồng theo quy định của pháp luật.
+2. Được hưởng lâm sản tăng thêm từ rừng do tự đầu tư vào rừng tự nhiên, rừng trồng là rừng đặc dụng, rừng phòng hộ.
+3. Sử dụng rừng phù hợp với thời hạn giao rừng, cho thuê rừng và thời hạn giao đất, cho thuê đất trồng rừng theo quy định của Luật này và pháp luật về đất đai.
+4. Được cung ứng dịch vụ môi trường rừng và hưởng lợi từ dịch vụ môi trường rừng.
+5. Được hướng dẫn về kỹ thuật và hỗ trợ khác theo quy định để bảo vệ và phát triển rừng, bảo tồn đa dạng sinh học rừng; được hưởng lợi từ công trình hạ tầng phục vụ bảo vệ và phát triển rừng do Nhà nước đầu tư.
+6. Được Nhà nước bồi thường giá trị rừng, tài sản do chủ rừng đầu tư, xây dựng hợp pháp tại thời điểm quyết định thu hồi rừng.
+7. Được Nhà nước hỗ trợ kinh phí đối với chủ rừng phát triển rừng sản xuất khi bị thiệt hại do thiên tai.
+8. Hợp tác, liên kết với tổ chức, cá nhân trong nước và nước ngoài để bảo vệ và phát triển rừng.
+9. Được bảo đảm các quyền và lợi ích hợp pháp khác.
+Điều 74. Nghĩa vụ chung của chủ rừng
+1. Quản lý, bảo vệ, phát triển, sử dụng rừng bền vững theo Quy chế quản lý rừng, quy định của Luật này và quy định khác của pháp luật có liên quan.
+2. Thực hiện quy định về theo dõi diễn biến rừng.
+3. Trả lại rừng khi Nhà nước thu hồi rừng theo quy định của Luật này.
+4. Bảo tồn đa dạng sinh học rừng, thực vật rừng, động vật rừng.
+5. Phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng.
+6. Chấp hành sự quản lý, thanh tra, kiểm tra, xử lý vi phạm của cơ quan nhà nước có thẩm quyền.
+7. Thực hiện nghĩa vụ tài chính và các nghĩa vụ khác theo quy định của pháp luật
+Mục 2. QUYỀN VÀ NGHĨA VỤ CỦA CHỦ RỪNG LÀ BAN QUẢN LÝ RỪNG ĐẶC DỤNG, BAN QUẢN LÝ RỪNG PHÒNG HỘ
+Điều 75. Quyền và nghĩa vụ của ban quản lý rừng đặc dụng
+1. Ban quản lý rừng đặc dụng có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được hưởng chính sách đầu tư bảo vệ và phát triển rừng đặc dụng theo quy định tại Điều 94 của Luật này;
+c) Khai thác lâm sản trong rừng đặc dụng theo quy định tại Điều 52, rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này;
+d) Được cho thuê môi trường rừng; hợp tác, liên kết kinh doanh du lịch sinh thái; nghỉ dưỡng, giải trí trừ phân khu bảo vệ nghiêm ngặt của rừng đặc dụng theo phương án quản lý rừng bền vững được cơ quan nhà nước có thẩm quyền phê duyệt;
+đ) Tiến hành hoạt động khoa học và công nghệ, giảng dạy, thực tập, hợp tác quốc tế.
+2. Ban quản lý rừng đặc dụng có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Lập và trình cơ quan nhà nước có thẩm quyền phê duyệt phương án quản lý rừng bền vững và thực hiện phương án đã được phê duyệt;
+c) Hỗ trợ cộng đồng dân cư trong vùng đệm ổn định đời sống, phát triển kinh tế - xã hội theo quy định tại Điều 54 của Luật này;
+d) Khoán bảo vệ và phát triển rừng cho hộ gia đình, cá nhân, cộng đồng dân cư tại chỗ theo quy định của Chính phủ.
+Điều 76. Quyền và nghĩa vụ của ban quản lý rừng phòng hộ
+1. Ban quản lý rừng phòng hộ có quyền sau đây:
+a) Các quyền quy định tại Điều 73 và điểm đ khoản 1 Điều 75 của Luật này;
+b) Cho thuê môi trường rừng; hợp tác, liên kết kinh doanh du lịch sinh thái, nghỉ dưỡng, giải trí theo phương án quản lý rừng bền vững được cơ quan nhà nước có thẩm quyền phê duyệt;
+c) Được hưởng chính sách đầu tư bảo vệ và phát triển rừng phòng hộ, rừng đặc dụng theo quy định tại Điều 94 của Luật này;
+d) Khai thác lâm sản trong rừng đặc dụng là khu bảo vệ cảnh quan theo quy định tại Điều 52, rừng phòng hộ theo quy định tại Điều 55, rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này.
+2. Ban quản lý rừng phòng hộ có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Lập và trình cơ quan nhà nước có thẩm quyền phê duyệt phương án quản lý rừng bền vững và thực hiện phương án đã được phê duyệt;
+c) Khoán bảo vệ và phát triển rừng cho hộ gia đình, cá nhân, cộng đồng dân cư tại chỗ theo quy định của Chính phủ.
+Mục 3. QUYỀN VÀ NGHĨA VỤ CỦA CHỦ RỪNG LÀ TỔ CHỨC KINH TẾ
+Điều 77. Quyền và nghĩa vụ của tổ chức kinh tế được Nhà nước giao rừng giống quốc gia xen kẽ trong diện tích rừng đã giao
+1. Tổ chức kinh tế được Nhà nước giao rừng giống quốc gia xen kẽ trong diện tích rừng đã giao có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được Nhà nước bảo đảm kinh phí đầu tư để duy trì và phát triển rừng giống theo kế hoạch được cơ quan nhà nước có thẩm quyền phê duyệt;
+c) Khai thác lâm sản trong rừng giống quốc gia theo quy định tại Điều 52 của Luật này;
+d) Bán sản phẩm để tạo nguồn thu và được quản lý, sử dụng nguồn thu theo quy định của pháp luật về tài chính.
+2. Tổ chức kinh tế được Nhà nước giao rừng giống quốc gia xen kẽ trong diện tích rừng đã giao có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Xây dựng và tổ chức thực hiện kế hoạch duy trì và phát triển rừng giống được cơ quan nhà nước có thẩm quyền phê duyệt.
+Điều 78. Quyền và nghĩa vụ của tổ chức kinh tế được Nhà nước giao rừng phòng hộ, rừng đặc dụng là khu bảo vệ cảnh quan
+1. Tổ chức kinh tế được Nhà nước giao rừng phòng hộ, rừng đặc dụng là khu bảo vệ cảnh quan có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được hưởng chính sách đầu tư bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ theo quy định tại Điều 94 của Luật này;
+c) Khai thác lâm sản trong rừng đặc dụng là khu bảo vệ cảnh quan theo quy định tại Điều 52, rừng phòng hộ theo quy định tại Điều 55 của Luật này;
+d) Cho thuê môi trường rừng; hợp tác, liên kết đầu tư phát triển du lịch sinh thái, nghỉ dưỡng, giải trí; sản xuất lâm, nông, ngư nghiệp kết hợp theo phương án quản lý rừng bền vững được cơ quan nhà nước có thẩm quyền phê duyệt.
+2. Tổ chức kinh tế được Nhà nước giao rừng phòng hộ, rừng đặc dụng là khu bảo vệ cảnh quan có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Lập và trình cơ quan nhà nước có thẩm quyền phê duyệt phương án quản lý rừng bền vững và thực hiện phương án đã được phê duyệt;
+c) Ký hợp đồng khoán bảo vệ và phát triển rừng cho hộ gia đình; cá nhân, cộng đồng dân cư tại chỗ theo quy định của Chính phủ.
+Điều 79. Quyền và nghĩa vụ của tổ chức kinh tế được Nhà nước cho thuê rừng sản xuất
+1. Tổ chức kinh tế được Nhà nước cho thuê rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được chia sẻ lợi ích từ rừng theo hợp đồng thuê rừng;
+c) Được sở hữu cây trồng, vật nuôi và tài sản khác gắn liền với rừng do chủ rừng đầu tư;
+d) Khai thác lâm sản trong rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này.
+2. Tổ chức kinh tế được Nhà nước cho thuê rừng sản xuất có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Lập và trình cơ quan nhà nước có thẩm quyền phương án quản lý rừng bền vững và thực hiện phương án đã được phê duyệt.
+Điều 80. Quyền và nghĩa vụ của tổ chức kinh tế được Nhà nước giao đất, cho thuê đất để trồng rừng
+1. Tổ chức kinh tế được Nhà nước giao đất để trồng rừng phòng hộ bằng vốn ngân sách nhà nước có quyền và nghĩa vụ sau đây:
+a) Các quyền và nghĩa vụ quy định tại Điều 73 và Điều 74 của Luật này;
+b) Được tổ chức trồng rừng theo dự toán thiết kế do cơ quan chủ quản nguồn vốn phê duyệt;
+c) Khai thác lâm sản trong rừng phòng hộ theo quy định tại Điều 55 của Luật này và được chia sẻ lợi ích từ rừng theo chính sách của Nhà nước.
+2. Tổ chức kinh tế được Nhà nước giao đất để trồng rừng phòng hộ bằng vốn tự đầu tư có quyền và nghĩa vụ sau đây:
+a) Các quyền và nghĩa vụ quy định tại Điều 73 và Điều 74 của Luật này;
+b) Được sở hữu cây trồng xen, vật nuôi và tài sản khác trên đất trồng rừng phòng hộ;
+c) Khai thác lâm sản trong rừng phòng hộ theo quy định tại Điều 55 của Luật này.
+3. Tổ chức kinh tế được Nhà nước cho thuê đất để trồng rừng sản xuất bằng vốn tự đầu tư có quyền và nghĩa vụ sau đây:
+a) Các quyền và nghĩa vụ quy định tại Điều 73 và Điều 74 của Luật này;
+b) Được sở hữu cây trồng, vật nuôi và tài sản khác trên đất trồng rừng;
+c) Khai thác lâm sản trong rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này;
+d) Được chuyển nhượng, cho thuê rừng sản xuất là rừng trồng; thế chấp, góp vốn bằng giá trị rừng sản xuất là rừng trồng.
+Mục 4. QUYỀN VÀ NGHĨA VỤ CỦA CHỦ RỪNG LÀ HỘ GIA ĐÌNH, CÁ NHÂN, CỘNG ĐỒNG DÂN CƯ
+Điều 81. Quyền và nghĩa vụ của hộ gia đình, cá nhân được Nhà nước giao rừng phòng hộ
+1. Hộ gia đình, cá nhân được Nhà nước giao rừng phòng hộ có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được Nhà nước bảo đảm kinh phí bảo vệ và phát triển rừng;
+c) Khai thác lâm sản trong rừng phòng hộ theo quy định tại Điều 55 của Luật này và được chia sẻ lợi ích từ rừng theo chính sách của Nhà nước;
+d) Được chuyển đổi diện tích rừng được giao cho hộ gia đình, cá nhân trong cùng xã, phường, thị trấn; cá nhân được để lại quyền sử dụng rừng cho người thừa kế theo quy định của pháp luật.
+2. Hộ gia đình, cá nhân được Nhà nước giao rừng phòng hộ có nghĩa vụ quy định tại Điều 74 của Luật này.
+Điều 82. Quyền và nghĩa vụ của hộ gia đình, cá nhân được Nhà nước giao rừng sản xuất
+1. Hộ gia đình, cá nhân được Nhà nước giao rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Đối với rừng sản xuất là rừng tự nhiên, được khai thác lâm sản theo quy định tại Điều 58 của Luật này và được chia sẻ lợi ích từ rừng theo chính sách của Nhà nước;
+c) Đối với rừng sản xuất là rừng trồng, được khai thác lâm sản theo quy định tại Điều 59 của Luật này; được chia sẻ lợi ích từ rừng theo chính sách của Nhà nước; được sở hữu cây trồng, vật nuôi và tài sản khác gắn liền với rừng trồng do chủ rừng đầu tư;
+d) Được chuyển đổi diện tích rừng được giao cho hộ gia đình, cá nhân trong cùng xã, phường, thị trấn; cá nhân được để lại quyền sử dụng rừng cho người thừa kế theo quy định của pháp luật.
+2. Hộ gia đình, cá nhân được Nhà nước giao rừng sản xuất có nghĩa vụ quy định tại Điều 74 của Luật này.
+Điều 83. Quyền và nghĩa vụ của hộ gia đình, cá nhân được Nhà nước cho thuê rừng sản xuất
+1. Hộ gia đình, cá nhân được Nhà nước cho thuê rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được chia sẻ lợi ích từ rừng theo hợp đồng thuê rừng; được sở hữu cây trồng, vật nuôi và tài sản khác gắn liền với rừng trồng do chủ rừng đầu tư;
+c) Khai thác lâm sản trong rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này;
+d) Cá nhân được để lại quyền sử dụng rừng cho người thừa kế theo quy định của pháp luật.
+2. Hộ gia đình, cá nhân được Nhà nước cho thuê rừng sản xuất có nghĩa vụ quy định tại Điều 74 của Luật này.
+Điều 84. Quyền và nghĩa vụ của hộ gia đình, cá nhân được Nhà nước giao đất để trồng rừng sản xuất, rừng phòng hộ
+1. Hộ gia đình, cá nhân được Nhà nước giao đất để trồng rừng sản xuất, rừng phòng hộ có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được sở hữu cây trồng, vật nuôi và tài sản khác trên đất trồng rừng sản xuất do chủ rừng đầu tư;
+c) Được sở hữu cây trồng xen, vật nuôi và tài sản khác trên đất trồng rừng phòng hộ do chủ rừng đầu tư;
+d) Khai thác lâm sản trong rừng phòng hộ theo quy định tại Điều 55, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này;
+đ) Được chia sẻ lợi ích từ rừng trong trường hợp trồng rừng bằng vốn ngân sách nhà nước;
+e) Được chuyển nhượng, tặng cho, cho thuê rừng sản xuất là rừng trồng; thế chấp, góp vốn bằng giá trị rừng sản xuất là rừng trồng;
+g) Cá nhân được để lại quyền sở hữu rừng sản xuất là rừng trồng, quyền sử dụng rừng cho người thừa kế theo quy định của pháp luật.
+2. Hộ gia đình, cá nhân được Nhà nước giao đất để trồng rừng sản xuất, rừng phòng hộ có nghĩa vụ quy định tại Điều 74 của Luật này.
+Điều 85. Quyền và nghĩa vụ của hộ gia đình, cá nhân được Nhà nước cho thuê đất để trồng rừng sản xuất
+1. Hộ gia đình, cá nhân được Nhà nước cho thuê đất để trồng rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được sở hữu cây trồng, vật nuôi và tài sản khác trên đất trồng rừng; khai thác lâm sản trong rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này;
+c) Được chuyển nhượng, tặng cho, cho thuê rừng sản xuất là rừng trồng; thế chấp, góp vốn bằng giá trị rừng sản xuất là rừng trồng trong thời gian thuê đất; cá nhân được để lại quyền sở hữu rừng cho người thừa kế theo quy định của pháp luật.
+2. Hộ gia đình, cá nhân được Nhà nước cho thuê đất để trồng rừng sản xuất có nghĩa vụ quy định tại Điều 74 của Luật này.
+Điều 86. Quyền và nghĩa vụ của cộng đồng dân cư được Nhà nước giao rừng tín ngưỡng, rừng phòng hộ và rừng sản xuất
+1. Cộng đồng dân cư được giao rừng tín ngưỡng, rừng phòng hộ và rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được Nhà nước bảo đảm kinh phí bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ giao cho cộng đồng dân cư;
+c) Được hướng dẫn sản xuất lâm, nông, ngư nghiệp kết hợp, canh tác dưới tán rừng, chăn thả gia súc theo Quy chế quản lý rừng; được hỗ trợ phát triển kinh tế rừng, hỗ trợ phục hồi rừng bằng cây lâm nghiệp bản địa;
+d) Khai thác lâm sản trong rừng đặc dụng là rừng tín ngưỡng theo quy định tại Điều 52, rừng phòng hộ theo quy định tại Điều 55, rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này; được chia sẻ lợi ích từ rừng theo chính sách của Nhà nước; được sở hữu cây trồng, vật nuôi và tài sản khác trên đất trồng rừng do chủ rừng đầu tư.
+2. Cộng đồng dân cư được giao rừng tín ngưỡng, rừng phòng hộ và rừng sản xuất có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Hoàn thiện, thực hiện hương ước, quy ước bảo vệ và phát triển rừng phù hợp với quy định của Luật này và quy định khác của pháp luật có liên quan;
+c) Bảo đảm duy trì diện tích rừng được giao;
+d) Không được phân chia rừng cho các thành viên trong cộng đồng dân cư;
+đ) Không được chuyển nhượng, cho thuê, tặng cho quyền sử dụng rừng; thế chấp, góp vốn bằng giá trị quyền sử dụng rừng.
+Mục 5. QUYỀN VÀ NGHĨA VỤ CỦA CHỦ RỪNG LÀ ĐƠN VỊ VŨ TRANG; TỔ CHỨC KHOA HỌC VÀ CÔNG NGHỆ, ĐÀO TẠO, GIÁO DỤC NGHỀ NGHIỆP; DOANH NGHIỆP CÓ VỐN ĐẦU TƯ NƯỚC NGOÀI
+Điều 87. Quyền và nghĩa vụ của đơn vị vũ trang được Nhà nước giao rừng đặc dụng là khu bảo vệ cảnh quan, rừng phòng hộ, rừng sản xuất
+1. Đơn vị vũ trang được Nhà nước giao rừng đặc dụng là khu bảo vệ cảnh quan, rừng phòng hộ, rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được Nhà nước bảo đảm kinh phí cho hoạt động bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ;
+c) Khai thác lâm sản trong rừng đặc dụng là khu bảo vệ cảnh quan theo quy định tại Điều 52, rừng phòng hộ theo quy định tại Điều 55, rừng sản xuất là rừng tự nhiên theo quy định tại Điều 58, rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này.
+2. Đơn vị vũ trang được Nhà nước giao rừng đặc dụng là khu bảo vệ cảnh quan, rừng phòng hộ, rừng sản xuất có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Bảo đảm duy trì diện tích rừng được giao;
+c) Không được chuyển nhượng, tặng cho, cho thuê quyền sử dụng rừng; thế chấp, góp vốn bằng giá trị quyền sử dụng rừng.
+Điều 88. Quyền và nghĩa vụ của tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp được Nhà nước giao khu rừng nghiên cứu, thực nghiệm khoa học; vườn thực vật quốc gia; rừng giống quốc gia
+1. Tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp được Nhà nước giao khu rừng nghiên cứu, thực nghiệm khoa học; vườn thực vật quốc gia; rừng giống quốc gia có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Khai thác lâm sản trong khu rừng nghiên cứu, thực nghiệm khoa học; vườn thực vật quốc gia; rừng giống quốc gia theo quy định tại Điều 52 của Luật này;
+c) Hợp tác, liên kết với tổ chức, cá nhân trong nước và nước ngoài thực hiện nhiệm vụ khoa học và công nghệ;
+d) Được bán sản phẩm rừng trồng, cây giống lâm nghiệp và lâm sản khác theo Quy chế quản lý rừng.
+2. Tổ chức khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp được Nhà nước giao khu rừng nghiên cứu, thực nghiệm khoa học; vườn thực vật quốc gia; rừng giống quốc gia có nghĩa vụ sau đây:
+a) Các nghĩa vụ quy định tại Điều 74 của Luật này;
+b) Không được chuyển nhượng, tặng cho, cho thuê quyền sử dụng rừng; thế chấp, góp vốn bằng giá trị quyền sử dụng rừng;
+c) Thực hiện nhiệm vụ khoa học và công nghệ, đào tạo, giáo dục nghề nghiệp về lâm nghiệp.
+Điều 89. Quyền và nghĩa vụ của doanh nghiệp có vốn đầu tư nước ngoài được Nhà nước cho thuê đất để trồng rừng sản xuất
+1. Doanh nghiệp có vốn đầu tư nước ngoài được Nhà nước cho thuê đất để trồng rừng sản xuất có quyền sau đây:
+a) Các quyền quy định tại Điều 73 của Luật này;
+b) Được sở hữu cây trồng, vật nuôi và tài sản khác do doanh nghiệp đầu tư trên đất được thuê theo quy định của pháp luật;
+c) Khai thác lâm sản trong rừng sản xuất là rừng trồng theo quy định tại Điều 59 của Luật này.
+2. Doanh nghiệp có vốn đầu tư nước ngoài được Nhà nước cho thuê đất để trồng rừng sản xuất có nghĩa vụ quy định tại Điều 74 của Luật này.
+Chương IX
+ĐỊNH GIÁ RỪNG, ĐẦU TƯ, TÀI CHÍNH TRONG LÂM NGHIỆP
+Mục 1. ĐỊNH GIÁ RỪNG TRONG LÂM NGHIỆP
+Điều 90. Định giá rừng
+1. Định giá rừng bao gồm các hoạt động nhằm xác định tổng giá trị kinh tế của rừng.
+2. Nguyên tắc định giá rừng được quy định như sau:
+a) Phù hợp với giá trị lâm sản và giá trị dịch vụ môi trường rừng đang giao dịch trên thị trường tại thời điểm định giá;
+b) Phù hợp với từng loại rừng gắn với quy định về quyền sử dụng rừng, khả năng sinh lợi và thu nhập từ rừng;
+c) Bảo đảm công khai, minh bạch, khách quan và khoa học.
+3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định phương pháp định giá rừng; khung giá rừng sản xuất, rừng phòng hộ và rừng đặc dụng thuộc sở hữu toàn dân.
+4. Ủy ban nhân dân cấp tỉnh quyết định khung giá rừng trên địa bàn quản lý.
+Điều 91. Trường hợp định giá rừng
+1. Trường hợp Nhà nước giao rừng, tổ chức đấu giá quyền sử dụng rừng, cho thuê rừng; tính giá trị rừng khi thực hiện chi trả dịch vụ môi trường rừng.
+2. Trường hợp Nhà nước thu hồi rừng, thanh lý rừng; xác định giá trị vốn góp; cổ phần hóa doanh nghiệp nhà nước, thoái vốn nhà nước.
+3. Trường hợp xác định giá trị phải bồi thường khi có hành vi vi phạm pháp luật gây thiệt hại đối với rừng; thiệt hại do thiên tai, cháy rừng và các thiệt hại khác đối với rừng; xác định giá trị rừng phục vụ giải quyết tranh chấp liên quan tới rừng.
+4. Trường hợp xác định thuế, phí và lệ phí liên quan đến rừng.
+5. Trường hợp khác theo yêu cầu của cơ quan nhà nước có thẩm quyền.
+Mục 2. ĐẦU TƯ VÀ TÀI CHÍNH TRONG LÂM NGHIỆP
+Điều 92. Nguồn tài chính trong lâm nghiệp
+1. Ngân sách nhà nước.
+2. Đầu tư, đóng góp, ủng hộ, tài trợ từ tổ chức, cá nhân trong nước và nước ngoài.
+3. Thu từ khai thác lâm sản; cho thuê rừng, đất rừng.
+4. Thu từ thực hiện nghĩa vụ nộp tiền trồng rừng thay thế do chuyển mục đích sử dụng rừng sang mục đích khác.
+5. Thu từ dịch vụ môi trường rừng và cho thuê môi trường rừng.
+6. Vốn tín dụng từ tổ chức tài chính trong nước và nước ngoài.
+7. Nguồn tài chính khác theo quy định của pháp luật.
+Điều 93. Những hoạt động lâm nghiệp được sử dụng ngân sách nhà nước
+1. Căn cứ vào yêu cầu quản lý, phát triển lâm nghiệp và khả năng của ngân sách nhà nước trong từng thời kỳ, Chính phủ quy định những hoạt động được sử dụng ngân sách nhà nước.
+2. Việc lập, chấp hành, kiểm toán, quyết toán và giám sát ngân sách nhà nước cho lâm nghiệp được thực hiện theo quy định của pháp luật về ngân sách nhà nước.
+Điều 94. Chính sách đầu tư bảo vệ và phát triển rừng
+1. Nhà nước có chính sách đầu tư cho các hoạt động sau đây:
+a) Bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ;
+b) Bảo vệ và cứu hộ thực vật rừng, động vật rừng nguy cấp, quý, hiếm;
+c) Nghiên cứu, ứng dụng kết quả nghiên cứu khoa học, phát triển công nghệ và đào tạo nguồn nhân lực phục vụ quản lý nhà nước về lâm nghiệp;
+d) Xây dựng khu nghiên cứu phát triển, khu công nghệ cao;
+đ) Đầu tư phương tiện, trang bị, thiết bị nhằm bảo vệ rừng; quan trắc, cảnh báo nguy cơ cháy rừng; xây dựng công trình phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng;
+e) Xây dựng, nâng cấp, cải tạo kết cấu hạ tầng phục vụ cho bảo vệ và phát triển rừng đặc dụng, rừng phòng hộ.
+2. Nhà nước có chính sách hỗ trợ đầu tư cho các hoạt động sau đây:
+a) Hoạt động chuyển giao công nghệ cao, công nghệ tiên tiến, công nghệ mới, khuyến lâm và cấp chứng chỉ quản lý rừng bền vững;
+b) Phát triển kết cấu hạ tầng gắn với đầu tư phát triển, kinh doanh rừng sản xuất theo chuỗi giá trị;
+c) Hợp tác, liên kết bảo vệ và phát triển rừng của đồng bào dân tộc thiểu số, cộng đồng dân cư gắn với chương trình phát triển kinh tế - xã hội, xây dựng nông thôn mới;
+d) Đào tạo, bồi dưỡng, phát triển nguồn nhân lực cho chủ rừng;
+đ) Xúc tiến đầu tư, phát triển thị trường, thương mại trong hoạt động lâm nghiệp; mở rộng, tăng cường hợp tác quốc tế về lâm nghiệp.
+3. Nhà nước có chính sách ưu đãi đầu tư cho các hoạt động sau đây:
+a) Phát triển rừng sản xuất ở những vùng đất trống, đồi núi trọc;
+b) Trồng rừng gỗ lớn và chuyển hóa rừng trồng gỗ nhỏ sang rừng trồng gỗ lớn; phát triển lâm sản ngoài gỗ;
+c) Phục hồi rừng tự nhiên;
+d) Phát triển giống cây lâm nghiệp công nghệ cao.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 95. Quỹ bảo vệ và phát triển rừng
+1. Quỹ bảo vệ và phát triển rừng là quỹ tài chính nhà nước ngoài ngân sách; tổ chức, hoạt động theo loại hình đơn vị sự nghiệp công lập, do cơ quan nhà nước có thẩm quyền quyết định thành lập.
+2. Nguyên tắc hoạt động của quỹ bảo vệ và phát triển rừng được quy định như sau:
+a) Hoạt động không vì mục đích lợi nhuận;
+b) Chỉ hỗ trợ cho chương trình, dự án hoặc hoạt động phi dự án liên quan đến bảo vệ và phát triển rừng mà ngân sách nhà nước chưa đầu tư hoặc chưa đáp ứng đủ yêu cầu đầu tư;
+c) Bảo đảm công khai, minh bạch, hiệu quả; quản lý, sử dụng đúng mục đích và phù hợp với quy định của pháp luật.
+3. Tổ chức quỹ bảo vệ và phát triển rừng được quy định như sau:
+a) Quỹ bảo vệ và phát triển rừng Việt Nam do Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn thành lập ở cấp trung ương;
+b) Quỹ bảo vệ và phát triển rừng ở cấp tỉnh do Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định thành lập.
+4. Nguồn tài chính hình thành quỹ bảo vệ và phát triển rừng bao gồm:
+a) Tài trợ, đóng góp tự nguyện, vốn ủy thác của tổ chức, cá nhân trong nước và nước ngoài;
+b) Tiền chi trả dịch vụ môi trường rừng;
+c) Tiền trồng rừng thay thế do chuyển mục đích sử dụng rừng sang mục đích khác;
+d) Các nguồn tài chính hợp pháp khác ngoài ngân sách nhà nước.
+5. Hằng năm, Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn báo cáo Thủ tướng Chính phủ về tình hình quản lý, sử dụng Quỹ bảo vệ và phát triển rừng Việt Nam; Chủ tịch Ủy ban nhân dân cấp tỉnh báo cáo Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn về tình hình quản lý, sử dụng quỹ bảo vệ và phát triển rừng ở cấp tỉnh.
+6. Chính phủ quy định chi tiết về nhiệm vụ, cơ cấu tổ chức, nguồn tài chính, cơ chế quản lý, sử dụng tài chính của quỹ bảo vệ và phát triển rừng.
+Chương X
+KHOA HỌC VÀ CÔNG NGHỆ, HỢP TÁC QUỐC TẾ VỀ LÂM NGHIỆP
+Điều 96. Hoạt động khoa học và công nghệ về lâm nghiệp
+1. Ứng dụng công nghệ cao, công nghệ tiên tiến, công nghệ mới trong các hoạt động sau đây:
+a) Điều tra, kiểm kê, theo dõi diễn biến rừng;
+b) Phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng;
+c) Chọn, tạo, nhân giống cây trồng thân gỗ, cây lâm sản ngoài gỗ;
+d) Thâm canh rừng trồng cung cấp gỗ lớn, trồng cây bản địa, trồng rừng hỗn loài; hiện đại hóa quy trình trồng, chăm sóc, bảo vệ, khai thác rừng;
+đ) Phục hồi rừng, nâng cao chất lượng rừng tự nhiên nghèo;
+e) Khai thác, vận chuyển, chế biến và bảo quản lâm sản;
+g) Công nghiệp hỗ trợ trong chế biến lâm sản.
+2. Nghiên cứu hệ sinh thái rừng, giá trị dịch vụ môi trường rừng.
+3. Nghiên cứu giải pháp bảo tồn đa dạng sinh học rừng, ứng phó với biến đổi khí hậu.
+4. Nghiên cứu đổi mới mô hình tổ chức sản xuất lâm nghiệp theo chuỗi giá trị, gắn với phát triển rừng bền vững; mô hình lâm, nông, ngư nghiệp kết hợp bền vững.
+5. Chuyển giao công nghệ và kết quả nghiên cứu trong lĩnh vực lâm nghiệp vào sản xuất, kinh doanh, quản lý lâm nghiệp.
+6. Xây dựng và hoàn thiện hệ thống tiêu chuẩn, quy chuẩn kỹ thuật quốc gia về lâm nghiệp.
+Điều 97. Chính sách khoa học và công nghệ về lâm nghiệp
+1. Nhà nước có cơ chế, chính sách ưu tiên cho nghiên cứu khoa học và phát triển công nghệ phù hợp với chu kỳ sinh trưởng, phát triển của rừng và ứng dụng tiến bộ khoa học và công nghệ trong lâm nghiệp.
+2. Nhà nước ưu tiên đầu tư cho hoạt động khoa học và công nghệ quy định tại các điểm a, b, c và đ khoản 1, các khoản 2, 3 và 6 Điều 96 của Luật này.
+3. Nhà nước khuyến khích và tạo điều kiện thực hiện hoạt động khoa học và công nghệ quy định tại các điểm d, e và g khoản 1, khoản 4 và khoản 5 Điều 96 của Luật này.
+Điều 98. Hoạt động hợp tác quốc tế về lâm nghiệp
+1. Nhà nước Cộng hòa xã hội chủ nghĩa Việt Nam thực hiện hợp tác quốc tế về lâm nghiệp với các quốc gia, vùng lãnh thổ, tổ chức quốc tế trên cơ sở bình đẳng, cùng có lợi, tôn trọng độc lập, chủ quyền, pháp luật của mỗi bên và pháp luật quốc tế.
+2. Bộ Nông nghiệp và Phát triển nông thôn chủ trì, phối hợp với Bộ, cơ quan ngang Bộ có liên quan đề xuất việc ký kết điều ước quốc tế, thỏa thuận quốc tế về lâm nghiệp; là cơ quan đầu mối, đại diện quốc gia thực hiện quyền, nghĩa vụ của thành viên Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp, Công ước chống sa mạc hóa và các điều ước quốc tế, thỏa thuận quốc tế khác liên quan đến lâm nghiệp.
+Điều 99. Chính sách hợp tác quốc tế về lâm nghiệp
+1. Khuyến khích mở rộng hợp tác về lâm nghiệp với các quốc gia, vùng lãnh thổ, tổ chức, cá nhân nước ngoài hỗ trợ việc thực hiện mục tiêu phát triển bền vững, cam kết về bảo vệ môi trường, ứng phó với biến đổi khí hậu và cam kết quốc tế khác mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+2. Khuyến khích tổ chức, cá nhân Việt Nam hợp tác với tổ chức, cá nhân nước ngoài trong việc bảo vệ và phát triển rừng, chế biến và thương mại lâm sản, nâng cao năng lực và hiệu quả quản lý nhà nước về lâm nghiệp phù hợp với pháp luật Việt Nam và pháp luật quốc tế.
+3. Tạo thuận lợi cho tổ chức, cá nhân nước ngoài, người Việt Nam định cư ở nước ngoài đầu tư, hỗ trợ hoạt động đào tạo nguồn nhân lực, nghiên cứu khoa học, chuyển giao công nghệ về bảo vệ và phát triển rừng, bảo tồn thiên nhiên, chế biến và thương mại lâm sản tại Việt Nam; phát triển và sử dụng hợp lý, có hiệu quả các nguồn lực hợp tác quốc tế cho ngành lâm nghiệp và ứng phó với biến đổi khí hậu.
+4. Thúc đẩy hợp tác với các nước có chung đường biên giới để giải quyết có hiệu quả vấn đề về cháy rừng, khói mù xuyên biên giới, phòng, chống buôn bán bất hợp pháp về gỗ và mẫu vật các loài thực vật hoang dã, động vật hoang dã, bảo tồn thiên nhiên.
+5. Chính phủ ban hành chính sách hợp tác quốc tế về lâm nghiệp phù hợp với điều kiện cụ thể trong từng thời kỳ.
+Chương XI
+QUẢN LÝ NHÀ NƯỚC VỀ LÂM NGHIỆP VÀ KIỂM LÂM
+Mục 1. QUẢN LÝ NHÀ NƯỚC VỀ LÂM NGHIỆP
+Điều 100. Nguyên tắc tổ chức hệ thống cơ quan quản lý nhà nước về lâm nghiệp
+1. Hệ thống cơ quan quản lý nhà nước về lâm nghiệp được tổ chức thống nhất, phù hợp với yêu cầu nhiệm vụ quản lý nhà nước về lâm nghiệp.
+2. Cơ quan, quản lý chuyên ngành về lâm nghiệp được tổ chức ở trung ương, cấp tỉnh; nhiệm vụ quản lý chuyên ngành về lâm nghiệp ở cấp huyện được tổ chức theo quy định của Chính phủ.
+3. Phân định rõ nhiệm vụ, quyền hạn, không chồng chéo chức năng quản lý; công khai, minh bạch.
+Điều 101. Trách nhiệm quản lý nhà nước về lâm nghiệp của Chính phủ, các Bộ, cơ quan ngang Bộ
+1. Chính phủ thống nhất quản lý nhà nước về lâm nghiệp trong phạm vi cả nước.
+2. Bộ Nông nghiệp và Phát triển nông thôn là cơ quan đầu mối giúp Chính phủ thực hiện quản lý nhà nước về lâm nghiệp, có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành và tổ chức thực hiện chiến lược, quy hoạch, kế hoạch, chính sách, văn bản quy phạm pháp luật về lâm nghiệp;
+b) Xây dựng tiêu chuẩn quốc gia, ban hành quy chuẩn kỹ thuật quốc gia, định mức kinh tế - kỹ thuật về lâm nghiệp;
+c) Chỉ đạo, hướng dẫn, kiểm tra việc thực hiện Quy chế quản lý rừng, chế độ quản lý, bảo vệ các loài thực vật rừng, động vật rừng nguy cấp, quý, hiếm;
+d) Trình Thủ tướng Chính phủ thành lập khu rừng phòng hộ, khu rừng đặc dụng có tầm quan trọng quốc gia hoặc nằm trên địa bàn nhiều tỉnh;
+đ) Chỉ đạo thống nhất về chuyên môn, nghiệp vụ của Kiểm lâm;
+e) Chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ có liên quan quản lý, bảo vệ rừng; bảo vệ hệ sinh thái rừng, đa dạng sinh học trong các loại rừng;
+g) Hướng dẫn, kiểm tra việc điều tra rừng, kiểm kê rừng, theo dõi diễn biến rừng và lập hồ sơ quản lý rừng; lập và quản lý cơ sở dữ liệu rừng;
+h) Tổ chức phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng;
+i) Xây dựng hệ thống rừng giống quốc gia, vườn thực vật quốc gia;
+k) Quản lý, tổ chức thực hiện chi trả dịch vụ môi trường rừng;
+l) Quản lý hoạt động cấp chứng chỉ quản lý rừng bền vững, định giá rừng;
+m) Quản lý hoạt động chế biến và thương mại lâm sản theo quy định của pháp luật;
+n) Tổ chức nghiên cứu khoa học và ứng dụng công nghệ cao, công nghệ tiên tiến, công nghệ mới về lâm nghiệp; đào tạo, bồi dưỡng nguồn nhân lực trong lâm nghiệp;
+o) Tổ chức thông tin, truyền thông, giáo dục nâng cao nhận thức của cộng đồng về lâm nghiệp; tuyên truyền, phổ biến, giáo dục pháp luật về lâm nghiệp;
+р) Đầu mối hợp tác quốc tế về lâm nghiệp;
+q) Thanh tra, kiểm tra, xử lý vi phạm pháp luật, giải quyết khiếu nại, tố cáo về lâm nghiệp theo quy định của pháp luật.
+3. Bộ Quốc phòng, Bộ Công an, Bộ Tài nguyên và Môi trường, các Bộ, cơ quan ngang Bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm phối hợp với Bộ Nông nghiệp và Phát triển nông thôn thực hiện quản lý nhà nước về lâm nghiệp.
+Điều 102. Trách nhiệm quản lý nhà nước về lâm nghiệp của Ủy ban nhân dân các cấp
+1. Ủy ban nhân dân cấp tỉnh có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật về lâm nghiệp, quyết định chương trình, dự án phát triển lâm nghiệp bền vững tại địa phương;
+b) Tổ chức thực hiện văn bản quy phạm pháp luật về lâm nghiệp, chiến lược phát triển lâm nghiệp, quy hoạch lâm nghiệp cấp quốc gia, chương trình, dự án, kế hoạch phát triển lâm nghiệp tại địa phương;
+с) Tổ chức thực hiện việc phân loại rừng, phân định ranh giới các loại rừng theo thẩm quyền;
+d) Giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng đối với tổ chức; tổ chức trồng rừng thay thế;
+đ) Tổ chức thực hiện điều tra rừng, kiểm kê rừng, theo dõi diễn biến rừng tại địa phương;
+e) Cập nhật cơ sở dữ liệu rừng, lập hồ sơ quản lý rừng của địa phương;
+g) Tổ chức bảo vệ rừng; bảo tồn đa dạng sinh học rừng; phòng cháy và chữa cháy rừng; phòng, trừ sinh vật gây hại rừng; phát triển rừng; sử dụng rừng; chế biến và thị trường lâm sản tại địa phương;
+h) Quyết định khung giá rừng trên địa bàn tỉnh;
+i) Tổ chức nghiên cứu, ứng dụng khoa học và công nghệ tiên tiến trong lâm nghiệp tại địa phương;
+k) Tuyên truyền, phổ biến, giáo dục pháp luật về lâm nghiệp tại địa phương;
+l) Huy động các lực lượng, vật tư, phương tiện, thiết bị của tổ chức, hộ gia đình, cá nhân trên địa bàn để ứng phó khẩn cấp chữa cháy rừng theo thẩm quyền;
+m) Thanh tra, kiểm tra, xử lý vi phạm pháp luật; giải quyết tranh chấp, khiếu nại, tố cáo trong lĩnh vực lâm nghiệp theo quy định của pháp luật.
+2. Ủy ban nhân dân cấp huyện có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật về lâm nghiệp, quyết định chương trình, dự án phát triển lâm nghiệp bền vững tại địa phương;
+b) Tổ chức thực hiện văn bản quy phạm pháp luật về lâm nghiệp, chương trình, dự án phát triển lâm nghiệp bền vững tại địa phương;
+c) Tổ chức thực hiện việc phân loại rừng, phân định ranh giới các loại rừng tại địa phương theo quy định của pháp luật;
+d) Giao rừng, cho thuê rừng, chuyển mục đích sử dụng rừng sang mục đích khác, thu hồi rừng đối với hộ gia đình, cá nhân, cộng đồng dân cư; lập hồ sơ quản lý rừng; tổ chức trồng rừng thay thế;
+đ) Tổ chức thực hiện điều tra rừng, kiểm kê rừng, theo dõi diễn biến rừng tại địa phương;
+e) Tổ chức quản lý, bảo vệ rừng, bảo tồn đa dạng sinh học rừng, phòng cháy và chữa cháy rừng;
+g) Tuyên truyền, phổ biến, giáo dục pháp luật về lâm nghiệp tại địa phương;
+h) Chỉ đạo Ủy ban nhân dân cấp xã lập dự án giao đất, giao rừng đối với diện tích rừng chưa giao, chưa cho thuê theo quy định của pháp luật;
+i) Thanh tra, kiểm tra, xử lý vi phạm pháp luật; giải quyết tranh chấp, khiếu nại, tố cáo trong lĩnh vực lâm nghiệp tại địa phương theo quy định của pháp luật.
+3. Ủy ban nhân dân cấp xã có trách nhiệm sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật về lâm nghiệp, quyết định chương trình, dự án về phát triển lâm nghiệp bền vững, sản xuất lâm, nông, ngư nghiệp kết hợp, canh tác nương rẫy và tổ chức thực hiện tại địa phương;
+b) Quản lý diện tích, ranh giới khu rừng; xác nhận hồ sơ đề nghị giao rừng, thuê rừng đối với tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư theo quy định của pháp luật;
+c) Tổ chức quản lý, bảo vệ diện tích rừng Nhà nước chưa giao, chưa cho thuê;
+d) Tổ chức thực hiện kiểm kê rừng tại địa phương;
+đ) Hướng dẫn cộng đồng dân cư xây dựng và thực hiện hương ước, quy ước bảo vệ và phát triển rừng trên địa bàn phù hợp với quy định của pháp luật;
+e) Tổ chức hoạt động phòng cháy và chữa cháy rừng; phòng, chống hành vi vi phạm pháp luật về lâm nghiệp trên địa bàn; xử lý vi phạm pháp luật, giải quyết tranh chấp, khiếu nại, tố cáo trong lĩnh vực lâm nghiệp tại địa phương theo quy định của pháp luật.
+4. Chủ tịch Ủy ban nhân dân các cấp chịu trách nhiệm về cháy rừng, phá rừng hoặc mất rừng do hành vi vi phạm pháp luật trong lĩnh vực quản lý, bảo vệ rừng gây ra thuộc phạm vi lĩnh vực, địa bàn quản lý.
+Mục 2. KIỂM LÂM
+Điều 103. Chức năng của Kiểm lâm
+Kiểm lâm là tổ chức có chức năng quản lý, bảo vệ rừng, bảo đảm chấp hành pháp luật về lâm nghiệp; là lực lượng chuyên ngành về phòng cháy và chữa cháy rừng.
+Điều 104. Nhiệm vụ, quyền hạn của Kiểm lâm
+1. Nhiệm vụ của Kiểm lâm được quy định như sau:
+a) Xây dựng chương trình, kế hoạch bảo vệ rừng, phương án phòng, chống hành vi vi phạm pháp luật về lâm nghiệp, phòng cháy và chữa cháy rừng;
+b) Bảo vệ rừng đặc dụng, rừng phòng hộ; phối hợp với cơ quan liên quan tổ chức bảo vệ rừng thuộc sở hữu toàn dân chưa giao, chưa cho thuê;
+c) Tổ chức cảnh báo, dự báo nguy cơ cháy rừng; tổ chức lực lượng chuyên ngành phòng cháy và chữa cháy rừng, theo dõi diễn biến rừng hằng năm;
+d) Tổ chức đấu tranh phòng ngừa, kiểm tra, kiểm soát, xử lý vi phạm pháp luật trong bảo vệ rừng, khai thác rừng, sử dụng rừng, vận chuyển, kinh doanh, cất giữ, chế biến lâm sản theo quy định của pháp luật;
+đ) Hướng dẫn chủ rừng lập và thực hiện phương án phòng cháy và chữa cháy rừng; bồi dưỡng, tập huấn nghiệp vụ bảo vệ rừng, phòng cháy và chữa cháy rừng cho chủ rừng;
+e) Tuyên truyền, vận động Nhân dân bảo vệ và phát triển rừng; tổ chức lực lượng quần chúng bảo vệ rừng ở cơ sở;
+g) Thực hiện nhiệm vụ khác được cơ quan nhà nước có thẩm quyền giao theo quy định của pháp luật.
+2. Quyền hạn của Kiểm lâm được quy định như sau:
+a) Yêu cầu cơ quan, tổ chức, cá nhân liên quan cung cấp thông tin, tài liệu trong thi hành công vụ theo quy định của pháp luật;
+b) Xử phạt vi phạm hành chính và áp dụng các biện pháp ngăn chặn hành vi vi phạm hành chính; khởi tố, điều tra vi phạm pháp luật về lâm nghiệp theo quy định của pháp luật;
+c) Sử dụng phương tiện, thiết bị chuyên dụng, vũ khí, công cụ hỗ trợ và trang phục theo quy định của pháp luật.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 105. Tổ chức Kiểm lâm
+1. Kiểm lâm được tổ chức ở trung ương, ở cấp tỉnh.
+2. Kiểm lâm được tổ chức ở cấp huyện trên cơ sở yêu cầu, nhiệm vụ quản lý, bảo vệ rừng, bảo đảm chấp hành pháp luật về lâm nghiệp, phòng cháy và chữa cháy rừng, phát triển rừng, sử dụng rừng, chế biến và thương mại lâm sản tại địa phương.
+3. Kiểm lâm trong vườn quốc gia; khu dự trữ thiên nhiên, khu bảo tồn loài - sinh cảnh, rừng phòng hộ đầu nguồn, rừng phòng hộ chắn gió, chắn cát bay, rừng phòng hộ chắn sóng, lấn biển thuộc Kiểm lâm ở trung ương hoặc ở cấp tỉnh được tổ chức trên cơ sở yêu cầu, nhiệm vụ quản lý, bảo vệ rừng.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 106. Trang bị bảo đảm hoạt động và chế độ, chính sách đối với Kiểm lâm
+1. Trang bị bảo đảm hoạt động đối với Kiểm lâm được quy định như sau:
+a) Được trang bị vũ khí, công cụ hỗ trợ, phương tiện kỹ thuật nghiệp vụ và phương tiện, thiết bị chuyên dụng cho hoạt động tuần tra bảo vệ rừng, phòng cháy và chữa cháy rừng;
+b) Được trang bị thống nhất về đồng phục, phù hiệu, cấp hiệu, cờ hiệu, giấy chứng nhận kiểm lâm.
+2. Chế độ, chính sách đối với Kiểm lâm được quy định như sau:
+a) Kiểm lâm được hưởng chế độ lương theo ngạch, bậc; phụ cấp thâm niên nghề, phụ cấp ưu đãi nghề và các chế độ phụ cấp khác theo quy định của pháp luật;
+b) Kiểm lâm bị thương hoặc hy sinh trong khi thi hành công vụ được công nhận và được hưởng chế độ, chính sách như thương binh, liệt sĩ theo quy định của pháp luật về ưu đãi người có công với cách mạng.
+3. Chính phủ quy định chi tiết Điều này.
+Chương XII
+ĐIỀU KHOẢN THI HÀNH
+Điều 107. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2019.
+2. Luật Bảo vệ và phát triển rừng số 29/2004/QH11 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+Điều 108. Quy định chuyển tiếp
+1. Chủ rừng đã được Nhà nước giao rừng, cho thuê rừng trước ngày Luật này có hiệu lực thi hành thì được tiếp tục thực hiện đến hết thời hạn được giao, cho thuê; thực hiện quyền và nghĩa vụ theo quy định tại Luật này, trừ trường hợp quy định tại khoản 2 Điều này.
+2. Chủ rừng là tổ chức kinh tế được Nhà nước giao rừng sản xuất trước ngày Luật này có hiệu lực thi hành thì được tiếp tục thực hiện đến hết thời hạn được giao; quyền và nghĩa vụ được thực hiện theo quy định tại các điểm a, c và d khoản 1 và khoản 2 Điều 79 của Luật này.
+3. Đối với các dự án thực hiện chuyển mục đích sử dụng rừng sang mục đích khác đã được phê duyệt nhưng chưa thực hiện giải phóng mặt bằng trước khi Luật này có hiệu lực thi hành, phải trồng rừng thay thế theo quy định tại Điều 21 của Luật này.
+4. Ủy ban nhân dân cấp tỉnh có trách nhiệm rà soát diện tích rừng tự nhiên hiện có để đưa vào quy hoạch rừng đặc dụng, rừng phòng hộ, rừng sản xuất trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 4 thông qua ngày 15 tháng 11 năm 2017.
+CHỦ TỊCH QUỐC HỘI
+Nguyễn Thị Kim Ngân

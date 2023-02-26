@@ -67,7 +67,6 @@ class Syllable:
     """
     Syllable class
     """
-
     def __init__(self, text):
         self.text = text
         non_tone_letters, tone = VIETNAMESE.analyze_tone(text)
@@ -77,8 +76,6 @@ class Syllable:
         u = "[uư]"
         double = f"oo|i{a}|iê|yê|y{a}|{u}{o}|{u}{a}|ay|ây|ua"
         v = r"(?P<V>[aăâeêuưyoôơi]|" + double + ")"
-        # vy = r"(?P<V>y)"
-        vac = r"(?P<V>â)"
         vec = r"(?P<V>ê)"
         wu = r"(?P<w>[u])"
         vye = "(?P<V>yê)"

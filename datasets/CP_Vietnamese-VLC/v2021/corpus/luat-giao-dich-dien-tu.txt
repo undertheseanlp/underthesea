@@ -1,0 +1,610 @@
+QUỐC HỘI
+--------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Số: 51/2005/QH11
+
+Hà Nội, ngày 29 tháng 11 năm 2005
+
+
+
+QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Khoá XI, Kỳ Họp Thứ 8
+(Từ Ngày 18 Tháng 10 Đến Ngày 29 tháng 11 năm 2005)
+
+LUẬT
+
+GIAO DỊCH ĐIỆN TỬ
+
+Căn cứ vào Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung theo Nghị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10;
+Luật này quy định về giao dịch điện tử.
+
+Chương 1:
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về giao dịch điện tử trong hoạt động của các cơ quan nhà nước; trong lĩnh vực dân sự, kinh doanh, thương mại và các lĩnh vực khác do pháp luật quy định.
+
+Các quy định của Luật này không áp dụng đối với việc cấp giấy chứng nhận quyền sử dụng đất, quyền sở hữu nhà và các bất động sản khác, văn bản về thừa kế, giấy đăng ký kết hôn, quyết định ly hôn, giấy khai sinh, giấy khai tử, hối phiếu và các giấy tờ có giá khác.
+
+Điều 2. Đối tượng áp dụng
+
+Luật này áp dụng đối với cơ quan, tổ chức, cá nhân lựa chọn giao dịch bằng phương tiện điện tử.
+
+Điều 3. Áp dụng Luật giao dịch điện tử
+
+Trường hợp có sự khác nhau giữa quy định của Luật giao dịch điện tử với quy định của luật khác về cùng một vấn đề liên quan đến giao dịch điện tử thì áp dụng quy định của Luật giao dịch điện tử.
+
+Điều 4. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Chứng thư điện tử là thông điệp dữ liệu do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử phát hành nhằm xác nhận cơ quan, tổ chức, cá nhân được chứng thực là người ký chữ ký điện tử.
+
+2. Chứng thực chữ ký điện tử là việc xác nhận cơ quan, tổ chức, cá nhân được chứng thực là người ký chữ ký điện tử.
+
+3. Chương trình ký điện tử là chương trình máy tính được thiết lập để hoạt động độc lập hoặc thông qua thiết bị, hệ thống thông tin, chương trình máy tính khác nhằm tạo ra một chữ ký điện tử đặc trưng cho người ký thông điệp dữ liệu.
+
+4. Cơ sở dữ liệu là tập hợp các dữ liệu được sắp xếp, tổ chức để truy cập, khai thác, quản lý và cập nhật thông qua phương tiện điện tử.
+
+5. Dữ liệu là thông tin dưới dạng ký hiệu, chữ viết, chữ số, hình ảnh, âm thanh hoặc dạng tương tự.
+
+6. Giao dịch điện tử là giao dịch được thực hiện bằng phương tiện điện tử.
+
+7. Giao dịch điện tử tự động là giao dịch điện tử được thực hiện tự động từng phần hoặc toàn bộ thông qua hệ thống thông tin đã được thiết lập sẵn.
+
+8. Hệ thống thông tin là hệ thống được tạo lập để gửi, nhận, lưu trữ, hiển thị hoặc thực hiện các xử lý khác đối với thông điệp dữ liệu.
+
+9. Người trung gian là cơ quan, tổ chức, cá nhân đại diện cho cơ quan, tổ chức, cá nhân khác thực hiện việc gửi, nhận hoặc lưu trữ một thông điệp dữ liệu hoặc cung cấp các dịch vụ khác liên quan đến thông điệp dữ liệu đó.
+
+10. Phương tiện điện tử là phương tiện hoạt động dựa trên công nghệ điện, điện tử, kỹ thuật số, từ tính, truyền dẫn không dây, quang học, điện từ hoặc công nghệ tương tự.
+
+11. Quy trình kiểm tra an toàn là quy trình được sử dụng để kiểm chứng nguồn gốc của thông điệp dữ liệu, chữ ký điện tử, phát hiện các thay đổi hoặc lỗi xuất hiện trong nội dung của một thông điệp dữ liệu trong quá trình truyền, nhận và lưu trữ.
+
+12. Thông điệp dữ liệu là thông tin được tạo ra, được gửi đi, được nhận và được lưu trữ bằng phương tiện điện tử.
+
+13. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử là tổ chức thực hiện hoạt động chứng thực chữ ký điện tử theo quy định của pháp luật.
+
+14. Tổ chức cung cấp dịch vụ mạng là tổ chức cung cấp hạ tầng đường truyền và các dịch vụ khác có liên quan để thực hiện giao dịch điện tử. Tổ chức cung cấp dịch vụ mạng bao gồm tổ chức cung cấp dịch vụ kết nối Internet, tổ chức cung cấp dịch vụ Internet và tổ chức cung cấp dịch vụ truy cập mạng.
+
+15. Trao đổi dữ liệu điện tử (EDI – electronic data interchange) là sự chuyển thông tin từ máy tính này sang máy tính khác bằng phương tiện điện tử theo một tiêu chuẩn đã được thỏa thuận về cấu trúc thông tin.
+
+Điều 5. Nguyên tắc chung tiến hành giao dịch điện tử
+
+1. Tự nguyện lựa chọn sử dụng phương tiện điện tử để thực hiện giao dịch.
+
+2. Tự thỏa thuận về việc lựa chọn loại công nghệ để thực hiện giao dịch điện tử.
+
+3. Không một loại công nghệ nào được xem là duy nhất trong giao dịch điện tử.
+
+4. Bảo đảm sự bình đẳng và an toàn trong giao dịch điện tử.
+
+5. Bảo vệ quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân, lợi ích của Nhà nước, lợi ích công cộng.
+
+6. Giao dịch điện tử của cơ quan nhà nước phải tuân thủ các nguyên tắc quy định tại Điều 40 của Luật này.
+
+Điều 6. Chính sách phát triển và ứng dụng giao dịch điện tử
+
+1. Ưu tiên đầu tư phát triển hạ tầng công nghệ và đào tạo nguồn nhân lực liên quan đến giao dịch điện tử.
+
+2. Khuyến khích cơ quan, tổ chức, cá nhân đầu tư và ứng dụng giao dịch điện tử theo quy định của Luật này.
+
+3. Hỗ trợ đối với giao dịch điện tử trong dịch vụ công.
+
+4. Đẩy mạnh việc triển khai thương mại điện tử, giao dịch bằng phương tiện điện tử và tin học hóa hoạt động của cơ quan nhà nước.
+
+Điều 7. Nội dung quản lý nhà nước về hoạt động giao dịch điện tử
+
+1. Ban hành, tổ chức thực hiện chiến lược, quy hoạch, kế hoạch và chính sách phát triển, ứng dụng giao dịch điện tử trong các lĩnh vực kinh tế - xã hội, quốc phòng, an ninh.
+
+2. Ban hành, tuyên truyền và tổ chức thực hiện văn bản quy phạm pháp luật về giao dịch điện tử.
+
+3. Ban hành, công nhận các tiêu chuẩn trong giao dịch điện tử.
+
+4. Quản lý các tổ chức cung cấp dịch vụ liên quan đến giao dịch điện tử.
+
+5. Quản lý phát triển hạ tầng công nghệ cho hoạt động giao dịch điện tử.
+
+6. Tổ chức, quản lý công tác đào tạo, bồi dưỡng, xây dựng đội ngũ cán bộ, chuyên gia trong lĩnh vực giao dịch điện tử.
+
+7. Thanh tra, kiểm tra việc thực hiện pháp luật về giao dịch điện tử; giải quyết khiếu nại, tố cáo và xử lý vi phạm pháp luật về giao dịch điện tử.
+
+8. Quản lý và thực hiện hoạt động hợp tác quốc tế về giao dịch điện tử.
+
+Điều 8. Trách nhiệm quản lý nhà nước về hoạt động giao dịch điện tử
+
+1. Chính phủ thống nhất quản lý nhà nước về hoạt động giao dịch điện tử.
+
+2. Bộ Bưu chính, Viễn thông chịu trách nhiệm trước Chính phủ trong việc chủ trì, phối hợp với các bộ, ngành có liên quan thực hiện quản lý nhà nước về hoạt động giao dịch điện tử.
+
+3. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm thực hiện quản lý nhà nước về hoạt động giao dịch điện tử.
+
+4. ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương trong phạm vi nhiệm vụ, quyền hạn của mình thực hiện quản lý nhà nước về hoạt động giao dịch điện tử tại địa phương.
+
+Điều 9. Các hành vi bị nghiêm cấm trong giao dịch điện tử
+
+1. Cản trở việc lựa chọn sử dụng giao dịch điện tử.
+
+2. Cản trở hoặc ngăn chặn trái phép quá trình truyền, gửi, nhận thông điệp dữ liệu.
+
+3. Thay đổi, xoá, huỷ, giả mạo, sao chép, tiết lộ, hiển thị, di chuyển trái phép một phần hoặc toàn bộ thông điệp dữ liệu.
+
+4. Tạo ra hoặc phát tán chương trình phần mềm làm rối loạn, thay đổi, phá hoại hệ thống điều hành hoặc có hành vi khác nhằm phá hoại hạ tầng công nghệ về giao dịch điện tử.
+
+5. Tạo ra thông điệp dữ liệu nhằm thực hiện hành vi trái pháp luật.
+
+6. Gian lận, mạo nhận, chiếm đoạt hoặc sử dụng trái phép chữ ký điện tử của người khác.
+
+Chương 2:
+
+THÔNG ĐIỆP DỮ LIỆU
+
+Mục 1: GIÁ TRỊ PHÁP LÝ CỦA THÔNG ĐIỆP DỮ LIỆU
+
+Điều 10. Hình thức thể hiện thông điệp dữ liệu
+
+Thông điệp dữ liệu được thể hiện dưới hình thức trao đổi dữ liệu điện tử, chứng từ điện tử, thư điện tử, điện tín, điện báo, fax và các hình thức tương tự khác.
+
+Điều 11. Giá trị pháp lý của thông điệp dữ liệu
+
+Thông tin trong thông điệp dữ liệu không bị phủ nhận giá trị pháp lý chỉ vì thông tin đó được thể hiện dưới dạng thông điệp dữ liệu.
+
+Điều 12. Thông điệp dữ liệu có giá trị như văn bản
+
+Trường hợp pháp luật yêu cầu thông tin phải được thể hiện bằng văn bản thì thông điệp dữ liệu được xem là đáp ứng yêu cầu này nếu thông tin chứa trong thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu khi cần thiết.
+
+Điều 13. Thông điệp dữ liệu có giá trị như bản gốc
+
+Thông điệp dữ liệu có giá trị như bản gốc khi đáp ứng được các điều kiện sau đây:
+
+1. Nội dung của thông điệp dữ liệu được bảo đảm toàn vẹn kể từ khi được khởi tạo lần đầu tiên dưới dạng một thông điệp dữ liệu hoàn chỉnh.
+
+Nội dung của thông điệp dữ liệu được xem là toàn vẹn khi nội dung đó chưa bị thay đổi, trừ những thay đổi về hình thức phát sinh trong quá trình gửi, lưu trữ hoặc hiển thị thông điệp dữ liệu;
+
+2. Nội dung của thông điệp dữ liệu có thể truy cập và sử dụng được dưới dạng hoàn chỉnh khi cần thiết.
+
+Điều 14. Thông điệp dữ liệu có giá trị làm chứng cứ
+
+1. Thông điệp dữ liệu không bị phủ nhận giá trị dùng làm chứng cứ chỉ vì đó là một thông điệp dữ liệu.
+
+2. Giá trị chứng cứ của thông điệp dữ liệu được xác định căn cứ vào độ tin cậy của cách thức khởi tạo, lưu trữ hoặc truyền gửi thông điệp dữ liệu; cách thức bảo đảm và duy trì tính toàn vẹn của thông điệp dữ liệu; cách thức xác định người khởi tạo và các yếu tố phù hợp khác.
+
+Điều 15. Lưu trữ thông điệp dữ liệu
+
+1. Trường hợp pháp luật yêu cầu chứng từ, hồ sơ hoặc thông tin phải được lưu trữ thì chứng từ, hồ sơ hoặc thông tin đó có thể được lưu trữ dưới dạng thông điệp dữ liệu khi đáp ứng các điều kiện sau đây:
+
+a) Nội dung của thông điệp dữ liệu đó có thể truy cập và sử dụng được để tham chiếu khi cần thiết;
+
+b) Nội dung của thông điệp dữ liệu đó được lưu trong chính khuôn dạng mà nó được khởi tạo, gửi, nhận hoặc trong khuôn dạng cho phép thể hiện chính xác nội dung dữ liệu đó;
+
+c) Thông điệp dữ liệu đó được lưu trữ theo một cách thức nhất định cho phép xác định nguồn gốc khởi tạo, nơi đến, ngày giờ gửi hoặc nhận thông điệp dữ liệu.
+
+2. Nội dung, thời hạn lưu trữ đối với thông điệp dữ liệu được thực hiện theo quy định của pháp luật về lưu trữ.
+
+Mục 2: GỬI, NHẬN THÔNG ĐIỆP DỮ LIỆU
+
+Điều 16. Người khởi tạo thông điệp dữ liệu
+
+1. Người khởi tạo thông điệp dữ liệu là cơ quan, tổ chức, cá nhân tạo hoặc gửi một thông điệp dữ liệu trước khi thông điệp dữ liệu đó được lưu giữ nhưng không bao hàm người trung gian chuyển thông điệp dữ liệu.
+
+2. Trong trường hợp các bên tham gia giao dịch không có thỏa thuận khác thì việc xác định người khởi tạo một thông điệp dữ liệu được quy định như sau:
+
+a) Một thông điệp dữ liệu được xem là của người khởi tạo nếu thông điệp dữ liệu đó được người khởi tạo gửi hoặc được gửi bởi một hệ thống thông tin được thiết lập để hoạt động tự động do người khởi tạo chỉ định;
+
+b) Người nhận có thể coi thông điệp dữ liệu là của người khởi tạo nếu đã áp dụng các phương pháp xác minh được người khởi tạo chấp thuận và cho kết quả thông điệp dữ liệu đó là của người khởi tạo;
+
+c) Kể từ thời điểm người nhận biết có lỗi kỹ thuật trong việc truyền gửi thông điệp dữ liệu hoặc đã sử dụng các phương pháp xác minh lỗi được người khởi tạo chấp thuận thì không áp dụng quy định tại điểm a và điểm b khoản này.
+
+3. Người khởi tạo phải chịu trách nhiệm trước pháp luật về nội dung thông điệp dữ liệu do mình khởi tạo.
+
+Điều 17. Thời điểm, địa điểm gửi thông điệp dữ liệu
+
+Trong trường hợp các bên tham gia giao dịch không có thoả thuận khác thì thời điểm, địa điểm gửi thông điệp dữ liệu được quy định như sau:
+
+1. Thời điểm gửi một thông điệp dữ liệu là thời điểm thông điệp dữ liệu này nhập vào hệ thống thông tin nằm ngoài sự kiểm soát của người khởi tạo;
+
+2. Địa điểm gửi thông điệp dữ liệu là trụ sở của người khởi tạo nếu người khởi tạo là cơ quan, tổ chức hoặc nơi cư trú của người khởi tạo nếu người khởi tạo là cá nhân. Trường hợp người khởi tạo có nhiều trụ sở thì địa điểm gửi thông điệp dữ liệu là trụ sở có mối liên hệ mật thiết nhất với giao dịch.
+
+Điều 18. Nhận thông điệp dữ liệu
+
+1. Người nhận thông điệp dữ liệu là người được chỉ định nhận thông điệp dữ liệu từ người khởi tạo thông điệp dữ liệu nhưng không bao hàm người trung gian chuyển thông điệp dữ liệu đó.
+
+2. Trong trường hợp các bên tham gia giao dịch không có thoả thuận khác thì việc nhận thông điệp dữ liệu được quy định như sau:
+
+a) Người nhận được xem là đã nhận được thông điệp dữ liệu nếu thông điệp dữ liệu được nhập vào hệ thống thông tin do người đó chỉ định và có thể truy cập được;
+
+b) Người nhận có quyền coi mỗi thông điệp dữ liệu nhận được là một thông điệp dữ liệu độc lập, trừ trường hợp thông điệp dữ liệu đó là bản sao của một thông điệp dữ liệu khác mà người nhận biết hoặc buộc phải biết thông điệp dữ liệu đó là bản sao;
+
+c) Trường hợp trước hoặc trong khi gửi thông điệp dữ liệu, người khởi tạo có yêu cầu hoặc thoả thuận với người nhận về việc người nhận phải gửi cho mình thông báo xác nhận khi nhận được thông điệp dữ liệu thì người nhận phải thực hiện đúng yêu cầu hoặc thoả thuận này;
+
+d) Trường hợp trước hoặc trong khi gửi thông điệp dữ liệu, người khởi tạo đã tuyên bố thông điệp dữ liệu đó chỉ có giá trị khi có thông báo xác nhận thì thông điệp dữ liệu đó được xem là chưa gửi cho đến khi người khởi tạo nhận được thông báo của người nhận xác nhận đã nhận được thông điệp dữ liệu đó;
+
+đ) Trường hợp người khởi tạo đã gửi thông điệp dữ liệu mà không tuyên bố về việc người nhận phải gửi thông báo xác nhận và cũng chưa nhận được thông báo xác nhận thì người khởi tạo có thể thông báo cho người nhận là chưa nhận được thông báo xác nhận và ấn định khoảng thời gian hợp lý để người nhận gửi xác nhận; nếu người khởi tạo vẫn không nhận được thông báo xác nhận trong khoảng thời gian đã ấn định thì người khởi tạo có quyền xem là chưa gửi thông điệp dữ liệu đó.
+
+Điều 19. Thời điểm, địa điểm nhận thông điệp dữ liệu
+
+Trong trường hợp các bên tham gia giao dịch không có thoả thuận khác thì thời điểm, địa điểm nhận thông điệp dữ liệu được quy định như sau:
+
+1. Trường hợp người nhận đã chỉ định một hệ thống thông tin để nhận thông điệp dữ liệu thì thời điểm nhận là thời điểm thông điệp dữ liệu nhập vào hệ thống thông tin được chỉ định; nếu người nhận không chỉ định một hệ thống thông tin để nhận thông điệp dữ liệu thì thời điểm nhận thông điệp dữ liệu là thời điểm thông điệp dữ liệu đó nhập vào bất kỳ hệ thống thông tin nào của người nhận;
+
+2. Địa điểm nhận thông điệp dữ liệu là trụ sở của người nhận nếu người nhận là cơ quan, tổ chức hoặc nơi cư trú thường xuyên của người nhận nếu người nhận là cá nhân. Trường hợp người nhận có nhiều trụ sở thì địa điểm nhận thông điệp dữ liệu là trụ sở có mối liên hệ mật thiết nhất với giao dịch.
+
+Điều 20. Gửi, nhận tự động thông điệp dữ liệu
+
+Trong trường hợp người khởi tạo hoặc người nhận chỉ định một hoặc nhiều hệ thống thông tin tự động gửi hoặc nhận thông điệp dữ liệu thì việc gửi, nhận thông điệp dữ liệu được thực hiện theo quy định tại các điều 16, 17, 18 và 19 của Luật này.
+
+Chương 3:
+
+CHỮ KÝ ĐIỆN TỬ VÀ CHỨNG THỰC CHỮ KÝ ĐIỆN TỬ
+
+Mục 1:GIÁ TRỊ PHÁP LÝ CỦA CHỮ KÝ ĐIỆN TỬ
+
+Điều 21. Chữ ký điện tử
+
+1. Chữ ký điện tử được tạo lập dưới dạng từ, chữ, số, ký hiệu, âm thanh hoặc các hình thức khác bằng phương tiện điện tử, gắn liền hoặc kết hợp một cách lô gíc với thông điệp dữ liệu, có khả năng xác nhận người ký thông điệp dữ liệu và xác nhận sự chấp thuận của người đó đối với nội dung thông điệp dữ liệu được ký.
+
+2. Chữ ký điện tử được xem là bảo đảm an toàn nếu chữ ký điện tử đó đáp ứng các điều kiện quy định tại khoản 1 Điều 22 của Luật này.
+
+3. Chữ ký điện tử có thể được chứng thực bởi một tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+Điều 22. Điều kiện để bảo đảm an toàn cho chữ ký điện tử
+
+1. Chữ ký điện tử được xem là bảo đảm an toàn nếu được kiểm chứng bằng một quy trình kiểm tra an toàn do các bên giao dịch thỏa thuận và đáp ứng được các điều kiện sau đây:
+
+a) Dữ liệu tạo chữ ký điện tử chỉ gắn duy nhất với người ký trong bối cảnh dữ liệu đó được sử dụng;
+
+b) Dữ liệu tạo chữ ký điện tử chỉ thuộc sự kiểm soát của người ký tại thời điểm ký;
+
+c) Mọi thay đổi đối với chữ ký điện tử sau thời điểm ký đều có thể bị phát hiện;
+
+d) Mọi thay đổi đối với nội dung của thông điệp dữ liệu sau thời điểm ký đều có thể bị phát hiện.
+
+2. Chữ ký điện tử đã được tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử chứng thực được xem là bảo đảm các điều kiện an toàn quy định tại khoản 1 Điều này.
+
+Điều 23. Nguyên tắc sử dụng chữ ký điện tử
+
+1. Trừ trường hợp pháp luật có quy định khác, các bên tham gia giao dịch điện tử có quyền thỏa thuận:
+
+a) Sử dụng hoặc không sử dụng chữ ký điện tử để ký thông điệp dữ liệu trong quá trình giao dịch;
+
+b) Sử dụng hoặc không sử dụng chữ ký điện tử có chứng thực;
+
+c) Lựa chọn tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử trong trường hợp thỏa thuận sử dụng chữ ký điện tử có chứng thực.
+
+2. Chữ ký điện tử của cơ quan nhà nước phải được chứng thực bởi tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử do cơ quan nhà nước có thẩm quyền quy định.
+
+Điều 24. Giá trị pháp lý của chữ ký điện tử
+
+1. Trong trường hợp pháp luật quy định văn bản cần có chữ ký thì yêu cầu đó đối với một thông điệp dữ liệu được xem là đáp ứng nếu chữ ký điện tử được sử dụng để ký thông điệp dữ liệu đó đáp ứng các điều kiện sau đây:
+
+a) Phương pháp tạo chữ ký điện tử cho phép xác minh được người ký và chứng tỏ được sự chấp thuận của người ký đối với nội dung thông điệp dữ liệu;
+
+b) Phương pháp đó là đủ tin cậy và phù hợp với mục đích mà theo đó thông điệp dữ liệu được tạo ra và gửi đi.
+
+2. Trong trường hợp pháp luật quy định văn bản cần được đóng dấu của cơ quan, tổ chức thì yêu cầu đó đối với một thông điệp dữ liệu được xem là đáp ứng nếu thông điệp dữ liệu đó được ký bởi chữ ký điện tử của cơ quan, tổ chức đáp ứng các điều kiện quy định tại khoản 1 Điều 22 của Luật này và chữ ký điện tử đó có chứng thực.
+
+3. Chính phủ quy định cụ thể việc quản lý và sử dụng chữ ký điện tử của cơ quan, tổ chức.
+
+Điều 25. Nghĩa vụ của người ký chữ ký điện tử
+
+1. Người ký chữ ký điện tử hoặc người đại diện hợp pháp của người đó là người kiểm soát hệ chương trình ký điện tử và sử dụng thiết bị đó để xác nhận ý chí của mình đối với thông điệp dữ liệu được ký.
+
+2. Người ký chữ ký điện tử có các nghĩa vụ sau đây:
+
+a) Có các biện pháp để tránh việc sử dụng không hợp pháp dữ liệu tạo chữ ký điện tử của mình;
+
+b) Khi phát hiện chữ ký điện tử có thể không còn thuộc sự kiểm soát của mình, phải kịp thời sử dụng các phương tiện thích hợp để thông báo cho các bên chấp nhận chữ ký điện tử và cho tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử trong trường hợp chữ ký điện tử đó có chứng thực;
+
+c) áp dụng các biện pháp cần thiết để bảo đảm tính chính xác và toàn vẹn của mọi thông tin trong chứng thư điện tử trong trường hợp chứng thư điện tử được dùng để chứng thực chữ ký điện tử.
+
+3. Người ký chữ ký điện tử phải chịu trách nhiệm trước pháp luật về hậu quả do không tuân thủ quy định tại khoản 2 Điều này.
+
+Điều 26. Nghĩa vụ của bên chấp nhận chữ ký điện tử
+
+1. Bên chấp nhận chữ ký điện tử là bên đã thực hiện những nội dung trong thông điệp dữ liệu nhận được trên cơ sở tin vào chữ ký điện tử, chứng thư điện tử của bên gửi.
+
+2. Bên chấp nhận chữ ký điện tử có các nghĩa vụ sau đây:
+
+a) Tiến hành các biện pháp cần thiết để kiểm chứng mức độ tin cậy của một chữ ký điện tử trước khi chấp nhận chữ ký điện tử đó;
+
+b) Tiến hành các biện pháp cần thiết để xác minh giá trị pháp lý của chứng thư điện tử và các hạn chế liên quan tới chứng thư điện tử trong trường hợp sử dụng chứng thư điện tử để chứng thực chữ ký điện tử.
+
+3. Bên chấp nhận chữ ký điện tử phải chịu trách nhiệm trước pháp luật về hậu quả do không tuân thủ quy định tại khoản 2 Điều này.
+
+Điều 27. Thừa nhận chữ ký điện tử và chứng thư điện tử nước ngoài
+
+1. Nhà nước công nhận giá trị pháp lý của chữ ký điện tử và chứng thư điện tử nước ngoài nếu chữ ký điện tử hoặc chứng thư điện tử đó có độ tin cậy tương đương với độ tin cậy của chữ ký điện tử và chứng thư điện tử theo quy định của pháp luật. Việc xác định mức độ tin cậy của chữ ký điện tử và chứng thư điện tử nước ngoài phải căn cứ vào các tiêu chuẩn quốc tế đã được thừa nhận, điều ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên và các yếu tố có liên quan khác.
+
+2. Chính phủ quy định cụ thể về việc thừa nhận chữ ký điện tử và chứng thư điện tử nước ngoài.
+
+Mục 2: DỊCH VỤ CHỨNG THỰC CHỮ KÝ ĐIỆN TỬ
+
+Điều 28. Hoạt động dịch vụ chứng thực chữ ký điện tử
+
+1. Cấp, gia hạn, tạm đình chỉ, phục hồi, thu hồi chứng thư điện tử.
+
+2. Cung cấp thông tin cần thiết để giúp chứng thực chữ ký điện tử của người ký thông điệp dữ liệu.
+
+3. Cung cấp các dịch vụ khác liên quan đến chữ ký điện tử và chứng thực chữ ký điện tử theo quy định của pháp luật.
+
+Điều 29. Nội dung của chứng thư điện tử
+1. Thông tin về tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+2. Thông tin về cơ quan, tổ chức, cá nhân được cấp chứng thư điện tử.
+
+3. Số hiệu của chứng thư điện tử.
+
+4. Thời hạn có hiệu lực của chứng thư điện tử.
+
+5. Dữ liệu để kiểm tra chữ ký điện tử của người được cấp chứng thư điện tử.
+
+6. Chữ ký điện tử của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+7. Các hạn chế về mục đích, phạm vi sử dụng của chứng thư điện tử.
+
+8. Các hạn chế về trách nhiệm pháp lý của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+9. Các nội dung khác theo quy định của Chính phủ.
+
+Điều 30. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử
+
+1. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử bao gồm tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử công cộng và tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử chuyên dùng được phép thực hiện các hoạt động chứng thực chữ ký điện tử theo quy định của pháp luật.
+
+2. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử công cộng là tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử cho cơ quan, tổ chức, cá nhân sử dụng trong các hoạt động công cộng. Hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử công cộng là hoạt động kinh doanh có điều kiện theo quy định của pháp luật.
+
+3. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử chuyên dùng là tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử cho cơ quan, tổ chức, cá nhân sử dụng trong các hoạt động chuyên ngành hoặc lĩnh vực. Hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử chuyên dùng phải được đăng ký với cơ quan quản lý nhà nước về dịch vụ chứng thực chữ ký điện tử.
+
+4. Chính phủ quy định cụ thể việc thành lập, tổ chức, đăng ký kinh doanh, hoạt động và việc công nhận lẫn nhau của các tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử quy định tại khoản 2 và khoản 3 Điều này.
+
+Điều 31. Quyền và nghĩa vụ của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử
+
+1. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử có các quyền và nghĩa vụ sau đây:
+
+a) Thực hiện các hoạt động dịch vụ chứng thực chữ ký điện tử quy định tại Điều 28 của Luật này;
+
+b) Tuân thủ quy định của pháp luật về tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử;
+
+c) Sử dụng hệ thống thiết bị kỹ thuật, quy trình và nguồn lực tin cậy để thực hiện công việc của mình;
+
+d) Bảo đảm tính chính xác và sự toàn vẹn của các nội dung cơ bản trong chứng thư điện tử do mình cấp;
+
+đ) Công khai thông tin về chứng thư điện tử đã cấp, gia hạn, tạm đình chỉ, phục hồi hoặc bị thu hồi;
+
+e) Cung cấp phương tiện thích hợp cho phép các bên chấp nhận chữ ký điện tử và các cơ quan quản lý nhà nước có thẩm quyền có thể dựa vào chứng thư điện tử để xác định chính xác nguồn gốc của thông điệp dữ liệu và chữ ký điện tử;
+
+g) Thông báo cho các bên liên quan trong trường hợp xảy ra sự cố ảnh hưởng đến việc chứng thực chữ ký điện tử;
+
+h) Thông báo công khai và thông báo cho những người được cấp chứng thư điện tử, cho cơ quan quản lý có liên quan trong thời hạn chín mươi ngày trước khi tạm dừng hoặc chấm dứt hoạt động;
+
+i) Lưu trữ các thông tin có liên quan đến chứng thư điện tử do mình cấp trong thời hạn ít nhất là năm năm, kể từ khi chứng thư điện tử hết hiệu lực;
+
+k) Các quyền và nghĩa vụ khác theo quy định của pháp luật.
+
+2. Chính phủ quy định chi tiết các quyền và nghĩa vụ của tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử quy định tại khoản 1 Điều này.
+
+Mục 3 : QUẢN LÝ DỊCH VỤ CHỨNG THỰC CHỮ KÝ ĐIỆN TỬ
+
+Điều 32. Các điều kiện để được cung cấp dịch vụ chứng thực chữ ký điện tử
+
+1. Tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử phải có đủ các điều kiện sau đây:
+
+a) Có đủ nhân viên kỹ thuật chuyên nghiệp và nhân viên quản lý phù hợp với việc cung cấp dịch vụ chứng thực chữ ký điện tử;
+
+b) Có đủ phương tiện và thiết bị kỹ thuật phù hợp với tiêu chuẩn an ninh, an toàn quốc gia;
+
+c) Đăng ký hoạt động với cơ quan quản lý nhà nước về hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+2. Chính phủ quy định cụ thể về các nội dung sau đây:
+
+a) Trình tự, thủ tục đăng ký hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử;
+
+b) Tiêu chuẩn kỹ thuật, quy trình, nhân lực và các điều kiện cần thiết khác đối với hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử;
+
+c) Nội dung và hình thức của chứng thư điện tử;
+
+d) Thủ tục cấp, gia hạn, tạm đình chỉ, phục hồi và thu hồi chứng thư điện tử;
+
+đ) Chế độ lưu trữ và công khai các thông tin liên quan đến chứng thư điện tử do tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử cấp;
+
+e) Điều kiện, thủ tục để tổ chức cung cấp dịch vụ chứng thực chữ ký điện tử nước ngoài có thể được cung cấp dịch vụ chứng thực chữ ký điện tử tại Việt Nam;
+
+g) Các nội dung cần thiết khác đối với hoạt động cung cấp dịch vụ chứng thực chữ ký điện tử.
+
+Chương 4:
+
+GIAO KẾT VÀ THỰC HIỆN HỢP ĐỒNG ĐIỆN TỬ
+
+Điều 33. Hợp đồng điện tử
+
+Hợp đồng điện tử là hợp đồng được thiết lập dưới dạng thông điệp dữ liệu theo quy định của Luật này.
+
+Điều 34. Thừa nhận giá trị pháp lý của hợp đồng điện tử
+
+Giá trị pháp lý của hợp đồng điện tử không thể bị phủ nhận chỉ vì hợp đồng đó được thể hiện dưới dạng thông điệp dữ liệu.
+
+Điều 35. Nguyên tắc giao kết và thực hiện hợp đồng điện tử
+
+1. Các bên tham gia có quyền thỏa thuận sử dụng phương tiện điện tử trong giao kết và thực hiện hợp đồng.
+
+2. Việc giao kết và thực hiện hợp đồng điện tử phải tuân thủ các quy định của Luật này và pháp luật về hợp đồng.
+
+3. Khi giao kết và thực hiện hợp đồng điện tử, các bên có quyền thoả thuận về yêu cầu kỹ thuật, chứng thực, các điều kiện bảo đảm tính toàn vẹn, bảo mật có liên quan đến hợp đồng điện tử đó.
+
+Điều 36. Giao kết hợp đồng điện tử
+
+1. Giao kết hợp đồng điện tử là việc sử dụng thông điệp dữ liệu để tiến hành một phần hoặc toàn bộ giao dịch trong quá trình giao kết hợp đồng.
+
+2. Trong giao kết hợp đồng, trừ trường hợp các bên có thỏa thuận khác, đề nghị giao kết hợp đồng và chấp nhận giao kết hợp đồng có thể được thực hiện thông qua thông điệp dữ liệu.
+
+Điều 37. Việc nhận, gửi, thời điểm, địa điểm nhận, gửi thông điệp dữ liệu trong giao kết và thực hiện hợp đồng điện tử
+
+Việc nhận, gửi, thời điểm, địa điểm nhận, gửi thông điệp dữ liệu trong giao kết và thực hiện hợp đồng điện tử được thực hiện theo quy định tại các điều 17, 18, 19 và 20 của Luật này.
+
+Điều 38. Giá trị pháp lý của thông báo trong giao kết và thực hiện hợp đồng điện tử
+
+Trong giao kết và thực hiện hợp đồng điện tử, thông báo dưới dạng thông điệp dữ liệu có giá trị pháp lý như thông báo bằng phương pháp truyền thống.
+
+Chương 5:
+
+GIAO DỊCH ĐIỆN TỬ CỦA CƠ QUAN NHÀ NƯỚC
+
+Điều 39. Các loại hình giao dịch điện tử của cơ quan nhà nước
+
+1. Giao dịch điện tử trong nội bộ cơ quan nhà nước.
+
+2. Giao dịch điện tử giữa các cơ quan nhà nước với nhau.
+
+3. Giao dịch điện tử giữa cơ quan nhà nước với cơ quan, tổ chức, cá nhân.
+
+Điều 40. Nguyên tắc tiến hành giao dịch điện tử của cơ quan nhà nước
+
+1. Các nguyên tắc quy định tại các khoản 3, 4 và 5 Điều 5 của Luật này.
+
+2. Việc giao dịch điện tử của cơ quan nhà nước phải phù hợp với quy định của Luật này và các quy định khác của pháp luật có liên quan.
+
+3. Cơ quan nhà nước trong phạm vi nhiệm vụ, quyền hạn của mình chủ động thực hiện từng phần hoặc toàn bộ giao dịch trong nội bộ cơ quan hoặc với cơ quan khác của Nhà nước bằng phương tiện điện tử.
+
+4. Căn cứ vào điều kiện phát triển kinh tế - xã hội và tình hình cụ thể, cơ quan nhà nước xác định một lộ trình hợp lý sử dụng phương tiện điện tử trong các loại hình giao dịch quy định tại Điều 39 của Luật này.
+
+5. Cơ quan, tổ chức, cá nhân có quyền lựa chọn phương thức giao dịch với cơ quan nhà nước nếu cơ quan nhà nước đó đồng thời chấp nhận giao dịch theo phương thức truyền thống và phương tiện điện tử, trừ trường hợp pháp luật có quy định khác.
+
+6. Khi tiến hành giao dịch điện tử, cơ quan nhà nước phải quy định cụ thể về:
+
+a) Định dạng, biểu mẫu của thông điệp dữ liệu;
+
+b) Loại chữ ký điện tử, chứng thực chữ ký điện tử trong trường hợp giao dịch điện tử cần có chữ ký điện tử, chứng thực chữ ký điện tử;
+
+c) Các quy trình bảo đảm tính toàn vẹn, an toàn và bí mật của giao dịch điện tử.
+
+7. Việc cung cấp dịch vụ công của cơ quan nhà nước dưới hình thức điện tử được xác lập trên cơ sở quy định của cơ quan đó nhưng không được trái với quy định của Luật này và quy định khác của pháp luật có liên quan.
+
+Điều 41. Bảo đảm an toàn, bảo mật và lưu trữ thông tin điện tử trong cơ quan nhà nước
+
+1. Định kỳ kiểm tra và bảo đảm an toàn hệ thống thông tin điện tử của cơ quan mình trong quá trình giao dịch điện tử.
+
+2. Bảo đảm bí mật thông tin liên quan đến giao dịch điện tử, không được sử dụng thông tin vào mục đích khác trái với quy định về việc sử dụng thông tin đó, không tiết lộ thông tin cho bên thứ ba theo quy định của pháp luật.
+
+3. Bảo đảm tính toàn vẹn của thông điệp dữ liệu trong giao dịch điện tử do mình tiến hành; bảo đảm an toàn trong vận hành của hệ thống mạng máy tính của cơ quan mình.
+
+4. Thành lập cơ sở dữ liệu về các giao dịch tương ứng, bảo đảm an toàn thông tin và có biện pháp dự phòng nhằm phục hồi được thông tin trong trường hợp hệ thống thông tin điện tử bị lỗi.
+
+5. Bảo đảm an toàn, bảo mật và lưu trữ thông tin theo quy định của Luật này và các quy định khác của pháp luật có liên quan.
+
+Điều 42. Trách nhiệm của cơ quan nhà nước trong trường hợp hệ thống thông tin điện tử bị lỗi
+
+1. Trong trường hợp hệ thống thông tin điện tử của cơ quan nhà nước bị lỗi, không bảo đảm tính an toàn của thông điệp dữ liệu thì cơ quan đó có trách nhiệm thông báo ngay cho người sử dụng biết về sự cố và áp dụng các biện pháp cần thiết để khắc phục.
+
+2. Cơ quan nhà nước phải chịu trách nhiệm trước pháp luật nếu không tuân thủ quy định tại khoản 1 Điều này.
+
+Điều 43. Trách nhiệm của cơ quan, tổ chức, cá nhân trong giao dịch điện tử với cơ quan nhà nước
+
+Cơ quan, tổ chức, cá nhân khi tiến hành giao dịch điện tử với cơ quan nhà nước có trách nhiệm tuân thủ các quy định của Luật này, các quy định về giao dịch điện tử do cơ quan nhà nước có thẩm quyền ban hành và các quy định khác của pháp luật có liên quan.
+
+Chương 6:
+
+AN NINH, AN TOÀN, BẢO VỆ, BẢO MẬT TRONG GIAO DỊCH ĐIỆN TỬ
+
+Điều 44. Bảo đảm an ninh, an toàn trong giao dịch điện tử
+
+1. Cơ quan, tổ chức, cá nhân có quyền lựa chọn các biện pháp bảo đảm an ninh, an toàn phù hợp với quy định của pháp luật khi tiến hành giao dịch điện tử.
+
+2. Cơ quan, tổ chức, cá nhân khi tiến hành giao dịch điện tử có trách nhiệm thực hiện các biện pháp cần thiết nhằm bảo đảm sự hoạt động thông suốt của hệ thống thông tin thuộc quyền kiểm soát của mình; trường hợp gây ra lỗi kỹ thuật của hệ thống thông tin làm thiệt hại cho cơ quan, tổ chức, cá nhân khác thì bị xử lý theo quy định của pháp luật.
+
+3. Cơ quan, tổ chức, cá nhân không được thực hiện bất kỳ hành vi nào nhằm cản trở hoặc gây phương hại đến việc bảo đảm an ninh, an toàn trong giao dịch điện tử.
+
+Điều 45. Bảo vệ thông điệp dữ liệu
+
+Cơ quan, tổ chức, cá nhân không được thực hiện bất kỳ hành vi nào gây phương hại đến sự toàn vẹn của thông điệp dữ liệu của cơ quan, tổ chức, cá nhân khác.
+
+Điều 46. Bảo mật thông tin trong giao dịch điện tử
+
+1. Cơ quan, tổ chức, cá nhân có quyền lựa chọn các biện pháp bảo mật phù hợp với quy định của pháp luật khi tiến hành giao dịch điện tử.
+
+2. Cơ quan, tổ chức, cá nhân không được sử dụng, cung cấp hoặc tiết lộ thông tin về bí mật đời tư hoặc thông tin của cơ quan, tổ chức, cá nhân khác mà mình tiếp cận hoặc kiểm soát được trong giao dịch điện tử nếu không được sự đồng ý của họ, trừ trường hợp pháp luật có quy định khác.
+
+Điều 47. Trách nhiệm của tổ chức cung cấp dịch vụ mạng
+
+1. Tổ chức cung cấp dịch vụ mạng có trách nhiệm phối hợp với các cơ quan hữu quan xây dựng quy chế quản lý và các biện pháp kỹ thuật để phòng ngừa, ngăn chặn việc sử dụng dịch vụ mạng nhằm phát tán các thông điệp dữ liệu có nội dung không phù hợp với truyền thống văn hoá, đạo đức của dân tộc, gây phương hại đến an ninh quốc gia, trật tự, an toàn xã hội hoặc vi phạm các quy định khác của pháp luật.
+
+2. Tổ chức cung cấp dịch vụ mạng phải chịu trách nhiệm trước pháp luật nếu không kịp thời loại bỏ những thông điệp dữ liệu được quy định tại khoản 1 Điều này khi tổ chức cung cấp dịch vụ mạng đó đã nhận được thông báo của cơ quan nhà nước có thẩm quyền.
+
+Điều 48. Trách nhiệm của cơ quan, tổ chức, cá nhân khi có yêu cầu của cơ quan nhà nước có thẩm quyền
+
+1. Khi có yêu cầu của cơ quan nhà nước có thẩm quyền, cơ quan, tổ chức, cá nhân có các trách nhiệm sau đây:
+
+a) Lưu giữ một thông điệp dữ liệu nhất định, bao gồm cả việc di chuyển dữ liệu đến một hệ thống máy tính khác hoặc nơi lưu giữ khác;
+
+b) Duy trì tính toàn vẹn của một thông điệp dữ liệu nhất định;
+
+c) Xuất trình hoặc cung cấp một thông điệp dữ liệu nhất định bao gồm cả mật mã và các phương thức mã hóa khác mà cơ quan, tổ chức, cá nhân đó có hoặc đang kiểm soát;
+
+d) Xuất trình hoặc cung cấp thông tin về người sử dụng dịch vụ trong trường hợp cơ quan, tổ chức, cá nhân được yêu cầu là người cung cấp dịch vụ có quyền kiểm soát thông tin đó;
+
+đ) Các trách nhiệm khác theo quy định của pháp luật.
+
+2. Cơ quan nhà nước có thẩm quyền phải chịu trách nhiệm trước pháp luật về yêu cầu của mình.
+
+Điều 49. Quyền và trách nhiệm của cơ quan nhà nước có thẩm quyền
+
+1. Cơ quan nhà nước có thẩm quyền có các quyền sau đây:
+
+a) Tìm kiếm hoặc thực hiện các hình thức truy cập đối với một phần hoặc toàn bộ hệ thống máy tính và các thông điệp dữ liệu trong hệ thống đó;
+
+b) Thu giữ toàn bộ hoặc một phần hệ thống máy tính;
+
+c) Sao chép và lưu giữ bản sao của một thông điệp dữ liệu;
+
+d) Ngăn cản việc truy cập vào một hệ thống máy tính;
+
+đ) Các quyền khác theo quy định của pháp luật.
+
+2. Khi thực hiện các quyền quy định tại khoản 1 Điều này, cơ quan nhà nước có thẩm quyền phải chịu trách nhiệm trước pháp luật về các quyết định của mình.
+
+Chương 7:
+
+GIẢI QUYẾT TRANH CHẤP VÀ XỬ LÝ VI PHẠM
+
+Điều 50. Xử lý vi phạm pháp luật về giao dịch điện tử
+
+1. Người có hành vi vi phạm pháp luật về giao dịch điện tử thì tuỳ theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật, xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+2. Cơ quan, tổ chức có hành vi vi phạm pháp luật trong giao dịch điện tử thì tuỳ theo tính chất, mức độ vi phạm mà bị xử phạt hành chính, đình chỉ hoạt động, nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+Điều 51. Tranh chấp trong giao dịch điện tử
+
+Tranh chấp trong giao dịch điện tử là tranh chấp phát sinh trong quá trình giao dịch bằng phương tiện điện tử.
+
+Điều 52. Giải quyết tranh chấp trong giao dịch điện tử
+
+1. Nhà nước khuyến khích các bên có tranh chấp trong giao dịch điện tử giải quyết thông qua hòa giải.
+
+2. Trong trường hợp các bên không hòa giải được thì thẩm quyền, trình tự, thủ tục giải quyết tranh chấp về giao dịch điện tử được thực hiện theo quy định của pháp luật.
+
+Chương 8:
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 53. Hiệu lực thi hành
+
+Luật này có hiệu lực thi hành từ ngày 01 tháng 3 năm 2006.
+
+Điều 54. Hướng dẫn thi hành
+
+Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này.
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XI, kỳ họp thứ 8 thông qua ngày 29 tháng 11 năm 2005.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Văn An

@@ -1,0 +1,922 @@
+QUỐC HỘI
+--------
+
+CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Số: 68/2006/QH11
+
+Hà Nội, ngày 29 tháng 06 năm 2006
+
+
+
+QUỐC HỘI NƯỚC CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+KHOÁ XI, KỲ HỌP THỨ 9
+
+(Từ ngày 16 tháng 5 đến ngày 29 tháng 6 năm 2006)
+
+LUẬT
+
+TIÊU CHUẨN VÀ QUY CHUẨN KỸ THUẬT
+
+Căn Cứ vào Hiến pháp nước Cộng hoà xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung theo Nghị quyết số 51/2001/QH10 ngày 25 tháng 12 năm 2001 của Quốc hội khoá X, kỳ họp thứ 10;
+
+Luật này quy định về tiêu chuẩn và quy chuẩn kỹ thuật.
+
+Chương I
+
+NHỮNG QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+
+Luật này quy định về hoạt động xây dựng, công bố và áp dụng tiêu chuẩn; xây dựng, ban hành và áp dụng quy chuẩn kỹ thuật; đánh giá sự phù hợp với tiêu chuẩn, quy chuẩn kỹ thuật.
+
+Điều 2. Đối tượng áp dụng
+
+Luật này áp dụng đối với tổ chức, cá nhân Việt Nam, tổ chức, cá nhân nước ngoài, người Việt Nam định cư ở nước ngoài có hoạt động liên quan đến tiêu chuẩn và quy chuẩn kỹ thuật tại Việt Nam.
+
+Điều 3. Giải thích từ ngữ
+
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+
+1. Tiêu chuẩn là quy định về đặc tính kỹ thuật và yêu cầu quản lý dùng làm chuẩn để phân loại, đánh giá sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường và các đối tượng khác trong hoạt động kinh tế - xã hội nhằm nâng cao chất lượng và hiệu quả của các đối tượng này.
+
+Tiêu chuẩn do một tổ chức công bố dưới dạng văn bản để tự nguyện áp dụng.
+
+2. Quy chuẩn kỹ thuật là quy định về mức giới hạn của đặc tính kỹ thuật và yêu cầu quản lý mà sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường và các đối tượng khác trong hoạt động kinh tế - xã hội phải tuân thủ để bảo đảm an toàn, vệ sinh, sức khoẻ con người; bảo vệ động vật, thực vật, môi trường; bảo vệ lợi ích và an ninh quốc gia, quyền lợi của người tiêu dùng và các yêu cầu thiết yếu khác.
+
+Quy chuẩn kỹ thuật do cơ quan nhà nước có thẩm quyền ban hành dưới dạng văn bản để bắt buộc áp dụng.
+
+3. Hoạt động trong lĩnh vực tiêu chuẩn là việc xây dựng, công bố và áp dụng tiêu chuẩn, đánh giá sự phù hợp với tiêu chuẩn.
+
+4. Hoạt động trong lĩnh vực quy chuẩn kỹ thuật là việc xây dựng, ban hành và áp dụng quy chuẩn kỹ thuật, đánh giá sự phù hợp với quy chuẩn kỹ thuật.
+
+5. Đánh giá sự phù hợp là việc xác định đối tượng của hoạt động trong lĩnh vực tiêu chuẩn và đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật phù hợp với đặc tính kỹ thuật và yêu cầu quản lý quy định trong tiêu chuẩn tương ứng và quy chuẩn kỹ thuật tương ứng.
+
+Đánh giá sự phù hợp bao gồm hoạt động thử nghiệm, hiệu chuẩn, giám định, chứng nhận hợp chuẩn, chứng nhận hợp quy, công bố hợp chuẩn, công bố hợp quy, công nhận năng lực của phòng thử nghiệm, phòng hiệu chuẩn, tổ chức chứng nhận sự phù hợp, tổ chức giám định.
+
+6. Chứng nhận hợp chuẩn là việc xác nhận đối tượng của hoạt động trong lĩnh vực tiêu chuẩn phù hợp với tiêu chuẩn tương ứng.
+
+7. Chứng nhận hợp quy là việc xác nhận đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật phù hợp với quy chuẩn kỹ thuật tương ứng.
+
+8. Công bố hợp chuẩn là việc tổ chức, cá nhân tự công bố đối tượng của hoạt động trong lĩnh vực tiêu chuẩn phù hợp với tiêu chuẩn tương ứng.
+
+9. Công bố hợp quy là việc tổ chức, cá nhân tự công bố đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật phù hợp với quy chuẩn kỹ thuật tương ứng.
+
+10. Công nhận là việc xác nhận phòng thử nghiệm, phòng hiệu chuẩn, tổ chức chứng nhận sự phù hợp, tổ chức giám định có năng lực phù hợp với các tiêu chuẩn tương ứng.
+
+Điều 4. Áp dụng pháp luật
+
+1. Trong trường hợp có sự khác nhau giữa quy định của Luật này với quy định của luật khác về tiêu chuẩn và quy chuẩn kỹ thuật thì áp dụng quy định của Luật này.
+
+2. Trong trường hợp điều ước quốc tế mà Cộng hoà xã hội chủ nghĩa Việt Nam là thành viên có quy định khác với quy định của Luật này thì áp dụng quy định của điều ước quốc tế đó.
+
+Điều 5. Đối tượng của hoạt động trong lĩnh vực tiêu chuẩn và đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật
+
+1. Đối tượng của hoạt động trong lĩnh vực tiêu chuẩn và đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật bao gồm:
+
+a) Sản phẩm, hàng hoá;
+
+b) Dịch vụ;
+
+c) Quá trình;
+
+d) Môi trường;
+
+đ) Các đối tượng khác trong hoạt động kinh tế - xã hội.
+
+2. Chính phủ quy định chi tiết về đối tượng của hoạt động trong lĩnh vực tiêu chuẩn và đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật.
+
+Điều 6. Nguyên tắc cơ bản của hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+1. Tiêu chuẩn và quy chuẩn kỹ thuật phải bảo đảm nâng cao chất lượng và hiệu quả hoạt động kinh tế - xã hội, nâng cao sức cạnh tranh của sản phẩm, hàng hoá và dịch vụ trên thị trường trong nước và quốc tế.
+
+2. Tiêu chuẩn và quy chuẩn kỹ thuật phải đáp ứng yêu cầu về an toàn, an ninh quốc gia, vệ sinh, sức khoẻ con người, quyền và lợi ích hợp pháp của các bên có liên quan, bảo vệ động vật, thực vật, môi trường và sử dụng hợp lý tài nguyên thiên nhiên.
+
+3. Hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật phải bảo đảm công khai, minh bạch, không phân biệt đối xử và không gây trở ngại không cần thiết đối với hoạt động sản xuất, kinh doanh, thương mại. Việc xây dựng tiêu chuẩn phải bảo đảm sự tham gia và đồng thuận của các bên có liên quan.
+
+4. Việc xây dựng tiêu chuẩn và quy chuẩn kỹ thuật phải:
+
+a) Dựa trên tiến bộ khoa học và công nghệ, kinh nghiệm thực tiễn, nhu cầu hiện tại và xu hướng phát triển kinh tế - xã hội;
+
+b) Sử dụng tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài làm cơ sở để xây dựng tiêu chuẩn và quy chuẩn kỹ thuật, trừ trường hợp các tiêu chuẩn đó không phù hợp với đặc điểm về địa lý, khí hậu, kỹ thuật, công nghệ của Việt Nam hoặc ảnh hưởng đến lợi ích quốc gia;
+
+c) Ưu tiên quy định các yêu cầu về tính năng sử dụng sản phẩm, hàng hóa; hạn chế quy định các yêu cầu mang tính mô tả hoặc thiết kế chi tiết;
+
+d) Bảo đảm tính thống nhất của hệ thống tiêu chuẩn và hệ thống quy chuẩn kỹ thuật của Việt Nam.
+
+Điều 7. Chính sách của Nhà nước về phát triển hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+1. Chú trọng đầu tư xây dựng cơ sở vật chất - kỹ thuật, đào tạo nguồn nhân lực phục vụ quản lý nhà nước về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật .
+
+2. Hỗ trợ, thúc đẩy nghiên cứu, ứng dụng khoa học và phát triển công nghệ phục vụ hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật.
+
+3. Khuyến khích tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài, người Việt Nam định cư ở nước ngoài tham gia xây dựng, áp dụng tiêu chuẩn và quy chuẩn kỹ thuật, đầu tư phát triển hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật tại Việt Nam, đào tạo kiến thức về tiêu chuẩn và quy chuẩn kỹ thuật cho các ngành kinh tế - kỹ thuật.
+
+Điều 8. Hợp tác quốc tế về tiêu chuẩn và quy chuẩn kỹ thuật
+
+1. Nhà nước khuyến khích mở rộng hợp tác với các quốc gia, vùng lãnh thổ, tổ chức quốc tế, tổ chức khu vực, tổ chức, cá nhân nước ngoài về tiêu chuẩn và quy chuẩn kỹ thuật; tranh thủ sự giúp đỡ của các quốc gia, vùng lãnh thổ, tổ chức quốc tế, tổ chức khu vực, tổ chức, cá nhân nước ngoài trên cơ sở bảo đảm nguyên tắc độc lập, chủ quyền, toàn vẹn lãnh thổ, bình đẳng và cùng có lợi.
+
+2. Nhà nước tạo điều kiện và có biện pháp thúc đẩy việc ký kết các thoả thuận song phương và đa phương về thừa nhận lẫn nhau đối với kết quả đánh giá sự phù hợp nhằm tạo thuận lợi cho việc phát triển thương mại giữa Việt Nam với các quốc gia, vùng lãnh thổ.
+
+Điều 9. Những hành vi bị nghiêm cấm
+
+1. Lợi dụng hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật để cản trở, gây phiền hà, sách nhiễu đối với hoạt động sản xuất, kinh doanh, thương mại của tổ chức, cá nhân.
+
+2. Thông tin, quảng cáo sai sự thật và các hành vi gian dối khác trong hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật.
+
+3. Lợi dụng hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật để gây phương hại đến lợi ích quốc gia, quốc phòng, an ninh, trật tự, an toàn xã hội.
+
+Chương II
+
+XÂY DỰNG, CÔNG BỐ VÀ ÁP DỤNG TIÊU CHUẨN
+
+Điều 10. Hệ thống tiêu chuẩn và ký hiệu tiêu chuẩn
+
+Hệ thống tiêu chuẩn và ký hiệu tiêu chuẩn của Việt Nam bao gồm:
+
+1. Tiêu chuẩn quốc gia, ký hiệu là TCVN;
+
+2. Tiêu chuẩn cơ sở, ký hiệu là TCCS.
+
+Điều 11. Trách nhiệm xây dựng, thẩm định, công bố tiêu chuẩn
+
+1. Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ tổ chức xây dựng dự thảo tiêu chuẩn quốc gia và đề nghị thẩm định, công bố tiêu chuẩn quốc gia.
+
+2. Bộ trưởng Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo tiêu chuẩn quốc gia và công bố tiêu chuẩn quốc gia.
+
+3. Các tổ chức xây dựng và công bố tiêu chuẩn cơ sở bao gồm:
+
+a) Tổ chức kinh tế;
+
+b) Cơ quan nhà nước;
+
+c) Đơn vị sự nghiệp;
+
+d) Tổ chức xã hội - nghề nghiệp.
+
+Điều 12. Loại tiêu chuẩn
+
+1. Tiêu chuẩn cơ bản quy định những đặc tính, yêu cầu áp dụng chung cho một phạm vi rộng hoặc chứa đựng các quy định chung cho một lĩnh vực cụ thể.
+
+2. Tiêu chuẩn thuật ngữ quy định tên gọi, định nghĩa đối với đối tượng của hoạt động trong lĩnh vực tiêu chuẩn.
+
+3. Tiêu chuẩn yêu cầu kỹ thuật quy định về mức, chỉ tiêu, yêu cầu đối với đối tượng của hoạt động trong lĩnh vực tiêu chuẩn.
+
+4. Tiêu chuẩn phương pháp thử quy định phương pháp lấy mẫu, phương pháp đo, phương pháp xác định, phương pháp phân tích, phương pháp kiểm tra, phương pháp khảo nghiệm, phương pháp giám định các mức, chỉ tiêu, yêu cầu đối với đối tượng của hoạt động trong lĩnh vực tiêu chuẩn.
+
+5. Tiêu chuẩn ghi nhãn, bao gói, vận chuyển và bảo quản quy định các yêu cầu về ghi nhãn, bao gói, vận chuyển và bảo quản sản phẩm, hàng hoá.
+
+Điều 13. Căn cứ xây dựng tiêu chuẩn
+
+Tiêu chuẩn được xây dựng dựa trên một hoặc những căn cứ sau đây:
+
+1. Tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài;
+
+2. Kết quả nghiên cứu khoa học và công nghệ, tiến bộ kỹ thuật;
+
+3. Kinh nghiệm thực tiễn;
+
+4. Kết quả đánh giá, khảo nghiệm, thử nghiệm, kiểm tra, giám định.
+
+Điều 14. Quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia
+
+1. Quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia bao gồm quy hoạch, kế hoạch năm năm và kế hoạch hằng năm được lập trên cơ sở sau đây:
+
+a) Yêu cầu phát triển kinh tế - xã hội;
+
+b) Đề nghị của tổ chức, cá nhân.
+
+2. Quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia do Bộ Khoa học và Công nghệ chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ có liên quan tổ chức lập và thông báo công khai để lấy ý kiến rộng rãi trước khi phê duyệt.
+
+Bộ Khoa học và Công nghệ phê duyệt quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia và thông báo công khai quy hoạch, kế hoạch đó trong thời hạn ba mươi ngày, kể từ ngày phê duyệt.
+
+3. Trong trường hợp cần thiết, quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia được sửa đổi, bổ sung theo quyết định của Bộ trưởng Bộ Khoa học và Công nghệ. Việc sửa đổi, bổ sung quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia được thực hiện theo quy định tại khoản 2 Điều này.
+
+Điều 15. Quyền của tổ chức, cá nhân tham gia xây dựng tiêu chuẩn quốc gia
+
+1. Đề nghị, góp ý kiến về quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia.
+
+2. Chủ trì biên soạn hoặc tham gia biên soạn dự thảo tiêu chuẩn quốc gia để đề nghị Bộ Khoa học và Công nghệ tổ chức thẩm định, công bố.
+
+3. Góp ý kiến về dự thảo tiêu chuẩn quốc gia.
+
+Điều 16. Ban kỹ thuật tiêu chuẩn quốc gia
+
+1. Ban kỹ thuật tiêu chuẩn quốc gia là tổ chức tư vấn kỹ thuật do Bộ Khoa học và Công nghệ thành lập cho từng lĩnh vực tiêu chuẩn.
+
+2. Thành viên ban kỹ thuật tiêu chuẩn quốc gia bao gồm đại diện cơ quan nhà nước, tổ chức khoa học và công nghệ, hội, hiệp hội, doanh nghiệp, các tổ chức khác có liên quan, người tiêu dùng và các chuyên gia.
+
+3. Ban kỹ thuật tiêu chuẩn quốc gia có các nhiệm vụ sau đây:
+
+a) Đề xuất quy hoạch, kế hoạch, phương án, giải pháp xây dựng tiêu chuẩn quốc gia;
+
+b) Biên soạn dự thảo tiêu chuẩn quốc gia trên cơ sở dự thảo do tổ chức, cá nhân đề nghị; trực tiếp xây dựng dự thảo tiêu chuẩn quốc gia; tham gia biên soạn, góp ý kiến về dự thảo tiêu chuẩn quốc tế, dự thảo tiêu chuẩn khu vực; tham gia thẩm định dự thảo tiêu chuẩn quốc gia do bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ xây dựng;
+
+c) Tham gia hoạt động tư vấn, phổ biến tiêu chuẩn quốc gia và tiêu chuẩn khác;
+
+d) Tham gia xây dựng dự thảo quy chuẩn kỹ thuật khi được yêu cầu.
+
+Điều 17. Trình tự, thủ tục xây dựng, thẩm định, công bố tiêu chuẩn quốc gia
+
+1. Trình tự, thủ tục xây dựng, thẩm định, công bố tiêu chuẩn quốc gia đối với dự thảo tiêu chuẩn quốc gia do bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ xây dựng được quy định như sau:
+
+a) Căn cứ kế hoạch xây dựng tiêu chuẩn quốc gia đã được phê duyệt, bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ triển khai xây dựng dự thảo tiêu chuẩn quốc gia;
+
+b) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ tổ chức lấy ý kiến rộng rãi, công khai của tổ chức, cá nhân có liên quan về dự thảo tiêu chuẩn quốc gia; tổ chức hội nghị chuyên đề với sự tham gia của các bên có liên quan để góp ý về dự thảo. Thời gian lấy ý kiến về dự thảo ít nhất là sáu mươi ngày; trong trường hợp cấp thiết liên quan đến sức khoẻ, an toàn, môi trường thì thời gian lấy ý kiến có thể ngắn hơn;
+
+c) Bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ nghiên cứu tiếp thu ý kiến của tổ chức, cá nhân để hoàn chỉnh dự thảo tiêu chuẩn quốc gia, lập hồ sơ dự thảo và chuyển cho Bộ Khoa học và Công nghệ để tổ chức thẩm định;
+
+d) Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo tiêu chuẩn quốc gia theo quy định tại Điều 18 của Luật này. Thời hạn thẩm định không quá sáu mươi ngày, kể từ ngày nhận được hồ sơ hợp lệ;
+
+đ) Trong thời hạn ba mươi ngày, kể từ ngày có ý kiến thẩm định nhất trí với dự thảo tiêu chuẩn quốc gia, Bộ trưởng Bộ Khoa học và Công nghệ công bố tiêu chuẩn quốc gia;
+
+e) Trong trường hợp ý kiến thẩm định không nhất trí với dự thảo tiêu chuẩn quốc gia, Bộ Khoa học và Công nghệ gửi ý kiến thẩm định cho bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ xây dựng dự thảo tiêu chuẩn quốc gia để hoàn chỉnh. Sau khi nhận được dự thảo đã được hoàn chỉnh, Bộ trưởng Bộ Khoa học và Công nghệ công bố tiêu chuẩn quốc gia theo quy định tại điểm đ khoản này. Trường hợp không đạt được sự nhất trí giữa hai bên, Bộ Khoa học và Công nghệ báo cáo Thủ tướng Chính phủ xem xét, quyết định.
+
+2. Trình tự, thủ tục xây dựng, thẩm định, công bố tiêu chuẩn quốc gia đối với dự thảo tiêu chuẩn quốc gia do tổ chức, cá nhân đề nghị được quy định như sau:
+
+a) Tổ chức, cá nhân biên soạn dự thảo tiêu chuẩn hoặc đề xuất tiêu chuẩn sẵn có để đề nghị Bộ Khoa học và Công nghệ xem xét;
+
+b) Bộ Khoa học và Công nghệ giao cho ban kỹ thuật tiêu chuẩn quốc gia biên soạn dự thảo tiêu chuẩn quốc gia trên cơ sở dự thảo do tổ chức, cá nhân đề nghị; tổ chức lấy ý kiến rộng rãi, công khai của tổ chức, cá nhân có liên quan về dự thảo; tổ chức hội nghị chuyên đề với sự tham gia của các bên có liên quan để góp ý về dự thảo. Thời gian lấy ý kiến về dự thảo ít nhất là sáu mươi ngày; trong trường hợp cấp thiết liên quan đến sức khoẻ, an toàn, môi trường thì thời gian lấy ý kiến có thể ngắn hơn;
+
+c) Ban kỹ thuật tiêu chuẩn quốc gia nghiên cứu tiếp thu ý kiến của tổ chức, cá nhân để hoàn chỉnh dự thảo tiêu chuẩn quốc gia và lập hồ sơ dự thảo trình Bộ Khoa học và Công nghệ xem xét;
+
+d) Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo tiêu chuẩn quốc gia theo quy định tại Điều 18 của Luật này. Thời hạn thẩm định, thời hạn công bố tiêu chuẩn quốc gia theo quy định tại điểm d và điểm đ khoản 1 Điều này.
+
+3. Trình tự, thủ tục xây dựng, thẩm định, công bố tiêu chuẩn quốc gia đối với dự thảo tiêu chuẩn quốc gia do Bộ Khoa học và Công nghệ xây dựng được quy định như sau:
+
+a) Căn cứ kế hoạch xây dựng tiêu chuẩn quốc gia đã được phê duyệt, Bộ Khoa học và Công nghệ giao cho ban kỹ thuật tiêu chuẩn quốc gia tương ứng xây dựng dự thảo tiêu chuẩn quốc gia theo quy định tại điểm b và điểm c khoản 2 Điều này;
+
+b) Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo tiêu chuẩn quốc gia theo quy định tại Điều 18 của Luật này. Thời hạn thẩm định, thời hạn công bố tiêu chuẩn quốc gia theo quy định tại điểm d và điểm đ khoản 1 Điều này.
+
+4. Chính phủ quy định cụ thể hồ sơ dự thảo tiêu chuẩn quốc gia.
+
+Điều 18. Nội dung thẩm định dự thảo tiêu chuẩn quốc gia
+
+1. Sự phù hợp của tiêu chuẩn với tiến bộ khoa học và công nghệ, điều kiện và nhu cầu phát triển kinh tế - xã hội.
+
+2. Sự phù hợp của tiêu chuẩn với quy chuẩn kỹ thuật, quy định của pháp luật, cam kết quốc tế có liên quan, yêu cầu hài hoà với tiêu chuẩn quốc tế.
+
+3. Tính thống nhất, đồng bộ trong hệ thống tiêu chuẩn quốc gia, việc tuân thủ nguyên tắc đồng thuận và hài hoà lợi ích của các bên có liên quan.
+
+4. Việc tuân thủ các yêu cầu nghiệp vụ, trình tự, thủ tục xây dựng tiêu chuẩn quốc gia.
+
+Điều 19. Rà soát, sửa đổi, bổ sung, thay thế, huỷ bỏ tiêu chuẩn quốc gia
+
+1. Bộ Khoa học và Công nghệ chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ tổ chức rà soát tiêu chuẩn quốc gia định kỳ ba năm một lần hoặc sớm hơn khi cần thiết, kể từ ngày tiêu chuẩn được công bố.
+
+2. Việc sửa đổi, bổ sung, thay thế tiêu chuẩn quốc gia được thực hiện theo trình tự, thủ tục quy định tại Điều 17 của Luật này trên cơ sở kết quả rà soát hoặc đề nghị của tổ chức, cá nhân.
+
+3. Việc huỷ bỏ tiêu chuẩn quốc gia được thực hiện trên cơ sở kết quả rà soát tiêu chuẩn quốc gia hoặc đề nghị huỷ bỏ tiêu chuẩn quốc gia của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ, tổ chức, cá nhân.
+
+Bộ Khoa học và Công nghệ thẩm định hồ sơ huỷ bỏ tiêu chuẩn quốc gia và công bố huỷ bỏ tiêu chuẩn quốc gia sau khi có ý kiến nhất trí bằng văn bản của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ xây dựng dự thảo tiêu chuẩn quốc gia tương ứng.
+
+Điều 20. Xây dựng, công bố tiêu chuẩn cơ sở
+
+1. Tiêu chuẩn cơ sở do người đứng đầu tổ chức quy định tại khoản 3 Điều 11 của Luật này tổ chức xây dựng và công bố để áp dụng trong các hoạt động của cơ sở.
+
+2. Tiêu chuẩn cơ sở được xây dựng dựa trên thành tựu khoa học và công nghệ, nhu cầu và khả năng thực tiễn của cơ sở. Khuyến khích sử dụng tiêu chuẩn quốc gia, tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài làm tiêu chuẩn cơ sở.
+
+3. Tiêu chuẩn cơ sở không được trái với quy chuẩn kỹ thuật và quy định của pháp luật có liên quan.
+
+4. Trình tự, thủ tục xây dựng, công bố tiêu chuẩn cơ sở thực hiện theo hướng dẫn của Bộ Khoa học và Công nghệ.
+
+Điều 21. Xuất bản và phát hành tiêu chuẩn
+
+1. Bộ Khoa học và Công nghệ giữ quyền xuất bản và phát hành tiêu chuẩn quốc gia.
+
+2. Cơ quan đại diện của Việt Nam tham gia tổ chức quốc tế, tổ chức khu vực về tiêu chuẩn thực hiện việc xuất bản, phát hành tiêu chuẩn quốc tế, tiêu chuẩn khu vực theo quy định của tổ chức đó.
+
+Việc xuất bản, phát hành tiêu chuẩn của tổ chức quốc tế, tổ chức khu vực mà Việt Nam không là thành viên và tiêu chuẩn nước ngoài được thực hiện theo thoả thuận với tổ chức ban hành tiêu chuẩn đó.
+
+3. Tổ chức công bố tiêu chuẩn cơ sở giữ quyền xuất bản và phát hành tiêu chuẩn cơ sở.
+
+Điều 22. Thông báo, phổ biến tiêu chuẩn quốc gia
+
+Bộ Khoa học và Công nghệ có trách nhiệm sau đây:
+
+1. Thông báo công khai việc công bố tiêu chuẩn quốc gia và việc sửa đổi, bổ sung, thay thế, huỷ bỏ tiêu chuẩn quốc gia trong thời hạn ít nhất là ba mươi ngày, kể từ ngày ra quyết định;
+
+2. Chủ trì, phối hợp với bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ tổ chức phổ biến, hướng dẫn áp dụng tiêu chuẩn quốc gia;
+
+3. Định kỳ hằng năm phát hành danh mục tiêu chuẩn quốc gia.
+
+Điều 23. Nguyên tắc áp dụng tiêu chuẩn
+
+1. Tiêu chuẩn được áp dụng trên nguyên tắc tự nguyện.
+
+Toàn bộ hoặc một phần tiêu chuẩn cụ thể trở thành bắt buộc áp dụng khi được viện dẫn trong văn bản quy phạm pháp luật, quy chuẩn kỹ thuật.
+
+2. Tiêu chuẩn cơ sở được áp dụng trong phạm vi quản lý của tổ chức công bố tiêu chuẩn.
+
+Điều 24. Phương thức áp dụng tiêu chuẩn
+
+1. Tiêu chuẩn được áp dụng trực tiếp hoặc được viện dẫn trong văn bản khác.
+
+2. Tiêu chuẩn được sử dụng làm cơ sở cho hoạt động đánh giá sự phù hợp.
+
+Điều 25. Nguồn kinh phí xây dựng tiêu chuẩn
+
+1. Nguồn kinh phí xây dựng tiêu chuẩn quốc gia bao gồm:
+
+a) Ngân sách nhà nước cấp theo dự toán ngân sách hằng năm được duyệt;
+
+b) Các khoản hỗ trợ tự nguyện của tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài;
+
+c) Các nguồn thu hợp pháp khác.
+
+2. Nguồn kinh phí xây dựng tiêu chuẩn cơ sở do tổ chức, cá nhân tự trang trải và được tính là chi phí hợp lý.
+
+3. Chính phủ quy định việc quản lý, sử dụng kinh phí xây dựng tiêu chuẩn quốc gia.
+
+Chương III
+
+XÂY DỰNG, BAN HÀNH VÀ ÁP DỤNG QUY CHUẨN KỸ THUẬT
+
+Điều 26. Hệ thống quy chuẩn kỹ thuật và ký hiệu quy chuẩn kỹ thuật
+
+Hệ thống quy chuẩn kỹ thuật và ký hiệu quy chuẩn kỹ thuật của Việt Nam bao gồm:
+
+1. Quy chuẩn kỹ thuật quốc gia, ký hiệu là QCVN;
+
+2. Quy chuẩn kỹ thuật địa phương, ký hiệu là QCĐP.
+
+Điều 27. Trách nhiệm xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật
+
+1. Trách nhiệm xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật quốc gia được quy định như sau:
+
+a) Bộ trưởng, Thủ trưởng cơ quan ngang bộ tổ chức xây dựng và ban hành quy chuẩn kỹ thuật quốc gia trong phạm vi ngành, lĩnh vực được phân công quản lý;
+
+b) Bộ trưởng Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo quy chuẩn kỹ thuật quốc gia;
+
+c) Chính phủ quy định việc xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật quốc gia mang tính liên ngành và quy chuẩn kỹ thuật quốc gia cho đối tượng của hoạt động trong lĩnh vực quy chuẩn kỹ thuật thuộc trách nhiệm quản lý của cơ quan thuộc Chính phủ.
+
+2. Trách nhiệm xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật địa phương được quy định như sau:
+
+a) Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương xây dựng và ban hành quy chuẩn kỹ thuật địa phương để áp dụng trong phạm vi quản lý của địa phương đối với sản phẩm, hàng hoá, dịch vụ, quá trình đặc thù của địa phương và yêu cầu cụ thể về môi trường cho phù hợp với đặc điểm về địa lý, khí hậu, thuỷ văn, trình độ phát triển kinh tế - xã hội của địa phương;
+
+b) Quy chuẩn kỹ thuật địa phương được ban hành sau khi được sự đồng ý của cơ quan nhà nước có thẩm quyền quy định tại điểm a khoản 1 Điều này.
+
+Điều 28. Loại quy chuẩn kỹ thuật
+
+1. Quy chuẩn kỹ thuật chung bao gồm các quy định về kỹ thuật và quản lý áp dụng cho một lĩnh vực quản lý hoặc một nhóm sản phẩm, hàng hoá, dịch vụ, quá trình.
+
+2. Quy chuẩn kỹ thuật an toàn bao gồm:
+
+a) Các quy định về mức, chỉ tiêu, yêu cầu liên quan đến an toàn sinh học, an toàn cháy nổ, an toàn cơ học, an toàn công nghiệp, an toàn xây dựng, an toàn nhiệt, an toàn hóa học, an toàn điện, an toàn thiết bị y tế, tương thích điện từ trường, an toàn bức xạ và hạt nhân;
+
+b) Các quy định về mức, chỉ tiêu, yêu cầu liên quan đến an toàn vệ sinh thực phẩm, an toàn dược phẩm, mỹ phẩm đối với sức khoẻ con người;
+
+c) Các quy định về mức, chỉ tiêu, yêu cầu liên quan đến vệ sinh, an toàn thức ăn chăn nuôi, phân bón, thuốc bảo vệ thực vật, thuốc thú y, chế phẩm sinh học và hoá chất dùng cho động vật, thực vật.
+
+3. Quy chuẩn kỹ thuật môi trường quy định về mức, chỉ tiêu, yêu cầu về chất lượng môi trường xung quanh, về chất thải.
+
+4. Quy chuẩn kỹ thuật quá trình quy định yêu cầu về vệ sinh, an toàn trong quá trình sản xuất, khai thác, chế biến, bảo quản, vận hành, vận chuyển, sử dụng, bảo trì sản phẩm, hàng hóa.
+
+5. Quy chuẩn kỹ thuật dịch vụ quy định yêu cầu về an toàn, vệ sinh trong dịch vụ kinh doanh, thương mại, bưu chính, viễn thông, xây dựng, giáo dục, tài chính, khoa học và công nghệ, chăm sóc sức khoẻ, du lịch, giải trí, văn hoá, thể thao, vận tải, môi trường và dịch vụ trong các lĩnh vực khác.
+
+Điều 29. Quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật
+
+1. Quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật bao gồm quy hoạch, kế hoạch năm năm và kế hoạch hằng năm được lập trên cơ sở sau đây:
+
+a) Yêu cầu phát triển kinh tế - xã hội;
+
+b) Yêu cầu quản lý nhà nước;
+
+c) Đề nghị của tổ chức, cá nhân.
+
+2. Quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật do cơ quan ban hành quy chuẩn kỹ thuật chủ trì, phối hợp với Bộ Khoa học và Công nghệ và cơ quan có liên quan tổ chức xây dựng, thông báo công khai để lấy ý kiến rộng rãi trước khi phê duyệt.
+
+Cơ quan ban hành quy chuẩn kỹ thuật phê duyệt quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật và thông báo công khai quy hoạch, kế hoạch đó trong thời hạn ba mươi ngày, kể từ ngày phê duyệt.
+
+3. Trong trường hợp cần thiết, quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật được sửa đổi, bổ sung theo quyết định của thủ trưởng cơ quan ban hành quy chuẩn kỹ thuật. Việc sửa đổi, bổ sung quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật được thực hiện theo quy định tại khoản 2 Điều này.
+
+Điều 30. Căn cứ xây dựng quy chuẩn kỹ thuật
+
+Quy chuẩn kỹ thuật được xây dựng dựa trên một hoặc những căn cứ sau đây:
+
+1. Tiêu chuẩn quốc gia;
+
+2. Tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài;
+
+3. Kết quả nghiên cứu khoa học và công nghệ, tiến bộ kỹ thuật;
+
+4. Kết quả đánh giá, khảo nghiệm, thử nghiệm, kiểm tra, giám định.
+
+Điều 31. Quyền của tổ chức, cá nhân tham gia xây dựng quy chuẩn kỹ thuật
+
+1. Đề nghị, góp ý kiến về quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật.
+
+2. Biên soạn dự thảo quy chuẩn kỹ thuật để đề nghị cơ quan ban hành quy chuẩn kỹ thuật xem xét, ban hành.
+
+3. Tham gia biên soạn dự thảo quy chuẩn kỹ thuật theo đề nghị của cơ quan ban hành quy chuẩn kỹ thuật.
+
+4. Góp ý kiến về dự thảo quy chuẩn kỹ thuật.
+
+Điều 32. Trình tự, thủ tục xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật
+
+1. Trình tự, thủ tục xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật quốc gia được quy định như sau:
+
+a) Căn cứ kế hoạch xây dựng quy chuẩn kỹ thuật đã được phê duyệt, cơ quan ban hành quy chuẩn kỹ thuật quốc gia quy định tại Điều 27 của Luật này tổ chức việc xây dựng quy chuẩn kỹ thuật quốc gia với sự tham gia của đại diện cơ quan nhà nước, tổ chức khoa học và công nghệ, doanh nghiệp, các tổ chức khác có liên quan, người tiêu dùng và các chuyên gia;
+
+b) Cơ quan ban hành quy chuẩn kỹ thuật quốc gia tổ chức lấy ý kiến rộng rãi, công khai của tổ chức, cá nhân có liên quan về dự thảo quy chuẩn kỹ thuật quốc gia; tổ chức hội nghị chuyên đề với sự tham gia của các bên có liên quan để góp ý về dự thảo. Thời gian lấy ý kiến về dự thảo ít nhất là sáu mươi ngày; trong trường hợp cấp thiết liên quan đến sức khoẻ, an toàn, môi trường thì thời gian lấy ý kiến có thể ngắn hơn theo quyết định của cơ quan ban hành quy chuẩn kỹ thuật quốc gia;
+
+c) Cơ quan ban hành quy chuẩn kỹ thuật quốc gia nghiên cứu tiếp thu ý kiến của tổ chức, cá nhân để hoàn chỉnh dự thảo quy chuẩn kỹ thuật quốc gia, lập hồ sơ dự thảo sau khi đã thống nhất ý kiến với bộ, ngành có liên quan về nội dung và chuyển cho Bộ Khoa học và Công nghệ để tổ chức thẩm định;
+
+d) Bộ Khoa học và Công nghệ tổ chức thẩm định dự thảo quy chuẩn kỹ thuật quốc gia theo quy định tại Điều 33 của Luật này. Thời hạn thẩm định không quá sáu mươi ngày, kể từ ngày nhận được hồ sơ hợp lệ;
+
+đ) Cơ quan ban hành quy chuẩn kỹ thuật quốc gia hoàn chỉnh dự thảo và ban hành quy chuẩn kỹ thuật quốc gia trong thời hạn ba mươi ngày, kể từ ngày có ý kiến nhất trí của cơ quan thẩm định. Trường hợp không nhất trí với ý kiến thẩm định, cơ quan ban hành quy chuẩn kỹ thuật quốc gia báo cáo Thủ tướng Chính phủ xem xét, quyết định.
+
+2. Trình tự, thủ tục xây dựng, thẩm định, ban hành quy chuẩn kỹ thuật địa phương được quy định như sau:
+
+a) Căn cứ kế hoạch xây dựng quy chuẩn kỹ thuật đã được phê duyệt, Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương tổ chức việc xây dựng quy chuẩn kỹ thuật địa phương;
+
+b) Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương tổ chức lấy ý kiến rộng rãi, công khai của tổ chức, cá nhân có liên quan về dự thảo quy chuẩn kỹ thuật địa phương; tổ chức hội nghị chuyên đề với sự tham gia của các bên có liên quan để góp ý về dự thảo. Thời gian lấy ý kiến về dự thảo ít nhất là sáu mươi ngày; trong trường hợp cấp thiết liên quan đến sức khoẻ, an toàn, môi trường thì thời gian lấy ý kiến có thể ngắn hơn theo quyết định của Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương;
+
+c) Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương nghiên cứu tiếp thu ý kiến của tổ chức, cá nhân để hoàn chỉnh dự thảo quy chuẩn kỹ thuật địa phương, lập hồ sơ dự thảo và gửi cho cơ quan nhà nước có thẩm quyền quy định tại điểm a khoản 1 Điều 27 của Luật này để lấy ý kiến;
+
+d) Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương ban hành quy chuẩn kỹ thuật địa phương trong thời hạn ba mươi ngày, kể từ ngày có ý kiến đồng ý của cơ quan nhà nước có thẩm quyền quy định tại điểm a khoản 1 Điều 27 của Luật này.
+
+3. Chính phủ quy định cụ thể hồ sơ dự thảo quy chuẩn kỹ thuật.
+
+Điều 33. Nội dung thẩm định dự thảo quy chuẩn kỹ thuật quốc gia
+
+1. Sự phù hợp của quy chuẩn kỹ thuật với quy định của pháp luật và cam kết quốc tế có liên quan;
+
+2. Tính thống nhất, đồng bộ trong hệ thống quy chuẩn kỹ thuật quốc gia;
+
+3. Việc tuân thủ các yêu cầu nghiệp vụ, trình tự, thủ tục xây dựng quy chuẩn kỹ thuật.
+
+Điều 34. Hiệu lực thi hành quy chuẩn kỹ thuật
+
+1. Quy chuẩn kỹ thuật có hiệu lực thi hành sau ít nhất sáu tháng, kể từ ngày ban hành, trừ trường hợp quy định tại khoản 2 Điều này.
+
+2. Trong trường hợp cấp thiết liên quan đến sức khỏe, an toàn, môi trường, hiệu lực thi hành quy chuẩn kỹ thuật có thể sớm hơn theo quyết định của cơ quan ban hành quy chuẩn kỹ thuật.
+
+3. Quy chuẩn kỹ thuật quốc gia có hiệu lực thi hành trong phạm vi cả nước; quy chuẩn kỹ thuật địa phương có hiệu lực thi hành trong phạm vi quản lý của Uỷ ban nhân dân tỉnh, thành phố trực thuộc trung ương ban hành quy chuẩn kỹ thuật đó.
+
+Điều 35. Rà soát, sửa đổi, bổ sung, thay thế, huỷ bỏ quy chuẩn kỹ thuật
+
+1. Cơ quan ban hành quy chuẩn kỹ thuật tổ chức rà soát quy chuẩn kỹ thuật định kỳ năm năm một lần hoặc sớm hơn khi cần thiết, kể từ ngày ban hành.
+
+2. Việc sửa đổi, bổ sung, thay thế quy chuẩn kỹ thuật được thực hiện theo trình tự, thủ tục quy định tại Điều 32 của Luật này trên cơ sở kết quả rà soát hoặc đề nghị của tổ chức, cá nhân.
+
+3. Cơ quan ban hành quy chuẩn kỹ thuật huỷ bỏ quy chuẩn kỹ thuật theo trình tự sau đây:
+
+a) Trên cơ sở kết quả rà soát hoặc đề nghị của tổ chức, cá nhân, cơ quan ban hành quy chuẩn kỹ thuật quốc gia tổ chức lập hồ sơ huỷ bỏ quy chuẩn kỹ thuật quốc gia; xem xét hồ sơ và quyết định huỷ bỏ quy chuẩn kỹ thuật quốc gia sau khi có ý kiến thẩm định của Bộ Khoa học và Công nghệ;
+
+b) Trên cơ sở kết quả rà soát hoặc đề nghị của tổ chức, cá nhân, Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương tổ chức lập hồ sơ huỷ bỏ quy chuẩn kỹ thuật địa phương; xem xét hồ sơ và quyết định huỷ bỏ quy chuẩn kỹ thuật địa phương sau khi có ý kiến của cơ quan nhà nước có thẩm quyền quy định tại điểm a khoản 1 Điều 27 của Luật này.
+
+Điều 36. Thông báo, phổ biến, đăng ký, xuất bản, phát hành quy chuẩn kỹ thuật
+
+1. Cơ quan ban hành quy chuẩn kỹ thuật có trách nhiệm sau đây:
+
+a) Thông báo công khai việc ban hành quy chuẩn kỹ thuật và việc sửa đổi, bổ sung, thay thế, huỷ bỏ quy chuẩn kỹ thuật trong thời hạn ít nhất là ba mươi ngày, kể từ ngày ra quyết định;
+
+b) Tổ chức phổ biến, hướng dẫn và triển khai áp dụng quy chuẩn kỹ thuật;
+
+c) Gửi văn bản quy chuẩn kỹ thuật đến Bộ Khoa học và Công nghệ để đăng ký;
+
+d) Xuất bản, phát hành quy chuẩn kỹ thuật.
+
+2. Bộ Khoa học và Công nghệ phát hành định kỳ hằng năm danh mục quy chuẩn kỹ thuật.
+
+Điều 37. Trách nhiệm áp dụng quy chuẩn kỹ thuật
+
+1. Tổ chức, cá nhân có trách nhiệm áp dụng quy chuẩn kỹ thuật có liên quan.
+
+2. Trong quá trình áp dụng quy chuẩn kỹ thuật, tổ chức, cá nhân có trách nhiệm phản ánh kịp thời hoặc kiến nghị với cơ quan ban hành quy chuẩn kỹ thuật những vấn đề vướng mắc, những nội dung chưa phù hợp để xem xét, xử lý.
+
+Cơ quan ban hành quy chuẩn kỹ thuật có trách nhiệm trả lời bằng văn bản trong thời hạn ba mươi ngày, kể từ ngày nhận được ý kiến phản ánh, kiến nghị của tổ chức, cá nhân.
+
+Điều 38. Nguyên tắc, phương thức áp dụng quy chuẩn kỹ thuật
+
+1. Quy chuẩn kỹ thuật được áp dụng bắt buộc trong hoạt động sản xuất, kinh doanh và các hoạt động kinh tế - xã hội khác.
+
+2. Quy chuẩn kỹ thuật được sử dụng làm cơ sở cho hoạt động đánh giá sự phù hợp.
+
+Điều 39. Nguồn kinh phí xây dựng quy chuẩn kỹ thuật
+
+1. Nguồn kinh phí xây dựng quy chuẩn kỹ thuật bao gồm:
+
+a) Ngân sách nhà nước cấp theo dự toán ngân sách hằng năm được duyệt;
+
+b) Các khoản hỗ trợ tự nguyện của tổ chức, cá nhân trong nước, tổ chức, cá nhân nước ngoài.
+
+2. Chính phủ quy định việc quản lý, sử dụng kinh phí xây dựng quy chuẩn kỹ thuật.
+
+Chương IV
+
+ĐÁNH GIÁ SỰ PHÙ HỢP VỚI TIÊU CHUẨN VÀ QUY CHUẨN KỸ THUẬT
+
+Mục 1. QUY ĐỊNH CHUNG VỀ ĐÁNH GIÁ SỰ PHÙ HỢP
+
+Điều 40. Yêu cầu cơ bản đối với đánh giá sự phù hợp
+
+1. Bảo đảm thông tin công khai, minh bạch cho các bên có liên quan về trình tự, thủ tục đánh giá sự phù hợp.
+
+2. Bảo mật thông tin, số liệu của tổ chức được đánh giá sự phù hợp.
+
+3. Không phân biệt đối xử đối với tổ chức, cá nhân sản xuất, kinh doanh hoặc nguồn gốc xuất xứ của sản phẩm, hàng hoá, dịch vụ, quá trình.
+
+4. Trình tự, thủ tục đánh giá sự phù hợp phải hài hoà với quy định của tổ chức quốc tế có liên quan.
+
+Điều 41. Hình thức đánh giá sự phù hợp
+
+1. Việc đánh giá sự phù hợp với tiêu chuẩn và quy chuẩn kỹ thuật do tổ chức đánh giá sự phù hợp thực hiện hoặc tổ chức, cá nhân công bố sự phù hợp tự thực hiện.
+
+2. Đánh giá sự phù hợp với tiêu chuẩn được thực hiện tự nguyện theo yêu cầu của tổ chức, cá nhân dưới hình thức thử nghiệm, giám định, chứng nhận hợp chuẩn và công bố hợp chuẩn.
+
+3. Đánh giá sự phù hợp với quy chuẩn kỹ thuật được thực hiện bắt buộc theo yêu cầu quản lý nhà nước dưới hình thức thử nghiệm, giám định, chứng nhận hợp quy và công bố hợp quy.
+
+Điều 42. Yêu cầu đối với tiêu chuẩn và quy chuẩn kỹ thuật dùng để đánh giá sự phù hợp
+
+Tiêu chuẩn và quy chuẩn kỹ thuật dùng để đánh giá sự phù hợp phải quy định đặc tính kỹ thuật và yêu cầu quản lý cụ thể có thể đánh giá được bằng các phương pháp và phương tiện hiện có ở trong nước hoặc nước ngoài.
+
+Điều 43. Dấu hợp chuẩn, dấu hợp quy
+
+1. Dấu hợp chuẩn, dấu hợp quy là dấu hiệu chứng minh sự phù hợp của sản phẩm, hàng hoá với tiêu chuẩn hoặc quy chuẩn kỹ thuật tương ứng.
+
+2. Dấu hợp chuẩn được cấp cho sản phẩm, hàng hoá sau khi sản phẩm, hàng hoá được chứng nhận hợp chuẩn.
+
+3. Dấu hợp quy được cấp cho sản phẩm, hàng hoá sau khi sản phẩm, hàng hoá được chứng nhận hợp quy và công bố hợp quy.
+
+Mục 2. ĐÁNH GIÁ SỰ PHÙ HỢP VỚI TIÊU CHUẨN
+
+Điều 44. Chứng nhận hợp chuẩn
+
+1. Chứng nhận hợp chuẩn được thực hiện theo thỏa thuận của tổ chức, cá nhân có nhu cầu chứng nhận với tổ chức chứng nhận sự phù hợp quy định tại Điều 50 của Luật này.
+
+2. Tiêu chuẩn dùng để chứng nhận hợp chuẩn là tiêu chuẩn quốc gia, tiêu chuẩn quốc tế, tiêu chuẩn khu vực hoặc tiêu chuẩn nước ngoài đáp ứng yêu cầu quy định tại Điều 42 của Luật này.
+
+Điều 45. Công bố hợp chuẩn
+
+1. Tổ chức, cá nhân công bố sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường phù hợp với tiêu chuẩn tương ứng dựa trên kết quả chứng nhận hợp chuẩn do tổ chức chứng nhận sự phù hợp thực hiện hoặc kết quả tự đánh giá sự phù hợp của mình.
+
+2. Tổ chức, cá nhân công bố hợp chuẩn phải đăng ký bản công bố hợp chuẩn tại cơ quan nhà nước có thẩm quyền.
+
+Điều 46. Quyền và nghĩa vụ của tổ chức, cá nhân đề nghị chứng nhận hợp chuẩn
+
+1. Tổ chức, cá nhân đề nghị chứng nhận hợp chuẩn có các quyền sau đây:
+
+a) Lựa chọn tổ chức chứng nhận sự phù hợp;
+
+b) Được cấp giấy chứng nhận hợp chuẩn cho sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường đã được chứng nhận hợp chuẩn;
+
+c) Sử dụng dấu hợp chuẩn trên sản phẩm, hàng hoá, bao gói của sản phẩm, hàng hoá, trong tài liệu về sản phẩm, hàng hoá đã được chứng nhận hợp chuẩn;
+
+d) Khiếu nại về kết quả chứng nhận hợp chuẩn, vi phạm của tổ chức chứng nhận sự phù hợp đối với hợp đồng chứng nhận hợp chuẩn.
+
+2. Tổ chức, cá nhân đề nghị chứng nhận hợp chuẩn có các nghĩa vụ sau đây:
+
+a) Bảo đảm sự phù hợp của sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường với tiêu chuẩn dùng để chứng nhận hợp chuẩn;
+
+b) Thể hiện đúng các thông tin đã ghi trong giấy chứng nhận hợp chuẩn trên sản phẩm, hàng hoá, bao gói của sản phẩm, hàng hóa, trong tài liệu về đối tượng đã được chứng nhận hợp chuẩn;
+
+c) Thông báo cho tổ chức chứng nhận sự phù hợp khi có sửa đổi, bổ sung tiêu chuẩn dùng để chứng nhận hợp chuẩn;
+
+d) Trả chi phí cho việc chứng nhận hợp chuẩn.
+
+Mục 3. ĐÁNH GIÁ SỰ PHÙ HỢP VỚI QUY CHUẨN KỸ THUẬT
+
+Điều 47. Chứng nhận hợp quy
+
+1. Chứng nhận hợp quy được thực hiện bắt buộc đối với sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường thuộc đối tượng quy định trong các quy chuẩn kỹ thuật tương ứng.
+
+2. Quy chuẩn kỹ thuật dùng để chứng nhận hợp quy là quy chuẩn kỹ thuật quốc gia, quy chuẩn kỹ thuật địa phương đáp ứng yêu cầu quy định tại Điều 42 của Luật này.
+
+3. Bộ, cơ quan ngang bộ, Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương quy định tại khoản 1 và khoản 2 Điều 27 của Luật này chỉ định tổ chức được quyền chứng nhận sự phù hợp với quy chuẩn kỹ thuật do mình ban hành trên cơ sở xem xét, lựa chọn tổ chức chứng nhận sự phù hợp quy định tại Điều 50 của Luật này.
+
+4. Tổ chức chứng nhận sự phù hợp được chỉ định thực hiện chứng nhận hợp quy theo phương thức do cơ quan nhà nước có thẩm quyền quy định.
+
+Điều 48. Công bố hợp quy
+
+1. Tổ chức, cá nhân sản xuất, kinh doanh thuộc đối tượng phải áp dụng quy chuẩn kỹ thuật có trách nhiệm công bố sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường phù hợp với quy chuẩn kỹ thuật tương ứng dựa trên kết quả chứng nhận hợp quy do tổ chức chứng nhận sự phù hợp được chỉ định theo quy định tại khoản 3 Điều 47 của Luật này thực hiện hoặc kết quả tự đánh giá của tổ chức, cá nhân trên cơ sở kết quả thử nghiệm của phòng thử nghiệm được công nhận hoặc chỉ định.
+
+2. Tổ chức, cá nhân công bố hợp quy phải đăng ký bản công bố hợp quy tại cơ quan nhà nước có thẩm quyền.
+
+Điều 49. Quyền và nghĩa vụ của tổ chức, cá nhân đề nghị chứng nhận hợp quy
+
+1. Tổ chức, cá nhân đề nghị chứng nhận hợp quy có các quyền sau đây:
+
+a) Lựa chọn tổ chức chứng nhận sự phù hợp đã được chỉ định theo quy định tại khoản 3 Điều 47 của Luật này;
+
+b) Được cấp giấy chứng nhận hợp quy cho sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường đã được chứng nhận hợp quy;
+
+c) Sử dụng dấu hợp quy trên sản phẩm, hàng hoá, bao gói của sản phẩm, hàng hoá, trong tài liệu về sản phẩm, hàng hoá đã được chứng nhận hợp quy, công bố hợp quy;
+
+d) Khiếu nại về kết quả chứng nhận hợp quy, vi phạm của tổ chức chứng nhận sự phù hợp đối với hợp đồng chứng nhận hợp quy.
+
+2. Tổ chức, cá nhân đề nghị chứng nhận hợp quy có các nghĩa vụ sau đây:
+
+a) Bảo đảm sự phù hợp của sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường với quy chuẩn kỹ thuật tương ứng;
+
+b) Thể hiện đúng các thông tin đã ghi trong giấy chứng nhận hợp quy, bản công bố hợp quy trên sản phẩm, hàng hoá, bao gói của sản phẩm, hàng hoá, trong tài liệu về đối tượng đã được chứng nhận hợp quy, công bố hợp quy;
+
+c) Cung cấp tài liệu chứng minh việc bảo đảm sự phù hợp của sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường với quy chuẩn kỹ thuật tương ứng theo yêu cầu của cơ quan nhà nước có thẩm quyền hoặc tổ chức chứng nhận sự phù hợp;
+
+d) Tạm dừng việc cung cấp sản phẩm, hàng hoá, dịch vụ, quá trình không phù hợp với quy chuẩn kỹ thuật tương ứng theo quyết định của cơ quan nhà nước có thẩm quyền;
+
+đ) Trả chi phí cho việc chứng nhận hợp quy.
+
+Mục 4. TỔ CHỨC CHỨNG NHẬN SỰ PHÙ HỢP
+
+Điều 50. Các tổ chức chứng nhận sự phù hợp
+
+1. Đơn vị sự nghiệp hoạt động dịch vụ kỹ thuật.
+
+2. Doanh nghiệp.
+
+3. Chi nhánh của tổ chức chứng nhận nước ngoài tại Việt Nam.
+
+Điều 51. Điều kiện hoạt động của tổ chức chứng nhận sự phù hợp
+
+Tổ chức chứng nhận sự phù hợp phải đáp ứng các điều kiện sau đây:
+
+1. Có bộ máy tổ chức và năng lực đáp ứng yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế đối với tổ chức chứng nhận sự phù hợp;
+
+2. Thiết lập và duy trì hệ thống quản lý phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế;
+
+3. Đăng ký hoạt động chứng nhận hợp chuẩn, chứng nhận hợp quy tại cơ quan nhà nước có thẩm quyền.
+
+Điều 52. Quyền và nghĩa vụ của tổ chức chứng nhận sự phù hợp
+
+1. Tổ chức chứng nhận sự phù hợp có các quyền sau đây:
+
+a) Cấp giấy chứng nhận hợp chuẩn hoặc giấy chứng nhận hợp quy cho sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường phù hợp với tiêu chuẩn hoặc quy chuẩn kỹ thuật;
+
+b) Giao quyền sử dụng dấu hợp chuẩn hoặc dấu hợp quy cho tổ chức, cá nhân có sản phẩm, hàng hoá đã được chứng nhận hợp chuẩn hoặc chứng nhận hợp quy;
+
+c) Thu hồi giấy chứng nhận hợp chuẩn hoặc giấy chứng nhận hợp quy, quyền sử dụng dấu hợp chuẩn hoặc dấu hợp quy đã cấp.
+
+2. Tổ chức chứng nhận sự phù hợp có các nghĩa vụ sau đây:
+
+a) Thực hiện chứng nhận hợp chuẩn hoặc chứng nhận hợp quy theo lĩnh vực đã đăng ký trên cơ sở hợp đồng ký kết với tổ chức, cá nhân đề nghị chứng nhận;
+
+b) Bảo đảm tính khách quan và công bằng trong hoạt động chứng nhận hợp chuẩn hoặc chứng nhận hợp quy; không được thực hiện hoạt động tư vấn cho tổ chức, cá nhân đề nghị chứng nhận;
+
+c) Bảo mật các thông tin thu thập được trong quá trình tiến hành hoạt động chứng nhận;
+
+d) Giám sát đối tượng đã được chứng nhận nhằm bảo đảm duy trì sự phù hợp của đối tượng đã được chứng nhận với tiêu chuẩn hoặc quy chuẩn kỹ thuật tương ứng;
+
+đ) Chịu trách nhiệm trước pháp luật về hoạt động của mình;
+
+e) Thông báo rộng rãi trên các phương tiện thông tin đại chúng về việc thu hồi giấy chứng nhận và quyền sử dụng dấu hợp chuẩn, dấu hợp quy.
+
+Mục 5. CÔNG NHẬN, THỪA NHẬN LẨN NHAU
+
+Điều 53. Hoạt động công nhận
+
+1. Hoạt động công nhận được tiến hành đối với các tổ chức sau đây:
+
+a) Phòng thử nghiệm;
+
+b) Phòng hiệu chuẩn;
+
+c) Tổ chức chứng nhận sự phù hợp;
+
+d) Tổ chức giám định.
+
+2. Căn cứ để tiến hành hoạt động công nhận là tiêu chuẩn quốc gia, tiêu chuẩn quốc tế.
+
+3. Hoạt động công nhận do tổ chức công nhận quy định tại Điều 54 của Luật này thực hiện.
+
+Điều 54. Tổ chức công nhận
+
+1. Tổ chức công nhận là đơn vị sự nghiệp khoa học thực hiện đánh giá, công nhận năng lực của các tổ chức quy định tại khoản 1 Điều 53 của Luật này.
+
+2. Tổ chức công nhận phải đáp ứng các điều kiện sau đây:
+
+a) Có bộ máy tổ chức và năng lực đáp ứng yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế đối với tổ chức công nhận; được tổ chức công nhận quốc tế hoặc tổ chức công nhận khu vực thừa nhận;
+
+b) Hoạt động phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế đối với tổ chức công nhận;
+
+c) Thiết lập và duy trì hệ thống quản lý phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế;
+
+d) Hoạt động độc lập, khách quan.
+
+3. Bộ trưởng Bộ Khoa học và Công nghệ quy định về tổ chức và hoạt động của tổ chức công nhận.
+
+Điều 55. Quyền và nghĩa vụ của tổ chức công nhận
+
+1. Tổ chức công nhận có các quyền sau đây:
+
+a) Cấp chứng chỉ công nhận cho tổ chức quy định tại khoản 1 Điều 53 của Luật này;
+
+b) Thu hồi chứng chỉ công nhận.
+
+2. Tổ chức công nhận có các nghĩa vụ sau đây:
+
+a) Thực hiện việc công nhận trên cơ sở đề nghị công nhận của tổ chức, cá nhân;
+
+b) Bảo đảm tính khách quan và công bằng trong hoạt động công nhận; không được thực hiện hoạt động tư vấn cho tổ chức đề nghị công nhận quy định tại khoản 1 Điều 53 của Luật này;
+
+c) Bảo mật các thông tin thu thập được trong quá trình tiến hành hoạt động công nhận;
+
+d) Giám sát tổ chức được công nhận nhằm bảo đảm duy trì năng lực của tổ chức được công nhận phù hợp với tiêu chuẩn tương ứng;
+
+đ) Chịu trách nhiệm trước pháp luật về hoạt động của mình.
+
+Điều 56. Quyền và nghĩa vụ của tổ chức được công nhận
+
+1. Tổ chức được công nhận có các quyền sau đây:
+
+a) Được đề nghị cơ quan nhà nước có thẩm quyền sử dụng kết quả hoạt động đánh giá sự phù hợp về chứng nhận, thử nghiệm, hiệu chuẩn, giám định đã được công nhận phục vụ yêu cầu quản lý nhà nước;
+
+b) Khiếu nại về kết quả công nhận, vi phạm của tổ chức công nhận đối với cam kết thực hiện việc công nhận;
+
+c) Tổ chức chứng nhận sự phù hợp quy định tại điểm c khoản 1 Điều 53 của Luật này còn có các quyền quy định tại khoản 1 Điều 52 của Luật này.
+
+2. Tổ chức được công nhận có các nghĩa vụ sau đây:
+
+a) Bảo đảm bộ máy tổ chức và năng lực đã được công nhận phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế tương ứng;
+
+b) Duy trì hệ thống quản lý phù hợp với yêu cầu của tiêu chuẩn quốc gia, tiêu chuẩn quốc tế tương ứng;
+
+c) Bảo đảm tính khách quan, công bằng trong hoạt động đánh giá sự phù hợp;
+
+d) Tổ chức chứng nhận sự phù hợp quy định tại điểm c khoản 1 Điều 53 của Luật này còn phải thực hiện nghĩa vụ quy định tại khoản 2 Điều 52 của Luật này;
+
+đ) Trả chi phí cho việc công nhận.
+
+Điều 57. Thoả thuận thừa nhận lẫn nhau
+
+1. Thoả thuận thừa nhận lẫn nhau bao gồm:
+
+a) Việc Việt Nam và các quốc gia, vùng lãnh thổ thừa nhận kết quả đánh giá sự phù hợp của nhau được thực hiện theo điều ước quốc tế mà Cộng hoà xã hội chủ nghĩa Việt Nam là thành viên;
+
+b) Việc tổ chức đánh giá sự phù hợp của Việt Nam và tổ chức đánh giá sự phù hợp của các quốc gia, vùng lãnh thổ thừa nhận kết quả đánh giá sự phù hợp của nhau được thực hiện trên cơ sở thoả thuận giữa các bên.
+
+2. Bộ Khoa học và Công nghệ chủ trì, phối hợp với bộ, cơ quan ngang bộ có liên quan tổ chức thực hiện các thoả thuận thừa nhận lẫn nhau quy định tại khoản 1 Điều này.
+
+Chương V
+
+TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN HOẠT ĐỘNG TRONG LĨNH VỰC TIÊU CHUẨN VÀ LĨNH VỰC QUY CHUẨN KỸ THUẬT
+
+Điều 58. Trách nhiệm của Chính phủ
+
+Chính phủ thống nhất quản lý nhà nước về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật.
+
+Điều 59. Trách nhiệm của Bộ Khoa học và Công nghệ
+
+1. Bộ Khoa học và Công nghệ chịu trách nhiệm trước Chính phủ thực hiện thống nhất quản lý nhà nước về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật.
+
+2. Bộ Khoa học và Công nghệ có trách nhiệm sau đây:
+
+a) Xây dựng, ban hành hoặc trình cơ quan nhà nước, người có thẩm quyền ban hành và tổ chức thực hiện chính sách, chiến lược về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật; tổ chức lập và phê duyệt quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia và quy chuẩn kỹ thuật quốc gia thuộc lĩnh vực được phân công quản lý;
+
+b) Xây dựng, ban hành hoặc trình cơ quan nhà nước, người có thẩm quyền ban hành văn bản quy phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật và tổ chức thực hiện văn bản đó;
+
+c) Thẩm định và công bố tiêu chuẩn quốc gia; tổ chức xây dựng và công bố tiêu chuẩn quốc gia thuộc lĩnh vực được phân công quản lý; ban hành quy chế tổ chức và hoạt động của ban kỹ thuật tiêu chuẩn quốc gia; hướng dẫn xây dựng và áp dụng tiêu chuẩn quốc gia; hướng dẫn xây dựng và công bố tiêu chuẩn cơ sở; hướng dẫn áp dụng tiêu chuẩn quốc tế, tiêu chuẩn khu vực, tiêu chuẩn nước ngoài;
+
+d) Thẩm định quy chuẩn kỹ thuật quốc gia; hướng dẫn xây dựng quy chuẩn kỹ thuật; tổ chức xây dựng, ban hành quy chuẩn kỹ thuật quốc gia thuộc lĩnh vực được phân công quản lý;
+
+đ) Quản lý và hướng dẫn hoạt động đánh giá sự phù hợp;
+
+e) Xây dựng và phát triển nguồn nhân lực cho hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật; tổ chức nghiên cứu khoa học và phát triển công nghệ về tiêu chuẩn và quy chuẩn kỹ thuật;
+
+g) Quản lý hoạt động hợp tác quốc tế về tiêu chuẩn và quy chuẩn kỹ thuật;
+
+h) Tổ chức và quản lý hoạt động của mạng lưới quốc gia thông báo và hỏi đáp về tiêu chuẩn, quy chuẩn kỹ thuật và đánh giá sự phù hợp;
+
+i) Tuyên truyền, phổ biến và tổ chức hướng dẫn thực hiện pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật; thực hiện thống kê về lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật;
+
+k) Kiểm tra, thanh tra việc chấp hành pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật; xử lý vi phạm theo quy định của pháp luật; giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật về khiếu nại, tố cáo.
+
+Điều 60. Trách nhiệm của bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ
+
+1. Bộ, cơ quan ngang bộ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm sau đây:
+
+a) Xây dựng, ban hành hoặc trình cơ quan nhà nước, người có thẩm quyền ban hành văn bản quy phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật có liên quan;
+
+b) Tổ chức lập và phê duyệt quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật quốc gia; tổ chức xây dựng và ban hành quy chuẩn kỹ thuật quốc gia thuộc lĩnh vực được phân công quản lý;
+
+c) Đề xuất quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia; tổ chức xây dựng dự thảo tiêu chuẩn quốc gia thuộc ngành, lĩnh vực được phân công quản lý;
+
+d) Quản lý việc xây dựng, ban hành quy chuẩn kỹ thuật địa phương; cho ý kiến về dự thảo quy chuẩn kỹ thuật địa phương;
+
+đ) Quản lý hoạt động công bố hợp quy, chứng nhận hợp quy;
+
+e) Thực hiện thống kê về hoạt động xây dựng, ban hành, áp dụng quy chuẩn kỹ thuật do mình ban hành;
+
+g) Tham gia hoạt động hợp tác quốc tế về tiêu chuẩn và quy chuẩn kỹ thuật;
+
+h) Tuyên truyền, phổ biến, tổ chức hướng dẫn áp dụng tiêu chuẩn và quy chuẩn kỹ thuật;
+
+i) Kiểm tra, thanh tra về hoạt động trong lĩnh vực quy chuẩn kỹ thuật; xử lý vi phạm theo quy định của pháp luật;
+
+k) Giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật về khiếu nại, tố cáo.
+
+2. Cơ quan thuộc Chính phủ trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm sau đây:
+
+a) Xây dựng và trình cơ quan nhà nước, người có thẩm quyền ban hành văn bản quy phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật có liên quan;
+
+b) Lập và trình cơ quan nhà nước, người có thẩm quyền phê duyệt quy hoạch, kế hoạch xây dựng quy chuẩn kỹ thuật quốc gia;
+
+c) Tổ chức xây dựng dự thảo quy chuẩn kỹ thuật quốc gia; hướng dẫn xây dựng quy chuẩn kỹ thuật địa phương; cho ý kiến về dự thảo quy chuẩn kỹ thuật địa phương;
+
+d) Đề xuất quy hoạch, kế hoạch xây dựng tiêu chuẩn quốc gia; tổ chức xây dựng dự thảo tiêu chuẩn quốc gia thuộc ngành, lĩnh vực được phân công quản lý;
+
+đ) Tuyên truyền, phổ biến, tổ chức hướng dẫn áp dụng tiêu chuẩn và quy chuẩn kỹ thuật;
+
+e) Tham gia hoạt động hợp tác quốc tế về tiêu chuẩn và quy chuẩn kỹ thuật;
+
+g) Kiểm tra, thanh tra về hoạt động trong lĩnh vực quy chuẩn kỹ thuật; xử lý vi phạm theo quy định của pháp luật;
+
+h) Giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật về khiếu nại, tố cáo.
+
+Điều 61. Trách nhiệm của Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương
+
+Uỷ ban nhân dân tỉnh, thành phố trực thuộc Trung ương trong phạm vi nhiệm vụ, quyền hạn của mình có trách nhiệm sau đây:
+
+1. Đề xuất kế hoạch xây dựng tiêu chuẩn quốc gia và quy chuẩn kỹ thuật quốc gia; tổ chức lập và thực hiện kế hoạch xây dựng quy chuẩn kỹ thuật địa phương.
+
+2. Ban hành và hướng dẫn áp dụng quy chuẩn kỹ thuật địa phương.
+
+3. Xây dựng cơ sở vật chất - kỹ thuật cần thiết cho hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật của địa phương.
+
+4. Tổ chức thực hiện và tuyên truyền, giáo dục pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật.
+
+5. Kiểm tra, thanh tra việc chấp hành pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật; xử lý vi phạm theo quy định của pháp luật.
+
+6. Giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật về khiếu nại, tố cáo.
+
+Điều 62. Trách nhiệm của tổ chức, cá nhân sản xuất, kinh doanh
+
+1. Công bố tiêu chuẩn áp dụng cho sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường.
+
+2. Công bố sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường phù hợp với quy chuẩn kỹ thuật tương ứng.
+
+3. Bảo đảm sản phẩm, hàng hoá, dịch vụ, quá trình, môi trường phù hợp với quy chuẩn kỹ thuật, tiêu chuẩn đã công bố.
+
+Điều 63. Trách nhiệm của hội, hiệp hội
+
+1. Tham gia ý kiến xây dựng văn bản quy phạm pháp luật, tiêu chuẩn quốc gia và quy chuẩn kỹ thuật có liên quan.
+
+2. Phổ biến, tuyên truyền, tập huấn kiến thức cho hội viên; cung cấp thông tin cần thiết về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật cho hội viên và cho cơ quan nhà nước có thẩm quyền theo quy định của pháp luật.
+
+Chương VI
+
+THANH TRA, XỬ LÝ VI PHẠM, GIẢI QUYẾT KHIẾU NÂI, TỐ CÁO VÀ TRANH CHẤP VỀ HOẠT ĐỘNG TRONG LĨNH VỰC TIÊU CHUẨN VÀ LĨNH VỰC QUY CHUẨN KỸ THUẬT
+
+Điều 64. Thanh tra về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+1. Thanh tra về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật là thanh tra chuyên ngành.
+
+2. Việc thanh tra về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật thực hiện theo quy định của pháp luật về thanh tra.
+
+3. Chính phủ quy định cụ thể về tổ chức và hoạt động của thanh tra về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật.
+
+Điều 65. Xử lý vi phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật
+
+1. Người có hành vi vi phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật thì tuỳ theo tính chất, mức độ vi phạm mà bị xử lý kỷ luật, xử phạt hành chính hoặc bị truy cứu trách nhiệm hình sự; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+2. Tổ chức vi phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật thì tuỳ theo tính chất, mức độ vi phạm mà bị xử phạt hành chính, đình chỉ hoạt động; nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+
+Điều 66. Khiếu nại, tố cáo về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+1. Tổ chức, cá nhân có quyền khiếu nại với cơ quan nhà nước, người có thẩm quyền về quyết định hành chính, hành vi hành chính của cơ quan nhà nước, người có thẩm quyền mà mình cho là trái pháp luật hoặc về hành vi xâm phạm quyền và lợi ích hợp pháp của mình về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật.
+
+2. Cá nhân có quyền tố cáo với cơ quan nhà nước, người có thẩm quyền đối với hành vi vi phạm pháp luật về tiêu chuẩn và quy chuẩn kỹ thuật.
+
+Điều 67. Giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+Cơ quan nhà nước, người có thẩm quyền giải quyết khiếu nại, tố cáo có trách nhiệm xem xét, giải quyết khiếu nại, tố cáo về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật theo quy định của pháp luật về khiếu nại, tố cáo.
+
+Điều 68. Giải quyết tranh chấp về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật
+
+Nhà nước khuyến khích các bên có tranh chấp về hoạt động trong lĩnh vực tiêu chuẩn và lĩnh vực quy chuẩn kỹ thuật giải quyết tranh chấp thông qua hoà giải; trường hợp không hoà giải được thì các bên có quyền khởi kiện tại toà án hoặc trọng tài theo quy định của pháp luật.
+
+Chương VII
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 69. Điều khoản chuyển tiếp
+
+1. Tiêu chuẩn Việt Nam, tiêu chuẩn ngành đã được ban hành theo Pháp lệnh chất lượng hàng hoá năm 1999 và theo luật, pháp lệnh khác được xem xét, chuyển đổi thành tiêu chuẩn quốc gia hoặc quy chuẩn kỹ thuật quốc gia.
+
+2. Các quy định kỹ thuật, quy trình, quy phạm, quy chuẩn, tài liệu kỹ thuật bắt buộc áp dụng đã được ban hành phục vụ quản lý nhà nước được xem xét để chuyển đổi thành quy chuẩn kỹ thuật.
+
+3. Chính phủ quy định việc chuyển đổi tiêu chuẩn ngành thành tiêu chuẩn quốc gia hoặc quy chuẩn kỹ thuật quốc gia quy định tại khoản 1 Điều này và việc chuyển đổi các quy định kỹ thuật, quy trình, quy phạm, quy chuẩn, tài liệu kỹ thuật bắt buộc áp dụng thành quy chuẩn kỹ thuật quy định tại khoản 2 Điều này.
+
+Điều 70. Hiệu lực thi hành
+
+Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2007.
+
+Điều 71. Hướng dẫn thi hành
+
+Chính phủ quy định chi tiết và hướng dẫn thi hành Luật này.
+
+Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XI, kỳ họp thứ 9 thông qua ngày 29 tháng 6 năm 2006.
+
+
+
+
+
+CHỦ TỊCH QUỐC HỘI
+
+
+
+
+Nguyễn Phú Trọng
