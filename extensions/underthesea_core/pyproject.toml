@@ -1,12 +1,12 @@
 [tool.poetry]
 name = "underthesea_core"
-version = "0.0.5-alpha.2"
+version = "1.0.0"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
-description = "Underthesea Core (fast & fun)"
+description = "Underthesea Core"
 license = "GPL-3.0"
 readme = "README.md"
 repository = "https://github.com/undertheseanlp/underthesea/"
-homepage = "https://github.com/undertheseanlp/underthesea/"
+homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
 
 [tool.poetry.dependencies]
 python = "^3.5"

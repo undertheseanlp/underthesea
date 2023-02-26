@@ -1,13 +1,13 @@
 [package]
 name = "underthesea_core"
-version = "0.0.5"
-homepage = "https://github.com/undertheseanlp/underthesea/"
+version = "1.0.0"
+homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 license = "GPL-3.0"
-edition = "2021"
+edition = "2023"
 readme = "README.md"
-description = "Underthesea Core (fast & fun)"
+description = "Underthesea Core"
 
 exclude = ["rust-toolchain", "target/*", "Cargo.lock", "benches/*.txt"]
 
