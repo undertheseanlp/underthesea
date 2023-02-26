@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.png"/>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/logo.png"/>
   <br/>
 </p>
 
@@ -20,9 +20,6 @@
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
     <img src="https://img.shields.io/badge/latest-ff9f01?logo=google-colab&logoColor=white">
   </a>
-  <a href="https://colab.research.google.com/drive/1U6EWY7ewNUtCXGsa5uZtDEz4I5exO_fo">
-    <img src="https://img.shields.io/badge/stable-ff9f01?logo=google-colab&logoColor=white">
-  </a>
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
   </a>
@@ -34,7 +31,7 @@
 <br/>
 
 <p align="center">
-  <a href="/SPONSORS.md">
+  <a href="https://github.com/undertheseanlp/underthesea/blob/main/contribute/SPONSORS.md">
     <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
   </a>
 </p>
@@ -295,7 +292,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ## Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst)
+Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/contribute/CONTRIBUTING.rst)
 
 ## 💝 Support Us
 

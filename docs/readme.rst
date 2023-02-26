@@ -288,4 +288,4 @@ Up Coming Features
 Contributing
 ----------------------------------------
 
-Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/undertheseanlp/underthesea/blob/master/CONTRIBUTING.rst>`_
+Do you want to contribute with underthesea development? Great! Please read more details at `CONTRIBUTING.rst. <https://github.com/undertheseanlp/underthesea/blob/main/contribute/CONTRIBUTING.rst>`_
