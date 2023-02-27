@@ -1,4 +1,5 @@
 from os.path import join, dirname
+from collections import OrderedDict
 import os
 import shutil
 import data
@@ -17,7 +18,7 @@ if os.path.exists(statistics_folder):
 os.makedirs(statistics_folder)
 
 
-templates_dir = join(pwd, "tmp", "statistics_template")
+templates_dir = join(pwd, "statistics_template")
 
 
 def render(infile, outfile, variables={}):
@@ -34,13 +35,20 @@ def render(infile, outfile, variables={}):
         f.write(content)
 
 tags = {}
+words_tags = {}
 for sentence in corpus.train:
     for row in sentence:
         word, pos = row
         if pos in tags:
             tags[pos] += 1
+            if word in words_tags[pos]:
+                words_tags[pos][word] += 1
+            else:
+                words_tags[pos][word] = 1
         else:
             tags[pos] = 1
+            words_tags[pos] = {}
+            words_tags[pos][word] = 1
 
 # create list pos with format: "A (1)<br/> B(2)"
 list_pos = " - ".join([f"<a href='{key}.html'>{key} ({value}</a>)" for key, value in tags.items()])
@@ -52,9 +60,13 @@ data = {
 render("index.html", "index.html", data)
 
 for tag in tags:
+    num_freq = 200
+    most_frequent_words_data = sorted(words_tags[tag].items(), key=lambda x: x[1], reverse=True)[:num_freq]
+    most_frequent_words = ", ".join([f"<i>{key}</i> ({value})" for key, value in most_frequent_words_data])
     tag_data = {
         "DATASET_NAME": dataset_name,
         "TAG_NAME": tag,
-        "MOST_FREQUENT_WORDS": "a b c"
+        "MOST_FREQUENT_WORDS": most_frequent_words,
+        "NUM_FREQ": str(num_freq)
     }
     render("tag.html", f"{tag}.html", tag_data)
