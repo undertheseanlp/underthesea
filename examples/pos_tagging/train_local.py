@@ -1,7 +1,7 @@
 from os.path import join, dirname
 import os
 
-print(os.environ["PYTHONPATH"])
+# print(os.environ["PYTHONPATH"])
 import data
 
 pwd = dirname(__file__)
