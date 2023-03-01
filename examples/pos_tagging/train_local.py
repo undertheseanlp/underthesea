@@ -10,7 +10,9 @@ corpus = data.DataReader.load_tagged_corpus(
     join(pwd, "tmp/vlsp2013"), train_file="train.txt", test_file="test.txt"
 )
 train_dataset = corpus.train
+train_dataset = data.preprocess_vlsp2013(train_dataset)
 test_dataset = corpus.test
+test_dataset = data.preprocess_vlsp2013(test_dataset)
 
 #@title Training
 from os.path import dirname, join
@@ -22,11 +24,12 @@ features = [
     # word unigram and bigram and trigram
     "T[-2]", "T[-1]", "T[0]", "T[1]", "T[2]",
     "T[-2,-1]", "T[-1,0]", "T[0,1]", "T[1,2]",
-    "T[-2,0]", "T[-1,1]", "T[0,2]"
+    "T[-2,0]", "T[-1,1]", "T[0,2]",
+    "T[-1].istitle", "T[0].istitle", "T[1].istitle"
 ]
 model = FastCRFSequenceTagger(features, dictionary)
 
-pwd = "."
+pwd = dirname(__file__)
 output_dir = join(pwd, "tmp/pos_tag")
 training_params = {
     "output_dir": output_dir,
