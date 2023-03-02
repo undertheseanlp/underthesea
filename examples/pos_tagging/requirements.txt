@@ -1,3 +1,4 @@
 underthesea
 seqeval
 datasets
+hydra-core
