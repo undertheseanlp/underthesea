@@ -7,15 +7,18 @@ from underthesea import pos_tag
 
 working_dir = dirname(__file__)
 
-@hydra.main
+@hydra.main()
 def my_app(cfg):
-    if cfg["output_dir"] is None:
+    # check if output_dir in dict cfg
+    "output_dir" 
+
+    if not "output_dir" in cfg:
         output_dir_path = "tmp/ner" 
     else:
         output_dir_path = cfg["output_dir"]
     output_dir = join(working_dir, output_dir_path)
 
-    if cfg["text"] is None:
+    if not "text" in cfg:
         text = "Quỳnh Như tiết lộ với báo Bồ Đào Nha về hành trình làm nên lịch sử"
     else:
         text = cfg["text"]
