@@ -9,6 +9,8 @@ Performance
 
 ## Usage
 
+Use trained model to tag named entities
+
 ```
-python train_crf.py
+python predict_crf.py +'output_dir="tmp/ner_20220303/"' +'text="Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump"'
 ```
