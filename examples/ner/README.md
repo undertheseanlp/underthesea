@@ -7,3 +7,8 @@ Performance
 
 * F1: 92.4
 
+## Usage
+
+```
+python train_crf.py
+```

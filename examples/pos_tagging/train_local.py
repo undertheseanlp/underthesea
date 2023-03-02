@@ -1,7 +1,5 @@
 from os.path import join, dirname
 import os
-
-# print(os.environ["PYTHONPATH"])
 import data
 
 pwd = dirname(__file__)
@@ -43,9 +41,6 @@ training_params = {
         "feature.possible_states": True,
     },
 }
-
-# # Due to memory limit of Google Colab
-# train_dataset = train_dataset[:10000]
 
 trainer = CRFTrainer(model, training_params, train_dataset, test_dataset)
 
