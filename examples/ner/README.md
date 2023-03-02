@@ -9,6 +9,12 @@ Performance
 
 ## Usage
 
+Train model
+
+```
+python train_crf_local.py ++'dataset.include_test=True'
+```
+
 Use trained model to tag named entities
 
 ```
