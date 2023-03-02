@@ -5,15 +5,15 @@ from omegaconf import DictConfig, OmegaConf
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
+from hydra.utils import get_original_cwd
 
 
 @hydra.main(version_base=None, config_path="conf/", config_name="config")
 def train(cfg: DictConfig) -> None:
-    pass
-    pwd = dirname(__file__)
-
+    wd = get_original_cwd()
+    
     corpus = data.DataReader.load_tagged_corpus(
-        join(pwd, "tmp/vlsp2013"), train_file="train.txt", test_file="test.txt"
+        join(wd, "tmp/vlsp2013"), train_file="train.txt", test_file="test.txt"
     )
 
     train_dataset = corpus.train
@@ -42,8 +42,7 @@ def train(cfg: DictConfig) -> None:
     ]
     model = FastCRFSequenceTagger(features, dictionary)
 
-    pwd = dirname(__file__)
-    output_dir = join(pwd, "tmp/pos_tag")
+    output_dir = join(wd, "tmp/pos_tag")
     training_params = {
         "output_dir": output_dir,
         "params": {

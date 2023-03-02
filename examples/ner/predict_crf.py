@@ -1,9 +1,10 @@
-import hydra
 from os.path import join
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea import pos_tag
 
+import hydra
 from hydra.utils import get_original_cwd
+
+from underthesea import pos_tag
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 
 
 @hydra.main(version_base=None)
