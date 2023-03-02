@@ -1,19 +1,18 @@
 import hydra
-
-from os.path import dirname, join
+from os.path import join
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea import word_tokenize
 from underthesea import pos_tag
 
-working_dir = dirname(__file__)
+from hydra.utils import get_original_cwd
 
-@hydra.main()
+
+@hydra.main(version_base=None)
 def my_app(cfg):
-    # check if output_dir in dict cfg
-    "output_dir" 
+    working_dir = get_original_cwd()
+    print("working_dir", working_dir)
 
     if not "output_dir" in cfg:
-        output_dir_path = "tmp/ner" 
+        output_dir_path = "tmp/ner"
     else:
         output_dir_path = cfg["output_dir"]
     output_dir = join(working_dir, output_dir_path)
