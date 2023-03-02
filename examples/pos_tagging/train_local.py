@@ -1,16 +1,19 @@
 from os.path import dirname, join
+
 import data
 import hydra
+from hydra.utils import get_original_cwd
 from omegaconf import DictConfig, OmegaConf
+
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
-from hydra.utils import get_original_cwd
 
 
 @hydra.main(version_base=None, config_path="conf/", config_name="config")
 def train(cfg: DictConfig) -> None:
     wd = get_original_cwd()
+    print(OmegaConf.to_yaml(cfg))
     
     corpus = data.DataReader.load_tagged_corpus(
         join(wd, "tmp/vlsp2013"), train_file="train.txt", test_file="test.txt"
