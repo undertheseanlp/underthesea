@@ -43,8 +43,12 @@ class DataReader:
         sentences = []
         raw_sentences = open(data_file).read().strip().split("\n\n")
         for s in raw_sentences:
-            tagged_sentence = [item.split("\t") for item in s.split("\n")]
             is_valid = True
+            tagged_sentence = []
+            for row in s.split("\n"):
+                tokens = row.split("\t")
+                tokens = [token.strip() for token in tokens]
+                tagged_sentence.append(tokens)
             for row in tagged_sentence:
                 if (len(row[0])) == 0:
                     is_valid = False
@@ -64,3 +68,15 @@ class TaggedCorpus:
         n = int(len(self.test) * percentage)
         self.test = self.test[:n]
         return self
+
+def preprocess_vlsp2013(dataset):
+    output = []
+    for s in dataset:
+        si = []
+        for row in s:
+            token, tag = row
+            tag = "B-" + tag
+            si.append([token, tag])
+        output.append(si)
+    return output
+
