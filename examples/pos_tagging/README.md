@@ -1,5 +1,11 @@
 # POS Taggin 
 
+Train model 
+
+```
+python train_local.py ++'dataset.include_test=True'
+```
+
 Use trained model to get pos tag
 
 ```
