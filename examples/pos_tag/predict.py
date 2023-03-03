@@ -12,13 +12,13 @@ def main(cfg):
     working_dir = get_original_cwd()
     print(working_dir)
 
-    if not "output_dir" in cfg:
+    if "output_dir" not in cfg:
         output_dir_path = "tmp/pos_tag"
     else:
         output_dir_path = cfg["output_dir"]
     output_dir = join(working_dir, output_dir_path)
 
-    if not "text" in cfg:
+    if "text" not in cfg:
         text = "Quỳnh Như tiết lộ với báo Bồ Đào Nha về hành trình làm nên lịch sử"
     else:
         text = cfg["text"]

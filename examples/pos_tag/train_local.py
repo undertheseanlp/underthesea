@@ -1,4 +1,4 @@
-from os.path import dirname, join
+from os.path import join
 
 import data
 import hydra
@@ -14,7 +14,7 @@ from underthesea.transformer.tagged_feature import lower_words as dictionary
 def train(cfg: DictConfig) -> None:
     wd = get_original_cwd()
     print(OmegaConf.to_yaml(cfg))
-    
+
     corpus = data.DataReader.load_tagged_corpus(
         join(wd, "tmp/vlsp2013"), train_file="train.txt", test_file="test.txt"
     )
@@ -27,7 +27,6 @@ def train(cfg: DictConfig) -> None:
         train_dataset = corpus.train[:train_samples]
     test_dataset = corpus.test
 
-    
     test_dataset = corpus.test
     test_dataset = data.preprocess_vlsp2013(test_dataset)
 
@@ -62,6 +61,6 @@ def train(cfg: DictConfig) -> None:
 
     trainer.train()
 
+
 if __name__ == '__main__':
     train()
-    

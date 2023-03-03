@@ -69,6 +69,7 @@ class TaggedCorpus:
         self.test = self.test[:n]
         return self
 
+
 def preprocess_vlsp2013(dataset):
     output = []
     for s in dataset:
@@ -79,4 +80,3 @@ def preprocess_vlsp2013(dataset):
             si.append([token, tag])
         output.append(si)
     return output
-

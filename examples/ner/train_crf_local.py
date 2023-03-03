@@ -21,7 +21,7 @@ def train(cfg: DictConfig) -> None:
     )
 
     train_dataset = corpus.train
-    
+
     train_samples = cfg["dataset"]["train_samples"]
     if train_samples != 0 and train_samples != -1:
         train_dataset = corpus.train[:train_samples]

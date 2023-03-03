@@ -50,7 +50,6 @@ def pos_tag(sentence, format=None, model=None):
             # remove prefix B-
             tags = [tag[2:] for tag in tags]
             result = list(zip(tokens, tags))
-            
     else:
         crf_model = CRFPOSTagPredictor.Instance()
         result = crf_model.predict(sentence, format)

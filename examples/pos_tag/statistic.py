@@ -1,5 +1,4 @@
 from os.path import join, dirname
-from collections import OrderedDict
 import os
 import shutil
 import data
@@ -35,6 +34,7 @@ def render(infile, outfile, variables={}):
     with open(join(statistics_folder, outfile), "w") as f:
         f.write(content)
 
+
 # create dataframe with 3 columns: word, pos, freq
 df = pd.DataFrame(columns=["pos", "word", "freq"])
 
@@ -63,7 +63,7 @@ df.to_excel(join(pwd, "tmp/words_tags_freq.xlsx"), index=False)
 # data = {
 #     "DATASET_NAME": dataset_name,
 #     "LIST_POS": list_pos
-# } 
+# }
 # render("index.html", "index.html", data)
 
 # for tag in tags:
