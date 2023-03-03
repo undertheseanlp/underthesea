@@ -18,7 +18,7 @@
 # sample   D
 # sentence E
 
-# [Deprecating] This file is will be deprecated in the version 6.5.0
+# [Deprecating] This file will be deprecated in the version 6.5.0
 
 import re
 from underthesea.corpus import DictionaryLoader

@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 from underthesea import word_tokenize
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from .model_crf import CRFPOSTagPredictor
+from os.path import dirname, join
 
 pos_model_v2 = None
 
@@ -37,8 +39,19 @@ def pos_tag(sentence, format=None, model=None):
     """
     sentence = word_tokenize(sentence)
     if model == "v2.0":
-        crf_model = CRFPOSTagPredictor.Instance(model="v2.0")
+        if pos_model_v2 is None:
+            pos_model_v2 = FastCRFSequenceTagger()
+            wd = dirname(__file__)
+            pos_model_v2.load(join(wd, "models", "pos_crf_vlsp2013_20230303"))
+            tokens = sentence
+            features = [[token] for token in sentence]
+            tags = pos_model_v2.predict(features)
+            # output of pos_model_v2 in in BOI format B-N, B-CH, B-V,...
+            # remove prefix B-
+            tags = [tag[2:] for tag in tags]
+            result = list(zip(tokens, tags))
+            
     else:
         crf_model = CRFPOSTagPredictor.Instance()
-    result = crf_model.predict(sentence, format)
+        result = crf_model.predict(sentence, format)
     return result
