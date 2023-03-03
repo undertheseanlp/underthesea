@@ -4,6 +4,8 @@ import pycrfsuite
 from .tagged_feature import word2features
 
 
+# [Deprecating] This file will be deprecated in the version 6.5.0
+
 @Singleton
 class CRFPOSTagPredictor:
     def __init__(self):
