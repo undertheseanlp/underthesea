@@ -2,8 +2,11 @@
 from underthesea import word_tokenize
 from .model_crf import CRFPOSTagPredictor
 
+pos_model_v2 = None
 
-def pos_tag(sentence, format=None):
+
+def pos_tag(sentence, format=None, model=None):
+    global pos_model_v2
     """
     Vietnamese POS tagging
 
@@ -33,6 +36,9 @@ def pos_tag(sentence, format=None):
     ('truy quét', 'V')]
     """
     sentence = word_tokenize(sentence)
-    crf_model = CRFPOSTagPredictor.Instance()
+    if model == "v2.0":
+        crf_model = CRFPOSTagPredictor.Instance(model="v2.0")
+    else:
+        crf_model = CRFPOSTagPredictor.Instance()
     result = crf_model.predict(sentence, format)
     return result
