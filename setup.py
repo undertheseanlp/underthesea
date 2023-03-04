@@ -38,8 +38,7 @@ extras_require = {
         'optax',
         'soundfile',
         'matplotlib',
-        'playsound',
-        'PyObjC'
+        'playsound'
     ]
 }
 setup(
