@@ -1,9 +1,14 @@
+from underthesea.file_utils import MODELS_FOLDER
 from underthesea.pipeline.say.viettts_.hifigan.mel2wave import mel2wave
 from underthesea.pipeline.say.viettts_.nat.text2mel import text2mel
 from underthesea.pipeline.say.viettts_ import nat_normalize_text
 import numpy as np
 from playsound import playsound
 import time
+from os.path import join
+
+
+model_path = join(MODELS_FOLDER, "VIET_TTS_V0_4_1")
 
 
 def text_to_speech(text):
@@ -13,12 +18,12 @@ def text_to_speech(text):
     text = nat_normalize_text(text)
     mel = text2mel(
         text,
-        "lexicon.txt",
+        join(model_path, "lexicon.txt"),
         0.2,
-        "acoustic_latest_ckpt.pickle",
-        "duration_latest_ckpt.pickle",
+        join(model_path, "acoustic_latest_ckpt.pickle"),
+        join(model_path, "duration_latest_ckpt.pickle"),
     )
-    wave = mel2wave(mel, "config.json", "hk_hifi.pickle")
+    wave = mel2wave(mel, join(model_path, "config.json"), join(model_path, "hk_hifi.pickle"))
     return (wave * (2**15)).astype(np.int16)
 
 
