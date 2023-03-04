@@ -27,27 +27,27 @@ def text_to_speech(text):
     return (wave * (2**15)).astype(np.int16)
 
 
-def say(text):
+def say(text, outfile="sound.wav"):
     y = text_to_speech(text)
     # write y array to sound.wav
     import soundfile as sf
-    sf.write("sound.wav", y, 16_000)
+    sf.write(outfile, y, 16_000)
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(f"\n{time_str}: {text}")
     return 16_000, y
 
 
-def think_and_say(text):
+def think_and_say(text, outfile="sound.wav"):
     # create two processes, one for thinking, one for saying
     import multiprocessing
     p1 = multiprocessing.Process(target=terminal_thinking)
-    p2 = multiprocessing.Process(target=say, args=(text,))
+    p2 = multiprocessing.Process(target=say, args=(text, outfile))
     p1.start()
     p2.start()
     # while p2 is end, terminate p1
     p2.join()
     p1.terminate()
-    playsound("sound.wav")
+    playsound(outfile)
 
 
 def terminal_thinking():

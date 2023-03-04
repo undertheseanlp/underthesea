@@ -34,7 +34,8 @@ extras_require = {
         'transformers>=3.5.0'
     ],
     'wow': [
-        'dm-haiku'
+        'dm-haiku',
+        'optax'
     ]
 }
 setup(

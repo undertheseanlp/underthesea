@@ -28,6 +28,13 @@ def download_model(model):
 
 
 @main.command()
+@click.argument('say', required=True)
+def say(text):
+    from underthesea.pipeline.say import think_and_say
+    think_and_say(text)
+
+
+@main.command()
 @click.argument('model', required=True)
 def remove_model(model):
     ModelFetcher.remove(model)
