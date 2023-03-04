@@ -272,7 +272,7 @@ Usage examples in script
 >>> from underthesea.pipeline.say import say
 
 >>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
-A new file called `sound.wav` will be generated.
+A new audio file called `sound.wav` will be generated.
 ```
 
 Usage examples in command line
