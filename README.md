@@ -71,7 +71,8 @@ Satisfaction, guaranteed.
 * [7. Named Entity Recognition](#7-named-entity-recognition)
 * [8. Text Classification](#8-text-classification)
 * [9. Sentiment Analysis](#9-sentiment-analysis)
-* [10. Vietnamese NLP Resources](#10-vietnamese-nlp-resources)
+* [10. Say](#10-say)
+* [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
 
@@ -254,7 +255,32 @@ Usage
 ['TRADEMARK#positive']
 ```
 
-### 10. Vietnamese NLP Resources
+### 10. Say
+
+Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
+
+Install dependencies for deep learning
+
+```bash
+$ pip install underthesea[wow]
+```
+
+Usage examples in script
+
+```python
+>>> from underthesea.pipeline.say import say
+
+>>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+A new file called `sound.wav` will be generated.
+```
+
+Usage examples in command line
+
+```
+> underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+```
+
+### 11. Vietnamese NLP Resources
 
 List resources
 
