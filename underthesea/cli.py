@@ -28,7 +28,7 @@ def download_model(model):
 
 
 @main.command()
-@click.argument('say', required=True)
+@click.argument('text', required=True)
 def say(text):
     from underthesea.pipeline.say import think_and_say
     think_and_say(text)
