@@ -276,8 +276,8 @@ A new file called `sound.wav` will be generated.
 
 Usage examples in command line
 
-```
-> underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+```sh
+$ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
 ```
 
 ### 11. Vietnamese NLP Resources
