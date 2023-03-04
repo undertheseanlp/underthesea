@@ -27,13 +27,15 @@ def text_to_speech(text):
     return (wave * (2**15)).astype(np.int16)
 
 
-def say(text, outfile="sound.wav"):
+def say(text, outfile="sound.wav", play=False):
     y = text_to_speech(text)
     # write y array to sound.wav
     import soundfile as sf
     sf.write(outfile, y, 16_000)
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(f"\n{time_str}: {text}")
+    if play:
+        playsound(outfile)
     return 16_000, y
 
 
