@@ -35,7 +35,11 @@ extras_require = {
     ],
     'wow': [
         'dm-haiku',
-        'optax'
+        'optax',
+        'soundfile',
+        'matplotlib',
+        'playsound',
+        'PyObjC'
     ]
 }
 setup(
