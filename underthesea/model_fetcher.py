@@ -25,7 +25,18 @@ class UTSModel(Enum):
     sa_bank_v131 = "SA_BANK_V131"
 
 # flake8: noqa: C901
+
+
 class ModelFetcher:
+
+    @staticmethod
+    def download_zip(model_info):
+        cache_dir = Path(UNDERTHESEA_FOLDER) / model_info["cache_dir"] / model_info["model_path"]
+        cached_path(model_info["url"], cache_dir=cache_dir)
+        zip_filepath = cache_dir / model_info["filename"]
+        zip = zipfile.ZipFile(zip_filepath)
+        zip.extractall(cache_dir)
+        os.remove(zip_filepath)
 
     @staticmethod
     def download(model_name):
@@ -147,8 +158,11 @@ class ModelFetcher:
             )
             os.remove(model_path)
 
+        if model_name == "VIET_TTS_V0_4_1":
+            ModelFetcher.download_zip(REPO[model_name])
+
     @staticmethod
-    def list(all):
+    def list(all=False):
         models = []
         for key in REPO:
             name = key
@@ -193,3 +207,8 @@ class ModelFetcher:
         if model == UTSModel.sa_bank:
             return Path(UNDERTHESEA_FOLDER) / "models" / "SA_BANK"
         return Path(UNDERTHESEA_FOLDER) / "models" / model
+
+
+if __name__ == '__main__':
+    ModelFetcher.list()
+    ModelFetcher.download("VIET_TTS_V0_4_1")

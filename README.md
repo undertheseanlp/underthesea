@@ -71,7 +71,8 @@ Satisfaction, guaranteed.
 * [7. Named Entity Recognition](#7-named-entity-recognition)
 * [8. Text Classification](#8-text-classification)
 * [9. Sentiment Analysis](#9-sentiment-analysis)
-* [10. Vietnamese NLP Resources](#10-vietnamese-nlp-resources)
+* [10. Say 🗣️](#10-say-%EF%B8%8F)
+* [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
 
@@ -254,7 +255,33 @@ Usage
 ['TRADEMARK#positive']
 ```
 
-### 10. Vietnamese NLP Resources
+### 10. Say 🗣️
+
+Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
+
+Install extend dependencies and models
+
+```bash
+$ pip install underthesea[wow]
+$ underthesea download-model VIET_TTS_V0_4_1
+```
+
+Usage examples in script
+
+```python
+>>> from underthesea.pipeline.say import say
+
+>>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+A new audio file named `sound.wav` will be generated.
+```
+
+Usage examples in command line
+
+```sh
+$ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+```
+
+### 11. Vietnamese NLP Resources
 
 List resources
 
@@ -286,9 +313,9 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ### Up Coming Features
 
-* Machine Translation
-* Text to Speech
 * Automatic Speech Recognition
+* Machine Translation
+* Chatbot (Chat & Speak)
 
 ## Contributing
 
