@@ -1,6 +1,6 @@
-from viettts_.hifigan.mel2wave import mel2wave
-from viettts_.nat.text2mel import text2mel
-from viettts_ import nat_normalize_text
+from underthesea.pipeline.say.viettts_.hifigan.mel2wave import mel2wave
+from underthesea.pipeline.say.viettts_.nat.text2mel import text2mel
+from underthesea.pipeline.say.viettts_ import nat_normalize_text
 import numpy as np
 from playsound import playsound
 import time
