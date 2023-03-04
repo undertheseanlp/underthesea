@@ -40,3 +40,12 @@ SA_BANK_V131:
   license: Open
   year: 2021
   model_path: SA_BANK_V131
+VIET_TTS_V0_4_1:
+  cache_dir: models
+  model_path: VIET_TTS_V0_4_1
+  type: Text to Speech
+  license: Open
+  year: 2023
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/viet_tts_v0.4.1.zip
+  filename: viet_tts_v0.4.1.zip
+  
