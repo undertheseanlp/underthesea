@@ -4,7 +4,6 @@ import random
 from pathlib import Path
 
 import numpy as np
-import textgrid
 from scipy.io import wavfile
 
 from .config import FLAGS, AcousticInput, DurationInput
@@ -29,6 +28,7 @@ def is_in_word(phone, word):
 
 def load_textgrid(fn: Path):
     """load textgrid file"""
+    import textgrid
     tg = textgrid.TextGrid.fromFile(str(fn.resolve()))
     data = []
     words = list(tg[0])
