@@ -71,7 +71,7 @@ Satisfaction, guaranteed.
 * [7. Named Entity Recognition](#7-named-entity-recognition)
 * [8. Text Classification](#8-text-classification)
 * [9. Sentiment Analysis](#9-sentiment-analysis)
-* [10. Say 🗣️](#10-say-🗣️)
+* [10. Say 🗣️](#10-say-%EF%B8%8F)
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
