@@ -32,6 +32,9 @@ extras_require = {
     'deep': [
         'torch>=1.1.0,<1.13',
         'transformers>=3.5.0'
+    ],
+    'wow': [
+        'dm-haiku'
     ]
 }
 setup(
