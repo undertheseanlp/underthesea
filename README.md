@@ -259,10 +259,11 @@ Usage
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
-Install extend dependencies
+Install extend dependencies and models
 
 ```bash
 $ pip install underthesea[wow]
+$ underthesea download-model VIET_TTS_V0_4_1
 ```
 
 Usage examples in script
