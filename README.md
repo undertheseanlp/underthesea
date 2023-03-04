@@ -259,7 +259,7 @@ Usage
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
-Install dependencies for deep learning
+Install extend dependencies
 
 ```bash
 $ pip install underthesea[wow]
