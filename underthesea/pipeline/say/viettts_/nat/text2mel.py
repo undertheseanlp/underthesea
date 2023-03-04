@@ -59,10 +59,12 @@ def text2tokens(text, lexicon_fn):
     tokens.append(FLAGS.sil_index)  # silence
     return tokens
 
-
+dic = None
 def predict_mel(tokens, durations, ckpt_fn):
+    global dic
     with open(ckpt_fn, "rb") as f:
-        dic = pickle.load(f)
+        if dic is None:
+            dic = pickle.load(f)
         last_step, params, aux, rng, optim_state = (
             dic["step"],
             dic["params"],
