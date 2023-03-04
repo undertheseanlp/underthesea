@@ -2,6 +2,13 @@
 History
 ================================================================================
 
+6.2.0 (2023-03-04)
+--------------------------------------------------------------------------------
+
+* GH-173: Add Text to Speech API by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/668
+* GH-502: Provide training script for word segmentation and pos tagging and named entity recognition by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/666
+* GH-622: Create UTS_Dictionary v1.0 datasets by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/663
+
 6.1.4 (2023-02-26)
 --------------------------------------------------------------------------------
 
