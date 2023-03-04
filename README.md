@@ -312,9 +312,9 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ### Up Coming Features
 
-* Machine Translation
-* Text to Speech
 * Automatic Speech Recognition
+* Machine Translation
+* Chatbot (Chat & Speak)
 
 ## Contributing
 
