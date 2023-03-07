@@ -4,12 +4,65 @@ nlu:
 - intent: greet
   examples: |
     - xin chào
-    - b
-    - c
+    - hello
+    - hi
 
 - intent: goodbye
   examples: |
-    - d
-    - e
-    - f
+    - bye
 
+- intent: greet
+  examples: |
+    - Chào
+    - Xin chào
+    - Hey
+    - Hello
+
+- intent: ask_about_love
+  examples: |
+    - Bạn có tin vào tình yêu không?
+    - Tình yêu có thực sự tồn tại không?
+
+- intent: share_experience
+  examples: |
+    - Tôi đã từng yêu một người
+    - Một lần tôi đã bị phản bội trong tình yêu
+
+- intent: talk_about_love
+  examples: |
+    - tôi đang [buồn]{"entity":"love_status","value":"sad"} vì chuyện tình yêu
+    - Có ai đang [buồn]{"entity":"love_status","value":"sad"} như tôi không?
+    - [Buồn]{"entity":"love_status","value":"sad"} quá, không biết làm sao với tình yêu
+    - Tình yêu khiến cho tôi rất [buồn]{"entity":"love_status","value":"sad"}
+    - [Buồn]{"entity":"love_status","value":"sad"} vì tôi không thể sống thiếu người ấy
+    - Tôi cảm thấy [buồn]{"entity":"love_status","value":"sad"} khi nghĩ về tình yêu
+    - Có cách nào để tôi cải thiện tình trạng [buồn]{"entity":"love_status","value":"sad"} của mình không?
+    - Tôi đang rất [buồn]{"entity":"love_status","value":"sad"} vì quan hệ tình cảm của mình
+    - Tình yêu đang khiến tôi rơi vào trạng thái [buồn]{"entity":"love_status","value":"sad"} khôn lường
+    - Có ai có thể giúp tôi vượt qua trạng thái [buồn]{"entity":"love_status","value":"sad"} trong tình yêu không?
+    - Tôi đang rất [vui]{"entity":"love_status","value":"happy"} vì mối quan hệ tình cảm của mình
+    - Chuyện tình yêu đang khiến cho tôi rất [vui]{"entity":"love_status","value":"happy"}
+    - Cảm giác [vui]{"entity":"love_status","value":"happy"} khi yêu làm tôi tràn đầy năng lượng
+    - Chưa bao giờ tôi cảm thấy [vui]{"entity":"love_status","value":"happy"} như thế này khi yêu
+    - Mối quan hệ tình cảm của mình đang khiến cho tôi rất [vui]{"entity":"love_status","value":"happy"}
+    - Yêu một người vừa đem lại [vui]{"entity":"love_status","value":"happy"} vừa mang lại nhiều trăn trở
+    - Tôi hy vọng mối quan hệ tình cảm vẫn luôn mang đến cho tôi cảm giác [vui]{"entity":"love_status","value":"happy"}
+    - Mỗi khi nhớ đến người ấy, tôi luôn cảm thấy [vui]{"entity":"love_status","value":"happy"} và an lòng
+    - Tình yêu có thật sự mang lại cảm giác [vui]{"entity":"love_status","value":"happy"} cho một người không?
+    - Mong muốn được chia sẻ niềm [vui]{"entity":"love_status","value":"happy"} trong quan hệ tình cảm của mình
+    - Tôi đang cảm thấy [cô độc]{"entity":"love_status","value":"lonely"} vì mối quan hệ tình cảm của mình
+    - Mối quan hệ tình cảm đang khiến cho tôi cảm thấy [cô độc]{"entity":"love_status","value":"lonely"}
+    - Không ai hiểu được cảm giác [cô độc]{"entity":"love_status","value":"lonely"} khi yêu
+    - Tôi rất [cô độc]{"entity":"love_status","value":"lonely"} khi không có người ấy bên cạnh
+    - Mối quan hệ tình cảm đang khiến cho tôi cảm thấy [cô độc]{"entity":"love_status","value":"lonely"} khi một mình ngồi suy nghĩ
+    - [Cô độc]{"entity":"love_status","value":"lonely"} làm tôi suy nghĩ nhiều hơn về quan hệ tình cảm
+    - Chẳng ai muốn cảm thấy [cô độc]{"entity":"love_status","value":"lonely"} khi yêu một ai đó
+    - Yêu một người thật sự có thể giúp tôi vượt qua trạng thái [cô độc]{"entity":"love_status","value":"lonely"} không?
+    - Mối quan hệ tình cảm của mình khiến cho tôi cảm thấy [cô độc]{"entity":"love_status","value":"lonely"} nhưng tôi không biết phải làm gì
+    - Tôi đã từng đánh đổi tất cả để có mối quan hệ tình cảm, nhưng bây giờ lại tạo ra trạng thái [cô độc]{"entity":"love_status","value":"lonely"}
+
+- intent: express_sadness
+  examples: |
+    - Tôi rất buồn
+    - Tôi cảm thấy thất vọng
+    - Tôi đau lòng

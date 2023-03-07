@@ -28,3 +28,38 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: Tìm hiểu về tình yêu
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_love
+  - action: utter_ask_about_love
+  - intent: share_experience
+  - action: utter_share_experience
+
+- story: Tìm hiểu về tình yêu (rất buồn)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_about_love
+  - action: utter_ask_about_love
+  - intent: share_experience
+  - action: utter_share_experience
+  - intent: express_sadness
+  - action: utter_consolation
+
+- story: talk about heartbreak
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: talk_about_love
+    entities:
+    - love_status: "sad"
+  - action: utter_ask_heartbreak_story
+  - intent: inform_love
+    entities:
+    - heartbreak: "bị người yêu bỏ"
+  - action: utter_consolation
+  - intent: gratitude
+  - action: utter_goodbye

@@ -8,6 +8,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - ask_about_love
+  - share_experience
+  - talk_about_love
+  - inform_love
+  - gratitude
+  - epxress_sadness
 
 responses:
   utter_greet:
@@ -28,6 +34,22 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_ask_about_love:
+  - text: Tình yêu có thể có hoặc không, điều quan trọng là bạn tin vào nó hay không. Bạn nghĩ sao về tình yêu?
+  
+  utter_share_experience:
+  - text: Cảm ơn bạn đã chia sẻ. Tình yêu thật sự phức tạp và không ai có thể đoán trước được nó.
+
+  utter_ask_heartbreak_story:
+  - text: "Có chuyện gì xảy ra với bạn vậy? Kể cho tôi nghe được không?"
+  - text: "Bạn có muốn chia sẻ những gì đang xảy ra với bạn không? Tôi sẽ lắng nghe và giúp bạn."
+  - text: "Bạn có muốn kể cho tôi nghe chuyện của mình không?"
+
+  utter_consolation:
+  - text: "Có gì đâu mà buồn. Hãy cởi bỏ mọi lo toan ra đi bạn ơi!"
+  - text: "Lúc buồn, hãy cứ nghĩ ngay đến những điều tích cực bạn nhé."
+  - text: "Chuyện gì cũng có phương án giải quyết thôi, đừng quá buồn nhé."
 
 session_config:
   session_expiration_time: 60

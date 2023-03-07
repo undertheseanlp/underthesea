@@ -64,7 +64,10 @@ def clear_conversation():
 def task_chat(chatbot, input, context=[]):
     time.sleep(0.3)
     response_data = get_response_rasa(input)
-    response = response_data[0]['text']
+    try:
+        response = response_data[0]['text']
+    except:
+        response = "..."
     chatbot.append((input, response))
     context.append((input, response))
     return chatbot, context
