@@ -64,12 +64,17 @@ Satisfaction, guaranteed.
 
 <table>
 <tr>
-<td>
-<a href="#1-sentence-segmentation">Sentence Segmentation</a></td>
+<td><a href="#1-sentence-segmentation">Sentence Segmentation</a></td>
+<td><a href="#2-text-normalization">Text Normalization</a></td>
+</tr>
+<tr>
+<td><a href="#3-word-segmentation">Word Segmentation</a></td>
+<td><a href="#4-pos-tagging">POS Tagging</a></td>
+<td><a href="#5-chunking">Chunking</a></td>
+<td><a href="#6-dependency-parsing">Dependency Parsing</a></td>
 </tr>
 </table>
-*  / [Text Normalization](#2-text-normalization)
-* [Word Segmentation](#3-word-segmentation) / [POS Tagging](#4-pos-tagging) / [Chunking](#5-chunking) / [Dependency Parsing](#6-dependency-parsing)
+
 * [Named Entity Recognition](#7-named-entity-recognition) / [Text Classification](#8-text-classification) / [Sentiment Analysis](#9-sentiment-analysis)
 * [10. Say 🗣️](#10-say-%EF%B8%8F)
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
