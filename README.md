@@ -66,6 +66,7 @@ Satisfaction, guaranteed.
 <tr>
 <td><a href="#1-sentence-segmentation">Sentence Segmentation</a></td>
 <td><a href="#2-text-normalization">Text Normalization</a></td>
+<td rowspan="2"></td>
 </tr>
 <tr>
 <td><a href="#3-word-segmentation">Word Segmentation</a></td>
