@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div class="mermaid">
+  graph LR
+      A --- B
+      B-->C[fa:fa-ban forbidden]
+      B-->D(fa:fa-spinner);
+    </div>
+    <div class="math"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.4.8/mermaid.min.js"></script>
+    <script>
+    mermaid.initialize({
+	    startOnLoad: true,
+        securityLevel: 'loose'
+    });
+    </script>
+    <script>
+    var math = document.getElementsByClassName("math");
+    // set math value to 5
+    math[0].innerHTML = 5;
+    </script>
+
+  </body>
+</html>

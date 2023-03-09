@@ -26,6 +26,7 @@ class Prompt:
             max_tokens=3000
         )
         self.log(response)
+        return response
 
     def generate_user_prompt(self, user_prompt):
         return user_prompt + "\n" + self.user_prompt_footer
