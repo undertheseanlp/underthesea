@@ -62,7 +62,13 @@ Satisfaction, guaranteed.
 
 ## Tutorials
 
-* [Sentence Segmentation](#1-sentence-segmentation) / [Text Normalization](#2-text-normalization)
+<table>
+<tr>
+<td>
+<a href="#1-sentence-segmentation">Sentence Segmentation</a></td>
+</tr>
+</table>
+*  / [Text Normalization](#2-text-normalization)
 * [Word Segmentation](#3-word-segmentation) / [POS Tagging](#4-pos-tagging) / [Chunking](#5-chunking) / [Dependency Parsing](#6-dependency-parsing)
 * [Named Entity Recognition](#7-named-entity-recognition) / [Text Classification](#8-text-classification) / [Sentiment Analysis](#9-sentiment-analysis)
 * [10. Say 🗣️](#10-say-%EF%B8%8F)
