@@ -81,10 +81,19 @@ Satisfaction, guaranteed.
 <td><a href="#9-sentiment-analysis">Sentiment Analysis</a></td>
 <td></td>
 </tr>
+<tr>
+<td><a href="#10-say-%EF%B8%8F">Say 🗣️n</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="#11-vietnamese-nlp-resources">Vietnamese NLP Resources</a></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </table>
-
-* [10. Say 🗣️](#10-say-%EF%B8%8F)
-* [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
 ### 1. Sentence Segmentation
 
