@@ -82,7 +82,7 @@ Satisfaction, guaranteed.
 <td></td>
 </tr>
 <tr>
-<td><a href="#10-say-%EF%B8%8F">Say 🗣️n</a></td>
+<td><a href="#10-say-%EF%B8%8F">Say 🗣️</a></td>
 <td></td>
 <td></td>
 <td></td>
