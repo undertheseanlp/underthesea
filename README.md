@@ -287,7 +287,7 @@ $ pip install underthesea[wow]
 $ underthesea download-model VIET_TTS_V0_4_1
 ```
 
-Usage examples in script
+Using via python script
 
 ```python
 >>> from underthesea.pipeline.say import say
@@ -296,7 +296,7 @@ Usage examples in script
 A new audio file named `sound.wav` will be generated.
 ```
 
-Usage examples in command line
+Using via command line
 
 ```sh
 $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
