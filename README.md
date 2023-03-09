@@ -62,15 +62,9 @@ Satisfaction, guaranteed.
 
 ## Tutorials
 
-* [1. Sentence Segmentation](#1-sentence-segmentation)
-* [2. Text Normalization](#2-text-normalization)
-* [3. Word Segmentation](#3-word-segmentation)
-* [4. POS Tagging](#4-pos-tagging)
-* [5. Chunking](#5-chunking)
-* [6. Dependency Parsing](#6-dependency-parsing)
-* [7. Named Entity Recognition](#7-named-entity-recognition)
-* [8. Text Classification](#8-text-classification)
-* [9. Sentiment Analysis](#9-sentiment-analysis)
+* [Sentence Segmentation](#1-sentence-segmentation) / [Text Normalization](#2-text-normalization)
+* [Word Segmentation](#3-word-segmentation) / [POS Tagging](#4-pos-tagging) / [Chunking](#5-chunking) / [Dependency Parsing](#6-dependency-parsing)
+* [Named Entity Recognition](#7-named-entity-recognition) / [Text Classification](#8-text-classification) / [Sentiment Analysis](#9-sentiment-analysis)
 * [10. Say 🗣️](#10-say-%EF%B8%8F)
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
