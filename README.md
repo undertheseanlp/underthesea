@@ -82,8 +82,8 @@ Satisfaction, guaranteed.
 <td></td>
 </tr>
 <tr>
-<td><a href="#10-say-%EF%B8%8F">Say 🗣️</a></td>
-<td></td>
+<td><a href="#10-text-to-speech-%EF%B8%8F">Text to Speech 🗣️</a></td>
+<td><a href="#11-speech-to-text-%EF%B8%8F">Speech to Text 👂</a></td>
 <td></td>
 <td></td>
 </tr>
@@ -302,7 +302,11 @@ Using via command line
 $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
 ```
 
-### 11. Vietnamese NLP Resources
+### 11. Speech to Text 👂
+
+Speech to Text API.
+
+### 12. Vietnamese NLP Resources
 
 List resources
 
