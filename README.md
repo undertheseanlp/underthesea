@@ -276,7 +276,7 @@ Usage
 ['TRADEMARK#positive']
 ```
 
-### 10. Say 🗣️
+### 10. Text to Speech 🗣️
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
