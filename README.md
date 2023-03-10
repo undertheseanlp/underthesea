@@ -83,12 +83,12 @@ Satisfaction, guaranteed.
 </tr>
 <tr>
 <td><a href="#10-text-to-speech-%EF%B8%8F">Text to Speech 🗣️</a></td>
-<td><a href="#11-speech-to-text-%EF%B8%8F">Speech to Text 👂</a></td>
+<td><a href="#11-speech-to-text-">Speech to Text 👂</a></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
-<td><a href="#11-vietnamese-nlp-resources">Vietnamese NLP Resources</a></td>
+<td><a href="#12-vietnamese-nlp-resources">Vietnamese NLP Resources</a></td>
 <td></td>
 <td></td>
 <td></td>
