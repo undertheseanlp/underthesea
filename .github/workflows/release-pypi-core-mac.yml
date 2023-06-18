@@ -21,3 +21,8 @@ jobs:
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
+      - name: Build Python package
+        working-directory: ./extensions/underthesea_core
+        run: |
+          poetry run maturin build --release --no-sdist --strip
+          find ./target/wheels/
