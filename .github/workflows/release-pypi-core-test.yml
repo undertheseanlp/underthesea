@@ -1,0 +1,18 @@
+on:
+  push:
+    branches: [ core ]
+
+jobs:
+  macos-m1-build-pypi-publish:
+    name: "Start self-hosted EC2 Runner"
+    if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+    
+ 
