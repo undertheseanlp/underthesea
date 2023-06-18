@@ -19,7 +19,6 @@ jobs:
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-      run: 
         run: |
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
@@ -27,4 +26,3 @@ jobs:
           poetry run maturin build --release --no-sdist --strip --interpreter python
           find ./target/wheels/
           poetry run maturin publish --username __token__ --no-sdist --interpreter python
-          
