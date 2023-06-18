@@ -17,10 +17,14 @@ jobs:
           curl -sSL https://install.python-poetry.org | POETRY_HOME=${PWD}/poetry python -
       - name: Install package deps
         working-directory: ./extensions/underthesea_core
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+      run: 
         run: |
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
-          poetry run maturin build --release --no-sdist --strip
+          poetry run maturin build --release --no-sdist --strip --interpreter python
           find ./target/wheels/
+          poetry run maturin publish --username __token__ --no-sdist --interpreter python
           
