@@ -18,4 +18,6 @@ jobs:
       - name: Install package deps
         working-directory: ./extensions/underthesea_core
         run: |
-          ls
+          # add poetry to path
+          echo "${PWD}/poetry/bin" >> $GITHUB_PATH
+          poetry
