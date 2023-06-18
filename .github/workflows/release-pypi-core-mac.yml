@@ -19,5 +19,5 @@ jobs:
         working-directory: ./extensions/underthesea_core
         run: |
           # add poetry to path
-          echo "${PWD}/poetry/bin" >> $GITHUB_PATH
+          export PATH="${PWD}/poetry/bin:${PATH}"
           poetry
