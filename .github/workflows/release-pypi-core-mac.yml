@@ -11,9 +11,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install poetry
+        working-directory: ./extensions/underthesea_core
         run: |
-          echo "Current directory is $PWD"
-          echo "Home is $HOME"
+          mkdir "${PWD}/poetry"
+          curl -sSL https://install.python-poetry.org | POETRY_HOME=${PWD}/poetry python -
       - name: Install package deps
         working-directory: ./extensions/underthesea_core
         run: |
