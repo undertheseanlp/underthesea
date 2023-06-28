@@ -32,7 +32,7 @@ jobs:
       matrix:
         python-version: ["3.8"]
     steps:
-      - name: Check python
+      - name: Build and publish 
         working-directory: ./extensions/underthesea_core
         env:
           PYTHON: python${{ matrix.python-version }}
@@ -41,9 +41,8 @@ jobs:
           ls
           python --version
           # add poetry to path
-          alias python3.8=~/anaconda3/envs/python3.8/bin/python3.8
-          alias python3.9=~/anaconda3/envs/python3.8/bin/python3.9
-          ls ~/anaconda3/envs/python3.8/bin
+          alias python3.8="~/anaconda3/envs/python3.8/bin/python3.8"
+          python3.8 --version
           # poetry run maturin build --release --no-sdist --strip --interpreter python
           # find ./target/wheels/
           # poetry run maturin publish --username __token__ --no-sdist --interpreter python
