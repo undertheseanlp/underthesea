@@ -26,3 +26,4 @@ jobs:
           poetry run maturin build --release --no-sdist --strip --interpreter python
           find ./target/wheels/
           poetry run maturin publish --username __token__ --no-sdist --interpreter python
+          ls
