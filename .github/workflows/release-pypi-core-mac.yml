@@ -45,8 +45,8 @@ jobs:
       fail-fast: false
       matrix:
         python-version: ["3.8", "3.9", "3.10", "3.11"]
-        env:
-          PYTHON: python${{ matrix.python-version }}
+      env:
+        PYTHON: python${{ matrix.python-version }}
     steps:
       - name: Check python
         working-directory: ./extensions/underthesea_core
