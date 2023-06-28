@@ -7,6 +7,10 @@ jobs:
     name: "Build Rust MacOS"
     if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
     runs-on: macos-arm64
+    strategy:
+    fail-fast: false
+    matrix:
+      python-version: ["3.8"]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -23,15 +27,6 @@ jobs:
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
-  macos-arm-publish-pypi:
-    name: "Build and Publish MacOS"
-    if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
-    runs-on: macos-arm64
-    strategy:
-      fail-fast: false
-      matrix:
-        python-version: ["3.8"]
-    steps:
       - name: Build and publish 
         working-directory: ./extensions/underthesea_core
         env:
@@ -41,5 +36,4 @@ jobs:
           $PYTHON --version
           poetry run maturin build --release --no-sdist --strip --interpreter $PYTHON
           find ./target/wheels/
-          poetry run maturin publish --username __token__ --no-sdist --interpreter python
-
+          poetry run maturin publish --username __token__ --no-sdist --interpreter $PYTHON
