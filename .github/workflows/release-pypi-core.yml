@@ -22,7 +22,7 @@ jobs:
         run: |
           cargo --version
           $PYTHON -m poetry --version
-      - name: poetry install dependencies
+      - name: Installl package dependencies
         working-directory: ./extensions/underthesea_core
         env:
           LC_ALL: en_US.UTF-8  # known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
@@ -57,22 +57,27 @@ jobs:
       with:
         toolchain: nightly
         override: true
-    - name: Create environment and install package dependencies
-      working-directory: ./extensions/underthesea_core
+    - name: Create environment
       run: | 
         python -m pip install --upgrade pip
         mkdir "${HOME}/poetry"
         curl -sSL https://install.python-poetry.org | python -
         echo "C:\Users\runneradmin\AppData\Roaming\Python\Scripts\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+    - name: Install package deps
+      working-directory: ./extensions/underthesea_core
+      run: |
         poetry install
-    - name: Build and publish 
+    - name: Build Python package
+      working-directory: ./extensions/underthesea_core
+      run: poetry run maturin build --release --no-sdist --strip --interpreter python
+    - name: List wheels
+      working-directory: ./extensions/underthesea_core
+      run: dir target\wheels\
+    - name: PyPi publish
       working-directory: ./extensions/underthesea_core
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-      run: |
-        poetry run maturin build --release --no-sdist --strip --interpreter python
-        dir target\wheels\
-        poetry run maturin publish --username __token__ --no-sdist --interpreter python
+      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python
   macos-x86:
     name: "MacOS x86"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
