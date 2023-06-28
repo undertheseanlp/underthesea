@@ -31,24 +31,80 @@ jobs:
           $PYTHON -m poetry show
       - name: Build Python package
         working-directory: ./extensions/underthesea_core
-        run: $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
-      - name: List wheels
-        working-directory: ./extensions/underthesea_core
-        run: find ./target/wheels/
+        run: |
+          $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+          find ./target/wheels/
       - name: PyPi publish
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
-  windows-macos-x86:
-    name: "Windows MacOS x86"
+  windows:
+    name: "Windows"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install latest nightly
+      uses: actions-rs/toolchain@v1
+      with:
+        toolchain: nightly
+        override: true
+    - name: Install pip and poetry
+      if:  matrix.os == 'windows-latest'
+      run: | 
+        python -m pip install --upgrade pip
+        mkdir "${HOME}/poetry"
+        curl -sSL https://install.python-poetry.org | python -
+        echo "C:\Users\runneradmin\AppData\Roaming\Python\Scripts\" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+    - name: Install package deps
+      working-directory: ./extensions/underthesea_core
+      run: |
+        poetry install
+    - name: Build Python package
+      if:  matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: poetry run maturin build --release --no-sdist --strip --interpreter python
+    - name: List wheels
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: find ./target/wheels/
+    - name: List wheels
+      if:  matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: dir target\wheels\
+    - name: Install wheels
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: pip install target/wheels/underthesea_core*.whl
+    - name: PyPi publish
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      env:
+        MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+    - name: PyPi publish
+      if: matrix.os == 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      env:
+        MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python
+  macos-x86:
+    name: "MacOS x86"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
-        os: [macos-latest, windows-latest]
+        os: [macos-latest]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
@@ -86,7 +142,6 @@ jobs:
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
-
     - name: List wheels
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
@@ -95,12 +150,10 @@ jobs:
       if:  matrix.os == 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: dir target\wheels\
-
     - name: Install wheels
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: pip install target/wheels/underthesea_core*.whl
-
     - name: PyPi publish
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
@@ -124,17 +177,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Install poetry
+      - name: Create environment and package deps
         working-directory: ./extensions/underthesea_core
         run: |
           mkdir "${PWD}/poetry"
           curl -sSL https://install.python-poetry.org | POETRY_HOME=${PWD}/poetry python -
-      - name: Install package deps
-        working-directory: ./extensions/underthesea_core
-        env:
-          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: |
-          # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
       - name: Build and publish 
