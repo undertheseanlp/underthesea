@@ -23,22 +23,8 @@ jobs:
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
-      - name: Build and publish
-        working-directory: ./extensions/underthesea_core
-        env:
-          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-          PYTHON: python${{ matrix.python-version }}
-        run: |
-          # add poetry to path
-          alias python3.8=~/anaconda3/envs/python3.8/bin/python3.8
-          alias python3.9=~/anaconda3/envs/python3.8/bin/python3.9
-          python3.8
-          # poetry run maturin build --release --no-sdist --strip --interpreter python
-          # find ./target/wheels/
-          # poetry run maturin publish --username __token__ --no-sdist --interpreter python
-          # ls
   macos-arm-publish-pypi:
-    name: "Publish MacOS"
+    name: "Build and Publish MacOS"
     if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
     runs-on: macos-arm64
     strategy:
@@ -50,7 +36,16 @@ jobs:
         working-directory: ./extensions/underthesea_core
         env:
           PYTHON: python${{ matrix.python-version }}
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
           ls
           python --version
+          # add poetry to path
+          alias python3.8=~/anaconda3/envs/python3.8/bin/python3.8
+          alias python3.9=~/anaconda3/envs/python3.8/bin/python3.9
+          python3.8
+          # poetry run maturin build --release --no-sdist --strip --interpreter python
+          # find ./target/wheels/
+          # poetry run maturin publish --username __token__ --no-sdist --interpreter python
+          # ls
 
