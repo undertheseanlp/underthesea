@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "underthesea_core"
-version = "1.0.0"
+version = "1.0.2"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core"
 license = "GPL-3.0"
