@@ -88,31 +88,23 @@ jobs:
       with:
         toolchain: nightly
         override: true
-    - name: Create environment
+    - name: Create environment and install package dependencies
       working-directory: ./extensions/underthesea_core
       run: | 
         python -m pip install --upgrade pip
         mkdir "${HOME}/poetry"
         curl -sSL https://install.python-poetry.org | POETRY_HOME=${HOME}/poetry python -
         echo "${HOME}/poetry/bin" >> $GITHUB_PATH
-    - name: Install package deps
-      working-directory: ./extensions/underthesea_core
-      run: |
         poetry install
-    - name: Build Python package
-      working-directory: ./extensions/underthesea_core
-      run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
-    - name: List wheels
-      working-directory: ./extensions/underthesea_core
-      run: find ./target/wheels/
-    - name: Install wheels
-      working-directory: ./extensions/underthesea_core
-      run: pip install target/wheels/underthesea_core*.whl
-    - name: PyPi publish
+    - name: Build and publish
       working-directory: ./extensions/underthesea_core
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+      run: |
+        poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+        find ./target/wheels/
+        pip install target/wheels/underthesea_core*.whl
+        poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-arm:
     name: "MacOS ARM"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
