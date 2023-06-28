@@ -3,8 +3,8 @@ on:
     branches: [ core ]
 
 jobs:
-  macos-arm-build-pypi-publish:
-    name: "Run MacOS"
+  macos-arm-build-rust:
+    name: "Build Rust MacOS"
     if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
     runs-on: macos-arm64
     steps:
@@ -23,7 +23,34 @@ jobs:
           # add poetry to path
           export PATH="${PWD}/poetry/bin:${PATH}"
           poetry install
-          poetry run maturin build --release --no-sdist --strip --interpreter python
-          find ./target/wheels/
-          poetry run maturin publish --username __token__ --no-sdist --interpreter python
+      - name: Build and publish
+        working-directory: ./extensions/underthesea_core
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+          PYTHON: python${{ matrix.python-version }}
+        run: |
+          # add poetry to path
+          alias python3.8=~/anaconda3/envs/python3.8/bin/python3.8
+          alias python3.9=~/anaconda3/envs/python3.8/bin/python3.9
+          python3.8
+          # poetry run maturin build --release --no-sdist --strip --interpreter python
+          # find ./target/wheels/
+          # poetry run maturin publish --username __token__ --no-sdist --interpreter python
+          # ls
+  macos-arm-publish-pypi:
+    name: "Publish MacOS"
+    if: "contains(github.event.head_commit.message, 'Test Self Hosted')"
+    runs-on: macos-arm64
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
+        env:
+          PYTHON: python${{ matrix.python-version }}
+    steps:
+      - name: Check python
+        working-directory: ./extensions/underthesea_core
+        run: |
           ls
+          python --version
+
