@@ -19,26 +19,22 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Create environment and install package dependencies
+        working-directory: ./extensions/underthesea_core
+        env:
+          LC_ALL: en_US.UTF-8  # Known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
         run: |
           cargo --version
           $PYTHON -m poetry --version
-      - name: Installl package dependencies
-        working-directory: ./extensions/underthesea_core
-        env:
-          LC_ALL: en_US.UTF-8  # known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
-        run: |
           $PYTHON -m poetry install
-          $PYTHON -m poetry show
-      - name: Build Python package
-        working-directory: ./extensions/underthesea_core
-        run: |
-          $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
-          find ./target/wheels/
-      - name: PyPi publish
+          $PYTHON -m poetry show  
+      - name: Build and publish
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-        run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
+        run: |
+          $PYTHON -m poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+          find ./target/wheels/
+          $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   windows:
     name: "Windows"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
