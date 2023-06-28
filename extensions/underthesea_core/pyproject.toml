@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "underthesea_core"
-version = "1.0.0"
+version = "1.0.4"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 description = "Underthesea Core"
 license = "GPL-3.0"
@@ -12,7 +12,7 @@ homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/u
 python = "^3.5"
 
 [tool.poetry.dev-dependencies]
-maturin = "==0.9.4"
+maturin = "^0.9.4"
 
 [build-system]
 requires = ["setuptools"]
