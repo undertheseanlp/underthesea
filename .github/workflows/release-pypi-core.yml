@@ -40,7 +40,7 @@ jobs:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   windows:
-    name: "Windows"
+    name: "Windows MacOS x86"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
     runs-on: windows-latest
     strategy:
@@ -57,7 +57,15 @@ jobs:
       with:
         toolchain: nightly
         override: true
-    - name: Install pip and poetry
+    - name: Install pip and poetry (MacOS)
+      working-directory: ./extensions/underthesea_core
+      if:  matrix.os != 'windows-latest'
+      run: | 
+        python -m pip install --upgrade pip
+        mkdir "${HOME}/poetry"
+        curl -sSL https://install.python-poetry.org | POETRY_HOME=${HOME}/poetry python -
+        echo "${HOME}/poetry/bin" >> $GITHUB_PATH
+    - name: Install pip and poetry (Windows)
       if:  matrix.os == 'windows-latest'
       run: | 
         python -m pip install --upgrade pip
@@ -72,6 +80,11 @@ jobs:
       if:  matrix.os == 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: poetry run maturin build --release --no-sdist --strip --interpreter python
+    - name: Build Python package
+      if:  matrix.os != 'windows-latest'
+      working-directory: ./extensions/underthesea_core
+      run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
+
     - name: List wheels
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
@@ -80,10 +93,12 @@ jobs:
       if:  matrix.os == 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: dir target\wheels\
+
     - name: Install wheels
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: pip install target/wheels/underthesea_core*.whl
+
     - name: PyPi publish
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
