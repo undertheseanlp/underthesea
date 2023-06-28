@@ -67,17 +67,14 @@ jobs:
       working-directory: ./extensions/underthesea_core
       run: |
         poetry install
-    - name: Build Python package
-      working-directory: ./extensions/underthesea_core
-      run: poetry run maturin build --release --no-sdist --strip --interpreter python
-    - name: List wheels
-      working-directory: ./extensions/underthesea_core
-      run: dir target\wheels\
-    - name: PyPi publish
+    - name: Build and publish 
       working-directory: ./extensions/underthesea_core
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-      run: poetry run maturin publish --username __token__ --no-sdist --interpreter python
+      run: |
+        poetry run maturin build --release --no-sdist --strip --interpreter python
+        dir target\wheels\
+        poetry run maturin publish --username __token__ --no-sdist --interpreter python
   macos-x86:
     name: "MacOS x86"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
