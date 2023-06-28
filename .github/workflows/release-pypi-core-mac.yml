@@ -35,7 +35,7 @@ jobs:
       - name: Build and publish 
         working-directory: ./extensions/underthesea_core
         env:
-          PYTHON: ~/anaconda3/envs/python${{ matrix.python-version }}/bin/python${{ matrix.python-version }}
+          PYTHON: /Users/anhv/anaconda3/envs/python${{ matrix.python-version }}/bin/python${{ matrix.python-version }}
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
           ls
