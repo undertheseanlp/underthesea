@@ -5,7 +5,7 @@ homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/u
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
 license = "GPL-3.0"
-edition = "2023"
+edition = "2021"
 readme = "README.md"
 description = "Underthesea Core"
 

@@ -18,7 +18,7 @@ jobs:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
     steps:
       - uses: actions/checkout@v1
-      - name: Show environments
+      - name: Create environment and install package deps
         run: |
           cargo --version
           $PYTHON -m poetry --version
@@ -99,12 +99,11 @@ jobs:
   macos-x86:
     name: "MacOS x86"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
-    runs-on: ${{ matrix.os }}
+    runs-on: macos-latest
     strategy:
       fail-fast: false
       matrix:
         python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
-        os: [macos-latest]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
@@ -135,10 +134,6 @@ jobs:
       run: |
         poetry install
     - name: Build Python package
-      if:  matrix.os == 'windows-latest'
-      working-directory: ./extensions/underthesea_core
-      run: poetry run maturin build --release --no-sdist --strip --interpreter python
-    - name: Build Python package
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: poetry run maturin build --release --no-sdist --strip --interpreter python${{ matrix.python-version }}
@@ -146,10 +141,6 @@ jobs:
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
       run: find ./target/wheels/
-    - name: List wheels
-      if:  matrix.os == 'windows-latest'
-      working-directory: ./extensions/underthesea_core
-      run: dir target\wheels\
     - name: Install wheels
       if:  matrix.os != 'windows-latest'
       working-directory: ./extensions/underthesea_core
@@ -177,7 +168,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Create environment and package deps
+      - name: Create environment and install package deps
         working-directory: ./extensions/underthesea_core
         run: |
           mkdir "${PWD}/poetry"
