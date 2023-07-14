@@ -2,7 +2,7 @@ from os.path import join, dirname
 import joblib
 from datetime import datetime
 import pandas as pd
-from examples.text_normalize.normalize import AnalysableWord
+from normalize import AnalysableWord
 
 TOKEN_RULE_FILE = join(dirname(__file__), "token_rules.xlsx")
 CHARACTER_RULE_FILE = join(dirname(__file__), "character_rules.xlsx")
@@ -114,5 +114,5 @@ def build_character_rule_latex_table():
 
 if __name__ == '__main__':
     # standardize_token_rule()
-    # build_binary_file()
-    build_character_rule_latex_table()
+    build_binary_file()
+    # build_character_rule_latex_table()

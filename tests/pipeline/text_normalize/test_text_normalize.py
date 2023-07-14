@@ -15,3 +15,9 @@ class TestTextNormalize(TestCase):
         actual = text_normalize(text)
         expected = 'a b'
         self.assertEqual(expected, actual)
+    
+    def test_2(self):
+        # issue https://github.com/undertheseanlp/underthesea/issues/684
+        actual = text_normalize("đaị")
+        expected = "đại"
+        self.assertEqual(expected, actual)

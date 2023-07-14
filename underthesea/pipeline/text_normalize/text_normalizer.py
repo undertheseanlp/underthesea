@@ -9,10 +9,11 @@ class TextNormalizer:
         self.character_map = data["character"]
         self.token_map = data["token"]
 
-
-text_normalizer = TextNormalizer(join(dirname(__file__), "tn_rules_2022_08_11.bin"))
+# rule_file = "tn_rules_2022_08_11.bin"
+rule_file = "tn_rules_2023_07_14.bin"
+text_normalizer = TextNormalizer(join(dirname(__file__), rule_file))
 character_map = text_normalizer.character_map
 token_map = text_normalizer.token_map
-text_normalizer = TextNormalizer(join(dirname(__file__), "tn_rules_2022_08_11.bin"))
+text_normalizer = TextNormalizer(join(dirname(__file__), rule_file))
 character_map = text_normalizer.character_map
 token_map = text_normalizer.token_map
