@@ -6,6 +6,8 @@ use std::collections::HashSet;
 
 pub mod featurizers;
 
+pub mod logistic;
+
 #[pyclass]
 pub struct CRFFeaturizer {
     pub object: featurizers::CRFFeaturizer
