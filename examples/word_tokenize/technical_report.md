@@ -43,15 +43,16 @@ Our experiment with Conditional Random Fields (CRF) for Vietnamese Word Segmenta
 ## References
 
 ```
+@misc{UTS_WTK,
+  title={UTS_WTK: a Vietnamese Word Segmentation Dataset},
+  author={Vu Anh},
+  year={2022}
+}
+
 @inproceedings{Lafferty2001ConditionalRF,
   title={Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data},
   author={John D. Lafferty and Andrew McCallum and Fernando Pereira},
   booktitle={International Conference on Machine Learning},
   year={2001}
-}
-@misc{UTS_WTK,
-  title={UTS_WTK: a Vietnamese Word Segmentation Dataset},
-  author={Vu Anh},
-  year={2022}
 }
 ```
