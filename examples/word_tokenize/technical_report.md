@@ -6,9 +6,13 @@ Over the past years, numerous models have been proposed to tackle this issue, wi
 
 ## Methods
 
+### Datasets
+
+For our experiment, we employed our `UTS_WTK` dataset. This dataset is specifically designed for Vietnamese Word Segmentation tasks, capturing a broad spectrum of textual domains. Its comprehensive nature ensures a rigorous evaluation of our model's capabilities.
+
 ### Conditional Random Fields (CRF)
 
-Conditional Random Fields are a type of statistical modeling method often used for structured prediction. For the Vietnamese Word Segmentation task, CRF models the sequence of labels (whether to split or not) given a sequence of input tokens. CRFs are advantageous for this task as they consider the entire sequence context when predicting for an individual token.
+Conditional Random Fields (CRFs) are a type of statistical modeling method often used for structured prediction. Introduced by Lafferty et al. (2001), CRFs have found applications in various sequence labeling tasks.  For the Vietnamese Word Segmentation task, CRF models the sequence of labels (whether to split or not) given a sequence of input tokens. CRFs are advantageous for this task as they consider the entire sequence context when predicting for an individual token.
 
 **Feature Engineering**
 
@@ -31,3 +35,23 @@ The table below captures the results of the Vietnamese Word Segmentation task us
 | Dataset         | Model      | F1 Score |
 |:----------------|:-----------|---------:|
 | UTS_WTK (1.0.0) | CRF        | 0.977    |
+
+## Conclusion
+
+Our experiment with Conditional Random Fields (CRF) for Vietnamese Word Segmentation (VWS) on the UTS_WTK dataset has demonstrated promising results. The comprehensive feature engineering employed has proven effective in capturing the intricate nuances of the Vietnamese language, as reflected by the achieved F1 score.
+
+## References
+
+```
+@inproceedings{Lafferty2001ConditionalRF,
+  title={Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data},
+  author={John D. Lafferty and Andrew McCallum and Fernando Pereira},
+  booktitle={International Conference on Machine Learning},
+  year={2001}
+}
+@misc{UTS_WTK,
+  title={UTS_WTK: a Vietnamese Word Segmentation Dataset},
+  author={Vu Anh},
+  year={2022}
+}
+```
