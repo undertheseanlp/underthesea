@@ -7,5 +7,5 @@ Vietnamese Word Segmentation (VWS) plays a pivotal role in various Natural Langu
 The table below captures the results of the Vietnamese Word Segmentation task using the Conditional Random Fields (CRF) model:
 
 | Dataset         | F1 Score |
-|----------------:|---------:|
+|:----------------|---------:|
 | UTS_WTK (1.0.0) | 0.977    |
