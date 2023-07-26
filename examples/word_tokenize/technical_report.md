@@ -4,6 +4,26 @@ Vietnamese Word Segmentation (VWS) plays a pivotal role in various Natural Langu
 
 Over the past years, numerous models have been proposed to tackle this issue, with Conditional Random Fields (CRF) being one of the prominent ones due to its ability to consider the context for making segmentation decisions. This report presents our experiment leveraging the CRF model for the VWS task on the UTS_WTK dataset.
 
+## Methods
+
+### Conditional Random Fields (CRF)
+
+Conditional Random Fields are a type of statistical modeling method often used for structured prediction. For the Vietnamese Word Segmentation task, CRF models the sequence of labels (whether to split or not) given a sequence of input tokens. CRFs are advantageous for this task as they consider the entire sequence context when predicting for an individual token.
+
+**Feature Engineering**
+
+For our CRF model, we have leveraged various token-related features. Here's a comprehensive list of the features used
+
+| Feature Type       | Features                                                                    |
+| ----------------- | ---------------------------------------------------------------------------- |
+| Unigram           | `T[-2]`, `T[-1]`, `T[0]`, `T[1]`, `T[2]`                                     |
+| Bigram            | `T[-2,-1]`, `T[-1,0]`, `T[0,1]`, `T[1,2]`, `T[-2,0]`, `T[-1,1]`, `T[0,2]`    |
+| Lowercase Unigram | `T[-2].lower`, `T[-1].lower`, `T[0].lower`, `T[1].lower`, `T[2].lower`       |
+| Lowercase Bigram  | `T[-2,-1].lower`, `T[-1,0].lower`, `T[0,1].lower`, `T[1,2].lower`            |
+| Is Digit          | `T[-1].isdigit`, `T[0].isdigit`, `T[1].isdigit`                              |
+| Is Title          | `T[-2].istitle`, `T[-1].istitle`, `T[0].istitle`, `T[1].istitle`, `T[2].istitle`, `T[0,1].istitle`, `T[0,2].istitle`   |
+| Is in Dictionary  | `T[-2].is_in_dict`, `T[-1].is_in_dict`, `T[0].is_in_dict`, `T[1].is_in_dict`, `T[2].is_in_dict`, `T[-2,-1].is_in_dict`, `T[-1,0].is_in_dict`, `T[0,1].is_in_dict`, `T[1,2].is_in_dict`, `T[-2,0].is_in_dict`, `T[-1,1].is_in_dict`, `T[0,2].is_in_dict` |
+
 ## Results
 
 The table below captures the results of the Vietnamese Word Segmentation task using the Conditional Random Fields (CRF) model:

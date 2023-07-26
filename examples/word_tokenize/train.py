@@ -32,20 +32,28 @@ def train(cfg: DictConfig) -> None:
     ]
     model = FastCRFSequenceTagger(features, dictionary)
 
-    output_dir = join(wd, "tmp/ws_20230726")
     training_params = {
-        "output_dir": output_dir,
+        "output_dir": join(wd, cfg.train.output_dir),
         "params": {
-            "c1": 1.0,  # coefficient for L1 penalty
-            "c2": 1e-3,  # coefficient for L2 penalty
-            "max_iterations": 1000,  #
+            "c1": cfg.train.params.c1,  # coefficient for L1 penalty
+            "c2": cfg.train.params.c2,  # coefficient for L2 penalty
+            "max_iterations": cfg.train.params.max_iterations,  #
             # include transitions that are possible, but not observed
-            "feature.possible_transitions": True,
-            "feature.possible_states": True,
+            "feature.possible_transitions": cfg.train.params.feature.possible_transitions,
+            "feature.possible_states": cfg.train.params.feature.possible_states,
         },
     }
 
-    dataset = load_dataset("undertheseanlp/UTS_WTK", "large", revision="1.0")
+    dataset_name = cfg.dataset.name
+    dataset_params = cfg.dataset.params
+
+    # Check if subset exists in the config and load dataset accordingly
+    if 'subset' in cfg.dataset:
+        dataset_subset = cfg.dataset.subset
+        dataset = load_dataset(dataset_name, dataset_subset, **dataset_params)
+    else:
+        dataset = load_dataset(dataset_name, **dataset_params)
+
     corpus = preprocess_word_tokenize_dataset(dataset)
 
     train_dataset = corpus["train"]

@@ -1,0 +1,5 @@
+dataset:
+  name: undertheseanlp/UTS_WTK
+  subset: small
+  params:
+    revision: 1.0
