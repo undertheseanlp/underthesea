@@ -31,6 +31,8 @@ jobs:
           pip install pytest tox
       - name: Run Test
         if: contains(env.PR_LABELS, 'ci-prompt')
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           tox -e prompt
 
