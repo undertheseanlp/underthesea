@@ -2,6 +2,12 @@
 History
 ================================================================================
 
+6.6.0 (2023-07-27)
+--------------------------------------------------------------------------------
+
+* GH-696: Fix bug word_tokenize by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/697
+* GH-696: update git submodule by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/698
+
 6.5.0 (2023-07-14)
 --------------------------------------------------------------------------------
 
