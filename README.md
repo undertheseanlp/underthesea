@@ -18,7 +18,7 @@
     <img src="https://img.shields.io/badge/docs-live-brightgreen">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
-    <img src="https://img.shields.io/badge/latest-ff9f01?logo=google-colab&logoColor=white">
+    <img src="https://img.shields.io/badge/colab-ff9f01?logo=google-colab&logoColor=white">
   </a>
   <a href="https://www.facebook.com/undertheseanlp/">
     <img src="https://img.shields.io/badge/Facebook-1877F2?logo=facebook&logoColor=white">
