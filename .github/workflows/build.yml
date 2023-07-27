@@ -16,4 +16,5 @@ jobs:
       - name: Lint with flake8
         run: flake8 .  --max-complexity 10 --ignore E501,W504,W605
       - name: Test with tox
-        run: tox -e py37
+        run: |
+          tox -e traditional
