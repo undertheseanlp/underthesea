@@ -15,6 +15,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           PR_LABELS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')
+          echo "$PR_LABELS"
           echo "PR_LABELS=$PR_LABELS" >> $GITHUB_ENV
       - name: Set up Python 3.7
         if: contains(env.PR_LABELS, 'ci-prompt') || github.event.action == 'synchronize'
