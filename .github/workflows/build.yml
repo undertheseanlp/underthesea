@@ -18,3 +18,4 @@ jobs:
       - name: Test with tox
         run: |
           tox -e traditional
+          tox -e deep
