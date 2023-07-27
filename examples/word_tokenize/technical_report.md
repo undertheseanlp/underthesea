@@ -7,7 +7,7 @@ Date: July 27, 2023
 
 Vietnamese Word Segmentation (VWS) plays a pivotal role in various Natural Language Processing (NLP) tasks for the Vietnamese language. Segmentation can be thought of as the process of splitting a sequence of characters into meaningful chunks or "words." This is particularly challenging for Vietnamese due to its nature of combining multiple lexical units into single written forms, which can be confusing without proper context.
 
-Over the past years, numerous models have been proposed to tackle this issue, with Conditional Random Fields (CRF) being one of the prominent ones due to its ability to consider the context for making segmentation decisions. This report presents our experiment leveraging the CRF model for the VWS task on both the UTS_WTK and VLSP2013_WTK datasets.
+Over the past years, numerous models have been proposed to tackle this issue, with Conditional Random Fields (CRF) being one of the prominent ones due to its ability to consider the context for making segmentation decisions. This report presents our experiment leveraging the CRF model for the VWS task on both the `UTS_WTK` and `VLSP2013_WTK` datasets.
 
 ## Methods
 
