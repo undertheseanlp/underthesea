@@ -6,7 +6,7 @@ on:
       - synchronize
 
 jobs:
-  tests:
+  ci-prompt:
     runs-on: ubuntu-latest
     steps:
       - name: Get PR Labels
