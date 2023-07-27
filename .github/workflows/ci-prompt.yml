@@ -1,0 +1,19 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types:
+        - labeled
+
+jobs:
+  tests:
+    if: ${{ github.event.label.name == 'ci-prompt' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Test with tox
+        run: |
+          tox -e prompt
