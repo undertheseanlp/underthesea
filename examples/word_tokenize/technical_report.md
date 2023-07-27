@@ -1,4 +1,4 @@
-# Technical Report on Vietnamese Word Segmentation with underthesea
+# Vietnamese Word Segmentation with underthesea
 
 ```
 Author: Vu Anh
