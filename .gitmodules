@@ -4,9 +4,6 @@
 [submodule "datasets/UTS_WTK"]
 	path = datasets/UTS_WTK
 	url = https://huggingface.co/datasets/undertheseanlp/UTS_WTK
-[submodule "datasets/--force"]
-	path = datasets/--force
-	url = https://huggingface.co/datasets/undertheseanlp/UTS_Dictionary
 [submodule "datasets/UTS_Dictionary"]
 	path = datasets/UTS_Dictionary
 	url = https://huggingface.co/datasets/undertheseanlp/UTS_Dictionary
