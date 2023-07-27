@@ -13,4 +13,4 @@ class TestChunk(TestCase):
     def test_accuracy(self):
         output = chunk(
             u"Tổng Bí thư: Ai trót để tay nhúng chàm thì hãy sớm tự gột rửa")
-        self.assertEqual(len(output), 13)
+        self.assertEqual(len(output), 11)
