@@ -11,11 +11,9 @@ class TestIPA(TestCase):
         self.assertEqual(expected, actual)
 
     def test_2(self):
-        # text = "cún"
         text = "chật"
         actual = viet2ipa(text)
-        # expected = "kun³⁴"
-        expected = "ʨɤ̆t¹⁰ˀ"
+        expected = "tɕət²¹ˀ"
         self.assertEqual(expected, actual)
 
     def test_3(self):

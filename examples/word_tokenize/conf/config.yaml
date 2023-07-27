@@ -1,0 +1,7 @@
+defaults:
+  - dataset/uts_wtk
+  - train
+
+dataset_extras:
+  train_samples: -1
+  include_test: false

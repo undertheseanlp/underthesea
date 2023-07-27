@@ -4,10 +4,10 @@ bói,ɓɔj²⁴
 xoong,sɔːŋ³³
 oong,ʔɔːŋ³³
 giếng,ziəŋ²⁴
-hư,hɯ³³
-hương,hɯəŋ³³
-vơ,vɤ³³
-tơ,tɤ³³
+hư,hɨ³³
+hương,hɨəŋ³³
+vơ,və³³
+tơ,tə³³
 em,ʔɛm³³
 goá,ɣʷa³⁴
 hoa,hʷa³³

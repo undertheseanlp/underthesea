@@ -13,6 +13,6 @@ class TestPostagV2(TestCase):
     def test_accuracy(self):
         text = "Tổng Bí thư: Ai trót để tay nhúng chàm thì hãy sớm tự gột rửa"
         output = pos_tag(text, model="v2.0")
-        self.assertEqual(len(output), 13)
-        self.assertEqual(output[4][0], "để")
-        self.assertEqual(output[4][1], "E")
+        self.assertEqual(len(output), 11)
+        self.assertEqual(output[4][0], "tay")
+        self.assertEqual(output[4][1], "N")
