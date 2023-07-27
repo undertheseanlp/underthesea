@@ -16,9 +16,10 @@ jobs:
           PR_LABELS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')
           echo "$PR_LABELS"
           echo "PR_LABELS=$PR_LABELS" >> $GITHUB_ENV
-      - uses: actions/checkout@v2
+      - name: Checkout
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        uses: actions/checkout@v2
       - name: Set up Python 3.7
-        if: contains(env.PR_LABELS, 'ci-prompt') || github.event.action == 'synchronize'
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
