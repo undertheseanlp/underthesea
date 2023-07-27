@@ -2,6 +2,7 @@
 from .regex_tokenize import tokenize
 from .model import CRFModel
 
+model = None
 
 def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[]):
     """

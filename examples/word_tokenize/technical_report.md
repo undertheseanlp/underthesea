@@ -1,14 +1,23 @@
-# Technical Report 
+# Technical Report on Underthesea Vietnamese Word Segmentation with underthesea
+
+```
+Author: Vu Anh
+Date: July 27, 2023
+```
 
 Vietnamese Word Segmentation (VWS) plays a pivotal role in various Natural Language Processing (NLP) tasks for the Vietnamese language. Segmentation can be thought of as the process of splitting a sequence of characters into meaningful chunks or "words." This is particularly challenging for Vietnamese due to its nature of combining multiple lexical units into single written forms, which can be confusing without proper context.
 
-Over the past years, numerous models have been proposed to tackle this issue, with Conditional Random Fields (CRF) being one of the prominent ones due to its ability to consider the context for making segmentation decisions. This report presents our experiment leveraging the CRF model for the VWS task on the UTS_WTK dataset.
+Over the past years, numerous models have been proposed to tackle this issue, with Conditional Random Fields (CRF) being one of the prominent ones due to its ability to consider the context for making segmentation decisions. This report presents our experiment leveraging the CRF model for the VWS task on both the UTS_WTK and VLSP2013_WTK datasets.
 
 ## Methods
 
 ### Datasets
 
-For our experiment, we employed our `UTS_WTK` dataset. This dataset is specifically designed for Vietnamese Word Segmentation tasks, capturing a broad spectrum of textual domains. Its comprehensive nature ensures a rigorous evaluation of our model's capabilities.
+For our experiments, we utilized two datasets: `UTS_WTK` and `VLSP2013_WTK`.
+
+Each of these datasets is meticulously tailored for Vietnamese Word Segmentation tasks, encompassing a vast range of textual domains. Their exhaustive scope guarantees a rigorous appraisal of our model's proficiency.
+
+Employing both datasets ensures a comprehensive evaluation and robust validation of our methodology.
 
 ### Conditional Random Fields (CRF)
 
@@ -39,7 +48,11 @@ The table below captures the results of the Vietnamese Word Segmentation task us
 
 ## Conclusion
 
-Our experiment with Conditional Random Fields (CRF) for Vietnamese Word Segmentation (VWS) on the UTS_WTK dataset has demonstrated promising results. The comprehensive feature engineering employed has proven effective in capturing the intricate nuances of the Vietnamese language, as reflected by the achieved F1 score.
+Our experiments using Conditional Random Fields for Vietnamese Word Segmentation on both the `UTS_WTK` and `VLSP2013_WTK` datasets have yielded promising results. The comprehensive feature engineering utilized effectively captures the intricate nuances of the Vietnamese language, as evidenced by the achieved F1 scores.
+
+## Integration
+
+Following the comprehensive training on the `VSLP2013_WTK` dataset, we secured a model checkpoint dated `20230727`. This refined model was subsequently integrated into the `underthesea` toolkit, specifically its version `6.6.0`.
 
 ## References
 
