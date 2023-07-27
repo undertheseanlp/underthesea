@@ -20,12 +20,17 @@ jobs:
         if: contains(env.PR_LABELS, 'ci-prompt')
         uses: actions/checkout@v2
       - name: Set up Python 3.7
+        if: contains(env.PR_LABELS, 'ci-prompt')
         uses: actions/setup-python@v2
         with:
           python-version: 3.7
-      - name: Install dependencies and Run tests
+      - name: Install dependencies
+        if: contains(env.PR_LABELS, 'ci-prompt')
         run: |
           python -m pip install --upgrade pip
           pip install pytest tox
+      - name: Run Test
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        run: |
           tox -e prompt
 
