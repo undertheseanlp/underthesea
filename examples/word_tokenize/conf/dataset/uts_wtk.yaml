@@ -1,0 +1,4 @@
+name: undertheseanlp/UTS_WTK
+subset: large
+params:
+  revision: 1.0

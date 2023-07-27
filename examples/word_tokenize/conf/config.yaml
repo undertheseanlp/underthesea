@@ -1,5 +1,5 @@
 defaults:
-  - dataset
+  - dataset/uts_wtk
   - train
 
 dataset_extras:

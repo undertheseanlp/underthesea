@@ -35,6 +35,7 @@ The table below captures the results of the Vietnamese Word Segmentation task us
 | Dataset         | Model      | F1 Score |
 |:----------------|:-----------|---------:|
 | UTS_WTK (1.0.0) | CRF        | 0.977    |
+| VLSP2013_WTK    | CRF        | 0.973    |
 
 ## Conclusion
 

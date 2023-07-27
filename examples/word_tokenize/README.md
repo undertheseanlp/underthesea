@@ -11,12 +11,13 @@ Train and Evaluate Model:
 
 ```
 python train.py ++'dataset.include_test=False'
+python train.py +dataset=vlsp2013_wtk
 ```
 
 Train the Final Model (Including Test Split):
 
 ```
-python train.py ++'dataset.include_test=True'
+python train.py ++'dataset_extras.include_test=True'
 ```
 
 ### Inference

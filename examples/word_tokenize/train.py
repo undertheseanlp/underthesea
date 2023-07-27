@@ -58,6 +58,8 @@ def train(cfg: DictConfig) -> None:
 
     train_dataset = corpus["train"]
     test_dataset = corpus["test"]
+    if cfg.dataset_extras.include_test:
+        train_dataset = train_dataset + test_dataset
     print("Train dataset", len(train_dataset))
     print("Test dataset", len(test_dataset))
 

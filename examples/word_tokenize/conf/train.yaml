@@ -1,5 +1,5 @@
 train:
-  output_dir: tmp/ws_20230726
+  output_dir: tmp/ws_20230727
   params:
     c1: 1.0
     c2: 1e-3
