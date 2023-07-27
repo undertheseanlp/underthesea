@@ -23,7 +23,7 @@ class FastCRFSequenceTagger:
         joblib.dump(self.dictionary, join(base_path, self.path_dictionary))
 
     def load(self, base_path):
-        print(base_path)
+        # print(base_path)
         model_path = str(Path(base_path) / self.path_model)
         estimator = pycrfsuite.Tagger()
         estimator.open(model_path)

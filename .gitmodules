@@ -10,3 +10,6 @@
 [submodule "datasets/UTS_Dictionary"]
 	path = datasets/UTS_Dictionary
 	url = https://huggingface.co/datasets/undertheseanlp/UTS_Dictionary
+[submodule "datasets/VLSP2013_WTK"]
+	path = datasets/VLSP2013_WTK
+	url = https://huggingface.co/datasets/undertheseanlp/VLSP2013_WTK

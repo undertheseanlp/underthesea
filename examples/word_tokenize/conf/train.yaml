@@ -1,0 +1,9 @@
+train:
+  output_dir: tmp/ws_20230727
+  params:
+    c1: 1.0
+    c2: 1e-3
+    max_iterations: 1000
+    feature:
+      possible_transitions: true
+      possible_states: true

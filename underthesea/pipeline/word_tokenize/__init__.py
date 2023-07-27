@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 from .regex_tokenize import tokenize
-from .model import CRFModel
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+from os.path import dirname, join
+
+word_tokenize_model = None
 
 
 def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[]):
@@ -31,11 +34,15 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[
         >>> word_tokenize(sentence, format="text")
         "Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư"
     """
+    global word_tokenize_model
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize, fixed_words=fixed_words)
-    crf_model = CRFModel.instance()
-    output = crf_model.predict(tokens, format)
-    tokens = [token[0] for token in output]
-    tags = [token[1] for token in output]
+    features = [[token] for token in tokens]
+    if word_tokenize_model is None:
+        word_tokenize_model = FastCRFSequenceTagger()
+        wd = dirname(__file__)
+        word_tokenize_model.load(join(wd, "models", "ws_crf_vlsp2013_20230727"))
+    tags = word_tokenize_model.predict(features)
+
     output = []
     num_words = 0
     for tag, token in zip(tags, tokens):
