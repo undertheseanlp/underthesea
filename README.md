@@ -171,16 +171,16 @@ Satisfaction, guaranteed.
 
 </details>
 
-<details><summary><b><a href="">Dependency Parsing</a></b> (📜) </summary>
+<details><summary><b><a href="">Dependency Parsing</a></b> (⚛️) </summary>
 <br/>
 
-Install dependencies for deep learning
+⚛️ Install dependencies for deep learning
 
 ```bash
 $ pip install underthesea[deep]
 ```
 
-Usage
+⚛️ Usage
 
 ```python
 >>> from underthesea import dependency_parse
