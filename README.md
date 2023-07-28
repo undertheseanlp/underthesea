@@ -292,7 +292,10 @@ Satisfaction, guaranteed.
 
 <details>
 <summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
+<code>⚛️</code>
 </summary>
+
+<br/>
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
@@ -321,6 +324,8 @@ Usage examples in command line
 
 <details>
 <summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
+
+<br/>
 
 List resources
 
