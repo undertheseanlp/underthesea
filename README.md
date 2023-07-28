@@ -114,7 +114,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">POS Tagging</a></b> (📜) </summary>
+<summary><b><a href="">POS Tagging</a></b></summary>
 
 - 📜 Usage
 
@@ -132,93 +132,91 @@ Satisfaction, guaranteed.
     ```
 </details>
 
-<details><summary><b><a href="">Chunking</a></b> (📜) </summary>
-<br/>
+<details><summary><b><a href="">Chunking</a></b></summary>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import chunk
->>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
->>> chunk(text)
-[('Bác sĩ', 'N', 'B-NP'),
- ('bây giờ', 'P', 'B-NP'),
- ('có thể', 'R', 'O'),
- ('thản nhiên', 'A', 'B-AP'),
- ('báo', 'V', 'B-VP'),
- ('tin', 'N', 'B-NP'),
- ('bệnh nhân', 'N', 'B-NP'),
- ('bị', 'V', 'B-VP'),
- ('ung thư', 'N', 'B-NP'),
- ('?', 'CH', 'O')]
-```
-
+    ```python
+    >>> from underthesea import chunk
+    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
+    >>> chunk(text)
+    [('Bác sĩ', 'N', 'B-NP'),
+     ('bây giờ', 'P', 'B-NP'),
+     ('có thể', 'R', 'O'),
+     ('thản nhiên', 'A', 'B-AP'),
+     ('báo', 'V', 'B-VP'),
+     ('tin', 'N', 'B-NP'),
+     ('bệnh nhân', 'N', 'B-NP'),
+     ('bị', 'V', 'B-VP'),
+     ('ung thư', 'N', 'B-NP'),
+     ('?', 'CH', 'O')]
+    ```
 </details>
 
-<details><summary><b><a href="">Dependency Parsing</a></b> (⚛️) </summary>
+<details>
+<summary><b><a href="">Dependency Parsing</a></b></summary>
 <br/>
 
-⚛️ Deep Learning Model
-
-```bash
-$ pip install underthesea[deep]
-```
-
-```python
->>> from underthesea import dependency_parse
->>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
->>> dependency_parse(text)
-[('Tối', 5, 'obl:tmod'),
- ('29/11', 1, 'flat:date'),
- (',', 1, 'punct'),
- ('Việt Nam', 5, 'nsubj'),
- ('thêm', 0, 'root'),
- ('2', 7, 'nummod'),
- ('ca', 5, 'obj'),
- ('mắc', 7, 'nmod'),
- ('Covid-19', 8, 'nummod')]
-```
-
+- ⚛️ Deep Learning Model
+    
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+    
+    ```python
+    >>> from underthesea import dependency_parse
+    >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
+    >>> dependency_parse(text)
+    [('Tối', 5, 'obl:tmod'),
+     ('29/11', 1, 'flat:date'),
+     (',', 1, 'punct'),
+     ('Việt Nam', 5, 'nsubj'),
+     ('thêm', 0, 'root'),
+     ('2', 7, 'nummod'),
+     ('ca', 5, 'obj'),
+     ('mắc', 7, 'nmod'),
+     ('Covid-19', 8, 'nummod')]
+    ```
 </details>
 
-<details><summary><b><a href="">Named Entity Recognition</a></b> (📜  ·  ⚛️) </summary>
+<details>
+<summary><b><a href="">Named Entity Recognition</a></b></summary>
 <br/>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import ner
->>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
->>> ner(text)
-[('Chưa', 'R', 'O', 'O'),
- ('tiết lộ', 'V', 'B-VP', 'O'),
- ('lịch trình', 'V', 'B-VP', 'O'),
- ('tới', 'E', 'B-PP', 'O'),
- ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
- ('của', 'E', 'B-PP', 'O'),
- ('Tổng thống', 'N', 'B-NP', 'O'),
- ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
- ('Donald', 'Np', 'B-NP', 'B-PER'),
- ('Trump', 'Np', 'B-NP', 'I-PER')]
-```
+    ```python
+    >>> from underthesea import ner
+    >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
+    >>> ner(text)
+    [('Chưa', 'R', 'O', 'O'),
+     ('tiết lộ', 'V', 'B-VP', 'O'),
+     ('lịch trình', 'V', 'B-VP', 'O'),
+     ('tới', 'E', 'B-PP', 'O'),
+     ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
+     ('của', 'E', 'B-PP', 'O'),
+     ('Tổng thống', 'N', 'B-NP', 'O'),
+     ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
+     ('Donald', 'Np', 'B-NP', 'B-PER'),
+     ('Trump', 'Np', 'B-NP', 'I-PER')]
+    ```
+    
+- ⚛️ Deep Learning Model
 
-⚛️ Deep Learning Model
-
-```bash
-$ pip install underthesea[deep]
-```
-
-```python
->>> from underthesea import ner
->>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
->>> ner(text, deep=True)
-[
-  {'entity': 'B-ORG', 'word': 'Bộ'},
-  {'entity': 'I-ORG', 'word': 'Công'},
-  {'entity': 'I-ORG', 'word': 'Thương'}
-]
-```
-
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+    
+    ```python
+    >>> from underthesea import ner
+    >>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
+    >>> ner(text, deep=True)
+    [
+      {'entity': 'B-ORG', 'word': 'Bộ'},
+      {'entity': 'I-ORG', 'word': 'Công'},
+      {'entity': 'I-ORG', 'word': 'Thương'}
+    ]
+    ```
 </details>
 
 <details><summary><b><a href="">Text Classification</a></b> (📜  ·  ⚡) </summary>
