@@ -82,7 +82,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation</summary>
+<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
+<code>📜</code>
+</summary>
 
 - 📜 Usage
 
@@ -94,7 +96,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words</summary>
+<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words
+<code>📜</code>
+</summary>
 
 - 📜 Usage
 
@@ -116,7 +120,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech</summary>
+<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech
+<code>📜</code>
+</summary>
 
 - 📜 Usage
 
@@ -134,7 +140,9 @@ Satisfaction, guaranteed.
     ```
 </details>
 
-<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units</summary>
+<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units
+<code>📜</code>
+</summary>
 
 - 📜 Usage
 
@@ -156,7 +164,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words</summary>
+<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words
+<code>⚛️</code>
+</summary>
 <br/>
 
 - ⚛️ Deep Learning Model
@@ -182,7 +192,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)</summary>
+<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)
+<code>📜</code> &nbsp; <code>⚛️</code>
+</summary>
 <br/>
 
 - 📜 Usage
