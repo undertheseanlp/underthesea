@@ -271,9 +271,10 @@ Thể thao
 
 </details>
 
+<details><summary><b><a href="">Sentiment Analysis</a></b> (📜) </summary>
+<br/>
 
-
-### 9. Sentiment Analysis
+📜 Usage
 
 Usage
 
@@ -291,7 +292,10 @@ Usage
 ['TRADEMARK#positive']
 ```
 
-### 10. Say 🗣️
+</details>
+
+<details><summary><b><a href="">Say</a></b> (🗣️) </summary>
+<br/>
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
@@ -317,7 +321,10 @@ Usage examples in command line
 $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
 ```
 
-### 11. Vietnamese NLP Resources
+</details>
+
+<details><summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
+<br/>
 
 List resources
 
@@ -346,6 +353,8 @@ Download resources
 $ underthesea download-data CP_Vietnamese_VLC_v2_2022
 Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_Vietnamese_VLC_v2_2022 folder
 ```
+
+</details>
 
 ### Up Coming Features
 
