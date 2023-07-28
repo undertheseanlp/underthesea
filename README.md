@@ -193,7 +193,7 @@ Satisfaction, guaranteed.
 
 <details>
 <summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)
-<code>📜</code> &nbsp; <code>⚛️</code>
+<code>📜</code> <code>⚛️</code>
 </summary>
 <br/>
 
