@@ -48,6 +48,8 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
+📢 **Exciting news!** Underthesea version 6.7.0 has been rolled out, introducing an advanced prompt-based model for text classification. 
+
 ## Installation
 
 
