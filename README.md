@@ -174,13 +174,11 @@ Satisfaction, guaranteed.
 <details><summary><b><a href="">Dependency Parsing</a></b> (⚛️) </summary>
 <br/>
 
-⚛️ Install dependencies for deep learning
+⚛️ Deep Learning Model
 
 ```bash
 $ pip install underthesea[deep]
 ```
-
-⚛️ Usage
 
 ```python
 >>> from underthesea import dependency_parse
@@ -199,10 +197,10 @@ $ pip install underthesea[deep]
 
 </details>
 
+<details><summary><b><a href="">Named Entity Recognition</a></b> (📜  ·  ⚛️) </summary>
+<br/>
 
-### 7. Named Entity Recognition
-
-Usage
+📜 Usage
 
 ```python
 >>> from underthesea import ner
@@ -220,7 +218,7 @@ Usage
  ('Trump', 'Np', 'B-NP', 'I-PER')]
 ```
 
-With Deep Learning
+⚛️ Deep Learning Model
 
 ```bash
 $ pip install underthesea[deep]
@@ -236,6 +234,12 @@ $ pip install underthesea[deep]
   {'entity': 'I-ORG', 'word': 'Thương'}
 ]
 ```
+
+</details>
+
+### 7. 
+
+
 
 ### 8. Text Classification
 
