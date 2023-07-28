@@ -48,7 +48,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **Exciting news!** Underthesea version 6.7.0 has been rolled out, introducing an advanced [**prompt-based model for text classification**](https://github.com/undertheseanlp/underthesea/issues/682). 
+🎉 Hey there! Have you heard about **LLMs**, the **prompt-based models**? Well, guess what? Starting from Underthesea version 6.7.0, you can now dive deep with this **super-cool feature** for [text classification](https://github.com/undertheseanlp/underthesea/issues/682)! Dive in and make a splash! 💦🚀
 
 ## Installation
 
@@ -65,7 +65,7 @@ Satisfaction, guaranteed.
 ## Tutorials
 
 <details>
-<summary><b><a>Sentence Segmentation</a></b> - Breaking text into individual sentences
+<summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
 <code>📜</code>
 </summary>
 
