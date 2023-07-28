@@ -219,94 +219,89 @@ Satisfaction, guaranteed.
     ```
 </details>
 
-<details><summary><b><a href="">Text Classification</a></b> (📜  ·  ⚡) </summary>
-<br/>
+<details>
+<summary><b><a href="">Text Classification</a></b></summary>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import classify
+    ```python
+    >>> from underthesea import classify
+    
+    >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
+    ['The thao']
+    
+    >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
+    ['Kinh doanh']
+    
+    >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
+    ['INTEREST_RATE']
+    ```
 
->>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
-['The thao']
+- ⚡ Prompt-based Model
 
->>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
-['Kinh doanh']
-
->> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
-['INTEREST_RATE']
-```
-
-⚡ Prompt-based Model
-
-```bash
-$ pip install underthesea[prompt]
-export OPENAI_API_KEY=YOUR_KEY
-```
-
-```python
->>> from underthesea import classify
->>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
->>> classify(text, model='prompt')
-Thể thao
-```
-
+    ```bash
+    $ pip install underthesea[prompt]
+    export OPENAI_API_KEY=YOUR_KEY
+    ```
+    
+    ```python
+    >>> from underthesea import classify
+    >>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
+    >>> classify(text, model='prompt')
+    Thể thao
+    ```
 </details>
 
-<details><summary><b><a href="">Sentiment Analysis</a></b> (📜) </summary>
-<br/>
+<details>
+<summary><b><a href="">Sentiment Analysis</a></b></summary>
 
-📜 Usage
+- 📜 Usage
 
-Usage
-
-```python
->>> from underthesea import sentiment
-
->>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
-'negative'
->>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
-'positive'
-
->>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
-['CUSTOMER_SUPPORT#negative']
->>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
-['TRADEMARK#positive']
-```
-
+    ```python
+    >>> from underthesea import sentiment
+    
+    >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
+    'negative'
+    >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
+    'positive'
+    
+    >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
+    ['CUSTOMER_SUPPORT#negative']
+    >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
+    ['TRADEMARK#positive']
+    ```
 </details>
 
-<details><summary><b><a href="">Say</a></b> (🗣️) </summary>
-<br/>
+<details>
+<summary><b><a href="">Say 🗣️</a></b></summary>
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
 Install extend dependencies and models
 
-```bash
-$ pip install underthesea[wow]
-$ underthesea download-model VIET_TTS_V0_4_1
-```
+    ```bash
+    $ pip install underthesea[wow]
+    $ underthesea download-model VIET_TTS_V0_4_1
+    ```
 
 Usage examples in script
 
-```python
->>> from underthesea.pipeline.say import say
-
->>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
-A new audio file named `sound.wav` will be generated.
-```
+    ```python
+    >>> from underthesea.pipeline.say import say
+    
+    >>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    A new audio file named `sound.wav` will be generated.
+    ```
 
 Usage examples in command line
 
-```sh
-$ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
-```
-
+    ```sh
+    $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+    ```
 </details>
 
-<details><summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
-<br/>
+<details>
+<summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
 
 List resources
 
