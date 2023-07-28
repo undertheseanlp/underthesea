@@ -74,7 +74,7 @@ Satisfaction, guaranteed.
 * [10. Say 🗣️](#10-say-%EF%B8%8F)
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">Tensorflow</a></b> (🥇55 ·  ⭐ 180K) - An Open Source Machine Learning Framework for Everyone. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
+<details><summary><b><a href="https://github.com/tensorflow/tensorflow">Sentence Segmentation</a></b> (🥇55 ·  ⭐ 180K) - An Open Source Machine Learning Framework for Everyone. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
 
 - [GitHub](https://github.com/tensorflow/tensorflow) (👨‍💻 4.4K · 🔀 89K · 📦 290K · 📋 38K - 5% open · ⏱️ 27.07.2023):
 
