@@ -65,18 +65,18 @@ Satisfaction, guaranteed.
 <details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
 <br/>
 
-📜 Usage
+- 📜 Usage
 
-  ```python
-  >>> from underthesea import sent_tokenize
-  >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
+    ```python
+    >>> from underthesea import sent_tokenize
+    >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
 
-  >>> sent_tokenize(text)
-  [
-    "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
-    "Amanda cũng thoải mái với mối quan hệ này."
-  ]
-  ```
+    >>> sent_tokenize(text)
+    [
+      "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
+      "Amanda cũng thoải mái với mối quan hệ này."
+    ]
+    ```
 
 </details>
 
