@@ -75,7 +75,7 @@ Satisfaction, guaranteed.
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
 <details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
-
+<br/><br/>
 Usage
 
 ```python
