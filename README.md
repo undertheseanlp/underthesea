@@ -76,9 +76,10 @@ Satisfaction, guaranteed.
 
 <details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
 <br/>
+
 📜 Usage
 
-<br/>
+<br/><br/>
 
 ```python
 >>> from underthesea import sent_tokenize
