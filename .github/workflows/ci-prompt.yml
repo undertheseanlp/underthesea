@@ -35,6 +35,6 @@ jobs:
           OPENAI_API_KEY: ABCDEF
         run: |
           echo $OPENAI_API_KEY
-          tox -e prompt
+          OPENAI_API_KEY="ABCDEF" tox -e prompt
 
 
