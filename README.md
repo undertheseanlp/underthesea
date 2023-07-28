@@ -113,24 +113,23 @@ Satisfaction, guaranteed.
     ```
 </details>
 
-<details><summary><b><a href="">POS Tagging</a></b> (📜) </summary>
-<br/>
+<details>
+<summary><b><a href="">POS Tagging</a></b> (📜) </summary>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import pos_tag
->>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
-[('Chợ', 'N'),
- ('thịt', 'N'),
- ('chó', 'N'),
- ('nổi tiếng', 'A'),
- ('ở', 'E'),
- ('Sài Gòn', 'Np'),
- ('bị', 'V'),
- ('truy quét', 'V')]
-```
-
+    ```python
+    >>> from underthesea import pos_tag
+    >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
+    [('Chợ', 'N'),
+     ('thịt', 'N'),
+     ('chó', 'N'),
+     ('nổi tiếng', 'A'),
+     ('ở', 'E'),
+     ('Sài Gòn', 'Np'),
+     ('bị', 'V'),
+     ('truy quét', 'V')]
+    ```
 </details>
 
 <details><summary><b><a href="">Chunking</a></b> (📜) </summary>
