@@ -234,7 +234,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups</summary>
+<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups
+<code>📜</code> <code>⚡</code>
+</summary>
 
 - 📜 Usage
 
@@ -255,7 +257,7 @@ Satisfaction, guaranteed.
 
     ```bash
     $ pip install underthesea[prompt]
-    export OPENAI_API_KEY=YOUR_KEY
+    $ export OPENAI_API_KEY=YOUR_KEY
     ```
     
     ```python
@@ -267,7 +269,9 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment</summary>
+<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment
+<code>📜</code>
+</summary>
 
 - 📜 Usage
 
@@ -287,7 +291,8 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Say 🗣️</a></b></summary>
+<summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
+</summary>
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
