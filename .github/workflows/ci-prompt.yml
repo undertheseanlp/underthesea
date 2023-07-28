@@ -32,7 +32,7 @@ jobs:
       - name: Run Test
         if: contains(env.PR_LABELS, 'ci-prompt')
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_API_KEY: ABCDEF
         run: |
           echo $OPENAI_API_KEY
           tox -e prompt
