@@ -237,13 +237,10 @@ $ pip install underthesea[deep]
 
 </details>
 
-### 7. 
+<details><summary><b><a href="">Text Classification</a></b> (📜  ·  ⚡) </summary>
+<br/>
 
-
-
-### 8. Text Classification
-
-Usage
+📜 Usage
 
 ```python
 >>> from underthesea import classify
@@ -257,6 +254,24 @@ Usage
 >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
 ['INTEREST_RATE']
 ```
+
+⚡ Prompt-based Model
+
+```bash
+$ pip install underthesea[prompt]
+export OPENAI_API_KEY=YOUR_KEY
+```
+
+```python
+>>> from underthesea import classify
+>>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
+>>> classify(text, model='prompt')
+Thể thao
+```
+
+</details>
+
+
 
 ### 9. Sentiment Analysis
 
