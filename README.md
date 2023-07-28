@@ -63,7 +63,6 @@ Satisfaction, guaranteed.
 ## Tutorials
 
 <details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
-<br/>
 
 - 📜 Usage
 
@@ -81,7 +80,6 @@ Satisfaction, guaranteed.
 </details>
 
 <details><summary><b><a href="">Text Normalization</a></b> (📜) </summary>
-<br/>
 
 - 📜 Usage
 
@@ -94,7 +92,6 @@ Satisfaction, guaranteed.
 </details>
 
 <details><summary><b><a href="">Word Segmentation</a></b> (📜) </summary>
-<br/>
 
 - 📜 Usage
 
