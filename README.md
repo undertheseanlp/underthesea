@@ -114,7 +114,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">POS Tagging</a></b></summary>
+<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech</summary>
 
 - 📜 Usage
 
@@ -132,7 +132,7 @@ Satisfaction, guaranteed.
     ```
 </details>
 
-<details><summary><b><a href="">Chunking</a></b></summary>
+<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units</summary>
 
 - 📜 Usage
 
@@ -154,7 +154,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Dependency Parsing</a></b></summary>
+<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words</summary>
 <br/>
 
 - ⚛️ Deep Learning Model
@@ -180,7 +180,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Named Entity Recognition</a></b></summary>
+<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)</summary>
 <br/>
 
 - 📜 Usage
@@ -220,7 +220,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Text Classification</a></b></summary>
+<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups</summary>
 
 - 📜 Usage
 
@@ -253,7 +253,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Sentiment Analysis</a></b></summary>
+<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment</summary>
 
 - 📜 Usage
 
