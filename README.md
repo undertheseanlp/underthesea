@@ -74,28 +74,7 @@ Satisfaction, guaranteed.
 * [10. Say 🗣️](#10-say-%EF%B8%8F)
 * [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
 
-<details><summary><b><a href="https://github.com/tensorflow/tensorflow">Sentence Segmentation</a></b> (🥇55 ·  ⭐ 180K) - An Open Source Machine Learning Framework for Everyone. <code><a href="http://bit.ly/3nYMfla">Apache-2</a></code> <code><img src="https://git.io/JLy1A" style="display:inline;" width="13" height="13"></code></summary>
-
-- [GitHub](https://github.com/tensorflow/tensorflow) (👨‍💻 4.4K · 🔀 89K · 📦 290K · 📋 38K - 5% open · ⏱️ 27.07.2023):
-
-	```
-	git clone https://github.com/tensorflow/tensorflow
-	```
-- [PyPi](https://pypi.org/project/tensorflow) (📥 16M / month · 📦 15K · ⏱️ 05.07.2023):
-	```
-	pip install tensorflow
-	```
-- [Conda](https://anaconda.org/conda-forge/tensorflow) (📥 4.3M · ⏱️ 21.07.2023):
-	```
-	conda install -c conda-forge tensorflow
-	```
-- [Docker Hub](https://hub.docker.com/r/tensorflow/tensorflow) (📥 74M · ⭐ 2.2K · ⏱️ 27.07.2023):
-	```
-	docker pull tensorflow/tensorflow
-	```
-</details>
-
-### 1. Sentence Segmentation
+<details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
 
 Usage
 
@@ -109,6 +88,8 @@ Usage
   "Amanda cũng thoải mái với mối quan hệ này."
 ]
 ```
+
+</details>
 
 ### 2. Text Normalization
 
