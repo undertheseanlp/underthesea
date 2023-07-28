@@ -63,7 +63,7 @@ Satisfaction, guaranteed.
 ## Tutorials
 
 <details>
-<summary><b><a href="">Sentence Segmentation</a></b></summary>
+<summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences</summary>
 
 - 📜 Usage
 
@@ -80,7 +80,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Text Normalization</a></b></summary>
+<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation</summary>
 
 - 📜 Usage
 
@@ -92,7 +92,7 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
-<summary><b><a href="">Word Segmentation</a></b></summary>
+<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words</summary>
 
 - 📜 Usage
 
