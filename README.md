@@ -62,7 +62,8 @@ Satisfaction, guaranteed.
 
 ## Tutorials
 
-<details><summary><b><a href="">Sentence Segmentation</a></b> (📜) </summary>
+<details>
+<summary><b><a href="">Sentence Segmentation</a></b></summary>
 
 - 📜 Usage
 
@@ -76,10 +77,10 @@ Satisfaction, guaranteed.
       "Amanda cũng thoải mái với mối quan hệ này."
     ]
     ```
-
 </details>
 
-<details><summary><b><a href="">Text Normalization</a></b> (📜) </summary>
+<details>
+<summary><b><a href="">Text Normalization</a></b></summary>
 
 - 📜 Usage
 
@@ -88,10 +89,10 @@ Satisfaction, guaranteed.
     >>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
     "Đảm bảo chất lượng phòng thí nghiệm hóa học"
     ```
-
 </details>
 
-<details><summary><b><a href="">Word Segmentation</a></b> (📜) </summary>
+<details>
+<summary><b><a href="">Word Segmentation</a></b></summary>
 
 - 📜 Usage
 
@@ -110,7 +111,6 @@ Satisfaction, guaranteed.
     >>> word_tokenize(text, fixed_words=fixed_words)
     "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
     ```
-
 </details>
 
 <details><summary><b><a href="">POS Tagging</a></b> (📜) </summary>
