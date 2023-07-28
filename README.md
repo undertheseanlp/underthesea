@@ -105,11 +105,10 @@ Satisfaction, guaranteed.
 
 </details>
 
+<details><summary><b><a href="">Word Segmentation</a></b> (📜) </summary>
+<br/>
 
-
-### 3. Word Segmentation
-
-Usage
+📜 Usage
 
 ```python
 >>> from underthesea import word_tokenize
@@ -127,9 +126,12 @@ Usage
 "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
 ```
 
-### 4. POS Tagging
+</details>
 
-Usage
+<details><summary><b><a href="">POS Tagging</a></b> (📜) </summary>
+<br/>
+
+📜 Usage
 
 ```python
 >>> from underthesea import pos_tag
@@ -144,10 +146,12 @@ Usage
  ('truy quét', 'V')]
 ```
 
+</details>
 
-### 5. Chunking
+<details><summary><b><a href="">Chunking</a></b> (📜) </summary>
+<br/>
 
-Usage
+📜 Usage
 
 ```python
 >>> from underthesea import chunk
@@ -165,8 +169,10 @@ Usage
  ('?', 'CH', 'O')]
 ```
 
+</details>
 
-### 6. Dependency Parsing
+<details><summary><b><a href="">Dependency Parsing</a></b> (📜) </summary>
+<br/>
 
 Install dependencies for deep learning
 
@@ -190,6 +196,9 @@ Usage
  ('mắc', 7, 'nmod'),
  ('Covid-19', 8, 'nummod')]
 ```
+
+</details>
+
 
 ### 7. Named Entity Recognition
 
