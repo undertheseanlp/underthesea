@@ -35,5 +35,3 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           tox -e prompt
-
-
