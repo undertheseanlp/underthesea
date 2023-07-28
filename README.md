@@ -83,36 +83,36 @@ Satisfaction, guaranteed.
 <details><summary><b><a href="">Text Normalization</a></b> (📜) </summary>
 <br/>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import text_normalize
->>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
-"Đảm bảo chất lượng phòng thí nghiệm hóa học"
-```
+    ```python
+    >>> from underthesea import text_normalize
+    >>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
+    "Đảm bảo chất lượng phòng thí nghiệm hóa học"
+    ```
 
 </details>
 
 <details><summary><b><a href="">Word Segmentation</a></b> (📜) </summary>
 <br/>
 
-📜 Usage
+- 📜 Usage
 
-```python
->>> from underthesea import word_tokenize
->>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
-
->>> word_tokenize(text)
-["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
-
->>> word_tokenize(sentence, format="text")
-"Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
-
->>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
->>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
->>> word_tokenize(text, fixed_words=fixed_words)
-"Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
-```
+    ```python
+    >>> from underthesea import word_tokenize
+    >>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
+    
+    >>> word_tokenize(text)
+    ["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
+    
+    >>> word_tokenize(sentence, format="text")
+    "Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
+    
+    >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
+    >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
+    >>> word_tokenize(text, fixed_words=fixed_words)
+    "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
+    ```
 
 </details>
 
