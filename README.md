@@ -79,7 +79,7 @@ Satisfaction, guaranteed.
 
 📜 Usage
 
-<br/><br/>
+<br/>
 
 ```python
 >>> from underthesea import sent_tokenize
