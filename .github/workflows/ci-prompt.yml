@@ -1,0 +1,37 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types:
+      - labeled
+      - synchronize
+
+jobs:
+  ci-prompt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get PR Labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_LABELS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')
+          echo "$PR_LABELS"
+          echo "PR_LABELS=$PR_LABELS" >> $GITHUB_ENV
+      - name: Checkout
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        uses: actions/checkout@v2
+      - name: Set up Python 3.7
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.7
+      - name: Install dependencies
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest tox
+      - name: Run Test
+        if: contains(env.PR_LABELS, 'ci-prompt')
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          tox -e prompt

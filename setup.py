@@ -39,6 +39,9 @@ extras_require = {
         'soundfile',
         'matplotlib',
         'playsound'
+    ],
+    'prompt': [
+        'openai'
     ]
 }
 setup(

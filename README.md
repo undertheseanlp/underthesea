@@ -48,6 +48,8 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
+🎉 **Hey there!** Have you heard about **LLMs**, the **prompt-based models**? Well, guess what? Starting from Underthesea version 6.7.0, you can now dive deep with this **super-cool feature** for [text classification](https://github.com/undertheseanlp/underthesea/issues/682)! Dive in and make a splash! 💦🚀
+
 ## Installation
 
 
@@ -62,226 +64,270 @@ Satisfaction, guaranteed.
 
 ## Tutorials
 
-* [1. Sentence Segmentation](#1-sentence-segmentation)
-* [2. Text Normalization](#2-text-normalization)
-* [3. Word Segmentation](#3-word-segmentation)
-* [4. POS Tagging](#4-pos-tagging)
-* [5. Chunking](#5-chunking)
-* [6. Dependency Parsing](#6-dependency-parsing)
-* [7. Named Entity Recognition](#7-named-entity-recognition)
-* [8. Text Classification](#8-text-classification)
-* [9. Sentiment Analysis](#9-sentiment-analysis)
-* [10. Say 🗣️](#10-say-%EF%B8%8F)
-* [11. Vietnamese NLP Resources](#11-vietnamese-nlp-resources)
+<details>
+<summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
+<code>📜</code>
+</summary>
 
-### 1. Sentence Segmentation
+- 📜 Usage
 
-Usage
+    ```python
+    >>> from underthesea import sent_tokenize
+    >>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
 
-```python
->>> from underthesea import sent_tokenize
->>> text = 'Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng. Amanda cũng thoải mái với mối quan hệ này.'
+    >>> sent_tokenize(text)
+    [
+      "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
+      "Amanda cũng thoải mái với mối quan hệ này."
+    ]
+    ```
+</details>
 
->>> sent_tokenize(text)
-[
-  "Taylor cho biết lúc đầu cô cảm thấy ngại với cô bạn thân Amanda nhưng rồi mọi thứ trôi qua nhanh chóng.",
-  "Amanda cũng thoải mái với mối quan hệ này."
-]
-```
+<details>
+<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
+<code>📜</code>
+</summary>
 
-### 2. Text Normalization
+- 📜 Usage
 
-Usage
+    ```python
+    >>> from underthesea import text_normalize
+    >>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
+    "Đảm bảo chất lượng phòng thí nghiệm hóa học"
+    ```
+</details>
 
-```python
->>> from underthesea import text_normalize
->>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
-"Đảm bảo chất lượng phòng thí nghiệm hóa học"
-```
+<details>
+<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words
+<code>📜</code>
+</summary>
 
-### 3. Word Segmentation
+- 📜 Usage
 
-Usage
+    ```python
+    >>> from underthesea import word_tokenize
+    >>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
+    
+    >>> word_tokenize(text)
+    ["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
+    
+    >>> word_tokenize(sentence, format="text")
+    "Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
+    
+    >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
+    >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
+    >>> word_tokenize(text, fixed_words=fixed_words)
+    "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
+    ```
+</details>
 
-```python
->>> from underthesea import word_tokenize
->>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
+<details>
+<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech
+<code>📜</code>
+</summary>
 
->>> word_tokenize(text)
-["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
+- 📜 Usage
 
->>> word_tokenize(sentence, format="text")
-"Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
+    ```python
+    >>> from underthesea import pos_tag
+    >>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
+    [('Chợ', 'N'),
+     ('thịt', 'N'),
+     ('chó', 'N'),
+     ('nổi tiếng', 'A'),
+     ('ở', 'E'),
+     ('Sài Gòn', 'Np'),
+     ('bị', 'V'),
+     ('truy quét', 'V')]
+    ```
+</details>
 
->>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
->>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
->>> word_tokenize(text, fixed_words=fixed_words)
-"Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
-```
+<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units
+<code>📜</code>
+</summary>
 
-### 4. POS Tagging
+- 📜 Usage
 
-Usage
+    ```python
+    >>> from underthesea import chunk
+    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
+    >>> chunk(text)
+    [('Bác sĩ', 'N', 'B-NP'),
+     ('bây giờ', 'P', 'B-NP'),
+     ('có thể', 'R', 'O'),
+     ('thản nhiên', 'A', 'B-AP'),
+     ('báo', 'V', 'B-VP'),
+     ('tin', 'N', 'B-NP'),
+     ('bệnh nhân', 'N', 'B-NP'),
+     ('bị', 'V', 'B-VP'),
+     ('ung thư', 'N', 'B-NP'),
+     ('?', 'CH', 'O')]
+    ```
+</details>
 
-```python
->>> from underthesea import pos_tag
->>> pos_tag('Chợ thịt chó nổi tiếng ở Sài Gòn bị truy quét')
-[('Chợ', 'N'),
- ('thịt', 'N'),
- ('chó', 'N'),
- ('nổi tiếng', 'A'),
- ('ở', 'E'),
- ('Sài Gòn', 'Np'),
- ('bị', 'V'),
- ('truy quét', 'V')]
-```
+<details>
+<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words
+<code>⚛️</code>
+</summary>
+<br/>
 
+- ⚛️ Deep Learning Model
+    
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+    
+    ```python
+    >>> from underthesea import dependency_parse
+    >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
+    >>> dependency_parse(text)
+    [('Tối', 5, 'obl:tmod'),
+     ('29/11', 1, 'flat:date'),
+     (',', 1, 'punct'),
+     ('Việt Nam', 5, 'nsubj'),
+     ('thêm', 0, 'root'),
+     ('2', 7, 'nummod'),
+     ('ca', 5, 'obj'),
+     ('mắc', 7, 'nmod'),
+     ('Covid-19', 8, 'nummod')]
+    ```
+</details>
 
-### 5. Chunking
+<details>
+<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)
+<code>📜</code> <code>⚛️</code>
+</summary>
+<br/>
 
-Usage
+- 📜 Usage
 
-```python
->>> from underthesea import chunk
->>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
->>> chunk(text)
-[('Bác sĩ', 'N', 'B-NP'),
- ('bây giờ', 'P', 'B-NP'),
- ('có thể', 'R', 'O'),
- ('thản nhiên', 'A', 'B-AP'),
- ('báo', 'V', 'B-VP'),
- ('tin', 'N', 'B-NP'),
- ('bệnh nhân', 'N', 'B-NP'),
- ('bị', 'V', 'B-VP'),
- ('ung thư', 'N', 'B-NP'),
- ('?', 'CH', 'O')]
-```
+    ```python
+    >>> from underthesea import ner
+    >>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
+    >>> ner(text)
+    [('Chưa', 'R', 'O', 'O'),
+     ('tiết lộ', 'V', 'B-VP', 'O'),
+     ('lịch trình', 'V', 'B-VP', 'O'),
+     ('tới', 'E', 'B-PP', 'O'),
+     ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
+     ('của', 'E', 'B-PP', 'O'),
+     ('Tổng thống', 'N', 'B-NP', 'O'),
+     ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
+     ('Donald', 'Np', 'B-NP', 'B-PER'),
+     ('Trump', 'Np', 'B-NP', 'I-PER')]
+    ```
+    
+- ⚛️ Deep Learning Model
 
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+    
+    ```python
+    >>> from underthesea import ner
+    >>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
+    >>> ner(text, deep=True)
+    [
+      {'entity': 'B-ORG', 'word': 'Bộ'},
+      {'entity': 'I-ORG', 'word': 'Công'},
+      {'entity': 'I-ORG', 'word': 'Thương'}
+    ]
+    ```
+</details>
 
-### 6. Dependency Parsing
+<details>
+<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups
+<code>📜</code> <code>⚡</code>
+</summary>
 
-Install dependencies for deep learning
+- 📜 Usage
 
-```bash
-$ pip install underthesea[deep]
-```
+    ```python
+    >>> from underthesea import classify
+    
+    >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
+    ['The thao']
+    
+    >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
+    ['Kinh doanh']
+    
+    >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
+    ['INTEREST_RATE']
+    ```
 
-Usage
+- ⚡ Prompt-based Model
 
-```python
->>> from underthesea import dependency_parse
->>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
->>> dependency_parse(text)
-[('Tối', 5, 'obl:tmod'),
- ('29/11', 1, 'flat:date'),
- (',', 1, 'punct'),
- ('Việt Nam', 5, 'nsubj'),
- ('thêm', 0, 'root'),
- ('2', 7, 'nummod'),
- ('ca', 5, 'obj'),
- ('mắc', 7, 'nmod'),
- ('Covid-19', 8, 'nummod')]
-```
+    ```bash
+    $ pip install underthesea[prompt]
+    $ export OPENAI_API_KEY=YOUR_KEY
+    ```
+    
+    ```python
+    >>> from underthesea import classify
+    >>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
+    >>> classify(text, model='prompt')
+    Thể thao
+    ```
+</details>
 
-### 7. Named Entity Recognition
+<details>
+<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment
+<code>📜</code>
+</summary>
 
-Usage
+- 📜 Usage
 
-```python
->>> from underthesea import ner
->>> text = 'Chưa tiết lộ lịch trình tới Việt Nam của Tổng thống Mỹ Donald Trump'
->>> ner(text)
-[('Chưa', 'R', 'O', 'O'),
- ('tiết lộ', 'V', 'B-VP', 'O'),
- ('lịch trình', 'V', 'B-VP', 'O'),
- ('tới', 'E', 'B-PP', 'O'),
- ('Việt Nam', 'Np', 'B-NP', 'B-LOC'),
- ('của', 'E', 'B-PP', 'O'),
- ('Tổng thống', 'N', 'B-NP', 'O'),
- ('Mỹ', 'Np', 'B-NP', 'B-LOC'),
- ('Donald', 'Np', 'B-NP', 'B-PER'),
- ('Trump', 'Np', 'B-NP', 'I-PER')]
-```
+    ```python
+    >>> from underthesea import sentiment
+    
+    >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
+    'negative'
+    >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
+    'positive'
+    
+    >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
+    ['CUSTOMER_SUPPORT#negative']
+    >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
+    ['TRADEMARK#positive']
+    ```
+</details>
 
-With Deep Learning
+<details>
+<summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
+<code>⚛️</code>
+</summary>
 
-```bash
-$ pip install underthesea[deep]
-```
-
-```python
->>> from underthesea import ner
->>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
->>> ner(text, deep=True)
-[
-  {'entity': 'B-ORG', 'word': 'Bộ'},
-  {'entity': 'I-ORG', 'word': 'Công'},
-  {'entity': 'I-ORG', 'word': 'Thương'}
-]
-```
-
-### 8. Text Classification
-
-Usage
-
-```python
->>> from underthesea import classify
-
->>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
-['The thao']
-
->>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
-['Kinh doanh']
-
->> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
-['INTEREST_RATE']
-```
-
-### 9. Sentiment Analysis
-
-Usage
-
-```python
->>> from underthesea import sentiment
-
->>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
-'negative'
->>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
-'positive'
-
->>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
-['CUSTOMER_SUPPORT#negative']
->>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
-['TRADEMARK#positive']
-```
-
-### 10. Say 🗣️
+<br/>
 
 Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.com/ntt123/vietTTS)
 
 Install extend dependencies and models
 
-```bash
-$ pip install underthesea[wow]
-$ underthesea download-model VIET_TTS_V0_4_1
-```
+    ```bash
+    $ pip install underthesea[wow]
+    $ underthesea download-model VIET_TTS_V0_4_1
+    ```
 
 Usage examples in script
 
-```python
->>> from underthesea.pipeline.say import say
-
->>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
-A new audio file named `sound.wav` will be generated.
-```
+    ```python
+    >>> from underthesea.pipeline.say import say
+    
+    >>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    A new audio file named `sound.wav` will be generated.
+    ```
 
 Usage examples in command line
 
-```sh
-$ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
-```
+    ```sh
+    $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+    ```
+</details>
 
-### 11. Vietnamese NLP Resources
+<details>
+<summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
+
+<br/>
 
 List resources
 
@@ -311,6 +357,8 @@ $ underthesea download-data CP_Vietnamese_VLC_v2_2022
 Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_Vietnamese_VLC_v2_2022 folder
 ```
 
+</details>
+
 ### Up Coming Features
 
 * Automatic Speech Recognition
@@ -326,6 +374,5 @@ Do you want to contribute with underthesea development? Great! Please read more 
 If you found this project helpful and would like to support our work, you can just buy us a coffee ☕.
 
 Your support is our biggest encouragement 🎁!
-
 
 <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/support.png"/>
