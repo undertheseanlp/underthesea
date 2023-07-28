@@ -63,7 +63,7 @@ Satisfaction, guaranteed.
 ## Tutorials
 
 <details>
-<summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences</summary>
+<summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences `📜`</summary>
 
 - 📜 Usage
 
