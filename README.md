@@ -92,15 +92,20 @@ Satisfaction, guaranteed.
 
 </details>
 
-### 2. Text Normalization
+<details><summary><b><a href="">Text Normalization</a></b> (📜) </summary>
+<br/>
 
-Usage
+📜 Usage
 
 ```python
 >>> from underthesea import text_normalize
 >>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
 "Đảm bảo chất lượng phòng thí nghiệm hóa học"
 ```
+
+</details>
+
+
 
 ### 3. Word Segmentation
 
