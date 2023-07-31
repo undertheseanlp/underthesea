@@ -3,7 +3,7 @@ on:
     branches: [ main ]
 
 jobs:
-  release-crates:
+  crates-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -15,9 +15,8 @@ jobs:
           override: true
       - name: Build Release
         working-directory: extensions/underthesea_core
-        env:
-          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
         run: |
+          cargo test
           cargo build --release
-          cargo publish
+          
       

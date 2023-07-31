@@ -1,4 +1,4 @@
-//! tfidf.rs
+//! tfidf_featurizer.rs
 //! 
 //! Provides functionality for computing Term Frequency-Inverse Document Frequency (TFIDF) vectors.
 //! 
