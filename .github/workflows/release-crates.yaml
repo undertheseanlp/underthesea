@@ -8,3 +8,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Setup Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+      - name: Build Release
+        working-directory: underthesea/extensions/underthesea_core
+        run: |
+          cargo build --release
+      
