@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    branches: [ main ]
+    types:
+      - labeled
+      - synchronize
+
+jobs:
+  release-crates:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        if: contains(env.PR_LABELS, 'ci-prompt')
