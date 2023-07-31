@@ -14,7 +14,8 @@ jobs:
           toolchain: stable
           override: true
       - name: Build Release
-        working-directory: underthesea/extensions/underthesea_core
+        working-directory: extensions/underthesea_core
         run: |
+          cargo login
           cargo build --release
       
