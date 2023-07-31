@@ -3,7 +3,7 @@ on:
     branches: [ main ]
 
 jobs:
-  crates-build:
+  crates-release:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -13,11 +13,22 @@ jobs:
         with:
           toolchain: stable
           override: true
+      - name: Check if version already exists on crates.io
+        working-directory: extensions/underthesea_core
+        id: check-version
+        run: |
+          CURRENT_VERSION=$(cargo pkgid | cut -d# -f2 | cut -d: -f2)
+          EXISTS=$(cargo search "underthesea_core" --limit 100 | grep "$CURRENT_VERSION")
+          if [[ -z "$EXISTS" ]]; then
+            echo "The version $CURRENT_VERSION does not exist on crates.io"
+            echo "::set-output name=exists::false"
+          else
+            echo "The version $CURRENT_VERSION already exists on crates.io"
+            echo "::set-output name=exists::true"
+          fi
       - name: Build Release
+        if: steps.check-version.outputs.exists == 'false'
         working-directory: extensions/underthesea_core
         env:
           CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
-        run: |
-          cargo publish
-          
-      
+        run: cargo publish
