@@ -5,6 +5,8 @@ use pyo3::prelude::*;
 use std::collections::HashSet;
 
 pub mod featurizers;
+pub mod tfidf;
+pub mod metrics;
 
 #[pyclass]
 pub struct CRFFeaturizer {
