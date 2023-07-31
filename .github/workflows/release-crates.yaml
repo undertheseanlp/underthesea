@@ -15,6 +15,8 @@ jobs:
           override: true
       - name: Build Release
         working-directory: extensions/underthesea_core
+        env:
+          CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
         run: |
           cargo login
           cargo build --release
