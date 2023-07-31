@@ -8,6 +8,8 @@ pub mod featurizers;
 pub mod tfidf;
 pub mod metrics;
 
+// pub mod logistic;
+
 #[pyclass]
 pub struct CRFFeaturizer {
     pub object: featurizers::CRFFeaturizer
