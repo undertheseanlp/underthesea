@@ -33,6 +33,7 @@ jobs:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
           $PYTHON -m poetry run maturin sdist
+          rm -rf ./target/wheels/*.whl
           find ./target/wheels
           $PYTHON -m poetry run maturin publish --username __token__
   linux:
@@ -142,7 +143,7 @@ jobs:
   macos-arm:
     name: "MacOS ARM"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
-    runs-on: macos-arm64
+    runs-on: self-hosted
     strategy:
       fail-fast: false
       matrix:
