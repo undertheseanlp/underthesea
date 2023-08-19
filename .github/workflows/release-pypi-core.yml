@@ -8,7 +8,7 @@ env:
 jobs:
   source_distribute:
     name: "Source Distribute"
-    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
@@ -40,7 +40,7 @@ jobs:
           twine upload ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
   linux:
     name: "Linux"
-    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
@@ -72,7 +72,7 @@ jobs:
           $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   windows:
     name: "Windows"
-    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -107,7 +107,7 @@ jobs:
         poetry run maturin publish --username __token__ --no-sdist --interpreter python
   macos-x86:
     name: "MacOS x86"
-    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: macos-latest
     strategy:
       fail-fast: false
@@ -144,7 +144,7 @@ jobs:
         poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-arm:
     name: "MacOS ARM"
-    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: self-hosted
     strategy:
       fail-fast: false
