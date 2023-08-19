@@ -2,6 +2,9 @@ on:
   push:
     branches: [ core ]
 
+env:
+  PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+
 jobs:
   source_distribute:
     name: "Source Distribute"
@@ -33,9 +36,8 @@ jobs:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
           $PYTHON -m poetry run maturin sdist
-          rm -rf ./target/wheels/*.whl
-          find ./target/wheels
-          $PYTHON -m poetry run maturin publish --username __token__ --no-strip --skip-auditwheel
+          pip install twine
+          twine upload ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
   linux:
     name: "Linux"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
