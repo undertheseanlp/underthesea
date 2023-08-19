@@ -34,7 +34,7 @@ jobs:
         run: |
           $PYTHON -m poetry run maturin sdist
           find ./target/wheels
-          $PYTHON -m poetry publish --repository pypi -u __token__ -p ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }} --build
+          $PYTHON -m poetry run maturin publish --username __token__
   linux:
     name: "Linux"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
