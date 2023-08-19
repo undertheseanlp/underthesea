@@ -3,6 +3,38 @@ on:
     branches: [ core ]
 
 jobs:
+  source_distribute:
+    name: "Source Distribute"
+    if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
+    env:
+      HOME: /root
+      PYTHON: python${{ matrix.python-version }}
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10"]
+    steps:
+      - uses: actions/checkout@v1
+      - name: Create environment and install package dependencies
+        working-directory: ./extensions/underthesea_core
+        env:
+          LC_ALL: en_US.UTF-8  # Known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
+        run: |
+          cargo --version
+          $PYTHON -m poetry --version
+          $PYTHON -m poetry install
+          $PYTHON -m poetry show  
+      - name: Build and publish
+        working-directory: ./extensions/underthesea_core
+        env:
+          MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+        run: |
+          $PYTHON -m poetry build --format sdist
+          find ./target/
+          $PYTHON -m poetry publish --repository pypi -u __token__ -p ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }} --build
   linux:
     name: "Linux"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
