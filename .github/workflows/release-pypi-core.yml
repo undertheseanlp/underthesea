@@ -35,7 +35,7 @@ jobs:
           $PYTHON -m poetry run maturin sdist
           rm -rf ./target/wheels/*.whl
           find ./target/wheels
-          $PYTHON -m poetry run maturin publish --username __token__
+          $PYTHON -m poetry run maturin publish --username __token__ --no-strip --skip-auditwheel
   linux:
     name: "Linux"
     if: "contains(github.event.head_commit.message, 'Publish Underthesea Core')"
