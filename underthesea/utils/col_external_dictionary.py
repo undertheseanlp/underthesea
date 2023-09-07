@@ -26,7 +26,7 @@ class Word:
         self.senses = senses
 
     def __str__(self):
-        return self.word + " " + ",".join([sense.tag for sense in self.senses])
+        return self.word + " " + ",".join([sense.tag for sense in self.senses]) + ","
 
     def add_sense(self, sense):
         self.senses.append(sense)
