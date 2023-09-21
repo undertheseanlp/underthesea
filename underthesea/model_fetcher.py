@@ -34,8 +34,8 @@ class ModelFetcher:
         cache_dir = Path(UNDERTHESEA_FOLDER) / model_info["cache_dir"] / model_info["model_path"]
         cached_path(model_info["url"], cache_dir=cache_dir)
         zip_filepath = cache_dir / model_info["filename"]
-        zip = zipfile.ZipFile(zip_filepath)
-        zip.extractall(cache_dir)
+        with zipfile.ZipFile(zip_filepath) as zip_file:
+            zip_file.extractall(cache_dir)
         os.remove(zip_filepath)
 
     @staticmethod
@@ -56,8 +56,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20190607.zip?dl=1"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20190607",
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_GENERAL",
@@ -69,8 +69,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20201228.zip"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_vntc_20201228",
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_GENERAL_V131",
@@ -83,8 +83,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
@@ -96,8 +96,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_uts2017_bank_20190607.zip?dl=1"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "tc_svm_uts2017_bank_20190607",
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "TC_BANK",
@@ -109,8 +109,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_aivivn2019_20190615.zip?dl=1"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_aivivn2019_20190615",
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "SA_GENERAL",
@@ -123,8 +123,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
@@ -136,8 +136,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_uts2017_bank_20190611.zip?dl=1"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "sa_svm_uts2017_bank_20190611",
                 Path(UNDERTHESEA_FOLDER) / cache_dir / "SA_BANK",
@@ -150,8 +150,8 @@ class ModelFetcher:
             cached_path(url, cache_dir=cache_dir)
             model_path = Path(UNDERTHESEA_FOLDER) / cache_dir / f"{model_id}.zip"
             cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
-            zip = zipfile.ZipFile(model_path)
-            zip.extractall(cache_folder)
+            with zipfile.ZipFile(model_path) as zip_file:
+                zip_file.extractall(cache_folder)
             os.rename(
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_id,
                 Path(UNDERTHESEA_FOLDER) / cache_dir / model_name,
