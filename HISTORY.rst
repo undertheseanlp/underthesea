@@ -2,6 +2,14 @@
 History
 ================================================================================
 
+6.8.0 (2023-09-23)
+--------------------------------------------------------------------------------
+
+* GH-705: Release Source Distribution for underthsea_core by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/708
+* GH-705: Create docker image for underthesea by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/711
+* Code refactoring by @tosemml in https://github.com/undertheseanlp/underthesea/pull/713
+* Fix permission errors on removing downloaded models by @BLKSerene in https://github.com/undertheseanlp/underthesea/pull/715
+
 6.7.0 (2023-07-28)
 --------------------------------------------------------------------------------
 
