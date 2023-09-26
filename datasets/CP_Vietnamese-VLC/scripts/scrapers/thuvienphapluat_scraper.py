@@ -4,6 +4,19 @@ import re
 
 
 class ThuvienphapluatScraper:
+    """
+    A web scraper for Thuvienphapluat website.
+
+    This scraper takes a URL of the page and returns the cleaned textual content of the article.
+    The scraped text is cleaned by removing unwanted spaces, tabs, and newlines.
+
+    Attributes:
+    None
+
+    Methods:
+    scrape(url: str) -> str:
+        Scrapes and returns the cleaned textual content of the article from the given url.
+    """
     def __init__(self):
         pass
 
