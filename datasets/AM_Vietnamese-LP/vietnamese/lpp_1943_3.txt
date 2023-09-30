@@ -1,0 +1,8 @@
+# ::id lpp_1943.3 ::date 2012-06-07T17:06:23 ::annotator ISI-AMR-05 ::preferred
+# ::snt Nó vẽ một con trăn đang nuốt chửng một con mãnh thú.
+# ::save-date Mon Apr 15, 2013 ::file lpp_1943_3.txt
+(p / bức_ảnh
+  :domain (n / nó)
+  :topic (t / trăn
+           :ARG0-of (nu / nuốt-01
+                      :ARG1 (m / mãnh_thú))))
