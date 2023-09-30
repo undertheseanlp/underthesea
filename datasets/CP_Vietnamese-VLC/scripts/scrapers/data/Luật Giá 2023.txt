@@ -1,0 +1,925 @@
+QUỐC HỘI -------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ---------------
+Luật số: 16/2023/QH15
+Hà Nội, ngày 19 tháng 6 năm 2023
+LUẬT GIÁ
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Giá.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về quyền và nghĩa vụ của cơ quan, tổ chức, cá nhân, người tiêu dùng trong lĩnh vực giá, thẩm định giá; hoạt động quản lý, điều tiết giá của Nhà nước; tổng hợp, phân tích, dự báo giá thị trường; cơ sở dữ liệu về giá; thẩm định giá; thanh tra chuyên ngành về giá, kiểm tra việc chấp hành pháp luật về giá, thẩm định giá.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ; người tiêu dùng; cơ quan nhà nước; tổ chức, cá nhân khác có liên quan đến hoạt động trong lĩnh vực giá, thẩm định giá trên lãnh thổ Việt Nam.
+Điều 3. Áp dụng Luật Giá và pháp luật có liên quan
+1. Trường hợp có quy định khác nhau về giá giữa Luật Giá và luật khác được ban hành trước ngày Luật Giá có hiệu lực thi hành thì thực hiện theo quy định của Luật Giá, trừ trường hợp quy định tại khoản 4 Điều này.
+2. Trường hợp luật khác ban hành sau ngày Luật Giá có hiệu lực thi hành cần quy định đặc thù về quản lý, điều tiết giá khác với quy định tại Luật Giá thì phải xác định cụ thể nội dung thực hiện hoặc không thực hiện theo quy định của Luật Giá, nội dung thực hiện theo quy định của luật khác đó.
+3. Trường hợp luật khác ban hành sau ngày Luật Giá có hiệu lực thi hành có quy định bổ sung hàng hóa, dịch vụ do Nhà nước định giá thì phải đánh giá tác động chính sách; hàng hóa, dịch vụ đó phải đáp ứng ít nhất một trong các tiêu chí quy định tại khoản 1 Điều 21 của Luật này; đồng thời quy định rõ về thẩm quyền, trách nhiệm định giá, hình thức định giá đối với hàng hóa, dịch vụ đó, xác định cụ thể về căn cứ, phương pháp định giá, việc ban hành văn bản định giá thực hiện hoặc không thực hiện theo quy định tại Luật Giá, nội dung thực hiện theo quy định của luật khác đó.
+4. Việc định giá của Nhà nước đối với một số mặt hàng được thực hiện theo quy định của pháp luật có liên quan như sau:
+a) Giá đất được thực hiện theo quy định của pháp luật về đất đai;
+b) Giá nhà ở được thực hiện theo quy định của pháp luật về nhà ở;
+c) Giá điện và giá các dịch vụ về điện được thực hiện theo quy định của pháp luật về điện lực;
+d) Giá dịch vụ khám bệnh, chữa bệnh được thực hiện theo quy định của pháp luật về khám bệnh, chữa bệnh;
+đ) Học phí, giá dịch vụ trong lĩnh vực giáo dục - đào tạo, giáo dục nghề nghiệp được thực hiện theo quy định của pháp luật về giáo dục, giáo dục đại học, giáo dục nghề nghiệp;
+e) Tiền bản quyền khi khai thác, sử dụng tác phẩm, bản ghi âm, ghi hình trong trường hợp giới hạn quyền tác giả, giới hạn quyền liên quan, tiền đền bù đối với quyền sử dụng sáng chế được chuyển giao theo quyết định bắt buộc trong trường hợp người được chuyển giao quyền sử dụng sáng chế và người nắm độc quyền sử dụng sáng chế không thỏa thuận được, tiền đền bù đối với quyền sử dụng giống cây trồng được chuyển giao theo quyết định bắt buộc được thực hiện theo quy định của pháp luật về sở hữu trí tuệ.
+Điều 4. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Hàng hóa là sản phẩm có thể trao đổi, mua, bán trên thị trường.
+2. Dịch vụ là hàng hóa có tính vô hình, quá trình sản xuất và tiêu dùng không thể tách rời nhau.
+3. Hàng hóa, dịch vụ thiết yếu là những hàng hóa, dịch vụ cần thiết đáp ứng nhu cầu cơ bản của con người, nguyên liệu, nhiên liệu, vật liệu, dịch vụ chính phục vụ sản xuất, lưu thông và phù hợp với bối cảnh kinh tế - xã hội trong từng thời kỳ.
+4. Giá thị trường là giá hàng hóa, dịch vụ được hình thành trên cơ sở cung, cầu và do các yếu tố thị trường quyết định trong một khoảng thời gian, không gian nhất định.
+5. Mặt bằng giá thị trường là bình quân các mức giá phổ biến của hàng hóa, dịch vụ hoặc nhóm hàng hóa, dịch vụ trên thị trường trong một khoảng thời gian, không gian nhất định, được phản ánh thông qua chỉ số giá tiêu dùng, chỉ số giá sản xuất (nếu có).
+6. Giá thành toàn bộ của hàng hóa, dịch vụ bao gồm:
+a) Giá thành sản xuất hàng hóa, dịch vụ; giá mua hàng hóa, dịch vụ của tổ chức, cá nhân hoạt động thương mại; giá nhập khẩu hàng hóa;
+b) Chi phí lưu thông hàng hóa, dịch vụ.
+7. Yếu tố hình thành giá bao gồm giá thành toàn bộ thực tế; lợi nhuận (nếu có) hoặc khoản lỗ (nếu có); các nghĩa vụ tài chính theo quy định của pháp luật.
+8. Điều tiết giá là việc cơ quan nhà nước có thẩm quyền áp dụng biện pháp theo quy định của Luật này để hạn chế các bất cập của kinh tế thị trường nhằm bảo vệ quyền, lợi ích hợp pháp của người tiêu dùng, tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ, Nhà nước và thực hiện các mục tiêu kiểm soát lạm phát, phát triển kinh tế - xã hội.
+9. Bình ổn giá là việc cơ quan nhà nước có thẩm quyền thực hiện các giải pháp, biện pháp theo quy định của Luật này nhằm ổn định giá hàng hóa, dịch vụ khi có biến động bất thường về giá trong một khoảng thời gian nhất định.
+10. Biến động bất thường về giá là hiện tượng mặt bằng giá thị trường của hàng hóa, dịch vụ tăng quá cao hoặc giảm quá thấp so với mặt bằng giá thị trường của một thời kỳ nhất định trước đó.
+11. Định giá là quá trình cơ quan nhà nước có thẩm quyền hoặc tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ thực hiện xác định giá của hàng hóa, dịch vụ.
+12. Phương án giá là bản thuyết minh về các căn cứ định giá hoặc điều chỉnh giá, yếu tố hình thành giá hàng hóa, dịch vụ.
+13. Hiệp thương giá là phương thức thỏa thuận giữa các tổ chức kinh doanh hàng hóa, dịch vụ về giá mua, bán hàng hóa, dịch vụ và có vai trò trung gian của cơ quan nhà nước theo quy định của Luật này.
+14. Kê khai giá là việc tổ chức kinh doanh hàng hóa, dịch vụ thuộc trường hợp phải kê khai giá quy định tại khoản 2 Điều 28 của Luật này gửi thông báo mức giá sau khi định giá, điều chỉnh giá cho cơ quan nhà nước có thẩm quyền để phục vụ tổng hợp, phân tích, dự báo giá thị trường.
+15. Niêm yết giá là hình thức công khai mức giá mua, giá bán hàng hóa, dịch vụ của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ nhằm bảo đảm thuận tiện cho việc quan sát, nhận biết của khách hàng và cơ quan nhà nước có thẩm quyền.
+16. Thẩm định giá là hoạt động tư vấn xác định giá trị của tài sản thẩm định giá tại một địa điểm, thời điểm, phục vụ cho mục đích nhất định do doanh nghiệp thẩm định giá, hội đồng thẩm định giá thực hiện theo Chuẩn mực thẩm định giá Việt Nam.
+17. Tài sản thẩm định giá bao gồm tài sản, hàng hóa, dịch vụ, được cơ quan, tổ chức, cá nhân yêu cầu thẩm định giá theo nhu cầu hoặc các trường hợp pháp luật quy định phải thẩm định giá.
+18. Chứng thư thẩm định giá là văn bản do doanh nghiệp thẩm định giá, chi nhánh doanh nghiệp thẩm định giá phát hành sau khi kết thúc hoạt động thẩm định giá để thông báo cho khách hàng, các tổ chức, cá nhân có liên quan (nếu có) được ghi trong hợp đồng thẩm định giá về giá trị tài sản thẩm định giá và những nội dung chính của báo cáo thẩm định giá.
+19. Báo cáo thẩm định giá là văn bản trình bày về quá trình thẩm định giá, làm căn cứ lập chứng thư thẩm định giá của doanh nghiệp thẩm định giá hoặc thông báo kết quả thẩm định giá của hội đồng thẩm định giá, trong đó:
+a) Đối với hoạt động cung cấp dịch vụ thẩm định giá, báo cáo thẩm định giá do thẩm định viên về giá lập, thể hiện ý kiến của thẩm định viên về giá và được người đại diện theo pháp luật của doanh nghiệp thẩm định giá hoặc người đứng đầu chi nhánh doanh nghiệp thẩm định giá xem xét, phê duyệt;
+b) Đối với hoạt động thẩm định giá của Nhà nước, báo cáo thẩm định giá do hội đồng thẩm định giá lập, thể hiện ý kiến của các thành viên hội đồng và ý kiến biểu quyết thống nhất của hội đồng.
+20. Thông báo kết quả thẩm định giá là văn bản do hội đồng thẩm định giá phát hành sau khi kết thúc hoạt động thẩm định giá để thông báo cho cơ quan, tổ chức, cá nhân có thẩm quyền thành lập hội đồng thẩm định giá về giá trị tài sản thẩm định giá và những nội dung chính của báo cáo thẩm định giá.
+21. Thông đồng về giá, thẩm định giá là việc các cơ quan, tổ chức, cá nhân có hành vi trao đổi để thống nhất làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi.
+Điều 5. Nguyên tắc quản lý, điều tiết giá của Nhà nước
+1. Quản lý, điều tiết giá theo cơ chế thị trường phù hợp với chính sách phát triển kinh tế - xã hội trong từng thời kỳ; bảo đảm công khai, minh bạch, tôn trọng quyền tự định giá, cạnh tranh về giá của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ theo quy định của pháp luật.
+2. Bảo vệ quyền, lợi ích hợp pháp của người tiêu dùng, tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ và Nhà nước.
+3. Góp phần ổn định kinh tế vĩ mô, bảo đảm an sinh xã hội, phát triển bền vững; thúc đẩy xã hội hóa hoạt động cung cấp dịch vụ công; có chính sách về giá phù hợp với vùng có điều kiện kinh tế - xã hội khó khăn, điều kiện kinh tế - xã hội đặc biệt khó khăn và trường hợp khác theo quy định của pháp luật.
+Điều 6. Công khai thông tin về giá, thẩm định giá
+1. Cơ quan nhà nước, đơn vị trực thuộc cơ quan nhà nước thực hiện công khai các nội dung sau đây:
+a) Chủ trương, đề án, báo cáo về biện pháp quản lý, điều tiết giá đã được cơ quan nhà nước có thẩm quyền phê duyệt; văn bản quy phạm pháp luật về giá;
+b) Văn bản định giá hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá, trừ hàng dự trữ quốc gia;
+c) Danh sách doanh nghiệp thẩm định giá đủ điều kiện kinh doanh dịch vụ thẩm định giá, thẩm định viên về giá; danh sách doanh nghiệp thẩm định giá bị đình chỉ kinh doanh dịch vụ thẩm định giá, thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá; danh sách người bị tước, thu hồi thẻ thẩm định viên về giá.
+2. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ thực hiện công khai các nội dung sau đây:
+a) Giá cụ thể hàng hóa, dịch vụ do các tổ chức, cá nhân tự định giá trong khung giá, giá tối đa, giá tối thiểu do cơ quan nhà nước có thẩm quyền ban hành;
+b) Mức giá của hàng hóa, dịch vụ thuộc trường hợp phải kê khai giá theo quy định tại khoản 2 Điều 28 của Luật này;
+c) Mức giá của hàng hóa, dịch vụ niêm yết giá.
+3. Doanh nghiệp thẩm định giá thực hiện công khai các nội dung sau đây:
+a) Danh sách thẩm định viên về giá tại doanh nghiệp, chi nhánh của doanh nghiệp;
+b) Thông tin cơ bản về hoạt động của doanh nghiệp gồm giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá, số lượng chứng thư đã phát hành hàng năm;
+c) Bảng giá dịch vụ thẩm định giá của doanh nghiệp thẩm định giá.
+4. Cơ quan, đơn vị, tổ chức, cá nhân có trách nhiệm công khai thông tin quy định tại Điều này phải bảo đảm tính chính xác, trung thực, kịp thời và chịu trách nhiệm về nội dung công khai. Việc công khai không áp dụng đối với các thông tin thuộc danh mục bí mật nhà nước và các trường hợp không được phép công khai theo quy định của pháp luật.
+Việc thông tin, truyền thông về các chính sách pháp luật về giá, cơ chế quản lý, điều hành giá phải bảo đảm tính khách quan, trung thực theo quy định của pháp luật.
+5. Việc công khai các thông tin quy định tại Điều này được thực hiện theo hình thức đăng tải trên trang thông tin điện tử (nếu có) của cơ quan, đơn vị, tổ chức, cá nhân hoặc hình thức phù hợp khác. Đối với trường hợp quy định tại điểm b khoản 1 Điều này thì công khai bằng hình thức gửi văn bản đến cơ quan, đơn vị, tổ chức, cá nhân có liên quan và cập nhật vào cơ sở dữ liệu về giá; đối với các nội dung quy định tại điểm a và điểm b khoản 2 Điều này thì công khai bằng hình thức cập nhật vào cơ sở dữ liệu về giá.
+Điều 7. Các hành vi bị nghiêm cấm trong lĩnh vực giá, thẩm định giá
+1. Đối với cơ quan quản lý nhà nước trong lĩnh vực giá, thẩm định giá; người có chức vụ, quyền hạn theo quy định của pháp luật về phòng, chống tham nhũng thuộc cơ quan quản lý nhà nước trong lĩnh vực giá, thẩm định giá:
+a) Can thiệp không đúng chức năng, nhiệm vụ, quyền hạn theo quy định của pháp luật vào việc thực hiện quyền, nghĩa vụ của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ, người tiêu dùng trong lĩnh vực giá và tổ chức, cá nhân hoạt động thẩm định giá;
+b) Cố tình tiết lộ, sử dụng thông tin về giá do tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ cung cấp không đúng quy định của cơ quan nhà nước có thẩm quyền;
+c) Mua chuộc, hối lộ; cấu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+2. Đối với tổ chức, cá nhân:
+a) Loan tin, đưa tin không đúng sự thật, không chính xác về tình hình kinh tế - xã hội gây nhiễu loạn thông tin thị trường, giá hàng hóa, dịch vụ;
+b) Gian lận về giá bằng cách cố ý thay đổi các nội dung đã cam kết trong các giao dịch mà không thông báo trước với khách hàng về thời gian, địa điểm, điều kiện mua, bán, phương thức vận chuyển, thanh toán, chất lượng, số lượng, tính năng, công dụng, hàng hóa, dịch vụ tại thời điểm giao hàng, cung ứng dịch vụ;
+c) Lợi dụng tình trạng khẩn cấp, sự cố, thảm họa, thiên tai, dịch bệnh để tăng giá bán hàng hóa, dịch vụ không phù hợp với biến động của giá thành toàn bộ so với điều kiện bình thường nhằm trục lợi;
+d) Cản trở hoạt động quản lý, điều tiết giá, thẩm định giá của cơ quan nhà nước có thẩm quyền;
+đ) Làm, cung cấp chứng thư thẩm định giá giả hoặc sử dụng chứng thư thẩm định giá giả cho mục đích quy định tại khoản 4 Điều 55 của Luật này;
+e) Làm, cung cấp chứng thư thẩm định giá khi không đủ điều kiện kinh doanh dịch vụ thẩm định giá hoặc sử dụng chứng thư đó cho mục đích quy định tại khoản 4 Điều 55 của Luật này; ký chứng thư thẩm định giá, báo cáo thẩm định giá khi không là thẩm định viên về giá;
+g) Mua chuộc, hối lộ; cấu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+3. Đối với doanh nghiệp thẩm định giá:
+a) Hành vi cạnh tranh không lành mạnh theo quy định của pháp luật về cạnh tranh; thông tin không chính xác về trình độ, kinh nghiệm và khả năng cung cấp dịch vụ của thẩm định viên về giá, doanh nghiệp thẩm định giá;
+b) Cung cấp dịch vụ thẩm định giá cho người có liên quan với doanh nghiệp thẩm định giá theo quy định của pháp luật về doanh nghiệp;
+c) Kê khai không chính xác, không trung thực, giả mạo hồ sơ đăng ký cấp, cấp lại giấy chứng nhận đủ kiện kinh doanh dịch vụ thẩm định giá, hồ sơ đăng ký hành nghề của thẩm định viên về giá;
+d) Phát hành khống chứng thư thẩm định giá;
+đ) Mua chuộc, hối lộ; cấu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+4. Đối với thẩm định viên về giá:
+a) Thông tin không chính xác, không trung thực về trình độ, kinh nghiệm và khả năng cung cấp dịch vụ của thẩm định viên về giá, doanh nghiệp thẩm định giá;
+b) Giả mạo, cho thuê, cho mượn, sử dụng thẻ thẩm định viên về giá trái với quy định của Luật này và pháp luật có liên quan;
+c) Lập chứng thư thẩm định giá, báo cáo thẩm định giá với tư cách cá nhân;
+d) Ký chứng thư thẩm định giá, báo cáo thẩm định giá không đúng với lĩnh vực chuyên môn, thông báo của cơ quan nhà nước về lĩnh vực được phép hành nghề; ký chứng thư thẩm định giá, báo cáo thẩm định giá khi không đáp ứng các điều kiện đăng ký hành nghề thẩm định giá quy định tại khoản 1 Điều 45 của Luật này;
+đ) Thực hiện thẩm định giá cho người có liên quan với doanh nghiệp thẩm định giá theo quy định của pháp luật về doanh nghiệp;
+e) Lập khống báo cáo thẩm định giá, các tài liệu liên quan đến hoạt động thẩm định giá theo quy định của Chuẩn mực thẩm định giá Việt Nam;
+g) Mua chuộc, hối lộ; câu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+5. Đối với hội đồng thẩm định giá:
+a) Chỉ đạo, can thiệp vào hoạt động thẩm định giá làm ảnh hưởng đến tính độc lập về chuyên môn của thành viên hội đồng thẩm định giá nhằm vụ lợi;
+b) Lập khống thông báo kết quả thẩm định giá, báo cáo thẩm định giá;
+c) Mua chuộc, hối lộ; câu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+6. Đối với thành viên hội đồng thẩm định giá:
+a) Lập khống các tài liệu liên quan đến hoạt động thẩm định giá theo quy định tại Chuẩn mực thẩm định giá Việt Nam;
+b) Mua chuộc, hối lộ; câu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+7. Đối với khách hàng thẩm định giá và bên thứ ba có tên trong hợp đồng thẩm định giá:
+a) Cố ý cung cấp thông tin sai lệch về tài sản thẩm định giá;
+b) Sử dụng chứng thư thẩm định giá đã hết hiệu lực; sử dụng chứng thư thẩm định giá không theo đúng mục đích thẩm định giá gắn với tài sản thẩm định giá, số lượng tài sản thẩm định giá tại hợp đồng thẩm định giá;
+c) Mua chuộc, hối lộ; câu kết, thỏa thuận để làm sai lệch mức giá hàng hóa, dịch vụ hoặc giá trị tài sản thẩm định giá nhằm vụ lợi, trục lợi; thông đồng về giá, thẩm định giá.
+8. Cơ quan, tổ chức, cá nhân ban hành văn bản có các hình thức, điều kiện nhằm hạn chế hoạt động của doanh nghiệp thẩm định giá và thẩm định viên về giá trái quy định của Luật này.
+Chương II
+QUYỀN, NGHĨA VỤ CỦA TỔ CHỨC, CÁ NHÂN KINH DOANH HÀNG HÓA, DỊCH VỤ VÀ NGƯỜI TIÊU DÙNG TRONG LĨNH VỰC GIÁ
+Điều 8. Quyền của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ
+1. Tự định giá và điều chỉnh giá hàng hóa, dịch vụ do mình sản xuất, kinh doanh, trừ hàng hóa, dịch vụ do Nhà nước định giá cụ thể. Được xem xét áp dụng nguyên tắc, căn cứ, phương pháp định giá do Nhà nước quy định để định giá hàng hóa, dịch vụ.
+2. Tự định giá mua, giá bán hàng hóa, dịch vụ do mình sản xuất, kinh doanh theo khung giá, giá tối đa, giá tối thiểu do cơ quan nhà nước có thẩm quyền ban hành, phù hợp với căn cứ, nguyên tắc, phương pháp định giá hàng hóa, dịch vụ quy định tại Luật này.
+3. Tham gia xây dựng và kết nối, chia sẻ thông tin vào cơ sở dữ liệu về giá.
+4. Hạ giá bán hàng hóa, dịch vụ mà không bị coi là vi phạm quy định của pháp luật về cạnh tranh, pháp luật về chống bán phá giá hàng nhập khẩu và phải niêm yết công khai về mức giá cũ, mức giá mới, thời hạn hạ giá đối với các trường hợp sau đây:
+a) Hàng tươi sống;
+b) Hàng hóa tồn kho;
+c) Hàng hóa, dịch vụ theo mùa vụ;
+d) Hàng hóa, dịch vụ để khuyến mại theo quy định của pháp luật;
+đ) Hàng hóa, dịch vụ trong trường hợp doanh nghiệp tạm ngừng kinh doanh, phá sản, giải thể; thay đổi địa điểm, ngành nghề sản xuất, kinh doanh;
+e) Hàng hóa, dịch vụ khi thực hiện chính sách bình ổn giá của Nhà nước.
+5. Kiến nghị cơ quan nhà nước có thẩm quyền định giá xem xét, điều chỉnh giá hàng hóa, dịch vụ do mình sản xuất, kinh doanh thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+6. Tiếp cận thông tin về chính sách giá của Nhà nước; các biện pháp quản lý, điều tiết giá của Nhà nước.
+7. Khiếu nại, tố cáo hoặc khởi kiện hành vi có dấu hiệu vi phạm pháp luật về giá; yêu cầu tổ chức, cá nhân bồi thường thiệt hại do hành vi vi phạm pháp luật về giá theo quy định của pháp luật.
+Điều 9. Nghĩa vụ của tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ
+1. Lập phương án giá hoặc báo cáo đánh giá chi tiết về các yếu tố hình thành giá hàng hóa, dịch vụ hoặc cung cấp kịp thời, chính xác, đầy đủ số liệu, tài liệu có liên quan theo yêu cầu của cơ quan nhà nước có thẩm quyền để phục vụ việc định giá hoặc triển khai, áp dụng các biện pháp quản lý, điều tiết giá khác theo quy định của Luật này.
+2. Chấp hành văn bản định giá, biện pháp bình ổn giá của cơ quan nhà nước có thẩm quyền.
+3. Kê khai giá hàng hóa, dịch vụ theo quy định của pháp luật.
+4. Niêm yết giá hàng hóa, dịch vụ theo quy định của pháp luật.
+5. Giảm giá hàng hóa, dịch vụ do mình sản xuất, kinh doanh phù hợp với các chính sách miễn, giảm thuế, phí nhằm hỗ trợ người tiêu dùng.
+6. Công khai thông tin về giá hàng hóa, dịch vụ theo quy định của pháp luật.
+7. Giải quyết kịp thời các khiếu nại về giá hàng hóa, dịch vụ do mình sản xuất, kinh doanh; bồi thường thiệt hại do hành vi vi phạm pháp luật về giá theo quy định của pháp luật.
+Điều 10. Quyền của người tiêu dùng
+1. Lựa chọn, thỏa thuận về giá khi mua hàng hóa, dịch vụ, trừ hàng hóa, dịch vụ do Nhà nước định giá cụ thể.
+2. Tiếp cận thông tin về chính sách giá của Nhà nước; các biện pháp quản lý, điều tiết giá của Nhà nước.
+3. Được yêu cầu tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ cung cấp thông tin về giá, chất lượng, xuất xứ của hàng hóa, dịch vụ và hóa đơn theo quy định của pháp luật.
+4. Kiến nghị cơ quan nhà nước có thẩm quyền định giá xem xét điều chỉnh giá hàng hóa, dịch vụ do Nhà nước định giá khi các yếu tố hình thành giá thay đổi.
+5. Khiếu nại, tố cáo, khởi kiện hoặc đề nghị tổ chức xã hội khởi kiện theo quy định của Luật này, pháp luật về bảo vệ quyền lợi người tiêu dùng và quy định khác của pháp luật có liên quan.
+Điều 11. Nghĩa vụ của người tiêu dùng
+1. Thanh toán theo mức giá thỏa thuận hoặc mức giá cụ thể do Nhà nước định giá khi mua hàng hóa, dịch vụ.
+2. Thông tin cho cơ quan quản lý nhà nước về giá, tổ chức, cá nhân có liên quan khi phát hiện hành vi có dấu hiệu vi phạm pháp luật về giá.
+Chương III
+NHIỆM VỤ, QUYỀN HẠN CỦA CƠ QUAN QUẢN LÝ NHÀ NƯỚC VỀ GIÁ, THẨM ĐỊNH GIÁ
+Điều 12. Nội dung quản lý nhà nước về giá, thẩm định giá
+1. Ban hành và tổ chức thực hiện văn bản quy phạm pháp luật về giá, thẩm định giá.
+2. Quản lý, điều tiết giá của Nhà nước.
+3. Tổng hợp, phân tích, dự báo giá thị trường; xây dựng, vận hành cơ sở dữ liệu về giá.
+4. Quản lý hoạt động thẩm định giá; tổ chức hoạt động thẩm định giá của Nhà nước.
+5. Quản lý hoạt động đào tạo, bồi dưỡng nghiệp vụ về giá, thẩm định giá.
+6. Thanh tra, kiểm tra việc chấp hành pháp luật và xử lý vi phạm pháp luật về giá, thẩm định giá.
+7. Giải quyết khiếu nại, tố cáo trong lĩnh vực giá, thẩm định giá.
+8. Hợp tác quốc tế về giá, thẩm định giá.
+Điều 13. Nhiệm vụ, quyền hạn của Chính phủ
+1. Thống nhất quản lý nhà nước về giá, thẩm định giá.
+2. Ban hành văn bản quy phạm pháp luật về giá, thẩm định giá theo thẩm quyền.
+3. Trình Ủy ban Thường vụ Quốc hội xem xét, điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá, Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+4. Quy định, điều chỉnh hàng hóa, dịch vụ thiết yếu phải kê khai giá quy định tại điểm d khoản 2 Điều 28 của Luật này.
+5. Quyết định và tổ chức triển khai thực hiện các biện pháp quản lý, điều tiết giá theo quy định của Luật này. Phân công, phân cấp thẩm quyền, trách nhiệm thực hiện các nội dung quản lý nhà nước về giá, thẩm định giá và các nhiệm vụ khác thuộc thẩm quyền.
+Điều 14. Nhiệm vụ, quyền hạn của Bộ Tài chính
+1. Là cơ quan đầu mối giúp Chính phủ thống nhất quản lý nhà nước về giá, thẩm định giá.
+2. Ban hành theo thẩm quyền, trình cơ quan, người có thẩm quyền ban hành văn bản quy phạm pháp luật về giá, thẩm định giá; phối hợp với các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh trong việc xây dựng văn bản quy phạm pháp luật về giá.
+3. Trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá, Danh mục hàng hóa, dịch vụ do Nhà nước định giá trên cơ sở đề xuất của các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh.
+4. Trình Chính phủ ban hành, điều chỉnh hàng hóa, dịch vụ thiết yếu phải kê khai giá theo quy định tại điểm d khoản 2 Điều 28 của Luật này trên cơ sở đề xuất của các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh.
+5. Trình Chính phủ xem xét, quyết định chủ trương bình ổn giá trên cơ sở đề xuất của các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh; tổ chức thực hiện bình ổn giá theo phân công của Chính phủ.
+6. Định giá đối với các hàng hóa, dịch vụ thuộc thẩm quyền quy định tại Danh mục hàng hóa, dịch vụ do Nhà nước định giá; quy định phương pháp định giá chung đối với hàng hóa, dịch vụ do Nhà nước định giá và hướng dẫn thực hiện theo quy định tại khoản 2 Điều 23 của Luật này.
+7. Tiếp nhận kê khai giá hàng hóa, dịch vụ thuộc thẩm quyền.
+8. Tổ chức hiệp thương giá hàng hóa, dịch vụ trong lĩnh vực, phạm vi quản lý.
+9. Tổ chức triển khai công tác tổng hợp, phân tích, dự báo giá thị trường; ứng dụng công nghệ thông tin để xây dựng, vận hành Cơ sở dữ liệu quốc gia về giá.
+10. Quản lý nhà nước về thẩm định giá bao gồm các nội dung sau đây:
+a) Ban hành Chuẩn mực thẩm định giá Việt Nam;
+b) Quy định về đào tạo, bồi dưỡng, cập nhật kiến thức, cấp chứng chỉ nghiệp vụ thẩm định giá cho thẩm định viên về giá và người làm công tác thẩm định giá của Nhà nước;
+c) Quy định về việc thi, cấp, quản lý, tước có thời hạn và thu hồi thẻ thẩm định viên về giá;
+d) Cấp, cấp lại, thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá; đình chỉ kinh doanh dịch vụ thẩm định giá;
+đ) Quản lý hoạt động hành nghề của thẩm định viên về giá;
+e) Quản lý hoạt động của doanh nghiệp thẩm định giá; quản lý nhà nước trong lĩnh vực thẩm định giá đối với hội nghề nghiệp về thẩm định giá theo quy định của pháp luật; quy định về việc đánh giá hoạt động doanh nghiệp thẩm định giá.
+11. Tổ chức hoạt động thẩm định giá của Nhà nước thuộc lĩnh vực, phạm vi quản lý theo quy định pháp luật.
+12. Thực hiện hợp tác quốc tế về giá, thẩm định giá.
+13. Thực hiện chức năng thanh tra chuyên ngành về giá, thẩm định giá theo quy định của pháp luật về thanh tra.
+14. Kiểm tra việc chấp hành pháp luật và xử lý vi phạm pháp luật về giá, thẩm định giá theo chức năng, lĩnh vực, phạm vi quản lý nhà nước về giá, thẩm định giá.
+15. Giải quyết khiếu nại, tố cáo trong lĩnh vực giá, thẩm định giá thuộc lĩnh vực, phạm vi quản lý theo quy định của pháp luật về khiếu nại, tố cáo.
+16. Nhiệm vụ, quyền hạn khác về quản lý nhà nước về giá theo quy định của Luật này, quy định khác của pháp luật có liên quan và phân công của Chính phủ.
+Điều 15. Nhiệm vụ, quyền hạn của các Bộ, cơ quan ngang Bộ
+1. Thực hiện chức năng quản lý nhà nước về giá trong lĩnh vực, phạm vi quản lý theo quy định của pháp luật.
+2. Ban hành theo thẩm quyền, trình cơ quan, người có thẩm quyền ban hành văn bản quy phạm pháp luật về giá thuộc lĩnh vực quản lý; phối hợp với các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh trong việc xây dựng văn bản quy phạm pháp luật về giá.
+3. Đề xuất và phối hợp với Bộ Tài chính về việc trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá, Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+4. Đề xuất và phối hợp với Bộ Tài chính về việc trình Chính phủ ban hành, điều chỉnh hàng hóa, dịch vụ thiết yếu phải kê khai giá theo quy định tại điểm d khoản 2 Điều 28 của Luật này.
+5. Đề xuất và phối hợp với Bộ Tài chính về việc trình Chính phủ chủ trương bình ổn giá; tổ chức thực hiện bình ổn giá đối với hàng hóa, dịch vụ thuộc chức năng quản lý nhà nước về ngành, lĩnh vực.
+6. Định giá hàng hóa, dịch vụ thuộc thẩm quyền theo quy định tại Danh mục hàng hóa, dịch vụ do Nhà nước định giá; chủ trì, phối hợp với Bộ Tài chính xây dựng, ban hành hoặc trình cấp có thẩm quyền ban hành phương pháp định giá riêng đối với hàng hóa, dịch vụ thuộc lĩnh vực, phạm vi quản lý theo quy định của pháp luật.
+7. Tiếp nhận kê khai giá theo phân công của Chính phủ.
+8. Tổ chức hiệp thương giá hàng hóa, dịch vụ trong lĩnh vực, phạm vi quản lý.
+9. Cập nhật thông tin, dữ liệu về giá vào Cơ sở dữ liệu quốc gia về giá theo quy định của Chính phủ.
+10. Tổ chức hoạt động thẩm định giá của Nhà nước thuộc lĩnh vực, phạm vi quản lý theo quy định của pháp luật.
+11. Kiểm tra việc chấp hành pháp luật và xử lý vi phạm pháp luật về giá, hoạt động thẩm định giá của Nhà nước theo chức năng, lĩnh vực, phạm vi quản lý nhà nước về giá, thẩm định giá.
+12. Giải quyết khiếu nại, tố cáo trong lĩnh vực giá, thẩm định giá của Nhà nước thuộc lĩnh vực, phạm vi quản lý theo quy định của pháp luật về khiếu nại, tố cáo.
+13. Nhiệm vụ, quyền hạn khác về quản lý nhà nước về giá theo quy định của Luật này, quy định khác của pháp luật có liên quan và phân công của Chính phủ.
+Điều 16. Nhiệm vụ, quyền hạn của Ủy ban nhân dân cấp tỉnh
+1. Ủy ban nhân dân cấp tỉnh là cơ quan thực hiện chức năng quản lý nhà nước về giá tại địa phương theo quy định của pháp luật; có thẩm quyền quyết định, phân công nhiệm vụ đối với từng cơ quan chuyên môn thuộc Ủy ban nhân dân cấp tỉnh theo ngành, lĩnh vực, cơ quan hành chính cấp dưới tham mưu, giúp Ủy ban nhân dân cấp tỉnh thực hiện nhiệm vụ, quyền hạn quản lý nhà nước về giá, thẩm định giá quy định tại Điều này.
+2. Ban hành theo thẩm quyền, trình cơ quan có thẩm quyền ban hành văn bản quy phạm pháp luật về giá thuộc phạm vi quản lý; phối hợp với các Bộ, cơ quan ngang Bộ trong việc xây dựng văn bản quy phạm pháp luật về giá.
+3. Tổ chức thực hiện bình ổn giá trên địa bàn tỉnh theo quy định của Luật này; phối hợp với các địa phương khác trong việc triển khai bình ổn giá.
+4. Định giá hàng hóa, dịch vụ thuộc thẩm quyền theo quy định tại Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+5. Tổ chức phân công, phân cấp việc tiếp nhận kê khai giá trên địa bàn tỉnh; tổ chức triển khai hoạt động tổng hợp, phân tích, dự báo giá thị trường, thực hiện cập nhật thông tin, dữ liệu về giá vào Cơ sở dữ liệu quốc gia về giá; quyết định việc xây dựng, vận hành cơ sở dữ liệu về giá tại địa phương và kết nối với Cơ sở dữ liệu quốc gia về giá theo quy định của Chính phủ.
+6. Đề xuất với Bộ Tài chính, các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực về việc trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá, Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+7. Đề xuất với Bộ Tài chính về việc trình Chính phủ ban hành, điều chỉnh hàng hóa, dịch vụ thiết yếu phải kê khai giá theo quy định tại điểm d khoản 2 Điều 28 của Luật này.
+8. Tổ chức hiệp thương giá hàng hóa, dịch vụ theo quy định của Luật này.
+9. Tổ chức hoạt động thẩm định giá của Nhà nước thuộc phạm vi quản lý của địa phương theo quy định của pháp luật.
+10. Thanh tra, kiểm tra việc chấp hành pháp luật và xử lý vi phạm pháp luật về giá, thẩm định giá theo chức năng, lĩnh vực, phạm vi quản lý nhà nước về giá, thẩm định giá.
+11. Giải quyết khiếu nại, tố cáo về giá, thẩm định giá thuộc phạm vi quản lý của địa phương theo quy định của pháp luật về khiếu nại, tố cáo.
+12. Căn cứ tình hình thực tế tại địa phương trong từng giai đoạn, Ủy ban nhân dân cấp tỉnh quyết định xây dựng và tổ chức thực hiện chương trình, kế hoạch để triển khai các giải pháp phù hợp nhằm ổn định mặt bằng giá thị trường trên địa bàn.
+13. Nhiệm vụ, quyền hạn khác về quản lý nhà nước về giá theo quy định của Luật này, quy định khác của pháp luật có liên quan và phân công của Chính phủ.
+Chương IV
+HOẠT ĐỘNG QUẢN LÝ, ĐIỀU TIẾT GIÁ CỦA NHÀ NƯỚC
+Mục 1. BÌNH ỔN GIÁ
+Điều 17. Hàng hóa, dịch vụ bình ổn giá
+1. Hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ bình ổn giá phải đáp ứng đồng thời các tiêu chí sau đây:
+a) Là hàng hóa, dịch vụ thiết yếu;
+b) Có ảnh hưởng lớn đến phát triển kinh tế - xã hội, sản xuất, kinh doanh và đời sống người dân.
+2. Danh mục hàng hóa, dịch vụ bình ổn giá được quy định tại Phụ lục số 01 ban hành kèm theo Luật này. Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực về hàng hóa, dịch vụ quy định đặc điểm kinh tế - kỹ thuật của hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ bình ổn giá.
+3. Trường hợp cần thiết phải điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá, Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh lập văn bản đề nghị điều chỉnh gửi Bộ Tài chính tổng hợp, trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, quyết định.
+4. Chính phủ quy định chi tiết trình tự, thủ tục để trình Ủy ban Thường vụ Quốc hội điều chỉnh Danh mục hàng hóa, dịch vụ bình ổn giá quy định tại khoản 3 Điều này.
+Điều 18. Nguyên tắc và các trường hợp bình ổn giá
+1. Nguyên tắc bình ổn giá được quy định như sau:
+a) Công khai, minh bạch; hài hòa lợi ích giữa tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ với người tiêu dùng;
+b) Phù hợp với điều ước mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+c) Phù hợp với bối cảnh kinh tế - xã hội, mục tiêu kiểm soát lạm phát;
+d) Xác định rõ thời hạn và phạm vi thực hiện trên phạm vi cả nước hoặc tại địa phương.
+2. Cơ quan nhà nước có thẩm quyền xem xét, bình ổn giá trong các trường hợp sau đây:
+a) Mặt bằng giá thị trường của hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ bình ổn giá biến động bất thường gây tác động lớn đến kinh tế - xã hội, sản xuất, kinh doanh, đời sống người dân;
+b) Khi cơ quan có thẩm quyền ban bố tình trạng khẩn cấp, sự cố, thảm họa, thiên tai, dịch bệnh và mặt bằng giá thị trường hàng hóa, dịch vụ có biến động bất thường.
+Điều 19. Các biện pháp bình ổn giá
+1. Các biện pháp bình ổn giá bao gồm:
+a) Điều hòa cung cầu bao gồm: điều hòa sản xuất hàng hóa trong nước, hàng hóa xuất khẩu, nhập khẩu; điều hòa hàng hóa giữa các vùng, các địa phương trong nước thông qua việc tổ chức lưu thông hàng hóa; mua vào hoặc bán ra hàng dự trữ quốc gia, hàng dự trữ lưu thông;
+b) Các biện pháp về tài chính, tiền tệ phù hợp với quy định của pháp luật;
+c) Định giá cụ thể, giá tối đa, giá tối thiểu hoặc khung giá phù hợp với tính chất của từng loại hàng hóa, dịch vụ; việc định giá hàng hóa, dịch vụ được thực hiện theo các nguyên tắc, căn cứ, phương pháp quy định tại Mục 2 Chương này;
+d) Áp dụng biện pháp hỗ trợ về giá phù hợp với quy định của pháp luật và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+đ) Sử dụng quỹ bình ổn giá trong trường hợp hàng hóa, dịch vụ đã được lập quỹ bình ổn giá.
+Quỹ bình ổn giá là quỹ tài chính không nằm trong cân đối ngân sách nhà nước, được trích lập từ giá hàng hóa, dịch vụ và các nguồn tài chính hợp pháp khác và chỉ được sử dụng cho mục đích bình ổn giá. Chính phủ quyết định việc lập quỹ bình ổn giá đối với hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ bình ổn giá; quy định về quản lý, trích lập, chi sử dụng quỹ bình ổn giá và chịu trách nhiệm bảo đảm tính công khai, minh bạch trong quản lý, sử dụng quỹ.
+2. Thời hạn áp dụng các biện pháp bình ổn giá do cơ quan có thẩm quyền quyết định biện pháp bình ổn giá xác định trên cơ sở xác định nguyên nhân của biến động giá; căn cứ tình hình thực hiện, diễn biến giá hàng hóa, dịch vụ trong thực tế có thể kết thúc bình ổn giá trước thời hạn hoặc gia hạn thời hạn áp dụng.
+Điều 20. Tổ chức thực hiện bình ổn giá
+1. Việc thực hiện bình ổn giá trong trường hợp quy định tại điểm a khoản 2 Điều 18 của Luật này được triển khai như sau:
+a) Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực đánh giá mức độ biến động mặt bằng giá thị trường của hàng hóa, dịch vụ, mức độ ảnh hưởng đến kinh tế - xã hội, sản xuất, kinh doanh, đời sống người dân; có văn bản gửi Bộ Tài chính tổng hợp để trình Chính phủ xem xét, quyết định chủ trương bình ổn giá;
+b) Trên cơ sở chủ trương bình ổn giá của Chính phủ, Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực có trách nhiệm chủ trì triển khai, hướng dẫn Ủy ban nhân dân cấp tỉnh thực hiện một hoặc một số phương thức: kiểm tra yếu tố hình thành giá hoặc yêu cầu doanh nghiệp báo cáo một số yếu tố hình thành giá; kiểm soát hàng hóa tồn kho; đánh giá cung cầu hàng hóa, dịch vụ để xác định nguyên nhân, làm cơ sở cho việc lựa chọn áp dụng biện pháp, thời hạn và phạm vi bình ổn giá phù hợp. Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức triển khai và báo cáo kết quả thực hiện gửi Bộ, cơ quan ngang Bộ chủ trì triển khai;
+c) Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực ban hành quyết định áp dụng một hoặc một số biện pháp bình ổn giá và thời hạn, phạm vi áp dụng bình ổn giá; tổ chức triển khai, hướng dẫn thực hiện biện pháp bình ổn giá và báo cáo Chính phủ kết quả bình ổn giá, đồng thời gửi Bộ Tài chính để tổng hợp vào báo cáo tổng hợp, phân tích, dự báo giá thị trường, Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức triển khai biện pháp bình ổn giá và báo cáo kết quả gửi Bộ, cơ quan ngang Bộ chủ trì triển khai;
+d) Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm chấp hành biện pháp bình ổn giá được công bố và thực hiện kê khai lần đầu, kê khai lại giá theo quy định tại Điều 28 của Luật này với cơ quan nhà nước có thẩm quyền.
+2. Việc thực hiện bình ổn giá trong trường hợp quy định tại điểm b khoản 2 Điều 18 của Luật này được triển khai như sau:
+a) Đối với việc bình ổn giá trên phạm vi cả nước, Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực đánh giá diễn biến thực tế và mặt bằng giá thị trường của hàng hóa, dịch vụ; có văn bản gửi Bộ Tài chính để tổng hợp, trình Chính phủ quyết định chủ trương, biện pháp, thời hạn bình ổn giá phù hợp. Trường hợp hàng hóa, dịch vụ cần bình ổn giá không nằm trong Danh mục hàng hóa, dịch vụ bình ổn giá nhưng cần thực hiện ngay, trên cơ sở đề nghị của Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Bộ Tài chính trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, quyết định chủ trương, biện pháp, thời hạn bình ổn giá đối với hàng hóa, dịch vụ đó. Các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức triển khai thực hiện theo phân công của Chính phủ;
+b) Đối với việc bình ổn giá tại phạm vi địa phương, sở quản lý ngành, lĩnh vực đánh giá diễn biến thực tế và mặt bằng giá thị trường của hàng hóa, dịch vụ trên địa bàn; có văn bản gửi Sở Tài chính tổng hợp, trình Ủy ban nhân dân cấp tỉnh xem xét, quyết định chủ trương, biện pháp, thời hạn bình ổn giá phù hợp. Các sở, ban, ngành, Ủy ban nhân dân cấp huyện có trách nhiệm tổ chức triển khai thực hiện theo phân công của Ủy ban nhân dân cấp tỉnh, Ủy ban nhân dân cấp tỉnh báo cáo Chính phủ về kết quả bình ổn giá, đồng thời gửi Bộ Tài chính tổng hợp vào báo cáo tổng hợp, phân tích, dự báo giá thị trường;
+c) Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ có trách nhiệm chấp hành biện pháp bình ổn giá được công bố và thực hiện kê khai lần đầu, kê khai lại giá theo quy định tại Điều 28 của Luật này với cơ quan nhà nước có thẩm quyền;
+d) Trường hợp cơ quan có thẩm quyền ban bố tình trạng khẩn cấp và có quy định khác về việc thực hiện bình ổn giá thì thực hiện theo quy định của pháp luật về tình trạng khẩn cấp.
+3. Chính phủ quy định chi tiết Điều này.
+Mục 2. ĐỊNH GIÁ
+Điều 21. Hàng hóa, dịch vụ do Nhà nước định giá
+1. Hàng hóa, dịch vụ do Nhà nước định giá phải đáp ứng một trong các tiêu chí sau đây:
+a) Hàng hóa, dịch vụ thuộc lĩnh vực độc quyền Nhà nước sản xuất, kinh doanh theo quy định của pháp luật về thương mại và quy định khác của pháp luật có liên quan;
+b) Tài nguyên quan trọng theo quy định của pháp luật về tài nguyên;
+c) Hàng dự trữ quốc gia; sản phẩm, dịch vụ công ích và dịch vụ sự nghiệp công sử dụng ngân sách nhà nước;
+d) Hàng hóa, dịch vụ thiết yếu có tính chất độc quyền trong mua, bán hoặc có thị trường cạnh tranh hạn chế và ảnh hưởng đến kinh tế - xã hội, đời sống người dân, hoạt động sản xuất, kinh doanh.
+2. Cơ quan nhà nước có thẩm quyền định giá thực hiện định giá theo các hình thức sau đây:
+a) Giá cụ thể là mức giá mà cơ quan, tổ chức, cá nhân phải mua, bán theo đúng mức giá đó;
+b) Giá tối thiểu là mức giá mà cơ quan, tổ chức, cá nhân không được định giá, mua, bán thấp hơn mức giá đó;
+c) Giá tối đa là mức giá mà cơ quan, tổ chức, cá nhân không được định giá, mua, bán cao hơn mức giá đó;
+d) Khung giá là khoảng giới hạn mức giá mà cơ quan, tổ chức, cá nhân không được định giá, mua, bán thấp hơn mức tối thiểu và cao hơn mức tối đa của khung giá đó.
+3. Thẩm quyền, trách nhiệm định giá được quy định như sau:
+a) Thủ tướng Chính phủ định giá đối với hàng hóa, dịch vụ đặc biệt quan trọng, có ảnh hưởng lớn đến kinh tế vĩ mô, đời sống người dân;
+b) Bộ Tài chính định giá đối với hàng hóa, dịch vụ thuộc lĩnh vực quản lý; hàng hóa, dịch vụ thuộc nhiều ngành, lĩnh vực quản lý và ảnh hưởng đến ngân sách nhà nước;
+c) Bộ, cơ quan ngang Bộ định giá đối với hàng hóa, dịch vụ thuộc lĩnh vực, phạm vi chuyên ngành quản lý theo quy định của pháp luật;
+d) Ủy ban nhân dân cấp tỉnh định giá đối với hàng hóa, dịch vụ theo thẩm quyền thuộc phạm vi quản lý theo địa bàn.
+4. Danh mục hàng hóa, dịch vụ do Nhà nước định giá, hình thức định giá và thẩm quyền, trách nhiệm định giá được quy định tại Phụ lục số 02 kèm theo Luật này. Đặc điểm kinh tế - kỹ thuật của hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá thực hiện theo quy định của pháp luật có liên quan; trường hợp chưa có quy định thì các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh có trách nhiệm ban hành theo thẩm quyền.
+5. Trường hợp cần thiết phải điều chỉnh Danh mục hàng hóa, dịch vụ do Nhà nước định giá, các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh lập văn bản đề nghị điều chỉnh gửi Bộ Tài chính tổng hợp, trình Chính phủ để trình Ủy ban Thường vụ Quốc hội xem xét, quyết định.
+6. Chính phủ quy định chi tiết trình tự, thủ tục để trình Ủy ban Thường vụ Quốc hội điều chỉnh Danh mục hàng hóa, dịch vụ do Nhà nước định giá quy định tại khoản 5 Điều này.
+Điều 22. Nguyên tắc và căn cứ định giá của Nhà nước
+1. Nguyên tắc định giá của Nhà nước được quy định như sau:
+a) Bảo đảm bù đắp chi phí sản xuất, kinh doanh hợp lý, hợp lệ; lợi nhuận (nếu có) hoặc tích lũy theo quy định của pháp luật (nếu có) phù hợp với mặt bằng thị trường; bảo đảm phù hợp với cung cầu hàng hóa, dịch vụ, điều kiện thị trường tại thời điểm định giá và chủ trương, chính sách phát triển kinh tế - xã hội của Nhà nước trong từng thời kỳ;
+b) Bảo đảm quyền, lợi ích hợp pháp của Nhà nước, tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ, người tiêu dùng;
+c) Xem xét, điều chỉnh giá khi các yếu tố hình thành giá thay đổi. Trường hợp điều chỉnh giá sản phẩm, dịch vụ công trong dự án đầu tư theo phương thức đối tác công tư được thực hiện theo từng thời kỳ quy định tại hợp đồng dự án.
+2. Căn cứ định giá của Nhà nước được quy định như sau:
+a) Yếu tố hình thành giá của hàng hóa, dịch vụ tại thời điểm định giá hoặc thời gian xác định yếu tố hình thành giá trong phương án giá phù hợp với đặc điểm, tính chất của hàng hóa, dịch vụ;
+b) Quan hệ cung cầu của hàng hóa, dịch vụ, nhu cầu của thị trường và sức mua của đồng tiền; khả năng thanh toán của người tiêu dùng;
+c) Giá thị trường trong nước, thế giới và khả năng cạnh tranh của hàng hoá, dịch vụ.
+Điều 23. Phương pháp định giá
+1. Phương pháp định giá là cách thức để xác định giá hàng hóa, dịch vụ do Nhà nước định giá theo các hình thức định giá quy định tại khoản 2 Điều 21 của Luật này.
+2. Bộ trưởng Bộ Tài chính ban hành phương pháp định giá chung đối với hàng hóa, dịch vụ do Nhà nước định giá. Trường hợp khi áp dụng phương pháp định giá chung có nội dung đặc thù cần hướng dẫn, các Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh đề xuất nội dung cụ thể cần hướng dẫn gửi Bộ Tài chính xem xét, hướng dẫn thực hiện.
+3. Bộ trưởng, Thủ trưởng cơ quan ngang Bộ quản lý ngành, lĩnh vực chủ trì, phối hợp với Bộ trưởng Bộ Tài chính, các Bộ, cơ quan liên quan ban hành hoặc trình cấp có thẩm quyền ban hành phương pháp định giá đối với hàng hóa, dịch vụ sau đây:
+a) Hàng hóa, dịch vụ được quy định tại khoản 4 Điều 3 của Luật này;
+b) Hàng hóa, dịch vụ mà pháp luật có quy định về phương pháp định giá riêng.
+Điều 24. Ban hành văn bản định giá hoặc điều chỉnh mức giá; văn bản quy định cơ chế, chính sách về giá
+1. Văn bản định giá hoặc điều chỉnh mức giá do cơ quan nhà nước có thẩm quyền định giá ban hành là văn bản hành chính. Việc ban hành văn bản được thực hiện như sau:
+a) Lập phương án giá;
+b) Thẩm định phương án giá;
+c) Trình và ban hành văn bản định giá, điều chỉnh mức giá.
+2. Văn bản quy định cơ chế, chính sách về giá do cơ quan nhà nước có thẩm quyền ban hành dưới hình thức văn bản quy phạm pháp luật.
+3. Chính phủ quy định chi tiết khoản 1 Điều này.
+Mục 3. HIỆP THƯƠNG GIÁ
+Điều 25. Tiêu chí hàng hóa, dịch vụ hiệp thương giá
+1. Không thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá; không thuộc các trường hợp phải đấu thầu, đấu giá theo quy định của pháp luật về đấu thầu, đấu giá.
+2. Có tính chất độc quyền mua hoặc độc quyền bán mà bên mua, bên bán phụ thuộc nhau, khó thay thế được.
+Điều 26. Nguyên tắc, thẩm quyền và trách nhiệm hiệp thương giá
+1. Nguyên tắc hiệp thương giá được quy định như sau:
+a) Các đối tượng đề nghị hiệp thương giá phải là tổ chức kinh doanh hàng hóa, dịch vụ thực hiện mua, bán hàng hóa, dịch vụ đáp ứng tiêu chí quy định tại Điều 25 của Luật này;
+b) Việc tiếp nhận, tổ chức hiệp thương giá được thực hiện trên cơ sở tự nguyện và bình đẳng về quyền và nghĩa vụ; bên mua và bên bán đều phải có văn bản đề nghị hiệp thương giá;
+c) Quá trình hiệp thương giá phải bảo đảm khách quan, công khai, minh bạch, tôn trọng quyền tự định giá của các bên đề nghị hiệp thương giá.
+2. Thẩm quyền và trách nhiệm hiệp thương giá được quy định như sau:
+a) Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực hiệp thương giá đối với hàng hóa, dịch vụ thuộc lĩnh vực, phạm vi quản lý mà bên mua, bên bán hoặc cả 02 bên là doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ thuộc đối tượng quy định tại pháp luật về quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;
+b) Sở quản lý ngành, lĩnh vực hiệp thương giá đối với hàng hóa, dịch vụ thuộc lĩnh vực, phạm vi quản lý mà bên mua và bên bán không thuộc quy định tại điểm a khoản này.
+Trường hợp bên mua, bên bán có trụ sở chính đóng tại địa bàn 02 tỉnh, thành phố trực thuộc trung ương khác nhau, bên mua và bên bán có trách nhiệm thống nhất đề nghị 01 trong 02 địa phương tổ chức hiệp thương giá.
+Trường hợp bên mua, bên bán không thống nhất được địa phương tổ chức hiệp thương giá thì Sở quản lý ngành, lĩnh vực nơi bên bán đăng ký kinh doanh tổ chức hiệp thương giá; trường hợp bên bán là chi nhánh của doanh nghiệp thì Sở quản lý ngành, lĩnh vực nơi chi nhánh được đăng ký hoạt động tổ chức hiệp thương giá.
+Điều 27. Tổ chức hiệp thương giá
+1. Khi nhận được văn bản đề nghị hiệp thương giá của bên mua và bên bán hàng hóa, dịch vụ, cơ quan hiệp thương giá tổ chức rà soát, đánh giá việc đáp ứng tiêu chí của hàng hóa, dịch vụ theo quy định tại Điều 25 của Luật này. Trường hợp cần thiết, cơ quan hiệp thương giá có văn bản đề nghị các bên bổ sung thông tin về hàng hóa, dịch vụ.
+2. Cơ quan hiệp thương giá tổ chức hội nghị hiệp thương giá để bên mua và bên bán thương lượng về mức giá trên cơ sở hợp tác, hài hòa lợi ích giữa các bên. Bên mua và bên bán có văn bản cử người đại diện của mình tham gia hội nghị hiệp thương giá.
+3. Tại hội nghị hiệp thương giá, cơ quan hiệp thương giá có vai trò trung gian để bên mua và bên bán thương lượng về mức giá và không được can thiệp vào mức giá mà các bên đã thương lượng.
+4. Tại hội nghị hiệp thương giá, trường hợp bên mua và bên bán thỏa thuận được với nhau về mức giá thì hội nghị hiệp thương giá kết thúc; cơ quan hiệp thương giá lập biên bản để các bên ký ghi nhận kết quả hiệp thương. Mức giá hiệp thương chỉ được áp dụng cho đúng vụ việc mua, bán và khối lượng hàng hóa, dịch vụ đã được các bên thống nhất tại văn bản đề nghị hiệp thương giá; mức giá hiệp thương không có giá trị để áp dụng cho trường hợp khác. Bên mua và bên bán chịu trách nhiệm về mức giá hiệp thương mà 02 bên đã thoả thuận.
+5. Trong trường hợp bên mua và bên bán không thỏa thuận được mức giá và tiếp tục đề nghị cơ quan hiệp thương giá xác định mức giá để 02 bên thực hiện thì cơ quan hiệp thương giá lập biên bản về các nội dung này. Cơ quan hiệp thương giá tiếp tục tổ chức xác định mức giá để 02 bên thực hiện. Văn bản xác định mức giá của cơ quan hiệp thương giá chỉ được áp dụng 01 lần cho đúng đối tượng đề nghị hiệp thương, theo đúng vụ việc mua, bán, khối lượng hàng hóa, dịch vụ đã được các bên thống nhất tại văn bản đề nghị và không có giá trị để áp dụng cho các trường hợp khác. Bên mua và bên bán chịu trách nhiệm tuân thủ mức giá do cơ quan hiệp thương giá đã xác định.
+6. Chính phủ quy định chi tiết Điều này.
+Mục 4. KÊ KHAI GIÁ, NIÊM YẾT GIÁ, GIÁ THAM CHIẾU
+Điều 28. Kê khai giá
+1. Giá kê khai là mức giá hàng hóa, dịch vụ do tổ chức kinh doanh hàng hóa, dịch vụ tự quyết định và được thông báo đến cơ quan có thẩm quyền tiếp nhận kê khai.
+2. Hàng hóa, dịch vụ thực hiện kê khai giá bao gồm:
+a) Hàng hóa, dịch vụ thuộc danh mục bình ổn giá;
+b) Hàng hoá, dịch vụ do Nhà nước định khung giá, giá tối đa, giá tối thiểu để các tổ chức định mức giá cụ thể bán cho người tiêu dùng;
+c) Hàng hóa, dịch vụ do doanh nghiệp quyết định theo giá tham chiếu;
+d) Hàng hóa, dịch vụ thiết yếu khác do Chính phủ ban hành.
+Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực, Ủy ban nhân dân cấp tỉnh quy định đặc điểm kinh tế - kỹ thuật của hàng hóa, dịch vụ thực hiện kê khai giá.
+3. Nội dung kê khai giá gồm mức giá gắn với tên, chủng loại, xuất xứ (nếu có), chỉ tiêu chất lượng (nếu có) và nguyên nhân điều chỉnh giá bán giữa các lần kê khai.
+4. Đối tượng kê khai giá là tổ chức kinh doanh hàng hóa, dịch vụ có đăng ký kinh doanh theo quy định của pháp luật về doanh nghiệp và có quyền quyết định giá; thuộc danh sách do cơ quan có thẩm quyền tiếp nhận kê khai theo quy định tại khoản 5 Điều này.
+5. Việc xây dựng, thông báo danh sách tổ chức kinh doanh hàng hóa, dịch vụ thực hiện kê khai giá được quy định như sau:
+a) Các Bộ, cơ quan ngang Bộ có thẩm quyền tiếp nhận kê khai rà soát, ban hành danh sách tổ chức kinh doanh hàng hóa, dịch vụ thực hiện kê khai giá tại Bộ, cơ quan ngang Bộ;
+b) Ủy ban nhân dân cấp tỉnh tổ chức rà soát, ban hành danh sách tổ chức kinh doanh hàng hóa, dịch vụ thực hiện kê khai giá tại địa phương và không thuộc danh sách kê khai giá của các Bộ, cơ quan ngang Bộ đã ban hành.
+6. Tổ chức kinh doanh hàng hóa, dịch vụ thuộc đối tượng kê khai giá tự quyết định giá hàng hóa, dịch vụ, có trách nhiệm kê khai giá lần đầu và kê khai lại giá sau khi quyết định giá theo quy định và chịu trách nhiệm về mức giá, nội dung kê khai giá của mình.
+7. Cơ quan tiếp nhận kê khai có trách nhiệm tổ chức việc cập nhật thông tin giá kê khai vào cơ sở dữ liệu về giá; được sử dụng mức giá kê khai trong công tác tổng hợp, phân tích, dự báo giá thị trường theo quy định.
+8. Chính phủ quy định chi tiết Điều này.
+Điều 29. Niêm yết giá
+1. Niêm yết giá là hình thức công khai về giá. Giá niêm yết là giá mua, giá bán hàng hóa, dịch vụ đã bao gồm các loại thuế, phí và lệ phí (nếu có) của hàng hóa, dịch vụ đó do tổ chức, cá nhân sản xuất, kinh doanh quyết định bằng Đồng Việt Nam, trừ các trường hợp thực hiện theo quy định của pháp luật về ngoại hối. Giá niêm yết được gắn với số lượng hoặc khối lượng hàng hóa, dịch vụ phù hợp, các thông tin khác (nếu có) về đặc điểm kỹ thuật cơ bản, xuất xứ, phương thức mua, bán.
+2. Các tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ niêm yết giá bảo đảm rõ ràng và không gây nhầm lẫn cho khách hàng về mức giá mua, giá bán hàng hóa, dịch vụ bằng các hình thức: in, dán, ghi thông tin trên bảng, giấy hoặc in trực tiếp trên bao bì của hàng hóa hoặc các hình thức phù hợp với điều kiện thực tế tại địa điểm bán hàng hóa, cung cấp dịch vụ hoặc trên các trang thông tin điện tử để thuận tiện cho việc quan sát, nhận biết của khách hàng và cơ quan nhà nước có thẩm quyền.
+3. Các tổ chức, cá nhân không được bán cao hơn giá niêm yết; đối với hàng hóa, dịch vụ do Nhà nước định giá cụ thể thì tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ phải niêm yết và bán đúng giá do cơ quan nhà nước có thẩm quyền định giá ban hành; đối với hàng hóa, dịch vụ đã được cơ quan nhà nước có thẩm quyền định giá ban hành giá tối thiểu, giá tối đa, khung giá thì phải niêm yết và bán theo giá phù hợp với giá tối thiểu, giá tối đa, khung giá. Tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ điều chỉnh mức giá niêm yết ngay khi có sự thay đổi về giá của hàng hóa, dịch vụ.
+Điều 30. Giá tham chiếu
+1. Giá tham chiếu là mức giá của hàng hóa, dịch vụ tại thị trường trong nước, quốc tế do cơ quan, tổ chức có thẩm quyền công bố để các cơ quan và tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ sử dụng cho việc thỏa thuận, quyết định giá hàng hóa, dịch vụ.
+2. Chính phủ quyết định hàng hóa, dịch vụ áp dụng giá tham chiếu và quy định việc công bố, sử dụng giá tham chiếu.
+Mục 5. KIỂM TRA YẾU TỐ HÌNH THÀNH GIÁ
+Điều 31. Mục đích, yêu cầu kiểm tra yếu tố hình thành giá
+1. Kiểm tra yếu tố hình thành giá do cơ quan nhà nước có thẩm quyền thực hiện để rà soát, đánh giá về tính hợp lý, hợp lệ của các yếu tố hình thành giá, cung cầu của hàng hóa, dịch vụ nhằm nhận diện các yếu tố tác động đến giá hàng hóa, dịch vụ để xem xét, quyết định thực hiện các giải pháp, biện pháp quản lý, điều tiết giá phù hợp.
+2. Việc kiểm tra yếu tố hình thành giá thực hiện trong các trường hợp sau:
+a) Giá hàng hóa, dịch vụ bình ổn giá có biến động bất thường, ảnh hưởng đến kinh tế - xã hội, hoạt động sản xuất, kinh doanh, đời sống người dân, mặt bằng giá thị trường;
+b) Giá hàng hóa, dịch vụ khác có biến động bất thường khi xảy ra tình trạng khẩn cấp, sự cố, thảm họa, thiên tai, dịch bệnh hoặc theo chỉ đạo của Thủ tướng Chính phủ, Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Chủ tịch Ủy ban nhân dân cấp tỉnh để phục vụ công tác quản lý, điều hành giá.
+Điều 32. Thẩm quyền, trách nhiệm kiểm tra yếu tố hình thành giá
+1. Bộ, cơ quan ngang Bộ quản lý ngành, lĩnh vực có trách nhiệm kiểm tra yếu tố hình thành giá đối với hàng hóa, dịch vụ thuộc lĩnh vực, phạm vi chuyên ngành quản lý và giao nhiệm vụ kiểm tra cho các cơ quan chuyên môn, đơn vị trực thuộc tổ chức thực hiện.
+2. Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra yếu tố hình thành giá đối với hàng hóa, dịch vụ thuộc phạm vi quản lý theo địa bàn và giao nhiệm vụ kiểm tra cho các cơ quan chuyên môn, đơn vị trực thuộc tổ chức thực hiện.
+Điều 33. Thực hiện kiểm tra yếu tố hình thành giá
+1. Việc thực hiện kiểm tra yếu tố hình thành giá phải bảo đảm công khai, minh bạch và hạn chế ảnh hưởng đến hoạt động sản xuất, kinh doanh của tổ chức, cá nhân; xác định rõ đối tượng, thời hạn kiểm tra. Kết thúc kiểm tra, cơ quan kiểm tra có báo cáo cấp có thẩm quyền về kết quả kiểm tra yếu tố hình thành giá.
+2. Thực hiện kiểm tra yếu tố hình thành giá được quy định như sau:
+a) Cơ quan nhà nước có thẩm quyền kiểm tra yếu tố hình thành giá có văn bản thông báo về việc kiểm tra gửi đến tổ chức, cá nhân kinh doanh hàng hóa, dịch vụ;
+b) Tổ chức, cá nhân thuộc đối tượng kiểm tra yếu tố hình thành giá có trách nhiệm cung cấp đầy đủ các thông tin, hồ sơ, tài liệu, chứng từ liên quan đến yếu tố hình thành giá;
+c) Thời gian kiểm tra yếu tố hình thành giá tối đa là 30 ngày kể từ ngày nhận đủ tài liệu theo yêu cầu; trường hợp phức tạp thì có thể gia hạn nhưng thời gian gia hạn không quá 15 ngày;
+d) Kết thúc kiểm tra, cơ quan kiểm tra có báo cáo kết quả kiểm tra yếu tố hình thành giá và đề xuất các biện pháp phù hợp. Việc lập báo cáo kết quả kiểm tra trong thời hạn 10 ngày kể từ ngày kết thúc kiểm tra. Báo cáo kết quả kiểm tra yếu tố hình thành giá phải bao gồm các nội dung về mục đích, yêu cầu, đối tượng kiểm tra, kết quả kiểm tra và nguyên nhân.
+3. Trong quá trình kiểm tra, trường hợp phát hiện hành vi vi phạm, cơ quan kiểm tra có trách nhiệm xử lý hoặc chuyển cơ quan có thẩm quyền xử lý theo quy định của pháp luật.
+Chương V
+TỔNG HỢP, PHÂN TÍCH, DỰ BÁO GIÁ THỊ TRƯỜNG, CƠ SỞ DỮ LIỆU VỀ GIÁ
+Điều 34. Hoạt động tổng hợp, phân tích, dự báo giá thị trường
+1. Tổng hợp, phân tích, dự báo giá thị trường là việc thu thập, tổng hợp thông tin, dữ liệu về giá tài sản, hàng hóa, dịch vụ trong một giai đoạn, thời kỳ để phân tích, đánh giá, dự báo về xu hướng biến động của mặt bằng giá thị trường và đề ra phương hướng, giải pháp, biện pháp quản lý, điều tiết giá.
+2. Nội dung công tác tổng hợp, phân tích, dự báo giá thị trường được quy định như sau:
+a) Tổ chức thu thập, phân tích giá các tài sản, hàng hóa, dịch vụ trên thị trường;
+b) Xây dựng báo cáo tổng hợp, phân tích, dự báo giá thị trường trong từng giai đoạn, thời kỳ gắn với mục tiêu kiểm soát lạm phát;
+c) Đánh giá, kiến nghị về mục tiêu kiểm soát lạm phát hằng năm và đề xuất các giải pháp về quản lý, điều hành giá nhằm kiểm soát lạm phát, ổn định kinh tế vĩ mô.
+Điều 35. Nguyên tắc tổng hợp, phân tích, dự báo giá thị trường
+1. Được thực hiện thường xuyên, liên tục, kịp thời.
+2. Đối với việc tổng hợp, phân tích số liệu phải bảo đảm đầy đủ, chính xác trên cơ sở ứng dụng công nghệ thông tin.
+3. Đối với việc dự báo giá thị trường phải được thực hiện khoa học, gắn với ứng dụng công nghệ thông tin và yêu cầu công tác quản lý, điều tiết giá.
+Điều 36. Báo cáo tổng hợp, phân tích, dự báo giá thị trường
+1. Báo cáo tổng hợp, phân tích, dự báo giá thị trường bao gồm các nội dung sau đây:
+a) Tổng hợp mặt bằng giá thị trường và diễn biến mặt bằng giá thị trường hàng hóa, dịch vụ trong nước và thế giới phục vụ yêu cầu quản lý nhà nước về giá; phân tích các nguyên nhân của biến động mặt bằng giá thị trường; đánh giá tác động kinh tế, chính trị trong nước và thế giới đến công tác quản lý, điều tiết giá;
+b) Công tác quản lý, điều tiết giá của Nhà nước;
+c) Dự báo xu hướng biến động mặt bằng giá thị trường các hàng hóa, dịch vụ thiết yếu;
+d) Dự kiến phương án điều chỉnh giá hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá (nếu có); đánh giá tác động của việc điều chỉnh giá đến kinh tế - xã hội và mục tiêu kiểm soát lạm phát;
+đ) Giải pháp, biện pháp quản lý, điều tiết giá.
+2. Bộ trưởng Bộ Tài chính quy định về công tác tổng hợp, phân tích, dự báo giá thị trường.
+Điều 37. Trách nhiệm của các cơ quan, đơn vị thực hiện công tác tổng hợp, phân tích, dự báo giá thị trường
+1. Bộ Tài chính chủ trì, phối hợp với các Bộ, ngành, Ủy ban nhân dân cấp tỉnh theo chức năng, nhiệm vụ được giao triển khai công tác tổng hợp, phân tích, dự báo giá thị trường để nghiên cứu, tham mưu cho Chính phủ các giải pháp điều hành giá.
+2. Các Bộ, ngành có trách nhiệm phối hợp với Bộ Tài chính để triển khai công tác tổng hợp, phân tích, dự báo giá thị trường trong lĩnh vực, phạm vi quản lý theo quy định của Chính phủ.
+3. Ủy ban nhân dân cấp tỉnh có trách nhiệm triển khai công tác tổng hợp, phân tích, dự báo giá thị trường trên địa bàn theo hướng dẫn của Bộ Tài chính.
+Điều 38. Cơ sở dữ liệu về giá
+1. Cơ sở dữ liệu về giá gồm Cơ sở dữ liệu quốc gia về giá và cơ sở dữ liệu về giá tại địa phương.
+2. Cơ sở dữ liệu quốc gia về giá được xây dựng phục vụ công tác quản lý nhà nước về giá, thẩm định giá và các nhu cầu của xã hội, do Bộ Tài chính thống nhất quản lý. Thông tin được cung cấp từ Cơ sở dữ liệu quốc gia về giá là một trong các nguồn thông tin phục vụ công tác quản lý nhà nước và nhu cầu của xã hội. Tổ chức, cá nhân có nhu cầu được cung cấp thông tin từ Cơ sở dữ liệu quốc gia về giá và phải trả giá dịch vụ theo quy định của Bộ Tài chính.
+3. Căn cứ tình hình thực tế tại địa phương, Ủy ban nhân dân cấp tỉnh quyết định việc xây dựng cơ sở dữ liệu về giá tại địa phương để phục vụ công tác quản lý nhà nước về giá, thẩm định giá tại địa phương và kết nối với Cơ sở dữ liệu quốc gia về giá.
+4. Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh và các doanh nghiệp thẩm định giá có trách nhiệm cập nhật thông tin dữ liệu về giá vào Cơ sở dữ liệu quốc gia về giá; việc thu thập, lưu trữ, xử lý, bảo vệ và khai thác, sử dụng cơ sở dữ liệu về giá phải gắn với ứng dụng công nghệ thông tin. Khuyến khích các tổ chức, cá nhân tham gia xây dựng cơ sở dữ liệu về giá.
+5. Chính phủ quy định chi tiết về xây dựng, quản lý, cập nhật và khai thác cơ sở dữ liệu về giá.
+Điều 39. Kinh phí bảo đảm cho công tác tổng hợp, phân tích, dự báo giá thị trường và cơ sở dữ liệu về giá
+1. Kinh phí bảo đảm cho công tác tổng hợp, phân tích, dự báo giá thị trường và công tác quản lý, điều tiết giá được bố trí trong dự toán ngân sách nhà nước của các cơ quan, đơn vị được giao thực hiện nhiệm vụ.
+2. Kinh phí đầu tư xây dựng, duy trì, nâng cấp, quản lý, vận hành cơ sở dữ liệu về giá được bảo đảm bằng ngân sách nhà nước theo phân cấp và các nguồn kinh phí hợp pháp khác theo quy định của pháp luật.
+Cơ quan được giao quản lý cơ sở dữ liệu về giá có trách nhiệm lập dự toán ngân sách phục vụ cho việc xây dựng, duy trì, nâng cấp, quản lý, vận hành để trình cấp có thẩm quyền phê duyệt theo quy định của pháp luật về ngân sách nhà nước.
+3. Bộ trưởng Bộ Tài chính quy định chi tiết Điều này.
+Chương VI
+THẨM ĐỊNH GIÁ
+Mục 1. QUY ĐỊNH CHUNG
+Điều 40. Hoạt động thẩm định giá
+1. Hoạt động thẩm định giá bao gồm hoạt động cung cấp dịch vụ thẩm định giá và hoạt động thẩm định giá của Nhà nước.
+2. Hoạt động cung cấp dịch vụ thẩm định giá do doanh nghiệp thẩm định giá thực hiện, được giao kết bằng hợp đồng dân sự; hoạt động thẩm định giá của Nhà nước do hội đồng thẩm định giá thực hiện theo quyết định của cơ quan, tổ chức, người có thẩm quyền quy định tại Điều 59 của Luật này.
+Điều 41. Nguyên tắc hoạt động thẩm định giá
+1. Tuân thủ pháp luật, Chuẩn mực thẩm định giá Việt Nam.
+2. Độc lập, khách quan, trung thực.
+3. Chịu trách nhiệm về hoạt động thẩm định giá theo quy định của pháp luật.
+Điều 42. Chuẩn mực thẩm định giá Việt Nam
+1. Chuẩn mực thẩm định giá Việt Nam là những quy định và hướng dẫn về nghiệp vụ và đạo đức nghề nghiệp trong hoạt động thẩm định giá.
+2. Bộ trưởng Bộ Tài chính ban hành, tổ chức theo dõi thực hiện Chuẩn mực thẩm định giá Việt Nam; rà soát, kiến nghị cơ quan có thẩm quyền sửa đổi, bổ sung các quy định mâu thuẫn, chồng chéo trong hoạt động thẩm định giá.
+Điều 43. Hội nghề nghiệp về thẩm định giá
+1. Hội nghề nghiệp về thẩm định giá được thành lập và hoạt động theo quy định của pháp luật về hội, có trách nhiệm tuân thủ các quy định của Luật Giá và quy định khác của pháp luật có liên quan.
+2. Hội nghề nghiệp về thẩm định giá được tổ chức đào tạo nghiệp vụ về thẩm định giá, bồi dưỡng cập nhật kiến thức chuyên môn về thẩm định giá, cấp chứng chỉ hoàn thành khóa học và thực hiện các hoạt động liên quan đến thẩm định giá theo quy định của Bộ trưởng Bộ Tài chính.
+Mục 2. DỊCH VỤ THẨM ĐỊNH GIÁ
+Điều 44. Thẻ thẩm định viên về giá
+1. Thẻ thẩm định viên về giá là chứng nhận chuyên môn trong lĩnh vực thẩm định giá tài sản hoặc thẩm định giá doanh nghiệp, được cấp cho người đạt yêu cầu tại kỳ thi cấp thẻ thẩm định viên về giá.
+2. Người tham dự kỳ thi cấp thẻ thẩm định viên về giá phải có đủ các điều kiện sau đây:
+a) Có năng lực hành vi dân sự đầy đủ;
+b) Có bằng tốt nghiệp đại học trở lên;
+c) Có chứng chỉ đào tạo nghiệp vụ thẩm định giá phù hợp với lĩnh vực chuyên môn dự thi do cơ quan, tổ chức có chức năng đào tạo về thẩm định giá cấp, trừ trường hợp có bằng tốt nghiệp cao đẳng trở lên về chuyên ngành giá hoặc thẩm định giá.
+3. Bộ trưởng Bộ Tài chính quy định về thi, cấp, quản lý, thu hồi thẻ thẩm định viên về giá.
+Điều 45. Đăng ký hành nghề thẩm định giá
+1. Người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá phải đáp ứng đủ các điều kiện sau đây:
+a) Có năng lực hành vi dân sự đầy đủ;
+b) Có hợp đồng lao động theo quy định của pháp luật về lao động đang còn hiệu lực với doanh nghiệp mà người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá, trừ trường hợp người có thẻ thẩm định viên về giá là người đại diện theo pháp luật của doanh nghiệp;
+c) Có tổng thời gian thực tế làm việc tại các doanh nghiệp thẩm định giá, cơ quan quản lý nhà nước về giá và thẩm định giá với trình độ đại học trở lên từ đủ 36 tháng. Trường hợp làm việc với trình độ đại học trở lên về chuyên ngành giá hoặc thẩm định giá theo chương trình định hướng ứng dụng theo quy định của pháp luật thì tổng thời gian thực tế làm việc tại các doanh nghiệp thẩm định giá, cơ quan quản lý nhà nước về giá và thẩm định giá từ đủ 24 tháng;
+d) Đã cập nhật kiến thức về thẩm định giá theo quy định của Bộ Tài chính, trừ trường hợp thẻ thẩm định viên về giá được cấp dưới 01 năm tính đến thời điểm đăng ký hành nghề;
+đ) Không thuộc đối tượng quy định tại khoản 2 Điều này.
+2. Đối tượng không được hành nghề thẩm định giá bao gồm:
+a) Cán bộ, công chức theo quy định của pháp luật về cán bộ, công chức; sĩ quan, quân nhân chuyên nghiệp, công nhân quốc phòng trong cơ quan, đơn vị thuộc Quân đội nhân dân; sĩ quan, hạ sĩ quan nghiệp vụ, sĩ quan, hạ sĩ quan chuyên môn kỹ thuật, công nhân công an trong cơ quan, đơn vị thuộc Công an nhân dân;
+b) Người đang bị cấm hành nghề thẩm định giá theo bản án, quyết định của Tòa án đã có hiệu lực pháp luật; người đang trong thời gian bị khởi tố, truy tố, xét xử theo quy định của pháp luật về tố tụng hình sự; người đã bị kết án về một trong các tội về kinh tế, chức vụ liên quan đến tài chính, giá, thẩm định giá mà chưa được xóa án tích; người đang bị áp dụng biện pháp xử lý hành chính giáo dục tại xã, phường, thị trấn; người đang bị đưa vào cơ sở cai nghiện bắt buộc, đưa vào cơ sở giáo dục bắt buộc;
+c) Người đang bị tước thẻ thẩm định viên về giá theo quyết định xử phạt vi phạm hành chính của người có thẩm quyền theo quy định của pháp luật về xử lý vi phạm hành chính.
+3. Người có thẻ thẩm định viên về giá đủ các điều kiện đăng ký hành nghề thẩm định giá quy định tại khoản 1 Điều này thực hiện đăng ký hành nghề thẩm định giá với Bộ Tài chính thông qua doanh nghiệp thẩm định giá để được thông báo là thẩm định viên về giá tại doanh nghiệp thẩm định giá đó. Người có thẻ thẩm định viên về giá trong lĩnh vực thẩm định giá doanh nghiệp được đăng ký hành nghề cả 02 lĩnh vực quy định tại khoản 1 Điều 44 của Luật này. Người có thẻ thẩm định viên về giá không được đăng ký hành nghề thẩm định giá đồng thời tại hai doanh nghiệp thẩm định giá trở lên.
+4. Chính phủ quy định trình tự, thủ tục, hồ sơ đăng ký hành nghề thẩm định giá.
+Điều 46. Thẩm định viên về giá
+1. Thẩm định viên về giá là người có thẻ thẩm định viên về giá đã thực hiện đăng ký hành nghề thẩm định giá và được Bộ Tài chính thông báo là thẩm định viên về giá.
+2. Trong quá trình hành nghề thẩm định giá, thẩm định viên về giá phải duy trì điều kiện đăng ký hành nghề thẩm định giá quy định tại khoản 1 Điều 45 của Luật này. Doanh nghiệp thẩm định giá phải kịp thời báo cáo Bộ Tài chính trường hợp biến động thẩm định viên về giá do thẩm định viên về giá tại doanh nghiệp không còn duy trì điều kiện đăng ký hành nghề thẩm định giá hoặc thay đổi nơi đăng ký hành nghề.
+3. Danh sách thẩm định viên về giá được thông báo như sau:
+a) Danh sách thẩm định viên về giá được thông báo hằng năm trước ngày 01 tháng 01 của năm đó;
+b) Danh sách thẩm định viên về giá được điều chỉnh hằng tháng (nếu có) và thông báo trước ngày làm việc cuối cùng của tháng đối với các hồ sơ Bộ Tài chính tiếp nhận trước ngày 15 của tháng đó;
+c) Danh sách thẩm định viên về giá được thông báo kèm theo khi doanh nghiệp được cấp, cấp lại giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+Điều 47. Quyền và nghĩa vụ của thẩm định viên về giá
+1. Quyền của thẩm định viên về giá:
+a) Hành nghề thẩm định giá theo quy định của Luật này; ký chứng thư thẩm định giá, báo cáo thẩm định giá theo lĩnh vực chuyên môn; được phép hành nghề mà không phải trang bị thêm các chứng chỉ, điều kiện chuyên môn khác với quy định của Luật này;
+b) Đưa ra quan điểm độc lập về chuyên môn nghiệp vụ;
+c) Yêu cầu khách hàng phối hợp trong việc cung cấp hồ sơ, tài liệu liên quan đến tài sản thẩm định giá và tạo điều kiện thuận lợi để thực hiện thẩm định giá; không chịu trách nhiệm về tính chính xác của thông tin về tài sản thẩm định giá do khách hàng cung cấp;
+d) Từ chối thực hiện thẩm định giá trong trường hợp không đúng lĩnh vực chuyên môn được phép hành nghề hoặc xét thấy hồ sơ, tài liệu để thực hiện thẩm định giá không đủ hoặc không bảo đảm tin cậy;
+đ) Tham gia tổ chức nghề nghiệp về thẩm định giá trong nước và ngoài nước theo quy định của pháp luật;
+e) Quyền khác theo quy định của pháp luật.
+2. Nghĩa vụ của thẩm định viên về giá:
+a) Tuân thủ quy định về hoạt động thẩm định giá theo quy định của Luật này và quy định khác của pháp luật có liên quan;
+b) Bảo đảm tính độc lập về chuyên môn nghiệp vụ, tính trung thực, khách quan, chính xác trong quá trình thẩm định giá tài sản; chịu trách nhiệm về chuyên môn trong quá trình thực hiện và bảo đảm báo cáo thẩm định giá tuân thủ các Chuẩn mực thẩm định giá Việt Nam;
+c) Giải trình hoặc bảo vệ các nội dung tại báo cáo thẩm định giá do mình thực hiện với khách hàng thẩm định giá hoặc bên thứ ba được sử dụng báo cáo thẩm định giá theo hợp đồng thẩm định giá khi có yêu cầu; giải trình báo cáo thẩm định giá do mình thực hiện với cơ quan nhà nước có thẩm quyền khi có yêu cầu theo quy định của pháp luật;
+d) Tham gia các chương trình cập nhật kiến thức về thẩm định giá theo quy định;
+đ) Lập hồ sơ về thẩm định giá theo quy định của pháp luật;
+e) Nghĩa vụ khác theo quy định của pháp luật.
+Điều 48. Doanh nghiệp thẩm định giá
+1. Doanh nghiệp thẩm định giá là doanh nghiệp được thành lập, đăng ký ngành, nghề kinh doanh dịch vụ thẩm định giá theo quy định của pháp luật về doanh nghiệp và được Bộ Tài chính cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá theo quy định của Luật này.
+2. Người có chức vụ, quyền hạn thuộc lĩnh vực quản lý nhà nước về giá, sau khi thôi giữ chức vụ, không được thành lập hoặc giữ các chức danh, chức vụ quản lý, điều hành tại doanh nghiệp thẩm định giá trong thời hạn theo quy định của pháp luật về phòng, chống tham nhũng.
+Điều 49. Điều kiện cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá
+1. Khi đề nghị cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá, doanh nghiệp phải có ít nhất 05 người có thẻ thẩm định viên về giá đủ các điều kiện đăng ký hành nghề thẩm định giá theo quy định tại khoản 1 Điều 45 của Luật này đăng ký hành nghề thẩm định giá tại doanh nghiệp và đáp ứng điều kiện sau đây:
+a) Đối với doanh nghiệp tư nhân, công ty trách nhiệm hữu hạn một thành viên, công ty hợp danh thì chủ doanh nghiệp, Giám đốc hoặc Tổng giám đốc doanh nghiệp tư nhân; người đại diện theo pháp luật, Giám đốc hoặc Tổng Giám đốc công ty trách nhiệm hữu hạn một thành viên, công ty hợp danh phải đáp ứng yêu cầu quy định tại Điều 51 của Luật này. Chủ sở hữu công ty trách nhiệm hữu hạn một thành viên là cá nhân, các thành viên hợp danh công ty hợp danh phải là người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá tại doanh nghiệp;
+b) Đối với công ty trách nhiệm hữu hạn hai thành viên trở lên, công ty cổ phần thì người đại diện theo pháp luật, Giám đốc hoặc Tổng Giám đốc của doanh nghiệp phải đáp ứng yêu cầu quy định tại Điều 51 của Luật này; đồng thời doanh nghiệp phải có ít nhất 02 thành viên góp vốn hoặc 02 cổ đông phải là người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá tại doanh nghiệp.
+Trường hợp thành viên góp vốn hoặc cổ đông là tổ chức thì người đại diện theo ủy quyền của của tổ chức góp vốn phải là người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá tại doanh nghiệp; tổng phần vốn góp của các thành viên là tổ chức không quá 35% vốn điều lệ. Tổng số vốn góp của các thành viên hoặc cổ đông là người có thẻ thẩm định viên về giá đăng ký hành nghề thẩm định giá tại doanh nghiệp phải chiếm trên 50% vốn điều lệ của doanh nghiệp.
+2. Trường hợp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá bị mất, rách hoặc thông tin thay đổi so với thông tin trên giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá, doanh nghiệp thẩm định giá phải làm thủ tục cấp lại giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục cấp, cấp lại giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+Điều 50. Chi nhánh doanh nghiệp thẩm định giá
+1. Chi nhánh doanh nghiệp thẩm định giá là đơn vị phụ thuộc của doanh nghiệp thẩm định giá được thành lập theo quy định của pháp luật về doanh nghiệp, đáp ứng các điều kiện quy định tại khoản 2 Điều này và được ghi tên trên giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá của doanh nghiệp thẩm định giá.
+2. Chi nhánh doanh nghiệp thẩm định giá phải đáp ứng đủ các điều kiện sau đây:
+a) Phải có ít nhất 03 người có thẻ thẩm định viên về giá đủ các điều kiện đăng ký hành nghề thẩm định giá theo quy định tại khoản 1 Điều 45 của Luật này đăng ký hành nghề thẩm định giá tại chi nhánh. Những người này không được đồng thời đăng ký hành nghề thẩm định giá tại trụ sở chính hoặc chi nhánh khác của doanh nghiệp thẩm định giá;
+b) Người đứng đầu chi nhánh phải là người có thẻ thẩm định viên về giá đủ các điều kiện đăng ký hành nghề thẩm định giá theo quy định tại khoản 1 Điều 45 của Luật này đăng ký hành nghề thẩm định giá tại chi nhánh đó.
+3. Chi nhánh doanh nghiệp thẩm định giá được thực hiện hoạt động thẩm định giá theo quyết định bằng văn bản của doanh nghiệp thẩm định giá và được phát hành chứng thư thẩm định giá, báo cáo thẩm định giá đối với các hợp đồng thẩm định giá do chi nhánh ký kết với khách hàng thẩm định giá.
+4. Doanh nghiệp thẩm định giá chịu trách nhiệm về hoạt động cung cấp dịch vụ thẩm định giá của chi nhánh.
+Điều 51. Người đại diện theo pháp luật, Giám đốc hoặc Tổng giám đốc của doanh nghiệp thẩm định giá, người đứng đầu chi nhánh doanh nghiệp thẩm định giá
+1. Người đại diện theo pháp luật, Giám đốc hoặc Tổng giám đốc của doanh nghiệp thẩm định giá phải đáp ứng đủ các điều kiện sau đây:
+a) Là người đại diện theo pháp luật, Giám đốc hoặc Tổng giám đốc được ghi trên Giấy chứng nhận đăng ký doanh nghiệp;
+b) Là thẩm định viên về giá tại doanh nghiệp đó;
+c) Có từ đủ 36 tháng là thẩm định viên về giá;
+d) Duy trì điều kiện quy định tại các điểm a, b, d và đ khoản 1 Điều 45 của Luật này;
+đ) Không thuộc các trường hợp đã giữ vị trí người đại diện theo pháp luật, Giám đốc hoặc Tổng giám đốc của doanh nghiệp thẩm định giá đã bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá trong thời gian 12 tháng đối với doanh nghiệp thẩm định giá đã bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá lần đầu và 60 tháng đối với doanh nghiệp thẩm định giá đã bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá từ lần 02 trở lên tính tới thời điểm nộp hồ sơ cấp, cấp lại giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+2. Người đại diện theo pháp luật, Giám đốc hoặc Tổng giám đốc của doanh nghiệp thẩm định giá, người đứng đầu chi nhánh doanh nghiệp thẩm định giá được ghi tên trên giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá cấp cho doanh nghiệp thẩm định giá.
+Điều 52. Điều kiện hoạt động của doanh nghiệp và chi nhánh doanh nghiệp thẩm định giá
+1. Được cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá đồng thời phải bảo đảm duy trì các điều kiện quy định tại Điều 49 và Điều 50 của Luật này.
+2. Trong thời hạn 10 ngày kể từ ngày không đáp ứng một trong các điều kiện quy định tại Điều 49 và Điều 50 của Luật này, doanh nghiệp thẩm định giá phải báo cáo Bộ Tài chính; đồng thời phải khắc phục trong thời hạn tối đa 03 tháng kể từ ngày không đủ điều kiện.
+3. Trong thời gian khắc phục điều kiện hoạt động theo quy định tại khoản 2 Điều này, hoạt động cung cấp dịch vụ thẩm định giá của doanh nghiệp, chi nhánh doanh nghiệp thẩm định giá thực hiện như sau:
+a) Trường hợp người đại diện theo pháp luật của doanh nghiệp không còn là thẩm định viên về giá tại doanh nghiệp hoặc không còn đáp ứng điều kiện quy định tại các điểm a, b, d và đ khoản 1 Điều 45 của Luật này thì doanh nghiệp và chi nhánh doanh nghiệp thẩm định giá không được phát hành chứng thư thẩm định giá, báo cáo thẩm định giá. Trường hợp người đứng đầu chi nhánh không còn là thẩm định viên về giá tại doanh nghiệp hoặc không còn đáp ứng điều kiện quy định tại các điểm a, b, d và đ khoản 1 Điều 45 của Luật này thì chi nhánh doanh nghiệp thẩm định giá không được phát hành chứng thư thẩm định giá, báo cáo thẩm định giá;
+b) Trường hợp không đủ số lượng thẩm định viên về giá tối thiểu nhưng không thuộc trường hợp quy định tại điểm a khoản này thì doanh nghiệp, chi nhánh doanh nghiệp thẩm định giá được phát hành chứng thư thẩm định giá, báo cáo thẩm định giá với những hợp đồng thẩm định giá đã ký kết trong giai đoạn còn đủ điều kiện về số lượng thẩm định viên về giá nhưng không được ký kết hợp đồng dịch vụ thẩm định giá mới.
+4. Sau thời hạn 03 tháng kể từ ngày không đủ điều kiện quy định tại Điều 49 và Điều 50 của Luật này, doanh nghiệp thẩm định giá không khắc phục các điều kiện hoạt động thẩm định giá thì bị đình chỉ kinh doanh dịch vụ thẩm định giá hoặc thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá theo quy định tại Điều 54 của Luật này; chi nhánh doanh nghiệp thẩm định giá không khắc phục các điều kiện hoạt động thẩm định giá thì bị xóa tên trên giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+Điều 53. Quyền và nghĩa vụ của doanh nghiệp thẩm định giá
+1. Quyền của doanh nghiệp thẩm định giá được quy định như sau:
+a) Cung cấp dịch vụ thẩm định giá theo quy định tại Luật này;
+b) Tham gia hội nghề nghiệp, tổ chức nghề nghiệp trong nước và ngoài nước về thẩm định giá theo quy định của pháp luật;
+c) Yêu cầu khách hàng thẩm định giá cung cấp hồ sơ, tài liệu, số liệu có liên quan đến tài sản thẩm định giá và tạo điều kiện thuận lợi để thực hiện thẩm định giá;
+d) Từ chối thực hiện dịch vụ thẩm định giá;
+đ) Quyền khác theo quy định của pháp luật.
+2. Nghĩa vụ của doanh nghiệp thẩm định giá được quy định như sau:
+a) Tuân thủ quy định về hoạt động thẩm định giá theo quy định của Luật này;
+b) Thực hiện thẩm định giá theo đúng hợp đồng thẩm định giá và lĩnh vực chuyên môn được phép thực hiện; bố trí thẩm định viên về giá, người có đủ năng lực chuyên môn, nghiệp vụ để thực hiện thẩm định giá theo hợp đồng đã ký kết; tạo điều kiện để thẩm định viên về giá thực hiện hoạt động thẩm định giá độc lập, khách quan;
+c) Xây dựng, tổ chức thực hiện kiểm soát chất lượng báo cáo thẩm định giá để phát hành và cung cấp chứng thư thẩm định giá cho khách hàng thẩm định giá;
+d) Bảo đảm chứng thư thẩm định giá phát hành tuân thủ các quy định của Chuẩn mực thẩm định giá Việt Nam, trừ trường hợp khách hàng thẩm định giá cố tình cung cấp thông tin sai lệch về tài sản thẩm định giá; chịu trách nhiệm trước khách hàng về việc cung cấp dịch vụ thẩm định giá theo hợp đồng đã ký kết;
+đ) Bồi thường thiệt hại theo quy định của pháp luật do vi phạm những thỏa thuận trong hợp đồng thẩm định giá hoặc trong trường hợp hoạt động thẩm định giá gây thiệt hại đến lợi ích của cơ quan, tổ chức, cá nhân do không tuân thủ các quy định về thẩm định giá;
+e) Mua bảo hiểm trách nhiệm nghề nghiệp cho hoạt động thẩm định giá hoặc trích lập dự phòng rủi ro nghề nghiệp theo quy định của Bộ trưởng Bộ Tài chính;
+g) Quản lý, giám sát hoạt động của thẩm định viên về giá tại doanh nghiệp;
+h) Thực hiện đầy đủ các quy định về chế độ báo cáo về hoạt động thẩm định giá theo quy định của Bộ trưởng Bộ Tài chính;
+i) Tổ chức bảo quản, lưu trữ hồ sơ, tài liệu về thẩm định giá an toàn, đầy đủ, hợp pháp và bảo mật theo quy định của pháp luật về lưu trữ;
+k) Nghĩa vụ khác theo quy định của pháp luật.
+Điều 54. Đình chỉ kinh doanh dịch vụ thẩm định giá và thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá
+1. Doanh nghiệp thẩm định giá bị đình chỉ kinh doanh dịch vụ thẩm định giá khi thuộc một trong các trường hợp sau đây:
+a) Không đáp ứng một trong các điều kiện quy định tại khoản 1 Điều 49 của Luật này trong 03 tháng liên tục;
+b) Phát hành chứng thư thẩm định giá, báo cáo thẩm định giá do người không phải là thẩm định viên về giá ký với vai trò thẩm định viên về giá;
+c) Các trường hợp đình chỉ hoạt động theo quy định của pháp luật về doanh nghiệp, xử lý vi phạm hành chính và hình sự.
+2. Doanh nghiệp thẩm định giá bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá khi thuộc một trong các trường hợp sau đây:
+a) Kê khai không đúng hoặc gian lận, giả mạo hồ sơ đề nghị cấp, cấp lại giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá;
+b) Không phát hành chứng thư thẩm định giá, báo cáo thẩm định giá trong 12 tháng liên tục;
+c) Trong thời hạn 60 ngày kể từ ngày bị đình chỉ kinh doanh dịch vụ thẩm định giá, doanh nghiệp không khắc phục được vi phạm quy định tại điểm a khoản 1 Điều này;
+d) Tự chấm dứt hoạt động kinh doanh dịch vụ thẩm định giá;
+đ) Bị thu hồi giấy chứng nhận đăng ký kinh doanh hoặc giấy chứng nhận đăng ký doanh nghiệp.
+3. Trong thời gian bị đình chỉ kinh doanh dịch vụ thẩm định giá, doanh nghiệp thẩm định giá không được ký hợp đồng dịch vụ thẩm định giá và không được phát hành chứng thư thẩm định giá. Doanh nghiệp thẩm định giá bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá phải chấm dứt việc kinh doanh dịch vụ thẩm định giá kể từ ngày quyết định thu hồi có hiệu lực thi hành.
+Người đại diện theo pháp luật của doanh nghiệp thẩm định giá tại thời điểm bị thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá phải tiếp tục thực hiện nghĩa vụ lưu trữ hồ sơ, tài liệu về thẩm định giá của doanh nghiệp thẩm định giá quy định tại điểm i khoản 2 Điều 53 của Luật này.
+4. Chính phủ quy định chi tiết việc đình chỉ kinh doanh dịch vụ thẩm định giá, thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+Điều 55. Chứng thư thẩm định giá và báo cáo thẩm định giá
+1. Chứng thư thẩm định giá phải có chữ ký của thẩm định viên về giá thực hiện thẩm định giá và do người đại diện theo pháp luật của doanh nghiệp thẩm định giá hoặc người đứng đầu chi nhánh doanh nghiệp thẩm định giá ký và đóng dấu.
+2. Báo cáo thẩm định giá phải có chữ ký của thẩm định viên về giá thực hiện thẩm định giá và phê duyệt của người đại diện theo pháp luật của doanh nghiệp thẩm định giá hoặc người đứng đầu chi nhánh doanh nghiệp thẩm định giá và không thể tách rời với chứng thư thẩm định giá.
+3. Người đại diện theo pháp luật của doanh nghiệp thẩm định giá được phép ủy quyền cho người quản lý doanh nghiệp theo quy định của pháp luật về doanh nghiệp ký chứng thư thẩm định giá và xem xét, phê duyệt báo cáo thẩm định giá. Người được ủy quyền phải là thẩm định viên về giá tại doanh nghiệp.
+4. Chứng thư thẩm định giá và báo cáo thẩm định giá được sử dụng làm một trong những cơ sở để khách hàng, tổ chức, cá nhân có liên quan được ghi tại hợp đồng thẩm định giá xem xét, quyết định hoặc phê duyệt giá của tài sản. Chứng thư thẩm định giá, báo cáo thẩm định giá chỉ có giá trị sử dụng trong thời hạn hiệu lực theo đúng mục đích thẩm định giá gắn với đúng thông tin tài sản, số lượng tài sản tại hợp đồng thẩm định giá.
+5. Chứng thư thẩm định giá phải được cập nhật vào Cơ sở dữ liệu quốc gia về giá theo quy định của Bộ Tài chính, trừ trường hợp thuộc danh mục bí mật nhà nước.
+Điều 56. Quyền, nghĩa vụ của khách hàng thẩm định giá và tổ chức, cá nhân có liên quan được ghi trong hợp đồng thẩm định giá
+1. Tổ chức, cá nhân có quyền lựa chọn doanh nghiệp thẩm định giá có đủ điều kiện hành nghề theo quy định của pháp luật để giao kết hợp đồng thẩm định giá.
+2. Quyền của khách hàng thẩm định giá, tổ chức, cá nhân có liên quan (nếu có) được ghi trong hợp đồng thẩm định giá được quy định như sau:
+a) Yêu cầu doanh nghiệp thẩm định giá cung cấp thông tin trong hồ sơ đăng ký hành nghề thẩm định giá và thông tin về thẩm định viên về giá;
+b) Từ chối cung cấp thông tin, tài liệu không liên quan đến hoạt động thẩm định giá, tài sản thẩm định giá;
+c) Yêu cầu thay thế thẩm định viên về giá tham gia thực hiện thẩm định giá khi có căn cứ cho rằng thẩm định viên về giá đó vi phạm Chuẩn mực thẩm định giá Việt Nam và nguyên tắc hoạt động trung thực, độc lập, khách quan trong quá trình thực hiện thẩm định giá;
+d) Yêu cầu doanh nghiệp thẩm định giá cung cấp chứng thư thẩm định giá, báo cáo thẩm định giá; yêu cầu bồi thường trong trường hợp doanh nghiệp thẩm định giá có hành vi vi phạm gây thiệt hại;
+đ) Xem xét, quyết định việc sử dụng chứng thư thẩm định giá, báo cáo thẩm định giá;
+e) Quyền khác theo quy định của pháp luật.
+3. Nghĩa vụ của khách hàng thẩm định giá, tổ chức, cá nhân có liên quan (nếu có) được ghi trong hợp đồng thẩm định giá được quy định như sau:
+a) Cung cấp đầy đủ, chính xác, trung thực, kịp thời, khách quan thông tin, tài liệu liên quan đến tài sản thẩm định giá theo yêu cầu của doanh nghiệp thẩm định giá và chịu trách nhiệm trước pháp luật về thông tin, tài liệu đã cung cấp;
+b) Phối hợp, tạo điều kiện cho thẩm định viên về giá thực hiện thẩm định giá;
+c) Thông báo kịp thời, đầy đủ, chính xác các vi phạm pháp luật và vi phạm hợp đồng thẩm định giá trong hoạt động thẩm định giá của thẩm định viên về giá và doanh nghiệp thẩm định giá cho cơ quan nhà nước có thẩm quyền;
+d) Thanh toán giá dịch vụ thẩm định giá theo thỏa thuận trong hợp đồng;
+đ) Chịu trách nhiệm về việc sử dụng chứng thư thẩm định giá, báo cáo thẩm định giá trong việc quyết định, phê duyệt giá tài sản. Việc sử dụng chứng thư thẩm định giá, báo cáo thẩm định giá phải trong thời gian hiệu lực của chứng thư thẩm định giá, theo đúng mục đích thẩm định giá gắn với đúng tài sản, số lượng tài sản tại hợp đồng thẩm định giá;
+e) Nghĩa vụ khác theo quy định của pháp luật.
+Điều 57. Xác định giá dịch vụ thẩm định giá
+Giá dịch vụ thẩm định giá được ghi trong hợp đồng thẩm định giá, thực hiện theo giao dịch dân sự giữa doanh nghiệp thẩm định giá với khách hàng thẩm định giá và phải bảo đảm nguyên tắc bù đắp chi phí thực tế hợp lý để thực hiện đầy đủ các hoạt động theo phạm vi công việc được quy định tại Chuẩn mực thẩm định giá Việt Nam.
+Điều 58. Phương thức giải quyết tranh chấp về hợp đồng thẩm định giá
+1. Thương lượng, hòa giải trên cơ sở những cam kết đã ghi trong hợp đồng thẩm định giá.
+2. Giải quyết bằng trọng tài thương mại.
+3. Khởi kiện tại Tòa án theo quy định của pháp luật về tố tụng dân sự.
+Mục 3. THẨM ĐỊNH GIÁ CỦA NHÀ NƯỚC
+Điều 59. Hoạt động thẩm định giá của Nhà nước
+1. Thẩm định giá của Nhà nước được lựa chọn thực hiện trong trường hợp pháp luật có liên quan quy định về việc sử dụng phương thức này là một trong các cơ sở để cơ quan, tổ chức, người có thẩm quyền xem xét quyết định, phê duyệt giá khi bán, thanh lý, cho thuê, liên doanh, liên kết, chuyển giao tài sản công hoặc mua, đi thuê hàng hóa, dịch vụ, tài sản có sử dụng vốn nhà nước.
+2. Cơ quan, tổ chức, người có thẩm quyền quyết định hoặc phê duyệt giá theo quy định tại khoản 1 Điều này khi lựa chọn phương thức thẩm định giá của Nhà nước có trách nhiệm thành lập hội đồng thẩm định giá để thực hiện thẩm định giá của Nhà nước.
+3. Hoạt động thẩm định giá của Nhà nước không áp dụng đối với hàng hóa, dịch vụ thuộc Danh mục hàng hóa, dịch vụ do Nhà nước định giá.
+Điều 60. Hội đồng thẩm định giá
+1. Hội đồng thẩm định giá phải có tối thiểu 03 thành viên là cán bộ, công chức, viên chức, người lao động thuộc thẩm quyền quản lý, sử dụng của người thành lập hội đồng thẩm định giá, bao gồm Chủ tịch hội đồng thẩm định giá. Trường hợp cần thiết có thể thuê người có chứng nhận chuyên môn quy định tại khoản 2 Điều này làm thành viên hội đồng thẩm định giá.
+2. Hội đồng thẩm định giá phải có ít nhất 50% thành viên, bao gồm Chủ tịch hội đồng thẩm định giá có ít nhất một trong các chứng nhận chuyên môn sau đây:
+a) Bằng tốt nghiệp cao đẳng trở lên về chuyên ngành giá, thẩm định giá;
+b) Thẻ thẩm định viên về giá;
+c) Chứng chỉ đào tạo nghiệp vụ về thẩm định giá;
+d) Chứng chỉ bồi dưỡng thẩm định giá nhà nước.
+3. Nguyên tắc hoạt động của hội đồng thẩm định giá được quy định như sau:
+a) Hội đồng thẩm định giá làm việc theo nguyên tắc tập thể, quyết định theo đa số. Phiên họp thẩm định giá chỉ được tiến hành khi có mặt ít nhất 2/3 số lượng thành viên của hội đồng thẩm định giá trở lên tham dự và do Chủ tịch hội đồng thẩm định giá điều hành; trước khi tiến hành phiên họp thẩm định giá, những thành viên vắng mặt phải có văn bản gửi tới Chủ tịch hội đồng thẩm định giá nêu rõ lý do vắng mặt và có ý kiến độc lập của mình về các vấn đề liên quan đến giá của tài sản cần thẩm định giá. Trường hợp hội đồng thẩm định giá chỉ có 03 thành viên thì phiên họp phải có mặt đủ 03 thành viên;
+b) Hội đồng thẩm định giá lập biên bản phiên họp, báo cáo thẩm định giá và thông báo kết quả thẩm định giá theo ý kiến đa số đã được biểu quyết thông qua của thành viên Hội đồng thẩm định giá có mặt tại phiên họp. Trong trường hợp có ý kiến ngang nhau thì ý kiến của bên có biểu quyết của Chủ tịch hội đồng thẩm định giá là ý kiến quyết định của hội đồng về giá trị của tài sản thẩm định giá. Thành viên của hội đồng thẩm định giá có quyền bảo lưu ý kiến của mình nếu không đồng ý với giá trị của tài sản do hội đồng quyết định; ý kiến bảo lưu đó được ghi vào biên bản phiên họp hội đồng thẩm định giá;
+c) Hội đồng thẩm định giá theo quy định tại khoản 1 Điều này tự giải thể sau khi hoàn thành nhiệm vụ quy định tại Quyết định thành lập hội đồng. Các trường hợp phát sinh sau khi hội đồng thẩm định giá giải thể sẽ do cơ quan có thẩm quyền thành lập hội đồng chủ trì xử lý;
+d) Hội đồng thẩm định giá được sử dụng con dấu của cơ quan quyết định thành lập hội đồng thẩm định giá hoặc cơ quan nơi Chủ tịch hội đồng thẩm định giá công tác.
+Điều 61. Quyền và nghĩa vụ của cơ quan, tổ chức, người có thẩm quyền thành lập hội đồng thẩm định giá
+1. Cơ quan, tổ chức, người có thẩm quyền thành lập hội đồng thẩm định giá có quyền sau đây:
+a) Lựa chọn các cá nhân đáp ứng yêu cầu quy định tại khoản 1 và khoản 2 Điều 60 của Luật này tham gia hội đồng thẩm định giá;
+b) Thuê người đáp ứng yêu cầu quy định tại khoản 2 Điều 60 của Luật này tham gia hội đồng thẩm định giá;
+c) Trong trường hợp cần thiết quyết định thành lập tổ giúp việc cho hội đồng thẩm định giá;
+d) Yêu cầu hội đồng thẩm định giá giải trình về các nội dung tại báo cáo thẩm định giá và thông báo kết quả thẩm định giá.
+2. Cơ quan, tổ chức, người có thẩm quyền thành lập hội đồng thẩm định giá có nghĩa vụ sau đây:
+a) Bố trí địa điểm và thời gian, kinh phí để hội đồng thẩm định giá, tổ giúp việc cho hội đồng thẩm định giá (nếu có) thực hiện hoạt động thẩm định giá;
+b) Bảo quản, lưu giữ hồ sơ thẩm định giá theo quy định của pháp luật;
+c) Cập nhật thông báo kết quả thẩm định giá vào cơ sở dữ liệu về giá, trừ trường hợp thuộc danh mục bí mật nhà nước;
+d) Tạo điều kiện để người tham gia hội đồng thẩm định giá cập nhật, bồi dưỡng kiến thức về thẩm định giá nhà nước.
+Điều 62. Quyền và nghĩa vụ của hội đồng thẩm định giá
+1. Hội đồng thẩm định giá có quyền sau đây:
+a) Yêu cầu cung cấp thông tin, tài liệu, nguồn lực cần thiết phục vụ cho việc thẩm định giá;
+b) Thuê tổ chức có chức năng thực hiện giám định tình trạng kinh tế - kỹ thuật, chất lượng của tài sản; thuê doanh nghiệp thẩm định giá thực hiện một phần hoặc toàn bộ công việc thẩm định giá;
+c) Xem xét, quyết định sử dụng kết quả của đơn vị tư vấn, doanh nghiệp thẩm định giá;
+d) Báo cáo cấp có thẩm quyền về việc không có đủ thông tin, tài liệu để thực hiện thẩm định giá;
+đ) Quyền khác theo quy định của pháp luật.
+2. Hội đồng thẩm định giá có nghĩa vụ sau đây:
+a) Bảo đảm tính độc lập về chuyên môn nghiệp vụ; tính trung thực, khách quan, chính xác trong quá trình thẩm định giá tài sản và chịu trách nhiệm về hoạt động thẩm định giá tuân thủ Chuẩn mực thẩm định giá Việt Nam;
+b) Rà soát, đánh giá việc tuân thủ về thu thập, phân tích thông tin, lựa chọn phương pháp thẩm định giá, lập báo cáo thẩm định giá và chứng thư thẩm định giá trong trường hợp thuê thực hiện một phần hoặc toàn bộ công việc thẩm định giá;
+c) Bảo mật thông tin theo quy định của pháp luật;
+d) Nghĩa vụ khác theo quy định của pháp luật.
+Điều 63. Quyền, nghĩa vụ của thành viên hội đồng thẩm định giá
+1. Thành viên của hội đồng thẩm định giá có quyền sau đây:
+a) Tiếp cận thông tin, tài liệu có liên quan phục vụ cho việc thẩm định giá;
+b) Đưa ra nhận định, đánh giá của mình trong quá trình thẩm định giá;
+c) Biểu quyết để xác định giá trị của tài sản thẩm định giá; trường hợp có ý kiến khác thì có quyền bảo lưu ý kiến của mình và được ghi vào biên bản phiên họp của hội đồng thẩm định giá;
+d) Được hưởng chế độ, chính sách theo quy định của pháp luật về thẩm định giá và quy định khác của pháp luật có liên quan;
+đ) Quyền khác theo quy định của pháp luật.
+2. Thành viên của hội đồng thẩm định giá có nghĩa vụ sau đây:
+a) Tuân thủ trình tự thẩm định giá theo quy định;
+b) Bảo đảm tính độc lập về chuyên môn nghiệp vụ, tính chính xác, trung thực, khách quan; chịu trách nhiệm về chất lượng, tính đầy đủ đối với thông báo kết quả thẩm định giá, báo cáo thẩm định giá; chịu trách nhiệm về ý kiến nhận định, đánh giá của mình quy định tại điểm b và điểm c khoản 1 Điều này;
+c) Cập nhật kiến thức chuyên môn nghiệp vụ về thẩm định giá;
+d) Bảo mật thông tin theo quy định của pháp luật;
+đ) Nghĩa vụ khác theo quy định của pháp luật.
+Điều 64. Thông báo kết quả thẩm định giá và báo cáo thẩm định giá
+1. Thông báo kết quả thẩm định giá và báo cáo thẩm định giá của hội đồng thẩm định giá được sử dụng làm cơ sở để tham mưu cho cơ quan, tổ chức, người có thẩm quyền xem xét quyết định, phê duyệt giá theo quy định của pháp luật có liên quan.
+2. Thời gian có hiệu lực của thông báo kết quả thẩm định giá và báo cáo thẩm định giá được quy định tại Chuẩn mực thẩm định giá Việt Nam. Thông báo kết quả thẩm định giá và báo cáo thẩm định giá chỉ có giá trị sử dụng trong thời gian hiệu lực của thông báo kết quả thẩm định giá và theo đúng mục đích thẩm định giá gắn với đúng loại tài sản, số lượng tài sản tại văn bản giao nhiệm vụ thẩm định giá.
+Điều 65. Chi phí thẩm định giá
+1. Chi phí phục vụ cho việc thẩm định giá của hội đồng thẩm định giá, tổ giúp việc của hội đồng thẩm định giá (nếu có) được bảo đảm bằng kinh phí từ ngân sách nhà nước của cơ quan có thẩm quyền thành lập hội đồng thẩm định giá, trừ trường hợp quy định tại khoản 2 Điều này. Bộ Tài chính hướng dẫn cụ thể chi phí phục vụ cho việc thẩm định giá của hội đồng thẩm định giá.
+2. Trường hợp thẩm định giá khi bán, thanh lý, cho thuê, liên doanh, liên kết, chuyển giao tài sản công thì chi phí phục vụ cho việc thẩm định giá của hội đồng thẩm định giá, tổ giúp việc của hội đồng thẩm định giá (nếu có) thực hiện theo quy định của pháp luật có liên quan.
+Điều 66. Hồ sơ thẩm định giá của Nhà nước
+1. Hồ sơ thẩm định giá gồm có các tài liệu sau đây:
+a) Văn bản giao nhiệm vụ bán, thanh lý, cho thuê, liên doanh, liên kết, chuyển giao tài sản công hoặc mua, đi thuê hàng hóa, dịch vụ, tài sản có sử dụng vốn nhà nước;
+b) Thông tin, tài liệu về tài sản cần thẩm định giá;
+c) Quyết định thành lập hội đồng thẩm định giá;
+d) Các tài liệu do hội đồng thẩm định giá thu thập, phân tích trong quá trình thẩm định giá; các báo cáo chuyên gia, chứng thư thẩm định giá kèm Báo cáo thẩm định giá của doanh nghiệp thẩm định giá (nếu có);
+đ) Biên bản phiên họp của hội đồng thẩm định giá; báo cáo thẩm định giá và Thông báo kết quả thẩm định giá của hội đồng thẩm định giá;
+e) Tài liệu khác có liên quan đến việc thẩm định giá (nếu có).
+2. Hội đồng thẩm định giá có trách nhiệm bàn giao hồ sơ, tài liệu liên quan đến hoạt động thẩm định giá của hội đồng thẩm định giá cho cơ quan, tổ chức, người có thẩm quyền thành lập hội đồng thẩm định giá để phục vụ lưu trữ.
+Chương VII
+THANH TRA CHUYÊN NGÀNH VỀ GIÁ, KIỂM TRA VIỆC CHẤP HÀNH PHÁP LUẬT VỀ GIÁ, THẨM ĐỊNH GIÁ
+Điều 67. Mục đích của thanh tra, kiểm tra
+1. Mục đích của thanh tra về giá, thẩm định giá được thực hiện theo quy định của pháp luật về thanh tra.
+2. Mục đích của kiểm tra chấp hành pháp luật về giá, thẩm định giá nhằm góp phần nâng cao kỷ luật, kỷ cương, đem lại tác động tích cực trong công tác quản lý điều hành giá, thẩm định giá; nắm bắt tồn tại, hạn chế để nghiên cứu, kiến nghị sửa đổi, bổ sung văn bản quy phạm pháp luật về giá, thẩm định giá; phòng ngừa, phát hiện và xử lý vi phạm pháp luật về giá, thẩm định giá.
+Điều 68. Nguyên tắc thanh tra, kiểm tra
+1. Công tác thanh tra phải bảo đảm tuân thủ các nguyên tắc quy định tại pháp luật về thanh tra.
+2. Công tác kiểm tra chấp hành pháp luật về giá, thẩm định giá phải bảo đảm nguyên tắc sau đây:
+a) Thực hiện theo kế hoạch, chỉ đạo của cấp có thẩm quyền hoặc khi phát hiện vi phạm, dấu hiệu vi phạm;
+b) Không trùng lặp về phạm vi, thời gian với hoạt động thanh tra, kiểm toán nhà nước, kiểm tra cùng lĩnh vực đối với một đơn vị;
+c) Khách quan, công khai, minh bạch, đúng thẩm quyền, trình tự, thủ tục theo quy định của pháp luật;
+d) Hạn chế cản trở, ảnh hưởng đến hoạt động của đối tượng được kiểm tra.
+Điều 69. Thời hạn thanh tra, kiểm tra
+1. Thời hạn thanh tra thực hiện theo quy định của pháp luật về thanh tra.
+2. Thời hạn kiểm tra được xác định trong quyết định kiểm tra nhưng không quá 10 ngày và được tính từ ngày công bố quyết định kiểm tra; trường hợp phạm vi kiểm tra lớn, nội dung phức tạp thì có thể gia hạn 01 lần nhưng không quá 10 ngày. Biên bản kiểm tra phải được lập trong thời hạn 05 ngày kể từ ngày hết thời hạn kiểm tra.
+Điều 70. Trách nhiệm thanh tra, kiểm tra
+1. Cơ quan thanh tra tài chính thực hiện chức năng thanh tra chuyên ngành về giá theo quy định của pháp luật về thanh tra.
+2. Bộ Tài chính, các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh có trách nhiệm kiểm tra việc chấp hành pháp luật về giá, thẩm định giá, giao nhiệm vụ kiểm tra cho các cơ quan chuyên môn, đơn vị trực thuộc.
+Bộ Tài chính quy định về trình tự, thủ tục kiểm tra việc chấp hành pháp luật về giá, thẩm định giá.
+Điều 71. Báo cáo kết quả thanh tra, kiểm tra và trách nhiệm xử lý
+1. Báo cáo kết quả thanh tra và trách nhiệm xử lý kết quả thanh tra được thực hiện theo quy định của pháp luật về thanh tra.
+2. Báo cáo kết quả kiểm tra phải nêu rõ kết quả công việc kiểm tra; đề xuất những nội dung kiến nghị xử lý về kinh tế, hành chính, pháp luật (nếu có) với đối tượng kiểm tra; đề xuất kiến nghị về việc sửa đổi, bổ sung cơ chế chính sách, văn bản quy phạm pháp luật (nếu có); kiến nghị, đề xuất cơ quan có thẩm quyền theo dõi, đôn đốc, giám sát việc thực hiện kết luận kiểm tra, kiến nghị, quyết định xử lý về kiểm tra (nếu có).
+Điều 72. Xử lý vi phạm pháp luật về giá, thẩm định giá
+1. Tổ chức, cá nhân vi phạm quy định của Luật này, tùy theo tính chất, mức độ vi phạm, bị xử lý theo quy định của pháp luật.
+2. Tổ chức, cá nhân vi phạm quy định của Luật này, ngoài việc bị xử lý theo quy định tại khoản 1 Điều này còn bị đăng tải thông tin vi phạm pháp luật về giá, thẩm định giá trên phương tiện thông tin đại chúng.
+3. Chính phủ quy định chi tiết về xử lý vi phạm hành chính trong lĩnh vực giá, việc đăng tải thông tin vi phạm pháp luật về giá, thẩm định giá trên phương tiện thông tin đại chúng.
+Chương VIII
+ĐIỀU KHOẢN THI HÀNH
+Điều 73. Sửa đổi, bổ sung, thay thế, bãi bỏ một số khoản, điều của các luật có liên quan
+1. Sửa đổi, bổ sung, bãi bỏ một số khoản, điều của Luật Hàng không dân dụng Việt Nam số 66/2006/QH11
+đã được sửa đổi, bổ sung một số điều theo Luật số 45/2013/QH13 và Luật số 61/2014/QH13 như sau:
+a) Sửa đổi, bổ sung khoản 3 và khoản 4 Điều 11 như sau:
+“3. Giá dịch vụ hàng không bao gồm:
+a) Giá dịch vụ cất cánh, hạ cánh tàu bay; giá dịch vụ điều hành bay đi, đến; giá dịch vụ bảo đảm an ninh hàng không; giá dịch vụ điều hành bay qua vùng thông báo bay do Việt Nam quản lý; giá dịch vụ phục vụ hành khách tại cảng hàng không, sân bay;
+b) Giá dịch vụ cho thuê sân đậu tàu bay; giá dịch vụ cho thuê quầy làm thủ tục hành khách; giá dịch vụ cho thuê băng chuyền hành lý; giá dịch vụ cho thuê cầu dẫn khách lên, xuống máy bay; giá dịch vụ phục vụ kỹ thuật thương mại mặt đất trọn gói tại các cảng hàng không, sân bay; giá dịch vụ phân loại tự động hành lý đi; giá dịch vụ tra nạp xăng dầu hàng không; giá dịch vụ sử dụng hạ tầng hệ thống tra nạp ngầm cung cấp nhiên liệu tại cảng hàng không, sân bay;
+c) Nhượng quyền khai thác dịch vụ hàng không tại cảng hàng không, sân bay, bao gồm các dịch vụ nhượng quyền: nhà ga hành khách; nhà ga, kho hàng hóa; phục vụ kỹ thuật thương mại mặt đất; sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không; kỹ thuật hàng không; cung cấp suất ăn hàng không; cung cấp xăng dầu hàng không;
+d) Dịch vụ hàng không khác.
+4. Giá dịch vụ phi hàng không bao gồm:
+a) Dịch vụ cho thuê mặt bằng, dịch vụ cơ bản thiết yếu tại cảng hàng không, sân bay;
+b) Dịch vụ phi hàng không khác.”;
+b) Sửa đổi, bổ sung khoản 6 Điều 11 như sau:
+“6. Việc định giá của Nhà nước đối với các hàng hóa, dịch vụ quy định tại các điểm a, b và c khoản 3 và tại điểm a khoản 4 Điều này thực hiện theo quy định của pháp luật về giá. Doanh nghiệp thực hiện kê khai, niêm yết giá các hàng hóa, dịch vụ quy định tại khoản 3 và khoản 4 Điều này theo quy định của pháp luật về giá.”.
+c) Bãi bỏ khoản 7 và khoản 8 Điều 11;
+d) Sửa đổi, bổ sung khoản 2 Điều 116 như sau:
+“2. Giá dịch vụ vận chuyển hành khách hàng không nội địa thực hiện theo quy định của pháp luật về giá.”.
+2. Sửa đổi, bổ sung khoản 2 và khoản 3 Điều 90 của Bộ luật Hàng hải Việt Nam số 95/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 như sau:
+“2. Giá dịch vụ tại cảng biển bao gồm:
+a) Giá dịch vụ bốc dỡ container; giá dịch vụ hoa tiêu; giá sử dụng cầu, bến, phao neo; giá dịch vụ lai dắt tàu biển;
+b) Giá dịch vụ khác tại cảng biển.
+3. Việc định giá dịch vụ quy định tại điểm a khoản 2 Điều này thực hiện theo quy định của pháp luật về giá.”.
+3. Sửa đổi, bổ sung một số điều của Luật Đường sắt số 06/2017/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 như sau:
+a) Sửa đổi, bổ sung khoản 1 Điều 56 như sau:
+“1. Giá vận tải hành khách, hành lý, hàng hoá trên đường sắt quốc gia do doanh nghiệp kinh doanh vận tải đường sắt quyết định; giá vận tải hành khách, hành lý trên đường sắt đô thị do Ủy ban nhân dân cấp tỉnh định giá theo quy định của pháp luật về giá; giá vận tải trên đường sắt chuyên dùng do doanh nghiệp kinh doanh đường sắt chuyên dùng quyết định.”;
+b) Sửa đổi, bổ sung điểm a khoản 2 Điều 67 như sau:
+“a) Bộ Giao thông vận tải định giá dịch vụ điều hành giao thông vận tải đường sắt trên kết cấu hạ tầng đường sắt do Nhà nước đầu tư theo quy định của pháp luật về giá;”.
+4. Sửa đổi, bổ sung khoản 3 và khoản 4 Điều 90 của Luật Lâm nghiệp số 16/2017/QH14 như sau:
+“3. Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định phương pháp định giá rừng; hướng dẫn định khung giá rừng sản xuất, rừng phòng hộ và rừng đặc dụng thuộc sở hữu toàn dân.
+4. Ủy ban nhân dân cấp tỉnh định khung giá rừng trên địa bàn quản lý.”.
+5. Sửa đổi, bổ sung khoản 2 và khoản 3 Điều 35 của Luật Thủy lợi số 08/2017/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14, Luật số 59/2020/QH14 và Luật số 72/2020/QH14
+như sau:
+“2. Thẩm quyền định giá sản phẩm, dịch vụ thủy lợi đối với các công trình thủy lợi sử dụng vốn nhà nước được quy định như sau:
+a) Đối với sản phẩm, dịch vụ công ích thủy lợi thực hiện theo phương thức đặt hàng:
+Bộ Tài chính định giá tối đa sản phẩm, dịch vụ công ích thủy lợi thuộc phạm vi thẩm quyền quản lý của Bộ Nông nghiệp và Phát triển nông thôn;
+Bộ Nông nghiệp và Phát triển nông thôn định giá cụ thể sản phẩm, dịch vụ công ích thủy lợi thuộc phạm vi thẩm quyền quản lý trên cơ sở giá tối đa do Bộ Tài chính ban hành;
+Ủy ban nhân dân cấp tỉnh định giá cụ thể sản phẩm, dịch vụ công ích thủy lợi thuộc phạm vi thẩm quyền quản lý.
+b) Đối với sản phẩm, dịch vụ thủy lợi khác:
+Bộ Tài chính định khung giá sản phẩm, dịch vụ thủy lợi khác thuộc phạm vi thẩm quyền quản lý của Bộ Nông nghiệp và Phát triển nông thôn;
+Bộ Nông nghiệp và Phát triển nông thôn định giá cụ thể sản phẩm, dịch vụ thủy lợi khác thuộc phạm vi thẩm quyền quản lý trên cơ sở khung giá do Bộ Tài chính ban hành;
+Ủy ban nhân dân cấp tỉnh định giá cụ thể sản phẩm, dịch vụ thủy lợi khác thuộc phạm vi thẩm quyền quản lý.
+3. Đối với công trình thủy lợi được đầu tư xây dựng theo hình thức đối tác công tư và công trình thủy lợi đầu tư xây dựng không sử dụng vốn nhà nước thì giá sản phẩm, dịch vụ thủy lợi được xác định theo hợp đồng giữa các bên.”.
+6. Sửa đổi, bổ sung khoản 6 Điều 83 của Luật Giao thông đường bộ số 23/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 và Luật số 44/2019/QH14 như sau:
+“6. Ủy ban nhân dân cấp tỉnh căn cứ vào loại bến xe ô tô để định giá dịch vụ xe ra, vào bến xe ô tô theo quy định của pháp luật về giá.”.
+7. Sửa đổi, bổ sung khoản 6 Điều 79 của Luật Bảo vệ môi trường số 72/2020/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 11/2022/QH15
+như sau:
+“6. Ủy ban nhân dân cấp tỉnh quy định chi tiết về quản lý chất thải rắn sinh hoạt của hộ gia đình, cá nhân trên địa bàn; quy định cụ thể hình thức và mức kinh phí hộ gia đình, cá nhân phải chi trả cho công tác thu gom, vận chuyển và xử lý chất thải rắn sinh hoạt dựa trên khối lượng hoặc thể tích chất thải đã được phân loại; định giá dịch vụ thu gom, vận chuyển, xử lý chất thải rắn sinh hoạt theo quy định của pháp luật về giá.”.
+8. Sửa đổi, bổ sung khoản 2 Điều 31 của Luật Điện lực số 28/2004/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 24/2012/QH13, Luật số 28/2018/QH14 và Luật số 03/2022/QH15 như sau:
+“2. Khung giá phát điện, khung giá bán buôn điện, giá truyền tải điện, giá phân phối điện, giá dịch vụ phụ trợ hệ thống điện, giá điều độ vận hành hệ thống điện và giá điều hành giao dịch thị trường điện lực do đơn vị điện lực có liên quan xây dựng; cơ quan điều tiết điện lực thẩm định trình Bộ trưởng Bộ Công Thương, Bộ trưởng Bộ Tài chính phê duyệt theo sự phân công của Chính phủ, trừ trường hợp quy định tại khoản 2 Điều 62 của Luật này. Bộ trưởng Bộ Công Thương chủ trì, phối hợp với Bộ trưởng Bộ Tài chính hướng dẫn phương pháp lập khung giá phát điện, khung giá bán buôn điện, giá truyền tải điện, giá phân phối điện, giá dịch vụ phụ trợ hệ thống điện, giá điều độ vận hành hệ thống điện và giá điều hành giao dịch thị trường điện lực.”.
+9. Sửa đổi, bổ sung một số điều của Luật Công chứng số 53/2014/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 28/2018/QH14 như sau:
+a) Sửa đổi, bổ sung Điều 67
+như sau:
+“Điều 67. Giá dịch vụ theo yêu cầu liên quan đến việc công chứng
+1. Người yêu cầu công chứng phải trả giá dịch vụ theo yêu cầu liên quan đến việc công chứng khi yêu cầu tổ chức hành nghề công chứng thực hiện việc soạn thảo hợp đồng, giao dịch, đánh máy, sao chụp, dịch giấy tờ, văn bản và các việc khác liên quan đến việc công chứng.
+2. Ủy ban nhân dân cấp tỉnh định giá tối đa đối với dịch vụ theo yêu cầu liên quan đến việc công chứng áp dụng đối với các tổ chức hành nghề công chứng tại địa phương. Tổ chức hành nghề công chứng xác định giá cụ thể đối với từng loại việc không vượt quá mức giá tối đa do Ủy ban nhân dân cấp tỉnh ban hành và niêm yết công khai các mức giá tại trụ sở của mình. Tổ chức hành nghề công chứng thu giá dịch vụ theo yêu cầu liên quan đến việc công chứng cao hơn mức giá tối đa và mức giá đã niêm yết thì bị xử lý theo quy định của pháp luật.
+3. Tổ chức hành nghề công chứng có trách nhiệm giải thích rõ cho người yêu cầu công chứng về giá dịch vụ theo yêu cầu liên quan đến việc công chứng.”;
+b) Thay thế cụm từ “thù lao công chứng” bằng cụm từ “giá dịch vụ theo yêu cầu liên quan đến việc công chứng” tại điểm đ khoản 1 Điều 7, khoản 4 Điều 22, khoản 2 Điều 32, khoản 4 Điều 33, điểm đ khoản 1 Điều 70 và tên Chương VII.
+10. Sửa đổi, bổ sung, bãi bỏ một số khoản, điều của Luật Đấu giá tài sản số 01/2016/QH14 như sau:
+a) Sửa đổi, bổ sung tên điều và khoản 1 Điều 66 như sau:
+“Điều 66. Giá dịch vụ đấu giá, chi phí đấu giá tài sản
+1. Giá dịch vụ đấu giá, chi phí đấu giá tài sản do người có tài sản đấu giá và tổ chức đấu giá tài sản thỏa thuận trong hợp đồng dịch vụ đấu giá tài sản. Trường hợp đấu giá tài sản quy định tại khoản 1 Điều 4 của Luật này thì giá dịch vụ đấu giá được thực hiện theo quy định của pháp luật về giá.”;
+b) Thay thế cụm từ “thù lao dịch vụ đấu giá” bằng cụm từ “giá dịch vụ đấu giá” tại Điều 1, điểm đ khoản 2 Điều 9, điểm d khoản 1 Điều 24, điểm d khoản 4 Điều 56, Điều 68 và tên Chương V;
+c) Bãi bỏ điểm đ khoản 2 Điều 78.
+11. Sửa đổi, bổ sung, bãi bỏ một số điều của Luật Chuyển giao công nghệ số 07/2017/QH14 như sau:
+a) Sửa đổi, bổ sung điểm b khoản 2 Điều 47 như sau:
+“b) Hằng năm, gửi báo cáo kết quả hoạt động đánh giá, giám định công nghệ tới cơ quan quản lý nhà nước về khoa học và công nghệ.”;
+b) Bãi bỏ khoản 2 Điều 48.
+12. Sửa đổi, bổ sung Điều 22 của Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 69/2020/QH14 như sau:
+“Điều 22. Hợp đồng môi giới và giá dịch vụ theo hợp đồng môi giới
+1. Hợp đồng môi giới là văn bản thỏa thuận giữa doanh nghiệp dịch vụ với tổ chức, cá nhân trung gian về việc giới thiệu bên nước ngoài tiếp nhận lao động Việt Nam để giao kết hợp đồng cung ứng lao động theo quy định của Luật này.
+2. Giá dịch vụ theo hợp đồng môi giới do hai bên thỏa thuận và được ghi rõ trong hợp đồng nhưng không vượt quá mức trần theo quy định tại khoản 3 Điều này.
+3. Bộ Lao động - Thương binh và Xã hội quy định chi tiết mức trần giá dịch vụ theo hợp đồng môi giới phù hợp với từng thị trường, ngành, nghề, công việc cụ thể theo từng thời kỳ có người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng.”.
+13. Bãi bỏ khoản 2 Điều 19 của Luật Phòng, chống tác hại của thuốc lá số 09/2012/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 28/2018/QH14.
+14. Bãi bỏ điểm b khoản 6 Điều 55 của Luật Quy hoạch số 21/2017/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 15/2023/QH15.
+15. Bãi bỏ Điều 24 và Phụ lục số 02 về Danh mục các sản phẩm, dịch vụ chuyển từ phí sang giá dịch vụ do Nhà nước định giá ban hành kèm theo Luật Phí và lệ phí số 97/2015/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số
+09/2017/QH14, Luật số 23/2018/QH14
+và Luật số 72/2020/QH14.
+Điều 74. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2024, trừ trường hợp quy định tại khoản 2 Điều này.
+2. Quy định tại khoản 2 Điều 60 của Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2026. Kể từ ngày 01 tháng 7 năm 2024 đến hết ngày 31 tháng 12 năm 2025, hội đồng thẩm định giá phải có ít nhất 01 thành viên có một trong các chứng nhận chuyên môn sau đây:
+a) Bằng tốt nghiệp cao đẳng trở lên về chuyên ngành giá, thẩm định giá;
+b) Thẻ thẩm định viên về giá;
+c) Chứng chỉ đào tạo nghiệp vụ về thẩm định giá;
+d) Chứng chỉ bồi dưỡng thẩm định giá nhà nước.
+3. Luật Giá số 11/2012/QH13 đã được sửa đổi, bổ sung một số điều theo Luật số 61/2014/QH13, Luật số 64/2020/QH14 và Luật số 07/2022/QH15 (sau đây gọi chung là Luật Giá số 11/2012/QH13) hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ các quy định tại Điều 75 của Luật này.
+Điều 75. Quy định chuyển tiếp
+1. Trong thời hạn 12 tháng kể từ ngày Luật này có hiệu lực thi hành, các doanh nghiệp thẩm định giá đã được cấp giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá theo quy định tại Luật Giá số 11/2012/QH13 phải bảo đảm điều kiện kinh doanh dịch vụ thẩm định giá theo quy định tại Luật này. Sau thời hạn nêu trên mà doanh nghiệp thẩm định giá không bảo đảm điều kiện kinh doanh dịch vụ thẩm định giá theo quy định của Luật này, Bộ Tài chính thực hiện thu hồi giấy chứng nhận đủ điều kiện kinh doanh dịch vụ thẩm định giá.
+2. Người được cấp thẻ thẩm định viên về giá theo quy định của Luật Giá số 11/2012/QH13 thì được tiếp tục đăng ký hành nghề thẩm định giá trong lĩnh vực thẩm định giá tài sản và thẩm định giá doanh nghiệp theo quy định của Luật này.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 5 thông qua ngày 19 tháng 6 năm 2023.
+CHỦ TỊCH QUỐC HỘI
+Vương Đình Huệ
+PHỤ LỤC SỐ 01
+DANH MỤC HÀNG HÓA, DỊCH VỤ BÌNH ỔN GIÁ
+(Ban hành kèm theo Luật Giá số 16/2023/QH15)
+1. Xăng, dầu thành phẩm.
+2. Khí dầu mỏ hóa lỏng (LPG).
+3. Sữa dành cho trẻ em dưới 06 tuổi.
+4. Thóc tẻ, gạo tẻ.
+5. Phân đạm; phân DAP; phân NPK.
+6. Thức ăn chăn nuôi, thức ăn thủy sản.
+7. Vắc - xin phòng bệnh cho gia súc, gia cầm.
+8. Thuốc bảo vệ thực vật.
+9. Thuốc thuộc danh mục thuốc thiết yếu được sử dụng tại cơ sở khám bệnh, chữa bệnh.
+PHỤ LỤC SỐ 02
+DANH MỤC HÀNG HÓA, DỊCH VỤ DO NHÀ NƯỚC ĐỊNH GIÁ
+(Ban hành kèm theo Luật Giá số 16/2023/QH15)
+STT
+Tên hàng hóa, dịch vụ
+Thẩm quyền, hình thức định giá
+1
+Điện (bán lẻ, bán buôn); các dịch vụ về điện theo quy định của Luật Điện lực bao gồm: dịch vụ phát điện, dịch vụ truyền tải điện, dịch vụ phụ trợ hệ thống điện, dịch vụ điều độ vận hành hệ thống điện, dịch vụ điều hành giao dịch thị trường điện lực, dịch vụ phân phối điện
+Thực hiện theo quy định của pháp luật về điện lực
+2
+Dịch vụ vận chuyển khí thiên nhiên bằng đường ống cho sản xuất điện
+Bộ Công Thương định giá cụ thể
+3
+Dịch vụ điều hành giao thông vận tải đường sắt trên kết cấu hạ tầng đường sắt do nhà nước đầu tư
+Bộ Giao thông vận tải định giá tối đa
+4
+Dịch vụ sử dụng đường bộ của các dự án đầu tư xây dựng đường bộ (trừ dịch vụ sử dụng đường bộ cao tốc) để kinh doanh, do trung ương quản lý
+Bộ Giao thông vận tải định giá tối đa
+Dịch vụ sử dụng đường bộ của các dự án đầu tư xây dựng đường bộ (trừ dịch vụ sử dụng đường bộ cao tốc) để kinh doanh, do địa phương quản lý
+Ủy ban nhân dân cấp tỉnh định giá tối đa
+5
+Dịch vụ sử dụng phà được đầu tư từ nguồn vốn ngân sách nhà nước, do trung ương quản lý
+Bộ Giao thông vận tải định khung giá
+Dịch vụ sử dụng phà được đầu tư từ nguồn vốn ngân sách nhà nước, do địa phương quản lý
+Ủy ban nhân dân cấp tỉnh định khung giá
+Dịch vụ sử dụng phà được đầu tư từ nguồn vốn ngoài ngân sách nhà nước, do trung ương quản lý
+Bộ Giao thông vận tải định giá tối đa
+Dịch vụ sử dụng phà được đầu tư từ nguồn vốn ngoài ngân sách nhà nước, do địa phương quản lý
+Ủy ban nhân dân cấp tỉnh định giá tối đa
+6
+Dịch vụ tại cảng biển (bao gồm dịch vụ sử dụng cầu, bến, phao neo, dịch vụ bốc dỡ container, dịch vụ lai dắt tàu biển)
+Bộ Giao thông vận tải định khung giá
+Dịch vụ sử dụng cảng, nhà ga (bao gồm cảng, bến thủy nội địa; cảng cá) được đầu tư từ nguồn vốn ngân sách nhà nước, do trung ương quản lý
+Bộ Giao thông vận tải định giá tối đa
+Dịch vụ sử dụng cảng, nhà ga (bao gồm cảng, bến thủy nội địa; cảng cá) được đầu tư từ nguồn vốn ngân sách nhà nước, do địa phương quản lý
+Ủy ban nhân dân cấp tỉnh định giá tối đa
+Dịch vụ hoa tiêu hàng hải
+Bộ Giao thông vận tải định giá tối đa
+7
+Dịch vụ vận chuyển hành khách hàng không nội địa
+Bộ Giao thông vận tải định giá tối đa
+Dịch vụ thuê chuyên cơ, chuyên khoang chính thức (có tính đến yếu tố tàu bay dự bị) sử dụng ngân sách nhà nước
+- Bộ Tài chính định giá tối đa
+- Bộ Giao thông vận tải định giá cụ thể
+Dịch vụ cho thuê sân đậu tàu bay; dịch vụ cho thuê quầy làm thủ tục hành khách; dịch vụ cho thuê băng chuyền hành lý; dịch vụ cho thuê cầu dẫn khách lên, xuống máy bay; dịch vụ phục vụ kỹ thuật thương mại mặt đất trọn gói tại các cảng hàng không, sân bay; dịch vụ phân loại tự động hành lý đi; dịch vụ tra nạp xăng dầu hàng không; dịch vụ sử dụng hạ tầng hệ thống tra nạp ngầm cung cấp nhiên liệu tại cảng hàng không, sân bay; nhượng quyền khai thác dịch vụ hàng không tại cảng hàng không sân bay, bao gồm các dịch vụ nhượng quyền: nhà ga hành khách; nhà ga, kho hàng hóa; phục vụ kỹ thuật thương mại mặt đất; sửa chữa, bảo dưỡng phương tiện, trang thiết bị hàng không; kỹ thuật hàng không; cung cấp suất ăn hàng không; cung cấp xăng dầu hàng không
+Bộ Giao thông vận tải định khung giá
+Dịch vụ cho thuê mặt bằng cảng hàng không, sân bay và dịch vụ cơ bản thiết yếu tại cảng hàng không, sân bay
+Bộ Giao thông vận tải định khung giá
+Dịch vụ cất cánh, hạ cánh tàu bay; dịch vụ điều hành bay đi, đến; dịch vụ bảo đảm an ninh hàng không và dịch vụ điều hành bay qua vùng thông báo bay do Việt Nam quản lý; dịch vụ phục vụ hành khách tại cảng hàng không, sân bay
+Bộ Giao thông vận tải định giá cụ thể
+8
+Dịch vụ kiểm định phương tiện vận tải bao gồm: dịch vụ đăng kiểm phương tiện giao thông, các tổng thành, hệ thống linh, kiện, phụ tùng của phương tiện giao thông; phương tiện, thiết bị thăm dò, khai thác, vận chuyển trên biển; phương tiện, thiết bị xếp dỡ, thi công chuyên dùng; máy, thiết bị, vật tư có yêu cầu nghiêm ngặt về an toàn, vệ sinh lao động trong giao thông vận tải và trang bị, thiết bị kỹ thuật chuyên dùng.
+Bộ Giao thông vận tải định giá tối đa
+Dịch vụ kiểm định kỹ thuật máy móc, thiết bị, vật tư và các chất có yêu cầu nghiêm ngặt về an toàn lao động
+Bộ Lao động - Thương binh và Xã hội định khung giá
+Dịch vụ kiểm định kỹ thuật máy móc, thiết bị, vật tư và các chất có yêu cầu nghiêm ngặt về an toàn đặc thù chuyên ngành công nghiệp
+Bộ Công Thương định khung giá
+9
+Dịch vụ kết nối viễn thông
+Bộ Thông tin và Truyền thông định giá cụ thể
+10
+Dịch vụ bưu chính công ích, dịch vụ viễn thông công ích trừ các dịch vụ sử dụng ngân sách nhà nước thực hiện đặt hàng.
+Bộ Thông tin và Truyền thông định giá tối đa.
+11
+Tiền Bản quyền khi khai thác, sử dụng tác phẩm, bản ghi âm, ghi hình trong trường hợp giới hạn quyền tác giả, giới hạn quyền liên quan theo quy định của Luật Sở hữu trí tuệ
+Thực hiện theo quy định của pháp luật về sở hữu trí tuệ
+Tiền đền bù đối với quyền sử dụng sáng chế được chuyển giao theo quyết định bắt buộc của cơ quan có thẩm quyền trong trường hợp người được chuyển giao quyền sử dụng sáng chế và người nắm độc quyền sử dụng sáng chế không thỏa thuận được
+Tiền đền bù đối với quyền sử dụng giống cây trồng được chuyển giao theo quyết định bắt buộc của cơ quan có thẩm quyền
+12
+Sản phẩm, dịch vụ công ích thủy lợi đối với công trình thủy lợi sử dụng vốn nhà nước thuộc phạm vi, thẩm quyền quản lý, đặt hàng của Bộ Nông nghiệp và Phát triển nông thôn
+- Bộ Tài chính định giá tối đa
+- Bộ Nông nghiệp và Phát triển nông thôn định giá cụ thể
+Sản phẩm, dịch vụ công ích thủy lợi đối với công trình thủy lợi sử dụng vốn nhà nước thuộc phạm vi, thẩm quyền quản lý, đặt hàng của địa phương
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+13
+Sản phẩm, dịch vụ thủy lợi khác đối với công trình thủy lợi sử dụng vốn nhà nước thuộc phạm vi, thẩm quyền quản lý của Bộ Nông nghiệp và Phát triển nông thôn
+- Bộ Tài chính định khung giá
+- Bộ Nông nghiệp và Phát triển nông thôn định giá cụ thể thuộc phạm vi, thẩm quyền quản lý
+Sản phẩm, dịch vụ thủy lợi khác đối với công trình thủy lợi sử dụng vốn nhà nước thuộc phạm vi, thẩm quyền quản lý của địa phương
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+14
+Dịch vụ trong lĩnh vực chứng khoán của Sở giao dịch chứng khoán Việt Nam và các công ty con, Tổng công ty lưu ký và bù trừ chứng khoán Việt Nam
+Bộ Tài chính định khung giá, giá tối đa, giá cụ thể (tùy dịch vụ)
+15
+Nước sạch
+- Bộ Tài chính định khung giá
+- Ủy ban nhân dân cấp tỉnh định giá cụ thể
+16
+Hàng dự trữ quốc gia (trừ các trường hợp thực hiện mua theo hình thức đấu thầu rộng rãi, chào hàng cạnh tranh, mua sắm trực tiếp, bán theo hình thức đấu giá theo quy định của pháp luật về dự trữ quốc gia và hàng dự trữ quốc gia thuộc lĩnh vực quốc phòng, an ninh)
+- Bộ Tài chính định giá mua tối đa, giá bán tối thiểu đối với việc mua, bán hàng dự trữ quốc gia của các Bộ, ngành
+- Bộ, ngành quản lý hàng dự trữ quốc gia định giá cụ thể trên cơ sở giá mua tối đa, giá bán tối thiểu của Bộ Tài chính
+Hàng dự trữ quốc gia thuộc lĩnh vực quốc phòng, an ninh
+Bộ Quốc phòng, Bộ Công an định giá để thực hiện mua, bán hàng dự trữ quốc gia thuộc lĩnh vực quốc phòng, an ninh theo quy định của Luật Dự trữ quốc gia
+17
+Sản phẩm, dịch vụ công (dịch vụ sự nghiệp công và sản phẩm, dịch vụ công ích) trong danh mục được cấp có thẩm quyền ban hành, sử dụng ngân sách nhà nước và thuộc thẩm quyền đặt hàng của cơ quan, tổ chức ở trung ương
+- Bộ Tài chính định giá tối đa
+- Các cơ quan, tổ chức ở trung ương định giá cụ thể
+Sản phẩm, dịch vụ công (dịch vụ sự nghiệp công và sản phẩm, dịch vụ công ích) trong danh mục được cấp có thẩm quyền ban hành, sử dụng ngân sách nhà nước và thuộc thẩm quyền đặt hàng của cơ quan, tổ chức ở địa phương
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+18
+Dịch vụ khám bệnh, chữa bệnh thuộc phạm vi Nhà nước định giá theo quy định của pháp luật về khám bệnh, chữa bệnh.
+Thực hiện theo quy định của pháp luật về khám bệnh, chữa bệnh
+19
+Dịch vụ kiểm dịch y tế, y tế dự phòng tại cơ sở y tế công lập
+- Bộ Y tế định giá tối đa
+- Ủy ban nhân dân cấp tỉnh định giá cụ thể
+Dịch vụ điều trị nghiện chất dạng thuốc phiện tại các đơn vị sự nghiệp công lập
+- Bộ Y tế định giá tối đa
+- Ủy ban nhân dân cấp tỉnh định giá cụ thể
+20
+Máu toàn phần và chế phẩm máu đạt tiêu chuẩn
+Bộ Y tế định giá tối đa
+21
+Dịch vụ kiểm nghiệm mẫu thuốc, nguyên liệu làm thuốc tại: Đơn vị sự nghiệp công tự đảm bảo chi thường xuyên, đơn vị sự nghiệp công tự đảm bảo một phần chi thường xuyên, đơn vị sự nghiệp công do Nhà nước đảm bảo chi thường xuyên
+Bộ Y tế định giá cụ thể
+22
+Dịch vụ tiêm phòng, tiêu độc, khử trùng cho động vật, chẩn đoán thú y; dịch vụ kiểm nghiệm thuốc dùng cho động vật, thực vật
+Bộ Nông nghiệp và Phát triển nông thôn định khung giá
+23
+Sách giáo khoa
+Bộ Giáo dục và Đào tạo định giá tối đa
+24
+Học phí, dịch vụ trong lĩnh vực giáo dục, đào tạo tại cơ sở giáo dục mầm non, phổ thông công lập thuộc phạm vi Nhà nước định giá theo quy định của pháp luật về giáo dục
+Thực hiện theo quy định của pháp luật về giáo dục
+Học phí, dịch vụ trong lĩnh vực giáo dục, đào tạo tại cơ sở giáo dục đại học công lập thuộc phạm vi Nhà nước định giá theo quy định của pháp luật về giáo dục và pháp luật về giáo dục đại học
+Thực hiện theo quy định của pháp luật về giáo dục và pháp luật về giáo dục đại học
+Học phí, dịch vụ trong lĩnh vực giáo dục, đào tạo tại cơ sở giáo dục nghề nghiệp công lập thuộc phạm vi Nhà nước định giá theo quy định của pháp luật về giáo dục nghề nghiệp
+Thực hiện theo quy định của pháp luật về giáo dục nghề nghiệp
+25
+Dịch vụ môi giới theo hợp đồng môi giới đưa người lao động đi làm việc ở nước ngoài; dịch vụ đưa người lao động đi làm việc ở nước ngoài
+Bộ Lao động - Thương binh và Xã hội định giá tối đa
+26
+Nhà ở công vụ
+Thực hiện theo quy định của pháp luật về nhà ở
+Nhà ở xã hội theo quy định của Luật Nhà ở
+Dịch vụ quản lý vận hành nhà chung cư đối với nhà chung cư thuộc sở hữu nhà nước trên địa bàn
+Nhà ở, dịch vụ khác thuộc phạm vi Nhà nước định giá theo quy định của Luật Nhà ở
+27
+Hàng hóa, dịch vụ phục vụ nhiệm vụ quốc phòng an ninh thực hiện đặt hàng, giao nhiệm vụ cho các đơn vị, doanh nghiệp quốc phòng an ninh
+Bộ Quốc phòng, Bộ Công an định giá cụ thể theo thẩm quyền
+28
+Dịch vụ đấu giá tài sản mà pháp luật quy định phải bán thông qua đấu giá
+Bộ Tư pháp định khung giá
+29
+Dịch vụ sự nghiệp công sử dụng ngân sách nhà nước tính giá theo lộ trình thu của người sử dụng dịch vụ
+Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh theo lĩnh vực định giá khung giá, giá tối đa, giá cụ thể tùy dịch vụ
+30
+Sản phẩm, dịch vụ gia tăng sử dụng thông tin từ cơ sở dữ liệu, hệ thống thông tin do bộ, ngành quản lý theo yêu cầu của tổ chức, cá nhân (không bao gồm các dịch vụ được thu phí, lệ phí theo quy định của pháp luật về phí và lệ phí)
+Bộ, ngành được giao quản lý cơ sở dữ liệu, hệ thống thông tin quyết định giá cụ thể, giá tối đa, khung gia (tùy dịch vụ)
+31
+Đất thuộc phạm vi Nhà nước định giá theo quy định của pháp luật về đất đai
+Thực hiện theo quy định của pháp luật đất đai
+32
+Rừng đặc dụng, rừng phòng hộ, rừng sản xuất thuộc sở hữu toàn dân thuộc phạm vi quản lý của địa phương
+Ủy ban nhân dân cấp tỉnh định khung giá
+33
+Dịch vụ đo đạc, lập bản đồ địa chính trong trường hợp cơ quan nhà nước có thẩm quyền giao đất, cho thuê đất mới hoặc cho phép thực hiện việc chuyển mục đích sử dụng đất ở những nơi chưa có bản đồ địa chính có tọa độ
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+34
+Dịch vụ nghĩa trang, dịch vụ hỏa táng của cơ sở hỏa táng được đầu tư từ nguồn vốn ngân sách nhà nước
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+35
+Dịch vụ ra, vào bến xe ô tô
+Ủy ban nhân dân cấp tỉnh định giá tối đa
+36
+Dịch vụ vận tải hành khách, hành lý trên đường sắt đô thị
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+37
+Dịch vụ thu gom, vận chuyển, xử lý chất thải rắn sinh hoạt
+Ủy ban nhân dân cấp tỉnh định giá tối đa áp dụng đối với chủ đầu tư, cơ sở thu gom, vận chuyển và xử lý chất thải rắn sinh hoạt; định giá cụ thể đối với cơ quan, tổ chức, cơ sở sản xuất, kinh doanh, dịch vụ, khu sản xuất, kinh doanh, dịch vụ tập trung, cụm công nghiệp, hộ gia đình, cá nhân
+38
+Dịch vụ thoát nước và xử lý nước thải (trừ giá dịch vụ thoát nước và xử lý nước thải đối khu công nghiệp, cụm công nghiệp được đầu tư bằng nguồn vốn ngoài ngân sách nhà nước)
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+39
+Dịch vụ trông giữ xe được đầu tư bằng nguồn vốn ngân sách nhà nước
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+40
+Dịch vụ thuê công trình hạ tầng kỹ thuật dùng chung đầu tư từ nguồn ngân sách nhà nước
+Ủy ban nhân dân cấp tỉnh định giá cụ thể
+41
+Dịch vụ theo yêu cầu liên quan đến việc công chứng
+Ủy ban nhân dân cấp tỉnh định giá tối đa
+42
+Dịch vụ sử dụng diện tích bán hàng tại chợ được đầu tư từ nguồn vốn nhà nước
+Ủy ban nhân dân cấp tỉnh định giá cụ thể

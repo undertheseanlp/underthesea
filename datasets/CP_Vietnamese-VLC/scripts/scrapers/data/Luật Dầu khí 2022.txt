@@ -1,0 +1,671 @@
+QUỐC HỘI --------
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM Độc lập - Tự do - Hạnh phúc ---------------
+Luật số: 12/2022/QH15
+Hà Nội, ngày 14 tháng 11 năm 2022
+LUẬT
+DẦU KHÍ
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+Quốc hội ban hành Luật Dầu khí.
+Chương I
+NHỮNG QUY ĐỊNH CHUNG
+Điều 1. Phạm vi điều chỉnh
+Luật này quy định về điều tra cơ bản về dầu khí và hoạt động dầu khí trong phạm vi đất liền, hải đảo và vùng biển của nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+Điều 2. Đối tượng áp dụng
+Luật này áp dụng đối với cơ quan, tổ chức, cá nhân Việt Nam và nước ngoài có liên quan đến điều tra cơ bản về dầu khí và hoạt động dầu khí.
+Điều 3. Giải thích từ ngữ
+Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+1. Dầu khí bao gồm dầu thô, khí thiên nhiên và hydrocarbon ở thể rắn hoặc nửa rắn trong trạng thái tự nhiên, dầu khí phi truyền thống. Dầu khí phi truyền thống bao gồm khí than, dầu đá phiến hoặc dầu sét, khí đá phiến hoặc khí sét, băng cháy, bitum hoặc các dạng khác có thể tồn tại.
+2. Điều tra cơ bản về dầu khí là hoạt động nghiên cứu, khảo sát, điều tra về thành tạo địa chất và thành phần vật chất, các điều kiện và quy luật sinh dầu khí nhằm đánh giá tiềm năng, triển vọng dầu khí làm cơ sở cho việc định hướng hoạt động tìm kiếm thăm dò dầu khí.
+3. Hoạt động dầu khí bao gồm hoạt động tìm kiếm thăm dò dầu khí, phát triển mỏ dầu khí, khai thác dầu khí, thu dọn công trình dầu khí.
+4. Hợp đồng dầu khí là sự thỏa thuận bằng văn bản được ký kết giữa Tập đoàn Dầu khí Việt Nam với nhà thầu để tiến hành hoạt động dầu khí.
+5. Hợp đồng chia sản phẩm dầu khí là hợp đồng dầu khí, trong đó có quy định việc chia sản phẩm giữa các bên trong hợp đồng trên cơ sở sản lượng có được từ hoạt động dầu khí trong diện tích hợp đồng tương ứng; nhà thầu được quyền thu hồi các chi phí từ sản lượng khai thác, chịu trách nhiệm mọi mặt về tài chính, kỹ thuật và tự chịu rủi ro.
+6. Băng cháy là hỗn hợp hydrocarbon và nước ở thể rắn trong trạng thái tự nhiên, tồn tại dưới dạng tinh thể đóng băng.
+7. Công trình dầu khí bao gồm giàn khoan, giàn khai thác, giàn phụ trợ, kho chứa, kho chứa nổi, hệ thống đường ống, phao neo, giếng và tổ hợp các phương tiện, máy móc, thiết bị có liên quan, các kết cấu công trình được chế tạo, xây dựng, chôn ngầm và lắp đặt cố định hoặc tạm thời để phục vụ cho hoạt động dầu khí.
+8. Dầu đá phiến hoặc dầu sét là hydrocarbon ở thể lỏng trong trạng thái tự nhiên, được chứa trong các vỉa đá phiến hoặc sét kết.
+9. Dầu khí tại chỗ ban đầu là lượng dầu khí tồn tại ban đầu trong các tích tụ tự nhiên đã hoặc chưa được phát hiện bằng giếng khoan, được tính toán hoặc dự báo.
+10. Dầu thô là hydrocarbon ở thể lỏng trong trạng thái tự nhiên, asphalt, ozokerite và condensate. Condensate là hydrocarbon lỏng thu được từ khí thiên nhiên bằng phương pháp ngưng tụ hoặc chiết xuất.
+11. Dịch vụ dầu khí là các hoạt động dịch vụ thương mại, kỹ thuật, công nghệ phục vụ cho điều tra cơ bản về dầu khí và hoạt động dầu khí.
+12. Dự án dầu khí là dự án độc lập hoặc tập hợp của nhiều dự án thành phần được hình thành để thực hiện hoạt động dầu khí.
+13. Hệ số thu hồi dầu khí là tỷ lệ giữa lượng dầu khí có thể thu hồi được so với lượng dầu khí tại chỗ ban đầu của mỏ, vỉa chứa.
+14. Kế hoạch đại cương phát triển mỏ dầu khí là tài liệu trình bày các nội dung nghiên cứu đại cương về sự cần thiết, tính khả thi và hiệu quả sơ bộ của dự án phát triển mỏ dầu khí nhằm lựa chọn phương án phát triển mỏ phù hợp, có tính đến khả năng phát triển mở rộng của mỏ hoặc khu vực (nếu có) trong tương lai.
+15. Kế hoạch khai thác sớm mỏ dầu khí là tài liệu trình bày các nội dung nghiên cứu về sự cần thiết, mức độ khả thi và hiệu quả của phương án phát triển sớm mỏ dầu khí để đồng thời khai thác dầu khí và thu thập bổ sung thông tin về mỏ, vỉa chứa hoặc động thái khai thác với mục tiêu tối ưu hóa việc phát triển mỏ dầu khí.
+16. Kế hoạch phát triển mỏ dầu khí là tài liệu trình bày các nội dung nghiên cứu về sự cần thiết, mức độ khả thi và hiệu quả của phương án phát triển mỏ dầu khí đã được lựa chọn làm cơ sở tiến hành phát triển mỏ dầu khí.
+17. Kế hoạch thu dọn công trình dầu khí là tài liệu trình bày các nội dung nghiên cứu về phương án, giải pháp kỹ thuật, công nghệ, môi trường, chi phí, tiến độ thực hiện thu dọn công trình dầu khí.
+18. Khai thác dầu khí là hoạt động được tiến hành nhằm thu hồi dầu khí từ mỏ dầu khí.
+19. Khí đá phiến hoặc khí sét là hydrocarbon ở thể khí trong trạng thái tự nhiên, được chứa trong các vỉa đá phiến hoặc sét kết.
+20. Khí đồng hành là hydrocarbon ở thể khí được tách ra trong quá trình khai thác và xử lý dầu thô.
+21. Khí than là hydrocarbon, thành phần chính là methan ở thể khí được chứa trong các vỉa than.
+22. Khí thiên nhiên là hydrocarbon ở thể khí trong trạng thái tự nhiên, khai thác từ giếng khoan, bao gồm cả khí đồng hành.
+23. Lô dầu khí là phần diện tích được giới hạn bởi các điểm có tọa độ địa lý xác định, được phân định để tiến hành hoạt động dầu khí.
+24. Lô dầu khí mở là lô dầu khí hiện không có hợp đồng dầu khí.
+25. Mỏ dầu khí là tổ hợp các thành tạo địa chất trong lòng đất đã được xác định có một hoặc nhiều thân chứa, vỉa chứa hoặc tầng chứa được đánh giá có dầu khí.
+26. Mỏ dầu khí cận biên là mỏ dầu khí chưa thể phát triển khai thác do hiệu quả đầu tư tiệm cận dưới mức tối thiểu với trình độ công nghệ và các điều kiện kinh tế, kỹ thuật thông thường tại thời điểm đánh giá.
+27. Người điều hành là tổ chức đại diện cho các bên nhà thầu tham gia hợp đồng dầu khí để điều hành hoạt động dầu khí trong phạm vi được ủy quyền theo quy định của hợp đồng dầu khí.
+28. Nhà thầu là nhà đầu tư được tiến hành hoạt động dầu khí trên cơ sở hợp đồng dầu khí.
+29. Phát hiện dầu khí là tích tụ dầu khí được phát hiện bằng giếng khoan.
+30. Phát triển mỏ dầu khí là hoạt động lập kế hoạch, thiết kế, mua sắm, chế tạo, xây dựng, lắp đặt công trình dầu khí để khai thác dầu khí.
+31. Quyền lợi tham gia là quyền, lợi ích, nghĩa vụ và trách nhiệm của nhà thầu trong hợp đồng dầu khí. Phần quyền lợi tham gia của mỗi bên nhà thầu tại từng thời điểm được biểu thị bằng tỷ lệ phần trăm, được ghi trong hợp đồng dầu khí và giấy chứng nhận đăng ký đầu tư.
+32. Tập đoàn Dầu khí Việt Nam là doanh nghiệp nhà nước có tên giao dịch quốc tế là VIETNAM OIL AND GAS GROUP, gọi tắt là PETROVIETNAM, viết tắt là PVN.
+33. Tìm kiếm thăm dò dầu khí là hoạt động được tiến hành nhằm phát hiện các tích tụ dầu khí, thẩm lượng các tích tụ dầu khí đó.
+34. Thông lệ công nghiệp dầu khí quốc tế là các chuẩn mực, tiêu chuẩn, phương pháp, thủ tục đã được chấp nhận và sử dụng phổ biến bởi các nhà đầu tư dầu khí, các nước tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí trên thế giới.
+35. Thu dọn công trình dầu khí là hoạt động được tiến hành để phá bỏ, dỡ đi, phá hủy, hoán cải, bảo quản tạm thời, lâu dài hoặc các biện pháp kỹ thuật khác phù hợp với quy định của pháp luật và thông lệ công nghiệp dầu khí quốc tế đối với các công trình dầu khí không còn cần thiết cho hoạt động dầu khí.
+36. Thu hồi chi phí là việc nhận lại các khoản chi phí đã thực hiện để triển khai hoạt động dầu khí từ sản lượng khai thác dầu khí tại diện tích hợp đồng dầu khí được phép thu hồi theo quy định của hợp đồng dầu khí.
+37. Trữ lượng dầu khí là lượng dầu khí dự kiến có thể thu hồi thương mại từ dầu khí tại chỗ ban đầu của mỏ với điều kiện kinh tế, kỹ thuật nhất định.
+38. Tuyên bố phát hiện thương mại là thông báo bằng văn bản của nhà thầu gửi Tập đoàn Dầu khí Việt Nam về việc phát hiện dầu khí có thể khai thác có hiệu quả kinh tế.
+Điều 4. Áp dụng Luật Dầu khí, các luật có liên quan, pháp luật nước ngoài, thông lệ công nghiệp dầu khí quốc tế
+1. Trường hợp có quy định khác nhau giữa Luật Dầu khí và luật khác về cùng một vấn đề cụ thể liên quan đến điều tra cơ bản về dầu khí và hoạt động dầu khí thì áp dụng Luật Dầu khí, bao gồm:
+a) Thẩm quyền, trình tự, thủ tục đầu tư dự án dầu khí;
+b) Thẩm quyền phê duyệt của Hội đồng thành viên Tập đoàn Dầu khí Việt Nam và trách nhiệm của Ủy ban Quản lý vốn nhà nước tại doanh nghiệp tham gia ý kiến về việc sử dụng vốn của Tập đoàn Dầu khí Việt Nam, doanh nghiệp 100% vốn của Tập đoàn Dầu khí Việt Nam khi thực hiện quyền tham gia vào hợp đồng dầu khí, quyền ưu tiên mua trước quyền lợi tham gia trong hợp đồng dầu khí và khi thực hiện hoạt động dầu khí theo các giai đoạn của hợp đồng dầu khí, dự án dầu khí; việc tham gia của Tập đoàn Dầu khí Việt Nam với doanh nghiệp có vốn góp của Tập đoàn Dầu khí Việt Nam vào các hợp đồng dầu khí; nguyên tắc xử lý chi phí; quản lý, sử dụng thông tin, dữ liệu, tài liệu, mẫu vật, công trình dầu khí và tài sản khác đã được lắp đặt, đầu tư của hợp đồng dầu khí đã kết thúc để tiếp tục triển khai hoạt động dầu khí, thu dọn công trình dầu khí đã tiếp nhận và xử lý thu dọn;
+c) Việc lựa chọn nhà thầu ký kết hợp đồng dầu khí.
+2. Luật khác ban hành sau ngày Luật này có hiệu lực thi hành nếu quy định về thẩm quyền, trình tự, thủ tục, điều kiện để thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí khác với quy định của Luật Dầu khí thì phải xác định cụ thể nội dung thực hiện hoặc không thực hiện theo quy định của Luật Dầu khí, nội dung thực hiện theo quy định của luật khác đó.
+3. Trong trường hợp pháp luật Việt Nam không có quy định, các bên có thể thỏa thuận trong hợp đồng dầu khí việc áp dụng pháp luật nước ngoài hoặc thông lệ công nghiệp dầu khí quốc tế nếu hậu quả của việc áp dụng đó không trái với các nguyên tắc cơ bản của pháp luật Việt Nam.
+Điều 5. Chính sách của Nhà nước về dầu khí
+1. Nhà nước khuyến khích tổ chức, cá nhân Việt Nam và nước ngoài đầu tư để tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí tại Việt Nam nhằm gia tăng trữ lượng và sản lượng khai thác dầu khí tại các khu vực tiềm năng, các vùng nước sâu, xa bờ, góp phần bảo đảm an ninh năng lượng quốc gia, phát triển kinh tế đất nước và bảo vệ quyền và lợi ích chính đáng của Việt Nam phù hợp với pháp luật quốc tế.
+2. Nhà nước bảo đảm quyền sở hữu đối với vốn đầu tư, tài sản và các quyền và lợi ích hợp pháp khác của tổ chức, cá nhân Việt Nam và nước ngoài tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí tại Việt Nam.
+3. Nhà nước không thu tiền sử dụng khu vực biển để điều tra cơ bản về dầu khí và hoạt động dầu khí, xử lý, vận chuyển tài nguyên dầu khí khai thác được trong các vùng biển của Việt Nam về bờ bằng đường ống theo hợp đồng dầu khí.
+4. Nhà nước có chính sách ưu đãi đầu tư đối với dự án dầu khí theo lô, mỏ dầu khí nhằm khuyến khích tìm kiếm thăm dò, phát triển, khai thác dầu khí phi truyền thống, các lô, mỏ dầu khí nằm ở vùng nước sâu, xa bờ, khu vực có điều kiện địa lý đặc biệt khó khăn, địa chất phức tạp, các mỏ dầu khí cận biên; nâng cao hệ số thu hồi dầu khí.
+5. Nhà nước khuyến khích tổ chức, cá nhân Việt Nam và nước ngoài chia sẻ và tiếp cận, sử dụng cơ sở hạ tầng, công trình dầu khí để thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí theo thỏa thuận.
+Điều 6. Nguyên tắc thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí
+1. Tài nguyên dầu khí của Việt Nam thuộc sở hữu toàn dân, do Nhà nước đại diện chủ sở hữu và thống nhất quản lý.
+2. Tổ chức, cá nhân tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí trên cơ sở tôn trọng độc lập, chủ quyền, toàn vẹn lãnh thổ, quyền chủ quyền, quyền tài phán, bảo đảm lợi ích và an ninh quốc gia của Việt Nam, tuân thủ pháp luật Việt Nam và điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+3. Tổ chức, cá nhân tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí phải tuân thủ quy định của pháp luật Việt Nam về quốc phòng, an ninh quốc gia, trật tự, an toàn xã hội, sức khỏe của cộng đồng, bảo vệ môi trường, ứng phó với biến đổi khí hậu, ứng phó sự cố tràn dầu, bảo vệ tài nguyên, di sản văn hóa và bảo tồn di tích lịch sử - văn hóa, danh lam thắng cảnh.
+4. Tổ chức, cá nhân tiến hành điều tra cơ bản về dầu khí và hoạt động dầu khí phải sử dụng kỹ thuật, công nghệ hiện đại, tuân thủ quy chuẩn kỹ thuật quốc gia, áp dụng các tiêu chuẩn phù hợp với quy định của pháp luật Việt Nam và thông lệ công nghiệp dầu khí quốc tế.
+5. Tổ chức, cá nhân tiến hành hoạt động dầu khí phải mua bảo hiểm đối với công trình, thiết bị, phương tiện phục vụ hoạt động dầu khí, bảo hiểm trách nhiệm bồi thường thiệt hại về môi trường, bảo hiểm trách nhiệm dân sự đối với bên thứ ba, bảo hiểm con người, bảo hiểm khác theo quy định của pháp luật Việt Nam và thông lệ công nghiệp dầu khí quốc tế.
+6. Toàn bộ mẫu vật, tài liệu, thông tin, dữ liệu thu được trong quá trình thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí do Nhà nước quản lý. Việc thu thập, giao nộp, quản lý, sử dụng, bảo mật các mẫu vật, tài liệu, thông tin, dữ liệu thu được trong quá trình triển khai điều tra cơ bản về dầu khí và hoạt động dầu khí phải tuân thủ các quy định của pháp luật Việt Nam, thỏa thuận thực hiện điều tra cơ bản về dầu khí và hợp đồng dầu khí.
+Điều 7. Cơ sở tiến hành hoạt động dầu khí
+1. Hoạt động dầu khí thực hiện trên cơ sở hợp đồng dầu khí được ký kết đối với các lô dầu khí theo danh mục được Thủ tướng Chính phủ phê duyệt, trừ trường hợp khai thác tận thu mỏ, cụm mỏ, lô dầu khí theo quy định tại điểm c khoản 2 và điểm b khoản 3 Điều 41 của Luật này.
+2. Thủ tướng Chính phủ phê duyệt danh mục các lô dầu khí và danh mục các lô dầu khí điều chỉnh trên cơ sở đề xuất của Tập đoàn Dầu khí Việt Nam và kết quả thẩm định, báo cáo của Bộ Công Thương.
+3. Chính phủ quy định về hồ sơ, trình tự, thủ tục thẩm định, phê duyệt danh mục các lô dầu khí, danh mục các lô dầu khí điều chỉnh.
+Điều 8. Yêu cầu về an toàn dầu khí
+1. Tổ chức, cá nhân tiến hành hoạt động dầu khí phải thiết lập vùng an toàn xung quanh công trình dầu khí.
+2. Vùng an toàn xung quanh công trình dầu khí trên biển bao gồm:
+a) Vùng cấm xâm nhập đối với các công trình dầu khí trên biển, ngoại trừ các công trình ngầm, là vùng được xác định bằng bán kính 500 mét tính từ rìa ngoài cùng của các công trình về mọi phía bao gồm cả vị trí thả neo đối với các phương tiện nổi, công trình di động, trừ trường hợp đặc biệt do Thủ tướng Chính phủ quyết định;
+b) Vùng cấm thả neo hoặc tiến hành các hoạt động ngầm dưới đáy biển là vùng được xác định trong phạm vi 02 hải lý tính từ rìa ngoài cùng của công trình dầu khí bao gồm cả các công trình ngầm dưới đáy biển; các phương tiện, tàu thuyền không được thả neo hoặc tiến hành các hoạt động ngầm dưới đáy biển, trừ trường hợp đặc biệt do nhà thầu chấp thuận hoặc Thủ tướng Chính phủ quyết định.
+3. Vùng an toàn xung quanh công trình dầu khí trên đất liền là vùng an toàn được xác định xung quanh các công trình, thiết bị phục vụ hoạt động dầu khí trên đất liền, tùy thuộc vào điều kiện địa lý, xã hội của nơi tiến hành hoạt động dầu khí, vì mục đích bảo đảm an toàn cho con người và phương tiện trong quá trình triển khai hoạt động dầu khí.​
+4. Tổ chức, cá nhân tiến hành hoạt động dầu khí phải thực hiện các công việc bảo đảm an toàn dầu khí sau đây:
+a) Xây dựng các tài liệu về quản lý an toàn, bao gồm chương trình quản lý an toàn, báo cáo đánh giá rủi ro, kế hoạch ứng cứu khẩn cấp trình cơ quan quản lý nhà nước có thẩm quyền phê duyệt;
+b) Thiết lập, duy trì và phát triển hệ thống quản lý an toàn bảo đảm kiểm soát các rủi ro trong toàn bộ hoạt động dầu khí;
+c) Thiết lập và duy trì hệ thống ứng cứu khẩn cấp hiệu quả, giảm thiểu thiệt hại khi xảy ra các sự cố, tai nạn gây nguy hại cho người, môi trường hoặc tài sản;
+d) Trang bị hệ thống cảnh báo có khả năng phát hiện tình huống xấu có thể xảy ra gây nguy hiểm cho công trình, môi trường và tự động thông báo, thông tin cho trung tâm điều hành đối với các công trình dầu khí trên biển không có người làm việc thường xuyên;
+đ) Có tàu trực để bảo đảm ứng cứu kịp thời trong trường hợp khẩn cấp đối với các công trình dầu khí trên biển có người làm việc thường xuyên. Người điều hành hoạt động dầu khí ở các khu vực mỏ hoặc lô dầu khí lân cận có thể phối hợp sử dụng chung tàu trực nhưng phải bảo đảm có tàu trực liên tục để ứng cứu kịp thời trong trường hợp khẩn cấp.
+5. Chính phủ quy định chi tiết Điều này.
+Điều 9. Các hành vi bị nghiêm cấm trong điều tra cơ bản về dầu khí và hoạt động dầu khí
+1. Thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí khi chưa được cơ quan quản lý nhà nước có thẩm quyền cho phép.
+2. Lợi dụng điều tra cơ bản về dầu khí và hoạt động dầu khí làm ảnh hưởng đến quốc phòng, an ninh, lợi ích quốc gia, quyền và lợi ích hợp pháp của tổ chức, cá nhân; gây ô nhiễm môi trường.
+3. Lợi dụng điều tra cơ bản về dầu khí và hoạt động dầu khí để khai thác tài nguyên, khoáng sản khác.
+4. Cản trở các hoạt động hợp pháp trong điều tra cơ bản về dầu khí và hoạt động dầu khí.
+5. Cố ý phá hoại tài sản, thiết bị, công trình dầu khí; hủy hoại mẫu vật, thông tin, dữ liệu thu được trong quá trình điều tra cơ bản về dầu khí và hoạt động dầu khí.
+6. Cung cấp trái pháp luật mẫu vật, thông tin, dữ liệu thu được từ điều tra cơ bản về dầu khí và hoạt động dầu khí.
+7. Tham nhũng, thất thoát, lãng phí trong thực hiện điều tra cơ bản về dầu khí và hoạt động dầu khí.
+Chương II
+ĐIỀU TRA CƠ BẢN VỀ DẦU KHÍ
+Điều 10. Tổ chức thực hiện điều tra cơ bản về dầu khí
+1. Căn cứ chiến lược, quy hoạch về năng lượng, tài nguyên khoáng sản và đề xuất của các tổ chức đáp ứng điều kiện quy định tại Điều 12 của Luật này, Bộ Công Thương chủ trì, phối hợp với Bộ Tài nguyên và Môi trường và các Bộ, cơ quan có liên quan xây dựng danh mục đề án điều tra cơ bản về dầu khí bảo đảm tính tổng thể, đồng bộ trình Thủ tướng Chính phủ phê duyệt. Trong danh mục đề án điều tra cơ bản về dầu khí có các nội dung về tổ chức chủ trì thực hiện, nguồn kinh phí và dự toán kinh phí thực hiện, thời gian thực hiện, hình thức tổ chức thực hiện điều tra cơ bản về dầu khí.
+Trường hợp đề xuất thực hiện điều tra cơ bản về dầu khí tại khu vực đã được giao thực hiện công tác điều tra cơ bản địa chất về khoáng sản hoặc thăm dò, khai thác khoáng sản theo quy định của pháp luật về khoáng sản, Thủ tướng Chính phủ quyết định việc phối hợp thực hiện giữa các tổ chức, cá nhân liên quan trên cơ sở bảo đảm hiệu quả cao nhất, tối đa lợi ích quốc gia.
+2. Kinh phí thực hiện điều tra cơ bản về dầu khí được bố trí trong dự toán ngân sách nhà nước, kinh phí của Tập đoàn Dầu khí Việt Nam, kinh phí của tổ chức, cá nhân.
+3. Hình thức tổ chức thực hiện đề án điều tra cơ bản về dầu khí bao gồm:
+a) Giao nhiệm vụ trong trường hợp cơ quan, doanh nghiệp nhà nước chủ trì thực hiện đề án;
+b) Thỏa thuận giữa Tập đoàn Dầu khí Việt Nam với tổ chức khác trong trường hợp tổ chức đó chủ trì thực hiện đề án.
+4. Căn cứ danh mục đề án điều tra cơ bản về dầu khí được phê duyệt, Bộ Công Thương chủ trì, phối hợp với Bộ Tài nguyên và Môi trường và các Bộ, cơ quan có liên quan thực hiện các nhiệm vụ sau đây:
+a) Phê duyệt đề cương chi tiết, dự toán chi phí để thực hiện đề án điều tra cơ bản về dầu khí; phê duyệt nội dung thỏa thuận giữa Tập đoàn Dầu khí Việt Nam với tổ chức chủ trì thực hiện điều tra cơ bản về dầu khí trong trường hợp quy định tại điểm b khoản 3 Điều này;
+b) Hướng dẫn tổ chức thực hiện đề án điều tra cơ bản về dầu khí; kiểm tra, giám sát việc thực hiện đề án điều tra cơ bản về dầu khí;
+c) Nghiệm thu, phê duyệt kết quả thực hiện đề án điều tra cơ bản về dầu khí;
+d) Thẩm định nội dung chi và phê duyệt quyết toán kinh phí từ nguồn ngân sách nhà nước (nếu có), nội dung chi của Tập đoàn Dầu khí Việt Nam (nếu có) thực hiện đề án điều tra cơ bản về dầu khí.
+5. Báo cáo kết quả điều tra cơ bản về dầu khí được cập nhật vào hệ thống cơ sở dữ liệu quốc gia về địa chất và khoáng sản.
+6. Chính phủ quy định chi tiết Điều này.
+Điều 11. Nội dung điều tra cơ bản về dầu khí
+1. Nghiên cứu, khảo sát địa chất, địa vật lý, điều tra về thành tạo địa chất và thành phần vật chất, khoan thông số để thu thập số liệu và lấy mẫu, lập báo cáo, xây dựng bản đồ địa chất, địa vật lý khu vực và các bản đồ chuyên đề phục vụ hoạt động tìm kiếm thăm dò dầu khí, kết hợp nghiên cứu tai biến địa chất, địa chất môi trường và khoáng sản khác, lập các bản đồ chuyên đề liên quan.
+2. Tìm kiếm các dấu hiệu về dầu khí, đánh giá tiềm năng, triển vọng dầu khí, khoanh định và phân loại theo đối tượng, nhóm thành tạo địa chất nhằm xác định khu vực có dầu khí mới, định hướng hoạt động tìm kiếm thăm dò dầu khí.
+Điều 12. Điều kiện thực hiện điều tra cơ bản về dầu khí
+1. Tổ chức chủ trì thực hiện điều tra cơ bản về dầu khí phải có đủ năng lực tài chính, kỹ thuật và kinh nghiệm trong điều tra cơ bản về dầu khí theo quy định của Chính phủ.
+2. Tổ chức không đáp ứng đủ điều kiện thì phải liên danh với tổ chức khác, cá nhân để có đủ điều kiện thực hiện điều tra cơ bản về dầu khí theo quy định tại khoản 1 Điều này.
+3. Cá nhân tham gia thực hiện điều tra cơ bản về dầu khí phải liên danh với tổ chức để có đủ điều kiện thực hiện điều tra cơ bản về dầu khí theo quy định tại khoản 1 Điều này.
+Điều 13. Quyền và nghĩa vụ của tổ chức thực hiện điều tra cơ bản về dầu khí
+1. Tổ chức thực hiện điều tra cơ bản về dầu khí có các nghĩa vụ sau đây:
+a) Tuân thủ nội dung đề án đã được phê duyệt;
+b) Bảo đảm tính trung thực, đầy đủ trong việc thu thập, tổng hợp tài liệu, thông tin về địa chất dầu khí; bảo mật thông tin trong quá trình điều tra cơ bản về dầu khí;
+c) Bảo vệ khoáng sản và tài nguyên khác trong quá trình điều tra cơ bản về dầu khí;
+d) Nộp báo cáo kết quả điều tra cơ bản về dầu khí về Bộ Tài nguyên và Môi trường để cập nhật vào hệ thống cơ sở dữ liệu quốc gia về địa chất và khoáng sản.
+2. Tổ chức thực hiện điều tra cơ bản về dầu khí có quyền chuyển ra nước ngoài các tài liệu thu được trong quá trình điều tra cơ bản về dầu khí, các loại mẫu vật với khối lượng và chủng loại phù hợp với tính chất và yêu cầu để phân tích, xử lý thử nghiệm theo đề án đã được phê duyệt và tuân thủ quy định của pháp luật về bảo vệ bí mật nhà nước và quy định khác của pháp luật có liên quan.
+3. Tổ chức ngoài cơ quan, doanh nghiệp nhà nước thực hiện điều tra cơ bản về dầu khí có quyền quy định tại khoản 2 Điều này và các quyền sau đây:
+a) Quản lý việc khai thác, sử dụng thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí theo thỏa thuận được phê duyệt;
+b) Sử dụng thông tin theo cam kết bảo mật tài liệu, được đề xuất thu hồi chi phí khi tham gia đấu thầu, ký kết hợp đồng dầu khí tại lô dầu khí trong khu vực đã thực hiện điều tra cơ bản theo đề án.
+Điều 14. Quản lý, khai thác, sử dụng mẫu vật, tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí
+1. Cơ quan, doanh nghiệp nhà nước chủ trì thực hiện điều tra cơ bản về dầu khí quản lý mẫu vật, tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí do mình thực hiện; tổ chức khác chủ trì thực hiện điều tra cơ bản về dầu khí nộp mẫu vật, tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí đã được phê duyệt về Tập đoàn Dầu khí Việt Nam để quản lý.
+2. Tổ chức, cá nhân được khai thác và sử dụng các tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí để nghiên cứu, đánh giá, đề xuất ký kết hợp đồng dầu khí và phải trả phí khai thác và sử dụng tài liệu dầu khí theo quy định của pháp luật về phí và lệ phí hoặc theo thỏa thuận được phê duyệt.
+3. Tổ chức, cá nhân tiếp cận, tham khảo, khai thác và sử dụng các tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí phải bảo mật thông tin theo quy định của pháp luật và thỏa thuận.
+4. Chính phủ quy định chi tiết Điều này.
+Chương III
+LỰA CHỌN NHÀ THẦU KÝ KẾT HỢP ĐỒNG DẦU KHÍ
+Điều 15. Hình thức lựa chọn nhà thầu
+Việc lựa chọn nhà thầu ký kết hợp đồng dầu khí tại lô dầu khí mở được thực hiện thông qua một trong các hình thức sau đây:
+1. Đấu thầu rộng rãi;
+2. Đấu thầu hạn chế;
+3. Chào thầu cạnh tranh;
+4. Chỉ định thầu.
+Điều 16. Điều kiện tham gia đấu thầu lựa chọn nhà thầu
+Tổ chức, cá nhân tham gia đấu thầu lựa chọn nhà thầu ký kết hợp đồng dầu khí phải đáp ứng các điều kiện sau đây:
+1. Tổ chức có đăng ký thành lập, hoạt động được cấp theo quy định pháp luật của quốc gia bên dự thầu; cá nhân có năng lực hành vi dân sự đầy đủ theo quy định pháp luật của quốc gia mà cá nhân đó là công dân;
+2. Có đủ năng lực tài chính, kỹ thuật và kinh nghiệm trong hoạt động dầu khí; trường hợp tổ chức, cá nhân không đáp ứng điều kiện này thì phải liên danh với các tổ chức, cá nhân khác để có đủ điều kiện tham gia đấu thầu.
+Điều 17. Kế hoạch lựa chọn nhà thầu
+1. Kế hoạch lựa chọn nhà thầu được lập cho một hoặc một số lô dầu khí thuộc danh mục lô dầu khí được phê duyệt theo quy định tại khoản 2 Điều 7 của Luật này để triển khai thực hiện việc lựa chọn nhà thầu ký kết hợp đồng dầu khí.
+2. Nội dung chính của Kế hoạch lựa chọn nhà thầu bao gồm:
+a) Danh mục lô dầu khí và hình thức lựa chọn nhà thầu đối với từng lô dầu khí;
+b) Đánh giá sơ bộ tiềm năng dầu khí của từng lô dầu khí;
+c) Thời gian tiến hành;
+d) Tiêu chí lựa chọn nhà thầu;
+đ) Phương pháp đánh giá.
+Điều 18. Đấu thầu rộng rãi
+1. Việc lựa chọn nhà thầu ký kết hợp đồng dầu khí theo hình thức đấu thầu rộng rãi được áp dụng trên nguyên tắc cạnh tranh đối với lô dầu khí không thuộc trường hợp quy định tại các điều 19, 20 và 21 của Luật này.
+2. Quy trình đấu thầu rộng rãi bao gồm các bước sau đây:
+a) Thông báo mời thầu;
+b) Đăng ký dự thầu;
+c) Phát hành hồ sơ mời thầu;
+d) Nhận hồ sơ dự thầu, mở thầu và đánh giá hồ sơ dự thầu;
+đ) Thẩm định, phê duyệt, thông báo kết quả lựa chọn nhà thầu và điều kiện kinh tế, kỹ thuật cơ bản của hợp đồng dầu khí;
+e) Đàm phán và hoàn thiện hợp đồng dầu khí;
+g) Thẩm định, phê duyệt và ký kết hợp đồng dầu khí.
+Điều 19. Đấu thầu hạn chế
+1. Việc lựa chọn nhà thầu ký kết hợp đồng dầu khí theo hình thức đấu thầu hạn chế được áp dụng trong trường hợp có yêu cầu đặc thù mà chỉ có một số nhà thầu đáp ứng được.
+2. Quy trình đấu thầu hạn chế bao gồm các bước như quy trình đấu thầu rộng rãi quy định tại khoản 2 Điều 18 của Luật này.
+Điều 20. Chào thầu cạnh tranh
+1. Việc lựa chọn nhà thầu để ký kết hợp đồng dầu khí theo hình thức chào thầu cạnh tranh được áp dụng trong trường hợp lô dầu khí không nằm trong kế hoạch lựa chọn nhà thầu hiện có và được đề xuất bởi ít nhất 02 tổ chức, cá nhân có đủ điều kiện quy định tại Điều 16 của Luật này để ký kết hợp đồng dầu khí.
+2. Quy trình chào thầu cạnh tranh bao gồm các bước sau đây:
+a) Thông báo chào thầu cạnh tranh;
+b) Đăng ký tham dự chào thầu cạnh tranh;
+c) Phát hành hồ sơ mời chào thầu cạnh tranh;
+d) Nhận hồ sơ và đánh giá hồ sơ chào thầu cạnh tranh;
+đ) Thẩm định, phê duyệt, thông báo kết quả lựa chọn nhà thầu và điều kiện kinh tế, kỹ thuật cơ bản của hợp đồng dầu khí;
+e) Đàm phán và hoàn thiện hợp đồng dầu khí;
+g) Thẩm định, phê duyệt và ký kết hợp đồng dầu khí.
+Điều 21. Chỉ định thầu
+1. Việc lựa chọn nhà thầu ký kết hợp đồng dầu khí theo hình thức chỉ định thầu được áp dụng đối với lô dầu khí trong các trường hợp sau đây:
+a) Liên quan đến quốc phòng, an ninh;
+b) Chỉ có 01 tổ chức, cá nhân đủ điều kiện quy định tại Điều 16 của Luật này đề xuất ký kết hợp đồng dầu khí sau khi đã được thông tin rộng rãi trong vòng 30 ngày nhưng không có nhà thầu khác quan tâm;
+c) Nhà thầu đang thực hiện hợp đồng dầu khí đề xuất đầu tư bổ sung trong cùng diện tích hợp đồng với điều kiện kinh tế, kỹ thuật cho hợp đồng dầu khí mới sau khi hợp đồng dầu khí đã ký kết hết thời hạn.
+2. Quy trình chỉ định thầu bao gồm các bước sau đây:
+a) Phát hành hồ sơ yêu cầu chỉ định thầu;
+b) Nhận hồ sơ đề xuất và đánh giá hồ sơ đề xuất;
+c) Thẩm định, phê duyệt, thông báo kết quả lựa chọn nhà thầu và điều kiện kinh tế, kỹ thuật cơ bản của hợp đồng dầu khí;
+d) Đàm phán và hoàn thiện hợp đồng dầu khí;
+đ) Thẩm định, phê duyệt và ký kết hợp đồng dầu khí.
+Điều 22. Tiêu chí lựa chọn nhà thầu và phương pháp đánh giá hồ sơ dự thầu, hồ sơ chào thầu cạnh tranh, hồ sơ đề xuất
+1. Tiêu chí lựa chọn nhà thầu bao gồm:
+a) Năng lực, kinh nghiệm của nhà thầu;
+b) Điều kiện kỹ thuật phù hợp với từng lô dầu khí;
+c) Điều kiện kinh tế phù hợp với từng lô dầu khí.
+2. Phương pháp đánh giá hồ sơ dự thầu, hồ sơ chào thầu cạnh tranh, hồ sơ đề xuất theo phương pháp thang điểm, so sánh, tổng hợp.
+3. Chính phủ quy định chi tiết Điều này.
+Điều 23. Xét duyệt kết quả lựa chọn nhà thầu
+Nhà thầu được đề nghị lựa chọn khi đáp ứng các điều kiện sau đây:
+1. Hồ sơ dự thầu, hồ sơ chào thầu cạnh tranh, hồ sơ đề xuất hợp lệ;
+2. Đáp ứng các yêu cầu về năng lực, kinh nghiệm hoạt động dầu khí;
+3. Đáp ứng yêu cầu về kỹ thuật;
+4. Đáp ứng yêu cầu về kinh tế;
+5. Có hồ sơ dự thầu, hồ sơ chào thầu cạnh tranh được xếp thứ nhất.
+Điều 24. Tổ chức lựa chọn nhà thầu
+1. Tập đoàn Dầu khí Việt Nam có trách nhiệm sau đây:
+a) Lập kế hoạch lựa chọn nhà thầu, báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt;
+b) Thông báo mời thầu hoặc chào thầu cạnh tranh; phát hành hồ sơ mời thầu, hồ sơ mời chào thầu cạnh tranh hoặc hồ sơ yêu cầu chỉ định thầu; tổ chức đánh giá hồ sơ dự thầu, hồ sơ chào thầu cạnh tranh hoặc hồ sơ đề xuất;
+c) Báo cáo kết quả lựa chọn nhà thầu để Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt;
+d) Thông báo kết quả lựa chọn nhà thầu và điều kiện kinh tế, kỹ thuật cơ bản của hợp đồng dầu khí, tổ chức đàm phán và hoàn thiện nội dung hợp đồng dầu khí, báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt làm căn cứ ký kết hợp đồng dầu khí.
+2. Chính phủ quy định về hồ sơ, trình tự, thủ tục lựa chọn nhà thầu ký kết hợp đồng dầu khí.
+Điều 25. Bảo đảm dự thầu
+1. Các bên dự thầu có nghĩa vụ nộp bảo đảm dự thầu theo yêu cầu tại hồ sơ mời thầu.
+2. Bên dự thầu được hoàn trả bảo đảm dự thầu khi không trúng thầu hoặc sau khi hợp đồng dầu khí được ký kết.
+Chương IV
+HỢP ĐỒNG DẦU KHÍ
+Điều 26. Phê duyệt hợp đồng dầu khí
+1. Sau khi hoàn thành đàm phán hợp đồng dầu khí, trên cơ sở kết quả lựa chọn nhà thầu đã được phê duyệt, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt nội dung hợp đồng dầu khí trước khi Tập đoàn Dầu khí Việt Nam ký kết hợp đồng dầu khí.
+2. Nội dung thẩm định hợp đồng dầu khí bao gồm:
+a) Tính hợp lệ của hồ sơ trình thẩm định, phê duyệt nội dung hợp đồng dầu khí;
+b) Tính hợp lý của kết quả đàm phán hợp đồng dầu khí;
+c) Sự phù hợp của dự thảo hợp đồng dầu khí với kết quả lựa chọn nhà thầu đã được phê duyệt, các quy định của pháp luật có liên quan.
+3. Phê duyệt nội dung hợp đồng dầu khí của Thủ tướng Chính phủ là cơ sở để nhà thầu ký kết hợp đồng dầu khí và thay cho phê duyệt chủ trương đầu tư đối với dự án dầu khí theo quy định của Luật Đầu tư và Luật Đầu tư công.
+4. Chính phủ quy định về hồ sơ, trình tự, thủ tục thẩm định, phê duyệt hợp đồng dầu khí.
+Điều 27. Cấp giấy chứng nhận đăng ký đầu tư
+1. Trên cơ sở hợp đồng dầu khí đã được ký kết, Bộ Công Thương cấp giấy chứng nhận đăng ký đầu tư cho nhà thầu thực hiện hoạt động dầu khí.
+2. Nội dung chính của giấy chứng nhận đăng ký đầu tư bao gồm:
+a) Tên hợp đồng dầu khí, lô dầu khí, dự án dầu khí;
+b) Mục tiêu và quy mô;
+c) Địa điểm thực hiện;
+d) Văn phòng điều hành;
+đ) Các bên nhà thầu, tỷ lệ quyền lợi tham gia, người điều hành;
+e) Cam kết tài chính tối thiểu của giai đoạn tìm kiếm thăm dò dầu khí;
+g) Trách nhiệm của nhà thầu về tài chính, kỹ thuật và tự chịu rủi ro;
+h) Quyền của nhà thầu được thu hồi các chi phí từ sản lượng khai thác dầu khí theo quy định của hợp đồng dầu khí;
+i) Thời hạn của hợp đồng dầu khí;
+k) Ngày có hiệu lực của hợp đồng dầu khí.
+3. Chính phủ quy định về hồ sơ, trình tự, thủ tục cấp giấy chứng nhận đăng ký đầu tư.
+Điều 28. Điều chỉnh nội dung hợp đồng dầu khí và điều chỉnh giấy chứng nhận đăng ký đầu tư
+1. Việc điều chỉnh nội dung của hợp đồng dầu khí do Thủ tướng Chính phủ phê duyệt trên cơ sở đề xuất của Tập đoàn Dầu khí Việt Nam và báo cáo thẩm định của Bộ Công Thương.
+2. Bộ Công Thương điều chỉnh giấy chứng nhận đăng ký đầu tư cho nhà thầu trên cơ sở hợp đồng dầu khí điều chỉnh được phê duyệt.
+3. Chính phủ quy định về hồ sơ, trình tự, thủ tục thẩm định, phê duyệt việc điều chỉnh hợp đồng dầu khí và điều chỉnh giấy chứng nhận đăng ký đầu tư.
+Điều 29. Các loại hợp đồng dầu khí
+1. Hợp đồng chia sản phẩm dầu khí.
+2. Loại hợp đồng dầu khí khác.
+Điều 30. Nội dung chính của hợp đồng dầu khí
+1. Nội dung chính của hợp đồng chia sản phẩm dầu khí bao gồm:
+a) Tư cách pháp lý, quyền lợi tham gia của nhà thầu ký kết hợp đồng;
+b) Đối tượng của hợp đồng;
+c) Giới hạn diện tích và tiến độ hoàn trả diện tích hợp đồng;
+d) Hiệu lực của hợp đồng, thời hạn hợp đồng, các giai đoạn của hợp đồng, điều kiện gia hạn các giai đoạn và việc điều chỉnh, gia hạn thời hạn hợp đồng;
+đ) Quyền và nghĩa vụ của các bên ký kết hợp đồng, người điều hành;
+e) Cam kết công việc tối thiểu và cam kết tài chính tối thiểu theo giai đoạn của hợp đồng;
+g) Nguyên tắc chia sản phẩm dầu khí và xác định chi phí thu hồi;
+h) Nguyên tắc lựa chọn nhà thầu cung cấp dịch vụ dầu khí, hàng hóa phục vụ hoạt động dầu khí;
+i) Quyền của nước chủ nhà đối với tài sản, công trình dầu khí sau khi thu hồi chi phí và sau khi chấm dứt hợp đồng;
+k) Điều kiện chuyển nhượng quyền và nghĩa vụ của các bên ký kết hợp đồng;
+l) Quyền của Tập đoàn Dầu khí Việt Nam được tham gia vào hợp đồng khi có phát hiện thương mại và được ưu tiên mua trước quyền lợi tham gia, quyền và nghĩa vụ mà nhà thầu chuyển nhượng trong hợp đồng khi có chuyển nhượng;
+m) Cam kết về hoa hồng, đào tạo, quỹ nghiên cứu khoa học và ưu tiên sử dụng lao động, dịch vụ Việt Nam;
+n) Trách nhiệm bảo vệ môi trường và bảo đảm an toàn trong khi tiến hành hoạt động dầu khí; nghĩa vụ thu dọn công trình dầu khí;
+o) Điều kiện chấm dứt hợp đồng, xử lý các vi phạm;
+p) Phương thức giải quyết tranh chấp phát sinh từ hợp đồng và luật áp dụng.
+2. Thủ tướng Chính phủ quyết định nội dung chính của loại hợp đồng dầu khí khác phù hợp với đặc thù của mỏ, cụm mỏ, lô dầu khí.
+3. Chính phủ ban hành hợp đồng mẫu của hợp đồng chia sản phẩm dầu khí.
+Điều 31. Thời hạn hợp đồng dầu khí
+1. Thời hạn hợp đồng dầu khí không quá 30 năm, trong đó thời hạn của giai đoạn tìm kiếm thăm dò dầu khí không quá 05 năm, trừ trường hợp quy định tại khoản 2 Điều này.
+2. Đối với lô dầu khí trong danh mục các lô dầu khí được hưởng chính sách ưu đãi đầu tư và ưu đãi đầu tư đặc biệt, thời hạn hợp đồng dầu khí không quá 35 năm, trong đó thời hạn của giai đoạn tìm kiếm thăm dò dầu khí không quá 10 năm.
+3. Thời hạn hợp đồng dầu khí có thể được gia hạn nhưng không quá 05 năm, thời hạn của giai đoạn tìm kiếm thăm dò dầu khí có thể được gia hạn nhưng không quá 05 năm trên cơ sở chấp thuận của Bộ Công Thương, trừ trường hợp quy định tại khoản 4 Điều này.
+4. Trong trường hợp đặc biệt vì lý do quốc phòng, an ninh, điều kiện địa chất dầu khí phức tạp, điều kiện thực địa triển khai hoạt động dầu khí có những khó khăn rất đặc thù hoặc cần bảo đảm thời gian khai thác khí hiệu quả, Thủ tướng Chính phủ chấp thuận việc cho phép gia hạn thêm thời hạn hợp đồng dầu khí và thời gian gia hạn của giai đoạn tìm kiếm thăm dò dầu khí quy định tại khoản 3 Điều này trên cơ sở thẩm định của Bộ Công Thương.
+5. Sau khi tuyên bố phát hiện thương mại nhưng chưa có thị trường tiêu thụ và chưa có các điều kiện về đường ống, phương tiện xử lý thích hợp, nhà thầu được giữ lại diện tích phát hiện khí. Thời hạn được giữ lại diện tích phát hiện khí không quá 05 năm trên cơ sở chấp thuận của Bộ Công Thương. Trong trường hợp hết thời hạn giữ lại diện tích phát hiện khí nhưng chưa có thị trường tiêu thụ và chưa có các điều kiện về đường ống, phương tiện xử lý thích hợp, Thủ tướng Chính phủ xem xét cho phép kéo dài thời gian giữ lại diện tích phát hiện khí nhưng không quá 02 năm trên cơ sở thẩm định của Bộ Công Thương. Trong thời gian giữ lại diện tích phát hiện khí, nhà thầu phải tiến hành các công việc đã cam kết trong hợp đồng dầu khí.
+6. Trong trường hợp bất khả kháng, các bên tham gia hợp đồng dầu khí thỏa thuận phương thức tạm dừng thực hiện một số quyền và nghĩa vụ trong hợp đồng dầu khí; Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương quyết định. Thời gian tạm dừng thực hiện một số quyền và nghĩa vụ trong hợp đồng dầu khí do nguyên nhân bất khả kháng được tính từ khi sự kiện bất khả kháng xảy ra cho tới khi sự kiện bất khả kháng chấm dứt.
+7. Trong trường hợp vì lý do quốc phòng, an ninh, thời gian tạm dừng thực hiện một số quyền và nghĩa vụ trong hợp đồng dầu khí do Thủ tướng Chính phủ quyết định theo đề nghị của cơ quan có thẩm quyền.
+8. Thời gian gia hạn của giai đoạn tìm kiếm thăm dò dầu khí, thời gian giữ lại diện tích phát hiện khí đã được tuyên bố phát hiện thương mại và thời gian tạm dừng thực hiện một số quyền và nghĩa vụ trong hợp đồng dầu khí trong trường hợp bất khả kháng hoặc vì lý do quốc phòng, an ninh không tính vào thời hạn hợp đồng dầu khí.
+9. Chính phủ quy định về hồ sơ, trình tự, thủ tục gia hạn thời hạn hợp đồng dầu khí, gia hạn thời hạn giai đoạn tìm kiếm thăm dò dầu khí, quyết định thời hạn giữ lại diện tích phát hiện khí, quyết định thời hạn tạm dừng thực hiện một số quyền và nghĩa vụ trong hợp đồng dầu khí trong trường hợp bất khả kháng hoặc vì lý do quốc phòng, an ninh.
+Điều 32. Diện tích, hoàn trả diện tích, mở rộng diện tích hợp đồng dầu khí, hợp nhất phát hiện dầu khí, mỏ dầu khí
+1. Diện tích hợp đồng dầu khí bao gồm diện tích của một hoặc nhiều lô dầu khí được quy định trong hợp đồng dầu khí.
+2. Nhà thầu có nghĩa vụ hoàn trả một phần diện tích hợp đồng dầu khí vào cuối mỗi giai đoạn thành phần của giai đoạn tìm kiếm thăm dò dầu khí và có nghĩa vụ thu dọn công trình dầu khí trên diện tích hoàn trả theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+3. Nhà thầu có quyền đề xuất giữ lại toàn bộ diện tích hợp đồng dầu khí hoặc đề xuất tạm hoãn nghĩa vụ hoàn trả diện tích hợp đồng dầu khí trong trường hợp nhà thầu có đề xuất tiếp tục thực hiện thăm dò, thẩm lượng đối với một số cấu tạo tiềm năng trong phần diện tích phải hoàn trả trên cơ sở chấp thuận của Bộ Công Thương.
+4. Trong trường hợp phát hiện dầu khí có tính thương mại, mỏ dầu khí vượt sang diện tích của lô dầu khí mở liền kề, nhà thầu được phép đề xuất mở rộng diện tích hợp đồng dầu khí.
+5. Trong trường hợp phát hiện dầu khí có tính thương mại, mỏ dầu khí vượt sang diện tích của một hoặc nhiều lô dầu khí liền kề đã ký kết hợp đồng dầu khí, các nhà thầu được phép đề xuất hợp nhất phát hiện dầu khí, mỏ dầu khí để thẩm lượng và phát triển chung nhằm nâng cao hiệu quả kinh tế và khai thác tối ưu tài nguyên dầu khí.
+6. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt việc mở rộng diện tích hợp đồng dầu khí, hợp nhất phát hiện dầu khí, mỏ dầu khí để thẩm lượng và phát triển chung.
+7. Trong trường hợp cần thiết phải xây dựng các hạng mục công trình, thiết bị ngoài diện tích hợp đồng dầu khí phục vụ khai thác, xử lý, vận chuyển dầu khí từ diện tích hợp đồng dầu khí, nhà thầu được phép đề xuất trong kế hoạch đại cương phát triển mỏ dầu khí, kế hoạch khai thác sớm mỏ dầu khí (nếu có) và kế hoạch phát triển mỏ dầu khí, trình thẩm định, phê duyệt theo quy định tại các điều 46, 47 và 48 của Luật này.
+8. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt giữ lại hoặc tạm hoãn nghĩa vụ hoàn trả, mở rộng diện tích hợp đồng dầu khí, hợp nhất phát hiện dầu khí, mỏ dầu khí.
+Điều 33. Mức thu hồi chi phí trong hợp đồng dầu khí
+Các bên tham gia hợp đồng dầu khí có thể thỏa thuận mức thu hồi chi phí của nhà thầu trong hợp đồng dầu khí theo quy định sau đây:
+1. Tối đa 50% sản lượng dầu khí khai thác được trong năm đối với hợp đồng dầu khí áp dụng cho lô dầu khí thông thường;
+2. Tối đa 70% sản lượng dầu khí khai thác được trong năm đối với các hợp đồng dầu khí áp dụng cho lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư;
+3. Tối đa 80% sản lượng dầu khí khai thác được trong năm đối với các hợp đồng dầu khí áp dụng cho lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư đặc biệt.
+Điều 34. Ngôn ngữ của hợp đồng dầu khí
+Ngôn ngữ sử dụng trong hợp đồng dầu khí và các tài liệu kèm theo hợp đồng là tiếng Việt và tiếng Anh hoặc một tiếng nước ngoài thông dụng khác do các bên thỏa thuận. Bản tiếng Việt và tiếng Anh hoặc bản tiếng nước ngoài thông dụng khác có giá trị pháp lý ngang nhau.
+Điều 35. Chấm dứt hiệu lực hợp đồng dầu khí
+1. Hợp đồng dầu khí chấm dứt hiệu lực theo quy định tại hợp đồng dầu khí hoặc kết thúc thời hạn hợp đồng dầu khí nhưng không được gia hạn theo quy định tại khoản 3 và khoản 4 Điều 31 của Luật này.
+2. Hợp đồng dầu khí kết thúc trước thời hạn theo sự thỏa thuận của các bên ký kết hợp đồng với điều kiện nhà thầu phải hoàn thành các nghĩa vụ đã cam kết và phải thông báo cho Tập đoàn Dầu khí Việt Nam trước 06 tháng so với thời điểm đề xuất chấm dứt hợp đồng dầu khí trước thời hạn.
+Điều 36. Chuyển nhượng quyền lợi tham gia, quyền và nghĩa vụ của nhà thầu trong hợp đồng dầu khí
+1. Nhà thầu có quyền chuyển nhượng quyền lợi tham gia, quyền và nghĩa vụ của nhà thầu trong hợp đồng dầu khí. Việc chuyển nhượng toàn bộ hoặc một phần quyền lợi tham gia, quyền và nghĩa vụ của nhà thầu trong hợp đồng dầu khí phải đáp ứng các điều kiện sau đây:
+a) Bên nhận chuyển nhượng cam kết kế thừa các quyền lợi tham gia, quyền và nghĩa vụ của bên chuyển nhượng và thực hiện các nội dung của hợp đồng dầu khí đã được ký kết;
+b) Bên chuyển nhượng và bên nhận chuyển nhượng phải đáp ứng được các điều kiện theo quy định của Luật này và quy định khác của pháp luật có liên quan;
+c) Bên chuyển nhượng có nghĩa vụ nộp thuế, phí và lệ phí liên quan đến việc chuyển nhượng theo quy định của pháp luật về thuế, phí và lệ phí và quy định khác của pháp luật có liên quan.
+2. Việc chuyển nhượng quyền lợi tham gia, quyền và nghĩa vụ của nhà thầu trong hợp đồng dầu khí được Thủ tướng Chính phủ phê duyệt trên cơ sở thẩm định của Bộ Công Thương và có hiệu lực tại giấy chứng nhận đăng ký đầu tư điều chỉnh.
+3. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt việc chuyển nhượng quyền lợi tham gia, quyền và nghĩa vụ của nhà thầu trong hợp đồng dầu khí.
+Điều 37. Giải quyết tranh chấp phát sinh từ hợp đồng dầu khí
+Các tranh chấp phát sinh từ hợp đồng dầu khí trước hết phải được giải quyết thông qua thương lượng, hòa giải. Trường hợp không thương lượng, hòa giải được thì tranh chấp có thể giải quyết tại Trọng tài hoặc Tòa án được quy định trong hợp đồng dầu khí phù hợp với quy định của Luật Đầu tư và luật khác có liên quan.
+Điều 38. Văn phòng điều hành của người điều hành nước ngoài trong hợp đồng dầu khí
+1. Người điều hành nước ngoài phải thành lập văn phòng điều hành tại Việt Nam để thực hiện hợp đồng dầu khí. Văn phòng điều hành có con dấu, được mở tài khoản, được tuyển dụng lao động và thực hiện các quyền và nghĩa vụ trong phạm vi được ủy quyền quy định tại hợp đồng dầu khí, thỏa thuận điều hành của các nhà thầu và theo quy định của pháp luật Việt Nam.
+2. Người điều hành nước ngoài có thể sử dụng một văn phòng điều hành tại Việt Nam để quản lý, điều hành các hoạt động dầu khí của một hoặc nhiều hợp đồng dầu khí ở Việt Nam. Chi phí quản lý, điều hành đối với từng hợp đồng dầu khí phải được phân bổ, hạch toán độc lập.
+3. Trong trường hợp thay đổi địa chỉ văn phòng điều hành hoặc thay đổi trưởng văn phòng điều hành hoặc tiếp nhận lại văn phòng điều hành do thay đổi người điều hành, người điều hành phải có văn bản thông báo cho cơ quan đăng ký đầu tư nơi đặt văn phòng điều hành.
+4. Trong trường hợp chấm dứt hoạt động văn phòng điều hành, người điều hành phải gửi hồ sơ thông báo chấm dứt hoạt động văn phòng điều hành cho cơ quan đăng ký đầu tư nơi đặt văn phòng điều hành.
+5. Chính phủ quy định về hồ sơ, trình tự, thủ tục thành lập, chấm dứt hoạt động văn phòng điều hành, thay đổi trong trường hợp quy định tại khoản 3 Điều này.
+Điều 39. Thực hiện quyền tham gia, quyền ưu tiên mua trước quyền lợi tham gia, tiếp nhận quyền lợi tham gia trong hợp đồng dầu khí
+1. Tập đoàn Dầu khí Việt Nam được thực hiện quyền tham gia vào hợp đồng dầu khí; quyền ưu tiên mua trước một phần hoặc toàn bộ phần quyền lợi tham gia mà nhà thầu có ý định chuyển nhượng trong hợp đồng dầu khí đã được ký kết, trên cơ sở các điều kiện chuyển nhượng đã được thỏa thuận giữa bên có ý định chuyển nhượng với bên nhận chuyển nhượng tiềm năng.
+2. Tập đoàn Dầu khí Việt Nam được nhận chuyển giao toàn bộ quyền lợi tham gia, các dữ liệu, công trình dầu khí hiện hữu của nhà thầu trong trường hợp nhà thầu quyết định rút khỏi hợp đồng dầu khí vì lý do đặc biệt được Thủ tướng Chính phủ chấp thuận.
+3. Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ xem xét, quyết định việc Tập đoàn Dầu khí Việt Nam thực hiện quyền tham gia, quyền ưu tiên mua trước quyền lợi tham gia và nhận chuyển giao toàn bộ quyền lợi tham gia của nhà thầu trong hợp đồng dầu khí.
+4. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt việc thực hiện quyền tham gia, quyền ưu tiên mua trước quyền lợi tham gia và nhận chuyển giao toàn bộ quyền lợi tham gia của nhà thầu trong hợp đồng dầu khí; cơ chế quản lý, theo dõi, sử dụng, xử lý tài chính đối với tài sản và tiếp nhận quyền lợi tham gia từ nhà thầu vì lý do đặc biệt.
+Điều 40. Đề xuất kế hoạch đầu tư bổ sung, ký kết hợp đồng dầu khí mới trước khi hợp đồng dầu khí hết thời hạn
+1. Tối thiểu 02 năm trước khi hết thời hạn hợp đồng dầu khí, nhà thầu được đề xuất kế hoạch đầu tư bổ sung nhằm gia tăng trữ lượng, nâng cao hệ số thu hồi dầu khí và khai thác dầu khí trong cùng diện tích hợp đồng với điều kiện kinh tế, kỹ thuật phù hợp để ký kết hợp đồng dầu khí mới sau khi hợp đồng dầu khí đã ký kết hết thời hạn.
+2. Trên cơ sở đề xuất của nhà thầu đang thực hiện hợp đồng dầu khí, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ xem xét, phê duyệt chỉ định nhà thầu ký kết hợp đồng dầu khí mới theo quy định tại điểm c khoản 1 và khoản 2 Điều 21 của Luật này.
+3. Nhà thầu ký kết hợp đồng dầu khí mới được tiếp tục sử dụng mà không phải trả tiền sử dụng thông tin, dữ liệu, tài liệu, mẫu vật, công trình dầu khí và tài sản khác đã được lắp đặt, đầu tư trong cùng diện tích hợp đồng để thực hiện hoạt động dầu khí theo hợp đồng dầu khí mới với điều kiện việc xác định quyền lợi của nước chủ nhà tại hợp đồng dầu khí mới phải xét đến việc nhà thầu không phải trả tiền sử dụng thông tin, dữ liệu, tài liệu, mẫu vật, công trình dầu khí và tài sản khác đã được lắp đặt, đầu tư để thực hiện hoạt động dầu khí.
+Điều 41. Tiếp nhận mỏ, cụm mỏ, lô dầu khí từ nhà thầu khi hợp đồng dầu khí hết thời hạn
+1. Tối thiểu 02 năm trước khi hết thời hạn hợp đồng dầu khí, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương về kế hoạch xử lý tiếp theo đối với mỏ, cụm mỏ, lô dầu khí đang được khai thác tại diện tích hợp đồng dầu khí.
+2. Tối thiểu 06 tháng trước thời điểm hết thời hạn hợp đồng dầu khí mà không ký kết hợp đồng dầu khí mới theo quy định tại Điều 40 của Luật này, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt kế hoạch xử lý tiếp theo đối với mỏ, cụm mỏ, lô dầu khí theo một trong các phương án sau đây:
+a) Không tiếp tục khai thác mỏ, cụm mỏ, lô dầu khí;
+b) Tiếp tục khai thác mỏ, cụm mỏ, lô dầu khí trên cơ sở hợp đồng dầu khí mới với điều kiện kinh tế, kỹ thuật phù hợp. Trong trường hợp này, nhà thầu ký kết hợp đồng dầu khí mới được sử dụng thông tin, dữ liệu, tài liệu, mẫu vật, công trình dầu khí và tài sản khác đã được lắp đặt, đầu tư trong cùng diện tích hợp đồng theo quy định tại khoản 3 Điều 40 của Luật này;
+c) Giao Tập đoàn Dầu khí Việt Nam khai thác tận thu mỏ, cụm mỏ, lô dầu khí.
+3. Trong trường hợp tiếp tục khai thác mỏ, cụm mỏ, lô dầu khí theo quy định tại điểm b khoản 2 Điều này, tại thời điểm hợp đồng dầu khí hết thời hạn, Tập đoàn Dầu khí Việt Nam tiếp nhận nguyên trạng mỏ, cụm mỏ, lô dầu khí từ nhà thầu và thực hiện điều hành hoạt động dầu khí theo cơ chế tài chính trong kế hoạch xử lý đã được phê duyệt cho đến khi hợp đồng dầu khí mới được ký kết nhưng không quá 02 năm. Hết thời hạn 02 năm kể từ khi tiếp nhận mỏ, cụm mỏ, lô dầu khí mà không có nhà thầu quan tâm hoặc không lựa chọn được nhà thầu ký kết hợp đồng dầu khí mới, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ phê duyệt kế hoạch xử lý tiếp theo đối với mỏ, cụm mỏ, lô dầu khí theo một trong hai phương án sau đây:
+a) Không tiếp tục khai thác mỏ, cụm mỏ, lô dầu khí;
+b) Giao Tập đoàn Dầu khí Việt Nam khai thác tận thu mỏ, cụm mỏ, lô dầu khí.
+4. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt kế hoạch xử lý tiếp theo đối với mỏ, cụm mỏ, lô dầu khí, nội dung kế hoạch xử lý; cơ chế tài chính cho đến khi ký kết hợp đồng dầu khí mới.
+5. Thủ tướng Chính phủ quyết định cơ chế điều hành hoạt động khai thác tận thu mỏ, cụm mỏ, lô dầu khí trong trường hợp quy định tại điểm c khoản 2 và điểm b khoản 3 Điều này.
+Chương V
+HOẠT ĐỘNG DẦU KHÍ
+Điều 42. Dự án phát triển mỏ dầu khí trên đất liền; dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển
+1. Trong quá trình lập kế hoạch đại cương phát triển mỏ dầu khí, nếu xét thấy cần thiết xây dựng chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển ngoài diện tích hợp đồng ban đầu phục vụ khai thác, xử lý và vận chuyển dầu khí để sản xuất ra dầu khí thương phẩm nhằm nâng cao hiệu quả kinh tế của dự án phát triển mỏ dầu khí, Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, trình Thủ tướng Chính phủ chấp thuận chủ trương thực hiện dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển.
+2. Việc chuyển mục đích sử dụng rừng, đất (nếu có) đối với dự án phát triển mỏ dầu khí trên đất liền, dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển được thực hiện như sau:
+a) Quốc hội quyết định chủ trương chuyển mục đích sử dụng rừng, đất đối với dự án phát triển mỏ dầu khí trên đất liền trước khi kế hoạch đại cương phát triển mỏ dầu khí được phê duyệt theo quy định tại khoản 1 Điều 46 của Luật này và đối với dự án phát triển mỏ dầu khí theo chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển trước khi Thủ tướng Chính phủ chấp thuận chủ trương thực hiện dự án theo quy định tại khoản 1 Điều này trong trường hợp: dự án có yêu cầu chuyển mục đích sử dụng đất vườn quốc gia, khu bảo tồn thiên nhiên, khu bảo vệ cảnh quan, khu rừng nghiên cứu, thực nghiệm khoa học, rừng đặc dụng, rừng phòng hộ đầu nguồn, rừng phòng hộ biên giới từ 50 héc ta trở lên; đất trồng lúa nước từ 02 vụ trở lên với quy mô từ 500 héc ta trở lên; rừng phòng hộ chắn gió, chắn cát bay và rừng phòng hộ chắn sóng, lấn biển từ 500 héc ta trở lên; rừng sản xuất từ 1.000 héc ta trở lên;
+b) Trừ trường hợp quy định tại điểm a khoản này, đối với dự án phát triển mỏ dầu khí trên đất liền, Thủ tướng Chính phủ quyết định chủ trương chuyển mục đích sử dụng rừng, đất trước khi kế hoạch đại cương phát triển mỏ dầu khí được phê duyệt theo quy định tại khoản 1 Điều 46 của Luật này; đối với dự án phát triển mỏ dầu khí theo chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển, Thủ tướng Chính phủ quyết định chủ trương chuyển mục đích sử dụng rừng, đất cùng với chấp thuận triển khai dự án theo quy định tại khoản 1 Điều này;
+c) Sau khi có quyết định của cơ quan nhà nước có thẩm quyền về chủ trương chuyển mục đích sử dụng rừng, đất và kế hoạch đại cương phát triển mỏ dầu khí được phê duyệt, Ủy ban nhân dân cấp tỉnh quyết định chuyển mục đích sử dụng rừng, đất đối với dự án để triển khai phát triển mỏ dầu khí.
+3. Chính phủ quy định về hồ sơ, trình tự, thủ tục thực hiện khoản 1, điểm b và điểm c khoản 2 Điều này và hồ sơ trình Quốc hội quy định tại điểm a khoản 2 Điều này.
+Điều 43. Lập, phê duyệt chương trình hoạt động và ngân sách hoạt động hằng năm
+1. Căn cứ vào các cam kết trong hợp đồng dầu khí và chương trình, kế hoạch đã được phê duyệt (nếu có), nhà thầu lập chương trình hoạt động và ngân sách hoạt động hằng năm trình Tập đoàn Dầu khí Việt Nam phê duyệt.
+2. Nội dung chính của chương trình hoạt động và ngân sách hoạt động hằng năm bao gồm:
+a) Nội dung công việc;
+b) Dự toán chi phí;
+c) Kế hoạch sử dụng nhân lực.
+Điều 44. Lập, thẩm định, phê duyệt chương trình tìm kiếm thăm dò dầu khí
+1. Trong giai đoạn tìm kiếm thăm dò dầu khí, trên cơ sở quy định trong hợp đồng dầu khí, nhà thầu lập chương trình tìm kiếm thăm dò dầu khí trình Tập đoàn Dầu khí Việt Nam thẩm định, phê duyệt.
+2. Nội dung chính của chương trình tìm kiếm thăm dò dầu khí bao gồm:
+a) Tổng quan về hợp đồng dầu khí;
+b) Lịch sử tìm kiếm thăm dò, thẩm lượng, phát triển và khai thác dầu khí (nếu có);
+c) Tài liệu về địa chất, địa vật lý, tài liệu khoan, tài liệu khảo sát và nghiên cứu khác;
+d) Đặc điểm địa chất, hệ thống dầu khí, đánh giá tài nguyên dầu khí;
+đ) Tiến độ thực hiện, khối lượng công việc, dự toán chi phí;
+e) Kế hoạch thực hiện công tác an toàn và bảo vệ môi trường bao gồm cả an toàn và xử lý sự cố, giải pháp ngăn chặn và xử lý các nguy cơ gây ô nhiễm;
+g) Dự kiến kết quả đạt được, đánh giá rủi ro tìm kiếm thăm dò dầu khí;
+h) Kết luận và kiến nghị.
+3. Nội dung thẩm định chương trình tìm kiếm thăm dò dầu khí bao gồm:
+a) Đánh giá sự phù hợp của tài liệu về địa chất, địa vật lý, tài liệu khoan, tài liệu khảo sát và nghiên cứu khác;
+b) Đánh giá tính hợp lý của số liệu về đặc điểm địa chất, hệ thống dầu khí, đánh giá tài nguyên dầu khí;
+c) Đánh giá tính khả thi, hợp lý của tiến độ thực hiện, khối lượng công việc, dự toán chi phí;
+d) Đánh giá sự đáp ứng yêu cầu về an toàn và bảo vệ môi trường;
+đ) Đánh giá kết quả đạt được và các rủi ro tìm kiếm thăm dò dầu khí.
+4. Trong trường hợp có sự thay đổi các nội dung chính của chương trình tìm kiếm thăm dò dầu khí quy định tại khoản 2 Điều này, nhà thầu đề nghị điều chỉnh chương trình, trình Tập đoàn Dầu khí Việt Nam thẩm định, phê duyệt.
+5. Trong quá trình phát triển mỏ dầu khí, khai thác dầu khí, nhà thầu có thể đề xuất tiến hành thăm dò dầu khí bổ sung và lập chương trình thăm dò dầu khí bổ sung, trình Tập đoàn Dầu khí Việt Nam thẩm định, phê duyệt theo quy định tại khoản 2 và khoản 3 Điều này.
+Điều 45. Lập, thẩm định, phê duyệt báo cáo tài nguyên, trữ lượng dầu khí
+1. Trên cơ sở kết quả thăm dò, thẩm lượng dầu khí, nếu phát hiện dầu khí có tính thương mại trong diện tích hợp đồng dầu khí, nhà thầu lập báo cáo tài nguyên, trữ lượng dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+2. Nội dung chính của báo cáo tài nguyên, trữ lượng dầu khí bao gồm:
+a) Lịch sử tìm kiếm thăm dò, thẩm lượng, phát triển và khai thác dầu khí;
+b) Tài liệu khảo sát địa chấn và phương pháp địa vật lý thăm dò khác; tài liệu khoan; tài liệu khảo sát và nghiên cứu khác;
+c) Địa chất khu vực, địa chất mỏ;
+d) Thông số vỉa chứa bao gồm thành tạo địa chất các thân chứa dầu khí, địa vật lý giếng khoan, công nghệ mỏ, kết quả khai thác, bơm ép dầu, khí, nước (nếu có);
+đ) Tính toán dầu khí tại chỗ ban đầu, trữ lượng dầu khí của phát hiện dầu khí, mỏ dầu khí;
+e) Kết luận và kiến nghị.
+3. Nội dung thẩm định báo cáo tài nguyên, trữ lượng dầu khí bao gồm:
+a) Đánh giá kết quả thực hiện công tác thăm dò, thẩm lượng dầu khí;
+b) Tính hợp lý về địa chất, mô hình địa chất vỉa chứa, thông số vỉa chứa và công nghệ mỏ;
+c) Tính hợp lý và độ tin cậy của kết quả tính toán dầu khí tại chỗ ban đầu và trữ lượng dầu khí.
+4. Tập đoàn Dầu khí Việt Nam có trách nhiệm theo dõi, tổng hợp tài nguyên, trữ lượng dầu khí của các mỏ dầu khí trên lãnh thổ Việt Nam và cập nhật hằng năm thông tin về tài nguyên, trữ lượng dầu khí báo cáo Bộ Công Thương.
+5. Nhà thầu có trách nhiệm cập nhật báo cáo tài nguyên, trữ lượng dầu khí của từng mỏ trong thời hạn 03 năm kể từ ngày có dòng dầu, khí đầu tiên được khai thác thương mại và sau đó cập nhật định kỳ 05 năm. Trường hợp tổng lượng dầu khí tại chỗ ban đầu có thay đổi lớn hơn 15% so với phê duyệt gần nhất, nhà thầu lập báo cáo tài nguyên, trữ lượng dầu khí cập nhật trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương xem xét, phê duyệt theo quy định của Điều này.
+6. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt báo cáo tài nguyên, trữ lượng dầu khí.
+Điều 46. Lập, thẩm định, phê duyệt kế hoạch đại cương phát triển mỏ dầu khí
+1. Sau khi báo cáo tài nguyên, trữ lượng dầu khí được phê duyệt, nhà thầu triển khai thực hiện giai đoạn phát triển mỏ dầu khí và lập kế hoạch đại cương phát triển mỏ dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+2. Nội dung chính của kế hoạch đại cương phát triển mỏ dầu khí bao gồm:
+a) Lịch sử tìm kiếm, thăm dò, thẩm lượng dầu khí, mô hình địa chất của mỏ và kế hoạch thẩm lượng ở giai đoạn tiếp theo;
+b) Công nghệ mỏ và hệ số thu hồi dầu khí sơ bộ; các phương án phát triển dự kiến và phương án lựa chọn;
+c) Dự báo sản lượng khai thác và quản lý vận hành mỏ;
+d) Thiết kế sơ bộ theo các phương án phát triển lựa chọn và xác định sơ bộ chi phí đầu tư;
+đ) Công nghệ khoan, kế hoạch khoan và hoàn thiện giếng;
+e) Kế hoạch thực hiện công tác an toàn và bảo vệ môi trường;
+g) Đánh giá kinh tế, kỹ thuật và lựa chọn phương án phát triển thích hợp tại thời điểm lập báo cáo;
+h) Các thông số, tiêu chí chính của phương án được lựa chọn làm cơ sở để lập thiết kế kỹ thuật tổng thể;
+i) Phương án tiêu thụ khí sơ bộ;
+k) Đánh giá mức độ rủi ro công nghệ, biến động giá dầu và tài chính của dự án;
+l) Dự kiến tiến độ thực hiện;
+m) Đối với dự án phát triển mỏ dầu khí trên đất liền, dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển, ngoài những nội dung quy định tại các điểm a, b, c, d, đ, e, g, h, i, k và l khoản này phải có các nội dung chính sau đây theo quy định của pháp luật về xây dựng: sơ bộ nhu cầu sử dụng đất; nhu cầu sử dụng tài nguyên; sự phù hợp của dự án với chiến lược, quy hoạch có liên quan; đánh giá tác động kinh tế - xã hội, bảo đảm quốc phòng, an ninh của dự án;
+n) Kết luận và kiến nghị.
+3. Nội dung thẩm định kế hoạch đại cương phát triển mỏ dầu khí bao gồm:
+a) Đánh giá sự phù hợp của công nghệ mỏ, dự báo sản lượng và hệ số thu hồi dầu khí sơ bộ;
+b) Đánh giá sự phù hợp của các phương án phát triển dự kiến và phương án lựa chọn về công nghệ khoan, công nghệ khai thác; các thông số, tiêu chí chính của phương án được lựa chọn làm cơ sở để lập thiết kế kỹ thuật tổng thể;
+c) Đánh giá sự đáp ứng yêu cầu về an toàn và bảo vệ môi trường;
+d) Tính hợp lý trong đánh giá sơ bộ hiệu quả kinh tế, kỹ thuật; mức độ rủi ro công nghệ, biến động giá sản phẩm và tài chính của dự án;
+đ) Đánh giá sự phù hợp với các quy hoạch có liên quan;
+e) Nội dung thẩm định theo quy định của pháp luật về xây dựng đối với nội dung quy định tại điểm m khoản 2 Điều này.
+4. Việc lập, thẩm định, phê duyệt kế hoạch đại cương phát triển mỏ dầu khí thay cho việc lập, thẩm định, phê duyệt báo cáo nghiên cứu tiền khả thi đầu tư xây dựng của dự án dầu khí theo quy định của Luật Xây dựng.
+5. Khi thay đổi phương án phát triển lựa chọn, nhu cầu sử dụng đất (nếu có), phương án tiêu thụ khí trong kế hoạch đại cương phát triển mỏ đã được phê duyệt, nhà thầu trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương xem xét, phê duyệt điều chỉnh kế hoạch đại cương phát triển mỏ dầu khí. Việc điều chỉnh nội dung khác của kế hoạch đại cương phát triển mỏ dầu khí do Tập đoàn Dầu khí Việt Nam xem xét, phê duyệt.
+6. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt kế hoạch đại cương phát triển mỏ dầu khí.
+Điều 47. Lập, thẩm định, phê duyệt kế hoạch khai thác sớm mỏ dầu khí
+1. Sau khi kế hoạch đại cương phát triển mỏ dầu khí được phê duyệt, trong trường hợp cần nghiên cứu, thu thập bổ sung thông tin để giảm thiểu rủi ro sau này, nhà thầu có thể lập kế hoạch khai thác sớm mỏ dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+2. Nội dung chính của báo cáo kế hoạch khai thác sớm mỏ dầu khí bao gồm:
+a) Kết quả nghiên cứu đặc điểm địa chất mỏ;
+b) Số liệu và các phân tích thành phần, tính chất chất lưu và vỉa chứa, các nghiên cứu về mô hình mô phỏng mỏ, công nghệ mỏ và thiết kế khai thác, dự báo về sản lượng khai thác dầu khí, hệ số thu hồi dầu khí;
+c) Các thông tin về công nghệ khai thác và các nghiên cứu khả thi;
+d) Công nghệ khoan và hoàn thiện giếng;
+đ) Mô tả hệ thống công trình và thiết bị khai thác được sử dụng;
+e) Báo cáo thuyết minh thiết kế kỹ thuật tổng thể;
+g) Các kế hoạch về bảo vệ tài nguyên, môi trường, sinh thái bao gồm cả an toàn và xử lý sự cố, giải pháp ngăn chặn, xử lý các nguy cơ gây ô nhiễm và thu dọn công trình dầu khí;
+h) Tính toán tổng mức đầu tư và hiệu quả kinh tế của dự án khai thác sớm mỏ dầu khí;
+i) Đánh giá mức độ rủi ro công nghệ, biến động giá dầu thô và tài chính của dự án;
+k) Tiến độ thực hiện;
+l) Ước tính chi phí thu dọn công trình dầu khí;
+m) Thỏa thuận khung bán khí đối với dự án khai thác khí;
+n) Đối với dự án phát triển mỏ dầu khí trên đất liền, dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển, ngoài những nội dung quy định tại các điểm a, b, c, d, đ, e, g, h, i, k, l và m khoản này phải có các nội dung chính sau đây theo quy định của pháp luật về xây dựng: thông tin hiện trạng sử dụng đất, điều kiện thu hồi đất, nhu cầu sử dụng đất; địa điểm xây dựng; phương án kết nối hạ tầng kỹ thuật trong và ngoài công trình; giải pháp về xây dựng, vật liệu chủ yếu được sử dụng; đánh giá tác động kinh tế - xã hội, bảo đảm quốc phòng, an ninh của dự án;
+o) Kết luận và kiến nghị.
+3. Nội dung thẩm định kế hoạch khai thác sớm mỏ dầu khí bao gồm:
+a) Đánh giá sự phù hợp với phương án được lựa chọn trong kế hoạch đại cương phát triển mỏ dầu khí;
+b) Đánh giá sự phù hợp của địa chất mỏ, tính chất chất lưu và vỉa chứa, mô hình mô phỏng mỏ, thiết kế khai thác, sản lượng khai thác dầu khí, hệ số thu hồi dầu khí;
+c) Đánh giá sự phù hợp của công nghệ khoan, công nghệ khai thác, hệ thống công trình và thiết bị;
+d) Đánh giá tính hợp lý trong đánh giá hiệu quả kinh tế; mức độ rủi ro công nghệ, biến động giá sản phẩm và tài chính của dự án; tiến độ thực hiện;
+đ) Đánh giá sự phù hợp của các giải pháp thiết kế, tiêu chuẩn áp dụng trong thiết kế kỹ thuật tổng thể;
+e) Đánh giá sự đáp ứng yêu cầu về an toàn và bảo vệ môi trường;
+g) Nội dung thẩm định theo quy định của pháp luật về xây dựng đối với nội dung quy định tại điểm n khoản 2 Điều này.
+4. Việc lập, thẩm định, phê duyệt kế hoạch khai thác sớm mỏ dầu khí thay cho việc lập, thẩm định, phê duyệt báo cáo nghiên cứu khả thi đầu tư xây dựng của dự án dầu khí theo quy định của Luật Xây dựng.
+5. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, phê duyệt điều chỉnh kế hoạch khai thác sớm mỏ dầu khí trong trường hợp việc điều chỉnh dẫn đến tổng mức đầu tư tăng thêm dưới 10% đối với các nội dung sau đây:
+a) Điều chỉnh số lượng, kích thước đường ống nội mỏ, điều chỉnh công suất thiết bị để tăng hiệu quả dự án cũng như tăng hệ số thu hồi dầu khí;
+b) Điều chỉnh tối ưu vị trí, thứ tự và số lượng giếng khoan để gia tăng sản lượng, trữ lượng hoặc tối ưu hóa đầu tư;
+c) Áp dụng giải pháp kỹ thuật bổ sung, mở vỉa mới được phát hiện trong quá trình khoan phát triển để gia tăng sản lượng khai thác, nâng cao hiệu quả của dự án;
+d) Khai thác thử nghiệm nhằm nâng cao hệ số thu hồi dầu khí;
+đ) Khoan bổ sung các giếng khoan đan dày.
+6. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, báo cáo Bộ Công Thương thẩm định, phê duyệt điều chỉnh kế hoạch khai thác sớm mỏ dầu khí trong các trường hợp khác ngoài quy định tại khoản 5 Điều này.
+7. Sau khi hoàn tất kế hoạch khai thác sớm mỏ dầu khí, nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, báo cáo Bộ Công Thương kết quả thực hiện kế hoạch khai thác sớm và cập nhật mô hình khai thác cùng các số liệu và phân tích chứng minh, kết luận về khả năng áp dụng sơ đồ thử nghiệm cho khai thác toàn mỏ dầu khí.
+8. Chính phủ quy định về điều kiện để lập kế hoạch khai thác sớm mỏ dầu khí và hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt kế hoạch khai thác sớm mỏ dầu khí.
+Điều 48. Lập, thẩm định, phê duyệt kế hoạch phát triển mỏ dầu khí
+1. Sau khi kế hoạch đại cương phát triển mỏ dầu khí được phê duyệt hoặc trước khi kết thúc thời hạn thực hiện của kế hoạch khai thác sớm mỏ dầu khí, nhà thầu lập kế hoạch phát triển mỏ dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+2. Nội dung chính của báo cáo kế hoạch phát triển mỏ dầu khí bao gồm:
+a) Kết quả thực hiện của kế hoạch khai thác sớm mỏ dầu khí (nếu có);
+b) Kết quả nghiên cứu đặc điểm địa chất mỏ;
+c) Số liệu và các phân tích thành phần, tính chất chất lưu và vỉa chứa, các nghiên cứu về mô hình mô phỏng mỏ, công nghệ mỏ và thiết kế khai thác, dự báo về sản lượng khai thác dầu khí, hệ số thu hồi dầu khí;
+d) Các thông tin về công nghệ khai thác và các nghiên cứu khả thi;
+đ) Công nghệ khoan và hoàn thiện giếng;
+e) Mô tả hệ thống công trình và thiết bị khai thác được sử dụng;
+g) Báo cáo thuyết minh thiết kế kỹ thuật tổng thể;
+h) Các kế hoạch về bảo vệ tài nguyên, môi trường, sinh thái bao gồm cả an toàn và xử lý sự cố, giải pháp ngăn chặn, xử lý các nguy cơ gây ô nhiễm và thu dọn công trình dầu khí;
+i) Tính toán tổng mức đầu tư và hiệu quả kinh tế của dự án;
+k) Đánh giá mức độ rủi ro công nghệ và tài chính của dự án;
+l) Tiến độ, lịch trình thực hiện;
+m) Thống kê những nguyên tắc, quy định kỹ thuật được áp dụng trong quá trình khoan khai thác;
+n) Thỏa thuận khung bán khí đối với dự án khai thác khí;
+o) Ước tính chi phí thu dọn công trình dầu khí;
+p) Đối với dự án phát triển mỏ dầu khí trên đất liền, dự án phát triển mỏ dầu khí có chuỗi đồng bộ các hạng mục công trình, thiết bị dầu khí trên đất liền và trên biển, ngoài những nội dung quy định tại các điểm a, b, c, d, đ, e, g, h, i, k, l, m, n và o khoản này phải có các nội dung chính sau đây theo quy định của pháp luật về xây dựng: thông tin hiện trạng sử dụng đất, điều kiện thu hồi đất, nhu cầu sử dụng đất; địa điểm xây dựng; phương án kết nối hạ tầng kỹ thuật trong và ngoài công trình; giải pháp về xây dựng, vật liệu chủ yếu được sử dụng; đánh giá tác động kinh tế - xã hội, bảo đảm quốc phòng, an ninh của dự án;
+q) Kết luận và kiến nghị.
+3. Nội dung thẩm định kế hoạch phát triển mỏ dầu khí bao gồm:
+a) Đánh giá sự phù hợp với phương án được lựa chọn trong kế hoạch đại cương phát triển mỏ dầu khí;
+b) Đánh giá sự phù hợp của địa chất mỏ, tính chất chất lưu và vỉa chứa, mô hình mô phỏng mỏ, thiết kế khai thác, sản lượng khai thác dầu khí, hệ số thu hồi dầu khí;
+c) Đánh giá sự phù hợp của công nghệ khoan, công nghệ khai thác, hệ thống công trình và thiết bị;
+d) Đánh giá tính hợp lý trong đánh giá hiệu quả kinh tế; mức độ rủi ro công nghệ, biến động giá sản phẩm và tài chính của dự án; tiến độ thực hiện;
+đ) Đánh giá sự phù hợp của các giải pháp thiết kế, tiêu chuẩn áp dụng trong thiết kế kỹ thuật tổng thể;
+e) Đánh giá sự đáp ứng yêu cầu về an toàn và bảo vệ môi trường;
+g) Nội dung thẩm định theo quy định của pháp luật về xây dựng đối với nội dung quy định tại điểm p khoản 2 Điều này.
+4. Việc lập, thẩm định, phê duyệt kế hoạch phát triển mỏ dầu khí thay cho việc lập, thẩm định, phê duyệt báo cáo nghiên cứu khả thi đầu tư xây dựng của dự án dầu khí theo quy định của Luật Xây dựng.
+5. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, phê duyệt điều chỉnh kế hoạch phát triển mỏ dầu khí trong trường hợp việc điều chỉnh dẫn đến tổng mức đầu tư tăng thêm dưới 10% đối với các nội dung sau đây:
+a) Điều chỉnh số lượng, kích thước đường ống nội mỏ, điều chỉnh công suất số lượng thiết bị để tăng hiệu quả dự án hoặc tăng hệ số thu hồi dầu khí;
+b) Điều chỉnh tối ưu vị trí, thứ tự và số lượng giếng khoan để gia tăng sản lượng, trữ lượng hoặc tối ưu hóa đầu tư;
+c) Áp dụng giải pháp kỹ thuật bổ sung, mở vỉa mới được phát hiện trong quá trình khoan phát triển để gia tăng sản lượng khai thác, nâng cao hiệu quả của dự án;
+d) Khai thác thử nghiệm nhằm nâng cao hệ số thu hồi dầu khí;
+đ) Khoan bổ sung các giếng khoan đan dày.
+6. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, báo cáo Bộ Công Thương thẩm định, phê duyệt điều chỉnh kế hoạch phát triển mỏ dầu khí trong các trường hợp khác ngoài quy định tại khoản 5 Điều này.
+7. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt kế hoạch phát triển mỏ dầu khí.
+Điều 49. Đốt và xả khí
+1. Nhà thầu có trách nhiệm thu gom khí sau khi đã sử dụng nội mỏ (nếu có) trong quá trình khai thác dầu khí và phải lập phương án thu gom khí trong kế hoạch khai thác sớm mỏ dầu khí hoặc kế hoạch phát triển mỏ dầu khí.
+2. Nhà thầu được đốt và xả khí trong các trường hợp sau đây:
+a) Trong quá trình thử vỉa để thông và làm sạch giếng; hoàn thiện, sửa chữa hoặc xử lý giếng và để giải tỏa áp suất giếng;
+b) Trong trường hợp khẩn cấp nhằm bảo đảm an toàn cho người, tài sản và hoạt động dầu khí hoặc trong trường hợp hệ thống xử lý, vận chuyển khí tạm ngưng hoạt động do sự cố;
+c) Theo kế hoạch đốt và xả khí hằng năm liên quan đến an toàn vận hành, bảo dưỡng định kỳ của mỏ dầu khí được Tập đoàn Dầu khí Việt Nam phê duyệt.
+Điều 50. Lập, thẩm định, phê duyệt kế hoạch thu dọn công trình dầu khí
+1. Trong quá trình tiến hành hoạt động dầu khí, sau khi kết thúc từng giai đoạn hoặc kết thúc hợp đồng dầu khí, nhà thầu phải thu dọn các công trình dầu khí không còn sử dụng hoặc không thể tiếp tục phục vụ cho hoạt động dầu khí do bị hư hỏng nặng, không phù hợp với công nghệ gây ảnh hưởng đến an toàn và hiệu quả của hoạt động dầu khí.
+2. Trong thời hạn 01 năm kể từ ngày có dòng dầu, khí đầu tiên được khai thác thương mại từ diện tích hợp đồng dầu khí, nhà thầu phải lập kế hoạch thu dọn công trình dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+3. Chậm nhất là 01 năm trước ngày kết thúc hợp đồng dầu khí hoặc kết thúc thời gian khai thác mỏ dầu khí, nhà thầu phải cập nhật kế hoạch thu dọn công trình dầu khí trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt.
+4. Nội dung chính của kế hoạch thu dọn công trình dầu khí bao gồm:
+a) Danh mục, mô tả các phương tiện, tổ hợp thiết bị, các kết cấu công trình của công trình dầu khí cần thu dọn;
+b) Các giải pháp và phương án kỹ thuật thực hiện việc thu dọn công trình dầu khí;
+c) Kế hoạch quản lý chất thải, kiểm soát ô nhiễm môi trường biển, kế hoạch quan trắc môi trường, kế hoạch phòng ngừa, ứng phó sự cố môi trường, kế hoạch bảo đảm an toàn trong quá trình thu dọn công trình dầu khí;
+d) Ước tính chi phí thu dọn, kế hoạch và tiến độ trích lập quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí;
+đ) Tiến độ thực hiện công việc thu dọn công trình dầu khí.
+5. Nội dung thẩm định kế hoạch thu dọn công trình dầu khí bao gồm:
+a) Đánh giá sự phù hợp của danh mục các phương tiện, tổ hợp thiết bị, các kết cấu công trình của công trình dầu khí cần thu dọn;
+b) Đánh giá sự phù hợp của các giải pháp và phương án kỹ thuật thực hiện việc thu dọn công trình dầu khí;
+c) Đánh giá sự phù hợp của kế hoạch quản lý chất thải, kiểm soát ô nhiễm môi trường biển, quan trắc môi trường, phòng ngừa, ứng phó sự cố môi trường, bảo đảm an toàn;
+d) Đánh giá sự phù hợp và tính hợp lý trong ước tính chi phí thu dọn, kế hoạch và tiến độ trích lập quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí, tiến độ thực hiện.
+6. Nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, phê duyệt điều chỉnh kế hoạch thu dọn công trình dầu khí trong trường hợp bổ sung, mở rộng các hạng mục công trình, thiết bị, giếng khoan dẫn đến dự toán chi phí trong kế hoạch thu dọn công trình dầu khí được phê duyệt gần nhất tăng thêm dưới 20%.
+7. Trong quá trình triển khai dự án phát triển, khai thác dầu khí nếu xét thấy công trình dầu khí bị sự cố không có khả năng sửa chữa, khắc phục hoặc không bảo đảm an toàn để duy trì hoạt động, nhà thầu trình Tập đoàn Dầu khí Việt Nam xem xét, phê duyệt phương án thu dọn.
+8. Nhà thầu trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương thẩm định, phê duyệt điều chỉnh kế hoạch thu dọn công trình dầu khí trong các trường hợp sau đây:
+a) Bổ sung, mở rộng các hạng mục công trình, thiết bị, giếng khoan hoặc thay đổi về yêu cầu công nghệ, kỹ thuật, trượt giá dịch vụ dẫn đến dự toán chi phí trong kế hoạch thu dọn công trình dầu khí được phê duyệt gần nhất tăng thêm từ 20% trở lên;
+b) Thu dọn công trình dầu khí phải thực hiện từng phần trong trường hợp chưa xác định trong kế hoạch thu dọn công trình dầu khí đã được phê duyệt hoặc hoãn thu dọn hoặc để lại công trình dầu khí.
+9. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt kế hoạch thu dọn công trình dầu khí.
+Điều 51. Quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí
+1. Việc bảo đảm tài chính cho nghĩa vụ thu dọn công trình dầu khí được thực hiện theo phương thức lập quỹ.
+2. Trong thời hạn 01 năm kể từ ngày có dòng dầu, khí đầu tiên được khai thác thương mại từ diện tích hợp đồng dầu khí, nhà thầu phải lập quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí. Quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí được trích hằng năm trên cơ sở kế hoạch thu dọn công trình dầu khí được phê duyệt và nộp về Tập đoàn Dầu khí Việt Nam. Mức trích nộp quỹ của mỗi nhà thầu tương ứng với tỷ lệ quyền lợi tham gia của nhà thầu đó trong hợp đồng dầu khí và được tính vào chi phí thu hồi của hợp đồng dầu khí.
+3. Trước khi kết thúc hợp đồng dầu khí hoặc kết thúc thời hạn giai đoạn khai thác dầu khí của mỏ, nhà thầu phải hoàn thành trích nộp quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí.
+4. Việc quản lý quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí do Tập đoàn Dầu khí Việt Nam thực hiện, đúng quy định của pháp luật và đáp ứng yêu cầu về thu dọn công trình dầu khí theo kế hoạch thu dọn công trình dầu khí được phê duyệt. Trong thời gian chưa sử dụng quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí, Tập đoàn Dầu khí Việt Nam gửi số tiền của quỹ vào ngân hàng thương mại do Nhà nước nắm giữ cổ phần chi phối; tiền lãi phát sinh hằng năm sau khi thực hiện các nghĩa vụ tài chính theo quy định pháp luật có liên quan được ghi tăng vào quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí.
+5. Trong trường hợp số dư của quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí không đáp ứng đủ nhu cầu cần thiết cho việc thu dọn công trình dầu khí, nhà thầu phải đóng góp bổ sung để bảo đảm hoàn thành nghĩa vụ thu dọn công trình dầu khí. Trường hợp số dư của quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí lớn hơn nhu cầu cần thiết cho việc thu dọn công trình dầu khí thì khoản chênh lệch sau khi hoàn thành nghĩa vụ thu dọn công trình dầu khí sẽ được hoàn trả cho các bên tham gia hợp đồng dầu khí theo quy định của hợp đồng dầu khí.
+6. Chính phủ quy định chi tiết việc trích lập, quản lý và sử dụng quỹ bảo đảm nghĩa vụ thu dọn công trình dầu khí.
+Điều 52. Thực hiện thu dọn công trình dầu khí
+1. Nhà thầu có nghĩa vụ thực hiện thu dọn công trình dầu khí theo kế hoạch thu dọn công trình dầu khí được phê duyệt. Việc thu dọn công trình dầu khí phải bảo đảm các yêu cầu về an toàn và bảo vệ môi trường theo quy định của pháp luật.
+2. Nhà thầu trình Tập đoàn Dầu khí Việt Nam báo cáo Bộ Công Thương chấp thuận việc để lại một phần hoặc toàn bộ công trình dầu khí; hoãn thu dọn một phần hoặc toàn bộ công trình dầu khí.
+3. Nhà thầu phải tiến hành ngay việc thu dọn từng phần hoặc toàn bộ công trình dầu khí hư hỏng nặng; công trình dầu khí xuống cấp nghiêm trọng không có khả năng sửa chữa, khắc phục ảnh hưởng đến an toàn của hoạt động dầu khí.
+4. Trong quá trình khai thác dầu khí, nhà thầu được tiến hành thu dọn trước từng phần hoặc một số hạng mục, thiết bị và hủy bỏ các giếng khoan có trong kế hoạch thu dọn công trình dầu khí đã được phê duyệt mà không còn công năng sử dụng nhằm giảm chi phí vận hành và bảo dưỡng theo quy định tại khoản 7 Điều 50 của Luật này.
+5. Chính phủ quy định về hồ sơ, trình tự, thủ tục trình, thẩm định, phê duyệt việc để lại, hoãn thu dọn hoặc thực hiện thu dọn một phần hay toàn bộ công trình dầu khí.
+Chương VI
+ƯU ĐÃI TRONG HOẠT ĐỘNG DẦU KHÍ VÀ CHÍNH SÁCH KHAI THÁC TÀI NGUYÊN ĐỐI VỚI MỎ, CỤM MỎ, LÔ DẦU KHÍ KHAI THÁC TẬN THU
+Điều 53. Đối tượng ưu đãi
+1. Lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư khi đáp ứng một trong các tiêu chí sau đây:
+a) Lô dầu khí nằm ở vùng nước sâu, xa bờ, khu vực có điều kiện địa lý đặc biệt khó khăn, địa chất phức tạp;
+b) Lô dầu khí thông thường đã tổ chức đấu thầu theo các điều kiện kinh tế, kỹ thuật của hợp đồng dầu khí nhưng không có nhà thầu, nhà đầu tư đề xuất;
+c) Lô dầu khí được hình thành từ diện tích hoàn trả theo hợp đồng dầu khí áp dụng cho lô dầu khí thông thường;
+d) Lô dầu khí thông thường mà nhà thầu trả lại trước khi hết thời hạn hợp đồng dầu khí;
+đ) Lô dầu khí được hình thành từ việc hợp nhất diện tích hoàn trả và lô dầu khí mà nhà thầu trả lại quy định tại điểm c và điểm d khoản này;
+e) Các mỏ dầu khí cận biên thuộc các lô dầu khí thông thường đã ký kết hợp đồng dầu khí;
+g) Tại thời điểm kết thúc hợp đồng dầu khí, các mỏ dầu khí có thể tiếp tục duy trì hoạt động khai thác nhưng không đạt được hiệu quả đầu tư tối thiểu khi áp dụng các điều kiện kinh tế, kỹ thuật của hợp đồng dầu khí thông thường đã ký kết;
+h) Đối tượng dầu khí mới chưa được tìm kiếm thăm dò hoặc phát hiện dầu khí trong bể trầm tích.
+2. Lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư đặc biệt khi đáp ứng một trong các tiêu chí sau đây:
+a) Lô dầu khí đã tổ chức đấu thầu theo điều kiện đối với lô dầu khí được hưởng chính sách ưu đãi đầu tư nhưng không có nhà thầu, nhà đầu tư đề xuất;
+b) Lô dầu khí được hình thành từ diện tích hoàn trả theo hợp đồng dầu khí áp dụng cho lô dầu khí được hưởng chính sách ưu đãi đầu tư;
+c) Lô dầu khí được hưởng chính sách ưu đãi đầu tư mà nhà thầu trả lại trước khi hết thời hạn hợp đồng dầu khí;
+d) Lô dầu khí được hình thành từ diện tích hoàn trả và lô dầu khí mà nhà thầu trả lại quy định tại điểm b và điểm c khoản này;
+đ) Các mỏ dầu khí cận biên thuộc các lô dầu khí được hưởng chính sách ưu đãi đầu tư đã ký kết hợp đồng dầu khí;
+e) Tại thời điểm kết thúc hợp đồng dầu khí được hưởng chính sách ưu đãi đầu tư, các mỏ dầu khí có thể tiếp tục duy trì hoạt động khai thác nhưng không đạt được hiệu quả đầu tư tối thiểu khi áp dụng các điều kiện kinh tế, kỹ thuật của hợp đồng dầu khí được hưởng các chính sách ưu đãi đầu tư;
+g) Lô dầu khí có đối tượng là dầu khí phi truyền thống.
+3. Thủ tướng Chính phủ ban hành danh mục các lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư và ưu đãi đầu tư đặc biệt.
+4. Chính phủ quy định chi tiết Điều này.
+Điều 54. Chính sách ưu đãi
+1. Chính sách ưu đãi áp dụng đối với các lô, mỏ dầu khí được thực hiện thông qua hợp đồng dầu khí.
+2. Hợp đồng dầu khí đối với lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư được áp dụng mức thuế suất thuế thu nhập doanh nghiệp là 32%, thuế suất thuế xuất khẩu dầu thô là 10% và mức thu hồi chi phí tối đa 70% sản lượng dầu khí khai thác được trong năm.
+3. Hợp đồng dầu khí đối với lô, mỏ dầu khí được hưởng chính sách ưu đãi đầu tư đặc biệt được áp dụng mức thuế suất thuế thu nhập doanh nghiệp là 25%, thuế suất thuế xuất khẩu dầu thô là 5% và mức thu hồi chi phí tối đa 80% sản lượng dầu khí khai thác được trong năm.
+Điều 55. Chính sách khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu
+1. Chính sách khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu theo quy định tại điểm c khoản 2 và điểm b khoản 3 Điều 41 của Luật này được thực hiện như sau:
+a) Chênh lệch giữa doanh thu và chi phí thực hiện khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu được nộp vào ngân sách nhà nước trên nguyên tắc bảo đảm hiệu quả hoạt động khai thác tận thu và kiểm soát chặt chẽ chi phí hoạt động dầu khí;
+b) Được sử dụng thông tin, dữ liệu, tài liệu, mẫu vật, công trình dầu khí và tài sản khác đã được lắp đặt, đầu tư của hợp đồng dầu khí đã kết thúc để thực hiện hoạt động khai thác tận thu mà không phải trả tiền;
+c) Việc đầu tư bổ sung để khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu, thu dọn công trình dầu khí và xử lý sau thu dọn khi kết thúc hoạt động khai thác được thực hiện theo quy định của Luật này và trên cơ sở cân đối nguồn thu từ hoạt động khai thác tận thu đối với mỏ, cụm mỏ, lô dầu khí.
+2. Chính phủ quy định chi tiết Điều này.
+Chương VII
+CÔNG TÁC KẾ TOÁN, KIỂM TOÁN, QUYẾT TOÁN ĐỐI VỚI HOẠT ĐỘNG DẦU KHÍ
+Điều 56. Công tác kế toán, kiểm toán đối với hoạt động dầu khí theo hợp đồng dầu khí
+1. Công tác kế toán, kiểm toán đối với hoạt động dầu khí theo hợp đồng dầu khí được thực hiện theo quy định của pháp luật về kế toán, kiểm toán Việt Nam và phù hợp với thông lệ công nghiệp dầu khí quốc tế.
+2. Thuế thu nhập doanh nghiệp đối với hoạt động dầu khí được xác định trên cơ sở hợp đồng dầu khí theo quy định của Luật này và Luật Thuế thu nhập doanh nghiệp không phụ thuộc vào kết quả sản xuất kinh doanh (lỗ hoặc lãi) của doanh nghiệp tham gia hợp đồng dầu khí.
+3. Trong trường hợp lô dầu khí có các mỏ dầu khí cận biên thuộc các lô dầu khí đã ký kết hợp đồng dầu khí theo quy định tại điểm e khoản 1 và điểm đ khoản 2 Điều 53 của Luật này, công tác kế toán, kiểm toán, khai, nộp thuế thực hiện theo mỏ và theo hợp đồng dầu khí.
+Điều 57. Quyết toán chi phí hoạt động dầu khí theo hợp đồng dầu khí
+1. Quyết toán chi phí hoạt động dầu khí theo hợp đồng dầu khí được nhà thầu tiến hành sau khi hoàn thành công việc theo từng khoản mục, hạng mục và từng giai đoạn trong hợp đồng dầu khí hoặc khi kết thúc dự án dầu khí, dự án thành phần của dự án dầu khí.
+2. Việc thực hiện quyết toán chi phí bảo đảm nguyên tắc chi phí quyết toán phản ánh trung thực, đầy đủ, hợp lý, hợp lệ theo quy định của pháp luật Việt Nam.
+3. Chính phủ quy định chi tiết Điều này.
+Chương VIII
+QUYỀN VÀ NGHĨA VỤ CỦA NHÀ THẦU
+Điều 58. Quyền của nhà thầu
+1. Nhà thầu có các quyền sau đây:
+a) Hưởng các ưu đãi và bảo đảm đầu tư theo quy định của pháp luật Việt Nam;
+b) Sử dụng các mẫu vật, thông tin, dữ liệu thu được để tiến hành các hoạt động dầu khí;
+c) Tuyển dụng người lao động trên cơ sở ưu tiên tuyển dụng người lao động Việt Nam;
+d) Thuê tổ chức, cá nhân cung cấp dịch vụ dầu khí, hàng hóa phục vụ hoạt động dầu khí theo quy định của Luật này và phù hợp với thông lệ công nghiệp dầu khí quốc tế;
+đ) Miễn thuế nhập khẩu, thuế xuất khẩu để phục vụ hoạt động dầu khí theo quy định của Luật Thuế xuất khẩu, thuế nhập khẩu;
+e) Sở hữu phần sản phẩm dầu khí và các sản phẩm khác khai thác được theo hợp đồng dầu khí sau khi hoàn thành các nghĩa vụ tài chính theo quy định của pháp luật; được phép bán chung các sản phẩm này theo từng lần và từng thời điểm xuất bán mà không bị coi là vi phạm pháp luật về cạnh tranh;
+g) Xuất khẩu, bán tại thị trường Việt Nam phần sản phẩm thuộc sở hữu theo thỏa thuận trong hợp đồng dầu khí, trừ trường hợp nhà thầu phải thực hiện nghĩa vụ bán tại thị trường Việt Nam theo quy định tại khoản 8 Điều 59 của Luật này. Nhà thầu không cần xin giấy phép xuất khẩu khi xuất khẩu phần sản phẩm thuộc sở hữu;
+h) Thu hồi chi phí hoạt động dầu khí theo thỏa thuận trong hợp đồng dầu khí;
+i) Tiếp cận, sử dụng đối với hệ thống giao thông, cơ sở hạ tầng, công trình dầu khí sẵn có theo quy định của pháp luật; tiếp cận, sử dụng các cơ sở hạ tầng, công trình dầu khí sẵn có để phục vụ cho việc thực hiện các hoạt động dầu khí thông qua hợp đồng hoặc thỏa thuận với đơn vị chủ sở hữu hoặc quản lý vận hành các cơ sở hạ tầng, công trình dầu khí trên cơ sở bảo đảm lợi ích của các bên phù hợp với quy định của pháp luật;
+k) Mua ngoại tệ tại ngân hàng thương mại để thực hiện góp vốn tham gia hợp đồng dầu khí và thực hiện nghĩa vụ nộp ngân sách nhà nước;
+l) Quyền khác theo quy định của Luật này.
+2. Ngoài các quyền quy định tại khoản 1 Điều này, nhà thầu là tổ chức, cá nhân nước ngoài có các quyền sau đây:
+a) Mở tài khoản tại Việt Nam và nước ngoài theo quy định của pháp luật về quản lý ngoại hối;
+b) Chuyển thu nhập hợp pháp có được từ hoạt động dầu khí theo quy định của hợp đồng dầu khí ra nước ngoài theo quy định của pháp luật về quản lý ngoại hối và quy định khác của pháp luật có liên quan sau khi thực hiện các nghĩa vụ tài chính theo quy định của pháp luật;
+c) Mua ngoại tệ tại ngân hàng thương mại để thực hiện các giao dịch vãng lai và các giao dịch được phép khác theo quy định của pháp luật về quản lý ngoại hối.
+Điều 59. Nghĩa vụ của nhà thầu
+1. Thực hiện các cam kết trong hợp đồng dầu khí.
+2. Khai, nộp các loại thuế, phí và lệ phí theo quy định của pháp luật Việt Nam.
+3. Chuyển giao công nghệ; đào tạo, sử dụng người lao động Việt Nam và bảo đảm quyền và lợi ích hợp pháp, chính đáng của người lao động.
+4. Tuân thủ các quy định của pháp luật về quốc phòng, an ninh; thực hiện các biện pháp bảo vệ môi trường và bảo đảm an toàn trong hoạt động dầu khí; thực hiện các quy định, hướng dẫn của cơ quan quản lý nhà nước về định mức chi phí, định mức kinh tế, kỹ thuật.
+5. Báo cáo hoạt động dầu khí với cơ quan quản lý nhà nước có thẩm quyền, Tập đoàn Dầu khí Việt Nam và báo cáo cơ quan thuế có thẩm quyền theo quy định của pháp luật về thuế khi phát sinh nghiệp vụ chuyển nhượng làm thay đổi chủ sở hữu của nhà thầu đang nắm giữ quyền lợi tham gia trong hợp đồng dầu khí tại Việt Nam.
+6. Cung cấp các tài liệu cần thiết cho đoàn kiểm tra, đoàn thanh tra của cơ quan chức năng khi có yêu cầu.
+7. Thu dọn các công trình dầu khí, thiết bị, phương tiện sau khi kết thúc hoạt động dầu khí theo quy định của pháp luật.
+8. Bán tại thị trường Việt Nam khi Chính phủ yêu cầu đối với các sản phẩm sau đây:
+a) Phần khí thiên nhiên thuộc sở hữu của nhà thầu trên cơ sở thỏa thuận tại các dự án phát triển khai thác khí;
+b) Phần dầu thô thuộc sở hữu của nhà thầu theo giá cạnh tranh quốc tế.
+9. Chuyển tiền góp vốn vào tài khoản chung do người điều hành hoặc văn phòng điều hành của người điều hành mở tại Việt Nam để thực hiện chi trả phục vụ hoạt động dầu khí theo quy định của hợp đồng dầu khí.
+10. Chia sẻ việc sử dụng cơ sở hạ tầng, công trình dầu khí sẵn có với bên thứ ba trên cơ sở các hợp đồng hoặc thỏa thuận giữa các bên với điều kiện không làm ảnh hưởng đến hoạt động dầu khí, phù hợp với quy định của pháp luật Việt Nam và thông lệ công nghiệp dầu khí quốc tế.
+11. Tạo điều kiện cho các tổ chức, cá nhân tiến hành các hoạt động nghiên cứu khoa học, tìm kiếm thăm dò và khai thác khoáng sản, tài nguyên thiên nhiên khác ngoài dầu khí trong diện tích hợp đồng dầu khí phù hợp với quy định của pháp luật Việt Nam trên nguyên tắc không cản trở hoạt động dầu khí và không gây thiệt hại đối với con người, tài sản, môi trường.
+12. Tổ chức lựa chọn nhà thầu cung cấp dịch vụ dầu khí, hàng hóa phục vụ hoạt động dầu khí trên cơ sở bảo đảm nguyên tắc cạnh tranh, công bằng, minh bạch, hiệu quả và phù hợp với quy định của hợp đồng dầu khí; báo cáo Tập đoàn Dầu khí Việt Nam về việc tổ chức lựa chọn nhà thầu cung cấp dịch vụ dầu khí, hàng hóa phục vụ hoạt động dầu khí.
+13. Nghĩa vụ khác theo quy định của Luật này và luật khác có liên quan.
+Chương IX
+CHỨC NĂNG, QUYỀN VÀ NGHĨA VỤ CỦA TẬP ĐOÀN DẦU KHÍ VIỆT NAM TRONG ĐIỀU TRA CƠ BẢN VỀ DẦU KHÍ VÀ HOẠT ĐỘNG DẦU KHÍ
+Điều 60. Chức năng của Tập đoàn Dầu khí Việt Nam trong điều tra cơ bản về dầu khí và hoạt động dầu khí
+1. Tiến hành điều tra cơ bản về dầu khí, thực hiện hoạt động dầu khí với vai trò nhà thầu ký kết hợp đồng dầu khí theo quy định của Luật này. Tập đoàn Dầu khí Việt Nam tham gia cùng với doanh nghiệp có vốn góp của Tập đoàn Dầu khí Việt Nam vào các hợp đồng dầu khí theo quy định tại Điều 39 của Luật này không bị coi là vi phạm pháp luật về quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp.
+2. Sau khi đề án điều tra cơ bản về dầu khí được phê duyệt, thực hiện ký kết thỏa thuận thực hiện điều tra cơ bản về dầu khí với tổ chức ngoài cơ quan, doanh nghiệp nhà nước chủ trì thực hiện đề án điều tra cơ bản về dầu khí.
+3. Sau khi hợp đồng dầu khí được phê duyệt, thực hiện ký kết và quản lý hợp đồng dầu khí với các tổ chức, cá nhân tiến hành hoạt động dầu khí; thực hiện quyền tham gia, quyền ưu tiên mua trước một phần hoặc toàn bộ quyền lợi của nhà thầu trong hợp đồng dầu khí bao gồm cả trường hợp đặc biệt.
+4. Tiếp nhận, quản lý, điều hành mỏ, cụm mỏ, lô dầu khí từ nhà thầu khi hợp đồng dầu khí hết thời hạn để lựa chọn nhà thầu ký kết hợp đồng dầu khí mới.
+5. Khai thác theo chính sách khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu.
+6. Để thực hiện chức năng quy định tại các khoản 2, 3, 4 và 5 Điều này, Tập đoàn Dầu khí Việt Nam có các quyền và nghĩa vụ quy định tại Điều 61 và Điều 62 của Luật này.
+Điều 61. Quyền của Tập đoàn Dầu khí Việt Nam
+1. Ký kết thỏa thuận với tổ chức ngoài cơ quan, doanh nghiệp nhà nước chủ trì thực hiện đề án điều tra cơ bản dầu khí; quản lý, giám sát thực hiện thỏa thuận liên quan đến khai thác thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+2. Ký kết hợp đồng dầu khí với các tổ chức, cá nhân để tiến hành hoạt động dầu khí theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+3. Quản lý, giám sát thực hiện hợp đồng dầu khí; phê duyệt chương trình hoạt động và ngân sách hoạt động hằng năm; kiểm toán chi phí thực hiện hoạt động dầu khí theo quy định của hợp đồng dầu khí; phê duyệt quyết toán chi phí theo hợp đồng dầu khí.
+4. Phê duyệt các chương trình tìm kiếm thăm dò dầu khí, tìm kiếm thăm dò dầu khí điều chỉnh, thăm dò dầu khí bổ sung theo quy định tại Điều 44 của Luật này.
+5. Phê duyệt điều chỉnh kế hoạch đại cương phát triển mỏ, kế hoạch khai thác sớm mỏ dầu khí, kế hoạch phát triển mỏ dầu khí, kế hoạch thu dọn công trình dầu khí quy định tại khoản 5 Điều 46, khoản 5 Điều 47, khoản 5 Điều 48 và khoản 6 Điều 50 của Luật này; phê duyệt phương án thu dọn quy định tại khoản 7 Điều 50 của Luật này.
+6. Giám sát công tác thiết kế, xây dựng công trình dầu khí theo quy định của hợp đồng dầu khí.
+7. Tổ chức bán phần sản phẩm của nước chủ nhà cùng với phần sản phẩm của Tập đoàn Dầu khí Việt Nam với tư cách là bên nhà thầu khai thác được theo hợp đồng dầu khí, được phép bán chung sản phẩm này với các nhà thầu khác trong hợp đồng dầu khí theo quy định tại điểm e khoản 1 Điều 58 của Luật này.
+8. Quản lý, điều hành hoạt động dầu khí; khai thác tận thu và đầu tư bổ sung để khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu và theo dõi, sử dụng tài sản liên quan đến việc tiếp nhận quyền lợi tham gia của nhà thầu, tiếp nhận mỏ, cụm mỏ, lô dầu khí.
+Điều 62. Nghĩa vụ của Tập đoàn Dầu khí Việt Nam
+1. Tổ chức quản lý, điều hành, khai thác hiệu quả, hợp lý nguồn tài nguyên dầu khí, bảo vệ tài nguyên, môi trường và bảo đảm an toàn trong hoạt động dầu khí.
+2. Tổ chức quản lý, lưu giữ, bảo quản, sử dụng mẫu vật, tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí do tổ chức ngoài cơ quan, doanh nghiệp nhà nước chủ trì thực hiện điều tra cơ bản về dầu khí; mẫu vật, tài liệu, thông tin và dữ liệu thu được trong quá trình triển khai hoạt động dầu khí và sau khi kết thúc hợp đồng dầu khí bảo đảm quyền tiếp cận của tổ chức, cá nhân đối với tài liệu, thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí và hoạt động dầu khí.
+3. Quản lý, giám sát thực hiện thỏa thuận điều tra cơ bản về dầu khí liên quan đến khai thác thông tin, dữ liệu và kết quả điều tra cơ bản về dầu khí chặt chẽ theo đúng quy định của pháp luật và thỏa thuận được ký kết.
+4. Quản lý, giám sát thực hiện hợp đồng dầu khí chặt chẽ, hiệu quả theo đúng quy định của pháp luật và hợp đồng dầu khí.
+5. Báo cáo các hoạt động dầu khí với cơ quan quản lý nhà nước có thẩm quyền định kỳ hoặc theo yêu cầu.
+6. Đề xuất giải pháp, phối hợp theo yêu cầu của các cơ quan quản lý nhà nước có thẩm quyền trong việc hoạch định chính sách, chiến lược, định hướng liên quan đến việc tổ chức khai thác hợp lý và có hiệu quả nguồn tài nguyên dầu khí, bảo vệ tài nguyên môi trường và phát triển bền vững.
+Điều 63. Phê duyệt việc sử dụng vốn của Tập đoàn Dầu khí Việt Nam và doanh nghiệp 100% vốn của Tập đoàn Dầu khí Việt Nam trong hoạt động dầu khí
+Hội đồng thành viên Tập đoàn Dầu khí Việt Nam chịu trách nhiệm:
+1. Phê duyệt việc sử dụng vốn của Tập đoàn Dầu khí Việt Nam và doanh nghiệp 100% vốn của Tập đoàn Dầu khí Việt Nam không phụ thuộc vào mức vốn góp sau khi được phê duyệt theo quy định của Luật này trong các trường hợp sau đây:
+a) Thực hiện quyền tham gia vào hợp đồng dầu khí và quyền ưu tiên mua trước một phần hoặc toàn bộ quyền lợi tham gia quy định tại Điều 39 của Luật này;
+b) Thực hiện hoạt động dầu khí theo các giai đoạn của hợp đồng dầu khí, dự án dầu khí;
+2. Phê duyệt kết thúc dự án dầu khí không thành công và chi phí dự án dầu khí không thành công của Tập đoàn Dầu khí Việt Nam và doanh nghiệp 100% vốn của Tập đoàn Dầu khí Việt Nam;
+3. Báo cáo Ủy ban Quản lý vốn nhà nước tại doanh nghiệp về các nội dung đã phê duyệt theo quy định tại khoản 1 và khoản 2 Điều này để theo dõi, kiểm tra, giám sát.
+Điều 64. Xử lý các chi phí của Tập đoàn Dầu khí Việt Nam
+1. Chi phí điều tra cơ bản về dầu khí do Tập đoàn Dầu khí Việt Nam thực hiện ngoài phần kinh phí được bảo đảm bằng nguồn ngân sách nhà nước (nếu có) được thanh toán bằng nguồn lợi nhuận sau thuế của Tập đoàn Dầu khí Việt Nam.
+2. Chi phí tìm kiếm thăm dò dầu khí của dự án tìm kiếm thăm dò dầu khí không thành công của Tập đoàn Dầu khí Việt Nam, sau khi có quyết định của Hội đồng thành viên Tập đoàn Dầu khí Việt Nam về việc kết thúc dự án dầu khí và quyết toán chi phí, được bù đắp từ nguồn lợi nhuận sau thuế hằng năm của Tập đoàn Dầu khí Việt Nam và thực hiện phân bổ trong thời gian 05 năm kể từ thời điểm có quyết định kết thúc dự án và quyết toán chi phí.
+3. Các chi phí quy định tại khoản 1 và khoản 2 Điều này được xử lý từ nguồn lợi nhuận sau thuế của Tập đoàn Dầu khí Việt Nam trước khi trích các quỹ theo quy định của pháp luật về quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp.
+4. Tập đoàn Dầu khí Việt Nam được sử dụng tiền từ việc bán phần sản phẩm dầu, khí lãi của nước chủ nhà từ các hợp đồng dầu khí trước khi xác định lãi được chia cho nước chủ nhà nộp ngân sách nhà nước để thanh toán các chi phí, nghĩa vụ sau đây:
+a) Các chi phí thuộc trách nhiệm của nước chủ nhà theo quy định tại hợp đồng dầu khí được Tập đoàn Dầu khí Việt Nam thực hiện thay;
+b) Các nghĩa vụ đối với phần dầu, khí lãi của nước chủ nhà từ hợp đồng dầu khí do Tập đoàn Dầu khí Việt Nam thực hiện thay;
+c) Chi phí quản lý, giám sát các hợp đồng dầu khí;
+d) Chi phí duy trì hợp đồng dầu khí trong trường hợp tiếp nhận quyền lợi tham gia từ nhà thầu vì lý do đặc biệt hoặc thực hiện các nhiệm vụ được Thủ tướng Chính phủ giao liên quan đến hoạt động dầu khí.
+Chương X
+QUẢN LÝ NHÀ NƯỚC VÀ TRÁCH NHIỆM CỦA ỦY BAN QUẢN LÝ VỐN NHÀ NƯỚC TẠI DOANH NGHIỆP VỀ ĐIỀU TRA CƠ BẢN VỀ DẦU KHÍ VÀ HOẠT ĐỘNG DẦU KHÍ
+Điều 65. Trách nhiệm quản lý nhà nước về điều tra cơ bản về dầu khí và hoạt động dầu khí
+1. Chính phủ thống nhất quản lý nhà nước về điều tra cơ bản về dầu khí và hoạt động dầu khí.
+2. Bộ Công Thương chịu trách nhiệm trước Chính phủ thực hiện quản lý nhà nước về điều tra cơ bản về dầu khí và hoạt động dầu khí và có các nhiệm vụ, quyền hạn sau đây:
+a) Ban hành theo thẩm quyền hoặc trình cơ quan nhà nước có thẩm quyền ban hành văn bản quy phạm pháp luật, chiến lược, kế hoạch phát triển ngành dầu khí;
+b) Xây dựng, ban hành, hướng dẫn về định mức chi phí, định mức kinh tế, kỹ thuật cho điều tra cơ bản về dầu khí và hoạt động dầu khí;
+c) Tổng hợp, theo dõi, báo cáo tình hình phát triển và kết quả tìm kiếm thăm dò, khai thác, tiêu thụ dầu khí trong nước và xuất khẩu;
+d) Thực hiện hợp tác quốc tế;
+đ) Hướng dẫn, phổ biến, tổ chức thực hiện, theo dõi, kiểm tra, đánh giá việc thực hiện văn bản quy phạm pháp luật về dầu khí;
+e) Kiểm tra, thanh tra, xử lý vi phạm và giải quyết khiếu nại, tố cáo về điều tra cơ bản về dầu khí và hoạt động dầu khí theo thẩm quyền;
+g) Chủ trì, phối hợp với các Bộ, cơ quan ngang Bộ kiểm tra, giám sát việc thực hiện quyền và nghĩa vụ của Tập đoàn Dầu khí Việt Nam quy định tại Điều 61 và Điều 62 của Luật này;
+h) Thực hiện các nhiệm vụ khác về quản lý nhà nước đối với điều tra cơ bản về dầu khí và hoạt động dầu khí thuộc thẩm quyền theo quy định của Luật này.
+3. Các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm phối hợp với Bộ Công Thương thực hiện quản lý nhà nước về điều tra cơ bản về dầu khí và hoạt động dầu khí.
+Điều 66. Trách nhiệm của Ủy ban Quản lý vốn nhà nước tại doanh nghiệp
+1. Tham gia ý kiến về việc sử dụng vốn của Tập đoàn Dầu khí Việt Nam khi thực hiện quyền tham gia vào hợp đồng dầu khí, quyền ưu tiên mua trước quyền lợi tham gia trong hợp đồng dầu khí, thực hiện hoạt động dầu khí theo các giai đoạn của hợp đồng dầu khí, dự án dầu khí, gửi Bộ Công Thương tổng hợp trong quá trình thực hiện thẩm định các nội dung theo quy định của Luật này.
+2. Kiểm tra, giám sát việc góp vốn tham gia hợp đồng dầu khí, chuyển nhượng quyền lợi tham gia trong hợp đồng dầu khí, thực hiện hoạt động dầu khí theo các giai đoạn của hợp đồng dầu khí, dự án dầu khí của Tập đoàn Dầu khí Việt Nam.
+Chương XI
+ĐIỀU KHOẢN THI HÀNH
+Điều 67. Sửa đổi, bổ sung một số điều của Luật Thuế thu nhập doanh nghiệp và Luật Thuế tài nguyên
+1. Sửa đổi, bổ sung
+khoản 3 Điều 10 của Luật Thuế thu nhập doanh nghiệp số 14/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 32/2013/QH13, Luật số 71/2014/QH13 và Luật số 61/2020/QH14 như sau:
+Thay thế cụm từ “Thuế suất thuế thu nhập doanh nghiệp đối với hoạt động tìm kiếm, thăm dò, khai thác dầu, khí và tài nguyên quý hiếm khác tại Việt Nam từ 32% đến 50% phù hợp với từng dự án, từng cơ sở kinh doanh.” bằng cụm từ “Thuế suất thuế thu nhập doanh nghiệp đối với hoạt động dầu khí từ 25% đến 50% phù hợp với từng hợp đồng dầu khí; thuế suất thuế thu nhập doanh nghiệp đối với hoạt động tìm kiếm, thăm dò, khai thác tài nguyên quý hiếm khác tại Việt Nam từ 32% đến 50% phù hợp với từng dự án, từng cơ sở kinh doanh.”.
+2. Sửa đổi, bổ sung
+khoản 1 Điều 3 của Luật Thuế tài nguyên số 45/2009/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 71/2014/QH13 như sau:
+“1. Người nộp thuế tài nguyên là tổ chức, cá nhân khai thác tài nguyên thuộc đối tượng chịu thuế tài nguyên, trừ trường hợp khai thác tài nguyên đối với mỏ, cụm mỏ, lô dầu khí khai thác tận thu theo quy định của pháp luật về dầu khí.”.
+Điều 68. Hiệu lực thi hành
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2023.
+2. Luật Dầu khí ngày 06 tháng 7 năm 1993 đã được sửa đổi, bổ sung một số điều theo Luật số 19/2000/QH10, Luật số 10/2008/QH12 và Luật số 35/2018/QH14 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành.
+Điều 69. Quy định chuyển tiếp
+1. Nhà thầu ký kết hợp đồng dầu khí đã được cấp giấy chứng nhận đăng ký đầu tư trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo hợp đồng dầu khí đã ký kết và giấy chứng nhận đăng ký đầu tư đã cấp.
+2. Đề án, báo cáo, kế hoạch, chương trình dầu khí đã phê duyệt trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo các nội dung đã được phê duyệt và không phải bổ sung các nội dung quy định tại Luật này.
+3. Báo cáo, kế hoạch, chương trình, hợp đồng dầu khí đã trình cơ quan có thẩm quyền trước ngày Luật này có hiệu lực thi hành thì không phải trình lại và được thẩm định, phê duyệt theo quy định của pháp luật trước ngày Luật này có hiệu lực thi hành.
+4. Hoạt động vận hành khai thác tận thu theo cơ chế điều hành đã được phê duyệt trước ngày Luật này có hiệu lực thi hành thì tiếp tục thực hiện theo quyết định đã được ban hành và quy định của pháp luật trước ngày Luật này có hiệu lực thi hành./.
+Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 4 thông qua ngày 14 tháng 11 năm 2022.
+CHỦ TỊCH QUỐC HỘI
+Vương Đình Huệ
