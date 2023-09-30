@@ -1,0 +1,16 @@
+# ::id lpp_1943.2 ::date 2033-06-07T21:10:00 ::annotator UTS-AMR-01 ::preferred
+# ::snt Hồi lên sáu tuổi, có lần tôi thấy một hình ảnh lộng lẫy trong một cuốn sách viết về rừng hoang, tựa là Những chuyện từng trải.
+# ::save-date Sat Sep 30, 2023 ::file lpp_1943_2.txt
+(s / thấy-01
+      :ARG0 (t / tôi)
+      :ARG1 (h / hình-ảnh
+            :mod (l / lộng-lẫy)
+            :location (s / sách :wiki -
+                  :name (t / tên :op1 "Những" :op2 "chuyện" :op3 "từng" :op4 "trải")
+                  :topic (r / rừng
+                        :mod (h2 / hoang-dã))))
+      :mod (c / có-lần)
+      :time (l2 / lúc
+            :ARG1 t
+            :ARG2 (t2 / thời-gian :quant 6
+                  :unit (n / năm))))
