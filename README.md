@@ -293,6 +293,31 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
+<summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
+<code>⚛️</code>
+</summary>
+
+<br/>
+
+Lang Detect API. Thanks to awesome work from [FastText](https://fasttext.cc/docs/en/language-identification.html)
+
+Install extend dependencies and models
+
+    ```bash
+    $ pip install underthesea[lang-detect]
+    ```
+
+Usage examples in script
+
+    ```python
+    >>> from underthesea.pipeline.lang_detect import lang_detect
+    
+    >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    vi
+    ```
+</details>
+
+<details>
 <summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
 <code>⚛️</code>
 </summary>
@@ -363,7 +388,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 * Automatic Speech Recognition
 * Machine Translation
-* Chatbot (Chat & Speak)
+* Chatbot Agent
 
 ## Contributing
 

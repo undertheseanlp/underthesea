@@ -49,6 +49,11 @@ try:
 except Exception:
     pass
 
+try:
+    from underthesea.pipeline.lang_detect import lang_detect
+except Exception as e:
+    print(e)
+    
 
 # lazy loading
 def dependency_parse(*args, **kwargs):
@@ -61,6 +66,7 @@ __all__ = [
     'text_normalize',
     'word_tokenize', 'pos_tag', 'chunk',
     'ner',
+    'lang_detect',
     'classify', 'sentiment',
     'dependency_parse'
 ]

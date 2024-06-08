@@ -48,4 +48,12 @@ VIET_TTS_V0_4_1:
   year: 2023
   url: https://github.com/undertheseanlp/underthesea/releases/download/resources/viet_tts_v0.4.1.zip
   filename: viet_tts_v0.4.1.zip
+LANG_DETECT_FAST_TEXT:
+  cache_dir: models
+  model_path: LANG_DETECT_FAST_TEXT
+  type: Lang Detect
+  license: Open
+  year: 2020
+  url: https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
+  filename: lid.176.bin
   

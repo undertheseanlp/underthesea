@@ -42,6 +42,9 @@ extras_require = {
     ],
     'prompt': [
         'openai'
+    ],
+    'lang-detect': [
+        'fasttext   '
     ]
 }
 setup(
