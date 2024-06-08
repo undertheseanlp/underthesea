@@ -1,7 +1,5 @@
 import fasttext
 import os
-from os.path import join
-
 from underthesea.model_fetcher import ModelFetcher
 
 fasttext.FastText.eprint = lambda x: None
@@ -22,5 +20,4 @@ def lang_detect(text):
 
     predictions = lang_detect_model.predict(text)
     language = predictions[0][0].replace('__label__', '')
-    
     return language

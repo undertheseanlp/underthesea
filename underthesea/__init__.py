@@ -53,7 +53,7 @@ try:
     from underthesea.pipeline.lang_detect import lang_detect
 except Exception as e:
     print(e)
-    
+
 
 # lazy loading
 def dependency_parse(*args, **kwargs):
