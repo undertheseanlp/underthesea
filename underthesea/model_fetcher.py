@@ -23,6 +23,7 @@ class UTSModel(Enum):
     sa_general = "SA_GENERAL"
     sa_bank = "SA_BANK"
     sa_bank_v131 = "SA_BANK_V131"
+    lang_detect_fast_text = "LANG_DETECT_FAST_TEXT"
 
 # flake8: noqa: C901
 
@@ -161,6 +162,10 @@ class ModelFetcher:
         if model_name == "VIET_TTS_V0_4_1":
             ModelFetcher.download_zip(REPO[model_name])
 
+        if model_name == "LANG_DETECT_FAST_TEXT":
+            url = "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin"
+            cached_path(url, cache_dir=cache_dir)
+
     @staticmethod
     def list(all=False):
         models = []
@@ -206,6 +211,13 @@ class ModelFetcher:
 
         if model == UTSModel.sa_bank:
             return Path(UNDERTHESEA_FOLDER) / "models" / "SA_BANK"
+
+        if model == UTSModel.sa_bank:
+            return Path(UNDERTHESEA_FOLDER) / "models" / "SA_BANK"
+
+        if model == "LANG_DETECT_FAST_TEXT":
+            return Path(UNDERTHESEA_FOLDER) / "models" / "lid.176.bin"
+        
         return Path(UNDERTHESEA_FOLDER) / "models" / model
 
 
