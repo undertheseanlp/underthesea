@@ -1,31 +1,44 @@
 on:
-  push:
-    branches:
-      - 'core'
+  pull_request:
+    branches: [ main ]
+    types:
+      - labeled
+      - synchronize
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}/build_rust
-  VERSION: 1.0.0
+  VERSION: 1.0.1
 
 jobs:
   docker:
-    if: contains(github.event.head_commit.message, 'Docker build image')
     runs-on: ubuntu-latest
     steps:
+      - name: Get PR Labels
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_LABELS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')
+          echo "$PR_LABELS"
+          echo "PR_LABELS=$PR_LABELS" >> $GITHUB_ENV
       - name: Checkout
+        if: contains(env.PR_LABELS, 'docker-build-image')
         uses: actions/checkout@v3
       - name: Set up QEMU
+        if: contains(env.PR_LABELS, 'docker-build-image')
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
+        if: contains(env.PR_LABELS, 'docker-build-image')
         uses: docker/setup-buildx-action@v2
       - name: Login to ghcr.io
+        if: contains(env.PR_LABELS, 'docker-build-image')
         uses: docker/login-action@v2
         with:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Extract metadata (tags, labels) for Docker
+        if: contains(env.PR_LABELS, 'docker-build-image')
         id: meta
         uses: docker/metadata-action@v4
         with:
@@ -35,6 +48,7 @@ jobs:
           tags: |
             type=raw,value=${{ env.VERSION }}
       - name: Build and push
+        if: contains(env.PR_LABELS, 'docker-build-image')
         uses: docker/build-push-action@v2
         with:
           context: .
