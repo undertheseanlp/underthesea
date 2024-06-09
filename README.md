@@ -304,7 +304,7 @@ Lang Detect API. Thanks to awesome work from [FastText](https://fasttext.cc/docs
 Install extend dependencies and models
 
     ```bash
-    $ pip install underthesea[lang-detect]
+    $ pip install underthesea[langdetect]
     ```
 
 Usage examples in script
