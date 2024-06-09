@@ -3,6 +3,7 @@ on:
     branches: [ main ]
     types:
       - labeled
+      - synchronize
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
