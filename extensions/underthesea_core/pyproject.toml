@@ -9,10 +9,10 @@ repository = "https://github.com/undertheseanlp/underthesea/"
 homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = "^3.8"
 
 [tool.poetry.dev-dependencies]
-maturin = "^0.9.4"
+maturin = "^1.6.0"
 
 [build-system]
 requires = ["setuptools"]
