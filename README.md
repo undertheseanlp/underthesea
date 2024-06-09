@@ -310,7 +310,7 @@ Install extend dependencies and models
 Usage examples in script
 
     ```python
-    >>> from underthesea.pipeline.lang_detect import lang_detect
+    >>> from underthesea import lang_detect
     
     >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
     vi

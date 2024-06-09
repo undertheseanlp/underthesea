@@ -96,6 +96,7 @@ def info():
     print("            classify : OK")
     print("           sentiment : OK")
     print("    dependency_parse : OK")
+    print("         lang_detect : OK")
     print("           resources : OK")
 
 
