@@ -15,13 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.label.name == 'docker-build-image' }}
     steps:
-      - name: Get PR Labels
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          PR_LABELS=$(gh pr view https://github.com/${{ github.repository }}/pull/${{ github.event.pull_request.number }} --json labels --jq '[.labels[].name]')
-          echo "$PR_LABELS"
-          echo "PR_LABELS=$PR_LABELS" >> $GITHUB_ENV
       - name: Checkout
         uses: actions/checkout@v3
       - name: Set up QEMU
@@ -47,7 +40,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: ./extensions/docker/Dockerfile
+          file: ./extensions/docker/build-image/Dockerfile
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
