@@ -1,17 +1,20 @@
 on:
-  push:
-    branches: [ core ]
+  pull_request:
+    branches: [ main ]
+    types:
+      - labeled
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+  PYTHON_SUPPORTED_VERSIONS: ["3.8", "3.9", "3.10", "3.11", "3.12"]
 
 jobs:
   source_distribute:
     name: "Source Distribute"
-    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
+    if: ${{ github.event.label.name == 'release-pypi-core' }}
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:2.0.0a0
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
@@ -40,10 +43,10 @@ jobs:
           twine upload ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
   linux:
     name: "Linux"
-    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
+    if: ${{ github.event.label.name == 'release-pypi-core' }}
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
+      image: ghcr.io/undertheseanlp/underthesea/build_rust:2.0.0a0
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
@@ -72,7 +75,7 @@ jobs:
           $PYTHON -m poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   windows:
     name: "Windows"
-    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
+    if: ${{ github.event.label.name == 'release-pypi-core' }}
     runs-on: windows-latest
     strategy:
       fail-fast: false
@@ -105,10 +108,10 @@ jobs:
         poetry run maturin build --release --no-sdist --strip --interpreter python
         dir target\wheels\
         poetry run maturin publish --username __token__ --no-sdist --interpreter python
-  macos-x86:
-    name: "MacOS x86"
-    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
-    runs-on: macos-latest
+  macos-x64:
+    name: "MacOS x64"
+    if: ${{ github.event.label.name == 'release-pypi-core' }}
+    runs-on: macos-13
     strategy:
       fail-fast: false
       matrix:
@@ -144,8 +147,8 @@ jobs:
         poetry run maturin publish --username __token__ --no-sdist --interpreter python${{ matrix.python-version }}
   macos-arm:
     name: "MacOS ARM"
-    if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
-    runs-on: self-hosted
+    if: ${{ github.event.label.name == 'release-pypi-core' }}
+    runs-on: macos-latest
     strategy:
       fail-fast: false
       matrix:
