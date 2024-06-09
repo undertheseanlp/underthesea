@@ -7,7 +7,6 @@ on:
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-  PYTHON_SUPPORTED_VERSIONS: '["3.8", "3.9", "3.10", "3.11", "3.12"]'
 
 jobs:
   source_distribute:
@@ -54,7 +53,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ${{ fromJSON(env.PYTHON_SUPPORTED_VERSIONS) }}
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
     steps:
       - uses: actions/checkout@v1
       - name: Create environment and install package dependencies
@@ -81,7 +80,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
@@ -116,7 +115,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-python@v4
@@ -153,7 +152,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.8", "3.9", "3.10", "3.11"]
+        python-version: ["3.8", "3.9", "3.10", "3.11", "3.12"]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
