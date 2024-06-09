@@ -304,13 +304,13 @@ Lang Detect API. Thanks to awesome work from [FastText](https://fasttext.cc/docs
 Install extend dependencies and models
 
     ```bash
-    $ pip install underthesea[lang-detect]
+    $ pip install underthesea[langdetect]
     ```
 
 Usage examples in script
 
     ```python
-    >>> from underthesea.pipeline.lang_detect import lang_detect
+    >>> from underthesea import lang_detect
     
     >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
     vi
