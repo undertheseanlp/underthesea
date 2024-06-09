@@ -30,6 +30,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pytest tox
       - name: Run Test
-        if: contains(env.PR_LABELS, 'ci-prompt')
+        if: contains(env.PR_LABELS, 'ci-langdetect')
         run: |
           tox -e langdetect
