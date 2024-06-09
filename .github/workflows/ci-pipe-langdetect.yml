@@ -6,7 +6,7 @@ on:
       - synchronize
 
 jobs:
-  ci-prompt:
+  ci-langdetect:
     runs-on: ubuntu-latest
     steps:
       - name: Get PR Labels
