@@ -7,7 +7,7 @@ on:
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
-  PYTHON_SUPPORTED_VERSIONS: ["3.8", "3.9", "3.10", "3.11", "3.12"]
+  PYTHON_SUPPORTED_VERSIONS: '["3.8", "3.9", "3.10", "3.11", "3.12"]'
 
 jobs:
   source_distribute:
