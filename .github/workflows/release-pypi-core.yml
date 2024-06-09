@@ -70,7 +70,7 @@ jobs:
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
-          $PYTHON -m poetry run maturin build --release --strip --interpreter python${{ matrix.python-version }}
+          $PYTHON -m poetry run maturin build --release --strip --only-binary --interpreter python${{ matrix.python-version }}
           find ./target/wheels/
           $PYTHON -m poetry run maturin publish --username __token__ --interpreter python${{ matrix.python-version }}
   windows:
@@ -105,7 +105,7 @@ jobs:
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
       run: |
-        poetry run maturin build --release --strip --interpreter python
+        poetry run maturin build --release --strip --interpreter --only-binary python
         dir target\wheels\
         poetry run maturin publish --username __token__ --interpreter python
   macos-x64:
@@ -141,7 +141,7 @@ jobs:
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
       run: |
-        poetry run maturin build --release --strip --interpreter python${{ matrix.python-version }}
+        poetry run maturin build --release --strip --interpreter --only-binary python${{ matrix.python-version }}
         find ./target/wheels/
         pip install target/wheels/underthesea_core*.whl
         poetry run maturin publish --username __token__ --interpreter python${{ matrix.python-version }}
@@ -171,6 +171,6 @@ jobs:
         run: |
           export PATH="${PWD}/poetry/bin:${PATH}" 
           $PYTHON --version
-          poetry run maturin build --release --strip --interpreter $PYTHON
+          poetry run maturin build --release --strip --interpreter --only-binary $PYTHON
           find ./target/wheels/
           poetry run maturin publish --username __token__ --interpreter $PYTHON
