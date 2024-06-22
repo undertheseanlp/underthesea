@@ -2,6 +2,13 @@
 History
 ================================================================================
 
+6.8.4 (2024-06-22)
+--------------------------------------------------------------------------------
+
+* GH-740: optimize imports by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/741
+* GH-616: remove issue-manager workflow by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/726
+* GH-233: Add lang_detect module by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/733
+
 6.8.0 (2023-09-23)
 --------------------------------------------------------------------------------
 
