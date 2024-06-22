@@ -49,6 +49,7 @@ optional_imports = {
     'dependency_parse': 'underthesea.pipeline.dependency_parse'
 }
 
+
 @lru_cache(maxsize=None)
 def get_optional_import(module_name, object_name):
     try:
@@ -56,6 +57,7 @@ def get_optional_import(module_name, object_name):
         return getattr(module, object_name)
     except ImportError:
         return None
+
 
 for name, module in optional_imports.items():
     globals()[name] = get_optional_import(module, name)
