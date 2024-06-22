@@ -4,6 +4,8 @@ Underthesea
 # -*- coding: utf-8 -*-
 import os
 import sys
+from functools import lru_cache
+
 
 __author__ = """Vu Anh"""
 __email__ = 'anhv.ict91@gmail.com'
@@ -11,8 +13,8 @@ __email__ = 'anhv.ict91@gmail.com'
 # Check python version
 try:
     version_info = sys.version_info
-    if version_info < (3, 6, 0):
-        raise RuntimeError("underthesea requires Python 3.6 or later")
+    if version_info < (3, 7, 0):
+        raise RuntimeError("underthesea requires Python 3.y or later")
 except Exception:
     pass
 
@@ -40,33 +42,33 @@ from .pipeline.pos_tag import pos_tag
 from .pipeline.chunking import chunk
 from .pipeline.ner import ner
 
-try:
-    from underthesea.pipeline.classification import classify
-except Exception:
-    pass
-try:
-    from underthesea.pipeline.sentiment import sentiment
-except Exception:
-    pass
+optional_imports = {
+    'classify': 'underthesea.pipeline.classification',
+    'sentiment': 'underthesea.pipeline.sentiment',
+    'lang_detect': 'underthesea.pipeline.lang_detect',
+    'dependency_parse': 'underthesea.pipeline.dependency_parse'
+}
 
-try:
-    from underthesea.pipeline.lang_detect import lang_detect
-except Exception as e:
-    print(e)
+@lru_cache(maxsize=None)
+def get_optional_import(module_name, object_name):
+    try:
+        module = __import__(module_name, fromlist=[object_name])
+        return getattr(module, object_name)
+    except ImportError:
+        return None
 
-
-# lazy loading
-def dependency_parse(*args, **kwargs):
-    from underthesea.pipeline.dependency_parse import dependency_parse
-    return dependency_parse(*args, **kwargs)
-
+for name, module in optional_imports.items():
+    globals()[name] = get_optional_import(module, name)
 
 __all__ = [
     'sent_tokenize',
     'text_normalize',
-    'word_tokenize', 'pos_tag', 'chunk',
+    'word_tokenize',
+    'pos_tag',
+    'chunk',
     'ner',
     'lang_detect',
-    'classify', 'sentiment',
+    'classify',
+    'sentiment',
     'dependency_parse'
 ]
