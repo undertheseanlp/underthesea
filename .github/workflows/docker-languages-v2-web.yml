@@ -34,6 +34,7 @@ jobs:
           images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
           labels: |
             org.opencontainers.image.version=${{ env.VERSION }}
+            org.opencontainers.image.description="$(cat ./apps/languagesv2/languages-v2-web/README.md)"
           tags: |
             type=raw,value=${{ env.VERSION }}
       - name: Build and push
