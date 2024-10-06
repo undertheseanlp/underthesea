@@ -4,10 +4,12 @@ import '../App.css';
 import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
 import questions from './quiz/QuizData';
 
+type LanguageType = 'English' | 'Vietnamese' | 'Chinese'; // Add all the possible languages here
+
 function Quiz() {
   const { search } = useLocation();
   const params = new URLSearchParams(search);
-  const language = params.get('language') || 'English';
+  const language = (params.get('language') || 'English') as LanguageType;
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showScore, setShowScore] = useState(false);
   const [score, setScore] = useState(0);
