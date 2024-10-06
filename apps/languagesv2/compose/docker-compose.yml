@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  languages-v2-web:
+    platform: linux/amd64
+    image: ghcr.io/undertheseanlp/underthesea/languages-v2-web:0.0.1
+    ports:
+      - "8080:80"
+    restart: unless-stopped
