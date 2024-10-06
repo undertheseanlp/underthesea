@@ -12,7 +12,7 @@ env:
 
 jobs:
   docker:
-    if: contains(env.PR_LABELS, 'build-languages-v2-web')
+    if: ${{ github.event.label.name == 'build-languages-v2-web' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
