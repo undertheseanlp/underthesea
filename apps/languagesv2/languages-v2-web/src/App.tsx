@@ -2,8 +2,10 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Quiz from './pages/Quiz';
 import Nav from './pages/Nav';
+import Quiz from './pages/Quiz';
+import Video from './pages/Video';
+
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/quiz" element={<Quiz />} />
+            <Route path="/video/:language" element={<Video />} />
           </Routes>
         </div>
       </div>
