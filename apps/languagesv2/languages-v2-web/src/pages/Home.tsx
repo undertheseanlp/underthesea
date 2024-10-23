@@ -1,72 +1,93 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import VietnameseWords, { VietnameseWord } from './VietnameseWords';
+
+const frequentVietnameseWords = VietnameseWords;
 
 function Home() {
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
+  const [hoveredType, setHoveredType] = useState<string | null>(null);
+
+  const playSound = (index: number, type: string) => {
+    const audio = new Audio(`/audio/word-${index}-${type}.mp3`);
+    audio.play();
+  };
+
+  const handleMouseEnter = (index: number, type: string) => {
+    setHoveredIndex(index);
+    setHoveredType(type);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredIndex(null);
+    setHoveredType(null);
+  };
+
   return (
-    <div className="w-full pt-24 space-y-4">
-      {/* Header Section */}
-      <header className="text-left">
-        <h1 className="text-5xl font-bold mb-2 text-blue-700">Languages v2</h1>
-        <p className="text-xl text-gray-700">Like Duolingo, but Opensource</p>
-      </header>
+    <div className="w-full min-h-screen bg-gradient-to-br from-indigo-500 via-purple-400 to-pink-300 pt-24">
+      <div className="max-w-6xl mx-auto px-6 py-10">
+        <h1 className="text-4xl font-extrabold text-center text-white mb-12 drop-shadow-lg">
+          Frequent Vietnamese Words
+        </h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
+          {frequentVietnameseWords.map((wordItem: VietnameseWord, index: number) => {
+            const { word, partOfSpeech, frequency } = wordItem;
 
-      {/* English Section */}
-      <section className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:bg-blue-50">
-        <h2 className="text-3xl font-semibold mb-4 text-blue-700">English 🇬🇧</h2>
-        <p className="text-md text-gray-700 mb-6">Master English with our engaging quizzes and exercises. Unlock the full potential of your language skills and take your communication to the next level!</p>
-        <div className="mb-8 space-x-4">
-          <Link
-            to="/quiz?language=English"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-blue-800 shadow-lg">
-            🚀 Start Your English Adventure Now!
-          </Link>
-          <Link
-            to="/video/English"
-            className="inline-block bg-blue-400 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-blue-600 shadow-lg">
-            🎥 Watch English Videos
-          </Link>
+            return (
+              <div
+                key={index}
+                className="relative p-6 bg-white bg-opacity-80 rounded-xl shadow-md transition-transform transform hover:scale-105 hover:shadow-xl hover:bg-opacity-100"
+              >
+                <div
+                  className="absolute top-0 left-0 h-2 rounded-t-xl bg-gradient-to-r from-green-400 via-blue-500 to-indigo-600 shadow-md"
+                  style={{
+                    width: `${Math.min(frequency * 10, 100)}%`,
+                    transition: 'width 0.3s ease-in-out',
+                    boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.2)',
+                  }}
+                ></div>
+                <h2 className="text-2xl font-bold text-indigo-800 mt-2">{word}</h2>
+                <p className="italic text-gray-500 mb-4">{partOfSpeech}</p>
+                <div className="flex justify-center space-x-6 mt-4">
+                  <button
+                    onClick={() => playSound(index, 'pronunciation')}
+                    onMouseEnter={() => handleMouseEnter(index, 'pronunciation')}
+                    onMouseLeave={handleMouseLeave}
+                    className="text-indigo-600 hover:text-indigo-800 focus:outline-none transition-colors transform hover:scale-110 duration-300"
+                    aria-label="North Pronunciation"
+                  >
+                    {hoveredIndex === index && hoveredType === 'pronunciation' ? (
+                      <span className="bg-indigo-600 text-white px-2 py-1 rounded-lg transition-opacity duration-300 ease-in-out">
+                        NTH
+                      </span>
+                    ) : (
+                      <i className="fa fa-volume-up text-xl"></i>
+                    )}
+                  </button>
+                  <button
+                    onClick={() => playSound(index, 'example')}
+                    onMouseEnter={() => handleMouseEnter(index, 'example')}
+                    onMouseLeave={handleMouseLeave}
+                    className="text-pink-600 hover:text-pink-800 focus:outline-none transition-colors transform hover:scale-110 duration-300"
+                    aria-label="South Pronunciation"
+                  >
+                    {hoveredIndex === index && hoveredType === 'example' ? (
+                      <span className="bg-pink-600 text-white px-2 py-1 rounded-lg transition-opacity duration-300 ease-in-out">
+                        STH
+                      </span>
+                    ) : (
+                      <i className="fa fa-volume-up text-xl"></i>
+                    )}
+                  </button>
+                </div>
+              </div>
+            );
+          })}
         </div>
-      </section>
-
-      {/* Vietnamese Section */}
-      <section className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:bg-green-50">
-        <h2 className="text-3xl font-semibold mb-4 text-green-700">Vietnamese 🇻🇳</h2>
-        <p className="text-md text-gray-700 mb-6">Discover the beauty of the Vietnamese language through fun and immersive quizzes. Let’s explore the culture and language together!</p>
-        <div className="mb-8 space-x-4">
-          <Link
-            to="/quiz?language=Vietnamese"
-            className="inline-block bg-green-600 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-green-800 shadow-lg">
-            🌟 Start Vietnamese Quiz and Uncover the Magic!
-          </Link>
-          <Link
-            to="/video/Vietnamese"
-            className="inline-block bg-green-400 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-green-600 shadow-lg">
-            🎥 Watch Vietnamese Videos
-          </Link>
+      </div>
+      <footer className="mt-20 bg-white bg-opacity-70 backdrop-blur-md py-6">
+        <div className="text-center text-gray-800 text-sm">
+          Made with <span className="text-red-500 animate-pulse">❤️</span> by <strong className="text-indigo-800">Thảnh Thơi Team</strong>
         </div>
-      </section>
-
-      {/* Chinese Section */}
-      <section className="bg-white shadow-md rounded-lg p-6 transition-transform transform hover:scale-105 hover:bg-red-50">
-        <h2 className="text-3xl font-semibold mb-4 text-red-700">Chinese 🇨🇳</h2>
-        <p className="text-md text-gray-700 mb-6">Begin your Mandarin Chinese journey with fun, engaging quizzes. Unlock the wonders of the Chinese language and culture!</p>
-        <div className="mb-8 space-x-4">
-          <Link
-            to="/quiz?language=Chinese"
-            className="inline-block bg-red-600 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-red-800 shadow-lg">
-            🐉 Start Chinese Quiz and Begin Your Journey!
-          </Link>
-          <Link
-            to="/video/Chinese"
-            className="inline-block bg-red-400 text-white px-6 py-3 rounded-full font-semibold text-center hover:bg-red-600 shadow-lg">
-            🎥 Watch Chinese Videos
-          </Link>
-        </div>
-      </section>
-
-      {/* Footer Section */}
-      <footer className="text-center text-gray-600 mt-16">
-        <p className="text-lg">Happy learning! Stay consistent, stay curious. 🚀 Let every quiz be a new adventure!</p>
       </footer>
     </div>
   );
