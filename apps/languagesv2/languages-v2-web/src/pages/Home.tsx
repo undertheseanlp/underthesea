@@ -6,7 +6,7 @@ function Home() {
     <div className="w-full pt-24 space-y-4">
       {/* Header Section */}
       <header className="text-left">
-        <h1 className="text-5xl font-bold mb-2 text-blue-700">Languages</h1>
+        <h1 className="text-5xl font-bold mb-2 text-blue-700">Languages v2</h1>
         <p className="text-xl text-gray-700">Like Duolingo, but Opensource</p>
       </header>
 
