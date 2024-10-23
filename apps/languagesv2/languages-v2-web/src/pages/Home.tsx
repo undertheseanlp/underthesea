@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import VietnameseWords, { VietnameseWord } from './VietnameseWords';
 
+// Example build version, replace this with an environment variable if needed.
+const buildVersion = '1.0.0';
+
 const frequentVietnameseWords = VietnameseWords;
 
 function Home() {
@@ -87,6 +90,9 @@ function Home() {
       <footer className="mt-20 bg-white bg-opacity-70 backdrop-blur-md py-6">
         <div className="text-center text-gray-800 text-sm">
           Made with <span className="text-red-500 animate-pulse">❤️</span> by <strong className="text-indigo-800">Thảnh Thơi Team</strong>
+        </div>
+        <div className="text-center text-gray-600 mt-2">
+          Build Version: <span className="font-semibold">{buildVersion}</span>
         </div>
       </footer>
     </div>
