@@ -6,12 +6,24 @@ on:
         - labeled
         - synchronize
 jobs:
-  copy-to-host:
-    name: Build
+  build-and-deploy:
+    name: Build and Deploy
     if: ${{ github.event.label.name == 'deploy-languages-v2-web' }}
     runs-on: ubuntu-latest
+    env:
+      PROJECT_PATH: apps/languagesv2/languages-v2-web
     steps:
     - uses: actions/checkout@v4
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20'
+    - name: Install dependencies
+      working-directory: ${{ env.PROJECT_PATH }}
+      run: npm install
+    - name: Build React App
+      working-directory: ${{ env.PROJECT_PATH }}
+      run: npm run build
     - name: Copy file via ssh password
       uses: appleboy/scp-action@v0.1.7
       with:
@@ -19,5 +31,6 @@ jobs:
         username: ${{ secrets.UTS_USERNAME }}
         password: ${{ secrets.UTS_PASSWORD }}
         port: ${{ secrets.UTS_PORT }}
-        source: "apps/languagesv2/README.md"
+        source: "${{ env.PROJECT_PATH }}/build/*"
         target: "/root/apps2"
+        recursive: true
