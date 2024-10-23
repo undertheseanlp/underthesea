@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PROJECT_PATH: apps/languagesv2/languages-v2-web
+      TARGET_PATH: /root/apps
     steps:
     - uses: actions/checkout@v4
     - name: Set up Node.js
@@ -24,6 +25,10 @@ jobs:
     - name: Build React App
       working-directory: ${{ env.PROJECT_PATH }}
       run: npm run build
+    - name: Clean target folder on remote server
+      run: |
+        sshpass -p "${{ secrets.UTS_PASSWORD }}" ssh -o StrictHostKeyChecking=no ${{ secrets.UTS_USERNAME }}@${{ secrets.UTS_HOST }} -p ${{ secrets.UTS_PORT }} "
+        rm -rf ${{ env.TARGET_PATH }}/*"
     - name: Copy file via ssh password
       uses: appleboy/scp-action@v0.1.7
       with:
@@ -32,5 +37,9 @@ jobs:
         password: ${{ secrets.UTS_PASSWORD }}
         port: ${{ secrets.UTS_PORT }}
         source: "${{ env.PROJECT_PATH }}/build/*"
-        target: "/root/apps2"
+        target: "${{ env.TARGET_PATH }}"
         recursive: true
+    - name: Move build files to target folder on remote server
+      run: |
+        sshpass -p "${{ secrets.UTS_PASSWORD }}" ssh -o StrictHostKeyChecking=no ${{ secrets.UTS_USERNAME }}@${{ secrets.UTS_HOST }} -p ${{ secrets.UTS_PORT }}
+        "mv ${{ env.TARGET_PATH }}/${{ env.PROJECT_PATH }}/build/* ${{ env.TARGET_PATH }}/ && rm -rf ${{ env.TARGET_PATH }}/apps"
