@@ -1,0 +1,23 @@
+name: Deploy Languages V2 Web
+on:
+    pull_request:
+      branches: [ main ]
+      types:
+        - labeled
+        - synchronize
+jobs:
+  copy-to-host:
+    name: Build
+    if: ${{ github.event.label.name == 'deploy-languages-v2-web' }}
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Copy file via ssh password
+      uses: appleboy/scp-action@v0.1.7
+      with:
+        host: ${{ secrets.UTS_HOST }}
+        username: ${{ secrets.UTS_USERNAME }}
+        password: ${{ secrets.UTS_PASSWORD }}
+        port: ${{ secrets.UTS_PORT }}
+        source: "apps/languagesv2/README.md"
+        target: "/root/apps2"
