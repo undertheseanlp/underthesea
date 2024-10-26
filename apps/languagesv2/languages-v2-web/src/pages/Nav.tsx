@@ -24,12 +24,12 @@ const Nav: React.FC = () => {
               Languages
             </Link>
           </li>
-          <li>
+          {/* <li>
             <GoogleLogin
               onSuccess={handleGoogleLoginSuccess}
               onError={handleGoogleLoginError}
             />
-          </li>
+          </li> */}
         </ul>
       </nav>
     </GoogleOAuthProvider>
