@@ -1,16 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
+import { GoogleOAuthProvider } from '@react-oauth/google';
 
 const Nav: React.FC = () => {
-  const handleGoogleLoginSuccess = (response: any) => {
-    console.log('Google login successful:', response);
-    // Handle the Google login response here, e.g., send the token to your backend for verification.
-  };
+  // const handleGoogleLoginSuccess = (response: any) => {
+  //   console.log('Google login successful:', response);
+  //   // Handle the Google login response here, e.g., send the token to your backend for verification.
+  // };
 
-  const handleGoogleLoginError = () => {
-    console.log('Google login failed');
-  };
+  // const handleGoogleLoginError = () => {
+  //   console.log('Google login failed');
+  // };
 
   return (
     <GoogleOAuthProvider clientId="1019763033940-c42boad0dt819pddir1g4jelvarm8802.apps.googleusercontent.com">
