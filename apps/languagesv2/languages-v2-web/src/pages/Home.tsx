@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import VietnameseWords, { VietnameseWord } from './VietnameseWords';
+import { BUILD_VERSION, DEVELOPMENT_TEAM } from './Config';
 
 // Example build version, replace this with an environment variable if needed.
-const buildVersion = '1.0.0';
 
 const frequentVietnameseWords = VietnameseWords;
 
@@ -29,7 +29,7 @@ function Home() {
     <div className="w-full min-h-screen bg-gradient-to-br from-indigo-500 via-purple-400 to-pink-300 pt-24">
       <div className="max-w-6xl mx-auto px-6 py-10">
         <h1 className="text-4xl font-extrabold text-center text-white mb-12 drop-shadow-lg">
-          Frequent Vietnamese Words
+          The 2000 Most Frequent Vietnamese Words
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
           {frequentVietnameseWords.map((wordItem: VietnameseWord, index: number) => {
@@ -89,10 +89,10 @@ function Home() {
       </div>
       <footer className="mt-20 bg-white bg-opacity-70 backdrop-blur-md py-6">
         <div className="text-center text-gray-800 text-sm">
-          Made with <span className="text-red-500 animate-pulse">❤️</span> by <strong className="text-indigo-800">Thảnh Thơi Team</strong>
+          Made with <span className="text-red-500 animate-pulse">❤️</span> by <strong className="text-indigo-800">{DEVELOPMENT_TEAM}</strong>
         </div>
         <div className="text-center text-gray-600 mt-2">
-          Build Version: <span className="font-semibold">{buildVersion}</span>
+          <span className="font-semibold">Version {BUILD_VERSION}</span>
         </div>
       </footer>
     </div>
