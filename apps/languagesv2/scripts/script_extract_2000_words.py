@@ -1,5 +1,6 @@
 import json
 
+
 class Word:
     def __init__(self, id, text, freq):
         self.id = id
@@ -9,8 +10,10 @@ class Word:
     def __repr__(self):
         return f"Word(id={self.id}, text='{self.text}', freq={self.freq})"
 
+
 def normalize_text(text):
     return text.lower()
+
 
 def extract_words_from_freq_file(n=2000, data_folder="/workspaces/data", filename="freq_vie_1M_2018-freq.txt"):
     """Extracts words from a frequency file and returns a list of Word objects."""
@@ -27,6 +30,7 @@ def extract_words_from_freq_file(n=2000, data_folder="/workspaces/data", filenam
                 break
     return words
 
+
 def export_words_to_js_file(words, output_file="data/VietnameseWords.js"):
     """Exports a list of Word objects to a JavaScript file in the specified format."""
     with open(output_file, "w", encoding="utf-8") as file:
@@ -36,6 +40,7 @@ def export_words_to_js_file(words, output_file="data/VietnameseWords.js"):
         file.write("];\n")
     print(f"File '{output_file}' created successfully with {len(words)} entries.")
 
+
 def export_words_to_jsonl_file(words, output_file="data/VietnameseWords.jsonl"):
     """Exports a list of Word objects to a JSONL file."""
     with open(output_file, "w", encoding="utf-8") as file:
@@ -43,6 +48,7 @@ def export_words_to_jsonl_file(words, output_file="data/VietnameseWords.jsonl"):
             word_data = {"word": word.text, "partOfSpeech": "", "frequency": word.freq}
             file.write(json.dumps(word_data, ensure_ascii=False) + "\n")
     print(f"File '{output_file}' created successfully with {len(words)} entries.")
+
 
 if __name__ == "__main__":
     # Extract words from the frequency file
