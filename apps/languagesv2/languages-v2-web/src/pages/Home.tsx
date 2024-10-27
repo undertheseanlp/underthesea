@@ -8,6 +8,7 @@ const frequentVietnameseWords = VietnameseWords;
 function Home() {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const [hoveredType, setHoveredType] = useState<string | null>(null);
+  const [searchTerm, setSearchTerm] = useState<string>('');
 
   const playSound = (word: VietnameseWord, speaker_id: number) => {
     const wordItem = Audios.find((audio) => audio.word === word.word && audio.speaker_id === speaker_id);
@@ -15,10 +16,10 @@ function Home() {
       console.warn('Audio not found for the given word and speaker');
       return;
     }
-    
+
     const audioUrl = `https://undertheseanlp.com/data/audios/${wordItem.audio_id}.wav`;
     const audio = new Audio(audioUrl);
-  
+
     audio.play();
   };
 
@@ -32,14 +33,27 @@ function Home() {
     setHoveredType(null);
   };
 
+  const filteredWords = frequentVietnameseWords.filter((wordItem) =>
+    wordItem.word.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
     <div className="w-full min-h-screen bg-gradient-to-br from-indigo-500 via-purple-400 to-pink-300 pt-24">
       <div className="max-w-6xl mx-auto px-6 py-10">
         <h1 className="text-4xl font-extrabold text-center text-white mb-12 drop-shadow-lg">
           The 2000 Most Frequent Vietnamese Words
         </h1>
+        <div className="relative mb-8">
+          <input
+            type="text"
+            placeholder="Search for a word..."
+            className="w-full px-4 py-2 text-lg rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-purple-600 bg-white bg-opacity-80 text-indigo-900 placeholder-gray-400 transition-all"
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+          />
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-          {frequentVietnameseWords.map((wordItem: VietnameseWord, index: number) => {
+          {filteredWords.map((wordItem: VietnameseWord, index: number) => {
             const { word, partOfSpeech, frequency } = wordItem;
 
             return (
@@ -59,7 +73,7 @@ function Home() {
                 <p className="italic text-gray-500 mb-4">{partOfSpeech}</p>
                 <div className="flex justify-center space-x-6 mt-4">
                   <button
-                    onClick={() => playSound(wordItem, 2)} // Northern sound
+                    onClick={() => playSound(wordItem, 2)}
                     onMouseEnter={() => handleMouseEnter(index, 'northern')}
                     onMouseLeave={handleMouseLeave}
                     className="text-indigo-600 hover:text-indigo-800 focus:outline-none transition-colors transform hover:scale-110 duration-300"
@@ -74,7 +88,7 @@ function Home() {
                     )}
                   </button>
                   <button
-                    onClick={() => playSound(wordItem, 1)} // Southern sound
+                    onClick={() => playSound(wordItem, 1)}
                     onMouseEnter={() => handleMouseEnter(index, 'southern')}
                     onMouseLeave={handleMouseLeave}
                     className="text-pink-600 hover:text-pink-800 focus:outline-none transition-colors transform hover:scale-110 duration-300"
@@ -106,4 +120,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Home;  
