@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import { APP_NAME } from './Config';
 
 const Nav: React.FC = () => {
   // const handleGoogleLoginSuccess = (response: any) => {
@@ -21,7 +22,7 @@ const Nav: React.FC = () => {
               to="/"
               className="text-blue-600 font-semibold hover:text-blue-800 transition duration-300 ease-in-out px-4 py-2 rounded-md hover:bg-blue-100"
             >
-              Languages
+              {APP_NAME}
             </Link>
           </li>
           {/* <li>
