@@ -4,7 +4,7 @@ export interface VietnameseWord {
   frequency: number;
 }
   
-const VietnameseWords =   [
+const VietnameseWords = [
   { word: "và", partOfSpeech: "", frequency: 0 },
   { word: "của", partOfSpeech: "", frequency: 0 },
   { word: "là", partOfSpeech: "", frequency: 0 },

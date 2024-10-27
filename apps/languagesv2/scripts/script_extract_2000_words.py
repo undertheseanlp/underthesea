@@ -1,21 +1,14 @@
 import json
-
-
-class Word:
-    def __init__(self, id, text, freq):
-        self.id = id
-        self.text = text
-        self.freq = freq
-
-    def __repr__(self):
-        return f"Word(id={self.id}, text='{self.text}', freq={self.freq})"
+from models import Word
 
 
 def normalize_text(text):
     return text.lower()
 
 
-def extract_words_from_freq_file(n=2000, data_folder="/workspaces/data", filename="freq_vie_1M_2018-freq.txt"):
+def extract_words_from_freq_file(
+    n=2000, data_folder="/workspaces/data", filename="freq_vie_1M_2018-freq.txt"
+):
     """Extracts words from a frequency file and returns a list of Word objects."""
     words = []
     with open(f"{data_folder}/{filename}", "r", encoding="utf-8") as file:
@@ -36,7 +29,9 @@ def export_words_to_js_file(words, output_file="data/VietnameseWords.js"):
     with open(output_file, "w", encoding="utf-8") as file:
         file.write("const VietnameseWords = [\n")
         for word in words:
-            file.write(f'  {{ word: "{word.text}", partOfSpeech: "", frequency: {word.freq} }},\n')
+            file.write(
+                f'  {{ word: "{word.text}", partOfSpeech: "", frequency: {word.freq} }},\n'
+            )
         file.write("];\n")
     print(f"File '{output_file}' created successfully with {len(words)} entries.")
 
