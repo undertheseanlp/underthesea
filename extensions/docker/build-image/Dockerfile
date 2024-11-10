@@ -22,14 +22,16 @@ RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \
     wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-4.5.11-Linux-x86_64.sh -O ~/miniconda.sh && \
     /bin/bash ~/miniconda.sh -b -p /opt/conda && \
     rm ~/miniconda.sh
-ENV PATH /opt/conda/bin:$PATH
 
+ENV PATH /opt/conda/bin:$PATH
+RUN conda config --set ssl_verify False
 RUN conda update conda
 ENV PATH /opt/conda/envs/python3.7/bin:$PATH
 ENV PATH /opt/conda/envs/python3.8/bin:$PATH
 ENV PATH /opt/conda/envs/python3.9/bin:$PATH
 ENV PATH /opt/conda/envs/python3.10/bin:$PATH
 ENV PATH /opt/conda/envs/python3.11/bin:$PATH
+ENV PATH /opt/conda/envs/python3.12/bin:$PATH
 
 # python 3.7
 RUN conda create -f -y -n python3.7 python=3.7
@@ -55,8 +57,14 @@ RUN ln -s /opt/conda/envs/python3.10/bin/python3.10 /usr/bin/python3.10
 RUN source activate python3.10 && conda install -y pip
 RUN python3.10 -m pip install poetry
 
-# python 3.11
+# # python 3.11
 RUN conda create -f -y -n python3.11 python=3.11
 RUN ln -s /opt/conda/envs/python3.11/bin/python3.11 /usr/bin/python3.11
 RUN source activate python3.11 && conda install -y pip
 RUN python3.11 -m pip install poetry
+
+# python 3.12
+RUN conda create -f -y -n python3.12 python=3.12
+RUN ln -s /opt/conda/envs/python3.12/bin/python3.12 /usr/bin/python3.12
+RUN source activate python3.12 && conda install -y pip
+RUN python3.12 -m pip install poetry
