@@ -24,8 +24,8 @@ Underthesea - Vietnamese NLP Toolkit
 
 |
 
-.. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
-        :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/master/logo.jpg
+.. image:: https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/logo.png
+        :target: https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/logo.png
 
 **underthesea** is a suite of open source Python modules, data sets and tutorials supporting research and development in Vietnamese Natural Language Processing.
 
