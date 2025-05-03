@@ -33,7 +33,7 @@ def _load_model():
 
 
 def sent_tokenize(text):
-    global sent_tokenizer
+    global sentence_tokenizer
     _load_model()
     sentences = sentence_tokenizer.sentences_from_text(text)
     return sentences
