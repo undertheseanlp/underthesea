@@ -1,6 +1,6 @@
 [package]
 name = "underthesea_core"
-version = "1.0.4"
+version = "2.0.0-alpha.0"
 homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
@@ -31,7 +31,7 @@ rayon = "1.5"
 crfs = "0.1"
 
 [dependencies.pyo3]
-version = "0.15.0"
+version = "0.21"
 features = ["extension-module"]
 
 [dev-dependencies]

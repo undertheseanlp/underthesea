@@ -7,7 +7,7 @@ Environments:
 * gcc
 * glibc 2.17
 * Cargo
-* Python: 3.7, 3.8, 3.9, 3.10, 3.11
+* Python: 3.7, 3.8, 3.9, 3.10, 3.11, 3.12
 
 # Steps to build docker
 
