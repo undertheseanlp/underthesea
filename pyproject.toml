@@ -5,5 +5,14 @@ description = ""
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
-    "flake8>=7.3.0"
+    "flake8>=7.3.0",
+    'Click>=6.0',
+    'python-crfsuite>=0.9.6',
+    'nltk==3.8.2',
+    'tqdm',
+    'requests',
+    'joblib',
+    'scikit-learn',
+    'PyYAML',
+    'underthesea_core==1.0.4'
 ]
