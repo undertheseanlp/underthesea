@@ -9,7 +9,7 @@ with open(version_file) as fh:
 install_requires = [
     'Click>=6.0',
     'python-crfsuite>=0.9.6',
-    'nltk',
+    'nltk==3.8.2',
     'tqdm',
     'requests',
     'joblib',
