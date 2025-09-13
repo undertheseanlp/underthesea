@@ -2,6 +2,7 @@ extern crate regex;
 extern crate pyo3;
 
 use pyo3::prelude::*;
+use pyo3::types::PyModule;
 use std::collections::HashSet;
 
 pub mod featurizers;
@@ -32,7 +33,7 @@ impl CRFFeaturizer {
 }
 
 #[pymodule]
-fn underthesea_core(_py: Python, m: &PyModule) -> PyResult<()> {
+fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<CRFFeaturizer>()?;
     Ok(())
 }
