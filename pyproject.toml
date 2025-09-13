@@ -1,0 +1,9 @@
+[project]
+name = "underthesea"
+version = "8.0.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "flake8>=7.3.0",
+]

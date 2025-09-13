@@ -54,7 +54,7 @@ class Sentence:
 
     def add_labels(self, labels: Union[List[Label], List[str]]):
         for label in labels:
-            if type(label) == str:
+            if type(label) is str:
                 label = Label(label)
             if not self.labels:
                 self.labels = []

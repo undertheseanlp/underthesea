@@ -71,7 +71,6 @@ if __name__ == '__main__':
 
     def stats():
         print("\n# DICTIONARY STATISTICS")
-        global NUM_WORDS
         print("* Number of words:", NUM_WORDS)
         print("* Tags:", len(VALID_TAGS), "(" + str(sorted(VALID_TAGS))[1:-1] + ")")
 

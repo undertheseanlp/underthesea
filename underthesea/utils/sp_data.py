@@ -145,12 +145,16 @@ class Sampler(torch.utils.data.Sampler):
     def __iter__(self):
         g = torch.Generator()
         g.manual_seed(self.epoch)
-        range_fn = torch.arange
+
+        def sequential_range(x):
+            return torch.arange(x)
+
+        def shuffled_range(x):
+            return torch.randperm(x, generator=g)
+
         # if shuffle, shuffle both the buckets and samples in each bucket
         # for distributed training, make sure each process generte the same random sequence at each epoch
-        if self.shuffle:
-            def range_fn(x):
-                return torch.randperm(x, generator=g)
+        range_fn = shuffled_range if self.shuffle else sequential_range
         total, count = 0, 0
         # TODO: more elegant way to deal with uneven data, which we directly discard right now
         for i in range_fn(len(self.buckets)).tolist():

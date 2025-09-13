@@ -19,4 +19,4 @@ def Text(text):
 def is_unicode(text):
     if sys.version_info >= (3, 0):
         unicode_type = str
-    return type(text) == unicode_type
+    return type(text) is unicode_type

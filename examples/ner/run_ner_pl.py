@@ -22,7 +22,7 @@ class LabelEncoder:
         self.vocab_size = 0
 
     def encode(self, labels):
-        if type(labels) == list:
+        if type(labels) is list:
             return [self.encode(label) for label in labels]
         label = labels  # label is a string
         if label not in self.label2index:
