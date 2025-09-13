@@ -13,7 +13,7 @@ install_requires = [
     'tqdm',
     'requests',
     'joblib',
-    'scikit-learn',
+    'scikit-learn==1.5.2',
     'PyYAML',
     'underthesea_core==1.0.4'
 ]
