@@ -14,4 +14,4 @@ def Text(text):
 
 
 def is_unicode(text):
-    return type(text) == str
+    return type(text) is str

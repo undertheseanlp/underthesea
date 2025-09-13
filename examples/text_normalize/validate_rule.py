@@ -7,7 +7,6 @@ rules_df = pd.read_excel(join(dirname(__file__), "token_rules.xlsx"), engine='op
 
 def rule_01_normalize_column_must_be_striped():
     # check column normalize must be striped
-    global rules_df
     words = list(rules_df["normalize"])
     for word in words:
         if word.strip() != word:

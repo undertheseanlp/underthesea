@@ -1,0 +1,18 @@
+[project]
+name = "underthesea"
+version = "6.8.4"
+description = "Vietnamese NLP Toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "flake8>=7.3.0",
+    'Click>=6.0',
+    'python-crfsuite>=0.9.6',
+    'nltk==3.8',
+    'tqdm',
+    'requests',
+    'joblib',
+    'scikit-learn==1.4.2',
+    'PyYAML',
+    'underthesea_core==1.0.4'
+]

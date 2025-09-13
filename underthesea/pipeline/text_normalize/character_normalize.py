@@ -24,4 +24,4 @@ def normalize_characters_in_text(text):
 
 
 def is_unicode(text):
-    return type(text) == str
+    return type(text) is str

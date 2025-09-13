@@ -35,7 +35,6 @@ def load_dictionary(dict_file):
 
 
 def load_corpus(file):
-    global words
     content = open(file).read().strip()
     sentences = content.split("\n\n")
     for s in sentences:

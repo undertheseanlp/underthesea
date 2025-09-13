@@ -9,11 +9,11 @@ with open(version_file) as fh:
 install_requires = [
     'Click>=6.0',
     'python-crfsuite>=0.9.6',
-    'nltk',
+    'nltk==3.8',
     'tqdm',
     'requests',
     'joblib',
-    'scikit-learn',
+    'scikit-learn==1.4.2',
     'PyYAML',
     'underthesea_core==1.0.4'
 ]

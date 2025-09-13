@@ -16,7 +16,6 @@ MAX_ERROR = DEFAULT_MAX_ERROR
 
 def warn(message, level=1, file=None, line_number=None, error_type=None, sent_id=None, node_number=None):
     global error_count
-    global MAX_ERROR
     error_count += 1
     if error_count >= MAX_ERROR:
         print("MAX_ERROR_EXCEEDED. Stop")
@@ -92,7 +91,6 @@ def fetch_sentence(file):
 
 
 def validate_sentence_format(sentence, i_start, file):
-    global error_count
     base_name = basename(file)
     nodes = sentence.strip().split("\n")
     comment_nodes = [node for node in nodes if node.startswith("#")]
@@ -117,7 +115,6 @@ def validate_sentence_format(sentence, i_start, file):
 # LEVEL 3
 # ======================================================================================================================
 def validate_token(sentence, i_end, file):
-    global error_count
     base_name = basename(file)
     nodes = sentence.strip().split("\n")
     i_start = i_end - len(nodes) + 1
@@ -164,7 +161,6 @@ def validate_token(sentence, i_end, file):
 
 
 def validate_content(file):
-    global error_count
     for i, sentence in fetch_sentence(file):
         validate_sentence_format(sentence, i, file)
         validate_token(sentence, i, file)
