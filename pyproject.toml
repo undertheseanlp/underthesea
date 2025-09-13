@@ -3,7 +3,7 @@ name = "underthesea"
 version = "8.0.0"
 description = ""
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9"
 dependencies = [
-    "flake8>=7.3.0",
+    "flake8>=7.3.0"
 ]
