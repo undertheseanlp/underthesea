@@ -1,7 +1,7 @@
 [project]
 name = "underthesea"
 version = "8.0.0a0"
-description = ""
+description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
