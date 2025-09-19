@@ -62,7 +62,6 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           curl -sSL https://install.python-poetry.org | python -
       - name: Add poetry to path
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
