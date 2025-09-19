@@ -9,7 +9,12 @@ edition = "2021"
 readme = "README.md"
 description = "Underthesea Core"
 
-exclude = ["rust-toolchain", "target/*", "Cargo.lock", "benches/*.txt"]
+exclude = [
+  "rust-toolchain",
+  "target/*",
+  "Cargo.lock",
+  "benches/*.txt"
+]
 
 [lib]
 name = "underthesea_core"
