@@ -67,7 +67,7 @@ jobs:
       - name: Create environment and install package dependencies
         working-directory: ./extensions/underthesea_core
         env:
-          LC_ALL: en_US.UTF-8  # Known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
+          LC_ALL: en_US.UTF-8
         run: |
           cargo --version
           $PYTHON -m poetry --version
