@@ -10,8 +10,6 @@ jobs:
     name: "Source Distribute"
     if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
@@ -42,8 +40,6 @@ jobs:
     name: "Linux"
     if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/undertheseanlp/underthesea/build_rust:1.0.0
     env:
       HOME: /root
       PYTHON: python${{ matrix.python-version }}
