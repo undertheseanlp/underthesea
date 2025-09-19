@@ -24,16 +24,7 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           curl -sSL https://install.python-poetry.org | python -
-      - name: Create environment and install package dependencies
-        working-directory: ./extensions/underthesea_core
-        env:
-          LC_ALL: en_US.UTF-8
-        run: |
-          $PYTHON -m poetry --version
-          $PYTHON -m poetry install
-          $PYTHON -m poetry show  
       - name: Build and publish
         working-directory: ./extensions/underthesea_core
         env:
@@ -60,7 +51,6 @@ jobs:
           python-version: ${{ matrix.python-version }}
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           curl -sSL https://install.python-poetry.org | python -
       - name: Add poetry to path
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
