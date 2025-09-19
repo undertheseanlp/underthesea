@@ -15,7 +15,7 @@ install_requires = [
     'joblib',
     'scikit-learn==1.4.2',
     'PyYAML',
-    'underthesea_core==1.0.4'
+    'underthesea_core==1.0.5'
 ]
 
 tests_require = [
