@@ -25,6 +25,12 @@ jobs:
       - name: Install dependencies
         run: |
           curl -sSL https://install.python-poetry.org | python -
+      - name: Add poetry to path
+        run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+      - name: Install package deps
+        working-directory: ./extensions/underthesea_core
+        run: |
+          poetry install  
       - name: Build and publish
         working-directory: ./extensions/underthesea_core
         env:
