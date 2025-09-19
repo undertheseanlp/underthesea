@@ -19,12 +19,19 @@ jobs:
         python-version: ["3.10"]
     steps:
       - uses: actions/checkout@v1
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          curl -sSL https://install.python-poetry.org | python -
       - name: Create environment and install package dependencies
         working-directory: ./extensions/underthesea_core
         env:
-          LC_ALL: en_US.UTF-8  # Known issue: https://github.com/python-poetry/poetry/issues/221#issuecomment-723652470
+          LC_ALL: en_US.UTF-8
         run: |
-          cargo --version
           $PYTHON -m poetry --version
           $PYTHON -m poetry install
           $PYTHON -m poetry show  
@@ -53,11 +60,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install latest nightly
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          override: true    
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -69,10 +71,14 @@ jobs:
         env:
           LC_ALL: en_US.UTF-8
         run: |
-          cargo --version
           $PYTHON -m poetry --version
           $PYTHON -m poetry install
           $PYTHON -m poetry show  
+      - name: Install latest nightly
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: nightly
+          override: true
       - name: Build and publish
         working-directory: ./extensions/underthesea_core
         env:
