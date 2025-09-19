@@ -31,16 +31,16 @@ jobs:
         working-directory: ./extensions/underthesea_core
         run: |
           poetry install
-      - name: Install latest nightly
-        uses: actions-rs/toolchain@v1
-        with:
-          toolchain: nightly
-          override: true
+      - uses: dtolnay/rust-toolchain@stable
       - name: Build and publish
         working-directory: ./extensions/underthesea_core
         env:
           MATURIN_PASSWORD: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
+          # This is a workaround for the maturin sdist issue
+          if [ ! -f .cargo_vcs_info.json ]; then
+            echo '{"git":{"sha1":"'"${GITHUB_SHA}"'"}}' > .cargo_vcs_info.json
+          fi
           poetry run maturin sdist
           pip install twine
           twine upload ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
