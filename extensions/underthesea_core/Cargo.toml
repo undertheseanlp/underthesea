@@ -13,8 +13,7 @@ exclude = [
   "rust-toolchain",
   "target/*",
   "Cargo.lock",
-  "benches/*.txt",
-  ".cargo_vcs_info.json"
+  "benches/*.txt"
 ]
 
 [lib]
