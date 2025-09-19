@@ -64,6 +64,10 @@ jobs:
           curl -sSL https://install.python-poetry.org | python -
       - name: Add poetry to path
         run: echo "${HOME}/.poetry/bin" >> $GITHUB_PATH
+      - name: Install package deps
+        working-directory: ./extensions/underthesea_core
+        run: |
+          poetry install  
       - name: Install latest nightly
         uses: actions-rs/toolchain@v1
         with:
