@@ -1,6 +1,6 @@
 [project]
 name = "underthesea"
-version = "6.8.4"
+version = "8.0.0a0"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.9"
