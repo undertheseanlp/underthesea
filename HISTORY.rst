@@ -2,6 +2,25 @@
 History
 ================================================================================
 
+8.0.0a0 (2025-09-20)
+--------------------------------------------------------------------------------
+
+* GH-740: optimize imports by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/741
+* GH-616: Release version 6.8.4 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/742
+* GH-747: Underthesea Languages v2 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/748
+* GH-749: [Languagesv2] First Page by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/750
+* GH-751: [LanguagesV2] Second Page by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/752
+* GH-753: [LanguagesV2] Third Page by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/754
+* GH-755: Interactive Page for Most Frequently Used Vietnamese Words by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/756
+* Minor fix (Logo in Readme.rst) by @ichxorya in https://github.com/undertheseanlp/underthesea/pull/761
+* Fix wrong global var in sent_tokenize by @Darejkal in https://github.com/undertheseanlp/underthesea/pull/764
+* GH-770: Fix flake8 errros and update dependencies by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/772
+* Update PyO3 API usage to support Python 3.13 and pyo3 >= 0.21 by @trunghieu0207 in https://github.com/undertheseanlp/underthesea/pull/768
+* GH-770: Publish Underthesea Core by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/774
+* GH-770: Publish Underthesea Core v1.0.5 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/775
+* GH-770: Update dependency to underthesea_core=1.0.5 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/776
+* GH-770: Support python 3.12, 3.13 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/777
+
 6.8.4 (2024-06-22)
 --------------------------------------------------------------------------------
 
