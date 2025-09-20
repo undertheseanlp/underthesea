@@ -13,8 +13,8 @@ __email__ = 'anhv.ict91@gmail.com'
 # Check python version
 try:
     version_info = sys.version_info
-    if version_info < (3, 7, 0):
-        raise RuntimeError("underthesea requires Python 3.y or later")
+    if version_info < (3, 9, 0):
+        raise RuntimeError("underthesea requires Python 3.9 or later")
 except Exception:
     pass
 
