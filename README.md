@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/logo.png"/>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/img/logo.png"/>
   <br/>
 </p>
 
@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue">
+    <img src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
@@ -31,7 +31,7 @@
 <br/>
 
 <p align="center">
-  <a href="https://github.com/undertheseanlp/underthesea/blob/main/contribute/SPONSORS.md">
+  <a href="https://github.com/undertheseanlp/underthesea/blob/main/docs/contribute/SPONSORS.md">
     <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
   </a>
 </p>
@@ -44,11 +44,9 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🌊 **A Vietnamese NLP toolkit.** Underthesea is a suite of open source Python modules data sets and tutorials supporting research and development in [Vietnamese Natural Language Processing](https://github.com/undertheseanlp/underthesea). We provides extremely easy API to quickly apply pretrained NLP models to your Vietnamese text, such as word segmentation, part-of-speech tagging (PoS), named entity recognition (NER), text classification and dependency parsing.
 
-🌊 **An open-source software.** Underthesea is published under the [GNU General Public License v3.0](https://github.com/undertheseanlp/underthesea/blob/master/LICENSE) license. Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license.
-
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **Hey there!** Have you heard about **LLMs**, the **prompt-based models**? Well, guess what? Starting from Underthesea version 6.7.0, you can now dive deep with this **super-cool feature** for [text classification](https://github.com/undertheseanlp/underthesea/issues/682)! Dive in and make a splash! 💦🚀
+🎉 **Breaking update!** Underthesea now officially supports Python 3.12 and Python 3.13, ensuring compatibility with the latest Python versions. Update now and enjoy improved performance and new features! 🚀✨
 
 ## Installation
 
@@ -392,7 +390,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ## Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/contribute/CONTRIBUTING.rst)
+Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/docs/contribute/CONTRIBUTING.rst)
 
 ## 💝 Support Us
 
@@ -400,4 +398,4 @@ If you found this project helpful and would like to support our work, you can ju
 
 Your support is our biggest encouragement 🎁!
 
-<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/img/support.png"/>
+<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/img/support.png"/>
