@@ -6,12 +6,12 @@ jobs:
   build_and_package_pypi:
     if: contains(github.event.head_commit.message, 'Release')
     name: Build and package Pypi
+    permissions:
+      id-token: write
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
         uses: actions/checkout@v1
-        with:
-            python-version: 3.7
       - name: Install pypa/build
         run: >-
           python -m
@@ -26,6 +26,4 @@ jobs:
           --wheel
           --outdir dist/
       - name: Publish distribution 📦 to PyPI
-        uses: pypa/gh-action-pypi-publish@master
-        with:
-          password: ${{ secrets.PYPI_API_TOKEN }}
+        uses: pypa/gh-action-pypi-publish@release/v1
