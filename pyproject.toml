@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "underthesea"
-version = "8.0.0"
+version = "8.0.1a0"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -82,6 +82,7 @@ underthesea = [
   "*.txt",
   "*.yml",
   "*.yaml",
+  "*.bin",
   "**/*.bin"
 ]
 
