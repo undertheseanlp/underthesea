@@ -9,7 +9,7 @@
     <img src="https://img.shields.io/pypi/v/underthesea.svg">
   </a>
   <a href="https://pypi.python.org/pypi/underthesea">
-    <img src="https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-blue">
+    <img src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue">
   </a>
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
@@ -48,7 +48,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **Hey there!** Have you heard about **LLMs**, the **prompt-based models**? Well, guess what? Starting from Underthesea version 6.7.0, you can now dive deep with this **super-cool feature** for [text classification](https://github.com/undertheseanlp/underthesea/issues/682)! Dive in and make a splash! 💦🚀
+🎉 Breaking update! Underthesea now officially supports Python 3.12 and Python 3.13, ensuring compatibility with the latest Python versions. Update now and enjoy improved performance and new features! 🚀✨
 
 ## Installation
 
