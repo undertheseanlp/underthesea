@@ -74,7 +74,6 @@ dev = [
 ]
 
 [tool.setuptools]
-packages = ["underthesea"]
 include-package-data = true
 
 [tool.setuptools.package-data]
