@@ -93,9 +93,9 @@ def info():
     print("             pos_tag : OK")
     print("               chunk : OK")
     print("                 ner : OK")
-    print("            classify : OK")
-    print("           sentiment : OK")
-    print("    dependency_parse : OK")
+    print("            classify : SUSPENDED")
+    print("           sentiment : SUSPENDED")
+    print("    dependency_parse : SUSPENDED")
     print("         lang_detect : OK")
     print("           resources : OK")
 

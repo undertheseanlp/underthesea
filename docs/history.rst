@@ -2,7 +2,7 @@
 History
 ================================================================================
 
-8.0.0a1 (2025-09-20)
+8.0.0 (2025-09-20)
 --------------------------------------------------------------------------------
 
 * GH-747: Underthesea Languages v2 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/748
@@ -20,6 +20,9 @@ History
 * GH-770: Support python 3.12, 3.13 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/777
 * GH-770: Update dependency scikit-learn to support python 3.13 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/785
 * GH-770: Update pyproject.toml information by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/787
+* GH-770: Update project structure by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/790
+* Bump django from 3.2.18 to 4.2.24 in /extensions/apps/service by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/791
+* Bump gunicorn from 20.1.0 to 23.0.0 in /extensions/apps/service by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/792
 
 6.8.4 (2024-06-22)
 --------------------------------------------------------------------------------
