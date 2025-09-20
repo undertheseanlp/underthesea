@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "underthesea"
-version = "8.0.0"
+version = "8.0.1a0"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -77,7 +77,14 @@ dev = [
 include-package-data = true
 
 [tool.setuptools.package-data]
-underthesea = ["VERSION", "*.txt", "*.yml", "*.yaml"]
+underthesea = [
+  "VERSION",
+  "*.txt",
+  "*.yml",
+  "*.yaml",
+  "*.bin",
+  "**/*.bin"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
