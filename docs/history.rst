@@ -2,6 +2,13 @@
 History
 ================================================================================
 
+8.0.1a0 (2025-09-20)
+--------------------------------------------------------------------------------
+
+* Bump cookie and express in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/802
+* Bump path-to-regexp and express in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/801
+* Bump nanoid from 3.3.7 to 3.3.11 in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/800
+
 8.0.0 (2025-09-20)
 --------------------------------------------------------------------------------
 
