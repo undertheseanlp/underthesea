@@ -77,7 +77,13 @@ dev = [
 include-package-data = true
 
 [tool.setuptools.package-data]
-underthesea = ["VERSION", "*.txt", "*.yml", "*.yaml"]
+underthesea = [
+  "VERSION",
+  "*.txt",
+  "*.yml",
+  "*.yaml",
+  "**/*.bin"
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
