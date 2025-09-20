@@ -4,7 +4,7 @@ version = "8.0.0a0"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.9"
-license = "GNU General Public License v3"
+license = "GPL-3.0"
 authors = [{ name = "Vu Anh", email = "anhv.ict91@gmail.com" }]
 dependencies = [
     "flake8>=7.3.0",
