@@ -83,7 +83,8 @@ underthesea = [
   "*.yml",
   "*.yaml",
   "*.bin",
-  "**/*.bin"
+  "**/*.bin",
+  "**/*.txt",
 ]
 
 [tool.setuptools.packages.find]
