@@ -2,12 +2,14 @@
 History
 ================================================================================
 
-8.0.1a0 (2025-09-20)
+8.0.1a1 (2025-09-20)
 --------------------------------------------------------------------------------
 
 * Bump cookie and express in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/802
 * Bump path-to-regexp and express in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/801
 * Bump nanoid from 3.3.7 to 3.3.11 in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/800
+* GH-770: Update publish distribution to Pypi workflow by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/805
+* GH-770: Fix missing .txt files by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/806
 
 8.0.0 (2025-09-20)
 --------------------------------------------------------------------------------
