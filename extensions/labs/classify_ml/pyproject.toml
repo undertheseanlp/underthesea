@@ -5,3 +5,23 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = ["scikit-learn>=1.6", "joblib"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.ruff.lint]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "B",  # flake8-bugbear
+    "C4", # flake8-comprehensions
+    "UP", # pyupgrade
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.13.1",
+]
