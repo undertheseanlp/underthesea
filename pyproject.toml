@@ -85,6 +85,7 @@ underthesea = [
   "*.bin",
   "**/*.bin",
   "**/*.txt",
+  "**/*.pkl",
 ]
 
 [tool.setuptools.packages.find]
