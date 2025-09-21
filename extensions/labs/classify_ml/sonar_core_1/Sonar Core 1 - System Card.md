@@ -1,7 +1,12 @@
-# Sonar Core 1 - System Card
+<p align="center">
 
-**Underthesea Team**
-**September 2025**
+<h1>Sonar Core 1 - System Card</h1>
+
+<p><b>Underthesea Team</b></p>
+
+<p><b>September 2025</b></p>
+
+</p>
 
 ## Changelog
 
