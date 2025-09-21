@@ -194,9 +194,12 @@ probabilities = model.predict_proba([text])[0]
 
 If you use this model, please cite:
 ```
-Vietnamese Text Classifier v1.0
+UTS-CAT 1 - Vietnamese Text Classifier v1.1
 Based on VNTC Dataset
 Trained using scikit-learn TF-IDF + Logistic Regression
+Features: 20k max_features, (1,2) n-grams, hash-based caching
+Training Data Hash: 7421f92b
+Test Accuracy: 92.33%
 2025
 ```
 
