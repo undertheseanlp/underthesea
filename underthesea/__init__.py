@@ -70,7 +70,7 @@ __all__ = [
     'chunk',
     'ner',
     'lang_detect',
-    # 'classify',
+    'classify',
     # 'sentiment',
     'dependency_parse'
 ]
