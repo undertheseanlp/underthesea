@@ -33,5 +33,5 @@ def classify(X, domain=None, model=None):
         from underthesea.pipeline.classification import bank
         return bank.classify(X)
 
-    from underthesea.pipeline.classification import vntc
-    return vntc.classify(X)
+    from underthesea.pipeline.classification import sonar_core_1
+    return sonar_core_1.classify(X)
