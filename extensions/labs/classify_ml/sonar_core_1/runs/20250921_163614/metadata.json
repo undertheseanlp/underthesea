@@ -1,5 +1,5 @@
 {
-  "timestamp": "20250921_161340",
+  "timestamp": "20250921_163614",
   "config_name": "UTS-C1_feat20k_ngram1-2_LogisticRegression",
   "model_name": "logistic",
   "vect_max_features": 20000,
@@ -10,8 +10,8 @@
   "classifier": "LogisticRegression",
   "train_accuracy": 0.9539382090701739,
   "test_accuracy": 0.9232723879856273,
-  "train_time": 27.179102897644043,
-  "prediction_time": 19.34236478805542,
+  "train_time": 27.10119891166687,
+  "prediction_time": 19.22114610671997,
   "train_samples": 33759,
   "test_samples": 50373,
   "unique_labels": 10,

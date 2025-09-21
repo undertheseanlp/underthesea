@@ -156,7 +156,8 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
 
     # Initialize dataset
     dataset = VNTCDataset()
-    output_folder = os.path.expanduser("~/.underthesea/models")
+    output_folder = os.path.join(run_dir, "models")
+    os.makedirs(output_folder, exist_ok=True)
 
     # Load data using the VNTCDataset class
     logging.info("Loading dataset...")
@@ -204,7 +205,7 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     print(f"Training data hash: {train_data_hash}")
 
     # Check for cached vectorizer and tfidf transformer
-    cache_dir = os.path.join(output_folder, 'cache')
+    cache_dir = os.path.expanduser("~/.underthesea/cache")
     os.makedirs(cache_dir, exist_ok=True)
 
     vect_cache_file = os.path.join(cache_dir, f'vectorizer_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
@@ -290,24 +291,15 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     # Save the model
     import joblib
     os.makedirs(output_folder, exist_ok=True)
-    model_filename = os.path.join(output_folder, f'{config_name}.pkl')
-    joblib.dump(text_clf, model_filename)
-    logging.info(f"Model saved to {model_filename}")
-    print(f"Model saved to {model_filename}")
 
-    # Save model to run directory
-    run_model_path = os.path.join(run_dir, f'{config_name}.pkl')
-    joblib.dump(text_clf, run_model_path)
-    logging.info(f"Model saved to run directory: {run_model_path}")
-
-    # Save as main model
-    main_model_path = os.path.join(output_folder, 'vntc_classifier.pkl')
+    # Save as main model in run directory
+    main_model_path = os.path.join(output_folder, 'model.pkl')
     joblib.dump(text_clf, main_model_path)
-    logging.info(f"Model saved as main model to {main_model_path}")
-    print(f"Model saved as main model to {main_model_path}")
+    logging.info(f"Model saved to {main_model_path}")
+    print(f"Model saved to {main_model_path}")
 
     # Save label mapping
-    label_mapping_filename = os.path.join(output_folder, 'label_mapping.txt')
+    label_mapping_filename = os.path.join(output_folder, 'labels.txt')
     with open(label_mapping_filename, 'w', encoding='utf-8') as f:
         for label in sorted(set(y_train)):
             f.write(f"{label}\n")
@@ -358,7 +350,8 @@ def train_all_models():
 
     # Initialize dataset
     dataset = VNTCDataset()
-    output_folder = os.path.expanduser("~/.underthesea/models")
+    output_folder = os.path.join(run_dir, "models")
+    os.makedirs(output_folder, exist_ok=True)
 
     # Load data using the VNTCDataset class
     logging.info("Loading dataset...")
@@ -461,13 +454,7 @@ def train_all_models():
                 logging.info(report)
                 print(report)
 
-                # Save the model with configuration name
-                import joblib
-                os.makedirs(output_folder, exist_ok=True)
-                model_filename = os.path.join(output_folder, f'{config_name}.pkl')
-                joblib.dump(text_clf, model_filename)
-                logging.info(f"Model saved to {model_filename}")
-                print(f"Model saved to {model_filename}")
+                # Models are saved at the end to avoid clutter
 
     # Print summary of all experiments
     logging.info("=" * 80)
@@ -496,7 +483,7 @@ def train_all_models():
     import joblib
     best_model_path = os.path.join(output_folder, f"{best_result['config_name']}.pkl")
     best_model = joblib.load(best_model_path)
-    main_model_path = os.path.join(output_folder, 'vntc_classifier.pkl')
+    main_model_path = os.path.join(output_folder, 'model.pkl')
     joblib.dump(best_model, main_model_path)
     logging.info(f"Best model saved as main model to {main_model_path}")
     print(f"Best model saved as main model to {main_model_path}")
@@ -530,7 +517,7 @@ def train_all_models():
     logging.info(f"Run metadata saved to {metadata_file}")
 
     # Save label mapping for reference
-    label_mapping_filename = os.path.join(output_folder, 'label_mapping.txt')
+    label_mapping_filename = os.path.join(output_folder, 'labels.txt')
     with open(label_mapping_filename, 'w', encoding='utf-8') as f:
         for label in sorted(set(y_train)):
             f.write(f"{label}\n")
