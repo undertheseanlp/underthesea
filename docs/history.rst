@@ -2,6 +2,12 @@
 History
 ================================================================================
 
+8.2.0a0 (2025-09-21)
+--------------------------------------------------------------------------------
+
+* GH-731: Update project structure, create extensions/lab folder by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/812
+* GH-731: Create Sonar Core 1 - System Card by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/813
+
 8.1.0 (2025-09-21)
 --------------------------------------------------------------------------------
 
