@@ -1,10 +1,23 @@
-# UTS-CAT 1 - System Card: Vietnamese Text Classifier (VNTC)
+# Sonar Core 1 - System Card
+
+**Underthesea Team**
+**September 2025**
+
+## Changelog
+
+**2025-09-21**
+
+- Initial release of Sonar Core 1
+
+## Abstract
+
+Sonar Core 1 is a machine learning-based text classification model designed for Vietnamese language processing. Built on a TF-IDF (Term Frequency-Inverse Document Frequency) feature extraction pipeline combined with Logistic Regression, this model achieves 92.33% accuracy on the VNTC (Vietnamese Text Classification) dataset across 10 news categories. The model employs optimized feature engineering with 20,000 max features and bigram support, along with a hash-based caching system for efficient processing. This system card provides comprehensive documentation of the model's architecture, performance metrics, intended uses, and limitations.
 
 ## Model Details
 
 ### Model Description
-- **Model Name**: UTS-CAT 1 (Underthesea Text Classification - Category 1)
-- **Model Type**: TF-IDF + Logistic Regression Pipeline
+- **Model Name**: Sonar Core 1
+- **Model Type**: Text Classification Model using Machine Learning (TF-IDF + Logistic Regression Pipeline)
 - **Version**: 1.0
 - **Created Date**: 2025-09-21
 - **Framework**: scikit-learn >=1.6
@@ -163,25 +176,43 @@ probabilities = model.predict_proba([text])[0]
 - Content censorship
 - Automated content moderation without human review
 
+## Model Change Log
+
+### Version 1.1 - 2025-09-21
+**Performance Optimization and Caching Release**
+
+#### Added
+- Hash-based caching system for vectorizer and TF-IDF components
+- Support for model selection (SVC/Logistic Regression)
+- VNTCDataset class for better data handling
+- Command-line interface improvements
+- Automatic cache invalidation when training data changes
+
+#### Changed
+- Increased max_features from 10,000 to 20,000
+- Improved modular architecture with Dataset class
+- Enhanced training pipeline with caching support
+
+#### Performance
+- Training accuracy: 95.39% (+0.46% improvement)
+- Test accuracy: 92.33% (+0.11% improvement)
+- Training time: ~28 seconds with caching
+
+### Version 1.0 - 2025-09-21
+**Initial Release**
+
+#### Features
+- TF-IDF + Logistic Regression pipeline
+- Support for 10 Vietnamese news categories
+- Unigram and bigram feature extraction
+- Max features: 10,000
+
+#### Performance
+- Training accuracy: 94.93%
+- Test accuracy: 92.22%
+- Training time: ~30 seconds without caching
+
 ## Updates and Maintenance
-
-### Version History
-- **v1.0** (2025-09-21): Initial release with TF-IDF + Logistic Regression
-  - Initial max_features: 10,000
-  - Training accuracy: 94.93%, Test accuracy: 92.22%
-- **v1.1** (2025-09-21): Performance optimization and caching
-  - Increased max_features to 20,000
-  - Added hash-based caching system for vectorizer and TF-IDF components
-  - Training accuracy: 95.39%, Test accuracy: 92.33%
-  - Added model selection options (SVC/Logistic Regression)
-  - Implemented VNTCDataset class for better data handling
-
-### Recent Improvements (v1.1)
-1. **Performance Optimization**: Increased vocabulary size from 10k to 20k features
-2. **Caching System**: Hash-based caching prevents recomputation of vectorization
-3. **Model Selection**: Support for both SVC and Logistic Regression classifiers
-4. **Better Architecture**: Modular design with Dataset class and command-line interface
-5. **Cache Invalidation**: Automatic cache updates when training data changes
 
 ### Future Improvements
 1. Experiment with more advanced models (XGBoost, Neural Networks)
@@ -190,17 +221,33 @@ probabilities = model.predict_proba([text])[0]
 4. Implement confidence thresholds for uncertain predictions
 5. Fine-tune on domain-specific data if needed
 
+## References
+
+1. **VNTC Dataset**: Cong Duy Vu Hoang, Dien Dinh, Le Nguyen Nguyen, Quoc Hung Ngo. (2007). A Comparative Study on Vietnamese Text Classification Methods. In Proceedings of IEEE International Conference on Research, Innovation and Vision for the Future (RIVF 2007).
+
+2. **TF-IDF (Term Frequency-Inverse Document Frequency)**: Salton, G. and McGill, M.J. (1983). Introduction to Modern Information Retrieval. McGraw-Hill.
+
+3. **Logistic Regression for Text Classification**: Hastie, T., Tibshirani, R., and Friedman, J. (2009). The Elements of Statistical Learning. Springer.
+
+4. **Scikit-learn**: Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+
+5. **N-gram Language Models**: Brown, P.F., et al. (1992). Class-Based n-gram Models of Natural Language. Computational Linguistics, 18(4), 467-479.
+
 ## Citation
 
 If you use this model, please cite:
-```
-UTS-CAT 1 - Vietnamese Text Classifier v1.1
-Based on VNTC Dataset
-Trained using scikit-learn TF-IDF + Logistic Regression
-Features: 20k max_features, (1,2) n-grams, hash-based caching
-Training Data Hash: 7421f92b
-Test Accuracy: 92.33%
-2025
+
+```bibtex
+@techreport{underthesea2025sonarcore1,
+  title = {Sonar Core 1: A Vietnamese Text Classification Model using Machine Learning},
+  author = {Vu Anh},
+  year = {2025},
+  month = {September},
+  institution = {Underthesea},
+  version = {1.0},
+  url = {https://github.com/undertheseanlp/underthesea/},
+  keywords = {text classification, vietnamese nlp, machine learning, tf-idf, logistic regression}
+}
 ```
 
 ## License

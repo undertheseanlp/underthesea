@@ -1,7 +1,7 @@
 [project]
 name = "underthesea-classify-ml"
 version = "0.1.0"
-description = "Add your description here"
+description = "Training Pipeline for Underthesea Text classifiers"
 readme = "README.md"
 requires-python = ">=3.9"
 dependencies = ["scikit-learn>=1.6", "joblib"]
