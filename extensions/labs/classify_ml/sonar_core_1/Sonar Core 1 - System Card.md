@@ -145,15 +145,15 @@ probabilities = model.predict_proba([text])[0]
 
 # References
 
-1. **VNTC Dataset**: Cong Duy Vu Hoang, Dien Dinh, Le Nguyen Nguyen, Quoc Hung Ngo. (2007). A Comparative Study on Vietnamese Text Classification Methods. In Proceedings of IEEE International Conference on Research, Innovation and Vision for the Future (RIVF 2007).
+1. VNTC Dataset: Hoang, Cong Duy Vu, Dien Dinh, Le Nguyen Nguyen, and Quoc Hung Ngo. (2007). A Comparative Study on Vietnamese Text Classification Methods. In Proceedings of IEEE International Conference on Research, Innovation and Vision for the Future (RIVF 2007), pp. 267-273. IEEE. DOI: 10.1109/RIVF.2007.369167
 
-2. **TF-IDF (Term Frequency-Inverse Document Frequency)**: Salton, G. and McGill, M.J. (1983). Introduction to Modern Information Retrieval. McGraw-Hill.
+2. TF-IDF (Term Frequency-Inverse Document Frequency): Salton, Gerard, and Michael J. McGill. (1983). Introduction to Modern Information Retrieval. McGraw-Hill, New York. ISBN: 978-0070544840
 
-3. **Logistic Regression for Text Classification**: Hastie, T., Tibshirani, R., and Friedman, J. (2009). The Elements of Statistical Learning. Springer.
+3. Logistic Regression for Text Classification: Hastie, Trevor, Robert Tibshirani, and Jerome Friedman. (2009). The Elements of Statistical Learning: Data Mining, Inference, and Prediction (2nd ed.). Springer Series in Statistics. Springer, New York. DOI: 10.1007/978-0-387-84858-7
 
-4. **Scikit-learn**: Pedregosa, F. et al. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12, 2825-2830.
+4. Scikit-learn: Pedregosa, Fabian, Gaël Varoquaux, Alexandre Gramfort, Vincent Michel, Bertrand Thirion, Olivier Grisel, Mathieu Blondel, Peter Prettenhofer, Ron Weiss, Vincent Dubourg, Jake Vanderplas, Alexandre Passos, David Cournapeau, Matthieu Brucher, Matthieu Perrot, and Édouard Duchesnay. (2011). Scikit-learn: Machine Learning in Python. Journal of Machine Learning Research, 12(85), 2825-2830. Retrieved from https://www.jmlr.org/papers/v12/pedregosa11a.html
 
-5. **N-gram Language Models**: Brown, P.F., et al. (1992). Class-Based n-gram Models of Natural Language. Computational Linguistics, 18(4), 467-479.
+5. N-gram Language Models: Brown, Peter F., Vincent J. Della Pietra, Peter V. deSouza, Jenifer C. Lai, and Robert L. Mercer. (1992). Class-Based n-gram Models of Natural Language. Computational Linguistics, 18(4), 467-480. Retrieved from https://aclanthology.org/J92-4003/
 
 # License
 Model trained on publicly available VNTC dataset. Please refer to original dataset license for usage terms.
