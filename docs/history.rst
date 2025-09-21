@@ -2,7 +2,7 @@
 History
 ================================================================================
 
-8.0.1a1 (2025-09-20)
+8.0.1 (2025-09-21)
 --------------------------------------------------------------------------------
 
 * Bump cookie and express in /extensions/apps/languagesv2/languages-v2-web by @dependabot[bot] in https://github.com/undertheseanlp/underthesea/pull/802
