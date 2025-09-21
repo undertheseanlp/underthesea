@@ -92,3 +92,8 @@ underthesea = [
 where = ["."]
 include = ["underthesea", "underthesea.*"]
 exclude = ["apps*", "datasets*", "img*", "extensions*", "contribute*", "tests*"]
+
+[tool.uv.workspace]
+members = [
+    "extensions/train/classify_ml",
+]
