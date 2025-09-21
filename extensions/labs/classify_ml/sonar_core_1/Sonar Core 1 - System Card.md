@@ -1,53 +1,39 @@
-<p align="center">
+<h1 align="center">Sonar Core 1 - System Card</h1>
 
-<h1>Sonar Core 1 - System Card</h1>
+<p align="center"><b>Underthesea Team</b></p>
 
-<p><b>Underthesea Team</b></p>
+<p align="center"><b>September 2025</b></p>
 
-<p><b>September 2025</b></p>
-
-</p>
-
-## Changelog
+# Changelog
 
 **2025-09-21**
 
 - Initial release of Sonar Core 1
 
-## Abstract
+# Abstract
 
-Sonar Core 1 is a machine learning-based text classification model designed for Vietnamese language processing. Built on a TF-IDF (Term Frequency-Inverse Document Frequency) feature extraction pipeline combined with Logistic Regression, this model achieves 92.33% accuracy on the VNTC (Vietnamese Text Classification) dataset across 10 news categories. The model employs optimized feature engineering with 20,000 max features and bigram support, along with a hash-based caching system for efficient processing. This system card provides comprehensive documentation of the model's architecture, performance metrics, intended uses, and limitations.
+**Sonar Core 1** is a machine learning-based text classification model designed for Vietnamese language processing. Built on a **TF-IDF** (Term Frequency-Inverse Document Frequency) feature extraction pipeline combined with **Logistic Regression**, this model achieves **92.33% accuracy** on the VNTC (Vietnamese Text Classification) dataset across **10 news categories**. The model is specifically designed for Vietnamese news article classification, content categorization for Vietnamese text, and document organization and tagging. It employs optimized feature engineering with **20,000 max features** and bigram support, along with a hash-based caching system for efficient processing. This system card provides comprehensive documentation of the model's architecture, performance metrics, intended uses, and limitations.
 
-## Model Details
+# 1. Model Details
 
-### Model Description
-- **Model Name**: Sonar Core 1
-- **Model Type**: Text Classification Model using Machine Learning (TF-IDF + Logistic Regression Pipeline)
-- **Version**: 1.0
-- **Created Date**: 2025-09-21
-- **Framework**: scikit-learn >=1.6
-- **Model File**: vntc_classifier.pkl
-- **Training Data Hash**: 7421f92b
+**Sonar Core 1** is a Vietnamese text classification model built on **scikit-learn >=1.6**, utilizing a TF-IDF pipeline with Logistic Regression to classify text across 10 news categories. The architecture employs:
+- CountVectorizer with **20,000 max features** (optimized from the initial 10,000)
+- N-gram extraction: unigram and bigram support
+- TF-IDF transformation with IDF weighting
+- Logistic Regression classifier with 1,000 max iterations
+- **Hash-based caching system** for efficient processing
 
-### Architecture
-- **Feature Extraction**:
-  - CountVectorizer with max_features=20,000 (optimized from 10,000)
-  - N-gram range: (1, 2) - unigrams and bigrams
-  - TF-IDF Transformer with IDF weighting
-  - Caching enabled for vectorizer and TF-IDF components
-- **Classifier**: Logistic Regression
-  - Max iterations: 1,000
-  - Random state: 42
-  - Solver: Default (lbfgs)
+The model has evolved through two versions since its initial release on **2025-09-21**:
+- **Version 1.0**: Established the baseline with 10,000 features achieving **92.22%** test accuracy
+- **Version 1.1**: Introduced performance optimizations:
+  - Increased vocabulary size to 20,000 features
+  - Hash-based caching for vectorizer and TF-IDF components
+  - Improved modular architecture with dedicated VNTCDataset class
+  - Results: **92.33% test accuracy** | 95.39% training accuracy | ~28 seconds training time with caching
 
-## Intended Use
+# 2. Training Data
 
-### Primary Use Cases
-- Vietnamese news article classification
-- Content categorization for Vietnamese text
-- Document organization and tagging
-
-### Supported Categories (10 classes)
+## 2.1 Supported Categories (10 classes)
 1. **chinh_tri_xa_hoi** - Politics and Society
 2. **doi_song** - Lifestyle
 3. **khoa_hoc** - Science
@@ -59,30 +45,28 @@ Sonar Core 1 is a machine learning-based text classification model designed for 
 9. **van_hoa** - Culture
 10. **vi_tinh** - Information Technology
 
-## Training Data
-
-### Dataset
+## 2.2 Dataset
 - **Name**: VNTC (Vietnamese Text Classification) Dataset
 - **Training Samples**: 33,759 documents
 - **Test Samples**: 50,373 documents
 - **Language**: Vietnamese
 - **Format**: FastText format (__label__category followed by text)
 
-### Data Distribution
+## 2.3 Data Distribution
 - Balanced across 10 news categories
 - Text preprocessing: None (raw Vietnamese text)
 - Average document length: ~200-500 words
 
-## Performance Metrics
+# 3. Performance Metrics
 
-### Overall Performance (Latest Results - 2025-09-21)
+## 3.1 Overall Performance (Latest Results - 2025-09-21)
 - **Training Accuracy**: 95.39% (improved from 94.93%)
 - **Test Accuracy**: 92.33% (improved from 92.22%)
 - **Training Time**: ~27.75 seconds (with caching: first run)
 - **Training Time**: ~28.24 seconds (with caching: subsequent runs)
 - **Inference Time**: ~19.26-20.33 seconds for 50,373 samples
 
-### Per-Class Performance (Latest Run - Top 5 Classes)
+## 3.2 Per-Class Performance (Latest Run - Top 5 Classes)
 | Category | Precision | Recall | F1-Score | Support |
 |----------|-----------|---------|-----------|---------|
 | chinh_tri_xa_hoi | 0.86 | 0.93 | 0.89 | 7,567 |
@@ -91,20 +75,20 @@ Sonar Core 1 is a machine learning-based text classification model designed for 
 | kinh_doanh | 0.94 | 0.88 | 0.91 | 5,276 |
 | phap_luat | 0.92 | 0.92 | 0.92 | 3,788 |
 
-### Aggregate Metrics (Latest Run)
+## 3.3 Aggregate Metrics (Latest Run)
 - **Micro Average**: Precision: 0.89, Recall: 0.88, F1: 0.88
 - **Macro Average**: Precision: 0.88, Recall: 0.85, F1: 0.86
 - **Weighted Average**: Precision: 0.89, Recall: 0.88, F1: 0.88
 
-### Performance Improvements
+## 3.4 Performance Improvements
 - **Feature Count**: Increased from 10,000 to 20,000 max features
 - **Training Accuracy**: +0.46% improvement (94.93% → 95.39%)
 - **Test Accuracy**: +0.11% improvement (92.22% → 92.33%)
 - **Caching System**: Added hash-based caching for vectorizer and TF-IDF components
 
-## Limitations
+# 4. Limitations
 
-### Known Limitations
+## 4.1 Known Limitations
 1. **Language Specificity**: Only works with Vietnamese text
 2. **Domain Specificity**: Optimized for news articles, may not perform well on:
    - Social media posts
@@ -115,24 +99,33 @@ Sonar Core 1 is a machine learning-based text classification model designed for 
    - May miss rare but important terms
 4. **Class Confusion**: Lower performance on lifestyle (doi_song) category (71% recall)
 
-### Biases
+## 4.2 Biases
 - Trained on news articles which may have formal writing style bias
 - May reflect biases present in the original VNTC dataset
 - Performance varies across categories (best on business/law, weakest on lifestyle)
 
-## Usage
+# 5. Updates and Maintenance
 
-### Installation
+## 5.1 Future Improvements
+1. Experiment with more advanced models (XGBoost, Neural Networks)
+2. Further increase vocabulary size for better coverage
+3. Add support for longer documents
+4. Implement confidence thresholds for uncertain predictions
+5. Fine-tune on domain-specific data if needed
+
+# 6. Usage
+
+## 6.1 Installation
 ```bash
 pip install scikit-learn>=1.6 joblib
 ```
 
-### Training
+## 6.2 Training
 ```bash
 uv run --no-project --with 'scikit-learn>=1.6' python train.py
 ```
 
-### Inference
+## 6.3 Inference
 ```bash
 # Single prediction
 uv run --no-project --with 'scikit-learn>=1.6' python predict.py --text "Your Vietnamese text here"
@@ -144,7 +137,7 @@ uv run --no-project --with 'scikit-learn>=1.6' python predict.py --interactive
 uv run --no-project --with 'scikit-learn>=1.6' python predict.py --examples
 ```
 
-### Python API
+## 6.4 Python API
 ```python
 import joblib
 
@@ -157,76 +150,7 @@ prediction = model.predict([text])[0]
 probabilities = model.predict_proba([text])[0]
 ```
 
-## Model Files
-
-### Required Files
-1. **vntc_classifier.pkl** - Main model file (scikit-learn pipeline)
-2. **label_mapping.txt** - List of category labels
-3. **train.py** - Training script
-4. **predict.py** - Inference script
-
-### File Sizes (Approximate)
-- Model file: ~30-50 MB (depending on vocabulary size)
-- Label mapping: < 1 KB
-
-## Ethical Considerations
-
-### Recommended Use
-- News categorization and organization
-- Content management systems
-- Research on Vietnamese text classification
-
-### Not Recommended For
-- Making decisions about individuals
-- Content censorship
-- Automated content moderation without human review
-
-## Model Change Log
-
-### Version 1.1 - 2025-09-21
-**Performance Optimization and Caching Release**
-
-#### Added
-- Hash-based caching system for vectorizer and TF-IDF components
-- Support for model selection (SVC/Logistic Regression)
-- VNTCDataset class for better data handling
-- Command-line interface improvements
-- Automatic cache invalidation when training data changes
-
-#### Changed
-- Increased max_features from 10,000 to 20,000
-- Improved modular architecture with Dataset class
-- Enhanced training pipeline with caching support
-
-#### Performance
-- Training accuracy: 95.39% (+0.46% improvement)
-- Test accuracy: 92.33% (+0.11% improvement)
-- Training time: ~28 seconds with caching
-
-### Version 1.0 - 2025-09-21
-**Initial Release**
-
-#### Features
-- TF-IDF + Logistic Regression pipeline
-- Support for 10 Vietnamese news categories
-- Unigram and bigram feature extraction
-- Max features: 10,000
-
-#### Performance
-- Training accuracy: 94.93%
-- Test accuracy: 92.22%
-- Training time: ~30 seconds without caching
-
-## Updates and Maintenance
-
-### Future Improvements
-1. Experiment with more advanced models (XGBoost, Neural Networks)
-2. Further increase vocabulary size for better coverage
-3. Add support for longer documents
-4. Implement confidence thresholds for uncertain predictions
-5. Fine-tune on domain-specific data if needed
-
-## References
+# References
 
 1. **VNTC Dataset**: Cong Duy Vu Hoang, Dien Dinh, Le Nguyen Nguyen, Quoc Hung Ngo. (2007). A Comparative Study on Vietnamese Text Classification Methods. In Proceedings of IEEE International Conference on Research, Innovation and Vision for the Future (RIVF 2007).
 
@@ -238,7 +162,10 @@ probabilities = model.predict_proba([text])[0]
 
 5. **N-gram Language Models**: Brown, P.F., et al. (1992). Class-Based n-gram Models of Natural Language. Computational Linguistics, 18(4), 467-479.
 
-## Citation
+# License
+Model trained on publicly available VNTC dataset. Please refer to original dataset license for usage terms.
+
+# Citation
 
 If you use this model, please cite:
 
@@ -254,9 +181,3 @@ If you use this model, please cite:
   keywords = {text classification, vietnamese nlp, machine learning, tf-idf, logistic regression}
 }
 ```
-
-## License
-Model trained on publicly available VNTC dataset. Please refer to original dataset license for usage terms.
-
-## Contact
-For questions or issues, please refer to the project repository.
