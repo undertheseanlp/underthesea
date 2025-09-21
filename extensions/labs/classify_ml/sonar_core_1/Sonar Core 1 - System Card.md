@@ -12,7 +12,7 @@
 
 # Abstract
 
-**Sonar Core 1** is a machine learning-based text classification model designed for Vietnamese language processing. Built on a **TF-IDF** (Term Frequency-Inverse Document Frequency) feature extraction pipeline combined with **Logistic Regression**, this model achieves **92.33% accuracy** on the VNTC (Vietnamese Text Classification) dataset across **10 news categories**. The model is specifically designed for Vietnamese news article classification, content categorization for Vietnamese text, and document organization and tagging. It employs optimized feature engineering with **20,000 max features** and bigram support, along with a hash-based caching system for efficient processing. This system card provides comprehensive documentation of the model's architecture, performance metrics, intended uses, and limitations.
+**Sonar Core 1** is a machine learning-based text classification model designed for Vietnamese language processing. Built on a **TF-IDF** (Term Frequency-Inverse Document Frequency) feature extraction pipeline combined with **Logistic Regression**, this model achieves **92.33% accuracy** on the VNTC (Vietnamese Text Classification) dataset across **10 news categories**. The model is specifically designed for Vietnamese news article classification, content categorization for Vietnamese text, and document organization and tagging. Developed as a base model to provide quick and reliable text classification support for **scikit-learn >=1.6** integration since **underthesea 8.1.0**, it employs optimized feature engineering with **20,000 max features** and bigram support, along with a hash-based caching system for efficient processing. This system card provides comprehensive documentation of the model's architecture, performance metrics, intended uses, and limitations.
 
 # 1. Model Details
 
@@ -23,13 +23,7 @@
 - Logistic Regression classifier with 1,000 max iterations
 - **Hash-based caching system** for efficient processing
 
-The model has evolved through two versions since its initial release on **2025-09-21**:
-- **Version 1.0**: Established the baseline with 10,000 features achieving **92.22%** test accuracy
-- **Version 1.1**: Introduced performance optimizations:
-  - Increased vocabulary size to 20,000 features
-  - Hash-based caching for vectorizer and TF-IDF components
-  - Improved modular architecture with dedicated VNTCDataset class
-  - Results: **92.33% test accuracy** | 95.39% training accuracy | ~28 seconds training time with caching
+Released on **2025-09-21**, the model achieves **92.33% test accuracy** and **95.39% training accuracy** with optimized training time of approximately **28 seconds** using the hash-based caching system. The model features a dedicated VNTCDataset class for efficient data handling and improved modular architecture.
 
 # 2. Training Data
 
@@ -104,9 +98,8 @@ The model has evolved through two versions since its initial release on **2025-0
 - May reflect biases present in the original VNTC dataset
 - Performance varies across categories (best on business/law, weakest on lifestyle)
 
-# 5. Updates and Maintenance
+# 5. Future Improvements
 
-## 5.1 Future Improvements
 1. Experiment with more advanced models (XGBoost, Neural Networks)
 2. Further increase vocabulary size for better coverage
 3. Add support for longer documents
