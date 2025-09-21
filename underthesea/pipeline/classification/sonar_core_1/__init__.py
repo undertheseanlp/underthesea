@@ -1,17 +1,21 @@
 import os
 import sys
 import urllib.request
+import warnings
 import zipfile
 from os.path import dirname
 
 import joblib
+
+# Suppress scikit-learn version warnings
+warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 
 sys.path.insert(0, dirname(dirname(__file__)))
 classifier = None
 
 
 def _ensure_model_exists():
-    """Get model from latest run or download from release"""
+    """Download and extract sonar_core_1 model if not exists"""
     model_dir = os.path.expanduser("~/.underthesea/models")
     model_file = os.path.join(model_dir, "sonar_core_1.pkl")
     labels_file = os.path.join(model_dir, "sonar_core_1_labels.txt")
@@ -19,26 +23,6 @@ def _ensure_model_exists():
     # Check if model already exists
     if os.path.exists(model_file) and os.path.exists(labels_file):
         return model_file, labels_file
-
-    # Try to get from latest local run first
-    runs_dir = os.path.join(os.path.dirname(__file__), "..", "..", "..", "..", "extensions", "labs", "classify_ml", "sonar_core_1", "runs")
-    if os.path.exists(runs_dir):
-        import glob
-        run_dirs = glob.glob(os.path.join(runs_dir, "[0-9]*_[0-9]*"))
-        if run_dirs:
-            latest_run = sorted(run_dirs)[-1]
-            latest_model = os.path.join(latest_run, "models", "model.pkl")
-            latest_labels = os.path.join(latest_run, "models", "labels.txt")
-
-            if os.path.exists(latest_model) and os.path.exists(latest_labels):
-                print(f"Using model from latest local run: {latest_run}")
-                os.makedirs(model_dir, exist_ok=True)
-
-                # Copy from latest run
-                import shutil
-                shutil.copy2(latest_model, model_file)
-                shutil.copy2(latest_labels, labels_file)
-                return model_file, labels_file
 
     print("Downloading Sonar Core 1 model...")
 
@@ -75,7 +59,7 @@ def _ensure_model_exists():
 
 def _load_labels(labels_file):
     """Load label mapping from file"""
-    with open(labels_file, 'r', encoding='utf-8') as f:
+    with open(labels_file, encoding='utf-8') as f:
         labels = [line.strip() for line in f.readlines()]
     return labels
 
@@ -87,7 +71,7 @@ def classify(text):
         text (str): Vietnamese text to classify
 
     Returns:
-        list: List containing the predicted category (for compatibility with underthesea API)
+        str: Predicted category
     """
     global classifier
 
@@ -96,9 +80,9 @@ def classify(text):
         classifier = joblib.load(model_file)
         classifier.labels = _load_labels(labels_file)
 
-    # Make prediction
+    # Make prediction and convert to plain string
     prediction = classifier.predict([text])[0]
-    return [prediction]
+    return str(prediction)
 
 
 def classify_with_confidence(text):
@@ -121,13 +105,16 @@ def classify_with_confidence(text):
     prediction = classifier.predict([text])[0]
     probabilities = classifier.predict_proba([text])[0]
 
-    # Get top 3 predictions with probabilities
+    # Get top 3 predictions with probabilities, convert to plain strings
     classes = classifier.classes_
     prob_dict = dict(zip(classes, probabilities))
     top_predictions = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)[:3]
 
+    # Convert numpy strings to plain strings
+    top_predictions = [(str(label), float(prob)) for label, prob in top_predictions]
+
     return {
-        'prediction': prediction,
-        'confidence': top_predictions[0][1],
+        'prediction': str(prediction),
+        'confidence': float(top_predictions[0][1]),
         'top_3': top_predictions
     }
