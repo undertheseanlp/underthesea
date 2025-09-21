@@ -2,7 +2,7 @@
 History
 ================================================================================
 
-8.2.0a1 (2025-09-21)
+8.2.0 (2025-09-21)
 --------------------------------------------------------------------------------
 
 * GH-731: Update project structure, create extensions/lab folder by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/812
