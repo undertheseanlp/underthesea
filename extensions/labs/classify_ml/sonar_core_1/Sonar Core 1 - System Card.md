@@ -54,13 +54,12 @@ Released on **2025-09-21**, the model achieves **92.33% test accuracy** and **95
 # 3. Performance Metrics
 
 ## 3.1 Overall Performance (Latest Results - 2025-09-21)
-- **Training Accuracy**: 95.39% (improved from 94.93%)
-- **Test Accuracy**: 92.33% (improved from 92.22%)
-- **Training Time**: ~27.75 seconds (with caching: first run)
-- **Training Time**: ~28.24 seconds (with caching: subsequent runs)
-- **Inference Time**: ~19.26-20.33 seconds for 50,373 samples
+- **Training Accuracy**: 95.39%
+- **Test Accuracy**: 92.33%
+- **Training Time**: ~27.18 seconds (with caching system)
+- **Inference Time**: ~19.34 seconds for 50,373 samples
 
-## 3.2 Per-Class Performance (Latest Run - Top 5 Classes)
+## 3.2 Per-Class Performance (Latest Run - All 10 Classes)
 | Category | Precision | Recall | F1-Score | Support |
 |----------|-----------|---------|-----------|---------|
 | chinh_tri_xa_hoi | 0.86 | 0.93 | 0.89 | 7,567 |
@@ -68,17 +67,22 @@ Released on **2025-09-21**, the model achieves **92.33% test accuracy** and **95
 | khoa_hoc | 0.88 | 0.79 | 0.83 | 2,096 |
 | kinh_doanh | 0.94 | 0.88 | 0.91 | 5,276 |
 | phap_luat | 0.92 | 0.92 | 0.92 | 3,788 |
+| suc_khoe | 0.93 | 0.95 | 0.94 | 5,417 |
+| the_gioi | 0.95 | 0.93 | 0.94 | 6,716 |
+| the_thao | 0.98 | 0.98 | 0.98 | 6,667 |
+| van_hoa | 0.93 | 0.95 | 0.94 | 6,250 |
+| vi_tinh | 0.94 | 0.95 | 0.94 | 4,560 |
 
 ## 3.3 Aggregate Metrics (Latest Run)
-- **Micro Average**: Precision: 0.89, Recall: 0.88, F1: 0.88
-- **Macro Average**: Precision: 0.88, Recall: 0.85, F1: 0.86
-- **Weighted Average**: Precision: 0.89, Recall: 0.88, F1: 0.88
+- **Overall Accuracy**: 92%
+- **Macro Average**: Precision: 0.91, Recall: 0.90, F1: 0.91
+- **Weighted Average**: Precision: 0.92, Recall: 0.92, F1: 0.92
 
-## 3.4 Performance Improvements
-- **Feature Count**: Increased from 10,000 to 20,000 max features
-- **Training Accuracy**: +0.46% improvement (94.93% → 95.39%)
-- **Test Accuracy**: +0.11% improvement (92.22% → 92.33%)
-- **Caching System**: Added hash-based caching for vectorizer and TF-IDF components
+## 3.4 Performance Analysis
+- **Best Performing Categories**: Sports (the_thao) achieves 98% F1-score, followed by Health, World, Culture, and IT (all 94% F1-score)
+- **Lowest Performing Category**: Lifestyle (doi_song) with 76% F1-score due to lower recall (71%)
+- **Feature Count**: Uses 20,000 max features with bigram support
+- **Caching System**: Hash-based caching for efficient vectorizer and TF-IDF processing
 
 # 4. Limitations
 
@@ -89,14 +93,14 @@ Released on **2025-09-21**, the model achieves **92.33% test accuracy** and **95
    - Technical documentation
    - Conversational text
 3. **Feature Limitations**:
-   - Limited to 10,000 most frequent features
+   - Limited to 20,000 most frequent features
    - May miss rare but important terms
 4. **Class Confusion**: Lower performance on lifestyle (doi_song) category (71% recall)
 
 ## 4.2 Biases
 - Trained on news articles which may have formal writing style bias
 - May reflect biases present in the original VNTC dataset
-- Performance varies across categories (best on business/law, weakest on lifestyle)
+- Performance varies across categories (best on sports at 98% F1-score, weakest on lifestyle at 76% F1-score)
 
 # 5. Future Improvements
 

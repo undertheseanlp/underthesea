@@ -1,0 +1,43 @@
+2025-09-21 16:09:38,025 - INFO - Starting training run: 20250921_160938
+2025-09-21 16:09:38,025 - INFO - Model: logistic
+2025-09-21 16:09:38,025 - INFO - Max features: 20000
+2025-09-21 16:09:38,025 - INFO - N-gram range: (1, 2)
+2025-09-21 16:09:38,026 - INFO - Loading dataset...
+2025-09-21 16:09:40,253 - INFO - Train samples: 33759
+2025-09-21 16:09:40,253 - INFO - Test samples: 50373
+2025-09-21 16:09:40,253 - INFO - Unique labels: 10
+2025-09-21 16:09:40,253 - INFO - Labels: ['chinh_tri_xa_hoi', 'doi_song', 'khoa_hoc', 'kinh_doanh', 'phap_luat', 'suc_khoe', 'the_gioi', 'the_thao', 'van_hoa', 'vi_tinh']...
+2025-09-21 16:09:40,253 - INFO - Selected classifier: LogisticRegression
+2025-09-21 16:09:40,253 - INFO - ============================================================
+2025-09-21 16:09:40,253 - INFO - Training: UTS-C1_feat20k_ngram1-2_LogisticRegression
+2025-09-21 16:09:40,253 - INFO - ============================================================
+2025-09-21 16:09:40,253 - INFO - Creating pipeline with max_features=20000, ngram_range=(1, 2), classifier=LogisticRegression
+2025-09-21 16:09:40,596 - INFO - Training data hash: 7421f92b
+2025-09-21 16:09:40,597 - INFO - Loading cached vectorizer and TF-IDF transformer...
+2025-09-21 16:09:40,649 - INFO - Cached components loaded successfully!
+2025-09-21 16:09:40,650 - INFO - Training model...
+2025-09-21 16:10:07,600 - INFO - Training completed in 26.95 seconds
+2025-09-21 16:10:07,600 - INFO - Evaluating on training set...
+2025-09-21 16:10:20,001 - INFO - Training accuracy: 0.9539
+2025-09-21 16:10:20,001 - INFO - Evaluating on test set...
+2025-09-21 16:10:39,786 - INFO - Test accuracy: 0.9233
+2025-09-21 16:10:39,786 - INFO - Prediction time: 19.79 seconds
+2025-09-21 16:10:39,786 - INFO - Classification Report (first 5 classes):
+2025-09-21 16:10:40,101 - INFO -                   precision    recall  f1-score   support
+
+chinh_tri_xa_hoi       0.86      0.93      0.89      7567
+        doi_song       0.81      0.71      0.76      2036
+        khoa_hoc       0.88      0.79      0.83      2096
+      kinh_doanh       0.94      0.88      0.91      5276
+       phap_luat       0.92      0.92      0.92      3788
+
+       micro avg       0.89      0.88      0.88     20763
+       macro avg       0.88      0.85      0.86     20763
+    weighted avg       0.89      0.88      0.88     20763
+
+2025-09-21 16:10:40,445 - INFO - Model saved to /Users/anhv/.underthesea/models/UTS-C1_feat20k_ngram1-2_LogisticRegression.pkl
+2025-09-21 16:10:40,619 - INFO - Model saved to run directory: runs/20250921_160938/UTS-C1_feat20k_ngram1-2_LogisticRegression.pkl
+2025-09-21 16:10:40,784 - INFO - Model saved as main model to /Users/anhv/.underthesea/models/vntc_classifier.pkl
+2025-09-21 16:10:40,785 - INFO - Label mapping saved to /Users/anhv/.underthesea/models/label_mapping.txt
+2025-09-21 16:10:40,785 - INFO - Run metadata saved to runs/20250921_160938/metadata.json
+2025-09-21 16:10:40,785 - INFO - Training run completed: 20250921_160938
