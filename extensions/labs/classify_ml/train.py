@@ -1,18 +1,19 @@
 
+import argparse
+import hashlib
+import json
 import os
+import pickle
+import time
 import urllib.request
 import zipfile
-import argparse
-import pickle
-import hashlib
-from sklearn.feature_extraction.text import TfidfTransformer, CountVectorizer
-from sklearn.pipeline import Pipeline
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import SVC
-from sklearn.metrics import accuracy_score, classification_report
-import time
-import json
 from abc import ABC, abstractmethod
+
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report
+from sklearn.pipeline import Pipeline
+from sklearn.svm import SVC
 
 
 class Dataset(ABC):
@@ -71,7 +72,7 @@ class VNTCDataset(Dataset):
         """Parse a single data file"""
         X_raw = []
         y = []
-        with open(file_path, 'r', encoding='utf-8') as f:
+        with open(file_path, encoding='utf-8') as f:
             for line in f:
                 parts = line.strip().split(maxsplit=1)
                 if len(parts) == 2:
@@ -144,11 +145,11 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
 
     # Configuration
     model_version = "UTS-C1"
-    config_name = f"{model_version}_feat{vect_max_features//1000}k_ngram{ngram_range[0]}-{ngram_range[1]}_{clf_name}"
+    config_name = f"{model_version}_feat{vect_max_features // 1000}k_ngram{ngram_range[0]}-{ngram_range[1]}_{clf_name}"
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     print(f"Training: {config_name}")
-    print("="*60)
+    print("=" * 60)
 
     # Create TF-IDF pipeline with caching
     print(f"Creating pipeline with max_features={vect_max_features}, ngram_range={ngram_range}, classifier={clf_name}")
@@ -223,7 +224,7 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     # Show classification report for first 5 classes
     print("\nClassification Report (first 5 classes):")
     unique_labels = sorted(set(y_train))[:5]
-    report = classification_report(y_test, test_predictions, labels=unique_labels, zero_division=0, output_dict=True)
+    classification_report(y_test, test_predictions, labels=unique_labels, zero_division=0, output_dict=True)
     print(classification_report(y_test, test_predictions, labels=unique_labels, zero_division=0))
 
     # Save the model
@@ -286,10 +287,10 @@ def train_all_models():
     for max_features in max_features_options:
         for ngram_range in ngram_options:
             for clf_name, classifier in classifier_options:
-                config_name = f"{model_version}_feat{max_features//1000}k_ngram{ngram_range[0]}-{ngram_range[1]}_{clf_name}"
-                print("\n" + "="*60)
+                config_name = f"{model_version}_feat{max_features // 1000}k_ngram{ngram_range[0]}-{ngram_range[1]}_{clf_name}"
+                print("\n" + "=" * 60)
                 print(f"Training: {config_name}")
-                print("="*60)
+                print("=" * 60)
 
                 # Create TF-IDF pipeline
                 print(f"Creating pipeline with max_features={max_features}, ngram_range={ngram_range}, classifier={clf_name}")
@@ -348,11 +349,11 @@ def train_all_models():
                 print(f"Model saved to {model_filename}")
 
     # Print summary of all experiments
-    print("\n" + "="*80)
+    print("\n" + "=" * 80)
     print("EXPERIMENT SUMMARY")
-    print("="*80)
+    print("=" * 80)
     print(f"{'Config':<50} {'Train Acc':<10} {'Test Acc':<10} {'Train Time':<12} {'Pred Time':<10}")
-    print("-"*80)
+    print("-" * 80)
     for result in sorted(results, key=lambda x: x['test_accuracy'], reverse=True):
         print(f"{result['config_name']:<50} {result['train_accuracy']:.4f}     {result['test_accuracy']:.4f}      {result['train_time']:>8.2f}s    {result['prediction_time']:>6.2f}s")
 
@@ -402,7 +403,7 @@ def main():
 
     if args.all_models:
         print("Training all model combinations...")
-        results = train_all_models()
+        train_all_models()
     else:
         print(f"Training single model: {args.model}")
         ngram_range = (args.ngram_min, args.ngram_max)

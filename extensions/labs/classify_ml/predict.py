@@ -6,6 +6,7 @@ import joblib
 # Define model folder
 output_folder = os.path.expanduser("~/.underthesea/models")
 
+
 def load_model(model_path=None):
     """Load the trained model from disk"""
     if model_path is None:
@@ -20,6 +21,7 @@ def load_model(model_path=None):
             "Please run train.py first to train the model."
         )
         sys.exit(1)
+
 
 def load_labels(label_path=None):
     """Load the label mapping from disk"""
@@ -36,6 +38,7 @@ def load_labels(label_path=None):
         )
         sys.exit(1)
 
+
 def predict_text(model, text):
     """Predict the category of a single text"""
     prediction = model.predict([text])[0]
@@ -47,6 +50,7 @@ def predict_text(model, text):
     top_predictions = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)[:3]
 
     return prediction, top_predictions
+
 
 def predict_batch(model, texts):
     """Predict categories for multiple texts"""
@@ -65,6 +69,7 @@ def predict_batch(model, texts):
         })
 
     return results
+
 
 def interactive_predict(model):
     """Interactive mode for predictions"""
@@ -88,6 +93,7 @@ def interactive_predict(model):
         print("\nTop 3 predictions with confidence:")
         for i, (label, prob) in enumerate(top_predictions, 1):
             print(f"  {i}. {label}: {prob:.2%}")
+
 
 def main():
     import argparse
@@ -123,9 +129,9 @@ def main():
             "Thị trường chứng khoán tăng điểm mạnh trong phiên sáng nay"
         ]
 
-        print("\n" + "="*60)
+        print("\n" + "=" * 60)
         print("EXAMPLE PREDICTIONS")
-        print("="*60)
+        print("=" * 60)
 
         results = predict_batch(model, example_texts)
         for result in results:
@@ -135,6 +141,7 @@ def main():
     if args.interactive:
         # Interactive mode
         interactive_predict(model)
+
 
 if __name__ == "__main__":
     main()
