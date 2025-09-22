@@ -1,0 +1,173 @@
+{
+  "timestamp": "20250922_133213",
+  "config_name": "UTS-C1-UTS2017_BANK_feat20k_ngram1-2_LogisticRegression",
+  "dataset_name": "uts2017_bank",
+  "n_samples": null,
+  "model_name": "logistic",
+  "vect_max_features": 20000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "classifier": "LogisticRegression",
+  "train_accuracy": 0.7445624683864441,
+  "test_accuracy": 0.6862348178137652,
+  "train_time": 2.363116979598999,
+  "prediction_time": 0.012408018112182617,
+  "train_samples": 1977,
+  "test_samples": 494,
+  "unique_labels": 36,
+  "classification_report": {
+    "CARD#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 37.0
+    },
+    "CARD#neutral": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "CARD#positive": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 5.0
+    },
+    "CUSTOMER_SUPPORT#negative": {
+      "precision": 0.6501547987616099,
+      "recall": 0.9813084112149533,
+      "f1-score": 0.7821229050279329,
+      "support": 214.0
+    },
+    "CUSTOMER_SUPPORT#neutral": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "CUSTOMER_SUPPORT#positive": {
+      "precision": 0.8305084745762712,
+      "recall": 0.8032786885245902,
+      "f1-score": 0.8166666666666667,
+      "support": 122.0
+    },
+    "DISCOUNT#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "INTEREST_RATE#negative": {
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.2857142857142857,
+      "support": 6.0
+    },
+    "INTERNET_BANKING#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 26.0
+    },
+    "INTERNET_BANKING#positive": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "LOAN#negative": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "MONEY_TRANSFER#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "OTHER#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "OTHER#neutral": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "OTHER#positive": {
+      "precision": 0.5,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.25,
+      "support": 6.0
+    },
+    "PAYMENT#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "PAYMENT#positive": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "PROMOTION#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "PROMOTION#neutral": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "PROMOTION#positive": {
+      "precision": 1.0,
+      "recall": 0.14285714285714285,
+      "f1-score": 0.25,
+      "support": 7.0
+    },
+    "SAVING#positive": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "TRADEMARK#negative": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 6.0
+    },
+    "TRADEMARK#positive": {
+      "precision": 0.5434782608695652,
+      "recall": 0.7142857142857143,
+      "f1-score": 0.6172839506172839,
+      "support": 35.0
+    },
+    "accuracy": 0.6862348178137652,
+    "macro avg": {
+      "precision": 0.2401800667046716,
+      "recall": 0.1728288387050319,
+      "f1-score": 0.17399077426200735,
+      "support": 494.0
+    },
+    "weighted avg": {
+      "precision": 0.5637184209791991,
+      "recall": 0.6862348178137652,
+      "f1-score": 0.6003580141603272,
+      "support": 494.0
+    }
+  }
+}

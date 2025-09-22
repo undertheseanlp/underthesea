@@ -1,4 +1,5 @@
 import glob
+import json
 import os
 import sys
 
@@ -75,6 +76,41 @@ def load_labels(label_path=None, model_dir=None):
         sys.exit(1)
 
 
+def load_dataset_info(model_dir=None):
+    """Load dataset information if available"""
+    output_folder = get_model_folder(model_dir)
+    if output_folder is None:
+        return None
+
+    dataset_info_path = os.path.join(output_folder, 'dataset_info.json')
+    try:
+        with open(dataset_info_path) as f:
+            dataset_info = json.load(f)
+        return dataset_info
+    except FileNotFoundError:
+        return None
+
+
+def load_run_metadata(model_dir=None):
+    """Load run metadata if available"""
+    if model_dir:
+        # If specific model_dir is provided, try to find metadata in parent directory
+        run_dir = os.path.dirname(model_dir) if model_dir.endswith('models') else model_dir
+    else:
+        run_dir = get_latest_run_dir()
+
+    if run_dir is None:
+        return None
+
+    metadata_path = os.path.join(run_dir, 'metadata.json')
+    try:
+        with open(metadata_path) as f:
+            metadata = json.load(f)
+        return metadata
+    except FileNotFoundError:
+        return None
+
+
 def predict_text(model, text):
     """Predict the category of a single text"""
     prediction = model.predict([text])[0]
@@ -107,9 +143,43 @@ def predict_batch(model, texts):
     return results
 
 
-def interactive_predict(model):
+def get_example_texts_for_dataset(dataset_name):
+    """Get appropriate example texts based on the dataset used"""
+    if dataset_name == 'vntc':
+        return [
+            "Việt Nam giành chiến thắng 3-0 trước Thái Lan trong trận bán kết",
+            "Apple ra mắt iPhone mới với nhiều tính năng đột phá",
+            "Cách nấu phở bò ngon đúng chuẩn Hà Nội",
+            "Phát hiện vaccine mới chống lại virus corona",
+            "Thị trường chứng khoán tăng điểm mạnh trong phiên sáng nay",
+            "Thời tiết hôm nay có mưa rào và dông vào chiều tối",
+            "Nhà khoa học Việt Nam đạt giải thưởng quốc tế",
+            "Đội tuyển bóng đá nữ Việt Nam vào chung kết"
+        ]
+    elif dataset_name == 'uts2017_bank':
+        return [
+            "Tôi muốn gửi tiết kiệm với lãi suất cao nhất",
+            "Làm thế nào để vay tiền mua nhà với lãi suất ưu đãi?",
+            "Tôi cần mở tài khoản thanh toán mới",
+            "Phí chuyển khoản quốc tế là bao nhiêu?",
+            "Tôi muốn đăng ký thẻ tín dụng với hạn mức cao",
+            "Cách tính lãi suất khi gửi tiết kiệm có kỳ hạn",
+            "Tôi cần hỗ trợ về dịch vụ internet banking",
+            "Làm sao để khóa thẻ ATM khi bị mất?"
+        ]
+    else:
+        # Default examples for unknown datasets
+        return [
+            "Đây là một văn bản mẫu để kiểm tra",
+            "Hệ thống phân loại văn bản tiếng Việt",
+            "Kiểm tra khả năng dự đoán của mô hình"
+        ]
+
+
+def interactive_predict(model, dataset_name=None):
     """Interactive mode for predictions"""
-    print("\nInteractive prediction mode (type 'quit' to exit)")
+    dataset_info = f" ({dataset_name} dataset)" if dataset_name else ""
+    print(f"\nInteractive prediction mode{dataset_info} (type 'quit' to exit)")
     print("-" * 50)
 
     while True:
@@ -131,13 +201,41 @@ def interactive_predict(model):
             print(f"  {i}. {label}: {prob:.2%}")
 
 
+def show_model_info(model_dir=None):
+    """Show information about the loaded model"""
+    dataset_info = load_dataset_info(model_dir)
+    metadata = load_run_metadata(model_dir)
+
+    print("\n" + "=" * 60)
+    print("MODEL INFORMATION")
+    print("=" * 60)
+
+    if metadata:
+        print(f"Training timestamp: {metadata.get('timestamp', 'Unknown')}")
+        print(f"Model configuration: {metadata.get('config_name', 'Unknown')}")
+        print(f"Dataset used: {metadata.get('dataset_name', 'Unknown')}")
+        if metadata.get('n_samples'):
+            print(f"Sample limit: {metadata['n_samples']}")
+        print(f"Test accuracy: {metadata.get('test_accuracy', 'Unknown'):.4f}")
+        print(f"Training time: {metadata.get('train_time', 'Unknown'):.2f}s")
+
+    if dataset_info:
+        info = dataset_info.get('info', {})
+        print(f"Training samples: {info.get('train_samples', 'Unknown')}")
+        print(f"Test samples: {info.get('test_samples', 'Unknown')}")
+        print(f"Unique labels: {info.get('unique_labels', 'Unknown')}")
+
+    return metadata.get('dataset_name') if metadata else None
+
+
 def main():
     import argparse
 
-    parser = argparse.ArgumentParser(description='Vietnamese Text Classification')
+    parser = argparse.ArgumentParser(description='Vietnamese Text Classification Prediction')
     parser.add_argument('--text', type=str, help='Text to classify')
     parser.add_argument('--interactive', action='store_true', help='Run in interactive mode')
     parser.add_argument('--examples', action='store_true', help='Show example predictions')
+    parser.add_argument('--info', action='store_true', help='Show model information')
     parser.add_argument('--model-dir', type=str, help='Specific model directory to load from (default: latest run)')
     args = parser.parse_args()
 
@@ -145,7 +243,16 @@ def main():
     model = load_model(model_dir=args.model_dir)
     labels = load_labels(model_dir=args.model_dir)
 
-    print(f"\nAvailable categories: {', '.join(labels)}")
+    # Show model information
+    dataset_name = show_model_info(model_dir=args.model_dir)
+
+    print(f"\nAvailable categories ({len(labels)}): {', '.join(labels[:10])}")
+    if len(labels) > 10:
+        print(f"... and {len(labels) - 10} more categories")
+
+    if args.info:
+        # Just show info and exit
+        return
 
     if args.text:
         # Single text prediction
@@ -158,13 +265,7 @@ def main():
 
     elif args.examples or (not args.interactive and not args.text):
         # Example predictions
-        example_texts = [
-            "Việt Nam giành chiến thắng 3-0 trước Thái Lan trong trận bán kết",
-            "Apple ra mắt iPhone mới với nhiều tính năng đột phá",
-            "Cách nấu phở bò ngon đúng chuẩn Hà Nội",
-            "Phát hiện vaccine mới chống lại virus corona",
-            "Thị trường chứng khoán tăng điểm mạnh trong phiên sáng nay"
-        ]
+        example_texts = get_example_texts_for_dataset(dataset_name)
 
         print("\n" + "=" * 60)
         print("EXAMPLE PREDICTIONS")
@@ -177,7 +278,7 @@ def main():
 
     if args.interactive:
         # Interactive mode
-        interactive_predict(model)
+        interactive_predict(model, dataset_name)
 
 
 if __name__ == "__main__":

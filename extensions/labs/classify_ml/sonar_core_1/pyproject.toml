@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Training Pipeline for Underthesea Text classifiers"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = ["scikit-learn>=1.6", "joblib"]
+dependencies = [
+    "scikit-learn>=1.6",
+ "joblib",
+ "flake8>=7.3.0",
+]
 
 [tool.ruff]
 line-length = 100

@@ -1,4 +1,3 @@
-
 import argparse
 import hashlib
 import json
@@ -6,9 +5,6 @@ import logging
 import os
 import pickle
 import time
-import urllib.request
-import zipfile
-from abc import ABC, abstractmethod
 from datetime import datetime
 
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
@@ -16,6 +12,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
+
+from datasets import list_datasets, load_dataset
 
 
 def setup_logging(run_name):
@@ -40,102 +38,6 @@ def setup_logging(run_name):
     return run_dir
 
 
-class Dataset(ABC):
-    """Base class for datasets"""
-
-    @abstractmethod
-    def load_data(self):
-        """Load dataset and return X, y"""
-        pass
-
-    @abstractmethod
-    def get_info(self):
-        """Return dataset information"""
-        pass
-
-
-class VNTCDataset(Dataset):
-    """VNTC Vietnamese Text Classification Dataset"""
-
-    def __init__(self, dataset_folder=None):
-        if dataset_folder is None:
-            dataset_folder = os.path.expanduser("~/.underthesea/VNTC")
-
-        self.dataset_folder = dataset_folder
-        self.train_file = os.path.join(dataset_folder, "train.txt")
-        self.test_file = os.path.join(dataset_folder, "test.txt")
-
-        # Download dataset if not exists
-        self._ensure_dataset_exists()
-
-    def _ensure_dataset_exists(self):
-        """Download dataset if not exists"""
-        if not os.path.exists(self.train_file) or not os.path.exists(self.test_file):
-            print("Dataset not found. Downloading VNTC dataset...")
-
-            # Create directories
-            os.makedirs(os.path.dirname(self.dataset_folder), exist_ok=True)
-
-            # Download zip file
-            zip_url = "https://github.com/undertheseanlp/underthesea/releases/download/resources/VNTC.zip"
-            zip_path = os.path.join(os.path.dirname(self.dataset_folder), "VNTC.zip")
-
-            print(f"Downloading from {zip_url}...")
-            urllib.request.urlretrieve(zip_url, zip_path)
-
-            # Extract zip file
-            print("Extracting dataset...")
-            with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-                zip_ref.extractall(os.path.dirname(self.dataset_folder))
-
-            # Clean up zip file
-            os.remove(zip_path)
-            print("Dataset downloaded and extracted successfully!")
-
-    def _parse_file(self, file_path):
-        """Parse a single data file"""
-        X_raw = []
-        y = []
-        with open(file_path, encoding='utf-8') as f:
-            for line in f:
-                parts = line.strip().split(maxsplit=1)
-                if len(parts) == 2:
-                    label = parts[0].replace('__label__', '')
-                    text = parts[1]
-                    y.append(label)
-                    X_raw.append(text)
-        return X_raw, y
-
-    def load_data(self):
-        """Load training and test data"""
-        print("Loading VNTC dataset...")
-
-        # Load training data
-        print("Reading train.txt...")
-        X_train_raw, y_train = self._parse_file(self.train_file)
-
-        # Load test data
-        print("Reading test.txt...")
-        X_test_raw, y_test = self._parse_file(self.test_file)
-
-        return (X_train_raw, y_train), (X_test_raw, y_test)
-
-    def get_info(self):
-        """Get dataset information"""
-        (X_train_raw, y_train), (X_test_raw, y_test) = self.load_data()
-
-        info = {
-            'name': 'VNTC',
-            'description': 'Vietnamese Text Classification Dataset',
-            'train_samples': len(X_train_raw),
-            'test_samples': len(X_test_raw),
-            'unique_labels': len(set(y_train)),
-            'labels': sorted(set(y_train))
-        }
-
-        return info
-
-
 def get_available_models():
     """Get available classifier options"""
     return {
@@ -144,22 +46,33 @@ def get_available_models():
     }
 
 
-def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
-    """Train a single model with specified parameters"""
+def train_single_model(model_name, dataset_name='vntc', vect_max_features=20000, ngram_range=(1, 2), n_samples=None):
+    """Train a single model with specified parameters
+
+    Args:
+        model_name: Name of the model to train ('svc' or 'logistic')
+        dataset_name: Name of the dataset to use ('vntc' or 'uts2017_bank')
+        vect_max_features: Maximum number of features for vectorizer
+        ngram_range: N-gram range for feature extraction
+        n_samples: Optional limit on number of samples to load
+    """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_dir = setup_logging(timestamp)
 
     logging.info(f"Starting training run: {timestamp}")
     logging.info(f"Model: {model_name}")
+    logging.info(f"Dataset: {dataset_name}")
     logging.info(f"Max features: {vect_max_features}")
     logging.info(f"N-gram range: {ngram_range}")
+    if n_samples:
+        logging.info(f"Sample limit: {n_samples}")
 
     # Initialize dataset
-    dataset = VNTCDataset()
+    dataset = load_dataset(dataset_name, n_samples=n_samples)
     output_folder = os.path.join(run_dir, "models")
     os.makedirs(output_folder, exist_ok=True)
 
-    # Load data using the VNTCDataset class
+    # Load data using the dataset
     logging.info("Loading dataset...")
     (X_train_raw, y_train), (X_test_raw, y_test) = dataset.load_data()
 
@@ -185,7 +98,7 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     logging.info(f"Selected classifier: {clf_name}")
 
     # Configuration
-    model_version = "UTS-C1"
+    model_version = f"UTS-C1-{dataset_name.upper()}"
     config_name = f"{model_version}_feat{vect_max_features // 1000}k_ngram{ngram_range[0]}-{ngram_range[1]}_{clf_name}"
 
     logging.info("=" * 60)
@@ -208,8 +121,8 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     cache_dir = os.path.expanduser("~/.underthesea/cache")
     os.makedirs(cache_dir, exist_ok=True)
 
-    vect_cache_file = os.path.join(cache_dir, f'vectorizer_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
-    tfidf_cache_file = os.path.join(cache_dir, f'tfidf_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
+    vect_cache_file = os.path.join(cache_dir, f'vectorizer_{dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
+    tfidf_cache_file = os.path.join(cache_dir, f'tfidf_{dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
 
     # Try to load cached vectorizer and tfidf
     if os.path.exists(vect_cache_file) and os.path.exists(tfidf_cache_file):
@@ -306,10 +219,22 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     logging.info(f"Label mapping saved to {label_mapping_filename}")
     print(f"Label mapping saved to {label_mapping_filename}")
 
+    # Save dataset info
+    dataset_info_file = os.path.join(output_folder, 'dataset_info.json')
+    with open(dataset_info_file, 'w') as f:
+        json.dump({
+            'dataset_name': dataset_name,
+            'n_samples': n_samples,
+            'info': info
+        }, f, indent=2)
+    logging.info(f"Dataset info saved to {dataset_info_file}")
+
     # Save run metadata to runs folder
     run_metadata = {
         'timestamp': timestamp,
         'config_name': config_name,
+        'dataset_name': dataset_name,
+        'n_samples': n_samples,
         'model_name': model_name,
         'vect_max_features': vect_max_features,
         'ngram_range': ngram_range,
@@ -341,19 +266,27 @@ def train_single_model(model_name, vect_max_features=20000, ngram_range=(1, 2)):
     }
 
 
-def train_all_models():
-    """Train all model combinations (original behavior)"""
+def train_all_models(dataset_name='vntc', n_samples=None):
+    """Train all model combinations
+
+    Args:
+        dataset_name: Name of the dataset to use ('vntc' or 'uts2017_bank')
+        n_samples: Optional limit on number of samples to load
+    """
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_dir = setup_logging(timestamp)
 
     logging.info(f"Starting training run for all models: {timestamp}")
+    logging.info(f"Dataset: {dataset_name}")
+    if n_samples:
+        logging.info(f"Sample limit: {n_samples}")
 
     # Initialize dataset
-    dataset = VNTCDataset()
+    dataset = load_dataset(dataset_name, n_samples=n_samples)
     output_folder = os.path.join(run_dir, "models")
     os.makedirs(output_folder, exist_ok=True)
 
-    # Load data using the VNTCDataset class
+    # Load data using the dataset
     logging.info("Loading dataset...")
     (X_train_raw, y_train), (X_test_raw, y_test) = dataset.load_data()
 
@@ -369,7 +302,7 @@ def train_all_models():
     print(f"Labels: {info['labels'][:10]}...")  # Show first 10 labels
 
     # Configuration options for experiments
-    model_version = "UTS-C1"
+    model_version = f"UTS-C1-{dataset_name.upper()}"
     max_features_options = [10000, 20000, 30000]
     ngram_options = [(1, 2), (1, 3)]
     classifier_options = [
@@ -501,10 +434,22 @@ def train_all_models():
         json.dump(results, f, indent=2)
     logging.info(f"Results saved to run directory: {run_results_file}")
 
+    # Save dataset info
+    dataset_info_file = os.path.join(output_folder, 'dataset_info.json')
+    with open(dataset_info_file, 'w') as f:
+        json.dump({
+            'dataset_name': dataset_name,
+            'n_samples': n_samples,
+            'info': info
+        }, f, indent=2)
+    logging.info(f"Dataset info saved to {dataset_info_file}")
+
     # Save run metadata
     run_metadata = {
         'timestamp': timestamp,
         'model_version': model_version,
+        'dataset_name': dataset_name,
+        'n_samples': n_samples,
         'total_configs': len(results),
         'best_config': best_result,
         'all_results': results,
@@ -531,7 +476,10 @@ def train_all_models():
 
 def main():
     """Main function with argument parsing"""
-    parser = argparse.ArgumentParser(description='Train VNTC text classification models')
+    available_datasets = list_datasets()
+    parser = argparse.ArgumentParser(description='Train text classification models')
+    parser.add_argument('--dataset', type=str, choices=available_datasets, default='vntc',
+                        help=f'Dataset to use (default: vntc). Available: {available_datasets}')
     parser.add_argument('--model', type=str, choices=['svc', 'logistic'], default='svc',
                         help='Model to train (default: svc)')
     parser.add_argument('--max-features', type=int, default=20000,
@@ -540,18 +488,30 @@ def main():
                         help='Minimum n-gram range (default: 1)')
     parser.add_argument('--ngram-max', type=int, default=2,
                         help='Maximum n-gram range (default: 2)')
+    parser.add_argument('--n-samples', type=int, default=None,
+                        help='Limit number of samples per split for quick testing (default: None)')
     parser.add_argument('--all-models', action='store_true',
                         help='Train all model combinations instead of single model')
 
     args = parser.parse_args()
 
     if args.all_models:
-        print("Training all model combinations...")
-        train_all_models()
+        print(f"Training all model combinations on {args.dataset} dataset...")
+        if args.n_samples:
+            print(f"Using sample limit: {args.n_samples}")
+        train_all_models(dataset_name=args.dataset, n_samples=args.n_samples)
     else:
-        print(f"Training single model: {args.model}")
+        print(f"Training single model: {args.model} on {args.dataset} dataset")
+        if args.n_samples:
+            print(f"Using sample limit: {args.n_samples}")
         ngram_range = (args.ngram_min, args.ngram_max)
-        result = train_single_model(args.model, args.max_features, ngram_range)
+        result = train_single_model(
+            model_name=args.model,
+            dataset_name=args.dataset,
+            vect_max_features=args.max_features,
+            ngram_range=ngram_range,
+            n_samples=args.n_samples
+        )
         print(f"\nTraining completed: {result['config_name']}")
         print(f"Test accuracy: {result['test_accuracy']:.4f}")
 
