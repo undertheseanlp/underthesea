@@ -38,8 +38,6 @@ def setup_logging(run_name):
     return run_dir
 
 
-
-
 def get_available_models():
     """Get available classifier options"""
     return {
