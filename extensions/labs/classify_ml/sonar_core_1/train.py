@@ -7,13 +7,14 @@ import pickle
 import time
 from datetime import datetime
 
+from datasets import load_dataset as hf_load_dataset
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.pipeline import Pipeline
 from sklearn.svm import SVC
 
-from datasets import list_datasets, load_dataset
+from uts_datasets import list_datasets, load_dataset
 
 
 def setup_logging(run_name):
@@ -51,7 +52,7 @@ def train_single_model(model_name, dataset_name='vntc', vect_max_features=20000,
 
     Args:
         model_name: Name of the model to train ('svc' or 'logistic')
-        dataset_name: Name of the dataset to use ('vntc' or 'uts2017_bank')
+        dataset_name: Name of the dataset to use ('vntc' or 'undertheseanlp/UTS2017_Bank')
         vect_max_features: Maximum number of features for vectorizer
         ngram_range: N-gram range for feature extraction
         n_samples: Optional limit on number of samples to load
@@ -67,17 +68,45 @@ def train_single_model(model_name, dataset_name='vntc', vect_max_features=20000,
     if n_samples:
         logging.info(f"Sample limit: {n_samples}")
 
-    # Initialize dataset
-    dataset = load_dataset(dataset_name, n_samples=n_samples)
     output_folder = os.path.join(run_dir, "models")
     os.makedirs(output_folder, exist_ok=True)
 
-    # Load data using the dataset
+    # Load data based on dataset type
     logging.info("Loading dataset...")
-    (X_train_raw, y_train), (X_test_raw, y_test) = dataset.load_data()
+    if dataset_name.startswith('undertheseanlp/'):
+        # Use HuggingFace dataset
+        hf_dataset = hf_load_dataset(dataset_name, "classification")
+
+        # Convert to our format
+        train_split = hf_dataset['train']
+        test_split = hf_dataset['test']
+
+        X_train_raw = train_split['text']
+        y_train = train_split['label']
+        X_test_raw = test_split['text']
+        y_test = test_split['label']
+
+        # Apply sample limit if specified
+        if n_samples:
+            X_train_raw = X_train_raw[:n_samples]
+            y_train = y_train[:n_samples]
+            X_test_raw = X_test_raw[:n_samples]
+            y_test = y_test[:n_samples]
+
+        # Create info dict
+        info = {
+            'train_samples': len(X_train_raw),
+            'test_samples': len(X_test_raw),
+            'unique_labels': len(set(y_train)),
+            'labels': sorted(set(y_train))
+        }
+    else:
+        # Use local dataset
+        dataset = load_dataset(dataset_name, n_samples=n_samples)
+        (X_train_raw, y_train), (X_test_raw, y_test) = dataset.load_data()
+        info = dataset.get_info()
 
     # Display dataset information
-    info = dataset.get_info()
     logging.info(f"Train samples: {info['train_samples']}")
     logging.info(f"Test samples: {info['test_samples']}")
     logging.info(f"Unique labels: {info['unique_labels']}")
@@ -121,8 +150,10 @@ def train_single_model(model_name, dataset_name='vntc', vect_max_features=20000,
     cache_dir = os.path.expanduser("~/.underthesea/cache")
     os.makedirs(cache_dir, exist_ok=True)
 
-    vect_cache_file = os.path.join(cache_dir, f'vectorizer_{dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
-    tfidf_cache_file = os.path.join(cache_dir, f'tfidf_{dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
+    # Clean dataset name for filename
+    clean_dataset_name = dataset_name.replace('/', '_').replace('\\', '_')
+    vect_cache_file = os.path.join(cache_dir, f'vectorizer_{clean_dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
+    tfidf_cache_file = os.path.join(cache_dir, f'tfidf_{clean_dataset_name}_feat{vect_max_features}_ngram{ngram_range[0]}-{ngram_range[1]}_{train_data_hash}.pkl')
 
     # Try to load cached vectorizer and tfidf
     if os.path.exists(vect_cache_file) and os.path.exists(tfidf_cache_file):
@@ -476,9 +507,9 @@ def train_all_models(dataset_name='vntc', n_samples=None):
 
 def main():
     """Main function with argument parsing"""
-    available_datasets = list_datasets()
+    available_datasets = list_datasets() + ['undertheseanlp/UTS2017_Bank']
     parser = argparse.ArgumentParser(description='Train text classification models')
-    parser.add_argument('--dataset', type=str, choices=available_datasets, default='vntc',
+    parser.add_argument('--dataset', type=str, default='vntc',
                         help=f'Dataset to use (default: vntc). Available: {available_datasets}')
     parser.add_argument('--model', type=str, choices=['svc', 'logistic'], default='svc',
                         help='Model to train (default: svc)')

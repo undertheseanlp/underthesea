@@ -6,8 +6,9 @@ readme = "README.md"
 requires-python = ">=3.9"
 dependencies = [
     "scikit-learn>=1.6",
- "joblib",
- "flake8>=7.3.0",
+    "joblib",
+    "flake8>=7.3.0",
+    "datasets>=4.1.1",
 ]
 
 [tool.ruff]

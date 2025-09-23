@@ -1,0 +1,107 @@
+{
+  "timestamp": "20250923_101527",
+  "config_name": "UTS-C1-UNDERTHESEANLP/UTS2017_BANK_feat20k_ngram1-2_LogisticRegression",
+  "dataset_name": "undertheseanlp/UTS2017_Bank",
+  "n_samples": null,
+  "model_name": "logistic",
+  "vect_max_features": 20000,
+  "ngram_range": [
+    1,
+    2
+  ],
+  "classifier": "LogisticRegression",
+  "train_accuracy": 0.7733940313606474,
+  "test_accuracy": 0.7165991902834008,
+  "train_time": 0.7941877841949463,
+  "prediction_time": 0.024730920791625977,
+  "train_samples": 1977,
+  "test_samples": 494,
+  "unique_labels": 14,
+  "classification_report": {
+    "CARD": {
+      "precision": 1.0,
+      "recall": 0.022727272727272728,
+      "f1-score": 0.044444444444444446,
+      "support": 44.0
+    },
+    "CUSTOMER_SUPPORT": {
+      "precision": 0.729490022172949,
+      "recall": 0.9733727810650887,
+      "f1-score": 0.8339670468948035,
+      "support": 338.0
+    },
+    "DISCOUNT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "INTEREST_RATE": {
+      "precision": 1.0,
+      "recall": 0.16666666666666666,
+      "f1-score": 0.2857142857142857,
+      "support": 6.0
+    },
+    "INTERNET_BANKING": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 32.0
+    },
+    "LOAN": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "MONEY_TRANSFER": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "OTHER": {
+      "precision": 0.3333333333333333,
+      "recall": 0.08333333333333333,
+      "f1-score": 0.13333333333333333,
+      "support": 12.0
+    },
+    "PAYMENT": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "PROMOTION": {
+      "precision": 1.0,
+      "recall": 0.1111111111111111,
+      "f1-score": 0.2,
+      "support": 9.0
+    },
+    "SAVING": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 3.0
+    },
+    "TRADEMARK": {
+      "precision": 0.5428571428571428,
+      "recall": 0.4634146341463415,
+      "f1-score": 0.5,
+      "support": 41.0
+    },
+    "accuracy": 0.7165991902834008,
+    "macro avg": {
+      "precision": 0.4671400415302854,
+      "recall": 0.20727437214304004,
+      "f1-score": 0.23312159253223894,
+      "support": 494.0
+    },
+    "weighted avg": {
+      "precision": 0.6777829359344122,
+      "recall": 0.7165991902834008,
+      "f1-score": 0.6312767269641395,
+      "support": 494.0
+    }
+  }
+}

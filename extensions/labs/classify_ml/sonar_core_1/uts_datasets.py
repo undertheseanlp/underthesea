@@ -123,29 +123,11 @@ class VNTCDataset(TextClassificationDataset):
         self._ensure_dataset_exists()
 
 
-class UTS2017BankDataset(TextClassificationDataset):
-    """UTS2017 Bank Vietnamese Text Classification Dataset"""
-
-    def __init__(self, dataset_folder=None, n_samples=None):
-        super().__init__(dataset_folder, n_samples)
-
-        if self.dataset_folder is None:
-            self.dataset_folder = os.path.expanduser("~/.underthesea/UTS2017_BANK")
-
-        self.train_file = os.path.join(self.dataset_folder, "train.txt")
-        self.test_file = os.path.join(self.dataset_folder, "test.txt")
-        self.dataset_name = "UTS2017_BANK"
-        self.dataset_description = "UTS2017 Bank Vietnamese Text Classification Dataset"
-        self.download_url = "https://github.com/undertheseanlp/underthesea/releases/download/resources/UTS2017_BANK.zip"
-
-        # Download dataset if not exists
-        self._ensure_dataset_exists()
 
 
 # Dataset registry
 DATASETS = {
     "vntc": VNTCDataset,
-    "uts2017_bank": UTS2017BankDataset,
 }
 
 
