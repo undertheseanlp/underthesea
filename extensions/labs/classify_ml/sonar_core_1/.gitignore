@@ -1,3 +1,0 @@
-**/*.pkl
-runs/**/models
-!runs/**/*.log
