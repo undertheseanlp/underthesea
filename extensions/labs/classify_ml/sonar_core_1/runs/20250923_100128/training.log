@@ -1,5 +1,0 @@
-2025-09-23 10:01:28,046 - INFO - Starting training run: 20250923_100128
-2025-09-23 10:01:28,046 - INFO - Model: svc
-2025-09-23 10:01:28,046 - INFO - Dataset: uts2017_bank
-2025-09-23 10:01:28,046 - INFO - Max features: 20000
-2025-09-23 10:01:28,046 - INFO - N-gram range: (1, 2)

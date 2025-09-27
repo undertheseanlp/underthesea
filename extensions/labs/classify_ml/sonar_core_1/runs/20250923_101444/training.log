@@ -1,6 +1,0 @@
-2025-09-23 10:14:44,516 - INFO - Starting training run: 20250923_101444
-2025-09-23 10:14:44,516 - INFO - Model: logistic
-2025-09-23 10:14:44,516 - INFO - Dataset: undertheseanlp/UTS2017_Bank
-2025-09-23 10:14:44,516 - INFO - Max features: 20000
-2025-09-23 10:14:44,516 - INFO - N-gram range: (1, 2)
-2025-09-23 10:14:44,516 - INFO - Loading dataset...
