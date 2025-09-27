@@ -25,11 +25,11 @@ def classify(X):
         )
         classifier = joblib.load(model_path)
 
-    # Make prediction
+    # Make prediction and convert to plain string
     prediction = classifier.predict([X])[0]
 
     # Return as list to maintain compatibility with existing API
-    return [prediction]
+    return [str(prediction)]
 
 
 def classify_with_confidence(X):
@@ -43,9 +43,9 @@ def classify_with_confidence(X):
         )
         classifier = joblib.load(model_path)
 
-    # Make prediction with probabilities
+    # Make prediction with probabilities and convert to plain string
     prediction = classifier.predict([X])[0]
     probabilities = classifier.predict_proba([X])[0]
-    confidence = max(probabilities)
+    confidence = float(max(probabilities))
 
-    return {"category": prediction, "confidence": confidence, "probabilities": probabilities}
+    return {"category": str(prediction), "confidence": confidence, "probabilities": probabilities}
