@@ -1,7 +1,11 @@
 import logging
+import warnings
 
 import joblib
 from huggingface_hub import hf_hub_download
+
+# Suppress scikit-learn version warnings
+warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 
 FORMAT = "%(message)s"
 logging.basicConfig(format=FORMAT)
