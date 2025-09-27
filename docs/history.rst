@@ -2,11 +2,21 @@
 History
 ================================================================================
 
+8.3.0a0 (2025-09-28)
+--------------------------------------------------------------------------------
+
+* Remove flake8 as runtime dependency by @BLKSerene in https://github.com/undertheseanlp/underthesea/pull/818
+* GH-731: Train text classification model for dataset VNTC2017_BANK by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/819
+* Build wheels for macOS x86-64 by @BLKSerene in https://github.com/undertheseanlp/underthesea/pull/820
+* GH-821: Add datasets UTS2017_Bank by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/822
+* GH-731: Sonar Core 1 - Add bank model by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/824
+
 8.2.0 (2025-09-21)
 --------------------------------------------------------------------------------
 
 * GH-731: Update project structure, create extensions/lab folder by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/812
 * GH-731: Create Sonar Core 1 - System Card by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/813
+* GH-731: Update output format of model sonar_core_1 by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/815
 
 8.1.0 (2025-09-21)
 --------------------------------------------------------------------------------
