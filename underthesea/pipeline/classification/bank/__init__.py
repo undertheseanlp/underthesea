@@ -1,10 +1,11 @@
 import logging
-from huggingface_hub import hf_hub_download
-import joblib
 
-FORMAT = '%(message)s'
+import joblib
+from huggingface_hub import hf_hub_download
+
+FORMAT = "%(message)s"
 logging.basicConfig(format=FORMAT)
-logger = logging.getLogger('underthesea')
+logger = logging.getLogger("underthesea")
 
 classifier = None
 
@@ -16,7 +17,7 @@ def classify(X):
         # Download and load UTS2017_Bank model from Hugging Face
         model_path = hf_hub_download(
             repo_id="undertheseanlp/sonar_core_1",
-            filename="uts2017_bank_classifier_20250927_161733.joblib"
+            filename="uts2017_bank_classifier_20250927_161733.joblib",
         )
         classifier = joblib.load(model_path)
 
@@ -34,7 +35,7 @@ def classify_with_confidence(X):
         # Download and load UTS2017_Bank model from Hugging Face
         model_path = hf_hub_download(
             repo_id="undertheseanlp/sonar_core_1",
-            filename="uts2017_bank_classifier_20250927_161733.joblib"
+            filename="uts2017_bank_classifier_20250927_161733.joblib",
         )
         classifier = joblib.load(model_path)
 
@@ -43,8 +44,4 @@ def classify_with_confidence(X):
     probabilities = classifier.predict_proba([X])[0]
     confidence = max(probabilities)
 
-    return {
-        'category': prediction,
-        'confidence': confidence,
-        'probabilities': probabilities
-    }
+    return {"category": prediction, "confidence": confidence, "probabilities": probabilities}
