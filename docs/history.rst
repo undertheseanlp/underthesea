@@ -11,13 +11,6 @@ History
 * GH-821: Add datasets UTS2017_Bank by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/822
 * GH-731: Sonar Core 1 - Add bank model by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/824
 
-8.3.0 (2025-09-21)
---------------------------------------------------------------------------------
-
-* Build wheels for macOS x86-64 by @BLKSerene in https://github.com/undertheseanlp/underthesea/pull/820
-* GH-821: Add datasets UTS2017_Bank by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/822
-* GH-731: Sonar Core 1 - Add bank model by @rain1024 in https://github.com/undertheseanlp/underthesea/pull/824
-
 8.2.0 (2025-09-21)
 --------------------------------------------------------------------------------
 
