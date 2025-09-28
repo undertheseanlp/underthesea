@@ -93,7 +93,7 @@ def info():
     print("             pos_tag : OK")
     print("               chunk : OK")
     print("                 ner : OK")
-    print("            classify : PARTIAL")
+    print("            classify : OK")
     print("           sentiment : SUSPENDED")
     print("    dependency_parse : SUSPENDED")
     print("         lang_detect : OK")
