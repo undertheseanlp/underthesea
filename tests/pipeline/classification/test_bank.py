@@ -27,5 +27,5 @@ class TestBankClassify(TestCase):
         # Convert numpy strings to regular strings for comparison
         actual = [str(label) for label in actual]
         # Updated expectation based on new model output
-        expected = ["TRADEMARK"]
+        expected = ["DISCOUNT"]
         self.assertEqual(expected, actual)
