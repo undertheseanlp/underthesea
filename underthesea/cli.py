@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
 import os
-import click
 import platform
 
-from underthesea.datasets.vlsp2013_wtk.revise_corpus import revise_corpus
-from underthesea.corpus.validate_corpus import validate_corpus, DEFAULT_MAX_ERROR
+import click
+
+from underthesea.corpus.validate_corpus import DEFAULT_MAX_ERROR, validate_corpus
 from underthesea.data_fetcher import DataFetcher
+from underthesea.datasets.vlsp2013_wtk.revise_corpus import revise_corpus
 from underthesea.model_fetcher import ModelFetcher
 
 
@@ -94,7 +94,7 @@ def info():
     print("               chunk : OK")
     print("                 ner : OK")
     print("            classify : OK")
-    print("           sentiment : SUSPENDED")
+    print("           sentiment : PARTIAL")
     print("    dependency_parse : SUSPENDED")
     print("         lang_detect : OK")
     print("           resources : OK")
