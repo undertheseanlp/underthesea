@@ -17,4 +17,4 @@ jobs:
         run: flake8 .  --max-complexity 10 --ignore E501,W504,W605
       - name: Test with tox
         run: |
-          tox -e traditional
+          tox -e core
