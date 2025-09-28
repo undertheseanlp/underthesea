@@ -30,7 +30,8 @@ class TestSentiment(TestCase):
 
     def test_one_label_4(self):
         text = '''TUI cũng bó tay với BIDV Cần Thơ.
-                Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
+                Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong
+                tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
                 Chán ko buồn nói. Qd có khác '''
         actual = [str(label) for label in sentiment(text, domain="bank")]
         expected = ['CARD#negative']
