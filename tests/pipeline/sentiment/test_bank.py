@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 from unittest import TestCase
+
 from underthesea.pipeline.sentiment import sentiment
 
 
