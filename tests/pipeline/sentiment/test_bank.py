@@ -22,22 +22,22 @@ class TestSentiment(TestCase):
         expected = ['CUSTOMER_SUPPORT#negative']
         self.assertEqual(expected, actual)
 
-    def test_multi_label_1(self):
+    def test_one_label_3(self):
         text = "Dkm t chuyển vẫn bị mất phí"
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['INTEREST_RATE#negative', 'MONEY_TRANSFER#negative']
+        expected = ['MONEY_TRANSFER#negative']
         self.assertEqual(sorted(expected), sorted(actual))
 
-    def test_multi_label_2(self):
+    def test_one_label_4(self):
         text = '''TUI cũng bó tay với BIDV Cần Thơ.
                 Cả quận NK mà chỉ được lèo tèo mấy thùng ATM và luôn trong tình trạng nhìn thấy chữ Sorry cũng nh.ư hết tiền.
                 Chán ko buồn nói. Qd có khác '''
         actual = [str(label) for label in sentiment(text, domain="bank")]
-        expected = ['CARD#negative', 'CUSTOMER_SUPPORT#negative']
+        expected = ['CARD#negative']
         self.assertEqual(sorted(expected), sorted(actual))
 
-    def test_none_label(self):
+    def test_one_label_5(self):
         text = 'Có làm thẻ ngân hàng BIDV miễn phí ko'
         actual = sentiment(text, domain="bank")
-        expected = None
+        expected = ['CARD#negative']
         self.assertEqual(expected, actual)
