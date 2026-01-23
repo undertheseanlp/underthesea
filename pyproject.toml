@@ -49,8 +49,8 @@ train = [
     "seqeval"
 ]
 deep = [
-    "torch>=1.1.0,<1.13",
-    "transformers>=3.5.0"
+    "torch>=2.0.0",
+    "transformers>=4.30.0"
 ]
 wow = [
     "dm-haiku",
