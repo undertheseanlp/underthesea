@@ -46,7 +46,8 @@ optional_imports = {
     'classify': 'underthesea.pipeline.classification',
     'sentiment': 'underthesea.pipeline.sentiment',
     'lang_detect': 'underthesea.pipeline.lang_detect',
-    'dependency_parse': 'underthesea.pipeline.dependency_parse'
+    'dependency_parse': 'underthesea.pipeline.dependency_parse',
+    'translate': 'underthesea.pipeline.translate'
 }
 
 
@@ -72,5 +73,6 @@ __all__ = [
     'lang_detect',
     'classify',
     # 'sentiment',
-    'dependency_parse'
+    'dependency_parse',
+    'translate'
 ]
