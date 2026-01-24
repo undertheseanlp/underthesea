@@ -13,30 +13,48 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Implement Logistic Regression library in Rust ([#878](https://github.com/undertheseanlp/underthesea/pull/878))
 - Implement CRF library in Rust ([#876](https://github.com/undertheseanlp/underthesea/pull/876))
-- Add dependency tree visualization ([#867](https://github.com/undertheseanlp/underthesea/pull/867))
-- Add `labels` property to `classify` and `sentiment` functions ([#865](https://github.com/undertheseanlp/underthesea/pull/865))
 
 ### Changed
 
 - Remove NLTK dependency ([#879](https://github.com/undertheseanlp/underthesea/pull/879))
-- Support PyTorch v2 for dependency parsing ([#871](https://github.com/undertheseanlp/underthesea/pull/871))
-- Update CP_Vietnamese-VLC README with HuggingFace dataset ([#872](https://github.com/undertheseanlp/underthesea/pull/872))
-- Migrate documentation to MkDocs with Material theme ([#863](https://github.com/undertheseanlp/underthesea/pull/863))
-
-### Fixed
-
-- Fix remaining Dependabot security vulnerabilities ([#875](https://github.com/undertheseanlp/underthesea/pull/875))
-- Fix Dependabot security vulnerabilities in frontend dependencies ([#874](https://github.com/undertheseanlp/underthesea/pull/874))
-- Fix ValueError when loading DependencyParser from non-existent path ([#873](https://github.com/undertheseanlp/underthesea/pull/873))
-- Fix KeyError in Sentence.__getattr__ ([#870](https://github.com/undertheseanlp/underthesea/pull/870))
-- Fix TTS UnicodeDecodeError on Windows ([#869](https://github.com/undertheseanlp/underthesea/pull/869))
-- Fix underthesea[voice] installation ([#868](https://github.com/undertheseanlp/underthesea/pull/868))
-- Fix sklearn >= 1.5 compatibility for loaded models ([#866](https://github.com/undertheseanlp/underthesea/pull/866))
-- Fix JAX API deprecation in say module ([#864](https://github.com/undertheseanlp/underthesea/pull/864))
 
 ### Security
 
 - Fix Dependabot security vulnerabilities ([#874](https://github.com/undertheseanlp/underthesea/pull/874), [#875](https://github.com/undertheseanlp/underthesea/pull/875))
+
+## [9.1.3] - 2026-01-24
+
+### Added
+
+- Add dependency tree visualization ([#867](https://github.com/undertheseanlp/underthesea/pull/867))
+
+### Changed
+
+- Support PyTorch v2 for dependency parsing ([#871](https://github.com/undertheseanlp/underthesea/pull/871))
+- Update CP_Vietnamese-VLC README with HuggingFace dataset ([#872](https://github.com/undertheseanlp/underthesea/pull/872))
+
+### Fixed
+
+- Fix ValueError when loading DependencyParser from non-existent path ([#873](https://github.com/undertheseanlp/underthesea/pull/873))
+- Fix KeyError in Sentence.__getattr__ ([#870](https://github.com/undertheseanlp/underthesea/pull/870))
+- Fix TTS UnicodeDecodeError on Windows ([#869](https://github.com/undertheseanlp/underthesea/pull/869))
+- Fix underthesea[voice] installation ([#868](https://github.com/undertheseanlp/underthesea/pull/868))
+
+## [9.1.2] - 2026-01-24
+
+### Added
+
+- Add `labels` property to `classify` and `sentiment` functions ([#865](https://github.com/undertheseanlp/underthesea/pull/865))
+
+### Fixed
+
+- Fix sklearn >= 1.5 compatibility for loaded models ([#866](https://github.com/undertheseanlp/underthesea/pull/866))
+
+## [9.1.1] - 2026-01-24
+
+### Fixed
+
+- Fix VERSION file to match pyproject.toml
 
 ## [9.1.0] - 2026-01-24
 
@@ -284,7 +302,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release on ReadTheDocs
 
 [Unreleased]: https://github.com/undertheseanlp/underthesea/compare/v9.1.4...HEAD
-[9.1.4]: https://github.com/undertheseanlp/underthesea/compare/v9.1.0...v9.1.4
+[9.1.4]: https://github.com/undertheseanlp/underthesea/compare/v9.1.3...v9.1.4
+[9.1.3]: https://github.com/undertheseanlp/underthesea/compare/v9.1.2...v9.1.3
+[9.1.2]: https://github.com/undertheseanlp/underthesea/compare/v9.1.1...v9.1.2
+[9.1.1]: https://github.com/undertheseanlp/underthesea/compare/v9.1.0...v9.1.1
 [9.1.0]: https://github.com/undertheseanlp/underthesea/compare/v8.3.0...v9.1.0
 [8.3.0]: https://github.com/undertheseanlp/underthesea/compare/v8.2.0...v8.3.0
 [8.2.0]: https://github.com/undertheseanlp/underthesea/compare/v8.1.0...v8.2.0
