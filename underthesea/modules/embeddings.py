@@ -59,7 +59,9 @@ class TokenEmbeddings(torch.nn.Module):
 
 
 class StackEmbeddings(torch.nn.Module):
-    def __init__(self, embeddings=[]):
+    def __init__(self, embeddings=None):
+        if embeddings is None:
+            embeddings = []
         super().__init__()
         self.embeddings = embeddings
 

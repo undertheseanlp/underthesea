@@ -1,4 +1,4 @@
-from typing import List, Union
+from typing import Union
 
 
 class Label:
@@ -26,17 +26,17 @@ class Label:
             self._score = 1.0
 
     def __str__(self):
-        return "{} ({})".format(self._value, self._score)
+        return f"{self._value} ({self._score})"
 
     def __repr__(self):
-        return "{} ({})".format(self._value, self._score)
+        return f"{self._value} ({self._score})"
 
 
 class Sentence:
     def __init__(
         self,
         text: str = None,
-        labels: Union[List[Label], List[str]] = None
+        labels: Union[list[Label], list[str]] = None
     ):
         self.text = text
         self.labels = labels
@@ -52,7 +52,7 @@ class Sentence:
         output = f"{labels_text} {self.text}"
         return output
 
-    def add_labels(self, labels: Union[List[Label], List[str]]):
+    def add_labels(self, labels: Union[list[Label], list[str]]):
         for label in labels:
             if type(label) is str:
                 label = Label(label)

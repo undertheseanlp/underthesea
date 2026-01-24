@@ -1,7 +1,10 @@
-import pycrfsuite
 import logging
+
+import pycrfsuite
 from underthesea_core import CRFFeaturizer
+
 from underthesea.transformer.tagged_feature import lower_words
+
 # from conlleval import evaluate_
 
 logger = logging.getLogger(__name__)

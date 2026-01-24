@@ -1,5 +1,6 @@
-from github import Github
 import os
+
+from github import Github
 
 
 def upload_datasets():

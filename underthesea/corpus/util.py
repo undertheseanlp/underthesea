@@ -3,7 +3,7 @@ from os.path import join
 from pathlib import Path
 
 
-class DisplayablePath(object):
+class DisplayablePath:
     display_filename_prefix_middle = '├──'
     display_filename_prefix_last = '└──'
     display_parent_prefix_middle = '    '
@@ -32,10 +32,10 @@ class DisplayablePath(object):
         displayable_root = cls(root, parent, is_last)
         yield displayable_root
 
-        children = sorted(list(path
-                               for path in root.iterdir()
-                               if criteria(path)),
-                          key=lambda s: str(s).lower())
+        children = sorted(
+            [path for path in root.iterdir() if criteria(path)],
+            key=lambda s: str(s).lower()
+        )
         count = 1
         for path in children:
             is_last = count == len(children)
@@ -60,8 +60,7 @@ class DisplayablePath(object):
                             if self.is_last
                             else self.display_filename_prefix_middle)
 
-        parts = ['{!s} {!s}'.format(_filename_prefix,
-                                    self.displayname)]
+        parts = [f'{_filename_prefix!s} {self.displayname!s}']
 
         parent = self.parent
         while parent and parent.parent is not None:

@@ -1,17 +1,19 @@
+import builtins
 import os
 import re
 import shutil
+import zipfile
 from enum import Enum
 from os.path import dirname, join
-from typing import Union, List
+from pathlib import Path
+from typing import Union
+
 import yaml
+
 from underthesea.corpus import Corpus
 from underthesea.corpus.categorized_corpus import CategorizedCorpus
-from underthesea.corpus.data import Sentence, Label
-from underthesea.file_utils import cached_path, UNDERTHESEA_FOLDER
-from pathlib import Path
-import zipfile
-
+from underthesea.corpus.data import Label, Sentence
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 from underthesea.utils import print_table
 
 MISS_URL_ERROR = (
@@ -74,7 +76,7 @@ class DataFetcher:
             print(f"Resource {data} is already existed in: {filepath}")
             return
 
-        if data in set(["VNESES", "VNTQ_SMALL", "VNTQ_BIG"]):
+        if data in {"VNESES", "VNTQ_SMALL", "VNTQ_BIG"}:
             DataFetcher.download_raw_file_to_cache(repo_data)
 
         zip_datasets = [
@@ -119,9 +121,7 @@ class DataFetcher:
             if license == "Close":
                 license = "Close*"
             datasets.append([name, type, license, year, directory])
-        datasets = list(
-            sorted(datasets, key=lambda x: (x[3], x[1], x[0]), reverse=True)
-        )
+        datasets = sorted(datasets, key=lambda x: (x[3], x[1], x[0]), reverse=True)
         print_table(datasets, headers=["Name", "Type", "License", "Year", "Directory"])
 
         if all:
@@ -173,7 +173,7 @@ class DataFetcher:
 
     @staticmethod
     def __exact_aspect_labels(corpus: CategorizedCorpus):
-        def extract(data: List[Sentence]):
+        def extract(data: list[Sentence]):
             for sentence in data:
                 labels = []
                 for label in sentence.labels:
@@ -194,23 +194,23 @@ class DataFetcher:
         train_file = data_folder / "train.txt"
         dev_file = data_folder / "dev.txt"
         test_file = data_folder / "test.txt"
-        sentences_train: List[Sentence] = DataFetcher.read_text_classification_file(
+        sentences_train: list[Sentence] = DataFetcher.read_text_classification_file(
             train_file
         )
         if dev_file.is_file():
-            sentences_dev: List[Sentence] = DataFetcher.read_text_classification_file(
+            sentences_dev: list[Sentence] = DataFetcher.read_text_classification_file(
                 dev_file
             )
         else:
             sentences_train, sentences_dev = DataFetcher.__sample(sentences_train)
-        sentences_test: List[Sentence] = DataFetcher.read_text_classification_file(
+        sentences_test: list[Sentence] = DataFetcher.read_text_classification_file(
             test_file
         )
         corpus = CategorizedCorpus(sentences_train, sentences_dev, sentences_test)
         return corpus
 
     @staticmethod
-    def __sample(data: List[Sentence], percentage: float = 0.1):
+    def __sample(data: builtins.list[Sentence], percentage: float = 0.1):
         import random
 
         random.shuffle(data)
@@ -220,7 +220,7 @@ class DataFetcher:
         return a, b
 
     @staticmethod
-    def read_text_classification_file(path_to_file) -> List[Sentence]:
+    def read_text_classification_file(path_to_file) -> builtins.list[Sentence]:
         sentences = []
         with open(path_to_file) as f:
             lines = f.read().splitlines()

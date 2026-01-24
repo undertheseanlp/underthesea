@@ -1,11 +1,12 @@
-# -*- coding: utf-8 -*-
 from collections import Counter
+
 import torch
+
 from underthesea.utils.sp_fn import pad
 from underthesea.utils.sp_vocab import Vocab
 
 
-class RawField(object):
+class RawField:
     r"""
     Defines a general datatype.
 

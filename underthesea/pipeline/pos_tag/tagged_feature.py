@@ -21,9 +21,11 @@
 # [Deprecating] This file will be deprecated in the version 6.5.0
 
 import re
+
 from underthesea.corpus import DictionaryLoader
+
 words = DictionaryLoader("Viet74K.txt").words
-lower_words = set([word.lower() for word in words])
+lower_words = {word.lower() for word in words}
 
 
 def text_lower(word):
@@ -86,16 +88,16 @@ def template2features(sent, i, token_syntax, debug=True):
     index2 = int(index2) if index2 else None
     func = matched.group("function")
     if debug:
-        prefix = "%s=" % token_syntax
+        prefix = f"{token_syntax}="
     else:
         prefix = ""
     if i + index1 < 0:
-        return ["%sBOS" % prefix]
+        return [f"{prefix}BOS"]
     if i + index1 >= len(sent):
-        return ["%sEOS" % prefix]
+        return [f"{prefix}EOS"]
     if index2 is not None:
         if i + index2 >= len(sent):
-            return ["%sEOS" % prefix]
+            return [f"{prefix}EOS"]
         word = " ".join(columns[column][i + index1: i + index2 + 1])
     else:
         word = sent[i + index1][column]
@@ -103,7 +105,7 @@ def template2features(sent, i, token_syntax, debug=True):
         result = apply_function(func, word)
     else:
         result = word
-    return ["%s%s" % (prefix, result)]
+    return [f"{prefix}{result}"]
 
 
 def word2features(sent, i, template):

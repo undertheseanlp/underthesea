@@ -1,6 +1,6 @@
-from os.path import join, dirname
+from os.path import dirname, join
 
 filepath = join(dirname(__file__), "stopwords.txt")
-with open(filepath, "r") as f:
+with open(filepath) as f:
     words = f.read().split("\n")
     f.close()

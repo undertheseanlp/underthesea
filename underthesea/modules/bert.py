@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import torch.nn as nn
 from torch.nn.utils.rnn import pad_sequence

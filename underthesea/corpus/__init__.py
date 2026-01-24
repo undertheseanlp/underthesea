@@ -1,8 +1,8 @@
 from underthesea.corpus.corpus import Corpus
 from underthesea.corpus.data import Document
-from underthesea.feature_engineering.unicode import UnicodeTransformer
 from underthesea.corpus.plaintext_corpus import PlainTextCorpus
 from underthesea.corpus.readers.dictionary_loader import DictionaryLoader
+from underthesea.feature_engineering.unicode import UnicodeTransformer
 
 viet_dict_11K = DictionaryLoader('Viet11K.txt')
 viet_dict_22K = DictionaryLoader('Viet22K.txt')

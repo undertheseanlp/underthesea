@@ -1,7 +1,6 @@
-# -*- coding: utf-8 -*-
 import pickle
 import string
-from os.path import join, dirname
+from os.path import dirname, join
 
 from nltk import PunktSentenceTokenizer
 

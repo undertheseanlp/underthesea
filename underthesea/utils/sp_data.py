@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 import torch
 import torch.distributed as dist
@@ -33,7 +32,7 @@ class Dataset(torch.utils.data.Dataset):
     """
 
     def __init__(self, transform, data, **kwargs):
-        super(Dataset, self).__init__()
+        super().__init__()
 
         self.transform = transform
         self.sentences = transform.load(data, **kwargs)
@@ -82,7 +81,7 @@ class Dataset(torch.utils.data.Dataset):
         self.__dict__.update(state)
 
     def collate_fn(self, batch):
-        return {f: d for f, d in zip(self.fields.keys(), zip(*batch))}
+        return dict(zip(self.fields.keys(), zip(*batch)))
 
     def build(self, batch_size, n_buckets=1, shuffle=False, distributed=False):
         # numericalize all fields

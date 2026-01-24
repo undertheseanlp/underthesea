@@ -12,9 +12,9 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install flake8 pytest tox
-      - name: Lint with flake8
-        run: flake8 .  --max-complexity 10 --ignore E501,W504,W605
+          pip install ruff tox
+      - name: Lint with ruff
+        run: ruff check underthesea/
       - name: Test with tox
         run: |
           tox -e core

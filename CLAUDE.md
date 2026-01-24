@@ -20,15 +20,17 @@ uv pip install -e "."               # Basic install
 uv pip install -e ".[deep]"         # With deep learning (torch, transformers)
 uv pip install -e ".[prompt]"       # With prompt models (openai)
 uv pip install -e ".[langdetect]"   # With language detection (fasttext)
-uv pip install -e ".[dev]"          # With dev tools (flake8, tox)
+uv pip install -e ".[dev]"          # With dev tools (ruff, tox)
 
 # Build underthesea_core (Rust extension, required for macOS ARM64)
 cd extensions/underthesea_core && uv pip install maturin && maturin develop && cd ../..
 
 # Linting
-flake8 .                            # Uses .flake8 config (ignores E501, W504, W605)
+ruff check underthesea/             # Fast Python linter (config in pyproject.toml)
+ruff check underthesea/ --fix       # Auto-fix issues
 
 # Run all tests by category
+tox -e lint                         # Linting with ruff
 tox -e core                         # Core module tests
 tox -e deep                         # Deep learning tests
 tox -e prompt                       # Prompt model tests (requires OPENAI_API_KEY)

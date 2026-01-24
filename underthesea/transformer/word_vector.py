@@ -52,7 +52,7 @@ class WordVectorTransformer(Transformer):
 
     def _transform(self, raw_documents, is_fit):
         documents = [document.split() for document in raw_documents]
-        vocab = sorted(set((reduce(lambda x, y: x + y, documents))))
+        vocab = sorted(set(reduce(lambda x, y: x + y, documents)))
         max_length_doc = max(len(_) for _ in documents)
         if is_fit:
             self.max_length = max(self.max_length, max_length_doc)

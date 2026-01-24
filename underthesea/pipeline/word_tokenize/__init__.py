@@ -1,12 +1,13 @@
-# -*- coding: utf-8 -*-
-from .regex_tokenize import tokenize
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 from os.path import dirname, join
+
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+
+from .regex_tokenize import tokenize
 
 word_tokenize_model = None
 
 
-def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[]):
+def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=None):
     """
     Vietnamese word segmentation
 
@@ -34,6 +35,8 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[
         >>> word_tokenize(sentence, format="text")
         "Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư"
     """
+    if fixed_words is None:
+        fixed_words = []
     global word_tokenize_model
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize, fixed_words=fixed_words)
     features = [[token] for token in tokens]
@@ -47,10 +50,10 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=[
     num_words = 0
     for tag, token in zip(tags, tokens):
         if tag == "I-W" and num_words > 0:
-            output[-1] = output[-1] + u" " + token
+            output[-1] = output[-1] + " " + token
         else:
             output.append(token)
         num_words += 1
     if format == "text":
-        output = u" ".join([item.replace(" ", "_") for item in output])
+        output = " ".join([item.replace(" ", "_") for item in output])
     return output

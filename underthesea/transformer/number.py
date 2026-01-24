@@ -1,4 +1,3 @@
-import sys
 
 
 class NumberRemover:
@@ -12,11 +11,8 @@ class NumberRemover:
     def _remove(self, document):
         numbers = "0123456789"
 
-        if sys.version_info < (3, 0, 0):
-            return document.translate(None, numbers)
-        else:
-            remover = str.maketrans("", "", numbers)
-            return document.translate(remover)
+        remover = str.maketrans("", "", numbers)
+        return document.translate(remover)
 
     def transform(self, raw_documents):
         """

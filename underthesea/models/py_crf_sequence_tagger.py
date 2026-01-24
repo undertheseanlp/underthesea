@@ -3,11 +3,14 @@ from pathlib import Path
 
 import joblib
 import pycrfsuite
+
 from underthesea.transformer.tagged import TaggedTransformer
 
 
 class PyCRFSequenceTagger:
-    def __init__(self, features=None, dictionary=set()):
+    def __init__(self, features=None, dictionary=None):
+        if dictionary is None:
+            dictionary = set()
         self.features = features
         self.dictionary = dictionary
         self.crf_tagger = None

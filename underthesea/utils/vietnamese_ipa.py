@@ -3,9 +3,17 @@ Underthesea Vietnamese IPA
 """
 from collections import OrderedDict
 from types import SimpleNamespace
+
 import regex
-from underthesea.pipeline.word_tokenize.regex_tokenize import VIETNAMESE_VOWELS_LOWER
-from underthesea.utils.vietnamese_ipa_rules import codas, nuclei, onsets, onoffglides, onglides, offglides
+
+from underthesea.utils.vietnamese_ipa_rules import (
+    codas,
+    nuclei,
+    offglides,
+    onglides,
+    onoffglides,
+    onsets,
+)
 
 
 class VIETNAMESE:

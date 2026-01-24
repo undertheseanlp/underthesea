@@ -1,4 +1,4 @@
-from .token_normalize import token_normalize
+from .token_normalize import token_normalize  # noqa: I001 - must be first to avoid circular import
 from underthesea.pipeline.word_tokenize.regex_tokenize import tokenize
 
 

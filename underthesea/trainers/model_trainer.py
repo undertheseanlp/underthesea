@@ -1,11 +1,12 @@
 from os import makedirs
-from os.path import join, exists
+from os.path import exists, join
 from shutil import rmtree
-from seqeval.metrics import classification_report, accuracy_score
+
+import pycrfsuite
+from seqeval.metrics import accuracy_score, classification_report
+
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.transformer.tagged import TaggedTransformer
-import pycrfsuite
-
 from underthesea.utils import logger
 
 

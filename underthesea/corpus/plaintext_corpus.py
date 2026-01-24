@@ -1,10 +1,9 @@
-from underthesea.corpus import Corpus, Document
-from os.path import join
 from os import listdir, mkdir
+from os.path import join
 
+from underthesea.corpus import Corpus, Document
 from underthesea.feature_engineering.unicode import UnicodeTransformer
 from underthesea.util.file_io import write
-import io
 
 
 class PlainTextCorpus(Corpus):
@@ -24,7 +23,7 @@ class PlainTextCorpus(Corpus):
         files = [join(folder, f) for f in ids]
         contents = []
         for file in files:
-            with io.open(file, "r", encoding="utf-8") as f:
+            with open(file, encoding="utf-8") as f:
                 contents.append(f.read())
         documents = []
 
@@ -49,5 +48,5 @@ class PlainTextCorpus(Corpus):
             pass
         for document in self.documents:
             filename = join(folder, document.id)
-            content = u"\n".join(document.sentences)
+            content = "\n".join(document.sentences)
             write(filename, content)

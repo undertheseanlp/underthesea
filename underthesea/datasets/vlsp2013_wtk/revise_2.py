@@ -1,7 +1,9 @@
 from os import makedirs
-from os.path import basename, join, exists, dirname
+from os.path import basename, dirname, exists, join
 from shutil import copyfile, rmtree
+
 import yaml
+
 from underthesea.corpus.validate_corpus import validate_corpus_exist
 from underthesea.feature_engineering.text import Text
 from underthesea.file_utils import DATASETS_FOLDER
@@ -13,7 +15,7 @@ DATA_FILE = join(CD, "revise_2_data.yml")
 def load_ignores():
     def extract_ids(content):
         ids = content.split(",")
-        ids = set([int(id) for id in ids])
+        ids = {int(id) for id in ids}
         return ids
 
     with open(DATA_FILE) as f:

@@ -1,6 +1,6 @@
 from os import remove
+from os.path import dirname, exists, join
 from urllib.request import urlretrieve
-from os.path import dirname, join, exists
 from zipfile import ZipFile
 
 components = [
@@ -34,8 +34,7 @@ def download_component(component_name):
             print(e)
             print("Cannot download component '{}'".format(component["name"]))
     except Exception:
-        message = "Error: Component with name '{}' does not exist.".format(
-            component_name)
+        message = f"Error: Component with name '{component_name}' does not exist."
         print(message)
 
 

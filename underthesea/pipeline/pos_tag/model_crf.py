@@ -1,8 +1,10 @@
-from os.path import join, dirname
-from underthesea.util.singleton import Singleton
-import pycrfsuite
-from .tagged_feature import word2features
+from os.path import dirname, join
 
+import pycrfsuite
+
+from underthesea.util.singleton import Singleton
+
+from .tagged_feature import word2features
 
 # [Deprecating] This file will be deprecated in the version 6.5.0
 

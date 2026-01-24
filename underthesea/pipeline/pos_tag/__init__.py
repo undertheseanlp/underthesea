@@ -1,8 +1,8 @@
-# -*- coding: utf-8 -*-
-from underthesea import word_tokenize
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from .model_crf import CRFPOSTagPredictor
 from os.path import dirname, join
+
+from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+
+from .model_crf import CRFPOSTagPredictor
 
 pos_model_v2 = None
 
@@ -37,6 +37,8 @@ def pos_tag(sentence, format=None, model=None):
     ('bị', 'V'),
     ('truy quét', 'V')]
     """
+    from underthesea import word_tokenize  # import here to avoid circular import
+
     sentence = word_tokenize(sentence)
     if model == "v2.0":
         if pos_model_v2 is None:

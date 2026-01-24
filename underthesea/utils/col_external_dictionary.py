@@ -1,10 +1,9 @@
 from multiprocessing import Pool
-from os.path import join, dirname
+from os.path import dirname, exists, join
 
+import joblib
 import requests
 from bs4 import BeautifulSoup
-from os.path import exists
-import joblib
 
 from underthesea.utils import logger
 
@@ -21,7 +20,9 @@ class Sense:
 
 
 class Word:
-    def __init__(self, word, senses=[]):
+    def __init__(self, word, senses=None):
+        if senses is None:
+            senses = []
         self.word = word
         self.senses = senses
 

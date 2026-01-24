@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-from underthesea import pos_tag
-import sys
-
-if sys.version_info >= (3, 0):
-    from .model_crf import CRFChunkingPredictor
-else:
-    from model_crf import CRFChunkingPredictor
+from .model_crf import CRFChunkingPredictor
 
 
 def chunk(sentence, format=None):
@@ -38,6 +31,8 @@ def chunk(sentence, format=None):
     ('bờ biển', 'N', 'B-NP'),
     ('Nhật Bản', 'Np', 'B-NP')]
     """
+    from underthesea import pos_tag  # import here to avoid circular import
+
     sentence = pos_tag(sentence)
     crf_model = CRFChunkingPredictor.Instance()
     result = crf_model.predict(sentence, format)

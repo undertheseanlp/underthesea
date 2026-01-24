@@ -1,12 +1,10 @@
-from os.path import join, dirname
-from underthesea.util.singleton import Singleton
-import pycrfsuite
-import sys
+from os.path import dirname, join
 
-if sys.version_info >= (3, 0):
-    from .tagged_feature import word2features
-else:
-    from tagged_feature import word2features
+import pycrfsuite
+
+from underthesea.util.singleton import Singleton
+
+from .tagged_feature import word2features
 
 
 @Singleton

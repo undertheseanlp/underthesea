@@ -1,5 +1,3 @@
-import sys
-
 import unicodedata
 
 
@@ -17,6 +15,5 @@ def Text(text):
 
 
 def is_unicode(text):
-    if sys.version_info >= (3, 0):
-        unicode_type = str
+    unicode_type = str
     return type(text) is unicode_type

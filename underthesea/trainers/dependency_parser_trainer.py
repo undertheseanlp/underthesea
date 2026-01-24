@@ -1,20 +1,23 @@
 import os
-from datetime import timedelta, datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Union
+
 import torch.distributed as dist
 import torch.nn as nn
 from torch.optim import Adam
 from torch.optim.lr_scheduler import ExponentialLR
-from underthesea.transforms.conll import CoNLL, progress_bar
+
 from underthesea.models.dependency_parser import DependencyParser
+from underthesea.transforms.conll import CoNLL, progress_bar
 from underthesea.utils import device, logger
-from underthesea.utils.sp_common import pad, unk, bos
+from underthesea.utils.sp_common import bos, pad, unk
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
 from underthesea.utils.sp_field import Field, SubwordField
-from underthesea.utils.sp_metric import Metric, AttachmentMetric
-from underthesea.utils.sp_parallel import DistributedDataParallel as DDP, is_master
+from underthesea.utils.sp_metric import AttachmentMetric, Metric
+from underthesea.utils.sp_parallel import DistributedDataParallel as DDP
+from underthesea.utils.sp_parallel import is_master
 
 
 class DependencyParserTrainer:

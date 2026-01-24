@@ -1,7 +1,7 @@
 import os
 import pickle
+from collections import deque
 from functools import partial
-from typing import Deque
 
 import fire
 import jax
@@ -79,8 +79,8 @@ def train(
     batch = jax.tree_map(lambda x: x[:1], batch)
     batch = batch._replace(mels=melfilter(batch.wavs.astype(jnp.float32) / (2 ** 15)))
     params, aux, rng, optim_state = initial_state(optimizer, batch)
-    losses = Deque(maxlen=1000)
-    val_losses = Deque(maxlen=100)
+    losses = deque(maxlen=1000)
+    val_losses = deque(maxlen=100)
 
     last_step = -steps_per_update
 

@@ -23,23 +23,23 @@ class TaggedTransformer:
 
     def word2features(self, s):
         features = []
-        for i, token in enumerate(s):
+        for i, _token in enumerate(s):
             tmp = []
             for template in self.templates:
                 index1, index2, column, func, token_syntax = template
-                prefix = "%s=" % token_syntax
+                prefix = f"{token_syntax}="
 
                 if i + index1 < 0:
-                    result = "%sBOS" % prefix
+                    result = f"{prefix}BOS"
                     tmp.append(result)
                     continue
                 if i + index1 >= len(s):
-                    result = "%sEOS" % prefix
+                    result = f"{prefix}EOS"
                     tmp.append(result)
                     continue
                 if index2 is not None:
                     if i + index2 >= len(s):
-                        result = "%sEOS" % prefix
+                        result = f"{prefix}EOS"
                         tmp.append(result)
                         continue
                     tokens = [s[j][column] for j in range(i + index1, i + index2 + 1)]
@@ -53,7 +53,7 @@ class TaggedTransformer:
                     result = functions[func](word)
                 else:
                     result = word
-                result = "%s%s" % (prefix, result)
+                result = f"{prefix}{result}"
                 tmp.append(result)
             features.append(tmp)
         return features

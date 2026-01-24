@@ -1,14 +1,15 @@
 import json
 import warnings
+from os.path import join
+
+import joblib
+from sklearn.metrics import f1_score
+from sklearn.preprocessing import LabelEncoder
 
 # ignore warnings when using transformer
 # see: https://github.com/scikit-learn/scikit-learn/issues/12327
 from underthesea.corpus import Corpus
-from underthesea.models.text_classifier import TextClassifier, TEXT_CLASSIFIER_ESTIMATOR
-from sklearn.metrics import f1_score
-from sklearn.preprocessing import LabelEncoder
-from os.path import join
-import joblib
+from underthesea.models.text_classifier import TEXT_CLASSIFIER_ESTIMATOR, TextClassifier
 
 warnings.simplefilter("ignore", category=PendingDeprecationWarning)
 

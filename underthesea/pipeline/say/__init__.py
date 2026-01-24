@@ -1,12 +1,13 @@
-from underthesea.file_utils import MODELS_FOLDER
-from underthesea.pipeline.say.viettts_.hifigan.mel2wave import mel2wave
-from underthesea.pipeline.say.viettts_.nat.text2mel import text2mel
-from underthesea.pipeline.say.viettts_ import nat_normalize_text
-import numpy as np
-from playsound import playsound
 import time
 from os.path import join
 
+import numpy as np
+from playsound import playsound
+
+from underthesea.file_utils import MODELS_FOLDER
+from underthesea.pipeline.say.viettts_ import nat_normalize_text
+from underthesea.pipeline.say.viettts_.hifigan.mel2wave import mel2wave
+from underthesea.pipeline.say.viettts_.nat.text2mel import text2mel
 
 model_path = join(MODELS_FOLDER, "VIET_TTS_V0_4_1")
 

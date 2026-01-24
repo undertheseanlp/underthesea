@@ -1,10 +1,10 @@
 import os
 import shutil
 from os.path import dirname, join
+from pathlib import Path
 
 from underthesea.corpus.util import FolderStructure
 from underthesea.file_utils import UNDERTHESEA_FOLDER
-from pathlib import Path
 
 
 def process_train_data(train_data_file, output_file, label):
@@ -52,7 +52,7 @@ class VLSP2016SACorpus:
 
         # Preprocess Test Data
         test_sentences = []
-        with open(input_data_folder / "SA2016-TestData-Ans" / "test_raw_ANS.txt", "r") as f:
+        with open(input_data_folder / "SA2016-TestData-Ans" / "test_raw_ANS.txt") as f:
 
             for i, line in enumerate(f):
                 if i % 2 == 0:

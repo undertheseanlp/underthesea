@@ -1,9 +1,9 @@
 import os
+from multiprocessing import Pool
 from os import listdir
 from os.path import join
-from underthesea import sent_tokenize
-from multiprocessing import Pool
 
+from underthesea import sent_tokenize
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 
 WIKI_FOLDER = join(UNDERTHESEA_FOLDER, "data", "viwiki-20210720")

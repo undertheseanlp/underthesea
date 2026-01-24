@@ -1,7 +1,9 @@
 from os import listdir
 from os.path import dirname, join
+
 import pandas as pd
 import yaml
+
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.utils.col_external_dictionary import Cache, VLSPDictionary
 from underthesea.utils.col_script import UDDataset
@@ -28,7 +30,7 @@ class Dictionary:
     def import_words(self, data_file):
         df = pd.read_excel(data_file, engine='openpyxl', nrows=5000)
         df = df[df['verify'] == 'x']
-        for key, row in df.iterrows():
+        for _key, row in df.iterrows():
             token = row[0]
             pos = row[1]
             if token in self.data:
