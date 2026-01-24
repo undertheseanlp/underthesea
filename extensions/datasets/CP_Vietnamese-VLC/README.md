@@ -1,145 +1,88 @@
 # CP_Vietnamese-VLC
 
-Vietnamese Legal Corpus
+Vietnamese Legal Corpus (2026 Edition)
 
-Vietnam's system of legal documents
+Vietnam's system of legal documents - Updated with laws passed through 2022-2025 (15th National Assembly).
 
-Constitution
+## HuggingFace Dataset
 
-* Hiến pháp
+**Dataset:** [undertheseanlp/UTS_VLC](https://huggingface.co/datasets/undertheseanlp/UTS_VLC)
 
-6 codes (bộ luật)
+### Splits
 
-1. Bộ Luật dân sự
-2. Bộ luật Tố tụng dân sự
-3. Bộ luật Hình sự
-4. Bộ luật Tố tụng Hình sự
-5. Bộ luật hàng hải
-6. Bộ luật Lao động
+| Split | Documents | Description |
+|-------|-----------|-------------|
+| 2021  | 110       | Original corpus with full text |
+| 2023  | 208       | Expanded corpus with processed text |
+| 2026  | 318       | Latest corpus with 2022-2025 laws |
 
-124 laws (luật)
+### Features
 
-1. Luật An ninh quốc gia
-2. Luật Ban hành văn bản quy phạm pháp luật
-3. Luật Sửa đổi, bổ sung 1 số điều của Luật ban hành văn bản quy phạm pháp luật
-4. Luật ban hành văn bản quy phạm pháp luật của HĐND, UBND
-5. Luật Báo chí
-6. Luật sửa đổi, bổ sung 1 số điều của Luật Báo chí
-7. Luật Bảo hiểm xã hội
-8. Luật Bảo vệ và phát triển rừng
-9. Luật Bảo vệ môi trường
-10. Luật bảo vệ, chăm sóc và giáo dục trẻ em
-11. Luật bảo vệ sức khỏe nhân dân
-12. Luật Bầu cử đại biểu HĐND
-13. Luật bầu cử đại biểu quốc hội
-14. Luật Sửa đổi, bổ sung 1 số điều của Luật bầu cử đại biểu quốc hội
-15. Luật Biên giới quốc gia
-16. Luật Bình đẳng giới
-17. Luật Các công cụ chuyển nhượng
-18. Luật Các tổ chức tín dụng
-19. Luật Sửa đổi, bổ sung 1 số điều của Luật Các tổ chức tín dụng
-20. Luật Cải cách ruộng đất
-21. Luật Cạnh tranh
-22. Luật Chuyển giao công nghệ
-23. Luật Chứng khoán
-24. Luật Cư trú
-25. Luật Công an nhân dân
-26. Luật Công chứng
-27. Luật Công đoàn
-28. Luật Công nghệ thông tin
-29. Luật Công ty
-30. Luật Sửa đổi 1 số điều của Luật công ty
-31. Luật Dạy nghề
-32. Luật Dầu khí
-33. Luật Sửa đổi, bổ sung 1 số điều của luật Dầu khí
-34. Luật Di sản văn hóa
-35. Luật Doanh nghiệp Nhà nước
-36. Luật Doanh nghiệp tư nhân
-37. Luật Sửa đổi 1 số điều của luật Doanh nghiệp tư nhân
-38. Luật Doanh nghiệp
-39. Luật Du lịch
-40. Luật Dược
-41. Luật Đảm bảo quyền tự do thân thể và quyền bất khả xâm phạm đối với nhà ở, đồ vật, thư tín của nhân dân
-42. Luật Đấu thầu
-43. Luật Đất đai
-44. Luật Đầu tư nước ngoài tại Việt Nam
-45. Luật Sửa đổi, Bổ sung 1 số điều của Luật đầu tư nước ngoài tại Việt Nam
-46. Luật đầu tư
-47. Luật Đê điều
-48. Luật Điện ảnh
-49. Luật Điện lực
-50. Luật Đường sắt
-51. Luật Giao dịch điện tử
-52. Luật Giao thông đường thủy nội địa
-53. Luật Giao thông đường bộ
-54. Luật Giáo dục
-55. Luật Hàng không dân dụng Việt Nam
-56. Luật Hải quan
-57. Sửa đổi, bổ sung 1 số điều của Luật Hải quan
-58. Luật Hiến, ghép, lấy mô, bộ phận cơ thể người và hiến, lấy xác
-59. Luật Hoạt động giám sát của Quốc hội và Hội đồng nhân dân
-60. Luật Hôn nhân và gia đình
-61. Luật Hợp tác xã
-62. Luật Kế toán
-63. Luật Khiếu nại, tố cáo
-64. Luật sửa đổi, bổ sung 1 số điều của luật Khiếu nại, tố cáo
-65. Luật Khuyến khích đầu tư trong nước
-66. Luật Khoa học và Công nghệ
-67. Luật Khoáng sản
-68. Luật Sửa đổi, bổ sung 1 số điều của luật Khoáng sản
-69. Luật Kinh doanh bất động sản
-70. Luật Kinh doanh bảo hiểm
-71. Luật Kiểm toán Nhà nước
-72. Luật Ký kết, gia nhập và thực hiện điều ước quốc tế
-73. Luật Luật sư
-74. Luật mặt trận tổ quốc Việt Nam
-75. Luật Ngân sách Nhà nước
-76. Luật Ngân hàng nhà nước
-77. Luật Sửa đổi, bổ sung 1 số điều của Luật Ngân hàng Nhà nước Việt Nam
-78. Luật Nghĩa vụ quân sự
-79. Luật sửa đổi, bổ sung 1 số điều của Luật Nghĩa vụ quân sự
-80. Luật Người lao động Việt Nam đi làm ở nước ngoài theo hợp đồng
-81. Luật Nhà ở
-82. Luật Phá sản
-83. Luật Phòng, chống nhiễm virus gây ra hội chứng suy giảm miễn dịch mắc phải ở người (HIV/AIDS)
-84. Luật Phòng cháy và chữa cháy
-85. Luật Phòng, chống ma túy
-86. Luật Phòng, chống tham nhũng
-87. Luật sửa đổi, bổ sung 1 số điều của luật Phòng, chống tham nhũng
-88. Luật Phổ cập Giáo dục tiểu học
-89. Luật Quản lý thuế
-90. Luật Quốc phòng
-91. Luật Quốc tịch Việt Nam
-92. Luật quy định quyền tự do hội họp
-93. Luật Sở hữu trí tuệ
-94. Luật Sỹ quan quân đội nhân dân Việt Nam
-95. Luật Tài nguyên nước
-96. Luật Thanh niên
-97. Luật Thanh tra
-98. Luật Thể dục Thể thao
-99. Luật Tiêu chuẩn và quy chuẩn kỹ thuật
-100. Luật trợ giúp pháp lý
-101. Luật Thi đua, khen thưởng
-102. Luật Sửa đổi, bổ sung 1 số điều của Luật Thi đua, khen thưởng
-103. Luật Thống kê
-104. Luật Thuế thu nhập doanh nghiệp
-105. Luật Thuế sử dụng đất nông nghiệp
-106. Luật Thuế tiêu thụ đặc biệt
-107. Luật Sửa đổi, bổ sung 1 số điều của luật Thuế tiêu thụ đặc biệt
-108. Luật thuế giá trị gia tăng
-109. Luật Sửa đổi, bổ sung 1 số điều của Luật Thuế giá trị gia tăng
-110. Luật Sửa đổi, bổ sung 1 số điều của Luật thuế tiêu thụ đặc biệt và Thuế giá trị gia tăng
-111. Luật Thuế thu nhập doanh nghiệp
-112. Luật Thuế chuyển quyền sử dụng đất
-113. Luật sửa đổi, bố sung 1 số điều của Luật Thuế chuyển quyền sử dụng đất
-114. Luật Thuế xuất khẩu, thuế nhập khẩu
-115. Luật Thủy sản
-116. Luật thực hành tiết kiệm, chống lãng phí
-117. Luật Thương mại
-118. Luật Tổ chức Hội đồng nhân dân và Ủy ban Nhân dân
-119. Luật Tổ chức viện Kiểm sát nhân dân
-120. Luật Tổ chức Tòa án nhân dân
-121. Luật Tổ chức chính phủ
-122. Luật Tổ chức Quốc hội
-123. Luật Xuất bản
-124. Luật Xây dựng
+| Feature | Type | Description |
+|---------|------|-------------|
+| id | string | Document identifier (slug) |
+| filename | string | Source filename |
+| title | string | Vietnamese title |
+| type | string | Document type: "code", "law", or "constitution" |
+| content | string | Full text content |
+| content_length | int32 | Character count |
+
+### Usage
+
+```python
+from datasets import load_dataset
+
+# Load all splits
+ds = load_dataset("undertheseanlp/UTS_VLC")
+
+# Load specific split
+ds_2026 = load_dataset("undertheseanlp/UTS_VLC", split="2026")
+
+# Filter by type
+codes = ds_2026.filter(lambda x: x["type"] == "code")
+laws = ds_2026.filter(lambda x: x["type"] == "law")
+
+# Search by title
+land_law = ds_2026.filter(lambda x: "Đất đai" in x["title"])
+```
+
+### Statistics
+
+| Metric | 2021 | 2023 | 2026 |
+|--------|------|------|------|
+| Documents | 110 | 208 | 318 |
+| Total Characters | ~14M | ~21M | ~24M |
+| Codes | 6 | 6 | 6 |
+| Laws | 104 | 202 | 312 |
+
+## Document Types
+
+- **Constitution (Hiến pháp)**: 1 document (2013 Constitution)
+- **Codes (Bộ luật)**: 6 major codes
+  - Civil Code 2015 (Bộ luật Dân sự)
+  - Civil Procedure Code 2015 (Bộ luật Tố tụng Dân sự)
+  - Criminal Code 2015 (Bộ luật Hình sự)
+  - Criminal Procedure Code 2015 (Bộ luật Tố tụng Hình sự)
+  - Maritime Code 2015 (Bộ luật Hàng hải)
+  - Labor Code 2019 (Bộ luật Lao động)
+- **Laws (Luật)**: 300+ laws covering various domains
+
+## Recent Laws (2022-2025)
+
+The 2026 split includes laws passed by the 15th National Assembly:
+
+- **2022**: 8 laws (Inspection, Anti-Money Laundering, IP, Insurance, Cinema, etc.)
+- **2023**: 12 laws (E-Transactions, Consumer Protection, Bidding, Telecoms, Housing, etc.)
+- **2024**: 24 laws (Land, Credit Institutions, Roads, Data, Electricity, Social Insurance, etc.)
+- **2025**: 50+ laws including landmark legislation:
+  - **AI Law** (Luật Trí tuệ nhân tạo) - First AI law in Vietnam
+  - **E-commerce Law** (Luật Thương mại điện tử)
+  - **Digital Transformation Law** (Luật Chuyển đổi số)
+  - **Personal Data Protection Law** (Luật Bảo vệ dữ liệu cá nhân)
+
+## References
+
+- [HuggingFace Dataset](https://huggingface.co/datasets/undertheseanlp/UTS_VLC)
+- [Vietnam's System of Legal Documents](https://vietnamlawmagazine.vn/vietnams-system-of-legal-documents-5017.html)
+- [Thu Vien Phap Luat](https://thuvienphapluat.vn/) - Official Vietnamese legal document database
+- [National Assembly of Vietnam](https://quochoi.vn/)
