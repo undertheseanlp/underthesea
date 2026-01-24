@@ -46,7 +46,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **Breaking update!** Underthesea now officially supports Python 3.12 and Python 3.13, ensuring compatibility with the latest Python versions. Update now and enjoy improved performance and new features! 🚀✨
+🎉 **New in v9.0.0!** Vietnamese-English translation is here! Use `translate("Xin chào Việt Nam")` to translate Vietnamese text to English. 🚀✨
 
 ## Installation
 
@@ -382,10 +382,38 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 </details>
 
+<details>
+<summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
+<code>⚛️</code>
+</summary>
+
+<br/>
+
+Install extend dependencies
+
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+
+Usage examples
+
+    ```python
+    >>> from underthesea import translate
+
+    >>> translate("Xin chào Việt Nam")
+    'Hello Vietnam'
+
+    >>> translate("Cựu binh Mỹ trả nhật ký cho gia đình liệt sĩ Việt Nam")
+    'American veterans return diary to Vietnamese martyrs' families'
+
+    >>> translate("Hello Vietnam", source_lang='en', target_lang='vi')
+    'Xin chào Việt Nam'
+    ```
+</details>
+
 ### Up Coming Features
 
 * Automatic Speech Recognition
-* Machine Translation
 * Chatbot Agent
 
 ## Contributing
