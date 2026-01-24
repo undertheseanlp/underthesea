@@ -1,13 +1,12 @@
 # Docker Image for Build Rust
 
-Base from CentOS:7
+Base from AlmaLinux:8 (supports both x86_64 and aarch64/ARM64)
 
 Environments:
 
 * gcc
-* glibc 2.17
-* Cargo
-* Python: 3.7, 3.8, 3.9, 3.10, 3.11
+* Cargo (Rust)
+* Python: 3.10, 3.11, 3.12, 3.13, 3.14
 
 # Steps to build docker
 

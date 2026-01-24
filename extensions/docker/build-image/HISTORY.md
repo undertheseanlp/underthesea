@@ -2,6 +2,15 @@
 History
 ================================================================================
 
+0.2.0 (2026-01-24)
+--------------------------------------------------------------------------------
+
+* Add ARM64 (aarch64) support for Apple M1/M2/M3 chips (#739)
+* Switch base image from CentOS 7 to AlmaLinux 8
+* Auto-detect architecture and download appropriate Miniconda
+* Update to Python 3.10, 3.11, 3.12, 3.13, 3.14 (drop Python 3.7, 3.8, 3.9)
+* Use latest Miniconda instead of fixed old version
+
 0.1.0 (2022-11-06)
 --------------------------------------------------------------------------------
 
