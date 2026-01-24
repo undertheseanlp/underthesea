@@ -66,8 +66,10 @@ jobs:
 
       - name: Build documentation for PR preview
         run: |
-          sed -i 's|site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/|' mkdocs.yml
           mkdocs build --strict
+          # Inject base tag to fix relative paths in subdirectory
+          BASE_URL="https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/"
+          find ./site -name '*.html' -exec sed -i 's|<head>|<head><base href="'"$BASE_URL"'">|' {} \;
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
