@@ -95,4 +95,4 @@ Commits must have only one author and committer: `Vu Anh <anhv.ict91@gmail.com>`
 
 ## Python Version
 
-Requires Python 3.9+ (supports 3.9, 3.10, 3.11, 3.12, 3.13).
+Requires Python 3.10+ (supports 3.10, 3.11, 3.12, 3.13, 3.14).
