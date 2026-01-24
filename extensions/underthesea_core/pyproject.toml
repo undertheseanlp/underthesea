@@ -1,20 +1,28 @@
-[tool.poetry]
-name = "underthesea_core"
-version = "1.0.5"
-authors = ["Vu Anh <anhv.ict91@gmail.com>"]
-description = "Underthesea Core"
-license = "GPL-3.0"
-readme = "README.md"
-repository = "https://github.com/undertheseanlp/underthesea/"
-homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.9"
-
-[tool.poetry.group.dev.dependencies]
-maturin = "^0.9.4"
-
 [build-system]
-requires = ["setuptools"]
+requires = ["maturin>=1.0,<2.0"]
 build-backend = "maturin"
+
+[project]
+name = "underthesea_core"
+version = "1.0.6"
+authors = [{name = "Vu Anh", email = "anhv.ict91@gmail.com"}]
+description = "Underthesea Core"
+license = {text = "GPL-3.0"}
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+
+[project.urls]
+Homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
+Repository = "https://github.com/undertheseanlp/underthesea/"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
