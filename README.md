@@ -14,7 +14,7 @@
   <a href="http://undertheseanlp.com/">
     <img src="https://img.shields.io/badge/demo-live-brightgreen">
   </a>
-  <a href="https://underthesea.readthedocs.io/en/latest/">
+  <a href="https://undertheseanlp.github.io/underthesea/">
     <img src="https://img.shields.io/badge/docs-live-brightgreen">
   </a>
   <a href="https://colab.research.google.com/drive/1gD8dSMSE_uNacW4qJ-NSnvRT85xo9ZY2">
