@@ -142,3 +142,11 @@ CP_Vietnamese_VLC_v2_2022:
   filepath: ''
   url: https://github.com/undertheseanlp/underthesea/releases/download/resources/CP_Vietnamese_VLC_v2_2022.zip
   url_filename: CP_Vietnamese_VLC_v2_2022.zip
+CP_Vietnamese_VLC_2026:
+  cache_dir: datasets/CP_Vietnamese_VLC_2026
+  type: Plaintext
+  license: Open
+  year: 2026
+  filepath: ''
+  url: https://github.com/undertheseanlp/underthesea/releases/download/resources/CP_Vietnamese_VLC_2026.zip
+  url_filename: CP_Vietnamese_VLC_2026.zip
