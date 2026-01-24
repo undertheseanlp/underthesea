@@ -305,14 +305,14 @@ Satisfaction, guaranteed.
     ```python
     >>> from underthesea import translate
 
-    >>> translate("Xin chào Việt Nam")
-    'Hello Vietnam'
+    >>> translate("Hà Nội là thủ đô của Việt Nam")
+    'Hanoi is the capital of Vietnam'
 
-    >>> translate("Cựu binh Mỹ trả nhật ký cho gia đình liệt sĩ Việt Nam")
-    'American veterans return diary to Vietnamese martyrs' families'
+    >>> translate("Ẩm thực Việt Nam nổi tiếng trên thế giới")
+    'Vietnamese cuisine is famous around the world'
 
-    >>> translate("Hello Vietnam", source_lang='en', target_lang='vi')
-    'Xin chào Việt Nam'
+    >>> translate("I love Vietnamese food", source_lang='en', target_lang='vi')
+    'Tôi yêu ẩm thực Việt Nam'
     ```
 </details>
 
