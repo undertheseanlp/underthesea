@@ -2,6 +2,18 @@
 
 All notable changes to Underthesea are documented here.
 
+## 9.1.2 (2025-01-24)
+
+### New Features
+
+- Add `labels` property to `classify` and `sentiment` functions ([#865](https://github.com/undertheseanlp/underthesea/pull/865))
+  - `classify.labels` - Get all available classification labels
+  - `classify.bank.labels` - Get bank domain classification labels
+  - `sentiment.labels` - Get all available sentiment labels
+  - `sentiment.bank.labels` - Get bank domain sentiment labels
+
+---
+
 ## 9.0.0 (2025-01-XX)
 
 ### New Features
