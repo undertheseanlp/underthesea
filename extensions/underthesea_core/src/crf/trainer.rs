@@ -6,6 +6,8 @@
 //!
 //! Both methods support L1 and L2 regularization.
 
+#![allow(clippy::needless_range_loop)]
+
 use super::model::CRFModel;
 use super::tagger::CRFTagger;
 use hashbrown::HashMap;
@@ -201,8 +203,7 @@ impl CRFTrainer {
         if self.config.verbose > 0 {
             eprintln!(
                 "Initialized model with {} labels and {} attributes",
-                self.model.num_labels,
-                self.model.num_attributes
+                self.model.num_labels, self.model.num_attributes
             );
         }
     }
@@ -248,7 +249,12 @@ impl CRFTrainer {
     }
 
     /// Compute NLL gradient and update weights for a single instance.
-    fn nll_update(&mut self, instance: &TrainingInstance, learning_rate: f64, l2_penalty: f64) -> f64 {
+    fn nll_update(
+        &mut self,
+        instance: &TrainingInstance,
+        learning_rate: f64,
+        l2_penalty: f64,
+    ) -> f64 {
         let n = instance.features.len();
         if n == 0 {
             return 0.0;
@@ -310,14 +316,16 @@ impl CRFTrainer {
             let gold_curr = gold_labels[t];
 
             // Increase weight for gold transition
-            self.model.add_transition(gold_prev, gold_curr, learning_rate);
+            self.model
+                .add_transition(gold_prev, gold_curr, learning_rate);
 
             // Decrease weight for expected transitions
             let emission_t = self.model.emission_scores(&attr_ids[t]);
             for y_prev in 0..num_labels {
                 for y_curr in 0..num_labels {
                     let trans = self.model.get_transition(y_prev as u32, y_curr as u32);
-                    let log_prob = alpha[t - 1][y_prev] + trans + emission_t[y_curr] + beta[t][y_curr] - log_z;
+                    let log_prob =
+                        alpha[t - 1][y_prev] + trans + emission_t[y_curr] + beta[t][y_curr] - log_z;
                     let prob = log_prob.exp();
                     self.model
                         .add_transition(y_prev as u32, y_curr as u32, -learning_rate * prob);
@@ -335,7 +343,7 @@ impl CRFTrainer {
 
     /// Train using Structured Perceptron algorithm.
     fn train_perceptron(&mut self, data: &[TrainingInstance], learning_rate: f64) {
-        let mut num_errors = 0;
+        let mut num_errors;
         let mut prev_errors = usize::MAX;
 
         for iter in 0..self.config.max_iterations {
@@ -438,8 +446,10 @@ impl CRFTrainer {
             let pred_curr = pred_labels[t];
 
             if gold_prev != pred_prev || gold_curr != pred_curr {
-                self.model.add_transition(gold_prev, gold_curr, learning_rate);
-                self.model.add_transition(pred_prev, pred_curr, -learning_rate);
+                self.model
+                    .add_transition(gold_prev, gold_curr, learning_rate);
+                self.model
+                    .add_transition(pred_prev, pred_curr, -learning_rate);
             }
         }
 
@@ -486,7 +496,8 @@ impl CRFTrainer {
                 let idx = from_label * n + to_label;
                 if idx < self.avg_transition_weights.len() {
                     let avg = self.avg_transition_weights[idx] / count;
-                    self.model.set_transition(from_label as u32, to_label as u32, avg);
+                    self.model
+                        .set_transition(from_label as u32, to_label as u32, avg);
                 }
             }
         }
@@ -599,10 +610,8 @@ mod tests {
 
     #[test]
     fn test_training_instance() {
-        let instance = TrainingInstance::new(
-            vec![vec!["word=hello".to_string()]],
-            vec!["O".to_string()],
-        );
+        let instance =
+            TrainingInstance::new(vec![vec!["word=hello".to_string()]], vec!["O".to_string()]);
 
         assert_eq!(instance.features.len(), 1);
         assert_eq!(instance.labels.len(), 1);

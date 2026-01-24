@@ -1,0 +1,99 @@
+name: Rust CI
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'extensions/underthesea_core/**'
+      - '.github/workflows/ci-rust.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'extensions/underthesea_core/**'
+      - '.github/workflows/ci-rust.yml'
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    name: Rust Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./extensions/underthesea_core
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy, rustfmt
+
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            extensions/underthesea_core/target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
+      - name: Check formatting
+        run: cargo fmt --all -- --check
+
+      - name: Run clippy
+        run: cargo clippy --all-targets --all-features -- -D warnings
+
+      - name: Run tests
+        run: cargo test --verbose
+
+  build-python:
+    name: Build Python Extension
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./extensions/underthesea_core
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo registry
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            extensions/underthesea_core/target/
+          key: ${{ runner.os }}-cargo-build-${{ hashFiles('**/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-build-
+
+      - name: Install maturin
+        run: pip install maturin
+
+      - name: Build Python extension
+        run: maturin build --release
+
+      - name: Test Python import
+        run: |
+          pip install target/wheels/*.whl
+          python -c "from underthesea_core import LRTrainer, LRClassifier, LRModel; print('LR module imported successfully')"
+          python -c "from underthesea_core import CRFTrainer, CRFTagger, CRFModel; print('CRF module imported successfully')"

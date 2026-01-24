@@ -134,8 +134,8 @@ impl CRFModel {
     pub fn emission_scores(&self, attr_ids: &[u32]) -> Vec<f64> {
         let mut scores = vec![0.0; self.num_labels];
         for &attr_id in attr_ids {
-            for label_id in 0..self.num_labels {
-                scores[label_id] += self.get_state_weight(attr_id, label_id as u32);
+            for (label_id, score) in scores.iter_mut().enumerate() {
+                *score += self.get_state_weight(attr_id, label_id as u32);
             }
         }
         scores

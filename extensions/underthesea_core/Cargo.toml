@@ -40,6 +40,9 @@ hashbrown = { version = "0.15", features = ["serde"] }  # Fast hash maps with se
 bincode = "1.3"             # Binary serialization for model files
 byteorder = "1.5"           # For reading CRFsuite binary format
 
+# LR implementation dependencies
+rand = "0.8"                # Random number generation for SGD shuffling
+
 [dependencies.pyo3]
 version = "0.25.1"
 features = ["extension-module"]

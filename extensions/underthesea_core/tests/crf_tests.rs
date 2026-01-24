@@ -1,7 +1,10 @@
 //! Integration tests for the CRF module.
 
+#![allow(clippy::needless_range_loop)]
+#![allow(clippy::useless_vec)]
+
 use underthesea_core::crf::{
-    features::{extract_char_trigrams, AttributeIndex, FeatureFunction, LabelIndex},
+    features::{extract_char_trigrams, AttributeIndex, LabelIndex},
     model::CRFModel,
     serialization::{CRFFormat, ModelLoader, ModelSaver},
     tagger::CRFTagger,
@@ -152,11 +155,11 @@ fn create_ner_model() -> CRFModel {
     model.num_attributes = model.attributes.len();
 
     // State features
-    model.set_state_weight(attr_john, 0, 3.0);  // John -> B-PER
+    model.set_state_weight(attr_john, 0, 3.0); // John -> B-PER
     model.set_state_weight(attr_smith, 1, 3.0); // Smith -> I-PER
     model.set_state_weight(attr_paris, 2, 3.0); // Paris -> B-LOC
-    model.set_state_weight(attr_is, 3, 2.0);    // is -> O
-    model.set_state_weight(attr_cap, 0, 0.5);   // capitalized -> B-PER (weak)
+    model.set_state_weight(attr_is, 3, 2.0); // is -> O
+    model.set_state_weight(attr_cap, 0, 0.5); // capitalized -> B-PER (weak)
     model.set_state_weight(attr_nocap, 3, 0.5); // not capitalized -> O (weak)
 
     // Transitions
@@ -244,7 +247,12 @@ fn test_marginals() {
     // Marginals should sum to 1 at each position
     for t in 0..2 {
         let sum: f64 = marginals[t].iter().sum();
-        assert!((sum - 1.0).abs() < 1e-5, "Marginals at position {} sum to {}", t, sum);
+        assert!(
+            (sum - 1.0).abs() < 1e-5,
+            "Marginals at position {} sum to {}",
+            t,
+            sum
+        );
     }
 }
 
@@ -496,7 +504,11 @@ fn test_full_pipeline() {
     // Check that labels are from the trained set
     let valid_labels = vec!["B-PER", "I-PER", "B-LOC", "O"];
     for label in &labels {
-        assert!(valid_labels.contains(&label.as_str()), "Unexpected label: {}", label);
+        assert!(
+            valid_labels.contains(&label.as_str()),
+            "Unexpected label: {}",
+            label
+        );
     }
 
     std::fs::remove_file(temp_path).ok();
