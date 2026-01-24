@@ -1,5 +1,4 @@
-# -*- coding: utf-8 -*-
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
 
 
 class EnviT5Translator:

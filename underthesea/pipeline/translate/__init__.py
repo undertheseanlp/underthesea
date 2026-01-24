@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 from .envit5 import EnviT5Translator
 
 _translator = None
