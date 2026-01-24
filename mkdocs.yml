@@ -63,6 +63,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Technical Reports:
+      - Dependency Parsing: technical_reports/dependency_parsing.md
       - Voice (TTS): technical_reports/voice.md
   - API Reference:
       - Overview: api/index.md
