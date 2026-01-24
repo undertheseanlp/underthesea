@@ -38,7 +38,7 @@ class TokenEncoder(hk.Module):
         mask = jnp.arange(0, L)[None, :] >= (lengths[:, None] - 1)
         h0c0_fwd = self.lstm_fwd.initial_state(B)
         new_hx_fwd, _ = hk.dynamic_unroll(self.lstm_fwd, x, h0c0_fwd, time_major=False)
-        x_bwd, mask_bwd = jax.tree_map(lambda x: jnp.flip(x, axis=1), (x, mask))
+        x_bwd, mask_bwd = jax.tree.map(lambda x: jnp.flip(x, axis=1), (x, mask))
         h0c0_bwd = self.lstm_bwd.initial_state(B)
         new_hx_bwd, _ = hk.dynamic_unroll(
             self.lstm_bwd, (x_bwd, mask_bwd), h0c0_bwd, time_major=False
@@ -154,12 +154,12 @@ class AcousticModel(hk.Module):
         def zoneout_decoder(inputs, prev_state):
             x, mask = inputs
             x, state = self.decoder(x, prev_state)
-            state = jax.tree_multimap(
+            state = jax.tree.map(
                 lambda m, s1, s2: s1 * m + s2 * (1 - m), mask, prev_state, state
             )
             return x, state
 
-        mask = jax.tree_map(
+        mask = jax.tree.map(
             lambda x: jax.random.bernoulli(hk.next_rng_key(), 0.1, (B, L, x.shape[-1])),
             hx,
         )

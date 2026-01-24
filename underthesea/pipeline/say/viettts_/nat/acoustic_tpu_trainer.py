@@ -76,7 +76,7 @@ def train(
         FLAGS.fmax,
     )
     batch = next(train_data_iter)
-    batch = jax.tree_map(lambda x: x[:1], batch)
+    batch = jax.tree.map(lambda x: x[:1], batch)
     batch = batch._replace(mels=melfilter(batch.wavs.astype(jnp.float32) / (2 ** 15)))
     params, aux, rng, optim_state = initial_state(optimizer, batch)
     losses = deque(maxlen=1000)
@@ -112,7 +112,7 @@ def train(
     )
 
     def batch_reshape(batch):
-        return jax.tree_map(
+        return jax.tree.map(
             lambda x: jnp.reshape(x, (num_devices, steps_per_update, -1) + x.shape[1:]),
             batch,
         )
@@ -128,7 +128,7 @@ def train(
         if step % 10 == 0:
             val_batch = next(val_data_iter)
             val_loss, val_aux, predicted_mel, gt_mel = val_loss_fn(
-                *jax.tree_map(lambda x: x[0], (params, aux, rng)), val_batch
+                *jax.tree.map(lambda x: x[0], (params, aux, rng)), val_batch
             )
             val_losses.append(val_loss)
             attn = jax.device_get(val_aux["acoustic_model"]["attn"])
@@ -154,7 +154,7 @@ def train(
 
             # saving checkpoint
             with open(ckpt_fn, "wb") as f:
-                params_, aux_, rng_, optim_state_ = jax.tree_map(
+                params_, aux_, rng_, optim_state_ = jax.tree.map(
                     lambda x: x[0], (params, aux, rng, optim_state)
                 )
                 pickle.dump(

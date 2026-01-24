@@ -59,6 +59,13 @@ wow = [
     "matplotlib",
     "playsound"
 ]
+say = [
+    "jax>=0.4.25",
+    "jaxlib>=0.4.25",
+    "dm-haiku>=0.0.12",
+    "optax",
+    "soundfile"
+]
 prompt = [
     "openai"
 ]
