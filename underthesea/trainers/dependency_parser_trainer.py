@@ -10,7 +10,7 @@ from torch.optim.lr_scheduler import ExponentialLR
 
 from underthesea.models.dependency_parser import DependencyParser
 from underthesea.transforms.conll import CoNLL, progress_bar
-from underthesea.utils import device, logger
+from underthesea.utils import logger
 from underthesea.utils.sp_common import bos, pad, unk
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_embedding import Embedding
@@ -18,6 +18,7 @@ from underthesea.utils.sp_field import Field, SubwordField
 from underthesea.utils.sp_metric import AttachmentMetric, Metric
 from underthesea.utils.sp_parallel import DistributedDataParallel as DDP
 from underthesea.utils.sp_parallel import is_master
+from underthesea.utils.util_deep_learning import device
 
 
 class DependencyParserTrainer:
@@ -187,8 +188,8 @@ class DependencyParserTrainer:
                 wandb.log({"test_metric_las": test_metric.las})
 
             t = datetime.now() - start
-            # save the model if it is the best so far
-            if dev_metric > best_metric:
+            # save the model if it is the best so far (or first epoch to ensure at least one save)
+            if dev_metric > best_metric or epoch == 1:
                 best_e, best_metric = epoch, dev_metric
                 if is_master():
                     parser.save(base_path)
