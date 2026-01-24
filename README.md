@@ -291,6 +291,35 @@ Satisfaction, guaranteed.
 </details>
 
 <details>
+<summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
+<code>⚛️</code>
+</summary>
+
+<br/>
+
+Install extend dependencies
+
+    ```bash
+    $ pip install underthesea[deep]
+    ```
+
+Usage examples
+
+    ```python
+    >>> from underthesea import translate
+
+    >>> translate("Xin chào Việt Nam")
+    'Hello Vietnam'
+
+    >>> translate("Cựu binh Mỹ trả nhật ký cho gia đình liệt sĩ Việt Nam")
+    'American veterans return diary to Vietnamese martyrs' families'
+
+    >>> translate("Hello Vietnam", source_lang='en', target_lang='vi')
+    'Xin chào Việt Nam'
+    ```
+</details>
+
+<details>
 <summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
 <code>⚛️</code>
 </summary>
@@ -380,35 +409,6 @@ $ underthesea download-data CP_Vietnamese_VLC_v2_2022
 Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_Vietnamese_VLC_v2_2022 folder
 ```
 
-</details>
-
-<details>
-<summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
-<code>⚛️</code>
-</summary>
-
-<br/>
-
-Install extend dependencies
-
-    ```bash
-    $ pip install underthesea[deep]
-    ```
-
-Usage examples
-
-    ```python
-    >>> from underthesea import translate
-
-    >>> translate("Xin chào Việt Nam")
-    'Hello Vietnam'
-
-    >>> translate("Cựu binh Mỹ trả nhật ký cho gia đình liệt sĩ Việt Nam")
-    'American veterans return diary to Vietnamese martyrs' families'
-
-    >>> translate("Hello Vietnam", source_lang='en', target_lang='vi')
-    'Xin chào Việt Nam'
-    ```
 </details>
 
 ### Up Coming Features
