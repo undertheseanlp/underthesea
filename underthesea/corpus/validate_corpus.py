@@ -1,13 +1,14 @@
 import sys
 from os import listdir
-from os.path import join, basename
+from os.path import basename, join
+
 import charset_normalizer
 
 from underthesea.feature_engineering.text import Text
 from underthesea.file_utils import DATASETS_FOLDER
 from underthesea.pipeline.word_tokenize import tokenize
 
-SUPPORTED_CORPUS_TYPE = set(["TOKENIZE"])
+SUPPORTED_CORPUS_TYPE = {"TOKENIZE"}
 
 error_count = 0
 DEFAULT_MAX_ERROR = 30
@@ -67,7 +68,7 @@ def validate_utf8(file):
     if not (results.encoding == "utf-8" and results.coherence >= 0.99):
         warn(message=f"File {file} should encoding with UTF-8", level=1)
         sys.exit(1)
-    with open(file, "r") as f:
+    with open(file) as f:
         content = f.read()
     normalized_nfc_content = Text(content)
     if normalized_nfc_content != content:

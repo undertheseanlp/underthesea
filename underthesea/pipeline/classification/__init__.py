@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 
 
 def classify(X, domain=None, model=None):

@@ -98,7 +98,7 @@ class Generator(hk.Module):
 
         for i in range(len(self.ups)):
             ch = h.upsample_initial_channel // (2 ** (i + 1))
-            for j, (k, d) in enumerate(
+            for _j, (k, d) in enumerate(
                 zip(h.resblock_kernel_sizes, h.resblock_dilation_sizes)
             ):
                 self.resblocks.append(

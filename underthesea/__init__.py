@@ -4,8 +4,7 @@ Underthesea
 # -*- coding: utf-8 -*-
 import os
 import sys
-from functools import lru_cache
-
+from functools import cache
 
 __author__ = """Vu Anh"""
 __email__ = 'anhv.ict91@gmail.com'
@@ -25,22 +24,22 @@ except Exception:
 # Version
 try:
     version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
-    with open(version_file, 'r') as infile:
+    with open(version_file) as infile:
         __version__ = infile.read().strip()
 except NameError:
     __version__ = 'unknown (running code interactively?)'
-except IOError as ex:
-    __version__ = "unknown (%s)" % ex
+except OSError as ex:
+    __version__ = f"unknown ({ex})"
 
 ###########################################################
 # TOP-LEVEL MODULES
 ###########################################################
+from .pipeline.chunking import chunk
+from .pipeline.ner import ner
+from .pipeline.pos_tag import pos_tag
 from .pipeline.sent_tokenize import sent_tokenize
 from .pipeline.text_normalize import text_normalize
 from .pipeline.word_tokenize import word_tokenize
-from .pipeline.pos_tag import pos_tag
-from .pipeline.chunking import chunk
-from .pipeline.ner import ner
 
 optional_imports = {
     'classify': 'underthesea.pipeline.classification',
@@ -51,7 +50,7 @@ optional_imports = {
 }
 
 
-@lru_cache(maxsize=None)
+@cache
 def get_optional_import(module_name, object_name):
     try:
         module = __import__(module_name, fromlist=[object_name])

@@ -1,5 +1,7 @@
-import fasttext
 import os
+
+import fasttext
+
 from underthesea.model_fetcher import ModelFetcher
 
 fasttext.FastText.eprint = lambda x: None

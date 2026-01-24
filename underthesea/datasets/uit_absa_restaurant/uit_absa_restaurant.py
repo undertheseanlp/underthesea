@@ -1,5 +1,6 @@
-from os.path import join
 import re
+from os.path import join
+
 from underthesea.data_fetcher import DataFetcher
 from underthesea.file_utils import DATASETS_FOLDER
 
@@ -41,7 +42,7 @@ class UITABSARestaurant:
         train_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Train.txt")
         dev_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Dev.txt")
         test_file = join(DATASETS_FOLDER, UITABSARestaurant.NAME, "Test.txt")
-        print("Currently training: %s (aspect or polarity)" % training)
+        print(f"Currently training: {training} (aspect or polarity)")
 
         self.training = training  # aspect or polarity
         self.label_encoder = LabelEncoder()

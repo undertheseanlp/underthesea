@@ -1,12 +1,15 @@
 from os.path import join
 from pathlib import Path
+
 import joblib
 import pycrfsuite
 from underthesea_core import CRFFeaturizer
 
 
 class FastCRFSequenceTagger:
-    def __init__(self, features=None, dictionary=set()):
+    def __init__(self, features=None, dictionary=None):
+        if dictionary is None:
+            dictionary = set()
         self.features = features
         self.dictionary = dictionary
         self.estimator = None

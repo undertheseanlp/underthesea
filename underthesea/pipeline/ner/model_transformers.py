@@ -1,4 +1,4 @@
-from transformers import pipeline, AutoModelForTokenClassification, AutoTokenizer
+from transformers import AutoModelForTokenClassification, AutoTokenizer, pipeline
 
 model_repo = "undertheseanlp/vietnamese-ner-v1.4.0a2"
 model_fine_tuned = AutoModelForTokenClassification.from_pretrained(model_repo)

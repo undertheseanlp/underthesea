@@ -41,7 +41,7 @@ def generate_table(data, headers=None):
         for i, item in enumerate(headers):
             header_str += '| {item:{width}} '.format(item=item, width=max_widths[i])
         header_str += '|\n'
-        for i, item in enumerate(headers):
+        for i, _item in enumerate(headers):
             border_str = '|' if i == 0 else '+'
             header_str += border_str + '-' * (max_widths[i] + 2)
         header_str += '|\n'

@@ -1,4 +1,5 @@
 from os.path import dirname, join
+
 import pandas as pd
 
 PROJECT_FOLDER = dirname(dirname(dirname(__file__)))

@@ -1,7 +1,8 @@
-from os.path import dirname, join, exists
+from os.path import dirname, exists, join
+
 from torch.utils.data import Dataset
-from underthesea import pos_tag
-from underthesea import dependency_parse
+
+from underthesea import dependency_parse, pos_tag
 from underthesea.utils.col_analyzer import UDAnalyzer
 
 BOT_VERSION = "underthesea.v1.3.2"

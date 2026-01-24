@@ -1,5 +1,5 @@
 from os import makedirs
-from os.path import basename, join, exists
+from os.path import basename, exists, join
 from shutil import copyfile, rmtree
 
 from underthesea.corpus.validate_corpus import validate_corpus_exist

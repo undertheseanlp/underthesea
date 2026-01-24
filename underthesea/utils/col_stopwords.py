@@ -1,12 +1,13 @@
 import os
+from collections import defaultdict
 from math import log
 from os.path import dirname, join
-from collections import defaultdict
-from underthesea.utils.col_script import UDDataset
+
 from underthesea.utils.col_analyzer import UDAnalyzer
+from underthesea.utils.col_script import UDDataset
 
 BOT_VERSION = "underthesea.v1.3.2"
-PROJECT_FOLDER = dirname(dirname(dirname((os.getcwd()))))
+PROJECT_FOLDER = dirname(dirname(dirname(os.getcwd())))
 DATASETS_FOLDER = join(PROJECT_FOLDER, "datasets")
 COL_FOLDER = join(DATASETS_FOLDER, "UD_Vietnamese-COL")
 STOPWORDS_FOLDER = join(PROJECT_FOLDER, "underthesea", "datasets", "stopwords")
@@ -43,7 +44,7 @@ class KLDivergence:
 
     def write(self):
         words = [x for _, x in sorted(zip(self.values, self.words), reverse=True)][:70]  # Top 70
-        content = "\n".join([s for s in words])
+        content = "\n".join(list(words))
         target_file = join(STOPWORDS_FOLDER, "stopwords_dev.txt")
         with open(target_file, "w") as f:
             f.write(content)

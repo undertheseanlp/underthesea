@@ -1,8 +1,7 @@
-import io
-from underthesea.corpus import Document, UnicodeTransformer, Corpus
 from os import listdir, mkdir
 from os.path import join
 
+from underthesea.corpus import Corpus, Document, UnicodeTransformer
 from underthesea.util.file_io import write
 
 
@@ -39,7 +38,7 @@ class WSCorpus(Corpus):
         files = [join(folder, file) for file in ids]
         contents = []
         for f in files:
-            with io.open(f, "r", encoding="utf-8") as f:
+            with open(f, encoding="utf-8") as f:
                 content = f.read().strip()
                 contents.append(content)
         documents = []
@@ -69,5 +68,5 @@ class WSCorpus(Corpus):
             pass
         for document in self.documents:
             f = join(folder, document.id)
-            content = u"\n".join(document.sentences)
+            content = "\n".join(document.sentences)
             write(f, content)

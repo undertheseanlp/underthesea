@@ -1,10 +1,9 @@
-# -*- coding: utf-8 -*-
 
 from collections import defaultdict
 from collections.abc import Iterable
 
 
-class Vocab(object):
+class Vocab:
     r"""
     Defines a vocabulary object that will be used to numericalize a field.
 
@@ -25,7 +24,9 @@ class Vocab(object):
             A :class:`~collections.defaultdict` object mapping token strings to numerical identifiers.
     """
 
-    def __init__(self, counter, min_freq=1, specials=[], unk_index=0):
+    def __init__(self, counter, min_freq=1, specials=None, unk_index=0):
+        if specials is None:
+            specials = []
         self.itos = list(specials)
         self.stoi = defaultdict(lambda: unk_index)
         self.stoi.update({token: i for i, token in enumerate(self.itos)})

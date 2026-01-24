@@ -1,14 +1,13 @@
-# -*- coding: utf-8 -*-
 
 import torch
 
 
-class Embedding(object):
+class Embedding:
 
     def __init__(self, tokens, vectors, unk=None):
         self.tokens = tokens
         self.vectors = torch.tensor(vectors)
-        self.pretrained = {w: v for w, v in zip(tokens, vectors)}
+        self.pretrained = dict(zip(tokens, vectors))
         self.unk = unk
 
     def __len__(self):
@@ -30,8 +29,8 @@ class Embedding(object):
 
     @classmethod
     def load(cls, path, unk=None):
-        with open(path, 'r') as f:
-            lines = [line for line in f]
+        with open(path) as f:
+            lines = list(f)
         splits = [line.split() for line in lines]
         tokens, vectors = zip(*[(s[0], list(map(float, s[1:])))
                                 for s in splits])

@@ -2,6 +2,7 @@ import warnings
 from abc import abstractmethod
 from pathlib import Path
 from typing import Union
+
 import torch.nn
 
 from underthesea import file_utils

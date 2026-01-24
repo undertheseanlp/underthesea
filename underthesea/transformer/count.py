@@ -1,5 +1,5 @@
-from sklearn import feature_extraction
 import numpy as np
+from sklearn import feature_extraction
 
 
 class CountVectorizer(feature_extraction.text.CountVectorizer):
@@ -127,7 +127,7 @@ class CountVectorizer(feature_extraction.text.CountVectorizer):
                  ngram_range=(1, 1), analyzer='word',
                  max_df=1.0, min_df=1, max_features=None,
                  vocabulary=None, binary=False, dtype=np.int64):
-        super(CountVectorizer, self).__init__(input=input, encoding=encoding,
+        super().__init__(input=input, encoding=encoding,
                                               decode_error=decode_error,
                                               strip_accents=strip_accents,
                                               lowercase=lowercase,
@@ -157,7 +157,7 @@ class CountVectorizer(feature_extraction.text.CountVectorizer):
         X : array, [n_samples, n_features]
             Document-term matrix.
         """
-        documents = super(CountVectorizer, self).fit_transform(
+        documents = super().fit_transform(
             raw_documents=raw_documents, y=y)
         self.n = len(raw_documents)
         m = (self.transform(raw_documents) > 0).astype(int)

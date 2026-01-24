@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
 import re
-import sys
 
 from underthesea.pipeline.text_normalize import token_normalize
 from underthesea.pipeline.text_normalize.character_normalize import normalize_characters_in_text
@@ -235,8 +233,6 @@ regex_patterns = [
 ]
 recompile_regex_patterns = False
 regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
-if sys.version_info < (3, 0):
-    regex_patterns_combine = regex_patterns_combine.decode('utf-8')
 patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
 
 # regex pattern to match extacted word "Viện nghiên cứu" or "chien luoc"
@@ -250,7 +246,7 @@ def extract_match(m):
             return v, k
 
 
-def tokenize(text, format=None, tag=False, use_character_normalize=True, use_token_normalize=True, fixed_words=[]):
+def tokenize(text, format=None, tag=False, use_character_normalize=True, use_token_normalize=True, fixed_words=None):
     """
     tokenize text for word segmentation
 
@@ -260,6 +256,8 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
         tag: return token with tag or not
         format: format of result, default is None
     """
+    if fixed_words is None:
+        fixed_words = []
     global recompile_regex_patterns
     global patterns
     if len(fixed_words) > 0:
@@ -271,7 +269,7 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
         recompile_regex_patterns = True
     if use_character_normalize:
         text = normalize_characters_in_text(text)
-    matches = [m for m in re.finditer(patterns, text)]
+    matches = list(re.finditer(patterns, text))
     tokens = [extract_match(m) for m in matches]
 
     if tag:

@@ -1,19 +1,18 @@
-# -*- coding: utf-8 -*-
 
 from ast import literal_eval
 from configparser import ConfigParser
 
 
-class Config(object):
+class Config:
 
     def __init__(self, conf=None, **kwargs):
-        super(Config, self).__init__()
+        super().__init__()
 
         config = ConfigParser()
         config.read(conf or [])
-        self.update({**dict((name, literal_eval(value))
+        self.update({**{name: literal_eval(value)
                             for section in config.sections()
-                            for name, value in config.items(section)),
+                            for name, value in config.items(section)},
                      **kwargs})
 
     def __repr__(self):
@@ -43,7 +42,7 @@ class Config(object):
     def update(self, kwargs):
         for key in ('self', 'cls', '__class__'):
             kwargs.pop(key, None)
-        kwargs.update(kwargs.pop('kwargs', dict()))
+        kwargs.update(kwargs.pop('kwargs', {}))
         for name, value in kwargs.items():
             setattr(self, name, value)
 

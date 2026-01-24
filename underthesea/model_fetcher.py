@@ -4,8 +4,10 @@ import zipfile
 from enum import Enum
 from os.path import dirname, join
 from pathlib import Path
+
 import yaml
-from underthesea.file_utils import cached_path, UNDERTHESEA_FOLDER
+
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 from underthesea.utils import print_table
 
 MISS_URL_ERROR = "Caution:\n  With closed license model, you must provide URL to download"
@@ -217,7 +219,7 @@ class ModelFetcher:
 
         if model == "LANG_DETECT_FAST_TEXT":
             return Path(UNDERTHESEA_FOLDER) / "models" / "lid.176.bin"
-        
+
         return Path(UNDERTHESEA_FOLDER) / "models" / model
 
 

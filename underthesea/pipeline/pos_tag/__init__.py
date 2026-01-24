@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
+from os.path import dirname, join
+
 from underthesea import word_tokenize
 from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+
 from .model_crf import CRFPOSTagPredictor
-from os.path import dirname, join
 
 pos_model_v2 = None
 

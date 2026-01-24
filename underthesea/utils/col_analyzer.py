@@ -1,16 +1,18 @@
 import math
-from underthesea.dictionary import Dictionary
 from collections import Counter, defaultdict
-from underthesea.utils import logger
 from datetime import date, timedelta
+
 import pandas as pd
+
+from underthesea.dictionary import Dictionary
+from underthesea.utils import logger
 
 
 def get_words_pos(dictionary):
     output = {}
     for word in dictionary.words:
         data = dictionary.words[word]
-        pos = list(set([_['pos'] for _ in data]))
+        pos = list({_['pos'] for _ in data})
         output[word] = pos
     return output
 
@@ -118,7 +120,7 @@ class UDAnalyzer:
     def analyze_doc_sent_freq(self, dataset):
         """Get sentence count by doc url"""
         data = self._get_doc_sents(dataset)
-        print("Number of doc URLs %s" % len(data))
+        print(f"Number of doc URLs {len(data)}")
         doc_sent_counts = [(doc, len(sents)) for doc, sents in data.items()]
         return doc_sent_counts
 

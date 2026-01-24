@@ -1,9 +1,8 @@
-# -*- coding: utf-8 -*-
 
 from collections import Counter
 
 
-class Metric(object):
+class Metric:
 
     def __lt__(self, other):
         return self.score < other
@@ -153,7 +152,7 @@ class BracketMetric(Metric):
 class SpanMetric(Metric):
 
     def __init__(self, eps=1e-5):
-        super(SpanMetric, self).__init__()
+        super().__init__()
 
         self.tp = 0.0
         self.pred = 0.0

@@ -1,7 +1,8 @@
 import sys
+
 from underthesea.datasets.vlsp2013_wtk.revise_1 import revise_corpus_vlsp2013_wtk
 
-SUPPORTED_CORPUS = set(["VLSP2013-WTK"])
+SUPPORTED_CORPUS = {"VLSP2013-WTK"}
 
 
 def revise_corpus(corpus_name):

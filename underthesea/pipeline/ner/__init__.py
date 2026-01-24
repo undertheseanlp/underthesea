@@ -1,5 +1,5 @@
-# -*- coding: utf-8 -*-
 from underthesea import chunk
+
 from .model_crf import CRFNERPredictor
 
 

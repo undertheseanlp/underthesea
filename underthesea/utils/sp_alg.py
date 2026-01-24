@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
 
 import torch
+
 from underthesea.utils.sp_fn import pad, stripe
 
 

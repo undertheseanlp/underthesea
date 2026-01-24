@@ -1,8 +1,9 @@
-from os.path import join, dirname
+from os.path import dirname, join
+
 from underthesea.reader.dictionary_loader import DictionaryLoader
 
 words = DictionaryLoader(join(dirname(__file__), "Viet74K.txt")).words
-lower_words = set([word.lower() for word in words])
+lower_words = {word.lower() for word in words}
 
 
 def text_lower(word):

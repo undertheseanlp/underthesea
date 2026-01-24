@@ -3,11 +3,12 @@
 # To use channel PlaylistItems: https://developers.google.com/youtube/v3/docs/playlistItems/list
 
 import os
+from datetime import datetime
+from os.path import dirname, join
+
 import google_auth_oauthlib.flow
 import googleapiclient.discovery
 import googleapiclient.errors
-from os.path import dirname, join
-from datetime import datetime
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 
@@ -57,7 +58,7 @@ class COLReader:
                 transcript = TextFormatter().format_transcript(
                     YouTubeTranscriptApi.get_transcript(id, languages=["vi"]))
             except Exception:
-                print("Could not extract video: %s" % doc_url)
+                print(f"Could not extract video: {doc_url}")
 
             if transcript:
                 sentences = transcript.split("\n")
@@ -79,7 +80,7 @@ class COLReader:
 
 if __name__ == "__main__":
     playlists = ["PLH_v4r_pvudV5ZrNx9HldKLICIjUSCRLb"]
-    print("YouTube playlists: %s" % len(playlists))
+    print(f"YouTube playlists: {len(playlists)}")
     print("You will be required to authenticate each!")
 
     # Get all lyrics from playlists
@@ -87,10 +88,10 @@ if __name__ == "__main__":
     for pl in playlists:
         response = playlist_youtube_api(pl)
         data = COLReader(response).data
-        print("Playlist videos: %s" % len(data))
+        print(f"Playlist videos: {len(data)}")
         all_data.extend(data)
     print("Sample\n", all_data[0])
-    print("Total lyric lines %s" % len(all_data))
+    print(f"Total lyric lines {len(all_data)}")
 
     # Write to file
     content = ""

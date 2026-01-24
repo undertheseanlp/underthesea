@@ -1,22 +1,29 @@
 # # Adapted from Yu Zhang's code here: https://github.com/yzhangcs/parser/blob/main/supar/models/dependency.py
-# -*- coding: utf-8 -*-
 import os
 from datetime import datetime
 
+import torch
+import torch.nn as nn
+from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
+
+import underthesea.modules.nn
+from underthesea.modules.base import (
+    MLP,
+    Biaffine,
+    BiLSTM,
+    CharLSTM,
+    IndependentDropout,
+    SharedDropout,
+)
+from underthesea.modules.bert import BertEmbedding
+from underthesea.transforms.conll import CoNLL
 from underthesea.utils import logger
+from underthesea.utils.sp_alg import eisner, mst
 from underthesea.utils.sp_data import Dataset
 from underthesea.utils.sp_field import Field
 from underthesea.utils.sp_fn import ispunct
 from underthesea.utils.sp_init import PRETRAINED
 from underthesea.utils.sp_metric import AttachmentMetric
-import torch
-import torch.nn as nn
-from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
-from underthesea.transforms.conll import CoNLL
-from underthesea.modules.base import CharLSTM, IndependentDropout, BiLSTM, SharedDropout, MLP, Biaffine
-from underthesea.modules.bert import BertEmbedding
-from underthesea.utils.sp_alg import eisner, mst
-import underthesea.modules.nn
 from underthesea.utils.util_deep_learning import device
 
 
@@ -49,7 +56,7 @@ class DependencyParser(underthesea.modules.nn.Model):
             embed_dropout=.33,
             max_len=None,
             mix_dropout=.0,
-            embeddings=[],
+            embeddings=None,
             embed=False,
 
             n_lstm_hidden=400,
@@ -62,7 +69,9 @@ class DependencyParser(underthesea.modules.nn.Model):
             init_pre_train=False,
             transform=None
     ):
-        super(DependencyParser, self).__init__()
+        if embeddings is None:
+            embeddings = []
+        super().__init__()
         self.embed = embed
         self.feat = feat
         self.embeddings = embeddings

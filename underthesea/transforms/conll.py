@@ -1,8 +1,9 @@
-# -*- coding: utf-8 -*-
 
 from collections.abc import Iterable
+
 import nltk
 from tqdm import tqdm
+
 from underthesea.utils.sp_parallel import is_master
 
 
@@ -18,7 +19,7 @@ def progress_bar(iterator,
                 leave=leave)
 
 
-class Transform(object):
+class Transform:
     r"""
     A Transform object corresponds to a specific data format.
     It holds several instances of data fields that provide instructions for preprocessing and numericalizing, etc.
@@ -36,7 +37,7 @@ class Transform(object):
         self.training = True
 
     def __call__(self, sentences):
-        pairs = dict()
+        pairs = {}
         for field in self:
             if field not in self.src and field not in self.tgt:
                 continue
@@ -76,7 +77,7 @@ class Transform(object):
             f.write('\n'.join([str(i) for i in sentences]) + '\n')
 
 
-class Sentence(object):
+class Sentence:
     r"""
     A Sentence object holds a sentence with regard to specific data format.
     """
@@ -85,7 +86,7 @@ class Sentence(object):
         self.transform = transform
 
         # mapping from each nested field to their proper position
-        self.maps = dict()
+        self.maps = {}
         # names of each field
         self.keys = set()
         # values of each position
@@ -331,7 +332,7 @@ class CoNLL(Transform):
         """
 
         if isinstance(data, str):
-            with open(data, 'r') as f:
+            with open(data) as f:
                 lines = [line.strip() for line in f]
         else:
             data = [data] if isinstance(data[0], str) else data
@@ -403,7 +404,7 @@ class CoNLLSentence(Sentence):
 
         self.values = []
         # record annotations for post-recovery
-        self.annotations = dict()
+        self.annotations = {}
 
         for i, line in enumerate(lines):
             value = line.split('\t')
@@ -524,7 +525,7 @@ class Tree(Transform):
         while nodes:
             node = nodes.pop()
             if isinstance(node, nltk.Tree):
-                nodes.extend([child for child in node])
+                nodes.extend(list(node))
                 if len(node) > 1:
                     for i, child in enumerate(node):
                         if not isinstance(child[0], nltk.Tree):
@@ -654,7 +655,7 @@ class Tree(Transform):
             A list of :class:`TreeSentence` instances.
         """
         if isinstance(data, str):
-            with open(data, 'r') as f:
+            with open(data) as f:
                 trees = [nltk.Tree.fromstring(string) for string in f]
             self.root = trees[0].label()
         else:

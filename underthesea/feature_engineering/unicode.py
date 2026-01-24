@@ -1,7 +1,5 @@
-import sys
 
-if sys.version_info >= (3, 0):
-    unicode = str
+unicode = str
 
 
 class UnicodeTransformer:

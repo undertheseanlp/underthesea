@@ -1,5 +1,5 @@
-from sklearn import feature_extraction
 import numpy as np
+from sklearn import feature_extraction
 
 from underthesea.transformer.count import CountVectorizer
 
@@ -126,7 +126,7 @@ class TfidfVectorizer(feature_extraction.text.TfidfVectorizer):
                  max_features=None, vocabulary=None, binary=False,
                  dtype=np.int64, norm='l2', use_idf=True, smooth_idf=True,
                  sublinear_tf=False):
-        super(TfidfVectorizer, self).__init__(input, encoding, decode_error,
+        super().__init__(input, encoding, decode_error,
                                               strip_accents, lowercase,
                                               preprocessor, tokenizer, analyzer,
                                               stop_words, token_pattern,
@@ -148,7 +148,7 @@ class TfidfVectorizer(feature_extraction.text.TfidfVectorizer):
         X : sparse matrix, [n_samples, n_features]
             Tf-idf-weighted document-term matrix.
         """
-        documents = super(TfidfVectorizer, self).fit_transform(
+        documents = super().fit_transform(
             raw_documents=raw_documents, y=y)
         count = CountVectorizer(encoding=self.encoding,
                                 decode_error=self.decode_error,

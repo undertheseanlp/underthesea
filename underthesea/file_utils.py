@@ -2,15 +2,17 @@
 Utilities for working with the local data set cache. Copied from flair
 """
 import mmap
-from os.path import join
-from pathlib import Path
 import os
+import re
 import shutil
 import tempfile
-import re
+from os.path import join
+from pathlib import Path
 from urllib.parse import urlparse
-from tqdm import tqdm as _tqdm
+
 import requests
+from tqdm import tqdm as _tqdm
+
 from underthesea.utils import logger
 
 UNDERTHESEA_FOLDER = os.path.expanduser(os.path.join('~', '.underthesea'))
@@ -37,10 +39,10 @@ def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
         return Path(url_or_filename)
     elif parsed.scheme == '':
         # File, but it doesn't exist.
-        raise FileNotFoundError("file {} not found".format(url_or_filename))
+        raise FileNotFoundError(f"file {url_or_filename} not found")
     else:
         # Something unknown
-        raise ValueError("unable to parse {} as a URL or as a local path".format(url_or_filename))
+        raise ValueError(f"unable to parse {url_or_filename} as a URL or as a local path")
 
 
 # TODO(joelgrus): do we want to do checksums or anything like that?
@@ -66,7 +68,7 @@ def get_from_cache(url: str, cache_dir: Path = None) -> Path:
             # dropbox return code 301, so we ignore this error
             pass
         else:
-            raise IOError("HEAD request failed for url {}".format(url))
+            raise OSError(f"HEAD request failed for url {url}")
 
     # add ETag to filename if it exists
     # etag = response.headers.get("ETag")

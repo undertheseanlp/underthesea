@@ -1,5 +1,6 @@
 from os.path import join
 from pathlib import Path
+
 import joblib
 import pycrfsuite
 

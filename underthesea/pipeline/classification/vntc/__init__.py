@@ -1,6 +1,7 @@
 import os
 import sys
 from os.path import dirname
+
 from underthesea.corpus.data import Sentence
 from underthesea.model_fetcher import ModelFetcher
 from underthesea.models.text_classifier import TextClassifier

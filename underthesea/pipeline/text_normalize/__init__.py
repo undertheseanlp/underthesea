@@ -1,5 +1,6 @@
-from .token_normalize import token_normalize
 from underthesea.pipeline.word_tokenize.regex_tokenize import tokenize
+
+from .token_normalize import token_normalize
 
 
 def text_normalize(text, tokenizer='underthesea'):
