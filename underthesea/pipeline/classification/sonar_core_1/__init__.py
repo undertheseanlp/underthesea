@@ -118,3 +118,19 @@ def classify_with_confidence(text):
         'confidence': float(top_predictions[0][1]),
         'top_3': top_predictions
     }
+
+
+def get_labels():
+    """Get all available category labels for the classifier
+
+    Returns:
+        list: A list of all category labels that the classifier can predict
+    """
+    global classifier
+
+    if not classifier:
+        model_file, labels_file = _ensure_model_exists()
+        classifier = joblib.load(model_file)
+        classifier.labels = _load_labels(labels_file)
+
+    return [str(label) for label in classifier.classes_]

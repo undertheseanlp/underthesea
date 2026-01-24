@@ -16,9 +16,10 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
+  pull-requests: write
 
 concurrency:
   group: "pages"
@@ -40,12 +41,49 @@ jobs:
           pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
 
       - name: Build documentation
-        run: mkdocs build --strict
+        run: |
+          # Set correct site_url for GitHub Pages
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/|" mkdocs.yml
+          mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
+
+  deploy-preview:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
+
+      - name: Build documentation for PR preview
+        run: |
+          # Set site_url for PR preview subdirectory
+          PR_NUM="${{ github.event.pull_request.number }}"
+          PR_BASE_PATH="/underthesea/pr-preview/pr-${PR_NUM}"
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io${PR_BASE_PATH}/|" mkdocs.yml
+          mkdocs build --strict
+
+          # Fix absolute paths in generated files to use PR preview path
+          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|href=\"/|href=\"${PR_BASE_PATH}/|g" {} \;
+          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|src=\"/|src=\"${PR_BASE_PATH}/|g" {} \;
+          find ./site -type f -name '*.html' -exec sed -i "s|content=\"/|content=\"${PR_BASE_PATH}/|g" {} \;
+
+      - name: Deploy PR Preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./site
 
   deploy:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
