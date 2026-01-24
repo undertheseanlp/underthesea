@@ -294,16 +294,13 @@ Satisfaction, guaranteed.
 <summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
 <code>⚛️</code>
 </summary>
-
 <br/>
 
-Install extend dependencies
+- ⚛️ Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
     ```
-
-Usage examples
 
     ```python
     >>> from underthesea import translate
