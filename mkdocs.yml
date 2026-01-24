@@ -62,21 +62,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Getting Started:
-      - Installation: installation.md
-      - Quick Start: quickstart.md
-  - User Guide:
-      - Concepts: user_guide/concepts.md
-      - Optional Dependencies: user_guide/optional_deps.md
-      - Models: user_guide/models.md
-  - Tutorials:
-      - Word Segmentation: tutorials/word_segmentation.md
-      - POS Tagging: tutorials/pos_tagging.md
-      - Named Entity Recognition: tutorials/ner.md
-      - Text Classification: tutorials/text_classification.md
-      - Sentiment Analysis: tutorials/sentiment_analysis.md
-      - Translation: tutorials/translation.md
-      - Text-to-Speech: tutorials/tts.md
+  - Technical Reports:
+      - Voice (TTS): technical_reports/voice.md
   - API Reference:
       - Overview: api/index.md
       - sent_tokenize: api/sent_tokenize.md
@@ -90,7 +77,7 @@ nav:
       - sentiment: api/sentiment.md
       - translate: api/translate.md
       - lang_detect: api/lang_detect.md
-      - say: api/say.md
+      - tts: api/tts.md
   - Developer:
       - Contributing: developer/contributing.md
       - Architecture: developer/architecture.md
@@ -106,4 +93,4 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A
 
-copyright: Copyright &copy; 2018 - 2025 Vu Anh
+copyright: Copyright &copy; 2018 - 2026 Underthesea

@@ -60,6 +60,13 @@ $ pip install underthesea
 
 Satisfaction, guaranteed.
 
+Install with extras (note: use quotes in zsh):
+
+```bash
+$ pip install "underthesea[deep]"    # Deep learning support
+$ pip install "underthesea[voice]"   # Text-to-Speech support
+```
+
 ## Tutorials
 
 <details>
@@ -342,7 +349,7 @@ Usage examples in script
 </details>
 
 <details>
-<summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
+<summary><b><a href="">Text-to-Speech 🗣️</a></b> - Converting written text into spoken audio
 <code>⚛️</code>
 </summary>
 
@@ -353,23 +360,23 @@ Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.
 Install extend dependencies and models
 
     ```bash
-    $ pip install underthesea[wow]
+    $ pip install "underthesea[voice]"
     $ underthesea download-model VIET_TTS_V0_4_1
     ```
 
 Usage examples in script
 
     ```python
-    >>> from underthesea.pipeline.say import say
-    
-    >>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    >>> from underthesea.pipeline.tts import tts
+
+    >>> tts("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
     A new audio file named `sound.wav` will be generated.
     ```
 
 Usage examples in command line
 
     ```sh
-    $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+    $ underthesea tts "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
     ```
 </details>
 

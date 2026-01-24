@@ -20,7 +20,7 @@ underthesea/
 │   ├── sentiment/         # Sentiment analysis
 │   ├── translate/         # Translation
 │   ├── lang_detect/       # Language detection
-│   └── say/               # Text-to-speech
+│   └── tts/               # Text-to-speech
 ├── models/                # Model implementations
 ├── datasets/              # Built-in datasets
 ├── corpus/                # Corpus handling
@@ -223,10 +223,10 @@ def list_data():
 
 @cli.command()
 @click.argument('text')
-def say(text):
+def tts(text):
     """Convert text to speech."""
-    from underthesea.pipeline.say import say
-    say(text)
+    from underthesea.pipeline.tts import tts
+    tts(text)
 ```
 
 ## Optional Dependencies
@@ -240,7 +240,7 @@ def translate(text):
     except ImportError:
         raise ImportError(
             "Translation requires deep learning dependencies. "
-            "Install with: pip install underthesea[deep]"
+            "Install with: pip install 'underthesea[deep]'"
         )
     # ... translation logic
 ```

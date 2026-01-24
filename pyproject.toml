@@ -52,19 +52,14 @@ deep = [
     "torch>=2.0.0",
     "transformers>=4.30.0"
 ]
-wow = [
-    "dm-haiku",
-    "optax",
-    "soundfile",
-    "matplotlib",
-    "playsound"
-]
-say = [
+voice = [
     "jax>=0.4.25",
     "jaxlib>=0.4.25",
     "dm-haiku>=0.0.12",
     "optax",
-    "soundfile"
+    "soundfile",
+    "matplotlib",
+    "playsound3"
 ]
 prompt = [
     "openai"
