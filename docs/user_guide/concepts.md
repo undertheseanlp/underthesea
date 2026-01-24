@@ -67,7 +67,7 @@ Transformer-based models for complex tasks:
 - Deep NER (`ner(..., deep=True)`)
 - Translation
 
-Requires `pip install underthesea[deep]`
+Requires `pip install "underthesea[deep]"`
 
 ### Prompt-based Models
 
@@ -75,7 +75,7 @@ Uses OpenAI API for zero-shot classification:
 
 - Text classification (`classify(..., model='prompt')`)
 
-Requires `pip install underthesea[prompt]`
+Requires `pip install "underthesea[prompt]"`
 
 ### FastText Models
 
@@ -83,7 +83,7 @@ For language identification:
 
 - Language detection
 
-Requires `pip install underthesea[langdetect]`
+Requires `pip install "underthesea[langdetect]"`
 
 ## Output Formats
 

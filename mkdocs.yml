@@ -69,6 +69,8 @@ nav:
       - Concepts: user_guide/concepts.md
       - Optional Dependencies: user_guide/optional_deps.md
       - Models: user_guide/models.md
+  - Model Documentation:
+      - Voice (TTS): models/voice.md
   - Tutorials:
       - Word Segmentation: tutorials/word_segmentation.md
       - POS Tagging: tutorials/pos_tagging.md
@@ -106,4 +108,4 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A
 
-copyright: Copyright &copy; 2018 - 2025 Vu Anh
+copyright: Copyright &copy; 2018 - 2026 Underthesea

@@ -137,7 +137,7 @@ print(f"Organizations: {organizations}")
 For better accuracy, use the deep learning model:
 
 ```bash
-pip install underthesea[deep]
+pip install "underthesea[deep]"
 ```
 
 ```python

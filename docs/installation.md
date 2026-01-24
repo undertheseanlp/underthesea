@@ -33,17 +33,28 @@ Underthesea provides optional dependencies for advanced features:
 For deep learning-based features (dependency parsing, deep NER, translation):
 
 ```bash
-pip install underthesea[deep]
+pip install "underthesea[deep]"
 ```
 
 This includes PyTorch and Transformers libraries.
+
+### Text-to-Speech
+
+For Vietnamese text-to-speech synthesis:
+
+```bash
+pip install "underthesea[voice]"
+underthesea download-model VIET_TTS_V0_4_1
+```
+
+This includes JAX, Haiku, and audio processing libraries.
 
 ### Prompt-based Models
 
 For OpenAI-powered text classification:
 
 ```bash
-pip install underthesea[prompt]
+pip install "underthesea[prompt]"
 ```
 
 !!! note
@@ -54,7 +65,7 @@ pip install underthesea[prompt]
 For language detection using FastText:
 
 ```bash
-pip install underthesea[langdetect]
+pip install "underthesea[langdetect]"
 ```
 
 ### Development Tools
@@ -62,13 +73,13 @@ pip install underthesea[langdetect]
 For development and testing:
 
 ```bash
-pip install underthesea[dev]
+pip install "underthesea[dev]"
 ```
 
 ### Install All Optional Dependencies
 
 ```bash
-pip install underthesea[deep,prompt,langdetect]
+pip install "underthesea[deep,voice,prompt,langdetect]"
 ```
 
 ## Installation from Source
@@ -136,10 +147,13 @@ If you encounter import errors, make sure you have the correct optional dependen
 
 ```bash
 # For deep learning features
-pip install underthesea[deep]
+pip install "underthesea[deep]"
+
+# For text-to-speech
+pip install "underthesea[voice]"
 
 # For language detection
-pip install underthesea[langdetect]
+pip install "underthesea[langdetect]"
 ```
 
 ### Model Download Issues

@@ -5,7 +5,7 @@ Translate text between Vietnamese and English.
 !!! note "Requires Deep Learning"
     This function requires the deep learning dependencies:
     ```bash
-    pip install underthesea[deep]
+    pip install "underthesea[deep]"
     ```
 
 ## Usage

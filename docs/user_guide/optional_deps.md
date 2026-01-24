@@ -8,6 +8,7 @@ Underthesea is designed to be lightweight by default. Advanced features require 
 |-----------------|------------------|
 | `pip install underthesea` | Core NLP features |
 | `pip install underthesea[deep]` | Deep learning models |
+| `pip install underthesea[voice]` | Text-to-Speech |
 | `pip install underthesea[prompt]` | OpenAI-based classification |
 | `pip install underthesea[langdetect]` | Language detection |
 | `pip install underthesea[dev]` | Development tools |
@@ -43,7 +44,7 @@ pip install underthesea
 For transformer-based models:
 
 ```bash
-pip install underthesea[deep]
+pip install "underthesea[deep]"
 ```
 
 **Features:**
@@ -70,12 +71,48 @@ translate("Hà Nội là thủ đô của Việt Nam")
 # 'Hanoi is the capital of Vietnam'
 ```
 
+## Voice Package
+
+For text-to-speech synthesis:
+
+```bash
+pip install "underthesea[voice]"
+underthesea download-model VIET_TTS_V0_4_1
+```
+
+**Features:**
+
+- `say` - Vietnamese text-to-speech
+
+**Dependencies:**
+
+- jax
+- jaxlib
+- dm-haiku
+- optax
+- soundfile
+- matplotlib
+- playsound3
+
+**Example:**
+
+```python
+from underthesea.pipeline.say import say
+
+# Generate speech
+say("Xin chào Việt Nam")
+# Creates sound.wav in current directory
+
+# Custom output file
+say("Hà Nội là thủ đô của Việt Nam", outfile="hanoi.wav")
+```
+
 ## Prompt Package
 
 For OpenAI-powered classification:
 
 ```bash
-pip install underthesea[prompt]
+pip install "underthesea[prompt]"
 export OPENAI_API_KEY=your_api_key
 ```
 
@@ -101,7 +138,7 @@ classify("HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt N
 For language identification:
 
 ```bash
-pip install underthesea[langdetect]
+pip install "underthesea[langdetect]"
 ```
 
 **Features:**
@@ -129,7 +166,7 @@ lang_detect("Hello, how are you?")
 For contributors and developers:
 
 ```bash
-pip install underthesea[dev]
+pip install "underthesea[dev]"
 ```
 
 **Features:**
@@ -149,10 +186,10 @@ You can install multiple optional packages:
 
 ```bash
 # Deep learning + language detection
-pip install underthesea[deep,langdetect]
+pip install "underthesea[deep,langdetect]"
 
 # All optional dependencies
-pip install underthesea[deep,prompt,langdetect,dev]
+pip install "underthesea[deep,voice,prompt,langdetect,dev]"
 ```
 
 ## Checking Installed Features

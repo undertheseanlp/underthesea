@@ -2,7 +2,6 @@ import time
 from os.path import join
 
 import numpy as np
-from playsound import playsound
 
 from underthesea.file_utils import MODELS_FOLDER
 from underthesea.pipeline.say.viettts_ import nat_normalize_text
@@ -36,6 +35,7 @@ def say(text, outfile="sound.wav", play=False):
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(f"\n{time_str}: {text}")
     if play:
+        from playsound3 import playsound
         playsound(outfile)
     return 16_000, y
 
@@ -50,6 +50,7 @@ def think_and_say(text, outfile="sound.wav"):
     # while p2 is end, terminate p1
     p2.join()
     p1.terminate()
+    from playsound3 import playsound
     playsound(outfile)
 
 

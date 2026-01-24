@@ -93,7 +93,7 @@ for word, pos, chunk, entity in entities:
 
 !!! note "Requires Installation"
     ```bash
-    pip install underthesea[deep]
+    pip install "underthesea[deep]"
     ```
 
 ```python

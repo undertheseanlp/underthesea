@@ -88,7 +88,7 @@ for text in examples:
 Use OpenAI for flexible classification:
 
 ```bash
-pip install underthesea[prompt]
+pip install "underthesea[prompt]"
 export OPENAI_API_KEY=your_api_key
 ```
 

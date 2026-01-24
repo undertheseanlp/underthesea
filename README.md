@@ -60,6 +60,13 @@ $ pip install underthesea
 
 Satisfaction, guaranteed.
 
+Install with extras (note: use quotes in zsh):
+
+```bash
+$ pip install "underthesea[deep]"    # Deep learning support
+$ pip install "underthesea[voice]"   # Text-to-Speech support
+```
+
 ## Tutorials
 
 <details>
@@ -353,7 +360,7 @@ Text to Speech API. Thanks to awesome work from [NTT123/vietTTS](https://github.
 Install extend dependencies and models
 
     ```bash
-    $ pip install underthesea[wow]
+    $ pip install "underthesea[voice]"
     $ underthesea download-model VIET_TTS_V0_4_1
     ```
 

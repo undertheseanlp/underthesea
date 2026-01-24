@@ -103,7 +103,7 @@ classify("Nhân viên hỗ trợ rất nhiệt tình", domain='bank')
 
 !!! note "Requires Installation"
     ```bash
-    pip install underthesea[prompt]
+    pip install "underthesea[prompt]"
     export OPENAI_API_KEY=your_api_key
     ```
 

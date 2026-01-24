@@ -86,7 +86,7 @@ print(result)
 ### Translation (requires `[deep]` install)
 
 ```bash
-pip install underthesea[deep]
+pip install "underthesea[deep]"
 ```
 
 ```python
@@ -101,7 +101,7 @@ print(english)
 ### Language Detection (requires `[langdetect]` install)
 
 ```bash
-pip install underthesea[langdetect]
+pip install "underthesea[langdetect]"
 ```
 
 ```python

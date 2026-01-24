@@ -5,7 +5,7 @@ Convert Vietnamese text to speech.
 !!! note "Requires Additional Setup"
     This function requires extra dependencies and model download:
     ```bash
-    pip install underthesea[deep]
+    pip install "underthesea[voice]"
     underthesea download-model VIET_TTS_V0_4_1
     ```
 

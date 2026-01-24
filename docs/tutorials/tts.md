@@ -8,7 +8,7 @@ Text-to-speech requires additional setup:
 
 ```bash
 # Install dependencies
-pip install underthesea[deep]
+pip install "underthesea[voice]"
 
 # Download the TTS model
 underthesea download-model VIET_TTS_V0_4_1

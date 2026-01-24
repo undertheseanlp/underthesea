@@ -7,7 +7,7 @@ Learn how to translate between Vietnamese and English.
 Translation requires the deep learning dependencies:
 
 ```bash
-pip install underthesea[deep]
+pip install "underthesea[deep]"
 ```
 
 ## Basic Usage

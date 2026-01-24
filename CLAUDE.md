@@ -18,6 +18,7 @@ source .venv/bin/activate
 # Installation
 uv pip install -e "."               # Basic install
 uv pip install -e ".[deep]"         # With deep learning (torch, transformers)
+uv pip install -e ".[voice]"        # With text-to-speech (jax, haiku)
 uv pip install -e ".[prompt]"       # With prompt models (openai)
 uv pip install -e ".[langdetect]"   # With language detection (fasttext)
 uv pip install -e ".[dev]"          # With dev tools (ruff, tox)
@@ -65,7 +66,7 @@ underthesea download-data VNTC      # Download a dataset
   - `dependency_parse/` - Dependency parsing (requires `[deep]` install)
   - `lang_detect/` - Language detection (requires `[langdetect]` install)
   - `translate/` - Vietnamese-English translation (requires `[deep]` install)
-  - `say/` - Text-to-speech
+  - `say/` - Text-to-speech (requires `[voice]` install)
 
 - **`models/`** - Model implementations (CRF taggers, classifiers)
 - **`datasets/`** - Built-in datasets and stopwords

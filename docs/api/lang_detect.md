@@ -5,7 +5,7 @@ Identify the language of text.
 !!! note "Requires Language Detection"
     This function requires the langdetect dependencies:
     ```bash
-    pip install underthesea[langdetect]
+    pip install "underthesea[langdetect]"
     ```
 
 ## Usage

@@ -5,7 +5,7 @@ Analyze the grammatical structure and dependencies between words.
 !!! note "Requires Deep Learning"
     This function requires the deep learning dependencies:
     ```bash
-    pip install underthesea[deep]
+    pip install "underthesea[deep]"
     ```
 
 ## Usage

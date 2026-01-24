@@ -108,9 +108,19 @@ translate("Hà Nội là thủ đô của Việt Nam")
 
 ### Text-to-Speech
 
-| Model | Description |
-|-------|-------------|
-| `VIET_TTS_V0_4_1` | Vietnamese TTS model |
+| Model | Description | Architecture |
+|-------|-------------|--------------|
+| `VIET_TTS_V0_4_1` | Vietnamese TTS model | NAT + HiFi-GAN |
+
+The TTS model uses a two-stage neural architecture:
+
+1. **Duration + Acoustic Model**: Predicts phoneme durations and generates mel-spectrograms
+2. **HiFi-GAN Vocoder**: Converts mel-spectrograms to high-quality audio
+
+!!! note "Requires Installation"
+    ```bash
+    pip install "underthesea[voice]"
+    ```
 
 Download and usage:
 
@@ -124,6 +134,8 @@ from underthesea.pipeline.say import say
 say("Xin chào Việt Nam")
 # Generates sound.wav
 ```
+
+For detailed technical documentation, see [Voice Module Technical Report](../models/voice.md).
 
 ## Datasets
 

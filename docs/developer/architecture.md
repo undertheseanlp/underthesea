@@ -240,7 +240,7 @@ def translate(text):
     except ImportError:
         raise ImportError(
             "Translation requires deep learning dependencies. "
-            "Install with: pip install underthesea[deep]"
+            "Install with: pip install 'underthesea[deep]'"
         )
     # ... translation logic
 ```
