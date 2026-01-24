@@ -1,6 +1,9 @@
-use regex::{Regex};
-use std::collections::HashSet;
+#![allow(clippy::single_match)]
+#![allow(clippy::needless_return)]
+#![allow(clippy::ptr_arg)]
 
+use regex::Regex;
+use std::collections::HashSet;
 
 /* Struct for FeatureTemplate
 ///
@@ -40,16 +43,13 @@ pub struct CRFFeaturizer {
     feature_templates: Vec<FeatureTemplate>,
 }
 
-
 impl CRFFeaturizer {
-    pub fn new(
-        feature_configs: Vec<String>,
-        dictionary: HashSet<String>,
-    ) -> Self {
+    pub fn new(feature_configs: Vec<String>, dictionary: HashSet<String>) -> Self {
         let mut feature_templates: Vec<FeatureTemplate> = Vec::new();
         let re = Regex::new(
-            r"T\[(?P<index1>-?\d+)(,(?P<index2>-?\d+))?](\[(?P<column>.*)])?(\.(?P<function>.*))?"
-        ).unwrap();
+            r"T\[(?P<index1>-?\d+)(,(?P<index2>-?\d+))?](\[(?P<column>.*)])?(\.(?P<function>.*))?",
+        )
+        .unwrap();
         for feature_config in &feature_configs {
             let mut feature_template = FeatureTemplate {
                 syntax: String::from(""),
@@ -64,19 +64,20 @@ impl CRFFeaturizer {
                     Some(s) => {
                         feature_template.offset1 = s.as_str().parse::<isize>().unwrap();
                     }
-                    _ => ()
+                    _ => (),
                 }
                 match cap.name("index2") {
                     Some(s) => {
-                        feature_template.offset2 = Option::from(s.as_str().parse::<isize>().unwrap());
+                        feature_template.offset2 =
+                            Option::from(s.as_str().parse::<isize>().unwrap());
                     }
-                    _ => ()
+                    _ => (),
                 }
                 match cap.name("function") {
                     Some(s) => {
                         feature_template.function = Option::from(String::from(s.as_str()));
                     }
-                    _ => ()
+                    _ => (),
                 }
             }
             feature_templates.push(feature_template);
@@ -93,7 +94,11 @@ impl CRFFeaturizer {
     /// Messi   X
     /// giành   X
     /// quả     X
-    pub fn generate_token_features(&self, sentence: &Vec<Vec<String>>, position: usize) -> Vec<String> {
+    pub fn generate_token_features(
+        &self,
+        sentence: &Vec<Vec<String>>,
+        position: usize,
+    ) -> Vec<String> {
         let mut features = Vec::new();
         for feature_template in &self.feature_templates {
             let index1 = position as isize + feature_template.offset1;
@@ -133,39 +138,37 @@ impl CRFFeaturizer {
             // apply function
             match feature_template.function.as_ref() {
                 None => {}
-                Some(function_name) => {
-                    match function_name.as_ref() {
-                        "lower" => {
-                            text = text.to_lowercase();
-                        }
-                        "isdigit" => {
-                            let is_digit = text.parse::<i32>();
-                            match is_digit {
-                                Ok(_) => { text = String::from("True") }
-                                Err(_) => { text = String::from("False") }
-                            }
-                        }
-                        "istitle" => {
-                            let mut is_title = "True";
-                            for part in text.split(" ") {
-                                let first_char = String::from(part.chars().nth(0).unwrap());
-                                if first_char != first_char.to_uppercase() {
-                                    is_title = "False";
-                                    break;
-                                }
-                            }
-                            text = String::from(is_title);
-                        }
-                        "is_in_dict" => {
-                            if self.dictionary.contains(text.to_lowercase().as_str()) {
-                                text = String::from("True");
-                            } else {
-                                text = String::from("False");
-                            }
-                        }
-                        _ => {}
+                Some(function_name) => match function_name.as_ref() {
+                    "lower" => {
+                        text = text.to_lowercase();
                     }
-                }
+                    "isdigit" => {
+                        let is_digit = text.parse::<i32>();
+                        match is_digit {
+                            Ok(_) => text = String::from("True"),
+                            Err(_) => text = String::from("False"),
+                        }
+                    }
+                    "istitle" => {
+                        let mut is_title = "True";
+                        for part in text.split(" ") {
+                            let first_char = String::from(part.chars().nth(0).unwrap());
+                            if first_char != first_char.to_uppercase() {
+                                is_title = "False";
+                                break;
+                            }
+                        }
+                        text = String::from(is_title);
+                    }
+                    "is_in_dict" => {
+                        if self.dictionary.contains(text.to_lowercase().as_str()) {
+                            text = String::from("True");
+                        } else {
+                            text = String::from("False");
+                        }
+                    }
+                    _ => {}
+                },
             }
             let value = String::from(&feature_template.syntax) + "=" + text.as_str();
             features.push(value);
@@ -186,4 +189,3 @@ impl CRFFeaturizer {
         return sentences_features;
     }
 }
-

@@ -3,6 +3,10 @@
 //! This module provides Viterbi decoding for finding the most likely
 //! label sequence given observations.
 
+#![allow(clippy::needless_range_loop)]
+#![allow(clippy::manual_memcpy)]
+#![allow(clippy::map_clone)]
+
 use super::model::CRFModel;
 use super::serialization::{CRFFormat, ModelLoader};
 use std::path::Path;
@@ -61,7 +65,7 @@ impl CRFTagger {
     ///
     /// # Arguments
     /// * `features` - A sequence of feature vectors, one per token.
-    ///                Each inner vector contains feature strings like "word=hello".
+    ///   Each inner vector contains feature strings like "word=hello".
     ///
     /// # Returns
     /// * Vector of label strings
@@ -352,6 +356,7 @@ fn log_sum_exp(a: f64, b: f64) -> f64 {
 }
 
 #[cfg(test)]
+#[allow(clippy::useless_vec)]
 mod tests {
     use super::*;
 
@@ -478,8 +483,8 @@ mod tests {
         assert_eq!(marginals.len(), 2);
 
         // Marginals should sum to 1 at each position
-        for t in 0..marginals.len() {
-            let sum: f64 = marginals[t].iter().sum();
+        for m in &marginals {
+            let sum: f64 = m.iter().sum();
             assert!((sum - 1.0).abs() < 1e-6, "Marginals should sum to 1");
         }
     }

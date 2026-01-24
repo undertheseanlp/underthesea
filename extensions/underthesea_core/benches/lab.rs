@@ -1,10 +1,15 @@
-extern crate rayon;
-extern crate criterion;
+#![allow(dead_code)]
+#![allow(unused_variables)]
+#![allow(unused_must_use)]
+#![allow(clippy::needless_return)]
+#![allow(clippy::redundant_closure)]
 
-use std::time::Duration;
-use rayon::prelude::*;
+extern crate criterion;
+extern crate rayon;
+
 use criterion::*;
-use underthesea_core;
+use rayon::prelude::*;
+use std::time::Duration;
 
 fn fibonacci(n: u32) -> u32 {
     match n {
@@ -16,26 +21,22 @@ fn fibonacci(n: u32) -> u32 {
 
 fn f1() {
     let mut arr: [u32; 2] = [10, 100];
-    arr.par_iter_mut().map(|n| fibonacci(*n));
-    return;
+    let _ = arr.par_iter_mut().map(|n| fibonacci(*n));
 }
 
 fn f2() {
-    let mut arr: [u32; 2] = [10, 100];
-    arr.map(|n| fibonacci(n));
-    return;
+    let arr: [u32; 2] = [10, 100];
+    let _ = arr.map(fibonacci);
 }
 
 fn f3() {
-    let a = 1 + 2;
-    return;
+    let _a = 1 + 2;
 }
 
-
-fn criterion_benchmark(c: &mut Criterion){
+fn criterion_benchmark(c: &mut Criterion) {
     let mut group = c.benchmark_group("abc");
-    group.bench_function("my-function", |b| b.iter(|| f3()));
-    group.bench_function("my-function-2", |b| b.iter(|| f2()));
+    group.bench_function("my-function", |b| b.iter(f3));
+    group.bench_function("my-function-2", |b| b.iter(f2));
     group.finish();
 }
 

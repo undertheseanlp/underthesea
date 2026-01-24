@@ -30,7 +30,8 @@ const NATIVE_MAGIC: &[u8; 4] = b"UTCF"; // UnderTheSea CRF
 /// Magic bytes for CRFsuite format
 const CRFSUITE_MAGIC: &[u8; 4] = b"lCRF";
 
-/// Header for native format
+/// Header for native format (reserved for future use)
+#[allow(dead_code)]
 #[derive(Debug, Clone, Serialize, Deserialize)]
 struct NativeHeader {
     version: u32,
@@ -141,7 +142,10 @@ impl ModelLoader {
             .map_err(|e| format!("Failed to read magic: {}", e))?;
 
         if &magic != NATIVE_MAGIC {
-            return Err(format!("Invalid magic bytes: expected {:?}, got {:?}", NATIVE_MAGIC, magic));
+            return Err(format!(
+                "Invalid magic bytes: expected {:?}, got {:?}",
+                NATIVE_MAGIC, magic
+            ));
         }
 
         // Deserialize model
@@ -163,13 +167,30 @@ impl ModelLoader {
         let mut model = CRFModel::new();
 
         // Read labels
-        self.read_crfsuite_strings(&mut reader, header.off_labels, header.num_labels, &mut model, true)?;
+        self.read_crfsuite_strings(
+            &mut reader,
+            header.off_labels,
+            header.num_labels,
+            &mut model,
+            true,
+        )?;
 
         // Read attributes
-        self.read_crfsuite_strings(&mut reader, header.off_attrs, header.num_attrs, &mut model, false)?;
+        self.read_crfsuite_strings(
+            &mut reader,
+            header.off_attrs,
+            header.num_attrs,
+            &mut model,
+            false,
+        )?;
 
         // Read features
-        self.read_crfsuite_features(&mut reader, header.off_features, header.num_features, &mut model)?;
+        self.read_crfsuite_features(
+            &mut reader,
+            header.off_features,
+            header.num_features,
+            &mut model,
+        )?;
 
         Ok(model)
     }
@@ -178,54 +199,68 @@ impl ModelLoader {
     fn read_crfsuite_header(&self, reader: &mut BufReader<File>) -> Result<CRFsuiteHeader, String> {
         // Magic (4 bytes)
         let mut magic = [0u8; 4];
-        reader.read_exact(&mut magic).map_err(|e| format!("Failed to read magic: {}", e))?;
+        reader
+            .read_exact(&mut magic)
+            .map_err(|e| format!("Failed to read magic: {}", e))?;
 
         if &magic != CRFSUITE_MAGIC {
             return Err(format!("Invalid CRFsuite magic: {:?}", magic));
         }
 
         // Size (4 bytes)
-        let size = reader.read_u32::<LittleEndian>()
+        let size = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read size: {}", e))?;
 
         // Type (4 bytes) - should be "FOMC"
         let mut type_bytes = [0u8; 4];
-        reader.read_exact(&mut type_bytes).map_err(|e| format!("Failed to read type: {}", e))?;
+        reader
+            .read_exact(&mut type_bytes)
+            .map_err(|e| format!("Failed to read type: {}", e))?;
 
         // Version (4 bytes)
-        let version = reader.read_u32::<LittleEndian>()
+        let version = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read version: {}", e))?;
 
         // Number of features (4 bytes)
-        let num_features = reader.read_u32::<LittleEndian>()
+        let num_features = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read num_features: {}", e))?;
 
         // Number of labels (4 bytes)
-        let num_labels = reader.read_u32::<LittleEndian>()
+        let num_labels = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read num_labels: {}", e))?;
 
         // Number of attributes (4 bytes)
-        let num_attrs = reader.read_u32::<LittleEndian>()
+        let num_attrs = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read num_attrs: {}", e))?;
 
         // Offset to features (4 bytes)
-        let off_features = reader.read_u32::<LittleEndian>()
+        let off_features = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read off_features: {}", e))?;
 
         // Offset to labels (4 bytes)
-        let off_labels = reader.read_u32::<LittleEndian>()
+        let off_labels = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read off_labels: {}", e))?;
 
         // Offset to attributes (4 bytes)
-        let off_attrs = reader.read_u32::<LittleEndian>()
+        let off_attrs = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read off_attrs: {}", e))?;
 
         // Offset to label references (4 bytes)
-        let off_label_refs = reader.read_u32::<LittleEndian>()
+        let off_label_refs = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read off_label_refs: {}", e))?;
 
         // Offset to attribute references (4 bytes)
-        let off_attr_refs = reader.read_u32::<LittleEndian>()
+        let off_attr_refs = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read off_attr_refs: {}", e))?;
 
         Ok(CRFsuiteHeader {
@@ -256,12 +291,14 @@ impl ModelLoader {
         use std::io::SeekFrom;
 
         // Seek to offset
-        reader.seek(SeekFrom::Start(offset as u64))
+        reader
+            .seek(SeekFrom::Start(offset as u64))
             .map_err(|e| format!("Failed to seek to strings: {}", e))?;
 
         // Read CQDB header
         let mut cqdb_magic = [0u8; 4];
-        reader.read_exact(&mut cqdb_magic)
+        reader
+            .read_exact(&mut cqdb_magic)
             .map_err(|e| format!("Failed to read CQDB magic: {}", e))?;
 
         // Check for CQDB magic "CQDB"
@@ -270,38 +307,46 @@ impl ModelLoader {
         }
 
         // CQDB header: flag (4) + bwd_size (4) + num_entries (4)
-        let _flag = reader.read_u32::<LittleEndian>()
+        let _flag = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read CQDB flag: {}", e))?;
-        let _bwd_size = reader.read_u32::<LittleEndian>()
+        let _bwd_size = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read CQDB bwd_size: {}", e))?;
-        let num_entries = reader.read_u32::<LittleEndian>()
+        let num_entries = reader
+            .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read CQDB num_entries: {}", e))?;
 
         // Read forward index
         let mut fwd_offsets = Vec::with_capacity(num_entries as usize);
         for _ in 0..num_entries {
-            let off = reader.read_u32::<LittleEndian>()
+            let off = reader
+                .read_u32::<LittleEndian>()
                 .map_err(|e| format!("Failed to read fwd offset: {}", e))?;
             fwd_offsets.push(off);
         }
 
         // Read strings
-        let base_offset = reader.stream_position()
-            .map_err(|e| format!("Failed to get position: {}", e))? as u32;
+        let base_offset = reader
+            .stream_position()
+            .map_err(|e| format!("Failed to get position: {}", e))?
+            as u32;
 
         for (i, &str_off) in fwd_offsets.iter().enumerate() {
             if i >= count as usize {
                 break;
             }
 
-            reader.seek(SeekFrom::Start((base_offset + str_off) as u64))
+            reader
+                .seek(SeekFrom::Start((base_offset + str_off) as u64))
                 .map_err(|e| format!("Failed to seek to string: {}", e))?;
 
             // Read null-terminated string
             let mut bytes = Vec::new();
             loop {
                 let mut byte = [0u8; 1];
-                reader.read_exact(&mut byte)
+                reader
+                    .read_exact(&mut byte)
                     .map_err(|e| format!("Failed to read string byte: {}", e))?;
                 if byte[0] == 0 {
                     break;
@@ -336,7 +381,8 @@ impl ModelLoader {
         use std::io::SeekFrom;
 
         // Seek to features offset
-        reader.seek(SeekFrom::Start(offset as u64))
+        reader
+            .seek(SeekFrom::Start(offset as u64))
             .map_err(|e| format!("Failed to seek to features: {}", e))?;
 
         // Initialize transition weights matrix
@@ -349,19 +395,23 @@ impl ModelLoader {
         // Read each feature (20 bytes each)
         for _ in 0..count {
             // Feature type (4 bytes): 0 = state, 1 = transition
-            let feat_type = reader.read_u32::<LittleEndian>()
+            let feat_type = reader
+                .read_u32::<LittleEndian>()
                 .map_err(|e| format!("Failed to read feature type: {}", e))?;
 
             // Source ID (4 bytes): attribute ID for state, from_label for transition
-            let source = reader.read_u32::<LittleEndian>()
+            let source = reader
+                .read_u32::<LittleEndian>()
                 .map_err(|e| format!("Failed to read source: {}", e))?;
 
             // Target ID (4 bytes): label ID for state, to_label for transition
-            let target = reader.read_u32::<LittleEndian>()
+            let target = reader
+                .read_u32::<LittleEndian>()
                 .map_err(|e| format!("Failed to read target: {}", e))?;
 
             // Weight (8 bytes, f64)
-            let weight = reader.read_f64::<LittleEndian>()
+            let weight = reader
+                .read_f64::<LittleEndian>()
                 .map_err(|e| format!("Failed to read weight: {}", e))?;
 
             match feat_type {
@@ -390,6 +440,7 @@ impl Default for ModelLoader {
 }
 
 /// CRFsuite file header structure.
+#[allow(dead_code)]
 #[derive(Debug)]
 struct CRFsuiteHeader {
     size: u32,
@@ -407,7 +458,6 @@ struct CRFsuiteHeader {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use std::io::Cursor;
 
     fn create_test_model() -> CRFModel {
         let mut model = CRFModel::with_labels(vec![
