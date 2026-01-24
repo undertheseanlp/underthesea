@@ -4,6 +4,13 @@ from underthesea.pipeline.sentiment import sentiment
 
 
 class TestSentiment(TestCase):
+    def test_labels_returns_list(self):
+        self.assertEqual(len(sentiment.labels), 2)
+
+    def test_labels_contains_expected_labels(self):
+        self.assertIn('positive', sentiment.labels)
+        self.assertIn('negative', sentiment.labels)
+
     def test_no_text(self):
         text = ""
         actual = sentiment(text)

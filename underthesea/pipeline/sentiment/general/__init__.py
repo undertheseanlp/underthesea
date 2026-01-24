@@ -29,3 +29,12 @@ def sentiment(X):
         return label
     except Exception:
         return None
+
+
+def get_labels():
+    """Get all available sentiment labels for the general classifier
+
+    Returns:
+        list: A list of all sentiment labels that the classifier can predict
+    """
+    return ['positive', 'negative']

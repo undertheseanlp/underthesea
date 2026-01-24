@@ -4,6 +4,14 @@ from underthesea.pipeline.sentiment import sentiment
 
 
 class TestSentiment(TestCase):
+    def test_bank_labels_returns_list(self):
+        self.assertGreater(len(sentiment.bank.labels), 0)
+
+    def test_bank_labels_contains_expected_labels(self):
+        expected_labels = ['CARD#negative', 'CARD#positive', 'MONEY_TRANSFER#negative']
+        for label in expected_labels:
+            self.assertIn(label, sentiment.bank.labels)
+
     def test_no_text(self):
         text = ""
         actual = sentiment(text)

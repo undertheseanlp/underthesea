@@ -74,3 +74,13 @@ def predict_text(model, text):
     confidence = top_predictions[0][1]
 
     return prediction, confidence, top_predictions
+
+
+def get_labels():
+    """Get all available sentiment labels for the bank classifier
+
+    Returns:
+        list: A list of all sentiment labels that the classifier can predict
+    """
+    classifier = _load_classifier()
+    return [str(label) for label in classifier.classes_]
