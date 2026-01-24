@@ -123,8 +123,41 @@ print(distribution)
 # Counter({'positive': 2, 'negative': 2, 'neutral': 1})
 ```
 
+## Accessing Available Labels
+
+You can access all available sentiment labels using the `labels` property:
+
+```python
+from underthesea import sentiment
+
+# Get labels for general domain
+sentiment.labels
+# ['positive', 'negative']
+
+# Get labels for bank domain
+sentiment.bank.labels
+# ['ACCOUNT#negative', 'CARD#negative', 'CARD#neutral', 'CARD#positive',
+#  'CUSTOMER_SUPPORT#negative', 'CUSTOMER_SUPPORT#neutral', 'CUSTOMER_SUPPORT#positive',
+#  'DISCOUNT#negative', 'DISCOUNT#neutral', 'DISCOUNT#positive', ...]
+```
+
+### Checking Valid Labels
+
+```python
+from underthesea import sentiment
+
+# Check if a result is a valid label
+result = sentiment("Sản phẩm rất tốt")
+print(result in sentiment.labels)  # True
+
+# Get all available aspect-sentiment combinations for bank
+print(f"Bank domain has {len(sentiment.bank.labels)} labels")
+```
+
 ## Notes
 
-- The general domain model classifies into positive/negative/neutral
+- The general domain model classifies into positive/negative
 - The bank domain model provides aspect-based sentiment
 - First call may take longer due to model loading
+- Use `sentiment.labels` to get all available labels for the general domain
+- Use `sentiment.bank.labels` to get all available labels for the bank domain

@@ -132,9 +132,44 @@ for doc in documents:
     print(f"{doc[:30]}... -> {category}")
 ```
 
+## Accessing Available Labels
+
+You can access all available category labels using the `labels` property:
+
+```python
+from underthesea import classify
+
+# Get labels for general domain
+classify.labels
+# ['chinh_tri_xa_hoi', 'doi_song', 'khoa_hoc', 'kinh_doanh', 'phap_luat',
+#  'suc_khoe', 'the_gioi', 'the_thao', 'van_hoa', 'vi_tinh']
+
+# Get labels for bank domain
+classify.bank.labels
+# ['ACCOUNT', 'CARD', 'CUSTOMER_SUPPORT', 'DISCOUNT', 'INTEREST_RATE',
+#  'INTERNET_BANKING', 'LOAN', 'MONEY_TRANSFER', 'OTHER', 'PAYMENT',
+#  'PROMOTION', 'SAVING', 'SECURITY', 'TRADEMARK']
+```
+
+### Checking Valid Labels
+
+```python
+from underthesea import classify
+
+# Check if a result is a valid label
+result = classify("Thị trường chứng khoán tăng mạnh")
+print(result in classify.labels)  # True
+
+# Iterate over available labels
+for label in classify.labels:
+    print(label)
+```
+
 ## Notes
 
 - The default model is trained on Vietnamese news data
 - The bank domain model is specialized for banking feedback
 - Prompt-based model uses OpenAI API and requires an API key
 - First call may take longer due to model loading
+- Use `classify.labels` to get all available categories for the default domain
+- Use `classify.bank.labels` to get all available categories for the bank domain
