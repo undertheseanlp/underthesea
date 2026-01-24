@@ -154,7 +154,7 @@ Where:
 
 ## Changelog
 
-### Version 9.2.0 (PR #877)
+### Version 9.1.4 (PR #879)
 - Removed NLTK dependency
 - Implemented custom Punkt-style sentence tokenizer
 - Converted model from pickle to JSON format

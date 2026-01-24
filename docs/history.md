@@ -2,6 +2,17 @@
 
 All notable changes to Underthesea are documented here.
 
+## 9.1.4 (2026-01-24)
+
+### Improvements
+
+- Remove NLTK dependency ([#879](https://github.com/undertheseanlp/underthesea/pull/879))
+  - Implement custom Punkt-style sentence tokenizer
+  - Convert pickle model to JSON format
+  - Remove unused Tree/TreeSentence classes from conll.py
+
+---
+
 ## 9.1.2 (2025-01-24)
 
 ### New Features
