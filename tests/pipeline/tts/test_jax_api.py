@@ -7,6 +7,7 @@ the deprecation of jax.tree_map in JAX v0.6.0.
 See: https://github.com/undertheseanlp/underthesea/issues/762
 """
 import unittest
+from pathlib import Path
 
 
 class TestJaxTreeMapAPI(unittest.TestCase):
@@ -83,6 +84,61 @@ class TestTTSModuleImport(unittest.TestCase):
             # Verify correct API is used
             self.assertIn("jax.tree.map", content,
                 f"Expected jax.tree.map in {filepath.name}")
+
+
+class TestLexiconEncoding(unittest.TestCase):
+    """Test that lexicon file is read with UTF-8 encoding.
+
+    See: https://github.com/undertheseanlp/underthesea/issues/727
+    """
+
+    def setUp(self):
+        self.lexicon_path = Path(__file__).parent.parent.parent.parent / \
+            "underthesea/pipeline/tts/viettts_/assets/infore/lexicon.txt"
+
+    def test_lexicon_file_exists(self):
+        """Test that the lexicon file exists."""
+        self.assertTrue(self.lexicon_path.exists(),
+            f"Lexicon file not found at {self.lexicon_path}")
+
+    def test_lexicon_cannot_be_read_with_cp1252(self):
+        """Test that lexicon file contains chars that fail with cp1252 (Windows default)."""
+        with open(self.lexicon_path, "rb") as f:
+            content = f.read()
+
+        with self.assertRaises(UnicodeDecodeError):
+            content.decode("cp1252")
+
+    def test_lexicon_can_be_read_with_utf8(self):
+        """Test that lexicon file can be read with UTF-8 encoding."""
+        with open(self.lexicon_path, encoding="utf-8") as f:
+            content = f.read()
+
+        self.assertGreater(len(content), 0)
+
+    def test_load_lexicon_uses_utf8(self):
+        """Test that load_lexicon function uses UTF-8 encoding."""
+        try:
+            from underthesea.pipeline.tts.viettts_.nat.text2mel import load_lexicon
+        except ImportError:
+            self.skipTest("TTS dependencies not installed (requires underthesea[voice])")
+
+        # This should not raise UnicodeDecodeError on any platform
+        lexicon = load_lexicon(self.lexicon_path)
+
+        self.assertIsInstance(lexicon, dict)
+        self.assertGreater(len(lexicon), 0)
+
+    def test_source_code_specifies_utf8_encoding(self):
+        """Test that text2mel.py specifies UTF-8 encoding when reading files."""
+        text2mel_path = Path(__file__).parent.parent.parent.parent / \
+            "underthesea/pipeline/tts/viettts_/nat/text2mel.py"
+
+        content = text2mel_path.read_text()
+
+        # Check that open() calls for text files specify encoding
+        self.assertIn('encoding="utf-8"', content,
+            "text2mel.py should specify UTF-8 encoding when reading text files")
 
 
 if __name__ == "__main__":
