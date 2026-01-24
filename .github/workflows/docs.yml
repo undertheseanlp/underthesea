@@ -64,8 +64,9 @@ jobs:
         run: |
           pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
 
-      - name: Build documentation
-        run: mkdocs build --strict
+      - name: Build documentation for PR preview
+        run: |
+          mkdocs build --strict --site-url "https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/"
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
