@@ -308,9 +308,16 @@ class DependencyParser(underthesea.modules.nn.Model):
         """
         if os.path.exists(path):
             state = torch.load(path, map_location='cpu', weights_only=False)
-        else:
-            path = PRETRAINED[path] if path in PRETRAINED else path
+        elif path in PRETRAINED:
+            url = PRETRAINED[path]
+            state = torch.hub.load_state_dict_from_url(url, map_location='cpu', weights_only=False)
+        elif path.startswith('http://') or path.startswith('https://'):
             state = torch.hub.load_state_dict_from_url(path, map_location='cpu', weights_only=False)
+        else:
+            raise FileNotFoundError(
+                f"Model not found at '{path}'. "
+                f"Please provide a valid local path, a URL, or a pretrained model name from: {list(PRETRAINED.keys())}"
+            )
 
         model = cls._init_model_with_state_dict(state)
         model.eval()
