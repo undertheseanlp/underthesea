@@ -1,4 +1,3 @@
-from underthesea import word_tokenize
 from underthesea.models.dependency_parser import DependencyParser
 
 uts_parser = None
@@ -12,6 +11,8 @@ def init_parser():
 
 
 def dependency_parse(text):
+    from underthesea import word_tokenize  # import here to avoid circular import
+
     sentence = word_tokenize(text)
     parser = init_parser()
     dataset = parser.predict([sentence])

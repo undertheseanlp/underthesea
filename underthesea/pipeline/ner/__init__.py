@@ -1,5 +1,3 @@
-from underthesea import chunk
-
 from .model_crf import CRFNERPredictor
 
 
@@ -34,6 +32,8 @@ def ner(sentence, format=None, deep=False):
     ('Liên Xô', 'Np', 'B-NP', 'B-LOC')]
     """
     if not deep:
+        from underthesea import chunk  # import here to avoid circular import
+
         sentence = chunk(sentence)
         crf_model = CRFNERPredictor.Instance()
         result = crf_model.predict(sentence, format)
