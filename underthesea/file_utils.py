@@ -20,14 +20,15 @@ DATASETS_FOLDER = join(UNDERTHESEA_FOLDER, "datasets")
 MODELS_FOLDER = join(UNDERTHESEA_FOLDER, "models")
 
 
-def cached_path(url_or_filename: str, cache_dir: Path) -> Path:
+def cached_path(url_or_filename: str, cache_dir: Path, cache_folder: Path = None) -> Path:
     """
     Given something that might be a URL (or might be a local path),
     determine which. If it's a URL, download the file and cache it, and
     return the path to the cached file. If it's already a local path,
     make sure the file exists and then return the path.
     """
-    dataset_cache = Path(UNDERTHESEA_FOLDER) / cache_dir
+    base_folder = cache_folder or Path(UNDERTHESEA_FOLDER)
+    dataset_cache = base_folder / cache_dir
 
     parsed = urlparse(url_or_filename)
 

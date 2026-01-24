@@ -1,4 +1,4 @@
-# CP_Vietnamese-VLC
+# UTS_VLC
 
 Vietnamese Legal Corpus (2026 Edition)
 
@@ -8,7 +8,7 @@ Vietnam's system of legal documents - Updated with laws passed through 2022-2025
 
 **Dataset:** [undertheseanlp/UTS_VLC](https://huggingface.co/datasets/undertheseanlp/UTS_VLC)
 
-### Splits
+## Splits
 
 | Split | Documents | Description |
 |-------|-----------|-------------|
@@ -16,7 +16,7 @@ Vietnam's system of legal documents - Updated with laws passed through 2022-2025
 | 2023  | 208       | Expanded corpus with processed text |
 | 2026  | 318       | Latest corpus with 2022-2025 laws |
 
-### Features
+## Features
 
 | Feature | Type | Description |
 |---------|------|-------------|
@@ -27,7 +27,9 @@ Vietnam's system of legal documents - Updated with laws passed through 2022-2025
 | content | string | Full text content |
 | content_length | int32 | Character count |
 
-### Usage
+## Usage
+
+### Load from HuggingFace
 
 ```python
 from datasets import load_dataset
@@ -46,7 +48,16 @@ laws = ds_2026.filter(lambda x: x["type"] == "law")
 land_law = ds_2026.filter(lambda x: "Đất đai" in x["title"])
 ```
 
-### Statistics
+### Load from Underthesea
+
+```python
+from underthesea import download_data
+
+# Download the corpus
+download_data("CP_Vietnamese_VLC_2026")
+```
+
+## Statistics
 
 | Metric | 2021 | 2023 | 2026 |
 |--------|------|------|------|
