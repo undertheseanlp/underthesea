@@ -1,0 +1,109 @@
+site_name: Underthesea
+site_url: https://underthesea.readthedocs.io/
+site_description: Open-source Vietnamese Natural Language Processing Toolkit
+site_author: Vu Anh
+repo_name: undertheseanlp/underthesea
+repo_url: https://github.com/undertheseanlp/underthesea
+
+theme:
+  name: material
+  logo: img/logo.png
+  favicon: img/logo.png
+  palette:
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_source: true
+            show_root_heading: true
+            heading_level: 2
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: installation.md
+      - Quick Start: quickstart.md
+  - User Guide:
+      - Concepts: user_guide/concepts.md
+      - Optional Dependencies: user_guide/optional_deps.md
+      - Models: user_guide/models.md
+  - Tutorials:
+      - Word Segmentation: tutorials/word_segmentation.md
+      - POS Tagging: tutorials/pos_tagging.md
+      - Named Entity Recognition: tutorials/ner.md
+      - Text Classification: tutorials/text_classification.md
+      - Sentiment Analysis: tutorials/sentiment_analysis.md
+      - Translation: tutorials/translation.md
+      - Text-to-Speech: tutorials/tts.md
+  - API Reference:
+      - Overview: api/index.md
+      - sent_tokenize: api/sent_tokenize.md
+      - text_normalize: api/text_normalize.md
+      - word_tokenize: api/word_tokenize.md
+      - pos_tag: api/pos_tag.md
+      - chunk: api/chunk.md
+      - dependency_parse: api/dependency_parse.md
+      - ner: api/ner.md
+      - classify: api/classify.md
+      - sentiment: api/sentiment.md
+      - translate: api/translate.md
+      - lang_detect: api/lang_detect.md
+      - say: api/say.md
+  - Developer:
+      - Contributing: developer/contributing.md
+      - Architecture: developer/architecture.md
+      - Releasing: developer/releasing.md
+  - Changelog: history.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/undertheseanlp/underthesea
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/undertheseanlp/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UC9Jv1Qg49uprg6SjkyAqs9A
+
+copyright: Copyright &copy; 2018 - 2025 Vu Anh
