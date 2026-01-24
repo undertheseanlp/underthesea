@@ -7,7 +7,7 @@ name = "underthesea"
 version = "9.0.0"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 license = "GPL-3.0"
 authors = [{ name = "Vu Anh", email = "anhv.ict91@gmail.com" }]
 dependencies = [
@@ -31,11 +31,11 @@ classifiers=[
     'Operating System :: Microsoft :: Windows',
     'Natural Language :: English',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
     'Programming Language :: Python :: 3.12',
     'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3.14',
 ]
 [project.urls]
 Homepage = "https://undertheseanlp.com/"
@@ -75,7 +75,7 @@ dev = [
 
 [tool.ruff]
 line-length = 100
-target-version = "py39"
+target-version = "py310"
 exclude = ["node_modules"]
 
 [tool.ruff.lint]
