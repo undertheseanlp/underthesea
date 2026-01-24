@@ -41,7 +41,10 @@ jobs:
           pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
 
       - name: Build documentation
-        run: mkdocs build --strict
+        run: |
+          # Set correct site_url for GitHub Pages
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/|" mkdocs.yml
+          mkdocs build --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -66,10 +69,10 @@ jobs:
 
       - name: Build documentation for PR preview
         run: |
+          # Set site_url for PR preview subdirectory
+          PR_SITE_URL="https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/"
+          sed -i "s|^site_url:.*|site_url: ${PR_SITE_URL}|" mkdocs.yml
           mkdocs build --strict
-          # Inject base tag to fix relative paths in subdirectory
-          BASE_URL="https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/"
-          find ./site -name '*.html' -exec sed -i 's|<head>|<head><base href="'"$BASE_URL"'">|' {} \;
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
