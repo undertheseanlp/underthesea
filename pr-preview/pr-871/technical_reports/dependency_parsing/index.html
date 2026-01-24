@@ -589,6 +589,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-results-on-vlsp2020-dp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Results on VLSP2020-DP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metrics Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training History
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison-with-other-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison with Other Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#pretrained-models" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -638,17 +699,6 @@
     <span class="md-ellipsis">
       
         Training Parameters
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#evaluation-metrics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation Metrics
       
     </span>
   </a>
@@ -1600,6 +1650,67 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Performance
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#benchmark-results-on-vlsp2020-dp" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Benchmark Results on VLSP2020-DP
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#metrics-description" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Metrics Description
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#training-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Training History
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison-with-other-methods" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison with Other Methods
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#pretrained-models" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1649,17 +1760,6 @@
     <span class="md-ellipsis">
       
         Training Parameters
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#evaluation-metrics" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Evaluation Metrics
       
     </span>
   </a>
@@ -1998,12 +2098,140 @@
 </span><span id="__span-1-19"><a id="__codelineno-1-19" name="__codelineno-1-19" href="#__codelineno-1-19"></a>    ├── sp_metric.py         # AttachmentMetric (UAS, LAS)
 </span><span id="__span-1-20"><a id="__codelineno-1-20" name="__codelineno-1-20" href="#__codelineno-1-20"></a>    └── sp_alg.py            # Eisner, MST algorithms
 </span></code></pre></div>
+<h2 id="performance">Performance<a class="headerlink" href="#performance" title="Permanent link">&para;</a></h2>
+<h3 id="benchmark-results-on-vlsp2020-dp">Benchmark Results on VLSP2020-DP<a class="headerlink" href="#benchmark-results-on-vlsp2020-dp" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+<th>UAS</th>
+<th>LAS</th>
+<th>UCM</th>
+<th>LCM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MaltParser (baseline)</td>
+<td>75.41%</td>
+<td>66.11%</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Biaffine Attention (v1)</td>
+<td>87.28%</td>
+<td>72.63%</td>
+<td>30.67%</td>
+<td>6.98%</td>
+</tr>
+<tr>
+<td><strong>vi-dp-v1a1 (current)</strong></td>
+<td><strong>87.10%</strong></td>
+<td><strong>80.00%</strong></td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="metrics-description">Metrics Description<a class="headerlink" href="#metrics-description" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>UAS</strong> (Unlabeled Attachment Score)</td>
+<td>Percentage of tokens with correct head</td>
+</tr>
+<tr>
+<td><strong>LAS</strong> (Labeled Attachment Score)</td>
+<td>Percentage of tokens with correct head AND relation label</td>
+</tr>
+<tr>
+<td><strong>UCM</strong> (Unlabeled Complete Match)</td>
+<td>Percentage of sentences with ALL heads correct</td>
+</tr>
+<tr>
+<td><strong>LCM</strong> (Labeled Complete Match)</td>
+<td>Percentage of sentences with ALL heads and labels correct</td>
+</tr>
+</tbody>
+</table>
+<h3 id="training-history">Training History<a class="headerlink" href="#training-history" title="Permanent link">&para;</a></h3>
+<p><strong>MaltParser Baseline (2020)</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Metric     | Precision |    Recall |  F1 Score
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>-----------+-----------+-----------+-----------
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>UAS        |     75.41 |     75.41 |     75.41
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>LAS        |     66.11 |     66.11 |     66.11
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>CLAS       |     62.70 |     62.17 |     62.43
+</span></code></pre></div></p>
+<p><strong>Biaffine Attention v1 (240 epochs, 2020)</strong>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>2020-11-29 23:05:58 Epoch 240 saved
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>dev:   - UCM: 30.67% LCM:  6.98% UAS: 87.28% LAS: 72.63%
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>test:  - UCM: 30.67% LCM:  6.98% UAS: 87.28% LAS: 72.63%
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>Training time: 33m 46s, 5.96s/epoch
+</span></code></pre></div></p>
+<h3 id="comparison-with-other-methods">Comparison with Other Methods<a class="headerlink" href="#comparison-with-other-methods" title="Permanent link">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Year</th>
+<th>UAS</th>
+<th>LAS</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MST Parser (N.L. Minh et al.)</td>
+<td>2008</td>
+<td>-</td>
+<td>-</td>
+<td>450 sentences corpus</td>
+</tr>
+<tr>
+<td>MaltParser (N.T. Luong et al.)</td>
+<td>2013</td>
+<td>-</td>
+<td>-</td>
+<td>Vietnamese treebank</td>
+</tr>
+<tr>
+<td>MaltParser (baseline)</td>
+<td>2020</td>
+<td>75.41%</td>
+<td>66.11%</td>
+<td>VLSP2020-DP</td>
+</tr>
+<tr>
+<td>Biaffine Attention</td>
+<td>2020</td>
+<td>87.28%</td>
+<td>72.63%</td>
+<td>VLSP2020-DP</td>
+</tr>
+<tr>
+<td>NLP@UIT (VLSP2019 winner)</td>
+<td>2019</td>
+<td>-</td>
+<td>-</td>
+<td>Ensemble model</td>
+</tr>
+</tbody>
+</table>
 <h2 id="pretrained-models">Pretrained Models<a class="headerlink" href="#pretrained-models" title="Permanent link">&para;</a></h2>
 <table>
 <thead>
 <tr>
 <th>Model</th>
 <th>Description</th>
+<th>UAS</th>
+<th>LAS</th>
 <th>Source</th>
 </tr>
 </thead>
@@ -2011,6 +2239,8 @@
 <tr>
 <td>vi-dp-v1a1</td>
 <td>Default Vietnamese dependency parser</td>
+<td>87.10%</td>
+<td>80.00%</td>
 <td>Trained on VLSP2020-DP</td>
 </tr>
 </tbody>
@@ -2023,27 +2253,27 @@
 <li><strong>VLSP2020_DP_SAMPLE</strong>: Small sample dataset for testing (auto-downloadable)</li>
 </ul>
 <h3 id="training-script">Training Script<a class="headerlink" href="#training-script" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.datasets.vlsp2020_dp</span><span class="w"> </span><span class="kn">import</span> <span class="n">VLSP2020_DP_SAMPLE</span>
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.models.dependency_parser</span><span class="w"> </span><span class="kn">import</span> <span class="n">DependencyParser</span>
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.modules.embeddings</span><span class="w"> </span><span class="kn">import</span> <span class="n">FieldEmbeddings</span><span class="p">,</span> <span class="n">CharacterEmbeddings</span>
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.trainers.dependency_parser_trainer</span><span class="w"> </span><span class="kn">import</span> <span class="n">DependencyParserTrainer</span>
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c1"># Load corpus</span>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="n">corpus</span> <span class="o">=</span> <span class="n">VLSP2020_DP_SAMPLE</span><span class="p">()</span>
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c1"># Initialize parser</span>
-</span><span id="__span-2-10"><a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="n">embeddings</span> <span class="o">=</span> <span class="p">[</span><span class="n">FieldEmbeddings</span><span class="p">(),</span> <span class="n">CharacterEmbeddings</span><span class="p">()]</span>
-</span><span id="__span-2-11"><a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a><span class="n">parser</span> <span class="o">=</span> <span class="n">DependencyParser</span><span class="p">(</span><span class="n">embeddings</span><span class="o">=</span><span class="n">embeddings</span><span class="p">,</span> <span class="n">init_pre_train</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</span><span id="__span-2-12"><a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
-</span><span id="__span-2-13"><a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="c1"># Train</span>
-</span><span id="__span-2-14"><a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="n">trainer</span> <span class="o">=</span> <span class="n">DependencyParserTrainer</span><span class="p">(</span><span class="n">parser</span><span class="p">,</span> <span class="n">corpus</span><span class="p">)</span>
-</span><span id="__span-2-15"><a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="n">trainer</span><span class="o">.</span><span class="n">train</span><span class="p">(</span>
-</span><span id="__span-2-16"><a id="__codelineno-2-16" name="__codelineno-2-16" href="#__codelineno-2-16"></a>    <span class="n">base_path</span><span class="o">=</span><span class="s2">&quot;path/to/save/model&quot;</span><span class="p">,</span>
-</span><span id="__span-2-17"><a id="__codelineno-2-17" name="__codelineno-2-17" href="#__codelineno-2-17"></a>    <span class="n">max_epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
-</span><span id="__span-2-18"><a id="__codelineno-2-18" name="__codelineno-2-18" href="#__codelineno-2-18"></a>    <span class="n">lr</span><span class="o">=</span><span class="mf">2e-3</span><span class="p">,</span>
-</span><span id="__span-2-19"><a id="__codelineno-2-19" name="__codelineno-2-19" href="#__codelineno-2-19"></a>    <span class="n">mu</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
-</span><span id="__span-2-20"><a id="__codelineno-2-20" name="__codelineno-2-20" href="#__codelineno-2-20"></a>    <span class="n">batch_size</span><span class="o">=</span><span class="mi">5000</span>
-</span><span id="__span-2-21"><a id="__codelineno-2-21" name="__codelineno-2-21" href="#__codelineno-2-21"></a><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.datasets.vlsp2020_dp</span><span class="w"> </span><span class="kn">import</span> <span class="n">VLSP2020_DP_SAMPLE</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.models.dependency_parser</span><span class="w"> </span><span class="kn">import</span> <span class="n">DependencyParser</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.modules.embeddings</span><span class="w"> </span><span class="kn">import</span> <span class="n">FieldEmbeddings</span><span class="p">,</span> <span class="n">CharacterEmbeddings</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.trainers.dependency_parser_trainer</span><span class="w"> </span><span class="kn">import</span> <span class="n">DependencyParserTrainer</span>
+</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
+</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1"># Load corpus</span>
+</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="n">corpus</span> <span class="o">=</span> <span class="n">VLSP2020_DP_SAMPLE</span><span class="p">()</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
+</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a><span class="c1"># Initialize parser</span>
+</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a><span class="n">embeddings</span> <span class="o">=</span> <span class="p">[</span><span class="n">FieldEmbeddings</span><span class="p">(),</span> <span class="n">CharacterEmbeddings</span><span class="p">()]</span>
+</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a><span class="n">parser</span> <span class="o">=</span> <span class="n">DependencyParser</span><span class="p">(</span><span class="n">embeddings</span><span class="o">=</span><span class="n">embeddings</span><span class="p">,</span> <span class="n">init_pre_train</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>
+</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a><span class="c1"># Train</span>
+</span><span id="__span-4-14"><a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a><span class="n">trainer</span> <span class="o">=</span> <span class="n">DependencyParserTrainer</span><span class="p">(</span><span class="n">parser</span><span class="p">,</span> <span class="n">corpus</span><span class="p">)</span>
+</span><span id="__span-4-15"><a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a><span class="n">trainer</span><span class="o">.</span><span class="n">train</span><span class="p">(</span>
+</span><span id="__span-4-16"><a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>    <span class="n">base_path</span><span class="o">=</span><span class="s2">&quot;path/to/save/model&quot;</span><span class="p">,</span>
+</span><span id="__span-4-17"><a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>    <span class="n">max_epochs</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>
+</span><span id="__span-4-18"><a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>    <span class="n">lr</span><span class="o">=</span><span class="mf">2e-3</span><span class="p">,</span>
+</span><span id="__span-4-19"><a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>    <span class="n">mu</span><span class="o">=</span><span class="mf">0.9</span><span class="p">,</span>
+</span><span id="__span-4-20"><a id="__codelineno-4-20" name="__codelineno-4-20" href="#__codelineno-4-20"></a>    <span class="n">batch_size</span><span class="o">=</span><span class="mi">5000</span>
+</span><span id="__span-4-21"><a id="__codelineno-4-21" name="__codelineno-4-21" href="#__codelineno-4-21"></a><span class="p">)</span>
 </span></code></pre></div>
 <h3 id="training-parameters">Training Parameters<a class="headerlink" href="#training-parameters" title="Permanent link">&para;</a></h3>
 <table>
@@ -2107,19 +2337,12 @@
 </tr>
 </tbody>
 </table>
-<h3 id="evaluation-metrics">Evaluation Metrics<a class="headerlink" href="#evaluation-metrics" title="Permanent link">&para;</a></h3>
-<ul>
-<li><strong>UAS (Unlabeled Attachment Score)</strong>: Percentage of tokens with correct head</li>
-<li><strong>LAS (Labeled Attachment Score)</strong>: Percentage of tokens with correct head and relation</li>
-<li><strong>UCM (Unlabeled Complete Match)</strong>: Percentage of sentences with all heads correct</li>
-<li><strong>LCM (Labeled Complete Match)</strong>: Percentage of sentences with all heads and relations correct</li>
-</ul>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
 <h3 id="basic-usage">Basic Usage<a class="headerlink" href="#basic-usage" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea</span><span class="w"> </span><span class="kn">import</span> <span class="n">dependency_parse</span>
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="n">result</span> <span class="o">=</span> <span class="n">dependency_parse</span><span class="p">(</span><span class="s2">&quot;Tôi là sinh viên Việt Nam&quot;</span><span class="p">)</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c1"># Output: [(&#39;Tôi&#39;, 3, &#39;nsubj&#39;), (&#39;là&#39;, 3, &#39;cop&#39;), (&#39;sinh viên&#39;, 0, &#39;root&#39;), (&#39;Việt Nam&#39;, 3, &#39;compound&#39;)]</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea</span><span class="w"> </span><span class="kn">import</span> <span class="n">dependency_parse</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">result</span> <span class="o">=</span> <span class="n">dependency_parse</span><span class="p">(</span><span class="s2">&quot;Tôi là sinh viên Việt Nam&quot;</span><span class="p">)</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># Output: [(&#39;Tôi&#39;, 3, &#39;nsubj&#39;), (&#39;là&#39;, 3, &#39;cop&#39;), (&#39;sinh viên&#39;, 0, &#39;root&#39;), (&#39;Việt Nam&#39;, 3, &#39;compound&#39;)]</span>
 </span></code></pre></div>
 <h3 id="output-format">Output Format<a class="headerlink" href="#output-format" title="Permanent link">&para;</a></h3>
 <p>Each tuple contains:
@@ -2127,13 +2350,13 @@
 - <strong>head</strong>: Index of the head token (0 = root)
 - <strong>relation</strong>: Dependency relation label</p>
 <h3 id="visualization">Visualization<a class="headerlink" href="#visualization" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.dependency_parse</span><span class="w"> </span><span class="kn">import</span> <span class="n">render</span><span class="p">,</span> <span class="n">display</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c1"># Render as SVG</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">svg</span> <span class="o">=</span> <span class="n">render</span><span class="p">(</span><span class="s2">&quot;Tôi yêu Việt Nam&quot;</span><span class="p">)</span>
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a><span class="c1"># Display in notebook</span>
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="n">display</span><span class="p">(</span><span class="s2">&quot;Tôi yêu Việt Nam&quot;</span><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.dependency_parse</span><span class="w"> </span><span class="kn">import</span> <span class="n">render</span><span class="p">,</span> <span class="n">display</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="c1"># Render as SVG</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="n">svg</span> <span class="o">=</span> <span class="n">render</span><span class="p">(</span><span class="s2">&quot;Tôi yêu Việt Nam&quot;</span><span class="p">)</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c1"># Display in notebook</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="n">display</span><span class="p">(</span><span class="s2">&quot;Tôi yêu Việt Nam&quot;</span><span class="p">)</span>
 </span></code></pre></div>
 <h2 id="pytorch-v2-compatibility-gh-706">PyTorch v2 Compatibility (GH-706)<a class="headerlink" href="#pytorch-v2-compatibility-gh-706" title="Permanent link">&para;</a></h2>
 <h3 id="issue">Issue<a class="headerlink" href="#issue" title="Permanent link">&para;</a></h3>
@@ -2144,31 +2367,31 @@
 <h3 id="fixes-applied">Fixes Applied<a class="headerlink" href="#fixes-applied" title="Permanent link">&para;</a></h3>
 <h4 id="1-torchload-with-weights_onlyfalse">1. torch.load with weights_only=False<a class="headerlink" href="#1-torchload-with-weights_onlyfalse" title="Permanent link">&para;</a></h4>
 <p>PyTorch 2.0+ requires explicit <code>weights_only</code> parameter. Since models contain pickled Python objects (transforms, vocabularies), we use <code>weights_only=False</code>:</p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># Before</span>
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">state</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># After</span>
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="n">state</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="s1">&#39;cpu&#39;</span><span class="p">,</span> <span class="n">weights_only</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># Before</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">state</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1"># After</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">state</span> <span class="o">=</span> <span class="n">torch</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">map_location</span><span class="o">=</span><span class="s1">&#39;cpu&#39;</span><span class="p">,</span> <span class="n">weights_only</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </span></code></pre></div>
 <p><strong>Files modified:</strong>
 - <code>underthesea/models/dependency_parser.py</code>
 - <code>underthesea/models/model.py</code>
 - <code>underthesea/modules/nn.py</code></p>
 <h4 id="2-replace-deprecated-apply_permutation">2. Replace deprecated apply_permutation<a class="headerlink" href="#2-replace-deprecated-apply_permutation" title="Permanent link">&para;</a></h4>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Before</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">torch.nn.modules.rnn</span><span class="w"> </span><span class="kn">import</span> <span class="n">apply_permutation</span>
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="n">h</span> <span class="o">=</span> <span class="n">apply_permutation</span><span class="p">(</span><span class="n">hx</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">permutation</span><span class="p">)</span>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="c1"># After</span>
-</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="n">h</span> <span class="o">=</span> <span class="n">hx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index_select</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">permutation</span><span class="p">)</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1"># Before</span>
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a><span class="kn">from</span><span class="w"> </span><span class="nn">torch.nn.modules.rnn</span><span class="w"> </span><span class="kn">import</span> <span class="n">apply_permutation</span>
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a><span class="n">h</span> <span class="o">=</span> <span class="n">apply_permutation</span><span class="p">(</span><span class="n">hx</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">permutation</span><span class="p">)</span>
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>
+</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a><span class="c1"># After</span>
+</span><span id="__span-8-6"><a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a><span class="n">h</span> <span class="o">=</span> <span class="n">hx</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index_select</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">permutation</span><span class="p">)</span>
 </span></code></pre></div>
 <p><strong>File modified:</strong> <code>underthesea/modules/base.py</code></p>
 <h4 id="3-fix-non-tuple-sequence-indexing">3. Fix non-tuple sequence indexing<a class="headerlink" href="#3-fix-non-tuple-sequence-indexing" title="Permanent link">&para;</a></h4>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># Before</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="n">out_tensor</span><span class="p">[</span><span class="n">i</span><span class="p">][[</span><span class="nb">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tensor</span><span class="o">.</span><span class="n">size</span><span class="p">()]]</span> <span class="o">=</span> <span class="n">tensor</span>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="c1"># After</span>
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="n">out_tensor</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="nb">tuple</span><span class="p">(</span><span class="nb">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">tensor</span><span class="o">.</span><span class="n">size</span><span class="p">())]</span> <span class="o">=</span> <span class="n">tensor</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="c1"># Before</span>
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a><span class="n">out_tensor</span><span class="p">[</span><span class="n">i</span><span class="p">][[</span><span class="nb">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">i</span><span class="p">)</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">tensor</span><span class="o">.</span><span class="n">size</span><span class="p">()]]</span> <span class="o">=</span> <span class="n">tensor</span>
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>
+</span><span id="__span-9-4"><a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a><span class="c1"># After</span>
+</span><span id="__span-9-5"><a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a><span class="n">out_tensor</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="nb">tuple</span><span class="p">(</span><span class="nb">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">s</span><span class="p">)</span> <span class="k">for</span> <span class="n">s</span> <span class="ow">in</span> <span class="n">tensor</span><span class="o">.</span><span class="n">size</span><span class="p">())]</span> <span class="o">=</span> <span class="n">tensor</span>
 </span></code></pre></div>
 <p><strong>File modified:</strong> <code>underthesea/utils/sp_fn.py</code></p>
 <h4 id="4-additional-fixes">4. Additional Fixes<a class="headerlink" href="#4-additional-fixes" title="Permanent link">&para;</a></h4>
@@ -2180,11 +2403,11 @@
 </ul>
 <h3 id="testing">Testing<a class="headerlink" href="#testing" title="Permanent link">&para;</a></h3>
 <p>CI test added to verify training works with PyTorch v2:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="c1"># Run training test</span>
-</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>tox<span class="w"> </span>-e<span class="w"> </span>train-dep
-</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>
-</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a><span class="c1"># Or directly</span>
-</span><span id="__span-8-5"><a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>python<span class="w"> </span>-m<span class="w"> </span>unittest<span class="w"> </span>tests.pipeline.dependency_parse.test_train
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="c1"># Run training test</span>
+</span><span id="__span-10-2"><a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>tox<span class="w"> </span>-e<span class="w"> </span>train-dep
+</span><span id="__span-10-3"><a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>
+</span><span id="__span-10-4"><a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a><span class="c1"># Or directly</span>
+</span><span id="__span-10-5"><a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>python<span class="w"> </span>-m<span class="w"> </span>unittest<span class="w"> </span>tests.pipeline.dependency_parse.test_train
 </span></code></pre></div>
 <h2 id="dependency-relations">Dependency Relations<a class="headerlink" href="#dependency-relations" title="Permanent link">&para;</a></h2>
 <p>Common Vietnamese dependency relations:</p>
