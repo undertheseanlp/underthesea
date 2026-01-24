@@ -11,6 +11,41 @@ from underthesea.corpus.data import Label, Sentence
 warnings.filterwarnings("ignore", ".*", UserWarning)
 
 
+def _mark_estimator_fitted(estimator):
+    """
+    Mark an estimator as fitted for sklearn >= 1.5 compatibility.
+
+    sklearn 1.5+ uses stricter check_is_fitted validation. Models saved with
+    older sklearn versions may not have the attributes that newer versions
+    check for. This function adds a __sklearn_is_fitted__ method to ensure
+    loaded models are recognized as fitted.
+
+    See: https://github.com/undertheseanlp/underthesea/issues/731
+    """
+    if not hasattr(estimator, "__sklearn_is_fitted__"):
+        estimator.__sklearn_is_fitted__ = lambda: True
+
+
+def _mark_pipeline_fitted(pipeline):
+    """
+    Mark all components in a sklearn Pipeline as fitted.
+
+    Recursively marks all transformers and estimators in the pipeline
+    as fitted for sklearn >= 1.5 compatibility.
+    """
+    _mark_estimator_fitted(pipeline)
+
+    # Mark each step in the pipeline
+    for _, step in pipeline.steps:
+        if step is None:
+            continue
+        _mark_estimator_fitted(step)
+
+        # Handle nested components (e.g., TfidfVectorizer contains TfidfTransformer)
+        if hasattr(step, '_tfidf'):
+            _mark_estimator_fitted(step._tfidf)
+
+
 class Model:
     pass
 
@@ -73,6 +108,8 @@ class TextClassifier(Model):
                     classifier.multilabel = True
                     classifier.y_encoder = joblib.load(join(model_folder, "y_encoder.joblib"))
             classifier.pipeline = joblib.load(join(model_folder, "pipeline.joblib"))
+            # GH-731: Mark pipeline as fitted for sklearn >= 1.5 compatibility
+            _mark_pipeline_fitted(classifier.pipeline)
 
             return classifier
 
