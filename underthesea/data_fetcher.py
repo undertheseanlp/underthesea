@@ -38,46 +38,53 @@ class NLPData(Enum):
 
 class DataFetcher:
     @staticmethod
-    def download_raw_file_to_cache(repo_data):
+    def download_raw_file_to_cache(repo_data, base_folder=None):
         url = repo_data["url"]
         url_filename = repo_data["url_filename"]
         cache_dir = repo_data["cache_dir"]
         filepath = repo_data["filepath"]
-        cached_path(url, cache_dir=cache_dir)
+        base_folder = base_folder or Path(UNDERTHESEA_FOLDER)
+        cached_path(url, cache_dir=cache_dir, cache_folder=base_folder)
         shutil.move(
-            Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename,
-            Path(UNDERTHESEA_FOLDER) / cache_dir / filepath,
+            base_folder / cache_dir / url_filename,
+            base_folder / cache_dir / filepath,
         )
 
     @staticmethod
-    def download_zip_file_to_cache(repo_data):
+    def download_zip_file_to_cache(repo_data, base_folder=None):
         url = repo_data["url"]
         cache_dir = repo_data["cache_dir"]
         url_filename = repo_data["url_filename"]
-        cached_path(url, cache_dir=cache_dir)
-        filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / url_filename
-        cache_folder = Path(UNDERTHESEA_FOLDER) / cache_dir
+        base_folder = base_folder or Path(UNDERTHESEA_FOLDER)
+        cached_path(url, cache_dir=cache_dir, cache_folder=base_folder)
+        filepath = base_folder / cache_dir / url_filename
+        cache_folder = base_folder / cache_dir
         with zipfile.ZipFile(filepath) as zip:
             zip.extractall(cache_folder)
         os.remove(filepath)
 
     @staticmethod
-    def download_data(data, url):
+    def download_data(data, url, output_folder=None):
         if data not in REPO:
             print(f"No matching distribution found for '{data}'")
             return
-        repo_data = REPO[data]
+        repo_data = REPO[data].copy()
         if "url" in repo_data:
             url = repo_data["url"]
-        filepath = REPO[data]["filepath"]
-        cache_dir = REPO[data]["cache_dir"]
-        filepath = Path(UNDERTHESEA_FOLDER) / cache_dir / filepath
+        filepath = repo_data["filepath"]
+        cache_dir = repo_data["cache_dir"]
+
+        # Use custom output folder if specified
+        base_folder = Path(output_folder) if output_folder else Path(UNDERTHESEA_FOLDER)
+        repo_data["_base_folder"] = base_folder
+
+        filepath = base_folder / cache_dir / filepath
         if Path(filepath).exists():
             print(f"Resource {data} is already existed in: {filepath}")
             return
 
         if data in {"VNESES", "VNTQ_SMALL", "VNTQ_BIG"}:
-            DataFetcher.download_raw_file_to_cache(repo_data)
+            DataFetcher.download_raw_file_to_cache(repo_data, base_folder)
 
         zip_datasets = [
             "VNTC",
@@ -104,7 +111,7 @@ class DataFetcher:
                     print(f"\n{MISS_URL_ERROR}")
                     return
                 repo_data["url"] = url
-            DataFetcher.download_zip_file_to_cache(repo_data)
+            DataFetcher.download_zip_file_to_cache(repo_data, base_folder)
         print(f"Resource {data} is downloaded in {filepath} folder")
 
     @staticmethod

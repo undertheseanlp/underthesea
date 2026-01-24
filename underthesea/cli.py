@@ -49,8 +49,9 @@ def list_data(all):
 @main.command()
 @click.argument('dataset', required=True)
 @click.argument('url', required=False)
-def download_data(dataset, url):
-    DataFetcher.download_data(dataset, url)
+@click.option('-o', '--output-folder', required=False, help='Output folder for downloaded data')
+def download_data(dataset, url, output_folder):
+    DataFetcher.download_data(dataset, url, output_folder)
 
 
 @main.command()
