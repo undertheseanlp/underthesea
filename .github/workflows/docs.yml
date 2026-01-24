@@ -70,9 +70,15 @@ jobs:
       - name: Build documentation for PR preview
         run: |
           # Set site_url for PR preview subdirectory
-          PR_SITE_URL="https://undertheseanlp.github.io/underthesea/pr-preview/pr-${{ github.event.pull_request.number }}/"
-          sed -i "s|^site_url:.*|site_url: ${PR_SITE_URL}|" mkdocs.yml
+          PR_NUM="${{ github.event.pull_request.number }}"
+          PR_BASE_PATH="/underthesea/pr-preview/pr-${PR_NUM}"
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io${PR_BASE_PATH}/|" mkdocs.yml
           mkdocs build --strict
+
+          # Fix absolute paths in generated files to use PR preview path
+          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|href=\"/|href=\"${PR_BASE_PATH}/|g" {} \;
+          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|src=\"/|src=\"${PR_BASE_PATH}/|g" {} \;
+          find ./site -type f -name '*.html' -exec sed -i "s|content=\"/|content=\"${PR_BASE_PATH}/|g" {} \;
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
