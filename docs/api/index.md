@@ -27,7 +27,7 @@ This section provides complete API documentation for all Underthesea functions.
 | Function | Description | Install |
 |----------|-------------|---------|
 | [`lang_detect`](lang_detect.md) | Language detection | `[langdetect]` |
-| [`say`](say.md) | Text-to-speech | `[deep]` |
+| [`tts`](tts.md) | Text-to-speech | `[voice]` |
 
 ## Quick Import
 

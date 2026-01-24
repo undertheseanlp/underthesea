@@ -29,9 +29,9 @@ def download_model(model):
 
 @main.command()
 @click.argument('text', required=True)
-def say(text):
-    from underthesea.pipeline.say import say as underthesea_say
-    underthesea_say(text, play=True)
+def tts(text):
+    from underthesea.pipeline.tts import tts as underthesea_tts
+    underthesea_tts(text, play=True)
 
 
 @main.command()

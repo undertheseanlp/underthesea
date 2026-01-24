@@ -66,7 +66,7 @@ underthesea download-data VNTC      # Download a dataset
   - `dependency_parse/` - Dependency parsing (requires `[deep]` install)
   - `lang_detect/` - Language detection (requires `[langdetect]` install)
   - `translate/` - Vietnamese-English translation (requires `[deep]` install)
-  - `say/` - Text-to-speech (requires `[voice]` install)
+  - `tts/` - Text-to-speech (requires `[voice]` install)
 
 - **`models/`** - Model implementations (CRF taggers, classifiers)
 - **`datasets/`** - Built-in datasets and stopwords

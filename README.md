@@ -349,7 +349,7 @@ Usage examples in script
 </details>
 
 <details>
-<summary><b><a href="">Say 🗣️</a></b> - Converting written text into spoken audio
+<summary><b><a href="">Text-to-Speech 🗣️</a></b> - Converting written text into spoken audio
 <code>⚛️</code>
 </summary>
 
@@ -367,16 +367,16 @@ Install extend dependencies and models
 Usage examples in script
 
     ```python
-    >>> from underthesea.pipeline.say import say
-    
-    >>> say("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    >>> from underthesea.pipeline.tts import tts
+
+    >>> tts("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
     A new audio file named `sound.wav` will be generated.
     ```
 
 Usage examples in command line
 
     ```sh
-    $ underthesea say "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
+    $ underthesea tts "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
     ```
 </details>
 
