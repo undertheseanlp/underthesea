@@ -86,7 +86,7 @@ nav:
       - Contributing: developer/contributing.md
       - Architecture: developer/architecture.md
       - Releasing: developer/releasing.md
-  - Changelog: ../CHANGELOG.md
+  - Changelog: CHANGELOG.md
 
 extra:
   social:
