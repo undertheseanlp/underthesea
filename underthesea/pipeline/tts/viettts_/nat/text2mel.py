@@ -16,7 +16,7 @@ from .model import AcousticModel, DurationModel
 
 
 def load_lexicon(fn):
-    lines = open(fn, "r").readlines()
+    lines = open(fn, "r", encoding="utf-8").readlines()
     lines = [l.lower().strip().split("\t") for l in lines]
     return dict(lines)
 
