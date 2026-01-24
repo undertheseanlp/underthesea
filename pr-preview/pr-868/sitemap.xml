@@ -45,10 +45,6 @@
          <lastmod>2026-01-24</lastmod>
     </url>
     <url>
-         <loc>https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/say/</loc>
-         <lastmod>2026-01-24</lastmod>
-    </url>
-    <url>
          <loc>https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/sent_tokenize/</loc>
          <lastmod>2026-01-24</lastmod>
     </url>
@@ -62,6 +58,10 @@
     </url>
     <url>
          <loc>https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/translate/</loc>
+         <lastmod>2026-01-24</lastmod>
+    </url>
+    <url>
+         <loc>https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/tts/</loc>
          <lastmod>2026-01-24</lastmod>
     </url>
     <url>

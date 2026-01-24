@@ -12,7 +12,7 @@
         <meta name="author" content="Vu Anh">
       
       
-        <link rel="canonical" href="https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/say/">
+        <link rel="canonical" href="https://undertheseanlp.github.io/underthesea/pr-preview/pr-868/api/tts/">
       
       
         <link rel="prev" href="../lang_detect/">
@@ -29,7 +29,7 @@
     
     
       
-        <title>say - Underthesea</title>
+        <title>tts - Underthesea</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#say" class="md-skip">
+        <a href="#tts" class="md-skip">
           Skip to content
         </a>
       
@@ -115,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              say
+              tts
             
           </span>
         </div>
@@ -1477,7 +1477,7 @@
   <span class="md-ellipsis">
     
   
-    say
+    tts
   
 
     
@@ -1495,7 +1495,7 @@
   <span class="md-ellipsis">
     
   
-    say
+    tts
   
 
     
@@ -2064,7 +2064,7 @@
   
 
 
-<h1 id="say">say<a class="headerlink" href="#say" title="Permanent link">&para;</a></h1>
+<h1 id="tts">tts<a class="headerlink" href="#tts" title="Permanent link">&para;</a></h1>
 <p>Convert Vietnamese text to speech.</p>
 <div class="admonition note">
 <p class="admonition-title">Requires Additional Setup</p>
@@ -2074,14 +2074,14 @@
 </span></code></pre></div></p>
 </div>
 <h2 id="usage">Usage<a class="headerlink" href="#usage" title="Permanent link">&para;</a></h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.say</span><span class="w"> </span><span class="kn">import</span> <span class="n">say</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.tts</span><span class="w"> </span><span class="kn">import</span> <span class="n">tts</span>
 </span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;Xin chào Việt Nam&quot;</span>
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">say</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="n">tts</span><span class="p">(</span><span class="n">text</span><span class="p">)</span>
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="c1"># Generates sound.wav in current directory</span>
 </span></code></pre></div>
 <h2 id="function-signature">Function Signature<a class="headerlink" href="#function-signature" title="Permanent link">&para;</a></h2>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">say</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">output_file</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;sound.wav&quot;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="k">def</span><span class="w"> </span><span class="nf">tts</span><span class="p">(</span><span class="n">text</span><span class="p">:</span> <span class="nb">str</span><span class="p">,</span> <span class="n">outfile</span><span class="p">:</span> <span class="nb">str</span> <span class="o">=</span> <span class="s2">&quot;sound.wav&quot;</span><span class="p">,</span> <span class="n">play</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">False</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">tuple</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">ndarray</span><span class="p">]</span>
 </span></code></pre></div>
 <h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">&para;</a></h2>
 <table>
@@ -2101,10 +2101,16 @@
 <td>The Vietnamese text to convert to speech</td>
 </tr>
 <tr>
-<td><code>output_file</code></td>
+<td><code>outfile</code></td>
 <td><code>str</code></td>
 <td><code>"sound.wav"</code></td>
 <td>Output audio file path</td>
+</tr>
+<tr>
+<td><code>play</code></td>
+<td><code>bool</code></td>
+<td><code>False</code></td>
+<td>Whether to play audio after generation</td>
 </tr>
 </tbody>
 </table>
@@ -2118,31 +2124,31 @@
 </thead>
 <tbody>
 <tr>
-<td><code>None</code></td>
-<td>Writes audio to file</td>
+<td><code>tuple[int, np.ndarray]</code></td>
+<td>Sample rate (16000) and audio waveform array</td>
 </tr>
 </tbody>
 </table>
 <h2 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h2>
 <h3 id="basic-usage">Basic Usage<a class="headerlink" href="#basic-usage" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.say</span><span class="w"> </span><span class="kn">import</span> <span class="n">say</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.tts</span><span class="w"> </span><span class="kn">import</span> <span class="n">tts</span>
 </span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>
 </span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="c1"># Generate speech</span>
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">say</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
 </span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="c1"># Creates sound.wav</span>
 </span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
 </span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="c1"># Custom output file</span>
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="n">say</span><span class="p">(</span><span class="s2">&quot;Hà Nội là thủ đô của Việt Nam&quot;</span><span class="p">,</span> <span class="n">output_file</span><span class="o">=</span><span class="s2">&quot;hanoi.wav&quot;</span><span class="p">)</span>
+</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Hà Nội là thủ đô của Việt Nam&quot;</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="s2">&quot;hanoi.wav&quot;</span><span class="p">)</span>
+</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>
+</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="c1"># Generate and play immediately</span>
+</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Xin chào&quot;</span><span class="p">,</span> <span class="n">play</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </span></code></pre></div>
 <h3 id="command-line-usage">Command Line Usage<a class="headerlink" href="#command-line-usage" title="Permanent link">&para;</a></h3>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>underthesea<span class="w"> </span>say<span class="w"> </span><span class="s2">&quot;Xin chào Việt Nam&quot;</span>
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1"># Creates sound.wav</span>
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>underthesea<span class="w"> </span>say<span class="w"> </span><span class="s2">&quot;Hà Nội là thủ đô&quot;</span><span class="w"> </span>-o<span class="w"> </span>output.wav
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c1"># Creates output.wav</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>underthesea<span class="w"> </span>tts<span class="w"> </span><span class="s2">&quot;Xin chào Việt Nam&quot;</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c1"># Creates sound.wav and plays it</span>
 </span></code></pre></div>
 <h3 id="generating-multiple-audio-files">Generating Multiple Audio Files<a class="headerlink" href="#generating-multiple-audio-files" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.say</span><span class="w"> </span><span class="kn">import</span> <span class="n">say</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.tts</span><span class="w"> </span><span class="kn">import</span> <span class="n">tts</span>
 </span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>
 </span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="n">sentences</span> <span class="o">=</span> <span class="p">[</span>
 </span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    <span class="p">(</span><span class="s2">&quot;Xin chào&quot;</span><span class="p">,</span> <span class="s2">&quot;hello.wav&quot;</span><span class="p">),</span>
@@ -2151,15 +2157,15 @@
 </span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="p">]</span>
 </span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
 </span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="k">for</span> <span class="n">text</span><span class="p">,</span> <span class="n">filename</span> <span class="ow">in</span> <span class="n">sentences</span><span class="p">:</span>
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>    <span class="n">say</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">output_file</span><span class="o">=</span><span class="n">filename</span><span class="p">)</span>
+</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>    <span class="n">tts</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="n">filename</span><span class="p">)</span>
 </span><span id="__span-5-11"><a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Generated: </span><span class="si">{</span><span class="n">filename</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
 </span></code></pre></div>
 <h3 id="playing-audio-with-external-library">Playing Audio (with external library)<a class="headerlink" href="#playing-audio-with-external-library" title="Permanent link">&para;</a></h3>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.say</span><span class="w"> </span><span class="kn">import</span> <span class="n">say</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.tts</span><span class="w"> </span><span class="kn">import</span> <span class="n">tts</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="kn">import</span><span class="w"> </span><span class="nn">subprocess</span>
 </span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
 </span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1"># Generate audio</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="n">say</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
 </span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>
 </span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="c1"># Play audio (macOS)</span>
 </span><span id="__span-6-8"><a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a><span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="s2">&quot;afplay&quot;</span><span class="p">,</span> <span class="s2">&quot;sound.wav&quot;</span><span class="p">])</span>
@@ -2170,7 +2176,7 @@
 <h2 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Uses the VietTTS model for high-quality Vietnamese speech synthesis</li>
-<li>Output format is WAV audio</li>
+<li>Output format is WAV audio at 16kHz sample rate</li>
 <li>First call may take longer due to model loading</li>
 <li>Requires downloading the TTS model before first use</li>
 <li>Credits: Based on <a href="https://github.com/ntt123/vietTTS">NTT123/vietTTS</a></li>

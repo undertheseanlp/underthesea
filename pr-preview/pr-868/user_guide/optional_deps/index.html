@@ -1657,14 +1657,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../../api/say/" class="md-nav__link">
+      <a href="../../api/tts/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    say
+    tts
   
 
     
@@ -2143,7 +2143,7 @@
 </span></code></pre></div>
 <p><strong>Features:</strong></p>
 <ul>
-<li><code>say</code> - Vietnamese text-to-speech</li>
+<li><code>tts</code> - Vietnamese text-to-speech</li>
 </ul>
 <p><strong>Dependencies:</strong></p>
 <ul>
@@ -2156,14 +2156,14 @@
 <li>playsound3</li>
 </ul>
 <p><strong>Example:</strong></p>
-<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.say</span><span class="w"> </span><span class="kn">import</span> <span class="n">say</span>
+<div class="language-python highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="kn">from</span><span class="w"> </span><span class="nn">underthesea.pipeline.tts</span><span class="w"> </span><span class="kn">import</span> <span class="n">tts</span>
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="c1"># Generate speech</span>
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">say</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Xin chào Việt Nam&quot;</span><span class="p">)</span>
 </span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="c1"># Creates sound.wav in current directory</span>
 </span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>
 </span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a><span class="c1"># Custom output file</span>
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="n">say</span><span class="p">(</span><span class="s2">&quot;Hà Nội là thủ đô của Việt Nam&quot;</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="s2">&quot;hanoi.wav&quot;</span><span class="p">)</span>
+</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a><span class="n">tts</span><span class="p">(</span><span class="s2">&quot;Hà Nội là thủ đô của Việt Nam&quot;</span><span class="p">,</span> <span class="n">outfile</span><span class="o">=</span><span class="s2">&quot;hanoi.wav&quot;</span><span class="p">)</span>
 </span></code></pre></div>
 <h2 id="prompt-package">Prompt Package<a class="headerlink" href="#prompt-package" title="Permanent link">&para;</a></h2>
 <p>For OpenAI-powered classification:</p>
