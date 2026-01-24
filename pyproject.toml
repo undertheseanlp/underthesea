@@ -91,6 +91,8 @@ select = [
 ignore = [
     "E501",  # line-too-long (handled by formatter)
     "W605",  # invalid-escape-sequence (many regex patterns)
+    "UP007", # non-pep604-annotation (Union[X, Y] -> X | Y, keep for compatibility)
+    "B905",  # zip-without-explicit-strict (strict= added in Python 3.10)
 ]
 
 [tool.ruff.lint.mccabe]
