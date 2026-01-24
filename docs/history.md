@@ -4,28 +4,34 @@ All notable changes to Underthesea are documented here.
 
 ## 9.1.4 (2026-01-24)
 
+### New Features
+
+- Implement Logistic Regression library in Rust ([#878](https://github.com/undertheseanlp/underthesea/pull/878))
+- Implement CRF library in Rust ([#876](https://github.com/undertheseanlp/underthesea/pull/876))
+- Add dependency tree visualization ([#867](https://github.com/undertheseanlp/underthesea/pull/867))
+- Add `labels` property to `classify` and `sentiment` functions ([#865](https://github.com/undertheseanlp/underthesea/pull/865))
+
 ### Improvements
 
 - Remove NLTK dependency ([#879](https://github.com/undertheseanlp/underthesea/pull/879))
-  - Implement custom Punkt-style sentence tokenizer
-  - Convert pickle model to JSON format
-  - Remove unused Tree/TreeSentence classes from conll.py
+- Support PyTorch v2 for dependency parsing ([#871](https://github.com/undertheseanlp/underthesea/pull/871))
+- Update CP_Vietnamese-VLC README with HuggingFace dataset ([#872](https://github.com/undertheseanlp/underthesea/pull/872))
+- Migrate documentation to MkDocs with Material theme ([#863](https://github.com/undertheseanlp/underthesea/pull/863))
+
+### Bug Fixes
+
+- Fix remaining Dependabot security vulnerabilities ([#875](https://github.com/undertheseanlp/underthesea/pull/875))
+- Fix Dependabot security vulnerabilities in frontend dependencies ([#874](https://github.com/undertheseanlp/underthesea/pull/874))
+- Fix ValueError when loading DependencyParser from non-existent path ([#873](https://github.com/undertheseanlp/underthesea/pull/873))
+- Fix KeyError in Sentence.__getattr__ ([#870](https://github.com/undertheseanlp/underthesea/pull/870))
+- Fix TTS UnicodeDecodeError on Windows ([#869](https://github.com/undertheseanlp/underthesea/pull/869))
+- Fix underthesea[voice] installation ([#868](https://github.com/undertheseanlp/underthesea/pull/868))
+- Fix sklearn >= 1.5 compatibility for loaded models ([#866](https://github.com/undertheseanlp/underthesea/pull/866))
+- Fix JAX API deprecation in say module ([#864](https://github.com/undertheseanlp/underthesea/pull/864))
 
 ---
 
-## 9.1.2 (2025-01-24)
-
-### New Features
-
-- Add `labels` property to `classify` and `sentiment` functions ([#865](https://github.com/undertheseanlp/underthesea/pull/865))
-  - `classify.labels` - Get all available classification labels
-  - `classify.bank.labels` - Get bank domain classification labels
-  - `sentiment.labels` - Get all available sentiment labels
-  - `sentiment.bank.labels` - Get bank domain sentiment labels
-
----
-
-## 9.0.0 (2025-01-XX)
+## 9.1.0 (2026-01-24)
 
 ### New Features
 
@@ -35,7 +41,10 @@ All notable changes to Underthesea are documented here.
 
 ### Improvements
 
+- Support Python 3.14, deprecate Python 3.9 ([#862](https://github.com/undertheseanlp/underthesea/pull/862))
 - Migrated from Flake8/Pylint to Ruff for linting ([#857](https://github.com/undertheseanlp/underthesea/pull/857))
+- Add English to Vietnamese translation example in README ([#858](https://github.com/undertheseanlp/underthesea/pull/858))
+- Fix missing sdist (tar.gz) on PyPI for underthesea_core ([#859](https://github.com/undertheseanlp/underthesea/pull/859))
 
 ---
 
