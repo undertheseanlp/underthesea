@@ -1,4 +1,4 @@
-# UTS_VLC_2026
+# UTS_VLC
 
 Vietnamese Legal Corpus (2026 Edition)
 

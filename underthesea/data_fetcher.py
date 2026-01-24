@@ -96,6 +96,7 @@ class DataFetcher:
             "UIT_ABSA_RESTAURANT",
             "UIT_ABSA_HOTEL",
             "CP_Vietnamese_VLC_v2_2022",
+            "CP_Vietnamese_VLC_2026",
         ]
         if data in set(zip_datasets):
             if repo_data["license"] == "Close":

@@ -79,7 +79,7 @@ nav:
       - lang_detect: api/lang_detect.md
       - tts: api/tts.md
   - Datasets:
-      - UTS_VLC_2026: datasets/UTS_VLC_2026.md
+      - UTS_VLC: datasets/UTS_VLC.md
   - Developer:
       - Contributing: developer/contributing.md
       - Architecture: developer/architecture.md
