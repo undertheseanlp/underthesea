@@ -1,6 +1,5 @@
 import torch
 import torch.nn as nn
-from torch.nn.modules.rnn import apply_permutation
 from torch.nn.utils.rnn import PackedSequence, pack_padded_sequence
 
 
@@ -190,8 +189,8 @@ class BiLSTM(nn.Module):
     def permute_hidden(self, hx, permutation):
         if permutation is None:
             return hx
-        h = apply_permutation(hx[0], permutation)
-        c = apply_permutation(hx[1], permutation)
+        h = hx[0].index_select(0, permutation)
+        c = hx[1].index_select(0, permutation)
 
         return h, c
 

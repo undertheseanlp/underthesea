@@ -74,6 +74,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         super().__init__()
         self.embed = embed
         self.feat = feat
+        self.bert = bert
         self.embeddings = embeddings
         if len(self.embeddings) > 0:
             print(self.embeddings[0])
@@ -275,7 +276,7 @@ class DependencyParser(underthesea.modules.nn.Model):
         model = DependencyParser(
             n_words=args['n_words'],
             n_feats=args['n_feats'],
-            n_rels=args['n_feats'],
+            n_rels=args['n_rels'],
             pad_index=args['pad_index'],
             unk_index=args['unk_index'],
             # bos_index=args.bos_index,
@@ -306,10 +307,10 @@ class DependencyParser(underthesea.modules.nn.Model):
             >>> # parser = DependencyParser.load('./tmp/resources/parsers/dp')
         """
         if os.path.exists(path):
-            state = torch.load(path)
+            state = torch.load(path, map_location='cpu', weights_only=False)
         else:
             path = PRETRAINED[path] if path in PRETRAINED else path
-            state = torch.hub.load_state_dict_from_url(path)
+            state = torch.hub.load_state_dict_from_url(path, map_location='cpu', weights_only=False)
 
         model = cls._init_model_with_state_dict(state)
         model.eval()
