@@ -151,20 +151,6 @@ classify.bank.labels
 #  'PROMOTION', 'SAVING', 'SECURITY', 'TRADEMARK']
 ```
 
-### Checking Valid Labels
-
-```python
-from underthesea import classify
-
-# Check if a result is a valid label
-result = classify("Thị trường chứng khoán tăng mạnh")
-print(result in classify.labels)  # True
-
-# Iterate over available labels
-for label in classify.labels:
-    print(label)
-```
-
 ## Notes
 
 - The default model is trained on Vietnamese news data

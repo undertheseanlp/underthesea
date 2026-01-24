@@ -141,19 +141,6 @@ sentiment.bank.labels
 #  'DISCOUNT#negative', 'DISCOUNT#neutral', 'DISCOUNT#positive', ...]
 ```
 
-### Checking Valid Labels
-
-```python
-from underthesea import sentiment
-
-# Check if a result is a valid label
-result = sentiment("Sản phẩm rất tốt")
-print(result in sentiment.labels)  # True
-
-# Get all available aspect-sentiment combinations for bank
-print(f"Bank domain has {len(sentiment.bank.labels)} labels")
-```
-
 ## Notes
 
 - The general domain model classifies into positive/negative
