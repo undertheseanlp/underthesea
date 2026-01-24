@@ -452,8 +452,7 @@ impl PyLRClassifier {
     /// Load a model from file
     #[staticmethod]
     pub fn load(path: String) -> PyResult<Self> {
-        let classifier =
-            LRClassifier::load(path).map_err(pyo3::exceptions::PyIOError::new_err)?;
+        let classifier = LRClassifier::load(path).map_err(pyo3::exceptions::PyIOError::new_err)?;
         Ok(Self { classifier })
     }
 
