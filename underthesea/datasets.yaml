@@ -110,6 +110,15 @@ DI_Vietnamese-UVD:
   filepath: ''
   url: https://github.com/undertheseanlp/underthesea/releases/download/resources/DI_Vietnamese_UVD_v1_2021.zip
   url_filename: DI_Vietnamese_UVD_v1_2021.zip
+UTS_Dictionary:
+  cache_dir: datasets/UTS_Dictionary
+  type: Dictionary
+  license: Open
+  year: 2023
+  filepath: ''
+  url: https://huggingface.co/datasets/undertheseanlp/UTS_Dictionary
+  url_filename: ''
+  huggingface: undertheseanlp/UTS_Dictionary
 SE_Vietnamese-UBS:
   cache_dir: datasets/SE_Vietnamese-UBS
   type: Sentiment
