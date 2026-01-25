@@ -12,6 +12,9 @@ def __getattr__(name):
     if name == 'ClassifierTrainer':
         from underthesea.trainers.classifier_trainer import ClassifierTrainer
         return ClassifierTrainer
+    if name == 'POSTrainer':
+        from underthesea.trainers.pos_trainer import POSTrainer
+        return POSTrainer
     raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
 
 
@@ -19,5 +22,6 @@ __all__ = [
     'CRFTrainer',
     'ClassifierTrainer',
     'ParserTrainer',
-    'DependencyParserTrainer'
+    'DependencyParserTrainer',
+    'POSTrainer'
 ]
