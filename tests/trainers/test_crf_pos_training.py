@@ -58,7 +58,7 @@ def preprocess_vlsp2013(dataset):
     return output
 
 
-class TestPOSTrainingPipeline(unittest.TestCase):
+class TestCRFPOSTrainingPipeline(unittest.TestCase):
     """Test POS training pipeline with CRFTrainer."""
 
     @classmethod
