@@ -79,3 +79,4 @@ node_modules
 .DS_Store
 uv.lock
 *.wav
+.env
