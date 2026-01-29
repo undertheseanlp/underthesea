@@ -46,7 +46,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **New in v9.0.0!** Vietnamese-English translation is here! Use `translate("Xin chào Việt Nam")` to translate Vietnamese text to English. 🚀✨
+🎉 **New in v9.2.0!** Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP. Supports OpenAI and Azure OpenAI. 🚀✨
 
 ## Installation
 
@@ -65,6 +65,7 @@ Install with extras (note: use quotes in zsh):
 ```bash
 $ pip install "underthesea[deep]"    # Deep learning support
 $ pip install "underthesea[voice]"   # Text-to-Speech support
+$ pip install "underthesea[agent]"   # Conversational AI agent
 ```
 
 ## Tutorials
@@ -381,6 +382,50 @@ Usage examples in command line
 </details>
 
 <details>
+<summary><b><a href="">Conversational AI Agent 🤖</a></b> - Chat with AI for Vietnamese NLP tasks
+<code>⚡</code>
+</summary>
+
+<br/>
+
+Conversational AI Agent with OpenAI and Azure OpenAI support.
+
+Install extend dependencies
+
+    ```bash
+    $ pip install "underthesea[agent]"
+    $ export OPENAI_API_KEY=your_api_key
+    # Or for Azure OpenAI:
+    # export AZURE_OPENAI_API_KEY=your_key
+    # export AZURE_OPENAI_ENDPOINT=https://xxx.openai.azure.com
+    ```
+
+Usage examples in script
+
+    ```python
+    >>> from underthesea import agent
+
+    >>> agent("Xin chào!")
+    'Xin chào! Tôi có thể giúp gì cho bạn?'
+
+    >>> agent("NLP là gì?")
+    'NLP (Natural Language Processing) là xử lý ngôn ngữ tự nhiên...'
+
+    >>> agent("Cho ví dụ về word tokenization tiếng Việt")
+    'Word tokenization trong tiếng Việt là quá trình...'
+
+    # Reset conversation
+    >>> agent.reset()
+    ```
+
+Supports Azure OpenAI
+
+    ```python
+    >>> agent("Hello", provider="azure", model="my-gpt4-deployment")
+    ```
+</details>
+
+<details>
 <summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
 
 <br/>
@@ -418,7 +463,6 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 ### Up Coming Features
 
 * Automatic Speech Recognition
-* Chatbot Agent
 
 ## Contributing
 

@@ -63,6 +63,9 @@ voice = [
 prompt = [
     "openai"
 ]
+agent = [
+    "openai>=2.16.0"
+]
 langdetect = [
     "fasttext"
 ]

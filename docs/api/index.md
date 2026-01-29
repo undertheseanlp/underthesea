@@ -28,6 +28,7 @@ This section provides complete API documentation for all Underthesea functions.
 |----------|-------------|---------|
 | [`lang_detect`](lang_detect.md) | Language detection | `[langdetect]` |
 | [`tts`](tts.md) | Text-to-speech | `[voice]` |
+| [`agent`](agent.md) | Conversational AI agent | `[agent]` |
 
 ## Quick Import
 
@@ -46,6 +47,7 @@ from underthesea import (
     dependency_parse,  # requires [deep]
     translate,         # requires [deep]
     lang_detect,       # requires [langdetect]
+    agent,             # requires [agent]
 )
 ```
 
