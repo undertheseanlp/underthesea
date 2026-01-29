@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add Vietnamese News Dataset (UVN) documentation ([GH-885](https://github.com/undertheseanlp/underthesea/issues/885))
+
 ## [9.1.4] - 2026-01-24
 
 ### Added
