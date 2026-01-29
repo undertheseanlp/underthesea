@@ -23,7 +23,7 @@
 
 We provide an extremely easy API to quickly apply pretrained NLP models to your Vietnamese text.
 
-!!! success "New in v9.2.0"
+!!! success "New in v9.1.5"
     Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP.
 
 ## Installation

@@ -7,9 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.1.5] - 2026-01-29
+
 ### Added
 
-- Add Vietnamese News Dataset (UVN) documentation ([GH-885](https://github.com/undertheseanlp/underthesea/issues/885))
+- Add Agent API with OpenAI and Azure OpenAI support ([GH-745](https://github.com/undertheseanlp/underthesea/issues/745), [#890](https://github.com/undertheseanlp/underthesea/pull/890))
+- Add ParserTrainer for dependency parsing ([GH-392](https://github.com/undertheseanlp/underthesea/issues/392), [#880](https://github.com/undertheseanlp/underthesea/pull/880))
+- Add POS tagger training pipeline ([GH-423](https://github.com/undertheseanlp/underthesea/issues/423), [#883](https://github.com/undertheseanlp/underthesea/pull/883))
+
+### Documentation
+
+- Add Vietnamese News Dataset (UVN) documentation ([GH-885](https://github.com/undertheseanlp/underthesea/issues/885), [#888](https://github.com/undertheseanlp/underthesea/pull/888), [#889](https://github.com/undertheseanlp/underthesea/pull/889))
+- Add UVB dataset documentation ([GH-720](https://github.com/undertheseanlp/underthesea/issues/720), [#887](https://github.com/undertheseanlp/underthesea/pull/887))
+- Add UUD-v0.1 dataset documentation ([#886](https://github.com/undertheseanlp/underthesea/pull/886))
+- Add UTS Dictionary dataset documentation ([GH-622](https://github.com/undertheseanlp/underthesea/issues/622), [#884](https://github.com/undertheseanlp/underthesea/pull/884))
 
 ## [9.1.4] - 2026-01-24
 
@@ -305,7 +316,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release on PyPI
 - First release on ReadTheDocs
 
-[Unreleased]: https://github.com/undertheseanlp/underthesea/compare/v9.1.4...HEAD
+[Unreleased]: https://github.com/undertheseanlp/underthesea/compare/v9.1.5...HEAD
+[9.1.5]: https://github.com/undertheseanlp/underthesea/compare/v9.1.4...v9.1.5
 [9.1.4]: https://github.com/undertheseanlp/underthesea/compare/v9.1.3...v9.1.4
 [9.1.3]: https://github.com/undertheseanlp/underthesea/compare/v9.1.2...v9.1.3
 [9.1.2]: https://github.com/undertheseanlp/underthesea/compare/v9.1.1...v9.1.2

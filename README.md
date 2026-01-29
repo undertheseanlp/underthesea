@@ -46,7 +46,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **New in v9.2.0!** Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP. Supports OpenAI and Azure OpenAI. 🚀✨
+🎉 **New in v9.1.5!** Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP. Supports OpenAI and Azure OpenAI. 🚀✨
 
 ## Installation
 
