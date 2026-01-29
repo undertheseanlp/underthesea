@@ -84,6 +84,7 @@ nav:
       - UTS_VLC: datasets/UTS_VLC.md
       - UUD-v0.1: datasets/UUD-v0.1.md
       - UVB: datasets/UVB.md
+      - UVN: datasets/UVN.md
   - Developer:
       - Contributing: developer/contributing.md
       - Architecture: developer/architecture.md
