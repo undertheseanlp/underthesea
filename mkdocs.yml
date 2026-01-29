@@ -80,6 +80,7 @@ nav:
       - translate: api/translate.md
       - lang_detect: api/lang_detect.md
       - tts: api/tts.md
+      - agent: api/agent.md
   - Datasets:
       - UTS_VLC: datasets/UTS_VLC.md
       - UUD-v0.1: datasets/UUD-v0.1.md

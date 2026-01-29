@@ -23,8 +23,8 @@
 
 We provide an extremely easy API to quickly apply pretrained NLP models to your Vietnamese text.
 
-!!! success "New in v9.0.0"
-    Vietnamese-English translation is here! Use `translate("Xin chào Việt Nam")` to translate Vietnamese text to English.
+!!! success "New in v9.2.0"
+    Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP.
 
 ## Installation
 
@@ -37,10 +37,11 @@ pip install underthesea
 Install with extras (note: use quotes in zsh):
 
 ```bash
-pip install "underthesea[deep]"    # Deep learning support
-pip install "underthesea[voice]"   # Text-to-Speech support
-pip install "underthesea[prompt]"  # OpenAI-based classification
-pip install "underthesea[langdetect]"  # Language detection
+pip install "underthesea[deep]"       # Deep learning support
+pip install "underthesea[voice]"      # Text-to-Speech support
+pip install "underthesea[prompt]"     # OpenAI-based classification
+pip install "underthesea[langdetect]" # Language detection
+pip install "underthesea[agent]"      # Conversational AI agent
 ```
 
 ## Tutorials
@@ -262,6 +263,38 @@ pip install "underthesea[langdetect]"  # Language detection
     underthesea tts "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
     ```
 
+??? note "Conversational AI Agent - Chat with AI for Vietnamese NLP (requires `[agent]`)"
+    ```bash
+    pip install "underthesea[agent]"
+    export OPENAI_API_KEY=your_api_key
+    # Or for Azure OpenAI:
+    # export AZURE_OPENAI_API_KEY=your_key
+    # export AZURE_OPENAI_ENDPOINT=https://xxx.openai.azure.com
+    ```
+
+    ```python
+    >>> from underthesea import agent
+
+    >>> agent("Xin chào!")
+    'Xin chào! Tôi có thể giúp gì cho bạn?'
+
+    >>> agent("NLP là gì?")
+    'NLP (Natural Language Processing) là xử lý ngôn ngữ tự nhiên...'
+
+    >>> agent("Cho ví dụ về word tokenization tiếng Việt")
+    'Word tokenization trong tiếng Việt là quá trình...'
+
+    # Reset conversation
+    >>> agent.reset()
+    ```
+
+    Supports both OpenAI and Azure OpenAI:
+
+    ```python
+    # Use Azure OpenAI
+    >>> agent("Hello", provider="azure", model="my-gpt4-deployment")
+    ```
+
 ## Vietnamese NLP Resources
 
 List available resources:
@@ -289,7 +322,6 @@ underthesea download-data CP_Vietnamese_VLC_v2_2022
 ## Up Coming Features
 
 * Automatic Speech Recognition
-* Chatbot Agent
 
 ## Community
 
