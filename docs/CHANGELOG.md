@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Add Agent class with custom tools support using OpenAI function calling ([GH-712](https://github.com/undertheseanlp/underthesea/issues/712))
+- Add default tools: calculator, datetime, web_search, wikipedia, shell, python, file operations ([GH-712](https://github.com/undertheseanlp/underthesea/issues/712))
+
 ## [9.1.5] - 2026-01-29
 
 ### Added

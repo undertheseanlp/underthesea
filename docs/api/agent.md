@@ -213,6 +213,248 @@ print(llm.provider)  # 'openai' or 'azure'
 print(llm.model)     # 'gpt-4'
 ```
 
+## Agent Class with Tools
+
+Create custom agents with function calling support using OpenAI's tools API.
+
+### Basic Usage
+
+```python
+from underthesea.agent import Agent, Tool
+
+# Define a tool as a Python function
+def get_weather(location: str) -> dict:
+    """Get current weather for a location."""
+    return {"location": location, "temp": 25, "condition": "sunny"}
+
+# Create agent with tools
+my_agent = Agent(
+    name="weather_assistant",
+    tools=[Tool(get_weather, description="Get weather for a city")],
+    instruction="You are a helpful weather assistant."
+)
+
+# Use the agent - it will automatically call tools when needed
+response = my_agent("What's the weather in Hanoi?")
+print(response)
+# The weather in Hanoi is 25°C and sunny.
+
+# Reset conversation
+my_agent.reset()
+```
+
+### Agent Constructor
+
+```python
+Agent(
+    name: str,
+    tools: list[Tool] | None = None,
+    instruction: str | None = None,
+    max_iterations: int = 10,
+)
+```
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `name` | `str` | | Agent name |
+| `tools` | `list[Tool]` | `None` | List of tools available to the agent |
+| `instruction` | `str` | `"You are a helpful assistant."` | System instruction |
+| `max_iterations` | `int` | `10` | Maximum tool calling iterations |
+
+### Tool Class
+
+Wrap Python functions as agent tools:
+
+```python
+from underthesea.agent import Tool
+
+def search(query: str, limit: int = 10) -> list:
+    """Search for items matching the query."""
+    return [{"title": f"Result for {query}"}]
+
+tool = Tool(
+    func=search,
+    name="web_search",           # Optional, defaults to function name
+    description="Search the web" # Optional, defaults to docstring
+)
+
+# Convert to OpenAI format
+openai_format = tool.to_openai_tool()
+
+# Execute directly
+result = tool(query="python", limit=5)
+```
+
+### Tool Constructor
+
+```python
+Tool(
+    func: Callable,
+    name: str | None = None,
+    description: str | None = None,
+)
+```
+
+| Parameter | Type | Default | Description |
+|-----------|------|---------|-------------|
+| `func` | `Callable` | | The function to wrap |
+| `name` | `str` | `None` | Tool name (defaults to function name) |
+| `description` | `str` | `None` | Tool description (defaults to docstring) |
+
+### Supported Parameter Types
+
+The Tool class automatically extracts JSON schema from function signatures:
+
+| Python Type | JSON Schema Type |
+|-------------|------------------|
+| `str` | `string` |
+| `int` | `integer` |
+| `float` | `number` |
+| `bool` | `boolean` |
+| `list` | `array` |
+
+### Multiple Tools Example
+
+```python
+from underthesea.agent import Agent, Tool
+
+def get_weather(location: str) -> dict:
+    """Get current weather for a location."""
+    return {"location": location, "temp": 25}
+
+def search_news(query: str) -> str:
+    """Search Vietnamese news articles."""
+    return f"Found articles about: {query}"
+
+def translate_text(text: str, target_lang: str = "en") -> str:
+    """Translate Vietnamese text."""
+    return f"Translated: {text}"
+
+agent = Agent(
+    name="multi_tool_agent",
+    tools=[
+        Tool(get_weather),
+        Tool(search_news),
+        Tool(translate_text, description="Translate Vietnamese to other languages"),
+    ],
+    instruction="You are a helpful Vietnamese assistant with access to weather, news, and translation tools."
+)
+
+# The agent decides which tool to use based on the query
+response = agent("Thời tiết ở Đà Nẵng thế nào?")  # Uses get_weather
+response = agent("Tin tức về AI hôm nay")          # Uses search_news
+response = agent("Dịch 'Xin chào' sang tiếng Anh") # Uses translate_text
+```
+
+### Agent without Tools
+
+Agent also works without tools as a simple conversational agent:
+
+```python
+from underthesea.agent import Agent
+
+simple_agent = Agent(
+    name="chatbot",
+    instruction="You are a friendly Vietnamese chatbot."
+)
+
+response = simple_agent("Xin chào!")
+print(response)
+```
+
+## Default Tools
+
+Pre-built tools similar to LangChain/OpenAI tools for common tasks.
+
+### Tool Collections
+
+| Collection | Tools | Description |
+|------------|-------|-------------|
+| `default_tools` | 12 tools | All default tools |
+| `core_tools` | 4 tools | Safe utilities (datetime, calculator, string, json) |
+| `web_tools` | 3 tools | Web operations (search, fetch, wikipedia) |
+| `system_tools` | 5 tools | System operations (file, shell, python) |
+
+### Core Tools
+
+| Tool | Description |
+|------|-------------|
+| `current_datetime_tool` | Get current date, time, weekday |
+| `calculator_tool` | Evaluate math expressions (supports sqrt, sin, cos, log, pi, e) |
+| `string_length_tool` | Count characters, words, lines in text |
+| `json_parse_tool` | Parse JSON strings |
+
+### Web Tools
+
+| Tool | Description |
+|------|-------------|
+| `web_search_tool` | Search the web using DuckDuckGo (no API key) |
+| `fetch_url_tool` | Fetch content from a URL |
+| `wikipedia_tool` | Search Wikipedia (supports Vietnamese and English) |
+
+### System Tools
+
+| Tool | Description |
+|------|-------------|
+| `read_file_tool` | Read content from a file |
+| `write_file_tool` | Write content to a file |
+| `list_directory_tool` | List files and directories |
+| `shell_tool` | Run shell commands |
+| `python_tool` | Execute Python code |
+
+### Using Default Tools
+
+```python
+from underthesea.agent import Agent, default_tools
+
+# Create agent with all default tools
+my_agent = Agent(
+    name="assistant",
+    tools=default_tools,
+    instruction="You are a helpful assistant with access to various tools."
+)
+
+# Agent can now use any tool automatically
+my_agent("What time is it?")           # Uses current_datetime_tool
+my_agent("Calculate sqrt(144) + 10")   # Uses calculator_tool
+my_agent("Search for Python tutorials") # Uses web_search_tool
+my_agent("List files in current dir")  # Uses list_directory_tool
+```
+
+### Using Specific Tool Collections
+
+```python
+from underthesea.agent import Agent, core_tools, web_tools
+
+# Safe agent with only core tools (no system access)
+safe_agent = Agent(
+    name="safe_assistant",
+    tools=core_tools,
+)
+
+# Web-enabled agent
+web_agent = Agent(
+    name="web_assistant",
+    tools=core_tools + web_tools,
+)
+```
+
+### Using Tools Directly
+
+```python
+from underthesea.agent import calculator_tool, current_datetime_tool, wikipedia_tool
+
+# Call tools directly (without LLM)
+result = calculator_tool(expression="2 ** 10")
+print(result)  # {'expression': '2 ** 10', 'result': 1024}
+
+now = current_datetime_tool()
+print(now)  # {'datetime': '...', 'date': '...', 'weekday': 'Friday', ...}
+
+wiki = wikipedia_tool(query="Hà Nội", lang="vi")
+print(wiki["summary"])  # Wikipedia summary about Hanoi
+```
+
 ## Notes
 
 - The agent maintains conversation history across calls
@@ -220,3 +462,6 @@ print(llm.model)     # 'gpt-4'
 - Azure OpenAI is preferred when both credentials are available
 - Default system prompt focuses on Vietnamese language and NLP tasks
 - First call may be slower due to client initialization
+- Agent with tools uses OpenAI's function calling API
+- Tools are automatically called when the model decides they are needed
+- `max_iterations` prevents infinite tool calling loops
