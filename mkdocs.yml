@@ -66,6 +66,10 @@ nav:
       - Sentence Tokenize: technical_reports/sent_tokenize.md
       - Dependency Parsing: technical_reports/dependency_parsing.md
       - Voice (TTS): technical_reports/voice.md
+      - Agents:
+          - Overview: technical_reports/agents/index.md
+          - Default Tools: technical_reports/agents/tools.md
+          - Framework Comparison: technical_reports/agents/comparison.md
   - API Reference:
       - Overview: api/index.md
       - sent_tokenize: api/sent_tokenize.md

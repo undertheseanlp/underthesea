@@ -423,6 +423,54 @@ Supports Azure OpenAI
     ```python
     >>> agent("Hello", provider="azure", model="my-gpt4-deployment")
     ```
+
+Agent with Custom Tools (Function Calling)
+
+    ```python
+    >>> from underthesea.agent import Agent, Tool
+
+    # Define tools as functions
+    >>> def get_weather(location: str) -> dict:
+    ...     """Get current weather for a location."""
+    ...     return {"location": location, "temp": 25, "condition": "sunny"}
+
+    >>> def search_news(query: str) -> str:
+    ...     """Search Vietnamese news."""
+    ...     return f"Results for: {query}"
+
+    # Create agent with tools
+    >>> my_agent = Agent(
+    ...     name="assistant",
+    ...     tools=[
+    ...         Tool(get_weather, description="Get weather for a city"),
+    ...         Tool(search_news, description="Search Vietnamese news"),
+    ...     ],
+    ...     instruction="You are a helpful Vietnamese assistant."
+    ... )
+
+    # Agent automatically calls tools when needed
+    >>> my_agent("Thời tiết ở Hà Nội thế nào?")
+    'Thời tiết ở Hà Nội hiện tại là 25°C và nắng.'
+
+    >>> my_agent.reset()  # Clear conversation history
+    ```
+
+Using Default Tools (like LangChain/OpenAI tools)
+
+    ```python
+    >>> from underthesea.agent import Agent, default_tools
+
+    # Create agent with built-in tools:
+    # calculator, datetime, web_search, wikipedia, shell, python, file ops...
+    >>> my_agent = Agent(
+    ...     name="assistant",
+    ...     tools=default_tools,
+    ... )
+
+    >>> my_agent("What time is it?")           # Uses datetime tool
+    >>> my_agent("Calculate sqrt(144) + 10")   # Uses calculator tool
+    >>> my_agent("Search for Python tutorials") # Uses web_search tool
+    ```
 </details>
 
 <details>

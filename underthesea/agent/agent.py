@@ -1,4 +1,120 @@
+import json
+
 from underthesea.agent.llm import LLM
+from underthesea.agent.tools import Tool
+
+
+class Agent:
+    """Agent with custom tools support using OpenAI function calling."""
+
+    DEFAULT_INSTRUCTION = "You are a helpful assistant."
+
+    def __init__(
+        self,
+        name: str,
+        tools: list[Tool] | None = None,
+        instruction: str | None = None,
+        max_iterations: int = 10,
+    ):
+        """
+        Initialize an Agent.
+
+        Parameters
+        ----------
+        name : str
+            Agent name.
+        tools : list[Tool], optional
+            List of tools available to the agent.
+        instruction : str, optional
+            System instruction for the agent.
+        max_iterations : int
+            Maximum number of tool calling iterations.
+        """
+        self.name = name
+        self.tools = tools or []
+        self.instruction = instruction or self.DEFAULT_INSTRUCTION
+        self.max_iterations = max_iterations
+        self._llm: LLM | None = None
+        self._history: list[dict] = []
+
+    def _ensure_llm(self, **kwargs):
+        """Initialize LLM client if not already done."""
+        if self._llm is None:
+            self._llm = LLM(**kwargs)
+
+    def __call__(
+        self,
+        message: str,
+        model: str | None = None,
+        **llm_kwargs,
+    ) -> str:
+        """
+        Send message and get response, using tools if available.
+
+        Parameters
+        ----------
+        message : str
+            User message.
+        model : str, optional
+            Model name to use.
+        **llm_kwargs
+            Additional arguments passed to LLM initialization.
+
+        Returns
+        -------
+        str
+            Assistant response.
+        """
+        self._ensure_llm(**llm_kwargs)
+        self._history.append({"role": "user", "content": message})
+
+        if self.tools:
+            return self._call_with_tools(model)
+
+        messages = [{"role": "system", "content": self.instruction}] + self._history
+        response = self._llm.chat(messages, model=model)
+        self._history.append({"role": "assistant", "content": response})
+        return response
+
+    def _call_with_tools(self, model: str | None) -> str:
+        """Handle message with tool calling loop."""
+        messages = [{"role": "system", "content": self.instruction}] + self._history
+        openai_tools = [t.to_openai_tool() for t in self.tools]
+        tool_map = {t.name: t for t in self.tools}
+
+        for _ in range(self.max_iterations):
+            response = self._llm._client.chat.completions.create(
+                model=model or self._llm._model,
+                messages=messages,
+                tools=openai_tools,
+                tool_choice="auto",
+            )
+
+            msg = response.choices[0].message
+
+            if msg.tool_calls:
+                messages.append(msg)
+                for tc in msg.tool_calls:
+                    tool = tool_map[tc.function.name]
+                    result = tool.execute(json.loads(tc.function.arguments))
+                    messages.append(
+                        {"role": "tool", "tool_call_id": tc.id, "content": result}
+                    )
+            else:
+                content = msg.content
+                self._history.append({"role": "assistant", "content": content})
+                return content
+
+        raise RuntimeError("Max tool iterations reached")
+
+    def reset(self):
+        """Clear conversation history."""
+        self._history = []
+
+    @property
+    def history(self) -> list[dict]:
+        """Get conversation history."""
+        return self._history.copy()
 
 
 class _AgentInstance:
