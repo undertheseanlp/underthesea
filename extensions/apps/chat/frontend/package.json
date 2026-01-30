@@ -1,0 +1,52 @@
+{
+  "name": "@undertheseanlp/chat-frontend",
+  "version": "0.1.0",
+  "description": "Chat frontend for Underthesea AI Agent",
+  "author": "Vu Anh <anhv.ict91@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undertheseanlp/underthesea.git",
+    "directory": "extensions/apps/chat/frontend"
+  },
+  "homepage": "https://github.com/undertheseanlp/underthesea/tree/main/extensions/apps/chat/frontend",
+  "bugs": {
+    "url": "https://github.com/undertheseanlp/underthesea/issues"
+  },
+  "keywords": [
+    "underthesea",
+    "nlp",
+    "vietnamese",
+    "chat",
+    "ai",
+    "agent"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "16.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  },
+  "files": [
+    "src",
+    "public",
+    "next.config.ts",
+    "tailwind.config.js",
+    "postcss.config.js",
+    "tsconfig.json"
+  ]
+}

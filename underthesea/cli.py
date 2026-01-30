@@ -1,5 +1,9 @@
 import os
 import platform
+import signal
+import subprocess
+import sys
+from pathlib import Path
 
 import click
 
@@ -99,6 +103,79 @@ def info():
     print("    dependency_parse : SUSPENDED")
     print("         lang_detect : OK")
     print("           resources : OK")
+
+
+@main.command()
+@click.option('--backend-port', default=8001, help='Backend API port')
+@click.option('--frontend-port', default=3000, help='Frontend port')
+def chat(backend_port, frontend_port):
+    """Start the Underthesea Chat application (frontend + backend)."""
+    # Find chat app directory
+    underthesea_dir = Path(__file__).resolve().parent.parent
+    chat_dir = underthesea_dir / "extensions" / "apps" / "chat"
+    backend_dir = chat_dir / "backend"
+    frontend_dir = chat_dir / "frontend"
+
+    if not chat_dir.exists():
+        click.echo(f"Error: Chat app not found at {chat_dir}")
+        click.echo("Please ensure the chat app is installed.")
+        sys.exit(1)
+
+    # Check backend node_modules
+    if not (backend_dir / "node_modules").exists():
+        click.echo("Installing backend dependencies...")
+        subprocess.run(["npm", "install"], cwd=backend_dir, check=True)
+
+    # Check frontend node_modules
+    if not (frontend_dir / "node_modules").exists():
+        click.echo("Installing frontend dependencies...")
+        subprocess.run(["npm", "install"], cwd=frontend_dir, check=True)
+
+    processes = []
+
+    def cleanup(signum=None, frame=None):
+        click.echo("\nShutting down...")
+        for p in processes:
+            p.terminate()
+        for p in processes:
+            p.wait()
+        sys.exit(0)
+
+    signal.signal(signal.SIGINT, cleanup)
+    signal.signal(signal.SIGTERM, cleanup)
+
+    try:
+        # Start backend (Node.js)
+        click.echo(f"Starting backend on http://localhost:{backend_port}")
+        backend_proc = subprocess.Popen(
+            ["node", "src/index.js"],
+            cwd=backend_dir,
+            env={**os.environ, "PORT": str(backend_port)}
+        )
+        processes.append(backend_proc)
+
+        # Start frontend
+        click.echo(f"Starting frontend on http://localhost:{frontend_port}")
+        frontend_proc = subprocess.Popen(
+            ["npm", "run", "dev", "--", "-p", str(frontend_port)],
+            cwd=frontend_dir
+        )
+        processes.append(frontend_proc)
+
+        click.echo("")
+        click.echo("Underthesea Chat is running!")
+        click.echo(f"  Frontend: http://localhost:{frontend_port}")
+        click.echo(f"  Backend:  http://localhost:{backend_port}")
+        click.echo("")
+        click.echo("Press Ctrl+C to stop")
+
+        # Wait for processes
+        for p in processes:
+            p.wait()
+
+    except Exception as e:
+        click.echo(f"Error: {e}")
+        cleanup()
 
 
 if __name__ == "__main__":
