@@ -20,15 +20,10 @@ use serde::{Deserialize, Serialize};
 #[derive(Debug, Clone, Serialize, Deserialize)]
 pub enum LossFunction {
     /// L-BFGS optimization (fast, recommended)
-    LBFGS {
-        l1_penalty: f64,
-        l2_penalty: f64,
-    },
+    LBFGS { l1_penalty: f64, l2_penalty: f64 },
 
     /// Structured Perceptron (online learning)
-    StructuredPerceptron {
-        learning_rate: f64,
-    },
+    StructuredPerceptron { learning_rate: f64 },
 }
 
 impl Default for LossFunction {
@@ -464,7 +459,8 @@ impl CRFTrainer {
                 for attr in &instance.features[t] {
                     let attr_id = self.model.attributes.get_or_insert(attr);
                     self.model.add_state_weight(attr_id, gold_id, learning_rate);
-                    self.model.add_state_weight(attr_id, pred_id, -learning_rate);
+                    self.model
+                        .add_state_weight(attr_id, pred_id, -learning_rate);
                 }
             }
         }
@@ -694,7 +690,8 @@ fn compute_instance_scaled(
 
             let mut sum = 0.0f64;
             for y in 0..num_labels {
-                let val = *alpha.get_unchecked(curr_base + y) * *exp_state.get_unchecked(curr_base + y);
+                let val =
+                    *alpha.get_unchecked(curr_base + y) * *exp_state.get_unchecked(curr_base + y);
                 *alpha.get_unchecked_mut(curr_base + y) = val;
                 sum += val;
             }
@@ -735,9 +732,12 @@ fn compute_instance_scaled(
                 for i in 0..chunks {
                     let j = i * 4;
                     sum += *exp_trans.get_unchecked(trans_base + j) * *state_mexp.get_unchecked(j);
-                    sum += *exp_trans.get_unchecked(trans_base + j + 1) * *state_mexp.get_unchecked(j + 1);
-                    sum += *exp_trans.get_unchecked(trans_base + j + 2) * *state_mexp.get_unchecked(j + 2);
-                    sum += *exp_trans.get_unchecked(trans_base + j + 3) * *state_mexp.get_unchecked(j + 3);
+                    sum += *exp_trans.get_unchecked(trans_base + j + 1)
+                        * *state_mexp.get_unchecked(j + 1);
+                    sum += *exp_trans.get_unchecked(trans_base + j + 2)
+                        * *state_mexp.get_unchecked(j + 2);
+                    sum += *exp_trans.get_unchecked(trans_base + j + 3)
+                        * *state_mexp.get_unchecked(j + 3);
                 }
                 for j in (chunks * 4)..num_labels {
                     sum += *exp_trans.get_unchecked(trans_base + j) * *state_mexp.get_unchecked(j);
@@ -755,7 +755,8 @@ fn compute_instance_scaled(
         gold_score += exp_state[base + label as usize].ln();
     }
     for t in 1..n {
-        let trans_idx = num_state_features + gold_labels[t - 1] as usize * num_labels + gold_labels[t] as usize;
+        let trans_idx =
+            num_state_features + gold_labels[t - 1] as usize * num_labels + gold_labels[t] as usize;
         gold_score += params[trans_idx];
     }
 

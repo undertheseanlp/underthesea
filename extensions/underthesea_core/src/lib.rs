@@ -251,7 +251,15 @@ impl PyCRFTrainer {
         verbose: u8,
     ) -> PyResult<Self> {
         let loss = match loss_function {
-            "lbfgs" | "LBFGS" | "l-bfgs" | "L-BFGS" | "nll" | "NLL" | "negative_log_likelihood" | "sgd" | "SGD" => LossFunction::LBFGS {
+            "lbfgs"
+            | "LBFGS"
+            | "l-bfgs"
+            | "L-BFGS"
+            | "nll"
+            | "NLL"
+            | "negative_log_likelihood"
+            | "sgd"
+            | "SGD" => LossFunction::LBFGS {
                 l1_penalty,
                 l2_penalty,
             },
