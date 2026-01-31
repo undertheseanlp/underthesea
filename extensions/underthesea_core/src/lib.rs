@@ -232,15 +232,15 @@ impl PyCRFTrainer {
     /// Create a new trainer with default configuration
     ///
     /// Args:
-    ///     loss_function: "nll" for Negative Log-Likelihood or "perceptron" for Structured Perceptron
-    ///     l1_penalty: L1 regularization penalty (only for NLL)
-    ///     l2_penalty: L2 regularization penalty (only for NLL)
+    ///     loss_function: "lbfgs" (recommended), "nll" for SGD, or "perceptron" for Structured Perceptron
+    ///     l1_penalty: L1 regularization penalty (for lbfgs and nll)
+    ///     l2_penalty: L2 regularization penalty (for lbfgs and nll)
     ///     learning_rate: Learning rate (only for perceptron)
     ///     max_iterations: Maximum number of training iterations
     ///     averaging: Whether to use averaged perceptron (only for perceptron)
     ///     verbose: Verbosity level (0=quiet, 1=progress, 2=detailed)
     #[new]
-    #[pyo3(signature = (loss_function="nll", l1_penalty=0.0, l2_penalty=0.01, learning_rate=0.1, max_iterations=100, averaging=true, verbose=1))]
+    #[pyo3(signature = (loss_function="lbfgs", l1_penalty=0.0, l2_penalty=0.01, learning_rate=0.1, max_iterations=100, averaging=true, verbose=1))]
     pub fn new(
         loss_function: &str,
         l1_penalty: f64,
@@ -251,7 +251,15 @@ impl PyCRFTrainer {
         verbose: u8,
     ) -> PyResult<Self> {
         let loss = match loss_function {
-            "nll" | "NLL" | "negative_log_likelihood" => LossFunction::NegativeLogLikelihood {
+            "lbfgs"
+            | "LBFGS"
+            | "l-bfgs"
+            | "L-BFGS"
+            | "nll"
+            | "NLL"
+            | "negative_log_likelihood"
+            | "sgd"
+            | "SGD" => LossFunction::LBFGS {
                 l1_penalty,
                 l2_penalty,
             },
@@ -260,7 +268,7 @@ impl PyCRFTrainer {
             }
             _ => {
                 return Err(pyo3::exceptions::PyValueError::new_err(format!(
-                    "Unknown loss function: {}. Use 'nll' or 'perceptron'",
+                    "Unknown loss function: {}. Use 'lbfgs' (recommended) or 'perceptron'",
                     loss_function
                 )));
             }
@@ -271,7 +279,7 @@ impl PyCRFTrainer {
             max_iterations,
             epsilon: 1e-5,
             averaging,
-            verbose,
+            verbose: verbose as i32,
         };
 
         Ok(Self {

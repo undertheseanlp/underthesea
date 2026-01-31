@@ -355,7 +355,7 @@ fn test_perceptron_training() {
 #[test]
 fn test_nll_training() {
     let config = TrainerConfig {
-        loss_function: LossFunction::NegativeLogLikelihood {
+        loss_function: LossFunction::LBFGS {
             l1_penalty: 0.0,
             l2_penalty: 0.01,
         },
