@@ -39,6 +39,7 @@ crfs = "0.1"
 hashbrown = { version = "0.15", features = ["serde"] }  # Fast hash maps with serde support
 bincode = "1.3"             # Binary serialization for model files
 byteorder = "1.5"           # For reading CRFsuite binary format
+liblbfgs = "0.1"            # L-BFGS optimization (port of Naoaki Okazaki's libLBFGS)
 
 # LR implementation dependencies
 rand = "0.8"                # Random number generation for SGD shuffling
