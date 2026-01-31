@@ -7,10 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.2.0] - 2026-01-31
+
 ### Added
 
 - Add Agent class with custom tools support using OpenAI function calling ([GH-712](https://github.com/undertheseanlp/underthesea/issues/712))
 - Add default tools: calculator, datetime, web_search, wikipedia, shell, python, file operations ([GH-712](https://github.com/undertheseanlp/underthesea/issues/712))
+
+### Changed
+
+- Upgrade underthesea_core to 2.0.0 with L-BFGS optimizer ([#899](https://github.com/undertheseanlp/underthesea/pull/899))
+  - 10x faster feature lookup with flat data structure
+  - 1.24x faster than python-crfsuite for word segmentation
+  - L-BFGS with OWL-QN for L1 regularization
 
 ## [9.1.5] - 2026-01-29
 
