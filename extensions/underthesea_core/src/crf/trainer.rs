@@ -13,7 +13,6 @@ use super::model::CRFModel;
 use super::tagger::CRFTagger;
 use hashbrown::HashMap;
 use liblbfgs::lbfgs;
-use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
 
 /// Loss function types for CRF training.
@@ -85,7 +84,9 @@ pub struct CRFTrainer {
     tagger: CRFTagger,
     config: TrainerConfig,
     update_count: usize,
+    #[allow(dead_code)]
     avg_state_weights: HashMap<(u32, u32), f64>,
+    #[allow(dead_code)]
     avg_transition_weights: Vec<f64>,
 }
 
@@ -515,8 +516,6 @@ fn compute_objective_and_gradient_sparse(
     l1_penalty: f64,
     l2_penalty: f64,
 ) -> f64 {
-    let num_params = gradient.len();
-
     // Initialize gradient = -empirical_count
     for (i, &emp) in empirical_state.iter().enumerate() {
         gradient[i] = -emp;
