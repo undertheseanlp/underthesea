@@ -4,7 +4,6 @@
 //! with python-crfsuite and other CRFsuite-compatible tools.
 
 use byteorder::{LittleEndian, WriteBytesExt};
-use std::collections::HashMap;
 use std::io::{Seek, SeekFrom, Write};
 
 /// CRFsuite file magic
@@ -252,6 +251,12 @@ pub struct CQDBWriter {
     backward: Vec<u32>,
 }
 
+impl Default for CQDBWriter {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl CQDBWriter {
     pub fn new() -> Self {
         Self {
@@ -497,7 +502,7 @@ pub fn write_crfsuite_model<W: Write + Seek>(
     }
 
     // Write LFRF chunk
-    let labelrefs_header_size = CHUNK_SIZE + (labels.len() as u32) * 4;
+    let _labelrefs_header_size = CHUNK_SIZE + (labels.len() as u32) * 4;
     writer
         .write_all(b"LFRF")
         .map_err(|e| format!("Failed to write LFRF magic: {}", e))?;
