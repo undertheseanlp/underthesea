@@ -1,6 +1,7 @@
 from os.path import dirname, join
 
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+import joblib
+from underthesea_core import CRFTagger
 
 from .model_crf import CRFPOSTagPredictor
 
@@ -42,16 +43,20 @@ def pos_tag(sentence, format=None, model=None):
     sentence = word_tokenize(sentence)
     if model == "v2.0":
         if pos_model_v2 is None:
-            pos_model_v2 = FastCRFSequenceTagger()
+            pos_model_v2 = CRFTagger()
             wd = dirname(__file__)
-            pos_model_v2.load(join(wd, "models", "pos_crf_vlsp2013_20230303"))
-            tokens = sentence
-            features = [[token] for token in sentence]
-            tags = pos_model_v2.predict(features)
-            # output of pos_model_v2 in in BOI format B-N, B-CH, B-V,...
-            # remove prefix B-
-            tags = [tag[2:] for tag in tags]
-            result = list(zip(tokens, tags))
+            model_dir = join(wd, "models", "pos_crf_vlsp2013_20230303")
+            pos_model_v2.load(join(model_dir, "models.bin"))
+            features_config = joblib.load(join(model_dir, "features.bin"))
+            dictionary = joblib.load(join(model_dir, "dictionary.bin"))
+            pos_model_v2.set_featurizer(features_config, dictionary)
+        tokens = sentence
+        features = [[token] for token in sentence]
+        tags = pos_model_v2.predict(features)
+        # output of pos_model_v2 in in BOI format B-N, B-CH, B-V,...
+        # remove prefix B-
+        tags = [tag[2:] for tag in tags]
+        result = list(zip(tokens, tags))
     else:
         crf_model = CRFPOSTagPredictor.Instance()
         result = crf_model.predict(sentence, format)

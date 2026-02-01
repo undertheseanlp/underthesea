@@ -145,6 +145,7 @@ impl PyCRFModel {
 #[pyclass(name = "CRFTagger")]
 pub struct PyCRFTagger {
     tagger: CRFTagger,
+    featurizer: Option<featurizers::CRFFeaturizer>,
 }
 
 #[pymethods]
@@ -154,6 +155,7 @@ impl PyCRFTagger {
     pub fn new() -> PyResult<Self> {
         Ok(Self {
             tagger: CRFTagger::new(),
+            featurizer: None,
         })
     }
 
@@ -162,6 +164,7 @@ impl PyCRFTagger {
     pub fn from_model(model: &PyCRFModel) -> PyResult<Self> {
         Ok(Self {
             tagger: CRFTagger::from_model(model.model.clone()),
+            featurizer: None,
         })
     }
 
@@ -170,6 +173,57 @@ impl PyCRFTagger {
         self.tagger
             .load(path)
             .map_err(pyo3::exceptions::PyIOError::new_err)
+    }
+
+    /// Set the featurizer for this tagger
+    ///
+    /// Args:
+    ///     features: List of feature template strings
+    ///     dictionary: Set of dictionary words
+    pub fn set_featurizer(&mut self, features: Vec<String>, dictionary: HashSet<String>) {
+        self.featurizer = Some(featurizers::CRFFeaturizer::new(features, dictionary));
+    }
+
+    /// Predict labels for a sequence of tokens (requires featurizer to be set)
+    ///
+    /// Args:
+    ///     tokens: List of token data, where each token is a list of strings
+    ///             (e.g., [["word1"], ["word2"]] or [["word1", "pos1"], ["word2", "pos2"]])
+    ///
+    /// Returns:
+    ///     List of label strings
+    pub fn predict(&self, tokens: Vec<Vec<String>>) -> PyResult<Vec<String>> {
+        match &self.featurizer {
+            Some(f) => {
+                let features = f.process_single(tokens);
+                Ok(self.tagger.tag(&features))
+            }
+            None => Err(pyo3::exceptions::PyRuntimeError::new_err(
+                "Featurizer not set. Call set_featurizer() or load_model_dir() first.",
+            )),
+        }
+    }
+
+    /// Predict labels for multiple sequences (requires featurizer to be set)
+    ///
+    /// Args:
+    ///     sequences: List of sequences, where each sequence is a list of tokens
+    ///
+    /// Returns:
+    ///     List of tag sequences
+    pub fn predict_batch(&self, sequences: Vec<Vec<Vec<String>>>) -> PyResult<Vec<Vec<String>>> {
+        match &self.featurizer {
+            Some(f) => {
+                let all_features = f.process(sequences);
+                Ok(all_features
+                    .iter()
+                    .map(|features| self.tagger.tag(features))
+                    .collect())
+            }
+            None => Err(pyo3::exceptions::PyRuntimeError::new_err(
+                "Featurizer not set. Call set_featurizer() or load_model_dir() first.",
+            )),
+        }
     }
 
     /// Tag a sequence of observations

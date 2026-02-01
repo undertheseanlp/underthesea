@@ -1,10 +1,11 @@
 from os.path import join
 
 import hydra
+import joblib
 from hydra.utils import get_original_cwd
+from underthesea_core import CRFTagger
 
 from underthesea import word_tokenize
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
 
 
 @hydra.main(version_base=None)
@@ -25,8 +26,11 @@ def main(cfg):
     tokens = word_tokenize(text)
     tokens = [[token] for token in tokens]
 
-    model = FastCRFSequenceTagger()
-    model.load(output_dir)
+    model = CRFTagger()
+    model.load(join(output_dir, "models.bin"))
+    features = joblib.load(join(output_dir, "features.bin"))
+    dictionary = joblib.load(join(output_dir, "dictionary.bin"))
+    model.set_featurizer(features, dictionary)
     y = model.predict(tokens)
     for token, x in zip(tokens, y):
         print(token, "\t", x)

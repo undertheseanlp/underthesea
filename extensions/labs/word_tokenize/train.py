@@ -1,12 +1,17 @@
+import os
+import shutil
+from os.path import join
+
 import hydra
+import joblib
+from datasets import load_dataset
 from hydra.utils import get_original_cwd
 from omegaconf import DictConfig, OmegaConf
+from seqeval.metrics import classification_report
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
-from os.path import join
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
-from datasets import load_dataset
 from underthesea.utils.preprocess_dataset import preprocess_word_tokenize_dataset
 
 
@@ -30,19 +35,11 @@ def train(cfg: DictConfig) -> None:
         "T[0,1].is_in_dict", "T[1,2].is_in_dict", "T[-2,0].is_in_dict",
         "T[-1,1].is_in_dict", "T[0,2].is_in_dict",
     ]
-    model = FastCRFSequenceTagger(features, dictionary)
 
-    training_params = {
-        "output_dir": join(wd, cfg.train.output_dir),
-        "params": {
-            "c1": cfg.train.params.c1,  # coefficient for L1 penalty
-            "c2": cfg.train.params.c2,  # coefficient for L2 penalty
-            "max_iterations": cfg.train.params.max_iterations,  #
-            # include transitions that are possible, but not observed
-            "feature.possible_transitions": cfg.train.params.feature.possible_transitions,
-            "feature.possible_states": cfg.train.params.feature.possible_states,
-        },
-    }
+    output_dir = join(wd, cfg.train.output_dir)
+    c1 = cfg.train.params.c1
+    c2 = cfg.train.params.c2
+    max_iterations = cfg.train.params.max_iterations
 
     dataset_name = cfg.dataset.name
     dataset_params = cfg.dataset.params
@@ -63,8 +60,37 @@ def train(cfg: DictConfig) -> None:
     print("Train dataset", len(train_dataset))
     print("Test dataset", len(test_dataset))
 
-    trainer = CRFTrainer(model, training_params, train_dataset, test_dataset)
-    trainer.train()
+    # Create output directory
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+    os.makedirs(output_dir)
+
+    # Create featurizer and extract features
+    featurizer = CRFFeaturizer(features, dictionary)
+    X_train = featurizer.process(train_dataset)
+    y_train = [[t[-1] for t in s] for s in train_dataset]
+    y_test = [[t[-1] for t in s] for s in test_dataset]
+
+    # Train
+    trainer = CoreCRFTrainer()
+    trainer.set_l1_penalty(c1)
+    trainer.set_l2_penalty(c2)
+    trainer.set_max_iterations(max_iterations)
+
+    model_path = join(output_dir, "models.bin")
+    crf_model = trainer.train(X_train, y_train)
+    crf_model.save(model_path)
+
+    # Save features and dictionary
+    joblib.dump(features, join(output_dir, "features.bin"))
+    joblib.dump(dictionary, join(output_dir, "dictionary.bin"))
+
+    # Evaluate
+    tagger = CRFTagger()
+    tagger.load(model_path)
+    y_pred = tagger.tag_batch(test_dataset, featurizer)
+    print("Classification report:\n")
+    print(classification_report(y_test, y_pred, digits=3))
 
 
 if __name__ == "__main__":

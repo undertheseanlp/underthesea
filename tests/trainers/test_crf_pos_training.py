@@ -1,9 +1,13 @@
-"""Tests for POS tag training pipeline with CRFTrainer."""
+"""Tests for POS tag training pipeline with CRFTrainer from underthesea_core."""
 
 import os
 import shutil
 import tempfile
 import unittest
+
+import joblib
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
 
 # Sample POS data in VLSP2013 format (token\tPOS_TAG)
@@ -59,7 +63,7 @@ def preprocess_vlsp2013(dataset):
 
 
 class TestCRFPOSTrainingPipeline(unittest.TestCase):
-    """Test POS training pipeline with CRFTrainer."""
+    """Test POS training pipeline with CRFTrainer from underthesea_core."""
 
     @classmethod
     def setUpClass(cls):
@@ -81,11 +85,7 @@ class TestCRFPOSTrainingPipeline(unittest.TestCase):
         shutil.rmtree(cls.temp_dir, ignore_errors=True)
 
     def test_train_with_crf_trainer(self):
-        """Test training POS tagger using CRFTrainer directly."""
-        from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-        from underthesea.trainers import CRFTrainer
-        from underthesea.transformer.tagged_feature import lower_words as dictionary
-
+        """Test training POS tagger using CRFTrainer from underthesea_core."""
         # Load and preprocess data
         train_dataset = read_tagged_data(self.train_file)
         train_dataset = preprocess_vlsp2013(train_dataset)
@@ -99,29 +99,39 @@ class TestCRFPOSTrainingPipeline(unittest.TestCase):
             "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower", "T[2].lower",
             "T[0].istitle", "T[-1].istitle", "T[1].istitle",
         ]
+        dictionary = set()
 
-        # Create model
-        model = FastCRFSequenceTagger(features, dictionary)
+        # Create output directory
+        os.makedirs(self.model_path, exist_ok=True)
 
-        # Training parameters
-        training_params = {
-            "output_dir": self.model_path,
-            "params": {
-                "c1": 1.0,
-                "c2": 1e-3,
-                "max_iterations": 2,
-                "feature.possible_transitions": True,
-                "feature.possible_states": True,
-            },
-        }
+        # Create featurizer and extract features
+        featurizer = CRFFeaturizer(features, dictionary)
+        X_train = featurizer.process(train_dataset)
+        y_train = [[t[-1] for t in s] for s in train_dataset]
 
-        # Train
-        trainer = CRFTrainer(model, training_params, train_dataset, test_dataset)
-        trainer.train()
+        # Train using CRFTrainer from underthesea_core
+        trainer = CoreCRFTrainer()
+        trainer.set_l1_penalty(1.0)
+        trainer.set_l2_penalty(1e-3)
+        trainer.set_max_iterations(2)
+
+        model_file = os.path.join(self.model_path, "models.bin")
+        crf_model = trainer.train(X_train, y_train)
+        crf_model.save(model_file)
+
+        # Save features and dictionary
+        joblib.dump(features, os.path.join(self.model_path, "features.bin"))
+        joblib.dump(dictionary, os.path.join(self.model_path, "dictionary.bin"))
 
         # Verify model was saved
         self.assertTrue(os.path.exists(self.model_path))
-        self.assertTrue(os.path.exists(os.path.join(self.model_path, "models.bin")))
+        self.assertTrue(os.path.exists(model_file))
+
+        # Test loading and prediction
+        tagger = CRFTagger()
+        tagger.load(model_file)
+        y_pred = tagger.tag_batch(test_dataset, featurizer)
+        self.assertEqual(len(y_pred), len(test_dataset))
 
 
 if __name__ == "__main__":

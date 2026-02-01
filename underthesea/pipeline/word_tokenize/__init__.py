@@ -1,6 +1,7 @@
 from os.path import dirname, join
 
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
+import joblib
+from underthesea_core import CRFTagger
 
 from .regex_tokenize import tokenize
 
@@ -41,9 +42,13 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=N
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize, fixed_words=fixed_words)
     features = [[token] for token in tokens]
     if word_tokenize_model is None:
-        word_tokenize_model = FastCRFSequenceTagger()
+        word_tokenize_model = CRFTagger()
         wd = dirname(__file__)
-        word_tokenize_model.load(join(wd, "models", "ws_crf_vlsp2013_20230727"))
+        model_dir = join(wd, "models", "ws_crf_vlsp2013_20230727")
+        word_tokenize_model.load(join(model_dir, "models.bin"))
+        features_config = joblib.load(join(model_dir, "features.bin"))
+        dictionary = joblib.load(join(model_dir, "dictionary.bin"))
+        word_tokenize_model.set_featurizer(features_config, dictionary)
     tags = word_tokenize_model.predict(features)
 
     output = []

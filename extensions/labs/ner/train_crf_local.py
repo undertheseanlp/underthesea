@@ -1,13 +1,16 @@
+import os
+import shutil
 from os.path import dirname, join
 
 import data
 import hydra
-from omegaconf import DictConfig, OmegaConf
+import joblib
 from hydra.utils import get_original_cwd
+from omegaconf import DictConfig, OmegaConf
+from seqeval.metrics import classification_report
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
-
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea.trainers.crf_trainer import CRFTrainer
 from underthesea.transformer.tagged_feature import lower_words as dictionary
 
 
@@ -43,25 +46,41 @@ def train(cfg: DictConfig) -> None:
         "T[-2][1]", "T[-1][1]", "T[0][1]", "T[1][1]", "T[2][1]",
         "T[-2,-1][1]", "T[-1,0][1]", "T[0,1][1]", "T[1,2][1]",
     ]
-    model = FastCRFSequenceTagger(features, dictionary)
 
     pwd = dirname(__file__)
     output_dir = join(pwd, "tmp/ner_20220303")
-    training_params = {
-        "output_dir": output_dir,
-        "params": {
-            "c1": 1.0,  # coefficient for L1 penalty
-            "c2": 1e-3,  # coefficient for L2 penalty
-            "max_iterations": 1000,  #
-            # include transitions that are possible, but not observed
-            "feature.possible_transitions": True,
-            "feature.possible_states": True,
-        },
-    }
 
-    trainer = CRFTrainer(model, training_params, train_dataset, test_dataset)
+    # Create output directory
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+    os.makedirs(output_dir)
 
-    trainer.train()
+    # Create featurizer and extract features
+    featurizer = CRFFeaturizer(features, dictionary)
+    X_train = featurizer.process(train_dataset)
+    y_train = [[t[-1] for t in s] for s in train_dataset]
+    y_test = [[t[-1] for t in s] for s in test_dataset]
+
+    # Train
+    trainer = CoreCRFTrainer()
+    trainer.set_l1_penalty(1.0)
+    trainer.set_l2_penalty(1e-3)
+    trainer.set_max_iterations(1000)
+
+    model_path = join(output_dir, "models.bin")
+    crf_model = trainer.train(X_train, y_train)
+    crf_model.save(model_path)
+
+    # Save features and dictionary
+    joblib.dump(features, join(output_dir, "features.bin"))
+    joblib.dump(dictionary, join(output_dir, "dictionary.bin"))
+
+    # Evaluate
+    tagger = CRFTagger()
+    tagger.load(model_path)
+    y_pred = tagger.tag_batch(test_dataset, featurizer)
+    print("Classification report:\n")
+    print(classification_report(y_test, y_pred, digits=3))
 
 
 if __name__ == "__main__":

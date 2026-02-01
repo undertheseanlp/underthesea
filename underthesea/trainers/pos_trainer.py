@@ -12,12 +12,24 @@ Example usage:
     trainer = POSTrainer(corpus)
     trainer.train(output_dir='./models/pos', max_iterations=100)
 """
+import logging
+import os
+import shutil
+from os.path import join
 from pathlib import Path
 from typing import Union
 
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea.trainers.crf_trainer import CRFTrainer
+import joblib
+from seqeval.metrics import classification_report
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
+
 from underthesea.transformer.tagged_feature import lower_words as dictionary
+
+logger = logging.getLogger(__name__)
+logger.setLevel(10)
+FORMAT = "%(asctime)-15s %(message)s"
+logging.basicConfig(format=FORMAT)
 
 # Default feature templates for POS tagging
 DEFAULT_FEATURES = [
@@ -157,29 +169,64 @@ class POSTrainer:
         # Load datasets
         self._load_datasets()
 
-        # Create model
-        model = FastCRFSequenceTagger(self.features, self._dictionary)
-
         # Convert to Path and ensure it's a string for the trainer
-        output_path = str(Path(output_dir))
+        output_dir = str(Path(output_dir))
 
-        # Configure training parameters
-        training_params = {
-            "output_dir": output_path,
-            "params": {
-                "c1": c1,
-                "c2": c2,
-                "max_iterations": max_iterations,
-                "feature.possible_transitions": True,
-                "feature.possible_states": True,
-            },
-        }
+        # Create output directory
+        if os.path.exists(output_dir):
+            shutil.rmtree(output_dir)
+        os.makedirs(output_dir)
 
-        # Create and run trainer
-        trainer = CRFTrainer(
-            model,
-            training_params,
-            self._train_dataset,
-            self._test_dataset
-        )
-        trainer.train()
+        # Create featurizer
+        featurizer = CRFFeaturizer(self.features, self._dictionary)
+        logger.info("Start feature extraction")
+
+        X_train = featurizer.process(self._train_dataset)
+        y_train = [[t[-1] for t in s] for s in self._train_dataset]
+        y_test = [[t[-1] for t in s] for s in self._test_dataset]
+        logger.info("Finish feature extraction")
+
+        # Train
+        logger.info("Start train")
+        trainer = CoreCRFTrainer()
+        trainer.set_l1_penalty(c1)
+        trainer.set_l2_penalty(c2)
+        trainer.set_max_iterations(max_iterations)
+
+        model_path = join(output_dir, "models.bin")
+        crf_model = trainer.train(X_train, y_train)
+        crf_model.save(model_path)
+        logger.info("Finish train")
+
+        # Save features and dictionary
+        joblib.dump(self.features, join(output_dir, "features.bin"))
+        joblib.dump(self._dictionary, join(output_dir, "dictionary.bin"))
+
+        # Evaluate on test set
+        logger.info("Start evaluation")
+        tagger = CRFTagger()
+        tagger.load(model_path)
+        y_pred = tagger.tag_batch(self._test_dataset, featurizer)
+
+        # Write test output
+        sentences = [[item[0] for item in sentence] for sentence in self._test_dataset]
+        sentences = zip(sentences, y_test, y_pred)
+        texts = []
+        for s in sentences:
+            tokens, y_true, y_pred_ = s
+            tokens_ = []
+            for i in range(len(tokens)):
+                if tokens[i] == "":
+                    token = "X"
+                else:
+                    token = tokens[i]
+                tokens_.append(token + "\t" + y_true[i] + "\t" + y_pred_[i])
+            text = "\n".join(tokens_)
+            texts.append(text)
+        text = "\n\n".join(texts)
+        tmp_output_path = join(output_dir, "test_output.txt")
+        open(tmp_output_path, "w").write(text)
+
+        print("Classification report:\n")
+        print(classification_report(y_test, y_pred, digits=3))
+        logger.info("Finish evaluation")

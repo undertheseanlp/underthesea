@@ -1,8 +1,14 @@
+import os
+import shutil
 from os.path import dirname, join
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-from underthesea.trainers.crf_trainer import CRFTrainer
-from underthesea.transformer.tagged_feature import lower_words as dictionary
+
+import joblib
 from datasets import load_dataset
+from seqeval.metrics import classification_report
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
+
+from underthesea.transformer.tagged_feature import lower_words as dictionary
 from underthesea.utils.preprocess_dataset import preprocess_word_tokenize_dataset
 
 features = [
@@ -51,22 +57,14 @@ features = [
     "T[-1,1].is_in_dict",
     "T[0,2].is_in_dict",
 ]
-model = FastCRFSequenceTagger(features, dictionary)
 
 pwd = dirname(__file__)
 output_dir = join(pwd, "tmp/ws_20220224")
-training_params = {
-    "output_dir": output_dir,
-    "params": {
-        "c1": 1.0,  # coefficient for L1 penalty
-        "c2": 1e-3,  # coefficient for L2 penalty
-        "max_iterations": 1000,  #
-        # include transitions that are possible, but not observed
-        "feature.possible_transitions": True,
-        "feature.possible_states": True,
-    },
-}
 
+# Create output directory
+if os.path.exists(output_dir):
+    shutil.rmtree(output_dir)
+os.makedirs(output_dir)
 
 dataset = load_dataset("undertheseanlp/UTS_WTK", "base")
 corpus = preprocess_word_tokenize_dataset(dataset)
@@ -76,6 +74,29 @@ test_dataset = corpus["test"]
 print("Train dataset", len(train_dataset))
 print("Test dataset", len(test_dataset))
 
-trainer = CRFTrainer(model, training_params, train_dataset, test_dataset)
+# Create featurizer and extract features
+featurizer = CRFFeaturizer(features, dictionary)
+X_train = featurizer.process(train_dataset)
+y_train = [[t[-1] for t in s] for s in train_dataset]
+y_test = [[t[-1] for t in s] for s in test_dataset]
 
-trainer.train()
+# Train
+trainer = CoreCRFTrainer()
+trainer.set_l1_penalty(1.0)
+trainer.set_l2_penalty(1e-3)
+trainer.set_max_iterations(1000)
+
+model_path = join(output_dir, "models.bin")
+crf_model = trainer.train(X_train, y_train)
+crf_model.save(model_path)
+
+# Save features and dictionary
+joblib.dump(features, join(output_dir, "features.bin"))
+joblib.dump(dictionary, join(output_dir, "dictionary.bin"))
+
+# Evaluate
+tagger = CRFTagger()
+tagger.load(model_path)
+y_pred = tagger.tag_batch(test_dataset, featurizer)
+print("Classification report:\n")
+print(classification_report(y_test, y_pred, digits=3))
