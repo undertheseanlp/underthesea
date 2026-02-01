@@ -59,13 +59,7 @@ class CRFTrainer:
         logger.info("Start tagger")
         tagger = CRFTagger()
         tagger.load(model_path)
-        # Use optimized method if available (underthesea_core >= 3.0.4)
-        if hasattr(tagger, 'tag_batch'):
-            y_pred = tagger.tag_batch(self.test_dataset, featurizer)
-        else:
-            # Fallback for older versions
-            X_test = featurizer.process(self.test_dataset)
-            y_pred = [tagger.tag(x_seq) for x_seq in X_test]
+        y_pred = tagger.tag_batch(self.test_dataset, featurizer)
         sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
         texts = []
