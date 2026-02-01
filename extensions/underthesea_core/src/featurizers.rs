@@ -178,14 +178,19 @@ impl CRFFeaturizer {
     pub fn process(&self, sentences: Vec<Vec<Vec<String>>>) -> Vec<Vec<Vec<String>>> {
         let mut sentences_features = Vec::new();
         for sentence in sentences {
-            // generate features for each sentence
-            let mut sentence_features = Vec::new();
-            for position in 0..sentence.len() {
-                let token_features = self.generate_token_features(&sentence, position);
-                sentence_features.push(token_features);
-            }
+            let sentence_features = self.process_single(sentence);
             sentences_features.push(sentence_features);
         }
         return sentences_features;
+    }
+
+    /// Process a single sentence and return features for each token
+    pub fn process_single(&self, sentence: Vec<Vec<String>>) -> Vec<Vec<String>> {
+        let mut sentence_features = Vec::new();
+        for position in 0..sentence.len() {
+            let token_features = self.generate_token_features(&sentence, position);
+            sentence_features.push(token_features);
+        }
+        return sentence_features;
     }
 }

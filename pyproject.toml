@@ -17,7 +17,7 @@ dependencies = [
     'joblib',
     'scikit-learn>=1.6.1',
     'PyYAML',
-    'underthesea_core>=3.0.3',
+    'underthesea_core>=3.0.4',
     'huggingface-hub'
 ]
 classifiers=[

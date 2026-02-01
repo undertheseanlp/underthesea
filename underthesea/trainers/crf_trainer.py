@@ -35,15 +35,8 @@ class CRFTrainer:
         logger.info("Start feature extraction")
 
         X_train = featurizer.process(self.train_dataset)
-        y_train = []
-        for s in self.train_dataset:
-            yi = [t[-1] for t in s]
-            y_train.append(yi)
-        X_test = featurizer.process(self.test_dataset)
-        y_test = []
-        for s in self.test_dataset:
-            yi = [t[-1] for t in s]
-            y_test.append(yi)
+        y_train = [[t[-1] for t in s] for s in self.train_dataset]
+        y_test = [[t[-1] for t in s] for s in self.test_dataset]
         logger.info("Finish feature extraction")
 
         # Train
@@ -66,7 +59,8 @@ class CRFTrainer:
         logger.info("Start tagger")
         tagger = CRFTagger()
         tagger.load(model_path)
-        y_pred = [tagger.tag(x_seq) for x_seq in X_test]
+        # Optimized: batch prediction in Rust
+        y_pred = tagger.tag_batch(self.test_dataset, featurizer)
         sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
         texts = []

@@ -184,6 +184,33 @@ impl PyCRFTagger {
         self.tagger.tag(&features)
     }
 
+    /// Tag tokens directly using a featurizer (optimized - no Python roundtrip)
+    ///
+    /// Args:
+    ///     tokens: List of token data, where each token is a list of strings
+    ///             (e.g., [["word1", "pos1"], ["word2", "pos2"]])
+    ///     featurizer: CRFFeaturizer to extract features
+    ///
+    /// Returns:
+    ///     List of label strings
+    pub fn tag_tokens(&self, tokens: Vec<Vec<String>>, featurizer: &CRFFeaturizer) -> Vec<String> {
+        let features = featurizer.object.process_single(tokens);
+        self.tagger.tag(&features)
+    }
+
+    /// Batch tag multiple sequences using a featurizer (optimized)
+    ///
+    /// Args:
+    ///     sequences: List of sequences, where each sequence is a list of tokens
+    ///     featurizer: CRFFeaturizer to extract features
+    ///
+    /// Returns:
+    ///     List of tag sequences
+    pub fn tag_batch(&self, sequences: Vec<Vec<Vec<String>>>, featurizer: &CRFFeaturizer) -> Vec<Vec<String>> {
+        let all_features = featurizer.object.process(sequences);
+        all_features.iter().map(|features| self.tagger.tag(features)).collect()
+    }
+
     /// Tag a sequence and return the score along with labels
     pub fn tag_with_score(&self, features: Vec<Vec<String>>) -> (Vec<String>, f64) {
         let result = self.tagger.tag_with_score(&features);

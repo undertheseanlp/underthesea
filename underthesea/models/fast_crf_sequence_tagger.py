@@ -25,7 +25,6 @@ class FastCRFSequenceTagger:
         joblib.dump(self.dictionary, join(base_path, self.path_dictionary))
 
     def load(self, base_path):
-        # print(base_path)
         model_path = str(Path(base_path) / self.path_model)
         estimator = CRFTagger()
         estimator.load(model_path)
@@ -36,6 +35,9 @@ class FastCRFSequenceTagger:
         self.estimator = estimator
 
     def predict(self, tokens):
-        x = self.featurizer.process([tokens])[0]
-        tags = self.estimator.tag(x)
-        return tags
+        # Optimized: featurize + tag in single Rust call
+        return self.estimator.tag_tokens(tokens, self.featurizer)
+
+    def predict_batch(self, sequences):
+        # Optimized: batch featurize + tag in Rust
+        return self.estimator.tag_batch(sequences, self.featurizer)
