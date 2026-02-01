@@ -7,6 +7,7 @@
 //! - Structured perceptron training
 //! - CRFsuite binary format compatibility
 
+pub mod crfsuite_format;
 pub mod features;
 pub mod model;
 pub mod serialization;

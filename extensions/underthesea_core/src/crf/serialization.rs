@@ -4,11 +4,12 @@
 //! - Native binary format (bincode-based, fast and compact)
 //! - CRFsuite binary format (for compatibility with existing models)
 
+use super::crfsuite_format::{write_crfsuite_model, CRFsuiteFeature};
 use super::model::CRFModel;
 use byteorder::{LittleEndian, ReadBytesExt};
 use serde::{Deserialize, Serialize};
 use std::fs::File;
-use std::io::{BufReader, BufWriter, Read, Write};
+use std::io::{BufReader, BufWriter, Cursor, Read, Seek, Write};
 use std::path::Path;
 
 /// Supported model file formats.
@@ -58,7 +59,7 @@ impl ModelSaver {
     ) -> Result<(), String> {
         match format {
             CRFFormat::Native | CRFFormat::Auto => self.save_native(model, path),
-            CRFFormat::CRFsuite => Err("Writing CRFsuite format is not supported".to_string()),
+            CRFFormat::CRFsuite => self.save_crfsuite(model, path),
         }
     }
 
@@ -78,6 +79,60 @@ impl ModelSaver {
 
         writer
             .flush()
+            .map_err(|e| format!("Failed to flush: {}", e))?;
+
+        Ok(())
+    }
+
+    /// Save model in CRFsuite format for compatibility with python-crfsuite.
+    fn save_crfsuite<P: AsRef<Path>>(&self, model: &CRFModel, path: P) -> Result<(), String> {
+        let file = File::create(path).map_err(|e| format!("Failed to create file: {}", e))?;
+        let mut writer = BufWriter::new(file);
+
+        // Collect labels
+        let labels: Vec<String> = (0..model.num_labels)
+            .filter_map(|i| model.labels.get_label(i as u32).map(|s| s.to_string()))
+            .collect();
+
+        // Collect attributes
+        let attributes: Vec<String> = (0..model.num_attributes)
+            .filter_map(|i| model.attributes.get_attr(i as u32).map(|s| s.to_string()))
+            .collect();
+
+        // Collect features
+        let mut features: Vec<CRFsuiteFeature> = Vec::new();
+
+        // State features (type=0)
+        for (&(attr_id, label_id), &weight) in model.state_weights_iter() {
+            if weight.abs() > 1e-10 {
+                features.push(CRFsuiteFeature {
+                    feat_type: 0,
+                    src: attr_id,
+                    dst: label_id,
+                    weight,
+                });
+            }
+        }
+
+        // Transition features (type=1)
+        for from_label in 0..model.num_labels {
+            for to_label in 0..model.num_labels {
+                let weight = model.get_transition(from_label as u32, to_label as u32);
+                if weight.abs() > 1e-10 {
+                    features.push(CRFsuiteFeature {
+                        feat_type: 1,
+                        src: from_label as u32,
+                        dst: to_label as u32,
+                        weight,
+                    });
+                }
+            }
+        }
+
+        // Write using the crfsuite_format module
+        write_crfsuite_model(&mut writer, &labels, &attributes, &features)?;
+
+        writer.flush()
             .map_err(|e| format!("Failed to flush: {}", e))?;
 
         Ok(())
