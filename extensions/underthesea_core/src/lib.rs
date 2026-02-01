@@ -102,11 +102,11 @@ impl PyCRFModel {
         self.model.labels.labels().to_vec()
     }
 
-    /// Save the model to a file
+    /// Save the model to a file in CRFsuite format (compatible with python-crfsuite)
     pub fn save(&self, path: String) -> PyResult<()> {
         let saver = ModelSaver::new();
         saver
-            .save(&self.model, path, CRFFormat::Native)
+            .save(&self.model, path, CRFFormat::CRFsuite)
             .map_err(pyo3::exceptions::PyIOError::new_err)
     }
 
