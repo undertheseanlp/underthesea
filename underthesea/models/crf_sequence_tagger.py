@@ -2,7 +2,7 @@ from os.path import join
 from pathlib import Path
 
 import joblib
-import pycrfsuite
+from underthesea_core import CRFTagger
 
 from underthesea.transformer.tagged import TaggedTransformer
 
@@ -25,8 +25,8 @@ class CRFSequenceTagger:
     def load(self, base_path):
         print(base_path)
         model_path = str(Path(base_path) / "model.bin")
-        estimator = pycrfsuite.Tagger()
-        estimator.open(model_path)
+        estimator = CRFTagger()
+        estimator.load(model_path)
         features = joblib.load(join(base_path, "features.bin"))
         transformer = TaggedTransformer(features)
         self.transformer = transformer

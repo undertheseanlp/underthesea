@@ -12,7 +12,6 @@ license = "GPL-3.0"
 authors = [{ name = "Vu Anh", email = "anhv.ict91@gmail.com" }]
 dependencies = [
     'Click>=6.0',
-    'python-crfsuite>=0.9.6',
     'tqdm',
     'requests',
     'joblib',
