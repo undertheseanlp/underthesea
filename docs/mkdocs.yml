@@ -5,6 +5,7 @@ site_author: Vu Anh
 repo_name: undertheseanlp/underthesea
 repo_url: https://github.com/undertheseanlp/underthesea
 docs_dir: .
+site_dir: ../site
 
 theme:
   name: material
