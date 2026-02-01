@@ -335,6 +335,13 @@ impl ModelLoader {
 
     /// Read strings (labels or attributes) from CRFsuite format.
     /// CRFsuite uses a CQDB (Constant Quark Database) format for strings.
+    ///
+    /// CQDB format:
+    /// - Header (24 bytes): magic(4) + size(4) + flag(4) + byteorder(4) + bwd_size(4) + bwd_offset(4)
+    /// - Table references (2048 bytes): 256 * (offset:4 + num:4)
+    /// - Key/data pairs: for each entry: id(4) + ksize(4) + key_bytes(ksize)
+    /// - Hash tables
+    /// - Backward links: bwd_size * offset(4)
     fn read_crfsuite_strings(
         &self,
         reader: &mut BufReader<File>,
@@ -346,71 +353,95 @@ impl ModelLoader {
         use std::io::Seek;
         use std::io::SeekFrom;
 
-        // Seek to offset
-        reader
-            .seek(SeekFrom::Start(offset as u64))
-            .map_err(|e| format!("Failed to seek to strings: {}", e))?;
+        let cqdb_start = offset;
 
-        // Read CQDB header
+        // Seek to CQDB start
+        reader
+            .seek(SeekFrom::Start(cqdb_start as u64))
+            .map_err(|e| format!("Failed to seek to CQDB: {}", e))?;
+
+        // Read CQDB header (24 bytes)
         let mut cqdb_magic = [0u8; 4];
         reader
             .read_exact(&mut cqdb_magic)
             .map_err(|e| format!("Failed to read CQDB magic: {}", e))?;
 
-        // Check for CQDB magic "CQDB"
         if &cqdb_magic != b"CQDB" {
             return Err(format!("Invalid CQDB magic: {:?}", cqdb_magic));
         }
 
-        // CQDB header: flag (4) + bwd_size (4) + num_entries (4)
+        let _size = reader
+            .read_u32::<LittleEndian>()
+            .map_err(|e| format!("Failed to read CQDB size: {}", e))?;
         let _flag = reader
             .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read CQDB flag: {}", e))?;
-        let _bwd_size = reader
+        let _byteorder = reader
+            .read_u32::<LittleEndian>()
+            .map_err(|e| format!("Failed to read CQDB byteorder: {}", e))?;
+        let bwd_size = reader
             .read_u32::<LittleEndian>()
             .map_err(|e| format!("Failed to read CQDB bwd_size: {}", e))?;
-        let num_entries = reader
+        let bwd_offset = reader
             .read_u32::<LittleEndian>()
-            .map_err(|e| format!("Failed to read CQDB num_entries: {}", e))?;
+            .map_err(|e| format!("Failed to read CQDB bwd_offset: {}", e))?;
 
-        // Read forward index
-        let mut fwd_offsets = Vec::with_capacity(num_entries as usize);
-        for _ in 0..num_entries {
+        // Read backward links (id -> offset mapping)
+        // bwd_offset is relative to CQDB start
+        reader
+            .seek(SeekFrom::Start((cqdb_start + bwd_offset) as u64))
+            .map_err(|e| format!("Failed to seek to backward table: {}", e))?;
+
+        let num_to_read = std::cmp::min(count, bwd_size);
+        let mut bwd_offsets = Vec::with_capacity(num_to_read as usize);
+        for _ in 0..num_to_read {
             let off = reader
                 .read_u32::<LittleEndian>()
-                .map_err(|e| format!("Failed to read fwd offset: {}", e))?;
-            fwd_offsets.push(off);
+                .map_err(|e| format!("Failed to read backward offset: {}", e))?;
+            bwd_offsets.push(off);
         }
 
-        // Read strings
-        let base_offset = reader
-            .stream_position()
-            .map_err(|e| format!("Failed to get position: {}", e))?
-            as u32;
-
-        for (i, &str_off) in fwd_offsets.iter().enumerate() {
-            if i >= count as usize {
-                break;
+        // Read strings using backward offsets
+        // Each entry at offset: id(4) + ksize(4) + key_bytes(ksize, null-terminated)
+        for (id, &entry_offset) in bwd_offsets.iter().enumerate() {
+            if entry_offset == 0 {
+                continue; // Empty slot
             }
 
+            // entry_offset is absolute (from file start, as stored during write)
+            // But we need to adjust: writer stores offset relative to file, not CQDB
+            // Actually, looking at writer: offset = CQDB_HEADER_SIZE + CQDB_TABLEREF_SIZE + data_pos
+            // And that's stored as-is in backward table
+            // So the offset stored is relative to CQDB start
             reader
-                .seek(SeekFrom::Start((base_offset + str_off) as u64))
-                .map_err(|e| format!("Failed to seek to string: {}", e))?;
+                .seek(SeekFrom::Start((cqdb_start + entry_offset) as u64))
+                .map_err(|e| format!("Failed to seek to entry at offset {}: {}", entry_offset, e))?;
 
-            // Read null-terminated string
-            let mut bytes = Vec::new();
-            loop {
-                let mut byte = [0u8; 1];
-                reader
-                    .read_exact(&mut byte)
-                    .map_err(|e| format!("Failed to read string byte: {}", e))?;
-                if byte[0] == 0 {
-                    break;
-                }
-                bytes.push(byte[0]);
+            // Read entry: id(4) + ksize(4) + key_bytes
+            let stored_id = reader
+                .read_u32::<LittleEndian>()
+                .map_err(|e| format!("Failed to read entry id: {}", e))?;
+
+            if stored_id != id as u32 {
+                // Mismatch, but continue - backward table might have different ordering
             }
 
-            let s = String::from_utf8_lossy(&bytes).to_string();
+            let ksize = reader
+                .read_u32::<LittleEndian>()
+                .map_err(|e| format!("Failed to read key size: {}", e))?;
+
+            // Read key bytes (includes null terminator)
+            let mut key_bytes = vec![0u8; ksize as usize];
+            reader
+                .read_exact(&mut key_bytes)
+                .map_err(|e| format!("Failed to read key bytes: {}", e))?;
+
+            // Remove null terminator if present
+            if let Some(null_pos) = key_bytes.iter().position(|&b| b == 0) {
+                key_bytes.truncate(null_pos);
+            }
+
+            let s = String::from_utf8_lossy(&key_bytes).to_string();
 
             if is_labels {
                 model.labels.get_or_insert(&s);
@@ -426,6 +457,10 @@ impl ModelLoader {
     }
 
     /// Read features from CRFsuite format.
+    ///
+    /// Features chunk format:
+    /// - Chunk header: magic("FEAT", 4) + size(4) + num_features(4)
+    /// - Features: for each feature: type(4) + src(4) + dst(4) + weight(8)
     fn read_crfsuite_features(
         &self,
         reader: &mut BufReader<File>,
@@ -436,10 +471,30 @@ impl ModelLoader {
         use std::io::Seek;
         use std::io::SeekFrom;
 
-        // Seek to features offset
+        // Seek to features chunk
         reader
             .seek(SeekFrom::Start(offset as u64))
             .map_err(|e| format!("Failed to seek to features: {}", e))?;
+
+        // Read chunk header: magic(4) + size(4) + num_features(4)
+        let mut magic = [0u8; 4];
+        reader
+            .read_exact(&mut magic)
+            .map_err(|e| format!("Failed to read FEAT magic: {}", e))?;
+
+        if &magic != b"FEAT" {
+            return Err(format!("Invalid FEAT magic: {:?}", magic));
+        }
+
+        let _chunk_size = reader
+            .read_u32::<LittleEndian>()
+            .map_err(|e| format!("Failed to read FEAT chunk size: {}", e))?;
+        let num_features = reader
+            .read_u32::<LittleEndian>()
+            .map_err(|e| format!("Failed to read num features: {}", e))?;
+
+        // Use the count from chunk header if available, otherwise use header count
+        let actual_count = if num_features > 0 { num_features } else { count };
 
         // Initialize transition weights matrix
         let num_labels = model.num_labels;
@@ -449,7 +504,7 @@ impl ModelLoader {
         }
 
         // Read each feature (20 bytes each)
-        for _ in 0..count {
+        for _ in 0..actual_count {
             // Feature type (4 bytes): 0 = state, 1 = transition
             let feat_type = reader
                 .read_u32::<LittleEndian>()
