@@ -4,7 +4,7 @@ build-backend = "maturin"
 
 [project]
 name = "underthesea_core"
-version = "3.0.1"
+version = "3.0.2"
 authors = [{name = "Vu Anh", email = "anhv.ict91@gmail.com"}]
 description = "Underthesea Core"
 license = {text = "GPL-3.0"}

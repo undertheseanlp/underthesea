@@ -80,6 +80,7 @@ jobs:
         dir target\wheels\
     - name: Publish to PyPI
       working-directory: ./extensions/underthesea_core
+      shell: bash
       run: |
         pip install twine
         twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
