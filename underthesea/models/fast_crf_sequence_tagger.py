@@ -35,9 +35,16 @@ class FastCRFSequenceTagger:
         self.estimator = estimator
 
     def predict(self, tokens):
-        # Optimized: featurize + tag in single Rust call
-        return self.estimator.tag_tokens(tokens, self.featurizer)
+        # Use optimized method if available (underthesea_core >= 3.0.4)
+        if hasattr(self.estimator, 'tag_tokens'):
+            return self.estimator.tag_tokens(tokens, self.featurizer)
+        # Fallback for older versions
+        x = self.featurizer.process([tokens])[0]
+        return self.estimator.tag(x)
 
     def predict_batch(self, sequences):
-        # Optimized: batch featurize + tag in Rust
-        return self.estimator.tag_batch(sequences, self.featurizer)
+        # Use optimized method if available (underthesea_core >= 3.0.4)
+        if hasattr(self.estimator, 'tag_batch'):
+            return self.estimator.tag_batch(sequences, self.featurizer)
+        # Fallback for older versions
+        return [self.predict(seq) for seq in sequences]
