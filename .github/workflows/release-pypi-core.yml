@@ -46,14 +46,16 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
       - name: Install maturin
         run: pip install maturin
-      - name: Build and publish
+      - name: Build wheel
         working-directory: ./extensions/underthesea_core
-        env:
-          MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
         run: |
           maturin build --release --strip --interpreter python${{ matrix.python-version }}
           find ./target/wheels/
-          maturin publish --skip-existing --interpreter python${{ matrix.python-version }}
+      - name: Publish to PyPI
+        working-directory: ./extensions/underthesea_core
+        run: |
+          pip install twine
+          twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
   windows:
     name: "Windows"
     if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
@@ -71,14 +73,16 @@ jobs:
       uses: dtolnay/rust-toolchain@stable
     - name: Install maturin
       run: pip install maturin
-    - name: Build and publish
+    - name: Build wheel
       working-directory: ./extensions/underthesea_core
-      env:
-        MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
       run: |
         maturin build --release --strip --interpreter python
         dir target\wheels\
-        maturin publish --skip-existing --interpreter python
+    - name: Publish to PyPI
+      working-directory: ./extensions/underthesea_core
+      run: |
+        pip install twine
+        twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
   macos:
     name: "MacOS"
     if: contains(github.event.head_commit.message, 'Publish Underthesea Core')
@@ -97,12 +101,14 @@ jobs:
       uses: dtolnay/rust-toolchain@stable
     - name: Install maturin
       run: pip install maturin
-    - name: Build and publish
+    - name: Build wheel
       working-directory: ./extensions/underthesea_core
-      env:
-        MATURIN_PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
       run: |
         maturin build --release --strip --interpreter python${{ matrix.python-version }}
         find ./target/wheels/
         pip install target/wheels/underthesea_core*.whl
-        maturin publish --skip-existing --interpreter python${{ matrix.python-version }}
+    - name: Publish to PyPI
+      working-directory: ./extensions/underthesea_core
+      run: |
+        pip install twine
+        twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
