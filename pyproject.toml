@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "underthesea"
-version = "9.2.0"
+version = "9.2.1"
 description = "Vietnamese NLP Toolkit"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -18,7 +18,7 @@ dependencies = [
     'joblib',
     'scikit-learn>=1.6.1',
     'PyYAML',
-    'underthesea_core>=2.0.0',
+    'underthesea_core>=3.0.3',
     'huggingface-hub'
 ]
 classifiers=[
