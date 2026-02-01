@@ -1,7 +1,5 @@
 from os.path import dirname, join
 
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-
 from .regex_tokenize import tokenize
 
 word_tokenize_model = None
@@ -41,6 +39,8 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=N
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize, fixed_words=fixed_words)
     features = [[token] for token in tokens]
     if word_tokenize_model is None:
+        # Lazy import to avoid loading underthesea_core at module load time
+        from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
         word_tokenize_model = FastCRFSequenceTagger()
         wd = dirname(__file__)
         word_tokenize_model.load(join(wd, "models", "ws_crf_vlsp2013_20230727"))

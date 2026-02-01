@@ -1,7 +1,5 @@
 from os.path import dirname, join
 
-from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
-
 from .model_crf import CRFPOSTagPredictor
 
 pos_model_v2 = None
@@ -42,6 +40,8 @@ def pos_tag(sentence, format=None, model=None):
     sentence = word_tokenize(sentence)
     if model == "v2.0":
         if pos_model_v2 is None:
+            # Lazy import to avoid loading underthesea_core at module load time
+            from underthesea.models.fast_crf_sequence_tagger import FastCRFSequenceTagger
             pos_model_v2 = FastCRFSequenceTagger()
             wd = dirname(__file__)
             pos_model_v2.load(join(wd, "models", "pos_crf_vlsp2013_20230303"))
