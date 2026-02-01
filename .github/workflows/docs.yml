@@ -5,13 +5,11 @@ on:
     branches: [main]
     paths:
       - 'docs/**'
-      - 'mkdocs.yml'
       - '.github/workflows/docs.yml'
   pull_request:
     branches: [main]
     paths:
       - 'docs/**'
-      - 'mkdocs.yml'
       - '.github/workflows/docs.yml'
   workflow_dispatch:
 
@@ -43,8 +41,8 @@ jobs:
       - name: Build documentation
         run: |
           # Set correct site_url for GitHub Pages
-          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/|" mkdocs.yml
-          mkdocs build --strict
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/|" docs/mkdocs.yml
+          mkdocs build --config-file docs/mkdocs.yml --strict
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
@@ -72,8 +70,8 @@ jobs:
           # Set site_url for PR preview subdirectory
           PR_NUM="${{ github.event.pull_request.number }}"
           PR_BASE_PATH="/underthesea/pr-preview/pr-${PR_NUM}"
-          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io${PR_BASE_PATH}/|" mkdocs.yml
-          mkdocs build --strict
+          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io${PR_BASE_PATH}/|" docs/mkdocs.yml
+          mkdocs build --config-file docs/mkdocs.yml --strict
 
           # Fix absolute paths in generated files to use PR preview path
           find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|href=\"/|href=\"${PR_BASE_PATH}/|g" {} \;
