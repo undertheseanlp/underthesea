@@ -1,7 +1,7 @@
 import logging
 
-import pycrfsuite
-from underthesea_core import CRFFeaturizer
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
 from underthesea.transformer.tagged_feature import lower_words
 
@@ -27,18 +27,22 @@ class Trainer:
 
         # Train
         logger.info("Start train")
-        trainer = pycrfsuite.Trainer(verbose=True)
-        for xseq, yseq in zip(X_train, y_train):
-            trainer.append(xseq, yseq)
-        trainer.set_params(params)
+        trainer = CoreCRFTrainer()
+        if "c1" in params:
+            trainer.set_l1_penalty(params["c1"])
+        if "c2" in params:
+            trainer.set_l2_penalty(params["c2"])
+        if "max_iterations" in params:
+            trainer.set_max_iterations(params["max_iterations"])
         filename = 'tmp/model.tmp'
-        trainer.train(filename)
+        model = trainer.train(X_train, y_train)
+        model.save(filename)
         logger.info("Finish train")
 
         # Tagger
         logger.info("Start tagger")
-        tagger = pycrfsuite.Tagger()
-        tagger.open(filename)
+        tagger = CRFTagger()
+        tagger.load(filename)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
         sentences = [[item[0] for item in sentence] for sentence in self.corpus.test]
         sentences = zip(sentences, y_test, y_pred)

@@ -2,8 +2,9 @@ from os import makedirs
 from os.path import exists, join
 from shutil import rmtree
 
-import pycrfsuite
 from seqeval.metrics import accuracy_score, classification_report
+from underthesea_core import CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
 from underthesea.file_utils import UNDERTHESEA_FOLDER
 from underthesea.transformer.tagged import TaggedTransformer
@@ -32,18 +33,22 @@ class ModelTrainer:
 
         # Train
         logger.info("Start train")
-        trainer = pycrfsuite.Trainer(verbose=True)
-        for xseq, yseq in zip(X_train, y_train):
-            trainer.append(xseq, yseq)
-        trainer.set_params(params)
+        trainer = CoreCRFTrainer()
+        if "c1" in params:
+            trainer.set_l1_penalty(params["c1"])
+        if "c2" in params:
+            trainer.set_l2_penalty(params["c2"])
+        if "max_iterations" in params:
+            trainer.set_max_iterations(params["max_iterations"])
         filename = join(base_path, 'model.bin')
-        trainer.train(filename)
+        model = trainer.train(X_train, y_train)
+        model.save(filename)
         logger.info("Finish train")
 
         # Tagger
         logger.info("Start tagger")
-        tagger = pycrfsuite.Tagger()
-        tagger.open(filename)
+        tagger = CRFTagger()
+        tagger.load(filename)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
         y_true = y_test
         print(classification_report(y_true, y_pred, digits=4))
