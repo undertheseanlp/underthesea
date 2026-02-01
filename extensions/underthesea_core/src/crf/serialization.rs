@@ -132,7 +132,8 @@ impl ModelSaver {
         // Write using the crfsuite_format module
         write_crfsuite_model(&mut writer, &labels, &attributes, &features)?;
 
-        writer.flush()
+        writer
+            .flush()
             .map_err(|e| format!("Failed to flush: {}", e))?;
 
         Ok(())
