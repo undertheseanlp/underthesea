@@ -206,9 +206,16 @@ impl PyCRFTagger {
     ///
     /// Returns:
     ///     List of tag sequences
-    pub fn tag_batch(&self, sequences: Vec<Vec<Vec<String>>>, featurizer: &CRFFeaturizer) -> Vec<Vec<String>> {
+    pub fn tag_batch(
+        &self,
+        sequences: Vec<Vec<Vec<String>>>,
+        featurizer: &CRFFeaturizer,
+    ) -> Vec<Vec<String>> {
         let all_features = featurizer.object.process(sequences);
-        all_features.iter().map(|features| self.tagger.tag(features)).collect()
+        all_features
+            .iter()
+            .map(|features| self.tagger.tag(features))
+            .collect()
     }
 
     /// Tag a sequence and return the score along with labels

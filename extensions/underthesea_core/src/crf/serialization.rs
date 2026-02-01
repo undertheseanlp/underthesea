@@ -415,7 +415,9 @@ impl ModelLoader {
             // So the offset stored is relative to CQDB start
             reader
                 .seek(SeekFrom::Start((cqdb_start + entry_offset) as u64))
-                .map_err(|e| format!("Failed to seek to entry at offset {}: {}", entry_offset, e))?;
+                .map_err(|e| {
+                    format!("Failed to seek to entry at offset {}: {}", entry_offset, e)
+                })?;
 
             // Read entry: id(4) + ksize(4) + key_bytes
             let stored_id = reader
@@ -494,7 +496,11 @@ impl ModelLoader {
             .map_err(|e| format!("Failed to read num features: {}", e))?;
 
         // Use the count from chunk header if available, otherwise use header count
-        let actual_count = if num_features > 0 { num_features } else { count };
+        let actual_count = if num_features > 0 {
+            num_features
+        } else {
+            count
+        };
 
         // Initialize transition weights matrix
         let num_labels = model.num_labels;

@@ -90,7 +90,9 @@ jobs:
         run: pip install maturin
 
       - name: Build Python extension
-        run: maturin build --release
+        run: |
+          rm -rf target/wheels/*.whl
+          maturin build --release
 
       - name: Test Python import
         run: |
