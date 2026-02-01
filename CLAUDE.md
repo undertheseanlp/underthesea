@@ -92,7 +92,9 @@ Tests use Python's built-in `unittest` framework. Test files mirror the source s
 
 ## Git Commits
 
-Commits must have only one author and committer: `Vu Anh <anhv.ict91@gmail.com>`. Do not add any co-authors.
+- Author and committer must be `Vu Anh <anhv.ict91@gmail.com>` only
+- **Do NOT add `Co-Authored-By` lines** (including Claude Code co-author)
+- Keep commit messages concise and descriptive
 
 ## Python Version
 
