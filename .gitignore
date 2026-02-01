@@ -80,3 +80,7 @@ node_modules
 uv.lock
 *.wav
 .env
+
+# Claude Code
+CLAUDE.md
+.claude/
