@@ -26,120 +26,156 @@ jobs:
           fi
           echo "✓ Versions match"
 
-  source_distribute:
-    name: "Source Distribute"
+  sdist:
+    name: "Source Distribution"
     needs: verify-version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.10"
-      - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
-      - name: Install maturin
-        run: pip install maturin
       - name: Remove target-cpu=native for portable binary
         run: rm -f ./extensions/underthesea_core/.cargo/config.toml
       - name: Build sdist
-        working-directory: ./extensions/underthesea_core
-        run: maturin sdist
-      - name: Publish sdist
-        working-directory: ./extensions/underthesea_core
-        run: |
-          pip install twine
-          twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
+        uses: PyO3/maturin-action@v1
+        with:
+          command: sdist
+          args: --out dist
+          working-directory: ./extensions/underthesea_core
+      - name: Upload sdist
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-sdist
+          path: ./extensions/underthesea_core/dist
 
   linux:
-    name: "Linux"
+    name: "Linux ${{ matrix.target }}"
     needs: verify-version
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        target: [x86_64, aarch64]
     steps:
       - uses: actions/checkout@v4
       - name: Remove target-cpu=native for portable binary
         run: rm -f ./extensions/underthesea_core/.cargo/config.toml
-      - name: Build wheels with manylinux
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Build wheels
         uses: PyO3/maturin-action@v1
         with:
-          working-directory: ./extensions/underthesea_core
-          target: x86_64
-          args: --release --strip --out dist -i python${{ matrix.python-version }}
+          target: ${{ matrix.target }}
+          args: --release --out dist -i 3.10 3.11 3.12 3.13 3.14
           manylinux: auto
+          working-directory: ./extensions/underthesea_core
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
-          name: wheels-linux-${{ matrix.python-version }}
+          name: wheels-linux-${{ matrix.target }}
           path: ./extensions/underthesea_core/dist
-      - name: Publish to PyPI
-        working-directory: ./extensions/underthesea_core
-        run: |
-          pip install twine
-          twine upload --skip-existing ./dist/* -u __token__ -p "$PYPI_TOKEN"
+
+  musllinux:
+    name: "Linux musl ${{ matrix.target }}"
+    needs: verify-version
+    runs-on: ubuntu-24.04
+    strategy:
+      fail-fast: false
+      matrix:
+        target: [x86_64, aarch64]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remove target-cpu=native for portable binary
+        run: rm -f ./extensions/underthesea_core/.cargo/config.toml
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+      - name: Build wheels
+        uses: PyO3/maturin-action@v1
+        with:
+          target: ${{ matrix.target }}
+          args: --release --out dist -i 3.10 3.11 3.12 3.13 3.14
+          manylinux: musllinux_1_2
+          working-directory: ./extensions/underthesea_core
+      - name: Upload wheels
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-musllinux-${{ matrix.target }}
+          path: ./extensions/underthesea_core/dist
 
   windows:
-    name: "Windows"
+    name: "Windows ${{ matrix.target }}"
     needs: verify-version
-    runs-on: windows-latest
+    runs-on: windows-latest  # windows-2025
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        target: [x64, x86]
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install Rust toolchain
-      uses: dtolnay/rust-toolchain@stable
-    - name: Install maturin
-      run: pip install maturin
     - name: Remove target-cpu=native for portable binary
       run: Remove-Item -Force -ErrorAction SilentlyContinue .\extensions\underthesea_core\.cargo\config.toml
-    - name: Build wheel
-      working-directory: ./extensions/underthesea_core
-      run: |
-        maturin build --release --strip --interpreter python
-        dir target\wheels\
-    - name: Publish to PyPI
-      working-directory: ./extensions/underthesea_core
-      shell: bash
-      run: |
-        pip install twine
-        twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+        architecture: ${{ matrix.target }}
+    - name: Build wheels
+      uses: PyO3/maturin-action@v1
+      with:
+        target: ${{ matrix.target }}
+        args: --release --out dist -i 3.10 3.11 3.12 3.13 3.14
+        working-directory: ./extensions/underthesea_core
+    - name: Upload wheels
+      uses: actions/upload-artifact@v4
+      with:
+        name: wheels-windows-${{ matrix.target }}
+        path: ./extensions/underthesea_core/dist
 
   macos:
-    name: "MacOS"
+    name: "macOS ${{ matrix.target }}"
     needs: verify-version
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.runner }}
     strategy:
       fail-fast: false
       matrix:
-        os: [macos-15-intel, macos-latest]
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
+        include:
+          - runner: macos-15-large  # Intel x64
+            target: x86_64
+          - runner: macos-15  # Apple Silicon ARM64
+            target: aarch64
     steps:
     - uses: actions/checkout@v4
-    - uses: actions/setup-python@v5
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install Rust toolchain
-      uses: dtolnay/rust-toolchain@stable
-    - name: Install maturin
-      run: pip install maturin
     - name: Remove target-cpu=native for portable binary
       run: rm -f ./extensions/underthesea_core/.cargo/config.toml
-    - name: Build wheel
-      working-directory: ./extensions/underthesea_core
-      run: |
-        maturin build --release --strip --interpreter python${{ matrix.python-version }}
-        find ./target/wheels/
-        pip install target/wheels/underthesea_core*.whl
-    - name: Publish to PyPI
-      working-directory: ./extensions/underthesea_core
-      run: |
-        pip install twine
-        twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.x
+    - name: Build wheels
+      uses: PyO3/maturin-action@v1
+      with:
+        target: ${{ matrix.target }}
+        args: --release --out dist -i 3.10 3.11 3.12 3.13 3.14
+        working-directory: ./extensions/underthesea_core
+    - name: Upload wheels
+      uses: actions/upload-artifact@v4
+      with:
+        name: wheels-macos-${{ matrix.target }}
+        path: ./extensions/underthesea_core/dist
+
+  release:
+    name: "Publish to PyPI"
+    runs-on: ubuntu-latest
+    needs: [sdist, linux, musllinux, windows, macos]
+    steps:
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - name: List wheels
+        run: ls -la dist/
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          password: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
+          packages-dir: dist/
+          skip-existing: true
