@@ -89,11 +89,33 @@ jobs:
       - name: Install maturin
         run: pip install maturin
 
+      - name: Verify dynamic version in pyproject.toml
+        run: |
+          if ! grep -q 'dynamic = \["version"\]' pyproject.toml; then
+            echo "ERROR: pyproject.toml must use dynamic version from Cargo.toml"
+            echo "Add 'dynamic = [\"version\"]' to [project] section and remove hardcoded version"
+            exit 1
+          fi
+          echo "✓ pyproject.toml uses dynamic version from Cargo.toml"
+
       - name: Clean old wheels
         run: rm -rf target/wheels/
 
       - name: Build Python extension
         run: maturin build --release
+
+      - name: Verify wheel version matches Cargo.toml
+        run: |
+          CARGO_VERSION=$(grep '^version = ' Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          WHEEL_FILE=$(ls target/wheels/*.whl | head -1)
+          WHEEL_VERSION=$(basename "$WHEEL_FILE" | sed 's/underthesea_core-\([^-]*\)-.*/\1/')
+          echo "Cargo.toml version: $CARGO_VERSION"
+          echo "Wheel version: $WHEEL_VERSION"
+          if [ "$CARGO_VERSION" != "$WHEEL_VERSION" ]; then
+            echo "ERROR: Version mismatch! Cargo.toml=$CARGO_VERSION, Wheel=$WHEEL_VERSION"
+            exit 1
+          fi
+          echo "✓ Versions are consistent"
 
       - name: Test Python import
         run: |
