@@ -61,13 +61,13 @@ specials = "(?P<special>(" + "|".join(specials) + "))"
 abbreviations = [
     r"[A-ZĐ]+&[A-ZĐ]+",  # & at middle of word (e.g. H&M)
     r"T\.Ư",  # dot at middle of word
-    f"{UPPER}+(?:\.{W}+)+\.?",
+    rf"{UPPER}+(?:\.{W}+)+\.?",
     f"{W}+['’]{W}+",  # ' ’ at middle of word
     # e.g. H'Mông, xã N’Thôn Hạ
     r"[A-ZĐ]+\.(?!$)",  # dot at the end of word
     r"Tp\.",
-    r"Mr\.", "Mrs\.", "Ms\.",
-    r"Dr\.", "ThS\.", "Th.S", "Th.s",
+    r"Mr\.", r"Mrs\.", r"Ms\.",
+    r"Dr\.", r"ThS\.", "Th.S", "Th.s",
     r"e-mail",  # - at middle of word
     r"\d+[A-Z]+\d*-\d+",  # vehicle plates
     # e.g. 43H-0530
@@ -261,7 +261,7 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
     global recompile_regex_patterns
     global patterns
     if len(fixed_words) > 0:
-        compiled_fixed_words = [re.sub(" ", "\ ", fixed_word) for fixed_word in fixed_words]
+        compiled_fixed_words = [re.sub(" ", r"\ ", fixed_word) for fixed_word in fixed_words]
         fixed_words_pattern = "(?P<fixed_words>\\b" + "\\b|\\b".join(compiled_fixed_words) + "\\b)"
         merged_regex_patterns = [fixed_words_pattern] + regex_patterns
         regex_patterns_combine = r"(" + "|".join(merged_regex_patterns) + ")"

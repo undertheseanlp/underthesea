@@ -79,7 +79,7 @@ def template2features(sent, i, token_syntax, debug=True):
     for j in range(len(sent[0])):
         columns.append([t[j] for t in sent])
     matched = re.match(
-        "T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?",
+        r"T\[(?P<index1>\-?\d+)(\,(?P<index2>\-?\d+))?\](\[(?P<column>.*)\])?(\.(?P<function>.*))?",
         token_syntax)
     column = matched.group("column")
     column = int(column) if column else 0
