@@ -127,7 +127,7 @@ Where:
 
 | Text Length | Time (ms) |
 |-------------|-----------|
-| 100 chars | <0.1 |
+| 100 chars | &lt;0.1 |
 | 1,000 chars | ~0.5 |
 | 10,000 chars | ~5 |
 

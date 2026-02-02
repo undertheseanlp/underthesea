@@ -142,5 +142,5 @@ Other Vietnamese dependency treebanks include: [UD_Vietnamese-VTB](https://unive
 - [HuggingFace Dataset](https://huggingface.co/datasets/undertheseanlp/UDD-v0.1)
 - [Universal Dependencies](https://universaldependencies.org/)
 - [UD Vietnamese Guidelines](https://universaldependencies.org/vi/)
-- [UTS_VLC Dataset](UTS_VLC.md) - Source corpus
+- [UTS_VLC Dataset](uts-vlc.md) - Source corpus
 - [VLSP - Vietnamese Language and Speech Processing](https://vlsp.org.vn/)

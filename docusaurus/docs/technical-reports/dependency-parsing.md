@@ -284,13 +284,13 @@ Common Vietnamese dependency relations:
 | Relation | Description | Example |
 |----------|-------------|---------|
 | root | Root of sentence | Main verb |
-| nsubj | Nominal subject | Tôi (I) -> ăn (eat) |
-| obj | Direct object | cơm (rice) <- ăn (eat) |
-| cop | Copula | là (is) -> noun |
-| compound | Compound | Việt Nam <- sinh viên |
+| nsubj | Nominal subject | Tôi (I) → ăn (eat) |
+| obj | Direct object | cơm (rice) ← ăn (eat) |
+| cop | Copula | là (is) → noun |
+| compound | Compound | Việt Nam ← sinh viên |
 | nmod | Nominal modifier | của (of) relations |
-| amod | Adjectival modifier | đẹp (beautiful) -> noun |
-| advmod | Adverbial modifier | rất (very) -> adj |
+| amod | Adjectival modifier | đẹp (beautiful) → noun |
+| advmod | Adverbial modifier | rất (very) → adj |
 | punct | Punctuation | . , ! ? |
 
 ## References
