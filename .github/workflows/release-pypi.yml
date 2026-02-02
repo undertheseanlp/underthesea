@@ -1,29 +1,40 @@
+name: Release underthesea
+
 on:
   push:
-    branches: [ main ]
+    tags:
+      - 'underthesea-v*'  # Trigger on tags like underthesea-v9.2.5
 
 jobs:
-  build_and_package_pypi:
-    if: contains(github.event.head_commit.message, 'Release')
-    name: Build and package Pypi
+  verify-version:
+    name: Verify Version
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify tag matches pyproject.toml version
+        run: |
+          TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-v}"
+          PYPROJECT_VERSION=$(grep '^version = ' pyproject.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          echo "Tag version: $TAG_VERSION"
+          echo "pyproject.toml version: $PYPROJECT_VERSION"
+          if [ "$TAG_VERSION" != "$PYPROJECT_VERSION" ]; then
+            echo "ERROR: Tag version ($TAG_VERSION) does not match pyproject.toml version ($PYPROJECT_VERSION)"
+            exit 1
+          fi
+          echo "✓ Versions match"
+
+  build_and_publish:
+    name: Build and Publish to PyPI
+    needs: verify-version
     permissions:
       id-token: write
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
+      - name: Checkout repository
         uses: actions/checkout@v4
       - name: Install pypa/build
-        run: >-
-          python -m
-          pip install
-          build
-          --user
+        run: python -m pip install build --user
       - name: Build a binary wheel and a source tarball
-        run: >-
-          python -m
-          build
-          --sdist
-          --wheel
-          --outdir dist/
-      - name: Publish distribution 📦 to PyPI
+        run: python -m build --sdist --wheel --outdir dist/
+      - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
