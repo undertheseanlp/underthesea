@@ -31,6 +31,10 @@ const config = {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',
         },
+        blog: {
+          showReadingTime: true,
+          editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -76,6 +80,11 @@ const config = {
             position: 'left',
           },
           {
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/undertheseanlp/underthesea',
             label: 'GitHub',
             position: 'right',
@@ -114,6 +123,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/undertheseanlp/underthesea',
