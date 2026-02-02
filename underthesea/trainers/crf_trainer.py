@@ -4,7 +4,8 @@ import shutil
 from os.path import join
 
 from seqeval.metrics import classification_report
-from underthesea_core import CRFFeaturizer, CRFTagger, CRFTrainer as CoreCRFTrainer
+from underthesea_core import CRFFeaturizer, CRFTagger
+from underthesea_core import CRFTrainer as CoreCRFTrainer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
