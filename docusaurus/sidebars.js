@@ -1,0 +1,67 @@
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebars = {
+  docsSidebar: [
+    'intro',
+    {
+      type: 'category',
+      label: 'Technical Reports',
+      items: [
+        'technical-reports/sent-tokenize',
+        'technical-reports/dependency-parsing',
+        'technical-reports/voice',
+        {
+          type: 'category',
+          label: 'Agents',
+          items: [
+            'technical-reports/agents/index',
+            'technical-reports/agents/tools',
+            'technical-reports/agents/comparison',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'API Reference',
+      items: [
+        'api/index',
+        'api/sent-tokenize',
+        'api/text-normalize',
+        'api/word-tokenize',
+        'api/pos-tag',
+        'api/chunk',
+        'api/dependency-parse',
+        'api/ner',
+        'api/classify',
+        'api/sentiment',
+        'api/translate',
+        'api/lang-detect',
+        'api/tts',
+        'api/agent',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Datasets',
+      items: [
+        'datasets/uts-vlc',
+        'datasets/uud-v0.1',
+        'datasets/uvb',
+        'datasets/uvn',
+        'datasets/uvw',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Developer',
+      items: [
+        'developer/contributing',
+        'developer/architecture',
+        'developer/releasing',
+      ],
+    },
+    'changelog',
+  ],
+};
+
+export default sidebars;
