@@ -8,6 +8,7 @@ use std::collections::HashSet;
 pub mod crf;
 pub mod featurizers;
 pub mod lr;
+pub mod text;
 
 // Re-export CRF types
 use crf::model::CRFModel;
@@ -23,6 +24,9 @@ use lr::trainer::{
     LRTrainer as RustLRTrainer, TrainerConfig as LRTrainerConfig,
     TrainingInstance as LRTrainingInstance,
 };
+
+// Re-export Text types
+use text::tfidf::{TfIdfConfig, TfIdfVectorizer};
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -626,6 +630,192 @@ impl PyLRTrainer {
     }
 }
 
+// ============================================================================
+// Python bindings for Text classes
+// ============================================================================
+
+/// Python wrapper for TF-IDF Vectorizer
+#[pyclass(name = "TfIdfVectorizer")]
+pub struct PyTfIdfVectorizer {
+    vectorizer: TfIdfVectorizer,
+}
+
+#[pymethods]
+impl PyTfIdfVectorizer {
+    /// Create a new TfIdfVectorizer with optional configuration
+    ///
+    /// Args:
+    ///     min_df: Minimum document frequency (default: 1)
+    ///     max_df: Maximum document frequency ratio (default: 1.0)
+    ///     max_features: Maximum vocabulary size, 0 for unlimited (default: 0)
+    ///     sublinear_tf: Use sublinear TF scaling (default: False)
+    ///     lowercase: Convert text to lowercase (default: True)
+    ///     ngram_range: Tuple of (min_n, max_n) for n-grams (default: (1, 1))
+    ///     min_token_length: Minimum token length (default: 2, matches sklearn)
+    ///     norm: Apply L2 normalization (default: True)
+    #[new]
+    #[pyo3(signature = (min_df=1, max_df=1.0, max_features=0, sublinear_tf=false, lowercase=true, ngram_range=(1, 1), min_token_length=2, norm=true))]
+    pub fn new(
+        min_df: usize,
+        max_df: f64,
+        max_features: usize,
+        sublinear_tf: bool,
+        lowercase: bool,
+        ngram_range: (usize, usize),
+        min_token_length: usize,
+        norm: bool,
+    ) -> PyResult<Self> {
+        let config = TfIdfConfig {
+            min_df,
+            max_df,
+            max_features,
+            sublinear_tf,
+            lowercase,
+            ngram_range,
+            min_token_length,
+            norm,
+        };
+        Ok(Self {
+            vectorizer: TfIdfVectorizer::with_config(config),
+        })
+    }
+
+    /// Fit the vectorizer on a list of documents
+    ///
+    /// Args:
+    ///     documents: List of text documents
+    pub fn fit(&mut self, documents: Vec<String>) {
+        self.vectorizer.fit(&documents);
+    }
+
+    /// Transform a document into sparse TF-IDF features
+    ///
+    /// Args:
+    ///     document: Text document to transform
+    ///
+    /// Returns:
+    ///     List of (feature_index, tfidf_value) tuples
+    pub fn transform(&self, document: &str) -> Vec<(u32, f64)> {
+        self.vectorizer.transform(document)
+    }
+
+    /// Transform a document into a dense TF-IDF vector
+    ///
+    /// Args:
+    ///     document: Text document to transform
+    ///
+    /// Returns:
+    ///     List of TF-IDF values (length = vocab_size)
+    pub fn transform_dense(&self, document: &str) -> Vec<f64> {
+        self.vectorizer.transform_dense(document)
+    }
+
+    /// Transform a document into feature strings for LRClassifier
+    ///
+    /// Args:
+    ///     document: Text document to transform
+    ///
+    /// Returns:
+    ///     List of feature strings like "tfidf_0=0.1234"
+    pub fn transform_to_features(&self, document: &str) -> Vec<String> {
+        self.vectorizer.transform_to_features(document)
+    }
+
+    /// Fit and transform documents in one step
+    ///
+    /// Args:
+    ///     documents: List of text documents
+    ///
+    /// Returns:
+    ///     List of sparse TF-IDF vectors
+    pub fn fit_transform(&mut self, documents: Vec<String>) -> Vec<Vec<(u32, f64)>> {
+        self.vectorizer.fit_transform(&documents)
+    }
+
+    /// Get the vocabulary size
+    #[getter]
+    pub fn vocab_size(&self) -> usize {
+        self.vectorizer.vocab_size()
+    }
+
+    /// Get the number of documents used for fitting
+    #[getter]
+    pub fn n_docs(&self) -> usize {
+        self.vectorizer.n_docs()
+    }
+
+    /// Check if the vectorizer has been fitted
+    pub fn is_fitted(&self) -> bool {
+        self.vectorizer.is_fitted()
+    }
+
+    /// Get all feature names (vocabulary words in order)
+    pub fn get_feature_names(&self) -> Vec<String> {
+        self.vectorizer.get_feature_names()
+    }
+
+    /// Get the IDF values for all features
+    pub fn get_idf(&self) -> Vec<f64> {
+        self.vectorizer.idf_values().to_vec()
+    }
+
+    /// Get top features by IDF value
+    ///
+    /// Args:
+    ///     n: Number of top features to return
+    ///
+    /// Returns:
+    ///     List of (word, idf_value) tuples
+    pub fn top_features_by_idf(&self, n: usize) -> Vec<(String, f64)> {
+        self.vectorizer.top_features_by_idf(n)
+    }
+
+    /// Get the index of a word in the vocabulary
+    ///
+    /// Returns None if the word is not in the vocabulary
+    pub fn get_index(&self, word: &str) -> Option<u32> {
+        self.vectorizer.get_index(word)
+    }
+
+    /// Get the word at a given index
+    ///
+    /// Returns None if the index is out of bounds
+    pub fn get_word(&self, index: u32) -> Option<String> {
+        self.vectorizer.get_word(index).map(|s| s.to_string())
+    }
+
+    /// Save the vectorizer to a file
+    pub fn save(&self, path: String) -> PyResult<()> {
+        let data = bincode::serialize(&self.vectorizer)
+            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Serialization error: {}", e)))?;
+        std::fs::write(&path, data)
+            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Write error: {}", e)))?;
+        Ok(())
+    }
+
+    /// Load a vectorizer from a file
+    #[staticmethod]
+    pub fn load(path: String) -> PyResult<Self> {
+        let data = std::fs::read(&path)
+            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Read error: {}", e)))?;
+        let vectorizer: TfIdfVectorizer = bincode::deserialize(&data)
+            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Deserialization error: {}", e)))?;
+        Ok(Self { vectorizer })
+    }
+
+    fn __repr__(&self) -> String {
+        if self.vectorizer.is_fitted() {
+            format!(
+                "TfIdfVectorizer(vocab_size={}, n_docs={})",
+                self.vectorizer.vocab_size(),
+                self.vectorizer.n_docs()
+            )
+        } else {
+            "TfIdfVectorizer(not fitted)".to_string()
+        }
+    }
+}
+
 #[pymodule]
 fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<CRFFeaturizer>()?;
@@ -636,5 +826,7 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<PyLRModel>()?;
     m.add_class::<PyLRClassifier>()?;
     m.add_class::<PyLRTrainer>()?;
+    // Text classes
+    m.add_class::<PyTfIdfVectorizer>()?;
     Ok(())
 }
