@@ -1,6 +1,6 @@
 from os.path import dirname, join
 
-import pycrfsuite
+from underthesea_core import CRFTagger
 
 from underthesea.util.singleton import Singleton
 
@@ -11,9 +11,9 @@ from .tagged_feature import word2features
 @Singleton
 class CRFPOSTagPredictor:
     def __init__(self):
-        self.model = pycrfsuite.Tagger()
+        self.model = CRFTagger()
         filepath = join(dirname(__file__), "pos_crf_2017_10_11.bin")
-        self.model.open(filepath)
+        self.model.load(filepath)
 
         template = [
             "T[-2].lower", "T[-1].lower", "T[0].lower", "T[1].lower",
