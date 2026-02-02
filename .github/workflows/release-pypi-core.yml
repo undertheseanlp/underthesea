@@ -55,32 +55,27 @@ jobs:
     name: "Linux"
     needs: verify-version
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
-      - name: Install Rust toolchain
-        uses: dtolnay/rust-toolchain@stable
-      - name: Install maturin
-        run: pip install maturin
       - name: Remove target-cpu=native for portable binary
         run: rm -f ./extensions/underthesea_core/.cargo/config.toml
-      - name: Build wheel
-        working-directory: ./extensions/underthesea_core
-        run: |
-          maturin build --release --strip --interpreter python${{ matrix.python-version }}
-          find ./target/wheels/
+      - name: Build wheels with manylinux
+        uses: PyO3/maturin-action@v1
+        with:
+          working-directory: ./extensions/underthesea_core
+          target: x86_64
+          args: --release --strip --out dist
+          manylinux: auto
+      - name: Upload wheels
+        uses: actions/upload-artifact@v4
+        with:
+          name: wheels-linux
+          path: ./extensions/underthesea_core/dist
       - name: Publish to PyPI
         working-directory: ./extensions/underthesea_core
         run: |
           pip install twine
-          twine upload --skip-existing ./target/wheels/* -u __token__ -p "$PYPI_TOKEN"
+          twine upload --skip-existing ./dist/* -u __token__ -p "$PYPI_TOKEN"
 
   windows:
     name: "Windows"
