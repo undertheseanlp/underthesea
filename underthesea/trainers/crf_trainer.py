@@ -3,9 +3,8 @@ import os
 import shutil
 from os.path import join
 
-import pycrfsuite
 from seqeval.metrics import classification_report
-from underthesea_core import CRFFeaturizer
+from underthesea_core import CRFFeaturizer, CRFTagger, CRFTrainer as CoreCRFTrainer
 
 logger = logging.getLogger(__name__)
 logger.setLevel(10)
@@ -51,19 +50,23 @@ class CRFTrainer:
 
         # Train
         logger.info("Start train")
-        trainer = pycrfsuite.Trainer(verbose=True)
-        for xseq, yseq in zip(X_train, y_train):
-            trainer.append(xseq, yseq)
-        trainer.set_params(self.model_params)
+        trainer = CoreCRFTrainer()
+        if "c1" in self.model_params:
+            trainer.set_l1_penalty(self.model_params["c1"])
+        if "c2" in self.model_params:
+            trainer.set_l2_penalty(self.model_params["c2"])
+        if "max_iterations" in self.model_params:
+            trainer.set_max_iterations(self.model_params["max_iterations"])
+        model = trainer.train(X_train, y_train)
         model_path = join(output_dir, "models.bin")
-        trainer.train(model_path)
+        model.save(model_path)
         logger.info("Finish train")
         self.model.save(output_dir)
 
         # Tagger
         logger.info("Start tagger")
-        tagger = pycrfsuite.Tagger()
-        tagger.open(model_path)
+        tagger = CRFTagger()
+        tagger.load(model_path)
         y_pred = [tagger.tag(x_seq) for x_seq in X_test]
         sentences = [[item[0] for item in sentence] for sentence in self.test_dataset]
         sentences = zip(sentences, y_test, y_pred)
