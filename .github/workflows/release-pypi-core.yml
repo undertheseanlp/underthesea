@@ -103,13 +103,9 @@ jobs:
           path: ./extensions/underthesea_core/dist
 
   windows:
-    name: "Windows ${{ matrix.target }}"
+    name: "Windows x64"
     needs: verify-version
     runs-on: windows-latest  # windows-2025
-    strategy:
-      fail-fast: false
-      matrix:
-        target: [x64, x86]
     steps:
     - uses: actions/checkout@v4
     - name: Remove target-cpu=native for portable binary
@@ -117,17 +113,16 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: 3.x
-        architecture: ${{ matrix.target }}
     - name: Build wheels
       uses: PyO3/maturin-action@v1
       with:
-        target: ${{ matrix.target }}
+        target: x64
         args: --release --out dist -i 3.10 3.11 3.12 3.13 3.14
         working-directory: ./extensions/underthesea_core
     - name: Upload wheels
       uses: actions/upload-artifact@v4
       with:
-        name: wheels-windows-${{ matrix.target }}
+        name: wheels-windows-x64
         path: ./extensions/underthesea_core/dist
 
   macos:
@@ -138,7 +133,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - runner: macos-15-large  # Intel x64
+          - runner: macos-13  # Intel x64 (free for public repos)
             target: x86_64
           - runner: macos-15  # Apple Silicon ARM64
             target: aarch64
