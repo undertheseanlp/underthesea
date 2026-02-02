@@ -8,6 +8,7 @@ use std::collections::HashSet;
 pub mod crf;
 pub mod featurizers;
 pub mod lr;
+pub mod svm;
 pub mod text;
 
 // Re-export CRF types
@@ -27,6 +28,9 @@ use lr::trainer::{
 
 // Re-export Text types
 use text::tfidf::{TfIdfConfig, TfIdfVectorizer};
+
+// Re-export SVM types
+use svm::LinearSVC;
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -831,5 +835,7 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<PyLRTrainer>()?;
     // Text classes
     m.add_class::<PyTfIdfVectorizer>()?;
+    // SVM classes
+    m.add_class::<LinearSVC>()?;
     Ok(())
 }
