@@ -786,8 +786,9 @@ impl PyTfIdfVectorizer {
 
     /// Save the vectorizer to a file
     pub fn save(&self, path: String) -> PyResult<()> {
-        let data = bincode::serialize(&self.vectorizer)
-            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Serialization error: {}", e)))?;
+        let data = bincode::serialize(&self.vectorizer).map_err(|e| {
+            pyo3::exceptions::PyIOError::new_err(format!("Serialization error: {}", e))
+        })?;
         std::fs::write(&path, data)
             .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Write error: {}", e)))?;
         Ok(())
@@ -798,8 +799,9 @@ impl PyTfIdfVectorizer {
     pub fn load(path: String) -> PyResult<Self> {
         let data = std::fs::read(&path)
             .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Read error: {}", e)))?;
-        let vectorizer: TfIdfVectorizer = bincode::deserialize(&data)
-            .map_err(|e| pyo3::exceptions::PyIOError::new_err(format!("Deserialization error: {}", e)))?;
+        let vectorizer: TfIdfVectorizer = bincode::deserialize(&data).map_err(|e| {
+            pyo3::exceptions::PyIOError::new_err(format!("Deserialization error: {}", e))
+        })?;
         Ok(Self { vectorizer })
     }
 

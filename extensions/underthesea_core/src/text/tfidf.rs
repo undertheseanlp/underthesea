@@ -581,10 +581,7 @@ mod tests {
 
     #[test]
     fn test_ngrams() {
-        let documents = vec![
-            "hello world foo bar".to_string(),
-            "foo bar baz".to_string(),
-        ];
+        let documents = vec!["hello world foo bar".to_string(), "foo bar baz".to_string()];
 
         let config = TfIdfConfig {
             ngram_range: (1, 2),
@@ -713,10 +710,7 @@ mod tests {
     #[test]
     fn test_sklearn_compatible_tf() {
         // Test that TF uses raw counts (sklearn default)
-        let documents = vec![
-            "word word word".to_string(),
-            "other".to_string(),
-        ];
+        let documents = vec!["word word word".to_string(), "other".to_string()];
 
         // Without normalization to see raw TF-IDF values
         let config = TfIdfConfig {
