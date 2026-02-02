@@ -3,7 +3,7 @@ name: Release underthesea_core
 on:
   push:
     tags:
-      - 'core-v*'  # Trigger on tags like core-v3.1.0
+      - 'underthesea-core-v*'  # Trigger on tags like underthesea-core-v3.1.0
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Verify tag matches Cargo.toml version
         run: |
-          TAG_VERSION="${GITHUB_REF#refs/tags/core-v}"
+          TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-core-v}"
           CARGO_VERSION=$(grep '^version = ' extensions/underthesea_core/Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
           echo "Tag version: $TAG_VERSION"
           echo "Cargo.toml version: $CARGO_VERSION"
