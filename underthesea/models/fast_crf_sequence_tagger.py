@@ -2,8 +2,7 @@ from os.path import join
 from pathlib import Path
 
 import joblib
-import pycrfsuite
-from underthesea_core import CRFFeaturizer
+from underthesea_core import CRFFeaturizer, CRFTagger
 
 
 class FastCRFSequenceTagger:
@@ -28,8 +27,8 @@ class FastCRFSequenceTagger:
     def load(self, base_path):
         # print(base_path)
         model_path = str(Path(base_path) / self.path_model)
-        estimator = pycrfsuite.Tagger()
-        estimator.open(model_path)
+        estimator = CRFTagger()
+        estimator.load(model_path)
         features = joblib.load(join(base_path, self.path_features))
         dictionary = joblib.load(join(base_path, self.path_dictionary))
         featurizer = CRFFeaturizer(features, dictionary)
