@@ -40,6 +40,8 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
       - name: Install maturin
         run: pip install maturin
+      - name: Remove target-cpu=native for portable binary
+        run: rm -f ./extensions/underthesea_core/.cargo/config.toml
       - name: Build sdist
         working-directory: ./extensions/underthesea_core
         run: maturin sdist
@@ -67,6 +69,8 @@ jobs:
         uses: dtolnay/rust-toolchain@stable
       - name: Install maturin
         run: pip install maturin
+      - name: Remove target-cpu=native for portable binary
+        run: rm -f ./extensions/underthesea_core/.cargo/config.toml
       - name: Build wheel
         working-directory: ./extensions/underthesea_core
         run: |
@@ -95,6 +99,8 @@ jobs:
       uses: dtolnay/rust-toolchain@stable
     - name: Install maturin
       run: pip install maturin
+    - name: Remove target-cpu=native for portable binary
+      run: Remove-Item -Force -ErrorAction SilentlyContinue .\extensions\underthesea_core\.cargo\config.toml
     - name: Build wheel
       working-directory: ./extensions/underthesea_core
       run: |
@@ -125,6 +131,8 @@ jobs:
       uses: dtolnay/rust-toolchain@stable
     - name: Install maturin
       run: pip install maturin
+    - name: Remove target-cpu=native for portable binary
+      run: rm -f ./extensions/underthesea_core/.cargo/config.toml
     - name: Build wheel
       working-directory: ./extensions/underthesea_core
       run: |
