@@ -655,6 +655,7 @@ impl PyTfIdfVectorizer {
     ///     norm: Apply L2 normalization (default: True)
     #[new]
     #[pyo3(signature = (min_df=1, max_df=1.0, max_features=0, sublinear_tf=false, lowercase=true, ngram_range=(1, 1), min_token_length=2, norm=true))]
+    #[allow(clippy::too_many_arguments)]
     pub fn new(
         min_df: usize,
         max_df: f64,
