@@ -33,12 +33,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: docusaurus/package-lock.json
 
       - name: Install dependencies
         working-directory: docusaurus
-        run: npm ci || npm install
+        run: npm install
 
       - name: Build documentation
         working-directory: docusaurus
@@ -62,20 +60,16 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: docusaurus/package-lock.json
 
       - name: Install dependencies
         working-directory: docusaurus
-        run: npm ci || npm install
+        run: npm install
 
       - name: Build documentation for PR preview
         working-directory: docusaurus
         env:
           PR_NUM: ${{ github.event.pull_request.number }}
-        run: |
-          # Build with PR preview base URL
-          npm run build -- --out-dir build --config docusaurus.config.js
+        run: npm run build
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
