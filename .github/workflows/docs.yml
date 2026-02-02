@@ -4,12 +4,12 @@ on:
   push:
     branches: [main]
     paths:
-      - 'docs/**'
+      - 'docusaurus/**'
       - '.github/workflows/docs.yml'
   pull_request:
     branches: [main]
     paths:
-      - 'docs/**'
+      - 'docusaurus/**'
       - '.github/workflows/docs.yml'
   workflow_dispatch:
 
@@ -29,25 +29,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: docusaurus/package-lock.json
 
       - name: Install dependencies
-        run: |
-          pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
+        working-directory: docusaurus
+        run: npm ci || npm install
 
       - name: Build documentation
-        run: |
-          # Set correct site_url for GitHub Pages
-          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io/underthesea/|" docs/mkdocs.yml
-          mkdocs build --config-file docs/mkdocs.yml --strict
+        working-directory: docusaurus
+        env:
+          BASE_URL: /underthesea/
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./site
+          path: ./docusaurus/build
 
   deploy-preview:
     if: github.event_name == 'pull_request'
@@ -56,32 +58,29 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          python-version: '3.11'
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: docusaurus/package-lock.json
 
       - name: Install dependencies
-        run: |
-          pip install mkdocs>=1.5.0 mkdocs-material>=9.0.0 "mkdocstrings[python]>=0.24.0" pymdown-extensions>=10.0
+        working-directory: docusaurus
+        run: npm ci || npm install
 
       - name: Build documentation for PR preview
+        working-directory: docusaurus
+        env:
+          PR_NUM: ${{ github.event.pull_request.number }}
         run: |
-          # Set site_url for PR preview subdirectory
-          PR_NUM="${{ github.event.pull_request.number }}"
-          PR_BASE_PATH="/underthesea/pr-preview/pr-${PR_NUM}"
-          sed -i "s|^site_url:.*|site_url: https://undertheseanlp.github.io${PR_BASE_PATH}/|" docs/mkdocs.yml
-          mkdocs build --config-file docs/mkdocs.yml --strict
-
-          # Fix absolute paths in generated files to use PR preview path
-          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|href=\"/|href=\"${PR_BASE_PATH}/|g" {} \;
-          find ./site -type f \( -name '*.html' -o -name '*.js' \) -exec sed -i "s|src=\"/|src=\"${PR_BASE_PATH}/|g" {} \;
-          find ./site -type f -name '*.html' -exec sed -i "s|content=\"/|content=\"${PR_BASE_PATH}/|g" {} \;
+          # Build with PR preview base URL
+          npm run build -- --out-dir build --config docusaurus.config.js
 
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./site
+          source-dir: ./docusaurus/build
 
   deploy:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'

@@ -7,11 +7,12 @@ const config = {
   tagline: 'Open-source Vietnamese Natural Language Processing Toolkit',
   favicon: 'img/logo.png',
 
-  url: 'https://underthesea.readthedocs.io',
-  baseUrl: '/',
+  url: 'https://undertheseanlp.github.io',
+  baseUrl: process.env.BASE_URL || '/',
 
   organizationName: 'undertheseanlp',
   projectName: 'underthesea',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -28,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docs/',
+          editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',
         },
         theme: {
           customCss: './src/css/custom.css',
