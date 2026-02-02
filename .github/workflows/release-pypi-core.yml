@@ -55,6 +55,10 @@ jobs:
     name: "Linux"
     needs: verify-version
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13", "3.14"]
     steps:
       - uses: actions/checkout@v4
       - name: Remove target-cpu=native for portable binary
@@ -64,12 +68,12 @@ jobs:
         with:
           working-directory: ./extensions/underthesea_core
           target: x86_64
-          args: --release --strip --out dist
+          args: --release --strip --out dist -i python${{ matrix.python-version }}
           manylinux: auto
       - name: Upload wheels
         uses: actions/upload-artifact@v4
         with:
-          name: wheels-linux
+          name: wheels-linux-${{ matrix.python-version }}
           path: ./extensions/underthesea_core/dist
       - name: Publish to PyPI
         working-directory: ./extensions/underthesea_core
