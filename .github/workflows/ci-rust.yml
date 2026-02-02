@@ -89,6 +89,9 @@ jobs:
       - name: Install maturin
         run: pip install maturin
 
+      - name: Clean old wheels
+        run: rm -rf target/wheels/
+
       - name: Build Python extension
         run: maturin build --release
 
@@ -97,3 +100,4 @@ jobs:
           pip install target/wheels/*.whl
           python -c "from underthesea_core import LRTrainer, LRClassifier, LRModel; print('LR module imported successfully')"
           python -c "from underthesea_core import CRFTrainer, CRFTagger, CRFModel; print('CRF module imported successfully')"
+          python -c "from underthesea_core import TfIdfVectorizer; print('TfIdfVectorizer module imported successfully')"
