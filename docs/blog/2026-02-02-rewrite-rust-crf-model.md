@@ -1,6 +1,6 @@
 ---
 slug: rewrite-rust-crf-model
-title: Rewriting CRF Model in Rust - 20% Performance Boost
+title: Rewriting CRF Model in Rust
 authors: [rain1024]
 tags: [rust, performance, crf, nlp]
 ---
