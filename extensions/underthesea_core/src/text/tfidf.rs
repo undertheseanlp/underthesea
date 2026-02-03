@@ -8,8 +8,14 @@
 //! - IDF: log((n_docs + 1) / (df + 1)) + 1 (smooth IDF)
 //! - L2 normalization by default
 //! - Token pattern: minimum 2 characters (sklearn default)
+//!
+//! Performance optimizations:
+//! - Parallel document frequency counting during fit()
+//! - Batch transforms with parallel processing
+//! - Efficient tokenization using byte offsets
 
 use hashbrown::HashMap;
+use rayon::prelude::*;
 use serde::{Deserialize, Serialize};
 use std::collections::HashSet;
 
@@ -147,26 +153,20 @@ impl TfIdfVectorizer {
     /// Fit the vectorizer on a collection of documents.
     ///
     /// This builds the vocabulary and computes IDF values.
+    /// Uses parallel processing for large datasets.
     pub fn fit(&mut self, documents: &[String]) {
         self.n_docs = documents.len();
-        let mut doc_freq: HashMap<String, usize> = HashMap::new();
-        let mut total_freq: HashMap<String, usize> = HashMap::new();
-
-        // Count document frequency and total frequency for each word
-        for doc in documents {
-            let tokens = self.tokenize(doc);
-            let unique_tokens: HashSet<&String> = tokens.iter().collect();
-
-            // Document frequency: count documents containing each word
-            for token in &unique_tokens {
-                *doc_freq.entry((*token).clone()).or_insert(0) += 1;
-            }
-
-            // Total frequency: count occurrences across all documents
-            for token in &tokens {
-                *total_freq.entry(token.clone()).or_insert(0) += 1;
-            }
+        if self.n_docs == 0 {
+            self.fitted = true;
+            return;
         }
+
+        // Parallel document frequency counting for large datasets
+        let (doc_freq, total_freq) = if documents.len() >= 1000 {
+            self.fit_parallel(documents)
+        } else {
+            self.fit_sequential(documents)
+        };
 
         // Filter by min_df and max_df
         let max_docs = (self.config.max_df * self.n_docs as f64).ceil() as usize;
@@ -213,6 +213,77 @@ impl TfIdfVectorizer {
         }
 
         self.fitted = true;
+    }
+
+    /// Sequential document frequency counting (for small datasets).
+    fn fit_sequential(
+        &self,
+        documents: &[String],
+    ) -> (HashMap<String, usize>, HashMap<String, usize>) {
+        let mut doc_freq: HashMap<String, usize> = HashMap::new();
+        let mut total_freq: HashMap<String, usize> = HashMap::new();
+
+        for doc in documents {
+            let tokens = self.tokenize(doc);
+            let unique_tokens: HashSet<&String> = tokens.iter().collect();
+
+            for token in &unique_tokens {
+                *doc_freq.entry((*token).clone()).or_insert(0) += 1;
+            }
+
+            for token in &tokens {
+                *total_freq.entry(token.clone()).or_insert(0) += 1;
+            }
+        }
+
+        (doc_freq, total_freq)
+    }
+
+    /// Parallel document frequency counting (for large datasets).
+    fn fit_parallel(
+        &self,
+        documents: &[String],
+    ) -> (HashMap<String, usize>, HashMap<String, usize>) {
+        let chunk_size = (documents.len() / rayon::current_num_threads()).max(100);
+
+        // Parallel processing of document chunks
+        let local_counts: Vec<(HashMap<String, usize>, HashMap<String, usize>)> = documents
+            .par_chunks(chunk_size)
+            .map(|chunk| {
+                let mut local_df: HashMap<String, usize> = HashMap::new();
+                let mut local_tf: HashMap<String, usize> = HashMap::new();
+
+                for doc in chunk {
+                    let tokens = self.tokenize(doc);
+                    let unique_tokens: HashSet<&String> = tokens.iter().collect();
+
+                    for token in &unique_tokens {
+                        *local_df.entry((*token).clone()).or_insert(0) += 1;
+                    }
+
+                    for token in &tokens {
+                        *local_tf.entry(token.clone()).or_insert(0) += 1;
+                    }
+                }
+
+                (local_df, local_tf)
+            })
+            .collect();
+
+        // Merge results
+        let mut doc_freq: HashMap<String, usize> = HashMap::new();
+        let mut total_freq: HashMap<String, usize> = HashMap::new();
+
+        for (local_df, local_tf) in local_counts {
+            for (term, count) in local_df {
+                *doc_freq.entry(term).or_insert(0) += count;
+            }
+            for (term, count) in local_tf {
+                *total_freq.entry(term).or_insert(0) += count;
+            }
+        }
+
+        (doc_freq, total_freq)
     }
 
     /// Transform a document into a sparse TF-IDF vector.
@@ -290,6 +361,34 @@ impl TfIdfVectorizer {
             dense[idx as usize] = value;
         }
         dense
+    }
+
+    /// Transform multiple documents into sparse TF-IDF vectors (parallel).
+    ///
+    /// Returns a vector of sparse vectors, one per document.
+    pub fn transform_batch(&self, documents: &[String]) -> Vec<Vec<(u32, f64)>> {
+        if !self.fitted {
+            return vec![Vec::new(); documents.len()];
+        }
+
+        documents
+            .par_iter()
+            .map(|doc| self.transform(doc))
+            .collect()
+    }
+
+    /// Transform multiple documents into dense TF-IDF vectors (parallel).
+    ///
+    /// Returns a vector of dense vectors, one per document.
+    pub fn transform_batch_dense(&self, documents: &[String]) -> Vec<Vec<f64>> {
+        if !self.fitted {
+            return vec![vec![0.0; self.vocab.len()]; documents.len()];
+        }
+
+        documents
+            .par_iter()
+            .map(|doc| self.transform_dense(doc))
+            .collect()
     }
 
     /// Transform a document into feature strings compatible with LRClassifier.
