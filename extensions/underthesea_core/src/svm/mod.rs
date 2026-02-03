@@ -23,6 +23,12 @@ pub struct LinearSVC {
     n_classes: usize,
 }
 
+impl Default for LinearSVC {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 #[pymethods]
 impl LinearSVC {
     #[new]
@@ -69,7 +75,7 @@ impl LinearSVC {
             .collect();
 
         // Get unique classes
-        let mut classes: Vec<String> = labels.iter().cloned().collect();
+        let mut classes: Vec<String> = labels.to_vec();
         classes.sort();
         classes.dedup();
         let n_classes = classes.len();
@@ -90,7 +96,9 @@ impl LinearSVC {
                     .iter()
                     .map(|&i| if i == cls { 1 } else { -1 })
                     .collect();
-                solve_svm(&sparse, &y, &x_sq, n_features, c as f32, tol as f32, max_iter)
+                solve_svm(
+                    &sparse, &y, &x_sq, n_features, c as f32, tol as f32, max_iter,
+                )
             })
             .collect();
 
@@ -156,7 +164,11 @@ impl LinearSVC {
         let mut best_score = f32::NEG_INFINITY;
         for c in 0..self.n_classes {
             let w = self.weights(c);
-            let score: f32 = w.iter().zip(f).map(|(&wi, &fi)| wi * fi as f32).sum::<f32>()
+            let score: f32 = w
+                .iter()
+                .zip(f)
+                .map(|(&wi, &fi)| wi * fi as f32)
+                .sum::<f32>()
                 + self.biases[c];
             if score > best_score {
                 best_score = score;
@@ -220,7 +232,13 @@ impl LinearSVC {
         for w in &weights {
             weights_flat.extend_from_slice(w);
         }
-        Self { weights_flat, biases, classes, n_features, n_classes }
+        Self {
+            weights_flat,
+            biases,
+            classes,
+            n_features,
+            n_classes,
+        }
     }
 }
 
@@ -290,7 +308,11 @@ fn solve_svm(
             n_sv += 1;
         }
     }
-    let bias = if n_sv > 0 { bias_sum / n_sv as f32 } else { 0.0 };
+    let bias = if n_sv > 0 {
+        bias_sum / n_sv as f32
+    } else {
+        0.0
+    };
 
     (w, bias)
 }
