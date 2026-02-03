@@ -42,10 +42,10 @@ def classify(X):
         X: Input text string
 
     Returns:
-        str: Predicted category label
+        list: List containing predicted category label
     """
     clf = _load_classifier()
-    return clf.predict(X)
+    return [clf.predict(X)]
 
 
 def classify_with_confidence(X):
