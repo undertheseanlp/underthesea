@@ -1,6 +1,6 @@
 <p align="center">
   <br>
-  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/img/logo.png"/>
+  <img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/static/img/logo.png"/>
   <br/>
 </p>
 
@@ -522,4 +522,4 @@ If you found this project helpful and would like to support our work, you can ju
 
 Your support is our biggest encouragement 🎁!
 
-<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/img/support.png"/>
+<img src="https://raw.githubusercontent.com/undertheseanlp/underthesea/main/docs/static/img/support.png"/>
