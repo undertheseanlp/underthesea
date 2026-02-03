@@ -34,7 +34,7 @@ use text::tfidf::{TfIdfConfig, TfIdfVectorizer};
 use svm::LinearSVC;
 
 // Re-export Classifier types
-use classifier::TextClassifier;
+use classifier::{Label, Sentence, TextClassifier};
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -843,5 +843,7 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<LinearSVC>()?;
     // Classifier classes
     m.add_class::<TextClassifier>()?;
+    m.add_class::<Label>()?;
+    m.add_class::<Sentence>()?;
     Ok(())
 }

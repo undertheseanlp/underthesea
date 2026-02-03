@@ -12,6 +12,79 @@ use serde::{Deserialize, Serialize};
 use std::fs::File;
 use std::io::{BufReader, BufWriter};
 
+/// Label class compatible with underthesea API
+#[pyclass]
+#[derive(Clone)]
+pub struct Label {
+    #[pyo3(get, set)]
+    pub value: String,
+    #[pyo3(get, set)]
+    pub score: f64,
+}
+
+#[pymethods]
+impl Label {
+    #[new]
+    #[pyo3(signature = (value, score=1.0))]
+    pub fn new(value: String, score: f64) -> Self {
+        let score = score.clamp(0.0, 1.0);
+        Self { value, score }
+    }
+
+    fn __str__(&self) -> String {
+        format!("{} ({:.4})", self.value, self.score)
+    }
+
+    fn __repr__(&self) -> String {
+        format!("{} ({:.4})", self.value, self.score)
+    }
+}
+
+/// Sentence class compatible with underthesea API
+#[pyclass]
+#[derive(Clone)]
+pub struct Sentence {
+    #[pyo3(get, set)]
+    pub text: String,
+    #[pyo3(get, set)]
+    pub labels: Vec<Label>,
+}
+
+#[pymethods]
+impl Sentence {
+    #[new]
+    #[pyo3(signature = (text=String::new(), labels=None))]
+    pub fn new(text: String, labels: Option<Vec<Label>>) -> Self {
+        Self {
+            text,
+            labels: labels.unwrap_or_default(),
+        }
+    }
+
+    fn __str__(&self) -> String {
+        let labels_str: Vec<String> = self.labels.iter().map(|l| l.__str__()).collect();
+        format!(
+            "Sentence: \"{}\" - Labels: [{}]",
+            self.text,
+            labels_str.join(", ")
+        )
+    }
+
+    fn __repr__(&self) -> String {
+        self.__str__()
+    }
+
+    /// Add labels to the sentence
+    pub fn add_label(&mut self, label: Label) {
+        self.labels.push(label);
+    }
+
+    /// Add multiple labels to the sentence
+    pub fn add_labels(&mut self, labels: Vec<Label>) {
+        self.labels.extend(labels);
+    }
+}
+
 /// Optimized TF-IDF Vectorizer for internal use
 #[derive(Clone, Serialize, Deserialize)]
 struct FastTfIdfVectorizer {
@@ -420,6 +493,24 @@ impl TextClassifier {
 
         let sparse = self.vectorizer.transform_sparse_internal(text);
         model.predict_sparse_internal(&sparse)
+    }
+
+    /// Predict label with confidence score for a single text
+    pub fn predict_with_score(&self, text: &str) -> (String, f64) {
+        let model = match &self.model {
+            Some(m) => m,
+            None => return ("".to_string(), 0.0),
+        };
+
+        let sparse = self.vectorizer.transform_sparse_internal(text);
+        model.predict_sparse_with_score_internal(&sparse)
+    }
+
+    /// Predict and add labels to a Sentence object (underthesea-compatible API)
+    pub fn predict_sentence(&self, sentence: &mut Sentence) {
+        let (label_value, score) = self.predict_with_score(&sentence.text);
+        sentence.labels.clear();
+        sentence.labels.push(Label::new(label_value, score));
     }
 
     /// Predict with confidence scores
