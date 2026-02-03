@@ -5,6 +5,7 @@ use pyo3::prelude::*;
 use pyo3::types::PyModule;
 use std::collections::HashSet;
 
+pub mod classifier;
 pub mod crf;
 pub mod featurizers;
 pub mod lr;
@@ -31,6 +32,9 @@ use text::tfidf::{TfIdfConfig, TfIdfVectorizer};
 
 // Re-export SVM types
 use svm::LinearSVC;
+
+// Re-export Classifier types
+use classifier::TextClassifier;
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -837,5 +841,7 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<PyTfIdfVectorizer>()?;
     // SVM classes
     m.add_class::<LinearSVC>()?;
+    // Classifier classes
+    m.add_class::<TextClassifier>()?;
     Ok(())
 }
