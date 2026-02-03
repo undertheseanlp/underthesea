@@ -1,136 +1,75 @@
-import os
-import sys
-import urllib.request
-import warnings
-import zipfile
-from os.path import dirname
+import logging
+from pathlib import Path
 
-import joblib
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 
-# Suppress scikit-learn version warnings
-warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
+FORMAT = "%(message)s"
+logging.basicConfig(format=FORMAT)
+logger = logging.getLogger("underthesea")
 
-sys.path.insert(0, dirname(dirname(__file__)))
 classifier = None
 
-
-def _ensure_model_exists():
-    """Download and extract sonar_core_1 model if not exists"""
-    model_dir = os.path.expanduser("~/.underthesea/models")
-    model_file = os.path.join(model_dir, "sonar_core_1.pkl")
-    labels_file = os.path.join(model_dir, "sonar_core_1_labels.txt")
-
-    # Check if model already exists
-    if os.path.exists(model_file) and os.path.exists(labels_file):
-        return model_file, labels_file
-
-    print("Downloading Sonar Core 1 model...")
-
-    # Create directories
-    os.makedirs(model_dir, exist_ok=True)
-
-    # Download zip file
-    zip_url = "https://github.com/undertheseanlp/underthesea/releases/download/resources/sonar_core_1.zip"
-    zip_path = os.path.join(model_dir, "sonar_core_1.zip")
-
-    print(f"Downloading from {zip_url}...")
-    urllib.request.urlretrieve(zip_url, zip_path)
-
-    # Extract zip file
-    print("Extracting model...")
-    with zipfile.ZipFile(zip_path, 'r') as zip_ref:
-        zip_ref.extractall(model_dir)
-
-    # Clean up zip file
-    os.remove(zip_path)
-
-    # Rename extracted files to expected names
-    extracted_model = os.path.join(model_dir, "model.pkl")
-    extracted_labels = os.path.join(model_dir, "labels.txt")
-
-    if os.path.exists(extracted_model):
-        os.rename(extracted_model, model_file)
-    if os.path.exists(extracted_labels):
-        os.rename(extracted_labels, labels_file)
-
-    print("Sonar Core 1 model downloaded and extracted successfully!")
-    return model_file, labels_file
+MODEL_URL = "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-general-1.0.0-20260203.bin"
+MODEL_NAME = "sen-classifier-general-1.0.0-20260203.bin"
 
 
-def _load_labels(labels_file):
-    """Load label mapping from file"""
-    with open(labels_file, encoding='utf-8') as f:
-        labels = [line.strip() for line in f.readlines()]
-    return labels
+def _get_model_path():
+    """Get local path to model, downloading if necessary."""
+    cache_dir = Path(UNDERTHESEA_FOLDER) / "models"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    model_path = cache_dir / MODEL_NAME
+
+    if not model_path.exists():
+        logger.info("Downloading general classifier model...")
+        cached_path(MODEL_URL, cache_dir=cache_dir)
+
+    return model_path
 
 
-def classify(text):
-    """Classify Vietnamese text using Sonar Core 1 model
+def _load_classifier():
+    global classifier
+    if classifier is None:
+        from underthesea_core import TextClassifier
+        model_path = _get_model_path()
+        classifier = TextClassifier.load(str(model_path))
+    return classifier
+
+
+def classify(X):
+    """Classify Vietnamese text into general categories (news topics).
 
     Args:
-        text (str): Vietnamese text to classify
+        X (str): Vietnamese text to classify
 
     Returns:
-        str: Predicted category
+        str: Predicted category label
     """
-    global classifier
-
-    if not classifier:
-        model_file, labels_file = _ensure_model_exists()
-        classifier = joblib.load(model_file)
-        classifier.labels = _load_labels(labels_file)
-
-    # Make prediction and convert to plain string
-    prediction = classifier.predict([text])[0]
-    return str(prediction)
+    clf = _load_classifier()
+    return clf.predict(X)
 
 
-def classify_with_confidence(text):
-    """Classify Vietnamese text with confidence scores
+def classify_with_confidence(X):
+    """Classify Vietnamese text with confidence score.
 
     Args:
-        text (str): Vietnamese text to classify
+        X (str): Vietnamese text to classify
 
     Returns:
-        dict: Dictionary with prediction and top 3 probabilities
+        dict: Dictionary with prediction and confidence
     """
-    global classifier
-
-    if not classifier:
-        model_file, labels_file = _ensure_model_exists()
-        classifier = joblib.load(model_file)
-        classifier.labels = _load_labels(labels_file)
-
-    # Make prediction with probabilities
-    prediction = classifier.predict([text])[0]
-    probabilities = classifier.predict_proba([text])[0]
-
-    # Get top 3 predictions with probabilities, convert to plain strings
-    classes = classifier.classes_
-    prob_dict = dict(zip(classes, probabilities))
-    top_predictions = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)[:3]
-
-    # Convert numpy strings to plain strings
-    top_predictions = [(str(label), float(prob)) for label, prob in top_predictions]
-
+    clf = _load_classifier()
+    label, score = clf.predict_with_score(X)
     return {
-        'prediction': str(prediction),
-        'confidence': float(top_predictions[0][1]),
-        'top_3': top_predictions
+        "prediction": label,
+        "confidence": score,
     }
 
 
 def get_labels():
-    """Get all available category labels for the classifier
+    """Get all available category labels.
 
     Returns:
-        list: A list of all category labels that the classifier can predict
+        list: List of category labels
     """
-    global classifier
-
-    if not classifier:
-        model_file, labels_file = _ensure_model_exists()
-        classifier = joblib.load(model_file)
-        classifier.labels = _load_labels(labels_file)
-
-    return [str(label) for label in classifier.classes_]
+    clf = _load_classifier()
+    return list(clf.classes)

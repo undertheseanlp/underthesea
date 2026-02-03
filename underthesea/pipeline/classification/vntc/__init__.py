@@ -1,26 +1,72 @@
-import os
-import sys
-from os.path import dirname
+import logging
+from pathlib import Path
 
-from underthesea.corpus.data import Sentence
-from underthesea.model_fetcher import ModelFetcher
-from underthesea.models.text_classifier import TextClassifier
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 
-sys.path.insert(0, dirname(dirname(__file__)))
+FORMAT = "%(message)s"
+logging.basicConfig(format=FORMAT)
+logger = logging.getLogger("underthesea")
+
 classifier = None
+
+MODEL_URL = "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-general-1.0.0-20260203.bin"
+MODEL_NAME = "sen-classifier-general-1.0.0-20260203.bin"
+
+
+def _get_model_path():
+    """Get local path to model, downloading if necessary."""
+    cache_dir = Path(UNDERTHESEA_FOLDER) / "models"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    model_path = cache_dir / MODEL_NAME
+
+    if not model_path.exists():
+        logger.info(f"Downloading general classifier model...")
+        cached_path(MODEL_URL, cache_dir=cache_dir)
+
+    return model_path
+
+
+def _load_classifier():
+    global classifier
+    if classifier is None:
+        from underthesea_core import TextClassifier
+        model_path = _get_model_path()
+        classifier = TextClassifier.load(str(model_path))
+    return classifier
 
 
 def classify(X):
-    global classifier
-    model_name = 'TC_GENERAL_V131'
-    model_path = ModelFetcher.get_model_path(model_name)
+    """Classify text into general categories (news topics).
 
-    if not classifier:
-        if not os.path.exists(model_path):
-            ModelFetcher.download(model_name)
-        classifier = TextClassifier.load(model_path)
+    Args:
+        X: Input text string
 
-    sentence = Sentence(X)
-    classifier.predict(sentence)
-    labels = sentence.labels
-    return labels
+    Returns:
+        str: Predicted category label
+    """
+    clf = _load_classifier()
+    return clf.predict(X)
+
+
+def classify_with_confidence(X):
+    """Classify text with confidence score.
+
+    Args:
+        X: Input text string
+
+    Returns:
+        dict: {"category": str, "confidence": float}
+    """
+    clf = _load_classifier()
+    label, score = clf.predict_with_score(X)
+    return {"category": label, "confidence": score}
+
+
+def get_labels():
+    """Get all available category labels.
+
+    Returns:
+        list: List of category labels
+    """
+    clf = _load_classifier()
+    return list(clf.classes)

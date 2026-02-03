@@ -1,11 +1,8 @@
 import logging
-import warnings
+import os
+from pathlib import Path
 
-import joblib
-from huggingface_hub import hf_hub_download
-
-# Suppress scikit-learn version warnings
-warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 
 FORMAT = "%(message)s"
 logging.basicConfig(format=FORMAT)
@@ -13,64 +10,64 @@ logger = logging.getLogger("underthesea")
 
 classifier = None
 
+MODEL_URL = "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-bank-1.0.0-20260203.bin"
+MODEL_NAME = "sen-classifier-bank-1.0.0-20260203.bin"
+
+
+def _get_model_path():
+    """Get local path to model, downloading if necessary."""
+    cache_dir = Path(UNDERTHESEA_FOLDER) / "models"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    model_path = cache_dir / MODEL_NAME
+
+    if not model_path.exists():
+        logger.info(f"Downloading bank classifier model...")
+        cached_path(MODEL_URL, cache_dir=cache_dir)
+
+    return model_path
+
 
 def _load_classifier():
     global classifier
-    if not classifier:
-        # Download and load UTS2017_Bank model from Hugging Face
-        model_path = hf_hub_download(
-            repo_id="undertheseanlp/sonar_core_1",
-            filename="uts2017_bank_classifier_20250928_060819.joblib",
-        )
-        classifier = joblib.load(model_path)
+    if classifier is None:
+        from underthesea_core import TextClassifier
+        model_path = _get_model_path()
+        classifier = TextClassifier.load(str(model_path))
     return classifier
 
 
 def classify(X):
-    classifier = _load_classifier()
+    """Classify text into banking categories.
 
-    # Use predict_text function for prediction
-    prediction, _, _ = predict_text(classifier, X)
+    Args:
+        X: Input text string
 
-    # Return as list to maintain compatibility with existing API
-    return [str(prediction)]
+    Returns:
+        str: Predicted category label
+    """
+    clf = _load_classifier()
+    return clf.predict(X)
 
 
 def classify_with_confidence(X):
-    classifier = _load_classifier()
+    """Classify text with confidence score.
 
-    # Use predict_text function for prediction
-    prediction, confidence, _ = predict_text(classifier, X)
+    Args:
+        X: Input text string
 
-    # Get full probabilities for backward compatibility
-    probabilities = classifier.predict_proba([X])[0]
-
-    return {"category": str(prediction), "confidence": confidence, "probabilities": probabilities}
-
-
-def predict_text(model, text):
-    probabilities = model.predict_proba([text])[0]
-
-    # Get top 3 predictions sorted by probability
-    top_indices = probabilities.argsort()[-3:][::-1]
-    top_predictions = []
-    for idx in top_indices:
-        category = model.classes_[idx]
-        prob = probabilities[idx]
-        top_predictions.append((category, prob))
-
-    # The prediction should be the top category
-    prediction = top_predictions[0][0]
-    confidence = top_predictions[0][1]
-
-    return prediction, confidence, top_predictions
+    Returns:
+        dict: {"category": str, "confidence": float}
+    """
+    clf = _load_classifier()
+    label, score = clf.predict_with_score(X)
+    return {"category": label, "confidence": score}
 
 
 def get_labels():
-    """Get all available category labels for the bank classifier
+    """Get all available category labels.
 
     Returns:
-        list: A list of all category labels that the classifier can predict
+        list: List of category labels
     """
-    classifier = _load_classifier()
-    return [str(label) for label in classifier.classes_]
+    clf = _load_classifier()
+    return list(clf.classes)
