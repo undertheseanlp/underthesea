@@ -1,5 +1,4 @@
 import logging
-import os
 from pathlib import Path
 
 from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
@@ -21,7 +20,7 @@ def _get_model_path():
     model_path = cache_dir / MODEL_NAME
 
     if not model_path.exists():
-        logger.info(f"Downloading bank classifier model...")
+        logger.info("Downloading bank classifier model...")
         cached_path(MODEL_URL, cache_dir=cache_dir)
 
     return model_path
