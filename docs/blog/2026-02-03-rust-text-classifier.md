@@ -1,11 +1,11 @@
 ---
 slug: rust-text-classifier
-title: Rust-Powered Text Classification - 273x Faster Inference
+title: Rust-Powered Text Classification
 authors: [rain1024]
 tags: [rust, performance, classification, nlp]
 ---
 
-# Rust-Powered Text Classification: 273x Faster Inference
+# Rust-Powered Text Classification
 
 In underthesea v9.2.9, we've completely rewritten the text classification pipeline using our Rust-based `TextClassifier`. This delivers up to **273x faster inference** compared to the previous sklearn-based implementation.
 
