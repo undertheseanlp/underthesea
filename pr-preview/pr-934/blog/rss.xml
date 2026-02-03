@@ -55,9 +55,50 @@
 </ul>
 <h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-no-python-gil-contention">4. No Python GIL Contention<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#4-no-python-gil-contention" class="hash-link" aria-label="Direct link to 4. No Python GIL Contention" title="Direct link to 4. No Python GIL Contention" translate="no">​</a></h3>
 <p>Rust code releases the GIL during computation, enabling true parallelism.</p>
-<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="model-accuracy">Model Accuracy<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#model-accuracy" class="hash-link" aria-label="Direct link to Model Accuracy" title="Direct link to Model Accuracy" translate="no">​</a></h2>
-<p>The new models maintain high accuracy:</p>
-<table><thead><tr><th>Dataset</th><th>Categories</th><th>Accuracy</th></tr></thead><tbody><tr><td>VNTC</td><td>10 news topics</td><td>92.49%</td></tr><tr><td>Bank</td><td>14 banking intents</td><td>75.76%</td></tr></tbody></table>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="the-models">The Models<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#the-models" class="hash-link" aria-label="Direct link to The Models" title="Direct link to The Models" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sen-classifier-general">sen-classifier-general<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#sen-classifier-general" class="hash-link" aria-label="Direct link to sen-classifier-general" title="Direct link to sen-classifier-general" translate="no">​</a></h3>
+<p>General Vietnamese news classification model trained on VNTC dataset.</p>
+<p><strong>Training Data:</strong> <a href="https://github.com/duyvuleo/VNTC" target="_blank" rel="noopener noreferrer" class="">VNTC</a> (Vietnamese News Text Classification)</p>
+<ul>
+<li class="">33,759 training samples</li>
+<li class="">50,373 test samples</li>
+<li class="">10 news categories</li>
+</ul>
+<p><strong>Categories:</strong></p>
+<table><thead><tr><th>Label</th><th>Vietnamese</th><th>English</th></tr></thead><tbody><tr><td>Chinh tri Xa hoi</td><td>Chính trị Xã hội</td><td>Politics/Society</td></tr><tr><td>Doi song</td><td>Đời sống</td><td>Lifestyle</td></tr><tr><td>Khoa hoc</td><td>Khoa học</td><td>Science</td></tr><tr><td>Kinh doanh</td><td>Kinh doanh</td><td>Business</td></tr><tr><td>Phap luat</td><td>Pháp luật</td><td>Law</td></tr><tr><td>Suc khoe</td><td>Sức khỏe</td><td>Health</td></tr><tr><td>The gioi</td><td>Thế giới</td><td>World</td></tr><tr><td>The thao</td><td>Thể thao</td><td>Sports</td></tr><tr><td>Van hoa</td><td>Văn hóa</td><td>Culture</td></tr><tr><td>Vi tinh</td><td>Vi tính</td><td>Technology</td></tr></tbody></table>
+<p><strong>Performance:</strong></p>
+<ul>
+<li class="">Accuracy: <strong>92.49%</strong></li>
+<li class="">F1 (weighted): 92.40%</li>
+<li class="">Training time: 37.6s</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="sen-classifier-bank">sen-classifier-bank<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#sen-classifier-bank" class="hash-link" aria-label="Direct link to sen-classifier-bank" title="Direct link to sen-classifier-bank" translate="no">​</a></h3>
+<p>Vietnamese banking intent classification model trained on UTS2017_Bank dataset.</p>
+<p><strong>Training Data:</strong> <a href="https://huggingface.co/datasets/undertheseanlp/UTS2017_Bank" target="_blank" rel="noopener noreferrer" class="">UTS2017_Bank</a></p>
+<ul>
+<li class="">1,581 training samples</li>
+<li class="">396 test samples</li>
+<li class="">14 banking categories</li>
+</ul>
+<p><strong>Categories:</strong></p>
+<table><thead><tr><th>Label</th><th>Description</th><th>Samples</th></tr></thead><tbody><tr><td>CUSTOMER_SUPPORT</td><td>Customer support queries</td><td>774</td></tr><tr><td>TRADEMARK</td><td>Brand/trademark mentions</td><td>697</td></tr><tr><td>LOAN</td><td>Loan services</td><td>73</td></tr><tr><td>INTERNET_BANKING</td><td>Internet banking</td><td>69</td></tr><tr><td>CARD</td><td>Card services</td><td>66</td></tr><tr><td>INTEREST_RATE</td><td>Interest rates</td><td>58</td></tr><tr><td>PROMOTION</td><td>Promotions</td><td>56</td></tr><tr><td>DISCOUNT</td><td>Discounts</td><td>40</td></tr><tr><td>MONEY_TRANSFER</td><td>Money transfer</td><td>37</td></tr><tr><td>OTHER</td><td>Other queries</td><td>70</td></tr><tr><td>PAYMENT</td><td>Payment services</td><td>17</td></tr><tr><td>SAVING</td><td>Savings</td><td>12</td></tr><tr><td>ACCOUNT</td><td>Account services</td><td>5</td></tr><tr><td>SECURITY</td><td>Security</td><td>3</td></tr></tbody></table>
+<p><strong>Performance:</strong></p>
+<ul>
+<li class="">Accuracy: <strong>75.76%</strong> (+3.29% vs previous sonar_core_1)</li>
+<li class="">F1 (weighted): 72.70%</li>
+<li class="">Training time: 0.13s</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="training-pipeline">Training Pipeline<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#training-pipeline" class="hash-link" aria-label="Direct link to Training Pipeline" title="Direct link to Training Pipeline" translate="no">​</a></h2>
+<p>Both models use a 3-stage TF-IDF + Linear SVM pipeline:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Input Text</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  CountVectorizer                    │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - max_features: 20,000             │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - ngram_range: (1, 2)              │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  TfidfTransformer                   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - use_idf: True                    │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">┌─────────────────────────────────────┐</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  LinearSVC                          │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - C: 1.0                           │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - max_iter: 2000                   │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">│  - loss: squared_hinge              │</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">└─────────────────────────────────────┘</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ↓</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Predicted Label + Confidence</span><br></span></code></pre></div></div>
+<p><strong>Key design decisions:</strong></p>
+<ul>
+<li class=""><strong>Syllable-level tokenization</strong>: No word segmentation for speed</li>
+<li class=""><strong>Character n-grams (1-2)</strong>: Captures Vietnamese morphology</li>
+<li class=""><strong>20K vocabulary</strong>: Balances accuracy and model size</li>
+<li class=""><strong>Linear SVM</strong>: Fast training, works well with sparse high-dimensional data</li>
+</ul>
+<p>Training code: <a href="https://github.com/undertheseanlp/sen-1" target="_blank" rel="noopener noreferrer" class="">sen-1/src/scripts/train_vntc.py</a></p>
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="label-format-change">Label Format Change<a href="https://undertheseanlp.github.io/blog/rust-text-classifier#label-format-change" class="hash-link" aria-label="Direct link to Label Format Change" title="Direct link to Label Format Change" translate="no">​</a></h2>
 <p>Labels now use Title case with spaces:</p>
 <table><thead><tr><th>Old</th><th>New</th></tr></thead><tbody><tr><td><code>the_thao</code></td><td><code>The thao</code></td></tr><tr><td><code>kinh_doanh</code></td><td><code>Kinh doanh</code></td></tr><tr><td><code>vi_tinh</code></td><td><code>Vi tinh</code></td></tr></tbody></table>
