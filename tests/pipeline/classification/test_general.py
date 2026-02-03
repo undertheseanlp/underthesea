@@ -3,7 +3,7 @@ from unittest import TestCase
 from underthesea import classify
 
 
-class TestSonarCore1Classify(TestCase):
+class TestGeneralClassify(TestCase):
     def test_labels_returns_list(self):
         self.assertGreater(len(classify.labels), 0)
 
