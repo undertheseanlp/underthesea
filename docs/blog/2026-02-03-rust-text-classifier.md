@@ -133,14 +133,105 @@ One `.bin` file instead of multiple pickle files:
 
 Rust code releases the GIL during computation, enabling true parallelism.
 
-## Model Accuracy
+## The Models
 
-The new models maintain high accuracy:
+### sen-classifier-general
 
-| Dataset | Categories | Accuracy |
-|---------|------------|----------|
-| VNTC | 10 news topics | 92.49% |
-| Bank | 14 banking intents | 75.76% |
+General Vietnamese news classification model trained on VNTC dataset.
+
+**Training Data:** [VNTC](https://github.com/duyvuleo/VNTC) (Vietnamese News Text Classification)
+- 33,759 training samples
+- 50,373 test samples
+- 10 news categories
+
+**Categories:**
+
+| Label | Vietnamese | English |
+|-------|------------|---------|
+| Chinh tri Xa hoi | Chính trị Xã hội | Politics/Society |
+| Doi song | Đời sống | Lifestyle |
+| Khoa hoc | Khoa học | Science |
+| Kinh doanh | Kinh doanh | Business |
+| Phap luat | Pháp luật | Law |
+| Suc khoe | Sức khỏe | Health |
+| The gioi | Thế giới | World |
+| The thao | Thể thao | Sports |
+| Van hoa | Văn hóa | Culture |
+| Vi tinh | Vi tính | Technology |
+
+**Performance:**
+- Accuracy: **92.49%**
+- F1 (weighted): 92.40%
+- Training time: 37.6s
+
+### sen-classifier-bank
+
+Vietnamese banking intent classification model trained on UTS2017_Bank dataset.
+
+**Training Data:** [UTS2017_Bank](https://huggingface.co/datasets/undertheseanlp/UTS2017_Bank)
+- 1,581 training samples
+- 396 test samples
+- 14 banking categories
+
+**Categories:**
+
+| Label | Description | Samples |
+|-------|-------------|---------|
+| CUSTOMER_SUPPORT | Customer support queries | 774 |
+| TRADEMARK | Brand/trademark mentions | 697 |
+| LOAN | Loan services | 73 |
+| INTERNET_BANKING | Internet banking | 69 |
+| CARD | Card services | 66 |
+| INTEREST_RATE | Interest rates | 58 |
+| PROMOTION | Promotions | 56 |
+| DISCOUNT | Discounts | 40 |
+| MONEY_TRANSFER | Money transfer | 37 |
+| OTHER | Other queries | 70 |
+| PAYMENT | Payment services | 17 |
+| SAVING | Savings | 12 |
+| ACCOUNT | Account services | 5 |
+| SECURITY | Security | 3 |
+
+**Performance:**
+- Accuracy: **75.76%** (+3.29% vs previous sonar_core_1)
+- F1 (weighted): 72.70%
+- Training time: 0.13s
+
+## Training Pipeline
+
+Both models use a 3-stage TF-IDF + Linear SVM pipeline:
+
+```
+Input Text
+    ↓
+┌─────────────────────────────────────┐
+│  CountVectorizer                    │
+│  - max_features: 20,000             │
+│  - ngram_range: (1, 2)              │
+└─────────────────────────────────────┘
+    ↓
+┌─────────────────────────────────────┐
+│  TfidfTransformer                   │
+│  - use_idf: True                    │
+└─────────────────────────────────────┘
+    ↓
+┌─────────────────────────────────────┐
+│  LinearSVC                          │
+│  - C: 1.0                           │
+│  - max_iter: 2000                   │
+│  - loss: squared_hinge              │
+└─────────────────────────────────────┘
+    ↓
+Predicted Label + Confidence
+```
+
+**Key design decisions:**
+- **Syllable-level tokenization**: No word segmentation for speed
+- **Character n-grams (1-2)**: Captures Vietnamese morphology
+- **20K vocabulary**: Balances accuracy and model size
+- **Linear SVM**: Fast training, works well with sparse high-dimensional data
+
+Training code: [sen-1/src/scripts/train_vntc.py](https://github.com/undertheseanlp/sen-1)
 
 ## Label Format Change
 
