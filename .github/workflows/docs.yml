@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'docusaurus/**'
+      - 'docs/**'
       - '.github/workflows/docs.yml'
   workflow_dispatch:
 
@@ -32,11 +32,11 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        working-directory: docusaurus
+        working-directory: docs
         run: npm install
 
       - name: Build documentation
-        working-directory: docusaurus
+        working-directory: docs
         env:
           BASE_URL: /underthesea/
         run: npm run build
@@ -44,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docusaurus/build
+          path: ./docs/build
 
   deploy-preview:
     if: github.event_name == 'pull_request'
@@ -59,11 +59,11 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        working-directory: docusaurus
+        working-directory: docs
         run: npm install
 
       - name: Build documentation for PR preview
-        working-directory: docusaurus
+        working-directory: docs
         env:
           PR_NUM: ${{ github.event.pull_request.number }}
         run: npm run build
@@ -71,7 +71,7 @@ jobs:
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1
         with:
-          source-dir: ./docusaurus/build
+          source-dir: ./docs/build
 
   deploy:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
