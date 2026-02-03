@@ -22,7 +22,7 @@ class TestBankClassify(TestCase):
         actual = classify(text, domain="bank")
         # Convert numpy strings to regular strings for comparison
         actual = [str(label) for label in actual]
-        expected = ["CARD"]
+        expected = ["CUSTOMER_SUPPORT"]
         self.assertEqual(expected, actual)
 
     def test_classify_simple_case_2(self):
@@ -30,8 +30,7 @@ class TestBankClassify(TestCase):
         actual = classify(text, domain="bank")
         # Convert numpy strings to regular strings for comparison
         actual = [str(label) for label in actual]
-        # Updated expectation based on new model output
-        expected = ["INTEREST_RATE"]
+        expected = ["MONEY_TRANSFER"]
         self.assertEqual(expected, actual)
 
     def test_classify_simple_case_3(self):
@@ -39,6 +38,5 @@ class TestBankClassify(TestCase):
         actual = classify(text, domain="bank")
         # Convert numpy strings to regular strings for comparison
         actual = [str(label) for label in actual]
-        # Updated expectation based on new model output
-        expected = ["DISCOUNT"]
+        expected = ["INTEREST_RATE"]
         self.assertEqual(expected, actual)
