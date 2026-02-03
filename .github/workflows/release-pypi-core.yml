@@ -160,6 +160,8 @@ jobs:
     name: "Publish to PyPI"
     runs-on: ubuntu-latest
     needs: [sdist, linux, musllinux, windows, macos]
+    permissions:
+      id-token: write
     steps:
       - name: Download all artifacts
         uses: actions/download-artifact@v4
