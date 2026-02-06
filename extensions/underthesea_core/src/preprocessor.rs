@@ -491,4 +491,130 @@ mod tests {
         assert_eq!(pp2.teencode.as_ref().unwrap().len(), 1);
         assert_eq!(pp.transform("tks"), pp2.transform("tks"));
     }
+
+    #[test]
+    fn test_transform_batch() {
+        let pp = TextPreprocessor::default();
+        let texts = vec![
+            "Ko đẹp".to_string(),
+            "SP tốt lắm!!!".to_string(),
+            "Bình thường".to_string(),
+        ];
+        let results = pp.transform_batch(&texts);
+        assert_eq!(results.len(), 3);
+        assert_eq!(results[0], "không NEG_đẹp");
+        assert_eq!(results[1], "sản phẩm tốt lắm!");
+        assert_eq!(results[2], "bình thường");
+    }
+
+    #[test]
+    fn test_empty_input() {
+        let pp = TextPreprocessor::default();
+        assert_eq!(pp.transform(""), "");
+        assert_eq!(pp.transform("   "), "");
+    }
+
+    #[test]
+    fn test_unicode_nfc_normalization() {
+        let pp = TextPreprocessor::default();
+        // Vietnamese text with decomposed Unicode (NFD) should be normalized to NFC
+        let nfd = "pha\u{0309}i"; // phải in NFD (a + combining hook above)
+        let nfc = "phải"; // phải in NFC
+        assert_eq!(pp.transform(nfd), pp.transform(nfc));
+    }
+
+    #[test]
+    fn test_multiple_negations_in_sentence() {
+        let pp = TextPreprocessor {
+            teencode: None,
+            ..Default::default()
+        };
+        let result = pp.transform("không tốt và chưa đẹp");
+        assert!(result.contains("NEG_tốt"));
+        assert!(result.contains("NEG_và"));
+        assert!(result.contains("NEG_đẹp"));
+    }
+
+    #[test]
+    fn test_teencode_with_attached_punctuation() {
+        let pp = TextPreprocessor::default();
+        // "ko," should still expand "ko" to "không"
+        let result = pp.transform("ko, dc");
+        assert!(result.contains("không"));
+        assert!(result.contains("được"));
+    }
+
+    #[test]
+    fn test_url_removal_www() {
+        let pp = TextPreprocessor::default();
+        let result = pp.transform("Visit www.example.com today");
+        assert!(!result.contains("www"));
+        assert!(result.contains("visit"));
+        assert!(result.contains("today"));
+    }
+
+    #[test]
+    fn test_repeated_chars_does_not_affect_punctuation() {
+        let pp = TextPreprocessor {
+            normalize_punctuation: false,
+            ..Default::default()
+        };
+        // With punctuation normalization off, repeated dots should be preserved
+        let result = pp.transform("hmm.....");
+        assert_eq!(result, "hmm.....");
+    }
+
+    #[test]
+    fn test_lowercase_disabled() {
+        let pp = TextPreprocessor {
+            lowercase: false,
+            teencode: None,
+            negation_words: None,
+            ..Default::default()
+        };
+        assert_eq!(pp.transform("Hello World"), "Hello World");
+    }
+
+    #[test]
+    fn test_negation_window_1() {
+        let pp = TextPreprocessor {
+            negation_window: 1,
+            teencode: None,
+            ..Default::default()
+        };
+        let result = pp.transform("không tốt lắm");
+        assert!(result.contains("NEG_tốt"));
+        assert!(!result.contains("NEG_lắm"));
+    }
+
+    #[test]
+    fn test_negation_at_end_of_sentence() {
+        let pp = TextPreprocessor {
+            teencode: None,
+            ..Default::default()
+        };
+        // Negation word at end — nothing to mark
+        let result = pp.transform("tốt không");
+        assert_eq!(result, "tốt không");
+    }
+
+    #[test]
+    fn test_all_disabled_serialization() {
+        let pp = TextPreprocessor {
+            lowercase: false,
+            unicode_normalize: false,
+            remove_urls: false,
+            normalize_repeated_chars: false,
+            normalize_punctuation: false,
+            teencode: None,
+            negation_words: None,
+            negation_window: 0,
+        };
+        let bytes = bincode::serialize(&pp).unwrap();
+        let pp2: TextPreprocessor = bincode::deserialize(&bytes).unwrap();
+        assert!(!pp2.lowercase);
+        assert!(pp2.teencode.is_none());
+        assert!(pp2.negation_words.is_none());
+        assert_eq!(pp.transform("Test!!!"), pp2.transform("Test!!!"));
+    }
 }
