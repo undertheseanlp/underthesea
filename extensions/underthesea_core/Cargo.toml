@@ -1,6 +1,6 @@
 [package]
 name = "underthesea_core"
-version = "3.1.7"
+version = "3.2.0"
 homepage = "https://github.com/undertheseanlp/underthesea/tree/main/extensions/underthesea_core"
 repository = "https://github.com/undertheseanlp/underthesea/"
 authors = ["Vu Anh <anhv.ict91@gmail.com>"]
@@ -43,6 +43,9 @@ liblbfgs = "0.1"            # L-BFGS optimization (port of Naoaki Okazaki's libL
 
 # LR implementation dependencies
 rand = "0.8"                # Random number generation for SGD shuffling
+
+# Text preprocessing dependencies
+unicode-normalization = "0.1"  # Unicode NFC normalization for Vietnamese text
 
 [dependencies.pyo3]
 version = "0.25.1"

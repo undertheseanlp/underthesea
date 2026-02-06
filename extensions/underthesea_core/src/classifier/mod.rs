@@ -4,6 +4,7 @@
 //! without crossing the Python-Rust boundary for intermediate vectors.
 //! This eliminates the expensive data transfer overhead.
 
+use crate::preprocessor::TextPreprocessor;
 use crate::svm::{LinearSVC, SparseVec};
 use hashbrown::HashMap;
 use pyo3::prelude::*;
@@ -361,18 +362,22 @@ pub struct TextClassifier {
     c: f32,
     max_iter: usize,
     tol: f32,
+    /// Optional preprocessor — when set, fit/predict auto-preprocess texts.
+    /// Serialized with bincode alongside the model.
+    preprocessor: Option<TextPreprocessor>,
 }
 
 impl Default for TextClassifier {
     fn default() -> Self {
-        Self::new(20000, (1, 2), 1, 1.0, 1.0, 1000, 0.1)
+        Self::new(20000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, None)
     }
 }
 
 #[pymethods]
 impl TextClassifier {
     #[new]
-    #[pyo3(signature = (max_features=20000, ngram_range=(1, 2), min_df=1, max_df=1.0, c=1.0, max_iter=1000, tol=0.1))]
+    #[pyo3(signature = (max_features=20000, ngram_range=(1, 2), min_df=1, max_df=1.0, c=1.0, max_iter=1000, tol=0.1, preprocessor=None))]
+    #[allow(clippy::too_many_arguments)]
     pub fn new(
         max_features: usize,
         ngram_range: (usize, usize),
@@ -381,6 +386,7 @@ impl TextClassifier {
         c: f64,
         max_iter: usize,
         tol: f64,
+        preprocessor: Option<TextPreprocessor>,
     ) -> Self {
         Self {
             vectorizer: FastTfIdfVectorizer::new(max_features, ngram_range, min_df, max_df),
@@ -388,15 +394,20 @@ impl TextClassifier {
             c: c as f32,
             max_iter,
             tol: tol as f32,
+            preprocessor,
         }
     }
 
-    /// Fit the classifier on training data
+    /// Fit the classifier on training data.
+    /// If preprocessor is set, texts are automatically preprocessed.
     pub fn fit(&mut self, texts: Vec<String>, labels: Vec<String>) {
         let n_samples = texts.len();
         if n_samples == 0 {
             return;
         }
+
+        // Auto-preprocess if preprocessor is configured
+        let texts = self.preprocess_texts(texts);
 
         // Step 1: Fit vectorizer
         self.vectorizer.fit(texts.clone());
@@ -461,13 +472,15 @@ impl TextClassifier {
         ));
     }
 
-    /// Predict labels for multiple texts (parallel)
+    /// Predict labels for multiple texts (parallel).
+    /// If preprocessor is set, texts are automatically preprocessed.
     pub fn predict_batch(&self, texts: Vec<String>) -> Vec<String> {
         let model = match &self.model {
             Some(m) => m,
             None => return vec!["".to_string(); texts.len()],
         };
 
+        let texts = self.preprocess_texts(texts);
         let classes = model.classes();
 
         let indices: Vec<usize> = texts
@@ -484,25 +497,29 @@ impl TextClassifier {
             .collect()
     }
 
-    /// Predict label for a single text
+    /// Predict label for a single text.
+    /// If preprocessor is set, text is automatically preprocessed.
     pub fn predict(&self, text: &str) -> String {
         let model = match &self.model {
             Some(m) => m,
             None => return "".to_string(),
         };
 
-        let sparse = self.vectorizer.transform_sparse_internal(text);
+        let text = self.preprocess_text(text);
+        let sparse = self.vectorizer.transform_sparse_internal(&text);
         model.predict_sparse_internal(&sparse)
     }
 
-    /// Predict label with confidence score for a single text
+    /// Predict label with confidence score.
+    /// If preprocessor is set, text is automatically preprocessed.
     pub fn predict_with_score(&self, text: &str) -> (String, f64) {
         let model = match &self.model {
             Some(m) => m,
             None => return ("".to_string(), 0.0),
         };
 
-        let sparse = self.vectorizer.transform_sparse_internal(text);
+        let text = self.preprocess_text(text);
+        let sparse = self.vectorizer.transform_sparse_internal(&text);
         model.predict_sparse_with_score_internal(&sparse)
     }
 
@@ -513,12 +530,15 @@ impl TextClassifier {
         sentence.labels.push(Label::new(label_value, score));
     }
 
-    /// Predict with confidence scores
+    /// Predict with confidence scores (batch).
+    /// If preprocessor is set, texts are automatically preprocessed.
     pub fn predict_with_scores(&self, texts: Vec<String>) -> Vec<(String, f64)> {
         let model = match &self.model {
             Some(m) => m,
             None => return texts.iter().map(|_| ("".to_string(), 0.0)).collect(),
         };
+
+        let texts = self.preprocess_texts(texts);
 
         texts
             .par_iter()
@@ -544,7 +564,14 @@ impl TextClassifier {
         self.model.as_ref().map(|m| m.classes()).unwrap_or_default()
     }
 
-    /// Save model to binary file
+    /// Get the preprocessor (if set).
+    #[getter]
+    pub fn preprocessor(&self) -> Option<TextPreprocessor> {
+        self.preprocessor.clone()
+    }
+
+    /// Save model to binary file.
+    /// Preprocessor config is saved together with the model.
     pub fn save(&self, path: &str) -> PyResult<()> {
         let file = File::create(path)
             .map_err(|e| PyErr::new::<pyo3::exceptions::PyIOError, _>(e.to_string()))?;
@@ -563,6 +590,27 @@ impl TextClassifier {
         let clf: Self = bincode::deserialize_from(reader)
             .map_err(|e| PyErr::new::<pyo3::exceptions::PyIOError, _>(e.to_string()))?;
         Ok(clf)
+    }
+}
+
+/// Private helper methods (not exposed to Python)
+impl TextClassifier {
+    /// Preprocess a single text if preprocessor is configured.
+    #[inline]
+    fn preprocess_text(&self, text: &str) -> String {
+        match &self.preprocessor {
+            Some(pp) => pp.transform(text),
+            None => text.to_string(),
+        }
+    }
+
+    /// Preprocess a batch of texts if preprocessor is configured.
+    #[inline]
+    fn preprocess_texts(&self, texts: Vec<String>) -> Vec<String> {
+        match &self.preprocessor {
+            Some(pp) => pp.transform_batch(&texts),
+            None => texts,
+        }
     }
 }
 
@@ -642,4 +690,177 @@ fn solve_l2r_l2_svc(
     };
 
     (w, bias)
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::preprocessor::TextPreprocessor;
+
+    fn sample_texts_labels() -> (Vec<String>, Vec<String>) {
+        let texts = vec![
+            "sản phẩm rất tốt".to_string(),
+            "hàng đẹp giá rẻ".to_string(),
+            "sản phẩm tốt lắm".to_string(),
+            "hàng xấu quá".to_string(),
+            "tệ lắm không mua nữa".to_string(),
+            "hàng kém chất lượng".to_string(),
+        ];
+        let labels = vec![
+            "positive".to_string(),
+            "positive".to_string(),
+            "positive".to_string(),
+            "negative".to_string(),
+            "negative".to_string(),
+            "negative".to_string(),
+        ];
+        (texts, labels)
+    }
+
+    #[test]
+    fn test_classifier_without_preprocessor() {
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, None);
+        clf.fit(texts, labels);
+        assert!(clf.is_fitted());
+        assert!(clf.preprocessor.is_none());
+
+        let pred = clf.predict("sản phẩm tốt");
+        assert!(!pred.is_empty());
+    }
+
+    #[test]
+    fn test_classifier_with_preprocessor() {
+        let pp = TextPreprocessor::default();
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        clf.fit(texts, labels);
+        assert!(clf.is_fitted());
+        assert!(clf.preprocessor.is_some());
+
+        // Predict with teencode — "ko" should be expanded to "không" by preprocessor
+        let pred = clf.predict("sp ko tốt");
+        assert!(!pred.is_empty());
+    }
+
+    #[test]
+    fn test_classifier_predict_batch_with_preprocessor() {
+        let pp = TextPreprocessor::default();
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        clf.fit(texts, labels);
+
+        let test_texts = vec!["sp tốt".to_string(), "hàng xấu".to_string()];
+        let preds = clf.predict_batch(test_texts);
+        assert_eq!(preds.len(), 2);
+        assert!(!preds[0].is_empty());
+        assert!(!preds[1].is_empty());
+    }
+
+    #[test]
+    fn test_classifier_predict_with_score_preprocessor() {
+        let pp = TextPreprocessor::default();
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        clf.fit(texts, labels);
+
+        let (label, score) = clf.predict_with_score("sp tốt lắm");
+        assert!(!label.is_empty());
+        assert!(score != 0.0);
+    }
+
+    #[test]
+    fn test_classifier_predict_with_scores_preprocessor() {
+        let pp = TextPreprocessor::default();
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        clf.fit(texts, labels);
+
+        let results = clf.predict_with_scores(vec!["sp tốt".to_string(), "hàng xấu".to_string()]);
+        assert_eq!(results.len(), 2);
+        for (label, score) in &results {
+            assert!(!label.is_empty());
+            assert!(*score != 0.0);
+        }
+    }
+
+    #[test]
+    fn test_classifier_serialization_with_preprocessor() {
+        let pp = TextPreprocessor::default();
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        clf.fit(texts, labels);
+
+        // Serialize/deserialize via bincode directly (no PyO3 dependency)
+        let bytes = bincode::serialize(&clf).unwrap();
+        let clf2: TextClassifier = bincode::deserialize(&bytes).unwrap();
+        assert!(clf2.is_fitted());
+        assert!(clf2.preprocessor.is_some());
+
+        // Both should produce same prediction
+        let pred1 = clf.predict("sp ko tốt");
+        let pred2 = clf2.predict("sp ko tốt");
+        assert_eq!(pred1, pred2);
+    }
+
+    #[test]
+    fn test_classifier_serialization_without_preprocessor() {
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, None);
+        clf.fit(texts, labels);
+
+        let bytes = bincode::serialize(&clf).unwrap();
+        let clf2: TextClassifier = bincode::deserialize(&bytes).unwrap();
+        assert!(clf2.is_fitted());
+        assert!(clf2.preprocessor.is_none());
+
+        let pred1 = clf.predict("sản phẩm tốt");
+        let pred2 = clf2.predict("sản phẩm tốt");
+        assert_eq!(pred1, pred2);
+    }
+
+    #[test]
+    fn test_preprocess_text_helper() {
+        let pp = TextPreprocessor::default();
+        let clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        let result = clf.preprocess_text("Ko đẹp!!!");
+        assert_eq!(result, "không NEG_đẹp!");
+    }
+
+    #[test]
+    fn test_preprocess_text_no_preprocessor() {
+        let clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, None);
+        let result = clf.preprocess_text("Ko đẹp!!!");
+        assert_eq!(result, "Ko đẹp!!!");
+    }
+
+    #[test]
+    fn test_preprocess_texts_helper() {
+        let pp = TextPreprocessor::default();
+        let clf = TextClassifier::new(1000, (1, 2), 1, 1.0, 1.0, 1000, 0.1, Some(pp));
+        let results = clf.preprocess_texts(vec!["Ko đẹp".to_string(), "SP tốt".to_string()]);
+        assert_eq!(results.len(), 2);
+        assert_eq!(results[0], "không NEG_đẹp");
+        assert!(results[1].contains("sản phẩm"));
+    }
+
+    #[test]
+    fn test_classifier_classes() {
+        let (texts, labels) = sample_texts_labels();
+        let mut clf = TextClassifier::default();
+        clf.fit(texts, labels);
+        let classes = clf.classes();
+        assert_eq!(classes.len(), 2);
+        assert!(classes.contains(&"positive".to_string()));
+        assert!(classes.contains(&"negative".to_string()));
+    }
+
+    #[test]
+    fn test_classifier_not_fitted() {
+        let clf = TextClassifier::default();
+        assert!(!clf.is_fitted());
+        assert_eq!(clf.predict("test"), "");
+        assert_eq!(clf.predict_batch(vec!["test".to_string()]), vec![""]);
+        assert_eq!(clf.predict_with_score("test"), ("".to_string(), 0.0));
+    }
 }

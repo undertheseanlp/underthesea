@@ -9,6 +9,7 @@ pub mod classifier;
 pub mod crf;
 pub mod featurizers;
 pub mod lr;
+pub mod preprocessor;
 pub mod svm;
 pub mod text;
 
@@ -35,6 +36,9 @@ use svm::LinearSVC;
 
 // Re-export Classifier types
 use classifier::{Label, Sentence, TextClassifier};
+
+// Re-export Preprocessor types
+use preprocessor::TextPreprocessor;
 
 #[pyclass]
 pub struct CRFFeaturizer {
@@ -845,5 +849,7 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<TextClassifier>()?;
     m.add_class::<Label>()?;
     m.add_class::<Sentence>()?;
+    // Preprocessor classes
+    m.add_class::<TextPreprocessor>()?;
     Ok(())
 }
