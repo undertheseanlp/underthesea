@@ -63,12 +63,12 @@ impl HSTree {
         let mut node = osz;
         for i in osz..tree_size {
             let mut mini = [0i32; 2];
-            for j in 0..2 {
+            for m in &mut mini {
                 if leaf >= 0 && tree[leaf as usize].count < tree[node].count {
-                    mini[j] = leaf;
+                    *m = leaf;
                     leaf -= 1;
                 } else {
-                    mini[j] = node as i32;
+                    *m = node as i32;
                     node += 1;
                 }
             }
@@ -85,6 +85,7 @@ impl HSTree {
 
     /// DFS through the tree to find top-k labels.
     /// Uses log-space scores matching C++ FastText v0.9.2 (loss.cc).
+    #[allow(clippy::too_many_arguments)]
     fn dfs(
         &self,
         k: usize,
@@ -137,6 +138,7 @@ impl HSTree {
 }
 
 /// Predict the top-k labels for the given text.
+#[allow(clippy::too_many_arguments)]
 pub fn predict(
     text: &str,
     k: usize,
@@ -212,10 +214,7 @@ fn predict_softmax(
     output: &FastTextMatrix,
     nlabels: usize,
 ) -> Vec<(f32, usize)> {
-    let mut logits = vec![0.0f32; nlabels];
-    for i in 0..nlabels {
-        logits[i] = output.dot_row(hidden, i);
-    }
+    let mut logits: Vec<f32> = (0..nlabels).map(|i| output.dot_row(hidden, i)).collect();
     softmax(&mut logits);
 
     let mut indices: Vec<usize> = (0..nlabels).collect();

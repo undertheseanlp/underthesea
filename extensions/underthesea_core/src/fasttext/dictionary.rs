@@ -80,7 +80,7 @@ impl Dictionary {
         // Build word2int hash table
         let mut word2int = vec![-1i32; HASH_TABLE_SIZE];
         for (i, entry) in entries.iter().enumerate() {
-            let mut h = find_hash(&word2int, &entry.word) as usize;
+            let mut h = find_hash(&word2int, &entry.word);
             // Linear probing - find empty slot
             while word2int[h] != -1 {
                 h = (h + 1) % HASH_TABLE_SIZE;
@@ -235,11 +235,11 @@ impl Dictionary {
     fn compute_word_ngrams(&self, word_ids: &[i32], features: &mut Vec<i32>) {
         for i in 0..word_ids.len() {
             let mut h: u64 = word_ids[i] as u64;
-            for j in (i + 1)..word_ids.len() {
+            for (j, &wid) in word_ids.iter().enumerate().skip(i + 1) {
                 if j - i >= self.word_ngrams as usize {
                     break;
                 }
-                h = h.wrapping_mul(116049371).wrapping_add(word_ids[j] as u64);
+                h = h.wrapping_mul(116049371).wrapping_add(wid as u64);
                 let bucket_hash = (h as i64 % self.bucket as i64) as i32;
                 self.push_hash(features, bucket_hash);
             }
