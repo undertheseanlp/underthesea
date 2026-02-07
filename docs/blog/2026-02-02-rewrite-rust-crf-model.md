@@ -93,7 +93,7 @@ class FastCRFSequenceTagger:
 
 ## Inference Benchmark Results
 
-We benchmarked both versions on the same hardware with 100 iterations:
+We benchmarked both versions on the same hardware (AMD EPYC 7713, Linux, Python 3.12) with 100 iterations:
 
 | Function | v9.2.1 (pycrfsuite) | v9.2.5 (Rust) | Improvement |
 |----------|---------------------|---------------|-------------|
@@ -154,9 +154,32 @@ Beyond inference, we also optimized the CRF trainer in `underthesea-core`. The o
 
 ### CRF Training Algorithm
 
-The trainer uses L-BFGS optimization with OWL-QN extension for L1 regularization. The core computation is the forward-backward algorithm with complexity **O(n × L²)** per sequence, where n is the sequence length and L is the number of labels.
+The trainer uses Limited-memory BFGS (L-BFGS) optimization with Orthant-Wise Limited-memory Quasi-Newton (OWL-QN) extension for L1 regularization:
 
-Following CRFsuite's approach, we use **scaled probability space** instead of log-space — avoiding log/exp in inner loops while maintaining numerical stability with scaling factors.
+```
+minimize: L(w) = -log P(y|x) + λ₁‖w‖₁ + λ₂‖w‖₂²
+```
+
+Where `λ₁ = 1.0` (L1 coefficient) and `λ₂ = 0.001` (L2 coefficient).
+
+The core computation is the forward-backward algorithm for computing:
+1. **Partition function** Z(x) via forward pass
+2. **Marginal probabilities** P(y_t | x) via forward-backward
+3. **Gradient** ∇L(w) = E_model[f] - E_empirical[f]
+
+Complexity per sequence: **O(n × L²)** where n is the sequence length and L is the number of labels.
+
+Following CRFsuite's approach, we use **scaled probability space** instead of log-space:
+
+```rust
+// Instead of: log_alpha[t][y] = logsumexp(log_alpha[t-1] + log_trans + log_state)
+// We use:     alpha[t][y] = sum(alpha[t-1] * exp_trans) * exp_state * scale
+```
+
+Benefits:
+- No log/exp in inner loops
+- Better numerical stability with scaling factors
+- Matches CRFsuite's performance characteristics
 
 ### Starting Point
 
@@ -175,23 +198,94 @@ We flattened into contiguous arrays with offset indexing:
 // Contiguous memory, excellent cache locality
 attr_offsets: Vec<u32>               // attr_id -> start index
 attr_features_flat: Vec<(u32, u32)>  // flattened (label_id, feature_id) pairs
+
+// Lookup: O(1) with sequential memory access
+let start = attr_offsets[attr_id];
+let end = attr_offsets[attr_id + 1];
+for i in start..end {
+    let (label_id, feature_id) = attr_features_flat[i];
+    // Process feature...
+}
 ```
 
-**Result**: Word segmentation went from 18m 33s to 1m 49s — a **10.2x speedup**.
+**Result**:
+
+| Task | Before | After | Speedup |
+|------|--------|-------|---------|
+| Word Segmentation | 18m 33s | 1m 49s | **10.2x** |
+| POS Tagging | 7m 21s | 5m 9s | **1.4x** |
+
+The larger speedup for word segmentation (562k features vs 37k for POS) confirms the feature lookup was the bottleneck.
 
 ### Optimization 2: Loop Unrolling for Auto-Vectorization
 
-The forward-backward algorithm has O(n × L²) inner loops. For POS tagging (16 labels = 256 transitions per timestep), we applied 4-way manual loop unrolling to enable SIMD auto-vectorization.
+The forward-backward algorithm has O(n × L²) inner loops. For POS tagging (16 labels = 256 transitions per timestep), we applied 4-way manual loop unrolling to enable SIMD auto-vectorization:
+
+```rust
+// 4-way unrolled for instruction-level parallelism
+let chunks = num_labels / 4;
+for i in 0..chunks {
+    let y = i * 4;
+    let a0 = alpha[curr + y];
+    let a1 = alpha[curr + y + 1];
+    let a2 = alpha[curr + y + 2];
+    let a3 = alpha[curr + y + 3];
+
+    let t0 = trans[trans_base + y];
+    let t1 = trans[trans_base + y + 1];
+    let t2 = trans[trans_base + y + 2];
+    let t3 = trans[trans_base + y + 3];
+
+    alpha[curr + y]     = a0 + alpha_prev * t0;
+    alpha[curr + y + 1] = a1 + alpha_prev * t1;
+    alpha[curr + y + 2] = a2 + alpha_prev * t2;
+    alpha[curr + y + 3] = a3 + alpha_prev * t3;
+}
+```
 
 **Result**: POS tagging (10 iterations) went from 25.7s to 17.58s — a **1.46x speedup**.
 
 ### Optimization 3: Unsafe Bounds-Check Elimination
 
-We used `unsafe` with `get_unchecked` for hot paths where indices are provably valid, eliminating Rust's bounds checks in tight loops. All `unsafe` blocks are guarded by loop bounds derived from array lengths and algorithm invariants.
+We used `unsafe` with `get_unchecked` for hot paths where indices are provably valid, eliminating Rust's bounds checks in tight loops:
+
+```rust
+// Safe but slow: 2 bounds checks per iteration
+for y in 0..num_labels {
+    gradient[feature_id] += state_mexp[base + y];
+}
+
+// Unsafe but fast: 0 bounds checks
+unsafe {
+    for y in 0..num_labels {
+        *gradient.get_unchecked_mut(feature_id) +=
+            *state_mexp.get_unchecked(base + y);
+    }
+}
+```
+
+All `unsafe` blocks are guarded by loop bounds derived from array lengths, assertions, and algorithm invariants.
 
 ### Optimization 4: Fused Operations
 
-Separate loops for related operations (scale, sum, normalize) were fused into single passes to reduce redundant memory traversals.
+Separate loops for related operations cause redundant memory traversals. We fused them:
+
+```rust
+// Before: 3 separate loops, 3 memory traversals
+for y in 0..L { alpha[y] *= exp_state[y]; }
+for y in 0..L { sum += alpha[y]; }
+for y in 0..L { alpha[y] *= scale; }
+
+// After: 1 fused loop + 1 normalization pass
+let mut sum = 0.0;
+for y in 0..L {
+    let val = alpha[y] * exp_state[y];
+    alpha[y] = val;
+    sum += val;
+}
+let scale = 1.0 / sum;
+for y in 0..L { alpha[y] *= scale; }
+```
 
 ### Cumulative Optimization Impact
 
@@ -222,10 +316,11 @@ Separate loops for related operations (scale, sum, normalize) were fused into si
 
 ## What Didn't Work
 
-We also evaluated several optimizations that did not provide significant improvements:
+We evaluated several additional optimizations that did not provide significant improvements:
 
 - **Explicit SIMD Intrinsics (AVX2)**: The inner loops process only 2-16 labels, too small for explicit SIMD to outperform the compiler's auto-vectorization with loop unrolling.
-- **Parallel Forward-Backward (Rayon)**: Thread-local gradient accumulation overhead from buffer allocation per sequence and gradient merging negated the parallelism benefits.
+- **Parallel Forward-Backward (Rayon)**: Thread-local gradient accumulation overhead from buffer allocation per sequence and gradient merging negated the parallelism benefits. Sequential processing with buffer reuse remains faster.
+- **Memory Pool for Temporary Buffers**: Already implemented — the current implementation reuses buffers across sequences within each L-BFGS evaluation. Further pooling across evaluations showed minimal improvement.
 - **Compressed Sparse Features**: The flat data structure with offset indexing already provides efficient sparse feature access — additional compression just adds decode overhead.
 
 ## Key Insight: Different Tasks, Different Bottlenecks
@@ -237,7 +332,13 @@ We also evaluated several optimizations that did not provide significant improve
 
 ### Why python-crfsuite Was Initially Faster
 
-CRFsuite (C implementation) already had hand-optimized sparse feature storage, SIMD-vectorized matrix operations (AVX/SSE intrinsics), cache-optimized memory layouts, and decades of optimization. Our flat data structure and loop unrolling effectively replicated these advantages in Rust.
+CRFsuite (C implementation) already had:
+1. **Hand-optimized sparse feature storage** — similar to our flat structure
+2. **SIMD-vectorized matrix operations** — AVX/SSE intrinsics
+3. **Cache-optimized memory layout** — column-major for transitions
+4. **Decades of optimization** — mature codebase
+
+Our flat data structure and loop unrolling effectively replicated these advantages in Rust.
 
 ### Lessons Learned
 
@@ -292,3 +393,53 @@ from underthesea import word_tokenize, pos_tag, ner, chunk
 
 word_tokenize("Việt Nam")  # 20% faster!
 ```
+
+## Appendix
+
+### Hyperparameters
+
+| Parameter | Value | Description |
+|-----------|-------|-------------|
+| c1 (L1) | 1.0 | L1 regularization coefficient |
+| c2 (L2) | 0.001 | L2 regularization coefficient |
+| max_iterations | 200 | Maximum L-BFGS iterations |
+| linesearch | Backtracking | Line search algorithm for OWL-QN |
+| max_step_size | 1e20 | Allow large steps (critical for convergence) |
+
+### Hardware
+
+| Component | Specification |
+|-----------|---------------|
+| CPU | AMD EPYC 7713 64-Core Processor |
+| Platform | Linux |
+| Rust | 1.75+ (release mode with LTO) |
+| Python | 3.12 |
+
+### Code References
+
+| File | Description |
+|------|-------------|
+| `underthesea_core/src/crf/trainer.rs` | Main CRF trainer implementation |
+| `underthesea_core/src/crf/model.rs` | CRF model structure |
+| `tre-1/scripts/train.py` | POS tagger training script |
+| `tre-1/scripts/train_word_segmentation.py` | Word segmentation training script |
+
+### Detailed Benchmark Results (2026-01-31)
+
+**10-Iteration Tests:**
+
+| Task | Trainer | Training Time | Accuracy |
+|------|---------|---------------|----------|
+| POS Tagging | python-crfsuite | 12.96s | 78.37% |
+| POS Tagging | underthesea-core | 18.51s | 75.42% |
+| Word Segmentation | python-crfsuite | 6.78s | 81.44% F1 |
+| Word Segmentation | underthesea-core | 11.99s | 82.81% F1 |
+
+**200-Iteration Tests:**
+
+| Task | Trainer | Training Time | Accuracy |
+|------|---------|---------------|----------|
+| POS Tagging | python-crfsuite | 243.22s | 95.98% |
+| POS Tagging | underthesea-core | 254.07s | 95.97% |
+| Word Segmentation | python-crfsuite | 121.69s | 98.89% / 98.00% F1 |
+| Word Segmentation | underthesea-core | 98.34s | 98.89% / 98.00% F1 |
