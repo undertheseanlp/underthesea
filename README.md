@@ -91,7 +91,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
+<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation and address conversion
 </summary>
 
 - Usage
@@ -101,13 +101,8 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     >>> text_normalize("Ðảm baỏ chất lựơng phòng thí nghịêm hoá học")
     "Đảm bảo chất lượng phòng thí nghiệm hóa học"
     ```
-</details>
 
-<details>
-<summary><b><a href="">Address Conversion</a></b> - Converting Vietnamese addresses from old to new admin units
-</summary>
-
-- Usage
+- Address Conversion
 
     ```python
     >>> from underthesea import convert_address
