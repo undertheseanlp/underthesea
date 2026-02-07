@@ -1,40 +1,40 @@
-import os
-import sys
-from os.path import dirname
+import logging
+from pathlib import Path
 
-from underthesea.corpus.data import Sentence
-from underthesea.model_fetcher import ModelFetcher
-from underthesea.models.text_classifier import TextClassifier
+from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 
-sys.path.insert(0, dirname(dirname(__file__)))
-classifier = None
+logger = logging.getLogger("underthesea")
+
+MODEL_URL = "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-sentiment-general-1.0.0-20260207.bin"
+MODEL_NAME = "sen-sentiment-general-1.0.0-20260207.bin"
+
+_classifier = None
+
+
+def _get_model_path():
+    cache_dir = Path(UNDERTHESEA_FOLDER) / "models"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    model_path = cache_dir / MODEL_NAME
+    if not model_path.exists():
+        logger.info("Downloading general sentiment model...")
+        cached_path(MODEL_URL, cache_dir=cache_dir)
+    return model_path
+
+
+def _load_classifier():
+    global _classifier
+    if _classifier is None:
+        from underthesea_core import TextClassifier
+        model_path = _get_model_path()
+        _classifier = TextClassifier.load(str(model_path))
+    return _classifier
 
 
 def sentiment(X):
-    global classifier
-    model_name = 'SA_GENERAL_V131'
-    model_path = ModelFetcher.get_model_path(model_name)
-
-    if not classifier:
-        if not os.path.exists(model_path):
-            ModelFetcher.download(model_name)
-        classifier = TextClassifier.load(model_path)
-
-    sentence = Sentence(X)
-    classifier.predict(sentence)
-    labels = sentence.labels
-    try:
-        label_map = {'POS': 'positive', 'NEG': 'negative'}
-        label = label_map[labels[0]]
-        return label
-    except Exception:
-        return None
+    clf = _load_classifier()
+    return clf.predict(X)
 
 
 def get_labels():
-    """Get all available sentiment labels for the general classifier
-
-    Returns:
-        list: A list of all sentiment labels that the classifier can predict
-    """
-    return ['positive', 'negative']
+    clf = _load_classifier()
+    return list(clf.classes)
