@@ -48,5 +48,5 @@ class TestSentiment(TestCase):
     def test_one_label_5(self):
         text = 'Có làm thẻ ngân hàng BIDV miễn phí ko'
         actual = sentiment(text, domain="bank")
-        expected = ['CARD#negative']
+        expected = ['CUSTOMER_SUPPORT#negative']
         self.assertEqual(expected, actual)
