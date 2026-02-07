@@ -20,7 +20,7 @@ except Exception:
 # METADATA
 ###########################################################
 
-from underthesea.version import __version__
+from underthesea.version import __version__ as __version__
 
 ###########################################################
 # TOP-LEVEL MODULES
