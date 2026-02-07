@@ -9,9 +9,6 @@ def __getattr__(name):
     if name == 'CRFTrainer':
         from underthesea.trainers.crf_trainer import CRFTrainer
         return CRFTrainer
-    if name == 'ClassifierTrainer':
-        from underthesea.trainers.classifier_trainer import ClassifierTrainer
-        return ClassifierTrainer
     if name == 'POSTrainer':
         from underthesea.trainers.pos_trainer import POSTrainer
         return POSTrainer
@@ -20,7 +17,6 @@ def __getattr__(name):
 
 __all__ = [
     'CRFTrainer',
-    'ClassifierTrainer',
     'ParserTrainer',
     'DependencyParserTrainer',
     'POSTrainer'
