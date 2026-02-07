@@ -7,6 +7,7 @@ use std::collections::HashSet;
 
 pub mod classifier;
 pub mod crf;
+pub mod fasttext;
 pub mod featurizers;
 pub mod lr;
 pub mod preprocessor;
@@ -851,5 +852,67 @@ fn underthesea_core(_py: Python, m: &Bound<PyModule>) -> PyResult<()> {
     m.add_class::<Sentence>()?;
     // Preprocessor classes
     m.add_class::<TextPreprocessor>()?;
+    // FastText classes
+    m.add_class::<PyFastText>()?;
     Ok(())
+}
+
+// ============================================================================
+// Python bindings for FastText
+// ============================================================================
+
+/// Python wrapper for FastText model (language identification, text classification)
+#[pyclass(name = "FastText")]
+pub struct PyFastText {
+    model: fasttext::FastTextModel,
+}
+
+#[pymethods]
+impl PyFastText {
+    /// Load a FastText model from a .bin or .ftz file
+    #[staticmethod]
+    pub fn load(path: &str) -> PyResult<Self> {
+        let model =
+            fasttext::FastTextModel::load(path).map_err(pyo3::exceptions::PyIOError::new_err)?;
+        Ok(Self { model })
+    }
+
+    /// Predict the top-k labels for the given text
+    #[pyo3(signature = (text, k=1))]
+    pub fn predict(&self, text: &str, k: usize) -> Vec<(String, f32)> {
+        self.model.predict(text, k)
+    }
+
+    /// Get all label strings
+    pub fn get_labels(&self) -> Vec<String> {
+        self.model.get_labels()
+    }
+
+    /// Get the hidden vector for a text
+    pub fn get_hidden(&self, text: &str) -> Vec<f32> {
+        self.model.get_hidden(text)
+    }
+
+    /// Get the input feature IDs for a text
+    pub fn get_features(&self, text: &str) -> Vec<i32> {
+        self.model.get_features(text)
+    }
+
+    /// Model dimensionality
+    #[getter]
+    pub fn dim(&self) -> i32 {
+        self.model.dim()
+    }
+
+    /// Number of words in the dictionary
+    #[getter]
+    pub fn nwords(&self) -> i32 {
+        self.model.nwords()
+    }
+
+    /// Number of labels
+    #[getter]
+    pub fn nlabels(&self) -> i32 {
+        self.model.nlabels()
+    }
 }
