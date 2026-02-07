@@ -54,6 +54,6 @@ LANG_DETECT_FAST_TEXT:
   type: Lang Detect
   license: Open
   year: 2020
-  url: https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin
-  filename: lid.176.bin
+  url: https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.ftz
+  filename: lid.176.ftz
   
