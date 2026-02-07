@@ -1,4 +1,4 @@
-# Language Identification Technical Report
+# Language Identification
 
 ## Overview
 

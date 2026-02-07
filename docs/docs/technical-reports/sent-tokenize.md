@@ -1,4 +1,4 @@
-# Sentence Tokenization Technical Report
+# Sentence Tokenization
 
 ## Overview
 
