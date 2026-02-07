@@ -70,12 +70,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 ## Tutorials
 
+### Natural Language Processing
+
 <details>
 <summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
-<code>📜</code>
 </summary>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import sent_tokenize
@@ -91,10 +92,9 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
-<code>📜</code>
 </summary>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import text_normalize
@@ -104,35 +104,22 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words
-<code>📜</code>
+<summary><b><a href="">Tagging</a></b> - Word segmentation, POS tagging, chunking, dependency parsing
 </summary>
+<br/>
 
-- 📜 Usage
+- **Word Segmentation**
 
     ```python
     >>> from underthesea import word_tokenize
-    >>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
-    
-    >>> word_tokenize(text)
+    >>> word_tokenize("Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò")
     ["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
-    
-    >>> word_tokenize(sentence, format="text")
+
+    >>> word_tokenize("Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò", format="text")
     "Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
-    
-    >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
-    >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
-    >>> word_tokenize(text, fixed_words=fixed_words)
-    "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
     ```
-</details>
 
-<details>
-<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **POS Tagging**
 
     ```python
     >>> from underthesea import pos_tag
@@ -146,18 +133,12 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('bị', 'V'),
      ('truy quét', 'V')]
     ```
-</details>
 
-<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **Chunking**
 
     ```python
     >>> from underthesea import chunk
-    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
-    >>> chunk(text)
+    >>> chunk('Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?')
     [('Bác sĩ', 'N', 'B-NP'),
      ('bây giờ', 'P', 'B-NP'),
      ('có thể', 'R', 'O'),
@@ -169,24 +150,16 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('ung thư', 'N', 'B-NP'),
      ('?', 'CH', 'O')]
     ```
-</details>
 
-<details>
-<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words
-<code>⚛️</code>
-</summary>
-<br/>
+- **Dependency Parsing**
 
-- ⚛️ Deep Learning Model
-    
     ```bash
     $ pip install underthesea[deep]
     ```
-    
+
     ```python
     >>> from underthesea import dependency_parse
-    >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
-    >>> dependency_parse(text)
+    >>> dependency_parse('Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19')
     [('Tối', 5, 'obl:tmod'),
      ('29/11', 1, 'flat:date'),
      (',', 1, 'punct'),
@@ -200,12 +173,11 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)
-<code>📜</code> <code>⚛️</code>
+<summary><b><a href="">Named Entity Recognition</a></b> - Identifying named entities (e.g., names, locations)
 </summary>
 <br/>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import ner
@@ -222,13 +194,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('Donald', 'Np', 'B-NP', 'B-PER'),
      ('Trump', 'Np', 'B-NP', 'I-PER')]
     ```
-    
-- ⚛️ Deep Learning Model
+
+- Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
     ```
-    
+
     ```python
     >>> from underthesea import ner
     >>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
@@ -242,69 +214,79 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups
-<code>📜</code> <code>⚡</code>
+<summary><b><a href="">Classification</a></b> - Text classification and sentiment analysis
 </summary>
+<br/>
 
-- 📜 Usage
+- **Text Classification**
 
     ```python
     >>> from underthesea import classify
-    
+
     >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
     ['The thao']
-    
+
     >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
     ['Kinh doanh']
-    
+
     >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
     ['INTEREST_RATE']
     ```
 
-- ⚡ Prompt-based Model
-
-    ```bash
-    $ pip install underthesea[prompt]
-    $ export OPENAI_API_KEY=YOUR_KEY
-    ```
-    
-    ```python
-    >>> from underthesea import classify
-    >>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
-    >>> classify(text, model='prompt')
-    Thể thao
-    ```
-</details>
-
-<details>
-<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **Sentiment Analysis**
 
     ```python
     >>> from underthesea import sentiment
-    
+
     >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
     'negative'
     >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
     'positive'
-    
+
     >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
     ['TRADEMARK#positive']
     ```
+
+- **Prompt-based Classification**
+
+    ```bash
+    $ pip install underthesea[prompt]
+    $ export OPENAI_API_KEY=YOUR_KEY
+    ```
+
+    ```python
+    >>> from underthesea import classify
+    >>> classify("HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam", model='prompt')
+    Thể thao
+    ```
+</details>
+
+<details>
+<summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
+</summary>
+
+<br/>
+
+Lang Detect API. Powered by [FastText](https://fasttext.cc/docs/en/language-identification.html) language identification model, using pure Rust inference via `underthesea_core`.
+
+Usage examples in script
+
+    ```python
+    >>> from underthesea import lang_detect
+
+    >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    vi
+    ```
 </details>
 
 <details>
 <summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
-<code>⚛️</code>
 </summary>
 <br/>
 
-- ⚛️ Deep Learning Model
+- Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
@@ -324,28 +306,10 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     ```
 </details>
 
-<details>
-<summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
-<code>⚛️</code>
-</summary>
-
-<br/>
-
-Lang Detect API. Powered by [FastText](https://fasttext.cc/docs/en/language-identification.html) language identification model, using pure Rust inference via `underthesea_core`.
-
-Usage examples in script
-
-    ```python
-    >>> from underthesea import lang_detect
-
-    >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
-    vi
-    ```
-</details>
+### Voice
 
 <details>
-<summary><b><a href="">Text-to-Speech 🗣️</a></b> - Converting written text into spoken audio
-<code>⚛️</code>
+<summary><b><a href="">Text-to-Speech</a></b> - Converting written text into spoken audio
 </summary>
 
 <br/>
@@ -375,9 +339,10 @@ Usage examples in command line
     ```
 </details>
 
+### Agents
+
 <details>
-<summary><b><a href="">Conversational AI Agent 🤖</a></b> - Chat with AI for Vietnamese NLP tasks
-<code>⚡</code>
+<summary><b><a href="">Conversational AI Agent</a></b> - Chat with AI for Vietnamese NLP tasks
 </summary>
 
 <br/>
@@ -467,6 +432,8 @@ Using Default Tools (like LangChain/OpenAI tools)
     ```
 </details>
 
+### Resources
+
 <details>
 <summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
 
@@ -508,7 +475,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ## Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/docs/contribute/CONTRIBUTING.rst)
+Do you want to contribute with underthesea development? Great! Please read more details at [Contributing Guide](https://undertheseanlp.github.io/underthesea/docs/developer/contributing)
 
 ## 💝 Support Us
 

@@ -1,4 +1,4 @@
-# Sentence Tokenization
+# Sentence Segmentation
 
 ## Overview
 
