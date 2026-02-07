@@ -112,7 +112,6 @@ include-package-data = true
 
 [tool.setuptools.package-data]
 underthesea = [
-  "VERSION",
   "*.txt",
   "*.yml",
   "*.yaml",

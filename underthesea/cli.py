@@ -1,4 +1,3 @@
-import os
 import platform
 
 import click
@@ -76,8 +75,7 @@ def revise(corpus):
 
 @main.command()
 def info():
-    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
-    underthesea_version = open(version_file).read().strip()
+    from underthesea.version import __version__ as underthesea_version
     python_version = platform.python_version()
     system_info = f"{platform.system()}{platform.release()}"
     print("")

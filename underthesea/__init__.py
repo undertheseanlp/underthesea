@@ -2,7 +2,6 @@
 Underthesea
 """
 # -*- coding: utf-8 -*-
-import os
 import sys
 from functools import cache
 
@@ -21,15 +20,7 @@ except Exception:
 # METADATA
 ###########################################################
 
-# Version
-try:
-    version_file = os.path.join(os.path.dirname(__file__), 'VERSION')
-    with open(version_file) as infile:
-        __version__ = infile.read().strip()
-except NameError:
-    __version__ = 'unknown (running code interactively?)'
-except OSError as ex:
-    __version__ = f"unknown ({ex})"
+from underthesea.version import __version__
 
 ###########################################################
 # TOP-LEVEL MODULES
