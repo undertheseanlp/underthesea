@@ -264,6 +264,24 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
+<summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
+</summary>
+
+<br/>
+
+Lang Detect API. Powered by [FastText](https://fasttext.cc/docs/en/language-identification.html) language identification model, using pure Rust inference via `underthesea_core`.
+
+Usage examples in script
+
+    ```python
+    >>> from underthesea import lang_detect
+
+    >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
+    vi
+    ```
+</details>
+
+<details>
 <summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
 </summary>
 <br/>
@@ -285,24 +303,6 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
     >>> translate("I love Vietnamese food", source_lang='en', target_lang='vi')
     'Tôi yêu ẩm thực Việt Nam'
-    ```
-</details>
-
-<details>
-<summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
-</summary>
-
-<br/>
-
-Lang Detect API. Powered by [FastText](https://fasttext.cc/docs/en/language-identification.html) language identification model, using pure Rust inference via `underthesea_core`.
-
-Usage examples in script
-
-    ```python
-    >>> from underthesea import lang_detect
-
-    >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
-    vi
     ```
 </details>
 
