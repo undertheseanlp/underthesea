@@ -4,7 +4,19 @@ const sidebars = {
     'intro',
     {
       type: 'category',
+      label: 'Developer',
+      items: [
+        'developer/contributing',
+        'developer/architecture',
+        'developer/releasing',
+      ],
+    },
+  ],
+  technicalReportsSidebar: [
+    {
+      type: 'category',
       label: 'Technical Reports',
+      collapsible: false,
       items: [
         'technical-reports/sent-tokenize',
         'technical-reports/dependency-parsing',
@@ -20,9 +32,12 @@ const sidebars = {
         },
       ],
     },
+  ],
+  apiReferenceSidebar: [
     {
       type: 'category',
       label: 'API Reference',
+      collapsible: false,
       items: [
         'api/index',
         'api/sent-tokenize',
@@ -40,9 +55,12 @@ const sidebars = {
         'api/agent',
       ],
     },
+  ],
+  datasetsSidebar: [
     {
       type: 'category',
       label: 'Datasets',
+      collapsible: false,
       items: [
         'datasets/uts-vlc',
         'datasets/uud-v0.1',
@@ -51,15 +69,8 @@ const sidebars = {
         'datasets/uvw',
       ],
     },
-    {
-      type: 'category',
-      label: 'Developer',
-      items: [
-        'developer/contributing',
-        'developer/architecture',
-        'developer/releasing',
-      ],
-    },
+  ],
+  changelogSidebar: [
     'changelog',
   ],
 };
