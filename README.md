@@ -91,7 +91,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
+<summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation and address conversion
 </summary>
 
 - Usage
