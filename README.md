@@ -475,7 +475,7 @@ Resource CP_Vietnamese_VLC_v2_2022 is downloaded in ~/.underthesea/datasets/CP_V
 
 ## Contributing
 
-Do you want to contribute with underthesea development? Great! Please read more details at [CONTRIBUTING.rst](https://github.com/undertheseanlp/underthesea/blob/main/docs/contribute/CONTRIBUTING.rst)
+Do you want to contribute with underthesea development? Great! Please read more details at [Contributing Guide](https://undertheseanlp.github.io/underthesea/docs/developer/contributing)
 
 ## 💝 Support Us
 
