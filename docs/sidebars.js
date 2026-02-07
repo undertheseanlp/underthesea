@@ -27,8 +27,8 @@ const sidebars = {
             'technical-reports/nlp/tagging',
             'technical-reports/ner',
             'technical-reports/nlp/text-classification',
-            'technical-reports/translate',
             'technical-reports/language-identification',
+            'technical-reports/translate',
           ],
         },
         {
