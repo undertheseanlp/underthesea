@@ -106,35 +106,23 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Word Segmentation</a></b> - Dividing text into individual words
-<code>📜</code>
+<summary><b><a href="">Tagging</a></b> - Word segmentation, POS tagging, chunking, dependency parsing
+<code>📜</code> <code>⚛️</code>
 </summary>
+<br/>
 
-- 📜 Usage
+- **Word Segmentation**
 
     ```python
     >>> from underthesea import word_tokenize
-    >>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
-
-    >>> word_tokenize(text)
+    >>> word_tokenize("Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò")
     ["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
 
-    >>> word_tokenize(sentence, format="text")
+    >>> word_tokenize("Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò", format="text")
     "Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
-
-    >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
-    >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
-    >>> word_tokenize(text, fixed_words=fixed_words)
-    "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
     ```
-</details>
 
-<details>
-<summary><b><a href="">POS Tagging</a></b> - Labeling words with their part-of-speech
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **POS Tagging**
 
     ```python
     >>> from underthesea import pos_tag
@@ -148,18 +136,12 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('bị', 'V'),
      ('truy quét', 'V')]
     ```
-</details>
 
-<details><summary><b><a href="">Chunking</a></b> - Grouping words into meaningful phrases or units
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **Chunking**
 
     ```python
     >>> from underthesea import chunk
-    >>> text = 'Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?'
-    >>> chunk(text)
+    >>> chunk('Bác sĩ bây giờ có thể thản nhiên báo tin bệnh nhân bị ung thư?')
     [('Bác sĩ', 'N', 'B-NP'),
      ('bây giờ', 'P', 'B-NP'),
      ('có thể', 'R', 'O'),
@@ -171,15 +153,8 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('ung thư', 'N', 'B-NP'),
      ('?', 'CH', 'O')]
     ```
-</details>
 
-<details>
-<summary><b><a href="">Dependency Parsing</a></b> - Analyzing grammatical structure between words
-<code>⚛️</code>
-</summary>
-<br/>
-
-- ⚛️ Deep Learning Model
+- **Dependency Parsing** ⚛️
 
     ```bash
     $ pip install underthesea[deep]
@@ -187,8 +162,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
     ```python
     >>> from underthesea import dependency_parse
-    >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
-    >>> dependency_parse(text)
+    >>> dependency_parse('Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19')
     [('Tối', 5, 'obl:tmod'),
      ('29/11', 1, 'flat:date'),
      (',', 1, 'punct'),
@@ -244,11 +218,12 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Text Classification</a></b> - Categorizing text into predefined groups
+<summary><b><a href="">Classification</a></b> - Text classification and sentiment analysis
 <code>📜</code> <code>⚡</code>
 </summary>
+<br/>
 
-- 📜 Usage
+- **Text Classification**
 
     ```python
     >>> from underthesea import classify
@@ -263,27 +238,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     ['INTEREST_RATE']
     ```
 
-- ⚡ Prompt-based Model
-
-    ```bash
-    $ pip install underthesea[prompt]
-    $ export OPENAI_API_KEY=YOUR_KEY
-    ```
-
-    ```python
-    >>> from underthesea import classify
-    >>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
-    >>> classify(text, model='prompt')
-    Thể thao
-    ```
-</details>
-
-<details>
-<summary><b><a href="">Sentiment Analysis</a></b> - Determining text's emotional tone or sentiment
-<code>📜</code>
-</summary>
-
-- 📜 Usage
+- **Sentiment Analysis**
 
     ```python
     >>> from underthesea import sentiment
@@ -297,6 +252,19 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
     ['TRADEMARK#positive']
+    ```
+
+- **Prompt-based Classification** ⚡
+
+    ```bash
+    $ pip install underthesea[prompt]
+    $ export OPENAI_API_KEY=YOUR_KEY
+    ```
+
+    ```python
+    >>> from underthesea import classify
+    >>> classify("HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam", model='prompt')
+    Thể thao
     ```
 </details>
 
