@@ -179,10 +179,7 @@ pub fn predict(
         .iter()
         .map(|&(score, label_idx)| {
             let label = dictionary.get_label(label_idx as i32);
-            let label = label
-                .strip_prefix("__label__")
-                .unwrap_or(label)
-                .to_string();
+            let label = label.strip_prefix("__label__").unwrap_or(label).to_string();
             (label, score)
         })
         .collect()
