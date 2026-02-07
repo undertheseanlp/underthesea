@@ -7,6 +7,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.2.10] - 2026-02-07
+
+### Changed
+
+- Remove VERSION files and use `importlib.metadata` for dynamic versioning ([#950](https://github.com/undertheseanlp/underthesea/issues/950), [#951](https://github.com/undertheseanlp/underthesea/pull/951))
+- Use Rust TextClassifier with `.bin` models for classification ([#935](https://github.com/undertheseanlp/underthesea/pull/935))
+- Update sentiment models to use underthesea_core TextClassifier ([#946](https://github.com/undertheseanlp/underthesea/pull/946))
+- Consolidate classification into single module ([#935](https://github.com/undertheseanlp/underthesea/pull/935))
+
+### Added
+
+- Add pure Rust FastText inference to underthesea_core ([#947](https://github.com/undertheseanlp/underthesea/pull/947))
+- Add TextPreprocessor to underthesea_core for Vietnamese text preprocessing ([#942](https://github.com/undertheseanlp/underthesea/pull/942))
+- Add underthesea_core API documentation ([#948](https://github.com/undertheseanlp/underthesea/pull/948))
+- Add workflow to publish underthesea_core to crates.io ([#943](https://github.com/undertheseanlp/underthesea/pull/943))
+
+### Documentation
+
+- Separate sidebars for Technical Reports, API Reference, Datasets, and Changelog ([#945](https://github.com/undertheseanlp/underthesea/pull/945))
+- Add blog posts for Rust-powered text classification and CRF ([#934](https://github.com/undertheseanlp/underthesea/pull/934), [#935](https://github.com/undertheseanlp/underthesea/pull/935))
+- Rename docusaurus folder to docs ([#933](https://github.com/undertheseanlp/underthesea/pull/933))
+
+### Security
+
+- Bump jsonpath, django, @isaacs/brace-expansion dependencies ([#938](https://github.com/undertheseanlp/underthesea/pull/938), [#939](https://github.com/undertheseanlp/underthesea/pull/939), [#940](https://github.com/undertheseanlp/underthesea/pull/940), [#944](https://github.com/undertheseanlp/underthesea/pull/944))
+
 ## [9.2.0] - 2026-01-31
 
 ### Added
@@ -330,7 +356,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - First release on PyPI
 - First release on ReadTheDocs
 
-[Unreleased]: https://github.com/undertheseanlp/underthesea/compare/v9.1.5...HEAD
+[Unreleased]: https://github.com/undertheseanlp/underthesea/compare/underthesea-v9.2.10...HEAD
+[9.2.10]: https://github.com/undertheseanlp/underthesea/compare/v9.2.0...underthesea-v9.2.10
+[9.2.0]: https://github.com/undertheseanlp/underthesea/compare/v9.1.5...v9.2.0
 [9.1.5]: https://github.com/undertheseanlp/underthesea/compare/v9.1.4...v9.1.5
 [9.1.4]: https://github.com/undertheseanlp/underthesea/compare/v9.1.3...v9.1.4
 [9.1.3]: https://github.com/undertheseanlp/underthesea/compare/v9.1.2...v9.1.3
