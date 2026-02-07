@@ -1,4 +1,4 @@
-# Agents Module: Technical Report
+# Agents
 
 This document provides a technical overview of the agent module in underthesea, including architecture, tools, and comparison with other popular agent frameworks.
 

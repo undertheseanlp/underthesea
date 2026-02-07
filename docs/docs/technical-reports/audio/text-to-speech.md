@@ -1,4 +1,4 @@
-# Voice Module: Technical Report
+# Voice
 
 This document provides a technical overview of the AI models used in the underthesea voice (text-to-speech) module.
 
