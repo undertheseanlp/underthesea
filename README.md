@@ -70,6 +70,8 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 ## Tutorials
 
+### NLP
+
 <details>
 <summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
 <code>📜</code>
@@ -113,13 +115,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     ```python
     >>> from underthesea import word_tokenize
     >>> text = "Chàng trai 9X Quảng Trị khởi nghiệp từ nấm sò"
-    
+
     >>> word_tokenize(text)
     ["Chàng trai", "9X", "Quảng Trị", "khởi nghiệp", "từ", "nấm", "sò"]
-    
+
     >>> word_tokenize(sentence, format="text")
     "Chàng_trai 9X Quảng_Trị khởi_nghiệp từ nấm sò"
-    
+
     >>> text = "Viện Nghiên Cứu chiến lược quốc gia về học máy"
     >>> fixed_words = ["Viện Nghiên Cứu", "học máy"]
     >>> word_tokenize(text, fixed_words=fixed_words)
@@ -178,11 +180,11 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 <br/>
 
 - ⚛️ Deep Learning Model
-    
+
     ```bash
     $ pip install underthesea[deep]
     ```
-    
+
     ```python
     >>> from underthesea import dependency_parse
     >>> text = 'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19'
@@ -222,13 +224,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('Donald', 'Np', 'B-NP', 'B-PER'),
      ('Trump', 'Np', 'B-NP', 'I-PER')]
     ```
-    
+
 - ⚛️ Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
     ```
-    
+
     ```python
     >>> from underthesea import ner
     >>> text = "Bộ Công Thương xóa một tổng cục, giảm nhiều đầu mối"
@@ -250,13 +252,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
     ```python
     >>> from underthesea import classify
-    
+
     >>> classify('HLV đầu tiên ở Premier League bị sa thải sau 4 vòng đấu')
     ['The thao']
-    
+
     >>> classify('Hội đồng tư vấn kinh doanh Asean vinh danh giải thưởng quốc tế')
     ['Kinh doanh']
-    
+
     >> classify('Lãi suất từ BIDV rất ưu đãi', domain='bank')
     ['INTEREST_RATE']
     ```
@@ -267,7 +269,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     $ pip install underthesea[prompt]
     $ export OPENAI_API_KEY=YOUR_KEY
     ```
-    
+
     ```python
     >>> from underthesea import classify
     >>> text = "HLV ngoại đòi gần tỷ mỗi tháng dẫn dắt tuyển Việt Nam"
@@ -285,12 +287,12 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
     ```python
     >>> from underthesea import sentiment
-    
+
     >>> sentiment('hàng kém chất lg,chăn đắp lên dính lông lá khắp người. thất vọng')
     'negative'
     >>> sentiment('Sản phẩm hơi nhỏ so với tưởng tượng nhưng chất lượng tốt, đóng gói cẩn thận.')
     'positive'
-    
+
     >>> sentiment('Đky qua đường link ở bài viết này từ thứ 6 mà giờ chưa thấy ai lhe hết', domain='bank')
     ['CUSTOMER_SUPPORT#negative']
     >>> sentiment('Xem lại vẫn thấy xúc động và tự hào về BIDV của mình', domain='bank')
@@ -343,6 +345,8 @@ Usage examples in script
     ```
 </details>
 
+### Voice
+
 <details>
 <summary><b><a href="">Text-to-Speech 🗣️</a></b> - Converting written text into spoken audio
 <code>⚛️</code>
@@ -374,6 +378,8 @@ Usage examples in command line
     $ underthesea tts "Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam"
     ```
 </details>
+
+### Agents
 
 <details>
 <summary><b><a href="">Conversational AI Agent 🤖</a></b> - Chat with AI for Vietnamese NLP tasks
@@ -466,6 +472,8 @@ Using Default Tools (like LangChain/OpenAI tools)
     >>> my_agent("Search for Python tutorials") # Uses web_search tool
     ```
 </details>
+
+### Resources
 
 <details>
 <summary><b><a href="">Vietnamese NLP Resources</a></b></summary>
