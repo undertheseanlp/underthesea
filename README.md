@@ -104,6 +104,30 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
+<summary><b><a href="">Address Conversion</a></b> - Converting Vietnamese addresses from old to new admin units
+</summary>
+
+- Usage
+
+    ```python
+    >>> from underthesea import convert_address
+    >>> result = convert_address("Phường Phúc Xá, Quận Ba Đình, Thành phố Hà Nội")
+    >>> result.converted
+    "Phường Hồng Hà, Thành phố Hà Nội"
+    >>> result.mapping_type
+    <MappingType.MERGED: 'merged'>
+    ```
+
+- Supports abbreviations
+
+    ```python
+    >>> result = convert_address("P. Phúc Xá, Q. Ba Đình, TP. Hà Nội")
+    >>> result.converted
+    "Phường Hồng Hà, Thành phố Hà Nội"
+    ```
+</details>
+
+<details>
 <summary><b><a href="">Tagging</a></b> - Word segmentation, POS tagging, chunking, dependency parsing
 </summary>
 <br/>
