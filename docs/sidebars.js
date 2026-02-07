@@ -20,6 +20,8 @@ const sidebars = {
       items: [
         'technical-reports/sent-tokenize',
         'technical-reports/dependency-parsing',
+        'technical-reports/language-identification',
+        'technical-reports/pos-tagging',
         'technical-reports/voice',
         {
           type: 'category',
