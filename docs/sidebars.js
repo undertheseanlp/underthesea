@@ -55,6 +55,18 @@ const sidebars = {
         'api/agent',
       ],
     },
+    {
+      type: 'category',
+      label: 'underthesea_core',
+      items: [
+        'api/core/index',
+        'api/core/crf',
+        'api/core/lr',
+        'api/core/text-classifier',
+        'api/core/tfidf',
+        'api/core/text-preprocessor',
+      ],
+    },
   ],
   datasetsSidebar: [
     {
