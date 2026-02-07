@@ -1,10 +1,9 @@
 import os
 
-import fasttext
+from underthesea_core import FastText
 
 from underthesea.model_fetcher import ModelFetcher
 
-fasttext.FastText.eprint = lambda x: None
 lang_detect_model = None
 
 
@@ -15,11 +14,8 @@ def lang_detect(text):
     if not lang_detect_model:
         if not os.path.exists(model_path):
             ModelFetcher.download(model_name)
-        try:
-            lang_detect_model = fasttext.load_model(str(model_path))
-        except Exception:
-            pass
+        lang_detect_model = FastText.load(str(model_path))
 
-    predictions = lang_detect_model.predict(text)
-    language = predictions[0][0].replace('__label__', '')
+    predictions = lang_detect_model.predict(text, k=1)
+    language = predictions[0][0]
     return language
