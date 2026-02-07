@@ -99,7 +99,6 @@ def build_mapping():
                 if len(parts) < 2:
                     continue
                 old_prov_key = parts[0]
-                rest = "_".join(parts[1:]) if len(parts) > 1 else ""
 
                 # Find old ward info
                 old_full_key = old_compound_key

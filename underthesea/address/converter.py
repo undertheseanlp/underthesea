@@ -3,8 +3,8 @@
 import json
 from pathlib import Path
 
-from .models import AdminUnit, ConversionResult, ConversionStatus, MappingType
-from .normalizer import normalize_key, normalize_for_matching
+from .models import ConversionResult, ConversionStatus, MappingType
+from .normalizer import normalize_for_matching, normalize_key
 from .parser import parse_address
 
 # Load mapping data
@@ -164,7 +164,7 @@ def convert_address(address: str) -> ConversionResult:
         result.status = ConversionStatus.PARTIAL
         result.new.street = parsed.street
         result.converted = result.new.to_address()
-        result.note = f"Ward not found, province converted"
+        result.note = "Ward not found, province converted"
         return result
 
     record = _select_best_record(records)
