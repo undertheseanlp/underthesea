@@ -1,7 +1,16 @@
-"""Vietnamese text normalization for address matching."""
+"""Vietnamese text normalization for address matching.
+
+Uses underthesea character normalization (NFC + character map) to fix
+encoding issues, then applies address-specific transformations
+(abbreviation expansion, diacritics removal, key generation).
+"""
 
 import re
 import unicodedata
+
+from underthesea.pipeline.text_normalize.character_normalize import (
+    normalize_characters_in_text,
+)
 
 # Abbreviation expansions
 ABBREVIATIONS = {
@@ -21,7 +30,12 @@ ABBREVIATIONS = {
 
 
 def remove_diacritics(text: str) -> str:
-    """Remove Vietnamese diacritics from text."""
+    """Remove Vietnamese diacritics from text.
+
+    First applies underthesea character normalization (NFC + character map)
+    to fix encoding issues, then strips combining marks via NFKD decomposition.
+    """
+    text = normalize_characters_in_text(text)
     nfkd = unicodedata.normalize("NFKD", text)
     result = "".join(c for c in nfkd if not unicodedata.combining(c))
     # Handle đ/Đ separately (not decomposed by NFKD)
