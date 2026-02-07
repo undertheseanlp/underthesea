@@ -331,19 +331,13 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <br/>
 
-Lang Detect API. Thanks to awesome work from [FastText](https://fasttext.cc/docs/en/language-identification.html)
-
-Install extend dependencies and models
-
-    ```bash
-    $ pip install underthesea[langdetect]
-    ```
+Lang Detect API. Powered by [FastText](https://fasttext.cc/docs/en/language-identification.html) language identification model, using pure Rust inference via `underthesea_core`.
 
 Usage examples in script
 
     ```python
     >>> from underthesea import lang_detect
-    
+
     >>> lang_detect("Cựu binh Mỹ trả nhật ký nhẹ lòng khi thấy cuộc sống hòa bình tại Việt Nam")
     vi
     ```
