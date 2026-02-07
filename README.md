@@ -70,7 +70,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 ## Tutorials
 
-### NLP
+### Natural Language Processing
 
 <details>
 <summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
