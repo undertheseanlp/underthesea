@@ -74,10 +74,9 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Sentence Segmentation</a></b> - Breaking text into individual sentences
-<code>📜</code>
 </summary>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import sent_tokenize
@@ -93,10 +92,9 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Text Normalization</a></b> - Standardizing textual data representation
-<code>📜</code>
 </summary>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import text_normalize
@@ -107,7 +105,6 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Tagging</a></b> - Word segmentation, POS tagging, chunking, dependency parsing
-<code>📜</code> <code>⚛️</code>
 </summary>
 <br/>
 
@@ -154,7 +151,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('?', 'CH', 'O')]
     ```
 
-- **Dependency Parsing** ⚛️
+- **Dependency Parsing**
 
     ```bash
     $ pip install underthesea[deep]
@@ -176,12 +173,11 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 </details>
 
 <details>
-<summary><b><a href="">Named Entity Recognition</a></b> -  Identifying named entities (e.g., names, locations)
-<code>📜</code> <code>⚛️</code>
+<summary><b><a href="">Named Entity Recognition</a></b> - Identifying named entities (e.g., names, locations)
 </summary>
 <br/>
 
-- 📜 Usage
+- Usage
 
     ```python
     >>> from underthesea import ner
@@ -199,7 +195,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
      ('Trump', 'Np', 'B-NP', 'I-PER')]
     ```
 
-- ⚛️ Deep Learning Model
+- Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
@@ -219,7 +215,6 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Classification</a></b> - Text classification and sentiment analysis
-<code>📜</code> <code>⚡</code>
 </summary>
 <br/>
 
@@ -254,7 +249,7 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
     ['TRADEMARK#positive']
     ```
 
-- **Prompt-based Classification** ⚡
+- **Prompt-based Classification**
 
     ```bash
     $ pip install underthesea[prompt]
@@ -270,11 +265,10 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Translation</a></b> - Translating Vietnamese text to English
-<code>⚛️</code>
 </summary>
 <br/>
 
-- ⚛️ Deep Learning Model
+- Deep Learning Model
 
     ```bash
     $ pip install underthesea[deep]
@@ -296,7 +290,6 @@ $ pip install "underthesea[agent]"   # Conversational AI agent
 
 <details>
 <summary><b><a href="">Lang Detect</a></b> - Identifying the Language of Text
-<code>⚛️</code>
 </summary>
 
 <br/>
@@ -316,8 +309,7 @@ Usage examples in script
 ### Voice
 
 <details>
-<summary><b><a href="">Text-to-Speech 🗣️</a></b> - Converting written text into spoken audio
-<code>⚛️</code>
+<summary><b><a href="">Text-to-Speech</a></b> - Converting written text into spoken audio
 </summary>
 
 <br/>
@@ -350,8 +342,7 @@ Usage examples in command line
 ### Agents
 
 <details>
-<summary><b><a href="">Conversational AI Agent 🤖</a></b> - Chat with AI for Vietnamese NLP tasks
-<code>⚡</code>
+<summary><b><a href="">Conversational AI Agent</a></b> - Chat with AI for Vietnamese NLP tasks
 </summary>
 
 <br/>
