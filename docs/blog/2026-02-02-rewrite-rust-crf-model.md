@@ -233,7 +233,7 @@ We also evaluated several optimizations that did not provide significant improve
 | Feature Set Size | Bottleneck | Best Optimization |
 |------------------|------------|-------------------|
 | Large (500k+) | Feature lookup (cache misses) | Flat data structure |
-| Small (<50k) | Forward-backward O(L²) | Loop unrolling |
+| Small (&lt;50k) | Forward-backward O(L²) | Loop unrolling |
 
 ### Why python-crfsuite Was Initially Faster
 
