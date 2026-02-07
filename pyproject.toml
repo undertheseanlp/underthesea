@@ -15,7 +15,6 @@ dependencies = [
     'tqdm',
     'requests',
     'joblib',
-    'scikit-learn>=1.6.1',
     'PyYAML',
     'underthesea_core>=3.1.7',
     'huggingface-hub'
