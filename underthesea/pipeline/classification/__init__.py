@@ -10,12 +10,12 @@ logger = logging.getLogger("underthesea")
 # Model configurations
 MODELS = {
     "general": {
-        "url": "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-general-1.0.0-20260203.bin",
-        "name": "sen-classifier-general-1.0.0-20260203.bin",
+        "url": "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-general-1.0.0-20260207.bin",
+        "name": "sen-classifier-general-1.0.0-20260207.bin",
     },
     "bank": {
-        "url": "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-classifier-bank-1.0.0-20260203.bin",
-        "name": "sen-classifier-bank-1.0.0-20260203.bin",
+        "url": "https://github.com/undertheseanlp/underthesea/releases/download/resources/sen-bank-1.0.0-20260207.bin",
+        "name": "sen-bank-1.0.0-20260207.bin",
     },
 }
 
