@@ -18,14 +18,26 @@ const sidebars = {
       label: 'Technical Reports',
       collapsible: false,
       items: [
-        'technical-reports/text-normalize',
-        'technical-reports/sent-tokenize',
-        'technical-reports/tagging',
-        'technical-reports/ner',
-        'technical-reports/classification',
-        'technical-reports/translate',
-        'technical-reports/language-identification',
-        'technical-reports/voice',
+        {
+          type: 'category',
+          label: 'NLP',
+          items: [
+            'technical-reports/text-normalize',
+            'technical-reports/sent-tokenize',
+            'technical-reports/nlp/tagging',
+            'technical-reports/ner',
+            'technical-reports/nlp/text-classification',
+            'technical-reports/translate',
+            'technical-reports/language-identification',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Audio',
+          items: [
+            'technical-reports/audio/text-to-speech',
+          ],
+        },
         {
           type: 'category',
           label: 'Agents',
