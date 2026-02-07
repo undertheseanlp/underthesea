@@ -165,7 +165,7 @@ class ModelFetcher:
             ModelFetcher.download_zip(REPO[model_name])
 
         if model_name == "LANG_DETECT_FAST_TEXT":
-            url = "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.bin"
+            url = "https://dl.fbaipublicfiles.com/fasttext/supervised-models/lid.176.ftz"
             cached_path(url, cache_dir=cache_dir)
 
     @staticmethod
@@ -218,7 +218,7 @@ class ModelFetcher:
             return Path(UNDERTHESEA_FOLDER) / "models" / "SA_BANK"
 
         if model == "LANG_DETECT_FAST_TEXT":
-            return Path(UNDERTHESEA_FOLDER) / "models" / "lid.176.bin"
+            return Path(UNDERTHESEA_FOLDER) / "models" / "lid.176.ftz"
 
         return Path(UNDERTHESEA_FOLDER) / "models" / model
 
