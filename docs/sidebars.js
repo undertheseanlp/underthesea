@@ -70,6 +70,7 @@ const sidebars = {
         'api/lang-detect',
         'api/tts',
         'api/agent',
+        'api/convert-address',
       ],
     },
     {

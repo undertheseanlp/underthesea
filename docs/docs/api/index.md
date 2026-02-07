@@ -14,6 +14,7 @@ This section provides complete API documentation for all Underthesea functions.
 | [`ner`](ner) | Named entity recognition | Core |
 | [`classify`](classify) | Text classification | Core |
 | [`sentiment`](sentiment) | Sentiment analysis | Core |
+| [`convert_address`](convert-address) | Address conversion (63→34 provinces) | Core |
 
 ## Deep Learning Functions
 
@@ -48,6 +49,7 @@ from underthesea import (
     translate,         # requires [deep]
     lang_detect,       # requires [langdetect]
     agent,             # requires [agent]
+    convert_address,
 )
 ```
 
