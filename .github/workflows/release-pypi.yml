@@ -65,10 +65,20 @@ jobs:
           TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-v}"
           echo "patch=$TAG_VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Update current version label
+      - name: Configure versioning in docusaurus.config.js
         working-directory: docs
         run: |
-          sed -i "s/label: '[0-9]*\.[0-9]*\.[0-9]*'/label: '${{ steps.version.outputs.patch }}'/" docusaurus.config.js
+          VERSION="${{ steps.version.outputs.patch }}"
+          # Add lastVersion and versions config if not present
+          if ! grep -q 'lastVersion' docusaurus.config.js; then
+            sed -i "s|editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',|editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',\n          lastVersion: 'current',\n          versions: {\n            current: {\n              label: '$VERSION',\n            },\n          },|" docusaurus.config.js
+          else
+            sed -i "s/label: '[0-9]*\.[0-9]*\.[0-9]*'/label: '$VERSION'/" docusaurus.config.js
+          fi
+          # Add version dropdown if not present
+          if ! grep -q 'docsVersionDropdown' docusaurus.config.js; then
+            sed -i "s|href: 'https://github.com/undertheseanlp/underthesea',|type: 'docsVersionDropdown',\n            position: 'right',\n          },\n          {\n            href: 'https://github.com/undertheseanlp/underthesea',|" docusaurus.config.js
+          fi
 
       - name: Create docs version snapshot
         working-directory: docs
