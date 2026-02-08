@@ -30,6 +30,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '9.2',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -87,6 +93,10 @@ const config = {
             to: '/blog',
             label: 'Blog',
             position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/undertheseanlp/underthesea',
