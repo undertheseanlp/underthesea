@@ -57,24 +57,24 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docsSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Install',
           },
           {
             type: 'docSidebar',
             sidebarId: 'technicalReportsSidebar',
-            label: 'Technical Reports',
-            position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'apiReferenceSidebar',
-            label: 'API Reference',
+            label: 'Models',
             position: 'left',
           },
           {
             type: 'docSidebar',
             sidebarId: 'datasetsSidebar',
             label: 'Datasets',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'apiReferenceSidebar',
+            label: 'API',
             position: 'left',
           },
           {
@@ -99,14 +99,14 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Install',
             items: [
               {
                 label: 'Getting Started',
                 to: '/docs',
               },
               {
-                label: 'API Reference',
+                label: 'API',
                 to: '/docs/api',
               },
             ],
