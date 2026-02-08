@@ -46,7 +46,7 @@ jobs:
         with:
           path: ./docs/build
 
-  deploy-preview:
+  deploy-dev:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     needs: build
@@ -62,13 +62,13 @@ jobs:
         working-directory: docs
         run: npm install
 
-      - name: Build documentation for PR preview
+      - name: Build dev documentation
         working-directory: docs
         env:
           PR_NUM: ${{ github.event.pull_request.number }}
         run: npm run build
 
-      - name: Deploy PR Preview
+      - name: Deploy dev version
         uses: rossjrw/pr-preview-action@v1
         with:
           source-dir: ./docs/build
