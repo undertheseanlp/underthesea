@@ -63,23 +63,21 @@ jobs:
         id: version
         run: |
           TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-v}"
-          MINOR_VERSION=$(echo "$TAG_VERSION" | cut -d. -f1,2)
-          echo "full=$TAG_VERSION" >> "$GITHUB_OUTPUT"
-          echo "minor=$MINOR_VERSION" >> "$GITHUB_OUTPUT"
+          echo "patch=$TAG_VERSION" >> "$GITHUB_OUTPUT"
 
       - name: Update current version label
         working-directory: docs
         run: |
-          sed -i "s/label: '[0-9]*\.[0-9]*'/label: '${{ steps.version.outputs.minor }}'/" docusaurus.config.js
+          sed -i "s/label: '[0-9]*\.[0-9]*\.[0-9]*'/label: '${{ steps.version.outputs.patch }}'/" docusaurus.config.js
 
       - name: Create docs version snapshot
         working-directory: docs
-        run: npx docusaurus docs:version ${{ steps.version.outputs.minor }}
+        run: npx docusaurus docs:version ${{ steps.version.outputs.patch }}
 
       - name: Commit and push versioned docs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs/versions.json docs/versioned_docs/ docs/versioned_sidebars/ docs/docusaurus.config.js
-          git commit -m "docs: Add version ${{ steps.version.outputs.minor }} snapshot"
+          git commit -m "docs: Add version ${{ steps.version.outputs.patch }} snapshot"
           git push
