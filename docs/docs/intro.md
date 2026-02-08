@@ -6,7 +6,7 @@ slug: /
 # Underthesea
 
 <p align="center">
-  <img src="/img/logo.png" alt="Underthesea Logo" width="300"/>
+  <img src={require('@site/static/img/logo.png').default} alt="Underthesea Logo" width="300"/>
 </p>
 
 <p align="center">
