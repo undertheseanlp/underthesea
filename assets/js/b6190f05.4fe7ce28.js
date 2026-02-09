@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkunderthesea_docs=globalThis.webpackChunkunderthesea_docs||[]).push([[5346],{3379(e){e.exports=JSON.parse('{"metadata":{"permalink":"/underthesea/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
