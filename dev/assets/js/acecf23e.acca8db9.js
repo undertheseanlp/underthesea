@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkunderthesea_docs=globalThis.webpackChunkunderthesea_docs||[]).push([[1903],{1912(e){e.exports=JSON.parse('{"blogBasePath":"/underthesea/dev/blog","blogTitle":"Blog","authorsListPath":"/underthesea/dev/blog/authors"}')}}]);
