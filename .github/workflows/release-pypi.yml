@@ -38,3 +38,41 @@ jobs:
         run: python -m build --sdist --wheel --outdir dist/
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
+
+  version-docs:
+    name: Create Docs Version Snapshot
+    needs: build_and_publish
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        working-directory: docs
+        run: npm install
+
+      - name: Extract version from tag
+        id: version
+        run: |
+          TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-v}"
+          echo "patch=$TAG_VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Create docs version snapshot
+        working-directory: docs
+        run: npx docusaurus docs:version ${{ steps.version.outputs.patch }}
+
+      - name: Commit and push versioned docs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/versions.json docs/versioned_docs/ docs/versioned_sidebars/
+          git commit -m "docs: Add version ${{ steps.version.outputs.patch }} snapshot"
+          git push

@@ -21,6 +21,7 @@ sdist/
 var/
 *.egg-info/
 /docs/build
+/docs/.docusaurus
 .installed.cfg
 *.egg
 .env
