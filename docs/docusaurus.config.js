@@ -1,6 +1,8 @@
 // @ts-check
 import {themes as prismThemes} from 'prism-react-renderer';
 
+const isDeployPreview = process.env.DEPLOY_PREVIEW === 'true';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Underthesea',
@@ -30,6 +32,12 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/undertheseanlp/underthesea/tree/main/docusaurus/',
+          lastVersion: isDeployPreview ? 'current' : undefined,
+          versions: {
+            current: {
+              label: 'Next 🚧',
+            },
+          },
         },
         blog: {
           showReadingTime: true,
@@ -87,6 +95,10 @@ const config = {
             to: '/blog',
             label: 'Blog',
             position: 'left',
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
           },
           {
             href: 'https://github.com/undertheseanlp/underthesea',

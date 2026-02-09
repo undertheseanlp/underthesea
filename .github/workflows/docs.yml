@@ -40,55 +40,16 @@ jobs:
           name: docs-build
           path: ./docs/build
 
-  deploy-dev:
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: Install dependencies
-        working-directory: docs
-        run: npm install
-
-      - name: Build dev documentation
-        working-directory: docs
-        env:
-          BASE_URL: /underthesea/dev/
-        run: npm run build
-
-      - name: Deploy dev version
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build
-          destination_dir: dev
-
   deploy:
     if: (github.event_name == 'push' && github.ref == 'refs/heads/main') || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - uses: actions/checkout@v4
-
       - name: Download build artifact
         uses: actions/download-artifact@v4
         with:
           name: docs-build
           path: ./build
-
-      - name: Preserve dev directory from gh-pages
-        run: |
-          if git fetch origin gh-pages 2>/dev/null; then
-            if git ls-tree origin/gh-pages dev/ 2>/dev/null | grep -q dev; then
-              git checkout origin/gh-pages -- dev
-              cp -r dev ./build/dev
-            fi
-          fi
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
