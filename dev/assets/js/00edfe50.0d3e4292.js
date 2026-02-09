@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkunderthesea_docs=globalThis.webpackChunkunderthesea_docs||[]).push([[8356],{4486(e){e.exports=JSON.parse('{"authors":[{"name":"Vu Anh","title":"Creator of Underthesea","url":"https://github.com/rain1024","imageURL":"https://github.com/rain1024.png","key":"rain1024","page":null,"count":3}]}')}}]);
