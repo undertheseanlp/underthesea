@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Improve `sent_tokenize` with trained Punkt parameters ([#970](https://github.com/undertheseanlp/underthesea/pull/970))
+  - Replace hand-crafted abbreviation list (368) with data-trained parameters (1032 abbrevs, 378 sent_starters)
+  - Add numeric period handling (`1.500.000`, `15.12.2025`)
+  - Add ellipsis handling (`...` mid-sentence)
+  - Add Vietnamese academic abbreviations (`PGS.`, `TS.`, `BS.`, `GS.`)
+  - Accuracy on [sentence-segmentation-1](https://huggingface.co/datasets/undertheseanlp/sentence-segmentation-1): 57.7% → 60.0%
+
 ## [9.2.10] - 2026-02-07
 
 ### Changed
