@@ -54,20 +54,20 @@ $ pip install underthesea
 
 ## Agent
 
-Multi-provider AI Agent with **zero external dependencies**. Giao tiep voi LLM APIs chi qua Python stdlib (`urllib` + `json`).
+Multi-provider AI Agent with **zero external dependencies**. Communicates with LLM APIs using only Python stdlib (`urllib` + `json`) — no `openai`, `anthropic`, or `google-genai` packages required.
 
 **Providers:** OpenAI | Azure OpenAI | Anthropic Claude | Google Gemini
 
 ### Quick Start
 
 ```bash
-# Set 1 trong cac provider:
+# Pick one provider:
 $ export OPENAI_API_KEY=sk-...
-# hoac Azure:
+# or Azure:
 $ export AZURE_OPENAI_API_KEY=... && export AZURE_OPENAI_ENDPOINT=https://...
-# hoac Anthropic:
+# or Anthropic:
 $ export ANTHROPIC_API_KEY=sk-ant-...
-# hoac Gemini:
+# or Gemini:
 $ export GOOGLE_API_KEY=...
 ```
 
@@ -75,15 +75,15 @@ $ export GOOGLE_API_KEY=...
 from underthesea.agent import Agent, LLM
 
 agent = Agent(name="assistant", provider=LLM())
-agent("Xin chao!")
+agent("Hello!")
 ```
 
 ### Providers
 
-Moi provider la mot class rieng, theo chuan [Anthropic SDK](https://docs.anthropic.com/en/api/client-sdks).
+Each provider is its own class, following the [Anthropic SDK](https://docs.anthropic.com/en/api/client-sdks) pattern.
 
 ```python
-from underthesea.agent import OpenAI, AzureOpenAI, Anthropic, Gemini
+from underthesea.agent import Agent, OpenAI, AzureOpenAI, Anthropic, Gemini, LLM
 
 # OpenAI
 agent = Agent(name="bot", provider=OpenAI(api_key="sk-..."))
@@ -101,14 +101,14 @@ agent = Agent(name="bot", provider=Anthropic(api_key="sk-ant-..."))
 # Google Gemini
 agent = Agent(name="bot", provider=Gemini(api_key="..."))
 
-# Auto-detect tu env vars
+# Auto-detect from environment variables
 agent = Agent(name="bot", provider=LLM())
 ```
 
 ### Streaming
 
 ```python
-for chunk in agent.stream("Giai thich AI agent la gi?"):
+for chunk in agent.stream("Explain what an AI agent is"):
     print(chunk, end="", flush=True)
 ```
 
@@ -125,11 +125,11 @@ agent = Agent(
     name="assistant",
     provider=OpenAI(),
     tools=[Tool(get_weather)],
-    instruction="You are a helpful Vietnamese assistant.",
+    instruction="You are a helpful assistant.",
 )
 
-agent("Thoi tiet o Ha Noi the nao?")
-# 'Thoi tiet o Ha Noi hien tai la 25°C va nang.'
+agent("What's the weather in Hanoi?")
+# 'The weather in Hanoi is 25°C and sunny.'
 ```
 
 ### Default Tools
@@ -140,22 +140,22 @@ agent("Thoi tiet o Ha Noi the nao?")
 from underthesea.agent import Agent, default_tools, LLM
 
 agent = Agent(name="assistant", provider=LLM(), tools=default_tools)
-agent("Tinh sqrt(144) + 10")
+agent("Calculate sqrt(144) + 10")
 ```
 
 ### Multi-Session
 
-Agent chay dai voi context reset va structured handoff giua cac session, theo [Anthropic harness patterns](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents).
+Long-running agents with context reset and structured handoff between sessions, following [Anthropic harness patterns](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents).
 
 ```python
 from underthesea.agent import Agent, Session, AzureOpenAI
 
 agent = Agent(name="researcher", provider=AzureOpenAI(...))
 session = Session(agent, progress_file="progress.json")
-session.create_task("Phan tich tai lieu", [
-    "Doc va phan loai tai lieu",
-    "Tom tat tung nhom",
-    "Viet bao cao tong hop",
+session.create_task("Analyze documents", [
+    "Read and classify documents",
+    "Summarize each group",
+    "Write final report",
 ])
 session.run_until_complete(max_sessions=5)
 ```
@@ -170,7 +170,7 @@ underthesea.agent
 │   ├── Anthropic       # api.anthropic.com
 │   └── Gemini          # generativelanguage.googleapis.com
 ├── Agent               # Tool calling loop + streaming
-├── LLM                 # Auto-detect provider
+├── LLM                 # Auto-detect provider from env vars
 ├── Session             # Multi-session orchestration
 ├── Tool                # Function → tool wrapper
 └── default_tools       # 12 built-in tools
@@ -178,7 +178,7 @@ underthesea.agent
 
 ## Vietnamese NLP
 
-Xem chi tiet tai [NLP.md](NLP.md).
+See full documentation at [NLP.md](NLP.md).
 
 | Pipeline | Usage |
 |----------|-------|
