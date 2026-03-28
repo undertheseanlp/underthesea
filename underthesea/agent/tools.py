@@ -74,6 +74,14 @@ class Tool:
             },
         }
 
+    def to_anthropic_tool(self) -> dict:
+        """Convert to Anthropic tool format."""
+        return {
+            "name": self.name,
+            "description": self.description,
+            "input_schema": self.parameters,
+        }
+
     def execute(self, arguments: dict) -> str:
         """Execute tool and return JSON result."""
         result = self.func(**arguments)
