@@ -46,7 +46,7 @@ Open-source Vietnamese Natural Language Process Toolkit
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
-🎉 **New in v9.1.5!** Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP. Supports OpenAI and Azure OpenAI. 🚀✨
+🎉 **New in v9.3!** Agent Harness with multi-provider support (OpenAI, Azure, Anthropic, Gemini), streaming, multi-session with context management. Zero external dependencies. 🚀✨
 
 ## Installation
 
@@ -65,7 +65,7 @@ Install with extras (note: use quotes in zsh):
 ```bash
 $ pip install "underthesea[deep]"    # Deep learning support
 $ pip install "underthesea[voice]"   # Text-to-Speech support
-$ pip install "underthesea[agent]"   # Conversational AI agent
+$ pip install "underthesea[agent]"   # AI agent (zero extra deps, uses raw HTTP)
 ```
 
 ## Tutorials
@@ -361,93 +361,97 @@ Usage examples in command line
 ### Agents
 
 <details>
-<summary><b><a href="">Conversational AI Agent</a></b> - Chat with AI for Vietnamese NLP tasks
+<summary><b><a href="">AI Agent</a></b> - Multi-provider, streaming, tool calling, multi-session
 </summary>
 
 <br/>
 
-Conversational AI Agent with OpenAI and Azure OpenAI support.
+AI Agent with multi-provider support. **Zero external dependencies** - uses raw HTTP calls to LLM APIs.
 
-Install extend dependencies
+Supported providers: **OpenAI**, **Azure OpenAI**, **Anthropic Claude**, **Google Gemini**
+
+Setup (chỉ cần set env var, không cần cài thêm package)
 
     ```bash
-    $ pip install "underthesea[agent]"
-    $ export OPENAI_API_KEY=your_api_key
-    # Or for Azure OpenAI:
-    # export AZURE_OPENAI_API_KEY=your_key
-    # export AZURE_OPENAI_ENDPOINT=https://xxx.openai.azure.com
+    # Chọn 1 trong các provider:
+    $ export OPENAI_API_KEY=sk-...
+    $ export AZURE_OPENAI_API_KEY=... && export AZURE_OPENAI_ENDPOINT=https://...
+    $ export ANTHROPIC_API_KEY=sk-ant-...
+    $ export GOOGLE_API_KEY=...
     ```
 
-Usage examples in script
+Quick Start
 
     ```python
-    >>> from underthesea import agent
+    >>> from underthesea.agent import Agent, LLM
 
+    # Auto-detect provider từ env vars
+    >>> agent = Agent(name="assistant", provider=LLM())
     >>> agent("Xin chào!")
     'Xin chào! Tôi có thể giúp gì cho bạn?'
-
-    >>> agent("NLP là gì?")
-    'NLP (Natural Language Processing) là xử lý ngôn ngữ tự nhiên...'
-
-    >>> agent("Cho ví dụ về word tokenization tiếng Việt")
-    'Word tokenization trong tiếng Việt là quá trình...'
-
-    # Reset conversation
-    >>> agent.reset()
     ```
 
-Supports Azure OpenAI
+Explicit Provider
 
     ```python
-    >>> agent("Hello", provider="azure", model="my-gpt4-deployment")
+    >>> from underthesea.agent import Agent, OpenAI, AzureOpenAI, Anthropic, Gemini
+
+    >>> agent = Agent(name="bot", provider=OpenAI(api_key="sk-..."))
+    >>> agent = Agent(name="bot", provider=AzureOpenAI(
+    ...     api_key="...", endpoint="https://my.openai.azure.com", deployment="gpt-4"
+    ... ))
+    >>> agent = Agent(name="bot", provider=Anthropic(api_key="sk-ant-..."))
+    >>> agent = Agent(name="bot", provider=Gemini(api_key="..."))
     ```
 
-Agent with Custom Tools (Function Calling)
+Streaming
 
     ```python
-    >>> from underthesea.agent import Agent, Tool
+    >>> for chunk in agent.stream("Giải thích AI agent là gì?"):
+    ...     print(chunk, end="", flush=True)
+    ```
 
-    # Define tools as functions
+Tool Calling (Function Calling)
+
+    ```python
+    >>> from underthesea.agent import Agent, Tool, OpenAI
+
     >>> def get_weather(location: str) -> dict:
     ...     """Get current weather for a location."""
     ...     return {"location": location, "temp": 25, "condition": "sunny"}
 
-    >>> def search_news(query: str) -> str:
-    ...     """Search Vietnamese news."""
-    ...     return f"Results for: {query}"
-
-    # Create agent with tools
-    >>> my_agent = Agent(
+    >>> agent = Agent(
     ...     name="assistant",
-    ...     tools=[
-    ...         Tool(get_weather, description="Get weather for a city"),
-    ...         Tool(search_news, description="Search Vietnamese news"),
-    ...     ],
+    ...     provider=OpenAI(),
+    ...     tools=[Tool(get_weather)],
     ...     instruction="You are a helpful Vietnamese assistant."
     ... )
-
-    # Agent automatically calls tools when needed
-    >>> my_agent("Thời tiết ở Hà Nội thế nào?")
+    >>> agent("Thời tiết ở Hà Nội thế nào?")
     'Thời tiết ở Hà Nội hiện tại là 25°C và nắng.'
-
-    >>> my_agent.reset()  # Clear conversation history
     ```
 
-Using Default Tools (like LangChain/OpenAI tools)
+Multi-Session Agent (với context reset và structured handoff)
 
     ```python
-    >>> from underthesea.agent import Agent, default_tools
+    >>> from underthesea.agent import Agent, Session, AzureOpenAI
 
-    # Create agent with built-in tools:
-    # calculator, datetime, web_search, wikipedia, shell, python, file ops...
-    >>> my_agent = Agent(
-    ...     name="assistant",
-    ...     tools=default_tools,
-    ... )
+    >>> agent = Agent(name="researcher", provider=AzureOpenAI(...))
+    >>> session = Session(agent, progress_file="progress.json")
+    >>> session.create_task("Phân tích tài liệu", [
+    ...     "Đọc và phân loại tài liệu",
+    ...     "Tóm tắt từng nhóm",
+    ...     "Viết báo cáo tổng hợp",
+    ... ])
+    >>> session.run_until_complete(max_sessions=5)
+    ```
 
-    >>> my_agent("What time is it?")           # Uses datetime tool
-    >>> my_agent("Calculate sqrt(144) + 10")   # Uses calculator tool
-    >>> my_agent("Search for Python tutorials") # Uses web_search tool
+Default Tools (calculator, web search, file I/O, shell, python...)
+
+    ```python
+    >>> from underthesea.agent import Agent, default_tools, LLM
+
+    >>> agent = Agent(name="assistant", provider=LLM(), tools=default_tools)
+    >>> agent("Tính sqrt(144) + 10")  # Uses calculator tool
     ```
 </details>
 
