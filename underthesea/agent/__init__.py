@@ -1,4 +1,5 @@
 from underthesea.agent.agent import Agent, agent
+from underthesea.agent.wiki import WikiAgent
 from underthesea.agent.default_tools import (
     calculator_tool,
     core_tools,
@@ -35,6 +36,7 @@ __all__ = [
     # Core
     "agent",
     "Agent",
+    "WikiAgent",
     "LLM",
     "Session",
     "Tool",
