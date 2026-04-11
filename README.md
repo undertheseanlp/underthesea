@@ -32,7 +32,7 @@
 
 <p align="center">
   <a href="https://github.com/undertheseanlp/underthesea/blob/main/docs/contribute/SPONSORS.md">
-    <img src="https://img.shields.io/badge/sponsors-6-red?style=social&logo=GithubSponsors">
+    <img src="https://img.shields.io/badge/sponsors-30-red?style=social&logo=GithubSponsors">
   </a>
 </p>
 
