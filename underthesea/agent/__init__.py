@@ -1,8 +1,6 @@
 from underthesea.agent.agent import Agent, agent
 from underthesea.agent.default_tools import (
-    # Individual tools
     calculator_tool,
-    # Tool collections
     core_tools,
     current_datetime_tool,
     default_tools,
@@ -19,29 +17,49 @@ from underthesea.agent.default_tools import (
     wikipedia_tool,
     write_file_tool,
 )
+from underthesea.agent.harness.session import SessionManager as Session
 from underthesea.agent.llm import LLM
+from underthesea.agent.providers import (
+    Anthropic,
+    AzureOpenAI,
+    BaseProvider,
+    Gemini,
+    OpenAI,
+    ProviderMessage,
+    StreamDelta,
+    ToolCall,
+)
 from underthesea.agent.tools import Tool
 
 __all__ = [
+    # Core
     "agent",
     "Agent",
     "LLM",
+    "Session",
     "Tool",
+    # Providers
+    "OpenAI",
+    "AzureOpenAI",
+    "Anthropic",
+    "Gemini",
+    "BaseProvider",
+    "ProviderMessage",
+    "StreamDelta",
+    "ToolCall",
     # Tool collections
     "default_tools",
     "core_tools",
     "web_tools",
     "system_tools",
-    # Core tools
+    # Individual tools
     "current_datetime_tool",
     "calculator_tool",
     "string_length_tool",
     "json_parse_tool",
-    # Web tools
     "web_search_tool",
     "fetch_url_tool",
     "wikipedia_tool",
-    # System tools
     "read_file_tool",
     "write_file_tool",
     "list_directory_tool",

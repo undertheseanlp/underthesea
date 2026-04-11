@@ -61,9 +61,7 @@ voice = [
 prompt = [
     "openai"
 ]
-agent = [
-    "openai>=2.16.0"
-]
+agent = []
 test = [
     "nose==1.3.7"
 ]

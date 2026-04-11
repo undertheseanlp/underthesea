@@ -1,11 +1,12 @@
 import json
 
 from underthesea.agent.llm import LLM
+from underthesea.agent.providers.base import BaseProvider
 from underthesea.agent.tools import Tool
 
 
 class Agent:
-    """Agent with custom tools support using OpenAI function calling."""
+    """Agent with custom tools support and multi-provider LLM backends."""
 
     DEFAULT_INSTRUCTION = "You are a helpful assistant."
 
@@ -15,6 +16,7 @@ class Agent:
         tools: list[Tool] | None = None,
         instruction: str | None = None,
         max_iterations: int = 10,
+        provider: BaseProvider | LLM | None = None,
     ):
         """
         Initialize an Agent.
@@ -29,18 +31,25 @@ class Agent:
             System instruction for the agent.
         max_iterations : int
             Maximum number of tool calling iterations.
+        provider : BaseProvider or LLM, optional
+            LLM provider or LLM instance. If LLM is passed, its backend provider is used.
+            If not specified, auto-detects from environment variables.
         """
         self.name = name
         self.tools = tools or []
         self.instruction = instruction or self.DEFAULT_INSTRUCTION
         self.max_iterations = max_iterations
-        self._llm: LLM | None = None
+        # Accept LLM (auto-detect) or any BaseProvider
+        if isinstance(provider, LLM):
+            self._provider = provider.backend
+        else:
+            self._provider = provider
         self._history: list[dict] = []
 
-    def _ensure_llm(self, **kwargs):
-        """Initialize LLM client if not already done."""
-        if self._llm is None:
-            self._llm = LLM(**kwargs)
+    def _ensure_provider(self, **kwargs):
+        """Initialize provider if not already set."""
+        if self._provider is None:
+            self._provider = LLM(**kwargs).backend
 
     def __call__(
         self,
@@ -65,14 +74,15 @@ class Agent:
         str
             Assistant response.
         """
-        self._ensure_llm(**llm_kwargs)
+        self._ensure_provider(**llm_kwargs)
         self._history.append({"role": "user", "content": message})
 
         if self.tools:
             return self._call_with_tools(model)
 
         messages = [{"role": "system", "content": self.instruction}] + self._history
-        response = self._llm.chat(messages, model=model)
+        result = self._provider.chat(messages, model=model)
+        response = result.content
         self._history.append({"role": "assistant", "content": response})
         return response
 
@@ -83,29 +93,63 @@ class Agent:
         tool_map = {t.name: t for t in self.tools}
 
         for _ in range(self.max_iterations):
-            response = self._llm._client.chat.completions.create(
-                model=model or self._llm._model,
-                messages=messages,
-                tools=openai_tools,
-                tool_choice="auto",
+            result = self._provider.chat(
+                messages, model=model, tools=openai_tools, tool_choice="auto"
             )
 
-            msg = response.choices[0].message
+            if result.tool_calls:
+                assistant_msg = {"role": "assistant", "content": result.content}
+                assistant_msg["tool_calls"] = [
+                    {
+                        "id": tc.id,
+                        "type": "function",
+                        "function": {"name": tc.name, "arguments": tc.arguments},
+                    }
+                    for tc in result.tool_calls
+                ]
+                messages.append(assistant_msg)
 
-            if msg.tool_calls:
-                messages.append(msg)
-                for tc in msg.tool_calls:
-                    tool = tool_map[tc.function.name]
-                    result = tool.execute(json.loads(tc.function.arguments))
-                    messages.append(
-                        {"role": "tool", "tool_call_id": tc.id, "content": result}
-                    )
+                for tc in result.tool_calls:
+                    tool = tool_map[tc.name]
+                    tool_result = tool.execute(json.loads(tc.arguments))
+                    messages.append({
+                        "role": "tool",
+                        "tool_call_id": tc.id,
+                        "content": tool_result,
+                    })
             else:
-                content = msg.content
+                content = result.content
                 self._history.append({"role": "assistant", "content": content})
                 return content
 
         raise RuntimeError("Max tool iterations reached")
+
+    def stream(self, message: str, model: str | None = None, **llm_kwargs):
+        """Stream a response, yielding text chunks.
+
+        Parameters
+        ----------
+        message : str
+            User message.
+        model : str, optional
+            Model override.
+
+        Yields
+        ------
+        str
+            Text chunks as they arrive.
+        """
+        self._ensure_provider(**llm_kwargs)
+        self._history.append({"role": "user", "content": message})
+        messages = [{"role": "system", "content": self.instruction}] + self._history
+
+        full_content = []
+        for delta in self._provider.chat_stream(messages, model=model):
+            if delta.content:
+                full_content.append(delta.content)
+                yield delta.content
+
+        self._history.append({"role": "assistant", "content": "".join(full_content)})
 
     def reset(self):
         """Clear conversation history."""
@@ -118,7 +162,7 @@ class Agent:
 
 
 class _AgentInstance:
-    """Vietnamese-focused conversational AI agent using OpenAI or Azure OpenAI."""
+    """Vietnamese-focused conversational AI agent."""
 
     DEFAULT_SYSTEM_PROMPT = "You are a helpful assistant specialized in Vietnamese language and NLP tasks."
 
@@ -135,16 +179,11 @@ class _AgentInstance:
         azure_endpoint: str | None = None,
         azure_api_version: str | None = None,
     ):
-        """Initialize LLM client if not already done."""
         if self._llm is not None:
             return
-
         self._llm = LLM(
-            provider=provider,
-            model=model,
-            api_key=api_key,
-            azure_endpoint=azure_endpoint,
-            azure_api_version=azure_api_version,
+            provider=provider, model=model, api_key=api_key,
+            azure_endpoint=azure_endpoint, azure_api_version=azure_api_version,
         )
 
     def __call__(
@@ -157,44 +196,16 @@ class _AgentInstance:
         azure_endpoint: str | None = None,
         azure_api_version: str | None = None,
     ) -> str:
-        """
-        Send a message and get a response.
-
-        Parameters
-        ----------
-        message : str
-            User message
-        model : str, optional
-            Model name (OpenAI) or deployment name (Azure).
-            Falls back to OPENAI_MODEL, AZURE_OPENAI_DEPLOYMENT, or "gpt-4o-mini".
-        system_prompt : str, optional
-            Custom system prompt
-        provider : str, optional
-            Provider: "openai" or "azure". Auto-detected if not specified.
-        api_key : str, optional
-            API key. Falls back to OPENAI_API_KEY or AZURE_OPENAI_API_KEY.
-        azure_endpoint : str, optional
-            Azure OpenAI endpoint. Falls back to AZURE_OPENAI_ENDPOINT.
-        azure_api_version : str, optional
-            Azure API version. Falls back to AZURE_OPENAI_API_VERSION.
-
-        Returns
-        -------
-        str
-            Assistant response
-        """
         self._ensure_llm(provider, model, api_key, azure_endpoint, azure_api_version)
 
         if system_prompt:
             self._system_prompt = system_prompt
 
         self._history.append({"role": "user", "content": message})
-
         messages = [{"role": "system", "content": self._system_prompt}] + self._history
 
         assistant_message = self._llm.chat(messages, model=model)
         self._history.append({"role": "assistant", "content": assistant_message})
-
         return assistant_message
 
     def reset(self):
