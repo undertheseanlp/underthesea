@@ -30,6 +30,7 @@ from underthesea.agent.providers import (
     ToolCall,
 )
 from underthesea.agent.tools import Tool
+from underthesea.agent.trace import BaseTracer, LangfuseTracer, LocalTracer
 
 __all__ = [
     # Core
@@ -47,6 +48,10 @@ __all__ = [
     "ProviderMessage",
     "StreamDelta",
     "ToolCall",
+    # Trace
+    "BaseTracer",
+    "LocalTracer",
+    "LangfuseTracer",
     # Tool collections
     "default_tools",
     "core_tools",
