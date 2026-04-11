@@ -27,7 +27,8 @@
     "@docusaurus/types": "^3.7.0"
   },
   "overrides": {
-    "webpack": "~5.105.0"
+    "webpack": "~5.105.0",
+    "serialize-javascript": ">=7.0.5"
   },
   "browserslist": {
     "production": [
