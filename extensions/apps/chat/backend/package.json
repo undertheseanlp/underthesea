@@ -1,0 +1,33 @@
+{
+  "name": "@undertheseanlp/chat-backend",
+  "version": "0.1.0",
+  "description": "Chat backend for Underthesea AI Agent",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "author": "Vu Anh <anhv.ict91@gmail.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/undertheseanlp/underthesea.git",
+    "directory": "extensions/apps/chat/backend"
+  },
+  "keywords": [
+    "underthesea",
+    "nlp",
+    "vietnamese",
+    "chat",
+    "ai",
+    "agent"
+  ],
+  "dependencies": {
+    "better-sqlite3": "^11.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.77.0"
+  }
+}
