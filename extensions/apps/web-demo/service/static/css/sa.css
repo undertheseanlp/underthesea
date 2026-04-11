@@ -1,0 +1,35 @@
+/**
+ * =======================
+ * Color Theme
+ * =======================
+ * Entity   : #00B0FF
+ * Attribute: #FFC400
+ * POS      : #00E676
+ * NEG      : #FF1744
+ * =======================
+ * References
+ * - http://brat.nlplab.org/img/examples/Stanford-CoreNLP-full.png
+ */
+
+.tag {
+    font-size: 11px;
+    padding: 0px 3px;
+    border-radius: 3px;
+}
+
+.sa-entity {
+    background: #00B0FF;
+}
+
+.sa-attribute {
+    background: #FFC400;
+}
+
+.sa-pos {
+    background: #00E676;
+
+}
+
+.sa-neg {
+    background: #FF1744;
+}

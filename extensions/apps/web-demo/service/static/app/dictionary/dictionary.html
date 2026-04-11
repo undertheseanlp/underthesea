@@ -1,0 +1,26 @@
+<h2>Vietnamese Dictionary</h2>
+<p>more than 33000 words and phrases</p>
+<hr/>
+<div class="form-group">
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
+    <input ng-change="init()" type="text" id="text" ng-model="text" my-enter="do()" class="form-control">
+    <span class="input-group-btn">
+      <button class="btn btn-default" type="button" ng-click="do()">Search</button>
+    </span>
+  </div>
+</div>
+
+<div class="panel panel-default" ng-if="notFound">
+  <div class="panel-body">
+    Không tìm thấy từ <b>{{ text }}</b> trong từ điển.
+  </div>
+</div>
+
+<div class="panel panel-default" ng-click="showExample = !showExample" ng-init="showExample = false" ng-if="found" ng-repeat="sense in word">
+  <div class="panel-body">
+    <b>{{ sense.pos }} ({{ getPOSDescription(sense.pos) }})</b>. {{
+    sense.definition }}<br/>
+    <i ng-show="showExample">Ví dụ: {{ sense.example}}</i>
+  </div>
+</div>

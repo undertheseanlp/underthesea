@@ -1,0 +1,42 @@
+<h2>Vietnamese IPA</h2>
+<p>more than 6000 syllables</p>
+<hr/>
+<div class="form-group">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <input ng-change="init()" type="text" id="text" ng-model="text" my-enter="do()" class="form-control">
+        <span class="input-group-btn">
+      <button class="btn btn-default" type="button" ng-click="initDo()">Search</button>
+    </span>
+    </div>
+</div>
+
+<div class="panel panel-default" ng-show="notFound">
+    <div class="panel-body">
+        Syllable <b>{{ text }}</b> not found.
+    </div>
+</div>
+
+<div class="panel panel-default" ng-show="found">
+    <div class="panel-body">
+        <h1>{{ text }}</h1>
+        <p style="font-size: 20px !important;">
+        <div ng-show="showAudio" style="float: left; margin-right: 6px;">
+            <b>HN</b>
+            <span ng-click="playAudio()" class="glyphicon glyphicon-volume-up button-audio-control"
+                  style="font-size: 16px"></span>
+        </div>
+        /{{ ipa }}/
+        </p>
+        <br/>
+        <audio id="audio">
+            <source ng-src="{{ audio }}" type="audio/mpeg">
+        </audio>
+    </div>
+</div>
+
+<div class="panel panel-default" ng-show="isLoading"
+     style="display: flex; align-items: center; justify-content: center; padding: 20px;">
+    <div class="loader"></div>
+</div>
+
