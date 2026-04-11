@@ -37,12 +37,12 @@
 </p>
 
 <h3 align="center">
-Open-source Vietnamese Natural Language Process Toolkit
+Open-source Agentic AI Toolkit
 </h3>
 
 `Underthesea` is:
 
-🌊 **A Vietnamese NLP toolkit** with AI Agent capabilities. Underthesea is a suite of open source Python modules supporting research and development in [Vietnamese Natural Language Processing](https://github.com/undertheseanlp/underthesea) and Agentic AI.
+🌊 **An Agentic AI Toolkit.** Since v9.3.0, Underthesea is an open-source Agentic AI Toolkit with built-in Vietnamese NLP capabilities. It provides multi-provider AI Agent support and a suite of Python modules for [Vietnamese Natural Language Processing](https://github.com/undertheseanlp/underthesea).
 
 🎁 [**Support Us!**](#-support-us) Every bit of support helps us achieve our goals. Thank you so much. 💝💝💝
 
