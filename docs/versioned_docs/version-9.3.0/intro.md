@@ -24,12 +24,10 @@ slug: /
   </a>
 </p>
 
-**Underthesea** is a suite of open source Python modules, datasets, and tutorials supporting research and development in Vietnamese Natural Language Processing.
+**Underthesea** is an open-source Agentic AI Toolkit with built-in Vietnamese NLP capabilities. Since v9.3.0, it provides multi-provider AI Agent support (OpenAI, Azure OpenAI, Anthropic Claude, Google Gemini) with zero external LLM SDK dependencies, alongside a suite of Python modules for Vietnamese Natural Language Processing.
 
-We provide an extremely easy API to quickly apply pretrained NLP models to your Vietnamese text.
-
-:::success[New in v9.1.5]
-Conversational AI Agent is here! Use `agent("Xin chào")` to chat with an AI assistant specialized in Vietnamese NLP.
+:::success[New in v9.3.0]
+Underthesea is now an Agentic AI Toolkit! Multi-provider Agent with streaming, tool calling, and multi-session support — all with zero external dependencies.
 :::
 
 ## Installation
