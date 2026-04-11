@@ -160,6 +160,33 @@ session.create_task("Analyze documents", [
 session.run_until_complete(max_sessions=5)
 ```
 
+### Tracing
+
+Every agent call is automatically traced to `~/.underthesea/traces/`. Disable with `UNDERTHESEA_TRACE_DISABLED=1`.
+
+```python
+from underthesea.agent import Agent, LangfuseTracer, calculator_tool
+
+# Auto local trace (default) — zero config
+agent = Agent(name="bot", tools=[calculator_tool])
+agent("What is 2+2?")
+# >> Trace [a1b2c3] bot
+#    |-- Generation: llm.chat #1 (gpt-4.1-mini) ... 1200ms | 100->18 tokens
+#    |-- Tool: tool.calculator ... 0ms
+#    |-- Generation: llm.chat #2 (gpt-4.1-mini) ... 800ms | 150->12 tokens
+# << Trace [a1b2c3] [ok] 2000ms -> ~/.underthesea/traces/20260411_trace_a1b2c3.json
+
+# Langfuse (pip install langfuse)
+agent = Agent(name="bot", tools=[calculator_tool], tracer=LangfuseTracer())
+
+# @trace decorator — nested functions become child spans
+from underthesea.agent.trace import trace, LocalTracer
+
+@trace(LocalTracer())
+def pipeline(text):
+    return Agent(name="bot")(text)  # auto-inherits trace context
+```
+
 ### Architecture
 
 ```
@@ -169,6 +196,10 @@ underthesea.agent
 │   ├── AzureOpenAI     # *.openai.azure.com
 │   ├── Anthropic       # api.anthropic.com
 │   └── Gemini          # generativelanguage.googleapis.com
+├── trace/
+│   ├── LocalTracer     # JSON files to ~/.underthesea/traces/
+│   ├── LangfuseTracer  # Langfuse v4 observability
+│   └── @trace          # Decorator with auto-nesting
 ├── Agent               # Tool calling loop + streaming
 ├── LLM                 # Auto-detect provider from env vars
 ├── Session             # Multi-session orchestration
