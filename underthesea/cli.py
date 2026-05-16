@@ -40,19 +40,35 @@ def tts(text):
 
 @main.command()
 @click.argument('audio', required=False)
-@click.option('-m', '--model', default='openai/whisper-small', help='ASR model name')
+@click.option('-m', '--model', default='large',
+              help='ASR model: alias (tiny|base|small|medium|large) or full HF model id. '
+                   'Default "large" → vinai/PhoWhisper-large.')
 @click.option('-l', '--language', default='vi', help='Language code (e.g. vi, en)')
+@click.option('-b', '--num-beams', default=5, type=int, help='Beam search width')
+@click.option('--no-normalize', is_flag=True,
+              help='Skip Vietnamese text normalization on output')
+@click.option('--timestamps', is_flag=True, help='Print chunk-level timestamps')
 @click.option('-o', '--outfile', default=None,
               help='Save microphone recording to this file (only when AUDIO is omitted)')
-def transcribe(audio, model, language, outfile):
+def transcribe(audio, model, language, num_beams, no_normalize, timestamps, outfile):
     """Auto transcribe voice. Pass an AUDIO file path, or omit to record from the mic."""
-    if audio:
-        from underthesea.pipeline.transcribe import transcribe as _transcribe
-        text = _transcribe(audio, model=model, language=language)
+    from underthesea.pipeline.transcribe import auto_transcribe
+    from underthesea.pipeline.transcribe import transcribe as _transcribe
+    common = {
+        "model": model,
+        "language": language,
+        "num_beams": num_beams,
+        "normalize": not no_normalize,
+        "timestamps": timestamps,
+    }
+    result = _transcribe(audio, **common) if audio else auto_transcribe(outfile=outfile, **common)
+    if isinstance(result, dict):
+        click.echo(result["text"])
+        for chunk in result.get("chunks", []):
+            ts = chunk.get("timestamp", (None, None))
+            click.echo(f"  [{ts[0]} → {ts[1]}] {chunk.get('text', '').strip()}")
     else:
-        from underthesea.pipeline.transcribe import auto_transcribe
-        text = auto_transcribe(outfile=outfile, model=model, language=language)
-    click.echo(text)
+        click.echo(result)
 
 
 @main.command()
