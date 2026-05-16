@@ -39,6 +39,23 @@ def tts(text):
 
 
 @main.command()
+@click.argument('audio', required=False)
+@click.option('-m', '--model', default='openai/whisper-small', help='ASR model name')
+@click.option('-l', '--language', default='vi', help='Language code (e.g. vi, en)')
+@click.option('-o', '--outfile', default=None,
+              help='Save microphone recording to this file (only when AUDIO is omitted)')
+def transcribe(audio, model, language, outfile):
+    """Auto transcribe voice. Pass an AUDIO file path, or omit to record from the mic."""
+    if audio:
+        from underthesea.pipeline.transcribe import transcribe as _transcribe
+        text = _transcribe(audio, model=model, language=language)
+    else:
+        from underthesea.pipeline.transcribe import auto_transcribe
+        text = auto_transcribe(outfile=outfile, model=model, language=language)
+    click.echo(text)
+
+
+@main.command()
 @click.argument('model', required=True)
 def remove_model(model):
     ModelFetcher.remove(model)

@@ -38,6 +38,7 @@ optional_imports = {
     'lang_detect': 'underthesea.pipeline.lang_detect',
     'dependency_parse': 'underthesea.pipeline.dependency_parse',
     'translate': 'underthesea.pipeline.translate',
+    'transcribe': 'underthesea.pipeline.transcribe',
     'agent': 'underthesea.agent',
     'convert_address': 'underthesea.address',
 }
@@ -67,6 +68,7 @@ __all__ = [
     # 'sentiment',
     'dependency_parse',
     'translate',
+    'transcribe',
     'agent',
     'convert_address',
 ]

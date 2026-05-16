@@ -69,6 +69,7 @@ const sidebars = {
         'api/translate',
         'api/lang-detect',
         'api/tts',
+        'api/transcribe',
         'api/agent',
         'api/convert-address',
       ],

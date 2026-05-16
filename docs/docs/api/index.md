@@ -29,6 +29,7 @@ This section provides complete API documentation for all Underthesea functions.
 |----------|-------------|---------|
 | [`lang_detect`](lang-detect) | Language detection | `[langdetect]` |
 | [`tts`](tts) | Text-to-speech | `[voice]` |
+| [`transcribe`](transcribe) | Auto transcribe voice (ASR) | `[voice]` + `[deep]` |
 | [`agent`](agent) | Conversational AI agent | `[agent]` |
 
 ## Quick Import
