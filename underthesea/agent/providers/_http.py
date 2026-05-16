@@ -3,7 +3,6 @@
 import json
 import os
 import random
-import socket
 import time
 import urllib.error
 import urllib.request
@@ -72,7 +71,7 @@ def post_json(
                 last_exc = err
                 continue
             raise err from e
-        except (urllib.error.URLError, socket.timeout, TimeoutError, ConnectionError) as e:
+        except (urllib.error.URLError, TimeoutError, ConnectionError) as e:
             if attempt < max_retries:
                 time.sleep(_retry_sleep(attempt, base_delay, max_delay))
                 last_exc = e

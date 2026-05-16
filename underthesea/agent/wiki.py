@@ -25,7 +25,6 @@ Usage:
 """
 
 import json
-import os
 import re
 import urllib.parse
 import urllib.request
@@ -579,7 +578,7 @@ class WikiAgent:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
         except Exception as e:
-            raise RuntimeError(f"Failed to fetch tweet: {e}")
+            raise RuntimeError(f"Failed to fetch tweet: {e}") from e
 
         tweet = data.get("tweet", {})
         author = tweet.get("author", {})
@@ -664,7 +663,7 @@ class WikiAgent:
             with urllib.request.urlopen(req, timeout=30) as resp:
                 html = resp.read().decode("utf-8", errors="ignore")
         except Exception as e:
-            raise RuntimeError(f"Failed to fetch {url}: {e}")
+            raise RuntimeError(f"Failed to fetch {url}: {e}") from e
 
         # Extract title
         title_match = re.search(r"<title[^>]*>(.*?)</title>", html, re.DOTALL | re.IGNORECASE)
