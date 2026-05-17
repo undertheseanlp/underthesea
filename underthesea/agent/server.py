@@ -42,9 +42,12 @@ import json
 import uuid
 from collections.abc import AsyncIterator, Awaitable, Callable
 from datetime import UTC, datetime
+from pathlib import Path
 
 from underthesea.agent.agent import Agent
 from underthesea.agent.tools import Tool
+
+_STATIC_DIR = Path(__file__).parent / "static"
 
 # Tool calls happen deep inside Agent._call_with_tools; a ContextVar lets us
 # observe each call without changing the Agent API.
@@ -274,6 +277,7 @@ def make_app(
     host: str = "127.0.0.1",
     port: int = 8000,
     allow_origins: list[str] | None = None,
+    ui: bool = False,
 ) -> ASGIApp:
     """Build a raw ASGI app serving ``agent`` over A2A.
 
@@ -294,12 +298,18 @@ def make_app(
         Used only to fill the ``url`` field of the auto-generated card.
     allow_origins : list[str], optional
         CORS origins. Defaults to ``["*"]``.
+    ui : bool
+        If True, also serve the bundled chat UI at ``GET {path}/ui``. The page
+        auto-discovers the RPC endpoint from its own URL and reads the agent
+        name from the AgentCard. Default False.
     """
     _wrap_tools_inplace(agent.tools)
 
     card_dict = agent_card or _auto_agent_card(agent, f"http://{host}:{port}{path}")
     card_bytes = json.dumps(card_dict).encode("utf-8")
     card_path = f"{path}/.well-known/agent-card.json"
+    ui_path = f"{path}/ui"
+    ui_bytes = (_STATIC_DIR / "index.html").read_bytes() if ui else None
 
     router = _SessionRouter(agent)
     allow = allow_origins if allow_origins is not None else ["*"]
@@ -323,6 +333,9 @@ def make_app(
         if method == "POST" and p == path:
             await router.handle_rpc(receive, send, cors)
             return
+        if ui_bytes is not None and method == "GET" and p.rstrip("/") == ui_path:
+            await _send_bytes(send, 200, ui_bytes, "text/html; charset=utf-8", cors)
+            return
         await _send_bytes(send, 404, b"Not Found", "text/plain", cors)
 
     return app
@@ -335,13 +348,13 @@ def serve(
     port: int = 8000,
     path: str = "/a2a",
     agent_card: dict | None = None,
+    ui: bool = False,
     log_level: str = "info",
 ) -> None:
     """Run a blocking uvicorn server hosting ``agent`` over A2A.
 
     Convenience entrypoint — lazy-imports uvicorn. Use :func:`make_app` if you
-    need to mount extra routes (static UI, custom endpoints) or pick a
-    different ASGI server.
+    need to mount extra routes or pick a different ASGI server.
     """
     try:
         import uvicorn
@@ -351,8 +364,12 @@ def serve(
             "Install with: pip install 'underthesea[agent-server]'"
         ) from e
 
-    app = make_app(agent, path=path, agent_card=agent_card, host=host, port=port)
+    app = make_app(
+        agent, path=path, agent_card=agent_card, host=host, port=port, ui=ui,
+    )
     print(f"{agent.name} listening on http://{host}:{port}")
     print(f"  RPC:  POST  {path}")
     print(f"  Card: GET   {path}/.well-known/agent-card.json")
+    if ui:
+        print(f"  UI:   GET   {path}/ui")
     uvicorn.run(app, host=host, port=port, log_level=log_level)

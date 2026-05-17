@@ -122,6 +122,7 @@ underthesea = [
   "**/*.txt",
   "**/*.pkl",
   "**/*.json",
+  "agent/static/*.html",
 ]
 
 [tool.setuptools.packages.find]
