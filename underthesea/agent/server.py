@@ -347,7 +347,8 @@ def serve(
         import uvicorn
     except ImportError as e:
         raise ImportError(
-            "uvicorn is required for serve(). Install with: pip install uvicorn"
+            "uvicorn is required for serve(). "
+            "Install with: pip install 'underthesea[agent-server]'"
         ) from e
 
     app = make_app(agent, path=path, agent_card=agent_card, host=host, port=port)

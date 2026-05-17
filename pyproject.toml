@@ -62,6 +62,9 @@ prompt = [
     "openai"
 ]
 agent = []
+agent-server = [
+    "uvicorn>=0.30",
+]
 trace = [
     "langfuse>=2.0.0"
 ]
