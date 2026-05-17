@@ -187,6 +187,43 @@ def pipeline(text):
     return Agent(name="bot")(text)  # auto-inherits trace context
 ```
 
+### Serving (A2A)
+
+Expose any agent over the [A2A protocol](https://github.com/google-agentic-commerce/AP2) — JSON-RPC `message/stream` over HTTP+SSE with a discoverable `AgentCard` and an optional bundled chat UI. The server is a raw ASGI app with **no web-framework dep** in the base install — plug it into any ASGI server you like.
+
+```bash
+# Optional convenience extra: uvicorn + starlette + httpx
+$ pip install 'underthesea[agent-server]'
+```
+
+```python
+from underthesea.agent import Agent, Tool
+from underthesea.agent.server import serve
+
+def add(a: int, b: int) -> int:
+    """Add two integers."""
+    return a + b
+
+agent = Agent(name="MathAgent", instruction="...", tools=[Tool(add)])
+serve(agent, port=8000, path="/a2a/math", ui=True)
+# → GET  http://127.0.0.1:8000/a2a/math/ui            (bundled chat UI)
+# → GET  http://127.0.0.1:8000/a2a/math/.well-known/agent-card.json
+# → POST http://127.0.0.1:8000/a2a/math               (JSON-RPC message/stream, SSE)
+```
+
+For custom routing or your own ASGI server, use `make_app()`:
+
+```python
+from underthesea.agent.server import make_app
+
+app = make_app(agent, path="/a2a/math")  # → raw ASGI callable
+# uvicorn module:app
+# hypercorn module:app
+# daphne module:app
+```
+
+One `Agent` is spawned per A2A `contextId` so each conversation keeps its own history. Tool calls are streamed live as `tool_call` artifacts; the agent's reply arrives as a `text` artifact when the loop finishes.
+
 ### Architecture
 
 ```
@@ -200,6 +237,10 @@ underthesea.agent
 │   ├── LocalTracer     # JSON files to ~/.underthesea/traces/
 │   ├── LangfuseTracer  # Langfuse v4 observability
 │   └── @trace          # Decorator with auto-nesting
+├── server/
+│   ├── make_app        # Raw ASGI callable (JSON-RPC + SSE + AgentCard)
+│   ├── serve           # uvicorn convenience entrypoint
+│   └── static/         # Bundled chat UI (ui=True)
 ├── Agent               # Tool calling loop + streaming
 ├── LLM                 # Auto-detect provider from env vars
 ├── Session             # Multi-session orchestration
