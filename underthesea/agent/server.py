@@ -60,7 +60,7 @@ def _record_tool(func: Callable) -> Callable:
         result = func(**kwargs)
         trace = _trace_var.get()
         if trace is not None:
-            trace.append({"tool": func.__name__, "args": kwargs, "result": result})
+            trace.append({"name": func.__name__, "args": kwargs, "result": result})
         return result
     wrapped.__uts_server_wrapped__ = True
     return wrapped

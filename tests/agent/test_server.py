@@ -38,7 +38,7 @@ class TestRecordTool(TestCase):
             _trace_var.reset(token)
         self.assertEqual(result, 10)
         self.assertEqual(
-            trace, [{"tool": "_double", "args": {"x": 5}, "result": 10}]
+            trace, [{"name": "_double", "args": {"x": 5}, "result": 10}]
         )
 
     def test_silent_when_no_trace(self):
@@ -194,7 +194,7 @@ class TestRpcStream(TestCase):
         def fake_call(self_agent, message, **kwargs):
             trace = _trace_var.get()
             if trace is not None:
-                trace.append({"tool": "_double", "args": {"x": 1}, "result": 2})
+                trace.append({"name": "_double", "args": {"x": 1}, "result": 2})
             return "fake reply"
 
         with patch.object(Agent, "__call__", fake_call):
@@ -243,7 +243,7 @@ class TestRpcStream(TestCase):
         self.assertEqual([a["name"] for a in artifacts], ["tool_call", "reply"])
         self.assertEqual(
             artifacts[0]["parts"][0]["data"]["tool_call"],
-            {"tool": "_double", "args": {"x": 1}, "result": 2},
+            {"name": "_double", "args": {"x": 1}, "result": 2},
         )
         self.assertEqual(artifacts[1]["parts"][0]["text"], "fake reply")
 
