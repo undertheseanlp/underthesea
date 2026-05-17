@@ -36,6 +36,17 @@
   button[type=submit] { background: var(--accent); color: #0f1115; border: none; padding: 10px 18px;
     border-radius: 8px; cursor: pointer; font-weight: 600; }
   button[type=submit]:disabled { opacity: 0.5; cursor: not-allowed; }
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: none;
+    align-items: center; justify-content: center; z-index: 10; }
+  .modal-backdrop.open { display: flex; }
+  .modal { background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    max-width: 720px; max-height: 80vh; width: calc(100% - 40px); display: flex; flex-direction: column; }
+  .modal header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .modal header h2 { margin: 0; font-size: 15px; font-weight: 600; }
+  .modal header .close { background: transparent; color: var(--muted); border: none; cursor: pointer; font-size: 20px; line-height: 1; padding: 0 4px; }
+  .modal header .close:hover { color: var(--text); }
+  .modal pre { margin: 0; padding: 16px 20px; overflow: auto; font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 12px; color: var(--text); white-space: pre-wrap; word-break: break-all; }
 </style>
 </head>
 <body>
@@ -43,7 +54,6 @@
   <header>
     <div>
       <h1 id="title">A2A Agent</h1>
-      <div class="meta">A2A · JSON-RPC · message/stream</div>
     </div>
     <div>
       <button id="card-btn">View agent card</button>
@@ -55,6 +65,16 @@
     <input id="input" autocomplete="off" placeholder="Type a message…" autofocus>
     <button type="submit" id="send">Send</button>
   </form>
+</div>
+
+<div id="modal-backdrop" class="modal-backdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <header>
+      <h2 id="modal-title">Agent card</h2>
+      <button class="close" id="modal-close" aria-label="Close">×</button>
+    </header>
+    <pre id="modal-body"></pre>
+  </div>
 </div>
 
 <script>
@@ -77,6 +97,24 @@ const input = document.getElementById("input");
 const send = document.getElementById("send");
 const resetBtn = document.getElementById("reset-btn");
 const cardBtn = document.getElementById("card-btn");
+const modalBackdrop = document.getElementById("modal-backdrop");
+const modalBody = document.getElementById("modal-body");
+const modalClose = document.getElementById("modal-close");
+
+function openModal(jsonText) {
+  modalBody.textContent = jsonText;
+  modalBackdrop.classList.add("open");
+}
+function closeModal() {
+  modalBackdrop.classList.remove("open");
+}
+modalClose.addEventListener("click", closeModal);
+modalBackdrop.addEventListener("click", e => {
+  if (e.target === modalBackdrop) closeModal();
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeModal();
+});
 
 function esc(s) {
   return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -211,13 +249,12 @@ fetch(CARD_URL).then(r => r.json()).then(card => {
 }).catch(() => {});
 
 cardBtn.addEventListener("click", async () => {
-  const r = await fetch(CARD_URL);
-  const card = await r.json();
-  const el = document.createElement("div");
-  el.className = "tool";
-  el.innerHTML = `<b>agent card</b><pre>${esc(JSON.stringify(card, null, 2))}</pre>`;
-  log.appendChild(el);
-  log.scrollTop = log.scrollHeight;
+  try {
+    const r = await fetch(CARD_URL);
+    openModal(JSON.stringify(await r.json(), null, 2));
+  } catch (err) {
+    openModal(`Failed to fetch agent card:\n${err.message}`);
+  }
 });
 </script>
 </body>
