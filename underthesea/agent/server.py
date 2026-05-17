@@ -102,7 +102,7 @@ def _auto_agent_card(agent: Agent, url: str) -> dict:
             "stateTransitionHistory": False,
         },
         "skills": [
-            {"id": t.name, "name": t.name, "description": t.description}
+            {"id": t.name, "name": t.name, "description": t.description, "tags": []}
             for t in agent.tools
         ],
     }
@@ -127,9 +127,9 @@ class _SessionAgentExecutor(AgentExecutor):
         text_parts = get_text_parts(context.message.parts if context.message else [])
         user_message = (text_parts[0] if text_parts else "").strip()
 
-        agent = self._sessions.setdefault(
-            updater.context_id, _spawn_session_agent(self._template)
-        )
+        if updater.context_id not in self._sessions:
+            self._sessions[updater.context_id] = _spawn_session_agent(self._template)
+        agent = self._sessions[updater.context_id]
         trace: list[dict] = []
         token = _trace_var.set(trace)
         try:
