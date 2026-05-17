@@ -1,6 +1,7 @@
 # Personal AI OS — Design Document
 
 > Last updated: 2026-05-17
+> Direction note (2026-05-17): Underthesea growth strategy pivot sang **global positioning**, không dùng Vietnamese identity làm marketing lever. Xem `04-roadmap.md` cho M1/M2/M3 plan đã duyệt.
 
 ## 1. Problem
 
@@ -113,6 +114,7 @@ Underthesea hiện ở **Layer 1 (SDK)** — nếu muốn lên Personal AI OS ph
 
 ## 6. Open questions
 
-1. Có nên tách `underthesea.agent` thành package độc lập để target Personal AI OS không?
-2. Vietnamese-specific channels nào quan trọng (Zalo, Lotus)?
-3. Self-hosted vs cloud trade-off cho user Việt Nam?
+1. Có nên tách `underthesea.agent` thành package độc lập (`uts-agent`) để target Personal AI OS / smallest-agent positioning không?
+2. Channel priority cho global audience: Telegram > Slack > Email > Discord — đúng thứ tự?
+3. Self-hosted vs managed (HF Space) trade-off cho onboarding lần đầu?
+4. ~~Vietnamese-specific channels (Zalo, Lotus)~~ — Deprioritized 2026-05-17 per roadmap pivot. Có thể revisit sau M3 nếu cộng đồng VN tự request.

@@ -1,6 +1,7 @@
 # Personal AI OS — Research
 
 > Last updated: 2026-05-17
+> Direction note (2026-05-17): Section 4.5 (Vietnamese context) deprioritized per roadmap pivot sang global positioning. Giữ lại làm reference, không dùng làm marketing input.
 
 ## 1. Trend overview
 
@@ -105,10 +106,19 @@ Personal AI OS là sự hội tụ của 4 trend agentic AI nổi bật trong 20
 - Quá nhiều inbox watcher → noise
 - Cần rate limit + dedup pattern
 
-### 4.5 Vietnamese context
+### 4.5 Vietnamese context (DEPRIORITIZED 2026-05-17)
+> Giữ lại làm reference cho hướng đi phụ; **không** dùng làm input cho marketing/roadmap chính.
+
 - Channel chính: Zalo (API hạn chế), Facebook Messenger
 - Email tiếng Việt cần segmentation/normalization (đây là điểm Underthesea có thể mạnh)
 - Voice (TTS/STT) tiếng Việt vẫn yếu so với English
+
+### 4.6 Global channel priority (cho roadmap chính)
+- **Telegram** — Bot API đơn giản nhất, không cần OAuth phức tạp, dùng làm killer demo M2
+- **Slack** — developer audience rộng, Socket Mode dễ self-host
+- **Email (IMAP)** — universal, không cần platform credential
+- **Discord** — community-friendly, bot infra tốt
+- ~~Zalo/WeChat/LINE~~ — regional-specific, không trong scope global growth
 
 ## 5. References
 
