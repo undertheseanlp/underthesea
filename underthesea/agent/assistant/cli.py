@@ -6,6 +6,7 @@ do not use the assistant.
 from __future__ import annotations
 
 import sys
+from datetime import datetime
 
 import click
 
@@ -13,13 +14,20 @@ from underthesea.agent.assistant.bridge import ClaudeBridge, ClaudeNotFoundError
 from underthesea.agent.assistant.session import DEFAULT_DIR, Session
 
 
+def _new_session_name() -> str:
+    """Timestamp-based session name, e.g. ``2026-05-17_19-30-15``."""
+    return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+
 @click.command(name="assistant")
 @click.option(
     "--session",
     "session_name",
-    default="default",
-    show_default=True,
-    help="Session name. Resumes existing chat if the file already exists.",
+    default=None,
+    help=(
+        "Session name. Each invocation starts a fresh timestamped session "
+        "by default; pass an existing name to resume a saved chat."
+    ),
 )
 @click.option(
     "--memory-dir",
@@ -38,7 +46,7 @@ from underthesea.agent.assistant.session import DEFAULT_DIR, Session
     help="Verify the `claude` CLI is installed and exit.",
 )
 def assistant_command(
-    session_name: str,
+    session_name: str | None,
     memory_dir: str | None,
     model: str | None,
     check: bool,
@@ -47,6 +55,9 @@ def assistant_command(
 
     Uses your local `claude` CLI subscription as the LLM backend — no API key
     or token cost. Make sure you have run `claude login` once.
+
+    Each invocation starts a fresh timestamped session unless ``--session``
+    names a saved one to resume.
     """
     bridge = ClaudeBridge(model=model)
 
@@ -66,6 +77,9 @@ def assistant_command(
     from pathlib import Path
 
     directory = Path(memory_dir) if memory_dir else None
+    if session_name is None:
+        session_name = _new_session_name()
+        click.echo(f"new session: {session_name}", err=True)
     session = Session.open(session_name, directory)
     if session.claude_session_id:
         bridge.session_id = session.claude_session_id

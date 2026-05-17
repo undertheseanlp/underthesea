@@ -178,8 +178,9 @@ def chat(backend_port, frontend_port):
 
 
 @main.command(name="assistant")
-@click.option('--session', 'session_name', default='default', show_default=True,
-              help='Session name. Resumes existing chat if the file already exists.')
+@click.option('--session', 'session_name', default=None,
+              help='Resume a saved chat by name. Omit to start a fresh '
+                   'timestamped session.')
 @click.option('--memory-dir', type=click.Path(file_okay=False), default=None,
               help='Directory for session files. Defaults to ~/.underthesea/assistant.')
 @click.option('--model', default=None,
