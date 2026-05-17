@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [9.5.0] - 2026-05-17
+
 ### Added
 
 - A2A-compatible HTTP server adapter `underthesea.agent.server` ([#1016](https://github.com/undertheseanlp/underthesea/pull/1016))
