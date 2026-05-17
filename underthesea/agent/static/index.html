@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A2A Agent</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #181b22; --border: #262a33;
+    --text: #e8ecef; --muted: #8a93a6;
+    --user: #2b6cb0; --bot: #2d3748;
+    --tool: #1f2a1f; --tool-border: #3c5a3c; --accent: #4ade80;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+  .wrap { max-width: 760px; margin: 0 auto; height: 100vh; display: flex; flex-direction: column; }
+  header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  header h1 { margin: 0; font-size: 16px; font-weight: 600; }
+  header .meta { font-size: 11px; color: var(--muted); font-family: ui-monospace, monospace; }
+  header button { background: transparent; color: var(--muted); border: 1px solid var(--border);
+    padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px; margin-left: 8px; }
+  header button:hover { color: var(--text); border-color: var(--muted); }
+  #log { flex: 1; overflow-y: auto; padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+  .msg { padding: 10px 14px; border-radius: 12px; max-width: 80%; white-space: pre-wrap; word-wrap: break-word; }
+  .msg.user { background: var(--user); align-self: flex-end; border-bottom-right-radius: 4px; }
+  .msg.bot { background: var(--bot); align-self: flex-start; border-bottom-left-radius: 4px; }
+  .tool { align-self: flex-start; max-width: 80%; background: var(--tool); border: 1px solid var(--tool-border);
+    border-radius: 8px; padding: 8px 12px; font-size: 12px; color: var(--muted); font-family: ui-monospace, "SF Mono", monospace; }
+  .tool b { color: var(--accent); }
+  .tool pre { margin: 4px 0 0; white-space: pre-wrap; word-break: break-all; }
+  .status { align-self: flex-start; font-size: 11px; color: var(--muted); font-style: italic; }
+  form { display: flex; gap: 8px; padding: 14px 20px; border-top: 1px solid var(--border); }
+  input { flex: 1; background: var(--panel); border: 1px solid var(--border); color: var(--text);
+    padding: 10px 14px; border-radius: 8px; font-size: 14px; outline: none; }
+  input:focus { border-color: var(--accent); }
+  button[type=submit] { background: var(--accent); color: #0f1115; border: none; padding: 10px 18px;
+    border-radius: 8px; cursor: pointer; font-weight: 600; }
+  button[type=submit]:disabled { opacity: 0.5; cursor: not-allowed; }
+  .modal-backdrop { position: fixed; inset: 0; background: rgba(0,0,0,0.6); display: none;
+    align-items: center; justify-content: center; z-index: 10; }
+  .modal-backdrop.open { display: flex; }
+  .modal { background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+    max-width: 720px; max-height: 80vh; width: calc(100% - 40px); display: flex; flex-direction: column; }
+  .modal header { padding: 14px 20px; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; }
+  .modal header h2 { margin: 0; font-size: 15px; font-weight: 600; }
+  .modal header .close { background: transparent; color: var(--muted); border: none; cursor: pointer; font-size: 20px; line-height: 1; padding: 0 4px; }
+  .modal header .close:hover { color: var(--text); }
+  .modal pre { margin: 0; padding: 16px 20px; overflow: auto; font-family: ui-monospace, "SF Mono", monospace;
+    font-size: 12px; color: var(--text); white-space: pre-wrap; word-break: break-all; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1 id="title">A2A Agent</h1>
+    </div>
+    <div>
+      <button id="card-btn">View agent card</button>
+      <button id="reset-btn">Reset</button>
+    </div>
+  </header>
+  <div id="log"></div>
+  <form id="form">
+    <input id="input" autocomplete="off" placeholder="Type a message…" autofocus>
+    <button type="submit" id="send">Send</button>
+  </form>
+</div>
+
+<div id="modal-backdrop" class="modal-backdrop">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <header>
+      <h2 id="modal-title">Agent card</h2>
+      <button class="close" id="modal-close" aria-label="Close">×</button>
+    </header>
+    <pre id="modal-body"></pre>
+  </div>
+</div>
+
+<script>
+// UI is served at `{RPC_URL}/ui` (or `{RPC_URL}/ui/`). Strip the trailing
+// `/ui` segment to recover the JSON-RPC endpoint, then hit the well-known
+// AgentCard to populate the title.
+const RPC_URL = window.location.pathname.replace(/\/ui\/?$/, "");
+const CARD_URL = `${RPC_URL}/.well-known/agent-card.json`;
+
+const SESSION_KEY = `a2a_session:${RPC_URL}`;
+let contextId = localStorage.getItem(SESSION_KEY);
+if (!contextId) {
+  contextId = crypto.randomUUID();
+  localStorage.setItem(SESSION_KEY, contextId);
+}
+
+const log = document.getElementById("log");
+const form = document.getElementById("form");
+const input = document.getElementById("input");
+const send = document.getElementById("send");
+const resetBtn = document.getElementById("reset-btn");
+const cardBtn = document.getElementById("card-btn");
+const modalBackdrop = document.getElementById("modal-backdrop");
+const modalBody = document.getElementById("modal-body");
+const modalClose = document.getElementById("modal-close");
+
+function openModal(jsonText) {
+  modalBody.textContent = jsonText;
+  modalBackdrop.classList.add("open");
+}
+function closeModal() {
+  modalBackdrop.classList.remove("open");
+}
+modalClose.addEventListener("click", closeModal);
+modalBackdrop.addEventListener("click", e => {
+  if (e.target === modalBackdrop) closeModal();
+});
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeModal();
+});
+
+function esc(s) {
+  return String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+}
+
+function addMsg(role, text) {
+  const el = document.createElement("div");
+  el.className = `msg ${role}`;
+  el.textContent = text;
+  log.appendChild(el);
+  log.scrollTop = log.scrollHeight;
+  return el;
+}
+
+function addTool(data) {
+  const tc = data.tool_call;
+  const el = document.createElement("div");
+  el.className = "tool";
+  el.innerHTML = `<b>tool ${esc(tc.name)}</b>(${esc(JSON.stringify(tc.args))})<pre>${esc(JSON.stringify(tc.result, null, 2))}</pre>`;
+  log.appendChild(el);
+  log.scrollTop = log.scrollHeight;
+}
+
+function addStatus(text) {
+  const el = document.createElement("div");
+  el.className = "status";
+  el.textContent = text;
+  log.appendChild(el);
+  log.scrollTop = log.scrollHeight;
+  return el;
+}
+
+async function* sseStream(response) {
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  while (true) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    buffer += decoder.decode(value, { stream: true });
+    const lines = buffer.split("\n");
+    buffer = lines.pop() ?? "";
+    for (const line of lines) {
+      if (!line.startsWith("data: ")) continue;
+      try { yield JSON.parse(line.slice(6)); } catch (e) {}
+    }
+  }
+}
+
+form.addEventListener("submit", async e => {
+  e.preventDefault();
+  const text = input.value.trim();
+  if (!text) return;
+  addMsg("user", text);
+  input.value = "";
+  send.disabled = true;
+  const typing = addStatus("đang xử lý...");
+
+  const rpcReq = {
+    jsonrpc: "2.0",
+    id: crypto.randomUUID(),
+    method: "message/stream",
+    params: {
+      message: {
+        role: "user",
+        parts: [{ kind: "text", text }],
+        messageId: crypto.randomUUID(),
+        contextId,
+      },
+      configuration: { historyLength: 20 },
+      metadata: { sessionId: contextId },
+    },
+  };
+
+  try {
+    const r = await fetch(RPC_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json", "Accept": "text/event-stream" },
+      body: JSON.stringify(rpcReq),
+    });
+    if (!r.ok) throw new Error(`HTTP ${r.status}: ${await r.text()}`);
+    typing.remove();
+
+    let replyEl = null;
+    for await (const msg of sseStream(r)) {
+      const result = msg.result;
+      if (!result) {
+        if (msg.error) addMsg("bot", "RPC error: " + JSON.stringify(msg.error));
+        continue;
+      }
+      if (result.kind === "status-update" || result.status) {
+        const state = result.status?.state ?? result.state;
+        if (state && state !== "working" && state !== "submitted") {
+          addStatus(`status: ${state}`);
+        }
+      }
+      if (result.kind === "artifact-update" || result.artifact) {
+        const artifact = result.artifact ?? result;
+        for (const part of artifact.parts || []) {
+          if (part.kind === "data" || part.data) {
+            addTool(part.data);
+          } else if (part.kind === "text" || part.text) {
+            if (!replyEl) replyEl = addMsg("bot", "");
+            replyEl.textContent += part.text;
+          }
+        }
+      }
+    }
+    if (!replyEl) addMsg("bot", "(không có phản hồi)");
+  } catch (err) {
+    typing.remove();
+    addMsg("bot", "Lỗi: " + err.message);
+  } finally {
+    send.disabled = false;
+    input.focus();
+  }
+});
+
+resetBtn.addEventListener("click", () => {
+  contextId = crypto.randomUUID();
+  localStorage.setItem(SESSION_KEY, contextId);
+  log.innerHTML = "";
+  addStatus("context reset");
+});
+
+// Populate title/heading from the agent's published card.
+fetch(CARD_URL).then(r => r.json()).then(card => {
+  if (card?.name) {
+    document.title = `${card.name} (A2A)`;
+    document.getElementById("title").textContent = card.name;
+  }
+}).catch(() => {});
+
+cardBtn.addEventListener("click", async () => {
+  try {
+    const r = await fetch(CARD_URL);
+    openModal(JSON.stringify(await r.json(), null, 2));
+  } catch (err) {
+    openModal(`Failed to fetch agent card:\n${err.message}`);
+  }
+});
+</script>
+</body>
+</html>

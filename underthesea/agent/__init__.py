@@ -1,5 +1,4 @@
 from underthesea.agent.agent import Agent, agent
-from underthesea.agent.wiki import WikiAgent
 from underthesea.agent.default_tools import (
     calculator_tool,
     core_tools,
@@ -32,6 +31,7 @@ from underthesea.agent.providers import (
 )
 from underthesea.agent.tools import Tool
 from underthesea.agent.trace import BaseTracer, LangfuseTracer, LocalTracer
+from underthesea.agent.wiki import WikiAgent
 
 __all__ = [
     # Core

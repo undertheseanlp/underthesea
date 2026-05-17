@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- A2A-compatible HTTP server adapter `underthesea.agent.server` ([#1016](https://github.com/undertheseanlp/underthesea/pull/1016))
+  - `make_app(agent, path=...)` — raw ASGI callable (no web framework dep at the library level); plug into uvicorn / hypercorn / daphne / granian
+  - `serve(agent, ui=True)` — one-line uvicorn entrypoint with bundled chat UI at `{path}/ui`, JSON-RPC `message/stream` over HTTP+SSE, and a discoverable `AgentCard` at `{path}/.well-known/agent-card.json`
+  - Per-session `Agent` clone per A2A `contextId` so each conversation keeps isolated history
+  - Tool calls stream live as `tool_call` artifacts via a ContextVar hook around each `Tool.func` — the `Agent` class itself is unchanged
+  - Sync `Agent.__call__` offloaded via `asyncio.to_thread` to keep the event loop responsive
+  - Bundled chat UI is generic: title from `AgentCard`, RPC URL auto-discovered from `window.location`, modal-based agent card viewer
+  - New `[agent-server]` extra (`uvicorn + starlette + httpx`, version ranges aligned with [google-adk-python](https://github.com/google/adk-python))
+  - 17 tests via `httpx.ASGITransport`; new `ci-agent` workflow runs them on every PR
+
+### Fixed
+
+- `agent/wiki.py` ruff lint errors (unused `os` import, two `B904` missing `raise ... from`) that previously blocked CI on any PR ([#1016](https://github.com/undertheseanlp/underthesea/pull/1016))
+
 ## [9.4.0] - 2026-04-11
 
 ### Added
