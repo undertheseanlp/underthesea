@@ -2,6 +2,7 @@
 import json
 import unittest
 from unittest import TestCase
+from unittest.mock import patch
 
 try:
     from starlette.testclient import TestClient
@@ -25,7 +26,7 @@ def _double(x: int) -> int:
     return x * 2
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "a2a-sdk[http-server] not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
 class TestRecordTool(TestCase):
     def test_records_call_when_trace_active(self):
         wrapped = _record_tool(_double)
@@ -50,7 +51,7 @@ class TestRecordTool(TestCase):
         self.assertEqual(wrapped.__doc__, "Doubles input.")
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "a2a-sdk[http-server] not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
 class TestWrapToolsInplace(TestCase):
     def test_wraps_func_and_sets_marker(self):
         tool = Tool(_double)
@@ -79,7 +80,7 @@ class TestWrapToolsInplace(TestCase):
         self.assertEqual(trace[0]["args"], {"x": 7})
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "a2a-sdk[http-server] not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
 class TestSpawnSessionAgent(TestCase):
     def test_clones_template_with_isolated_history(self):
         template = Agent(
@@ -109,7 +110,7 @@ class TestSpawnSessionAgent(TestCase):
         self.assertIs(session._tracer, sentinel_tracer)
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "a2a-sdk[http-server] not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
 class TestAutoAgentCard(TestCase):
     def test_required_fields_present(self):
         agent = Agent(
@@ -132,7 +133,15 @@ class TestAutoAgentCard(TestCase):
         self.assertLessEqual(len(card["description"]), 200)
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "a2a-sdk[http-server] not installed")
+def _parse_sse(text: str) -> list[dict]:
+    return [
+        json.loads(line[6:])
+        for line in text.split("\n")
+        if line.startswith("data: ")
+    ]
+
+
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
 class TestMakeApp(TestCase):
     def _agent(self):
         return Agent(
@@ -160,7 +169,7 @@ class TestMakeApp(TestCase):
         body = client.get("/a2a/x/.well-known/agent-card.json").json()
         self.assertEqual(body["name"], "Overridden")
 
-    def test_rpc_endpoint_mounted(self):
+    def test_rpc_and_card_routes_mounted(self):
         app = make_app(self._agent(), path="/a2a/x", host="127.0.0.1", port=8765)
         paths = {getattr(r, "path", None) for r in app.routes}
         self.assertIn("/a2a/x", paths)
@@ -172,6 +181,100 @@ class TestMakeApp(TestCase):
         self.assertTrue(
             getattr(agent.tools[0].func, "__uts_server_wrapped__", False)
         )
+
+
+@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
+class TestRpcStream(TestCase):
+    def test_stream_emits_full_a2a_event_sequence(self):
+        """End-to-end: POST message/stream → SSE with all expected events."""
+        agent = Agent(
+            name="A", instruction="i", tools=[Tool(_double)],
+        )
+
+        def fake_call(self_agent, message, **kwargs):
+            trace = _trace_var.get()
+            if trace is not None:
+                trace.append({"tool": "_double", "args": {"x": 1}, "result": 2})
+            return "fake reply"
+
+        with patch.object(Agent, "__call__", fake_call):
+            app = make_app(agent, path="/a2a/x", host="127.0.0.1", port=8765)
+            client = TestClient(app)
+            r = client.post("/a2a/x", json={
+                "jsonrpc": "2.0", "id": "rpc-1",
+                "method": "message/stream",
+                "params": {"message": {
+                    "role": "user",
+                    "parts": [{"kind": "text", "text": "hi"}],
+                    "messageId": "m1",
+                    "contextId": "ctx-stream-test",
+                }},
+            })
+
+        self.assertEqual(r.status_code, 200)
+        events = _parse_sse(r.text)
+
+        # Every event must wrap a result in JSON-RPC 2.0 envelope with our rpc-id.
+        for ev in events:
+            self.assertEqual(ev["jsonrpc"], "2.0")
+            self.assertEqual(ev["id"], "rpc-1")
+            self.assertEqual(ev["result"]["contextId"], "ctx-stream-test")
+
+        kinds = [ev["result"]["kind"] for ev in events]
+        self.assertEqual(
+            kinds,
+            ["status-update", "status-update",
+             "artifact-update", "artifact-update", "status-update"],
+        )
+
+        # Status transitions: submitted → working → completed (final=true).
+        statuses = [
+            ev["result"]["status"]["state"]
+            for ev in events if ev["result"]["kind"] == "status-update"
+        ]
+        self.assertEqual(statuses, ["submitted", "working", "completed"])
+        self.assertTrue(events[-1]["result"]["final"])
+
+        # Artifacts: tool_call data part + reply text part.
+        artifacts = [
+            ev["result"]["artifact"]
+            for ev in events if ev["result"]["kind"] == "artifact-update"
+        ]
+        self.assertEqual([a["name"] for a in artifacts], ["tool_call", "reply"])
+        self.assertEqual(
+            artifacts[0]["parts"][0]["data"]["tool_call"],
+            {"tool": "_double", "args": {"x": 1}, "result": 2},
+        )
+        self.assertEqual(artifacts[1]["parts"][0]["text"], "fake reply")
+
+    def test_stream_generates_ids_when_missing(self):
+        agent = Agent(name="A", instruction="i", tools=[Tool(_double)])
+
+        def fake_call(_self, _message, **_kwargs):
+            return "ok"
+
+        with patch.object(Agent, "__call__", fake_call):
+            app = make_app(agent, path="/a2a/x", host="127.0.0.1", port=8765)
+            client = TestClient(app)
+            r = client.post("/a2a/x", json={
+                "jsonrpc": "2.0", "id": "rpc-2",
+                "method": "message/stream",
+                "params": {"message": {
+                    "role": "user",
+                    "parts": [{"kind": "text", "text": "hi"}],
+                    "messageId": "m1",
+                    # no contextId, no taskId
+                }},
+            })
+
+        events = _parse_sse(r.text)
+        # IDs should be generated and identical across all events in the response.
+        ctx_ids = {ev["result"]["contextId"] for ev in events}
+        task_ids = {ev["result"]["taskId"] for ev in events}
+        self.assertEqual(len(ctx_ids), 1)
+        self.assertEqual(len(task_ids), 1)
+        self.assertTrue(next(iter(ctx_ids)))
+        self.assertTrue(next(iter(task_ids)))
 
 
 if __name__ == "__main__":

@@ -62,8 +62,9 @@ prompt = [
     "openai"
 ]
 agent = [
-    "a2a-sdk[http-server]==0.3.24",
+    "starlette>=0.40",
     "uvicorn>=0.30",
+    "httpx>=0.27",
 ]
 trace = [
     "langfuse>=2.0.0"

@@ -1,11 +1,18 @@
 """A2A-compatible HTTP server for Agent instances.
 
-Wraps an :class:`Agent` so it speaks the A2A protocol — JSON-RPC over HTTP
-with SSE streaming, plus a discoverable AgentCard at
-``{path}/.well-known/agent-card.json``. One :class:`Agent` is spawned per
-A2A ``context_id`` so each conversation keeps its own history.
+Implements the A2A wire protocol — JSON-RPC 2.0 ``message/stream`` over HTTP
+with SSE streaming — on top of plain Starlette. No a2a-sdk dependency.
 
-Requires ``a2a-sdk[http-server]`` (Starlette + sse-starlette).
+Endpoints
+---------
+- ``POST {path}``                              — JSON-RPC ``message/stream``
+- ``GET  {path}/.well-known/agent-card.json``  — discoverable AgentCard
+
+One :class:`Agent` is spawned per A2A ``contextId`` so each conversation
+keeps its own history. Tool calls are streamed live as ``tool_call``
+artifacts via a ContextVar hook around each ``Tool.func``.
+
+Requires ``starlette`` + ``uvicorn`` (install via ``underthesea[agent]``).
 
 Example
 -------
@@ -20,9 +27,6 @@ Example
 
     agent = Agent(name="MathAgent", instruction="...", tools=[Tool(add)])
     serve(agent, port=8000, path="/a2a/math")
-
-Use :func:`make_app` instead of :func:`serve` if you need to mount extra
-routes (e.g. a static UI) on the returned Starlette app.
 """
 import asyncio
 import contextvars
@@ -30,20 +34,14 @@ import functools
 import json
 import uuid
 from collections.abc import Callable
+from datetime import UTC, datetime
 
 import uvicorn
-from a2a.server.agent_execution.agent_executor import AgentExecutor
-from a2a.server.agent_execution.simple_request_context_builder import (
-    SimpleRequestContextBuilder,
-)
-from a2a.server.apps.jsonrpc.starlette_app import A2AStarletteApplication
-from a2a.server.request_handlers.default_request_handler import DefaultRequestHandler
-from a2a.server.tasks.inmemory_task_store import InMemoryTaskStore
-from a2a.server.tasks.task_updater import TaskUpdater
-from a2a.types import AgentCard, Part
-from a2a.utils.parts import get_text_parts
+from starlette.applications import Starlette
+from starlette.middleware import Middleware
 from starlette.middleware.cors import CORSMiddleware
-from starlette.responses import Response
+from starlette.requests import Request
+from starlette.responses import Response, StreamingResponse
 from starlette.routing import Route
 
 from underthesea.agent.agent import Agent
@@ -108,50 +106,86 @@ def _auto_agent_card(agent: Agent, url: str) -> dict:
     }
 
 
-class _SessionAgentExecutor(AgentExecutor):
-    """A2A executor that spawns one Agent per A2A ``context_id``."""
+def _now_iso() -> str:
+    return datetime.now(UTC).isoformat()
+
+
+def _extract_user_text(parts: list[dict]) -> str:
+    for p in parts or []:
+        if p.get("kind") == "text":
+            return (p.get("text") or "").strip()
+    return ""
+
+
+def _sse_event(rpc_id, result: dict) -> bytes:
+    payload = {"id": rpc_id, "jsonrpc": "2.0", "result": result}
+    return f"data: {json.dumps(payload)}\n\n".encode()
+
+
+class _SessionRouter:
+    """Maps A2A contextId → spawned Agent; owns the streaming RPC handler."""
 
     def __init__(self, template: Agent):
         self._template = template
         self._sessions: dict[str, Agent] = {}
 
-    async def execute(self, context, event_queue) -> None:
-        updater = TaskUpdater(
-            event_queue,
-            task_id=context.task_id or str(uuid.uuid4()),
-            context_id=context.context_id or str(uuid.uuid4()),
-        )
-        await updater.submit()
-        await updater.start_work()
+    def _session(self, context_id: str) -> Agent:
+        if context_id not in self._sessions:
+            self._sessions[context_id] = _spawn_session_agent(self._template)
+        return self._sessions[context_id]
 
-        text_parts = get_text_parts(context.message.parts if context.message else [])
-        user_message = (text_parts[0] if text_parts else "").strip()
+    async def handle_rpc(self, request: Request) -> Response:
+        body = await request.json()
+        rpc_id = body.get("id")
+        params = body.get("params", {})
+        message = params.get("message", {})
 
-        if updater.context_id not in self._sessions:
-            self._sessions[updater.context_id] = _spawn_session_agent(self._template)
-        agent = self._sessions[updater.context_id]
-        trace: list[dict] = []
-        token = _trace_var.set(trace)
-        try:
-            reply = await asyncio.to_thread(agent, user_message)
-        finally:
-            _trace_var.reset(token)
+        user_text = _extract_user_text(message.get("parts", []))
+        context_id = message.get("contextId") or str(uuid.uuid4())
+        task_id = message.get("taskId") or str(uuid.uuid4())
+        agent = self._session(context_id)
 
-        for step in trace:
-            await updater.add_artifact(
-                [Part.model_validate(
-                    {"kind": "data", "data": {"tool_call": step}}
-                )],
-                name="tool_call",
-            )
-        await updater.add_artifact(
-            [Part.model_validate({"kind": "text", "text": reply})],
-            name="reply",
-        )
-        await updater.complete()
+        async def stream():
+            for state in ("submitted", "working"):
+                yield _sse_event(rpc_id, {
+                    "contextId": context_id, "taskId": task_id,
+                    "kind": "status-update", "final": False,
+                    "status": {"state": state, "timestamp": _now_iso()},
+                })
 
-    async def cancel(self, context, event_queue) -> None:
-        pass
+            trace: list[dict] = []
+            token = _trace_var.set(trace)
+            try:
+                reply = await asyncio.to_thread(agent, user_text)
+            finally:
+                _trace_var.reset(token)
+
+            for step in trace:
+                yield _sse_event(rpc_id, {
+                    "contextId": context_id, "taskId": task_id,
+                    "kind": "artifact-update",
+                    "artifact": {
+                        "artifactId": str(uuid.uuid4()),
+                        "name": "tool_call",
+                        "parts": [{"kind": "data", "data": {"tool_call": step}}],
+                    },
+                })
+            yield _sse_event(rpc_id, {
+                "contextId": context_id, "taskId": task_id,
+                "kind": "artifact-update",
+                "artifact": {
+                    "artifactId": str(uuid.uuid4()),
+                    "name": "reply",
+                    "parts": [{"kind": "text", "text": reply}],
+                },
+            })
+            yield _sse_event(rpc_id, {
+                "contextId": context_id, "taskId": task_id,
+                "kind": "status-update", "final": True,
+                "status": {"state": "completed", "timestamp": _now_iso()},
+            })
+
+        return StreamingResponse(stream(), media_type="text/event-stream")
 
 
 def make_app(
@@ -162,18 +196,18 @@ def make_app(
     host: str = "127.0.0.1",
     port: int = 8000,
     allow_origins: list[str] | None = None,
-):
-    """Build a Starlette ASGI app serving ``agent`` over A2A.
+) -> Starlette:
+    """Build a Starlette app serving ``agent`` over A2A.
 
     Parameters
     ----------
     agent : Agent
-        Template agent; per-session copies are spawned to isolate history.
+        Template agent; per-session copies share its tools/instruction/provider.
     path : str
         JSON-RPC endpoint, e.g. ``"/a2a/my_agent"``. The agent card is mounted
         at ``f"{path}/.well-known/agent-card.json"``.
     agent_card : dict, optional
-        Override the auto-generated AgentCard.
+        Override the auto-generated AgentCard (served verbatim).
     host, port : str, int
         Used only to fill the ``url`` field of the auto-generated card.
     allow_origins : list[str], optional
@@ -185,28 +219,25 @@ def make_app(
     card_bytes = json.dumps(card_dict).encode("utf-8")
     card_path = f"{path}/.well-known/agent-card.json"
 
-    async def serve_card(_request):
+    router = _SessionRouter(agent)
+
+    async def serve_card(_request: Request) -> Response:
         return Response(content=card_bytes, media_type="application/json")
 
-    handler = DefaultRequestHandler(
-        agent_executor=_SessionAgentExecutor(agent),
-        task_store=InMemoryTaskStore(),
-        request_context_builder=SimpleRequestContextBuilder(),
-    )
-    app = A2AStarletteApplication(
-        agent_card=AgentCard.model_validate(card_dict),
-        http_handler=handler,
-    ).build(rpc_url=path, agent_card_url=card_path)
-    # Ours wins because Starlette uses first-match routing.
-    app.routes.insert(0, Route(card_path, serve_card, methods=["GET"]))
-    app.add_middleware(
-        CORSMiddleware,
-        allow_origins=allow_origins or ["*"],
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
-    return app
+    routes = [
+        Route(card_path, serve_card, methods=["GET"]),
+        Route(path, router.handle_rpc, methods=["POST"]),
+    ]
+    middleware = [
+        Middleware(
+            CORSMiddleware,
+            allow_origins=allow_origins or ["*"],
+            allow_credentials=True,
+            allow_methods=["*"],
+            allow_headers=["*"],
+        ),
+    ]
+    return Starlette(routes=routes, middleware=middleware)
 
 
 def serve(
@@ -217,7 +248,7 @@ def serve(
     path: str = "/a2a",
     agent_card: dict | None = None,
     log_level: str = "info",
-):
+) -> None:
     """Run a blocking uvicorn server hosting ``agent`` over A2A.
 
     Convenience entrypoint — use :func:`make_app` if you need to attach extra
