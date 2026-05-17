@@ -24,4 +24,17 @@ __all__ = [
     "ClaudeNotFoundError",
     "Session",
     "StreamEvent",
+    "build_app",
+    "run_tui",
 ]
+
+
+def __getattr__(name):
+    """Lazy re-export of TUI helpers so importing this module does not
+    require the optional ``textual`` dependency until those names are used.
+    """
+    if name in {"build_app", "run_tui"}:
+        from underthesea.agent.assistant import tui as _tui
+
+        return getattr(_tui, name)
+    raise AttributeError(f"module 'underthesea.agent.assistant' has no attribute {name!r}")

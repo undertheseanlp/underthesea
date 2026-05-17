@@ -25,6 +25,15 @@ def run_tui(session: Session, bridge: ClaudeBridge) -> None:
     Raises ImportError with a helpful message if the `[assistant]` extra
     is not installed.
     """
+    build_app(session, bridge).run()
+
+
+def build_app(session: Session, bridge: ClaudeBridge):
+    """Construct the Textual app without running it.
+
+    Useful for snapshot tests (pytest-textual-snapshot) and other
+    inspection. Returns a non-running ``App`` instance.
+    """
     try:
         from textual.app import App, ComposeResult
         from textual.binding import Binding
@@ -59,8 +68,7 @@ def run_tui(session: Session, bridge: ClaudeBridge) -> None:
     class StatusBar(Static):
         DEFAULT_CSS = """
         StatusBar {
-            dock: bottom;
-            height: 2;
+            height: 1;
             background: #0d1117;
             color: #8b949e;
             padding: 0 1;
@@ -124,16 +132,14 @@ def run_tui(session: Session, bridge: ClaudeBridge) -> None:
             model = self.bridge.model or "default"
             tokens_k = self.tokens_used / 1000
             window_k = CONTEXT_WINDOW // 1000
-            pct = (self.tokens_used / CONTEXT_WINDOW) * 100 if self.tokens_used else 0
 
-            line1 = f"local ready | {self.status_state}"
-            line2 = (
-                f"agent {workspace_name} ({self.session.name}) | "
-                f"session {sid_short} | "
-                f"claude-cli/{model} | "
-                f"tokens {tokens_k:.1f}k/{window_k}k ({pct:.0f}%)"
+            status = (
+                f"{self.status_state} | "
+                f"{workspace_name}/{self.session.name} | "
+                f"{model} | {sid_short} | "
+                f"{tokens_k:.1f}k/{window_k}k"
             )
-            self.query_one("#status", StatusBar).update(f"{line1}\n{line2}")
+            self.query_one("#status", StatusBar).update(status)
 
         async def on_input_submitted(self, message: Input.Submitted) -> None:
             text = message.value.strip()
@@ -192,4 +198,4 @@ def run_tui(session: Session, bridge: ClaudeBridge) -> None:
             for child in list(chat.children):
                 child.remove()
 
-    AssistantApp().run()
+    return AssistantApp()
