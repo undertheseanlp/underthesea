@@ -1,6 +1,7 @@
 # Personal AI OS — Examples
 
 > Last updated: 2026-05-17
+> Direction note (2026-05-17): Ví dụ vẫn dùng ngôn ngữ Việt (vì đây là internal research notes), nhưng channel mapping ở Example 8 đã cập nhật theo M2 plan (Telegram/Slack/Email thay vì Zalo).
 
 Các ví dụ minh hoạ cách Personal AI OS hoạt động khác với CLI agent / chatbot truyền thống.
 
@@ -143,13 +144,14 @@ a("Tóm tắt inbox")   # ← user phải gọi tay
 from underthesea.agent.os import PersonalAIOS
 
 os = PersonalAIOS(agent=a, memory_dir="./memory")
-os.add_channel("zalo", credentials=...)
+os.add_channel("telegram", token=...)        # M2 default
+os.add_channel("slack", bot_token=...)       # M2 optional
+os.add_channel("email", imap_host=...)       # M2 optional
 os.add_heartbeat("0 7 * * *", "Tóm tắt inbox")
-os.add_node("phone", capabilities=["camera"])
 os.serve()   # ← daemon chạy 24/7
 
-# User gửi tin Zalo → Gateway nhận → Orchestrator route → Agent xử lý
-# 7AM mỗi sáng → Heartbeat trigger → push notification
+# User gửi tin Telegram → Gateway nhận → Agent xử lý → reply
+# 7AM mỗi sáng → Heartbeat trigger → push morning brief
 ```
 
 Đây là **gap** giữa SDK hiện tại và Personal AI OS — không cần xây hết, có thể chỉ chọn 1-2 pattern.
