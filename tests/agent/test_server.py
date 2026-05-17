@@ -1,11 +1,11 @@
 """Tests for underthesea.agent.server."""
 import json
 import unittest
-from unittest import TestCase
+from unittest import IsolatedAsyncioTestCase, TestCase
 from unittest.mock import patch
 
 try:
-    from starlette.testclient import TestClient
+    import httpx
 
     from underthesea.agent import Agent, Tool
     from underthesea.agent.server import (
@@ -26,7 +26,30 @@ def _double(x: int) -> int:
     return x * 2
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
+def _make_agent() -> "Agent":
+    return Agent(
+        name="TestAgent", instruction="i",
+        tools=[Tool(_double)],
+    )
+
+
+def _client(app):
+    """httpx AsyncClient that drives the raw ASGI app in-process."""
+    return httpx.AsyncClient(
+        transport=httpx.ASGITransport(app=app),
+        base_url="http://t",
+    )
+
+
+def _parse_sse(text: str) -> list[dict]:
+    return [
+        json.loads(line[6:])
+        for line in text.split("\n")
+        if line.startswith("data: ")
+    ]
+
+
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
 class TestRecordTool(TestCase):
     def test_records_call_when_trace_active(self):
         wrapped = _record_tool(_double)
@@ -51,7 +74,7 @@ class TestRecordTool(TestCase):
         self.assertEqual(wrapped.__doc__, "Doubles input.")
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
 class TestWrapToolsInplace(TestCase):
     def test_wraps_func_and_sets_marker(self):
         tool = Tool(_double)
@@ -80,7 +103,7 @@ class TestWrapToolsInplace(TestCase):
         self.assertEqual(trace[0]["args"], {"x": 7})
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
 class TestSpawnSessionAgent(TestCase):
     def test_clones_template_with_isolated_history(self):
         template = Agent(
@@ -110,7 +133,7 @@ class TestSpawnSessionAgent(TestCase):
         self.assertIs(session._tracer, sentinel_tracer)
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
 class TestAutoAgentCard(TestCase):
     def test_required_fields_present(self):
         agent = Agent(
@@ -133,63 +156,57 @@ class TestAutoAgentCard(TestCase):
         self.assertLessEqual(len(card["description"]), 200)
 
 
-def _parse_sse(text: str) -> list[dict]:
-    return [
-        json.loads(line[6:])
-        for line in text.split("\n")
-        if line.startswith("data: ")
-    ]
-
-
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
-class TestMakeApp(TestCase):
-    def _agent(self):
-        return Agent(
-            name="TestAgent", instruction="i",
-            tools=[Tool(_double)],
-        )
-
-    def test_card_route_serves_auto_generated_card(self):
-        app = make_app(self._agent(), path="/a2a/x", host="127.0.0.1", port=8765)
-        client = TestClient(app)
-        r = client.get("/a2a/x/.well-known/agent-card.json")
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
+class TestMakeApp(IsolatedAsyncioTestCase):
+    async def test_card_route_serves_auto_generated_card(self):
+        app = make_app(_make_agent(), path="/a2a/x", host="127.0.0.1", port=8765)
+        async with _client(app) as c:
+            r = await c.get("/a2a/x/.well-known/agent-card.json")
         self.assertEqual(r.status_code, 200)
         body = r.json()
         self.assertEqual(body["name"], "TestAgent")
         self.assertEqual(body["url"], "http://127.0.0.1:8765/a2a/x")
 
-    def test_card_route_serves_override(self):
-        custom = _auto_agent_card(self._agent(), "http://x:1/y")
+    async def test_card_route_serves_override(self):
+        custom = _auto_agent_card(_make_agent(), "http://x:1/y")
         custom["name"] = "Overridden"
         app = make_app(
-            self._agent(), path="/a2a/x", agent_card=custom,
+            _make_agent(), path="/a2a/x", agent_card=custom,
             host="127.0.0.1", port=8765,
         )
-        client = TestClient(app)
-        body = client.get("/a2a/x/.well-known/agent-card.json").json()
-        self.assertEqual(body["name"], "Overridden")
+        async with _client(app) as c:
+            r = await c.get("/a2a/x/.well-known/agent-card.json")
+        self.assertEqual(r.json()["name"], "Overridden")
 
-    def test_rpc_and_card_routes_mounted(self):
-        app = make_app(self._agent(), path="/a2a/x", host="127.0.0.1", port=8765)
-        paths = {getattr(r, "path", None) for r in app.routes}
-        self.assertIn("/a2a/x", paths)
-        self.assertIn("/a2a/x/.well-known/agent-card.json", paths)
+    async def test_unknown_route_returns_404(self):
+        app = make_app(_make_agent(), path="/a2a/x", host="127.0.0.1", port=8765)
+        async with _client(app) as c:
+            r = await c.get("/no-such-route")
+        self.assertEqual(r.status_code, 404)
+
+    async def test_options_returns_cors_preflight(self):
+        app = make_app(_make_agent(), path="/a2a/x", host="127.0.0.1", port=8765)
+        async with _client(app) as c:
+            r = await c.request(
+                "OPTIONS", "/a2a/x", headers={"origin": "http://app.local"},
+            )
+        self.assertEqual(r.status_code, 204)
+        self.assertIn("access-control-allow-origin", r.headers)
+        self.assertEqual(r.headers["access-control-allow-origin"], "http://app.local")
 
     def test_tools_wrapped_after_make_app(self):
-        agent = self._agent()
+        agent = _make_agent()
         make_app(agent, path="/a2a/x", host="127.0.0.1", port=8765)
         self.assertTrue(
             getattr(agent.tools[0].func, "__uts_server_wrapped__", False)
         )
 
 
-@unittest.skipUnless(SERVER_AVAILABLE, "starlette + httpx not installed")
-class TestRpcStream(TestCase):
-    def test_stream_emits_full_a2a_event_sequence(self):
+@unittest.skipUnless(SERVER_AVAILABLE, "httpx not installed")
+class TestRpcStream(IsolatedAsyncioTestCase):
+    async def test_stream_emits_full_a2a_event_sequence(self):
         """End-to-end: POST message/stream → SSE with all expected events."""
-        agent = Agent(
-            name="A", instruction="i", tools=[Tool(_double)],
-        )
+        agent = Agent(name="A", instruction="i", tools=[Tool(_double)])
 
         def fake_call(self_agent, message, **kwargs):
             trace = _trace_var.get()
@@ -199,22 +216,21 @@ class TestRpcStream(TestCase):
 
         with patch.object(Agent, "__call__", fake_call):
             app = make_app(agent, path="/a2a/x", host="127.0.0.1", port=8765)
-            client = TestClient(app)
-            r = client.post("/a2a/x", json={
-                "jsonrpc": "2.0", "id": "rpc-1",
-                "method": "message/stream",
-                "params": {"message": {
-                    "role": "user",
-                    "parts": [{"kind": "text", "text": "hi"}],
-                    "messageId": "m1",
-                    "contextId": "ctx-stream-test",
-                }},
-            })
+            async with _client(app) as c:
+                r = await c.post("/a2a/x", json={
+                    "jsonrpc": "2.0", "id": "rpc-1",
+                    "method": "message/stream",
+                    "params": {"message": {
+                        "role": "user",
+                        "parts": [{"kind": "text", "text": "hi"}],
+                        "messageId": "m1",
+                        "contextId": "ctx-stream-test",
+                    }},
+                })
 
         self.assertEqual(r.status_code, 200)
         events = _parse_sse(r.text)
 
-        # Every event must wrap a result in JSON-RPC 2.0 envelope with our rpc-id.
         for ev in events:
             self.assertEqual(ev["jsonrpc"], "2.0")
             self.assertEqual(ev["id"], "rpc-1")
@@ -227,7 +243,6 @@ class TestRpcStream(TestCase):
              "artifact-update", "artifact-update", "status-update"],
         )
 
-        # Status transitions: submitted → working → completed (final=true).
         statuses = [
             ev["result"]["status"]["state"]
             for ev in events if ev["result"]["kind"] == "status-update"
@@ -235,7 +250,6 @@ class TestRpcStream(TestCase):
         self.assertEqual(statuses, ["submitted", "working", "completed"])
         self.assertTrue(events[-1]["result"]["final"])
 
-        # Artifacts: tool_call data part + reply text part.
         artifacts = [
             ev["result"]["artifact"]
             for ev in events if ev["result"]["kind"] == "artifact-update"
@@ -247,7 +261,7 @@ class TestRpcStream(TestCase):
         )
         self.assertEqual(artifacts[1]["parts"][0]["text"], "fake reply")
 
-    def test_stream_generates_ids_when_missing(self):
+    async def test_stream_generates_ids_when_missing(self):
         agent = Agent(name="A", instruction="i", tools=[Tool(_double)])
 
         def fake_call(_self, _message, **_kwargs):
@@ -255,20 +269,18 @@ class TestRpcStream(TestCase):
 
         with patch.object(Agent, "__call__", fake_call):
             app = make_app(agent, path="/a2a/x", host="127.0.0.1", port=8765)
-            client = TestClient(app)
-            r = client.post("/a2a/x", json={
-                "jsonrpc": "2.0", "id": "rpc-2",
-                "method": "message/stream",
-                "params": {"message": {
-                    "role": "user",
-                    "parts": [{"kind": "text", "text": "hi"}],
-                    "messageId": "m1",
-                    # no contextId, no taskId
-                }},
-            })
+            async with _client(app) as c:
+                r = await c.post("/a2a/x", json={
+                    "jsonrpc": "2.0", "id": "rpc-2",
+                    "method": "message/stream",
+                    "params": {"message": {
+                        "role": "user",
+                        "parts": [{"kind": "text", "text": "hi"}],
+                        "messageId": "m1",
+                    }},
+                })
 
         events = _parse_sse(r.text)
-        # IDs should be generated and identical across all events in the response.
         ctx_ids = {ev["result"]["contextId"] for ev in events}
         task_ids = {ev["result"]["taskId"] for ev in events}
         self.assertEqual(len(ctx_ids), 1)

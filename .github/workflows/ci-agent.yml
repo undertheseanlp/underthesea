@@ -11,10 +11,10 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.10"
-      - name: Install agent extras
+      - name: Install underthesea + httpx (ASGI test client)
         run: |
           python -m pip install --upgrade pip
-          pip install -e ".[agent]"
+          pip install -e . httpx
       # Scope: only the server adapter tests. The rest of tests.agent.* targets
       # an older Agent API and is being migrated separately — broaden once green.
       - name: Run server adapter tests

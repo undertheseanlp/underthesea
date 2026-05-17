@@ -1,25 +1,26 @@
-"""A2A-compatible HTTP server for Agent instances.
+"""A2A-compatible HTTP server for Agent instances — raw ASGI, no web framework.
 
 Implements the A2A wire protocol — JSON-RPC 2.0 ``message/stream`` over HTTP
-with SSE streaming — on top of plain Starlette. No a2a-sdk dependency.
+with SSE streaming — as a plain ASGI callable. No starlette / fastapi
+dependency at the library level; users plug the returned app into any ASGI
+server they prefer (uvicorn, hypercorn, daphne, ...).
 
 Endpoints
 ---------
 - ``POST {path}``                              — JSON-RPC ``message/stream``
 - ``GET  {path}/.well-known/agent-card.json``  — discoverable AgentCard
+- ``OPTIONS *``                                — CORS preflight
 
 One :class:`Agent` is spawned per A2A ``contextId`` so each conversation
 keeps its own history. Tool calls are streamed live as ``tool_call``
 artifacts via a ContextVar hook around each ``Tool.func``.
-
-Requires ``starlette`` + ``uvicorn`` (install via ``underthesea[agent]``).
 
 Example
 -------
 ::
 
     from underthesea.agent import Agent, Tool
-    from underthesea.agent.server import serve
+    from underthesea.agent.server import serve  # needs `pip install uvicorn`
 
     def add(a: int, b: int) -> int:
         '''Add two integers.'''
@@ -27,22 +28,20 @@ Example
 
     agent = Agent(name="MathAgent", instruction="...", tools=[Tool(add)])
     serve(agent, port=8000, path="/a2a/math")
+
+To use a different ASGI server::
+
+    from underthesea.agent.server import make_app
+    app = make_app(agent, path="/a2a/math")
+    # then: hypercorn module:app, daphne module:app, etc.
 """
 import asyncio
 import contextvars
 import functools
 import json
 import uuid
-from collections.abc import Callable
+from collections.abc import AsyncIterator, Awaitable, Callable
 from datetime import UTC, datetime
-
-import uvicorn
-from starlette.applications import Starlette
-from starlette.middleware import Middleware
-from starlette.middleware.cors import CORSMiddleware
-from starlette.requests import Request
-from starlette.responses import Response, StreamingResponse
-from starlette.routing import Route
 
 from underthesea.agent.agent import Agent
 from underthesea.agent.tools import Tool
@@ -122,6 +121,79 @@ def _sse_event(rpc_id, result: dict) -> bytes:
     return f"data: {json.dumps(payload)}\n\n".encode()
 
 
+# ---------- raw ASGI helpers ----------
+
+
+async def _read_body(receive) -> bytes:
+    body, more = b"", True
+    while more:
+        msg = await receive()
+        body += msg.get("body", b"")
+        more = msg.get("more_body", False)
+    return body
+
+
+async def _send_bytes(
+    send, status: int, body: bytes, content_type: str, extra_headers=()
+) -> None:
+    headers = [
+        (b"content-type", content_type.encode()),
+        (b"content-length", str(len(body)).encode()),
+        *extra_headers,
+    ]
+    await send({"type": "http.response.start", "status": status, "headers": headers})
+    await send({"type": "http.response.body", "body": body, "more_body": False})
+
+
+async def _send_sse(
+    send, generator: AsyncIterator[bytes], extra_headers=()
+) -> None:
+    headers = [
+        (b"content-type", b"text/event-stream"),
+        (b"cache-control", b"no-cache"),
+        (b"x-accel-buffering", b"no"),
+        *extra_headers,
+    ]
+    await send({"type": "http.response.start", "status": 200, "headers": headers})
+    async for chunk in generator:
+        await send({"type": "http.response.body", "body": chunk, "more_body": True})
+    await send({"type": "http.response.body", "body": b"", "more_body": False})
+
+
+def _cors_headers(request_origin: str | None, allow_origins: list[str]) -> list:
+    if not allow_origins:
+        return []
+    if "*" in allow_origins:
+        allowed = request_origin or "*"
+    elif request_origin in allow_origins:
+        allowed = request_origin
+    else:
+        return []
+    return [
+        (b"access-control-allow-origin", allowed.encode()),
+        (b"access-control-allow-credentials", b"true"),
+        (b"access-control-allow-methods", b"GET, POST, OPTIONS"),
+        (b"access-control-allow-headers", b"*"),
+    ]
+
+
+def _origin_of(scope) -> str | None:
+    for k, v in scope.get("headers", []):
+        if k == b"origin":
+            return v.decode()
+    return None
+
+
+async def _handle_lifespan(receive, send) -> None:
+    while True:
+        msg = await receive()
+        if msg["type"] == "lifespan.startup":
+            await send({"type": "lifespan.startup.complete"})
+        elif msg["type"] == "lifespan.shutdown":
+            await send({"type": "lifespan.shutdown.complete"})
+            return
+
+
 class _SessionRouter:
     """Maps A2A contextId → spawned Agent; owns the streaming RPC handler."""
 
@@ -134,8 +206,8 @@ class _SessionRouter:
             self._sessions[context_id] = _spawn_session_agent(self._template)
         return self._sessions[context_id]
 
-    async def handle_rpc(self, request: Request) -> Response:
-        body = await request.json()
+    async def handle_rpc(self, receive, send, cors_headers) -> None:
+        body = json.loads(await _read_body(receive))
         rpc_id = body.get("id")
         params = body.get("params", {})
         message = params.get("message", {})
@@ -185,7 +257,13 @@ class _SessionRouter:
                 "status": {"state": "completed", "timestamp": _now_iso()},
             })
 
-        return StreamingResponse(stream(), media_type="text/event-stream")
+        await _send_sse(send, stream(), extra_headers=cors_headers)
+
+
+# ---------- public API ----------
+
+
+ASGIApp = Callable[[dict, Callable[[], Awaitable[dict]], Callable[[dict], Awaitable[None]]], Awaitable[None]]
 
 
 def make_app(
@@ -196,8 +274,12 @@ def make_app(
     host: str = "127.0.0.1",
     port: int = 8000,
     allow_origins: list[str] | None = None,
-) -> Starlette:
-    """Build a Starlette app serving ``agent`` over A2A.
+) -> ASGIApp:
+    """Build a raw ASGI app serving ``agent`` over A2A.
+
+    Returns an async callable ``(scope, receive, send)`` suitable for any
+    ASGI server (uvicorn, hypercorn, daphne) and composable with any ASGI
+    router (Starlette, FastAPI) via Mount.
 
     Parameters
     ----------
@@ -220,24 +302,30 @@ def make_app(
     card_path = f"{path}/.well-known/agent-card.json"
 
     router = _SessionRouter(agent)
+    allow = allow_origins if allow_origins is not None else ["*"]
 
-    async def serve_card(_request: Request) -> Response:
-        return Response(content=card_bytes, media_type="application/json")
+    async def app(scope, receive, send):
+        if scope["type"] == "lifespan":
+            await _handle_lifespan(receive, send)
+            return
+        if scope["type"] != "http":
+            return
 
-    routes = [
-        Route(card_path, serve_card, methods=["GET"]),
-        Route(path, router.handle_rpc, methods=["POST"]),
-    ]
-    middleware = [
-        Middleware(
-            CORSMiddleware,
-            allow_origins=allow_origins or ["*"],
-            allow_credentials=True,
-            allow_methods=["*"],
-            allow_headers=["*"],
-        ),
-    ]
-    return Starlette(routes=routes, middleware=middleware)
+        cors = _cors_headers(_origin_of(scope), allow)
+        method, p = scope["method"], scope["path"]
+
+        if method == "OPTIONS":
+            await _send_bytes(send, 204, b"", "text/plain", cors)
+            return
+        if method == "GET" and p == card_path:
+            await _send_bytes(send, 200, card_bytes, "application/json", cors)
+            return
+        if method == "POST" and p == path:
+            await router.handle_rpc(receive, send, cors)
+            return
+        await _send_bytes(send, 404, b"Not Found", "text/plain", cors)
+
+    return app
 
 
 def serve(
@@ -251,9 +339,17 @@ def serve(
 ) -> None:
     """Run a blocking uvicorn server hosting ``agent`` over A2A.
 
-    Convenience entrypoint — use :func:`make_app` if you need to attach extra
-    routes (static UI, custom endpoints) before starting the server.
+    Convenience entrypoint — lazy-imports uvicorn. Use :func:`make_app` if you
+    need to mount extra routes (static UI, custom endpoints) or pick a
+    different ASGI server.
     """
+    try:
+        import uvicorn
+    except ImportError as e:
+        raise ImportError(
+            "uvicorn is required for serve(). Install with: pip install uvicorn"
+        ) from e
+
     app = make_app(agent, path=path, agent_card=agent_card, host=host, port=port)
     print(f"{agent.name} listening on http://{host}:{port}")
     print(f"  RPC:  POST  {path}")

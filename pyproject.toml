@@ -61,11 +61,7 @@ voice = [
 prompt = [
     "openai"
 ]
-agent = [
-    "starlette>=0.40",
-    "uvicorn>=0.30",
-    "httpx>=0.27",
-]
+agent = []
 trace = [
     "langfuse>=2.0.0"
 ]
