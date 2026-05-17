@@ -177,6 +177,27 @@ def chat(backend_port, frontend_port):
         cleanup()
 
 
+@main.command(name="assistant")
+@click.option('--session', 'session_name', default='default', show_default=True,
+              help='Session name. Resumes existing chat if the file already exists.')
+@click.option('--memory-dir', type=click.Path(file_okay=False), default=None,
+              help='Directory for session files. Defaults to ~/.underthesea/assistant.')
+@click.option('--model', default=None,
+              help="Override the Claude model (e.g. 'sonnet', 'haiku', 'opus').")
+@click.option('--check', is_flag=True, help='Verify the claude CLI is installed and exit.')
+@click.pass_context
+def assistant(ctx, session_name, memory_dir, model, check):
+    """Launch the Underthesea Assistant TUI (bridges to your local `claude` CLI)."""
+    from underthesea.agent.assistant.cli import assistant_command
+    ctx.invoke(
+        assistant_command,
+        session_name=session_name,
+        memory_dir=memory_dir,
+        model=model,
+        check=check,
+    )
+
+
 _WIKI_CONFIG_DIR = Path.home() / ".config" / "underthesea"
 _WIKI_CONFIG_FILE = _WIKI_CONFIG_DIR / "wiki.json"
 
