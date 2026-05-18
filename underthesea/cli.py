@@ -104,14 +104,15 @@ def info():
     print("           resources : OK")
 
 
-@main.command(name="web-chat")
+@main.command(name="agent")
 @click.option('--backend-port', default=8001, help='Backend API port')
 @click.option('--frontend-port', default=3000, help='Frontend port')
-def web_chat(backend_port, frontend_port):
-    """Start the Underthesea Chat web app (Next.js frontend + Node backend).
+def agent(backend_port, frontend_port):
+    """Start the Underthesea Agent web app (Next.js frontend + Node backend).
 
-    Renamed from `chat` in v9.6 so the shorter `underthesea chat` alias
-    can launch the local TUI assistant instead.
+    Renamed from `chat` → `web-chat` → `agent` over v9.6 so the shorter
+    `underthesea chat` alias is free for the local TUI, and this richer
+    multi-channel web UI gets the more accurate `agent` name.
     """
     # Find chat app directory
     underthesea_dir = Path(__file__).resolve().parent.parent
