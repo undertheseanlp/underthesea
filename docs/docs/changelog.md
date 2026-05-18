@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- `underthesea chat` — local chat TUI bridging the `claude` CLI ([#1021](https://github.com/undertheseanlp/underthesea/pull/1021))
+  - Spawns `claude --print --output-format=stream-json --verbose` per turn and parses the JSONL event stream (system / assistant / result), so the user's existing `claude login` subscription provides the LLM with no API key or per-token cost
+  - Tracks `session_id` from the first system event and replays it as `--resume <id>` on subsequent turns to keep conversation context
+  - Each invocation starts a fresh timestamped session (`YYYY-MM-DD_HH-MM-SS`) under `~/.underthesea/assistant/<name>.md` (format compatible with the upcoming MarkdownMemory abstraction); pass `--session <name>` to resume a saved chat
+  - Textual chat UI inspired by [OpenClaw](https://github.com/openclaw/openclaw): no header bar, no widget borders, a full-width slate bar (`#2a3447`) for user input, plain text for assistant replies streamed token-by-token, a single-line dim status footer showing `state | workspace/session | model | session_id | tokens/200k`
+  - `ClaudeBridge` is async-iterable and used standalone of the TUI; `Session` provides atomic markdown round-trip
+  - New `[assistant]` optional extra (`textual>=0.50`, `rich>=13.0`); the rest of the assistant module is import-safe without it
+  - 19 unit tests (`tests/agent/assistant/test_bridge.py` + `test_session.py`) and 3 visual snapshot tests via `pytest-textual-snapshot` (`tests/agent/assistant/test_tui_snapshot.py`) under a new `[test-tui]` extra
+  - End-to-end terminal tests live in a sibling `workspace_underthesea/e2e_tests/` Node project driven by [`@microsoft/tui-test`](https://github.com/microsoft/tui-test), covering both the underthesea chat TUI and the upstream `openclaw chat` against a parallel persona workspace
+
+### Changed
+
+- Rename CLI commands so the verb form matches the upstream OpenClaw surface ([#1021](https://github.com/undertheseanlp/underthesea/pull/1021))
+  - `underthesea chat` — was `underthesea assistant` (the chat TUI introduced in this release)
+  - `underthesea agent` — was `underthesea chat` (the Next.js + Node web app already shipped in v9.4)
+
+### Documentation
+
+- Pivot the `docs/research/personal-ai-os/` notes to a global growth positioning ([#1020](https://github.com/undertheseanlp/underthesea/pull/1020))
+  - Roadmap rewritten as three milestones — M1 Smallest Agent Framework + Free TUI Assistant, M2 Personal AI OS in Pure Python, M3 Growth Amplification
+  - Drop the multi-agent orchestrator phase from the 6-month plan; drop Vietnamese-specific channel work (Zalo) in favor of global ones (Telegram / Slack / Email / Discord); add explicit non-goal about not using Vietnamese identity as a marketing lever
+
 ## [9.5.0] - 2026-05-17
 
 ### Added
