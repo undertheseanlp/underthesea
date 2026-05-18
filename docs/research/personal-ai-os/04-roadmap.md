@@ -32,7 +32,7 @@ Mượn pattern từ OpenClaw mà KHÔNG cần daemon. Mục tiêu: positioning 
   - Hash tool name + args, skip duplicate trong 1 turn
 
 ### Underthesea Assistant TUI (NEW — OpenClaw-style claude-cli bridge)
-- [ ] **CLI subcommand**: `underthesea assistant` — launch TUI app
+- [ ] **CLI subcommand**: `underthesea chat` — launch TUI app
 - [ ] **TUI** với `textual` — chat panel + input box + status bar (streaming token-by-token)
 - [ ] **ClaudeBridge**: spawn `claude --print --output-format=stream-json` subprocess, parse stream
   - Dùng `claude login` subscription của user → **free** (không tốn API token)

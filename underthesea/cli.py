@@ -104,11 +104,16 @@ def info():
     print("           resources : OK")
 
 
-@main.command()
+@main.command(name="agent")
 @click.option('--backend-port', default=8001, help='Backend API port')
 @click.option('--frontend-port', default=3000, help='Frontend port')
-def chat(backend_port, frontend_port):
-    """Start the Underthesea Chat application (frontend + backend)."""
+def agent(backend_port, frontend_port):
+    """Start the Underthesea Agent web app (Next.js frontend + Node backend).
+
+    Renamed from `chat` → `web-chat` → `agent` over v9.6 so the shorter
+    `underthesea chat` alias is free for the local TUI, and this richer
+    multi-channel web UI gets the more accurate `agent` name.
+    """
     # Find chat app directory
     underthesea_dir = Path(__file__).resolve().parent.parent
     chat_dir = underthesea_dir / "extensions" / "apps" / "chat"
@@ -175,6 +180,28 @@ def chat(backend_port, frontend_port):
     except Exception as e:
         click.echo(f"Error: {e}")
         cleanup()
+
+
+@main.command(name="chat")
+@click.option('--session', 'session_name', default=None,
+              help='Resume a saved chat by name. Omit to start a fresh '
+                   'timestamped session.')
+@click.option('--memory-dir', type=click.Path(file_okay=False), default=None,
+              help='Directory for session files. Defaults to ~/.underthesea/assistant.')
+@click.option('--model', default=None,
+              help="Override the Claude model (e.g. 'sonnet', 'haiku', 'opus').")
+@click.option('--check', is_flag=True, help='Verify the claude CLI is installed and exit.')
+@click.pass_context
+def chat(ctx, session_name, memory_dir, model, check):
+    """Launch the Underthesea chat TUI (bridges to your local `claude` CLI)."""
+    from underthesea.agent.assistant.cli import chat_command
+    ctx.invoke(
+        chat_command,
+        session_name=session_name,
+        memory_dir=memory_dir,
+        model=model,
+        check=check,
+    )
 
 
 _WIKI_CONFIG_DIR = Path.home() / ".config" / "underthesea"
