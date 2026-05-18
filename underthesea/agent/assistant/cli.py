@@ -1,7 +1,7 @@
-"""Click command implementation for `underthesea assistant`.
+"""Click command implementation for `underthesea chat`.
 
 Imported lazily from underthesea.cli to keep startup time small for users who
-do not use the assistant.
+do not use the chat TUI.
 """
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ def _new_session_name() -> str:
     return datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
 
-@click.command(name="assistant")
+@click.command(name="chat")
 @click.option(
     "--session",
     "session_name",
@@ -45,13 +45,13 @@ def _new_session_name() -> str:
     is_flag=True,
     help="Verify the `claude` CLI is installed and exit.",
 )
-def assistant_command(
+def chat_command(
     session_name: str | None,
     memory_dir: str | None,
     model: str | None,
     check: bool,
 ) -> None:
-    """Launch the Underthesea Assistant TUI.
+    """Launch the Underthesea chat TUI.
 
     Uses your local `claude` CLI subscription as the LLM backend — no API key
     or token cost. Make sure you have run `claude login` once.
