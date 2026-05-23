@@ -155,7 +155,7 @@ impl FastTfIdfVectorizer {
             .collect();
 
         // Sort by frequency (descending) and take top max_features
-        filtered.sort_unstable_by(|a, b| b.1.cmp(&a.1));
+        filtered.sort_unstable_by_key(|b| std::cmp::Reverse(b.1));
         filtered.truncate(self.max_features);
 
         // Build vocabulary and IDF
