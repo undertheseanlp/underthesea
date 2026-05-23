@@ -36,4 +36,24 @@ mod tests {
         let output = new_featurizer.process(sentences);
         assert_eq!(output, expected);
     }
+
+    #[test]
+    fn test_crf_featurizer_column_index() {
+        let sentences = vec![vec![
+            vec!["sinh".to_string(), "A".to_string()],
+            vec!["viên".to_string(), "B".to_string()],
+            vec!["đi".to_string(), "C".to_string()],
+            vec!["học".to_string(), "D".to_string()],
+        ]];
+        let feature_configs = vec!["T[0][0]".to_string(), "T[0][1]".to_string()];
+        let new_featurizer = CRFFeaturizer::new(feature_configs, HashSet::new());
+        let expected: Vec<Vec<Vec<String>>> = vec![vec![
+            vec!["T[0][0]=sinh".to_string(), "T[0][1]=A".to_string()],
+            vec!["T[0][0]=viên".to_string(), "T[0][1]=B".to_string()],
+            vec!["T[0][0]=đi".to_string(), "T[0][1]=C".to_string()],
+            vec!["T[0][0]=học".to_string(), "T[0][1]=D".to_string()],
+        ]];
+        let output = new_featurizer.process(sentences);
+        assert_eq!(output, expected);
+    }
 }

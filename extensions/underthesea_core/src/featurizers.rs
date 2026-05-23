@@ -73,6 +73,12 @@ impl CRFFeaturizer {
                     }
                     _ => (),
                 }
+                match cap.name("column") {
+                    Some(s) => {
+                        feature_template.column = s.as_str().parse::<isize>().unwrap();
+                    }
+                    _ => (),
+                }
                 match cap.name("function") {
                     Some(s) => {
                         feature_template.function = Option::from(String::from(s.as_str()));
