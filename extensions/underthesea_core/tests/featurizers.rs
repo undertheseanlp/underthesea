@@ -56,4 +56,109 @@ mod tests {
         let output = new_featurizer.process(sentences);
         assert_eq!(output, expected);
     }
+
+    #[test]
+    fn test_crf_featurizer_multiple_columns() {
+        let sentences = vec![vec![
+            vec![
+                "sinh".to_string(),
+                "N".to_string(),
+                "B-NP".to_string(),
+                "O".to_string(),
+            ],
+            vec![
+                "viên".to_string(),
+                "Np".to_string(),
+                "I-NP".to_string(),
+                "B-PER".to_string(),
+            ],
+            vec![
+                "đi".to_string(),
+                "V".to_string(),
+                "B-VP".to_string(),
+                "O".to_string(),
+            ],
+            vec![
+                "học".to_string(),
+                "V".to_string(),
+                "I-VP".to_string(),
+                "O".to_string(),
+            ],
+        ]];
+        let feature_configs = vec![
+            "T[0][0]".to_string(),
+            "T[0][1]".to_string(),
+            "T[0][2]".to_string(),
+            "T[0][3]".to_string(),
+        ];
+        let new_featurizer = CRFFeaturizer::new(feature_configs, HashSet::new());
+        let expected: Vec<Vec<Vec<String>>> = vec![vec![
+            vec![
+                "T[0][0]=sinh".to_string(),
+                "T[0][1]=N".to_string(),
+                "T[0][2]=B-NP".to_string(),
+                "T[0][3]=O".to_string(),
+            ],
+            vec![
+                "T[0][0]=viên".to_string(),
+                "T[0][1]=Np".to_string(),
+                "T[0][2]=I-NP".to_string(),
+                "T[0][3]=B-PER".to_string(),
+            ],
+            vec![
+                "T[0][0]=đi".to_string(),
+                "T[0][1]=V".to_string(),
+                "T[0][2]=B-VP".to_string(),
+                "T[0][3]=O".to_string(),
+            ],
+            vec![
+                "T[0][0]=học".to_string(),
+                "T[0][1]=V".to_string(),
+                "T[0][2]=I-VP".to_string(),
+                "T[0][3]=O".to_string(),
+            ],
+        ]];
+        let output = new_featurizer.process(sentences);
+        assert_eq!(output, expected);
+    }
+
+    #[test]
+    fn test_crf_featurizer_column_with_offset() {
+        let sentences = vec![vec![
+            vec![
+                "sinh".to_string(),
+                "N".to_string(),
+                "B-NP".to_string(),
+                "O".to_string(),
+            ],
+            vec![
+                "viên".to_string(),
+                "Np".to_string(),
+                "I-NP".to_string(),
+                "B-PER".to_string(),
+            ],
+            vec![
+                "đi".to_string(),
+                "V".to_string(),
+                "B-VP".to_string(),
+                "O".to_string(),
+            ],
+            vec![
+                "học".to_string(),
+                "V".to_string(),
+                "I-VP".to_string(),
+                "O".to_string(),
+            ],
+        ]];
+        let feature_configs = vec!["T[-1][2]".to_string(), "T[1][3]".to_string()];
+        let new_featurizer = CRFFeaturizer::new(feature_configs, HashSet::new());
+        let expected: Vec<Vec<Vec<String>>> = vec![vec![
+            vec!["T[-1][2]=BOS".to_string(), "T[1][3]=B-PER".to_string()],
+            vec!["T[-1][2]=B-NP".to_string(), "T[1][3]=O".to_string()],
+            vec!["T[-1][2]=I-NP".to_string(), "T[1][3]=O".to_string()],
+            vec!["T[-1][2]=B-VP".to_string(), "T[1][3]=EOS".to_string()],
+        ]];
+        let output = new_featurizer.process(sentences);
+        assert_eq!(output, expected);
+    }
 }
