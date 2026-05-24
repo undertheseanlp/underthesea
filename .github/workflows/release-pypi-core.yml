@@ -2,8 +2,12 @@ name: Release underthesea_core
 
 on:
   push:
+    branches: [main]
+    paths:
+      - 'extensions/underthesea_core/Cargo.toml'
+      - '.github/workflows/release-pypi-core.yml'
     tags:
-      - 'underthesea-core-v*'  # Trigger on tags like underthesea-core-v3.1.0
+      - 'underthesea-core-v*'  # Manual tag release (e.g. underthesea-core-v3.1.0)
 
 env:
   PYPI_TOKEN: ${{ secrets.PYPI_UNDERTHESEA_CORE_API_TOKEN }}
@@ -12,23 +16,43 @@ jobs:
   verify-version:
     name: "Verify Version"
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      should_release: ${{ steps.check.outputs.should_release }}
     steps:
       - uses: actions/checkout@v4
+      - name: Read version from Cargo.toml
+        id: version
+        run: |
+          CARGO_VERSION=$(grep '^version = ' extensions/underthesea_core/Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          echo "version=$CARGO_VERSION" >> "$GITHUB_OUTPUT"
+          echo "Cargo.toml version: $CARGO_VERSION"
       - name: Verify tag matches Cargo.toml version
+        if: startsWith(github.ref, 'refs/tags/')
         run: |
           TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-core-v}"
-          CARGO_VERSION=$(grep '^version = ' extensions/underthesea_core/Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
-          echo "Tag version: $TAG_VERSION"
-          echo "Cargo.toml version: $CARGO_VERSION"
-          if [ "$TAG_VERSION" != "$CARGO_VERSION" ]; then
-            echo "ERROR: Tag version ($TAG_VERSION) does not match Cargo.toml version ($CARGO_VERSION)"
+          if [ "$TAG_VERSION" != "${{ steps.version.outputs.version }}" ]; then
+            echo "ERROR: Tag version ($TAG_VERSION) does not match Cargo.toml version (${{ steps.version.outputs.version }})"
             exit 1
           fi
-          echo "✓ Versions match"
+          echo "✓ Tag matches Cargo.toml"
+      - name: Check whether version is already on PyPI
+        id: check
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "https://pypi.org/pypi/underthesea-core/$VERSION/json")
+          if [ "$STATUS" = "200" ]; then
+            echo "underthesea-core $VERSION already on PyPI; nothing to release."
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "underthesea-core $VERSION not yet on PyPI; will release."
+            echo "should_release=true" >> "$GITHUB_OUTPUT"
+          fi
 
   sdist:
     name: "Source Distribution"
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -49,6 +73,7 @@ jobs:
   linux:
     name: "Linux ${{ matrix.target }}"
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
@@ -77,6 +102,7 @@ jobs:
   musllinux:
     name: "Linux musl ${{ matrix.target }}"
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: ubuntu-24.04
     strategy:
       fail-fast: false
@@ -105,6 +131,7 @@ jobs:
   windows:
     name: "Windows x64"
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: windows-latest  # windows-2025
     steps:
     - uses: actions/checkout@v4
@@ -128,6 +155,7 @@ jobs:
   macos:
     name: "macOS ${{ matrix.target }}"
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: ${{ matrix.runner }}
     strategy:
       fail-fast: false
