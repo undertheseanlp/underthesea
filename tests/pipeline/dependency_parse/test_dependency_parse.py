@@ -31,3 +31,14 @@ class TestDependencyParse(TestCase):
         for sentence in actual:
             for token in sentence:
                 self.assertEqual(len(token), 3)
+
+    def test_batch_size_does_not_change_result(self):
+        # The torch-level batch_size only controls how many tokens share a
+        # forward pass; predictions must be identical regardless of its value.
+        texts = [
+            'Tối 29/11, Việt Nam thêm 2 ca mắc Covid-19',
+            'Tôi đi học',
+        ]
+        one_per_batch = dependency_parse(texts, batch_size=1)
+        large_batch = dependency_parse(texts, batch_size=5000)
+        self.assertEqual(one_per_batch, large_batch)
