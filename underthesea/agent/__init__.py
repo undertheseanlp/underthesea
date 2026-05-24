@@ -29,7 +29,7 @@ from underthesea.agent.providers import (
     StreamDelta,
     ToolCall,
 )
-from underthesea.agent.tools import Tool
+from underthesea.agent.tools import Tool, tool
 from underthesea.agent.trace import BaseTracer, LangfuseTracer, LocalTracer
 from underthesea.agent.wiki import WikiAgent
 
@@ -41,6 +41,7 @@ __all__ = [
     "LLM",
     "Session",
     "Tool",
+    "tool",
     # Providers
     "OpenAI",
     "AzureOpenAI",

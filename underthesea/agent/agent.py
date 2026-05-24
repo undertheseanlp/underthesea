@@ -1,5 +1,6 @@
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 from underthesea.agent.llm import LLM
 from underthesea.agent.providers.base import BaseProvider
@@ -8,6 +9,23 @@ from underthesea.agent.trace.base import BaseTracer, extract_usage
 from underthesea.agent.trace.decorator import _current_trace_id, _current_tracer
 
 _auto_tracer = None
+
+
+def _empty_usage() -> dict[str, int]:
+    return {"input_tokens": 0, "output_tokens": 0, "total_tokens": 0}
+
+
+def _safe_load_args(raw: str) -> tuple[dict, str | None]:
+    """Parse a JSON-encoded tool-arguments blob, tolerating empty strings."""
+    if not raw:
+        return {}, None
+    try:
+        parsed = json.loads(raw)
+    except (json.JSONDecodeError, TypeError) as e:
+        return {}, str(e)
+    if not isinstance(parsed, dict):
+        return {}, f"Tool arguments must decode to an object, got {type(parsed).__name__}"
+    return parsed, None
 
 
 def _tracing_disabled() -> bool:
@@ -49,6 +67,9 @@ class Agent:
         max_iterations: int = 10,
         provider: BaseProvider | LLM | None = None,
         tracer: BaseTracer | None = None,
+        parallel_tools: bool = True,
+        max_tool_workers: int = 8,
+        tool_error_handling: str = "recover",
     ):
         """
         Initialize an Agent.
@@ -70,11 +91,28 @@ class Agent:
             Tracer for observability (e.g. LocalTracer, LangfuseTracer).
             If omitted, the agent inherits the active ``@trace()`` context
             automatically.
+        parallel_tools : bool
+            When the model returns multiple tool calls in one response, execute
+            them concurrently in a thread pool.  Set to ``False`` to keep
+            sequential execution (useful when tools share mutable state).
+        max_tool_workers : int
+            Upper bound on threads used for parallel tool execution.
+        tool_error_handling : {"recover", "raise"}
+            ``"recover"`` (default) catches tool exceptions and feeds the error
+            back to the model as the tool result, so the agent can self-correct.
+            ``"raise"`` propagates the original behaviour of aborting the run.
         """
+        if tool_error_handling not in ("recover", "raise"):
+            raise ValueError(
+                f"tool_error_handling must be 'recover' or 'raise', got {tool_error_handling!r}",
+            )
         self.name = name
         self.tools = tools or []
         self.instruction = instruction or self.DEFAULT_INSTRUCTION
         self.max_iterations = max_iterations
+        self.parallel_tools = parallel_tools
+        self.max_tool_workers = max_tool_workers
+        self.tool_error_handling = tool_error_handling
         # Accept LLM (auto-detect) or any BaseProvider
         if isinstance(provider, LLM):
             self._provider = provider.backend
@@ -82,6 +120,8 @@ class Agent:
             self._provider = provider
         self._tracer = tracer
         self._history: list[dict] = []
+        self._last_usage: dict[str, int] = _empty_usage()
+        self._total_usage: dict[str, int] = _empty_usage()
 
     def _ensure_provider(self, **kwargs):
         """Initialize provider if not already set."""
@@ -143,6 +183,7 @@ class Agent:
         """
         self._ensure_provider(**llm_kwargs)
         self._history.append({"role": "user", "content": message})
+        self._last_usage = _empty_usage()
 
         tracer, trace_id, owns_trace = self._resolve_tracing()
 
@@ -183,8 +224,9 @@ class Agent:
 
         result = self._provider.chat(messages, model=model)
 
+        usage = extract_usage(result.raw) if hasattr(result, "raw") else None
+        self._accumulate_usage(usage)
         if tracer and span_id:
-            usage = extract_usage(result.raw) if hasattr(result, "raw") else None
             tracer.end_generation(span_id, output=result.content, usage=usage)
 
         response = result.content
@@ -217,8 +259,9 @@ class Agent:
                 messages, model=model, tools=openai_tools, tool_choice="auto"
             )
 
+            usage = extract_usage(result.raw) if hasattr(result, "raw") else None
+            self._accumulate_usage(usage)
             if tracer and span_id:
-                usage = extract_usage(result.raw) if hasattr(result, "raw") else None
                 gen_output = {
                     "content": result.content,
                     "tool_calls": (
@@ -241,40 +284,100 @@ class Agent:
                 ]
                 messages.append(assistant_msg)
 
-                for tc in result.tool_calls:
-                    tool = tool_map[tc.name]
-                    args = json.loads(tc.arguments)
-
-                    # -- trace: tool execution --
-                    tool_span_id = None
-                    if tracer and trace_id:
-                        tool_span_id = tracer.start_span(
-                            trace_id, name=f"tool.{tc.name}", input=args,
-                        )
-
-                    try:
-                        tool_result = tool.execute(args)
-                    except Exception as e:
-                        if tracer and tool_span_id:
-                            tracer.end_span(
-                                tool_span_id, status="error", error=str(e),
-                            )
-                        raise
-
-                    if tracer and tool_span_id:
-                        tracer.end_span(tool_span_id, output=tool_result)
-
-                    messages.append({
-                        "role": "tool",
-                        "tool_call_id": tc.id,
-                        "content": tool_result,
-                    })
+                tool_messages = self._run_tool_calls(
+                    result.tool_calls, tool_map, tracer, trace_id,
+                )
+                messages.extend(tool_messages)
             else:
                 content = result.content
                 self._history.append({"role": "assistant", "content": content})
                 return content
 
         raise RuntimeError("Max tool iterations reached")
+
+    def _run_tool_calls(
+        self,
+        tool_calls,
+        tool_map: dict[str, Tool],
+        tracer: BaseTracer | None,
+        trace_id: str | None,
+    ) -> list[dict]:
+        """Execute a batch of tool calls and return the resulting tool messages.
+
+        Calls run concurrently in a thread pool when ``parallel_tools`` is set
+        and there is more than one call.  Order is preserved so the model sees
+        results in the same order it requested them.
+        """
+        if not tool_calls:
+            return []
+
+        run_one = self._run_single_tool
+
+        if self.parallel_tools and len(tool_calls) > 1:
+            workers = min(self.max_tool_workers, len(tool_calls))
+            with ThreadPoolExecutor(max_workers=workers) as executor:
+                results = list(executor.map(
+                    lambda tc: run_one(tc, tool_map, tracer, trace_id),
+                    tool_calls,
+                ))
+        else:
+            results = [run_one(tc, tool_map, tracer, trace_id) for tc in tool_calls]
+        return results
+
+    def _run_single_tool(
+        self,
+        tc,
+        tool_map: dict[str, Tool],
+        tracer: BaseTracer | None,
+        trace_id: str | None,
+    ) -> dict:
+        """Run one tool call and return the matching ``role=tool`` message.
+
+        Errors are JSON-encoded and surfaced to the model unless the agent is
+        configured with ``tool_error_handling="raise"``.
+        """
+        args, parse_error = _safe_load_args(tc.arguments)
+
+        tool_span_id = None
+        if tracer and trace_id:
+            tool_span_id = tracer.start_span(
+                trace_id, name=f"tool.{tc.name}", input=args,
+            )
+
+        try:
+            if parse_error is not None:
+                raise ValueError(f"Invalid tool arguments JSON: {parse_error}")
+            tool = tool_map.get(tc.name)
+            if tool is None:
+                raise KeyError(f"Unknown tool: {tc.name!r}")
+            tool_result = tool.execute(args)
+        except Exception as e:
+            if tracer and tool_span_id:
+                tracer.end_span(tool_span_id, status="error", error=str(e))
+            if self.tool_error_handling == "raise":
+                raise
+            tool_result = json.dumps(
+                {"error": str(e), "tool": tc.name},
+                ensure_ascii=False,
+            )
+        else:
+            if tracer and tool_span_id:
+                tracer.end_span(tool_span_id, output=tool_result)
+
+        return {
+            "role": "tool",
+            "tool_call_id": tc.id,
+            "content": tool_result,
+        }
+
+    def _accumulate_usage(self, usage: dict | None) -> None:
+        """Track per-call and lifetime token usage on the agent."""
+        if not usage:
+            return
+        for key in ("input_tokens", "output_tokens", "total_tokens"):
+            value = usage.get(key, 0) or 0
+            self._last_usage[key] = self._last_usage.get(key, 0) + value
+            self._total_usage[key] = self._total_usage.get(key, 0) + value
 
     def stream(self, message: str, model: str | None = None, **llm_kwargs):
         """Stream a response, yielding text chunks.
@@ -323,8 +426,9 @@ class Agent:
             tracer.end_trace(trace_id, output=response)
 
     def reset(self):
-        """Clear conversation history."""
+        """Clear conversation history and per-call usage (lifetime totals kept)."""
         self._history = []
+        self._last_usage = _empty_usage()
 
     @property
     def history(self) -> list[dict]:
@@ -338,6 +442,16 @@ class Agent:
     @tracer.setter
     def tracer(self, value: BaseTracer | None):
         self._tracer = value
+
+    @property
+    def last_usage(self) -> dict[str, int]:
+        """Token usage from the most recent ``agent(...)`` call."""
+        return dict(self._last_usage)
+
+    @property
+    def total_usage(self) -> dict[str, int]:
+        """Cumulative token usage across the agent's lifetime."""
+        return dict(self._total_usage)
 
 
 class _AgentInstance:
