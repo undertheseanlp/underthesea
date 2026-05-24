@@ -2,8 +2,12 @@ name: Release underthesea_core to crates.io
 
 on:
   push:
+    branches: [main]
+    paths:
+      - 'extensions/underthesea_core/Cargo.toml'
+      - '.github/workflows/release-crates-core.yml'
     tags:
-      - 'underthesea-core-v*'  # Same tag as PyPI release (e.g. underthesea-core-v3.2.0)
+      - 'underthesea-core-v*'  # Manual tag release (e.g. underthesea-core-v3.2.0)
 
 env:
   CARGO_TERM_COLOR: always
@@ -12,23 +16,43 @@ jobs:
   verify-version:
     name: Verify Version
     runs-on: ubuntu-latest
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      should_release: ${{ steps.check.outputs.should_release }}
     steps:
       - uses: actions/checkout@v4
+      - name: Read version from Cargo.toml
+        id: version
+        run: |
+          CARGO_VERSION=$(grep '^version = ' extensions/underthesea_core/Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
+          echo "version=$CARGO_VERSION" >> "$GITHUB_OUTPUT"
+          echo "Cargo.toml version: $CARGO_VERSION"
       - name: Verify tag matches Cargo.toml version
+        if: startsWith(github.ref, 'refs/tags/')
         run: |
           TAG_VERSION="${GITHUB_REF#refs/tags/underthesea-core-v}"
-          CARGO_VERSION=$(grep '^version = ' extensions/underthesea_core/Cargo.toml | head -1 | sed 's/version = "\(.*\)"/\1/')
-          echo "Tag version: $TAG_VERSION"
-          echo "Cargo.toml version: $CARGO_VERSION"
-          if [ "$TAG_VERSION" != "$CARGO_VERSION" ]; then
-            echo "ERROR: Tag version ($TAG_VERSION) does not match Cargo.toml version ($CARGO_VERSION)"
+          if [ "$TAG_VERSION" != "${{ steps.version.outputs.version }}" ]; then
+            echo "ERROR: Tag version ($TAG_VERSION) does not match Cargo.toml version (${{ steps.version.outputs.version }})"
             exit 1
           fi
-          echo "✓ Versions match"
+          echo "✓ Tag matches Cargo.toml"
+      - name: Check whether version is already on crates.io
+        id: check
+        run: |
+          VERSION="${{ steps.version.outputs.version }}"
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" -H "User-Agent: underthesea-release-ci" "https://crates.io/api/v1/crates/underthesea_core/$VERSION")
+          if [ "$STATUS" = "200" ]; then
+            echo "underthesea_core $VERSION already on crates.io; nothing to release."
+            echo "should_release=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "underthesea_core $VERSION not yet on crates.io; will release."
+            echo "should_release=true" >> "$GITHUB_OUTPUT"
+          fi
 
   publish:
     name: Publish to crates.io
     needs: verify-version
+    if: needs.verify-version.outputs.should_release == 'true'
     runs-on: ubuntu-latest
     defaults:
       run:
