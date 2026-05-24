@@ -9,15 +9,23 @@ def init_parser():
     return uts_parser
 
 
+def _format_sentence(values):
+    return list(zip(values[1], values[6], values[7]))
+
+
 def dependency_parse(text):
     from underthesea import word_tokenize  # import here to avoid circular import
 
-    sentence = word_tokenize(text)
     parser = init_parser()
+
+    if isinstance(text, (list, tuple)):
+        sentences = [word_tokenize(t) for t in text]
+        dataset = parser.predict(sentences)
+        return [_format_sentence(sentence.values) for sentence in dataset.sentences]
+
+    sentence = word_tokenize(text)
     dataset = parser.predict([sentence])
-    results = dataset.sentences[0].values
-    results = list(zip(results[1], results[6], results[7]))
-    return results
+    return _format_sentence(dataset.sentences[0].values)
 
 
 # Lazy import visualization functions to avoid circular imports
