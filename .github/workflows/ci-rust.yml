@@ -41,9 +41,9 @@ jobs:
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
             extensions/underthesea_core/target/
-          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-cargo-v2-${{ hashFiles('extensions/underthesea_core/Cargo.toml') }}
           restore-keys: |
-            ${{ runner.os }}-cargo-
+            ${{ runner.os }}-cargo-v2-
 
       - name: Check formatting
         run: cargo fmt --all -- --check
@@ -82,9 +82,9 @@ jobs:
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
             extensions/underthesea_core/target/
-          key: ${{ runner.os }}-cargo-build-${{ hashFiles('**/Cargo.lock') }}
+          key: ${{ runner.os }}-cargo-build-v2-${{ hashFiles('extensions/underthesea_core/Cargo.toml') }}
           restore-keys: |
-            ${{ runner.os }}-cargo-build-
+            ${{ runner.os }}-cargo-build-v2-
 
       - name: Install maturin
         run: pip install maturin
