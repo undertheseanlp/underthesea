@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 from unittest import TestCase
+from unittest.mock import patch
 from underthesea import dependency_parse
 
 
@@ -37,3 +38,15 @@ class TestDependencyParse(TestCase):
 
     def test_batch_empty(self):
         self.assertEqual(dependency_parse([]), [])
+
+    def test_batch_real_torch_batching(self):
+        # Equal-length sentences land in one length bucket and are run through a
+        # single torch forward pass (real batching, not a Python loop). This also
+        # guards a regression: batches larger than num_layers*2 used to crash.
+        from underthesea.pipeline.dependency_parse import init_parser
+        parser = init_parser()
+        texts = ['Tôi đi học'] * 16
+        with patch.object(parser, 'forward', wraps=parser.forward) as spy:
+            actual = dependency_parse(texts)
+        self.assertEqual(len(actual), 16)
+        self.assertEqual(spy.call_count, 1)
