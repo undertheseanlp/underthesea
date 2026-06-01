@@ -189,8 +189,10 @@ class BiLSTM(nn.Module):
     def permute_hidden(self, hx, permutation):
         if permutation is None:
             return hx
-        h = hx[0].index_select(0, permutation)
-        c = hx[1].index_select(0, permutation)
+        # permute along the batch dimension (dim 1), not the layer dimension (dim 0);
+        # indexing dim 0 with batch indices crashes once batch_size > num_layers*2
+        h = hx[0].index_select(1, permutation)
+        c = hx[1].index_select(1, permutation)
 
         return h, c
 

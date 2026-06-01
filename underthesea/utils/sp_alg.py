@@ -38,6 +38,10 @@ def kmeans(x, k, max_it=32):
     x, k = torch.tensor(x, dtype=torch.float), min(len(x), k)
     # collect unique datapoints
     d = x.unique()
+    # the number of clusters must not exceed the number of distinct lengths,
+    # otherwise empty clusters are forced open and produce duplicate centroids
+    # (which later collapse in `dict(zip(centroids, clusters))`, dropping sentences)
+    k = min(len(d), k)
     # initialize k centroids randomly
     c = d[torch.randperm(len(d))[:k]]
     # assign each datapoint to the cluster with the closest centroid
