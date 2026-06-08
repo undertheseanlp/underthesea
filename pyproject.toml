@@ -58,6 +58,12 @@ voice = [
     "matplotlib",
     "playsound3"
 ]
+speech = [
+    # VieNeu-TTS — default TTS backend. Core install is torch-free (ONNX on CPU);
+    # GPU users can additionally `pip install vieneu[gpu]`.
+    "vieneu>=3.0.4",
+    "playsound3"
+]
 prompt = [
     "openai"
 ]
