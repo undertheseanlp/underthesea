@@ -58,6 +58,11 @@ voice = [
     "matplotlib",
     "playsound3"
 ]
+voice-vieneu = [
+    "vieneu",
+    "soundfile",
+    "playsound3"
+]
 prompt = [
     "openai"
 ]

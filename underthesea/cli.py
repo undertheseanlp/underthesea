@@ -33,9 +33,12 @@ def download_model(model):
 
 @main.command()
 @click.argument('text', required=True)
-def tts(text):
+@click.option('--backend', '-b', default='viettts',
+              type=click.Choice(['viettts', 'vieneu'], case_sensitive=False),
+              help='TTS backend engine (default: viettts)')
+def tts(text, backend):
     from underthesea.pipeline.tts import tts as underthesea_tts
-    underthesea_tts(text, play=True)
+    underthesea_tts(text, play=True, backend=backend)
 
 
 @main.command()
