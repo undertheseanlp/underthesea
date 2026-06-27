@@ -1,18 +1,19 @@
 import time
-from os.path import join
 
-import numpy as np
-
-from underthesea.file_utils import MODELS_FOLDER
-from underthesea.pipeline.tts.viettts_ import nat_normalize_text
-from underthesea.pipeline.tts.viettts_.hifigan.mel2wave import mel2wave
-from underthesea.pipeline.tts.viettts_.nat.text2mel import text2mel
-
-model_path = join(MODELS_FOLDER, "VIET_TTS_V0_4_1")
+_VALID_BACKENDS = ("viettts", "vieneu")
 
 
-def text_to_speech(text):
-    # prevent too long text
+def _synthesize_viettts(text):
+    from os.path import join
+
+    import numpy as np
+
+    from underthesea.file_utils import MODELS_FOLDER
+    from underthesea.pipeline.tts.viettts_ import nat_normalize_text
+    from underthesea.pipeline.tts.viettts_.hifigan.mel2wave import mel2wave
+    from underthesea.pipeline.tts.viettts_.nat.text2mel import text2mel
+
+    model_path = join(MODELS_FOLDER, "VIET_TTS_V0_4_1")
     if len(text) > 500:
         text = text[:500]
     text = nat_normalize_text(text)
@@ -24,34 +25,64 @@ def text_to_speech(text):
         join(model_path, "duration_latest_ckpt.pickle"),
     )
     wave = mel2wave(mel, join(model_path, "config.json"), join(model_path, "hk_hifi.pickle"))
-    return (wave * (2**15)).astype(np.int16)
+    y = (wave * (2**15)).astype(np.int16)
+    return 16_000, y
 
 
-def tts(text, outfile="sound.wav", play=False):
-    y = text_to_speech(text)
-    # write y array to sound.wav
+def _synthesize_vieneu(text):
+    try:
+        from vieneu import Vieneu
+    except ImportError:
+        raise ImportError(
+            "The 'vieneu' package is required for backend='vieneu'. "
+            "Install it with: pip install underthesea[voice-vieneu]"
+        )
+
+    import numpy as np
+    engine = Vieneu()
+    audio = engine.infer(text)
+    sample_rate = 48_000
+    if audio.dtype != np.int16:
+        if np.issubdtype(audio.dtype, np.floating):
+            peak = np.max(np.abs(audio)) or 1.0
+            audio = (audio / peak * 32767).astype(np.int16)
+        else:
+            audio = audio.astype(np.int16)
+    return sample_rate, audio
+
+
+def text_to_speech(text, backend="viettts"):
+    if backend == "viettts":
+        return _synthesize_viettts(text)
+    elif backend == "vieneu":
+        return _synthesize_vieneu(text)
+    else:
+        raise ValueError(
+            f"Unknown TTS backend '{backend}'. Choose from: {_VALID_BACKENDS}"
+        )
+
+
+def tts(text, outfile="sound.wav", play=False, backend="viettts"):
+    sample_rate, y = text_to_speech(text, backend=backend)
     import soundfile as sf
-    sf.write(outfile, y, 16_000)
+    sf.write(outfile, y, sample_rate)
     time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(f"\n{time_str}: {text}")
     if play:
         from playsound3 import playsound
         playsound(outfile)
-    return 16_000, y
+    return sample_rate, y
 
 
-# Alias for backward compatibility
 say = tts
 
 
-def think_and_tts(text, outfile="sound.wav"):
-    # create two processes, one for thinking, one for tts
+def think_and_tts(text, outfile="sound.wav", backend="viettts"):
     import multiprocessing
     p1 = multiprocessing.Process(target=terminal_thinking)
-    p2 = multiprocessing.Process(target=tts, args=(text, outfile))
+    p2 = multiprocessing.Process(target=tts, args=(text, outfile), kwargs={"backend": backend})
     p1.start()
     p2.start()
-    # while p2 is end, terminate p1
     p2.join()
     p1.terminate()
     from playsound3 import playsound
@@ -59,7 +90,6 @@ def think_and_tts(text, outfile="sound.wav"):
 
 
 def terminal_thinking():
-    # each 300ms, print a dot
     import time
     while True:
         print(".", end="")
