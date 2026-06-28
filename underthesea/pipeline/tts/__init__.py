@@ -32,11 +32,11 @@ def _synthesize_viettts(text):
 def _synthesize_vieneu(text):
     try:
         from vieneu import Vieneu
-    except ImportError:
+    except ImportError as err:
         raise ImportError(
             "The 'vieneu' package is required for backend='vieneu'. "
             "Install it with: pip install underthesea[voice-vieneu]"
-        )
+        ) from err
 
     import numpy as np
     engine = Vieneu()
