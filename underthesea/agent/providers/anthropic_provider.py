@@ -15,7 +15,7 @@ class Anthropic(BaseProvider):
     >>> llm = Anthropic()  # uses ANTHROPIC_API_KEY env var
     """
 
-    DEFAULT_MODEL = "claude-sonnet-4-20250514"
+    DEFAULT_MODEL = "claude-sonnet-5"
     BASE_URL = "https://api.anthropic.com"
     API_VERSION = "2023-06-01"
 
