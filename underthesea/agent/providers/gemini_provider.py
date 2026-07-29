@@ -16,7 +16,7 @@ class Gemini(BaseProvider):
     >>> llm = Gemini()  # uses GOOGLE_API_KEY env var
     """
 
-    DEFAULT_MODEL = "gemini-2.0-flash"
+    DEFAULT_MODEL = "gemini-3.5-flash"
     BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 
     def __init__(self, api_key: str | None = None, model: str | None = None):
