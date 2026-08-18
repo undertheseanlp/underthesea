@@ -279,3 +279,15 @@ class TestTokenize(TestCase):
         actual = tokenize(text, fixed_words=fixed_words)
         expected = ['Viện Nghiên Cứu', 'chiến', 'lược', 'quốc', 'gia', 'về', 'học máy']
         self.assertEqual(expected, actual)
+
+    def test_fixed_words_do_not_leak_into_later_calls(self):
+        # A call that passes `fixed_words` must not mutate global state used by
+        # subsequent calls. Previously `fixed_words` was compiled into the
+        # module-level `patterns` global, so a later call with no `fixed_words`
+        # kept merging the earlier call's fixed words.
+        text = "Viện Nghiên Cứu chiến lược quốc gia"
+        clean = tokenize(text)
+        tokenize(text, fixed_words=["Viện Nghiên Cứu", "chiến lược"])
+        clean_again = tokenize(text)
+        self.assertEqual(clean, clean_again)
+        self.assertNotIn("Viện Nghiên Cứu", clean_again)

@@ -231,7 +231,6 @@ regex_patterns = [
     symbol,
     non_word  # non_word must be last
 ]
-recompile_regex_patterns = False
 regex_patterns_combine = r"(" + "|".join(regex_patterns) + ")"
 patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
 
@@ -258,18 +257,19 @@ def tokenize(text, format=None, tag=False, use_character_normalize=True, use_tok
     """
     if fixed_words is None:
         fixed_words = []
-    global recompile_regex_patterns
-    global patterns
+    # Use a per-call pattern. `fixed_words` is caller-supplied, so compiling it
+    # into the module-level `patterns` global leaked one call's fixed words into
+    # every subsequent call in the process (and was not thread-safe).
+    active_patterns = patterns
     if len(fixed_words) > 0:
         compiled_fixed_words = [re.sub(" ", r"\ ", fixed_word) for fixed_word in fixed_words]
         fixed_words_pattern = "(?P<fixed_words>\\b" + "\\b|\\b".join(compiled_fixed_words) + "\\b)"
         merged_regex_patterns = [fixed_words_pattern] + regex_patterns
         regex_patterns_combine = r"(" + "|".join(merged_regex_patterns) + ")"
-        patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
-        recompile_regex_patterns = True
+        active_patterns = re.compile(regex_patterns_combine, re.VERBOSE | re.UNICODE)
     if use_character_normalize:
         text = normalize_characters_in_text(text)
-    matches = list(re.finditer(patterns, text))
+    matches = list(re.finditer(active_patterns, text))
     tokens = [extract_match(m) for m in matches]
 
     if tag:
