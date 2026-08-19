@@ -3,3 +3,4 @@ seqeval
 datasets
 hydra-core
 aiohttp>=3.13.4 # not directly required, pinned by Snyk to avoid a vulnerability
+nltk>=3.9.3 # not directly required, pinned by Snyk to avoid a vulnerability
