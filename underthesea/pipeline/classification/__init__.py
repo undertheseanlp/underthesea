@@ -3,8 +3,6 @@ from pathlib import Path
 
 from underthesea.file_utils import UNDERTHESEA_FOLDER, cached_path
 
-FORMAT = "%(message)s"
-logging.basicConfig(format=FORMAT)
 logger = logging.getLogger("underthesea")
 
 # Model configurations
