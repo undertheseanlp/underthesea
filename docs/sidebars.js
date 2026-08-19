@@ -59,6 +59,7 @@ const sidebars = {
         'api/index',
         'api/sent-tokenize',
         'api/text-normalize',
+        'api/restore-diacritics',
         'api/word-tokenize',
         'api/pos-tag',
         'api/chunk',

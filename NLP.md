@@ -46,6 +46,16 @@ Supports abbreviations:
 "Phường Hồng Hà, Thành phố Hà Nội"
 ```
 
+## Diacritics Restoration
+
+Restore diacritics (thêm dấu) for Vietnamese text written without them.
+
+```python
+>>> from underthesea import restore_diacritics
+>>> restore_diacritics("chung ta co the lam duoc")
+"chúng ta có thể làm được"
+```
+
 ## Tagging
 
 ### Word Segmentation

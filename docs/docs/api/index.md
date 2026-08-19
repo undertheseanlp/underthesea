@@ -8,6 +8,7 @@ This section provides complete API documentation for all Underthesea functions.
 |----------|-------------|---------|
 | [`sent_tokenize`](sent-tokenize) | Sentence segmentation | Core |
 | [`text_normalize`](text-normalize) | Text normalization | Core |
+| [`restore_diacritics`](restore-diacritics) | Diacritics restoration | Core |
 | [`word_tokenize`](word-tokenize) | Word segmentation | Core |
 | [`pos_tag`](pos-tag) | Part-of-speech tagging | Core |
 | [`chunk`](chunk) | Phrase chunking | Core |
@@ -39,6 +40,7 @@ All main functions can be imported directly from `underthesea`:
 from underthesea import (
     sent_tokenize,
     text_normalize,
+    restore_diacritics,
     word_tokenize,
     pos_tag,
     chunk,
