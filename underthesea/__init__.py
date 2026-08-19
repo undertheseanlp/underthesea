@@ -28,6 +28,7 @@ from underthesea.version import __version__ as __version__
 from .pipeline.chunking import chunk
 from .pipeline.ner import ner
 from .pipeline.pos_tag import pos_tag
+from .pipeline.restore_diacritics import restore_diacritics
 from .pipeline.sent_tokenize import sent_tokenize
 from .pipeline.text_normalize import text_normalize
 from .pipeline.word_tokenize import word_tokenize
@@ -58,6 +59,7 @@ for name, module in optional_imports.items():
 __all__ = [
     'sent_tokenize',
     'text_normalize',
+    'restore_diacritics',
     'word_tokenize',
     'pos_tag',
     'chunk',

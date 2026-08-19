@@ -256,6 +256,7 @@ See full documentation at [NLP.md](NLP.md).
 |----------|-------|
 | Sentence Segmentation | `sent_tokenize(text)` |
 | Text Normalization | `text_normalize(text)` |
+| Diacritics Restoration | `restore_diacritics(text)` |
 | Word Segmentation | `word_tokenize(text)` |
 | POS Tagging | `pos_tag(text)` |
 | Chunking | `chunk(text)` |
