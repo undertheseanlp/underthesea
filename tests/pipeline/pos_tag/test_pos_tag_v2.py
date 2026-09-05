@@ -10,9 +10,11 @@ class TestPostagV2(TestCase):
         expected = []
         self.assertEqual(actual, expected)
 
-    def test_accuracy(self):
+    def test_accuracy_and_repeated_calls(self):
         text = "Tổng Bí thư: Ai trót để tay nhúng chàm thì hãy sớm tự gột rửa"
         output = pos_tag(text, model="v2.0")
+        repeated_output = pos_tag(text, model="v2.0")
+        self.assertEqual(output, repeated_output)
         self.assertEqual(len(output), 11)
         self.assertEqual(output[4][0], "tay")
         self.assertEqual(output[4][1], "N")
