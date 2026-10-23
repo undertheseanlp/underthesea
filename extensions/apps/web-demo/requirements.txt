@@ -1,4 +1,4 @@
-certifi==2024.7.4
+certifi==2026.10.19
 click==6.7
 dj-database-url==0.4.1
 Django==5.2.16
