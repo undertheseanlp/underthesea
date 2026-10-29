@@ -48,6 +48,19 @@ def ner(sentence, format=None, deep=False):
             if item["word"].startswith("##"):
                 entities[-1]["word"] = entities[-1]["word"] + item["word"][2:]
                 entities[-1]["end"] = item["end"]
+            elif _continues_hyphenated_entity(sentence, entities[-1], item):
+                # The tokenizer splits "Jean-Luc" around "-", and the pipeline drops
+                # the "-" token as O, so "Luc" would otherwise start a new entity.
+                item["entity"] = "I-" + item["entity"][2:]
+                entities.append(item)
             else:
                 entities.append(item)
         return entities
+
+
+def _continues_hyphenated_entity(sentence, previous, item):
+    # Only person names: for LOC/ORG a hyphen usually joins two entities,
+    # e.g. "Hà Nội-Hải Phòng" or "Việt-Lào".
+    if item["entity"] != "B-PER" or previous["entity"] not in ("B-PER", "I-PER"):
+        return False
+    return sentence[previous["end"]:item["start"]] == "-"
