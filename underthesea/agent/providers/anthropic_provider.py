@@ -2,9 +2,21 @@
 
 import json
 import os
+import re
 
 from underthesea.agent.providers import _http
 from underthesea.agent.providers.base import BaseProvider, ProviderMessage, StreamDelta, ToolCall
+
+# Models that reject a non-default temperature (returns HTTP 400).
+# Anthropic docs: claude-sonnet-5, claude-opus-4-7+, claude-haiku-5,
+# claude-fable, claude-mythos and all later model families.
+_NO_TEMPERATURE = re.compile(
+    r"claude-(?:opus-(?:4-[7-9]|\d{2,}|\d-\d{2,}|5)|sonnet-5|haiku-5|fable|mythos)"
+)
+
+
+def _supports_temperature(model: str) -> bool:
+    return not _NO_TEMPERATURE.search(model)
 
 
 class Anthropic(BaseProvider):
@@ -42,12 +54,14 @@ class Anthropic(BaseProvider):
             else:
                 filtered.append(msg)
 
+        mdl = model or self._model
         body = {
-            "model": model or self._model,
+            "model": mdl,
             "messages": self._convert_messages(filtered),
             "max_tokens": self._max_tokens,
-            "temperature": temperature,
         }
+        if _supports_temperature(mdl):
+            body["temperature"] = temperature
         if system_prompt:
             body["system"] = system_prompt
         if tools:
@@ -138,13 +152,15 @@ class Anthropic(BaseProvider):
             else:
                 filtered.append(msg)
 
+        mdl = model or self._model
         body = {
-            "model": model or self._model,
+            "model": mdl,
             "messages": self._convert_messages(filtered),
             "max_tokens": self._max_tokens,
-            "temperature": temperature,
             "stream": True,
         }
+        if _supports_temperature(mdl):
+            body["temperature"] = temperature
         if system_prompt:
             body["system"] = system_prompt
         if tools:
