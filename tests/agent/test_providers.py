@@ -284,6 +284,62 @@ class TestGeminiParallelResults(TestCase):
         self.assertEqual(contents[4]["parts"][0]["functionResponse"]["name"], "fn2")
 
 
+class TestGeminiThoughtSignature(TestCase):
+    """thoughtSignature must survive the round-trip through the message history (issue #1123)."""
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_parse_response_captures_thought_signature(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        data = {"candidates": [{"content": {"parts": [
+            {
+                "functionCall": {"name": "get_weather", "args": {"loc": "HN"}},
+                "thoughtSignature": "CiQB-opaque-sig",
+            }
+        ], "role": "model"}}]}
+        result = Gemini()._parse_response(data)
+        self.assertEqual(result.tool_calls[0].thought_signature, "CiQB-opaque-sig")
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_convert_messages_writes_back_thought_signature(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        messages = [
+            {"role": "user", "content": "weather?"},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [{
+                    "id": "c1",
+                    "type": "function",
+                    "function": {"name": "get_weather", "arguments": '{"loc": "HN"}'},
+                    "thought_signature": "CiQB-opaque-sig",
+                }],
+            },
+        ]
+        _, contents = Gemini()._convert_messages(messages)
+        model_parts = contents[1]["parts"]
+        fc_part = next(p for p in model_parts if "functionCall" in p)
+        self.assertEqual(fc_part.get("thoughtSignature"), "CiQB-opaque-sig")
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_no_signature_means_no_field(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        messages = [
+            {"role": "user", "content": "hi"},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [{
+                    "id": "c1",
+                    "type": "function",
+                    "function": {"name": "fn", "arguments": "{}"},
+                }],
+            },
+        ]
+        _, contents = Gemini()._convert_messages(messages)
+        fc_part = next(p for p in contents[1]["parts"] if "functionCall" in p)
+        self.assertNotIn("thoughtSignature", fc_part)
+
+
 class TestGemini(TestCase):
     def test_missing_api_key(self):
         with patch.dict(os.environ, {}, clear=True):
