@@ -14,6 +14,7 @@ class ToolCall:
     id: str
     name: str
     arguments: str  # JSON string
+    thought_signature: str | None = None  # Gemini: opaque signature required on replay
 
 
 @dataclass
