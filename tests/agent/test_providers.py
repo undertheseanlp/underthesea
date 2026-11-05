@@ -179,6 +179,75 @@ class TestAnthropic(TestCase):
         self.assertEqual(converted[2]["content"][0]["type"], "tool_result")
 
 
+class TestGeminiParallelResults(TestCase):
+    """Parallel tool responses must be grouped into one user content block (issue #1123)."""
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_parallel_responses_grouped(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        messages = [
+            {"role": "user", "content": "weather and time?"},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [
+                    {"id": "c1", "type": "function", "function": {"name": "get_weather", "arguments": "{}"}},
+                    {"id": "c2", "type": "function", "function": {"name": "get_time", "arguments": "{}"}},
+                ],
+            },
+            {"role": "tool", "tool_call_id": "c1", "content": '{"temp": 25}'},
+            {"role": "tool", "tool_call_id": "c2", "content": '{"time": "10:00"}'},
+        ]
+        _, contents = Gemini()._convert_messages(messages)
+        # Should be: user, model, user (not user, model, user, user)
+        self.assertEqual(len(contents), 3)
+        self.assertEqual(contents[2]["role"], "user")
+        self.assertEqual(len(contents[2]["parts"]), 2)
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_function_name_used_not_literal(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        messages = [
+            {"role": "user", "content": "weather?"},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [
+                    {"id": "c1", "type": "function", "function": {"name": "get_weather", "arguments": "{}"}},
+                ],
+            },
+            {"role": "tool", "tool_call_id": "c1", "content": '{"temp": 25}'},
+        ]
+        _, contents = Gemini()._convert_messages(messages)
+        fr = contents[-1]["parts"][0]["functionResponse"]
+        self.assertEqual(fr["name"], "get_weather")
+
+    @patch.dict(os.environ, {"GOOGLE_API_KEY": "k"}, clear=True)
+    def test_sequential_tool_responses_not_merged(self):
+        from underthesea.agent.providers.gemini_provider import Gemini
+        # Two separate tool call rounds: each round's responses stay separate
+        messages = [
+            {"role": "user", "content": "step 1"},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [{"id": "c1", "type": "function", "function": {"name": "fn1", "arguments": "{}"}}],
+            },
+            {"role": "tool", "tool_call_id": "c1", "content": '"r1"'},
+            {
+                "role": "assistant",
+                "content": None,
+                "tool_calls": [{"id": "c2", "type": "function", "function": {"name": "fn2", "arguments": "{}"}}],
+            },
+            {"role": "tool", "tool_call_id": "c2", "content": '"r2"'},
+        ]
+        _, contents = Gemini()._convert_messages(messages)
+        # user, model, user(tool), model, user(tool) — 5 blocks total
+        self.assertEqual(len(contents), 5)
+        self.assertEqual(contents[2]["parts"][0]["functionResponse"]["name"], "fn1")
+        self.assertEqual(contents[4]["parts"][0]["functionResponse"]["name"], "fn2")
+
+
 class TestGemini(TestCase):
     def test_missing_api_key(self):
         with patch.dict(os.environ, {}, clear=True):
