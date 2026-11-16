@@ -49,6 +49,7 @@ class Gemini(BaseProvider):
     def _convert_messages(self, messages):
         system_text = None
         contents = []
+        tool_id_to_name: dict[str, str] = {}
 
         for msg in messages:
             role = msg["role"]
@@ -65,21 +66,32 @@ class Gemini(BaseProvider):
                     parts.append({"text": msg["content"]})
                 for tc in msg.get("tool_calls") or []:
                     tc_func = tc.get("function", tc)
+                    tc_name = tc_func.get("name", tc.get("name"))
+                    if tc.get("id") and tc_name:
+                        tool_id_to_name[tc["id"]] = tc_name
                     parts.append({
                         "functionCall": {
-                            "name": tc_func.get("name", tc.get("name")),
+                            "name": tc_name,
                             "args": json.loads(tc_func.get("arguments", tc.get("arguments", "{}"))),
                         }
                     })
                 contents.append({"role": "model", "parts": parts})
 
             elif role == "tool":
+                tc_id = msg.get("tool_call_id", "")
+                func_name = tool_id_to_name.get(tc_id, tc_id)
                 raw_content = msg["content"]
                 response = json.loads(raw_content) if isinstance(raw_content, str) else raw_content
-                contents.append({
-                    "role": "user",
-                    "parts": [{"functionResponse": {"name": "function", "response": response}}],
-                })
+                fr_part = {"functionResponse": {"name": func_name, "response": response}}
+                # Gemini requires all parallel tool responses in a single user content block
+                if (
+                    contents
+                    and contents[-1]["role"] == "user"
+                    and any("functionResponse" in p for p in contents[-1]["parts"])
+                ):
+                    contents[-1]["parts"].append(fr_part)
+                else:
+                    contents.append({"role": "user", "parts": [fr_part]})
 
         return system_text, contents
 
