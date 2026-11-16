@@ -65,12 +65,16 @@ class Gemini(BaseProvider):
                     parts.append({"text": msg["content"]})
                 for tc in msg.get("tool_calls") or []:
                     tc_func = tc.get("function", tc)
-                    parts.append({
+                    fc_part = {
                         "functionCall": {
                             "name": tc_func.get("name", tc.get("name")),
                             "args": json.loads(tc_func.get("arguments", tc.get("arguments", "{}"))),
                         }
-                    })
+                    }
+                    sig = tc.get("thought_signature")
+                    if sig:
+                        fc_part["thoughtSignature"] = sig
+                    parts.append(fc_part)
                 contents.append({"role": "model", "parts": parts})
 
             elif role == "tool":
@@ -124,6 +128,7 @@ class Gemini(BaseProvider):
                         id=fc.get("id", f"call_{fc['name']}"),
                         name=fc["name"],
                         arguments=json.dumps(fc.get("args", {})),
+                        thought_signature=part.get("thoughtSignature"),
                     )
                 )
 
