@@ -114,6 +114,42 @@ class TestAzureOpenAI(TestCase):
         self.assertIn("2024-06-01", call_url)
 
 
+class TestAnthropicTemperature(TestCase):
+    """Temperature must be omitted for new Anthropic models (issue #1122)."""
+
+    def _check(self, model, expect_temp):
+        from underthesea.agent.providers.anthropic_provider import _supports_temperature
+        self.assertEqual(_supports_temperature(model), expect_temp, model)
+
+    def test_new_models_reject_temperature(self):
+        for m in ["claude-sonnet-5", "claude-sonnet-5-5", "claude-haiku-5",
+                  "claude-haiku-5-5", "claude-opus-4-7", "claude-opus-4-8",
+                  "claude-opus-5", "claude-fable", "claude-mythos",
+                  "us.anthropic.claude-sonnet-5-5-20260101"]:
+            self._check(m, False)
+
+    def test_old_models_accept_temperature(self):
+        for m in ["claude-3-5-sonnet-20241022", "claude-sonnet-4-6",
+                  "claude-opus-4-5", "claude-3-haiku-20240307"]:
+            self._check(m, True)
+
+    @patch.dict(os.environ, {"ANTHROPIC_API_KEY": "k"}, clear=True)
+    @patch(MOCK_POST, return_value=_anthropic_response("ok"))
+    def test_new_model_body_has_no_temperature(self, mock_post):
+        from underthesea.agent.providers.anthropic_provider import Anthropic
+        Anthropic(model="claude-sonnet-5").chat([{"role": "user", "content": "hi"}])
+        body = mock_post.call_args[0][2]
+        self.assertNotIn("temperature", body)
+
+    @patch.dict(os.environ, {"ANTHROPIC_API_KEY": "k"}, clear=True)
+    @patch(MOCK_POST, return_value=_anthropic_response("ok"))
+    def test_old_model_body_has_temperature(self, mock_post):
+        from underthesea.agent.providers.anthropic_provider import Anthropic
+        Anthropic(model="claude-sonnet-4-6").chat([{"role": "user", "content": "hi"}])
+        body = mock_post.call_args[0][2]
+        self.assertIn("temperature", body)
+
+
 class TestAnthropic(TestCase):
     def test_missing_api_key(self):
         with patch.dict(os.environ, {}, clear=True):
@@ -191,7 +227,7 @@ class TestGemini(TestCase):
         from underthesea.agent.providers.gemini_provider import Gemini
         p = Gemini()
         self.assertEqual(p.name, "gemini")
-        self.assertEqual(p.model, "gemini-2.0-flash")
+        self.assertEqual(p.model, "gemini-3.5-flash")
 
     @patch.dict(os.environ, {"GOOGLE_API_KEY": "test-key"}, clear=True)
     @patch(MOCK_POST, return_value={
