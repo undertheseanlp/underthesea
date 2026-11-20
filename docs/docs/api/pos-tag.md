@@ -20,7 +20,8 @@ print(tagged)
 def pos_tag(
     sentence: str,
     format: str = None,
-    model: str = None
+    model: str = None,
+    restore_diacritics: bool = False
 ) -> list[tuple[str, str]]
 ```
 
@@ -31,6 +32,7 @@ def pos_tag(
 | `sentence` | `str` | | The input text to tag |
 | `format` | `str` | `None` | Output format (currently only `None` supported) |
 | `model` | `str` | `None` | Path to custom model |
+| `restore_diacritics` | `bool` | `False` | Restore Vietnamese diacritics first, for text written without them (see [restore_diacritics](restore-diacritics.md)) |
 
 ## Returns
 
@@ -91,6 +93,16 @@ print(nouns)
 verbs = [word for word, tag in tagged if tag == 'V']
 print(verbs)
 # ['yêu']
+```
+
+### Text Without Diacritics
+
+For text typed without diacritics, set `restore_diacritics=True`. The
+diacritics are restored, the text is segmented, and then it is tagged:
+
+```python
+pos_tag("lap trinh vien tri tue nhan tao", restore_diacritics=True)
+# [('lập trình viên', 'N'), ('trí tuệ', 'N'), ('nhân tạo', 'A')]
 ```
 
 ### Processing Multiple Sentences

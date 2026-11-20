@@ -5,7 +5,8 @@ from .regex_tokenize import tokenize
 word_tokenize_model = None
 
 
-def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=None):
+def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=None,
+                  restore_diacritics=False):
     """
     Vietnamese word segmentation
 
@@ -16,6 +17,9 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=N
             use format=`text` for text format
         use_token_normalize (bool): True if use token_normalize
         fixed_words (list): list of fixed words
+        restore_diacritics (bool): True to restore Vietnamese diacritics
+            before segmentation, for text written without them
+            (e.g. "lap trinh vien"). Defaults to False.
 
     Returns:
         :obj:`list` of :obj:`str`:
@@ -32,10 +36,17 @@ def word_tokenize(sentence, format=None, use_token_normalize=True, fixed_words=N
 
         >>> word_tokenize(sentence, format="text")
         "Bác_sĩ bây_giờ có_thể thản_nhiên báo_tin bệnh_nhân bị ung_thư"
+
+        >>> word_tokenize("lap trinh vien tri tue nhan tao", restore_diacritics=True)
+        ["lập trình viên", "trí tuệ", "nhân tạo"]
     """
     if fixed_words is None:
         fixed_words = []
     global word_tokenize_model
+    if restore_diacritics:
+        # Lazy import: the diacritics model is only loaded when requested
+        from underthesea.pipeline.restore_diacritics import restore_diacritics as _restore
+        sentence = _restore(sentence)
     tokens = tokenize(sentence, use_token_normalize=use_token_normalize, fixed_words=fixed_words)
     features = [[token] for token in tokens]
     if word_tokenize_model is None:

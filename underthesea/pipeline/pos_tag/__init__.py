@@ -5,7 +5,7 @@ from .model_crf import CRFPOSTagPredictor
 pos_model_v2 = None
 
 
-def pos_tag(sentence, format=None, model=None):
+def pos_tag(sentence, format=None, model=None, restore_diacritics=False):
     global pos_model_v2
     """
     Vietnamese POS tagging
@@ -15,6 +15,9 @@ def pos_tag(sentence, format=None, model=None):
 
     sentence: {unicode, str}
         Raw sentence
+    restore_diacritics: bool
+        True to restore Vietnamese diacritics before tagging, for text
+        written without them (e.g. "lap trinh vien"). Defaults to False.
 
     Returns
     =======
@@ -34,10 +37,12 @@ def pos_tag(sentence, format=None, model=None):
     ('TPHCM', 'Np'),
     ('bị', 'V'),
     ('truy quét', 'V')]
+    >>> pos_tag("lap trinh vien tri tue nhan tao", restore_diacritics=True)
+    [('lập trình viên', 'N'), ('trí tuệ', 'N'), ('nhân tạo', 'A')]
     """
     from underthesea import word_tokenize  # import here to avoid circular import
 
-    sentence = word_tokenize(sentence)
+    sentence = word_tokenize(sentence, restore_diacritics=restore_diacritics)
     if model == "v2.0":
         if pos_model_v2 is None:
             # Lazy import to avoid loading underthesea_core at module load time
