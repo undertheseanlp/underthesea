@@ -68,6 +68,18 @@ restore_diacritics("email cua toi la test@gmail.com")
 # "email của tôi là test@gmail.com"
 ```
 
+### Segmenting and Tagging Text Without Diacritics
+
+`word_tokenize` and `pos_tag` accept `restore_diacritics=True`, which runs
+this function first:
+
+```python
+from underthesea import pos_tag
+
+pos_tag("lap trinh vien tri tue nhan tao", restore_diacritics=True)
+# [('lập trình viên', 'N'), ('trí tuệ', 'N'), ('nhân tạo', 'A')]
+```
+
 ## Notes
 
 - The first call lazily loads a ~1.5 MB n-gram model (once per process);
