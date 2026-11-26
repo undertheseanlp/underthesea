@@ -279,6 +279,8 @@ class Agent:
                         "id": tc.id,
                         "type": "function",
                         "function": {"name": tc.name, "arguments": tc.arguments},
+                        **({"thought_signature": tc.thought_signature}
+                           if tc.thought_signature else {}),
                     }
                     for tc in result.tool_calls
                 ]
