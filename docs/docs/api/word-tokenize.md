@@ -20,7 +20,8 @@ def word_tokenize(
     sentence: str,
     format: str = None,
     use_token_normalize: bool = True,
-    fixed_words: list = None
+    fixed_words: list = None,
+    restore_diacritics: bool = False
 ) -> list[str] | str
 ```
 
@@ -32,6 +33,7 @@ def word_tokenize(
 | `format` | `str` | `None` | Output format: `None` for list, `"text"` for string |
 | `use_token_normalize` | `bool` | `True` | Whether to normalize tokens |
 | `fixed_words` | `list` | `None` | List of words that should not be split |
+| `restore_diacritics` | `bool` | `False` | Restore Vietnamese diacritics first, for text written without them (see [restore_diacritics](restore-diacritics.md)) |
 
 ## Returns
 
@@ -72,6 +74,19 @@ fixed_words = ["Viện Nghiên Cứu", "học máy"]
 result = word_tokenize(text, fixed_words=fixed_words, format="text")
 print(result)
 # "Viện_Nghiên_Cứu chiến_lược quốc_gia về học_máy"
+```
+
+### Text Without Diacritics
+
+Set `restore_diacritics=True` to segment text typed without Vietnamese
+diacritics. The diacritics are restored first, then the text is segmented:
+
+```python
+text = "lap trinh vien tri tue nhan tao ha noi"
+word_tokenize(text)
+# ["lap", "trinh vien", "tri tue", "nhan", "tao", "ha", "noi"]
+word_tokenize(text, restore_diacritics=True)
+# ["lập trình viên", "trí tuệ", "nhân tạo", "hà nội"]
 ```
 
 ### Processing Multiple Sentences
